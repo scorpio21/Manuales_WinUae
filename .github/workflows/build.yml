@@ -59,8 +59,8 @@ jobs:
           Write-Host "##[info] Compilando instalador..."
           Set-Location $env:GITHUB_WORKSPACE
 
-          $outputDir = Join-Path $PSScriptRoot 'publish'
-          & $iscc "/Sspawn=0" "/V=1" "/O$outputDir" "$PSScriptRoot\installer.iss"
+          $outputDir = Join-Path $env:GITHUB_WORKSPACE 'publish'
+          & $iscc "/Sspawn=0" "/V=1" "/O$outputDir" "$env:GITHUB_WORKSPACE\installer.iss"
 
           $installer = Get-ChildItem -Path $outputDir -Filter *.exe -Recurse | Select-Object -First 1
           if ($installer) {
