@@ -6,12 +6,19 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Versión (ej. 0.1.1)'
+        required: true
+        default: '0.1.0'
   release:
     types: [published]
 
 jobs:
   build:
     runs-on: windows-latest
+    env:
+      VERSION: ${{ github.event.inputs.version || '0.1.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -67,13 +74,14 @@ jobs:
         shell: pwsh
         run: |
           New-Item -Force -ItemType Directory -Path publish | Out-Null
-          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath publish/ManualesWinUAE_win-x64_singlefile.zip
+          $version = "${{ env.VERSION }}"
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: ManualesWinUAE_win-x64_singlefile
-          path: publish/ManualesWinUAE_win-x64_singlefile.zip
+          path: publish/ManualesWinUAE_*_win-x64_singlefile.zip
 
       - name: Upload installer artifact (if exists)
         if: ${{ always() }}
@@ -88,6 +96,8 @@ jobs:
     if: github.event_name == 'release'
     runs-on: windows-latest
     needs: build
+    env:
+      VERSION: ${{ github.event.release.tag_name || '0.1.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -106,13 +116,14 @@ jobs:
         shell: pwsh
         run: |
           New-Item -Force -ItemType Directory -Path publish | Out-Null
-          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath publish/ManualesWinUAE_win-x64_singlefile.zip
+          $version = "${{ env.VERSION }}"
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            publish/ManualesWinUAE_win-x64_singlefile.zip
+            publish/ManualesWinUAE_*_win-x64_singlefile.zip
             publish/*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
