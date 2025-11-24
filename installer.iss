@@ -35,8 +35,8 @@ Name: "desktopicon"; Description: "Crear icono en el escritorio"; GroupDescripti
 ; Archivos de la aplicación (single-file publish)
 Source: "{#PublishDir}\\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion
 
-; Carpeta img con todas sus subcarpetas y archivos (situada un nivel por encima del proyecto)
-Source: "..\\img\\*"; DestDir: "{app}\\img"; Flags: recursesubdirs createallsubdirs ignoreversion
+; Carpeta img con todas sus subcarpetas y archivos (dentro del repositorio/proyecto)
+Source: "img\\*"; DestDir: "{app}\\img"; Flags: recursesubdirs createallsubdirs ignoreversion
 
 [Icons]
 Name: "{group}\\{#MyAppName}"; Filename: "{app}\\{#MyAppExeName}"
