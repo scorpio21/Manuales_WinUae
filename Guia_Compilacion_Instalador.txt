@@ -1,0 +1,160 @@
+Guía: Compilar, Preparar y Regenerar Instalador (Inno Setup)
+
+Proyecto: Manuales WinUAE (WinForms .NET 8)
+Ejecutable principal: WinFormsManual.exe
+Versión instalador: 0.1.0
+Carpeta del proyecto: d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+Carpeta de imágenes compartidas: d:\xampp\htdocs\Manual_Winuae\img\...
+
+------------------------------------------------------------
+1) Preparar cambios en imágenes y código
+------------------------------------------------------------
+
+- Coloca nuevas capturas / imágenes de manuales en la carpeta "img" según el manual:
+  - Manual HDF existente: img/Creación_HDF/
+  - Logos: img/logo/
+  - Nuevos manuales: crea subcarpetas dentro de img, por ejemplo:
+    - img/Instalacion_WB31/
+    - img/Configuracion_Juegos/
+
+- Desde el editor de manuales dentro de la app:
+  - Usa el botón "Buscar..." para seleccionar imágenes dentro de "img" o sus subcarpetas.
+  - El programa guardará rutas relativas (por ejemplo: "Creación_HDF\\paso40.png").
+
+- Si añades pasos fijos al manual de WinUAE:
+  - Edita Manual.cs, método: ManualesPredefinidos.CrearManualWinUaeCreacionHdf().
+
+- Verifica que el proyecto compila:
+  1. Abrir PowerShell en:
+     d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+  2. Ejecutar:
+     dotnet build
+
+------------------------------------------------------------
+2) Publicar binarios (Release, self-contained, single-file)
+------------------------------------------------------------
+
+Ejecutar en PowerShell desde la carpeta del proyecto:
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+
+# (Opcional) limpiar publicación previa
+Remove-Item -Path .\publish\* -Recurse -Force -ErrorAction SilentlyContinue
+
+# Publicar binarios actualizados en single-file, win-x64
+dotnet publish WinFormsManual.csproj `
+  -c Release -r win-x64 --self-contained true `
+  /p:PublishSingleFile=true /p:PublishTrimmed=false `
+  -o publish/win-x64-singlefile
+
+# Verificar el ejecutable publicado
+Get-Item .\publish\win-x64-singlefile\WinFormsManual.exe |
+  Select-Object Name, LastWriteTime, Length
+
+Salida esperada del ejecutable publicado:
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\win-x64-singlefile\WinFormsManual.exe
+
+------------------------------------------------------------
+3) Generar el instalador con Inno Setup
+------------------------------------------------------------
+
+Requisitos:
+- Inno Setup 6 instalado.
+  Rutas típicas:
+  - C:\Program Files (x86)\Inno Setup 6\ISCC.exe
+  - C:\Program Files\Inno Setup 6\ISCC.exe
+
+Desde d:\xampp\htdocs\Manual_Winuae\WinFormsManual:
+
+$ErrorActionPreference = 'Stop'
+
+# Localizar ISCC
+$iss = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
+if (!(Test-Path $iss)) { $iss = 'C:\Program Files\Inno Setup 6\ISCC.exe' }
+
+# Compilar installer.iss y generar el .exe en .\publish
+& "$iss" '/Sspawn=0' '/V=1' "/O$pwd\publish" "$pwd\installer.iss"
+
+Salida esperada del instalador:
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\Manuales_WinUAE_0.1.0_Setup.exe
+
+------------------------------------------------------------
+3b) Crear versión portable (ZIP)
+------------------------------------------------------------
+
+Desde la misma carpeta del proyecto:
+
+$ErrorActionPreference = 'Stop'
+
+$out = 'publish/Manuales_WinUAE_0.1.0_Portable.zip'
+if (Test-Path $out) { Remove-Item $out -Force }
+
+Compress-Archive -Path `
+  'publish/win-x64-singlefile/*', `
+  '..\img\*' `
+  -DestinationPath $out -Force
+
+Salida esperada del portable:
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\Manuales_WinUAE_0.1.0_Portable.zip
+
+------------------------------------------------------------
+4) Verificar que el instalador incluya los archivos nuevos
+------------------------------------------------------------
+
+- Asegúrate de que, al compilar con Inno Setup, la lista de archivos incluye:
+  - Imágenes nuevas en img/Creación_HDF/ u otras subcarpetas.
+
+Si falta algún archivo:
+- Comprueba que existe en la ruta correcta, por ejemplo:
+  img\Creación_HDF\paso40.png
+- Comprueba que está añadido al repositorio (git add img/...).
+- Comprueba que la ruta relativa usada en el código o en los manuales coincide EXACTAMENTE con el archivo.
+
+------------------------------------------------------------
+5) Probar instalación
+------------------------------------------------------------
+
+1. Ejecuta el instalador generado:
+   Manuales_WinUAE_0.1.0_Setup.exe
+
+2. Verifica tras instalar:
+   - Que aparece el grupo de programas "Manuales WinUAE".
+   - Que la aplicación arranca sin errores.
+   - Que el manual "WinUAE - Creación HDF y particionado de HDD bajo WB 3.1" muestra:
+     * Los 15 pasos con su texto.
+     * Todas las imágenes (1..39) y que las flechas `<` y `>` cambian de captura y el texto indica correctamente `< i de N >`.
+   - Que los manuales nuevos que hayas creado/guardado dentro de la app aparecen y muestran sus imágenes.
+
+------------------------------------------------------------
+6) Fallback: limpieza completa si algo queda obsoleto
+------------------------------------------------------------
+
+Si sospechas que el instalador o el portable llevan archivos antiguos:
+
+cd d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+
+# Borrar publicación anterior
+Remove-Item -Path .\publish\* -Recurse -Force -ErrorAction SilentlyContinue
+
+# Limpiar y reconstruir
+dotnet clean
+dotnet restore
+dotnet publish WinFormsManual.csproj `
+  -c Release -r win-x64 --self-contained true `
+  /p:PublishSingleFile=true /p:PublishTrimmed=false `
+  -o publish/win-x64-singlefile
+
+# Regenerar instalador
+$iss = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
+if (!(Test-Path $iss)) { $iss = 'C:\Program Files\Inno Setup 6\ISCC.exe' }
+& "$iss" "/Sspawn=0" "/V=1" "/O$pwd\publish" "$pwd\installer.iss"
+
+------------------------------------------------------------
+Notas
+------------------------------------------------------------
+
+- El script installer.iss incluye automáticamente:
+  - Los archivos publicados en publish\win-x64-singlefile\
+  - La carpeta img\ con todas sus subcarpetas.
+- Arquitectura: x64, publicación self-contained y single-file.
+- Ejecuta siempre los comandos desde:
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual

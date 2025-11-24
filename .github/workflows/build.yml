@@ -1,0 +1,118 @@
+name: build-and-release
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install Inno Setup (Chocolatey)
+        shell: pwsh
+        run: |
+          choco install innosetup -y
+
+      - name: Restore
+        run: dotnet restore
+        working-directory: .
+
+      - name: Publish single-file win-x64
+        run: >
+          dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true
+          /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
+
+      - name: Build installer (Inno Setup)
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path publish | Out-Null
+
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) {
+            Write-Host "##[warning] Inno Setup no encontrado en $iscc"
+            exit 0
+          }
+
+          Write-Host "##[info] Usando Inno Setup en: $iscc"
+          & $iscc /ver
+
+          Write-Host "##[info] Compilando instalador..."
+          Set-Location $env:GITHUB_WORKSPACE
+
+          $outputDir = Join-Path $PSScriptRoot 'publish'
+          & $iscc "/Sspawn=0" "/V=1" "/O$outputDir" "$PSScriptRoot\installer.iss"
+
+          $installer = Get-ChildItem -Path $outputDir -Filter *.exe -Recurse | Select-Object -First 1
+          if ($installer) {
+            Write-Host "##[info] Instalador generado: $($installer.FullName)"
+          } else {
+            Write-Host "##[warning] No se encontró el instalador generado"
+            Get-ChildItem -Path $outputDir -Recurse | Format-Table FullName | Out-String | Write-Host
+          }
+
+      - name: Archive artifact (zip)
+        shell: pwsh
+        run: |
+          New-Item -Force -ItemType Directory -Path publish | Out-Null
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath publish/ManualesWinUAE_win-x64_singlefile.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ManualesWinUAE_win-x64_singlefile
+          path: publish/ManualesWinUAE_win-x64_singlefile.zip
+
+      - name: Upload installer artifact (if exists)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Installer
+          path: publish/*.exe
+          if-no-files-found: warn
+          retention-days: 7
+
+  release:
+    if: github.event_name == 'release'
+    runs-on: windows-latest
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Publish single-file win-x64
+        run: >
+          dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true
+          /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
+
+      - name: Archive artifact (zip)
+        shell: pwsh
+        run: |
+          New-Item -Force -ItemType Directory -Path publish | Out-Null
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath publish/ManualesWinUAE_win-x64_singlefile.zip
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            publish/ManualesWinUAE_win-x64_singlefile.zip
+            publish/*.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
