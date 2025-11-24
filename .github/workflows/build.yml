@@ -3,6 +3,7 @@ name: build-and-release
 on:
   push:
     branches: [ main ]
+    tags: [ 'v*' ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -11,14 +12,15 @@ on:
         description: 'Versión (ej. 0.1.1)'
         required: true
         default: '0.1.0'
-  release:
-    types: [published]
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: windows-latest
     env:
-      VERSION: ${{ github.event.inputs.version || '0.1.0' }}
+      VERSION: ${{ github.event.inputs.version || github.ref_name || '0.1.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -91,37 +93,13 @@ jobs:
           path: publish/*.exe
           if-no-files-found: warn
           retention-days: 7
-
-  release:
-    if: github.event_name == 'release'
-    runs-on: windows-latest
-    needs: build
-    env:
-      VERSION: ${{ github.event.release.tag_name || '0.1.0' }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.0.x'
-
-      - name: Publish single-file win-x64
-        run: >
-          dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true
-          /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
-
-      - name: Archive artifact (zip)
-        shell: pwsh
-        run: |
-          New-Item -Force -ItemType Directory -Path publish | Out-Null
-          $version = "${{ env.VERSION }}"
-          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
-
-      - name: Upload release asset
+      - name: Create GitHub release (manual or tag push)
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ env.VERSION }}
+          name: Manuales WinUAE v${{ env.VERSION }}
+          body_path: CHANGELOG.md
           files: |
             publish/ManualesWinUAE_*_win-x64_singlefile.zip
             publish/*.exe
