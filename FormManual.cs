@@ -16,7 +16,11 @@ namespace WinFormsManual
         public FormManual()
         {
             InitializeComponent();
+
             EstablecerIconoFormulario();
+            // Mostrar nombre y versión de la aplicación en la barra de título (sin sufijo de hash)
+            var versionLimpia = Application.ProductVersion.Split('+')[0];
+            Text = $"{Application.ProductName} v{versionLimpia}";
             CargarManuales();
         }
 
