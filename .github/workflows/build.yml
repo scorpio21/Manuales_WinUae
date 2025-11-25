@@ -105,4 +105,4 @@ jobs:
             publish/ManualesWinUAE_*_win-x64_singlefile.zip
             publish/*.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
