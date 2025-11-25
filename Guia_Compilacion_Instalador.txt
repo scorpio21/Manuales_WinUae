@@ -47,11 +47,11 @@ dotnet publish WinFormsManual.csproj `
   -o publish/win-x64-singlefile
 
 # Verificar el ejecutable publicado
-Get-Item .\publish\win-x64-singlefile\WinFormsManual.exe |
+Get-Item .\publish\win-x64-singlefile\Manuales_WinUAE.exe |
   Select-Object Name, LastWriteTime, Length
 
 Salida esperada del ejecutable publicado:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\win-x64-singlefile\WinFormsManual.exe
+  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\win-x64-singlefile\Manuales_WinUAE.exe
 
 ------------------------------------------------------------
 3) Generar el instalador con Inno Setup
@@ -85,7 +85,7 @@ Desde la misma carpeta del proyecto:
 
 $ErrorActionPreference = 'Stop'
 
-$out = 'publish/Manuales_WinUAE_0.1.0_Portable.zip'
+$out = 'publish/Manuales_WinUAE_0.1.3_Portable.zip'
 if (Test-Path $out) { Remove-Item $out -Force }
 
 Compress-Archive -Path `
