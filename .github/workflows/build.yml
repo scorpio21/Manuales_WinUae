@@ -94,13 +94,35 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
+      - name: Preparar texto del changelog para la versión
+        if: github.event_name == 'workflow_dispatch'
+        shell: pwsh
+        run: |
+          $version = "${{ env.RELEASE_VERSION }}"
+          $changelog = Get-Content CHANGELOG.md
+          $match = $changelog | Select-String "## v$version" -SimpleMatch | Select-Object -First 1
+          if (-not $match) { throw "No se encontró entrada para v$version en CHANGELOG.md" }
+
+          $start = $match.LineNumber - 1
+          $rest = $changelog[$start..($changelog.Length-1)]
+
+          $nextHeaders = $rest | Select-String '^## v' -SimpleMatch | Select-Object -Skip 1 | Select-Object -First 1
+          if ($nextHeaders) {
+            $endIndex = $nextHeaders.LineNumber - 2
+            $slice = $rest[0..$endIndex]
+          } else {
+            $slice = $rest
+          }
+
+          Set-Content -Path CHANGELOG_RELEASE.md -Value $slice
+
       - name: Create GitHub release (manual)
         if: github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ env.RELEASE_VERSION }}
           name: Manuales WinUAE v${{ env.RELEASE_VERSION }}
-          body_path: CHANGELOG.md
+          body_path: CHANGELOG_RELEASE.md
           files: |
             publish/ManualesWinUAE_*_win-x64_singlefile.zip
             publish/*.exe
