@@ -20,7 +20,7 @@ jobs:
   build:
     runs-on: windows-latest
     env:
-      VERSION: ${{ github.event.inputs.version || github.ref_name || '0.1.0' }}
+      RELEASE_VERSION: ${{ github.event.inputs.version || '0.1.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -76,7 +76,7 @@ jobs:
         shell: pwsh
         run: |
           New-Item -Force -ItemType Directory -Path publish | Out-Null
-          $version = "${{ env.VERSION }}"
+          $version = "${{ env.RELEASE_VERSION }}"
           Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
 
       - name: Upload artifact
@@ -98,8 +98,8 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ env.VERSION }}
-          name: Manuales WinUAE v${{ env.VERSION }}
+          tag_name: v${{ env.RELEASE_VERSION }}
+          name: Manuales WinUAE v${{ env.RELEASE_VERSION }}
           body_path: CHANGELOG.md
           files: |
             publish/ManualesWinUAE_*_win-x64_singlefile.zip
