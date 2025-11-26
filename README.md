@@ -1,5 +1,41 @@
 # Manuales WinUAE - Aplicación WinForms (.NET 8)
 
+## ¿Para qué sirve?
+
+Manuales WinUAE es una aplicación de escritorio diseñada para:
+
+- **Mostrar tutoriales y guías** sobre el uso de WinUAE (emulador de Amiga) de manera organizada y accesible.
+- **Visualizar imágenes paso a paso** junto con instrucciones detalladas.
+- **Gestionar múltiples manuales** desde una misma interfaz.
+- **Editar contenido** directamente desde la aplicación.
+- **Distribuirse fácilmente** como aplicación portable o instalable en Windows.
+
+## Guía de uso
+
+### Navegación básica
+
+1. **Selecciona un manual** del menú desplegable superior.
+2. **Elige un paso** de la lista de la izquierda para ver su contenido.
+3. **Navega entre imágenes** usando los botones `>` y `<` cuando estén disponibles.
+4. **Usa el menú superior** para salir o acceder a más opciones.
+
+### Añadir o editar manuales
+
+1. Haz clic en **Manuales → Agregar manual** para crear uno nuevo.
+2. Completa el título y descripción.
+3. Añade pasos con sus respectivas imágenes (guarda las imágenes en la carpeta `img/`).
+4. Guarda los cambios para que persistan.
+
+### Editar manuales
+
+1. Haz clic en **Manuales → Editar manual** para editar uno existente.
+2. Selecciona el manual que deseas editar.
+3. Modifica el título y descripción.
+4. Modifica los pasos con sus respectivas imágenes (guarda las imágenes en la carpeta `img/`).
+5. Guarda los cambios para que persistan.
+
+## Descripción
+
 Aplicación de escritorio en C# (.NET 8, WinForms) para mostrar manuales de WinUAE con texto e imágenes, con soporte para varios manuales y edición desde la propia interfaz.
 
 Repositorio GitHub: `scorpio21/Manuales_WinUae`
@@ -12,8 +48,8 @@ Repositorio GitHub: `scorpio21/Manuales_WinUae`
 
 ## Estructura del proyecto
 
-- `WinFormsManual.csproj` – proyecto WinForms .NET 8, self-contained `win-x64`.
-- `Program.cs` – punto de entrada, abre directamente `FormManual`.
+- `WinFormsManual.sln` – solución principal.
+- `WinFormsManual/WinFormsManual.csproj` – proyecto WinForms .NET 8, self-contained `win-x64`.
 - `FormManual` – formulario principal:
   - Menú **Archivo → Salir**.
   - Menú **Manuales → Agregar manual**.
@@ -25,7 +61,7 @@ Repositorio GitHub: `scorpio21/Manuales_WinUae`
 - `FormEditarManual` – formulario para agregar/editar manuales:
   - Título del manual.
   - Alta y edición de pasos (título, descripción, imágenes).
-  - Selector de imágenes desde la carpeta `img` (ruta relativa, incluyendo subcarpetas por manual).
+  - Selector de imágenes desde la carpeta `img` (guardar ruta relativa, incluyendo subcarpetas por manual).
 - `Manual.cs` – modelos y datos:
   - `Manual`, `PasoManual` (con lista de imágenes por paso).
   - `ManualesPredefinidos` con el manual:
@@ -48,14 +84,22 @@ Versión `v0.1.0` incluye:
 
 ## Compilación y ejecución (Debug)
 
-Desde la carpeta del proyecto `d:\xampp\htdocs\Manual_Winuae\WinFormsManual`:
+1. Abrir `WinFormsManual.sln` en Visual Studio **o** situarse en la carpeta del proyecto `WinFormsManual/WinFormsManual`.
+2. Compilar:
 
-```bash
- dotnet build
- bin/Debug/net8.0-windows/win-x64/WinFormsManual.exe
-```
+   ```bash
+   dotnet build
+   ```
+
+3. Ejecutar desde la carpeta de salida Debug:
+
+   ```bash
+   bin/Debug/net8.0-windows/win-x64/WinFormsManual.exe
+   ```
 
 ## Publicación self-contained `win-x64`
+
+Desde `WinFormsManual/WinFormsManual`:
 
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true
