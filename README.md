@@ -17,7 +17,8 @@ Manuales WinUAE es una aplicación de escritorio diseñada para:
 1. **Selecciona un manual** del menú desplegable superior.
 2. **Elige un paso** de la lista de la izquierda para ver su contenido.
 3. **Navega entre imágenes** usando los botones `>` y `<` cuando estén disponibles.
-4. **Usa el menú superior** para salir o acceder a más opciones.
+4. **Haz clic en cualquier imagen** para verla ampliada en una ventana nueva.
+5. **Usa el menú superior** para salir o acceder a más opciones.
 
 ### Añadir o editar manuales
 
@@ -58,10 +59,16 @@ Repositorio GitHub: `scorpio21/Manuales_WinUae`
   - Lista de pasos.
   - Texto descriptivo (RichTextBox).
   - Imagen asociada con navegación (`<`, `>`, indicador `< i de N >`).
+  - **Clic en imagen para ampliar** - abre la imagen en ventana maximizada con controles de zoom.
 - `FormEditarManual` – formulario para agregar/editar manuales:
   - Título del manual.
   - Alta y edición de pasos (título, descripción, imágenes).
   - Selector de imágenes desde la carpeta `img` (guardar ruta relativa, incluyendo subcarpetas por manual).
+- `FormImagenAmpliada` – formulario para visualización ampliada de imágenes:
+  - Ventana maximizada con fondo negro.
+  - Controles de zoom con rueda del ratón y teclado (+/-/0).
+  - Navegación con teclas (ESC para cerrar).
+  - Soporte para arrastre de imagen.
 - `Manual.cs` – modelos y datos:
   - `Manual`, `PasoManual` (con lista de imágenes por paso).
   - `ManualesPredefinidos` con el manual:

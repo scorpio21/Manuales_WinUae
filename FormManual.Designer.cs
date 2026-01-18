@@ -66,6 +66,8 @@ namespace WinFormsManual
             imagenPaso.Location = new System.Drawing.Point(240, 194);
             imagenPaso.Size = new System.Drawing.Size(532, 244);
             imagenPaso.SizeMode = PictureBoxSizeMode.Zoom;
+            imagenPaso.Cursor = Cursors.Hand;
+            imagenPaso.Click += imagenPaso_Click;
 
             // Botones de navegación de imágenes
             botonImagenAnterior.Anchor = AnchorStyles.Top | AnchorStyles.Left;

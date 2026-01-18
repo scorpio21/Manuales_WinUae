@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.1.4 - Ampliación de imágenes al hacer clic
+
+- **Nueva funcionalidad de ampliación de imágenes**:
+  - Al hacer clic en cualquier imagen del manual, se abre una ventana maximizada para visualización ampliada.
+  - Nuevo formulario `FormImagenAmpliada` con controles de zoom:
+    - Zoom con rueda del ratón
+    - Zoom con teclado (+ para ampliar, - para reducir, 0 para restablecer)
+    - Límites de zoom entre 0.1x y 10x
+    - Indicador del nivel de zoom en el título de la ventana
+  - Controles de navegación:
+    - Tecla ESC para cerrar la ventana
+    - Cursor tipo mano al pasar sobre las imágenes
+    - Soporte para arrastre de imagen (preparado para implementación futura)
+- **Mejoras de experiencia de usuario**:
+  - Cursor cambia a mano (Cursors.Hand) al pasar sobre las imágenes para indicar que son clicables.
+  - La ventana de ampliación se abre maximizada para mejor visualización.
+  - Fondo negro en la ventana de ampliada para mejor contraste.
+- **Actualizaciones de documentación**:
+  - README.md actualizado con instrucciones de uso de la nueva funcionalidad.
+  - Descripción detallada de los controles de zoom y navegación.
+
 ## v0.1.3 - CI/CD y empaquetado mejorados
 
 - Se incluye la carpeta `img/` dentro del repositorio para que las compilaciones en CI encuentren los recursos.

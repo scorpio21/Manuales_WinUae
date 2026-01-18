@@ -246,5 +246,14 @@ namespace WinFormsManual
                 }
             }
         }
+
+        private void imagenPaso_Click(object sender, EventArgs e)
+        {
+            if (imagenPaso.Image != null)
+            {
+                using var formAmpliada = new FormImagenAmpliada(imagenPaso.Image);
+                formAmpliada.ShowDialog(this);
+            }
+        }
     }
 }
