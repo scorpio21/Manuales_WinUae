@@ -1,6 +1,6 @@
 # Instalador con Cheat Codes - Instrucciones Actualizadas
 
-## Cambios en v0.1.6
+## Cambios en v0.1.7
 
 El instalador ahora incluye la carpeta `AMIGACHEATCODES` completa con todos los cheat codes.
 
@@ -8,7 +8,7 @@ El instalador ahora incluye la carpeta `AMIGACHEATCODES` completa con todos los 
 
 ### Cambios realizados:
 
-1. **Versión actualizada**: `#define MyAppVersion "0.1.6"`
+1. **Versión actualizada**: `#define MyAppVersion "0.1.7"`
 2. **Inclusión de AMIGACHEATCODES**:
    ```iss
    ; Carpeta AMIGACHEATCODES con todas las subcarpetas y archivos de cheat codes
@@ -29,7 +29,7 @@ Este script:
 1. Limpia compilaciones anteriores
 2. Publica la aplicación en modo single-file
 3. Genera el instalador con Inno Setup
-4. Muestra el resultado en `publish/Manuales_WinUAE_0.1.6_Setup.exe`
+4. Muestra el resultado en `publish/Manuales_WinUAE_0.1.7_Setup.exe`
 
 ### Método 2: Manual
 

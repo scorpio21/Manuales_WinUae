@@ -15,8 +15,8 @@ namespace WinFormsManual
     public partial class FormCheatCodes : Form
     {
         private string CheatCodesPath => idiomaEspanol ? 
-            Path.Combine(Application.StartupPath, "AMIGACHEATCODES_ES") : 
-            Path.Combine(Application.StartupPath, "AMIGACHEATCODES");
+            ObtenerRutaCheatCodes(true) : 
+            ObtenerRutaCheatCodes(false);
         private string AvailableCheatCodesFile => Path.Combine(CheatCodesPath, "AvailableCheatCodes.ini");
         private Dictionary<string, string>? juegosDisponibles;
         private string contenidoOriginal = "";
@@ -185,28 +185,52 @@ namespace WinFormsManual
                     return;
                 }
 
-                if (!File.Exists(AvailableCheatCodesFile))
+                if (File.Exists(AvailableCheatCodesFile))
                 {
-                    MessageBox.Show($"No se encontró el archivo de juegos disponibles: {AvailableCheatCodesFile}", 
-                        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
+                    var lineas = File.ReadAllLines(AvailableCheatCodesFile);
+                    System.Diagnostics.Debug.WriteLine($"Líneas leídas: {lineas.Length}");
 
-                var lineas = File.ReadAllLines(AvailableCheatCodesFile);
-                System.Diagnostics.Debug.WriteLine($"Líneas leídas: {lineas.Length}");
-
-                foreach (var linea in lineas)
-                {
-                    if (string.IsNullOrWhiteSpace(linea)) continue;
-                    if (linea.StartsWith("COPY/PASTE") || linea.StartsWith("NOTE:") || 
-                        linea.StartsWith("AVAILABLE CHEAT CODES") || linea.StartsWith("from the") ||
-                        linea.StartsWith("to be open")) continue;
-
-                    var nombreJuego = linea.Trim();
-                    if (!string.IsNullOrEmpty(nombreJuego))
+                    foreach (var linea in lineas)
                     {
-                        juegosDisponibles[nombreJuego] = nombreJuego;
-                        System.Diagnostics.Debug.WriteLine($"Juego agregado: '{nombreJuego}'");
+                        if (string.IsNullOrWhiteSpace(linea)) continue;
+                        if (linea.StartsWith("COPY/PASTE") || linea.StartsWith("NOTE:") ||
+                            linea.StartsWith("AVAILABLE CHEAT CODES") || linea.StartsWith("from the") ||
+                            linea.StartsWith("to be open")) continue;
+
+                        var nombreJuego = linea.Trim();
+                        if (!string.IsNullOrEmpty(nombreJuego))
+                        {
+                            juegosDisponibles[nombreJuego] = nombreJuego;
+                            System.Diagnostics.Debug.WriteLine($"Juego agregado: '{nombreJuego}'");
+                        }
+                    }
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine($"No existe INI. Escaneando archivos .txt en: {CheatCodesPath}");
+                    var juegosEscaneados = EscanearJuegosDesdeTxt(CheatCodesPath);
+
+                    if (juegosEscaneados.Count == 0)
+                    {
+                        MessageBox.Show(
+                            $"No se encontró el archivo de juegos disponibles ni archivos .txt en: {CheatCodesPath}",
+                            "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    foreach (var juego in juegosEscaneados)
+                    {
+                        juegosDisponibles[juego] = juego;
+                    }
+
+                    try
+                    {
+                        GuardarAvailableCheatCodesIni(AvailableCheatCodesFile, juegosEscaneados);
+                        System.Diagnostics.Debug.WriteLine($"INI reconstruido: {AvailableCheatCodesFile}");
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"No se pudo reconstruir INI: {ex.Message}");
                     }
                 }
 
@@ -225,6 +249,59 @@ namespace WinFormsManual
                 MessageBox.Show($"Error al cargar los juegos disponibles: {ex.Message}", 
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private static List<string> EscanearJuegosDesdeTxt(string cheatCodesPath)
+        {
+            var juegos = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            
+            var carpetas = new List<string> { "0" };
+            for (char c = 'A'; c <= 'Z'; c++) carpetas.Add(c.ToString());
+
+            foreach (var carpeta in carpetas)
+            {
+                var dir = Path.Combine(cheatCodesPath, carpeta);
+                if (!Directory.Exists(dir)) continue;
+
+                try
+                {
+                    foreach (var archivo in Directory.EnumerateFiles(dir, "*.txt", SearchOption.TopDirectoryOnly))
+                    {
+                        var nombre = Path.GetFileNameWithoutExtension(archivo)?.Trim();
+                        if (!string.IsNullOrWhiteSpace(nombre))
+                        {
+                            juegos.Add(nombre);
+                        }
+                    }
+                }
+                catch
+                {
+                }
+            }
+
+            return juegos.OrderBy(x => x, StringComparer.OrdinalIgnoreCase).ToList();
+        }
+
+        private static void GuardarAvailableCheatCodesIni(string iniPath, List<string> juegosOrdenados)
+        {
+            var dir = Path.GetDirectoryName(iniPath);
+            if (!string.IsNullOrEmpty(dir)) Directory.CreateDirectory(dir);
+
+            var sb = new StringBuilder();
+            sb.AppendLine("COPY/PASTE with right mouse click ");
+            sb.AppendLine("from the AvailableCheatCodes list the cheat code ");
+            sb.AppendLine("to be open to the commandline prompt. ");
+            sb.AppendLine("NOTE: spaces after the copied name can affect the cheat codes display.");
+            sb.AppendLine(" ");
+            sb.AppendLine("AVAILABLE CHEAT CODES (add more cheat codes anytime on the folders with letter) ");
+            sb.AppendLine(" ");
+
+            foreach (var juego in juegosOrdenados)
+            {
+                sb.AppendLine(juego);
+            }
+
+            File.WriteAllText(iniPath, sb.ToString(), Encoding.UTF8);
         }
 
         private void comboIdioma_SelectedIndexChanged(object sender, EventArgs e)
@@ -267,6 +344,35 @@ namespace WinFormsManual
                 </div>"
             );
             webContenido.DocumentText = htmlDepuracion;
+        }
+
+        private string ObtenerRutaCheatCodes(bool espanol)
+        {
+            // Nueva estructura: Docs\Cheat\AMIGACHEATCODES_ES o AMIGACHEATCODES
+            string nuevaRuta = Path.Combine(Application.StartupPath, "Docs", "Cheat", 
+                espanol ? "AMIGACHEATCODES_ES" : "AMIGACHEATCODES");
+            
+            // Estructura antigua: AMIGACHEATCODES_ES o AMIGACHEATCODES
+            string rutaAntigua = Path.Combine(Application.StartupPath, 
+                espanol ? "AMIGACHEATCODES_ES" : "AMIGACHEATCODES");
+            
+            // Priorizar nueva estructura si existe
+            if (Directory.Exists(nuevaRuta))
+            {
+                System.Diagnostics.Debug.WriteLine($"Usando nueva ruta: {nuevaRuta}");
+                return nuevaRuta;
+            }
+            
+            // Fallback a estructura antigua
+            if (Directory.Exists(rutaAntigua))
+            {
+                System.Diagnostics.Debug.WriteLine($"Usando ruta antigua: {rutaAntigua}");
+                return rutaAntigua;
+            }
+            
+            // Si ninguna existe, devolver la nueva ruta (para crearla si es necesario)
+            System.Diagnostics.Debug.WriteLine($"Ninguna ruta existe, devolviendo nueva: {nuevaRuta}");
+            return nuevaRuta;
         }
 
         private void MostrarErrorCheatCodesNoEncontrado()

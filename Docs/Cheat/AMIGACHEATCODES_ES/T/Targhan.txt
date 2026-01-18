@@ -1,0 +1,136 @@
+===================================================================================
+     TARGHAN - MAPA E INFORMACIÓN DE RUTA PARA LA SOLUCIÓN DEL JUEGO - POR LA FIRM/SS
+===================================================================================
+
+------------------------------- LEYENDA DEL SÍMBOLO ---------------------------------
+
+ @ = punto de partida del juego G = obtener objeto(s) aquí
+ X = habitación normal Q = obtener objeto(s) con demonio/murciélago(s)
+ E = intercambiar objeto(s) C = tener cuidado (objetos que caen)
+ B = murciélago(s) D = demonio/guardia/arquero
+ P = ubicación de la botella de poción de poder S = ubicación del juego guardado (debe inclinarse)
+ T = teletransportador (debe tener roca brillante) | = agujero con cuerda
+ # = conexión solo mediante teletransportación: = pozo (debe evitar caer)
+ ^ = salto requerido
+
+------------------------------- MAPA DEL NIVEL #1 -------------------------------
+
+  a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+0 X--D--D
+                                                  |     |
+1 Q--D--D D--D--D^G G^G
+                                |     |     |     |: : :
+2 X--X D--D--X X--D--G--S-->(AL NIVEL #2)
+                             |                                 (se convierte en 2a)
+3 G--@--X--D-^B^-G--D--S--B--Q
+        |              :
+4 |              : P--X--X--G G--X--B--X--X--D--X--X--X:
+        |              : |                 |     |           |   :
+5 X--D--G--C--Q--D-^X--X--B--X--X--B--X--B--D--X--X--B--X--X--B--X--X--P:
+                             : |        |           |     |               :
+6 X--B--X--X--D--X--X--X--B--X--D--G :
+
+CAMINO SUGERIDO PARA EL NIVEL #1:
+  3b,3a,3b,3c,3d,3e,3f,3e,3d,3c,5c,5d,5e,5f,5g,5h,5i,5j,5k,5l,6l,6m,6n,6o,6p
+  6q,6r,6s,6t,6u,6v,6w,6v,6u,5u,5v,5w,5x,5y,5z,5y,5x,5w,5v,5u,5t,5s,4s,4r,4s
+  5s,6s,6r,6q,6p,6o,5o,5n,5m,4m,4l,4m,4n,4o,4n,4m,5m,5l,5k,5j,5i,5h,5g,5f,5e
+  5d,5c,3c,3d,3e,3f,3g,3h,3i,3j,2j,2k,1k,1l,1m,2m,2n,2o,1o,1p,1q,1q,1q,0q,0r
+  0s,1s,1s,1s,0s,0r,0q,1q,2q,2r,2s,2t
+
+------------------------------- MAPA DEL NIVEL #2 -------------------------------
+
+  a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+0 G--Q G--D
+                 # #
+1 T--X--D--X D--D--D--X--T--D
+                    |                                      #
+2 E--Q--X--D--D--Q--D--X--X--D--D--X--D--S--Q--D--D--P--D--T--D--D--X--T
+                          |                                            #
+3 Q--X X--X
+                                                                    |
+4 Q--Q--B--X
+
+CAMINO SUGERIDO PARA EL NIVEL #2:
+  2a,2b,2c,2d,2e,2f,2g,1g,1f,0f,0g,0f,1f,1g,1g,1h,2i,3i,3h,3i,2i,2j,2k,2l,2m
+  2n,2o,2p,2q,2r,2s,2t,2u,2v,2w,2x,3x,3w,4w,4v,4u,4t,4u,4v,4w,3w,3x,2x,2w,2v
+  2u,2t,1t,1u,0u,0v
+
+
+===================================================================================
+        TARGHAN -- REQUISITOS ESPECÍFICOS PARA LA SOLUCIÓN -- POR LA FIRM/SS
+===================================================================================
+
+NOTAS GENERALES:
+  Guarde el juego en todas las ubicaciones de guardado disponibles (inclínese frente al
+  estatua).
+  Vigile su nivel de poder: use la poción de poder según sea necesario ('gran
+  botella').
+  No utilices NINGUNA "pequeña botella marrón": son pociones venenosas.
+  Los murciélagos roban energía: mátalos, evítalos agachándote o huye de ellos.
+  Usa variadas técnicas de espada en los diferentes tipos de demonios y guardias.
+  Los shurikens (estrellas ninja) son más útiles para arqueros y magos malvados.
+  Varias habitaciones tienen varios objetos, así que busca con atención.
+Caer a un pozo es una muerte instantánea en la mayoría de los casos (¡FiRMINSURANCE o no!).
+
+PROCEDIMIENTOS ESPECIALES DE SOLUCIÓN:
+  Ok, básicamente continúa por el camino sugerido para el nivel #1, obteniendo todos
+los objetos y leyendo todos los pergaminos.  Los shurikens (estrellas-ninja) son
+los menos importantes y deben tirarse según sea necesario para dejar espacio a
+otros objetos. Una vez que regreses a la superficie y llegues al primer
+punto de guardado, en la ubicación del mapa "3h", descarta (coloca en el suelo) todo
+excepto la 'copa dorada' (de la ubicación "4r") y los shurikens restantes
+y luego guarda el juego...
+
+  Ahora continúa el juego hasta llegar a la ubicación "1q".  Aquí debes hacer
+algunos saltos especiales a través de la cuerda hasta la pequeña "isla-plataforma" y consigue
+todos los objetos allí, luego salta hacia atrás.  Lo mismo ocurre con la ubicación en el mapa.
+"1s", (si 'caes', no es gran cosa, simplemente vuelve a subir
+a través de la cuerda en la ubicación "2q" e inténtelo de nuevo).  Cuando llegues al segundo
+punto de guardado en "2t", asegúrese de tener el pequeño 'cuadro rojo' (desde la ubicación
+"3j") y la 'copa dorada', y luego guarda el juego nuevamente...
+
+  Pasando al mapa del nivel 2, lo primero que encontrarás en "2a" es
+el amigable mago "Athna-An".  Inclínate ante él y luego coloca el 'dorado'.
+copa' en el suelo.  Luego te dejará la 'piedra brillante' para que la
+recoger. (Esta piedra debe permanecer contigo en todo momento para que puedas
+para ver y utilizar los 'teletransportadores'). Continúe la ruta hasta llegar al
+Primer 'teletransportador' en la ubicación del mapa "1f".  Ingresa al 'teletransportador', espera a ser
+'transportado', luego salga a la derecha en "0f".  Consigue el 'pequeño amarillo
+botella', luego ingresa al taller del mago malvado en "0g".  Destruye el
+mago malvado (y los murciélagos), luego consigue las dos 'tabletas de piedra' (¿amarillas?)
+uno a la vez, úselos (esto mostrará sus mensajes), luego suéltelos
+nuevamente (no es necesario que los lleve consigo una vez leídos).  consigue otro
+'pequeña botella amarilla' y la 'pequeña botella roja anaranjada' (tenga cuidado ya que
+También hay una "pequeña botella marrón" que contiene veneno).
+
+  Sal del taller (a través del 'teletransportador') y continúa hasta la ubicación "3h".  uso
+mucha precaución aquí, ya que cada soplo de llama te dañará una cantidad
+igual a la mitad de la potencia máxima.  (El mejor procedimiento que encontré es obtener
+lo más cerca posible, espere un respiro, use uno de los 'pequeños amarillos'
+botellas (una poción que se encoge) para viajar bajo la llama hasta justo contra
+el dragón, 'agachate' durante el siguiente aliento (volverás a ser grande), consigue el
+objeto, 'agacharse' nuevamente para respirar nuevamente, luego saltar hacia atrás rápidamente...) NO
+utilice la segunda 'pequeña botella amarilla' aquí como se requiere a continuación.  Guardar
+juego en "2n" con lo siguiente: 'caja roja', 'piedra brillante', 'pequeña
+botella amarilla', 'pequeña botella rojo-naranja' y el 'collar'...
+
+  Cuando llegue al 'teletransportador' en "2t", rápidamente 'recorralo' y
+continúe hasta la ubicación "2x".  Ingrese al 'teletransportador' aquí y salga en "3x". 
+Ahora usa la pequeña 'botella roja-naranja' (poción que ve en la oscuridad) y viaja
+a "4v". Utilice la 'pequeña botella amarilla' restante para entrar en el agujero del
+izquierda de la pantalla en la ubicación "4u".  Destruye al segundo mago malvado y
+Lleve la 'pequeña botella amarilla' allí para salir por la misma abertura. 
+Maneje "4t" con una cautelosa técnica de 'saltar-agacharse-obtener-saltar-agacharse', luego
+viajar a "0u".
+
+===================================================================================
+        TARGHAN – LA BATALLA FINAL CON EL MALVADO – POR LA FIRM/SS
+===================================================================================
+  Ahora, puedes ignorar el shuriken en la ubicación "0u", porque es inútil.
+contra el MALVADO mismo... El mejor consejo aquí es que cuando entres
+"0v" para la batalla final;  1) tener plenos poderes;  2) saltar rápidamente hacia dentro
+distancia de ataque;  3) utilizar únicamente el método de golpe de pie;  4) golpear un
+mucho!!! (O haga lo que hice yo y use la clave FiRMINSURANCE... <jejeje>)
+  Como *debería* decir ahora en la pantalla... EL FINAL.

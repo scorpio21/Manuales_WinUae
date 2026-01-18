@@ -3,7 +3,7 @@
 
 #define MyAppName "Manuales WinUAE"
 #ifndef MyAppVersion
- #define MyAppVersion "0.1.6"
+ #define MyAppVersion "0.1.7"
 #endif
 #define MyAppPublisher "scorpio21"
 #define MyAppExeName "Manuales_WinUAE.exe"
@@ -41,10 +41,13 @@ Source: "{#PublishDir}\\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversio
 Source: "img\\*"; DestDir: "{app}\\img"; Flags: recursesubdirs createallsubdirs ignoreversion
 
 ; Carpeta AMIGACHEATCODES con todas las subcarpetas y archivos de cheat codes
-Source: "AMIGACHEATCODES\\*"; DestDir: "{app}\\AMIGACHEATCODES"; Flags: recursesubdirs createallsubdirs ignoreversion
+Source: "AMIGACHEATCODES\\*"; DestDir: "{app}\\AMIGACHEATCODES"; Flags: recursesubdirs createallsubdirs ignoreversion skipifsourcedoesntexist
 
 ; Carpeta AMIGACHEATCODES_ES con todas las subcarpetas y archivos de cheat codes en español
-Source: "AMIGACHEATCODES_ES\\*"; DestDir: "{app}\\AMIGACHEATCODES_ES"; Flags: recursesubdirs createallsubdirs ignoreversion
+Source: "AMIGACHEATCODES_ES\\*"; DestDir: "{app}\\AMIGACHEATCODES_ES"; Flags: recursesubdirs createallsubdirs ignoreversion skipifsourcedoesntexist
+
+; Nueva estructura: Docs\Cheat con AMIGACHEATCODES y AMIGACHEATCODES_ES
+Source: "Docs\\Cheat\\*"; DestDir: "{app}\\Docs\\Cheat"; Flags: recursesubdirs createallsubdirs ignoreversion
 
 [Icons]
 Name: "{group}\\{#MyAppName}"; Filename: "{app}\\{#MyAppExeName}"

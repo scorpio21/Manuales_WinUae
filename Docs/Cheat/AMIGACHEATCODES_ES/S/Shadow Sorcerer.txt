@@ -1,0 +1,1154 @@
+Libro de pistas del hechicero de las sombras
+                        UNA SOLUCIÓN COMPLETA
+                  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+                          Introducción
+
+     Shadow Sorcerer es un juego gráfico de acción y estrategia.  eso
+presenta una estructura de comando única, que le permite controlar cuatro
+héroes en un entorno de tiempo real.  Puedes tener la computadora
+controla algunos o todos los héroes por ti y puedes darles
+acciones predeterminadas a tomar (como atacar, huir, etc.).
+
+                       Ganar y perder
+
+     El éxito en el juego se juzga de tres maneras: por el número de
+monstruos que derrotas, los obstáculos que superas y por el número
+de refugiados que has mantenido con vida al final del juego.  el
+Los refugiados son el factor crucial: nunca se les puede dejar entrar.
+problemas, porque su supervivencia te proporciona la mayor parte de
+los puntos de experiencia al final del juego.  Si el número de
+Si el número de refugiados llega a menos de 100, automáticamente se pierde. 
+
+     Como Héroes de la Lanza, debéis:
+- Explorar adelante para encontrar refugios temporales seguros para los refugiados.
+- Manténgalos abastecidos de alimentos.
+     - Mantenlos moviéndose en la dirección correcta.
+- Derrota o evita cualquier obstáculo en tu camino.
+- Lucha o escapa de los draconianos, que pronto te seguirán 
+         en intensa persecución.
+- Localiza la tierra legendaria de Thorbardin, con la esperanza de que el 
+         Los refugiados encontrarán allí un nuevo hogar.
+     Cómo hacerlo es de lo que se trata este Clue DOX.
+
+                    Viajando por el desierto
+
+     El mapa inicial del desierto no muestra nada excepto
+la ubicación de las montañas y el siguiente hexágono al sur de ti.  como
+A medida que exploras, más y más partes del mapa se harán visibles.
+
+     Hay dos tipos de montañas: transitables e intransitables.  
+Las montañas intransitables tienen un gran pico;  montañas transitables tienen
+dos picos más pequeños.  La presencia de una montaña transitable puede ser un
+un consejo sobre la ubicación de algo especial allí: comida para
+los refugiados, o un encuentro específico.  En la parte inferior del mapa,
+Puedes encontrar Thorbardin buscando la montaña transitable a lo largo
+la fila inferior.
+
+     El juego te permite hacer clic en cualquier hexágono visible y tener
+Los personajes se mueven allí en el camino más recto.  Esto hace que algunos
+movimiento relativamente manos libres.  Por ejemplo, una vez que haya encontrado
+el llavero que le muestra dónde están las llaves, puede hacer clic en
+uno de los hexágonos mostrados (incluso si los hexágonos intermedios todavía están
+gris) y tu grupo explorará los hexágonos desconocidos a medida que avanzan hacia
+el hexágono objetivo.  Sólo detendrán su movimiento si les das
+otra orden (haciendo clic en un hexágono diferente), o si tienen una
+encuentro de algún tipo.
+
+     No lleves a los refugiados a través de montañas o pantanos. 
+Los ralentizará demasiado.  Es mejor si puedes dejarlos puestos.
+las carreteras, pero eso, por supuesto, no siempre es posible. 
+
+     Algunos encuentros específicos están marcados con símbolos en el mapa:
+edificios, fogatas o tiendas.  Están ahí para recordarte
+dónde están las cosas, pero es posible que desees tomar notas adicionales
+usted mismo.  
+
+                       El mapa del desierto
+
+     El mapa de Wilderness (en formato PCX, bajo los nombres de archivo
+WILDMAP1.PCX, WILDMAP2.PCX y WILDMAP3.PCX, todos superpuestos para
+mayor detalle) le muestra ubicaciones específicas detalladas a lo largo
+este doctor.  
+
+     El sistema de numeración es por fila de hexágonos y el número del
+hexadecimal contado desde la columna más a la izquierda de esa fila.  la fila superior
+de hexágonos (el que está completamente lleno de impasables
+montañas) es la fila cero.  Comienzas el juego en la fila uno.
+
+                     Escaneando el desierto
+
+     Puedes escanear delante de ti sin entrar en un hexágono
+haciendo doble clic con el botón derecho del ratón en un hexágono.  Verás el
+Vista táctica del hexágono, completa con monstruos y tesoros.
+que pueda estar presente.  Haga clic una vez en el botón derecho del ratón para
+volver a la vista del desierto. 
+     La distancia que puede escanear depende de su elevación: puede
+Ver más desde las montañas que desde las colinas.  Puedes ver el
+más alejado de la Torre (hexágonos 2-8).
+
+                       El paso del tiempo
+
+     El tiempo es una gran preocupación en Shadow Sorcerer.  los draconianos
+Estarán en marcha buscando a sus esclavos fugitivos, y ellos
+no te detengas mucho (ver "El tiempo y los draconianos" más adelante en este
+archivo).
+                     Tiempo en el desierto
+
+     El tiempo pasa sin importar en qué parte del mapa salvaje te encuentres. 
+Cada hexágono recorrido toma un tiempo variable, dependiendo del
+Terreno: el viaje por carretera es el más rápido, seguido por llanuras, ríos,
+colinas, bosques, marismas y finalmente montañas.
+
+               Tu grupo de héroes puede viajar día y noche.  los refugiados
+sin embargo, viaje sólo durante el día.  De 20:00 a 08:00 horas
+campamento.  Esto significa que rápidamente los dejarás atrás si no estás
+cuidado. Aprovecha las noches para explorar mazmorras.  De esta manera, cuando
+Sales del calabozo y descubres que ya amanece.
+Todavía estará cerca de los refugiados.
+
+                  Tiempo en la pantalla táctica
+
+     En la pantalla táctica, puedes notar que el tiempo no
+parecen cambiar.  Esto se debe a que asumimos que está demasiado ocupado para
+detente y calcula el paso del tiempo (tus personajes no tienen
+relojes, recuerda).  Cuando sales de la pantalla táctica para el
+mapa de la naturaleza, el tiempo se ajustará abruptamente a la situación actual.
+tiempo.  Esto incluye el tiempo que dedicaste a memorizar hechizos.  tu
+Notarás este efecto más cuando entres en una mazmorra.  cuando
+Cuando sales de la mazmorra, de repente descubrirás cuánto tiempo
+gastado bajo tierra!  Deberías explorar las mazmorras por la noche, cuando tu
+Los refugiados (y con suerte los draconianos) no se están moviendo.
+
+                     El tiempo y los draconianos
+
+     El ejército draconiano escapa de Pax Tharkas hacia el norte.
+después de 48 horas de juego.  Esto te da un par de días para comenzar.
+para aprender a moverse.  Por cada media hora que pasas
+En el modo táctico, los draconianos obtienen un turno de movimiento.  Esto significa
+podrían estar matando a los refugiados cuando te tomas el tiempo para explorar,
+memorizar hechizos y curar.  Los draconianos se mueven tanto de noche como de noche.
+día, pero cada media hora después de las 8:00 PM cada grupo de Draconianos tiene
+un 25% de posibilidades de acampar.  Una vez acampados, permanecen así hasta
+mañana.  ¡Usa este tiempo sabiamente!  Puede que sea lo único que
+te mantiene por delante de los draconianos.  Explorar mazmorras es lo mejor.
+reservado para la tarde y la noche por este motivo.
+
+                         Tiempo y Magia
+
+     Cuando memorizas hechizos en modo táctico lleva tiempo.  tu
+Verás cuánto tiempo porque en la parte superior de la lista de hechizos está
+una copia del reloj.  La línea de tiempo te mostrará cuánto tiempo es.
+llevándote a memorizar un hechizo.  Este tiempo no se deduce del
+reloj principal hasta que salgas del modo táctico hacia la naturaleza
+modo, sin embargo.  El único hechizo que dura más de un combate.
+es resistir el fuego.  El hechizo dura 70 minutos.  Esto significa que tu
+Puede ingresar a la pantalla táctica, lanzar fuego de resistencia a todos los que estén en él.
+grupo, y luego salir de la pantalla táctica (usa 30 minutos), moverse
+un hexágono en el desierto (usa 30 minutos) y entra en la zona táctica
+pantalla nuevamente para combatir (al hechizo le quedan 10 minutos y se ejecutará).
+desaparece cuando sales de la pantalla táctica nuevamente).  Este es un
+Táctica recomendada si planeas luchar contra Ember, el dragón rojo.
+(rara vez es un acierto).  También es una táctica para usar contra el lich.
+Fitstandantilus, ya que lanza hechizos de bolas de fuego.
+
+                   Usando la pantalla táctica
+
+                                     Encuentros
+
+
+     Además de los encuentros específicos que se analizan más adelante en este
+libro, tendrás encuentros aleatorios.  Los encuentros pueden ser un número.
+de cosas: discusiones con gente interesante, situaciones de combate,
+o descubrimientos de artículos interesantes.  Si has descubierto artículos,
+¡recójalos, pero tenga cuidado con el límite de carga!  Aquí y allá tu
+Encontrarás arcos, espadas y aljabas de flechas.  Tenga en cuenta que su
+Los personajes no vienen equipados con flechas listas, pero en el
+Los primeros hexágonos después de comenzar el juego tienes la oportunidad
+para recoger algunos.  Al utilizar elementos, puedes ver cómo te afectan. 
+Examina tu ventana Ver personaje antes y después de usar un elemento
+como los brazaletes, una aljaba o una espada.  Inmediatamente verás el
+efectos que un objeto tiene en tu personaje.  Nota: No existen los "malvados"
+u objetos "caóticos" en Shadow Sorcerer, por lo que puedes probar con seguridad
+cosas encendidas.  Cuando te encuentras con una figura solitaria, la prudencia dicta
+que esperes a ver si tiene algo que decir.   si el comienza
+Si te golpea, obviamente es hostil.  La mayoría de los encuentros serán
+obviamente hostil, y puedes luchar o correr como quieras.
+
+                       Terreno cambiable
+
+     Algunos tipos de terreno se pueden cambiar, como sin duda
+descubierto.  Los hechizos de bolas de fuego son bastante devastadores: destruyen
+plantas pequeñas y reducir los árboles a tocones.  Puedes eliminar algunos
+plantas intransitables (la que se parece a un helecho) con una bola de fuego. 
+Además, hay una roca que se reduce a escombros (la punta
+roca gris con musgo verde) cuando es golpeado por una bola de fuego.  uno
+El tipo de terreno que es transitable pero no cambiable es el
+estalagmita.  Cada una de estas características del terreno se encuentra en varios
+mazmorras.
+
+                             combate
+
+     El combate es rápido y furioso, incluso en el entorno lento.  Todos
+de tus personajes vienen con opciones de combate preestablecidas que
+siga cuando active su comando de "combate automático".  Revisa estos
+configuración inmediatamente, sin embargo, porque es posible que no desee que su
+personajes para hacer algunas cosas, especialmente huir en medio de
+combate.  Una configuración preferida es desactivar todas las acciones de combate.
+para los usuarios de magia y clérigos, y dejar el combate para los
+luchadores.  De esta manera, puedes presionar F5 para que ambos luchadores se pongan en marcha y
+luego elige tú mismo cuándo lanzar los hechizos.  Aunque puede
+parece que estás golpeando o siendo golpeado en cada momento del combate,
+en realidad estás haciendo muchos swings y sólo algunos golpes.  el
+Lo mismo ocurre con los ataques a distancia y el lanzamiento de hechizos.  Verás mucho
+de movimiento para sólo uno o dos ataques.  Pero no te preocupes,
+porque los monstruos hacen lo mismo.
+
+                    Configuración de combate automático
+
+     La configuración de combate automático está ahí para facilitar el control.
+tus personajes en combate.  Básicamente, les estás diciendo que
+participar en combates cuerpo a cuerpo, disparar misiles, lanzar hechizos o correr bajo ciertas condiciones.
+condiciones. Esas condiciones son:
+
+
+- Cuerpo a cuerpo: acércate al enemigo más cercano y ataca.  Los personajes tienen
+cierta capacidad para orientarse alrededor de los objetos, pero ocasionalmente
+Necesitarán tu ayuda: diles que se muevan a un mosaico específico que
+está en la línea de visión directa de un monstruo, luego colócalo de regreso
+en autocombate.
+
+- A distancia: vuelve a disparar misiles a cualquiera que esté a más de dos casillas de distancia. 
+Dentro de dos casillas, el personaje se quedará quieto o se enfrentará.
+en cuerpo a cuerpo (si la opción de combate también está activa).
+
+- Lanzar: lanzar hechizos ofensivos nuevamente a cualquiera que esté a más de dos casillas.
+lejos.  Los usuarios de Magic nunca lanzarán sus hechizos de bola de fuego en modo automático.
+combate.  Se trata de una medida de autodefensa que, después de algunos
+reflexión, tendrá sentido.  Si todavía no tiene sentido, lanza
+una bola de fuego en el cuadrado a tu lado y examina tus puntos de vida.
+
+- Huir: huye del mapa táctico si tienes menos de 1/4 de tu
+puntos de vida restantes.
+
+     Si le das a un personaje una orden de movimiento, alterna el combate automático.
+apagado.  Esto es para que puedas sacar al personaje de un lugar particular.
+acciones de combate si sientes la necesidad de hacerlo.  Un ejemplo: si Sturm
+comienza a atacar a un enemigo palmeado mientras un fe no palmeado está atacando
+Goldmoon, puedes decirle a Sturm que camine hacia Goldmoon y luego gire.
+Su autocombate vuelve a activarse.  Atacará al enemigo activo, dejando
+el enemigo palmeado para más tarde.  Si le das al grupo la orden de movimiento,
+Desactiva el combate automático de todos.  Esto le permite salir de
+una pelea si parece abrumadora.  Es una táctica recomendada si
+Ember alguna vez te atrapa y no estás preparado.  combate automático
+Se activa automáticamente si algún personaje recibe daño. 
+Esto puede deberse a un hechizo o cuerpo a cuerpo.  Tenga en cuenta que una bola de fuego
+explotar cerca cambiará a todos los que se encuentren en el área de efecto a
+Modo de combate automático.  Entonces, si un dragón te lanza una bola de fuego y tú
+Si quieres correr, Party Move desactivará el combate automático.  En efecto,
+le estás diciendo a tus personajes: "Sé que quieres matarlo, pero
+¡ahora no!"  Tasselhoff puede gritar a sus oponentes, lo que les provoca
+para atacarlo.  Esta es una característica especial de la raza Kender, y
+Es útil para salvar a los lanzadores de conjuros y clérigos del ataque si
+no tengo a dónde correr.  Que alguien más grite durante el combate no tiene ningún efecto.
+efecto (excepto posiblemente para ayudar a su psique).
+
+                   Consejos para explorar mazmorras
+
+     Hay algunas cosas que pueden hacer que la exploración de mazmorras avance.
+un poco más rápido.
+
+- Uso del teclado del mouse: use las teclas F1-F4 generosamente, especialmente
+cuando quieras lanzar hechizos en combate.  Por ejemplo, si Raistlin
+es el carácter superior izquierdo, presione F1 seguido inmediatamente por S y
+¡Estás en el menú de lanzar hechizos y el juego está congelado!  Utilice el
+ratón cuando quieras pasear a tu personaje activo pero no
+la fiesta.  Puede hacer clic y mantener presionado el botón izquierdo del mouse,
+y el personaje ajustará continuamente su camino según sea necesario.
+Se resaltan diferentes cuadrados.  Experimenta un poco y lo lograrás.
+pronto desarrolle sus propios atajos.
+
+- Comando Reagrupar: Sólo tienes que conseguir uno de tus personajes
+a través de una puerta para reagrupar a todos en la habitación de al lado. 
+Sin embargo, esto no funciona si no has matado a todos los enemigos en
+¡La habitación en la que estás!  El comando también funciona si estás al aire libre y
+quieres volver al modo salvaje, pero simplemente alcanzando cero de
+el botón derecho del ratón es más rápido.
+
+
+                           Encuentros
+
+                       Encuentros Específicos
+
+     A lo largo del juego hay algunos encuentros específicos que
+te ayudará con información sobre el juego o con artículos especiales
+querrás utilizar más tarde.  Además de ser presentado aquí,
+Los elementos especiales también se enumeran más adelante en el documento para su
+referencia.  En esta sección, todos los encuentros específicos se referirán a
+un hexágono numerado en el mapa salvaje (wildmap1.pcx y
+wildmap2.pcx, las dos mitades del mapa).  Los números se refieren a
+fila y el número de hexágonos en esa fila contados desde la izquierda.  Para
+Por ejemplo, 4-16 significa la cuarta fila desde arriba, el hexágono 16.
+contando desde la izquierda.  Los encuentros se presentan aquí en
+orden alfabético:
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Lista de encuentros
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fila Hex# Encuentro
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1 2 Cueva de las abejas
+1 12 Hexágono inicial
+2 8 Torre Secreta
+2 11 Cueva de la Araña
+3 5 Pueblo de los Enanos Neidar
+4 16 Comida en el bosque/Refugio seguro
+5 13 Bifurcación en la carretera
+6 16 Campo de batalla
+7 15 Ojo de Elar
+8 5 Minas avanzadas (entrada oeste)
+8 6 Minas avanzadas (entrada este)
+9 2 Fixban
+9 19 Naufragio
+10 19 Piratas Hobgoblin
+12 6 Comida en el bosque/Refugio seguro
+14 6 Comida en el bosque/Refugio seguro
+15 6 ruinas de nieve
+15 14 Batalla de llaveros
+18 18 Ciudad Oculta
+20 10 agujas de pantano
+21 4 Cueva de los Trolls
+21 13 Duendes del pantano
+22 7 Templo de los hombres lagarto
+22 14 Duendes del pantano
+26 10 Dragón Verde
+27 16 Campamento de ogros
+30 7 Caché de comida
+33 ?      casquete
+
+
+               Bee Cave (ver BEECAVE.PCX para ver el mapa)
+
+Descripciones de encuentros 
+
+     Campo de batalla: El campo de batalla (6-16) ofrece algunas cosas interesantes.
+elementos: un arco y una aljaba, una espada y brazales de defensa.
+
+     La cueva de las abejas: la cueva de las abejas (1-2) es una pequeña mazmorra.  cuando
+encuentras la cueva, leerás que escuchas un fuerte zumbido;  el
+Las abejas gigantes te atacarán incluso antes de que entres a la cueva (¡habitación 0!)
+Una vez que los hayas despachado, encontrarás una espada tirada donde un
+El desventurado aventurero anterior lo dejó caer al morir.  la primera habitacion
+bajo tierra (habitación 1) contiene más abejas, una poción curativa y
+un carcaj de flechas.  La habitación 2 tiene algunas abejas más.  La sala 3 está llena.
+con abejas, que atacan inmediatamente!  Aquí encontrarás el Real
+Jalea (asegúrate de tomarla) y un montón de comida.  no puedes moverte
+la comida.  Simplemente devuélvele la gelatina al tipo Neidar y él
+asegúrese de que la comida llegue a sus refugiados.
+
+     Hexágono inicial: comienzas el juego en el hexágono 1-12.  no puedes ir 
+al norte, ¡porque eso sería regresar a Pax Tharkas!
+
+     El ejército draconiano: el ejército draconiano no tiene objetivos específicos.
+Ubicación: pueden golpearte en casi cualquier lugar del mapa.  el
+Los draconianos escaparán de Pax Tharkas y te seguirán por el camino.
+camino que tomaste por primera vez cuando comenzaste el juego.  A partir de ahí,
+despliégate en busca de tus huellas.  Se escapan de Pax Tharkas 48
+horas después de iniciar el juego.  La mejor estrategia a utilizar cuando
+vea el mensaje "¡Los draconianos están sobre usted!" es huir y guardar
+corriendo.  Usa Party Move para salir del mapa lo más rápido posible. 
+Debido a que los draconianos rara vez logran sorprenderte, te sorprenderán.
+Generalmente espera unos segundos antes de lanzar una andanada de magia.
+misiles sobre ti.  Esta es tu oportunidad de ponerte en movimiento y mantenerte 
+en movimiento.  Podrías sentirte tentado a "disputarte".  No.  cada escuadrón
+El número de draconianos que conoces es sólo una fracción del número de
+draconianos en tu hexágono, y derrotar a un grupo utilizará la mayor parte de
+tus hechizos, dejándote vulnerable al próximo ataque.  solo sigue
+corriendo, y eventualmente te perderán la pista y volverás a
+entra en el mapa salvaje en el siguiente hexágono adyacente.  Entonces sal de
+ahí!
+
+     Ember, el Dragón Rojo - Ember no te está buscando
+específicamente, pero si te encuentra, hará todo lo posible para que tu
+día miserable.  Ember se mueve por el mapa gestionando su ejército de
+draconianos, así que si no te interpones en su camino, probablemente no encontrará
+usted.  Si te encuentras con él, ¡cuidado!  Utiliza sus armas de aliento.
+y hechizos de bola de fuego, lo que significa que podrías recibir hasta cuatro
+Disparos seguidos, ¡cada uno de los cuales causa hasta 66 puntos de daño!  SI
+Si estás buscando problemas, primero lanza resistencia al fuego a tu grupo.
+
+     El Ojo de Elar - El Ojo de Elar (7-15) es una pequeña torre
+Ubicado a lo largo de la carretera principal hacia el sur.  Está custodiado por algunos bastante
+guardias débiles.  Ve allí por la tarde, porque cuando hayas
+Llegado a la escalera interior, tendrás que esperar hasta el anochecer para usarla.
+el dispositivo de visualización.  No quieres perder más tiempo que tú.
+¡Después de todo, tengo que hacerlo!  La vista que obtendrás es la más al sur.
+parte del mapa, y verás la ubicación de Skullcap, el
+entrada a Thorbardin.
+
+     Fizban - Fizban (9-2) es un tipo extraño.  Él podría ser un
+mago, o podría ser un loco.  Querrás hablar con él.
+(use el ícono de hablar), porque él es el único que puede
+Te llevará a través de la última puerta dentro de Skullcap.  cuando hablas con
+él, te lanzará bolas de nieve.  Esto iniciará tu diapositiva.
+por el glaciar con Fizban a cuestas.  Él no se involucrará en
+combate, pero ten por seguro que cuando lo necesites aparecerá en
+una breve secuencia cinematográfica (ver Skullcap).  El esta protegido por
+paredes invisibles, y simplemente se reirán de ti si intentas hacer daño
+él.  Después de deslizarte por la montaña, terminas fuera de la nieve.
+Ruinas. 
+
+     Bifurcación en el camino: en la bifurcación (5-13) encontrará un arco y
+carcaj dejado por algún grupo de aventureros anterior.  Ir al oeste requiere
+hacia Outpost Mines, hacia el sur te llevará por la carretera principal
+camino hacia el Ojo de Elar.
+
+         Ciudad Enana Oculta (Ver DWARFCTY.PCX para ver el mapa)
+
+Descripciones de encuentros:
+
+     El Dragón Verde - El dragón verde (26-10_ guarda el camino hacia
+las tierras del sur.  Hay dos formas de superarlo.  tu puedes
+Intenta derrotarlo para que los refugiados pasen.  Él tiene una mayoría
+temible arma de aliento, sin embargo, y será muy difícil de
+fracaso.  La forma más fácil es poner el anillo de protección (que
+puedes encontrar en el Templo de los Hombres Lagarto) en tu mochila.  entonces
+equipado, ¡el dragón verde no te atacará en absoluto!
+
+     Ciudad Enana Oculta: esta cueva (18-18) es el comienzo de 
+una mazmorra de longitud media.  La habitación 0 es la entrada a la cueva, donde algunos
+Los duendes han regresado a casa y descubren que las abejas gigantes se han asentado.
+adentro y atrapó a sus hermanos más adentro.  Si te acercas al
+maleficio de la cueva durante la noche, descubrirás toda la banda de
+duendes, mientras que si vas allí durante el día, sólo un
+Un contingente de guardias de dos estará presente (el resto está fuera en un
+cazar).  La habitación 1 contiene varias abejas gigantes.  Las abejas se han puesto
+una colmena en esta cámara exterior, para consternación de los
+habitantes más adentro. La habitación 2 es el campamento base del hobgoblin.
+clan.  Desde que las abejas entraron para bloquear la caverna detrás
+ellos, los hobgoblins y sligs han estado usando esta habitación como su
+Base desde la que lanzar ataques contra los enanos.  ellos esperan
+encontrar una salida a través de las cavernas enanas, pero hasta ahora el
+Los enanos han logrado mantenerlos a raya.  La habitación 3 es una caverna llena.
+con escombros y estalagmitas.  En la esquina noroeste está el
+comienzo de una fortaleza enana, pero primero tendrás que defenderte
+de los sligs y hobgoblins que están en guerra con los enanos.  a
+Para entrar en la fortaleza enana, simplemente puedes caminar a través del
+estalagmita en la parte trasera de la cueva (ya que no ocupan
+todo el espacio en el que se encuentran, simplemente puedes recorrerlo
+ellos).  Hay dos guardias enanos que intentarán impedirte
+entrando.  No hay manera de hacerlos amigables.  La habitación 4 es la
+primer paso a través de las cisternas enanas, donde una enorme fuente de agua dulce
+El lago fue construido bajo las colinas y montañas hace siglos.  los enanos
+Considera este lugar sagrado y lucharán para mantenerte.
+fuera.  Los soldados enanos te atacan desde los rincones del camino.
+pasarela.  La habitación 5 es la herrería enana.  Fuera de la vista dentro del
+El horno es una espada.  Es mágico (+2) pero tienes que derrotar al
+Smith y sus aprendices primero.  La sala 6 es la Sala de Audiencias. 
+Además de continuar hacia el oeste, esta sala contiene la estatua de
+un anciano rey enano surgió del agua.  No puedes alcanzar o
+destruye la estatua, pero si le hablas te dirá que
+Skullcap bloquea la entrada a Thorbardin.  Si Flint está presente
+y habla con la estatua, ¡su clase de armadura será cero!  Habitación
+7 son las habitaciones de los enanos.  Sólo funcionan dos puertas, la
+los abiertos.  El resto va a viviendas de los enanos, y no hay
+forma de abrirlos.  La habitación 8 es una caverna parcialmente destruida.  el
+Los enanos y los hobgoblins lucharon amargamente en esta habitación, que era
+una vez parte de la ciudad enana.  Los hobgoblins y sligs tienen miedo
+para luchar contra las abejas gigantes en la habitación 1, por lo que están tratando de atacar a las
+enanos en esta sala, que solía ser un enano común.  Mata al
+enanos mano a mano, luego usa tu hechizo de bola de fuego para destruir el
+rocas fuera del camino.  Si lo haces bien, también podrías matar a un
+¡Un par de duendes también!
+
+     Los piratas hobgoblin: los piratas hobgoblin (10-19) guardan un
+espada+3.  Es una batalla difícil y probablemente requerirá
+uso considerable de hechizos.
+
+     La batalla del llavero: tiene lugar la batalla por el llavero.
+en hexágonos 15-14.  Numerosas criaturas no muertas custodian el ring.  lo harás
+¡Sea atacado inmediatamente!  Derrota a las criaturas y luego pon la llave.
+anillo en la mochila de un personaje.  Cuando dejas la táctica
+En la pantalla del modo desierto verás las ubicaciones de otros
+claves (a menos que ya las haya encontrado).  No olvides
+Recoge la llave que está aquí en el suelo.
+
+     Los duendes de los pantanos: puedes encontrar los duendes de los pantanos en cualquiera de
+tres lugares: 20-10, 21-13 o 21-14 (las tres entradas al
+pantano).  Una vez que los encuentres, no los encontrarás en ningún otro lugar. 
+¡Pero cuidado!  Hay algunos draconianos allí para luchar primero.
+Debes matar a los draconianos para recibir el mensaje del duende.  el
+Los duendes te dicen que el lagarto se ha llevado al guardián del pantano.
+hombres y deben ser rescates (ver Templo de los hombres Lagarto más adelante en el
+doc) antes de que los refugiados puedan atravesar el pantano de forma segura.
+
+
+     Aldea Neidar: la aldea de los enanos Neidar (3-4) es
+uno de los primeros lugares a donde ir.  No es una mazmorra;  cuando vas a
+En la entrada aparece un menú.  Si selecciona "Ofrecer hacer algo
+para ellos" se te dará una misión para obtener la jalea real del
+Bee Cave, y cuando la devuelvas te darán la comida que encontraste.
+automáticamente a los refugiados.  También puedes encontrar la primera pista para
+de dónde está Thorbardin seleccionando esa opción.
+
+     El campamento de los ogros: los ogros (27-16) custodian la llave roja.  tu has
+tropezaste con su campamento y te rodearon.  juicioso
+El uso de hechizos web debería permitirte luchar contra uno o dos ogros a la vez.
+tiempo.  Cuando los hayas derrotado, llévate la llave contigo.
+
+                Las minas avanzadas (Enanos Aghar)
+                    (ver OUTPOST.PCX para ver el mapa)
+
+     Los enanos Aghar (8-6) son un grupo heterogéneo de enanos que
+Piensa que son más importantes de lo que realmente son.  Todavía su
+Las minas son una de las mazmorras más grandes del juego, y es bastante
+confuso.  Si te has perdido aquí, el mapa OUTPOST.PCX debería
+muestra por qué.  Realmente no te sirve de mucho darle una paliza al
+Aghar (excepto psicológicamente).  La idea aquí es conseguir el latón.
+Varilla y salir sin perder demasiado tiempo.  La habitación OW es el oeste.
+entrada que conduce al hexágono 8-5 en el mapa salvaje.  Evite el
+trolls: derrotarlos sólo te hará perder el tiempo.  La habitación OE es la
+entrada este.  La habitación 1 está vacía.  La sala 2 contiene una serie de
+trolls que de alguna manera se han metido en las minas y se han perdido. 
+La habitación 3 contiene un enano que ha sido enviado allí para trabajar una nueva vena.
+de mineral, pero preferiría seguirte a todas partes.  Habitación 4
+contiene la Antecámara Real de Aghar.  Un enano se acercará a
+determinar quién eres y te invitará a hablar con el rey a través de
+la puerta sur.  Acercarse a la puerta le permitirá realizar una
+número de opciones.  Aunque estas opciones se parecen al Neidar
+opciones de King, podrían resultar en información diferente
+dado.  La habitación 5 es la salida este y contiene un carcaj abandonado.
+de flechas.  La habitación 6 es una trampa.  Al entrar, verás un enano.
+saliendo por la salida este.  Si lo sigues, terminarás en
+habitación 7. La habitación 7 es un MAL lugar para estar.  Te encontrarás a ti mismo
+¡Rodeado de varias especies de draconianos!  Al parecer algunos de
+Los aghar no son tan agradables como parecen.  Es muy probable que usted
+perderás a uno de tu grupo al principio, a menos que tengas muy rápido
+reflejos.  La habitación 8 es la segunda habitación desde la salida este.  Habitación
+9 contiene un almacén de alimentos, que está custodiado por tres caballeros.
+persigue.  Es una batalla feroz que no es necesario pelear.  la comida
+no es apto para los refugiados, como descubrirás cuando inspecciones el
+habitación.  Las puertas cerradas no se pueden abrir, pero huelen igual de mal.
+como la comida en la habitación.  La habitación 10 contiene varios aghar.
+enanos a quienes no les gusta tu presencia.  Te atacarán bien
+lejos.  La habitación 11 contiene la estatua de un dragón y una serie de
+enanos.  Son los sirvientes del sacerdote Aghar y son
+molesto porque has perturbado su adoración.  A los pies del dragón
+Es una varilla de latón, que usarás más adelante dentro de Skullcap.  Habitación 12
+es un callejón sin salida.
+
+
+     Torre Secreta: La Torre Secreta (2-8) está oculta por un secreto. 
+puerta.  Cast detecta invisible para abrir la puerta.  Desde la torre tu
+Puedes ver más lejos de lo que normalmente podrías.  No hay otro beneficio
+de usar la torre, sin embargo.  
+
+     El naufragio: cerca de la costa (9-19) se encuentra un cofre del tesoro,
+medio enterrado.  Cuando intentes examinarlo, activarás una trampa. 
+Si usas el hechizo detectar trampas, no recibirás ningún daño de
+la trampa.  En cualquier caso, ocho esqueletos se materializarán y
+atacarte.  Estos son los fantasmas de los piratas que nunca llegaron
+Usa el tesoro: un pergamino de mago de un hechizo de bola de fuego, una llave plateada,
+un carcaj de flechas y una poción curativa.  Necesitarás la llave
+más tarde en Skullcap.  Por supuesto, sólo un mago puede usar la bola de fuego.
+desplazarse.  Colócalo en su retrato para preparar el hechizo.  una vez
+preparado, debe ser el próximo hechizo que lances, pero está bien,
+porque si aún no has encontrado a los hobgoblins en el hex 10-19,
+ese es un buen lugar para usarlo.
+
+               Skullcap (Ver SKULLCAP.PCX para el mapa)
+
+     Skullcap (ubicado en algún lugar en la parte inferior del mapa -
+es diferente en cada juego, pero siempre en la fila 33) es la final
+mazmorra para conquistar.  Entrar en Skullcap no es tan fácil como parece. 
+Sólo podrás entrar al calabozo a las 8:00 p.m., cuando el sol ilumina
+la puerta.  Detectar invisibles y detectar hechizos mágicos no funcionará
+para abrir esta puerta.  Skullcap es una serie de habitaciones, cada una con su
+propios problemas únicos: la sala 0 es la entrada exterior a la final
+mazmorra.  Si detectas magia, verás la ubicación de la puerta.
+pero no puedes entrar hasta las 8:00 p.m.  El hexadecimal en el que aparece esta pantalla
+es un refugio seguro, así que si traes a los refugiados aquí estarán a salvo.
+mientras exploras la mazmorra.  La sala 1 contiene la maquinaria de
+las enormes puertas de las mandíbulas.  Dos espectros han encontrado un hogar en el pantano.
+esquina norte de la habitación.  La Sala 2 es un homenaje al estado de
+El castillo está en mal estado. Las arañas se han apoderado de esta entrada. 
+La habitación contiene un cofre del tesoro.  Está atrapado, por supuesto. 
+Al abrirlo se obtiene una poción curativa y una espada mágica.  La habitación 3 es
+ocupada por cinco fantasmas y contiene una estatua de un dragón justo
+como el de Outpost Mines.  Si usas la varilla de latón
+Entré en Outpost Mines, el dragón se animará y te informará.
+que matará a Ember.  Esto ralentizará al ejército draconiano,
+permitiendo que más refugiados permanezcan con vida cuando completes la misión. 
+Detrás de la estatua del dragón está la entrada a la habitación 3a.  La habitación 3a es
+Una habitación secreta accesible si animas al dragón en la Habitación 3.
+(También puedes seguir una ruta más larga, retrocediendo desde
+sala 5).  Después de derrotar a los caballeros de la muerte y los esqueletos, allí,
+Encontrarás en e f las cinco teclas vitales (la tecla marrón) y un conjunto de
+brazales de defensa.  Hay una puerta en la pared oeste de esta habitación.
+que conduce a la habitación 5. La habitación 4 es un laberinto habitado por
+fantasmas y zombies.  Un carcaj de flechas yace en el suelo cerca del
+muro oeste.  La mejor manera de atravesar esta sala es evitar a los fantasmas. 
+Intenta atraer a los zombies a posiciones que bloqueen el paso de los fantasmas.
+movimiento, luego haz que tu clérigo los gire.  Con un poco de planificación
+y un poco de suerte, no tendrás que luchar más que uno o dos
+criaturas en esta habitación.  La habitación 5 es el primer laberinto de cristal. el laberinto
+se revelará si usas detectar invisible.  Deambulando
+En el laberinto hay varios zombis, que pueden ser eliminados fácilmente.
+por la habilidad de turno de un clérigo como no-muerto.  Por lo tanto, el clérigo debe
+guía el camino a través de la habitación.  La sala 6 es el primer parapeto, que
+Está custodiado por dos golems.  La sala 7 es el segundo parapeto, también
+custodiado por dos golems.  La habitación 8 es el segundo de los laberintos de cristal. 
+Está custodiado por espectros y es bastante confuso si no lanzas
+Detectar invisible para revelar el patrón.  Los espectros rara vez se vuelven
+por los clérigos que tienes a tu disposición, por lo que el uso inteligente de tu
+Es necesario usar hechizos para limpiar esta sala de monstruos.  Sala 9
+Presenta una batalla con dos hidras de tres cabezas.  Un bien situado
+Un hechizo de bola de fuego o dos generalmente pueden reducir los puntos de vida de las bestias.
+a un nivel razonable, entonces tus luchadores deberían poder matar
+ellos.  Hay una puerta en la pared oeste que conduce a la habitación 5. Habitación 10
+es el comienzo de las puertas.  Después de negociar el cristal
+laberinto (detectar invisible) necesitarás dos llaves para pasar.  Si no lo haces
+tienes las teclas blanca y amarilla, explotará una runa y las armas
+que llevas en tus manos se desmoronará en polvo!  Si usted
+Si no tienes las llaves adecuadas, cambia de arma antes de pasar por el
+puerta para que tus mejores armas estén en tu mochila.  De esa manera el
+Las armas menores que tengas en tus manos se convertirán en polvo y
+Puedes volver a equipar tus buenas armas en la habitación de al lado.  La habitación 11 es la
+segunda puerta.  Los zombies se acercarán a ti uno a la vez.  tener
+el clérigo los gira para evitar desperdiciar tus hechizos.  En la puerta, si
+Si no tienes las llaves roja y verde, una runa provocará que todo tu
+grupo se reducirá a 1 punto de vida cada uno.  No hay manera de prevenir
+esto excepto para tener las llaves.  Sin embargo, puedes hacer que el viaje sea más fácil.
+un poco más fácil.  Haz que uno de tus personajes pase solo primero. 
+Antes de reagruparse o seguir, cura a todos los miembros de tu grupo usando
+el menú Opciones - Curar.  Luego reagrúpate para llegar a la siguiente habitación. 
+La habitación 12 contiene la tercera puerta.  Los dos fantasmas y el espectro
+son enemigos duros, así que sigue el consejo que te dan en la habitación 11. Después del
+batalla, recuerda curar a tu grupo hasta que alcance todos sus puntos de vida.  en
+esta puerta, la llave marrón te impide olvidar todos tus
+hechizos y perder tus objetos mágicos.  Además de la clave, podrás
+Tienes que tener Fizban contigo.  Sólo él puede abrir la puerta (la marrón
+La llave preserva tus hechizos, la llave de fizban abre la puerta).  si tu
+Conocí a Fizban antes, aparecerá aquí en una breve película.
+secuencia, permitiéndole acceder a la última habitación.  Si no, estarás
+Le dijeron que él tiene la última llave y que tendrás que salir y encontrarla.
+él.  Esto significa que probablemente perderás el juego, porque el
+Los draconianos estarán sobre ti cuando regreses al
+comienzo de Skullcap.  Sin embargo, antes de cruzar esta puerta,
+asegúrate de lanzar el hechizo de resistencia al fuego a todos los miembros de tu grupo,
+porque el lich te lanzará una bola de fuego momentos después de que entres en su
+habitación.  La habitación 13 contiene el lich Fistandantilus y una variedad
+de criaturas no muertas.  Inmediatamente te "ablandará" con un
+bola de fuego, por lo que sería prudente lanzar el hechizo resistir fuego
+todos.  Hay varias formas de combatir al lich y sus
+minions.  Aquí es donde el uso de los comandos del teclado hace que las cosas funcionen
+más fácil para ti.  Utilice la tecla F# y la tecla S para seleccionar a su clérigo
+para lanzar un hechizo de retención de persona y anticipar el movimiento del lich
+al apuntar a un cuadrado.  Sólo funcionará durante uno o dos segundos, si
+en absoluto.  Luego presiona F5 para poner a tus luchadores en movimiento.  Ahora usa F#
+y S para que tu mago lance un hechizo de bola de fuego al lich.  un
+Un enfoque alternativo es lanzar una bola de fuego apresurada al lich mientras
+alejando a tu grupo del camino de su bola de fuego.  Configura tu
+grupo para que tus combatientes estén en la última fila, de esa manera,
+Podrán luchar contra los caballeros que acechan, dejando al usuario de la magia
+y clérigo libre para escapar de la bola de fuego entrante.  Después de ese viento
+Ábrete camino por el laberinto y encuentra una buena manera de acercarte al
+lich antes de que pueda lanzarte otra bola de fuego donde pueda hacerte daño.
+daño.  Si puedes enfrentarlo en un combate cuerpo a cuerpo, deberías
+poder lanzarle hechizos sin correr el riesgo de recibir bolas de fuego a cambio. 
+Una vez que hayas derrotado todo en esta sala, ve por el este.
+puerta para terminar el juego. 
+
+     Ruinas de nieve: las ruinas de nieve (15-6) son los restos de una casa.
+en las montañas.  Los habitantes murieron congelados en el interior, encerrados
+por una avalancha hace muchos años.  Ahora rondan la casa en el
+forma de cuatro espectros.  Allí no encontrarás nada más de interés.
+
+     Spider Cave: esta pequeña caverna (2-11) está justo al lado de la carretera principal.
+camino en el norte, y se incluye como una introducción al combate. 
+Las arañas son fáciles de matar y no proporcionan ningún tesoro.
+
+
+                    Templo de los Hombres Lagarto
+                    (ver LIZARD.PCX para el mapa)
+
+     Te has topado con el altar de los Hombres Lagarto (22-7). 
+Al sacerdote y a sus adeptos no les gusta que molestes su lugar de residencia.
+sacrificio, y tratarán de matarte.  El altar está ubicado en
+la base de un acantilado, y hay una abertura hacia el subsuelo
+cámaras.  La habitación 0 es la superficie desde donde comienza.  Habitación 1
+Es la primera cámara subterránea.  Hay un par de guardias para
+te retrasará aquí, pero no mucho más.  La sala 2 es la primera prueba. 
+Usa tu hechizo de bola de fuego para derribar las plantas y rocas que
+bloquea tu camino.  Encontrarás un cofre del tesoro en el centro del
+habitación que te entrega su tesoro después de que se activa una trampa o
+evitado (contiene un arco, un carcaj y el anillo de protección). 
+Sólo las rocas grises puntiagudas con musgo en los bordes serán
+destruido por tus bolas de fuego, y las plantas con hojas grandes
+No requieren voladuras, pero bloquean la visión.  el anillo de
+La protección debe colocarse en su mochila a menos que tenga
+Ya mató al dragón verde.  La habitación 3 es el Jarak Sinn.
+cuartel.  Cuando entres aquí descubrirás que has
+Molestó a una gran cantidad de hombres lagarto en sus habitaciones.  ellos atacaran
+detrás de las paredes, así que lo mejor que puedes hacer es salir corriendo
+lo más rápido posible.  La habitación 4 contiene un camino hacia la puerta este,
+y una cueva que se abre hacia el norte.  Tendrás que cruzar el río en
+el extremo noreste para llegar a la entrada de la cueva.  Hay dos grupos
+de tres hombres lagarto cada uno aquí.  Sala 5, el cuartel de sargentos,
+Está custodiado por dos golems y varios hombres lagarto sorprendidos.  eso
+Vale la pena luchar a tu manera, sin embargo, porque hay un
+puerta ubicada en la pared norte que conduce a la habitación 9. Puedes usarla
+para evitar las habitaciones 6, 7 y 8. La habitación 6 contiene dos hidras y una
+Laberinto invisible en el pantano.  Afortunadamente, las bestias no pueden
+alcanzarte al mismo tiempo: el muro invisible bloquea el primero
+por algunos cuadrados, y las plantas en el fondo de la habitación mantienen el
+otros a raya.  Tendrás que usar ese hechizo de bola de fuego para cortar.
+a través de la maleza para llegar a la puerta, y esto perderá el
+segunda hidra.  Asegúrate de que el primero esté muerto antes de dejar que el
+el segundo suelto!  La sala 7 es la sala del recuerdo, y la
+Los espectros que salen de las estatuas probablemente no te dejarán olvidar. 
+La habitación 8 está cubierta de plantas y matorrales.  En el camino te encuentras
+tres trolls que regresan de mover una roca (que encontrarás
+en la sala 9).  Están de mal humor, como suelen estar los trolls.  allí
+No hay razón para explorar el resto de la habitación.  La habitación 9 está dividida por
+un río.  La roca en el medio fue rodada hasta su lugar por el
+trolls que conociste en la habitación 8. En la margen derecha hay cuatro Aurak
+draconianos, pero por supuesto son invisibles.  Si no estas pagando
+atención a las barras de puntos de vida del monstruo en la parte inferior de la
+pantalla, esta sala realmente parece fácil.  Cuando explotas la roca
+Sin embargo, en el camino, permitirás que los auraks te ataquen.  Elenco
+el hechizo de bola de fuego justo al sur de la roca, y golpearás
+¡Uno de los Auraks, mata a la mayoría de ellos y destruye la roca!  Habitación
+10 tiene muchas opciones: puedes seguir el laberinto como quieras, o
+Puedes crear nuevas aperturas con tu hechizo de bola de fuego. ¡Ten cuidado!  en
+Además de los enemigos que puedes ver, hay dos más invisibles.
+Auraks aquí.  Lo más probable es que uno se encuentre junto a la puerta.
+enfrente de donde entraste. Lanza un hechizo de detección invisible antes
+te sorprenden.  La habitación 11 es la última cámara del Jarak Sinn. 
+Aquí, un grupo de hombres lagarto están torturando al guardián del pantano.  dos
+de los Jarak Sinnn son sacerdotes, como lo demuestra su gran
+puntos de vida exagerados.  Sin embargo, no lanzan hechizos.  Su
+Los dioses son dioses falsos y no reciben hechizos clericales.  si tu
+mátalos, Marsh Warden te recompensará con un pergamino que
+te muestra el camino a través del pantano para que tus refugiados no lleguen
+perdido y estancado.  También volverá automáticamente a
+el comienzo del calabozo – sobre el suelo, donde está el altar. 
+
+     Cueva del Troll: dentro de la cueva del Troll (21-4) encontrarás un troll.
+que ha encontrado un cofre del tesoro y está tratando de encontrar una manera de abrirlo
+eso.  Una vez que lo despaches y actives la trampa o desarmes
+Allí encontrarás la llave verde (ver Skullcap) y una espada mágica.
+
+
+                      Manejando a los refugiados
+Los refugiados están representados por uno o más iconos idénticos:
+al comienzo del juego estás ubicado en el mismo hexágono que
+lo son, por lo que no puedes ver su ícono.  Puedes revelarlos por
+ordenar a los héroes que muevan un hexágono.  Cada icono de refugiado representa
+varios refugiados viajan juntos.  A principios del
+juego están todos juntos, pero se pueden dividir en grupos más pequeños
+si no se los cuida con esmero.
+
+                         Estatus de refugiado
+
+     Consulta el estado de un grupo de refugiados antes de darles órdenes
+para moverse.  Puedes hacer esto en cualquier momento durante el juego, siempre y cuando el
+Los héroes ocupan el mismo hexágono que el grupo de refugiados que estás dando.
+órdenes a.  Haga clic en el encabezado de refugiados en la barra de menú y
+seleccione Estado.  Esto te dice cuántos refugiados hay en ese grupo,
+cuánta comida tienen, cuántos carros y quién es su líder
+(si no se han alejado del grupo principal).  
+
+                      Ordenarles que se muevan
+
+     Si no tienen comida, casi nunca seguirán tus
+pedidos.  La principal tarea a la que te enfrentas es encontrar comida.  Localizar un caché
+comida en alguna parte, luego regresa con los refugiados y les ordena que
+muévelo.  La comida es el factor que pesa más que todos
+el resto sobre su decisión de continuar.
+
+              Interacción con el Consejo para los Refugiados
+
+     Lea atentamente las explicaciones de los líderes de los refugiados y cómo
+interactúan.  Comprueba siempre a qué líder te diriges antes
+tú decides cómo acercarte a él:
+
+- Elistan, el clérigo, es un hombre lógico y de temperamento ecuánime,
+que admira enormemente a Goldmoon, y con quien Laurana también tiene una
+estrecha amistad.  Él responde mejor si le pides lealtad o
+convencerlo con la lógica.  Desdeña las amenazas o la violencia.
+
+- Briar, un hombre de las llanuras como Riverwind y Goldmoon, es un hombre de
+charla sencilla y motivación simple que ha caído bajo la influencia
+de Locar.  Puedes lograr los mejores resultados con Briar si usas
+argumento lógico o violencia, pero ésta es una táctica arriesgada, porque
+también podría producir el resultado exactamente opuesto.  La forma más segura de
+El enfoque de Briar es suplicar lealtad.
+
+- Locar es él mismo el tercer líder, un ex sacerdote de la
+religión falsa de los Buscadores, que trabaja activamente contra Elistan.
+Locar suele hacer lo que le dicen cuando lo amenazan.  Violencia
+También puede funcionar, mientras que la lógica y las súplicas de lealtad rara vez son válidas.
+eficaz.
+
+- Eben Shatterstone es un hombre amigable y accesible que
+Jugó un papel importante en la fuga de Pax Tharkas.  sus estados de animo
+son como el viento, y no hay manera segura de convencerlo de que
+seguirte.
+
+- Brookland es el líder de Woodfolk, un amigo del
+Elfos y un líder sólido de su pueblo que no puede ser empujado a
+una decisión.  Él responde bien a aquellos que pueden humillarse.
+y aún conservar el estatus de liderazgo, por lo que la mendicidad es la mejor manera de
+inducirlo a la acción.  La violencia es una forma segura de alienarlo.
+                                        comida
+
+     Los refugiados necesitan comida.  Después de años de esclavitud, no
+Sólo quieren que los lleven al desierto para morir de hambre, y
+Vuélvete muy contrario si lo haces.  Por lo tanto, debes encontrarlos.
+comida.  Puedes encontrar comida en varios lugares y es importante
+que conduzcas a los refugiados de un suministro de alimentos a otro.  cada uno
+El caché puede abastecer a 800 refugiados durante dos a cuatro días, por lo que hay que
+mantenlos en movimiento o comenzarán a morir de hambre.  Más específicamente,
+cada refugiado come una unidad de alimento cada día, a las 8:00 p.m.  Por
+dividiendo la oferta total de alimentos que tienen por el número de
+refugiados, puedes determinar cuántos días pueden pasar sin
+tener hambre.
+
+
+Ubicaciones de los alijos de alimentos Cantidad presente
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+El bosque en 3-4 4250 unidades*
+The Outpost Mines (8-6) 2400 unidades
+The Safe Haven en 12-6 4250 unidades*
+The Safe Haven en 14-6 4250 unidades*
+The Mountain Cache a 30-7 2000 unidades
+
+* = Solo disponible en una de esas ubicaciones, después de eso, no
+comida...
+
+     Llevar a los refugiados a través del bosque los ralentiza, pero aumenta
+Al norte también es donde se encuentra la mayor parte de la comida.  No los guíes
+por el bosque sin saber adónde quieres que vayan.  encontrar
+Primero la comida y luego los llevamos al bosque.  El camino por el cual
+Puedes guiarlos y pueden variar, así que elige el mejor orden para conservarlos.
+cómodamente abastecido de alimentos y recuerde su horario.  comida
+es también el factor más importante a la hora de abordar el problema.
+consejo de refugiados.  Si has encontrado comida, vuelve con los refugiados.
+y ordenarles que se muevan hacia la comida, no hay posibilidad de que
+desobedecerte, incluso si eliges una manera indeseable de acercarte
+(amenazando a Elista, por ejemplo).  Necesitan comida, así que incluso
+Si su enfoque es inapropiado, obedecerán hasta obtener la respuesta.
+comida.
+                           Refugios seguros
+
+     Lugares con comida y el hexágono que contiene la entrada Skullcap
+son refugios seguros: lugares donde los draconianos no atacarán a los
+refugiados.  Si bien al principio pueden parecer buenos lugares para dejar 
+los refugiados indefinidamente, si los dejas por mucho tiempo el
+Los refugiados empezarán a deambular intentando encontrarte de nuevo.  a
+Para empeorar las cosas, los draconianos acabarán siguiendo a los
+refugiados al refugio, y esperan cerca listos para atacar tan pronto como
+Los refugiados comienzan a moverse nuevamente.  Sin embargo, como refugio temporal,
+son bastante efectivos.
+
+
+            Armas de personajes: notas y restricciones
+
+               Algunos personajes, debido a sus habilidades especiales o
+estilos de lucha preferidos, se negarán a intercambiar armas.  Sólo el
+Se enumeran los personajes que tienen restringido el uso de armas.
+aquí.  Todos los demás personajes pueden usar cualquier otra arma utilizada en el
+juego.
+
+- Tanis - Tanis comienza el juego con Wyrmslayer, un mágico
+espada larga.  Es una espada+3, y tiene daño añadido y una mayor
+oportunidad de golpear al luchar contra dragones y similares.  él negociará
+si quieres que lo haga, y si estás pasando por Skullcap
+sin las claves adecuadas, debes seguir los consejos sobre el intercambio
+Busca un arma menor antes de atravesar la puerta.
+
+- Raistlin - Como mago, no se le permite usar armadura ni usar
+espadas.  Lleva consigo el Bastón de Magius, que le otorga
+una clase de armadura mejorada (-3).  También le ofrece +2 al golpe, lo que
+Es bastante respetable para un bastón de madera.
+
+- Flint Fireforge - Flint usa hachas de mano, un arma favorita de 
+los enanos.  Las hachas son más pesadas, lo que causa suficiente daño, y
+son más cortos, lo que los hace menos difíciles de manejar para carreras más cortas.  
+Flint desdeña las espadas y no cambia de armas.
+
+- Tasselhoff Burrfoot - El aro de Tass es una especialidad del
+Raza Kender, y puede usarlo para ataques cuerpo a cuerpo o a distancia. 
+Por lo tanto, no tiene motivos para cambiar el arma por ninguna otra.
+
+- Sturm Brightblade - Al contrario de la imagen que se muestra en el
+manual, Sturm ya no lleva escudo ni espada larga. 
+En algún momento desde que el artista dibujó ese retrato, Sturm tomó una
+espada de dos manos y se ha acostumbrado a su peso.  Por lo tanto,
+no tiene manos libres para arcos o escudos.
+
+- Goldmoon y Elistan - Ninguno de los clérigos tiene permitido
+usan armas afiladas, y eso incluye arcos y flechas.  ellos
+Lleve bastones en caso de que deban entrar en combate cuerpo a cuerpo.
+
+
+                Monstruos: cómo lidiar con ellos
+
+     Draconianos: lidiar con los ejércitos draconianos es simple: corre,
+y sigue corriendo.  Dado que un hexágono en realidad contiene varios
+pantallas tácticas, entrar en un hexágono con un icono draconiano resultará
+en múltiples encuentros sucesivos, sin posibilidad de memorizar
+hechizos en el medio.  Así, aunque puedas ganar la primera batalla, la
+Los próximos dos o tres seguramente pasarán factura a su grupo.  mantener
+corriendo, y eventualmente los dejarás atrás.  Si se encuentra en
+En números pequeños, los draconianos pueden ser manejados con cierto grado de
+dificultad.  En general, el hechizo de encantamiento no funcionará contra ellos, y
+La persona retenida y la red tienen efectos diferentes.
+
+     Aurak: Los Aurak son lanzadores de conjuros, pero el único hechizo que
+se arrojan su invisibilidad sobre sí mismos.  Una vez en combate cuerpo a cuerpo,
+vea cómo su hechizo se desvanece de vez en cuando, revelando sus posiciones. 
+No pueden ser hechizados ni retenidos, por lo que sólo la red es efectiva contra
+ellos.  Son monstruos de ocho dados de golpe, por lo que son muy difíciles.
+para derrotar.
+
+     Baaz - Baaz son draconianos comunes y corrientes, y son
+bastante fácil de derrotar.  Sólo tienen dos dados de impacto, pero su
+La resistencia mágica les da cierta protección contra los hechizos.
+
+     Bozak: debido a sus habilidades para lanzar hechizos, los Bozak son
+difícil de manejar.  Lanzan misiles mágicos y cada Bozak tiene
+tres hechizos.  EN grupo lanzarán una andanada de misiles mágicos.
+para ablandarte antes de que puedan llevarte a Melee Grange.  ellos
+Son monstruos de 4 dados de golpe, por lo que son relativamente fáciles de derrotar a mano.
+a mano.  Dejar atrás al Bozak puede ser difícil, porque cuando ellos
+Lanza un misil mágico hacia ti y tus personajes entrarán en combate automático.
+y quiero pelear. Sigue usando Party Move para sacarlos del
+mapa.
+
+     Kapak: los Kapak son criaturas de 3 dados de golpe y también son
+resistente a la magia.
+
+     Sivak: Los Sivak son los draconianos más difíciles de combatir cuerpo a cuerpo.
+con 8 dados de golpe.  Su armadura les da una clase de armadura de 0. Pero
+el principal peligro son los 13 dados de daño que hacen con sus magicos
+¡Armas!  Combinadas con Aurak, estas criaturas son mortales.
+adversario!  Los hechizos web funcionan mejor que los hechizos contra personas
+el Sivak.
+
+     Dragones: el único dragón rojo en Shadow Sorcerer es Ember.
+Lo notarás moviéndose en el desierto administrando su ejército.
+de draconianos.  Ember nunca se sorprende, por lo que tratar con él es
+difícil en el mejor de los casos.  La mejor manera de manejar a Ember es mantenerse al margen.
+su camino hasta que hayas liberado al dragón de bronce, que matará
+Ascua para ti.  Ember tiene tres armas de aliento y dos bolas de fuego.
+hechizos cada día, y dado que puede hacer hasta 66 puntos de
+daño, la mayoría de los grupos no sobrevivirán al segundo ataque.  Por supuesto,
+Los hechizos para retener persona, encantar y una red son ineficaces.  Hechizos de bola de fuego
+No lastimará a Ember, pero sí al Dragón Verde.  Un hechizo de oración
+combinado con un fuerte asalto por parte de tres luchadores con grandes puntos de vida.
+y resistir el hechizo de fuego lanzado sobre ellos es la única forma de
+en realidad matar a Ember.  Es mucho más fácil simplemente liberar el bronce.
+dragón.  Puede ser liberado de su prisión en Skullcap por el latón.
+vara, que debe ser robada a los enanos Aghar en el puesto avanzado
+Minas.  Los dragones de bronce están bien alineados.  el dragón verde
+Guarda el camino a través del pantano.  Esto será difícil
+batalla, pero unas cuantas bolas de fuego bien colocadas deberían ser suficientes.
+arma de aliento es una nube de cloro gaseoso que quema una notable
+patrón en la hierba y las piedras y causa daños espantosos. 
+Esta pelea se puede evitar de forma segura si llevas (no usas) el anillo.
+de protección.  Después de pasar el maleficio del dragón, puedes poner el
+Suena y recibe el beneficio de una mejor clase de armadura.
+
+     Enanos: en comparación con los demonios del desierto, los enanos
+no suponen dificultades.  El Neidar te ayudará, e incluso el
+El traicionero Aghar te hablará a menos que entres en su templo.
+(en las minas avanzadas) o se niegan a hablar con los de su especie, los
+Bulto alto.  Los enanos de la Ciudad Oculta son xenófobos y están
+Siempre hostil contigo.  Sin embargo, no lanzan hechizos y
+No tienes muchos puntos de vida.  En números te pueden vestir
+abajo, y tenga cuidado con la trampa en las minas avanzadas.  Encantar, sostener,
+y los hechizos de red son bastante efectivos contra los enanos.
+
+     Avispas gigantes: excepto en número, las abejas son poco más que
+una molestia y sólo se encuentran en cuevas específicas.  Un hechizo web
+manténgalos presionados hasta que esté listo para dar un golpe de gracia.
+
+     Hobgoblins: los hobgoblins son una amenaza menor y pueden hacerte daño.
+sólo en números.  En la batalla cerca de la costa, te rodean.
+de repente, lo que puede poner las cosas tensas.  El encanto es bastante efectivo.
+contra ellos.
+
+     Hombres Lagarto - Los Hombres Lagarto, también conocidos como Jarak Sinn, no son
+excepcionalmente grandes, pero son muy fuertes y pueden hacer bastante
+un poco de daño cada vez que golpean.  Mantén a tus lanzadores de hechizos protegidos
+y utilizar hechizos de retención de persona generosamente.  Sólo aparecen en pantanos.
+o a lo largo de ríos.
+
+     Ogros: otra molestia, pero cuando te sorprenden en su
+campamento pueden ser mortales.  Como son más grandes que el tamaño de un hombre, encanto
+y los hechizos de retención de persona son ineficaces.
+
+     Sligs: los sligs son parientes lejanos de los hobgoblins, y eso
+significa que hacen más daño cuando golpean y tienen la misma inmunidad
+para encantar y retener hechizos de personas.
+
+     Arañas: las arañas gigantes son una molestia, pero sólo suponen una amenaza
+en números.  No deberías necesitar lanzar demasiados hechizos para ayudar
+la batalla, siempre que tengas dos luchadores al frente.  ¿Necesitamos?
+¿Te recuerda que los hechizos web no servirán de mucho aquí?
+
+     Trolls: los trolls son difíciles de matar, incluso con magia.
+armas.  La mejor manera de manejarlos es enfrentarlos cuerpo a cuerpo.
+hasta que sus puntos de vida sean prácticamente cero, luego usa misil mágico
+(o bola de fuego, si eres extravagante) para acabar con ellos. 
+De lo contrario, se regenerarán tan rápidamente que serán prácticamente
+imposible de matar.  Debido a su fuerza, pueden escapar.
+de redes con bastante rapidez, y retener a la persona es sólo marginalmente más
+eficaz.  Si te encuentras con un grupo grande de trolls al azar
+encontrar, correr.  No vale la pena luchar.
+
+
+                             no-muertos
+
+     El encanto no tiene ningún efecto sobre los no-muertos.
+
+     Caballeros de la Muerte: la fuerza del mal en estas criaturas
+significa que ni siquiera pueden ser convertidos, ni siquiera por el clérigo de séptimo nivel.
+tienes disponible.  Lo siento.  Los hechizos web son bastante útiles para
+enredar su armadura encantada.
+
+     Fantasmas: los clérigos del séptimo nivel no pueden convertir a los fantasmas, pero debido a
+El espíritu del fantasma se asocia tan fuertemente con el
+mundo corpóreo, los hechizos de retención de personas los afectarán por unos
+segundos.  Los hechizos web son inútiles.
+
+     Ghouls: los Ghouls se pueden convertir, pero no disipar.  cuando 
+girados, simplemente se congelarán en su lugar.  No pasará mucho tiempo
+uno de tus personajes para destruirlos desde allí.  La persona tiene
+efecto limitado, pero la web es una buena idea.
+
+     Lich: Fistanantilus es el único lich en el juego y es
+suficiente.  Consulta la sala 13 de Skullcap para obtener ideas sobre cómo matarlo.
+
+     Knight Haunts: estas temibles criaturas no se pueden convertir ni
+disipado y retener a la persona no tiene ningún efecto.  Usa el hechizo web para
+inmovilizar la armadura.
+
+     Esqueletos: los menos peligrosos de los no-muertos, son fácilmente
+se volvió y casi con la misma facilidad lo mataron.  El uso de hechizos es típicamente
+No es necesario, e incluso los clérigos y magos pueden luchar cuerpo a cuerpo contra estos.
+criaturas sin sufrir demasiado daño.
+
+     Espectros: los espectros se pueden activar.  Mantener hechizos de persona y web
+ralentizarlos también.
+
+     Zombis: trata a los zombis como si fueran espectros.
+
+
+                              Artículos
+
+     Todos pueden llevar artículos colocándolos en su mochila. 
+Todos los artículos se miden según su capacidad de carga máxima por
+personaje.  
+
+      Cifras de carga (ajustadas para armaduras y armas)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Capacidad de carga máxima de caracteres
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Tanis 50
+rasitlin 30
+Caramelo 100
+luna de oro 40
+tormenta 50
+Tasa 35
+viento del río 105
+pedernal 60
+Giltanas 25
+Laura 25
+arriba 28
+tika 45
+Elistán 15 
+Brookland 22
+brezo 35
+Locar 35
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Valor de carga del artículo
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Hacha 8
+Arco 8
+Brazales 8
+Varilla de latón 8
+Pecho 150
+Clave 1
+Llavero 2
+Pociones 4
+Carcaj 4
+Anillo 1
+Jalea Real 8
+Desplazarse 4
+Espada corta, daga 4
+Lanza 8
+Espada a dos manos 12
+Espada, espada larga 8
+
+
+
+                     Dónde encontrar los artículos
+
+Armas
+
+Encuentro del objeto/Ubicación del hexágono de la habitación
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Espada,Vorpal(invisible)...Skullcap Room 4.................33-??
+Espada+3...................Piratas Hobgoblin................10-19
+Espada+2...................Sala de la cueva de las abejas 1.................1-2
+Espada+2...................Ciudad Oculta Habitación 4.................18-18
+Espada+2...................Cueva del Troll.................21-4
+Espada+1...................Sala de Skullcap 2.................33-??
+Espada+0.................Campo de batalla.................7-16
+
+Objetos mágicos
+
+Encuentro del objeto/Ubicación del hexágono de la habitación
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Brazaletes de defensa (AC2)..Battlefield....................7-16   
+Brazaletes de Defensa (AC2)..Skullcap Room 3a.................33-??
+Varilla de latón................. Sala de minas del puesto avanzado 11 ............ 8-6
+Pergamino de mago (bola de fuego)....Naufragio...................9-19
+Anillo de protección... Templo de los Hombres Lagarto................22-7
+
+Pociones curativas
+
+Encuentro del objeto/Ubicación del hexágono de la habitación
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+Curar heridas leves....Naufragio....................9-19
+Curar heridas leves....Sala de escutelaria 2.................33-??
+Curar heridas leves... Sala de la cueva de las abejas 2....1-2
+Otros artículos
+
+Encuentro del objeto/Ubicación del hexágono de la habitación
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Proa.................Bifurcación en la carretera.................5-13
+Arco.................Campo de batalla.................7-16
+Arco....................Templo del Hombre Lagarto.................22-7
+Arco......................Sala de Skullcap 3.................33-??
+Alimentos para refugiados... Ver tabla en la sección de alimentos....
+Key, Brown.................Skullcap Sala 3a.................33-??
+Clave, Final................Ver Encuentro Fizban................9-2
+Llave, Verde.................Cueva del Troll....................21-4
+Key,Red.................Campamento de los ogros.................27-16
+Llave, Plata.................Naufragio.......................9-19
+Llave,Amarillo.................Llavero Batalla.................15-14
+Llavero.......Llavero Batalla....................15-14
+Carcaj de flechas....Bifurcación en el camino.......................5-13
+Carcaj de flechas... Templo de los Hombres Lagarto................22-7
+Carcaj de flechas... Sala de minas del puesto avanzado 5................8-6
+Carcaj de flechas....Naufragio....................9-19
+Jalea Real (Tarro de Miel)...Sala Cueva de las Abejas 3....................1-2
+
+Fin..........

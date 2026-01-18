@@ -1,0 +1,61 @@
+Destructor de átomos
+
+
+ MODO TRUCO:
+
+ Escribe "CATHERINE ZETA JONES" en la pantalla de título y dirá "Listo".
+ Ahora inicia el juego normalmente e intenta presionar las siguientes teclas:
+
+ [S] - Saltar niveles.
+ [L] - Activa o desactiva vidas infinitas.
+ [I] - Activa o desactiva la invulnerabilidad.
+
+
+ EDITOR DE NIVEL:
+
+ La contraseña para acceder al editor de niveles es 'ZANDALEE'.
+
+ Así es como funciona:
+
+ [Esc] - Regresar al menú principal.
+ [Del] - Borra totalmente la profundidad seleccionada.
+   [M] - Alterna entre el modo "bloquear" y "malo".
+   [G] - Alterna el estilo gráfico entre Metal, Roca, Nieve, Ladrillo + Crypton.
+         Usar en profundidad 2.
+   [[] - Alternar entre niveles existentes.
+   []] - Alternar entre niveles existentes.
+  [F1] - Nivel de juego en modo de un jugador.
+  [F2] - Nivel de juego en modo de dos jugadores.
+
+ Diseñando un laberinto
+ ~~~~~~~~~~~~~~~~
+ Cada nivel consta de 3 capas y al presionar [D] se pasarán por ellas.
+ La profundidad 0 es donde se diseñan los fondos, la profundidad 1 es donde se encuentra el hielo,
+ van el barro y las minas, y la profundidad 2 es donde realmente diseñas el laberinto.
+ En la profundidad 2, al presionar la [barra espaciadora] se accede a la pantalla de selección de bloque.
+ donde puedes seleccionar cualquier bloque presionando fuego en tu joystick.
+ Esto lo coloca en modo "bloquear" (que aparece en la parte inferior derecha de
+ la pantalla) donde puedes colocar el bloque presionando fuego nuevamente.
+ 
+ Colocar personajes
+ ~~~~~~~~~~~~~~~~~~
+ Selecciona la profundidad 2 y presiona [M] para entrar en el modo "malo".
+ Coloque a ambos jugadores presionando [1] y [2] en la posición deseada.
+ Puedes alternar entre los malos usando las teclas coma [,] y [.], y
+ Puedes colocarlos usando fuego o reemplazar a los malos existentes seleccionando primero
+ el espacio y luego agregando su preferencia.
+ Las características del malo se pueden cambiar colocando el cursor sobre él y
+ luego usando las teclas de flecha:
+
+         Arriba: aumenta la velocidad de los malos.
+ Izquierda/Derecha: Disminuye/aumenta la velocidad a la que los malos arrojan peligros.
+              de 01 (un peligro cada movimiento) a 99 (un peligro cada 99
+              movimientos). 00 significa que nunca dejará caer nada.
+       Abajo: aumenta la velocidad de caída en 10.
+
+ Al presionar [9] cambiará la velocidad a la que aparecerán los malos.
+ Una vez que hayas colocado a todos los malos iniciales, presionar [Regresar] te llevará
+ a la pantalla "que", donde puedes colocar hasta 50 repuestos.
+ Al presionar [0] cambiará el tiempo entre la aparición de estos malos.
+ Cualquier nivel nuevo ahora se puede guardar en un disco en blanco regresando a la página principal.
+ menú y seleccionando la opción guardar.

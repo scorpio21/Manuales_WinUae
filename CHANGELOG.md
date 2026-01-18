@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.7 - Cheat Codes en Docs\\Cheat + Instalador/CI actualizados
+
+- **Reorganización de Cheat Codes**:
+  - Soporte para nueva estructura `Docs\\Cheat\\AMIGACHEATCODES` y `Docs\\Cheat\\AMIGACHEATCODES_ES`
+  - Fallback automático a la estructura antigua (`AMIGACHEATCODES` / `AMIGACHEATCODES_ES`) para compatibilidad
+- **Instalador actualizado**:
+  - Incluye la nueva carpeta `Docs\\Cheat` además de las rutas antiguas
+- **CI/CD actualizado**:
+  - Copia `Docs\\Cheat` al directorio `publish\\win-x64-singlefile` cuando existe
+
 ## v0.1.6 - Cheat Codes Profesional con Traducción
 
 - **Nueva interfaz profesional para Cheat Codes**:

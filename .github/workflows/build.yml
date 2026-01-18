@@ -53,8 +53,17 @@ jobs:
           if (!(Test-Path $dest)) { throw "No existe: $dest" }
 
           Copy-Item -Path "img" -Destination (Join-Path $dest "img") -Recurse -Force
-          Copy-Item -Path "AMIGACHEATCODES" -Destination (Join-Path $dest "AMIGACHEATCODES") -Recurse -Force
-          Copy-Item -Path "AMIGACHEATCODES_ES" -Destination (Join-Path $dest "AMIGACHEATCODES_ES") -Recurse -Force
+          if (Test-Path "AMIGACHEATCODES") {
+            Copy-Item -Path "AMIGACHEATCODES" -Destination (Join-Path $dest "AMIGACHEATCODES") -Recurse -Force
+          }
+          if (Test-Path "AMIGACHEATCODES_ES") {
+            Copy-Item -Path "AMIGACHEATCODES_ES" -Destination (Join-Path $dest "AMIGACHEATCODES_ES") -Recurse -Force
+          }
+          
+          # Copiar nueva estructura Docs\Cheat si existe
+          if (Test-Path "Docs\Cheat") {
+            Copy-Item -Path "Docs\Cheat" -Destination (Join-Path $dest "Docs\Cheat") -Recurse -Force
+          }
 
           if (Test-Path "manuales.json") {
             Copy-Item -Path "manuales.json" -Destination (Join-Path $dest "manuales.json") -Force

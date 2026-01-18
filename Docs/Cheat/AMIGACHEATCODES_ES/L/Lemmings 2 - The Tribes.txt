@@ -1,0 +1,2087 @@
+Lemmings II: Las tribus
+-----------------------
+
+Lo primero que debe hacer es apagar la música. (Puedes hacer esto jugando un
+tribu y luego regresar al menú, presionando ESCape).
+En la pantalla del menú, presione el botón izquierdo del mouse en cada una de las cuatro esquinas.
+de la pantalla, comenzando en la parte superior izquierda y avanzando en el sentido de las agujas del reloj. si lo haces
+correctamente, escuchará el mensaje "¡Vamos!" muestra cada vez que haces clic en un
+esquina. Ahora podrás seleccionar cualquier nivel para jugar de cualquier tribu (pero
+aún tendrás que completar todos los niveles para recibir el talismán).
+Alternativamente, puedes intentar colocar el puntero en la esquina inferior derecha de
+la pantalla del menú y haciendo clic una vez con la izquierda y luego una vez con la derecha
+botón del ratón. Si escuchas el mensaje "¡Vamos!" voz, obtendrás el mismo efecto 
+como se mencionó anteriormente.
+  
+  ---------------------------------------------------------------------
+  | Una solución "de oro" completa para el juego de ordenador DMA Design/Psygnosis |
+  | Lemmings II - The Tribes - Compilado por David Crooke, Fecha: abril de 1993. |
+  ---------------------------------------------------------------------
+
+			      Corregido por [RYGAR].
+
+Terminología y puntos generales 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Esta es sólo una lista de algunos de los términos utilizados en este documento y
+algunas ideas útiles.
+
+- El término "escotilla" se refiere a los puntos en los que los Lemmings entran en un nivel.
+
+- El término "salida" se refiere al objetivo que están intentando conseguir los Lemmings.
+  a. A menudo también se le llama "meta". 
+
+- Hay muchas referencias a Lemmings "reflejando" en esta solución.
+  Los lemmings siempre tienen una dirección (izquierda o derecha) que recuerdan y
+  seguir, pero si se topan con un obstáculo, reflexionan y cambian
+  dirección. Esto es causado por, p. un no escalador que llega a una pared, un constructor
+  quedarse sin espacio, o un escalador golpeando el techo mientras escala.
+
+- El "Maxkill" que se da al comienzo de cada nivel es la cantidad de Lemmings que
+  perderá o matará en ese nivel en particular, y generalmente es igual a la
+  máximo que puedes perder sin dejar de asegurar un "Oro", ya que el
+  El sistema de puntuación es negativo, dentro de los límites significa que aún puedes obtener una
+  Oro en niveles posteriores, incluso si has estropeado los anteriores. entonces puedes
+  regresa y corrige tus errores sin rehacer todos los niveles posteriores. eso
+  también significa que persistir con p.e. Deportes 1 hasta que tengas suerte en orden
+  Obtener un Lemming extra no supone ninguna ventaja para niveles posteriores. Sin embargo, es
+  Se rumorea que debes terminar con al menos 30 Lemmings de cada tribu para
+  ver la animación final: no voy a regresar y rehacer el juego sólo para
+  ¡descúbrelo! 
+
+- Cuando las referencias a tipos de Lemming como, p.e. "basher", significa que eres
+  Se espera que realice una acción con ese tipo de Lemming. Estos también se utilizan
+  en forma verbal, p.e. "bash" significa "Usar un basher", etc. Cuando se usa un verbo
+  imperativo "haz esto", significa hacer que el Lemming con el que estás trabajando haga
+  entonces. Si intentas "golpear" en persona, podría tener graves consecuencias para ti.
+  tu monitor/televisor...
+
+- Una parte de la pantalla completamente rodeada de escenario se llama "cámara".
+
+- Una pequeña pieza de paisaje en un espacio abierto se llama "plataforma" o
+  "isla". 
+
+- Muchos niveles se resuelven haciendo que uno o dos Lemmings sigan adelante y hagan lo mismo.
+  trabajo sucio, mientras que los demás se retrasan encerrándolos en un hoyo, o con
+  bloqueadores o usando un atractor. Esta mayoría que queda atrás es
+  conocida como "la horda". Si logras completar una tribu sin tener
+  una horda, sólo obtendrás un "bronce"...
+
+- En algunos puntos, a una acción sugerida le sigue un multiplicador, p.
+  "lfill x2" - esto significa que tendrá que repetirse sobre el número citado
+  de tiempos para satisfacer los requisitos. 
+
+- Cuando las instrucciones sugieren que haga algo "inmediatamente", normalmente
+  significa que tendrás que tener un dedo de la mano que no es el ratón colocado sobre un
+  Tecla de función para seleccionar una acción de Lemming muy rápidamente. cuando vas a
+hacer un nivel (ya sea siguiendo estas soluciones o ideando las tuyas propias), es un
+  Es una buena idea hacer una pausa tan pronto como se encienda la pantalla y mirar alrededor del nivel.
+  repasando la solución en tu mente.
+
+- Al comenzar este juego inicialmente encontré la variedad de diseños de salida.
+  desconcertante (tuve que deducir el diseño del deportivo por el hecho de que
+  ¡Era lo único único en la pantalla!), así que los he descrito en el
+  inicio de las soluciones para cada tribu - si necesitas ayuda con el primer nivel
+  para una tribu, ¡puede que sea porque estás apuntando al objetivo equivocado! 
+
+- Si hay un largo retraso entre las acciones requeridas, o al final de un nivel,
+  Usa el botón de avance rápido, ¡pero con cuidado! 
+
+- Los militares de las fuerzas armadas deben asegurarse cuidadosamente de
+  lo que se entiende por consejos como "bomba" y "mío". 
+
+- Para ser Políticamente Correcto, todos los Lempersons son referidos por el
+  pronombre neutro de género "eso". Esto no pretende restar valor de ninguna manera a
+  su personificación. 
+
+- Por favor no me envíen mensajes diciéndome que he usado el
+  terminología, o señalar imperfecciones técnicas en las soluciones. No
+  Se ofrece garantía de que estas soluciones son las más fáciles, ingeniosas, mejores o
+  lo que sea, pero todas las soluciones dadas SON suficientes para obtener un "oro" en el
+  nivel en cuestión. Sin embargo, si tienes alguno realmente astuto, me gustaría
+  escucharlos...
+ 
+
+
+Tribu clásica 
+~~~~~~~~~~~~~
+
+La salida Clásica es una entrada con antorchas encendidas afuera.
+
+
+"¿Te acuerdas?" 
+
+maxkill cero
+
+Golpea para salir hacia la derecha, construye desde la plataforma de madera hasta
+el pilar de piedra y atravesarlo. Construye x2 desde la parte superior del
+Broca redondeada en la base del pilar para llegar a la plataforma de salida.
+golpe a la izquierda debajo del pilar desde el pozo de la derecha. Construya directamente desde
+el borde izquierdo del hoyo izquierdo, y nuevamente desde el borde izquierdo del
+Plataforma sobre la que se levanta el pilar. Golpea directamente desde encima del
+otra parte redondeada. Detenga este golpeador una vez que haya atravesado el pilar
+convirtiéndolo en un constructor.
+
+
+"El señor Lemmy vive al lado" 
+
+maxkill cero
+
+Después de que el primer Lemming reflexione, conviértelo en escalador. cuando
+se refleja en la esquina superior izquierda, construye desde la pequeña repisa
+hacia los bloques de piedra. Deja que refleje de nuevo y sube hasta el
+mitad derecha de la pantalla, luego haz que se construya para reflejarla
+el techo de madera. Hazlo mío a la izquierda, de entre las dos marcas.
+justo antes del paso. Después de que sube por el lado izquierdo de la pantalla.
+y se refleja en su primera rampa, haz que se construya hacia la derecha, unos pocos
+píxeles a la derecha de donde cae entre la horda. Esto asegura
+clic confiable. La rampa única no debe llegar lo suficientemente lejos como para permitir
+la horda principal escapa. Cuando suba del hoyo, haz que se construya.  
+justo debajo de la unión entre los dos bloques más grandes, para unir
+con el túnel minado antes. El tiempo se puede tomar de la
+marcas en la piedra de abajo y requerirá práctica. si se detiene
+construyendo y refleja, tendrás que rehacer el nivel. Construir desde
+encima de la rampa en el pozo para liberar a la horda principal. Recuerde utilizar el
+excavadora para hacer un agujero en la plataforma de madera sobre la salida. si tu
+no lo hagas, el escalador escapará hacia la izquierda y se ahogará.
+
+
+"LEMTRIS" 
+
+maxkill cero
+
+La idea general aquí es hacer que algunos escaladores avancen entre 10 y 15 segundos.
+intervalos, y usarlos a su vez para preparar caminos a través de los diversos
+obstáculos. La siguiente descripción se refiere a las piezas de Tetris de piedra.
+que forman los obstáculos como "pieza 1" a "pieza 7", de DERECHA a
+IZQUIERDA respectivamente.
+
+Convierte al primer Lemming en escalador después de que reflexione. cuando comienza
+pieza de escalada 2, activa a otro escalador. Después del primero
+El escalador se refleja en la pieza 3, hazlo mío hacia la derecha desde apretado.
+en la esquina de la pieza 2. Haz que el siguiente escalador construya a la izquierda de
+la mitad del mismo bloque de la pieza 2, hacia la pieza 3. Empezar
+Otro escalador por ahora. Construya la izquierda contra el borde derecho de la pieza 5,
+haciendo que el constructor reflexione. Usa este Lemming para minar directamente desde
+el borde izquierdo de la pieza 4. Si comienza demasiado hacia la derecha, el
+Los no escaladores no podrán subir el escalón formado al otro lado. uso
+el siguiente Lemming a construir salió del mismo punto. usa el ultimo
+constructor en el extremo izquierdo de la pieza 5. Extrae la pieza 6, golpea la pieza 7 y
+finalmente golpee la pieza 1, usando uno de los escaladores para asegurar una precisión
+haciendo clic.
+
+
+"Hoja de tensión, buena idea" 
+
+maxkill uno
+
+Haz del primer Lemming un escalador y un flotador. Construir sobre el
+pequeño hueco sobre el lago. Extrae la pequeña pieza después del acero y
+justo antes del espacio que queda en la salida: esto hace que el Lemming baje
+suficiente para construir y reflexionar. Construye x2 en el último segundo posible,
+permitiendo un pequeño retraso entre los constructores para escalonar la rampa.
+El mío acaba de salir del acero después del reflejo, y luego lo golpeo.  
+a lo largo bajo el lago. Inicia una excavadora entre la horda, justo a la izquierda de
+el extremo izquierdo del acero enterrado, cuando el golpeador esté aproximadamente a la mitad
+bajo el lago. Esto dará tiempo a los miembros de izquierda del
+horda para reflejarse en el túnel del atacante. El atacante morirá, pero todos
+otros deberían hacerlo.
+
+
+"El magnífico Severn" 
+
+maxkill uno
+
+Convierte al tercer Lemming en un bloqueador, aislando dos Lemmings a la derecha.
+y conteniendo a la horda de la izquierda. Golpea los primeros cuatro pilares,
+y el mío justo antes de reflejarse en el último. Haz el primero de
+los dos un escalador, que suba por el acero y baje por la rampa, luego
+bash justo antes de reflexionar. Cuando cae en el extremo derecho
+de la pantalla, excave inmediatamente, para que no tenga oportunidad
+para subir el muro alto, por lo que se deja un saliente a la derecha. déjalo
+subir y reflexionar, luego construir justo antes de la salida para pasar
+sobre eso. Cuando llegue a dos tercios del camino hacia la izquierda en la salida
+nivel, ve rápidamente y explota el bloqueador, liberando a la horda.
+Haz que el Lemming avanzado se construya en el extremo izquierdo de la salida.
+plataforma, y luego hacer que el otro camine en el hoyo encima de ella.
+Excave en el extremo derecho del nivel superior, mientras va hacia la derecha, para que
+aterriza en la rampa que el constructor acaba de terminar.
+
+
+"El umbral estrellado" 
+
+maxkill cero
+
+Deje que los Lemmings reflexionen, luego convierta al segundo Lemming en un bloqueador, cuando
+está justo encima de la mitad de las tres piezas en forma de cuña debajo del
+plataforma. Haz que el Lemming libre sea un excavador justo a la derecha de la izquierda.
+cuña, de modo que se rompa y aterrice en el lado derecho de la
+cuña y reflexiona y camina justo antes de caer, y para que una superposición
+asegura que los siguientes Lemmings que caigan por su pozo también caminarán
+Levanta la cuña y reflexiona. Construya directamente desde el acero justo antes
+la gran caída al pequeño lago. Haz de este Lemming un flotador.
+Con suerte, aterrizará en la parte derecha de acero del pequeño lago. solo
+Antes de que se refleje en la piedra arenisca, haz que se construya. Se reflejará.
+Haz que se construya x3 a la izquierda justo debajo del borde derecho del
+acero colgante. Volverá a reflejarse. Golpea la piedra arenisca. entre los
+horda principal, haz una mina Lemming hacia la izquierda y luego conviértela en una
+basher después de haber extraído unos 6 u 8 píxeles, de modo que
+túneles debajo del bloqueador y lo libera. Mina el fondo del
+Primera rampa construida, por encima de la caída alta.
+
+
+"Tan cerca pero tan lejos" 
+
+Maxkill cuatro
+
+Deja que los Lemmings reflexionen, haz que el primero sea un escalador, luego hazlo
+un explosivo, cronometrado desde tres cuartos del camino hacia la izquierda. hacer
+el quinto Lemming un bloqueador justo a la izquierda de la escotilla, aislando al
+Explosor más otros tres Lemmings a la izquierda. Haz uno de los
+tres por escalador, y una vez que salga, construye a través del pequeño hoyo,
+luego conviértalo en un golpeador justo cuando coloca la última tabla antes
+reflexionar (esta es una habilidad que vale la pena, especialmente útil en "¡Oh, no!
+Más Lemmings", pero probablemente tendrás tiempo suficiente para dejarlo
+reflexiona y vuelve si no estás seguro). Deja que el golpeador termine
+y suelta, construye x3 desde debajo del bloque de acero que cuelga, yendo
+volver brevemente al extremo derecho de la pantalla entre clics del botón
+constructor para hacer de uno de los dos Lemmings aislados restantes un
+escalador. Convierte al constructor en un bloqueador después de que coloque el último
+(es decir, 36.º) tablón. Cuando llegue el próximo Lemming, haz que construya.  
+justo antes de que llegue al bloqueador. Reflejará y
+seguir construyendo. Haz que se construya nuevamente dos veces más. el
+La rampa debe ser lo suficientemente alta para que los no escaladores puedan subir el escalón hacia
+el acero (el paso máximo es de 5 píxeles, pero eso lo sabías, ¿no?).
+Golpea y extrae los dos obstáculos respectivamente. Cavar justo después
+el extremo del acero, lo más cerca posible del acero. el margen de
+El error para esto es como máximo de 2 a 3 píxeles. Haz del último Lemming aislado un
+escalador. Haz explotar la excavadora, cronometrando desde la mitad del camino.
+último bloque de acero antes del hueco hacia la salida. Debería pasar
+a la izquierda, pero no a la derecha. Explota el bloqueador que está
+retener a la horda: la explosión debería sacarlos del
+cámara. Para darle el toque personal, explota el bloqueador en el
+rampa una vez que se completa el nivel (o simplemente puedes disparar la bomba nuclear o esperar).
+
+
+"El secreto de LEMH" 
+
+maxkill uno
+
+Convierte al primer Lemming en un bloqueador tan pronto como aterrice, de modo que el
+otros aterrizan entre sus brazos y van hacia la derecha. Tal como reflexiona un Lemming,
+Haz que cave: a pesar del acero, le quitará un pequeño corte.
+la arenisca, y así efectivamente romper un poco. una docena o
+por lo que tales excavadoras deberían ser suficientes para atravesar el acero. Ahora haga clic en
+excavadora normal va hacia la derecha, es decir, antes de reflejarse. déjalo cortar
+aproximadamente a la mitad de la piedra arenisca, luego conviértalo en un golpeador para romper
+hacia la derecha. Construya justo antes del pequeño paso. golpe  
+a través de la madera. Cava en el extremo derecho justo antes de reflejarse.
+el acero y convertirlo en minero después de unos pocos píxeles. Destruye el
+bloqueador por cualquier medio, o espere.
+
+
+"Volando en la persecución loca" 
+
+maxkill cero
+
+Haz un escalador hacia la izquierda, espera unos segundos y luego haz uno hacia la izquierda.
+correcto. Haz que el de la izquierda se construya desde la cornisa de arenisca para superarlo.
+la salida. Haz el correcto golpeando el bloque de arenisca con el
+sangría. Deja caer el de la izquierda, luego el mío desde el lado izquierdo de
+la salida: debería terminar en la cámara inferior izquierda; si es necesario,
+hazlo golpear para detenerlo. Déjalo reflexionar, entonces mi derecho, y
+Golpea tan pronto como esté lo suficientemente bajo como para limpiar el acero. usa el otro
+escalador para golpear x5 los listones de madera. Cuando ha comenzado el último
+uno, cava la piedra arenisca para liberar a la horda.
+
+
+"¿Cómo es ahí arriba?" 
+
+maxkill cero
+
+Las primeras etapas deben realizarse rápidamente y en sucesión, en el orden
+dado: haz que el segundo Lemming se construya cuando aterrice; haz el primero
+construir desde el extremo de la plataforma; haz que el tercero se construya   
+de la unión entre el tercer y cuarto bloque de acero. hacer el 4to
+Lemming a un bloqueador lo más alto posible en la rampa más a la derecha. dejar
+El primer Lemming termina de construir y reflexiona, luego construye a la izquierda desde el
+1ª unión del acero, contando desde la derecha. Esta rampa debe cumplir
+el anterior y sellar el abismo. Para atravesar el pilar,
+hacer que el Lemming excave justo cuando está a punto de reflejarse - 4 a 6
+las repeticiones serán suficientes. Extrae la arenisca de la derecha justo
+antes de la reflexión, luego detenga al minero en el último segundo haciéndolo
+construir. Tan pronto como reflexione, conviértalo en un excavador. Construir x2,
+colocar la primera loseta entre las marcas del pedestal; debería
+Haz una rampa hasta el acero sin reflejarlo. Construir de nuevo
+desde la izquierda del acero para cruzar el lago y hacer que el constructor
+un escalador. Construya sobre el lago en el nivel de salida, permitiendo que el
+constructor para reflexionar. Haz que se refleje haciéndolo cavar solo
+antes de que comience a trepar por encima de la pared. Avanza hasta el
+salir. Usando el primer Lemming de un grupo para asegurar un clic preciso,
+mina la rampa, liberando a la horda a la salida y al bloqueador a
+la derecha. Haga que el ex bloqueador construya justo antes del pilar para
+hacer que se refleje y convertirlo en un flotador por seguridad.
+
+
+
+Tribu medieval 
+~~~~~~~~~~~~~~
+
+La salida medieval es un pequeño castillo.
+"LEMMING DE NOTTINGHAM" 
+
+maxkill cero
+
+Desplácese hacia la derecha para salir de la cámara inicial y nuevamente para
+salir al nivel del suelo. Utilice un vertedor de arena x2 para rellenar el pequeño
+pozo. Dale a un Lemming icaruswings y usa el ventilador para volarlo.
+hacia arriba y hacia la derecha, sobre la repisa que sobresale. despues de eso
+refleja, haz que se mueva hacia la izquierda justo donde comienza la repisa, permitiendo
+los demás arriba y a la derecha. Utilice otra pala a la derecha para
+irrumpir en la cámara de salida.
+
+
+"¡Señor! No bromeo" 
+
+maxkill cero
+
+Haz un tornado entre los escombros y avínalo hacia abajo y hacia el
+correcto. Utilice un palo para atravesar cada uno de los pilares delgados.
+Llene el hoyo pequeño. Supera el bloque de acero construyendo una rampa.
+con vertedores de arena. Pisotea la plataforma. Golpea los escombros hasta el
+derecha para llegar a la salida.
+
+
+"¡¡TODO EN UN TRABAJO DE CABALLEROS !!" 
+
+maxkill uno
+
+Salta un Lemming sobre el pequeño hoyo. La catapulta lo aterrizará
+la bandeja superior. Deja que se refleje y luego pisa fuerte en el centro de la bandeja.
+explotarlo, iniciando el cronómetro justo antes del borde derecho del
+pequeño saliente: esto atravesará el mamparo. salta otro
+Acercándonos a la catapulta. Salta sobre el agujero de la bandeja.
+luego déjalo reflejar y caer por el agujero. Después de que pasa por el
+Agujero en el mamparo, cuerda hacia el mamparo para bloquearlo.
+Plataforma sobre el agua. Pisotea para liberar a la horda principal.
+
+
+"¡MIRA ESE ÚLTIMO PASO!" 
+
+maxkill cero
+
+Haga un apilador en cada una de las plataformas pequeñas y en el césped.
+parte. Esto debería dejar un solo Lemming yendo hacia la derecha. Utilice un
+vertedor de pegamento para cerrar la brecha hacia la sección de agua. Navegar a través
+el agua. A medida que se acerque al pozo justo a la izquierda de la salida, use un
+vertedor de arena para eliminar el escalón. Conviértalo en un apilador justo antes del
+borde izquierdo del foso, y una vez que haya construido 5 o 6 escalones, cambie a un
+vertedor de arena mirando hacia la izquierda. Puentear el agua con un
+vertedor de pegamento. Usa un garrote para liberar a la horda.
+
+
+"REY ARTURO LEMMINGS" 
+
+maxkill cero
+
+Bombardea una vez y luego golpea hacia la derecha desde el fondo del cráter.
+Detén la horda con un atractor. Cuando el golpeador se detenga, construye  
+x2 a lo largo del agujero. Bombardea el extremo derecho de la plataforma para que
+la caída se reduce. Libera el atractor haciéndolo saltar.
+
+
+"Juguemos al tornado" 
+
+maxkill cero
+
+Salta un Lemming a la isla de piedra a la derecha y conviértelo en un
+corredor. Deja que se refleje en el árbol y luego salta a la pendiente.
+debajo de la trampilla. Hazlo un tornado. Aviva el tornado hacia la izquierda y hacia abajo,
+entonces aterriza en la cámara izquierda y camina hacia la izquierda. Conviértelo en un control deslizante. después
+deslizándose hacia abajo, salte directamente a la plataforma y la plataforma a través del
+lago. Usa otro tornado para entrar en la cámara encima de la salida,
+asegurándose de ingresar a la derecha del hueco en su piso. Saltar
+la brecha (recuerde, su Lemming de avance es un control deslizante). iniciar un
+tornado en la horda, y trabaja hasta el final hacia la derecha y hacia abajo por
+el rastrillo. Gira de nuevo para llegar a las rampas marrones.
+
+
+"Subterráneo" 
+
+maxkill cero
+
+Cerca la primera torre. Mientras el tirador está trabajando, inicie una
+atractor. Plataforma a los árboles. Cuando el Lemming reflexiona,
+Salta sobre los restos de la valla para reflejarte en la torre y
+de vuelta a la derecha. Cerca los árboles y la plataforma hacia la torre.
+valla la última torre antes de la salida. Libera el atractor haciendo
+salta.
+
+
+"¿Qué haremos ahora?" 
+
+maxkill cero
+
+Haz el primer pisotón del Lemming en el lado derecho y haz el
+segundo un atractor. Vuelve a pisar fuerte por el castillo, permitiendo que el
+Lemming para reflexionar dos veces primero y mientras va hacia la derecha. Dale un
+globo y utiliza el ventilador para guiarlo hasta la cima.
+Déjelo reflejar y sirva de plataforma para cerrar la brecha. Bomba x5 desde la parte superior de
+la pendiente, haciendo que cada bomba esté a 3/4 del camino hacia la izquierda en el cráter
+dejado por el anterior, para abrirse paso hacia abajo y hacia la izquierda. uso
+este Lemming para plataforma el agujero pisoteado, o si se detiene y
+bailes, use uno de los bailarines (¡pero NO el atractor!). Suelte el
+atractor convirtiéndolo en un juego de plataformas.
+
+
+"¡¡LEMMING EN ANGUSTIA !!" 
+
+maxkill cero
+Convierte al primer Lemming en corredor e inmediatamente convierte al segundo en corredor.
+atractor. Deja que el corredor caiga sobre el acero, luego salta al
+isla, e inmediatamente salta de nuevo para llegar al nicho de la derecha.
+Déjelo reflejar y regrese en globo a la isla. Haga clic en un
+arquero, apuntando la flecha a la esquina del borde de la escotilla. Haga clic
+otro arquero; esta vez apunte unos píxeles más arriba. la segunda flecha
+deben seguir al primero, haciendo que el lago sea seguro. deja que el lemming
+Déjalo caer y sube con una cuerda hasta la esquina inferior izquierda de la isla, sellando
+fuera de la ruta a la derecha. construir en el extremo izquierdo de la pila pequeña
+de piedras en el nivel de salida: oculta un dragón, cuyo disparador es un
+Quedan pocos píxeles de la pila.
+
+
+"SOLO JUSTAS" 
+
+maxkill cero
+
+Haga clic en un vertedor de pegamento: el pegamento se correrá para desactivar el dragón.
+disparador. Espera al último Lemming y haz que llegue hasta el
+cornisa a la derecha. Conviértelo en un flotador. Coloque la catapulta con 2
+eslabones de la cadena que se muestran a la derecha. Que se lance el Lemming,
+Reflejo y pegamento que quedaron debajo de la horda, sellando el lago.
+Bomba en el extremo izquierdo de la horda. Si es necesario, globo  
+el último Lemming pasó la catapulta.
+
+
+
+Tribu egipcia 
+~~~~~~~~~~~~~~
+
+La salida egipcia tiene forma de pirámide y se ve un poco de azul.
+
+
+"Compañía de dos..." 
+
+maxkill cero
+
+Golpea la pared entre las cámaras superiores de la escotilla para unirlas. cavar desde
+dentro de este túnel. Usa un lanzallamas y un bazuca para penetrar el
+mamparas de ladrillo.
+
+
+"¡Pegados a la portería!" 
+
+maxkill cero
+
+Utilice un vertedor de pegamento en la parte superior para cerrar el espacio. Usa un lanzallamas x3
+para llegar a la salida. En la parte inferior, lanza llamas al pilar. iniciar un
+juego de plataformas sobre el hueco, luego convierte al siguiente Lemming en un vertedor de pegamento para
+sellarlo. Utilice un vertedor de pegamento x2 para cerrar el espacio sobre la esfinge. deja un
+El lemming se refleja en la parte superior derecha y luego se dirige hacia el color púrpura.
+y cosas azules. Entra en la cámara de salida con otro lanzallamas.
+
+
+"LABERINTO DE DIVERSIÓN" 
+
+maxkill cero
+
+Espere hasta que el primer Lemming esté a punto de dejar la primera cornisa.
+luego inicie un atractor cerca de la trampilla. Cuando se refleja en el
+pilar pintado, valla a la izquierda en la cámara con la mesa pequeña. dejar
+se refleja dos veces y cae al pozo a la izquierda de la esfinge. pisotear  
+cuando mire hacia la izquierda, y saque la izquierda hacia la cámara de salida. Lanzamiento
+el atractor por cualquier medio conveniente.
+
+
+"ADN en espiral" 
+
+maxkill cero
+
+"Primero", "segundo", etc., se refieren al orden en el que originalmente se encontraban los Lemmings.
+salir de la trampilla.
+
+Convierte al segundo Lemming en un tornado justo antes de que esté a punto de estallar.
+reflexionar. Cuando llegue el primer Lemming a la izquierda de la escotilla, hazlo.
+en un apilador. Retrasa el tercer Lemming convirtiéndolo en un
+juego de plataformas. Usa superlemming para hacer volar el apilador de regreso a la horda.
+Con cuidado, excava el tornado hacia arriba y hacia la salida con el ventilador. 
+
+
+"Eco de luz" 
+
+maxkill cero
+
+Golpea el árbol, luego haz un trepador y, mientras trepa, hazlo.
+un control deslizante. Después de deslizarte, golpea hacia la derecha y conviértelo en un corredor.
+Salta el hueco, golpea el último mamparo y salta para llegar al
+salir. Pisotea justo a la izquierda de la escotilla para liberar a la horda y
+Pegue bien tan pronto como aterricen. Golpea los dos mamparos y
+Pegue inmediatamente de nuevo.
+
+
+"RUPER'Z QUESTING" 
+
+maxkill cero
+
+Este nivel es tedioso, pero simple.
+
+Déjelos reflexionar, luego inicie una tolva justo antes de los 4 hoyos pequeños.
+La tolva se detendrá y caerá en el tercero, mientras la horda
+se reúne en el primero. Trabajando con el Lemming avanzado, lfill  
+mientras está parado en el lado izquierdo del hoyo mirando hacia la derecha, llene el mismo
+camino de nuevo para salir del siguiente hoyo. Plataforma sobre el lago.
+Plataforma el hoyo que contiene la trampa. Golpea la columna pintada,
+el soporte de mesa y el árbol. Plataforma sobre este lago. cuerda  
+desde aproximadamente media pulgada a la derecha de la esfinge hasta un punto a la mitad de su altura.
+cabeza. Plataforma izquierda desde la parte superior de la esfinge, llenar x13 hasta
+Llene el hoyo alto y delgado en el extremo izquierdo. deja que el lemming
+reflexionar, luego plataforma desde la parte superior de la esfinge, llenar
+x6 en la bandeja pintada de azul. Plataforma x2 sobre la colección de
+bloques y plataforma para el espacio sobre el jarrón. Golpea el mamparo.
+Plataforma el espacio por encima de las escalas, llenar el hoyo pequeño, llenar  
+el pozo que contiene a la horda, y el pozo a su izquierda también.
+
+
+"¡La cabaña de Egipto!" 
+
+maxkill cero
+
+Jetpack uno va hacia la derecha y extiéndelo para que caiga en la rampa hacia
+la derecha del hoyo. Cuando caiga aturdido, déjalo reflexionar, luego dale
+Hazlo un globo y avínalo hacia la izquierda. Excave justo a la derecha del
+división entre los dos bloques de piedra, para irrumpir en la esfinge
+cámara, pero sigue cavando hasta el fondo del acero y haz un
+ruta de salida. Vuela con un superlemming de la horda por todo el mundo.
+rampa a la derecha y colóquela en la parte inferior de esta rampa, arriba
+el pequeño bloque de islas que cubre la gran caída. debe caminar hacia la izquierda
+y en el pozo de la excavadora. Dale un paracaídas y avínalo.
+izquierda hacia la esfinge. Láser para liberar a la horda.
+
+
+"BÚSQUEDA DEL HÉROE..." 
+
+maxkill cero
+
+Salta un Lemming sobre el bloque de la izquierda. Pisotear el
+cámara de abajo y pisotea nuevamente el bloque con el ojo. dejar
+la caída de Lemming, etc., y terminará en un pequeño hoyo, el primero
+de tres. Para salir de estos pozos, debes saltar al revés.
+camino, así que salta a la izquierda. Salta a la derecha para salir de cada uno de los dos siguientes.
+Plataforma sobre el foso que contiene la trampa. Pisotear cuando el Lemming
+termina en el fondo y no puede caer más. Cercar la piedra arenisca
+mamparo, y vallar cada una de las columnas pintadas. deja que el lemming
+Refleja la esfinge, luego dale un globo y abanica suavemente.
+derecha y luego izquierda, para aterrizar en la plataforma obvia. Debería caminar hacia la izquierda.
+Deja que se refleje, luego salta inmediatamente para subir a la rampa que sube a
+la derecha. Déjalo reflejar y salta hacia la izquierda. Déjalo caminar todo el
+camino hacia la izquierda y reflexiona, luego inmediatamente salta con pértiga desde el
+perno derecho del bloque de acero más a la izquierda, para aterrizar el Lemming
+aturdido en el lugar obvio; esto requiere algo de práctica, lo cual es
+¡Por qué obtienes cinco saltadores! Deja que se refleje en lo alto de la rampa,
+luego salta al siguiente. Haga esto dos veces más. Plataforma
+el espacio que queda justo a la izquierda de la salida, luego convierte el juego de plataformas en una pala como
+tan pronto como se selle la brecha. Pisoteando desde la horda hacia esta cámara
+para completar el nivel.
+
+
+"Camino de las olas" 
+
+maxkill cero
+
+Convierte al primer Lemming en un apilador tan pronto como aterrice, de modo que
+los siguientes aterrizan en la pila y caminan sin obstáculos.
+Después de que construya unos seis bloques, hazlo saltar mirando hacia la derecha.
+Pisotea entre los dos bloques de acero y cambia a un golpeador justo
+antes de llegar al agua. Pisotear por encima del ojo y luego
+Golpea justo encima del bloque del ojo. Plataforma x2 sobre el lago, y
+pisa fuerte justo antes de que el Lemming se refleje en el escalón. De nuevo, convierte
+a un golpeador en el último momento, luego pisotear, golpear y pisotear de nuevo,
+evitando el acero enterrado. Haz que comience a subir a la plataforma.
+el hueco de la derecha, luego ve a la horda principal y libéralos con
+un golpeador que va a la derecha. Vuelve al Lemming avanzado, pisotea
+el extremo izquierdo de la cámara justo antes de reflejar, y luego convertir
+a un golpeador para llegar a la salida.
+
+
+"¡Pirámide de la desesperación!" 
+
+maxkill cero
+
+Deja que los Lemmings reflexionen y luego inicia un salto desde la mitad del camino.
+pequeña pendiente justo antes de los bloques. Saltará para convertirse en el
+avanza Lemming, mientras la horda se reúne en el pozo de abajo. déjalo
+refleje en la parte inferior de los escalones, luego pegue inmediatamente x2 a
+rellene los pequeños hoyos más adelante (es imposible verter pegamento,
+saltar, saltar, etc. en el túnel debido al espacio libre limitado). déjalo caer
+en el pozo de la trampa y use un vertedor de arena para cubrir el gatillo. mientras
+yendo a la derecha, conviértalo en una mecedora y déjelo salir del hoyo.
+y también hasta la siguiente pared. En la parte superior de esta pared, hazlo
+Muévase justo cuando llegue a la cima y antes de caer para ir a la izquierda.
+Déjelo subir hasta la pequeña repisa y vierta arena para acumular
+hacia el voladizo. El Lemming se reflejará y retrocederá en el
+pozo de trampa: déjelo girar y balancearse nuevamente, regrese al
+mismo punto y vierta arena nuevamente. Esta vez debería poder
+sal, pero si se refleja, tráelo de vuelta. déjalo caminar
+A la izquierda, a lo largo del túnel debajo del pozo que contiene la horda, y reflexiona.
+Pegue inmediatamente x3 a la derecha, luego déjelo caminar debajo del hoyo.
+y mortero para liberar a la horda.
+ 
+
+
+Tribu al aire libre 
+~~~~~~~~~~~~~
+
+La salida exterior es una pequeña tienda de campaña verde.
+
+
+"Pa-tentemente obvio" 
+
+maxkill cero
+
+Usa un tornado para excavar el montón de hojas hacia la salida de la derecha.
+
+
+"Teoría del columpio/rotonda" 
+
+maxkill cero
+
+Inicie un apilador dos tercios del camino hacia la izquierda entre el
+publicaciones.  Después de que construya 4 bloques, conviértalo en un relleno y luego
+haga dos más, asegurándose de que dos rellenos estén a la izquierda de la pila
+y uno a la derecha.
+
+
+"Deslízate como el viento" 
+
+maxkill cero
+
+Comienza un ala delta desde la joroba en el puente de enredadera sobre la avispa.
+Abíntalo para que aterrice en el árbol que está justo a la izquierda de la primera rana. Utilice un
+lanzallamas inmediatamente al aterrizar para desactivar el gatillo de la rana.
+Haz un túnel debajo de la siguiente rana desde el escalón de abajo con un lanzallamas x3.
+Plataforma la brecha. Retrasar cualquier Lemming que se aproxime (con cuidado)
+convirtiéndolo en un lanzallamas si es necesario.
+
+
+"¿Liberación?" 
+
+maxkill cero
+
+Convierte al primer Lemming en un kayakista y al segundo en un atractor.  
+para detener la horda. Usa un arquero para disparar una flecha hacia la izquierda.
+borde del lago, lo más bajo posible. Libera a uno de los bailarines por
+haciéndolo saltar, y haz que se pegue x2 para hacer un puente sobre el agua. Suelte el
+atractor convirtiéndolo en un lazo: asegúrese de que la cuerda NO llegue.
+
+
+"El paseo del viernes" 
+
+maxkill cero
+
+Haz la primera cuerda de Lemming hacia la derecha desde la primera joroba. esto
+debería bloquear la horda, dejando uno libre. Cuerda alternativamente para
+izquierda y derecha para llevarlo al nivel de salida, si está caminando
+A la derecha, dispara una cuerda verticalmente para bloquearla y reflejarla. cuerda a través
+la pequeña brecha, luego libera a la horda.
+
+
+"La magia de las setas" 
+
+maxkill cero
+
+Considere la disposición (aproximada) de los hongos 10 líneas más abajo
+es posible que desees escribir la ruta en tinta en tu copia impresa.
+
+Salta un lemming y bájalo con una cuerda para permitirle caminar hacia la derecha.
+libremente. Cuerda a M1, déjala caer a M3 y M5, cuerda a M6, cuerda a
+M7 y pisotea la tapa del hongo a la izquierda del tallo. Déjalo caer a M9
+y M11, y cuerda desde el final del césped hasta M10. Plataforma hacia
+la salida. Usa un cordel para abrirle una salida a la horda.
+
+    |   |
+----|---|---
+                        M1
+
+                  M2 M3
+                                      M6
+              M4 M5 M7
+                                     M8
+                                            M9
+                        M10
+                                          M11
+                                  -----------
+
+
+"Selección natural" 
+
+maxkill cero
+
+Los Lemmings se dividirán en tres grupos. Haz los primeros 22
+Muévete, haz flotar los siguientes 22 y salta los Lemmings restantes.
+a través de la brecha. Utilice bazucas para llevar el grupo flotante al
+salida inferior izquierda. Usa bombarderos para llevar al grupo de saltadores al
+salida media. Usa bombarderos y bazucos para hacer que los shimmiers
+la salida correcta.
+
+
+"Las leyes de la tradición" 
+
+maxkill cero
+
+Plataforma, luego inicie un atractor. Plataforma a las piedras. Plataforma  
+sobre el hoyo debajo del acero. Plataforma nuevamente justo después de reflejarse.
+Cerca lo suficientemente lejos como para pasar el montante de acero, luego pisa fuerte casi hasta
+la parte inferior, luego valla nuevamente. Plataforma al otro lado. Liberar el principal
+horda en este punto convirtiendo el atractor en un juego de plataformas.
+Valla con el Lemming líder hacia la salida. si el tirador
+no se detiene, conviértelo en un juego de plataformas para llenar el espacio debajo
+la salida.
+
+
+"22934" 
+
+maxkill cero
+
+Haz del primer Lemming un corredor. Debería superar la última joroba en
+la vid y aterriza en la hoja de la derecha. Hazlo un arquero,
+Disparar la flecha hacia abajo y hacia la izquierda para crear un descanso para los demás.
+cayendo. Déjelo caer y refleje, luego construya desde el borde derecho de
+la tercera joroba en esta sección inferior de la vid, sellando el hoyo. dejar
+refleja y construye x3 a la izquierda desde la misma joroba. Mientras tanto,
+construye x5 a la derecha desde la joroba izquierda con uno de los entrantes
+Lemmings. Las dos rampas deben encontrarse y la última debe llegar
+el trozo vertical de enredadera a la derecha y un poco debajo de la
+salir. Cuerda desde la parte superior de esta rampa hasta la esquina superior del acero.
+por la salida. Ábrete paso con un golpeador mirando hacia la derecha.
+
+
+"Jardín de Piedra" 
+
+maxkill cero
+
+Pisotea justo a la derecha de la escotilla. Cuando el primero cae entre los
+plataforma y flor a la derecha, conviértelo en un corredor. valla derecha
+a través de la flor directamente debajo de esto, iniciando al esgrimista unos cuantos
+píxeles hacia atrás para que simplemente corte el tallo y se detenga. Plataforma desde el
+borde. Salta de la plataforma; los lemmings restantes deberían caer
+el borde derecho del lago. Cuando el corredor reflexione, plataforma el hueco.
+
+
+
+Tribu de la playa 
+~~~~~~~~~~~
+
+La salida a la playa es un castillo de arena con un banderín rojo.
+
+
+"¡Cuádruples peculiaridades en el muelle!" 
+
+maxkill cero
+
+Desde la escotilla superior izquierda, lanza llamas a la parte inclinada. Del siguiente
+Eclosiona, deja que un Lemming reflexione y luego lanza la llama al paraguas.
+polo. Desde la escotilla inferior izquierda, lanza llamas a la palmera. Desde el
+escotilla inferior derecha, lanza llamas a la lata de cerveza Lemming.
+
+
+"El cortacésped de cebada..." 
+
+maxkill cero
+
+Inicie un jetpack y abaníquelo hacia arriba y a la izquierda del rojo y blanco.
+paraguas. Déjalo caminar sobre la hierba y luego golpéalo justo en la parte inferior.
+de la pendiente. Cuerda desde cerca del fondo de la siguiente pendiente hasta el
+repisa sobre la que se apoya la pelota de playa. Déjalo reflejar, luego golpea el
+poste de sombrilla al lado de la salida. Golpea el poste izquierdo del paraguas para
+liberar a la horda.
+
+
+"Bala de cañón" 
+
+maxkill cero
+
+Salta un Lemming fuera del pozo y navega en kayak por el lago. Bucear desde el
+plataforma alta y kayak nuevamente. Cuando se refleja en la parte superior derecha,
+salta a la rampa. Deslízate desde arriba y usa el ventilador para flotar.
+suavemente en el túnel de acero. Bomba al final del túnel, y
+Explosión láser para liberar a la horda principal. Salta el primer Lemming a
+Llega al final del túnel para darle una ventaja. Cuando reflexiona,
+conviértalo en un vertedor de pegamento.
+
+
+"Función de succión costal" 
+
+maxkill cero
+
+Convierte a 12 de los primeros Lemmings en corredores. Ventile la cadena al máximo
+velocidad. Salta un Lemming desde la mitad de la pendiente sobre la pelota y
+luego en la cadena. Si no está cerca del final de la cadena,
+reiniciar el nivel. Acelera la cadena nuevamente y suelta el Lemming.
+a la derecha. Salta sobre el gatillo del zapper y navega en kayak.
+el agua. Explosión láser junto a la salida para liberar a la horda.
+
+
+"Piedra de arena" 
+
+maxkill cero
+
+Haz clic en un arquero en la mitad del pozo y dispara la flecha a una pareja.
+de píxeles debajo de la parte superior del obstáculo de la derecha. construir bien
+con el siguiente Lemming tan pronto como aterrice. La rampa completa debe
+No toques la flecha. Salta uno sobre la flecha, déjalo caminar todo el tiempo.
+camino hacia la derecha y reflexiona, luego pisotea el borde izquierdo del
+acantilado de arenisca al otro lado del espacio desde la salida. Detén el pisotón después de las 5
+o 6 "pisos" haciéndolo construir y saltar cuando la rampa esté
+completo. Conviértelo en un arquero en el pequeño montículo justo encima de la derecha.
+borde del acero, apuntando a ¾ o más de la pendiente. déjalo
+refleja, luego pega directamente desde la flecha. Después de pegar, debe
+Camine hacia el nivel de salida: cercar la piedra arenisca y pegar.  
+tan pronto como el tirador termine. Deja que reflexione y vuelve, entonces
+salta a la salida. Salta a otro de la horda por la rampa,
+déjelo girar y reflejarse, y péguelo desde la parte superior de la rampa hasta
+la salida. Inicie un constructor desde la parte superior de la rampa para liberar el
+horda. 
+
+
+"Playa Lems" 
+
+maxkill cero
+
+Salta justo antes del coco e inmediatamente cerca el árbol.
+Plataforma del lago en el último segundo, de modo que un jugador de plataformas
+basta. Saque antes de la cabaña en la playa y vuelva a sacar después
+cayendo. Deja que se refleje en el coco, plataforma debajo
+el zapper para desactivar su gatillo y llegar a la siguiente isla.
+cuerda hacia la derecha desde el paraguas hasta justo encima del acero.
+valla justo antes de reflexionar. Libera a la horda con un golpeador.
+
+
+"ARENA EN YER SARNIES" 
+
+maxkill cero
+
+Haga la primera plataforma Lemming en el pequeño espacio entre el cucharón y
+pala en el último segundo, para que nadie escape. salta uno de los
+Lemmings emergentes del mango de la pala y déjelo caer al nivel
+debajo de las cabañas de la playa. Conviértelo en corredor y nadador. Golpea el
+palmera y salta desde el asa del cubo. Deja que se refleje en el
+acero, luego salta de nuevo. Salta sobre la almeja. mina la playa
+chozas, convirtiéndose en un golpeador al llegar al nivel del suelo. Plataforma  
+el hueco y golpear el cubo. Golpea la lata de cerveza en el camino de regreso.
+
+
+"Manía de la playa" 
+
+maxkill cero
+
+Dale a uno una alfombra mágica y haz del siguiente un atractor. después
+la alfombra aterriza y el Lemming refleja, conviértelo en un arquero de
+el extremo izquierdo de la plataforma, disparando la flecha hacia la esquina inferior
+del borde de la escotilla. Déjelo caer, luego construya a la izquierda desde la parte inferior de
+la pendiente en la primera isla pequeña: esto reflejará este Lemming
+y atrapar los posteriores. Bomba estando parado en la mano derecha.
+coco para atravesar el árbol y construir x2 desde donde está el árbol.
+La base era, llegar hasta el paraguas. Usa un arquero x2 desde arriba
+del paraguas, disparando la primera flecha hacia el borde de la isla en
+la izquierda y el segundo en el primero, y luego construir sobre
+ellos. Salta a la isla de salida y haz que un arquero dispare un
+flecha de regreso a la anterior. Salta para liberar el atractor.
+
+
+"Lanzador de arena" 
+
+maxkill cero
+
+Hacer del cuarto Lemming un atractor, lo que debería dejarlo a uno suelto.
+Lemming. Plataforma del lago en el último momento. deja que el lemming
+reflexionar, una bazuca dejada mientras estaba parado en la muesca entre el
+pendiente y la plataforma: esto debería crear un punto de reflexión con
+el bloque de acero. Mortero contra el borde del paso de 3-4 píxeles en
+el fondo del castillo. Mortero nuevamente varias veces, colocando cada una
+mortero aproximadamente a la mitad de la pendiente en el agujero dejado por el anterior
+uno. En el medio, utilice también una bazuca o dos. El ultimo mortero
+Debería abrirse paso hasta el nivel inferior, a la derecha del lago.
+Plataforma debajo de la almeja para desactivar el gatillo y bazooka x2 para
+atravesar la almeja grande. Salta para liberar el atractor.
+
+
+
+"¡Navega por Lem!" 
+
+maxkill cero
+
+Haga clic en un relleno justo antes del cubo de la derecha para obtener un extra
+píxel de altura para la pala, que debería romper un pequeño espacio en
+la esquina inferior derecha del cubo. Iniciar un superlemming a mitad de camino.
+por el túnel excavado y volar sobre la lata de cerveza y hacia el
+mango de pala. Déjalo caer, ve hasta el final a la izquierda y reflexiona, ven
+Regrese y caiga en la primera pequeña isla cubierta de hierba. En medio de
+En esta isla, usa un arquero para disparar una flecha verticalmente hacia abajo.
+Esto reflejará los futuros Lemmings. Globo el Lemming
+de vuelta a la izquierda de la flecha. Construye a la izquierda para unirte a la pequeña brecha.
+entre la isla inclinada y la superior izquierda - si el Lemming
+refleja, conviértelo en un corredor y salta hasta la flecha, llena x2 en
+el agujero abierto para liberar a la horda y vuelva a sacar la lata de cerveza.
+
+
+
+Tribu deportiva 
+~~~~~~~~~~~~
+
+La salida deportiva es la bandera de un hoyo de golf.
+
+
+"Ceci n'est pas une pipe." 
+
+maxkill tres
+
+Después de que la primera tubería de vapor explota, los Lemmings comienzan a aterrizar.
+aturdido, avanza hacia la derecha convirtiendo al primer Lemming en un
+lanzallamas. Después de que aterrice en el hoyo de la derecha, conviértalo en un
+bombardero. Déjelos soplar completamente y de vuelta al centro.
+donde se congregan, luego usa los lanzallamas restantes para liberar
+ellos hacia la izquierda.
+
+
+"Día del deporte escolar" 
+
+maxkill cero
+
+Haz del primer Lemming un tornado. Excave con cuidado hasta que esté debajo
+la pared de acero. Usa una cuerda hasta la pared de acero para separar a la horda.
+apagado. Usa el ventilador para empujar el tornado debajo de la pelota de rugby.
+(¡fútbol para los estadounidenses!). Sube con cuerda hasta la cornisa de salida. para liberar el
+horda, toma la primera cuerda.
+
+
+"¡El Octatalón!" 
+
+maxkill cero
+
+Inicia un atractor. Salta un Lemming. Una vez que cae y
+se refleja en el lado izquierdo de la pantalla, conviértalo en plataforma.
+Plataforma x2 a un tercio de la pendiente, a la altura de
+la mesa de billar. Plataforma para cubrir el brazo izquierdo de la "Y"
+agujero en forma, usando un puente para detener el juego de plataformas. salta el
+atractor para liberar la horda. 
+
+
+"¡RRRAQUETEERZ!" 
+
+maxkill cero
+
+Salta el primer Lemming sobre el hueco de la cuerda superior, sobre el
+polo rojo y hacia la izquierda. Cuando comienza a descender hacia el
+colección de bloques, haz que se mueva para pasar sobre ellos. cuando
+aterriza en el bloque a cuadros verdes y blancos sobre el lago, cuerda  
+hacia arriba y hacia la derecha, hasta la mitad del borde de la plataforma verde.
+Cuerda hacia abajo y hacia la izquierda desde el extremo izquierdo del bloque a cuadros, hacia
+el acero. Salta a otro Lemming fuera de la horda y cerca.  
+a través del mango de la raqueta de tenis. Salta cada uno del resto de
+la horda a la raqueta.
+
+
+"Retroceso..." 
+
+maxkill cero
+
+Llene el hoyo, luego pisotee su borde izquierdo, deteniendo el
+pisotear inmediatamente (o tan rápido como lo permita el software de manejo del mouse)
+¡permitir!) haciéndolo saltar. Repite este truco de stomper y jumper una vez
+tres veces más.
+
+
+"Doble problema" 
+
+maxkill uno
+
+Cuerda desde el extremo izquierdo de la repisa hasta justo debajo de la parte superior izquierda.
+rincón de la cámara. Exactamente un Lemming debería escapar, y el
+La horda no debe trepar por encima de la escotilla. Con el Lemming suelto, vuela
+un superlemming por el lado derecho de la pantalla y hacia la
+izquierda, aterrizándolo en la isla hexagonal. Plataforma desde el punto,
+y salta cuando la plataforma esté completa. Hazlo un explosivo,
+cronometrado desde el primer espacio en el acero (contando desde la derecha). esto
+debería liberar a la horda. Envía un balancín y una plataforma desde el
+parte inferior de la pendiente hasta la salida, deteniendo el juego de plataformas después de 5 o 6
+tablones convirtiéndolo en un esgrimista. Usando el primer Lemming de un grupo,
+cercar el obstáculo.
+
+
+"Corre el riesgo" 
+
+maxkill cero
+
+Construya justo antes de la tercera unión del acero, formando una rampa.
+para llevar a los Lemmings al pequeño pozo de la derecha. Saca uno
+el tubo doblado arriba ya sea usando un superlemming o haciendo clic en un
+saltador con pértiga al final de la pendiente inicial. Deja que baje a
+a la derecha y reflexionar, luego plataforma x2 a la izquierda, debajo del pozo
+donde se reúne la horda. Detén el juego de plataformas con un arquero,
+dejando un pequeño espacio para que caiga sobre el afloramiento de abajo y se refleje. dejar
+Déjalo caer y construye x2 desde el fondo de la pequeña pendiente. la rampa
+Debería enlazar bien con el estrecho túnel de la derecha. pisotear
+justo antes de reflejarse en el acero a la derecha, y luego valla
+derecho a irrumpir en la siguiente cámara. Déjalo subir y construir
+desde la cima de la pendiente, déjela reflejar y construya hacia la izquierda para
+subir a la siguiente pendiente. Conviértalo en un apilador cerca de la parte superior del
+Pendiente: cuando termine de apilarse, caerá y volverá a girar.
+Esta vez, se reflejará en la pila; plataforma derecha para llegar
+el acantilado sobre la salida. Pisotear el borde del acantilado para cortar
+un paso hacia él, deteniendo al pisoteador a mitad de camino con un arquero.
+Pisotea entre la horda para liberarlos.
+
+
+"La selección del signo solar" 
+
+maxkill uno
+
+En rápida sucesión, salta uno sobre el bloque, salta nuevamente sobre
+el acero, luego salta nuevamente hacia la derecha, haciendo clic en el último
+mientras que sobre el perno izquierdo del acero. Debería alcanzar el borde izquierdo.
+del trampolín y caída. Salta para esquivar la pelota de tenis y conseguirla
+para reflexionar y ir a la izquierda. Hazlo un kayakista. Deja que se refleje para enfrentar
+derecha, y se eleva en globo hasta la parte superior de la cámara, aterrizando en el
+isla vagamente en forma de "Q". Plataforma el espacio desde la cola del
+Q al acero: deja que este Lemming se vaya y muera. salta otro
+sobre el bloque, dale magnoboots y dispara con láser debajo del
+extremo derecho de la horda.
+
+
+"¡La red nerviosa!" 
+
+maxkill cero
+
+Salta uno y pégalo, cubriendo así los huecos. cuerda de la
+segundo puente de pegamento a la concavidad de la tubería, justo a la izquierda y
+debajo del bloque verde y blanco. Déjalo subir por la cuerda y reflexionar,
+haciéndolo bomba mientras está parado en el gancho de la cuerda, tal como lo ha hecho
+girado para ir a la izquierda: esto asegurará que continúe yendo a la izquierda cuando
+aterriza aturdido, lo cual no es importante para esta bomba pero sí para
+los posteriores. Déjalo regresar y subir por el resto de la cuerda,
+luego, haga una cuerda desde la parte superior hasta la esquina superior izquierda del bloque.
+saque hacia la derecha mientras está parado sobre el bloque, luego inmediatamente
+convierta la pala en un lazador y la cuerda hasta el codo cóncavo de
+la siguiente tubería. Bombardea la tubería, asegurándote nuevamente de que el Lemming esté mirando
+izquierda. Cuando regrese, ate la cuerda horizontalmente a la materia verde, de modo que
+la cuerda se coloca no muy por encima del acero, por lo que la parte superior del gancho
+Está a unos pocos píxeles de la cuerda. Bombardear una vez más. cuando
+Vuelve, cuerda una última vez para completar el camino hacia la salida. Utilice un
+pegamento para crear un paso, liberando a la horda.
+
+
+"Emprender el tiro con arco" 
+
+maxkill cero
+
+Este nivel es muy frenético. Necesitará que los dedos estén colocados por encima de F1-F5.
+en todas partes. Donde dice "arquero x2" en la solución, haga clic en
+primer arquero y dispara la flecha, luego haz clic y dispara otro para
+que la segunda flecha aterrice en la cola de la primera.
+
+Convierte al primer Lemming en corredor tal como aparece. Saltar desde el
+A mitad del último bloque, para aterrizar aturdido en el afloramiento de la derecha.
+Conviértelo en un arquero, disparando la flecha hacia abajo y hacia la izquierda hacia el bloque.
+debajo del de cuadros. Hazlo nuevamente arquero inmediatamente,
+apuntando a la cola de la flecha anterior. Déjalo reflexionar, entonces
+salta sobre las flechas. En la parte inferior de la pantalla, salta desde el
+bloque antes del de cuadros y arquero x2 hacia atrás para crear una rampa
+para los Lemmings que se aproximan. Un buen punto de mira es la parte inferior izquierda.
+cuadrado del patrón de cuadros. En el siguiente hueco, salta y
+arquero x2 nuevamente. Cuerda del segundo cuadrado rojo del grande.
+bloque a cuadros, hasta un punto a unos pocos píxeles del borde izquierdo del
+columna en lo alto con la parte inferior inclinada, en un ángulo de aproximadamente 70
+grados. Esto debería atrapar al corredor que quedará atrapado entre la cuerda.
+y la repisa. Cuando llegue el próximo Lemming, conviértelo en arquero.  
+cuando esté al nivel de la parte superior de la repisa, y apunte horizontalmente hacia la izquierda
+hasta un punto profundo en el cuerpo de la isla de cornisa. Esto debería sellar
+el espacio entre la cuerda y la cornisa. Cuando el corredor llega al nivel.
+parte, conviértelo en un arquero, disparando la flecha horizontalmente hacia la izquierda
+la pared. Conviértelo en arquero nuevamente a mitad de camino, disparando la flecha.
+verticalmente hacia abajo para crear un punto de reflexión. salta sobre el
+flecha horizontal para reflejarlo y saltar de nuevo sobre la vertical
+uno y en la horda. Cuerda desde la flecha hasta la esquina superior de
+la cornisa de salida.
+
+
+
+Tribu de las Sombras 
+~~~~~~~~~~~~
+
+La salida de la Sombra es una imagen de la máquina del tiempo "Tardis" de la televisión.
+programa "Doctor Who".
+
+
+"¡Tierra de OZ!" 
+
+maxkill cero
+
+Lanza llamas a los gatillos de las trampas de Lemming. lanzallamas a través del
+letras "OZY". Salta uno fuera del pozo y llena las trampas para derrotarlo.
+los gatillos, llene el hoyo pequeño a la izquierda, llene el primer hoyo para
+liberar a la horda.
+
+
+"¡NITRAM EL ENORME!" 
+
+maxkill cero
+
+La clave para llegar a este nivel es bajar la "escalera" de las cámaras.
+debajo de la trampilla.
+
+Utilice un tornado para los dos primeros pasos conduciéndolo parcialmente hacia
+el pilar de la derecha, hacia abajo, de regreso a la izquierda hacia la cámara y
+hacia abajo a través del suelo. Usa una excavadora, un bombardero y un pisotón para
+los otros tres. Túnel bajo el lago con un basher. Valla a través
+el techo de la casa.
+
+
+"Beeps gemelos" 
+
+maxkill cero
+
+La clave de este nivel es que si bien el nivel es simétrico, el
+la solución no lo es.
+
+Comenzando con la escotilla izquierda, lanza llamas hacia la derecha, luego
+lanzallamas que quedó del pequeño hoyo (esto necesita un poco de suerte), deja que el
+Caída del Lemming y lanzamiento de llama hacia la derecha a través del pilar en el
+nivel de salida. Para el otro grupo, suban con una cuerda hasta el bloque de la izquierda,
+lanza llamas y deja caer al Lemming. Vuélvete a atar y
+luego vuelva a cuerda para alcanzar el acero y llene el pequeño hoyo.
+
+
+"La fábrica de panqueques". 
+
+maxkill cero
+Dale a un Lemming un jetpack y aviántalo hacia la izquierda de la trampa.
+cámara. Golpea la recámara y pega los gatillos. golpe a la izquierda
+a través de la piedra picada. Pega los tres huecos, vertiendo el primero.
+lo más tarde posible y pegue el gatillo de la trampa. Bash se fue del
+horda principal para liberarlos.
+
+
+"Swingadingding" 
+
+maxkill cero
+
+Hay una manera más fácil de hacer esto, pero es menos dramática...
+
+Ventile la cadena a máxima velocidad. Haz de un Lemming un rockero y luego
+Inmediatamente vuelva a ventilar la cadena. El Lemming lo recogerá cuando
+cae. Suéltalo a la derecha. Avanza hacia el lago, plataforma  
+sobre él y dispara un láser para liberar a la horda.
+
+
+"La puerta de la escuela". 
+
+maxkill cero
+
+Desactive el disparador de trampa con un relleno. Cuerda de aproximadamente 1,5
+pulgadas a la izquierda de la puerta hasta la esquina del acero. volar un
+superlemming desde esta ronda de acero hasta la casa superior derecha. valla
+volver para liberar a la horda principal. Coloca el cañón con 3 eslabones de
+cadena que se muestra a la izquierda. Después de que un Lemming haya sido exitoso
+Lanzado a la rampa, mueve el cañón. Cuando llega a la cima,
+Llene el hoyo y cierre el hueco. Vuelva a colocar el cañón para el
+resto de los Lemmings. Les tomará algún tiempo a todos salir.
+
+
+"¡Diversión con Fritbatter!" 
+
+maxkill cero
+
+Convierte a un Lemming en escalador y luego conviértelo también en nadador.
+Salta desde lo alto de los bloques. Déjalo nadar en los pequeños lagos, y
+reflexionar. Saque la izquierda, sobre el borde izquierdo de la columna de acero. Detener
+la pala haciéndola saltar. Scoop derecho con un miembro de la
+horda. 
+ 
+
+"¡El infierno de Goosen!" 
+
+maxkill cero
+
+Bazooka x2 a través del pilar. Plataforma desde 3/4 del camino hacia abajo
+la pendiente, sellando el hueco. Mientras tanto, haz del próximo Lemming un
+atractor y convertir al juego de plataformas en un corredor. Valla a través del 
+construir y llenar el pozo. Golpea debajo del árbol. en la parte inferior
+Esquina derecha, llena para vencer los desencadenantes. Golpea x4 a través del
+mamparos. Llene el hoyo. Libera el atractor. Mueve la mano izquierda
+Cañón completamente a la derecha. Ayuda a los cañones haciendo Lemmings.
+desde los racimos más gruesos se disparan hasta la salida.
+
+
+"ESPINNY THANG..." 
+
+maxkill cero
+
+Cuerda verticalmente debajo del escalón de acero inferior, para separar un
+Lemming único a la derecha. Conviértelo en un tornado y abanicalo.
+cortando un escalón, luego a la derecha y subiendo en un ángulo pronunciado. Haz esto con cuidado
+y con paciencia. Si perturbas el tornado subiendo demasiado,
+déjelo regresar y haga clic nuevamente. Laserblast x6 para eliminar un
+trozo de la plataforma de arriba, entre el fondo de la pendiente y el
+gatillo de trampa derecho. Cuerda hacia la izquierda, para que el Lemming suba.
+la cuerda y subiendo por los triángulos. Pega el gatillo de la parte superior derecha.
+trampa. Usa un tornado para cortar la cuerda original y liberar a la horda.
+
+
+"Alas lunares" 
+
+maxkill cero
+
+Haz que el tercer Lemming sea un atractor cuando aterrice. Salta x3 el
+primero sobre los disparadores de trampa, luego construya desde el extremo derecho de
+la repisa. Cuando el constructor termine, conviértelo en un superlemming y vuela.
+salió hacia la cara vertical, reflejándola así. Pegue la parte superior de
+la rampa. Déjalo caminar y debería caer sobre el acero de la derecha.
+final del lago. Construye x2 para llegar a la repisa de la derecha, déjalo
+reflexionar y construir a la izquierda. Déjalo caer y luego conviértelo en una maceta.
+justo cuando llega al borde del pozo. Liberar el atractor por
+haciéndolo pisotear.
+
+
+
+Tribu Cavelem 
+~~~~~~~~~~~~~
+ 
+La salida de Cavelem es un tosco arco de piedra.
+
+
+"Polvo Audex" 
+
+maxkill cero
+
+Permita que los dos primeros dinosaurios muevan a los Lemmings. Justo antes del
+cola del tercero, pisotea algunos píxeles y luego cambia el pisotón a
+un golpeador de palos.
+
+
+"División sucesiva" 
+
+maxkill cero
+
+Pisotea el pequeño trozo de escombros en el centro. Pisotear a un grupo
+hasta la siguiente cámara central. Quedarse con este grupo, primicia.  
+derecha, luego izquierda, luego izquierda nuevamente hasta la salida. Pisotear para soltar el
+otro grupo.
+
+
+"Hombres mortales condenados a morir" 
+
+maxkill cero
+
+Salta sobre un Lemming tan pronto como aterrice. Dará vueltas sobre el
+trampolines a la izquierda de la salida. Plataforma hacia la salida,
+y comienza un stomper en el lado izquierdo de la horda principal mientras el
+El juego de plataformas aún se está construyendo (debido a limitaciones de tiempo).
+
+
+"¡Un buen momento!" 
+
+maxkill cero
+
+Primero haz la trampilla izquierda. Pisotea y luego toma el extremo derecho de
+la siguiente cámara. Cuerda desde justo antes de la salida hasta la parte inferior de
+el bloque de acero derecho y pisotea esta cuerda en la puerta de salida.
+Suelte el grupo de escotilla derecho con dos pisadores. 
+
+
+"¡Esto es lo peor!" 
+
+maxkill cero
+
+Comience un apilador en la pequeña loma en el primer trozo pequeño del nivel.
+suelo justo debajo de la escotilla. Un Lemming pasará la pila.
+Haz que pisotee la muesca justo encima del borde izquierdo del
+agua. Plataforma sobre el agua y valla a la izquierda para llegar al
+cámara de salida. Cerca la pila para liberar a la horda.
+
+
+"No hay tiempo" 
+
+maxkill cero
+
+Pisotear. Cuerda desde el cuerpo del dinosaurio hasta la cornisa de la izquierda.
+Construye x2, desde lo más alto posible de esta repisa hacia la salida.
+Llene x2 el hoyo pequeño. Pegue a la izquierda desde el extremo derecho de
+la pantalla para desactivar el gatillo del dinosaurio.
+
+
+"Salida mortal" 
+
+maxkill cero
+
+Usaremos la salida superior de la derecha. Nótese la proliferación de
+trampas de dos ojos.
+
+Haga la primera primicia de Lemming debajo del ojo izquierdo, luego inmediatamente
+(es decir, antes de que dé el primer paso hacia abajo) deténgalo haciéndolo
+saltar. Esto desactivará el disparador de la trampa. cuerda de la
+cima de la subida hasta la pequeña proyección a dos tercios del camino hacia arriba
+pendiente en la siguiente isla. Los lemmings se reunirán entre esta colina y
+la vid a su derecha. Salta a uno de los Lemmings entrantes hacia el
+enredadera y luego una plataforma debajo del ojo izquierdo de la trampa, si
+colocado correctamente, esto desactivará ambas trampas. cuerda de un
+posición a la izquierda pero dentro del hoyo en el que se ha
+recogido en un punto cerca de la parte superior del tallo izquierdo de la vid.
+
+
+"¡Wilma!" 
+
+maxkill cero
+
+Haz que el primer Lemming sea un apilador en el extremo derecho de la repisa. uno
+pasará: vuélvalo a volar entre la horda, haciendo estallar el
+globo en la hoja. Cuando el apilador se complete, déjelo caer y luego
+haz que se apile nuevamente donde aterriza. Salta desde la cima de esto
+apila mirando hacia la izquierda, salta de nuevo e inmediatamente apila de nuevo.
+Salta de esta pila hacia la izquierda y el Lemming debería estar libre.
+Déjalo bajar a la isla en el medio de la pantalla, donde
+se reflejará, luego se hinchará y se redondeará hasta la cola de la roca.
+colgando del borde de la escotilla. Apila en el fondo de esta roca,
+y salta hacia la derecha. Valla en la esquina debajo de la horda.
+Después de que el Lemming reflexione, debería encontrar su propio camino hasta el
+bandeja directamente encima de la salida. Llene x3 en esta bandeja. Apilar
+el extremo derecho de la hoja y una vez más salta hacia la izquierda.
+Salta a uno de la horda y bombardea para irrumpir en la zona del esgrimista.
+túnel. Llénalo para liberar a la horda.
+
+
+"EVOLUCIÓN DE LOS LEMMINGS" 
+
+maxkill cero
+
+Jetpack uno a la derecha pasando el hongo. Dale un
+lanzarse en paracaídas y dejarlo flotar hasta el fondo. Plataforma  
+la brecha. Laserblast x2 para cortar un agujero en el nivel superior, pero haciendo
+Asegúrese de que esté debajo del saliente del nivel superior. Jetpack arriba
+y a la derecha de la cornisa que acaba de ser grabada con láser. globo arriba
+e izquierda, deje que se refleje para mirar hacia la derecha, luego levante el globo
+hacia la forma sigmoidea en el extremo izquierdo del lago. Ala delta desde
+la parte superior del sigmoide y el globo antes de reflejarse, hacia arriba y alrededor
+a la derecha hacia la repisa superior de esta cámara. Golpea a la derecha, y
+Plataforma para sellar la chimenea. Deja que el Lemming reflexione, suelte
+abajo, etc. y luego plataforma x3 sobre el lago. Golpea el sigmoide,
+dejar caer al Lemming, etc. Pisotea el nivel sobre la salida, que
+fue previamente tratado con láser, luego convierta el stomper en un golpeador.
+Golpea el hongo para liberar a la horda.
+
+
+"Aún no he terminado" 
+
+maxkill cero
+
+Haz que el cuarto Lemming sea un atractor a mitad de camino de la loma. uno debería
+caminar libre. Déjalo caer y reflejarse en el hongo, luego inmediatamente
+pegamento a la izquierda. Valla a través de los escombros y hacia el
+mandíbula del esqueleto. Se mueven debajo de la mandíbula. Plataforma desde
+la mini repisa. Pisa fuerte directamente encima de la salida. Suelte el
+atractor con un puente.
+
+
+
+Tribu Espacial 
+~~~~~~~~~~~
+
+La salida espacial es un bloque cuadrado con una imagen galáctica y un
+luz giratoria en la parte superior.
+
+
+"PULSE LA BARRA ESPACIADORA" 
+
+maxkill cero
+
+Dale a un Lemming un jetpack y aviántalo hasta la repisa debajo del
+pozo donde van a parar el resto. Aplique mortero en la parte inferior del pozo para
+liberarlos.
+
+
+"Movimiento perpetuo" 
+
+maxkill uno
+
+Salta los dos primeros Lemmings desde el hoyo de la izquierda al hoyo de la derecha.
+Salta uno de ellos hacia la derecha y dale magnoboots justo
+antes de encontrar el obstáculo. Cuando haya recorrido aproximadamente dos tercios del camino.
+ronda, salta al otro y dale magnoboots. cuando el primero
+uno llega a un terreno nivelado, salta para quitar las magnoboots y luego
+convertirlo en un juego de plataformas, lo suficientemente tarde para cubrir la brecha pero lo suficientemente temprano para
+Haz que coloque los 12 tablones antes de reflejarse. Luego haz el otro
+un explosivo justo antes de tocar el nivel del suelo. El primero debería
+déjate caer por el agujero que deja y ve a la izquierda. Plataforma a la salida,
+luego llena x2 cada uno de los pozos para liberar la horda.
+
+
+"LOS LEMMINGS HAN ATERRIZADO" 
+
+maxkill cero
+
+Haz un corredor. Salta hacia la derecha y salta de nuevo desde
+entre el último y el penúltimo bloque. Cuando aterrice aturdido, haz
+Es un rockero y un control deslizante. Déjalo subir al primer pilar, sáltalo.
+al segundo y dejarlo subir al tercero. Deja que se deslice hacia abajo por el otro.
+lado del tercero, y salta entre las repisas de ese pozo. tu
+Es posible que desee avanzar rápidamente en este punto. Salta a la esclusa de aire.
+pared en la parte inferior derecha. Cuando se mete debajo del acero arriba y a la derecha
+de la salida, haz que se mueva a través del espacio y cuando caiga
+plataforma la otra. Prepárate para convertirlo en esgrimista tan pronto como
+se detiene. Ahora pisa fuerte desde el extremo derecho de la horda. no seas
+alarmado cuando el tirador reflexiona. Valla de nuevo en la horda una vez que el
+El stomper golpea el acero y se detiene. Quizás tengas que hacerlo dos veces si la primera
+uno va a la izquierda.
+
+
+"El vórtice" 
+
+maxkill cero
+
+Se dejó dos cuerdas para abrir un camino fuera del pequeño hoyo y sobre el
+pared de acero. Mortale el obstáculo delgado (desde muy cerca).
+Golpea con el garrote a la siguiente cámara y nuevamente a la siguiente. pisotear  
+desde casi donde los Lemmings aterrizan aturdidos (para evitar el acero
+enterrado un poco más a la izquierda). Detén al stomper convirtiéndolo en un
+clubbasher (que irá a la izquierda), y una vez que se despeje un poco de espacio,
+clubbash también. Mortale los dos obstáculos menores, de cerca.
+
+
+"El Lemm de acero inoxidable" 
+
+maxkill cero
+
+Este nivel parece fácil al principio, pero hay un giro: estaremos
+usando bombarderos para atravesar algunas cuerdas, y es muy fácil de matar
+algún que otro Lemming por error en el proceso (y no me di cuenta, obtuve
+"plata" en mis dos primeros intentos ¡pensando que no había perdido ninguno!)
+
+Salta al primer Lemming que emerja para darle una ventaja, luego haz
+pasa la cuerda a través del espacio hasta un poco más de la mitad del acero superior
+bloque (la altura es bastante crítica: demasiado alta y la horda escapa,
+demasiado bajo y los saltos no funcionarán). Salta un Lemming desde aproximadamente dos
+tercios del camino hasta esta cuerda hasta la columna de la derecha, y haga
+es un control deslizante. Inmediatamente ve y salta otro - haz este
+cuerda el espacio a la derecha por el cual el control deslizante acaba de desaparecer.
+Verás más adelante por qué. Cuando el control deslizante llegue al fondo, inflarlo
+suba por el eje debajo de la primera cuerda y abaniquelo hacia la parte inferior del
+dos plataformas debajo de la horda. Deja que se refleje, luego haz una cuerda desde arriba.
+de la pequeña pendiente al final de la plataforma hasta la mitad de la plataforma de acero.
+bloque a la derecha que está al nivel de la plataforma de arriba. déjalo
+Refleja de nuevo, luego bombardea justo a la izquierda de la parte inferior de la cuerda.
+acaba de hacer, para dejarle un pequeño hueco. Ahora la bomba está justo a la izquierda del
+parte inferior de la cuerda original: ¡asegúrate de tener todavía 59 lemmings! 
+
+
+"Juegos Olímpicos Lunares" 
+
+maxkill cero
+
+Salta uno y salta de nuevo sobre el hueco. Salto con pértiga desde
+el sexto bloque amarillo. Muévete a través de la brecha. Haz del Lemming un
+corredor. Salta desde la mitad del último bloque antes de los huecos.
+debe llegar completamente a la derecha. Cuando llega al fondo
+esquina derecha, conviértalo en un escalador. Lanza una lanza desde el penúltimo
+bloque, por lo que aterriza en el bloque encima de la salida para crear un paso para
+romper la caída de la horda. Llénalo para liberar a la horda.
+
+
+"Dios, está lleno de LeMmS" 
+
+maxkill cero
+
+Convierte uno en un apilador cuando aterrice por la escotilla. Salta justo después
+5 cuadras e inmediatamente salta de nuevo. Debería aterrizar en la parte inferior
+de las dos islas con triángulos en el extremo izquierdo. apilar cuando
+a mitad del estrecho túnel para provocar un reflejo. Plataforma x2
+desde la parte inferior del triángulo para sellar la caída. Déjalo reflejar
+(salta para que se refleje en la pared si es necesario) y pisotea el
+extremo derecho de la pieza con plataforma. Bazooka x3 desde la parte inferior de
+la gran pendiente para atravesar la cámara de salida. llenar o
+plataforma para liberar a la horda.
+
+
+"Odisea" 
+
+maxkill cero
+
+Apile exactamente en el extremo derecho de la parte nivelada de la joroba.
+un píxel a la izquierda y estará demasiado lejos para saltar, uno a la derecha
+y el láser no cortará (ver más abajo). el segundo
+El lemming pasará; haz que se apile justo debajo del saliente. hacer
+el primero un rockero. Cuando la primera pila esté completa, salta  
+el Lemming hacia la derecha; debería trepar por encima del
+formas de dientes de sierra. Detenga el segundo apilador mirando hacia la izquierda intentando
+a balancearse. Espere a que el escalador sea transportado al
+parte inferior de la pantalla. Laserblast justo a la izquierda de la parte inferior del
+foso al que se transportan los lemmings, de modo que los diminutos orificios inferiores
+La cámara se rompe pero el rayo láser se detiene en el acero. pisotear  
+con uno de los Lemmings en el hoyo del lado derecho - ellos
+Todos deberían salir hacia la izquierda y ninguno debería ir hacia la derecha. salta el
+escalador hasta la parte inferior de la cadena, ventílelo a máxima velocidad y
+suéltalo dentro del laberinto. Debería subir hasta el transportador.
+a la derecha y emerge debajo de la horda de la escotilla izquierda. Explosión láser  
+exactamente en el extremo derecho del espacio en el acero, de modo que el primer
+La pila se elimina por completo.
+
+
+"Dentro de la caja de acero" 
+
+maxkill cero
+
+Apile justo antes del reflejo, apretado contra el acero. cuerda de
+el borde del gran bloque de acero hasta la punta del triángulo.
+Cuerda hacia arriba y hacia la izquierda hasta el siguiente triángulo. Haz del Lemming un
+corredor. Después del transporte, deje que el Lemming baje y
+reflexionar, luego la plataforma comienza aproximadamente a media pulgada detrás del
+borde. Cuando la plataforma esté completa, llene x2 antes de caer. Para
+Para los paranoicos, también podría valer la pena un constructor sobre el gatillo. dejar
+El Lemming sube a la derecha y reflexiona, luego pasa al siguiente.
+pendiente, dejar reflejar, y plataforma a la derecha. Estos transportadores
+conducir a la salida. Cuerda desde entre la horda hasta la cima del
+pila.
+
+
+"Frontera de la surrealidad" 
+
+maxkill cero
+
+Salta x2 para sacar uno. Conviértelo en un corredor. Déjalo caer y
+reflexionar. Salta x2 hacia la izquierda, supera los obstáculos: hay
+marcas de sincronización obvias. Deja que el Lemming sea transportado a la parte superior derecha,
+y bazuca inmediatamente a su llegada. Salta desde el robot asesino.
+pies para superar el gatillo y nuevamente al signo de las libras.
+golpea el club, mientras tanto convierte al Lemming en un rockero. saltar
+desde el final de la cornisa. Deja que el Lemming trepe hacia la izquierda.
+de la salida, luego péguelo para hacer un puente. Clubbash el paso en
+el pozo de la horda. Acaba con la horda disparando repetidamente una bazuca.  
+cerca contra la pared izquierda.
+
+
+
+Tribu Polar 
+~~~~~~~~~~~
+
+La salida Polar es un iglú con una bandera escocesa.
+
+
+"¡Déjame salir!" 
+
+maxkill cero
+
+Lanzallamas salió para salir del foso inicial. Irrumpir en el siguiente
+cámara usando mortero x3 desde debajo del borde derecho de la
+pozo inicial. Inicie un corredor y úselo para pegar el espacio sobre el
+pozo cerca del lado derecho. Pega de nuevo. Sopla hasta la salida
+disparando una bazuca dos veces, usando un Lemming que se encuentra a medio camino
+a través del pegamento.
+
+
+"Hielo, hielo, Lemy" 
+
+maxkill cero
+Haga clic en un apilador a la izquierda del muñeco de nieve. Salta y
+lanza llamas al árbol. Valla desde el fondo de la fuerte pendiente.
+cerca al muñeco de nieve y convierte al Lemming en un patinador. Explosión láser  
+después de la rampa. Lanza llamas a través de los bloques del apilador.
+
+
+"Nieve más lems" 
+
+maxkill cero
+
+¡Tenga en cuenta que el iglú obvio no es una salida!
+
+Déjelos reflexionar, luego haga una cuerda desde el lado izquierdo de la colina hasta el
+árbol trasero, permitiendo que un Lemming se escape. Haz rápidamente este último
+Lemming un corredor. Al pie, cuerda de la larga y empinada pendiente.
+hasta el acero de la izquierda. Cuerda del bloque de acero izquierdo en el interior.
+hasta el bloque a mitad de camino del eje. Utilice más cuerdas y un
+tirador para salir. Bazooka el árbol a la derecha del primero.
+colina.
+
+
+"¡PELIGRO HIELO DELGADO!" 
+
+maxkill cero
+
+Deje que los Lemmings caminen libremente, luego vuele en globo a uno que esté caminando.
+quedan fuera del hoyo en el que se recogen y lo avivan para que aterrice en la nieve.
+pendiente a la izquierda. Si encuentra uno que camina bien, inténtelo de nuevo. hacer
+Este Lemming gratuito es un patinador para superar el hielo. Plataforma el
+hueco en el nivel de salida. Globo otro Lemming, déjalo deslizarse
+el hielo para que gire, y solo entonces conviértelo en un patinador. cuando
+cae y se refleja en el pozo inferior, conviértalo en un apilador en el
+extremo izquierdo del pozo. Cuando llegue al nivel del hielo, hazlo.
+plataforma x2 mientras mira hacia la izquierda, para cubrir el hielo. Llenado x6
+en el pozo para liberar a la horda. Bazooka el árbol desde la mitad del camino.
+a través de la brecha de plataformas.
+
+
+"¡Haz tu mejor tiro!" 
+
+maxkill cero
+
+Cuerda dejada al árbol tan pronto como el primer Lemming toca el
+suelo. Cuando el primero llegue al nivel de la bola de nieve, salta.  
+fuera. Déjelo caer hasta la segunda isla pequeña, luego átelo con una cuerda.
+afloramiento de nieve. Ate el pequeño espacio y luego saque el extremo izquierdo.
+Cuando se refleja, cuerda desde el bloque del medio hasta un lugar conveniente.
+carámbano para sellar la ruta de regreso. Bomba donde acaba
+Recogió, luego bazooka x3 para atravesar el estrecho espacio en el
+acero. Llénelo si es necesario. Saque desde el extremo más izquierdo posible y luego
+valla y pala para llegar a la salida. Libera a la horda con un
+cuerda desde la base del árbol hasta la bola de nieve. 
+
+
+"¡Vuelve!" 
+
+maxkill cero
+
+Si ha luchado con una solución más convencional, pateará
+usted mismo... Eche un vistazo a la parte inferior de la colina principal. contar
+cuatro carámbanos principales a la derecha y luego observe el espacio de un solo píxel
+justo a la izquierda de esto. 
+
+Inicia un atractor y luego salta un Lemming libre. Pisotear acaba de salir
+de la hendidura al pie de la colina. Deja de hacerlo
+saltar en el último segundo posible. Clubbash a la izquierda, y el
+Lemming pasará por el hueco antes mencionado. Plataforma x3 a
+llegar a la salida. Libera el atractor haciéndolo saltar.
+
+
+"DESLIZAMIENTO Y DESLIZAMIENTO" 
+
+maxkill cero
+
+Haz la primera pila de Lemming justo antes del pingüino. dos de los
+otros pasarán el apilador. Plataforma el pequeño espacio con el
+primero, el segundo caerá por el agujero. Bomba al extremo
+extremo derecho al mismo nivel, para reducir la altura de caída
+(y hacerlo no letal). Deje que el bombardero caiga y aterrice aturdido (si
+está muerto, ¡empieza de nuevo!), y conviértete en plataforma hasta la salida. el
+El próximo Lemming (¿recuerdas el apilador?) llegará antes que la plataforma.
+está completo: retraselo convirtiéndolo en arquero. Bombardear la base de
+la pila para liberar a la horda.
+
+
+"¡Nevó!" 
+
+maxkill tres
+
+Escotilla izquierda: Dale una magnoboots para sacarla y luego salta a
+la derecha. Deja que se refleje en el árbol y desciende, luego cerca  
+el derecho de obstrucción del cañón. Plataforma a la isla con
+el pingüino, y nuevamente a la salida. Valla a la izquierda desde la izquierda.
+eclosiona la horda, luego sincroniza un explosivo desde el extremo derecho del
+pozo. Escotilla derecha: cronometra un explosivo desde el extremo derecho del
+hoyo, y otro (hacia la izquierda) justo a la derecha del punto de aterrizaje
+debajo de la trampilla.
+
+
+"¡Todo está cuesta arriba!" 
+
+maxkill cero
+
+Tan pronto como aterrice el primer Lemming, dirígete a la isla de la izquierda.
+Iniciar un corredor. Construye desde lo alto de esta isla hasta la siguiente.
+construye bien con un Lemming colocado en el control del cañón derecho
+flecha. El mío se fue justo a la derecha del pingüino. Construye x2 a la izquierda de
+dos tercios del camino cuesta arriba a la derecha del pingüino. cuando
+El minero termina, construye de nuevo para completar la rampa iniciada en el
+Flecha de control de cañón. Vuela un superlemming desde el lado derecho
+de la pantalla hacia arriba y hacia la isla superior. Salta hacia la izquierda hacia el
+acero, luego convertirlo nuevamente en un superlemming y volarlo alrededor del
+izquierda de la salida. Inmediatamente después se refleja en el lado izquierdo de
+la pantalla, hazlo mío bien. Cuando el minero se abre paso y
+la horda trepa, reflexionemos y luego construyamos desde el principio.
+parte superior del pozo de mina para llegar a la salida.
+
+
+"Mantente helado" 
+
+maxkill cero
+
+Inicia un atractor. Salta un Lemming libre y conviértelo en un
+tornado al final de la primera pendiente a la derecha, al nivel
+la parte superior del acero. Fan, dejó un poco de camino para dejar un punto fuerte.
+borde. Salta a otro Lemming para liberarlo de la horda y haz que se pegue.  
+x2. Cuando llegue a la nieve en el extremo derecho del pegamento, conviértalo en un
+tornado justo antes de que se refleje. Aviníquelo a través de la nieve hasta el
+correcto. Haz saltar el atractor para liberar a la horda. Abanica el
+El primer tornado queda para liberarlo, luego dale alas de ícaro y abanico.  
+hacia la derecha. 
+
+
+
+tribu de las tierras altas 
+~~~~~~~~~~~~~~
+
+La salida de Higland es una cabina telefónica roja británica K2, en la que
+Los lemmings se tambalean como borrachos.
+
+
+"CREMA DE LEMMING" 
+
+maxkill cero
+
+Bazooka x2 para atravesar el bloque. Iniciar un tornado y un ventilador.  
+hacia abajo y hacia la derecha hasta la cámara octogonal en el nivel de salida. Bazuca x2 
+el mamparo desde cerca para llegar a la salida.
+
+
+"¡¡¡PEQUEÑAS BESTIAS !!!" 
+
+maxkill cero
+
+Haz un corredor y salta por la escalera de pendientes y cruza
+el abismo a la derecha. Cuando aterrice en el fondo, reflejelo
+haciéndolo saltar a la cara vertical del bloque en el que se encuentra el
+El perro Scottie está de pie. Úselo para cercar y liberar a la horda.
+
+
+"¡Deja de hacerle cosquillas a Jock!" 
+
+maxkill cero
+
+Construye hasta la isla, luego construye desde la izquierda del rojo.
+flor a la pequeña cosecha de tartán. Los Lemmings seguirán dando vueltas
+los trampolines hasta el foso justo a la derecha de la salida. Llene x3 en el
+pozo para liberarlos.
+
+
+"A un tiro de piedra" 
+
+maxkill cero
+
+Haz que el quinto Lemming sea un atractor, luego haz el que cae
+el tiro al hoyo desde justo a la derecha del centro del hoyo. Usa más
+lanza para convertir esto en una rampa que corre hasta el borde derecho de
+el hoyo. La última piedra arrojada estará a un píxel del suelo del foso.
+nivel. Llene hacia la derecha mientras está parado a la izquierda de las piedras, y el
+Lemming caminará libremente hacia la derecha. Ahora haz una rampa de piedras por
+usando tiros hacia la derecha, usando la unión entre el grande y el pequeño
+bloques de acero como marca de sincronización. Salta un par de otros Lemmings
+del hechizo del atractor para ayudar con este proceso. cuando el ultimo
+Se coloca la piedra, salta todos menos uno hacia la horda danzante.
+Llene debajo de la piedra desde el exterior, luego llene nuevamente mientras
+de pie sobre el relleno anterior. Libera el atractor. Valla a través
+a la salida si es necesario, deteniendo al tirador convirtiéndolo en saltador  
+o lanzador.
+
+
+"DONALD WHARS TU LEMMING" 
+
+maxkill cero
+
+Comience con la trampilla izquierda. Salta un Lemming sobre el bloque y
+plataforma al final de la rampa. Deja que el segundo Lemming reflexione.
+dos veces y luego haz que se construya hacia la derecha desde dos tercios de la
+camino hacia arriba la pendiente. Elige un Lemming que acaba de reflexionar en el
+fondo de este pozo, y golpea con un garrote para quitar el fondo del
+rampa del constructor. El primer Lemming debería estar acabando su
+plataforma: inícielo nuevamente en la plataforma y déjelo colocar dos
+tablas antes de hacerlo saltar, para aterrizar en la isla de salida derecha.
+Haz que sea una plataforma desde la mitad del tartán. El segundo lemming
+Ahora habrá terminado de construir; sáltelo desde el final del primer
+plataforma para aterrizar donde lo hizo el primero. Haz que se construya justo antes
+sube a la pieza con plataforma y se reflejará. Plataforma
+dos veces y luego construya para cubrir el pozo central. Libera cada uno de
+la horda se agrupa con un golpeador. Haga clic en el botón de liberación para mantener
+los Lemmings fuera de la cadena.
+
+
+"¡Brigadoom!" 
+
+maxkill cero
+
+Escotilla izquierda: salta uno hacia la derecha y luego deslízate desde
+el extremo del césped y abaníquelo hacia abajo para que aterrice en el lado derecho
+lado del lago marcado "Clyde construido". Cuerda desde el gris
+isla hasta la punta del tartán. Cuando está a punto de reflexionar,
+Explosión láser para liberar el grupo de escotillas derecho. ala delta y
+Abéntalo sobre la salida a la otra isla gris. Cuerda hasta el
+punto del tartán. Salta otro fuera del grupo de trampilla izquierda y
+Inmediatamente descienda en ala delta desde lo alto del obstáculo. Se estrellará
+y reflexionar. Surfea x2 a través del agua y dispara con láser desde el
+borde derecho del escalón gris inferior para liberar a la horda.
+
+
+"En memoria de McAngus" 
+
+maxkill cero
+
+Mueve el cañón de la derecha para dejar un eslabón de la cadena visible para el
+correcto. Deja que un Lemming de la escotilla derecha refleje y luego sáltalo.
+izquierda para aterrizar en el cañón del medio. Salta para evitar activar el
+Cañón, luego plataforma el agujero. Mueve el cañón izquierdo para dejar 2
+eslabones de la cadena que se muestran a su derecha. Mueva el cañón del medio completamente para
+a la derecha: tan pronto como se haya lanzado un Lemming, muévalo hacia atrás. cuando
+este Lemming llega a la columna de tartán con tapa de acero, conviértalo en un
+apilador. Después de cinco o seis ladrillos, salta mirando hacia la izquierda.
+Mueve el cañón del medio completamente hacia la derecha.
+
+
+"El club del brezo blanco" 
+
+maxkill cero
+
+Mueve el cañón para dejar 3 eslabones de cadena visibles a la izquierda. después
+Si le disparaste a un Lemming, mueve el cañón completamente hacia la derecha. hazlo
+salta justo antes del final de la pendiente amarilla. debería parar
+entre la piedra y la forma de onda. Salta directamente desde la derecha de
+la piedra para salir. Deja que se refleje en el perro escocés y caiga,
+luego inmediatamente golpea para salir. Salta el primer grupo de huecos,
+y plataforma la siguiente. Golpea el mamparo. Déjalo reflexionar, entonces
+Salta a la isla de salida, salta de nuevo para superar el obstáculo.
+y salta más allá de la salida. Plataforma absolutamente en el último segundo,
+sellando el espacio a la derecha de la isla. Déjalo reflexionar, entonces
+Explosión láser justo antes de la salida, cortando la izquierda de las dos piedras.
+"estalactitas". 
+
+
+"¡¡DA UN SALTO CORRIENDO !!" 
+
+maxkill cero
+
+Haz que el primer Lemming sea un mecedor y un flotador. Haz el siguiente
+un atractor, justo cuando el primero cae del borde. Déjalo subir
+dar la vuelta y luego, a mitad de la pendiente hasta la salida, darle
+icaruswings y abaníquelo hacia la izquierda y hacia la pendiente, así efectivamente
+reflejándolo. Lanzallamas x3 para atravesar la piedra, asegurándote
+para dejar un claro hueco a la izquierda. Plataforma x2 para sellar la caída.
+Libera el atractor haciéndolo saltar.
+
+
+"¡¡CÓMEME MI METRALA!!" 
+
+maxkill uno
+
+Haz del tercer Lemming un atractor en la parte inferior del primero.
+valle. Uno debe escapar por la colina a la derecha - conviértalo en un
+rockero. Salta sobre la pared de acero al final del césped y
+conviértalo en un explosivo, cronometrando desde la mitad del penúltimo acero
+bloque delante del delgado mamparo, que debería ser destruido. saltar  
+el bailarín más a la derecha para liberarlo, y rápidamente saca uno del globo
+horda (¡NO el atractor!) y abanicarlo, haciendo estallar el globo.
+para aterrizarlo en la rampa aproximadamente en línea con el que saltó libre.
+Conviértelo en un control deslizante. Cuando el que camina por la hierba se pone
+debajo de la columna de acero, hazlo con mortero; la explosión debería
+sople el control deslizante a través del espacio creado por el explosivo. salta
+sobre la roca, déjalo balancearse hacia el túnel inclinado y salta en
+la parte inferior de la pendiente, para evitar que gire y vaya hacia la
+salir. Plataforma x2 sobre el lago y suelta el atractor.
+
+
+
+Tribu Circo 
+~~~~~~~~~~~~
+
+La salida del Circo es una pequeña carpa con carpa grande roja y blanca.
+
+
+"LÍNEAS DE LUZ..." 
+
+maxkill cero
+
+Mueve el cañón completamente hacia la derecha. Salta un Lemming hacia allí. dejar
+se dispara, se refleja y se cae al nivel medio. Salta en el
+dirección indicada por la flecha amarilla. Hazlo un escalador. cuando
+llega a la mitad de la flecha roja (caminando hacia la derecha en la parte inferior
+plataforma), justo donde la plataforma cambia de verde a amarillo, haga
+es explosión láser. Pega justo antes del final de la plataforma. saltar  
+Saca otro Lemming de la horda y haz que siga la misma ruta.
+Salta sobre el agujero hecho por el anterior disparo láser. Explosión láser  
+justo antes de que llegue a los bloques verdes y se refleje, y la superposición
+debería liberar a la horda.
+
+
+"Lemmings en la familia" 
+
+maxkill cero
+
+Deja que los Lemmings salten hacia la derecha, reflexiona y camina.
+izquierda. Pisotear la columna suspendida de la plataforma, entre el 4to.
+y quinto trampolines, contando desde el borde derecho de la pantalla. cuando
+el pisotón casi ha llegado al fondo y se ha abierto paso, cambia
+convertirlo en un lanzallamas. Llene x2 el hoyo.
+
+
+"Estamos volviendo a casa" 
+
+maxkill cero
+
+Haga la segunda primicia de Lemming lo más tarde posible, mientras todavía
+permitiéndole sacar dos veces antes de reflejarse en el acero, así
+formando una barrera infranqueable y provocando reflejos. hacer el 1er
+Plataforma de lemming x5 desde el final para llegar a la bandera junto a la salida. en
+entre juegos de plataformas (pero no todos a la vez), crea un tornado
+donde se inició la pala, y abaníquela hacia abajo y hacia la izquierda para cortar un
+pendiente que los demás puedan subir. Ventile el tornado verticalmente hacia arriba para
+cancelarlo. Una vez que la plataforma principal esté completa, queremos plataforma
+justo desde la cima donde comenzó el tornado - esto es un poco
+complicado, pero una forma fácil de hacerlo es iniciar un apilador, luego
+Cámbialo inmediatamente a un juego de plataformas mientras miras hacia la derecha. si el
+el paso es demasiado alto para la horda, coloca otro juego de plataformas en el
+extremo derecho para crear un paso adicional, deteniéndolo con un saltador si
+termina yendo a la izquierda.
+
+
+"¡La vuelta al Blox!" 
+
+maxkill cero
+
+Este nivel es trivial, ya que hay un gran excedente de dispositivos. el
+La siguiente solución es simplemente un ejemplo...
+
+Desde la trampilla superior, haz un tornado y abanícalo alrededor del
+ruta. Usa un atractor para retrasar la horda. Déjalo caminar, entonces
+Haz otro tornado y corta el trozo del nido, luego golpea hasta el
+salir. Golpea hacia la izquierda desde la escotilla inferior para unirte al tornado.
+túnel. Liberar el atractor por cualquier medio conveniente.
+
+
+"Gran momento" 
+
+maxkill cero
+
+Haz que el segundo Lemming recorra las tres cuartas partes de la pendiente.
+Deje que el primer salto pase, luego la plataforma en el fondo del
+pendiente derecha para cerrar el hueco, justo encima del nivel de salida.
+Plataforma a medio camino de la misma pendiente con el siguiente Lemming que
+se cruza. Haz que el último Lemming caiga a la plataforma inferior.
+Gire a la izquierda, luego plataforma para llegar a la salida. Golpe (de cualquier manera)
+usando uno que esté parado en el hueco entre la pendiente y la plataforma para
+liberar a la horda.
+
+
+"DOLOR DE CABEZA" 
+
+maxkill cero
+
+Haz un escalador y hazlo bombardear a mitad del segundo.
+segmento triangular, para dejar un bonito punto a la derecha. Mueva el
+Cañón dos pequeños clics (aproximadamente un tercio de un eslabón de cadena) a la izquierda.
+extremo de la mano. Se debe disparar al Lemming hasta la plataforma de salida.
+Bomba inmediatamente. Deje que refleje, luego pegue a la izquierda, sellando el
+caer. Déjalo subir hasta el nivel de la trampilla, camina y pega el
+agujero hecho por la primera bomba. Déjalo reunirse con la horda, escalar el muro.
+a la izquierda, baja y regresa. Para garantizar un clic preciso, utilice el
+escalador que regresa para cercar el obstáculo - espera con el mouse
+puntero en el extremo derecho y cuente 4 o 5 segundos después de que aterrice
+antes de hacer clic en el tirador. Haz el último Lemming sobre la pared.
+Bombardea el pegamento inferior, justo encima del borde izquierdo del rojo y amarillo.
+Bloque de 2x2. Inmediatamente haz un salto para llegar a la
+nivel de trampolín. Mueva el cañón inferior de modo que dos eslabones de la cadena queden
+mostrando a la izquierda. Después de disparar a cada Lemming, observa dónde aterriza.
+y avanza el cañón un solo píxel hacia la derecha. Una vez que uno aterriza
+Al nivel de salida, deja el cañón donde está. Si vas demasiado lejos, si
+incluso un solo Lemming aterriza en el bloque 2x2, tendrás que rehacer el
+nivel (¡a menos que tengas MUCHA, MUCHA suerte y sea el escalador!)
+
+
+"Circo del miedo" 
+
+maxkill cero
+Haz un escalador. Cuerda horizontalmente a través del pequeño espacio y
+cuerda desde el centro del pozo de acero hasta el bloque. deja que el
+Caída de lemming y bazuca tan pronto como aterriza. cuerda de la
+borde del agujero de la bazuca hasta el cono, y pisotea el extremo del
+plataforma. Déjalo caer y reflejarse, luego llena cada uno de los pequeños
+pozos. Dispara una cuerda hacia arriba y hacia arriba desde entre la horda para atraparlos.
+fuera. 
+
+
+"JUEGA ESE LEMMING FUNKY" 
+
+maxkill cero
+
+Deja que el primer Lemming caiga y rebote (¡como si tuvieras elección!), luego
+Golpea el pilar rojo. Mueve el cañón completamente hacia la derecha. dejar
+Uno será disparado hacia la cornisa, déjelo reflejar, luego inmediatamente
+cucharada a la izquierda. Pisotea completamente a través de la escalera de segmentos triangulares.
+que conduce a la plataforma del cañón, por lo que los Lemmings caminan libres bajo el
+cañón. Detenga la pala cuando esté al nivel del centro de la
+forma de diamante medio haciéndolo saltar. Déjalo reflexionar y volver,
+y luego golpea el diamante y saca del otro lado
+hasta el nivel donde se encuentra la horda, deteniendo nuevamente la
+Scooper con un jersey. Avanza desde la horda para encontrarte con el
+túnel excavado. Vaya directamente a la siguiente cámara y deje que el
+Los lemmings suben por la escalera triangular. Golpea al primero de los dos.
+pequeños bloques rojos y salta un Lemming sobre el segundo. déjalo caminar
+completamente a la izquierda, salta a la plataforma azul, déjala subir,
+y salta a la cara y luego a la pendiente sobre la salida.
+pala en la cámara izquierda de las dos flechas cíclicas, por el
+ruta más corta, luego golpea la punta de la flecha. Déjalo reflexionar y
+regresa, luego salta desde la mitad de la pequeña pendiente para aterrizar en
+la derecha. Saque de la primera unión de los bloques y plataforma  
+a la joroba roja. Si es necesario, deja que se refleje en el bloque.
+refrenando a la horda y la plataforma nuevamente para completar la ruta.
+Golpea el bloque rojo y atraviesa desde la cámara de flechas hasta
+la salida.
+
+
+"Las alcaparras de la alfombra..." 
+
+maxkill cero
+
+Comienza un salto con pértiga justo antes de la bandera. Mueva el cañón completamente a
+la derecha. Deja que baje al nivel de las filas de bloques y
+Justo antes de caer, dale una alfombra mágica. Déjalo flotar,
+usando el ventilador para sortear los obstáculos. Tenga en cuenta que tendrá que
+Ventílelo suavemente hacia abajo para llegar debajo del bloque verde. déjalo
+Refleja y baja hasta el nivel de salida, luego coloca la plataforma en la brecha.
+Saca otro saltador con pértiga y recorre la misma ruta con el
+alfombra mágica. Lanza un láser desde la caravana para liberar a la horda.
+
+
+"¡Swingz y Rotondaz!" 
+
+maxkill cero
+
+Inicie un apilador en la parte inferior de la pendiente. Dos lemmings obtendrán
+más allá, reflejelos en la pared de la derecha haciéndolos
+saltar en el último segundo. Salta el apilador hacia la izquierda para detenerte.
+y salta cada uno de los dos que acabas de reflejar sobre el
+pila. Comienza un salto con pértiga desde la pequeña pendiente a la izquierda del auto.
+Déjalo subir por la escalera triangular, luego pisotea la mitad izquierda del
+ladrillo amarillo. pala inmediatamente al aterrizar, deteniendo la pala en
+el nivel de la plataforma del coche haciéndolo saltar. Clubbash de la horda
+en el túnel de la pala. Plataforma en el último segundo sobre el
+pisoteado, por lo que la plataforma también construye el escalón de la izquierda.
+Plataforma el hueco y llena el pequeño hoyo en el siguiente nivel.
+Mueve el cañón izquierdo hacia la derecha (¿es necesario?). Llene el
+pozo sobre los cañones y llene el pozo en el nivel superior. primicia
+en el terreno llano en la cima de la pequeña pendiente amarilla, por lo que el
+Los lemmings caen sobre el poste del barbero y no mueren.
+
+
+
+Agradecimientos 
+~~~~~~~~~~~~~~~~
+
+Está claro que esta solución no habría sido posible sin la
+existencia de la serie de juegos de ordenador "Lemmings", probablemente la
+El mejor concepto de juego de ordenador, y sin duda el más original jamás creado.
+ideado. Muchas gracias a Dave Jones y a todos en DMA Design, y al
+diseñadores de Amiga Inc. por una plataforma de hardware tan inspiradora.
+
+Estas soluciones se desarrollaron de la manera más difícil, mentalmente sobre Lemmings,
+y probado en un Commodore Amiga A3000. Este documento fue elaborado
+usando GNUemacs y LaTeX en el mismo sistema.
+Toda la mierda de GNUemacs y LaTeX, eliminada por [RYGAR].
+
+       Todos / \ {} `` '' espacios, códigos, JODIDA MIERDA eliminados por [RYGAR].
+
+          Corregido y publicado por [RYGAR] Martes 1993-05-05, Hora: 00:24
+
+			             Fin.

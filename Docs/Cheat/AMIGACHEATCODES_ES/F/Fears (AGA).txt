@@ -1,0 +1,183 @@
+---- MIEDOS doom-clone Explicación de contraseñas por Giovanni Meroni --------
+
+Cuando resolví el primer nivel y obtuve el código de nivel para el segundo nivel, 
+Vi que este código era un número hexadecimal de 8 dígitos, pero pensé que era
+no tenía sentido y el código era sólo una secuencia casual de dígitos...
+¡No! ¡¡¡Eso está mal!!! En el nivel el código está codificado (bueno, es un código después de todo...:-))
+todas las estadísticas importantes del jugador: su número de vidas, munición, nivel y el
+tipo de armas.
+De hecho, intenta terminar el primer nivel muchas veces, con diferente cantidad de munición o  
+vidas, obtendrás un código diferente para el segundo nivel...
+Tenga en cuenta que estos códigos no recuerdan cosas como energía, tesoros encontrados, tiempo.
+usado, secretos encontrados, así que cuando ingresas a un nivel usando un código, todas estas estadísticas
+estar en un nivel predeterminado.
+Después de recopilar algunos códigos de acceso de Nivel 2, comencé a intentar comprender cómo funciona todo
+estas informaciones están codificadas.
+En primer lugar descubrí que la secuencia de 8 dígitos debe verse como la unión
+de dos números de 4 dígitos: En el primero se codifica el nivel, el número de 
+vidas y el tipo de armas disponibles, y en el segundo el número de los
+Dos tipos de munición.
+Ejemplo:
+          código de nivel F8F856A5
+                   \__/\__/
+                    \ \__ significa 99 armas de tipo 1 y 28 de tipo 2
+                     \_____ significa acceso al nivel 2 con arma y 0 vidas restantes
+               
+          código de nivel C9F545B9
+                   \__/\__/
+                    \ \__ significa 53 armas de tipo 1 y 14 de tipo 2
+                     \_____ significa acceso al nivel 3 con pistola y ametralladora
+                            y quedan 3 vidas
+ 
+N.B: ¡¡¡los dos grupos de dígitos están completamente correlacionados!!! para que siempre puedas
+     obtener los primeros 4 dígitos de un código de nivel y los últimos 4 de otro y
+     ¡¡¡Tendrás otro código de nivel válido!!! 
+     Ejemplo: usando los dos códigos anteriores puedes crear otros dos códigos:
+     F8F845B9 y C9F556A5, ¡y esos también son códigos válidos!
+
+Entonces...
+
+------------------------------------------------------------------------
+| Explicación del SEGUNDO grupo de un código de nivel (los últimos 4 dígitos) |
+------------------------------------------------------------------------
+(Mi abuelo siempre me decía que empezara por el principio ;-) )
+Bueno... no tuve suerte y por eso NO hay explicación :(
+pero recopilé algunos códigos, así que aquí están:
+      ___________________________
+      | Código nivel | tipo1 | tipo2 |    Tipo1 significa el número de municiones de
+      +---------+-------+-------+ tipo 1 (munición para pistola y ametralladora)
+      |   54 d.C. |   99 |   14 |
+      |   94AC |   98 |   14 |    Tipo2 significa el número de municiones de
+      |   40A8 |   00 |   14 |         (¿adivina?) tipo 2 ...( Cohetes )
+      |   91ED |   91 |   14 |
+      |   519D |   87 |   10 |
+      |   5000 |   64 |   00 |
+      |   45B9 |   53 |   14 |
+      |   56A5 |   99 |   28 |
+      |   5C8D |   99 |   42 |
+      |   5E85 |   99 |   56 |
+      |   742D |   99 |   70 |
+      |   7625 |   99 |   84 |
+      |   7C0D |   99 |   98 |
+      |   BC0F |   99 |   99 |
+      +---------+-------+-------+
+
+Cuando descubrí BC0F dejé de buscar códigos nuevos porque sería inútil:
+BC0F es el mejor código para comenzar cada nivel con la munición máxima y así...
+Lo uso a menudo...
+
+Si logras descubrir cómo se codifican los números de munición en este pozo de 4 dígitos...
+¡¡¡NO me lo hagas saber!!!! ;-) Realmente no me importa mucho....
+
+
+Bueno ahora....
+------------------------------------------------------------------------
+| Explicación del PRIMER grupo de un código de nivel (los primeros 4 dígitos) |
+------------------------------------------------------------------------
+
+Aquí la cosa es un poco complicada: implica el uso de binario a hexadecimal.
+conversiones y así si no sabes mucho al respecto... Salta a las conclusiones ;-)
+
+En los primeros 4 dígitos están codificados el número de nivel, el tipo de armas y el 
+número de vidas.
+El número de código es un número hexadecimal, por lo que se puede escribir en binario:
+
+ D8F5 -> 1101 1000 1111 0101
+
+y el significado de cada grupo de bits es:
+
+xxxx 100x x11x xxxxx
+\__/ \____/ \__/|\_ =1 si tienes la ametralladora (0 en caso contrario)
+ \ \ \ \__ =1 si tienes el lanzacohetes (0 en caso contrario)
+  \ \ \____ en este triplete se codifica el nivel :
+   \ \ 111 = nivel 1 110 = nivel 2 101 = nivel 3
+    \ \ 100 = nivel 4 011 = nivel 5
+     \ \_________ esto es una especie de suma de verificación para ver si el código es válido:
+      \ No había descubierto cómo funciona esto pero puedes intentarlo.
+       \ algunas combinaciones y usa la única que funcione
+        \___________ en estos bits se codifica el número de vidas que tienes:
+                           1111 = 0 vidas
+                           1110 = 1 vida
+                           1101 = 2 vidas
+                           1100 = 3 vidas
+                           ....... .......
+                           0111 = 8 vidas
+                           0110 = 9 vidas
+
+Aquí hay algunos códigos que descubrí: los calculé primero y luego intenté 
+insértalos como contraseña en el juego y todos funcionaron bien 
+
+| Nivel |  solo arma | Pistola+Ametralladora | pistola+ametralladora+ |
+|       |           |                | lanzacohetes |
++-------+-----------+----------------+-----------------+
+|   1 |           |                |      6D7F | 9 VIDAS
++-------+-----------+----------------+-----------------+
+|   2 |   F8F8 |     F879 |                 | 0 VIDAS
+|       |   E878 |     E8F9 |                 | 1 VIDA
+|       |   D9F8 |     D979 |       (*) | 2 VIDAS
+|       |   C978 |     C9F9 |                 | 3 VIDAS
+|       |   BAF8 |     BA79 |                 | 4 VIDAS
+                           (*)....
+|       |   (*) |     7C79 |                 | 8 VIDAS
+|       |           |     6CF9 |      6DFB | 9 VIDAS
++-------+-----------+----------------+-----------------+
+|   3 |   F974 |     F875 |                 | 0 VIDAS
+|       |   E9F4 |     E8F5 |                 | 1 VIDA 
+|       |   D874 |     D975 |       (*) | 2 VIDAS
+|       |   C8F4 |     C9F5 |                 | 3 VIDAS
+                                                           ....
+|       |   (*) |      (*) |      6C77 | 9 VIDAS
++-------+-----------+----------------+-----------------+
+|   4 |           |     F971 |      F873 | 0 VIDAS
+|       |           |     E9F1 |      E8F3 | 1 VIDA 
+|       |           |     D871 |      D973 | 2 VIDAS
+|       |           |     C8F1 |      C9F3 | 3 VIDAS
+|       |           |                |      BA73 | 4 VIDAS
+|       |    (*) |      (*) |      AAF3 | 5 VIDAS
+|       |           |                |      9B73 | 6 VIDAS
+|       |           |                |      8BF3 | 7 VIDAS
+|       |           |                |      7C73 | 8 VIDAS
+|       |           |                |      6CF3 | 9 VIDAS
++-------+-----------+----------------+-----------------+
+|   5 |           |                |      FBEF | 0 VIDAS
+|       |           |                |      EB6F | 1 VIDA
+|       |           |                |      DAEF | 2 VIDAS
+|       |           |                |      CA6F | 3 VIDAS
+|       |           |                |      B9EF | 4 VIDAS
+|       |    (*) |      (*) |      A96F | 5 VIDAS
+|       |           |                |      98EF | 6 VIDAS
+|       |           |                |      886F | 7 VIDAS
+|       |           |                |      7FEF | 8 VIDAS
+|       |           |                |      6F6F | 9 VIDAS
++-------+-----------+----------------+-----------------+
+(*) No tengo código para estas combinaciones de nivel, vidas, tipo_arma porque
+   No tengo tiempo que perder en estas tonterías :) (Y, lo más importante,
+   descubrir nuevos códigos es realmente aburrido, cuando sabes cómo hacerlo)
+   Si realmente los necesitas (no puedo imaginar por qué), ¡descúbrelos tú mismo!
+
+-----------------
+|  CONCLUSIONES |  (La parte más esperada...)
+-----------------
+
+Los códigos completos para empezar un nivel con todas las municiones, todas las armas, 9 vidas son:    
+
+	nivel1: 6D7FBC0F
+	nivel2: 6DFBBC0F
+	nivel3: 6C77BC0F
+	nivel4: 6CF3BC0F
+	nivel5: 6F6FBC0F
+
+
+*++++++++Nota final....
+- Perdona mi Spagetti-English... pero soy un comedor de Spaghetti (es decir, un chico italiano)
+- Todos estos códigos funcionan bien en mi versión de FEARS, pero en la construcción del
+  códigos, hay espacio para tener un conjunto diferente de códigos para diferentes copias del
+  juego... Si sucediera, estos códigos no funcionarán (obviamente) pero creo que el
+  la lógica detrás no cambiará. Intente cambiar la parte '100' en el nibble de suma de verificación,
+  o los '11' bits entre la suma de comprobación y el nivel de mordisco.
+- Déjenme saber sus opiniones sobre esto.
+- Puedes usar este documento y la información que contiene como quieras, pero no lo hagas.
+  roba los creditos!!!
+
+
+Giovanni Meroni
