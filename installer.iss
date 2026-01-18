@@ -2,7 +2,7 @@
 ; Requires Inno Setup 6.x
 
 #define MyAppName "Manuales WinUAE"
-#define MyAppVersion "0.1.3"
+#define MyAppVersion "0.1.4"
 #define MyAppPublisher "scorpio21"
 #define MyAppExeName "Manuales_WinUAE.exe"
 
