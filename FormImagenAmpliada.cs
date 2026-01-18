@@ -22,16 +22,38 @@ namespace WinFormsManual
         {
             // Configuración básica del formulario
             Text = "Imagen Ampliada";
-            WindowState = FormWindowState.Maximized;
             BackColor = Color.Black;
             KeyPreview = true;
             DoubleBuffered = true;
+            StartPosition = FormStartPosition.CenterScreen;
+
+            // Configurar tamaño inicial basado en la imagen y pantalla
+            var pantalla = Screen.PrimaryScreen.WorkingArea;
+            var maxAncho = pantalla.Width * 0.9; // 90% del ancho de pantalla
+            var maxAlto = pantalla.Height * 0.9; // 90% del alto de pantalla
+
+            var imagenAncho = _imagenOriginal.Width;
+            var imagenAlto = _imagenOriginal.Height;
+
+            // Ajustar tamaño para que quepa en pantalla manteniendo proporción
+            if (imagenAncho > maxAncho || imagenAlto > maxAlto)
+            {
+                var ratioAncho = maxAncho / imagenAncho;
+                var ratioAlto = maxAlto / imagenAlto;
+                var ratio = Math.Min(ratioAncho, ratioAlto);
+
+                ClientSize = new Size((int)(imagenAncho * ratio), (int)(imagenAlto * ratio));
+            }
+            else
+            {
+                ClientSize = new Size(imagenAncho, imagenAlto);
+            }
 
             // Crear el PictureBox para la imagen
             var pictureBox = new PictureBox
             {
                 Dock = DockStyle.Fill,
-                SizeMode = PictureBoxSizeMode.AutoSize,
+                SizeMode = PictureBoxSizeMode.Zoom,
                 BackColor = Color.Black
             };
             pictureBox.Image = _imagenOriginal;
@@ -151,7 +173,7 @@ namespace WinFormsManual
             {
                 pictureBox.Image?.Dispose();
                 pictureBox.Image = _imagenOriginal;
-                pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+                pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
             }
             Text = "Imagen Ampliada";
         }
