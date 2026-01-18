@@ -1,0 +1,158 @@
+                            COLORADO SOLUTION
+
+Typed in by PARASITE of LSD.
+
+
+THE WINNEMUCCA FOREST
+Starting from the canoe, head east into the next screen. Load your gun
+and shoot the Iroquis that makes his way towards you, and then
+continue East and enter the forest. At the crossroads take the upper
+trail and head back West. When you arrive at the screen with the
+Archer, go behind the trees to avoid his arrows, and then use the
+knife of hatchet to dispose of him. In the next screen you will come
+against the Iroquis chief; use the hatchet to kill him, and take the
+necklace and skin. Go back to the last crossroads, and climb the
+mountain, being careful not to fall off the edge (save the game at the
+peak). Pick up the nuggets at the top of the mountain, and then climb
+all the way back down and return to the first crossroads. Go east from
+here, until you come across another archer. To kill him, hide in the
+first recess, and cause him to shoot an arrow by moving diagonally
+backwards and forwards. Then place yourself in his line of sight, make
+a jump and take cover in the second recess. Cause the archer to fire
+another arrow and then use the knife or hatchet to kill him. Be
+careful of the jump in the next screen, and then carry straight on.
+
+MAC BIGGIE
+Swap the nuggets, skin and necklace with him, and if necessary, drink
+the potion. Now continue walking East and climb to the end of the
+blind alley.
+
+THE CANYON OF DEATH
+Climb up, avoid the Apaches and then continue East; take care at the
+jump. On the other side you will be attacked by two Apaches; use the
+gun to disopose of these two, and then save the game. Continue on the
+lower road until you get to the next screen. as soon as you enter,
+move into the recess and reload your gun. Fool the archer into firing
+at you, then move back out of the recess and shoot him; walk East.
+Kill the Apache you come across with the knife or hatchet. Do the same
+in the next screen, and then walk East again. Yet again, take care on
+the two jumps, and after you have got to the other side, reload your
+gun. Use the gun as soon as you enter the next screen, and then use
+the axe or knife to get rid of the Apache Chief. Change the powder
+horn (freeing one icon), pick up the necklace and the peace-pipe. Go
+back to the fork, and take the staircase; at the top of the stairs
+reload the gun, and as soon as you arrive in the next screen, use it;
+reload the gun once more, shoot the next apache you come across, and
+use the axe or knife to finish him off.
+
+MUSIC
+Drop the peace-pipe in front of the Hopi chiefand swap it for the
+silver bullet. Return to the first room in the canyon, make two left
+turns, and pick up the nuggets. Then return to the forest.
+
+MAC BIGGLE
+Trade the nuggets and the necklaces, drink a potion and return to the
+canoe.
+
+BIG BEAR FOREST
+Take a right turn twice and then prepare to fight the first of the big
+bears. there are three methods that can be used, but the best is the
+third one. You can kill the bear with a stick of dynamite, and then
+one bullet; you can use one complete powder charge; or fight him with
+thee knife. When the bear is dead, go right for two passages, take the
+passage at the back to save the game, and then come back to the second
+passage (in front of the tree on the right) and cross the field of
+rabbits. When you fight the wolf, the best thing to do is hit it
+immediatly with a low blow from the axe, otherwise you will have to go
+back a place to let the wolf pass in front of you can give it a low
+blow with the axe, or you can avoid it by moving in a straight line.
+Continue right, and pick up the nugget.
+
+THE GANG DOWN THE MINE
+Throw the dynamite into the pile of rocks, then reload your gun and
+shoot the miner. Now select the knife or axe and strike at the miner
+who will then run away. Start moving right, and when you get to a
+blind alley, kill the miner you find there. Follow Huck through the
+mine were a passage will open up (if there is a tree icon, you can
+pick up a nugget in the room to the right of the secret passage room);
+take this passage and at the first fork take the trail at the back. Go
+over the jump, and at the second fork, teke the door at the bottom.
+Reload the gun, shoot the miner and then finish him off. Go to the
+second fork and take the door at the back, reload the gun, and on
+entering the room, take a few steps forward and shelter in the recess.
+Make the Old Timer shoot, then use the gun in the low position to deal
+with him. Take, and read the parchment, drop it. Go right and throw
+the dynamite into the pile of rocks, then go to the peak where you can
+save. Return to the first fork, and go through the lower door; kill
+the miner with the gun, knife or axe. In the next room advance
+gradually , and when you hear the waggon, take a diagonal step into
+the recess (pick up the nugget if the icon is avaliable), then carry
+on right and kill the miner. Continue right and you will find the
+leader of the miners, if you have some dynamite left, use it to kill
+him. Otherwise use another weapon. Pick up the lager nugget, and
+return to the forest, and to the canoe.
+
+IN CHEYENNE COUNTRY
+Go right twice, jump over the fire,  turn  right. Pick up the skin (if
+the icon is not available, put down the object, pick up the waterskin,
+swap it at Biggies store for  the  gunpowder  horn, pick up the object
+you put down). Forest fork; take the upper road.
+
+MAC BIGGLE
+Swap all the nuggets. Right, second fork; take to one at the back
+behind the tents. Make sign of peace to the Medicine-Man, then find
+out what the parchment says. Go back to the first fork, take the lower
+road in the front of the tent. Fight the ginat in the same way as the
+bear. Go right, make the sign of peace to Chief Two-Moons, find out
+what the parchment says; return to the canoe.
+
+TERROR IN THE WOODS
+Move right four times, kill an Indian, right, Mac Biggle, kill the
+chief, and take the necklace and the skin.
+MAC BIGGLE: Swap the necklace and skin. The silver bullets and potions
+can be left there; the powder horn can be swapped and you can drink
+the potion.
+Return to the third room in the forest, and take the passage at the
+back to the right of the rock. Climb the mountain and fight indian
+(you can avoid him but be careful of the drop). Archer in the next
+room: reload the gun beforehand, crouch down on entering, cause the
+archer to shoot and arrow with standing/crouching action, then use the
+gun. Jump and then right.
+
+TWO-MOON'S SON
+At the foot of the peak, save and then climb the mountainside to the
+level of the sticks. Climb and at the top fight the Condor. Take the
+papoose. Return to the mine, return to the cave using the lift. Go
+back down the mountain, pick up the silver bullet you had put down. In
+the second room in the forest, use the passage behind the large bush.
+Left, reload the gun and kill the indian using any weapon. Right, jump
+right.
+
+THE MEDALLION OF COURAGE
+Return to Chief Two-Moons and put down the papoose. Recover the
+madellion. Take canoe at the beginning of the camp, go back to the
+forest. Move back up the mountain; save in the cave and leave the cave
+by the right. Keep on going right killing all animals you encounter.
+
+IN THE KINGDOM OF THE DEAD
+Save again. passage behind the burial-place on the right. Note the
+contents of the parchment, go right, pass in front again and go to the
+right. Kill two wolves, right. To kill the lone wolf, load the gun
+with the silver bullet, take two steps to the right, then use the gun,
+shooting low. Because you have the medallion you will not be hurt by
+the great spirit; take the canoe.
+
+POWHATAN'S CAVE
+Save your position. Take the right blind alley, and climb at the
+bottom. if you take the right, kill the bear with the dynamite and the
+gun, or in the traditional way. Return to the left, and choose the
+barrel on the extreme left (move back to avoid the blast of the
+explosion); the passage of the great cross is open. Left and take the
+lift. Return to the mine, go back to the fork, then go to the back or
+return to the peak.
+
+POCAHONTA'S GOLD MINE
+Right, place the medallion in front of the chief, the passage opens,
+and thats it!
+
+End.

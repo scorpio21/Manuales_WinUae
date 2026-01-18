@@ -15,5 +15,11 @@ namespace WinFormsManual
             using var formulario = new FormManual();
             formulario.ShowDialog(this);
         }
+
+        private void botonCheatCodes_Click(object sender, EventArgs e)
+        {
+            using var formulario = new FormCheatCodes();
+            formulario.ShowDialog(this);
+        }
     }
 }

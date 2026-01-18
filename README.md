@@ -20,6 +20,14 @@ Manuales WinUAE es una aplicación de escritorio diseñada para:
 4. **Haz clic en cualquier imagen** para verla ampliada en una ventana nueva.
 5. **Usa el menú superior** para salir o acceder a más opciones.
 
+### Cheat Codes (Códigos de Trampa)
+
+1. Haz clic en **Manuales → Cheat Codes** para acceder a la base de datos.
+2. **Busca juegos** escribiendo parcialmente el nombre en el campo de búsqueda.
+3. **Selecciona un juego** para ver sus códigos de trampa formateados profesionalmente.
+4. **Haz clic en "Traducir al español"** para traducir el contenido al español.
+5. **Usa "Ver original"** para volver al texto en inglés.
+
 ### Añadir o editar manuales
 
 1. Haz clic en **Manuales → Agregar manual** para crear uno nuevo.

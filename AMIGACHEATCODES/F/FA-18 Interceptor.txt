@@ -1,0 +1,248 @@
+FA-18 INTERCEPTOR
+-----------------
+
+CHEAT/TIPS:
+
+ Select "Free Flight, No Enemy Confrontation" from the Main Menu.
+ Then select 0 instead of 1 to 4. The screen will go into a spiral and
+ scroll way south to 34 by 117 degrees, placing your plane somewhere
+ without a runway. This happens to be in the middle of Edwards Air
+ Force Base, where the F/A-18 was flight tested. To take off you have
+ to use the afterburners.
+
+ 
+ KNOWN BUGS
+ ----------
+  
+ * It is possible to 'skip' your jet over land or water as long as you
+ keep the nose fairly level and pull up right after touching the
+ surface.  If you do not pull up, the plane will bog down as if in some
+ sort of dense mud puddle and eventually come to a halt (although your
+ THRUST will not change).  There seems to be no recourse other than to
+ either bail-out or restart the mission.
+  
+ * The Flight Log contains a bug in its ability to record and keep
+ track of your Call-Sign.  Merely a nuisance, and it does not hinder
+ gameplay/simulation at all.
+  
+ * Although this is not a bug in the true sense of the word (it was
+ obviously programmed as such), there is an artificial ceiling of
+ 40,960 feet.  When this height is achieved your plane will simply hang
+ there, waiting on you to move away from the barrier.
+
+ * The same is true for the North/South/East/West boundaries in the
+ terrain.
+  
+ * Any Flight Simulator which does not support an analog joystick is
+ destined to be labeled such things as 'GAME, PURE AND SIMPLE',
+ 'UNPROFESSIONAL', 'SERIOUSLY LACKING', etc.  This is the case with
+ Interceptor, and as such it should go into the record books as being a
+ BUG of the highest magnitude.
+  
+ * It is possible to land, refuel, and rearm your jet by landing on the
+ enemies carrier/sub during the Shadow Sub mission.
+  
+ * It is impossible to land on, taxi over, or crash into any of the
+ bridges in the Bay Area.  Nor can you kill the downed pilot in the
+ Search And Rescue scenario, or destroy a parachuting rescue pod.  All
+ of these seem to be invisible as far as your plane and weapons are
+ concerned.
+  
+ * When asked to 'Press SHIFT-ESCAPE' to return to main menu, you must
+ actually press any key before that particular key-combination.  It
+ doesn't accept SHIFT-ESCAPE on the first take.
+  
+ * As far as can be determined, all missions are indeed capable of
+ being completed as per instructions except for the Shadow Sub mission,
+ which must be completed in a way that is contrary to the orders given
+ to you.
+  
+  
+ WEIRDNESS
+ ---------
+  
+ * While on the carrier, you can inch your way to the edge of the deck
+ and hang about 7/8ths of your plane over the water without falling in. 
+ Also, at SFO when Air Force One is sitting there you can inch your way
+ -onto- its tail section almost up to its midsection before 'falling
+ through' and destroying AF-1.
+  
+ * There seem to be certain instances (though I cannot reliably repeat
+ this at will) when you can bail-out of an aircraft <it crashes,
+ naturally> and as you are parachuting down choose the Control Tower
+ view at which time you find a replacement aircraft sitting on the
+ runway waiting on you.  This aircraft can indeed be flown, although
+ you will not be able to acquire a cockpit view and must fly by what
+ you can see from your parachute view and tower view.
+  
+ * In the DEMO mode, the only interaction you can achieve is firing
+ missiles when the demo arms them.  No other keypresses are
+ operational. I had hoped to find a way to exhaust the missiles before
+ the MIG was within range and see if it would shoot down the F18, but
+ as yet I don't see how this can be accomplished.
+  
+  
+ UNDOCUMENTED 'FEATURES'
+ -----------------------
+  
+ * Although the documentation states that you can use the '=' key to
+ increase throttle by one step and the '-' key to decrease throttle by
+ one step, it doesn't tell you that if you hold these keys down the
+ throttle will continue to increase/decrease in one step increments.
+  
+ * While on the ground (or carrier, or sub) and stopped, you can
+ actually go in reverse by holding down the '-' key for a moment.
+  
+ * You can 'bump' into buildings and other stationary objects without
+ crashing if you do so only at low speeds.  Once thrust is increased to
+ a certain point while up against an object, you will crash.
+  
+ * The program seems to run fine on a 68010/68020 equipped Amiga.
+  
+ * All of the VIEW MODE keys (1,2,3,4,5,6,7,8,9,and decimal point) work
+ just as well when parachuting.
+  
+ * The ZOOM KEYS (left and right brackets) work just as well while in
+ MAP VIEW or in the TOWER VIEW.
+  
+ * While in TOWER VIEW, your viewpoint will change dependent on the
+ plane or parachute position.  It automatically pans around in
+ reference to the plane/parachute, much like a camera follows its
+ subject.
+  
+ * The RANGE MARKER in the AIMING RETICLE located on the Heads-Up
+ Display (HUD) works thusly:  It starts at the 11:00 position, which
+ indicates that the enemy is 10 or more miles away.  As the targeted
+ enemy approaches your plane, the range marker will rotate
+ counter-clockwise around the reticle.  At the 12:00 position, the
+ enemy is extremely close to you.
+  
+ * A very nice feature of the radar, which many haven't caught onto
+ yet, is that when other planes are below your altitude they will be
+ one (1) screen pixel wide.  When they are above your altitude, they
+ become two (2) pixels wide.
+  
+  
+ NIFTY ENHANCEMENTS
+ ------------------
+  
+ * There is a file called LACE.EXE floating around in the public domain
+ which runs well along with Interceptor and improves its appearance by
+ filling in every other screen line, much like interlace but keeping
+ the same screen dimensions.  If you usually boot Interceptor from its
+ own disk, do the following:  
+     1) Copy LACE.EXE to the root of the Interceptor disk  
+
+     2) Copy the RUN command from your WorkBench C directory to the
+ Interceptor C directory  
+
+     3) Use a text editor or word processor and alter the
+ STARTUP-SEQUENCE located in the S directory of the Interceptor disk to
+ include the line - RUN LACE.EXE - directly after it says BINDDRIVERS  
+
+     4) Save the altered STARTUP-SEQUENCE back to its S directory.
+  
+ * Interceptor can be run from your standard WorkBench screen in a
+ number of ways (see the next tip for running it from a hard-drive). 
+ The first way is the simplest.  Remove your WorkBench disk from DF0:
+ and place it into another drive.  Place Interceptor into DF0:, open up
+ the disk, click on the files icon, away you go.  Apparently, the
+ program has a nagging need to find what it wants on DF0: and does not
+ use standard AmigaDOS volume names as reference.  The second method is
+ more permanent in nature, and should not be accomplished unless you
+ know what the heck I am talking about or what the heck you are doing. 
+ Using a COPY of your Interceptor disk, run a disk editor (or text
+ editor that can deal with binary files and has search/replace options)
+ on the main Interceptor file.  Search for all occurances of DF0: and
+ replace them with DF1: or DF2:, depending on where you will run the
+ program from in the future.
+  
+ * For hard-drive booting of Interceptor, again do not attempt this if
+ you know not of what I am talking about here...  The first method is
+ to do basically that which is outlined above, but replace all
+ occurances of DF0: with DH0: (or whatever your drive is designated
+ as).  This would mean, however, that your Interceptor files would need
+ to be on your hard-drives root directory.  Hardly what most would want
+ to do.  The alternative is to copy Interceptor to any subdirectory you
+ wish (lets say, GAMES), use the disk editor to change all occurances
+ of DF0: with any logical device designation that you choose (for
+ instance INT:), and then ASSIGN that logical device to the
+ subdirectory of your hard-drive (or use XICON to make the assignation
+ for you automatically every time you click the Interceptor icon).
+  
+  
+ FUN-STUFF, HINTS, TIPS
+ ----------------------
+  
+ * Use the 'TRAINING - PRACTICE MANEUVERS' scenario in order to hone
+ your cannon-firing abilities.  Although you cannot actually fire
+ weapons in this mode, it does a lot of good to follow your flight
+ instructor around and try to keep him in your aiming reticle.  Click
+ the button to make him evade you, and try to stay within gun range
+ from him.
+  
+ * Want to try and set a land speed record?  Use the 'NO ENEMY
+ CONFRONTATION' scenario and choose to take-off from SFO or Moffett
+ Field.  Taxi your plane onto any of the longer Bay Area highways (like
+ 101 for instance) and kick in the afterburners.  If you don't pick up
+ the planes nose you can really put a Ferrarri to shame!  Try to keep
+ your plane on the highway as long as possible.  Also try driving this
+ way while using an outside-rear view or an outside-overhead view.
+  
+ * The Electronic Arts building (actually it is the northernmost of the
+ two twin buildings) is located just west of the San Mateo bridge in a
+ gray 'plaza' (much of which is really parking lot).  Not shown is the
+ gorgeous fountain located between the two buildings.  <shucks>  By the
+ way, for those wondering... the large black building in downtown San
+ Francisco is the Bank Of America building (right next to the
+ TransAmerica pyramid).  The island right off the coast of the city
+ which has two towers and a low building in between them is Alcatraz. 
+ The island which is in the center of the Bay Bridge (joining Oakland
+ and San Francisco) is Yerba Buena (and the Coast Guard's Treasure
+ Island).  The mountain located on the Marin County side of the Golden
+ Gate Bridge is called Mount Tamalpais.  (Complete sightseeing tours on
+ request)
+  
+ * It is possible to acquire a good close-up look at one of the MIG's
+ in a number of ways.  I do it the Air Force One scenario.  Follow AF-1
+ to SFO and land alongside it without engaging any of the MIG's which
+ follow you in.  Taxi around the runway and keep a close eye on the
+ enemy planes.   Usually if they shoot at you while you are on the
+ ground, their missiles will explode next to you harmlessly (an
+ interesting sight by the way).  Wait until you see one or both of the
+ MIG's come so low that they get bogged down in the water next to the
+ runway or on land nearby.  Taxi on over to them (or as close as
+ possible if they are in the water and use your ZOOM keys) and give em
+ a thorough inspection.
+  
+ * For an interesting visual effect, take off from the aircraft carrier
+ and head west (direction really makes no difference).   Go out about
+ 10 miles and come to about 170 feet.  Turn around and head directly at
+ the carriers tower, and arm your AMRAAM missiles.  Hit the SHIFT-ENTER
+ key combination in order to get a Control Tower view.  As you see
+ yourself approaching the tower *from* the tower, let loose a few
+ missiles.  If you think you are going to hit the tower, pull up or to
+ the side and watch your plane as it passes by the tower.  Your tower
+ view will follow your flight path rather nicely.  (You may also ZOOM
+ in/out.)
+  
+ * Another interesting visual effect... take off from SFO and head
+ straight for San Francisco at about 15 feet.  Acquire an OUTSIDE
+ BELOW-PLANE view using the decimal key and watch as you pass (and/or
+ crash into) the downtown buildings.  Try and circle the city using
+ only this view.
+  
+ * Something which has been occupying a lot of my Interceptor
+ flight-time is precision parachuting drills.  I head for a target
+ (like the Transamerica pyramid), take an OUTSIDE-ABOVE view with the
+ ZOOM all the way out, and try to bail-out at the precise moment so as
+ to land atop the buildings pinnacle (no easy task).  Even if you miss,
+ you can treat yourself to some spectacular close-ups of the target
+ using your view keys as you parachute down.  Other 'chuting targets of
+ interest:  The E.A. building, any of the bridges, the carriers tower,
+ the Bank Of America building, Alcatraz Island, and the downed pilot!
+  
+ * Want to take a close look at the rescue pod?  Go to about 40,000
+ feet and eject it.  Turn around and make some close fly-bys.  Or go to
+ a clear land mass and let it loose while at low-altitude, then turn
+ around and land near it.

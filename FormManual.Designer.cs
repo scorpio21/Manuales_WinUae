@@ -17,6 +17,7 @@ namespace WinFormsManual
         private ToolStripMenuItem menuSalir;
         private ToolStripMenuItem menuManuales;
         private ToolStripMenuItem menuAgregarManual;
+        private ToolStripMenuItem menuCheatCodes;
 
         private void InitializeComponent()
         {
@@ -33,6 +34,7 @@ namespace WinFormsManual
             menuSalir = new ToolStripMenuItem();
             menuManuales = new ToolStripMenuItem();
             menuAgregarManual = new ToolStripMenuItem();
+            menuCheatCodes = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)imagenPaso).BeginInit();
             SuspendLayout();
 
@@ -88,7 +90,7 @@ namespace WinFormsManual
             etiquetaIndiceImagen.Text = string.Empty;
 
             // Menú principal
-            menuPrincipal.Items.AddRange(new ToolStripItem[] { menuArchivo, menuManuales });
+            menuPrincipal.Items.AddRange(new ToolStripItem[] { menuArchivo, menuManuales, menuCheatCodes });
             menuPrincipal.Location = new System.Drawing.Point(0, 0);
             menuPrincipal.Name = "menuPrincipal";
             menuPrincipal.Size = new System.Drawing.Size(784, 24);
@@ -107,6 +109,10 @@ namespace WinFormsManual
             // Opción "Agregar manual"
             menuAgregarManual.Text = "Agregar manual";
             menuAgregarManual.Click += botonAgregarManual_Click;
+
+            // Menú "Cheat Codes" (ahora es un menú principal)
+            menuCheatCodes.Text = "Cheat Codes";
+            menuCheatCodes.Click += menuCheatCodes_Click;
 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;

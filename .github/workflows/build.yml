@@ -44,6 +44,22 @@ jobs:
           dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true
           /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
 
+      - name: Copiar datos dentro de win-x64-singlefile
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $dest = Join-Path $env:GITHUB_WORKSPACE 'publish\win-x64-singlefile'
+
+          if (!(Test-Path $dest)) { throw "No existe: $dest" }
+
+          Copy-Item -Path "img" -Destination (Join-Path $dest "img") -Recurse -Force
+          Copy-Item -Path "AMIGACHEATCODES" -Destination (Join-Path $dest "AMIGACHEATCODES") -Recurse -Force
+          Copy-Item -Path "AMIGACHEATCODES_ES" -Destination (Join-Path $dest "AMIGACHEATCODES_ES") -Recurse -Force
+
+          if (Test-Path "manuales.json") {
+            Copy-Item -Path "manuales.json" -Destination (Join-Path $dest "manuales.json") -Force
+          }
+
       - name: Build installer (Inno Setup)
         shell: pwsh
         run: |
@@ -80,11 +96,23 @@ jobs:
           $version = "${{ env.RELEASE_VERSION }}"
           Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
 
+          $outPortable = "publish/Manuales_WinUAE_${version}_Portable.zip"
+          if (Test-Path $outPortable) { Remove-Item $outPortable -Force }
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath $outPortable
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: ManualesWinUAE_win-x64_singlefile
           path: publish/ManualesWinUAE_*_win-x64_singlefile.zip
+
+      - name: Upload portable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Portable
+          path: publish/Manuales_WinUAE_*_Portable.zip
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Upload installer artifact (if exists)
         if: ${{ always() }}
@@ -126,6 +154,7 @@ jobs:
           body_path: CHANGELOG_RELEASE.md
           files: |
             publish/ManualesWinUAE_*_win-x64_singlefile.zip
+            publish/Manuales_WinUAE_*_Portable.zip
             publish/*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}

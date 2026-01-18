@@ -100,6 +100,14 @@ namespace WinFormsManual
             Close();
         }
 
+        private void menuCheatCodes_Click(object sender, EventArgs e)
+        {
+            Hide(); // Ocultar la ventana del manual
+            using var formulario = new FormCheatCodes();
+            formulario.ShowDialog(); // Mostrar como diálogo modal
+            Show(); // Mostrar nuevamente la ventana del manual
+        }
+
         private void CargarImagenActual()
         {
             if (_pasoActual == null)

@@ -1,5 +1,53 @@
 # Changelog
 
+## v0.1.6 - Cheat Codes Profesional con Traducción
+
+- **Nueva interfaz profesional para Cheat Codes**:
+  - Diseño moderno con WebBrowser y formato HTML profesional
+  - Gradiente de fondo, tarjetas blancas y sombras elegantes
+  - Tipografía Segoe UI y paleta de colores coherente
+  - Formateo inteligente de contenido (títulos, códigos, tips)
+- **Sistema de traducción avanzado**:
+  - Traducción al español con API MyMemory
+  - División inteligente de textos largos en fragmentos
+  - Limpieza de caracteres problemáticos
+  - Verificación de traducciones válidas
+  - Manejo robusto de errores y fallbacks
+- **Mejoras de portabilidad**:
+  - Rutas relativas usando `Application.StartupPath`
+  - Verificación automática de carpeta AMIGACHEATCODES
+  - Mensaje de error claro si no se encuentran los cheat codes
+  - Instrucciones detalladas para el usuario
+- **Características técnicas**:
+  - Búsqueda instantánea mejorada con puntuación
+  - Placeholder en campo de búsqueda
+  - Botones modernos con estilo flat
+  - Toggle entre original/traducción
+- **Experiencia de usuario mejorada**:
+  - Mensaje de bienvenida informativo
+  - Indicadores de estado en traducción
+  - Notas informativas sobre traducciones por fragmentos
+  - Deshabilitado controles si no hay cheat codes
+
+## v0.1.5 - Visualizador de Cheat Codes
+
+- **Nueva funcionalidad de Cheat Codes**:
+  - Nuevo botón "Cheat Codes" en el formulario principal para acceder a la base de datos de códigos de trampa.
+  - Nuevo formulario `FormCheatCodes` con interfaz completa para visualizar códigos:
+    - Campo de búsqueda para filtrar juegos por nombre en tiempo real.
+    - Lista de juegos disponibles cargada desde `AvailableCheatCodes.ini`.
+    - Panel de contenido que muestra los códigos de trampa del juego seleccionado.
+    - Búsqueda automática de archivos TXT en todas las carpetas (A-Z y 0).
+  - **Características técnicas**:
+    - Carga de más de 1000 juegos desde la base de datos de FS-UAE.
+    - Búsqueda instantánea mientras escribes.
+    - Visualización de contenido de archivos TXT con formato preservado.
+    - Manejo de errores robusto para archivos no encontrados.
+- **Mejoras de interfaz**:
+  - Diseño responsive con panel izquierdo para búsqueda/lista y panel derecho para contenido.
+  - Botón "Cerrar" para volver al menú principal.
+  - Tamaño mínimo de ventana para asegurar buena experiencia de usuario.
+
 ## v0.1.4 - Ampliación de imágenes al hacer clic
 
 - **Nueva funcionalidad de ampliación de imágenes**:

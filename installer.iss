@@ -2,7 +2,9 @@
 ; Requires Inno Setup 6.x
 
 #define MyAppName "Manuales WinUAE"
-#define MyAppVersion "0.1.4"
+#ifndef MyAppVersion
+ #define MyAppVersion "0.1.6"
+#endif
 #define MyAppPublisher "scorpio21"
 #define MyAppExeName "Manuales_WinUAE.exe"
 
@@ -37,6 +39,12 @@ Source: "{#PublishDir}\\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversio
 
 ; Carpeta img con todas sus subcarpetas y archivos (dentro del repositorio/proyecto)
 Source: "img\\*"; DestDir: "{app}\\img"; Flags: recursesubdirs createallsubdirs ignoreversion
+
+; Carpeta AMIGACHEATCODES con todas las subcarpetas y archivos de cheat codes
+Source: "AMIGACHEATCODES\\*"; DestDir: "{app}\\AMIGACHEATCODES"; Flags: recursesubdirs createallsubdirs ignoreversion
+
+; Carpeta AMIGACHEATCODES_ES con todas las subcarpetas y archivos de cheat codes en español
+Source: "AMIGACHEATCODES_ES\\*"; DestDir: "{app}\\AMIGACHEATCODES_ES"; Flags: recursesubdirs createallsubdirs ignoreversion
 
 [Icons]
 Name: "{group}\\{#MyAppName}"; Filename: "{app}\\{#MyAppExeName}"
