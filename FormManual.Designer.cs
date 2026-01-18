@@ -18,6 +18,8 @@ namespace WinFormsManual
         private ToolStripMenuItem menuManuales;
         private ToolStripMenuItem menuAgregarManual;
         private ToolStripMenuItem menuCheatCodes;
+        private ToolStripMenuItem menuCheatCodesAbrir;
+        private ToolStripMenuItem menuCheatDocumentacion;
 
         private void InitializeComponent()
         {
@@ -35,6 +37,8 @@ namespace WinFormsManual
             menuManuales = new ToolStripMenuItem();
             menuAgregarManual = new ToolStripMenuItem();
             menuCheatCodes = new ToolStripMenuItem();
+            menuCheatCodesAbrir = new ToolStripMenuItem();
+            menuCheatDocumentacion = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)imagenPaso).BeginInit();
             SuspendLayout();
 
@@ -112,7 +116,13 @@ namespace WinFormsManual
 
             // Menú "Cheat Codes" (ahora es un menú principal)
             menuCheatCodes.Text = "Cheat Codes";
-            menuCheatCodes.Click += menuCheatCodes_Click;
+            menuCheatCodes.DropDownItems.AddRange(new ToolStripItem[] { menuCheatCodesAbrir, menuCheatDocumentacion });
+
+            menuCheatCodesAbrir.Text = "Cheat Codes";
+            menuCheatCodesAbrir.Click += menuCheatCodes_Click;
+
+            menuCheatDocumentacion.Text = "Documentación";
+            menuCheatDocumentacion.Click += menuCheatDocumentacion_Click;
 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;

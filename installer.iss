@@ -3,7 +3,7 @@
 
 #define MyAppName "Manuales WinUAE"
 #ifndef MyAppVersion
- #define MyAppVersion "0.1.7"
+ #define MyAppVersion "0.1.8"
 #endif
 #define MyAppPublisher "scorpio21"
 #define MyAppExeName "Manuales_WinUAE.exe"
@@ -48,6 +48,9 @@ Source: "AMIGACHEATCODES_ES\\*"; DestDir: "{app}\\AMIGACHEATCODES_ES"; Flags: re
 
 ; Nueva estructura: Docs\Cheat con AMIGACHEATCODES y AMIGACHEATCODES_ES
 Source: "Docs\\Cheat\\*"; DestDir: "{app}\\Docs\\Cheat"; Flags: recursesubdirs createallsubdirs ignoreversion
+
+; Documentación: Docs\Manuales con AMIGADOCS y AMIGADOCS_ES
+Source: "Docs\\Manuales\\*"; DestDir: "{app}\\Docs\\Manuales"; Flags: recursesubdirs createallsubdirs ignoreversion skipifsourcedoesntexist
 
 [Icons]
 Name: "{group}\\{#MyAppName}"; Filename: "{app}\\{#MyAppExeName}"

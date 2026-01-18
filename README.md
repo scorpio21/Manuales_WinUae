@@ -22,11 +22,18 @@ Manuales WinUAE es una aplicación de escritorio diseñada para:
 
 ### Cheat Codes (Códigos de Trampa)
 
-1. Haz clic en **Manuales → Cheat Codes** para acceder a la base de datos.
+1. Haz clic en **Cheat Codes → Cheat Codes** para acceder a la base de datos.
 2. **Busca juegos** escribiendo parcialmente el nombre en el campo de búsqueda.
 3. **Selecciona un juego** para ver sus códigos de trampa formateados profesionalmente.
 4. **Haz clic en "Traducir al español"** para traducir el contenido al español.
 5. **Usa "Ver original"** para volver al texto en inglés.
+
+### Documentación
+
+1. Haz clic en **Cheat Codes → Documentación**.
+2. **Busca documentos** escribiendo parcialmente el nombre en el campo de búsqueda.
+3. **Selecciona un documento** para visualizar su contenido.
+4. Puedes alternar entre **Inglés** y **Español** desde el selector de idioma.
 
 ### Añadir o editar manuales
 
@@ -56,18 +63,36 @@ Docs/
     └── AMIGACHEATCODES_ES/ # Cheat codes en español
 ```
 
-### Estructura Antigua (Con Soporte de Compatibilidad)
-
-```text
-AMIGACHEATCODES/     # Cheat codes en inglés
-AMIGACHEATCODES_ES/ # Cheat codes en español
-```
-
 **Comportamiento:**
 
 - La aplicación buscará primero la nueva estructura (`Docs\Cheat\`).
 - Si no existe, hará fallback a la estructura antigua (carpetas en la raíz).
 - Esto garantiza compatibilidad con instalaciones existentes.
+
+## Estructura de Carpetas de Documentación
+
+La aplicación soporta dos estructuras de carpetas para la documentación:
+
+### Nueva Estructura (Recomendada) - Documentación
+
+```text
+Docs/
+└── Manuales/
+    ├── AMIGADOCS/     # Documentación en inglés
+    └── AMIGADOCS_ES/ # Documentación en español
+```
+
+### Estructura Antigua (Con Soporte de Compatibilidad) - Documentación
+
+```text
+AMIGADOCS/     # Documentación en inglés
+AMIGADOCS_ES/ # Documentación en español
+```
+
+**Comportamiento:**
+
+- La aplicación buscará primero la nueva estructura (`Docs\Manuales\`).
+- Si no existe, hará fallback a la estructura antigua (carpetas en la raíz).
 
 ## Descripción
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.1.8 - Documentación (Docs\\Manuales) + Menú actualizado
+
+- **Nuevo menú**:
+  - `Cheat Codes` ahora incluye:
+    - `Cheat Codes` (existente)
+    - `Documentación` (nuevo)
+- **Nueva pantalla de Documentación**:
+  - Nuevo formulario `FormDocumentacion`.
+  - Lista documentos `.txt` desde `Docs\\Manuales\\AMIGADOCS` / `Docs\\Manuales\\AMIGADOCS_ES`.
+  - Selector de idioma (Inglés/Español).
+  - Fallback a estructura antigua (`AMIGADOCS` / `AMIGADOCS_ES`) si existe.
+- **Instalador**:
+  - Incluye `Docs\\Manuales` para distribuir la documentación junto a la app.
+
 ## v0.1.7 - Cheat Codes en Docs\\Cheat + Instalador/CI actualizados
 
 - **Reorganización de Cheat Codes**:

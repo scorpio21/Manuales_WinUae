@@ -8,6 +8,7 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
 using System.Threading.Tasks;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace WinFormsManual
@@ -27,9 +28,33 @@ namespace WinFormsManual
         public FormCheatCodes()
         {
             InitializeComponent();
+            EstablecerIconoFormulario();
             CargarJuegosDisponibles();
             ConfigurarPlaceholder();
             MostrarMensajeBienvenida();
+        }
+
+        private void EstablecerIconoFormulario()
+        {
+            try
+            {
+                var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+                var rutaBase = Path.Combine(baseDir, "img", "logo");
+
+                if (!Directory.Exists(rutaBase))
+                {
+                    rutaBase = Path.Combine(baseDir, "..", "..", "..", "..", "..", "img", "logo");
+                }
+
+                var rutaIcono = Path.GetFullPath(Path.Combine(rutaBase, "logo-multires.ico"));
+                if (File.Exists(rutaIcono))
+                {
+                    Icon = new Icon(rutaIcono);
+                }
+            }
+            catch
+            {
+            }
         }
 
         private void MostrarMensajeBienvenida()

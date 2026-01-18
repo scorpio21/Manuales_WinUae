@@ -108,6 +108,14 @@ namespace WinFormsManual
             Show(); // Mostrar nuevamente la ventana del manual
         }
 
+        private void menuCheatDocumentacion_Click(object sender, EventArgs e)
+        {
+            Hide();
+            using var formulario = new FormDocumentacion();
+            formulario.ShowDialog();
+            Show();
+        }
+
         private void CargarImagenActual()
         {
             if (_pasoActual == null)
