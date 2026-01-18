@@ -135,7 +135,7 @@ jobs:
           $start = $match.LineNumber - 1
           $rest = $changelog[$start..($changelog.Length-1)]
 
-          $nextHeaders = $rest | Select-String '^## v' -SimpleMatch | Select-Object -Skip 1 | Select-Object -First 1
+          $nextHeaders = $rest | Select-String '^##\s+v' | Select-Object -Skip 1 | Select-Object -First 1
           if ($nextHeaders) {
             $endIndex = $nextHeaders.LineNumber - 2
             $slice = $rest[0..$endIndex]
