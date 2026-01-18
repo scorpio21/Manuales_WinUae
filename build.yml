@@ -1,0 +1,174 @@
+name: build-and-release
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Versión (ej. 0.1.1)'
+        required: true
+        default: '0.1.0'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      RELEASE_VERSION: ${{ github.event.inputs.version || '0.1.0' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install Inno Setup (Chocolatey)
+        shell: pwsh
+        run: |
+          choco install innosetup -y
+
+      - name: Restore
+        run: dotnet restore
+        working-directory: .
+
+      - name: Publish single-file win-x64
+        run: >
+          dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true
+          /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
+
+      - name: Copiar datos dentro de win-x64-singlefile
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $dest = Join-Path $env:GITHUB_WORKSPACE 'publish\win-x64-singlefile'
+
+          if (!(Test-Path $dest)) { throw "No existe: $dest" }
+
+          Copy-Item -Path "img" -Destination (Join-Path $dest "img") -Recurse -Force
+          if (Test-Path "AMIGACHEATCODES") {
+            Copy-Item -Path "AMIGACHEATCODES" -Destination (Join-Path $dest "AMIGACHEATCODES") -Recurse -Force
+          }
+          if (Test-Path "AMIGACHEATCODES_ES") {
+            Copy-Item -Path "AMIGACHEATCODES_ES" -Destination (Join-Path $dest "AMIGACHEATCODES_ES") -Recurse -Force
+          }
+          
+          # Copiar nueva estructura Docs\Cheat si existe
+          if (Test-Path "Docs\Cheat") {
+            Copy-Item -Path "Docs\Cheat" -Destination (Join-Path $dest "Docs\Cheat") -Recurse -Force
+          }
+
+          # Copiar Docs\Manuales si existe
+          if (Test-Path "Docs\Manuales") {
+            Copy-Item -Path "Docs\Manuales" -Destination (Join-Path $dest "Docs\Manuales") -Recurse -Force
+          }
+
+          if (Test-Path "manuales.json") {
+            Copy-Item -Path "manuales.json" -Destination (Join-Path $dest "manuales.json") -Force
+          }
+
+      - name: Build installer (Inno Setup)
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path publish | Out-Null
+
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) {
+            Write-Host "##[warning] Inno Setup no encontrado en $iscc"
+            exit 0
+          }
+
+          Write-Host "##[info] Usando Inno Setup en: $iscc"
+          & $iscc /ver
+
+          Write-Host "##[info] Compilando instalador..."
+          Set-Location $env:GITHUB_WORKSPACE
+
+          $outputDir = Join-Path $env:GITHUB_WORKSPACE 'publish'
+          $version = "${{ env.RELEASE_VERSION }}"
+          & $iscc "/Sspawn=0" "/V=1" "/DMyAppVersion=$version" "/O$outputDir" "$env:GITHUB_WORKSPACE\installer.iss"
+
+          $installer = Get-ChildItem -Path $outputDir -Filter *.exe -Recurse | Select-Object -First 1
+          if ($installer) {
+            Write-Host "##[info] Instalador generado: $($installer.FullName)"
+          } else {
+            Write-Host "##[warning] No se encontró el instalador generado"
+            Get-ChildItem -Path $outputDir -Recurse | Format-Table FullName | Out-String | Write-Host
+          }
+
+      - name: Archive artifact (zip)
+        shell: pwsh
+        run: |
+          New-Item -Force -ItemType Directory -Path publish | Out-Null
+          $version = "${{ env.RELEASE_VERSION }}"
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath "publish/ManualesWinUAE_${version}_win-x64_singlefile.zip"
+
+          $outPortable = "publish/Manuales_WinUAE_${version}_Portable.zip"
+          if (Test-Path $outPortable) { Remove-Item $outPortable -Force }
+          Compress-Archive -Force -Path publish/win-x64-singlefile/* -DestinationPath $outPortable
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ManualesWinUAE_win-x64_singlefile
+          path: publish/ManualesWinUAE_*_win-x64_singlefile.zip
+
+      - name: Upload portable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Portable
+          path: publish/Manuales_WinUAE_*_Portable.zip
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload installer artifact (if exists)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Installer
+          path: publish/*.exe
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Preparar texto del changelog para la versión
+        if: github.event_name == 'workflow_dispatch'
+        shell: pwsh
+        run: |
+          $version = "${{ env.RELEASE_VERSION }}"
+          $changelog = Get-Content CHANGELOG.md
+          $match = $changelog | Select-String "## v$version" -SimpleMatch | Select-Object -First 1
+          if (-not $match) { throw "No se encontró entrada para v$version en CHANGELOG.md" }
+
+          $start = $match.LineNumber - 1
+          $rest = $changelog[$start..($changelog.Length-1)]
+
+          $nextHeaders = $rest | Select-String '^##\s+v' | Select-Object -Skip 1 | Select-Object -First 1
+          if ($nextHeaders) {
+            $endIndex = $nextHeaders.LineNumber - 2
+            $slice = $rest[0..$endIndex]
+          } else {
+            $slice = $rest
+          }
+
+          Set-Content -Path CHANGELOG_RELEASE.md -Value $slice
+
+      - name: Create GitHub release (manual)
+        if: github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.RELEASE_VERSION }}
+          name: Manuales WinUAE v${{ env.RELEASE_VERSION }}
+          body_path: CHANGELOG_RELEASE.md
+          files: |
+            publish/ManualesWinUAE_*_win-x64_singlefile.zip
+            publish/Manuales_WinUAE_*_Portable.zip
+            publish/*.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
