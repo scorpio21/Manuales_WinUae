@@ -1,10 +1,10 @@
 Guía: Compilar, Preparar y Regenerar Instalador (Inno Setup)
 
 Proyecto: Manuales WinUAE (WinForms .NET 8)
-Ejecutable principal: WinFormsManual.exe
-Versión instalador: 0.1.0
-Carpeta del proyecto: d:\xampp\htdocs\Manual_Winuae\WinFormsManual
-Carpeta de imágenes compartidas: d:\xampp\htdocs\Manual_Winuae\img\...
+Ejecutable principal: Manuales_WinUAE.exe
+Versión instalador: 0.1.8
+Carpeta del proyecto: d:\xampp\htdocs\Manuales_WinUae
+Carpeta de imágenes compartidas: d:\xampp\htdocs\Manuales_WinUae\img\...
 
 ------------------------------------------------------------
 1) Preparar cambios en imágenes y código
@@ -26,7 +26,7 @@ Carpeta de imágenes compartidas: d:\xampp\htdocs\Manual_Winuae\img\...
 
 - Verifica que el proyecto compila:
   1. Abrir PowerShell en:
-     d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+     d:\xampp\htdocs\Manuales_WinUae
   2. Ejecutar:
      dotnet build
 
@@ -35,16 +35,13 @@ Carpeta de imágenes compartidas: d:\xampp\htdocs\Manual_Winuae\img\...
 ------------------------------------------------------------
 
 Ejecutar en PowerShell desde la carpeta del proyecto:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+  d:\xampp\htdocs\Manuales_WinUae
 
 # (Opcional) limpiar publicación previa
 Remove-Item -Path .\publish\* -Recurse -Force -ErrorAction SilentlyContinue
 
 # Publicar binarios actualizados en single-file, win-x64
-dotnet publish WinFormsManual.csproj `
-  -c Release -r win-x64 --self-contained true `
-  /p:PublishSingleFile=true /p:PublishTrimmed=false `
-  -o publish/win-x64-singlefile
+dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
 
 # Copiar datos (img y Docs) dentro de win-x64-singlefile
 $ErrorActionPreference = 'Stop'
@@ -68,7 +65,7 @@ Get-Item .\publish\win-x64-singlefile\Manuales_WinUAE.exe |
   Select-Object Name, LastWriteTime, Length
 
 Salida esperada del ejecutable publicado:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\win-x64-singlefile\Manuales_WinUAE.exe
+  d:\xampp\htdocs\Manuales_WinUae\publish\win-x64-singlefile\Manuales_WinUAE.exe
 
 ------------------------------------------------------------
 3) Generar el instalador con Inno Setup
@@ -80,7 +77,7 @@ Requisitos:
   - C:\Program Files (x86)\Inno Setup 6\ISCC.exe
   - C:\Program Files\Inno Setup 6\ISCC.exe
 
-Desde d:\xampp\htdocs\Manual_Winuae\WinFormsManual:
+Desde d:\xampp\htdocs\Manuales_WinUae:
 
 $ErrorActionPreference = 'Stop'
 
@@ -89,10 +86,10 @@ $iss = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
 if (!(Test-Path $iss)) { $iss = 'C:\Program Files\Inno Setup 6\ISCC.exe' }
 
 # Compilar installer.iss y generar el .exe en .\publish
-& "$iss" '/Sspawn=0' '/V=1' "/O$pwd\publish" "$pwd\installer.iss"
+& "$iss" /Sspawn=0 /V=1 /O"$pwd\publish" "$pwd\installer.iss"
 
 Salida esperada del instalador:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\Manuales_WinUAE_0.1.0_Setup.exe
+  d:\xampp\htdocs\Manuales_WinUae\publish\Manuales_WinUAE_0.1.8_Setup.exe
 
 ------------------------------------------------------------
 3b) Crear versión portable (ZIP)
@@ -102,15 +99,13 @@ Desde la misma carpeta del proyecto:
 
 $ErrorActionPreference = 'Stop'
 
-$out = 'publish/Manuales_WinUAE_0.1.3_Portable.zip'
+$out = 'publish/Manuales_WinUAE_0.1.8_Portable.zip'
 if (Test-Path $out) { Remove-Item $out -Force }
 
-Compress-Archive -Path `
-  'publish/win-x64-singlefile/*' `
-  -DestinationPath $out -Force
+Compress-Archive -Path 'publish/win-x64-singlefile/*' -DestinationPath $out -Force
 
 Salida esperada del portable:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual\publish\Manuales_WinUAE_0.1.0_Portable.zip
+  d:\xampp\htdocs\Manuales_WinUae\publish\Manuales_WinUAE_0.1.8_Portable.zip
 
 ------------------------------------------------------------
 4) Verificar que el instalador incluya los archivos nuevos
@@ -130,7 +125,7 @@ Si falta algún archivo:
 ------------------------------------------------------------
 
 1. Ejecuta el instalador generado:
-   Manuales_WinUAE_0.1.0_Setup.exe
+   Manuales_WinUAE_0.1.8_Setup.exe
 
 2. Verifica tras instalar:
    - Que aparece el grupo de programas "Manuales WinUAE".
@@ -146,7 +141,7 @@ Si falta algún archivo:
 
 Si sospechas que el instalador o el portable llevan archivos antiguos:
 
-cd d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+cd d:\xampp\htdocs\Manuales_WinUae
 
 # Borrar publicación anterior
 Remove-Item -Path .\publish\* -Recurse -Force -ErrorAction SilentlyContinue
@@ -154,15 +149,12 @@ Remove-Item -Path .\publish\* -Recurse -Force -ErrorAction SilentlyContinue
 # Limpiar y reconstruir
 dotnet clean
 dotnet restore
-dotnet publish WinFormsManual.csproj `
-  -c Release -r win-x64 --self-contained true `
-  /p:PublishSingleFile=true /p:PublishTrimmed=false `
-  -o publish/win-x64-singlefile
+dotnet publish WinFormsManual.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64-singlefile
 
 # Regenerar instalador
 $iss = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
 if (!(Test-Path $iss)) { $iss = 'C:\Program Files\Inno Setup 6\ISCC.exe' }
-& "$iss" "/Sspawn=0" "/V=1" "/O$pwd\publish" "$pwd\installer.iss"
+& "$iss" /Sspawn=0 /V=1 /O"$pwd\publish" "$pwd\installer.iss"
 
 ------------------------------------------------------------
 Notas
@@ -173,4 +165,4 @@ Notas
   - La carpeta img\ con todas sus subcarpetas.
 - Arquitectura: x64, publicación self-contained y single-file.
 - Ejecuta siempre los comandos desde:
-  d:\xampp\htdocs\Manual_Winuae\WinFormsManual
+  d:\xampp\htdocs\Manuales_WinUae

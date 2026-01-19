@@ -68,7 +68,7 @@ namespace WinFormsManual
             // 1) Buscar primero carpeta img junto al ejecutable instalado
             var rutaImg = Path.Combine(baseDir, "img");
 
-            // 2) Si no existe (entorno de desarrollo), subir hasta Manual_Winuae/img
+            // 2) Si no existe (entorno de desarrollo), subir hasta Manuales_WinUae/img
             if (!Directory.Exists(rutaImg))
             {
                 rutaImg = Path.Combine(baseDir, "..", "..", "..", "..", "..", "img");
@@ -113,7 +113,7 @@ namespace WinFormsManual
                 // 1) Buscar primero img/logo junto al ejecutable instalado
                 var rutaBase = Path.Combine(baseDir, "img", "logo");
 
-                // 2) Si no existe (entorno de desarrollo), subir hasta Manual_Winuae/img/logo
+                // 2) Si no existe (entorno de desarrollo), subir hasta Manuales_WinUae/img/logo
                 if (!Directory.Exists(rutaBase))
                 {
                     rutaBase = Path.Combine(baseDir, "..", "..", "..", "..", "..", "img", "logo");
