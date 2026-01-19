@@ -1,0 +1,825 @@
+2-21-94
+                             Scorched Tanks V 1.75
+                                        and V 1.80
+
+                                      for the Amiga
+
+
+Copyright 1993 Michael Welch, All Rights Reserved
+
+
+Developed and Coded by
+               Michael Welch
+               
+Original Soundtrack by
+               Eric Gieseke  "Sidewinder"
+               
+               -Ari-San<Crossroad>
+               -Horizon's Edge
+               Watch for the new CD he's producing.  When it comes out,
+               it's going to be a HOT!  It's a professionally done
+               album of 100% Amiga music and from what he says, you won't
+               believe it was done on an Amiga alone.    
+               
+
+Special Thanks to:
+Sarah Bell 
+Mike & Laura Ferall
+DJ & Sarah
+Mark Posser          - Play Testing
+
+Josh Wingell         - Great Ideas
+
+John Torta           - Graphics
+
+Aaron Wald           - The Big BANG Theory
+
+Very Special Thanks goes out to:
+
+Chip Schaefer  - My very first order.  (You made my week!)
+
+Michael Boeh   - His infinite wisedom in developing Artillery games.
+                 Thanks for the Circle idea!
+
+John Harris    - Brilliant ideas, Incredible beta testing, and a good guy
+                 too.  Thank-you for all the help.
+
+Keith Zaback & friends - Ace playtesters.
+
+Peter Olafson & Tim Walsh - for putting Scorched Tanks in the...
+
+                                             ...Amiga World "Best of '93"
+                                             
+                                  
+Ryan Scott - Thank-you for the cool Turbo Plus extension.
+ editor      This well-done new product for Amos and Amos Pro is
+   of        going to be featured in future versions of Scorched Tanks
+ PLAYFIELD!  and from what I've seen of it, it's really going to power-up
+ (AMOS news  AMOS to a greater level.
+  letter)            
+
+
+This version includes:
+
+    NEW
+  ----------
+  
+  Brand new front-end    <- Lots of work went into making it.
+  New control panal      <- Ditto!
+  Original Soundtrack by Sidewinder
+  20 new weapons / 60 total
+  QUIT Button            <- Yes, the gadget you've ALL been waiting for.
+  Slider for Weaponlink  <- See!  I told you it was coming.    
+  Options screen:
+   Wind
+   Multi-terrain
+   Explosion size
+   Gravity
+   Player order
+   Custom screen sizes
+   Adjustable interest rate
+  Documentation on all weapons, shields, and options
+  New and Improved computer controlled tanks
+  13 different Shield Options 
+      -Displacer
+      -Feedback
+ ****************************** 
+ *For Registered Version 1.80:*
+ * -Load/Save game option     *
+ ******************************
+
+
+
+
+COMPATABILITY:
+
+Scorched Tanks was developed on an AMIGA 1200 with 2 Megs of Chip RAM
+ and 4 Megs of Fast RAM.  It has been tested on an Amiga 2000 with
+ 1 Meg of Chip RAM.  It has also been tested on an Amiga 500 with
+ 512k Chip RAM and 3 Megs of Fast Ram
+
+
+If your system has only 512k of Chip RAM or only 1 Meg of total RAM,
+ it is suggested that the program is loaded into the computer with as
+ much free Chip RAM as possible.
+
+
+** Because of the Chip RAM intensive nature of Scorched Tanks, it is
+   suggested that every effort to free Chip RAM before running the game
+   is tried.  Often, computers with little Chip Ram available will run
+   Scorch' in 512k Chip RAM mode.  But crashes, with an
+   "Invalid function call" while using certain shields or weapons, are
+   caused by the game trying to access unavailable Chip RAM.
+   I've only seen these crashes in A1000 and A500 computers with 512k Chip
+   that are running Scorch from Workbench.
+   Please let me know if you've seen these crashes under other
+   circumstances.
+  
+
+This version of Scorched Tanks has a special 512k Chip RAM mode.
+ This mode reduces the size of the playfield and
+ cuts down on the music to save Chip RAM.
+
+
+Scorched Tanks was developed using AMOS Pro and AMOS Pro Compiler.
+ This package is supposed to compile programs to work on:
+
+ A500
+ A500+
+ A600
+ A1000
+ A1200
+ A1500
+ A2000
+ A3000
+ A4000
+
+Most incompatability problems are memory related.
+ Running Scorched Tanks from Workbench on a 512K Chip RAM machine
+ may not run properly.  It could run out of memory or crash.
+
+Also, some Workbench programs like Enforcer and 'screen blankers' have
+ been known to cause problems with AMOS Pro.  
+ FBL is also known to cause system failures with Scorch'.
+
+
+Programs used to develop Scorched Tanks:
+---------------------------------------
+
+AMOS Pro
+AMOS Pro Compiler
+Brilliance!
+PixMate
+Final Copy 2
+Directory Opus 4.1
+DSS8+
+Edge  <- Thank-you INOVAtronics.  It's a very nice text editor which 
+         I used to 'edit' this Doc file.  Excellent product.
+
+
+INTRODUCTION:
+
+Scorched Tanks is a tank warfare game where 1 to 4 human players or
+ computer controlled opponents, take turns at buying fancy weapons
+ and shooting them at each other.  The more damage a player causes
+ another, the more money they get.  The more money a player receives, the
+ larger the weapons they can buy.  This is a very simple concept, but
+ extreemly addictive!
+
+Scorched Tanks is related to a very popular game called
+ Scorched Earth on MS-Dos machines.  I've only played Scorched Earth maybe
+ five times ever.  But it impressed me so much that I decided that the
+ Amiga needed a version too.  Scorched Tanks is very similar yet VERY
+ different to the MS-Dos game.
+
+
+'Tanks innovates where 'Earth and other look-a-likes leave off.
+ 
+It's simple to understand, yet complex enough to be challenging.
+
+The gameplay and interface are so easy to understand, an 8 year old can pick
+ it up in no time.  It was tested on a group of little kids.  They spent
+ two hours screaming and jumping around as they blew-up each others
+ computer tanks.  Basically it's simple to learn and the interface's 
+ layout doesn't take away from the game.
+
+The graphics and music try to add the, all important, Amiga feel
+ to the game.
+
+It draws people that hate computers.
+ (Only if you can force them to look at the screen!)
+
+
+--------------------------------------------
+
+(* Anytime during game, hit [CTRL]-C to Quit game or
+   [LEFT AMIGA]-A to toggle between Workbench and Scorched Tanks.)
+
+
+START OF GAME:
+
+ In the beginning.......
+ 
+    There is the new front end.
+    If you have enough Chip Ram, some really great music comes on and
+    a panal of buttons and gadets slide onto the screen.
+    
+    Each player has its own 'box' to edit the way it plays the game.
+    Human player:
+      Icon of person running
+      Panal to edit players name
+      Slider to change the amout of money there is to start with
+    Computer player:
+      Icon of computer chip.
+      Also a panal to edit players name.
+      Sliders to change Computer players IQ:
+        -Stupid or Smart 
+        -Offensive or Defensive
+        
+    Load Game - Loads game on the registered version.
+    
+    Options - Loads option screen for customizing Scorch'.
+      Wind: Off, Light, Medium, Strong
+         Different wind levels to make the game more challenging.
+      Terrain: Random, Hills, Flatlands, Gorge, Cliff
+         DIfferent terrain types with new colors to add more variety.
+      Exp. Size: Small, Standard, Large
+         Small for the die-hard sharp shooters and
+         Large for the mass-destruction maniacs.
+      Gravity: Low, Medium, High
+      Pla. Order: In Order, Losers, Winners, Random
+         In Order- Player1, Player2, Player3, Player4
+         Losers- Losers of previous round go first
+         Winners- Winners of previous round go first
+         Random- A random shuffling of the player orders every round
+      Interest%: Ten%, Twenty%, Thirty%, Forty%, Fifty%
+         Amount of interest gained every round.
+      Screen Size: Small, Long, Tall, Full-size
+         Adjust the playfield to a desired size
+         Note: 512k Chip RAM users can not access Full-size playfields
+
+
+    Info - Displays information about current version of game.
+    
+    Rounds - You the arrows to select the number of rounds to play.
+        Note: Only the registered version allows for more than 
+              5 rounds of game play.
+              
+    Start Game - Starts the game.
+    
+    Quit - Exits game to workbench or otherwise.
+    
+    
+              
+GAMEPLAY:
+
+ Buying weapons & Shields-
+ 
+  WeaponsLink is how each player buys and sells weapons, shields, and
+  other items of use.  Choose the desired item and select buy or
+  sell.
+
+  To switch from Shields to Weapons mode, select <Weapons> or <Shields>
+  and either click [Buy] or the name itself.
+
+  Make sure to select Initial Defence before entering the battlefield.
+  Click on [Initial Defence] to select your starting shield option.
+
+  Select DONE to go to the next player.
+
+
+ Playfield-
+
+  Each player must fire at the other tanks until there is only one
+  tank left.
+  
+  Before Fireing weapons, remember to set angle, power, and desired 
+  weapon before clicking FIRE.
+
+  Other options available during a players turn are:
+
+  Scanner- Click in scanner window to adjust view screen or to checkout
+           currently off screen areas of the playfield.
+
+  Stats-   Click on a players name to read individual stats of the player.
+           SH-Shields(0 to 99)  DA-Damage(0 to 50)
+           when hit, player first loses shields, then receives damage.
+           If damage drops to zero, player is removed so to say.
+
+  Help-    On-line help is available buy clicking [Help].
+           Clicking [Help] toggles the help option from on to off.
+
+  Use-     Only seen when in shield selection mode.
+           Click [Use] to select the sheild options you have bought.
+           
+  Save-    Saves game in the registered version
+           
+  Quit-    Exit that game and return to main screen.
+
+  Switching from Shields to Weapons Selection-
+
+           Click the up arrow to the <Shields> or <Weapons> choice.
+           If you have no shields to use, No Shields is displayed and
+           the program will keep you in Weapons mode.
+ 
+
+ End of round-
+
+  At the end of round, Bonuses are awarded and ranking for the game is
+  given.  At the end of the last round the winner of the game will be
+  announced and the game will end.
+
+  (The tie breaker is - who has the most money -)
+
+
+Good-Luck and have fun beating on your computer buddies!
+                                  (Computer controlled or otherwise)
+                                   
+
+
+
+
+Program history-
+
+V 0.10
+-------------
+-Bad joystick controlled interface
+-Nice screen scrolling
+-automatic PAL/NTSC support
+
+V 0.50
+-------------
+-Shields added
+-Mondo graphics improvement
+
+V 0.70
+-------------
+-Cool Sound effects
+-Music added
+-Most of the newer weapons added
+
+V 0.95
+-------------
+-Parachutes added
+-Lava & Liquid Nitrogen weapons added
+-Fixed bugs
+-Made to work on slow computers with at least a meg of memory
+
+V 1.00
+-------------
+-Computer controlled tanks
+-Louder BANGS
+-Scatter Shot, Firecracker, Super Zapper, And Chain Reaction added
+
+V 1.00a
+-------------
+-Improved Weapon Selector
+-Vectors used instead of Physics Equation to calculate bullets
+ MEANING Faaaaaaaaaster.   A little anyways.
+-Damage bonus display bug-fix
+
+V 1.00b
+-------------
+-Better(higher resolution) power select bar
+-Help option
+-Customizes program to available amount of memory
+
+V 1.15
+-------------
+-512k Chip support
+-Joystick control support
+-11 different Shield options (Absorbing, Reflecting, Magnetic, etc...)
+-Tank movement (Transport, Move Tank)
+-"Return to Player" speed-up
+-Hold mouse to repeat
+
+V 1.20
+-------------
+-Options screen
+  Wind
+  Multi-terrain
+  Explosion size
+  Player order
+  Adjustable interest rate
+  Customizable playfield sizes
+-Documentation on all weapons an shields
+-Weapon-> Crimson Flood
+-Improved characteristics of shields
+
+V1.75
+-------------
+-20 new weapons
+-Original soundtrack by Sidewinder
+-New Front-End
+-Improved control over computer players
+-New control panal
+-tank sliding
+-2 new shield types
+   Displacer
+   Feedback
+-Slider for Weaponlink
+-New death sequences
+-Quit buttons
+-Lots of little improvements
+
+V1.80
+-------------
+-Load/Save game option
+
+
+
+
+The Future
+----------
+I have big plans for Scorched Tanks.
+One of my biggest changes is going to be adding the Turbo Plus extension
+to Scorch'.  By doing this, the game will go much faster on a slower
+Amiga.  Other things that may happen are more music, improved graphics,
+a story-line explaining the situation, AGA support, a capture-the-flag
+game, more weapons (100 is my goal), etc...
+
+AGA update... I want AGA for Scorch' really bad but until AMOS Pro 
+supports it, my hands are tied.  As soon as AGA is available, you can
+be sure Scorched Tanks will use it soon after.  As for now, I'm pouring
+all my graphics ability into what I have now.  And don't worry, non-AGA
+Amigas will still be supported.
+
+
+
+\\\     The future is up to you       ///
+/// Let me know the game is worth it! \\\
+
+
+Updates
+-----------
+Anyone who registers this game will recieve the LATEST version of Scorch'.
+ I don't release freely distributable versions of the game very often.
+ So.... If you want More Weapons, More Options, More Everything..
+ Register.
+ Registered users will then be able to buy an upgrade to Scorch' for
+ $3.00 US.  The $3.00 covers shipping costs.
+ 
+ 
+
+
+Registering the Game:  
+ 
+ If you register V1.75, you will receive V1.80 which supports a
+ Load/Save game option and allows for more than 5 rounds to be played.
+ I only disabled those few options because I worked really hard on the 
+ Scorch' Project.  I want to share what I created.  I cut the Load/Save
+ options and the number of options so that people who play the game a lot
+ can register and get the most out of Scorch'.  If your a serious player,
+ these options are for you.
+ If your not, then you get to enjoy the game for free.
+
+ But not registering only hurts you.  The source code to Scorched Tanks was
+ corrupted and I almost didn't have the heart to restart a whole month's
+ worth of work.  If it hadn't been for the registrations I was getting from
+ all the people who truely enjoyed my game, this new version of Scorched
+ Tanks would not be playing on your Amiga.  Thank-you to everyone who has 
+ registered the game.  YOU made this possible. 
+ 
+ So register and show me that you want development to continue on this game.
+ I may need the motivation.  Besides, sending me ten dollars is one sure 
+ fire way to get your ideas heard and to make a new friend.
+ 
+   
+ I would love to get comments and ideas.  New weapons ideas and other options
+ would be great. 
+ I want Scorched Tanks to be the best it can be.  Please help me out.
+
+
+To Register, send $10.00 US to:
+
+Michael Welch
+PO Box 672
+Vestal, NY  13850
+USA
+
+
+Note: If your from Canada, please send Money Orders for US funds.
+      My credit union can't take any form of Canadian check.  Thanks.
+      
+
+
+
+
+
+***************************************************************************
+*                                                                         *
+*                   Weapon and Shield options manual                      *
+*                          for Scorched Tanks                             *
+*                                                                         *
+*   revised 2-21-94                                                       *
+*                                                                         *
+***************************************************************************
+
+Total weapons available:  60
+
+
+**********************
+
+Weapons-
+
+Single Shot:
+
+   Small weapon that does very low damage.
+   Unlimited supply.
+
+Big Shot:
+
+   Larger weapon that has large explosion and offers more damage.
+
+Trishot:
+
+   Three warheads with small but destructive capability.
+
+5 Shot:
+
+   Five warheads with large explosions and a very destructive explosion.
+   Deadly if used properly.
+
+Skipper:
+
+   Warhead that bounces 3 times, leaving an explosion with every bounce.
+   Skips are 1/2 the original vertical velocity.
+
+Super Skipper:
+
+   Like original skipper except it bounces 5 times with larger explosions.
+   Handy on the flatlands.
+
+Dirtball:
+
+   Covers area with loose dirt.
+
+Big Dirtball:
+
+   Covers area with LOTS of loose dirt.
+
+Mountain Mover:
+
+   Explosion removes dirt from area without directly causing damage to
+   surrounding tanks.
+
+Zapper:
+
+   Warhead shoots a laser at tanks that it comes within 40 pixels from.
+
+Roller:
+
+   Weapon hits ground and rolls down hill until it reaches an incline.
+
+Large Roller:
+
+   Like Roller but with MUCH larger explosion.
+
+Cruiser:
+
+   Weapons hits ground and glides over land until it hits a tank.
+
+Mega Cruiser:
+
+   Same as Cruiser but with a very large and dangerous explosion.
+
+Dirt Slinger:
+
+   Defensive weapon that throws dirt up into the air to cover tanks below.
+
+Laser:
+
+   Guidence system for SDI space satilite.
+   Fires 5 shots in the area where the tracer landed.
+
+Big Laser:
+
+   Big guns version of the laser.
+   10 shots rain from the heavens causing much more damage.
+
+Pile Driver:
+
+   Causes a very deep hole to be formed in the earth.
+
+Morph Wall:
+
+   Defensive weapon that causes wall to morph from the ground right
+   before your eyes.  Isn't technology great!
+
+Nuke:
+
+   Baby version of an extremely fatal nuclear warhead.
+
+Mega Nuke:
+
+   Very large, Very fatal, Very devistating.
+   Imediate death.
+
+Sound Blast'er:
+
+   Sonic attack.  Spreads out horizontally or attacks on flat land or
+   through small hills.
+
+Parachute:
+
+   Defensive system used to reduce damage by falling.
+
+Homing missle:
+
+   Weapon stops in mid-air over the first tank it flies over.
+   Very little damage but a sure hit.
+
+Lava:
+
+   Causes a pool of molten lava to spread out over the land.
+   Lava hardens to form rock.
+
+Liquid Nitrogen:
+
+   Same as lava but evaporates when finished.
+
+Scatter Shot:
+
+   On impact, warhead splits into five balistic warheads that spread out
+   over the surrounding land to cause local damage.
+
+Firecracker:
+
+   Weapon set off a series of small explosions in the general area of
+   impact.
+
+Supper Zapper:
+
+   Weapon that sends out a deadly laser to any tank that it comes within
+   80 pixels from.
+   Very dangerous!
+
+Chain Reaction:
+
+   Big brother to Firecracker.  Larger explosions and a little more damage.
+
+Dirt Mover:
+
+   Vertical blast that removes dirt from overhead.
+
+Cruiser Mine:
+
+   Anti-Cruiser and roller system.
+   Places a mine in area that will detonate any oncoming cruisers or
+   rollers.
+
+Teleport:
+
+   "Picks up" a tank and randomly places it somewhere else on the playfield.
+
+GroundHog:
+
+   Warhead burrows into the ground and explodes on hitting the bottom of the
+   playfield or in an attempt to resurface.
+   Good for attacks through hills.
+
+Weasel:
+
+   Upon impact, warhead burrows into the ground and digs upward in the
+   ground.  Weasel will self-destruct if it passes under a tank.
+   It also explodes when hitting the bottom of the playfield of when
+   it attempts to resurface.
+
+Move Tank:
+
+   Allows for tank movement to the left or right of current position.
+
+Laser Beam:
+
+   Fires a straight Laser beam from the tank.
+   Great for upclose battles with other tanks.
+
+Timewarp:
+
+   Weapons fires from tank three different times.
+   Large explosion but small damage.
+
+Dome Protect:
+
+   Creates a dome around the tank that issues it.
+
+Crimson Flood:
+
+   Fire and molted brimstone erupt from the ground five times.
+   Causes wide-spread destruction.
+   
+Grab Bag:
+
+   Ramdomly picks a weapon that is worth more than $4000.
+   The big question is "Which one?"  That's the chance you take.
+   
+Field Medic:
+
+   Fixes all damage caused to tank.
+   
+Tank Displacer:
+
+   Teleports the tank that is hit with this warhead.
+   
+Slingshot:
+
+   When the warhead lands, it begins rolling in the opposite direction
+   it was fired.  It's like a reverse Cruiser.
+   
+Cruball:
+
+   A Cruiser that explodes like a Dirtball.
+   My favorite "Dirty" weapon!
+   
+Homing Weasel:
+
+   It's a Weasel that stops below a tank and flies up threw the ground
+   at it.
+   
+Dirt Inverter:
+
+   A warhead that picks up the ground around the general area of impact
+   and throws it down.  Good for putting tanks 'underground.'
+   
+Self-Destruct:
+
+   Destroys your tank before another tank does and gets the money.
+   
+Molten Plastic:
+
+   A Lava style weapon that leaves reflective plastic on the ground.
+   The reflective plastic will bounce warheads back into the air.
+   
+PlastConverter:
+
+   Turns the surrounding area of impact into reflective Plastic.
+
+Defense Wall:
+
+   Builds a wall of plastic.  Used to protect your tank or to goof-up
+   someone else's shot.
+   
+Smart Bomb:
+
+   This weapon is the only bullet that will explode on contact with
+   Plastic terrain or with Reflective/Feedback shields.
+   
+Crater Maker:
+
+   Large explosion that clears away all the dirt with its explosion.
+   
+Flash Blast:
+
+   A small weapon that releases an electromacnetic blast that causes 
+   damage to tanks but doesn't damage the terrain.
+   
+Big Blast:
+ 
+   A bigger Flash Blast.
+   
+Mega Blast:
+
+   A huge Flash Blast.
+   
+Mole:
+
+   A tunneling device that digs a hole in the selected direction.
+   Good for getting under your opponents and firing up at them with
+   Groundhogs, Weasels, or Homing Weasels.
+   
+Mega Move Tank:
+
+   Moves the Tank much farther than the standard Move Tank.
+   
+Cascade:
+
+   Warhead that fires a spray of bullets into the sky and throws them
+   down to the ground in a shower of destruction.
+   (Can you tell I love this weapon!)
+
+Tracer:
+
+   A device that sets off a light where your warhead would land if you
+   fired it there.  After firing a tracer, it's the same tanks turn again.
+    
+
+
+**************
+
+Shields-
+
+
+Absorb 1 - Standard issue shield system.
+
+Absorb 2 - Absorbs 25% of damage.
+
+Absorb 3 - Absorbs 50% of damage.
+
+Reflect 1 - Reflect 50% of all bullets.
+
+Reflect 2 - Reflects 75% of all bullets and absorbs 25% of damage.
+
+Reflect 3 - Reflects 100% of all bullets hitting the shield and also
+            absorbs 50% of damage caused.
+
+Magnetic 1 - Pushes away incoming bullets.
+
+Magnetic 2 - Pushes away (much harder) incoming bullets while absorbing
+             25% of damage.
+
+Magnetic 3 - Seriously forces away incoming bullets while also
+             absorbing 50% of all damage.
+
+X-tinguisher- In a direct hit, shield neutralizes incoming weapon and
+              places it into current tanks weapon inventory.
+              Absorbs 50% of damage.
+
+Detonator - Anti-nuke shielding system.
+            Explodes Nukes and other dangerous warheads before they
+            get close enough to damage tank.
+            Absorbs 50% of damage.
+
+Displacer - Teleports warhead to a random location.
+
+Feedback - Sends warhead back in the direction it can from.
+           (Often right back to the person who fired it)      :)

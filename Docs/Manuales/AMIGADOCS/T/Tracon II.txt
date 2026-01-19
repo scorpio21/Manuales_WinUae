@@ -1,0 +1,345 @@
+                           TRACON II: AMIGA
+                               ADDENDUM
+      
+SYSTEM REQUIREMENTS
+
+Ref.: Chapter 1 - Pages 5-6
+
+TRACON II Amiga requires the following computer system:
+
+   o Amiga 500, 1000, 2000, 2500, 3000 with at least 1 Meg of Ram, NTSC
+   or PAL video modes are supported, see chapter 8 for more details on
+   selecting the correct video mode.
+   o At least one floppy drive.  Tracon II is not copy protected and may
+   be installed on a hard drive for better performance.
+   o AmigaDOS 1.2 or greater
+   o Mouse
+
+PACKAGE CONTENTS
+
+Ref.: Chapter 1 - Page 7
+
+When you open this product, you should find three basic elements:
+
+   o The main program manual and this ADDENDUM, which highlights changes
+   or additions to the manual for TRACON II Amiga.  Read both before using
+   the program.
+   o Two 3.5 disks - Program and Support.
+   o An audio cassette for a synchronized demonstration.
+
+There are no hidden files or copy protection.
+
+INSTALLING AND RUNNING TRACON II
+
+Ref.: Chapter 1 - Pages 7 - 12
+
+Before even installing TRACON II, you should read the Read.me file
+included on the Program disk.
+
+Insert the Program disk into any drive and double click on the TRACON II
+disk icon.  A window should open, and you should see two drawer icons
+labeled TRACON II and Fonts, and one project icon labeled Read.me.
+To see the Read.me file, simply double click on the icon.
+
+FLOPPY DISK SYSTEMS
+
+You will find two 3.5 distribution diskettes in the TRACON II package.
+The disk labeled Program contains the TRACON II program, some auxiliary
+files, the sector files and their associated voice files, and the scenario
+and demonstration files.  The disk labeled Support contains the main
+TRACON II voice file.
+
+To run TRACON II from floppy(s),
+
+   o insert the Program disk into your drive.  If you have more than one
+   floppy disk drive, insert the Support disk into the second drive.  
+   Than either:
+   o Reboot your computer and TRACON II will automatically start, or
+   o Double click on the TRACON II disk icon, then double click on the
+   TRACON II drawer icon.  From the TRACON II drawer, double click on
+   the TRACON II tool icon.
+
+To run a TRACON II demonstration:
+
+   From CLI (Command Line Interface - see your Amiga User's Manual):
+   o type the TRACON filename where the filename is one of the demo files
+   on the Program disk (you do not have to enter the filename extension),
+   or From Workbench:
+   o select the desired demonstration project icon by clicking on it once,
+   then
+   o Press one of the Shift keys and double click on the TRACON II tool
+   icon.  The selected demonstration filename will be passed to the program.
+
+If you are running from a single floppy system, the program will ask you
+to insert the second disk after you have started a scenario.
+
+HARD DISK SYSTEMS
+
+To install TRACON II onto your hard drive:
+  
+   o insert the program disk into any drive and
+   o double click on the TRACON II disk icon.
+
+When the window opens,
+
+   o drag the two drawers (TRACON II and Fonts) into your hard disk
+   window.
+
+The Fonts drawer must be copied onto the system partition of your hard
+drive, since TRACON II will look for its fonts in the default sys:fonts
+drawer.  The Tracon drawer can be dragged to any partition you have.
+
+You must also copy the main voice file from the Support disk into the
+TRACON II drawer that you have now created on your hard drive.
+
+To run TRACON II from your hard drive:
+
+   o double click on the TRACON II drawer icon.
+
+When the window opens:
+
+   o double click on the TRACON II tool icon.
+
+Run a demonstration file in the same manner as described above.
+
+EXITING TRACON
+
+Ref.: Chapter 1 - Page 12
+
+You can shut down TRACON II any time and exit out via the FILE menu
+Exit command.  If you are running a simulation, TRACON II will popup
+a requester showing the results of the scenario.  Clicking on OK
+will then take you out of TRACON II.
+
+QUICK REFERENCE
+
+Ref.: Chapter 1 - Page 15
+
+The Radarscope menu contains the following selections, each of which
+will control what is drawn on the screen:
+
+   Display
+                 Fix Names   Airways        Airways & Names
+                 Boundary    Ground         Compass
+                 Sweep       Radar Rings    Weather
+
+   Color... 
+                 The color requester that is attached to this menu item 
+                 will enable you to change the colors of TRACON II even as 
+                 you play.
+
+   Zoom in + 
+                 Zooms in one or two levels (2x or 3x)
+
+   Zoom out -  
+                 Zooms out one or two levels (2x or 3x)
+
+   Menu Title
+                 Allows a TRACON II screen to be pulled down for access to
+                 other screens that may be active.
+
+   Panel Buttons
+                 All Display fields (above) on the menu can also be 
+                 selected via the panel buttons, this enables or disables
+                 those buttons.
+
+   Auto Scroll
+                 Whenever a new aircraft is selected via the flightstrips,
+                 having this enabled will cause the radarscope to speed
+                 scroll until the selected aircraft is within view.  Handy
+                 for keeping track of all your aircraft when you are in 
+                 zoomed in mode.
+
+The Detail Menu contains the following selection changes:
+
+   Airport
+
+                 All airports in a currently loaded sector will be attached
+                 to the Airport menu item, and replace the dialog boxes.
+
+   Sound
+                 Pilots
+                 Pilots & controllers
+                 Noise
+
+                 These fields are now on the menus and not in a dialog box.
+
+ON-LINE HELP
+
+Ref.: Chapter 3 - Pages 18 - 19
+
+TRACON II has Online Help available via the Help key.  Pressing the Help
+key will pop up a requester showing you information about using the keyboard
+to play TRACON II.
+
+KEY      AIRCRAFT SELECTED                NO AIRCRAFT SELECTED
+
+Enter    Takeoff                          Select strip a/o
+Back     Disregard                        Cancel
+;        <<command>>; then <<command>>
++        Zoom in                          Zoom in
+-        Zoom out                         Zoom out
+F10                                       Force next update
+/        Move leader to <arrow keys>
+
+Right Amiga key + one of the following:
+
+   R    Turn right (heading)...
+   L    Turn left (heading)...
+   C    Climb and maintain...
+   D    Descend and maintain...
+   S    Change speed to...
+   N    Resume normal speed/navigation.
+   T    Cleared direct to...
+   H    Handoff to Tower or Center
+   O    Hold at
+   A    Say heading and airspeed
+
+SELECTING AIRCRAFT
+
+Ref.: Chapter 4 - Page 2
+
+The first part of each command requires that you "select an aircraft,"
+which can be done either of two ways:
+
+   1) Click once on the aircraft icon or its flightstrip.
+   2) Use the arrow keys to highlight the desired flightstrip, then press
+      Enter (Return).
+
+KEYBOARD CONTROL COMMANDS
+
+Ref.: Chapter 4 - Page 3
+
+Keyboard commands are given by holding down the Right Amiga key and
+pressing one of the following keys:
+
+Keys Command                     Cursor pad keys   Parameter
+
+R    Turn right (heading)...     Right arrow       000 or 00 degrees
+L    Turn left (heading)...      Left arrow        000 or 00 degrees
+C    Climb and maintain...       Up arrow          hundreds of feet
+D    Descend and maintain...     Down arrow        hundreds of feet
+S    Change speed to...                            knots
+N    Resume normal speed/nav.
+T    Cleared direct to...                          fix name 
+H    Handoff to Tower or Center
+O    Hold at                                       fix name
+A    Say heading and airspeed
+
+As shown above, the cursor keys are duplicate for the Turn right, Turn
+left, Climb/Descend and maintain commands.  They are used quite often
+so this is just one more way you have to control the aircraft.
+
+If you press the wrong key, the backspace key will undo it, and you can
+then repress the correct one.
+
+MOUSE CONTROL COMMANDS
+
+Chapter 4 - In addition to pages 8 - 11
+
+DIRECT...
+   If you are in the Zoomed in mode on the radarscope, a fix that you
+   might want to click on could be out of view.  Simply hold down the right
+   mouse button and scroll the radar over to the fix that you want, then
+   select it with the left mouse button as you normally would.
+
+To issue a stacked command using the mouse, press either Shift key when
+selecting the final parameter of a mouse command.  The mouse command box
+will repop and you may stack another command after the one you just 
+issued is completed.  See keyboard control commands for more information
+on stacking commands.
+
+Controlling The Simulator - Chapter 5
+
+The Airways, Fixnames, and all Display items that appeared in dialog
+boxes now appear in the pulldown menus.
+
+Colors...
+   The Colors... menu item will bring up the color requester.  Colors can
+be changed on the fly and saved from this requester.  TRACON II will
+automatically load those saved colors from the file colors.cfg if one
+is present.  Previously color values were stored in the Tracon.ini file
+and had to be edited to make the changes permanent.
+
+Zoom in and Zoom Out
+   Two levels of zoom are available in TRACON II.  Selecting Zoom in
+will make the radarscopes magnification 2x or 3x.  Selecting Zoom out
+accomplishes the reverse.  Even zoomed in at 3x, all of the radarscope
+is available for viewing since the radarscope can be scrolled in real
+time as the program runs.
+
+New features in TRACON II Amiga
+
+Airport information is available in either of two ways:
+   o Double clicking on the airport position with the right mouse button.
+   o Selecting the airport from the Detail Airport menu item.
+
+Aircraft information is available in one of three ways:
+   o Selecting Aircraft info from the Detail menu.
+   o Double clicking on the aircraft target with the right mouse
+   button, or
+   o Double clicking on the aircraft's flightstrip with the right
+   mouse button.
+
+Scrolling the radarscope is done by pressing and holding the right
+mouse button down while moving the mouse in the radarscope viewing area.
+
+Scrolling the second line of the flightstrips is available in one of two
+ways:
+   o Using the left and right arrow keys after selecting a flightstrip,
+   o Depressing and holding the right mouse button down while moving
+   the mouse back and forth over a flightstrip.
+
+TRACON.INI
+
+This file contains the following changes from the PC version:
+   o The Monitor field is now Video
+   o The two modes supported by TRACON II are NTSC_VIDEO and PAL_VIDEO.
+   NTSC_VIDEO    320x200 resolution
+   PAL_VIDEO     320x256 resolution
+   o The field Radar_Rings had been added so that the user can display
+   the radar rings independently of the sweep.
+   o Values possible are On or Off.
+   o The field SmallFont no longer exists.
+
+Three new fields have been added to complement their function via the
+RadarScope pulldown menu.
+        Menu_Title
+        Panel_Buttons
+        Auto_Scroll
+   o Values possible are On or Off.
+
+The field Voice_Data has been added to allow more control over how
+you wish the voice data to be utilized.
+   o Values possible are FromDisk or From Cache
+   A value of FromDisk means you want TRACON II to always load voice
+   data from disk each time it needs it.  This is useful if you have
+   limited memory and cannot or do not wish to keep all the voice data
+   in memory at one time.  The voice data is disposed of after is has
+   been used.  A hard disk user might also want to use this option
+   since loading voice data from the hard disk would be faster than
+   floppy.
+
+   A value of FromCache means that as the voice data are needed by the
+   program, they will be loaded, but they will not be disposed of.  So
+   as the scenario progresses, more and more voice data will be resident
+   in memory.  Accessing the voice data from memory is alot quicker than
+   from disk and makes the program run smoother.  If you have the memory,
+   this is the best way to go.     
+
+COLORS.CFG
+
+This file holds the current color selections for TRACON II.  Deleting this
+file will make TRACON II revert back to it's default color scheme.
+
+SECTORS INCLUDED WITH TRACON II Amiga
+
+The following nine sectors are included in TRACON II Amiga.  Los Angeles
+(LAX.SEC) is the default sector for the program.
+
+Boston          BOS.SEC           London         LON.SEC
+Miami           MIA.SEC           Munich         MUN.SEC
+San Francisco   SFO.SEC           Paris          PAR.SEC
+Chicago         ORD.SEC           Amsterdam      AMS.SEC
+
+THE END

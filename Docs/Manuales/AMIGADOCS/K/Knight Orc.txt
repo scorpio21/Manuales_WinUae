@@ -1,0 +1,2232 @@
+------------------------------------------------------------------------
+  KNIGHT ORC
+
+
+    By Level 9 Computing
+
+
+    Loading Instructions and Gameplay Guide
+------------------------------------------------------------------------
+Introduction
+
+In a hole in a mound there lived an orc. Not a clear, dry sandy hole
+with only spiders to catch and eat, nor yet a comfortable hobbit-hole.
+It was an orc-hole, and that means a dirty, clammy, wet hole filled with
+bits of worms and a putrid smell.
+
+It had a perfectly round garbage heap, blocking the doorway, with a
+slimy yellow blob in the exact middle for spitting practice. The doorway
+opened onto a sewer-shaped hall - a deeply unpleasant tunnel filled with
+smoke, with secret panels, and floors snared and pitted, provided with
+treacherous chairs and lots and lots of booby traps - the orc was fond
+of visitors.
+
+But what is an orc? Orcs are not seen much nowadays, since they are shy
+of human beings. They are a pungent people, little bigger than
+overweight elves, with the charisma of blow flies and the appetite of
+gannets. Orcs have little or no magic, except a rudimentary skill with
+knives and strangling cords and, in short, they are evil little pits.
+
+This orc was unusually ugly, even for an orc. His name was Grindleguts.
+
+Grindleguts had lived in the neighbourhood of The Mountain for about a
+year and most people considered him two steps lower than a tapeworm, not
+only because of the smell and the plague, but because he kept eating
+their household pets.
+
+Knight Orc follows on from the events described in "The Sign of The
+Orc". Grindleguts has been volunteered as their champion by the other
+orcs, while in a drunken stupor, and fled to a horse so that he won't
+escape, or fall off, before the Joust. Your first task, as the orc in
+question, is to live long enough to escape over the viaduct to Orc Mountain.
+
+Good luck, Grindleguts. You're going to need it...!
+
+------------------------------------------------------------------------
+Loading Instructions
+
+
+Remember to always have a formatted disc at hand to
+save your game position on. See section 6 of Game Instructions
+for more information about saving and restoring your
+game position.
+
+Each version of Knight Orc has a Menu program, which will instruct you
+in the further loading of the game (if necessary). Simply refer to the
+table below, and select the appropriate loading instructions:
+
+MACHINE                   DISC                                     
+
+Amiga 	                  Insert game disc at the Workbench prompt 	 
+Atari ST 	          Insert disc in drive and turn computer on 	 
+IBM PC and compatibles 	  Load MS-DOS and type MENU 	 
+Macintosh/Macintosh Plus  Double-click the Menu Icon 	 
+
+Loading Advice
+
+If you're having any problems loading Knight Orc into your computer,
+then try the following...
+
+
+Disc
+
+   1. Try again from the very beginning. Remove all discs and turn the
+      computer off completely and back on again.
+   2. Is the disc the right way up ? (This applies especially to Amstrads).
+   3. Load another game from disc to check that everything is connected
+      correctly.
+   4. Have you added any non-standard or peculiar hardware to the computer?
+   5. Clean the drive (following the manufacturer's instructions).
+
+Guarantee (what to do if the program doesn't work!)
+
+If you have no success in getting the program to run correctly, return
+it to Rainbird (or Firebird in the United States) without our
+packaging, and we'll replace it (if you're returning a disc, make sure
+it's safely packed!). Please include a short letter telling us exactly
+what the problem is, and what equipment your computer system comprises of.
+
+
+Software Returns Department
+Rainbird Software
+74 New Oxford Street
+LONDON
+WC1A 1PS 
+
+
+Firebird Licencees Inc.
+P.O. Box 49
+Ramsey
+New Jersey
+07446 
+
+------------------------------------------------------------------------
+Game Instructions - Commands
+
+Knight Orc understands a wide range of commands in plain English, from
+simple one or two word instructions up to complex multiple sentences.
+This chapter is split into sections describing ways in which to
+communicate with the program.
+
+
+1. Movement
+
+To move around The Land, use the following commands:
+
+
+Word            Abbrv.
+
+NORTH 	        N
+NORTHEAST 	NE
+EAST 	        E
+NORTHWEST 	NW
+SOUTH 	        S
+SOUTHEAST 	SE
+WEST 	        W
+SOUTHWEST 	SW
+UP 	        U
+DOWN 	        D
+INSIDE 	        IN
+OUTSIDE 	OUT
+CLIMB 	        -
+JUMP 	        -
+CROSS 	        -
+
+These commands take you to an adjacent location. Use the EXITS command
+if you want to know which directions are allowed (when EXITS lead in
+"all directions", this means the eight main compass directions: N, NE,
+E, SE, S, SW, W and NW).
+
+To save time, and so you don't need to draw a map, Knight Orc provides
+the commands below:
+
+FOLLOW <person> 	(e.g. FOLLOW INNKEEPER). Try to stay close to someone,
+moving when they do. Other people can be ordered to follow you as well,
+see section iii. However, they can sometimes get left a little way
+behind, because even the most loyal follower will not obey you 100% of
+the time. Either wait for them, or command them to move to the
+destination with you following them.
+
+GO TO <place> 	(e.g. GO TO CASTLE or GO TO WELL). The program works out
+the sequence of short moves needed to reach your destination (e.g. OUT,
+NE, N, NE, IN) and carries them out.
+
+RUN TO <place> 	(e.g. RUN TO INN). This is like GO TO, but does not
+print the descriptions of the places you run through.
+
+FIND <object> 	(e.g. FIND GOAT). Again, this works like GO TO and takes
+you to the place where the object is. Note that you can FIND just about
+anything. including people. moving objects and things inside containers.
+
+Of course, there is not much that the program can do if you try to FIND
+something that does not currently exist. Or if the way to your
+destination is blocked (for example. there is a Thorn Hedge around the
+tower). In such cases, the program does the best it can.
+
+
+2. Actions
+
+The majority of commands that you will use are actions, such as opening
+doors, stealing treasure and hitting dumb animals. Here are some examples:
+
+
+Command                   Comment
+
+GET THE KNIFE 	          Take a stabbing weapon for later use
+EXAMINE KNIFE 	          Stare closely at a tin-plated object
+TIE THE CORD TO THE ROPE  Fasten one thing to another
+PUT MOUSE IN THE SACK 	  Best place for it, if you ask me
+EAT THE RAT PIE 	  Delicious
+REMOVE THE TETHER 	  Untie something or take it from a container
+PUT KEY UNDER THE MAT 	  I bet you've always wanted to do this
+WEAR THE HELMET 	  Avoid headaches later on
+OPEN THE CHEST 	          There may be treasure inside it
+KICK THE FROG 	          It's smaller than you
+
+To save typing, commands can refer to more than one object, e.g.:
+
+EXAMINE THE HORSE, KNIGHT AND LANCE
+TAKE THE CLOAK AND THE KNIFE
+
+Knight Orc understands the following collective nouns:
+
+ALL, EVERYTHING, EVERYBODY, TREASURE, WEAPONS and CLOTHES
+
+Thus, you can enter things like:
+
+GIVE THE TREASURE TO THE INNKEEPER
+TAKE ALL THE CLOTHES
+EXAMINE EVERYBODY
+
+Exceptions are also understood, for example:
+
+TAKE EVERYTHING EXCEPT THE MAT
+DROP ALL THE TREASURE BUT THE GOLD BRICK AND THE GOLD FISH
+
+And you can refer to the last mentioned thing as HIM, HER or IT, e.g.:
+
+TAKE THE AXE
+EXAMINE IT
+THROW IT AT THE GREEN KNIGHT
+STEAL THE COIN AND PUT IT IN THE BUCKET
+
+You can type several commands on one line, using punctuation or AND to
+separate them if you like, though this is not usually needed, e.g.:
+
+N NE NE CROSS (Though RUN TO PLACE is better) OPEN DOOR. GO IN AND TAKE
+EVERYTHING
+
+Using the full range of command features allows you to enter
+near-English sentences of considerable complexity. More important, it
+means the game is more likely to understand what you mean.
+
+
+3. Talking to other Characters
+
+Orcs are not known for their small-talk and much prefer action to words,
+especially when that action is mindless, violent and aimed at someone
+smaller than them. So conversation is limited in this game.
+
+People can be asked about things, and a few of them may even answer you.
+One in particular is a mine of information. For example:
+
+HERMIT, TELL ME ABOUT THE KNIFE
+TROLL, TELL ME ABOUT THE RING
+
+People can be commanded to do the same sort of thing that you can do
+yourself using the full range of commands. Denzyl is the only person who
+will obey without being recruited and I leave it to you to work out how
+to make other people and creatures follow your commands. Remember that
+you can't finish the game without help. Example commands are:
+
+DENZYL, FOLLOW ME
+
+DENZYL, FIND THE WELL, TAKE EVERYTHING, FIND ME, GIVE EVERYTHING TO ME
+
+DRAGON, FLY SOUTH AND KILL GROK. THEN FOLLOW ME
+
+In some other adventure games, when you give someone a command, they go
+off and do whatever it was while you have to stand there and wait.
+Knight Orc is somewhat more realistic.
+
+If you tell Denzyl, "DENZYL, GET THE FISH, FIND ME AND GIVE THE FISH TO
+ME", he will head off to find it - moving roughly once for every move
+you make. Then you can get on with solving other puzzles, doing whatever
+you like, while Denzyl carries out his task. Eventually he will wander
+back and hand over the fish.
+
+By the end of the game, you may well have acquired a lot of followers,
+and they can all be given orders to carry out at the same time. For
+example, if you want a simultaneous attack on the vampire, you might
+enter commands as follows:
+
+TROLL, WAIT 2, IN, KILL VAMPIRE
+
+MOUSE, WAIT 1, IN, KILL VAMPIRE
+
+IN, KILL VAMPIRE
+
+Needless to say, a lot of puzzles in the later stages of Knight Orc
+require co-operation between creatures.
+
+
+4. High Level Commands
+
+Knight Orc provides a number of powerful multi-stage commands, where you
+enter a single command such as "RUN TO THE TOWER" and the program
+carries it out in stages. (The idea is that it is easier to enter one
+command that a lot of little ones.) Most of these have already been
+described above, and the full list is:
+
+FOLLOW <creature> 	Try to stay with someone. STOP FOLLOWING later.
+GO TO <place> 	        Go to the place (the program works out the route).
+RUN TO <place> 	        As "GO TO", without printing location descriptions.
+FIND <object> 	        GO TO where an object is.
+KILL <creature> 	Hit and/or pursue creature in a fight-to-the-death.
+WAIT FOR <creature> 	Wait until the creature arrives.
+WAIT FOR <number> 	Wait for the specified number of 'turns'.
+WAIT UNTIL <time> 	(Use the TIME command to learn the current time).
+
+If something unforseen happens, these commands can be paused by pressing
+SPACE. The program will ask if you want to continue: Press Y or N for
+yes or no.
+
+
+5. Magic
+
+Magic works in the Knight Orc world and there are twenty-one spells to
+learn. You'll be able to learn them in later stages of the game and will
+have to know every spell in order to finish.
+
+To learn a spell, you just need to see or hear its name. To use it, once
+learnt, enter CAST <spellname>, or CAST <spellname> AT <target>. E.g.:
+
+CAST GLOW
+CAST FIREBALL AT DRAGON
+CAST LOCATE AT RING
+
+The functions of the spells are fairly obvious from their names and the
+rest is up to you!
+
+
+6. Special Commands
+
+Knight Orc provides a number of general purpose commands:
+
+INVENTORY (INV)     What are you carrying? (Try EXAMINE ME, too.)
+SCORE 	            How badly are you doing?
+AGAIN (A) 	    Repeat the last command.
+HELP 	            This sometimes gives you a clue.
+QUIT 	            Stop the game.
+BRIEF 	            Don't report unnecessary text, e.g.: exits and shouting.
+VERBOSE 	    Report text in full.
+
+Several commands are provided to control the adventure system, rather
+than to make progress in solving the game, and these are described below.
+
+Please note that some of these facilities marked with an asterisk are
+not provided on some smaller computers and that the best way to find if
+a command is present in the version of Knight Orc for your micro, is to
+try it.
+
+* WORDS 	Turn off the pictures
+* PICTURES 	Turn them back on again.
+OOPS 	        Restore the position as it was before you last moved. OOPS (or
+                UNDO) is a very useful command and, on larger machines, it can be used
+                several times in succession to step backwards through the game.
+SAVE 	        Stores the game position on disc. Insert a formatted
+                disc, before using this command. When the SAVE has finished, stop
+                replace the Knight Orc game disc in the drive.
+RESTORE 	Loads a previously SAVEd position from disc. Enter
+                RESTORE and then answer YES as confirmation. 
+                To restore from disc, put the disc on which the position was saved in the                 drive, before using RESTORE. If you are asked for a filename                              or equivalent, enter whatever you called the position when it was SAVEd. 
+                When the RESTORE has finished, replace the Knight Orc disc in the drive.
+RAM SAVE 	Saves the game position in memory. This is quicker than
+                saving on disc, but the data is not as permanent and will be
+                lost if the computer is turned off or reset.
+RAM RESTORE 	Loads a previously RAM SAVEd position.
+
+Note: OOPS, SAVE, RESTORE, RAM SAVE and RAM RESTORE can also be entered
+in response to a YES/NO question. For example. if you have just been
+killed in the game and the program is asking if you want to play again,
+you can use one of them to return to a previous position instead.
+
+
+Picture Moving
+
+On computers such as the Amiga, Macintosh, and Atari ST, the mouse can
+be used to move the picture up and down - allowing you to choose how
+much text is visible below it. 
+
+Command Editor
+
+Some of the machines with larger memories provide a command line editor
+which keeps a copy of your previous commands and lets you edit and
+re-enter them. The command editor is controlled by the cursor keys,
+delete and backspace. and works in insert mode. Press cursor-up to
+display your previous commands: the other details are best learnt by
+trying it.
+
+------------------------------------------------------------------------
+Game Details
+
+Knight Orc is a single game, with three sections, and you must start
+with part one, Loosed Orc, and solve this before proceeding. The
+computer will display instructions on how to do this, when the time comes.
+
+Parts two and three, A Kind of Magic and Hordes of the Mountain King,
+are linked together, and you can move freely from one to the other.
+
+------------------------------------------------------------------------
+Scoring
+
+Loosed Orc
+
+The idea is to learn the adventure system and tie ropes together to make
+a single rope, long enough to use in crossing the chasm. You score
+points according to its size.
+
+A Kind of Magic and Hordes of the Mountain King
+
+Learn magic, recruit followers and escape. You score points for each
+spell learnt, each follower recruited (providing they have powers which
+complement, rather than duplicate your own), plus bonuses for solving
+the final stage of the game.
+
+------------------------------------------------------------------------
+Hints
+
+When adventurers recognise an orc, they attack.
+
+You are not likely to win many fair fights. Why not run away, or
+distract your opponent, or cheat in some other way.
+
+You can't take it with you (usually), so it's better to be poor than dead.
+
+------------------------------------------------------------------------
+Are you really stuck? Take a hint from us...
+
+Blocked by the thorn hedge? Infuriated by the Hermit? Can't recruit the
+helpers you KNOW are needed to complete this game? Don't despair!
+Although Rainbird brings you the most fiendishly devised adventures,
+we've got a heart (who writes this stuff?), so if you are really stuck
+trying to solve a seemingly unsolvable problem, fill in the Hint Request
+Form provided with this package.
+------------------------------------------------------------------------
+Credits
+
+Idea, design and text 	Pete Austin
+Game programming 	Mike Austin
+Adventure System 	Mike and Nick Austin and John Jones Steele
+Map and Testing 	Andrew Deeley
+Testing 	        Paul Coppins
+Original Paintings 	Godfrey Dowson
+Additional artwork 	Neil Strudwick and Stuart Lee
+Poster 	                Paul Human
+
+With thanks to all at Rainbird (and the Dragon, Mouse and Troll) without
+whom this game could not have been completed.
+
+------------------------------------------------------------------------
+THE SIGN OF THE ORC
+
+A short story
+by
+PETER McBRIDE
+
+© Peter McBride 1987
+
+
+Published worldwide by Rainbird Software, London, England.
+
+------------------------------------------------------------------------
+1
+
+Grok leant against the cobwebbed window frame and stared out over the
+open plain. The grasslands were sprinkled with the pink and yellow of
+spring flowers; the scattered trees sparkled with the first unfurling
+leaves; the air trilled to the sound of larks and linnets; and the sun
+shone brightly in a clear blue sky dappled with pretty little fluffy
+white clouds. A perfect spring day! So different from the year before,
+and the thirty years before that, when the plains had been bare and
+silent and shrouded in a smog so thick that day and night were as one;
+when all that was bright and good had been swept away by the forces of dark.
+
+"Cor, what a waste of thirty years!" Grok grumbled. "Must get the lads
+busy again, and get out there and devastate it."
+
+Not that there were that many of them to do much devastating. Only a
+tattered remnant had managed to stagger back to the Orc's Head Tower
+after that last battle. Home! - the Orc's Head Tower of Mount Olympus.
+The guardtower, carved out of the solid rock In the shape of a giant
+Orc's head, its fang-rimmed mouth the entrance, its empty eye sockets
+the watchwindows; this was their home. Here they had lived as soldiers
+of the Dark Lord, guarding the passages and chambers of 'is mountain
+highness and to here they had returned after 'is defeat. Here they could
+find peace and quiet in which to lick their wounds - and other revolting
+things - and to recover from the terrible ordeal of months of fresh air
+and sunlight.
+
+They had really taken a beating that last time! That great army of Orcs
+with warg cavalry at the front, Wild Men of the East on the West side
+(There's a story there as well, they made such a song and dance about
+everything; Wild Women of the West to the East; ogres, warlocks, witches
+and trolls in the middle and 'imself at the head, surrounded by 'is own
+demonic creations. They should have been able to smash anyone. And what
+had happened? Just when they needed 'im, 'imself had disappeared in a
+puff of smoke without so much as a by your leave, and left them
+stranded. The trolls had turned to stone; the wargs had turned on their
+riders and eaten them; 'is demonic creations had turned nasty and eaten
+the ogres, warlocks, etc; and the Wild Men of the East and the Wild
+Women of the West had turned to other things apart from fighting and
+headed North to have a Wild Persons party. The Orcs - more fools them -
+hadn't turned at all, and had suffered the consequences.
+
+"Oh, well," thought Grok, "at least I made it back home, and every day
+brings in a few more of us. One of these days we'll be ready to have
+another go - but no more meddling with magicians. They were a pain in
+the neck."
+
+Thinking of necks, Grok realised something was crawling across his. He
+reached back, caught a spider and scrunched on it thoughtfully. As he
+chewed, he listened to a distant sparrow and remembered the times when
+he had been an orckid out on plains duty, killing everything that moved
+- well, everything except other orckids that is - well, hardly ever
+killing other orckids, only when they got in his way, or argued, or trod
+on his sandwiches, or sat were he wanted to, or... Yes, well - killing
+everything that moved. He used to go on patrol by himself after a while.
+
+He remembered other times when he would go on long foraging expeditions,
+right out to where the men lived. Sometimes he'd bring back a barrel of
+apple brandy, or a whole side of well-hung bacon, or even a nice juicy
+child. But he never forgot the milk. Milk for his mother, so that she
+could make blue cheese, rancid butter and sour cream. They were good!
+Didn't get them nowadays. What had happened to his mum? Oh, yes, he
+recalled at last, he'd eaten her. Well, there wasn't been food to be had
+that winter, and soldiers had to be fed, and his mum was quite fat - and
+tasty too.
+
+Why did he keep thinking about food? Grok puzzled for a while, then a
+rolling rumble mumble from inside his jerkin reminded him. He hadn't had
+supper! Where was that lazy Oink?
+
+"Oink!!!" he bellowed through the open door. "Where's my grub, you
+bone-idle good-for-nothing?"
+
+No reply. He shouted again, loud enough to set the passages ringing.
+Still no reply. Grok grumbled and went out into the dimly lit corridor.
+
+"Oink! Oink!" he shouted, as he stomped towards the kitchens. "Oink!
+Oink!" As he was passing the guard-room, he saw a movement out of the
+corner of his eye, and then he saw stars as something smashed down onto
+his head.
+
+"Er. . . sorry, Chief..." Brainz put down his club and helped Grok to
+his feet. "I thought you was a pig. Good job you had your helmet on! Ha,
+Ha!" He spoke hoarsely, but laughed sheepishly. Then, cowed by Grok's
+stare, he ducked back into the guard-room.
+
+Grok glared after him, but, driven by the rumblings in his stomach, he
+continued in his search for Oink and his supper.
+
+Oink was slumped at the bottom of the stairway that led from the
+kitchen. An empty tray and iron-studded wooden club lay on the ground
+beside him. Grok hauled him to his feet and slapped him around.
+
+"What's going on here?" he demanded. 'Where's my grub?"
+
+Oink's eyes rolled around loosely, like two marbles in a gutter. Grok
+tried again to slap him awake, and when that didn't work, he breathed on
+him. Oink's eyes snapped into focus.
+
+'What happened?" Grok asked again.
+
+"I don't know, Chiefl I think someone must have hit me.
+
+Grok had a sudden inspiration. "Have you been going oink?"
+
+"Going what?" asked Oink, then he noticed the empty tray. "Here, they've
+nicked your supper. There was a bottle of booze and half of a nice big
+rat pie I'd just made and... is that your club, Chief?"
+
+Grok looked at it. "Yeh, it is! What's it doing here? I left it in the
+room by the Gate."
+
+'Well, I reckon someone must have picked it up, then when they hit me on
+head with it - me not wearing my helmet and all - it knocked me out, and
+they nicked your grub. Then they left the club because they couldn't
+carry that as well." Oink finished with a flourish, proud to have worked
+it out all by himself.
+
+"Picked it up like this? . . ." asked Grok, hefting the club, "... then
+hit you over the head like this? . . ." he brought it down with a
+crunch, ". . . you not wearing your helmet and all - and knocked you
+out? Then nicked my grub?" "Yeh..." said Oink slowly as he slid down the
+wall and slumped to the ground. 'Thieving rogues," muttered Grok
+thoughtfully, as he stepped over Oink and headed up the stairs to the
+kitchen. 'The other half of that rat pie should still be up there. . .
+And Oink!," he shouted over his shoulder, "... make sure you wear your
+helmet next time you're bringing me my supper."
+
+
+2
+
+Brandon the dwarf sat cross-legged on the floor of the dragon's treasure
+chamber with a large gold plate laid across his knees. He buffed it
+vigorously until it gleamed in the torchlight, and as he polished he
+sang a song, to the tune of an ancient Ambridge air.
+
+
+      "Golden swords and golden shields,
+      Golden cups and saucers,
+      Golden carts with golden wheels,
+      Golden bits and bobs,
+      To get lots of lustre
+      Just muster a duster
+      And use lots of elbow cream,
+      Then sit and buff the golden hoard
+      While I sit and dream."
+
+"Shouldn't that be elbow grease?" asked the dragon, who had been
+supervising operations.
+
+"Yes," replied Brandon, "but I couldn't find a rhyme." That was not
+strictly true. The verse had originally used 'elbow grease' and ended
+'Until the dragon's decease', but he wasn't going to sing that out loud.
+
+"I say," said the dragon, after a few minutes deep thought, "I've just
+written a song of my own all about gold. Tell me what you think of my
+masterpiece.
+
+
+      Gold, gold, wonderful gold!
+      There's nothing like it for warming you up when the weather's cold.
+      And when you've got a lot of it,
+      It's handy to have a fellow
+      Who'll spend lots of time polishing it
+      To keep it nice and bright and yellow.
+
+How about that, then?"
+
+"Oh, a marvellous triumph of the poet's art, O Brilliant One," exclaimed
+Brandon with as much enthusiasm as he could manage. Then, as he wasn't
+very good at lying, he changed the subject quickly. 'The orcs are back",
+he said. "I can smell them."
+
+The dragon sniffed the air doubtfully. "Are you sure? I can't smell
+anything."
+
+"Well they do say, O Great Fiery Breath, that smoking ruins your sense
+of smell," Brandon told him.
+
+"Well until someone invents smokeless fuel, I haven't got much choice,
+have I?" replied the dragon huffily. "And frankly, ducky," it added, "I
+sometimes think it's a blessing. I mean, when did you last have a bath?"
+Brandon was going to protest about the lack of a bath, or water to put
+in it, but the dragon shut him up with a snort of black smoke. The dwarf
+choked and spluttered.
+
+"I don't know," said the dragon airily. 'Talk about me smoking, but
+you're the one with the cough. Tut, tut. I bet you smoke as well, when
+I'm not watching. Tut, tut." It grinned at him complacently.
+
+I don't do anything when it's not watching, thought Brandon. Because
+it's always watching. Because it knows that if it didn't watch me, I'd
+nick as much of this gold (that I spend my days and nights polishing so
+lovingly) as I could carry, and scarper.
+
+The dwarf stopped coughing and sighed quietly. Patience, he told himself.
+
+The time will come. Perhaps he could persuade it to go on an orc-hunt.
+
+That would get it out of the way.
+
+"Are you going to do anything about them, Oh Winged Orc-Slayer?" he
+asked the dragon. 'They might be after your gold."
+
+"They're not the only ones, sweety," it replied, giving him the eye.
+"And besides, I don't like orcs."
+
+"Isn't that a good reason to hunt them?" Brandon was confused.
+
+"No, you fool. I don't like them to eat. That's the only reason I hunt.
+I'm not a human, you know. I don't do it for fun... Now, if it was
+humans out there, it would be a different thing altogether. They're tasty!"
+
+Brandon sniffed the air hopefully. "I think I can smell a human." he
+said brightly.
+
+The dragon guffawed with laughter, enveloping the dwarf with plumes of
+smoke. "Oooh, you are a one!" It clapped him on the back playfully.
+Brandon flew across the room and came to rest in the ornamental armour
+and jewelled weapons of war section. (He had decided, some long time
+before, that if he couldn't steal the treasure, he might at least
+catalogue it. He got some sense of ownership that way.)
+
+"On your way back, Brandon," the dragon called to him, "could you go
+over to the royal toys and games pile and find the pearl-inlaid
+dominoes. I fancy a game."
+
+Brandon lifted a diamond-studded mace off his chest and struggled
+upright. The solid gold weapon swung heavily in his hand. One of these
+days, he thought, I'll have a go at that grinning smoke-box. He shrugged
+and put the mace neatly back in its place. What good would it do? he
+told himself. If I got a lucky blow in, I might bruise its shin before
+it fried - and ate - poor little old me.
+
+He went to get the dominoes. The set was suffering from these games.
+Whenever the dragon was stumped, it would pick out the pearl inlays to
+change the value of his dominoes. All the sixes and fives had turned
+into fours, and the threes had been split between ones and twos.
+
+
+3
+
+Meanwhile, seven leagues away, Barney Wallop was resting on his scythe
+in the field behind the Orc's Head Tavern. He mopped the sweat off his
+brow and frowned at the acre of close cropped grass. There was a rash of
+molehills across the centre, and he had seen far too many daisies,
+dandelions and nettles as he had worked his way across. It was going to
+take years to turn it back into the smooth green sward that his father
+had tended so lovingly in the days before the orcs had devastated the
+countryside around the mountain. Still, he thought as he tied his
+red-spotted hanky around his red-spotted neck, it was only the third cut
+of the spring, and there was quite a while yet before the season
+started. He might have a decent surface by then, with a bit of luck.
+
+He picked up the gleaming, razor-sharp scythe and made to put it over
+his left shoulder, then thought better of it and transferred it to the
+other side. He'd already sliced off his right ear by mistake. He didn't
+want to lose the left one as well.
+
+Time for a pint of good ale, and get ready for the lunchtime rush. If
+the weather held, he'd have a go at those weeds in the afternoon. He
+walked carefully around the edge of the field and went into the Tavern.
+
+"Do our lodgers be back, Jack?" he asked as he entered the Tap Room.
+
+"Not yet, Mr. Wallop. They'll be right hungry too. They did forget to
+take the lunch, what the missis had made for them." Jack, the pot boy,
+polished another pewter tankard with his long white beard and hung it -
+the tankard - on the rack with the rest. Their well-buffed sides gleamed
+and twinkled in a beam of sunlight. And so they should! Young Jack had
+been polishing them daily for seventy years - with a cloth for the first
+fifty, and then, when cloth was scarce, with his beard. It gave them a
+lovely, satiny sheen.
+
+"Nice job, Young Jack!" Barney complimented him as he always did.
+"Nearly done?"
+
+"Last one coming up, Mr. Wallop." Jack buffed the tankard vigorously,
+hung it on the rack, then tied a knot in his beard to keep it out of the
+way for the rest of the day.
+
+Barney drew himself a foaming pint and drank slowly, to check its
+quality, as he always did, then drew another, as he always did, and
+drank that too, just in case. "I'm not too sure about this keg," he
+announced, as he always did. "I think I'd better check it again."
+
+"I shouldn't if I were you," muttered Jack. "The missis do be watching."
+(As she usually was.)
+
+"Well, I suppose it will be alright," Barney pretended to be unaware of
+Mrs. Wallop, "though I do like to make sure that my customers get the best."
+
+The lunchtime rush, Old Norman and Gaffer Smithies, arrived shortly
+afterwards. Over their pints, they discussed the important things in
+life; how the grass was getting on in the field, and what Barney should
+do about moles and daisies; whether or not the dragon would be visiting
+the village again, now that the Saturday afternoon tournaments were
+starting up again. (There had been a bit of trouble at the last
+tournament, thirty years ago. - before the orcs finally drove the people
+away. Some young knight. name of George, hadn't appreciated that the
+dragon was there by invitation, to roast the ox, and had tried to fight
+it. The dragon had gone off in a huff, and they had to eat half-raw
+beef.) Barney was quite hopeful that they would be able to get the
+Wednesday evening bowls sessions going again. They had brought in a nice
+bit of trade, before the troubles.
+
+"What are you going to use for bowls?" asked Old Norman.
+
+"I thought we'd do like we always used to," Barney replied. "I mean, we
+don't call this place the Orc's Head for nothing."
+
+'There be orcs back in the mountain then, be they?"
+
+"So, I hear, Gaffer," Barney replied. "I expect to know for sure soon
+enough though. Them lodgers of mine have gone over that way this
+morning. If they doesn't come back, then we'll know the orcs are there."
+
+"To the mountain? By theyselves?" Old Norman was intrigued. "They be
+right foolhardy young fellers. What they doing there? In fact, if it
+comes to that, what do they be doing here at all?"
+
+Barney's lodgers had caused quite a stir since their arrival a few days
+before. Apart from the fact that they came from the Mendips - which
+being over twenty leagues away made them foreigners - no-one knew
+anything much about them. They seemed to spend a good deal of time
+thinking - an unusual pastime in that part of the world, and had been
+asking a lot of questions about the mountain - though saying little in
+return.
+
+"I don't know what they be at," Barney replied. "And there ain't be no
+use asking me why they did head off towards the mountain this morning,
+'cos I doesn't know."
+
+"Why did they go, Barney?" asked Gaffer Smithies.
+
+
+4
+
+"Oink!"
+
+It was breakfast time in the Orc's Head Tower. In fact, it was after
+breakfast time, and still no food on the table. Grok, Brainz, Oleari,
+Fatty, and the rest of Grok's band sat around the guard-room table
+looking mean and hungry. Only Flies was chewing. True to his name, he
+was catching flies and eating them.
+
+"Oink!" Grok bellowed again. "Where's that useless slop hound got to?
+Brainz, go and find out what's happening in the kitchen." As Brainz left
+the room, Grok called after him, "Don't forget your helmet!"
+
+For the last few weeks, ever since that time Grok had found Oink at the
+bottom of the kitchen stairs, there had been some funny goings-on in the
+mountain. Several of the orcs had disappeared from their posts and
+turned up later in other parts of the mountain, claiming not to know how
+they got there. (Grok suspected secret boozing.) Others had been found
+lying around with splitting headaches, claiming to have been sneaked up
+on and clubbed. (Grok still suspected secret boozing, but he was going
+to make sure that they didn't have any excuses. Hence the Helmet Rule.)
+
+"Remember when we was coming back across the mountains, and ran out of
+food...", mused Oleari, speaking to no-one in particular, "...and we ate
+Spuds..."
+
+"No, there wasn't no food at all!" interrupted Fatty. "Certainly no
+spuds. No carrots, neither."
+
+"Spuds was one of us, you great stupid lump," Grok growled at him.
+
+"Anyway, I reckon we should have eaten Oink instead," Oleari went on. "I
+know Spuds' cooking wasn't as greasy and burnt as Oink's, but at least
+it used to get to the table."
+
+"Used to climb off again, sometimes, before you could grab hold of it."
+Grok remembered Spuds cooking too.
+
+"'Scuse I, Chief..." Brainz put his head round the door, "... but there
+don't be no sign of Oink nowhere. No food neither!"
+
+"No food!" exclaimed Grok. "This is serious. Come on, you lazy pack of
+cellar rats, let's find him."
+
+The orcs scrambled up, grabbed their helmets and ran out into the
+passage, shouting "Oink! Oink!"
+
+
+5
+
+Meanwhile, three levels down and a lot deeper into the mountain, Brandon
+the dwarf had had a spot of luck. A long time before, he had discovered
+a battered old wooden case in a dusty corner. It was locked, there was
+no key, so he had ignored it. He knew full well that if there was
+anything of value inside, the dragon would have smashed it open already.
+
+On this particular day, Brandon had been sorting through the clothes
+heap. It wasn't a very pleasant job, for these clothes were the dragon's
+equivalent of empty bags and boxes - they were what the food had been
+wrapped in.
+
+But Brandon needed more space to display the collection of jewelled
+thrones and other furniture, so it had to be done.
+
+As he was sorting, he felt something heavy in a pocket, and found a key.
+And the key reminded him of the old wooden case, and as he would rather
+do anything else but sort, he thought he would give it a try. The key
+fitted and turned, and the lid opened to reveal a Complete Adventurer's Kit.
+
+Compass, measuring tape, paper, pens and ink for making maps;
+stethoscope for listening at doors; small drill for making spy holes;
+soft chalk for marking your trail and a hold-all bag - the sort that you
+could put all kinds of things in and never fill. Brandon's heart started
+to race. His brain began to whirr. Here was the answer to his prayers!
+
+"Brandon Brannigan son! What are you doing skulking over there!" the
+dragon shouted suspiciously.
+
+"Nothing, nothing, Oh Mighty Emperor of the Mountain!" Brandon shut the
+box quickly and scurried back to his master. "Merely tidying, Your Royal
+Beastliness."
+
+"Found something interesting have we?" The dragon fixed an eye on the
+trembling dwarf. "What was it?"
+
+Brandon fluttered like a moth round a burning torch. He knew he could
+hide no secrets from the light of that stare. He struggled to resist,
+but felt his defences crumbling, then suddenly - salvation!
+
+"Oink! Oink!" A distant echo broke the tense silence in the lair. The
+dragon shut off its truth glare with a rapid blink, snapped its head
+round and pricked up its ears. "Oink!" That sound again, but this time
+deeper, and issuing from another passage.
+
+"Pork chops!" said the dragon, smacking its lips. "Haven't had them for
+years." It waited for another "Oink" to fix the direction, then leapt
+off its treasure mound and sped out of the chamber.
+
+Brandon let out a long sigh of relief and sank to the ground. He had
+been sitting there, saying "Phew, that was close!", for several minutes
+before he suddenly realised that he had got the opportunity of a
+lifetime. He jumped up and ran to get the Adventurer's Kit.
+
+His cunning dwarvish brain was working properly now. He thrust the
+compass and marker chalk in his pockets, grabbed the hold-all bag and
+dumped the rest of the Kit into it, then scampered round the lair
+throwing in all the choicest pieces - including the entire Individual
+Gems and Small Objects d'Art collection - then, when the weight of the
+bag was as much as he could bear, he headed off out of the chamber in
+the opposite direction to the dragon.
+
+He paused briefly to take off his boots and tie them round his neck,
+then ran off silently in stockinged feet.
+
+He travelled fast, but carefully; checking the compass constantly to
+keep his direction in the twisting tunnels; marking every awkward
+junction with his chalk in case he had to back track; listening avidly
+for the sound of orc's or dragon's feet; and sniffing the air as he ran.
+It was a shame that he could only smell his boots, as otherwise he might
+have had some warning about the adventurer. As it was, Brandon ran
+straight into him as he came round a sharpish bend in a passage. He
+bounced off him and the weight of his hold-all bag tipped him over.
+
+Brandon picked himself up, and was delighted to see it was a man - and a
+pleasant-looking young fellow - that he had crashed into, not an orc, or
+worse, the dragon! He reached out a hand in greeting, and started to say
+a cheery "Hello", but the adventurer gestured briefly and spoke a single
+word of command before Brandon could finish. There was a flash, and
+Brandon was enveloped in smoke. As the smoke cleared, he found himself
+in total blackness.
+
+
+6
+
+The Great Oink Hunt started as a shambles and deteriorated rapidly.
+No-one believed Brainz' claim that all the food had disappeared, so they
+all headed for the kitchen to check. There wasn't really room in there
+for sixteen of them, and when Fatty discovered a small, green furry loaf
+there definitely wasn't room for them to fight about it. That didn't
+stop them from trying.
+
+Fatty had scarcely finished saying "Look what I've got", before he
+hadn't got it any more. Skraggit grabbed it and shouted "It's mine!".
+But by then it wasn't. Fatty swung his club at Spindleshanks, who was
+then holding the loaf, but he hit Oleari, who had got in the way. Oleari
+pulled back his arm to smash Fatty, and poked Grindleguts in the eye, so
+Grindleguts joined in that fight. Meanwhile, another battle was raging
+on the floor, where Spindleshanks had dropped the loaf after Skraggit
+had stamped on his foot.
+
+In the end, Grok caught the loaf as it was flung into the air and
+stuffed it into his mouth before anyone could reach him. With the loaf
+gone, the fight dwindled to a halt, with a few last blows being flung to
+settle scores.
+
+"Right, enough messing about!" he ordered, spraying green furry
+breadcrumbs as he spoke. 'There'll be nothing else to eat until we find
+Oink. So let's get busy."
+
+"And if he hasn't got the food, do we eat him?" asked Oleari hopefully.
+"We'll see," muttered Grok darkly. With only sixteen orcs in his command
+he didn't want to see the numbers reduced any further, but Oink was
+being a nuisance, getting himself robbed and lost and all. "Spread out
+and find him." Grok tried a grand sweeping gesture to inspire his
+troops, but in the overcrowded kitchen he finished up with an arm in
+Oleari's mouth. He only just got it out in time.
+
+The orcs followed Grok down the stairs and out into the passages below.
+From there, they fanned out in sixteen different ways, and set the
+ancient stone walls ringing to the cries of "Oink".
+
+Grok had tramped around half the morning, shouting himself hoarse, when
+he had an inspiration. The Dark Tower! Where 'imself used to live in
+days gone by. The Dark Lord had never been one to miss out on life's
+little luxuries, and Grok decided that a visit to his cellars ought to
+be worth the effort. Any food that had been left should be well rotted
+by now, and 'is fancy wines ought to have gone at least a bit vinegary.
+The more he thought about it, the better he liked the idea. Grok turned
+for the Tower and hurried off.
+
+The Tower had changed since Grok's last visit. Then it had been clean
+and warm and dry - on account of 'is Eternal Fire that blazed away all
+the time. It was much nicer now, cold and damp and thick with spider
+webs and rat droppings. Grok made a note to send Oink here - once they'd
+found him - to get some more rats for pie-making.
+
+Grok smashed the lock on the cellar door with his club, then dropped the
+club to get a good two-handed grip on the heavy door. He heaved it open
+slowly, then growled with pleasure. What a sight met his eyes, and what
+a stench assaulted his nostrils! Big hams and joints of venison
+shimmered blue-green in the torchlight; fermenting cakes fizzed and
+popped soggily; mice scampered in and out of huge round cheeses; and in
+the middle of the floor stood three wooden casks, their lids rising and
+falling gently as bubbles of gas escaped.
+
+The orc went straight to the nearest cask, took off his helmet and
+filled it with dark, sour wine. He drank deeply.
+
+"Aaah!" he sighed with satisfaction, then "Uuuh!" he sighed as he
+slumped to the floor. He had been hit on the head with his own club and
+- him not wearing his helmet and all - been knocked out. The roving
+adventurer who had just bopped him, examined the cellar carefully,
+making a note of anything that might prove useful, then strode off with
+Grok's club tucked into his belt.
+
+There were other adventurers at large in the mountain that day, as
+Fatty, Oleari, Spindleshanks, Skraggit, Fenay and Samantha (his father
+had a wicked sense of humour and couldn't stand orckids) discovered to
+their cost. One by one, their searches came to sudden, violent ends.
+
+
+7
+
+Elsewhere, Brainz and Grindleguts had got their own kind of trouble.
+They had met up on the second level below the guard-room, and decided to
+join forces. They had both noticed that the tunnels were no longer
+ringing with cries of "Oink!" in the same way that they had been at the
+start of the hunt. In fact, apart from another voice somewhere on the
+next level down, they couldn't hear anybody else at all.
+
+"Do you think they've all given up, Brainz?" asked Grindleguts.
+
+"I hope that's what it is," he replied. Brainz hadn't said anything
+about it to anybody else, but he had had rather a nasty experience only
+a couple of days previously. He'd been walking along, minding his own
+business. (Well, more or less. Actually, he'd just been into Grok's room
+and picked his pockets while he was asleep.) Anyway, so there he was,
+wandering down an empty passage, sorting through the booty that he was
+carrying in his helmet when, suddenly, this human appeared from nowhere
+and - bonk! - that was the last he knew about it. He hadn't said
+anything, partly because no orc ever likes to admit to being beaten, but
+mainly because Grok would ask why he wasn't wearing his helmet.
+Grindleguts had also had a similar experience, which he hadn't said
+anything about either, on account of the fact that he was raiding the
+kitchen at the time. So when Brainz suggested that they joined forces,
+he was very happy to agree. They decided to go in search of the orc they
+could hear down below, but to keep on shouting for Oink in case they met
+Grok.
+
+They didn't meet Grok. They met the dragon. It was lying in wait inside
+one of the great halls that were carved out of the lower levels of the
+mountain. As they entered, it pounced with a cry of "Roast Pork and
+Crackling!" and landed flat on the pair of them. It lay on top for a
+moment, chuckling greedily, until it realized that its prey didn't quite
+smell right. and felt rather too lumpy.
+
+It eased itself upright, with a claw clamped heavily over each of them,
+and examined its catch. "Orcs!" it said with disgust. "Yuck!" Then it
+picked up Grindleguts and asked him where the pigs had got to, but the
+orc was too flattened to speak. "Pah!" it snorted, tossing Grindleguts
+over its shoulder. It walked off, over Brainz, and continued its hunt
+outside.
+
+Brainz and Grindleguts had just about managed to stagger upright when
+the dragon came back. It picked one up in each claw and sat back on its
+haunches.
+
+"Right, you two nasty, smelly little things! Where are those pigs?" it
+demanded, shaking them around a bit to show it meant business.
+
+"W-W-W-W-h-h-h-a-a-t-t-t p-p-p-i-i-i-g-g-s-s-s?. . ." asked Brainz.
+
+The dragon stopped shaking him as it couldn't tell if he was lying with
+his head wobbling so much. "Those pigs out there. Didn't you hear them
+going Oink?"
+
+"That was us." Brainz told him.
+
+"Nonsense. Orcs don't go 'Oink', they go 'Kill! Eat! Smash! Ravage!'"
+The dragon was not convinced.
+
+"They do when they're looking for him." said Brainz timidly.
+
+"Looking for who?" It was getting confused by this conversation.
+
+"Oink" replied Grindleguts.
+
+"An-Ha!" snapped the dragon, "So you're the one who thinks he's a pig.
+Well perhaps I'll see if you taste like one." It brought the struggling
+orc closer to its great jaws with its massive, smoke-blackened teeth.
+
+"No! No!" cried Grindleguts. "Oink is the name of the orc we're looking
+for!" he gabbled.
+
+The dragons great flared nostrils twitched as they filled with the smell
+of the orc, and it decided against eating him. But it was still
+determined to get to the bottom of this pig business.
+
+"Does this Oink-orc think he's a pig, then?" It asked, but before either
+could answer, another cry of "Oink!" echoed into the chamber.
+
+"That is definitely a pig!" The dragon dumped them on the ground, with
+strict instructions to keep quiet and not frighten it off, then it
+sneaked away on tiptoes.
+
+The orcs listened carefully. The next "Oink!" was cut off in mid-Oink,
+but they could still hear the dragon's claw clattering quietly along.
+Something else had got to their fellow orc first. Shortly afterwards
+there was the noise of a scuffle, then a triumphant "An-Ha!", followed
+by the sound of the dragon marching off dragging something behind it.
+
+Grindleguts and Brainz waited until it was quiet, then crept cautiously
+out to see what had happened. They found Flies slumped in a doorway, his
+helmet rolling slowly around beside him.
+
+"I only took it off for a minute to scratch my head," he moaned.
+
+
+8
+
+Brandon stood in total darkness and tried to work out what had happened.
+Had that adventure-magician made him blind? Cast him into some limbo at
+the edge of the Afterlife? Or was there some less drastic explanation?
+Perhaps he was in a bag. The dwarf waved his arms about. No, he wasn't
+in a bag, and now that the smoke was clearing from his nose, he noticed
+a foul, but comfortingly familiar, smell about the place. He was still
+in the mountain. It positively reeked of mould, damp, dirt and orcs -
+mouldy, damp, dirty orcs. And his acute hearing told him that he wasn't
+alone.
+
+"Who's there?" he asked cautiously.
+
+"Oink."
+
+"Oh. A pig. Hello, little pig. I hope the dragon doesn't find you."
+
+"No, that's my name!" said Oink crossly.
+
+"Coo! A talking pig with a funny name! Hello, Nothats. You are a nice
+little pig, aren't you? Not a nasty big boar?" Brandon asked hopefully.
+
+"I am not a nice, flaming little pig."
+
+"Oh!", cried Brandon, sounding worried.
+
+"And I'm getting fed up with cracks about my name. So any more stupid
+remarks from you, and I shan't just get fed up - I shall get fed! Know
+what I mean?" Oink growled menacingly and ground his teeth together.
+
+Brandon knew exactly what he meant and edged away from the voice. After
+that, neither of them spoke for some time, Brandon wondering what to do,
+and Oink not much caring. The orc had had more than his fair share of
+trouble with adventurers in the recent past - this was not his first
+experience of being teleported, and he had lost count of the number of
+times he had been bashed over the head. So he had decided to stay where
+he was for the time being. It was nice and dark and damp and quiet and
+that there were no adventurers around, and that was enough for him.
+
+"Excuse me, Mr. Oink. . ." Brandon began politely. breaking the long
+silence, "but do you know where we are?"
+
+"Wherever those blasted humans have sent us. Pah! Teleporting they calls
+it; flaming nuisance I calls it!" Oink spat.
+
+Brandon could hear the orc's angry silence, and waited for him to simmer
+down before speaking again. "Er,... excuse me, Mr. Oink, Sir, but do you
+think we should try to find a way out of here?"
+
+"No."
+
+So that was the end of that conversation. After a while, Brandon decided
+that he was going to get out - with or without the orc's help. He
+started to fumble his way round the pitch black room. It was not
+particularly big, but it did have a lot of arches and alcoves, and the
+floor was not very even.
+
+After a while, Oink, who could see quite well in the dark, got tired of
+watching the dwarf stumbling and bumbling around. It was difficult to sulk
+
+In that atmosphere. "It's over there." he told the dwarf.
+
+"What is?" asked Brandon, "and where is it?"
+
+"The door. That's what you want isn't it? It's in front of you and left
+a bit." The orc watched as Brandon tried to work out which was his left
+hand. "You better mind that hole in the floor," he added.
+
+"What hole?" asked Brandon. But he soon found out.
+
+The hole was at the top of a smooth, round shaft. It dropped more or
+less straight down for twenty or thirty feet, then angled off first
+right, then left, then right again, bouncing Brandon around so he
+finished up head downwards, before settling into a steady helter-skelter
+spiral - the sort where you can really build up speed. And Brandon built
+up speed. He must have been travelling at over forty leagues an hour
+when he reached the bottom of the spiral. There the shaft straightened
+out, and flattened out, and Brandon lost speed steadily - if painfully -
+as he bumped along the uneven bottom, before flying out into open space
+and falling heavily face-downwards onto a mound of gold coins.
+
+"Ooh! Hello, Brandon love. I thought I'd lost you!" The dragon was
+pleased to see his little friend return, "where've you been? I was
+getting quite worried about you!"
+
+The dwarf rolled over slowly and looked around. How was it, he wondered,
+that when you want to get to a dragon's treasure chamber, it is
+impossible to find, but that when you want to avoid it, it is impossible
+to miss. And Brandon did want to avoid it. He had not forgotten that he
+had stolen a sizeable chunk of the treasure, and that the dragon was
+liable to get into the most dreadful rages if it misplaced so much as a
+single coin.
+
+He studied the dragon warily, trying to work out what line he should
+take. Should he confess all and thrown himself at the dragon's mercy?
+No, the dragon didn't have any for him to throw himself at. Should he
+deny everything, or try and blame the theft on an adventurer? Perhaps,
+but lies would only work as long as the dragon didn't give him The Eye.
+It seemed to be in a very good mood - that was often a bad sign - but it
+was picking its teeth with a pearl-handled dagger, so it must have eaten
+recently - that was a good sign.
+
+"Did you get your pig, then?" he asked, by way of conversation.
+
+"Don't be silly, there weren't any pigs. It was just those stupid, noisy
+orcs!" the dragon spoke as if it had never thought otherwise. "But I did
+find a human! Tasty young fellow too. One of those - what do you call
+'em - adventurers. Do you know," it added confidentially, leaning over
+towards Brandon, "the naughty man had been trying to steal some of my
+treasure. He had this whole bagful. Look!"
+
+The dragon pointed to Brandon's bag that lay on the floor between them.
+
+"I say, that's awful. Gosh, anyone who tried to steal that really
+deserved what he got!" Brandon tried to put feeling into his voice, but
+the only thing he really felt was pure relief.
+
+
+9
+
+Grok struggled to sit upright. then sat with his head cupped in his
+hands. Strewth! That wine was strong. He'd only had one swig and it had
+blown the top of his head off! It was almost as if someone had clubbed him.
+
+The orc staggered to his feet, contemplated having a drop more to drink
+- the hair of the warg that bit him, he thought, might dull the
+throbbing in his head - but decided against it. For one thing, he
+couldn't find his helmet to drink out of (it had dropped into the wine
+barrel, and by the time he had woken up, it had entirely dissolved.) He
+looked for his club, but he couldn't find that either, so he took a big,
+blue-green leg of venison off a hook. It would do as a club if he ran
+into trouble, and he could eat it if he didn't.
+
+He headed off back up the stairs and out into the main tunnel complex,
+to see how the Oink Hunt was getting on. He didn't get very far. In the
+great ante-chamber by the back door to the Dark Tower, he met an
+adventurer. Grok recognised the club tucked into the man's belt, and
+realised what had happened in the cellar. He decided to take his revenge
+on the adventurer. He grinned evilly to himself. This was going to be fun.
+
+The adventurer was a little old man with a long white beard that was
+tied into a knot. He saw the orc coming across the chamber and reached
+quickly into the pocket at the front of his apron and took out a note-pad.
+
+"Now where was it?" Young Jack muttered to himself, flicking through the
+pages as the orc advanced on him, wielding the leg of venison menacingly.
+
+"Ah! Here we are!" He pointed a finger at Grok and uttered a single word
+of command.
+
+There was a flash and a bang, and Grok turned into a frog.
+
+"Grok?!?!" croaked Grok, meaning 'what happened?', as he crawled out
+from under the leg of venison.
+
+"Hee, hee, hee!" cackled Young Jack. "That was good! But it wasn't what
+I wanted. Let's have another go and see If I can get it right." He
+rummaged through his notepad again. found a later entry and tried to
+point at Grok as he hopped around.
+
+"Keep still, will you! You silly frog!" he demanded, but he had to wait
+until Grok settled down for a dip in a small puddle before he could get
+a fix on him. Young Jack spoke another word of command, and was pleased
+to find that it was the right one.
+
+There was another flash and a bang and Grok was enveloped in smoke. When
+the smoke cleared, the puddle was frog-less.
+
+Meanwhile, seven leagues away, Grok had found himself on the edge of a
+closely cropped meadow.
+
+"Grok?" he croaked. (Translation: "Where am I?")
+
+"Grok, Grok!" (Trans: "Hello handsome!") A large green female frog came
+hopping out of the hedgerow to join him. "Grok grok gro-ok?" (Trans: "Do
+you come here often?")
+
+"Orok!" croaked Orok. ('Trans: "Help!")
+
+"Grok gro-grok grok-grok?" (Trans: "Fancy a trip down to the pond?") she
+ogled him with big watery eyes.
+
+She was big one, more than twice his size, with massive meaty thighs,
+forelegs as thick as carrots and rolls of spare flesh that undulated as
+she waddled. Under different circumstances, Grok would have fancied her
+(for lunch) but just then, Grok didn't fancy her for anything.
+
+"Grok!!" croaked Grok, (Untranslatable). He turned and hopped off as
+fast as he could. The frog wooped a kind of froggy 'Tally-ho" and set
+off in pursuit.
+
+Grok, being smaller and lighter, had the acceleration, but she had the
+staying power. By the time he was half-way across the field, he was
+starting to tire, but she was still coming on strongly. Desperation
+spurred him on, but it was useless. At last, with a merry "Gro-o-ok!"
+she landed on top of him and pinned him to the ground.
+
+"Gr-rok grok gro-gro-grok!" (Trans: "Oooh that was fun!") she croaked.
+"Grok-grok-grok." (Trans: "Now give us a kiss.")
+
+Grok crouched transfixed as her head came closer and she gave him a big
+froggy kiss. He closed his eyes and tried to pretend that it wasn't
+happening. He had the most peculiar swelling feeling as her lips touched
+his. When he opened his eyes he discovered that he had returned to his
+normal self. The female frog looked up in surprise and disappointment.
+
+"Perhaps I do fancy you after all," said Grok. He reached down, picked
+her up carefully and slipped her in his pocket. She would do for supper
+if he didn't find anything else.
+
+Now, where was he? Grok looked around. There was a tavern over on the
+other side of the field - and an orcish one! At least, Grok assumed that
+the picture of the orc on the inn-sign meant that.
+
+He tramped across the grass, kicking at the daisies and sending clods of
+turf flying through the air. He hated flowers, and he hated well-groomed
+grass.
+
+Barney Wallop caught sight of him through the back window of the Orc's
+Head Tavern. He grabbed his scythe and started for the door. "You may be
+kicking at my meadow now, Mr. Orc," he muttered darkly, "but you'll be
+rolling on it next Wednesday!"
+
+"Edna!" he shouted to his wife, "I'll be back in a minute. There's an
+orc out on the green. I could use him."
+
+"Hey! So could I!" Mrs. Wallop called quickly. "With Young Jack away, we
+could do with an extra pair of hands. You try and get ahead now, and
+we'll be all behind come Saturday night."
+
+"You're right. He could be handy," Barney was forced to agree. "Well, I
+suppose I shan't be needing any bowls for nearly a week. Perhaps Young
+Jack will have got over his foolishness and come back by then." He put
+down the scythe and took up his pacifier - one of Mrs. Wallop's
+stockings half-filled with sand. He saw that the orc was heading for the
+tavern door, and lay in wait just behind it.
+
+As Grok walked in, Barney tapped him on the head with his pacifier. It
+was a carefully judged bonk, designed to show the orc who was boss,
+without impairing the roundness of its skull. He caught the orc by a
+pointy ear as it sagged beneath the blow.
+
+"Right, Mr. Orc. There's plenty more where that one came from if you
+give me any trouble. Do you understand?" Bamey demanded.
+
+Grok didn't understand anything. Things were just happening too fast for
+him to keep up with himself. In the space of half an hour, he had been
+clubbed, frogged, teleported, hopped after, unfrogged, lost and
+pacified. He shook his head dolefully. Barney bopped him again and
+repeated his question. The message got through that time. Grok nodded.
+
+Barney led him over to behind the bar and showed him the dirty tankards
+that were piled up beside the sink.
+
+"Now Mr. Orc. You're going to wash that lot - clean! Get them nice and
+polished - bright! Understand?" He swung Mrs. Wallop's stocking in front
+of Grok's eyes.
+
+Grok moaned. "Washed! Polished! Cleaned! Bright! Oooooh!" But he nodded
+and reached for the first tankard. He looked at the hot soapy water in
+the sink and grimaced with distaste. This was awful! He gritted his
+teeth and tried to wash a tankard without getting his hands wet. It
+wasn't possible, and Grok watched with horror as the dirt began to come
+off his hands. Barney encouraged the orc with his pacifier until he was
+satisfied that he was doing a good job, then he got on with his own
+chores (chiefly beer-tasting) while keeping a watchful eye on his new
+pot-boy.
+
+That day, Grok learned to wash up, polish (though he had to use a cloth
+as his wispy, scraggy beard was useless for that job), carry logs and
+mend the fire, sweep the floor, muck out the stables, chop wood - under
+the supervision of Mrs. Wallop who was far more terrifying than her
+husband - make beds, and fetch casks and bottles up from the cellar. He
+also learnt some other interesting things.
+
+It seemed that the tavern had become a centre for adventurers. Some
+merchant-magicians, working from one of the back rooms, were selling
+guide books to the mountain - guide books to HIS mountain! Travellers
+were coming from far and wide, buying their guide books and heading off
+across the plain to the Orc's Head Tower. Those that discovered the
+teleporting secret would pop back for a drink or something to eat every
+now and then. They would stand around the bar boasting about how many
+orcs they had bashed or robbed or teleported to who knows where. Grok
+kept his head down and listened. If they were all telling the truth,
+there were a lot more orcs scattered about the mountain than he thought.
+He hoped they were right; as soon as he got back home, he would gather
+them all together, march back to the Tavern and do for those guide book
+merchants.
+
+Grok also learned that there was to be some sort of shindig on Saturday,
+and that the dragon would be coming. He wondered if he could hitch a
+lift back with it. It certainly might be possible to slip away when the
+place was busy.
+
+Finally, he learned that there was to be a bowls match on the following
+Wednesday. For some reason, they all expected him to be playing in it.
+He did try explaining that he didn't know how to play bowls; but Barney
+Wallop just laughed (rather unpleasantly. thought Grok) and said "Don't
+worry about that, Mr. Orc. It's just a matter of using your head."
+
+
+10
+
+Brandon had been sitting in the corner plucking at the zither for most
+of the morning. He was trying to remember a song he had learned as a
+child. At last, he called to the dragon. "I think I've got it now. Would
+you like to hear it?"
+
+"Is it about gold?" asked the dragon, who liked songs, but most of all
+loved those that were about gold.
+
+"Actually, no. This one is called The Gay Dragon." Brandon replied.
+
+"Ooh! That sounds fun!" it cried, and stopped polishing its claws so
+that it could listen properly.
+
+Brandon struck up a chord and began:
+
+
+      "There was a gay dragon who lived in a cave.
+      It was fiercesome and ugly
+      And not very brave..."
+
+"Just a minute!" the dragon interrupted him. "Are you sure about those
+last two lines?"
+
+Brandon caught the glimmer in the dragon's eye, and said that perhaps he
+had got it a bit wrong. So he started again.
+
+
+      "There was a gay dragon who lived in a cave.
+      It was ever so handsome
+      And terribly brave..."
+
+The dragon beamed and nodded. Brandon carried on.
+
+
+      "He liked to get up
+      In the dawn's early light
+      Though he often slept in
+      If he'd had a big knight.
+
+
+      In the midst of the day
+      when the sun shone on high
+      He liked to tuck in
+      To a real shepherd's pie.
+
+
+      If it met a fair maiden,
+      It knew how to treat her.
+      It would crown her with myrtle,
+      Then roast her and eat her."
+
+"Personally, I prefer them flavoured with rosemary," commented the
+dragon, "but otherwise, that was a nice verse. Are there anymore?"
+Brandon couldn't remember any, but he offered to try to make some up.
+
+"Good idea! I like to hear about gay dragons. But not now, Brandon," it
+said, stretching and flapping its wings. 'Time we were off to the pub."
+
+'To the pub?" This was news to the dwarf.
+
+"Well, it's Saturday isn't it? I always go to the pub on Saturdays in
+the season - as long as that obnoxious Sir George isn't there! Where do
+you think I get my best firewater from? It doesn't grow on trees you
+know! Come on. Climb on my back and I will give you a ride."
+
+"But what about your treasure?" asked Brandon, spotting an opportunity.
+"Don't you think I ought to stay and guard it? There are thieves about
+you know."
+
+"Yes, I know, my little dwarvish friend," it said, and gave Brandon a
+very meaningful look. "Don't worry about my treasure. I've got a spell
+or two up my sleeve. They don't call me Puff the Magic Dragon for
+nothing, ducky."
+
+Puff! That was also news to Brandon.
+
+So Brandon the dwarf had his first taste of flying. It was a
+hair-raising experience for the dragon was rather out of practice, and
+was starting to get fat on his new diet of adventurers - quite a lot had
+come too close to its lair in the last few days - but they made it.
+
+The green behind the Orc's Head Tavern was ablaze with colour. Bright
+striped pavilions dotted the field; knights in shining armour and
+intricately painted and embroidered surcoats did their limbering-up
+exercises with much clanking and squeaking of badly-oiled joints; ladies
+in long flowing robes of red and purple and gold sat sipping infusions
+of herbs and nibbling delicately on thinly-sliced cucumber sandwiches;
+liveried servants ran hither and thither for their masters.
+
+The people waved gaily as the dragon glided in over their heads and
+landed with a long skidding belly-flop.
+
+"Ooh!" it said as they came to a halt in front of Barney Wallop and an
+ox on a spit. "I do wish you would do something about those molehills!
+That was quite painful!"
+
+"Sorry Puff, old chap." said Barney cheerfully. "How are you then after
+all these years? Let's have a look at you... Yes, just as fat and ugly
+as ever!" He laughed and rubbed the dragon's muzzle playfully.
+
+"Right. then! Down to business, eh?" Let's get this ox going. And none
+of your nibbling this time! I've got lots of folks to feed today, so
+I'll need all four of its legs." The landlord waggled a finger at the
+dragon as he gave it its orders.
+
+Brandon was horrified to hear him talking to the dragon that way. Surely
+it would frazzle him up for being so familiar? But no! It just snorted
+with laughter and said "Oh, Mr. Wallop. As if I would!"
+
+The dwarf could only stand and stare at the dragon being put through its
+paces. It roasted the ox beautifully, showing total control over its
+fire, so that the meat was crisp and tasty on the outside, but tender
+and juicy within. The rich smells soon began to waft across the green.
+
+People came and ate and wandered off and came back for more all through
+the long afternoon and evening. There was much excitement and applause
+over on the other side of the green, but Brandon didn't see much of it.
+He had discovered early on that the big people either trod him
+underfoot, unseeing, or if they noticed him they would pat him on the
+head and say 'What a nice little chap!" Brandon could not decide which
+was worse, so he tucked himself out of the way under the dragon's belly.
+It was warm and cosy there, and occasionally the dragon would use a
+sharp claw to slice off a piece of ox, and toss the hot juicy meat to
+the dwarf. At least, well fed and comfortable, he fell fast asleep.
+
+Over in the Orc's Head Tavern, Grok was neither well fed nor
+comfortable. He was being rushed off his feet fetching and carrying, and
+all the washing up was making his hands disgustingly soft and clean.
+whenever he got the chance, he would slip to the back window to spy out
+the situation on the tournament field. He had spotted the dragon and was
+trying to think of some way in which he could sneak out there and
+clamber on its back without anyone - especially the dragon - noticing,
+but he wasn't getting far with his plans. Mrs. Wallop never let him out
+of her sight for more than a few seconds at a time. She kept him on the
+run, or at the sink, just about all the day. As twilight came, Grok saw
+the squires starting to pack up the little changing pavilions, and he
+stlll hadn't found a way to escape from the tavern. He was getting
+desperate.
+
+Just then, Barney Wallop poked his head around the tavern door and
+ordered Grok to run down to the cellar for two casks of best applejack,
+then bring them out to him. Grok's hopes rose. He got the casks and
+hurried to find the landlord. His hopes rose even further when he heard
+that he was to take the casks over to the dragon.
+
+'You clamber up and settle the casks between his shoulder blades, while
+I go round the front and say goodbye to it," Barney ordered him, "then
+get back to the missis and finish the washing up."
+
+'Yes, Sir, Mr. Wallop." Grok sounded polite and keen. Barney
+congratulated himself on the success of his pacifier treatment, and
+wondered vaguely whether or not he ought to buy a set of wooden bowls
+after all. Young Jack still hadn't come back - except to pop in for a
+quick pint and disappear in a flash of smoke as soon as Barney had
+mentioned work.
+
+The landlord started gossiping with Puff about this and that - the
+dragon was particularly interested in the problem of molehills on the
+landing strip, and wanted to discuss a range of possible cures - so that
+by the time they had finished, Barney had completely forgotten about the
+orc. As for the dragon; when it was time for it to fly off, it felt the
+weight of Grok on its back, assumed it was Brandon, and went straight home.
+
+
+11
+
+Grok slipped off the dragon's back as It crash-landed in the mouth of
+the Orc's Head Tower. He rolled over into the shadows at the side and
+lay quietly until it had gone off deep into the tunnels. Then - bliss! -
+he found a really slimy patch of muck and got himself filthy again. Ah,
+it was good to be home!
+
+But where were the guards? No sign of them! what was going on? "OI!" he
+bellowed. "Where are you. you useless lumps of mouldy suet? who's
+supposed to be minding the door? Come here this minute!"
+
+The orcs - including those supposed to be on guard duty - were all
+crammed into the guard-room two floors up. They were trying to decide
+who should be chief on account of Grok having disappeared. Brainz
+thought he should be because he was the cleverest, he said. Samantha
+said he ought to be because he was the nastiest. They all agreed about
+that. Oink, who had finally stopped sulking and rejoined the others,
+said he ought to be because he knew where there was a cask of
+orc-brandy, and he wouldn't tell them if they didn't let him be chief.
+That was a mistake. They all sat on him, pulled his ears, poked him in
+various places, and did other unpleasant things until he told them where
+the cask was. Then they went and got it, and had a booze up. By the time
+Grok returned, the brandy had run out, and they had got back to arguing
+about who should be chief. It was between Brainz and Samantha, now that
+Oink had lost his trump card. The two contenders had tried staring each
+other out, arm-wrestling and shouting contests - all of which were
+declared draws by the other orcs. They were now shaping up for a club
+fight, but couldn't agree on the rules.
+
+They were still shouting about it when Grok came into the guard-room and
+demonstrated the qualities that had made him the unchallenged leader of
+the band. He snatched up a club and knocked the pair of them down with a
+single blow.
+
+"Stop mucking about, you dozy lot," he snarled. 'There's work to be
+done." He gave them their orders. They were to scour the mountain
+tunnels - in bands of not less than four - from top to bottom, and find
+all those scattered orcs that he had heard the bar-room adventurers
+talking about. Then they were to restring their bows, straighten their
+arrows, sharpen their scimitars, and put new spikes in their clubs.
+After that, there would be a couple of days square-bashing to lick them
+back into shape. Then, when they had been welded into an efficient
+fighting machine, they were going to march on the Orc's Head Tavern and
+knock seven bells out of those guide book merchants. Grok would teach
+those humans to sell tickets to his mountain!
+
+The scouring of the mountain wasn't as profitable as Grok had hoped.
+They did turn up nine orcs that no-one had known about, but two of them
+had been so battered by adventurers that they were no use for anything
+apart from moving-target practice. Still, they were quite useful for that.
+
+Re-equipping the troops could have been easier. Most of the orcs had
+lost most of their weapons in the route after the last battle, so they
+had to go and get new ones from the old armoury in the Dark Tower. This
+shouldn't have posed any problems, but Young Jack had taken a fancy to
+the place and wouldn't let the orcs near it. He turned Oleari and
+Samantha into frogs as soon as they set foot in it, and Grok had to club
+Flies to stop him from eating them. Fortunately, Grok still had his
+emergency rations - the female frog - in his pocket, and she was pressed
+into service to restore his soldiers. Even that caused trouble! The
+female didn't fancy Oleari, nor did he fancy her, and they hopped off in
+different directions. The orcs managed to catch them, but couldn't get
+them to kiss and make up. In the end, Brainz had a brilliant idea. He
+gave them a single worm to eat, and their lips touched in the middle.
+
+That sorted out Oleari, but it still didn't solve the problem of Young
+Jack. They could have ended up having to go into battle armed only with
+a few clubs and their own natural weapons - teeth, claws and bad breath
+- but they were saved from this by the intervention of Grok's girlfriend
+(as she was called behind his back). The female frog had hopped off into
+the Dark Tower In search of food or a mate - the orcs didn't know which,
+though Grok had a good idea. Young Jack tried out one of his words of
+command on her, and turned her into a barmaid - complete with a tray
+full of pewter tankards of beer. The last the orcs heard, before Young
+Jack led her off to an inner room and shut the door, he was explaining
+how you could get a really good sheen on pewter by polishing it with a
+beard, although the barmaid, not being a dwarfess and therefore not
+having a beard, might like to try it with her hair instead. Perhaps if
+she let it down, they could give it a try, Jack was heard to suggest as
+the door slammed shut.
+
+"Now I wonder what'll happen if he gives her a kiss?" pondered Brainz.
+
+'Who cares, as long as it takes him a few minutes to find out." said
+Grok, and hurried his orcs off to the armoury quickly, while there was
+still time.
+
+Grok then tried to lick his undisciplined rabble into an army, but after
+two days he decided that enough was enough, and that it was time to lead
+his undisciplined rabble to war.
+
+So one twilight towards the end of the following week, Grok and the
+twenty-three orcs that he had gathered into his band set off over the
+Orc's Tongue Bridge with murder in their hearts, bows and clubs on their
+backs, scimitars and arrows by their sides and mouse sandwiches in their
+pockets. Through the long night they marched, swiftly and silently,
+striking terror into the rabbits that they met on their way. (Grok was
+sure that they would have terrified anything, but rabbits were all that
+they met.)
+
+As dawn broke the orcs stopped for a breather behind the long hedge that
+ran along the back of the tournament field. The Orc's Head Tavern lay
+quite still. The shutters had still not been thrown back from the
+windows, and smoke did not yet rise from the chimney.
+
+
+12
+
+Inside the tavern, Brandon slept fitfully. It had been very kind of Mr.
+Wallop to offer him bed and board for the week until the dragon came
+back again, but Brandon could not get used to the bed. Mter so many
+years of sleeping on hard stone floors, or in the - even harder - crook
+of the dragon's tail, the bed was just too soft.
+
+He had tried sleeping on the floor instead, but that had its own
+problems. The Wallops had a dog. It might have been a guard-dog once;
+now it was more of a fire-guard. It certainlly kept everyone well away
+from the fire, for though old and slow, it still had a nasty temper.
+When the hearth grew cold in the middle of the night, the dog would look
+for somewhere warm to lie. And if Brandon was asleep on the floor,
+'somewhere warm' meant on top of the dwarf. So Brandon lay safely on the
+bed, and dozed as best as he could.
+
+But Brandon was also suffering from Landlord's Elbow, (not to be
+confused with Housemaid's Knee) and that kept him awake. Mr. Wallop's
+offer of bed and board had not been entirely out of kindness. With the
+orc gone and Young Jack still off playing at being an adventurer, the
+Orc's Head was without a pot-boy. Brandon was pressed into service. The
+dwarf didn't mind the washing and polishing - he was very good at that,
+having had lots of practice in the treasure chamber - but whenever he
+was working at the sink, and Mr. Wallop was serving at the bar, he had
+an attack of Landlord's Elbow. Every time Mr. Wallop pulled a pint,
+Brandon got an elbow in his left ear. It was getting quite sore.
+
+Most of all though, Brandon was afraid that the orcs would attack before
+Saturday came round and the dragon would be back to keep him safe. He
+had also heard about the guide book merchants, and could guess how any
+orc would feel about that business. It was a reasonable bet that the
+orcs would be back to put a stop to that litfie caper. The only real
+question was 'When?'
+
+At least he could rest easy over one thing. He had managed to persuade
+the magician-merchants to pack their bags and clear out while it was
+still safe. They had not been keen on the idea at first, and had
+poo-poo'ed Brandon's fears. But when adventurers (teleporting back for a
+swift jar or two) started telling tales of military manoeuvres and
+scimitar sharpening, the merchants changed their minds.
+
+They had heard, so they said, that someone had invented something they
+called a printing press, and that with it they could produce guide books
+by the thousand, instead of having to scribble them out by hand, one by
+one. Unfortunately, it was rather a long way away, so they had better
+get started as quickly as possible. So, thanks for the lodgings, Mr.
+Wallop. and not to worry about trade, soon the Orc's Head Tavern would
+have customers by the score as the guide books reached a new and wider
+audience.
+
+Yes, thought the wily dwarf, and not to worry about food, Mr. Dragon.
+Soon you will have a plentiful supply of fresh young adventurers. That
+should keep you busy, and give me a chance of getting my hands on some
+treasure - at last!
+
+Oh, yes! Brandon knew what he was doing when he got the merchants away
+to safety. But it didn't solve his immediate problem, and he grew more
+nervous as each day passed.
+
+Thus it was that Brandon was awake when the orcs arrived at the
+tournament field. He had got up to stretch his legs - which was soon
+done - and was taking a bleary look at the new day through the gap at
+the bottom of the shutters, when he noticed a glinting in a gap in the
+hedge beyond. Something metallic was reflecting the first rays of the
+rising sun. He rubbed his eyes and looked again. His worst fears had
+been realised. It was an orc's helmet that glinted in the sun.
+
+Brandon ran through the inn shouting "To arms! To arms! The orcs are
+attacking! Over there! Over beyond the field!"
+
+There was a flurry of excitement and a rush for those windows that
+looked out across the green. The Wallops and their overnight guests
+watched as four orcs slipped furtively through gaps in the hedge.
+
+"Ho, ho! Here comes my new set of bowls!" chuckled Barney. "Can't get on
+with those wooden things." he added as an afterthought.
+
+"Let's go and get them!" cried a keen young adventurer. Another four
+orcs appeared through the hedge.
+
+"Ah, and there's a set for Gaffer Smithies," commented Barney.
+
+The keen young adventurer counted heads in the tavern. There were nine
+of them, including Mrs. Wallop. Brandon and the dog. He slipped away
+quietly to pack his bags.
+
+Another four orcs appeared.
+
+"... and a set for Old Norman. We'll be well equipped this season."
+Barney was delighted with the turn of events.
+
+Mrs. Wallop brought him down to earth with a bump. "And who's going to
+collect them?" she asked, gesturing to the adventurers who were all
+disappearing in search of their belongings.
+
+"Hmm. Perhaps we will need a bit of help." Barney turned to the dwarf.
+
+"Right, the missis and I will go and round up the troops. Master
+Brandon, you keep 'em busy till we get back." The dog growled to show it
+understood.
+
+"And don't you let them come in here with their muddy boots on after
+traipsing across that field!" Mrs. Wallop added as she hurried after her
+husband.
+
+By the time Brandon reached the front door, the Wallops were galloping
+off down the road on their old mare, and all that remained of the
+adventurers were a few wisps of smoke from the teleporting.
+
+If the dwarf had run then, he might have got out of sight before the
+orcs reached the front of the tavern. But he didn't. He thought about Mr
+Wallop's silver measuring cups and went back to help himself to them. It
+only took a few seconds, and he might still have made it but for the
+dog. It saw him stashing the silverware in his pockets and stood with
+lips curled back and a deep growling in its throat, barking his way to
+the door. Brandon looked for another way out, but there wasn't one - not
+from that corner of the tap room.
+
+
+13
+
+Brandon was still trapped in the corner when the orcs burst in,
+brandishing their scimitars and howling wild war-cries. The dog turned
+round at the noise and began to snarl, but when it saw what it was up
+against, it slunk off and hid under a corner-seat. Frightening a
+three-foot dwarf was one thing, but a band of orcs was something else
+altogether. Besides, the dog's orders were to let no-one steal anything.
+The landlord hadn't said anything about no-dozens.
+
+The orcs were a bit crestfallen when they realised that the guide book
+merchants had fled, and they'd only got a single, scared dwarf to vent
+their terrible rage on, but they decided to make do with him. They
+advanced across the room waving their wicked weapons willfully. Brandon
+was small, and scared, but he was also slippery. As the wall of orcs
+closed in on him, he dived between Spindleshanks' bandy legs and ran
+behind the bar. There, he dived down the cellar stairs and bolted the
+heavy trap-door behind him.
+
+The orcs thundered in pursuit, but as they crushed into the space behind
+the bar they discovered something even more interesting than one puny
+dwarf. An amazing supply of booze! Bottles of every shape and size!
+Casks, jugs, barrels and beer pumps! Brandon was instantly forgotten.
+
+They didn't give him another thought until the beer ran out several
+hours later. Grok - who had learnt about these things - knew that there
+were other barrels in the cellar. He pulled at the trap-door and
+remembered about Brandon.
+
+"Hey, you lot," he shouted to his band, "it's time for pub games. We're
+going to play 'Smash the Dwarf.' Get this trap-door open and we'll
+start." Brandon had been quivering quietly in the cellar listening to
+the shenanigans that were going on overhead, so he heard about the new
+game that Grok had just invented. He decided that he didn't want to play
+and worked his way deeper into the barrels and crates that were piled
+high in the cellar. As he burrowed further back it got lighter, rather
+than darker, which surprised him until he realised that there was
+another entrance to the cellar, out in front of the pub, and that
+sunlight was filtering through the cracks in the wooden door.
+
+He hurried over to it, stacked empty crates into a staircase, and
+climbed up. He eased back the bolt quietly, and cautiously lifted the
+door. He peeped out. All clear! He threw back the door, hauled himself
+out and began to run for it.
+
+Meanwhile, the orcs had just managed to get into the inside trap-door in
+time to see Brandon disappear out the outside one.
+
+"After him!" bellowed Grok.
+
+Brandon ran as fast as his little legs would carry him. It was just an
+unfortunate fact of dwarvish life that little legs don't carry you very
+fast, so by the time he reached the tournament field, the orcs were
+close and gaining on him rapidly. A deep black shadow passed over him,
+matching the deep black despair he felt, for he believed that his end
+was nigh.
+
+But how wrong he was, for the shadow was the shadow of the dragon coming
+in to land. As it swooped down low over the green, the orcs didn't wait
+to see what it would do. They turned and ran for their lives. The dragon
+banked into a curve and came round to land bumpily in front of Brandon.
+
+"Oooh!" It said as it stopped. "Hello, sweety. Having a spot of bother
+are you?"
+
+"Oh, am I glad to see you, Puffy" exclaimed Brandon, quite forgetting
+his usual manners. "Those orcs nearly had me then."
+
+"Nice to see you too, Brandon love. I was going to give that lot a
+roasting as I passed over them, but I didn't think it would do the grass
+much good. Wouldn't want to upset old Barney, would we? But where is he
+anyway?" The dragon looked round at the empty field. "And where's
+everybody else? where are those pretty little striped tents, and the men
+in their tin suits, and all the lovely ladies? Where's the ox? What's
+going on? Don't they know it's Saturday?"
+
+"But it's Friday," Brandon told him.
+
+"Bother! All that flying again tomorrow! Still, I think I'm glad I came
+when I did." The dragon wrapped a protective claw around Brandon.
+
+"So am I," said the dwarf with feeling.
+
+"Shall we go home, Brandon?" it suggested.
+
+"That's a good idea, Puff," he agreed. "I'm all behind with my
+polishing, and I've had an idea for re-arranging the Rings 'n' Things
+display."
+
+"Brandon..." the dragon began.
+
+"Yes, Puff?"
+
+"If I promise to leave you my treasure in my will, will you promise to
+stop trying to steal it?"
+
+Brandon considered the offer carefully. Being heir to a fortune had a
+certain appeal. "Yes, I will," he replied. as he climbed onto the
+dragon's back.
+
+"There's just one thing, though." he added as they set off. "How long do
+dragons live?"
+
+"Forever, sweety. Just like dwarves!"
+
+
+14
+
+"What now, Chief?" asked Brainz, as the orcs, cowering in the tavern,
+watched their victim fly away on the dragon's back.
+
+Grok snarled with frustrated malice. "Burn down this place!" he ordered.
+
+"But what about the booze!" cried Oleari and Grindleguts together. Grok
+had to think about that. "Carry what we can, and drink what we can't,"
+he decided.
+
+With forty-five gallons of beer, seventeen casks of applejack, twelve of
+brandy, eight barrels of mead, fourteen cases each of red, white and
+rose wine, uncountable bottles of stout, cider, barley wine, imported
+lager and various other foreign fluids, there was rather a lot that the
+orcs couldn't carry.
+
+They were still trying to drink their way through the remainder when the
+Wallops came back - and they were not alone. They had bought with them
+Sir Cecil de Breeze and his men at arms, along with six knights and
+their retinues who were lodging with the de Breezes in readiness for the
+Saturday tournament; a patrol of the King's Horse that they had met on
+the road; the volunteers from Ambridge - mainly archers; Gaffer
+Smithies, Old Norman and the rest of the bowling club, all armed with
+scythes; and Mrs. Wallop and the members of the Orc's Head Tavern Ladies
+Bowling Team.
+
+Skraggit, who happened to be looking out of the window when they
+appeared, didn't know who they all were. Just that there were an awful
+lot of them. He reeled over to Grok and told him the news.
+
+"Wossat?" said Grok. "You seen an army? He lurched over to the back
+window and peered drunkenly out. "Well, I can't see 'em."
+
+"No, no, Chief! Over there." Skraggit waved an arm to point to the front
+of the tavern, but the gesture sent him reeling so that he finished up
+pointing out of Grok's window. Grok looked again, but still couldn't see
+any army.
+
+"Right on, Skiaggit," he said. "You seen 'em. You sort 'em out!" With
+that he went back to the serious business of emptying bottles.
+
+"All right then, I will," said Skiaggit. He steadied himself and lurched
+out to meet the army.
+
+Sir Cecil had drawn up his command a hundred yards down the road from
+the tavern, out of bowshot. He saw the orc staggering slowly and stiffly
+up the road towards them and turned to Barney Wallop. "Looks like your
+pot-boy gave them a pasting. The fellow can hardly walk."
+
+"I don't think he's pasted, Sir Cecil. I think he's plastered," replied
+Barney, who recognised the signs.
+
+"You mean drunk! Pah! Disgraceful! Doesn't he know it's against the
+rules of war to be drunk on the battlefield?" Sir Cecil was disgusted.
+He spurred his steed down the road to meet the orc.
+
+"I say. you fellow!" he called. "what's the meaning of this! How do you
+expect to fight in that condition?"
+
+"I don't," replied Sicraggit. He had had a bright idea on his way out
+from the tavern.
+
+"What? A coward as well? Terrible." Sir Cecil bristled with rage. "I
+reshent that," said Skiaggit, who had his pride. But he let it pass,
+"what I came to shee you about," he slurred, "wash thish. We demand a
+chight of fampions - a fight of machinons - a sight of pachi.
+
+"A fight of champions!!!" roared Sir Cecil.
+
+"Thash it." Skraggit agreed. "It'sh our right you know."
+
+Sir Cecil fumed, but his hands were tied by the ancient and honorable
+rules of chivalry. Sub-section 4 (Beseigement), paragraph C. "If the
+party of the first part, (the beseiged) shall request a Fight of
+Champions, then the party of the second part (the beseigers) shall
+acquiesce, provided that such a fight shall take place at a mutually
+agreed ground within three leagues of the place of beseigement and at a
+time within twenty-four hours of the initial request, and the fight
+shall be fought under the Rules of Single Combat. (See Sub-section 17,
+paragraphs D to Q..)"
+
+"Where and when?" demanded Sir Cecil curtly.
+
+"Back there," Skraggit waved wildly towards the tournament field and
+fell over. "Tomorrow," he finished, from the ground.
+
+Sir Cecil snorted and returned to his troops. Skraggit hiccoughed and
+reeled back to the tavern.
+
+Meanwhile, inside the tavern, Grok had at last looked out of the right
+window and seen the army of men. The sight of it was sobering - for him
+anyway, though he couldn't get the other orcs to take it seriously. He
+got out his long, leather-thonged whip and laid into them with it. That
+brought them round. He had found that you often need to have a whip
+round after a booze up. Only Grindleguts was still lying flat out under
+a table by the time Skraggit got back.
+
+The orcs crowded round him, demanding to know what had happened. Having
+seen the size of the army that faced them, they were delighted to hear
+that they wouldn't have to fight, but there were some worried faces and
+lots of sudden attacks of splitting headaches, when Skraggit told them
+about the Fight of Champions. Grok settled that problem by volunteering
+Grindleguts.
+
+"But he's useless!" protested Brainz. "What happens when he loses? The
+rules state that the party of the first part - that's us,quot; he
+explained for the benefit of those not versed in contract law, " - has
+to surrender and we've forfeited the right to mercy by going for an FoC."
+
+"An FoC?" echoed Oleari.
+
+"Fight of Champions." Skraggit explained. He knew his Rules as well as
+Brainz.
+
+"What happens to us," Grok said, "is nothing, because we won't be here.
+We're going to scarper tonight while it's dark."
+
+"But we've got to have that fight," objected Skraggit. "It's the Rules
+of War."
+
+'That's all right," Grok calmed him down. "There'll be a Fight of
+Champions. Grindleguts will stay here and do that for us - find some
+rope, Fatty, and tie him up to make sure - it's just that we won't stay
+to watch. There's nothing in the Rules that says we have to, is there?"
+There wasn't, so as soon as it was dark, and the men had settled down to
+sleep around their campfires, Grok and his band slunk away into the
+night. Grindleguts slept tight, peacefully unaware of what his future held.
+
+
+15
+
+Their escape did not go entirely unnoticed. Mrs. Wallop had been
+prowling around the tavern, looking in through the windows to see what
+kind of a foul mess the orcs had made during their occupation. She was
+not pleased with what she saw, and was particularly annoyed when she
+noticed that her nice display of the cups that her Ladies Bowling Team
+had won had been scattered all over the place. "Wait till my Ladies hear
+about this," she murmured darkly.
+
+She was still there when Grok's band slipped out of the little side door
+and scurried off down the road.
+
+Mrs. Wallop bustled back to the camp and marched into Sir Cecil's
+pavilion. Sir Cecil was just about to retire to bed and had changed into
+his red flannel nightshirt - the one with the lace collar and cuffs and
+pale blue butterflies embroidered all over it, that his wife insisted he
+wore on campaigns because it was so nice and warm. He was rather put out
+to see her. That nightshirt was a well-kept secret known only to him,
+Lady de Breeze and his valet; and Sir Cecil wanted to keep it that way.
+He leapt into bed and pulled the covers up to his neck.
+
+"Come back in the morning!" he barked.
+
+Mrs. Wallop was not a woman to be put off that easily. "The orcs are
+running off!" she told him. "Get your men and get after them!"
+
+"Have they all gone?" Sir Cecil was aghast at their ungentlemanly behaviour.
+
+"There's one still there, but all the others are running away. You'll
+have to get a move on if you are going to catch them." Mrs. Wallop tried
+to spur him into action. "Come on! Get up and get moving!"
+
+Sir Cecil was not getting out of bed while she stood there. In any case,
+there was no point. "I'm dreadfully sorry, dear lady, but my hands are
+tied..."
+
+"...so were his, come to think of it," Mrs. Wallop mused.
+
+"It's the Rules of War, madam. If their champion is there then the Fight
+of Champions is still valid, and under the Rules, all hostilities are
+suspended pending its result." Sir Cecil waved a hand over the
+bedclothes in a gesture of helplessness, then realised that the lace
+cuff was showing and hid it again quickly. "My men can do nothing."
+
+"Well my Ladies can!" stormed Mrs. Wallop. "We aren't bound by your
+silly rules... We don't wear frilly nighties with butterflies on,
+either." She added over her shoulder as she left.
+
+Sir Cecil pulled the bedclothes over his head. How would he face his men
+in the morning? Perhaps if he developed a cold and stayed in bed all
+day. they would be so busy jousting they would forget about his
+nightshirt. But what if they came in to see how he was?
+
+Mrs. Wallop stomped off and rounded up her bowling team. She told them
+what was happening to their new sets of bowls, and what they had done to
+her display of cups. The ladies were furious. "Shall we go an get them
+ourselves?" she asked rhetorically.
+
+"Indeed we shall!" they all chorused, then rushed off to get their
+husbands' scythes, and their own chopping baskets.
+
+Within a few minutes they were off in hot pursuit, and as they marched
+they sang their team song:
+
+
+      "Some people think that orcs can be a nightmare,
+      But we believe that they can be a dream.
+      For we will go where neither man nor knight dare,
+      We're the Orc's Head Tavern Ladies Bowling Team.
+
+      Some people like those modern bowls, made of wood,
+      And polish them until they shine and gleam.
+      But we think the old-fashioned ones are just as good.
+      We're the Orc's Head Tavern Ladies Bowling Team.
+
+      Some people say the sight of orcs would scare them dead,
+      And when they see them they begin to scream,
+      But if you want to win you've got to get a head,
+      We're the Orc's Head Tavern Ladies Bowling Team."
+
+Their song echoed aross the moonlit plain. The orcs heard and ran.
+
+
+16
+
+Grok and his band got back to the Orc's Head Tower ahead of the Orc's
+Head Tavern Ladies Bowling Team, but not that far ahead. The orcs were
+still suffering from the after-effects of a hard day's drinking, and the
+lady bowlers were all remarkably spry for their age.
+
+The orcs panted to a halt inside the mouth of the tower, and turned to
+look back at their pursuers. In the early morning light they could see
+that they had been running from eight old women. They hadn't realised
+that there were so few of them.
+
+"Oh, come on! This is ridiculous!" protested Spindleshanks. "It won't
+take us two minutes to sort that lot out."
+
+"Uh,Uh!" Grok shook his head. "That's Mrs. Wallop out there at the front
+of them. I'm not tangling with her. Oh, no!" He knew Mrs. Wallop.
+
+"Perhaps the essential evil of this foul place will keep them away,"
+suggested Samantha hopefully.
+
+"Essential evil!!!" spluttered Grok. "Do you think a few nasty smells is
+going to put Ma Wallop off? Hah! You'll be lucky."
+
+&quotThen we'll have to fight them," said Spindleshanks.
+
+Grok was set against that idea, and cast around desperately for an
+alternative.
+
+"The bridge!" Brainz broke in. "Destroy the bridge. They'll never get us
+then. We'll be safe!"
+
+The others thought this was a great idea. "That really stinks, Brainz!"
+they said, clapping him on the back. But Grok was aghast.
+
+"Destroy the bridge! Haven't I spent the last twenty years guarding the
+flaming thing? Destroy it! Wasn't my great-great-grandfather in charge
+of the slave gang that built It? Didn't he fill the ravine with corpses
+so that the builders had somewhere to stand? Destroy it? You must be..."
+he broke off as another chorus of the Bowling Team song drifted across
+the plain and reached his ears. "...How do we smash it quickly?" he
+asked Brainz.
+
+"Um... I haven't got that far..." Brainz admitted.
+
+"Well think quick!" shouted Grok, picking up Brainz and shaking him.
+"'Scuse I," said Oleari, stepping forward. "I was in demolition before I
+joined up. If we get the keystone out, the bridge should fall by itself
+what we do is this. We give someone a big hammer and lower him down on a
+rope. He smashes up the keystone - that's the big one in the middle, you
+can see it sticking out a bit underneath - then leaps out the way when
+it starts to go, and we haul him up. I reckon we should work out of the
+nose. That would give us the best angle."
+
+"Right, you two at the back nip off and find a rope and hammer for
+Oleari and meet us up in the left eyehole. Come on, lads." Grok put
+Brainz down and clapped a horny hand on Oleari's shoulder. Oleari was
+about to protest that he should be on top doing the supervising, not at
+the dangerous end of the rope, but the gleam in Grok's eye shut him up.
+
+Three minutes later, Oleari was dangling at the bottom edge of the
+bridge banging feverishly on the keystone and cursing himself for
+opening his big mouth. The job was not as easy as he had thought. If he
+didn't hit the stone hard enough, nothing happened. But if he tried to
+get a good swing on the hammer, he would start to spin at the end of the
+rope. The bottom of the ravine was a terrifyingly long way away. On the
+other hand, the bowling team was a terrifyingly short way away.
+
+The other orcs were clustered on the craggy nose shouting their
+encouragement.
+
+"Go on, you pimply-faced berk. Hit it!" shouted Grok.
+
+"Try a bit to the right. It looks powdery," suggested Brainz.
+
+Oleari bashed on. A few more fragments flew off, but not enough. He
+stopped to wipe the sweat out of his eyes.
+
+"Get back to work or I'll cut the rope."
+
+Grok's words spurred him on to greater efforts, but the ladies drew even
+closer while the keystone remained still.
+
+More of the orcs squeezed out onto the nose to see what was happening.
+Oleari bashed on. The ladies marched nearer. The keystone held firm. The
+rest of the orc band came out to watch.
+
+The crack of rock sundering echoed off the mountain wall and across the
+plain. The orcs cheered. "Well done, Oleari!" they shouted.
+
+Oleari stopped banging and looked up. &quotThat wasn't me," he said. "By
+all the Noras! It was the nose!"
+
+The orcs felt the rock of the nose move under their feet and scrambled
+over each other to get back into the eyeholes. Skraggit, who had been
+holding the rope, let it go and dived for cover with the rest. Oleari
+clutched at the keystone that he had been trying to smash a few brief
+seconds before and watched the rope fall past him.
+
+He was still hanging onto it when the massive prow of the nose crashed
+down. The bridge shuddered under the impact, then crumbled and fell down
+and down into the ravine.
+
+"I see Oleari managed to get the keystone out in the end," commented
+Brainz as he watched the demolition expert disappear. "I suppose he
+might as well let go of it now..."
+
+The Orc's Head Tavern Ladies Bowling Team came to a halt on the opposite
+side of the ravine. Grok stuck his tongue out and laughed evilly. That
+was the only Orc's Tongue they were going to see. He ducked away from
+the eyehole quickly as a shower of stones flew through the air. One
+whistled past above his head, but most clattered harmlessly off the
+rocky face of the Orc's Head with its new snub nose.
+
+Grok waited for more stones, then after a while peeped over the rim of
+the eyehole to see what was happening. Mrs. Wallop saw him and shouted.
+"Come out and fight like men."
+
+"Not flaming likely!" Grok shouted back. "You come in here and fight
+like orcs. He laughed loudly until another shower of stones made him
+duck for cover. "What now, Chief?" asked Brainz who was cowering beside
+him. "Breakfast. I'm starving." Grok replied. "What about that lot out
+there?" asked Brainz. "They can't get in, don't worry. Besides, they'll
+have to go home and cook their husband's lunches soon." "And what about
+Grindleguts?" "He can cook his own." Grok had lost interest in the world
+outside. All he wanted was breakfast. "Oink," he bellowed, "what about
+some grub? Oink! Now where's he got to? Oink!"
+
+          OCR'd in by J.Smith - jeremyasmith@lwtcdi.prestel.co.uk -
+          using Textbridge. Proofread by Gunther Schmidl.

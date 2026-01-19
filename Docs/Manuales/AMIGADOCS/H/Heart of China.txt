@@ -1,0 +1,591 @@
+                                  Dynamix
+
+                               HEART OF CHINA
+
+                             Game Documentation
+
+                                 HumbleDox
+                                  6/10/91
+
+-----------------------------------------------------------------------------
+                             ****************
+                             * Introduction *
+                             ****************
+
+ A light hearted romantic adventure in the mold of movies such as
+ "Romancing the Stone" or "Raiders of the Lost Ark", Heart of China (HOC)
+ is far removed from the standard fantasy or sci-fi plots  of  most
+ computer games.  Instead, HOC was designed  to take you on a whirlwind,
+ globe-spanning adventure that captures the flavor and romance of exotic
+ locations and characters.  To achieve  this  goal  we  had  to accomplish
+ both technical and design breakthroughs.  There were two main issues on the
+ technical side that are worth noting.  First was the addition of a Story
+ Branch alert that signals when you've taken a pathway in the story that could
+ have been approached from a different direction.  This was an important
+ addition to the adventure because it allows you to actually see the
+ multiple plot paths in the game.  Rise of the Dragon, HOC's predecessor,
+ also had multiple story branches but the feedback we received told us that
+ most people were unaware that these different pathways existed.  With the
+ Story Branch alert, you'll immediately know when you've tried something that
+ could have been done another way.  Also on the technical side was the
+ artwork.  It was decided very early on that we would use a combination of
+ live actors and  realistic,  hand painted backgrounds to achieve the rich
+ "period" feel of the game.  However, combining the photographed actors with
+ the painted backgrounds turned out to be much harder than we had originally
+ anticipated.  Total  reworking  of  the art work was required on two separate
+ occasions to get it just right.  Despite all of the difficulties encountered,
+ I think the resulting "film quality" look was worth the effort.
+
+ Along with the technical  advances  made  in  HOC,  exploring  the  chemistry
+ between three very interesting characters was a top priority.  Friendships
+ and romance develop over the course of the entire game, with the romance
+ between Lucky and Kate being the focal point and an intriguing "buddy"
+ interaction developing between Lucky and his ninja partner, Chi.  HOC's
+ sidekick system (allowing interaction between three main characters) was
+ essential to this process of fostering believable characters and emotional
+ attachment.  The sidekick system is a powerful feature that will be a
+ critical element in future Dynamix adventure games.
+
+ Finally, I would like to thank the huge team that brought the HOC vision to
+ life. Taking a look at the enormous list of credits gives you an idea of just
+ how many people devoted their time and energy to this project.  It's their
+ hard work combined with Sierra's patience and support that have made this
+ adventure a reality.
+
+ -----------------------------------------------------------------------------
+                               ************
+                               * Overview *
+                               ************
+
+ Welcome to Heart of China, the second game to use the new Dynamix Game
+ Development System (DGDS).  As you are about to discover, the world of
+ Jake Masters is unlike anything you've seen in computer gaming.  Because
+ of this, it's important that you understand the elements that make Heart of
+ China so unique.
+
+ The characters have character...
+ The characters in Heart of China all have personalities and a past...  its
+ important to remember this when you deal with them.  Also, just like real
+ people, they remember things that you've said or done to them.  Keep this in
+ mind because everything you say and do will affect their actions in the
+ future.
+
+ Time clicks on...
+ Time passes in the world of Jake Masters. This means that, just like in the
+ real world, things happen with or without you.  It also means that the
+ passage of time becomes a factor in everything you do.
+
+ You are the main characters...
+ Heart of china unfolds almost entirely through the eyes and minds of three
+ main characters.  What they see you see.  What they know you know.  There's a
+ lot of informaton locked away in the minds of these individuals.  Each one
+ has different skills and knowledge... learn to use them.
+
+ What you see is what you get...
+ In Heart of China. you don't type commands to make things happen.  You enter
+ Jake Master's world and physically make things do what you want them to do.
+ This is one of the most revolutionary concepts of the game.  Through the use
+ of a point-and-click interface, you actually pick up objects and use them.
+ Want to start a tank?  Simply pick up the keys, place them in the ignition
+ and turn the key.  It's simple yet incredibly powerful.  The point-and-click
+ commands are fully explained in the following pages.  Mastery of the basic
+ techniques takes only moments, after which you can begin to explore, learn
+ and grow in your interacbve abilities.
+
+ -----------------------------------------------------------------------------
+                           *****************
+                           * Plot Branches *
+                           *****************
+
+ One of the most unique, and potentially overlooked, elements of Heart of China
+ is the multiple ways in which you can proceed through game play.  These
+ multiple "plot paths" are present because the interactive storyline of Heart
+ of China is NOT LINEAR in design.  There are often several ways to proceed
+ into the story when faced with a puzzle or obstacle.  It's important to
+ remember that your actions affect the flow and direction of the adventure you
+ are playing... you truly "interact" with the game.  There are several
+ entirely different endings to the story.  The ending that you experience, and
+ the paths you take to reach that ending, are completely dependent upon the
+ actions and decisions that you make throughout gameplay.
+
+ Plot Branch Alert
+ Because of the numerous options that plot paths present, it's important that
+ you're aware when you've chosen a story pathway that could have been
+ approached from a different direction.  That's why the Plot Branch alert is
+ used.  It will appear at any point in the adventure when you've chosen a path
+ that could have been approached in a different way.  The Plot Branch alert
+ won't tell you what you've done that could be done differently, it only
+ alerts you to the fact that you have bypassed a potential piece of the story.
+ Also, keep in mind that the Plot Branch alert does not tell you if the choice
+ you made was the best one, it simply indicates that there was another plot
+ path available for you to proceed down.  Remember this if you find yourself
+ at a point in the adventure that appears to be a dead end.  If you are
+ absolutely "stuck," you may have ventured down a plot path that makes it
+ impossible to successfully complete your mission.
+
+ Romance Meter
+ Your actions and choices will not only determinine the physical flow of the
+ storyline but the relationship between Kate Lomax and "Lucky" Jake Master
+ To see how you're doing in the romance department, you can access a Romance
+ Meter (a small heart located in the lower left-hand corner of the screen
+ during flight sequences) which visually displays Kate Lomax's current
+ feelings toward Lucky.  There are three stages to the meter: Passionate,
+ Neutral and Cold.  By left clicking on the icon, you'll be able to see a
+ story panel that displays, through thought boxes, the feelings that the two
+ characters have for one another.
+
+              Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü
+              Ü                 IMPORTANT!                    Ü
+              Ü Keep a watch on the Romance Meter! You may    Ü
+              Ü solve all of the game's puzzles correctly and Ü
+              Ü still not get the optimal ending sequence if  Ü
+              Ü Kate and Lucky aren't nose-to-nose come       Ü
+              Ü Paris.                                        Ü
+              Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü
+
+ -----------------------------------------------------------------------------
+
+                              *****************
+                              * Simplicity... *
+                              *****************
+
+ The essence of Heart of China is the simple action of point-and-click.  The
+ small cursor on the screen represents you in the world of "Lucky" Jake
+ Masters.  By moving the cursor around Lucky's world and "clicking," you
+ interact with his environment.  There are only 3 basic point-and click
+ actions:
+
+   1. LOOK: single click the right mouse button while the cursor is placed
+            over the object you want to look at.  This will bring up a text
+            box Containing information on the object you're looking at.
+
+   2. OPERATE: single click the left mouse button while the cursor is placed
+               over the object you want to activate or select.
+
+   3. MOVE: click and hold the left mouse button while the cursor is placed
+            over the object you want to pick up and move.
+
+              Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü
+              Ü NOTE: not all objects can be picked up so   Ü
+              Ü don't cramp your fingers trying to pick up  Ü
+              Ü a seagull or cow.                           Ü
+              Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü Ü
+
+ -----------------------------------------------------------------------------
+                           **********************
+                           * Simplicity Plus... *
+                           **********************
+
+ O.K., we lied.  There are more than 3 basic point-and-click commands.  We
+ didn't want to discourage you! Besides, the following advanced point-and-click
+ techniques are really just extensions of the big 3. Really... no spreadsheet
+ functions or multi-event video cassette recorder features here.  Just the
+ simple point-and-click with a bit of flare thrown in for added excitement.
+ So hang in there with us! There are only 3 more clicks between you and the
+ point-and-click big league.
+
+
+   1. MAIN INVENTORY: Right click while the cursor is placed on Inventory
+                      Icon, Windows showing a character's status and the
+                      current inventory objects he or she is holding.
+
+
+   2. QUICK INVENTORY: Left click while the cursor is placed on the lnventory
+                       Icon.  Only your inventory window.
+
+   3. USE: While a character is holding a usable object, such as a gun, you
+           can select that object for USE by clicking and holding the right
+           mouse button.  While the right button is held down the cursor
+           will change to indicate that the particular item has been selected.
+
+
+   USE + OPERATE: While an object is selected for USE and the on-screen cursor
+   is showing the icon for the selected object, it can be OPERATED like all
+   other objects, by single clicking the left mouse button.
+
+
+ USING OBJECTS THAT A CHARACTER IS CARRYING
+ To USE objects that a character is carrying, simply click and hold the right
+ mouse button.  The on-screen cursor will change to indicate that the specific
+ object being held has been selected for USE.. When the object is selected for
+ USE, it can be OPERATED in the same way as other.  There will be times when
+ the character's hand can be used as an object.  When the player uses a
+ character's hand (holding no other objects) in this way, the cursor will
+ change to display a hand.
+
+ That's it.  You can now look at objects, move them and operate them.  You can
+ also select and use objects that a character is carrying. Very simple, very
+ easy, low-stress interaction.  On the following pages are more tips and
+ techniques that will help you understand the interaction techniques used in
+ Heart of China.  Elements such as inventory use, talking with other
+ characters, game play options and more in-depth use of the cursor are
+ explained.
+
+ -----------------------------------------------------------------------------
+
+                             ********************
+                             * The Smart Cursor *
+                             ********************
+
+ "Hey! My cursor keeps changing!"
+ Yes, that's right.  The cursor you know and love changes in DGDS games when
+ moved over certain items.  That's because it's small and wants to tell you
+ something about what it's pointing at.
+
+ In addition to pointing in different directions, the cursor will, at times,
+ completely change shape to inform you about items, places or people you
+ should pay attention to.  We've taken the liberty of interpreting this
+ language of cursor-ease for you.
+
+
+    *  When the cursor changes to an exit sign it's telling you that by left
+       clicking on this spot you can enter another room.
+
+    *  When the cursor changes to a pointed exit it's differentiating between
+       two closely placed, but different, exits.
+
+    *  If the cursor changes to a conversation bubble, you can left click to
+       engage in a conversation with the person the cursor is pointng at.
+
+    *  If the cursor changes to a magnifying glass, it's your cue that you can
+       left click to "zoom in" and get a closer look at what the cursor is
+       pointing at.
+
+    *  In some situations the cursor will change to a hand icon.  This tells
+       you that the character may engage in hand-to-hand contact with the
+       items on-screen.
+
+ -----------------------------------------------------------------------------
+
+                            ***********************
+                            * Multiple Characters *
+                            ***********************
+
+ While travelling, you'll find that you can pick up companions who will travel
+ with you.  Because characters have their own strengths and weaknesses, you'll
+ find the need to place different individuals in "control." The characters
+ present in your party are represented by icons located in the bottom corners
+ of the screen.  The Inventory Icon is located in the lower right-hand corner
+ of the screen and always represents the character that is controlling the
+ action.  The Secondary Character Icon is located in the lower left-hand
+ corner and always indicates a secondary traveller who is not controlling the
+ action.
+
+ SWITCHING ACTIVE CHARACTERS
+ Choosing which character to lead the adventure is an important part of puzzle
+ solving in Heart of China.  Because each character has specialized skills,
+ you'll need to pick who does what to successfully complete your quest.  You
+ can switch the Secondary Character with the Controlling Character by simply
+ left clicking on the Secondary Character Icon.
+
+ -----------------------------------------------------------------------------
+
+                           *********************
+                           * Inventory Screens *
+                           *********************
+
+ INVENTORY ICON
+ Located on the bottom right corner of all game play windows, the Inventory
+ icon represents the Controlling Character.  It's use is straightforward and
+ very simple.
+
+   *  To give an object to one of the characters, simply move the item on the
+      top of that character's icon and drop it.
+
+   *  To access the Main Inventory Window, right click on the Inventory Icon.
+
+   *  To access the Quick Inventory Window, left click on the Inventory Icon.
+
+   *  To use an object, the current holder of that object must be the
+      controlling character.
+
+ MAIN INVENTORY WINDOW
+ Accessed by right clicking on the Inventory Icon, the Main Inventory Window
+ gives you control over all items that you have placed into a character's
+ inventory.  You can drop the items from inventory, give them to the character
+ to use or transfer them to the Secondary Character's inventor to use.
+
+ QUICK INVENTORY WINDOIN
+ Accessed by left clicking on the Inventory Icon, the Quick Inventory Window
+ shows you only the object inventory.  While you will not be able to use the
+ inventory items on the character from this menu, you can quickly move objects
+ from inventory.
+
+ -----------------------------------------------------------------------------
+
+                                **************
+                                * Object Use *
+                                **************
+
+ Using objets in the world of Heart of China is easy.  Simply move objects to
+ where you want them to be used or perform an action on objects that need
+ something to be done to them.
+
+   *  If you want to pick something up off the ground and put it in your
+      inventory, you simply move the object onto the Inventory Icon (or
+      Secondary Character Icon) and drop it.
+
+   *  If you want to use an item on something, simply take it out of inventory
+      and drop it on the thing you wish to use it on.  If you want to give an
+      object to a character (besides Chi, Kate, or Lucky), do the same.
+
+   *  Sometimes to complete a task or solve a puzzle it is necessary for you
+      to trade objects between different characters.  This can be accomplished
+      easily from either the main or quick inventory screens.
+
+ -----------------------------------------------------------------------------
+
+                          *************************
+                          * Character Interaction *
+                          *************************
+
+ "Character interaction," or talking to other characters, is a vital part of
+ Heart of China.  The on-screen cursor will change to the talk bubble when it
+ is moved over characters that you can talk to.  To engage in conversation
+ with characters, simply left click on them when the talk bubble is active.
+
+ -----------------------------------------------------------------------------
+
+                           ***********************
+                           * Advanced Techniques *
+                           ***********************
+
+ Here are a few tips and hints that will be helpful once you've mastered the
+ basics.
+
+ TIME
+ In Heart of China, time is an ever-present companion. People come and go,
+ change moods and respond to the passages of time, just as people in
+ the rael world do. Also, you must remember that each day that Lucky delays in
+ recuing Kate he loses $20,000 dollars. This means that if you make a mistake
+ and have to wait around to correct it... it's going to cost you!
+
+ INVENTORY AND OBJECTS
+ Always remember that objects can be dragged directly from the quick inventory
+ window to the game environment. If you need to give an object to another
+ character or use an object from inventory on an object in the current room,
+ simply move the object from Quick Inventory to the place desired.
+
+ CHARACTER INTERACTION
+ The display duration for dialogue boxes shown during character interaction
+ can be controlled in two ways.
+
+   1. The operate command (left click) will immediately move you to the next
+      dialogue box.
+
+   2. The TEXT SPEED settings in the VCR MENU section can be adjusted to speed
+      up or slow down the display duration of all dialogue boxes.
+
+ CURSOR ICONS AND LIMITED KNOWLEDGE
+ Generally speaking, the "smart cursor" in Heart of China will alert you to
+ areas in interest by changing the direction it points or by changing shape.
+ However, there is a limitation to the cursor's intelligence. It can only tell
+ you what the controlling character knows about. For instance, if you're
+ trying to locate something hidden in a room and Lucky doesn't know where the
+ object is, the cursor will not change to indicate the item.  In some
+ instances locating hidden objects requires the trial and error approach,
+ using the OPERATE and LOOK commands to investigate areas where a character's
+ knowledge is limited.
+
+ THOUGHT BOXES AND DESCRIPTION BOXES
+ When you issue a LOOK command, you will get one of two types of descriptions
+ boxes:
+
+   1. THOUGHT BOX Shown when a character has a personal comment about what you
+      are looking at.  Thought boxes give insight into each of the main
+      characters and valuable clues on game play.
+
+   2. DESCRIPTION BOX Offers text descriptions of whatever you are looking at.
+
+ -----------------------------------------------------------------------------
+
+                        *******************************
+                        * Meanwhile & Story Sequences *
+                        *******************************
+
+ Heart of China operates in a living environment where events are happening
+ all the time, whether you're present or not. When an event of interest occurs
+ and you aren't there to witness it, a Meanwhile Screen will pop up
+ introducing a sequence that shows you what's occurring. Meanwhile sequences
+ are intended to convey information that heightens the cinematic experience of
+ the story. It's important to note that these sequences are not interactive,
+ you can't affect them, and the information given in the sequences isn't known
+ to your game alteregos unless the character is pictures in the sequence. The
+ fact that characters aren't knowledgeable of the events shown in meanwhile
+ sequences is important to remember. It means that their questions and
+ responses to other characters will only deal with elements that they are
+ aware of.
+
+ -----------------------------------------------------------------------------
+
+                             *******************
+                             * Game Play Menus *
+                             *******************
+
+ VCR MENU
+ Pressing the ESC key or left clicking on the top of any game play screen will
+ bring up the VCR Menu.  This is the main menu from which all others are
+ accessed. The following is a breakdown of the 5 menus, and their sub-menus,
+ available from the VCR Menu.
+
+   *  CONTROLS MENU
+      -  DIFFICULTY: Adjusts difficulty levels in arcade sequences.
+      -  TEXT SPEED: Adjusts the duration of Dialogue Box display.
+      -  DETAIL LEVEL: Adjusts the amount of animation displayed.
+      -  VCR: Returns you to the VCR Menu.
+      -  PLAY: Returns you to game play.
+
+   *  OPTIONS MENU
+      -  JOYSTICK ON/OFF
+      -  MOUSE ON/OFF
+      -  SOUNDS ON/OFF
+      -  MUSIC ON/OFF
+      -  VCR: Returns you to the VCR Menu.
+      -  PLAY: Returns you to game play.
+
+   *  CALIBRATE
+      -  BUTTON THRESHOLD: Allows fine tuning of what the game considers a
+         button "click."
+      -  JOYSTICK: Brings up joystick calibration screen with instructions on
+         "centering" your joystick for the game.
+      -  MOUSE: See below.
+      -  VCR: Returns to the VCR Menu.
+      -  PLAY: Returns to game play.
+
+    * MOUSE SUB-MENU
+      -  MOUSE SPEED: Controls how fast the cursor moves with mouse movement.
+      -  CALIBRATE: Returns to the CALIBRATE menu.
+      -  PLAY: Returns you to game play.
+
+    * FILES
+      -  SAVE SUB-MENU: See next page.
+      -  RESTORE SUB-MENU: See next page.
+      -  RESTART: Quits the current adventure and restarts the game from the
+         beginning.
+      -  VCR: Returns to the VCR  Menu.
+      -  PLAY: Returns to game play.
+      -  SAVE SUB-MENU: Brings up the Save menu.  Up to 20 games can be saved
+         in one directory.  The Save feature is NOT operational during
+         Meanwhile Story sequences, dialogue sequences or arcades.
+      -  RESTORE SUB-MENU: Brings up the Restore menu.  Restoring a previously
+         saved game will quit the current game.
+      -  QUIT: Brings up the QUIT menu.
+           -  YES: Quits the game and exits to DOS.
+           -  NO: Aborts the QUIT game command, returning you to game play.
+
+ -----------------------------------------------------------------------------
+                            *********************
+                            * Keyboard Controls *
+                            *********************
+
+ The keyboard equivalents for mouse and joystick controls have been simplified
+ and combined to make keyboard play less frustrating.
+
+ Cursor Movement
+ The cursor is controlled on the keyboard by the Arrow keys on the numeric
+ keypad and the Tab key.  When continually pressed, the Tab key will cycle
+ through known. active object locations.  The combination of Shift + Tab will
+ cycle the cursor in the opposite direction.
+
+    press Tab key once = move cursor to next object.
+    press Shift + Tab once = move cursor to previous object.
+
+ Pick Up/Drop & Operate Commands
+ The multiple commands used for OPERATE and MOVE have been combined into one
+ keystroke on the keyboard.  Pressing the Spacebar or 5 on the numeric keypad
+ will operate objects that can be activated and Pick up or Drop objects that
+ can be moved.
+
+    press Spacebar or keypad 5 once Pick up or OPERATE object.
+    press Spacebar or keypad 5 again Drop or OPERATE object again.
+
+
+ Look Command
+ The LOOK command is controlled by the ENTER key.
+
+    press ENTER key once = LOOK at an object.
+
+ VCR Menu
+ The VCR Menu can be brought up at any time during game play by pressing the
+ ESC key.  a Press ESC = bring up VCR Menu.
+
+ -----------------------------------------------------------------------------
+
+                            ********************
+                            * Action Sequences *
+                            ********************
+
+ The action sequences are interwoven into the evolving story.  If they are
+ completed successfully, or if you choose to skip them, normal game play will
+ resume.
+
+ THE CHENGDU TANK SIMULATION
+ The control of the tank is fairly straightforward.  You can move forward at
+ two speeds, turn left or right and fire your single shell cannon.
+
+   MOUSE CONTROL: left click on the desired Mouse Control Pad action icon to
+   make the tank move, fire, turn or stop.
+
+   JOYSTICK: Increase Speed = Joystick Forward
+             Decrease Speed = Joystick Back
+             Fire Cannon = Button #1
+             
+
+   KEYBOARD: Increase Speed = Numeric Keypad 8
+             Decrease Speed = Numeric Keypad 2
+             Fire Cannon = Space Bar
+             Stop Tank = Numeric Keypad 5.
+
+
+ THE ORIENT EXPRESS TRAIN BATTLE
+ In the Orient Express action sequence, you "direct" Lucky from a side view as
+ he strives to drive his attacker off the back of the speeding train.
+
+   MOUSE CONTROLS: Directing Lucky's actions during battle are as simple as
+   left clicking the command on the Mouse Control Pad.
+
+   JOYSTICK: Attack = Button #1
+             Rest = Joystick Forward
+             Duck = Joystick Back
+
+   KEYBOARD: Attack = A
+             Retreat = R
+             Rest = S
+             Duck = D
+
+ -----------------------------------------------------------------------------
+
+                              QUICK REFERENCE CARD
+
+ ESC or F10.................VCR Menu
+ Alt C......................Joystick Calibration
+ Alt R or F9................Restart
+ Alt Q......................Quit
+ Alt S or F2................Sound On/Off
+ Alt M......................Music On/Off
+ Alt J......................Joystick On/Off
+ Alt D......................Mouse On/Off
+ Alt P......................Pause Game
+ F5.........................Save Game
+ F7.........................Restore Game
+ TAB........................Toggle between hotspots
+ CTRL-C.....................Clear text box in Save Menu
+
+ NOTE: During character interaction and non-interactive story
+ sequencese, pressing SPACEBAR or ENTER will advance to the next
+ dialogue box or story screen.
+
+ -----------------------------------------------------------------------------
+                                Need Help?
+                          Call the Sierra/Dynamix
+                            Automated Hint Line
+                                  System
+
+         You may reach the hint system by dialing: 1-900-370-KLUE.
+         California users need to call: 1-900-370-5113.
+         This service is available 24 hours a day and the charge
+         for this service will be .75 cents for the 1st minute and
+         .50 cents for every additional minute. Long distance
+         charges are included in this fee. Callers under the age
+         of 18 must get their parent's permission before calling
+         the hint line.

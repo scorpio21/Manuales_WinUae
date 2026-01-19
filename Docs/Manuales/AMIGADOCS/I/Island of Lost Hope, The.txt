@@ -1,0 +1,338 @@
+                    ISLAND OF LOST HOPE DOCUMENTATION
+
+             Brought to you by Angel Eyes of Vision Factory
+
+
+                       
+                               ADVENTURING
+  In an adventure game you play the role of a character in a story. You must
+  manipulate the story in such a way that you can continue your quest. This
+  is done by finding certain objects and using them in a particular way for
+  solving puzzles. Carefully chosen actions should allow you to reach your
+  goal or eventually the conclusion of the story. Communication with the
+  story is done by typing in commands that determine what happens next.
+  These commands usually involve an action word or verb such as "Examine",
+  "Get","Drop","Throw" or "Attack" and the object or noun you want to act
+  upon such as "Room","Book","Key","Stone",or"Man". Commands may be more
+  precise than simple two word inputs and may include adjectives and words
+  such as "the". This allows players to type in commands that are more
+  natural and descriptive. The simple commands may not always be enough to
+  tell the program what you exactly want to do. You may have to specify the
+  "object" that you will use to commit this action, as in "Unlock the door
+  with the iron key". You may also need to specify what to do with the
+  object, as in "Throw the coconut into the ocean". Words such as "the","a"
+  and adjectives may be omitted, so "Unlock the wooden door with the iron
+  key" becomes "Unlock door with key". In this case if you possessed more
+  than one key the program would prompt you to pick which type of key "Iron
+  or Silver". Some actions only require one word such as "Look" and
+  "Inventory". If you use "Look" by itself it will print the room description
+  while "Inventory" will give you a list of objects that you are currently
+  carrying. Not all actions have good effects. Some may get you killed,
+  stop you from solving a puzzle, or may do nothing at all. Not all the
+  commands you type will be understood by the program: remember the program
+  isn't a person and can't possibly have that large of vocabulary and under-
+  standing. If you encounter a phrase that isn't understood, act according
+  to the error prompt you receive. If the program doesn't understand a verb
+  then try others that have similar meanings, if those fail then it is reason-
+  able to think that the verb is not used in the story. The program under-
+  stands the most commonly used verbs. To examine something you can use words
+  like "look","search" or "examine" but not "peruse". The program understands
+  quite a few words, but remember the most commonly used words throughout any
+  adventure game will usually be "go","look","drop","get", and "open". If a
+  noun isn't understood then that object isn't in the game or you spelled it
+  wrong. If the sentence isn't understood then try to reword it in a more
+  logical order and simplify it into the format shown above. If you are
+  prompted with an error message like "with what" or "You can't unlock the
+  box with nothing" then retype the command, but remember to include the
+  object with which you wish to perform this action. Always remember to look
+  at everything for clues and use your understanding of how an object may be
+  used, no matter how bizarre, to solve a puzzle. Following is a typical
+  sequence from an adventure game:
+
+  "You walk down into a room in the basement. Acounter surrounds three walls
+  and on the counter are various objects. An Amiga computer and monitor sit
+  on the middle counter. An exit leads south and stairs lead upward".
+
+  Examine the computer
+
+  "On the computer is a switch."
+
+  Turn on computer
+
+  "The screen lights up and prompts you to insert a disk."
+
+  Get disk
+
+  "The disk is not here."
+
+  Go South
+
+  "You go south. You are inside a small messy closet. Garbage is all over the
+  place."
+ 
+  Search the garbage
+ 
+  "You find a particularly interesting small blue square object."
+
+  Get the disk
+
+  "You get the disk."
+
+  Examine the disk
+
+  "The label says 'Island of Lost Hope'."
+
+  North
+
+  "You go north. A computer surrounds three walls on the counter are various
+  objects. An Amiga computer and monitor sit on the middle counter. An exit
+  leads south and stairs lead upward."
+
+  Put the disk into the computer
+
+  "The screen lights up and you sit down to play."
+
+  This is a fairly simple example, but it is a good starting point for playing
+  an adventure. Expermenting with various words usually has to be done in
+  order to solve a puzzle.
+  
+ 
+                          LOADING THE PROGRAM
+  1) Follow normal booting procedure as described in your computer manual.
+  2) Insert "disk one" at the workbench prompt.
+  3) After the Intro has played and game has been loaded you will be prompted
+  to insert disk two*. Remove disk one from the internal drive and replace it
+  with disk two.
+
+  NOTE: You won't have to reinsert disk one again until you finish the game
+  ending animation has to be loaded.
+
+  *Disk one is copy protected(not anymore haha!)but disk two is not protected.
+  Since you save games to disk two we recommend you make a copy of it and
+  always use the copy to play the game.
+
+
+                               GETTING STARTED
+  For those with a megabyte(1024k)of memory or more please note that when the
+  second disk begins to load, the graphics file will be loaded into memory.
+  This will increase the intial loading time by about 50 seconds but will
+  greatly enhance the playability and speed of the game. Although we recom-
+  mended extra memory, those with 512k will still get these features. The last
+  few graphics are stored in a ram buffer, so the graphics won't have to be re-
+  loaded every time you move between adjoining areas. If you have at least one
+  and a half megabytes of memory, then as the sounds are loaded they will be
+  stored in a ram. The animators will still load from disk even with extra
+  memory, but they are only played once at specific times in the game. Please
+  leave the second disk inserted in the drive at all times unless otherwise
+  prompted. Those people with the early Amiga 1000 computer systems should note
+  that the program uses extra halfbrite. Although the program works fine on
+  these machines the graphics lose some of their depth. You can contact your
+  local dealer if you want to get your machine upgraded.
+
+
+                             THE STORY SO FAR...
+  You are a young captain searching for the lost treasure of forgotton souls.
+  unfortunately, in your quet you ran into a band of cutthroat pirates led by
+  the infamous Captain Black. They sink your ship, killing all of your crew
+  and stealing your cargo. You were thrown overboard in the battle and drifted
+  until washed upon a nearby small island. Now you stand there watching the
+  pirate ship, anchored within sight, as they gloat over their victory. All
+  the resources you had at hand are now lost and only your wits will get you
+  out of this alive. The treasure seems so distant now and your only thoughts
+  are on survival and revenge.
+
+
+                             NUMBER KEYS
+  To move from one area to another you can type in the direction, click on
+  the movement gadget as described above or press the number keys. "8" is
+  north, "4" is west, "6" is east, "2" is south, "5 is down and "0" is up.
+
+
+                         DELETE AND BACKSPACE
+  Backspace moves the cursor back one space and erases the character at that
+  location. Delete deletes the current character the cursor is on. Like back-
+  space, all the characters after the cursor are moved back one space. If
+  after deleting, two spaces or periods are back to back then one is auto-
+  matically erased.
+
+
+                       RESTORING/SAVING A GAME
+  The second disk should should always be write-enabled so you can save your
+  games to that disk (use a backup copy). You can get to the store/restore
+  menu by using different methods. Use the F10 key as described in the special
+  keys section, type "save" or "restore" into the text window or press "R"
+  after ending or quitting a game.
+
+  Ten games can be saved at any one time. labelled 0-9. To restore a game
+  simply click on the saved game or press the corresponding number of the
+  game you wish to restore.
+
+  To save a game, pick the number you wish to store into(the previous game in
+  that location will be erased). A cursor will appear at the save position,
+  and you will be prompted to type in the name of the game you wish to save.
+  Most of the special keys are disabled when inputting the name of the game,
+  but you can edit the text as usual. Pressing shift with the right of left
+  cursor will now move the cursor to the end or beginning of the line
+  respectively. The up arrow will print the previously saved game name for
+  that position. Press return to save the game or ESC will take you back to
+  the save game menu.
+
+                       
+                         WHEN THE GAME IS OVER
+  When you are killed or exit the current game you will be prompted to "Play
+  Again?(Y/R)". Use the right and left cursor keys to highlight your choice
+  and press return, or press the coresponding key. Press "Y" to play again or
+  "R" to restore a saved game.
+
+
+                         THE SCREEN LAYOUT
+  
+                    THE TOP HALF OF THE SCREEN
+  The top half of the screen contains the following:
+ 
+  On the left side is a port hole through which a graphic representation of
+  the area you are currently in will be shown. On the right side of the
+  screen is a map which shows your current location represented by a blue
+  sphere. It also shows you all the areas you have visited on this level and
+  the possible exits. In the middle of the screen is a graphic of a skull
+  surrounded by the letters "N E W S U D" (each one represents a direction).
+  Click on the specific letter with the left mouse button, by using the
+  mouse to move the pointer (sword) to that particular letter. The bottom
+  half of the screen will inform you whether or not the move is possible. If
+  you were successful the graphic will change and a new room description will
+  appear. You can also move around by hitting various keys, please read the
+  next sections for more information.
+
+                     THE BOTTOM HALF OF THE SCREEN
+  The bottom half of the screen is the text area. In this area the text that
+  you type will be displayed along with the descriptions, responses and
+  prompts from the game. On the right half of the screen you will see a box
+  labeled "Inventory". All the objects you are currently carrying will be dis-
+  played here. A maximum of six objects can be displayed at once, but by
+  clicking on the up and down arrows you can scroll through your entire
+  inventory. Moving the pointer over the name of the object will highlight
+  the text and then by clicking on that name will perform the following. If
+  your current input is empty then a description of the item will be printed
+  in the text window. Otherwise, if there are enough characters in the line
+  to accomodate the word, the object's name will be inserted at the current
+  cursor position. For example if you had typed "Throw" and clicked on the
+  word "Coconut" then your input would now read "Throw Coconut". A space is
+  added if one is not already there. For a better understanding of how to
+  input your commands read the next section. You can also list the items you
+  hold by typing "Inventory". Instead of using the inventory gadget you may
+  type the object's name. Before you pick up an object you will have no
+  choice but to type in it's name, if a list was displayed of all the objects
+  in the room, it would be too easy to find the items.
+ 
+                   HOW TO INPUT INTO THE TEXT WINDOW
+  When the cursor appears on an empty line the program is waiting for input.
+  Type whatever commands you want to enter into the program, and they will
+  appear in the window. You can type in upper or lower case, there is no dis-
+  tinction between them. The maximum you can input for any command is 52
+  letters. When the cursor reaches the end of the line, the program will
+  accept no more input for that command. Apart from the letters, the only
+  characters that are accepted for input are "&" or "'" or ".". You can in-
+  clude numbers in your save game names, otherwise the number keys serve a
+  differnt purpose as described in the next section on special keys. The
+  cursor can always be repositioned at any part of your typed command using
+  the cursor keys.
+  
+  If you notice a misspelling in a command you just typed, use the left arrow
+  to move the cursor to the mistake. Use the backspace or delete key to remove
+  the misspelling and anything you type will be inserted at that point. The
+  program automatically formats the text as you type. Only one space or period
+  is allowed between words. A period is used to separate different commands
+  just as "and" is used. You can type "get book and go east" or "get book.go-
+  east", both work the same way. The program's parser allows for multiple
+  commands, and with some verbs multiple nouns can be used. With "get" or
+  "drop" you can specify "get key and pen" or even "get all but knife". The
+  text window displays a maximum of eight lines at once, when full, a prompt
+  will appear for more. Press any key or the mouse button to scroll the text
+  to the next section.
+
+
+                             SPECIAL KEYS
+  HELP - The help key displays a brief explanation of what each special key
+         does, much like this section.
+
+
+                             FUNCTION KEYS
+  The first five function keys (F1-F5) are macros. Press shift with that
+  function key to define the key. These keys are predefined but can be used
+  to store any frequently used commands. When you are defining the function
+  keys most of the other special keys are dormant but the cursor keys will
+  still allow you to edit the text. The previously assigned function for that
+  key will be displayed above the input prompt. To keep the same macro press
+  return without typing anything, otherwise press the return key after you
+  have entered the new function.
+
+  Pressing function keys F1-F5 will insert that function's macro into the
+  current command, starting at the cursor. If the length of the macro plus
+  the length of the command exceed the maximum size of input, then nothing is
+  added to that command.
+
+  The other function keys are defined below:
+
+        F6 - Takes you to the restore game menu.
+  Shift F6 - Takes you to the save game menu.
+  (READ THE RESTORE/SAVE GAME SECTION FOR MORE INFORMATION)
+
+        F7 - Clears the screen and moves the cursor to the top line.
+  Shift F7 - Clears the line and moves the cursor to the beginning of the
+             line.
+ 
+        F8 - Clears the text after the cursor.
+  Shift F8 - Clears the text before the cursor and shifts the remaining text
+             to the beginning of the line.
+
+        F9 - Moves the cursor to the end of the line.
+  Shift F9 - Moves the cursor to the start of the line.
+
+        F10 - Turns the graphics on.
+  Shift F10 - Turns the graphics off.
+
+
+                            CURSOR KEYS
+  The left cursor moves the cursor back one character. Using the shift with
+  the left arrow will move the cursor to the beginning of the current word or
+  the beggining of the last word.
+
+  The right cursor moves the cursor forward one character. If you are at the
+  end of the current input then the cursor won't move until another character
+  is typed. Pressing shift with this key will cause the cursor to jump to the
+  end of the current word or the beginning of the next word.
+
+  The right and left cursor keys are also used to select between different
+  objects. If the program isn't sure which object you want to use, for example
+  "iron key or silver key", it will give you a choice between the two objects.
+  Use the cursor keys to switch between the objects and press return when
+  done. Select abort if you don't want to use that command.
+
+  The up cursor key actsmuch like pressing the first five function keys. But
+  instead of inserting a defined macro it inserts the last command that was
+  followed with a return. So if you make a mistake in typing a command,
+  simply press the up arrow and edit the command.
+
+  The down cursor key is similar to the up cursor key. It, however, does not
+  insert the last command but erases the line and prints the last commands
+  entered. The second to last command is printed first and by continuously
+  pressing the down arrow the previous five commands are scrolled through.
+  Please note that your current input will be erased when using this key.
+
+
+                         MISCELLANEOUS KEYS
+  ESC - Allows you to quit your current game and restart. A prompt appears
+  asking if you really want to quit. Just press the "N" key if you accidently
+  pressed escape.
+
+  TAB - Dims the colors of the screen to half the intensity of the normal
+  palette or returns the palette to normal if it was laready dimmed. This is
+  helpful for reducing eye strain when playing in a dimly lighted room.
+
+  (.) Turns the sound on/off.
+  (=) Turns the wipes on/off.
+  (') Switches between two available fonts.
+
+      Imported by Midnight Maniac & Mayday on 15/1-90    
+
+                   H A V E   F U N ! ! !

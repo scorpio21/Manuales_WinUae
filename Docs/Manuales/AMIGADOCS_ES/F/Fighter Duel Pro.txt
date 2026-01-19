@@ -1,0 +1,233 @@
+Duelo de luchadores
+                                Documentos breves
+
+                    Escrito por: Muerte Perpetua/ORACLE
+
+
+El menú de duelo de luchadores
+
+
+El menú Fighter Duel sigue las convenciones estándar de un menú Amiga.  Espera
+presione el botón derecho del mouse para mostrar los encabezados del menú a lo largo de la barra de menú en 
+la parte superior de la pantalla.  Mueva el puntero del mouse sobre un título y los elementos
+pertenecientes a ese menú aparecerán en una columna debajo del encabezado.  Algunos artículos
+tienen un ">>" a su derecha que indica que estos elementos tienen submenús asociados
+con ellos.  Estos submenús se muestran a la derecha del elemento cuando el mouse
+El puntero se coloca sobre el elemento.  Para realizar una selección, coloque el puntero del mouse 
+en el elemento, lo que lo resaltará, luego suelte el botón derecho del mouse.  
+Los elementos seleccionados tienen marcas de verificación a su izquierda.  Artículos que no son
+disponibles están fantasmas.
+
+El flujo para realizar selecciones en los diferentes menús es de izquierda a derecha.
+Los elementos predeterminados ya tendrán marcas de verificación.  Empezando por la izquierda, JUGADOR
+El menú MODO tendrá marcada la opción UN JUGADOR.  A continuación, en las OPCIONES DEL JUGADOR.
+menú, el elemento MISIÓN tendrá marcada la opción ENTRENAMIENTO.  En el AVIÓN
+menú, el ítem AMIGO que corresponde al avión que volarás, tiene
+la opción CORSAIR marcada, y el elemento FOE, el avión enemigo, tiene el CERO
+opción marcada.  En el modo de un jugador, los elementos de dos jugadores, MODEM, LOCALE y
+INICIO, en el menú OPCIONES DEL JUGADOR aparecen fantasmas. 
+
+El menú del extremo derecho se llama CONFIG.  El elemento COLORES mostrará el
+Pantalla COLORES, que le permitirá ajustar muchos de los colores de pantalla utilizados
+en la parte de vuelo real del programa.  Esto es necesario debido a la 
+marcada variación de tono que existe entre los monitores que muestran una alta resolución,
+pantalla entrelazada.  Para ayudar en la selección, los dos tercios superiores de los COLORES
+La pantalla es una combinación de varias escenas de Fighter Duel.  El tercio inferior
+Contiene ocho cuadrados de colores más tres botones selectores.
+
+Los cuadrados de colores representan los ocho colores alterables.  Los tonos predeterminados son 
+ya sea los valores predeterminados de Fighter Duel o un conjunto guardado anteriormente usando la opción GUARDAR
+(ver más abajo) en el menú CONFIG.  Las cortinas se pueden cambiar haciendo clic con el mouse.
+puntero en el cuadrado o en una parte de la escena de Fighter Duel donde el color
+aparece.  Las etiquetas encima de los cuadrados se refieren a objetos de ese color en la escena.
+Solo se puede ver una parte de la plataforma de transporte marrón en la parte inferior izquierda.
+rincón de la escena.  Los números debajo de los cuadrados identifican la sombra; algunos colores
+Solo tengo 2 tonos.  Los tonos predeterminados de Fighter Duel se pueden restaurar haciendo clic
+el botón PREDETERMINADO.
+
+Cuando se completen las selecciones de tonos, haga clic en el botón USAR para usar estos
+sombras en el vuelo pendiente y regresar a la pantalla del menú Fighter Duel.  Haga clic
+el botón CANCELAR en cualquier momento para volver a la pantalla del menú Fighter Duel sin
+afectando las selecciones de color.
+ 
+El segundo elemento en el menú CONFIG es GUARDAR.  SAVE guardará en el disco el archivo actual
+ajustes de MODO DE JUGADOR, OPCIONES DE JUGADOR, AERONAVE y COLORES.  la próxima vez
+Cuando se ejecuta Fighter Duel, estas configuraciones se cargarán automáticamente.  tu puedes
+volver a la configuración predeterminada original de Fighter Dueal, incluidos los COLORES, al
+seleccionando el elemento DEFAULT, el último elemento en el menú CONFIG.
+
+
+Controles de aeronaves
+
+
+El mouse y el joystick se utilizan para controlar todas las operaciones de vuelo y sistemas;
+no hay equivalentes de teclado.  Fighter Duel soporta tanto digital como
+joysticks de tipo analógico.  Cada uno proporciona una respuesta rápida y un control preciso, pero
+existen diferencias fundamentales en los métodos mediante los cuales afectan la
+el movimiento de las aeronaves.  Las descripciones siguientes pueden ayudarle a decidir qué palo 
+querrás usar.
+
+El control de alerones con la palanca digital es la palanca izquierda para el giro hacia la izquierda y hacia la derecha.
+palo para rodar hacia la derecha.  La presión continua de la palanca hará que el avión gire.
+con un ritmo creciente hasta que la palanca regrese a la posición central,
+lo que detiene el balanceo y mantiene el ángulo de inclinación.
+
+El control del elevador es hacia atrás para aumentar la actitud de cabeceo o morro arriba, y 
+Palanca delantera para disminuir el cabeceo o la actitud de morro hacia abajo.  El ángulo de ataque
+El indicador en el panel de instrumentos mostrará un valor positivo para el morro arriba y un
+Valor negativo para las actitudes con la nariz gacha.  Devolviendo el palo al centro. 
+La posición detendrá el cambio y mantendrá la profundidad y el ángulo de ataque.
+del avión en la corriente de aire en sus ángulos actuales.  Esto también mantendrá
+el avión en su ángulo de cabeceo actual.
+
+Las pestañas de ajuste se utilizan para estabilizar el exceso de balanceo y cabeceo que de otro modo
+requieren movimientos constantes de la palanca para mantener el avión recto y nivelado.  Recortar
+con el joystick digital se logra manteniendo presionado el botón izquierdo del mouse
+mientras se mueve la palanca en la dirección en la que se requiere ajuste.  El efecto es
+acumulativo de modo que cuanto más tiempo se mantenga el palo en una dirección, mayor será
+cantidad de recorte.  No hay indicador de ajuste en Fighter Duel.
+
+El control de alerones con la palanca analógica es la palanca izquierda para balanceo hacia la izquierda y hacia la derecha.
+palo para rodar hacia la derecha.  Cuanto más lejos del centro se mueve la palanca, más 
+mayor será la velocidad de balanceo.  Devolver la palanca a la posición central detiene el
+rueda y mantiene el ángulo de inclinación.
+
+El control del elevador es hacia atrás para aumentar la actitud de cabeceo o morro arriba, y 
+Palanca delantera para disminuir el cabeceo o la actitud de morro hacia abajo.  El ángulo de ataque
+El indicador en el panel de instrumentos mostrará un valor positivo para el morro arriba y un
+Valor negativo para las actitudes con la nariz gacha.  Cuanto más lejos del centro esté el palo
+se mueve, mayor será el ángulo de ataque del avión en la corriente de aire.
+Devolver la palanca a la posición central devolverá el elevador a su posición 
+posición central y hacer que el ángulo de ataque vuelva a cero.
+
+El funcionamiento de la palanca analógica es idéntico al de la palanca de control en 
+un avión real.  La velocidad de balanceo y el paso deseados se pueden configurar instantáneamente.
+Además, la palanca analógica tendrá ruedas de ajuste fino para ajustar el nivel.
+
+El botón de disparo del joystick participa en el funcionamiento de tres sistemas de vuelo:
+armamento, indicador de senda de planeo y frenos.  Con el botón izquierdo del ratón presionado, 
+el botón de disparo armará y desarmará alternativamente las armas.  Cuando una mira negra
+aparece en el centro de la pantalla, las armas están armadas y el botón de disparo
+dispararán las armas.  Las armas no se pueden armar en las proximidades del portaaviones.
+En su lugar, al presionar el botón de disparo y el botón izquierdo del mouse se mostrará un color gris.
+mira que funciona como indicador de senda de planeo.  Finalmente, el botón de disparo.
+activará los frenos independientemente de los demás sistemas.
+
+En el modo SIN BOTONES, el mouse se mueve sin presionar los botones.  Izquierda
+y el movimiento derecho del ratón controla el timón; controles de movimiento hacia adelante y hacia atrás
+el acelerador.  La posición relativa del timón está dada por la barra vertical.
+en el indicador de giro y banco.  El timón izquierdo moverá la barra hacia la izquierda y
+hacer que el avión gire hacia la izquierda.  El timón derecho moverá la barra hacia la
+hacia la derecha y hacer que el avión gire hacia la derecha.  (La guiñada es el giro del
+avión sobre su eje vertical.) La posición del acelerador se refleja
+en la lectura de rpm del tacómetro.  Mover el ratón a una posición de lateral
+cerrará el acelerador y dejará el motor en ralentí a 700 rpm.  Moviendo el ratón a un
+La posición completamente adelantada abrirá el acelerador y aumentará las rpm del motor a aproximadamente
+2700. El gobernador de la hélice está configurado en MAX rpm.
+ 
+Al presionar el botón izquierdo del mouse se pueden realizar selecciones en el panel de instrumentos y en el arma.
+armado y entrada de pestaña de ajuste.  Al presionar este botón se mostrará un selector amarillo.
+flecha en el panel de instrumentos.  Al mover el mouse se moverá la flecha.  la flecha
+controla el descenso y retracción del tren de aterrizaje y el gancho, que están 
+situado en el extremo izquierdo del panel, y de las solapas, en el extremo derecho.
+Coloque la flecha sobre el objeto y muévala hacia abajo para extenderla y
+hacia arriba para la retracción.  Recuerde, el gancho no se puede bajar hasta que el equipo esté
+completamente hacia abajo y el arte no podrá retraerse hasta que se levante el gancho.  Además, mientras
+se mantiene presionado el botón izquierdo del mouse, se escribe el rumbo de regreso al transportista
+sobre el indicador de combustible en la esquina inferior derecha del panel de instrumentos.
+ 
+Al presionar el botón izquierdo y el botón de disparo del joystick se activará y desactivará el
+cruz en el centro de la pantalla.  Lejos del transportista, este
+También alternará el armado de las armas.  Presionando el botón izquierdo y haciendo clic
+el joystick digital acumulará el ajuste de los alerones y del elevador.
+ 
+Pulsar el botón derecho del ratón permite una visualización panorámica que imita la
+Capacidad del piloto para mirar de lado a lado y de arriba a abajo.  Al presionar este botón
+muestra una flecha de orientación en la parte inferior central de la vista.  El código de colores de
+La mitad izquierda amarilla y la mitad derecha roja indican que la vista está al frente.  
+Al mover el mouse hacia la derecha, se desplazará hacia estribor o hacia el lado derecho del
+avión.  Cuando se mira 90 grados hacia la derecha, la flecha es completamente roja.  el
+La vista se puede desplazar más hacia la derecha hasta que la mitad izquierda esté roja, la mitad derecha
+Aparece una flecha amarilla que indica una vista trasera completa.  Moviendo el ratón hacia la izquierda
+volverá a la vista normal y continuará más allá de la vista completa izquierda con su
+flecha amarilla hacia la vista trasera completa.
+
+Los movimientos hacia atrás del ratón desplazarán la vista hacia arriba en el mismo sentido que
+Los movimientos hacia atrás del joystick producirán una actitud de morro hacia arriba.  En consecuencia,
+Al mover el mouse hacia adelante, la vista se desplazará hacia abajo.  Al desplazarse hacia arriba, haga
+no se desplace más allá de la vista vertical o la vista volverá automáticamente a la
+vista normal.
+
+Se pueden combinar panorámicas de lado a lado y de arriba a abajo.  Liberando el derecho
+El botón volverá automáticamente a la vista normal.  Panorámica de la vista no es
+permitido en actitudes extremas de morro arriba o abajo en las que el horizonte no está
+visible en la pantalla.  Al presionar el botón derecho en estas situaciones
+muestra la flecha de orientación pero se ignorarán los movimientos del ratón.  Además,
+Si la actitud del avión se vuelve extrema mientras se realiza la panorámica, entonces el
+La vista volverá automáticamente a la normalidad.  Mientras se presiona el botón derecho
+Los controles de armas y alerones están temporalmente desconectados pero el elevador
+el control sigue funcionando.
+ 
+Mantener presionados ambos botones del mouse pausará el programa en cualquier momento excepto
+mientras estás en el modo de dos jugadores.  Al soltar ambos botones del ratón, el programa
+permanezca en pausa y aparecerá un conjunto de cuatro botones de opción y una flecha selectora
+en el panel de instrumentos.  Colocando la flecha sobre un botón y presionando la izquierda
+El botón del mouse resaltará el botón y luego, al soltarlo, se resaltará.
+seleccione la opción.  Para reanudar la pausa, seleccione REANUDAR ENTRENAMIENTO o REANUDAR
+Botones de COMBATE.  Si la aeronave está parada en la cubierta de portaaviones, ya sea
+La misión puede ser elegida.  (Al presionar el botón de disparo en la plataforma se activará el
+frenos y asegúrese de que la aeronave esté estacionaria.) Si la aeronave está en
+vuelo, sólo se puede seleccionar el tipo de misión actual.  El botón del PALANCA CENTRAL
+centrará el joystick analógico en el momento en que se presione el botón izquierdo del mouse.
+liberado.  El botón RESET restablecerá el programa y la aeronave comenzará
+nuevamente en la cubierta del portaaviones.
+
+
+Modo de dos jugadores
+
+
+Se pueden conectar dos máquinas cercanas directamente a sus puertos serie mediante un
+cable de módem nulo.  Los cables de módem nulo están disponibles en su computadora local
+minorista de ferretería.  Antes de realizar la conexión, asegúrese de que el módem nulo
+El cable es del género correcto para la conexión del puerto serie de su máquina.
+Recuerda que la conexión del puerto serie del Amiga 1000 es de sexo opuesto
+a eso en otros modelos de Amiga.
+ 
+También se pueden conectar dos máquinas mediante módems a través de una línea telefónica.  Duelo de luchadores
+Requiere un módem externo, compatible con Hayes, de 1200 o 2400 baudios.  Sigue el
+instrucciones incluidas con el módem para conectarlo a la computadora y
+la línea telefónica.  Además, es necesario que esté conectado un teléfono.
+directamente al módem.  Antes de ejecutar Fighter Duel, marca manualmente a tu oponente
+en este teléfono y establecer comunicación de voz.
+ 
+Antes de que cualquiera de los jugadores presione el botón COMENZAR VUELO, ambos jugadores deben seleccionar un
+conjunto de parámetros en el menú Fighter Duyel.  Tú y tu oponente tendréis
+comunicación de voz en este momento y debe discutir y acordar su
+respectivas selecciones.  También hay que tener en cuenta que en el modo de dos jugadores el
+El programa comienza con el avión en pleno vuelo.
+ 
+Comience seleccionando la opción DOS JUGADORES en el menú MODO DE JUGADOR.  Luego muévete a
+el menú OPCIONES DEL JUGADOR.  El primer elemento es TIPO DE MÓDEM con opciones de módem nulo,
+para dos máquinas conectadas directamente por un cable de módem nulo, o las dos posibles
+Velocidades en baudios, 1200 o 2400, para dos máquinas conectadas por módems y un teléfono.
+línea.  Si ambos módems tienen 2400 baudios, ambos reproductores deben seleccionar 2400. Si 
+uno o ambos módems son de 1200 baudios, entonces ambos jugadores deben seleccionar 1200. El módem
+El tipo debe ser el mismo para ambos jugadores. 
+
+A continuación, el elemento LOCALE se establece en el arco, las torres o las islas.
+La LOCAL también debe ser la misma para ambos jugadores.  Finalmente el elemento INICIO es
+establecido en NORTE o SUR, en referencia a los perímetros norte o sur de
+el lugar.  Tu selección debe ser diferente a la establecida por el otro jugador.
+El programa se detendrá si ambos jugadores seleccionan el mismo INICIO.
+ 
+Vaya al menú AERONAVE y establezca AMIGO en el avión que volará, y
+establecer FOE al avión enemigo.  Por supuesto, el AMIGO de un jugador debe ser el
+enemigo del segundo jugador y viceversa.  Esto concluye las selecciones del menú.
+ 
+Cuando usted y su oponente hayan terminado con las selecciones, presionen juntos
+sus respectivos botones BEGIN FLIGHT y el programa intentará realizar una
+conexión de módem.  Si tiene éxito, el programa se cargará desde el disquete o el disco duro.
+conducir; en el caso del disco duro, esto podría ser sólo un par de segundos.  si
+tienes Fighter Duel instalado en el disco duro y tu oponente está huyendo
+disquete entonces tendrás que esperar con una pantalla en blanco durante el tiempo que el disquete
+cargas en el otro extremo.

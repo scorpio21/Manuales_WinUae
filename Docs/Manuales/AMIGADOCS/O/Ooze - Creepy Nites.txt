@@ -1,0 +1,914 @@
+Ooze
+Dragonware Games
+
+Brought to you by Belgarath
+
+TABLE OF CONTENTS
+Introduction to the Plot 5 
+Loading the Story        5 
+Function Keys            6 
+User Defined Keys        6 
+Special Commands         7 
+Game Sample              8 
+Dragonware Adventures    11 
+- An Overview            11 
+- The Screen             11 
+Talking to the Program   12 
+- Commands               12 
+- Movement               12 
+- Actions                12 
+- Abbreviations          13 
+- Conversation           13 
+Tips for Novices         14 
+One last word            15 
+Coming soon...           15
+
+Introduction to the Plot... "Jesus Christ!", Ham Burger cried when he read the letter from the lawyer informing him of his inheritance of Carfax Abbey. 
+
+"A house... a house of my own..." he was frantic with joy but this turned to sadness as he thought of his poor beloved uncle Cheez. He sat down on an old chair which groaned under his weight and reflected upon the uncle that he hadn't seen a very long time. 
+
+A tear glistened in his eye as he thumbed through the old worn out diary and read some of the entries his late uncle had made. Eventually, he got up, wiped the tears from his cheeks and went over to a shelf. 
+
+"Uncle Cheez surely wouldn't want me to be unhappy about his... accident..." he muttered to himself as he took an atlas from the shelf. " Where is it?... oh yeah! Den-bo-rough, 'well let's take a look see..."
+
+It took a while until he found the small village on the map. "Southeast of Salom's Lot, well that's not a hell of a travel..."
+
+Some days later Ham found himself standing in front of Carfax Abbey... and that's where you enter the story. Take over Ham's part in the plot and find out just what's been going on at Carfax Abbey... ...find OOZE
+
+Loading the story... 
+
+ATARI ST 
+Insert your OOZE - Creepy Nites Disk 1 in Drive A, turn your computer on and double-click the icon OOZE.PRG on the Desktop.
+
+AMIGA Insert your OOZE - Creepy Nites Disk when the System asks you for the Workbench Disk. The program will now be loaded automatically. 
+
+IBM-PC and Compatibles After booting your system just insert your Ooze - Creepy Nites Disk 1 in Drive A and enter OOZE. If you wish to play the game with graphics you need an EGA graphics card with 256K RAM. Type the command OOZE -g for playing with graphics.
+
+
+Function keys... Like all DRAGONWARE Adventures, Ooze - Creepy Nites offers you predefined function keys. Here is a list of the presets and their functions. 
+
+F1 LOOK This will give you a full detailed
+description of the location Ham is in.
+
+F2 EXITS This gives you a list of all visible exits in the location that Ham is currently standing in. 
+
+F3 CONDITION Displays a table of Ham's condition. As you will see, the values change during the game, depending on what you instruct Ham to do.
+
+F4 INVENTORY Lists all of the items carried by Ham 
+
+F5 PREVIEW Gives you a little preview on 'Laasian Plague', one of the great
+future releases from DRAGONWARE.
+
+F6 PRINTER This key lets you toggle between having printer protocol on or off.
+
+F7 CREDITS Thanks to everyone who has helped create this game. 
+
+F8 GRAPHICS Lets you toggle between having the graphics on or off. 
+
+F9 SAVE GAME Saves your current position and game to disk. You can return to a saved position in the future using the LOAD GAME command. Save your game frequently to avoid the loss of a good position! 
+
+F10 LOAD GAME Restores a previous game and position saved using the SAVE GAME command.
+
+ESC Completely clears the current input-line so that you can enter a new command.
+
+TAB Displays the last input-line for re-editing.
+
+User Defined Keys You can define your own Function Keys if you wish. They'll be activated by pressing the corresponding function key while holding down the SHIFT key. To define your own Function Keys, enter the command FUNKEY.
+>FUNKEY
+
+Define which Funkey? 1 
+
+Enter text now for Funkey 1, please. 
+
+Take all. 
+
+After entering the command FUNKEY the program will ask you for the number of the key; F1 in this case. Then it asks you to enter the text for this key; "Take all." in this case. Every time now you press SHIFT-F1 "Take all." will appear at the current location of your input-line. Note that the text entered should not exceed 50 characters in length.
+
+Special Commands...
+
+There are a number of commands having special meanings, appearing in
+almost every DRAGONWARE Adventure. Here's a list of them: 
+
+AGAIN - This function repeats the last command given. Also, you can press the TAB-Key to re-edit the last command issued.
+
+BRIEF - This displays all future on-screen text in a less descriptive style. 
+
+COLOR - If you're playing OOZE on a computer with graphics using a colour monitor, you can type COLOR to change the on screen-text-colors. Enter a number after the command representing the color. e.g. 777 means while, 000 means black, which is not allowed! 
+
+CONDITION - Displays Ham's current condition. (see FUNCTION KEYS.) 
+
+EXITS - Lists all visible exits that the location Ham is in has. (see FUNCTION KEYS.)
+
+FUNKEY - Lets you define your own Function Keys. (see FUNCTION KEYS.) 
+
+GRAPHICS - Toggles between having the graphics on and off. (see FUNCTION KEYS.)
+
+INVENTORY - Gives you a list of the items Ham is carrying. (see FUNCTION KEYS.) 
+
+LOAD GAME - Load previously saved game. (see FUNCTION KEYS.) 
+
+PREVIEW - Gives you a short preview to "Lassian Plague" one of the next great releases from DRAGONWARE. (see FUNCTION KEYS.) 
+
+PRINTER - Lets you toggle between having a printer protocol on and off. (see FUNCTION KEYS.) 
+
+QUIT - Exits from the program. Before quitting, you are asked whether you really want to quit or not. QUIT may be abbreviated by Q or X. 
+
+RESTART - Your current game will be halted and started again. 
+
+SAVE GAME - Saves your current position to disk. Save your game frequently to avoid the loss of a good position! (see FUNCTION KEYS.) 
+
+SOUND - Toggles between having the sound-effects on and off. (On Atari ST and Amiga only) 
+
+TEXT - This command controls the text displayed by toggling between a verbose and a brief versions. (see BRIEF, VERBOSE) 
+
+VERBOSE - This command switches to the long, descriptive text style. 
+
+WAIT - This command forces the story to continue without you taking any game actions.
+
+Game Sample
+
+The following is a short game extract - it isn't taken from Ooze, but it should give you the idea of how to act in an Adventure such as Ooze.
+
+A parlor.
+I'm standing in a small tidy parlor. The pale moonlight enters through the dusty window-panes and casts long faint stripes on the floor. A small chest of drawers is standing beside me with an archaic dust-covered telephone on top. A small wooden door leads East to the entrance-hall.
+
+>LOOK OUTSIDE THE WINDOW I cannot see a lot outside, it's too dark. All I see is the moon throwing it's rays of light at me.
+
+>OPEN THE WINDOW
+Unfortunately I cannot find a hold there.
+
+>OPEN THE CHEST OF DRAWERS Carefully I open one drawer after another and find a silver crucifix that glitters in the light.
+
+>TAKE THE CRUCIFIX OUT OF THE DRAWER
+Okay, I've got the crucifix now.
+
+>PICK UP THE PHONE 
+I pick up the phone and listen but the line seems dead. Then all of a sudden I hear a click. For some reason, I feel there's someone at the other end of the line. I keep listening, then I hear a voice croaking "Want a balloon? Take one and float with us..." I put down the phone in horror, breathing heavily. 
+
+>PICK UP THE PHONE AGAIN 
+I pick up the phone but the line is completely dead now. 
+
+>EXAMINE THE PHONE 
+It's an old, archaic telephone with golden... but what's that? The cord is cut! 
+
+>LEAVE THE PARLOR 
+I turn around and leave the parlor.
+The entrance-hall.
+The huge entrance-hall lies in front of me. A wide staircase winds up to the first floor in the East. A closed glazed door leads North and another one to a parlor in the West. A small red mat lies in front of the entrance floor to the South. Right beside the entrance door there's a small cupboard. 
+
+>INSPECT THE MAT 
+There's a writing on the mat saying "Home Sweet Home"
+
+>MOVE IT 
+Moving the mat reveals a lot of dust. Seems the cleaning-lady was pretty careless! 
+
+>TAKE IT Okay, I've picked up the mat. 
+
+>INVENTORY That's our stuff:
+A mat.
+
+>OPEN THE DOOR
+Unfortunately the door to the North is locked.
+
+>UNLOCK IT [With the hands.]
+It doesn't work.
+
+>INSPECT THE CUPBOARD
+I open the cupboard and find a key. 
+
+>GET THE KEY FROM THE CUPBOARD
+Okay, I've got the key now. 
+
+>INVENTORY That's our stuff: A mat and an old key. 
+
+>UNLOCK DOOR TO THE NORTH [With the key.] Fine, the lock snaps open with a soft click.
+
+>LOOK
+The entrance-hall.
+The huge entrance-hall lies in front of me. A wide staircase winds up to the first floor in the East. A closed glazed door leads North and another one to a parlor in the West. Right beside the entrance door to the South there's a small cupboard. Suddenly I recognize a movement on top of the stairs. A rotten corpse stumbles from the shadows and stares at me revealing its razor-sharp teeth.
+
+>EXAMINE THE CORPSE 
+It's a rotting body coming down the stairs. The clothes are moth-ridden and torn. There's a strange smell in the air now.
+Slowly the corpse draws nearer. 
+
+>SAY TO THE CORPSE "HELLO" 
+"Hi human", the corpse says smirking. Still the corpse draws nearer. 
+
+>SHOW THE CRUCIFIX TO THE CORPSE
+The corpse starts laughing. "Oh no!" it says. "That only works in B-horror movies!" The corpse has now reached the end of the staircase.
+
+>THROW THE CRUCIFIX AT THE ROTTEN CORPSE 
+I hurl the crucifix at the corpse hitting it right on its chest. A small puff of smoke rises where it hit the corpse, the crucifix drops to the floor. The corpse reaches me and puts its bony hand on my shoulder. 
+
+>RUN AWAY
+Give me the direction so that I know where you want to go. >RUN NORTH [After opening the door first.]
+A living-room.
+I am standing in a living-room. A huge writing-desk is standing on the northern wall, right in front of a window through which the fallow moonlight enters. I can see some pictures on the wall and when I have a closer look, I recognize a shabby sofa standing at the western wall. The corpse follows slowly. 
+
+>INSPECT THE SOFA The sofa is shabby and worn. Nothing special at all.
+
+>INSPECT THE WRITING-DESK There's a gun lying on the desk, covered by old mail and sheets of yellowed paper. Slowly the corpse draws nearer.
+
+>GET THE GUN 
+I take the gun from the desk.
+The corpse reaches me now and puts its bony rotten rand on my shoulder trying to hurl me around with an immense intensity. >PULL THE TRIGGER I pull the trigger of the gun and the blow blasts the corpse. The corpse screams in agony as it is hurled back against the wall, blood spurting from a big hole in it's chest. Slowly now, producing a grinding sound, the corpse slides down the wall leaving bloody traces on the silk-tapestry and comes to the floor with a heavy thud. The living dead is now a dead dead!
+
+DRAGONWARE ADVENTURES 
+
+An Overview... 
+
+Dragonware Adventures are like books - they contain detailed story for you to enjoy - except in a Dragonware Adventure, you can actually play a character in the story, and your actions can determine the outcome of the plot. 
+
+Dragonware Adventures require all of your imagination, fantasy and intellectual powers to play, as you try to go from the start to the finish of the story, interpreting clues and puzzles as you go. 
+Dragonware Adventures are set in a series of locations, each locations filled with items, figures, persons and events. It's then up to you to direct the plot by exploring the locations, collecting and using items, and conversing with characters you meet as you explore. Perhaps the most exciting aspect of a Dragonware Adventure is the puzzles that are liberally distributed throughout the plot. For example, you should never be content when a character refuses to let you pass, or won't give you something you feel you need. There are typical puzzles that need to be solved. Solutions to puzzles vary dependent upon the plot - a good kick may suffice in the example we gave, or perhaps you need to trade with the character. Stretch your imagination to get through each
+puzzle. It's great fun. And if you're really not sure, experiment.
+
+In Ooze - Creepy Nites, time passes each time you enter a command and press the RETURN (or ENTER) key. Until you press the key, the plot is frozen at the position listed on screen, hence you have enough time to think through every move you make. 
+
+The Screen...
+
+After starting the program the screen splits into three sections.
+
+- The top line, showing the location Ham is in.
+- The variable graphics window. Move the mouse to the bottom of the picture or the screen start, if no picture is visible, press the right mouse button and move the window up or down, holding the button pressed.
+- The text window. The whole communication with the program is placed in this window.
+
+Talking to the Program... 
+
+You command Ham with words that you type from your keyboard - known as commands.
+
+When the program is waiting for a command it displays a ">" prompt. After you have typed in your command, press the RETURN or ENTER key. 
+
+If a text description is too large to be displayed in the text window at once, you will see the prompt "[MORE]" at the bottom of the screen. The program will wait until you press any key before it displays the rest of the text. 
+
+Command you can use in Ooze... 
+Movement... 
+For moving around in or around Carfax Abbey you have to tell the program in which direction you want to go. The program accepts commands such as NORTH, SOUTH, EAST, WEST, UP and DOWN as well as their abbreviations N, S, E, W, U and D. Further you can tell the program to 
+>GO NORTH 
+>QUICKLY WALK NORTH 
+>TAKE THE STAIRS TO THE NORTH 
+If you already know, what is to the north, you can either tell the program to
+>APPROACH CARFAX ABBEY
+>ENTER THE HOUSE
+>LEAVE CARFAX ABBEY
+
+Of course commands such as
+>GET UP
+>SIT ON THE BED 
+are known as well. If, for instance, you are sitting on a chair and want to leave the room, don't bother to type all of the actions in between. The program will print a short message, for example, saying that Ham gets up first.
+
+Actions... 
+The program allows you to use a very large scale of verbs. You will probably never need them all. The most simple
+command consists of a single verb, e.g.:
+>WAIT 
+>SLEEP 
+Sentences using a verb and a noun can take the following forms: 
+>TAKE BOOK 
+>TAKE THE RED BOOK 
+>TAKE THE BOOK, THE BAG AND THE PENCIL
+>GET THE BOOK, THAT IS LYING INSIDE THE DRAWER 
+>PICK UP THE BOOK, THE BAG AND THE PENCIL, NOW PLACE THE COAT ON THE TABLE, QUICKLY CLIMB THE STAIRS IN THE EAST AND LOOK AROUND
+
+As you see one verb can refer to several objects as well as one object may refer to several verbs.
+>UNLOCK THE DOOR USING THE GOLDEN KEY, OPEN IT AND LEAVE THE ROOM TO THE NORTH
+
+In case you're using a verb that needs an object as well as subject but you forget to enter one the program will either ask you for one, or it will take the most obvious case, in which instance the program will tell you which object it has used: 
+>UNLOCK THE DOOR 
+[With the key] Okay, I've unlocked the door to the north.
+
+In certain situations, the program may ask you a question. Please reply using terms like
+>YES
+>NO 
+>NEVER 
+or something similar.
+
+Sentences may be connected using AND, THEN "," or "." but don't forget that every sentence counts as one move and that the story goes on in the meanwhile. 
+
+You may find the word ALL is very useful. 
+
+>DROP ALL EXCEPT THE BATTLE-AXE
+>TAKE ALL
+>TAKE ALL EXCEPT THE DAGGER 
+>DROP ALL EXCEPT THE BATTLE-AXE
+
+
+The word ALL refers to visible objects only, not to things that are inside another one. Think of a sheet of paper lying on the floor and a pencil lying inside a drawer the command TAKE ALL will only take the sheet not the pencil.
+
+Abbreviations... 
+After playing the game for some time, you may find typing complete words awkward and boring. Therefore the program also allows a few abbreviations as commands... 
+NORTH N, SOUTH, WEST W, EAST E, UP U, DOWN D, INVENTORY I, CONDITION C, GO G,
+LOOK L, EXIT EX, TAKE T, DROP DR, WITH WI
+
+OOZE - Creepy Nites has a vocabulary of over 1500 words that it can recognise during your game. Nevertheless it is possible that the program won't understand some words you have chosen although it may use them itself. You can be sure that those words will not be needed to solve the game and have only been inserted to make the scenery more vivid. Choose different words in your commands. 
+Conversation... 
+You will come across various ghosts in Carfax Abbey with which you may wish to converse - some of them may be able to help you further. With some experimentation, you should be able to persuade certain ghosts to give you things. Always try to be complimentary and kind. Examples for conversation are
+>ASK THE BEGGAR FOR WINE 
+>ASK THE BEGGAR ABOUT CARFAX ABBEY 
+>TALK TO BEGGAR ABOUT THE WINE.
+
+Advice for Novices from the Dragonware Professionals... 
+
+Here are some tips for those who are not well acquainted with Adventure games.
+
+- Examine everything closely. Often descriptions contain hints.
+
+- If you are stuck, try going in another direction. The solution may be discovered elsewhere. 
+
+- Draw a detailed map of each location, its exits and the items you found there. 
+
+- Think about the plot and consider your actions well. Thoughtless actions may have unpleasant results. 
+
+- Read the diary carefully. It will give you some important clues to the solution of the game.
+
+- Save your position frequently, as you never know if whether Ooze is waiting around the next corner... 
+
+- Try everything you can think of even if at first it might seem nonsense. Even those actions give occasional hints... or a good chuckle.
+
+- It is often useful to play through the story with another person. People often think of puzzles differently from each other, and two people trying to solve a puzzle can be more rewarding and fun.
+
+- Read the game-sample attached to this booklet to get a feel of how to play an Adventure.
+
+- If the program doesn't understand you, just try rephrasing the sentence using other, perhaps more common words. 
+
+... And now ... Get ready to play Ooze... 
+
+Darken the room, place a candle right beside your monitor and have sufficient supplies of food and drink within reach as you dare to enter Carfax Abbey. 
+
+... Don't watch the clock - an Adventure counts time in hours, nights, even days... 
+
+... Don't be surprised if you come to hear strange sounds or come across headless ghosts, and things that go 'bump' in the night. 
+
+... just wait until things out of the ordinary start happening...! 
+
+We do hope you have a horribly good time playing this Dragonware Adventure 
+
+The Dragonware Team
+
+One last word...
+
+We at DRAGONWARE are always looking for capable programmers and graphic artists on many computer systems. If you are interested in working together with us or if you already have an own program that you would like us to distribute, write today to
+
+DRAGONWARE Games
+Yorkstr.21
+D-7474 BITZ / Germany
+
+Coming out soon from DRAGONWARE Games...
+
+Laasian Plague, a Fantasy Adventure including many Role-Playing features.
+
+Spirit of Adventure, a complex Fantasy Role Playing Game System.
+
+Coming out soon from LINEL...
+
+The Champ, Crown, Kaiser,
+Skate of the Art and Sound FX.
+
+Ooze - Creepy Nites
+
+The Diary Original Diary
+by
+A. Dettinger
+G. Henkel
+
+Translation
+by
+U. Spittel 
+
+Edited by Jon and Elaine Dean 
+
+Cover Artwork
+by
+John "The Brush" Syms 
+
+The Program 
+Story and Program by G. Henkel, H.J.Braendle
+
+Graphics by M. Henrich
+G. Henkel, M.Tschögl Sounds by G. Henkel, M. Grimmer 
+
+Music by G. Henkel using Linel's Sound FX
+
+I need your help.
+
+My dear Uncle Cheez Burger left me this diary in his Will. 
+Unfortunately I hadn't had the time to read it until recently, but I recommend that you read it immediately - I am sure it holds some valuable clues for us.
+
+You must help me to find out why my uncle had to die such a terrible death; who could have hated such a sweet old man so much that they could have... well, you know what is described on the death certificate. 
+
+Some parts of this diary almost made me cry. Only one person could write like that - my uncle Cheez Burger... 
+
+Ham Burger, September 1982
+
+August 14th, 1982
+
+Dear Diary,
+
+At last! August 14th! Words can't describe the happiness I feel inside. I have waited for this day for months. You know, it must be very rare that someone of my age longs so much for something as I have longed for Carfax Abbey. If only Polly were here to see it. She would have adored it...
+
+As I write, I am sitting by the fireside. Those burly removal guys from Dumpwater and Sons left just over an hour ago, allowing me to take a real good look around my new home. No-one has lived here for years... it's a little run down, but I'll start to put that right first thing in the morning. 
+
+The old place is bursting with character... I've noticed that total darkness seems to surround the house... you know, even this morning when the sun was shining brightly, almost all the rooms were full of dark shadows. The removal guys had to clean and open the windows in the hall before they could start! Still, once I've managed to clean and polish all the windows the whole place will brighten up.
+
+I've noticed a lot of locked doors. I know this may sound silly at my age, but I can't wait to start exploring and discover what secrets lie behind them! The keys must be buried somewhere among all this chaos of furniture and boxes. The guys dumped everything in the hall for now - they'll be back tomorrow to move it all into rooms. 
+
+The hall is overlooked by fabulous wooden gallery... You know, when I stood up there, I actually felt like a king watching his court. A wonderful feeling of grandeur and power which was very amusing. At first I was like a child with a new toy, busily setting about dusting the walls of the gallery, then I put up some paintings, and all the while the
+removal guys kept on bringing in furniture and boxes, stopping only for the odd swig of cold beer. Sure, I know you shouldn't put the cart before the horse, but I enjoyed trying to improve my new home... I noticed a couple of the guys grinning behind my back, they probably take me for a senile old fool. 
+
+I fixed up the little light drawing-room near the hall; the bed and a little round table and a chair - I'm beginning to feel at home already! This will be my cosy refuge until I have arranged the rest of my new home. I'll probably make a start on the first floor tomorrow morning. I'm getting real tired now, writing is difficult. Time to grab a good nights sleep in order to be fit for the return of Dumpwater and Sons! 
+
+PS.: I've just remembered... when we arrived this morning I noticed that there is almost no greenery around the house. There are big craggy old trees in front of the house and yellow and brown weeds all over the place... it's weird... the trees have hardly any leaves, even though it's August.
+
+August 15th, 1982
+
+Dear Diary,
+
+Today we finished the distribution of furniture around the house. Mr. Treeoak - he's one of the removal guys - helped me finish tidying up each room so we could put the furniture in. 
+
+I was up at 6a.m. and set to cleaning the small drawing-room on the first floor. It has a quaint little glass window overlooking the tower (I haven't found any keys yet and I'm just dying to see what's behind the locked doors in the tower). The guys arrived at about 8 a.m. They brought up my harpsichord and some furniture. It looks so cosy now, and with the newly cleaned windows the sunlight streams in making the place look much friendlier than it did at first. Even the walls and carpets seem to be brighter, as if they absorbed the sunlight! 
+
+Around 10, Mr. Hewlott (he's the lawyer from Hewlott and Package in Denborough who had arranged the house purchase) arrived and welcomed me to the neighbourhood. He really seemed quite surprised when I showed him round the cleaned and furnished rooms. 
+
+He's an odd character... something he said made me feel... well, uneasy... but I can't for the life of me think why. He said in a very somber tone 'I sincerely hope you will be at peace here, Mr. Burger' and looked very sad. I asked him what that meant, but he tried to change the subject. Eventually he said he had not meant anything by the remark and was just making conversation. But he had managed to make me so uneasy that I was quite glad when he left about 30 minutes later!
+
+By 4 in the afternoon the removal guys were through, and the mountain of boxes in the hall had disappeared. The guys sat on the stairs for a while talking, sank quite a few beers, and then left at 5 sharp.
+
+I set to work unpacking boxes - I figured the library was a good place to start. There is something about the musty smell of old books - dozens of yellowed pages and leather covers soon started to fill up the long high shelves. I took my time - after all, I have all the time in the world now. It's funny how you always thumb through books that for some reason catch your attention. I became so engrossed in one that I hadn't noticed it getting dark! 
+
+I stood at the window and watched the sun disappearing behind the hills, bathing everything in a glorious deep red haze as it set. Gradually everything lost colour and shape, and darkness fell. It's so peacefull here. I haven't managed to unpack even a quarter of the books, and it'll take weeks to finish at the rate I'm going. But hell, I'm in no hurry!
+
+August 16th, 1982
+
+Today was one of those days - you know, bad from start to finish. 
+
+I'm usually a very deep sleeper - nothing wakes me - but last night I was woken by... well, some strange noises. Creaking floorboards and the like. I couldn't sleep a wink after that. I sat listening in the darkness. If it's wood-worm I'll have to get them some quieter jackboots! I really don't know what the hell it was though. 
+
+At one point, I reached for my gun (can't break the habit of keeping my trusty old 18th century beauty under the pillow) put on my slippers and went 'hunting'... silly old fool that I am. I crept around, found the light switch and... wham! Gun pointing I quickly span around in a circle. The sudden, sharp stabbing pain in my hip soon put an end to my bravery, and doubled-up with pain I retreated back to bed with my arthritic hip reminding me of my age once more. Despite the agony, I did laugh at myself... what a frightening sight I must make... in my pyjamas, slippers and an antique old gun in my hands... But I swear the damn noise was getting louder! So I put down the gun and managed to hobble to the door... I held it slightly ajar and peered outside. I could see into the hall. Nothing. I waited. Nothing. I remember feeling an icy draft at my feet. Then I noticed one of the old armors seemed to be glowing from inside, as if filled with life. I rubbed my eyes; my imagination was running away with me. I had another look... the armors still glowed. I thought it might be an apparition but... no, all that's nonsense isn't it? 
+
+I recall a shiver running down my spine, but it wasn't just an old man's fear. It was much too cold for an August night. So I closed the door. I hadn't found the rattling sound. I stood there... pathetically trying to think. I recall... or was I dreaming... glancing at the window.
+
+It was glowing blue! Curiousity got the better of me and I pulled the curtains apart, but only the minimum necessary to make a small viewing hole. Carfax seemed to be shrouded in a swirling fog which had an eerie blue tint to it.
+
+Then the old church clock struck one.
+
+As I watched, the fog seemed to disappear and then I noticed... nothing! Absolutely nothing. Not a sound. This silence seemed more sinister than the groaning and rattling noises that woke me up in the first place! I told myself that it would be best to go back to bed and try and forget all about it, and that I was in a dream and none of this was real. 
+
+By morning, I wasn't convinced. 
+
+Firstly, my back ached badly. Secondly all the books in the library had fallen from the shelves. Well, if it wasn't a dream... then what? I just can't and don't want to believe in apparitions and such nonsense, and there must be a logical explanation. I decided I would have a chat with Mr. Hewlott about it.
+
+I began putting the books back on the shelves for as long as my back would let me. After that I carefully unpacked further boxes and right now I'm sitting at the desk in the library completely exhausted, hardly able to hold this pen. The thought of my beautiful... cosy... bed... I can barely keep my.. eyes open... 
+
+PS.: Will this night be as noisy as the last, I wonder?
+
+August 17th, 1982
+
+Shortly after I got up this morning I had a strange, dare I say sinister adventure... but who would believe an old man saying that he clearly heard three voices in the library - especially when there was only the old man in the house? 
+
+Perhaps it was ghosts? 
+
+Even as a little boy I didn't believe in such childish nonsense and with the passing of the years this attitude became stronger. Nevertheless it was a funny feeling when I went to the library at about 6 am - it was still pitch black outside - to fetch my cigarettes. I was about to open the door, when I heard loud laughter from within - it was as clear as the ticking of the big clock next to me. I froze. Burglars.. or... tramps I thought.
+
+I distinctly heard a deep, loud voice say:
+
+"... You don't believe me capable of turning this impertinent intruder out of Carfax Abbey? Let me tell you, anybody who does not think me, Lancelot, courageous enough to turn out and even kill this poor creature, this living buffoon, will be damned to serve OOZE forever and ever...".
+
+This seemed to be followed by some anxious whispering, and then I heard more conversation, which if my memory serves me correctly started with a second voice saying:
+
+"Lancelot, Lancelot... don't say things like that. Leave Ooze out of the matte-r-r." 
+
+"You are afraid Vino? Afraid of him drinking your wine, ha ha!", the third voice laughed.
+
+"Me? I not an afr-r-aid per-r-rson! You ar-r-e the weasel among us,
+Ludus, we all know that!"
+
+"What did you say, you old wine bottle? I, Ludus, formerly jester to the king, one-man entertainer of the royal court and best joker of all times... I am accused of being a coward? Listen, you old wine-cask, when the enemies of the king in his 13th year of reign... well,... 2 years before I was locked up by wish of the Duke Higpole because I addressed him as Duke of Pighole..., well, his majesty was attacked and I took the sword of one of the attackers and killed twelve men!! And while I killed'em, I even told the joke of the farmer who..." 
+
+"Seven,... you only killed seven of them, Ludus!" 
+
+"Seven... hah! Oh no Sir! I killed twelve... and two dogs! I was not only extre-e-e-mely witty but also courageous". 
+
+"Ludas, it was seven and an old cat when you told the stor-r-ry 80 years ago".
+
+As I stood listening I could hear the loud hiccups coming from the one I took to be called Vino.
+
+"Don't lie to us, coward!", the grumbler roared, "Ludus, it weren't that you killed twelve men and two dogs, but it were twelve men and two dogs had to search for-r you while you sat shiver-r-ring up in the highest oak tree four-r miles away..." 
+
+"...Well..", Ludus started a heated reply, but was cut short by a loud roar of laughter: "Ha-ha-ha, I heard that also. But how can either of you talk of heroic deeds? It's only I, the noble knight Lancelot, daring executioner, who has the right to do so. Did I ever tell you how I kept the enemies of my father in check for seven years until he came to support me? Or did I forget to mention what the king said to me? 'Lancelot', he said, 'when we attack, you will take on half of the enemy and with the help of god, me and my 2000 soldiers will
+overwhelm the other half.' Oh yes! I really fought but what did you do? You climbed up trees like cowards, both of you! And you, Vino, my cousin by blood, instead of following in my footsteps you were a slave to alcohol all your wretched life. You haven't seen sunlight since you were a boy of 10 because you preferred the wine cellar of your father instead of fighting. No wonder your father cursed you when he died. Cursed you to stay here forever... and cursed me as well, because I didn't put an end to your wrong doings. And then you drowned in that damned wine-cask..." 
+"Be-e-eautiful death, I'd like to r-r-repeat it, hohoho!" 
+
+I could distinguish the hiccuping sound again.
+
+"Beautiful death? Beautiful death? Hah! You know nothing! Listen to what Lancelot the noble knight tells you: Only death on the battlefield, eye to eye with the enemy, his sword crossing yours, a blow, a stab ... finished - that is beautiful death. And this stranger living in Carfax Abbey will have the privilege of such a beautiful death..."
+
+"Well...", Ludus' wry tone interrupted, "...You certainly haven't had the privilege of such a beautiful death have you, my deareye-to-eye-Lance. When Grumpy the Grumbler killed you with his axe it was from behind - you were running away!" 
+
+"Me? On the run? Take that, you ruffian. Be your tongue which has only tasted pig swill and foul water damned thrice. And now this stab... and step..."
+
+With every step I could hear one more book fall from the shelf. At first I had been confused, then little afraid, and finally just a bit angry... after all, who the hell was using my library for their private feud? I decided to have a look, after all, I am the master of the house now. I pressed the handle carefully so that the creaking couldn't be overheard and opened the door slowly. The door was hardly ajar when I heard
+Lancelot's voice say: "The mortal - get away... quick!" 
+
+I threw the door open and shouted, "Stop right there! What...!" 
+
+I couldn't believe my eyes. There was nothing there apart from some books which had fallen to the floor, in fact everything seemed normal. There was no trace of anyone in my library. Only three empty bottles of wine. And I certainly couldn't remember drinking three bottles of wine!
+
+Sitting here now, I still can't believe what happened. Could it be that... perhaps I had drunk some wine, and under the influence of alcohol I mistook the rustling of the curtains and the whistling of the wind for voices? After all, nobody could disappear that fast. Later I ran into the vicar of Denborough while shopping in the village. He had never heard of tramps or anything strange at all at Carfax and he couldn't think of any explanation concerning these 'people' in my library. 
+
+I will take much more care with alcohol in future.
+
+August 18th, 1982 
+
+I really feel at home in Carfax Abbey. It already has an air of intimacy and familiarity. Each room seems to posess an individual character, and even the front of the Abbey, which at first I considered quite sinister looking, seems welcoming. During my walk this afternoon I had a look at it from a hill just north-east of here which gives a splendid view over the estate, spoilt only by the nearby cemetery. After the walk, which led me through some neighbouring land I had a leisurely dinner by the fireside and then I read for a little while. 
+
+I think I'll go to bed early tonight because the fresh air, long walk and the delicious meal seem to have made me very tired. Hopefully tonight won't be interrupted by any noises. I guess old houses do creak and rattle - but it still makes me a little nervous. However, this is my new home - Carfax and I will just have to learn to get used to each other!
+
+August 19th, 1982
+
+I slept so soundly last night. When the door bell rang at 10:30 I had to fight my way out of the bedcovers! I expected it to be Mr. Hewlott, but it was the postman bringing a parcel. He seemed like a nice guy - Mr Evans - but he kept on asking if everything was alright, which I though to be very odd, almost as if he knew about my experiences. When I asked him he evaded my question and just said, 
+
+"Well, there's a lot of gossip in Denborough. I was only thinking about the loneliness out here in Land's End." 
+
+But Land's End is located in south-west of England... Mr. Evans had an answer for that one too: "This place is also known as Land's End by the locals because of an old legend - something to do with this place supposedly being the other end of the world. Anyhow, can't hang around chatting, I'm late. No peace for the wicked, eh Mr Burger? Good day...!" 
+
+And with that he took his old bike and cycled off without looking back. As you can imagine, I was quite surprised by the encounter. Back inside I opened the package - it was some books I was expecting. I was especially pleased with the book on 'Ghosts, Goblins and Monsters of Scotland'. Thumbing slowly through the book, I couldn't get Land's End out of my mind... and then a paragraph on Loch Ness distracted me. I found the story extremely interesting and read through it at once. The rest of the day was a mixture of thoughts about Loch Ness and Land's End. 
+
+Oh yes, something else I've remembered... I was about to throw away the package wrapping paper, when I noticed a postcard - postmarked 'London', and instead of a name and address there words were written in a strange hand: 'To the Intruder, Horror House'
+
+Beneath this were a few lines in the same trembly hand: 'Be Careful... for whatever You do, Ooze Does it too... We'll get you' 
+
+There are some cranks about. What will they think of next? I'll ask Mr. Evans about the card next time I see him. 
+
+The kettle is whistling, must stop here. I just can't understand how I ever drank coffee which just keeps you awake. There days, I think there is nothing better than a nice cup of tea... I have always had a cup before bed since my dear Polly died. 
+
+Dear Polly... she would have loved this place...
+
+August 20th, 1982
+
+What happened last night? 
+
+I had hardly got into bed when the noise started. The roar of the guns during the last war seemed like a whisper compared to that! It came from the attic. What was it? Bleary-eyed, I jumped out of bed with thoughts of rats and mice marching about in jackboots, and having a party! Slippers on, I got my keys and off I went. As I made my way to the attic, I remembered the real estate agent's words, that the reason for Carfax Abbey's low price was because of it's age. Huh! Perhaps I was the only person on earth that would ever consider living in it... I had soon convinced myself of my rats and mice theory, but then... laughter! I hesitated. First the voices in the library and now... this? Whatever it was.. I wanted to know about it there and then and I headed quickly upstairs to the attic. As I drew nearer, I was able to distinguish several voices... some of them sounded very familiar: "Dr-r-rink some mor-r-re, Holunder, you'll be better-r-r at playing ninepins, old Tear-r-r the heads-off..."
+
+Someone was rolling their r's again. 
+
+My experience in the library wasn't a dream then, and I definitely wasn't drunk now! I ran a hand through my hair, desperately trying to make sense of it all, but before I could collect my thoughts another voice - one that I fancied I hadn't heard before - replied: 
+
+"The heads, dearest Vino (-Ahhh!-) the heads are old"
+
+Did that voice say 'heads'? I decided to get closer to the trap-door in order to hear better. As I slowly approached the voice continued: "Look my friends at this head here.. it's old. As you all know I haven't had the opportunity to get any new ones lately! (- quiet laughter -) I got it from MacPimple the landlubber (- roaring laughter -) Since it's lost almost
+all its hair, the panic in its eyes is more fun that its quality as a ball. Do you remember the story of how it came into my possession? Young Archie MacPimple, a curious landlubber made a bet with one of his drinking pals that he would spend a whole night in Carfax Abbey. In Carfax Abbey, hoho! And now I hear you ask, did he get to collect his winnings? Hohoho! No-o-o, hohoho, one measly hour was all he could stand. I played with him, appearing here and there, chasing him from Foltair's cellar up to this attic and back again! That was real fun. I had a wonderful time..." 
+There was a pause until the voice continued thoughtfully,
+"Unfortunately Archie didn't find it as amusing as I, and when after an hour of being completely exhausted he stood in this exact spot (- stamp upon the floor -) and I shouted at him 'You miserable worm. You wanted to try me out! Say your last prayer before we go bowling!', of course he didn't know what I meant and his eyes had this surprised look of shock and horror; and I tore off his head! Hoh, and do you know what happened next? His head was completely cut off, but his eyes took on that wonderfully fearful expression they still have. I don't want to praise myself but even the dead are afraid of me!" 
+
+Roaring laughter filled the blackness around me and seemed to shake the house. The noise made it possible to sneak nearer and when I came up to the trap-door I summoned up my courage, opened it carefully, and proceeded to climb up... 
+
+... and the next thing I recall, it was late in the morning and I was laying in bed.
+
+Dreams very often seem realistic but could this be a dream? I lay there thinking, desperately trying to remember more. Yes... I recall a severed head rolling at me... strange characters in funny disguises surrounding me... only a dream?
+
+But what could have caused such a dream? My big dinner last night? Surely not... Perhaps I am going senile. 
+
+I wanted to know for sure and returned to the attic - trembling. Yes... there were the keys, still up there! I looked around. Nothing.
+
+Sitting here reflecting, I conclude that someone is trying to make a fool out of me. I must do something to put an end to this nonsense, and I've decided to fit new locks. Everywhere. I'm not going to be fooled by some wise-guys trying to scare an old man with their disguises and rolling rubber-heads. Their game will come to an end when they find the doors locked! And if this doesn't stop them, a little lead shot in their butts should do the trick!
+
+The village locksmith came this afternoon - I didn't tell him anything, just asked him to change the locks. He said the wierdest thing - he said 'that won't help much' - as if he knew why I wanted them changed. 
+
+Tonight I will lie in wait! I'll find out just who enters my home without permission and give them a surprise. I'll grab a nap now in order to be ready for them later on.
+
+August 21st, 1982
+
+To everybody I am well known as a realist. A down-to-earth man. But it is not easy for me to write down what has happened in the last few days because if anyone ever reads this... well, they'll think it was just the ramblings of a lonely and senile old man. 
+
+Perhaps it is...
+
+But, dear diary, I'm sure that I'm as far from being senile as I could be. I am thinking clearly, rationally, and have my senses about me, of that I'm convinced. It's my knowledge which must be full of gaps... that prevents me from adequately understanding what I have seen. 
+
+I thought it might be trick or treat youngsters responsible for those sleepless nights. What naivety and ignorance of the unknown. Modern man can indeed be a very silly creature. When men keep on disappearing without trace at specific places, when thousands swear to have seen something defying explanation, when fairy tales tell of ghosts and demons we just laugh. 'Ghosts and phantoms only exist in the minds of kids' we say. We're so stubborn that we fail to see the obvious.
+
+Sure, a lost of it may be imagined or dreamed. 'Children's imagination...' and that's how we put aside all their stories. But... just imagine.., what if children are more sensitive than complacent grown-ups? If only we could listen more carefully to them, then... oh.. now I am rambling. But... if we do not want to believe in something then we find a lot of explanations - or we don't listen at all. How can you explain why some people possess unusual abilities, who can influence a compass, move or even deform objects using their will power? What do we really know about ourselves and our surroundings? 
+
+No! I'll do it. I'll write down as much of what happened as I can remember - it may sound like a dream... I only wish that were true...
+
+Yesterday... yesterday morning... I woke up... breakfast was prepared. There, next to me on the bedside table was a tray with a full breakfast. Steaming hot coffee, fresh rolls, strawberry jam... even a boiled egg. I was sleepy, and thought nothing of it... Polly often made me breakfast in bed... but it was only when I reached for the roll that... it hit me... 
+
+If I was the only living thing in Carfax Abbey - then who the hell had prepared breakfast? 
+
+I remember going cold. Without any further thought, I leaped out of bed and charged out of the door ready to undertake a full scale search. But something blocked my way. 
+
+A voice said: "Where to, Cheez?" 
+
+"To the kitchen", I replied without thinking.
+
+"But I've already prepared breakfast. By the way, I am Ludus." 
+
+"You? Oh. Yes, that's fine." 
+
+With that, I turned and walked straight back to the bed-room. I must have still been half asleep, for it took me quite a while to realise the significance of the last 30 seconds. I turned around quickly, and saw - nothing! 'Ludus' has gone, vanished! The hall was empty as well. I searched the rooms systematically until hunger drove me back to the bed-room. Never mind who prepared that breakfast it looked alright! Coffee was almost cold but still drinkable. I kept the egg until last. As I cut off the top, a red liquid spurted out of the hole and hit me between the eyes. Damn! That crazy guy Ludus must have lain in wait for that moment, for as I reeled with surprise, the door opened and he appeared, chuckling:
+
+"Special Room-Service Egg. Ketchup eye-lotion. Very healthy, hoho!" and with that he left again. I sat with my mouth open, as I realised he had not walked... but floated!
+
+I had a tin of Corned Beef and an orange for dinner. Despite being
+very hungry I couldn't eat anything more than substantial. I was very nervous about recent events... the state of my mind... was it torturing me? I kept on turning round because I could not shake off the feeling I was being watched. I got depressed and on edge. To calm my nerves I decided to take a walk. The fresh air would help. I strolled through meadows, up the hill and down the other side and after some time I forgot all about the mysterious events, and concentrated on the beautiful sun drenched countryside around Carfax Abbey. Thoughts of Land's End entered my head again for some reason... 
+
+It was a wonderful walk. Around 4pm I turned back because I was starving. Lost in my thoughts I had walked so far that the sun had almost gone down when I got back to Carfax. As I approached from the cemetery, I glanced at some graves and... here we go again, this sounds crazy... but I swear I saw a skeleton! It sat on the grass leaning against a moss covered wall, waving and shouting: 
+
+"Help me! I'm cold. Gimme your coat to cover my bones. Please I won't do you any harm." 
+
+"I'm outa' here" was my immediate thought, just get away. I hadn't run like that for years and only when I had reached a side door to Carfax and unlocked it did I dare turn around. To my horror the skeleton was rattling around the corner of the moss covered wall and heading in my direction, arms outstretched. I ran inside, slamming the door shut behind me. I nervously peered out of a window, just in time to see the skeleton... disappearing. The rattling of the bones became less and less, and finally everything had melted into thin air but a bony waving hand. I turned away, exhausted and breathing heavily. After I had caught my breath I dared to open the door again. I couldn't see the skeleton... but there was Ludus. 
+
+"May I come in, Cheez?", he said politely and floated over the threshold.
+
+It must have been to much for me. I fainted...
+
+When I came to I heard a voice saying: "...he still lives. What a pity. His head has got just the right shape for bowling. Pity, pity, pity... but we could..."
+
+I fainted again.
+
+When I finally came around my face was wet and a sponge lay at my side. I desperately struggled to get up. 
+
+"Hello", I shouted, "What's the matter! Face me! Who are you? Hey, can you hear me?". 
+
+I could hear a whisper in my ear, "Psst, don't wake up Ooze!" 
+
+It was Ludus. I recognized his voice although I could not see him. I wasn't as alone in Carfax Abbey as I had first thought, that much was certain. I felt wobbly, exhausted and tired. Looking out of the window I could see the cemetery peaceful at the moment - no skeletons. The only sign of life was in the window of the chapel where a flickering light could be seen.
+
+...Flickering light?! 
+
+No, definitely no, no NO! The day had been exciting enough, I'd had enough! I wasn't interested in any flickering lights anywhere! I just wanted to sleep. In the bedroom I almost fell over something hard but didn't give it a second thought and once in bed I drifted into a sound, dreamless sleep. 
+
+It was the next morning that I noticed my diaries of the years1925-30 on the floor. Some had been opened and my pen lay amongst them, dried out, cap missing! I looked closer and noticed some comments written close to my entries. Next to a report on a trick we played on our history teacher at school it said "Super". There were other remarks such as "Magnificient", "Top" and even "Exuberant". 
+
+Just then, I became aware of a loud noise coming from the hall. Some of the armors had started a fight. Pieces of rusty silvery metal flew through the air, hitting the ground with an almighty crash. 
+
+Can you imagine! Down in the hall the armors beating each other up... Don't ask me why, but suddenly everything became clear - I charged down the stairs like a madman posessed, grabbed one of them and shouted:
+
+"Gotcha. You guys have tried to frighten me to death over the last few days. I almost believed it was ghosts haunting Carfax Abbey!" Now I was sure it had been some lads from the village playing tricks on me. 
+
+I opened the visor...
+
+... and found myself face to face with the bony skeleton of the day before.
+
+"Little human", it growled through yellow, chattering and chipped teeth, "why do you disturb our home. You're gonna pay for it!" 
+
+I let go of the armor and started to walk backwards... slowly... but was halted by a wall of tin. Whilst I have been busy challenging one of the armors, the other had lined up behind my back, circling me slowly. Their visors were also open and each helmet revealed new horrors. It was dark in the hall. When I got up it had been daylight and now ... the moon was shining through the window and thick, unforgiving fog surrounded the house. And now I was being stared at by a half- rotten face whose foul breath almost made me faint. The eyes lay deep in their sockets and the cheek bones were bare. Something grabbed me from behind, spun me round, and I looked at another horrible grimace. I felt sick. It's odd the things you notice when you're terrified - but I noticed how the pale moonlight coloured the blood-crusted face with a blue tint. I couldn't recognize anything but the eyes. And they were... well, horrible. They didn't seem like human eyes; they were wicked, cruel and somehow demonic. My heart pounded so hard that it hurt. I wanted to be anywhere but here. The creature moved it's jaw, revealing sharp mouldy, brown teeth. It spoke in a deep, gruff, yet gentle tone:
+
+"Why you stare at me, mortal? Never seen how accomplished
+nature can be?" 
+
+Something grabbed my arm and forced me round. I looked into the face of what appeared to be a gnome now. He had to stand on a step in order to look right into my face. A malicious cruel and cold grin cut the pock-marked skin in half and showed black rotten tooth stumps. The green eyes changed colour and began to glow. They told of untamed greed and a desire for blood! These creatures made Ludus seem friendly! They were... monsters... yes, monsters in the true sense of the word. Beasts ready to cut my throat and as that thought crossed my mind, the dwarf took off his gloves revealing long fingers and dangerously sharped claws. With a sudden movement, he slashed his claws over my throat. I felt no real pain, but I could feel the blood pumping, running warm, The eyes of the monsters looked greedily. This was my only chance! I pushed the gnome aside and ran up the stairs. Before the beasts could react I had already reached the top. They looked angry and gesticulated wildly. I carried on running to the library. There was my Smizz & Wesson. Thoughts raced. I had hardly taken it out of the drawer when the first monster rattled through the door. Immediately I pulled the trigger without taking aim. The bullet blasted a big hole in the armor, disappearing in the foul body. A dark liquid oozed out of the hole and trickled down the rusty armor to the floor. The monster staggered around and then fell heavily to the floor. The others entered! I was about to fire again but something grabbed me from behind, causing me to drop the pistol, and swung me around. Again I stared into the skull of the skeleton! It shone in the pale moonlight and its jaw chattered continually. The rest of the pack now reached me and I felt hopeless. They discussed how to put an end to my life - the gnome kept talking about 'slicing up' all the time. 
+
+"Foltair" said the skeleton. "As a torturer you should know best that he'd be of no use afterwards. What about the iron- maiden? That's supposed to be good for your complexion, haha." 
+
+My life flashed before my eyes. 
+
+But then... a deafening thunder, a roaring bluster shook Carfax Abbey, and monsters drew back. 
+"Ooze", the skeleton chattered, and disappeared into thin air again. The gnome, muttered: "Ooze, we woke him! His rage will be terrible! He will..."
+
+Before he could say any more, the floor opened right in front of us and splinters of wood flew through the air like lethal weapons. If it was possible for monsters to sweat with fear, then these did. I heard the corpse I had shot, shouting, "What we gonna do with the human?" 
+
+The Gnome screamed: "Leave him! Maybe Ooze will forgive us if we..." 
+
+The voices were silenced; a whirlwind came through the hole and nothing else could be heard. If these intimidating monsters were so scared , I wonder how terrible Ooze must be? I tried to hide, realizing that the ghosts had all nearly all disappeared... then something red shot through the hole: Ludus!
+
+He laughed, turned round in the air, enjoying being carried by the whirlwind.
+
+"Well Cheez", he grinned, "Wasn't that a really professional show? Weren't they in a real spin? Hohoho, haven't had so much fun for ages!!!"
+
+I stared... mouth wide open. Slowly he left the whirlwind, clicked his fingers and the library was spick and span. The big hole had disappeared. I couldn't close my mouth! 
+
+"What's the matter with you?", Ludus asked. "Don't you feel well?" I spluttered some gibberish, not believing what had happened.
+
+"I...I th... I think.. I'm tired" 
+
+His sympathetic glance told me that I didn't look to well. Slowly I made my way down the staircase, Ludus comfortably floated - of that I'm sure about - next to me noisily enjoying an old piece of chewing-gum. 
+
+"Do not worry, Cheez", he said when we had almost reached the bedroom, "I will talk to them. They're like children, you know? We don't want intruders in Carfax Abbey, for human beings are almost always intruders, 'cause they want to force their will upon us. When I looked into your diaries yesterday I was really amazed. You seem different. You've got a sense of humour, you know. That's the reason why I help you and why I will convince the others that you are a friend."
+
+I must have fallen asleep. It's now 3am. I just had to write all this down. It's incredible. A strange silence has fallen over the house... like the calm before a storm...
+
+August, 22nd, 1982
+
+Though things grew more bizzare with each day, at least I am sure now that I am not going mad. 
+
+I woke at 10 this morning, bleary eyed. I was immediately aware that I was not alone. All the monsters who only yesterday had tried to kill me were gathered at the foot of my bed. My heart began pounding again, and I feared for my life. Then Ludus came in and introduced the ghosts to me. There was Slime the rotten corpse who I had shot yesterday. 
+
+"Cheez, meet Slime. Slime, meet Cheez Burger", Ludus said grinning. Slime greeted me in a friendly way and seemed embarassed. 
+
+"I'm sorry for what happened yesterday, but we couldn't...", he wiped some green fluid that had begun to ooze from his eye socket, with his torn
+and blood stained hand. Next to Slime stood Deaddy. He had once been the gravedigger of Carfax Abbey, Ludus told me, and obeyed an old curse: - 
+every night he digs one grave and has to fill it up with the soil the following night. It was a curse quite similar to the one Sisyphus had to bear and obviously Deaddy didn't enjoy it. Next in the queue was T-Bone. He was the skeleton who had waved to me when we met in the cemetery. He, too, apologized and gave me one of his ribs as a present. 
+
+"We both be blood brothers, but that is impossible...", he said. 
+
+"Never mind", I said quickly, regaining my composure, 
+"we can be bonebrothers from now on.
+
+" The fourth was Sir Lancelot, the knight. He was a sickly, tall looking creature with a simple pudding basin hair-cut. He held out his cold hand and bowed deeply. I noticed the gnome was missing and when I asked Ludus about him he hesitantly: "Look, Foltair isn't really one of us, you know. He came a long time after us, at the time Ooze settled here. He is one of Ooze's jackals - they now live here as well. Watch out for them because they will kill you if they ever get the chance." 
+
+That reminded me. Who was Ooze, what was Ooze and where was Ooze; I noticed Ludus' eyes narrow as I enquired. The jolly Ludus became somber.
+
+"Ooze is evil. He is the master of evil. For years we lived in Carfax Abbey peacefully, together with some friends. One day though, there was a terrible storm in the world of the ghosts and Ooze emerged from nowhere. Ooze is not a ghost in the real sense, because he has never lived as a human being. But he lives of the human beings! His power is so enormous that none of us can contradict him. He brought some jackals who attend to us little house-ghosts and goblins - the damned - in order to keep us down and out of his way. He took over parts of this house, and we are not allowed to enter them. We have to be really carefull, as Ooze has the ability to change his form at will." 
+There was an uneasy silence. I suggested that they fight Ooze, but straight away realised it was pointless. These spirits weren't easily scared. They were brave but they really were frightened.
+
+"Ooze is much too powerful and his rage is cruel", Slime answered with a faltering voice, "Only 40 years ago we all witnessed how Ooze slaughtered my closest companion. Torn "Zom" Bee was silly 'nough to give Foltair a bit of his dope. He called the stuff Ghost-Dust... he found it somewhere in the depth of his own grave and mixed with a bit of rat's blood just for a laugh. But Foltair reported it to Ooze. Next we all had to watch Zom cast from the realms of the dead, cursed to stay 'nside his grave forever. Poor Zom", he sighed. 
+
+Slime told me much more about Ooze, but he had such a strong accent that I could only make out the story of Zom Bee. It must be terrible punishment for ghosts not to be able to haunt any more, lying in a grave rotting away slowly. Apparently it is one of the worst fortunes for a ghost. 
+Since then, I have been thinking about my new found... well, friends... and how I could perhaps try to free them from the tyranny of Ooze? After all, I am a living being and therefore surely not under his power. 
+
+The rest of the day was pretty normal. I tidied up and thought more about how to tackle Ooze.
+
+Ludus appeared from time to time telling me the latest ghost-jokes. He's a really swell ... er, guy... and I really don't mind that that he found my diaries. I would never show them to just anybody. A diary is the most personal thing a human has. 
+
+In the evening I lit a fire and prepared supper. Ludus was already in the kitchen wondering what I'd cook. He was delighted when I let him to try a steak and a sip of Guinness for the first time - it wasn't long before he was quite tipsy and tumbled through the hall.
+
+August 23th, 1982
+
+Peace seems to have actually invaded Carfax Abbey. The ghosts don't bother me anymore and when their noises woke me last night I just turned over and managed to get back to sleep. 
+
+I talked with several of my new friends today, and they helped me to arrange things in Carfax. Ludus was at my side most of the day - he seems very keen to know the jokes of the 20th century. And he takes great delight in experimenting with 20th century experiences. He seems most impressed by my old tobacco-pipe. I caught him floating in front of the fireplace, smoking away. He has also become hooked on beer. I met even more of the ghosts that reside in Carfax Abbey, although some of them don't want to have anything to do with me. Vino, the spirit of wine and the flying Holunder are among them. Well, they'll just have to get used to the thought of living under the same roof as a human! As long as they don't do me any harm I won't bother them. Horus, the spirit of age belongs to a second group of ghosts confined to one area of the Abbey. As Ludus explained, the other house-ghosts don't even know whether he's still alive (silly expression for ghosts, I think), or whether's he's already fallen victim to Ooze. He resides in one a part of the house strictly sealed off by Ooze. Marie EnToilet is another, she was banished to her area by her jealous husband, a great magician of the 14th century, because she couldn't get enough of the opposite sex, Ludus explained smiling. A third group are the Wandering Souls. Ludus told me that these were the souls of people who died or had died but their time hadn't come yet, and now have to wander about in a realm between realms. 
+
+So far I haven't any ideas how to free my friends from the tyranny of Ooze. Even Ludus who seems to know him best hasn't any ideas.
+
+August 26th, 1982
+
+Today saw an important breakthrough for me. With Ludus' help I managed to gain the respect of nearly all the ghosts in Carfax Abbey! They accept that unlike most humans, I won't try to drive them out, and that I am looking for peace and quiet as much as they are. Ludus even succeeded in persuading Vino and Holunder to talk with me. 
+
+Vino has the reddest nose I've ever seen and Holunder looks rugged like a sailor who has crossed the seven seas in a galley. I had heard of his bowling passion and jokingly thanked him for the compliment on my specially suited head. He must have been a portly fellow once. 
+
+Ludus told me over a glass of wine how the ghosts had come to Carfax Abbey and all in all it was a funny and entertaining afternoon. Vino listened with interest as I of my journey to Germany and we both fondly remembered all the different sorts of wine offered by that country - and, of course, Dr. Frankenstein. I gave Vino an old bottle of Rhine-wine as a gesture of peace and goodwill, to which he shouted joyfully, apologized, said good-bye and made quick exit clutching the bottle. I think I'm right in assuming that he went off to guzzle in private! 
+
+"Well then", Ludus said finally, "Let's propose a toast on eternal friendship".
+
+That's what we did - although Holunder hesitated at first. 
+
+"You're all spoil-sorts", he murmured. "Nobody thinks about me and my hobby." He still seemed a little upset that he wouldn't be able to use my head for bowling so I tried to think of something to cheer him up. One of my aunts had once given me a book called "Bowling - the right way". Like all aunts she also didn't know the real hobbies of her beloved nephew! I handed the book to Holunder who was quite surprised by the gesture; he lifted his eye patch, put on a dusty monocle and started to read the book. He smiled when he saw the ladies and gentlemen (especially the ladies) practicing their favourite sport.
+
+"Cheez, laddy, would you please be so kind to invite the second lady on the right hand side to dinner this evening!",he said after a while.
+
+When I turned round to Ludus again I noticed Lancelot had joined us at the table, and that both he and Ludus were looking very serious indeed. I asked Ludus if there was anything the matter. He stared long and hard at me before replying:
+
+"We are very sad that barely we have become friends than we have to separate again, Cheez."
+I didn't understand. "Cheez!", Ludus implored. "You have to leave Carfax Abbey!" 
+
+I still didn't understand. 
+
+"Ooze! Oo-o-ze! When he comes to know that you are here it'll be terrible for us and especially for you. Something cruel is bound to happen. A human being in his sphere of influence... he simply won't accept it!" 
+
+But dear Diary, you know this stubborn old fool better than that. I haven't been through all of the traumas of the last few weeks just to leave because of some old ghost. 
+
+I told Ludus that it was because I am human, that it can be an advantage. They looked at each other in surprise.
+
+"Ooze doesn't know me, yet. He can't assess me and he might not know that I'm well informed about him. In addition I can fight him with... er, ...the classic weapons... you know, traditionally used for ghosts and demons... such as the cross, holy water and silver-bullets. Weapons a ghost cannot get hold of."
+
+"Cheez, Cheez, come down to earth again!", Lancelot interrupted, "Ooze is no character in a novel. You must realize that anyone... or anything that confronts him can't afford any mistakes at all". 
+"But we have to do something! It may be the case that Ooze frightens you... but I don't fear him any more than I would... er,... a soap bubble." 
+
+There were brave words, I knew, from such an old man. But I can't desert Carfax Abbey and my new friends. Perhaps friendship and love could be my strongest weapon against the evil force. Slowly Ludus began to smile again.
+
+"Pass the ten pebbles over at once, Lace", and to me he said: "We made a bet on your reaction!" I was speechless.
+
+"We want to defeat Ooze. You can help us. But we had to test you beforehand. Our existence depends on your loyalty!"
+
+They left soon after, leaving me to my thoughts. I figured out 
+
+- I will attack Ooze only in daylight, if possible, for at night he is bound to have an advantage over me. 
+
+- I will look for items which I could use for tools or for weap... 
+
+I have just heard a screaming noise, and am going to investigate. 
+
+11:20pm. I am exhausted. But I must think quickly. Hopefully I have enough time to work out a plan. It might be that I will have to face Ooze tonight. It had been T-Bone's screams that I heard. I arrived in the hall together with Ludus and the other ghosts. The screams were coming from the cellar. As I began creeping down Ludus warned me to be careful. 
+
+I'm not too familiar with the cellar but it was fairly light down there - A big fire in a stone-chimney and several torches in dark holders on the stone wall - I saw a big copper kettle and... a rack! T-Bone was strapped onto it. Next to the rack stood Foltair. Suddenly Holunder was behind me, and whispered:
+
+"Psst... Foltair is an evil creature and we must be very careful, but I think I know how we can save T-Bone."
+
+He told me his plan. It was quite simple. I carefully went down the steep stairs until I was about halfway down. Then I started panting and scraping my feet as I ventured deeper. Of course Foltair heard the noises at once and spinning round drew his long leather whip from his belt. His eyes sparkled menacingly when he spotted me. The leather straps whistled and cracked through the air. Slowly the gnome walked towards me, his mouth slavering, showing his teeth that sparkled like razor-blades in the glow of the fire. I positioned myself in a dark corner so that Foltair's back faced the stairs. The whip flashed through the air again and twisted around my arm. 
+A terrible wave of pain went through my body and I tried to fight against the gnome who slowly drew me nearer. What strength in the arms of such a dwarf! Inch by inch we came nearer to each other. Then, with a sudden movement I managed to free myself. The weals from the whip hurt like hell.
+
+Now Foltair drew a dagger and threw at me - I dodged, but just nicked my cheek. Foltair was encouraged when he saw the blood slowly dripping from the wound and... I swear he began to transform. His claws became longer and his face more and more distorted. He made a noise, the like of which I had never heard on earth. A strange smell, a smell of rotten flesh filled the air.
+
+In the meanwhile, Holunder had floated behind Foltair and succeeded in freeing T-Bone. Just as Foltair was about to attack me, Holunder called him - the torturer turned around. T-Bone and Holunder now distracted him so I could flee. Breathing heavily I ran up the cellar stairs, closely followed by the other two, leaving the gnome at the foot of the stairs - staring behind us with that evil glow in his eyes.
+
+In the hall the other ghosts cheered with joy. We moved to a safer room. T-Bone thanked us; "Thank you for the brave rescue, my friends. But this has convinced me that it'll be better for me to rattle my bones on another cemetery - far away from Ooze - whilst I am still free. Before I leave you, let me tell you this; Ooze knows everything. He is going to attack tomorrow night. Foltair told me everything - he didn't think I'd ever see you again. Tomorrow when the moon rises he will send out his most terrifying beasts to fetch Cheez. They plan to torture him and tear him into pieces so that he can't be identified. Take care of yourselves and especially of Cheez. I will miss you all my dear friends." 
+
+With a last rattle T-Bone disappeared. Poor creature I hope he'll find a peaceful place and new friends.
+
+Ludus looked very unhappy. "What are we to do now, Cheez?" he asked. 
+
+"We'll deal with Ooze together. Together we might succeed!", Holunder
+said and took me in his fat arms. 
+
+We worked out a plan how we might destroy Ooze. The plan's quite simple but I hope it'll work. 
+
+I'm sitting here all alone and I'm scared to death... oh, I wish I hadn't written that. I don't think I'll be able to sleep now but I must try. May god be with us tomorrow!
+
+That's where the diary ends. On the last page I found another entry in a stiff hand.
+
+Cheez... we are so sorry...
+
+You were the first human being who didn't want to send us away, who liked us. You were our friend.
+
+You shouldn't have died like that. The only thing which can comfort us is the fact that we will now be friends for good.
+
+Forgive us our weakness, that we couldn't help you. 
+
+Yours Ludus
+
+
+Letter from Lawyer
+
+Envelope
+
+Philwater Trench Smithers & Co.
+6 Old Callow Croft
+Burbage-on-the-Marsh
+Denbrough
+SN 8 3TB
+
+
+                                      Mr. H. Burger
+                                      4354 East Fifty-Third Avenue
+                                      Santa Clara
+                                      CA 789045
+                                      United States of America
+
+
+
+Letter
+
+
+Philwater Trench Smithers & Co.             
+
+Sir Ralph P. Philwater LL. B.          6 Old Callow Croft
+E. G. Trench BA, LL. M.                Burbage-on-the-Marsh
+M. Smithers LL. M.                     Denbrough
+M. Grimmer BA, LinEL.                  SN 8 3TB
+Mike Sutherland BA, LL. M.             Telephone (06 72) 81 04 26
+                                       Facsimile (06 72) 81 09 47
+Our Ref.:  EGT/ VH
+Your Ref.:
+
+Mr. H. Burger 
+4354 East Fifty-Third Avenue
+Santa Clara
+CA 789045 
+United States of America
+
+27th September 1982 
+
+Dear Mr. Burger,
+
+Re: The Estate of Mr. C. Burger (deceased) 
+
+Please accept out condolences at this time of bereavement for you and your family. 
+
+I would be grateful if you could arrange to meet with me at these offices on 2nd October 1982 at 3.30pm prompt in order that we may facilitate the reading of the late Mr. Cheez Burger's Last Will and Testament.
+
+Please find enclosed the Death Certificate from the Coroner's office at Denbrough. 
+
+Please feel no compunction in contacting this office if we can be of further assistance to you.
+
+Yours sincerely,
+
+E.G. Trench, BA, LL. M.
+
+
+Solicitors - Commisioners for Oaths - Conveyancing 
+This firm is registrated by the Law Society in the conduct of investment business
+
+Certification of Death
+
+HMSO rev. 3,2 Revised OCT/79 issued on behalf of her Brittanic Majesty's Principal Secretary of State for the United Kingdom of Great Britain and Northern Ireland, and the Office of the Births, Deaths and Marriages 
+
+Registrar's Office Denbrough            Number:054/81688-26
+
+
+Full Name of Deceased        Mr. Cheez N. Onion Burger
+                             Resident at Carfax Abbey, 666 Rue Morgue Avenue,
+                             Denbrough SN8 3TB, England
+
+Date and approximate         28th September at 10.25 am 
+time of death
+
+Place of Death               Low Cellar, Carfax Abbey, 666 Rue Morge Aven.
+                             Denbrough, England
+
+Cause of Death               Death by misadventure; blows by the head and body, 
+                             substantial wounding causing blood loss.
+
+Witness                      Mr. E.J. Evans, Mr. D. Hewlott, Mr. L. Hardy,
+                             Mr. S. King, Mr. E.A. Foe, Mr. B. Karloff,
+                             Mr and Mrs. J. Dean 
+
+Registrar of      Denbrough, 29.8.1982 
+
+REMARKS
+
+This really is a very unusual case; substantial wounding to the body, but the post-mortem could find no evidence of second person - it is true that such maiming is nearly impossible to impose upon oneself, however, both the coroner and local police CID chief can find no reason to persue a murder enquiry. 
+
+Therefore we must record death by misadventure, until such mysterious circumstances that surround this death can be more fully explained, if ever. 
+
+Copies of this document may be obtained from issuing registrar at a nominal cost. False declarations of death are punishable by law.
+
+Brought to you by Belgarath

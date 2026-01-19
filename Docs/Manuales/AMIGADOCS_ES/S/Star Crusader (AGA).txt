@@ -1,0 +1,1122 @@
+CRUZADO ESTRELLA
+Tomado del Manual de IBM
+Con suerte, la mayor parte será relevante para Amiga.
+
+GUÍA DE SUPERVIVENCIA
+CRUZADO ESTRELLA
+
+Copyright y manual del programa del juego Copyright©1994
+Take 2 Interactive Software, Inc. Todos los derechos reservados
+
+Tome 2 software interactivo 
+575 Broadway, sexto piso.
+Nueva York, Nueva York 10012
+
+Star Crusader es una marca registrada de International Business Machines, Inc.
+Todas las demás marcas comerciales se reconocen por la presente como propiedad exclusiva de sus respectivos dueños.
+
+
+TABLA DE CONTENIDO
+
+INTRODUCCIÓN
+
+Antecedentes de la historia
+	Pax Gorenio 12
+	Los alienígenas de Ascalon Rift 12
+	La trama 14
+
+III Cómo jugar el juego
+
+A. verificación previa
+	Introducción 16
+	Salón Principal 17
+	Simulador 18
+	A. Elegir su barco 18
+	B. Elegir a tus oponentes 19
+	C. Misiones voladoras 20
+	Mapa táctico 20
+	Auditorio Mission Briefing 21
+	Sala de informática previa a la misión 22
+	A. Seleccionar compañeros 23
+	B. Seleccionar recursos de combate 24
+	C. Reunir el escuadrón 25
+	D. Misiones secundarias 25
+		1. Misiones ofensivas 26
+		2. Misiones defensivas 27
+	E. Recursos de la Academia de Pilotos 27
+	F. Base de datos de temas generales 28
+
+
+
+B. Misión de vuelo y combate
+	Información básica 28
+	Calibres 29
+	Vistas de cabina 30
+	Monitores 31
+	Ajuste de la velocidad 35
+	Controles informáticos y de navegación 35
+	A. Gestión de energía 36
+	B. Información sobre la misión 36
+	C. Mapa táctico 36
+	D. Comunicaciones 37
+	E. Control de daños 38
+	F. Orden de reparación 38
+	Armas y sistemas de puntería 39
+	Medidas de emergencia 40
+	Funciones sigilosas 41
+	Regresando de una misión 41
+	Premios y medallas (SÓLO para CD-ROM) 42
+
+ Estrategia de juego IV
+	Descripción general 43
+	Sistemas del barco 44
+	A. Poder 44
+	B. Combustible 45
+	C. Armas 45
+	D. Vigas del tractor 45
+	E. Sistemas de eyección 45		
+	F. Características de vuelo 46
+	G. Radar y sensores 46
+	H. Control de daños 46
+	I. Control de incendios 46
+	J. Transpondedor IFF 46
+
+V Consejos de combate
+	Las cinco razas alienígenas 47
+	A. Tancredos 47
+	B. Zemun 47
+	C.Mazumas 48
+	D. Amiens 48
+	E. Gorenes 49
+	Tácticas de combate 50
+	A. Cómo alinear un objetivo 50
+	B. Cómo enfrentarse a múltiples oponentes 50
+	C. Cómo luchar contra naves capitales y bases 51
+	D. Gestión de energía 52
+	E. Luchando dentro de una nebulosa 52
+	F. Luchar en medio de un campo minado 52
+` G. Consejos sobre vuelos en misiones furtivas 53
+
+
+INTRODUCCIÓN 
+
+De parte de todos en Take 2 Interactive Software, les agradezco por comprar y jugar Star Crusader. 
+Star Crusader no es la primera simulación de vuelo al espacio exterior y ciertamente no será la última. 
+Pero nuestra esperanza es que tú, el jugador, encuentres que Star Crusader es un producto único en un género tan concurrido como popular. 
+Hemos intentado crear un producto que sea diferente (con suerte, más divertido al final). 
+una historia memorable, llena de acción e impredecible que combina tecnología 3D de última generación con elementos de estrategia y narración.
+
+La historia de las Cruzadas medievales: los europeos exhaustos y cansados de la batalla marchando hacia Jerusalén 
+expulsar a los infieles de la Tierra Santa cristiana, es uno de los mayores relatos de la historia. 
+La historia de los imperios romano, y más tarde británico, con sus constantes expansiones, reinados gloriosos y caídas inevitables. 
+También ha sido intrigante en el ámbito de la historia. Igualmente fascinante es la arrogancia y la creencia 
+en su propia benevolencia que alimentó este expansionismo, y la furia y resolución con la que algunos lucharon 
+la influencia de los imperios aparentemente imparables de la historia.
+
+Con cuentos de grandes imperios y la historia de las Cruzadas como nuestra inspiración, 
+Nos propusimos crear una historia llena de conflictos y decisiones morales. En esos modelos históricos, 
+Ambas partes estaban dispuestas a morir por sus creencias y, al final, nadie podía decir definitivamente si alguna de las partes tenía razón o no. 
+bueno o malo. Star Crusader te permite tomar esa importante decisión por ti mismo. 
+En medio de la aventura tendrás que decidir si quieres quedarte con el Imperio Gorene,
+tiene la intención de expandir su influencia, o unirse a la Alianza de Razas Alienígenas, luchando por mantener la independencia. 
+Hemos intentado arrojar luz sobre una antigua historia de conflicto entre bandos opuestos y presentar una historia llena de emoción y lucha.
+
+Pero la historia sólo prepara el escenario para lo que realmente se encuentra en el corazón de Star Crusader: 
+la acción rápida y la emoción de la simulación de combate espacial en 3-D. 
+Hemos hecho todo lo posible para crear un sistema de vuelo 3D que sea, sobre todo, divertido y fácil de usar.  
+Puedes pilotar trece naves diferentes, cada una repleta de armas únicas y emocionantes. 
+Y contamos con lo último en tecnología 3D de vanguardia, con naves espaciales con texturas completamente mapeadas, translucidez sobre la marcha, 
+y técnicas de sombreado Gouraud y Phong de última generación. 
+Combine eso con efectos de sonido polifónicos a distancia, audio de cuatro pistas y una banda sonora de conducción. 
+eso dejará los sonidos de la batalla resonando en tus oídos.
+
+Star Crusader no es un juego lineal. 
+Hemos diseñado 104 misiones que se encuentran a lo largo de numerosos caminos de juego. 
+Recuerde que no es necesario tener éxito en todas las misiones para ganar una campaña. 
+Para avanzar en la trama general del juego, algunas misiones se han diseñado para que sean muy difíciles. 
+Como cualquier juego, si pierdes muchas misiones, perderás el juego. 
+pero la única forma de jugar las 104 misiones de Star Crusader es perder una batalla aquí y allá. 
+Así que, por supuesto, guarda tus partidas, pero no te apresures a repetir una misión que tuviste que abandonar antes de que se completaran sus objetivos. 
+Es posible que estés dejando pasar la oportunidad de jugar algunas de las misiones más divertidas y desafiantes del juego.
+
+Después de un año y medio de desarrollo, nuestra cruzada ha terminado. Espero que después de haber jugado juzgues que nuestro esfuerzo fue un éxito. 
+Háganos saber lo que piensa. Sólo escuchando sus comentarios y críticas podremos mejorar futuros diseños y lanzamientos. Escríbanos a: Take 2 Interactive Software, 1004 
+Ligonier St. Florida. 3, Latrobe, PA 15650.
+
+F.J. Lennon Productor								     
+Escritor, codiseñador 1 de agosto de 1994
+
+REFERENCIA RÁPIDA
+
+Controles de cabina
+
+Empuje (controles de teclado)
+0 - sin energía
+1 - 1/3 de potencia
+2 - 2/3 de potencia
+3 - potencia máxima
+4 - igualar la velocidad objetivo
+- disminuir la potencia en uno
++ o = aumentar la potencia en uno
+Botón del joystick #2 mientras está presionado hacia arriba/atrás - empuje
+
+
+Controles de combate
+
+E o Shift + T - objetivo más cercano
+L - fija el objetivo en la mira
+T: alterna entre objetivos
+<barra espaciadora> dispara arma activa
+Alt + T - objetivo anterior
+A - alterna entre aliados
+Alt + A - aliado anterior
+Shift + S - sobrecarga escudos
+Shift + L - sobrecarga los láseres
+Shift + A - aliado más cercano
+W - alterna entre armas
+Entrar - dispara arma "pesada"
+S - alterna escudos
+Botón de joystick n.º 1: dispara arma activa
+Botón del joystick #2 mientras está presionado hacia la izquierda/derecha - rodar
+Pestaña - Activar/Desactivar Afterburner
+I - Insultar al oponente
+
+
+Sistemas de cabina
+
+Alt + 1: activa/desactiva el monitor izquierdo (algunos barcos)
+Shift + 1 - cambia la función del monitor izquierdo
+Alt + 2: activa/desactiva el monitor central (algunos barcos)
+Shift + 2 - cambia la función del monitor central
+Alt + 3 - cambia la función del monitor derecho
+7 - Alterna entre todas las funciones del monitor izquierdo
+8 - Alterna entre todas las funciones del monitor central
+9 - Alterna entre todas las funciones correctas del monitor
+
+
+Funciones del monitor
+
+(escriba shift + número de monitor, luego el número de función que desea que sea el monitor)
+1 - radares
+2 - cámara de seguimiento
+3 - mira de orientación
+4 - escudos del barco
+5 - escudos del objetivo
+6 - daños del barco
+7 - daño del objetivo
+8 - escáner
+9 - sonda
+0 - Monitor de tecnología sigilosa
+Bksp o = - espejo retrovisor
+- ventana de comunicaciones
+
+
+Controles de navegación
+
+N: muestra los controles de navegación
+Flechas: moverse en mapas
+Clic derecho: se centra en el cursor
+X o >: amplía el mapa 
+Haga clic izquierdo o escriba el número para acceder a las funciones 
+C - se centra en el barco del jugador
+Z o < - amplía el mapa
+
+
+Vistas
+
+F1 - vista de la cabina principal
+F2 - vista frontal (sin cabina)
+F3 - vista trasera
+F4 - cámara de torpedos
+F5: vista exterior desde el barco hasta el objetivo.
+F6 - vista externa desde el objetivo al barco
+F7 - vista exterior del barco
+F8 - vista externa sobre el objetivo
+Mayús < - vista izquierda
+Mayús > - vista derecha
+
+
+Opciones
+
+F9 - alternar texturas de fondo
+F10 - alternar sombreado Gouraud
+F11 - alternar mapas de textura
+F12 - alternar sombreado de fuente de luz
+Shift + F10 - alternar sombreado Phong
+
+
+Otras funciones
+
+C - alternar tecnología sigilosa (solo intruso)
+Alt + R - alternar modos de radar
+B - alternar carga de batería sigilosa (solo para intrusos)
+Z: acercar el radar (solo modo cuadrícula)
+R - rayo tractor
+X: alejar el radar (solo modo cuadrícula)
+J - hipersalto de regreso a la base (desde la posición estacionaria)
+Ctrl + E - expulsar
+
+
+Teclas especiales
+
+Esc - menú de opciones del juego (en la base)
+P: pausa el juego (en vuelo)
+Alt + Q - bastante para DOS
+Alt + L - lanzar sonda (solo Intruso)
+Ctrl + S: inicia el escaneo (solo intrusos)
+Alt + S - alterna el sonido
+Alt + M - alterna la música
+
+
+Claves básicas
+
+S - ir al simulador (en la sala principal)
+M - ir a la sala de mapas (en el salón principal)
+B - ir a la sala de reuniones (en el vestíbulo principal o en la sala de ordenadores)
+F - misión de vuelo (en la sala de ordenadores)
+Esc: accede al menú de opciones del juego
+C- sala de ordenadores previa a la misión
+X - ir al salón principal (en la sala de mapas)
+
+
+Teclas especiales del simulador
+
+Ctrl + R - barco de reabastecimiento
+Shift + Tab - alterna la invulnerabilidad
+Re Pág - Ultra Velocidad
+
+
+
+
+
+
+Claves de comunicación
+
+(Comunicación al compañero de ala disponible más cercano)
+Alt + F2 - atacar a mi objetivo
+Alt + F3 - desactivar mi objetivo
+Alt + F5 - defender al objetivo/al aliado más cercano
+Alt + F6 - cúbreme
+Alt + F8 - rescatar/capturar mi objetivo
+
+
+(Comunicación al compañero objetivo)
+Alt + F1 - el compañero regresa a la base
+Alt + F4 - defender posición
+Alt + F7 - interrumpir el ataque
+
+
+ANTECEDENTES DE LA HISTORIA
+
+Pax Gorenio
+
+Eres Roman Alexandria, un piloto de alto rango de los Gorenes, la raza más poderosa y avanzada del universo conocido. El Imperio Gorene, al igual que los Imperios Británico y Romano en la Tierra, expande continuamente su influencia por todo el universo, extendiendo sus leyes, métodos, influencia, tecnología, filosofía, valores, vastas riquezas y sistemas monetarios a mundos que, en su mayor parte, son menos sofisticados que los mundos Gorene.  Muchos han llamado a los gorenes conquistadores, pero los gorenes se creen los libertadores y educadores del universo.  El éxito de sus métodos es una prueba para ellos de que su misión es convertir a otras razas alienígenas a sus métodos.
+
+Cada vez que se descubren razas alienígenas en regiones del universo recién exploradas, el Imperio Gorene se expande. A veces, estas razas (muchas de ellas incivilizadas) sienten temor por los gorenes y los aceptan con entusiasmo como amos y liberadores.  Algunas razas, sin embargo, han acusado a los gorenes de invadir la propiedad y han rechazado su influencia. Vastas regiones del espacio se han convertido en sangrientos campos de batalla, pero hasta la fecha los gorenes nunca han perdido un territorio que intentaron conquistar, gracias a su avanzada tecnología, armas y destreza estratégica. La historia del universo conocido ha sido escrita por los vencedores. . . los gorenes.
+
+¿Qué escribirán sobre Ascalon Rift, una zona remota del espacio recientemente descubierta donde varias razas alienígenas han prometido expulsar a los gorenes?
+
+
+Los alienígenas de la grieta de Ascalon
+
+A. Los Tancredos
+
+La civilización más poderosa y técnicamente avanzada de la región es la de los Tancreds. Algunos los consideran bárbaros, pero su poder es respetado y temido. Toda su sociedad está organizada para la guerra, debido principalmente al hecho de que, a lo largo de los últimos tres siglos, se han visto obligados a defender su mundo, Orentes, contra los ataques de los Zemuns. Los Tancreds tienen los barcos y armas más avanzados en Ascalon Rift, y rechazan amargamente el intento de los Gorenes de expandir su influencia en la región.
+
+
+
+
+
+B. Los Zemun
+Los Zemuns son una raza de fanáticos religiosos que habitan el mundo Ma'arrat. Adoran al dios Anjou y consideran enemigos a todos los no creyentes. Toda su civilización está centrada en servir a su creador. Al igual que los Tancred, con quienes siempre han estado en desacuerdo, los Zemun tienen armas y tecnología espacial avanzadas. Hace siete años lanzaron un ataque sorpresa contra los Tancreds y se produjo una sangrienta guerra de dos años; los zemuns finalmente fueron repelidos. Desde entonces, ha habido una paz incómoda entre las dos razas. Los Zemuns consideran a los Gorenes infieles y enemigos.
+
+
+C. Los Mazuma
+
+Los Mazumas son cambiaformas parecidos a camaleones. También son la raza más poblada y rica de Ascalon Rift. Controlan y habitan cuatro mundos: Hattin, Silpius, Leinengen y Nish, que son exuberantes, fértiles y llenos de recursos y tesoros naturales. Su poder proviene de su tremenda riqueza, así como del gran tamaño de su población, que es seis veces mayor que la raza Tancred. Los Tancreds, Zemuns y Amiens, para su consternación, dependen de los bienes y recursos de los Mazumas; Mientras que las otras razas invierten sus activos en el desarrollo continuo de tecnología militar, los Mazuma invierten sus vastas riquezas en su propia economía, construyendo industrias que se adaptan a la carrera armamentista entre los Tancreds y los Zemuns. Financiados con las ganancias de este prodigioso comercio, los Mazuma han construido un ejército y una fuerza espacial formidables.   
+
+
+D. Los Amiens
+
+Los Amiens, la raza de simbiontes que habitan el planeta Kayzeri, fueron antiguamente una raza pacifista de humanoides extremadamente inteligentes. Vivían como aislacionistas, negándose a convertirse en aliados de ambos bandos.
+Tancredos o Zemunes. Su avanzada tecnología los convertía en un enemigo potencialmente peligroso, por lo que no fueron provocados; Mientras no buscaran expandir su poder en Ascalon Rift, los Tancreds y Zemuns se contentaban con ignorarlos.
+
+Sin embargo, hace treinta años, una plaga mortal azotó a Kayzeri y amenazó a toda la raza. Se desarrolló e inyectó en los cuerpos de los Amiens un extraño paliativo: una colonia de bacterias genéticamente alteradas. Esta bacteria es ahora esencial para mantener vivo el cuerpo huésped de Amien, pero en el transcurso de los últimos veintiocho años ha evolucionado y adquirido inteligencia propia. La bacteria sensible es más agresiva que la naturaleza de su anfitrión pacifista, lo que conduce a un mayor conflicto interno, incluso esquizofrenia. Aunque el objetivo principal de la bacteria es proteger al huésped, las investigaciones de Gorene predicen que con el paso del tiempo, el conflicto interno llevará a la carrera a la locura total.
+
+
+E. Los nuubianos
+
+Los nuubianos de Anqah, en los márgenes de la falla de Ascalon, fueron la primera raza con la que los gorenes contactaron al entrar en la región. Al ser una raza primitiva, estaban ansiosos por adquirir la tecnología Gorene. Los gorenes estaban demasiado impacientes para hacerse un aliado en la región; Los nuubianos demostraron ser demasiado primitivos para comprender las costumbres de Gorene. Cuando los gorenes establecieron bases en Anqah y dieron a los nuubianos la tecnología y el armamento que necesitarían para defenderse del ataque de los zemunes y los tancredos, el plan fracasó. Una violenta guerra civil estalló en Anqah, una guerra que llevó a la destrucción del mundo nuubiano y de la mayoría de sus habitantes.
+
+Ahora hay refugiados nuubianos dispersos por todo el Rift de Ascalon. Se llaman a sí mismos Nomen del Inframundo y culpan a los Gorenes por su destrucción.
+
+
+
+La trama
+
+La historia se desarrolla cuando las razas de Ascalon Rift se unen en una incómoda alianza para luchar contra la presencia de los Gorenes en la región. Los Gorene, al enfrentarse a algunos de los desafíos más problemáticos que jamás hayan visto, están construyendo una enorme base y estación de batalla, Prajna-7, en las afueras de Ascalon Rift.
+Más cerca de los territorios alienígenas, los gorenes han construido tres bases más pequeñas (AR-1, AR-2 y AR-3) para comandar operaciones estratégicas. Como Roman Alexandria, piloto del escuadrón de élite Gorene Gold, el almirante Adleman Shylo, comandante de la cruzada de Ascalon Rift, te asigna el AR-1, que está bajo el mando del comandante del sector Dithmar Ferrand.
+
+A las fuerzas de Gorene en AR-1, AR-2 y AR-3 se les han dado tres meses para hacer retroceder a las fuerzas alienígenas enemigas y forzar su rendición. Tan pronto como Prajna-7 esté terminado y tripulado, los Gorenes tendrán el poder de tomar la región por la fuerza, pero completar la estación de batalla tardará aproximadamente seis meses. Hasta entonces, eres un desvalido con recursos, pilotos, barcos y armas limitados a tu disposición. Por lo tanto, con el oficial táctico Blois Fulcher a tu lado, comienzas el juego como uno de los cruzados que busca enarbolar la bandera del Imperio Gorene en Ascalon Rift. 
+
+Pero los acontecimientos comienzan a desarrollarse, las circunstancias cambian y tendrás la oportunidad de dar un paso atrás, evaluar lo sucedido y decidir, basándose en tus propias elecciones morales, quién tiene razón y quién no. Quizás te quedes con el Imperio Gorene y conquistes Ascalon Rift. O tal vez decidas unirte a la alianza alienígena y ayudarlos a ahuyentar a los Gorene.
+
+La elección es tuya.
+
+
+
+JUGAR EL JUEGO
+
+PREVUELO
+
+Introducción
+
+Habiendo jugado muchos juegos de computadora, los escritores de este manual son muy conscientes de que la mayoría de los nuevos jugadores de Star Crusader tendrán poca paciencia para leer esta sección del documento. Afortunadamente para estos jugadores, Star Crusader fue diseñado pensando en su tipo de entusiasmo incontrolable. Cualquiera que haya jugado un juego de aventuras no debería tener problemas para orientarse en las pantallas 2D. Los jugadores que estén familiarizados con otros juegos de simulación de vuelos espaciales deberían poder volar una nave Star Crusader con poca dificultad. La hoja de referencia rápida incluida con el juego te proporcionará breves descripciones de todas las teclas de acceso rápido, así que si estás ansioso por comenzar, no dudes en hacerlo. Cuando estés listo para explorar el juego con mayor detalle, el manual estará aquí, esperándote pacientemente.
+
+Al redactar este documento fue necesario recurrir a ciertas convenciones en aras de la conveniencia. Sin embargo, para evitar confundir (y tal vez incluso ofender) a los jugadores potenciales, se deben explicar estas convenciones.
+
+En primer lugar, todas las medidas a las que se hace referencia en este manual, así como en el juego Star Crusader, se expresan en términos de una unidad Gorene conocida como "km" (pronunciado kvum). Aunque, es cierto, la ortografía de km es la misma que la abreviatura estándar del Kilómetro Terrestre, los jugadores deben tener la seguridad de que los dos 
+
+
+
+
+Las medidas no son de ninguna manera las mismas. De hecho, un kilómetro representa exactamente una milésima parte de la distancia desde la superficie de Eysleria, el mundo natal de Gorene, hasta su primera luna, Arcadia. Cuenta la leyenda que este término se originó hace eones, durante la undécima dinastía de Gorene. Se dice que cuando el loco Emperador Grimnoth III (también conocido como "El Cruel") preguntó al astrónomo de su corte la distancia entre Eysleria y Arcadia, el aterrorizado sabio (que sufría de un extraño impedimento en el habla) sólo pudo tartamudear "kvum...kvum...kvum" una y otra vez. El emperador Grimnoth, que además de su genio para concebir nuevas torturas poseía muy pocas capacidades intelectuales propias, llevaba la cuenta de las frases, suponiendo que su sabio estaba contando la distancia solicitada en unidades especiales de medición del espacio. Entonces ahí lo tienes. Ahora recuerda, lo hemos explicado aquí, así que no hay por qué llamarnos con preguntas y/o críticas sobre las imposibilidades prácticas de los vuelos espaciales utilizando un simulador que basa sus unidades de medida en el kilómetro.
+También vale la pena señalar que los gorenes son extremadamente avanzados en el estudio de la física; tan avanzados, de hecho, que ningún manual podría explicar adecuadamente sus brillantes avances. Entonces, si crees que tu nave está desafiando las leyes de la física y su aplicación al espacio tal como lo conoces, estás equivocado... al menos en lo que respecta a la física de Gorene. Aunque la física en Ascalon Rift es incomprensible para la mente humana, se dice que es divertida porque no se ajusta a las restricciones de nuestro mundo laboral diario.
+
+Con referencia a las siguientes instrucciones sobre el movimiento del cursor y la selección de elementos que se encuentran en las pantallas del juego, los comandos del mouse como clic izquierdo y clic derecho se utilizan como convención. Nuevamente, esto se hace para acelerar el flujo del texto. Debes saber que en cualquier lugar donde se use el comando Clic izquierdo, también puedes usar el primer botón del joystick o presionar Enter en el teclado. Asimismo, siempre que se haga referencia al uso del botón derecho del mouse, se puede utilizar el segundo botón del joystick o la tecla Esc como alternativa.
+
+
+Salón principal
+
+Cuando comienza el juego, debes elegir un nivel de dificultad para la campaña para que pueda comenzar el juego. El nivel de dificultad seleccionado afectará la cantidad de objetivos que debes completar para ganar una misión, así como tu capacidad para recuperar misiones en las que tu personaje muere. Esto también afecta la intensidad del daño que sufres y los niveles de habilidad de los enemigos a los que te enfrentas.
+
+Una vez elegido el nivel de dificultad, te encontrarás en la Sala Principal de AR-1, una base de Gorene ubicada en el borde de Ascalon Rift. Ante ti hay una escultura del Águila Imperial de Gorene, símbolo del poder y la destreza del imperio. Integradas en la escultura hay cuatro joyas de diferentes tamaños y colores. Cuando centras el cursor en una de estas joyas, se activa una etiqueta para informarte del lugar al que puedes acceder haciendo clic izquierdo sobre esa joya.
+
+La segunda mitad del juego tiene lugar en un entorno desértico en un planeta alienígena. La escena base principal para esta mitad del juego se controla de la misma manera que la Sala Principal.
+
+Si lo prefieres, puedes ingresar a las áreas accesibles desde el salón principal simplemente presionando la tecla de letra que corresponde a la primera letra del título de esa área. Por lo tanto, presionar S lo llevará directamente al Simulador, M a la Sala de mapas, B al Auditorio de información y C a la Sala de computadoras previa a la misión.
+
+Además, puedes presionar la tecla ESC desde cualquier lugar de la base para acceder a una ventana desplegable especial que contiene opciones del juego. Estas opciones te permiten guardar una partida, restaurar una partida guardada y eliminar una partida guardada. También le permiten ajustar la configuración predeterminada de los monitores, así como el orden de prioridad para los sistemas de administración de energía y control de daños del barco que volará en su próxima misión real o simulada. Una vez que se hayan establecido los valores predeterminados para ese tipo de barco, permanecerán así hasta que decida cambiarlos. Otras opciones del juego te permiten activar y desactivar el sonido, la música y las escenas cinematográficas, y otras te permiten comenzar una nueva campaña o abandonar Star Crusade por completo.
+
+Simulador
+
+El simulador de vuelo es un dispositivo holográfico generado por computadora que se utiliza para entrenamiento y práctica. Es una buena idea dedicar algo de tiempo a luchar contra barcos enemigos en el simulador antes de realizar misiones reales contra esos mismos barcos. Para volar una misión simulada, mueva el cursor a la joya izquierda y haga clic izquierdo cuando aparezca la etiqueta Simulador de combate.
+
+
+A. Elegir su barco
+
+Una vez dentro de la sala de simulación, mueva el cursor a la silla del simulador para activar la etiqueta Seleccionar buque escuela. Haga clic izquierdo para implementar esta opción. Aparece una ventana desplegable con el primero de varios posibles buques escuela que ya aparecen en animación giratoria.
+En el simulador solo se puede acceder a los barcos que actualmente están disponibles para su uso en misiones reales del juego. Puedes hacer clic izquierdo en el ícono Menú para mostrar los tipos de barcos (es decir, Gorene, Tancred, Zemun, etc.) disponibles actualmente. Los tipos de barcos disponibles están resaltados en verde. Al hacer clic izquierdo en un tipo de barco y luego hacer clic en Listo, solo se mostrarán barcos de ese tipo para su selección.
+
+Para ver todos los barcos de un tipo determinado que están disponibles en el simulador, haga clic izquierdo en las flechas arriba/abajo dentro de la ventana. Cada tipo de barco disponible se presenta consecutivamente. Al hacer clic con el botón izquierdo en el ícono de Estadísticas, se revela la cantidad de armas, la fuerza del escudo, la potencia del motor, la velocidad máxima y las calificaciones de maniobrabilidad, la durabilidad general y la capacidad de reparación automática de un barco destacado.
+
+Para elegir un barco destacado para usar en el simulador, haga clic izquierdo en el ícono Seleccionar. Sólo se podrá seleccionar un barco por misión simulada. Para anular la selección de un barco, haga clic derecho en el ícono Seleccionar cuando el barco apropiado aparezca en la ventana desplegable.
+
+Al hacer clic con el botón izquierdo en el ícono Revisar, podrá revisar las selecciones de barcos para la misión actual del simulador.
+
+Para salir de la ventana desplegable Seleccionar buque escuela, haga clic izquierdo en el icono <ESC>. Esto te llevará de regreso a la sala del simulador.
+
+
+B. Elegir a tus oponentes
+
+Para elegir oponentes para una misión simulada, haga clic izquierdo en la etiqueta Seleccionar oponentes, que se activa colocando el cursor en el tercio derecho de la pantalla de la sala del simulador. Esto revela una ventana desplegable con la primera nave oponente potencial que aparece en una animación giratoria. 
+
+Para recibir información sobre un barco destacado, haga clic izquierdo en el ícono de Estadísticas. Esto revela estadísticas sobre armas, fuerza de escudo, potencia del motor, velocidad máxima, durabilidad general y capacidad de reparación automática de la nave principal, así como calificaciones de maniobrabilidad. 
+
+Al hacer clic con el botón izquierdo en las flechas arriba/abajo dentro de esta ventana, se muestran más barcos oponentes entre los que puedes elegir. Se pueden realizar misiones simuladas contra todas las naves y bases que aparecen en el transcurso del juego (incluidas las naves Gorene). Si deseas que un tipo específico de nave enemiga aparezca como nave oponente potencial, haz clic izquierdo en el ícono de Menú. Esto accede a una lista de todos los tipos de naves oponentes potenciales (es decir, Gorene, Tancred, Zemun, etc.). Al hacer clic con el botón izquierdo en un tipo de barco y luego en Listo, se garantiza que solo se presenten barcos de ese tipo para agregarlos a las fuerzas del oponente.
+
+Además de elegir tus barcos, debes elegir el nivel de habilidad general de cada piloto simulado contra el que volarás. Haz clic izquierdo en los íconos de flecha derecha/izquierda en la parte inferior de la ventana desplegable para ajustar los niveles de habilidad de tu oponente de pobre a as.
+Una vez seleccionados el barco y el nivel de habilidad deseados, haga clic izquierdo en el ícono Seleccionar para cargarlos en la misión simulada. Al hacer clic derecho en el ícono Seleccionar, se elimina un barco seleccionado con el nivel de habilidad asociado de las fuerzas del oponente en la misión simulada. Se pueden seleccionar hasta diez barcos oponentes, en cualquier combinación de tipo y nivel de habilidad, para una misión simulada.
+
+Para revisar tus selecciones tanto para tus fuerzas como para las de tu oponente en la misión simulada actual, haz clic izquierdo en el ícono Revisar.
+
+Para regresar a la sala del simulador desde la ventana desplegable, haga clic izquierdo en el icono <ESC>.
+
+
+C. Volar la misión
+
+Una vez que haya elegido su nave y las fuerzas de su oponente simulado, puede ingresar a la simulación moviendo el cursor a la base de la silla del simulador, lo que activa la etiqueta Iniciar simulación. Al hacer clic izquierdo en esta etiqueta, se transporta a la simulación.
+Una vez en el simulador, puedes volar tu nave normalmente, usando todas las opciones de control disponibles en una misión normal del juego (consulta la sección Misión de vuelo y combate para más detalles). Sin embargo, dado que estás participando en una situación de combate simulada, no puedes morir mientras vuelas en una misión simulada. Además, dado que el simulador es un dispositivo de entrenamiento, hay varias claves de trucos disponibles durante las misiones simuladas a las que no se puede acceder durante el juego normal. Estas características son: Reabastecimiento, Invulnerabilidad y Ultra Velocidad.
+
+Para acceder a la opción de Reabastecimiento en el simulador, mantenga presionada la tecla Ctrl y presione R. Al activar el Reabastecimiento se recargan automáticamente sus láseres y escudos (sin consumir energía del motor) y se proporcionan 99 torpedos nuevos a los barcos equipados para dispararlos.
+
+Para hacer que tu nave sea invulnerable al daño de cualquier ataque enemigo mientras estás en el simulador, mantén presionada la tecla Shift y presiona Tab.
+
+En el simulador, puedes viajar a velocidades que superan con creces las que tu nave es realmente capaz de alcanzar durante el juego normal presionando la tecla Re Pág. Un barco viaja a ultravelocidad mientras la tecla Re Pág esté presionada.
+
+Recuerde, estas claves especiales son para usar en el entrenamiento dentro del simulador. No se puede acceder a ellos durante el juego normal. Sería prudente no volverse dependiente de estas claves y utilizarlas sólo como ecualizadores mientras aprende a pilotar una nave Star Crusader en combate.
+
+Para salir de la sala del simulador, ya sea antes o después de volar una misión simulada, mueva el cursor al borde inferior de la pantalla para activar la etiqueta Salir del simulador y haga clic con el botón izquierdo del mouse.
+
+
+Mapa táctico
+
+Desde la Sala principal, mueva el cursor a la joya superior para activar el título de la Sala de mapas tácticos; haga clic izquierdo para ingresar a esta ubicación. Aparece un mapa que muestra los territorios actualmente controlados por todas las razas alienígenas en Ascalon Rift. A la derecha de la pantalla del mapa hay una serie de botones, cada uno asociado con el nombre de una de estas carreras. Al hacer clic izquierdo en uno de estos botones se resalta el área controlada por la carrera apropiada. A medida que avanza el juego, el territorio cambia de manos entre el Imperio Gorene y la Alianza de Razas Alienígenas de Ascalon Rift. Estos intercambios territoriales dependen directamente de tu destreza en combate. También reflejan tu comprensión de la estrategia general del juego, una vez que hayas avanzado a una posición en la que puedas dirigir misiones secundarias contra tus enemigos (consulta la descripción de la sala de computadoras previa a la misión para obtener detalles sobre cómo ordenar misiones secundarias).
+
+La cantidad de territorio controlado por tus fuerzas es importante para el resultado del juego. Si comienzas a perder cantidades sustanciales de territorio a medida que avanza el juego, tu suministro de recursos de combate puede verse interrumpido. Asimismo, al ganar territorio influirás en el número de naves enemigas y en la calidad de los pilotos a los que te enfrentarás. Simplemente, el control del territorio afecta la reserva de reclutas y recursos naturales disponibles para las respectivas fuerzas militares.
+
+En el mapa táctico, el territorio de cada combatiente se muestra en un color diferente. Los hexágonos azules son aquellos controlados por los Gorenes. Los hexágonos verde, magenta, naranja y amarillo están controlados por las fuerzas de Tancred, Maxuma, Zemun y Amien, respectivamente. Los hexágonos de color gris claro representan sectores fronterizos o fronterizos, y el hexágono de color gris oscuro es la misteriosa tierra de nadie conocida como Grimnada (que aparece en las Misiones Extendidas).
+Embalar). Cada uno de estos territorios coloreados está delineado con líneas de demarcación rojas. Estas líneas permanecen en sus posiciones originales durante todo el juego a pesar de que los sectores reales cambien de manos. Esto te permite tener un punto de referencia para determinar la cantidad de territorio que has ganado o perdido desde que comenzó una campaña. Dentro del territorio de cada raza, hay varios objetos que podrás identificar centrando el ratón sobre ellos. Estos representan las posiciones de planetas y bases clave a las que se hace referencia durante el juego. Para obtener una descripción completa de los objetos con nombre que se muestran en el mapa táctico, haga clic izquierdo en él o consulte la base de datos de temas generales, accesible desde la sala de computadoras previa a la misión. Mueva el cursor al lado izquierdo de la pantalla de la Sala de mapas tácticos para activar la etiqueta Salir de la Sala de mapas tácticos y haga clic izquierdo para regresar a la Sala principal. Presionar la tecla X desde cualquier lugar de la Sala de mapas tácticos produce el mismo resultado.
+
+
+Auditorio de información sobre la misión
+
+Para recibir información sobre la próxima misión del juego, mueva el cursor a la joya grande en la parte inferior de la pantalla. Cuando aparezca el título del Informe de la misión, presione la tecla izquierda del ratón para iniciar el informe.
+
+Al entrar en el Auditorio de Briefing recibirás una descripción de la siguiente misión a realizar así como cualquier otra novedad que afecte al juego en ese momento. Siempre que el diálogo informativo de la misión excede el espacio asignado en el cuadro de diálogo, aparece un icono de flecha fuera de la esquina inferior derecha del cuadro. Haga clic izquierdo en este icono para desplazar el texto dentro del cuadro. Haz clic izquierdo en cualquier lugar dentro del cuadro de diálogo para abrir el diálogo del siguiente personaje. Puede salir de la sesión informativa en cualquier momento presionando ESC o haciendo clic con el botón derecho del mouse.
+
+Cuando se completa la sesión informativa, usted se gira para mirar la pantalla de visualización de la computadora de la sala y la interfaz SETI (consulte la Base de datos de temas generales en la Sala de computadoras previa a la misión para obtener una descripción completa). Iluminadas en la pantalla hay imágenes de iconos de barcos y objetos (excluidos asteroides y minas) que se pueden encontrar durante la próxima misión. Los iconos rojos representan barcos u objetos enemigos, mientras que los iconos verdes representan los barcos y objetos de tus fuerzas. Puedes mover el cursor a uno de estos íconos y hacer clic izquierdo para obtener más información sobre el barco u objeto que representa.
+
+Cuando hace clic izquierdo en un icono, el SETI se gira hacia usted y proyecta una imagen animada de la embarcación seleccionada, mientras que la información estadística asociada con ella aparece en la pantalla de la computadora.  Al hacer clic con el botón izquierdo en cualquier parte de la pantalla proyectada, se elimina la imagen proyectada y hace que el SETI gire de nuevo a la pantalla de vista principal. Si los íconos en la pantalla principal están demasiado agrupados para que pueda aislar uno con el cursor, puede hacer clic izquierdo en un grupo particular de íconos. Esto hará que el SETI le solicite que elija el tipo de barco que desea estudiar entre todos los iconos que toca el cursor.
+
+Finalmente, debajo de la pantalla de visualización aparecerá un resumen del informe de la misión que acaba de escuchar. Si desea reproducir toda la sesión informativa de la misión, incluido el comentario de sus compañeros, haga clic izquierdo en el Resumen de la misión. (Presionar la tecla B mientras estás frente a la pantalla de visualización en el auditorio de sesiones informativas te dará los mismos resultados).
+
+A la derecha e izquierda del cuadro de resumen informativo, se encuentran dos puertas. Haga clic izquierdo en la puerta izquierda para regresar al salón principal. (Esto también se puede lograr presionando la tecla M). Haga clic izquierdo en la puerta derecha para ir a la sala de computadoras previa a la misión (a la que también se puede acceder presionando C).
+
+
+Sala de informática previa a la misión
+
+La sala de informática previa a la misión proporciona al jugador acceso a varias funciones de comando, así como a la base de datos de temas generales. Hasta que tú, como Roman Alexandria, alcances el estatus de comandante de sector, no podrás acceder a todas las funciones de comando de la sala de computadoras.
+La propia sala de ordenadores consta de una gran pantalla central que tiene tres botones a cada lado. Para mostrar las funciones de la computadora, centre el cursor sobre estos botones uno a la vez.
+
+Como regla general, acceder a la función Sala de informática previa a la misión le proporciona una lista de temas, todos 
+de los cuales se muestran en letra amarilla. Mover el cursor sobre un sujeto individual resalta ese sujeto en
+verde. Un tema resaltado en verde es aquel al que puede acceder o seleccionar en un momento determinado. Al hacer clic con el botón izquierdo en un sujeto resaltado en verde, se selecciona ese sujeto y su resaltado cambia de verde a rojo.  Para anular la selección de un tema, haga clic izquierdo en ese tema, lo que elimina su resaltado rojo. Mueva el cursor encima o debajo de la pantalla de la computadora del juego para poder desplazarse hacia arriba o hacia abajo en la lista a la que accedió. Mueva el cursor a la pantalla de la computadora del juego para detener el desplazamiento.
+
+A. Seleccionar compañeros
+
+Al hacer clic izquierdo en el botón Seleccionar Wingmen se muestra una lista de los pilotos disponibles para acompañarte en tu próxima misión. Se te recordará que no puedes llevar compañeros contigo si estás volando en una misión en solitario.
+
+Cuando aparezca la lista de posibles compañeros, se le informará la cantidad de pilotos que puede seleccionar para trabajar en la próxima misión. Aparece un expediente piloto cuando hace clic con el botón derecho en un nombre de piloto resaltado. Estos expedientes incluyen retratos de pilotos seleccionados, sus especies y un desglose de sus habilidades y atributos.  Las habilidades se incluyen en los títulos de Láser, Torpedo y Piloto, mientras que los atributos son Coraje y Disciplina. Las habilidades y atributos se clasifican de 1 (pobre) a 5 (as). También se muestran el número de misiones realizadas en la campaña actual y una calificación general. A medida que los compañeros participen en misiones primarias y secundarias, sus habilidades y atributos mejorarán. Posteriormente, esto mejorará su calificación general.
+
+Los pilotos no se pueden seleccionar mientras se está en una pantalla de expediente. Para volver a la lista de pilotos disponibles, haga clic derecho. Para seleccionar un piloto que lo acompañe en la misión actual, haga clic izquierdo en el nombre de ese piloto cuando vea la lista completa de pilotos disponibles. Cuando todos los pilotos estén seleccionados (o tantos como desee seleccionar, que pueden ser menos que el número requerido), haga clic izquierdo en <ESC> para salir de la pantalla Seleccionar piloto.
+
+Si no has seleccionado suficientes pilotos para la misión actual, los pilotos de la lista disponible se seleccionan al azar para completar tu escuadrón. Si no hay suficientes pilotos disponibles para volar la misión debido a desgaste, tareas de entrenamiento o asignaciones de misiones secundarias, la computadora asigna pilotos novatos a su escuadrón. No se le informará de los detalles de dichas selecciones automáticas de piloto hasta que abandone la sala de informática previa a la misión para volar la próxima misión. 
+
+B. Seleccionar recursos de combate
+
+Haga clic izquierdo en el botón Seleccionar recursos de combate para acceder a una lista del número y tipo(s) de barcos disponibles para la próxima misión. En la parte superior de esta lista, verá un mensaje que le informará la cantidad de barcos que puede elegir.
+
+Haga clic derecho en un barco resaltado para ver el nombre del barco y el mundo de origen, la potencia del escudo y del motor, la cantidad de armas transportadas, la velocidad máxima, los índices de potencia y maniobrabilidad, los puntos generales de durabilidad y la capacidad de reparación automática. También se muestra una vista aérea del barco resaltado. Haz clic derecho para regresar a la pantalla principal de Seleccionar recursos de combate.
+
+Haga clic izquierdo en el número disponible junto al nombre de un barco para seleccionar un barco de ese tipo para la misión actual. Para cada barco que ha sido seleccionado, la cifra para ese tipo en la columna Número disponible se reduce en uno y la cifra en la columna En uso se incrementa en uno. Si aparece un 0 en la columna de número disponible, entonces no se podrán seleccionar barcos de ese tipo. Para anular la selección de un barco de un tipo determinado, haga clic izquierdo en la figura en la columna En uso asociada con el tipo de barco. La cifra se reduce en uno y la cifra correspondiente en la columna Número disponible se incrementa en uno.
+Una vez que hayas terminado de seleccionar barcos para la misión actual, haz clic izquierdo en <ESC> para salir de la pantalla Seleccionar recursos de combate.
+
+Si no ha seleccionado una cantidad suficiente de barcos para volar la próxima misión, la computadora selecciona barcos predeterminados para completar su escuadrón. Si, debido al desgaste, los barcos predeterminados no están disponibles, la computadora elegirá los primeros barcos disponibles, independientemente del tipo. Por ejemplo, si la misión requiere un Gorene Liberator y dos Gorene Scorpions, y solo tienes un Gorene Scorpion disponible, la computadora selecciona otro Gorene Liberator para ocupar esa posición. Si no hay recursos suficientes disponibles para cumplir con la cantidad de barcos requeridos (si, por ejemplo, no tenías ese Gorene Liberator adicional), entonces te verás obligado a volar la misión sin ese barco adicional. No se le informará de los detalles de dichas selecciones automáticas de barcos hasta que abandone la sala de informática previa a la misión para volar la próxima misión. 
+
+Al comienzo de cada nueva campaña, comienzas con 45 barcos: 20 Gorene Scorpions, 20 Gorene Liberators y cinco Gorene Intruders. A medida que los barcos se pierden en combate, su número se puede complementar de tres maneras:
+
+1. Reabastecimiento periódico. Cada tres misiones, recibes una nave de combate. Cada cuatro misiones, recibes una nave de ataque. Cada diez misiones, se añade una nave sigilosa (de reconocimiento) a tus recursos de combate.
+
+2. Captura de barcos enemigos durante el juego normal. Las naves enemigas inutilizadas son aquellas afectadas por disruptores de torpedos EMP, o aquellas cuyos propulsores y sistemas de control de fuego han sido dañados en combate. Estos barcos pueden ser capturados fijándolos con un rayo tractor antes de activar los motores SFG para saltar de regreso a la base. Tu barco sólo puede capturar un barco enemigo por misión.
+
+3. Misiones de Adquisición de Recursos. Consulta la sección Misiones secundarias para obtener detalles sobre cómo solicitar una misión de adquisición de recursos.
+
+C. Armar el escuadrón
+
+Haz clic izquierdo en el botón Montar escuadrón para asignar pilotos a los barcos seleccionados. Aparecerá el nombre de Roman Alexandria, junto con los nombres de los otros pilotos que has seleccionado para la próxima misión. Asociado con el nombre de cada piloto hay un barco que seleccionaste en la pantalla Seleccionar recursos de combate. Si no has seleccionado compañeros o recursos de combate, o si es una misión en solitario, solo aparece el nombre de Roman Alexandria en la pantalla de ensamblaje del escuadrón. En resumen, la pantalla Montar escuadrón solo se puede utilizar para asignar pilotos a barcos que hayan sido seleccionados previamente.
+
+Para asignar un piloto a un barco, haga clic izquierdo en el nombre del piloto, luego haga clic izquierdo en el barco apropiado. De la misma manera se puede asignar un barco a un piloto. Posteriormente, la pantalla Assemble Squadron se reorganizará para mostrar pilotos y barcos coordinados. Para anular la selección de un barco o piloto en medio de este proceso, haga clic izquierdo en el nombre de ese piloto o barco para eliminar el resaltado rojo.
+
+Para ver un expediente sobre un piloto en su escuadrón seleccionado, o para ver las especificaciones de diseño de los barcos seleccionados para su asignación a su escuadrón, haga clic derecho en el nombre del piloto o del barco. Las pantallas de expediente y especificaciones de diseño a las que se accede mediante esta función son exactamente las mismas que puedes ver usando las opciones Seleccionar Wingmen y Seleccionar Recursos de Combate. Si haces clic derecho en el nombre de Roman Alexandria en la pantalla Assemble Squadron, podrás ver las estadísticas de su carrera. Haga clic derecho desde cualquier lugar del expediente o de las pantallas de especificaciones de diseño para regresar a la pantalla Ensamblar escuadrón. Para salir de la pantalla Ensamblar escuadrón, haga clic izquierdo en <ESC>.
+
+Si no ingresa a la pantalla Armar escuadrón después de haber seleccionado pilotos y barcos, la computadora asigna pilotos aleatoriamente a los barcos seleccionados.
+
+D. Misiones secundarias
+
+Haz clic izquierdo en el botón Misiones secundarias para enviar a los compañeros disponibles a misiones distintas a la que te estás preparando para volar actualmente. Las misiones secundarias ocurren simultáneamente con tu propia misión. Los resultados de las misiones secundarias se te revelan después de regresar de tu propia misión.
+Hay dos tipos de misiones secundarias: ofensivas y defensivas. Solo puedes solicitar una misión secundaria por cada misión que realices.
+
+1. Misiones ofensivas
+
+Para enviar pilotos a misiones secundarias de naturaleza ofensiva, haga clic izquierdo en el encabezado Misión ofensiva.  Esto revela una lista de los cuatro tipos de misiones secundarias ofensivas: combate, contingencia, rescate y adquisición de recursos.
+
+Las Misiones de Combate son incursiones o ataques a fuerzas enemigas con el objetivo de conquistar territorio. Dependiendo del nivel de dificultad seleccionado, las misiones de combate secundarias exitosas contribuyen o resultan directamente en la adquisición de sectores enemigos. Estos sectores se agregan a su territorio que se muestra en la Sala de mapas tácticos a la que se puede acceder desde la Sala principal.
+
+Las misiones de contingencia son operaciones ofensivas diseñadas para lograr el objetivo de tu propia misión en caso de que no logres desempeñarte adecuadamente durante el transcurso del juego normal. La probabilidad de éxito en una misión de contingencia está directamente relacionada con la cantidad de compañeros que envía y el factor de riesgo involucrado.
+
+Las misiones de rescate son aquellas que intentan recuperar pilotos capturados por fuerzas enemigas durante misiones secundarias anteriores o en misiones que has volado. Nuevamente, la cantidad de compañeros que envía a una misión de rescate y el factor de riesgo asociado tienen un impacto directo en el éxito potencial de esa misión.
+
+Las misiones de adquisición de recursos son operaciones en las que los compañeros adquieren las materias primas necesarias para ensamblar nuevos barcos. Estos nuevos barcos se suman a los añadidos a través de las operaciones regulares de reabastecimiento que te proporcionan automáticamente un nuevo caza cada tres misiones, una nueva nave de ataque cada cuatro misiones y un nuevo barco de reconocimiento cada diez misiones. Las misiones de Adquisición de Recursos también pueden resultar en la captura de barcos enemigos, que luego estarían disponibles para el uso de los jugadores.
+
+Seleccione un tipo de misión secundaria haciendo clic izquierdo en el título correspondiente. Se le pedirá que seleccione un factor de riesgo para la misión. Cuanto mayor sea el factor de riesgo seleccionado, mayor será la recompensa potencial (en relación con el número de pilotos asignados a la misión). Sin embargo, un factor de riesgo alto aumenta en gran medida la posibilidad de que los compañeros mueran o sean capturados mientras vuelan en la misión secundaria.
+
+Después de seleccionar el factor de riesgo deseado, será transferido a la pantalla Seleccionar pilotos de misión. Se muestra una lista de los pilotos disponibles para volar la misión ofensiva. En la lista solo aparecen los pilotos que no has seleccionado para que te acompañen en una próxima misión, o que no han sido asignados a tareas de defensa del sector o a tareas en la academia de pilotos. Haga clic izquierdo en el nombre de un piloto para seleccionarlo para una misión secundaria; Haga clic izquierdo nuevamente en su nombre para deseleccionarlo. Haga clic derecho en el nombre de un piloto para ver su expediente. Al hacer clic derecho en cualquier parte del expediente, se eliminará de la pantalla de la computadora del juego.
+
+Una vez que todos los pilotos deseados hayan sido seleccionados para su asignación a la misión secundaria ofensiva actual, haga clic izquierdo en el ícono <ESC> para regresar a la pantalla Seleccionar tipo de misión.
+
+2. Misiones defensivas
+
+Haz clic izquierdo en el encabezado Misión defensiva en la pantalla Seleccionar tipo de misión para ordenar una misión secundaria defensiva. Una misión secundaria defensiva asigna pilotos al sector de defensa. Este deber incluye misiones de patrulla y protección de fronteras que intentan disuadir las agresiones territoriales de tus enemigos. La defensa de sector fallida o inadecuada resulta en la pérdida de sectores que se muestran en el mapa territorial en la Sala de mapas tácticos accesible desde la sala principal. (Consulte la sección Mapa táctico para obtener detalles sobre la importancia de perder territorio amigo). Al igual que en las misiones secundarias ofensivas, las posibilidades de éxito en una misión secundaria defensiva están directamente relacionadas con la cantidad de pilotos asignados a la misión.
+Una vez que hayas seleccionado la opción Misión Defensiva, deberás asignar un escuadrón de pilotos para la misión. Esto se logra de la misma manera que con las misiones secundarias ofensivas (ver Misiones secundarias ofensivas más arriba).
+
+E. Recursos de la Academia de Pilotos
+
+Para asignar pilotos al servicio como instructores en la academia de pilotos local, haga clic izquierdo en el botón Recursos de la Academia de Pilotos.  Esto llevará al jugador a la pantalla Seleccionar instructores de la academia.
+
+Para recibir pilotos capacitados para reemplazar a los que han sido asesinados y/o capturados, debes asignar algunos de tus pilotos a la academia de pilotos como instructores. Cuantos más instructores se asignen a la academia, con mayor frecuencia recibirás reemplazos capacitados. Los atributos y habilidades de estos reemplazos capacitados dependen directamente de las habilidades y atributos de sus instructores.
+
+Solo los pilotos a quienes no hayas asignado para que te acompañen en una próxima misión, o a quienes no se les haya ordenado volar una misión secundaria, estarán disponibles para ser asignados a la academia de pilotos. Para seleccionar un compañero para su servicio como instructor de la academia, haga clic izquierdo en su nombre. Para anular la selección de ese piloto, haga clic izquierdo en su nombre por segunda vez. Para recibir un expediente sobre un piloto incluido, haga clic derecho en el nombre de ese piloto. Al hacer clic derecho en cualquier parte del expediente, se eliminará de la pantalla de la computadora del juego.
+
+Los pilotos seleccionados para trabajar en la academia permanecerán allí, como instructores, de misión en misión hasta que vuelvas a ingresar a la pantalla Seleccionar recursos de la academia y anules su selección. Debido a que su academia de pilotos es una institución local, los pilotos a quienes haya asignado para actuar como instructores aún pueden asistir a sesiones informativas y reuniones informativas periódicas sobre la misión.
+
+Para salir de la pantalla Seleccionar instructores de la academia, haga clic izquierdo en el ícono <ESC> en la parte inferior derecha de la pantalla de la computadora del juego.
+
+F. Base de datos de temas generales
+
+Para acceder a información general sobre varios temas pertinentes al conflicto actual en Ascalon Rift, haga clic izquierdo en el botón Base de datos de temas generales. Los temas sobre los que puede obtener más información son: razas alienígenas, geografía, bases militares, personalidades, ciencia/tecnología y armas. Al hacer clic con el botón izquierdo en uno de estos títulos de tema, se accede a una lista secundaria de términos que se aplican a ese tema. Haga clic izquierdo en cualquiera de estos términos para recibir una definición. Para salir de una definición, haga clic derecho desde cualquier lugar de la pantalla.
+
+Para salir de la pantalla de un tema específico, haga clic izquierdo en el icono <ESC>.
+Salir de la sala de informática previa a la misión:
+
+Puedes salir de la sala de computadoras previa a la misión de una de tres maneras: 1) moviendo el cursor hacia la izquierda de esta pantalla, activando el ícono Salir al salón principal y haciendo clic izquierdo para regresar directamente al salón principal; 2) mover el cursor a la parte inferior de la pantalla, activar el ícono Regresar al Auditorio de Información de la Misión y hacer clic izquierdo para regresar al auditorio; 3) moviendo el cursor hacia el lado derecho de la pantalla para activar el ícono Fly Mission haciendo clic izquierdo. Una vez que haya elegido volar en una misión, no podrá regresar al salón principal, al auditorio de información de la misión ni a la sala de computadoras previa a la misión hasta que haya completado su misión. Cuando sales de la sala de computadoras previa a la misión para volar tu misión, recibes mensajes de la computadora sobre los pilotos y los barcos que han sido asignados a tu escuadrón si no los has seleccionado tú mismo. Para omitir estos mensajes y continuar con la misión, haga clic con el botón derecho del mouse. Si ha seleccionado todos los barcos y pilotos necesarios para volar la misión actual, no aparecerá ningún mensaje en la computadora. Si no hay mensajes, o después de que todos los mensajes hayan sido transmitidos y omitidos, serás transportado directamente a la cabina de tu barco.
+
+Al igual que en el salón principal y el auditorio de información de la misión, puede salir de la sala de computadoras previa a la misión presionando la tecla que corresponde a la primera letra de la salida que desea usar. En este caso sería B para Mission Briefing Auditorium, M para Main Hall y F para Fly the Mission.
+
+
+MISIÓN DE VUELO Y COMBATE
+
+Información básica
+Al presionar la tecla P se pausa el juego. Puedes salir del juego presionando la tecla Q mientras mantienes presionada la tecla Alt. Salir del juego de esta manera te permite reiniciar el juego en la sala principal justo antes de la misión actual.
+
+Cuando comienza la misión, te encuentras en la cabina del piloto o en tu nave, acabando de saltar al sector donde se lleva a cabo la acción designada. Ante ti está tu vista principal: mirando hacia adelante por encima del morro de tu barco. Tu nave viaja automáticamente a la mitad de velocidad (excepto el Gorene Intruder en misiones de reconocimiento, que salta a un sexto de velocidad) y tus monitores están en la configuración predeterminada.
+
+medidores
+
+También son visibles los medidores del barco que monitorean el combustible (F), el acelerador (T), la potencia del motor (E), la potencia del láser (L), la velocidad deseada y la velocidad real. Dependiendo del barco que se vuele, también puede aparecer un recuento de armas de proyectiles (es decir, torpedos o torpedos EMP).
+
+Los estilos de calibre varían según el tipo de barco, pero todos los calibres funcionan según el mismo principio. Aquellos que rastrean números específicos, como los contadores de torpedos y de velocidad, muestran una cifra numérica que le indica exactamente cuántos proyectiles le quedan o exactamente qué tan rápido está viajando. Los medidores que muestran salidas de energía fluctuantes y requisitos de naturaleza general utilizan una barra de color brillante para monitorear sus funciones. Por ejemplo, en el Gorene Liberator, el indicador de potencia del motor está dividido en diez segmentos. A medida que se extrae energía de los motores de la nave para realizar funciones como aceleración, carga de láseres y regeneración de escudos, los segmentos consecutivos, comenzando desde la parte inferior del indicador, brillan en naranja. Con el tiempo, es posible que se ilumine todo el indicador, lo que indica que se está utilizando el 100 % de la potencia del motor. (Justo encima de este indicador en el panel de control, una luz roja de advertencia se enciende cuando intentas usar más energía de la que tu nave puede producir). El indicador del acelerador del Liberator funciona de la misma manera, con un indicador completamente iluminado que indica que la nave está viajando a su velocidad máxima. Los medidores de combustible y láser son similares, excepto que generalmente comienzan en un estado completamente iluminado y se oscurecen a medida que se descarga la energía que monitorean.
+
+
+
+Vistas de la cabina
+
+En el centro de la vista principal de la cabina, o Heads Up Display (HUD), notarás una serie de miras. Estos se utilizan para apuntar el barco en la dirección deseada, así como para apuntar al fuego láser.
+
+Si estás dentro del alcance del arma de tu objetivo actual (lo que dependerá del alcance del arma que hayas seleccionado), también puede aparecer un círculo rojo de trayectoria óptima en tu vista principal. Este círculo marca tu objetivo, por lo que debes estar frente a él para que el círculo sea visible.  El círculo indica hacia dónde debe dirigir el disparo láser, utilizando la cruz de orientación, para obtener la máxima eficacia. Cuando la mira del barco y el círculo de objetivo de trayectoria óptima estén perfectamente alineados, sonará un pitido informándole que sus armas están perfectamente en el objetivo.
+
+En cualquier momento durante el juego, puedes reemplazar tu vista principal con una de siete alternativas presionando la tecla de función asociada a ella. Para regresar a la vista principal de la cabina, presione la tecla F1.
+
+Las vistas alternativas son:
+
+F2 - Vista frontal. Una vista frontal completa, sin obstáculos por los monitores o instrumentos de la cabina. En esta vista no hay un círculo de trayectoria óptimo ni un conjunto de miras de mira.
+
+F3 - Vista trasera. Una vista en pantalla completa desde la parte trasera de tu nave.
+
+F4 - Cámara torpedo. Te permite ver la acción desde detrás de uno de tus torpedos mientras acelera hacia un objetivo. La función proporciona una vista del último torpedo que disparó antes de activar la opción de cámara de torpedos. Esta vista dura hasta que el torpedo golpea su objetivo, es derribado, se queda sin combustible o activas una opción de visualización diferente.
+
+F5 - Vista exterior desde el barco hasta el objetivo.  Proporciona una vista de su objetivo mirando por encima de su propio barco.
+
+F6 - Vista externa desde el objetivo hasta su barco. Te da una vista de tu propio barco mirando hacia tu objetivo. Con barcos enemigos más grandes, tu visión puede verse obstruida.
+F7 - Vista exterior de su barco. Le brinda una vista de su propio barco que se ajusta para adaptarse a los cambios en la dirección del barco. Esta vista no está vinculada de ninguna manera a su objetivo.
+
+F8 - Vista exterior del barco objetivo. Muestra un primer plano de su objetivo, mirándolo desde atrás. Esta vista se ajusta para coincidir con la posición cambiante del objetivo y no está vinculada de ninguna manera a la posición de su barco.
+
+Mayús + < - Vista izquierda. Le permite tener una vista sin obstáculos desde el lado de babor de su barco.
+
+Mayús + > - Vista derecha. Le permite tener una vista sin obstáculos desde el lado de estribor de su barco.
+
+La calidad de todas estas vistas, incluida la vista principal de la cabina, se puede ajustar mediante varias opciones:
+
+F9: alterna texturas de fondo
+F10: alterna el sombreado Gouraud
+F11 - Alterna mapas de textura
+F12: alterna el sombreado de la fuente de luz.
+Shift + F10: alterna el sombreado Phong
+
+Alterar la calidad de las vistas puede afectar la velocidad a la que se ejecuta el juego en tu sistema. Para obtener más detalles, consulte la sección Solución de problemas del manual.
+
+
+Monitores
+
+Los monitores del barco (tres en cada barco, excepto en el Amien) son los objetos predominantes en la cabina. La configuración predeterminada para el monitor izquierdo (Monitor #1) es la Función de Monitor #1, Radar del barco. En la pantalla del radar hay una serie de iconos que representan barcos y objetos detectados por el radar de su barco.  La computadora del sistema de radar identifica las señales emitidas por los transpondedores IFF (Identificar amigo o enemigo) estándar para todas las naves en Ascalon Rift. Al igual que en el Auditorio de Mission Briefing, los íconos rojos representan a los oponentes y los íconos verdes representan tus fuerzas. Los barcos y objetos identificados aparecen como iconos que representan las formas de los barcos. Si tienes dificultades para reconocer los tipos de barcos por sus íconos, debes usar el sitio de objetivo (Monitor predeterminado n.° 2) o el Mapa táctico de controles de navegación para identificar los barcos de tus oponentes. Los signos de interrogación rojos o verdes representan objetos que no han sido identificados por la computadora del barco. Los signos de interrogación color canela representan objetos que están demasiado distantes para ser reconocidos como amigos o enemigos. Su objetivo actual aparece como un icono azul en la pantalla del radar.
+
+Los iconos centrados en la cruz del radar representan objetos directamente frente a su barco. Cuanto más lejos aparezca un ícono del centro de la pantalla de su radar, más lejos estará en realidad de estar directamente frente a usted. Los iconos que aparecen en el borde exterior de la pantalla del radar representan objetos que se encuentran detrás de su barco.
+
+Puedes cambiar la pantalla del radar a una pantalla táctica aérea condensada presionando las teclas Alt + R simultáneamente. Luego puede acercar y alejar usando las teclas Z y X respectivamente. Esta vista te da una idea aproximada de qué tan lejos estás de los barcos más cercanos, ya sean amigos u hostiles. Al presionar Alt + R, la pantalla regresa al modo de radar de pelea de perros.
+
+Para determinar la distancia exacta de un objeto desde tu barco, debes apuntar al objeto o consultar el mapa táctico del control de navegación.
+
+El monitor central (Monitor n.° 2) muestra la función de monitor n.° 3, la mira de orientación. En la parte superior de la mira se muestra la identificación del objetivo. Si no se ha identificado un objetivo, la mira mostrará la designación "Barco no identificado". La parte central de la mira se compone de cuatro LED triangulares dispuestos en forma de una amplia cruz y una elipse naranja brillante que representa el objetivo del jugador. Los triángulos en forma de cruz se iluminarán cuando la elipse objetivo esté centrada entre los cuatro LED.  Esto indica que te diriges directamente hacia tu objetivo.  Si sólo uno o dos de los LED están iluminados, indica que debes pilotar tu nave en la dirección de esos triángulos para centrar el objetivo dentro de la mira. En la parte inferior de la mira, se muestra la distancia desde su barco hasta el objetivo.
+El monitor derecho (Monitor n.° 3) muestra la función de monitor n.° 6, la pantalla de visualización de daños del barco. Si su nave no ha sido dañada, o si todos los daños a su nave han sido reparados, el mensaje Sin daños internos aparece en letra verde dentro de este monitor. Cuando tu nave ha sido dañada por un enemigo, los sistemas que se han visto afectados aparecen en el monitor. Los sistemas que están levemente dañados aparecen en verde, los que han sufrido daños moderados aparecen en amarillo y los que están severamente dañados aparecen en rojo. Los sistemas gravemente dañados no están operativos.
+
+Los barcos que volarás están equipados con sistemas de reparación a bordo; el primero de los sistemas dañados que aparece en la lista tiene un número a su derecha. Este número indica cuántos segundos tardan los nanos de reparación de la nave en reparar el sistema dañado. (Consulte los títulos Control de daños, Orden de reparación y Administración de energía en la sección Controles de navegación para obtener más información sobre la reparación de daños a los sistemas de un barco).
+
+Los sistemas del barco que pueden resultar dañados y que, por tanto, pueden aparecer en la pantalla de visualización de daños del barco son:
+
+Empuje: permite que tu nave se mueva de un lugar a otro. Un barco aún puede girar cuando sus propulsores no funcionan.
+
+A Burn: permite que funcionen los postquemadores del barco.
+
+Generadores de escudo: produce los campos de fuerza protectores del barco.
+
+Control de fuego: coordina y controla todas las armas de un barco. Un barco con un sistema de control de fuego inoperable no puede utilizar sus armas.
+
+Rayo tractor: genera el dispositivo tractor del barco, que se utiliza para remolcar barcos u objetos.
+
+Expulsar: representa el sistema de expulsión de la cápsula de escape de la nave.
+
+Radar: controla todas las funciones del radar, incluido el transpondedor IFF y el rectical de orientación de trayectoria óptima.
+
+Armadura: el revestimiento que protege y mantiene la estructura física del barco.
+
+Sistemas de armas individuales: estos sistemas varían de un barco a otro, pero incluyen elementos como láseres, tubos de torpedos y generadores de torpedos de plasma de hidrógeno. Cuando un sistema de armas individual no funciona, no podrás utilizar armas de ese tipo específico.
+
+Para apagar un monitor, mantenga presionada la tecla Alt y presione el número asociado con el monitor (1, 2 o 3). Repita esta acción para reactivar un monitor. La función que estaba asignada a un monitor antes de su desactivación todavía está asignada a ese monitor cuando se reactiva.
+
+Para cambiar una función del monitor, mantenga presionada la tecla Shift y presione la tecla numérica que corresponde a ese monitor. Por ejemplo, presione Shift + para cambiar la función del Monitor #1 (el monitor izquierdo). Ahora presione el número que corresponde a la función que desea asignar a ese monitor. Alternativamente, puede alternar entre todas las opciones disponibles para cada monitor presionando una tecla de acceso rápido asociada a él. Al presionar 7 se alterna el monitor izquierdo, 8 el central y 9 el derecho. La configuración predeterminada de los monitores de un barco se puede cambiar usando las Opciones predeterminadas en vuelo en el menú de opciones del juego, accesible desde tu base.
+
+La función de monitor n.° 2 es la Trackcam.  Cambiar a esta función le permite ver una visualización animada de un objeto objetivo. La pantalla muestra el objeto objetivo desde el mismo ángulo que se vería desde su nave, pero a una distancia constante que le permite ver el objeto completo.
+La Función de Monitoreo #4 es la función de Escudos del Barco. Esto le permite ver la intensidad actual de sus campos de fuerza de protección. La pantalla del monitor muestra una vista aérea de su barco con barras de colores variables en la parte delantera y trasera del barco. Las barras de colores representan las fortalezas del escudo delantero y trasero. Cuando los escudos de un barco se dañan, las barras se encogen de derecha (amarilla) a izquierda (roja). Cuando los escudos se regeneran, las barras se expanden en la dirección opuesta. Cuando no queda ninguna barra de color, los escudos del barco están abajo y ya no pueden absorber el daño dirigido a su barco. Tus escudos permanecen abajo hasta que puedan regenerarse. Los escudos que están caídos no pueden regenerarse lo suficientemente rápido como para absorber el fuego ininterrumpido dirigido al barco, ni pueden regenerarse si el sistema de generación de escudos del barco no funciona.
+
+La Función de Monitoreo #5 es la función de Escudos del Objetivo. Esta función funciona exactamente de la misma manera que la función de monitorización n.° 4, excepto que la vista y la intensidad del escudo que se muestran son las de su objetivo.
+
+El daño del objetivo es la función de monitorización n.° 7. Funciona de la misma manera que la Función de Monitoreo #6 (Daños de Barcos), excepto que el daño mostrado es el de su objetivo. Además, aparece una pantalla de daño sin objetivo en color rojo en lugar de verde. Además, las naves oponentes equipadas para realizar reparaciones en vuelo no muestran los tiempos de reparación del sistema.
+
+Se accede a la función Espejo retrovisor mediante la tecla Retroceso. Esto le permite colocar una vista del área directamente en la parte trasera de su nave en una de sus pantallas de monitor. Esto es especialmente útil en situaciones acaloradas de peleas aéreas cuando estás comprobando la dirección de tu nave y luchando por evitar ataques enemigos con minas y misiles.
+
+Función de monitor: le permite apagar o mover la ventana de comunicaciones visuales.
+
+De forma predeterminada, todas las comunicaciones por radio que van acompañadas de transmisiones visuales (generalmente un retrato del remitente del mensaje) sobrescriben temporalmente la visualización en el Monitor #1. Para eliminar la ventana de comunicaciones de este monitor, presione Shift + 1 y luego -. Para agregarlo a otro monitor, mantenga presionada la tecla Mayús y presione el número que corresponde a ese monitor y luego la tecla -.
+
+Las últimas tres funciones del monitor están disponibles cuando vuelas una nave de reconocimiento Intruder equipada con sensores especiales y tecnología sigilosa.
+
+La función de monitorización número 8 es la función de escaneo visual. Le permite monitorear el progreso de los escaneos visuales que ha implementado. Muestra aspectos visuales, infrarrojos y EM (electromagnéticos) de los escaneos a medida que ocurren. Esta función también le informa cuando intenta escanear el mismo objeto dos veces.
+
+La función de monitoreo n.° 9, la función de monitoreo de sonda, le permite monitorear el progreso de un escaneo de sonda que haya implementado.  La pantalla muestra la información que se transmite a su nave desde las sondas lanzadas en código binario.
+
+La Función de Monitoreo #0 es la función de Monitoreo Sigiloso. Esto le permite controlar la energía de la batería y la tasa de recarga de la evasión del radar sigiloso. Muestra dos barras de color verticales. La barra de la izquierda, encerrada en un cuadro gris, indica la energía de la batería disponible para operar el dispositivo de evasión de radar furtivo. La energía de la batería se consume cuando se activa el modo sigiloso. El color de la caja desaparece a medida que se consume la energía de la batería. Cuando no queda energía en la batería furtiva, el dispositivo de evasión del radar furtivo se desactiva automáticamente para permitir que la batería se recargue. La batería sólo puede recargarse cuando el dispositivo furtivo está desactivado y cuando la energía adicional de los motores del barco se desvía para ese fin mediante la tecla B.
+La barra de colores abigarrados a la derecha del monitor es esencialmente un indicador que muestra la detectabilidad cuando el dispositivo sigiloso está activo. Una barra completamente gris indica que tu barco no ha sido detectado por barcos de combate enemigos. El color verde que emerge de la parte inferior de la barra muestra tu firma energética. Cuanto más suba el color verde, más fuerte será la firma emitida por tu nave y mayores serán tus posibilidades de ser detectado. La contribución más importante a la firma energética de tus naves es su velocidad y aceleración. Mantenga su velocidad baja para reducir su firma de energía. El color amarillo que desciende desde la parte superior de la barra indica la mejor estimación de la detectabilidad de su barco, en función de su firma de energía y la fuerza y ​​proximidad de los escaneos del radar de un barco enemigo. Cuando los dos colores se encuentran, aparece una barra roja como una indicación positiva de que un enemigo se ha fijado en tu nave. Es importante tener en cuenta que los datos medidos
+junto a la barra amarilla hay una cantidad estimada. Es posible que su barco haya sido detectado sin que aparezca ningún color rojo o amarillo en la barra de colores abigarrados. Esto es especialmente probable cuando vuelas cerca de barcos de combate enemigos, ya que la tecnología sigilosa de Gorene sólo oculta un barco del radar enemigo y no de los ojos enemigos.
+
+
+Ajuste de velocidad
+
+Como se señaló anteriormente, comienzas cada misión viajando a la mitad de la velocidad que tus motores son capaces de alcanzar. Puede ajustar su velocidad en cualquier momento utilizando cualquiera de las siete teclas.
+
+Al presionar 0, tu nave desacelera hasta detenerse por completo.
+
+Al presionar 1 se ajusta la velocidad de tu nave a un tercio de su velocidad máxima.
+
+Al presionar 2 se ajusta la velocidad del barco a dos tercios de su velocidad máxima.
+
+Al presionar 3, tu nave viaja a toda velocidad.
+
+Al presionar 4 se ajusta tu velocidad para que coincida con la velocidad actual de tu objetivo.
+
+Al presionar = o + aumenta su velocidad en un km (hasta la velocidad máxima); igualmente
+
+Al pulsar la tecla - se reduce la velocidad en un kilómetro (hasta detenerse por completo).
+
+
+Al mantener presionada la tecla Tab, se activan los postquemadores, lo que aumenta drásticamente la velocidad hasta que se desactiva. Viajar a una velocidad tan alta hace que cualquier tipo de maniobra sea casi imposible. Esta característica también consume enormes cantidades de combustible, por lo que puedes quedarte varado e indefenso si te vuelves demasiado dependiente de ella.
+
+También puede ajustar su velocidad manteniendo presionado el botón derecho del mouse o el segundo botón del joystick y
+moviendo el mouse o el joystick hacia adelante para aumentar la velocidad, o hacia atrás para disminuirla. Este segundo botón también se usa en combate para permitirte hacer rodar tu nave. Esto se logra moviendo el mouse o el joystick en la dirección en la que desea desplazarse, mientras presiona el segundo botón/derecho.
+
+
+Controles informáticos y de navegación
+
+Presiona N para abrir la computadora de tu nave y presiona Esc para apagarla y reanudar el juego. La computadora le brinda acceso durante el vuelo a varias funciones del barco, como administración de energía y reparación, control de daños, comunicaciones y mapas de navegación. Mientras usas tu computadora, el juego está en pausa.
+
+
+A. Gestión de energía
+Haga clic izquierdo en el cuadro Administración de energía (o presione P o 1) para acceder al sistema de administración de energía. Esto le permite asignar prioridades de suministro de energía a todas las funciones del barco. Las áreas marcadas en verde en la lista están recibiendo toda la energía que necesitan en este momento, mientras que las marcadas en amarillo reciben energía parcial y las marcadas en rojo no reciben ninguna energía. El número entre paréntesis después de cada elemento se refiere a la cantidad total de energía requerida actualmente por la función. La mayoría de los sistemas seguirán funcionando, aunque a un ritmo menor, si reciben menos energía de la que necesitan. Sin embargo, un sistema de reparación requiere plena potencia para poder funcionar. Para cambiar la prioridad de energía de una función, mueva el cursor a esa función y luego presione el botón izquierdo del mouse. Mantenga presionado el botón del mouse y mueva el cursor al nivel de prioridad deseado, luego suelte el mouse. La función seleccionada ahora ocupa la nueva prioridad, mientras que todas las demás funciones pierden importancia. Usando el teclado, puede escribir el número de una función para moverla a la parte superior de la lista de prioridades. Este cambio en la ubicación de una función mueve otras funciones que anteriormente estaban arriba a una prioridad más baja. Al presionar ESC regresará al menú principal de Computadora y Controles de navegación.
+
+B. Información sobre la misión
+
+Haga clic izquierdo en este cuadro o presione B o 2 para ver una versión condensada del informe de la misión. Esto le permite al jugador revisar los objetivos principales de la misión actual. Presione cualquier tecla para regresar al menú principal.
+
+
+
+
+C. Mapa táctico
+
+Al hacer clic izquierdo en el cuadro Mapa táctico o presionar T, M o 3 se accede al mapa táctico de la computadora del sector del espacio que lo rodea inmediatamente, así como a las naves y otros objetos detectados por el radar de su nave. Cuando accedas por primera vez al mapa táctico, estará centrado en tu barco. Puede hacer clic con el botón derecho del mouse para centrar el mapa en el cursor, o puede usar las teclas de flecha del teclado para moverse dentro del mapa. Al presionar la tecla C se volverá a centrar el mapa en su barco. Las teclas > y < acercan y alejan el mapa respectivamente, al igual que Z y X. Al igual que en el monitor de radar de su barco, los barcos amigos aparecen en verde, los barcos enemigos aparecen en rojo y su objetivo actual aparece en azul. Al centrar el cursor sobre un icono, aparecen diversos datos sobre la nave. Esta información incluye: tipo de barco (si se identifica), velocidad, distancia de usted, piloto (si se conoce), calificación general de habilidad del piloto, daño sufrido en porcentaje de durabilidad general y distancia por encima o por debajo de usted expresada como una coordenada z positiva o negativa. Además, puedes determinar la dirección en la que viaja un barco seleccionado mediante la línea de color que emana del barco cuando el cursor está centrado sobre él. Una línea amarilla que conecta el icono del barco seleccionado con otro icono indica que el barco seleccionado está apuntado al barco representado por ese icono y se dirige en su dirección. Una línea azul que emana de un ícono seleccionado y que termina sin tocar otro ícono indica la dirección del barco representado por ese ícono. Al hacer clic con el botón izquierdo en un icono, se selecciona la embarcación representada por ese icono como objetivo. Al presionar ESC se regresará al menú principal de Controles de navegación y computadora.
+
+
+D. Comunicaciones
+
+Haz clic izquierdo en la Caja de Comunicaciones para comunicarte con compañeros o pilotos enemigos; presionando C o 4 también se activa esta función. Cuando se activa, aparece el mapa táctico (descrito anteriormente). Haga clic izquierdo en el barco con el que desea comunicarse y aparecerá un menú de posibles mensajes. Haga clic izquierdo o presione el número del mensaje correspondiente. Al presionar ESC se regresará al menú principal de Controles de navegación y computadora.
+
+Además de utilizar la computadora y los controles de navegación del barco, puedes comunicarte con tus compañeros usando el teclado. Para hacer esto, seleccione un barco con el que desee comunicarse de la misma manera que si lo estuviera apuntando. Luego, envíe el mensaje deseado presionando la tecla de función apropiada mientras mantiene presionada Alt.
+Las teclas de función de comunicación que envían mensajes a barcos seleccionados son:
+
+Alt + F1 - Regresar a la base. El compañero seleccionado interrumpe su ataque y activa sus motores SFG.
+
+Alt + F4 - Defender posición. El compañero seleccionado se detiene y ataca a cualquier enemigo que lo apunte o se acerque a su posición.
+
+Alt + F7 - Interrumpir el ataque. El compañero seleccionado interrumpirá los ataques contra su objetivo actual y elegirá otro.
+
+También puedes enviar una orden a tu compañero disponible más cercano sin tener que apuntar a él. Esto se logra manteniendo presionada la tecla Alt y presionando la tecla de función apropiada para el mensaje que desea enviar. Los mensajes que se pueden enviar de esta manera y las teclas de función que se aplican son:
+
+Alt + F2 - Ataca a mi objetivo. El compañero disponible más cercano acepta tu objetivo actual como propio.
+Alt + F3: desactiva mi objetivo. El compañero disponible más cercano acepta tu objetivo actual como propio e intenta desactivarlo.
+
+Alt + F5 - Defender mi objetivo. El compañero disponible más cercano defiende el barco que apuntas.
+
+Alt + F6 - Cúbreme. El compañero disponible más cercano se acerca a 0,1 km de tu barco y ataca a cualquier enemigo que apunte a tu barco.
+
+Alt + F8 - Rescatar/Capturar mi objetivo. El compañero disponible más cercano se mueve dentro del alcance del rayo tractor de su objetivo inmóvil. Luego, el compañero atrapa al objetivo y realiza un hipersalto de regreso a la base.
+
+Por lo general, se considera que un compañero está disponible si no está ocupado defendiéndose del ataque. La respuesta de un compañero a una orden también se ve directamente afectada por su calificación de disciplina.
+
+
+E. Control de daños
+
+Al hacer clic izquierdo en esta función o presionar D o 5 se identifica la cantidad de daño que ha sufrido cada sistema y se proporciona una estimación del tiempo de reparación para aquellos barcos que tienen un sistema de reparación a bordo. Un sistema resaltado en verde es completamente funcional, pero está ligeramente dañado; un sistema resaltado en amarillo está moderadamente dañado, pero sigue funcionando; Un sistema resaltado en rojo está dañado y completamente no funcional. La tolerancia se refiere a la cantidad total de daño que puede sufrir su barco. Una vez que el barco ha sufrido daños críticos cercanos o superiores al nivel de tolerancia, es muy probable que se destruya. Los porcentajes de protección le indican la cantidad de energía de protección que queda en las baterías de protección. El tiempo estimado de reparación aparece en segundos. Si su nave ha quedado inutilizada debido al disparo de torpedos Disruptor o EMP, aquí también aparece un informe de ese daño. Al presionar ESC se regresa al menú principal.
+
+
+F. Orden de reparación
+
+Esta función solo está disponible si vuelas un barco equipado con un sistema de reparación. Haga clic izquierdo en el cuadro Orden de reparación (o presione R o 6 para ver qué sistema se reparará primero) y para cambiar la prioridad de reparación de un sistema.
+
+Como regla general, los sistemas muy dañados, resaltados en rojo, se reparan primero, y el sistema resaltado en rojo que se encuentra en la parte superior de la lista recibe la máxima prioridad de reparación. Los sistemas que están moderadamente dañados (amarillo) se reparan a continuación y los sistemas ligeramente dañados (verde) se reparan al final. La cantidad de puntos de daño que un sistema puede soportar antes de quedar inactivo y la cantidad de puntos de daño que ha absorbido hasta el momento aparecen entre paréntesis junto a cada sistema enumerado.
+Para anular este sistema de priorización, haga clic derecho en el sistema de un barco listado. Esto hace que la letra P aparezca a ambos lados del título de ese sistema; también le da al sistema seleccionado la máxima prioridad de reparación, independientemente de la cantidad de daño que haya sufrido él o cualquier otro sistema. Al hacer clic derecho en un sistema de máxima prioridad por segunda vez, la P se reemplaza por una L. La L significa que el sistema seleccionado debe recibir la prioridad de reparación más baja, una vez más independientemente del daño que haya sufrido él o cualquier otro sistema. Haga clic derecho en el sistema designado L para eliminar la designación de prioridad especial. Si designa más de un sistema para la prioridad más alta o más baja, el sistema designado que aparece más arriba en la lista de órdenes de reparación se repara antes que cualquier otro sistema designado.
+También puede utilizar el teclado para ejecutar un cambio en la prioridad de reparación. Para lograr esto, presione P y luego el número actual asignado a un sistema en la lista. Esto hace que la P aparezca al lado de ese sistema. Al presionar el número del sistema por segunda vez se le otorga una prioridad L, y al presionarlo por tercera vez se elimina la designación de prioridad. Presione P nuevamente para desactivar la función de asignación de prioridad del teclado.
+
+Para cambiar la posición de un sistema en la lista de prioridades de reparación, utilice el mismo método descrito en la sección Administración de energía. Presione ESC para regresar al menú principal de Computadora y Controles de navegación.
+
+
+
+
+Sistemas de armas y objetivos.
+
+Hay varias otras claves que puedes usar en situaciones de combate. Al presionar W se alterna entre las armas disponibles. El arma seleccionada con la tecla W está activa en el botón izquierdo del mouse, el primer botón del joystick y la barra espaciadora del teclado. Las armas pesadas de un barco (es decir, torpedos, Hellfire, cañones de neutrones, etc.) se pueden disparar directamente desde el teclado sin estar activo en el mouse/joystick presionando Enter. Con la excepción de los láseres y disruptores, que siempre disparan en la dirección en la que vuela tu nave, las armas activas se dirigen a la nave u objeto representado por el ícono azul en tu radar (ver Monitores). Cuando desees disparar tu arma activa a un barco u objeto que está frente a ti, centra la mira de tu barco en ese objeto y presiona L para fijar las armas del barco en él. Hay otras opciones para apuntar a los sistemas de armas de tu nave.
+
+Para apuntar a barcos u objetos enemigos:
+
+Pulsa T para alternar entre todos los objetivos enemigos detectados por tu radar.
+
+Presiona E o Shift + T para apuntar a la nave u objeto enemigo más cercano (excluyendo cápsulas de escape, asteroides y minas).
+
+Mantenga presionada la tecla Alt y presione T para volver al barco u objeto enemigo previamente seleccionado.
+
+Para apuntar (generalmente con fines de comunicaciones, navegación o rescate) a barcos u objetos amigos:
+
+Pulsa A para alternar entre todos los barcos aliados u objetos detectados por tu radar.
+
+Presiona A mientras mantienes presionada la tecla Shift para apuntar al barco u objeto aliado más cercano.
+
+Mantenga presionada la tecla Alt mientras presiona A para volver a la nave u objeto aliado previamente seleccionado.
+
+
+Medidas de emergencia
+
+En el fragor del combate, puede que sea necesario que tomes ciertas medidas drásticas para darle la vuelta a tus enemigos y obtener una victoria, o incluso simplemente sobrevivir. Descubrirá que no es raro quedarse sin potencia del láser en un momento crítico. Cuando esto ocurre, es posible que desees sobrecargar tus láseres, lo que aumenta considerablemente su tasa de recarga. Para sobrecargar los láseres de su nave, mantenga presionada la tecla Shift y presione L. El proceso de sobrecarga consume una parte sustancial de la energía disponible de su nave. Continúa haciéndolo hasta que los láseres estén completamente cargados, o hasta que desactives el proceso de sobrecarga presionando Shift + L nuevamente.
+
+Los escudos de tu nave también pueden sobrecargarse con el mismo aumento en la tasa de recarga y la demanda de energía. Para sobrecargar escudos, presione Shift + S. Para sobrecargar láseres o escudos usando la energía de su nave, debe designar una alta prioridad a esos sistemas en la opción Administración de energía de la pantalla Controles de navegación.
+Tenga en cuenta que las ventajas a corto plazo de cobrar de más no están exentas de consecuencias adversas. Abusar de las teclas de sobrecarga podría provocar daños permanentes a sus láseres y escudos al limitar sus niveles máximos de potencia. Debido a que el potencial de daño es alto, se le advierte cada vez que cobra de más. El sistema de reparación a bordo no puede reparar los daños causados ​​por la sobrecarga.
+
+También puede haber ocasiones en las que, para contrarrestar las armas enemigas (como el Zemun Hellfire), o para liberar energía rápidamente, es posible que desees soltar tus escudos. Para soltar escudos, presione la tecla S. Para volver a levantar los escudos y devolverlos al mismo nivel que tenían antes de soltarlos, presione la tecla S por segunda vez.
+
+Finalmente, cuando una situación parece desesperada y su barco se está desintegrando, es posible que se vea obligado a tomar la última medida de emergencia: rescatar. Su sistema de expulsión debe estar completamente operativo para que pueda expulsar (consulte la pantalla de visualización de daños del barco en la sección Monitores). Para expulsar, presiona Ctrl + E. Expulsar no garantiza un regreso seguro a la base (solo el hipersalto lo hace), especialmente si estás solo y detrás de las líneas enemigas. Pero a veces es eso o una muerte segura y ardiente.
+
+
+Funciones sigilosas
+
+Al volar la nave de reconocimiento Gorene Intruder, tienes acceso a una tecnología especial de evasión de radar Stealth. Para encender el dispositivo Stealth, presione C. Esto activa los dispositivos de evasión de radar del intruso, que luego puede observar usando la función de monitor 0. Consulte la sección Monitores para obtener detalles sobre el uso del dispositivo Stealth. Presione C nuevamente para desactivar el dispositivo y conservar la energía de la batería sigilosa. La tecla B apaga y enciende los cargadores de batería ocultos de la misma manera. El generador de batería oculto aparece en la pantalla de administración de energía que se encuentra dentro de la función de navegación y controles de la computadora. Esto significa que debes desviar la potencia del motor a tus baterías furtivas para poder recargarlas.
+
+El Intruder también está equipado con escáneres opcionales y sondas informáticas que se utilizan en determinadas misiones de reconocimiento. Para activar un escaneo visual de su objetivo, debe moverse dentro del rango de escaneo y presionar Ctrl + S. Una vez que comienza el escaneo, puede seguir su progreso usando la Función de Monitor 8. Debe permanecer dentro del rango de escaneo (0,2 km) de su objetivo durante todo el proceso de escaneo visual.
+
+Para lanzar una sonda de computadora a un objetivo, debe maniobrar dentro del alcance de la sonda (0,25) y presionar Alt + L. Nuevamente, debe permanecer dentro del alcance de la sonda hasta que el dispositivo complete su función de escaneo. Puede ver los datos codificados que se transmiten a su barco utilizando la función de monitor 9.
+
+
+Regresando de una misión
+
+Antes de regresar de una misión, es posible que desees capturar una nave inmovilizada o una cápsula de escape con tu rayo tractor. La embarcación remolcada salta contigo cuando se activan tus motores SFG. Para remolcar una embarcación objetivo, debes estar a menos de 0,2 km de ella y viajar a la misma velocidad o cerca de ella que el objetivo. Luego puedes activar tu rayo tractor presionando R. Se te informará una vez que tu rayo tractor se haya activado, momento en el cual verás un estrecho campo de energía azul que emana de tu nave hacia la nave objetivo. Una vez que una embarcación ha sido remolcada, puedes alterar gradualmente tu velocidad sin romper el rayo tractor. Esto tiene el efecto de remolcar la embarcación objetivo y hacer que se ajuste a su velocidad. Sólo se puede capturar un barco a la vez mediante el rayo tractor. Al presionar R por segunda vez se desactiva el rayo tractor.
+Una vez que hayas completado tu misión, o hayas decidido que es prudente abandonar una misión, puedes hacer un hipersalto de regreso a la base activando tus motores de generador de campo de singularidad (SFG). Para hacerlo, debes detener tu nave por completo y presionar J. Debes tener en cuenta que, aparte de la desventaja obvia de requerir que tu nave esté estacionaria, los motores SFG también bajan automáticamente tus escudos. Esto a menudo crea el desafortunado resultado de convertir su nave en un objetivo principal para el fuego enemigo durante el tiempo que se genera su campo de singularidad. Por tanto, es esencial una planificación cuidadosa de los hipersaltos. Antes de realizar un hipersalto de emergencia, es posible que desees ahorrar combustible para tus postquemadores para poner cierta distancia inicial entre tú y tus enemigos.
+
+Al ejecutar un hipersalto exitoso, regresas a la base para tu informe, que incluye noticias sobre misiones secundarias que tuvieron lugar en tu ausencia. Luego, volverás al salón principal de la base, listo para más acción en Ascalon Rift.
+
+
+
+
+Premios y medallas (sólo para versión CD-ROM)
+
+La versión en CD-ROM de Star Crusader tiene una característica adicional: premios, medallas y cintas por un desempeño excepcional. Si tu desempeño en combate merece un premio, lo recibirás cuando regreses a la base. Solo puedes recibir una medalla por cada misión.
+
+Los distintos premios que puedes ganar dependen del bando de la guerra con el que elijas (Gorene o Alien Alliance). Aquí hay una descripción general de los premios:
+
+El corazón del león de Gorene
+La insignia de honor de la Alianza
+Otorgado a pilotos que sufrieron daños críticos en sus barcos, pero aún así completaron sus misiones.
+
+El ojo de águila de Gorene
+La Garra de Hierro de la Alianza
+Otorgado por valentía excepcional en combate, cuando los pilotos matan a más de seis oponentes en una sola misión.
+
+La medalla de la garra de tigre de Gorene
+La garra de bronce de la Alianza
+Otorgado por heroísmo en el cumplimiento del deber, cuando los pilotos logran más de tres muertes a pesar de daños sustanciales en sus barcos.
+
+La medalla Gorene Cobra Fang
+La Garra de Plata de la Alianza
+Otorgado por heroísmo excepcional en combate, cuando los pilotos logran más de seis muertes después de que sus barcos sufran daños críticos.
+
+La cinta de Gorene Horus
+La cinta del halcón de la Alianza
+Otorgado por 25 muertes.
+
+La cinta de Gorene Nekhbet
+La cinta del halcón de la Alianza
+Otorgado por 100 muertes.
+
+La cinta de Gorene Mandulis
+La cinta del águila de la Alianza
+Otorgado por 200 muertes.
+
+El amuleto de Gorene Shen
+La cinta Alianza Fénix
+Otorgado por 10 muertes en una misión.
+
+La estrella Gorene P-Tah
+El Anillo Omega de la Alianza
+Otorgado por completar con éxito una misión de reconocimiento.
+
+La Cruz de Halcón Distinguida de Gorene
+La estrella de combate de la Alianza
+Otorgado a aquellos pilotos que logran más de cinco muertes en combate sin sufrir ningún daño en sus barcos.
+
+La Cruz de la Alianza
+Otorgado por servicio honorable en las filas de Alien Alliance.
+
+La Cruz de la Liberación de Gorene
+Por valentía, heroísmo y pilotaje excepcionales.
+
+
+ESTRATEGIA DE JUEGO
+
+Descripción general
+
+Quizás lo más importante que debes tener en cuenta es que este no es un juego lineal. Recuerda que no es necesario tener éxito en todas las misiones para ganar una campaña. Para avanzar en la trama general del juego, algunas misiones han sido diseñadas para ser excepcionalmente difíciles y, de hecho, hay al menos una misión que no puedes evitar perder. No te equivoques, si pierdes demasiadas misiones, especialmente después de convertirte en comandante de sector, perderás el juego, pero la única forma de jugar todas las 104 misiones de Star Crusader es perder una batalla aquí y allá.  Así que, por supuesto, guarda tus partidas, pero no te apresures a repetir una misión que tuviste que abandonar antes de que se completaran sus objetivos. Quizás estés dejando pasar la oportunidad de jugar algunas de las misiones más emocionantes y desafiantes del juego.
+Selecciona a tus compañeros con cuidado. Examina sus expedientes para descubrir quién es el más adecuado para la misión que estás a punto de realizar. Tenga cuidado de no depender demasiado de uno o dos pilotos. Llevar a los mismos compañeros en una misión tras otra aumentará sus habilidades, pero en el futuro, si eres el favorito para morir en la batalla, podría dejarte solo con pilotos relativamente no capacitados para elegir para las misiones restantes.
+
+Recuerda ordenar misiones secundarias. Esta es una forma no sólo de aumentar las habilidades de más pilotos, sino también de complementar tu suministro de barcos y ganar control de más territorio enemigo. Como se mencionó anteriormente, ganar territorio es muy importante: fortalece tus fuerzas y debilita a tus enemigos (y viceversa si pierdes territorio). No lo olvides, puedes ganar cada una de tus batallas pero aún así perder la guerra si dejas tus territorios indefensos.
+
+Asimismo, asegúrese de enviar a sus pilotos a la academia de pilotos. Después de todo, estás librando una guerra y eso significa que las bajas entre tus propias tropas son inevitables. No cometa el error de esperar demasiado para comenzar a reemplazar a sus pilotos con cadetes entrenados. No hay nada peor que tener que luchar contra un enjambre de pilotos veteranos con nada más que novatos que te respalden.
+
+Finalmente, conoce a tus compañeros. Muchos de ellos tienen características distintas que no aparecen en sus expedientes oficiales. Una vez que conozcas las personalidades de tus pilotos, podrás utilizarlas al máximo.
+
+
+SISTEMAS DEL BUQUE
+
+Para utilizar eficazmente cualquier barco en combate, debes contar con la mayor cantidad de información posible. Afortunadamente, los trece barcos que puedes pilotar tienen similitudes básicas.
+
+Primero necesitarás aprender sobre el sistema principal de cualquier luchador.
+
+Un poder
+
+Todos los barcos tienen una cantidad limitada de energía que pueden producir sus generadores. Este nivel de poder es constante durante todo el juego. No variará, no importa cuánto daño sufras. Si observas las especificaciones de los distintos barcos, verás que los barcos de cada raza tienen características de potencia únicas. Los barcos Tancred y Mazuman tienen mucha potencia, mientras que los cazas Zemun carecen de algo.
+La energía se utiliza para mantener la velocidad, reparar escudos, cargar armas, reparar daños, acelerar, rayos tractores y, solo en Gorene Intruders, dispositivos sigilosos. Ningún luchador en el juego es capaz de aplicar la máxima potencia a todos estos sistemas al mismo tiempo. Cuando comienzas una misión por primera vez, descubrirás que tienes poder más que suficiente. Sin embargo, a medida que disparas armas y sufres daños en los escudos y la estructura de la nave, el poder se vuelve más crítico.
+
+La característica más útil del sistema de energía es la lista de prioridades. Puedes configurar esto antes de que comience la misión o desde el interior de la cabina. Esta característica le permite decidir qué sistemas obtienen energía primero, segundo, tercero, etc. De esa manera, si se está quedando sin energía en ciertas situaciones, puede estar seguro de que obtendrá energía donde más la necesita. Puedes ajustar esta prioridad en cualquier momento antes, durante o después de la misión.
+
+
+B. Combustible
+
+Para fines de vuelo y combate normales, todos los barcos llevan combustible más que suficiente. Sólo tendrás que preocuparte por mantener un registro de tu indicador de combustible en misiones de reconocimiento prolongadas o si te vuelves demasiado dependiente de tus postquemadores. Recuerda que los postquemadores consumen una gran cantidad de combustible por cada segundo que están activados, así que úsalos con precaución. Generalmente es una buena idea ahorrar al menos una cuarta parte de su combustible para situaciones de emergencia que requieran una retirada apresurada; Utilice este combustible de reserva para acelerar lo más lejos posible de los barcos enemigos. Una vez que esté a una distancia segura, puede activar su motor SFG.
+
+
+C. Armas
+¿Qué sería de un simulador de vuelo espacial sin armas?  En Star Crusader encontrarás una amplia variedad de armas diferentes, diseñadas para que cada raza alienígena tenga sus propias capacidades tácticas e inconvenientes. Es más, notarás que las armas de Star Crusader tienen algunos efectos bastante únicos; por ejemplo, varias armas no causan ningún daño físico real. Depende de ti experimentar con las distintas armas para descubrir cuáles se adaptan mejor a tu estilo de combate.
+
+
+D. Vigas del tractor
+
+Los rayos tractores pueden resultar extremadamente útiles. Su objetivo principal, capturar naves enemigas, te ofrece el beneficio adicional de poder experimentar con tecnología, naves y armamento alienígenas, que luego podrás usar en misiones posteriores. Es posible que descubras (como lo hemos hecho algunos de nosotros en la Toma 2) que prefieres ciertas naves alienígenas a los modelos de Gorene.
+
+Sin embargo, hay dos cosas que debes recordar sobre el uso de rayos tractores. En primer lugar, sólo pueden producir una cantidad finita de fuerza de tracción, por lo que sólo pueden fijarse en los cazas; Los barcos más grandes, como cruceros y destructores, no pueden arrastrarse con un rayo tractor. En segundo lugar, un rayo tractor tiene un alcance máximo de 0,2 km, así que vigile cuidadosamente su velocidad. Si tienes un barco en tu rayo tractor y aceleras demasiado rápido, o vuelas a altas velocidades en general, el rayo tractor se desactivará y lo más probable es que el barco capturado caiga fuera del rango de 0,2 km.
+
+Por último, en determinadas situaciones singulares, podrás descubrir un efecto muy beneficioso resultante de arrastrar un barco enemigo durante el combate. ¿Cuál es ese efecto? Olvídalo. No vamos a decir una palabra. Veamos si puedes resolverlo.
+
+
+E. Sistema de eyección
+
+Si estás en peligro crítico, expulsa. Es mejor perder tu barco o tu misión que morir y empezar de nuevo. Recuerde, hemos hecho todo lo posible para diseñar misiones que resultan de la pérdida de otra misión: perder caminos donde la trama toma numerosos giros divertidos e impredecibles. Te lo perderás si adquieres el hábito de restaurar repetidamente un juego previamente guardado, porque Star Crusader está diseñado para llevarte a nuevas aventuras si no siempre eres perfecto.
+F. Características de vuelo
+
+Cada nave (Gorene y alienígena) tiene su propia maniobrabilidad, aceleración y velocidad máxima. Notarás que los barcos individuales se comportan de manera muy diferente dentro y fuera del combate, lo que genera un equilibrio en el juego. Por ejemplo, las naves Tancred tienen armas extremadamente poderosas, pero no realizan giros rápidos. Las naves Mazuman, por otro lado, son ultrarrápidas y maniobrables, pero carecen de la potencia y durabilidad de los cazas Tancred.
+
+
+G. Radar y sensores
+
+Tus sistemas de radar te permiten monitorear los barcos que vuelan cerca de ti y fijarte en los barcos enemigos. Si tu radar se desconecta, te resultará más difícil localizar a los enemigos. También notarás que las miras rojas de las armas no aparecerán en el HUD, lo que hará aún más difícil saber hacia dónde dirigir el fuego de tus armas.
+
+
+H. Control de daños
+
+No todos los barcos tienen capacidad de reparación en vuelo, cuyo funcionamiento cuesta 20 puntos de energía. Al igual que el sistema de administración de energía mencionado anteriormente, puede asignar una lista de prioridades de reparación a los sistemas de su barco.
+
+Si algunos de tus sistemas resultan dañados en combate, configura uno de tus monitores para vigilar el control de daños. Verá una lista de sistemas dañados y un temporizador junto al que está actualmente en reparación.  El cronómetro le indica cuántos segundos faltan para que el sistema vuelva a estar en funcionamiento. También es importante tener en cuenta que el propio sistema de control de daños puede destruirse en combate. En este caso, las reparaciones en vuelo ya no serán posibles durante el resto de la misión.
+
+
+I. Control de incendios
+
+Si tu sistema de control de incendios está dañado, no podrás disparar armas hasta que esté reparado. Sin embargo, puede ser prudente permanecer en la misión y evadir a tus enemigos el tiempo suficiente para que tus compañeros completen la misión por ti. 
+
+
+J. Transpondedor IFF
+Todos los barcos están equipados con un transpondedor de identificación de amigo o enemigo (IFF). Este dispositivo emite un pulso codificado que identifica el barco ante un radar amigo. Mientras esta señal esté presente, tus compañeros no te percibirán como un objetivo hostil. Sin embargo, dado que este pulso no coincide con los pulsos codificados del enemigo, siempre podrán identificarte como objetivo.  Bueno, casi siempre.
+
+
+
+
+
+
+
+
+
+
+
+
+CONSEJOS DE COMBATE
+
+Las cinco razas alienígenas:
+
+A. Tancreds
+
+Cuando luches contra Tancreds, acércate y quédate allí. Usa un torpedo a media distancia para dañar sus escudos y luego recurre a los láseres para acabar con ellos a corta distancia. Sus barcos son potentes y duraderos, pero carecen de maniobrabilidad. Si le das a Tancred suficiente distancia para darse la vuelta y mirarte, espera recibir un torpedo de plasma en tu escudo delantero. A los Tancreds se les enseña a seguir el torpedo de plasma con un disparo de cañón vectorial. Esto tiene el efecto de sacarte del camino después de absorber su primera gran explosión.
+
+Sin embargo, recuerda que los torpedos de plasma pierden fuerza con el alcance: cuanto más tengan que viajar antes de impactarte, menos daño causarán. Su poder también puede reducirse mediante disparos de láser. Si ves un torpedo de plasma dirigiéndose hacia ti, dispárale con tu láser tantas veces como puedas. (Es posible que también quieras usar esta táctica incluso si el torpedo no está apuntando a ti; tu compañero te lo agradecerá más tarde). En cualquier caso, no te golpeen con un torpedo de plasma a quemarropa porque el arma es más poderosa cuando recién sale del tubo de lanzamiento.
+
+Recuerde también que los torpedos de plasma tardan en recargarse. Los Tancred Samurais tienen solo un tubo de torpedo, por lo que, dependiendo de cuánta energía estén usando, pueden pasar uno o dos minutos antes de que puedan disparar otro tiro, tiempo que puedes aprovechar a tu favor. Los Tancred Warlords, por otro lado, tienen dos tubos lanzatorpedos y generadores más potentes, por lo que sus torpedos de plasma pueden recargarse en tan solo quince o veinte segundos.
+
+Los cañones vectoriales causan poco daño físico, pero te sacarán de tu camino actual. Después de que te alcance un cañón vectorial, tu nave perderá el control durante unos segundos. Si te golpean, intenta realizar un seguimiento de dónde está tu oponente Tancred. Seguramente seguirá su disparo, así que aléjate de él hasta que te orientes.
+
+
+B. Zemuns
+
+Presta especial atención al cañón Zemun Hellfire, un arma devastadora que ataca los escudos del objetivo. Hellfire tiene un alcance y potencia excelentes; un solo disparo a corta distancia puede derribar ambos escudos. Es importante tener en cuenta, sin embargo, que Hellfire no puede dañar tu nave; solo puede afectar tus escudos.
+
+Los barcos Zemun tienen poca potencia. Si dañas los escudos de un Zemun, continúa con el ataque. No le des tiempo al Zemun para recargar sus escudos. Las naves Zemun no tienen grandes reservas de energía, así que haz que tu oponente use su potencia en sus motores y armas.
+
+Las naves de ataque Zemun emplean un sifón de energía, que es un arma omnidireccional (no es necesario que estén frente a ti para usarla) con un alcance de casi 2,0 km. Cuando entres en contacto con un sifón de energía, notarás una breve pero drástica caída en tu poder. A medida que el sifón de energía te drena la energía, la aplica a los sistemas de la nave de Zemun.
+
+Sin embargo, un sifón de energía solo puede usarse contra ti si tus escudos están completamente caídos. Por lo tanto, si tus escudos caen cuando te enfrentas a una nave de ataque Zemun, puede que valga la pena correr el riesgo de sobrecargarlos para que se recuperen más rápidamente.
+
+
+
+
+
+C.Mazumas
+
+Las naves Mazuman son extremadamente rápidas y ágiles. Si se fijan a corta distancia, es muy difícil librarse de ellos. Tu mejor plan de ataque es intentar dañarlos desde la distancia. Si se acercan, intenta volar.
+en la dirección opuesta y obtener algo de alcance. Utilice sus postquemadores si es necesario. Sin embargo, si se presenta la oportunidad, golpéalos fuerte: las naves Mazuman no pueden sufrir mucho daño.
+Las naves de ataque Mazuman tienen cañones de neutrones, que no pueden afectarte mientras tus escudos estén operativos.
+Sin embargo, si tus escudos caen, las explosiones de los cañones de neutrones te causarán daño acumulativo a ti, el piloto. Obviamente, este no es el tipo de daño que pueden repararse con los sistemas de reparación a bordo. Si tus escudos caen cuando luchas contra Mazumans, ten muy en cuenta cuántos impactos has recibido de los cañones de neutrones. Recuerde, es mejor retirarse que morir.
+
+
+D.Amiens
+
+Las armas Amien son en su mayoría de naturaleza defensiva. Sus torpedos EMP alterarán los sistemas informáticos de su nave y su campo Aegis, una esfera electromagnética que rodea su nave, se descargará sobre cualquier objeto que se acerque demasiado. Estas dos armas tienen implicaciones tácticas muy diferentes, por lo que las examinaremos por separado.
+
+Los torpedos EMP detonarán cuando alcancen su objetivo. No causan daño físico, pero producen 
+un pulso magnético que polariza temporalmente el casco de su barco. Esto tiene el efecto de confundir su 
+ordenadores, sensores y radares del barco. El efecto es acumulativo, por lo que después de recibir suficiente daño de un torpedo EMP, tu nave se apagará por completo. Si esto sucede, debes expulsarte o saltar o morirás rápidamente.
+
+Cuando detonan, los torpedos EMP afectan todo dentro de un radio de 0,2 km. Si su escuadrón vuela en formación, esto podría ser devastador. Sin embargo, el lado positivo es que esto significa que los Amiens no pueden usarlo si ellos mismos, o cualquiera de sus propios barcos, se encuentran dentro del radio de explosión previsto.
+
+El campo Aegis se extiende a un radio diez veces mayor que el radio del escudo de la nave Amien. Sabrás inmediatamente cuando una nave de Amien activa el campo Aegis porque de repente la nave estará rodeada por una enorme esfera electromagnética amarilla. Cuando veas que ocurre este fenómeno, retírate de inmediato: si un campo Aegis entra en contacto con tu nave, su pulso de energía destructivo puede destruir tu nave.
+
+Los pilotos de Amien utilizan esta arma de diferentes maneras. Los pilotos inexpertos suelen activar el arma a distancias mayores, ya que bloquea los efectos de torpedos y láseres. Los pilotos experimentados mantendrán la carga en su campo Aegis hasta que estén más cerca. De esta forma, hay más posibilidades de que te atrapen con la descarga del campo. Un piloto as de Amien a veces esperará hasta que ya estés dentro del radio máximo del campo. Cuando lo enciende, automáticamente recibes el daño total.
+
+Si te enfrentas a un piloto de Amien con un campo Aegis, tu mejor estrategia es resistirte a atacar hasta que Amien haya disparado el campo Aegis. Los efectos del campo duran aproximadamente dos segundos y, después de que el campo colapsa, se tarda aproximadamente un minuto en recargarse (dependiendo de la energía de la nave). Este es el momento más oportuno para acercarse y atacar al Amien. Intenta destruir su nave antes de que se recargue su campo Aegis. No es probable que Amien dispare sus torpedos EMP si estás a corta distancia, por lo que solo podrá depender de sus láseres. Si te enfrentas a un piloto experimentado, no te quedes cerca por mucho tiempo: una vez que su campo Aegis se recargue, no dudará en usarlo.
+
+
+
+
+
+E. Gorenes
+
+Durante el transcurso del juego, es muy posible que te enfrentes a otras naves de Gorene en combate. Si esto sucede, deberías estar lo suficientemente familiarizado con las capacidades del barco para formular tus propias estrategias y usarlas contra él. La mejor táctica es atacar un barco Gorene en gran número. Ordena a tus compañeros que ataquen a los oponentes en grupos de dos o tres. Esto puede exponerte a ataques desde el costado y por detrás, pero te permitirá abrumar los sistemas de reparación en vuelo de tu objetivo.
+
+Cuando pilotes barcos Gorene, utiliza tus torpedos con moderación. Son extremadamente precisos, pero tienes un suministro limitado, especialmente en el Scorpion.
+Hay tres tipos de naves Gorene: la Scorpion, la Liberator y la Intruder. Si te ves obligado a entrar en combate mientras vuelas un Intruder, deberías pensar en retirarte. El Intruder es principalmente un barco de reconocimiento y no está diseñado para el combate.  
+
+El Escorpión, por otro lado, es un luchador de perros puro. Tiene una velocidad de disparo láser impresionante, una maniobrabilidad excepcional y una velocidad máxima tremenda. Sus principales inconvenientes son un suministro limitado de torpedos, una pequeña batería láser (puede disparar rápidamente, pero se agota con la misma rapidez) y un pequeño generador de energía. Debería ser obvio que el Scorpion está destinado a enfrentarse a otros cazas, no a naves capitales (grandes naves con armas múltiples) o bases. Al volar el Scorpion, aprovecha su velocidad y agilidad. Ponte detrás de tu oponente y quédate sobre él. Espere hasta que haya alineado un buen tiro con sus láseres y luego descargue rápidamente. Tienes menos de diez segundos de fuego sostenido antes de que se agote la batería del láser, así que no los desperdicies. 
+
+El Liberator está destinado a atacar objetivos capitales o capturar barcos pequeños. Tiene más potencia, durabilidad y potencia de fuego que el Scorpion, pero es más lento y menos maniobrable. Su velocidad de disparo láser es más lenta, pero la batería es más grande que la del Scorpion. Por lo tanto, un Liberator puede mantener un bombardeo láser sostenido durante períodos más largos que un Scorpion, aunque dañará al objetivo más lentamente.
+
+
+TÁCTICAS DE COMBATE
+
+A. Cómo alinear un objetivo
+
+Esto no siempre es un problema. Si tu nave es más maniobrable que la de tu objetivo, simplemente sigue dando vueltas y eventualmente estarás detrás de él. De lo contrario, es posible que tengas que recurrir a una de varias tácticas:
+1) Cambie de velocidad con frecuencia.
+
+Si tu oponente te sigue el rastro, puedes sacudirlo bajando la velocidad rápidamente a veces. Podría pasar volando junto a ti, en cuyo caso, estarás detrás de él.
+
+
+2) Si estás en un campo de asteroides, úsalos para cubrirte.
+
+Vuela curvas cerradas a su alrededor y, a veces, puedes hacer que tu oponente choque directamente con una.
+
+
+3) Si todo lo demás falla, deténgase por completo.
+
+Esto te convierte en un blanco fácil, pero un barco inmóvil casi siempre puede girar más rápidamente que uno que está en movimiento.
+
+
+
+
+B. Cómo enfrentarse a múltiples oponentes
+
+Star Crusader presenta un enfoque realista para la simulación de combate. Los oponentes a los que te enfrentas tienen barcos que son casi tan poderosos como los tuyos (y a veces más poderosos). Como en una pelea de perros real, los oponentes pueden evadirte durante períodos prolongados, y cuando dos o tres enemigos te atacan al mismo tiempo, es todo lo que puedes hacer para mantenerte con vida.
+
+Dependiendo del barco que estés volando, existen diferentes estrategias que puedes emplear cuando te superen en número. En las naves Gorene, la táctica de prueba es concentrarse en un solo oponente hasta que sea derrotado y luego considerar su estado de reparación. Siempre que no hayas sufrido un daño importante, ataca a tu próximo oponente. En las naves Gorene, es posible continuar con tu ataque cuando la fuerza del escudo es baja. Si su nave sufre daños internos, los sistemas de reparación pueden encargarse de ello más tarde.
+
+Con algunas de las naves alienígenas más débiles, debes seguir más de cerca la fuerza de tu escudo. Cuando la fuerza del escudo comienza a disminuir, es una buena idea alejarse rápidamente del objetivo. Una vez que caigan tus escudos, te resultará difícil sobrevivir si te enfrentas a varios oponentes.
+
+Una buena táctica a emplear contra múltiples oponentes es descargar armas pesadas, como torpedos, rápidamente. Cuando se trata de vida o muerte, no tiene sentido ahorrar en municiones. Concentra el fuego de tus armas pesadas en un oponente a la vez y elimínalos uno por uno. Después de matar, elige tu próximo 
+
+objetivo a la vez. La velocidad es la clave. Dales todo lo que tienes rápidamente. No te preocupes por los objetivos de la misión que podrían requerir tus torpedos más adelante. Cuando te superen en armas, tu objetivo debería ser mantenerte con vida.
+
+Si tienes compañeros, este es el momento oportuno para llamarlos para que te cubran. Ponte la radio y pide ayuda rápidamente.
+Una última táctica a utilizar cuando se lucha contra múltiples oponentes es cambiar de dirección constantemente. Si vuelas en línea recta durante demasiado tiempo (especialmente cuando intentas alinear un objetivo para disparar en sus escudos traseros), inevitablemente alguien intentará ponerse detrás de ti. No dejes de moverte.
+
+
+C. Cómo luchar contra las naves capitales y las bases
+
+A diferencia de los cazas, las grandes naves capitales utilizan armas con torretas que pueden disparar en un arco designado. Sólo con mucha experiencia podrás identificar los puntos ciegos en algunos de estos barcos, pero incluso después de hacerlo, a menudo son difíciles de alcanzar.
+
+Tu mejor estrategia contra una nave capital (destructor, crucero, etc.). es igualar su velocidad y correr un curso paralelo justo detrás de él, ligeramente hacia un lado. Si una nave capital te dispara mientras estás en esta posición, es probable que falle ya que no te estás moviendo hacia ella. Tan pronto como te gires para mirar directamente a la nave capital, esta comenzará a alinear su láser con torreta en tu dirección. A medida que ajuste su láser, tendrá tiempo de realizar uno o dos disparos, pero deberá desviarse rápidamente. Al igual que cuando luchas contra varios oponentes, no dejes de moverte o seguramente te golpearán. Contra bases y también contra naves capitales, siempre es una buena idea pedir refuerzos. No intentes enfrentarte a un objetivo tan poderoso por tu cuenta. Deja los objetivos más grandes para el final y luego golpéalos con tantos pilotos como puedas.
+
+Si te encuentras solo frente a una base o una nave capital, no pierdas toda esperanza. Hay cosas que puedes hacer, especialmente buscar posibles puntos ciegos. Lo creas o no, en realidad es posible destruir una base enorme con un solo barco.  Depende de usted aprender cómo hacerlo.
+
+
+
+D. Gestión de energía
+
+Si ya leíste la sección Cómo jugar del manual, aprendiste que es posible asignar diferentes prioridades a los sistemas de distribución de energía de tu nave, algo importante que debes recordar. Los sistemas que consumen energía son: motores (para mantener la velocidad y aceleración), escudos (para reparar), cargar las armas, reparar daños, rayos tractores y dispositivos de sigilo (solo en Gorene Intruders).
+
+Haz un estudio constante de optimizar tu lista de prioridades. Por ejemplo, si el sistema de reparación es el último en su lista, es posible que no haya energía adecuada para realizar ninguna reparación.  Esto es especialmente probable cuando estás en un intenso tiroteo. O, si la aceleración es el último lugar en tu lista de prioridades de energía, es posible que tu nave no tenga suficiente potencia para aumentar tu velocidad y sacarte de problemas.
+
+Evidentemente, cada uno de los sistemas de tu nave es importante. Tienes que decidir qué sistemas son más críticos para ti, según tu estilo de juego, y distribuir tu poder en consecuencia.
+
+
+E. Luchando dentro de una nebulosa
+
+La clave para luchar dentro de una nebulosa es recordar que la nebulosa afecta a todas las armas de energía: los alcances de los láseres, los torpedos de plasma, los cañones de neutrones, los disruptores, el Hellfire y los sifones de energía se reducen a la mitad.
+
+Los oponentes sin experiencia pueden dispararte a distancias más largas, pero desperdiciarán su energía. Espere hasta que esté muy cerca (quizás 0,3 km o menos) antes de comenzar a disparar láseres.
+
+Si estás usando una nave Gorene (especialmente un Liberator), aprovecha el hecho de que tus torpedos no se ven afectados por la nebulosa. Mantente a distancia y golpea a tu oponente, y casi siempre no sufrirás daño.
+
+Si estás huyendo de un oponente, estarás fuera del alcance del láser cuando estés a 0,5 km de distancia. Recuerda esto cuando planees tu ataque.
+
+
+F. Luchar en medio de un campo minado
+
+Los campos minados, que reaccionan al uso de energía, presentan un desafío completamente nuevo: cuanta más energía gaste tu nave, mayor será el alcance al que una mina puede detectarte. (Las minas, por cierto, son lo suficientemente inteligentes como para reconocer los códigos del transpondedor IFF, por lo que no atacarán a las naves amigas).
+Una vez que una mina te detecte, encenderá sus motores y te perseguirá como un torpedo. Tiene poca maniobrabilidad y un suministro de combustible limitado, pero es más rápido que cualquier barco excepto el Gorene Intruder. Si una mina te atrapa, es una mala idea intentar escapar de ella, porque una vez que aumentas tu producción de energía para acelerar, otras minas seguramente te detectarán. La mejor estrategia es detenerse y enfrentarse a la mina. Es posible derribarlos con fuego láser.
+
+Si estás cerca de un campo minado enemigo, ten cuidado con los oponentes que huyen hacia él mientras intentan evadirte. Si vuelas a toda velocidad cuando entres en el campo minado, las minas te perseguirán inmediatamente como un enjambre de abejas.  Para empeorar las cosas, tu oponente se quedará solo con las minas, gracias a su transpondedor IFF, y seguramente se aprovechará de la situación. Es extremadamente difícil luchar contra un oponente y un enjambre de minas, especialmente si tienes que controlar tu producción de energía para evitar ser detectado por más minas.
+
+Todos los campos minados están controlados por una mina central. Si te topas con este satélite (que generalmente se encuentra cerca del centro del campo minado), destrúyelo. Esto desactivará todo el campo minado.
+
+G. Consejos sobre vuelos en misiones furtivas
+
+Volar la nave de reconocimiento Gorene Intruder Stealth es una tarea desafiante. La clave para una misión sigilosa es viajar despacio. Requiere estrategia, paciencia y control. Debes recordar que, aunque tu nave es difícil de detectar por el radar enemigo, no es físicamente invisible. No te acerques demasiado a las naves enemigas. Evítalos si vienen hacia ti, y si estás en curso de intercepción con uno, detente y déjalo pasar. Consulta el mapa táctico de tu pantalla de navegación con frecuencia para verificar el rumbo de cualquier nave patrullera enemiga que esté cerca. Como regla general, recuerda tomarte tu tiempo. Su batería furtiva tiene un suministro de energía limitado, pero se puede recargar. Si la energía se está agotando y todavía tienes objetos para escanear, dirígete a un espacio abierto, lejos de las patrullas enemigas, luego detente y apaga tus sistemas de sigilo para permitir que tus baterías se recarguen. No hay premio por completar la misión en el tiempo más rápido. Si eres visto por un solo 
+barco enemigo, intenta dejarlo atrás. Estás pilotando el barco más rápido del Ascalon Rift; aprovechar ese hecho. Si no puedes esquivar a un solo atacante, aléjalo de las otras naves patrulleras y enfréntate a él. Con un poco de suerte, un buen piloto a veces puede utilizar la velocidad y maniobrabilidad superiores del Intruder para derrotar a un enemigo inexperto, incluso si está volando una nave con armas más poderosas. (Las palabras clave son "suerte" y "a veces").

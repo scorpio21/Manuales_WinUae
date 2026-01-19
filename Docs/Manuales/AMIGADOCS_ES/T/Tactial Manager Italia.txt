@@ -1,0 +1,847 @@
+RESPONSABLE TÁCTICO Italia Serie A y Serie B
+            =================================================
+
+(c) 1994 Leyenda negra y pájaros parlantes
+                                                 TIPOADO POR FRAGMENTO - DTL
+¡Bienvenidos a un juego de pelota diferente!
+----------------------------------
+
+El requisito previo para apreciar plenamente esta simulación es estar a cargo
+de un club.  Sin ningún administrador humano, el juego simplemente se ejecutará en automático.
+modo.
+
+Para convertirse en gerente, deberá solicitar un trabajo, inicialmente con uno de
+los clubes más pequeños.  Puedes gestionar cualquier club cuya clase sea igual o inferior.
+tu propia calificación.
+
+Como todos los gerentes humanos comienzan con una calificación de 3, la mayoría de los clubes en el nivel inferior
+La división es accesible de inmediato.  Para gestionar mejores clubes deberás
+Tienes que ganar al menos 4 partidos seguidos.
+
+El juego funcionará perfectamente sin un solo administrador humano.   pero
+Considerando que este juego es capaz de manejar hasta 38 administradores humanos, hay
+No tiene mucho sentido eso.
+
+Para solicitar un trabajo, seleccione el MENÚ DE ACCIÓN.  Luego haga clic en administradores.  ahora
+Elige uno de los gestores humanos.  Di FRED.  Haga clic en UNIRSE.  Ahora seleccione
+el club al que te gustaría unirte.  Si eres aceptado, aparecerá un logo.
+y confirma tu cita.
+
+Diviértete y... ¡buena suerte!
+
+Para obtener más detalles sobre la acción del teclado, presione F10.
+
+El menú Archivo.
+-------------
+
+ÚLTIMA TEMPORADA
+cargará los calendarios y resultados de la última temporada completa.  en tu
+disco, este archivo se registra como fixt_00.dat
+
+Una vez que se recuerda la ÚLTIMA TEMPORADA, la temporada actual queda en espera.  Sólo
+Ahora se podrán jugar partidos amistosos.   Muchas funciones estarán deshabilitadas:
+guardar, nuevo, saque inicial, máximos goleadores, etc. ya no están disponibles.  el cursor
+también cambiará.  Ahora estamos en MODO REVISIÓN.
+
+La idea de cargar una temporada antigua, ya sea de la ÚLTIMA TEMPORADA o
+de los cuadros de TEMPORADA DE CARGA es para ver rápidamente resultados pasados, tal vez para verificar
+cómo lo hiciste contra tus próximos oponentes.
+
+El camino obvio a seguir, en este modo, es hacer clic en TABLAS, luego hacer clic en
+en SELECCIONAR CUALQUIER SEMANA.  Los registros completos ahora estarán a tu alcance.
+
+Otra característica útil es cargar cualquier logotipo, hacer clic en él y seleccionar
+LISTA DE ACCESORIOS.   Se le presentará la historia completa de ese
+equipo en particular durante la temporada bajo revisión.
+
+Una vez en el 'MODO DE REVISIÓN', el cuadro ÚLTIMA TEMPORADA ahora dirá REANUDAR.  tienes
+para hacer clic en REANUDAR si desea salir del MODO REVISIÓN y continuar con el
+modo predeterminado.
+
+El siguiente cuadro en este MENÚ DE ARCHIVO es GUARDAR.  Si desea guardar sus registros
+haga clic en este en cualquier momento durante el campeonato, excepto en el momento
+final del último día, cuando aparecerá como NUEVA TEMPORADA.
+Tendrás que hacer clic en NUEVA TEMPORADA para guardar TODO el campeonato para
+posteridad.  Siempre se guardará como FIXT_00.DAT.  Todos los partidos serán entonces
+reiniciarse y puede comenzar una nueva temporada con saldos bancarios, niveles de habilidad y
+los escuadrones quedaron sin cambios.
+
+SAVE guarda por completo todos los registros del equipo y del club, la lista de repeticiones y
+resultados hasta el momento.  Pero el puntero de la semana seguirá como está.
+
+Siempre que haga clic en GUARDAR, asegúrese de que su disco NO esté protegido
+
+La próxima entrada es NUEVA.  Esta es una característica sin concesiones.  todo se pone
+restablecer al estándar original.  De hecho, estás sobrescribiendo tus registros.
+con los archivos predeterminados siempre guardados en el disco.   No hace falta decir que está lleno
+Se le pedirá confirmación y deberá responder con el
+solo teclado.
+
+EDITOR, la siguiente entrada, te da acceso a los 920 jugadores.  los nombres
+Se puede cambiar, pero las habilidades y valoraciones requieren una contraseña.
+
+LA TEMPORADA DE CARGA es similar a la TEMPORADA ÚLTIMA excepto que aquí puedes elegir cuál
+temporada particular que deseas cargar: 0 es la que acaba de desaparecer.  usted puede
+recuperar hasta 21 temporadas.  Una vez que esta característica esté activa, estarás en REVISIÓN
+MODE nuevamente, como lo confirma el cursor rectangular.  Ahora aparecerá una nueva caja.
+aparece justo debajo: GUARDAR COMO.
+La temporada que acaba de cargar se puede volver a guardar con cualquier nombre del 1 al
+20. Asegúrate de no sobrescribir una temporada que te haya gustado especialmente.
+orgulloso de.
+
+PROMOCIONES solo está activa durante la primera parte de la temporada.  lo hará
+reorganice las dos divisiones según las entradas que se muestran en HONORES.  como todos
+Los archivos maestros se cambiarán y se utilizarán con cuidado.
+
+El menú de acción.
+----------------
+
+VER CLUBES.
+Esto mostrará todos los clubes de tu división junto con sus entrenadores.
+humanos o no.
+
+MANAGERS es una lista de 46 nombres de usuario ya preparados.  Estos son totalmente editables.
+y tener calificaciones individuales según sus logros.  Dinero ganado
+por estos gerentes también se muestra así como sus registros.
+
+SELECT CLUB es una de las opciones más utilizadas en este juego.  Tienes que
+seleccionar un club para examinar su plantilla y realizar la selección y
+Decisiones estratégicas que harán ganar o perder un partido.
+
+REPETIR es una de las muchas opciones ÚNICAS de esta simulación.  da acceso
+a los partidos disputados el pasado sábado en ambas divisiones.  Ideal para analizar
+tu último juego y ver qué salió bien (o mal) y también ver cómo
+otros equipos actuaron.
+
+CLÁSICOS es otra función de repetición, excepto que aquí solo se seleccionan los dorados.
+Se muestran coincidencias.  Para almacenar un partido famoso en la sección clásica
+necesitas llamar a la rutina de archivo más abajo.
+
+¡KICK OFF pone la pelota en marcha!  Todos los partidos se jugarán por turnos.  esos
+Los resultados que no involucren usuarios-administradores se mostrarán durante dos segundos.
+Los demás se jugarán íntegramente.   Primero se mostrarán los logotipos relevantes.
+recuperado de la memoria, entonces el partido comenzará a una velocidad definida por el
+menú de opciones.   Tendrás acceso a los dos logos donde se realizan sustituciones,
+Se podrá marcar y cambiar de táctica.  Si quieres cambiar el
+velocidad del reloj, presione ENTER, - o + en el teclado.  Se jugarán todos los partidos.
+de una forma totalmente realista, se muestren o no.  Computadora
+Los oponentes organizarán sus escuadrones, cambiarán de táctica o harán sustituciones.
+según el desarrollo de la obra.
+
+El KICK OFF también se puede activar haciendo clic en el círculo central.  Igualmente,
+Una vez que se hayan informado todos los eventos de la semana, se producirá el INICIO
+automáticamente.
+
+Los amistosos se juegan colocando dos logos en las ventanas y presionando F.
+Si alguno de los dos logos que se muestran es un usuario-administrador, el partido será
+informado en su totalidad; de lo contrario, solo se mostrará el resultado.  Aun así, el partido
+habrá sido grabado.  Para reproducirlo, presione R en el teclado.
+
+ARCHIVO muestra el estado de los tres bancos de grabación.  Si haces clic en cualquiera
+de los 36 partidos, el ratón saltará a la sección permanente donde hasta
+Se pueden almacenar cinco coincidencias para siempre.
+
+VIEW REFS enumerará a los 88 árbitros de la liga junto con sus
+récord de dureza.  Nueve es mortal.  Uno es un blando.
+
+El Menú MESAS.
+----------------
+
+MESAS
+En el modo ESTÁNDAR, se puede hacer clic en este cuadro para revelar una tabla de división completa.
+excepto cuando la temporada aún no ha comenzado.
+
+En modo REVISAR, cuando el cursor es rectangular, esta opción está inactiva,
+pero las tablas de clasificación se llaman desde la opción SELECCIONAR SEMANA más abajo.
+
+ACCESORIOS
+Los partidos de la próxima semana están almacenados aquí.
+
+RESULTADOS
+Los resultados de la semana pasada se muestran aquí.
+
+TRASLADOS
+Esta es una lista completa de todos los jugadores en la lista de transferencias.  aunque
+Se muestran las calificaciones de los jugadores, la lista no revela si son
+lesionados, suspendidos o con la moral baja.  Comprar un jugador con calificación de
+100 puede resultar en que su nueva calificación salte a 107 simplemente porque su antiguo
+la moral estaba baja.   Para evitar comprar un jugador con una suspensión larga o alguna
+lesión grave, se recomienda comprobar primero el logotipo de su club.  esto
+La lista de transferencias cambia constantemente.  Los jugadores de computadora pueden poner a un jugador en el
+lista de transferencia y eliminarlo unas semanas después.
+
+Los niveles de escuadrón no pueden bajar de 17. Verás que si un escuadrón
+está demasiado agotado, un club entrará automáticamente en el mercado de fichajes.
+
+MÁXIMOS GOLEADORES
+Aquí es donde deberían aparecer tus jugadores si lo estás haciendo bien en el
+liga.
+
+SELECCIONE CUALQUIER SEMANA.
+Una opción muy útil.  Puede verlo cualquier semana de la temporada.  si tu eliges
+una semana ya jugada, verás los resultados y la tabla completa para esa
+semana determinada.   Si eliges una semana que aún no se ha jugado, solo se mostrarán los partidos.
+aparecerá.  Esta característica está activa tanto en el modo ESTÁNDAR como en el modo REVISIÓN.
+
+HONORS muestra los principales ganadores de la última temporada completa.  Se muestra
+de un vistazo quién ascenderá y descenderá si decide llamar
+la rutina de promoción.
+
+LAS COPAS Aquí se muestran todas las inscripciones a copas locales y europeas.   CE
+Miniligas ya operativas.  Los sorteos de copa varían de una temporada a otra.
+
+EURO POOL Los jugadores pueden comprarse en este grupo.  Igualmente podrá disponer de
+tus jugadores no deseados dándoles una transferencia gratuita.
+
+El menú OPCIONES.
+-----------------
+
+La mayoría de los cuadros bajo este menú son del tipo alternable: es decir, simplemente cambian
+ciertas condiciones activadas o desactivadas.
+
+La configuración predeterminada se guardará en el disco automáticamente.
+
+La opción NOTICIAS le permite determinar la cantidad de actividad a mitad de semana.
+Se llevarán a cabo entre ocho y veinticuatro eventos, incluidos posibles traspasos.
+lugar dependiendo del entorno.
+
+VELOCIDAD
+La velocidad de la acción del partido es lenta, en cuyo caso cada competencia de pelota
+tarda unos dos segundos, o normal, que dura medio segundo, o rápido
+que dura 1/50 de segundo.   La duración efectiva de la acción.
+Depende no sólo de esta configuración sino también de cuántas ilustraciones aparecen.
+durante el partido.   Banderas de fuera de juego, penalizaciones, etc. tardan un poco en ser
+se muestra y ralentiza un poco las cosas.  Encontrarás que intervenir con
+Usar el mouse durante un partido configurado en rápido no es tan fácil.  Presione - en el
+teclado (repetidamente si es necesario) para ralentizar las cosas, luego haga clic en el
+logotipos.
+
+HIGHLIGHTS es otra variable que afecta la forma en que se informará un partido reportado.
+mira.   El modo predeterminado es DESTACADOS, que informará de todos los eventos importantes:
+goles, tiros, faltas, córners, penaltis, lesiones y cambios de táctica.
+Cuando se establece en COMENTARIO COMPLETO, los nombres de los jugadores se informarán todo el tiempo.
+tiempo.   Los jugadores locales estarán a la izquierda y los visitantes a la derecha.  el
+El jugador que realmente controla el balón se muestra en azul.  El otro escenario
+es SOLO GOLES que solo informará los goles marcados, quién los marcó y
+cuando.
+
+Las TRANSFERENCIAS entre equipos informáticos podrán ser automáticas o no.  tu
+Debemos recordar que si se permiten las transferencias automáticas, una gran cantidad de
+El movimiento del jugador se llevará a cabo, especialmente si has elegido el modo completo.
+Opción de NOTICIAS semanales.  Para reducir la migración excesiva de jugadores, puedes:
+seleccione eventos de la semana BREVE o desactive las TRANSFERENCIAS periódicamente.  Equipos gestionados
+por parte de los jugadores usuarios no se embarcarán en transferencias automáticas a menos que usted permita
+su escuadrón se agote indebidamente.
+
+El menú del logotipo.
+----------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!) Durante
+Durante la semana, se puede contactar a todos los jugadores y reorganizarlos (a menos que estén lesionados o
+suspendido).   Durante un partido, sólo se podrán reorganizar los once primeros, y
+Se pueden incorporar hasta dos sustitutos.  Haz clic en el nombre del jugador para
+activar un intercambio con otro jugador.  Algunos jugadores tienen roles variables y
+Puede cambiarse del mediocampo al ataque o del mediocampo a la defensa.  O ellos
+se puede jugar como extremos o barrenderos... Haga clic en estas columnas para cambiar
+los roles de los jugadores.   Si comienzas un partido con dos porteros, o ninguno, el
+El programa rectificará esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.  Puedes tener hasta 20 jugadores en tu plantilla.
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.  allí
+No hay garantía de que el jugador se una a ti.  Quizás tengas que acercarte
+él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema de barredora y ritmo de pausa.  Pasando por bolas para
+La instancia solo tiene valor si tienes uno o dos atacantes reales al frente.
+(ATT) con una velocidad superior a la media.  Por otra parte, pueden ser atrapados
+fuera de juego un par de veces...
+
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.  Nuevamente, consulte su manual.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.  El acceso a la plantilla de los oponentes será
+permitido en cualquier momento, pero, en el modo partido no podrás interferir
+con eso.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.  Marcar a un oponente reducirá severamente su
+rendimiento, pero será a expensas de su calificación general.
+
+El menú del logotipo.
+----------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!) Durante
+Durante la semana, se puede contactar a todos los jugadores y reorganizarlos (a menos que estén lesionados o
+suspendido).   Durante un partido, sólo se podrán reorganizar los once primeros, y
+Se pueden incorporar hasta dos sustitutos.  Haz clic en el nombre del jugador para
+activar un intercambio con otro jugador.  Algunos jugadores tienen roles variables y
+Puede cambiarse del mediocampo al ataque o del mediocampo a la defensa.  O ellos
+se puede jugar como extremos o barrenderos... Haga clic en el ROL CORRECTO para
+activar los cambios.   El rol izquierdo es la posición predeterminada y no
+accesible.   Si empiezas un partido con dos porteros, o ninguno, el programa
+rectificará esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.  Puedes tener hasta 20 jugadores en tu plantilla.
+
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.  allí
+No hay garantía de que el jugador se una a ti.  Quizás tengas que acercarte
+él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema barredor y ritmo de rotura.  Pasando por bolas para
+La instancia solo tiene valor si tienes uno o dos atacantes reales al frente.
+(ATT) con una velocidad superior a la media.  Por otra parte, pueden ser atrapados
+fuera de juego un par de veces...
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.  El acceso a la plantilla de los oponentes será
+permitido en cualquier momento, pero, en el modo partido no podrás interferir
+con eso.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.  Marcar a un oponente reducirá severamente su
+rendimiento, pero será a expensas de su calificación general.
+
+El menú del logotipo.
+----------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!) Durante
+Durante la semana, se puede contactar a todos los jugadores y reorganizarlos (a menos que estén lesionados o
+suspendido).   Durante un partido, sólo se podrán reorganizar los once primeros, y
+Se pueden incorporar hasta dos sustitutos.  Haz clic en el nombre del jugador para
+activar un intercambio con otro jugador.  Algunos jugadores tienen roles variables y
+Puede cambiarse del mediocampo al ataque o del mediocampo a la defensa.  O ellos
+se puede jugar como extremos o barrenderos... Haga clic en el ROL CORRECTO para
+activar los cambios.   El rol izquierdo es la posición predeterminada y no
+accesible.   Si empiezas un partido con dos porteros, o ninguno, el programa
+rectificará esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.  Puedes tener hasta 20 jugadores en tu plantilla.
+
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.  allí
+No hay garantía de que el jugador se una a ti.  Quizás tengas que acercarte
+él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema barredor y ritmo de rotura.  Pasando por bolas para
+La instancia solo tiene valor si tienes uno o dos atacantes reales al frente.
+(ATT) con una velocidad superior a la media.  Por otra parte, pueden ser atrapados
+fuera de juego un par de veces...
+
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.  El acceso a la plantilla de los oponentes será
+permitido en cualquier momento, pero, en el modo partido no podrás interferir
+con eso.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.  Marcar a un oponente reducirá severamente su
+rendimiento, pero será a expensas de su calificación general.
+
+Estos informes de los cazatalentos están aquí por cortesía de PREMIER SUPREMOS de Play by Mail.
+grupo con sede en Colchester.  Gracias a Adam Marshall, Gary McDowell & Co por
+permiso para reimprimir.
+
+
+D.Bergkamp 23 A 10 8 7 8 7 7 9 20 9 3 8 8 2 8 8 10
+
+Deslumbrante delantero holandés fichado por el Inter en 1993. Ha sido un habitual goleador en
+Holanda para el Ajax y ha seguido marcando para la selección
+incluidos tres goles en el Campeonato de Europa de 1992.  Valorado por su
+club por 20 millones de libras esterlinas.
+
+R.Keane 21 MD 116 6 7 7 8 6 7 6 20 6 7 7 7 5 7 5 10
+
+Dinamo del mediocampo con TURBO al que han apuntado todos los grandes nombres
+de Inglaterra y Europa.   Es útil tanto en defensa como en su habitual
+posición de mediocampo para Forest.  Parece que será una República de Irlanda
+estrella internacional durante varios años.
+
+R.Prosinecki 24 M 8 6 10 6 10 7 10 20 10 4 7 6 2 3 3 1
+
+Centrocampista FUERA de forma con el Real Madrid tras conseguir una gran transferencia
+Estrella Roja de Belgrado, ganador de la Copa de Europa.  Los problemas en su tierra natal podrían
+Esto ha afectado su moral ya que ha luchado por encajar en el fútbol español.
+Experto en tiros libres con un excelente toque y un impecable control del balón.
+Infeliz pero poco probable que quiera mudarse a Inglaterra.
+
+M.Dahlin 22 MA 8 6 7 7 5 7 5 20 5 2 9 8 2 4 5 7
+
+Delantero RÁPIDO que juega al fútbol en el Borrusia Dortmund de Alemania
+tras mudarse desde su Suecia natal al Malmo.  Tuvo un gran impacto en
+su debut internacional sueco con un doblete contra Austria y
+Lo ha hecho bien en la selección nacional.  Apareció en el impresionante sueco.
+equipo en el Campeonato de Europa de 1992.
+
+A.Goram 28 G 0 0 0 8 7 8 8 20 8 7 7 7 0 6 8 8
+
+El número uno de Escocia que ha sido protagonista del Rangers en la selección escocesa.
+Primer ministro.   Comenzó su carrera en Oldham pero realmente se hizo un nombre en
+Hibernian, donde incluso logró marcar un gol con un saque largo de su
+boca de portería.   Se unió a los Gers por £ 1 millón y vale mucho más para ellos.
+ahora.
+
+A.Pelé 25 MA 7 5 9 7 8 7 7 20 9 4 8 8 5 6 7 7
+
+Internacional GHANA con verdadero estilo y excelente control del balón.  era
+parte del fabuloso trío de estrellas del Marsella que llegó a la Copa de Europa
+Final, junto con Waddle y Papin, y fue elegido mejor jugador del partido contra
+Spartak de Moscú y AC Milan en las eliminatorias.  Posee sedoso
+habilidades y es un gran favorito en Francia.
+
+D.Pancev 25 A 10 7 6 7 7 8 7 20 7 2 6 8 2 7 5 3
+
+DISPARO AGUDO El delantero del Inter de Milán que lucha por causar impacto en
+Italia.   Fue elegido Jugador Europeo del Año y también ganó la Bota de Oro
+en su época con el Estrella Roja de Belgrado.  Marca goles desde dentro del penalti
+en esta zona con frecuencia y también lo hizo a nivel internacional en el caso de Yugoslavia.
+A pesar de no jugar regularmente en el Inter, el club dice que no puede irse
+al menos hasta el final de la temporada, pero debería quedarse por un tiempo
+mínimo de dos años.
+
+E.Scifo 26 M 8 5 9 7 9 8 9 20 9 3 6 7 3 6 7 8
+
+TALENTOSO creador de juego internacional belga con gran visión y verdaderamente
+notable poder de tiro.   Tuvo una temporada de pesadilla con el Inter de Milán en
+Italia, pero recuperó la confianza durante una etapa en Francia con el Auxerre.
+Desde entonces se ha unido al Torino en la Serie A, donde ha seguido brillando con
+su destacada habilidad natural.  Ahora con Mónaco.
+
+G.Pagluica 27 G 0 0 0 8 7 9 7 20 7 6 6 8 0 5 4 7
+
+Portero internacional ITALIANO que es el actual número uno de la Sampdoria en
+la Serie A. Alcanzó la mayoría de edad durante la temporada 1990/91, cuando la Sampdoria se convirtió
+Champions, incluida una tremenda actuación en el crucial partido contra
+Inter cuando detuvo un penalti de Matthaus.  Se destaca por ser atrevido
+y salvadas acrobáticas, pero es inconsistente.
+
+D.Platt 26 MA 8 7 7 10 7 9 8 20 7 6 7 9 6 8 8 2
+
+INFELIZ en la Juventus, pero se dice que todavía tiene muchas ganas de jugar en Italia
+tras un año en el Bari donde fue una auténtica estrella en un equipo descendido.
+Le encanta avanzar desde el centro del campo y esto le ha hecho perder el favor de
+El jefe de la Juve, Trappattoni.  ¿Es el máximo goleador de Inglaterra desde la marcha de Gary Lineker?
+desde la escena, tras los goles en la final del Mundial de 1990 y en el de 1992.
+Finales del Campeonato de Europa.
+
+A. Shearer 22 A 122 10 8 8 8 8 7 10 20 7 3 8 7 3 4 7 10
+
+BRILLANTE delantero internacional de Inglaterra que ha avanzado a pasos agigantados
+desde sus primeros días en Southampton.  Después de anotar un hat-trick en su
+debut con los Saints, no estuvo a la altura de las expectativas hasta que fue
+realmente dado su cabeza en la máxima categoría.  Desde entonces, los goles han fluido
+y se ha ganado una importante mudanza al Blackburn.
+
+M.Hateley 31 A 7 10 6 7 6 9 7 20 6 3 6 8 4 8 8 10
+
+Delantero centro ARQUETÍPICO que es excelente en el juego aéreo pero ha aportado mucho
+más a su juego tras una etapa en el continente con el AC Milan y
+Mónaco.  Ahora muestra un toque elegante que nunca pareció tener en Coventry.
+y Portsmouth.  Su mundo cambió cuando cabeceó un gol contra Brasil por
+Inglaterra y ahora está llevando al Rangers a la gloria de la Copa de Europa.
+
+A. McCoist 30 A 10 7 6 8 6 8 8 20 6 3 7 8 3 9 8 10
+
+El poseedor de la bota de oro que amenaza con retener el premio en 1993.
+sido criticado por marcar goles en una liga escocesa pobre, pero el Rangers
+destruyó ese mito cuando llegaron a la Liga Europea superando a los ingleses
+Campeones Leeds, en la vida real.   Marca goles consistentemente y forma un
+asociación letal con Mark Hateley en Ibrox.
+
+D.Latorre 21 MA 8 6 8 6 8 7 8 20 10 3 7 7 2 6 7 8
+
+EN pleno proceso de fichaje por la Fiorentina tras decidir abandonar su natal
+Argentina.   Ha brillado en Boca Juniors pero ha descartado pasar a
+Gran Bretaña recientemente y está destinado a hacer carrera en Italia.  La Fiorentina es
+Probablemente lo cederá a otro club italiano.
+
+T.A.Dahlum 25 A 105 7 6 4 6 4 7 4 20 6 3 7 6 2 7 6 10
+
+Delantero internacional NORUEGO que ha demostrado cierto ritmo y remate
+habilidades tanto para la selección nacional como a nivel de clubes para el Rosenborg.
+Después de ayudarles a ganar la final de la Copa de Noruega, fue nombrado
+Disponible para prueba y varios clubes mostraron interés en hacerse con él.
+Una oferta de más de £500.000 podría cerrar un acuerdo permanente.
+
+I. Durrant 26 M 6 6 9 8 9 7 8 20 9 4 7 7 6 7 7 9
+
+ELEGANTE mediocampista de los Rangers que se ha recuperado bien de una situación que amenazó su carrera.
+lesión y jugó sólo 12 partidos en tres temporadas entre 1988 y 1991.
+Ahora de nuevo en el marco internacional de Escocia y protagonizando el Gers'
+mediocampo con su capacidad de pase y su excelente visión.  Valorado en más de £ 2
+millones por parte de su club que quiere retenerlo.
+
+T. Brolin 23 MA 8 6 8 10 8 8 8 20 8 3 8 8 3 9 7 8
+
+SÚPER sueco que realmente está haciendo negocios para el Parma italiano en
+Serie A. El atrevido delantero comenzó su carrera en el GIF Sundsvall antes
+pasó al IFK Gotemburgo, donde anotó un hat-trick en su debut.
+por cuatro goles en sus siguientes cinco partidos.  También encontró la red dos veces en su
+debutó con Suecia ante Gales y consiguió otro doblete ante Finlandia para
+mejorar aún más su creciente reputación.  Un gol bien hecho contra Brasil
+en el Mundial le ayudó a conseguir el fichaje por el Parma y el equipo italiano consiguió
+Europa por primera vez tras su temporada de debut.
+
+S.Effenberg 24 M 7 7 8 8 7 7 7 20 7 5 6 7 7 6 7 7
+
+Internacional ALEMÁN que ahora protagoniza la Fiorentina en la Liga italiana.
+Debutó internacionalmente como suplente contra Gales en 1991 en
+Cardiff después de anotar nueve goles esa temporada con el gigante alemán Bayern
+Múnich.   Es algo así como un experto en tiros libres pero no ha logrado impresionar al
+prensa italiana crítica y ya podría estar a punto de abandonar el club,
+se rumorea.
+
+B.Laudrup 23 MA 8 6 9 7 8 7 9 20 10 3 8 7 3 6 7 8
+
+Hermano MENOR del talentoso danés del Barcelona Michael Laudrup, Brian es
+demostrando ser tan bueno como su hermano.  Suele jugar solo
+detrás de los delanteros y logró marcar cinco goles en sus primeros 22
+Juegos para su país.  El Bayern de Múnich lo fichó únicamente procedente del Bayern Uerdingen
+para que la Fiorentina italiana se haga con él, permitiéndole así adornar el
+La mejor liga del mundo.  Tiene una habilidad y un equilibrio excepcionales y, después
+Al aceptar volver a jugar con su país, protagonizó Dinamarca en su
+Triunfo en la Eurocopa de 1992.
+
+G. Signori 24 A 10 6 7 10 7 7 8 20 8 3 10 8 3 8 8 10
+
+AHORA tiene al mundo del fútbol a sus pies tras derrocar a Marco van Basten
+la posición de máximo goleador de la Serie A. Ha marcado los goles de Paul
+La Lazio de Gascoigne con una regularidad aterradora y se lo ha ganado con razón
+una convocatoria para la selección italiana.  Posee un ritmo excepcional y
+resistencia y, junto con una infalible capacidad de remate, 'Beppe' está preparado para
+estrellato del fútbol.
+
+H. Stoichkov 27 A 10 9 8 6 8 8 9 20 8 3 8 7 2 1 7 8
+
+DESPUÉS de una maravillosa temporada con el CSKA Sofia en 1989/90 cuando compartió el
+Bota de Oro con Hugo Sánchez, el temperamental búlgaro se sumó
+El archirrival del Real Madrid de Sánchez, el Barcelona.  Después de un incidente tonto
+en el que supuestamente pisoteó el pie de un árbitro, Stoichkov se dispuso a
+anotar en cada ronda de la Recopa de Europa de 1991, incluido un
+doblete contra la Juventus en semifinales, pero se perdió la final contra
+Man.United por lesión.  Para hacer las cosas aún más notables, Stoichkov
+En 1985 fue prohibido durante todo un año en Bulgaria y aún así ocupaba el segundo lugar en
+el premio al Jugador Europeo del Año de 1992, lo que demuestra lo rápido que ha
+progresó.
+
+Romario 27 A 10 8 9 6 10 8 10 20 10 3 8 7 2 1 7 4
+
+REALMENTE brillante delantero del PSV Eindhoven que tiene muchos críticos que dicen que
+Es vago, sólo trabaja para sí mismo y es una mala influencia para sus compañeros.
+Sin embargo, su historial habla por sí solo: habitualmente es el máximo goleador de Holanda.
+y ello a pesar de no disputar todavía una temporada completa por culpa de las lesiones.  Su
+La media de alrededor de un gol por partido en el fútbol holandés no puede igualarse
+en la historia del país y posee excelentes habilidades y un derecho mortal
+pie.  Ahora se ha peleado con su club y el 'Maradona brasileño' ya está
+destinado a Italia.
+
+M.Lacatus 27 MA 8 5 7 6 8 8 7 20 8 2 8 6 2 1 3 6
+
+Internacional rumano conocido por tener una especie de estatus de playboy
+en su país de origen.  Su actitud parece haberle costado una gran carrera en
+el partido, ya que no logró triunfar en Italia con la Fiorentina, anotando
+Sólo tres goles en 15 partidos como titular en la temporada 1990/91.  Su récord a nivel internacional
+El nivel fue de ocho goles en sus primeras 48 apariciones.  Ahora en el Real Oviedo en
+España, Lacatus intenta reconstruir su reputación y ganarse otro crack
+en la liga italiana.
+
+T. Berthold 29 MD 113 4 7 7 6 6 7 7 20 7 9 6 7 9 3 7 6
+
+Internacional ALEMÁN famoso por ser el hombre que convirtió a Paul Gascoigne en un
+Millonario y nombre muy conocido en Gran Bretaña.  Fue su reacción exagerada
+La entrada de Gazza en Italia 90 que provocó la amonestación al astro de Geordie
+y llorando ante las cámaras de televisión.  Se ha peleado con el Bayern
+Munich y está desesperado por un movimiento con el Bayern tan ansioso por deshacerse de él
+que han acordado dejarlo ir en una transferencia gratuita.  Su salario y
+Sin embargo, las condiciones personales están por las nubes y preferiría quedarse en
+Alemania si es posible.
+
+G.Stevens 29 D 4 6 7 7 6 9 7 20 7 8 7 7 7 7 7 9
+
+EX lateral derecho de Inglaterra que ha caído en desgracia con Graham Taylor
+después de luchar por reproducir el nivel de su club a nivel internacional.
+Cómodo en posesión y sólido tackleador, Stevens ha sufrido
+algunas críticas injustas tras un par de malas actuaciones de su país.
+Fue un miembro clave del exitoso equipo del Everton en la década de 1980, pero se mudó al norte.
+de la frontera donde ha ayudado a los Rangers a arrasar en Escocia y
+progreso en Europa.
+
+E.Cantona 26 A 116 7 8 7 8 9 8 9 20 9 4 6 10 3 5 5 8
+
+BRILLANTE delantero internacional francés fichado procedente del Nimes en un partido magistral
+derrame cerebral del técnico del Leeds, Howard Wilkinson.  Su innovador y expresivo
+El juego delantero impulsó el desafío del título de Leeds y se convirtió en un éxito instantáneo.
+con los fieles de Elland Road.   Tiene un gran signo de interrogación sobre su
+actitud que le valió el apodo de "Enfant Terrible" en Francia.
+Anteriormente jugó en el Marsella y es prolífico con la selección francesa.
+
+B.Boli 26 D 4 9 6 7 4 8 8 20 5 9 7 8 9 5 7 6
+
+Defensa central de cabeza CALIENTE que actualmente protagoniza el Marsella en el
+Liga francesa.   Boli, internacional francés de pleno derecho, es conocido en todo el mundo.
+Gran Bretaña por su infame cabezazo a Stuart Pearce en el Europeo de 1992.
+Campeonatos.   Brillante en el juego aéreo y tenaz en la entrada, Boli ha
+expresó su deseo de mudarse a Inglaterra, preferiblemente con el Manchester United, pero
+No sería un jugador popular aquí.
+
+J.Collins 25 M 6 4 8 7 8 7 7 20 8 4 6 7 4 7 6 6
+
+El mediapunta del CELTIC, que junto a Paul McStay, forma un mediocampo formidable
+cartel de The Bhoys.   Un pasador de calidad que es muy bueno cuando está en
+posesión del balón, Collins se hizo un nombre en el Hibernian, donde fue
+Considerada como una de las propiedades más populares del juego escocés.  a pesar de
+Interés de Liverpool, Spurs, Man.United y una gran cantidad de clubes extranjeros.
+optó por unirse al Celtic por £ 1 millón.  Después de marcar en su partido internacional
+En su debut contra Arabia Saudita, ha encontrado pocas y espaciadas ocasiones para
+la selección nacional, pero sigue teniendo un buen desempeño en la Primera División.
+
+R.Koeman 28 DM 7 6 7 8 7 10 9 20 7 10 6 8 9 6 9 8
+
+Capitán del BARCELONA que ganó con el equipo español la Copa de Europa por primera vez.
+vez en 1992 con un típico tiro libre atronador que derrotó
+Sampdoria.   Saltó a la fama cuando protagonizó Holanda en 1988.
+Equipo ganador de la Eurocopa como líbero aunque también puede aparecer
+en el mediocampo.   Experto a balón parado y con un disparo feroz, el Koeman
+El pie izquierdo es temido por los porteros de todo el mundo.  inspirador
+Jugador que todavía no ha pasado de su mejor momento.
+
+P. Gascoigne 25 M 7 5 10 7 10 9 10 20 10 5 6 7 6 8 8 9
+
+PROBABLEMENTE el mejor jugador británico del juego y definitivamente el más
+hablado.   Los puntos fuertes de Gascoigne son su magnífica habilidad con el balón, suprema
+confianza y una perspectiva animada del juego.  Su habilidad para pasar también es
+Magnífico y entraría en cualquier equipo del mundo.  Se mudó de Newcastle
+al Tottenham por una tarifa récord británica antes de ir finalmente a la Lazio,
+después de recuperarse de una grave lesión de rodilla sufrida en la final de la Copa FA de 1991
+contra Notts Forest.
+
+M. Van Basten 29 A 10 10 9 8 8 10 10 20 9 2 8 2 2 5 8 3
+
+ACTUALMENTE recuperándose de una lesión, Van Basten es el mejor delantero del mundo
+y el actual Futbolista Europeo del Año.  Ganó el premio por la
+tercera vez después de una serie de brillantes exhibiciones de ataque para ambos AC
+Milán y Holanda.   Es rápido, fuerte y hábil y, aliado a un
+toque mortal delante de la portería, esto hace que el ex atacante del Ajax y
+El capitán holandés es un jugador brillante.
+
+M.Sammer M 7 7 8 7 7 7 7 20 7 6 6 7 3 6 7 10
+
+ESTE internacional alemán de pelo llameante acaba de regresar a su país natal.
+país para jugar al fútbol con el Borussia Dortmund después de una mala racha en
+Fútbol italiano.   Nunca fue realmente un favorito de los fanáticos del Inter de Milán.
+y terminó siendo el chivo expiatorio de algunas actuaciones promedio que eventualmente
+Motivó al Dortmund a traerlo a casa.  Un muy buen pasador de balón que
+Puede marcar uno o dos goles.  Fue uno de los pocos alemanes del Este que se
+incluido en la selección nacional después de la reunificación de Alemania y debería
+Participó con la selección nacional en el Mundial de 1994.
+
+A. Yeboah 28 A 7 7 6 7 6 7 6 20 7 4 8 6 2 7 7 10
+
+ANTHONY juega actualmente al fútbol en el Eintracht alemán.
+Frankfurt, donde siempre ha sido uno de los máximos goleadores de la
+club.   No es uno de los equipos más gloriosos de la liga alemana, aunque
+mejor en la copa, Frankfurt ha vendido algunas de sus principales estrellas a
+equipos extranjeros.   Yeboah no es una de las figuras más notables del
+lado, aunque sus actuaciones son bastante consistentes y figura bastante
+lugar destacado en el equipo.
+
+D.Pancev 25 A 10 7 6 7 7 8 7 20 7 2 6 8 2 7 5 3
+
+DISPARO AGUDO El delantero del Inter de Milán que lucha por causar impacto en
+Italia.   Fue elegido Jugador Europeo del Año y también ganó la Bota de Oro
+en su época con el Estrella Roja de Belgrado.  Marca goles desde dentro del penalti
+en esta zona con frecuencia y también lo hizo a nivel internacional en el caso de Yugoslavia.
+A pesar de no jugar regularmente en el Inter, el club dice que no puede irse
+al menos hasta el final de la temporada, pero debería quedarse por un tiempo
+mínimo de dos años.
+
+R. Giggs 19 MA 115 7 6 8 7 7 3 6 20 9 6 9 8 6 6 4 9
+
+EMOCIONANTE joven talento, casi con certeza el mejor adolescente del país.
+El Manchester United querrá conservar su turno estelar y es
+Es difícil poner precio a un joven con tanto talento.  Tiene ritmo, conciencia.
+y un brillante control del balón y es el internacional galés más joven de todos
+tiempo.   Ha dado muchos signos de madurez este plazo que ha atraído la
+intereses de un tal AC Milan.
+
+D.Maradona 30 M 8 6 10 7 10 10 10 20 10 4 7 7 3 4 7 8
+
+DESPUÉS de una carrera llena de acción que lo vio levantar la Copa del Mundo con
+Argentina en 1986, la vida futbolística de Diego se vino abajo a su alrededor cuando
+fue denunciado por consumir cocaína y aparentemente recibió amenazas de muerte mientras
+en el Napoli italiano.  Esta culminación de efectos hizo que Maradona fuera sancionado
+del fútbol y diciendo que nunca volvería a Nápoles, aunque
+todavía estaba bajo contrato.  Después de muchas discusiones, Sevilla finalmente fue
+permitido llevarlo a España comprando su contrato con el Napoli y Diego tiene
+Recientemente he estado colocando algunas exhibiciones antiguas que también lo han visto
+Regreso a la selección argentina.  Ahora de nuevo en movimiento.
+
+A.Serena 30 A 7 10 6 7 6 8 6 20 6 3 7 8 3 7 6 7
+
+ALDO es un tirador prolífico que tiene fama de ser el mejor cabeceador del mundo.
+Juego italiano.   Anteriormente con el Inter de Milán se ha pasado a su Milán
+rival AC, después de algunos momentos difíciles en la Serie A. Jugó en el Mundial '90
+pero nunca tuve la oportunidad de probar nada ya que Schillaci robó el
+centro de atención.   Marcó 5 goles en sus primeros 24 partidos internacionales con su país, pero ha
+salió de la escena internacional.
+
+M.Emmers 28 MD 6 7 6 8 6 8 7 20 7 7 6 7 7 8 7 8
+
+MARC es un internacional belga que ha jugado como defensor y
+Mediocampista de su país.  Más corredor que pasador culto pero un
+activo muy útil para los aspirantes al título Anderlecht mientras buscan otro
+título.   Ex jugador del Mechelen, rival del Anderlecht, ha aportado algunos
+Actuaciones rotundas tanto para el club como para el país.
+
+W. Zenga 30 G 0 0 0 8 8 9 8 20 7 6 7 7 0 3 6 1
+
+Individuo ALTAMENTE internacionalizado que solía ser la primera opción tanto para el club como para
+país, pero desde entonces ha perdido el favor de ambos y ha encontrado su
+carrera hecha jirones en este momento.  Walter siempre ha tenido un problema de actitud.
+toda su carrera, siendo siempre el jefe, pero cayó en desgracia en
+frente internacional al Pagliuca de la Sampdoria, y tras una serie de
+terribles errores en la portería del Inter lo han eliminado del primer partido
+equipo, siendo sustituido en el descanso de un partido.  Cuando está concentrado,
+Probablemente entre los tres mejores porteros del mundo.
+
+F.Rijkaard 28 MD 6 9 7 8 6 9 6 20 7 8 6 7 8 4 8 10
+
+El chico MALO del fútbol holandés que actualmente juega en su club.
+Los gigantes italianos AC Milan.  Frank es más recordado por la mayoría de la gente por su
+incidente de escupitajo durante la Copa del Mundo de 1990 en el que él y Voller
+despedido.   Un jugador de todo corazón utilizado en el centro del campo por
+Milán donde está jugando de manera brillante.  Es un defensor internacional que
+ha llevado sus atributos al mediocampo y ha añadido algunos más a su juego.
+Comandante en el aire y gran tackleador, ahora posee ojo para el
+Gol espectacular y puede correr todo el partido.   Tiene un problema de actitud y
+Generalmente hace saber a los jugadores de su presencia.  De vuelta con el Ajax en el 93.
+
+J.P.Papin 30 A 10 8 7 8 7 10 10 20 10 3 8 8 3 8 8 10
+
+ACTUALMENTE disfrutando de una gran racha de partidos en el fútbol italiano con los gigantes AC
+Milán tras su traspaso de £ 10 millones procedente del campeón francés Marsella el pasado año
+término.   Papin no se adaptó muy bien a la vida en la Serie A y no compaginaba
+con el mejor efecto con Van Basten, pero dado que los delanteros holandeses a largo plazo
+Lesión Papin ha marcado 19 goles en 25 partidos.  Actualmente es el más sexy.
+atacante del mundo, como se demostró con una reciente y exquisita media volea de
+justo fuera del área hacia la esquina superior de la red contra la Lazio.
+
+E.Jess 22 A 7 6 7 7 7 5 7 20 8 3 8 0 3 7 7 0
+
+Joven delantero altamente valorado que llegó al Aberdeen procedente del Rangers S Form, un juvenil
+subproducto de los gigantes de Glasgow, ya que optó por moverse más al norte en lugar de
+que quedarse con el mejor equipo de Escocia.   En lugar de eso, está jugando por un
+lado joven y emocionante de Dons e incluso ha logrado abrirse camino en el
+Plantilla completa de Escocia tras disputar la Sub-21.  Recientemente rompió su
+pierna que puede obstaculizar seriamente su carrera, pero todo depende de su
+Determinación y confianza, especialmente al regresar a la dura Premier.
+Liga.
+
+D. Ginola 25 M 7 6 8 8 7 7 6 20 7 5 6 7 3 7 7 8
+
+DAVID ahora juega su liga de fútbol con el Paris St. Germain después
+anteriormente formando parte del equipo de Brest Armorique.  Un centrocampista de bien
+Calidad que sabe pasar el balón y tiene buen ojo para el gol.
+con una impresionante cifra de goles respecto a temporadas anteriores.  Un jugador de calidad
+estaba destinado a hacerse notar en el pequeño Brest y por eso se ha unido a uno de los
+clubes más grandes, pero no los más exitosos, de la liga francesa.
+
+D.Amokachi 23 A 8 7 6 9 6 7 6 20 6 2 8 9 1 7 6 10
+
+Daniel, un joven de un gran club, se ha ido familiarizando poco a poco con el
+estilo de fútbol belga durante los últimos tres años debutando con
+los gigantes durante la temporada 1990/91.  Mantenido bajo estrecha vigilancia hasta que esto
+término Amokachi tiene potencia bruta, ritmo y estilo de remate que lo han convertido en uno
+uno de los máximos goleadores de Bélgica y un hombre temido en la Copa de Europa como
+ayudó a llevar a Brujas a las etapas finales del torneo.  A menudo un
+poco descarriado en su remate, Daniel crea suficientes oportunidades para
+él mismo para al menos anotar uno en casi cada partido.
+G.Lineker 32 A 10 7 7 7 8 10 10 20 8 1 8 7 2 10 9 8
+
+AHORA un jugador del equipo japonés Grampus Eight después de un movimiento de dinero
+para preparar a Gary de por vida ahora que su internacional y nacional británico
+Se acabaron los días del fútbol.  Contratado por dos años por un precio estimado de £ 1 millón al año.
+año, Gary ha encontrado la vida japonesa algo extraña y tal vez sea
+Extraña un poco su hogar, pero como un verdadero profesional completará su
+contrato y devolver a un hombre fijado para la vida.   Un delantero verdaderamente prolífico,
+probablemente el mejor fútbol británico jamás visto y fue una pena que
+podría batir el récord goleador de Inglaterra.
+
+(c) 1994 Leyenda negra y pájaros parlantes

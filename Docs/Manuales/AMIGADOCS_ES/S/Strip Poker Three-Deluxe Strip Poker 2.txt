@@ -1,0 +1,327 @@
+FILA DE DESLIZAMIENTO
+
+                                 presenta           
+
+                             strip poker tres
+
+                               para los amigos
+
+Strip Poker Three se proporciona en dos disquetes formateados en AmigaDOS.  disco
+1 contiene el programa, un oponente y usted mismo, las bibliotecas y
+los scripts de instalación.  El disco 2 contiene dos oponentes adicionales.
+
+REQUISITOS: Strip Poker Three requiere AmigaDOS 1.2, 1.3 o 2.0, y
+al menos un megabyte de memoria.  Dos unidades de disquete o un disco duro, y
+un potenciador de visualización es opcional, pero se recomienda.  Le sugerimos que usted
+haga copias de seguridad de sus discos originales.  No hay protección de copia
+en el programa - si le gusta el programa, por favor corra la voz, no
+los discos, confiamos en ti.
+
+INSTALACIÓN DEL DISCO DURO: Strip Poker Three se puede instalar en el disco duro y
+La forma más sencilla de instalar el programa y sus archivos de soporte es utilizar
+el programa Workbench y HD_Install que se encuentra en el disco 1. Pero si no
+Si se siente cómodo con CLI o Shell, también puede hacerlo de esa manera.
+No es nada complicado.
+
+Desde el Workbench: primero debes crear un cajón y llamarlo
+algo, como el póquer.  Con Workbench 1.2 o 1.3, haga clic en el
+Icono del cajón "Vaciar" y seleccione "Duplicar" en el menú "Banco de trabajo".
+A continuación, seleccione la "copia de Vacío" y seleccione "Cambiar nombre" en el 
+Menú "Workbench", luego cámbiele el nombre.  Si está utilizando Workbench 2.0, haga clic en
+en la ventana en la que desea almacenar el programa y seleccione 
+"Nuevo cajón" en el menú "Ventana".  Se le pedirá que
+dale un nombre a tu nuevo cajón, escribe el nombre que deseas poner 
+Strip Poker Tres en.  Ahora puedes simplemente mantener presionada la tecla Mayús.
+Presione la tecla mientras hace clic una vez en el ícono HD_Install en el Strip3. 
+disco, y luego haga clic dos veces en el icono del cajón que tiene 
+recién creado.  Si simplemente hace clic dos veces en el icono HD_Install, el
+Se mostrará el uso del programa HD_Install.
+
+Desde CLI o Shell: CD a la unidad en la que desea instalar
+programa, luego ejecute HD_Install <directorio-destino>.  tu
+El comando debería verse así:
+
+     Juegos en CD:
+     Ejecutar Strip3:HD_Install Poker
+
+     o
+
+     CD DH1:Juegos
+     Ejecutar Strip3:HD_Install Poker
+
+Donde "Poker" en el ejemplo anterior es el directorio que desea
+creado y tener los archivos almacenados.
+
+Para ambos: tomará un par de minutos copiar todos los archivos 
+necesario.  ¡Ten paciencia!  Una vez completada la instalación,
+Expulse los discos de las unidades y colóquelos en un lugar seguro.  después
+El programa se ha instalado en su disco duro, necesita agregar un
+asigne a su archivo de secuencia de inicio o de inicio de usuario.  el
+El script HD_Install le dirá cuál es el mejor para instalarlo. Si
+Si es usuario de Workbench, puede hacer doble clic en el icono "Strip3 Assign"
+que se encuentra en el cajón en el que instalaste el programa.
+Esto realizará la tarea por usted hasta que apague la alimentación.
+Esto debe hacerse antes de poder ejecutar el programa.  La asignación 
+parece similar a:
+
+      Asignar Strip3: Juegos:Poker
+
+               para el primer ejemplo anterior o
+ 
+      Asignar Strip3: DH1:Juegos/Póker
+
+El programa de instalación le indicará lo que necesita para realizar la
+asignación a.  Si te lo perdiste o no lo anotaste, puedes hacerlo
+"Más" en el archivo Strip3 Assign" en su directorio de instalación.
+
+ARCHIVOS IMPORTANTES: Si tiene la intención de ejecutar este programa desde la CLI 
+o Workbench, es posible que necesite copiar un par de archivos en el disco que
+arrancar desde.  Los siguientes comandos son necesarios y también son
+en un archivo de script, INSTALL_SYS, en el disco de arranque de Strip Poker Three en el
+s: directorio.
+
+        copiar strip3:libs sys:libs todo
+
+Puede CD a Strip3:s y escribir INSTALL_SYS.
+
+INICIO DEL PROGRAMA: Hay tres formas de iniciar Strip Poker Three
+y están en orden de complejidad creciente:
+
+1. En la pantalla "Insertar banco de trabajo", coloque Strip Poker Three Disk 1 en
+DF0: y Disco 2 en DF1:; o presione las teclas CTRL-AMIGA DERECHA-AMIGA IZQUIERDA para
+   reiniciar.  Strip Poker Three se cargará y ejecutará automáticamente.
+
+2. Desde Workbench, coloque cualquiera de los discos en DF0: y el otro en DF1:,
+   haga doble clic en el icono del disco "Strip3" y haga doble clic en el 
+   Icono "StripPokerThree".
+
+3. Desde la CLI, coloque el disco de arranque de Strip Poker Three en cualquier unidad,
+   CD a esa unidad y coloque el otro disco en la otra unidad.
+   Escriba "StripPokerTres"; NO se requieren cotizaciones, presione regresar.
+
+SELECCIONAR A TUS OPONENTES: Después de la pantalla de título, verás imágenes.
+de tus oponentes.  El programa buscará en todos sus dispositivos cualquier
+Tres discos de datos opcionales de Strip Poker y también los mostrará.
+
+Puedes seleccionar de uno a tres oponentes colocando el puntero del mouse
+sobre la imagen y presionando el botón izquierdo.  El de tu oponente será
+aparece en el cuadro en la esquina inferior derecha.  si cambias
+mente, coloque el puntero del mouse sobre el nombre del jugador en la parte inferior 
+esquina derecha y presione el botón izquierdo del mouse, todas las selecciones en el 
+El juego se puede hacer de esta manera.
+
+Una vez que hayas seleccionado todos los oponentes contra los que quieres jugar,
+presione el botón "Listo" en el medio de la pantalla para comenzar el
+juego.  Si ha comprado discos de datos adicionales, puede colocarlos
+en una de sus unidades de disquete y presione el botón "Buscar jugadores",
+esto volverá a escanear todos sus dispositivos y mostrará cualquier información adicional
+jugadores.
+
+Si ha comprado todos los discos de datos disponibles y tiene el programa
+instalado en su disco duro, tendrá dos botones adicionales para
+cambia entre las pantallas que muestran a los oponentes.
+
+LA PANTALLA DEL JUEGO: Esta pantalla está configurada en cuatro secciones, las dos superiores
+tercios de la pantalla son tus oponentes y posiblemente tú mismo,
+dependiendo de cuántos oponentes hayas elegido.  esto que esperar
+Según el número de jugadores:
+
+Un oponente: el panorama general es tu oponente y hay una vista de
+usted mismo en la esquina superior derecha.  No puedes cambiar la imagen.
+de ti y de tu oponente en este juego.  Más sobre el intercambio 
+oponentes está en el siguiente párrafo.
+
+Dos oponentes: tus oponentes están en el panorama general y en la parte superior.
+esquina derecha, contigo mismo en la foto en el centro, a la derecha
+esquina.  Puedes intercambiar las imágenes de tus oponentes.
+
+Tres oponentes: todos tus oponentes están en la parte superior de la pantalla,
+consigo mismo en el cuadro de estado en la parte inferior derecha de la pantalla.
+Todos los oponentes se pueden intercambiar entre sí.  Intercambiar se refiere a ser
+capaz de poner a un oponente que está en una pantalla más pequeña, en la pantalla más grande
+mostrar en el lado izquierdo de la pantalla.  Esto se hace simplemente haciendo clic
+en el oponente en el lado derecho que quieres en el gran
+imagen.  Recuerde que no puede ponerse en el panorama general.
+
+El cuadro de estado se encuentra en la esquina inferior derecha.  esto es
+donde podrás realizar un seguimiento de lo que han hecho los otros jugadores hasta el momento
+en el juego, y cuánto dinero tienes para poner en el bote si igualas
+o subir.  En el modo de tres jugadores, se muestra la imagen de "Tú".
+aquí.  También actúa como un botón en este modo para obtener el adicional
+información de estado del juego.  Puedes seleccionarlo con el
+mouse, use la combinación DERECHA-AMIGA-T o seleccione la opción "Alternar estado
+Menú "Cuadro" en el menú "Opciones".
+
+La línea de estado está ubicada encima de las tarjetas y mostrará mensajes.
+sobre lo que está haciendo un oponente y presentarle información adicional
+Botones para obtener tus respuestas a lo largo del juego.  Aquí es donde tu
+seleccionará si desea apostar o subir, bajar, quedarse o igualar,
+y el monto de su apuesta o aumento.
+
+Sus tarjetas se encuentran en la parte inferior izquierda de la pantalla.  Estás tratado
+cinco cartas.  Se le pedirá que seleccione sus descartes después del
+Primera ronda de apuestas.  Para seleccionar tus descartes, coloca el ratón
+puntero sobre la carta que desea descartar y presione el botón izquierdo del mouse
+, esto mostrará el reverso de la tarjeta.  Si cambias tu
+Recuerde, simplemente seleccione la tarjeta nuevamente para darle la vuelta.  cuando tu
+haya terminado de seleccionar las tarjetas, presione el botón "Descartar hecho"
+en la línea de estado.  Si tienes el sonido desactivado, aparecerá la palabra "Descartar hecho".
+en la Línea de Estado está la indicación de que debes descartar.
+
+                        EL STRIP POKER TRES MENÚS
+
+MENÚ DEL JUEGO:
+
+   GUARDAR JUEGO: La función guardar juego guardará el juego actual en
+progreso.  Puedes guardar una partida en cualquier momento durante el juego con la excepción
+mientras seleccionas a tus oponentes.  Solo puedes guardar
+un juego y se guardará en el directorio STRIP3:saved_games.
+
+   CARGAR JUEGO: Puedes cargar un juego guardado y continuar jugando.
+donde lo habías dejado.  Esta opción sólo está activa durante la selección.
+de los oponentes del juego.  Si guardaste el juego en el medio
+de una mano, el juego continuará como si esa mano no se hubiera jugado.
+
+   ESTABLECER CONTRASEÑA: Esta opción le permitirá agregar una contraseña personal
+protección de Strip Poker Three para evitar que personas no autorizadas jueguen
+el juego.  Puede seleccionar esta opción desde el teclado con el
+IZQUIERDA-AMIGA-P, o desde el menú.  Si no tienes una contraseña guardada
+Ya, se presentará un solicitante para ingresar su contraseña.  después
+escribe su contraseña, simplemente presione regresar o haga clic en "Aceptar"
+botón.  Su contraseña ya ha sido guardada.
+
+La próxima vez que ejecute el programa, se le pedirá que escriba el
+contraseña para poder ejecutar el juego.  Tendrás tres oportunidades
+para hacerlo bien.  Si no logra escribirlo después de tres intentos,
+el programa se cerrará.
+
+Si desea cambiar su contraseña, seleccione el menú "Establecer contraseña"
+opción y escriba su contraseña anterior cuando se le solicite, y otra
+El solicitante aparecerá solicitando su nueva contraseña.  Si quieres
+elimine la contraseña por completo, seleccione la opción de menú "Establecer contraseña" y
+escriba su contraseña anterior cuando se le solicite y aparecerá otro solicitante
+pidiendo su nueva contraseña, en lugar de escribir la nueva,
+presione regresar o "Aceptar".  Si olvida su contraseña,
+puede usar la CLI o con Workbench 2.0, eliminar el archivo s:spsetup.
+
+   ACERCA DE: Esto le brindará información sobre el Strip Poker Three
+Programa.  Si tiene que llamar a Artworx por un problema, necesita saberlo.
+la versión del programa que se puede encontrar aquí.
+
+   SALIR DEL JUEGO: Como dice... saldrá del juego.  Pero primero lo hará
+Pregúntale si realmente quieres dejar de fumar.
+
+MENÚ DE OPCIONES DE JUEGO:
+
+   SONIDO: Esto activará y desactivará los sonidos.  Puedes usar
+la combinación de teclado LEFT-AMIGA-S o el menú para alternar esta opción.
+No tener el sonido activado hará que el juego se ejecute más rápido.  esto sera
+guardado si guardas el juego.
+
+   ESTABLECER VELOCIDAD DEL JUEGO: Esto abrirá un solicitante de dispositivo deslizante para
+le permite configurar la velocidad del juego de LENTA a RÁPIDA.  esto se salvara
+si guardas el juego.
+
+   CAMBIAR CUADRO DE ESTADO: Esta opción sólo estará habilitada en los tres
+modo de reproductor, para permitirle cambiar entre su vista y la del
+estado del juego.  Hay tres formas de activar el cuadro de estado, con
+la selección del menú, haciendo clic en el cuadro de estado con el puntero del ratón,
+y la combinación de teclas IZQUIERDA-AMIGA-T.
+
+   VER ÚLTIMA MANO: Esto le permitirá revisar las manos de los jugadores que
+se quedó en la última mano.  Esto sólo se puede hacer cuando el botón "Haga clic para
+Continuar" se muestra en la línea de estado.  Lo prometemos, el juego.
+¡No hace trampa de ninguna manera!  Sin embargo, los oponentes pueden farolear.
+
+RAPIDO QUE VIENEN LOS NIÑOS!!!  ¿¿¿QUÉ DEBO HACER???  Esa es fácil...
+presiona la barra espaciadora.  Esto pondrá el juego en modo "Modestia" y
+dejará la pantalla en blanco.  Aparecerá un botón grande en el centro de la
+pantalla, simplemente haz clic en ella para continuar el juego.  ¡Uf!  Eso estuvo cerca.
+
+MULTITAREA: El programa está diseñado para realizar múltiples tareas.  para traer otro
+programa al frente, use las teclas RIGHT-AMIGA-M / RIGHT-AMIGA-N para
+cambie de pantalla como se menciona en el manual de Workbench.
+
+EL JUEGO: Tú y tus oponentes jugaréis al draw poker.  Hay
+sin comodines ni comodines.  Puedes abrir las apuestas con cualquier tipo de 
+mano.  El valor de las manos (en orden) es el siguiente:
+
+Escalera real, escalera de color, póquer, full, color,
+escalera, trío, dos pares, un par y carta alta.
+
+Tenga en cuenta que un as sólo se puede utilizar como carta alta para llenar una 
+recto.  Si todos los jugadores tienen manos similares, entonces el más alto 
+el valor numérico gana.
+
+Cada oponente emplea una estrategia de juego particular y un conjunto único de
+comentarios; Podrás aprender la "personalidad" de cada jugador cuanto más
+jugar.  Hay discos de datos adicionales disponibles para Strip Poker Three.  estos
+Los discos te proporcionan diferentes oponentes femeninos y masculinos para jugar. 
+en contra.  Tenga en cuenta que debido al modo de gráficos empleado en Strip Poker
+Tres discos anteriores de Strip Poker y Strip Poker II no estarán disponibles.
+compatible con este programa.  Debe obtener discos de datos que fueron
+creado específicamente para Strip Poker Three.
+
+JUEGO: Tú y tus oponentes comienzan con $100 cada uno.  tus oponentes
+las existencias actuales se muestran debajo de sus imágenes; tus posesiones
+se muestran en el cuadro de estado en la parte inferior derecha (y debajo de su imagen).
+si hay menos de tres oponentes).  Durante el juego estarás 
+seleccionando opciones de apuestas (Quedarse/Igualar, Apostar/Subir o Bajar), la cantidad
+de la apuesta/aumento ($1 a $25 dependiendo del número de oponentes) y
+qué cartas descartar.  Utilice el ratón para señalar una selección y presione
+y suelte el botón izquierdo del ratón para registrar la selección.
+
+ANTE: Al comienzo de cada mano, todos los jugadores deben ante ($1, $2,
+o $5, dependiendo del número de oponentes).  esto esta hecho 
+automáticamente para ti.
+
+APUESTAS: Cuando sea tu turno de apostar, selecciona entre las siguientes opciones:
+
+Quédate: si te quedas, significa que estás eligiendo no hacer nada por ahora.
+y estás esperando a ver qué van a hacer tus oponentes.  si todo
+Los jugadores permanecen durante la primera ronda, la mano se vuelve a repartir y otra
+se agrega ante al bote.  No puedes quedarte si un oponente ha apostado o 
+levantado.
+
+Drop: Esto significa que cedes la mano y el dinero del bote.
+
+Apuesta: Esto significa que quieres poner algo de dinero en el bote con la esperanza
+que tus oponentes harán lo mismo para que puedas ganarlo todo.
+
+Subir: Si tú y tus oponentes habéis apostado y creéis que tenéis
+la mejor mano (o si deseas asustar a un oponente para que caiga),
+puede aumentar la cantidad de dinero en el bote.  Seleccione la cantidad a apostar.
+Hay un máximo de dos apuestas o aumentos por jugador por ronda de apuestas.
+
+Ir: Sólo puedes igualar si un oponente ha apostado o subido.  Llamar significa 
+que estás dispuesto a igualar la cantidad que tienen tus oponentes 
+para poner en el bote, pero no quieres subir más por ahora.
+Durante las apuestas, el programa le informará del total de la apuesta. 
+mostrando esta cantidad junto a la información del bote.
+
+ROBAR TARJETAS: Si un jugador completa las apuestas igualando, puede
+luego roba nuevas cartas.  Puedes robar hasta cinco cartas.  Utilice el ratón para
+señalar una carta para descartar; haga clic en el botón izquierdo para registrar el
+selección (haga clic en el botón nuevamente si cambia de opinión).  cuando tu 
+haya terminado de descartar, apunte y haga clic en la palabra "Listo" en el estado
+Línea.  Se le informará sobre el número de tarjetas que su 
+los oponentes están tomando cuando les toca descartar.
+
+Después del sorteo se produce una nueva ronda de apuestas.  Luego se le muestra su
+mano de los oponentes, y se les informa quién ganó la mano y qué ganaron.
+ganó con.
+
+GANAR EL JUEGO: Cada vez que un jugador agota todos los recursos disponibles
+dinero, se deben pedir prestados $100 contra una prenda de vestir.  esto será
+ser anotado por la computadora.  Si el jugador que apuesta la ropa gana, el
+la prenda de vestir no se pierde y la deuda queda cancelada.  Pero si un 
+Si el jugador pierde, ¡debe renunciar a esa prenda de vestir!  Se gana la ropa
+de vuelta en cualquier momento las ganancias superen los $100.  Cuando esto sucede, la ropa
+se devuelve y se restan $100 de las ganancias.
+El juego termina cuando eres el último jugador que queda en el juego o cuando 
+¡Has perdido toda tu ropa y tu dignidad!  Puedes terminar el juego antes
+seleccionando "Salir del juego" en el menú "Juego".  Al final del juego,
+Se te preguntará si quieres volver a jugar o salir.  Haz tu
+selección con el ratón como de costumbre.
+
+FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA

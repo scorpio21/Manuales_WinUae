@@ -1,0 +1,823 @@
+21-02-94
+                             Tanques chamuscados V 1.75
+                                        y V 1,80
+
+                                      para el amigo
+
+
+Copyright 1993 Michael Welch, Todos los derechos reservados
+
+
+Desarrollado y codificado por
+               Michael Welch
+               
+Banda sonora original de
+               Eric Gieseke "Sidewinder"
+               
+               -Ari-San<Cruce>
+               -El borde del horizonte
+               Esté atento al nuevo CD que está produciendo.  Cuando sale,
+               ¡Va a hacer calor!  Es un hecho profesionalmente.
+               álbum de música 100% Amiga y por lo que dice, no lo harás
+               Creo que se hizo solo en un Amiga.    
+               
+
+Agradecimiento especial a:
+sara campana 
+Mike y Laura Ferall
+DJ y Sara
+Mark Posser - Pruebas de juego
+
+Josh Wingell - Grandes ideas
+
+John Torta - Gráficos
+
+Aaron Wald - La teoría del Big BANG
+
+Un agradecimiento muy especial para:
+
+Chip Schaefer: Mi primer pedido.  (¡Hiciste mi semana!)
+
+Michael Boeh: su infinita sabiduría en el desarrollo de juegos de artillería.
+                 ¡Gracias por la idea del Círculo!
+
+John Harris: ideas brillantes, pruebas beta increíbles y un buen tipo
+                 también.  Gracias por toda la ayuda.
+
+Keith Zaback y amigos: expertos en pruebas de Ace.
+
+Peter Olafson y Tim Walsh, por poner Scorched Tanks en el...
+
+                                             ...Amiga World "Lo mejor del 93"
+                                             
+                                  
+Ryan Scott: Gracias por la fantástica extensión Turbo Plus.
+ editor Este nuevo producto bien hecho para Amos y Amos Pro es
+   de aparecer en futuras versiones de Scorched Tanks
+ ¡CAMPO DE JUEGO!  y por lo que he visto, realmente va a potenciar
+ (AMOS noticias AMOS a un nivel mayor.
+  carta)            
+
+
+Esta versión incluye:
+
+    NUEVO
+  ----------
+  
+  Nuevo front-end <- Se trabajó mucho para hacerlo.
+  Nuevo panel de control <- ¡Lo mismo!
+  Banda sonora original de Sidewinder
+  20 nuevas armas / 60 en total
+  Botón SALIR <- Sí, el dispositivo que TODOS estabais esperando.
+  Control deslizante para Weaponlink <- ¡Mira!  Te dije que vendría.    
+  Pantalla de opciones:
+   viento
+   Multiterreno
+   Tamaño de la explosión
+   gravedad
+   Orden de los jugadores
+   Tamaños de pantalla personalizados
+   Tasa de interés ajustable
+  Documentación sobre todas las armas, escudos y opciones.
+  Tanques nuevos y mejorados controlados por computadora
+  13 opciones de escudo diferentes 
+      -Desplazador
+      -Comentarios
+ ******************************* 
+ *Para la versión registrada 1.80:*
+ * -Opción Cargar/Guardar juego *
+ *******************************
+
+
+
+
+COMPATIBILIDAD:
+
+Scorched Tanks fue desarrollado sobre una AMIGA 1200 con 2 Megas de Chip RAM
+ y 4 megas de RAM rápida.  Ha sido probado en un Amiga 2000 con
+ 1 Mega de RAM en chip.  También ha sido probado en un Amiga 500 con
+ Chip RAM de 512k y 3 megas de RAM rápida
+
+
+Si su sistema tiene solo 512k de Chip RAM o solo 1 Mega de RAM total,
+ se sugiere que el programa se cargue en la computadora con la
+ tanta RAM de chip libre como sea posible.
+
+
+** Debido a la naturaleza intensiva del chip RAM de Scorched Tanks, es
+   sugirió que se haga todo lo posible para liberar la RAM del chip antes de ejecutar el juego.
+   se intenta.  A menudo, las computadoras con poco Chip Ram disponible funcionarán
+   Scorch' en modo Chip RAM de 512k.  Pero se estrella, con un
+   "Llamada de función no válida" al usar ciertos escudos o armas, son
+   causado porque el juego intenta acceder al chip RAM no disponible.
+   Sólo he visto estos fallos en computadoras A1000 y A500 con chip 512k
+   que ejecutan Scorch desde Workbench.
+   Por favor, avíseme si ha visto estos fallos en otros
+   circunstancias.
+  
+
+Esta versión de Scorched Tanks tiene un modo especial de RAM de chip de 512k.
+ Este modo reduce el tamaño del campo de juego y
+ Reduce la música para ahorrar Chip RAM.
+
+
+Scorched Tanks se desarrolló utilizando AMOS Pro y AMOS Pro Compiler.
+ Se supone que este paquete compila programas para trabajar en:
+
+ A500
+ A500+
+ A600
+ A1000
+ A1200
+A1500
+ A2000
+ A3000
+ A4000
+
+La mayoría de los problemas de incompatibilidad están relacionados con la memoria.
+ Ejecutando Scorched Tanks desde Workbench en una máquina con chip RAM de 512K
+ puede que no funcione correctamente.  Podría quedarse sin memoria o fallar.
+
+Además, algunos programas de Workbench como Enforcer y 'borradores de pantalla' tienen
+ Se sabe que causa problemas con AMOS Pro.  
+ También se sabe que FBL causa fallas en el sistema con Scorch'.
+
+
+Programas utilizados para desarrollar Scorched Tanks:
+---------------------------------------
+
+AMOS Pro
+Compilador AMOS Pro
+¡Brillantez!
+PixMate
+Copia final 2
+Directorio Opus 4.1
+DSS8+
+Borde <- Gracias INOVAtronics.  Es un editor de texto muy agradable que 
+         Solía ​​'editar' este archivo Doc.  Excelente producto.
+
+
+INTRODUCCIÓN:
+
+Scorched Tanks es un juego de guerra de tanques donde de 1 a 4 jugadores humanos o
+ oponentes controlados por computadora, túrnense para comprar armas sofisticadas
+ y disparándose unos a otros.  Cuanto más daño causa un jugador
+ otro, más dinero obtienen.  Cuanto más dinero recibe un jugador, más
+ Mayores son las armas que pueden comprar.  Este es un concepto muy simple, pero
+ extremadamente adictivo!
+
+Scorched Tanks está relacionado con un juego muy popular llamado
+ Tierra arrasada en máquinas MS-Dos.  Quizás solo haya jugado a Scorched Earth.
+ cinco veces alguna vez.  Pero me impresionó tanto que decidí que el
+ Amiga también necesitaba una versión.  Scorched Tanks es muy similar pero MUY
+ diferente al juego MS-Dos.
+
+
+'Tanks innova donde 'la Tierra y otros imitadores lo dejan'.
+ 
+Es simple de entender, pero lo suficientemente complejo como para representar un desafío.
+
+La jugabilidad y la interfaz son tan fáciles de entender que un niño de 8 años puede elegir
+ en ningún momento.  Fue probado en un grupo de niños pequeños.  ellos gastaron
+ dos horas gritando y saltando mientras se hacían estallar unos a otros
+ tanques de computadora.  Básicamente es fácil de aprender y la interfaz 
+ El diseño no le quita valor al juego.
+
+Los gráficos y la música intentan añadir la sensación más importante de Amiga.
+ al juego.
+
+Atrae a personas que odian las computadoras.
+ (¡Solo si puedes obligarlos a mirar la pantalla!)
+
+
+--------------------------------------
+
+(* En cualquier momento durante el juego, presiona [CTRL]-C para salir del juego o
+   [AMIGA IZQUIERDA]-A para alternar entre Workbench y Scorched Tanks.)
+
+
+INICIO DEL JUEGO:
+
+ Al principio.......
+ 
+    Ahí está la nueva parte delantera.
+    Si tienes suficiente Chip Ram, suena buena música y
+    Un panel de botones y gadgets se desliza en la pantalla.
+    
+    Cada jugador tiene su propio 'cuadro' para editar la forma en que juega.
+    Jugador humano:
+      Icono de persona corriendo
+      Panel para editar el nombre de los jugadores.
+      Control deslizante para cambiar la cantidad de dinero que hay al principio
+    Reproductor de computadora:
+      Icono de chip de computadora.
+      También un panel para editar el nombre de los jugadores.
+      Controles deslizantes para cambiar el coeficiente intelectual de los jugadores de computadora:
+        -Estúpido o inteligente 
+        -Ofensivo o Defensivo
+        
+    Cargar juego: carga el juego en la versión registrada.
+    
+    Opciones: carga la pantalla de opciones para personalizar Scorch'.
+      Viento: Apagado, Ligero, Medio, Fuerte
+         Diferentes niveles de viento para hacer el juego más desafiante.
+      Terreno: aleatorio, colinas, llanuras, garganta, acantilado
+         Diferentes tipos de terreno con nuevos colores para agregar más variedad.
+      Exp. Tamaño: Pequeño, Estándar, Grande
+         Pequeño para los tiradores acérrimos y
+         Grande para los maníacos de la destrucción masiva.
+      Gravedad: Baja, Media, Alta
+      Pla. Orden: en orden, perdedores, ganadores, aleatorio
+         En orden: Jugador1, Jugador2, Jugador3, Jugador4
+         Perdedores: los perdedores de la ronda anterior van primero.
+         Ganadores: los ganadores de la ronda anterior van primero.
+         Aleatorio: una mezcla aleatoria de las órdenes de los jugadores en cada ronda.
+      % de interés: Diez%, Veinte%, Treinta%, Cuarenta%, Cincuenta%
+         Cantidad de interés ganada en cada ronda.
+      Tamaño de pantalla: pequeña, larga, alta, de tamaño completo
+         Ajusta el campo de juego al tamaño deseado
+         Nota: Los usuarios de 512k Chip RAM no pueden acceder a campos de juego de tamaño completo
+
+
+    Información: muestra información sobre la versión actual del juego.
+Rondas: utiliza las flechas para seleccionar el número de rondas a jugar.
+        Nota: Sólo la versión registrada permite más de 
+              5 rondas de juego.
+              
+    Iniciar juego: inicia el juego.
+    
+    Salir: sale del juego al banco de trabajo o de otro modo.
+    
+    
+              
+JUEGO:
+
+ Compra de armas y escudos.
+ 
+  WeaponsLink es la forma en que cada jugador compra y vende armas, escudos y
+  otros elementos de uso.  Elija el artículo deseado y seleccione comprar o
+  vender.
+
+  Para cambiar del modo Escudos al modo Armas, seleccione <Armas> o <Escudos>
+  y haga clic en [Comprar] o en el nombre mismo.
+
+  Asegúrate de seleccionar Defensa inicial antes de entrar al campo de batalla.
+  Haz clic en [Defensa inicial] para seleccionar tu opción de escudo inicial.
+
+  Seleccione LISTO para pasar al siguiente jugador.
+
+
+ Campo de juego-
+
+  Cada jugador debe disparar a los demás tanques hasta que quede solo uno.
+  tanque a la izquierda.
+  
+  Antes de disparar armas, recuerde establecer el ángulo, la potencia y la intensidad deseada. 
+  arma antes de hacer clic en DISPARAR.
+
+  Otras opciones disponibles durante el turno de un jugador son:
+
+  Escáner: haga clic en la ventana del escáner para ajustar la pantalla de visualización o realizar el pago
+           áreas actualmente fuera de la pantalla del campo de juego.
+
+  Estadísticas: haga clic en el nombre de un jugador para leer las estadísticas individuales del jugador.
+           Escudos SH (0 a 99) Daño DA (0 a 50)
+           cuando es golpeado, el jugador primero pierde escudos y luego recibe daño.
+           Si el daño cae a cero, el jugador es eliminado, por así decirlo.
+
+  Ayuda: puede obtener ayuda en línea haciendo clic en [Ayuda].
+           Al hacer clic en [Ayuda] se activa o desactiva la opción de ayuda.
+
+  Uso: solo se ve cuando está en el modo de selección de escudo.
+           Haga clic en [Usar] para seleccionar las opciones de escudo que ha comprado.
+           
+  Guardar: guarda el juego en la versión registrada.
+           
+  Salir: sal del juego y regresa a la pantalla principal.
+
+  Cambiar de escudos a selección de armas
+
+           Haga clic en la flecha hacia arriba para elegir <Escudos> o <Armas>.
+           Si no tiene escudos para usar, se muestra Sin escudos y
+           el programa te mantendrá en modo Armas.
+ 
+
+ Fin de ronda-
+
+  Al final de la ronda, se otorgan bonificaciones y se determina la clasificación del juego.
+  dado.  Al final de la última ronda el ganador del juego será
+  anunciado y el juego terminará.
+
+  (El desempate es - quién tiene más dinero -)
+
+
+¡Buena suerte y diviértete superando a tus amigos informáticos!
+                                  (Controlado por computadora o de otro modo)
+                                   
+
+
+
+
+Historia del programa-
+
+V 0.10
+-------------
+-Interfaz controlada por joystick defectuosa.
+-Buen desplazamiento de pantalla
+-Soporte automático PAL/NTSC
+
+V 0,50
+-------------
+-Escudos agregados
+-Mejora de gráficos Mondo.
+
+V 0,70
+-------------
+-Efectos de sonido geniales
+-Música agregada
+-Se agregaron la mayoría de las armas más nuevas.
+
+0,95
+-------------
+-Paracaídas añadidos
+-Se agregaron armas de lava y nitrógeno líquido.
+-Errores corregidos
+-Hecho para funcionar en computadoras lentas con al menos un mega de memoria
+
+V 1.00
+-------------
+-Tanques controlados por computadora
+-Explosiones más fuertes
+-Se agregaron Disparo disperso, Petardo, Super Zapper y Reacción en cadena.
+
+V 1.00a
+-------------
+-Selector de armas mejorado
+-Vectores utilizados en lugar de ecuaciones físicas para calcular viñetas.
+ SIGNIFICADO Faaaaaaaaaster.   Un poco de todos modos.
+-Corrección de errores en la visualización de bonificación de daño
+
+V 1.00b
+-------------
+-Mejor barra de selección de energía (mayor resolución)
+-Opción de ayuda
+-Personaliza el programa según la cantidad de memoria disponible.
+
+V 1.15
+-------------
+-Soporte de chips de 512k
+-Soporte de control de palanca de mando
+-11 opciones de escudo diferentes (absorbente, reflectante, magnético, etc...)
+-Movimiento de tanques (Transporte, Mover Tanque)
+-Aceleración de "Regresar al jugador"
+-Mantenga presionado el mouse para repetir
+
+V 1.20
+-------------
+-Pantalla de opciones
+  viento
+  Multiterreno
+  Tamaño de la explosión
+  Orden de los jugadores
+  Tasa de interés ajustable
+  Tamaños de campo de juego personalizables
+-Documentación sobre todas las armas y escudos.
+-Arma-> Inundación carmesí
+-Características mejoradas de los escudos.
+
+V1.75
+-------------
+-20 nuevas armas
+-Banda sonora original de Sidewinder
+-Nueva interfaz
+-Control mejorado sobre los reproductores de computadora.
+-Nuevo panel de control
+-deslizamiento del tanque
+-2 nuevos tipos de escudo
+   desplazador
+Comentarios
+-Control deslizante para enlace de armas
+-Nuevas secuencias de muerte.
+-Botones de salida
+-Muchas pequeñas mejoras.
+
+V1.80
+-------------
+-Opción cargar/guardar juego
+
+
+
+
+El futuro
+----------
+Tengo grandes planes para Scorched Tanks.
+Uno de mis cambios más importantes será agregar la extensión Turbo Plus.
+a quemar '.  Al hacer esto, el juego irá mucho más rápido en un modo más lento.
+Amiga.  Otras cosas que pueden pasar son más música, gráficos mejorados,
+una historia que explica la situación, el apoyo de AGA, una captura de bandera
+juego, más armas (100 es mi objetivo), etc...
+
+Actualización de AGA... Realmente quiero AGA para Scorch, pero hasta AMOS Pro 
+lo soporta, tengo las manos atadas.  Tan pronto como AGA esté disponible, podrá
+asegúrese de que Scorched Tanks lo use poco después.  Por ahora, estoy sirviendo
+toda mi capacidad gráfica en lo que tengo ahora.  Y no te preocupes, no AGA
+Amigas seguirá siendo compatible.
+
+
+
+\\\ El futuro depende de ti ///
+/// ¡Déjame saber que el juego vale la pena! \\\
+
+
+Actualizaciones
+-----------
+Cualquiera que registre este juego recibirá la ÚLTIMA versión de Scorch'.
+ No lanzo versiones del juego de distribución gratuita con mucha frecuencia.
+ Entonces... Si quieres más armas, más opciones, más de todo...
+ Regístrese.
+ Los usuarios registrados podrán comprar una actualización a Scorch' por
+ $3.00 EE.UU.  Los $3.00 cubren los costos de envío.
+ 
+ 
+
+
+Registrar el juego:  
+ 
+ Si registra V1.75, recibirá V1.80 que admite una
+ Opción Cargar/Guardar juego y permite jugar más de 5 rondas.
+ Sólo desactivé esas pocas opciones porque trabajé muy duro en el 
+ Proyecto Scorch.  Quiero compartir lo que creé.  Corté el Cargar/Guardar
+ opciones y el número de opciones para que las personas que juegan mucho
+ puedes registrarte y sacarle el máximo partido a Scorch'.  Si eres un jugador serio,
+ estas opciones son para ti.
+ Si no es así, podrás disfrutar del juego gratis.
+
+ Pero no registrarte sólo te perjudica.  El código fuente de Scorched Tanks fue
+ corrupto y casi no tuve el valor de reiniciar un mes entero
+ valor del trabajo.  Si no hubiera sido por los registros que estaba recibiendo
+ todas las personas que realmente disfrutaron de mi juego, esta nueva versión de Scorched
+ Los tanques no se reproducirían en tu Amiga.  Gracias a todos los que tienen 
+ registró el juego.  TÚ hiciste esto posible. 
+ 
+ Así que regístrate y muéstrame que quieres que continúe el desarrollo de este juego.
+ Puede que necesite la motivación.  Además enviarme diez dólares es seguro. 
+ excelente manera de hacer escuchar tus ideas y hacer un nuevo amigo.
+ 
+   
+ Me encantaría recibir comentarios e ideas.  Nuevas ideas de armas y otras opciones.
+ Sería genial. 
+ Quiero que Scorched Tanks sea lo mejor posible.  Por favor ayúdame.
+
+
+Para registrarse, envíe $10.00 US a:
+
+Michael Welch
+Apartado postal 672
+Vestal, Nueva York 13850
+Estados Unidos
+
+
+Nota: Si es de Canadá, envíe giros postales para fondos estadounidenses.
+      Mi cooperativa de crédito no puede aceptar ningún tipo de cheque canadiense.  Gracias.
+      
+
+
+
+
+
+**************************************************************************
+* *
+*Manual de opciones de armas y escudos*
+*para tanques chamuscados*
+* *
+*revisado el 21-2-94*
+* *
+**************************************************************************
+
+Armas totales disponibles: 60
+
+
+**********************
+
+Armas-
+
+Disparo único:
+
+   Arma pequeña que causa muy poco daño.
+   Suministro ilimitado.
+
+Gran Tiro:
+
+   Arma más grande que tiene una gran explosión y ofrece más daño.
+
+Tritiro:
+
+   Tres ojivas con capacidad pequeña pero destructiva.
+
+5 tiro:
+
+   Cinco ojivas con grandes explosiones y una explosión muy destructiva.
+   Mortal si se usa correctamente.
+
+Patrón:
+
+   Ojiva que rebota 3 veces, dejando una explosión con cada rebote.
+Los saltos son la mitad de la velocidad vertical original.
+
+Súper patrón:
+
+   Como el patrón original excepto que rebota 5 veces con explosiones más grandes.
+   Útil en las llanuras.
+
+Bola de tierra:
+
+   Cubre el área con tierra suelta.
+
+Gran bola de tierra:
+
+   Cubre el área con MUCHA suciedad suelta.
+
+Mover montaña:
+
+   La explosión elimina la suciedad del área sin causar daños directos a
+   tanques circundantes.
+
+Zapper:
+
+   Warhead dispara un láser a los tanques que se encuentran a 40 píxeles.
+
+Rodillo:
+
+   El arma golpea el suelo y rueda cuesta abajo hasta llegar a una pendiente.
+
+Rodillo grande:
+
+   Como Roller pero con una explosión MUCHO más grande.
+
+Crucero:
+
+   Las armas golpean el suelo y se deslizan sobre la tierra hasta chocar contra un tanque.
+
+Megacrucero:
+
+   Igual que Cruiser pero con una explosión muy grande y peligrosa.
+
+Lanzador de tierra:
+
+   Arma defensiva que arroja tierra al aire para cubrir los tanques que se encuentran debajo.
+
+Láser:
+
+   Sistema de guía para satélites espaciales SDI.
+   Realiza 5 tiros en la zona donde aterrizó el trazador.
+
+Gran láser:
+
+   Versión de armas grandes del láser.
+   10 disparos llueven desde el cielo causando mucho más daño.
+
+Conductor de pila:
+
+   Provoca que se forme un agujero muy profundo en la tierra.
+
+Muro de transformación:
+
+   Arma defensiva que hace que la pared se transforme desde el suelo.
+   ante tus ojos.  ¿No es genial la tecnología?
+
+Bomba nuclear:
+
+   Versión infantil de una ojiva nuclear extremadamente letal.
+
+Mega bomba nuclear:
+
+   Muy grande, Muy fatal, Muy devistante.
+   Muerte inmediata.
+
+Sound Blaster:
+
+   Ataque sónico.  Se propaga horizontalmente o ataca en terreno llano o
+   a través de pequeñas colinas.
+
+Paracaídas:
+
+   Sistema defensivo utilizado para reducir el daño por caída.
+
+Misil guiado:
+
+   El arma se detiene en el aire sobre el primer tanque que sobrevuela.
+   Muy pocos daños pero un acierto seguro.
+
+lava:
+
+   Provoca que un charco de lava fundida se extienda por la tierra.
+   La lava se endurece para formar roca.
+
+Nitrógeno líquido:
+
+   Igual que la lava pero se evapora cuando termina.
+
+Disparo disperso:
+
+   Al impactar, la ojiva se divide en cinco ojivas balísticas que se extienden
+   sobre el terreno circundante para causar daños locales.
+
+Petardo:
+
+   El arma provocó una serie de pequeñas explosiones en la zona general de
+   impacto.
+
+Cena Zapper:
+
+   Arma que envía un láser mortal a cualquier tanque que se encuentre dentro.
+   80 píxeles de.
+   ¡Muy peligroso!
+
+Reacción en cadena:
+
+   Hermano mayor de Firecracker.  Explosiones más grandes y un poco más de daño.
+
+Removedor de suciedad:
+
+   Chorro vertical que elimina la suciedad del techo.
+
+Mina crucero:
+
+   Sistema anti-cruiser y roller.
+   Coloca una mina en un área que detonará cualquier crucero que se acerque o
+   rodillos.
+
+Teletransportarse:
+
+   "Recoge" un tanque y lo coloca aleatoriamente en otro lugar del campo de juego.
+
+Marmota:
+
+   La ojiva se hunde en el suelo y explota al golpear el fondo del
+   campo de juego o en un intento de resurgir.
+   Bueno para ataques a través de colinas.
+
+comadreja:
+
+   Tras el impacto, la ojiva se hunde en el suelo y excava hacia arriba en el
+   suelo.  La comadreja se autodestruirá si pasa debajo de un tanque.
+   También explota al golpear el fondo del campo de juego de cuando
+   intenta resurgir.
+
+Mover tanque:
+
+   Permite el movimiento del tanque hacia la izquierda o hacia la derecha de la posición actual.
+
+Rayo láser:
+
+   Dispara un rayo láser directo desde el tanque.
+   Ideal para batallas cuerpo a cuerpo con otros tanques.
+
+Deformación del tiempo:
+
+   Las armas disparan desde el tanque tres veces diferentes.
+   Gran explosión pero pequeños daños.
+
+Protección de cúpula:
+
+   Crea una cúpula alrededor del tanque que lo emite.
+
+Inundación carmesí:
+
+   Fuego y azufre derretido brotan del suelo cinco veces.
+   Provoca una destrucción generalizada.
+   
+Bolsa de agarre:
+
+   Escoge aleatoriamente un arma que vale más de 4000 dólares.
+   La gran pregunta es "¿Cuál?"  Ese es el riesgo que corres.
+   
+Médico de campo:
+
+   Repara todos los daños causados al tanque.
+   
+Desplazador de tanque:
+
+   Teletransporta el tanque impactado con esta ojiva.
+   
+Tirachinas:
+
+   Cuando la ojiva aterriza, comienza a rodar en la dirección opuesta.
+   fue despedido.  Es como un Cruiser inverso.
+   
+Cruball:
+
+   Un Cruiser que explota como una Dirtball.
+   ¡Mi arma "sucia" favorita!
+   
+Comadreja buscadora:
+Es una comadreja que se detiene debajo de un tanque y vuela tirada al suelo.
+   en eso.
+   
+Inversor de suciedad:
+
+   Una ojiva que levanta el suelo alrededor del área general de impacto.
+   y lo arroja al suelo.  Bueno para poner tanques 'bajo tierra'.
+   
+Autodestrucción:
+
+   Destruye tu tanque antes de que lo haga otro tanque y se lleva el dinero.
+   
+Plástico fundido:
+
+   Un arma estilo Lava que deja plástico reflectante en el suelo.
+   El plástico reflectante hará rebotar las ojivas en el aire.
+   
+PlastConvertidor:
+
+   Convierte el área circundante de impacto en plástico reflectante.
+
+Muro de defensa:
+
+   Construye una pared de plástico.  Se utiliza para proteger su tanque o para cometer errores.
+   el disparo de otra persona.
+   
+Bomba inteligente:
+
+   Esta arma es la única bala que explotará al contacto con
+   Terreno plástico o con escudos Reflectantes/Feedback.
+   
+Creador de cráteres:
+
+   Gran explosión que limpia toda la suciedad con su explosión.
+   
+Explosión relámpago:
+
+   Un arma pequeña que libera una explosión electromagnética que causa 
+   Daña a los tanques pero no daña el terreno.
+   
+Gran explosión:
+ 
+   Una explosión flash más grande.
+   
+Megaexplosión:
+
+   Una enorme explosión flash.
+   
+Topo:
+
+   Un dispositivo de túnel que cava un hoyo en la dirección seleccionada.
+   Bueno para superar a tus oponentes y dispararles con
+   Marmotas, comadrejas o comadrejas mensajeras.
+   
+Tanque de megamovimiento:
+
+   Mueve el tanque mucho más lejos que el tanque de movimiento estándar.
+   
+Cascada:
+
+   Ojiva que dispara una ráfaga de balas al cielo y las arroja
+   caer al suelo en una lluvia de destrucción.
+   (¡Puedes decir que amo esta arma!)
+
+Trazador:
+
+   Un dispositivo que enciende una luz donde aterrizaría tu cabeza nuclear si
+   lo disparó allí.  Después de disparar un trazador, los mismos tanques vuelven a girar.
+    
+
+
+**************
+
+Escudos-
+
+
+Absorber 1: sistema de protección estándar.
+
+Absorber 2: Absorbe el 25% del daño.
+
+Absorber 3: Absorbe el 50% del daño.
+
+Reflejar 1: refleja el 50% de todas las balas.
+
+Reflejar 2: refleja el 75% de todas las balas y absorbe el 25% del daño.
+
+Reflect 3: refleja el 100% de todas las balas que golpean el escudo y también
+            Absorbe el 50% del daño causado.
+
+Magnético 1: aleja las balas entrantes.
+
+Magnético 2: empuja (mucho más fuerte) las balas entrantes mientras absorbe
+             25% del daño.
+
+Magnético 3: aleja seriamente las balas entrantes y al mismo tiempo
+             absorbiendo el 50% de todo el daño.
+
+X-tintinger: en un impacto directo, el escudo neutraliza el arma entrante y
+              lo coloca en el inventario de armas actual del tanque.
+              Absorbe el 50% del daño.
+
+Detonador: sistema de protección antinuclear.
+            Explota armas nucleares y otras ojivas peligrosas antes de que exploten.
+            acercarse lo suficiente como para dañar el tanque.
+            Absorbe el 50% del daño.
+
+Desplazador: teletransporta la ojiva a una ubicación aleatoria.
+
+Retroalimentación: envía la ojiva de regreso en la dirección desde donde puede.
+           (A menudo, directamente a la persona que lo disparó) :)

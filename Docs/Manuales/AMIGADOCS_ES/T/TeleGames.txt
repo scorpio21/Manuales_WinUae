@@ -1,0 +1,711 @@
+CÓDIGOS DE PROTECCIÓN
+
+4-20-5=I 4-26-1=E 5-26-8=Q 6-3-6=N 6-41-3=H 7-6-1=A 7-41-2=B
+
+7-41-6=B 7-42-1=O 8-31-1=L 8-41-6=J 9-12-13=K 9-18-4=L 10-6-5=U
+
+10-11-3=A 11-28-3=P 11-42-3=T 12-18-2=K 12-27-4=B 13-15-3=Y 13-30-3=M
+
+14-7-4=Y 14-38-1=N 15-41-1=Y 16-6-2=U 16-11-3=P 17-1-3=U 18-35-6=J
+
+18-42-1=H 21-20-5=F 21-24-2=Q 22-29-3=N 23-12-5=U 23-14-1=Q 23-18-1=M
+
+24-27-6=U 24-33-3=S 24-37-2=W 25-29-2=W 26-19-1=I 26-31-4=R 27-41-4=V
+
+27-42-3=D 30-26-7=J 31-13-3=B 33-43-6=0 34-6-8=W 34-31-3=M 35-8-3=E
+
+35-10-1=I 38-6-2=G 38-30-2=T 39-3-1=T 39-14-4=D 39-28-4=A
+
+NO TIENE LA PÁGINA 37 PERO SE SABE QUE "L" FUNCIONA.
+
+================================================================================
+                             TeleJuegos
+											Contenidos
+                         TABLA DE CONTENIDO
+
+Soporte BBS................................................ 4
+Hacer una copia de trabajo................................ 5
+Cargando TeleJuegos................................................ 6
+Funcionamiento básico de TeleGames................................ 7
+	Ratón................................................ 7
+	Teclado................................................ 7
+	Solicitantes de verificación................................ 7
+	Mover una pieza del juego................................... 8
+	Líneas de mensaje RECV y ENVIAR.................... 9
+	Personalización del puntero del mouse................... 9
+Menús de TeleJuegos................................................ 10
+	Menú TeleJuegos................................................ 10
+	Menú de juego................................................ 11
+	Menú de vista del tablero................................ 12
+	Menú TeleCom................................................. 13
+	Menú Tele Archivos................................... 16
+	Menú de archivos del juego................................. 20
+	Menú de sonido................................................ 21
+Procedimiento de teleconexión................................. 22
+Jugar a TeleJuegos................................................ 27
+	TeleAjedrez................................................ 27
+	TeleCheckers................................................ 29
+	TeleBackgammon................................................ 31
+	Referencia................................................ 35
+Apéndice A - Uso del disco RAM................................ 36
+Apéndice B - Uso de un disco duro................................ 37
+Apéndice C - Directorios de TeleGames.................... 38
+Apéndice D - Solución de problemas................................ 39
+          Amiga, Kickstart, Workbench e Intuition
+          son marcas comerciales de Commodore Amiga, Inc.
+				Página 3
+
+                             Soporte BBS
+1 SOPORTE BBS
+2
+3 Llenar y devolver el formulario adjunto
+4 tarjeta de registro le dará derecho a
+5 revisiones y actualizaciones gratuitas de TeleGames
+6 (en caso de ser necesario), accesibles
+7 como descargas en nuestro boletín de 2400 baudios
+8 tablero, Pista ][. Número de teléfono (817) 244-4151.
+9 Cuando recibamos su tarjeta de registro,
+10 iniciarás sesión como registrado
+11 Usuario de TeleJuegos.
+12
+13 También le solicitamos que informe cualquier
+14 problemas que podrías tener
+15 Telejuegos en el área de mensajes de BBS.  Cualquiera	
+Habitualmente se atenderán 16 consultas realizadas
+17 en 24 horas.
+18
+19 Aunque se han realizado muchas pruebas
+20 han entrado en TeleGames para asegurarse de que así sea
+21 libre de errores, nos damos cuenta de que no hay software
+22 alguna vez podrá considerarse "terminado". por favor
+23 asegúrese, sin embargo, de que está familiarizado
+24 con las reglas de los juegos anteriores
+25 etiquetar una interpretación de una regla como una
+26 errores.  Todas las reglas específicas del juego fueron
+27 investigados a fondo antes de su inclusión
+28 en TeleJuegos.
+29	
+30 También nos sería de gran ayuda en
+31 solucionando cualquier problema que puedas tener, si
+32 guardarías el juego en el punto
+33 donde ocurrió el problema. Luego sube
+34 el archivo del juego guardado para nosotros en el
+35 Área de archivos de TeleGames en pista ][.  el
+36 archivos de juegos guardados son solo unos cientos
+37 bytes de longitud y solo le llevará
+38 unos segundos para subirnos.
+39
+40 Por favor deja una publicación en el mensaje.
+41 área que enumera el tipo de computadora que
+42 estás usando y el problema que estás
+43 teniendo.
+				Página 4
+
+            			Copiando
+
+1 Nuestro BBS también es un gran lugar para reunirse
+Otros 2 usuarios de TeleGames interesados en
+3 jugando ajedrez, damas y backgammon.
+4 publicaciones de usuarios de TeleGames emitiendo juegos
+Se pueden encontrar 5 desafíos en la pista ][
+6 Área de mensajes de TeleJuegos.
+7	
+8 COPIAR TELEGAJUEGOS
+9
+10 TeleGames no está protegido contra copia. puede
+11 se puede copiar usando cualquiera de los programas Amiga normales.
+12 técnicas de copia de Workbench o el 	
+13 CLI. Por favor lea el manual de su Amiga para
+14 los detalles de la copia de disco deben
+15 usted no está familiarizado con estos procedimientos.
+16
+17 Antes de utilizar el programa por primera vez 
+18 veces, le recomendamos que haga una 
+19 copia de trabajo de TeleGames. por favor
+20 cambiar el nombre de la copia TeleGames_WB, al igual que
+21 el disco del programa maestro.
+22	
+23 Si tiene más de 512 K de RAM en
+24 tu Amiga, también es posible copiar
+25 TeleGames gráficos y telecomunicaciones
+26 archivos al Ramdisk para muy rápido
+Acceso a 27 archivos. Utilice los iconos de copia proporcionados
+28 en el directorio/cajón Tele_Batch en
+29 el disco TeleGames_WB (Ver Apéndice A).
+30
+También se han creado 31 archivos por lotes controlados por iconos.
+32 proporcionados para copiar TeleGames a tu disco duro
+33 disco. Si estas interesado en poner	
+34 TeleGames en un disco duro ver Apéndice B.
+35	
+36 Te hemos ofrecido TeleJuegos sin
+37 protección contra copia y a un precio razonable
+38 precio, porque eso es lo que tú, el
+39 teleinformático, ha solicitado. Por
+40 honrar nuestros derechos de autor y prevenir
+41 distribución no autorizada que puedes mostrar
+42 nos dice que la falta de protección de copia en
+43 TeleGames fue una elección acertada.
+				Página 5
+
+				Cargando
+
+1 CARGANDO
+2
+3 Para jugar a TeleGames necesitarás:
+4	
+5 + Una computadora Amiga
+6 + 512K o más de RAM
+7 + Un conjunto de comandos "AT" compatible
+8 módem funcionando a 9600, 2400,
+9 1200 o 300 baudios.
+10
+11 Siga las instrucciones de inicio habituales
+12 para tu computadora Amiga, usando Kickstart
+13 1.2. Cuando el Amiga solicita el 1.2
+14 Disco Workbench, inserta el TeleGames_WB
+15 copia de trabajo en la unidad interna.
+16
+17 Una vez cargado el banco de trabajo, duplique 
+18 haga clic en el icono del disco TeleGames_WB para
+19 abre la ventana de TeleJuegos.
+20
+21 Finalmente, haz doble clic en TeleGame
+22 icono de programa para cargar el programa.
+23
+24 Después de unos momentos, los TeleJuegos
+La pantalla de 25 créditos se mostrará en tu
+26 monitor, indicando que el programa
+27 se ha cargado correctamente.
+28
+29 Para salir de la pantalla de créditos y jugar
+30 TeleGames, haga clic con el botón izquierdo del ratón.
+31 Un solicitante le pedirá un manual
+32 caracteres de validación. después de encontrar
+33 y escribe esta carta, TeleGames
+34 cargas en el tablero y piezas de Ajedrez 3D.
+35 Ahora estás listo para comenzar.
+36
+37 Nota: Con 1 unidad externa montada en un
+38 512K Amiga, TeleGames requiere todo menos
+39 alrededor de 28K de toda la memoria para
+40 operan. En consecuencia, no se cargará.
+41 si tiene dos unidades externas montadas,
+42 u otra tarea en ejecución, en un 512K
+43 Amigos.
+				Página 6
+
+			      Operación
+
+1 OPERACIÓN BÁSICA
+2
+3 ratón
+4	
+5 TeleGames hace uso de lo familiar
+6 Interfaz de usuario de Amiga Intuition. tu
+7 interactúan con TeleGames a través del
+8 mouse, que se usa para mover el mouse.
+9 puntero en la pantalla. la izquierda
+10 botones del ratón le permiten recoger y
+11 suelta piezas del juego y crea dispositivos o
+12 selecciones de solicitantes. El ratón derecho
+13 botones muestran y seleccionan opciones de menú
+14 que controlan las operaciones del programa.
+15
+16 teclado
+17
+18 El teclado se utiliza para introducir datos específicos.
+19 módem y telecomunicaciones oponente
+20 parámetros, nombres de archivos y mensajes.
+21 (una vez establecida la teleconexión).
+22
+23 solicitantes de verificación
+24	
+25 Un solicitante de verificación aparecerá en
+26 el centro de la pantalla (y en el
+27 centro en la pantalla de E/S del disco) siempre que
+28 usted solicita una acción que puede 
+29 afectan drásticamente el juego actual
+30 configuración. Mover el puntero del mouse
+31 dentro de las fronteras de estos solicitantes
+32 y al hacer clic con el botón izquierdo del ratón
+33 generalmente hacen que la acción solicitada
+34 se iniciará, mientras se mueve el ratón
+35 puntero fuera del solicitante y
+36 al hacer clic con el botón izquierdo del ratón
+37 cancelar la acción solicitada. estos
+38 solicitantes están diseñados para protegerte
+39 de iniciar accidentalmente una acción.
+40 Por favor lea atentamente estos solicitantes
+41 antes de hacer clic con el botón izquierdo del ratón,
+42 de lo contrario, podrías finalizar una sesión sin darte cuenta.
+43 juego.
+				Página 7
+
+				Operación
+
+1 Mover una pieza del juego - - Un recorrido
+2	
+3 Antes de continuar, empieza una partida de ajedrez.
+4 juegos en tu Amiga eligiendo INICIO
+5 Una selección del menú JUEGO en el menú AJEDREZ
+6 menú. Ahora señale la parte superior de un
+7 pieza de ajedrez BLANCA con el ratón
+8 y presione el botón izquierdo del mouse.
+9 Mientras el botón esté presionado, el
+10 piezas seleccionadas se moverán en el
+11 dirección en la que gira el mouse.
+12
+13 Tenga en cuenta que la profundidad de la pieza de ajedrez organiza
+14 con las otras piezas en el
+15 tablero, moviéndose delante y detrás del
+otras 16 piezas a medida que se mueve a través del
+17 tablero.
+18	
+19 Para colocar la pieza seleccionada en un nuevo
+20 posición, muévalo al cuadrado deseado
+21 en el tablero y suelta el mouse.
+22 botón. Si la casilla elegida es legal
+23 movimiento para esa pieza, entonces TeleGames
+24 coloca la pieza en el centro de la
+25 cuadrado e indicar que ahora es RED'S
+26 vuelta. Si el cuadrado elegido no es un 
+27 movimiento legal para esa pieza, entonces el
+28 piezas serán devueltas a su original.
+29 posición inicial, y seguirá siendo
+30 Jugada de las BLANCAS. TeleJuegos sólo permite
+31 movimientos legales (según las reglas de
+32 el juego) que se realizará.
+33
+34 A medida que se intenta cada movimiento, TeleGames
+35 te informará del estado de tu
+36 moverse en uno de los cuadros de mensaje en el
+37 parte superior de la pantalla del tablero. leer
+39 el estado actual de tus movimientos.
+40
+41 Para finalizar este juego de ejemplo, simplemente selecciona el
+42 Opción de menú CEDE/END GAME bajo el
+43 Menú AJEDREZ.
+				Página 8
+
+				Operación
+
+1 LÍNEAS DE RECV y ENVÍO DE MENSAJE
+2
+3 Las líneas de mensajes RECV y SEND en la
+4 inferiores de la pantalla de TeleGames son sólo
+5 activo después de que se haya realizado una Teleconexión
+6 establecidos.
+7
+8 Durante el juego, las letras escritas en el
+9 se mostrará el teclado en ENVIAR
+10 líneas. La línea ENVIAR mensaje le permitirá
+11 todo el control de edición de línea normal de
+12 el teclado Amiga: teclas de cursor, atrás
+13 espacios y la tecla DEL. el mensaje
+14 texto se transmitirá cuando usted
+15 pulsa RETORNO, o cuando hayas escrito
+16 el final de la línea del mensaje ENVIAR.
+17
+18 La línea de mensaje RECV mostrará el
+19 mensaje de texto que se recibe del
+20 ordenadores teleconectados de tu oponente.
+21 Sonará un timbre cuando una llamada entrante
+22 se muestra un mensaje para avisarle de la 
+23 Mensaje RECV. Con algunos módems, el RECV
+24 líneas harán eco de su mensaje ENVIAR.
+25 la teleconexión se rompa o se pierda.
+26
+27 Personalización del puntero del mouse
+28
+29 TeleGames fue escrito para que puedas
+30 personaliza tu propio puntero del mouse en el
+31 Pantalla de Preferencias. Si lo personalizas
+32 el puntero del mouse, por favor no lo cambies
+33 el píxel "punto" de su valor predeterminado,
+34 a menos que haya contabilizado el nuevo
+35 píxeles de "puntos" en la imagen del puntero.
+36 De lo contrario, es posible que el programa no reconozca
+37 que el puntero está sobre una pieza del juego.
+38
+39 Al coger una pieza de ajedrez con la
+40 puntero del mouse, apunta a la parte superior
+41 de la pieza encima de la banda superior en el
+42 eje. Las piezas de damas y backgammon son
+43 recogidos en las superficies superiores del disco.
+				Página 9
+
+		Menú TeleJuegos
+
+1 MENÚS
+2
+3 Los encabezados del menú se muestran cuando
+4 el botón derecho del ratón está presionado. Por
+5 moviendo el cursor del ratón sobre estos menús
+6 títulos, los elementos del menú debajo de cada uno
+Se mostrarán 7 títulos. Moviendo el
+8 cursor hacia abajo en la lista de elementos del menú
+9 resalte ese elemento. Liberando el derecho
+10 botón de menú mientras un elemento del menú está
+11 resaltados activarán ese menú
+12 selección.
+13
+14 Cuando se selecciona un elemento del menú, es posible que
+15 hacen que se activen otros elementos del menú
+16 o desactivado (fantasma). Menú fantasma
+No se pueden seleccionar 17 elementos.
+18
+19 Menú TeleJuegos
+20
+21 El menú TeleGames (primer título del menú
+22 desde la izquierda) ofrece cuatro menús posibles.
+23 selecciones
+24
+25 Teleajedrez
+26 TeleCheckers
+27 Telebackgammon
+28 Salir de TeleJuegos
+29
+30 Las tres primeras selecciones permitirán
+31 usted para jugar el juego indicado: ya sea
+32 Ajedrez, Damas o Backgammon. sobre
+33 selección, puede tardar unos momentos en
+34 carga en los gráficos del juego solicitado.
+35
+36 Salir de Telejuegos provocará que los TeleJuegos
+37 programa para finalizar, desasignando toda la memoria
+38 y recursos que se habían asignado.
+39
+40 Cuando cualquiera de los elementos del menú TeleGames
+Se han seleccionado 41, sonará el timbre.
+42 y el solicitante de la verificación será
+43 mostrados.
+			Página 10
+
+           		Menú de juego
+
+1 menú de juego
+2
+3 El menú del juego (segundo menú de la
+4 izquierda) mostrará el nombre del juego.
+5 actualmente en juego. Bajo este menú
+6 encabezados se muestran en el siguiente menú.
+7 opciones.
+8
+9 elige un lado
+10 Iniciar nuevo juego
+11 Ceder/Fin del juego
+12
+13 Elige un lado
+14
+15 Elige un bando te permite elegir
+16 ya sea BLANCO o ROJO como color de tu pieza
+17 en el partido que se jugará.
+18
+19 iniciar un juego
+20
+21 Iniciar un juego comenzará un NUEVO juego para
+22 el TeleGame que se muestra actualmente en el
+23 pantalla. Cuando este elemento del menú está
+24 seleccionados, los TeleGames y TeleFiles
+25 menús están desactivados.
+26
+27 Cuando estás teleconectado a otro
+28 computadora cualquiera de los jugadores puede iniciar el
+29 juego. El color del lado del
+30 computadora de arranque se retiene, mientras que el
+31 otras computadoras tienen por defecto el color de
+32 el otro lado. Por ejemplo, si ambos
+33 ordenadores han elegido ser BLANCOS, sólo
+34 la computadora que INICIA el juego
+35 ser BLANCO. La otra computadora, por
+36 por defecto, conviértete en el lado ROJO.
+37 
+38 Ceder/Fin del juego
+39
+40 Cede/End Game provocará que el juego
+41 actualmente en juego para finalizar. Tanto el
+42 menús de TeleGames y TeleFiles serán
+43 se activa cuando se elige Ceder/End Game.
+			Página 11
+
+
+      		Menú Ver tablero
+
+1 Menú de vista de tablero
+2
+3 El menú Ver tablero le permitirá
+4 cambiar el ángulo de visión del juego
+5 que se muestra actualmente en
+6 tu pantalla. Hay dos opciones de menú.
+7 disponibles en Vista de tablero: Ver
+8 dimensiones y ángulo de visión del tablero.
+9
+10 Ver dimensiones
+11
+12 View Dimensions te permite reproducir cualquier
+13 de los juegos en 3 dimensiones.
+14 tableros de juego vistos en perspectiva. el
+16 La vista predeterminada en 3D es la más realista,
+17 pero algunos jugadores pueden tener al principio
+18 problemas para mantener las posiciones relativas
+19 de las piezas del juego seguidas. si esto es
+20 el caso, utilice la vista 2D.
+21
+22 Ángulo de visión del tablero
+23
+El ángulo de visión del tablero de 24 le permitirá
+25 rota el tablero de juego a cualquiera de los cuatro
+26 ángulos en Ajedrez y Damas, y cualquiera de
+27 dos caras en Backgammon. En cada caso,
+28 el ángulo de visión del tablero predeterminado es el
+29 Vista BLANCA (BLANCO en primer plano).
+30 La computadora que es ROJA debe voltear el
+31 Ángulo de visión del tablero alrededor de la vista ROJA
+32 al inicio del partido.
+33
+34 También es posible ver el Ajedrez
+Tableros de 35 y damas del lado del rey
+36 y la vista lateral de la reina.  Estos
+37 ángulos pueden usarse con mayor frecuencia cuando
+38 dos jugadores están jugando un juego en una
+39 una sola computadora.
+40
+41 Siempre que se cambien las dimensiones de la vista 3D/2D.
+42 cambiado, el ángulo de visión del tablero predeterminado
+43 a la Vista BLANCA, por lo que debe restablecerse.
+			Página 12
+
+               	Menú de telecomunicaciones
+
+1 Menú de telecomunicaciones
+2
+3 El menú TeleComm contiene los TeleGames
+4 opciones relacionadas con las telecomunicaciones.
+5
+6 modo de telecomunicaciones
+7 Desconectar (colgar)
+8 Transmitir Juego y Jugar
+9 Marcar número de teléfono
+10
+11 Modo de telecomunicaciones
+12
+13 El elemento del menú Modo de telecomunicaciones
+14 ofrece cuatro modos posibles como subelementos
+15 en el que se puede configurar su computadora.
+16
+17 Envío (llamante)
+19 Recibir (Respuesta)
+19 Conexión de módem nulo
+20 Teleconexión desactivada
+21
+22 Tu computadora siempre estará configurada en uno
+23 de estos modos de telecomunicaciones. el
+24 el valor predeterminado es Teleconexión desactivada. para
+25 teleconectarse con otro ordenador que
+26 debe configurar el modo de telecomunicaciones en
+27 uno de los tres primeros de estos menú
+28 artículos.
+29
+30 El modo de telecomunicaciones vuelve a
+31 el modo Teleconnect Off siempre que el
+32 El subelemento del menú Desconectar (Colgar) está
+33 seleccionados.
+34
+35 Enviando (llamante)
+36
+37 El modo de envío hará que su computadora sea la
+38 llamando a la computadora; es decir, el que
+39 inicia la teleconexión llamando
+40 la otra computadora por teléfono.
+41 Cuando se elige el modo de envío, el
+42 La opción de menú Marcar número de teléfono está
+43 activados.
+			Página 13
+
+ 		Menú de telecomunicaciones
+
+1 Recepción (Respuesta)
+2
+3 El modo de recepción hará que su computadora
+4 el contestador automático; es decir, el
+5 que responde al llamado que será
+6 colocado por la otra computadora. Seleccionando
+7 El modo de recepción coloca su computadora en
+8 un estado en el que espera pasivamente una
+9 llamada entrante. A Cancelar modo de respuesta
+Se proporcionan 10 solicitantes en caso de que usted
+11 desean salir del modo de recepción.
+12
+13 Cuando se recibe una llamada entrante,
+14 TeleGames contestará tu teléfono y
+15 haz la teleconexión para ese juego
+16 el juego puede comenzar.
+17
+18 Conexión de módem nulo
+19
+20 El modo Null Modem Connect obliga
+21 TeleGames al estado de teleconexión.
+22 Este modo debe usarse siempre que dos
+23 computadoras están conectadas entre sí por
+24 un cable de módem nulo de puerto serie directo.
+25
+26 También puede usarse si su módem no es
+27 suficientemente compatible con el "AT"
+Conjunto de 28 comandos para enviar o responder.
+29 modos para funcionar correctamente. Puedes usar
+Otros 30 programas de comunicación ejecutándose como
+31 una multitarea para realizar la llamada o contestar
+32 el teléfono. Una vez realizada la teleconexión
+33 ya está hecho, simplemente coloca tu computadora
+34 en modo Null Modem Connect y comience
+35 para jugar. TeleGames tomará la delantera
+36 línea serial teleconectada y en funcionamiento.
+37
+38 Nota: puede ser necesario apagar
+39 la otra tarea de comunicación en caso de que
+40 se ha hecho con el uso exclusivo de la serie
+41 puerto. La mayoría del software de comunicación dejará el
+42 líneas abiertas aunque el programa que
+43 abrieron la línea ha terminado.
+			Página 14
+
+			Menú de telecomunicaciones
+1 Teleconexión desactivada
+2
+3 El modo Teleconnect Off permite dos jugadores
+4 para jugar TeleGames en una sola computadora.
+5 Telejuegos vuelve a este modo cuando el
+6 Se selecciona la opción de menú Desconectar. eso
+7 siempre habilitará Cede/End Game
+8 elemento del menú cuando se selecciona.
+9
+10 Desconectar (colgar)
+11
+12 La opción Desconectar hará que el
+13 estado teleconectado de tu ordenador a
+14 se romperá al colgar el teléfono,
+15 TeleGames que regresan al Teleconnect
+16 Modo apagado. Ambas computadoras deben seleccionar
+17 Desconectarse cuando una sesión haya finalizado.
+18
+19 Transmitir Juego y Jugar
+20
+21 La opción Transmitir juego y jugar en
+22 El menú Telecomm le permite transmitir
+23 una partida guardada y previamente cargada
+Configuración 24 a los demás teleconectados
+25 computadora. Ambas computadoras deben estar en el
+26 mismo juego no iniciado. (Empezar un nuevo juego
+27 habilitado) cuando se selecciona esta opción.
+28
+29 Antes de que se transmita un juego, los jugadores
+30 deberían usar las líneas de chat de mensajes para
+31 establecen que un juego está a punto de ser
+32 transmitidos. Transmitir sólo cuando haya
+33 sin actividad en la computadora receptora,
+34 de lo contrario la transmisión puede ser abortada.
+35
+36 Marcar número de teléfono
+37
+38 Este elemento del menú se activa siempre que
+39 su computadora ha sido colocada en el
+40 Modo de envío y una teleconexión no es
+41 aún establecidos. el numero de telefono
+Se marcarán 42 para el actual rival
+43 para intentar una teleconexión.
+			Página 15
+
+		Menú de archivos telefónicos
+
+1 Menú de archivos telefónicos
+2
+3 El menú Tele Files permite el acceso a todos
+4 los archivos de disco que se relacionan con TeleGames
+5 telecomunicaciones. solo hay remolque
+6 opciones bajo este encabezado de menú: Módem
+7 Parámetros y Parámetros del Oponente.
+8
+9 parámetros del módem
+10
+11 La selección de los parámetros del módem provocará
+12 la ventana Establecer parámetros del módem para desplazarse
+13 desde la parte inferior de la pantalla.
+14
+15 Cuando TeleGames se carga por primera vez en el
+16 computadora, consulta un archivo llamado
+17 módem en el directorio Tele_Files y
+18 cargas en la configuración predeterminada para el
+19 módem que se utilizará con el
+20 programa. Los parámetros establecidos del módem
+La ventana 21 le permite configurar estos valores.
+22 una vez y guárdelos en el disco para que
+23 se cargarán automáticamente cada vez TeleGames
+Se ejecuta 24.
+25
+26 Se mostrará la configuración actual
+27 en destacados. Tenga en cuenta que si estos
+Se cantan 28 escenarios, serán
+29 activos ya sea que fueran salvos o no.
+30
+Velocidad de 31 baudios
+32
+33 Haga clic en la velocidad en baudios que desea
+34 normalmente lo uso con TeleGames, tampoco
+35 300, 1200, 2400 o 9600.
+36
+37 Comando de marcación
+38
+39 Hay tres opciones bajo el
+40 comando de marcación de encabezado. Si tu módem
+41 utiliza el conjunto de comandos estándar "AT", usted
+42 puede hacer clic en cualquiera de los ATDT para escuchar el tono
+Marcación 43 o ATDP para marcación por pulsos.
+			Página 16
+
+			Menú de archivos telefónicos
+
+1 El cuadro bajo este título se proporciona
+2 para que puedas ingresar marcación personalizada
+3 cadenas de comando. Tenga en cuenta que también puede
+4 se puede utilizar para agregar comandos de módem al
+Juego de 6 "AT" estándar. Por ejemplo ATX6DT
+6 marcarán por tono y devolverán códigos de resultado
+7 a TeleJuegos. Los telejuegos luego lo dirán.
+8 usted si la línea estaba ocupada, o
+9 si nadie contestó el teléfono.
+10
+11 Si se muestra algún carácter en el 
+12 Cuadro de comando de marcación, entonces ese es el
+13 comandos de marcación activos actualmente.
+14
+15 Comando de respuesta
+16
+17 También hay tres comandos disponibles
+18 bajo el encabezado Comando de respuesta. si
+19 su módem reconoce el comando "AT"
+20 configurados, ATSO=1 hará que su módem
+21 contestan el teléfono después de 1 timbre.
+22
+23 Si su módem no reconoce esto
+24 mando. entonces puedes elegir ATA,
+25 que obligará a la computadora a
+26 contesta inmediatamente el teléfono cuando
+27 ingresa al modo de recepción (respuesta). si
+28 estás usando el comando ATA, entonces
+29 no debe seleccionar el modo de recepción
+30 hasta después de haber escuchado el teléfono
+31 anillo.
+32
+33 Al igual que el comando de marcación, la respuesta
+34 Command proporciona una entrada de comando personalizada
+Caja de 35. Utilice este cuadro para ingresar su personalizado
+Cadena de comando de respuesta de 36 módem.
+37
+38 Tanto el comando de marcación como el de respuesta
+Se utilizan 39 casillas haciendo clic en ellas activas.
+40 con el mouse y luego escribiendo el
+Cadena de 41 caracteres del teclado. tu
+42 debe presionar RETORNO para activar la cadena
+43 y recuperar el control de los botones del ratón.
+			Página 17

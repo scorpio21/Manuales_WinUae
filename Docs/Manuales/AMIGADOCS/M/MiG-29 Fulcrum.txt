@@ -1,0 +1,2252 @@
+                                 SKID ROW
+
+                                 presents     
+
+                        MIG-29 FULCRUM U.S.A. RELEASE
+
+
+
+PAGE 1
+
+CONTENTS
+
+
+FOREWORD
+
+          By John Farley - Test Pilot                         3
+
+INTRODUCTION                                                  5
+
+INSTALLATION AND LOADING                                      9
+
+ Hard Disk                                                    9
+ Loading MiG-29                                               9
+ Loading Sequence                                            10
+
+QUICK START                                                  11
+
+ Mission Selection                                           11
+ Controls                                                    12
+ Weapons Systems                                             13
+ Simulation Controls                                         14
+ Navigation                                                  15
+
+OPERATING INSTRUCTIONS                                       16
+
+ BRIEFING                                                    17
+
+  Mission Selection                                          17
+  Pilot Ranking                                              17
+
+ DISPLAYS AND CONTROLS                                       18
+
+  Flight Instruments                                         18
+  Flight Controls                                            23
+
+PAGE 2
+
+  Weapons System                                             26
+  Countermeasures                                            28
+  Aircraft System                                            28
+  Navigation System                                          29
+
+ SIMULATION CONTROLS                                         31
+
+  View Controls                                              32
+  Other Controls                                             32
+
+ DEBRIEFING                                                  33
+
+ DYING                                                       33
+
+THE MISSIONS                                                 34
+
+ Training                                                    34
+ Solo                   Codename `Blue Seasprite`            36
+ Solo                   Codename `Yellow Dragon`             37
+ Solo                   Codename `White Pegasus`             38
+ Solo                   Codename `Red Witch`                 39
+ Final Mission          Codename `Desert Strike`             40
+
+FLIGHT AND COMBAT                                            41
+
+ BASIC FLIGHT TUTORIAL                                       41
+ AIR TO GROUND ATTACKS                                       49
+ AIR COMBAT                                                  52
+
+APPENDICES                                                   56
+
+ AIRCRAFT PERFORMANCE DATA                                   56
+ AIR TO AIR MISSILE PERFORMANCE                              59 
+
+PAGE 3
+                                 
+FOREWORD
+
+by JOHN FARLEY - Test Pilot
+
+Ever since the MiG-29 was first displayed in public at the 
+Farnborough '88 airshow I've wanted to test fly the plane to see
+for myself how it handled.  At Farnborough '90 I met Mikhail 
+Waldenberg, chief designer for the Mikoyan Bureau, and Valery
+Menitsky, chief test pilot, to discuss the plane's aerodynamic
+achievements.  Valery then offered me the chance of a lifetime -
+a flight in their two-seater to see how the plane flew.  I wasn't
+disappointed, after years testing aircraft such as the Harrier
+for British Aerospace, the MiG-29 proved one of the most 
+exhilarating flights I've ever had.
+
+Now with Dommark's MiG-29 Fulcrum flight simulation, you can 
+experience the nearest thing to actually flying the plane; this
+is no over-simplified game - I was surprised at how accurate the
+model is.  Practice flying using the combined 'angle of attack'
+and 'g' meter.  But remember, too much 'g' and you'll lose
+your color vision or, worse, black out - real features copied
+from the MiG-29 for this simulation.
+
+The Soviet plane has several important features which make it
+different from British and American fighters.  For example,
+on the Russian display of attitude,
+
+PAGE 4
+ 
+the little plane symbol banks in the instrument panel as you 
+turn (whereas with western avionics, the plane symbol is fixed
+and only the background banks).
+
+I was pleased to see that the model reacted very realistically
+during testing.  When flying, note how the high thrust and low drag
+of this remarkable machine allows it to accelerate at low level
+during a 9g turn - just like the real thing.
+
+Try your hand at air-to-air and air-to-ground combat.  But recognize
+that while you train and take risks, real MiG-29 pilots have only
+one life!
+
+Good luck and good flying.
+
+P.S.: Do Try The Tailslide - a unique feature to the MiG-29 air display
+Routine.  Start from level flight at 500kph, pull to the vertical and 
+hold it.  Close the throttles and wait until you slide back.  To 
+recover, pull the stick back until the nose starts to come down, at 
+which point you should apply full power, relax the stick and accelerate
+away.
+
+PAGE 5
+
+INTRODUCTION
+
+The Soviet Airforce: An Overview.
+
+When Hitler's forces rolled into the Soviet Union in 1941, the Soviet
+defenses were literally overwhelmed by the suddenness of the attack.
+Thousands of Soviet warplanes were destroyed - caught unprotected
+by the swiftness of the Blitzkrieg.  But the Soviets worked day and
+night to replace the lost aircraft, even during air-raids!  Much of
+the manufacturing was moved eastwards away from the frotline, out of
+bomber reach.  Perhaps it is this economy of design, born out of 
+necessity as supplies of raw materials became evermore difficult,
+that still pervades the Soviet aircaft design philosophy.
+
+Traditionally, Soviet fighter designs are produced by the Design 
+Bureaux (OKB's) to fulfill a requirement published by the central
+bureau.  The most famous of these in the West is the Mikoyan and Guryevich 
+Design Bureau known more commonly as MiG.  Sukhoi and Yakoviev (SU
+and TU) are also prominent if a little less known counterparts.
+The word MiG has become synonymous with the Soviet Airforce or VVS
+as it is known, due to the exploits, in export form, of its planes
+in the Korean and Vietnam conflicts.  Regardless of the design 
+studio, all Soviet aircraft share a common ideology - simplicity
+of design, ease of maintenance,
+
+PAGE 6
+
+toughness and where possible the ability to operate from rough
+unpaved airstrips of the shortest possible length.  The MiG-29
+for example, can take off from a strip of only 240 meters!
+(787 ft), the American F16 by comparison typically needs twice
+this.
+
+WS cadets who pass the rigorous weeding-out process typically
+begin their jet-propelled flying career on an L29 jet trainer.
+These are flight instructor controlled flights (FIC), but
+gradually pupils will do more and more of the flying until, after
+a year's intensive training, they graduate from the Gugarin Higher
+Aviation Academy.  Pilots are then sent to operational conversion
+units where they learn to fly supersonic planes such as the MiG-21,
+a MACH 2 fighter whose role the MiG-29 was designed to replace.
+The MiG-21 is encountered in this simulation in its export form -
+the Chinese built Shenyang F-7M.
+
+Soviet training has traditionally concentrated on the basics of
+flying - formation flying, low level navigation and a rigid regime
+of tactical combat flying.  Historically this has led to criticism
+of soviet Air Combat Manoeuvres (ACM), as being too rigid and
+inflexible during actual combat - "Show a soviet pilot initiative,
+and the next thing you know he's landing in Japan" as the joke
+goes - a reference to the famous defection of MiG-25 pilot, Lt.
+Belyenko to Japan in 1976.  This inflexibility has had more to do
+with the aircrafts' relative inferiority at dogfighting than any
+lack of ability on the part of the pilots.  Recent advances in 
+Soviet aerodynamics in the shape of the MiG-29 and the SU-27
+however, will probably lead to a new style of flying being taught at
+Soviet air academies, although whether this will result in
+American - style "Top Gun" schools remains to be seen.
+
+The Soviet Air Force is known as the WS (Voyenno - Vozdushnye Sily)
+and is itself divided into two main divisions, the FA (Frontovaya
+Aviatsiya, or frontal aviation) which is the tactical wing and the
+DA (Dalnya Aviatsiya, long-range aviation) which is the
+strategic air arm.
+
+The Simulation: 
+
+In this simulation you will operate the MiG-29 initially as a pilot
+undergoing
+
+PAGE 7
+
+conversion training, before achieving combat status.  In combat you
+will fly the MiG in a variety of locations within the Soviet sphere
+of influence.  Each scenario has its own challenge and therefore tests
+the pilot in different areas of skill - air to air, air to ground,
+unguided missile attack and of course cannon.  Don't forget to use
+your MiG's amazing manoeuvrability to dodge missiles, deplot chaff
+to confuse radar guided missiles and flares for IR guided air to air
+missiles.  Remember to study the performance characteristics of the 
+aircraft you encounter - A Mirage is a much more formidable opponent
+than a Shenyang!
+
+Finally a thank you for purchasing MiG-29 FULCRUM, our first flight
+simulator.  We hope you enjoy discovering the depths of gameplay
+within the simulation.  We have had a lot of fun researching and
+developing it.
+
+John Kavanagh
+The Kremlin, Addlestone.
+
+MiG-29 Development Team:
+
+ Dave Payne
+ Jonathan Newth
+ Paul Stein
+ Ray Jackson
+
+Graphics:
+
+ Steven Blake
+ Lloyd Baker
+ Matthew Hicks
+
+Music:
+
+ Jolyon Myers
+
+PAGE 9 
+
+INSTALLATION AND LOADING
+
+Amiga
+
+Reset computer and insert MiG-29 boot disk, the game will load and
+run automatically.  If you have 1MB of memory then you can select 32
+Color display.  On 512K machines select 16 color display.  On PAL 1MB 
+machines select 256 line display, On NTSC OR 512K machines select 200 
+lines.  
+
+That's a lot of options so here they are fully listed:
+
+512K machines:
+
+PAL                  200 line 16 Color (fastest).
+NTSC                 200 line 16 Color (fastest).
+
+1MB machines:
+
+PAL                  200 line 16 Color (fastest).
+                     256 line 16 Color (bigger screen).
+                     256 line 32 Color (best display).  
+NTSC                 200 line 16 Color (fastest).
+                     200 line 32 Color (better display).
+
+Hard Disk Installation
+
+Create a sub-directory called MIG on your hard drive.  Copy all
+files from the program disk to the directory.  To run the program
+from the CLI type CD MIG.  Press RETURN.  Type EXECUTE MIG-29.
+
+PAGE 10
+
+Loading Sequence:
+
+When MiG-29 is run a loading screen is displayed, accompanied by theme
+music, you can skip this at any time by pressing the space key.  The 
+music is followed by a MiG-29 flyby over red square!  You may also skip 
+this by pressing the space bar.  When the loading sequence is completed
+you are placed in the briefing room.
+
+PAGE 11
+
+QUICK START
+
+Mission Selection:
+
+Selecting an option
+
+You are placed in a briefing room with your options shown on a whiteboard.
+You may select an option with the number keys (1-7) or using the cursor
+keys (up/down).  To comfirm a choice press Enter or Space.
+
+Scenario Summary
+
+1. Basic Training.   
+                     Some ground targets and a safe enemy aircraft to
+                     practice dogfights.
+
+2. Artic Scenario.  
+                     A submarine to photograph and some Harriers as 
+                     opposition.
+
+3. Chinese Scenario. 
+                     Dogfighting with Shenyang fighters over the Great 
+                     Wall.
+
+4. Oil Field Scenario.
+                     An island with storage silos, some oil rigs and 
+                     ships with SAMs and anti-aircraft guns.
+
+5. Anti-terrorist ground attack scenario.
+                     Bridges, trucks, SAMs, train, buildings.
+
+6. Final Scenario.
+                     Multi-role combat in the desert.  Destruction of a 
+                     nuclear plant. 
+
+Pilots Log
+                     You may enter yourself in the pilot's log.
+
+Dying
+                     In the training scenario dying puts you back on the
+                     runway.  In all the remaining scenarios dying is 
+                     terminal!!  You are placed back in the briefing 
+                     room.
+
+PAGE 12
+
+Debriefing   
+
+ You may enter the briefing room during a mission (provided that you 
+ have landed) for a debrief of the current state of play by pressing
+ Ctrl-D.  To continue the mission press SPACE to re-enter the game from 
+ the briefing room.
+
+Controls:
+
+Head up display
+                  
+ Hud on/off `H'
+
+Flight Controls
+                 
+ Engine on/off: `E'                    
+ Throttle up: `='
+ Throttle down: `-'
+ Full power: Shift `+'
+ Idle power: Shift `-'
+ Landing gear: `L'
+ Wheel brakes: `W'
+ Air brakes: `B'
+ Emergency Eject: `Ctrl-E'
+
+Control Stick
+
+ Ctrl-J selects analogue joystick.
+ Alt-J selects switched joystick.
+ Ctrl-K selects keyboard.
+ Ctrl-L selects mouse.
+ Ctrl-Z calibrate analogue joystick (move stick to extremes, press
+        fire button to exit.)
+
+PAGE 13
+
+Keyboard control
+
+roll left:                             `left arrow'
+roll right:                            `right arrow'
+pitch up:                              `down arrow'
+pitch down:                            `up arrow'
+center:                                `PAD 0'
+Joystick center:                       `Z'
+Joystick control power: Main keyboard  `1',`2',`3'
+Pitch trim up:                         `PAD +'
+Pitch trim down:                       `PAD -'
+Zero pitch trim:                       `PAD *'
+Rudder:                                `<',`>'
+
+Weapons System:
+
+ Cannon always available.
+ S-240 unguided rockets.
+ AA-8 Aphid heat seeking air to air missile.  HUD marker turns red for
+  good lock.
+ AS-7 Kerry air to surface heat seeking missile.  The target for guided
+  missiles must be selected before launch.
+
+Fire cannon:     `Joystick or Mouse button 1' or `Delete'.
+
+Select Weapon:   `BACKSPACE'.
+
+Select Target:   `RETURN'.
+
+Fire Weapon:     `Joystick or Mouse button 2' or `Space'.
+
+Drop flares:     `F'
+
+Drop chaff:      `C'
+
+PAGE 14
+
+Aircraft System
+
+Autostab on/off:        `A'
+
+Radar/IR
+
+Cycle radar range       `/'
+
+
+Simulation Controls:
+
+Sounds
+
+ Engine noise on/off:    `N'
+
+ All noise on/off:       `Q'
+
+Views
+
+ Keys in () are active when flying from the keyboard;
+
+ PAD 8 (F8) - Forward view with head down displays.
+ PAD 5 (F5) - Forward view without head down displays.
+ PAD 9 (F9) - Forward Right.
+ PAD 6 (F6) - Right.
+ PAD 3 (F3) - Rear Right.
+ PAD 2 (F2) - Rear.
+ PAD 1 (F1) - Rear Left.
+ PAD 4 (F4) - Left.
+ PAD 7 (F7) - Forward Left.
+
+ MiG outside view:    `V'
+ "Tower" view:        `O'
+ Missile view:        `M'
+ Jump to enemy view:  `J'
+ Pause on/off:        `P'
+ Fast time on/off:    `X'
+
+PAGE 15
+
+ Toggle hedges:         `['
+ Real Aircraft model:   Ctrl-A (only suitable for good joysticks and 
+                        fast PCs).
+ Simple aircraft model: Ctrl-S (default).
+ Debrief:               Ctrl-D (only when on runway).
+ End Game:              Esc
+
+Navigation:
+
+ You have 4 waypoints preset for each scenario.
+ Waypoint Zero is always over your home base.
+ Waypoints One, Two and Three are set over enemy targets.
+
+ Select waypoint `;', this cycles through the waypoints.
+
+ There is a red steering pointer in the heading tape in the HUD.
+
+ There is a combined direction/range pointer in the head down compass,
+ a red LED just to its right shows the currently selected waypoint.
+
+PAGE 16
+
+OPERATING INSTRUCTIONS
+
+Chapter Contents:
+
+ BRIEFING
+ DISPLAYS AND CONTROLS
+
+Section contents:
+
+ Flight Instruments
+
+  Head up display
+  Reversionary instruments
+
+ Flight Controls
+ Weapons System
+
+  Helmet Mounted Display
+  Cannon
+  Air-to-Surface Rockets
+  Air-to-Air-Missiles
+  Air-to-Surface Missiles
+
+ Countermeasures
+ Aircraft System
+  Warning Indicators
+
+ Navigation System
+  Radar/IR
+
+ SIMULATION CONTROLS
+ DEBRIEFING
+ DYING
+
+PAGE 17
+
+BRIEFING
+
+When MiG-29 has loaded you will find yourself in the briefing room.
+The pre-flight briefing allows you to choose which mission you wish to
+undertake.  The missions available are projected onto a white board in
+the briefing room, the selected mission is highlighted.  There is 
+considerable competition between the elite pilots of the MiG-29 squadron,
+this is reflected by a pilot ranking table which is maintained in the
+briefing room.  To enter the ranking select the Pilots option.
+
+Selecting a Mission
+
+On startup the training mission is selected.  You may select an option 
+on the whiteboard using the number keys (1-7) or with the up/down 
+cursors KEYS.  To begin the selected mission press Return or Space.
+
+During the loading sequence for each mission a scene setting picture 
+is displayed.  (With the exception of training which takes you straight 
+to the runway).
+
+The missions available are:
+
+ Training
+
+ Solo      Codename "Blue Seasprit"
+           Codename "Yellow Dragon"
+           Codename "White Pegasus"
+           Codename "Red Witch"
+
+ Final (you must attain a certain score to fly this mission).
+
+More details about each mission may be found in the Missions chapter
+later in the book.
+
+Pilot Ranking
+
+To enter the pilot ranking system select `PILOTS' and press return,
+the current rankings will be projected onto the whiteboard.  You may
+enter the rankings by selecting the `New Pilot' (6) option and
+entering your name (max 10 characters).
+
+PAGE 18
+
+You may play as a ranked pilot by selecting a pliot (1-5).  The ranking
+table is saved to disk every time you display the table or, if you are
+flying as a ranked pilot, each time you exit a mission.
+
+DISPLAYS AND CONTROLS
+
+Flight Instruments
+
+The primary instruments provide the pilot with all the crucial 
+information required to fly the plane.  The information is projected 
+onto the Head Up Display, where it is instantly available.  The head 
+down display contains a set of instruments which duplicate this 
+information.  They are called reversionary instruments, because they
+provide backups in case of HUD failure.
+
+MiG-29 Head Up Display Unit
+
+           --------------------------------------------------------
+           [                    HEAD UP DISPLAY                   ]
+           [ Airspeed              Heading                        ]
+           [ (Km/hr)                  |                           ]
+           [     / ___________________|__________________Altitude ]       
+           [    / |06                09          121    1|  /     ]
+           [  1206                    |                    /      ]
+           [                                            420       ]
+           [           0\                 Waypoint                ]
+           [         /   \          __    Direction               ]
+           [   Pitch/                 --  Indicator               ]
+           [    Bars\            .  LFD                           ]
+           [         \          .../     _ _                      ]
+           [          \         .|.       _|                      ]
+           [           \                   | --VSI                ]
+           [           -1 --               |                      ]
+           [                                                      ]
+           [    G                   |                             ]
+           [     \                  |                             ]
+           [      2                 |               2             ]
+           [                        |                \            ]
+           [                  Velocity Vector        AOA          ]
+           [______________________________________________________]
+
+The MiG-29 HUD has a narrow field of view.  It has been praised for the
+manner in which it presents complex data in a simple and easily 
+understandable way.
+
+Altitude
+
+Vertical height above the ground is shown in meters.
+
+Airspeed
+
+Airspeed is shown in kilometers per hour (100Km/h = 54 KNOTS).
+
+Pitch Bars
+
+The pitch bars stay parallel with the ground at all times.  You can
+therefore use them to recover from unusual altitudes and to keep your 
+wings level when the horizon is not visible.  The lines are at 10 degree
+intervals with a cross at 90 degrees.  When you see the cross
+
+PAGE 19
+
+you are either heading straight up or straight down.
+
+VSI (Vertical Speed Indicator)
+
+This shows your rate of climb or descent.  It is especially useful when 
+turning steeply near the ground.  The VSI has two fixed markers in it,
+the upper marker is the center point (zero rate of climb), the lower 
+marker is the maximum rate of descent which the MiG can tolerate on
+landing.
+
+LFD
+
+The Longtitudinal Fuselage Datum marker shows the direction the nose is
+pointing.
+
+G
+
+This shows the G-force currently on the MiG.  The MiG-29 service limit 
+is 9.5g, however the airframe can withstand considerably more.
+
+AOA (Angle of Attack)
+
+The angle of attack is the angle between the direction of the airflow
+approaching the aircraft and a line joining the leading and trailing 
+edges of the wing.  For normal flight AOA is red-lined at 26 degrees on 
+the MiG-29, however the airframe will remain controllable at higher AOA 
+for short periods of time.
+
+The lift generated by the wing is dependant upon this angle.  If the 
+angle is too high the wing stalls, lift is reduced dramatically and 
+control of the aircraft may be lost.  Conventional wings may stall at 
+AOA of less than 20 degrees.
+
+Velocity Vector
+
+This red marker shows the direction in which the MiG is flying.
+
+Heading
+
+The horizontal band across the top of the HUD shows the current heading
+in tens of degrees.  00 is north, 90 is east, 27 is west and 18 is south.
+
+PAGE 20
+
+Waypoint Direction Indication
+
+This red marker in the heading band shows the heading to the currently
+selected waypoint.  To fly to the waypoint you should turn until the 
+marker is directly above the central tick.
+
+HUD on/off `H'
+
+Turns the head up display system on/off, when the display is off
+(or damaged) a reversionary LFD will be projected onto the HUD.
+
+Reversionary Flight Instruments
+
+Altitude
+
+Vertical height above the ground is shown in meters.  One revolution
+of the needle is 1000M, the thousands of meters are shown as digits in
+the center of the dial.
+
+Airspeed
+
+Airspeed is shown in kilometers per hour (100Km/h=54 knots)
+
+Artificial Horizon and Turn
+
+This is a uniquely Soviet instrument.  It shows the pitch and roll 
+elements of your attitude separately on the same instrument.  The pitch
+element is shown on a rotating cylinder as horizontal lines which move
+up and down in the display.  Flying flat (zero pitch) puts the zero 
+degree line in the center of the dial.  The roll element of your attitude 
+is shown by a bar rotating about the center of the dial.  Traditional
+western artificial horizons use rotating roll lines free floating in 
+pitch (as in the MiG HUD).
+
+VSI (Vertical Speed Indicator)
+
+This shows your rate of climb or descent.
+
+AOA/G
+
+Combined angle of attack and G meter.  AOA is shown on the left half of 
+the dial, it is redlined to 26 degrees.  G is shown on the right side of 
+
+PAGE 21
+
+the dial, it registers 0->9 G's.
+
+Engine Instruments and Controls
+
+Engine gauge
+
+This pair of bars show the engine rpm's.  There are 3 color bands.  
+Yellow is the idle band, green is the normal operation band.  Red shows
+that the afterburners are on.
+
+Fuel
+
+This gauge shows the amount of fuel left.  There is also a low fuel 
+warning lamp.
+
+Engine: `E'
+
+Turns engine on/off.  The engine must be started before the throttle 
+controls work.  You must switch the engine off after landing to refuel 
+and rearm.
+
+Throttle up: `='
+
+Increases throttle.  When throttle is at maximum throttling up further 
+turns on the afterburners.
+
+Throttle down: `-'
+
+Decreases throttle.
+
+Full power: Shift `+'
+
+Sets throttle to maximum.  The engines will idle.
+
+Idle power: Shift `-'
+
+Sets the throttle to minimum.  The engines will idle.
+ 
+Hydraulic Systems
+
+The hydraulic indicator shows the position of the hydraulically driven 
+systems on the aircraft.
+
+PAGE 22
+
+Indicator
+
+ Wheel brakes
+
+  This single green light indicates that the wheel brakes are applied.
+
+ Gear Position
+
+  Three greens show that the landing gear is down.  The indicators show red 
+  when the gear is retracted.
+
+ Air brakes
+
+  Two greens show that the airbrakes are applied.
+
+ Flaps
+
+  Two greens show that the flaps are extended.
+
+ Controls
+
+  Landing gear: `L'
+
+  The landing gear produces a great deal of drag and should be raised 
+  for normal flight to increase performance.  You will not be able to 
+  lower or raise the landing gear after hydraulic system failure.  It
+  is possible to land with gear up if the descent rate is very low and 
+  the wings are almost level.
+
+  Wheel brakes: `W'
+
+  The wheel brakes work on all wheels and are needed for slowing down 
+  after landing.  You must release the brakes before starting your 
+  takeoff, a useful techinique is to throttle up to full power before 
+  releasing the brakes as this reduces your takeoff run.
+
+  Air brakes: `B'
+
+  The air brakes provide extra drag.  This helps you to reduce speed 
+  which can be useful while in a steep ground attack or when you are too 
+  fast on a landing approach.  Slowing down reduces your turning circle, 
+  which makes the airbrakes useful in dogfights.
+
+PAGE 23
+
+  Emergency Eject: `Ctrl-E'
+
+  If you lose control of the aircraft - 2 missile hits or low altitude 
+  stall, you can eject to safety by pressing Ctrl-E.  After a few moments 
+  the parachute will open and you will begin to spin to the ground.  You 
+  can still look around using the Pad/Function keys.  Press Space to exit 
+  and return to the briefing room.
+  
+  Flaps
+
+  2 greens indicate that the flaps are out.  The flaps increase the drag 
+  and lift of the wing, effectively braking the aircraft and increasing 
+  its performance at low speed.  The flaps automatically extend below an 
+  airspeed of 250 knots.
+
+Flight controls:
+
+  Control Stick
+
+The joystick is used to control the orientation and direction of the plane
+in the air.  You may choose between a number of ways of controlling the 
+joystick from your computer:
+
+1.     Keyboard.
+2.     Mouse.
+3.     Switched game joystick.
+4.     Analogue joystick.
+
+The control selected at startup is:
+
+PC - Joystick.
+
+PAGE 24
+
+Amiga/Atari - mouse.
+
+To change the input:
+
+Ctrl-J selects analogue joystick.
+Alt-J selects switched joystick.
+Ctrl-K selects keyboard.
+Ctrl-L selects mouse.
+
+Ctrl-Z: Calibrate analogue joystick (move stick to extremes, press fire 
+        button to exit).
+
+Keyboard: The arrow keys are used to control the joystick.
+
+Mouse: The mouse is used to represent an aircraft joystick.  Imagine that
+       the mouse is the top of a joystick.  Pushing the mouse away lowers
+       the nose of the aircraft, pulling it towards you raises the nose.
+       Moving the mouse left rolls left and moving right rolls right.
+      
+       The neutral position is wherever the mouse started and it must be 
+       returned to this position for no control input.  The joystick 
+       position indicators on the display are useful for fine centering
+       of the mouse.  It takes a while to get used to using the mouse,
+       but once mastered the extra control and precision makes keyboard 
+       or switched game joystick seem inadequate.
+
+MOUSE CONTROL
+
+Mouse Up - Pitch Down
+Mouse Down - Pitch Up
+Mouse Left - Roll Left
+Mouse Right - Roll Right
+Left Mouse Button - Cannon
+Right Mouse Button - Rocket
+
+PAGE 25
+
+Switched Joystick
+
+A switched joystick provides a crude but intuitive way of controlling 
+the game.  It requires no calibration.
+
+Analogue Joystick
+
+An analogue joystick is the most realistic way of controlling the game,
+it provides an accurate and intuitive way input.  You will have to 
+calibrate your analogue joystick before use, this can be done from 
+within the game by pressing Ctrl-Z whilst on the runway.  Move the 
+joystick to all its extremes, press a key on the joystick to end the 
+calibration.
+
+Joystick Center: `Z'
+
+This centers the joystick, it is most useful with the mouse.
+
+Joystick control power: Main keyboard `1',`2',`3'.
+
+You can choose the mouse control response that is best for your flight 
+mode and experience.  Low power (1) is useful for training, normal power
+(2) is useful for most flying, high  power (3) is best for dogfights but 
+makes precise control difficult.
+
+Pitch trim
+
+ Pitch trim up: `PAD +'
+ Pitch trim down: `PAD -'
+ Zero pitch trim: `PAD *'
+
+Rudder `,',`.'
+
+The rudder has 2 uses.  On the ground the rudder input is used to control
+nose wheel steering.  In the air the rudder turns the aircraft without
+roll, but the effect is small.  You can use the rudder for small aiming 
+corrections while attacking ground targets and for final heading
+correction while landing.
+
+PAGE 26
+
+Weapons System
+
+Cannon
+
+The MiG-29 is armed with a 23mm cannon, used for air combat and ground
+attack.  The cannon fires about 1000 rounds per minute and is initially
+loaded with 250 rounds.  The number of rounds left is shown at the top
+of the stores display on the left of the cockpit.
+
+Air-to-Surface Rockets
+
+The MiG-29 is armed with unguided rockets housed in rocket pods, these 
+are used in its ground attack role.  You are initially armed with 36
+S-240 unguided rockets, these are fired two at a time.
+
+Air-to-Air Missiles
+
+Your MiG is supplied with AA-8 "Aphid" dogfighting missile.  The Aphid 
+is a sophisticated modern heat seeking air to air missile.  Your MiG 
+is armed with up to four Aphids on the outboard wing pylons.  On mainly
+air attack missions an additional two Aphids are mounted on the inboard 
+pylons.
+
+Air-to-Surface Missiles
+
+For the MiG's ground attack role it is armed with AS-7 "Kerry" air to 
+ground guided missiles.  The Kerry missiles are loaded on the four 
+inboard wing pylons.  On missions with mainly ground attack targets an 
+additional two AS-7'S are mounted on the outboard pylons.
+
+Helmet Mounted Display
+
+The MiG-29 has a helmet mounted sighting system displaying current
+weapon status and missile "lock" in the pilot's helmet.  The sighting
+
+PAGE 27 
+
+System allows true off-boresight missile firing capability, freeing the
+pilot from the necessity of pointing the nose of his aircraft at the
+target to lock it up.
+
+Weapon Selected
+
+This shows the currently selected weapon.  The MiG is amred with S-240
+unguided rockets, AA-8 "Aphid" air-to-air missiles and AS-7 "Kerry"
+air-to-surface missiles.
+
+Bottom left of Helmet Mounted Display shows the type of weapon.  
+(i.e.: AA-8 would indicate "Aphid" air-to-air missiles, S-240 would 
+indicate unguided rockets, etc.).
+
+Track Box
+
+When a guided missile is selected and a target is being tracked a track
+box is displayed outlining the target.
+
+(This being slightly off center to the right of the Helmet Mounted
+Display).
+
+Selecting Weapons
+
+The cannon is always selected on the primary fire control.  One of the
+S240 / AA-8/ AS-7 may be selected as secondary fire control.  The 
+selected secondary weapon is shown in the helmet mounted display.
+
+Fire cannon: `Joystick or Mouse button 1' or `Delete'
+
+Select Secondary Weapon: `BACKSPACE'
+
+This cycles the currently selected weapon S-240 -> AA-8 -> AS-7 
+
+Select Target: `RETURN'
+
+If the secondary weapon selected is a guided missile (AA-8 / AS-7) the 
+weapon system must attain a "lock" on a target before a missile can be 
+fired.  Pressing RETURN when a target is selected deselects it.
+
+PAGE 28
+
+The target only stays selected for a limited time (- 30 seconds).
+
+Fire secondary weapon: `Joystick or Mouse button 2' or `SPACE'
+
+S-240 - fires two rockets.
+
+AA-8  - if target is selected fires one air to air missile.
+
+AS-7  - if target is selected fires one air to ground missile.
+
+Countermeasures
+
+The MiG-29 countermeasures system comprises of Flare and Chaff
+launchers.  Flares are used to decoy heat seeking missiles.  Chaff is 
+used to confuse radar guided missiles.
+
+Drop Flares: F'
+
+ 4 Flares are dropped.
+
+Drop Chaff: `C'
+
+ Chaff is dropped 8 units at a time.
+
+Aircraft System
+
+Warning Lamps
+
+These are situated on the right side of the cockpit.  There are two
+banks of lamps, 4 failure indicators and 4 warning indicators.
+
+Failure lamps: 
+
+Hydraulic system failure
+
+This indicates that the hydraulic system has been damaged, your landing 
+gear and air brakes will remain in their current positions.  You attempt 
+landing for repair.
+
+Navigation system failure
+
+The navigation computer has malfunctioned or been damaged.
+
+PAGE 29
+
+Radar/IR failure
+
+The radar and/or IR system has suffered a failure.  You may lose some or 
+all of the information displayed on the radar/IR display.
+
+HUD failure
+
+The head up display computer has been damaged, you will have no head up 
+display.
+
+Low altitude:
+
+Stall
+
+ The aircraft is in a stall.
+
+Low fuel
+
+ Low fuel warning.  Return to base for refuelling.
+
+Autostab
+
+ Autostab is on when indicator is lit.
+
+The Autostabilizer
+
+Your MiG-29 is fitted with an autostabilizing system.  The autostab 
+enhances the aircraft stability.  This makes it return to straight and 
+level flight although you can still fly in the normal way.  You should 
+use the autostab while you gain experience and it will always be useful 
+for long distance straight and level flying.  For combat the autostab 
+hinders aerobatic manoeuvres and should be switched off.
+
+Autostab on/off `A'
+
+Navigation System
+
+The MiG-29 compass is a rotating ball with the heading marked in tens 
+of degrees.  Your current heading is shown in the center of the ball.  
+This compass duplicates the heading band in the head up display.
+
+The MiG-29 inertial navigation system has 4 waypoints which are
+
+PAGE 30
+
+Preset before each mission.  The cockpit display consists of a pointer
+overlayed on the compass dial.  The direction of the pointer indicates
+the relative bearing to the waypoint.  The pointer is half green and 
+half red with the green half indicating the direction to fly.  When the 
+green pointer is orientated directly north then you are on course for the
+waypoint.  A white bar crosses the pointer indicating the distance to the 
+waypoint.  When the bar is at the end of the pointer the waypoint is 25Km 
+or more away.  When the bar crosses the center of the pointer you are
+directly over the waypoint.  The relative bearing to the waypoint is also
+indicated by the red steering indicator in the head up display.
+
+Waypoint Selected
+
+This single digit shows the current waypoint selected.  There are 4
+waypoints (0-3) which are preset before flight.
+
+Waypoint cycle `;'
+
+This cycles the currently selected waypoint 0->1->2->3->0->.  The 
+currently selected waypoint is displayed in the head down display.
+
+Radar and Infra Red System
+
+The combined radar and Infra Red display head is situated at the top 
+right of the cockpit.  It displays the information obtained from the 
+forward looking radar and all round IR sensors.
+
+The radar covers a 90 degree forward cone with a maximum range of 30
+kilometers.  The radar range is selectable from 30km, 15km, 8km; the 
+range is shown at the bottom left of the display.
+
+PAGE 31
+
+The Infra Red sensors provide all round directional information, but
+not range.  IR signals are shown as spokes on the display.
+
+Cycle radar range `/'
+
+This cycles the current radar range(Km) 30->15->8->30.  The current
+range is shown in the radar display.
+
+SIMULATION CONTROLS
+
+Sounds
+
+ Engine noise on/off: `N'
+ All noise on/off: `Q'
+
+Views
+
+ Views from aircraft;
+
+ The numeric keypad is used to select all round views from the
+ plane.
+
+ PAD 8 - forward view with head down displays.
+ PAD 5 - forward view without head down displays. 
+
+                                PAD 8 / 5
+
+                     PAD 7                     PAD 9
+                     PAD 4                     PAD 6
+                     PAD 1                     PAD 3
+                                  PAD 2
+
+If the keyboard is being used as the primary control input then the
+function keys control the outside views.
+
+F8 - Forward view with head down displays.
+F5 - Forward view without head down displays.
+F9 - Forward Right.
+F6 - Right.
+F3 - Rear Right.
+F2 - Rear.
+
+PAGE 32
+
+F1 - Rear Left.
+F4 - Left.
+F7 - Forward Left.
+
+View Controls
+
+MiG Outside view on/off: `V'
+
+This places you outside the aircraft.  The relative position of the 
+viewer to the aircraft can be controlled on the numeric keypad (or 
+function keys) as above.
+
+Missile View: `M'
+
+If a guided missile is in flight this shows the view from the missile's
+infra-red eye.
+
+While you are looking from the missile's point of view you are still in 
+control of the aircraft.  It is advisable to be in a straight and level
+Flight before selecting another view!
+
+Jump to enemy view: `J'
+
+This allows you to see the world from the enemy`s point of view.  If an 
+enemy target is selected (air or ground) by the weapons system `J' will 
+jump to the enemy view.  It is most entertaining to select an enemy 
+plane whilst dogfighting and follow his manoenvres!
+
+Control tower view: `O'
+
+This selects a view of your aircraft from your home runway.  You can fly 
+the MiG-29 like a radio controlled aircraft!  The control tower view 
+automatically zooms in on you when you fly away from the tower.  The 
+maximum range is 10km.
+
+Other Controls
+
+Debrief: `Ctrl-D'
+
+This places you in the briefing room for a post mission debrief.  You 
+can only be debriefed after you have landed on the runway.
+
+PAGE 33
+
+Pause: on/off: `P'
+
+Fast time on: `X'
+
+ Turning on fast time speeds up simulation for the entire game by a 
+ factor of 3.
+
+DEBRIEFING
+
+You can enter the briefing room for a debrief at any time during a
+mission (provided that you have landed).
+
+Your mission debrief informs you if your mission is complete, and if
+not how many targets remain.  Your current score is also shown.
+
+To continue the mission press Return or Space to get to the briefing 
+room and Return or Space again to restart.
+
+DYING
+
+If in the unfortunate event of your crashing or being shot down the 
+screen blacks out and a death screen appears describing the reason of 
+your crash. 
+
+You are then placed in the briefing room.
+
+PAGE 34
+
+MISSIONS
+
+The missions available in MiG-29 are:
+
+ Training                                                   
+
+ Solo:                  Codename `Blue SeaSprite`           
+                        Codename `Yellow Dragon`            
+                        Codename `White Pegasus`            
+                        Codename `Red Witch`                
+
+ Final:                 Codename `Desert Strike`            
+
+Level of difficulty
+
+Each mission features a different aspect of flying the MiG-29 and demands
+a different level of pilot skill.  In the training missions a high level 
+of skill is required giving you the opportunity to learn in a benign 
+enviroment.  The solo missions each feature a different aspect of flying 
+the MiG-29 and all require similar levels of skill.  The final game 
+requires skill in all areas of combat.
+
+Training Missions
+
+You`re welcome to the Elite Pilots' School"
+
+Welcome to the pilots' school at Orzusk Aerodome.  As one of the elite
+group of cadets chosen to train on the prestigious MiG-29 you will be 
+under a lot of pressure to perform well during your training and to go
+on to one of the many MiG-29 squadrons around the USSR.
+
+Once you have completed the training missions you will be assigned
+a number of missions based on real-world scenarios which must be
+completed successfully.  Each scenario is designed to test one
+particular area of the MiG-29's theatre of operations, and your
+skill in completing these missions will dictate how soon you can
+pass on to join the elite cadre of MiG-29 veterans.
+
+PAGE 35
+
+The Training Scenario
+
+The training scenario features a number of elements to introduce
+you to the capabilities of the MiG-29.  There is a firing range designed
+to exercise use of your 23mm cannon and unguided rockets.  The lake has 
+targets for your guided air to surface rockets.  There are a number of 
+manoeuvring air drones allowing you to learn the art of dog-fighting 
+with.
+
+Each of these elements is marked with a waypoint preset in the navigation 
+computer.
+
+Waypoint 0 Home runway (one).
+Waypoint 1 Firing range.
+Waypoint 2 Lake.
+Waypoint 3 Runway two.
+
+Your training will require the completion of the following tasks (if you 
+do not master these basic skills in training you will certainly die when 
+you attempt a solo mission - but you are free to try!).
+
+Suggested Training Program:
+
+Takeoff, perform a controlled turn and land on visuals.
+
+Takeoff, fly to firing range (waypoint 1), destroy tragets, return 
+(waypoint 0) and land on runway.
+
+Takeoff, fly to lake (waypoint 2), use AS-7's to destroy targets, return
+and land.
+
+Takeoff, fly to next airfield (waypoint 3), engage enemy drones using 
+AA-8's and land on runway two.
+
+PAGE 36
+
+Solo Missions
+
+Codename "Blue SeaSprite"
+
+The counter-intelligence analysis section of the GRU has intercepted
+American communications traffic indicating that two days ago a Dallas 
+"Boomer" class ICBM submarine developed a reactor fault and has had to
+surface.  It is now trapped in ice, but latest weather estimates that
+the ice will start breaking up in the next twenty-four hours.  The 
+submarine is trapped INSIDE NATO territorial waters and consequently
+unapproachable by one of our Russian sea based fleet.  A continuing
+heavy cloud layer prevents the use of spy satellites to photograph the
+submarine.  This is too valuable an opportunity to miss, so a single 
+MiG-29 will be despatched to film the sub.  To further complicate
+matters there are believed to be three British Sea Harrier jets 
+operating from the ice providing air cover for the sub.
+
+Mission: 
+
+Takeoff from airbase in Siberia.
+
+Navigation at normal flight levels to within 30Km of submarine.
+
+Descend to below radar horizon and continue to navigate to submarine.
+
+Page 37 
+
+When within range of sub fly towards it at 200 meters, approach within
+100 meters of submarine.  Note numbers on side of submarine.
+
+Return to base "ASAP"!
+
+NB: We are not prepared to start WW3 so if you intercepted by British 
+fighters, do not REPEAT DO NOT engage, if necessary terminate the 
+mission.
+
+Waypoint 0 Home base.
+Waypoint 1 Submarine.
+Waypoint 2 Harrier base.
+
+Codename "Yellow Dragon"
+
+Over the last week there have been a worrying number of "incidents"
+involving Chinese illegal incursions into Soviet airspace.  These 
+incidents have always taken the same form with a group of three
+Chinese fighters flying into restricted airspace towards Tbliski 
+aerodrome.  Units of the Tbliski's ageing SU-21 fighters are scrambled,
+but as soon as they fly into visual range the Chinese the Chinese
+fighters turn around and fly home.  That is until yesterday when the 
+Chinese shot down one of the Soviet fighters.  The Chinese Ambassador 
+regrets this unfortunate "Accident"!  We have decided that a single 
+MiG-29 should fly an
+
+PAGE 38
+
+intercept mission to teach the Chinese an important lesson about 
+"Tickling the bear's nose" too many times!
+
+Mission:
+
+Scramble from Tbliski.
+
+Fly towards Shenyang Fighters and shadow them until they leave Soviet
+airspace.  Do not engage in hostilities unless provoked by direct 
+action.
+
+Return to base.
+
+Waypoint 0 Home base.
+Waypoint 1 Great Wall.
+Waypoint 2 Chinese runway.
+Waypoint 3 Chinese runway.
+
+Codename "White Pegasus"
+
+Tension has been rising over the last few days after a leader of the 
+middle Eastern state of Arzaria, General Hasouz proclaimed that Arzarian 
+territorial waters would henceforth stretch 200 miles into open sea.  
+(The internationally accepted standard is 12 miles).  In addition, he has 
+proclaimed that all sea traffic within this 'Territorial Sea Zone" 
+directly violates Arzarian territorial waters, and that any such shipping
+would be fired upon.  Yesterday, a Soviet oil tanker, the Rodina, ran
+into severe difficulties after a fire in the engine room completely 
+destroyed all rudder control.  The Rodina drifted for 12 hours to within 
+80 miles of the Arzarian Coast.  Despite numerous pleas for help was 
+ignored.  Eventually an Arzarian gunboat was dspatched and the Rodina was 
+boarded.  After much arguing and posturing by the Gunboat captain, the 
+crew of the Rodina were "removed" from the ship and the Rodina was then 
+sunk by a torpedo launched from the gunboat.  It has been decided that 
+this incident cannot pass without notice and that some form of 
+retaliatory action MUST be taken.  Since Hasouz has directly attacked 
+the Soviet oil supply, it has been decided that the same should happen
+to him.  A single MiG will fly a covert mission to attack targets
+opportunely (preferably oil
+
+PAGE 39
+
+refineries or oil rigs).
+
+Mission:
+
+Take-off from island aerodrome.
+
+Low level flight towards oil fields.
+
+Air-to-ground missile attack on refinery and oil rigs. 
+
+Return to aerodrome.
+
+Waypoint 0  Home base.
+Waypoint 1  Island.
+Waypoint 2  Oil Rig.
+Waypoint 3  Oil Rig.
+
+Codename "Red Witch"
+
+A Terrorist group operating WITHIN the Soviet territory have been 
+destroying road and rail links between major cities.  One of the reasons 
+they have been so hard to track down is that they constantly move their 
+base thus making it difficult to pinpoint their location.  It is also 
+believed that they only travel on back roads and always at night to avoid 
+detection.  Fortunately the KGB have managed to infiltrate an agent into
+the terrorist group, and he has given us a date, time and approximate
+position of their convoy.  Your mission is to provide air support for a 
+Spetnatz commando group acting covertly to "remove" the terrorist threat.
+
+Mission:
+
+Take-off from airbase.
+
+Navigate to predicted area of operations.
+
+Track terrorist vehicles to base. 
+
+Destroy vehicles and base.
+
+Return home.
+
+Waypoint 0  Home base.
+Waypoint 1  Bridge.
+Waypoint 2  Enemy HQ 1.
+Waypoint 3  Enemy HQ 2.
+
+PAGE 40
+
+Final Mission: 
+
+Codename "Desert Strike"
+
+Terrorist elements of a Middle Eastern state have been attacking merchant 
+ships in the strait of Hormuz.  The leader of the state has been shown on 
+TV publicly ridiculing both the USA and USSR as weaklings.
+
+Normally this would be of no consequence, but other elements in the Middle 
+East are now looking towards a potential "Jihad".
+
+Over the last few months the KGB's Satellite Intelligence Service (SIS)
+have noted a large amount on construction work in one particular area of 
+the Lahal desert.  Analysis indicates that this construction is for a 
+fast breeder nuclear reactor.  The technology to develop nuclear weapons 
+is already possessed by the Middle East; this reactor would provide the 
+plutonium required for production.
+
+It has been decided that this reactor MUST be destroyed at all costs.
+
+Mission:
+
+Take off from airbase in `friendly' Middle Eastern state.  Fly across 
+border and secure an advanced airbase for further operations.  Create
+safe path through ground defense network by destruction of ground 
+defenses and aerodromes.
+
+Destroy nuclear facility and support complexes.
+
+Waypoint 0  Advance base.
+Waypoint 1  Desert fort.
+Waypoint 2  Truck base.
+Waypoint 3  Fuel dump.
+
+PAGE 41
+
+FLIGHT AND COMBAT
+
+BASIC FLIGHT TUTORIAL:
+
+A flight simulation on a personal computer can't move you physically
+in the same way that a real aircraft would.  This means that instead
+of you rolling with the aircraft as it banks, the simulated world is
+rolled the other way instead.  You will soon get use to compensating 
+this as you move and the world staying still.  Until this happens you
+may find this confusing that banking to the right makes the world
+roll to the left or that pitching up makes the world move down.
+
+The controls of an aircraft cause the aircraft to move while the control
+is applied and to stay at the same attitude when the control is neutral.
+This means that the aircraft will not return to straight and level
+flight just because the controls are central.
+
+The main control for a fighter aircraft is a joystick.  Moving this
+backwards and forwards changes the angle of the tailplane which
+causes the aircraft to change its pitch.  Pulling the joystick back
+causes the nose to pitch up, and pushing it forward causes the nose 
+to pitch down.  Moving the joystick from side to side changes the
+angle of the ailerons which cause the aircraft to roll.  Moving the
+joystick left rolls left and moving it right rolls right.  The 
+controls work by reacting against the air flowing over them which
+means that at low speeds the controls have less effect.
+
+The ideal control for a simulated aircraft is an analogue joystick. 
+This has a greater effect the further it is moved and is sprung-
+loaded back to the center position.  The next best is a mouse,
+which gives very precise control but is hard to return its starting
+position to give zero control input.  The simulation cockpit has a
+special joystick position display to make it easier to return the
+controls to neutral.
+
+In the absence of an analogue joystick or mouse a switched joystick
+or the keyboard can be used.  Both these controls have more effect 
+the longer pressure is applied or the keys are held down.  Reversing
+the direction
+
+PAGE 42
+
+immediately returns the control to zero and then continues in the
+new direction.  These effects can be seen by noting the control
+position indicator.
+
+The best way to learn to fly is to practice.  MiG-29 has a special  
+training scenario which simply returns you to the starting position
+on the first runway if you crash.  This allows you to learn to control
+the MiG without waiting for the program to go through a long restart
+sequence.
+
+You can select the training scenario from the briefing room.  You will
+be placed on the first runway with your engine idling and wheel brakes
+on.  Press CTRL-D to exit to the briefing room and select another
+scenario.
+
+You should have the controls and display reference card to hand to
+remind you of all the keyboard functions.
+
+Take off:
+
+When you are ready to take check that your controls are central and
+then use the = key to throttle up to full power.  You will start to
+move as the brakes are not powerful enough to hold you against full
+power.  Press W to release the wheel brakes which allows you to
+accelerate faster.
+  
+You airspeed is the number at the top left of the Head Up Display (HUD).
+This is in kilometers per hour (km/h).  2 km/h is about 1 Knot.  When
+your airspeed is over 300 Km/h you should pull back on the joystick
+to take off.  This may take a large control input but as soon as you
+leave the ground return the elevator to neutral.  If your nose has
+pitched up to more than about 10 degress you should move the stick 
+forward to reduce your pitch to 10 degrees.  10 degrees is the first
+line marked with a 1 on the HUD and the central green cross gives the
+position of your nose.
+
+You should retract your landing gear by pressing L as soon as
+convenient.
+
+Straight and Level Flight:
+
+Keep your wings level by correcting with sideways movements of the
+joystick.  If the left wing is low then move the joystick to the
+right until the horizon is level and then center the joystick.
+If the right wing is low use left joystick.  If the horizon is out
+of view you can look at the lines in the HUD which are always
+
+PAGE 43
+
+parallel to the horizon.
+
+Initially you should try to fly at a height of between 1000 and 2000
+meters.  You height is shown at the top right of the HUD.  Maintain 
+height by keeping the central green cross on the horizon.
+
+If you get into an unusual attitude your should always level your
+wings before using the elevator to pitch your nose back to the
+horizon.  If you lose control you can use the auto-stabilizer to
+recover.  First center your joystick by pressing Z and then switch
+on the auto-stabilizer by pressing A.  You may prefer to leave the
+auto-stabilizer on for your initial flights.
+
+Turns:
+
+When you have mastered flying straight and level it is time to
+practice turning.  A fast jet is not east to turn quickly.  The
+faster you fly the more force is required to make the turn.  The
+force is known as g force and the MiG can produce over 10g in a 
+tight turn.  This is 10 times the force of gravity.  The only way
+of producing this force is by using the wings.  When you are banked
+over the lift from the wings is going sideways rather than up and you
+use this force to turn.  Pulling back on the joystick not only
+pitches the nose up but also increases the angle of the wings to the
+airflow, thus producing more lift and therefore more g force.
+
+Flying straight and level requires 1 g of lift.  Simply banking the
+aircraft produces just 1g over to one side allowing the aircraft to
+turn slowly.  To turn fast the aircraft should be banked until the
+wings are nearly vertical and then the elevator can be used to control
+the rate of turn.  It is quite difficult to control the bank angle 
+while pulling back on the joystick, but controlled high g turns are an
+essential part of flying a high performance aircraft like the MiG-29.
+
+While practicing turning you will probably notice that the nose of the
+aircraft drops towards the ground.  This is caused by sideslip 
+and makes turning at low altitudes difficult.  The best way to
+counteract this is to bank to less than 90 degrees and to use the
+elevator to keep the nose up.  The closer you are to 90 degrees the
+more elevator you will need.
+
+PAGE 44
+
+Navigation:
+
+When you can make controlled turns it is time to learn to navigate.
+Fighter aircraft have simple navigation systems so that the pilot
+can concentrate on flying and combat.  The MiG-29 simulation includes
+several waypoints, which are points on the ground preprogrammed into the
+navigation system.
+
+The training scenario starts with waypoint 0 selected which is set to the
+center of your base runway.  To return to this runway you can use the red
+line on the compass display at the top of the HUD.  When the red line is 
+centered you are flying directly towards the selected waypoint.  The head
+down navigation instrument also shows information about the waypoint.
+The green line shows the direction relative to your nose and the white 
+cross bar shows the distance.  You can change waypoints by pressing the
+; key.
+
+To return to base keep heading towards waypoint 0, and keep your altitude
+to about 1000 meters.  If you are too high you won't see any ground
+features.
+
+If you fly with afterburners on you will use more fuel and your range 
+will be much less.  If you have gone too far during practice you may
+run out of fuel before you can land to refuel.  This is an easy way
+to get back to base.
+
+Try and experiment with different throttle settings and the airbrake
+to see what effect they have on speed.  It takes a long to lose
+speed in straight and level flight, but tight turns at low throttle
+will burn off speed much faster.  Climbing steeply will reduce speed
+and diving steeply will increase it.
+
+At low levels the speed of sound is a barrier which the MiG can only 
+just break.  Its top speed is 1400 Km/H at sea level and even 
+afterburners increase your top speed by less than 150Km/H.  If you
+go higher the top speed will increase to 2500Km/H at 10000 meters.
+
+Landing:
+
+When you can navigate back to your base runway, the next problem is
+landing on it.  A good landing requires a low descent rate with the
+wings nearly level and a low enough forward speed to stop before the
+end of the runway.
+
+The secret of a good landing is a good approach.  This means that you
+need to
+
+PAGE 45
+
+start a long way out from the runway.  The base runway is aligned 
+North-South and there is no wind so you can land from either end.
+A simple way to align the aircraft with the runway is to fly over
+the runway heading North and South and keep going at an altitude of
+of about 1000 meters for at least 30 seconds.  Then make a tight 180
+degree turn until you are heading back to the runway.  Unless you
+have flown slightly off the due North or South course, the turn will
+put you to one side of the direct line to the runway.  You should get 
+back to a straight line from the runway as soon as possible.
+
+A good speed for the approach is 500Km/H.  The throttle should be
+rduced to zero and the airbrake used if needed.  At 500Km/H and about
+5 kilometers from the runway, lower the landing gear and take off the
+airbrake.  Point the aircraft's nose down, directing it at the start of
+the runway.  Increase throttle slightly if the speed get too low.  
+The steeper your descent the less throttle you will need to maintain
+airspeed.  The landing gear adds drag and therefore slows you down.
+When you are about 2 kilometers out you should start to slow down to
+about 250 Km/H and lower the landing gear.
+
+There is a red aircraft symbol in the center of the HUD.  This is your
+velocity vector.  It shows the direction in which you are actually 
+travelling as opposed to the direction the aircraft's nose is pointing.
+
+The slower you fly the more you have to keep your nose up to maintain
+level flight.  The velocity vector shows you true direction and as you
+slow down you can use it to show you where you will land.  Your nose
+can be well above the horizon but your downward speed can still be too
+high to enable a safe landing.  The velocity vector shows this.  In
+addition, the vertical speed indicator in the HUD shows your
+descent rate.  This has to be above the lower line for a good landing.
+When you down to about 10 meters you should pull back on the joystick 
+to round for a gentle touch down.
+
+If you slow down too much you will stall.  This happens when the angle
+of attack of the wings to the airflow is greater than about 20 degrees.
+If you stall, the nose will drop and you will height.  If you are low
+you will hit the ground.  If while landing the velocity vector gets
+close to the bottom of the
+
+PAGE 46
+
+screen, then this is a good sign of an impending stall.  The angle
+of attack indicator at the bottom right of the HUD is also useful.
+
+When you are safely on the runway, ensure that the nose is down,
+apply wheel brakes and use the rudder/nose wheel steering to stay on
+the runway.  You will automatically be refueled when you stop.
+
+ADVANCED FLIGHT:
+
+The MiG-29 uses advanced aerodynamcis.  It does not have a fly-by-
+wire computer system and therefore relies on good handling and pilot
+skill for its performance.  The most remarkable feature is its 
+controllability at very high angles of attack.  A conventional wing
+stalls at about 15 degrees but the MiG is still under control at 25
+degrees.  The drag is of course considerable at high angles of attack
+and the afterburners are essential for maintaining speed.
+
+The MiG-29 simulation has two different aircraft models.  The standard
+model is designed to compromise between ease of flying and realism.
+There is also a more advanced model that is a much more accurate
+simulation, but which requires a fast computer to run effectively.
+
+This is because the forces acting on the aircraft are calculated
+and then used to determine its acceleration and velocity.  If the 
+time step for this calculation is more than about 1/10 second, 
+inaccuracy can build up causing oscillations.  It is also more
+difficult to fly.  (A fast response time to control inputs is
+important).  This limits the advanced model to 16/32 bit
+computers with a clock speed of 16MHz or above which can maintain
+a frame rate of over 10 Hz.
+
+A good analogue joystick is also an advantage for flying the advanced
+model.  A good joystick has very little backlash which means that it
+returns to precisely the central position when released.  A second 
+joystick for rudder and throttle is also very useful.  With enough
+practice the mouse works quite well but keyboard control is difficult.
+
+Some of the manoeuvres and techniques discussed in this section can
+only be performed by the advanced model.  This is enabled by pressing
+CTRL-A.  Using the fast time feature makes the advanced model hard
+to control and it
+
+PAGE 47 
+
+may become unstable on slower computers.
+
+The MiG-29 airframes is very strong and can take about 13g.  An
+experienced pilot can take about 10g after which there is a high
+risk of blacking out.  Blacking out is not covered in this 
+simulation, but using full elevator control at high speeds is
+unwise as there is no fly-by-wire system to prevent you breaking
+the airframe.  There is a g meter at the bottom left of the HUD
+and this should be airframe.  There is a g meter at the bottom left
+of the HUD and this should be used to avoid pulling more than 10g.
+
+The reduction of air density with altitude is simulated.  This means
+that the aircraft can fly much faster at high altitude, but it 
+becomes harder to control.  Thin high altitude air does not provide
+much lift so high g manoeuvres become increasingly difficult.  The 
+MiG has an operational ceiling of about 20,000 meters (60,000 feet).
+Above this altitude the air is too thin for the jet engine which
+produces almost no power.
+
+The drag increase at the speed of sound is also simulated.  This
+prevents high speed flight at low level.  The MiG-29 can fly at 1,400 
+Km/H (Mach 1.1) at sea level, but up to 2,500 Km/H (Mach 2) at an
+altitude of 10,000 meters.  This means that flying high is the best
+way to reduce travel time.  However, dogfighting at high level is
+difficult.
+
+The simulation deals with unusual aircraft altitudes and continues
+to calculate forces on the aircraft even when far outside the normal
+flight envelope.  This allows you to perform the full range of
+aerobatics.
+
+There is a velocity vector in the HUD.  This is the red aircraft
+symbol.  It shows you the point in space towards which you are 
+actually moving.  It stays close to the central green cross at
+high speed and low g.  When flying at low speed or high g, the
+velocity vector can be a long way from the center.  For example,
+at 25 degrees angle of attack, the velocity vector is 25 degrees
+below the center line of the aircraft, and out of the field of
+view of the HUD.
+
+The velocity vector can be very useful for accurate flying.  For
+example, when you are pulling a high g turn you have to keep the
+velocity vector above the horizon to avoid losing height.  If you
+are below 100 meters and the velocity
+
+PAGE 48
+
+vector is much below the horizon you should start worrying.  The
+velocity vector will show you exactly where you will touch down
+when landing.  For a controlled, slow landing, the nose may have to
+be nearly 10 degrees above the horizon and you have to use the
+velocity vector to monitor your "round out".
+
+The elevator on the MiG-29 is very powerful and is easily capable
+of holding the nose up even when the wings are fully stalled.
+The design of the wings prevents them from producing roll 
+instability as they stall, so it is quite easy to fly the aircraft with 
+the wings at 25 degrees angle of attack.  However, there is a large
+amount of drag at these high angles and you will need lots of engine 
+power to sustain them for long periods of time.  If you fly slowly
+enough and with insufficient power, the elevators will be incapable
+of holding the nose up and a full stall will develop.
+
+The controls become less effective as airspeed drops.  Below about
+200 Km/H this effect is very noticable and there is no choice but
+to wait for airspeed to build up to regain full control.
+
+AEROBATIC STUNTS:
+
+The MiG-29 is famous for its tailslide manoeuvre which would probably
+be outside the envelope allowed by a fly-by-wire aircraft.  This
+manoeuvre is quite easy to perform provided you have sufficient 
+height for recovery.
+
+Fly straight and level at about 500 meters altitude and about 800
+Km/H airspeed.  Pull back hard on the stick while reducing throttle
+to an idle.  Aim to climb at 80 degrees upwards as shown by the
+HUD and ensure the wings are level while you still have sufficient 
+airspeed for control.
+
+Your airspeed should drop to zero by about 1,500 meters altitude 
+and you will then start to slide backwards.  Note that the elevator
+control is reversed when moving backwards so you will need to pull
+back on the joystick to make the nose drop faster.
+
+Let the nose drop until you can see the velocity vector again and
+apply full power and pull out carefully.  You should be back in 
+level flight at about 500 meters altitude.  The only real problem
+is trying to recover too soon and getting
+
+PAGE 49
+
+locked into a stall right down to the ground.
+
+Another fun manoeuvre is a dead stick landing.  Start from about 
+2,000 meters near a runway and switch the engine off.  You need to
+descend at an angle of about 10-20 degrees to maintain airspeed
+and pulling any tight turns will lose speed very quickly.  Wait
+until you are very low before lowering your landing gear and "round
+out" precisely.  Any ballooning after the "round out" can lead to a
+stall and a crash. 
+
+AIR TO GROUND ATTACK
+
+You have three different weapons to use for ground attack.  The 
+simplest is the cannon.  This is always ready for use simply by 
+pressing the main joystick or mouse button, or by pressing the
+Delete key.  Some of the shells are "tracer" which mark the path
+of the shells.  The trajectory of each shell is simulated as it
+
+PAGE 50
+
+falls under gravity and you will see it explode on contact with 
+the ground or any solid object.  The explosions clearly mark the
+impact point of the shells and you can use this to steer a long burst 
+onto the target.  You only have 250 rounds so you can only do this
+a few times in any one sortie.
+
+The effective range of the cannon is about 2 kilometers, but you
+will probably not hit anything at over 1 kilometer.  The cannon is
+useful against soft ground targets which include trucks, anti-
+aircraft guns, SAM sites and some buildings.  The best way to use 
+the cannon is to approach in a shallow dive at low throttle. 
+If you miss on the first pass, the simplest way to get back is to
+open up to full power and fly straight ahead for a few seconds.
+Then do a fast half loop, cutting power as you go over the top, 
+and keep going over until you can see the target.  Do a quick
+half roll to level, apply airbrakes and fire when close.  Allow
+plenty of height to pull out of the dive as pressing on until the
+target is
+
+PAGE 51
+
+hit often does not give you time to recover.
+
+The S-240 unguided rocket is the default weapon selection as shown
+by the type at the bottom left of the helmet mounted display.  A
+salvo from both underwing stations can be fired at any time by the
+second joystick or mouse button, or by pressing the spacebar.
+
+The S-240 will destroy any target, although some may require several
+hits.  The rockets drop with gravity, but are fired slightly upwards
+so that they cross your centerline after about 1.5 kilometers, which
+is a good firing range.  The tactics for the S-240 are very similar to 
+the cannon, but you only have 36 salvos so they should not be wasted in 
+ranging shots.
+
+The AS-7 Kerry heat seeking missile can be used to attack any major  
+ground target.  The AS-7 is activated by cycling your chosen weapon
+using the Backspace key.  Any target that is tracked by your combined
+infra-red and radar system, and shows as a yellow point on your head 
+down screen, may be designated by looking at it and using the Return
+key.  The target nearest the center of your view will be chosen.  This
+means that you can designate targets while looking sideways.  The 
+selected target will be shown by a box drawn around it on the helmet 
+mounted display.  However, the missile will only lock onto targets
+within 45 degrees of your heading, so you should be flying towards
+the target before firing.
+
+Some targets may require more than one hit to destroy them and you only
+have up to 6 AS-7's so you will have to use them carefully.
+
+Some ground targets are defended by by anti-aircraft guns or SAMS,
+it is advisable to reduce these defenses before attacking the main
+target. 
+
+Anti-aircraft guns may be ground based point defenses or mounted on
+a tank or a ship, depending on the scenario.  They are fairly accurate 
+and difficult to hit without being shot down.  They use a simple 
+predictor system so the best defense is to weave continuously while
+flying away and trust to luck while attacking.  Either cannon or
+rockets will destroy anti-aircraft guns.
+
+The SAMs are radar guided, with various ranges.  The launchers appear
+as red
+
+PAGE 52
+
+points on your radar when active.  The only way to avoid their 
+attention is to fly low.  They can be destroyed by cannon, rocket
+or AS-7 missiles.
+
+If your infra-red system detects a SAM launch you will hear a warning
+and the direction of the missile is shown as a red line on the head
+down display.  Your only defense is to drop radar reflective chaff
+and turn hard.  Some missiles may have enough fuel to turn back   
+for a second pass if you manage to dodge the initial attack.
+
+The training scenario allows you to practice ground attack without
+any opposition.  There is a rocket firing range at waypoint 1 which
+is North-West of your base.  You should approach the range from the
+South to see the range markers on the ground.  The target is at
+the North end of the white V.  If you enter the South end of the V
+at about 200 meters and about 800 Km/H and fly straight at the point
+of the V, you should be able to fire your rockets from a range of
+about 1500 meters and score a direct hit.
+
+Waypoint 2 is a lake with a target barge in the middle and a tank
+on the shore.  Both these targets can be designated for the AS-7 missile,
+although a successful rocket attack is more satisfying.  The tank is
+difficult to hit.
+
+Waypoint 3 is an airfield.  There is a hangar which can be destroyed
+by AS-7 or rocket and Mirage aircraft on which to practice with air-
+to-air weapons.  The hangar will keep producing replacement Mirages
+until you destroy it.
+
+AIR COMBAT
+
+Dogfighting is an essential part of the MiG-29 simulation.  The final
+scenario is probably impossible to complete without first gaining
+superiority.
+
+In the final scenario the enemy aircraft are Mirage 2000 and MiG-29's
+which means that you have some strong opponents.  You will also be
+outnumbered, sometimes by as many as 4 to 1.  The only advantage 
+you will have is pilot skill, so it is worth using the harmless
+aircraft in the training scenario for practice.
+
+You have 2 air combat weapons.  The first is the cannon.  You have
+to be very
+
+PAGE 53
+
+close to the enemy aircraft and probably behind it to stand much
+chance of hitting it.  If it is turning you will have to shoot a 
+considerable distance ahead.  It takes a lot of practice to judge
+the lead distance, but the first time you see the explosions of your
+shells hitting the airframe, followed by a trail of smoke as it
+spirals towards the ground, it will seem worthwhile. 
+
+The easier of the weapons is the AA-8 Aphid heat-seeking missile.
+You select this with the backspace key.  You designate your target
+with the return key.  The chosen target is the one nearest the center
+of your view, which does not have to be forwards.  The AA-8 has
+similar limitations to the AS-7 and can only lock onto a target
+that is within its view cone.  You should only fire at a selected
+target that is ahead of you.  The selected target is boxed in standard
+HUD color which turns red when the heat signature is very strong.  This
+is when its jet exhaust is towards you and your missile has the best
+chance of hitting.  You can fire when the box is green but the success
+rate will be lower.
+
+The enemy is also equipped with cannon and heat seeking missiles.
+If you avoid flying straight and level in front of enemy aircraft
+you will probably not be hit by cannon fire.  However enemy missiles
+are a bigger problem.  There is a
+
+PAGE 54
+
+warning alarm sound when an enemy launch is detected and the direction
+of the missile is shown by the red line on the head down display.
+You can decoy the missile with well timed flares and by pulling high
+g evasive manoeuvres.  Once the missile has gone past it is harmless
+and cannot return for another pass.  Enemy aircraft can only launch
+missiles when you are in front of them, so the best defense is to get
+behind them.  This is often impossible when fighting more than one
+opponent.
+
+The head down display shows the position of enemy aircraft when in
+front and when range can be measured by radar or laser ranging.
+They appear as a green point.  When they are out of the range sensors'
+field of view, their direction is measured and shown as a green line.
+
+     MiG-29 COCKPIT HEAD DOWN DISPLAYS (see diagram: Page_54.IFF)
+
+ 1. STORES:
+    flares 
+    chaff
+
+ 2. cannon
+    S-240
+    AA-8
+    AS-7
+
+ 3. AOA/G
+    Meter
+ 
+ 4. Horizon
+
+ 5. Airspeed
+ 
+ 6. Altitude
+
+ 7. Radar/IR
+    Display
+ 
+ 8. WARNING LAMPS:
+    Hydraulic
+    Nav System
+    Radar
+    HUD
+
+ 9. Low Altitude
+    Stall
+    Low Fuel
+    Autostab
+
+10. Flaps
+
+11. Wheel
+    Brakes
+
+12. Gear
+    Position
+
+13. Compass 
+    Nav
+
+14. Waypoint
+    Selected
+
+15. Joystick
+    Position
+
+16. VSI
+ 
+17. Engine Guage
+
+18. Fuel
+
+PAGE 55
+
+There are many different successful tactics for air combat, but there
+are a few golden rules.  The most important is maintaining energy.
+The energy is in two forms, height and speed.  You can usually trade
+one for the other, but both at once is an advantage.  However too
+much height puts you into thin air where high g turns are impossible
+and it is much harder to avoid missiles.  It is best to stay below
+5000 meters for good manoeuvrability.
+
+It is very easy to lose airspeed when performing high g combat
+manoeuvres.  You should usually use afterburners to maintain speed.
+If you have some spare height you can dive to regain speed, but 
+otherwise you must level out, which makes you more vulnerable to
+missile attack.
+
+A useful technique is to make sure your opponent is designated and
+use the direction line in the helmet display to keep in touch with
+his position.  The all round infra-red sensors can track an enemy
+aircraft when it is out of view.
+
+PAGE 56
+
+APPENDICES
+
+AIRCRAFT PERFORMANCE DATA
+
+MIKOYAN MIG-29 FULCRUM
+
+ Dimensions (meters to nearest .5m)
+
+ Length:                  17.50 m
+ Span:                    11.50 m
+ Height:                  4.50 m
+ Wing Area:               32.00 m2
+
+ Weights (kg to nearest 100kg)
+
+ Empty:                   10,200 kg
+ Takeoff:                 16,000 kg
+ Combat:                  13,700 kg
+
+ Power (kN, from 2 x Tumansky R-33D turbofans)
+
+ Thrust (Dry):            81.3
+ Thrust (Augmented):      50.0
+
+ Performance
+
+ Vmax (High altitude):    Mach 2.2
+ Vmin (Sea level):        Mach 1.1
+ Ceiling:                 16,800 m
+
+ Armament
+
+ Internal Cannon:         30 mm
+ Missiles:                AA-8 Aphid, AA-9 Amos, AA-10
+                          Alamo, AS-7 Kerry
+
+BRITISH AEROSPACE SEA HARRIER FRS.1 
+
+ Dimensions (meters to nearest .5 m)
+
+ Length:                  14.50 m
+ Span:                    7.50 m
+ Height:                  3.50 m
+
+PAGE 57
+
+ Wing Area:               18.50 m2
+
+ Weights (kg to nearest 100 kg)
+
+ Empty:                   5,900 kg
+ Takeoff:                 8,900 kg
+ Combat:                  7,800 kg
+
+ Power (kN, from Pegasus 104)
+
+ Thrust (Dry):            95.5
+ Thrust (Augmented):      N/A
+
+ Performance
+
+ Vmax (High altitude):    Mach 0.97
+ Vmin (Sea level):        Mach 1.2
+ Ceiling:                 16,800 m
+
+ Armament
+
+ Internal Cannon:         Two 30 mm Aden
+ Missiles:                AIM-9L Sidewinder, or
+                          .550 Magic, AIM-120 Amrram
+
+SHENYANG F-7M AIRGUARD
+
+ Dimensions (meters to nearest .5 m)
+
+ Length:                  14.00 m
+ Span:                    7.00 m
+ Height:                  4.00 m
+ Wing Area:               23.00 m2
+ 
+ Weights (kg to nearest 100 kg)
+
+ Empty:                   5,300 kg
+ Takeoff:                 7,900 kg
+ Combat:                  6,800 kg
+
+ Power (kN)
+
+ Thrust (Dry):            60.0
+ Thrust (Augmented):      34.0
+
+PAGE 58
+
+ Performance
+
+ Vmax (High altitude):    Mach 2.00
+ Vmin (Sea level):        Mach 1.0
+ Ceiling:                 18,200 m
+
+ Armament
+
+ Internal Cannon:         Two 30 mm
+ Missiles:                PL-2, PL-2A, PL-7, can also be
+                          configured for Sidewinder and Magic
+
+DASSAULT-BREGUET MIRAGE 2000
+
+ Dimensions (meters to nearest .5 m)
+
+ Length:                  14.00 m
+ Span:                    9.00 m
+ Height:                  4.50 m
+ Wing Area:               41.00 m2
+
+ Weights (kg to nearest 100 kg)
+
+ Empty:                   7,600 kg
+ Takeoff:                 11,800 kg
+ Combat:                  10,200 kg
+
+ Power (kN from SNECMA M53)
+
+ Thrust (Dry):            95.0
+ Thrust (Augmented):      64.0
+
+ Performance
+
+ Vmax (High altitude):    Mach 2.35
+ Vmin (Sea level):        Mach 1.20
+ Ceiling:                 18,300 m
+
+ Armament
+
+ Internal Cannon:         Two 30 mm
+ Missiles:                Matra Super 530D, or Matra .550
+                          Magic
+
+PAGE 59
+
+AIR TO AIR PERFORMANCE
+
+Many simulations simplify the operations and aerodynamics of missile
+systems.  In MiG-29 we have attempted to model this as accurately as
+possible.  In practice this means that a missile has a 30-40% chance 
+of impact if fired without red lock, rising to to 80-90% chance
+of impact with confirmed red lock.  The reasons for this are many and
+complex, but put simply, an object travelling at Mach 3 may travel very
+fast, but doesn't turn exceptionally well.  Altitude and launch
+velocity (the speed at which the fighter that launches the missile
+is travelling) make a big difference to effectiveness.  Missiles
+travelling at Mach 3 can pull turns of up to 30 g which sounds
+formidable but produces a turning circle of no better than 16
+degrees/sec - a figure any respectable fighter can manage a
+subsonic speeds.  The MiG-29 uses IR guidance on its AA-8 Aphid,
+a short range missile, which gives true fire-and-forget performance
+ie; the plane is free to manoeuvre once the missile has been 
+launched.  As previously stated, the optimum firing position is
+therefore with the target directly in front of you, heading away
+from your aircraft - the IR heat signature is at its best and the
+target has less chance of out-manoeuvring your missile.
+
+SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW

@@ -1,0 +1,273 @@
+MEGA-TIFÓN
+
+==============================================================================
+         ¡El juego de acción arcade más rápido jamás creado para AMIGA!            
+==============================================================================
+
+
+   (C) Copyright 1992-96. Reservados todos los derechos.
+   
+      Bernhard Braun
+      Calle 6
+      69231 Rauenberg      
+      Tel.: 06222/64878
+
+ Distribuido exclusivamente por Nordlicht EDV Service.
+
+               
+ DERECHOS DE AUTOR
+   
+ Este programa tiene derechos de autor de los autores. Ninguna parte de este programa puede
+ ser reproducido o utilizado en cualquier forma o por cualquier medio, sin autorización escrita
+ permiso del propietario de los derechos de autor.
+
+ DESCARGO DE RESPONSABILIDAD
+
+ Los autores no ofrecen garantía de ningún tipo con respecto a este producto.
+ y renuncia explícitamente a cualquier garantía implícita de comerciabilidad o
+ idoneidad para cualquier propósito particular.
+
+ CÓMO JUGAR
+
+ Arranque desde el disco (en la unidad DF0:!), o escriba "MEGA-TYPHOON" en el CLI-
+ rápido.
+ Pulsa la tecla ESPACIO para bombas inteligentes.
+ Presione el botón ESCAPE del mouse para salir.
+ Pulsa la tecla P para pausar el juego.
+
+
+ =============================================================================
+
+              ACERCA DE M E G A - T Y P H O O N
+
+ =============================================================================
+
+
+    Disfruta del primer shoot-em-up REAL tipo arcade jamás creado para
+                       la computadora amiga
+
+
+
+ MISIÓN: insertar moneda.
+
+            destruirlos a todos...
+
+            (¡buena suerte! ;-)
+
+
+
+ TECLAS: <ESPACIO> o segundo botón Smart Bomb
+
+           <P> Pausa
+
+           <ESCAPE> Abortar misión
+
+
+
+ ARMAS Y EXTRAS:
+           
+           <S> Disparo extendido
+
+           <L> Láser sinusal
+
+           <H> Misiles guiados
+
+           <M> Misiles de potencia
+
+           <B> Bomba inteligente
+           
+           <P> Obtener arma completa
+
+           <1UP> Vida extra
+
+
+           Para aumentar el poder del arma, recolecta elementos de bonificación.
+           del MISMO TIPO sucesivamente.
+
+           Modifique la potencia del láser sinusal variando
+           la frecuencia del botón de disparo
+
+
+ CARACTERÍSTICAS TÉCNICAS:
+
+
+            * más de 100 objetos moviéndose en la pantalla 
+                al mismo tiempo
+
+            * 50 (!) fotogramas por segundo (fps)
+                (todos los juegos convencionales con un número comparable,
+                El tamaño y la complejidad de los objetos en movimiento se ejecutan en 17. 
+                o como máximo 25 fps solamente)
+
+            * Rendimiento completo en TODOS los AMIGAS (incluidos A1000, A500)
+
+            * Nuevo motor gráfico pionero que incluye
+                64 BOB, 48 Sprites, 16 colores
+
+            * blitter accionado por cobre
+ 
+            * motor de sprites virtuales 
+ 
+            * desplazamiento del campo de juego virtual
+
+            * algoritmo de animación multiproceso asíncrono 
+
+            * separación del proceso de animación/control 
+ 
+  En otras palabras:
+
+     ¡El juego de acción arcade más rápido jamás creado para AMIGA! 
+
+ ---------------------------------------------------------------------
+
+
+ " MEGA - TIFÓN "
+ *******************
+ 
+ Autor: Bernhard Braun + Guido Kehrle
+
+ Música: Tobias Hirsch
+
+ Título/Portada: Udo Drüke
+ 
+ Exclusiv-Vertrieb: Nordlicht® -EDV-Servicio
+ 
+ _________________________________________________________________________
+
+ 
+ Fechas técnicas:
+ 
+ ---- Actualización de OS 1.3 1 MB de memoria RAM
+ 
+ ---- frecuencia máxima de 50 Hz
+ 
+ ---- más de 64 BOBs gleichzeitig
+ 
+ ---- Más de 48 Sprites disponibles
+ 
+ ---- 16 colores
+ 
+ ---- Algoritmos inteligentes de Gegner
+ 
+ ---- Más de 100 objetos diferentes
+ 
+ ---- 20 extrawaffen
+ 
+ ---- 1 o 2 juegos
+ 
+ ---- Instalación HD sencilla
+ 
+ 
+ Desplazamiento del campo de juego virtual: (IFF) - Pinceles gráficos beliebiger Größe,
+ Können an jeder beliebigen Pixel - Posición en el interior virtuddo
+ grund plaziert werden, welcher mit beliebiger Geschwindigkeit gescrollt
+puede ser.  (Tamaño del Campo de Juego Virtual: hasta 448 x 1684 píxeles)
+ 
+ Blitter controlado por cobre: Todas las operaciones de blitter están controladas por cobre.
+ controlado, independiente de la CPU en segundo plano (con aumento
+ Este método consigue el número de BOBs respecto al convencional
+ "Encadenamiento de interrupciones con acabado borroso", debido a la relativa lentitud
+ Procesamiento de interrupciones, un aumento de rendimiento de hasta un 30%.
+ 
+ Formato de plano de bits intercalado y formato de coordenadas optimizado para Blitter (BOC)
+ para reducir aún más los “gastos generales de blitter”.
+ 
+ Separación del proceso de animación/control: gracias a este completamente nuevo
+ Tecnología en la que todo el flujo del programa se divide en 3 asincrónicos independientes.
+ La velocidad de fotogramas visible se divide en procesos de comunicación.
+ (50 Hz) no está limitado de ninguna manera por los cálculos de la CPU, pero
+ pero sólo a través del Blitter.  Eso significa: incluso los complejos
+ Cálculos, como 50 algoritmos de búsqueda de objetivos que se ejecutan simultáneamente
+ ¡No ralentiza la frecuencia de actualización!
+ 
+ Programación compatible con el sistema, compatibilidad: a pesar de los extremos
+ Impulsado al máximo del hardware, el programa fue diseñado para ser compatible con el sistema.
+ diseñado lo más posible. La parte específica del hardware del programa.
+ Los códigos están separados del resto del programa a través de interfaces bien definidas.
+ encapsulates, que sólo utiliza funciones estándar del sistema.  entonces
+ Por ejemplo, "Mega Typhoon" se puede instalar fácilmente en el disco duro
+ y se instaló en todos los modelos AMIGA (A1000, A500, A2000, A12000, A4000)
+ probado con éxito.
+ 
+ 
+ Armas:
+ 
+ La frecuencia de disparo puede verse influenciada
+  
+ La potencia de fuego se ve reforzada por la onda sinusoidal.
+ 
+ Las armas de fuego se cambian escribiendo el mismo símbolo 4x
+ recoge.
+ 
+ Sistemas de armas: Los 4 sistemas de armas básicos láser (L), misiles de potencia (M),
+ Homing Missiles (H) y Sread Shot (S), se pueden usar en 5 niveles cada uno
+ Se puede ampliar y combinar de más de 100 formas.  en el
+ En el nivel más alto de expansión, por ejemplo, hay hasta 15 tomas individuales y 8 tomas individuales.
+ misiles guiados dependientes disponibles al mismo tiempo.  Además
+ Un número limitado de Smart Bombs(B) está disponible para "emergencias",
+ que se activan con la tecla espacio.
+ 
+ El poder de penetración del láser (L) se puede aumentar aumentando el botón de disparo.
+ La frecuencia se puede aumentar, lo que se debe a una mayor frecuencia del
+ La "onda sinusoidal" se hace visible.
+ 
+ Al recolectar los símbolos de armas adicionales, tenga en cuenta que un
+ Cambiar el armamento entre S y L, o H y M es simplemente un cambio.
+ conmutación sin efecto de acumulación.  Además, cambian
+ Los símbolos cambian de tipo de forma independiente después de un cierto período de tiempo.
+ 
+ 
+ 
+ Símbolos:
+ 
+ " B " ---> Bombas inteligentes 
+ 
+ " H " ---> Misiles guiados
+ 
+ " S " ---> Estructura del arma de fuego
+ 
+ "L" ---> Láser
+ 
+ "M" ---> Misiles
+ 
+ "P" ---> armamento completo
+ 
+ "1up" ---> una vida más
+
+ Controlar:
+
+ Joystick o joypad en el Puerto II
+ 
+ Botón de espacio o segundo botón de disparo (joystick, joypad) --> "Bombas inteligentes"
+ 
+ ESC --- > Fin / al menú
+ 
+ -------------------------------------------------------------------------
+ 
+ 
+ Historia:
+ 
+ En el año "2199".  Hace tiempo que la gente se mudó a otros planetas.
+ colonizado. Sin embargo, su existencia depende de la cooperación.
+ con otras formas de vida inteligentes. En este contexto fue
+ También inició el proyecto “Mega-Tifón”.  los mejores estan aqui
+ Pilotos de la galaxia entrenados para proteger a la población. porque también
+ En un futuro lejano siempre habrá megalómanos que intenten
+ para ganar la ventaja del universo.  Tienes el primer jefe.
+ derrotado con éxito, el siguiente ya está esperando.  Los oponentes son
+ Excelentemente armado y solo a través de habilidad y uso específico.
+ de las armas será posible completar la misión con éxito.
+ 
+ 
+ 
+ Conclusión:
+Un placer de acción vertical de alto rendimiento, en alto rendimiento
+ Calidad, controles precisos y suaves como la mantequilla, animaciones fantásticas,
+ efectos de primera clase y gráficos coloridos y brillantes.
+ Probablemente el primer juego de disparos con absoluta calidad arcade.
+ 
+  
+ Equipo Nordlicht®
+ 
+ 
+ -------------------------------------------------------------------------

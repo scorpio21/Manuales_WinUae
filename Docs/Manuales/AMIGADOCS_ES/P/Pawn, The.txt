@@ -1,0 +1,2254 @@
+EL PEÓN
+
+EDITORIAL Rainbird
+
+AUTORES
+Rollos magnéticos
+(Escenario y diseño de Rob Steggles; programación de Ken Gordon
+y Hugh Steers; Diseño de sistema de desarrollo y analizador por Ken
+Gordon, Anita Sinclair y Hugh Steers
+
+AÑO 1986
+
+DESCRIPCIÓN
+Aventura de texto con un analizador muy avanzado y modelado mundial.
+
+CONTROLES
+Los comandos se ingresan usando el teclado.
+
+INSTRUCCIONES
+Ambientada en el mítico mundo de Kerovnia, esta divertida y compleja
+El cuento es lo suficientemente sutil como para atraer tanto al principiante como al experto.
+aventurero por igual. Un revolucionario sistema de manejo de textos permite
+entrada de oraciones complicadas e interacción completa con
+personajes (¡incluidos algunos animales muy inteligentes!). El peón
+representa todos sus personajes y objetos como si existieran en
+un mundo real, almacenando información compleja sobre sus atributos
+y propiedades vinculadas a su posición o contexto particular
+en el juego.
+
+Tus objetivos son múltiples: el más sencillo es escapar de
+Kerovnia, pero encontrarás otras mientras deambulas por la tierra.
+y comunicarte con los personajes que conozcas. El peón se combina
+una aventura de texto enriquecido, con impresionantes gráficos en color [no en el
+Versión Spectrum] y un analizador de idioma que establecerá el
+estándares para los años venideros.
+
+Introducción:
+
+The Pawn es un juego de aventuras ambientado en el mágico mundo de
+Kerovnia durante un período de tremenda agitación social.
+
+Recientemente, el rey Erik, el actual gobernante del país, ha comenzado
+perder su control sobre los pueblos kerovnianos y ya no puede confiar
+por su lealtad y suprema devoción para apoyarlo a través de
+tiempos de guerra, hambruna y quiebra personal.
+
+Muchos comentaristas políticos han atribuido esta disminución en
+popularidad a la firme negativa de Erik a restablecer el
+ciudadanía de los enanos Roobikyoub que fueron desterrados en masa
+poco después del asesinato de la querida reina Jendah II y
+Desde entonces nunca he regresado.
+
+Se pensaba que los enanos eran los únicos instigadores de la
+complot de asesinato, pero los hechos reales se mantuvieron muy atrás
+puertas cerradas (y bloqueadas).
+
+No hace falta decir que los enanos tenían una inmensa importancia económica.
+a Kerovnia con sus incansables esfuerzos por producir el
+El whisky de malta más suave y fuerte de este lado del Obakanga.
+valle y se los extraña profundamente en estos días de crisis económica.
+pesimismo (sobre todo por la calidad de su whisky).
+
+A falta de los enanos, el mercado de las bebidas ha estado
+dominada por la Farthington Real Ale Company (que ha tenido
+algunos tratos bastante dudosos con Boris Grunchkev O.K.B.) y por
+los gnomos Romni que producen un refrescante agua de manantial. Ninguno
+de estos dos grupos influyentes desean ver regresar a los enanos
+en escena para tomar una gran porción del mercado, pero la gente
+de Kerovnia, muchos de los cuales están empezando a sospechar que el
+Los enanos eran completamente inocentes del asesinato, con vehemencia.
+no estoy de acuerdo.
+
+En medio de todo esto está el rey Erik, que se vuelve más
+y más impopular cuanto más tiempo deja su decisión y, para
+Para colmo, hay elecciones generales en el horizonte.
+
+En este punto llegas al lugar. tu seras el
+jugador principal del juego y la historia se desarrolla según
+tus decisiones y acciones.
+
+El programa describirá dónde estás, quién (o qué) está allí.
+contigo y lo que están haciendo. Entonces depende de ti elegir
+lo que desea hacer y decirle al programa en inglés sencillo (bueno
+¡casi!).
+
+Tendrás que descubrir el objetivo del juego y la mejor manera de
+Consíguelo utilizando los artículos que encuentres en tus viajes,
+conversando con personajes y ejercitando tu imaginación.
+
+Algunas frases de ejemplo del manual:
+
+ SALIDA NORTE
+ CAMINA TRANQUILAMENTE AL NORTE
+ ENTRAR A LA TIENDA DE MUEBLES
+ SENTATE EN EL CÓMODO SOFÁ DE CUERO
+ LEVANTARSE DEL SOFÁ
+ ENTRAR POR LA PUERTA
+ RECOGER PAPEL, PLUMA Y TINTA
+ CONSIGUE TODO DE LA BOLSA ESCOLAR EXCEPTO EL BORRADOR
+ OBTÉN TODOS EXCEPTO LOS ESTUCHES PERO NO EL ESTUCHE DEL VIOLÍN Y LUEGO MATA AL
+   MUSARA COMEDOR HOMBRE CON EL CONTENIDO DEL ESTUCHE DEL VIOLÍN. QUITAR
+   LA COLA DE MUSARAÑA Y UTILIZARLA PARA ATAR EL POLO Y LA LAZA
+   JUNTOS.
+CONSIGUE LAS LLAVES EXCEPTO LA BRILLANTE
+ MIRA LA LLAVE QUE ESTÁ EN MI BOLSILLO
+ PON LA LLAVE EN LA BOLSA EN MI BOLSILLO
+
+Abreviaturas:
+
+ SOLTAR DR
+ OBTENER G
+ INVENTARIO EN
+ NORTE NORTE
+ SUR S
+ ESTE E
+ OESTE O
+ NORESTE NE
+ NOROESTE NO
+ SURESTE SE
+ SUROESTE SO
+ ARRIBA U
+ ABAJO D
+ FUERA O
+ MIRA L
+ PRONOMBRES PN
+ CON WI
+ DE F
+
+Conversación:
+
+I) PREGUNTAR A ALGUIEN SOBRE ALGO
+     por ej. PREGUNTA AL EXTRANJERO SOBRE LA NAVE ESPACIAL
+II) PREGUNTAR "algo" a alguien
+     por ej. PREGUNTE AL EXTRANJERO "¿QUIÉN SOY YO?"
+III) DECIRLE A alguien "algo"
+     por ej. DILE AL EXTRANJERO "HOLA"
+IV) DI "algo"
+     por ej. DIGA "¿CÓMO PUEDO GANAR ESTE JUEGO?"
+V) alguien, algo
+     por ej. EXTRANJERO, TELÉFONO A CASA
+
+Comandos especiales:
+
+ INVENTARIO
+ OTRA VEZ
+ SALIDAS
+ PUNTUACIÓN
+ BREVE
+ DETALLE
+ NORMALES
+ SALIR
+ REINICIAR
+
+
+CONTRASEÑAS
+El Peón está protegido con contraseña (aunque el manual del juego olvida
+mencionarlo). Después de 100 turnos en el juego (o después de restaurar
+una partida guardada, lo que ocurra primero), se le pide al jugador que
+escriba una palabra de la novela "Un cuento sobre Kerovnia" (escrita por
+G. Sinclair, editado por C. Gale) que se incluye en el juego.
+caja. Si la contraseña es incorrecta, el juego se cierra.
+
+La siguiente es una lista de 475 contraseñas probadas (hay
+probablemente sean más, ¡así que toma una instantánea antes de tu turno número 100!).
+Funcionan con la versión 2.3 del juego, en todas las plataformas (IBM,
+Amiga, Espectro, C-64).
+
+palabra de línea de página
+----------------------
+ 1 2 6 moneda
+ 1 3 4 erik
+ 1 4 10 kerovnia
+ 1 8 10 kerovnia
+ 1 9 2 cerrar
+ 1 9 8 gnomos
+ 2 1 11 rojo
+ 2 4 2 erik
+ 2 5 12 gnomos
+ 2 8 7 laberinto
+ 2 10 5 correr
+ 2 16 6 kerovnia
+ 2 17 11 desierto
+ 2 21 1 cruz
+ 2 21 4 conejo
+ 2 23 11 conejo
+ 2 26 13 quemar
+ 2 28 9 erik
+ 3 2 10 luz
+ 3 4 3 gnomos
+ 3 5 8 erik
+ 3 6 2 gringos
+ 3 9 6 kerovnia
+ 3 13 7 tomar
+ 3 23 8 alto
+ 3 27 9 trono
+ 4 1 6 golpe
+ 4 2 8 correr
+ 4 2 10 gringos
+ 4 4 1 princesa
+ 4 5 4 kerovnia
+ 4 7 1 erik
+ 4 8 10 tomar
+ 4 9 8 gringos
+ 4 16 3 kerovnia
+ 4 18 5 ojos
+ 4 21 12 palacio
+ 4 22 5 rosa
+ 4 23 6 ojos
+ 4 26 10 princesa
+ 4 27 12 erik
+ 5 1 3 erik
+ 5 2 4 habitación
+ 5 3 2 verde
+ 5 6 1 erik
+ 5 6 4 cabeza
+ 5 9 0 kerovnia [en realidad 5-8-16; 5-9-0 no existe]
+ 5 11 11 erik
+ 5 13 4 habitación
+ 5 13 6 vacío
+ 5 13 7 erik
+ 5 18 6 blanco
+ 6 7 3 erik
+ 6 7 8 uso
+ 6 8 3 palacio
+ 6 9 5 mago
+ 6 11 6 mago
+ 6 14 8 verde
+ 6 14 10 sombrero
+ 7 8 1 vuelta
+ 7 9 12 erik
+ 7 10 10 palacio
+ 7 11 8 cabezas
+ 7 12 9 daño
+ 7 12 13 vida
+ 7 13 3 palacio
+ 7 13 12 palacio
+ 7 14 9 jardines
+ 7 15 14 caja
+ 7 16 9 caballo
+ 7 22 7 pelea
+ 7 24 12 llenar
+ 8 2 6 jardines
+ 8 8 5 kerovnia
+ 8 11 11 gringos
+ 8 12 2 gringos
+ 8 12 9 kerovnia
+ 8 14 12 gringos
+ 8 17 5 tirar
+ 8 26 1 gringo
+ 9 4 7 gringos
+ 9 5 2 cabeza
+ 9 7 8 gringos
+ 9 14 2 pelea
+ 9 15 4 leer
+ 9 15 9 palacio
+10 2 12 princesa
+10 4 5 habitación
+10 5 6 palacio
+10 6 6 piedra
+10 7 1 ventanas
+10 8 10 ventana
+10 11 4 ojos
+10 20 4 palacio
+11 1 1 erik
+11 11 3 erik
+11 12 2 princesa
+11 17 4 ojos
+11 18 1 habitación
+11 20 4 ventanas
+11 21 12 habitación
+11 22 9 azul
+11 23 6 brazos
+11 27 11 azul
+11 28 13 mesa
+11 29 1 erik
+11 30 2 guardias
+12 3 8 símbolos
+12 4 12 mesa
+12 7 12 oro
+12 7 14 vestido
+12 12 4 brazos
+12 13 6 ojos
+12 13 10 tomar
+12 16 5 esconder
+12 20 3 kerovnia
+12 27 11 kerovnia
+12 29 7 oro
+13 2 6 pecho
+13 2 11 bien
+13 6 4 ojos
+13 6 12 princesa
+13 7 5 habitación
+13 11 3 verde
+13 15 6 tomar
+13 17 7 ojos
+13 18 11 ojos
+13 20 8 mano
+13 23 10 voz
+13 24 8 kerovnia
+14 2 10 rojo
+14 9 7 voz
+14 13 1 kerovnia
+14 18 1 ojos
+15 2 6 rosa
+15 7 1 kerovnia
+16 2 7 tomar
+16 2 9 salir
+16 2 15 ojos
+16 5 6 cabeza
+16 6 2 pecho
+16 11 4 dragón
+16 12 14 dragón
+16 14 11 cueva
+16 16 9 verde
+16 17 3 rojo
+16 20 4 mirar
+16 22 1 salto
+16 23 4 dragón
+17 7 8 tomar
+17 7 14 poción
+17 8 9 fuego
+17 10 3 tomar
+17 10 8 poción
+17 11 4 niebla
+17 11 9 kerovnia
+17 12 4 mano
+17 15 10 oro
+17 16 2 niebla
+17 18 12 poción
+17 19 11 azul
+17 22 2 palacio
+17 22 10 estribaciones
+17 23 1 poción
+17 24 3 mesa
+17 24 9 habitación
+17 28 6 gringos
+17 29 2 dragón
+18 2 10 gringo [en realidad 18-2-9; 18-2-10 es "y"]
+18 5 8 tomar
+18 5 10 kerovnia
+18 8 9 gringos
+18 8 10 persona
+18 10 1 kerovnia
+18 13 4 correr
+18 15 11 colinas
+18 18 9 poción
+18 21 2 alto
+18 21 10 poción
+18 26 8 gringos
+18 28 8 dragón
+19 1 12 piedra
+19 2 5 azul
+19 2 7 oro
+19 4 3 entrada
+19 4 12 sombrero
+19 6 4 ir
+19 6 10 ir
+19 7 6 ir
+19 14 8 cueva
+19 17 8 pies
+19 18 10 escalera
+19 19 1 uso
+19 19 7 dragón
+19 21 2 pendiente
+19 22 5 gringos
+19 27 6 colinas
+20 3 11 gringo
+20 4 2 piedra
+20 9 7 oro
+20 20 1 verde
+20 21 4 robar
+20 22 10 varita
+20 23 5 bolsillo
+20 23 13 mano
+20 24 8 uso
+20 25 3 ventanas
+20 26 7 escritorio
+21 1 1 dragón
+21 1 8 ventana
+21 2 1 gringos
+21 3 3 ojos
+21 5 9 varita
+21 6 1 mano
+21 7 11 mago
+21 8 2 ir
+21 9 1 puesto
+21 10 4 obtener
+21 11 7 gringos
+21 14 1 oro
+21 15 3 gringos
+21 15 7 habitación
+21 16 8 habitación
+21 17 3 dragón
+21 20 3 whisky
+21 24 5 blanco
+21 24 12 verter
+21 27 11 habitación
+21 27 12 gringos
+22 2 3 pies
+22 4 6 poción
+22 4 8 mezclar
+22 4 12 dragón
+22 6 1 gringos
+22 6 6 dragón
+22 8 2 niebla
+22 9 1 palacio
+22 13 9 rojo
+22 17 4???  [22-17-4 es "decir"]
+22 17 7 mago
+22 24 1 gringo
+22 24 11 varita
+22 25 1 bolsillo
+23 1 2 obtener
+23 2 6 kerovnia
+23 6 10 habitación
+23 8 3 gringos
+23 9 2 vacío
+23 10 2 obtener
+23 10 14 infierno
+23 13 12 dragón
+24 4 13 erik
+24 6 8 palacio
+24 12 3 uso
+24 22 6 árboles
+25 1 12 blanco
+25 2 10 palacio [en realidad 25-2-9; 25-2-10 es "dónde"]
+Torre 25 4 8 [en realidad 25-4-7; 25-4-8 no existe]
+25 6 12 brazos
+25 7 9 en forma
+25 8 3 blanco
+25 9 7 persona
+25 13 4 palacio
+25 15 1 ascensor
+25 16 2 jardines
+25 18 3 blanco
+26 6 8 kerovnia
+26 12 1 mano
+26 14 11 tomar
+26 17 2 erik
+26 20 13 olla
+26 20 14 erik
+26 20 15 gringos
+26 23 7 agua
+26 23 11 piscina
+26 26 8 vida
+27 5 10 agua
+27 6 6 piscina
+27 8 7 poner
+27 8 9 mano
+27 14 2 piscina
+27 15 9 princesa
+27 19 4 rosa
+27 23 4 piscina
+27 24 3 agua
+27 25 1 alto
+27 26 4???  [27-26-4 es "decir"]
+28 1 3 leer
+28 4 11 obtener
+28 6 12 golpe
+28 8 2 golpe
+28 8 11 agua
+28 10 7 agua
+28 13 9 piscina
+28 13 12 habitación
+28 16 9 arbustos
+28 20 12 erik
+28 26 1 alto
+28 27 2 uso
+29 2 7 palacio
+29 4 7 princesa
+29 5 4 palacio
+29 12 5 verde
+30 4 4 gringos
+30 4 7 árboles
+30 9 4 persona
+30 10 9 vacío
+30 13 10 vida
+30 14 13 kerovnia
+30 15 5 pies
+30 19 5 mano
+30 20 7 erik
+30 21 10 oficina
+30 22 4 poción
+31 4 6 poción
+31 4 14 habitación
+31 7 7 leer
+31 8 3 gringos
+31 10 5 agua
+31 12 13 encajar
+31 15 5 mano
+31 19 10 gringos
+31 23 8 azul
+31 28 2 persona
+31 28 7 gringos
+32 2 12 gringos
+32 4 11 kerovnia
+32 11 6 palacio
+32 12 7 gringos
+32 14 6 tomar
+32 24 6 erik
+32 24 12 kerovnia
+32 29 12 kerovnia
+33 2 5 eliminar
+33 2 10 oficina
+33 8 9 poner
+33 9 2 pecho
+33 9 7 cama
+33 11 10 pecho
+33 14 1 princesa
+33 16 10 ojos
+33 17 13 uso
+33 19 4 mira
+33 23 8 princesa
+33 26 9 tomar
+33 29 14 cabeza
+34 4 11 gringos
+34 5 2 pies
+34 5 5 mano
+34 6 11 kerovnia
+34 12 1 cámara
+34 13 1 erik
+34 15 12 voz
+34 20 5 pies
+34 21 3 tomar
+34 23 3 gringos
+34 25 12 trono
+34 26 2 gringos
+35 1 11 palacio
+35 5 8 mago
+35 7 6 princesa
+35 8 1 kerovnia
+35 10 4 gringos
+35 15 5 puertas
+35 15 11 fuego
+35 19 12 habitación
+35 20 12 fuego
+35 22 1 gringo
+35 22 11 luz
+35 23 12 ir
+35 24 1 gringo
+35 27 2 rojo
+35 27 3 fuego
+36 1 4 fuego
+36 1 10 gringos
+36 3 4 sombrero
+36 8 6 erik
+36 8 8 poner
+36 8 10 cama
+36 9 3 gringos
+37 2 1 gringos
+37 9 9 princesa
+37 13 11 cajas
+37 15 9 kerovnia
+37 15 11 cajas
+37 18 10 vuelta
+37 21 1 erik
+37 21 7 ataque
+37 22 13 caballo
+37 23 12 oro
+38 5 1 erik
+38 6 4 desgaste
+38 8 10 cabeza
+38 9 8 unirse
+38 10 9 salir
+38 10 11 palacio
+38 12 9 unirse
+38 15 7 rojo
+38 15 9 oro
+38 17 6 rojo
+38 17 13 cabeza
+38 24 6 rosa
+38 26 13 verde
+38 27 5 alto
+38 28 4 ojos
+38 29 9 cabeza
+39 1 2 guardias
+39 3 6 azul
+39 3 9 piedra
+39 8 4 kerovnia
+39 10 2 cabeza
+39 14 4 tomar
+39 18 2 tomar
+39 18 13 verde
+39 19 6 erik
+39 19 10 kerovnia
+39 21 9 persona
+39 26 3 princesa
+40 1 1 piscina
+40 3 5 palacio
+40 4 7 azul
+40 4 9 luz
+40 4 11 rosa
+40 9 5 azul
+40 9 8 voz
+40 9 12 agua
+40 12 2 rosa
+40 12 5 pies
+40 14 1 princesa
+40 14 13 vida
+40 15 8 rojo
+40 17 3 salir
+40 23 3 salir
+40 25 10 ir
+40 27 8 erik
+41 2 5 kerovnia
+41 5 3 llorar
+41 7 6 erik
+41 9 3 kerovnia
+41 16 1 erik
+41 16 7 salir
+41 16 9 habitación
+41 18 11 rosa
+41 18 14 pies
+41 19 4 manto
+42 3 11 salir
+42 4 7 ir
+42 5 1 raspado
+42 6 3 gringos
+42 13 4 princesa
+42 13 9 palacio
+42 14 1 erik
+42 16 2 princesa
+42 17 10???  [42-17-10 es "nube"]
+42 17 12 polvo
+42 19 2 correr
+43 4 2 princesa
+43 9 7 vida
+43 9 11 tomar
+43 10 7 cabeza
+43 12 4 princesa
+43 13 3 hab
+43 13 8 kerovnia
+43 20 6 vida
+43 20 7 árbol
+43 21 4 árboles
+43 23 8 princesa
+43 24 5 erik
+44 3 4 nieve
+44 7 12 estribaciones
+44 10 5 muñeco de nieve
+44 10 8 pies
+44 12 3 mirar
+44 13 4 ojos
+44 20 4 muñeco de nieve
+
+
+CONSEJOS
+La versión II del manual del juego venía con una serie de códigos codificados.
+sugerencias ("sección de ayuda cifrada") que podrían decodificarse a partir de
+dentro del juego usando el comando PISTA. Aquí están las pistas
+[en formato ROT13] :
+
+¿Cómo cruzo la Línea Roja?
+> Qebc gur Ybg
+> Fher lbh'er abg pneelvat fbzrguvat?
+> Naq jung nobhg gur jevfgonaq?
+
+¿Por qué se ríe el gurú?
+> Nfx uvz, abg zr
+> Cvgl lbh pna'g qebc gung jevfgonaq lrg
+> Gel fgbccvat uvz sebz frrvat vg
+
+¿Cómo dejo caer la pulsera?
+> Uneq, vfa'g vg?
+> Qnza, V'q sbetbggra whfg ubj uneq guvf bar jnf...
+> Gel nfxvat fbzrbar gb qb vg sbe lbh
+
+¿Cómo entro al cobertizo?
+> Guvf bar'f ernyyl boivbhf
+> Jurer qb lbh abeznyyl yrnir lbhe xrl
+> Gel lbhe cbpxrg. ¡Ernyyl!
+
+¿Qué quiere el gurú?
+> Ab, vg'f abg n Xrrzn Ana
+> Gur nafjre vf ryrzragnel, zl qrne Nqiraghere
+> Abg gur ohooyl fbeg
+
+¿Cómo paso a los guardias?
+> Tvir gurz fbzrguvat
+> Creuncf vs gurl xarj jung lbh jnagrq...
+> Jung ryfr jbhyq lbh qb jvgu n qrznaq sbe enafbz?
+
+¿Qué hago con la nota?
+> Gel ernqvat vg?
+> Ba frpbaq gubhtugf, qba'g gel ernqvat vg!
+> Orggre qb nf Xebabf nfxrq
+
+¿Cómo compro las cosas?
+> Lbh'yy arrq fbzrguvat bs inyhr
+> Crbcyr ebhaq urer ner cerggl pneryrff jvgu zbarl
+> Frnepu gur qjneirf' sheavgher pnershyyl
+
+¿Cómo consigo el liderazgo?
+> Vg'f rzorqqrq va gur ebpx
+> Hfr nal funec gbby
+
+¿Cómo leo los tomos?
+> Pnfg n fcryy - Yvxr vg fnlf
+> Guvf tnzr vf n cnebql, nsgre nyy. Gel 'Pnfg Fcryy'
+> Gurer vf ab guveq pyhr - org lbh'er fbeel lbh glcrq vg va abj
+
+¿Cómo uso el aerosoul?
+> Ab, vg'f abg n fcryyvat zvfgnxr, fzneg-nefr!
+> Lbh arrq gb xvyy fbzrbar svefg
+>... Naq gurl zhfg o serfuyl qrnq
+> Cerff abmmyr
+
+¿Cómo mato a Kronos?
+> Jubyr yvfg bs grqvbhf pyhrf pbzvat hc
+> Lbh'yy arrq uryc sebz nabgure fbhepr
+> Lbh zhfg xvyy uvz va uvf ynve
+> Guebj gur cbgvba obggyr ng uvz
+> Lbh qba'g trg ybat gb qb vg
+> Lbh pbhyq gel gur gurezbahpyrne qrivpr
+
+¿Dónde está el dispositivo termonuclear?
+> Gel n pbzcyrgryl qvssrerag nqiragher. 'Ybeq bs gur Erntnaf',
+  creuncf..
+
+¿Cómo uso la plataforma?
+> Cergraq lbh'er Xebabf
+> Gur cyngsbez unf bayl bar jnl bs gryyvat vs lbh'er Xebabf
+> Guvax bs vg nf n ynetr jrvtuvat znpuvar
+
+¿Qué puedo hacer con el diablo?
+> Gel qbvat joven ur nfxf
+
+¿Cómo paso las puertas color crema?
+> Xabpx (¿Ner lbh fher lbh'er vagb nqiragherf?)
+> Purpx lbh unira'g tbg gur jevfgonaq
+
+¿Cómo trabajo el ascensor?
+> Fhzzba vg
+> Jnvg sbe vg...
+> Vg'f whfg yvxr n erny yvsg
+> Naq vg unf fyvqvat qbbef
+
+¿Cómo voto?
+> Lbh arrq n onyybg cncre - Ner lbh na nanepuvfg be fbzrguvat?
+> Gel ybbxvat haqre gur eht
+> Gur fnsr vf abg nf rzcgl nf vg svefg nccrnef
+> Orvat vqrbybtvpnyyl hafbhaq jvyy pbfg lbh cbvagf
+
+¿Cómo mato al aventurero?
+> V'z abg fher V pna pbaqbar guvf xvaq bs guvat..
+> Jryy, vs lbh zhfg... Bayl Xebabf pna uryc
+
+¿Cómo paso al dragón?
+> Gur qentba vf irel fubeg-fvtugrq
+> Ur vf nyfb irel uhatel
+> Gel fobjvat uvz fbzrguvat ryfr gb rng
+> Ur arrqf gb unir gurz vyyhzvangrq nf jryy
+
+¿Cómo muevo la carretilla?
+> Gur jurryoneebj vf irel urnil
+> Gur jurryoneebj vf abg qrfvtarq gb o zbirq - org lbh'er
+  fbeel lbh nfxrq abj...
+
+¿Cómo paso por las puertas dobles?
+> O cbyvgr
+> Znal gvzrf
+> Naq gvc gur cbegre
+> Bgurejvfr lbh'yy fpbgpu lbhe punaprf
+
+¿Cómo paso la sala de paredes de papel?
+> Cncre pna o gbea
+> Lbh ybbx va gur phcobneq
+> Lbh arrq n ebcr
+
+He ganado pero no con la puntuación completa. ¿Por qué?
+> V'z 25, ohg V unira'g tbg n cebcre wbo, julio? V qba'g xabj,
+  gurfr guvatf whfg unccra, gung'f nyy...
+> Qvq lbh purng?
+> Lbh arrq gb ohl qevaxf sbe 2 crbcyr
+> Jurgure lbh rawblrq uvf zhfvp be abg - ohl uvz bar
+> Unir lbh sbhaq gur Cbg Cynag?
+> Gel cbggvat vg cebcreyl
+> Hfr gur evtug fbeg bs vzcyrzrag
+> Bu jryy, jub jnagf cresrpgvba... Znxr qb jvgu gur fpber
+  lbh'ir tbg!
+
+¿Qué pasa con los alquimistas?
+> V qba'g xabj, Jung nobhg gurz?
+> Gurve vqrn bs sbbq vfa'g dhvgr unhgr phvfvar
+> Gur theh unq fbzr sbbq, erzrzore...?
+> Lbh'yy arire trg gur tbyq. Yrnq vagb tbyq pna'g o qbar!
+
+¿Dónde encuentro algo de luz?
+> Lbh arrq gb tvir gur theh jung ur jnagf. Gura yvfgra gb uvz
+> Abj frnepu gur pyrnevat
+> Ryrzragnel Culfvpf - Erq+Terra+Oyhr=?
+> Zvk gurz
+
+¿Cómo entro al árbol?
+> Haybpx gur qbbe - Zhfg V gryy lbh rirelguvat?
+> Barra gel gur jbbqra
+> Gur png fng ba gur zng
+
+Tarimas: ¿cómo las muevo?
+> Gurl zbir irel rnfvyl
+> Jrer lbh obea va n onea?
+> Gura fuhg gur qbbe, BX?
+
+¿Cómo paso las rocas?
+> Svaq n yrire?
+>...Be gjb
+> Abj svk gurz gbtrgure
+
+
+NOTAS
+Lanzado originalmente como un juego de sólo texto para Sinclair QL (en
+1985). Versiones posteriores (Atari ST, Commodore 64, Commodore Amiga,
+IBM PC) tenía excelentes gráficos de mapa de bits. La versión Espectro,
+Aunque requiere 128k, no tiene gráficos debido al espacio.
+limitaciones.
+
+*********
+
+UN CUENTO DE KEROVNIA
+
+POR G. SINCLAIR
+EDITADO POR C. GALE
+
+
+CAPÍTULO UNO
+
+Había una vez (por acuñar una frase) una tierra de hadas llamada Kerovnia,
+gobernado por el rey Erik y su reina, Jendah II, que se encontraba cómodamente entre los
+el gran valle montañoso de Nattus y el mar Acuático. Kerovnia era un millón cuadrado.
+millas, la mayoría bosques. En el borde de estos vastos bosques, que se extienden hacia el norte
+a las montañas y al sur, a los desiertos inhóspitos, se extendía una gran cantidad de cultivos
+comunidades.
+
+Las granjas eran propiedad de los verdaderos antepasados de Kerovnia: la "gente pequeña",
+primos cercanos de los enanos y los gnomos. La Gente Pequeña también fue la
+antepasados de los Enanos Roobikyoub, que habían dejado sus granjas para minar plomo en
+los bosques de Kerovnia. Los Little People se habían quedado atrás, felices de continuar.
+agricultura; y especializándose en la elaboración de su famoso 'yogur de frutos secos'.
+
+Los Enanos son gigantes en el mundo del comercio y prosperan gracias al tira y afloja.
+de negocios. La Gente Pequeña, aunque menos aguda, tiene fama de ser dura.
+trabajo e industria.
+
+Las regiones montañosas, con sus picos nevados siempre brillando y
+parpadeando contra el cielo azul helado, son una gran atracción turística. montaña
+El trekking es muy popular y no es caro contratar un unicornio rosa.
+autóctonos de la zona, para explorar los numerosos y variados lugares de belleza que
+las montañas tienen para ofrecer. (Estos unicornios fueron presentados por The Little People
+Hace tres siglos, cuando un tal rey Faldous de
+
+Página 1
+
+Aquitania, provincia vecina, regaló al rey de Kerovnia un unicornio rojo
+semental como regalo de cumpleaños.) Los enanos, como era de esperar, tienen una completa
+monopolio de la industria turística.
+
+El rey Erik y la reina Jendah no son figuras muy populares y dominan el
+lealtad de sólo una pequeña sección de la comunidad de Enanos, Gnomos y Pequeños
+Gente. La mayoría de los demás habitantes son antirrealistas y forman la
+Partido de oposición. Su líder es el famoso Gringo Baconburger, cuyo
+El cuartel general se encuentra en el laberinto de túneles y cámaras debajo de estas montañas.
+Las regiones desérticas están en su mayor parte deshabitadas, pero en sus extremos discurren
+hasta encontrarse con el azul celeste del mar Aquatica, que baña suavemente el dorado
+costa. La villa de vacaciones Royal está situada en Kerga, la capital de este
+región. Aquí abundan los centros turísticos y florece el turismo. Una gran atracción es
+las distintas competiciones de remo a lo largo de los meses de verano, que se celebran
+organizado por el propio Rey.
+
+Hay una región en Kerovnia que no atiende ni al turismo ni a la minería.
+industrias - Los Grandes Páramos. Esta es una vasta área silvestre, bordeada
+por estanques viscosos y arroyos lentos. Sin embargo, toda la zona es de gran
+importancia para la Gente Pequeña, porque es aquí donde crían a sus
+queridos unicornios rosados y los encantadores Kattish Dorabs. El dorab, una cruz.
+entre un conejo y un perro, se introdujo hace unos seiscientos años. es
+más apreciado por sus habilidades de caza. Tiene el cuerpo de un spaniel, y el
+pelaje suave y orejas caídas de conejo. Muchos kerovnianos, incluido el rey
+él mismo, tenga un dorab como mascota.
+
+Wastelands, con su naturaleza cubierta de hierba que se balancea y baila al son de melodías de
+brisas lejanas en invierno, y cuyos juncos crepitan y arden en verano
+calor, conducen a la ciudad capital de Kerovnia - Keros - (hogar y lugar de nacimiento del
+honorable y justo rey Erik!)
+
+Siglos de cría selectiva, preservando las líneas de sangre más puras mediante
+
+Página 2
+
+constantes y minuciosos matrimonios mixtos, han dado como resultado la impresionante cifra
+de nuestro actual monarca - quien, con poca luz y con viento a favor, podría
+en realidad ser confundido con un humano.
+
+Los enanos, los gnomos y las personitas son despreciados por el partido realista.
+- que aman y veneran al rey Erik. El partido de oposición, liderado por Gringo, está
+ganando fuerza rápidamente, nutrido por la creciente reputación de Erik como
+chapucero político, tanto en casa como en el extranjero. Su mal manejo de los asuntos de Estado
+ha resultado en una crisis económica y un malestar social general, nunca antes
+experimentado en Kerovnia.
+
+Generalmente se considera que la reina Jendah es más sabia y políticamente más astuta.
+que su marido. Ella es una figura carismática; ingenioso, inteligente y orgulloso
+poseedor de una graciosa belleza. Pero el Rey, un misógino encubierto, se niega a
+dejar que su esposa participe activamente en los asuntos internos o en la política exterior.
+reducida a ocuparse de la "Sociedad de Personas Mayores y Pequeñas", y la
+distribución de panqueques picantes de rata a los pobres y necesitados. Sus talentos como
+artista, escultor y decorador de interiores, sin embargo, encuentra amplias salidas.
+
+De hecho, sólo hay una mujer en el reino que es muy amada por los
+Rey - la niña de sus ojos entrecerrados - su hija Lattecia; conocido como "Lacey".
+Ella es todo lo que un padre orgulloso podría desear en un hijo único. ella tiene
+heredó la nariz puntiaguda y los mechones grasientos de pelo apagado y ratonil de la
+Familia Dorada. Además, tiene un carácter dulce, lo que la ha hecho enormemente
+popular en la alta sociedad kerovniana. Una captura de lo más deseable para cualquier extranjero.
+Príncipe!
+
+Lacey acaba de celebrar su decimosexto cumpleaños. a ella le han dado un macho
+Dorab con el nombre de Poops, y está profundamente enamorado del Príncipe Malcolm, el
+¡heredero apuesto y apuesto al trono de Aquitania! En la actualidad Malcolm
+Múltiples actividades (¡algunas insinuarían nefastas!) como piloto de helicóptero real.
+- sin mencionar su vertiginoso romance con el
+
+Página 3
+
+La ruborizada y virginal Lacey: continuamente aparece en los titulares del color enano.
+tabloide "The Kerovnian World", propiedad y dirigido por Gringo Baconburger.
+
+La princesa Lacey, desde su infancia, ha sido educada para el papel de futura
+Reina de Kerovnia. Esta tediosa y difícil tarea ha sido deber del
+Institutriz real, Zita. Esta anciana bruja era la niñera de Erik, de él mismo y de
+Se ha insinuado que ella es responsable no sólo de la educación de Lacey, sino también de
+también para Erik (quien continúa tomando lecciones de matemáticas y ciencias a la edad de
+¡cincuenta y tres!) Gringo Baconburger incluso sugirió, en un momento político bastante violento
+reunión del Partido de Oposición, que Zita estaba más a cargo del gobierno de Kerovnia
+finanzas y la asignación de los fondos del tesoro real, que el propio Rey.
+La abuela paterna de Zita, aunque de verdadera estirpe kerovniana, también era
+desciende de la tierra de Perpetania, y Zita ha heredado su poder sobrenatural.
+poderes. Su clarividencia y lectura del Tarot han resuelto muchos problemas políticos complicados.
+situación en Kerovnia. Aún más importante, Zita ha mejorado y mejorado mágicamente.
+mejoró la belleza natural de Lacey a lo largo del año, ganando así aún más favor en
+los ojos del Rey.
+
+Aunque los poderes de Zita han aumentado su control sobre la familia real Kerovniana,
+sigue siendo una mujer sencilla, con poco en común con la Jet Set local.
+Vive en una pequeña cabaña en los terrenos del palacio con vistas a la casa de la reina Jendah.
+famoso jardín de rosas, rodeado de sus calderos, pócimas mágicas, telarañas,
+arañas, ojos de tritones y lenguas de sapos; sin mencionar su venenoso-
+Le pareció familiar, el desdeñoso felino Postlesthwaite.
+
+Los periodistas enanos han sugerido que Zita está hechizando a la princesa para
+obtener el poder supremo en los años venideros; pero Erik estaba encantado de que ella
+Trabajó incansablemente sin salario e invariablemente estuvo de acuerdo con cada una de sus palabras.
+
+Página 4
+
+Una tarde, Erik estaba dando audiencia a varios nobles del país en el
+Sala de recepción estatal azul. Zita estaba presente, tomando notas discretas en su andrajosa
+cuaderno de cuero verde, asintiendo y gruñendo para sí misma. Los nobles eran
+discutiendo las leyes del impuesto al maíz, quejándose amargamente de los fuertes incrementos en
+los impuestos anuales.
+
+Erik se rascó la cabeza confundido, incapaz de lidiar con sus crecientes
+hostilidad, cuando Zita dio un paso adelante y espetó:
+
+"¡Todos ustedes tienen suerte de poder comerciar en el Reino de Kerovnia!
+King te permite vender tu trigo inferior a todos y cada uno, y tienes la
+¡Honor y privilegio de pagar impuestos a la bolsa real!
+
+Los nobles quedaron atónitos y en silencio ante esta diatriba, y Erik rápidamente desestimó
+la multitud reunida, antes de que tuvieran la oportunidad de recuperar la compostura. cuando
+Cuando la habitación estaba vacía, Erik corrió hacia Zita y agarró sus huesudas manos entre las suyas.
+patas como garras, y exclamó:
+
+"Querida Zita, mi fea y fiel súbdita, mi maquiavélica y desdentada
+¡Político, mi belleza llena de verrugas! Por favor dime qué puedo hacer por ti para
+recompensarte y alegrarte cada hora?
+
+Zita, pensativa, se sacó un largo pelo blanco de la fosa nasal izquierda y, casualmente,
+apretando uno o dos granos, respondió lo siguiente:
+
+"Querida Majestad. Hay un pequeño favor que te pido, en toda tu
+grandeza. No muy lejos de nuestra tierra vive un amigo mío, a quien falsamente
+enviado al exilio, por un crimen que no cometió. Ahora busca refugio en un país
+como Kerovnia. Es un hombre brillante, con una mente inigualable - "
+
+"¡Quieres decir!" interrumpió el Rey, "Que este hombre tiene un intelecto mayor
+que el mío?"
+
+"Oh, no, señor", hizo una mueca Zita, "Ninguna criatura viviente podría igualar tu
+¡Graciosa majestad!"
+
+Página 5
+
+"Bueno, entonces, por favor, continúa", concedió el Rey.
+
+"Lo conozco desde mis primeros días", continuó Zita, "su magia
+Sus poderes son supremos y sus descubrimientos científicos son legendarios. Quizás tu
+majestad podría encontrarle trabajo, ya sea en la Universidad Dorada o en la nueva
+Laboratorio de investigación para la polinización cruzada de diversos tipos de especies extranjeras.
+¿moneda?"
+
+"¡No!" Respondió Erik: "Haré un mejor uso de él que eso. lo que necesito en
+Palacio, para divertir a mi preciosa Lacey y entretener a los invitados reales, es una
+Mago de la Corte. ¡Encuéntralo y tráemelo!".
+
+Y así sucedió que el hechicero, llamado Cronos, entró en el Palacio Real.
+casa y se convirtió en el Mago de la Corte. Tan asombrosos eran sus trucos, y tan
+numerosas sus hazañas de magia, que Lacey casi comenzó a eludir sus lecciones escolares
+con Zita, chillando y gritando de alegría mientras Cronos producía uno más.
+Dorab de su sombrero de copa verde.
+
+Página 6
+
+
+CAPÍTULO DOS
+
+Cronos era muy querido por la corte y con frecuencia se le pedía que realizara su
+proezas de magia en las casas de campo de los nobles. Fue especialmente admirado por
+Las criadas de la reina Jendah, para quienes él a menudo aceptaba hacer las camas mágicamente,
+desempolvar los pisos y encender los fuegos. Los cocineros lo invitaban a menudo al Royal
+Las cocinas y la cocina gourmet pronto se hicieron conocidas en todo el país. con un
+Con un chasquido de lengua, podía convertir un hígado de ganso en el mejor Paté de Fois.
+Gras, y con un simple vistazo a un cítrico, produciría un Limón endiablado.
+Soufflé. Erik se preocupó tanto por la pereza general en el Palacio
+personal, que amenazó con cortarles la cabeza a menos que comenzaran a trabajar
+correctamente. Zita vino a rescatarlos antes de que se produjera ningún daño, y la vida en el
+El palacio volvió a la normalidad y, a partir de entonces, Cronos dejó bien al personal del palacio.
+solo y se interesó por los jardines y los establos.
+
+Fue mientras hacía un recorrido por los establos y visitaba la caja suelta del
+corcel ceremonial, Bruce -en parte unicornio y en parte caballo- que hizo el
+conocido del jefe de mozos, JoJo. Era un tipo bastante agradable, en su
+A finales de los cincuenta, que había realizado su aprendizaje durante el reinado de Erik.
+padre Willy III. Entablaron conversación y Cronos descubrió a su
+deleite, que había encontrado justo al hombre que lo ayudaría en su recuperación psicológica.
+análisis del monarca: un proyecto que estaba llevando a cabo en nombre del
+periódico clandestino, '¡Sigue luchando!' JoJo había conocido al Rey cuando era un pequeño
+muchacho, y lo había visto crecer hasta convertirse en un hombre. Sabía mucho sobre las faltas del Rey.
+y debilidades, y había prometido llenar
+
+Página 7
+
+Kronos conoce muchos puntos de interés.
+
+Durante sus recorridos por los jardines y los establos, Cronos causó un gran revuelo. Su
+Su reputación se había extendido ante él, y tanto los jardineros como los mozos de cuadra eran
+ansiosos por conocer al gran hombre, expresar sus diversas insatisfacciones y
+preocupaciones. Cronos, con sus modales tranquilos y su apariencia culta, pronto ganó el
+corazones de quienes lo rodean. Poco a poco, en el fondo de su mente, empezó a
+Me pregunto si él mismo no sería un rey mejor, más sabio y más popular.
+de Kerovnia que Erik! (Especialmente con la ayuda de su querida hermana, Zita).
+
+Mientras estos ambiciosos sueños pasaban por la astuta mente de Cronos,
+Gringo Baconburger estaba concibiendo un plan aún más atrevido. gringo, quien
+encabezó el partido Liberación Enana de Kerovnia, fue la despiadada oposición de Erik
+líder, conocido por sus actividades políticas en los círculos enanos y muy querido
+por la gente pequeña. Si Gringo pudiera obligar al Rey a celebrar una reunión democrática
+elección por primera vez en la historia de Kerovn, era casi seguro que el
+El partido enano conseguiría una mayoría de votos y expulsaría a los realistas, cuyos
+Su contribución al comercio y al turismo fue bastante inepta.
+
+La comprensión de Gringo de los asuntos internacionales era muy astuta y su política
+Los conceptos eran los más avanzados de todas las diferentes poblaciones de enanos. era el
+quien había explicado por primera vez a la Gente Pequeña, con la ayuda de numerosos
+histogramas y estadísticas, que su antigua demanda de: "Más horas por menos
+¡paga!' contenía un defecto económico sutil pero fatal. Pero ¿cómo, a falta de un
+revolución, ¿debía obligar al rey a aceptar elecciones generales?
+
+Gringo Baconburger era un líder relativamente joven para que la facción de los Enanos tuviera
+adoptado. Desde el principio su confianza como orador público y como
+figura intelectual había llegado a oídos de la Sociedad de Enanos Ancianos (los
+miembros más sabios de las comunidades de Enanos y Gente Pequeña)
+
+Página 8
+
+responsable de la elección de figuras importantes de la sociedad enana, así como
+como la tediosa actividad de reunirse con el Rey dos veces al año, para discutir
+problemas sociales.
+
+Pronto quedó claro que Gringo era el hombre que habían estado buscando para
+encabezar el Partido de la Oposición. Desde su elección, el comercio, el turismo y la
+La industria había florecido bajo su hábil dirección y sus fieles seguidores.
+De acuerdo con los deseos de los mayores, Gringo se alejó del corazón de la
+comunidad minera y compró una casa grande en el pueblo de Korrezita, uno de
+los sectores agrícolas para el trigo y la cebada. Fue de este pueblo que él
+dirigió la industria turística, impulsó la economía de la comunidad minera y
+comercio explotado. Todas sus actividades políticas se llevaron a cabo en lo profundo del ihe
+Montañas Kerovnianas en escondites y cámaras secretas. Aquí las ediciones semanales
+del periódico político "Fight On!": Un diario amargamente
+condenado por el rey, aunque leído en secreto por muchos miembros del personal de su palacio.
+
+Página 9
+
+
+CAPÍTULO TRES
+
+Pero, amable lector, volvamos a nuestra heroína, la dulce princesa Lacey. nosotros
+encuéntrela sentada en su asiento acolchado junto a la ventana; soñando con su amado
+Malcolm. Su exquisita habitación, revestida con los mejores paneles de nogal, daba a
+el patio principal del palacio, rodeado de altos muros, fabricados con los mejores
+Piedra kerovniana. Abrió de par en par sus ventanas de celosía para respirar profundamente el aroma.
+de las multitudinarias flores del jardín Real, cabeceando en la plata
+luz de la luna. Debajo de su ventana, los acordes de la Orquesta Real, interpretando una
+sinfonía clásica, flotaba hacia ella en el suave aire de la tarde de verano, y ella
+Sintió que las lágrimas le picaban detrás de los ojos pálidos. Casi imaginando que podía ver
+la imagen del noble Malcolm reflejada en el agua que salpica en las fuentes
+debajo de ella, se apartó el pelo grasiento de la frente estrecha y miró
+soñadoramente hacia el cielo estrellado, recordando su primer encuentro con el
+príncipe honorable.
+
+Había sido en Kerga, el año anterior, cuando su padre había invitado a varios
+Las familias reales pasarán un par de semanas empapándose del ambiente veraniego.
+La gente siempre se alegraba de recibir una invitación de la Corona Real de Kerovnian.
+familia. Contaban con algunas de las mejores opciones de pesca disponibles y el palacio de verano.
+Había sido modernizado poco antes. La mayoría de los palacios eran más
+incómodo por dentro; húmedo, polvoriento y lleno de arañas.
+
+Página 10
+
+Erik fue considerado un anfitrión entretenido desde el empleo de
+Cronos, que siguió deleitando tanto a niños como a adultos de la realeza. la comida,
+También fue excelente, y las bagatelas de la reina Jendah tuvieron fama internacional.
+
+Se había invitado a cinco familias reales diferentes, incluida la reina Hortensa de
+Aquitania y su hijo Malcolm. El rey de Aquitania había muerto unos cinco años
+previamente en circunstancias misteriosas. Lacey nunca antes había conocido a
+hogar aquitano. Hizo que beerl participara en un programa de preguntas de Royal en el
+ciudad capital (con la ayuda de los poderes sobrenaturales de Zita), y llegó para el
+cena entre semana y baile después de realizadas las presentaciones. Erik había sido
+ocupado jugando canasta todas las noches con el rey y la princesa de Silenissia y
+Se había olvidado por completo de presentar a su hija a la multitud de invitados. tan pobre
+Lacey llegó a la cena esa noche en particular sintiéndose muy tímida y perdida.
+Estaba vestida con un deslumbrante vestido rosa de verano y el pelo secado con secador.
+rizos y sus zapatos de charol rosa brillaban a la luz de las velas. ella
+Era el centro de atención de todos los ojos. El banquete de esa noche se estaba celebrando en el
+sala de orquídeas, una perfecta forma ovalada con paredes barnizadas y ventanas en forma de arco,
+con vistas al mar.
+
+Directamente debajo de las ventanas crecían orquídeas silvestres de vivos colores púrpura y rosa, cuyas
+Las flores alcanzaron y realzaron la belleza de la habitación misma. el largo roble
+Las mesas estaban cubiertas con manteles de encaje azul pálido, con el emblema de las Familias Doradas.
+escudo de armas, y adornado con la más fina placa de plata y los más caros
+vasos de cristal en el Reino. Habían colocado velas azules delante de cada
+invitado, y cada tallo de vela había sido decorado con cariño con una guirnalda de diminutos
+rosas rosadas y margaritas moradas.
+
+El coro real, discretamente situado detrás del tapiz de seda azul.
+cortinas, cantó una selección de baladas kerovnianas. En un extremo de la mesa estaba sentado
+Erick. Estaba vestido con un uniforme de seda color cereza triturado del Royal
+Guardias Unicornio, con collar de puro armiño. Su pecho ardía con
+
+Página 11
+
+filas de medallas resplandecientes, y su cabello ralo sostenía el agosto
+Corona. Estaba tachonado de rubíes Capachon y rodeado de perlas aljófar de
+el mar Aquatica, los símbolos del mes de agosto.
+
+Frente al radiante Rey, en el extremo opuesto de la larga mesa, estaba sentado el
+hermosa reina Jendah. Aunque no llevaba corona, sus largos mechones castaños tenían
+sido diseñado al más puro estilo Kerovniano, con diamantes y esmeraldas entretejidos entre los
+trenzas de su cabello. Llevaba un fino vestido de lamé dorado y unas puntas exquisitas.
+Zapatillas de raso violeta. Ella eclipsó a todas las demás damas presentes.
+
+En algún lugar entre esta feliz multitud se encontraba Matcolm, heredero del trono de
+Aquitania. Bajo, bastante regordete, con papada, piernas rechonchas y musculosas y
+Con brazos muy fuertes, Malcom siempre había sido un rompecorazones entre las damas reales.
+Sus brillantes ojos marrones eran agudos para captar los detalles de cada recién llegado; su
+Unos labios bastante finos ocultaban sus pequeños dientes de forma uniforme. aunque muy tímido
+En privado, tenía la desagradable costumbre de ser muy hablador en público para ocultar
+su complejo de inferioridad. Hasta el momento había pasado toda la noche conversando.
+con Lady Franceska, hija del conde Audarva de Aquitania.
+
+Malcolm se había opuesto a la idea de pasar dos semanas de sus vacaciones de verano en
+Kerovnia, porque había planeado un viaje en barco con sus amigos (en particular el
+Señora Franceska). Sin embargo, su madre, Hortensa, había insistido en que su hijo acompañara
+a Kerga, porque tenía otros planes para él durante aquellos días de verano. esto
+dama alta y con gafas, conocida por su frialdad y actitud distante hacia los
+habitantes pobres de Aquitania- habían alimentado durante algún tiempo la idea de una
+unión matrimonial de las dos familias. Para ella estaba claro que Malcolm debería
+casarse con Lattecia entonces Aquitania se uniría financiera y políticamente
+a Kerovnia, permitiéndole ejercer poder sobre la comunidad minera y explotar
+al máximo sus reservas de diamantes y oro. Sería fácil para ella manejar
+poder a través de Malcolm, quien la adoraba y respetaba sus opiniones en
+
+Página 12
+
+asuntos de estado. Encontró a Erik bastante ridículo, especialmente con todos esos
+medallas esparcidas por su pecho; pero Jendah era una buena amiga, ¿quién sería?
+Muy feliz de que Hortensa interviniera discretamente en los asuntos de Erik.
+
+Los invitados jadearon de puro placer cuando Lacey entró al salón de banquetes. malcolm
+levantó los ojos del rostro de Franceska para mirar a la princesa mientras ella saltaba
+Entró en la habitación, haciendo reverencias a izquierda y derecha ante los invitados reunidos. ella apareció
+ser una chica plácida y retraída (Malcolm detestaba a las mujeres mandonas con
+personajes temperamentales).
+
+Hortensa vio a su hijo observando atentamente a Lacey y suspiró con profundo alivio.
+La profecía de la Bruja Verde de Aquitania seguía su curso predestinado. como
+Lacey tomó su lugar al lado de su madre, sorprendió a Maicolm mirándola
+atentamente. Sonrojándose furiosamente, se giró rápidamente y le sonrió dulcemente.
+su madre.
+
+Su verdadero encuentro no tuvo lugar hasta algunas horas más tarde, mientras se servía el café.
+siendo atendido. Lacey había pasado toda la cena tratando de evitar a Malcolm, quien
+No podía apartar los ojos de ella. Al final de la cena, el rostro de Lacey era un
+rosa brillante y avergonzado, mientras los ojos del atrevido aquitano se desnudaban constantemente
+ella. Hortensa, sintiendo que era el momento adecuado para presentarles a la pareja, tomó su
+pequeña mano regordeta en la suya bastante grande, y lo atrajo hacia donde estaba Lacey.
+sentado, rodeado de amigos y familiares.
+
+"Ahora, queridos", dijo Hortensa con su fuerte voz de caballo, "creo que ya es hora de
+os conocisteis. Después de todo, Kerovnia no está lejos de nuestra ciudad natal,
+y creo que ustedes dos deberían convertirse en los mejores amigos".
+
+Ante esto, Lacey se sonrojó de un color púrpura más violento y miró sus zapatos, mientras
+Malcolm sonrió amablemente a la miserable criatura sentada frente a él.
+
+"¿Te apetece otro batido?" preguntó con indiferencia.
+
+Página 13
+
+"Pues sí", tartamudeó. "Eres muy amable". Y ella permitió que el atrevido Malcolm
+para rozar sus finos labios sobre sus diminutas manos rojas. Esta reunión histórica tuvo
+efectos electrizantes sobre los invitados reunidos, y poco a poco el alboroto de voces
+se apagó en un simple susurro. Todo el mundo se estiró hacia adelante para tratar de atrapar al más pequeño
+indicio de la conversación entre los dos tortolitos reales.
+
+Hortensa y Jendah se retiraron al tocador de damas para discutir la perspectiva de una
+Boda real dentro de los próximos doce meses. Malcolm, que sentía que ahora estaba
+centro del escenario, alzó la voz hasta un profundo crescendo, mirando a Lacey con
+admiración manifiesta:
+
+"Mi querida Lacey, ¿quizás podrías venir a visitar Aquitania el año que viene? 1
+Creo que realmente amarías a nuestro país. Aunque se encuentra al sur de
+Kerovnia, y tiene un clima seco, tenemos la suerte de disfrutar del clemente
+clima de los mares del sur, que traen brisas frescas incluso a las zonas más cálidas.
+nuestros pueblos."
+
+Dicho esto, Malcolm flexionó los hombros y los brazos, anchos y musculosos por muchos motivos.
+años de natación y pesca. Pero Lacey, en su ingenuidad, mantuvo sus ojos fijos en
+su nariz aguileña. Malcolm continuó con su descripción de la topografía de
+Aquitania, mientras Lacey se sentaba y escuchaba con asombro y admiración. el hablo
+incesantemente de la geografía, la historia y los aspectos políticos y económicos de su patria.
+políticas; y proporcionó una gran cantidad de información sobre sí mismo. y por tres
+horas las cabinas de café Royal permanecieron en silencio, mientras los invitados bebían
+La fascinante exposición de Malcolm. Hortensa estaba muy contenta de haber concebido y
+crió a un heredero tan modelo, tan tremendamente popular entre la familia real
+público. A partir de entonces el romance entre los dos jóvenes floreció. el
+La pareja real fue vista junta en todas partes, en fiestas de remo, fiestas de natación,
+navegación, pesca y caza de cocodrilos.
+
+Página 14
+
+Lacey estaba profunda y románticamente enamorada de Malcolm, se sentía como la
+heroína en una de sus novelas favoritas de Rose Romance. Algunos cínicos pensaron que
+por parte de Malcolm esto no era Amor Verdadero. Después de todo, no era reacio a
+coqueteando con muchas doncellas hermosas, y tal vez simplemente estaba encantado con ella
+feminidad juvenil y encanto. Peor aún, en algunos sectores se había sugerido
+¡Que se creía el futuro rey de Kerovnia!
+
+Y así los amantes se separaron, con promesas eternas de fidelidad y amor. fue
+Acordó que antes de que Lacey regresara al Palacio Dorado, se encontrarían nuevamente.
+poco después de su decimosexto cumpleaños en la ciudad montañosa de Krossia para una
+vacaciones de senderismo. Zita los acompañaría como chaporón. El verano siguiente
+Vio a Lacey soñando constantemente con el atrevido Malcolm, mientras él, desprovisto de cualquier
+otra compañía femenina, había invitado a Lady Franceska a irse con él
+en un viaje en barco.
+
+Página 15
+
+
+CAPÍTULO CUATRO
+
+Llegados a este punto, amable lector, nos despedimos de la bella Lacey. sus ojos
+ardiendo de amor, su cabello (tratado con el nuevo acondicionador para pieles grasas de su madre)
+cabello) brillando intensamente a la luz de la luna. Ella agarra su raído osito de peluche, cuyo
+Poops había comido la mitad de su fea cabecita, hasta su magro pecho. nosotros ahora
+recorrer unas trescientas millas hasta el corazón de la región montañosa donde encontramos
+Cronos descendió de la espalda de un oso polar volador.
+
+Cronos había sido llamado a cumplir una misión de cierta urgencia: su cometido era el de
+un verdadero mago, en lugar de un bufón de la corte. El problema afectaba un tanto
+gran dragón llamado Harry. Esta encantadora criatura había sido mascota de
+Kronos desde hace bastante tiempo. Harry era un dragón Kerulgiano; un de sangre fría
+Marnmal se encuentra sólo en las regiones montañosas, donde puede retirarse a la humedad.
+y frío de una cueva subterránea cuando las temperaturas alcanzan un nivel incómodo
+calor durante las horas del día. El dragón de Kerulgia mide unos dos metros de altura.
+de largo, de color verde y naranja, con escamas de color rojo brillante que recubren la periferia
+de su espalda arqueada. Su cola forma al menos la mitad de su cuerpo, curvada y
+afilado en ambos extremos. Tiene ojos bovinos, marrones y grandes de color frambuesa.
+colmillos. Pero estos dragones, aunque desagradables a la vista, tienen una apariencia inusual.
+rasgo psicológico: le tienen miedo a la gente. De hecho, incluso el ratón más pequeño
+tiende a hacerlos saltar. Debido a esta timidez, la mayoría de los dragones kerulgianos
+han sido devorados por otras especies de dragones y quedan muy pocos en Kerovnia.
+Cómo ha sobrevivido Harry a lo largo de los años es una historia en sí misma. Harry fue rescatado como
+un bebe
+
+Página 16
+
+a orillas del Mar Acuático, habiendo sido abandonado por su madre, y fue
+rescatado por Cronos, que estaba visitando la zona en ese momento. Cronos y
+Harry formó un vínculo inmediato el uno con el otro y viajaron a todas partes.
+juntos. Como a la mayoría de los dragones Kerulgianos les resultaba difícil
+sobrevivir, Cronos inventó una poción mágica para hacerlo más agresivo en tiempos de
+peligro. Por lo tanto, cada vez que Harry se sentía amenazado por un hombre o una bestia,
+tomó un sorbo secreto de la poción y casi de inmediato se le permitió exhalar un
+fuego infernal en un radio de 50 millas. A veces, sin embargo, ya sea a través de
+impaciencia o nerviosismo, tomaba una sobredosis de la poción, lo que
+¡Resultó en un desastre inmediato! Una niebla amarilla descendería entonces sobre Kerovnia,
+de modo que apenas se podía ver la mano delante de la cara; e incluso en el
+¡A mediodía sería una locura conducir sin utilizar las luces delanteras! A menudo,
+Para impresionar a los extraños, Cronos le pedía a Harry que respirara más profundamente, y
+pueblos enteros quedarían cubiertos de llamas de oro fundido o de una pestilencia
+oliendo niebla.
+
+Una noche en particular, Harry, en su casa en la región de las colinas de Kozza, había
+pidió a Cronos que le trajera un suministro urgente de poción mágica, ya que estaba
+sintiéndose alarmado y amenazado por una gran manada de dragones azules, que estaban
+Se informó que acechaba en el vecindario. Cronos preferiría que Harry
+Vivía con él, pero desafortunadamente no se permitían dragones dentro del palacio.
+límite; Así que se apresuró a llegar a las colinas para entregarle la poción.
+La guarida secreta de Harry. Allí notó algunos carteles esparcidos sobre la mesa en
+la esquina de la habitación.
+
+"¿Qué tenemos aquí, Harry?" -preguntó, mirando en dirección al
+carteles.
+
+"Es curioso que preguntes eso, amigo. Bueno, verás, este tipo se acercó al otro.
+día de campaña para el Partido Gringo Baconburger."
+
+El dragón inhaló profundamente, iluminando sus fosas nasales de color naranja. "Lo curioso es que
+
+Página l7
+
+su sede política no está lejos de aquí; de hecho, al otro lado de
+el valle. Parece un tipo interesante, este gringo, y está totalmente en contra.
+la familia real, bastante parecida a usted. Bueno, parece que planea una guerra general.
+levantamiento para obligar al Rey a celebrar elecciones democráticas y luego, si todo va
+Bueno, planea apoderarse de Kerovnia y obligar a la familia real a exiliarse.
+
+Cronos se acarició la barba pensativamente y miró profundamente a su amigo. "Me pregunto
+Si pudieras presentarme a este gringo, Harry." dijo. "Es extraño
+No había oído hablar de él antes. Tiendo a conocer a todo el mundo en Kerovnia, especialmente
+en los círculos políticos".
+
+"Oh, no creo que sea tan sorprendente que no hayas oído hablar de Gringo. Después de todo,
+La facción de los Enanos no tiene escaños en el Parlamento Real. todo el
+El gobierno está dirigido por los amigos políticos del Rey y los partidarios del
+Casa real de Aquitania. Todo esto huele a nepotismo. 1 siempre tengo mi
+oído al suelo, aquí en las colinas. Supongo que todo lo que oyes, viviendo en el
+palacio, es la misma vieja propaganda realista."
+
+Cronos, algo desconcertado por la perspicacia social y política de Harry, decidió
+que el problema debe ser la poción mágica, y resolvió que en el futuro
+Reduzca el perejil y el tomillo para evitar más vergüenza. harry,
+encontrando divertida la incomodidad de Cronos, y definitivamente en un nivel alto, después de haber tomado
+un trago extra de poción, rugió de alegría, se dio una palmada en los siete muslos y
+¡Prendió fuego al techo de su casa con una lluvia de chispas naranjas!
+
+"Te ruego que frenes tu entusiasmo, Harry. Tendré que pagar la renovación de
+Tu lúgubre guarida del bolso real. Condúceme directamente a la casa.
+de esta Gringo Baconburger y preséntanos. Creo que es de suma urgencia
+que nos encontremos antes de la puesta del sol."
+
+Cronos habló con severa autoridad y el dragón se dio cuenta de que la diversión y
+
+Página 18
+
+Los juegos habían llegado a su fin. Caminó obedientemente hasta un hueco de piedra, desde donde
+Se quitó el pañuelo a rayas azules y doradas, al que dio diez o quince vueltas.
+alrededor de su cuello con sus dientes bañados en marfil. Se dirigió hacia la entrada del
+cueva, poniéndose su mejor sombrero de tweed dominical, que colocó alegremente entre sus
+orejas grandes y caídas.
+
+"Está bien. ¿Nos vamos? ¿De verdad quieres ir? ¿Es absolutamente necesario ir?
+Es bastante tarde para llamar. ¿Crees que lo despertaremos? ¿Crees que
+¿Se enojará? Es un camino bastante largo. Afuera hace mucho frío, hace...
+
+"¡Deja de preocuparte, renacuajo demasiado grande!" -gruñó Cronos-. "¿Nunca puedes convocar
+el espíritu de aventura, preocupándose si un enano, un simple enano, será
+inconveniente o no. ¡Pshaw! ¡Tcha! ¡Hmph! ¿Qué me importan los enanos o cualquier otra cosa?
+criatura? Lo único que importa es que lo vea, y que procedamos.
+sin demora."
+
+Con eso, Cronos salió de la cueva, murmurando para sí mismo que era
+difícil encontrar un tipo con la propia capacidad intelectual, y que los dragones
+A veces puede resultar extremadamente aburrido.
+
+Harry tropezó detrás de él, sus patas con garras resbalándose ocasionalmente sobre el suelo.
+piedras cubiertas de musgo que habían sido talladas en la escalera para el uso de los
+residentes locales. El dragón, sintiéndose bastante herido, tropezó y se tambaleó.
+hasta que finalmente alcanzó a Cronos y, liderando el camino cuesta abajo hasta el
+borde del valle, señaló las luces que parpadeaban en la distancia: La casa
+de Gringo Baconburger,
+
+A esa hora de la noche no se veía a nadie más. No hay enanos ocupados
+dirigiéndose hacia las minas, con palas y azadas al hombro;
+no hay personitas empujando carritos llenos de productos caseros para venderlos al
+comedores mineros. No había damas de clase noble montando sus magníficos
+unicornios a través de las colinas, seguidos por sus sirvientes de a pie. La tierra estaba tranquila
+y oscuro hasta donde alcanzaba la vista. el
+
+Página 19
+
+La luna era como un globo gigante de vainilla helado que brillaba intensamente en la pagoda.
+del cielo. Iluminaba el camino hacia el fondo profundo del valle, mostrando claramente el
+escaleras que conducían a la zona residencial donde Gringo tenía su pequeña casa de piedra.
+
+Mientras se acercaban a la casa, la luna pasó por encima y durante unos segundos iluminó
+la chimenea dorada, situada en lo alto del tejado. Esta chimenea se había convertido en
+símbolo, para los miembros del partido político de Gringo, de la lucha que aún estaba
+por venir. Harry hizo una pausa y miró fijamente el hermoso objeto, que
+De alguna manera se parecía a un amuleto de oro en una pulsera.
+
+Era un tipo sentimental y sentía que las lágrimas le picaban en los grandes ojos acuosos.
+ojos.
+
+"Cronos, ¿no crees que sería encantador si pudiera tener una chimenea?
+así? ¿O tal vez uno plateado estaría más de moda?"
+
+Cronos guardó un silencio digno. Aunque él mismo había criado al dragón,
+Le costaba creer que el animal pudiera decir semejantes tonterías. Cronos, como
+la mayoría de los hechiceros, era algo victoriano y reacio a cualquier exhibición de
+entusiasmo o emociones extremas. Nunca había aprendido a llorar y rara vez mostraba
+signos de sentimiento: En el Gremio de Magos se considera, por supuesto, un signo
+de debilidad. (Aunque se rumorea que las brujas verdes de Aquitania habían
+aprendió ciertas artimañas femeninas; para encantar a los magos y robarles sus
+poderes mágicos!)
+
+Al llegar a la casa de Gringo, Cronos sacó su mágica varita dorada de su
+bolsillo interior del chaleco y lo agarró firmemente en su mano izquierda. ¿Deberían encontrarse?
+Si tenía algún problema, tenía la intención de usarlo. Harry miró a través de las ventanas enrejadas,
+y vio que varias velas habían sido encendidas y cuidadosamente colocadas sobre una gran
+escritorio de haya, ante el cual estaba sentado un enano bastante apuesto, garabateando furiosamente
+en un trozo de pergamino. Cronos llamó bruscamente a la puerta y el Enano,
+mirando hacia arriba, vio el
+
+Página 20
+
+Dragón respirando furiosamente hacia él a través de la ventana.
+
+Gringo se levantó lentamente de su sillón acolchado, se apartó los rizos oscuros de
+sus ojos, se quitó las gafas de lectura con montura de concha de su nariz inusualmente pequeña,
+Caminó resueltamente hacia la puerta principal, la abrió bruscamente y procedió a
+¡Quita la varita mágica de la mano de Kronos!
+
+"Aquí nada de eso, viejo", amonestó al asombrado mago. "No lo hagas
+dedicarse a la magia y ese tipo de tonterías por aquí, ya sabes, guarda eso
+¡Subproducto juvenil de la tecnología de control de multitudes! Crece, sé un hombre, consigue una vida decente.
+trabajo! ¡Entra, siéntate y tómate un whisky con refresco!
+
+Cronos, sonrojado de indignación, siguió de mala gana a Gringo por el pasillo.
+doblando su largo cuello para evitar chocar con la campana de cobre que colgaba del
+puerta. Harry, reprimiendo una risa feroz, le guiñó un ojo a la chimenea dorada, hizo un
+pequeña pirueta y saltó detrás de Cronos al pasillo.
+
+Siguieron a Gringo hasta una habitación estrecha amueblada con muebles confortables.
+Sofás desgastados cubiertos con sábanas de algodón. La habitación era demasiado baja para el dragón y
+tuvo que enrollar su cola inmensamente larga en una bola apretada y sentarse sobre ella. gringo
+Le indicó a Cronos que se sentara en el más grande de los tres sillones, mientras él se dirigía al
+aparador y sirvió tres medidas fuertes de whisky en un vaso grande.
+copas. Cronos se había vuelto de un tono púrpura aún más oscuro y se estaba frotando la
+Juntó las manos con tanta violencia que despidieron chispas de ira.
+El Enano sirvió las bebidas con irritante lentitud. El rostro de Cronos se volvió
+púrpura a blanco con furia, y humo comenzó a salir de sus oídos. harry,
+cuya cola sufría fuertes calambres, se desplomó en el suelo, rodó sobre
+espalda, y miró sombríamente al techo, lamentando profundamente haber dejado
+los carteles tirados por su habitación. Gringo pasó las bebidas (agitadas, no
+se agitó), y se sentó tranquilamente en su sofá acolchado.
+
+Página 21
+
+silla. Cronos terminó su vaso de un trago y, escupiendo de rabia, saltó hacia
+sus pies y le chilló a Harry, que ahora estaba revolcándose en un estado de ebriedad.
+estupor:
+
+"¡Sabes que el alcohol y la poción mágica no se mezclan! Dragón tonto, tonto.
+¡Deberías avergonzarte de ti mismo!"
+
+Gringo le guiñó un ojo al desconcertado dragón. "Así que eres la bestia que todo el mundo tiene
+estado quejándose. Quizás en lugar de arrojar tu niebla maligna sobre estos
+partes, nos harías un favor a todos y en su lugar asfixiarías el palacio".
+
+"¡Por supuesto que no!" -interrumpió Cronos-. "Qué sugerencia tan vergonzosa. ¿Qué piensas?"
+¿Sabes algo sobre dragones de todos modos?"
+
+"La verdad es que bastante", respondió Gringo, complacido. "Mi tesis doctoral
+contenía tres capítulos sobre la influencia de los dragones rojos en el Kerovnian
+población durante el reinado del rey Faldous. Es bien sabido que estas bestias
+poseía facultades intelectuales bastante alarmantes, y que eran utilizadas - "
+
+"¡Suficiente! Suficiente, digo." gritó el mago, su rostro adquiriendo todos los colores de
+el arcoiris. "Por el amor de Dios, basta de charlas inútiles, vayamos al grano.
+negocios."
+
+"No estoy del todo seguro", respondió Gringo con calma, "que usted y yo tengamos alguna
+negocios para discutir." Esto provocó una serie de abusos no imprimibles por parte de los iracundos
+mago, lo que hizo que Harry se retorciera en un rincón avergonzado y envolviera su
+cola firmemente alrededor de sus orejas.
+
+Gringo miró fijamente al hechicero mientras sacaba su varita mágica de su bolsillo y
+Lo blandió en la cara del Enano.
+
+Página 22
+
+"¡Yo me recuperaré y tú, pequeño villano atrofiado! No te imagines
+Posiblemente podría tomar el poder en Kerovnia sin consultar al genio de Cronos.
+Tus insignificantes actividades políticas han llegado a su fin, amigo mío. El tiempo ha llegado para mi
+para gobernar todo este dominio, y tú y tus semejantes se humillarán como mis súbditos!
+
+Con este último disparo salió de la habitación y Harry, desenroscando su dolorido
+extremidades, balanceadas hacia él.
+
+"Bueno", dijo Gringo, "parece que la diversión apenas comienza". el repuso
+tomó su vaso vacío, cogió el teléfono, marcó un número secreto y dijo
+"George, ¡ven aquí pronto! Y mantén la portada, tenemos una gran
+¡Historia para el periódico del palacio! Oh, trae a Pete contigo, ya que estás en ello.
+Tendremos que acercarnos sigilosamente a la guarida de ese dragón para tomar algunas fotos. ¿Qué eres?
+¿Piensas en esto como titular? KRONOS Y DRAGON EN TETE A TETE - QUE TÉ
+¡FIESTA!"
+
+Página 23
+
+
+CAPÍTULO CINCO
+
+Los días color melocotón del verano transcurrieron lentamente. Kerovnia, tierra de leche y miel (y
+yogur de nueces) floreció y floreció bajo el sol eterno. el tribunal que
+año había decidido permanecer en Keros, principalmente porque Erik había oído, de
+fuentes subterráneas, de un posible levantamiento de los enanos. La reina Jendah, sin embargo, había
+Se fue al palacio de invierno donde estaba trabajando en su arquitectura real.
+proyectos.
+
+Zita y Cronos se habían ido de vacaciones y pronto asistirían a una reunión secreta.
+conferencia de brujos. Lacey estaba haciendo las maletas; preparándose con entusiasmo para partir hacia
+Aquitania para unirse a su prometido. El amor había transformado a Lacey: su cabello había crecido
+hasta los hombros, le habían quitado los aparatos ortopédicos de los dientes y el juicioso
+El uso de maquillaje de ciruela y fresa disimuló hábilmente muchas de sus manchas y
+granos. Llevaba zapatos de tacón más alto y vestidos más cortos, y
+Mostró con orgullo sus rodillas nudosas a los periodistas reunidos en la estación de tren.
+estación mientras abordaba el expreso violeta para partir hacia Aquitania.
+
+En la multitud feliz, escondido detrás de la banda que tocaba el nacional de Kerovnian
+himno, Gringo acechaba, acompañado de Pete y George, el Inframundo
+fotógrafos del periódico. El entusiasmo de Lacey por visitar Aquitania por primera vez
+la primera vez estaba plenamente justificada; pudo ver que la mayor parte del país parecía
+como un gigantesco balneario con algún que otro enclave de coco o almendra
+árboles. Las aguas del mar de Aquitania eran las más puras y verdes del mundo.
+universo, con exhibiciones inigualables de
+
+Página 24
+
+corales y peces. La propia ciudad de Aquatica es de un blanco brillante, con casas de
+techos adornados y piscinas con forma de marsopa. El palacio donde Lacey iba a
+La estancia estaba hecha de mármol rosa y los flamencos revoloteaban en manadas desde cada
+muralla y torre.
+
+Cuando Lacey se apeó del tren, toda Aquatica parecía estar allí para
+encontrarse con ella, y de repente, allí estaba Malcolm, corriendo hacia adelante con los brazos
+extendido para saludarla! Estaba bronceado y en forma, vestía su traje gris y blanco.
+chándal, zapatillas de cuero blancas y su walkman colgado casualmente alrededor de su
+cuello musculoso. Sólo se vio a una persona con el ceño ligeramente fruncido. Conde Audarva,
+padre de la mandona y celosa Lady Franceska. Malcolm alejó a Lacey
+de la tumultuosa multitud y se embarcaron en su helicóptero privado para el
+Palacio. Se posaron en el helipuerto del tejado del Palacio, dispersando a los
+flamencos a izquierda y derecha. Las damas designadas en espera, haciendo reverencias y
+Riendo, abrió el camino hacia el ascensor, que descendió al dormitorio de Lacey.
+con vistas a los famosos jardines de cactus.
+
+Sus habitaciones eran magníficas: más grandes que todas las que había visto antes, con sus
+ornamentados tapices de seda blanca y rosa y muebles antiguos intrincados. ella tenia
+su propio teléfono, televisión y dos videograbadoras. Uno para ella y otro.
+uno más pequeño para cacas.
+
+Mientras Lacey desempacaba sus muñecas Cindy, las damas de compañía se afanaban
+con toallas y artículos de tocador, cepillos para el cabello y cintas, esponjas y polvos, jabones
+y ungüentos. De repente sonó el teléfono: era su madre, la reina Jendah,
+llamadas de larga distancia desde Kozza, la capital de la región montañosa. ella
+La reina Hortensa se había reunido en el palacio de invierno y las dos damas habían
+Pasamos muchas horas felices juntos en profundo cónclave, tramando y planificando el
+próxima boda real. Estaba en vilo al preguntarle a Lacey si estaba
+¿Comportándose de manera real y femenina? - ¿Si todo iba bien?
+¿Estaba Malcolm realmente enamorado? - La corte aquitana quedó debidamente impresionada por su estilo femenino.
+belleza y
+
+Página 25
+
+¿decoro? - ¿Se estaba portando Poops? - ¿Y se había acordado de empacar un segundo
+par de medias?
+
+A medida que las horas se convirtieron en días y los días se convirtieron en semanas, Lacey apenas se dio cuenta de la
+paso del tiempo en su constante deleite y felicidad con Aquitania en general,
+y el atrevido Malcolm en particular. Sin embargo, las cosas no transcurrieron tan bien
+en el Reino de Kerovnia. El malestar entre la población general fue
+aumentando. La insatisfacción era generalizada debido a la carga de una mayor
+impuestos. La familia real ya poseía dos palacios y una zona residencial junto al mar.
+villa, y ahora se planeó otro Palacio Real, sin mencionar el enorme
+gastos de la boda real que se acerca rápidamente. La reina Jendah tuvo varios
+proyectos de construcción privados disponibles y el Impuesto al Valor Agregado sobre la minería de esmeraldas
+había aumentado a un 23% sin precedentes! Erik había sido advertido por su subterráneo
+agencia de espionaje que se estaba gestando una insurrección masiva y decidió tomar la
+para aliviar la situación mediante la celebración de elecciones parciales democráticas.
+
+Ésta era una noción única, histórica y (algunos pensaban) peligrosa: pero
+sin embargo Erik insistió en que los candidatos a las elecciones no deberían incluir
+sólo de un miembro del gremio de la familia Noble, sino también de representantes de la
+Comunidades de gente pequeña, gnomos y enanos. Era el amanecer de una nueva era,
+la historia estaba en el crisol: Erik, Gringo, Kronos, Jendah, Zita (y de hecho
+La propia Lacey) tendrían un papel que desempeñar en el rico tapiz de acontecimientos
+que pronto seguirían.
+Lacey chapoteaba alegremente en el agua moteada de la piscina, rodeada de
+el juguetón Dolphos, (el híbrido de delfín-rana), con quien se había hecho amiga
+durante su estancia en Aquitania. Se sentía más en forma y más feliz que en
+toda su vida. Esto, a pesar de su siniestro color rosa langosta: resultado de
+¡O muy poca loción de protección solar o demasiado Malcolm! Aunque el
+La visita de Princess se estaba desarrollando mejor de lo que Malcolm había esperado, esto no hizo
+no impidió que su mirada se desviara del rostro de Lacey y se detuviera en el desgarbado
+franceska de patas,
+
+Página 26
+
+mientras fruncía el ceño agresivamente a los fotógrafos reales. Sintió una punzada de
+lamento que en breve sólo la vea en ocasiones oficiales, y que el funcionario
+¡Los negocios tendrían que reemplazar a los negocios mono! Saltar y estirarse hacia el
+completo cuatro pies y dos pulgadas de su cuerpo bronceado y ondulante, se sumergió
+Al estilo real se metió en el agua caliente y nadó enérgicamente varios largos de
+la piscina para impresionar a las espectadoras. Lacey dejó de chapotear y
+Miró asombrada a su Príncipe. Empujó los Dolphos a un lado y puso un
+mano en su pecho tembloroso, mientras Malcolm nadaba tranquilamente hacia Franceska, y
+Se pellizcó perversamente los dedos de los pies.
+
+Franceska chilló: "No hagas eso Malcolm, ya sabes lo cosquillas que soy".
+
+"¿Por qué no vienes a nadar, bestia perezosa?" bromeó, y agarrándola por
+el tobillo, la empujó hacia el agua. Luego, mientras los invitados se reían salvajemente
+sus payasadas, persiguió a Lady Franceska por el perímetro de la piscina,
+gritando y gritando mientras gritaba de alegría. Su placer fue considerablemente
+aumentó cuando notó a la princesa Lacey sorprendida con respecto a la escena con
+horror y consternación.
+
+"Malcolm. Oh, no, Malcolm", susurró Lacey. "No me hagas esto. ¿Por qué estás tan
+¿Interesado en eso, esa cosa, cuando estoy aquí? ¿Por qué, Malcolm? Ah, ¿por qué?" ella
+susurro se convirtió en un gemido nasal, y Poops, que estaba profundamente dormido bajo una
+gran cactus, empezó a ladrar ferozmente.
+
+Los Dorabs suelen ser sobreprotectores con sus amantes, y cuando vio
+La angustia de Lacey lo convirtió en furia. Corriendo hacia el borde del
+piscina, tropezó con una copa de vino vacía y dio un salto mortal al agua. con
+Con los dientes al descubierto y las fosas nasales dilatadas, remó dorab a gran velocidad hacia el
+Franceska retozando.
+
+Antes de que pudieras decir "¡Humfrey Humbleburger!" Poops tenía los dientes en la mitad superior.
+de su bikini, y mientras la salvaje ráfaga de dientes centelleantes y espuma
+disminuyó....
+
+Página 27
+
+¡CHOQUE! ¡HORROR! LEA TODO SOBRE ESO: El torso de Franceska se reveló de repente.
+¡La multitud encantada, tan desnuda como el día en que ella nació!
+
+La ágil figura de Malcolm atravesó el agua hacia Franceska, en parte para
+rescatarla del vicioso dorab, pero principalmente para obtener una vista de cerca del
+vergüenza de la dama. Chasqueando los dientes, volando la piel, Poops se volvió contra Malcolm y
+Se mordió brutalmente el dedo. Malcolm gritó de dolor y golpeó al pequeño
+criatura. Fallando el dorab por una pulgada, le dio a Franceska un golpe de refilón en
+la mandíbula y la arrojó bajo el agua. Los invitados, pensando que Malcolm estaba
+sufriendo de una insolación y estaba atacando a la encantadora dama, comenzó a sumergirse en
+El agua y la lluvia golpean por todos lados al infortunado Príncipe, que estaba
+Pronto quedó inconsciente y tuvo que ser rescatado por los salvavidas reales.
+
+Lacey se puso histérica y corrió gritando desde la piscina a su habitación, muy cerca
+seguido por varias damas de la corte, gritando y desmayándose mientras
+revoloteó detrás de ella. El horror de toda la escena había sido captado por dos
+Periodistas enanos, escondidos detrás de unos arbustos de pringles, que portaban el mensaje de Gringo.
+placa de apoyo y había estado tomando fotografías de la confusión reinante.
+
+Las noticias de los acontecimientos se difundieron rápidamente a otras tierras, y las noticias de las diez en punto
+La televisión aquitana dedicó una hora completa a la historia. El rey Erik estaba perturbado
+de un pesado juego de pinacle, para asistir a una reunión de emergencia del gabinete para discutir
+la conveniencia del matrimonio previsto de su hija. Hortensa la interrumpió
+visita a Silenissia para regresar a casa, y Jendah se apresuró a regresar a la ciudad capital.
+para consolar a su hija. Se había instado a los periodistas extranjeros a tratar todo el asunto
+asunto como un desafortunado accidente - mero buen humor por parte de los invitados a las vacaciones -
+pero la prensa del hampa hizo un excelente uso tanto de las imágenes como de la historia para
+socavar aún más la ya inestable posición del Rey.
+
+Página 28
+
+Cronos, riéndose continuamente para sí mismo, dirigió todo el asunto a su
+ventaja; persuadir a muchos miembros del personal del Palacio de que Lacey padecía
+locura congénita, que fue responsable de todo el incidente, y cuando el
+La pobre princesa de ojos rojos regresó a casa, sin saludo oficial ni banda de palacio.
+Para ser bienvenidos, abundaban los murmullos y rumores desagradables por todas partes. Jendah decidió
+su hija debería pasar varios meses en Kozza, recuperándose del
+asunto traumático. Malcolm cayó en desgracia y fue enviado al campo.
+donde, como castigo, fue inscrito como líder de la asociación de boy scouts.
+En lo profundo de su corazón todavía sentía mucho por Lacey y se avergonzaba de su propia vida.
+comportamiento. ¿Por qué había provocado todo aquel ridículo incidente? Quizás, después
+En definitiva, ¡la madre de Franceska había sido una Bruja Verde!
+
+Página 29
+
+
+CAPÍTULO SEIS
+
+Para Gringo y muchos de los Enanos, parecía una eternidad hasta el día de las elecciones.
+Su tiempo había estado completamente ocupado con muchas y variadas tareas, fijando carteles
+de Gringo a los árboles alrededor del perímetro del bosque, dirigiéndose a manifestaciones de entusiastas
+Enanos, y preparando discursos políticos. Por no hablar del día a día.
+de las minas de esmeraldas y la industria turística.
+
+Los espías de Erik habían prometido una recompensa de dos monedas de oro a cada enano, gnomo o
+Personita que votó por el partido realista; porque el rey sentía que si un
+plebeyo fuera elegido para el escaño vacío en las próximas elecciones parciales, sería
+señalar el comienzo del fin de su tenue control y su imperio.
+
+Malcolm, en Aquitania, empezaba a disfrutar de la vida al aire libre. Él guió a su chico
+tropa de exploradores con orgullo, y estaba planeando en secreto un viaje a Kerovnia para barrer
+Lacey se enloquece y se casa con ella en total secreto, rodeada de su águila.
+exploradores, desapareciendo con Lacey y toda la tropa como compañía de unos desamparados
+retiro campestre, donde habría mucha escalada en roca y caminatas para
+disfrutar.
+
+Cronos, por su parte, estaba sumido en una profunda desesperación. aunque el tenia
+nada más que desprecio por el rey Erik, lo último que quería en el mundo era
+ver al terrible gringo elegido para el cargo. Había planeado preparar una magia.
+poción que introduciría en el agua de Kerovnia
+
+Página 30
+
+suministro, lo que inclinaría al populus hacia el partido realista. Pero por falta
+de tiempo y porque no contaba con la ayuda vital de Zita (que estaba ocupada
+ocupado en cuidar a la postrada Lacey) no pudo preparar el
+poción mágica en el tiempo. Permaneció encerrado en su habitación, enfurruñado durante los días
+que quedaba antes de las elecciones.
+
+Por fin amaneció el gran día y Gringo ganó el escaño por una mayoría estupenda.
+Mientras los periodistas enanos leían con orgullo los avisos en la televisión esa noche,
+Gringo fue llevado, a la altura de los hombros, a la taberna local, donde sus seguidores
+bebí whisky (el mejor, destilado por los enanos Roobikyoub) y espumoso
+Agua de manantial (La más pura del valle de Obakanga) durante toda la noche. cuando el
+Cuando llegaron los resultados, Erik arrojó su corona al suelo y saltó arriba y abajo.
+¡en eso! Un ataque de mal humor, del que se arrepintió al instante, ya que estaba lleno de
+¡Diamantes puntiagudos y rubíes muy nudosos!
+
+Cronos, por otra parte, una vez que se le presentó el hecho consumado de
+elección de Gringo, no perdió el tiempo en vana furia, sino que empezó a esbozar el futuro
+Planes para engañar al líder enano para que colabore con el malvado hechicero.
+
+Después de los agitados acontecimientos de los últimos días, Gringo cayó en un profundo sueño.
+Soñó, entre otras cosas, que pronunciaba su discurso inaugural en
+Parlamento... ¡y de repente despertó y descubrió que lo era!
+
+Los largos meses de verano de Kerovn llegaron lentamente a su fin, marcados por una
+verano de sol brillante y cielo azul sin nubes. El trigo y la cebada
+La cosecha se completó a tiempo, porque la gente pequeña, llena de alegría por
+Para lograr el éxito de Gringo, trabajaron más duro que nunca antes. Los enanos también
+realizaban alegremente sus labores, cantando y silbando aires políticos, en
+burla cortés del rey y los nobles. La única persona que parecía insatisfecha.
+era el propio Gringo, pues, aunque contaba con la atención de ciertos radicales
+Realistas, no políticos ni sociales.
+
+Página 31
+
+Los cambios parecían inminentes.
+
+Unas semanas antes del día de la Celebración y Desfile Nacional, Gringo convocó a una
+reunión de emergencia de la Elderly Dwart Society, y describió sus planes para una
+huelga nacional. Tenía la intención de librar a Kerovnia de Kronos y Zita y sus
+extraños poderes sobre la Familia Real; porque seguramente estaban aliados con el
+fuerzas del mal? Una vez que Cronos y Zita hubieran sido desterrados, no sería demasiado
+¿Es difícil, sugirió, desmantelar gradualmente todo el sistema monárquico?
+Lacey podría casarse con el príncipe Malcolm y pasar el resto de sus días en Aquitania;
+y el Rey y la Reina deben ser removidos cortésmente, pero si es necesario por la fuerza.
+ya sea a la casa de verano o al palacio de invierno. Esto dejaría la capital
+ciudad libre para que la habiten los propios Enanos. Gringo esperaba en secreto
+a redecorar las habitaciones palaciegas de Keros e invitar a los numerosos miembros
+de su familia para instalarse en las distintas dependencias! todo el esquema
+fue ampliamente aprobado por sus amigos y asociados, quienes habían pasado la mayor parte de su
+vida laboral trabajando duro en las minas, en beneficio exclusivo del rey.
+hacienda.
+
+La reina Jendah estaba deprimida y agravada por los acontecimientos actuales en Kerovnia,
+aunque por una razón muy distinta de la que molestaba a su marido.
+Había recibido varias cartas molestas de su antigua amiga, Hortensa,
+instándola a decidir la fecha de la boda de la pareja real. ella presento
+varias excusas para el extraordinario comportamiento de Matcolm; diciendo que era un
+carácter reformado y que estaría encantado de ayudar a Erik en el
+funcionamiento diario de Kerovnia. Le recordó a Jendah que Lattecia estaba casi
+¡Tenía dieciocho años y se estaba volviendo un poco larga para ser una dama soltera!
+Estas cartas inspiraron ira en la Reina, que se dio cuenta de que Hortensa estaba intentando
+para instalar esta ramita de la realeza aquitana en el linaje Kerovniano. si ella
+preciosa hija se casara con el babuino, él podría permanecer legalmente en Kerovnia
+para siempre y, finalmente, obligar al rey a abdicar en favor de su hija.
+¡y el Príncipe Consorte!
+
+Página 32
+
+Malcolm estaba completamente bajo el control de Hortensa y, si se le daba la oportunidad,
+pronto destituiría a los enanos de sus cargos políticos y reemplazaría a los mineros
+con los campesinos aquitanos. Jendah decidió que bajo ninguna circunstancia
+¿Se casaría alguna vez su hija con el príncipe vecino? Ella pronto encontraría un
+combinación adecuada en otro lugar.
+
+Lacey, inconsciente de los planes de su madre con respecto a su futuro, continuó escribiéndole
+Malcolm dos veces al día. Le dictó sus cartas a Zita, quien se las pasó.
+inmediatamente a Jendah. Todas estas cartas fueron puestas en un gran cofre de cobre,
+escondido debajo de la cama de la reina. Todas las cartas entrantes de Malcolm eran
+retirado discretamente de la bandeja de correo de la Princesa a primera hora de la mañana, y
+También escondido en el cofre de cobre.
+
+Zita continuamente molestaba a la pobre niña, diciéndole que estaba perdiendo el tiempo.
+Escribiéndole a Malcolm, ya que obviamente no tenía intención de responder. la princesa
+Se entristeció profundamente y comenzó a enfermarse. Ella ya no era la rechoncha y torcida
+chica de antaño. Pronto se convirtió en una figura parecida a un espantapájaros, con una cara gris,
+y cabello desordenado. Sus ojos pálidos se volvieron negros de tristeza y se hundieron profundamente en
+su rostro arrugado. Le rogó a Zita que usara sus poderes mágicos para explicar por qué.
+Malcolm la había olvidado; y Zita luego fingiría mirarla profundamente.
+bola de cristal y contar historias inquietantes sobre el amor de Malcom por cierto aquitano
+dama, y cómo había perdido interés en Lacey debido a su falta de actitud "deportiva".
+destreza. La situación empeoró aún más porque Cronos en sus horas libres
+Visitaría a Zita y la animaría a mantener a la princesa alejada de Malcolm.
+Cronos temía que si Lacey se casaba con el príncipe extranjero y el poder finalmente
+entregado a la Reina Hortensa, entonces los Enanos serían desterrados de Kerovnia,
+y el ejército aquitano tomaría el mando del reino; con lo cual Cronos
+En el mejor de los casos, él mismo sería desterrado o, en el peor, asesinado por algún aquitano.
+matón.
+
+A principios de otoño la situación política finalmente llegó a un punto crítico.
+
+Página 33
+
+El Parlamento había sido convocado para discutir la disposición de los asientos para el famoso
+Desfile de septiembre unos dos días después. Una lista de invitados extranjeros que serán invitados a
+la ceremonia también debía prepararse sin demora. El debate continuó durante
+tres horas o más, cuando de repente Gringo se puso de pie de un salto, gafas en mano,
+y proclamó en voz alta:
+
+"¡Caballeros! Ha llegado el momento de afrontar la realidad de Kerovnia. ¡Cuántas veces
+¿Le he suplicado que revise y revitalice nuestra sociedad? Pero todo lo que haces es
+dormir y roncar durante cada sesión parlamentaria, cuando hay trabajo que hacer
+hecho."
+
+Gritos de protesta surgieron de los miembros reunidos, agitando los puños cerrados,
+y exigiendo que el Enano fuera sacado de la cámara.
+
+Erik, que estaba profundamente dormido, fue despertado por Cronos. Miró a su alrededor, adormilado,
+y, sin entender bien la situación, le hizo un gesto a Gringo para que terminara su
+discurso. El Enano no dudó y, alzando la voz hasta un tono febril,
+Señaló al Mago Real y pronunció la siguiente maldición:
+
+"¡Maldito seas, Cronos! ¡Malditos tú y tu hermana Zita! ¡Maldición sobre vuestras almas malvadas!
+¡Sois vosotros los responsables de todos los males que azotan a nuestro país!"
+
+Cronos se puso de pie de un salto, bramando de rabia y llamó a la familia.
+caballería para tomar prisionero a Gringo. En ese momento un grupo de enanos enojados
+aparecieron blandiendo sables y pistolas; y antes de que la caballería tuviera la oportunidad de
+arrestar a Gringo, el grupo armado de hombrecitos formó un círculo alrededor del
+perímetro de la sala, con sus armas apuntando hacia la asamblea. el rey,
+demasiado desconcertado para hablar, se desplomó en su trono, llorando copiosamente.
+Gringo saltó del podio y se dirigió al centro del escenario,
+a través de una multitud de enanos que lo vitoreaban.
+
+Página 34
+
+"Ésta es tu última oportunidad, Cronos. O abandonas el palacio y la tierra de
+¡Kerovnia pacíficamente, o tú y tu hermana criminal, Zita, seréis encarcelados!
+
+Se volvió hacia el Rey: "Su Majestad, ¿no se da cuenta de que ha sido
+¿Alimentando dos víboras en tu seno? ¿Tu mago y tu ex criada de la guardería? hacer
+Te das cuenta del daño que han causado a lo largo de los años a través de sus malignos
+¿Influencia sobre la princesa Lacey, la futura reina de Kerovnia?
+
+Los sollozos del Rey fueron reemplazados por un gemido de angustia, "Oh, no", gimió "¿puede esto?"
+¿Será verdad, gringo? ¡Me temo que sí, me temo que, después de todo, tienes razón!
+
+El silencio descendió sobre la sala mientras el público contenía la respiración. De repente el
+Los enanos corrieron hacia adelante y Cronos, gruñendo y ladrando como un perro rabioso, quedó atrapado.
+al suelo. Su rostro se volvió de un color púrpura intenso y sus orejas escupían llamas.
+y fumar. La congregación de nobles ancianos se retiró lentamente hacia las puertas,
+buscando la seguridad de las salidas de incendios. Cronos, bramando como un búfalo herido
+Al darse cuenta de la totalidad de su derrota, juntó las manos y
+Entonó un extraño encantamiento, suplicando ayuda a su desconocido Maestro.
+
+Por unos momentos no pasó nada; y de repente toda la habitación explotó
+en una miríada de luces, mientras una bola de fuego naranja descendía a través del techo
+y cayó en picado al suelo de madera pulida. Afortunadamente Gringo tenía un par de
+gafas de sol con él, pero la luz era tan abrumadora que los enanos que sostenían
+Cronos se vio obligado a dejarlo ir. Gringo miró asombrado mientras Cronos saltaba.
+en un carruaje de fuego en llamas que apareció de la bola de fuego naranja. es
+tirado por cuatro caballos negros, que se encabritaban y resoplaban, tiraban y desgarraban
+sus arneses de fuego rojo fundido. Sus cascos rasparon el suelo, la plata
+de sus zapatos relucientes y chispeantes; sus relinchos, un sonido demasiado terrible
+para oídos humanos.
+
+Página 35
+
+La bola de fuego flotó a través del techo, y Gringo se estremeció de miedo mientras
+vio al conductor del artilugio diabólico. Llevaba una larga capa negra, su
+El sombrero de copa estaba en llamas y un largo látigo firmemente agarrado a su cuero hendido.
+guantes. Aulló y gritó de alegría ante la multitud asustada que lo presionaba.
+se dirigieron a los rincones del salón.
+
+"Nos vemos a todos de nuevo", chilló; y mientras sus palabras resonaban en el viento, el
+La visión de fuego desapareció.
+
+Finalmente se restableció el orden y Erik fue acostado con una fuerte dosis de
+hipo. Gringo reunió a sus seguidores y les dio instrucciones de que debían
+Repartirse por la ciudad para evitar cualquier problema. Dio órdenes para que Zita fuera
+arrestado y trasladado de la casa de campo de Kozza a un lugar seguro lejos
+bajo las grandes montañas de Atina.
+
+Página 36
+
+
+CAPÍTULO SIETE
+
+Gringo decidió que se llevara a cabo el día de Fiesta Nacional, aunque
+tendrían que forzar un acuerdo para unas elecciones generales democráticas más adelante. encendido
+reflexión, sintió que los terribles acontecimientos de aquel día en el Parlamento eran
+nada más que un truco de magia producido por Kronos para lograr su escape. el era
+convencido de que regresaría pronto - aunque sólo fuera en un intento de rescatar a su
+hermana Zita.
+
+Se pensó que era mejor mantener todos los informes de estos extraños y terroríficos acontecimientos
+lejos de los oídos de la frágil princesa Lacey. A medida que el día de celebración crecía
+Cuando se acercaba, la excitación aumentaba entre los kerovnianos, se sentía en el aire que
+grandes acontecimientos estaban en marcha. Hubo muchos cambios radicales en la sociedad kerovniana,
+el más inusual es la formación, por decreto público, de una preocupación y
+Sociedad de sugerencias. Se colocaron grandes cajas amarillas en las calles principales, en
+donde las personas podrían colocar papeles indicando sus preocupaciones, deseos y
+sugerencias para la reforma en Kerovnia. Las cajas se vaciaron periódicamente tres veces.
+al día, y las sugerencias fueron estudiadas por el presidente de la Sociedad y su
+colegas. Por este y otros medios sutiles e insidiosos, la sociedad kerovniana
+comenzó a convertirse silenciosa y discretamente en una comunidad de Enanos.
+
+La mañana de la Celebración Nacional resultó agradable, aunque bastante ventosa.
+Erik, todavía débil por su ataque crónico de hipo, logró esbozar una valiente sonrisa mientras
+sus mozos de cuadra llevaron a Bruce al bloque de montaje. El caballo real estaba bien
+espíritus, su larga melena negra estaba entrelazada con oro y rosa
+
+Página 37
+
+A su cola le habían atado rosas. Estaba calzado con zapatos de oro y su
+El cuerno era de un tono a juego. La reina Jendah lucía un vestido largo y amplio de
+plata pura, en la que se modelaron cientos de diminutas banderas del partido Kerovniano.
+estado.
+
+Erik, que se había calmado un poco desde su enfermedad, le permitió por primera vez
+Es hora de usar una corona. Desafortunadamente no se habían forjado coronas para mujeres en el
+reino durante muchos siglos, y el suyo era demasiado grande y amenazaba con
+caerse de la parte posterior de su cabeza o deslizarse sobre su nariz. Lacey no había sido
+se le permitió unirse a la procesión real, por lo que tuvo que contentarse con ver su
+Los padres salen del Palacio desde el balcón principal. Se consideró más sabio para ella.
+Por su propia seguridad, permaneció dentro de los muros del Palacio, aunque planeaba
+Únase a las festividades más tarde ese día. El cortejo real se alejó lentamente
+el sol brillante.
+
+El Rey y la Reina estaban flanqueados por miembros de su guardia personal, vestidos con
+sus mejores uniformes de color rojo y dorado. Detrás de los soldados de infantería caminaba el Royal
+mascota, nada menos que Poops, vestida para la ocasión con un diminuto vestido dorado y rojo.
+abrigo. Le seguía el jefe de la perrera, vestido con el mismo uniforme.
+
+Luego vino una unidad de caballería dorada montada sobre unicornios rosados que representaban el
+guardias ligeros y, finalmente, una división de la guardia pesada montada en vehículos de color azul pálido.
+elefantes. Detrás de los elefantes siguió una procesión de invitados reales y
+varios miembros de la aristocracia. El cortejo real procedió pacíficamente durante
+tres millas, los vítores se hicieron cada vez más fuertes a medida que el sol se elevaba
+cielo. Pero luego, al tomar una curva estrecha, pasar por delante del Ayuntamiento
+donde el alcalde estaba esperando para recibirlos, Bruce de repente entró en pánico al ver
+de un cocodrilo verde y amarillo y se alzaba sobre sus patas traseras. La visera de Erik
+se cerró de golpe sobre sus ojos, el corcel se encabritó de nuevo y el rey perdió el equilibrio.
+equilibrio y cayó al suelo, golpeándose la cabeza contra el pavimento, y quedó
+rápidamente quedó inconsciente.
+
+Página 38
+
+Los guardias se apresuraron a ayudar a Su Majestad, y Jendah, temiendo que su
+La montura sería aplastada por el pánico, estimuló a su pequeño unicornio hacia adelante.
+De repente, de la nada, una gran piedra silbó en el aire y la golpeó.
+inteligentemente en el centro de su frente. Ella cayó de su montura y en un
+instantáneamente murió.
+
+Una sombra misteriosa revoloteó sobre ella y desapareció.
+
+La horrible noticia del asesinato de Jendah se difundió rápidamente por todo el país.
+países vecinos, y Kerovnia se puso de luto por la hermosa
+Reina. El Rey, que sólo había sufrido un golpe en la cabeza, se retiró
+a Kerga con su hija para preparar el funeral.
+
+En Kerga se les unieron numerosos nobles y consejeros de estado, que
+se reunieron para aconsejar al Rey sobre qué curso de acción debía tomarse. muchos
+Pensó que el propio Erik tenía la culpa, porque había permitido que los humildes Enanos
+tomar el poder; y otros lo culparon por exiliar al hechicero - quien seguramente podría
+han predicho, y por tanto probablemente evitado, la trágica serie de acontecimientos.
+
+La reina Hortensa, por su parte, temía que una unión matrimonial nunca llegaría a realizarse.
+tener lugar entre ambos países. Siguiendo el consejo de su Bruja Verde, ella
+decidido a casarse con Erik, asegurando así que Kerovnia y Aquitania fueran
+vinculados permanentemente. Una persona que había sido bastante olvidada por los de Kerga.
+(ciertamente una persona fácil de olvidar) era el noble Malcolm. Al escuchar la noticia
+de la muerte de la reina Jendah, sus pensamientos se dirigieron a su amada Lacey; y el
+Se dirigió rápidamente en helicóptero a Kerga.
+
+Mucha gente se arremolinaba alrededor del palacio, pero Lacey no estaba a la vista.
+La Princesa pasaba la mayor parte de sus días mirando al mar, sentada en una gran plataforma de madera.
+balsa que flotaba sobre las aguas del palacio principal nadando
+
+Página 39
+
+piscina. No sabía que el Príncipe había llegado a Kerga y pensó que su
+la felicidad se había perdido para siempre. Malcolm exploró cada rincón y grieta del
+Palacio de Verano y finalmente paseó por los extensos jardines. Nubes cremosas
+salpicaban el cielo azul pálido, se levantaban ligeros vientos del mar y rozaban el rostro de Lacey.
+pelo contra sus mejillas de col. Poops, que también estaba en estado de nervios
+Depresión, se sentó a su lado leyendo con indiferencia un cómic. Ella miró miserablemente
+al mar, en busca de un barco que viniera a rescatarla.
+
+De repente, desde el cielo azul, una voz resonó a través del agua: "Lacey, mi
+Cariño, aquí es donde te has estado escondiendo de mí todo este tiempo. Por fin yo
+¡Te he encontrado!"
+
+Lacey se puso de pie y, al ver a Malcolm, se desmayó y cayó al suelo.
+agua. Poops ladró como loco y Malcolm llevó a la desaliñada princesa a la
+saciedad de la orilla y le administró el beso de la vida, con una extensión innecesaria.
+Finalmente abrió sus pálidos ojos rojos y miró el azul profundo del rostro de Malcolm.
+y saber que, por fin, había encontrado el Amor Verdadero.
+
+"¡Debemos irnos de aquí inmediatamente!" dijo el Príncipe: "Vayamos hacia el
+capital y buscar ayuda de amigos. ¿Vienes conmigo, adorada mía?"
+
+"Por supuesto", pronunció Lacey débilmente. "Te seguiré hasta los confines del
+tierra." Lágrimas de felicidad, mezcladas con rímel de remolacha, corrieron por sus mejillas.
+
+"Vámonos ahora mismo" susurró Malcolm "ordenaré un carruaje de unicornios.
+para estar preparado. Es demasiado peligroso viajar en helicóptero, podríamos estar
+¡Interceptado por una unidad de morsas voladoras! - Ve rápido y empaca algo de ropa y
+estaremos en camino a la felicidad."
+
+Mientras ocurría esta idílica escena, Erik se sentó escuchando con tristeza
+
+Página 40
+
+las recriminaciones de sus asesores, exigiendo la eliminación de todos los Enanos del
+tierra de Kerovnia.
+
+"¡No son más que asesinos y ladrones!" Gritaron los cortesanos. "Mataron al
+Reina. ¡Destierralos para siempre, que sean castigados por toda la eternidad!"
+
+Un grito unido surgió de la multitud reunida, cada vez más fuerte:
+
+"¡Destierra a los asesinos, destierra a los asesinos!"
+
+"Quizás tengan razón", reflexionó Erik largamente. "Traed a mis secretarios
+y que escriban este decreto: "Todos los enanos quedan desterrados de ahora en adelante".
+¡Kerovnia! Todo el poder que se les ha dado, ya sea político o financiero, es
+por la presente rescindido"'
+
+Los secretarios garabatearon afanosamente el decreto del rey en una enorme hoja de pergamino,
+y los nobles asintieron con la cabeza.
+
+Hortensa se sintió extrañamente conmovida por la demostración de fuerza de Erik en situaciones tan difíciles.
+veces - y se prometió a sí misma que se casaría con el afligido Rey en el
+primera oportunidad.
+
+Luego, Erik ordenó a la asamblea que abandonara la habitación, indicando con un movimiento de cabeza y un
+Un vago gesto de la mano indicando que el público había terminado. Acomodando alegremente su
+Septiembre Crecido hasta cubrir su calvicie, se puso de pie.
+envolviéndose firmemente en su capa de armiño. Cuando salió de la habitación, la multitud se inclinó.
+baja en obediencia. Erik se sintió decididamente mejor: pocas veces se había sentido tan sabio, tan
+noble, tan respetado, ¡tan rey!
+
+Página 41
+
+
+EPÍLOGO
+
+Y así sucedió que casi toda la amigable comunidad de Enanos, junto
+con sus primos, los Little People, se vieron obligados a dejar sus trabajos, abandonar
+sus casas de piedra y se van a vivir a las tierras vecinas para ganarse un magro
+existencia del suelo.
+
+El ingenioso gringo, sin embargo, se quedó atrás y reunió a sus compatriotas y
+amigos. Los más influyentes de sus compañeros estaban escondidos a salvo en el
+regiones montañosas en refugios que habían sido construidos hace mucho tiempo en caso de guerra o
+otras emergencias.
+
+Erik vivía en Kerga, mimado por Hortensa, que se esforzaba por conquistar su corazón.
+Aunque el Rey la encontró inteligente (para ser una mujer), no tenía intención de
+volverse a casar; al menos no hasta que hubiera encontrado a su preciosa Lacey. desde malcolm
+y su princesa había huido del palacio de verano, Erik no había recibido noticias de su
+paradero. Un cochero le había informado que el Príncipe había solicitado una
+carruaje y cuatro unicornios, y la última vez que había visto a la princesa Lacey, ella era
+siendo metido en el carruaje por Malcolm. Luego se alejaron a toda velocidad de Kerga.
+en una nube de polvo y desapareció.
+
+Al principio al rey le había resultado difícil creer que su hija hubiera podido
+huir con un tipo así, y pensé que tal vez el cochero había sido
+equivocado. Esperaba que Lacey simplemente se hubiera instalado en Kazza para estar sola.
+con sus pensamientos. ¡No podría haber estado más lejos de la verdad!
+
+Página 42
+
+Dos semanas después del funeral, un mensajero que viajaba hacia el sur con un recado para la Reina
+Hortensa, creyó haber divisado el carruaje que se dirigía hacia el norte. el
+La descripción del hombre que conducía los unicornios encajaba con Malcolm, aunque la
+La princesa no había sido vista. El rey empezó a preocuparse seriamente por Lacey.
+Se enviaron espías a todos los rincones del país en un esfuerzo por rastrear el
+pareja, y se ofrecía una enorme recompensa por cualquier noticia sobre su paradero.
+
+Erik empezó a perder peso y empezó a pasar largas horas en su dormitorio.
+reflexionando sobre las miserias de la vida. Hortensa, rápida en aprovechar el
+situación, se proclamó presidenta del Parlamento Kerovniano.
+
+Los meses pasaron rápidamente y pronto el invierno se convirtió en primavera, sin todavía noticias.
+de la Princesa y su Príncipe. El Rey se acostó finalmente y por completo en su cama.
+¡Y el país de Kerovnia se sumió en la desesperación financiera y política!
+
+A medida que el clima económico degeneró, empezó a parecer que el Tesoro Real
+no podría pagar la deuda nacional. La naturaleza misma tomó un rumbo extraño:
+los grandes bosques que tanto habían dominado el campo, con sus colores esmeralda
+belleza verde, comenzó a marchitarse y morir. Se pidió a los expertos agrícolas que
+explicar por qué los árboles milenarios estaban perdiendo repentinamente su sed de
+vida. Los podadores de árboles probaron muchos medicamentos diferentes, pero los árboles continuaron
+morir, y se temía que muy pronto no quedara bosque alguno.
+
+La mayor pérdida para la comunidad fue la princesa Lacey y el príncipe Malcolm. ambos
+Hortensa y Erik, en su dolor, habían abandonado la idea de ver a sus
+niños otra vez, y temía que los malvados enanos los hubieran asesinado mientras
+de camino a Kozza. Para consolar su dolor, decidieron permanecer juntos en
+Kerga y planificar el futuro de sus dos.
+
+Página 43
+
+países.
+
+Y así las estaciones cambiaron una vez más, los cielos se volvieron quebradizos y brillantes.
+azul y la nieve caía sobre las cimas de las montañas. Los enanos siguieron con su
+actividades clandestinas con tanto celo como en los viejos tiempos, y planeó la
+próxima revolución. La temporada turística resultó ser un éxito menor ese año;
+lo cual fue de cierto consuelo para el Rey, y durante los meses de invierno la gente
+se podían encontrar caminando entre las estribaciones montadas en las bonitas montañas rosadas
+unicornios.
+
+Ese año hubo un descubrimiento extraordinario (visto por primera vez por dos
+periodistas de investigación) de un muñeco de nieve, de unos pocos pies de alto, que pasaba por alto el
+El mayor de los valles de hielo. La gente viajaba de todas partes para verlo,
+y admirar la sonrisa de payaso clavada para siempre en sus rasgos helados. sus ojos
+parecía estar centrado en un pico de montaña en particular - y de vez en cuando un
+Una lágrima helada rodó por sus mejillas heladas, convirtiéndose en un pequeño carámbano de múltiples tonos mientras
+tocó el suelo. Era casi como si hubiera perdido algo; o quería
+ir en busca de algo, pero no pudo, porque estaba muy arraigado en su
+parche helado.
+
+Algunos decían que por la noche, cuando la luna colgaba silenciosamente en el cielo
+contando las estrellas, le contaría tristes historias del anciano que vivía en la luna.
+el muñeco de nieve, y en respuesta su amigo de hielo inventaba extrañas historias de
+magos y reyes, hadas y princesas.....
+
+Página 44
+
+
+Sección de ayuda cifrada
+
+Otra característica única de The Pawn es una línea de ayuda integrada escrita en el
+programa en sí que le proporcionará consejos limitados sobre problemas específicos.
+Esto supera la pesadilla habitual del Aventurero de llamar al autor y rogarle
+Él durante 20 minutos para darle algunos consejos sobre cómo patear el relleno.
+fuera de los dragones y finalmente fuera cortado a la mitad de la solución. es
+también considerablemente más rápido y más barato.
+
+
+como funciona
+
+Llamamos a esta sección "ciférica" porque en lugar de imprimir una respuesta en forma simple
+Inglés, le proporcionamos un mensaje cifrado o 'cifrado' que, fuera del
+página, no tiene ningún sentido. El Peón reconoce esta cifra y la traducirá.
+por usted si lo escribe. Brindar ayuda de esta manera supera los habituales
+problema con hojas de sugerencias (es decir, leer accidentalmente soluciones a problemas que
+No lo he encontrado todavía.)
+
+
+como usarlo
+
+Explore la sección en busca de una pregunta que se parezca a su problema particular. lo harás
+Observe que hay alrededor de 3 cifras para cada pregunta. Estos están aproximadamente en
+orden de dificultad y es posible que se le impida leer ciertas respuestas hasta
+ha alcanzado una determinada puntuación o nivel de competencia.
+
+
+Usando el cifrado
+
+Simplemente escribe 'PISTA' cuando el juego te solicite un comando. Luego ingresa al
+números y letras que se encuentran entre las marcas '<' y '>' (puede ignorar
+espacios si lo desea). Si una respuesta particular no está disponible serás recibido
+con el mensaje -
+
+Página 45
+
+"¡Necesitarás más puntos para descubrirlo!"
+Si ingresó el cifrado incorrectamente, se le informará:
+ "Lo siento, inténtalo de nuevo".
+
+Recuerda, no todas las respuestas te serán útiles. Algunos serán
+simplemente frívolo. (se dice que un verdadero aventurero prefiere sus heridas
+bien salado!)
+
+
+Ejemplo
+
+Cuando el programa se haya cargado, intenta ingresar lo siguiente:
+
+<5N CM ET PA XX CF EQ PA XF CK EW PG XE CR E7 PU YU>
+<AN YV NB OA 7Q YL NB OQ GQ 50 RF M6 76 Y7 NB OZ G6
+ Y6 N1 O8 7Q 5Q RA MU GW HW>
+
+Si los leyó correctamente, ahora comprenderá cómo utilizarlos.
+sección.
+
+Página 46
+
+
+PREGUNTAS
+
+¿CÓMO CRUZO LA LÍNEA ROJA?
+
+<5N CS EQ P0 XY TY I1 AU HD CD M9 G8 5E TE>
+
+<5N C8 E7 PV XB TB IR AE H6 CU EE PA HA TT IM AF XF CV UE
+ PE XU CT EX PO XT TT IL AD H1 TJ IT COMO HH TM ES PK YK>
+
+<AN Y5 NI O0 GO 59 RV MU G5 Y5 NN OA 7H YJ NT MT GJ 5D RU
+ OU 7A YD N0 OP 7Z Y9 N1 O9 7F 5R TR>
+
+
+¿POR QUÉ SE RÍE EL GURU?
+
+<AN Y5 N6 O0 G0 5B RJ MU 70 50 RF MJ GT YT N5 OS PS>
+
+<MN PD X0 CH EV AV HH TA IF PF XV CU EK A9 HR CR ET PZ XB
+ C5 I5 AU H1 T9 IR PR XL CH ES PF XM C5 EN PG XP TP I8 AQ
+ HA RA>
+
+<5N CV E7 PL HL TT IJ AF HE TF IZ AD HF CF EL PQ XK TK I1
+ AI HN TH EH PZ XK CZ EF P0 XZ TZ SI SOY 5M>
+
+
+¿CÓMO SE DEJO LA PULSERA?
+
+<TM OO 7P YJ N9 MD 7D Y0 NP OS GM 5F NF OZ 7P 5U TU>
+
+<5A C7 EE PP XS TR ER G5 Y7 NA MA GS 5O R0 MZ GB 5X RB MV
+ GW YW ND OX 7Q YA RA MP GX 56 N6 OW 7K YY NH MH G0 5B RJ
+ MO 70 YS NP OI GI 5J R0 MP 7S 5P NS ES>
+
+Página 47

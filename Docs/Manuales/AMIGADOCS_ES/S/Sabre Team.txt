@@ -1,0 +1,857 @@
+EQUIPO SABLE
+                      ****************************
+ 
+                      Pantalla de inicialización del juego
+                      --------------------------
+[1] Icono de figuras; seleccionar miembros del equipo...centro de la pantalla
+------------------------
+seleccionar miembros del equipo; permite la selección de un equipo de cuatro hombres entre una selección de 
+ocho, seleccionando. Al seleccionar este icono se mostrará una pantalla con los 8 equipos.
+miembros por encima de las cruces. Al hacer clic en una cruz se alternará si un jugador está
+Seleccionado o no, al hacer clic en la cabeza del jugador se mostrarán sus estadísticas.
+
+[2] icono de signo de interrogación; izquierda de la pantalla... implementar miembros
+-----------------------
+Permite posicionar a los jugadores dentro de la zona de juego, antes de iniciar el juego.
+juego.
+
+[3] icono de disco; centro superior de la pantalla...cargar un juego guardado desde el disco
+---------------
+
+[4] signo de interrogación/icono de equipo;... a la derecha de la pantalla
+--------------------------------
+seleccionar equipamiento para los jugadores; Al seleccionar este icono se mostrará una pantalla
+con los 8 miembros del equipo de sable, al igual que con 1. las estadísticas del jugador pueden ser vistas por
+haciendo clic en sus cabezas. Miembros del equipo que están seleccionados, como se muestra.
+con una marca, se puede equipar haciendo clic en la marca.
+
+                             seleccionar pantalla de armas
+                             ---------------------
+[1] ventana de armas empuñadas...arriba a la izquierda de la pantalla
+-----------------------
+muestra las estadísticas de los jugadores y enumera las armas que se tienen. Cada elemento que se tiene pesa el
+jugador abajo, disminuyendo los puntos de acción cargados del jugador en relación con su
+fuerza. El porcentaje de puntería ayuda a la hora de elegir armas, jugadores con
+Las habilidades de puntería bajas necesitarán un arma precisa. la ventana es
+desplazable mediante la barra de arrastre hacia la derecha.
+
+[2] armas para elegir ventana
+----------------------------
+una lista de todas las armas disponibles para que las usen el jugador y su equipo. el
+La lista se puede desplazar mediante las barras de arrastre situadas a la derecha y en la parte inferior de la ventana.
+para mostrar las estadísticas/descripción de cualquier elemento, haga clic con el botón izquierdo del mouse
+sobre el elemento deseado. Los detalles del elemento seleccionado aparecerán en la ventana
+3.[que está en la parte inferior izquierda de la pantalla].
+
+ventana de selección/descripción; muestra una imagen y describe el artículo
+seleccionado en la ventana 2. Para agregar este elemento al inventario del jugador, haga clic en
+con el botón izquierdo del ratón sobre la imagen.
+
+[4] icono de selección de salida...abajo a la derecha de la pantalla
+--------------------
+para eliminar elementos del inventario de un jugador, haga clic con el botón derecho del mouse sobre
+la descripción, en la ventana 1.
+Las armas deben usarse con el tipo correcto de munición. cuando se elige la munición que
+Puede caber en una o más armas que se tienen actualmente, el puntero del mouse cambiará a un
+? mark.seleccione con qué arma se usará la munición haciendo clic en el botón izquierdo
+botón del mouse sobre la descripción del arma en la ventana 1.
+
+información adicional sobre el arma
+-----------------
+El nivel de ruido cuando se dispara un arma se irradia a una cierta distancia.
+dependiendo del tipo de arma. La cifra de distancia de ruido radiado representa la
+Número de espacios de movimiento en los que se puede escuchar el ruido. como una bala
+viaja, el daño que puede causar disminuye con la distancia que recorre. 100%
+La distancia de daño representa el número de espacios de movimiento que una bala podría
+posiblemente haga el 100% de daño con un golpe preciso.
+
+pistola ruido irradiado distancia 100% daño dist
+mp5a3 12 3
+mp5sd 8 3
+mp5sk 12 3
+precisión int pm 6 5
+rifle de carga automática slr 6 4
+m16a2 12 7
+l2a3 libra esterlina 10 3
+sa-80 6 4
+l7a2 14 7
+g3 6 4
+granada paralizante 12 0
+cs gas 2 0
+
+elegir las posiciones iniciales de los jugadores
+-------------------------------
+Los jugadores se despliegan, uno a la vez, en la zona de juego. Cualquier posición marcada
+en el suelo con una cruz blanca es un punto de entrega válido, haga clic con
+el botón izquierdo del ratón, sobre el punto de entrega, para desplegar un jugador. desplazarse
+la zona de juego para desplazarse por la zona de juego, mueva el puntero del mouse a la
+borde de la pantalla y haga clic con el botón derecho del ratón, la pantalla
+ahora estará centrado alrededor de la posición en la que se colocó el puntero del mouse. cuando todos
+Los jugadores están desplegados y comienza el juego.
+
+                             tabla de puntos de acción
+                             ------------------
+acción realizada puntos de acción tomadas
+mover.izquierda,derecha,arriba,abajo 4
+mover,diagonal 5
+rotar 1 por paso
+ver estadísticas del jugador 0
+ver blue print-scroll blue print 1 por paso
+abrir/cerrar puerta 3
+activar/desactivar el modo sigiloso 2
+cambiar arma 5
+cargar arma 4
+instantánea 3
+tiro de puntería 6
+granada principal 3
+lanzar granada 3
+recoger/soltar 2
+
+nota: cuando el modo oculto está operativo, moverse, girar, abrir/cerrar puertas,
+y recoger/soltar, todos requieren 1 punto de acción adicional.
+
+                             pantalla de turno del juego
+                             ----------------
+al comienzo del juego y después de cada turno del juego, esta pantalla será
+mostrado.
+
+[1] ícono de disco......arriba a la derecha de la pantalla...-> guardar juego en el disco
+
+[2] icono del portapapeles.centro de la pantalla......-> informe de estado, esto muestra
+objetivos destruidos, enemigos asesinados, estadísticas de los jugadores y puntuación del juego.
+
+[3] ícono de disco......arriba a la izquierda de la pantalla....-> cargar juego desde el disco
+
+[4] ícono de cara...abajo a la izquierda de la pantalla.-> rostros de los miembros en
+equipo. Al hacer clic en el botón izquierdo del mouse se obtienen estadísticas del jugador.
+
+[5]¡No puedo verlo!...abajo a la derecha de la pantalla-> volver al juego
+
+puntos de acción
+-------------
+Se muestran 2 conjuntos de números en la pantalla de juego (amiga) o a la derecha de
+panel de control de dirección (st). estos son el número de puntos de acción
+restante seguido del número de puntos de acción necesarios para realizar el
+tarea actual determinada por la posición del cursor.
+
+en íconos de juegos; fila superior de izquierda a derecha
+-------------
+
+siguiente jugador; intercambios entre los diferentes miembros del equipo
+-----------
+
+estadísticas del jugador
+------------
+muestra las estadísticas actuales del jugador, como salud, fuerza, puntería y
+percepción, así como su experiencia y especialidades.
+
+pantalla de estadísticas de juego
+-----------------
+[1] izquierda de la pantalla... estadísticas del jugador-> altura mostrada en el extremo izquierdo de la
+brazo, percepción de la cabeza, puntería del arma, salud bajo el
+corazón y puntos de acción entre los pies.
+
+[2] a la derecha de la pantalla... una breve descripción y el historial de los miembros del equipo.
+
+estampado azul
+----------
+muestra una vista en planta del área de juego y su contenido, lo que permite rutas a
+ser planificado.
+
+                             pantalla de impresión azul
+                             -----------------
+[1] en el extremo izquierdo de la pantalla... flechas de dirección; se usan para desplazar la impresión azul
+
+[2] pantalla central izquierda...salir desde el icono de impresión azul.
+
+[3] parte superior central de la pantalla.... pasar al siguiente icono del jugador; muestra la posición 
+y entorno de los diferentes jugadores. el nombre de los jugadores se mostrará en 
+el cuadro debajo de la ventana de impresión azul.
+
+[4] parte inferior central de la pantalla.ventana de impresión azul; muestra una vista en planta del juego
+zona, las coordenadas del mapa se muestran encima del plano.
+
+[5] arriba a la derecha de la pantalla...rostros de los miembros del equipo; haciendo clic con la izquierda
+botón del mouse, sobre una de estas imágenes se moverá una impresión azul a la
+jugador apropiado.
+
+recoger
+-------
+permite recoger y utilizar un objeto, bajo los pies del jugador actual.
+Los objetos que se pueden recoger se muestran como mochilas, los cadáveres también pueden ser
+Buscaba objetos para recoger. para recoger un objeto, haga clic en la izquierda
+botón del mouse en cualquier elemento en la pantalla 2, luego haga clic con el botón izquierdo del mouse en el objeto
+que aparece en la pantalla 3.
+
+soltar
+----
+permite soltar cualquier objeto que lleve el jugador actual. Haga clic derecho
+botón en la ventana del elemento 1 para soltar.
+
+                             elegir pantalla desplegable
+                     ----------------
+
+[1] parte superior izquierda de la pantalla...ventana de armas en poder; ver pantalla de armas seleccionadas 1
+
+[2] parte superior derecha de la pantalla... armas para recoger/soltar; ver pantalla de selección de arma 2
+
+[3] pantalla inferior izquierda...selección/descripción;ver pantalla de selección de armas 3
+
+[4] pantalla inferior derecha...icono de salir/recoger/soltar
+nota; al recoger artículos solo los artículos que estaban originalmente disponibles
+para recogida se puede deseleccionar.
+
+sigilo activado/desactivado
+--------------
+activa/desactiva el modo sigiloso, el sigilo permite al jugador moverse
+silenciosamente, por lo tanto escapando a la detección, pero a costa de más puntos de acción
+por movimiento.
+
+abrir/cerrar puerta
+---------------
+altera el estado de una puerta, la puerta debe estar a un espacio de distancia de la actual
+jugador y la dirección en la que mira.
+
+fila inferior de izquierda a derecha.
+
+cambiar armas
+--------------
+permite al jugador seleccionar un arma, para usar, entre las disponibles para él
+
+                             elegir pantalla de armas
+                             ---------------------
+elegir un arma a usar (de las que porta el actual
+jugador) haga clic con el botón izquierdo del ratón sobre la imagen del arma
+deseado. Para evitar la selección, haga clic fuera de las imágenes. la pantalla es
+Se puede desplazar con la barra de arrastre a la derecha si se están usando más de 2 armas.
+llevado, una flecha indica el arma actualmente en uso.
+
+granada principal
+-------------
+prepara una granada para lanzarla, se debe lanzar una granada antes de cambiarla
+control a otro jugador.
+
+cargar arma
+-----------
+carga el arma actual, se debe cargar un arma antes de poder disparar.
+
+lanzar granada
+-------------
+permite a un jugador lanzar una granada, las granadas pueden ser lanzadas a través
+ventanas y rebotó en las paredes.
+
+cómo lanzar granadas
+---------------------
+Una vez que se ha seleccionado el lanzamiento, se realiza el objetivo de la granada.
+similar al disparo de un arma. sin embargo, es posible que la granada no alcance su
+objetivo ya que la distancia a la que se puede lanzar está limitada por la fuerza del
+jugador que la lanza. Las granadas pueden rebotar en las paredes y lanzarse a través de ellas.
+ventanas. El efecto de una granada dura un turno de juego.
+
+nota: una granada debe estar preparada antes de poder ser lanzada, y debe ser lanzada
+antes de cambiar el control a otro jugador o finalizar el juego
+Gire, de lo contrario explotará.
+
+tiro de puntería
+--------
+permite a un jugador realizar un tiro preciso a un objetivo. el resultado de un
+El tiro está influenciado por la puntería del jugador y las armas efectivas.
+rango.
+
+instantánea
+--------
+permite al jugador apuntar y disparar rápidamente, utilizando una acción mínima
+puntos, lo que resulta en una baja proporción de aciertos
+
+cómo disparar armas
+----------------
+Una vez que se ha seleccionado una instantánea o un objetivo, el puntero del mouse se une
+por miras, y aparece una imagen de una agachadiza en la parte inferior de la pantalla. apuntar
+su tiro moviendo las miras con el puntero del mouse hasta que las miras
+abarcar la base del objetivo, haga clic con el botón izquierdo del ratón para confirmar
+el objetivo. nota; El objetivo debe estar en la línea de fuego (es decir, en la dirección en la que se encuentra).
+el arma está apuntando) si el objetivo está fuera de la pantalla visible, es posible
+Desplácese por la zona de juego moviendo las miras hacia el borde de la pantalla.
+y pulsando el botón derecho del ratón. la pantalla ahora se centrará alrededor del
+punto donde se colocaron las miras.
+Una vez seleccionado el objetivo, debes seleccionar el número de rondas a realizar.
+fuego. esto se hace haciendo clic con el botón izquierdo del mouse sobre las flechas (<
+disminuir el número de rondas,> aumentar el número de rondas) que rodean el
+cuadro de número debajo del arma de francotirador y luego haciendo clic en el número en el
+caja. Ahora comenzará el disparo. el número de rondas seleccionadas está limitado por
+los puntos de acción necesarios para disparar, o el número de rondas restantes en el
+arma. Las armas de un solo tiro solo pueden disparar un tiro antes de recargar.
+requerido. Seleccionar cero rondas cancela el disparo.
+
+nota; Antes de poder disparar un arma hay que cargarla con munición.
+
+turno final del juego
+-------------
+finaliza el turno de juego actual para los jugadores sas y permite que la computadora tome
+Es su turno. También finaliza el movimiento de oportunidad.
+
+icono de control de dirección
+----------------------
+controla la dirección en la que se mueve un jugador y muestra combates (en rojo) y
+Se escuchan ruidos (en azul) para mover a un jugador, haga clic en las flechas de dirección.
+
+movimiento de oportunidad
+----------------
+Si algunos puntos de acción se guardan antes de finalizar el turno de un jugador, durante el
+En el turno del enemigo se puede conceder un movimiento de oportunidad, se produce un movimiento de oportunidad.
+si un jugador tiene más de 5 puntos de acción y puede ser visto por el
+oposición. El número de puntos de acción guardados determina la posibilidad de
+recibir un movimiento de oportunidad; ahorrar 20 o más puntos de acción otorga una
+100% de probabilidad, disminuyendo hacia el 0% a medida que se guardan menos puntos de acción.
+El control de movimiento de oportunidad se toma del enemigo y del jugador en cuestión.
+tiene la oportunidad de utilizar los puntos de acción restantes. terminando su turno da
+control de vuelta al enemigo. Sólo se puede otorgar un movimiento de oportunidad por
+turno de juego.
+
+curando jugadores heridos
+-----------------------
+el botiquín médico; El jugador que lleve este objeto durante el juego
+recuperar el 5% de su salud por turno de juego.
+
+jugadores en reposo; si un jugador herido "se queda fuera" de una misión, estará completamente
+Curado, listo para la próxima misión.
+
+pasar elementos de 1 jugador a otro
+--------------------------------------
+Para pasar elementos de un jugador a otro, suelte los elementos necesarios en el
+suelo, cambia al otro jugador y luego camina sobre los elementos y selecciona
+recoger. nota: se pueden registrar los cadáveres y se pueden registrar las armas encontradas.
+usado.
+
+                             pantalla de giro enemigo
+                             -----------------
+
+Los íconos 1-5 están todos en la parte superior... [de izquierda a derecha]
+
+[1] ícono de puerta...arriba a la derecha; indicador de puerta abierta/cerrada; parpadea cuando un enemigo
+realiza esta acción.
+
+[2] no puedo verlo... 2do arriba a la derecha; indicador de pedir ayuda
+
+[3] icono de mano... 3º arriba a la derecha; indicador de recoger/soltar
+
+[4] no puedo verlo... 4to arriba a la derecha; indicador de disparo/lanzamiento
+
+[5] ícono de cara...arriba a la izquierda; mirar atrás/indicador de ruido
+
+Los iconos 6-11 están todos abajo...[de izquierda a derecha]
+
+[6] icono de cursor...abajo a la izquierda; indicadores de dirección de movimiento
+
+[7] Icono %....; estado de salud del enemigo, representado como %
+
+[8] ícono de cara con un número justo debajo del ícono %; puntos de acción de los enemigos
+
+[9] ícono de nombre; justo debajo del ícono de cara; nombre del enemigo
+
+[10] no puedo verlo; segundo desde la pantalla inferior derecha; indicador de fuga/ocultación
+
+[11] ícono de cara; pantalla inferior derecha; indicador de pánico
+
+nota; Lo siento, si ves la descripción "No puedo verlo", es por mí y significa que yo
+No puedo leer/ver la imagen en la fotocopia del manual..apoliges..
+
+Esta pantalla se mostrará mientras el enemigo toma su turno y no puede ser
+visto por los miembros del equipo de sable, si el enemigo es visible entonces todas las acciones serán
+mostrarse tal como los ve la persona que puede verlos.
+
+acelerar el giro del enemigo
+---------------------
+Para reducir el tiempo que tarda el enemigo en moverse, mantén presionado el botón izquierdo.
+botón.
+
+                             cómo completar cada misión
+                             ----------------------------
+misión 1; campamento de prisioneros de guerra en la jungla
+---------
+En el campo de prisioneros hay 4 rehenes que deben ser recogidos y
+guiado a un lugar seguro. Cuando un rehén es recogido y guiado a un lugar seguro, puede
+ser controlado como miembro de su equipo. Los rehenes son transportados en avión a un lugar seguro.
+una vez fuera del campo de prisioneros. todos los rehenes supervivientes deben ser rescatados. con un
+Se requiere un mínimo de 3 para completar la misión. una vez que todos los rehenes hayan
+sido rescatado, debes guiar a los rehenes restantes de tu equipo fuera del
+acampar a un lugar seguro.
+
+misión 2; asedio a la embajada
+---------
+Los terroristas han tomado el control de la embajada estadounidense en Londres y están
+reteniendo a 4 rehenes. para completar esta misión, guía a los rehenes fuera
+a un lugar seguro (como en la misión 1) o matar a todos los terroristas, saliendo del metro
+policía para recogerlos. todos los rehenes supervivientes deben ser rescatados, con un
+Se requieren un mínimo de 3 para completar la misión.
+
+misión 3; juegos de guerra
+----------
+Cuatro máquinas que contienen códigos de lanzamiento de misiles se encuentran dentro de un
+base militar subterránea. estas máquinas deben ser completamente destruidas por
+disparándoles al menos 3 veces. todas las máquinas deben ser destruidas para completar
+la misión. Los miembros supervivientes del equipo de sable deben salir del
+base para ser transportada por aire a un lugar seguro.
+
+misión 4; secuestro de línea
+----------
+Los terroristas han secuestrado un transatlántico y han alterado su destino,
+manteniendo como rehenes a pasajeros y miembros de la tripulación inocentes, todos los terroristas deben
+morir, permitiendo que el barco reanude su rumbo original, la misión es
+completado al matar al último terrorista.
+
+misión 5; guía de misiles
+----------
+cuatro máquinas que programan sistemas de guía de misiles se encuentran dentro de un
+Planta de fabricación de misiles. las 4 máquinas deben ser destruidas (como con
+misión 3) para completar la misión. Los miembros supervivientes del equipo de sable deben hacer
+su camino para salir de la base para ser transportados por aire a un lugar seguro.
+
+nota; en caso de que pierdas a todos los miembros de tu equipo de sable. la misión es
+fracasa a menos que el objetivo ya se haya logrado y al menos un hombre esté
+disponible para participar en la próxima misión. No se pueden recoger rehenes.
+en un movimiento de oportunidad.
+
+estado audiovisual
+-------------------
+durante un turno de juego, las flechas de dirección pueden iluminarse en "rojo" o "azul"; esto
+es una advertencia. una flecha "roja" indica que una persona es visible, en el momento actual
+jugador, en la dirección que apunta la flecha. Esto proporciona una advertencia cuando
+la persona en cuestión no está lo suficientemente cerca como para aparecer en la pantalla. un
+La flecha "azul" indica que se ha escuchado un ruido en la dirección de la flecha.
+
+encender/apagar la música
+------------------------
+Para encender o apagar la música durante el juego, presiona F10. los efectos de sonido
+permanecer encendido en todo momento.
+
+y ese es otro documento escrito en scooter... para la fuerza líder
+      --------------============ fila de barrio ==============-------------
+ 
+
+ 
+                             pantalla de inicialización del juego
+                             --------------------------
+[1] icono de figuras; seleccionar miembros del equipo...centro de la pantalla
+------------------------
+seleccionar miembros del equipo; permite la selección de un equipo de cuatro hombres entre una selección de 
+ocho, seleccionando. Al seleccionar este icono se mostrará una pantalla con los 8 equipos.
+miembros por encima de las cruces. Al hacer clic en una cruz se alternará si un jugador está
+Seleccionado o no, al hacer clic en la cabeza del jugador se mostrarán sus estadísticas.
+
+[2] icono de signo de interrogación; izquierda de la pantalla... implementar miembros
+-----------------------
+Permite posicionar a los jugadores dentro de la zona de juego, antes de iniciar el juego.
+juego.
+
+[3] icono de disco; centro superior de la pantalla...cargar un juego guardado desde el disco
+---------------
+
+[4] signo de interrogación/icono de equipo;... a la derecha de la pantalla
+--------------------------------
+seleccionar equipamiento para los jugadores; Al seleccionar este icono se mostrará una pantalla
+con los 8 miembros del equipo de sable, al igual que con 1. las estadísticas del jugador pueden ser vistas por
+haciendo clic en sus cabezas. Miembros del equipo que están seleccionados, como se muestra.
+con una marca, se puede equipar haciendo clic en la marca.
+
+                             seleccionar pantalla de armas
+                             ---------------------
+[1] ventana de armas empuñadas...arriba a la izquierda de la pantalla
+-----------------------
+muestra las estadísticas de los jugadores y enumera las armas que se tienen. Cada elemento que se tiene pesa el
+jugador abajo, disminuyendo los puntos de acción cargados del jugador en relación con su
+fuerza. El porcentaje de puntería ayuda a la hora de elegir armas, jugadores con
+Las habilidades de puntería bajas necesitarán un arma precisa. la ventana es
+desplazable mediante la barra de arrastre hacia la derecha.
+
+[2] armas para elegir ventana
+----------------------------
+una lista de todas las armas disponibles para que las usen el jugador y su equipo. el
+La lista se puede desplazar mediante las barras de arrastre situadas a la derecha y en la parte inferior de la ventana.
+para mostrar las estadísticas/descripción de cualquier elemento, haga clic con el botón izquierdo del mouse
+sobre el elemento deseado. Los detalles del elemento seleccionado aparecerán en la ventana
+3.[que está en la parte inferior izquierda de la pantalla].
+
+ventana de selección/descripción; muestra una imagen y describe el artículo
+seleccionado en la ventana 2. Para agregar este elemento al inventario del jugador, haga clic en
+con el botón izquierdo del ratón sobre la imagen.
+
+[4] icono de selección de salida...abajo a la derecha de la pantalla
+--------------------
+para eliminar elementos del inventario de un jugador, haga clic con el botón derecho del mouse sobre
+la descripción, en la ventana 1.
+Las armas deben usarse con el tipo correcto de munición. cuando se elige la munición que
+Puede caber en una o más armas que se tienen actualmente, el puntero del mouse cambiará a un
+? mark.seleccione con qué arma se usará la munición haciendo clic en el botón izquierdo
+botón del mouse sobre la descripción del arma en la ventana 1.
+información adicional sobre el arma
+-----------------
+El nivel de ruido cuando se dispara un arma se irradia a una cierta distancia.
+dependiendo del tipo de arma. La cifra de distancia de ruido radiado representa la
+Número de espacios de movimiento en los que se puede escuchar el ruido. como una bala
+viaja, el daño que puede causar disminuye con la distancia que recorre. 100%
+La distancia de daño representa el número de espacios de movimiento que una bala podría
+posiblemente haga el 100% de daño con un golpe preciso.
+
+pistola ruido irradiado distancia 100% daño dist
+mp5a3 12 3
+mp5sd 8 3
+mp5sk 12 3
+precisión int pm 6 5
+rifle de carga automática slr 6 4
+m16a2 12 7
+l2a3 libra esterlina 10 3
+sa-80 6 4
+l7a2 14 7
+g3 6 4
+granada paralizante 12 0
+cs gas 2 0
+
+elegir las posiciones iniciales de los jugadores
+-------------------------------
+Los jugadores se despliegan, uno a la vez, en la zona de juego. Cualquier posición marcada
+en el suelo con una cruz blanca es un punto de entrega válido, haga clic con
+el botón izquierdo del ratón, sobre el punto de entrega, para desplegar un jugador. desplazarse
+la zona de juego para desplazarse por la zona de juego, mueva el puntero del mouse a la
+borde de la pantalla y haga clic con el botón derecho del ratón, la pantalla
+ahora estará centrado alrededor de la posición en la que se colocó el puntero del mouse. cuando todos
+Los jugadores están desplegados y comienza el juego.
+
+                             tabla de puntos de acción
+                             ------------------
+acción realizada puntos de acción tomadas
+mover.izquierda,derecha,arriba,abajo 4
+mover,diagonal 5
+rotar 1 por paso
+ver estadísticas del jugador 0
+ver blue print-scroll blue print 1 por paso
+abrir/cerrar puerta 3
+activar/desactivar el modo sigiloso 2
+cambiar arma 5
+cargar arma 4
+instantánea 3
+tiro de puntería 6
+granada principal 3
+lanzar granada 3
+recoger/soltar 2
+
+nota: cuando el modo oculto está operativo, moverse, girar, abrir/cerrar puertas,
+y recoger/soltar, todos requieren 1 punto de acción adicional.
+
+                             pantalla de turno del juego
+                             ----------------
+al comienzo del juego y después de cada turno del juego, esta pantalla será
+mostrado.
+
+[1] ícono de disco......arriba a la derecha de la pantalla...-> guardar juego en el disco
+
+[2] icono del portapapeles.centro de la pantalla......-> informe de estado, esto muestra
+objetivos destruidos, enemigos asesinados, estadísticas de los jugadores y puntuación del juego.
+
+[3] ícono de disco......arriba a la izquierda de la pantalla....-> cargar juego desde el disco
+
+[4] ícono de cara...abajo a la izquierda de la pantalla.-> rostros de los miembros en
+equipo. Al hacer clic en el botón izquierdo del mouse se obtienen estadísticas del jugador.
+
+[5]¡No puedo verlo!...abajo a la derecha de la pantalla-> volver al juego
+
+puntos de acción
+-------------
+Se muestran 2 conjuntos de números en la pantalla de juego (amiga) o a la derecha de
+panel de control de dirección (st). estos son el número de puntos de acción
+restante seguido del número de puntos de acción necesarios para realizar el
+tarea actual determinada por la posición del cursor.
+
+en íconos de juegos; fila superior de izquierda a derecha
+-------------
+
+siguiente jugador; intercambios entre los diferentes miembros del equipo
+-----------
+
+estadísticas del jugador
+------------
+muestra las estadísticas actuales del jugador, como salud, fuerza, puntería y
+percepción, así como su experiencia y especialidades.
+
+pantalla de estadísticas de juego
+-----------------
+[1] izquierda de la pantalla... estadísticas del jugador-> altura mostrada en el extremo izquierdo de la
+brazo, percepción de la cabeza, puntería del arma, salud bajo el
+corazón y puntos de acción entre los pies.
+
+[2] a la derecha de la pantalla... una breve descripción y el historial de los miembros del equipo.
+
+estampado azul
+----------
+muestra una vista en planta del área de juego y su contenido, lo que permite rutas a
+ser planificado.
+
+                             pantalla de impresión azul
+                             -----------------
+[1] en el extremo izquierdo de la pantalla... flechas de dirección; se usan para desplazar la impresión azul
+
+[2] pantalla central izquierda...salir desde el icono de impresión azul.
+[3] parte superior central de la pantalla.... pasar al siguiente icono del jugador; muestra la posición 
+y entorno de los diferentes jugadores. el nombre de los jugadores se mostrará en 
+el cuadro debajo de la ventana de impresión azul.
+
+[4] parte inferior central de la pantalla.ventana de impresión azul; muestra una vista en planta del juego
+zona, las coordenadas del mapa se muestran encima del plano.
+
+[5] arriba a la derecha de la pantalla...rostros de los miembros del equipo; haciendo clic con la izquierda
+botón del mouse, sobre una de estas imágenes se moverá una impresión azul a la
+jugador apropiado.
+
+recoger
+-------
+permite recoger y utilizar un objeto, bajo los pies del jugador actual.
+Los objetos que se pueden recoger se muestran como mochilas, los cadáveres también pueden ser
+Buscaba objetos para recoger. para recoger un objeto, haga clic en la izquierda
+botón del mouse en cualquier elemento en la pantalla 2, luego haga clic con el botón izquierdo del mouse en el objeto
+que aparece en la pantalla 3.
+
+soltar
+----
+permite soltar cualquier objeto que lleve el jugador actual. Haga clic derecho
+botón en la ventana del elemento 1 para soltar.
+
+                             elegir pantalla desplegable
+                     ----------------
+
+[1] parte superior izquierda de la pantalla...ventana de armas en poder; ver pantalla de armas seleccionadas 1
+
+[2] parte superior derecha de la pantalla... armas para recoger/soltar; ver pantalla de selección de arma 2
+
+[3] pantalla inferior izquierda...selección/descripción;ver pantalla de selección de armas 3
+
+[4] pantalla inferior derecha...icono de salir/recoger/soltar
+
+nota; al recoger artículos solo los artículos que estaban originalmente disponibles
+para recogida se puede deseleccionar.
+
+sigilo activado/desactivado
+--------------
+activa/desactiva el modo sigiloso, el sigilo permite al jugador moverse
+silenciosamente, por lo tanto escapando a la detección, pero a costa de más puntos de acción
+por movimiento.
+
+abrir/cerrar puerta
+---------------
+altera el estado de una puerta, la puerta debe estar a un espacio de distancia de la actual
+jugador y la dirección en la que mira.
+
+fila inferior de izquierda a derecha.
+
+cambiar armas
+--------------
+permite al jugador seleccionar un arma, para usar, entre las disponibles para él
+
+                             elegir pantalla de armas
+                             ---------------------
+elegir un arma a usar (de las que porta el actual
+jugador) haga clic con el botón izquierdo del ratón sobre la imagen del arma
+deseado. Para evitar la selección, haga clic fuera de las imágenes. la pantalla es
+Se puede desplazar con la barra de arrastre a la derecha si se están usando más de 2 armas.
+llevado, una flecha indica el arma actualmente en uso.
+
+granada principal
+-------------
+prepara una granada para lanzarla, se debe lanzar una granada antes de cambiarla
+control a otro jugador.
+
+cargar arma
+-----------
+carga el arma actual, se debe cargar un arma antes de poder disparar.
+
+lanzar granada
+-------------
+permite a un jugador lanzar una granada, las granadas pueden ser lanzadas a través
+ventanas y rebotó en las paredes.
+
+cómo lanzar granadas
+---------------------
+Una vez que se ha seleccionado el lanzamiento, se realiza el objetivo de la granada.
+similar al disparo de un arma. sin embargo, es posible que la granada no alcance su
+objetivo ya que la distancia a la que se puede lanzar está limitada por la fuerza del
+jugador que la lanza. Las granadas pueden rebotar en las paredes y lanzarse a través de ellas.
+ventanas. El efecto de una granada dura un turno de juego.
+
+nota: una granada debe estar preparada antes de poder ser lanzada, y debe ser lanzada
+antes de cambiar el control a otro jugador o finalizar el juego
+Gire, de lo contrario explotará.
+
+tiro de puntería
+--------
+permite a un jugador realizar un tiro preciso a un objetivo. el resultado de un
+El tiro está influenciado por la puntería del jugador y las armas efectivas.
+rango.
+
+instantánea
+--------
+permite al jugador apuntar y disparar rápidamente, utilizando una acción mínima
+puntos, lo que resulta en una baja proporción de aciertos
+
+cómo disparar armas
+----------------
+Una vez que se ha seleccionado una instantánea o un objetivo, el puntero del mouse se une
+por miras, y aparece una imagen de una agachadiza en la parte inferior de la pantalla. apuntar
+su tiro moviendo las miras con el puntero del mouse hasta que las miras
+abarcar la base del objetivo, haga clic con el botón izquierdo del ratón para confirmar
+el objetivo. nota; El objetivo debe estar en la línea de fuego (es decir, en la dirección en la que se encuentra).
+el arma está apuntando) si el objetivo está fuera de la pantalla visible, es posible
+Desplácese por la zona de juego moviendo las miras hacia el borde de la pantalla.
+y pulsando el botón derecho del ratón. la pantalla ahora se centrará alrededor del
+punto donde se colocaron las miras.
+Una vez seleccionado el objetivo, debes seleccionar el número de rondas a realizar.
+fuego. esto se hace haciendo clic con el botón izquierdo del mouse sobre las flechas (<
+disminuir el número de rondas,> aumentar el número de rondas) que rodean el
+cuadro de número debajo del arma de francotirador y luego haciendo clic en el número en el
+caja. Ahora comenzará el disparo. el número de rondas seleccionadas está limitado por
+los puntos de acción necesarios para disparar, o el número de rondas restantes en el
+arma. Las armas de un solo tiro solo pueden disparar un tiro antes de recargar.
+requerido. Seleccionar cero rondas cancela el disparo.
+
+nota; Antes de poder disparar un arma hay que cargarla con munición.
+
+turno final del juego
+-------------
+finaliza el turno de juego actual para los jugadores sas y permite que la computadora tome
+Es su turno. También finaliza el movimiento de oportunidad.
+
+icono de control de dirección
+----------------------
+controla la dirección en la que se mueve un jugador y muestra combates (en rojo) y
+Se escuchan ruidos (en azul) para mover a un jugador, haga clic en las flechas de dirección.
+
+movimiento de oportunidad
+----------------
+Si algunos puntos de acción se guardan antes de finalizar el turno de un jugador, durante el
+En el turno del enemigo se puede conceder un movimiento de oportunidad, se produce un movimiento de oportunidad.
+si un jugador tiene más de 5 puntos de acción y puede ser visto por el
+oposición. El número de puntos de acción guardados determina la posibilidad de
+recibir un movimiento de oportunidad; ahorrar 20 o más puntos de acción otorga una
+100% de probabilidad, disminuyendo hacia el 0% a medida que se guardan menos puntos de acción.
+El control de movimiento de oportunidad se toma del enemigo y del jugador en cuestión.
+tiene la oportunidad de utilizar los puntos de acción restantes. terminando su turno da
+control de vuelta al enemigo. Sólo se puede otorgar un movimiento de oportunidad por
+turno de juego.
+
+curando jugadores heridos
+-----------------------
+el botiquín médico; El jugador que lleve este objeto durante el juego
+recuperar el 5% de su salud por turno de juego.
+
+jugadores en reposo; si un jugador herido "se queda fuera" de una misión, estará completamente
+Curado, listo para la próxima misión.
+
+pasar elementos de 1 jugador a otro
+--------------------------------------
+Para pasar elementos de un jugador a otro, suelte los elementos necesarios en el
+suelo, cambia al otro jugador y luego camina sobre los elementos y selecciona
+recoger. nota: se pueden registrar los cadáveres y se pueden registrar las armas encontradas.
+usado.
+
+                             pantalla de giro enemigo
+                             -----------------
+
+Los íconos 1-5 están todos en la parte superior... [de izquierda a derecha]
+
+[1] ícono de puerta...arriba a la derecha; indicador de puerta abierta/cerrada; parpadea cuando un enemigo
+realiza esta acción.
+
+[2] no puedo verlo... 2do arriba a la derecha; indicador de pedir ayuda
+
+[3] icono de mano... 3º arriba a la derecha; indicador de recoger/soltar
+
+[4] no puedo verlo... 4to arriba a la derecha; indicador de disparo/lanzamiento
+
+[5] ícono de cara...arriba a la izquierda; mirar atrás/indicador de ruido
+
+Los iconos 6-11 están todos abajo...[de izquierda a derecha]
+
+[6] icono de cursor...abajo a la izquierda; indicadores de dirección de movimiento
+
+[7] Icono %....; estado de salud del enemigo, representado como %
+
+[8] ícono de cara con un número justo debajo del ícono %; puntos de acción de los enemigos
+
+[9] ícono de nombre; justo debajo del ícono de cara; nombre del enemigo
+
+[10] no puedo verlo; segundo desde la pantalla inferior derecha; indicador de fuga/ocultación
+
+[11] ícono de cara; pantalla inferior derecha; indicador de pánico
+
+nota; Lo siento, si ves la descripción "No puedo verlo", es por mí y significa que yo
+No puedo leer/ver la imagen en la fotocopia del manual..apoliges..
+
+Esta pantalla se mostrará mientras el enemigo toma su turno y no puede ser
+visto por los miembros del equipo de sable, si el enemigo es visible entonces todas las acciones serán
+mostrarse tal como los ve la persona que puede verlos.
+
+acelerar el giro del enemigo
+---------------------
+Para reducir el tiempo que tarda el enemigo en moverse, mantén presionado el botón izquierdo.
+botón.
+
+                             cómo completar cada misión
+                             ----------------------------
+misión 1; campamento de prisioneros de guerra en la jungla
+---------
+En el campo de prisioneros hay 4 rehenes que deben ser recogidos y
+guiado a un lugar seguro. Cuando un rehén es recogido y guiado a un lugar seguro, puede
+ser controlado como miembro de su equipo. Los rehenes son transportados en avión a un lugar seguro.
+una vez fuera del campo de prisioneros. todos los rehenes supervivientes deben ser rescatados. con un
+Se requiere un mínimo de 3 para completar la misión. una vez que todos los rehenes hayan
+sido rescatado, debes guiar a los rehenes restantes de tu equipo fuera del
+acampar a un lugar seguro.
+
+misión 2; asedio a la embajada
+---------
+Los terroristas han tomado el control de la embajada estadounidense en Londres y están
+reteniendo a 4 rehenes. para completar esta misión, guía a los rehenes fuera
+a un lugar seguro (como en la misión 1) o matar a todos los terroristas, saliendo del metro
+policía para recogerlos. todos los rehenes supervivientes deben ser rescatados, con un
+Se requieren un mínimo de 3 para completar la misión.
+
+misión 3; juegos de guerra
+----------
+Cuatro máquinas que contienen códigos de lanzamiento de misiles se encuentran dentro de un
+base militar subterránea. estas máquinas deben ser completamente destruidas por
+disparándoles al menos 3 veces. todas las máquinas deben ser destruidas para completar
+la misión. Los miembros supervivientes del equipo de sable deben salir del
+base para ser transportada por aire a un lugar seguro.
+
+misión 4; secuestro de línea
+----------
+Los terroristas han secuestrado un transatlántico y han alterado su destino,
+manteniendo como rehenes a pasajeros y miembros de la tripulación inocentes, todos los terroristas deben
+morir, permitiendo que el barco reanude su rumbo original, la misión es
+completado al matar al último terrorista.
+
+misión 5; guía de misiles
+----------
+cuatro máquinas que programan sistemas de guía de misiles se encuentran dentro de un
+Planta de fabricación de misiles. las 4 máquinas deben ser destruidas (como con
+misión 3) para completar la misión. Los miembros supervivientes del equipo de sable deben hacer
+su camino para salir de la base para ser transportados por aire a un lugar seguro.
+
+nota; en caso de que pierdas a todos los miembros de tu equipo de sable. la misión es
+fracasa a menos que el objetivo ya se haya logrado y al menos un hombre esté
+disponible para participar en la próxima misión. No se pueden recoger rehenes.
+en un movimiento de oportunidad.
+
+estado audiovisual
+-------------------
+durante un turno de juego, las flechas de dirección pueden iluminarse en "rojo" o "azul"; esto
+es una advertencia. una flecha "roja" indica que una persona es visible, en el momento actual
+jugador, en la dirección que apunta la flecha. Esto proporciona una advertencia cuando
+la persona en cuestión no está lo suficientemente cerca como para aparecer en la pantalla. un
+La flecha "azul" indica que se ha escuchado un ruido en la dirección de la flecha.
+
+encender/apagar la música
+------------------------
+Para encender o apagar la música durante el juego, presiona F10. los efectos de sonido
+permanecer encendido en todo momento.
+
+
+                             EL FIN

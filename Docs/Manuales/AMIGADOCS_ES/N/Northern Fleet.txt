@@ -1,0 +1,782 @@
+FLOTA DEL NORTE, Operaciones Navales Modernas en el Océano Atlántico.
+
+
+Índice:
+1.0 Introducción
+2.0 Curso general de juego
+Equipo de juego 3.0
+4.0 Primeros pasos
+5.0 El segmento de comando
+6.0 El segmento de informes
+7.0 El segmento de búsqueda
+8.0 El segmento de resolución de combate
+9.0 Finalizar o guardar el juego
+10.0 Victoria
+11.0 Notas del diseñador sobre el juego
+
+Créditos:
+Diseño: WJ Nichols
+Desarrollo: J. Baker y S. Newberg
+Pruebas de juego: J. Butters, P. Hollinger, T. Konczal, D. Markov, D. Winston y
+              el W.I.T. grupo
+Arte de portada: J. Kula, (C) 1988
+Impresión: Impresión Halcraft.
+
+
+El programa de software adjunto en disquete, el folleto de reglas y las hojas de mapas tienen derechos de autor. Estos artículos no se pueden copiar, traducir ni reducir a ningún formato electrónico o legible por máquina, en su totalidad o en parte, sin el consentimiento previo por escrito de Simulators Canada.  El programa de software puede ser copiado únicamente por el comprador original para proporcionar una copia de seguridad segura del disquete del programa proporcionado. Sin embargo, dicha copia no podrá entregarse ni venderse a otras personas o empresas de ningún tipo. No protegemos nuestro software para que los compradores no tengan dificultades para realizar una copia de seguridad.  Por favor, no abuse de esta política.
+
+Copyright (C), 1988 de Simulators Canada, P.O. Box 452, Bridgewater, Nueva Escocia, Canadá, B4V 2X6.  HECHO EN CANADÁ.
+
+
+ANTECEDENTES: En el otoño de 1995, los dirigentes soviéticos determinaron que un
+Se había producido un cambio significativo en la "correlación de fuerzas".  A lo largo
+En todo el mundo las fuerzas del socialismo estaban ganando lentamente una ventaja sobre las
+Oeste.  Los dirigentes soviéticos creían que existía una oportunidad para que la URSS
+hacer valer su poder y lograr un importante avance estratégico.  Como resultado de
+La debilidad militar convencional de la OTAN y la estrategia nuclear soviética
+superioridad, el mundo se había hecho seguro para un mayor activismo soviético, incluso
+a riesgo de una guerra convencional entre las superpotencias.  Los soviéticos ahora
+dirigieron su atención a lo que la prensa británica alguna vez llamó "el tendón de Aquiles".
+Talón de la OTAN".
+
+A principios de marzo de 1996, los soviéticos dejaron claro al gobierno noruego
+que buscaban una solución permanente a la disputa de la 'Zona Gris', revocación
+del Tratado de Svalbard, el gobierno conjunto soviético-noruego de Svalbard y
+soberanía sobre la Isla del Oso.  Los noruegos se estancaron, y con la tensión en el
+En la región, los soviéticos comenzaron su ejercicio naval anual en el
+Unidades de los mares de Noruega, Barents y Báltico de la Bandera Roja dos veces honrada
+La Flota del Norte y la Flota del Báltico Bandera Roja partieron de sus bases. el
+Los soviéticos también movilizaron las fuerzas terrestres y aéreas del ejército de Leningrado.
+Distrito en un evidente intento de presionar a los noruegos. Después de dos semanas de
+operaciones intensivas, que incluyeron un ejercicio de asalto anfibio contra
+En la costa de la península de Kola, los barcos soviéticos regresaron a puerto por un período de
+reorganización y reparación.  El 25 de marzo, un grupo naval se hizo a la mar por lo que
+Parecía ser una segunda ronda de operaciones, pero sus verdaderas intenciones pronto
+se volvió demasiado evidente.  Al amanecer del 27 de marzo de 1996, un regimiento del ejército soviético
+63ª Brigada de Infantería Naval 'Kirkenes' con el apoyo de un asalto aéreo
+El batallón capturó todo el archipiélago de Svalbard. Noruega y la OTAN estaban
+Se le presentó un hecho consumado de lo más desagradable.  A media tarde del día 27,
+Las fuerzas militares de la OTAN habían sido puestas en alerta y los noruegos comenzaron
+movilizar sus reservas.  Una fuerza de batalla de portaaviones estadounidense, compuesta
+del USS Kennedy y el USS Roosevelt, se le ordenó entrar en el Atlántico Norte.
+La batalla por el mar de Noruega estaba a punto de comenzar. [De "Defender Noruega
+Y el flanco norte", de M. K. Mahon].
+
+
+1.0 INTRODUCCIÓN: NORTHERN FLEET es un tipo de juego de simulación detallado de
+operaciones navales modernas en el Atlántico Norte para uno o dos jugadores.  cada uno
+El jugador puede controlar hasta diez grupos de trabajo (compuestos por jugadores de superficie individuales).
+barcos), submarinos individuales y grupos aéreos.  Serán responsables de
+el control operativo de cada unidad bajo su mando.  El punto de vista de
+los jugadores es así el del comandante naval del Teatro de cada bando: SACLANT
+para la OTAN y el Comandante de la Flota del Norte para la URSS.  Como tal, los jugadores
+puede componer grupos de trabajo, establecer misiones y destinos para esas fuerzas,
+ordenar ataques importantes, revisar informes de inteligencia y sugerir a sus
+comando nacional al nivel de conflicto que consideren apropiado.  Otras operaciones
+con los que el comandante del teatro no trataría directamente, como los casos individuales
+movimiento de barcos, selección de objetivos, empleo de armas y operaciones de aeronaves,
+será manejado automáticamente por la computadora.
+
+
+        2.0 CURSO GENERAL DEL JUEGO: El juego se compone de dos grandes
+secciones, el inicio del juego y el juego en sí. La puesta en marcha permite
+los jugadores seleccionen sus propias contraseñas para que solo ellos puedan jugar
+parte del juego.  El inicio también permite a los jugadores reanudar un juego anterior.
+que se había salvado. El juego se juega por turnos y sigue una constante
+Secuencia de juego compuesta por cuatro segmentos para cada turno.  en el primero
+segmento los jugadores pueden dar órdenes para las acciones de sus fuerzas para el
+girar.  El jugador soviético va primero, recomienda un nivel de conflicto, ajusta
+grupos de trabajo, dar órdenes de movimiento, etc. ' A continuación, el jugador de la OTAN lleva a cabo la
+mismas operaciones, finalizando así el segmento.  En el segundo segmento ambos jugadores
+recibirán todos los informes disponibles de sus fuerzas.  El jugador de la OTAN
+recibe estos informes primero, y luego el jugador soviético.  Estos pueden incluir
+informes de contacto y/o combate con fuerzas enemigas.  El tercer segmento entonces
+comienza con una búsqueda de informes estadounidenses, primero para el jugador soviético, seguido de
+informes similares para el jugador de la OTAN.  En determinadas circunstancias, ya sea o
+ambos jugadores pueden tener la opción de lanzar misiles y/o ataques aéreos en
+el cierre de su porción de este segmento. El segmento final del giro.
+Resuelve combates y otros eventos, mostrando los resultados. Los jugadores
+Luego se le preguntará si desea continuar el juego.  Si lo hacen, el juego continúa
+el siguiente turno.  De lo contrario, la computadora les dará la oportunidad de guardar el
+juego en este punto, indicar el estado actual de los puntos de victoria de los jugadores,
+y permitir a los jugadores revisar el estado de sus fuerzas al final del juego.
+juego.
+
+
+3.0 EQUIPO DE JUEGO: En el juego se incluyen dos mapas laminados idénticos.
+Los dos marcadores de colores proporcionados con el juego se pueden utilizar para registrar el
+ubicaciones de fuerzas de tarea amigas y submarinos lo mejor posible
+ubicaciones para las unidades enemigas.  Las anotaciones de estos marcadores se pueden borrar.
+completamente frotando el mapa con un paño húmedo.  El mapa está superpuesto con un
+cuadrícula de cuadrados. Cada cuadrado se denomina sector. Cada sector se identifica por
+una designación alfanumérica formada por una referencia cruzada de la letra vertical
+designación para las filas con el designador numérico para las columnas verticales.
+Todas las referencias a ubicaciones en el mapa deben realizarse en este formato.  Así, el
+La base aérea de Bodo, Noruega, está en el sector 017 y las Islas Feroe están en el sector.
+P10.  La escala de tiempo/distancia es de 8 horas por turno con sectores aproximadamente
+70 millas náuticas cuadradas.  Los sectores representan tierra, mar abierto o
+océano cubierto de hielo.  Sólo podrán entrar submarinos nucleares (SSN/SSGN/SSBN)
+Sectores oceánicos cubiertos de hielo.  Ninguna unidad naval puede entrar en sectores terrestres.  en
+Además, el mapa muestra las bases aéreas y navales soviéticas y de la OTAN y las
+Ubicación de las áreas de bastión soviético SSBN.  Estas características no tienen ningún efecto sobre
+movimiento.
+
+
+4.0 COMENZAR:
+
+4.1 ARRANQUE: Antes de iniciar el juego por primera vez, debes formatear un disco en blanco.
+para guardar juegos en.  Consulte la documentación de su sistema para saber cómo formatear un
+disco.  Los usuarios de Apple deben formatear en ProDOS.  Para iniciar el juego, colócalo
+disco en la unidad primaria y encienda la computadora.  Los usuarios de Commodore deben escribir
+'CARGAR "NF",8' seguido de 'EJECUTAR'.  Los usuarios de IBM-PC deben utilizar DOS 2.0 o posterior y
+Inicie el juego insertando el disco en la unidad predeterminada de una unidad que ya se esté ejecutando.
+sistema y escribiendo 'NF'.  Tenga en cuenta que los archivos se pueden cargar en un disco duro.
+y el juego comenzó desde ese directorio.  Amiga, Atari ST y MacIntosh
+los usuarios deben iniciar el archivo NF.PRG. Después de comenzar el juego, mantén el juego.
+disco en la unidad de disco a menos que el programa le indique lo contrario.
+
+4.2 PARTIDA NUEVA O GUARDADA: El programa te preguntará si deseas iniciar una nueva
+juego o reiniciar un juego guardado.  Si estás reiniciando un juego guardado, inserta el
+disco con el juego guardado. la unidad principal y siga las indicaciones proporcionadas
+en la pantalla.
+
+4.3 UNO O DOS JUGADORES Y CONTRASEÑAS: Al iniciar un juego, la computadora
+Necesito saber cuántas personas jugarán.  Al seleccionar 'O' para Uno, su
+El oponente será la computadora. Si juegas contra la computadora, serás
+Puedes elegir de qué lado deseas que juegue la computadora.  si juegas
+contra otro jugador, se les pedirá a los jugadores que seleccionen una contraseña.
+Simplemente seleccione algunas letras y escríbalas. Se solicitará esta contraseña
+por la computadora al comienzo de la porción de un segmento de cada jugador para que
+Sólo el jugador correcto puede jugar.  Al jugar contra las contraseñas de la computadora
+no se utilizan.
+
+4.4 POSICIONES DE INICIO: La computadora configurará el juego.  si
+los jugadores están reiniciando un juego guardado, las posiciones iniciales serán como cuando
+La partida guardada se detuvo previamente. Para un juego nuevo, la computadora implementará el
+fuerzas iniciales.  La OTAN siempre se desplegará como dos portaaviones.
+fuerzas, además de submarinos.  Los soviéticos comienzan sólo con submarinos en el mar.
+Los lugares de inicio y los tiempos de llegada de los refuerzos variarán con cada juego.
+
+4.5 DESIGNACIONES DE UNIDADES Y GRUPOS DE TRABAJO: Las unidades de cada jugador son
+se le asigna un número de unidad individual y un nombre de clase de embarcación, así como una unidad
+abreviatura de tipo.  Así, '4 CG SLAVA-2' representa la unidad número 4, que es
+el segundo crucero de misiles guiados clase Slava.  Todas las comunicaciones a la
+computadora que trata con un barco o submarino en particular debe hacer referencia a esa unidad
+por su número de unidad (4 en el ejemplo anterior).  Los grupos de trabajo de cada jugador
+La computadora le asignará un número del uno al diez, comenzando con el uno.  un
+El jugador puede tener un máximo de diez grupos de trabajo en juego al mismo tiempo.
+
+4.6 INGRESO DE INFORMACIÓN: Durante el juego la computadora detecta la finalización
+de cada entrada de información por parte del jugador presionando la tecla <RETURN> o <ENTER>.
+'Y' y 'N' son respuestas para preguntas de Sí y No, mientras que los dígitos se utilizan para
+respuestas numéricas.  Si solo se da una devolución o entrada, la computadora asumirá
+que no se requiere ningún cambio desde el estado anterior.  Tenga en cuenta que todas las entradas
+debe hacerse en mayúsculas.  Durante la visualización de informes de contacto y
+resultados del combate, el desplazamiento de la pantalla se puede pausar simplemente presionando un
+clave.  Para reanudar el juego, presione nuevamente una tecla.
+
+4.7 ABREVIATURAS: Los tipos de unidades se abrevian de la siguiente manera: AOE y AOR
+(buques de reabastecimiento);           BCN (crucero de batalla nuclear);     CG' (guiado
+crucero de misiles);   CGN (crucero de misiles guiados nucleares);    CV (avión
+transportista);    CVN (portaaviones nucleares);            CVH (helicóptero
+transportista);          CVHG (portahelicópteros con misiles guiados);          DD
+(destructor);           DDG (destructor de misiles guiados); FF (fragata);  FFG
+(fragata de misiles guiados); LPD y LST (buques de desembarco anfibios);    SS
+(submarino de ataque diésel);       SSN (submarino de ataque nuclear); SSGN (nuclear
+submarino de misiles guiados);                SSBN (misil balístico nuclear)
+submarino).
+
+Las abreviaturas de los tipos de armas son: LAM (misil de crucero de ataque terrestre); MUS
+(misil antibuque superficie-superficie); ASW (arma antisubmarina); Sam
+(misil tierra-aire); ASM (misil antibuque aire-superficie); TOR
+(torpedo).  Otras abreviaturas son: co (oficial al mando); EW (electrónica
+guerra); SOA (velocidad de avance); KTS (nudos - millas náuticas por hora); SLOC
+(vías de comunicación marítimas); CAP (patrulla aérea de combate).
+5.0 EL SEGMENTO DE MANDO:
+
+5.1 GENERAL: Durante el Segmento de Mando los jugadores pueden dar órdenes a
+sus fuerzas.  La fase de jugador soviético siempre será la primera en el
+segmento.  El segmento de comando del jugador comienza mostrando el día, la hora,
+clima, pronóstico del tiempo, puntos de victoria obtenidos actualmente, estado de Noruega,
+y el nivel de conflicto del turno anterior.  Los jugadores pueden sugerir uno de cuatro
+niveles de conflicto: 1) 'Tensiones crecientes', 2) 'Guerra convencional', 3)
+'Guerra nuclear táctica', o 4) 'Guerra nuclear operativa'.  la computadora
+indicará si la recomendación es aceptada o rechazada por el jugador
+liderazgo nacional.  Luego, Play se moverá a una lista de opciones llamada Tarea.
+Menú de operaciones de fuerza.  Al escribir el número de la selección deseada, reproduzca
+procederá a esa selección.  Cada una de estas selecciones se detalla a continuación. 
+
+5.2 SELECCIONES ESTÁNDAR:
+
+5.21 FORMAR UN GRUPO DE TRABAJO: Esto permite la creación de un nuevo grupo de trabajo a partir de
+buques de superficie disponibles que aún no han sido asignados a un grupo de trabajo.  cada uno
+Los barcos de superficie disponibles se mostrarán uno a la vez.  Al presionar el
+letra 'A' el barco se agregará al nuevo grupo de trabajo.  El jugador puede tener
+no más de diez grupos de trabajo en juego simultáneamente.  Nuevos grupos de trabajo soviéticos
+aparecerá en el sector M22.  Nuevas fuerzas británicas aparecerán en el sector U11.  Nuevo
+Los grupos de trabajo estadounidenses aparecerán a lo largo de los bordes sur u oeste del mapa.  Tenga en cuenta que
+Los buques de superficie que no se hayan formado en un grupo de trabajo no se consideran
+haber entrado todavía en el área del mapa con fines de movimiento, búsqueda o combate.
+
+5.22 COMBINAR DOS FUERZAS DE TRABAJO: Esta selección permite al jugador fusionar dos
+grupos de trabajo en un solo grupo de trabajo, siempre que los grupos de trabajo involucrados estén en
+el mismo sector y pertenecen al mismo jugador.
+
+5.23 DIVIDIR UN GRUPO DE TAREA: Esta selección le permite al jugador formar una nueva tarea
+fuerza dividiendo un grupo de trabajo existente en dos partes.  El procedimiento comienza
+preguntando qué grupo de trabajo se dividirá y luego forma el nuevo grupo de trabajo
+el mismo sistema que en la formación normal de un nuevo grupo de trabajo (regla 5.21).
+
+5.24 REVISAR LA COMPOSICIÓN DE UN GRUPO DE TRABAJO: Esta selección muestra la ubicación,
+misión, calificación de iniciativa, calificación de confiabilidad y nivel EMCON (una medida de
+"silencio electrónico") de un grupo de trabajo.  Los barcos que componen el grupo de trabajo.
+se enumerará, junto con cualquier daño que haya sufrido un barco en particular (dado como
+número porcentual) y el SOA máximo (en nudos).  La iniciativa y
+La confiabilidad de un grupo de trabajo será la del oficial al mando del barco.
+liderando el grupo de trabajo.  La computadora asignará qué barco será este,
+generalmente sobre la base de cuál es el buque más valioso y, por lo tanto, sería
+llevando al oficial naval de mayor rango.  La confiabilidad es una calificación de qué tan bien
+El CO en particular ejecutará sus órdenes, mientras que la iniciativa indica qué tan bien
+el CO se ocupará de situaciones y oportunidades para las cuales no tiene órdenes.
+La SOA representa la tasa de avance más rápida que un grupo de trabajo puede mantener
+durante un período de 8 horas.  La SOA de un grupo de trabajo será automáticamente la que
+buque más lento del grupo de trabajo.  Durante el clima tormentoso, los grupos de trabajo no
+viajar a más de 24 nudos.
+
+5.25 COMPROBAR EL ESTADO DE UNA UNIDAD: Esta selección le permite al jugador examinar una unidad específica.
+barco o submarino. La pantalla indica el barco, la iniciativa y
+índices de confiabilidad de su CO, las armas que porta y una serie de valores numéricos.
+calificaciones de las capacidades de la unidad en diversas áreas.  Las calificaciones más altas indican
+mayor capacidad.
+
+5.26 CAMBIAR LA MISIÓN DE UN GRUPO DE TRABAJO: Esta selección permite al jugador
+cambiar la misión de un grupo de trabajo.  Un grupo de trabajo intentará llevar a cabo
+su misión asignada en la medida de su confiabilidad, mientras que puede intentar
+realizar operaciones distintas a las asignadas en el ámbito de su iniciativa.
+Las posibles misiones son: 'Propósito General', que hará que la fuerza se mueva a
+el destino asignado, pero solo entra en combate en el CO del grupo de trabajo
+iniciativa; 'Anti-Surface' que hará que la fuerza se concentre en el combate
+contra objetivos de superficie opuestos; 'Antisubmarino', que tendrá la fuerza
+concentrarse en el combate contra submarinos; 'Attack Shore Targets', que
+permitir que la fuerza realice ataques contra bases enemigas; y 'Enemigo de las Sombras'
+Task Force', que hará que la fuerza siga a una fuerza de trabajo enemiga para
+poder informar de su posición y posiblemente realizar ataques.  grupos de trabajo con
+una misión antisubmarina nunca viajará a más de 24 nudos.  Grupos de trabajo
+La misión dada de Attack Shore Targets debe tener asignado un objetivo enemigo específico.
+Los buques con capacidad de disparo proporcionarán bombardeos en tierra, los buques con
+Los misiles de crucero de ataque terrestre pueden lanzarlos si están dentro del alcance y están asignados.
+Los portaaviones podrán lanzar ataques aéreos contra el área especificada.
+objetivo.  Los daños resultantes a las bases aéreas pueden dejar temporalmente a la base aérea fuera de servicio.
+operación, mientras que los daños a las instalaciones portuarias pueden causar
+disponibilidad de unidades allí se retrasará.  Tenga en cuenta que para tener un enemigo de las sombras
+misión del Grupo de Trabajo, el grupo de trabajo no necesita estar en el mismo sector que un
+grupo de trabajo opuesto; comenzará a sombra cuando encuentre algo.
+
+5.27 LISTA DE UBICACIONES DE UNIDADES Y BARCOS DESTRUIDOS: Esta selección enumerará las
+ubicaciones de todas las fuerzas de tarea amigas, así como las ubicaciones de las fuerzas amigas
+submarinos que están en contacto por radio.  Después de esta lista, una lista separada de
+unidades amigas que se sabe que han sido destruidas y su punto de victoria
+Se mostrarán los valores.
+
+5.28 REVISAR LLEGADAS DE UNIDADES: Esta selección enumerará todos los barcos amigos.
+y submarinos que se han comprometido con el jugador, pero que aún no se han
+llegaron o se formaron en grupos de trabajo.  Al lado de cada unidad habrá un número.
+indicando cuántos turnos quedan antes de que la unidad esté disponible. también
+Lo indicado es el sector al que llegará la unidad.
+
+5.29 DAR ÓRDENES DE MOVIMIENTO: Ir a esta selección saldrá permanentemente
+el jugador desde el menú de operaciones del grupo de trabajo.  Después de seleccionarlo el jugador
+Tendrá una última oportunidad de volver a ese menú.  Al seleccionar 'M' el
+Se iniciará el segmento de movimiento. En movimiento el jugador puede emitir movimiento
+órdenes a cada uno de sus grupos de trabajo y a cualquier submarino que esté en radio
+contacto.  Cada submarino que pueda aceptar pedidos se enumerará secuencialmente.
+Se deben ordenar los destinos para el grupo de trabajo o submarino que se encuentra actualmente
+presentado antes de pasar al siguiente.  Estas órdenes toman la forma de
+ingresar la designación de una ubicación hacia la cual el jugador desea realizar la tarea
+fuerza o submarino para proceder.  La unidad o grupo de trabajo avanzará hacia ese
+destino cada turno hasta que llega (y luego permanece en el sector
+en un patrón de patrulla) o su destino es cambiado por nuevas órdenes.  Unidades
+que actualmente están siguiendo a un grupo de trabajo enemigo no requieren destino
+orden Cuando un submarino está en contacto por radio para recibir órdenes, el jugador
+También se le dará la oportunidad de cambiar la misión del submarino.  submarino
+Las misiones son las mismas que las de los grupos de trabajo con las siguientes adiciones:
+1) Los submarinos pueden proporcionar escolta a un grupo de trabajo amigo.  Para ser ordenado a
+Para hacer esto, deben estar en el mismo sector que el grupo de trabajo cuando se envía la orden.
+dado.  Luego irán automáticamente a donde vaya el grupo de trabajo y realizarán
+misiones tanto antisuperficie como antisubmarinas. 2) Los submarinos soviéticos pueden ser
+asignado a la misión Anti-SLOC.  Los submarinos con una misión Anti-SLOC
+seleccionar automáticamente un destino en el borde oeste o sur del mapa (entre
+coordenadas N-U y 1-7) y, una vez llegado a ese destino, salir del mapa para
+atacar las rutas marítimas del Atlántico.  Finalmente, el jugador puede pedir un submarino.
+para proceder a su destino en una determinada SOA.  Tenga en cuenta que los submarinos
+viajar a altas velocidades verá reducida la efectividad del sonar y
+ser más fácil de detectar por las fuerzas enemigas.
+
+5.3 SELECCIONES ESPECIALES:
+5.31 ASIGNAR OBJETIVO SPETSNAZ: En el turno en que comienza la guerra, y antes
+Al ingresar al menú de operaciones del grupo de trabajo, el jugador soviético deberá
+asignar un objetivo a sus SPETSNAZ (fuerzas especiales).  El objetivo puede ser cualquiera.
+de los aeródromos de la OTAN, las instalaciones SOSUS en Islandia o el OTH (Over The
+Horizon) Sitio de radar en el Reino Unido.  Los resultados del ataque SPETSNAZ serán
+resuelto al final del turno.  Los ataques exitosos contra aeródromos
+destruir uno o más aviones en tierra.  Un ataque exitoso contra SOSUS
+degradará gravemente la capacidad del jugador de la OTAN para rastrear submarinos soviéticos en
+el Mar de Noruega.  En consecuencia, los P-3 con base en Keflavik serán
+esencialmente inútil para ASW.  Un ataque exitoso contra el sitio OTH Radar
+significará que la OTAN no tendrá aviso previo de ataques aéreos soviéticos
+fuera de las bases de Kola. Por lo tanto, los combatientes de la PAC que defienden el máximo rara vez serán
+en el aire cuando llegan los ataques soviéticos.
+	
+5.32 CAMPOS MINADOS: Después de que comience la guerra, cada jugador tendrá un
+oportunidad de intentar minar un sector en cada turno.  Los campos minados son sólo
+efectivos contra submarinos enemigos y se consideran lanzados fuera del mapa.
+aviones (por ejemplo, B-52 con base en EE. UU. continental para el jugador de la OTAN).
+En consecuencia, las minas sólo pueden colocarse en zonas de mar abierto (es decir, sectores
+sin hielo), los combatientes enemigos pueden provocar que se aborten las misiones mineras y
+Las minas no se pueden colocar durante tiempo tormentoso.  Los submarinos de la OTAN entran en la Unión Soviética.
+Los campos minados tienen un 5 por ciento de posibilidades de ser hundidos.  Submarinos soviéticos entrando
+Los campos minados de la OTAN tienen un 2,5 por ciento de posibilidades de ser hundidos.  Un sector puede ser
+minado más de una vez y su efectividad aumenta a medida que se excavan más campos minados.
+puesto en él.  Además, tenga en cuenta que los accesos a las bases soviéticas en M22,
+y la entrada al Mar Blanco, se consideran extensamente minados en
+el inicio del juego.  Los submarinos de la OTAN a los que se les ha ordenado entrar en estas zonas lo hacen a
+riesgo considerable.
+
+5.33 COMPROMISO 76.ª DIVISIÓN AEROTRANSPORTADA: Una vez durante el juego, el ejército soviético
+El jugador puede intentar destruir una base aérea de la OTAN realizando un asalto aéreo.
+en contra.  Los objetivos permitidos son Bodo, Trondheim, las Islas Feroe y
+Keflavík.  Un ataque exitoso destruirá el aeródromo pero no permitirá
+Aviones soviéticos para utilizar la base.  Un asalto exitoso a Keflavik también
+destruir el sistema SOSUS de la OTAN.
+
+
+6.0 EL SEGMENTO DE INFORMES: Cuando ambos jugadores hayan completado el Comando
+segmento, la reproducción se trasladará al segmento de Informes.  Este segmento consiste en
+fases de informe separadas para cada jugador (comenzando con el jugador de la OTAN)
+seguido de un segmento conjunto de jugadores para mostrar los resultados del combate que ocurren durante
+movimiento.  Los informes de radio de cada jugador anunciarán los resultados de cualquier
+encuentros con unidades enemigas mientras se encuentran en el mismo sector, dependiendo de su
+misión, confiabilidad e iniciativa.  Los submarinos fuera de contacto pueden realizar
+ataques pero no informan que lo han hecho.  No se realizarán ataques.
+por las fuerzas de un jugador cuyo nivel de conflicto es Tensiones crecientes (Nivel 1), excepto
+que unidades con baja confiabilidad y alta iniciativa podrían lanzar un ataque,
+iniciando así involuntariamente la guerra.  Cuanto más tiempo permanezca el juego en
+Cuanto mayor sea el nivel de conflicto 1, más probable será que esto ocurra.  Las unidades y grupos de trabajo pueden
+contraatacar a las unidades enemigas que las han atacado independientemente de la
+nivel de conflicto.
+
+
+7.0 EL SEGMENTO DE BÚSQUEDA:
+
+7.1 GENERAL: Durante el segmento de Búsqueda, a cada jugador se le presentará
+un menú de informes que dará los resultados de la recopilación de inteligencia, búsquedas
+por fuerzas de tarea y submarinos, y vuelos de reconocimiento aéreo.  en
+Además, el jugador podrá examinar el estado de todos los aviones.
+actualmente a su disposición.  Finalmente, el jugador podrá, si es factible, ser
+dado la oportunidad de ordenar el lanzamiento coordinado de misiles y/o aviones
+ataca a un objetivo o ubicación en particular.
+
+7.2 INTELIGENCIA NACIONAL E INTERCEPCIONES ELECTRÓNICAS: Esta selección
+mostrar las ubicaciones aproximadas de los grupos de trabajo opuestos detectados por el océano
+satélites de vigilancia, interceptaciones de radio HF y otros servicios de inteligencia nacionales
+significa.  Unidades opuestas que se han comunicado ampliamente con el cuartel general.
+durante el segmento de Comando en curso (es decir, tener una calificación EMCON baja porque
+el jugador hizo numerosas referencias a la unidad o grupo de trabajo mientras daba
+pedidos) tendrán más probabilidades de ser detectados.  Además, cualquiera de los jugadores puede ser
+proporcionó información sobre los movimientos de los submarinos enemigos.  SOSUS, si está operativo, puede
+detectar submarinos soviéticos en el Mar de Noruega, mientras que los submarinos de la OTAN en el
+El mar de Barents puede ser detectado por sistemas de escucha submarinos soviéticos.
+
+7.3 ORDEN DE BATALLA DEL ENEMIGO E INFORMES DE ESTADO DE LA BASE AÉREA: Esta selección
+muestra una estimación de nivel superior de cuántas unidades enemigas de cada tipo hay en el mar
+o en puerto.  Esta selección también da una estimación del estado de cada enemigo.
+base aérea, incluyendo cuántos aviones se estima que tienen su base allí.
+
+7.4 INFORMES DE CONTACTO DE GRUPOS DE TRABAJO Y SUBMARINOS: Unidades que están en el mismo
+sector como una fuerza de tarea enemiga puede informar la ubicación y estimación
+composición de las fuerzas opuestas.
+
+7.5 INFORMES DE BÚSQUEDA AÉREA: El jugador recibirá los resultados de las búsquedas.
+Realizado automáticamente por aviones de patrulla terrestres y con base en portaaviones.
+(BEARS, P-3, SV22 y helicópteros).  La ubicación y composición estimada.
+de las fuerzas opuestas pueden ser denunciadas.  No se realizarán búsquedas aéreas durante tormentas.
+clima.
+
+7.6 ESTADO DE LA AERONAVE: Esta selección mostrará el estado de la aeronave
+asignado a cada base aérea y portaaviones bajo el mando del jugador.  un
+Se mostrará la lista de disponibilidad para cada tipo de avión.  Aeronave indicada como
+"Listo" se activará automáticamente en cualquier ataque asignado.  El resto del
+La tubería se indica en incrementos de 8 horas, cada uno de los cuales representa un giro.
+Así, los aviones que se muestran a las 24 horas estarán 'Listos' en tres turnos. Aviones en
+Los CAP, en su caso, se asignarán automáticamente y se indicará su cantidad.
+Los combatientes de la OTAN que están "Listos" pueden ser enviados a aumentar la PAC si la OTH
+Un sitio de radar en el Reino Unido detecta el lanzamiento de ataques aéreos soviéticos desde Kola
+Península.  Durante condiciones climáticas tormentosas, todos los aviones permanecerán en tierra. Además,
+Esta selección para el jugador de la OTAN (únicamente) indicará si el jugador seleccionado
+La base aérea tiene suficientes misiles HARPOON para sus aviones. Ataques aéreos contra
+Los grupos de trabajo soviéticos emplearán arpones mientras estén disponibles.
+Los puntos siguientes estarán armados únicamente con bombas.  Cada barco de reabastecimiento de EE. UU.
+tiene un 50 por ciento de posibilidades de poder reemplazar el suministro de un portaaviones
+de ARPONES.  El barco de reabastecimiento debe estar en el mismo grupo de trabajo que el
+portaaviones para hacer esto.  Una vez que un barco de reabastecimiento ha rearmado un
+portaaviones, se considera que no tiene más misiles a bordo.
+
+7.7 ASIGNACIÓN DE ATAQUE CON MISILES Y AERONAVES: Después de indicar la finalización de
+su revisión de los resultados de la búsqueda, el jugador puede tener la oportunidad de
+realizar ataques contra fuerzas de tarea o objetivos terrestres opuestos.  para reflexionar
+diferencias doctrinales, los actores soviéticos y de la OTAN tienen opiniones ligeramente diferentes.
+opciones.  El jugador soviético puede lanzar un único misil coordinado y
+Los aviones atacan en cada turno.  Para indicar dónde se dirigirá el ataque, el
+El jugador soviético debe ingresar a la ubicación del sector del ataque.  todas las unidades y
+Se ordenará a los aviones dentro del alcance que se lancen hacia esa ubicación objetivo.
+Dependiendo de la misión de la unidad, iniciativa, confiabilidad, clima y
+estado de las comunicaciones, pueden cumplir o no.  Para el jugador de la OTAN, y
+para el jugador soviético si no lanzó un ataque coordinado, cada avión
+El portaaviones bajo su mando puede recomendar ataques aéreos contra sectores que se cree
+contener fuerzas de tarea opuestas.  Se le pedirá al jugador que esté de acuerdo con cada
+Recomendaciones de huelga para vetarlo. Además de los ataques contra barcos, tanto
+Los jugadores pueden realizar ataques contra bases enemigas.  Los portaaviones sólo podrán
+lanzar ataques contra objetivos terrestres si a su grupo de trabajo se le ha asignado un
+misión de hacerlo.  Finalmente, si los portaaviones de la OTAN están a 250 millas de
+Bodo, el jugador de la OTAN puede lanzar ataques aéreos para apoyar la batalla terrestre en
+Noruega.
+
+
+8.0 EL SEGMENTO DE RESOLUCIÓN DE COMBATE:
+
+8.1 GENERAL: Cuando ambos jugadores hayan completado el segmento de Búsqueda y
+Si tienes objetivos asignados para cualquier ataque aéreo, el juego avanza al Combate.
+Segmento de Resolución.  Durante la primera parte de la resolución del combate, cada jugador
+Se le pedirá que vea por separado los resultados de los ataques con misiles contra su
+fuerzas.  Luego se pedirá a los jugadores que vean conjuntamente los resultados de cualquier
+ataques aéreos. A continuación, los grupos de trabajo realizarán bombardeos desde la costa.  Siguiendo la orilla
+bombardeos (y asaltos anfibios, si los hubiera), la computadora determinará si
+Todos los SSBN soviéticos han sido destruidos por las fuerzas ASW de la OTAN que operan en el
+Bastiones soviéticos.
+
+8.2 COMBATE CON MISILES SUPERFICIE A SUPERFICIE: En esta parte del
+resolución, buques de superficie y submarinos en el rango de tarea opuesta detectada
+fuerzas pueden lanzar ataques contra esas fuerzas, sujeto a la misión,
+iniciativa y confiabilidad. La efectividad de tales ataques variará
+con las unidades involucradas, las armas, la distancia al objetivo y el clima.
+efectos.  Cada jugador verá por separado los resultados de estos ataques.
+
+8.3 COMBATE CON MISILES DE CRUCERO DE ATAQUE TERRESTRE: Fuerzas de tarea y submarinos
+con una misión 'Attack Shore Target' puede lanzar misiles de crucero de ataque terrestre
+en bases aéreas enemigas.  Estos ataques pueden destruir aviones en tierra, enemigos
+defensas aéreas (sitios SAM), e incluso pueden dejar temporalmente la base fuera de servicio.
+Los ataques con misiles convencionales por sí solos no son muy efectivos, pero
+puede ser muy importante cuando se lanza junto con un ataque aéreo contra el
+base enemiga.
+
+8.4 COMBATE DE ATAQUE AÉREO: En esta parte de la resolución, los ataques aéreos
+ordenadas contra fuerzas de tarea enemigas u objetivos costeros se resolverán.  ambos
+Los jugadores deben ver los resultados juntos.  La eficacia de tales ataques.
+variará según las unidades involucradas, el clima, la hora del día y la
+distancia al objetivo.  Tenga en cuenta que es posible que la Fuerza Aérea Soviética (una
+comando separado del del jugador soviético) para atacar bases aéreas noruegas
+sin el conocimiento previo o la aprobación del jugador soviético.
+
+8.5 BOMBARDEO DE COSTA: Fuerzas de tarea de cualquiera de los jugadores que tengan la misión de
+'Attack Shore Target' puede realizar bombardeos en tierra cuando se encuentre en un sector
+que contiene una base enemiga. 
+
+8.6 ASALTOS ANFIBIOS: Las fuerzas de tarea soviéticas con barcos anfibios pueden aterrizar
+tropas en Bodo en Noruega (las versiones Amiga, Atari ST e IBM-PC también permiten
+desembarcos en Trondheim en Noruega, Keflavik en Islandia y las Islas Feroe al norte de
+Escocia).  Cada turno que un barco anfibio esté en el sector objetivo, habrá
+Existe la posibilidad de que caiga la base aérea asociada de la OTAN.
+
+8.7 NORUEGA: Las fuerzas noruegas siempre están bajo control informático.  Su
+Las fuerzas terrestres y aéreas se comprometerán a la batalla terrestre en defensa de
+Noruega.  Sus fuerzas navales (principalmente submarinos) pueden atacar cualquier tarea soviética.
+fuerza que entra en aguas costeras noruegas.
+
+8.8 SSBNS SOVIÉTICOS: Los SSBN soviéticos siempre están bajo el control del
+computadora (que representa al comandante de las fuerzas SSBN del cohete de largo alcance
+Fuerzas).  La computadora sacará a los SSBN de sus bases y los llevará a sus
+bastiones de patrulla asignados. El jugador soviético tiene la responsabilidad de defender.
+los bastiones contra las fuerzas ASW de la OTAN.  En cada turno, la computadora determinará
+si hay suficientes fuerzas defensivas presentes en cada área de bastión.  si el
+Se considera que las fuerzas defensivas son inadecuadas contra las fuerzas de la OTAN en el
+bastión, existe la posibilidad de que un SSBN soviético sea destruido.
+
+8.9 UMBRAL DEL NIVEL DE CONFLICTO: En cada turno existe la posibilidad de que el
+El liderazgo nacional de un lado o del otro puede decidir que la escalada por encima
+El nivel de conflicto actual es aceptable.  El jugador no será consciente de
+esta decisión, pero si posteriormente solicita aumentar el nivel de
+conflicto, su solicitud será aprobada.  A nivel de Guerra Nuclear Táctica
+(Nivel 3), se pueden utilizar armas nucleares contra grupos de trabajo y submarinos en
+mar.  En el nivel de Guerra Nuclear Operacional (Nivel 4), crucero con armas nucleares
+Se pueden utilizar misiles contra bases terrestres enemigas.  En este nivel, los misiles balísticos intercontinentales también pueden
+ser lanzado contra portaaviones y bases terrestres, sin la autorización del jugador.
+conocimiento previo o aprobación.  Para cada juego, hay un 50 por ciento de posibilidades.
+(determinado al comienzo del juego y no revelado a los jugadores)
+que la Guerra Nuclear Operacional puede, en última instancia, resultar en una Guerra Nuclear Global,
+terminando así el juego.
+
+
+9.0 FINALIZAR O GUARDAR EL JUEGO: El juego puede finalizar en cualquiera de las siguientes situaciones
+maneras.  Ambos jugadores pueden acordar conjuntamente detenerse al final de un turno; un
+puede imponerse un alto el fuego; o el nivel del conflicto puede escalar a un nivel nuclear global.
+Guerra.  En los dos últimos casos, el ordenador detendrá el juego.  Un alto el fuego
+se impondrá en algún momento después del turno 35 si no hay otros criterios para finalizar
+El juego se logra.  Si los jugadores han finalizado el partido de común acuerdo
+luego se les dará la opción de guardar el juego.  Para guardar el juego
+DEBE tener disponible otro disco que haya sido previamente formateado.  el
+La computadora le guiará a través de la rutina de guardado.  A menos que se haga lo contrario
+especificada, la rutina de guardado utiliza la misma unidad que el disco del programa.  estar seguro
+para quitar el disco del programa cuando se le solicite e insertar el disco en el que
+el juego se guardará. PRECAUCIÓN: No hay suficiente espacio en el programa.
+disco para guardar un juego.  No intentes hacerlo.  Un disco de repuesto puede guardar hasta 5
+juegos en prog.  Asegúrate de usar uno.  Después de guardar el juego, la computadora puede
+cerrarse o el juego podrá continuar en el siguiente turno del juego recién guardado
+y todavía en progreso.  Después de terminar el juego, todos destruidos, abandonados y
+Se enumerarán las unidades dañadas y el total de puntos de victoria finales para los jugadores.
+se mostrará.
+
+
+10.0 VICTORIA: Al final del juego (o cuando el juego termine) el
+A los jugadores se les presentará el total de puntos de victoria final (a menos que el juego
+termina en una Guerra Nuclear Global, en la que ambos bandos, y todos los demás también,
+perder, lo que hace que la visualización del resumen sea inapropiada).  Si los totales están dentro
+100 puntos de victoria entre sí, el juego es un empate.  Si la diferencia en
+puntuaciones es superior a 100 puntos, el jugador que gana más puntos es el
+ganador.  La computadora otorga automáticamente puntos de victoria al jugador apropiado.
+jugador por lo siguiente: 1. Daño o destrucción de unidades enemigas
+(variable según el tipo de unidad y la cantidad de daño a la unidad y puede valer hasta
+a 100 puntos para los portaaviones estadounidenses);   2. Demostrando inicial
+restricción de hostilidades (al recomendar el nivel de conflicto 1), 10 puntos/turno (OTAN
+Sólo jugador, ya que el postulado del escenario se basa en un agresivo soviético.
+postura); 3. Demostrar un umbral de moderación (recomendando métodos convencionales)
+guerra después de que estalla la guerra), 5 puntos/turno (cualquiera o ambos jugadores); 4.
+SSBNS soviético hundido, 50 puntos;  5. Salir de los submarinos soviéticos en misión Anti-SLOC.
+puntos iguales al valor del submarino más el número de SSM a bordo; 6.
+Asalto exitoso de una base aérea de la OTAN por tropas aerotransportadas o anfibias, 100
+puntos;  7. Control soviético de Noruega, puntos iguales al porcentaje de
+Control soviético, con una bonificación de 250 puntos si Noruega cae; 8. Cada turno que
+una base de bombarderos soviética está inoperativa, 5 puntos/base para la OTAN; 9. Cada turno que
+una base de bombarderos soviética está operativa, 3 puntos/base hacia la URSS;  10. Realización
+bombardeos costeros y ataques aéreos contra bases enemigas (variable según el conflicto)
+nivel, número de turno y daño infligido; en general se ganan más puntos
+para bombardeos y ataques aéreos contra bases cuando estos ocurren a principios del
+guerra).  La computadora resta automáticamente los puntos de victoria del
+jugador apropiado para lo siguiente: 1. Cada vez que el jugador escala
+el nivel de conflicto por encima del nivel más alto utilizado previamente en el juego (50
+puntos por ir a Guerra Convencional, 150 puntos por Guerra Nuclear Táctica, 300
+puntos por Guerra Nuclear Operacional);   2. Cada turno que el jugador esté arriba
+nivel de conflicto 2, pierde 10 puntos de victoria;  3. Cada vez que una base terrestre
+es destruido por un arma nuclear, el jugador atacante pierde 25 victorias
+puntos.
+
+
+11.0 NOTAS DEL DISEÑADOR SOBRE EL JUEGO:
+
+11.1 OPCIONES ESTRATÉGICAS SOVIÉTICAS: El Ejército Rojo es la rama superior del
+Fuerzas armadas soviéticas.  En consecuencia, el jugador soviético (en su papel de Norte
+Comandante de flota) tiene la responsabilidad principal de apoyar la ofensiva del Ejército.
+contra Noruega.  El principal medio para lograr esto es realizar
+asaltos anfibios y aéreos contra Bodo y Trondheim.  otro
+objetivo importante es evitar que los portaaviones estadounidenses lancen
+ataques aéreos en apoyo de la batalla terrestre en Noruega o, peor aún, contra
+Instalaciones militares soviéticas en la península de Kola.  ¿Debería la ofensiva del ejército
+estancarse y la guerra se prolongue, será necesario
+interceptar los SLOCS transatlánticos de la OTAN.  Por último, una guerra importante con la OTAN puede
+en última instancia, escalar a un intercambio nuclear.  Es esencial que la Unión Soviética
+Los bastiones del SSBN permanecen seguros contra las fuerzas ASW de la OTAN.  lo siguiente
+Las discusiones describen algunas de las opciones estratégicas disponibles para la Unión Soviética.
+lado para lograr estos objetivos.
+
+11.11 ATAQUES CONTRA NORUEGA: Durante los primeros días de la guerra,
+Hasta que la OTAN sea capaz de formar una fuerza combinada de 3 o 4 portaaviones, la
+El jugador soviético debería tener esencialmente las manos libres en el norte de Noruega.
+Mar.  Durante este período, una técnica es organizar sus unidades de superficie en
+tres grupos de trabajo con los siguientes objetivos.  El portahelicópteros BAKU
+debería formar la base de un grupo de trabajo ASW que opere bajo control aéreo terrestre.
+cobertura en la zona del bastión del Mar de Barents.  Un grupo de trabajo centrado en el
+El portaaviones TBILISI debe enviarse aproximadamente a 200 millas náuticas al norte.
+de Bodo para atacar la base aérea allí.  Un grupo de trabajo anfibio debería transitar
+al amparo de TBILISI para llevar a cabo ataques en Bodo. 20 a 40 en tierra
+Los bombarderos deberían atacar Bodo y Trondheim para sacar las bases aéreas allí.
+operación.  Una vez que se confirme que Trondheim está neutralizada y si las condiciones meteorológicas
+lo permite, se debería realizar un asalto aéreo allí.
+
+11.12 OPERACIONES DE PORTADORES ANTIAÉREOS: El principal poder de ataque del
+La flota de la OTAN reside en sus grupos de batalla de portaaviones.  Aunque el soviético
+La flota de superficie es impresionante, no es rival para los 4-5 portaaviones.
+que el jugador de la OTAN puede reunir.  El jugador soviético tendrá que confiar en su
+submarinos y bombarderos terrestres para contrarrestar a los portaaviones de la OTAN.  los transportistas
+están relativamente a salvo de ataques aéreos mientras permanezcan al oeste de Islandia.
+- Feroe - Reino Unido, sin embargo, tendrán que aventurarse hacia el norte en el
+Mar de Noruega si quieren apoyar la batalla terrestre en Noruega.  un viable
+La opción para el jugador soviético es sortear su clase CHARLIE, VICTOR y MIKE.
+submarinos, asígnales misiones en la sombra y úsalos para formar una barrera en el
+Brecha entre Islandia y el Reino Unido.  Un plan de empleo alternativo es enviar estos
+submarinos en una 'caza de portaaviones', persiguiendo agresivamente a los portaaviones basándose en
+informes de búsqueda aérea o de inteligencia.  Los cuatro misiles guiados clase OSCAR
+Los submarinos dispararon al noreste de las Islas Feroe en anticipación de la
+transportistas que entran en el Mar de Noruega.  Cuando los transportistas transitan hacia el norte, el
+El jugador soviético debería lanzar ataques masivos y coordinados contra ellos.  como un
+Como regla general, el jugador soviético necesitará comprometer entre 30 y 40 bombarderos por cada
+portaaviones enemigo dentro del alcance.
+
+11.13 DEFENSA DE LOS BALUARTES: Es esencial que se disponga de las fuerzas adecuadas.
+comprometido a defender los bastiones soviéticos SSBN.  Una posible defensiva
+Se describe el despliegue: Deben colocarse campos minados entre Groenlandia y
+El Cabo Norte de Noruega.  Un grupo de trabajo ASW con base en el porta-helicópteros BAKU
+deberían ser asignados para patrullar en el bastión del Mar de Barents y procesar activamente
+submarinos detectados allí.  Se deben entregar los submarinos AKULA y VICTOR III.
+Misiones ASW y enviadas a los bastiones del Océano Ártico y el Mar de Kara.  El TANGO
+Se debe ordenar a los submarinos diésel de clase para formar una barrera defensiva entre
+Múrmansk (M22) y Svalbard.  Se debe mantener una fuerza de reserva de 3 a 5 SSN
+el Mar de Barents. Estos SSN deberían utilizarse para aumentar las defensas en el Ártico
+bastiones del océano y del mar de Kara, si la OTAN logra hundir SSBN en esos
+áreas.
+
+11.14 OPERACIONES ANTISLOC: El éxito de la estrategia de avance de la OTAN
+La defensa depende críticamente del refuerzo y el suministro transatlánticos.  eso
+Se estima que deben llegar a Europa una media de casi 80 barcos al día
+para mantener el combate y apoyar a la población allí.  Sin refuerzo
+transporte marítimo, es posible que la OTAN no pudiera sostener los combates en Occidente
+Europa durante más de diez días.  Sin embargo, la opinión actual de Estados Unidos es que el
+La URSS otorga una prioridad relativamente baja a la misión anti-SLOC, esperando
+lograr una "victoria rápida" sobre el terreno.  Jugadores soviéticos que deseen representar.
+Este punto de vista debería asignar sólo a un puñado de los mayores VICTOR, CHARLIE,
+y submarinos TANGO a la misión Anti-SLOC.  Alternativamente, se puede intentar
+para demostrar que la sabiduría común está equivocada y "vaciar" todos los subs disponibles en el
+Rutas marítimas del Atlántico Norte.  Cuando juegas contra un oponente humano de la OTAN,
+Puede valer la pena sólo por ver su reacción.  Tenga en cuenta que Groenlandia
+guerras costeras, incluido el estrecho de Dinamarca entre Groenlandia e Islandia,
+están cubiertos de hielo.  Los submarinos en estas zonas no deben temer los ataques de minas ni
+Aviones ASW.  En consecuencia, este es un buen camino para que los submarinos tomen su ruta hacia
+las rutas marítimas del Atlántico.
+
+11.15 ATAQUES DEL SPETSNAZ: El objetivo más valioso para el SPETSNAZ es
+probablemente el sitio de OTH Radar en el Reino Unido. Un ataque exitoso allí hará que
+Los bombarderos soviéticos suponen una amenaza mucho mayor para los portaaviones estadounidenses.  el
+El siguiente objetivo más importante es la instalación SOSUS en Islandia.  Un operativo
+El sistema SOSUS es esencial para que los P3 en Keflavik se hundan con éxito
+Submarinos soviéticos.  Menos deseables son los ataques contra bases aéreas, que,
+en el mejor de los casos, destruir sólo unos pocos aviones en tierra.  Por supuesto, ¿debería ser así?
+una base aérea que será rápidamente atacada, esos pocos aviones no disponibles para
+La PAC podría resultar significativa. 
+
+11.16 ATAQUES CON MISILES DE ATAQUE TERRESTRE: A diferencia de los EE. UU., la Armada soviética ha
+No puso gran énfasis en el despliegue de misiles de crucero de ataque terrestre en el mar.  en
+En el juego, sólo los submarinos de clase SIERRA y YANKEE se consideran armados.
+con misiles de ataque terrestre.  A menos que se trate del nivel de conflicto 4, en el que la energía nuclear
+Se permiten ataques contra bases, solo el submarino clase YANKEE tiene suficiente
+misiles para hacer algo más que hostigar las bases aéreas de la OTAN.  Una táctica que
+ocasionalmente lo logra es usar los misiles del YANKEE para atacar una base aérea
+es decir, proporcionar cobertura de la PAC a los portaaviones de la OTAN.  Al mismo tiempo,
+ordenar un ataque coordinado contra el grupo de trabajo enemigo.  Si los LAM tienen éxito
+al suprimir la base aérea, entonces los portaaviones se encontrarán con
+sustancialmente menos PAC disponible.  Por otro lado, si los LAM no logran
+suprimir la base aérea, entonces los bombarderos pueden encontrarse en una situación
+situación incómoda (es decir, fatal).
+
+11.2 OPCIONES ESTRATÉGICAS DE LA OTAN: Aunque la actual doctrina estadounidense se concentra
+sobre avanzar contra las instalaciones navales soviéticas y los bastiones SSBN, la OTAN
+El objetivo principal del jugador es evitar la caída de Noruega y al mismo tiempo minimizar
+pérdidas para los portaaviones estadounidenses.  También es deseable mantener la Unión Soviética.
+submarinos lleguen a las rutas marítimas del Atlántico Norte y atriten a los soviéticos.
+Fuerzas SSBN.  Se proporciona la siguiente orientación para ayudar al actor de la OTAN
+lograr estos objetivos:
+11.21 OPERACIONES DE PORTAAVIONES: Mientras las bases aéreas de Kola
+tienen un gran número de bombarderos disponibles, las fuerzas de tarea de la OTAN no deberían aventurarse
+al este del eje Islandia - Feroe - Reino Unido, a menos que la fuerza incluya al menos
+2, y preferiblemente 3, portaaviones completos (es decir, estadounidenses).  Esto significa
+que un grupo anfibio soviético probablemente pueda llegar a Bodo, sin embargo,
+Es problemático si Bodo caerá en un asalto anfibio.  En cualquier caso,
+El jugador de la OTAN podrá formar una fuerza de batalla de cuatro portaaviones a tiempo para
+evitar el colapso total de Noruega.  Espere encontrar submarinos sustanciales
+y oposición de bombarderos cuando operan en el Mar de Noruega.  Si SOSUS y el
+La base aérea de Keflavik está operativa, sería prudente retrasar su llegada a Noruega.
+ayuda, permitiendo así que los P-3 puedan desgastar tantos submarinos soviéticos como sea posible.
+Cualquier grupo de trabajo soviético que se encuentre debe ser atacado antes de que pueda atacar.
+entren dentro del alcance del SSM.  Una vez que se estabilice la situación en Noruega, un uming
+los portaaviones no han sufrido demasiadas pérdidas, los grupos de trabajo de la OTAN pueden
+salida al norte para atacar las bases aéreas soviéticas en la península de Kola y Svalbard.
+Sin embargo, esto debe hacerse con extrema precaución, ya que un gran número de
+Los combatientes tienen su base en los aeródromos de Kola.  Estos cazas pueden escoltar a Badger.
+y bombarderos Backfire a distancias significativas, neutralizando así el
+CAP de los portaaviones y permitir a los bombarderos lanzar ASM contra las fuerzas de tarea.
+
+11.22 OPERACIONES SUBMARINAS: Los submarinos de la OTAN y otras fuerzas ASW deben ser
+Asignó cuatro tareas principales: 1) Limpiar el Mar de Noruega de enemigos.
+submarinos y evitar que los submarinos enemigos lleguen al transporte marítimo del Atlántico.
+carriles; 2) Atacar los bastiones soviéticos SSBN; 3) Involucrar a los grupos de trabajo soviéticos,
+especialmente aquellos que contengan buques anfibios; y, 4) Lanzar un ataque terrestre.
+misiles de crucero contra las bases aéreas de Kola.  El actor de la OTAN debería rápidamente
+Buscan establecer una barrera antisubmarina en la brecha entre Groenlandia entre Islandia y el Reino Unido.
+que consta de una combinación de submarinos (clases STURGEON y UPHOLDER) y
+campos minados.  Una vez que la barrera submarina esté en su lugar, se podrá mover gradualmente.
+hacia el norte para limpiar el Mar de Noruega de submarinos soviéticos en preparación
+para que los grupos de trabajo de la OTAN se trasladen para apoyar a Noruega.  LOS ÁNGELES y TRAFALGAR
+Los submarinos de clase deben transitar inmediatamente a las áreas de bastión soviético SSBN.
+Sólo deberían detenerse para atacar a las fuerzas de tarea soviéticas que se encuentren en el camino. esos
+Los submarinos de clase LOS ANGEL que están equipados con TLAM de lanzamiento vertical deben
+concentrarse en el bastión del Mar de Barents, para poder atacar
+las bases aéreas de Kola con poca antelación.
+
+11.23 ATAQUES CON MISILES DE ATAQUE TERRESTRE: El jugador de la OTAN disfruta de una considerable
+ventaja en sus misiles de ataque terrestre (TLAM-C y TLAM-N).  La mayor parte de los EE.UU.
+Los submarinos y muchos de los barcos de superficie estadounidenses llevan LAMS, y algunos de los LOS
+Los submarinos ANGELES y los destructores SPRUANCE están muy fuertemente armados.  La OTAN
+El jugador debe resistir la tentación de revocar los aeródromos de Kola, por el
+Los efectos de los ataques con misiles son sólo temporales.  Lo mejor es esperar hasta que
+Los grupos de portaaviones están listos para salir al Mar de Noruega antes del lanzamiento.
+misiles.  Al eliminar una o más de las bases de Kola, TLAM efectivo
+Los ataques pueden frustrar los planes soviéticos de lanzar ataques masivos con bombarderos contra
+los transportistas estadounidenses.  Tenga en cuenta que se deben lanzar entre 15 y 20 TLAM (convencionales)
+en una base aérea para tener una buena posibilidad de dejar el campo fuera de operación.
+
+11.3 ATAQUES AÉREOS: Aunque es difícil rechazar la oportunidad de lanzar un
+ataque aéreo, muchos ataques pequeños pueden costar caro en términos de desgaste de aviones, mientras que
+obteniendo sólo resultados limitados.  Ambos jugadores deben estar dispuestos a ser pacientes,
+Aumentar el número de aviones Ready para permitir un ataque abrumador.
+contra un objetivo valioso.  Los ataques aéreos son notablemente poderosos cuando se usan en
+masa ya que tienden a abrumar incluso a los sistemas de defensa más capaces.
+Sin embargo, las pérdidas de aviones serán cuantiosas y el suministro de F-18, A-6,
+Badgers, and Backfires no es infinito.  El jugador soviético en particular
+Debemos ser conscientes de que para llegar a las fuerzas de tarea de la OTAN más allá de Islandia - Islas Feroe -
+Eje del Reino Unido, sus bombarderos tendrán que afrontar una serie de ataques desde tierra enemiga.
+interceptores basados.  Esto es aún más mortal cuando el sitio de radar OTH de la OTAN
+proporciona una alerta temprana de los bombarderos que se aproximan.  Cuando CAP involucra múltiples
+oleadas de bombarderos entrantes, la primera oleada en llegar sufrirá la mayor cantidad de pérdidas
+y las oleadas posteriores tendrán más probabilidades de alcanzar sus objetivos.
+Finalmente, tenga en cuenta que el A-12 (avión táctico avanzado) del jugador estadounidense y
+F-23 (Advanced Tactical Fighter) incorpora tecnología Stealth y por lo tanto
+Será mucho más difícil derribar con armas aire-aire o tierra-aire.
+
+11.4 ALCANCE DE ARMAS: Los siguientes alcances (dados en millas náuticas) se aplican a
+los aviones y misiles de la FLOTA NORTE: Harpoon y SS-N-22 SSM (70
+nmi); SSM Tomahawk, SS-N-12 y SS-N-19 (250 millas náuticas); TLAM convencional,
+Misiles SS-N-21 y SS-N24 (250 millas náuticas); TLAM nuclear, SS-N-21 y SS-N-24
+misiles (1500 millas náuticas); Aviones F-16, Harrier y Forger (250 millas náuticas); P-3C,
+Aviones Bear-D, Badger y Backfire (1500 millas náuticas); todos los demás aviones (500 millas náuticas,
+excepto que CAP está limitado a 250 millas náuticas).  Tenga en cuenta que después de que comiencen las hostilidades,
+Los aviones de patrulla P-3C y Bear-D evitarán las zonas oceánicas que estén dentro de su alcance.
+de intercepción CAP enemiga.
+
+11.5 EMCON: La forma más segura de hacerle saber al enemigo dónde están tus fuerzas es
+para permitir que el nivel EMCON de un grupo de trabajo caiga a cero.  Cada vez que el jugador
+se comunica con un grupo de trabajo (para darle órdenes, etc.) su nivel EMCON es
+reducido en un 10 por ciento.  Porque un grupo de trabajo primero debe ser detectado antes de que
+puede ser atacado, el jugador inteligente intentará mantener el silencio de radio excepto
+cuando sea absolutamente necesario.
+
+11.6 ESCALADA DEL NIVEL DEL CONFLICTO: Cada turno cada jugador tiene la oportunidad
+recomendar una escalada del conflicto más allá de los niveles más altos de los turnos anteriores.
+nivel.  Además de las fuertes penalizaciones en puntos de victoria, existen otras
+Desventajas de la escalada impulsiva.  No es prudente empezar la guerra antes
+Tus fuerzas están listas.  Por otra parte, retrasar demasiado puede permitir que los soviéticos
+submarinos entren libremente en las rutas marítimas del Atlántico o submarinos de la OTAN para
+posicionarse en los bastiones soviéticos.  Escalando hacia la energía nuclear táctica
+La guerra beneficia principalmente al jugador soviético, ya que la OTAN tiene muy pocos
+armas nucleares en sus fuerzas navales (las armas nucleares se indican mediante un
+'(N)').  Los misiles nucleares de ataque terrestre sólo se pueden utilizar durante el período operativo.
+Guerra Nuclear, que puede resultar en una Guerra Nuclear Global y un desastre prematuro.
+final del juego.
+
+J. Baker, S. Newberg y W. Nichols

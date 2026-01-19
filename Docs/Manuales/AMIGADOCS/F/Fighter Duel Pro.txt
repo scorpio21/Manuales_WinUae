@@ -1,0 +1,233 @@
+                               Fighter Duel
+                                Short Docs
+
+                    Typed by:  Perpetual Demise/ORACLE
+
+
+The Fighter Duel Menu
+
+
+The Fighter Duel menu follows the standard conventions for an Amiga menu.  Hold
+down the right mouse button to display the menu headings along the menu bar at 
+the top of the screen.  Move the mouse pointer over a heading and the items
+belonging to that menu will appear in a column beneath the heading.  Some items
+have a ">>" to their right indicating that these items have submenus associated
+with them.  These submenus are displayed to the right of the item when the mouse
+pointer is placed over the item.  To make a selection, place the mouse pointer 
+on the item, which will highlight it, then release the right mouse button.  
+Selected items have check marks to the left of them.  Items that are not
+available are ghosted.
+
+The flow for making selections from the different menus is from left-to-right.
+The default items will already have check marks.  Starting on the left, PLAYER
+MODE menu will have ONE PLAYER option checked.  Next over, in the PLAYER OPTIONS
+menu, the MISSION item will have the TRAINING option checked.  In the AIRCRAFT
+menu, the FRIEND item which corresponds to the aircraft that you will fly, has
+the CORSAIR option checked, and the FOE item, the enemy aircraft, has the ZERO
+option checked.  In one-player mode, the two-player items, MODEM, LOCALE, and
+START, in the PLAYER OPTIONS menu are ghosted. 
+
+The menu on the far right is named CONFIG.  The COLORS item will display the
+COLORS screen, which will allow you to fine tune many of the screen colors used
+in the actual flight part of the program.  This is necessary because of the 
+marked shade variation that exists among monitors displaying a high-resolution,
+interlaced screen.  To help in the selections, the top two-thirds of the COLORS
+screen is a combination of various scenes from Fighter Duel.  The lower third
+contains eight color squares plus three selector buttons.
+
+The color squares represent the eight alterable colors.  Default shades are 
+either the Fighter Duel defaults or a set saved earlier using the SAVE option
+(see below) in the CONFIG menu.  The shades can be cycled by clicking the mouse
+pointer on the square or on a part of the Fighter Duel scene where color
+appears.  Labels above the squares refer to objects of that color in the scene.
+Only a portion of the brown carrier deck can be seen in the lower left-hand
+corner of the scene.  Numbers below the squares identify the shade; some colors
+have only 2 shades.  The Fighter Duel default shades can be restored by clicking
+the DEFAULT button.
+
+When the shade selections are completed, click on the USE button to use these
+shades in the pending flight and return to the Fighter Duel menu screen.  Click
+the CANCEL button at any time to return to the Fighter Duel menu screen without
+affecting the color selections.
+ 
+The second item in the CONFIG menu is SAVE.  SAVE will save to disk the current
+settings of PLAYER MODE, PLAYER OPTIONS, AIRCRAFT, and COLORS.  The next time
+Fighter Duel is run, these settings will be loaded automatically.  You can
+return to the original Fighter Dueal default settings, including COLORS, by
+selecting the DEFAULT item, the last item in the CONFIG menu.
+
+
+Aircraft Controls
+
+
+The mouse and joystick are used to control all flight and systems operations;
+there are no keyboard equivalents.  Fighter Duel supports both digital and
+analog-type joysticks.  Each provides quick response and accurate control, but
+there are fundamental differences in the methods by which they affect the
+aircrafts's movement.  The descriptions below may help you decide which stick 
+you will want to use.
+
+Aileron control with the digital stick is left stick for left roll and right
+stick for right roll.  Continuous stick pressure will cause the aircraft to roll
+with increasing rate until the stick is brought back to the center position, 
+which stops the roll and maintains the angle of bank.
+
+Elevator control is back stick for increased pitch or nose-up attitude, and 
+forward stick for decreased pitch or nose-down attitude.  The angle of attack
+indicator on the instrument panel will show a positive value for nose-up and a
+negative value for nose-down attitudes.  Returning the stick to the center 
+position will stop the change and maintain the elevator and the angle of attack
+of the aircraft in the airstream at their current angles.  This will also keep
+the aircraft at it's current angle of pitch.
+
+Trim tabs are used to stabilize excess roll and pitch that would otherwise
+require constant stick movements to keep the aircraft straight and level.  Trim
+with the digital joystick is accomplished by holding the left mouse button down
+while moving the stick in the direction trim is required.  The effect is
+cumulative so that the longer the stick is held in a direction the greater the
+amount of trim.  There is no trim indicator in Fighter Duel.
+
+Aileron control with the analog stick is left stick for left roll and right
+stick for right roll.  The further from the center the stick is moved, the 
+greater the rate of roll.  Returning the stick to the center position stops the
+roll and maintains the angle of bank.
+
+Elevator control is back stick for increased pitch or nose-up attitude, and 
+forward stick for decreased pitch or nose-down attitude.  The angle of attack
+indicator on the instrument panel will show a positive value for nose-up and a
+negative value for nose-down attitudes.  The further from the center the stick
+is moved, the greater the angle of attack of the aircraft in the airstream.
+Returning the stick to the center position will return the elevator to it's 
+center position and cause the angle of attack to return to zero.
+
+The operation of the analog stick is identical to that of the control stick in 
+an actual aircraft.  The desired roll rate and pitch can be set instantaneously.
+Also, the analog stick will have fine-adjustment wheels for trim adjustment.
+
+The joystick fire button is involved in the operation of three flight systems:
+armament, glide-slope indicator, and brakes.  With the left mouse button down, 
+the fire button will alternately arm and disarm the guns.  When a black gunsight
+appears in the center of the display, the guns are armed and the fire button
+will fire the guns.  The guns cannot be armed in the vicinity of the carrier.
+Instead, pressing the fire button and the left mouse button will display a grey
+gunsight that functions as a glide-slope indicator.  Finally, the fire button
+will activate the brakes independently of the other systems.
+
+In the NO-BUTTONS mode, the mouse is moved without pressing the buttons.  Left
+and right mouse movement controls the rudder; forward and back movement controls
+the throttle.  The relative position of the rudder is give by the vertical bar
+in the turn and bank indicator.  Left rudder will move the bar to the left and
+cause the aircraft to yaw to the left.  Right rudder will move the bar to the
+right and cause the aircraft to yaw to the right.  (Yaw is the turning of the
+aircraft about it's vertical axis.)  The position of the throttle is reflected
+in the rpm reading of the tachometer.  Moving the mouse to a full-back position
+will close the throttle and idle the engine at 700 rpm.  Moving the mouse to a
+full-forward position will open the throttle and increase engine rpm to around
+2700.  The propellor governor is set to MAX rpm.
+ 
+Pressing the left mouse button allows instrument panel selections as well as gun
+arming and trim tab input.  Pressing this button will display a yellow selector
+arrow on the instrument panel.  Moving the mouse will move the arrow.  The arrow
+controls the lowering and retracting of the landing gear and hook, which are 
+positioned on the left end of the panel, and of the flaps, on the right end.
+Place the arrow over the object and move the arrow downward for extension and
+upward for retraction.  Remember, the hook cannot be lowered until the gear are
+fully down, and gear cannot be retracted until the hook is raised.  Also, while
+the left mouse button is held down, the return heading to the carrier is written
+over the fuel gauge at the lower-right corner of the instrument panel.
+ 
+Pressing the left button and the joystick fire button will toggle on and off the
+cross hair in the center of the display screen.  Away from the carrier, this
+will also toggle the arming of the guns.  Pressing the left button and clicking
+the digital joystick will accumulate aileron and elevator trim.
+ 
+Pressing the right mouse button enables panoramic viewing that imitates the
+pilot's ability to look side-to-side and up and down.  Pressing this button will
+display an orienting arrow at the bottom center of the view.  The color code of
+left-half yellow and right-half red indicates the view is straight ahead.  
+Moving the mouse to the right will pan to the starboard or right side of the
+aircraft.  When looking 90 degrees to the right, the arrow is full red.  The
+view can be panned further to the right until the left-half red, right-half
+yellow arrow appears indicating a full-rear view.  Moving the mouse to the left
+will pan back to the normal view and continue past the full left view with it's
+yellow arrow to the full-rear view.
+
+Back movements of the mouse will pan the view upwards in the same sense that
+back movements of the joystick will produce a nose-up attitude.  Accordingly,
+moving the mouse forward will pan the view downward.  When panning upwards do
+not pan beyond the vertical view or the view will automatically pan back to the
+normal view.
+
+Side-to-side and up-and-down panning can be combined.  Releasing the right
+button will automatically pan back to normal view.  Panning the view is not
+allowed in extreme nose-up or nose-down attitudes in which the horizon is not
+visible on the screen.  Pressing the right button in these situations will
+display the orientation arrow but movements of the mouse will be ignored.  Also,
+if the aircraft attitude becomes extreme while the view is being panned then the
+view will automatically pan back to normal.  While the right button is pressed
+the guns and aileron controls are temporarily disengaged but the elevator
+control continues to function.
+ 
+Holding both mouse buttons down will pause the program at any time other than
+while in two player mode.  Upon releasing both mouse buttons the program will
+remain paused and a set of four option buttons and a selector arrow will appear
+on the instrument panel.  Placing the arrow over a button and pressing the left
+mouse button will highlight the button, and then releasing the mouse button will
+select the option.  To unpause, select either the RESUME TRAINING or RESUME
+COMBAT buttons.  If the aircraft is stationary on the carrier deck, either
+mission may be chosen.  (Pressing the fire button on the deck will activate the
+brakes and ensure that the aircraft is stationary.)  If the aircraft is in
+flight, only the current mission type may be selected.  The CENTER STICK button
+will center the analog stick at the moment when the left mouse button is
+released.  The RESET button will reset the program and the aircraft will begin
+again on the carrier deck.
+
+
+Two Player Mode
+
+
+Two nearby machines can be connected directly at their serial ports using a
+null-modem cable.  Null-modem cables are available from your local computer
+hardware retailer.  Before making the connection, make sure that the null-modem
+cable is of the correct gender for the serial port connection on your machine.
+Remember that the serial port connection on the Amiga 1000 is of opposite gender
+to that on other Amiga models.
+ 
+Two machines can also be linked by modems via a telephone line.  Fighter Duel
+requires and external, Hayes-compatible, 1200 or 2400-baud modem.  Follow the
+directions included with the modem for connecting the modem to the computer and
+the telephone line.  In addition, it is necessary that a telephone be connected
+directly to the modem.  Before running Fighter Duel, manually dial your opponent
+on this telephone and establish voice communication.
+ 
+Before either player presses the BEGIN FLIGHT button, both players must select a
+set of parameters in the Fighter Duyel menu.  You and your opponent will have
+voice communication at this time and should discuss and agree upon your
+respective selections.  It should also be noted that in two-player mode the
+program begins with the aircraft in full flight.
+ 
+Begin by selecting the option TWO PLAYER in the PLAYER MODE menu.  Then move to
+the PLAYER OPTIONS menu.  The first item is MODEM TYPE with options null modem,
+for two machines connected directly by a null-modem cable, or the two possible
+baud rates, 1200 or 2400, for two machines connected by modems and a telephone
+line.  If both modems are 2400 baud, then both players should select 2400.  If 
+one or both modems are 1200 baud then both players must select 1200.  The modem
+type must be the same for both players. 
+
+Next, the item LOCALE is set to either the arch, the towers, or the islands.
+The LOCALE also must be the same for both players.  Finally the item START is
+set to either NORTH or SOUTH, refering to the northern or southern perimeters of
+the locale.  Your selection must be different from that set by the other player.
+The program will halt if the same START is selected by both players.
+ 
+Move to the AIRCRAFT menu and set FRIEND to the aircraft that you will fly, and
+set FOE to the enemy aircraft.  Of course, one player's FRIEND must be the
+second player's FOE and vice-versa.  This concludes the menu selections.
+ 
+When you and your opponent have finished with the selections, together press
+your respective BEGIN FLIGHT buttons and the program will then attempt to make a
+modem connection.  If succesful, the program will load from the floppy or hard
+drive; in the case of the hard drive this could be just a couple of seconds.  If
+you have Fighter Duel installed on hard drive and your opponent is running off
+floppy then you will have to wait with a blank screen during the time the floppy
+loads on the other end.

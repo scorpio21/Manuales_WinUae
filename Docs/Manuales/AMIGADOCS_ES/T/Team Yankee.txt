@@ -1,0 +1,1779 @@
+------------------------------------------------------------------------------
+                 |                                         |  
+                 |          EQUIPO Y A N K E E | 
+                 |                                         |  
+                 |       GUÍA DEL USUARIO |                                          
+------------------------------------------------------------------------------
+                    
+                       A RECONOCIMIENTO DE G E M E N T S
+    
+         Amiga y Atari ST Steven W. Green
+         Implementación Richard T. Horrocks
+  
+         Conversión de PC IBM La línea de montaje
+  
+         Diseño Gráfico Kevin R. Ayre
+  
+         Gráfico de adición Gareth B. Williams
+         Diseño
+  
+         Secuencia de carga Richard L. Yapp
+         Diseño John G. Madera
+  
+         Diseño adicional Peter Hellings
+                                                   David Pringle
+    
+         Documentación Antony J. Bond
+         Diseño y Composición Tipográfica + [RYGAR]
+  
+         Documentación adicional Marisa H. Pauwels 
+         Diseño y [RYGAR] 
+  
+         *ESCRIPCIÓN ASCII* [RYGAR] (¡¡GUAU! ¡¡¡SÍ!!!)
+  
+        Team Yankee, el juego de ordenador, está basado en la novela Team Yankee de
+                  Harold Coyle, derechos de autor [c] 1987 Presidio Press
+ 
+             Publicación no autorizada y toda esa mierda está prohibida. 
+                                Todos los derechos reservados
+
+           Copyright del software [c] 1990 Oxford Digital Enterprises Ltd.
+
+                       Software publicado por Empire Software
+
+          Empire Software * 4 Los Stannets * Laindon North Trade Center
+         Basildon * Essex SS15 6DJ * Tel: 0268 541126 * Fax: 0268 541125
+------------------------------------------------------------------------------
+
+                                CONTENIDOS
+
+Figuras Figuras vii
+
+Prólogo Prólogo ix
+
+Capítulo 1 Configuración 1
+                                      Hacer una copia de seguridad 2
+                                      Cargando equipo Yankee 2
+                                      Uso de unidades de disco duro 3
+
+Capítulo 2 Controles 5
+
+Capítulo 3 La pantalla de inicio 7
+
+Capítulo 4 Identificación del vehículo 11
+
+Capítulo 5 La pantalla Breifing 13
+
+Capítulo 6 Las pantallas de juego 17
+                                      Vista de cuadrante 19 
+                                           Vista 3D del cuadrante 20
+                                           Mapa de cuadrantes 21
+                                           Cuadrante de Estado 23
+                                      Modo de pantalla completa 24
+                                           Vista 3D en pantalla completa 25
+                                           Vista de mapa en pantalla completa 26
+                                           Vista de estado de pantalla completa 28
+
+Capítulo 7 La pantalla informativa 29
+
+Capítulo 8 Tipos de vehículos 31
+                                      M-1 Abrams 32
+                                      M-113 33      
+                                      M-2 Bradley 34
+                                      ITV 35
+                                      T-62 36
+                                      T-72 37
+                                      BMP-2 38
+                                      BTR-60 39
+
+Capítulo 9 Organización estadounidense/soviética 41
+                                      Organización estadounidense 42
+                                      Organización soviética 43
+Capítulo 10 Cómo jugar Team Yankee 45
+                                      Escenario de entrenamiento 46
+                                      Estrategia 49
+                                      Rangos superiores 51
+                                      Terreno 52
+
+Glosario Glosario 53
+
+Símbolos militares de la OTAN [RYGAR] - ¡Es la imagen IFF, TIPO!
+
+------------------------------------------------------------------------------
+
+                                CIFRAS
+
+Capítulo 3 La pantalla de inicio 7
+                                Figura 3.0 La pantalla de inicio 8
+                                Figura 3.1 Menú de registro de jugadores 9
+                                
+Capítulo 4 Identificación del vehículo 11
+                                Figura 4.0 Pantalla de identificación del vehículo 12
+
+Capítulo 5 La pantalla informativa 13
+                                Figura 5.0 La pantalla Breifing 14
+                                Figura 5.1 La superposición de artillería 16
+
+Capítulo 6 Las pantallas de juego 17
+                                Figura 6.0 Pantalla Modo Cuadrante 18
+                                Figura 6.1 Pantalla del cuadrante del mapa 22
+                                Figura 6.2 Pantalla del cuadrante de estado 23
+                                Figura 6.3 Modo de pantalla completa 24
+                                Figura 6.4 Modo de estado de pantalla completa 28
+
+Capítulo 8 Tipos de vehículos 31
+                                Figura 8.0 M-1 Abrams 32
+                                Figura 8.1 M-113 33
+                                Figura 8.2 M-2 Bradley 34
+                                Figura 8.3 M-901 35
+                                Figura 8.4 T-62 36
+                                Figura 8.5 T-72 37
+                                Figura 8.6 BMP-2 38
+                                Figura 8.7 BTR-60 39
+
+Capítulo 10 Cómo jugar Team Yankee 45
+                                Figura 10.0 Mapa del escenario de capacitación 47
+
+[RYGAR] - Estas figuras no están en este archivo ASCII, debes entender que
+          Es imposible hacer figuras como tanques, mapas, etc., en ASCII.
+          ¡PERO, podría hacerlos en Deluxe Paint más tarde!  Si tienes alguna foto
+          junto con este doc, luego los hice!.. jeje [RYGAR] 901108
+
+------------------------------------------------------------------------------
+
+                                PRÓLOGO
+
+El trasfondo de los escenarios del juego de ordenador.
+La mentira del equipo Yankee en el libro del mismo nombre de Harold
+Coyle. Un bestseller número 1 del New York Times, Equipo 
+Yankee es LA novela definitiva sobre guerra de tanques. es la historia
+de una unidad de tanques del ejército estadounidense en Alemania durante la inauguración
+días de una tercera guerra mundial librada con armas convencionales.
+El héroe del libro es un capitán del ejército llamado Sean Bannon.
+que comanda una compañía de tanques reforzados con dos tanques
+pelotones y un pelotón de infantería mecanizada asistidos por
+vehículos antitanques. El nombre de esa empresa es Team. 
+yanqui.
+
+Al principio, Bannon y sus hombres se ponen en alerta tras un choque.
+de buques de guerra en el Golfo Pérsico: un eco escalofriante de la actual
+clima político mundial. (CLI-Mate? [RYGAR] HEE HEE) Hostilidades
+comenzará cuando los rusos ataquen a través de la frontera alemana. Bannon's
+esposa e hijos son evacuados apresuradamente de regreso a los Estados Unidos
+en medio de la confusión y el peligro. Nadie realmente creyó que
+esto podría pasar:
+
+       Tanto el coronel Reynolds como el capitán Ban- 
+       No se quedó allí paralizado, mirando
+       el punto donde los dos aviones rusos habían
+       desapareció valle arriba.   Bannon's
+       La mente estaba casi entumecida.  Siguió intentando
+       convencerse de que tal vez no lo habían hecho
+       Realmente he visto dos aviones rusos.   tal vez el
+estaba equivocado.  Tuvo que ser un error.
+       El pensamiento: "Realmente no podemos estar en guerra.
+       Eso no es imposible", siguió corriendo.
+       a través de su mente.
+
+Después de un largo día y una noche de espera, el segundo día de guerra
+ve cómo las fuerzas rusas del primer escalón se abren paso y entran
+el valle que defienden Bannon y sus tropas.
+
+Al comienzo de la Primera Batalla hubo una repentina
+Detonación en el pueblo del centro del valle:
+
+       "ROMEO 25 - ESTE ES MIKE 77 - INFORME SPOT
+       - 5 TANQUES T-72 MOVIENDOSE AL OESTE - GRID 190852
+       - CONTINUANDO OBSERVANDO - TERMINADO."   bannon
+       Giró su cabeza hacia la izquierda.   hubo
+       no es necesario utilizar un mapa.  solo habia uno
+       lugar donde estarían los rusos, y que 
+       Estaba entre los bosques a 2200 metros. 
+       lejos.....
+
+Team Yankee se desenvuelve bien en la siguiente acción y
+el ataque ruso es repelido. El equipo ahora está aliviado
+desde su posición, para que pueda encabezar una ofensiva hacia el
+norte, lo que lo llevará al flanco de la 28.ª Guardia Soviética.
+división. El movimiento hacia el norte, unas pocas millas al final del
+línea, se realiza en la oscuridad. Todos los C de apoyo
+La compañía se pierde en el camino, por lo que Bannon y sus hombres son
+obligado a lanzar un ataque a través del bosque hacia
+Arnsdorf sin ningún apoyo.
+
+       Mientras el equipo pasaba entre los dos árboles
+       líneas y descansó la pequeña colina, la
+       El terreno más allá se abrió ante él.  el
+       colina que era Objectuve LOG estaba directamente
+       de frente a unos cuatro kilómetros de distancia.  como
+       el Equipo salió de su última cobertura,
+       Todos los ojos en kilómetros a la redonda estaban
+       encendiéndolo. Las otras personas, los
+       Los soviéticos también observaron.  Los informes aparecieron
+       a sus comandantes.  Los artilleros derribaron 
+       sus latas de comida y se deslizaron a su posición.
+       Cargadores y portadores de munición preparados para
+       carga la siguiente ronda.......
+
+Después de una acción frenética, el Team Yankee corre hacia Objective
+Inicia sesión y corre hacia la colina 214, que domina Arnsdorf.
+Bannon intenta desesperadamente detener a su equipo por el
+radio, pero está fuera de servicio, y luego pierde su tanque cuando
+bueno.
+
+Finalmente, llega a la colina 214 en una PC. 
+para descubrir que el resto del equipo lo ha realizado con éxito. 
+Bannon decide que esta colina, ganada a tal coste, sería defendida
+de cualquier intento ruso de retomarlo hasta que llegue el apoyo. como
+Cuando cae la luz, el equipo ve una compañía rusa de fusileros motorizados.
+llegar a Arnsdorf. La defensa de la colina 214 ha comenzado. Cerrar
+A medianoche, los rusos inician un ataque en tres frentes contra la
+colina:
+
+       Dos de los BTR estaban empezando a disparar.
+       en el tanque de Bannon. Bannon decidió tomar
+       ellos primero.  Agarrando la anulación,
+       Giró la torreta hacia la izquierda.
+       "ARTILLERO - CALOR - DOS BTR - ¡BTR IZQUIERDO!"
+       "¡FUEGO!"
+       La primera ronda HEAT encontró su huella justo
+       debajo de la pequeña torreta del BTR.   el
+       Impacto y explosiones internas. 
+       provocó que el BTR girara hacia la izquierda y
+       fuera de la batalla.............
+       Kelp vio como una figura surgía de
+       La escotilla del T-72 y miró hacia atrás.
+       La torreta empezó a girar.
+       "¡MIERDA! ¡DATE PRISA O SOMOS CARNE MUERTA!" gritó
+       Algas.........
+
+Después de un encuentro nocturno muy reñido, el Team Yankee triunfa
+en rechazar todo lo que los rusos puedan lanzarles. como
+Al amanecer de la mañana siguiente, son relevados por A.
+Compañía de la 78.ª Infantería Mecanizada. equipo yanqui
+Ahora son el grupo de prestigio del batallón. Después de unos días
+descanso detrás de las líneas Bannon es informado de que su equipo debe
+Encabezar un avance de toda la brigada profundamente hacia el enemigo.
+territorio. Inicialmente esto los llevaría a un valle arbolado.
+Pasando la ciudad de Issel, hacia Korberg:
+
+       La repentina comprensión de que estaba
+       corriendo al lado de un tanque polaco
+       era adormecedor.   Era la sensación de
+orina ([RYGAR] - Urrk) corriendo por su
+       pierna que impulsó a Avery a entrar en acción.
+       Comenzó a girar la torreta y a emitir el
+       comando de fuego.     "ARTILLERO - BATALLA -
+       ¡TANQUE!"   El objetivo estaba tan cerca y el 
+       mira térmica tan uniformemente verde que
+       Tessman no reconoció el objeto en
+       su vista como un tanque... Avery disparó el
+       arma principal de su anulación sin
+       molestándose en bajar a su vista.  el
+       informe del arma de 21 y el impacto en
+       El objetivo era uno solo.  El T-55 se desvió
+       a la izquierda y empezó a arder.
+
+Después de algunos combates vigorosos y ataques desde lo más profundo
+el bosque, el equipo Yankee llega a la cima del primer
+valle, donde gira hacia el este pasando Langen. se vuelve
+claro que sólo han conocido los elementos principales de todo un
+brigada de tanques. El Mayor Jordan y Bannon se sientan a discutir
+cómo pueden posiblemente mantener su posición:
+
+       Después de estudiar el terreno, descubrieron
+       Maldijo las diversas formas en que los soviéticos
+       podría venir.  Ambos coincidieron en que
+       probablemente no intentarían escabullirse
+       por el bosque de nuevo. Lo más probable era que
+       Intentaría superar esta vez.
+       De ahí la creencia de la división y la brigada.
+       que usarían el Langen
+       Brecha.....
+
+El problema es que TÚ no tendrás al Mayor Jordan para ayudarte a decidir.
+En tu estrategia, en Team Yankee, el juego de computadora,
+nunca estaremos seguros de si los rusos van a seguir el juego
+el libro o no. Todos los escenarios anteriores forman el juego.
+vas a tener que dominar. Sólo hay una manera de encontrar
+averigua si estás a la altura o no.....
+
+------------------------------------------------------------------------------
+
+                                Configuración
+
+Hacer una copia de seguridad
+
+Haz una copia de tu disco de juego antes de intentar jugar.
+el juego. Antes de hacer una copia, asegúrate de que el juego
+El disco está protegido contra escritura mediante la conexión de una protección contra escritura.
+tira (disco de 5,25) o abriendo la muesca de protección contra escritura (disco de 3,5"
+disco). Utilice su copia mientras juega (asegurándose de que
+está habilitado para escritura, ya que la información se escribe en el disco
+durante la reproducción) y utilice únicamente el disco original para realizar
+copias adicionales. Si no está seguro de cómo copiar un disco, lea
+el manual de su computadora. (¿O tal vez usar copia X? [RYGAR])
+
+Cargando equipo Yankee
+
+PC IBM y compatibles
+
+Inserte el disco de su sistema operativo y espere hasta que vea el
+a> mensaje en su pantalla. Este juego realizará Blah, Blah.
+Lo siento, no estoy escribiendo más de esta tontería de IBM Pc... [RYGAR]
+
+Commodore Amiga (¡Esto es lo que QUEREMOS! [RYGAR])
+
+El rendimiento mejorará si desconecta todos los dispositivos externos.
+unidades de disco y periféricos y asegúrese de que no haya ningún otro software
+corriendo. Enciende tu computadora e inserta tu Copia (¡Crack!)
+del disco del juego Team Yankee en el indicador de Workbench.
+(Los usuarios de A1000 deben insertar primero su disco Kickstart). Después
+En unos momentos comenzará la secuencia de carga. si tu
+Si desea detener esto en cualquier momento, mantenga presionado el botón izquierdo del mouse.
+botón. Una vez que se haya completado la carga, serás
+presentado con una pantalla de archivo. Lea sobre cómo proceder
+en el Capítulo 3.
+
+
+Atari ST (¡Tampoco voy a escribir esto jaja, lo siento! [RYGAR])
+
+USO DE DISCOS DUROS
+
+PC IBM y compatibles
+
+(Omitido... [RYGAR])
+
+Comodoro Amiga
+
+Para obtener detalles sobre la instalación del disco duro, consulte el archivo Léame.
+archivo en el disco del juego. Para hacer esto, inicie con su modo normal.
+Disco del banco de trabajo y luego inserte el disco del juego y doble
+haga clic en el icono del disco TY y luego haga doble clic en el icono
+etiquetado Léame
+
+Atari ST
+
+(¡¡NEIN!!! Yo también me estoy saltando esta mierda... [RYGAR])
+
+------------------------------------------------------------------------------
+
+                                Controles   
+
+El juego está diseñado para ejecutarse mediante teclado, analógico.
+joystick o mouse compatible con Microsoft en la PC IBM. encendido
+Atari y Commodore Amiga, el juego se puede ejecutar
+usando el mouse o el teclado, aunque el control del mouse es
+recomendado. En la siguiente documentación las frases
+"haga clic en el icono X" y "presione fuego con el puntero sobre el icono
+X" son sinónimos y deben entenderse como:
+
+[a] Coloque el puntero sobre el icono X y presione la tecla de retorno.
+[b] Coloque el puntero sobre el icono X y presione el botón de disparo de
+palanca de mando (sólo IBM PC).
+[c] Coloque el puntero sobre el ícono X y presione el botón izquierdo del mouse.
+botón.
+
+Atajos de teclado
+
+Usar ciertos atajos de teclado en lugar de usar directamente
+el puntero puede convertirse en una forma rápida de realizar ciertas
+acciones, especialmente cuando no estás usando un mouse.
+
+Acción clave
+
+F1 o 1 Elige el pelotón 1                        
+F2 o 2 Elige el pelotón 2
+F3 o 3 Elige el pelotón 3
+F4 o 4 Elige el pelotón 4
+F7 o 7 Selecciona la vista del mapa para el pelotón elegido.
+F8 u 8 Selecciona la vista 3D para el pelotón elegido.
+F9 o 9 Selecciona la vista de estado para el pelotón elegido.
+F10,F0 o 0 Alternar entre mapa, 3d y estado
+                         vista para el pelotón elegido.
+Escape Alternar entre "Cuadrante" y "Completo"
+                         vistas de pantalla
+Eliminar Salir del juego
+Ayuda Pausar juego
+
+------------------------------------------------------------------------------
+
+                                La pantalla de inicio
+
+La primera pantalla del juego parece un archivador abierto.
+por la sencilla razón de que toda la información sobre su
+Se puede acceder al rendimiento desde aquí. La figura 3.0 muestra
+una representación de esta pantalla. En el frente de la presentación
+En el gabinete hay tres íconos que parecen etiquetas. el
+El ícono más a la izquierda es el ícono SALIR DEL JUEGO. Si haces clic en esto
+icono, se le pedirá que verifique si desea o no
+para salir del juego. El ícono del medio es el ícono de CRÉDITO,
+que proporciona información sobre los diseñadores del juego. tu
+También puedes elegir el idioma deseado para jugar, mediante
+haciendo clic en el icono de idioma en la parte inferior del crédito
+ventana. El ícono más a la derecha es el ícono PRÁCTICA, que 
+te permite jugar un escenario de práctica.
+Este escenario le familiarizará con el control del
+juego, sin forzar tu experiencia táctica. es altamente
+Se recomienda que intente dominar este escenario antes de
+antes de lanzarte a una guerra a gran escala. Si deseas
+practique, luego vaya al capítulo 5, que detalla la siguiente parte
+del juego. También hay detalles sobre la escena de práctica.
+nario en el capítulo 10 - Cómo jugar Team Yankee
+
+Hay ocho archivos disponibles en el archivador, y cada uno
+uno puede contener información sobre sus hazañas. cuando tu
+Por primera vez, comienza a jugar y tendrás el rango de privado.
+y el nombre predeterminado en el lado izquierdo de cada marcador de archivo
+es PFC. Banón. Sean Bannon es el personaje principal de la
+libro Equipo Yankee. En el lado derecho de cada archivo
+marcador verás los caracteres #1. Esto representa el
+Primer escenario o `capítulo' del juego. El juego tiene un total
+de cinco capítulos. Debes comenzar por el primero y solo
+se le permitirá avanzar al siguiente capítulo si está 
+victorioso en la previa. Si deseas comenzar a jugar
+correcto, entonces debes registrarte como nuevo jugador. a
+Para hacer esto, ubique el puntero sobre uno de los ocho marcadores de archivos.
+y presiona fuego. El archivo relevante ahora surgirá del
+gabinete, y se le presentará todo el archivo
+contenidos. Consulte la Figura 3.1 a continuación. (No incluido [RYGAR])
+
+Ahora puede escribir el nombre que desea utilizar en el área.
+en la parte superior del menú de registro. El programa se auto-
+agregue automáticamente todos sus registros de combate bajo este nombre
+en el archivador. Debajo de tu nombre verás
+su tasa de ataque en MATANZAS y PÉRDIDAS. Esto detalla el
+número de vehículos soviéticos que has inutilizado y el número
+de sus propios vehículos que se hayan perdido, respectivamente,
+bajo tu mando. En el medio del archivo se detalla el
+nombre del escenario, o "capítulo" que tendrá lugar si
+continúas en el juego. Al final del archivo hay
+tres iconos. Si seleccionas la opción JUGAR antes de que un nombre haya
+ingresado aparecerá un cuadro de confirmación solicitándole
+para registrar su nombre.
+
+El ícono más a la izquierda es el ícono PLAY que lo lleva al
+pantalla informativa para el primer escenario, descrito en el Capítulo 5,
+una vez que haya pasado con éxito la identificación del vehículo
+etapa, detallada en el Capítulo 4. No podrás jugar
+el juego hasta que hayas escrito tu nombre de juego. el
+El icono CANCELAR del medio hace que el archivo actual vuelva a
+el archivador. El ícono RESET más a la derecha hace que todos
+la información de la campaña bajo el nombre de archivo actual para ser
+erasedm en caso de que desees comenzar tu campaña de nuevo.
+Podrás tener la información de hasta ocho diferentes
+campañas almacenadas en su archivador. hemos hecho la vida
+fácil para usted escribiendo toda la información de su empresa a
+el archivador automáticamente al final de cada escenario
+completas exitosamente. Sólo puedes jugar un determinado
+escenario en cualquier momento como uno de los personajes en su archivo
+gabinete. Si tienes éxito en tu primera batalla, entonces tu
+El capítulo del escenario se incrementará en 1 y podrás
+proceder a la siguiente batalla.
+
+Hay cinco capítulos separados de la campaña Team Yankee.
+paign. Si logras tener éxito en toda la campaña entonces
+serás recompensado con un ascenso al siguiente rango de
+Cabo. Luego tendrás que volver a jugar cada uno de los cinco
+capítulos bajo su nueva y exaltada posición. Pero cuidado,
+porque a medida que avances, también las habilidades tácticas que tendrás
+implementar se vuelven más complejos y exigentes. tomará
+Éxito total en otras cuatro campañas cada vez más agotadoras. 
+hasta que puedas alcanzar el rango más alto de Capitán. Victoria en
+¡El Equipo Yankee no va a ser sencillo!
+
+------------------------------------------------------------------------------
+                         
+                            Identificación del vehículo
+
+[RYGAR] - Realmente no es necesario ya que estás jugando una versión crackeada, espero... ¡pero!
+          aquí va de todos modos:
+
+Si estás jugando el juego completo en lugar de la práctica
+escenario, entonces tendrás que sufrir los rigores de un vehículo
+clase de identificación antes de que se le permita acercarse a un tanque. el
+La pantalla mostrará el perfil de una OTAN o Varsovia en particular.
+Vehículo Pact, que deberás identificar haciendo clic en el
+nombre correcto del vehículo en el lado derecho de la pantalla.
+
+Se le mostrarán tres pantallas con perfiles de tres
+vehículos diferentes, y debes identificar los tres correctamente
+para proceder. Ver figura 4.0.
+
+NOTA: La pantalla de identificación del vehículo mostrará 10 vistas diferentes del
+      vehículo que debes identificar junto con una vista giratoria en el
+      centro.
+
+En el caos de la batalla es imperativo que puedas saber en cualquier momento
+un vistazo la diferencia entre un M113 y un BMP-1, si
+solo porque si disparas al equivocado estarás matando
+¡Hombres que están de tu lado! Si estudias la sección en 
+el manual sobre tipos de vehículos (capítulo 8), debería poder
+graduarse de la escuela de identificación de vehículos con vuelo
+colores!
+
+------------------------------------------------------------------------------
+
+                             La pantalla Breifing
+
+La pantalla informativa, que se muestra en la figura 5.0, presenta todos los
+información que está disponible en inteligencia para su
+próximo escenario, y también le permite configurar artillería
+bombardeos cuando corresponda. El nombre del cuarto
+El próximo compromiso se muestra en la parte superior central de la pantalla.
+
+En la parte central de la pantalla, a la izquierda, verás un completo
+mapa del campo de batalla. Esto muestra todas las características principales,
+bosques, caminos, ríos y pueblos. También muestra la disposición
+ción de tus fuerzas para el inicio de la batalla.
+
+Cada pelotón del Equipo Yankee está representado por un estadounidense.
+puede marcar. También hay una superposición en el mapa que es
+mencionado en el texto informativo. A la derecha del mapa hay un
+cuaderno, que detalla toda la información importante
+que la inteligencia puede proporcionar antes de la batalla. usted puede
+hojee este cuaderno haciendo clic en las flechas en la
+parte inferior o superior de cada página, cuando corresponda. hay
+nada que le impida leer el cuaderno mientras
+tantas veces como quieras. Debajo del mapa verás
+muestra la hora de inicio de la batalla en una pantalla LCD en el
+parte inferior de la pantalla.
+
+El ícono de espadas cruzadas te llevará a la batalla total.
+Después de hacer clic en esto, se le pedirá que confirme.
+que deseas ir a la batalla. Asegúrese de que esté completamente
+preparado!
+
+El icono del cuaderno reactiva el cuaderno si tiene
+activó previamente uno de los dos iconos siguientes. Esto contiene
+su informe de la sede de la empresa basado en toda la información conocida.
+información antes de su compromiso.
+
+El icono del ojo (o información) es una característica especial que
+le permite obtener más información del mapa. cuando
+estás en modo información coloca el puntero sobre el
+mapa, y notarás que cambia de forma a un cursor.
+Si hace clic en cualquier punto, notará que un cuadro parpadeante
+aparecerá en el mapa. Este cuadro aparece en el punto más cercano.
+de especial interés en relación con la posición del cursor. el
+El bloc de notas ahora mostrará la información particular sobre
+esta posición en el mapa. Descubrirás hechos importantes 
+relacionados con su pelotón y la topografía local cuando usa
+esta característica. Alternativamente, ahora que estás en información
+Modo, puedes buscar todos los puntos especiales de interés simplemente
+haciendo clic hacia arriba o hacia abajo en el bloc de notas. cuando llegues
+a una nueva página, el nuevo punto de interés parpadeará en el mapa.
+
+El icono del cañón te permite configurar bombardeos de artillería en
+avance de la batalla. No puedes acceder a la artillería.
+durante la batalla misma. Se le permitirá crear un
+número de descargas separadas de HE (alto explosivo), 
+DPICM (municipio convencional mejorado de doble propósito)
+ciones) y proyectiles de HUMO. Ver figura 4.1
+
+La disponibilidad precisa de artillería dependerá de su
+escenario y rango. Los detalles precisos de cada bombardeo que
+que configuraste para la batalla puede variar en las superposiciones que
+Aparece en el bloc de notas una vez que hayas hecho clic en el cañón.
+icono.
+
+Al presionar cualquiera de las dos flechas al lado del temporizador en el
+superposición, puede modificar la hora de inicio de un bombardeo en particular.
+Al hacer clic en la cruz roja se detiene el bombardeo.
+lugar. La ubicación de un bombardeo en particular se muestra mediante un
+cuadrado amarillo parpadeante en el mapa. Esta ubicación puede ser
+cambiar moviendo el cursor sobre el mapa y haciendo clic en
+la posición deseada. En niveles más bajos de rango, a menudo
+encontrar que la artillería no está disponible o está preestablecida en una posición útil
+valor. Para más información sobre la artillería disponible
+tipos, lea el glosario al final del manual.
+
+------------------------------------------------------------------------------
+ 
+                           Las pantallas de juego
+
+Team Yankee es único, ya que el juego no sólo permite al
+control total del jugador sobre cada uno de los cuatro pelotones del equipo,
+pero puede mostrar las acciones de los cuatro pelotones simultáneamente.
+iosamente! Esto significa que tienes acceso a los 16 vehículos en
+el equipo, y tendrás que llegar a ser competente en
+gestionando todos ellos. Team Yankee está diseñado para poner a prueba tu
+habilidades tácticas y de liderazgo al máximo. Puedes mostrar
+en cualquier "modo cuadrante", como se muestra en la figura 6.0, donde todos
+Se pueden controlar cuatro pelotones a la vez, o "pantalla completa".
+modo", que se muestra en la figura 6.3, donde la pantalla se centra en
+solo un pelotón.
+
+Tiene la flexibilidad de mostrar un mapa aéreo
+vista de los alrededores, una vista simulada en 3D del
+campo de batalla, o una pantalla de estado que muestra el desempeño de todos
+vehículos en un pelotón. Independientemente del modo de pantalla que
+elegir durante la batalla, hay una columna constante de información.
+ción a la derecha de la pantalla.
+
+Justo debajo del logo del Team Yankee hay una bandera blanca, o
+icono SALIR del juego, que te permite salir de la batalla. tu
+Se le pedirá que confirme esta decisión antes de que pueda renunciar.
+
+A la derecha está el ícono PAUSA del juego, que te permite
+tómate un descanso o respira durante la batalla. Debajo
+encontrará la pantalla HORA, que muestra la hora en
+horas, minutos y segundos en un reloj de 24 horas. deberías
+Esté atento a esto para observar los próximos ataques de artillería o
+cuando su escenario implica una fecha límite. Debajo del reloj
+hay dos histogramas de FUERZA encabezados por el ruso
+y banderas estadounidenses, que muestran las fortalezas relativas de
+los dos bandos, calculados según las bajas y la moral
+factores. En la parte inferior de esta columna verá su
+RANK se muestra gráficamente, esto obviamente difiere según
+llegar al rango que has alcanzado. A lo largo del fondo del
+pantalla hay una sola línea de texto que mostrará cualquier información vital
+información importante. Se le informará sobre las próximas
+ataques de artillería, bajas en tu equipo o golpes al enemigo
+caballería.
+
+Vista de cuadrante
+
+Cuando entres por primera vez al juego estarás en el "cuadrante
+modo", donde la parte activa de la pantalla se divide en cuatro
+Secciones relacionadas con cada uno de los cuatro pelotones del equipo.
+yanqui. La fila superior de iconos en cada cuadrante le permite
+para alterar lo que se ve en la pantalla; consulte la figura 6.0. el
+El ion más a la izquierda ampliará la vista de ese pelotón en particular.
+ocupar la mayor parte de la pantalla; en este "modo de pantalla completa"
+Se le ofrecerán funciones adicionales, pero no podrá verlas.
+toda la acción. En el medio está el nombre del pelotón.
+mostrado. A la derecha hay tres iconos. El icono del mapa
+cambia la vista a un cuadrante del mapa con una vista en planta del
+campo de batalla. El icono de vista 3D cambia la vista a 3D.
+Simulación del campo de batalla. El icono de estado cambia el
+ver una pantalla de estado. El icono correspondiente a la
+El modo de visualización actual está sombreado en amarillo. Detalles del capítulo
+cómo acceder a estas funciones mediante el teclado.
+
+Vista 3D del cuadrante
+
+Cuando la vista en un cuadrante es la visualización 3D, entonces bajo
+Debajo verás los siguientes iconos:
+
+Dos flechas rojas que forman un icono de rotación, lo que permite
+jugador para rotar la vista en el sentido de las agujas del reloj o en el sentido contrario a las agujas del reloj
+360 grados. Esto equivale a girar la torreta del arma.
+NO PERMITE ALTERAR LA DIRECCIÓN EN
+QUE ESTÁS VIAJANDO. Entre las dos flechas de rotación se encuentran dos 
+brújulas: la brújula superior (roja)
+muestra la dirección en la que usted (es decir, la torreta) está
+frente; la brújula inferior (verde) muestra la dirección en
+hacia el que se enfrenta el vehículo. Si haces clic en la parte central
+de la brújula, entonces su vista girará hacia la
+dirección en la que viaja.
+
+A la derecha de las brújulas hay cinco iconos que representan
+los distintos tipos de armamento disponibles para la unidad. Haga clic-
+ing en cualquiera de estos es equivalente a un comando al cargador
+para cargar un shell en particular. Cuando se selecciona el shell, el icono
+hace clic (como un botón) y cuando se carga el icono se ilumina
+arriba. También escucharás una señal cuando el arma esté disponible.
+para disparar. Los tiempos de carga de armas reflejan con precisión la
+Tiempo que tarda un vehículo en rearmarse en batalla. Ver Capítulo
+8 para más detalles. Una vez que un arma está completamente cargada, el puntero
+se convierte en un conjunto de miras cuando se mueve sobre la pantalla 3D.
+Al hacer clic en un punto particular del paisaje se accede a la
+El proyectil apunta a ese punto (con algunos puntos predeterminados).
+factores de inexactitud). Los cinco tipos de armas disponibles, desde
+de izquierda a derecha, son:
+
+CALOR: una bala antitanque altamente explosiva (ver glosario);
+SABOT: un proyectil de tungsteno perforante (ver glosario);
+TOW: un misil antitanque de alto alcance (ver glosario y
+tenga en cuenta en particular que esto sólo puede activarse cuando su 
+el vehículo está ESTACIONARIO);
+HUMO: una granada de humo que permite que la visión del enemigo
+estar oscurecido (ver glosario);
+AMETRALLADORA: que siempre está disponible para el jugador.
+y tiene un número "infinito" de rondas (ver glosario).
+
+La mayoría de los pelotones no tendrán todos los tipos de armas disponibles (por ejemplo).
+Por ejemplo, el tanque M1 no lleva misiles TOW). si un
+arma no está disponible entonces ese ícono en particular no será
+mostrado.
+
+Una vez que el pelotón no tenga más proyectiles cargados de un determinado
+tipo habrá un retraso antes de que sea posible usarlos
+nuevamente, según los tiempos de recarga de tus armas.
+
+El funcionamiento de todas estas pantallas es "no modal". esto
+significa, por ejemplo, que mientras estás esperando uno
+pelotón para cargar su armamento, eres libre de hacer lo que quieras
+deseo con cualquier otro pelotón.
+
+Cuadrantes del mapa
+
+La capacidad principal de la pantalla del mapa de cuadrantes (ver figura
+6.1) es alterar el movimiento y la formación de cualquier pelotón.
+Se puede ver todo el mapa a la vez o se puede
+amplía cualquier parte del campo de batalla usando los íconos al lado
+a la derecha del mapa, todas las características principales del campo de batalla.
+se muestran en el mapa: las carreteras son de color gris claro, los ríos son
+azul, los bosques son grupos sombreados de verde y los edificios son
+marcado como cuadro rojo y blanco.
+
+Hay dos iconos de zoom representados por una lupa. 
+gafas. Al hacer clic en el icono de zoom superior se magnifica la
+resolución del mapa. Al hacer clic en el icono de zoom inferior
+desmagnifica el mapa. Hay siete niveles de magnificación.
+ción. En el nivel más bajo, todo el ancho del campo de batalla.
+- 4 millas de ancho - se muestra. En el aumento más alto
+el ancho del mapa es de 0,2 millas de ancho.
+
+El ancho total del mapa en millas se muestra como un número
+entre los dos iconos de zoom. Si tienes un ratón y
+no estás viendo todo el campo de batalla, puedes desplazarte por el mapa
+en cualquier dirección ubicando el puntero sobre el mapa y
+presionando el botón derecho del ratón. El mapa luego se desplazará
+a una velocidad y dirección relativas a la posición del cursor
+desde el centro del mapa. 
+
+Para mover tu pelotón tienes que proporcionar información.
+información sobre el destino y el pseed del pelotón. Lugar
+el puntero sobre el mapa, localice la ubicación deseada a la que
+deseas moverte y presiona fuego. Quedará una mira
+en la pantalla que muestra el punto final de la corriente
+movimiento. Ahora vaya a la barra deslizante y configure el deseado
+velocidad de viaje. Puede hacerlo haciendo clic en el
+flechas en la parte superior o inferior de la barra deslizante, para aumentar o
+disminuir la velocidad del pelotón respectivamente, o haciendo clic en el
+puntero en el punto del control deslizante al que desea que llegue la barra.
+La velocidad actual se muestra, en millas por hora, debajo del
+flecha inferior de la barra deslizante.
+
+La hora prevista de llegada, o ETA, en la actualidad
+El destino está impreso en la parte superior del lado derecho del te.
+cuadrante del mapa. Tenga en cuenta que sólo se permite un destino para
+cualquier pelotón en cualquier momento.
+
+Este destino podrá ser modificado en cualquier momento, independientemente de
+si el pelotón ha llegado o no a su destino. el
+La velocidad máxima de cualquiera de sus vehículos es de 50 millas por hora.
+La velocidad máxima que puede alcanzar depende de la 
+tipo de terreno por el que viaja. el mas rapido
+El tipo de terreno es carretera, seguido de campo traviesa, bosque y
+luego río, que es el tipo de terreno más lento. Si deseas
+viajar por el medio más rápido posible, tratar de encontrar un lugar adecuado
+camino.
+
+Cuadrante de estado
+
+Se accede al Cuadrante de Estado (Figura 6.2) haciendo clic en
+el icono de estado. Cada uno de los cuatro vehículos de cada unidad
+luego se mostrará en esta pantalla de "estado" (a estas alturas,
+ojalá poder reconocer e identificar el perfil de todos
+de sus vehículos!) A la derecha de cada vehículo hay dos barras.
+La longitud de la barra superior representa la moral del
+personal en el vehículo. La moral mejora cuando el
+vehículo logra un impacto en un tanque del Pacto de Varsovia y disminuye
+cuando se dispara contra el pelotón, o cuando hay pérdidas en el
+Lado americano.
+
+La barra inferior representa la eficiencia del vehículo y su
+personal. La eficiencia disminuye cuando el vehículo tiene
+sufrió algunos daños por el poder de fuego de la oposición.
+Los valores de moral y eficiencia afectan la capacidad de su
+pelotón para atacar a la oposición con precisión y astucia cuando
+Se emite una orden para lanzar un arma. Si un vehículo es
+terminalmente dañado se pondrá rojo en la pantalla de estado. eso
+El vehículo y el personal restante se quedarán atrás.
+cuando el pelotón avanza. La guerra no es lugar para los débiles
+¡de corazón! Si todos los vehículos de un pelotón están inutilizados, eso
+El pelotón se vuelve ineficaz y aparecerá una pantalla de estado roja.
+mostrado permanentemente
+
+Modo de pantalla completa
+
+Es posible concentrar la vista en una sola
+pelotón haciendo clic en el icono superior izquierdo de cualquiera de los
+cuadrantes. Esto lo llevará al "modo de pantalla completa" para eso.
+pelotón (ver figura 6.3). La fila superior de iconos en este modo.
+son idénticos en función a los del modo cuadrante. el unico
+La diferencia que notarás es que todos los pelotones tienen nombres,
+y el pelotón actual a la vista está resaltado en amarillo. si
+haces clic en el nombre de cualquier pelotón y la pantalla cambiará
+a una vista de pantalla completa para ese pelotón. El juego recuerda
+qué tipo de vista se mostró por última vez para ese pelotón, y
+Este mismo tipo de vista se muestra para el pelotón en su totalidad.
+modo de pantalla.
+
+Vista 3D en pantalla completa
+
+El tipo de vista es idéntico a la vista 3D del cuadrante, sólo que
+es más grande y hay instalaciones adicionales disponibles para
+uso. El panel de control debajo de la vista tiene lo siguiente:
+iconos enteros:
+
+Enging Smoke Al hacer clic en este icono, tu pelotón
+producir humo del motor. Esto resultará muy útil en
+confundiendo a tu enemigo si te encuentras en un aprieto.
+
+Imágenes infrarrojas (o térmicas).   Este sistema será vital
+para ver qué sucede cuando está oscuro, o cuando el ruso
+Las fuerzas están cubiertas por el humo. Cualquier cosa que produzca calor.
+Se pueden tomar imágenes usando una mira térmica; pronto se acostumbrará.
+para identificar vehículos por su imagen térmica. Esta característica
+Es muy útil para identificar vehículos camuflados en la
+borde de los bosques. Contrariamente a la creencia popular, la imagen térmica
+generado en un tanque moderno es verde y no rojo.
+
+Icono de rotación y visualización de brújula.   Estos trabajan en el
+de la misma manera que en la vista de cuadrante y el método abreviado del mouse
+todavía se aplica.
+
+Zoom.   Cuando se accede a este icono, la parte central de la
+La pantalla se amplía con un factor de 10. Encontrará el zoom
+Instalación esencial para detectar vehículos a más de 500 m.
+lejos. Dado que el alcance de algunos de tus (y del enemigo)
+armas está a más de 2 km, el uso de la función de zoom puede salvar su
+vida. Tenga en cuenta que cuando está en modo zoom su velocidad de
+la rotación es más lenta que en el modo de visualización normal.
+
+Armas.   Estos íconos funcionan de manera idéntica a los
+iconos de armamento cuadrante. La única diferencia es que el
+Se muestra el número de misiles restantes para cada tipo.
+debajo de cada icono. Si tienes 100 o más de un determinado
+arma, el número mostrado será 99.
+
+Telémetro láser.   Debajo del arma te muestra
+encontrará el telémetro láser, que se ilumina en rojo cuando está en
+uso. El telémetro mirará un objetivo reflectante (como 
+como vehículo blindado) si el cursor de disparo se coloca directamente
+sobre el objeto. Sabrás que el sistema se ha bloqueado.
+porque el cursor cambia de forma a un rectángulo. el
+Sin embargo, el telémetro no mantendrá un objeto en movimiento permanentemente.
+Está firmemente bloqueado, por lo que es más fácil de usar en un objetivo estacionario.
+cuando estás parado. Recuerde, sin embargo, que cuando usted
+Si estás estacionario, presentas un objetivo más fácil para tus oponentes.
+si te han visto. Aunque utilice el telémetro
+aumentará su precisión de disparo, no proporciona una
+Tasa de acierto del 100%. Al hacer clic en este icono se alternará la búsqueda de rango
+encendido y apagado.
+
+Vista de mapa en pantalla completa
+
+El mapa en pantalla completa para una unidad en particular tiene todas las capacidades
+vínculos del mapa de cuadrantes como se mencionó anteriormente, con algunos
+características adicionales. En el propio mapa verás que el
+Las banderas relacionadas con cada pelotón del Equipo Yankee tienen un número.
+junto a ellos, se relacionan con el número de pelotón de esa unidad.
+Las características de íconos adicionales a la derecha del mapa son las siguientes:
+
+Icono de desplazamiento.   Las cuatro flechas debajo de la pantalla ETA
+le permite desplazarse por su mapa en cualquiera de las cuatro direcciones. si
+haces clic en la región en el centro de las flechas del mapa
+se centrará automáticamente en la posición de su pelotón.
+
+Icono de parada muerta.   Este icono rojo, justo en la parte inferior izquierda del
+barra deslizante de velocidad, hace que tu pelotón se detenga en seco
+cuando se hace clic.
+
+Icono de formación amplia.   Esto aumenta el espacio entre
+vehículos de su pelotón a 100 metros. Quizás desees
+aumente el espacio entre sus formaciones si viaja en fila
+a través de una estrecha brecha. Si te ven mientras vas
+a través de la brecha, entonces tendrás más tiempo para reaccionar, ya que
+su espaciamiento es mayor.
+
+Icono de formación estrecha.   Esto reduce la distancia entre vehículos. 
+Espaciado en tu pelotón a 50 metros.
+
+
+Los seis iconos inferiores de la columna vertical a la izquierda de la
+La pantalla le permite cambiar el tipo de formación de los vehículos.
+en tu pelotón:
+
+En línea: coloca sus vehículos en línea con respecto a su
+dirección.
+                                     
+Columna: coloca sus vehículos en una línea adelante en relación con
+tu dirección.
+                             
+Echelon derecha: coloca sus vehículos de izquierda a derecha
+diagonal relativa a su dirección.
+                                         
+Echelon left: coloca tus vehículos en una diagonal de derecha a izquierda
+en relación con su dirección.
+                                 
+Cuña: coloca sus vehículos en forma de cuña.
+                                                
+Vee: coloca tus vehículos en formación de V.
+                              
+Vista de estado de pantalla completa
+                                                           
+Como en la visión del cuadrante del estatus, la moral y la eficiencia de
+Se muestra cada vehículo de un pelotón. La información adicional
+proporcionada en la vista de pantalla completa muestra el número de cada
+Tipo de arma que le queda a cada uno de tus vehículos. Todos
+Los vehículos del Team Yankee están armados con un sistema 'infinito'.
+número de disparos de ametralladora. Daño particular a cualquier
+El vehículo se muestra en rojo. Ver figura 6.4
+
+------------------------------------------------------------------------------
+
+                            LA PANTALLA INFORMATIVA
+
+Un escenario en el que estás involucrado puede terminar por un número
+de razones. Es posible que hayas ganado porque has alcanzado un
+posición de ataque deseada, mantuvo una posición defensiva durante
+suficiente tiempo, o destruir a la mayoría de los oponentes
+fuerzas. Es posible que haya perdido porque no ha ganado
+posición de ataque deseada, mantuvo una posición defensiva durante mucho tiempo
+suficiente, o perdimos demasiados vehículos del Team Yankee.
+Los criterios de victoria cambian según tu rango, por lo que tu
+El rendimiento del juego tendrá que mejorar a medida que tu rango aumente.
+Arrugas.
+
+Cuando se haya llegado al final del escenario, serás
+dijo el resultado en la línea de texto en la parte inferior del
+pantalla de juego. Luego tienes la opción de hacer clic en Esto.
+línea para ver la pantalla de información o para salir del
+juego usando el ícono de la bandera blanca. La razón por la que tenemos
+siempre que esta opción sea para el caso en el que haya GANADO un
+escenario, pero han perdido tantos vehículos que
+más bien vuelva a intentar el escenario. Recuerda que si ganas un
+escenario y complételo pasando a la pantalla de información
+Luego, toda la información de tu juego se escribe en el disco para
+el inicio del siguiente escenario. Puede revisar el estado de
+Todos tus pelotones antes de tomar una decisión. Tenga en cuenta que
+Si has PERDIDO el escenario, tendrás que volver a jugarlo.
+el escenario nuevamente y no se escribe ninguna información en su
+disco de juego.
+
+Si pasa a la pantalla de información, recibirá
+un resumen de lo que ha logrado su campaña. Una vez que tu
+Si ha notado los comentarios en esta pantalla, presione fuego para
+volver a la pantalla de inicio de presentación.
+
+------------------------------------------------------------------------------
+   
+                             Tipos de vehículos
+
+Tanque de batalla principal M-1 Abrams
+
+Especificaciones
+--------------
+Tripulación 4
+Peso (Toneladas) 54,5
+Longitud total (cm) 977         
+Tipo de motor turbina
+Alcance de la carretera (km) 498
+Velocidad máxima (km/h) 72,4 [RYGAR: No está mal, ¿eh? Para un tanque...]
+Velocidad máxima todoterreno 48,3                          
+Armadura frontal (mm) 380                  
+Pistola principal suave                 
+Calibre (mm) 105
+Alcance efectivo (m) 2500             
+Velocidad máxima (ronda/min) 8       
+Rondas totales 55
+Rondas HEAT Sí
+Rondas SABOT Sí
+Rondas de remolque No
+
+El M-1 Abrams es el combate principal más rápido y mejor protegido. 
+tanque en servicio con cualquier ejército del mundo actual. Son 105mm
+El arma es extremadamente efectiva y, si bien no tiene la
+velocidad de salida de los ánimas lisas de hipervelocidad de 125 mm
+de los tanques soviéticos, su munición avanzada y su muy eficaz
+La computadora balística se combina para brindar resultados comparables o superiores.
+rendimiento.
+
+Recientemente se ha incorporado nueva munición SABOT (ver glosario).
+aumentó esta efectividad. Las miras térmicas, que permiten
+El artillero mejoró la visibilidad a través del humo y la oscuridad.
+darle al vehículo una ventaja de combate única sobre su adversario.
+saries.
+
+El M-1 utiliza un blindaje compuesto "Chobham", que
+Contiene una gran capa exterior de acero duro, con sucesivas capas interiores.
+capas de otros metales y cerámicas. Este tipo de armadura
+Absorbe muy eficazmente el calor de los gases calientes de
+CALIENTA la munición. El costo de cada tanque M-1 está en el
+región de $2.500.000. 
+
+---
+
+Transporte blindado de personal M-113                   
+                                        
+Especificaciones                                     
+--------------                                          
+Tripulación (+Plantilla) 2 (+11)                                  
+Peso (Toneladas) 11,2                                  
+Longitud total (cm) 486                                 
+Tipo de motor diésel                                  
+Alcance de la carretera (km) 321                                 
+Velocidad máxima (km/h) 64,4                                
+Velocidad máxima (agua) 5,8                              
+Armadura frontal (mm) 38                                 
+Ametralladora principal                           
+Calibre (mm) 12,7                              
+Alcance efectivo (m) 500                              
+Velocidad máxima (redondo/min) N/A                       
+Rondas totales 1200                            
+Rondas HEAT No                
+Rondas SABOT No                                
+Rondas de remolque No                                     
+
+El M-113 es el transporte de tropas blindado básico en los EE.UU.
+Ejército, y lo ha sido desde la Guerra de Vietnam. fue diseñado
+"proporcionar un vehículo de transporte de personal ligero y blindado para
+unidades blindadas e infantería capaces de ataques anfibios y aéreos.
+operaciones de lanzamiento, movilidad superior a través del país y adaptación
+taciones a múltiples funciones".
+
+El casco de aluminio totalmente soldado protege a la tripulación de pequeños
+fuego de armas y metralla. Es totalmente anfibio, siendo
+impulsado en el agua por sus orugas. Adaptaciones exitosas
+Incluye el cañón antiaéreo autopropulsado M163 Vulcan,
+el puesto de mando M577 y el TOW mejorado M901
+Vehículo.                         
+
+La M-113 va a ser sustituida por la M-2 Bradley
+Vehículo de combate de infantería, pero el lento ritmo de adquisición
+significa que muchas unidades mecanizadas estadounidenses seguirán utilizando
+la M-113 hasta los años 90.             
+                                               
+---                                   
+                   
+Vehículo de combate de infantería M-2 Bradley                
+                   
+Especificaciones                                 
+--------------                               
+Tripulación (+Plantilla) 3 (+6)                                    
+Peso (Toneladas) 22,7                                    
+Longitud total (cm) 645                                      
+Tipo de motor diésel                              
+Alcance de la carretera (km) 483
+Velocidad máxima (km/h) 66                                      
+Velocidad máxima (agua) 7.2                                   
+Armadura frontal (mm) 60                                   
+Cañón principal                                 
+Calibre (mm) 25                                     
+Alcance efectivo (m) 1000                                  
+Velocidad máxima (redondo/min) 100                          
+Rondas totales 900                         
+Rondas HEAT No                        
+Rondas SABOT No                  
+Rondas de remolque 2+5
+
+El Bradley es un transporte de infantería razonablemente protegido y es
+extremadamente móvil y bien armado. El casco del M-2 es de
+Armadura de aluminio soldada con laminado adicional instalado en
+la parte delantera, laterales y trasera del casco. Es totalmente anfibio, siendo
+impulsado a través del agua por sus orugas.
+
+En 1987, sólo se habían entregado 3.000 Bradley a Estados Unidos.
+Ejército de una adquisición de casi 7.000 vehículos. La M-
+2 ha sido objeto de considerables críticas por parte de los críticos debido a su
+Gastos y entrega lenta. Los críticos también sugieren que su
+una protección de armadura inferior obstaculizará su capacidad de operar
+con el tanque M-1. Se está haciendo un esfuerzo para equipar al batallón.
+pelotones de exploración con Bradleys, sin embargo, y este es el caso
+en la novela Equipo Yankee.
+
+El M-2 tiene puertos de disparo adicionales a los lados y atrás y puede transportar
+un escuadrón de fusileros completo. Cabe destacar el TOW de la M-2.
+Los misiles sólo podrán lanzarse cuando el vehículo esté estacionado.
+ario.
+
+---
+
+M-901 Vehículo de REMOLQUE mejorado (ITV)
+
+Especificaciones
+--------------
+Tripulación 4                      
+Peso (Toneladas) 11,2                   
+Longitud total (cm) 486
+Tipo de motor diésel
+Alcance de la carretera (km) 321
+Velocidad máxima (km/h) 55                   
+Velocidad máxima todoterreno N/A                 
+Armadura frontal (mm) 38                  
+Arma principal Ninguna
+Calibre (mm) -                  
+Velocidad máxima (ronda/min) -                 
+Rondas totales -                        
+Rondas HEAT No                     
+Rondas SABOT No                  
+REMOLQUE Rondas 2+10                    
+Alcance efectivo REMOLQUE 4000 m             
+
+Se trata de una variante del M-113, montando el 'cabeza de martillo'
+Lanzador TOW blindado en un soporte superior.
+
+El conjunto del lanzador contiene dos tubos de lanzamiento TOW,
+Con otros 10 misiles de lanzamiento transportados en el casco. esto
+da a la ITV la posibilidad de aparcar con todo el vehículo
+detrás de una cubierta y sólo el lanzador de misiles expuesto. el
+El lanzador también se puede recargar desde el interior del vehículo.
+
+Una desventaja importante es que el lanzador TOW blindado
+y las municiones transportadas internamente están muy sobrecargadas.
+el chasis y redujo significativamente su movilidad. Además, re-
+miembro que un misil TOW sólo puede ser lanzado desde un
+vehículo estacionario.
+
+El ITV es el portamisiles antitanque estándar de EE.UU.
+Ejército, que entró en servicio por primera vez en 1979.
+
+---
+
+[RYGAR - Los próximos cuatro vehículos son el Pacto de Varsovia...]
+
+Tanque de batalla principal T-62
+
+Especificaciones
+--------------
+Tripulación 4                      
+Peso (Toneladas) 37,5
+Longitud total (cm) 933                  
+Tipo de motor diésel                       
+Alcance de la carretera (km) 450
+Velocidad máxima (km/h) 50                  
+Velocidad máxima todoterreno N/A
+Armadura frontal (mm) 200
+Pistola principal suave
+Calibre (mm) 115                     
+Velocidad máxima (ronda/min) 3-5
+Alcance efectivo 1500m
+Rondas totales 40
+Rondas HEAT Sí             
+Rondas SABOT Sí
+Rondas de remolque No
+
+Utilizado por primera vez en la década de 1960, el T-62 fue el primer tanque importante.
+utilizar una pistola de ánima lisa.
+
+Hubo severas limitaciones debido al diseño de ingeniería, 
+lo que, por ejemplo, significaba que la recarga sólo podía ocurrir en
+un ángulo de torreta y una elevación del cañón establecidos.
+
+El T-62 ahora ha sido reemplazado en servicio de primera línea por
+tipos más modernos, como el T-72. Todavía se encuentra en
+unidades soviéticas de segunda línea y en las fuerzas armadas del otro
+Países del Pacto de Varsovia.
+
+---
+
+Tanque de batalla principal T-72
+
+Especificaciones
+--------------
+Tripulación 3                 
+Peso (toneladas) 41                       
+Longitud total (cm) 953                        
+Tipo de motor diésel
+Alcance de la carretera (km) 450
+Velocidad máxima (km/h) 70
+Velocidad máxima todoterreno N/A
+Armadura frontal (mm) 250                 
+Pistola principal suave
+Calibre (mm) 125
+Alcance efectivo 2000m
+Velocidad máxima (ronda/min) 6-8
+Rondas totales 39                  
+Rondas HEAT Sí                   
+Rondas SABOT Sí                 
+Rondas antitanques No
+
+El T-72 es uno de los varios tanques modernos que equipan al Rojo.
+Ejército, y fue su principal tanque de batalla durante los años 1970.
+
+Es lógico y progresivo el desarrollo del T-62, incorporando
+Clasificación de un arma más grande, sistema de control de fuego mejorado, mejor
+protección y una central eléctrica más potente. lo extraño
+Los tambores en la parte trasera del T-72 son tanques de combustible de largo alcance.
+
+A finales de los años 1980 se descubrió un nuevo modelo que tenía una
+frente abultado de la torreta, conocido coloquialmente como el "Super Dolly
+Partón'. 
+
+---
+
+Vehículo de combate de infantería BMP-2
+
+Especificaciones
+--------------
+Tripulación (+Plantilla) 3 (+6)
+Peso (Toneladas) 14,5
+Longitud total (cm) 674
+Tipo de motor diésel
+Alcance de la carretera (km) 500
+Velocidad máxima (km/h) 70
+Velocidad máxima todoterreno N/A                    
+Armadura frontal (mm) 19                
+Cañón automático del arma principal          
+Calibre (mm) 30                   
+Alcance efectivo 1000m               
+Velocidad máxima (redondo/min) N/A             
+Rondas totales 40
+Rondas HEAT No
+Rondas SABOT No
+Rondas antitanque Sí
+Alcance antitanque 4000 m
+
+BMP es una abreviatura de Bronevaya Mashina Piekhota, 
+o "Vehículo Blindado de Infantería".
+
+El BMP-1 fue el primer vehículo de combate de infantería en el
+mundo para montar un armamento de cañones y misiles antitanque,
+dando así al escuadrón de fusileros la capacidad de enfrentarse al enemigo.
+blindaje a distancias sustanciales Con una perspectiva razonable de
+éxito.
+
+El BMP-2 recientemente presentado es una versión mejorada con
+una torreta más grande que monta un cañón automático de 0 mm y un
+Misil antitanque AT-5 'Spandrel'.
+
+---
+
+Transporte blindado de personal BTR-60
+
+Especificaciones
+--------------
+Tripulación (+Plantilla) 2 (+12)
+Peso (TONELADAS) 10,2
+Longitud total (cm) 722
+Tipo de motor gasolina
+Alcance de la carretera (km) 500
+Velocidad máxima (km/h) 8
+Velocidad máxima todoterreno N/A
+Armadura frontal (mm) 9
+Ametralladora principal
+Calibre (mm) 14,5
+Alcance efectivo 500 m
+Velocidad máxima (redondo/min) N/A
+Rondas totales 500
+Rondas HEAT No         
+Rondas SABOT No          
+Rondas de remolque No        
+
+El BTR-60 es un vehículo blindado de transporte de personal con ruedas que
+equipa muchas unidades de fusileros motorizados soviéticos.
+
+La ventaja de un vehículo con ruedas es una mayor velocidad en carretera,
+menores costos de fabricación y, en general, mayores casos de
+mantenimiento y confiabilidad mecánica.
+
+La principal desventaja es que un vehículo con ruedas pierde más
+de su velocidad en carretera cuando viaja a través del país; sin embargo,
+es lo suficientemente rápido en la carretera como para seguir el ritmo de la mayoría
+vehículos de orugas a campo traviesa.
+
+-----------------------------------------------------------------------
+------
+
+                        Organización estadounidense/soviética
+
+Organización estadounidense
+
+La unidad más grande del ejército de EE. UU. con una organización fija.
+es la división, que normalmente se despliega como una
+división mecanizada o blindada. el edificio basico
+Los bloques de estas divisiones son batallones. Un blindado
+La división tendrá seis batallones blindados, cinco mecanizados.
+batallones, tres batallones de artillería y un batallón cada uno
+de caballería blindada (reconocimiento) y helicópteros de ataque.
+ters. Las divisiones mecanizadas son similares, pero tienen seis mecanismos.
+batallones nizados y cuatro batallones blindados.
+
+Cada batallón blindado consta de cuatro compañías de tanques.
+y una empresa con sede (HQ). La empresa de la sede 
+consta de 331 oficiales y soldados, más del doble
+Está en todo un batallón de tanques soviéticos. Además de extensa
+elementos de mando, control y apoyo, la empresa HQ
+Incluye un pelotón de mortero pesado de seis autopro de 4,2 pulgadas.
+morteros disparados y un pelotón de exploración de seis M-3 Bradley
+vehículos de combate de caballería.
+
+Las cuatro compañías de tanques son el corazón del batallón.
+poder de combate. El equipo Yankee está organizado en torno a uno de esos
+empresa. En pleno funcionamiento, la empresa cuenta con 62 funcionarios y
+hombres 14 tanques M-1 Abrams. La empresa se divide en
+tres pelotones de cuatro tanques cada uno. También hay dos extra
+tanques que están comandados en batalla por el CO y el XO.
+
+Aunque el ejército estadounidense organiza sus batallones como puramente tanques
+o infantería pura, en la práctica combaten armas combinadas juntas
+en niveles mucho más bajos. La práctica estándar en el campo es tener
+un batallón blindado y un batallón mecanizado se intercambian
+pelotón con una de las otras compañías del batallón,
+dando a un batallón dos compañías puras, una con tanques pesados
+equipo de la empresa y un equipo de la empresa con muchos mecanismos.
+
+Este es exactamente el procedimiento que se ha seguido en el
+novela Equipo Yankee. La empresa de Bannon ha sido adjuntada.
+al Batallón de Infantería 1-78 a cambio de su propio A
+empresa. Esto deja al batallón 1-78 con su propio B,C,
+Las compañías D, su compañía antiblindaje, sus oficinas centrales
+pany y la compañía de tanques de Bannon. Teniente Coronel Rey-
+Nolds, el comandante del batallón, luego eliminó a uno de Ban-
+pelotones de tanques no (1 pelotón) y se lo dio a su propio B
+compañía a cambio de uno de sus aviones de infantería mecanizada.
+dibujos animados. (La empresa B resultante se conoce como Team Bravo).
+Por lo tanto, en la novela Team Yankee, el equipo de Bannon con-
+consta de 2 y 3 pelotones (que contienen 4 tanques M-1 cada uno),
+Mech Platoon (que contiene 4 vehículos blindados de personal M-113).
+riers) y HQ Platoon (que contiene 2 tanques M-1 y 2 ITV).
+En el juego Team Yankee, en aras de la jugabilidad,
+Hemos reemplazado 2 de los M-113 en Mech Platoon con 2 M-
+2 vehículos Bradley. Por lo tanto, al comienzo del juego, tendrás
+tener a su disposición lo siguiente:-
+
+Unidad 1 Pelotón HQ 2 x tanques M-1 y 2 x ITV
+Unidad 2 2 Pelotón 4 x Tanques M-1
+Unidad 3 3 Pelotón 4 x Tanques M-1
+Unidad 4 Pelotón mecánico 2 x M-113 APC
+                             y 2 x M-2 Bradley
+
+Organización soviética
+
+La infantería mecanizada soviética se llama tropas de fusileros motorizados.
+Se transportan en vehículos blindados de transporte de personal (p. ej.
+BTR-60) o en vehículos de combate de infantería (BMP). el
+Las principales diferencias entre estos dos son que el BTR es
+con ruedas, ligeramente armado y blindado, y diseñado para
+producción en masa barata, mientras que el BMP es rastreado, fuertemente
+armados y considerablemente más caros. las tropas de choque
+de una división se montará en BMP, mientras que la mayor parte de la
+Las tropas de fusileros motorizados se transportan en BTR.
+
+Las formaciones más grandes del Ejército Rojo con un fijo.
+organización son divisiones. Hay tres tipos principales de
+divisiones de combate: divisiones de tanques, divisiones de fusileros motorizados y
+divisiones de asalto aéreo.
+
+Las divisiones de tanques constan de un regimiento de fusileros motorizados en
+BMP, tres regimientos de tanques y un regimiento de artillería. el
+El regimiento de tanques de la división de tanques consta de tres tanques.
+batallones, un batallón de fusileros motorizados en BMP, un
+batallón de artillería, una compañía de reconocimiento, una
+una compañía de aviones y una compañía de ingenieros. el tanque
+El batallón de un regimiento de tanques tiene sólo 135 oficiales y soldados.
+Se compone de tres compañías de tanques y un pequeño batallón.
+sede. Cada compañía de tanques tiene tres pelotones de
+tres tanques cada uno más el tanque del comandante de la compañía, lo que da
+un total de 31 tanques.
+
+Las divisiones de fusileros motorizados se componen de un regimiento de tanques,
+dos regimientos de fusileros motorizados en BTR, un regimiento de fusileros motorizados
+en BMP y un regimiento de artillería. Cada rifle de motor
+El regimiento consta de tres batallones de fusileros motorizados, un tanque
+batallón, un batallón de artillería y una compañía cada uno de
+misiles antitanques, cañones y misiles de defensa aérea, reconocimiento
+tropas de sance y morteros. Un batallón de fusileros motorizados basado en
+Los vehículos de combate de infantería BMP constan de tres motores de rifle.
+compañías, una compañía de morteros, un pelotón anti-artesanía,
+un pelotón de lanzagranadas automático y varios pequeños
+unidades de apoyo que no son de combate. La empresa de fusileros a motor, con
+más de 100 hombres, consta de una sede de la empresa, tres
+pelotones de fusileros motorizados y un pelotón de apoyo de fuego. cada uno
+pelotón de fusileros motorizados consta de 29 oficiales y hombres,
+dividido en tres escuadrones de fusileros, cada uno de los cuales es llevado en un
+BMP único.
+                          
+En el Team Yankee, el segundo escalón del ataque soviético, que             
+se enfrenta en la Primera Batalla, provienen principalmente de un motorizado               
+batallón de fusileros, compuesto principalmente por BMP y T-72.         
+                                                                      
+------------------------------------------------------------------------------
+                                                                     
+                         CÓMO JUGAR AL EQUIPO YANKEE                
+                                                                         
+En Team Yankee hemos sido escrupulosos en nuestros intentos de            
+transmitir la urgencia de la guerra de tanques moderna, dentro del               
+restricciones impuestas por el medio informático. todos los               
+La acción del juego se basa estrechamente en batallas que se desarrollan.                 
+descrito en el libro Team Yankee. El mejor consejo sobre cómo                
+Por lo tanto, jugar es sencillo: ¡lee el libro! en                
+Sin embargo, para mantener su atención, hemos hecho cambios sutiles.              
+cambios en los escenarios, de modo que nunca sabrás exactamente               
+qué esperar. Especialmente en las últimas etapas del juego         
+Descubrirás que el enemigo es aún más poderoso y astuto.          
+que en el libro.                                                    
+                                                                      
+Cuando diseñamos este producto tuvimos que tomar una decisión difícil.              
+entre la precisión total de la simulación y las características que              
+Sentí que mejoraría el juego. Puede molestar a los puristas,               
+pero cuando la precisión y la jugabilidad entraban en conflicto, el juego                   
+¡siempre ganó! Otra característica importante es nuestra creencia de que             
+el jugador debería poder retomar el juego y jugar                
+sin hojear un manual de 300 páginas. Sin embargo, tu           
+Sin duda se beneficiará al leer el documento.          
+Mención y, con suerte, de la lectura de esta sección.            
+                                                                  
+El escenario de formación                                            
+                                                                  
+El escenario de formación, al que se accede haciendo clic en Práctica                
+El icono del juego ha sido diseñado para darte una idea clara de cómo              
+para controlar un pelotón individual, así como todo el equipo                 
+yanqui. El escenario se presenta en un circuito que es                 
+modelado según un campo de entrenamiento estándar; consulte la figura 10.0.                  
+Tu objetivo es atravesar la carretera que une los puntos A con B,              
+dejando ciertas unidades estratégicamente colocadas en el camino. si              
+puedes lograr todos los objetivos de la carrera de entrenamiento, entonces               
+Estará muy bien preparado para entrar en plena batalla. el                 
+Las siguientes instrucciones son más sustanciales que las que usted          
+encontrará en la pantalla informativa.                            
+                                                                    
+Al principio, tus cuatro pelotones se colocan alrededor del punto A.             
+La unidad 1, que contiene 2 tanques M-1 Abrams y 2 ITV, se enfrenta          
+las otras tres unidades del Team Yankee. Unidad 2, con 4 M-1              
+tanques, está recto hacia el este en formación de columnas. solo           
+al norte está la unidad 3, también con 4 tanques M-1, y justo al            
+al sur está la unidad 4, con 2 M-113 y 2 M-2 Bradley. Al
+Al iniciar estarás en modo `cuadrante', con una vista del            
+campo de batalla de cada una de las cuatro unidades. Ahora deberías             
+Familiarícese con los controles a su disposición en            
+modo cuadrante. Ahora, acceda a la vista de "pantalla completa" para              
+unidad 1. Justo delante de usted, verá los otros vehículos.          
+del equipo Yankee. Podrás examinarlos más                
+de cerca usando el modo de ampliación. Examinar las instalaciones              
+disponible en modo de pantalla completa usando el ícono Ampliar vista            
+descrito en la página 24 del manual.                        
+                                                                    
+A los pocos minutos de la salida se realizará un desfile de todos            
+Los vehículos que encontrarás en el juego recorriendo la pista.            
+de C a D. El desfile comenzará a las 12:02, así que asegúrese de           
+están en posición a tiempo. Cuando pase cada vehículo, intente           
+identificarlo a partir de las fotografías de cada vehículo en el apartado          
+8.                                                         
+                                                                  
+Una vez que el desfile haya terminado, debes mover la unidad 1 a lo largo               
+el camino hacia el este, justo encima del punto donde cruza el             
+río. Cuando llegas a dos árboles a cada lado de              
+la carretera, deténgase inmediatamente. Directamente frente a ti hay             
+4 vehículos. Dos son BMP-2 de fabricación rusa y los dos                 
+otras son ITV americanas.                                          
+                                                                
+Una vez que hayas identificado cuál es cuál debes probar y              
+destruir los dos vehículos rusos. Carga un misil HEAT                
+y encienda la función de alcance láser. Asegúrate de que               
+aprenda qué sucede cuando sus derechos están "fijados" en un              
+objetivo y luego disparar. Si choca contra el vehículo equivocado, será          
+dicho en términos muy claros!                                      
+                                                                    
+Una vez que hayas logrado este primer objetivo deberás              
+Deje la unidad 1 donde está y coloque las otras tres unidades en el         
+camino. Intenta ver si puedes acostumbrarte a mover tus unidades.             
+mientras está en la vista de cuadrante. Mover las unidades 2,3 y 4 más allá de la unidad            
+1 y llévalos por la carretera hasta encontrar el siguiente.                 
+Posición donde hay dos árboles a ambos lados de la carretera. Detener              
+en este punto y pase al modo de pantalla completa para la unidad 2. En este          
+En este punto encontrará 4 BTR rusos frente a la línea de árboles.           
+al oeste, y cuatro M-113 estadounidenses en la línea de árboles hacia el            
+este. Si tiene dificultades para localizarlos, encienda su           
+Pantalla de infrarrojos. Encontrarás que en la batalla el infrarrojo          
+La exhibición es invaluable para descubrir vehículos camuflados.                
+por cubierta forestal. De nuevo, deberías intentar destruir al ruso.           
+vehículos: usa tus armas SABOT esta vez.                      
+                                                                    
+Dejando la unidad 2 en esta posición continúe por el camino con             
+las dos unidades restantes. Justo antes de que la carretera gire hacia el oeste en             
+En la parte superior del entrenamiento encontrarás otra posición.               
+a horcajadas sobre dos árboles. Detente aquí y esta vez busca el            
+dos unidades de vehículos cercanas. Una unidad se compone de T-             
+62's. Intenta ver qué tipos de armas se necesitan para destruir.            
+ellos.                                                           
+                                                                    
+Deje atrás la unidad 3 y con la unidad restante (4) continúe       
+todo el circuito hasta llegar a la pista que atraviesa el bosque.
+A lo largo de la pista, en el mismo centro del bosque, encontraréis           
+un solo T-72: vea si puede localizarlo y destruirlo. Más allá            
+el bosque, en el camino que va al sur encontrarás el punto         
+donde debe detenerse la unidad 4, nuevamente marcado por dos árboles. tu          
+Ahora debemos localizar los tanques rusos cercanos y destruirlos.        
+                                                                    
+Si has llegado hasta aquí sabrás que has aprendido         
+los conceptos básicos de control que serán importantes para tener éxito            
+en el equipo Yankee. Sin embargo, tendrás una última lección.              
+para aprender. Y así es como atacar vehículos enemigos simultáneamente.          
+neamente mientras está en modo cuadrante. A las 12:30 exactamente cada uno de            
+tus cuatro unidades tendrán poco tiempo para destruir            
+objetivos en movimiento simultáneamente. Asegúrate de que sea apropiado                  
+Se cargan armas para cada unidad. Apunte la unidad 1 hacia el             
+sureste, la unidad 2 al norte, la unidad 3 justo al norte del oeste y         
+unidad 4 al norte. Mantén los ojos bien abiertos. Si puedes destruir         
+todos los tanques rusos a medida que se alejan de la cubierta forestal, luego           
+Sabrás que dominas todos los conceptos básicos del          
+juego. ¡Ahora puedes salir y PATEAR CULOS!               
+                                                               
+Estrategia                                                       
+                                                                 
+Antes de lanzarte a un escenario lo mejor es utilizar el         
+información informativa para decidir su estrategia para el             
+próxima batalla. Muy a menudo se espera que usted             
+posicione sus vehículos muy rápidamente al inicio de la escena.            
+nario (particularmente si es un escenario defensivo). A través de             
+Con la práctica aprenderás el poder de ataque del Team Yankee como            
+así como los vehículos del Pacto de Varsovia. La información en                  
+Capítulo 8 referente a los tipos de vehículos y la información adicional.         
+información en el Glosario le dará una idea de la relación           
+Fortalezas y alcances de todas las armas que usarás.             
+o toparse con. Por ejemplo, un BTR tiene muy poco             
+armadura y sólo está armado con una ametralladora.                 
+                                                              
+Si estás en un pelotón tripulado por tanques M-1, por lo tanto           
+Tienes muy poco de qué preocuparte por un BTR, y deberías           
+deséchelos a su gusto, teniendo en cuenta que el             
+La amenaza de un T-72 es bastante más potente. Tus misiles TOW            
+en tus M-2 e ITV son tus armas más potentes en              
+términos de resistencia y alcance, pero recuerde que su vehículo          
+DEBEN estar estacionarios antes de poder dispararlos. porque tu             
+Tienes que controlar cuatro pelotones de tanques simultáneamente en Equipo.             
+Yankee, no hemos sido estrictamente precisos en nuestra operación.          
+de estos misiles guiados por cable. En lugar de dejarte             
+controlar y apuntar el misil durante su vuelo de hasta 15 segundos          
+(provocando así que renuncie a su control de todo            
+más que esté sucediendo), hemos tratado el TOW como algo normal.          
+misil: una vez lanzado, golpeará el área que has apuntado         
+en.                                                      
+Los tiempos de carga de todos los misiles son precisos.              
+presentado y refleja el tiempo que tarda un misil         
+para ser cargado después de que el comandante del tanque (¡usted!) haya ordenado su          
+artillero y cargador para establecer un objetivo. Es parte de la frustración.      
+de guerra que lleva algún tiempo cargar un misil apropiado            
+cuando se enfrenta a un objetivo nuevo y amenazador.
+Vale la pena recordar que las batallas de tanques a menudo se libran en           
+de largo alcance, y en particular que un pelotón de tanques en el            
+en medio de una llanura abierta son "carne de cañón" para               
+oposición colocada. La línea de árboles de los bosques proporciona muy               
+Protección adecuada para los tanques. En Team Yankee, encontrarás            
+que los primeros 100 metros aproximadamente de bosque te proporcionan          
+cubierta y, sin embargo, le permite mirar claramente hacia el              
+campo de batalla. Sin embargo, tan pronto como dispares, darás tu          
+Los oponentes tienen la oportunidad de localizarte durante una cierta cantidad de tiempo.            
+tiempo. Recuerde que su oposición a menudo utilizará el             
+la misma táctica de esconderse dentro de la línea de árboles. Tu infrarrojo             
+Las miras a menudo serán invaluables para detectar vehículos que           
+de lo contrario, quedará oculto entre la línea de árboles.                         
+                                                                 
+El modo de ampliación en la vista 3D es muy potente. desde             
+Deberías poder destruir un vehículo que tenga más de un         
+milla de distancia de usted, a menudo necesitará usar la lente magnificada          
+miras para localizar al enemigo antes de que te vean.             
+Cuando estés siendo atacado intenta localizar el lugar exacto                
+vehículos que te están disparando, ya que serán los más            
+amenaza potente. Evidentemente es más urgente deshacerse de un            
+amenaza que te está atacando en lugar de una que es             
+atacar a otra unidad.                                        
+                                                          
+La posición de las unidades soviéticas conocidas a menudo estará marcada en          
+el mapa se muestra con una bandera que representa cada unidad. estos          
+Las banderas se mostrarán cuando el jugador debería haber              
+las unidades que tiene en el punto de mira o cuando ha habido información            
+recibido de inteligencia. Sin embargo, sólo porque un soviético           
+La bandera no aparece en el mapa cercano a usted.                
+significa necesariamente que no hay unidades enemigas cerca. Para                
+Por ejemplo, si una unidad soviética está en un bosque o cerca de la línea de árboles de         
+un bosque, normalmente no se presentará información sobre            
+las pantallas de mapas. Depende de usted buscar y cazar al               
+enemigo.                                                            
+                                                                    
+Rangos más altos                           
+                                                              
+Los primeros cinco escenarios los completarás en Team Yankee           
+tendrá el rango de soldado raso (primera clase) o PFC. lo harás         
+tener que pasar por tres campañas más en tres niveles más altos             
+rangos: cabo (Cpl), sargento (sargento), sargento primero (SSg)           
+- antes de alcanzar el rango máximo de Capitán (Cpt). el             
+La estrategia que tendrás que seguir será cada vez más           
+sutil a medida que avanzas. Su oposición aumentará en             
+número y realizará tareas cada vez más ingeniosas y             
+tácticas atrevidas para eludir tu victoria. en el           
+En primer lugar, las maniobras rusas se ajustarán todas a una fórmula determinada,          
+que deberías dominar rápidamente una vez que hayas aprendido          
+los conceptos básicos del control y tácticas sensatas de guerra de tanques. Más tarde         
+adelante, es posible que te sorprendan, por lo que tendrás que estar atento          
+para todo tipo de enfoques tortuosos. En los niveles inferiores         
+Siempre tendrás tus armas, moral y daños al vehículo.          
+razonablemente restaurado entre escenarios. Más adelante lo harás          
+descubrirás que tendrás que conservar todas tus capacidades en       
+para proporcionar una fuerza de combate eficaz en el próximo
+guión. ¡La guerra de tanques moderna está muy cerca del desgaste!         
+                                                                
+Algunos escenarios posteriores tendrán lugar por la noche. En estos casos        
+encontrará que todas sus vistas externas normales son          
+completamente oscuro. La única forma de luchar será usar tu            
+vistas infrarrojas. Al principio esto parecerá bastante desconcertante,           
+¡Pero tendrás que aprender a afrontarlo!                     
+                               
+Terreno                         
+                                                             
+Hay muchos tipos diferentes de terreno sobre los que puedes             
+Muévete al equipo Yankee. Sólo podrás lograr tu               
+velocidad máxima de funcionamiento al circular por carreteras que estén            
+indicado en gris en el mapa y en la vista 3D. Viajar              
+a campo traviesa reduce la velocidad y aumenta la              
+cantidad de "tono" que encontrará en su vista 3D.           
+Esto hará que el enfrentamiento del enemigo sea mucho más           
+difícil. Tus velocidades en la línea de árboles de los bosques son mayores.          
+reducido, pero estas regiones proporcionan cierto camuflaje              
+de tus oponentes. Dentro de los bosques puedes encontrar escondidos            
+pistas que te permitirán avanzar más rápido, además            
+aunque descubrirás que el enemigo suele utilizarlos.         
+A menudo será útil localizar estas pistas e incorporar        
+incluirlos en tu plan estratégico. Los ríos proporcionan el tipo más lento.       
+de terreno sobre el cual cruzar, y puede dejarlo expuesto a      
+fuego enemigo mientras los cruzas.                             
+                                                           
+------------------------------------------------------------------------------
+                                                       
+                                   GLOSARIO
+                                                      
+BMP-2 Un vehículo de combate de infantería soviético con orugas completas que monta un
+               Cañón de 30 mm, un misil guiado antitanque y un cañón de 7,62 mm.
+               ametralladora. El BMP lleva una tripulación de tres y seis hombres.
+               escuadrón de infantería. El BMP proporcionó la principal motivación para
+               el diseño y producción del vehículo de combate Bradley.
+                                                      
+BRADLEY Un vehículo de combate blindado que viene en dos versiones, el
+               Versión del vehículo de combate de infantería mecanizado M-2 y el
+               Versión exploradora M-3. Ambos tienen una torreta para dos personas que monta
+               un lanzamisiles TOW, un cañón de cadena de 25 mm y un cañón de 7,62 mm.
+               ametralladora montada coaxialmente.
+                                                     
+BTR-60 Un vehículo blindado de transporte de personal soviético de ocho ruedas. esto
+               El vehículo viene en varias versiones, a partir del original, que
+               tiene la parte superior abierta, al BTR-60PB, que es completamente
+               cerrado y lleva una pequeña torreta que monta un cañón de 14,5 mm y
+               Ametralladora de 7,62 mm. Además del transporte de personal.
+               versión, el BTR-60 sirve como comando y control. 
+               vehículo, vehículo de apoyo aéreo cercano y otros usos similares.
+                                                   
+CO.           Abreviatura de oficial al mando.
+                                                
+DPICM Abreviatura de municiones convencionales mejoradas de doble propósito.
+               Esta es una ronda de artillería que contiene muchas submuniciones pequeñas.
+               ciones o minibombas que son capaces de derrotar a los delgados
+               armadura ubicada en la parte superior de vehículos blindados, además de ser
+               eficaz contra el personal y otros objetivos "blandos".
+                                           
+DRAGON Un lanzador de misiles guiados antitanque mediano. portátil,
+el Dragón es el arma antitanque de medio alcance de la infantería,
+               con un alcance de 1000 metros.
+                                               
+HEAT Abreviatura de antitanque altamente explosivo, una bala que depende de un
+               explosión de carga en forma para penetrar el vehículo blindado
+               armadura. Debido a que la bala contiene alto explosivo, tiene una
+               papel secundario como ronda antimaterial. Un bozal típico
+               La velocidad podría ser de 1100 metros por segundo, con una penetración
+               de más de 150 mm de blindaje reactivo. Es, sin embargo, mucho
+               más eficaz contra los APC que los tanques, por lo que SABOT
+               o munición TOW es más apropiada.
+                                                       
+ITV Abreviatura de vehículo TOW mejorado. Un M-113 modificado
+               vehículo blindado de transporte de personal que tiene un misil guiado antitanque.
+               Lanzador de siles montado en una pequeña torreta giratoria. REMOLQUE
+               significa lanzado por tubo, con seguimiento óptico y guiado por alambre
+               Misil guiado antitanque. El TOW es actualmente el más pesado.
+               misil guiado antitanque en el inventario del ejército de EE. UU.
+               capaz de alcanzar un objetivo del tamaño de un tanque a una distancia de 3700
+               metros.                                
+                                        
+AMETRALLADORA Cada tanque y transporte de personal del Team Yankee lleva una
+               Ametralladora M2 calibre 0,50, apodada "Ma Duce". esto
+               es la misma ametralladora pesada utilizada en la Segunda Guerra Mundial, y
+               Sirve como arma del comandante de un tanque. Además, cada
+               El tanque está provisto de dos ametralladoras "M240" de 7,62 mm.
+               Uno está montado coaxialmente al lado del arma principal, de ahí el
+               apodo "Coaxial". El segundo M240 está montado en posición libre.
+               fuera de la escotilla del cargador; su valor principal es que el
+               dos ametralladoras son intercambiables, además de dar la
+               cargador ¡algo a lo que agarrarse cuando el tanque está en movimiento!
+                                                  
+M-1 Actualmente es el principal tanque de batalla del ejército estadounidense. tiene
+               una tripulación de cuatro personas, monta un cañón principal de 105 mm, un calibre M2
+               0,50 y una ametralladora M240 de 7,62 mm. el
+               El tanque de 54 toneladas está propulsado por un motor de turbina de 1500 caballos de fuerza.
+               y es capaz de alcanzar 45 mph. El sistema de control de incendios incorpora
+               califica un telémetro láser, una computadora de estado sólido, un detector térmico
+               mira de imágenes y otros dispositivos electrónicos que permiten que el arma principal
+               disparar en movimiento con un alto grado de precisión, día
+               o de noche [RYGAR - ¡Mira mi foto de este tanque! ¡SÍ!]
+                                                        
+M-113 Hasta hace poco, el M-113 era el principal arma del ejército de EE.UU.
+               transporte blindado de personal. Con un peso de 11 toneladas, cuenta con tripulación.
+               de dos personas, conductor y comandante, y capacidad para llevar un
+               escuadrón de infantería completo. El M-113 normalmente está armado con un
+               Ametralladora calibre .50 M2 ubicada en la oficina del comandante.
+               posición. Como la infantería no puede luchar mientras está montada, el
+               El M-113 está siendo reemplazado por el vehículo de combate M-2 Bradley.
+               vehículo. El M-113 sigue siendo un pilar del ejército estadounidense.
+               desempeñando funciones de apoyo en o cerca del frente.
+                                              
+MECH Abreviatura de mecanizado o, en el caso del Team Tankee,
+               infantería mecanizada.
+                                              
+SABOT La palabra en realidad significa zapato en francés. Aquí está el nombre de
+               una bala antitanque. SABOT es la abreviatura de aleta perforante.
+               Zueco de descarte estabilizado (APFSDS). La ronda consiste
+de una pequeña aleación de tungsteno o de un penetrador de uranio empobrecido que
+               tiene un diámetro menor que el diámetro del tubo de la pistola. a
+               Para compensar esto, el penetrador está sentado en una bota que está
+               El mismo diámetro que el arma. Esta bota, llamada SABOT,
+               cae después de que la bala sale del arma, dejando al pene-
+               trator para continuar hasta el objetivo. La ronda SABOT tiene una muy
+               Penetración efectiva del blindaje hasta 2500 metros. Más
+               más útil contra el blindaje de un tanque que una bala HEAT.
+                                                     
+HUMO El humo se genera muy útilmente en la batalla para oscurecer
+               la ubicación de los vehículos del enemigo. hay tres
+               Formas en que se puede producir humo en el campo de batalla. M-
+               1 tanques y M-2 Bradley tienen lanzagranadas de humo
+               a los lados de la torreta. Estos pueden dispararse hacia adelante, dando
+               una cortina de humo de corta duración. Los mismos vehículos también pueden
+               producir humo de escape del motor, que produce un humo
+               pantalla desde la parte trasera del vehículo, y que se moverá con la
+               vehículo si está en movimiento. El humo de artillería es muy útil.
+               cuando se le llama justo antes de un ataque a una posición enemiga, para
+               ocultarte de su vista.
+                                             
+T-62 Un tanque soviético con una tripulación de cuatro hombres y montando un cañón de 115 mm.
+               pistola de ánima lisa, una ametralladora de 12,5 mm y una de 7,62 mm.
+               Aunque se considera obsoleto, sigue siendo muy capaz y
+               Se encuentra en muchas unidades del Pacto de Varsovia.
+                                                        
+T-72 Un tanque soviético con una tripulación de tres hombres y montando un cañón de 125 mm.
+               pistola de ánima lisa, una ametralladora de 12,5 mm y una de 7,62 mm.
+               La eliminación del cuarto tripulante se logra mediante el uso
+               un cargador automático para el arma principal. Armadura especial y un
+               El sofisticado sistema de control de fuego lo convierte en un enemigo poderoso que
+               Es difícil parar.
+                                              
+EQUIPO Una unidad del tamaño de una empresa que incluye tanques y meca-
+               pelotones de infantería especializados. A diferencia de una empresa en tiempos de paz, la
+               El número y tipo de pelotones en un equipo puede variar según
+               su misión asignada. En el caso del Team Yankee, el Equipo
+               Inicialmente tiene dos filas y un pelotón de infantería mecanizada.
+               así como dos vehículos TOW mejorados.
+                                                  
+MIRA TÉRMICA Una mira que detecta el calor emitido por un objeto y lo traduce.
+               convertirlo en una imagen visible para el artillero o el comandante.
+                                              
+TOW Abreviatura para guiado por cable, con seguimiento óptico y lanzado por tubo
+               Misil guiado antitanque. El TOW es el ejército de los EE.UU. 
+               misil antitanque pesado actual con un alcance de casi
+               4000 metros. El sistema de guía proporciona una alta probabilidad
+               capacidad de alcanzar un objetivo del tamaño de un tanque en su alcance máximo.
+               Un misil TOW sólo puede lanzarse desde un vehículo estático.
+                                     
+PISTA Este término puede usarse para referirse a las orugas.
+               de un vehículo, o cualquier vehículo de orugas, que no sea un tanque. Para
+               alguna razón perversa los tanques, aunque tienen orugas, no son
+               denominadas "pistas".
+                                          
+PACTO DE VARSOVIA Una alianza militar fundada por el Partido Comunista Europeo 
+               países para contrarrestar a la OTAN. Consiste en la Unión Soviética,
+               Polonia, República Democrática Alemana [RYGAR- ¡eeehrr no sé!),
+               Hungría, Checoslovaquia, Bulgaria y Rumania.
+------------------------------------------------------------------------------
+                                                        
+FIN.............

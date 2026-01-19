@@ -1,0 +1,853 @@
+LA VUELTA DE INGRID
+
+
+0. CONTENIDOS
+
+ Primeros pasos................................1
+ Prefacio................................................2
+ Hablando con el juego................................3
+ Consejos................................................4
+ Secretos oficiales................................5
+ Instrucciones de carga...................6
+ Funciones adicionales................................7
+ El segundo diario de Gnettlefield................8
+
+
+CRÉDITOS
+
+Diseño de Ingrid: Pete Austin, Peter McBride, Godfrey Dowson.
+Diseño y gestión del juego: Pete Austin.
+Programación de juegos y texto del juego: Graham Jones.
+Traducción del diario y pulido del texto del juego: Peter McBride.
+Imagen de portada: Godfrey Dowson.
+Arte por computadora: Dicon Peeke.
+Sistemas: Mike y Nick Austin, John Jones-Steele, Mike Bryant.
+Transporte a tu micro: Nick Austin y Mike Bryant.
+Publicado por: Nivel 9, PO Box 39, Weston-super-Mare BS24 9UR.
+
+
+1. COMENZAR
+
+Si no has jugado una aventura de nivel 9 antes, lee todas estas instrucciones. Si eres un aventurero experimentado de nivel 9, salta al prefacio y léelo.
+
+Inicie el disco o cargue el primer casete para iniciar el juego. Si no sabe cómo hacer esto, consulte las instrucciones de carga en la página 10.
+
+Cuando el juego imprime "¿Qué sabes?" o ">", está esperando que escribas un comando. (El juego también espera cuando tiene más texto para imprimir del que cabe en la pantalla a la vez; lee lo que se muestra y presiona MAYÚS o ESPACIO para continuar).
+
+Este juego conoce cuatro tipos de comandos:
+* Movimiento: simplemente escriba la dirección en la que desea ir: NORTE, NORESTE, ESTE (y las otras direcciones de la brújula), DENTRO, FUERA, ARRIBA, ABAJO o A TRAVÉS. GO o RUN te llevarán a un lugar determinado, p. IR A INN y SEGUIR se explica por sí mismo.
+* Acciones: p.e. MIRA, TOMA LA PETICIÓN, FÍRMALA, TÍALA, EXAMINA EL BARRIL, PONTE EL SOMBRERO, BEBE LA SIDRA, o dale LA ZANAHORIA A BUMPY.
+* Comandos del sistema. SALIDA, INVENTARIO y PUNTUACIÓN dan información; PALABRAS, IMÁGENES, BREVE, DETALLE, SALIDA ENCENDIDA y SALIDA APAGADA controlan lo que se emite; DESHACER; GUARDAR, RESTAURAR, GUARDAR RAM y RESTAURAR RAM guardan su posición o regresan a una posición anterior, y REINICIAR detiene el juego. Consulte el juego de ejemplo más adelante para obtener más detalles.
+* Órdenes a otros. Ingrid podía mandar a algunas personas, como Flopsy, su perro, pero la mayoría de los gnomos desconfiaban de su talento para el desastre y trataban de no involucrarse. Escriba su nombre, seguido de comandos, p. FLOPSY, VE AL NORTE, CONSIGUE TODO Y LUEGO SÍGUEME.
+
+Puede abreviar comandos, por ejemplo, SUR a S y SURESTE a SE, e incluso escribir varios comandos en una línea, por ejemplo, ESTE, TOMAR TODO, OESTE. Después de escribir un comando (o comandos), presione la tecla ENTRAR o RETORNO.
+
+
+2. PREFACIO
+
+"Gnome Ranger" contó cómo Ingrid Bottomlow regresó del Instituto de Economía de Gnomos, llena de planes para mejorar la vida, y logró demoler la mayor parte de la granja familiar. Desterrada "accidentalmente" por su exasperada familia, Ingrid tuvo más éxito en recuperar la naturaleza e incluso detuvo una o dos guerras.
+
+"Ingrid's Back" comienza con el regreso de Ingrid a Little Moaning y cuenta cómo detuvo los planes de Jasper Quickbuck, señor avaricioso de Ridley's Manor, de arrasar la aldea del cinturón de gnomos para construir una finca de casas yuppies.
+
+El Second Gnettlefield Journal de Ingrid Bottomlow es una introducción. Luego, la parte 1 del juego describe los intentos de Ingrid de conseguir que sus compañeros gnomos firmen una petición contra el desalojo planeado. La siguiente parte trata de la defensa de la granja Gnettlefield y finalmente, en la parte 3, Ingrid se infiltra en la mansión.
+
+Pistas para la parte 1:
+* Sólo Flopsy confía en Ingrid.
+* Para que alguien firme, intente, por ejemplo, "dar la petición a Jumbo".
+* No recoger firmas de personas ajenas.
+
+Pistas para la parte 2:
+* Se sabe que Noah se acuesta en el trabajo, pero sigue instrucciones.
+* Detén la apisonadora y luego atrapa a los trolls.
+
+Pista para la parte 3:
+* La prima Daisy puede ser de ayuda.
+Si está realmente atascado, puede obtener una hoja de pistas completa y gratuita, con cientos de pistas, de Secretos oficiales (consulte la página 9) o directamente desde el nivel 9 en PO Box 39, Weston-super-Mare, Avon BS24 9UR Inglaterra. Debe adjuntar la "tarjeta de pista" del paquete y proporcionar un sobre grande, sellado y con su dirección (usuarios del Reino Unido) o cuatro cupones de respuesta internacionales (usuarios extranjeros).
+
+
+3. HABLAR CON EL JUEGO
+
+Como has visto, este juego comprende muchos comandos. La siguiente lista es sólo una parte de su vocabulario, pero da una idea de qué probar:
+norte, noreste, este (y otras direcciones de la brújula), arriba, abajo, adentro, afuera, cruzar, escalar, ir, correr, seguir, nuevamente, atacar, inventariar, salir, guardar, restaurar, guardar memoria RAM, restaurar memoria RAM, deshacer, anotar, esperar, examinar, mirar, tomar, soltar, vestir, tirar, dar, llenar, vaciar, abrir, cerrar, comer, beber, presionar, salir, palabras, imágenes, breve, detallado.
+
+Muchas palabras se pueden abreviar, por ejemplo, "inventario" a "inv".
+
+El siguiente ejemplo no es de Ingrid's Back, pero ilustra cómo jugar. Los comandos del jugador están en mayúsculas, después de cada ">" o "¿Y ahora qué?" mensaje, y el texto entre corchetes son comentarios...
+
+
+Ingrid salió de los escombros de la granja Low Moan y se cepilló. Todos los proyectos nuevos tuvieron pocos problemas iniciales y, afortunadamente, la granja había necesitado una redecoración de todos modos.
+Gritos ahogados anunciaron que la señora Downtrodden estaba ilesa, simplemente atrapada en el sótano de su antigua casa, por lo que Ingrid gritó alegremente: "¡No te preocupes! Confía en mí y pronto te liberaré".
+Hubo una pausa y luego gritos mucho más fuertes. Pero Ingrid no había esperado a que le agradecieran y ya estaba lejos.
+>MIRAR
+Ingrid estaba parada cerca de la cima de Ploughgnomes' Lane, mirando hacia el pueblo de Little Moaning. Podía ver a Flopsy.
+Flopsy saltaba alrededor de Ingrid, ladrando alegremente.
+>EXAMINAR FLOPSY
+Flopsy era el perro carro de los Bottomlow; un regalo navideño de Ingrid a sus padres. Querían un perro pequeño, bonito y tranquilo, pero en su lugar obtuvieron este monstruo saltarín con orejas caídas. Sin embargo, Ingrid pensó que era maravillosa.
+>FLOPSY, SÍGUEME
+Flopsy asintió y lamió la cara de Ingrid.
+>ARRIBA
+Ingrid subió la colina y llegó a la cima de Ploughgnomes' Hill. El carril continuaba hacia el norte, pasando un montante en el lado oeste. Un conejo cruzó corriendo la carretera, atravesó el seto junto al montante y saltó rápidamente hacia Darkwood.
+Flopsy llegó desde abajo.
+>SIGUE CONEJO
+Ingrid intentó trepar por el montante pero, como era de esperar, descubrió que era demasiado alto. Se encogió de hombros, caminó debajo y se encontró en un campo cubierto de maleza al borde de un gran bosque. Pudo ver una señal. La cola del conejo era apenas visible, desapareciendo hacia el oeste entre los árboles.
+Flopsy entró por el este y ladró emocionada.
+Ingrid se dirigió hacia el oeste y se encontró debajo de los aleros de Darkwood, en medio de un seto de zarzas. Ingrid pudo ver multitud de espinas.
+Flopsy entró por el este, olisqueó una zarza, gritó y se retiró fuera de la vista.
+Ingrid intentó ir hacia el oeste pero descubrió que estaba atrapada por las espinas y no podía seguir al conejo más.
+>DESHACER ["Recuperar movimiento" - disponible en la mayoría de los micros.]
+Ingrid estaba en un campo cubierto de maleza al borde de un gran bosque. Pudo ver un cartel y a Flopsy.
+>INVENTARIO [o "examíname"]
+Ingrid era dueña de un libro y una petición.
+Flopsy persiguió una mariposa a lo lejos.
+>SALIDAS
+Las salidas conducen al este, sur y oeste.
+>EXAMINAR LA SEÑALIZACIÓN
+Decía "Tienda general, apoyo Seamus Sosmall" y señalaba hacia el sur a lo largo de un camino sinuoso. Ingrid agradeció amablemente el cartel indicador.
+>BREVE, PALABRAS, SALIDAS EN
+Está bien. DE ACUERDO. DE ACUERDO. [Las ubicaciones se describirán brevemente, las imágenes se apagarán y las salidas se informarán automáticamente en el futuro. Para revertir estas opciones, puede usar VERBOSE, IMÁGENES y SALIDAS APAGADA.]
+>S [es decir, "SUR"]
+Ingrid fue hacia el sur y estaba justo afuera de la tienda de Seamus. Las salidas conducen al norte y al interior por una puerta. Ingrid pudo ver tocar una campana.
+>ENTRAR
+La puerta estaba cerrada.
+Flopsy llegó del Gnorth.
+>SONAR CAMPANA
+Cuando Ingrid tocó el timbre, la puerta se abrió y volvió a cerrarse lentamente.
+Flopsy miró con interés.
+>FLOPSY, ESPERA Y MANTÉN LA PUERTA
+Flopsy asintió felizmente.
+>SONAR CAMPANA.
+Cuando Ingrid tocó el timbre, la puerta se abrió. Flopsy sostuvo la puerta para que no pudiera cerrarse.
+>EN
+Ingrid entró y se encontró en la tienda de Seamus Sosmall, rodeada de todo tipo de objetos peculiares. Una salida conducía al exterior. Ingrid pudo ver un cerdo volador, un billete de tres dólares, una postal de lindos demonios patinadores sobre hielo, un reembolso de impuestos, la piedra filosofal y un hacha. Ingrid miró con mucha sospecha el hacha, y ésta miró con mucha sospecha hacia atrás.
+>PUNTUACIÓN
+Ingrid obtuvo 10 sobre 1000.
+>SALIDAS APAGADA [dejar de informar salidas]
+Está bien. Uno de los pequeños demonios le guiñó un ojo a Ingrid.
+>GUARDAR RAM
+Está bien. [Antes de hacer cualquier cosa con estos extraños objetos, guarda la posición en la RAM - es decir, en la memoria del ordenador - por si Ingrid encuentra dificultades y quieres volver a este punto, usando RAM RESTORE. Para guardar en disco o cinta, utilice GUARDAR y RESTAURAR.]
+>CONSEGUIR TODO MENOS EL CERDO
+Billete de tres dólares: Ingrid lo tomó.
+Postal de lindos demonios patinadores sobre hielo: estaba firmemente clavada en la pared.
+Devolución de impuestos: Ingrid lo aceptó.
+Piedra Filosofal: cuando Ingrid tocó la Piedra Filosofal, sintió que se volvía más lenta y pesada. Sus últimos pensamientos fueron para la señora Gneehigh en el Instituto. "Ella habría estado muy orgullosa: siempre nos decía a las chicas que fuéramos tan buenas como el oro".
+>RESTAURAR RAM
+Está bien. Ingrid estaba en la tienda de Seamus Sosmall, rodeada de todo tipo de objetos peculiares. Ingrid pudo ver un cerdo volador, un billete de tres dólares, una postal de lindos demonios patinadores sobre hielo, un reembolso de impuestos, la Piedra Filosofal y un hacha.
+>TOMAR HACHA
+Ingrid tomó el hacha.
+>IR A ESPINAS [dejando que la computadora determine la ruta. Presione cualquier tecla para abandonar este tipo de comando de "alto nivel".]
+Ingrid salió y se encontró en un campo cubierto de maleza al borde de un gran bosque. Pudo ver una señal.
+Flopsy saltó para saludarla.
+Ingrid se dirigió hacia el oeste y se encontró debajo de los aleros de Darkwood, en medio de un seto de zarzas. Ingrid pudo ver multitud de espinas.
+Flopsy entró por el este y se comió una mora.
+>TÍRATE EN EL SUELO
+Ingrid se acostó y consideró el problema.
+> CORTAR ESPINAS
+Ingrid podó minuciosamente las espinas con el hacha. Al fin y al cabo, había estudiado jardinería durante dos años en el Instituto.
+Flopsy miró la vegetación astillada y ladró con aprobación.
+>OESTE
+Ingrid pasó por encima de los restos de las espinas y se encontró en un claro del bosque. Podía ver un carrito para perros. De hecho, el carro se parecía al de la granja Gnettlefield.
+Flopsy entró por el este.
+>ENTRAR [para utilizar vehículos, subir y moverse con normalidad]
+Ingrid se sentó en el carrito para perros. Al ver esto, Flopsy se colocó entre los ejes en la parte delantera del carro, lista para tirar de él. Desde su punto de vista más alto, Ingrid vio el humo de la chimenea de una pequeña cabaña, muy al noreste.
+>NE
+El carro se dirigió hacia el noreste y se encontraba en un camino pavimentado. El sonido de voces enojadas llegó desde la cabaña al otro lado. ¡Los trolls intentaban desalojar a la tía abuela Halfyard!
+
+
+4. CONSEJOS
+
+1. Dibujar un mapa (o una serie de mapas). Recuerde que el comando EXITS ON enumera todas las rutas de cada ubicación.
+
+2. Para facilitarle la vida, los objetos importantes en un lugar normalmente se enumeran en una frase como "Puedes ver un comerciante y un manojo de hierbas". (Algunos otros autores esconden objetos útiles en medio del paisaje de fondo, pero el Nivel 9 evita esto). El resto de tu entorno probablemente sea un paisaje, pero intenta hacer cosas con ellos si quieres.
+
+3. Examina todos los objetos que veas y, como regla general, toma todo lo que puedas. La mayoría de los objetos son útiles de alguna manera.
+
+4. Utilice los comandos de "alto nivel", como IR AL MOLINO DE VIENTO, CORRER AL PUENTE, SEGUIR LA APisonADORA, ESPERAR 5, ESPERAR FLOPSY, que reemplazan muchas instrucciones individuales. Recuerde que al presionar una tecla se "rompe" dichos comandos.
+5. Algunos acertijos solo se pueden resolver con la cooperación de otras personas (especialmente en las últimas partes del juego), así que acostúmbrate a dar órdenes. Puede cancelar pedidos realizados por error, p. FLOPSY, DETENTE
+
+6. Acostúmbrate a usar "DESHACER". Si cometes un error y te "mueren" o pierdes un objeto vital, el comando DESHACER está disponible en la mayoría de los micros y te lleva atrás en el tiempo, antes de tu movimiento anterior. En micros más grandes, puedes usar DESHACER muchas veces seguidas para volver sobre tus pasos a lo largo del juego.
+
+7. GUARDE su lugar de vez en cuando, de modo que si nota un error demasiado tarde para poder DESHACERLO, o si la electricidad parpadea y su computadora falla, pueda RESTABLECER la posición guardada y continuar desde allí. SAVE coloca su posición en una cinta o disco (consulte las instrucciones detalladas) y RESTORE puede recuperarla más tarde. RAM SAVE es más rápido pero menos seguro, ya que guarda la posición en la memoria.
+
+8. Prueba todo lo que se te ocurra; incluso las acciones extrañas o peligrosas a veces proporcionan pistas y pueden ser divertidas. Puede usar DESHACER (o RESTAURAR si anteriormente usó GUARDAR) para recuperar si los resultados son "fatales".
+
+9. Puedes expresar una orden de muchas maneras diferentes. Por ejemplo, si hubiera un hacha y una pelota en el suelo, podrías tomar el hacha escribiendo cualquiera de los siguientes:
+>CONSIGUE EL HACHA
+>TOMAR HACHA
+>CONSEGUIR TODO MENOS LA BOLA
+>MIRA EL HACHA Y TÓMALA
+Si el juego no entiende tu comando, intenta reformularlo y usar sinónimos. Si el juego aún no entiende, probablemente estés intentando algo que no es importante en el juego.
+
+10. Si estás realmente atascado, puedes obtener una hoja de pistas gratuita, con cientos de pistas, en el nivel 9 en PO Box 39, Weston-super-Mare, Avon BS24 9UR, Inglaterra. Debe adjuntar la "tarjeta de pista" del paquete y proporcionar un sobre grande, sellado y con su dirección (usuarios del Reino Unido) o cuatro cupones de respuesta internacionales (usuarios extranjeros).
+
+
+DERECHOS DE AUTOR
+
+"Ingrid's Back" tiene copyright (C) 1988 de Level 9 Computing, PO Box 39, Weston-super-Mare, Avon BS24 9UR, Inglaterra.
+
+Por favor, recuerda que Ingrid's Back requirió mucho tiempo y esfuerzo para producirlo, por parte de muchos de nosotros, los gnomos, así que no hagas más de una copia, para tu propio uso, y consérvala solo mientras tengas el juego original.
+
+
+5. SECRETOS OFICIALES
+
+Seamos realistas, en algún momento de este juego vas a necesitar ayuda.
+
+Una buena idea, antes de empezar, es enviarnos un sobre con la dirección estampada. Luego recibirás un conjunto completo de pistas antes de que las necesites, o al menos antes de que te desesperes por ellas. Pero las pistas no son lo único que te enviaremos:
+
+Te contamos todo sobre los SECRETOS OFICIALES. Ese es el club para la gente que quiere más. ¿Más que qué? Podrías preguntar. Pero no podemos contaros mucho porque no queremos revelar el juego... todavía.
+
+Envíe un sobre grande con dirección estampada o un cupón de respuesta internacional a:
+
+Ingrid
+Secretos oficiales
+P.O. Caja 847
+Harlow CM21 9PH
+
+Y en la esquina de su sobre marque qué tipo de computadora tiene.
+
+
+6. INSTRUCCIONES DE CARGA PARA LA ESPALDA DE INGRID
+
+Esta sección le indica cómo ejecutar "Ingrid's Back" en su computadora y enumera las características específicas de cada versión. Si experimenta algún problema de carga, devuelva los casetes o el disco, sin el embalaje, a Level 9 Computing en PO Box 39, Weston-super-Mare, Avon BS24 9UR.
+
+
+INSTRUCCIONES DE CARGA DEL DISCO
+
+Busque la lista alfabética de tipos de computadoras y siga las instrucciones para su computadora. El texto subrayado es lo que escribe y recuerde presionar la tecla ENTRAR o RETORNO después de cada comando.
+
+* Amiga 500 Inserta el disco del juego y enciende tu Amiga.
+* Amiga 1000/2000 Inserta tu disco Kickstart y enciende tu Amiga. Cuando te solicite Workbench, inserta el disco del juego.
+* Amstrad CPC 6128 Enciende tu CPC (6128 o 464/664 ampliado a 128K) e inserta el disco del juego. Ingrese a EJECUTAR "MENÚ"
+* Amstrad PCW Inserta tu disco CP/M+ habitual y enciende tu PCW. Inserta el disco del juego y entra en MENÚ.
+* Apple II Inserta el disco del juego y enciende tu Apple II.
+* Atari ST Inserta el disco del juego y enciende tu ST.
+* Atari XE o 800XL Retire los cartuchos. Inserta el disco del juego. Mientras mantienes presionada OPCIÓN durante al menos 5 segundos, enciende el Atari. Si no pasa nada, apaga el Atari durante 30 segundos y vuelve a intentarlo.
+* BBC master o 48K+ Enciende tu BBC micro, inserta el disco del juego y presiona SHIFT y BREAK juntos. Si esto no funciona, presione CONTROL SHIFT D y BREAK juntos.
+* Disco CBM 64 o 128 Enciende tu Commodore (mientras mantienes presionada la tecla Commodore, si tienes un 128). Inserta el disco del juego e ingresa LOAD"*",8,1
+* IBM PC y clones Inserta el disco del sistema operativo normal y enciende tu IBM PC. Inserta el disco del juego y entra en MENÚ.
+* Mac, Mac+ Inserta el disco del sistema operativo normal y enciende tu Mac. Inserta el disco del juego y haz doble clic en el ícono MENÚ.
+* Spectrum +3 Enciende el Spectrum, inserta el disco del juego y presiona ENTER.
+
+
+INSTRUCCIONES PARA CARGAR LA CINTA
+
+Coloque una de las cintas del juego en su grabadora, busque la lista alfabética de tipos de computadoras y siga las instrucciones correspondientes a su computadora. El texto subrayado es lo que escribe y recuerde presionar la tecla ENTRAR o RETORNO después de cada comando. Si la cinta no se mueve, presione ENTER o RETURN nuevamente.
+
+* Cinta Amstrad CPC Enciende tu CPC. Si tiene una unidad de disco, ingrese |TAPE Type RUN"" inicie la cinta en reproducción y presione ESPACIO.
+* Atari XE, 800XL Retire los cartuchos. Mientras mantienes presionado INICIO y OPCIÓN durante al menos 5 segundos, enciende el Atari. Inicie la reproducción de la cinta y presione RETURN. Si no pasa nada, apaga el Atari durante 30 segundos y vuelve a intentarlo.
+* Cinta CBM 64 o 128 Enciende tu Commodore (mientras mantienes presionada la tecla commodore si tienes un 128). Presione SHIFT y RUN/STOP juntos e inicie la cinta.
+* MSX 64K Enciende tu MSX, introduce RUN"CAS:" y reproduce la cinta.
+* Spectrum 48K Encienda el Spectrum, escriba LOAD"" y reproduzca la cinta.
+* Spectrum 128/+2 Encienda el Spectrum, presione ENTER y reproduzca la cinta.
+
+
+GUARDAR EN DISCO
+
+Para guardar posiciones de juego de la versión en disco de Ingrid's Back, primero necesitas un disco en blanco.
+Antes de reproducir Ingrid's Back, formatee (inicialice) este disco utilizando el software normal adquirido con su micro. (Las excepciones a esto son los discos Apple II y Atari XE, 800XL; Ingrid's Back usa su propio formato de disco en estas computadoras e inicializará el disco).
+Mientras juegas, ingresa GUARDAR y sigue las instrucciones que se muestran.
+Para regresar a una posición GUARDADA, ingrese RESTAURAR y SÍ, y siga las instrucciones que le soliciten una palabra de la historia. Al ingresar un nombre de archivo, puede escribir una palabra corta como POS1 o usar el formato completo permitido por su computadora en particular.
+
+
+AHORRE EN CINTA
+
+Para guardar posiciones de juego de una versión en casete de Ingrid's Back, necesita su propio casete en blanco.
+Al jugar, inicie una cinta en blanco en GRABAR e ingrese GUARDAR (si el casete no se mueve, presione ENTER o RETURN nuevamente). Cuando el juego comience a ejecutarse nuevamente, por ejemplo, cuando aparezca el mensaje "¿Qué sabes?", detén la cinta.
+Para regresar a una posición GUARDADA, ingrese RESTAURAR y SÍ, luego siga las instrucciones que le soliciten una palabra de la historia. Finalmente, rebobine la cinta en la que se guardó la posición y reprodúzcala (si el casete no se mueve, presione ENTER o RETURN nuevamente).
+
+
+GUARDAR EN MEMORIA
+
+Para guardar tu posición de juego en la memoria del juego (todos excepto los 48K Spectrum, los 64K Amstrad CPC y los pequeños BBC lo permiten), ingresa RAM SAVE.
+Para volver a una posición GUARDADA, ingrese RAM RESTORE
+Guardar en la memoria es rápido y conveniente: es una forma ideal de guardar su posición antes de intentar algo arriesgado, pero una posición GUARDADA en RAM se perderá si su computadora se apaga o falla, así que GUARDE en disco o cinta de vez en cuando.
+Tenga en cuenta también que el comando UNDO está disponible en todas las versiones que tienen RAM SAVE. UNDO te lleva "al pasado" antes de que Ingrid se moviera por última vez: es un poco como RAM RESTORE donde los correspondientes GUARDADOS DE RAM son automáticos. UNDO se puede utilizar muchas veces seguidas en micros más grandes.
+
+
+7. CARACTERÍSTICAS ADICIONALES
+Las versiones de las aventuras de Nivel 9 en micros más grandes suelen tener más facilidades que las de máquinas más pequeñas. Aquí hay un resumen de las funciones disponibles con Ingrid's Back...
+
+CARACTERÍSTICAS DE AMIGA
+* imágenes en color (use el ratón, con el botón izquierdo pulsado, para deslizar la imagen hacia arriba y hacia abajo);
+* caché de imágenes (evitando cargas de disco innecesarias);
+* recuperación y edición de comandos anteriores, mediante las teclas del cursor y ESPACIO ATRÁS;
+* GUARDAR/RESTAURAR RAM y DESHACER;
+* Archivo LÉAME. Para obtener más información, inicia Amiga con Workbench, luego inserta el disco del juego y haz doble clic en su icono y README.TXT.
+
+CARACTERÍSTICAS DEL DISCO AMSTRAD CPC
+* imagen en color (use F8 y F2 para deslizar la imagen hacia arriba y hacia abajo). Para ver más imágenes, espera hasta que el juego se haya cargado y esté esperando a que escribas algo; luego, voltea el disco;
+* caché de imágenes (evitando cargas de disco innecesarias);
+* recuperación y edición de comandos anteriores, mediante las teclas del cursor y BORRAR;
+* GUARDAR/RESTAURAR RAM y DESHACER;
+* el disco Amstrad CPC también funciona en Amstrad PCW y Spectrum +3;
+* Archivo LÉAME. Para obtener más información, enciende el CPC, inserta el disco del juego e ingresa LOAD"README" y LIST
+
+CARACTERÍSTICAS DEL DISCO AMSTRAD PCW
+* fotografías en blanco y negro. Para ver más imágenes, espera hasta que el juego se haya cargado y esté esperando a que escribas algo; luego, voltea el disco;
+* caché de imágenes (evitando cargas de disco innecesarias);
+* recuperación y edición de comandos anteriores, mediante las teclas del cursor y BORRAR;
+* GUARDAR/RESTAURAR RAM y DESHACER;
+* el disco Amstrad PCW también funciona en Amstrad CPC y Spectrum +3;
+* Archivo LÉAME. Para obtener más información, inicie la PCW con CP/M+ como de costumbre, luego inserte el disco del juego e ingrese TYPE README.TXT.
+
+CARACTERÍSTICAS DE ATARI ST
+* imágenes en pantallas en color y en blanco y negro (use el ratón, con el botón izquierdo presionado, para deslizar la imagen hacia arriba y hacia abajo);
+* caché de imágenes (evitando cargas de disco innecesarias);
+* recuperación y edición de comandos anteriores, mediante teclas de cursor y Retroceso;
+* GUARDAR/RESTAURAR RAM y DESHACER (varias veces seguidas);
+* tamaño de texto variable (experimente con F1 y F2, luego escriba);
+* Juego de demostración. Si deseas una demostración continua de Ingrid's Back, tal vez para una tienda, inicia el juego y ESPERA HASTA QUE LA PRIMERA IMAGEN HA TERMINADO DE CARGAR y el juego esté esperando un comando. Si es necesario, presiona la ESPACIO un par de veces para que el juego pueda imprimir el resto del mensaje de inicio y llegar al primer mensaje, ">" o "¿Y ahora qué?". Sólo entonces debes presionar Alternar R;
+* Archivo LÉAME. Para obtener más información, inicie el ST con un disco que no se inicie automáticamente (por ejemplo, un disco en blanco). Luego inserte el disco del juego y haga doble clic en su icono y README.TXT
+
+CARACTERÍSTICAS DEL DISCO BBC
+* Imágenes en color en BBC Masters, B+ con RAM lateral adicional o BBC B con RAM lateral y de sombra. (Las BBC más pequeñas muestran una visualización de solo texto en modo 7, por ejemplo, BBC B con solo RAM lateral o oculta). En BBC Masters puedes usar las teclas del cursor, con SHIFT presionado, para deslizar la imagen hacia arriba y hacia abajo. Para ver más imágenes, espera hasta que el juego se haya cargado y esté esperando a que escribas algo; luego, voltea el disco;
+* recuperación y edición de comandos anteriores, en BBC lo suficientemente grandes como para mostrar imágenes, mediante las teclas del cursor, BORRAR y COPIAR ("borrar hacia adelante");
+* tamaño de texto variable, en BBC lo suficientemente grande como para mostrar imágenes; presione f0 y f1 para seleccionar entre 40 y 80 columnas de texto;
+* GUARDAR/RESTAURAR RAM y DESHACER en BBC grandes;
+* caché de imágenes en BBC muy grandes (evitando cargas de disco innecesarias);
+* Archivo LÉAME. Para obtener más información, enciende la BBC, inserta el disco del juego e ingresa *TYPE "README"
+
+CARACTERÍSTICAS DEL DISCO COMMODORE 64/128
+* imagen en color (use las teclas del cursor para deslizar la imagen hacia arriba y hacia abajo). Para ver más imágenes, espera hasta que el juego se haya cargado y esté esperando a que escribas algo; luego, voltea el disco;
+* GUARDAR/RESTAURAR RAM y DESHACER;
+* rendimiento rápido cuando las imágenes están apagadas; en parte porque la carga desde disco tarda un poco (aunque usemos un buen turbo) y en parte porque al no necesitar mantener una pantalla dividida móvil (entre la imagen y el texto) se libera más potencia de procesamiento.
+
+CARACTERÍSTICAS DE LA PC IBM
+* Imágenes en modos MGA y EGA. (El disco sólo contiene un conjunto de imágenes y las convierte en salida cuando se elige MGA);
+* caché de imágenes (evitando cargas de disco innecesarias);
+* GUARDAR/RESTAURAR RAM y DESHACER (en máquinas con más de 128K);
+* Juego de demostración. Si deseas una demostración continua de Ingrid's Back, tal vez para una tienda, inicia el juego ingresando al MENÚ y esperando a que se cargue. Luego, antes de hacer cualquier otra cosa, presione ALT R. Continúe eligiendo un formato de visualización como de costumbre;
+* Archivo LÉAME. Para obtener más información, inicie la PC desde el disco del sistema operativo normal, luego inserte el disco del juego e ingrese TYPE README.TXT.
+
+CARACTERÍSTICAS MAC
+* imágenes (use el botón del mouse presionado para deslizar la imagen hacia arriba y hacia abajo);
+* recuperación y edición de comandos anteriores, mediante teclas de cursor y Retroceso;
+* GUARDAR/RESTAURAR RAM y DESHACER (varias veces seguidas).
+
+CARACTERÍSTICAS DEL DISCO ESPECTRO +3
+* Imágenes en blanco y negro, diseñadas para visualización en televisión (use las teclas del cursor para deslizar la imagen hacia arriba y hacia abajo). Para ver más imágenes, espera hasta que el juego se haya cargado y esté esperando a que escribas algo; luego, voltea el disco;
+* recuperación y edición de comandos anteriores, mediante las teclas del cursor con SYMB SHIFT presionado y DELETE;
+* GUARDAR/RESTAURAR RAM y DESHACER (varias veces seguidas);
+* el disco Spectrum +3 también funciona en Amstrad CPC y PCW;
+* Archivo LÉAME. Para más información enciende el Spectrum +3, inserta el disco del juego, selecciona +3 BÁSICO e ingresa CARGAR "READ.ME"
+
+
+8. EL SEGUNDO DIARIO DE GNETTLEFIELD
+
+Día del aire 16 Gnovigour
+
+Bueno, es agradable estar de vuelta en mi habitación en Gnettlefield Farm, escribiendo mi diario de nuevo.
+
+Llegué a casa de mis pequeñas vacaciones (ver Gnome Ranger) justo a tiempo para el almuerzo. Mi familia estaba sentada alrededor de la mesa, viendo cómo se enfriaba la sopa, y se sorprendieron cuando asomé la cabeza por la puerta de la cocina y grité: "¡Coo-ee! ¡Soy yo!".
+
+Gnognome se movió o dijo algo durante aproximadamente un segundo, luego mamá, que le había estado pasando el pan a Dimple, chilló y lo dejó caer. El pan rompió la sopera y la sopa caliente se derramó sobre el regazo del pobre Bumpy. Saltó, volcó el banco en el que estaban sentados él, Dimple y Gnoggin, y todos aterrizaron en el hogar. Mientras tanto, el pan, uno de los gruesos y redondos de mamá, rodó a lo largo de la mesa y cayó sobre el pie de papá con un crujido.
+
+Flopsy, mi perro favorito, saltó de la silla en la que estaba sentada y saltó hacia mí. Y entonces vi a Arback Garden, nuestro fiel peón. Flopsy había estado sentada sobre él, y su salto lo había empujado contra el asiento de su silla. De todos modos, se quitó los pelos de perro de la cara y me dedicó una especie de sonrisa aplastada.
+
+Más tarde, cuando mamá vendó el pie de papá, Dimple fue a secarse y mis otros hermanos decidieron que ya habían estado tumbados en la chimenea el tiempo suficiente y Arback volvió a poner la sopa en la olla, nos sentamos todos alrededor de la mesa. Les conté mis aventuras y les dije que no sabía qué había hecho para merecer unas vacaciones tan estupendas y que esperaba que no hubieran costado demasiado.
+
+El padre estaba un poco de mal humor y dijo: "Considerando lo que pagué por ese pergamino de teletransportación, tres meses no fueron mucho tiempo".
+
+"Tonterías, padre", le dije. "Fue más que suficiente, especialmente porque tengo mucho que hacer aquí".
+
+Pero mi padre no se dejó tranquilizar y murmuró: "Hablaré con ese Seamus Sosmall la próxima vez que venga a vender sus mercancías a Gnettlefield".
+
+Sabes, mientras estuve fuera, tuve mucho tiempo para pensar en las mejoras que quiero hacer en la granja. Estaba empezando a contarles algunas de mis ideas cuando mamá dijo: "Ya es hora de que Flopsy corra".
+Bueno, cuando Flopsy escuchó esto, se levantó de un salto, tomó una silla de la pared y comenzó a atársela. Parecí un poco sorprendido, pero Arback dijo: "Flopsy normalmente me lleva a dar un paseo después del almuerzo. Tal vez quieras ir en su lugar".
+
+¡Montando flopsy! ¡De verdad, mi familia es tan vaga! La llevé a dar un largo y agradable paseo y echamos un buen vistazo a la granja.
+
+El gallinero todavía está en una sola pieza y hay docenas de gallos por todas partes. La pocilga de cobayas y el granero han sido reconstruidos, pero no hay señales del molino. Sólo un montón de escombros donde solía estar. Tampoco he visto al tío Dusty Halfyard, así que mañana debo averiguar qué le pasó. No puedo preguntarle a ningún gnomo ahora porque, cuando regresé con Flopsy, toda mi familia se había ido a la cama y se han quedado allí desde entonces.
+
+No me fui directamente a la cama, en parte porque quería escribir mi diario y en parte porque no podía encontrar mi cama. Al final lo saqué de debajo de un montón de nabos que habían guardado en mi habitación. Los he apilado perfectamente afuera, listos para llevarlos abajo por la mañana.
+
+Día del Fuego 17 Gnovigour
+
+¡Oh mi padre es tan torpe! Se levantó en medio de la noche y bajó a tomar un refrigerio. Bueno, eso es lo que iba a hacer, pero tropezó con los nabos en lo alto de las escaleras y se cayó. Entonces todos los nabos rodaron encima de él. Debe haber causado un tremendo gnomo. Me sorprende que gnognome haya despertado.
+
+De todos modos, los nabos todavía estaban allí esta mañana, bloqueando el camino a la cocina. Eran aproximadamente las diez cuando despejamos un pasaje hacia la cima para poder ir a desayunar, y por la tarde mi padre logró salir de debajo del resto.
+
+He resuelto el misterio del molino de viento perdido. El tío Dusty ha hecho construir uno nuevo en su propio terreno, al otro lado del campo Sandybottom. Fui a verlo después del desayuno. El tío Dusty es un hombre de negocios desesperado y veo que tendré que hacerme cargo de su fábrica o será un completo fracaso.
+
+Para empezar, el molino es poco acogedor. Hay una puerta al final de su carril con un gran cartel de "entrada Gno". (En realidad, no dice "Entrada Gno". Ha intentado usar esa elegante palabra "ingreso" en su lugar, pero no puede deletrear. Entonces el letrero dice "Halfyard's Gnew Mill. Gno Ingrids").
+
+Entonces el molino está en el lugar equivocado. Está en el fondo de un valle resguardado, rodeado de árboles, y las velas apenas giraban. Sin embargo, el viento era tan fuerte en el campo de Sandybottom que los conejos tenían que taparse las orejas para evitar que se los llevara el viento.
+
+Y cuando llegué allí, no pude entrar por la puerta porque él estaba apilando sacos de maíz desde adentro; podía verlos a través del ojo de la cerradura. Y parece que se está quedando sordo porque no pude hacer que me oyera. Es muy malo para los negocios. ¿Y si hubiera sido cliente?
+
+Día de la Piedra 18 Gnovigour
+
+Mientras estaba quitando el polvo de la repisa de la chimenea esta mañana (estoy seguro de que gnognome ha hecho alguna limpieza desde que me fui), encontré docenas de cartas de agentes inmobiliarios. Todos tienen clientes que quieren comprar la finca, pero están perdiendo el tiempo porque no somos propietarios. En cambio, mis padres lo alquilan con un contrato de arrendamiento a largo plazo al señor de la mansión de Ridley.
+
+Luego encontré una tarjeta con el borde negro. Tenía una escritura muy elegante, de esas que son todo bucles y garabatos. Logré leer "Invitación...", luego decidí que sería más rápido preguntárselo a Madre.
+
+"Enterraron al viejo terrateniente el mes pasado. Eso fue para su funeral".
+
+"Oh, ¿está muerto entonces?" Pregunté, sin pensar.
+"Eso espero", respondió la madre. "Nunca le pregunté. Lo enterraron de todos modos". Entonces mamá recogió todos los cachivaches que yo había dejado a un lado, listos para tirarlos, y los volvió a colocar con cuidado sobre la repisa de la chimenea. Así que dejé la limpieza hasta el día de mercado, cuando mamá estará fuera de casa, y decidí visitar la mansión de Ridley's End. La prima Daisy trabaja allí como criada, por lo que seguramente sabrá todo sobre el nuevo escudero.
+
+Pero sólo llegué hasta el pueblo de Little Moaning, donde descubrí que no podía cruzar el río Dribble. Quiero decir, ¡de verdad! Han pasado años desde que la mitad del puente se derrumbó bajo el peso de Jumbo Butterpat y todavía no han conseguido reconstruirlo. ¡Aunque está en la carretera principal de Little Hampton a Gnomebridge! La única forma de superarlo es en ferry, pero Boney Spratt es tanto el gnomo pescador como el gnomo ferry. Como hoy era un día de pesca, no un día de ferry, ¡eso fue todo!
+
+Lunes 19 Gnovigour
+
+Intenté volver a visitar al tío Dusty, pero Mill Yard está lleno de gallinas feroces. Tan pronto como me acerqué a la puerta, todos vinieron corriendo y cloqueando enojados, así que retrocedí. Estaba preocupada por la seguridad del tío Dusty, pero mamá dice que está bien. De hecho, tiene gallinas para protegerse de los intrusos.
+
+Acabo de descubrir por qué la abuela Gnutson no está. Se ha ido a cuidar de Dribblemouth Light, mientras Millie Watts, la farera, está visitando a su hermana en Gnomebridge. Debo ir a verla pronto.
+
+Día del Árbol 20 Gnovigour
+
+Arrinconé a mi padre después del desayuno y le conté mi plan de drenar el campo Soggybottom para que podamos cultivar algo útil en él (la mayor parte está bajo el agua, como siempre). Estudié irrigación en el Instituto de Economía Gnome y todo lo que tenemos que hacer (bueno, todo lo que él y mis hermanos tienen que hacer, y no están haciendo mucho en este momento) es cavar un par de zanjas de drenaje para unirse con el río Dribble, donde corre a lo largo del costado del campo.
+
+Mi padre dijo que estaba demasiado mojado para cavar.
+
+Día de la Madera 21 Gnovigour
+
+Salí nuevamente hacia Ridley's End esta mañana, pero era otro día de pesca, así que me quedé atrapado en este lado del Dribble. Mientras pasaba por la fragua, escuché algunos golpes y fui a investigar.
+
+El herrero Gnat Tackhammer estaba martillando un peculiar carrito: ¡parece que ha inventado un carruaje sin perros!
+
+Había arreglado bastante bien los faros y la forma del techo corredizo, pero estaba teniendo problemas con la parte de qué lo hace funcionar. Había improvisado un conjunto elegante de cosas que llamaba pedales y cadenas, pero le dije: "De verdad, señor Tackhammer, si la gente va a usar los pies para ir a algún lugar, ¡es mejor que camine!".
+
+Eso lo hizo pensar un poco, así que dijo: "Muy bien, señorita Cleverclogs, ¿qué sugiere?"
+
+Estudié ingeniería en el Instituto, así que la respuesta era realmente obvia. Energía eólica. Como en los barcos. Gnat entró entonces a almorzar, así que me dispuse a hacer el trabajo para sorprenderlo. Utilicé una sábana que la señora Tackhammer había colgado para secar, para montar una vela y saqué los pedales del carruaje. El carruaje seguía sin moverse, pero noté unos pequeños bloques que se habían atascado en las ruedas y les impidió girar. Acababa de terminar de quitármelos cuando Gnat regresó.
+
+"¿Qué piensas entonces del carruaje?" Le pregunté. No sabía qué decir, así que le dije: "Vamos, lo probaremos" y lo saqué de la fragua.
+
+Había una brisa agradable que soplaba por Ploughgnomes Lane hacia Greater Cawing, y la vela fue un placer. El señor Tackhammer y yo subimos a bordo antes de que se lo llevara el viento, y pronto estábamos rodando por la carretera a toda velocidad. Pero desafortunadamente, el viento amainó cuando llegamos a los árboles cerca del molino de Dusty y nuestro carruaje sin perros se detuvo.
+Quería empujarlo un poco hasta que encontráramos más viento, pero Gnat ya había tenido suficiente y quería regresar. Entonces nos dimos cuenta de que el viento soplaría en la dirección equivocada. El señor Tackhammer iba a quejarse, hasta que le señalé que todo era cuesta abajo hasta Forge, por lo que no había ningún problema.
+
+Fue un poco desafortunado lo que pasó después. Me bajé del carruaje para darle la vuelta y lo estaba empujando para ponerlo en marcha, cuando la señora Downtrodden llegó para ver qué estaba pasando. Solté el carruaje para hablar con ella, y mientras ella se quejaba de eso "No estoy siendo gnatural. Gno perros ni nada..." el carruaje se fue sin mí.
+
+Realmente aceleró cuesta abajo y estoy seguro de que si hubiera estado conduciendo todo habría ido bien. Pero Gnat Tackhammer seguía gritando sobre sabotaje en los frenos y tratando de frenarlo con los pies, por lo que cuando el carruaje llegó al puente no tenía suficiente velocidad para saltar la brecha. Afortunadamente, no resultó dañado ya que su caída fue interrumpida por el barco pesquero de Boney Spratt en medio de la corriente.
+
+El carruaje flotó muy bien y fue arrastrado de regreso a la orilla cerca del final del Spit.
+
+Me encontré con Gnat y Boney más tarde, caminando empapados de regreso por el camino hacia la fragua. "Eso no estuvo tan mal para una prueba, ¿verdad?" Dije alentadoramente. "¿Volveremos a trabajar mañana en nuestro carruaje sin perros?"
+
+"Gno", dijo Mosquito. "Voy a diseñar un carruaje Ingridless". Y Boney escurrió su barba sobre mis sandalias.
+
+Día del aire 22 Gnovigour
+
+¡Hoy tampoco pude comunicarme con la mansión! Boney Spratt reparó bien su barco, ¡pero fue otro día de pesca! Pensé que todo esto se estaba volviendo un poco ridículo (no creo que haya habido un día de ferry desde que regresé), así que bajé a Ferry Cottage para ver qué estaba pasando. Boney no estaba allí, por supuesto (pude verlo pescando en el Dribble), pero sí su esposa.
+
+"¿Por qué no hay ferry hoy?" Le pregunté a la señora Spratt.
+
+"No uses ese tono de voz conmigo, jovencita", chilló la señora Spratt, "y no interrumpas a tus mayores y superiores".
+
+Fue entonces cuando me fijé en la señora Butterpat, aunque en realidad es difícil no fijarme en ella. Ella es tan grande como Jumbo. Estaba comprando pescado: una cesta llena. Esperé hasta que terminaron su conversación y ella estaba a punto de irse, antes de volver a intentarlo.
+
+"Perdóneme, señora Spratt", dije muy cortésmente, "pero ¿podría decirme cuándo habrá un ferry para cruzar el Dribble?".
+
+"Bueno, no me gustaría decirlo", dijo. "Mi Boney está tan ocupado pescando para las mesas del Gnomo Verde que no tiene tiempo para transportar gnos".
+
+"Perdóneme, señora Butterpat", le pregunté, "pero ¿podría decirme por qué el Gnomo Verde está tan ocupado hoy en día?"
+
+"Son todos esos viajeros esperando el ferry", respondió.
+
+Día del Fuego 23 Gnovigour
+
+¡Por fin llegué a Ridley's End! Eso sí, tuve que caminar hasta Greater Cawing, luego bajar por el carril que conduce al puente peatonal sobre Upper Dribble y al vado que cruza Trickle. Luego fue a campo traviesa sobre Three Mole Hill. Vi a un gnomo cerca del tercer grano de arena y los saludé con la mano, pero no tuve tiempo de detenerme. Debo ir a visitarlo alguna vez, ya que parece bastante solitario allí.
+
+Encontré a la prima Daisy en el huerto ayudando a Armillaria Budblast, la jardinera, a ver crecer el perejil. Me contaron todas las novedades. Parece que el viejo Squire Gillpot murió el mes pasado. Murió en sus copas, dijo. Bueno, en una taza. Alguien le envió una enorme taza amorosa para su cumpleaños, y se cayó y se ahogó cuando todavía estaba medio llena de cerveza.
+
+De todos modos, el nuevo escudero es un primo lejano, Jasper Quickbuck. Todavía vive en Gnomechester, y Daisy dice que es un "comerciante de interior" en la ciudad, le gusta Guinness e hizo una fortuna cuando se privatizó BT.
+Todos fueron invitados al funeral del viejo Squire. Daisy dijo que era "un gesto muy bonito". Han colocado mesas en los jardines de Manor (no tenían a los aldeanos en la casa, ni en el patio trasero de Ridley). Había sándwiches, pastelitos y cerveza. Sin embargo, a Armillaria Budblast no le pareció muy agradable, especialmente cuando bebieron suficiente cerveza para bajar el nivel y encontró una de las botas de Squire Gillpot en la parte inferior.
+
+En realidad, Squire Quickbuck no vino personalmente al funeral; de hecho, apenas estuvo cerca del lugar. (Daisy dice que probablemente sea demasiado grande para gente como nosotros). La mansión está dirigida por su contador, Meacher, y su agente, un duende con un traje llamativo llamado Silas Crawley.
+
+Día de la Piedra 24 Gnovigour
+
+Estaba saliendo a buscar turba para el fuego cuando me llamó Seamus Sosmall, el duende viajero. Parecía un poco nervioso y dudó en el umbral cuando lo invité a pasar.
+
+—¿Está el señor Bottomlow en casa? preguntó.
+
+"Gno, 'fraid gnot", respondí.
+
+"¡Ah!" dijo, pareciendo un poco menos inquieto. "Er... ¿disfrutaste tu pequeño viaje, verdad?"
+
+"¡Fue maravilloso!" Le dije.
+
+"¡Sin duda!" gritó, con una enorme sonrisa. "Entonces entraré".
+
+Entonces entró y le pregunté si tenía levadura. Nunca había oído hablar de él, pero cuando le dije para qué servía, dijo: "Un momento, ya sabes. Tengo exactamente eso". Luego rebuscó en su bolso y sacó un paquete marcado "Super Lift-Off". Me lo entregó y dijo: "Esto funcionará, sin duda".
+
+También me vendió Spade Shine, "seguro que hará que una pala se deslice suavemente por el suelo más empapado". Era justo lo que necesitaba para que mi padre y mis hermanos avanzaran en esas zanjas de drenaje.
+
+Iba a hacer pan tan pronto como se fue, pero mientras hablábamos el fuego se apagó y luego Arback dejó caer las cerillas en el fregadero para que no pudiéramos volver a encenderlo. Arback casi ha terminado de tender las cerillas en el tendedero. Espero que no llueva.
+
+Sandday 25 Gnovigour
+
+Llovió. Desayunamos gachas frías. Dimple pensó que era genial y ¡podríamos tenerlo siempre así!
+
+Quería una taza de té caliente, así que decidí bajar al Dribblemouth Light para ver a la abuela Gnutson. Tenía la tetera encendida, como pensé que haría. Y ella tenía una visita. Era Isfrutt Garden, el hermano mayor de Arback.
+
+"Aquí hay un gnomo que estaría interesado", le dijo a la abuela, tapándose los ojos con una mano para protegerlos de la luz de la jaula llena de luciérnagas.
+
+"No, Ingrid no querría desenterrar un gran barco maderero gnomo", dijo la abuela con desdén.
+
+No me gusta que me menosprecien, y cuando me di cuenta de lo que ella había dicho, dije muy claramente: "¡Oh, sí lo haría!".
+
+"En ese caso", dijo Isfrunt, "te lo contaré todo". Así lo hizo.
+
+Me habló de una vieja lancha Gnorse enterrada bajo su huerto en Dunrollin, en las Dunas. Esa es su cabaña justo encima del Spit, cerca del faro. Lo pude ver desde la ventana. Parecía muy acogedor acurrucado en medio de la arena. De todos modos, encontró un mapa antiguo con un naufragio marcado, se dio cuenta de que estaba cerca de Dunrollin y comenzó a cavar. Había descubierto la proa, que es la parte delantera, cuando hubo esta terrible tormenta y todo quedó cubierto de arena.
+
+"No podemos permitir que permanezca oculto, Igngrid", dijo la abuela. "Debemos demostrar que los gnomos nórdicos se quedaron atrás de los gnomos gnativos". Ella se detuvo y me miró para ver si me estaba dejando llevar. Yo no lo estaba. Ella continuó. "¡Y piensa en las cosas magníficas que podemos descubrir!"
+
+Eso último me convenció. "¿Tienes una pala, abuela?" Yo pregunté. No lo había hecho, pero Isfrunt dijo que encontraría uno junto a la puerta de su casa y que se reunirían conmigo en breve.
+¡Dentro de poco! ¡Ja! Era media tarde cuando él y la abuela aparecieron. Para entonces, ya había quitado toda una duna de arena de su huerto y había cavado la tierra hasta la profundidad de dos palas. Había encontrado dos monedas viejas, de tipo gnormal, gnot Gnorse, medio plato, tres nabos y un tallo de col.
+
+"¿Estás seguro de que estaba aquí?" -le pregunté a Isfrut, apoyándome en mi pala.
+
+"Sí", respondió, sonriéndome para animarme (debí parecer muy harto), mientras examinaba su huerto perfectamente excavado. "Sucede que estoy seguro de que así fue. Quizás será mejor que revise mi mapa".
+
+"Tal vez será mejor", sugerí. Aprendí a leer mapas en el Instituto de Economía de Gnomos. No sé dónde aprendió Isfrunt el suyo.
+
+Desafortunadamente, Isfrunt no tenía el mapa en casa. Se lo ha prestado a Jumbo Butterpat, pero lo recuperará la próxima vez que vaya al Gnomo Verde.
+
+Lunes 26 Gnovigour
+
+Mi espalda estaba un poco rígida hoy por tanto cavar, así que pasé un día tranquilo tratando de aprender a escribir esa escritura elegante como en esa invitación al funeral. Eso sí, no eran sólo las letras las que eran elegantes. Logré descifrar la letra pequeña en la parte inferior de la tarjeta. Decía:
+
+"Sepa que por la presente Jasper Quickbuck, único y legítimo heredero de Pewter Gillpot, reclama plenamente el título de Lord y las Tierras de Ridley's End y la totalidad del Valle Dribble y que quienquiera que no consienta en ello y desee hacer representación de ello deberá presentar sus personas y su testamento legal en las oficinas del Registro de Tierras y Títulos en la ciudad de Gnomechester de inmediato y a más tardar siete días después de la recepción de la presente notificación."
+
+Ojalá supiera lo que significa.
+
+Día del Árbol 27 Gnovigour
+
+Hoy hacía un hermoso día claro y brillante, así que caminé para ver al ermitaño en Three Mole Hill y pasé una tarde fascinante con ella. Se llama Mistress Thyme; creo que su primer nombre es Rosemary y es una sabia. Ella vive en el tercer topo. Es un poco estrecho, oscuro y sucio, pero supongo que así es como a todos los verdaderos sabios les gustan sus casas.
+
+No habla mucho, pero cuando dice algo, es realmente significativo. Como, "Si el trasero del pato está embarrado, ¿cómo puede estar limpio el huevo?" Y "Aquella que bebe profundamente de las aguas de la vida debe ir con frecuencia al baño". Eso realmente me hizo pensar.
+
+Día de la Madera 28 Gnovigour
+
+Estuve en el Gnomo Verde esta mañana, entregando algunos huevos; encontré docenas por todo el granero. No creo que nadie se haya molestado en recogerlos desde que me fui.
+
+Estaba regateando el precio con Rollo Butterpat, cuando entró Creepy Crawley. Miró con su larga nariz las botellas y barriles detrás de la barra, luego señaló un barril marcado "Scrumpy" y llamó a Jumbo Butterpat.
+
+"Digo, casero", gritó, "una jarra de tu rústico golpe, ¡oye! Cuando estés en Gnome, haz lo que hacen los gnomos, ¿qué?" Él se rió: "Arf, arf". Sonaba como un zorro ahogándose con una patraña.
+
+El señor Butterpat pareció un poco sorprendido, luego le dio la espalda al duende y le guiñó un ojo a la señora Butterpat mientras le servía una taza de delicioso crudo.
+
+"Digo, propietario, ¿por qué llaman a este pequeño lugar el Gnomo Verde?" preguntó.
+
+El señor Butterpat no respondió, pero sonrió y preguntó: "¿Cómo está la bebida?".
+
+Creepy Crawley tomó un trago del delicioso, luego de repente adquirió un divertido color verde y salió corriendo.
+
+"¡Hola muchachos, también funciona con duendes!" —gritó Jumbo, riéndose a carcajadas.
+
+No pude ver qué era tan divertido. "¡Eso es lo que usa mamá para quitar las manchas del piso!" -explicó Rollo cuando se le pasó la risa.
+
+Todavía no veía qué era gracioso. De hecho, pensé que todo era un poco cruel, a pesar de que Creepy Crawley es un poco engreído y condescendiente.
+
+Día del aire 29 Gnovigour
+
+Hoy iba a hacer pan con Super Lift Off de Seamus Sosmall, pero mi madre no me dejó porque estaba lavando la ropa y quería secar sus calcetines en el horno.
+Así que en su lugar saqué brillo a la pala y pulí todas las palas. Luego se los llevé a mi padre y a mis hermanos, quienes estaban todos sentados en los sótanos, observando los mangel-wurzles para asegurarse de que no se pudrieran. Les dije que, gracias al brillo de la pala de Seamus, no importaba lo empapado que estuviera Soggybottom Field, aún podían cavar las zanjas de drenaje.
+
+Mi padre dijo que tendría que "ver a Seamus y mostrarle lo agradecidos que estamos todos", y Dimple dijo, "pero ¿quién va a mirar a los mangel-wurzles?"
+
+Les dije que me dejaran eso a mí, me aseguré de que supieran lo que se suponía que debían hacer y los despedí.
+
+Ha sido un buen día para cavar. Brillante y claro con un viento agradable que sopla desde el norte para mantenerlos frescos. Deben estar divirtiéndose mucho porque todavía están ahí fuera.
+
+Desafortunadamente, cuando fui a cerrar el sótano esta tarde, descubrí que tres de los mangel-wurzles se habían podrido mientras gnognome los observaba.
+
+Día del Fuego 30 Gnovigour
+
+Mi madre me envió a buscar al resto de mi familia esta mañana porque no habían aparecido durante el desayuno.
+
+¡En realidad! ¡Mi padre y mis hermanos no tienen remedio! Habían cavado la zanja de drenaje en un circuito que comenzaba y terminaba en Dribble, de modo que el río fluía a través de Soggybottom y los dejaba varados en una isla en el medio.
+
+El agua no era tan ancha ni tan profunda, pero era demasiado para saltar sin correr hacia ella. Ninguno de ellos puede correr sin caerse; así que tuvimos que encontrar otra manera de sacarlos. Dije que deberían construir una presa en el extremo superior de la zanja y cruzarla a pie. Se quejaron de que ya habían cavado lo suficiente y que el brillo de la pala se había desgastado y que de todos modos no confiaban en las represas, pero todos tenían hambre, así que lo intentaron.
+
+Fue un trabajo un poco lento, ya que Dribble estaba lavando su presa casi tan rápido como la construyeron, y creo que todavía habrían estado allí si no hubiera sido por Bumpy. Tropezó con su pala y cayó a la zanja, bloqueando el agua. Dejamos a Bumpy allí hasta que se terminó la verdadera presa, luego, cuando padre, Dimple y Gnoggin pasaron por encima de él, todos lo sacamos y regresamos a casa.
+
+Día de la Piedra 1.° Deadembers
+
+Hoy me dirigí a Little Moaning para ver si Isfrunt Garden ya había recuperado su mapa, ya que quiero volver a intentar encontrar esa lancha Gnorse. Cuando llegué a la cima de Spit Lane, que conduce a Dunrollin en las Dunas, me encontré con Gnat Tackhammer afuera de su forja. Estaba empujando su carruaje sin perros hacia la carretera.
+
+"Veo que ha vuelto a colocar los pedales, Sr. Tackhammer", le dije.
+
+"Sí", dijo.
+
+"¿Lo vas a probar de nuevo?" Yo pregunté.
+
+"Sí", dijo.
+
+"¿Quieres que vaya contigo y te eche una mano?", le pregunté.
+
+"Gnay", dijo, y comenzó a pedalear hacia Greater Cawing.
+
+Deseé que no se hubiera ido tan apresuradamente, ya que quería echar un buen vistazo al carruaje. Tuve la impresión de que faltaba algo, pero no podía decir qué era.
+
+Isfruton no estaba en casa, así que seguí hasta el final de Spit Lane para ver si estaba con la abuela Gnutson.
+
+"¡Maravilloso! Justo cuando necesito ayuda", jadeó. "He estado subiendo y bajando estas escaleras toda la mañana, cambiando las luciérnagas. Si lo entiendes, te haré una buena bebida refrescante".
+
+Así que pasé la siguiente hora llevando luciérnagas usadas al sótano y recargando algunas hasta la cima del faro.
+
+La abuela Gnutson no había visto a Isfrunt en toda la mañana, pero dijo: "Está casi haciendo gnoogn. Es posible que Isfrunt esté en el igngn".
+
+Isfrunt estaba en el Gnomo Verde, comiendo el almuerzo de un gnomo de arado: nabos crudos con el barro restante. Me estaba contando que Jumbo Butterpat había usado su mapa como posavasos para cerveza y se había disuelto, cuando afuera se escuchó un estruendo y gritos terribles en la calle. Todos corrimos hacia la puerta para ver qué estaba pasando.
+Era Gnat Tackhammer en su carruaje sin perros. Corría por Ploughgnome's Lane a noventa leguas por hora, con sus patitas girando como las velas del viejo molino del tío Dusty, el día en que se derrumbó.
+
+"¡Deje de pedalear, Sr. Tackhammer!" Le grité.
+
+"¡No puedo!" gritó mientras pasaba disparado.
+
+"¡Pone el freno, mosquito!" -le gritó Jumbo Butterpat tras él.
+
+¡Frenos! ¡Por supuesto! Esos eran los bloques que saqué del carruaje sin perros. Debería haberme dado cuenta después de la primera prueba.
+
+Esta vez, como no podía usar sus pies para frenar, Gnat iba lo suficientemente rápido como para saltar a través del Dribble. Y también lo habría hecho si Silas Crawley no hubiera estado parado en medio de la carretera junto al puente. Tal como estaban las cosas, el carruaje sin perros se detuvo cuando golpeó al duende y lo envió volando. El viejo Creepy cruzó el río de todos modos y no tuvo que esperar el ferry del Spratt.
+
+Sandday 2º Deadembers.
+
+Fui a Soggybottom Field hoy para ver si la presa está frenando el Dribble. Lo es, pero se está filtrando suficiente agua como para que tengamos que cambiar el nombre del lugar a "Soggybottom Pond". Me pregunto si deberíamos dedicarnos a la cría de peces de colores. Se lo sugeriré a mi padre la próxima vez que lo vea. (Él y mis hermanos se acostaron cuando llegamos a casa el Día del Fuego y han estado allí desde entonces).
+
+Mudday 3rd Deadembers 
+
+Hoy caminé hasta Three Mole Hill para visitar a mi sabio favorito. ¡En el camino me encontré con dos enanos! No se ven muchos de ellos por aquí. Estaban encuestando. Uno de ellos tenía uno de esos trípodes y el otro tenía un poste rayado.
+
+"Hola", dije, "¿qué estás haciendo?"
+
+"Estoy mirando a las estrellas y a ellos abriendo una barbería", respondió el del trípode con voz bastante hosca.
+
+Eso fue una tontería, así que dije: "De verdad, ¿qué estás investigando?"
+
+Inclinó la cabeza hacia su instrumento y gruñó: "Métete en tus propios asuntos, muchacha".
+
+¡Fue tan grosero! Me di vuelta y comencé a alejarme, cuando el otro me llamó: "Eh, muchacha. ¿Hay algún lugar donde podamos conseguir algo de comida? No hemos traído gnomos con nosotros".
+
+"Ahí está el Gnomo Verde", respondí, señalando el pueblo en la distancia. "Asegúrate de probar el delicioso."
+
+La señora Thyme estaba en la puerta de su casa, sentada tan quieta como lo hace Gnoggin cuando está pescando. La diferencia entre ellos es que el sabio se sienta y piensa, pero Gnoggin simplemente se sienta.
+
+Me senté a sus pies y le dije: "Dime el significado de la vida, oh sabio". Lo cual parecía una forma agradable y respetuosa de dirigirse a ella. Ella guardó silencio durante mucho tiempo y luego respondió: "La vida es una palabra de cuatro letras". Lo pensé mucho, luego me rendí y le pregunté si podía decirlo de otra manera. Ella dijo: "Puedes ponerlo como quieras". Luego entró.
+
+En mi camino de regreso volví a pasar a esos enanos. Habían caído en una zanja al costado del camino y yacían allí, de color verde brillante y gimiendo suavemente.
+
+4to Día del Árbol Deadembers
+
+¡Por fin estoy haciendo pan de verdad! Mamá siempre encuentra alguna excusa para detenerme, pero hoy ha ido al molino del tío Dusty con un saco de maíz. Como ella esperará a que él lo muela, no regresará antes de que oscurezca.
+
+Leí la etiqueta del paquete Super Lift Off con mucha atención. Decía mucho sobre lo maravilloso que era, pero nada sobre cómo usarlo. Así que puse mucho para estar seguro, hice una buena masa burbujeante y la metí en el horno para que subiera. Estoy sentado frente a él, escribiendo mi diario mientras se levanta. Hay algunos olores y ruidos interesantes que salen del horno. Los huevos frescos quedarían deliciosos con pan adecuado y caliente. Iré a ver si hay alguno.
+
+5º Deadembers del Día de la Madera
+O Seamus Sosmall me vendió el producto equivocado o ayer usé demasiado en el pan. Mientras estaba en el gallinero, el horno explotó. Voló la puerta y si Arback no hubiera estado allí para atraparla, esa pesada puerta de hierro habría destrozado la mesa. La gnoise sacó a mi padre y a mis hermanos de sus camas, lo cual fue bueno, pero todos se metieron en un lío terrible cuando entraron corriendo a la cocina. ¡La masa llegaba hasta las rodillas! Le tomó mucho tiempo aclararse, especialmente porque Arback insistía en quedarse tirado gimiendo todo el tiempo.
+
+Pensé en intentarlo de nuevo esta mañana, usando un poco menos de Super Lift Off esta vez, pero hasta que algún gnomo arregle la puerta del horno no hornearemos más.
+
+De todos modos, no tenemos harina. Las gallinas del tío Dusty rodearon a mamá cuando ella fue ayer y le robó el maíz.
+
+Día 6 del Airsday
+
+Hoy revisé mis viejos cuadernos de notas del Instituto de Economía de Gnomos y encontré el trabajo que hice en construcción de carreteras y puentes en el quinto año. No parece demasiado difícil. Con mis habilidades y muchas manos dispuestas, pronto podríamos tener un nuevo puente a través del Dribble.
+
+Pasé la tarde elaborando los planos de un puente colgante. Mañana visitaré Greater Cawing Rookery (creo que hay suficientes árboles grandes allí para hacer el trabajo) y pasado mañana reclutaré mi mano de obra. Para el fin de semana casi deberíamos haber terminado.
+
+Día del Fuego 7º Deadembers
+
+Estaba contando los árboles en Greater Cawing, cuando uno de los grajos cayó a mi lado.
+
+"Aquí", graznó, "¿en qué está usted, señora?"
+
+Le expliqué mis planes para un puente colgante. La torre fue de gran ayuda.
+
+"Lo que pasa", graznó, "es que quieres talar nuestras casas para poder construir este puente".
+
+"Bueno, usarás el puente Gnew, igual que todos los demás, ¿no?" Yo dije.
+
+Ladeó la cabeza hacia un lado y me miró fijamente. "Me gusta", graznó. "Quiere un puente, señora. Derribe su propia casa".
+
+Luego salió volando. Puedo ver que puedo tener un pequeño problema allí.
+
+Día de la Piedra 8º Deadembers
+
+Hoy fui al pueblo para organizar un equipo de construcción de puentes. Empecé con Boney Spratt y logré atraparlo justo cuando estaba a punto de salir a pescar. Le conté mis planes y le indiqué que cuando el puente estuviera construido, ya no tendría que hacer más transbordadores, cosa que no parece gustarle, sino que podría concentrarse en pescar.
+
+"Escucha", dice, "si no fuera por el transporte, difícilmente habría pesca que hacer".
+
+"Pero, señor Spratt", argumenté, "¡usted casi nunca hace transporte!"
+
+"¡Precisamente!" Sonrió y se fue con sus gnetos.
+
+Pude ver que había docenas de personas en el Gnomo Verde, así que fui allí y grité: "¿Alguien se unirá a mi equipo de bridge?"
+
+Conseguí muchos voluntarios, pero cuando descubrieron que me refería a construir uno, jugar a las cartas, todos volvieron a tomar cerveza. Parece que los viajeros varados están felices de quedarse donde están, burlándose de los famosos pasteles de pescado de la señora Butterpat. (Todos son gnomos de negocios, viven de sus gastos y tienen el menor deseo de regresar a sus oficinas). Había algunos aldeanos dispuestos, pero cuando la Sra. Butterpat escribió un gran gnotice que decía "Gno Muddy Boots. Gno Bridge Builders", incluso ellos abandonaron.
+
+Iba a probar con Mistress Farthing, pero no pude entrar a su tienda porque estaba llena de viajeros varados comprando dulces y recuerdos; y Gnat Tackhammer estaba demasiado ocupado abollando las abolladuras de su carruaje sin perros para siquiera escucharme.
+
+Sandday 9th Deadembers
+
+Hoy fui a Ridley's End para ver si podía conseguir ayuda allí. ¡Qué paseo tan inútil! Daisy parecía inexpresiva, como siempre, aunque se animó ante la mención de los tirantes. "Me vendrían bien algunos de ellos", dijo. "Se me arrugan las medias".
+
+Armillaria Budblast empezó a recordar los viejos tiempos, cuando Isfrutt Garden solía venir todas las noches a beber su hidromiel.
+"Bueno, ¿no te alegrarás cuando se construya el puente Gnew?" Yo pregunté.
+
+"No es probable", dijo. "Puedo beberlo todo yo mismo siempre y cuando ese viejo bebedor esté atrapado allí".
+
+Incluso le mostré mis planes a Creepy Crawley. "Muy amable, querida", dijo, dándome palmaditas en la cabeza. "Ahora corre a casa, que eres un pequeño gnomo bueno". ¡Oh! Odio que me den palmaditas en la cabeza.
+
+Ludday 10 Deadembers
+
+Seamus Sosmall es mi última esperanza en este proyecto de construcción de puentes. Viaja todo el tiempo y debería estar dispuesto a ayudar. Quizás conozca un hechizo para conseguir voluntarios. Pero él no está por aquí, como siempre, y gnognome sabe cuándo volverá.
+
+Día del Árbol 11
+
+Creepy Crawley llamó a la granja hoy para entregarle una invitación a mi padre; insistió en entregársela personalmente e incluso arriesgó su bonito traje para ir al granero y entregársela a mi padre. (Hoy en día hay tantos gallos que no hay espacio para ellos en el gallinero, y muchos se posan en las vigas del granero. No tienen consideración con ningún gnomo que pase por debajo).
+
+Habrá una fiesta de mitad de invierno en el ayuntamiento del pueblo, el día 21 de diciembre, y estamos todos invitados. Bueno, ¡dos cosas que hacer en un año! Eso es más de lo que el viejo Squire Gillpot hizo por la aldea en todos sus años, así que quizás, después de todo, haya algo que decir a favor del desaparecido Quickbuck y su agente duende. Al menos, creemos que es una fiesta. El duende lo describió como una "noche que nunca olvidaríamos".
+
+Woodensday 12 Deadembers
+
+Mi madre me envió a Doomladen para pedirle prestada una taza de harina a la tía abuela Halfyard y, como tenía prisa, me dijo que tomara el atajo a través de Darkwood. Algún gnomo había colocado pensativamente un gnomo a la entrada del bosque, advirtiendo de los peligros de comer horribles bayas silvestres. Eso sí, no sabían deletrear. El gnotice dijo: "Cuidado con los osos pardos".
+
+Había un viejo vagabundo bastante asqueroso en el bosque, vestido con un gran abrigo de piel desaliñado. Mi madre me había dicho que no hablara con extraños, así que traté de mantenerme alejado de él, pero él seguía molestándome. Lo oí avanzar pesadamente y gruñir por el camino detrás de mí, así que caminé más rápido para adelantarme. Luego empezó a perseguirme, así que me preparé y cuando estuvo muy cerca, le devolví el golpe fuerte con mi bastón. Eso lo detuvo. Emitió una especie de gemido y cayó. No miré atrás, sino que corrí hacia Doomladen.
+
+La tía abuela Halfyard caminaba por su jardín trasero con una ramita en forma de Y en las manos. Le pregunté qué estaba haciendo.
+
+"Rayoeste", dijo. "Ayer por la noche dejé caer un centavo aquí y esta cosa lo encontrará por mí".
+
+Deambuló un poco más, hasta que de repente la ramita comenzó a moverse hacia arriba y hacia abajo. "¡Mira! ¡Ajá!" -gritó, raspó el suelo y arrancó una patata.
+
+"Eso no es ni un centavo", señalé.
+
+"No te importa, muchacha", dijo. "Me servirá para el almuerzo. Ahora, busquemos uno para ti".
+
+Siguió sumergiéndose un poco más hasta que volvió a sentir el movimiento de las ramitas. Rebuscó en la tierra y sacó un hueso.
+
+"De todos modos no puedo parar a almorzar", le dije. Entonces tuve una idea brillante. "Tía Aggie", le pregunté, "¿podrías encontrar un barco enterrado con esa ramita?"
+
+"Ni siquiera si estuviera enterrado en el mar", dijo, "esta cosa también encuentra agua".
+
+Bueno, le dije que el que buscaba estaba en el jardín de Isfrutt. Ella parecía un poco dudosa al respecto, pero dijo que si estaba allí lo encontraría. Así que me fui a casa con una vara de zahorí. Pero no harina. A la tía abuela Halfyard se le había acabado eso, y hasta que las gallinas abandonen el molino del tío Dusty, gnognome se quedará con algo. El tío Dusty está varado en el Molino y vive de huevos.
+
+Ese viejo vagabundo todavía merodeaba por Darkwood, pero esta vez se mantuvo alejado de mí.
+
+Día 13 del Airsday
+Hoy hice algo de radiestesia en Dunrollin en las Dunas. Arback vino conmigo porque hacía mucho que no veía a su hermano, así que cogimos el carro. A Flopsy le gusta tirar de él, y si Arback hubiera caminado, habría tardado hasta Stoneday en llegar allí. Isfrutt estaba paseando por la playa cuando llegamos. Lo pudimos ver a lo lejos en las marismas: la marea estaba baja.
+
+Arback se paró en la cima de una duna y agitó una hoja de alga seca hacia Isfrutt, hasta que el viento la atrapó y lo derribó. Luego simplemente se sentó y esperó a que regresara Isfrunt.
+
+Recorrí todo el huerto y encontré tres nabos y una zanahoria, luego di la vuelta desde allí. A sólo unos metros a un lado, la ramita de avellano comenzó a moverse como la nariz de Flopsy a la hora de cenar. Cogí mi pala y comencé a cavar. Flopsy vio la diversión y se quitó el arnés para poder venir a ayudar.
+
+Bajé por la arena hasta que el agujero me llegó casi hasta la cintura y luego golpeé material más duro. En ese momento, Flopsy tomó el control y se escondió como si nada. De repente, el suelo cedió y Flopsy desapareció en un agujero profundo. Había una especie de cueva allí abajo. Pensé que era un pozo antiguo, porque podía escuchar un chapoteo de agua y estaba muy preocupado por cómo sacar a Flopsy. Pero no tenía por qué preocuparme.
+
+Cinco minutos más tarde, Flopsy llegó saltando desde la playa llevando a Isfrutt por la túnica. Lo dejó caer frente a Arback, luego se sacudió alegremente y se sentó sobre ambos para abrazarlos. ¡Dios, estaba mojada! Parece que el agujero conduce al mar, y la vieja e inteligente Flopsy había encontrado el camino hasta allí. Y, por supuesto, sabía que Arback quería ver a su hermano, así que lo trajo con ella cuando regresó.
+
+Día del Fuego 14
+
+Isfrutt tiene su propio espiráculo privado. Es muy bonito. Esta mañana estuve en Dunrollin con la marea alta, y el mar entraba silbando por el agujero que cavé ayer y lanzaba al aire una maravillosa fuente de espuma. Cuando brilla el sol, aparece este precioso arco iris sobre el huerto de Isfrutt. ¡Nunca tendrá que preocuparse por regarlo en verano!
+
+Isfrunt no parecía muy contento con eso, pero supongo que estará decepcionado porque no encontré el bote. Iba a hacer más radiestesia, ¡pero descubrí que había recorrido todo ese camino sin mi ramita de avellano!
+
+En lugar de eso, decidí continuar y ver a la abuela Gnutson, y allí estaba ella, saliendo del Spit. Millie Watts, la farera, ha regresado de casa de su hermana, por lo que la abuela puede volver a casa.
+
+Me temo que el esfuerzo de cuidar las luces la ha afectado. Estaba parloteando sobre una nueva invasión gnórdica.
+
+"Igngrid", dijo, "había cientos de ellos, navegando por la costa, armados hasta los dientes con palas y carretillas. Los invasores se quedaron al otro lado del Dribble y han acampado en las dunas debajo del Reino de Ridley".
+
+Podía ver las dunas de Manor desde donde estábamos, pero estaban bastante vacías. "No puedo ver ningún gnomo, abuela", dije.
+
+"¡Ah, son demasiado atractivos para ser vistos! Pero están ahí", gritó.
+
+"Ya, ya, tú misma, abuela", le dije. "Los gnorsegnomos no me molestan."
+
+"Lo harán", se lamentó. "¡Todos seremos asesinados mientras dormimos!"
+
+"Pero no te asesinarán", le dije. "Después de todo, tú también eres Gnorse, ¿no?"
+
+"Y ¿cómo sabrán eso si estoy dormido?" preguntó ella.
+
+"Déjales un mensaje", dije brevemente. Realmente, la obsesión de la abuela con los Gnoresgnomes se estaba volviendo un poco agotadora.
+
+De todos modos, es por eso que la abuela Gnutson duerme con un gnotice atado al cuello. Dice: "Soy un gragngny gnomo". Y ha estado practicando ronquidos en Gnorse, sólo por si acaso.
+
+Día de la Piedra 15
+
+Estuve en Three Mole Hill hoy. El sabio estaba almorzando cuando llegué: ¡lentejas crudas y agua! Le dije que no se veía muy sabroso y le conté todo sobre mis comidas favoritas: albóndigas, bollos pegajosos, pastel de chocolate y salchichas grandes y gordas.
+"Un gnomo es lo que come", dijo, masticando un guisante seco. ¿Me pregunto si debería cambiar mi dieta?
+
+Día de arena 16 Deadembers
+
+¡Tocino, huevos y pudín de sebo frito para el desayuno! Dios, lo necesitaba. Ayer comí lentejas crudas para el té y para la cena y apenas pude dormir por el hambre. ¡No sé cómo se las arregla Rosemary! Quizás tengas que llegar a esa etapa poco a poco. Empezaré por renunciar a las cosas pesadas, como el pan de mi madre.
+
+Lunes 17 Deadembers
+
+Hoy había ido a la tienda de Mistress Farthing, entregando huevos, y vi a Seamus Sosmall al otro lado del Dribble. El señor Spratt estaba pescando, como siempre, así que no pude acercarme para hablar con él, pero me paré en la orilla del agua y le grité a Seamus. Parecía que no podía oír lo que estaba diciendo, así que le hice un gesto para que se quedara allí y luego comencé a caminar para unirme a él.
+
+Hay un largo camino desde Little Moaning hasta Greater Cawing, pasando por el puente peatonal y bajando por Three Mole Hill. Estaba derrotado cuando llegué al otro lado del Dribble. ¡Y no pude ver a Seamus Sosmall por ningún lado! Entonces escuché una vocecita arrastrada por el viento, ¡y allí estaba Seamus al otro lado!
+
+No podía creerlo. ¿Cómo pude haberlo perdido en el camino? Me había dado la vuelta para comenzar el camino de regreso cuando se escuchó una especie de silbido y el duende estaba parado a mi lado.
+
+"Claro y no desaparezcas de nuevo, joven doncella gnomo", dijo. "Ahí estaba yo, por aquí, y tú por allá y yo viniendo a unirme a ti, sólo que no pude encontrarme transportando cosas en absoluto. ¡Y cuando lo hice, begorra, te habías ido! Sabes, aquí estoy y aquí estás tú, ¿y qué era lo que querías, para estar seguro?"
+
+Entonces le conté mis planes para un puente nuevo, pero él se limitó a sacudir la cabeza con una sonrisa triste. "Claro, y me gustaría ayudarte", dijo, "pero verás, es así. Con ese gnomo del puente estando aquí, un gnomo vendedor ambulante como yo hace muy bien comprando cosas en Gnomebridge y vendiéndolas a aquellos que no pueden cruzar a la ciudad por sí mismos. ¿Sabes qué haría un puente por mi negocio?"
+
+Pude ver su punto. Entonces tuve una idea brillante. "Podríamos convertirlo en un puente de peaje".
+
+"¡Begorra! Que podríamos", contestó, con un brillo en los ojos. "¡Lo haremos mañana! Sabes, ¿te llevarías a casa?" Cogió sus cosas de transporte, pero le dije que me vendría bien dar un paseo. (En realidad, los pies me estaban matando, pero quería llegar sano y salvo a casa).
+
+Día del Árbol 18
+
+El puente de Seamus Sosmall fue casi un éxito. Llegué un poco tarde al Dribble, ya que me había tomado un tiempo reunir todos mis mapas, planos y horarios de trabajo. De todos modos, cuando llegué allí, ya lo había terminado.
+
+"¡Coo, eso fue rápido, Sr. Sosmall!" Yo dije. "¿Es seguro?"
+
+"¡Claro y begorra! ¡Sé que hay algo que preguntar! Solo mírame". Se dirigió hacia el centro del puente y saltó como si nada. El puente ni siquiera se tambaleó. Eso me sorprendió, porque no parecía tan fuerte. Era recto y plano, pero muy delgado como una sábana, y no tenía tirantes. Quería ponerme algunos, pero Seamus estaba ansioso por conseguir algunos clientes y se dirigió hacia el Gnomo Verde antes de que pudiera detenerlo.
+
+Los viajeros varados todavía estaban desayunando: ¡pescado frito! - y realmente no quería saber cómo cruzar el Dribble, pero Seamus finalmente los hizo moverse.
+
+Seamus cobró sus peajes (estoy seguro de que lo escuché murmurar "Bueno, eso está pagado por el almidón") y los despidió a todos juntos. Desafortunadamente, hubo una lluvia repentina cuando estaban a mitad de camino. El puente se ablandó con la lluvia y se derrumbó en el Dribble. Menos mal que Boney Spratt estaba pescando río abajo. Atrapó a los viajeros en sus redes y los arrastró al otro lado.
+
+¡Y sabes, mientras Boney Spratt estaba haciendo eso, su esposa vino y nos hizo pagar las tarifas del ferry! Y eso era más de lo que habíamos cobrado en los peajes.
+
+Me he caído de puentes.
+Día de la Madera 19 Deadembers
+
+Hoy llovía a cántaros y, como no podía encontrar nada más que hacer, eché un buen vistazo a la invitación a la fiesta de Medio Invierno. Estaba escrito con las mismas letras elegantes que el anterior, y hay más escritura elegante en la letra pequeña de este.
+
+"Considerando que, en virtud de las disposiciones establecidas en la Sección 97, Subsección 24a de la Ley de Registro de Tierras, Jasper Quickbuck ha presentado, con la debida formalidad, reclamaciones sobre la tierra y los derechos y privilegios de servidumbre de Dribble Valley y, a falta de representación contraria, se ha otorgado el título de la propiedad antes mencionada al mencionado Jasper Quickbuck y sabiendo que todos los derechos de propiedad anteriores se extinguen por lo tanto, el destinatario de esta misiva recibe por la presente un aviso de terminación del derecho. de residencia a partir del día 21 del próximo mes de diciembre y que la vacación de propiedades en esa fecha se considerará que significa la aceptación incondicional de esta notificación".
+
+¡Uf! Tomó años copiar ese lote. Creo que significa que tenemos que traer nuestra propia cerveza.
+
+Día 20 del Airsday
+
+Fui a ver a la sabia esta tarde, para ver si podía entender esa invitación. Lo estudió con mucha atención y finalmente dijo: "Si la escritura es pequeña, también debe serlo la pluma".
+
+"Sí, pero ¿qué significa?" Dije, hartándome un poco de sus declaraciones gnómicas.
+
+"¿Traes tu propia cerveza?" ella sugirió.
+
+¡Mmm! Puede que sea una sabia, pero no conoce las cebollas. Y creo que fue muy grosero de su parte decir que nunca volvería a verme, sólo porque me reí cuando me di cuenta de que estaba sosteniendo la invitación al revés.
+
+Tendré que esperar hasta mañana para saber de qué se trata la fiesta.
+
+Día del Fuego 21 Deadembers
+
+¡Ah! ¡Esa rata asquerosa, mezquina y astuta! ¡Ese urbanita! ¡Ese acaparador de tierras clandestino y sin principios, Jasper Quickbuck! ¡Él y su espeluznante duende, Crawley! No lo habría creído si no lo hubiera visto con mis propios ojos.
+
+Allí estábamos todos, The Bottomlows, Halfyards, Gardens, Butterpats, Tackhammers, Spratts y Downtroddens; La abuela Gnutson, Millie Watts y la señora Farthing. Todos parados en el ayuntamiento preguntándonos si habíamos venido al lugar correcto y dónde habían llegado la comida y la bebida; ciertamente no había venido de la mansión, ni habían contratado a los Butterpat, y la prima Daisy no sabía nada sobre proveedores de catering externos. Entonces las puertas se abrieron y entró Crawley, sonriendo en todo su rostro malvado.
+
+"Bueno, me alegro de que todos hayan venido", sonrió.
+
+"¡Yo no llamaría a esto una fiesta!" gritó Isfrutt Garden desde atrás.
+
+"No lo haría", coincidió Arback Garden desde el frente.
+
+"Nunca dije que lo sería", replicó Crawley. "Si ha leído sus gnoticios correctamente, sabrá perfectamente qué es esto. Al venir aquí, ha desalojado sus propiedades, y al desalojar sus propiedades en este día, ha aceptado los gnotices de desalojo que le entregué la semana pasada".
+
+Hubo un caos. Creo que esa es la palabra. Ciertamente, la señora Butterpat tenía su sartén fuera y estaba a punto de atacarlo como un demonio cuando notó que el duende tenía compañía. Dos enormes trolls se habían colado por las puertas dobles y estaban apoyados contra el techo. A una señal de Crawley, gritaron "¡TRANQUILO!" tan fuerte que la señora Farthing fue derribada por la explosión.
+
+"Es tu culpa", continuó el duende. "Deberías haber registrado tus reclamos de tierras cuando tuviste la oportunidad. Squire Quickbuck también te lo advirtió debidamente. Pero ya es demasiado tarde. Tendrás que irte. Dribble Valley se convertirá en un desarrollo de Yuppie Homes, con un puerto deportivo de yates estilo Gnorsegnome".
+
+¡Gnorsegnomos! Me volví hacia la abuela Gnutson. ¿Estaba ella involucrada?
+
+"No me mires así", dijo, sin rastro de acento, "acabo de cambiar mi nombre a Bottomlow".
+Bueno, ahí es donde estamos. Creepy Crawley y sus trolls se han ido. Arback e Isfrunt siguen buscando la cerveza, todos los demás han ido al Gnomo Verde para pensar qué hacer, o si hacer algo, y estoy escribiendo mi diario porque tengo la sensación de que no habrá mucho tiempo para eso en los próximos días.
+
+
+
+Computación de nivel 9, PO Box 39, Weston-super-Mare, Inglaterra BS24 9UR

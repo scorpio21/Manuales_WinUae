@@ -1,0 +1,860 @@
+                               SABRE TEAM
+                      ***************************
+ 
+                      Game initialisation screen
+                      --------------------------
+[1] Figures icon; select team members...centre of the screen
+------------------------
+select team members; allows selection of a four man team from a choice of 
+eight,selecting. selecting this icon will display a screen with all 8 team
+members above crosses. clicking on a cross will toggle wether a player is
+selected or not, clicking on the players head will show their statistics.
+
+[2] question mark icon; left of screen...deploy members
+-----------------------
+allows players to be positioned within the game zone,prior to starting the
+game.
+
+[3] disk icon ; top centre of screen...load a saved game off disk
+---------------
+
+[4] question mark/equipment icon;...right of screen
+--------------------------------
+select equipment for players; selecting this icon will display a screen
+with all 8 sabre team members,as with 1. player stats can be viewed by
+clicking on their heads.members of the team which are selected,as shown
+with a tick,can be equipped by clicking on the tick.
+
+                             select weapons screen
+                             ---------------------
+[1] weapons held window...top left of screen
+-----------------------
+shows players stats,and lists weapons held.every item held weighs the
+player down,decreasing the players loaded action points in relation to his
+strength. the marksmanship percentage helps when choosing guns,players with
+low marksmanship skills will need an accurate weapon. the window is
+scrollable by the drag bar to the right.
+
+[2] weapons to choose window
+----------------------------
+a list of all weapons available for the player,and his team,to use. the
+list is scrollable by the drag bars to the right and bottom of the window.
+to display the stats/description of any item,click with left mouse button
+over the desired item.details of the selected item will appear in window
+3.[which is bottom left of the screen].
+
+selection/description window; displays a picture and describes the item
+selected from window 2. to add this item to the players inventory click
+with the left mouse button over the picture.
+
+[4] exit select icon...bottom right of screen
+--------------------
+to remove items from a players inventory click the right mouse button over
+the description,in window 1.
+guns must be used with the correct type of ammo. when ammo is chosen that
+may fit one or more gun currently held,the mouse pointer will change into a
+? mark.select which gun the ammo will be used with by clicking the left
+mouse button over the gun description in window 1.
+
+extra weapon info
+-----------------
+the noise level when a gun is fired radiates over a certain distance
+depending on gun type. the radiated noise distance figure represents the
+number of move spaces that the noise can be heard over. as a bullet
+travels, the damage it can do decreases with the distance it travels. 100%
+damage distance represents the number of move spaces that a bullet could
+possibly do 100% damage given an accurate hit.
+
+gun         radiated noise distance     100% damage dist
+mp5a3           12              3
+mp5sd            8              3
+mp5sk           12              3
+accuracy int pm      6              5
+self loading rifle slr   6              4
+m16a2           12              7
+l2a3 sterling       10              3
+sa-80            6              4
+l7a2            14              7
+g3           6              4
+stun grenade        12              0
+cs gas           2              0
+
+choosing player start positions
+-------------------------------
+players are deployed,one at a time into the game zone.any position marked
+on the ground with a white cross is a valid dropping off point,click with
+the left mouse button,over the drop off point,to deploy a player. to scroll
+the game zoneto scroll around the game zone move the mouse pointer to the
+edge of the screen and click with the right mouse button, the screen will
+now be centred around the position the mouse pointer was placed. when all
+players are deployed the game begins.
+
+                             action point table
+                             ------------------
+action performed            action points taken
+move.left,right,up,down         4
+move,diagonal               5
+rotate                  1 per step
+view player stats           0
+view blue print-scroll blue print   1 per step
+open/close door             3
+turn stealth mode/on/off        2
+change weapon               5
+load weapon             4
+snapshot                3
+aim shot                6
+prime grenade               3
+throw grenade               3
+pick up/drop                2
+
+note: when stealth mode is operative,moving,rotating,opening/closing doors,
+and pickup/drop all take 1 extra action point.
+
+                             game turn screen
+                             ----------------
+at the start of the game and after every game turn,this screen will be
+shown.
+
+[1] disk icon......top right of screen...-> save game to disk
+
+[2] clipboard icon.centre of screen......-> status report, this shows
+targets destroyed,enemies killed,players stats,and game score.
+
+[3] disk icon......top left of screen....-> load game from disk
+
+[4] face icon......bottom left of screen.-> faces of members in
+team.clicking left mouse button produces player stats
+
+[5]can`t see it!...bottom right of screen-> return to game
+
+action points
+-------------
+2 sets of numbers are shown on the game play screen (amiga) or the right of
+direction control panel (st). these are the number of action points
+remaining followed by the number of action points required to perform the
+current task as determined by the cursor position.
+
+in game icons; top row left to right
+-------------
+
+next player; swaps between the different team members
+-----------
+
+player stats
+------------
+shows the current player stats,such as health,strength,marksmanship and
+perception, as well as his experience and specialities.
+
+play stats screen
+-----------------
+[1] left of screen...player stats-> height shown at the far left on the
+arm,perception by the head, marksmanship by the gun, health under the
+heart,and action points between the feet.
+
+[2] right of screen..a brief description and team member history.
+
+blue print
+----------
+displays a plan view of the game area,and its contents,allowing routes to
+be planned.
+
+                             blue print screen
+                             -----------------
+[1] far left of screen..direction arrows;used to scroll the blue print
+
+[2] centre left screen..quit from blue print icon.
+
+[3] top centre of screen....move to next player icon; shows the position 
+and surroundings of different players. the players name will be shown in 
+the box below the blue print window.
+
+[4] bottom centre of screen.blue print window; displays a plan view of game
+zone,map co-ordinates are shown above the blue print.
+
+[5] top right of screen.....faces of team members; clicking with the left
+mouse button,over one of these pictures will move a blue print to the
+appropriate player.
+
+pick up
+-------
+allows an object,under the current players feet,to be picked up and used.
+pick-up-able objects are shown as rucksacks,dead bodies can also be
+searched for objects to be picked up. to pick up an object, click on left
+mouse button on any item in screen 2,then click left mouse button on object
+that appears in screen 3.
+
+drop
+----
+allows any object the current player is carrying to be dropped.click right
+button on item window 1 to drop.
+
+                             pick drop screen
+                     ----------------
+
+[1] top left of screen...weapons held window; see select weapons scrren 1
+
+[2] top right of screen..weapons to pick up/drop;see select weapon screen 2
+
+[3] bottom left screen...selection/description;see select weapons screen 3
+
+[4] bottom right screen..exit/pick up/drop icon
+
+note; when picking up items only the items which were originally available
+for pick up can be de-selected.
+
+stealth on/off
+--------------
+enables/disables stealth mode, stealth allows a player to move around
+silently,therefore escaping detection,but at a cost of more action points
+per move.
+
+open/close door
+---------------
+alters the state of a door,the door must be one space away from the current
+player and the direction he is facing.
+
+bottom row left to right.
+
+change weapons
+--------------
+enables a player to select a weapon,for use,from those available to him
+
+                             choose weapons screen
+                             ---------------------
+to choose a weapon to use,(out of those being carried by the current
+player) click with left mouse button over the picture of the weapon
+desired. to avoid selection,click away from pictures. the screen is
+scrollable by the drag bar at the right if more than 2 weapons are being
+carried,an arrow indicates the weapon currently in use.
+
+prime grenade
+-------------
+readies a grenade for throwing,a grenade must be thrown before swapping
+control to another player.
+
+load weapon
+-----------
+loads current weapon, a gun must be loaded before it can be fired.
+
+throw grenade
+-------------
+allows a player to throw a grenade,grenades may be thrown through
+windows,and bounced off walls.
+
+how to throw grenades
+---------------------
+once throw has been selected the aiming of the grenade takes place
+similarly to the firing of a gun. however, the grenade may not reach its
+target as the distance it can be thrown is limited by the strength of the
+player throwing it.grenades may be bounced off walls and thrown through
+windows. the effect of a grenade lasts one game turn.
+
+note: a grenade must be primed before it can be thrown,and must be thrown
+before switching control to another player,or ending the game
+turn,otherwise it will explode.
+
+aim shot
+--------
+allows a player to take an accurate shot at a traget. the out-come of a
+shot is influenced by the players markmanship and the weapons effective
+range.
+
+snapshot
+--------
+allows a player to take aim and fire quickly, using minimal action
+poits,resulting in poor hit ratio
+
+how to fire guns
+----------------
+once a snapshot or aimshot have been selected the mouse pointer is joined
+by sights, and an image of a snipe appears at the bottom of the screen. aim
+your shot by moving the sights with the mouse pointer until the sights
+encompass the base of the target, click the left mouse button to confirm
+the target. note; the target must be in line of fire(ie the direction the
+gun is pointing) if the target is off visible screen,it is possible to
+scroll around the game zone by moving the sights to the edge of the screen
+and pressing the right mouse button. the screen will now centre around the
+point the sights were placed.
+once the target has been selected,you must select the number of rounds to
+fire. this is done by clicking the left mouse button over the arrows (<
+decrease number of rounds,> increase number of rounds) surrounding the
+number box below the snipers gun, and then clicking on the number in the
+box. firing will now commence. the number of rounds selected is limited by
+the action points needed to fire, or the number of rounds remaining in the
+gun. single shot weapons can only fire one shot before reloading is
+required.selecting zero rounds cancels the shot.
+
+note; before a gun can be fired it must be loaded with ammo
+
+end game turn
+-------------
+ends the current game turn for sas players and allows the computer to take
+its turn.also ends opportunity move.
+
+direction control icon
+----------------------
+controls the direction a player moves in, and shows ightings(in red) and
+noises heard(in blue) to move a player click on the direction arrows.
+
+opportunity move
+----------------
+if some action points are saved before ending a players turn,during the
+enemys turn an opportunity move may be awarded, an opportunity move occurs
+if a player has more than 5 action points,and can be seen by the
+opposition. the number of action points saves determines the chance of
+being awarded an opportunity move;saving 20 or more action points gives a
+100% chance,decreasing towards 0% as less action points are saved.during an
+opportunity move control is taken from the enemy and the player concerned
+is given a chance to use his remaining action points. ending his turn gives
+control back to the enemy. only one opportunity move may be awarded per
+game turn.
+
+healing wounded players
+-----------------------
+the medical kit; the player who carries this item during the game will
+regain 5% of his health per game turn.
+
+resting players; if a wounded player `sits out` a mission he will be fully
+healed,ready for the next mission.
+
+passing items from 1 player to another
+--------------------------------------
+to pass items from one player to another, drop the required items on the
+ground,swap to the other player and then walk over the items and select
+pick up. note: dead bodies can be searched and any weapons found can be
+used.
+
+                             enemy turn screen
+                             -----------------
+
+icons 1-5 are all top ..[left to right]
+
+[1] door icon...top right; open/close door indicator; flashes when an enemy
+performs this action.
+
+[2] can`t see it..2nd top right;shout for help indicator
+
+[3] hand icon..3rd top right; pick/drop indicator
+
+[4] can`t see it..4th top right;fire/throw indicator
+
+[5] face icon..top left; look behind/noise indicator
+
+icons 6-11 are all bottom...[left to right]
+
+[6] cursor icon..bottom left; movement direction indicators
+
+[7] % icon....;state of enemiess health,represented as %
+
+[8] face icon with a number just below % icon;enemies action points
+
+[9] name icon;just below face icon; enemys name
+
+[10] can`t see it;2nd from right bottom screen;runaway/hide indicator
+
+[11] face icon;far right bottom screen; panic indicator
+
+note; sorry if you see the description `can`t see it` its by me and means i
+cannot read/see the picture on the photostat of the manual..apoliges..
+
+this screen will be shown whilst the enemy takes its turn and cannot be
+seen by sabre team members, if the enemy is visible then all actions will
+be shown as viewed by the person who can see them.
+
+speeding up the enemys turn
+---------------------------
+to reduce the time taken by the enemeys move, hold down the left mosue
+button.
+
+                             how to complete each mission
+                             ----------------------------
+mission 1;jungle p.o.w camp
+---------
+situated in the pow camp are 4 hostages which need to be collected and
+guided to safety. when a hostage is collected and guided to safety, he can
+be controlled as a member of your team. hostages are airlifted to safety
+once outside the pow camp. all surviving hostages must be rescued. with a
+mimimumof 3 required to complete the mission. once all the hostages have
+been rescued you must guide the remaining hostages of your team out of the
+camp to safety.
+
+mission 2; embassy siege
+---------
+terrorists have taken control of the american embassy in london and are
+holding 4 hostages. to complete this mission either guide the hostages out
+to safety(as with mission 1) or kill all the terrorists,leaving the metro
+police to collect them. all surviving hostages must be rescued,with a
+minimum of 3 required to complete the mission.
+
+mission 3; war games
+----------
+four machines containing missile launch codes are located within an
+underground military base. these machine must be completely destroyed by
+shooting them at least 3 times. all machines must be destroyed to complete
+the mission. surviving sabre team members must make their way out of the
+base to be air-lifted to safety.
+
+mission 4; liner hi-jack
+----------
+terrorists have hijacked an ocean liner,and have altered its destination,
+holding innocent passengers and crew members hostage, all terrorists must
+be killed,allowing the boat to resume its original course, the mission is
+completed on killing the last terrorist.
+
+mission 5; missile guidance
+----------
+four machines which program missile guidance systems are held within a
+missile manufacturing plant. all 4 machines must be destroyed (as with
+mission 3) to complete the mission. surviving sabre team members must make
+their way out of the base to be air-lifted to safety.
+
+note; should you lose all the members of your sabre team. the mission is
+failed unless the objective has already be achieved and at least one man is
+available to participate in the next mission. hostages cannot be collected
+on an opportunity move.
+
+audio/visual status
+-------------------
+during a game turn the direction arrows may light up `red` or `blue`; this
+is a warning. a `red` arrow indicates a person is visible, to the current
+player, in the direction the arrow is pointing. this provides warning when
+the person concerned is not close enought to be shown on the screen. a
+`blue`arrow indicates a noise has been heard in the direction of the arrow.
+
+turning the music on/off
+------------------------
+to turn the music on/off during the game press f10. sound effects will
+remain on all times.
+
+and thats yer lot another doc typed by scooter..for the leading force
+      --------------============ skid row =============-------------
+ 
+
+ 
+                             game initialisation screen
+                             --------------------------
+[1] figures icon; select team members...centre of the screen
+------------------------
+select team members; allows selection of a four man team from a choice of 
+eight,selecting. selecting this icon will display a screen with all 8 team
+members above crosses. clicking on a cross will toggle wether a player is
+selected or not, clicking on the players head will show their statistics.
+
+[2] question mark icon; left of screen...deploy members
+-----------------------
+allows players to be positioned within the game zone,prior to starting the
+game.
+
+[3] disk icon ; top centre of screen...load a saved game off disk
+---------------
+
+[4] question mark/equipment icon;...right of screen
+--------------------------------
+select equipment for players; selecting this icon will display a screen
+with all 8 sabre team members,as with 1. player stats can be viewed by
+clicking on their heads.members of the team which are selected,as shown
+with a tick,can be equipped by clicking on the tick.
+
+                             select weapons screen
+                             ---------------------
+[1] weapons held window...top left of screen
+-----------------------
+shows players stats,and lists weapons held.every item held weighs the
+player down,decreasing the players loaded action points in relation to his
+strength. the marksmanship percentage helps when choosing guns,players with
+low marksmanship skills will need an accurate weapon. the window is
+scrollable by the drag bar to the right.
+
+[2] weapons to choose window
+----------------------------
+a list of all weapons available for the player,and his team,to use. the
+list is scrollable by the drag bars to the right and bottom of the window.
+to display the stats/description of any item,click with left mouse button
+over the desired item.details of the selected item will appear in window
+3.[which is bottom left of the screen].
+
+selection/description window; displays a picture and describes the item
+selected from window 2. to add this item to the players inventory click
+with the left mouse button over the picture.
+
+[4] exit select icon...bottom right of screen
+--------------------
+to remove items from a players inventory click the right mouse button over
+the description,in window 1.
+guns must be used with the correct type of ammo. when ammo is chosen that
+may fit one or more gun currently held,the mouse pointer will change into a
+? mark.select which gun the ammo will be used with by clicking the left
+mouse button over the gun description in window 1.
+
+extra weapon info
+-----------------
+the noise level when a gun is fired radiates over a certain distance
+depending on gun type. the radiated noise distance figure represents the
+number of move spaces that the noise can be heard over. as a bullet
+travels, the damage it can do decreases with the distance it travels. 100%
+damage distance represents the number of move spaces that a bullet could
+possibly do 100% damage given an accurate hit.
+
+gun         radiated noise distance     100% damage dist
+mp5a3           12              3
+mp5sd            8              3
+mp5sk           12              3
+accuracy int pm      6              5
+self loading rifle slr   6              4
+m16a2           12              7
+l2a3 sterling       10              3
+sa-80            6              4
+l7a2            14              7
+g3           6              4
+stun grenade        12              0
+cs gas           2              0
+
+choosing player start positions
+-------------------------------
+players are deployed,one at a time into the game zone.any position marked
+on the ground with a white cross is a valid dropping off point,click with
+the left mouse button,over the drop off point,to deploy a player. to scroll
+the game zoneto scroll around the game zone move the mouse pointer to the
+edge of the screen and click with the right mouse button, the screen will
+now be centred around the position the mouse pointer was placed. when all
+players are deployed the game begins.
+
+                             action point table
+                             ------------------
+action performed            action points taken
+move.left,right,up,down         4
+move,diagonal               5
+rotate                  1 per step
+view player stats           0
+view blue print-scroll blue print   1 per step
+open/close door             3
+turn stealth mode/on/off        2
+change weapon               5
+load weapon             4
+snapshot                3
+aim shot                6
+prime grenade               3
+throw grenade               3
+pick up/drop                2
+
+note: when stealth mode is operative,moving,rotating,opening/closing doors,
+and pickup/drop all take 1 extra action point.
+
+                             game turn screen
+                             ----------------
+at the start of the game and after every game turn,this screen will be
+shown.
+
+[1] disk icon......top right of screen...-> save game to disk
+
+[2] clipboard icon.centre of screen......-> status report, this shows
+targets destroyed,enemies killed,players stats,and game score.
+
+[3] disk icon......top left of screen....-> load game from disk
+
+[4] face icon......bottom left of screen.-> faces of members in
+team.clicking left mouse button produces player stats
+
+[5]can`t see it!...bottom right of screen-> return to game
+
+action points
+-------------
+2 sets of numbers are shown on the game play screen (amiga) or the right of
+direction control panel (st). these are the number of action points
+remaining followed by the number of action points required to perform the
+current task as determined by the cursor position.
+
+in game icons; top row left to right
+-------------
+
+next player; swaps between the different team members
+-----------
+
+player stats
+------------
+shows the current player stats,such as health,strength,marksmanship and
+perception, as well as his experience and specialities.
+
+play stats screen
+-----------------
+[1] left of screen...player stats-> height shown at the far left on the
+arm,perception by the head, marksmanship by the gun, health under the
+heart,and action points between the feet.
+
+[2] right of screen..a brief description and team member history.
+
+blue print
+----------
+displays a plan view of the game area,and its contents,allowing routes to
+be planned.
+
+                             blue print screen
+                             -----------------
+[1] far left of screen..direction arrows;used to scroll the blue print
+
+[2] centre left screen..quit from blue print icon.
+
+[3] top centre of screen....move to next player icon; shows the position 
+and surroundings of different players. the players name will be shown in 
+the box below the blue print window.
+
+[4] bottom centre of screen.blue print window; displays a plan view of game
+zone,map co-ordinates are shown above the blue print.
+
+[5] top right of screen.....faces of team members; clicking with the left
+mouse button,over one of these pictures will move a blue print to the
+appropriate player.
+
+pick up
+-------
+allows an object,under the current players feet,to be picked up and used.
+pick-up-able objects are shown as rucksacks,dead bodies can also be
+searched for objects to be picked up. to pick up an object, click on left
+mouse button on any item in screen 2,then click left mouse button on object
+that appears in screen 3.
+
+drop
+----
+allows any object the current player is carrying to be dropped.click right
+button on item window 1 to drop.
+
+                             pick drop screen
+                     ----------------
+
+[1] top left of screen...weapons held window; see select weapons scrren 1
+
+[2] top right of screen..weapons to pick up/drop;see select weapon screen 2
+
+[3] bottom left screen...selection/description;see select weapons screen 3
+
+[4] bottom right screen..exit/pick up/drop icon
+
+note; when picking up items only the items which were originally available
+for pick up can be de-selected.
+
+stealth on/off
+--------------
+enables/disables stealth mode, stealth allows a player to move around
+silently,therefore escaping detection,but at a cost of more action points
+per move.
+
+open/close door
+---------------
+alters the state of a door,the door must be one space away from the current
+player and the direction he is facing.
+
+bottom row left to right.
+
+change weapons
+--------------
+enables a player to select a weapon,for use,from those available to him
+
+                             choose weapons screen
+                             ---------------------
+to choose a weapon to use,(out of those being carried by the current
+player) click with left mouse button over the picture of the weapon
+desired. to avoid selection,click away from pictures. the screen is
+scrollable by the drag bar at the right if more than 2 weapons are being
+carried,an arrow indicates the weapon currently in use.
+
+prime grenade
+-------------
+readies a grenade for throwing,a grenade must be thrown before swapping
+control to another player.
+
+load weapon
+-----------
+loads current weapon, a gun must be loaded before it can be fired.
+
+throw grenade
+-------------
+allows a player to throw a grenade,grenades may be thrown through
+windows,and bounced off walls.
+
+how to throw grenades
+---------------------
+once throw has been selected the aiming of the grenade takes place
+similarly to the firing of a gun. however, the grenade may not reach its
+target as the distance it can be thrown is limited by the strength of the
+player throwing it.grenades may be bounced off walls and thrown through
+windows. the effect of a grenade lasts one game turn.
+
+note: a grenade must be primed before it can be thrown,and must be thrown
+before switching control to another player,or ending the game
+turn,otherwise it will explode.
+
+aim shot
+--------
+allows a player to take an accurate shot at a traget. the out-come of a
+shot is influenced by the players markmanship and the weapons effective
+range.
+
+snapshot
+--------
+allows a player to take aim and fire quickly, using minimal action
+poits,resulting in poor hit ratio
+
+how to fire guns
+----------------
+once a snapshot or aimshot have been selected the mouse pointer is joined
+by sights, and an image of a snipe appears at the bottom of the screen. aim
+your shot by moving the sights with the mouse pointer until the sights
+encompass the base of the target, click the left mouse button to confirm
+the target. note; the target must be in line of fire(ie the direction the
+gun is pointing) if the target is off visible screen,it is possible to
+scroll around the game zone by moving the sights to the edge of the screen
+and pressing the right mouse button. the screen will now centre around the
+point the sights were placed.
+once the target has been selected,you must select the number of rounds to
+fire. this is done by clicking the left mouse button over the arrows (<
+decrease number of rounds,> increase number of rounds) surrounding the
+number box below the snipers gun, and then clicking on the number in the
+box. firing will now commence. the number of rounds selected is limited by
+the action points needed to fire, or the number of rounds remaining in the
+gun. single shot weapons can only fire one shot before reloading is
+required.selecting zero rounds cancels the shot.
+
+note; before a gun can be fired it must be loaded with ammo
+
+end game turn
+-------------
+ends the current game turn for sas players and allows the computer to take
+its turn.also ends opportunity move.
+
+direction control icon
+----------------------
+controls the direction a player moves in, and shows ightings(in red) and
+noises heard(in blue) to move a player click on the direction arrows.
+
+opportunity move
+----------------
+if some action points are saved before ending a players turn,during the
+enemys turn an opportunity move may be awarded, an opportunity move occurs
+if a player has more than 5 action points,and can be seen by the
+opposition. the number of action points saves determines the chance of
+being awarded an opportunity move;saving 20 or more action points gives a
+100% chance,decreasing towards 0% as less action points are saved.during an
+opportunity move control is taken from the enemy and the player concerned
+is given a chance to use his remaining action points. ending his turn gives
+control back to the enemy. only one opportunity move may be awarded per
+game turn.
+
+healing wounded players
+-----------------------
+the medical kit; the player who carries this item during the game will
+regain 5% of his health per game turn.
+
+resting players; if a wounded player `sits out` a mission he will be fully
+healed,ready for the next mission.
+
+passing items from 1 player to another
+--------------------------------------
+to pass items from one player to another, drop the required items on the
+ground,swap to the other player and then walk over the items and select
+pick up. note: dead bodies can be searched and any weapons found can be
+used.
+
+                             enemy turn screen
+                             -----------------
+
+icons 1-5 are all top ..[left to right]
+
+[1] door icon...top right; open/close door indicator; flashes when an enemy
+performs this action.
+
+[2] can`t see it..2nd top right;shout for help indicator
+
+[3] hand icon..3rd top right; pick/drop indicator
+
+[4] can`t see it..4th top right;fire/throw indicator
+
+[5] face icon..top left; look behind/noise indicator
+
+icons 6-11 are all bottom...[left to right]
+
+[6] cursor icon..bottom left; movement direction indicators
+
+[7] % icon....;state of enemiess health,represented as %
+
+[8] face icon with a number just below % icon;enemies action points
+
+[9] name icon;just below face icon; enemys name
+
+[10] can`t see it;2nd from right bottom screen;runaway/hide indicator
+
+[11] face icon;far right bottom screen; panic indicator
+
+note; sorry if you see the description `can`t see it` its by me and means i
+cannot read/see the picture on the photostat of the manual..apoliges..
+
+this screen will be shown whilst the enemy takes its turn and cannot be
+seen by sabre team members, if the enemy is visible then all actions will
+be shown as viewed by the person who can see them.
+
+speeding up the enemys turn
+---------------------------
+to reduce the time taken by the enemeys move, hold down the left mosue
+button.
+
+                             how to complete each mission
+                             ----------------------------
+mission 1;jungle p.o.w camp
+---------
+situated in the pow camp are 4 hostages which need to be collected and
+guided to safety. when a hostage is collected and guided to safety, he can
+be controlled as a member of your team. hostages are airlifted to safety
+once outside the pow camp. all surviving hostages must be rescued. with a
+mimimumof 3 required to complete the mission. once all the hostages have
+been rescued you must guide the remaining hostages of your team out of the
+camp to safety.
+
+mission 2; embassy siege
+---------
+terrorists have taken control of the american embassy in london and are
+holding 4 hostages. to complete this mission either guide the hostages out
+to safety(as with mission 1) or kill all the terrorists,leaving the metro
+police to collect them. all surviving hostages must be rescued,with a
+minimum of 3 required to complete the mission.
+
+mission 3; war games
+----------
+four machines containing missile launch codes are located within an
+underground military base. these machine must be completely destroyed by
+shooting them at least 3 times. all machines must be destroyed to complete
+the mission. surviving sabre team members must make their way out of the
+base to be air-lifted to safety.
+
+mission 4; liner hi-jack
+----------
+terrorists have hijacked an ocean liner,and have altered its destination,
+holding innocent passengers and crew members hostage, all terrorists must
+be killed,allowing the boat to resume its original course, the mission is
+completed on killing the last terrorist.
+
+mission 5; missile guidance
+----------
+four machines which program missile guidance systems are held within a
+missile manufacturing plant. all 4 machines must be destroyed (as with
+mission 3) to complete the mission. surviving sabre team members must make
+their way out of the base to be air-lifted to safety.
+
+note; should you lose all the members of your sabre team. the mission is
+failed unless the objective has already be achieved and at least one man is
+available to participate in the next mission. hostages cannot be collected
+on an opportunity move.
+
+audio/visual status
+-------------------
+during a game turn the direction arrows may light up `red` or `blue`; this
+is a warning. a `red` arrow indicates a person is visible, to the current
+player, in the direction the arrow is pointing. this provides warning when
+the person concerned is not close enought to be shown on the screen. a
+`blue`arrow indicates a noise has been heard in the direction of the arrow.
+
+turning the music on/off
+------------------------
+to turn the music on/off during the game press f10. sound effects will
+remain on all times.
+
+
+                             THE END

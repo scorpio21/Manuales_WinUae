@@ -1,0 +1,1954 @@
+Set de construcción de aventuras
+
+Primeros pasos:  
+
+Inicia tu Amiga con tu disco Kickstart como lo harías normalmente.  necesitas
+al menos un disco inicializado en blanco para usarlo como disco de aventuras con ACS.  si
+no tiene un disco inicializado disponible, inserte un disco de Workbench y cree
+uno.  (Consulte la Guía del usuario de Amiga para obtener información sobre cómo inicializar discos).
+
+Una vez que tengas uno o más discos inicializados disponibles, reinicia tu Amiga
+con Control-Izquierda-Amiga-Derecha-Amiga, y cuando aparezca la pantalla "Insertar disco de Workbench"
+aparece, inserte el disco del programa Adventure Construction Set.  Después de unos pocos
+momentos aparece la pantalla de título de ACS y comienza la demostración.  Haga clic en cualquiera de los
+botones del mouse, un botón del joystick o presione cualquier tecla para salir de la demostración y comenzar
+ACS.
+
+
+Comandos del menú principal:
+
+Los comandos del menú principal se emiten utilizando las teclas de función en la parte superior de la
+Teclado Amiga.   Las seis teclas de función del menú principal y sus acciones resultantes.
+son:
+
+     F1: Crea una aventura en un disco inicializado en blanco.
+     F2: Hace una copia de seguridad de un disco de aventuras existente.
+     F3: Entra en el modo de construcción de aventuras.
+     F4: te permite jugar una aventura existente en un disco de aventuras.
+     F5: alterna entre un mouse en el puerto 1 (el mouse solo funcionará
+          en el puerto 1) y un joystick en el puerto 2, o joysticks en ambos 
+          puertos.  La configuración predeterminada es el mouse y el joystick.
+     F6: alterna entre una o dos unidades de disco.  El valor predeterminado
+          la configuración es para dos unidades; presione F6 para cambiar a una unidad.
+
+
+Consejos de juego adicionales:
+
+1. El manual indica cómo soltar los objetos que lleva tu personaje.
+Ten en cuenta que puedes colocar elementos directamente encima de tu personaje.  si el
+El objeto no es mágico y no está configurado para desaparecer cuando se suelta, aparecerá cuando
+te mueves fuera del cuadrado donde lo dejaste caer. Si es un objeto mágico que es
+Activado cuando se suelta, serás el beneficiario (o víctima) de la magia.
+
+2. Para pausar un juego durante tu turno, haz clic en la opción Esperar con
+botón del ratón.  Haz clic nuevamente para reiniciar el juego.
+
+3. Nunca expulse un disco mientras la luz roja de "en uso" de la unidad de disco esté encendida.
+hacerlo puede provocar daños en los discos.  Cambie los discos en las unidades sólo cuando
+se le solicite o cuando la luz "en uso" se haya apagado.
+
+4. La versión Amiga de ACS contiene un título de aventura adicional.
+"Agente Galáctico" que no se menciona en el manual de ACS.  "Agente Galáctico"
+no se puede crear con la opción Crear una aventura del menú principal.  uso
+Copia una aventura para copiar "Agente Galáctico" en tu propio disco de aventuras.  el
+La función Copiar una aventura requiere un disco ya inicializado al igual que la función Crear.
+una opción de Aventura.
+
+5. Al comienzo del modo Jugar una Aventura, se te pedirá que elijas el
+dispositivo que controlará a tus personajes presionando un botón en el dispositivo que
+quiero usar.  Esto significa que puede utilizar un ratón para editar y un joystick para
+Juega sin tener que desconectar ninguno de los dos.  para mover tu personaje con el curso
+Durante el modo de juego, coloca el cursor X en el destino de tu personaje.  Haga clic
+cualquiera de los botones del ratón para hacer que el personaje se mueva.  Cada clic del botón del ratón
+mueve el personaje una vez.  (Consulte el manual del ACS para obtener información sobre el movimiento
+barra.)
+
+
+Consejos de construcción adicionales:
+
+1. Al ingresar mensajes de texto, use las teclas del cursor para mover el cursor.
+Presione Retorno para comenzar la siguiente línea.  Utilice las teclas Eliminar o Retroceso para borrar
+caracteres a la izquierda del cursor.  Además, la tecla de función F1 borra todo el texto.
+para que puedas trabajar con una pantalla en blanco.
+
+2. El menú "Editar gráficos" descrito en el manual se ha modificado para
+Aprovecha los gráficos avanzados del Amiga.  Hay un total de 32 colores.
+disponible para su uso al mismo tiempo.  Para dibujar, seleccione un color y luego mantenga presionado el botón izquierdo
+mientras dibuja con el mouse en la ventana de edición.  Puedes cambiar el tono
+de cualquier color haciendo clic en un color y seleccionando la opción Cambiar colores.
+Esto abre un control de paleta que le permite aumentar o disminuir el
+mezcla de tono, color y brillo, cambiando así la apariencia general de
+el color seleccionado.   Haga clic en el signo mayor que (>) o menor que (<) para
+aumentar o disminuir los valores de color.
+Haga clic en una imagen en la parte superior de la pantalla para ampliar y editar la
+imagen.   Puede revisar todas las imágenes seleccionando Editar más
+Opción de imágenes.   Cuando se utiliza esta opción, otro conjunto de imágenes reemplaza el
+primero.   Las imágenes se editan píxel por píxel en la vista ampliada.
+ventana.   Haga clic en un píxel para cambiarlo al color seleccionado actualmente.  a
+borre un píxel, seleccione el color de fondo y haga clic en el píxel.  Adicional
+Las nuevas opciones en el modo Editar gráficos incluyen:
+
+    Borrar: borra toda la imagen seleccionada actualmente con el
+               Color seleccionado actualmente.
+     Guardar: guarda la imagen actual en un área del portapapeles que está
+               se muestra en la parte inferior de la pantalla de edición.
+     Restaurar: reemplaza la imagen actualmente seleccionada con la
+               contenido del portapapeles.
+     Intercambiar: cambia el contenido del portapapeles con el
+               imagen actualmente seleccionada.
+
+A menudo es una buena idea guardar una imagen antes de editarla para poder usarla.
+Restaurar para deshacer cualquier cambio adverso.
+
+3. Aquí hay algunas restricciones que debes tener en cuenta al cambiar el
+Paleta de 32 colores ACS:
+
+     * ACS utiliza la fila inferior de colores como colores del sistema;
+       es decir, los colores utilizados en mensajes y cursores.  puedes cambiar
+       estos colores si lo desea, pero los cambios resultantes pueden hacer
+       algunas de las pantallas son difíciles de leer o ver.
+     * El color superior izquierdo de la paleta es el color de fondo.
+       utilizado en todas las pantallas ACS.  Cambiar el color de fondo
+       También podría resultar en mensajes difíciles de leer o difíciles de ver.
+       cursores.  Además, algunos personajes contienen áreas donde el fondo
+       el color de fondo se ve.  Cuando dibujas personajes y 
+       objetos con estas áreas "huecas", asegúrese de utilizar el material real
+       color de fondo.  Por ejemplo, si dibuja áreas huecas en
+       un personaje con un color estándar que coincide con el fondo,
+       En lugar del color de fondo real, el hueco en tu 
+       Los personajes no se verán vacíos cuando cambies el tono del 
+       color de fondo.
+
+4. No puedes utilizar imágenes de Deluxe Paint en ACS.
+
+5. Si nunca antes has creado una aventura, te resultará más fácil de usar.
+"Deja que ACS termine tu aventura" en el set de construcción Fantasy para tu primera
+intento.   (Siga las instrucciones del manual).  ACS construirá una aventura
+donde todas las habitaciones tienen al menos una puerta, todas las regiones tienen una entrada y salida, y
+Todas las habitaciones dentro de una región tienen nombres de habitaciones que van juntos.
+Utilice la opción "Juego sin modificaciones" del menú del editor de aventuras para probar
+la nueva aventura.   Mientras juegas la aventura, no los nombres que te gustaría
+cambiar, lugares donde le gustaría agregar texto, objetos que le gustaría agregar o eliminar,
+criaturas que te gustaría modificar, etc. Usa las otras opciones de construcción de ACS para
+hacer esos cambios.   (Consulte el manual para obtener ayuda). Para dejar "Non-Altering
+Modo Jugar" y regresar al editor de aventuras, selecciona la opción "Guardar" durante
+juega y luego sigue las indicaciones.
+
+6. Si eres un usuario de aventuras y quieres empezar a construir una aventura
+desde cero, use la opción "Crear un disco de aventuras" para crear un disco de aventuras
+que contiene uno de los tres juegos de construcción básicos.  Luego seleccione "Construir un
+Aventura".  A continuación, seleccione "Hacer un trabajo más detallado" dos veces.  Finalmente, seleccione "Borrar
+Todo menos gráficos".
+
+           Créditos
+Versión Amiga de ACS: Glenn S. Tenney de fantasia Systems Inc.
+Asistencia técnica: David Buolton
+Artes gráficas: Greg Johnson y Avril Harrison
+Sonido y música: Dave Warhol
+Productor: Monty Finefrock
+Productor asociado: Shelley Day
+Director técnico: Steve Shaw
+Gerente de Producto: Chris Garske
+Resumen de comando: David K. Simerly
+El nuevo juego "Galactic Agent" fue creado con ACS por Ken St. Andre'
+
+SET DE CONSTRUCCIÓN DE AVENTURA
+EL MANUAL
+
+Cómo utilizar el juego de construcción de aventuras
+
+Tu propio teatro...
+
+Poseer un juego de construcción de aventuras es como tener un teatro y un grupo de
+actores completamente a tu disposición.  Cientos de actores extremadamente polifacéticos esperan
+para sus asignaciones.   Pueden interpretar prácticamente cualquier tipo de persona, animal,
+monstruo, ser mágico, robot o vehículo que puedas imaginar.
+Su equipo de construcción de escenarios puede construir escenarios que contengan hasta 240
+diferentes "habitaciones" (o como se diría en el negocio del cine, "ubicaciones").
+Y puedes conectar estas ubicaciones entre sí de formas bastante inusuales,
+creando portales de tiempo, transportadores "transmíteme hacia abajo" y círculos de conexión
+habitaciones por las que solo puedes pasar en una dirección y mucho, mucho más.
+Por último, pero no menos importante, tienes un departamento de utilería muy ingenioso que puede
+equipa cualquier escenario e historia con cientos de objetos y efectos especiales.  Magia
+artículos, tesoros, muebles, armas, efectos de sonido y música, formas de hacer
+los objetos aparecen y desaparecen, formas de producir mensajes, formas de convocar y
+Desterrar criaturas: están todas ahí.  Y si aún no encuentras lo que buscas
+desea, su departamento de utilería tiene las herramientas que necesita para diseñar y construir el
+artículos usted mismo.
+
+
+Cómo jugar la aventura en el disco ACS...
+
+Esta sección explica cómo hacer un disco de aventuras, cómo crear un personaje
+y cómo mover tu personaje en el mapa.
+
+1. Cómo crear un disco de aventuras: necesitará su disco ACS y un disco en blanco
+(o uno que contenga información que ya no necesita).  Inicie su disco ACS y
+seleccione "Crear un disco de aventuras".  Luego usa tu joystick para mover el cursor hacia abajo.
+y en el nombre de la aventura que deseas (ya sea "Tierra de Aventuria" o
+"Ríos de Luz") y presione el botón.
+"La Tierra de Aventuria" contiene un tutorial de juego de aventuras "Cómo jugar"
+las otras 6 miniaventuras que se describen más adelante.  "Ríos de Luz", es un gran
+aventura compleja diseñada para deleitar incluso al aventurero más experimentado.  (Es
+Por cierto, se construyó íntegramente con el mismo sistema de aire acondicionado que usted posee ahora.)
+La creación de un disco de aventuras puede requerir varios intercambios de disco.  Sigue el
+instrucciones tal como aparecen.  Cuando se complete el proceso, use el joystick para
+mueva el cursor hasta Salir y presione el botón cuando se le solicite.
+
+2. Crear un personaje: selecciona "Jugar una aventura" y luego presiona el botón
+según lo indicado.   Seleccione "Crear un nuevo jugador" cuando aparezca (presionando el botón
+mientras esa opción está resaltada) y continúe siguiendo las instrucciones.
+Cuando aparezca la imagen de un personaje, mueve el joystick hacia la derecha y hacia la izquierda para mirar
+diferentes opciones de imagen y presione el botón para seleccionar la que desee.
+Luego escriba un nombre (de hasta 15 caracteres) y presione el botón una vez más.
+Pueden jugar hasta 4 personajes a la vez.  Y como los jugadores se turnan para moverse,
+los cuatro se pueden controlar desde el mismo joystick.  Para obtener información sobre cómo agregar
+más de un personaje a una aventura, consulta Agregar a alguien más adelante.
+
+3. Lectura de los informes de estado en pantalla: una vez que haya seleccionado un
+carácter, la pantalla cambiará.   Encontrarás a tu personaje de pie.
+en algún lugar de la aventura que elijas.  Si eliges "Tierra de Aventuria" tu
+El personaje estará parado justo encima de un castillo en un valle entre dos montañas.
+rangos.   El castillo marca la entrada a una sencilla aventura llamada "Cómo
+Jugar".
+El texto en la barra ancha de color en la parte inferior de la pantalla
+cambia continuamente mientras juegas.  La línea superior de la barra contiene el nombre de
+la criatura controlada por humanos cuyo turno es y el nombre del área en la que se encuentra
+de pie. Debajo hay un mensaje que le indica cómo proceder.  y en cualquiera de los dos
+Al lado hay barras de color ascendentes que brindan información sobre la personalidad del individuo.
+estado.
+
+4. Mover a tu personaje: para mover a tu personaje, mueve el joystick que
+lo controla en la dirección en la que quieres que vaya el personaje.  La barra de la izquierda
+El lado de la pantalla se acortará con cada movimiento.  Cuando la barra se va, eso
+El turno del personaje ha terminado.   (La barra también se acortará gradualmente incluso si
+no te muevas.   El tiempo pasa mientras juegas y no tienes una eternidad para decidir
+qué hacer.)
+Si intentas moverte a una casilla que contiene terreno intransitable
+(montañas, por ejemplo) o un obstáculo, tu personaje no se moverá y tu
+La barra de movimiento no cambiará.  Si intentas moverte hacia un objeto que puedes
+recoger, se le indicará el nombre del objeto que está agregando a su lista de
+posesiones y se le pedirá que presione el botón para continuar.  si lo intentas
+para moverte hacia una criatura y tienes un arma cuerpo a cuerpo (como un cuchillo, una espada o un
+club), se iniciará una batalla.  La computadora te dará paso a paso
+cuenta de la batalla, solicitándote que presiones el botón cuando sea necesario.
+Si solo hay un personaje en el juego y no hay
+criaturas controladas por computadora en la pantalla, ese personaje puede moverse nuevamente cuando
+reaparece la barra de movimiento.  Si otros están jugando o si hay criaturas en
+la habitación, cada uno tendrá un turno antes de que el primer personaje se mueva nuevamente.  (Nota:
+Si diferentes jugadores exploran simultáneamente diferentes regiones, cada uno de ellos
+se le darán varios turnos cada vez que llegue su turno.)
+
+5. Explorando el mundo de una aventura: a medida que te mueves, verás más mapas.
+desplácese hasta la vista.  El mapa principal de una aventura puede cubrir un área de 40 casillas por
+40 cuadrados, pero sólo se puede ver un área de 10 cuadrados por 15 cuadrados a la vez.
+Esparcidas por el mapa principal hay "puertas" a regiones dentro del mapa,
+como el castillo que conduce a "Cómo jugar" en la "Tierra de Aventuria".  el
+"Tierra de Aventuria" contiene 7 de estas regiones, una para cada una de las 7
+miniaventuras.
+
+Una región puede contener hasta 16 salas diferentes.  Cuando te mudas a
+habitaciones, la nueva área no se desplaza a la vista.  En cambio, cuando te acercas a una puerta
+que conduce a otra habitación (u otras regiones o incluso de regreso al mapa principal),
+la imagen de la nueva ubicación reemplaza completamente la imagen de la anterior.
+
+
+6. Cosas que puedes hacer durante tu turno: si presionas el botón cuando es
+Cuando llegue tu turno, aparecerá un menú que contiene opciones adicionales en la barra de mensajes.
+Para seleccionar una de las opciones, use su joystick para mover el resaltado hacia ella,
+luego presione el botón.
+Los siguientes párrafos describen cómo utilizar sus opciones y cómo interpretarlas.
+la información disponible para ti mientras juegas.  Si eres nuevo en las aventuras,
+No sientas que tienes que dominar toda esta información a la vez.  el
+Las miniaventuras en la "Tierra de Aventuria" fueron diseñadas para que puedas jugar tu
+camino hacia la comprensión de cómo funcionan las aventuras.  Empieza a jugarlos cuando quieras
+Si lo desea, utilice este manual como referencia cuando desee obtener más información.
+(Para ver un tutorial de la miniaventura "Cómo jugar").
+
+Resumen de opciones del jugador...
+
+Esta sección describe las acciones que un jugador/personaje puede realizar durante un turno.
+Para generar el menú que contiene estas opciones, presione el botón.  Para seleccionar un
+opción, mueva el resaltado con el joystick y luego presione el botón nuevamente
+y siga las indicaciones, si las hubiera, a medida que aparezcan.
+
+Mover: selecciona esto para eliminar el menú y poder mover tu personaje.
+Descanso: seleccione esto para intentar restaurar algo de fuerza vital a un herido.
+personaje.
+Fuego: selecciona esta opción para usar un arma de misiles (si llevas una) como un
+arco, rifle, granada, etc.
+Usar objeto: selecciona esto para usar un objeto mágico que llevas.  Magia
+Los objetos siempre funcionan, por cierto, pero algunos objetos mágicos deben soltarse en lugar de
+solía estar activado.
+Soltar objeto: seleccione esta opción cuando desee soltar una posesión para ver si es
+magia o para ponerlo en un cuadrado particular al que estás adyacente, o cuando simplemente
+Quiero dejar de cargar algo.   Si usas esta opción en el mapa principal,
+Todo lo que dejes caer se perderá para siempre de esa aventura.  (Nota: a veces
+un esfuerzo por recoger un objeto producirá un "lo siento, pero no puedes cargar más"
+de esos". Si necesita recoger el objeto para poder moverse, suelte el
+uno que llevas primero.)
+Usar poder: selecciona esto cuando quieras lanzar un hechizo que posees.  el
+Cuanto mayor sea el poder de tu personaje, mayores serán las posibilidades de que los hechizos funcionen.
+Nota: Ten cuidado con los hechizos que destierran criaturas.  Una criatura desterrada toma
+todas sus posesiones con él, así que no destierres a la criatura que acaba de robar la llave
+necesitas entrar a la siguiente habitación.
+Nueva arma: selecciona esta opción para que puedas preparar el arma que llevas para usar.
+(Nota: al levantar un arma, ésta se prepara automáticamente).
+Nueva armadura: selecciona esta opción para ponerte o preparar una pieza de armadura que estás
+llevando.
+Perfil: selecciona esto para ver la calificación de tu personaje en las categorías.
+descrito en la siguiente sección y para ver la lista de posesiones de tu personaje.
+Agregar a alguien: selecciona esta opción para agregar otro personaje a la aventura.  (arriba
+hasta 4 pueden jugar a la vez).  El personaje aparecerá en el mapa en el mismo lugar.
+el primer personaje lo hizo, independientemente de cuándo comience a jugar el nuevo personaje.
+Si eliges agregar un personaje de otra aventura de ACS, se te pedirá
+mediante los pasos necesarios.  El personaje vendrá con sus rasgos y habilidades.
+intacto, pero no conservará ninguna de sus posesiones.
+Retirar: selecciona esta opción para guardar tu personaje para usarlo más adelante en una aventura.
+o eliminar por completo a un personaje de una aventura.
+Guardar juego: selecciona esto para guardar una aventura en progreso pero continuar.
+jugando.
+
+¡IMPORTANTE!  Si tu personaje fuera víctima de un monstruo poderoso
+o una trampa mortal, no todo está perdido.  Se le dará la oportunidad de reanudar
+el juego en el punto en el que guardaste el juego por última vez.  "Guardar juego" se activa automáticamente.
+invocado al entrar o salir de una región.
+
+
+Resumen de rasgos y habilidades...
+
+Cada individuo comienza cada aventura con valores asignados a ciertos conceptos básicos.
+rasgos y habilidades.   Esos números determinan cómo los personajes y criaturas
+moverse y luchar, qué tan duraderos son en la batalla y qué tan poderosos son con
+magia.
+En el transcurso de una aventura, los números cambiarán para reflejar el
+resultado de batallas, lanzamiento de hechizos, experiencia exitosa, etc. Para encontrar
+Para saber cuáles son las calificaciones de tu personaje, presiona el botón y selecciona
+"Perfil" cuando sea tu turno.  Las descripciones siguientes indican qué es cada uno de los
+significan las entradas en su perfil.  (Nota: una marca como esta "_|_" junto a un
+elemento significa una calificación superior a la media para ese elemento.  Una marca similar que
+apunta hacia abajo en lugar de hacia arriba significa uno inferior al promedio.)
+
+Los rasgos El número máximo posible de cada rasgo se muestra entre paréntesis.
+siguiendo la descripción del rasgo.   El rango inicial normal es de 10 a 11 para todos
+Rasgos excepto Velocidad.  El rango inicial normal de velocidad es de 6 a 7.
+
+Velocidad: qué tan lejos puede moverse un individuo en cada turno.  La velocidad puede ser permanente
+aumenta y disminuye mediante hechizos mágicos.  El rango de movimiento de un individuo puede ser
+disminuido al tratar de cargar demasiado peso y al estar adyacente a un
+Individuo agresivo y poco amigable.  El rango de movimiento está indicado por
+la barra ascendente en el lado izquierdo de la pantalla.  (Máximo de 15.)
+
+Fuerza Vital y Constitución - Fuerza Vital (mostrada por la barra ascendente en el
+lado derecho de la pantalla) es la durabilidad física de un individuo.  golpes
+recibido de un enemigo en batalla, resta de la Fuerza Vital de un individuo como
+Qué significa ser víctima de ciertos hechizos.  Ser "víctima" de otros hechizos puede
+añadir a la fuerza vital.  Cuando la fuerza vital llega a 0, un individuo muere.  (Máximo de
+63 para Fuerza Vital y 31 para Constitución.)
+La Constitución es la capacidad natural de un individuo para la Fuerza Vital.  para nuevo
+personajes, la fuerza vital inicial es siempre la misma que la Constitución.  Heridos
+Los individuos pueden restaurar la Fuerza Vital perdida hasta el límite de su Constitución mediante
+usando la opción "Descanso".   Si no descansan, su Fuerza Vital perdida desaparecerá.
+regresar, pero tardará 6 veces más en hacerlo.  Personajes cuya vida
+La fuerza es mayor que su Constitución, lucharán mejor.
+Poder y sabiduría: los golpes recibidos de un enemigo en batalla también reducen una
+poder del individuo.   también lo hace el uso de hechizos y objetos mágicos, y ser el
+víctima de ciertos hechizos que puedas encontrar.  Otros hechizos pueden aumentar el poder.
+Cuanto mayor sea el índice de Poder de un individuo, mayores serán las posibilidades de que
+los yesos tendrán éxito.   Los individuos con índices de poder más altos también luchan mejor
+que aquellos con niveles más bajos, y son más resistentes al daño de batalla.
+El poder no es estable.  En cada turno, el poder de un individuo aumentará o
+disminuir en una pequeña cantidad en la dirección del índice de Sabiduría de ese individuo.
+Por lo tanto, la Sabiduría es la habilidad natural de un individuo para lanzar hechizos, hacia la cual su
+El poder siempre tenderá.  La sabiduría también ayuda a un individuo a hacer mejores tratos cuando
+vender artículos a una tienda.  (Máximo de 127 para Poder y 31 para Sabiduría).
+Fuerza: espadas, tesoros, armaduras, oro, etc., todos tienen peso.  un
+La fuerza del individuo determina cuánto peso puede soportar sin ser
+ralentizado.   Si nota una disminución en su barra de movimiento, aún no ha sido
+la víctima de un hechizo de "reducir velocidad" y no está parado al lado de ningún agresivo
+"antiamistosos", lo más probable es que estés intentando llevar demasiadas cosas.  tu
+Necesito dejar algunas cosas y encontrar una bolsa mágica o un caballo o algún otro medio de
+llevando más peso.
+Si estás herido, tu capacidad para transportar cosas disminuye.  regresa como
+te curas.  (Máximo de 31.)
+Tamaño: los individuos más grandes son luchadores más poderosos.   Más pequeño
+los individuos esquivan y paran mejor.  El tamaño no se puede cambiar, así que tenga en cuenta
+lo que te dice sobre los límites de tu personaje y planifica tu estrategia
+en consecuencia.  (Máximo de 31.)
+Destreza: cuando comienzan las batallas, la destreza es muy útil.  Me gusta
+Por su tamaño, la gran destreza aumenta la fuerza de los golpes que aterrizan.  Además,
+aumenta la probabilidad de asestar un golpe inusualmente poderoso.  También ayuda
+para determinar cuántos golpes puede recibir un individuo y cuántos disparos puede
+o se puede bajar.  (Máximo de 31.)
+
+Las Habilidades Al calcular los efectos de una batalla, el programa considera las
+armas y armaduras que se utilizan y las habilidades, el poder y la fuerza vital del
+combatientes.  (Algunas armas y armaduras son mejores que otras. Si pudieras jurar que
+Estabas mejor antes de que comenzaras a usar ese escudo o espada, tal vez
+debería dejarlo atrás para que alguna otra pobre alma lo encuentre.)
+Para determinar la probabilidad de que aciertes con un disparo de largo alcance.
+arma como un arco.   ACS analiza tu habilidad con misiles.   Para determinar el
+probabilidad de que pudieras esquivar un disparo desde tal punto.
+arma, se ve en la habilidad de esquivar.
+Para medir la precisión de tus golpes en peleas a corta distancia, ACS analiza
+tu habilidad cuerpo a cuerpo.   Para determinar la probabilidad de que haya podido cumplir con un
+Golpe opuesto con tu propia arma de corto alcance, se basa en la habilidad de parada.
+(siempre que tuvieras tu arma lista, por supuesto).
+
+Habilidad de armadura: te permite superar las desventajas de la armadura (porque
+tiende a hacerte torpe, la armadura reduce la precisión de tus golpes) sin
+renunciar a las ventajas (absorbe un cierto porcentaje de los golpes del enemigo).
+
+
+
+Cada una de estas habilidades puede mejorar cada vez que la uses con éxito, es decir,
+Esquiva un golpe con éxito y tu habilidad de esquivar puede aumentar, alcanza el objetivo y
+tu habilidad con misiles puede aumentar, etc. Cuanto mayor sea el nivel de habilidad, más difícil será
+es mejorar aún más esa calificación.  El máximo para cualquier calificación de habilidad es
+127. El rango inicial normal es de 25 a 35 para todos excepto Habilidad de Misiles y Armadura.
+Habilidad, 10 a 20 para Habilidad de Misiles y 0 para Habilidad de Armadura.
+Defensa mágica: es un tipo especial de habilidad.  En su forma más poderosa,
+detiene completamente todos los golpes o misiles de armas no mágicas y reduce en
+la mitad de la fuerza de todos los golpes o misiles de los mágicos.  Es, como podrías
+Imagínense, una habilidad muy valiosa de poseer.
+
+
+Explorando Aventuria: un tutorial...
+
+Esta sección ofrece un tutorial sobre "Cómo jugar".
+miniaventura, además de breves guías sobre las otras miniaventuras en "La Tierra
+de Aventuria".   (Recuerda, antes de poder jugar estas aventuras, debes usar
+la opción "Crear un disco de aventuras" para crear un disco que contenga la "Tierra de
+Aventuria".
+
+Usando la aventura "Cómo jugar": en la que podrás aprender a usar el
+cuadrados de "ayuda", cómo recoger objetos, cómo luchar y cómo lanzar magia
+hechizos.
+
+1. Cuadrados de ayuda: si creas un personaje y luego pasas al primero
+castillo que ves en el mapa principal de Aventuria, encontrarás a tu personaje de pie
+en una habitación que tiene un cuadrado marcado con una H grande y tres puertas.  para encontrar
+A dónde conducen las tres puertas, avanza hacia el cuadrado marcado con la H.
+Ayuda a que aparezcan cuadrados como este por toda la Tierra de Aventuria.  Úsalos
+para obtener consejos e información útiles mientras juegas.  Para continuar con el "Cómo
+Play", pasa por la puerta de arriba.
+
+2. Recoger cosas: en la siguiente habitación, verás una espada en el suelo.
+piso.   Para recoger el arma, intenta moverte encima de ella como el cuadrado de ayuda.
+aconseja.
+
+3. Uso de otras opciones: si presiona el botón del joystick cuando está
+Es tu turno para moverte, aparecerá un menú que contiene opciones adicionales en el
+barra de mensajes.   Para seleccionar una de las opciones, use su joystick para mover el
+resáltelo y luego presione el botón.
+Pruebe la opción Soltar objeto en el medio de la primera columna de opciones.
+Utilice el cursor mientras la pantalla le indica que suelte la espada en un cuadrado al lado
+tu personaje.   Luego muévete hacia él para volver a levantarlo.  Harás muchas
+dejar y recoger cosas mientras juegas.  Así es como te desharás de las cosas.
+que resultan demasiado pesados, cómo mueves las cosas que bloquean tu camino y cómo
+Adquiere la riqueza, los bienes y las herramientas que necesitarás para alcanzar tu objetivo.
+
+4. Lidiar con enemigos que amenazan la vida: un ejemplo: si mueves tu
+personaje a través de la puerta, pronto te encontrarás en una nueva habitación, fuera de
+que representa un dragón feroz a punto de saltar.
+
+Para atacar con la espada, sal de la habitación y entra al dragón, luego
+presione el botón cuando se le solicite.  Sigue así cuando sea tu turno y
+deberías ganar, gracias al hecho de que tus diseñadores de juego crearon a tu oponente
+parecer más fuerte de lo que es.  Y aún así, es lo suficientemente fuerte como para causar algún daño si
+te atrapa con sus colmillos.
+Cuando el dragón muera, su imagen desaparecerá y aparecerá la imagen de una lámpara.
+aparecerá en su lugar.  Eso es porque el dragón llevaba la lámpara.  si
+Si hubieras muerto, tu imagen habría sido reemplazada por la imagen de
+la espada que llevas.  Cada vez que un personaje o una criatura muere, abandona
+detrás de lo que sea que llevaba (excepto cuando muere en el mapa principal, o cuando
+El constructor de aventuras diseñó los objetos para que desaparecieran tras la muerte de
+el propietario). Asegúrese de recoger la lámpara antes de salir de la habitación.  
+¿Quién sabe?  Quizás sea magia.
+
+5. Tu barra de fuerza vital: una vez que hayas pasado por una batalla, es hora de
+comience a utilizar más información que siempre está disponible para usted en su turno.
+La barra de fuerza vital (en el extremo derecho) indica tu resistencia en la batalla.
+Cuando luchas, los golpes enemigos que caen sobre ti restan poder y vida.
+La fuerza total y los golpes que le asestas a tu enemigo se restan del suyo.  cuando cualquiera
+La fuerza vital del bando llega a 0, la batalla termina y el perdedor está muerto.
+Puedes restaurar la Fuerza Vital perdida de dos maneras diferentes; usando el "Descanso"
+opción, o encontrando algún lugar o elemento que invoque un "aumenta tu fuerza"
+hechizo.  En el País de Aventuria, la plaza de primeros auxilios marcada por una cruz invoca
+tal hechizo cuando te topas con él.  Mientras utiliza estos diferentes métodos, observe
+tu barra de fuerza vital para ver el efecto de tu acción.  (Nota: antes de su próxima
+batalla, carga tu Fuerza Vital antes de pelear.  Te hará mejor
+luchador.)
+
+6. Tu barra de energía: la barra de energía (justo a la izquierda de tu barra de fuerza vital)
+Muestra cuánta energía mágica tiene tu personaje.  Podrías considerar el poder como
+resistencia o fortaleza, como "la Fuerza", como iluminación espiritual, como
+energía en su paquete de energía personal de ciencia ficción, etc., dependiendo de lo que mejor
+Se adapta a la aventura que estás jugando.
+Necesitas poder para protegerte en la batalla y para lanzar hechizos que puedas
+encuentra mientras juegas.  La lámpara que llevaba el dragón contiene precisamente ese hechizo:
+en este caso, un hechizo de "invocar criatura" que traerá un genio poderoso al
+habitación.
+La probabilidad de que un hechizo tenga éxito cuando lo lanzas está determinada por
+cuánto poder usa el hechizo y cuánto poder tienes.  Cuanto más poder
+tenga, mayores serán sus posibilidades de éxito.
+En "Cómo jugar", pasar a la siguiente habitación aumenta temporalmente tu poder.
+para que puedas lanzar el hechizo "Invocar Genio".  Pruébalo, luego quédate en la habitación hasta
+El genio aparece y te da un valioso regalo.
+
+7. La opción Perfil: si presiona el botón y luego selecciona "Perfil",
+Aparecerá una nueva pantalla con una lista de los distintos rasgos y objetos.
+poseído por tu personaje.
+
+No dejes que la pantalla te abrume y no intentes dominarla toda de una vez.
+Ya conoces algo de lo que se enumera allí.  (La velocidad determina la
+altura de la barra de movimiento a la izquierda de la pantalla; La Fuerza Vital determina la
+altura de la barra de fuerza vital y potencia la altura de la barra de energía.) Y el
+El descanso será más significativo a medida que adquieras experiencia en aventuras.
+Para obtener una descripción de todas las entradas del perfil, estudie la sección llamada
+Resumen de rasgos y habilidades mientras juegas.  Para seguir con las miniaventuras
+en la "Tierra de Aventuria", atraviesa la puerta después de recibir el regalo de
+el genio.   Te encontrarás parado en la primera habitación del "Agente 00111",
+a punto de adquirir algo de práctica disparando armas de largo alcance.
+
+Lo que has aprendido: antes de continuar, quizás quieras detenerte a reflexionar sobre
+todo lo que has aprendido hasta ahora de esta sencilla aventura.
+
+     * Ahora sabes cómo moverte y cómo recoger y dejar
+       cosas, y sabes el significado de las tres barras que
+       Aparecerá en la pantalla cada vez que sea tu turno.
+     * Sabes cómo luchar y cómo lanzar hechizos, aunque lo harás.
+       aprende de aventuras más desafiantes, las armas no
+       siempre funcionan y los hechizos tampoco.
+     * Sabes que algunas criaturas son amigables y otras no - a
+       Complejidad a considerar cuando intentas decidir si deseas
+       atacar cuando aparece una nueva criatura.
+     * Sabes que atravesar puertas puede producir sorpresas.
+       resultados: aumenta el poder, destrucción de los objetos que estás
+       llevar, etc
+
+Estos son principios que encontrarás una y otra vez mientras juegas y
+Crea con tu programa Adventure Construction Set.  Mientras juegas las aventuras
+Como se describe más adelante, aprenderá nuevas variaciones de estos, además de una gran cantidad de
+cosas nuevas para considerar además.
+
+
+Jugando las Otras Aventuras en la "Tierra de Aventuria" - Esta sección brevemente
+describe todas las aventuras en la "Tierra de Aventuria".
+
+¡AVISO A TODOS LOS AVENTUREROS QUE RECORREN ESTOS SENDEROS!
+Hay monstruos errantes en el mapa principal de Aventuria.  Algunos son
+Amable.  Algunos no lo son.  Si eres arrastrado a la guarida de cualquiera de estos durante
+En tu viaje, estudia sus nombres en busca de pistas sobre su carácter.  pero no lo hagas
+Cree todo lo que lees.
+
+Características comunes a todas las miniaventuras: a lo largo de las aventuras en el
+"Tierra de Aventuria", un cuadrado marcado por una gran H producirá una pantalla llena de
+Texto útil si te mueves encima de él.  Intentando pasar a un cuadrado marcado por un
+La cruz aumentará la fuerza vital de tu personaje.  Hazlo a menudo para mantener tu vida
+fuerza alta y serás más difícil de matar y también un mejor luchador.
+
+
+Agente secreto 00111: una aventura sencilla que demuestra una aventura común.
+problema: la necesidad de encontrar un objeto (en este caso, una clave) antes de poder pasar
+a través de una puerta para llegar a su objetivo (en este caso, el microfilm y el secuestrado
+niña prisionera).  Hay dos entradas a esta miniaventura: la
+puerta que conduce a la derecha desde la primera habitación en "Cómo jugar" y la puerta
+que sale de la última sala de "Cómo jugar".
+
+Sam Club, soldado I. Si alguna vez has visto a Humphrey Bogart en "The Maltese
+Falcon", te reirás entre dientes con este.  Y si no lo has hecho, todavía lo harás
+Ten el placer de descubrir quién miente y qué pasó realmente.  usted
+También tendrá la oportunidad de ver que las puertas pueden atravesar la ciudad,
+especialmente cuando están disfrazados de vagones y trenes subterráneos.
+
+Alicia en el país de las maravillas: una adaptación del clásico de Lewis Carroll.  Sigue el
+Conejo Blanco por la madriguera del conejo, pasea por Caterpillar y Cheshire
+Cat, mira la Mad Tea Party y más.  Enfrenta el rompecabezas de cómo crecer
+lo suficientemente grande como para alcanzar la llave encima de la mesa de cristal.  Un buen ejemplo de un
+Aventura donde la conversación, no el combate, cuenta la historia.
+
+Washington cruza el Delaware: incluso los dramas históricos se pueden hacer con
+Set de construcción de aventuras.  Descubra cómo hacer que Washington cruce ese río.
+en esta fantástica narración de la historia, y ganarás el día.  Los profesores toman
+nota;  Ingrese a la escuela al otro lado del río para una demostración.
+de cómo los rompecabezas de aventuras pueden convertirse en entretenidos ejercicios de refuerzo.
+
+Deep Dank Dungeon: una aventura de 15 habitaciones en el clásico "explora una mazmorra"
+tradición.   Hay malos y tesoros, hay un cuarto donde todo
+parece una puerta y otra donde no hace nada, incluso hay un laberinto de 4
+habitaciones que son todas exactamente iguales.  Prueba este cuando estés listo para algo.
+rompecabezas con el tipo de giro diabólico que te hace sospechar que el creador está
+en algún lugar mirándote y riendo.
+
+En el castillo nazi: una aventura de 15 habitaciones ambientada en el castillo del enemigo.  usted
+En este caso, te toparás con muchos guardias armados y engañarás a los cofres del tesoro, así que construye
+tu fuerza vital cada vez que puedas.  Tu objetivo es conseguir los planos secretos y
+escapar con ellos.  Si te gusta pelear, ¡esta es tu aventura!
+
+¡Salva la galaxia!   - Una aventura de 15 habitaciones ambientada en una nave espacial, la superficie de un planeta.
+y las cavernas subterráneas de un asteroide helado.  Wistrik el Mal está robando
+Toda la cristita del planeta Irata.  Podrás encontrar y detener
+él...pero será mejor que desactives la bomba que ha aparecido misteriosamente en el puerto
+también la cápsula del motor de su barco.
+
+Ríos de Luz...
+
+Esta nueva epopeya de Stuart Smith está ambientada en el antiguo Egipto y el Cercano Oriente en el
+Los albores de la civilización humana.  El objetivo es la esencia de Osiris, dios de los muertos.
+y dador de vida eterna.
+
+
+Tu búsqueda comienza en el valle de los ríos Tigris y Éufrates, el
+cuna de la civilización.   Tu primer problema es que el mapa mundial está lleno de
+Ríos que no se pueden cruzar; es decir, que no se pueden cruzar, para aquellos que no saben nadar.
+La anciana y el cazador pueden ayudar.
+Si localizas los ríos Tigris y Éufrates en un mapa de un buen atlas,
+Sabrás dónde buscar Egipto en el mapa mundial de "Ríos de Luz".  el
+La aventura también es históricamente precisa en muchos otros detalles.  Si quieres
+Para saber más sobre la mitología que se esconde detrás de este cuento, consulte algunos de
+los libros que figuran en la bibliografía del apéndice.
+Algunas palabras de aliento y consejos amistosos.  "Ríos de Luz" es un
+Aventura clásica llena de acertijos desafiantes.  Hay un arma poderosa,
+por ejemplo, en Assur, disponible para todo aquel que pueda encontrarlo.  Y hay un
+sustancia con gran poder curativo en el Valle Antiguo donde la anciana y
+cazador vivo.
+Hurga mientras te aventuras.   Busque mensajes, puertas ocultas y
+tesoros, por cosas que se revelan sólo después de haber cruzado un
+espacio particular mientras lleva un artículo en particular.  Es cierto que tú también puedes morir
+negrita un movimiento y tiene que volver a la última posición donde entró o salió de un
+región o guardaste el juego, pero al menos sabrás que no debes volver a intentar ese movimiento.
+Cuando te quedes estancado, permítete permanecer así por un tiempo.  No todos
+Las posibles soluciones le llegarán inmediatamente, pero las que llegan lentamente
+Se sentirán aún mejor cuando finalmente vengan.  Date todas las oportunidades para
+reproduce "Rivers of Light" hasta el final antes de usar el editor para estudiar cómo
+fue armado.
+
+
+Las opciones de construcción de ACS...
+
+Piense en los menús de construcción del Adventure Construction Set como pertenecientes a
+3 pantallas principales.  Y piense en el joystick como una especie de cambio de marchas que utiliza
+para mover el cursor en los menús para que pueda seleccionar las opciones que
+quiero........
+
+1. Realizar cambios sencillos: la pantalla superior (ver más abajo), es decir, la que ves
+primero cuando seleccionas "Construir una aventura", contiene las opciones que necesitas
+trabaja en la superficie de tu aventura: cambia el nombre, el tema musical que
+se reproducirá al principio, etc.
+
+Esta pantalla también contiene las tres opciones que hacen que el programa
+escribe en el disco de aventuras en el que estás trabajando: 1) "Guardar trabajo y continuar" (para
+guarda el trabajo que has hecho hasta ahora para no perderlo si hay un corte de energía repentino
+fracaso);  2) "Guarde su trabajo y salga" (para que pueda dejar de construir y comenzar
+jugando);  3) "Deja que ACS termine tu aventura" (para que puedas dejar que el programa haga lo suyo).
+trabajo de construcción para usted).
+
+2. Creación del mapa y las regiones: si selecciona "Hacer un trabajo más detallado"
+desde la pantalla superior, generas el menú que te permite trabajar en el mapa mundial
+y en regiones y habitaciones.
+Al seleccionar opciones en la pantalla se generan menús que le permiten crear,
+pobla y llena el mapa, las regiones y las habitaciones en tu aventura.  aquí
+Además, colocas las puertas que te llevan de un lugar a otro en tu aventura.
+
+3. Crear y editar cosas, criaturas y gráficos: si seleccionas "Hacer
+Trabajo más detallado" nuevamente, aparece la pantalla que le permite agregar y editar
+la Lista maestra de criaturas, la Lista maestra de objetos y el Conjunto maestro de gráficos para
+una aventura.
+Al seleccionar la opción en esta pantalla se obtienen los menús que necesita crear y
+Modifica las cosas, criaturas e imágenes que necesitas para tu mapa y tus habitaciones.
+Este menú también contiene opciones que le permiten borrar partes particulares de
+discos de aventuras existentes.
+
+
+Pidiendo a ACS que cree aventuras para usted...
+
+Su programa ACS viene con tres juegos de construcción básicos ubicados en la
+parte posterior del disco.   Uno es ideal para aventuras de fantasía (la espada y
+tipo de brujería), otro es genial para el espionaje y el misterio contemporáneos.
+dramas, y el tercero viene equipado para escapadas de ciencia ficción.
+Para crear un disco de aventuras que contenga uno de los conjuntos básicos, seleccione "Crear un
+Adventure Disk" en la pantalla de opciones principal y siga las instrucciones a medida que aparecen.
+aparecer.   Luego puede seleccionar "Construir una aventura" y "Dejar que ACS termine su
+Adventure" (que se describe a continuación) para pedirle a la computadora que le cree una nueva aventura.
+Nota: Para obtener mejores resultados, comience con el conjunto de fantasía o el conjunto de ciencia ficción.
+especialmente si es la primera vez que utiliza esta opción.
+
+1. Puedes ingresar el Nombre de la aventura, Autor por línea y Nombre del mapa, o
+Puede dejar que ACS lo haga por usted.  Si desea hacerlo usted mismo, mueva el cursor a
+cada una de esas opciones y presione el botón para que pueda escribir los nombres que
+quiero.
+
+2. Mood ofrece 3 posibilidades: Fantasía, Espía/Misterio y Ciencia
+Ficción.  Para seleccionar entre las posibilidades, mueva repetidamente el cursor a la
+Opción "Estado de ánimo" hasta tener el que deseas.  A menos que hagas un cambio aquí,
+ACS utilizará el estado de ánimo que coincida con el conjunto de construcción que estás utilizando.  el
+La configuración de "estado de ánimo" determina los nombres que ACS elegirá para el mapa y las habitaciones,
+los cuadros que utilizará para componer las paredes, etc.
+
+3. Mueva el cursor a Desafío y mueva el joystick hacia la derecha y hacia la izquierda hasta
+tienes la configuración que deseas.  El rango va desde "1 Fácil" hasta "10 Difícil".  en
+aventuras fáciles, las criaturas que encontrarás no serán demasiado malas y poderosas,
+y las pistas y pistas serán más abundantes y más fáciles de entender.
+
+4. El objetivo de una aventura es encontrar algún objeto en particular.  si tu
+Si desea elegir el objeto de la lista de cosas maestras, seleccione "Objetivo" y luego
+seleccione un objeto de la lista que aparecerá.  (Mover el joystick hacia la izquierda
+muestra una nueva lista.  Al moverlo hacia arriba y hacia abajo, el resaltado se mueve de un elemento a otro.
+elemento dentro de una lista.   Moviéndolo hacia la derecha y presionando el botón se selecciona el
+elemento resaltado.)
+
+5. No cambie las siguientes dos opciones: ACS vuelve a dibujar completamente el mapa y
+ACS intenta utilizar sólo cosas definidas.   Estos son útiles para codificar un
+aventura existente, como se describe a continuación.  (Debe cambiar "ACS intenta utilizar
+Sólo cosas definidas" a "ACS crea varias cosas nuevas" si está comenzando
+con una lista maestra escasa y desea que ACS la agregue para que pueda hacer una lista más
+interesante aventura.   Los juegos básicos que vienen en el disco ACS no son
+escaso.)
+
+
+6. Utilice Editar atributos de región para indicarle a ACS cuántos y qué tipos de
+regiones que quieras en tu aventura.  Puedes tener hasta 15 regiones diferentes y
+Puede nombrar cada uno o dejar que ACS lo haga por usted.  Si no realiza ningún cambio aquí, ACS
+creará automáticamente una aventura de 8 regiones y utilizará tu total
+Configuración de "desafío" para determinar la dificultad de cada región.
+Si selecciona esta opción, aparecerá un nuevo menú (a continuación) para que pueda
+dar instrucciones específicas a ACS sobre cuántas regiones desea y cómo desea
+ellos construyeron.
+Utilice "Tipo" para indicarle a ACS cómo desea que se vean las habitaciones de la región.
+(Hay 8 posibilidades, incluida la opción de permitir que ACS elija el tipo por usted).
+"Desafío" si quieres que la región tenga un nivel de dificultad diferente al
+uno que elegiste de la aventura general.
+Utilice la segunda opción desde arriba para establecer el número de regiones que ACS tendrá
+construir.  Configúrelo en "Escribir una región completamente nueva" para cada región que desee,
+luego configure la siguiente región en "Dejar vacías esta y las siguientes regiones".  Utilice "Editar
+Otra Región" para pasar de una región a otra y realizar estas configuraciones.
+
+7. Seleccione Dejar que ACS escriba la aventura y luego haga otra cosa mientras ACS
+¿Funciona?   Aparecerá un mensaje cuando su nuevo disco esté listo para reproducirse.
+Mientras tanto, la pantalla le dará periódicamente una nueva estimación de cuánto
+mucho más tiempo llevará el proceso.
+
+Importante: recuerda, jugar una aventura la cambia.  Las cosas se recogen y
+movidos o destruidos, las criaturas mueren y abandonan sus posesiones, etc.
+Antes de jugar tu nueva aventura por primera vez, quizás quieras utilizar "copiar
+una Aventura" para hacer una copia. De esa manera tendrás una versión original para
+Trabaja con ellos si decides que quieres editar la aventura y/o hacer copias de ella.
+para tus amigos que también poseen ACS.
+Comenzando con una aventura existente
+
+También puedes usar la opción "Deja que ACS termine tu aventura" para codificar archivos antiguos.
+aventuras en otras nuevas y recién jugables.  Si quieres usar el mismo mapa,
+seleccione "ACS agrega algunas puertas al mapa".  De lo contrario, seleccione "ACS completamente
+Vuelve a dibujar el mapa".
+
+También puedes decidir cuánto quieres cambiar cada región, selección entre
+"Escribir una región completamente nueva", "Dejar la región casi sin cambios", "Aleatorio
+Sólo contenido" y "Disposición y contenido de la sala aleatoria" para cada uno.  el unico
+Lo que no puedes seleccionar para una región que ya existe es "Dejar esto y
+Regiones posteriores vacías".
+Como antes, cuando haya ingresado las instrucciones que desea que siga ACS,
+Seleccione "Dejar que ACS escriba la aventura" y haga algo mientras ACS hace su trabajo.
+para ti.
+
+Nota: Cualquier aventura creada con la opción "Deja que ACS termine tu aventura" puede
+editarse y modificarse con las otras opciones de construcción de ACS descritas en la
+siguientes secciones de este manual.  Puede agregar efectos de sonido y música, editar o
+Bajar el tono de una criatura que está causando muchos problemas a los jugadores, poner en texto
+mensajes para hacer la aventura más detallada y sugerente (especialmente
+importante para historias de espías/misterio), y más.
+
+También puedes usar la opción "Copiar o borrar parte de una aventura" para usar el trabajo.
+has hecho para una aventura como punto de partida para otra.  Ver más adelante
+para más información.
+
+
+Editando y construyendo aventuras...
+
+Descripción general
+
+Las opciones de construcción de ACs te permiten trabajar en los 5 programas fundamentales
+partes que subyacen a cada aventura:
+
+     * El mapa mundial, que contiene terreno de varios tipos y
+       puertas hacia y desde las regiones del mapa.
+     * Mapas de cada región, que se componen primero de un diagrama
+       mostrando una descripción general de todas las habitaciones de la región, y luego
+       de fotografías de cada habitación en detalle.
+     * La Lista Maestra de Objetos, que contiene un registro de todos los elementos básicos
+       utilería y efectos especiales.
+     * La Lista Maestra de Criaturas, que contiene un registro de cada
+       criatura básica y de la cual la criatura lista para el mundo
+       mapa y para cada región se puede componer.
+     * Un conjunto de gráficos maestros, desde el cual se pueden seleccionar imágenes para
+       terreno, cosas y criaturas.
+
+Aprendiendo a manejar el sistema...
+
+La ruta más rápida y sencilla para entender cómo funciona la construcción ACS
+Las opciones funcionan es usarlas para modificar una aventura en la que has pasado algún tiempo.
+jugando.   Los siguientes párrafos contienen instrucciones paso a paso para
+acciones de edición que probablemente realice con más frecuencia.
+     
+Para seguirlo, utiliza un disco que contenga una aventura que conozcas e intenta
+realizar las operaciones descritas.  Si es una aventura que todavía quieres jugar,
+use una copia de seguridad para que pueda realizar cambios sin preocuparse por estropear las cosas
+nosotros.   (De todos modos, no necesita preocuparse demasiado. Dado que eliminar y agregar son igualmente
+fácil, siempre puedes quitar lo que desees que no hayas agregado, y podrás
+siempre puedes devolver lo que desearías no haber sacado).
+Un pequeño consejo amistoso.  No utilice el editor para mirar "Ríos de
+Light" hasta que te hayas dado suficiente tiempo para resolver sus acertijos.
+A veces lleva un tiempo hasta que llega la solución a un enigma, pero cuando llega
+lo hace, descubrirlo usted mismo es mucho más satisfactorio.  Espere hasta
+Ya has terminado de jugar "River of Light" antes de usar el editor para ver cómo
+Stuart Smith lo armó.
+
+
+Guías de edición de aventuras paso a paso...
+
+Las puertas pueden conducir desde un lugar en el mapa mundial a otro o a cualquier habitación en
+cualquier región.
+
+1. Seleccione "Editar mapa mundial" en el menú de mapa y región para generar un conjunto.
+de opciones de edición de mapas.  Luego seleccione "Dibujar mapa mundial".
+
+El rectángulo grande de la derecha representa el mapa completo, y el más claro
+El rectángulo dentro de él representa la sección del mapa que está mirando.  Si
+mueves el cursor hacia arriba desde el menú a la pantalla y luego lo mueves contra
+los bordes de la sección del mapa, el nuevo terreno se desplazará a la vista y la posición
+del rectángulo más claro cambiará dentro del más oscuro.  Experimente con
+esto hasta que entiendas cómo usar el pequeño mapa de "dos rectángulos" para saber
+donde se encuentra la sección en la pantalla en el mapa grande.
+
+2. Utilice "Seleccionar nuevo terreno" para explorar las 16 posibilidades de terreno.
+hasta llegar a las puertas.
+
+Mueva el cursor nuevamente hacia abajo en el menú y empújelo hacia "Seleccionar nuevo
+Opción "Terreno".   Cada vez que hagas esto, aparecerá una nueva imagen del terreno en
+El pequeño cuadrado y una nueva descripción del terreno aparecerán debajo del menú.
+Hay 16 tipos de terreno diferentes para elegir en total.  Números del 13 al
+16 - Conjunto de castillo, puerta real, barco y caverna en la Tierra de Aventuria
+son puertas.   Cuando los agrega, ACS le indica el proceso de indicar
+por donde quieres que salgan las puertas.
+
+3. Mueva el cursor al mapa y luego muévalo al lugar donde desea
+abra la puerta y presione el botón.
+
+En los mapas mundiales, colocar terreno nuevo reemplaza lo que ya estaba allí.
+Y el terreno se puede configurar para que esté abierto solo para aquellos que lleven o no algo
+objeto (que elijas) o para que evoque un hechizo (que elijas) cuando
+alguien se mueve sobre él.  Para obtener más información, consulte la Guía de referencia de mapas mundiales.
+
+
+Cómo agregar y editar criaturas del mapa mundial...
+
+Se pueden ordenar que aparezcan hasta 8 criaturas.  Tú eliges las criaturas, las
+terreno en el que aparecerán y qué porcentaje de las veces aparecerán.
+
+1. Seleccione "Editar criaturas del mapa" y luego seleccione "Agregar otra criatura del mapa".
+
+Una lista de todas las criaturas disponibles en la Lista maestra de criaturas en tu
+Aparecerá el disco de aventuras.  Mueva el joystick hacia arriba y hacia abajo para mover el resaltado
+de criatura en criatura.   Muévalo hacia la izquierda para seleccionar un grupo diferente.
+dentro de la lista.   Muévalo hacia la derecha y presione el botón para seleccionar el
+criatura resaltada.
+Si no hay ningún espacio disponible para "Agregar otra criatura del mapa", selecciona una criatura
+ya no lo necesita y edítelo como se describe en el siguiente paso.
+
+2. Selecciona la criatura que deseas editar, luego selecciona cada uno de los elementos que deseas.
+deseo cambiar.
+
+Aparecerá un nuevo menú.  Seleccionar repetidamente las líneas superiores le permite voltear
+a través de 12 tipos de terreno para elegir en el que deseas que aparezca la criatura (12
+y no 16 porque no puedes elegir ninguna puerta).  Seleccionando repetidamente el
+La tercera línea del menú le permite indicarle a ACS qué porcentaje del tiempo desea
+la criatura para aparecer.  Cuanto más alto establezca este porcentaje, más probabilidades tendrá de
+Deben encontrarse con la criatura mientras exploran el tipo de terreno que habita.
+Si selecciona la opción "Editar rasgo", aparecerá una pantalla muy
+muy parecido al que ves cuando seleccionas la opción "Perfil" mientras juegas.  Por
+mover el cursor a cualquier elemento de la lista y luego mover el joystick
+manteniendo presionado el botón simultáneamente, puede cambiar cualquiera de estas configuraciones.
+Para obtener más información sobre los rasgos de las criaturas (especialmente incluido el uso de la
+tres configuraciones de "Estrategia" para determinar cómo se moverá y comportará la criatura),
+consulte la Guía de referencia de criaturas.
+
+
+Cómo agregar habitaciones y regiones...
+
+Las aventuras pueden tener hasta 15 regiones y hasta 16 habitaciones por región.  tu
+Decida el número de regiones que desea y el número, tamaño y ubicación de las
+habitaciones en cada región.
+
+1. Para agregar una habitación a una región existente, seleccione "Editar región" y luego
+seleccione la región particular que desee.
+
+Si el nombre de la región que desea no está en la parte inferior del nuevo menú,
+seleccione "Siguiente región" hasta que lo esté, luego selecciónelo.  Un diagrama de vista superior de todos los
+Aparecerán habitaciones de la región.  Selecciona "Agregar habitación" y sigue las instrucciones.
+tal como aparecen en la pantalla.
+Las habitaciones pueden tener hasta 15 cuadrados de ancho y 10 cuadrados de alto.  Si quieres
+Conecte la nueva habitación a su vecina con una puerta normal de dos vías, colóquela de manera que
+que comparte una pared común con ese vecino.  Si cometes un error al dibujar,
+use la opción "Eliminar habitación" y luego comience de nuevo.
+
+2. Para agregar una región, seleccione "Agregar región", escriba el nombre de una región y presione
+el botón, luego continúe usando "Agregar habitación" hasta que tenga todas las habitaciones que
+quiero.
+
+Puedes construir hasta 16 habitaciones.  Es mejor al principio, aunque construir menos
+que eso para que puedas agregarlo más tarde si decides que la aventura necesita otra
+habitación.   Si quieres poner cosas y criaturas en las habitaciones a medida que avanzas,
+seleccione la opción "Editar sala" que se describe en la siguiente sección.
+
+
+Cómo agregar y cambiar el contenido de las habitaciones...
+
+Puedes tener hasta 16 criaturas de tu Lista Maestra de Criaturas y más
+más de 500 cosas de tu Lista maestra de cosas en cada región.  Podrías si tu
+quería, apílelos todos en un solo cuadrado en una sola habitación.
+
+1. Seleccione "Editar región", luego seleccione la región que contiene la habitación
+que le interese y luego seleccione "Editar sala".
+
+El cursor aparecerá (como un cuadrado sólido muy pequeño) para que pueda indicarle a ACS
+qué habitación desea editar.  Al hacerlo, aparecerá un menú que contiene 4 opciones.
+aparecer.   Para cambiar las características de las criaturas que ya están en ("residentes") o
+asignado ("aleatorio") la habitación, seleccione las 2 opciones de la izquierda.  Para agregar o
+eliminar cosas o criaturas seleccione la opción "Editar contenido de la habitación".
+
+2. Después de seleccionar la opción "Editar contenido", seleccione cada opción con la frecuencia
+como quieras y sigue las instrucciones a medida que aparecen.  Para volver a la principal
+menú de edición de región, seleccione "Salir".
+
+Para obtener información sobre lo que ya hay en una habitación, seleccione "Examinar habitación".
+Utilice "Agregar 1 cosa" para abrir la Lista maestra de cosas para que pueda seleccionar un elemento
+de ello.   Utilice "Agregar muchas cosas" si desea colocar varias copias del
+lo mismo.  Utilice "Agregar criatura" para abrir la Lista maestra de criaturas para que pueda
+seleccione de él.  Utilice "Eliminar cosa" para deshacerse de algo, ya sea cosa o criatura.
+- agregado previamente. A diferencia del terreno del mapa mundial, los elementos nuevos no reemplazan a los antiguos. 
+unos.  En lugar de eso, forman una pila.   Para más información sobre  
+regiones y salas, incluida información sobre cómo agregar elementos aleatorios  
+criaturas a habitaciones, consulte la Guía de referencia de objetos de regiones y habitaciones.
+
+Nota: Cuando aparecen las listas de objetos maestros y criaturas, lo hacen en segmentos.
+Seleccione "Ver otro grupo" para que aparezca un segmento diferente.  Seleccione "Siguiente
+Cosa" y "Cosa anterior" para mover el resaltado dentro de un segmento.  Para
+información sobre la lógica detrás de las agrupaciones, etc., consulte la Criatura
+Guía de referencia y Guía de referencia de cosa.
+
+
+Cómo agregar a las listas maestras de cosas y criaturas...
+
+Cada lista puede contener hasta 128 elementos.
+
+1. Para agregar algo nuevo, seleccione "Editar elementos" y luego "Agregar elemento".
+
+Se le advertirá que una vez que se agrega algo, no se puede eliminar.  (Es
+Sin embargo, se puede editar en cosas completamente diferentes dentro de su categoría).
+Luego, la pantalla le preguntará si desea continuar.
+qué tipo de cosas desea agregar y cuántas de ellas puede
+poseer al mismo tiempo.  Luego puedes mover el cursor a cada opción en el objeto.
+perfil para configurarlo como desee.
+Para volver al menú principal, seleccione "Salir".  Para obtener más información, consulte la
+Guía de referencia de cosas.
+
+2. Para agregar una nueva criatura, seleccione "Editar lista maestra de criaturas" y luego
+seleccione "Crear una criatura".
+
+Aparecerá un perfil de criatura, similar al perfil de los personajes.
+Puede cambiar cualquiera de los elementos del perfil y luego regresar al menú principal.
+siguiendo las instrucciones que aparecen en pantalla.  Nota: Cuando cambias el tamaño de una criatura
+características en la Lista maestra de criaturas, los cambios no se reflejan en
+la aventura. Para obtener más información, consulte la Guía de referencia de criaturas.
+
+
+Cómo editar imágenes y crear otras nuevas...
+Las posibilidades de imagen por las que te desplazas para ver terreno, personajes,
+criaturas y cosas se agrupan en 3 pantallas.  Para llegar a esas pantallas,
+seleccione "Editar gráficos".
+
+1. Seleccione la imagen que desea editar o el área en blanco en la que
+Quiero agregar una imagen.
+
+La primera pantalla tiene espacio para las 16 imágenes que deben usarse para el mapa.
+terreno pero que también puede usarse para cosas o criaturas.  la segunda pantalla
+(seleccione "Editar otro grupo de imágenes" para verlo) puede contener hasta 48
+Imágenes que pueden usarse para cosas, terreno o criaturas.  la tercera pantalla
+Puede contener hasta 46 imágenes, todas reservadas únicamente para criaturas.
+Cuando tenga la pantalla que desea, use la línea "Editar otra imagen" para
+mueva el selector de una imagen a otra, trayendo una versión ampliada de la
+imagen seleccionada en el área de dibujo.
+
+2. Usa el joystick para pintar lo que quieras en el área de dibujo.
+
+Para dibujar, mueva el cursor desde el menú al área de dibujo y presione el botón
+para colocar un bloque del color seleccionado.  Elija "Dibujar otro color"
+para seleccionar otra de las cuatro opciones de color disponibles.  Elija "Cambiar pintura
+Color" para cambiar el color de la muestra de pintura actualmente seleccionada.
+Para obtener más información, consulte la Guía de referencia de gráficos.
+
+
+Hechizos mágicos...
+
+Los hechizos mágicos son a la vez una categoría de cosas por derecho propio y algo
+que se puede conectar a objetos mágicos, portales (puertas) y obstáculos y espacios.
+En total hay 15 hechizos básicos diferentes disponibles.
+Se puede hacer que cada hechizo mágico muestre un breve mensaje de texto de tres líneas.
+cuando se invoca (brindando la oportunidad de explicar al jugador/personaje
+lo que está sucediendo) y puede desaparecer después de su primer uso.  Aquí están
+Los 15 hechizos básicos y lo que hace cada uno.
+
+1. Mata a todos menos al propietario de (eliges las cosas de tu cosa maestra).
+Lista).   No seas casual acerca de cómo empleas ese hechizo en tus aventuras.
+Hace exactamente lo que dice y nadie quiere aventurarse en un mundo donde la muerte
+es demasiado frecuente y con demasiada frecuencia arbitraria e inesperada.
+
+2. Invocar/Desterrar criatura (tú especificas la criatura, eligiéndola de tu
+Lista maestra de criaturas).   Esto puede usarse para desterrar a todas las criaturas presentes en un
+habitación donde se lanza el hechizo, o puede usarse para convocar a la habitación cualquier
+criatura en la Lista Maestra de Criaturas.  El destierro ocurre inmediatamente.  Convocatorias
+no será respondido hasta el siguiente turno.  Este hechizo no puede usarse en
+el mapa del mundo.   (Nota: Cuando destierras criaturas, ellas toman todas sus
+posesión al olvido con ellos.  No destierres a la criatura que robó la llave.
+tienes que pasar a la siguiente habitación.)
+
+
+
+3. Aumenta la defensa mágica, pero no mucho mejor que... (eliges entre cuatro
+posibilidades).   En su forma más poderosa, una defensa mágica absorbe completamente los golpes.
+de armas normales y reduce el daño de armas mágicas a la mitad.
+
+4. Disminuir la defensa mágica pero no mucho mejor que... (eliges entre cuatro
+posibilidades).  Lo contrario del hechizo anterior.
+
+5. Aumentar la Víctima... (usted elige Constitución, Fuerza, Destreza,
+Velocidad, Sabiduría, Habilidad de esquivar, Habilidad de parada, Habilidad de armadura, Habilidad cuerpo a cuerpo o Misil
+Habilidad.) Los rasgos aumentan en 1 punto, las habilidades en 5. El efecto del hechizo
+es permanente, es decir, hasta que se encuentre el siguiente hechizo.
+
+
+6. Disminuir la Víctima... (usted elige Constitución, Fuerza, Destreza,
+Velocidad, sabiduría, habilidad de esquivar, habilidad de parada, habilidad de armadura, habilidad cuerpo a cuerpo o misil.
+Habilidad).  Ver hechizo anterior.
+
+    7. Cambie el poder de la víctima por... (especifique un número entre -63 y +63).
+Debido a que el Poder de un individuo cambia automáticamente en la dirección de su
+Sabiduría en cada turno, no importa si eliges que el efecto sea
+temporal o permanente.  Todos los cambios en el poder son temporales, sin importar cuál sea el
+configuración.
+
+8. Cambie Life Force por... (especifica un número entre -63 y +63).  Como
+el hechizo anterior, excepto que Life Force no decae cuando es mayor que
+Constitución.   Un aumento permanente es la Fuerza Vital sólo se puede perder en la batalla o
+a otro hechizo.
+
+9. Dáselo a la víctima (tú eliges el objeto de tu Lista maestra de objetos).  un uso
+Este hechizo es darle un hechizo mágico a un héroe/jugador o una criatura.
+
+10. Mostrar mensaje largo (hasta 8 líneas, hasta 32 caracteres por línea).
+Este hechizo se usa generalmente con los espacios y obstáculos para decir
+al jugador/personaje sobre un suceso u objeto especial o para dar una pista.
+
+11. Reproducir Música (seleccionas entre 30 posibilidades diferentes).  Opciones 1
+al 12 son efectos de sonido.  Las opciones 13 a 30 son temas musicales.  las opciones
+con "endless" en sus títulos (14 al 17) seguirán jugando hasta
+Se activa otra opción de música.  (Consulte "Apilar cosas en un cuadrado" para obtener una
+ejemplo de un uso eficaz de un sinfín de temas.)
+
+12. Deshazte de la habitación de todos los no transportados... (eliges la cosa de tu Maestro
+Lista de cosas).  Un uso particularmente diabólico de este hechizo sería adjuntarlo a
+un objeto invisible (uno sin imagen) que se coloca directamente frente a un
+tesoro visible, nombrando el tesoro como aquello de lo que hay que deshacerse de la habitación.
+Alternativamente, puedes usarlo para eliminar de la habitación una cubierta colocada sobre un
+Objeto valioso escondido debajo.   (Consulte la sección llamada "Hágase
+Luz".
+
+13. Agregue a la Habitación Uno (usted elige el objeto de su Lista Maestra de Objetos).  hace
+justo lo que dice.  El efecto es inmediato.
+
+14. Activa todas las cosas en este lugar.  Especialmente útil para desencadenar una
+serie de hechizos asociados con elementos, espacios y/u obstáculos apilados en una
+un solo cuadrado.  Consulte "Apilar cosas en un cuadrado".
+
+15. No hacer nada.  Utilízalo cuando simplemente quieras mostrar un mensaje corto.
+en la parte inferior de la pantalla pero no quiero hacer nada más.  desde hechizos
+no se puede soltar, también podría usarse para darle a criaturas o jugadores/personajes una
+característica de la que no podían deshacerse (quizás una maldición, que impide
+paso a través de determinadas puertas.
+
+
+
+
+Algunas cosas especiales y sus usos...
+
+La construcción básica de Fantasía, Espía/Misterio y Ciencia Ficción establece todos
+Contiene algunas cosas muy útiles para propósitos especiales.  Aquí hay una lista de algunos de
+ellos, junto con breves descripciones.  Para obtener más información, consulte Referencia de cosas.
+Guía.
+
+1. Los espacios para hacer todo y el obstáculo: se activa el espacio para hacer todo y caminar
+cada vez que alguien camina sobre él y el obstáculo Do-All-Bump cuando alguien choca
+en él, y cada uno activará, en orden de arriba a abajo, lo que sea
+Los hechizos se encuentran debajo de él.  El espacio Do-All-Carry (un espacio personalizado, en realidad) funciona
+de la misma manera, pero se activa solo cuando alguien lleva un artículo en particular
+(que puedes elegir cuando colocas uno de estos en una habitación).
+
+
+2. Espacios personalizados de música y mensajes: cuando los colocas en una habitación,
+Puedes elegir el texto o la música en particular que se producirá cuando el
+El espacio se activa, ya sea al caminar sobre él o mediante un hechizo Hacer todo arriba.  eso.
+ 
+3. El espacio personalizado Deshazte de la habitación: coloca este en una habitación y podrás
+dígale a ACS qué eliminar de la habitación cuando se active el espacio.  su
+El poder narrativo radica en su asociación con lo que nombras cuando dices
+colóquelo en la habitación.  Para ver un buen ejemplo de lo que se puede hacer con un "Liberar el
+hechizo "habitación", consulte la discusión sobre "Hágase la luz". (Nota: si marca
+los conjuntos básicos, también encontrarás otros espacios de hechizos personalizados: "Agregar a
+Habitación 1", "Aumentar fuerza vital", etc. Al igual que el espacio personalizado Deshazte de la habitación, estos
+te permite elegir el modificador de hechizo cuando los colocas en una habitación.
+
+4. El hechizo de vuelo: si usas "Editar cosa" para ver esto
+hechizo, puede que le resulte difícil imaginar para qué sirve.  Por si solo lo hace
+nada.   Pero si configura algún terreno como "Abierto sólo para propietarios de vuelos
+Hechizo", se vuelve realmente poderoso. (El mismo principio se puede utilizar, por supuesto,
+para los ríos abiertos sólo a los propietarios de un hechizo de natación, se emplea un truco para conseguir "Ríos
+of Light" tuvo un comienzo interesante.)
+
+5. El espacio personalizado Decoder: disponible en el conjunto Espía/Misterio, este
+La variación en el espacio de mensajes descrito anteriormente mostrará texto cada vez que un
+Se deja caer un mensaje codificado.  Es un buen ejemplo de cómo una idea básica como una
+El espacio de mensajes personalizado se puede personalizar con una imagen y una activación diferente.
+Método para realizar una función muy útil en una aventura.  El mismo truco fue
+Se utiliza para producir los espacios de Ayuda en "Cómo jugar" en Aventuria.
+
+
+Consejos y técnicas generales de construcción...
+
+1. Explore y planifique un poco antes de comenzar a construir.
+
+ACS le permitirá comenzar el proceso de construcción con tanto o tan poco
+como quieras (hasta "nada más que gráficos") en tu disco de aventuras.  el
+La ventaja de comenzar con un juego de construcción básico es el tiempo que le ahorra en
+la creación de Listas de Cosas Maestras y Criaturas.
+Elija uno de los conjuntos y dedique un tiempo a explorar las listas maestras.
+para ver qué hay disponible.   Piense en dónde podría utilizar este poderoso,
+criatura enemiga agresiva o esa ballesta mágica.  Dibuja diagramas de tu
+regiones en papel para que puedas pensar dónde quieres colocar las cosas.
+Si decides que necesitas algo que no está en el conjunto o quieres modificar algo
+ahí, puedes usar "Editar cosas" o "Editar criaturas" y "Editar
+Opciones de "Gráficos" para crear nuevos elementos o cambiar los existentes. Con el tiempo,
+terminar con nuevas versiones de los conjuntos básicos que se han modificado para adaptarse a su
+Estilo propio, gusto e ideas de construcción de aventuras.
+
+2. Presta atención al ritmo de tu aventura.
+
+Algunas acciones tardan más en realizar la computadora que otras.   ser
+Piensa en cómo los colocas en tu aventura.  Cuando una puerta conduce a
+Por ejemplo, en otra región, el programa debe ir al disco para obtener nueva información.
+Utilice estas puertas con moderación para que los aventureros no se cansen de esperar las nuevas.
+información para que aparezca.
+También preste atención al orden en que suceden las cosas.  Cuando un texto corto
+El mensaje está asociado con un hechizo, por ejemplo, el mensaje se mostrará
+antes del hechizo en sí si se activa.  Asegúrese de que su mensaje tenga sentido si
+leer antes de que el hechizo surta efecto.
+
+3. Preste atención al ritmo de dificultad y frustración en su
+aventura.
+
+Si haces las cosas demasiado difíciles desde el principio, nadie seguirá jugando por mucho tiempo.
+suficiente para descubrir todas las cosas interesantes que plantaste.  Asegúrate de haber dado la
+aventureros suficiente éxito y misterio para engancharlos antes de pedirles que se ocupen
+con tus trucos y trampas más diabólicamente inteligentes.
+Podrías lograr esto dejando un arma muy poderosa pero frágil.
+en la primera sala entrarán los aventureros.  O podrías orquestar las cosas para que
+que pasar por una puerta temprana proporciona un gran impulso temporal en la Fuerza Vital
+o Poder.   Cualquiera de estas acciones ayudará a los aventureros a salir adelante temprano.
+peligros sin darles demasiada ventaja permanente.
+
+4. Utilice el trabajo que puso en una aventura como punto de partida para otras.
+
+Para utilizar una aventura existente como punto de partida, comience con un disco
+que contiene esa aventura y use la opción "Borrar parte de la aventura" para
+deshazte de las partes que no quieras.  (Para encontrar el botón "Borrar Parte de la Aventura"
+opción, seleccione "Construir una aventura" y luego seleccione "Hacer un trabajo más detallado"
+dos veces.) Puedes borrar los mapas del mundo y las regiones, o el Maestro
+Lista de criaturas, o todo menos los gráficos.
+También puedes copiar gráficos de una aventura a otra.  Seleccione "Copiar
+Gráficos de otra aventura", luego selecciona la opción que desees y sigue las
+instrucciones tal como aparecen.   Podrías usar esta opción para copiar un extraño
+gráficos ambientados en una aventura existente.  Más concretamente, sin embargo, podrías
+Úselo para copiar sus propios gráficos personalizados en cada una de una serie de aventuras.
+
+5. Haga una copia de seguridad y feche su trabajo.
+
+Las buenas aventuras no se construyen en un día.  Mientras trabaja, haga una copia de seguridad
+Copia al final de cada sesión y pon la fecha en la que hiciste el trabajo a nombre de
+la aventura (por ejemplo, "Superdungeon 15 de octubre").   Hacer esto le impide
+confiar todo su arduo trabajo a un solo disco y le facilita calcular
+Averigüe qué versión es la más reciente en caso de que se confunda con los discos.
+
+
+Guía de referencia de mapas...
+
+1) Dibujar el mapa mundial: el área completa del mapa es de 40 cuadrados por 40 cuadrados.  Sólo un
+Una sección de 10 por 15 cuadrados puede estar en la pantalla al mismo tiempo.  Cuanto más grande
+el rectángulo a la derecha del mapa representa el mapa completo; el gris más pequeño
+El rectángulo dentro de él representa la sección visible en la pantalla.
+El cuadrado en la parte inferior derecha contiene una imagen del tipo de terreno que
+Se puede agregar si mueve el cursor hacia arriba en el área del mapa y presiona el botón.
+Al mover el cursor al menú y hacia la izquierda, aparece una nueva imagen del terreno.
+a la plaza.  El nombre del tipo de terreno aparece al final del segundo.
+línea.  Si el terreno es transitable o si evoca un hechizo al cruzarlo.
+aparece en la tercera línea.
+Cuando colocas un trozo de tierra encima de un terreno existente, lo nuevo reemplaza
+el viejo.  Hay 16 tipos de terreno diferentes disponibles.  Para seleccionar un nuevo nombre,
+imagen, o condición de viaje o hechizo para cualquiera de los 16, consulte "Cambiar definición
+del terreno del mapa" a continuación.  Para aprender cómo poner puertas en el mapa mundial, consulta "Agregar
+Puertas" a continuación.
+
+2) Cambiar nombre del mapa: seleccionar esta opción le permite escribir un nuevo nombre (hasta 15
+caracteres de largo) para un mapa.
+
+3) Cambiar la definición del terreno del mapa: seleccione repetidamente "Terreno #" para mover el
+seleccionando resaltar entre las 16 posibilidades.  Para seleccionar "Cambiar imagen" a
+cambie la imagen para el tipo de terreno resaltado.  (Ambas opciones pueden ser
+Se activa moviendo el joystick hacia la derecha o hacia la izquierda para avanzar o retroceder.
+a través de las opciones disponibles.)
+
+Seleccione "Nombre" para escribir un nuevo nombre y seleccione la cuarta opción para
+determinar si y bajo qué condiciones el terreno puede ser transitado por
+jugadores y criaturas.  Si es necesario, ACS abrirá la Lista maestra de cosas para
+puedes elegir un objeto o hechizo para completar la edición del terreno
+tipo.
+Las imágenes del terreno se muestran en grupos de 4 para que puedas ver lo que
+Los parches de terreno de múltiples cuadrados se verán cuando consideres
+nuevas fotos.  Si desea modificar una de las imágenes o dibujar una nueva, consulte
+Guía de referencia de gráficos.
+
+¡Importante!   Los tipos de terreno 13-16 son portales (puertas).  Consulte "Agregar puertas" a continuación
+para obtener información sobre su uso.
+
+4) El movimiento fuera del borde del mapa está/no está permitido: seleccione esta opción para
+determinar si el mapa "se ajusta" o no.  Si permites el movimiento fuera del borde
+del mapa, el borde superior y el inferior se tratan como si estuvieran unidos
+entre sí, al igual que los bordes derecho e izquierdo.  Topológicamente, el
+La forma tridimensional a la que corresponde un mapa envolvente es un toroide.  (una rosquilla
+también es un toro.  Piénsalo.)
+
+5) Mover la entrada a la aventura: use esta opción para seleccionar el lugar donde todos
+Las nuevas aventuras comenzarán independientemente de cuándo se agreguen al juego.
+
+Agregar portales (puertas): ACS considera que los tipos de terreno 13-16 son unidireccionales
+puertas independientemente de sus imágenes o nombres.  Cuando agregas una puerta al mundo
+mapa, siga las instrucciones que aparecen para indicar dónde desea que esté la puerta.
+sal.
+Puedes tener hasta 32 puertas unidireccionales en el mapa mundial.  Esas mismas puertas pueden
+También se puede utilizar para marcar los puntos de salida de puertas unidireccionales que conducen desde el interior.
+habitaciones de regreso al mapa mundial.
+Usar el mismo lugar para marcar un destino de entrada y salida ayuda
+Los jugadores dan sentido conceptual al mapa.  Una puerta podría representar la entrada.
+a una ciudad cuyas calles y tiendas están definidas por las habitaciones de la región
+la puerta conduce a.   Hacer una puerta unidireccional que conduzca dentro de la región de regreso a la
+El mismo lugar ayuda a subrayar la noción de que la región representa una extensión de
+el mapa del mundo.
+También puede utilizar 31 ubicaciones adicionales en el mapa como lugares donde
+salen las puertas.  Incluso puedes tener puertas en el mapa mundial que conduzcan a otros lugares.
+en el mapa mundial (ver el Barco en Aventuria, por ejemplo).
+Generalmente, no querrás agregar puertas al mapa mundial hasta que hayas
+construya las regiones a las que desea que conduzcan.  Además, debido a que ACS le permitirá
+Coloca lo que quieras, incluido el terreno intransitable, encima de los lugares donde
+salen puertas unidireccionales, no querrás revisar mucho el mapa después de
+Hemos designado varias ubicaciones en el mapa como puertas de salida de un solo sentido.  no lo harás
+Normalmente queremos que los jugadores emerjan de una región sólo para encontrarse
+rodeado de montañas incapaces de moverse.
+
+Para obtener información sobre "Editar criaturas del mapa", consulta "Colocar criaturas aleatorias en
+una aventura" en la Guía de referencia de criaturas.
+
+
+Guía de referencia de habitaciones y regiones...
+
+Cada Aventura puede contener hasta 15 regiones y cada región puede contener hasta
+a 16 habitaciones.   Seleccione "Agregar región" para crear una nueva región y seleccione "Editar
+Región" para modificar o agregar a una región existente.
+Cualquiera de las opciones conduce a un menú que contiene las opciones "Agregar habitación",
+"Eliminar sala" y "Editar sala" (si selecciona "Editar región", se le preguntará
+para seleccionar el que desea editar antes de que aparezcan estas opciones).
+
+1. Agregar habitación: cuando selecciona "Agregar una habitación", la habitación aparece primero como
+pequeño cuadrado parpadeante que puedes mover en la pantalla con tu joystick.
+Una vez que presiones el botón, el joystick hará que el cuadrado crezca en tamaño.
+en lugar de moverlo.  Puedes usarlo para hacer una habitación de hasta 15 espacios de ancho por 10
+espacios en alto.
+Las nuevas habitaciones se pueden colocar en cualquier lugar que desees, siempre y cuando no se superpongan.
+con habitaciones existentes (pero las habitaciones pueden compartir una pared común).
+
+2. Eliminar habitación: esta opción le permite colocar el cursor en la habitación que desee.
+para deshacerse de él y presione el botón para deshacerse de él.  Nota: Si accidentalmente
+eliminar el destino de una puerta de un solo sentido, ACS desterrará a las criaturas que pasen
+a través de la puerta y colocará a todos los jugadores/personajes que pasen por ella en el
+mapa mundial en el punto de inicio de la aventura.
+
+3. Editar habitación: seleccione esta opción y use el cursor para identificar la habitación.
+desea editar, luego seleccione una opción del nuevo menú que aparecerá.  el
+Las opciones le permiten cambiar el nombre de la sala y sumar, restar y editar.
+criaturas y cosas en la habitación.
+
+4. Cambiar nombre de la habitación: seleccionar esta opción le permite escribir un nuevo nombre.
+para la habitación.
+
+5. Editar el contenido de la sala: al seleccionar esta opción, aparece una imagen de la
+espacio a la pantalla junto con un nuevo menú de opciones.  Las opciones de la derecha
+te permite elegir cosas y criaturas de tu Master Things y Master Creature
+Listas, y te permiten agregar esas cosas a la habitación en los lugares que designes.
+con el cursor.  Utilice "Agregar muchas cosas" cuando desee colocar varias copias
+de lo mismo antes de seleccionar otra cosa.
+La opción superior a la izquierda, "Eliminar cosa", se puede utilizar para eliminar
+cosas o criaturas residentes de la habitación.  El cursor de selección aparecerá
+puedes elegir la cosa o criatura que deseas eliminar.
+Seleccionar "Examinar habitación" le permite mover el cursor de selección,
+presionando el botón cuando desee una descripción de la cosa o criatura en un
+lugar determinado.   (Nota: La opción Examinar le dirá si un hechizo en un
+ubicación produce música o un efecto de sonido, pero no reproducirá el sonido durante
+usted.)
+"Seleccionar imagen de pared" le permite elegir una nueva imagen para la pared de la
+habitación.   Esto es especialmente útil cuando desea que la habitación "desempeñe el papel" de
+otra cosa: un campo, por ejemplo, un bosque o un valle montañoso.
+
+
+6. Agregar puertas: cuando usa la opción "Agregar cosa" para agregar una puerta de dos vías
+puerta a una habitación, el programa le permitirá colocar la puerta en una pared compartida por
+habitación adyacente.   Cuando lo use para agregar una puerta unidireccional, siga las instrucciones
+mientras aparecen para determinar por dónde sale la puerta.  Las puertas pueden conducir a otros
+lugares dentro de la misma región (o incluso en la misma habitación), o a otras regiones,
+o al mapa mundial.
+
+7. Apilar cosas una encima de otra: a diferencia de editar en el mapa mundial
+donde el nuevo terreno reemplaza cualquier terreno antiguo sobre el que se coloca, puedes
+apilar muchas cosas en el mismo espacio en las habitaciones.  Para obtener más información, consulte "Pilas
+de las Cosas".
+
+Para obtener más información sobre "Editar criatura residente" y "Editar criatura aleatoria"
+opciones estudia la sección Notas de criaturas a continuación.
+
+
+Guía de referencia de criaturas...
+
+Puedes tener hasta 128 criaturas en una Lista maestra de criaturas.  cada uno puede tener
+su propia combinación única de nombre, imagen, rasgos, habilidades, equipo de batalla,
+patrones de conducta y posesiones.
+Además, puede personalizar cada una de estas características para cada individuo.
+criaturas después de haberlas colocado en una habitación o haberles ordenado que aparezcan en una
+habitación o en el mapa mundial.  Por lo tanto, podrías diseñar un único duende para tu
+Lista de criaturas maestras, pero tienes muchos duendes en el juego, cada uno con un
+lista diferente de armas y posesiones.
+
+1. Creando y Editando Criaturas - Para agregar criaturas a tu Maestro
+Lista de criaturas y modifica las que ya están ahí, selecciona "Construir una aventura" y
+luego seleccione "Hacer un trabajo más detallado" dos veces y finalmente seleccione "Editar lista maestra
+de las criaturas".
+
+2. Agrupar criaturas en categorías: ACS te permite dividir tu Maestro
+Lista de criaturas en 8 listas más pequeñas para que sea más fácil pensar en los tipos de
+criaturas que tienes.   El conjunto de construcción Fantasy, por ejemplo, tiene cuatro listas.
+que contiene personas (una para amigos, otra para enemigos, otra para ladrones y otra para
+para neutrales), dos listas que contienen bestias (una para bestias hostiles, la otra
+para los neutrales), uno para los seres malignos (banshes, demonios y similares), y otro
+se deja abierto para una categoría de su elección.
+Para cambiar el nombre de una categoría de criatura, seleccione "Cambiar clase de criatura
+Nombre", luego seleccione el nombre que desea cambiar y escriba uno nuevo. Usted elige
+la clase a la que pertenece una criatura cuando usas las opciones "Agregar criatura" y "Editar".
+Opciones de criatura". Para aprender cómo hacer que una criatura se comporte como un amigo, enemigo,
+etc., consulte Configuración de la estrategia de criatura a continuación.
+
+3. Cambiar el perfil de una criatura: comience seleccionando "Editar una criatura".
+y luego el nombre de la criatura que deseas o seleccionando "Agregar una criatura".  a
+cambiar cualquier elemento en una lista de características de criaturas, mueva el resaltado a
+ese elemento con el joystick y, a continuación, mantenga pulsado simultáneamente el botón mientras
+moviendo el palo.
+
+
+
+Si el artículo necesita información escrita por usted, ACS se la solicitará.  Si el artículo es
+uno donde puede elegir entre 2 o más posibilidades preestablecidas, seleccione repetidamente
+el elemento para navegar a través de las posibilidades hasta llegar a la que desea.
+Si el artículo necesita algo de la Lista maestra de cosas, aparecerá el
+lista para que pueda seleccionar de ella.
+Utilice el último elemento de la lista de perfiles para determinar cuántas copias del
+criatura que ACS puede poner en una aventura cuando usas la opción "Deja que ACS termine la
+"Aventura". Al elegir criaturas residentes, ACS busca primero
+criaturas que son limitadas en número.   Al asignar que aparecen aleatoriamente
+criaturas, ACS busca criaturas que puedan aparecer muchas veces.
+
+4. Rasgos, habilidades y posesiones de las criaturas: puedes establecer cualquiera de los rasgos.
+y números de habilidades entre 0 y su máximo (consulte la sección Rasgos
+más temprano).   Para calcular cuánto le permitirá la fuerza de una criatura o personaje.
+llevar, restar Fuerza Vital de la Constitución y dividir por 2, luego restar su
+respuesta de Fuerza y multiplicar y obtener el resultado por 100. Las personas que llevan más
+más de la mitad de su capacidad máxima se verá reducida.
+Antes de que puedas preparar un arma o una pieza de armadura, debes agregarla al
+inventario de la criatura con la opción "Cambiar o examinar posesiones".  Eligiendo
+la opción "Imita" hace que la criatura refleje exactamente a los oponentes que
+encuentros.   (Nota: si configuras la Velocidad en 0, el nombre de la criatura no será
+se muestra cuando es su turno de moverse.)
+Seleccionar "Cambiar o examinar posesiones" le permite desplazarse por todas las
+tesoros, objetos mágicos, armas y armaduras en tu Lista de cosas maestras.  Presionando
+el botón resalta el elemento indicado por el puntero en el lado izquierdo de la
+pantalla y agrega ese elemento al inventario de la criatura.  Si el artículo ya está
+resaltado (es decir, ya pertenece a la criatura), se agregará otro si un
+al individuo se le permite poseer más de lo que ya tiene.  De lo contrario, el artículo
+ser eliminado del inventario de la criatura.  Moviendo el puntero hacia la parte superior o
+Al final de la lista, aparece un nuevo segmento de la lista en la pantalla.  hay 4
+segmentos en total.
+Decidir qué regalar a las criaturas y qué tan poderosas, duraderas y hábiles
+Hacerlos es un arte, no una ciencia.  Finalmente no hay atajos para
+experiencia a la hora de dar forma a criaturas que se adapten a tu aventura.  en
+En general, cuanto mayor sea el número en cualquier categoría y más potentes sean las armas.
+y magia en posesión de la criatura, más poderoso e ingenioso será el
+criatura.
+Pero los jugadores/personajes pueden volverse más poderosos y mejores.
+equipados mientras juegan.   Así, el efecto sobre el juego del poder de una criatura.
+Las posesiones y los objetivos dependen del lugar de la aventura en el que se encuentren.  un
+significa duelo con el máximo poder y la espada mágica para acabar con todas las espadas mágicas no es
+alguien con quien quieras toparte justo afuera de la entrada principal, ni tampoco es una completa
+débil digno de enfrentarse a un poderoso héroe experimentado.
+Cada uno de los tres conjuntos de construcción contiene una variedad de fortalezas de criaturas y
+debilidades en cada categoría.  Aprende tu camino hacia una buena aventura construyendo
+experimentando con ellos.   Colócalos en habitaciones o en el mapa, luego juega para verlos.
+si tienen el efecto que deseabas para tu aventura.  Si no lo hacen,
+Vuelve a la construcción y edítalos, luego pruébalos nuevamente en juego.
+
+
+5. Establecer la estrategia de las criaturas: la cuestión de que las criaturas tienen personalidades
+que moldean sus decisiones.  Cuando llega el momento de moverse, miran
+las posibilidades alternativas, luego elija un camino o acción que coincida con sus
+personalidad.
+Usa los tres elementos en la línea de estrategia para establecer el valor básico de una criatura.
+personalidad.   Cada elemento tiene dos configuraciones posibles.  Piense en el último elemento:
+Amigo/Enemigo/Ladrón/Neutral - como determinantes de cuatro tipos básicos, y piense en los
+Los dos primeros como pareja dan forma al comportamiento de ese tipo.
+Una criatura que es agresiva y valiente o está ilesa (Fuerza Vital
+igual o superior a la Constitución) se comportará como un luchador.  Una criatura que es
+Pacífica o que sea a la vez Cautelosa y herida (Fuerza Vital menor que
+Constitución) se comportará como un slinker.  Ningún slinker atacará ni lanzará un hechizo.
+Cuando llegue el turno de una criatura, cada tipo posible buscará una persecución.
+sus objetivos en el orden en que se enumeran a continuación.
+
+A) A un enemigo luchador le encanta unirse a jugadores/personajes y amigos, y puede atacar.
+neutrales y ladrones que encuentra en el camino hacia su objetivo.  No atacará a un
+compañero enemigo.  Buscará un jugador/personaje, un amigo agresivo, un pacífico
+amigo, una salida, un neutral o ladrón agresivo, un neutral o ladrón pacífico, o
+oro.
+
+B) Un enemigo furtivo buscará un enemigo pacífico, un enemigo agresivo, una salida o
+oro.
+C) Un amigo luchador buscará un enemigo agresivo, un neutral agresivo, un
+enemigo pacífico, un ladrón agresivo, un jugador/personaje o una salida.  le encanta
+para atacar las primeras cuatro categorías, está dispuesto a atacar a un neutral pacífico o
+ladrón, pero no atacará a un jugador/personaje ni a otro amigo.
+
+D) Un amigo furtivo buscará un jugador/personaje o una salida.
+
+E) Un combatiente neutral buscará un amigo o enemigo agresivo, un agresivo
+ladrón, un amigo o enemigo pacífico, un ladrón pacífico o neutral agresivo, un
+neutral pacífico, oro o una salida.  No es reacio a atacar a nadie pero
+prefiere atacar a jugadores/personajes, amigos agresivos, ladrones pacíficos y
+enemigos agresivos.
+
+F) Un neutral furtivo buscará una salida.
+
+G) Un ladrón luchador buscará un tesoro o oro, o una salida.  esta dispuesto a
+atacará a cualquiera en el camino pero rodeará a un enemigo pacífico, amigo o
+neutral, si es posible.  (Sin embargo, no se muestra lealtad hacia otros ladrones).
+
+H) Un ladrón astuto buscará tesoros de oro o una salida.
+
+Nota: Una criatura que recibe daño en combate con un jugador/personaje: 1)
+conviértete en neutral si actualmente eres un amigo; b) volverse agresivo si actualmente
+pacífico;  o 3) convertirse en un enemigo si actualmente es inteligente (ver el siguiente párrafo),
+neutral agresivo.  Para obtener más información sobre el movimiento de las criaturas, consulte el siguiente
+dos secciones.
+
+
+
+6. Criaturas y hechizos: las criaturas son inteligentes si su Sabiduría es mayor.
+de 14 y tonto si es menor de 6. Las criaturas entre esos límites actuarán
+inteligentes algunas veces, y cuanto mayor sea su índice de Sabiduría, mayor será el
+probabilidad de que lo hagan.
+Sólo las criaturas inteligentes lanzarán hechizos o usarán objetos mágicos cuando los posean.
+ellos, e incluso las criaturas inteligentes sólo lanzarán hechizos cuando su poder sea mayor
+que o igual a su Sabiduría.
+Las criaturas lanzarán hechizos dañinos sólo sobre sus enemigos y beneficiosos.
+hechizos sólo sobre sus amigos.  Si una criatura lanza un hechizo "Desterrar",
+destierra todas las criaturas de la habitación excepto él mismo.  Las criaturas no pueden lanzar el
+siguiente: No hacer nada, Eliminar todo de la habitación, Agregar a la habitación uno, Activar todas las cosas,
+Mostrar mensaje y reproducir música.
+
+7. Reglas adicionales de movimiento y comportamiento -
+
+A) Las criaturas que residen en una habitación no tienen un turno hasta que un jugador/personaje
+entra a la habitación.   El jugador/personaje obtiene su turno primero, pero el
+La criatura obtiene su turno incluso si el jugador/personaje abandona la habitación.  en
+En ese caso, la criatura puede moverse hacia una salida que se le permita (ver la siguiente regla).
+Por lo tanto, las criaturas pueden "seguir" a los jugadores/personajes a una nueva habitación.
+
+B) Ninguna criatura se moverá a ningún espacio u obstáculo, incluidos los personalizados.
+Las criaturas se moverán hacia las puertas sólo si las puertas no tienen espacio para todo, deshacerse de espacio o agregar
+a los hechizos de habitación asociados con ellos y conducen a algún lugar en la misma región.
+
+C) Las criaturas no recogerán objetos mágicos, armas o armaduras.  Todas las criaturas,
+excepto amigos y neutrales furtivos, recogerán oro.  Sólo los ladrones elegirán
+hasta el tesoro.
+
+D) La mayoría de las criaturas irán hacia una meta menos favorita si está más cerca que una
+uno más deseable.
+
+E) Una criatura herida y escabulléndose verá una salida.
+
+F) Las criaturas inteligentes y poderosas (Poder mayor o igual a la Sabiduría) lanzarán un
+deletrear sobre su objetivo seleccionado si es un individuo y tienen una adecuada
+hechizo.  Si tienen más de un hechizo apropiado, usarán el que tenga
+el número de artículo más bajo.  Criaturas inteligentes y medio poderosas usarán objetos mágicos en
+de manera similar siempre que los objetos se activen cuando se usan.
+
+G) Una criatura sobrecargada dejará caer un objeto mágico, un tesoro u oro.
+
+H) Una criatura preparará un arma apropiada.  Si es "seguro" (no al lado de un
+enemigo) preparará un arma de misiles si la tiene.  De lo contrario, estará listo un
+arma cuerpo a cuerpo si la tiene.  Si tiene más de un arma apropiada,
+Prepare el que tenga el número de artículo más bajo.
+I) Un caza que esté "seguro" y tenga un arma de misiles lista disparará si es
+El objetivo seleccionado es un enemigo.  Nota: los misiles disparados pueden alcanzar a cualquier persona en la línea de
+fuego.
+
+J) Un amigo que seleccionó un jugador/personaje como objetivo y que está al lado del
+El jugador/personaje soltará un objeto mágico si lo tiene.
+
+8. Poner criaturas aleatorias en una aventura: seleccionando "Editar mapa
+Criatura" o "Criatura aleatoria de la sala de edición", puedes indicarle a una criatura que muestre
+algunos elementos pero no otros en un tipo particular de terreno o en un lugar particular.
+habitación.   Esto es particularmente útil para crear eventos como el ocasional
+aparición de un dios del río o de un fantasma que a veces ronda por un pasillo.  es
+También es una forma de mantener la aventura fresca al darles a los jugadores la oportunidad de
+experimente diferentes desafíos en diferentes visitas a la misma habitación.
+Cuando una criatura aleatoria aparece en el mapa, el héroe/jugador es arrastrado a un
+Área especial para el encuentro.   Los límites del área coincidirán con el mapa.
+territorio en el que viajaba el jugador/personaje.
+Puedes tener una lista de criaturas aleatorias para el mapa mundial y una para cada
+región en una aventura.  Cada lista de criaturas aleatorias puede contener hasta 8 criaturas.
+elegido de la Lista de criaturas maestras (y personalizado, es decir, otorga un rasgo diferente
+entornos, posesiones, etc.).
+Cada criatura en la lista de criaturas aleatorias del mapa mundial puede ser asignada.
+aparecer en un tipo de terreno particular seleccionando repetidamente el botón "Aparecer".
+en la opción ".  Se puede establecer el porcentaje de tiempo que aparecerá la criatura.
+para todas las criaturas aleatorias.
+El rango de porcentaje de aparición de criaturas aleatorias del mapa es del 0 al 60%.  Para
+criaturas aleatorias de la habitación es de 0 a 75%.  (El rango se puede establecer más alto para habitaciones
+porque los aventureros suelen pasar menos tiempo en determinadas habitaciones que ellos
+en particular tipos de terreno en el mapa mundial.  Además, la oportunidad de agregar un
+La criatura existe antes de cada movimiento en el mapa, pero sólo existe al entrar en un
+habitación en una región.
+Una vez que hayas agregado una criatura aleatoria a una lista de criaturas aleatorias, no podrás
+eliminarlo.   Pero puedes establecer su porcentaje de apariencia en 0 o editarlo en un
+criatura completamente diferente.  Las criaturas aleatorias solo se agregarán a un lugar en
+La habitación que no tiene nada encima.
+No más de 16 criaturas pueden ocupar una región a la vez.  Una vez que son 16
+presente, no aparecerán nuevas criaturas aleatorias y ninguna criatura responderá
+Hechizo de "invocar criatura" hasta que alguien se vaya.  Criaturas aleatorias que han sido
+agregados a las habitaciones que ya no están ocupadas por un jugador/personaje se
+eliminado.
+
+
+Guía de referencia de cosas...
+
+Una cosa en ACS puede ser casi cualquier cosa: un arma o un objeto mágico.
+héroe/jugador podría recoger y usar, una puerta que conduce de un lugar a otro, una
+espacio arreglado de modo que al caminar sobre él se escuche música, etc. Y las cosas pueden ser
+hecho para disfrazarse de otras cosas (incluso como terreno e individuos) para mantener
+aventureros en alerta.   Puedes tener hasta 128 cosas en una aventura.
+Lista maestra de cosas.
+
+1. Crear y editar cosas: para agregar cosas a su lista maestra de cosas
+y modificar los que ya están allí, seleccione "Construir una aventura", luego seleccione "Hacer
+Trabajo más detallado" dos veces y finalmente seleccione "Editar cosas". El perfil de uno
+Aparecerá el objeto de tu Lista maestra de elementos.
+
+
+Las opciones en los perfiles de cosas funcionan igual que en otras partes de ACS.  algunos
+deben ser seleccionados repetidamente para sacar a relucir sus diversas posibilidades, mientras
+otros le pedirán que escriba texto o números.  Para agregar algo nuevo, seleccione "Agregar
+Cosa" y siga las instrucciones tal como aparecen.
+Para trabajar con algo diferente que ya está en la lista, seleccione "Editar otro
+Cosa". Aparecerá un nuevo menú junto con una lista de las cosas en uno de los 13
+diferentes categorías de cosas.  Mover el joystick hacia arriba y hacia abajo mueve el resaltado
+de un elemento a otro de la lista.   Al mover el joystick hacia la derecha, se selecciona el
+elemento resaltado.  Al moverlo hacia la izquierda, aparece una nueva categoría en la pantalla.
+Una vez que agregas algo a tu lista, no puedes eliminarlo ni cambiarlo.
+la decisión (que usted tomó al agregarlo) sobre cuántos de ellos un individuo
+puede poseer.  Sin embargo, puedes editarlo y convertirlo en algo completamente diferente dentro del
+misma categoría.
+las categorías son Tesoros, Objetos Mágicos, Armas de Misiles, Armas Cuerpo a Cuerpo,
+Armadura, Hechizo mágico, Portal, Espacio, Espacio personalizado, Obstáculo, Obstáculo personalizado,
+Almacén, Piso de la Habitación.  Las opciones que puedes configurar para cada cosa dependen del
+categoría en la que se encuentra la cosa.
+
+2. Tesoros: Los tesoros son quizás las cosas más simples que puedes
+incluir en una aventura.  Puede seleccionar su peso (que determina qué tan fácil
+serán para llevar), su valor (importante para determinar cuánto cuesta una tienda
+los venderá y cuánto ofrecerá para recomprarlos), y si
+Desaparecerán si se caen.
+Pero incluso dentro de esta simplicidad, son posibles trucos ingeniosos.  si tu
+Mire, por ejemplo, la Bolsa Mágica en el conjunto de construcción Fantasy, notará
+que su peso se fija en una cantidad negativa.  Los AC añaden el peso de todos los elementos.
+en posesión de un individuo al determinar si el individuo es fuerte
+suficiente para llevar todo sin disminuir la velocidad.  Tener algo con negativo
+Peso significa poder transportar mucho más que antes sin reducir la velocidad.
+Quien encuentre esa bolsa mágica se lo agradecerá.  (El mismo peso negativo
+El truco también se usa para el caballo en el set de Fantasía.)
+Hay un tesoro que siempre encontrarás en una lista nueva.  se llama
+Oro y tiene algunas propiedades especiales.  Los individuos pueden poseer como
+tantos de estos como pueden transportar (25.000 piezas es el máximo, más que nadie
+posiblemente podría transportar a menos que establezca el peso en 0).  Y no puedes cambiar
+el valor del valor preestablecido de 1.
+Cambie la imagen y el nombre cuando desee reemplazar el patrón oro con
+algo diferente para una aventura en particular.  (Los dólares, por ejemplo, son
+Se usa en el conjunto de construcción Espía/Misterio, y la cristita se usa en Ciencia ficción.
+uno.) Cualquiera que sea el estándar, ajustando cuidadosamente el peso en sintonía con el
+fuerza que les das a los personajes y criaturas y el valor que les das
+objetos deseables, construyes una economía básica para tu mundo.
+Por ejemplo, considere un mundo en el que el oro pesa 1 unidad por pieza,
+Los individuos comienzan con una fuerza de 12 y la espada mágica para terminar con todas las espadas.
+cuesta 1500. En un mundo así, un héroe tendría que ser el beneficiario de algún
+hechizos que aumentan la fuerza o el afortunado que encuentra una bolsa mágica con algo de luz,
+objetos valiosos (como joyas) antes de poder comprar esa espada.
+
+
+
+3. Objetos mágicos: los objetos mágicos son tesoros con hechizos mágicos adjuntos.
+ellos.   El hechizo se puede configurar para que se invoque cuando se recoge el objeto y/o
+usado y/o caído.   Para una discusión de todos los hechizos posibles, consulte "Magia
+Hechizos" anteriormente en estas instrucciones.
+
+d 4. Armas de Misiles, Armas Cuerpo a Cuerpo y Armadura - Las armas de misiles son aquellas que
+puede operar a distancia (arcos, rifles, granadas, etc.), las armas cuerpo a cuerpo son
+efectivos de cerca (dagas, garras, garrotes, etc.).  La armadura absorbe parte del
+Fuerza de los golpes contra su portador (cota de malla, piel gruesa, escudo, etc.)
+
+El poder (establecido entre 0 y 31) es una medida del daño que causará un arma o,
+en el caso de armadura, del daño que evitará.
+
+Ajuste de ataque (establecido entre -35% y +40% para armas y -65% y +10%
+para armadura) se combina con el arma o habilidad de armadura de un jugador/personaje para determinar
+qué probabilidades hay de que los golpes o los misiles den en el blanco.  Cuanto mayor sea el
+Cuanto mayor sea el ajuste de ataque positivo, más probable será el éxito.
+Nota: El ajuste de ataque para armadura no afecta nada en cuanto a golpes
+Golpeó contra la armadura.  En cambio, afecta el éxito de su portador con el
+armas que está usando.  Piense en ello como una representación de lo incómodo y engorroso
+la armadura es.   Y piense en la habilidad con armadura como la capacidad de superar el
+La incomodidad de la protección para que puedas luchar bien mientras la llevas puesta.
+También puedes usar la armadura como un "manto de habilidad" estableciendo su poder en 0,
+para que no proteja los golpes, mientras establece el ajuste del ataque en +10%, por lo que
+mejorará la habilidad de sus propietarios con las armas.  Tal pieza de armadura podría ser
+llamado "hechizo de protección del sacerdote" y podría configurarse para que desaparezca después de la
+primer uso o que se rompa fácilmente (ver siguiente punto).
+
+La probabilidad de ruptura (establecida entre o y 15%) determina la probabilidad de que
+el arma o armadura se romperá cuando se use.  (Los individuos automáticamente intentan
+para parar golpes cuerpo a cuerpo si tienen un arma cuerpo a cuerpo propia preparada).
+están usando un arma para representar alguna cualidad natural que no tiene sentido
+que el propietario perdería, asegúrese de establecer la probabilidad de ruptura en 0.
+
+Magia/No Magia determina el éxito del arma contra la magia.
+defensas.
+
+Seleccione Utilizable sólo por el propietario para elementos como garras, dientes, puños, etc. Si
+esta opción está configurada en Puede ser utilizada por cualquiera después de que el propietario muera, el arma
+aparecer cuando el cuerpo del propietario fallecido desaparece.  Un jugador/personaje
+No se le permitirá dejar caer un artículo que sólo sea utilizable por su propietario.
+
+El rango determina el número de espacios (horizontal, vertical o
+diagonalmente) que los misiles viajarán antes de que se agote su fuerza.  (Nota:
+Los misiles no atravesarán obstáculos, pero pueden pasar entre dos elementos.
+que están diagonalmente adyacentes entre sí, si el tiro es certero.)
+
+Pensando en el diseño de armas y armaduras: al igual que la construcción de criaturas, el
+El diseño y colocación de armas en una aventura es un arte, no una ciencia.  como un
+Para empezar, estudia las armas y armaduras en los conjuntos de construcción básicos.
+Tenga en cuenta que los más poderosos tienden a tener ajustes de ataque negativos.
+es decir, disminuyen la probabilidad de un golpe exitoso y por lo tanto requieren
+calificaciones de habilidades más altas si se quieren utilizar de manera efectiva.
+Entonces, una buena regla es que cuanto más poderosa sea el arma o armadura, más
+mayor será el grado de habilidad que debería ser necesario para empuñarlo o usarlo.
+Otra buena regla es evitar fabricar súper armas (+40% de ajuste de ataque,
+Potencia en los 10 o 20) a menos que quieras garantizar una gran ventaja a alguien
+quien los encuentra.  Intenta colocar y modificar diferentes armas de diferentes maneras,
+luego observe su efecto en el juego cuando juegue.  Con el tiempo desarrollarás una
+Sentir los tipos de características de armas que mejor se adaptan a los tipos de
+aventuras que quieras diseñar y jugar.
+
+5. Hechizos mágicos: los hechizos mágicos son a la vez una categoría de cosas en sí mismas.
+correcto y algo que pueda engancharse a cosas (elementos mágicos), portales y
+obstáculos y espacios (incluidos obstáculos y espacios personalizados).  Totalmente ahí
+Hay 15 hechizos básicos diferentes disponibles.  Se describen anteriormente en estos
+instrucciones.
+Cuando un hechizo pertenece a la categoría de Hechizo Mágico, sólo puede pertenecer a un
+criatura o un jugador/personaje, y se invoca sólo cuando el propietario lo lanza -
+y sólo entonces si él, ella o ello tiene suficiente poder y/o suerte para hacerlo.  (puedes
+establezca la cantidad de energía requerida en cualquier número entre 0 y 127).
+Se puede hacer que cada hechizo mágico muestre un breve mensaje de texto de tres líneas.
+cuando se invoca (brindando la oportunidad de explicar al jugador/personaje
+lo que está sucediendo) y puede desaparecer después de su primer uso.
+Cuando los hechizos son invocados por un espacio u obstáculo o al dejar caer un objeto sobre
+un espacio, tienen efecto en ese espacio u obstáculo.  Cuando se lanzan o
+invocado por el uso de un Objeto Mágico, el jugador elige el objetivo del
+hechizo.   (Una excepción: si un hechizo invocado por un objeto caído se aplica sólo a
+un individuo y se deja caer en un cuadrado al lado del gotero a menos que sea
+cayó sobre una criatura.)
+Los objetos mágicos que invocan hechizos al ser recogidos tienen efecto donde
+lo fueran, a menos que se apliquen a individuos.  Si se aplican a individuos,
+actuar sobre quien los recogió.
+
+6. Portales - Portales (es decir, puertas, pasillos, túneles, ventanas de tiempo,
+etc.) pueden invocar un hechizo (que tú elijas) cada vez que los atravieses.
+Alternativamente, pueden simplemente permitir el paso de una habitación a otra (o incluso a
+otra región o al mapa mundial).  Y si no están preparados para invocar un hechizo,
+pueden configurarse para permitir el paso sólo a aquellos que poseen o no poseen algo que usted
+elija de la Lista de cosas maestras.
+Los portales pueden designarse como puertas normales de dos vías o como puertas unidireccionales sin retorno.
+pasajes.
+Las puertas de dos vías sólo se pueden utilizar para proporcionar paso entre habitaciones que comparten
+un muro común.  Se pueden crear pasajes unidireccionales y sin retorno que conduzcan a cualquier lugar dentro del
+la región en la que comienzan, o en cualquier lugar del mapa, o en cualquier lugar de otra región.
+Cuando los instales, el programa te guiará a través del proceso de
+estableciendo por donde salen.
+
+
+Siempre que hagas pasajes que conduzcan de una región a otra, o hacia y desde
+regiones y el mapa, ACS debe ir al disco para obtener nueva información.  Utilice tales
+salta por todos los medios, pero para mantener el ritmo de tu aventura rápido (y porque
+Los saltos de una región a otra pueden ser muy desorientadores), utilice tales pasajes.
+con moderación.
+Si un Portal está configurado para impedir el paso a todos los que lleven o no transporten
+algo, también se puede configurar para mostrar un mensaje de 3 líneas que explique por qué el pasaje
+está bloqueado.  Puede escribir cualquier mensaje que desee.  También puedes configurar el bloqueado
+pasaje para que destruya el objeto nombrado cuando lo atravieses - un buen
+Hay una pequeña manera de crear un abismo para que sólo pueda ser cruzado con una cuerda que se rompe después.
+entregándote al otro lado.
+No olvides que puedes tener cualquier imagen para una puerta que te guste.  por un
+uso deliciosamente desconcertante de ese hecho, vea la habitación donde toda la pared parece
+hecho de puertas y el adyacente donde parece no haber ninguna puerta en el
+Miniaventura de Land of Aventuria llamada "Deep Dank Dungeon".
+
+7. Espacios y espacios personalizados: estas cosas ofrecen una forma de colocar hechizos y
+barreras dentro de una habitación sin utilizar una puerta.  Como puertas, Espacios y Personalizados
+Se pueden crear espacios para invocar cualquier hechizo, o se pueden configurar para impedir el paso, y
+Di por qué: a cualquier jugador/personaje que lleve o no algo que elijas.
+de la Lista maestra de cosas.  Además, se puede crear un espacio personalizado para invocar un
+deletrear si se le cae algo que usted especifica.
+Un espacio personalizado es como un comodín.   Te permite elegir cual
+características que desea tener en común para cada copia que escriba y cuáles
+desea variar cada vez que coloca una copia.  Los espacios de Ayuda (marcados con un
+H grande) utilizados en las aventuras de "Tierra de Aventuria" en su disco ACS ofrecen una buena
+Ilustración de la utilidad de los espacios personalizados.  Al crear el espacio de Ayuda como
+un espacio personalizado, los diseñadores del tutorial pudieron darle un símbolo que podría
+Dependerá de él para obtener información útil y aun así brindarle información diferente cada uno.
+vez que usaron el símbolo.
+Un Espacio Personalizado también puede utilizarse como una "máquina expendedora", un lugar donde un
+El individuo puede dejar una cosa y recuperar otra.  Para crear este efecto, establezca
+línea 5 para "Invocar hechizo cuando algo cae aquí" y elige lo que deseas
+utilizar como monedas de veinticinco centavos ("oro" quizás).  Luego configure la línea 7 en "Agregar a la habitación uno" y seleccione
+lo que desea que la máquina dispense (cualquier cosa, desde una barra de chocolate hasta una barra mágica).
+espada).   Dado que este es un espacio personalizado, debes elegir lo que deseas
+se cayó o lo que se produjo cuando pusiste este truco en la habitación.
+Hay un límite de espacios personalizados.  Si bien pueden asociarse con
+tanto un hechizo como una cosa (si contienen un hechizo evocado al dejar caer un
+artículo en particular, por ejemplo), no puedes esperar hasta colocarlos en una habitación para
+Elige tanto el hechizo como la cosa.  Uno u otro debe especificarse durante
+construcción del Espacio Personalizado.  (Nota: ACS no utilizará ningún espacio personalizado
+cuando usas la opción "Dejar que ACS termine la aventura").
+Los espacios y los espacios personalizados son accesorios maravillosamente versátiles.  Convertido en camas
+y sillas con el hechizo apropiado adjunto (Aumentar la fuerza vital), pueden
+hacerse para sanar a todos los que "descansan" sobre ellos (es decir, se mueven sobre ellos).  Como "disfraces"
+Pueden hacerse pasar por cualquier cosa o tipo de terreno, creando rompecabezas para el
+Aventurero donde las cosas no son lo que parecen.
+
+
+
+Podrías, por ejemplo, crear un espacio llamado "cubierta invisible", que es el
+mismo color que el suelo.  Al colocar este elemento encima de otras cosas en una habitación,
+Luego podrías ocultar esas cosas de la vista.  Luego podrías crear un objeto mágico.
+que invoca el hechizo "Libera la habitación de todas las cubiertas invisibles no transportadas" cuando
+esta recogido.   Recoger el objeto tendría entonces el efecto de hacer
+visible cualquier elemento cubierto por una cubierta invisible.
+Para conocer más usos de espacios y espacios personalizados, consulte "Apilar elementos en uno".
+Espacio" a continuación.
+
+8. Obstáculos y obstáculos personalizados: para crear un lugar en una habitación o en un mapa.
+infranqueable para todos en todas las circunstancias, coloque un obstáculo allí (como un
+mesa o montaña).   Si desea que el obstáculo sea temporal, configúrelo en
+desaparece después de la primera vez que se topa con él.
+También puedes asociar un hechizo con un obstáculo para que sea invocado.
+cada vez que un jugador/personaje choca contra el obstáculo.  Si quieres poder
+Elige un modificador de hechizo diferente cada vez que colocas una copia en una habitación: un
+mensaje de texto diferente, tal vez, o un aumento mayor o menor en la Fuerza Vital...
+Utilice un obstáculo personalizado.
+El cofre del tesoro utilizado en la miniaventura "En un castillo nazi" es un
+ejemplo de la utilidad de los obstáculos personalizados.  Los diseñadores pudieron irse.
+cofres del tesoro inmediatamente reconocibles a lo largo de la aventura, pero pon un
+tesoro diferente (con el hechizo "Agregar a la Habitación Uno") en cada uno.
+Al igual que los espacios, los obstáculos son accesorios notablemente flexibles.  Obstáculos con no
+Los hechizos asociados son útiles para detalles decorativos, para hacer laberintos con paredes.
+dentro de las habitaciones (ver la miniaventura "Tierra de Aventuria" llamada "Deep Dark
+Dungeon") y para hacer pistas falsas - elementos que parecen ser
+vale la pena investigar pero que los aventureros descubren que son simplemente obstáculos si
+gastan los movimientos necesarios para comprobarlos.
+
+9. Tiendas y pisos de habitaciones: las tiendas y los pisos de habitaciones no son muy editables.
+pero son especialmente útiles.  Puedes elegir la imagen de cada uno y puedes
+tenga solo uno de cada uno por lista maestra de cosas.  La imagen que asignas a Room
+El piso se utilizará para el piso de cada habitación nueva que cree.  ACS no agregará
+cualquier Tienda a la aventura que crea cuando usas el botón "Dejar que ACS termine".
+Opción "Aventura".
+Cuando colocas una tienda en una habitación (puedes agregar hasta 1 por región mientras
+editar el contenido de una habitación), aparecerá su lista de cosas para que pueda seleccionar
+el inventario de la tienda.   Puedes elegir entre tesoros, objetos mágicos,
+armas y armaduras en tu lista.  Cuantos puedes tener en inventario para cada uno
+El artículo depende de lo que hayas elegido para "Nadie puede poseer más de X de estos".
+opción.  Simplemente sigue presionando el botón del joystick sobre un elemento para descubrir si
+Puedes tener solo 1 o hasta 3 en stock.
+Las tiendas saben el valor que le has asignado a las cosas en la aventura, y
+calculan todas las transacciones en consecuencia.  Las tiendas también recomprarán artículos a un precio
+tarifa reducida.  Cuanto más inteligente sea un jugador/héroe (es decir, mayor será su Sabiduría).
+calificación) mejor será el trato.
+
+10. Apilar cosas en un espacio: puedes tener más de 500 cosas diferentes
+cosas en cada región en una aventura, y si lo deseas, puedes apilarlas
+todo en un solo cuadrado en una sola habitación.  Y aunque no es probable que vayas a eso
+extremo, le resultará muy útil apilar cosas una encima de otra para
+creando varios efectos especiales.
+
+Cuando creas una pila de cosas, es importante recordar que la cosa
+en la parte superior (el último que puso) se ejecutará primero.  Además, si un "Liberar el
+El hechizo Room of All Uncarried" nombra un objeto en una pila, ese objeto también será
+eliminado cuando se lanza el hechizo.  Y finalmente, un hechizo para "activar todas las cosas".
+activa sólo hechizos en la pila.   Aquí hay algunos efectos especiales que puedes
+crear con montones de cosas.  Cada pila se enumera de arriba a abajo.
+
+A) Enfermedad: esta pila es a la vez simple y mortal: 1) "Activar todas las cosas"
+Espacio, 2) "Aumentar la fuerza vital en 10 temporalmente" Espacio, 3) "Disminuir la fuerza vital
+por 10 Permanentemente" Espacio.
+
+Los aventureros abandonan la casilla en la que estaba la pila con la misma cantidad de
+Fuerza Vital con la que ingresaron, pero ahora 10 unidades de esa Fuerza Vital funcionarán.
+lejos a una velocidad de 1 unidad cada pocos turnos, aproximadamente el doble de rápido que Life Force
+Se regenera cuando es menor que la Constitución.
+Cuatro de esas enfermedades serían suficientes para matar a un aventurero.  La tasa de decadencia
+Sería demasiado grande para que el descanso lo supere.
+
+B) Uso de temas musicales sin fin: cada vez que utilices la opción "Deja que ACS termine el
+Opción "Aventura", siempre coloca el objetivo de la aventura en la parte superior de una pila
+diseñado para brindarte acompañamiento musical mientras lees la felicitación
+Mensaje para completar con éxito la aventura.  Esta "pila de éxito" contiene
+1) el tesoro/meta; 2) un espacio "Activar todas las cosas"; 3) un espacio "Reproducir música"
+prepárese para reproducir el tema interminable que coincide con el ambiente musical de la aventura; 4)
+un espacio "Mostrar mensaje" configurado para mostrar una página de texto de felicitación; 5) un
+Espacio "Play Music" preparado para reproducir la fanfarria corta.
+
+Después de que el jugador/personaje recoja el objeto y luego se mueva hacia el
+espacio, el hechizo Do-All pone todo en movimiento.  La música comienza a sonar.
+El mensaje aparece mientras la música continúa.  Cuando presionas el botón nuevamente,
+Suena la breve fanfarria, poniendo fin al "tema interminable" en el proceso.
+
+C) Hágase la luz: aquí se explica cómo crear el efecto de hacer brillar una luz en
+un cuarto oscuro.  Coloca objetos en la habitación y cúbrelos con "Cubiertas Invisibles".
+Luego coloque la siguiente pila en la entrada de la sala: 1) "Activar todo
+Espacio de las Cosas;  ) un mensaje "Abierto sólo para los propietarios de una linterna/Libera la habitación de todos
+cubiertas no transportadas" Espacio personalizado configurado para mostrar el mensaje "Tu luz brilla
+en todos los rincones"; 3) un "Abierto sólo para aquellos que no poseen una linterna"
+espacio configurado con un hechizo de no hacer nada que muestra el mensaje "Puedes caminar
+adelante, pero aquí está bastante oscuro".
+
+El Do-All Space permite que ambas condiciones de paso brillen pero continúa
+sólo con el hechizo que realmente fue invocado.  Jugador/personajes que no lleven un
+La linterna recibe el mensaje de que está oscuro.  A los que llevan una linterna se les dice
+esa luz brilla en la habitación y ven aparecer elementos.
+
+Por cierto, los mensajes juegan un papel crucial en este truco.  Al persuadir
+aventureros que necesitan una luz, establece sus expectativas para que acepten
+lo que luego ven como el resultado de que la luz brille en la oscuridad.  en bien
+aventuras, los mensajes suelen funcionar de esta manera.  Tu capacidad para crear depende
+en gran medida sobre lo inteligente que eres al usar mensajes para plantar ideas con las que puedes jugar
+más tarde.
+
+
+Guía de referencia de gráficos...
+
+Puede tener 3 "páginas" (pantallas) de imágenes con hasta 16 imágenes en el
+primera página, hasta 48 en la segunda y hasta 46 en la tercera - un total de 110
+fotos en total.
+La tercera página del conjunto está reservada para imágenes de criaturas, es decir,
+puedes elegir imágenes de él sólo cuando selecciones imágenes de criaturas.  el
+Las imágenes de las dos primeras páginas se pueden utilizar para cualquier cosa: terreno, cosas o
+criaturas.  A menos que realice un cambio con "Cambiar definición de terreno del mapa"
+opción (en el grupo "Editar mapa mundial"), las 16 imágenes de la página 1 son utilizadas por
+ACS como imágenes del terreno del mapa mundial.
+
+Seleccionar una imagen para editar: mover el cursor hacia adelante y hacia atrás a lo largo del
+La línea "Editar otra imagen" en la parte inferior mueve las barras de selección entre las
+imágenes en la página.  La imagen seleccionada por las barras se muestra justo
+encima de los menús.  Si desea dibujar una imagen nueva, seleccione un espacio en blanco
+en la página.   Para elegir una página diferente, seleccione "Editar otro grupo de
+Fotos"
+
+Dibujo: mueva el cursor hacia arriba a la versión ampliada del objeto seleccionado.
+imagen.  Mantenga presionado el botón para colocar un bloque del color actualmente delineado por
+el cuadro de selección.  Si dibujas encima de colores diferentes al que estás
+Al usarlo, el nuevo color reemplazará al anterior.  Si dibujas encima del mismo
+color, el color será reemplazado por el color de fondo seleccionado actualmente
+(la parte superior izquierda es una de las cuatro opciones de color disponibles actualmente).
+
+Seleccionar un color diferente: al seleccionar "Dibujar otro color", se mueve un
+seleccionando un rectángulo entre las cuatro opciones de color disponibles actualmente.  Seleccionando
+"Cambiar color de pintura" cambia el color en el rectángulo seleccionado.  Cambiando el
+El color de pintura en la opción superior izquierda cambia el color de fondo.  Cualquier cambio en
+El color de la pintura afectará a todas las imágenes que utilicen ese color.
+
+Borrar una imagen: para borrar una imagen, seleccione el color de fondo (arriba
+izquierda de las cuatro posibilidades), luego dibuja sobre todo lo que tenga ese color.
+
+Nota: Para dibujar imágenes que no se desenfoquen en imágenes adyacentes cuando usas
+ellos usan solo el color de fondo para los bordes inferior y derecho del
+imagen.
+
+APÉNDICE BIBLIOGRAFÍA
+
+"Rivers of Light" Bach, Marcus, Principales religiones del mundo, Nueva York:
+Prensa de Abingdon, 1959
+
+Champdor, Albert, Templos y ciudades antiguas de Babilonia, Nueva York: London Elek
+Libros, G.P.  Hijos de Putnam, Ryerson Press, 1958
+
+David, A. Rosalie, Los antiguos egipcios: creencias y prácticas religiosas,
+Londres: Routledge y Kegan Paul, 1982
+
+Faulkner, R.O.D.   Lit., F.S.A., Los textos del ataúd del antiguo Egipto, Warminster,
+Inglaterra: Aris & Philips Ltd., vol.  Yo, 1973, vol.  II, 1977, vol.  III, 1978
+
+Ferm, Vergilius, Ph.D., editor, Ancient Religions, Nueva York: Citadel Press,
+1965
+
+Gastor, Theodor H., Las historias más antiguas del mundo, Nueva York: El vikingo
+Prensa, 1952
+
+Kramer, Samuel Noah, La historia comienza en Sumer: treinta y nueve primicias en la vida del hombre.
+Historia registrada, Filadelfia: The University of Pennsylvania Press, 1981
+
+Leeming, David, Mitología, Nueva York: Newsweek Books 1976.
+
+Mailer, Norman, Ancient Evenings, Boston-Toronto: Little, Brown & Company,
+1983.
+
+Parrinder, Geofrey, Religiones tradicionales africanas, Londres: Hutchinson's
+Biblioteca Universitaria, 1954
+
+Fin..........

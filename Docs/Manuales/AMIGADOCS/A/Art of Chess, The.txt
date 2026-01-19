@@ -1,0 +1,878 @@
+                         F U L L  D O C S  T O
+
+                      T H E  A R T  O F  C H E S S
+
+
+A HISTORY OF COMPUTER CHESS
+Since the beginning of the mechanical age people have been fascinated by
+the possibility of machines replacing human functions.  To some it meant
+a release from human drudgery, both manual and intellectual.  To others
+a more philosophical challenge was in sight in the attainment of machine
+decisions, machine imagination, machine thought.  In retrospect it is
+obvious that these two aims were related, the thinking machine of one
+age became the drudge replacing automaton of the next.  A brief look at
+the history of the calculator, from abacus to the modern electronic
+variety, soon reveals that as soon as a so called 'intelligent' machine
+has been produced then the very defination 'intelligence' changes.
+'Intelligence' seems to be a word applied to all functions which a human
+can achieve and machines cannot.  Perhaps one day this process will
+restrict the word to such a limited range as to become meaningless.
+
+For many years the fascination of this subject has been concentrated
+upon the advent of chess playing machines, and with good reason.  Chess
+has always been respected as a formidable human accomplishment yet many
+aspects of the game (though not yet all) are susceptible to analysis
+consisting of many repetitive calculations, well suited to computers and
+their forerunners.  This leads to a situation where man and machine can
+be pitted against each other on fairly equal terms.  There is certainly
+never any lack of human players eager to undertake this challenge, which
+is often seen as one of defending the pride of the human race.
+
+As yet our finest chess players still persist in beating our chess
+computer, despite the latter's horrifying amount of processing power.
+It seems these players possess an insight into to the game beyond the
+realms of mere number crunching, an insight that provides a new
+challenge to the designers of chess programs.  When this challenge is
+met then it will provide the final chapter to a history that began
+(albeit in a dubious fashion) nearly two hundred years ago.
+
+BARON VON KEMPELEN - TURK
+It will probably come as a surprise to most people that the very first
+chess playing machine was produced in the eighteenth century, long
+before the advent of computers, or even complicated mechanical devices.
+It was invented by the Baron Von Kempelen and was very successful,
+beating many of the best players of its time, and even winning against
+Napoleon (a fairly dangerous manoeuver as he was not known as a good
+loser).  The machine, called TURK, consisted of a mechanical man which
+moved pieces on a board in response to an opponents moves.  It was very
+popular, toured many countries, and entertained most of the royalty of
+the day.
+
+Unfortunately TURK had one drawback, it was a clever fake.  It was a
+cunningly designed device with cabinets below in which a human player
+could hide from view.  As the box was opened up, one side at a time, the
+human played moved to hide from the sight of spectators.  Lever controls
+were provided to operate the machine's mechanical arm and the player
+could see the board through a veil in the mechanical man's chest.  It
+had however no intelligence of its own bar various of the (smaller)
+chess players of the time hidden within.  Fake though it was TURK did
+illustrate the public interest produced by any machine that could claim
+to think.
+
+LEONARDO TORRES Y QUEVEDO
+In the Polytechnic University of Madrid can be found, still working, the
+true ancestor of the chess playing computer.  Its not very ambitious in
+its aims, but considering that it was built in 1890 and uses only
+electro-mechanical devices then its worthy of admiration.  Its inventor
+was the Spanish scientist Leonardo Torres y Quevedo whose experiments
+and theories on automaton led him to produce this as an example of the
+possibility of robots.
+
+The object of the device was to checkmate a human component's king using
+only its own king and rook.  It consisted of a board on which the three
+pieces moved along slots.  Electrical connections made by the pieces in
+their various positions served to 'sense' the current board position and
+electromagnets provided the means of moving the chess pieces.  A light
+bulb lit up if the human had made an illegal move and a device similar
+to an early gramaphone produced the words CHECK and MATE where
+appropriate.
+
+Decision making was performed by a series of electromagnetic relay
+switches.  It had no software control as such, the device being
+anologous to a modern microprocessor constructed to respond only to an
+instruction set of (simple) chessboard positions.  The embedded rules
+determining which moves to make were not complicated, consisted of six
+conditions concerning relative positions of Kings and Rook, on which six
+actions could be taken.  It could guarantee checkmate within 63 moves
+against any opponent.
+
+ALAN MATHIESON TURING
+We had to wait another fifty years before a step comparable to that of
+Torres was made.  Alan Turing was both mathematician and philosepher
+whose short (and often unhappy) life founded both computer and
+artificial intelligence research.  In 1951 Turing wrote what was
+probably the first chess program TURBOCHAMP.  Unfortunately there did
+not exist a computer capable of running TURBOCHAMP.  The first game
+played between a chess program and human was executed by a human (Turing
+himself) performing the program's calculations (without the aid of a
+calculator).  The human opponent was Allick Glennis who was not
+particularly a good chess player but who managed to checkmate TURBOCHAMP
+after 29 moves.  The game lasted three hours.
+
+TURBOCHAMP was a rudimentary program by today's standards in that it
+could only look one move ahead, it had no concept of the difference
+between the opening, middle and end games, and had an elementary
+evaluation of position.  It did however understand the rules of the game
+and used basic algorithms distinguishable from the modern variety only
+by the need to produce an answer within many fewer calculations.  It is
+interesting to note that as Alan Turing was a poor chess player,
+TURBOCHAMP was probably an example of a program being able to out think
+its creator.
+
+CLAUDE ELWOOD SHANNON
+Claude Elwood Shannon was working on his theories of chess programming
+almost simultaneously with Alan Turing.  He formalised the methods that
+can be used to consider a chess position into two strategies, generally
+known as strategy A and strategy B.  These two methods form the basis of
+pratically all modern chess programs.  Both strategies were developed on
+the basis of work done several years earlier by the mathematician Jon
+Van Neumann.  He developed the methods of minimax,  to evaluate the
+optimum path through a decision tree, as part of his general theories on
+game playing.
+
+        STRATEGY A
+
+        This is sometimes known as the 'Brute Force Method'.  In its
+initial
+        conception it simply involved the calculation of every possible
+move
+        and every possible reply for a fixed number of 'half moves'
+ahead.
+        This has been refined in later years to include alpha-beta
+cutoff in
+        the minimax search, and to perform heuristic ordering of
+evaluation
+        of moves to improve efficiency.  To work effectively this method
+        requires computers of high processing power due to an alarming
+way in
+        which the number of computations required rises as the 'look
+ahead'
+        increases.
+
+        STRATEGY B
+
+        As Shannon realised that the computers of his day were incapable
+of
+        utilising strategy B as a more subtle alternative.  The
+essential
+        difference is that heuristic 'plausible move generator' is used
+to
+        cut down the number of moves considered at each stage and hence
+        increases the number of 'half moves' ahead can be analysed.
+This
+        method has the disadvantage of the possibility of missing a
+vital
+        move if the 'plausible move generator' is not of the highest
+        standard.  It does however provide the more modest computer the
+        chance of finding a move reasonably sound for several moves
+ahead.
+
+Shannon never actually wrote a full program to perform either of his
+strategies, but set down algorithms used from then on by many chess
+programs.  He demonstrated a deep understanding of the limiting factors
+which were to pose the problems for chess programmers for many years to
+come.
+
+LOS ALAMOS - MANIAC 1
+One of the very early chess programs running on a computer was developed
+in the early 1950's by a group at the Los Alamos Scientific Laboratory,
+New Mexico.  This was presumably a form of relaxation after their
+efforts in producing the first hydrogen bomb.  The scientists, Wells,
+Walden, Kister, Stien and Ulam developed their program on the 30 ton IBM
+monster MANIAC 1.  In trying to cut down the explosion of computations
+they cheated a little by programming for a 6 by 6 chessboard without
+bishops.
+
+This program was firstly beaten by a fairly strong player despite the
+program being given an initial queen advantage.  It then went on to face
+a specially prepared challenger who had been taught to play chess one
+week earlier was thrown into the fray and was unsurprisingly beaten
+after 23 moves.  History does not record the name of this challenger but
+she gained the doubtful honour of being the first to outwitted at chess
+by a computer.
+
+MODERN CHESS PROGRAMS
+As true computers, recognisible as the ancestors of our current
+machines, were developed in the early 1950's the race to produce the
+ultimate chess program was on, and still continues today.  In 1974 the
+internal skirmishes between chess computers were formalised at the first
+world computer chess championship at Stockhlm.  The top computers played
+each other under tournament rules (with a few amendments to cope with
+system failures).  A Russian program KAISSA won the first of what was to
+be a regular event.  Since then competition has also extended to a
+microcomputer event which tends to be more of a test of programming than
+processing power.
+
+The race has always been a three way challenge, between the computers
+themselves and between computers and chess players.  The process of the
+computers and their programming can be traced through the increasing
+standard of players required to defeat them.  From novice in the 1950's
+through to master in the 1980's it seems that the humans are fighting a
+losing battle.  Perhaps so, but the final stages of the war may well
+last longer than expected.
+
+
+THE RULES OF CHESS
+Chess is the oldest stylised strategy game known to the modern world.
+It is a game for two players and is played on an eight by eight board
+with 16 white pieces and 16 black pieces (usually known as men).  The
+horizontal rows of board squares are known as ranks and the vertical
+rows as files.  The lower right hand square is always white and the
+Queens occupy squares of their own colour.
+
+The ultimate goal in chess is to 'checkmate' the opponent's King.  While
+the King is never captured and removed from the field of play, it can be
+attacked (checked) and threatened with capture.  When this happens, the
+King must extricate himself immediately.  If this is not possible, the
+King has been checkmated.  The side which finds itself in checkmate
+loses the game.
+
+MOVES OF THE MEN
+The player takes turns, with white making the first move.  One may be
+moved at each turn, except in the case of 'castling' (see Special
+Moves).  All pieces belonging to one player can move to a square
+occupied by one of his opponent's pieces, he may capture the piece and
+take its place on the square.  The captured piece is removed from the
+board.  The Knight is the only piece that can jump over the other men.
+
+THE QUEEN
+This is the most powerful piece.  She can move any number of squares in
+any direction as long as her path is not obstructed.
+
+THE KING
+The King can move one square at a time in any direction.  He may never
+move into check.
+
+THE ROOK
+The Rook or Castle can move any number of unobstructed squares, either
+by rank or by file (horizontally or vertically).
+
+THE BISHOP
+The Bishop can move any number of unobstructed squares diagonally.  If a
+bishop is on a dark square he can only reach the other dark squares.  At
+the start of a game, each player has a 'dark square' Bishop and a 'light
+square' Bishop.
+
+THE KNIGHT
+The Knight's move differs from the others.  It jumps from its old to its
+new square and can leap over other pieces to reach its new position.  It
+always lands on an opposite colour to the square it leaves.  As with
+other men, a Knight captures by occupying an opponents position.
+
+THE PAWN
+The Pawn moves straight ahead only, but captures diagonally.  It moves
+one square at a time but on its first move has the option of either
+moving one or two squares.
+
+PAWN PROMOTION
+If a Pawn successfully advances to the opposing rear rank, it achieves
+promotion.  It can remain a Pawn but the player may replace it with a
+more powerful piece.  By assuming the powers of a more powerful piece,
+the promoted Pawn can immediately attack (check) the opponent's King.
+
+
+SPECIAL MOVES
+
+EIN PASSANT
+This is a special Pawn capture and literally means 'in passing'.  The
+opportunity arises when a Pawn, that is making its initial move, elects
+to  move two squares forward, as if to avoid capture by the opponent's
+Pawn.  The opponent can then capture, as if the Pawn had moved only one
+square.  If the option to capture is not exercised immediately, the Ein
+Passant opportunity is lost.
+
+CASTLING
+Each player may 'Castle' once during a game.  Castling is a special move
+which allows the player to move two men at once - King and Rook - and is
+only available if special conditions are met.  The effect of the move is
+to put the King to a safer position and allow the Rook more mobility.
+Either the Kingside or Queenside Castling is permitted.
+
+The conditions for Castling are:
+
+1.      Neither the King nor Rook involved may have moved since the
+start of
+        the game.
+
+2.      There may not be men of either colour between the King and Rook
+        involved.
+
+3.      The King may not Castle out of check, through check or into
+check.
+
+CHECK AND CHECKMATE
+If a King is placed in a situation where, at the next opponent's move,
+it could (had it been another piece) be captured, it is said to be in
+check.  A King may never move into check.  When a King is placed in
+check by the opposing side, the player must either:
+
+1.      Capture the attacking piece.
+
+2.      Obstruct the attacking piece.
+
+3.      Move the King out of range of the attacking piece.
+
+If none of these is possible, the King is checkmated and the opposing
+side wins.
+
+STALEMATE
+If a player can make no legal move without bringing his King into check,
+the situation is called a Stalemate and the game is considered a draw.
+
+
+GAMEPLAY INSTRUCTIONS
+The Art of Chess is controlled entirely from menu options and from on-
+screen gadgets.
+
+SELECTING FROM THE ART OF CHESS MENUS
+To display a menu option, press the right hand mouse button.  You should
+see the following at the top of the screen:
+
+PROJECT PLAY            EDIT            SPECIAL CLOCKS  SOUND
+
+These are the main menu headings.  Now, with the right botton still
+down, move the arrow over one of the headings.  A list of options will
+appear under the heading you have selected.  As you move the arrow down
+the list, the options will be highlighted in turn.  In some cases, a
+further list of 'sub options' will also appear.  To select an option or
+sub option, release the right mouse button while that option is
+highlighted.
+
+PLAYING A GAME
+The first two options under PROJECT are:
+
+Start Game with Amiga White
+Start Game with Amiga Black
+
+To start a game, all you have to do is select one of these.  You can do
+this at any time, even when a game is in progress.  Of course, if you do
+this without saving (see later) any current game is lost.
+
+When you start a game, the chess pieces will arrange themselves in the
+opening positions on the board.
+
+MOVING A PIECE
+To move a piece, place the arrow over the piece you wish to move and
+press the left hand mouse button.  With the button still down, drag the
+piece to a new square and release the button.  If the move is legal, the
+piece will position itself in the centre of the square and the Amiga
+will start thinking about its reply.  If the move is illegal, the piece
+will jump back to the square it came from.
+
+PROMOTION
+Occasionally The Art of Chess can so far forget itself as to allow you
+to promote a pawn.  If this should ever happen silhouette images of the
+major pieces will appear on the display.  Simply click (left button)
+over the piece you wish to promote to.
+
+CASTLING
+When a castling move is legal you can effect the move by moving the King
+only to the target square.  The Art of Chess will complete the operation
+by moving the castle for you.
+
+THE COMMENTARY LINE
+During the course of play and whenever you select a gadget or menu
+option, the top line of the screen will display a message indicating the
+current state of the machine.  The commentary line gives information
+such as when its your move, when you are in check, and so on, as well as
+brief instructions on the use of a selected option.
+
+
+THE TIME TRAVEL GADGET
+On the right hand side of the board, towards the top of the screen is an
+arrow like object.  This is the 'Time Time Travel Gadget'.  The Time
+Travel Gadget allows you to move backwards and forwards through any game
+in progress, taking back or restoring pieces.
+
+TAKING BACK MOVES
+To take back the last move (yours of the Amiga's), position the pointer
+over the part of the arrow pointing away from you and hit the left mouse
+button.  To restore a taken back move, use the same procedure, but this
+time select the part of the arrow pointing toward you.
+
+When you use the Time Travel Gadget, the game in progress is temporarily
+halted.  When you are satisfied with the state of the board, press the
+left button with over the middle part of the Time Travel Gadget and play
+will be resumed.
+
+The Time Travel Gadget can be very useful, not only for taking back
+moves.  If you have been looking away from the screen when the Amiga
+last moved, simple activate the TAKE BACK, RESTORE and RESUME 'buttons'
+to replay the move.
+
+The Time Travel Gadget ius also used to 'browse' through a saved or
+library game (see later).
+
+CHESS ANALYSIS
+In using The Art of Chess Analysis options, you have the complete
+freedom to invoke the full power of the Chess Processor at the heart of
+The Art of Chess software.
+
+You can solve chess problems, start a game from a particular position or
+let the processor run for hours; to find the best move from a tricky
+position.  The Art of Chess gives you basic tools; how you use them is
+up to you.
+
+Here are the facilities you will need:
+
+For full explanation, see the list of menu options at the end of this
+manual.
+
+1.      The Time Travel Gadget which lets you move backwards and
+forwards
+        through a move sequence at will.
+
+2.      START GAME and STOP GAME menu options.
+
+3.      The change sides, HUMAN vs AMIGA, AMIGA vs AMIGA, and HUMAN vs
+HUMAN
+        menu options.
+
+4.      The chess clocks.
+
+5.      The DISPLAY LEGAL MOVES option.
+
+6.      The SHOW HOW A SQUARE IS ATTACKED and SHOW HOW SQUARE IS
+DEFENDED
+        options.
+
+7.      The performance meter.
+
+8.      The SET POSITION options.
+
+9.      The skill controls.
+
+10.     The WHITE TO PLAY and BLACK TO PLAY options.
+
+11.     The WATCH THE AMIGA THINK option.
+
+All of these facilities are available at any time, however no processing
+will take place until you select one of the Start Game options.
+
+To set up a problem, use any of the options 3, 4, 7, 8 and 10.
+
+To start processing, use option 2.
+
+During processing, use 1, 3, 4, 5, 6, 7, 9, 10 and 11.
+
+ANALYSIS EXAMPLE
+The Art of Chess provides so many facilities for analysing chess
+positions, that this manual can only act as a guide.  The following
+illustrates a simple example of chess analysis.
+
+Suppose we wish to set up a chess position and then begin play with the
+Amiga playing both sides.  Suppose also that we wish to start with black
+to play.
+
+1.      Select SET A POSITION FROM AN EMPTY BOARD from the EDIT menu.
+
+2.      Use the mouse to move pieces onto the board into the desired
+        positions.
+
+3.      When you are satisfied with the position, select BLACK TO PLAY
+from
+        the PLAY menu.
+
+4.      Finally, select the Start Game option from the PROJECT menu.
+
+As play proceeds, you will be able to move backwards and forwards
+through moves played so far, using the 'Time Travel Gadget', change the
+skill controls, alter moves and so on.
+
+CHANGING THE DISPLAY
+The Art of Chess gives you a wide range of choices over the way the
+board and pieces are displayed.  You can change the dislay at any time,
+even in mid game.  When you experiment with these options (explained
+below) you will find that it is quite possible to design a display which
+makes it impossible to actually play a game!  Because of this, The Art
+of Chess gives you a number of standard board views and colour
+combinations which can be returned to at any time.
+
+STANDARD BOARD VIEW
+Under the SPECIAL menu heading, you will find an option called CHANGE
+BOARD.  Move the arrow over this option to display three minature
+pictures of the board in various positions.  Select one of these
+pictures in the usual way to see a new view of the board.
+
+STANDARD COLOURINGS
+Also, under the SPECIAL is the option CHANGE COLOUR.  Move the arrow
+over this option to reveal a submenu giving three standard settings,
+REGULAR, CLUB and CAFE.
+
+CUSTOM BOARD VIEWS
+The Art of Chess contains an internal 3D model of a real board which can
+be viewed from any angle.  Moving the board around is rather like moving
+an Amiga window.  To view the board from a different position, place the
+arrow somewhere over the edge of the board and hold down the left
+button.  Immediately, you will see an outline of the board.  As you move
+the mouse, this outline will change shape and position.  A left-to-right
+motion rotates the board and an up-and-down motion tilts it.  When you
+release the mouse button the new view will be displayed.
+
+CUSTOM COLOUR SELECTION
+To re-colour the display, select the CUSTOM sub option under the CHANGE
+COLOUR option.  Three slider controls will appear at the top of the
+screen.  The slider works in a similar way to the Preferences colour
+controls, they adjust the amount of red, green and blue at a given point
+on the screen.
+
+DESIGNING YOUR OWN CHESS PIECES
+To do this you need a copy of Deluxe Paint from Electronic Arts.
+
+To design a piece, you must design a brush of a specific size which
+contains the new piece image.  On your Art of Chess disk, in the custom-
+pieces drawer, you will find a brush called Piece-Pro-Forma.  This is
+simply an area of colour which is the right size for a chess piece.
+Your piece should not necessarily fill this area completely, however,
+for correct positioning on the board, the base of the piece should sit
+in the centre of the bottom edge of the brush.
+
+You may use up to four colours in the design of your piece and these
+must be colours 13, 14, 15, and 16 on the Deluxe Paint medium resolution
+pallet.
+
+Once you have designed your piece, save it on the custom-pieces drawer
+of The Art of Chess disk under the name Pawn, Knight, Rook, Bishop,
+Queen or King, replacing the brushes of those names already in this
+directory.
+
+Once you have redesigned one or more of the pieces, you must complete a
+simple procedure to install the new images.  This is as follows:
+
+1.      Use your Workbench disk to start the Amiga in the normal way.
+
+2.      Mount The Art of Chess in df0:
+
+3.      Double click over The Art of Chess icon to open The Art of Chess
+        window.
+
+4.      Now type the command INSTALL.
+
+A new window will appear to give a running commentary on the progress of
+the installation procedure.  When this is finished, the window will
+disappear.  Your new piece(s) are now installed.
+
+Next time you use The Art of Chess and you select USE CUSTOM PIECES from
+the PROJECT menu, your new pieces replace the originals.  To restore The
+Art of Chess pieces, simply re-select the option.
+
+
+MENU OPTIONS
+In Art of Chess, the menu bar is not actually visible until you press
+the RIGHT mouse button.  To select an option from the menu, place the
+mouse pointer and release the RIGHT mouse button.
+
+PROJECT
+
+START GAME WITH AMIGA BLACK
+This option causes a game to begin.  Normally, the pieces will arrange
+themselves on the board in the standard opening position.  However, if
+you have previously selected one of the Edit options to set up a chess
+position, play will begin from the position you have set.  No play can
+commence unless there are both Kings on the board.
+
+START GAME WITH AMIGA WHITE
+This option is exactly the same as above except that the Amiga will play
+white and you will play black.
+NOTE: If you have selected the Amiga vs Amiga or Human vs Human option
+from the Play menu, this position on the Project menu will offer the
+single option Start Game.
+
+QUIT/RESIGN GAME
+Select this option to quit/resign from a game in progress, select it
+again to remove all pieces from the board.
+
+LOAD NEW GAME
+this option allows you either to load one of the Grandmaster games
+already saved on your Art of Chess disk, or to load a game which you
+previously saved.  In either case, you are asked to type in the name of
+the game you wish to load.  For details of the library, see 'The
+Grandmaster Classic Library' section in this manual.  Click the pointer
+on the text 'my-game' and delete the text.  Then type in the game name
+to be loaded and press return.  Now select the OK icon below your
+filename.
+
+SAVE CURRENT GAME
+Follow the same procedure laid out for loading a file as detailed above.
+When you have done this, all the moves so far in the current game will
+be saved on The Art of Chess disk.
+
+QUIT CHESS
+This option does not exit itself from The Art of Chess, it merely
+displays instructions for doing so.  To quit The Art of Chess, remove
+The Art of Chess disk and press the CTRL and the two Amiga keys
+together.  The machine will then be reset and after a few seconds the
+standard Workbench request screen will appear.
+
+SHOW/CLEAR BOARD CO-ORDINATES
+Select this option to display chess board co-ordinates along the sides
+of the board.  To remove the co-ordinates, simply re-select the option.
+
+CHANGE SIZE AND SHAPE OF BOARD
+Once selected, you may drag the bottom right corner of the board and
+rotate it in any direction.
+
+TOURNAMENT RULES
+Tournament games are played with a chess-clock at a pre-determined move
+rate, with the moves being recorded.  Each player is given a certain
+amount of time on his clock for a given number of moves.  The usual rate
+of play at tournaments is one of the following:
+
+A:      40 moves for the first 2½ hours, 16 moves for every subsequent
+hour
+        (the session lasts 5 hrs).
+
+B:      45 moves for the first 2½ hours, 18 moves for every subsequent
+hour
+        (session lasts 4 hrs).
+
+C:      36 moves for the first 2 hours, 18 moves for every subsequent
+hour
+        (session lasts 4 hrs).
+
+D:      40 moves for the first 2 hours, 20 moves for every subsequent
+hour
+        (session lasts 4 hrs).
+
+E:      50 moves for the first 2½ hours, 20 moves for every subsequent
+hour
+        (session lasts 5 hrs).
+
+Select one of the sub-options. Type A, Type B, Type C, Type D or Type E
+to select your choice.
+
+PRINT A GAME
+When you have selected this option, you are presented with the same
+requester as loading/saving a game.  Type in the name you wish to call
+the printed file and select OK.  The file is then saved to disk for
+printing.  To print the saved file do the following:
+
+1.      Use your Workbench disks to start the Amiga in the normal way.
+
+2.      Insert The Art of Chess in the internal drive.
+
+3.      Double click over The Art of Chess icon to open The Art of Chess
+        window.
+
+4.      Now run the program 'Print-Game'.
+
+5.      Select the appropriate number 1-3.
+
+6.      Type in the filename to be printed.
+
+Once the file has been printed, the program will end returning you to
+the Workbench screen.  It is important that preferences are correctly
+set-up for your printer.  (See section 6-1 of your owners manual for
+assistance on preferences).
+
+SAVE GRAPHIC SETTINGS
+Art of Chess allows you to manipulate the board in many ways.  These
+include rotate, change colours etc.  When you use 'Save Graphic
+Settings', Art of Chess will save all the parameters that are required
+to set up the board to how you designed it to look.
+
+PLAY
+
+CHANGE SIDES
+Allows you to swap sides at any time during the game.
+
+HUMAN VS HUMAN
+When you start a game (see Project) with this option selected, you can
+use The Art of Chess display like a regular chess board and play the
+ordinary game of chess.  The Art of Chess will, however, only allow
+legal moves.  All the analysis options are still available and you can
+still use facilities such as Show Legal Moves and Show Attack Moves or
+Show Defence.
+
+AMIGA VS AMIGA
+This causes the Amiga to play against itself.  Unless the game is in
+progress, play will not commence until you select one of the Start Game
+options.  Use this option to make The Art of Chess solve problems on its
+own.
+
+HUMAN VS AMIGA
+This is self explanatory.  Unless a game is currently in progress, play
+will not commence until you select one of the Start Game options.
+
+WHITE TO PLAY
+This option can be used to tell The Art of Chess that White is to play
+when a chess problem has been set up or to force a particular side to
+play when a game (or problem analysis) is in progress.
+
+BLACK TO PLAY
+This option tells the program that it is 'Black to Play'.
+
+FORCE A MOVE
+Use this option while the Amiga is thinking to force the Amiga to make a
+move.  You also need to use it to control the 'no time limit' option
+(see Change Skill).  This option will not always operate immediately.
+
+MOUNTAINS
+Instead of a conventional chess board, the 'Mountains' feature
+introduces mountains onto the board.
+
+SUGGEST A MOVE
+As the title implies, this option makes the Amiga to evaluate your
+current position and suggest a move.  As this is only a suggestion, it
+is for you to decide if you are going to use it.
+
+EDIT
+The three options under this heading let you set up a chess position for
+later play or analysis.
+
+SET FROM EMPTY BOARD
+Clears any pieces from the board.
+
+SET FROM OPENING POSITION
+Arranges the pieces in the standard opening position.
+
+SET FROM CURRENT POSITION
+Does not change the current board position at all and can be used to
+'cheat' by changing the position while the game is in progress.
+
+When you have selected one of these options, you can move pieces around
+it quite freely.  To remove a piece from the board, simply move it to
+the bottom of the screen.  It will arrange itself in the row of
+'captured' pieces.  To place a piece on the board, simply pick it up in
+the usual way and position it on a square.  Once you have set up a
+position you should let the Amiga know which side is to play first by
+selecting White to Play or Black to Play under the Project menu.
+Finally, to start play select Start Game With Amiga White or Amiga Black
+from the Project menu.
+
+SPECIAL
+
+CHANGE COLOURS
+There are four sub-options under this option.
+
+REGULAR:        This is the default power-up colours.
+
+CAFE:   This is a pre-defined colour setting.
+
+CLUB:   This is a pre-defined colour setting.
+
+CUSTOM: When you select this sub-option, the usual preferences style
+colour sliders appear on the screen.  To select the colour you wish to
+adjust, position the arrow so that it points to an area of this colour,
+click the left button and adjust the sliders.  Click on OK when you have
+finished.
+
+
+CHANGE BOARD
+This option gives you a choice of five standard board views represented
+as minature pictures of the chess board; three views of a 3D board and
+two views of a 2D.  In addition to these five standard views, there is
+also a 3D edit view.  To use any of the five standard views, just
+release the right mouse button when you have hi-lighted your choice.
+
+EDIT: You can, however, move the board to any position without selecting
+a menu option simply by 'grabbing' the edge of the board, just as you
+would a piece, and dragging it to a new position.  A sideways motion
+causes board rotation and an up/down motion causes tilt movement.
+
+CHANGE SKILL
+There are three present levels in addition to an editable level.  The
+editable level appears with two slider controls.  The slider marked
+'skill', adjusts the length of time the Amiga is, on average, to be
+allowed for a move.  The scale runs from 6 seconds to 3.2 minutes with
+no limit time setting at the end of the scale.  If you move the slider
+into the no time limit area, The Art of Chess will never make a move
+until you select Force a Move from the Play menu.  You can use this
+facility to allow the Amiga to think overnight or longer about the
+tricky position.  The second slider marked Aggression changes the level
+of Aggresiveness displayed by The Art of Chess.  A middle setting
+produces an average style game.  Click on OK when you have finished.
+
+SHOW LEGAL MOVES
+To display the possible moves for a particular piece, select this option
+and then click (left button) on a piece.  The squares reachable by that
+piece in a single move will change colour.  You will need to select this
+option for each selected piece.
+
+PERFORMANCE METER ON/OFF
+This option displays an on-screen indication of the Amiga's assessment
+of the current game position.  If the meter shows equal amounts of
+'black' and 'white', the Amiga considers that black is 'neck and neck'
+with white.  The more of a particular colour shown on the scale, the
+better the position of that side.
+
+SHOW ATTACK
+This works just like Show Defence, except that the highlighted squares
+identify pieces that could capture one of your pieces should it occupy
+that square.
+
+SHOW DEFENCE
+When you select this option and then click (left button) on a square,
+certain other squares will change colour.  The pieces on these squares
+'defend' the square you have selected in the sense that they may capture
+one of the Amiga's pieces on the selected square in a single move.
+
+WATCH THE AMIGA THINK ON/OFF
+This option produces a very revealing graphic's display of the Amiga's
+analysis of the current board position.  The areas indicate what The Art
+of Chess considers the best move, the best reply to that move, the best
+reply to that reply and so on.
+
+USE CUSTOM/REGULAR PIECES
+This option causes any user defined pieces to be displayed instead of
+the regular Art of Chess ones.  To revert to The Art of Chess pieces,
+simply select that option again.  For further details on customising
+your pieces, refer to the 'designing your own pieces' section in the
+gameplay instructions.
+
+CLOCKS
+The options under this headings are:-
+
+Pause, Start Clock, Stop Clock and Zero Clocks (White, black or both)
+
+The clocks are standard chess clocks.  Each one shows how much time that
+player has used so far in considering his moves.
+
+SOUND
+
+VOICE COMMENTARY
+This causes the Amiga to speak a commentary on the game and the use of
+various facilities.
+
+VOICE CUING
+In this mode the Amiga announces each move only.
+
+VELVETY SILENCE
+This option cancels both Voice Commentary and Voice Cuing.
+
+WARNING: Whenever you save a file on The Art of Chess disk, make sure
+the disk is NOT write protected.  Otherwise an unrecoverable error will
+occur.
+
+
+GRANDMASTER CLASSIC LIBRARY
+The following classic games are provided in the SAVED GAME drawer of
+your Art of Chess disk.  To load one of the classic games, select the
+LOAD GAME option from the PROJECT menu.  When requested, type in the
+name of the game you wish to load.  The games have GM1 to GM30 as
+follows.  Once a game has been loaded, you can use the 'Time Travel
+Gadget' to browse through the game or start play at any point.
+
+GM1.      Andre Danican Philador - Captain Smith, Paris, 1790
+GM2.      Charles Mahe de la Bourdonnais - Alexander McDonnell, London,
+1834
+GM3.      Howard Staunton - Pierre Saint-Amant, Paris, 1843
+GM4.      Adolf Anderssen -     Lionel Kieseritzky, London, 1851
+GM5.      Adolf Anderssen - J Dufresne, Berlin, 1853
+GM6.      Joseph Henry Blackburne - Amos Burn, New York, 1889
+GM7.      Henry Bird - Paul Morphy, London, 1858
+GM8.      Johannes Zukertort - Joseph Henry Blackburne, London, 1883
+GM9.      Wilhelm Steinitz - Mikhail Tchigoria, Havana, 1891
+GM10.  Wilhelm steinitz - Kurt Von Bardelben, Moscow, 1895
+GM11.  Harry Nelson Pillsbury - Emanual Lasker, St Petersburg, 1895
+GM12.  Emanual Lasker - Jose Raul Capablanca, St Petersburg, 1914
+GM13.  Harry Nelson Pillsbury - Sieghert Tarrasch, Hastings, 1895
+GM14.  G Rotterie - Akiba Rubinstein, Lodz, 1908
+GM15.  Lewitzky - Frank Marshall, Breslau, 1912
+GM16.  Aaron Mimzorich - Salwe, Carlsbad, 1911
+GM17.  J Corzo - Jose Raul Capablanca, Havana, 1900
+GM18.  Ossip Bernstein - Jose Raul Capablanca, 1914
+GM19.  Richard Reti - Alexander Alekhine, Baden-Baden, 1925
+GM20.  Max Evwe - Alexander Alekhine, Zandvoort, 1935
+GM21.  Richard Reti - F Gruber, Vienna, 1923
+GM22.  Paul Keres - Mikhail Botvinnik, Moscow, 1941
+GM23.  Paul Keres - Vasily Smyslov, Zurich, 1954
+GM24.  Mikhail Botvinnik - Vasily Smyslov, 1954
+GM25.  Mikhail Tal - Gideon Barczq, Sofia, 1962
+GM26.  Tigran Petroian - Mikhail Botvinnik, Moscow, 1961
+GM27.  Boris Spassky - David Bronstein, Lenningrad, 1960
+GM28.  Donald Byrne - Bobby Fischer, New York, 1956
+GM29.  Boris Spassky - Bobby Fischer, Rejkjavik, 1972
+GM30.  Victor Korchnoi - Anatoly Karpov, Bagvio City, 1979
+
+End.

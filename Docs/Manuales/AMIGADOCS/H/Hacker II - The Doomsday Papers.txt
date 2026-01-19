@@ -1,0 +1,709 @@
+	           Hacker II: The Doomsday Papers
+
+LOADING INSTRUCTIONS
+
+The use of a printer is optional.
+
+Apple II series computers
+
+1. Connect an Apple Imagewriter printer to your computer through the Apple
+Super Serial Card interface, or a compatible dot-matrix printer through the
+Microtek Dumpling-GX interface; see your printer and interface manuals for
+instructions.  Connect a joystick, if you have one, to your computer.
+
+2. Insert the Actisource diskette in your disk drive, label side up.
+
+3. Turn on your disk drive and computer.
+
+Apple Macintosh computers
+
+1. Connect an Apple Imagewriter printer to your computer.
+
+2. Insert the Actisource diskette in your disk drive, label side up.
+
+3. Turn on your computer.
+
+Amiga computers
+
+1. Connect a graphics printer to your computer; see your computer and
+printer manuals for instructions.
+
+2. Turn on your computer.
+
+3. When so instructed, insert the Kickstart diskette in your disk drive.
+
+4. When so instructed, insert the Workbench diskette in your disk drive. 
+
+NOTE: If you have an Epson FX80 or RX80 or compatible printer, you may
+insert the Actisource diskette; Hacker II will start automatically, and you
+may skip the remaining steps.
+
+5. If necessary, use Preferences to configure your printer; see your
+computer manual for instructions.
+
+6. Insert the Actisource diskette in your disk drive.
+
+7. From the Workbench, open the Hacker II disk icon, then open the Hacker
+II icon.
+
+Atari ST computers
+
+1. Connect an Epson, Atari, or compatible graphics printer to your
+computer; see you computer and printer manuals for instructions.
+
+2. Turn on and boot your computer; see your computer manual for
+instructions.
+
+3. If necessary, ensure that your printer is configured properly; see your
+computer manual for instructions.
+
+4. Insert the Actisource diskette in your disk drive, label side up, and
+open the disk drive icon.
+
+5. Open the HACKER2.PRG icon.
+
+Commodore 64 and 128 computers
+
+1. Connect a Commodore MPS801, Okimate 10, or equivalent graphics printer
+to your computer; see your computer and printer manuals for instructions. 
+Plug a joystick into port 1 of your computer.
+
+2. Turn on your printer, computer, and disk drive.
+
+3. If you have a Commodore 128, type GO64 and press RETURN.  When the
+prompt ARE YOU SURE? appears, type Y and press RETURN.
+
+4. Insert the Actisource diskette in your disk drive, label side up.  Type
+LOAD"*",8,1 and press RETURN.
+
+IBM PC, PCjr, Tandy 1000, and compatible
+
+1. Connect an Epson FX80 or LX80 or compatible graphics printer to your
+computer; see your computer and printer manuals for instructions.  Connect
+a joystick, if you have one, to your computer.
+
+2. Insert the Actisource diskette in your disk drive and turn on (or reset)
+your computer.
+
+JOYSTICK, MOUSE, AND KEYBOARD OPTIONS
+
+You use the joystick or mouse in the standard manner - that is, by moving
+the cursor to various areas on the screen and pressing the joystick button
+or the left mouse button.  Sometimes you hold the button down; sometimes
+you press and release it to activate or deactivate a feature.
+
+See the table below for keyboard commands.
+
+Text is entered from the keyboard in the standard manner.
+
+Keyboard Commands
+
+					Apple II series	IBM PC, PCjr,
+							Tandy 1000
+----------------------------------------------------------------------------
+Disable joystick,			Ctrl D
+enable keyboard
+
+Enable joystick,			Ctrl E
+disable keyboard
+
+Pause Game				ESC         
+
+Resume after pause			any key
+
+Toggle sound on/off			Ctrl S		Ctrl S
+
+Restart game from			Ctrl R		Ctrl R
+beginning (not
+functional during
+printing)
+
+Swap joystick axes			Ctrl X
+
+Move cursor
+  left					<--		<--
+  right					-->		-->
+  up					/|\ (II and	/|\
+					     II+ - ;)
+  down					\|/ (II and	\|/
+                                            II+ - /)
+ "Button" control			spacebar -	spacebar -
+  - emulate joystick                    press once to   press and hold
+  or mouse				"hold button    down; release
+					down;" press
+					again to "release
+					button"
+
+On Amiga, Atari ST, and Commodore computers, press the F1 key to restart at
+any time.
+
+
+MFSM Volume 1-                                              CIA-M-22543/B
+Operator's Manual                                           July 4, 1986
+                                  SECTION 1
+
+                             GENERAL INFORMATION
+1.1 INTRODUCTION
+
+This document describes the operational aspects of the Multi-Function
+Switching Matrix (MFSM). See the companion Maintenance Manual - Volume 2,
+Part #CIA-M-22544/B for detailed maintenance and troubleshooting
+information (not included in game package. Oh well!). This document, MFSM
+Operator's Manual - Volume 1, presents General Information, Functional
+Description, Controls and Connectors, and Operating Procedures for the
+MFSM. Installation procedures are covered in a separate publication, MFSM
+"Mark 5" Unpacking and Installation - Volume 3 (a security clearance of
+Alpha III or better is needed to gain access to the installation document).
+
+1.2 EQUIPMENT DESCRIPTION 
+
+The MFSM is housed in a ruggedized metal casing which is designed for
+optimal operation in adverse environmental conditions. It features a
+sophisticated recorder, telemetry guidance capabilities, and
+switching/interface circuits.
+
+1.2.1 Power Supply
+
+Power is supplied by special transformers and adaptors that automatically
+adjust to voltages utilized at a local site. Because the MFSM is
+principally used in clandestine operations, its transformer circuitry also
+detects and masks power line analyzer device signals, rendering its
+presence 
+
+				1-1
+
+		Figure 1.1 MFSM General View
+
+				1-2
+
+and location invisible to voltage security probes. Nickel cadmium battery
+packs are provided for autonomous operation.
+
+1.2.2 Phnordman Video Matrix
+
+A Phnordman video matrix, consisting of four monitors can display and one
+of the following system functions: target site security monitors, video
+tape, telemetry guidance display, and site surveillance cameras.
+
+1.2.3 Long-Range Transceiver
+
+A built-in long-range transceiver transmits and receives encoded signals
+via a secured satellite uplink system (satellites are in geosychronous
+orbit). Highly advanced Adaptive Differential Pulse Coded Modulation
+(ADPCM) circuitry is used to provide near real-time manipulation of the
+MFSM subsystems. When coupled with the satellite uplink, the MFSM can be
+placed anywhere on the earth, and can be controlled from any location.
+Transmission delays are typically on the order on 10.77 usecs, due to
+average atmospheric propagation factors.
+
+1.2.4 Short-Range Transceiver
+
+Another transceiver is used to control a variety of remote equipment from
+the MFSM. This transceiver, which is part of the on-board Telemetry
+Guidance System (TGS), features provisions for an interactive synthetic
+aperture radar display of objects within a 5 mile square radius of the
+unit. Mobile Remote Units (MRUs), model numbers G-665 or better can be
+operated, as well as most Subterranean Remote Units (SRUs). See applicable
+documents for details on interface requirements.
+
+				1-3
+1.2.5 Interfaces
+
+The MFSM has provisions for a variety of video, audio, and digital
+interfaces (including GPIB and RS-232C). An internal 68000 microprocessor
+is used to control all MFSM subsystems, either by direct remote commands or
+by programs, which can be transmitted and stored for future use. Once the
+MFSM is installed at a remote site, it can be configured to intercept,
+process, and emulate significant aspects of that site's command and control
+network. Video systems can be monitored, controlled, and even bypassed with
+the on-board Video Tape Recorder (VTR). Data buses can be accessed to
+provide monitoring and control of digital systems. Automatic error
+detection and encryption circuitry assures accurate, undetected operation.
+
+1.3 RELATIONSHIP OF UNITS
+
+The MFSM is installed at a remote site to monitor its transmissions and
+control telemetrically guided devices. Uplink to a secured satellite system
+transfers data to and from the MFSM to a central processing system, which
+can be accessed through authorized computers or terminals.
+
+				1-4
+
+	      Figure 1-2. Overall System Configuration
+
+				1-5
+
+                              SECTION 2
+
+                        FUNCTIONAL DESCRIPTION
+
+2.1 INTRODUCTION
+
+This section describes only the functional aspects of the MFSM. Refer to
+Maintenance Manual - Volume II for the accompanying Section 3 - Theory Of
+Operation.
+
+2.2 SYSTEM CONTROL
+
+The SELCT pushbutton is part of the System Control circuit. The pushbutton
+operates a switch which selects one of four display screens. The screen
+selected is active for programming until the SELCT pushbutton is pressed
+again. Only one monitor may be selected for programming at any time. Then
+the next screen in a left-to-right and top-to-bottom sequence is activated.
+The VHOLD pushbutton allows vertical sync of an active screen to be
+corrected.
+
+2.3 SITE MONITOR FUNCTION
+
+The MFSM is patched into the target site's security system. The MON
+pushbutton allows a remote operator to view what the site monitor operators
+see as they scan their system. Because most installations utilize a
+dual-monitor system, the MFSM monitor circuits can be switched between two
+separate signals, by either pressing the MON pushbutton again or pressing
+the +/- pushbutton while in the monitor mode.
+
+				2-1
+
+		Figure 2-1, Functional Block Diagram
+
+				2-2
+
+2.4 VTR AND BYPASS FUNCTION
+
+Surveillance camera video signals can be overridden with images from the
+MFSM Video Tape Recorder subsystem. A bypass switch (BYP) allows the target
+site's currently active surveillance camera signal to be substituted with a
+recorded video signal. The Video Tape Recorder is activated with the VTR
+pushbutton. The VTR is actually a solid-state device which digitizes video
+signals on up to 38 separate channels and stores them in virtual memory.
+The internal bubble memory has a 5 gigabyte capacity which is refreshed
+every 24 hours. Operation is identical to that of an analog VTR, and the
+controls associated with the subsystem are also similar.
+
+2.5 TELEMETRY GUIDANCE SYSTEM
+
+The Telemetry Guidance System functions as follows: (1) it provides a
+passive synthetic aperture radar display of all objects within a range of
+5 square miles and (2) it integrates outputs from a monitor detector, the
+target site digital traffic, and feedback from MRU's. Thus on one monitor a
+remote operator can simultaneously view a floor plan rendering of the
+target site, the present location of an MRU, the motion of site security
+personnel, and a representation of which surveillance cameras are active
+within the display parameters. Although the maximum range of the TGS is 5
+square miles, it displays an immediate range of only 200 square yards at a
+time. The TGS is automatically linked to the movement of any active MRU,
+which then causes the display to be scrolled in accordance with the MRU
+location.
+
+				2-3
+
+2.6 MOBILE REMOTE UNIT
+
+MRUs can be activated by pressing the MRU pushbutton or any of the motion
+control pushbuttons. It is recommended that the TGS is used in conjunction
+with this operation, since MRU models compatible with most MFSM models do
+not presently feature an internal camera.
+
+2.7 CAMERA
+
+The output of the target site surveillance cameras can be individually
+viewed. Pressing the CAM pushbutton intercepts the "live" camera for the
+corresponding channel selected.
+
+				2-4
+
+                              SECTION 3
+
+                       CONTROLS AND CONNECTORS
+
+3.1 GENERAL
+
+In this section the location and function of all controls, indicators,
+displays, and connectors are identified. Note that this portion of the
+manual does not provide details on theory or operation of the elements
+identified. See Section 4 of this manual for operating procedures.
+
+3.2 CONTROLS
+
+The major elements of the MFSM are the keypad control panels, the four
+raster scan display screens, and backpanel connectors.
+
+3.2.1 Keypad Control Panels
+
+Different keypad arrangements of the keypad control panel are used,
+depending on the MFSM model number and the operator's interfacing computer.
+They are divided into two major groups: system control and VTR control.
+
+3.2.2 Display controls
+
+Operating procedures and interpretation of display controls are detailed in
+Section 4.
+
+				3-1
+
+		Figures 3-1 and 3-2, Overall MFSM Views
+
+				3-2
+
+                  Figure 3-3, Keypad Control Panels
+
+	         Figure 3-4, Phnordman Video Matrix
+		
+				3-3
+
+
+TABLE 3-1,  Keypad Control Panel Elements
+----------------------------------------------------------------------------
+Item		Nomen-
+No.		clature   	 Description
+----------------------------------------------------------------------------
+
+  1		SELCT           Used to select screens for activation.
+				Selection occurs in a left-to-right,
+                                top-to-bottom sequence.
+
+  2		VHOLD           Vertical hold adjust mode switch
+
+  3		CAM             Selects "live" camera for viewing
+
+  4		MON             Gains access to target site internal
+				closed-circuit security monitors. Two
+				circuits are available for viewing: MON A
+				and MON B
+
+  5		VTR             Activates the Video Tape Recorder
+
+  6		TGS             Activates the Telemetry Guidance System
+				display on the screen selected
+
+  7		+               Increments channels when in CAM and VTR
+				modes. Toggles between site and security
+				monitor circuits when in MON mode. Adjusts
+				vertical hold on some models.
+
+  8		-               Decrements channels when in CAM and VTR
+				modes. Toggles between site and security
+				monitor circuits when in MON mode. Adjusts
+				vertical hold on some models.
+
+  9		BYP             Toggles VTR bypass of site monitor channel.
+
+				3-4
+
+TABLE 3-1,  Keypad Control Panel Elements
+----------------------------------------------------------------------------
+Item		Nomen-
+No.		clature   	 Description
+----------------------------------------------------------------------------
+
+ 10		MRU             Activates Mobile Remote Unit (MRU). Only
+				one MRU can be active at any time.
+
+ 11		<<              Rewinds VTR tape
+
+ 12		STOP            Stops VTR tape. Causes screen to show blank
+				until the tape is played. Indicated by
+				highlight on pushbutton.
+
+ 13		PLAY            Starts VTR tape. Function activation is
+				indicated by highlight on pushbutton.
+
+ 14		PAUSE           Pauses VTR tape. Function activation is
+				indicated by flashing highlight on
+				pushbutton. PLAY must be pressed again to
+				restart tape.
+
+ 15		>>              Advances the VTR tape.
+
+ 16		L               Used in conjunction with MRU mode. Causes
+				MRU to turn left
+
+ 17		F               Used in conjunction with MRU mode. Causes
+				MRU to move forward
+
+ 18		B               Used in conjunction with MRU mode. Causes
+				MRU to move backwards
+
+ 19		R               Used in conjunction with MRU mode. Causes
+				MRU to turn right.
+
+				3-5
+
+
+3.3 BACKPANEL CONNECTORS
+
+Backpanel connectors are hardwired on site. All cables and connectors
+terminate in special adaptors that interface with the target site
+terminals.
+
+3.3.1 Video Inputs/Outputs
+
+Camera inputs are taken directly from taps of a remote site's video control
+center. Up to 38 channels are provided. The MFSM solid-state recorder
+bypass output connectors (labeled MON OUTPUTS) are patched back into the
+remote site switching unit. Bias and phasing mismatches are automatically
+compensated for. A sync signal from the MFSM control microprocessor is
+included with every VTR output to allow for precise synchronization with
+the target system's timing devices.
+
+3.3.2 Audio Inputs/Outputs
+
+Although the BNC connectors for monitor inputs also carry audio signals,
+the MFSM is equipped with 10 RCA-type stereo input and output jacks. These
+are used for ancillary bugging purposes. These jacks can also be interfaced
+with the Digital Audio Synthesizing Unit (DASU), Part #CIA-UYA-007/9 for
+special highly sophisticated jamming and audio alteration purposes.
+
+3.3.3 Data Acquisition Connectors
+
+GPIB and RS-232C connectors form the lower part of the backplane panel. The
+target site's digital traffic is routed through these connectors. In
+addition, serial-to-parallel probes, signature analyzers, serial interface
+probes, trace modules, remote control devices, etc. can be connected to
+these ports. See the companion MFSM Maintenance Manual - Volume 2 for
+details on connectors.
+
+				3-6
+
+	         Figure 3-5, Backpanel Connectors
+
+				3-7
+ 
+                              SECTION 4
+
+                         OPERATING PROCEDURES
+
+4.1 GENERAL
+
+This section describes detailed operating procedures for the following
+modes of MFSM operation:
+
+        * Monitoring
+        * VTR
+        * Bypass
+        * TGS and MRU
+
+Operating procedures for menus and displays used to control parameters are
+presented in this section. Initial turn-on procedures, basic programming
+rules, and operating modes are discussed, respectively.
+
+4.2 TURN ON PROCEDURES
+
+Gaining access to the MFSM from an unauthorized microcomputer terminal is
+virtually impossible. Uplinks are possible only when originated from
+central computer control to offsite terminals.
+
+4.3 BASIC PROGRAMMING RULES
+
+A hand shaped cursor is used to "press" the appropriate pushbuttons on the
+MFSM front panel. On microcomputers configured with a standard joystick the
+cursor is positioned with the control column, and the desired pushbutton is
+activated by pressing the joystick switch (typically #1). On microcomputers
+configured with a mouse the cursor is positioned by moving the mouse, and
+the desired 
+
+				4-1
+
+pushbutton is activated by pressing the switch on top of the mouse once. 
+
+When a pushbutton has been pressed, the finger of the cursor changes to a
+down position, and the lettering on the button is highlighted with color to
+indicate the active status. Depending on the pushbutton pressed (and the
+function in operation) the highlight may be momentary, it may continue as
+long as the button is held down, or it may stay on until the pushbutton is
+pressed a second time.
+
+4.3.1 Selecting Display
+
+To select a display, press the SELCT pushbutton. The channel indicator for
+the next display in a left-to-right, top-to-bottom order will immediately
+flash. The channel number is changed by pressing the + or - pushbuttons.
+
+4.3.2 Adjusting Vertical Hold
+
+Sometimes the vertical hold must be adjusted on a display. To do this,
+perform the following procedure:
+
+        1. Press the SELCT pushbutton to select the desired display.
+
+        2. On systems equipped with a joystick:
+
+                * Move the hard cursor to the VHOLD pushbutton.
+                * Press and hold the joystick control button.
+                * The VHOLD is highlighted.
+                * While still pressing the joystick control button, move the
+                  column forward to control the rate of bottom-to-top
+		  vertical roll, and back to control the rate of
+	          top-to-bottom roll.
+
+				4-2
+
+        3. On systems equipped with a mouse:
+
+                * Press and hold the VHOLD pushbutton
+                * The VHOLD is highlighted
+                * Press the + or - button to control the rate of vertical
+		  roll.
+                * Press the VHOLD pushbutton again.
+
+4.4 OPERATING MODES
+
+The MFSM Monitoring, VTR, Bypass, and TGS/MRU functions provide extremely
+powerful and flexible capabilities for sophisticated real-time remote
+covert activities. In the MON mode, and operator may view a site's internal
+monitoring system. In CAM mode, the operator may also view individual
+cameras independent of it's monitoring system. The VTR mode allows for
+playback and analysis of all the site's recorded activities. The BYP mode
+enables an operator to intercept an internal monitoring system and
+substitute its current channel with a taped image corresponding to the same
+channel. Finally, the TGS and MRU modes provide information concerning the
+relative displacement and disposition of hostile counterintelligence
+forces, and allows command and control over friendly intelligence elements.
+Successful use of the MFSM, therefore, depends on the ability of the
+operator to manipulate all the resources available to carry out the desired
+mission.
+
+4.4.1 Monitoring
+
+Monitoring takes place in two modes: viewing of a remote site internal
+video security monitoring circuits, and viewing elements of those circuits
+independent of the site central control.
+
+				4-3
+		
+4.4.1.1 Viewing Security Monitors.  To gain access to internal security
+monitors, preform the following procedure.
+
+        1. Select the desired display monitor on the MFSM.
+        2. Press the MON pushbutton
+        3. The default monitor circuit is "A". Verify that the monitor
+           status display indicates "SECURITY MON A (or B)"
+        4. To change the current monitor, press the MON pushbutton again
+        5. Verify that the monitor status display indicates the alternate
+           monitor circuit.
+
+4.4.1.2 Viewing independent Cameras.  Individual surveillance cameras at
+the site can be isolated for viewing. To view a separate camera, the
+appropriate channel for that camera must be activated. Perform the
+following procedure:
+
+        1. Select the desired display monitor on the MFSM
+        2. Press the CAM pushbutton
+        3. Verify that the monitor status display indicates "LIVE"
+        4. Press the + pushbutton to increment channels and the -
+           pushbutton to decrement channels
+
+4.4.2 Video Tape Recorder Option
+
+The Video Tape Recorder mode of operation is useful for display and
+analysis of pre-recorded activity. Recording is continuously automatic, so
+there are no provisions for "recording" an independent event, as with a
+standard VTR. When a channel is set for display, the taped material is
+transferred from a special buffer. 
+
+				4-4
+
+When a display on the MFSM has been selected and the VTR pushbutton has
+been pressed, the VTR will then function in a manner similar to normal
+analog devices. See Section 3 for an explanation of pushbutton functions
+associated with the VTR. The display status indicates "TAPE" when the VTR
+is active. To change the current tape channel number, press either the + or
+- pushbutton. 
+
+The sync signal that is recorded with the original image is automatically
+shown during playback. That signal is present on the bottom part of the
+screen as numbers that correspond to the minute and second of a one hour
+period. Shuttle search is possible by pressing the PLAY pushbutton and then
+pressing the >> or << buttons. A speeded image of the recorded material
+will be shown, along with sync numbers at the bottom.
+
+4.4.3 Bypass
+
+The bypass mode allows the recorded image from a VTR channel to replace its
+corresponding surveillance camera. To perform a monitor bypass, do the
+following:
+
+        1. Use one of the MFSM displays to show the VTR screen
+        2. Select the VTR channel to be bypassed (using + or - pushbutton)
+        3. If necessary, advance or rewind the VTR until the time sync
+           values match those shown on a real-time display.
+        4. Press the PLAY button on the VTR
+        5. Press BYP to bypass the surveillance camera with tape.
+        6. Verify that the monitor status display indicates "BYPASS CAMERA"
+
+				4-5
+
+To disable the bypass, do the following:
+
+        1. Select MFSM display showing the bypassed camera
+        2. Press the BYP pushbutton to return to normal VTR function.
+
+			      WARNING
+
+                 SOME SECURITY SYSTEMS CAN DETECT 
+                      WHEN A SYCHRONIZATION 
+               ERROR HAS OCCURRED. BE ABSOLUTELY 
+                     CERTAIN THAT THE CORRECT 
+              TIME SYNC SIGNAL IS PRESENT ON THE 
+                         BYPASS CHANNEL.
+
+4.4.4 TGS and MRU Modes
+
+When the Telemetry Guidance System screen is present on any of the MFSM
+displays, all pertinent information regarding active cameras, site
+personnel placement, navigational information, and MRU location is
+provided. To display the TGS screen:
+
+        1. Select the desired display monitor on the MFSM
+        2. Press the TGS pushbutton
+        3. Verify that the monitor status display indicates "TGS-_______".
+	   The current direction of the MRU is shown in the space after the
+           dash.
+
+Since location of an active MRU can also be shown relative to its
+surroundings, it is best to control the MRU in conjunction with the TGS
+display. Figure 4-1 explains the symbols used on the TGS screen.
+
+				4-6
+
+4.4.4.1 Controlling MRU Movement.  To Control an MRU displayed on the TGS,
+perform the following procedure:
+
+        1. On systems equipped with a joystick:
+
+           a) Move the hand cursor to the MRU pushbutton
+           b) Press and release the joystick control button
+           c) The MRU button is highlighted
+           d) Move the column forward to move the MRU forward, and back to
+              move the MRU backwards.
+           e) Move the column left to turn the MRU to the left, and right
+              to turn the MRU to the right.
+           f) Note that the TGS status display indicates the direction
+              (EAST, WEST, NORTH, or SOUTH) the MRU is facing
+           g) Centering the control column stops the MRU in its current
+              position
+           h) Press the MRU button again to release the MRU function.
+           i) Verify that the MRU button is no longer highlighted.
+
+        On systems equipped with a mouse:
+
+           a) Press and hold the F button to move the MRU forward, and the
+              B button to move the MRU backwards.
+           b) Press and hold the L button to turn the MRU to the left, and
+              the R button to turn the MRU to the right.
+           c) Note that the monitor status display indicates the direction
+              (EAST, WEST, NORTH, or SOUTH) the MRU is facing.
+		
+				4-7
+
+4.5 SECRECY WARNING
+
+The content of this manual is of the highest "TOP SECRET" classification.
+Do not remove this document from its locked files. Operatives with proper
+security operatives with receive sealed copies. It is unlawful to copy this
+MFSM document onto magnetic tape or disk, or by any optical, chemical, or
+mechanical means.
+
+============================================================================
+         DOCS PROVIDED BY  -+*+-THE SOUTHERN STAR-+*+- for M.A.A.D.                                                               
+============================================================================

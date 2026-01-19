@@ -1,0 +1,396 @@
+                       KLONDIKE DELUXE V1.0 
+                       ====================
+
+                                                RE-TYPED BY SHARD - DTL
+
+1.INTRODUCTION.
+---------------
+
+Before  we start, please understand that English is not our native language
+and  the  short  time  available  to  type this document made the use of an
+English  Dictionary  impossible.   So,  please  forgive us the probable big
+amount of errors.
+
+In  January  of  this year we decided to try something else on the amiga as
+the  usual  stuff.  You guessed it, we wanted to make a game for the Amiga.
+After  a  long  and  difficult  discussion into what kind of game we should
+make,  we  decided  that  the  game was going to be a klondike game for the
+Amiga with digitized pictures.
+
+2.GAMEPLAY.
+-----------
+
+For  those  of  you  who  don't know how to play klondike don't panic, I'll
+explain this in the following sections.
+
+In  the  initial setup of klondike there are seven rows in the upper of the
+screen.  In the first row lies one card, in the second two and so on, until
+in  the  last  row there are seven.  You can only see the front side of the
+first cards in one row.
+ 
+In  the stock which is in the lower left corner of the screen, are the rest
+of the cards.  You can now put a card of one color, on the other color, but
+these cards must follow up each other.  e.g.  You can put a red three, on a
+black  four.  Types of cards are not very important at this point.  You can
+get cards to do this from another row or the stock in the lower left of the
+screen.
+
+If  you  can't change something in the upper of the screen.  You must click
+on the stock to rotate the cards in the stock and you get a new card on top
+of  the  stock.   Dependent  of the level the stock turns with one or three
+cards.
+
+On  the  four  ace  places in the lower right of the screen you can put the
+aces,  followed  by  a two, three and so on.  This must be the same type of
+card.  e.g.  spades.
+
+If  you  have  a king you can put it on an empty place in the upper screen.
+You can only do this with a king !!!!!
+
+If  you played it right all cards of one kind lie on top of each other from
+ace  to king.  If everything went right only the four ace places are filled
+with all the cards and the rest of the screen is empty.
+
+3.INSTALLER.
+------------
+
+With the installer you can put this game on your hard drive.
+
+The installer makes a directory automatically called Reko-Productions.
+
+Just click the icon and the official commodore installer does it's work.
+
+4.PREFSFILE.
+------------
+
+In this file you can put the initial settings of the game.
+
+You can do this by editing a small text file called REKO.PREFS.
+
+In this file are the following lines:
+
+#W=1    Workbench:  0=Off 1=On
+#M=1    Music:      0=Off 1=On
+#L=C    Level:      A=Easy B=Normal C=Hard
+#C=0   Cardset:    0 to 9 at startup
+#0=cards/Default.REKO
+#1=cards/Default.REKO
+#2=cards/Default.REKO
+#3=cards/Defualt.REKO
+#4=cards/Default.REKO
+#5=cards/Default.REKO
+#6=cards/Default.REKO
+#7=cards/Default.REKO
+#8=cards/Default.REKO
+#9=cards/Default.REKO
+#.
+
+You can edit this prefs file with a simple edit tool. e.g. ed.
+
+If  you  want to change something just take the right letter.  e.g.  If you
+want doublepal, just type in first line :  #R=D
+
+This  also applies for the other lines.  In the lines :  #1= / #9=, you can
+choose which cardsets you can pick in the game.
+
+5.KEYS.
+----------
+
+During the game you can change some things :
+
+Press <a> for level a.
+Press <b> for level b.
+Press <c> for level c.
+
+Press <w> for closing/opening workbench.
+
+Press <m> for music on/off
+
+Press <0> to <9> for different card sets.
+
+Press <r> to restart a card game.
+
+Press <Esc> to stop playing.
+
+6.GENERAL.
+----------
+
+Level  A  :   the stock turns 1 card at a time.  And you can move part of a
+row.
+
+Level  B  :  the stock turns 3 cards at a time.  And you can move part of a
+row.
+
+Level C :  the stock turns 3 cards at a time.  And you can't move part of a
+row.
+
+To  move  cards  you  first  must  select  a  card  by clicking on the left
+mousebutton  and  then you must click on the destination card with the left
+mouse button.
+
+Some little things:
+
+- You can move cards automatically to the ace places by double   clicking 
+  on the left mouse button.
+
+- You can deselect a card with the right mouse button.
+
+- If you make a wrong card move the source card will be deselected.
+
+- You only get the bonus if you play it in level C.
+
+- Wrong choices 'Screenflash'.
+
+- It is possible to choose a lower level while playing. If you choose a 
+  higher level the game restarts.
+
+
+7.HOW TO MAKE A OWN CARD SET AND WHY ?
+--------------------------------------
+
+OK, last things first:
+
+                       Why?
+                       ====
+
+Due  to  the effort we made to bring you this game, we hope you will reward
+this by making a cardset for us.
+
+Sending  us  a  cardset  not only tells us you like our game (so we keep on
+improving it), but also gives us some other cardsets to play with.
+
+For this reason we also organized ........
+
+             THE CONTEST 
+             -----------
+
+If  we receive five or more cardsets a month, we intend to choose the three
+best  ones,  which  will be rewarded.  If we receive less cardsets, we wait
+until we received at least five (5 disks).
+
+First prize winner gets the second and third best set (2 disks).
+
+Second prize winner gets the first and third best set (2 disks).
+
+Third prize winner gets the first best set (1 disk).
+
+The  two  extra  disks  used  will be from the two worst sets of the month.
+This makes the minimum number of disks mentioned before so it won't cost us
+any extra disks.
+
+In  this  way  it  will  cost us just the prize of the stamps to return the
+disks.
+
+In  case  we receive more than five disks a month, we keep these disks as a
+kind of payment for the job we did.  These disks will however be re-entered
+in  the  contests  of  months to come, so one great month of cardsets won't
+blow your chance on winning a prize.
+
+
+We also change the first card of the winning sets into e.g. 
+
+                        /----------------\
+                        |                |
+                        | Mrs. CardMaker |
+                        |                |
+                        |   1st prize    |
+                        |                |
+                        |    july 93     |
+                        |                |
+                        |                |
+                        |                |
+                        |Congratulations |
+                        |                |
+                        |      from      |
+                        |                |
+                        |REKO-Productions|
+                        |                |
+                        \----------------/
+
+This card will also been sent to the winners, to put in their own set.  (It
+would be stupid to send your own cardset back, wouldn't it)
+
+If possible, these cardsets will also be spread world-wide (in PD).
+
+REMEMBER:   only  winners get their disks back.  So don't send us envelopes
+with  stamps  to  send  back  your  disk(s), because we won't.  Anyway, the
+stamps  will  probably  cost you more than the disk(s).  Also any envelopes
+without  enough  stamps  or  stamps  that  are  tampered  with  will not be
+accepted!!!
+
+OK, I hope you will enjoy making cardsets for our game and keep'm coming.
+
+Oh yeah, don't forget to mention your name and address in a textfile on the
+disk.   This  way  we  always know which cardset belongs to who.  Otherwise
+you'll never get any reply from us.
+
+And now first things last: 
+
+                     HOW to make a REKO cardset.
+                     ===========================
+
+To begin with there are a number of important values:
+
+Screentype . . . . . . : hires (16 colors). 
+CardHeight . . . . . . : 130 pixels. 
+CardWidth  . . . . . . :  88 pixels.
+Number of cards  . . . :  55 (CARD00 - CARD54)
+The order of the cards : CARD00 = REKO-Production card 
+                         (Please use the one we provided, or make one
+                          which also mentions REKO-Productions)
+                         CARD01 = Only a border to show an empty place on
+                                  the table
+                         CARD02 = The back of your pack of cards
+                         CARD03 = Ace of Clubs
+                         CARD04 = Ace of Diamonds
+                         CARD05 = Ace of Hearts
+                         CARD06 = Ace of Spades
+                         CARD07 = Two of Clubs
+                           .            .
+                           .            .
+                           .            .
+
+                         CARD53 = King of Hearts
+                         CARD54 = King of Spades
+
+Remember, all the cards of one set have to use the same color palette.
+
+The values mentioned above are absolutely neccesary!
+
+A few helpful pictures are in the subdirectory MAKE-CARDS:
+
+- REKO-Cutter1
+- REKO-Cutter2
+
+*--------------------------- Blue background
+
+- BLUE/CARD00  (REKO-Productions)
+- BLUE/CARD01  (Empty Position)
+- BLUE/FRAME   (Border)
+- BLUE/SYMBOLS (All cardsymbols)
+
+OK, let's start:
+
+- Get 53 different pictures.
+
+- Change  their size  so you can cut out a card 88 x 130 big.  (You can use
+  the cutters in MAKE-CARDS, to get the right size and to remove the corner
+  pixels.     Load     your     picture     in     a     paint-     program
+  (DPAINT/VISIONAPAINT/TRUEPAINT????)and use the cutter as brush. Then press
+  the paint backgroundcolor-button.)
+
+- Use a  program  (TAD/ADPRO/IMAGE-FX/IMAGEMASTER-PRO????) in which you can
+  lock  your pallete to  get  all your palletes the same.  (Load your first
+  picture (eg. CARD00), lock the palette, load the next, render new colors,
+  save second picture, load the next and so on....)
+
+- Don't forget  to  adjust the pallette of a SYMBOLS and CARD01 file if you
+  don't intent to use one of our CARD00 cards.
+
+- If you  want  a  border  around  your  cards,  you could use a FRAME from
+  MAKE-CARDS.
+
+- Now  put  the  SYMBOLS in your cards.  (Don't place them  to low, because
+  then you won't be able to read them when your cards are overlapping.)
+
+- At this point you should have 55 pictures, with matching palettes and all
+  88 x 130 pixels big.
+
+- Rename  these  pictures  so  their  names are xxxxxx00 to xxxxxx54, where
+  xxxxxx is whatever you like but is the same for all 55.
+
+- Open a shell.
+
+- Make the subdirectory which contains your cards the current one.
+
+- At  this  point  you  have to use the REKO command, so make sure it is in
+  your search-path.  (HD-install has put it in your C:  directory.)
+
+- Type on the commandline:  REKO xxxxxx00 55 Now a cardset is being created
+  in your RAM-Disk  with  the  name  card.reko.  If everything went fine it
+  should be 314670 bytes long.
+
+- All you  have  to  do  now is rename it to whatever you like (no embedded
+  spaces),  put it in  the  CARDS  subdirectory  and change your REKO-Prefs
+  accordingly.
+
+Well, thats all folks,                                  Happy Cardmaking, 
+
+                                                        REKO-Productions
+
+
+8.QUICK REFERENCE CARD.
+-----------------------
+
+
+                  +--------------------------------------+
+                  |                                      |
+                  |       Quick Reference Card           |
+                  |                                      |
+                  |  REKO-Productions Klondike-Deluxe-16 |
+                  |                                      |
+                  | Key:    Action:                      |
+                  |                                      |
+                  | Esc     Quit Game (No Confirm)       |
+                  |                                      |
+                  |  R      Restart game                 |
+                  |                                      |
+                  |  M      Toggle Music On/Off          |
+                  |                                      |
+                  |  W      Open/Close Workbench         |
+                  |                                      |
+                  |  A      Very easy game               |
+                  |         - Stock rotates 1 card       |
+                  |         - Move partial rows          |
+                  |  B      Easy game                    |
+                  |         - Stock rotates 3 cards      |
+                  |         - Move Partial rows          |
+                  |  C      Normal game                  |
+                  |         - Stock rotates 3 cards      |
+                  |         - Move whole rows only       |
+                  |         - Gives bonus when ready     |
+                  |                                      |
+                  |  1      Select Cardset  1            |
+                  |  2      Select Cardset  2            |
+                  |  .        .       .     .            |
+                  |  .        .       .     .            |
+                  |  0      Select Cardset 10            |
+                  |                                      |
+                  |  Release Version contains only one   |
+                  |  cardset.                            |
+                  |  Obtain more sets through PD-Chanels |
+                  |  or by making them yourself.         |
+                  |                                      |
+                  +--------------------------------------+
+
+9.INFO & CREDITS.
+-----------------
+
+People who worked on this game:
+
+Programming . . . : Remy Nusteling & Koos Roodbol
+Nice Music  . . . : Roy Glerum
+Scanning  . . . . : Koos Roodbol
+Intro/End picture : Ronald Roterman
+Beta Testing  . . : Randy Consemulder
+Extra pixeling  . : Koos Roodbol & Remy Nusteling
+
+Many thanks for lending hardware go to :
+
+OCS Computers,
+van Goghstraat 1-3,
+3331 VM Zwijndrecht,
+Tel : 078-197070.
+
+Thanks to Teijo Kinnunen for using your med.library.
+
+
+To contact REKO PRODUCTIONS write to : 
+
+REKO PRODUCTIONS,
+Leerambachtstr. 10,
+3312 LJ Dordrecht,
+The Netherlands.
+
+
+----------------------------------END--------------------------------------

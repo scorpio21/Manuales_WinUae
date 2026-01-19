@@ -1,0 +1,167 @@
+ZORK: EL SUBTERRÁNEO POR DESCUBRIR,
+
+Escrito por Dimitris Kiminas
+
+
+¡Bienvenidos a Zork!
+Es el año 1066. Eres un soldado raso de séptima clase en la Guardia de la Inquisición.
+Después de ser relevado por Earl en el quiosco de regalos de la Inquisición de Port Foozle,
+Encuéntrate en la sede de Frobozz Electric. Gesticular
+Frente a ti está el Pastor del Desastre, el Ministro de Siniestro, el Gran
+Inquisidor. Parece que tiene una misión muy especial para ti...
+
+Zork: El subsuelo desconocido
+c) Activisión de 1997. Zork es una marca registrada de Activision, Inc.
+
+Acerca de los autores
+Marc Blank, graduado del Instituto Tecnológico de Massachusetts y del
+Albert Einstein College of Medicine, es uno de los fundadores originales de
+Infocom. Fue coautor de la versión original de Zork para mainframe en el MIT y
+Llegó a convertirse en uno de los pioneros en el campo de la ficción interactiva. en
+Infocom, fue coautor de The Zork Trilogy y Enchanter, y fue el único autor de
+Deadline, el primer misterio interactivo.  Marc vive en el centro de Oregon con
+su esposa e hija; su empresa, Eidetic, Inc. es un desarrollador de
+Software de entretenimiento para ordenadores personales y consolas de videojuegos.
+
+Mike Berlyn se unió a Infocom en la Era de la Razón y fue autor de Suspended,
+Asesinos, Infieles y Fooblitzky. Jugaba a escribir novelas y tuvo cuatro
+Novelas de ciencia ficción publicadas. Por estos y otros errores, se disculpa humildemente.
+Aún así, parece que aún no ha aprendido la lección.  Tiempos más recientes, el
+Age of Wheezin', muestra a Berlyn felizmente casado, copropietario de Eidetic, Inc. con
+Marc Blank y vive en el centro de Oregón. Su título en Humanidades no logró
+hacerlo más humano, y su avanzada edad y su cerebro cada vez más reducido no han logrado
+hazlo más sabio con madurez.  Afortunadamente, esto no le impide supervisar
+Producto actual de Eidetic en desarrollo para Sony Playstation.
+
+Acerca del programador
+Gerry Kevin Wilson, graduado de la Universidad de California en Berkeley,
+a diferencia de Marc y Mike, nunca fue implementador en Infocom. Él es el editor de
+una revista online sobre aventuras textuales llamada SPAG, el organizador de una
+concurso anual de ficción interactiva y el autor del culto instantáneo
+aventura de texto clásica, "¡Los Underoos que comieron Nueva York!"
+
+Comunicarse con ficción interactiva (si no está familiarizado con
+Ficción interactiva, lea esta sección).
+
+Con Interactive Fiction, escribes tus comandos en inglés sencillo cada vez
+verá el mensaje (>). La mayoría de las frases que Las HISTORIAS entenderán
+Son oraciones imperativas. Vea los ejemplos a continuación.  cuando hayas terminado
+escribiendo su entrada, presione la tecla RETORNO (o ENTRAR). La HISTORIA entonces
+responder, indicándole si su solicitud es posible en este momento del
+historia y lo que sucedió como resultado.
+
+Para moverse, simplemente escriba la dirección a la que desea ir. Las direcciones pueden ser
+abreviado: NORTE a N, SUR a S, ESTE a E, OESTE a O, NORESTE a NE,
+NOROESTE a NO, SURESTE a SE, SUROESTE a SO, ARRIBA a U y ABAJO a D.
+IN y OUT también funcionarán en ciertos lugares.
+
+Hay muchos tipos diferentes de oraciones que se utilizan en los juegos de ficción interactivos.
+A continuación se muestran algunos ejemplos:
+
+>CAMINATA HACIA EL NORTE
+>OESTE
+>NE
+>ABAJO
+>TOMA LA JAULA
+>ABRIR EL PANEL
+>LEER SOBRE LA CABEZA PLANA DIMWIT
+>GOLPE LA LÁMPARA
+>ACUÉstate EN EL SOFÁ ROSA
+>EXAMINA LA MONEDA BRILLANTE
+>PON LA LLAVE OXIDADA EN LA CAJA DE CARTÓN
+>MUESTRA MI PAJARITA AL GORRIADOR
+>GOLPE AL CANGREJO ARRASTRE CON EL CASCANUECES GIGANTE
+>PREGUNTA AL REY COBARDE SOBRE LAS JOYAS DE LA CORONA
+
+Puedes usar múltiples objetos con ciertos verbos si los separas por el
+palabra Y o por una coma. Algunos ejemplos:
+
+>TOMA EL LIBRO Y LA RANA
+>SOLTAR EL TARRO DE MANTEQUILLA DE MANÍ, LA CUCHARA Y LA COMIDA PARA LEMMINGS
+>PON EL HUEVO Y EL LÁPIZ EN EL GABINETE
+
+Puede incluir varias entradas en una línea si las separa por la palabra
+ENTONCES o por un punto. Cada entrada se manejará en orden, como si hubiera escrito
+individualmente en indicaciones separadas. Por ejemplo, podría escribir todos los
+siguiente a la vez, antes de presionar la tecla RETURN (o ENTER):
+
+>ENCENDE LA LUZ. PATA LA LÁMPARA.
+
+Si La HISTORIA no entiende una de las oraciones en su línea de entrada, o
+si ocurre un evento inusual, ignorará el resto de su línea de entrada.
+
+Las palabras TI y TODO pueden resultar muy útiles. Por ejemplo:
+
+>EXAMINA LA MANZANA. TÓMALO. CÓMELO
+>CIERRE LA PUERTA DE METAL PESADO. BLOQUEARLO
+>RECOGE EL BOOR VERDE. HUELALO. DARSE TONO.
+>TOMAR TODO
+>LLEVA TODAS LAS HERRAMIENTAS
+>SUELTE TODAS LAS HERRAMIENTAS EXCEPTO LA LLAVE Y EL MARTILLO MINIATURA
+>TOMA TODO DE LA CAJA
+>DALE TODO MENOS LAS ZAPATILLAS DE RUBÍ A LA BRUJA MALVADA
+
+La palabra TODOS se refiere a todos los objetos visibles excepto los que están dentro de algo.
+más. Si hubiera una manzana en el suelo y una naranja dentro de un armario,
+TOMAR TODO tomaría la manzana pero no la naranja.
+
+Cuando conoces criaturas inteligentes, puedes hablar con ellas escribiendo su
+nombre, luego una coma, luego lo que quieras decirles. Aquí hay algunos
+ejemplos:
+
+>VENDEDOR, HOLA
+>CABALLO, ¿DÓNDE ESTÁ TU SILLA?
+>MUCHACHO, CORRE A CASA Y LUEGO LLAMA A LA POLICÍA
+>PODEROSO MAGO, TOMA ESTA MANZANA ENVENENADA. CÓMELO
+
+Observe que en los dos últimos ejemplos, le está dando al personaje más de
+un comando en la misma línea de entrada. Tenga en cuenta, sin embargo, que muchas criaturas
+no te preocupes por la charla ociosa; Tus acciones hablarán más que tus palabras.
+
+Comandos básicos
+
+BREVE: este comando describe completamente una ubicación solo la primera vez que ingresa
+eso. En visitas posteriores, sólo el nombre del lugar y cualquier objeto
+Se describirá el presente. Las aventuras comenzarán en modo BREVE, y
+permanezca en modo BREVE a menos que utilice los comandos VERBOSE o SUPERBRIEF.
+
+SUPERBRIEF muestra sólo el nombre de un lugar que usted ha ingresado, incluso si
+Nunca he estado allí antes. En este modo, ni siquiera se mencionan los objetos.
+descrito. Por supuesto, siempre podrás obtener una descripción completa de tu ubicación.
+y los elementos allí escribiendo MIRAR. En el modo SUPERBRIEF, la línea en blanco entre
+Se eliminarán los turnos. Este modo está destinado a jugadores que ya
+familiarizado con la geografía.
+
+El comando VERBOSE proporciona una descripción completa de cada ubicación y el
+objetos en él, cada vez que ingresas a una ubicación, incluso si has estado allí
+antes.
+
+DIAGNÓSTICO - Esto le dará un informe de su condición física.
+
+INVENTARIO: esto le dará una lista de lo que lleva y usa. tu
+Puede abreviar INVENTARIO a I.
+
+MIRAR: esto le dará una descripción completa de su ubicación. tu puedes
+abreviar MIRAR a L.
+
+EXAMINAR objeto: esto le dará una descripción del objeto. es
+Es importante observar todos los objetos, ya que puede haber pistas sobre el uso de un objeto en
+su descripción. Puede abreviar EXAMINAR a X.
+
+SALIR: esto le permite detenerse. Si desea guardar su posición antes de abandonar,
+debe utilizar el comando GUARDAR.
+
+RESTAURAR: esto restaura una posición previamente guardada.
+
+REINICIAR: esto detiene la historia y la comienza de nuevo desde el principio.
+
+GUARDAR: esto guarda una "instantánea" de su posición actual. Puedes regresar a un
+posición guardada en el futuro usando el comando RESTORE.
+
+ESPERAR - Permite que pase el tiempo; efectivamente no haces nada mientras el juego
+continúa. Puede abreviar ESPERAR a Z.
+
+PUNTUACIÓN: muestra su puntuación y clasificación actuales. Al escribir PUNTUACIÓN COMPLETA se le mostrará
+lo que has hecho para ganar tus puntos.
+
+c) Activisión de 1997. Zork es una marca registrada de Activision, Inc.

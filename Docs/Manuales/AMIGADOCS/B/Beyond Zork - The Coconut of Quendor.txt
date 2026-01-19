@@ -1,0 +1,643 @@
+                    ------------------------ 
+               ---  B E Y O N D    Z O R K !  --- 
+                    ------------------------ 
+                 --=== INSTRUCTION MANUAL ===-- 
+                      presented by Inskipp 
+ 
+ 
+                  Section I: About Beyond Zork 
+ 
+Preface to the Story 
+ 
+    Dark times have fallen upon the Southlands of Quendor.  All
+the enchanters have disappeared without a trace.  Monsters roam
+the countryside.  The taverns are filled with disturbing rumors
+and unsavory characters. 
+ 
+    A simple peasant like yourself knows better than to get
+involved in the affairs of wizards.  But everyone you meet seems
+intent of testing your abilities to the utmost.  You find
+yourself drawn into a web of fantasy and magic, solving puzzles,
+seeking treasure, avoiding traps, and fighting monsters.  Your
+strength and power grow with every encounter, until the most
+fabulous treasure of all -- the fabled Coconut of Quendor -- lies
+within your grasp.  If only you can survive long enough to claim
+it! 
+ 
+    Unlike other Infocom stories in which your character is set
+from the start, Beyond Zork lets you create your own character
+with six attributes: endurance, strength, dexterity,
+intelligence, compassion, and luck.  Some situations in the story
+require dexterity, some require strength, some require
+intelligence, and so on; some situations require a combination of
+these attributes.  You can choose your attributes yourself, or
+you can use a character already set up by the computer. 
+ 
+    You must fight monsters and solve puzzles to succeed in your
+quest.  Since your success will often depend on our attributes,
+mindful players will try to improve their attributes as they
+venture onward. 
+ 
+    The story is presented in a new and flexible way.  A map in
+the upper-right portion of your screen shows the immediate area
+and the directions you can move.  You can use the on-screen map
+and your mouse to move to adjacent rooms if you have a Apple IIgs
+or Macintosh, an Amiga, an Atari ST, or an IBM-PC with a
+Microsoft compatible mouse.  (If your computer has a numeric
+keypad, you can use it to move around as well.) 
+ 
+    Experienced Infocom players may recognize references to other
+Infocom games.  However, there are many new commands in Beyond
+Zork, and character development adds a new degree of challenge. 
+All players should read the rest of Section 1 before plunging
+into the story. 
+ 
+ 
+The On-Screen Map 
+ 
+The on-screen map shows only a small part of the entire
+geography, so it's a good idea to draw a separate map as you
+play.  (Or use the handy-dandy companion map supplied by your
+truly -mt) 
+ 
+Notes about the on-screen map: 
+ 
+- A question mark on the map indicates a dark room (a room in
+which you need a light source to see). 
+ 
+- Room exits are displayed on the map only if you've seen them. 
+ 
+- A room with a UP exit shows an up arrow on the map 
+ 
+- A room with DOWN exit shows a down arrow on the map. 
+ 
+- A room with an UP exit and a DOWN exit shows both an up arrow
+and a down arrow. 
+ 
+- You can click on the up or down arrows to move UP or DOWN (if
+you have the mouse option with certain computers). 
+ 
+ 
+Function Keys 
+ 
+    As described elsewhere in this manual, many commands have
+abbreviation: you can type N instead of NORTH, for instance, or I
+instead of INVENTORY. 
+ 
+    With function keys you can use a single keystroke as an
+abbreviation for whatever you choose.  you can use a function key
+to abbreviate a long work that you don't like to type (like
+HIPPOPOTAMUS), or to abbreviate a commonly used command (like
+RESTORE), or even to abbreviate a whole sentence (like ATTACK THE
+MONSTER WITH SMALL THERMONUCLEAR DEVICE). 
+ 
+    You start the story with the function keys already set to
+commonly used commands.  To see what the function keys are set
+to, or to change the settings of the function keys, type DEFINE
+at the prompt ">" and press the RETURN (or ENTER) key.  Then use
+your up or down arrow keys to highlight the setting(s) you want
+to change.  The vertical bar or exclamation point is used as an
+abbreviation for the return or enter key; so changing LOOK to
+LOOK! means you want the command executed whenever you press that
+function key. 
+ 
+Note: Only one RETURN can be include in each function key
+definition.  Anything typed after the first RETURN will be
+discarded. 
+ 
+    You can restore all the original settings of the function
+keys by highlighting the RESTORE DEFAULTS command and pressing
+the RETURN key.  To leave the DEFINE screen, highlight the EXIT
+command and press the RETURN key. 
+ 
+ 
+Special Commands 
+ 
+    There are a number of command which have special meanings. 
+Many of these command appear in all Infocom games, but those that
+are starred "*" below are new to Beyond Zork.  You can use all
+special commands over and over as needed.  Some count as a turn,
+others do not.  Type the command after the prompt ">" and press
+RETURN. 
+ 
+AGAIN 
+    Beyond Zork will respond as if you had repeated your previous
+command.  For instance, typing HIT THE MONSTER WITH THE TOASTER
+OVEN then typing AGAIN would be like hitting the monster twice in
+a row.  You can abbreviate AGAIN with G. 
+ 
+BRIEF 
+    If you are playing in "normal" mode instead of "enhance" mode
+(see MODE below), or if you are printing a transcript as you play
+(see SCRIPT below), this command tells Beyond Zork to print the
+full description of a location *only* the first time you enter
+it.  On subsequent visits, Beyond Zork will print only the name
+of the location and the objects present.  This is how Beyond Zork
+will normally act, unless you tell it otherwise using the VERBOSE
+or SUPERBRIEF commands.  The SUPERBRIEF commands tells Beyond
+Zork to print only the name of a place you have entered, even if
+you have never been there before.  In this mode, Beyond Zork will
+not even print which object are present. 
+ 
+    Of course, you can always get a description of your location
+and the items there by typing LOOK.  In SUPERBRIEF mode the blank
+line between turns will be eliminated.  This mode is meant for
+players who are already very familiar with the geography.  The
+VERBOSE command tells Beyond zork that you want a complete
+description of each location, and the objects in it, every time
+you enter a location, even if you've been there before. 
+ 
+COLOR * 
+    If you are playing Beyond Zork on a color monitor, you can
+type COLOR to change the colors on your screen.  This command
+works only on computers which support a color display. 
+ 
+DEFINE * 
+    This command allows you to change the setting of the function
+keys.  For example, if pressing function key 2 is like typing
+INVENTORY, you can change this to DROP ALL, or DROP ALL followed
+by RETURN, or anything else, by using the DEFINE command.  See
+"Function Keys" previously covered in this manual. 
+ 
+DIAGNOSE 
+    Beyond Zork will give you a medical report of your physical
+condition. 
+ 
+INVENTORY 
+    Beyond Zork will lest what your are carrying.  Occasionally
+an inventory list will be too long to fit in the upper window. 
+When this happens, the word "{more}" will appear in the corner of
+the window, and the UP and DOWN arrow keys can be used to scroll
+the window.  You can abbreviate INVENTORY with I. 
+ 
+LOOK 
+    This tells Beyond Zork to describe your location in full
+detail.  Occasionally a room description will be too long to fit
+in the upper window.  When this happens, the word "{more}" will
+appear in the corner of the window, and the UP and DOWN arrow
+keys can be used to scroll the window.  You can abbreviate LOOK
+to L. 
+ 
+MODE * 
+    If you find the maps and other screen features of Beyond Zork
+undesirable, you can use the MODE command.  This will make the
+screen look "standard," like every other Infocom game.  The
+status line will list your name, attributes, location, and
+available exits.  Typing MODE a second time will cause the
+"enhanced" screen features to return. 
+ 
+MONITOR * 
+    Your character's endurance attribute is especially important. 
+Therefore, whenever something affects your endurance (being
+wounded during combat, for example), your endurance level is
+automatically displayed on the screen.  If    for some reason you
+do not wish to monitor your endurance, use the MONITOR command to
+turn this feature off.  Typing MONITOR a second time turns the
+endurance display feature back on. 
+ 
+NAME * 
+    In Beyond Zork, you have the power to name weapons and living
+things.  For instance, you can NAME THE DOG "ROVER" or NAME THE
+SWORD "EXCALIBUR" or NAME THE HIPPOPOTAMUS "FRED".  Beyond Zork
+will then use the name in its descriptions, and you can use the
+name as a synonym for the object.  This feature is particularly
+convenient when an unnamed object is long or hard to spell. 
+ 
+NOTIFY * 
+    Normally in Beyond Zork, the game will notify you whenever
+any of your attributes change (for example, when your luck goes
+up or when your dexterity goes down) or when any attribute
+returns to normal (such as when you build your endurance back
+after being wounded in battle).  You an turn off this
+notification feature by using the NOTIFY command.  Typing NOTIFY
+a second time turns the feature back on. 
+ 
+OOPS 
+    If you accidentally mistype a word, such that Beyond Zork
+doesn't understand the word, you can correct yourself on the next
+line by typing OOPS and the correct word.  Suppose, for example,
+you typed TAKE THE CLUB FROM THE GIANT and were told "You can't
+use that word 'giant' in this story."  You cold type OOPS GIANT
+rather than retyping the entire sentence 
+ 
+PRIORITY * 
+    As you play Beyond Zork, most information is displayed in a
+box at the top half of your screen.  For instance, when you enter
+a new room,the room's description will appear in the box; when
+you then type INVENTORY, your inventory will appear in the box;
+on some machines, when you type STATUS (see below), your
+attributes will appear in the box.  If you want to specify what
+kind of information will appear in the box, you can use the
+PRIORITY command.  For example, if you want the box to show your
+inventory at all times, type INVENTORY (and press the RETURN and
+then type PRIORITY; thereafter the box will always show your
+inventory, updating it when you pick up new items or drop or lose
+others.  (Room descriptions will thereafter appear in the bottom
+half of the screen.)  Similarly, if you want the box to show room
+descriptions at all times, type LOOK (and press the RETURN key)
+You can turn this feature off by typing PRIORITY OFF. 
+                                                                 
+QUIT 
+    This lets your stop.  If you want to save your position
+before quitting, follow the instructions in the "Saving the
+Story" section.  You can abbreviate QUIT with Q. 
+ 
+REFRESH * 
+    This command clears your screen and redraws the display. 
+ 
+RESTART 
+    This stops the story and starts over from the beginning. 
+ 
+RESTORE 
+    This restores a position made using the SAVE command.  See
+"Saving the STory" section for more details. 
+ 
+SAVE 
+    This puts a snapshot of your current position on your storage
+disk.  You can return to a saved position in the future using the
+RESTORE command.  You cannot SAVE during combat. 
+ 
+SCORE 
+    This command displays your attributes, telling you your
+strength, luck, endurance, compassion, dexterity, intelligence,
+and armor class.  This command is synonymous with STATUS. 
+ 
+SCRIPT 
+    This command tells your printer to begin making a transcript
+of the story as you venture onwards.  A transcript may aid your
+memory but is not necessary.  It will work on certain computers. 
+ 
+SETTINGS * 
+    This command allows you to view and change many of the
+setting dealing with screen display and output.  Use the up and
+down arrow keys to select a setting, and use the left and right
+arrow keys to change a setting.  You can restore all the default
+setting by highlighting RESTORE DEFAULT and pressing the RETURN
+key. 
+ 
+STATUS * 
+    This command displays your attributes, telling you your
+strength, luck, endurance, compassion, dexterity, intelligence,
+and armor class.  This command is synonymous with SCORE. 
+ 
+SUPERBRIEF 
+    See BRIEF above. 
+ 
+UNDO * 
+    You can use this command to back up one move.  Suppose, for
+example, that you found a package but didn't know what was in it. 
+You might type OPEN THE PACKAGE  and be told "The package
+explodes as you open it, damaging your weapons and destroying all
+your other possessions."  You could then type UNDO and you would
+back up one move.  You weapons and other possessions would be
+intact, and you could try giving the package to an enemy, or
+leaving it alone, or something else.  The UNDO command does not
+work during combat (when you're fighting a monster, for
+instance).  Note that the UNDO command works only on certain
+computers with enough memory. 
+ 
+UNSCRIPT 
+    This commands your printer to stop making a transcript. 
+ 
+VERBOSE 
+    See BRIEF above. 
+ 
+VERSION 
+    Beyond Zork responds by showing you the released number and
+the serial number of your copy of the story.  Please include this
+information if you ever report a bug in the story. 
+ 
+WAIT 
+    This will cause time in the story to pass.  Normally, between
+turns, nothing happens in the story.  You could leave your
+computer, take a nap, and return to the story to find that
+nothing has changed.  You can use WAIT to make time pass in the
+story without doing anything.  For example, you can wait for a
+specific time, or wait for an event to happen, etc.  You can
+abbreviate WAIT to Z. 
+ 
+ZOOM * 
+    As long as you are playing Beyond Zork in enhanced mode
+rather than in standard mode, a partial map of the game will
+automatically appear on your screen.  By using the ZOOM command,
+you can see more rooms on your screen, but in less detail (e.g.,
+UP and DOWN exits will not be shown); typing ZOOM a second time
+returns the map size to normal. 
+ 
+ 
+Hints for Better Playing 
+ 
+1)  If you are creating your own character, remember that all of
+the attributes are important.  Don't be tempted to put all your
+eggs in one basket (by giving yourself lots of endurance, for
+instance, but very little luck or dexterity); otherwise you may
+not be able to solve a puzzle or defeat certain monsters.  The
+attributes of the default characters are all sufficient to
+complete the story. 
+ 
+2)  There are two way to buy things in a store.  You can simply
+trade items in your inventory for merchandise you want, or you
+can offer valuables to the shopkeeper and establish a personal
+line of credit.  If you're not sure what an item is worth, ask
+the shopkeeper. 
+ 
+3)  Weapons are more effective if you WIELD them first.  You can
+SET ASIDE  or UNWIELD a weapon when you're done with it. 
+ 
+4)  Certain magic items (such as wands and scrolls) can only be
+used a few times before they lose their potency.  Conserve your
+magic! 
+ 
+5)  It's a good idea to bring any items you find to a specialist
+for identification.  This will alert you to any special
+properties they may possess. 
+ 
+6)  Don't be surprised if parts of the geography seem to change
+from time to time, or if treasures appear in different guises and
+locations.  Not two games of Beyond Zork are exactly alike. 
+ 
+ 
+                 Section II: About Infocom's Interactive Fiction
+
+ 
+Saving the Story 
+ 
+    Saving and restoring:  It will probably take you many days to
+complete the game.  Using the SAVE feature, you can continue the
+story at a later time without having to start over from the
+beginning, just as you can place a bookmark in a book you are
+reading.  SAVE puts a snapshot of your place in the story onto
+another disk.  You should also save your place before trying
+something dangerous or tricky.  That way, even if you get lost or
+killed in the story, you can return to your saved position.  You
+cannot save during combat (while fighting a monster, for
+instance). 
+ 
+    To save your place in the story, type SAVE at the prompt ">",
+and then press the RETURN key.  Then follow the instructions for
+saving and restoring that the computer asks.  Some computers
+require a blank disk, that has already been formatted, for saves. 
+Using a disk with data on it may result in the loss of that data,
+depending on your computer.   Beyond Zork offers from 3 to 7
+different SAVEd positions, depending on the type of computer. 
+ 
+    You can restore a saved position any time you want.  To do
+so, type RESTORE at the ">" prompt.  Then follow instructions
+that the computer asks.  You can then continue the story from the
+point where you used the SAVE command.            
+Quitting and Restarting: 
+ 
+    If you want to start over from the beginning, type RESTART
+and press the RETURN key.  If you want to stop the game entirely,
+type QUIT and press the RETURN key. 
+ 
+ 
+Communicating with Infocom's Interactive Fiction 
+ 
+    If your computer has a numeric keypad you can use it to move
+around, rather than typing in the directions (N,E,S,W etc.). 
+ 
+                                                                 
+        -------                    ---------- 
+        !7!8!9!                    !NW!N !NE! 
+        -------                    ---------- 
+        !4!5!6!        becomes     !W !UD!E ! 
+        -------                    ---------- 
+        !1!2!3!                    !SW!S !SE! 
+        -------                    ---------- 
+ 
+    The 5 key is for both UP and DOWN.  If you are in a location
+which has both an UP and DOWN exit, the 5 key will act as if you
+typed WALK AROUND. 
+ 
+    You can include several sentences on one input line if you
+separate them by the word THEN or by a period.  (Note that each
+sentence will still count as a turn.)  You don't need a period at
+the end of the input line.  For example, you could type all of
+the following at once, before pressing the RETURN: 
+ 
+         >READ THE SIGN.  GO NORTH THEN TAKE THE CROWBAR AND
+MALLET 
+ 
+    The words IT and ALL can be very useful. For example: 
+ 
+         >TAKE THE APPLE.  POLISH IT.  PUT IT IN THE BOX. 
+         >CLOSE THE HEAVY METAL DOOR.  LOCK IT. 
+         >TAKE THE SHOE.  EMPTY IT. PUT IT ON. 
+ 
+    The word IT refers to either the last direct object you
+mentioned or the last object the story mentioned.  If there is
+any confusion, the story will ask you to be more specific. 
+ 
+    There are three kinds of questions that Beyond Zork
+understands:  WHO IS, WHERE IS, and WHAT IS.  For example: 
+ 
+         >WHO IS HOWARD? 
+         >WHERE IS THE MAP? 
+         >WHAT IS PLUTONIUM? 
+ 
+    You will meet other people and creatures in Beyond Zork.  You
+can talk to some of these beings by typing their name, then a
+comma, then whatever you want to say to them.  Hear are some
+examples: 
+ 
+         >LOIS, HELLO 
+         >SHOPKEEPER, WHAT IS MY CREDIT? 
+         >OLD MAN, TELL ME ABOUT THE PLATYPUS 
+         >WILLY, PUT ON THE GLOVE THEN THROW THE BALL 
+ 
+    Most people in the story don't care for idle chatter.  Your
+deeds will speak louder than you words. 
+ 
+    Beyond Zork recognizes over 1500 words, nearly all that you
+are likely to use in your commands.  However, Beyond Zork uses
+many words in its descriptions that it will not recognize in your
+commands.  For example, you might read, "The full moon is bright
+and clear, and the trees cast eerie shadows."  If Beyond Zork
+doesn't recognize the words MOON or SHADOWS in your input, you
+can assume they are not important to your completion of the
+story, except to provide you with a more vivid description of
+where you are or what is going on. 
+===========================================================================
+                          I N S K I P P
+                            presents
+                THE LORE AND LEGENDS OF QUENDOR 
+              ( A Bestiary Guide for Beyond Zork )
+                       
+ 
+Within these pages is recorded certain knowledge regarding the
+flora, fauna, and locales of the kingdom.  Although this wisdom
+has well stood the test of time, I would not wish to see it lost
+forever in the uncertain mists of the future.  There fore to our
+ancestors, I have writ into permanence the lore and legends of
+Quendor. 
+                                                        -MNG 
+ 
+ 
+Grue 
+    The grue is a sinister, lurking presence in the dark places
+of the earth.  Its favorite diet is adventurers, but its
+insatiable appetite is tempered by its fear of light.  No grue
+has ever been seen by the light of day; few have survived its
+fearsome jaws to tell the tale. 
+ 
+Discipline Crab 
+    Discipline crabs are small, moral crustaceans found in
+cellars, fallout shelters and other subterranean lairs.  These
+brooding curmudgeons are deeply offended by the slightest
+intrusion; if cornered, they employ their razor-edged pincers
+with righteous efficiency. 
+ 
+Eldritch Vapor 
+    Eldritch vapors dwell in cemeteries, moors and other locales
+where fog will hide their ever-shifting forms.  Gleeful and
+mischievous, they enjoy snatching away the possessions of those
+foolish enough to wander into their realm.  Visitors without
+possessions are themselves snatched away. 
+ 
+Dornbeast 
+    Smart adventurers run the other way when they hear "Hurumph,"
+the battle cry of the deadly dornbeast.  Its 69 sensitive eyes
+can paralyze an unwary explorer with a single glare.  Capture
+victims are plastered with round, sticky secretions that never
+come off. 
+ 
+Monkey Grinder 
+    Avoid this nightmare at any cost!  Spawn of a carnival
+necromancer, the monkey grinder can blast minds to jelly with its
+powerful Sense Organ.  Deceptively eloquent in both manner and
+speech, these loathsome creatures actually possess little
+intelligence, and suffer an illiteracy rate of 103%. 
+ 
+Implementor 
+    The Implementors are a race of minor deities who dwell on the
+Ethereal Plane of Atrii.  Their ample free time is spent on
+costly luncheons where gossip and sweet nectars flow freely. 
+Implementors do not discourage rumors that the world was created
+by them as a plaything. 
+ 
+Giant Corbie 
+    Corbies are carrion birds with sharp eyesight and sharper
+beaks.  Their color vision is so well developed, they can spot a
+yellow grotche in a hayfield from 200 bloits away.  Corbies
+prefer the taste of the dead, rotting flesh, but have been known
+to feast on live, running adventurers. 
+ 
+Christmas Tree Monster 
+    Vast herds of these luminous vegetables roam freely amid the
+glacial valleys of the south.  Residents fear the autumn
+migrations, in which the trees cheerfully trample everything in
+their path.  Christmas tree monsters are repelled by
+caterpillars, but nobody can explain why. 
+ 
+Minx 
+    Irresistibly cuddly, the minx shares all the most
+ingratiating characteristics of kittens, koala bears and piglets. 
+Minxes are highly prized for their ability to find and root out
+chocolate truffles from the ground, and will eagerly devour them
+if given the opportunity. 
+ 
+Unicorn 
+    Most unicorns have fled to the Plane of TransInfinite
+Splendor, where they enjoy a carefree existence free from the
+cruelty of man.  The unhappy few left behind are eagerly sought
+by zoos and private collectors.  It is good luck to kiss a
+unicorn's horn; but woe to any fool who harms one. 
+ 
+Froon 
+    Legends of this magical kingdom date back before the reign of
+Entharion the Wise (0-41 GUE).  Said to lie somewhere beyond the
+clouds, Froon was the setting for a series of beloved children's
+books by L. Frank Fzort, and later became a successful movie
+musical starring Judy Garlic. 
+ 
+Hungus 
+    Part sheep, part hippopotamus, the hungus builds its nest in
+jungle swamps and other hot, squishy places.  Normally docile and
+eager to avoid conflict or activity of any kind, the hungus is
+fiercely clannish, and will instantly charge at anything that
+dares to threaten its kin. 
+ 
+Spenseweed 
+    The healing virtues of this common roadside plant are well
+documented.  although it is safe to eat, spenseweed is most
+effective when applied directly to wounds as a salve.  Avoid the
+cheap commercial preparations, which may contain artificial
+coloring and preservatives. 
+ 
+Chocolate Truffle 
+    Chocolate truffles grow only between the roots of oak trees. 
+Dark brown when fresh, they decompose rapidly once exposed to
+air.  Truffles were a favorite of Lord Dimwit Flathead the
+Excessive (770-789 GUE), who ordered the excavation of entire
+forests to indulge his bottomless appetite. 
+ 
+Moss of Mareilon 
+    First classified in 843 GUE by Thwack of Mareilon, this soft,
+pale fungus thrives in underground tunnels and public toilets. 
+When squeezed, the moss releases an invisible cloud of spores
+which improves the dexterity of laboratory rat-ants.  Its effect
+on other species is uncertain. 
+ 
+Compass Rose 
+    The stem of this rare annual always droops in the direction
+of the prevailing wind.  Rumors that the compass rose can
+actually control wind are hotly denied by the Guild of
+Meteorologists, who harvested the species to the brink of
+extinction in the Rose Riots of 811 GUE. 
+ 
+Morgia Root 
+    It is a rare enchanter who does not carry morgia root to gnaw
+on during a long journey.  The mint-flavored juice improved
+stamina, slakes thirst and conceals bad breath.  In domestic
+applications, morgia root is often baked into pies, and makes an
+excellent platypus stuffing. 
+ 
+Cruel Puppet 
+    Few creatures are more despised than the cruel puppet.  It
+attacks by twisting itself into unflattering caricatures of its
+opponent, accompanied by jeers, rude noises and shocking
+accusations.  Staunch monarchs have been reduced to tears by
+these merciless shapeshifters. 
+ 
+Dust Bunny 
+    Dust bunnies burrow in obscure corners and under
+furniture,and defend their territory by multiplying.  They can
+clog a passageway in seconds, filling the air with dark,
+suffocating particles.  Static electricity and lemon-scented
+sprays are their only natural enemies. 
+ 
+Pheebor 
+    Ruins of this ancient city are still visible at the
+confluence of rivers Phee and Bor.  The reason for its downfall
+(circa 400 BE) is unclear, but minstrels sing of a feud between
+Pheebor and its sister city Borphee over the naming of what is
+now called the Borphee River. 
+ 
+Red Herring 
+    These common fish patrol the dark recesses of freshwater
+pools and streams.  But a handful of granola brings them racing
+to the surface, a fact known by every rural schoolboy.  The old
+adage about red herrings being "good brain food" has no
+scientific basis. 
+ 
+Lucksucker 
+    Lucksucker feed on good fortune.  Part physical entity, part
+mental phenomenon, the sucker's appearance is based on the laws
+of probability, and may change without warning.  Good luck charms
+provide only a temporary shield against attack.  The best
+strategy is to run! 
+ 
+Ur-Grue 
+    Ur-grues are thought to be the shades of fallen Implementors. 
+Skilled in black sorcery, the ur-grue can envelope itself in a
+personal zone of darkness which neither lamp nor flame can
+penetrate.  Sunlight is the only thing it fears.  It is unwise to
+even speak of this utterly evil entity. 
+ 
+The Coconut of Quendor 
+    Though reluctant to dismiss the Coconut outright, most
+historians regard its historical existence as dubious at best. 
+Orkan of Thriff has suggested that if all the "Shards of The One
+True Coconut" and "Vials of The Blessed Milk" were gathered in
+one place, they would form a stack nine bloits high. 

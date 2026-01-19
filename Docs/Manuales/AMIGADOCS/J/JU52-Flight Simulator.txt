@@ -1,0 +1,126 @@
+Here are all keys and their functions in the JU-52 Flight Simulator. Unfortunately there are no
+real docs for the JU-52 Simulation since the game was never officially published. You can find a German
+text about the game on Rainer Bopf's Internet site: http://www.flightmedia.de.
+
+	
+KeyVectors for JU52 (NoF = key has no function)
+;---------
+NoF			;$00 [`]
+ONE			;$01 [1]
+TWO			;$02 [2]
+THREE			;$03 [3]
+FOUR			;$04 [4]
+FIVE			;$05 [5]
+SIX			;$06 [6]
+SEVEN			;$07 [7]
+EIGHT			;$08 [8]
+NINE			;$09 [9]
+ZERO			;$0a [0]
+up_le			;$0b [ß]			= Incr. POWER of Eng.1 (A600)
+up_ce			;$0c [ ]			= Incr. POWER of Eng.2 (A600)
+up_ri			;$0d [\] 			= Incr. POWER of Eng.3 (A600)
+NoF			;$0e dummy
+NoF			;$0f [num.0]
+RESPONSE		;$10 [Q]			= respond and reset a warning
+NoF			;$11 [W]
+NoF			;$12 [E]
+TOGGLE_SOUND		;$13 [R]
+JOYCAL			;$14 [T]			= ANALOGSTICK CALIBRATION
+NoF			;$15 [Y]
+NoF			;$16 [U]
+INPUT_ON		;$17 [I]
+NoF			;$18 [O]
+start_stop_le		;$19 [P]			= (A600)
+start_stop_ce		;$1a [ü]			= (A600)
+start_stop_ri		;$1b [+]			= (A600)
+NoF			;$1c dummy
+down_le			;$1d [num.1]			= Decrease POWER of Eng.1
+down_ce			;$1e [num.2]			= Decrease POWER of Eng.2
+down_ri			;$1f [num.3]			= Decrease POWER of Eng.3  
+NoF			;$20 [A]
+ZOOM_DOWN		;$21 [S]			= ZOOM OUT
+ZOOM_UP			;$22 [D]			= ZOOM IN
+INCR_FAST		;$23 [F]			= Set FAST movement (A600)
+NoF			;$24 [G]
+hold_sim		;$25 [H]
+SELECT_CONTR		;$26 [J]			= Toggle use of JOYSTICK
+NoF			;$27 [K]
+NoF			;$28 [L]
+down_le			;$29 [ö]			= Decr. POWER of Eng.1 (A600)
+down_ce			;$2a [ä]			= Decr. POWER of Eng.2 (A600)
+down_ri			;$2b [#]			= Decr. POWER of Eng.3 (A600) 
+NoF			;$2c dummy
+ 
+start/stop_le		;$2d [num.4]			= LEFT Engine	
+start/stop_ce		;$2e [num.5]			= CENTER Engine		
+start/stop_ri		;$2f [num.6]			= RIGHT Engine
+ 
+		!!! TO START AN ENGINE PRESS KEY UNTIL ENGINE RUNS SMOOTHLY !!!
+ 
+NoF			;$30 [<]			DO NOT USE, since NOT in UK !
+NoF			;$31 [Y]
+IOPillow		;$32 [X]
+IOCeiling		;$33 [C]
+SetVisibility		;$34 [V]			= ColorState 0-7
+PARK_BRAKE		;$35 [B]
+day_nite		;$36 [N]			= Switch DAY/NITE (Training)
+NoF			;$37 [M]
+NoF			;$38 [,]
+NoF			;$39 [.]
+NoF			;$3a [-]
+NoF			;$3b dummy
+NoF			;$3c [num..]
+up_le			;$3d [num.7]			= Increase POWER of Eng.1
+up_ce			;$3e [num.8]			= Increase POWER of Eng.2
+up_ri			;$3f [num.9]			= Increase POWER of Eng.3  
+Brakes			;$40 [SPACE]			= AIR/GROUND-BRAKES
+AUTO_ILS_FINAL		;$41 [BACKSPACE]		= AUTOM. completion of ILS final
+NoF			;$42 [TAB] 
+Down_all		;$43 [num.ENTER]		= Down all engines/see [riALT]
+FULL_ILS_AUTO		;$44 [ENTER]			= FULLY AUTOM. ILS APPROACH
+Stop			;$45 [ESC]
+Reset_AUTO		;$46 [DELETE]			= RESET all AUTOM. functions
+NoF			;$47 dummy
+NoF			;$48 dummy
+NoF			;$49 dummy
+Flaps_Down		;$4a [num.-]			= Alternate to F2
+NoF			;$4b dummy
+Trim_Down		;$4c [UP]
+Trim_Up			;$4d [DOWN]
+AddHead			;$4e [RIGHT] 			= Increase desired HEADING
+SubHead			;$4f [LEFYT]			= Decrease desired HEADING
+Flaps_Up		;$50 [F1]			= FLAPS UP 
+Flaps_Down		;$51 [F2]			= FLAPS DOWN
+FR1			;$52 [F3]			= FreqRange 500-1700 KHz (ADF)
+FR2			;$53 [F4]			= FreqRange  30-30.3 Mhz 
+FR3			;$54 [F5]			= FreqRange  108-118 Mhz (VOR/ILS)
+view_le			;$55 [F6]			= Look left
+view_fw			;$56 [F7]			= Look ahead
+view_ri			;$57 [F8]			= Look right
+NoF			;$58 [F9]
+NoF			;$59 [F10]
+RESET_FAST		;$5a (num.[)
+SET_FAST2x		;$5b (num.])
+SET_FAST4x		;$5c (num./)
+Flaps_Up		;$5d (num.*)			= Alternate to F1
+Up_all			;$5e [num.+]
+Set_Auto_DIR 		;$5f [HELP]			= Set AUTO-COURSE on
+Toggle_SCENE		;$60 [left SHIFT]		= Display TOWNS/RIVERS/SEAS
+Up_all			;$61 [right SHIFT]		= UP all engines
+NoF			;$62 [CAPS]
+Toggle_RWY		;$63 [CTRL]			= Change RWY complexity
+OBS_Minus		;$64 [left ALT]			= Decrement NAV OBS
+Down_all		;$65 [ri ALT]			= Down all engines
+OBS_Plus		;$66 [Left AMIGA]		= Increment NAV OBS
+HOLD_SPEED		;$67 [Ri AMIGA]
+
+------------------------------------------------------------------------
+
+Example of a Frequency Input:
+
+[F5]				selects the VHF-range for VOR/ADF
+[I]				Initializes number input
+[1][1][0][9][0]			Inserts Frequency, here EDDK ILS RWY 14L
+[ENTER]				Closes number input
+
+-------------------------------------------------------------------------

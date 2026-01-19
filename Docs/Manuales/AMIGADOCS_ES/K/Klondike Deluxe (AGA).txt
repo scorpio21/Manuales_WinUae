@@ -1,0 +1,395 @@
+KLONDIKE DE LUJO V1.0 
+                       =====================
+
+                                                RE-ESCRIBIDO POR SHARD - DTL
+
+1.INTRODUCCIÓN.
+---------------
+
+Antes de comenzar, comprenda que el inglés no es nuestro idioma nativo.
+y el poco tiempo disponible para mecanografiar este documento hizo necesario el uso de un
+Diccionario de inglés imposible.   Así que, por favor, perdónanos por las probables grandes
+cantidad de errores.
+
+En enero de este año decidimos probar algo más en la amiga como
+las cosas habituales.  Lo has adivinado, queríamos hacer un juego para Amiga.
+Después de una larga y difícil discusión sobre qué tipo de juego deberíamos
+hacer, decidimos que el juego iba a ser un juego de klondike para el
+Amiga con fotografías digitalizadas.
+
+2.JUEGO.
+-----------
+
+Para aquellos de ustedes que no saben jugar klondike, que no cunda el pánico, les
+explique esto en las siguientes secciones.
+
+En la configuración inicial de klondike hay siete filas en la parte superior del
+pantalla.  En la primera fila hay una carta, en la segunda dos y así sucesivamente hasta que
+en la última fila hay siete.  Sólo se puede ver la parte frontal del
+primeras cartas de una fila.
+ 
+En el stock que está en la esquina inferior izquierda de la pantalla, están el resto.
+de las cartas.  Ahora puedes poner una tarjeta de un color, sobre el otro color, pero
+estas tarjetas deben seguirse entre sí.  p.ej.  Puedes poner un tres rojo, en un
+negro cuatro.  Los tipos de cartas no son muy importantes en este punto.  tu puedes
+obtenga tarjetas para hacer esto de otra fila o del stock en la parte inferior izquierda de la
+pantalla.
+
+Si no puedes cambiar algo en la parte superior de la pantalla.  Debes hacer clic
+en la cartulina para rotar las cartas en la cartulina y obtendrás una nueva carta en la parte superior
+de la acción.   Dependiendo del nivel el stock gira con uno o tres
+tarjetas.
+
+En los cuatro lugares de as en la parte inferior derecha de la pantalla puedes poner el
+ases, seguidos de un dos, un tres y así sucesivamente.  Este debe ser el mismo tipo de
+tarjeta.  p.ej.  espadas.
+
+Si tienes un rey, puedes ponerlo en un lugar vacío en la pantalla superior.
+¡¡¡Solo puedes hacer esto con un rey!!!!!
+
+Si jugaste bien, todas las cartas del mismo tipo se encuentran una encima de la otra desde
+as al rey.  Si todo salió bien, sólo se llenan los cuatro lugares del as.
+con todas las cartas y el resto de la pantalla está vacía.
+
+3.INSTALADOR.
+------------
+
+Con el instalador podrás poner este juego en tu disco duro.
+
+El instalador crea automáticamente un directorio llamado Reko-Productions.
+
+Simplemente haga clic en el ícono y el instalador oficial de Commodore hará su trabajo.
+
+4.PREFARCHIVO.
+------------
+
+En este archivo puedes poner la configuración inicial del juego.
+
+Puede hacerlo editando un pequeño archivo de texto llamado REKO.PREFS.
+
+En este archivo se encuentran las siguientes líneas:
+
+#W=1 Banco de trabajo: 0=Apagado 1=Encendido
+#M=1 Música: 0=Desactivado 1=Activado
+#L=C Nivel: A=Fácil B=Normal C=Difícil
+#C=0 Conjunto de tarjetas: 0 a 9 al inicio
+#0=tarjetas/Predeterminado.REKO
+#1=tarjetas/Predeterminado.REKO
+#2=tarjetas/Predeterminado.REKO
+#3=tarjetas/Defualt.REKO
+#4=tarjetas/Predeterminado.REKO
+#5=tarjetas/Predeterminado.REKO
+#6=tarjetas/Predeterminado.REKO
+#7=tarjetas/Predeterminado.REKO
+#8=tarjetas/Predeterminado.REKO
+#9=tarjetas/Predeterminado.REKO
+#.
+
+Puede editar este archivo de preferencias con una sencilla herramienta de edición. p.ej. ed.
+
+Si quieres cambiar algo, simplemente toma la letra correcta.  p.ej.  si tu
+Si quieres doublepal, simplemente escribe en la primera línea: #R=D
+
+Esto también se aplica a las otras líneas.  En las líneas: #1= / #9=, puedes
+Elige qué juegos de cartas puedes elegir en el juego.
+
+5.TECLAS.
+----------
+
+Durante el juego puedes cambiar algunas cosas:
+
+Presione <a> para el nivel a.
+Presione <b> para el nivel b.
+Presione <c> para el nivel c.
+
+Presione <w> para cerrar/abrir el banco de trabajo.
+
+Presione <m> para activar o desactivar la música.
+
+Presione <0> a <9> para diferentes conjuntos de tarjetas.
+
+Presione <r> para reiniciar un juego de cartas.
+
+Presione <Esc> para detener la reproducción.
+
+6. GENERALIDADES.
+----------
+
+Nivel A: la baraja gira 1 carta a la vez.  Y puedes mover parte de un
+fila.
+
+Nivel B: la baraja gira 3 cartas a la vez.  Y puedes mover parte de un
+fila.
+
+Nivel C: la baraja gira 3 cartas a la vez.  Y no puedes mover parte de un
+fila.
+Para mover cartas primero debes seleccionar una carta haciendo clic a la izquierda
+botón del mouse y luego debes hacer clic en la tarjeta de destino con el botón izquierdo
+botón del ratón.
+
+Algunas pequeñas cosas:
+
+- Puedes mover cartas automáticamente a los lugares del as haciendo doble clic 
+  en el botón izquierdo del ratón.
+
+- Puedes deseleccionar una tarjeta con el botón derecho del ratón.
+
+- Si realiza un movimiento de tarjeta incorrecto, la tarjeta de origen será deseleccionada.
+
+- Sólo obtienes el bono si lo juegas en el nivel C.
+
+- Opciones incorrectas 'Screenflash'.
+
+- Es posible elegir un nivel inferior mientras juegas. Si eliges un 
+  En un nivel superior, el juego se reinicia.
+
+
+7. ¿CÓMO HACER UN PROPIO JUEGO DE TARJETAS Y POR QUÉ?
+--------------------------------------
+
+Bien, lo último es lo primero:
+
+                       ¿Por qué?
+                       ====
+
+Debido al esfuerzo que hicimos para traerte este juego, esperamos que seas recompensado.
+Esto haciendo un juego de tarjetas para nosotros.
+
+Enviarnos un juego de tarjetas no sólo nos dice que te gusta nuestro juego (por lo que seguimos
+mejorándolo), pero también nos brinda otros juegos de cartas para jugar.
+
+Por eso también organizamos ........
+
+             EL CONCURSO 
+             -----------
+
+Si recibimos cinco o más juegos de tarjetas al mes, pretendemos elegir los tres
+los mejores, que serán recompensados.  Si recibimos menos juegos de tarjetas, esperamos
+hasta que recibamos al menos cinco (5 discos).
+
+El ganador del primer premio se lleva el segundo y tercer mejor juego (2 discos).
+
+El ganador del segundo premio se lleva el primer y tercer mejor juego (2 discos).
+
+El ganador del tercer premio obtiene el primer mejor conjunto (1 disco).
+
+Los dos discos extra utilizados serán de los dos peores conjuntos del mes.
+Esto hace el número mínimo de discos mencionado antes por lo que no nos costará
+cualquier disco extra.
+
+De esta forma nos costará sólo el premio de los sellos devolver el
+discos.
+
+En caso de que recibamos más de cinco discos al mes, conservaremos estos discos como
+tipo de pago por el trabajo que hicimos.  Sin embargo, estos discos se volverán a introducir
+en los concursos de los próximos meses, por lo que un gran mes de juegos de cartas no
+desperdicie su oportunidad de ganar un premio.
+
+
+También cambiamos la primera carta de los conjuntos ganadores, por ejemplo. 
+
+                        /----------------\
+                        |                |
+                        | Sra. CardMaker |
+                        |                |
+                        |   1er premio |
+                        |                |
+                        |    julio 93 |
+                        |                |
+                        |                |
+                        |                |
+                        |Felicitaciones |
+                        |                |
+                        |      de |
+                        |                |
+                        |REKO-Producciones|
+                        |                |
+                        \----------------/
+
+Esta tarjeta también se enviará a los ganadores para que la incluyan en su propio set.  (Es
+Sería estúpido devolver tu propio juego de tarjetas, ¿no?)
+
+Si es posible, estos juegos de tarjetas también se distribuirán por todo el mundo (en PD).
+
+RECUERDA: sólo los ganadores recuperan sus discos.  Así que no nos envíes sobres
+con sellos para devolver su(s) disco(s), porque no lo haremos.  De todos modos, el
+Los sellos probablemente le costarán más que los discos.  También cualquier sobre
+sin suficientes sellos o sellos que sean manipulados no serán
+aceptado!!!
+
+Bien, espero que disfrutes creando juegos de cartas para nuestro juego y que sigas viniendo.
+
+Ah, sí, no olvides mencionar tu nombre y dirección en un archivo de texto en el
+disco.   De esta manera siempre sabemos qué juego de tarjetas pertenece a quién.  De lo contrario
+Nunca recibirás ninguna respuesta nuestra.
+
+Y ahora lo primero es lo último: 
+
+                     CÓMO hacer un juego de tarjetas REKO.
+                     ============================
+
+Para empezar hay una serie de valores importantes:
+
+Tipo de pantalla. . . . . . : contrataciones (16 colores). 
+Altura de la tarjeta. . . . . . : 130 píxeles. 
+Ancho de tarjeta. . . . . . : 88 píxeles.
+Número de tarjetas. . . : 55 (TARJETA00 - TARJETA54)
+El orden de las tarjetas: CARD00 = Tarjeta REKO-Production 
+                         (Utilice el que le proporcionamos o haga uno
+                          que también menciona REKO-Productions)
+                         CARD01 = Sólo un borde para mostrar un lugar vacío en
+                                  la mesa
+                         CARD02 = El reverso de tu baraja de cartas
+                         CARD03 = As de Tréboles
+                         CARD04 = As de Diamantes
+                         CARD05 = As de Corazones
+                         CARD06 = As de espadas
+                         CARD07 = Dos de Tréboles
+                           .            .
+                           .            .
+                           .            .
+
+                         CARD53 = Rey de Corazones
+                         CARD54 = Rey de espadas
+
+Recuerda, todas las cartas de un conjunto deben usar la misma paleta de colores.
+
+¡Los valores mencionados anteriormente son absolutamente necesarios!
+
+Algunas imágenes útiles se encuentran en el subdirectorio MAKE-CARDS:
+
+- REKO-Cutter1
+- REKO-Cutter2
+
+*--------------------- Fondo azul
+
+- AZUL/CARD00 (REKO-Productions)
+- AZUL/CARD01 (Posición vacía)
+- AZUL/MARCO (Borde)
+- AZUL/SÍMBOLOS (Todos los símbolos de las tarjetas)
+
+Bien, comencemos:
+
+- Consigue 53 imágenes diferentes.
+
+- Cambia su tamaño para poder recortar una tarjeta de 88 x 130 de tamaño.  (Puedes usar
+  los cortadores en MAKE-CARDS, para conseguir el tamaño correcto y quitar la esquina
+  píxeles.     Cargue su imagen en un programa de pintura.
+  (DPAINT/VISIONAPAINT/TRUEPAINT????) y utilice el cortador como pincel. Luego presione
+  el botón de color de fondo de pintura.)
+
+- Utilice un programa (TAD/ADPRO/IMAGE-FX/IMAGEMASTER-PRO????) en el que pueda
+  bloquee su paleta para que todas sus paletas sean iguales.  (Carga tu primera
+  imagen (por ejemplo, CARD00), bloquear la paleta, cargar la siguiente, renderizar nuevos colores,
+  guarda la segunda imagen, carga la siguiente y así sucesivamente...)
+
+- No olvides ajustar la paleta de un archivo SYMBOLS y CARD01 si
+  No intente utilizar una de nuestras tarjetas CARD00.
+
+- Si quieres un borde alrededor de tus tarjetas, puedes usar un MARCO de
+  HACER TARJETAS.
+
+- Ahora pon los SÍMBOLOS en tus tarjetas.  (No los coloques demasiado bajos, porque
+  entonces no podrás leerlas cuando tus tarjetas se superpongan).
+
+- En este punto deberías tener 55 imágenes, con paletas coincidentes y todo
+  88 x 130 píxeles de tamaño.
+
+- Cambie el nombre de estas imágenes para que sus nombres sean xxxxxx00 a xxxxxx54, donde
+  xxxxxx es lo que quieras pero es igual para los 55.
+
+- Abre una concha.
+
+- Haz que el subdirectorio que contiene tus tarjetas sea el actual.
+
+- En este punto tienes que usar el comando REKO, así que asegúrate de que esté en
+  su ruta de búsqueda.  (HD-install lo ha colocado en su directorio C:).
+
+- Escriba en la línea de comando: REKO xxxxxx00 55 Ahora se está creando un juego de tarjetas
+  en su disco RAM con el nombre card.reko.  si todo salio bien
+  debe tener 314670 bytes de longitud.
+
+- Todo lo que tienes que hacer ahora es cambiarle el nombre al que quieras (sin incrustaciones
+  espacios), colóquelo en el subdirectorio CARDS y cambie sus REKO-Prefs
+  en consecuencia.
+
+Bueno, eso es todo amigos, Happy Cardmaking. 
+
+                                                        REKO-Producciones
+
+
+8.TARJETA DE REFERENCIA RÁPIDA.
+-----------------------
+
+
+                  +----------------------------------------------+
+                  |                                      |
+                  |       Tarjeta de referencia rápida |
+                  |                                      |
+                  |  REKO-Productions Klondike-Deluxe-16 |
+                  |                                      |
+                  | Clave: Acción: |
+                  |                                      |
+                  | Esc Salir del juego (sin confirmación) |
+                  |                                      |
+                  |  R Reiniciar juego |
+                  |                                      |
+|  M Activar/desactivar música |
+                  |                                      |
+                  |  W Abrir/Cerrar Banco de Trabajo |
+                  |                                      |
+                  |  Un juego muy fácil |
+                  |         - La acción gira 1 carta |
+                  |         - Mover filas parciales |
+                  |  B Juego fácil |
+                  |         - Stock rota 3 cartas |
+                  |         - Mover filas parciales |
+                  |  C Juego normal |
+                  |         - Stock rota 3 cartas |
+                  |         - Mover sólo filas enteras |
+                  |         - Da bonificación cuando esté listo |
+                  |                                      |
+                  |  1 Seleccione Juego de tarjetas 1 |
+                  |  2 Seleccione Juego de tarjetas 2 |
+                  |  .        .       .     .            |
+                  |  .        .       .     .            |
+                  |  0 Seleccionar juego de tarjetas 10 |
+                  |                                      |
+                  |  La versión de lanzamiento contiene solo una |
+                  |  juego de tarjetas.                            |
+                  |  Obtenga más conjuntos a través de PD-Chanels |
+                  |  o haciéndolos usted mismo.         |
+                  |                                      |
+                  +----------------------------------------------+
+
+9.INFORMACIÓN Y CRÉDITOS.
+-----------------
+
+Personas que trabajaron en este juego:
+
+Programación. . . : Remy Nusteling y Koos Roodbol
+Bonita música. . . : Roy Glerum
+Escaneo. . . . : Koos Roodbol
+Imagen de introducción/fin: Ronald Roterman
+Pruebas Beta. . : Randy Consemulder
+Pixelado adicional. : Koos Roodbol y Remy Nusteling
+
+Muchas gracias por prestarnos el hardware. Vaya a:
+
+computadoras ocs,
+van Goghstraat 1-3,
+3331 VM Zwijndrecht,
+Teléfono: 078-197070.
+
+Gracias a Teijo Kinnunen por utilizar su biblioteca médica.
+
+
+Para contactar con REKO PRODUCCIONES escriba a : 
+
+PRODUCCIONES REKO,
+Leerambachtstr. 10,
+3312 LJ Dordrecht,
+Países Bajos.
+
+
+----------------------------------FIN--------------------------------------

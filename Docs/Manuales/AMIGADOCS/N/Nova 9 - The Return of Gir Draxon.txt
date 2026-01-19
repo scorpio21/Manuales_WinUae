@@ -1,0 +1,849 @@
+                      THE RETURN OF GIR DRAXON
+
+                               NOVA 9
+
+                       AMIGA: QUICK REFERENCE
+
+NEW FEATURES are listed on this card along with Amiga installation,
+loading and game controls.
+
+This card REPLACES the Amiga information included in the manual.
+
+General
+
+Display Preferences Menu.......F10 
+Center Analog Joystick.........PERIOD
+Abort Mission/Restart Game.....ESC
+Pause Game on/off..............P
+Quit...........................CTRL-ESC
+Go directly from home base
+bridge to cockpit..............ALT-G
+
+Game Controls
+
+Movement Controls
+
+To steer or move the viewpoint of Raven II, use the arrow keys or
+joystick.
+
+Viewpoint
+
+Cockpit View...................F1 
+Outside Elevated-Rear View.....F2
+Outside Top View...............F3
+Outside Distant-Left View......F4
+Outside Rear View..............F5
+Outside Front View.............F6 
+Outside Right View.............F7 
+Outside Left View..............F8 
+Enemy View.....................F9 
+Floating Camera View on/off....F 
+Note: To zoom the camera view in or out, press the SPACEBAR, Joystick
+Button 1, or Mouse Button 1 while moving the arrow keys or joystick.
+
+Save current outside view......CTRL-F1 through CTRL-F10 
+Restore corresponding 
+saved view.....................ALT-F1 through ALT-F10 
+ 
+Power Keys
+
+Keyboard Power Keys may be used to select and activate a power from the 
+Power Module in one step.  To discard a power, press the SHIFT key
+with the corresponding Power Key.
+                                        Q  W  E
+                                         A     D
+                                          Z  X  C
+
+Weapons
+
+!           @          #            $
+1           2          3            4
+Select      Select     Select       Select
+Cannon      Mines      Lasers       Rockets
+
+Fire Selected Weapon...........SPACEBAR or Joystick Button 1 or
+                               Mouse Button 1
+
+Guiding Rockets: Hold down the SPACEBAR and guide the rockets with the
+arrow keys.  With the joystick, hold down Button 1 (Fire Button) and
+guide by moving the joystick.  With the mouse, hold down Button 1 (Left
+Button) and guide by moving the mouse.
+
+Passwords
+
+You receive a four-character password everytime you die in the game.
+It appears in the title bar of the high score screen.  This password 
+will let you start the game at the world you just died on.  To use the
+password: Choose to play the introduction.  When the Nova 9 title screen
+appears, press P, and then type in the password for the world you wish
+to return to.
+
+Installation
+
+The following are instructions for installing Nova 9 onto a hard disk
+and booting the system.  Both can be done from either the Workbench or
+the CLI.  In the instructions we assume that you are using floppy drive
+DF0: and hard drive DH0:.  If your drives go by different names, replace
+the drive label in the example with the correct one.  For example, if you
+have an Amiga 3000, you will probably need to replace DH0: with WORK:.
+
+Copying Nova 9 to a Hard Disk
+
+1. Boot your system.
+2. Insert Nova 9 disk #1 into the first internal floppy disk drive.
+3. From Workbench, double click on the Nova1 icon and then on the Install
+   icon.
+4. From the CLI, type CD NOVA1: and press the return key.  Then type
+   INSTALL and press the return key.  The Dynamix Install Utility 
+   window will appear.
+5. Choose which drive and directory you wish to install the program to.
+   (The installer will automatically detect all hard disk partitions
+   with enough room to install Nova 9.  If you have several partitions
+   with room, click on the Drive gadget to select between them.)  To
+   change the path, click on the Destination string gadget box and type
+   in the new path.  The default directory is: DH0:NOVA9.
+6. Click on the INSTALL button.
+7. At the prompt, click on CONTINUE to install the program files.  To
+   cancel the installation process, click on ABORT.
+
+Loading Instructions
+
+From Floppy Disks
+
+Note: You may run the Nova 9 program from multiple floppy drives.
+
+Self-Booting
+
+1. Insert Nova 9 Disk #1 into drive DF0:.
+2. Turn on the system.
+
+From a Hard Disk
+
+From Workbench
+
+1. Load Workbench.
+2. Double click on the hard disk icon.
+3. Double click on the Nova9 drawer.
+4. Double click on the Nova9 icon.
+   
+From the CLI
+
+1. Open a CLI window.
+2. Type CD DH0:NOVA9, then press the return key.
+3. Type NOVA, then press the return key.
+
+Notes
+
+1. Nova 9 does not multitask with other programs.  For best performance,
+make sure no other programs are running when you start Nova 9.
+
+2. Although your system may have one megabyte of memory, you still may
+not have enough available memory to run Nova 9.  Selfbooting the program
+from disk should provide you with enough free memory to run the program.
+Note; Memory allocated for hard disk partitions or resident programs
+will reduce the amount available for running programs.
+
+End.............
+===================================================================================
+                                   N O V A  9
+
+
+
+Welcome to Amiga Nova 9. We at Dynamix have strived to take advantage
+of the Amiga during production of Amiga Nova 9. We have also tried to
+improve upon the game where possible. Here is a list of special
+features of Amiga Nova 9. Please take the time to read this file
+before playing Nova 9.
+
+
+----------------------------------------------------------------
+° The Amiga Control section in the manual is almost entirely wrong.
+See the control card found in the game box for correct control
+information.
+
+° Additional views. The F2 through F4 keys bring up new standard views
+that our users and testers have found convenient for different
+segments of Nova 9. Give them a try. You can get back to the standard
+"through the window" view by pressing F1.
+
+° Full-screen rocket view. Once Sparky has supplied you with the rocket
+upgrade, you can switch to firing rockets by pressing the 4 key. You can
+steer the rocket as long as you hold down the space bar or the joystick
+button. If you want a rocket view, hold down the shift key while firing.
+If you want to always switch to a rocket view when firing rockets, turn
+on Caps Lock.
+
+° Modified steering control. When you're moving backwards, The left/right
+actions of Amiga version of Nova 9 are opposite of the control method
+described in the manual. Most players prefer this configuration.
+
+° EHB suggested. Amiga Nova 9 uses many different video modes,
+including EHB, HAM, and dual playfield. Nova 9 also uses sprites,
+custom copper lists, and other Amiga-specific effects. Although the
+game can be played with an Amiga 1000 with an older Denise chip, we
+recommend an EHB-compatible Amiga.
+
+° PAL mode support. If your Amiga uses the European PAL mode video
+system, automatic analog joystick sensing will not work. To use an
+analog joystick on a PAL system, press the period (.) key. Do not
+press this key if you do not have an analog joystick.
+
+° Optimized disk layout. If you play Nova 9 from floppy disk, we
+suggest that you turn off story panels from the preferences menu (just
+press F10 during the game to get the menu). When you're asked if you
+want to play the game or play the introduction, choose Play Game and
+you'll never have to swap disks.
+
+° Amiga Nova 9 has a password feature that lets you start play on any
+level. When you make it past the first level, you'll be given a
+password on the high-score screen at the end of the game. To return to
+that level, press P during the title screen (the one with the music).
+A window will pop up onto the screen. Type the password and press
+Return.
+
+° Hard Drive Installation. To install Nova 9 on your hard drive,
+insert disk 1 (Nova1) and double-click on the Install icon.
+
+° Running Nova 9. To start Nova 9 from floppy, boot up your Amiga with
+disk 1 (Nova1) in your boot drive. From hard drive, click on the Nova9
+icon or type NOVA from the CLI or Shell.
+
+° Expanded preferences menu. Press F10 during the game to select
+preferences. You can choose between wireframe (for speed) or solid
+polygons (for realism). You can also change the difficulty level
+during the game. However, changes in difficulty level only take effect
+after you warp to a new world.
+
+-----------------------------------------------------------------------------
+                               NOVA 9
+
+                            MISSION FILES
+                          Captain John Alex
+
+                Personal Log Subsection 8292-2:8392-2
+                   NOVA 9 Mission Classified Files
+
+PERSONAL LOG
+
+Captain John Alex
+
+Raindel Base Archive
+
+Personal Log: Data Request #329
+Captain John Alex
+
+Personal Log Entry: 8292-2
+
+It has been two years since the devastation of Stellar 7.  Two years
+since the disappearance of Draxon.
+
+I thought the isolation of space would help me to forget, but it seems
+some things never go away.  The pain of Sarah's death still haunts me
+and I sometimes see her face when I climb alone into bed.  While the
+Engram computer made in her image keeps the memory alive, it also fans
+the emptiness in that dark place of my heart.  So many died during the
+nightmare of Stellar 7.  I miss my wife.
+
+As of this writing, reports have just begun to come in from the 
+unexplored system of Nova 9.  They are reports that manage to chill
+my numb senses.  They tell of a man/creature that has spread like a
+disease across the nine planets of the system.  In a matter of days,
+the first three planets have been raped and laid barren in a fashion
+that defies imagination.  I pray the reports are wrong.
+
+END
+
+Personal Log Entry: 8392-2
+
+Final testing on the newly completed Raven II has begun.  Utilizing
+some of the larger asteroids of the Raindel Belt, I have just completed
+initial testing of the craft's new shield and modular expansion units.
+Due to the limited resources of the Raindel bodies, further testing of
+the expansion units will need to be conducted off-base where the craft's
+ability to convert raw energy can be thoroughly documented.  The Engram
+computer has done a remarkable job of enhancing the technical 
+specifications of the Raven's original expansion system.  Much testing
+will be needed to fully determine the new design's capabilities, but I
+feel confident that it will exceed all previous expectations...
+
+Sarah always did have a flair for binary conversion.  I wish she were
+here to see the results of her work.
+
+END
+
+Personal Log Entry: 8492-2
+
+The secondary report from Command has just come in.  I am to proceed
+with the dispatched cargo ship to the first planet of the Nova 9
+system.
+
+Final testing of the Raven II has just been completed.
+
+Reports from deep space probes are minimal.  it doesn't matter.  I 
+know what is waiting.  I know all too well.
+
+God help up...
+
+END
+
+To: Captain John Alex
+From: Terran Command
+Transcript of Nova 9 distress call
+
+NOVA 9:
+
+Terran Command, this is Nova 9.  We are under attack!  The Arcturans
+came out of nowhere... ...no warning!... ...can't hold out much longer!
+They appear to be able to control.
+
+END
+
+NOVA 9:
+
+Terran Command, this is Nova 9.  Cancel alert.  Everything is fine.
+Repeat: Situation normal.  Nova 9 out.
+
+END
+
+ENEMY BRIEFING
+
+Personnel & Ships
+
+ENEMY PERSONNEL
+
+FILE REACTIVATED 
+     
+          CLOSED
+
+Gir Draxon
+
+Gir Draxon, Arcturan Empire Supreme Overlord, commanded enemy forces
+in the bloody war of Stellar 7.  Known for his insatiable thirst for
+power, Draxon would not have settled for anything less than total
+control of the galaxy.
+
+Even though the war of Stellar 7 was very costly, it was imperative to
+stop Draxon from completing his plans for absolute domination.
+
+Gir Draxon demanded complete loyalty from his troops.  He ruled with an
+iron fist and never tolerated failure.  To fail was to die.  He instilled
+so much fear in his armies that they followed his orders mechanically
+and without hesitation.
+
+Anything or anyone in Draxon's way was systematically destroyed.  Any
+resistance to his plans enraged him.  If someone dared stand up to
+Draxon and his forces, he would become obsessed with destroying them
+and everything they held dear.
+
+Life held no value and Draxon was known to kill just for the pleasure
+of it.  The worlds and civilizations that Draxon conquered were plundered
+of their resources and left wastelands.
+
+At this point in time, Gir Draxon has still not been brought to justice.
+Neither wreckage of Draxon's ship nor Draxon's remains were ever found.
+It is now assumed that both he and his ship were destroyed.
+
+ENEMY SHIPS
+ 
+From: Terran Command
+To: Captain John Alex
+
+These pictures, transmitted with the distress call from Nova 9, are all
+that we know of the invading forces.  The message was terminated before
+any additional information or photos could be transmitted.
+
+Darter
+Armament: Lasers
+Notes: Good night vision.  Able to alternate between ground and air.
+
+Montrose
+
+Armament: Cannon
+Notes: Hovertank with very heavy armor.
+
+Phoenix
+
+Armament: Lasers
+Notes: Lightly armored tank, very quick & maneuverable.
+
+O.J. 1000
+
+Armament: none
+Notes: Attacks by ramming and drilling.
+
+Ptera
+
+Armament: Dual Lasers
+Notes: Airborne.  Tends to weave back and forth.
+
+Wobbly
+
+Armament: Lasers
+Notes: Limited field of vision.
+
+NOVA 9 SYSTEM
+
+From: Terran Command
+To: Captain John Alex
+
+Please note that due to the unfortunate backlog in the Department of
+Planet Research & Exploration, the Nova 9 system has not yet been
+explored.  Only preliminary data is available.
+
+In response to the current crisis, all level-1 personnel have been
+reassigned to the Nova 9 project.  We hope to transmit any new data
+as it becomes available.
+
+General Data
+
+Note: All data, except current position and class, is speculative and
+has not been verified.  The Nova 9 System has nine recorded and 
+classified planets.  Most orbits are grouped fairly close to the Nova
+9 sun.
+
+Hydros
+
+Position: -43.37, 2.0311AU
+Class: 5
+Satellites: none
+Composition: iron, silicates, carbon compounds
+Atmosphere: hydrogen, nitrogen, argon, oxygen, water vapor
+Surface features: unknown
+Life forms: unknown
+Research notes: Swirling cloud layers over most of planet and moderate
+surface temperatures increase probability of life.
+
+Typhieus
+
+Position: 62.-13, 3.9725AU
+Class: 3
+Satellites: expansive metallic and carbonaceous dust ring
+Composition: carbonaceous silicates probable 
+Atmosphere: nitrogen-oxygen, carbon dioxide, water vapor
+Surface features: unknown
+
+Kryon
+
+Position: 86.67, 26.9588AU
+Class: 3
+Satellites: carbonaceous dust and meteoroid cloud, one moon observed
+Composition: hydrogen, helium, ice
+Atmosphere: hydrogen-methane
+Surface features: unknown
+Life forms: unknown
+Research notes: The planet itself appears very bright.  This may be
+indicative of reflective substances in the atmosphere and surface;
+possibly ice particles.
+
+Pestula
+
+Position: -68.23, 1.5679AU
+Class: 28
+Satellites: 4 moons -2 transit, 1 just off upper right horizon, 1 in
+occultation
+Composition: nickel-iron, silicates
+Atmosphere: nitrogen-oxygen, carbon dioxide
+Surface features: dark, mottled color
+Life forms: unknown
+Research notes: Changes in surface color may indicate an abundance
+of plant life or micro-organisms.
+
+Searon
+
+Position: 37.-39, .6892AU
+Class: 14
+Satellites: 2 "moons" actually share Searon's orbital path around the
+sun.  It is possible that Searon may be very gradually overtaking the
+leading "moon".
+Composition: silicates, sulfur
+Atmosphere: unknown
+Surface features: unknown
+Life forms: unknown
+Research notes: Probably the youngest planet in the system.  High
+surface temperatures are likely because of its close proximity tot
+the sun.
+
+Malevolon
+
+Position: -39,-71, 1.9293AU
+Class: 8
+Satellites: Veil-like gaseous cloud envelops planet and several moons
+(20+).
+Composition: unknown
+Atmosphere: unknown
+Surface features: unknown
+Life forms: unknown
+Research notes: Increased fluctuation in energy readings recently
+observed.
+
+Matricon
+
+Position: 54.83, 2.4975AU
+Class: 9
+Satellites: 2 moons
+Composition: nickel-iron, silicates
+Atmosphere: hydrogen-oxygen
+Surface features: unusual vein-like markings
+Life forms: unknown
+Research notes: There has been debate over whether or not all of the
+striations observed on the surface are natural formations.  Sporadic
+energy emissions have been detected.
+
+Teflar
+
+Position: -23.-45, 7.5743AU
+Class: 7
+Satellites: ring of particles ranging from meteoroids to small asteroids
+Composition: ice, hydrogen
+Atmosphere: hydrogen-methane
+Surface features: unknown
+Life forms: unknown
+Research notes: Intermittent shifts and variations in the magnetic
+field detected.
+
+Sauria
+
+Position: 45.78, .9251AU
+Class: 33
+Satellites: 4 small moons
+Composition: nickel-iron, silicates
+Atmosphere: nitrogen-oxygen, water vapor
+Surface features: seas & continents, clouds
+Life forms: unknown
+Research notes: The surface features are reminiscent of pre-historic
+Terra.
+
+RAVEN II
+
+Ship Specifications, Controls & Computer
+
+COCKPIT CONTROLS
+
+Power Module Bank
+
+The Power Module Bank is designed to accommodate eight power modules.
+Vacant slots appear blue.  Nonfunctional slots appear black.  Note:
+The Raven II is able to pick-up and install power modules in the field
+as well as intact power modules left behind from destroyed ships.
+
+Current Weapon Display
+
+The weapon display shows the currently selected weapon.  A number 
+appearing after the weapon name indicates the amount of ammunition
+left.  No number after the weapon name indicates unlimited firing
+capability.
+
+Shield Status Display
+
+A team of four independent Protonic Shields provide protection fore,
+aft, starboard and port.  The shields not only provide protection
+against shells, lasers, and high-speed impact, but are also capable
+of absorbing a variety of energy forms including heat, radiation and
+kinetic energy.  The advantage of the four shield system is that if
+one shield is damaged, it will not affect the other three.  Although
+the shields are designed to withstand almost anything, each hit or
+impact will diminish the energy level of the shield.  Loss of energy
+will result in shield failure.
+
+Raven II Systems Status Indicators
+
+1. ENG - Engine Status
+2. LIFE - Life Support Status
+3. SHLD - Shield Status
+4. Damage Alert Bar
+
+The first three indicators show the status for specific systems.
+A purple light denotes optimum system functioning.  A yellow light
+denotes an impaired or damaged system.  A red light denotes system
+failure.  Overall damage to the ship itself graphically represented
+by the fourth indicator, the Damage Alert Bar.
+
+Aiming Reticle
+
+The Aiming Reticle aids in focusing the weapon on target.  The reticle
+display changes when a possible target is in the field of fire.
+
+Radar
+
+The radar module has expanded detection capability.  The Raven II is
+the radar center point.  The top of the radar display corresponds
+to the direction the Raven II is facing.  For instance, blips at the
+top of the display are objects behind the Raven II.  Different types
+of objects (enemy ships, incoming shells & obstacles) appear as
+different colored blips.  Erratic blip movement or a blank display
+may indicate damage to the radar unit.
+
+Planet Identification Screen
+
+The name of the current planet is displayed on the Planet Identification
+Screen.
+
+Weapon Ready Indicator
+
+A yellow light signals that the currently selected weapon is loaded and
+ready to fire.  A purple light indicates the weapon is not ready.
+
+Score 
+
+This unit tracks, compiles and displays the combat success index.
+
+COMPUTER SYSTEM
+
+S.A.R.A.H.
+
+Synergetic Advanced Resource - Aesthetic Hybrid
+
+The new Engram super computer, with its Engram-Neuralnet logic board,
+provides the computing power to keep all the base and Raven II
+systems running smoothly.  The operating system for the Engram computer,
+developed by innovative programmer, Sarah Alex, before her death,
+simulates human thought patterns more closely than any previously
+designed system.  The human-like interface, was one of the features
+programmed by her husband, Captain John Alex.
+
+New information transmitted from Terran Command and field data
+collected by the Raven II are added to S.A.R.A.H.'s extensive
+library files.  S.A.R.A.H. is continually processing new data as
+well as searching the library files for related material, and will
+provide new information as it becomes available.
+
+Auxiliary Components
+
+Model SP122-KE
+Robotic Unit "Sparky"
+
+The maintenance and repair droid equipped with basic Al language
+and interface modules, Sparky, is programmed to make repairs and
+install upgrades.
+
+Upon returning to base, Sparky will perform as many repairs as
+possible before the Raven II has to return to battle.  If Sparky 
+is able to complete all the repairs, it may also have time to
+install upgrades.
+
+RAVEN II
+
+Simulation Specifications
+
+SIMULATION FEATURES
+
+Cursors
+
+In addition, to the regular cursor icon, there are seven types of
+cursor icons that appear depending on the scene and position on the
+simulation screen.
+
+These different cursors indicate an action to perform or a menu
+available from the Control Panel at the start of the simulation.
+
+Action Cursors:
+
+VIEW View data or look more closely.
+
+EXIT Return to the previous scene after viewing or looking at something.
+
+---> Travel in the direction of the arrow.
+
+PLAY Proceed with simulation play.
+
+Bridge Control Panel:
+
+At the beginning of the simulation, use the Control Panel on the 
+Bridge to set preferences or view menus before continuing through
+the door into the Repair Bay.
+
+SCORES Display a menu of high scores.
+
+CREDITS Display the game credit list.
+
+PREFS Bring up the pre-game preferences menu.  Customize game controls
+by changing Detail Level settings, level of difficulty, or setting
+the sound, music, joystick, mouse and story (non-interactive scenes)
+to on or off.
+
+Menus
+
+Preferences Menu
+
+Pressing F10 during the simulation play brings up a menu with options
+for customizing game controls:
+
+Detail Levels - The smoothness and speed of simulation play depends on
+the speed of your computer and the amount of graphic detail displayed.
+Adjusting image detail can slow or speed up action.  Adjusting the
+"time" detail can also affect action by allowing the game to take
+larger or smaller "steps."  Adjust the slider bars by pressing down
+either RETURN, SPACEBAR, a mouse button or a joystick button, and then
+using the arrow keys, mouse, or joystick to move.
+
+The sound, music, joystick and mouse may be toggled on or off.
+
+Joystick Calibration
+
+Pressing ALT-C brings up a menu for adjusting your joystick for
+optimum game play.
+
+Game Paused
+
+Pressing P suspends play and displays a message that the game is
+paused.
+
+Abort Game?
+
+Pressing ESC, ALT-Q or CTRL-Q brings up the Abort Game Menu.  Select
+YES to return to the bridge at home base.
+
+High Scores
+
+A log at the top scoring Raven II Pilots appears at the end of the
+game.
+
+Quit to DOS?
+
+Pressing CTRL-ESC or CTRL-ALT-DEL brings up the Quit to DOS Menu.
+
+
+-----------------------------------------------------------------------------
+
+                       AMIGA: QUICK REFERENCE
+
+NEW FEATURES are listed on this card along with Amiga installation,
+loading and game controls.
+
+This card REPLACES the Amiga information included in the manual.
+
+General
+
+Display Preferences Menu.......F10
+Center Analog Joystick.........PERIOD
+Abort Mission/Restart Game.....ESC
+Pause Game on/off..............P
+Quit...........................CTRL-ESC
+Go directly from home base
+bridge to cockpit..............ALT-G
+
+Game Controls
+
+Movement Controls
+
+To steer or move the viewpoint of Raven II, use the arrow keys or
+joystick.
+
+Viewpoint
+
+Cockpit View...................F1 
+Outside Elevated-Rear View.....F2
+Outside Top View...............F3
+Outside Distant-Left View......F4
+Outside Rear View..............F5
+Outside Front View.............F6 
+Outside Right View.............F7 
+Outside Left View..............F8 
+Enemy View.....................F9 
+Floating Camera View on/off....F 
+Note: To zoom the camera view in or out, press the SPACEBAR, Joystick
+Button 1, or Mouse Button 1 while moving the arrow keys or joystick.
+
+Save current outside view......CTRL-F1 through CTRL-F10 
+Restore corresponding 
+saved view.....................ALT-F1 through ALT-F10 
+ 
+Power Keys
+
+Keyboard Power Keys may be used to select and activate a power from the 
+Power Module in one step.  To discard a power, press the SHIFT key
+with the corresponding Power Key.
+                                        Q  W  E
+                                         A     D
+                                          Z  X  C
+
+Weapons
+
+!           @          #            $
+1           2          3            4
+Select      Select     Select       Select
+Cannon      Mines      Lasers       Rockets
+
+Fire Selected Weapon...........SPACEBAR or Joystick Button 1 or
+                               Mouse Button 1
+
+Guiding Rockets: Hold down the SPACEBAR and guide the rockets with the
+arrow keys.  With the joystick, hold down Button 1 (Fire Button) and
+guide by moving the joystick.  With the mouse, hold down Button 1 (Left
+Button) and guide by moving the mouse.
+
+Passwords
+
+You receive a four-character password everytime you die in the game.
+It appears in the title bar of the high score screen.  This password 
+will let you start the game at the world you just died on.  To use the
+password: Choose to play the introduction.  When the Nova 9 title screen
+appears, press P, and then type in the password for the world you wish
+to return to.
+
+Installation
+
+The following are instructions for installing Nova 9 onto a hard disk
+and booting the system.  Both can be done from either the Workbench or
+the CLI.  In the instructions we assume that you are using floppy drive
+DF0: and hard drive DH0:.  If your drives go by different names, replace
+the drive label in the example with the correct one.  For example, if you
+have an Amiga 3000, you will probably need to replace DH0: with WORK:.
+
+Copying Nova 9 to a Hard Disk
+
+1. Boot your system.
+2. Insert Nova 9 disk #1 into the first internal floppy disk drive.
+3. From Workbench, double click on the Nova1 icon and then on the Install
+   icon.
+4. From the CLI, type CD NOVA1: and press the return key.  Then type
+   INSTALL and press the return key.  The Dynamix Install Utility 
+   window will appear.
+5. Choose which drive and directory you wish to install the program to.
+   (The installer will automatically detect all hard disk partitions
+   with enough room to install Nova 9.  If you have several partitions
+   with room, click on the Drive gadget to select between them.)  To
+   change the path, click on the Destination string gadget box and type
+   in the new path.  The default directory is: DH0:NOVA9.
+6. Click on the INSTALL button.
+7. At the prompt, click on CONTINUE to install the program files.  To
+   cancel the installation process, click on ABORT.
+
+Loading Instructions
+
+From Floppy Disks
+
+Note: You may run the Nova 9 program from multiple floppy drives.
+
+Self-Booting
+
+1. Insert Nova 9 Disk #1 into drive DF0:.
+2. Turn on the system.
+
+From a Hard Disk
+
+From Workbench
+
+1. Load Workbench.
+2. Double click on the hard disk icon.
+3. Double click on the Nova9 drawer.
+4. Double click on the Nova9 icon.
+   
+From the CLI
+
+1. Open a CLI window.
+2. Type CD DH0:NOVA9, then press the return key.
+3. Type NOVA, then press the return key.
+
+Notes
+
+1. Nova 9 does not multitask with other programs.  For best performance,
+make sure no other programs are running when you start Nova 9.
+
+2. Although your system may have one megabyte of memory, you still may
+not have enough available memory to run Nova 9.  Selfbooting the program
+from disk should provide you with enough free memory to run the program.
+Note; Memory allocated for hard disk partitions or resident programs
+will reduce the amount available for running programs.
+
+end.

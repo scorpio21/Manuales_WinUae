@@ -1,0 +1,682 @@
+SkyChase
+
+OPCIONES DEL MENÚ PRINCIPAL
+
+Selecciones de juego
+
+Dos jugadores (humano contra humano):
+     Se requieren dos joysticks.
+
+Un jugador (humano contra computadora):
+     La computadora asume el papel del jugador adecuado. Las opciones se pueden configurar
+     para el jugador de computadora con la configuración de Habilidad de Computadora. el derecho
+     La configuración del reproductor se aplicará a la computadora en este modo.
+
+     Las opciones que se pueden configurar de forma independiente para el reproductor de la computadora incluyen
+     lo siguiente:
+
+     Selección de chorro
+     Selección de combustible
+     Municiones
+     Tienda de misiles
+     Umbral de bloqueo de misiles
+     Umbral de impacto de bala
+     Umbral de apagón de fuerza G
+
+     La computadora siempre usará "Pitch and Roll Combined" para su
+     "palanca de mando".
+
+Un jugador (sin ventana derecha):
+     Esta opción es la misma que el otro modo de un jugador con la excepción
+     que la pantalla de la computadora está en blanco. Esto proporciona más desafíos.
+     competencia, ya que no podrás ver qué es la computadora
+     haciendo con antelación. Además, notarás que el rendimiento de tu jet
+     se mejora sustancialmente.
+
+Jugador cero (computadora contra computadora):
+     Este es un modo de demostración que puedes mostrar a tus amigos. Cuando este modo
+     está seleccionado, los menús se pueden utilizar para configurar los parámetros tanto para la computadora
+     jugadores. Cuando se selecciona "Ejecutar demostración" en el menú principal, los parámetros preestablecidos
+     será utilizado.
+
+Selecciones de jugadores izquierdo y derecho:
+     Cada jugador puede elegir sus propias preferencias de configuración. Esto permite
+     un jugador para perjudicar al otro con el fin de igualar la jugada.
+
+Selección de chorro:
+Tómate un tiempo para revisar de cerca la flota de aviones mientras realizas
+su selección de jet; Una vez que comienza el combate, es probable que sucedan cosas.
+demasiado rápido y a una "distancia" demasiado grande para apreciar sus características distintivas.
+características.
+
+Los límites de aceleración y rotación son diferentes para cada jet.
+
+A) Se establece la velocidad máxima de cada chorro.
+B) La velocidad máxima de balanceo de cada avión está limitada a un valor específico.
+C) La tasa máxima de cambio para el paso de cada avión está igualmente limitada. el
+   El límite al iniciar un ascenso es el mismo que el límite de velocidad de balanceo del avión.
+   El límite al realizar una inmersión es aproximadamente la mitad.
+
+                                                   Máximo Máximo
+                                                   hacia arriba hacia abajo
+                          Velocidad máxima Cambio de tono máximo Cambio de tono
+              Acelerador para velocidad de velocidad de balanceo nivelado
+    Límite de vuelo del jet grados/seg grados/seg grados/seg
+   ----- ---------- ----------- ----------- ------------ ------------
+    F18 11 1234 50 50 25
+    F14 13 1462 45 45 25
+    F15 12 1348 45 45 25
+    F16 12 1348 50 50 25
+    M31 15 1691 35 35 20
+    M27 14 1577 40 40 20
+     PA 15 1691 50 50 25
+
+Selección de combustible:
+Cada incremento de 550 galones dura aproximadamente de 3 a 7 minutos, dependiendo del
+cantidad de potencia necesaria para volar. Con 8800 galones, o la cantidad máxima
+de combustible, el combate puede durar hasta una hora. Para disparar un misil se utiliza un pequeño
+cantidad de su combustible. Recibir un golpe consume gran parte de tu combustible. Golpear tu
+El oponente agrega la misma cantidad de combustible a tu tanque.
+
+Munición:
+Cada jugador puede seleccionar el número de balas que llevará a bordo. Presione 1
+para sin viñetas, 9 para viñetas ilimitadas y 2-8 para seleccionar una específica
+número de balas.
+
+La cantidad de balas disparadas por minuto aumenta a medida que aumenta la velocidad general del juego.
+aumenta. Si estás usando la cuadrícula de 8x8, por ejemplo, lo que aumenta el juego
+velocidad, querrás agregar más viñetas.
+
+Las balas no son muy efectivas a corta distancia porque, a diferencia de los aviones reales
+combate donde los objetivos siguen siendo del mismo tamaño independientemente de la distancia, Sky Chase
+Los chorros literalmente crecen a medida que se acercan y se reducen con la distancia. Como resultado,
+Golpear el centro exacto de tu objetivo (ver Umbral de impacto de bala) con el
+balas diminutas porque proporcionalmente más difíciles en relación con el aumento
+tamaño del chorro. La distancia al objetivo no puede ser demasiado grande, porque el objetivo
+Estará fuera del alcance de las balas.
+
+Almacén de misiles:
+Cada jugador puede seleccionar el número de misiles que llevará a bordo.
+Los misiles son efectivos a corta distancia cuando se usa el HUD (Heads Up Display)
+función de bloqueo de misiles.
+
+Pantalla HUD:
+Cuando los aviones están lo suficientemente cerca para desplegar los misiles, el HUD para misiles
+El bloqueo aparecerá en el centro de la pantalla. La mira muestra el
+dirección hacia la que apunta su nave. También aparecerá un cuadro delante de
+el avión del oponente para indicar dónde se debe disparar el misil para alcanzar el
+chorro. Hay una línea trazada entre la mira y el cuadro. La idea es
+para colocar la caja lo más cerca posible de la mira, haciendo que el
+línea lo más pequeña posible. La distancia desde la que debe estar la mira
+La casilla para obtener bloqueo de misiles se puede seleccionar con el umbral de bloqueo de misiles.
+configuración.
+
+El HUD tiene señales auditivas para el jugador. El tono de pitido indica que
+El bloqueo del misil está cerca. El tono constante indica que el bloqueo del misil ha sido
+logrado.
+
+Cuando el HUD se ha activado con éxito, el indicador de "bloqueo de misiles"
+parpadeará en verde. Si el HUD del oponente está fijado en tu avión, el "enemigo
+El indicador "bloqueo de misil" se volverá rojo. Si ambos jugadores se tienen entre sí
+bloqueo del misil, ambos indicadores se iluminarán. En estas condiciones, despedido
+Los misiles impactarán automáticamente en el avión del oponente.
+
+Umbral de bloqueo de misiles:
+El umbral de bloqueo de misiles representa el intervalo espacial dentro del cual los misiles
+ajustará automáticamente las direcciones para atacar sus objetivos. ese intervalo
+se mide en píxeles entre la mira y el cuadro (un píxel equivale a la
+espacio de un punto en la pantalla de la computadora), y los jugadores pueden seleccionar umbrales
+que van desde 1 a 40 píxeles. Una elección de 1 píxel, por ejemplo, significaría que
+La mira central y el cuadro HUD tendrían que superponerse exactamente para
+lograr un golpe; con 40 píxeles, una línea de esa longitud que conecta el centro
+La mira y el cuadro HUD representarían el rango en el que se dispara un misil.
+lograría un golpe.
+
+El HUD sólo se activa cuando un oponente está dentro del alcance del misil. misil
+El bloqueo se logra cuando el HUD se coloca sobre la mira dentro del
+rango de umbral de bloqueo de misiles. Cuanto mayor sea el número, más fácil será conseguirlo.
+Bloqueo de misiles sobre tu oponente. Al hacer doble clic en el botón del joystick se dispara un
+misil cuando un oponente está dentro del alcance.
+
+Umbral de impacto de bala:
+La configuración del Umbral de impacto de bala determina el tamaño del área dentro de la cual
+Puedes acertar con las ametralladoras del avión. Las selecciones son pequeñas,
+mediano y grande. Pequeño representa un punto de un píxel en el centro del jet.
+que debe ser alcanzado por una bala para registrar una muerte. El medio representa 9 píxeles.
+área y grande representa un área de 25 píxeles. Detección de colisiones de balas.
+es bidimensional, lo que hace que sea más fácil golpear un avión que está lejos porque
+es más pequeño y, por lo tanto, es más probable que caiga dentro del área de impacto.
+
+Tiempo de activación:
+Mantener presionado el botón del joystick provoca disparos continuos de ametralladora. cuando el
+Se muestra el HUD, el misil se puede disparar presionando el botón del joystick
+dos veces, rápidamente, seguidas. El disparador del misil se distingue del
+disparador de bala por la duración del intervalo entre los 2 clics del
+botón de la palanca de mando. Este retraso se puede configurar para Rápido, Medio o Lento.
+
+Efecto de la fuerza G:
+Las fuerzas de la gravedad afectan al piloto al afectar el flujo sanguíneo al cerebro. allí
+Hay dos tipos de fuerzas G: G negativas, que se acumulan cuando un avión desciende y
+fuerza la sangre hacia la cabeza y las G positivas, que se acumulan cuando un avión
+asciende o gira bruscamente, expulsando la sangre de la cabeza.
+Tu cuerpo y tu avión pueden tolerar muchas más G positivas que negativas.
+Un exceso de G negativo hace que los vasos sanguíneos de los ojos se rompan o se rompan.
+Redout. El apagón se produce si el efecto de las G positivas es demasiado fuerte,
+provocando que usted pierda el control del avión. El límite de G-froce de Sky Chase es de 9 G
+para fuerzas G positivas y negativas. Cuando te desmayas, la fuerza G
+El medidor parpadeará y el "piloto automático" se hará cargo de un avión y lo devolverá a
+un recorrido recto y nivelado. Una vez que el avión vuela recto y nivelado, el
+El apagón terminará y, dentro de dos segundos, el piloto recuperará
+controlar. Para alcanzar 9 G debes girar a 90 grados o cambiar el tono en el
+límite máximo.
+
+La cantidad de tiempo requerido a 9 G para apagarse se puede ajustar para cada
+jugador. La cantidad de tiempo hasta el apagón se puede configurar en bajo, medio, alto o
+ilimitado.
+
+Seleccionar cuadrícula:
+Sky Chase muestra una cuadrícula en el suelo. El número de celdas en la cuadrícula.
+afecta la velocidad general del juego. La velocidad del juego aumenta con menos celdas.
+y disminuye con más células. El juego más rápido se consigue seleccionando el
+Cuadrícula de 8x8 y la más lenta, la cuadrícula de 64x64. La cuadrícula se proyecta en el
+perspectiva terreno-abastecimiento.
+
+El combate se desarrolla sobre la parrilla. El perímetro exterior es un pequeño
+distancia desde el exterior de la red.
+
+Habilidad informática:
+La computadora se puede ajustar a diferentes niveles de dificultad. Los jugadores pueden
+Elige entre uno de los cuatro niveles: Fácil, Medio, Difícil y As, que
+corresponden a niveles crecientes de maniobrabilidad. La opción de habilidades informáticas
+Solo es aplicable a los modos de un jugador o computadora contra computadora.
+
+Control de sobrevuelo:
+El mecanismo de sobrevuelo que inicia todo el combate a reacción se activa automáticamente.
+activado al comienzo de cada ronda. Los jugadores también pueden seleccionar el sobrevuelo como
+un medio para reanudar el combate después de cualquier muerte, o puede evitar el sobrevuelo y simplemente
+reanudar el combate desde las posiciones de los aviones en el momento del asesinato.
+
+Control de sonido:
+Los sonidos del juego se pueden desactivar si lo desea.
+
+Control de música:
+La música del juego sólo se reproduce cuando se muestran los menús de opciones; eso
+también puede estar desconectado.
+
+INSTRUMENTACIÓN DE CABINA
+
+Radar (centro inferior de la pantalla):
+El radar proporciona una visión general de la zona de combate, lo que permite al jugador
+determinar la posición de un oponente. Las flechas en la pantalla del radar representan
+los chorros; la flecha roja es el jet izquierdo y la flecha blanca es el derecho
+chorro. Los bordes están coloreados para recordarte cuál es cuál. Las flechas pueden
+Aparecen en 16 posiciones diferentes para representar el rumbo de cada avión. cuando
+las flechas se superponen, la flecha en la parte superior es el chorro más alto. el relativo
+Las altitudes de los jets se representan mejor con el altímetro.
+
+Altímetro:
+Hay 2 barras en el altímetro. La barra verde refleja la actitud del piloto.
+altitud y la barra roja, la altitud del oponente. Este medidor le permite
+Determina si tu oponente está por encima o por debajo de ti. Superar el techo de
+50.000 pies provocarán un choque. El indicador de 50,000 pies parpadeará para advertir
+que el techo está cerca.
+
+Puntuación:
+La puntuación se muestra con el indicador.
+
+Empuje:
+El empuje es una fuerza constante que representa la fuerza del motor a reacción.
+El valor de empuje aumentará a medida que se aumenta y disminuye el acelerador.
+cuando se disminuye el acelerador. La velocidad de giro del avión disminuirá a medida que
+La velocidad aumenta y la velocidad de giro aumentará a medida que su velocidad disminuya.
+
+Título (cuadro del lado superior):
+Indica la dirección hacia la que apunta la aeronave de lado a lado, es decir
+norte, este, sur u oeste. Este indicador muestra la vista superior del jet. el
+El indicador de rumbo coincide con la dirección de la flecha del radar.
+
+Paso (cuadro del lado medio):
+Indica el ángulo hacia el que apunta el avión desde el morro hasta la cola, es decir
+posiciones para escalar o bucear. Este indicador muestra la vista lateral del jet.
+
+Rollo (caja lateral inferior):
+Indica el ángulo hacia el que apunta el avión de ala a ala, es decir
+girar o ladearse. Este indicador muestra la vista trasera del avión.
+
+Velocidad:
+La velocidad representa la velocidad del aire en MPH.
+Indicadores de bloqueo de misiles (centro de la pantalla debajo de la vista de vuelo):
+Uno parpadea en verde cuando el indicador de bloqueo de misiles está encendido; el otro parpadea
+rojo cuando el indicador del oponente te está fijando.
+
+Indicador de fuerza G (esquina inferior derecha):
+El indicador muestra el factor G actual. Los pilotos se desmayarán a las 9 G.
+El indicador se vuelve rojo a 9 G y parpadea en rojo brillante mientras estás
+desmayado.
+
+Indicador de perímetro (al lado del altímetro):
+Se ilumina para advertir que su avión está en peligro de colisionar con el
+perímetro de la arena de combate en forma de cubo. Si llegas al perímetro tu
+el jet explotará.
+
+Balas restantes:
+Representa el número de balas que quedan.
+
+Misiles restantes:
+Representa la cantidad de misiles que quedan.
+
+Esquema de la pantalla:
+Los contornos de la pantalla están codificados por colores rojo y blanco para corresponder con el
+flechas en la pantalla del radar para reconocer más fácilmente los aviones de los jugadores.
+
+COMBATE AÉREO
+
+Sobrevuelo:
+El sobrevuelo es una forma justa de iniciar un combate aéreo y se inicia
+automáticamente. Los controles piloto están suspendidos hasta que los aviones se acercan y
+pasarse de frente. Después del sobrevuelo, comienza el combate con todos los pilotos.
+controles activados.
+
+ARMAS
+
+Ametralladoras:
+Mantener presionado el botón del joystick provoca disparos continuos de ametralladora. el
+El área del umbral de impacto de bala determina el área de impacto dentro de la cual puedes anotar
+un golpe. El área de impacto es bidimensional, lo que hace que sea más fácil golpear un avión que sea
+más lejos porque es más pequeño y, por lo tanto, es más probable que caiga dentro
+rango de píxeles. Las balas no son muy efectivas a corta distancia, porque son
+Es más difícil alcanzar el área objetivo pequeña en una imagen de chorro con estructura de alambre tan grande.
+
+Misiles inteligentes:
+Al hacer doble clic en el botón del joystick se dispara un misil cuando el oponente está
+dentro del alcance. El misil puede activarse cuando los aviones están dentro del alcance,
+con la mira apareciendo en el centro de la pantalla. El misil
+En realidad, gira hacia el oponente mientras vuela. El alcance de bloqueo del misil es
+fijado por el umbral del misil. Cuando disparas un misil, lo ves corriendo.
+lejos del morro de su avión. Tu oponente verá el mismo misil,
+si lo está enfrentando.
+
+Usando sonido:
+El sonido del avión se vuelve más agudo a medida que los aviones se acercan y más bajo a medida que se mueven.
+más lejos. Este "efecto Doppler", el cambio en el tono del sonido en
+relación con la velocidad y la proximidad, proporciona a los jugadores una pista de audio sobre
+las posiciones relativas de los chorros.
+
+Los sonidos de misiles, bloqueo de misiles, balas y explosiones están en estéreo, con
+Los canales derecho e izquierdo reflejan los sonidos de los canales derecho e izquierdo.
+jugadores.
+
+Piloto de computadora:
+El piloto del ordenador, que siempre es el jugador adecuado, seguirá un
+serie invariable de estrategias:
+
+*Si el oponente está fuera del alcance del misil pero dentro del alcance de la ametralladora, el
+ La computadora disparará las armas.
+*La computadora recurrirá a ametralladoras dentro del alcance de los misiles cuando se ejecute.
+ sin misiles.
+*El piloto de la computadora siempre intentará volar directamente hacia el calculador.
+ Coordenadas de bloqueo de misiles ed.
+*La computadora siempre disparará cuando tenga al oponente en bloqueo de misiles.
+*Si vuelas en un círculo grande permaneciendo en una posición rodada, la computadora
+ te seguirá exactamente.
+*La computadora, incluso en modo Ace, puede considerarse discapacitada en el sentido de que su
+ El tono está limitado a un máximo de 60 grados. En los modos fácil y medio
+ los límites de cabeceo y balanceo están aún más restringidos.
+
+Es posible que los novatos deseen desarmar al jugador de computadora adecuado para igualar sus probabilidades.
+y entrenar más eficazmente.
+
+Metas:
+El juego continúa hasta que se agota el combustible del avión. El jugador con el
+la mayoría de los puntos gana.
+
+Puntos:
+Se otorgan puntos por lo siguiente:
+ 1-El oponente dispara un misil
+10-Destrucción del oponente con ametralladoras o misiles
+Choques de 10 oponentes en el suelo, el techo o el perímetro.
+10 colisiones en el aire (ambos jugadores obtienen 10 puntos)
+
+Zona de combate:
+El perímetro del cubo, o zona de combate, está justo fuera del área de la cuadrícula.
+La pantalla del radar mostrará un cuadrado negro sólido dentro de un campo verde y
+Encienda la luz de advertencia perimetral para avisarle que se está acercando a una
+muro. El perímetro incluye el techo así como las 4 paredes y el suelo.
+
+Pausa:
+Presionar la "P" mayúscula o minúscula durante el juego hará que el juego se detenga.
+Simplemente presione el botón disparador del joystick o cualquier tecla para reanudar el juego.
+
+Dejar de fumar:
+Presione "Q" mayúscula o minúscula para salir del juego durante el juego. entonces lo harás
+volver a la pantalla de derechos de autor; presione cualquier tecla para ir al menú principal. a
+volver a otras aplicaciones de software, apague su computadora y reiníciela.
+
+VOLANDO
+
+Girar, escalar y bucear:
+Cuando la aeronave gira en cualquier dirección horizontal, es decir, norte, sur,
+Este u oeste, estás ajustando su rumbo. Se muestra la dirección del rumbo
+en el cuadro indicador de rumbo y en la pantalla del radar.
+
+Cuando se sube o baja el morro del avión, usted está ajustando su
+tono, lo que hace que se mueva hacia arriba o hacia abajo. El grado de tono se muestra en la
+cuadro indicador de tono.
+
+Cuando el avión gira o gira hacia un lado, la combinación de aire
+La presión y la velocidad obligarán al avión a realizar un giro inclinado. el grado
+del rollo se refleja en el cuadro indicador de rollo.
+
+                                  bucear
+                         Buceo/ |     Buceo/
+                       Banco izquierdo\ |  /Derecho bancario
+                                  \|/
+                   Banco izquierdo-------+-------Banco derecho
+                                  /|\
+                        Subir/ / |  \ Subir
+                      Banco izquierdo |   Derecho bancario
+                                 Subir
+
+Utilice el joystick para manipular el cabeceo y el balanceo.
+(su rumbo se verá afectado por estos 2 factores en combinación):
+
+      Posición superior = Nariz hacia abajo (buceo)
+    Posición derecha = giro bancario a la derecha
+     Posición izquierda = giro bancario hacia la izquierda
+   Posición inferior = Nariz arriba (Subir)
+
+Seleccionar palanca de mando:
+Las cuatro posiciones diagonales se pueden configurar de dos maneras:
+
+Opción 1: El rollo de alta velocidad. Este es un giro inclinado, o tirada, que ocurre en
+una velocidad de rotación tan alta que el chorro realmente procederá en una
+línea recta hasta soltarse de ella; al liberarse del rodillo de alta velocidad,
+el avión seguirá inclinándose en el ángulo desde el que se suelta. esto
+La capacidad de realizar giros más rápidos y cerrados hace que el giro a alta velocidad sea una excelente opción.
+herramienta ofensiva.
+
+Opción 2: Cabeceo y balanceo combinados. Esto combina el cabeceo y el balanceo del
+dos posiciones adyacentes a la diagonal; por ejemplo, la esquina inferior derecha
+produciría un rollo que sube hacia la derecha. La combinación de cabeceo y balanceo
+ción produce una especie de movimiento de sacacorchos y, debido a que lo hace muy
+Difícil de seguir para un oponente, es una excelente herramienta defensiva.
+
+Acelerador:
+El acelerador controla el empuje, o fuerza del motor a reacción, del avión. el
+El acelerador del avión de cada jugador se puede configurar durante el vuelo. El acelerador
+siempre se establecerá en el medio durante el sobrevuelo, pero se ajustará a las preferencias del jugador.
+preferencias tras la activación del control piloto. Recuerda que más alto
+Los ajustes del acelerador consumen combustible más rápido.
+
+La velocidad de giro del avión disminuirá a medida que aumente su velocidad. Asimismo, el
+La velocidad de giro del avión aumentará a medida que su velocidad disminuya. Esto con precisión
+refleja el rendimiento real de un avión, del mismo modo que un coche gira más bruscamente
+cuando va lento que a altas velocidades. Para girar al ritmo más rápido,
+por lo tanto, reduzca la velocidad antes de girar.
+
+  Comandos del acelerador de Amiga:
+        Tecla Mayús izquierda = aumento del acelerador de los jugadores izquierdos
+        Tecla "ALT" izquierda = disminución del acelerador del jugador izquierdo
+     "." tecla en el teclado = aumento en el acelerador del jugador derecho
+   Tecla Intro en el teclado = disminución del acelerador del jugador derecho
+
+Velocidad y rendimiento del jet:
+Dos variables controlan la velocidad general y el rendimiento del combate;
+configuración del acelerador y tamaño de la cuadrícula. Para el juego más lento, elige la cuadrícula de 64x64.
+con un ajuste de empuje bajo; para el juego más rápido, elige la cuadrícula de 8x8 con
+el mayor empuje. Puede utilizar una configuración de aceleración alta para compensar velocidades bajas
+en una cuadrícula con muchos cuadrados, o use una configuración de aceleración baja para compensar
+velocidades más altas en una cuadrícula con pocos cuadrados. Selección del avión de papel.
+También aumentará la velocidad general del juego.
+
+
+UNA HISTORIA DE PELEAS DE AIRE EN EL COMBATE DE JET
+
+La historia de los combates aéreos, cabeza a cabeza, que se libran en el
+destrucción de uno de los participantes, es casi tan larga como la historia de
+los propios aviones. Las peleas de perros han existido desde la Primera Guerra Mundial; pero de hecho,
+la mayoría de los estrategas de esa época estaban seguros de que las peleas aéreas nunca durarían más que
+la Gran Guerra. Los principales estrategas militares, en casi todas las etapas del proceso aéreo,
+desarrollo artesanal, han sentido que las nuevas tecnologías de alta velocidad, ya sea
+ya sea la hélice del Spitfire de la Segunda Guerra Mundial o el poder supersónico del
+El avión F4 Phantom de la era de Vietnam haría que el combate aéreo fuera poco práctico y
+obsoleto.
+
+Las peleas de perros, por supuesto, han sobrevivido hasta nuestros días como una de las más
+partes peligrosas y estratégicamente críticas de nuestra defensa nacional. Sin embargo, si
+Las peleas de perros no son menos peligrosas ahora que durante la era de la Primera Guerra Mundial, eso
+Es quizás el único rasgo que no ha cambiado. Un as de la aviación de la Primera Guerra Mundial
+se habría acercado a su oponente desde la cabina de un avión de dos o incluso
+avión de tres alas que proporciona la máxima sustentación, ya que ingenieros y estrategas
+Sintió que la maniobrabilidad, más que la velocidad, era crucial para el éxito del combate.
+
+En la década de 1930, una amarga experiencia había enseñado a los diseñadores de combate aéreo que los grandes
+La maniobrabilidad era casi inútil contra un avión de mayor velocidad que
+podría adelantar a un avión antes de que tuviera tiempo de ejecutar una maniobra defensiva.
+Esta comprensión cambió permanentemente el curso del diseño del combate aéreo; ahora
+la prima estaba en pura velocidad y potencia. El primer avance en vuelo.
+La velocidad llegó con aviones propulsados por hélices como el Spitfire, que puede ser
+Se le atribuye la victoria aliada en la fundamental Batalla de Gran Bretaña de la Segunda Guerra Mundial.
+
+El desarrollo de los vuelos en jet, y más tarde, las velocidades supersónicas parecieron prestar
+credibilidad a la idea de que las peleas de perros estaban destinadas a convertirse en una reliquia del
+Combate aéreo "convencional". Después de todo, ¿cómo podrían dos aviones enfrentarse cara a cara?
+¿Combate frontal a velocidades más rápidas que la velocidad del sonido? Ingenieros del F4
+Phantom, en 1953, estaban tan seguros de que las peleas aéreas eran historia que
+dejó las armas fuera del diseño por completo, confiando en su lugar únicamente en los misiles.
+
+La velocidad supersónica trajo una superioridad técnica incuestionable, pero trajo
+también una serie de nuevos desafíos. Los vuelos de alta velocidad sometieron a los pilotos a
+peligrosas fuerzas "G", hasta 9 veces la fuerza de gravedad, que causaron pérdidas
+de la conciencia a través de la privación de oxígeno. Junto con el físico inmediato.
+los peligros eran mentales; controlar los nuevos y sofisticados jets necesarios
+que se prodiguen niveles adicionales de especialización y atención a la proliferación
+número de indicadores y diales, desviando a los pilotos peligrosamente lejos del
+combate en mano.
+
+Hoy en día, los pilotos de aviones de combate deben someterse a una amplia formación y estudio para garantizar
+que sigan siendo los amos, y no las víctimas, de la política especializada
+máquinas que vuelan. En Top Gun, la Escuela de Vuelo de la Marina de los EE. UU. y en Red Flag,
+En la Escuela de Vuelo de la Fuerza Aérea de los EE. UU., los aspirantes a pilotos de aviones se entrenan con aviones
+herramientas de simulación muy parecidas a Sky Chase; de hecho, Sky Chase está modelado directamente
+sobre las maniobras de entrenamiento de aviones de combate de la Escuela de Vuelo.
+
+DETALLES DEL JET
+
+               McDonnell Douglas F-18 Avispón
+
+El Hornet es un avión ligero multimisión producido en varios
+versiones: 1) el caza multifunción basado en portaaviones; 2) el entrenador de dos asientos;
+y 3) el caza de ataque terrestre. Voló por primera vez en 1978. El avión
+utiliza un solo cañón de 20 mm y tiene un total de nueve estaciones de armas externas,
+permitiendo instalar una amplia gama de armas aire-aire y aire-tierra.
+
+  Motor: Turboventiladores aumentados GE F404-400 gemelos; 16,000 lb de empuje cada uno
+  Longitud: 56 pies
+  Envergadura: 37 pies 6 pulgadas (sin misiles); 40 pies 4,75 pulgadas (con 2 misiles)
+  Altura: 15 pies 3,5 pulgadas
+  Pesos: Vacío 20,583 lb; cargado (aire-aire) 33,642 lb; cargado (tierra
+           ataque) 48,253 lb; carga máxima (límite de catapulta 50,064 lb)
+Velocidad máxima: Mach 1,8 (1190 mph), carga aire-aire, en altitud
+  Techo de servicio: más de 49.000 pies
+
+               Grumman F-14 Tomcat
+
+Un caza biplaza basado en portaaviones de geometría variable (ala oscilante), el Tomcat
+voló por primera vez en 1970. Lleva un cañón de 20 mm y puede albergar cuatro AIM-54 Phoenix,
+Misiles aire-aire AIM-7 Sparrow o AIM-120 Amraam en plataformas de fuselaje.
+Se pueden instalar cuatro misiles aire-aire adicionales (incluidos los Sidewinders) en
+pilones de ala.
+
+  Motores: Dos Pratt & Whitney TF3-412A de 20,900 lb
+  Longitud: 62 pies 8 pulgadas
+  Envergadura: 38 pies 2 pulgadas (barrido de 68 grados); 64 pies 1,5 pulgadas (barrido de 20 grados)
+  Altura: 16 pies
+  Pesos: Vacío 37,500 lb; cargado (aire-aire) 55.000 lb; carga máxima 72,000 lb
+  Velocidad máxima: Mach 2,34 (1.564 mph) en altitud; Mach 1,2 (910 mph) nivel del mar
+  Techo de servicio: más de 56.000 pies
+
+               McDonnell Douglas F-15A Águila
+
+El águila fue seleccionada como respuesta de la Fuerza Aérea de EE. UU. al MIG 25 en 1969.
+con el primer prototipo volando en 1972. Fue desarrollado casi exclusivamente como
+un luchador de superioridad, aunque se exploraron las capacidades de ataque terrestre
+desde mediados de los años 70. Tiene un único cañón de 20 mm y normalmente estaría armado.
+con cuatro misiles AIM-7 Sparrow y tiene capacidad para cuatro AIM-9 Sidewinder
+misiles. Otro armamento incluye bombas convencionales e inteligentes.
+Cañón General Electric Gepod de 30 mm con varios cañones y una gama de terreno
+misiles de ataque.
+
+  Motores: Pratt & Whitney F100-100 gemelo de 23,930 lb después de quemar turbofanes
+  Longitud: 63 pies 9 pulgadas
+  Envergadura: 42 pies 9,75 pulgadas
+  Altura: 18 pies 7,5 pulgadas
+  Pesos: Vacío 28,000 lb; cargado (aire-aire) 41,500 lb; carga máxima 56,500 lb
+  Velocidad máxima: Mach 2,5 (1.653 mph), más de 36.000 pies, solo armamento AIM-7
+
+               Halcón de combate General Dynamics F-16A
+
+El F-16A es un avión de combate multifunción ligero diseñado tanto para uso aéreo como
+combate aéreo y ataque terrestre. Los primeros prototipos volaron en 1976. El avión
+Lleva un cañón de 20 mm y puede tener una amplia gama de ataques aire-tierra y aire-aire.
+armamento instalado en posición de separación. En el modo de combate aéreo normalmente
+estar equipado con misiles buscadores de calor Sidewinder.
+
+  Motor: Un turbofan aumentado Pratt & Whitney F100-PW-200 de 23,830 lb
+  Longitud: 47 pies 7,7 pulgadas
+  Envergadura: 31 pies (sin misiles); 32 pies 10 pulgadas (con misiles)
+  Altura: 16 pies 8,5 pulgadas
+  Pesos: Vacío 15,137 lb; cargado (aire-aire) 23.357; carga máxima 35,400 lb
+  Velocidad máxima: Mach 2,05 (1350 mph) a 40 000 pies; Mach 1,2 (915 mph) nivel del mar
+  Techo de servicio: más de 50 000 pies
+
+               Mikoyan/Gurevich MiG 27
+
+El MIG 27 es la versión de ataque terrestre del MIG 23 y, al igual que el 23, tiene
+geometría variable. El armamento básico es un cañón multicañón de 23 mm, con una combinación de
+misiles aire-aire y aire-tierra y bombas convencionales transportadas en
+posiciones de separación. Los primeros prototipos volaron en 1970.
+
+  Motor: Un turboventilador aumentado serie Tumanksii R-29 de 25.353 ob
+  Longitud: 53 pies 5 pulgadas
+  Envergadura: 46 pies 9 pulgadas (barrido de 16 grados); 26 pies 9,5 pulgadas (barrido de 72 grados)
+  Altura: 14 pies 4 pulgadas
+  Pesos: Vacío 22,000 lb; cargado (sin armas externas) 34,170 lb;
+           carga máxima 44,310 libras
+  Velocidad máxima: Mach 1,6 (1.050) alta altitud; Mach 1,1 (762 mph) nivel del mar
+  Techo de servicio: 50,000 pies
+
+               Mikoyan/Gurevich MiG-31 'Foxhound-A'
+
+Ante la necesidad de un nuevo interceptor de largo alcance capaz de detectar,
+rastrear y destruir bombarderos B-1 de baja visibilidad que llevan a cabo sus ataques en
+bajos niveles, la Unión Soviética parece estar desarrollando el rápido y fuertemente
+MiG-25 armado pero de patas cortas. Mirando la forma probable del requisito
+ment y el potencial del diseño original, sin embargo, parece que mucho
+MiG-25 modificado, con motores más eficientes, nuevos misiles, un radar mejorado
+y sistema de control, y con grandes tanques de combustible externos para una mayor autonomía,
+podría formar la base del interceptor más poderoso del mundo. Primer vuelo
+En 1974-75, el Foxhound tenía dos motores turborreactores de 32.000 lb de empuje que
+permitirle alcanzar velocidades superiores a Mach 2,4 y alcanzar un techo de servicio
+de 75.000 pies.
+Motor: Dos turborreactores de 32.000 lb de empuje
+  Longitud: 75 pies 8 pulgadas
+  Envergadura: 46 pies
+  Velocidad máxima: máx. 2,4 
+  Techo de servicio: 75,000 pies
+
+               Avión de papel Maxis
+
+  ****************     
+  *ALTO SECRETO*
+  ****************
+
+MANIOBRAS DE COMBATE AÉREO
+
+Las maniobras que siguen son aquellas que realmente emplean los cazas.
+pilotos en situaciones de combate. Para perfeccionar su técnica, es posible que desee
+Practique estas maniobras inicialmente a baja velocidad.
+
+Descanso:
+El avión A, atacado por detrás, gira bruscamente, obligando al avión B a
+sobrepasar. El avión A puede entonces girar hacia la cola del avión B.
+El éxito de la fuga depende de las tasas de giro relativas de los dos.
+avión, ya que un avión de alta velocidad de giro como el F16 o el F18 podría lograr
+rotura de un MiG 27, pero este último tendría dificultades para devolver la rotura
+maniobra.
+
+Tijeras:
+La tijera es básicamente una serie de descansos, cada avión, a su vez, obliga
+un exceso por parte de su enemigo. Puede continuar hasta que uno u otro avión
+inicia una maniobra alternativa.
+
+YoYo de alta G:
+En reacción a una maniobra de frenado del avión A, el avión B ejecuta una maniobra menos profunda.
+gira que A, pero al mismo tiempo sube. La combinación de lo menos profundo
+girar y subir tiene como objetivo dejar a B en la cola de A después de que A ejecuta un movimiento más agudo.
+girar. Nuestro MiG 27 frente a un F16 haría bien en considerar esta opción.
+
+YoYo de baja gravedad:
+Un avión de peor rendimiento puede utilizar esta alternativa de buceo del High G
+Yoyo. Cuando A gira bruscamente, B ejecuta un giro menos profundo y se lanza en picada, llevando su
+nariz detrás de la cola de A.
+
+Voltear YoYo:
+Esta vez B rueda cuando entra en la inmersión Yo-Yo de baja G. Esto significa que tira
+Menos G negativos y le permite ganar velocidad más rápido a medida que regresa.
+en una subida. Sin embargo, si A se detiene bruscamente, es posible que B se sobrepase.
+debido al aumento excesivo de velocidad.
+
+Persecución retrasada:
+Cuando A intenta una ruptura, B se posiciona detrás y debajo de su objetivo, girando
+yendo al mismo ritmo y manteniendo la velocidad baja moviéndose hacia una ligera subida
+de vez en cuando.
+
+Dividir S:
+El atacante B se ha acercado demasiado a A durante una pausa. A se da vuelta y tira
+en picado antes de que B pueda responder. Tirar primero significa que las G extraídas son
+positivo, permitiendo que A acelere mejor. Tenga en cuenta que esta maniobra, exitosa
+completamente ejecutado, permite interrumpir el combate.
+
+De frente:
+La artillería de primera clase gana en este enfrentamiento, pero si ninguno de los dos impacta como el
+cerca del avión, el "ganador" de la maniobra es el avión con la posición más estrecha.
+círculo de giro est.
+
+Bucle vertical:
+Al hacer un bucle, puedes devolver el avión al mismo vuelo.
+camino, detrás de un perseguidor, siempre que el perseguidor no reaccione en absoluto. Más
+normalmente se puede utilizar para confundir al oponente antes de ejecutar un
+Segunda maniobra.
+
+Immelmann:
+El clásico Immelmann es una combinación de medio bucle y rollo, dejando el
+aeronave que vuela en dirección opuesta a aquella en la que partió, y
+a mayor altitud. En su ejecución más estricta se inicia con una vertical.
+subir y rodar simultáneamente, seguido de un rodar de regreso al nivel en el
+cima de la subida. Los aviones menos potentes tendrán que ejecutarlo con mayor facilidad.
+etapas.
+
+Bucle de buceo:
+Cuando el avión entra en picado, ejecuta medio giro, tirando hacia arriba
+G's y permitiendo un giro más cerrado; luego se tira al nivel en la parte inferior
+de la inmersión. Está relacionado con el Immelmann, pero realizado "al revés".
+
+TARJETA SISTEMA AMIGA (Tarjeta de Referencia)
+
+Se requiere al menos un joystick. Se requieren 2 joysticks para usar los 2
+opción de jugador.
+
+Reproductor izquierdo: puerto de joystick n.º 2
+Reproductor derecho: puerto de joystick n.° 1
+
+El mouse no se usa en Sky Chase
+
+Comandos de las teclas del acelerador:
+
+       Tecla Mayús izquierda = aumenta el acelerador de los jugadores izquierdos
+       Tecla "ALT" izquierda = disminuir el acelerador del jugador izquierdo
+    "." Tecla en el teclado = aumentar el acelerador del jugador derecho.
+  Tecla ENTER en el teclado = disminuir el acelerador del jugador derecho
+
+¡Documentos completos para Sky Chase proporcionados por MERKwooD de MAAD!

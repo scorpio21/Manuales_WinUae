@@ -1,0 +1,875 @@
+F U L L D O C S T O
+
+                      EL CORAZÓN DEL AJEDREZ
+
+
+UNA HISTORIA DEL AJEDREZ POR COMPUTADORA
+Desde el comienzo de la era mecánica la gente ha estado fascinada por
+la posibilidad de que las máquinas reemplacen las funciones humanas.  Para algunos significó
+una liberación del trabajo pesado humano, tanto manual como intelectual.  a otros
+Se vislumbraba un desafío más filosófico en la consecución de la máquina.
+decisiones, imaginación de máquina, pensamiento de máquina.  En retrospectiva es
+Era obvio que estos dos objetivos estaban relacionados, la máquina pensante de uno
+la edad se convirtió en el esclavo que reemplazaba al autómata de la siguiente.  Una breve mirada a
+La historia de la calculadora, desde el ábaco hasta la electrónica moderna.
+variedad, pronto revela que tan pronto como una máquina llamada "inteligente"
+se ha producido, entonces la definición misma de 'inteligencia' cambia.
+"Inteligencia" parece ser una palabra aplicada a todas las funciones que un ser humano
+pueden lograr y las máquinas no.  Quizás algún día este proceso
+restringir la palabra a un rango tan limitado que pierda su significado.
+
+Durante muchos años la fascinación por este tema se ha concentrado
+con la llegada de las máquinas de ajedrez, y con razón.  ajedrez
+siempre ha sido respetado como un logro humano formidable, pero muchos
+Algunos aspectos del juego (aunque todavía no todos) son susceptibles de análisis.
+que consiste en muchos cálculos repetitivos, muy adecuado para computadoras y
+sus precursores.  Esto conduce a una situación en la que el hombre y la máquina pueden
+enfrentarse entre sí en condiciones bastante iguales.  Ciertamente hay
+Nunca faltan actores humanos deseosos de afrontar este desafío, que
+A menudo se considera una defensa del orgullo de la raza humana.
+
+Hasta el momento, nuestros mejores ajedrecistas persisten en vencer a nuestro ajedrez.
+computadora, a pesar de la terrible cantidad de poder de procesamiento de esta última.
+Parece que estos jugadores poseen una visión del juego más allá del
+ámbitos del mero cálculo numérico, una idea que proporciona una nueva
+desafío para los diseñadores de programas de ajedrez.  Cuando este desafío es
+entonces proporcionará el capítulo final de una historia que comenzó
+(aunque de forma dudosa) hace casi doscientos años.
+
+BARÓN VON KEMPELEN - TURCO
+Probablemente a la mayoría de la gente le sorprenda que la primera
+La máquina de ajedrez se fabricó en el siglo XVIII, hace mucho tiempo.
+antes de la llegada de las computadoras, o incluso de complicados dispositivos mecánicos.
+Fue inventado por el barón Von Kempelen y tuvo mucho éxito.
+venciendo a muchos de los mejores jugadores de su época, e incluso ganando contra
+Napoleón (una maniobra bastante peligrosa ya que no era conocido como un buen
+perdedor).  La máquina, llamada TURK, estaba formada por un hombre mecánico que
+movía piezas en un tablero en respuesta a los movimientos de un oponente.  fue muy
+popular, realizó giras por muchos países y entretuvo a la mayor parte de la realeza de
+el dia.
+
+Desafortunadamente, TURK tenía un inconveniente: era una falsificación inteligente.  fue un
+dispositivo ingeniosamente diseñado con gabinetes debajo en el que un jugador humano
+podría esconderse de la vista.  A medida que se abría la caja, un lado a la vez, el
+El juego humano se movió para esconderse de la vista de los espectadores.  Controles de palanca
+fueron proporcionados para operar el brazo mecánico de la máquina y el jugador
+Podía ver el tablero a través de un velo en el pecho del hombre mecánico.  eso
+Sin embargo, no tenía inteligencia propia, excepto varios de los (más pequeños)
+Ajedrecistas de la época escondidos en su interior.  Aunque fue falso, TURCO lo hizo
+ilustrar el interés público producido por cualquier máquina que pudiera reclamar
+pensar.
+
+LEONARDO TORRES Y QUEVEDO
+En la Universidad Politécnica de Madrid se puede encontrar, todavía en funcionamiento, el
+verdadero antepasado de la computadora para jugar al ajedrez.  No es muy ambicioso en
+sus objetivos, pero considerando que fue construido en 1890 y utiliza sólo
+dispositivos electromecánicos entonces es digno de admiración.  Su inventor
+Fue el científico español Leonardo Torres y Quevedo cuyos experimentos
+y las teorías sobre el autómata lo llevaron a producir esto como un ejemplo de la
+Posibilidad de robots.
+El objetivo del dispositivo era dar jaque mate al rey de un componente humano usando
+sólo su propio rey y torre.  Consistía en un tablero en el que los tres
+piezas movidas a lo largo de las ranuras.  Conexiones eléctricas realizadas por las piezas en
+sus diversas posiciones sirvieron para "sentir" la posición actual de la junta directiva y
+Los electroimanes proporcionaban los medios para mover las piezas de ajedrez.  una luz
+La bombilla se encendía si el humano había hecho un movimiento ilegal y un dispositivo similar
+a uno de los primeros gramófonos produjo las palabras CHECK y MATE donde
+apropiado.
+
+La toma de decisiones se realizó mediante una serie de relés electromagnéticos.
+interruptores.  No tenía control de software como tal, siendo el dispositivo
+análogo a un microprocesador moderno construido para responder sólo a una
+Conjunto de instrucciones de posiciones (simples) del tablero de ajedrez.  Las reglas incorporadas
+determinar qué movimientos hacer no era complicado, consistía en seis
+condiciones relativas a las posiciones relativas de reyes y torre, en las que seis
+se podrían tomar acciones.  Podría garantizar jaque mate en 63 movimientos.
+contra cualquier oponente.
+
+ALAN MATHIESON TURING
+Hubo que esperar otros cincuenta años antes de que se diera un paso comparable al de
+Se hizo Torres.  Alan Turing fue a la vez matemático y filósofo.
+cuya corta (y a menudo infeliz) vida fundó tanto la informática como la
+investigación de inteligencia artificial.  En 1951, Turing escribió lo que fue
+Probablemente el primer programa de ajedrez TURBOCHAMP.  Desafortunadamente lo hizo
+No existe una computadora capaz de ejecutar TURBOCHAMP.  el primer juego
+jugado entre un programa de ajedrez y un humano fue ejecutado por un humano (Turing
+él mismo) realizando los cálculos del programa (sin la ayuda de un
+calculadora).  El oponente humano era Allick Glennis, que no era
+particularmente un buen jugador de ajedrez pero que logró hacer jaque mate TURBOCHAMP
+después de 29 movimientos.  El juego duró tres horas.
+
+TURBOCHAMP era un programa rudimentario para los estándares actuales en el sentido de que
+Sólo podía mirar un paso adelante, no tenía idea de la diferencia.
+entre los juegos de apertura, medio y final, y tenía una elemental
+evaluación del puesto.  Sin embargo, entendió las reglas del juego.
+y utilizó algoritmos básicos distinguibles de la variedad moderna únicamente
+por la necesidad de producir una respuesta con muchos menos cálculos.  es
+Es interesante observar que, como Alan Turing era un mal jugador de ajedrez,
+TURBOCHAMP fue probablemente un ejemplo de un programa capaz de pensar mejor
+su creador.
+
+CLAUDE ELWOOD SHANNON
+Claude Elwood Shannon estaba trabajando en sus teorías de programación de ajedrez.
+casi simultáneamente con Alan Turing.  Formalizó los métodos que
+se puede utilizar para considerar una posición de ajedrez en dos estrategias, generalmente
+conocido como estrategia A y estrategia B. Estos dos métodos forman la base de
+Prácticamente todos los programas de ajedrez modernos.  Ambas estrategias fueron desarrolladas en
+la base del trabajo realizado varios años antes por el matemático Jon
+Van Neumann.  Desarrolló los métodos de minimax, para evaluar la
+camino óptimo a través de un árbol de decisión, como parte de sus teorías generales sobre
+juego.
+
+        ESTRATEGIA A
+
+        Esto a veces se conoce como el "Método de Fuerza Bruta".  en su
+inicial
+        Concepción implicaba simplemente el cálculo de todos los posibles
+moverse
+        y cada respuesta posible para un número fijo de 'medios movimientos'
+adelante.
+        Esto se ha perfeccionado en años posteriores para incluir alfa-beta.
+corte en
+        la búsqueda minimax y realizar un ordenamiento heurístico de
+evaluación
+        de medidas para mejorar la eficiencia.  Para trabajar eficazmente este método
+        requiere computadoras de alta potencia de procesamiento debido a una alarmante
+camino en
+        cual el número de cálculos requeridos aumenta a medida que el 'look'
+adelante'
+        aumenta.
+
+        ESTRATEGIA B
+
+        Cuando Shannon se dio cuenta de que las computadoras de su época eran incapaces
+de
+        utilizar la estrategia B como una alternativa más sutil.  el
+esencial
+        La diferencia es que se utiliza la heurística 'generador de movimientos plausibles'.
+a
+        reducir el número de movimientos considerados en cada etapa y por lo tanto
+        aumenta el número de 'medios movimientos' por delante.
+Este
+El método tiene la desventaja de la posibilidad de omitir un
+vital
+        moverse si el 'generador de movimientos plausibles' no es del más alto
+        estándar.  Sin embargo, proporciona al ordenador más modesto la
+        Posibilidad de encontrar un movimiento razonablemente sólido durante varios movimientos.
+adelante.
+
+En realidad, Shannon nunca escribió un programa completo para realizar cualquiera de sus
+estrategias, pero establece algoritmos utilizados a partir de entonces por muchos jugadores de ajedrez.
+programas.  Demostró un profundo conocimiento de los factores limitantes.
+que plantearían problemas a los programadores de ajedrez durante muchos años hasta
+ven.
+
+LOS ALAMOS - MANIACO 1
+Se desarrolló uno de los primeros programas de ajedrez que se ejecutan en una computadora.
+a principios de la década de 1950 por un grupo del Laboratorio Científico de Los Alamos,
+Nuevo México.  Probablemente se trataba de una forma de relajación después de su
+esfuerzos para producir la primera bomba de hidrógeno.  Los científicos, Wells,
+Walden, Kister, Stien y Ulam desarrollaron su programa en la IBM de 30 toneladas
+monstruo MANIAC 1. Al tratar de reducir la explosión de cálculos
+hicieron un poco de trampa programando un tablero de ajedrez de 6 por 6 sin
+obispos.
+
+Este programa fue derrotado primero por un jugador bastante fuerte a pesar de la
+al programa se le da una ventaja inicial de reina.  Luego pasó a enfrentar
+un retador especialmente preparado al que le habían enseñado a jugar al ajedrez
+semana antes se vio envuelto en la refriega y, como era de esperar, fue derrotado
+después de 23 movimientos.  La historia no registra el nombre de este retador pero
+obtuvo el dudoso honor de ser la primera en burlar al ajedrez
+por una computadora.
+
+PROGRAMAS DE AJEDREZ MODERNOS
+Como verdaderas computadoras, reconocibles como las antepasadas de nuestra actual
+máquinas, se desarrollaron a principios de la década de 1950 en la carrera para producir
+El programa definitivo de ajedrez estaba en marcha y todavía continúa hoy.  En 1974 el
+Las escaramuzas internas entre computadoras de ajedrez se formalizaron en el primer
+Campeonato mundial de ajedrez por ordenador en Estocolmo.  Las mejores computadoras jugaron
+entre sí según las reglas del torneo (con algunas modificaciones para hacer frente a
+fallas del sistema).  El programa ruso KAISSA ganó el primero de lo que iba a ser
+ser un evento regular.  Desde entonces, la competencia también se ha extendido a una
+evento de microcomputadora que tiende a ser más una prueba de programación que
+poder de procesamiento.
+
+La carrera siempre ha sido un desafío a tres bandas, entre las computadoras.
+entre sí y entre ordenadores y jugadores de ajedrez.  El proceso de la
+Las computadoras y su programación se pueden rastrear a través de la creciente
+nivel de jugadores requerido para derrotarlos.  De novato en la década de 1950.
+hasta dominar en la década de 1980, parece que los humanos están luchando contra un
+perdiendo la batalla.  Quizás sea así, pero las etapas finales de la guerra bien pueden
+durar más de lo esperado.
+
+
+LAS REGLAS DEL AJEDREZ
+El ajedrez es el juego de estrategia estilizado más antiguo conocido en el mundo moderno.
+Es un juego para dos jugadores y se juega en un tablero de ocho por ocho.
+con 16 piezas blancas y 16 piezas negras (generalmente conocidas como hombres).  el
+Las filas horizontales de cuadrados del tablero se conocen como filas y las verticales.
+filas como archivos.  El cuadrado inferior derecho siempre es blanco y el
+Las reinas ocupan casillas de su propio color.
+
+El objetivo final en el ajedrez es dar jaque mate al rey del oponente.  mientras
+el Rey nunca es capturado y retirado del campo de juego, puede ser
+atacado (controlado) y amenazado con ser capturado.  Cuando esto sucede, el
+King debe liberarse inmediatamente.  Si esto no es posible, el
+El rey ha sido jaque mate.  El bando que se encuentra en jaque mate.
+pierde el juego.
+
+MOVIMIENTOS DE LOS HOMBRES
+El jugador se turna y las blancas hacen el primer movimiento.  uno puede ser
+movido en cada turno, excepto en el caso de "enroque" (ver Especial
+Movimientos).  Todas las piezas de un jugador pueden moverse a una casilla.
+ocupado por una de las piezas de su oponente, puede capturar la pieza y
+ocupar su lugar en la plaza.  La pieza capturada se retira del
+tablero.  El Caballero es la única pieza que puede saltar por encima de los demás hombres.
+
+LA REINA
+Esta es la pieza más poderosa.  Puede mover cualquier número de casillas en
+cualquier dirección siempre que su camino no esté obstruido.
+
+EL REY
+El Rey puede moverse una casilla a la vez en cualquier dirección.  Puede que nunca
+entrar en jaque.
+
+LA TORRE
+La Torre o el Castillo pueden mover cualquier número de casillas sin obstáculos, ya sea
+por rango o por fila (horizontal o verticalmente).
+
+EL OBISPO
+El alfil puede mover cualquier número de casillas sin obstáculos en diagonal.  si un
+El alfil está en una casilla oscura y solo puede alcanzar las otras casillas oscuras.  en
+Al comienzo de un juego, cada jugador tiene un alfil de "cuadrado oscuro" y un alfil "claro".
+Obispo cuadrado.
+
+EL CABALLERO
+El movimiento del Caballo difiere de los demás.  Salta de su viejo a su
+nuevo cuadrado y puede saltar sobre otras piezas para alcanzar su nueva posición.  eso
+siempre aterriza en un color opuesto al cuadrado que deja.  como con
+A otros hombres, un Caballero los captura ocupando una posición del oponente.
+
+EL PEÓN
+El peón se mueve sólo en línea recta, pero captura en diagonal.  se mueve
+un cuadrado a la vez, pero en su primer movimiento tiene la opción de
+moviendo uno o dos cuadrados.
+
+PROMOCIÓN DE EMPEÑO
+Si un peón avanza exitosamente a la retaguardia contraria, logra
+promoción.  Puede seguir siendo un peón pero el jugador puede reemplazarlo con un
+pieza más poderosa.  Al asumir los poderes de una pieza más poderosa,
+el peón ascendido puede atacar (jaquear) inmediatamente al rey del oponente.
+
+
+MOVIMIENTOS ESPECIALES
+
+EIN PASANTE
+Esta es una captura de peón especial y literalmente significa "de paso".  el
+La oportunidad surge cuando un peón, que está haciendo su movimiento inicial, elige
+avanzar dos casillas, como para evitar ser capturado por el oponente.
+Peón.  El oponente puede entonces capturar, como si el peón se hubiera movido sólo una vez.
+cuadrado.  Si la opción de captura no se ejerce inmediatamente, el Ein
+Se pierde una oportunidad pasajera.
+
+ENROQUE
+Cada jugador puede 'enrocarse' una vez durante un juego.  El enroque es un movimiento especial.
+que permite al jugador mover dos hombres a la vez (rey y torre) y es
+Sólo está disponible si se cumplen condiciones especiales.  El efecto del movimiento es
+para poner al Rey en una posición más segura y permitirle a la Torre más movilidad.
+Se permite el enroque en el flanco de rey o en el flanco de dama.
+
+Las condiciones para el enroque son:
+
+1. Ni el rey ni la torre involucradas pueden haber movido desde la
+inicio de
+        el juego.
+
+2. No puede haber hombres de ningún color entre el Rey y la Torre.
+        involucrados.
+
+3. El Rey no puede enrocarse fuera de jaque, mediante jaque o en
+cheque.
+
+VERIFICAR Y VERIFICAR
+Si un Rey se coloca en una situación en la que, en el siguiente movimiento del oponente,
+podría (si hubiera sido otra pieza) ser capturado, se dice que está en
+cheque.  Un Rey nunca puede entrar en jaque.  Cuando se coloca un rey en
+control por parte del lado contrario, el jugador debe:
+
+1. Captura la pieza atacante.
+
+2. Obstruir la pieza atacante.
+
+3. Mueve al Rey fuera del alcance de la pieza atacante.
+
+Si nada de esto es posible, el Rey está en jaque mate y el oponente
+lado gana.
+
+ESTANCADO
+Si un jugador no puede hacer ningún movimiento legal sin poner en jaque a su Rey,
+la situación se llama punto muerto y el juego se considera empate.
+
+
+INSTRUCCIONES DE JUEGO
+The Art of Chess se controla completamente desde las opciones del menú y desde
+aparatos de pantalla.
+
+SELECCIÓN DE LOS MENÚS DEL ARTE DEL AJEDREZ
+Para mostrar una opción de menú, presione el botón derecho del mouse.  deberías
+vea lo siguiente en la parte superior de la pantalla:
+
+PROJECT PLAY EDITAR SONIDO ESPECIAL RELOJES
+
+Estos son los títulos del menú principal.  Ahora, con el botón derecho todavía
+hacia abajo, mueva la flecha sobre uno de los títulos.  Aparecerá una lista de opciones.
+aparecerá bajo el título que haya seleccionado.  Al mover la flecha hacia abajo
+la lista, las opciones se resaltarán a su vez.  En algunos casos, un
+También aparecerá una lista adicional de 'subopciones'.  Para seleccionar una opción o
+subopción, suelte el botón derecho del mouse mientras esa opción está
+resaltado.
+
+JUGAR UN JUEGO
+Las dos primeras opciones en PROYECTO son:
+
+Iniciar juego con Amiga White
+Iniciar juego con Amiga Black
+
+Para iniciar un juego, todo lo que tienes que hacer es seleccionar uno de estos.  tu puedes hacer
+esto en cualquier momento, incluso cuando hay un juego en curso.  Por supuesto, si lo haces
+Esto sin guardar (ver más adelante) se pierde cualquier juego actual.
+
+Cuando comienzas un juego, las piezas de ajedrez se ordenarán solas en el
+posiciones de apertura en el tablero.
+
+MOVER UNA PIEZA
+Para mover una pieza, coloque la flecha sobre la pieza que desea mover y
+presione el botón izquierdo del mouse.  Con el botón aún presionado, arrastre el
+pieza a un nuevo cuadrado y suelte el botón.  Si el movimiento es legal, el
+La pieza se posicionará en el centro del cuadrado y el Amiga
+Empezará a pensar en su respuesta.  Si el movimiento es ilegal, la pieza
+saltará de regreso al cuadrado de donde vino.
+
+PROMOCIÓN
+Ocasionalmente, El Arte del Ajedrez puede olvidarse de sí mismo hasta el punto de permitirle
+para promover un peón.  Si esto sucediera alguna vez, imágenes de silueta del
+Las piezas principales aparecerán en la pantalla.  Simplemente haga clic (botón izquierdo)
+sobre la pieza que deseas promocionar.
+
+ENROQUE
+Cuando un movimiento de enroque es legal, puedes realizar el movimiento moviendo el Rey.
+sólo al cuadrado objetivo.  El Arte del Ajedrez completará la operación
+moviendo el castillo por ti.
+
+LA LÍNEA DE COMENTARIOS
+Durante el transcurso del juego y cada vez que seleccionas un gadget o menú
+opción, la línea superior de la pantalla mostrará un mensaje indicando el
+Estado actual de la máquina.  La línea de comentarios proporciona información.
+como cuándo es tu movimiento, cuándo estás en jaque, etc., así como también
+Breves instrucciones sobre el uso de una opción seleccionada.
+
+
+EL DISPOSITIVO PARA VIAJAR EN EL TIEMPO
+En el lado derecho del tablero, hacia la parte superior de la pantalla, hay un
+objeto como flecha.  Este es el 'Gadget para viajar en el tiempo'.  El tiempo
+Travel Gadget te permite avanzar y retroceder en cualquier juego
+en curso, recuperando o restaurando piezas.
+
+RETOMAR MOVIMIENTOS
+Para retroceder el último movimiento (el tuyo del Amiga), coloca el puntero
+sobre la parte de la flecha que apunta lejos de usted y presione el botón izquierdo del mouse
+botón.  Para restaurar un movimiento retirado, use el mismo procedimiento, pero esto
+vez seleccione la parte de la flecha que apunta hacia usted.
+
+Cuando utilizas el dispositivo de viaje en el tiempo, el juego en curso se interrumpe temporalmente.
+detenido.  Cuando esté satisfecho con el estado del tablero, presione el botón
+botón izquierdo sobre la parte media del Time Travel Gadget y juega
+se reanudará.
+
+El gadget para viajar en el tiempo puede ser muy útil, no sólo para llevar
+se mueve.  Si has estado mirando lejos de la pantalla cuando el Amiga
+último movimiento, simplemente active los 'botones' RETIRAR, RESTAURAR y REANUDAR
+para repetir el movimiento.
+
+El Time Travel Gadget también se utiliza para 'navegar' a través de un archivo guardado o
+juego de biblioteca (ver más adelante).
+
+ANÁLISIS DE AJEDREZ
+Al utilizar las opciones de Análisis del Arte del Ajedrez, tienes la completa
+libertad para invocar todo el poder del procesador de ajedrez en el corazón de
+El software del arte del ajedrez.
+
+Puedes resolver problemas de ajedrez, iniciar una partida desde una posición determinada o
+deja que el procesador funcione durante horas; para encontrar el mejor movimiento a partir de un complicado
+posición.  El Arte del Ajedrez te brinda herramientas básicas; cómo los usas es
+depende de ti.
+
+Estas son las instalaciones que necesitará:
+
+Para obtener una explicación completa, consulte la lista de opciones de menú al final de este artículo.
+manuales.
+
+1. El gadget de viaje en el tiempo que te permite retroceder y
+adelante
+        a través de una secuencia de movimientos a voluntad.
+
+2. Opciones del menú INICIAR JUEGO y DETENER JUEGO.
+
+3. El cambio de bando, HUMAN vs AMIGA, AMIGA vs AMIGA y HUMAN vs
+HUMANO
+        opciones de menú.
+
+4. Los relojes de ajedrez.
+
+5. La opción MOSTRAR MOVIMIENTOS LEGALES.
+
+6. MOSTRAR COMO SE ATACA UN CUADRADO y MOSTRAR COMO SE ATACA UN CUADRADO
+DEFENDIDO
+        opciones.
+
+7. El medidor de rendimiento.
+
+8. Las opciones de ESTABLECER POSICIÓN.
+
+9. Los controles de habilidad.
+
+10. Las opciones BLANCO PARA JUGAR y NEGRO PARA JUGAR.
+
+11. La opción MIRA LA AMIGA PENSAR.
+
+Todas estas instalaciones están disponibles en cualquier momento, sin embargo, no se requiere procesamiento.
+se llevará a cabo hasta que selecciones una de las opciones de Iniciar juego.
+
+Para configurar un problema, utilice cualquiera de las opciones 3, 4, 7, 8 y 10.
+
+Para comenzar a procesar, use la opción 2.
+Durante el procesamiento, utilice 1, 3, 4, 5, 6, 7, 9, 10 y 11.
+
+EJEMPLO DE ANÁLISIS
+El Arte del Ajedrez proporciona muchas facilidades para analizar el ajedrez
+posiciones, que este manual sólo puede servir como guía.  lo siguiente
+ilustra un ejemplo sencillo de análisis de ajedrez.
+
+Supongamos que deseamos establecer una posición de ajedrez y luego comenzar a jugar con el
+Amiga jugando en ambos bandos.  Supongamos también que deseamos comenzar con negro.
+para jugar.
+
+1. Seleccione ESTABLECER UNA POSICIÓN DESDE UN TABLERO VACÍO en el menú EDITAR.
+
+2. Utilice el ratón para mover las piezas al tablero en la posición deseada.
+        posiciones.
+
+3. Cuando estés satisfecho con la posición, selecciona NEGRO PARA JUGAR
+de
+        el menú JUGAR.
+
+4. Finalmente, seleccione la opción Iniciar juego del menú PROYECTO.
+
+A medida que avanza el juego, podrás avanzar y retroceder
+a través de los movimientos jugados hasta el momento, usando el 'Dispositivo de viaje en el tiempo', cambia el
+controles de habilidades, alterar movimientos, etc.
+
+CAMBIAR LA PANTALLA
+El Arte del Ajedrez te ofrece una amplia gama de opciones sobre la forma en que
+Se muestran el tablero y las piezas.  Puedes cambiar la pantalla en cualquier momento,
+incluso a mitad del juego.  Cuando experimentas con estas opciones (explicadas
+a continuación) encontrará que es muy posible diseñar una pantalla que
+¡Hace imposible jugar un juego!  Por esto, El Arte
+of Chess te ofrece una serie de vistas y colores de tablero estándar
+combinaciones a las que se puede volver en cualquier momento.
+
+VISTA DEL TABLERO ESTÁNDAR
+Debajo del encabezado del menú ESPECIAL, encontrará una opción llamada CAMBIAR
+JUNTA.  Mueva la flecha sobre esta opción para mostrar tres miniaturas.
+Imágenes del tablero en varias posiciones.  Seleccione uno de estos
+imágenes de la forma habitual para ver una nueva vista del tablero.
+
+COLORANTES ESTÁNDAR
+Además, dentro del ESPECIAL está la opción CAMBIAR COLOR.  Mueve la flecha
+sobre esta opción para revelar un submenú que ofrece tres configuraciones estándar,
+REGULAR, CLUB y CAFÉ.
+
+VISTAS DEL TABLERO PERSONALIZADAS
+The Art of Chess contiene un modelo 3D interno de un tablero real que puede
+ser visto desde cualquier ángulo.  Mover el tablero es como mover
+una ventana de Amiga.  Para ver el tablero desde una posición diferente, coloque el
+flecha en algún lugar sobre el borde del tablero y mantenga presionada la izquierda
+botón.  Inmediatamente, verá un esquema del tablero.  mientras te mueves
+Al presionar el mouse, este contorno cambiará de forma y posición.  Un de izquierda a derecha
+El movimiento gira el tablero y un movimiento hacia arriba y hacia abajo lo inclina.  cuando tu
+suelte el botón del mouse y se mostrará la nueva vista.
+
+SELECCIÓN DE COLOR PERSONALIZADA
+Para cambiar el color de la pantalla, seleccione la subopción PERSONALIZAR en CAMBIAR
+Opción COLOR.  Aparecerán tres controles deslizantes en la parte superior de la
+pantalla.  El control deslizante funciona de manera similar al color de Preferencias.
+Controles, ajustan la cantidad de rojo, verde y azul en un punto determinado.
+en la pantalla.
+
+DISEÑANDO TUS PROPIAS PIEZAS DE AJEDREZ
+Para hacer esto necesitas una copia de Deluxe Paint de Electronic Arts.
+
+Para diseñar una pieza, debes diseñar un pincel de un tamaño específico que
+contiene la nueva imagen de la pieza.  En su disco Art of Chess, en el menú personalizado
+En el cajón de piezas, encontrarás un pincel llamado Piece-Pro-Forma.  esto es
+simplemente un área de color que tiene el tamaño adecuado para una pieza de ajedrez.
+Su pieza no necesariamente debe llenar esta área por completo, sin embargo,
+Para un posicionamiento correcto en el tablero, la base de la pieza debe asentarse
+en el centro del borde inferior del cepillo.
+
+Puedes utilizar hasta cuatro colores en el diseño de tu pieza y estos
+deben ser los colores 13, 14, 15 y 16 en la resolución media de Deluxe Paint
+palet.
+
+Una vez que hayas diseñado tu pieza, guárdala en el cajón de piezas personalizadas.
+del disco The Art of Chess bajo el nombre de Peón, Caballo, Torre, Alfil,
+Reina o Rey, reemplazando los pinceles de aquellos nombres que ya están en este
+directorio.
+
+Una vez que hayas rediseñado una o más de las piezas, deberás completar un
+Procedimiento sencillo para instalar las nuevas imágenes.  Esto es lo siguiente:
+
+1. Utilice su disco Workbench para iniciar Amiga de la forma normal.
+
+2. Montar El Arte del Ajedrez en df0:
+3. Haga doble clic en el icono de The Art of Chess para abrir The Art of Chess.
+        ventana.
+
+4. Ahora escribe el comando INSTALAR.
+
+Aparecerá una nueva ventana para brindar un comentario continuo sobre el progreso de
+el procedimiento de instalación.  Cuando esto termine, la ventana
+desaparecer.  Sus nuevas piezas ya están instaladas.
+
+La próxima vez que utilices El Arte del Ajedrez y selecciones USAR PIEZAS PERSONALIZADAS de
+En el menú PROYECTO, tus nuevas piezas reemplazan a las originales.  para restaurar el
+Piezas de Art of Chess, simplemente vuelva a seleccionar la opción.
+
+
+OPCIONES DEL MENÚ
+En Art of Chess, la barra de menú no es visible hasta que presionas
+el botón DERECHO del ratón.  Para seleccionar una opción del menú, coloque el
+puntero del mouse y suelte el botón DERECHO del mouse.
+
+PROYECTO
+
+COMENZAR EL JUEGO CON AMIGA BLACK
+Esta opción hace que comience un juego.  Normalmente, las piezas se acomodarán
+ellos mismos en el tablero en la posición de apertura estándar.  Sin embargo, si
+previamente has seleccionado una de las opciones de Editar para configurar un ajedrez
+posición, el juego comenzará desde la posición que haya establecido.  ningún juego puede
+comienza a menos que haya ambos reyes en el tablero.
+
+COMENZAR EL JUEGO CON AMIGA BLANCO
+Esta opción es exactamente la misma que la anterior excepto que el Amiga reproducirá
+blancas y jugarás con negras.
+NOTA: Si ha seleccionado la opción Amiga vs Amiga o Human vs Human
+desde el menú Reproducir, esta posición en el menú Proyecto ofrecerá la
+opción única Iniciar juego.
+
+SALIR O RENUNCIA AL JUEGO
+Selecciona esta opción para salir/renunciar a un juego en curso, selecciónala
+nuevamente para eliminar todas las piezas del tablero.
+
+CARGAR NUEVO JUEGO
+esta opción te permite cargar uno de los juegos de Grandmaster
+ya guardado en tu disco de Art of Chess, o para cargar un juego que ya
+previamente guardado.  En cualquier caso, se le pedirá que escriba el nombre de
+el juego que deseas cargar.  Para obtener detalles de la biblioteca, consulte 'The
+Biblioteca Grandmaster Classic' de este manual.  Haga clic en el puntero
+en el texto 'mi-juego' y borre el texto.  Luego escribe el nombre del juego.
+a cargar y presione regresar.  Ahora seleccione el ícono Aceptar debajo de su
+nombre de archivo.
+
+GUARDAR EL JUEGO ACTUAL
+Siga el mismo procedimiento establecido para cargar un archivo como se detalla anteriormente.
+Cuando hayas hecho esto, todos los movimientos realizados hasta el momento en el juego actual
+guardarse en el disco El Arte del Ajedrez.
+
+DEJAR EL AJEDREZ
+Esta opción no se sale de El Arte del Ajedrez, simplemente
+muestra instrucciones para hacerlo.  Para salir de The Art of Chess, elimine
+El disco The Art of Chess y presiona CTRL y las dos teclas de Amiga
+juntos.  La máquina se reiniciará y después de unos segundos el
+Aparecerá la pantalla de solicitud de Workbench estándar.
+
+MOSTRAR/BORRAR COORDENADAS DEL TABLERO
+Seleccione esta opción para mostrar las coordenadas del tablero de ajedrez a lo largo de los lados
+del tablero.  Para eliminar las coordenadas, simplemente vuelva a seleccionar la opción.
+
+CAMBIAR TAMAÑO Y FORMA DE TABLERO
+Una vez seleccionado, puede arrastrar la esquina inferior derecha del tablero y
+gírelo en cualquier dirección.
+
+REGLAS DEL TORNEO
+Las partidas de torneo se juegan con un reloj de ajedrez con un movimiento predeterminado.
+ritmo, con los movimientos siendo registrados.  A cada jugador se le asigna una determinada
+cantidad de tiempo en su reloj para un número determinado de movimientos.  La tarifa habitual
+de juego en los torneos es uno de los siguientes:
+
+R: 40 movimientos durante las primeras 2½ horas, 16 movimientos para cada hora posterior
+hora
+        (la sesión dura 5 hrs).
+
+B: 45 movimientos durante las primeras 2½ horas, 18 movimientos para cada subsiguiente
+hora
+        (la sesión dura 4 hrs).
+
+C: 36 movimientos durante las primeras 2 horas, 18 movimientos para cada hora posterior
+hora
+        (la sesión dura 4 hrs).
+
+D: 40 movimientos durante las primeras 2 horas, 20 movimientos para las siguientes
+hora
+        (la sesión dura 4 hrs).
+
+E: 50 movimientos durante las primeras 2½ horas, 20 movimientos para las siguientes
+hora
+        (la sesión dura 5 hrs).
+
+Seleccione una de las subopciones. Tipo A, Tipo B, Tipo C, Tipo D o Tipo E
+para seleccionar su elección.
+
+IMPRIMIR UN JUEGO
+Cuando haya seleccionado esta opción, se le presentará el mismo
+solicitante como cargar/guardar un juego.  Escribe el nombre al que deseas llamar
+el archivo impreso y seleccione Aceptar.  Luego el archivo se guarda en el disco para
+impresión.  Para imprimir el archivo guardado haga lo siguiente:
+
+1. Utilice los discos de su Workbench para iniciar el Amiga de la forma normal.
+
+2. Inserte The Art of Chess en el disco interno.
+
+3. Haga doble clic en el icono de The Art of Chess para abrir The Art of Chess.
+        ventana.
+
+4. Ahora ejecuta el programa 'Print-Game'.
+
+5. Seleccione el número apropiado 1-3.
+
+6. Escriba el nombre del archivo que desea imprimir.
+
+Una vez impreso el archivo, el programa terminará devolviéndole a
+la pantalla del banco de trabajo.  Es importante que las preferencias sean correctas.
+configuración de su impresora.  (Consulte la sección 6-1 de su manual del propietario para
+asistencia sobre preferencias).
+
+GUARDAR CONFIGURACIÓN GRÁFICA
+Art of Chess te permite manipular el tablero de muchas maneras.  estos
+incluir rotar, cambiar colores, etc. Cuando usas 'Guardar gráfico
+Configuración', Art of Chess guardará todos los parámetros necesarios
+para configurar el tablero según el aspecto que usted diseñó.
+
+JUGAR
+
+CAMBIAR DE LADO
+Te permite cambiar de bando en cualquier momento durante el juego.
+
+HUMANO CONTRA HUMANO
+Cuando inicias un juego (ver Proyecto) con esta opción seleccionada, puedes
+use la pantalla The Art of Chess como un tablero de ajedrez normal y juegue
+partida ordinaria de ajedrez.  El Arte del Ajedrez, sin embargo, sólo permitirá
+movimientos legales.  Todas las opciones de análisis todavía están disponibles y puedes
+Todavía uso funciones como Mostrar movimientos legales y Mostrar movimientos de ataque o
+Mostrar defensa.
+
+AMIGA CONTRA AMIGA
+Esto hace que el Amiga juegue contra sí mismo.  A menos que el juego esté en
+progreso, el juego no comenzará hasta que selecciones uno de los modos de inicio del juego.
+opciones.  Utilice esta opción para hacer que El Arte del Ajedrez resuelva problemas en su
+propio.
+
+HUMANOS VS AMIGA
+Esto se explica por sí mismo.  A menos que haya un juego en curso, juega
+no comenzará hasta que selecciones una de las opciones de Iniciar juego.
+
+BLANCO PARA JUGAR
+Esta opción se puede utilizar para decirle a The Art of Chess que las blancas van a jugar.
+cuando se ha planteado un problema de ajedrez o para obligar a un bando en particular a
+jugar cuando un juego (o análisis de un problema) está en progreso.
+
+NEGRO PARA JUGAR
+Esta opción le dice al programa que es 'Black to Play'.
+
+FORZAR UN MOVIMIENTO
+Utilice esta opción mientras el Amiga esté pensando en obligar al Amiga a hacer una
+moverse.  También debes usarlo para controlar la opción 'sin límite de tiempo'
+(ver Cambiar habilidad).  Esta opción no siempre funcionará de inmediato.
+
+MONTAÑAS
+En lugar de un tablero de ajedrez convencional, la función "Montañas"
+Introduce montañas en el tablero.
+
+SUGERIR UN MOVIMIENTO
+Como lo indica el título, esta opción hace que Amiga evalúe su
+posición actual y sugerir un movimiento.  Como esto es sólo una sugerencia,
+Es para que usted decida si lo va a utilizar.
+
+EDITAR
+Las tres opciones bajo este título te permiten configurar una posición de ajedrez para
+juego o análisis posterior.
+
+CONFIGURAR DESDE EL TABLERO VACÍO
+Elimina cualquier pieza del tablero.
+
+CONFIGURAR DESDE LA POSICIÓN DE APERTURA
+Dispone las piezas en la posición de apertura estándar.
+
+ESTABLECER DESDE LA POSICIÓN ACTUAL
+No cambia la posición actual del tablero en absoluto y puede usarse para
+'hacer trampa' cambiando la posición mientras el juego está en curso.
+
+Cuando hayas seleccionado una de estas opciones, podrás mover piezas
+con bastante libertad.  Para quitar una pieza del tablero, simplemente muévala a
+la parte inferior de la pantalla.  Se organizará en la fila de
+piezas 'capturadas'.  Para colocar una pieza en el tablero, simplemente recógela en
+de la forma habitual y colóquelo sobre un cuadrado.  Una vez que haya configurado un
+posición, debes informarle al Amiga qué lado jugará primero
+seleccionando Blanco para jugar o Negro para jugar en el menú Proyecto.
+Finalmente, para comenzar a jugar, seleccione Iniciar juego con Amiga White o Amiga Black.
+desde el menú Proyecto.
+
+ESPECIAL
+
+CAMBIAR COLORES
+Hay cuatro subopciones bajo esta opción.
+
+REGULAR: Estos son los colores de encendido predeterminados.
+
+CAFÉ: Esta es una configuración de color predefinida.
+
+CLUB: Esta es una configuración de color predefinida.
+
+PERSONALIZADO: Cuando selecciona esta subopción, el estilo de preferencias habitual
+Los controles deslizantes de color aparecen en la pantalla.  Para seleccionar el color que desea
+ajustar, coloque la flecha de modo que apunte a un área de este color,
+haga clic en el botón izquierdo y ajuste los controles deslizantes.  Haga clic en Aceptar cuando tenga
+terminado.
+
+
+CAMBIAR TABLA
+Esta opción le ofrece la posibilidad de elegir entre cinco vistas de tablero estándar representadas
+como fotografías en miniatura del tablero de ajedrez; tres vistas de un tablero 3D y
+dos vistas de un 2D.  Además de estas cinco vistas estándar, existe
+También una vista de edición 3D.  Para utilizar cualquiera de las cinco vistas estándar, simplemente
+suelte el botón derecho del ratón cuando haya resaltado su elección.
+
+EDITAR: Sin embargo, puedes mover el tablero a cualquier posición sin seleccionar
+una opción de menú simplemente "agarrando" el borde del tablero, tal como lo haces
+haría una pieza, y arrastrándola a una nueva posición.  Un movimiento lateral
+provoca la rotación de la tabla y un movimiento hacia arriba/abajo provoca un movimiento de inclinación.
+
+CAMBIAR HABILIDAD
+Hay tres niveles actuales además de un nivel editable.  el
+El nivel editable aparece con dos controles deslizantes.  El control deslizante marcado
+'habilidad', ajusta el tiempo que el Amiga, en promedio, debe estar
+permitido un movimiento.  La escala va de 6 segundos a 3,2 minutos con
+Sin límite de tiempo fijado al final de la escala.  Si mueves el control deslizante
+En el área sin límite de tiempo, The Art of Chess nunca hará un movimiento.
+hasta que selecciones Forzar un movimiento en el menú Jugar.  Puedes usar esto
+facilidad para permitir que el Amiga piense durante la noche o más en el
+posición complicada.  El segundo control deslizante marcado como Agresión cambia el nivel.
+de Agresividad que muestra El Arte del Ajedrez.  Un escenario intermedio
+produce un juego de estilo promedio.  Haga clic en Aceptar cuando haya terminado.
+
+MOSTRAR MOVIMIENTOS LEGALES
+Para mostrar los posibles movimientos de una pieza en particular, seleccione esta opción
+y luego haga clic (botón izquierdo) en una pieza.  Las plazas alcanzables por ese
+pieza en un solo movimiento cambiará de color.  Tendrás que seleccionar esto.
+opción para cada pieza seleccionada.
+
+MEDIDOR DE RENDIMIENTO ENCENDIDO/APAGADO
+Esta opción muestra una indicación en pantalla de la evaluación del Amiga.
+de la posición actual del juego.  Si el medidor muestra cantidades iguales de
+'negro' y 'blanco', el Amiga considera que el negro está 'pegada a cabeza'
+con blanco.  Cuanto más de un color particular se muestra en la escala, más
+Mejor la posición de ese lado.
+
+MOSTRAR ATAQUE
+Esto funciona igual que Mostrar Defensa, excepto que los cuadrados resaltados
+identificar piezas que podrían capturar una de tus piezas en caso de que ocupe
+esa plaza.
+
+MOSTRAR DEFENSA
+Cuando seleccionas esta opción y luego haces clic (botón izquierdo) en un cuadrado,
+Algunos otros cuadrados cambiarán de color.  Las piezas en estos cuadrados
+'defender' el cuadrado que has seleccionado en el sentido de que pueden capturar
+una de las piezas del Amiga en la casilla seleccionada en un solo movimiento.
+
+MIRA EL AMIGA THINK ON/OFF
+Esta opción produce una visualización gráfica muy reveladora del Amiga.
+Análisis de la posición actual del consejo.  Las áreas indican lo que El Arte
+del Ajedrez considera la mejor jugada, la mejor respuesta a esa jugada, la mejor
+responder a esa respuesta y así sucesivamente.
+
+UTILICE PIEZAS PERSONALIZADAS/REGULARES
+Esta opción hace que se muestren las piezas definidas por el usuario en lugar de
+los habituales de Art of Chess.  Para volver a las piezas de El arte del ajedrez,
+simplemente seleccione esa opción nuevamente.  Para más detalles sobre la personalización
+tus piezas, consulta la sección 'diseñar tus propias piezas' en la
+instrucciones de juego.
+
+RELOJES
+Las opciones bajo estos títulos son: -
+
+Pausa, inicio de reloj, parada de reloj y reloj a cero (blanco, negro o ambos)
+
+Los relojes son relojes de ajedrez estándar.  Cada uno muestra cuánto tiempo
+jugador ha utilizado hasta ahora al considerar sus movimientos.
+
+SONIDO
+
+COMENTARIO DE VOZ
+Esto hace que Amiga haga un comentario sobre el juego y el uso de
+diversas instalaciones.
+
+SEÑAL DE VOZ
+En este modo, el Amiga anuncia únicamente cada movimiento.
+
+SILENCIO ATERCIOPELADO
+Esta opción cancela tanto los comentarios de voz como las indicaciones de voz.
+
+ADVERTENCIA: Siempre que guarde un archivo en el disco The Art of Chess, asegúrese de
+el disco NO está protegido contra escritura.  De lo contrario se producirá un error irrecuperable.
+ocurrir.
+
+
+BIBLIOTECA CLÁSICA GRANDMASTER
+Los siguientes juegos clásicos se encuentran en el cajón JUEGOS GUARDADOS de
+su disco El arte del ajedrez.  Para cargar uno de los juegos clásicos, seleccione el
+opción CARGAR JUEGO del menú PROYECTO.  Cuando se le solicite, escriba el
+nombre del juego que deseas cargar.  Los juegos tienen GM1 a GM30 como
+sigue.  Una vez que se ha cargado un juego, puedes usar la función 'Viaje en el tiempo'.
+Gadget' para navegar por el juego o comenzar a jugar en cualquier momento.
+
+GM1.      André Danican Philador - Capitán Smith, París, 1790
+GM2.      Charles Mahé de la Bourdonnais - Alexander McDonnell, Londres,
+1834
+GM3.      Howard Staunton - Pierre Saint-Amant, París, 1843
+GM4.      Adolf Anderssen - Lionel Kieseritzky, Londres, 1851
+GM5.      Adolf Anderssen - J Dufresne, Berlín, 1853
+GM6.      Joseph Henry Blackburne - Amos Burn, Nueva York, 1889
+GM7.      Henry Bird - Paul Morphy, Londres, 1858
+GM8.      Johannes Zukertort - Joseph Henry Blackburne, Londres, 1883
+GM9.      Wilhelm Steinitz - Mikhail Tchigoria, La Habana, 1891
+GM10.  Wilhelm Steinitz - Kurt Von Bardelben, Moscú, 1895
+GM11.  Harry Nelson Pillsbury - Emanual Lasker, San Petersburgo, 1895
+GM12.  Emanual Lasker - José Raúl Capablanca, San Petersburgo, 1914
+GM13.  Harry Nelson Pillsbury - Sieghert Tarrasch, Hastings, 1895
+GM14.  G Rotterie - Akiba Rubinstein, Lodz, 1908
+GM15.  Lewitzky - Frank Marshall, Breslau, 1912
+GM16.  Aaron Mimzorich - Salwe, Carlsbad, 1911
+GM17.  J Corzo - José Raúl Capablanca, La Habana, 1900
+GM18.  Ossip Bernstein - José Raúl Capablanca, 1914
+GM19.  Richard Reti - Alejandro Alekhine, Baden-Baden, 1925
+GM20.  Max Evwe - Alexander Alekhine, Zandvoort, 1935
+GM21.  Richard Reti - F Gruber, Viena, 1923
+GM22.  Paul Keres - Mikhail Botvinnik, Moscú, 1941
+GM23.  Paul Keres - Vasily Smyslov, Zúrich, 1954
+GM24.  Mijaíl Botvinnik - Vasili Smyslov, 1954
+GM25.  Mikhail Tal - Gideon Barczq, Sofía, 1962
+GM26.  Tigran Petroian - Mikhail Botvinnik, Moscú, 1961
+GM27.  Boris Spassky - David Bronstein, Leningrado, 1960
+GM28.  Donald Byrne - Bobby Fischer, Nueva York, 1956
+GM29.  Boris Spassky - Bobby Fischer, Rejkjavik, 1972
+GM30.  Victor Korchnoi - Anatoly Karpov, ciudad de Bagvio, 1979
+
+Fin.

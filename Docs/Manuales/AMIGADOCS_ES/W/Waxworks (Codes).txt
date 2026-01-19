@@ -1,0 +1,78 @@
+Palabras inferiores:
+-------------
+Egipto Inglaterra Alemania Grecia
+----------- ----------- ----------- --------------
+Murciélagos => 3 tornillos => 5 garras => 1 constructo => 3
+                            Canción => 6
+
+Hades Haití Irlanda Laberinto
+----------- ----------- ----------- --------------
+Colmillos => 4 Carne =>1 Hordas => 4 Cuernos => 2
+              Miedo => 6
+
+Mongolia Polonia Tíbet Translvania
+----------- ----------- ----------- --------------
+Serpientes => 1 Nieve => 2 Caninos => 4 No-muertos => 2
+Luna => 5 Cera => 6
+
+====================================================================
+
+Palabra en la parte superior derecha:
+------------------------
+
+Banshee Cerebus Drácula Franken- Ghengis Golem
+------- ------- ------- stein--- Khan--- -----
+8871 1632 1266 2244 5738 1673
+3298 1739 5478 7690 **** 4363
+1275 7821 3257 3420 1498 8723
+4452 3565 9189 7121 4738 3831
+8371 **** 8965 4345 8755 9921
+7031 9093 9265 8568 4940 ****
+
+Medusa Minotauro Momia Hombre Lobo Yeti Zombi
+------ -------- ----- ------- ---- ------
+5452 3628 1237 **** 1839 1738
+8241 1112 8790 1901 2906 2830
+8346 7637 2003 2188 9394 ****
+3408 **** 9382 1298 9415 9684
+3780 6779 8938 8543 8989 3482
+8236 6621 9301 8939 1927 7431
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+Símbolo:
+--------
+Ave Trapezoide Jarra Férula Humano Conejo
+----- ------ ---- ---- ------ ----
+3920 4902 7143 1313 4223 8543
+3483 6063 3899 4840 2325 3341
+6221 9101 7558 5843 4593 2823
+1419 2938 9222 5248 3095 8392
+4902 3042 3989 5983 9335 9133
+9001 2222 9544 9854 5932 8321
+
+Pájaro cuadrado con ojo de insecto w.   Copa "A"
+----- ---- ------- Círculo-- ---- ------
+1712 3482 5002 5832 4840 3483
+1933 4732 6000 8843 5893 2922
+8949 4884 4722 3732 2392 9585
+6432 9820 4629 4723 5904 3922
+7432 3287 2274 1135 9983 4463
+3843 4933 2288 5927 1934 4932
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+1. Busque la palabra en la parte inferior izquierda de los titulares de la sección "Palabras inferiores".
+2. Busca la palabra en la parte inferior derecha en la misma sección.
+3. Cuente horizontalmente el número de columnas desde la palabra en LL hasta la palabra en LR que comienza con 0. Este es el número N.
+4. Tome el número detrás de la palabra en el LR (N-ésima columna). Este es el número X.
+5. Busque la palabra en la parte superior derecha en la sección respectiva. Cuente N columnas horizontalmente (nuevamente, comenzando con 0).        Ahora estamos en la columna de destino. El código está en la línea X de esta columna.
+6. Si hay **** en lugar de un número, debes mirar el símbolo en la parte superior izquierda. Busque el símbolo en la sección "Símbolo" y cuente N columnas desde allí (nuevamente, comenzando con 0). El código está como X de la columna de destino.
+
+# Traducido del alemán por Genjuro
+# Agrietado por la noche y el día
+#  
+# Saluda a: NADIE
+#DA

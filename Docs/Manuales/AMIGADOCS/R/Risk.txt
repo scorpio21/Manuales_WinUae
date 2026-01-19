@@ -1,0 +1,988 @@
+                                  R I S I K O
+    
+
+                            Eine Spielanleitung von
+                                 Hartmut Stein
+    
+    
+                                 15-Juli-1988
+                          Bernstein-Zirkel Softworks
+    
+    Im Laufe dieser Anleitung soll im ersten Teil (Risiko - das Spiel) auf 
+    die  Grundprinzipien des Risiko-Spieles eingegangen werden. Im zweiten 
+    Teil (Risiko - das Computerspiel) wird dann die genaue  Bedienung  des 
+    Programmes erläutert.
+    In  den  Text  sind immer wieder Beispiele eingestreut, die das bisher 
+    Erläuterte anschaulicher machen sollen.
+    Sollte Ihnen das Brettspiel Risiko bereits bekannt sein, so können Sie 
+    sofort  mit dem Spielen beginnen. Die Unterschiede zwischen dem Brett- 
+    und dem Computerspiel sind minimal, zudem  ist  das  Computerspiel  so 
+    selbsterklärend wie möglich. Wesentlich ist allerdings noch der letzte 
+    Punkt  dieser  Anleitung  (Allgemeine Bemerkungen), da hier auf einige 
+    wissenswerte Eigenarten des Programms eingegangen wird.
+    
+                              Risiko - das Spiel:
+    
+    Die  Weltkarte ist aufgeteilt in sechs Kontinente (Nord- und Südameri- 
+    ka, Afrika, Europa, Asien und Australien) und 42  Länder.  Ziel  jedes 
+    Spielers  ist es, entweder eine vorgegebene Aufgabenstellung zu erfül- 
+    len oder aber die gesamte Welt zu erobern.
+    Zu  diesem  Zweck erhält jeder Spieler zu Beginn seines Zuges eine be- 
+    stimmte Anzahl Einheiten, die er beliebig in von ihm besetzte  Gebiete 
+    verteilen  kann.  Die Anzahl ergibt sich aus (Anzahl der Länder dieses 
+    Spielers) / 3, mindestens werden jedoch drei Einheiten  vergeben.  Be- 
+    sitzt  ein  Spieler zu Beginn seines Zuges ein oder mehrere Kontinente 
+    komplett, so erhält er noch zusätzliche Einheiten (je fünf für  Norda- 
+    merika  oder  Europa, je zwei für Südamerika oder Australien, drei für 
+    Afrika und sieben für Asien). Falls  der  Spieler  Karten  eintauschen 
+    möchte  (s.  u.),  so  werden auch die dafür erhaltenen Einheiten noch 
+    dazu addiert.
+    
+    Nachdem der Spieler alle Einheiten gesetzt hat,  kann  er  einen  oder 
+    mehrere  Angriffe  starten.  Angriffe können nur aus einem Land heraus 
+    stattfinden, in dem mindestens zwei  Einheiten  stationiert  sind,  da 
+    immer  wenigstens  eine  Einheit - die Besatzungsarmee - in jedem Land 
+    zurückbleiben muß. Das Verteidigungs- und  die  Angriffsländer  müssen 
+    eine gemeinsame Grenze haben, sonst kann ebenfalls kein Angriff statt- 
+    finden.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel  1: Spieler ROT hat 2 Einheiten in Mitteleuropa, 3 in Is- 
+          land und 5 in der Ukraine stationiert. Er möchte  Großbritannien 
+          angreifen. Er kann dies mit maximal 3 Einheiten tun - 1 aus Mit- 
+          teleuropa, 2 aus Island und keine aus der Ukraine, da die Ukrai- 
+          ne und Großbritannien keine gemeinsame Grenze haben.)
+    
+    ----------------------------------------------------------------------
+    
+    Nachdem  das  zu  verteidigende und das angreifende Land (oder die an- 
+    greifenden Länder) benannt wurde, beginnt der Angriff.
+    Zum Angriff können maximal so viele Einheiten herangezogen werden, wie 
+    verfügbar  sind (s. o.), zur Verteidigung werden alle Einheiten im an- 
+    gegriffenen Land benutzt.
+    Der Angreifer würfelt mit maximal drei Würfeln. Greift er mit  weniger 
+    als drei Einheiten an, so darf er auch nur mit einem bzw. zwei Würfeln 
+    würfeln.
+    Der Verteidiger würfelt nun ebenfalls mit maximal drei Würfeln. Hat er 
+    weniger  als  drei  Einheiten, so darf auch er nur mit einem bzw. zwei 
+    Würfeln würfeln.
+    Die Würfel werden der Höhe der geworfenen Zahl nach geordnet und  dann 
+    miteinander verglichen. D.h., der höchste Wurf des Angreifers wird mit 
+    dem  höchsten  Wurf  des Verteidigers verglichen, der zweithöchste mit 
+    dem zweithöchsten und der niedrigste mit dem  niedrigsten.  Bei  jedem 
+    einzelnen  Vergleich verliert der Spieler mit dem niedrigeren Wurf und 
+    muß eine seiner Einheiten vom Spielfeld entfernen. Sind  beide  Zahlen 
+    gleich, verliert immer der Angreifer.
+    
+    Diese Prozedur spielt sich IMMER so ab, unabhängig davon, ob Angreifer 
+    und Verteidiger eine unterschiedliche Anzahl Würfel benutzen.
+    Nach  jeder  Angriffsrunde (d.i. Würfeln und Vergleich der Ergebnisse) 
+    kann der Angreifer entweder den Angriff fortsetzen,  solange  er  noch 
+    über  Einheiten verfügt, oder den Angriff abbrechen. In letzterem Fall 
+    müssen die zum Angriff benutzten Einheiten wieder an die  Länder  ver- 
+    teilt  werden,  in denen sie vor Beginn des Angriffs standen. Kein An- 
+    griffsland darf nach einem Angriff mehr Einheiten enthalten  als  vor- 
+    her !
+    Sind alle Einheiten des Verteidigers vernichtet, hat der Angreifer das 
+    Land gewonnen. Alle Einheiten, mit denen angegriffen wurde, müssen  in 
+    das eroberte Land gesetzt werden.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 2: Siehe Beispiel 1. Spieler GRAU hat in Großbritannien 2 
+          Einheiten  stationiert.  Spieler  ROT attackiert ihn mit allen 3 
+          möglichen Einheiten. D.h., ROT darf mit 3  Würfeln  würfeln  und 
+          GRAU  mit  2. ROT würfelt 2, 6, 5, GRAU wirft 5, 5. Geordnet er- 
+          gibt dies:
+          ROT   6, 5, 2
+          GRAU  5, 5
+          Den ersten Vergleich verliert GRAU, den zweiten ROT. Ein dritter 
+          Vergleich wird nicht durchgeführt, da GRAU nur zwei Würfe hatte. 
+          ROT und GRAU verlieren  also  jeweils  eine  Einheit.  ROT  ent- 
+          schließt  sich,  den  Angriff  fortzuführen und wirft 1, 3. GRAU 
+          würfelt eine 4:
+          ROT   3, 1
+          GRAU  4
+          ROT  verliert den ersten (und einzigen) Vergleich und kann jetzt 
+          nur noch mit einer Einheit angreifen. Daher entschließt er sich, 
+          den Angriff abzubrechen. Die verbleibende Einheit kann  entweder 
+          nach Mitteleuropa oder nach Island zurückgezogen werden.)
+    
+       (Beispiel 3: Spieler ROT hat 15 Einheiten aus Venezuela und 22  aus 
+          den  Weststaaten herangezogen zum Angriff auf Mittelamerika, das 
+          von GRAU mit 17 Einheiten gehalten wird. ROT verliert  beim  er- 
+          sten  Angriff  zwei  und GRAU eine Einheit. ROT entschließt sich 
+          daraufhin, den Angriff abzubrechen. Er muß aus Mittelamerika  25 
+          Einheiten  zurückziehen. Davon kann er maximal 22 nach Weststaa- 
+          ten und maximal 17 nach Venezuela zurückziehen.
+    
+    ----------------------------------------------------------------------
+    
+    Nachdem ein Spieler seine Runde beendet hat, erhält er, falls er  min- 
+    destens  ein Land erobern konnte, eine Karte mit einem von vier Symbo- 
+    len: Fußsoldat, Reiter, Kanone oder Joker.
+    Kann  der Spieler aus seinen Karten, die sich im Laufe des Spieles an- 
+    sammeln, eine Serie bilden, so kann er diese zu Beginn seines nächsten 
+    Zuges gegen Einheiten austauschen. Eine Serie besteht aus drei  Karten 
+    mit folgenden Kombinationsmöglichkeiten:
+    
+                       1 Reiter - 1 Fußsoldat - 1 Kanone
+                                   3 Reiter
+                                 3 Fußsoldaten
+                                   3 Kanonen
+    
+    Joker können für jedes der drei Symbole eingesetzt werden.
+    Es besteht kein Zwang, eine  vollständige  Serie  einzutauschen.  Kein 
+    Spieler darf jedoch mehr als fünf Karten besitzen. Besitzt ein Spieler 
+    fünf Karten und beginnt seinen Zug, so muß er eine Serie eintauschen.
+    Der  erste Spieler, der eine Serie eintauscht, erhält 4 Einheiten, der 
+    zweite 6, der dritte 8, der vierte 10, der fünfte 12, der sechste  15. 
+    Bei  jedem  folgenden  Umtausch  erhöht sich die Anzahl der erhaltenen 
+    Einheiten um fünf Stück.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 4: Spieler ROT besitzt zwei Karten mit den Symbolen  'Ka- 
+          none' und 'Reiter'. Er erobert im Laufe seiner Runde fünf Länder 
+          und  erhält  eine Karte (unabhängig von der Anzahl der eroberten 
+          Länder) mit dem Symbol 'Fußsoldat'. Zu  Beginn  seiner  nächsten 
+          Runde  kann  ROT diese Serie eintauschen, er kann aber auch noch 
+          abwarten, bis ein anderer Spieler vor ihm umtauscht, so  daß  er 
+          mehr Einheiten für seine Karten erhält.
+    
+    ----------------------------------------------------------------------
+    
+    Anschließend  darf  der  Spieler noch Einheiten verschieben. Einheiten 
+    dürfen nur zwischen benachbarten Ländern,  die  dem  gleichen  Spieler 
+    gehören,  verschoben  werden.  Jede  Einheit darf nur ein einziges Mal 
+    verschoben werden. Es muß mindestens eine Einheit - die  Besatzungsar- 
+    mee - in jedem Land zurückbleiben.
+    
+    Nach dem Verschieben ist der Zug des Spielers beendet.
+    
+    
+    Das Spiel gilt als gewonnen, wenn eine der folgenden Bedingungen  ein- 
+    tritt:
+    
+    1.) Die ganze Welt wurde erobert (Spiel ohne Aufgabenkarten).
+    2.) Eine Armee wurde vernichtet und ein  Spieler  hatte  die  Aufgabe, 
+        diese Armee zu vernichten.
+    3.) Es gelingt einem Spieler, die in seiner Aufgabenstellung genannten 
+        Länder oder Kontinente zu erobern und eine Runde lang  besetzt  zu 
+        halten.
+    
+                          Risiko - Das Computerspiel:
+    
+    
+    Im  Gegensatz  zum  Brettspiel  können beim 'Risk - das Computerspiel' 
+    maximal fünf und minimal zwei Spieler teilnehmen. Eine  beliebige  An- 
+    zahl  dieser Spieler kann vom Computer übernommen werden. Der Computer 
+    übernimmt während des Spieles verschiedene Aufgaben:  Zu  Beginn  ver- 
+    teilt er die Länder an die Spieler, berechnet die Anzahl an Einheiten, 
+    die jeder Spieler zu Beginn seiner Runde erhält, prüft, ob ein Spieler 
+    seine  Aufgabe vollendet hat, weist auf umzutauschende Kartensätze hin 
+    etc.
+    Über  die  Preferences  bietet  sich Ihnen zusätzlich die Gelegenheit, 
+    einen Großteil der Einstellungen zu verändern. Sie können  die  Anzahl 
+    der  Spieler  und ihre Typen (Mensch oder Amiga) bestimmen, die Anzahl 
+    an Ländern, die jeder Spieler zu Beginn erhält, die Würfelseiten  etc. 
+    Dadurch  lassen sich immer wieder neue, interessante Szenarien entwi- 
+    keln.
+    Zusätzlich  stehen  Ihnen im Voreinstellungen-Menu noch 16 Voreinstel- 
+    lungen zur Verfügung, die Sie nach Belieben auswählen können.
+    
+    
+    1.) Start
+    
+    Beim Start können dem Programm verschiedene Optionen übergeben werden, 
+    die  im  folgenden  erläutert werden (Groß- und Kleinschreibung können 
+    beliebig vorgenommen werden und werden vom Programm ignoriert).
+    
+    a) -Info    : Diese  Option ermöglicht es, während des Spiels Informa- 
+                  tionen über Länder und Kontinente abzufragen.  Wird  sie 
+                  angegeben, erhöht sich der Bedarf des Programms an Chip- 
+                  Mem um etwa 80 kB.
+    
+    b) -Short   : Das Laden der Titlescreens und der Sieg- bzw.  Niederla- 
+                  gebildes  wird  unterbunden. Dadurch verringert sich der 
+                  zeitweilige Speicherbedarf des Programms um etwa 60 kB.
+    
+    c) -English : Alle Texte des Programms werden in Englisch ausgegeben.
+    
+    d) -Standard2, -Fight, -Watch'em, -Nothing,
+       -Standard3, -Trash, -Hurry_Up, -Relax,
+       -Standard4, -Equal, -MadHouse, -Be_Cool,
+       -Standard5, -Try,   -AmigaWar, -Darkness:
+                  Diese NoPref-Optionen sperren die Preferences. Sie  ent- 
+                  sprechen  den Menu-Voreinstellungen im rechten Preferen- 
+                  ces-Menu. Zusammen mit der Short-Option ermöglichen  sie 
+                  es,  das  Programm  auch auf Rechnern mit geringem Spei- 
+                  cherplatz lauffähig zu machen. Nach dem Start  des  Pro- 
+                  gramms  beginnt  das Spiel sofort, ohne die Möglichkeit, 
+                  die Voreinstellungen noch zu  verändern.  Der  Speicher- 
+                  platzbedarf  des  Programms verringert sich hierdurch um 
+                  nochmals etwa 60 kB.
+                  Diese  Optionen können nur beim Start über das CLI ange- 
+                  geben werden, da es sich auf Rechnern mit wenig Speicher 
+                  sowieso empfiehlt, auf das Laden der Workbench  zu  ver- 
+                  zichten.
+    
+    
+    1.1) Start über die Workbench:
+    
+    Es  können  die  Optionen a) - c) angegeben werden. Klicken Sie hierzu 
+    auf das Risk-Icon und wählen Sie aus dem Workbench-Menu 'Info' aus. Im 
+    Feld Tool-Types sehen Sie die Eintragung 'MODES='. Sie  können  hinter 
+    dem  Gleichheitszeichen  beliebige  Einträge  machen,  die  durch  das 
+    '|'-Zeichen getrennt sein müssen. Sie dürfen keine Spaces zwischen den 
+    einzelnen Optionen angeben.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 5: Sie wollen das Programm auf  Englisch  in  der  kurzen 
+          Version  spielen. Gehen Sie dazu in das Info-Window. Löschen Sie 
+          das Feld Tool-Types (Sollte noch kein Eintrag bestehen,  klicken 
+          Sie  auf  'Add',  um einen einzufügen). Tragen Sie nun folgenden 
+          String in das Gadget ein: 'MODES=Short|English'.  Verlassen  Sie 
+          das Info-Window mit 'Save'. Starten Sie jetzt das Programm.)
+    
+    ----------------------------------------------------------------------
+    
+    1.2) Start über das CLI:
+    
+    Alle  Optionen  können angegeben werden. Sie werden wie gewohnt an den 
+    Aufruf des Programmes angehängt. Im Gegensatz zum Aufruf von der Work- 
+    bench müssen Sie jeder Option noch ein '-'-Zeichen voranstellen. Soll- 
+    ten Sie ein Fragezeichen oder eine falsche Option angeben,  informiert 
+    Risk Sie über alle möglichen Optionen.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 6: Sie wollen das Spiel mit  einer  der  Voreinstellungen 
+          - z.B.  'Darkness' - und der Info-Option spielen. Dazu geben Sie 
+          im CLI-Window folgenden Aufruf ein: 'run Risk -Info -Darkness'.)
+    
+    ----------------------------------------------------------------------
+    
+    ACHTUNG: Um lauffähig zu sein, muß das logische Device RISK:  auf  das 
+             Directory  mit  dem  Hauptprogramm assigned werden. In diesem 
+             Directory müssen sich  neben  dem  Hauptprogramm  die  Drawer 
+             'Fonts',  'Pic',  'Text'  und  'Images'  befinden. Das Device 
+             FONTS: muß dem Drawer RISK:Fonts zugewiesen werden.  Vom  CLI 
+             aus sieht das wie folgt aus:
+             
+             Assign RISK:  DF1:Risk  ;Wenn 'RISK' im Drawer DF1:Risk steht
+             Assign FONTS: RISK:Fonts
+             
+             Es bietet sich Ihnen alternativ die Möglichkeit, das Programm 
+             'RISKAssign' zu benutzen. Beide  Devices  werden  von  diesem 
+             Programm  automatisch  an ein von Ihnen angegebenes Directory 
+             zugewiesen. Näheres entnehmen Sie bitte  dem  'RISKAssign.Ma- 
+             nual'.
+    
+    Sollte dennoch eines der benötigten Files nicht vorhanden sein,  teilt 
+    RISK Ihnen dies mit.
+    
+    
+    2.) Die Preferences:
+    
+    Die Preferences bieten Ihnen die Möglichkeit, die meisten  Einstellun- 
+    gen  des Programms zu verändern. Die einzelnen Bedienungselemente wer- 
+    den der Reihe nach erläutern.
+    
+    
+    2.1) Die Menus:
+    
+    Das  'RISK  V3.xx'-Menu  beinhaltet  zwei  MenuPunkte. 'Spiel beenden' 
+    dient dazu, das Spiel zu beenden (ach was !?!). Wird der folgende  Re- 
+    quester  bestätigt,  endet das Spiel. Der 'Über RISK'-Punkt öffnet ein 
+    Untermenu mit einigen Daten über das Spiel, so auch das Datum der vor- 
+    liegenden Version.
+    Im 'Voreinstellungen'-Menu können Sie 16 verschiedene vorgegebene Sze- 
+    narien  abrufen. Ein Szenarium umfaßt sämtliche über Gadgets einstell- 
+    baren Werte (s.u., 2.2)) sowie den Amiga-Spielertyp '???' - lassen Sie 
+    sich überraschen...
+    Das angewählte Szenarium wird mit einem Häckchen versehen. Sie sollten 
+    am besten alle Szenarien durchprobieren, um diejenigen herauszufinden, 
+    die Ihnen am meisten zusagen. Die Szenarien lassen  sich  auch  direkt 
+    beim Start über das CLI anwählen (s.o., 1.2))
+    Das Szenarium, das Sie beim  Neustart  des  Programs  vorfinden,  ent- 
+    spricht der Menu-Auswahl 'Standard2'.
+    
+    
+    2.2) Die Gadgets:
+    
+    Die  aktuelle  Anzahl  der  Spieler  befindet sich immer in dem Kasten 
+    links oben. Sie kann mit den Pfeilen verändert werden.
+    Nähere  Angaben über die Spieler finden sich in den fünf Kästen darun- 
+    ter. Der aktuelle Spieler wird dabei immer  schwarz  auf  weiß  darge- 
+    stellt, alle anderen weiß auf grau. Nach der Nummer des Spielers folgt 
+    seine  Farbe (bzw. blau, falls ihm noch keine Farbe zugewiesen wurde). 
+    Als nächstes kommt der Typ. Hier steht entweder ein 'M'  für  'Mensch' 
+    oder ein 'A' für 'Amiga'. Wurde Amiga ausgewählt (Pfeil nach oben), so 
+    findet  sich rechts von den beiden Pfeilen der Typ des Amiga-Spielers. 
+    Er variiert zwischen 1 (schwach) und 15 (stark). Der genaue  Typ  kann 
+    mittels  der  beiden  Pfeile eingestellt werden. Als letztes kommt die 
+    Anzahl an Ländern, die dieser Spieler zu Beginn des  Spiels  zugeteilt 
+    bekommt. Sie darf nicht kleiner als eins sein und die Summe aller Zah- 
+    len nicht größer als 42.
+    Um  einen  neuen  Spieler einzufügen, muß zuerst über das Spielerzahl- 
+    Gadget die maximale Spieleranzahl um eins erhöht werden.  Danach  erst 
+    kann der neu hinzugefügte Spieler editiert werden.
+    Unterhalb der Spieler-Kästen folgen die fünf  Farb-Gadgets.  Über  sie 
+    wird die Farbe des aktuell angewählten Spielers eingestellt.
+    In den vier Kästen rechts können Sie einige Spielparameter einstellen. 
+    Klicken Sie im Aufgaben-Kasten auf 'ja', so werden zu Anfang des Spie- 
+    les Aufgaben an alle Spieler verteilt. Andernfalls lautet die  Aufgabe 
+    für  jeden  Spieler, die ganze Welt zu befreien (= alle Gegner zu ver- 
+    nichten).
+    
+    Im  darunterliegenden  Kasten können Sie einstellen, ob nach jeder er- 
+    folgreichen Angriffsrunde eine Karte ausgegeben werden soll. Falls Sie 
+    dies wünschen, können die Karten sowohl offen als auch  verdeckt  ver- 
+    teilt werden. Liegen sie offen, kann jeder Spieler jede Karte beliebig 
+    einsehen.  Werden  sie  verdeckt ausgegeben, so kann jeder Spieler nur 
+    seine eigenen Karten inspizieren.
+    Im  nächsten  Kasten  können Sie den Höchstsatz für das Umtauschen von 
+    Karten einstellen. Der höchste einstellbare Satz liegt  bei  250,  der 
+    niedrigste  bei  fünf.  Nachdem dieser Satz beim Umtauschen von Karten 
+    einmal erreicht wurde, erhält  jeder  Spieler,  der  anschließend  um- 
+    tauscht, ebenfalls diese Anzahl. Die weitere Erhöhung des Umtauschsat- 
+    zes (s.o.) entfällt ab sofort.
+    Im  Würfelseiten-Kasten  können Sie die Anzahl an Würfelseiten der be- 
+    nutzten Würfel einstellen. Der Höchstwert liegt  hier  bei  neun,  der 
+    Mindestwert  bei 2. Je höher der Wert ist, desto geringer ist der Vor- 
+    teil des Verteidigers.
+    Wenn Sie schließlich alle Einstellungen gemäß Ihren Vorstellungen vor- 
+    genommen haben, klicken Sie auf das große 'RISK'-Icon unten rechts und 
+    das Spiel beginnt.
+    
+    
+    3.) Das Spiel:
+    
+    Gemäß den in den Preferences vorgenommenen  Einstellungen  läuft  hier 
+    das  Spiel  selber ab. Der Computer führt dabei die Amiga-Spieler, be- 
+    rechnet für jeden Spieler die neuen Einheiten, überprüft die Kartenan- 
+    zahl  usw. Nachdem das Grundprinzip des Spieles bereits im ersten Teil 
+    erklärt wurde, wird hier im wesentlichen auf die Spielsteuerung einge- 
+    gangen.
+    
+    
+    3.1) Die Menus:
+    
+    Das  Menu 'RISK V3.xx' enthält vier Menupunkte. Menupunkt zwei ('Spiel 
+    beenden') und vier ('Über RISK') sind identisch mit den  gleichnamigen 
+    Preferences-Punkten (s.o, 2.3)).
+    Menupunkt eins ('Neues Spiel') bricht das aktuelle Spiel ab. Falls Sie 
+    Risk vom CLI aus mit einer der NoPref-Optionen gestartet haben  (s.o., 
+    1.2)),  beginnt  sofort  ein neues Spiel mit derselben Voreinstellung. 
+    Andernfalls werden die Preferences aufgerufen.
+    Menupunkt drei ('Zurück') macht jeweils EXAKT die letzte Aktion  eines 
+    Spielers  rückgängig. Ausgenommen hiervon sind das Umtauschen von Kar- 
+    ten und das 'Nächster Spieler'-Gadget. 'Zurück' kann nicht durch einen 
+    weiteren Aufruf von 'Zurück' aufgehoben werden.
+    
+    Das  Menu  'Einstellungen' enthält zwei Punkte, die über ein Untermenu 
+    jeweils ein- oder ausgeschaltet werden können.
+    Der  erste  Punkt,  'Bestätigen',  betrifft die Bestätigung nach jeder 
+    Aktion eines Amiga-Spielers. Normalerweise  zeigt  der  Computer  nach 
+    jeder  Aktion  eines  seiner  Spieler ein OK-Gadget, das Sie anklicken 
+    müssen, um fortzufahren. Stellen Sie 'Bestätigen'  auf  'Aus',  wartet 
+    der  Computer nicht mehr auf Ihre Bestätigung, sondern läßt die Amiga- 
+    Spieler solange handeln, bis Sie 'Bestätigen' wieder einschalten  oder 
+    ein menschlicher Spieler an die Reihe kommt.
+    Mit dem zweiten Punkt, 'Würfel', können Sie bestimmen,  ob  bei  jeder 
+    Kampfrunde  die  Würfel  dargestellt  werden sollen oder nicht. Da der 
+    Aufbau der Würfel etwas Zeit benötigt, bietet  sich  hier  (neben  der 
+    'Bestätigen'-Option)  die  Möglichkeit,  den Spielablauf schneller und 
+    flüssiger zu gestalten.
+    
+    Im Menu 'Info' finden sich drei Menupunkte, die alle gewisse  Informa- 
+    tionen über das Spiel wiedergeben.
+    'Gebiete' und 'Kontinente' können nur angewählt werden, wenn das  Pro- 
+    gramm  mit  der  Info-Option gestartet wurde. Der Computer stellt dann 
+    eine leere Weltkarte dar. Klicken Sie nun ein Land  an.  Sie  erhalten 
+    nähere Informationen über das Land bzw. den zugehörigen Kontinent. Sie 
+    können  nun weitere Länder anklicken, um auch über diese Informationen 
+    abzurufen, oder das Meer anklicken, wodurch Sie ins  Spiel  zurückkeh- 
+    ren.
+    
+    Haben Sie 'Gebiete' angewählt, wird das angeklickte Land in Rot darge- 
+    stellt. Alle angrenzenden Länder werden gelb ausgefüllt. Außerdem wird 
+    der Name des Landes ausgegeben.
+    Haben Sie 'Kontinente' aufgerufen, wird der Kontinent, zu dem das  an- 
+    geklickte  Land  gehört,  in  Rot dargestellt. Der Name des Kontinents 
+    wird ausgegeben sowie die Anzahl an Einheiten, die der Spieler erhält, 
+    der diesen Kontinent komplett besitzt (s.o.).
+    Diese Optionen sollen vor allem dem Anfänger helfen, sich ein Bild von 
+    der Aufteilung der Welt im Rahmen dieses Spiels  zu  machen.  Für  den 
+    Fortgeschrittenen sind sie wohl eher überflüssig.
+    Durch  den  dritten  Punkt, 'Aufgaben', kann jeder Spieler die ihm ge- 
+    stellte Aufgabe erfahren (falls in den  Preferences  'keine  Aufgaben' 
+    eingestellt  wurde, lautet die Aufgabe für jeden Spieler, alle anderen 
+    Spieler zu vernichten).
+    
+    
+    3.2) Die restliche Steuerung:
+    
+    
+    3.2.1) Die Amiga-Spieler:
+    
+    Für jeden Amiga-Spieler kommentiert der Computer jede seiner Aktionen. 
+    Falls  'Bestätigen'  im  'Einstellungen'-Menu  auf 'Ein' gestellt ist, 
+    wartet er nach jeder Aktion Ihre Bestätigung ab  (OK-Gadget),  andern- 
+    falls  spielt  er  solange,  bis ein menschlicher Spieler an die Reihe 
+    kommt.
+    Während  der  Runde  eines Amiga-Spielers bieten sich Ihnen keine Mög- 
+    lichkeiten, das Spielgeschehen zu beeinflußen. Sollte eines Ihrer Län- 
+    der angegriffen werden, so führt der Computer Angriff und Verteidigung 
+    automatisch  durch. Sie können erst agieren, sobald die Reihe an Ihnen 
+    ist.
+    
+    
+    3.2.2) Die menschlichen Spieler:
+    
+    Am linken Rand der Karte finden sie die  vier  Einheiten-Gadgets.  Sie 
+    können jederzeit betätigt werden und geben die Anzahl an Einheiten an, 
+    die  von  dem  nächsten Befehl betroffen werden. Zu Beginn einer Runde 
+    ist das '1'-Gadget aktiviert. D.h., von Ihren folgenden Befehlen  wird 
+    genau eine Einheit betroffen.
+    
+    
+    3.2.2.1) Setzen neuer Einheiten:
+    
+    Zu Beginn Ihrer Runde teilt der Computer Ihnen  in  einem  Kasten  die 
+    Anzahl  der  Einheiten  mit, die Sie noch setzen müssen. Erst wenn Sie 
+    alle diese Einheiten gesetzt haben, können Sie andere Aktionen (Kampf, 
+    Verschieben) einleiten.
+    Indem Sie ein Land anklicken (das Ihnen natürlich gehören muß !), tei- 
+    len  Sie dem Computer mit, daß Sie in diesem Land Einheiten stationie- 
+    ren möchten. Die Anzahl ergibt sich aus dem aktiven Einheiten-Gadget.
+    
+    Solange Sie noch Einheiten zu setzen haben,  können  Sie  auch  Karten 
+    umtauschen  (s.o.). Sobald Sie die letzte Ihrer Einheiten plaziert ha- 
+    ben, können Sie erst nächste Runde wieder Karten eintauschen.  Sollten 
+    Sie  zu Beginn der Runde fünf Karten besitzen, müssen Sie diese umtau- 
+    schen, um fortfahren zu können.
+    Um  Karten  einzutauschen,  klicken Sie drei Karten an, die eine Serie 
+    bilden. Haben Sie in den Preferences  'Karten-offen'  angewählt,  sind 
+    alle Karten jederzeit sichtbar. Ansonsten sehen Sie nur die Rückseiten 
+    der  Karten.  Um  das Motiv zu begutachten, müssen Sie die Karte eben- 
+    falls anklicken. Sobald Sie dies tun, teilt das  Programm  Ihnen  mit, 
+    wieviel  Einheiten  Sie augenblicklich für eine Serie erhalten. Wollen 
+    Sie keine Serie eintauschen, müssen Sie alle aktivierten Karten  noch- 
+    mals  anklicken. Erst dann können Sie fortfahren. Möchten Sie hingegen 
+    die aktivierte Serie eintauschen, so betätigen  Sie  das  'OK'-Gadget. 
+    Die  Karten  werden  entfernt und die eingetauschten Einheiten auf die 
+    Anzahl der noch zu verteilenden Einheiten addiert.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 7: Spieler GRAU hat Nordamerika und  Australien  komplett 
+          in  seinem Besitz. Außerdem besitzt er noch 4 weitere Länder un- 
+          regelmäßig über die restlichen Kontinente verstreut. Er  beginnt 
+          seine  Runde. Die Anzahl der Einheiten, die er jetzt erhält, er- 
+          mittelt sich wie folgt: Er besitzt 17 Länder (neun in Nordameri- 
+          ka,  vier in Australien und weitere 4). 17 / 3 ergibt abgerundet 
+          5. Dazu werden noch sieben Einheiten addiert, weil er die beiden 
+          Kontinente komplett besetzt hält (fünf Einheiten für Nordamerika 
+          und zwei für Australien). Insgesamt muss er  also  12  Einheiten 
+          verteilen.  Er  klickt dreimal auf Mittelamerika und hat dadurch 
+          drei Einheiten dort stationiert. Jetzt müssen noch neun  Einhei- 
+          ten  verteilt  werden. GRAU klickt auf das Einheiten-Gadget '10' 
+          und dann auf Alaska. Da er in diesem Fall nur noch neun  Einhei- 
+          ten  besitzt,  aber zehn setzen möchte, werden alle verbliebenen 
+          neun Einheiten nach Alaska gesetzt. Da jetzt alle Einheiten ver- 
+          teilt sind, kann er andere Aktionen beginnen.)
+    
+       (Beispiel 8: Spieler ROT beginnt seine Runde und  muß  5  Einheiten 
+          setzen. Er hat inzwischen vier Karten angesammelt. In den Prefe- 
+          rences wurde 'Karten-verdeckt' angewählt. ROT bittet seine  Mit- 
+          spieler,  sich vom Monitor abzuwenden und klickt alle seine Kar- 
+          ten an, um die Motive zu betrachten. Die Karten zeigen  folgende 
+          Symbole:  Fußsoldat,  Reiter,  Joker, Fußsoldat. ROT könnte also 
+          umtauschen, er kann jedoch auch noch eine Runde warten und  hof- 
+          fen, daß die nächste Karte eine Kanone oder einen Fußsoldat dar- 
+          stellt. Er könnte dann nächste Runde umtauschen und seinen wert- 
+          vollen  Joker für später aufheben. Da er jedoch dringend Einhei- 
+          ten benötigt, beschließt er, jetzt zu tauschen.  Er  klickt  auf 
+          den  Reiter,  um diesen wieder zu verdecken. Die drei noch akti- 
+          vierten Karten (Fußsoldat, Fußsoldat, Joker) bilden eine  Serie. 
+          Durch Anklicken des 'OK'-Gadgets tauscht ROT die drei Karten um. 
+          Er  erhält dafür 12 Einheiten, so daß er jetzt noch 17 Einheiten 
+          verteilen muß.
+    
+    ----------------------------------------------------------------------
+    
+    Nachdem alle Einheiten verteilt wurden, erscheinen  rechts  drei  Gad- 
+    gets:  'Gebiete befreien', 'Einheiten verschieben' und 'Nächster Spie- 
+    ler'.
+    
+    
+    3.2.2.2) Gebiete befreien:
+    
+    Wird  'Gebiete befreien' angeklickt, können beliebig viele Gebiete an- 
+    gegriffen werden, solange noch genügend Einheiten vorhanden sind.  Sie 
+    bleiben  solange  in dieser Angriffsphase, bis Sie entweder 'Einheiten 
+    verschieben' oder 'Nächster Spieler'  anklicken  (oder  das  Spiel/das 
+    Programm abbrechen).
+    
+    Der Angriff auf ein Land läuft wie folgt ab:
+    
+    a) Auswahl des Ziellandes:
+       Klicken  Sie das gewünschte Zielland an. Dieses Land darf nicht Ih- 
+       nen gehören.
+    
+    b) Auswahl des angreifendes Landes /der angreifenden  Länder:
+       Klicken  Sie auf ein Land, das Ihnen gehört und von dem aus Sie das 
+       Zielland angreifen wollen. Aus dem Land  werden  soviele  Einheiten 
+       entfernt,  wie  das  aktive  Einheiten-Gadget angibt (falls weniger 
+       Einheiten in dem Land stehen, so werden alle bis  auf  eine  -  die 
+       Besatzungsarmee, s.o. - Einheit abgezogen). Die aktuelle Anzahl von 
+       Angriffs-Einheiten  findet sich in dem großen Textfeld. Nachdem Sie 
+       genug Einheiten zusammengezogen haben, beginnt der Angriff.
+    
+    c) Angriff:
+       Um dem Programm mitzuteilen, daß die Auswahl der angreifenden  Län- 
+       der  beendet  ist, klicken Sie nochmals auf das anzugreifende Land. 
+       Falls mindestens eine Einheit zum Angriff herangezogen wurde,  wird 
+       eine  Angriffsrunde durchgeführt. Dazu würfelt der Computer und er- 
+       mittelt die Verluste auf beiden  Seiten  (näheres  zum  Kampfsystem 
+       siehe 'RISIKO - Das Spiel'). Dies kann durch weiteres Anklicken des 
+       anzugreifenden  Landes  beliebig oft wiederholt werden, bis der An- 
+       greifer den Angriff abbricht (d) oder eine der beiden Parteien alle 
+       Länder verloren hat (e) (f).
+    
+    d) Abbruch des Angriffs:
+       Um  den Angriff auf ein Land abzubrechen, muß anstatt des anzugrei- 
+       fenden Landes eines der Länder angeklickt werden,  aus  dem  heraus 
+       mindestens eine Einheit zum Angriff abgezogen wurde. Gegebenenfalls 
+       werden  Sie  dazu aufgefordert, die verbleibenden Einheiten auf die 
+       angreifenden Länder zu verteilen. Dies läuft  genauso  ab  wie  das 
+       Setzen der neuen Einheiten zu Beginn der Runde.
+    
+    e) Sieg des Verteidigers:
+       Alle Einheiten des Angreifers wurden vernichtet. Das Land verbleibt 
+       im Besitz des Verteidigers.
+    
+    f) Sieg des Angreifers:
+       Alle Einheiten des Verteidigers wurden vernichtet. Die verbliebenen 
+       Einheiten  des  Angreifers werden alle in das neu eroberte Land ge- 
+       setzt.
+    
+    Unabhängig  davon,  ob der Angriff gewonnen, verloren oder abgebrochen 
+    wurde, solange der aktive Spieler noch über Einheiten verfügt, die  an 
+    gegnerische  Länder angreifen, kann er Angriffe führen. Inwieweit dies 
+    sinnvoll ist, liegt in der Taktik des Spielers begründet.
+    
+    ACHTUNG: Bei einem Angriff von 500 auf 300 Einheiten müssten  Sie  ca. 
+             250mal  das  anzugreifende Land anklicken, bis sich eine Ent- 
+             scheidung einstellt. Um dies zu umgehen, wurde eine  Alterna- 
+             tive zu Schritt c) eingebaut.
+             Nach  der Ausführung der Schritte a) & b) klicken Sie das an- 
+             zugreifende Land zweimal schnell hintereinander mit der RECH- 
+             TEN Maustaste (Menutaste) an. Ein Requester erscheint. Bestä- 
+             tigen Sie diesen, so führt das Programm  selbsttätig  solange 
+             Angriffe  auf das Zielland aus, bis der Angriff gelungen oder 
+             verloren ist oder bis Sie eine (beliebige) Taste drücken oder 
+             mit der Maus (irgendwohin) klicken.
+             Sollten Sie ein anderes Land als das anzugreifende anklicken, 
+             so  erscheint  zwar der Requester, es wird jedoch nach seiner 
+             Bestätigung KEIN Dauerangriff durchgeführt.
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 9: Spieler GRÜN hat 15 Einheiten in Ostafrika  und  4  im 
+          Kongo  stationiert, Spieler GELB 5 in Südafrika. GRÜN ist am Zug 
+          und setzt drei Einheiten nach Kongo. Er klickt auf 'Gebiete  be- 
+          freien' und auf Südafrika, um dieses als Angriffsziel zu bestim- 
+          men. Er kann nun mit maximal  20  Einheiten  angreifen  (14  aus 
+          Ostafrika  und  6  aus Kongo), möchte den Angriff jedoch nur mit 
+          zehn Einheiten führen, da er die restlichen Einheiten zum Schutz 
+          seiner Grenzen benötigt. Er will alle sechs Einheiten aus  Kongo 
+          und  weitere  vier aus Ostafrika zum Angriff benutzen. Er klickt 
+          also auf das Einheiten-Gadget 'Alle' und dann auf Kongo, um alle 
+          Einheiten aus Kongo zum Angriff zu bestimmen. Theoretisch könnte 
+          er mit diesen sechs Einheiten bereits den Angriff  beginnen,  um 
+          größere  Chancen  zu haben zieht er aber noch vier Einheiten aus 
+          Ostafrika hinzu. Er klickt dazu auf das Einheiten-Gadget '1' und 
+          danach viermal nacheinander auf Ostafrika. Dabei  wird  jedesmal 
+          eine  Einheit  aus  Ostafrika  zum Angriff abgezogen. Nachdem er 
+          zehn Einheiten zum Angriff zusammen hat, klickt er auf  Südafri- 
+          ka,  um  den  Angriff zu beginnen. Er verliert 3 Einheiten, GELB 
+          keine. Er klickt nochmals auf  Südafrika,  diesmal  verliert  er 
+          zwei Einheiten und GELB eine. Er klickt ein ein weiteres mal auf 
+          Südafrika und verliert wiederum drei Einheiten.
+
+          Da  er jetzt nur noch mit zwei Angreifern gegen vier Verteidiger 
+          steht, entschließt ROT sich, den Angriff  abzubrechen.  Er  will 
+          eine der beiden verbliebenen Einheiten nach Kongo und die andere 
+          nach  Ostafrika  zurückziehen. Dazu klickt er auf das Einheiten- 
+          Gadget '1' und dann auf Kongo.  Eine  Einheit  wird  nach  Kongo 
+          zurückgesetzt, eine weitere muß noch zurückgezogen werden. Jetzt 
+          klickt  er  auf  Ostafrika.  Die  letzte verbliebene Einheit ist 
+          zurückgezogen und der Angriff fehlgeschlagen.  Hätte  ROT  beide 
+          Einheiten  nach  Kongo  zurückziehen  wollen,  hätte er entweder 
+          zweimal Kongo oder die Einheiten-Gadgets '5', '10'  oder  'Alle' 
+          und dann einmal Kongo anklicken können.)
+    
+       (Beispiel 10: Spieler GELB hat 975 Einheiten in Alaska stationiert, 
+          Spieler  GRAU 380 in Kamtschatka. GELB rechnet sich gute Chancen 
+          aus, endlich nach Asien vordringen zu können  und  greift  Kamt- 
+          schatka an. Nach der Auswahl Kamtschatkas als Zielland und Alas- 
+          kas als Ausgangsland müsste GELB bestenfalls 127  Mal  auf  Kam- 
+          tschatka  klicken.  Um  Maus-  und Fingerverschleiß vorzubeugen, 
+          klickt GELB jedoch Kamtschatka zweimal mit der Menu-Taste an und 
+          bestätigt den folgenden Requester. Da  auch  die  Würfel  vorher 
+          abgeschaltet  wurden, läuft der Angriff jetzt in atemberaubender 
+          Geschwindigkeit ab. Zwischenzeitlich bricht  GELB  den  Daueran- 
+          griff  durch  kurzes  Klicken mit einer Maustaste ab. Er verfügt 
+          noch über 563 Einheiten, GRAU über 204.  Da  die  Chancen  immer 
+          noch  sehr  gut für GELB stehen, beschließt dieser, den Daueran- 
+          griff wieder aufzunehmen. Er doppelklickt das Land nochmals  mit 
+          der  Menu-Taste,  bestätigt den Requester und wartet seinen Sieg 
+          ab. Anschließend werden die überlebenden  Einheiten  nach  Kamt- 
+          schatka gesetzt, um dort des grauen Rückschlages zu harren...)
+    
+    ----------------------------------------------------------------------
+    
+    
+    3.2.2.3) Einheiten verschieben:
+    
+    Wählen Sie zuerst das Land aus, von dem aus Einheiten verschoben  wer- 
+    den  sollen.  Als  nächstes klicken Sie auf ein benachbartes Land, das 
+    ebenfalls Ihnen gehört und in das die Einheiten verschoben werden sol- 
+    len.  Stellen Sie die Einheiten-Gadgets auf die gewünscht Anzahl an zu 
+    verschiebenden Einheiten ein. Um die eingestellte Anzahl an  Einheiten 
+    zu  verschieben, klicken Sie nochmals auf das Ausgangsland. Sie können 
+    sooft auf das Ausgangsland klicken, wie die bestimmte Anzahl Einheiten 
+    verschoben werden soll oder bis keine verschiebbaren Einheiten mehr im 
+    Ausgangsland vorhanden sind. Um  den  Verschiebe-Vorgang  zu  beenden, 
+    klicken Sie ein weiteres mal auf das Zielland.
+    
+    ACHTUNG: Eine  Einheit,  die  in einer Runde verschoben wurde, kann in 
+             derselben Runde nicht nochmals verschoben werden !
+    
+    ----------------------------------------------------------------------
+    
+       (Beispiel 11: Spieler GRÜN hat fünf Einheiten in Südafrika, drei im 
+          Kongo, eine in Ostafrika und eine in Nordwestafrika  stehen.  Er 
+          möchte  soviele  Einheiten wie möglich nach Nordwestafrika brin- 
+          gen. Er geht dazu wie folgt vor (Auf  eine  genaue  Beschreibung 
+          der  benötigten Handgriffe wird hier verzichtet. Die grundlegen- 
+          den Mechanismen von Einheiten- und Länderauswahl sollten  inzwi- 
+          schen geläufig sein):
+          a) Eine  Einheit  wird  von Südafrika nach Ostafrika verschoben. 
+             Diese Einheit kann diese Runde nicht mehr bewegt werden.  Al- 
+             lerdings kann sie jetzt die Rolle der Besatungsarmee in Osta- 
+             frika übernehmen, so daß die Einheit, die vorher in Ostafrika 
+             stand, noch verschoben werden kann:
+          b) Eine Einheit von Ostafrika nach Nordwestafrika verschieben.
+          c) Alle  restlichen  Einheiten von Südafrika nach Kongo. Dadurch 
+             werden alle drei kongolesischen Einheiten frei zum  Verschie- 
+             ben  (Würde  man  auf  Schritt  c)  verzichten, so könnten in 
+             Schritt d) nur zwei Einheiten bewegt werden; eine müsste  als 
+             Besatzungsarmee zurückbleiben.):
+          d) Drei Einheiten von Kongo nach Nordwestafrika.)
+    
+    ----------------------------------------------------------------------
+    
+    Nachdem Sie alle gewünschten Einheiten verschoben haben,  beenden  Sie 
+    Ihre Runde durch 'Nächster Spieler'.
+    
+    Ist  es  einem  Spieler  gelungen, seine Aufgabe zu erfüllen, wird das 
+    Spiel beendet.
+    Wurde beim Start auf die Short-Option verzichtet, so wird nun ein Bild 
+    angezeigt.  Danach  zeigt  das  Programm in jedem Fall die Aufgabe des 
+    Siegers an und springt dann in die  Preferences  (falls  eine  NoPref- 
+    Option angegeben wurde, beginnt das Spiel sofort von neuem).
+    
+    
+    Am Ende noch einige allgemeine Bemerkungen:
+    
+    Sowohl  in den Preferences als auch im Spiel selber können viele Funk- 
+    tionen über die Tastatur ausgelöst werden. Um eine Auflistung der  mo- 
+    mentanen  Tastaturbelegung zu erhalten, drücken Sie die Help-Taste. Es 
+    erscheint ein Requester mit den weiteren Angaben.
+    
+    In den Preferences wie im Spiel werden Fehlbedienungen soweit als  mö- 
+    glich  ausgeschlossen. Fehlerhafte Eingaben werden ignoriert und gege- 
+    benenfalls mit einem Bildschirmblinken quittiert. Im Notfall macht Sie 
+    ein Requester auf Ihren Fehler aufmerksam.
+    Sie können also - was gerade in der Anfangsphase mit einem neuen  Pro- 
+    gramm meines Erachtens nach sehr wichtig ist - nach Herzenslust herum- 
+    probieren - mit einer Einschränkung: Gehen sie  mit  den  Preferences- 
+    Menus  sorgsam  um. Nach einer Menu-Auswahl lassen Sie die Maus am be- 
+    sten eine halbe Sekunde unbewegt und verzichten auch  auf  Mausklicks. 
+    Während  der Testphase ergaben sich nach einer hektischen Menu-Auswahl 
+    in den Preferences öfters Software-Failures, deren  Ursache  wir  noch 
+    nicht  aufspüren  konnten.  Ein klein wenig Ruhe bei der Auswahl eines 
+    Menus schützt Sie jedoch vor diesem Phänomen.
+    
+    Etwas Vorsicht ist auch bei der 'Zurück'-Funktion im Spiel angebracht. 
+    Sie wurde ausführlich getestet und ergab während der  Testphase  keine 
+    Fehler,  da  es  sich  bei  ihr jedoch um eine umfassende und komplexe 
+    Funktion handelt, die erst kurz vor Fertigstellung des Programms  ein- 
+    gefügt  wurde  und  einige  Strukturänderungen  mit sich brachte, sind 
+    Fehlfunktionen noch nicht ganz ausgeschlossen. Über 'Neues Spiel' oder 
+    'Spiel beenden' wird sich allerdings jedes Problem bereinigen lassen.
+    
+    Noch eine Bemerkung zur Karte: Der westliche Teil von Alaska  und  der 
+    östliche  von  Kamtschatka  sind  auf der gegenüberliegenden Seite der 
+    Weltkarte nochmals in weiß abgebildet.  Sie  werden  zwar  nicht  ein- 
+    gefärbt,  können  aber  genauso  angeklickt werden wie das Land selber 
+    auch. Wollen Sie zum Beispiel von Alaska  aus  Kamtschatka  angreifen, 
+    müssen  Sie dazu nicht mit der Maus ganz nach links, Alaska anklicken, 
+    mit der Maus ganz nach rechts, Kamtschatka anklicken, zum Abbruch  des 
+    Angriffs  wieder ganz nach links etc. Es genügt, den westlichen Zipfel 
+    Alaskas, der noch östlich Kamtschatkas  abgebildet  ist,  anzuklicken. 
+    Ebenso  verhält  es  sich  mit  dem östlichen Zipfel Kamtschatkas, der 
+    westlich Alaskas liegt.
+    
+    Wir wünschen Ihnen viel Spaß mit RISK. Sollten Sie  noch  Fragen  oder 
+    Hinweise  bezüglich des Programms haben, wenden Sie sich bitte an eine 
+    der unten angegebenen Adressen.
+    
+    Mit freundlichen Grüßen
+    
+    
+    
+    
+    
+    Michael Berling & Hartmut Stein
+    
+    
+    
+    
+    
+    
+    Adressen:
+    
+    Bernstein-Zirkel Softworks             Bernstein-Zirkel Softworks
+    - Michael Berling                      - Hartmut Stein
+    Imbacher Weg 89                        Kölnerstr. 7
+    5090 Leverkusen 3                      5090 Leverkusen 3 - Opladen
+    
+    Tel.: 02171 / 31100                    02171 / 44195
+
+
+
+
+
+        Ladies and Gentleman, meine sehr geehrten Damen und Herren ...
+    
+                        (rammtadadammm-tatatataaaaahh!)
+    
+                                 Hier ist es:
+    
+                                - groß (65 kB)
+                   - stark (Von 0 auf 100 in 30 Sekunden !)
+               - strategisch (Einmal um die Welt in 80 Tagen...)
+                           - unterhaltsam (Jawoll !)
+                            - bug-frei (Wei wei...)
+    
+     Mit einem Wort: nach vier Monaten harter Arbeit erlauben wir es uns,  
+      Ihnen stolz unser erstes (aber gewiss nicht letztes) C-Programm zu   
+                                 präsentieren:
+    
+                          R I S K - Das Computerspiel
+    
+    
+    Ein handelt sich um eine Umsetzung des RISIKO-Brettspieles mit  leich- 
+    ten Regeländerungen (diese rühren daher, daß uns die Regeln nicht mehr 
+    hundertprozentig im Gedächtnis waren - die Änderungen tragen aber wohl 
+    eher  zum  Spielspaß bei). Genaueres über die Regeln finden Sie in dem 
+    sehr ausführlichen Anleitungs-File. Dem einen oder anderen wird  diese 
+    Anleitung  wahrscheinlich  ZU  ausführlich  sein,  aber  wir  sind  ja 
+    schließlich nicht ALLE Profis, die auf einen Blick jedes Programm  be- 
+    herrschen...  Mit Hilfe dieser Anleitung waren selbst völlig Computer- 
+    unerfahrene innerhalb weniger Minuten in der  Lage,  RISK  zu  beherr- 
+    schen.
+    So, und wie geht's nun weiter ? Das hängt absolut  von  Euch  ab.  WIR 
+    mögen  dieses  Programm  und wenn Ihr es auch mögt, wenn Ihr Verbesse- 
+    rungsvorschläge habt, wenn Ihr an 323324  (!)  Bytes  (=  688  Blocks) 
+    Source  interessiert  seid, oder wenn Ihr uns einfach nur wegen dieses 
+    miesen Programms runtermachen wollt, dann meldet Euch !
+    Das  Programm  wurde mit dem AZTEC-C Compiler 3.60 geschrieben. Inwie- 
+    weit es mit anderen Versionen dieses Compilers oder dem Lattice zusam- 
+    menarbeitet,  ist  unbekannt  (Es  dürfte  aber  wohl nicht sonderlich 
+    schwerfallen, den Source umzumodeln).
+    Wir werden auch weiterhin an dem Programm herumfeilen (nach vier Mona- 
+    ten Arbeit legen wir erstmal eine Ruhepause ein,  aber  weiter  geht's 
+    bestimmt !). Für die Versionen ab V3.10 sind bereits folgende Dinge in 
+    Planung:
+    
+    ----------------------------------------------------------------------
+    
+    -Menu-Shortcuts
+    -Bearbeitung der extended menu-selection
+    -Laden und Speichern von Spielständen
+    -Abspeichern von Highscores und evtl. Turniermodus
+    -Protokollführung über den Spielablauf
+    -Infos über Spieler während des Spiels abrufbar
+    -Verschiedene Würfelmodi
+    -Neue, erweiterte Strategien der Amiga-Spieler (möchte ich hier  nicht 
+     näher  drauf eingehen, um nicht zuviel über die Arbeitsweise des Pro- 
+     gramms zu verraten...)
+    -und zu guter Letzt, Code-Optimierung, wo immer dies möglich scheint.
+    
+    ----------------------------------------------------------------------
+    
+    Falls Ihr an weiteren Versionen  interessiert  seid,  lasst  von  Euch 
+    hören.  Sobald  eine neue Version fertig ist, bekommt Ihr Bescheid von 
+    uns.
+    Wenn  Ihr  an den Sources interessiert seid, schickt eine DISKETTE und 
+    RÜCKPORTO an uns (Eure Addresse nicht vergessen).
+    Da  dies  unser  erstes  Projekt in C war, sind wir vor allem an (kon- 
+    struktiver) Kritik interessiert. Was kann man wie warum  weshalb  bes- 
+    ser/schneller/kürzer machen, was ist überflüssig, wo fehlt was etc.
+    
+    
+    Dieser Drawer enthält folgende Files:
+    
+    RiskIntro..................Dieser Text
+    RiskEnglish.ReadMe.........Hinweis für nicht deutschsprachige Anwender
+    RISKAssign.Manual..........Erklärung des 'RISKAssign'-Programms
+    Risk.Manual................Spielanleitung
+    Print_Me...................Nochmal das Manual, diesmal ohne Linefeeds. 
+                               Wird durch Anklicken auf den Drucker ausge- 
+                               geben (was seine Zeit dauert...)
+    RISKAssign.................Zuweisung der Devices 'RISK:' und 'FONTS:'
+    Risk.......................The game itself
+    Fonts, Pic, Text, Images...enthalten  Files,  die  im Laufe des Spiels 
+                               nachgeladen werden
+    More, PrintFiles...........dienen zur Ausgabe der Texte auf Bildschirm 
+                               und Drucker
+    
+    
+    In der Hoffnung, daß RISK seine Freunde finden wird
+    
+    
+    
+    
+    
+    
+    
+    
+    Michael Berling & Hartmut Stein
+
+        Ladies and Gentleman, meine sehr geehrten Damen und Herren ...
+    
+                        (rammtadadammm-tatatataaaaahh!)
+    
+                                 Hier ist es:
+    
+                                - groß (65 kB)
+                   - stark (Von 0 auf 100 in 30 Sekunden !)
+               - strategisch (Einmal um die Welt in 80 Tagen...)
+                           - unterhaltsam (Jawoll !)
+                            - bug-frei (Wei wei...)
+    
+     Mit einem Wort: nach vier Monaten harter Arbeit erlauben wir es uns,  
+      Ihnen stolz unser erstes (aber gewiss nicht letztes) C-Programm zu   
+                                 präsentieren:
+    
+                          R I S K - Das Computerspiel
+    
+    
+    Ein handelt sich um eine Umsetzung des RISIKO-Brettspieles mit  leich- 
+    ten Regeländerungen (diese rühren daher, daß uns die Regeln nicht mehr 
+    hundertprozentig im Gedächtnis waren - die Änderungen tragen aber wohl 
+    eher  zum  Spielspaß bei). Genaueres über die Regeln finden Sie in dem 
+    sehr ausführlichen Anleitungs-File. Dem einen oder anderen wird  diese 
+    Anleitung  wahrscheinlich  ZU  ausführlich  sein,  aber  wir  sind  ja 
+    schließlich nicht ALLE Profis, die auf einen Blick jedes Programm  be- 
+    herrschen...  Mit Hilfe dieser Anleitung waren selbst völlig Computer- 
+    unerfahrene innerhalb weniger Minuten in der  Lage,  RISK  zu  beherr- 
+    schen.
+    So, und wie geht's nun weiter ? Das hängt absolut  von  Euch  ab.  WIR 
+    mögen  dieses  Programm  und wenn Ihr es auch mögt, wenn Ihr Verbesse- 
+    rungsvorschläge habt, wenn Ihr an 323324  (!)  Bytes  (=  688  Blocks) 
+    Source  interessiert  seid, oder wenn Ihr uns einfach nur wegen dieses 
+    miesen Programms runtermachen wollt, dann meldet Euch !
+    Das  Programm  wurde mit dem AZTEC-C Compiler 3.60 geschrieben. Inwie- 
+    weit es mit anderen Versionen dieses Compilers oder dem Lattice zusam- 
+    menarbeitet,  ist  unbekannt  (Es  dürfte  aber  wohl nicht sonderlich 
+    schwerfallen, den Source umzumodeln).
+    Wir werden auch weiterhin an dem Programm herumfeilen (nach vier Mona- 
+    ten Arbeit legen wir erstmal eine Ruhepause ein,  aber  weiter  geht's 
+    bestimmt !). Für die Versionen ab V3.10 sind bereits folgende Dinge in 
+    Planung:
+    
+    ----------------------------------------------------------------------
+    
+    -Menu-Shortcuts
+    -Bearbeitung der extended menu-selection
+    -Laden und Speichern von Spielständen
+    -Abspeichern von Highscores und evtl. Turniermodus
+    -Protokollführung über den Spielablauf
+    -Infos über Spieler während des Spiels abrufbar
+    -Verschiedene Würfelmodi
+    -Neue, erweiterte Strategien der Amiga-Spieler (möchte ich hier  nicht 
+     näher  drauf eingehen, um nicht zuviel über die Arbeitsweise des Pro- 
+     gramms zu verraten...)
+    -und zu guter Letzt, Code-Optimierung, wo immer dies möglich scheint.
+    
+    ----------------------------------------------------------------------
+    
+    Falls Ihr an weiteren Versionen  interessiert  seid,  lasst  von  Euch 
+    hören.  Sobald  eine neue Version fertig ist, bekommt Ihr Bescheid von 
+    uns.
+    Wenn  Ihr  an den Sources interessiert seid, schickt eine DISKETTE und 
+    RÜCKPORTO an uns (Eure Addresse nicht vergessen).
+    Da  dies  unser  erstes  Projekt in C war, sind wir vor allem an (kon- 
+    struktiver) Kritik interessiert. Was kann man wie warum  weshalb  bes- 
+    ser/schneller/kürzer machen, was ist überflüssig, wo fehlt was etc.
+    
+    
+    Dieser Drawer enthält folgende Files:
+    
+    RiskIntro..................Dieser Text
+    RiskEnglish.ReadMe.........Hinweis für nicht deutschsprachige Anwender
+    RISKAssign.Manual..........Erklärung des 'RISKAssign'-Programms
+    Risk.Manual................Spielanleitung
+    Print_Me...................Nochmal das Manual, diesmal ohne Linefeeds. 
+                               Wird durch Anklicken auf den Drucker ausge- 
+                               geben (was seine Zeit dauert...)
+    RISKAssign.................Zuweisung der Devices 'RISK:' und 'FONTS:'
+    Risk.......................The game itself
+    Fonts, Pic, Text, Images...enthalten  Files,  die  im Laufe des Spiels 
+                               nachgeladen werden
+    More, PrintFiles...........dienen zur Ausgabe der Texte auf Bildschirm 
+                               und Drucker
+    
+    
+    In der Hoffnung, daß RISK seine Freunde finden wird
+    
+    
+    
+    
+    
+    
+    
+    
+    Michael Berling & Hartmut Stein
+
+
+    Well, here is a note for our foreign friends. Calling the program with 
+    the option '-english' from CLI will force all texts to be displayed in 
+    English.  So,  maybe  you will understand how the program works, maybe 
+    you will not. If you understand it, all right. If not,  let  us  know. 
+    If there are enough inquiries, we start working on this problem.
+    
+    Thank you
+    
+    
+    Michael Berling & Hartmut Stein
+    
+    
+    
+    
+    
+    
+    Bernstein-Zirkel Softworks               Bernstein-Zirkel Softworks
+    - Michael Berling                        -Hartmut Stein
+    Imbacher Weg 89                          Kölnerstr. 7
+    D-5090 Leverkusen 3                      D-5090 Leverkusen 3 - Opladen
+    Western Germany                          Western Germany

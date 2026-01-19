@@ -1,0 +1,2221 @@
+Una producción de muchachos
+			    -------------------
+		            
+			     Documentos de SimCity
+
+SimCity Amiga Versión 1.0
+Hardware requerido:
+	Amiga 500,1000,2000 o 2500
+	1 mega de RAM
+	1 unidad de disco
+	Monitor a color
+	Se recomienda el chip Halfbright, pero no es obligatorio.
+	Impresora opcional
+
+Software del sistema:
+	Banco de trabajo 1.3
+	*Simcity se ejecutará en Workbench 1.2, pero las opciones de impresión no estarán disponibles.
+	disponible.
+
+Iniciando Simcity:
+	Arranca tu Amiga desde el disco SimCity (¡cor! ¿En serio?)
+	Haga doble clic en el icono del disco Simcity
+	Haga doble clic en el icono del programa Simcity
+
+	O
+
+	Arranca tu Amiga desde otro disco de Workbench
+	Coloque el disco del programa Simcity en una unidad de disco
+	Haga doble clic en el icono de Simcity Disk
+	Haga doble clic en el icono del programa Simcity
+
+Instalación del disco duro:
+	Copie el contenido del Simcity Disk a un subdirectorio en su
+disco duro. Asegúrese de que el archivo del escenario esté en el mismo subdirectorio que el
+Programa Simcity.
+	Cuando inicie el programa desde el disco duro, se le preguntará
+para insertar el disco Simcity original. Se comprobará y el programa
+terminará de cargarse. Una vez cargado el programa, puede eliminar el
+disquete.
+
+Créditos:
+	Concepto y diseño: Will Wright
+	Contribuciones al diseño: Jeff Braun, Robert Strobel
+	Programación Amiga: Brian Conrad, Brian Witt
+	Ilustraciones gráficas: Will Wright, Scott Martindale, Don Bayless
+	Sonidos: Will Wright, Steve Hales
+	Documentación: Michael Bremer, Cliff Ellis (y Stryper/LADS)
+	Diseño de paquete y documentación: R.Bagel DESIGN, Santa Rosa
+	Ilustración del paquete: Kurt West para R.Bagel DESIGN, Santa Rosa
+
+Reemplazo de medios:
+Simcity está protegido contra copia (?) Medios defectuosos devueltos noventa días a partir de la fecha
+de compra serán reemplazados sin cargo. Los medios defectuosos se pueden devolver
+y reemplazado en cualquier momento después del período de 90 días por un precio exorbitante
+de $7.50 de cargo por manejo, $20 por servicio exprés nocturno.
+====================================================================================
+			SIM CITY AMIGA DOX COMPLETO
+                  Mecanografiado por el DOXTOR del 17 al 21 de agosto de 1989 
+			     TABLA DE CONTENIDO
+
+I. PÁGINA DE INTRODUCCIÓN
+		Prólogo................................................4
+		Acerca de las simulaciones del sistema................................4
+		Los objetivos de SimCity................................5
+II. 	PARA EMPEZAR
+		Tiempo de reacción del simulador................................7
+		Tutorial - Un paseo por tu ciudad....................7
+III.	REFERENCIA DE USUARIO................................................14
+		Menús................................................14
+		La ventana del editor................................17
+		La ventana de presupuesto................................22
+		La ventana Mapas/Gráficos................................24
+		La ventana de evaluación................................29
+		Desastres................................................30
+		Escenarios................................................31
+		Nivel de juego.................................31
+		Hacer crecer una ciudad.................................31
+		Tarjeta de referencia del usuario................................33
+		Tabla de referencia del teclado................................34
+IV. 	DENTRO DE LA SIMCIDAD; CÓMO FUNCIONA EL SIMULADOR...................35
+		Zonas................................................35
+		Población - Residencial................................35
+		Mercado Externo - Industrial................................36
+		Mercado Interior - Comercial................................36
+		Tasa impositiva................................................36
+		Presupuesto................................................37
+		Energía................................................37
+		Transporte - Tráfico................................38
+		Contaminación................................................38
+		Crimen................................................39
+		Valor de la tierra.................................39
+V. LA HISTORIA DE LAS CIUDADES Y EL URBANISMO...................40
+VI.	BIBLIOGRAFÍA................................................................50
+Página 3^
+			INTRODUCCIÓN
+				PRÓLOGO
+
+Ingresa a SimCity y toma el control. Conviértete en el gobernante indiscutible de un 
+Simulación de ciudad sofisticada en tiempo real.
+
+Toma el control de San Francisco en 1906, justo antes del gran terremoto o 
+Tokio 1957, justo antes del ataque de un monstruo.
+
+Muestra tu espíritu pionero.  Comience con territorio virgen y cree 
+una ciudad viva y en crecimiento.
+
+La calidad de vida en tu ciudad depende de ti. Zona de suelo, equilibrio de presupuestos,
+instalar servicios públicos, manipular los mercados económicos, controlar el crimen, el tráfico y 
+la contaminación y superar los desastres naturales.
+
+Tu ciudad está poblada por Sims: ciudadanos simulados.  
+Al igual que sus homólogos humanos, construyen casas, condominios, iglesias, 
+tiendas y fábricas. Y, también como los humanos, se quejan de cosas. 
+como impuestos, alcaldes, impuestos, urbanistas e impuestos. te lo hacen saber 
+si necesitan más viviendas, mejor transporte, un aeropuerto o un centro deportivo 
+estadio. Si se sienten demasiado infelices, se mudan; si cobras impuestos excesivos, 
+la ciudad se deteriora.
+
+ACERCA DE SIMULACIONES DE SISTEMA
+SimCity es el primero de un nuevo tipo de software de entretenimiento/educación,
+llamado SIMULACIONES DEL SISTEMA. Te proporcionamos un conjunto de REGLAS y HERRAMIENTAS
+que describen, crean y controlan un sistema. En el caso de SimCity el
+El sistema es una ciudad.
+
+El desafío de jugar un juego de SIMULACIÓN DE SISTEMA es descubrir cómo
+funciona el sistema y cómo tomar control del mismo. Como maestro del sistema eres
+libre de utilizar las HERRAMIENTAS para crear y controlar un número ilimitado de sistemas
+(en este caso ciudades) dentro del marco y límites previstos por la
+REGLAS.
+
+En SimCity, las REGLAS a aprender se basan en la planificación y gestión de la ciudad,
+incluyendo:
+
+Factores humanos: espacio residencial y comodidades, disponibilidad de empleos y
+calidad de vida;
+
+Factores económicos: valor del suelo, espacio industrial y comercial,
+desempleo, mercados internos y externos, energía eléctrica, impuestos y
+financiación de servicios municipales;
+
+Factores de supervivencia: estrategias para afrontar desastres, delincuencia y
+contaminación;
+
+Factores políticos: opinión pública, zonificación y mantenimiento de residentes y
+negocios satisfechos con su ciudad y su desempeño;
+
+Las HERRAMIENTAS le brindan la capacidad de planificar, diseñar, zonificar, construir,
+arrasar, rezonificar y gestionar una ciudad.
+								Página 4^
+
+PLAN: los sistemas cartográficos brindan descripciones físicas y demográficas de la
+ciudad entera. 
+DISEÑO: diseñar áreas de vivienda y trabajo, sistemas de carreteras y tránsito, y
+áreas recreativas.
+ZONA: establezca límites de zonificación para parques, zonas residenciales, comerciales y
+zonas industriales.
+BULLDOZE: talar bosques para el crecimiento de la ciudad, construir vertederos a lo largo de vías fluviales,
+Limpiar y rezonificar las áreas desarrolladas.
+GESTIONAR: utilizando los sistemas cartográficos y gráficos, recopile datos actualizados.
+información sobre densidad de tráfico, tendencias demográficas, estado de la red eléctrica,
+contaminación, delincuencia, valor de la tierra, eficiencia de la policía y los bomberos, y
+flujo de caja. Establecer la tasa impositiva y los niveles de financiación para los servicios de la ciudad.    
+
+Pero la HERRAMIENTA más importante de todas es el propio Simulador. Pon a prueba tus planes
+e ideas mientras observas cómo la ciudad crece o se reduce a través de la inmigración y
+emigración de ciudadanos simulados trabajadores. Los Sims se mudarán y construirán.
+hogares, hospitales, iglesias, tiendas y fábricas en las zonas que usted proporciona,
+o mudarse en busca de trabajo o una vida mejor en otro lugar. El éxito de
+la ciudad se basa en la calidad de la ciudad que diseñas y gestionas.
+
+				LOS OBJETIVOS DE SimCity
+Hay muchos objetivos que perseguir y alcanzar en SimCity.
+
+ESCENARIOS
+Cada uno de los ocho escenarios incluidos es en realidad un juego en sí mismo, con un
+número ilimitado de formas de ganar o perder.
+
+Cada escenario es una ciudad que es víctima de una planificación horrible o
+a punto de ser víctima de un desastre natural. Después de cargar en un
+En este caso, tendrá una cantidad de tiempo limitada para corregir o reparar el
+problema. Si tienes éxito, se te entregará la llave de la ciudad. si
+Si no, es posible que lo saquen de la ciudad en tren.
+
+Si una estrategia no funciona, prueba con otra. Y otro. Hay un millón
+historias en cada ciudad, y tú las escribes.
+
+LA CIUDAD DE TU SUEÑO
+Quizás el objetivo principal de SimCity sea que diseñes, gestiones y mantengas
+la ciudad de tus sueños.
+
+Su lugar ideal para vivir puede ser una metrópolis bulliciosa, con mucha gente, mucha
+de coches, edificios altos; vida de alta densidad y alta energía. O puede ser un
+pequeña comunidad rural, o un grupo vinculado de pequeñas comunidades que proporcionen
+vida campestre de ritmo lento.
+
+Mientras su ciudad pueda ofrecer lugares para que la gente viva, trabaje, compre y
+jugar, atraerá a los residentes. Y mientras el tráfico, la contaminación,
+la sobrepoblación, la delincuencia o los impuestos no los ahuyenten, tu ciudad vivirá.
+								Página 5^
+
+		(Una imagen de las pantallas iniciales se encuentra en la página 6)
+
+				PARA EMPEZAR
+
+			    TIEMPO DE REACCIÓN DE SIMULACIÓN
+
+El simulador es un software multitarea muy complejo. es
+realizando continuamente muchas comprobaciones, cálculos y actualizaciones, así como
+Vigilando el mouse y el teclado para responder a sus demandas. cuando
+cargas en una ciudad, dale al simulador unos minutos para recopilar sus datos
+y actualizar los mapas, gráficos, niveles de población, etc. Algunos de los otros
+Los momentos en los que el simulador se queda atrás son: zonas de encendido y actualización
+el mapa de servicios de la ciudad después de instalar estaciones de policía y bomberos. 
+
+
+			TUTORIAL - UN PASEO POR TU CIUDAD
+
+Inicie su AMIGA, luego inserte su disco SimCity y haga doble clic en 
+Icono de SimCity.  
+NOTA: En SimCity, utilice el botón IZQUIERDO del ratón, a menos que se indique lo contrario. el
+El botón DERECHA se utiliza principalmente para activar y seleccionar elementos del menú del
+barra de título. El botón DERECHA activa la función BULLDOZER mientras está en el
+Ventana del editor, así que no lo presiones a menos que lo digas en serio.
+
+Después de unos segundos, aparecerá el letrero "Bienvenido a SimCity". eso
+muestra las siguientes opciones: INICIAR UNA NUEVA CIUDAD, CARGAR UNA CIUDAD y SELECCIONAR UNA
+ESCENARIO.
+
+Haga clic en INICIAR NUEVA CIUDAD. El Workbench reaparecerá y el programa
+continuar cargando. Pronto verás una pequeña ventana de aviso que te informa
+que el programa está terraformando una nueva ciudad. Un mapa de terrenos no urbanizables 
+ser generado y mostrado. Se le dará una opción: GENERAR UN NUEVO 
+TERRENO o UTILICE ESTE MAPA. Haga clic en USAR ESTE MAPA. Haga clic en el cuadro Aceptar cuando esté
+hecho. Ahora puedes elegir el NIVEL DE JUEGO. Haga clic en FÁCIL. Ahora lo hará 
+Se le pedirá que nombre su ciudad. Continúe y asígnele un nombre o acepte el nombre predeterminado. 
+EN ALGÚN LUGAR. Tienes la opción de GENERAR UN NUEVO TERRENO o UTILIZAR ESTE MAPA.
+Haga clic en USAR ESTE MAPA. Haga clic en el cuadro Aceptar cuando haya terminado.
+								Página 7^
+
+(Una imagen de la VENTANA MAPAS/GRÁFICOS y la VENTANA PRESUPUESTO se encuentra en la página 8)
+
+Se le mostrará la VENTANA MAPAS/GRÁFICOS.
+
+En el lado izquierdo de la ventana está el mapa; una visión general de su 
+terreno completo, aproximadamente 10 millas por 10 millas de área. 
+
+Los íconos debajo del mapa son botones para activar y mostrar vistas de su 
+ciudad. Jugaremos con ellos más tarde.
+
+En el lado derecho de la pantalla puede ver gráficos basados en el tiempo de varios
+datos de la ciudad. También volveremos a esto más adelante.
+
+El rectángulo ubicado en algún lugar del mapa indica la porción 
+de su terreno que será visible en su VENTANA DEL EDITOR - su trabajo principal 
+área. Haz clic y arrastra el cuadro por el mapa, eligiendo la zona que desees. 
+para trabajar, luego haga clic en el botón "REGRESAR AL EDITOR" en la parte inferior
+esquina derecha de la pantalla para salir de la VENTANA MAPAS/GRÁFICOS e ir a
+la VENTANA DEL EDITOR para comenzar a construir tu ciudad.
+
+NOTA: La VENTANA DE PRESUPUESTO aparecerá una vez al año en el horario de la ciudad. Cuando lo haga,
+simplemente haga clic en el cuadro IR CON ESTAS CIFRAS en la parte inferior.
+								Página 9^
+								
+		(La página 10 es una imagen de la VENTANA DEL EDITOR)
+
+Ahora estás en la VENTANA DE EDITAR, viendo una vista de primer plano del área. 
+cuadro en la VENTANA MAPAS. Tenga en cuenta los iconos de la derecha. Funcionan igual que
+iconos en varios programas de dibujo y pintura. 
+									
+En la parte superior de la VENTANA DEL EDITOR se encuentra la barra de título. Esto muestra el nombre de
+la ciudad, la fecha y los fondos disponibles de la ciudad. También están los habituales
+Gadgets Amiga para mover la ventana a la parte superior o inferior de la pila.
+Nota: Puede hacer clic y arrastrar la barra de título para mover la ventana del editor, pero
+la ventana debe estar hasta la parte superior de la pantalla para el terreno
+desplazándose para funcionar correctamente.
+
+Mueva el puntero del mouse a la barra de título y presione y mantenga presionado el botón DERECHA
+botón. Esto le mostrará los distintos menús disponibles en SimCity. sin
+Al elegir cualquier elemento del menú, deslice el puntero del mouse por la pantalla y tome
+un vistazo a los menús disponibles.
+
+Para desplazar el terreno debajo de la VENTANA DEL EDITOR, mueva el puntero hacia la parte superior,
+parte inferior, laterales o esquinas de la pantalla. Las teclas del cursor también se pueden utilizar para
+desplazarse.
+										
+Su terreno disponible se compone de tres tipos de territorio. las zonas marrones
+son terrenos despejados, las zonas verdes son bosques y arbustos, y las zonas azules 
+son agua. Sólo se puede construir en terrenos despejados. Puedes talar bosque y ampliar 
+costas con su excavadora. Puedes cruzar carreteras, rieles y electricidad. 
+agua.
+									
+Para despejar el terreno, haga clic en el icono de la excavadora. El "puntero" es un pequeño 
+cuadrado, delineando el área que será arrasada cada vez que hagas clic en el 
+ratón.  Mueva el puntero de su excavadora sobre un terreno forestal y haga clic. el 
+La sección de bosque debajo de su puntero ahora es tierra despejada. Ahora, mantén presionado el botón 
+Baja y avanza lentamente por el bosque. Destrucción masiva. Limpiar un área grande 
+de terreno para preparar para la construcción.
+
+Para empezar una ciudad necesitamos tres cosas: lugares para que vivan los Sims, lugares para
+Sims para trabajar y poder.
+									
+Haga clic en el ícono Residencial (la casa), luego regrese a su terreno. 
+Su puntero ahora tiene un contorno cuadrado más grande. Este esquema indica cuánto 
+Espacio libre que necesitarás para crear una zona residencial: un lugar para los Sims.
+vivir. Al hacer clic con el botón izquierdo del ratón en terreno despejado, se "divide" el terreno. 
+La "R" en el centro de la zona indica que es una zona residencial. 
+El símbolo del rayo parpadeante indica que la zona no tiene energía. Coloque un 
+algunas zonas residenciales más adyacentes a la primera.
+				
+Si tiene problemas para ubicar una zona, asegúrese de que esté en terreno abierto. tu
+No se puede ubicar en agua, árboles o sobre otras zonas.
+						
+Ahora decide dónde ubicar una planta de energía en tu ciudad. Señale el 
+icono de la planta de energía y haga clic con el botón del mouse. 
+								Página 11^
+
+Aparecerá un pequeño menú que le dará la opción de elegir carbón o nuclear. 
+planta. Por ahora, opte por la central eléctrica de carbón. El esquema de la central eléctrica. 
+es incluso mayor que el de la zona residencial. Coloque la central eléctrica en algún 
+espacio abierto cerca de sus zonas residenciales. Si su planta de energía no está directamente 
+adyacente a una zona, tendrás que tender una línea eléctrica desde tu red eléctrica.
+planta a la zona residencial. 
+
+Para hacer esto, haga clic en el ícono de la línea eléctrica. Usando el puntero y el botón del mouse, 
+Coloque líneas eléctricas desde su planta de energía hasta sus zonas residenciales. adyacente 
+Las secciones de la línea eléctrica se conectarán automáticamente entre sí. 
+Las carreteras y las líneas de transporte se conectan de la misma manera. En un momento, el 
+Los símbolos parpadeantes desaparecerán, indicando que sus zonas han sido energizadas.
+Cualquier zona adyacente a una zona eléctrica no necesita alimentación separada. 
+Las líneas corren hacia ellos. Pronto verás que empiezan a aparecer pequeñas casas. Los Sims 
+han comenzado a mudarse.
+								
+Cuando zonificas un terreno, designas dónde se permite la construcción. es el 
+Sims que realmente construyen.
+										
+Ahora que tienes algunas zonas residenciales, estás listo para la zona comercial. 
+y áreas industriales; Lugares para que los Sims trabajen, compren y realicen transacciones.
+negocio. Seleccione el ícono comercial (varios edificios) y coloque algunos 
+Zonas Comerciales cercanas a tus residenciales. Luego seleccione el ícono industrial 
+(la fábrica) y trazar un mapa de algunas zonas industriales. Conecte toda la energía necesaria 
+líneas.
+	
+NOTA: Hay un retraso entre el momento en que conecta la alimentación a una zona y el
+momento en que el símbolo del rayo parpadeante desaparece. Este retraso se hace más largo a medida que
+Tu ciudad se hace más grande.
+								     
+Tenga en cuenta que a medida que selecciona diferentes iconos, la descripción del icono y su
+El costo asociado se mostrará en el cuadro justo encima de los íconos. el 
+La barra de mensajes en la parte superior de la VENTANA EDITAR muestra sus fondos totales. 
+disponible. Si no tiene suficiente dinero en su tesorería para pagar un 
+determinada función, ese icono aparecerá como "fantasma" en su pantalla y se 
+no disponible para su uso.
+
+Ahora, haga clic en el ícono Carretera y agregue carreteras desde su vivienda residencial al
+áreas comerciales e industriales para permitir que los Sims viajen al trabajo. roiad
+Las secciones se conectan entre sí como secciones de líneas eléctricas. Una vez que tengas caminos, 
+se generará tráfico.
+									
+Ahora mueva el puntero del mouse a la barra de título, presione y mantenga presionado el botón DERECHO del mouse
+, deslice el puntero hacia el MENÚ DE VENTANA y seleccione la VENTANA DE PRESUPUESTO. 
+Aquí es donde se establece el nivel de financiación para los bomberos, la policía y el transporte.
+departamentos de portabilidad. Haga clic en las flechas hacia arriba o hacia abajo para cambiar la financiación. 
+nivel. También puede ajustar la tasa actual del impuesto a la propiedad. si no tienes 
+departamentos de policía o bomberos, no puedes financiarlos. No puedes financiar más de
+100%. Haga clic en el cuadro IR CON ESTAS CIFRAS cuando haya terminado.
+								Página 12^		
+							
+Ahora seleccione MAPA Y GRÁFICOS en el MENÚ DE WINDOWS para regresar a MAPAS/GRÁFICOS.
+VENTANA. Al hacer clic en los iconos de la parte inferior izquierda, podrá ver diferentes 
+Vistas demográficas de tu ciudad. Necesitará esta información para construir y 
+Ajusta las condiciones en tu ciudad. Por ejemplo, puede identificar las áreas con 
+el crimen más alto para determinar la ubicación de nuevas comisarías.
+									
+Se puede obtener información adicional navegando por las opciones disponibles.
+Gráficos. A diferencia de los mapas, que sólo muestran el estado actual de 
+tu ciudad, los gráficos te dan un registro del pasado para que puedas medir 
+tendencias y ciclos.
+									
+Esta es toda la información básica que necesitas para ejecutar SimCity, pero te sugerimos
+sigue leyendo. La Referencia de usuario explica en detalle cómo utilizar cada programa.
+función. Inside SimCity explica el funcionamiento interno del simulador y
+da algunos consejos y sugerencias para usarlo.  También hay un ensayo sobre El 
+Historia de las ciudades y urbanismo y bibliografía para una ciudad seria. 
+Planificadores.
+								Página 13^
+
+				REFERENCIA DE USUARIO
+				~~~~~~~~~~~~~~
+				    MENÚS
+
+Los menús de SimCity siguen la interfaz estándar de Amiga. Utilice el ratón DERECHO
+para activar y seleccionar elementos del menú.
+
+MENÚ ARCHIVO
+								
+ACERCA DE muestra una pantalla que brinda información fascinante y vital sobre
+SimCity y Maxis.
+
+INICIAR NUEVA CIUDAD genera un terreno nuevo y vacío. Borra la ciudad existente (si
+cualquiera) de memoria. Primero se le preguntará si desea "GENERAR UN NUEVO
+¿MAPA TERRESTRE Y PERDER EL ACTUAL?" y da la opción de seguir adelante o
+cancelar. A continuación, tendrás la oportunidad de establecer el NIVEL DE JUEGO y
+luego nombra tu ciudad.
+
+SELECCIONAR ESCENARIO muestra un menú de ESCENARIOS disponibles para cargar y ejecutar.
+
+LOAD CITY muestra la "Pantalla de carga de archivos" estándar de Amiga, permitiéndole
+para cargar una ciudad previamente guardada.
+									
+SAVE CITY muestra la "Pantalla de guardado de archivos" estándar de Amiga que le permite
+guarde el escenario o la ciudad en progreso para su uso posterior. Una vez que haya cargado un 
+segundo, se puede guardar y recargar, como cualquier ciudad, sin el inminente 
+desastre.
+
+								
+PRlNT ClTY abre una ventana que le ofrece la opción de imprimir su
+ciudad en una sola página o en un cartel de varias páginas. También puede cancelar el
+función de impresión. 
+
+¡SALGA! finaliza SimCity.
+												
+EDITAR MENÚ
+UNDO cancela la última operación que realizó.
+
+MENÚ DE OPCIONES
+Las opciones en esta ventana se quedan con la simulación, no con la ciudad.  
+
+AUTO BUDGET mantiene su presupuesto en la misma configuración porcentual sin 
+pidiendo aprobación cada año.
+
+AUTO BULLDOZER le permite colocar zonas, carreteras, etc., directamente 
+encima de los árboles y la costa sin necesidad de demoler primero manualmente.  
+Se le cobrará lo mismo que por la topadora manual.
+									
+AUTO GOTO EVENT lo transporta automáticamente a la escena de un desastre o 
+evento importante.
+								Página 14^									
+
+SOUNDS ON activa y desactiva los sonidos de la ciudad. Por defecto el
+posición "encendido". La simulación se ejecuta un poco más rápido con el sonido apagado.
+
+GAME SPEED abre un submenú que le permite configurar la simulación
+velocidad. FAST establece la hora de la ciudad a la velocidad máxima. MEDIO es la configuración predeterminada, 
+aproximadamente tres veces más lento que FAST. SLOW ajusta la velocidad unas siete veces 
+más lento que RÁPIDO. PAUSA detiene el tiempo. La zonificación y la construcción son posibles en 
+tiempo pausado.
+
+POWER BOLTS activa y desactiva la presencia del signo de alimentación parpadeante
+zonas sin alimentación.
+
+MENÚ DE DESASTRES
+El MENÚ DE DESASTRES te permite desatar desastres naturales en tu ciudad.
+Utilice estos desastres para poner a prueba su capacidad para hacer frente a emergencias en su
+ciudad o simplemente para liberar alguna agresión. Más información sobre desastres,
+sus causas, y su tratamiento se presenta más adelante.
+
+	**ADVERTENCIA** Es una buena idea guardar tu ciudad en el disco antes de
+	desatar un desastre, por si acaso.
+
+FIRE inicia un incendio en algún lugar dentro de los límites de la ciudad.
+
+INUNDACIÓN provoca que se produzca una inundación cerca del agua.
+									
+AlRDISASTER provoca que un avión se estrelle. Si no hay aviones en el aire, 
+se generará uno.
+
+TORNADO provoca la aparición de un tornado dentro de los límites de la ciudad.
+
+TERREMOTO causa un terremoto GRANDE.
+
+MONSTER suelta un monstruo en tu ciudad.
+
+MENÚ DE VENTANAS
+
+PRESUPUESTO abre la VENTANA PRESUPUESTO.
+
+EVAL abre la VENTANA DE EVALUACIÓN.
+
+MAP&GRAPH trae la VENTANA MAPAS/GRÁFICOS.
+
+WORKBENCH le permite abrir la VENTANA WORKBENCH o cerrarla para liberar
+agregará otros 30K de memoria para SimCity.
+								Página 15^
+	(La página 16 es una imagen de la ventana del editor nuevamente (igual que la 10))
+
+			LA VENTANA DEL EDITOR 
+Aquí es donde tiene lugar toda la zonificación y construcción.
+
+TERRENO
+Hay tres tipos de terreno en la VENTANA DEL EDITOR.
+
+El área marrón es un terreno abierto, donde se puede zonificar y construir.
+
+Las zonas verdes son árboles y bosques. No se puede zonificar ni construir en verde
+áreas. Puedes EXTRAER árboles y bosques para convertirlos en tierra despejada. mientras
+Es necesario hacer algo de bulldozer, limpiar demasiada área verde
+dar como resultado valores de propiedad más bajos.
+
+El área azul es agua. No se puede dividir en zonas ni construir sobre el agua. debes
+derribar las costas para crear vertederos antes de poder construir o zonificar allí.
+
+Se pueden tender carreteras y líneas eléctricas sobre el agua, sin giros ni
+intersecciones.
+
+			DISPOSITIVOS DE LA VENTANA DEL EDITOR									
+
+LA BARRA DE TÍTULO muestra el nombre de la ciudad. Hacer clic y arrastrar la barra de título permite 
+que reubique la VENTANA DE EDITAR.
+
+	NOTA: La VENTANA DEL EDITOR debe estar hasta la parte superior de la
+	pantalla para que el desplazamiento funcione correctamente.									
+
+A la derecha de la barra de título se encuentran los dispositivos estándar de Amiga para mover
+la ventana a la parte superior e inferior de la pila. 
+
+Detrás de la barra de título está la barra de menú.
+
+La BARRA DE MENSAJES, ubicada directamente debajo de la barra de título, muestra el estado.
+mensajes para usted desde el simulador y mensajes de demanda de los Sims
+ellos mismos.
+
+BOTÓN IR A (el ojo) lo lleva a la escena de un desastre o evento importante
+mencionado en la barra de mensajes.
+
+LOS ICONOS a la derecha son para las funciones de edición.
+
+El CUADRO DE TÍTULO DEL ICONO, ubicado justo encima de los Iocns, proporciona el nombre y el costo de
+el icono seleccionado.
+
+CONTROLES DE LA VENTANA DEL EDITOR
+
+El RATÓN se utiliza para activar iconos. Mover el puntero del mouse hacia los lados
+o esquinas de la pantalla hace que el terreno se desplace debajo del EDITOR
+VENTANA.
+
+El botón IZQUIERDO del mouse se usa para seleccionar íconos y colocar elementos.
+
+El botón DERECHO del ratón realiza la función Bulldozer, independientemente del
+icono activo.  
+								Página 17^
+
+Las TECLAS DEL CURSOR también provocarán el desplazamiento.
+
+Z y X ciclan los íconos activos en direcciones opuestas.
+									
+Q - (Consulta) - Mantenga presionada la tecla "Q" mientras hace clic en partes de su ciudad 
+para que aparezca un cuadro de estado que identifica el lugar (zona, carretera, terreno, etc.), 
+y brindando información sobre la densidad de población, el valor de la tierra, la tasa de criminalidad, 
+Contaminación y crecimiento.
+
+B, R, T y P son teclas de acceso directo. No importa qué icono esté seleccionado, si
+Mantenga presionada la tecla "B", estará en el modo Bulldozer activo. 
+Suelta la tecla "B" para devolver el control al icono seleccionado. La tecla "R"
+Activa el modo Roadbuilding de la misma manera. La tecla "T" activa Transit 
+construcción de líneas, y la tecla "P" lo coloca en el modo de línea eléctrica.
+
+
+ICONOS DE LA VENTANA DEL EDITOR
+								
+Los iconos activos están resaltados. Los iconos fantasma no están disponibles por falta 
+de fondos. Cuando se selecciona un icono, un rectángulo acompañará al puntero.
+para indicar el tamaño y área del terreno que será afectado.
+									
+BULLDOZER tala árboles y bosques, crea vertederos a lo largo del agua, 
+niveles desarrollados, zonas existentes y limpieza de escombros causados por desastres. 
+La opción Auto-Bulldozer solo funciona en terreno natural, no en terreno urbanizado.  
+
+	NOTA: Derribar el centro de una zona destruirá toda la zona.
+
+Derribar una sección de tierra con una topadora cuesta $1.
+								
+CARRETERAS conectan áreas desarrolladas. Las intersecciones y giros se realizan automáticamente. 
+creado. Traza caminos continuos haciendo clic y arrastrando el puntero.
+Tenga cuidado: si accidentalmente coloca una carretera en el lugar equivocado, 
+tener que pagar por la demolición y la reconstrucción. 
+
+No se podrán colocar carreteras sobre zonas zonificadas. Se pueden colocar sobre árboles,
+arbustos y la costa solo después de demoler o activar el
+Bulldozer automático. Las carreteras pueden cruzar líneas eléctricas y líneas de tránsito solo en 
+ángulos rectos. 
+
+Colocar caminos sobre el agua crea un puente. Los puentes sólo se pueden construir en un 
+línea recta: sin curvas, giros ni intersecciones. Las costas deben ser 
+demolido antes de construir un puente.
+									
+Las carreteras se mantienen con cargo al presupuesto de tránsito y se desgastan si hay 
+una falta de financiación. El importe de la financiación anual solicitada por el
+departamento de transporte es $1 por cada sección de la carretera, $4 por cada
+sección del puente. 
+
+Cuesta $10 tender una sección de carretera y $50 tender una sección de puente.
+								Página 18^	
+	
+LAS LÍNEAS DE TRÁNSITO crean un sistema ferroviario para el transporte masivo dentro de la ciudad.  
+Coloque vías en áreas de mucho tráfico para ayudar a aliviar la congestión.  
+
+Las intersecciones y giros se crean automáticamente. Establecer tránsito continuo 
+líneas haciendo clic y arrastrando el puntero. Las vías tendidas bajo los ríos 
+aparecen como líneas discontinuas. Estos túneles submarinos deben ser verticales u horizontales.
+tal - sin giros, curvas o intersecciones.  
+
+Las líneas de tránsito se mantienen con cargo al presupuesto de tránsito. El nivel de financiación 
+afecta la eficiencia del sistema. El importe de la financiación anual
+solicitado por el departamento de transporte es de $4 por cada tramo de ferrocarril,
+y $10 por cada sección del túnel.
+
+Cuesta 20 dólares por tramo de vía en tierra y 100 dólares por tramo bajo el agua.
+
+LAS LÍNEAS ELÉCTRICAS transportan energía desde las centrales eléctricas hasta los terrenos zonificados y entre zonas. 
+Todo terreno urbanizado necesita energía para funcionar.  
+
+Las líneas eléctricas no pueden cruzar terrenos zonificados. Se pueden construir sobre árboles,
+arbustos y la costa solo después de demoler o activar el
+Función Auto-Bulldoze desde la ventana Opciones.
+
+La energía se conduce a través de zonas adyacentes. Las zonas sin alimentación muestran el 
+símbolo de encendido parpadeante. Hay un retraso entre el momento en que enciendes una zona 
+y cuando el símbolo parpadeante desaparezca. El retraso se hace más largo a medida que la ciudad 
+se hace más grande.  
+
+Los cruces y esquinas se crean automáticamente. Colocar líneas eléctricas continuas. 
+haciendo clic y arrastrando el puntero. Las líneas eléctricas que cruzan un río deben 
+horizontal o vertical: sin giros, curvas ni intersecciones. Las costas deben
+ser demolido antes de colocar líneas eléctricas. Las líneas eléctricas consumen algo de energía debido a 
+ineficiencias en la transmisión.  
+
+Cuesta 5 dólares tender un tramo de línea eléctrica en tierra y 25 dólares en agua.
+									
+Los PARQUES se pueden ubicar en terrenos despejados. Los parques, como los bosques y el agua, aumentan la 
+Valor del suelo de las zonas aledañas. Los parques pueden ser derribados como cortafuegos o 
+reservar espacio para una posterior expansión del transporte público. 
+
+Cuesta $10 al parque de la zona uno.
+									
+Las ZONAS RESIDENCIALES son donde los Sims construyen casas, apartamentos y comunidades. 
+instalaciones como escuelas e iglesias. 
+
+Las zonas residenciales se desarrollan hacia uno de cuatro valores: barrios marginales, clase media baja, 
+clase media alta y clase alta. Pueden variar en densidad de población.
+desde viviendas unifamiliares hasta apartamentos y condominios de gran altura. 
+
+Los factores que influyen en el valor y el crecimiento residencial son la contaminación, la densidad del tráfico, 
+densidad de población, terreno circundante, acceso a carreteras, parques y servicios públicos.  
+								Página 19^
+
+Cuesta $100 zonificar un terreno como residencial.
+	
+Las zonas residenciales están delimitadas en verde para ayudar a distinguirlas de
+otras zonas.
+ 								
+Las ZONAS COMERCIALES se utilizan para muchas cosas, incluidas tiendas minoristas, oficinas 
+edificios, estacionamientos y gasolineras. 
+Hay cuatro valores para propiedades comerciales y cinco niveles de crecimiento desde 
+desde pequeños almacenes hasta altos rascacielos. Factores que influyen en el valor. 
+y el crecimiento de las áreas comerciales incluyen los mercados internos, la contaminación, el tráfico 
+densidad, acceso residencial, oferta laboral, aeropuertos, tasas de criminalidad, tránsito 
+acceso y servicios públicos.  
+
+Cuesta $100 zonificar un terreno como Comercial.
+
+Las zonas comerciales están bordeadas en azul para ayudar a distinguirlas de
+otras zonas.
+										
+Las ZONAS INDUSTRIALES son para manufactura pesada y servicios industriales. 
+Hay cuatro niveles de crecimiento industrial a partir de pequeñas estaciones de bombeo. 
+y almacenes hasta grandes fábricas. 
+
+Los factores que influyen en el crecimiento de las zonas industriales son los mercados externos, 
+puertos marítimos, acceso de tránsito, acceso residencial, oferta laboral y servicios públicos.  
+
+Cuesta $100 zonificar un terreno como industrial.
+
+LOS DEPARTAMENTOS DE BOMBEROS hacen que las áreas circundantes sean menos susceptibles a los incendios. 
+Cuando ocurren incendios, se apagan antes y causan menos daño si 
+la estación está cerca. La eficacia de la contención de incendios depende de la 
+Nivel de financiación del departamento de bomberos. 
+
+Cuesta $500 construir una estación de bomberos. Mantenimiento anual completo de cada incendio.
+La estación cuesta $100.
+									
+LOS DEPARTAMENTOS DE POLICÍA reducen la tasa de criminalidad en los alrededores. esto en 
+a su vez aumenta el valor de las propiedades. Colóquelos en áreas de alta densidad delictiva como 
+definido por su mapa de tasa de criminalidad. La eficiencia de una estación depende de 
+el nivel de financiación del departamento de policía. 
+
+Cuesta $500 construir una estación de policía. Mantenimiento anual completo de cada uno.
+La estación de policía cuesta $ 100. 
+								Página 20^
+
+Las CENTRALES DE ENERGÍA pueden ser de carbón o nucleares, elegidas en un submenú proporcionado cuando 
+haces clic y mantienes presionado el ícono. La central nuclear es más potente pero 
+conlleva un ligero riesgo de fusión. La planta de carbón es menos costosa, pero 
+menos potente y contamina.  
+
+Todo terreno zonificado necesita energía para desarrollarse y crecer. Cuando la tierra urbanizada pierde
+energía, degenerará hasta convertirse en terreno estéril a menos que se restablezca la energía. 
+
+Conectar demasiadas zonas a una central eléctrica provoca caídas de tensión. 
+
+Construir centrales eléctricas de carbón cuesta 3.000 dólares y suministran suficiente electricidad para 
+alrededor de 50 zonas. Las centrales nucleares cuestan 5.000 dólares y suministran electricidad a 
+alrededor de 150 zonas.
+
+LOS ESTADIOS fomentan el crecimiento residencial. La ventana de mensaje le indicará
+cuando la ciudad quiere un estadio. Puedes construir un estadio en tu ciudad antes 
+a esta solicitud sin efecto negativo. Los estadios generan indirectamente un 
+generar muchos ingresos, pero generar mucho tráfico. Mantener adecuadamente una
+ium requiere una buena red de carreteras y tránsito. 
+
+Cuesta $3000 construir un estadio.
+
+AlRPORTS aumenta el potencial de crecimiento de sus mercados comerciales. Una vez al 
+Cuando la ciudad comienza a crecer, el crecimiento comercial se estabilizará sin un aeropuerto.
+
+Los aeropuertos son grandes y caros y no deberían construirse a menos que su ciudad 
+puede permitirse uno. Posicionar los aeropuertos para mantener las rutas de vuelo sobre el agua siempre que sea posible. 
+posible reducir el impacto de los desastres aéreos.  
+
+Una vez que construyas un aeropuerto, verás aviones volando sobre tu ciudad para 
+y desde el aeropuerto. También hay un helicóptero de tráfico que le avisa 
+zonas de mucho tránsito.
+
+Cuesta 10.000 dólares zonificar un terreno para su uso como aeropuerto.
+
+LOS PUERTOS MARÍTIMOS aumentan el potencial de crecimiento industrial. tienen poco 
+efecto en una ciudad pequeña, pero contribuyen mucho a la industrialización en una 
+gran ciudad.								
+
+Los puertos marítimos deben ubicarse en la costa. La costa debe ser demolida
+antes de zonificar un puerto marítimo.  Una vez que el puerto esté operativo, es posible que veas barcos. 
+en el agua.  
+
+Cuesta $5000 zonificar el terreno para su uso como puerto marítimo.
+								Página 21^
+
+				LA VENTANA DEL PRESUPUESTO
+									
+Cuando sus primeros impuestos se recaudan en una nueva ciudad, y cada año posterior, 
+Aparecerá la VENTANA DE PRESUPUESTO (a menos que seleccione la función Presupuesto automático). 
+Se le pedirá que establezca los niveles de financiación para los bomberos, la policía y el transporte.
+departamentos de portabilidad y para fijar la tasa del impuesto a la propiedad.
+								
+Puedes subir y bajar los niveles de presupuesto haciendo clic en las pequeñas flechas. 
+que corresponden a cada categoría. Se mostrará un indicador de porcentaje 
+el nivel de financiación que se mantendrá si activa el presupuesto automático 
+función. Puede ajustar su tasa impositiva haciendo clic en las flechas al lado de 
+indicador de tasa impositiva. Haga clic en "IR CON ESTAS CIFRAS" para salir de la VENTANA DE PRESUPUESTO.
+								Página 22^					
+
+TASA DE IMPUESTO
+La tasa impositiva máxima que puede establecer es del 20%.
+
+La tasa impositiva mínima que puede establecer es 0%.
+
+La tasa impositiva óptima para un crecimiento rápido está entre el 5% y el 7%.
+
+Para desacelerar el crecimiento de la ciudad sin realmente reducirla, establezca la tasa impositiva en 9%.
+
+Los impuestos recaudados en cada zona se basan en la siguiente fórmula: Impuesto =
+Población * Valor de la tierra * Tasa impositiva * una constante de escala. la escala
+cambios constantes con el nivel de dificultad del juego.
+					  
+El nivel de financiación anual solicitado para los departamentos de bomberos y policía es
+$100 por estación que hayas colocado. Hasta que realmente enciendas fuego o
+comisarías de policía, no se puede financiarlas. No puedes asignar más del 100%
+de la financiación solicitada para los departamentos de policía y bomberos - SimCity Police
+Los oficiales e inspectores de bomberos son honestos y no aceptarán sobornos.
+
+Asignar menos del monto solicitado disminuirá la efectividad
+Cobertura de la policía o estación de bomberos.
+
+La cantidad de financiamiento anual solicitada para el departamento de transporte es
+$1 por cada sección de carretera, $4 por cada sección de puente (carreteras sobre
+agua), $4 por cada sección de ferrocarril y $10 por cada sección de túnel
+(rieles submarinos). No se puede destinar más del 100% de lo solicitado
+fondos.
+
+La financiación para el mantenimiento del transporte ligeramente por debajo del 100% provocará lentitud,
+deterioro menor del sistema de tránsito: un bache ocasional o una mala
+sección de vía. Una financiación entre el 90 y el 75 % causará daños notables -
+y el ferrocarril será inseguro. Una financiación inferior al 75% provocará un rápido deterioro
+de su sistema de tránsito.
+
+FLUJO DE EFECTIVO
+Flujo de caja = Impuestos recaudados - Fondos totales asignados. sera negativo
+número si sus costos de mantenimiento anual son mayores que su impuesto anual
+ingesta.
+
+Una diferencia importante entre SimCity y una ciudad real es que SimCity no
+permitir déficits presupuestarios. Si no tienes el dinero, no puedes gastarlo. Pruebe
+no dejar que su ciudad funcione con un flujo de caja negativo.
+ 									
+Se muestra un icono de reloj de arena en la parte superior izquierda del presupuesto. 
+ventana. Indica el tiempo restante para ingresar la información del presupuesto.  
+Cuando el reloj de arena se vacía, se acepta el presupuesto que se fija. si tu 
+Si necesita más tiempo, haga clic en la VENTANA DE PRESUPUESTO para restablecer el reloj de arena.
+								Página 23^
+			
+			VENTANA MAPAS/GRÁFICOS
+									
+La VENTANA MAPAS/GRÁFICOS proporciona al urbanista información vital sobre
+su ciudad. Haga clic en el botón "REGRESAR AL EDITOR" cuando desee salir del
+VENTANA MAPAS/GRÁFICOS y regresar a la VENTANA EDITOR.
+
+MAPAS
+El lado izquierdo de la ventana MAPA/GRÁFICO le proporciona mapas que muestran
+varias vistas generales de su ciudad.
+
+En el mapa hay un cuadro rojo que indica el área del mapa que será
+visible en la ventana de edición. El cuadro se puede mover por el mapa colocando
+el puntero donde desea que esté el centro del cuadro y haciendo clic en el
+botón izquierdo del ratón. También puedes mantener presionado el botón y arrastrar el cuadro.
+alrededor del mapa.
+
+Para mapas demográficos que muestran densidad, tasa o niveles comparativos, un Color
+La clave se mostrará a la izquierda del mapa.
+
+También puede notar letras amarillas en el mapa. Estos son marcadores que te permiten
+saber dónde están los objetos móviles. Una "S" marca la ubicación de un barco. un
+La "R" marca la ubicación de un tren. Una "H" marca la ubicación de un
+helicóptero. Una "A" marca la ubicación de un avión. Una "M" marca la
+ubicación de un Monstruo y una "T" marca la ubicación de un Tornado.
+								Página 24^
+
+El ClTY FORM MAP muestra la forma física de su ciudad, demarcando
+zonas desarrolladas y no desarrolladas. Las zonas se muestran en gris oscuro, las carreteras en
+negro y raíles en gris claro. Utilice este mapa para planificar la expansión de la ciudad.
+								
+El MAPA DE RED ELÉCTRICA te muestra la red eléctrica de tu ciudad. Zonas energizadas
+se muestran con un punto amarillo en el medio. Las zonas sin alimentación tienen un color negro.
+punto. Las líneas eléctricas en tierra se muestran en negro. Las líneas eléctricas sobre el agua son
+se muestra en amarillo. Utilice este mapa para localizar zonas sin energía y cortes en el
+líneas eléctricas. 
+
+El MAPA DE TRÁNSITO es un mapa de carreteras y ferrocarriles de la ciudad. Las carreteras se muestran en
+gris. Los rieles se muestran en negro. Utilice esta vista para examinar el acceso de su ciudad. 
+a áreas específicas y planificar la futura expansión de la red.
+
+El MAPA DE ZONAS muestra y distingue todas las zonas y áreas desarrolladas en el
+ciudad. Las zonas residenciales se muestran en verde. Las zonas comerciales son azules.
+Las zonas industriales son amarillas. Otras áreas desarrolladas, como Centrales Eléctricas,
+Los aeropuertos y puertos marítimos se muestran en negro.
+ 
+El MAPA DE DENSIDAD DE POBLACIÓN muestra el número promedio de personas que ocupan 
+un área cada día. Utilice este mapa para localizar áreas subutilizadas y
+zonas superpobladas.
+								
+El MAPA DE DENSIDAD DE TRÁFICO muestra la cantidad de tráfico en las carreteras. Tráfico puntual 
+problemas y determinar dónde se necesitan nuevas carreteras.
+
+El MAPA DE TASAS DE DELITOS muestra el nivel y la ubicación del crimen en su ciudad.
+La delincuencia se calcula a partir de la densidad de población, el valor de la tierra y la proximidad de
+comisarías de policía.
+									
+El MAPA DEL ÍNDICE DE CONTAMINACIÓN muestra los niveles de contaminación en toda tu ciudad. 
+La contaminación es generada principalmente por la industria, el tráfico y el carbón.
+Plantas.
+									
+El mapa VALOR DEL TERRENO muestra el valor relativo del terreno dentro de los límites de la ciudad.
+Los valores de la tierra se utilizan para establecer la cantidad de ingresos generados en impuestos.
+										
+El MAPA DE TASAS DE CRECIMIENTO muestra el crecimiento más reciente (positivo o negativo) de
+su ciudad y dónde está ocurriendo.
+
+El MAPA DE PROTECCIÓN CONTRA INCENDIOS muestra el radio efectivo de las estaciones de bomberos.
+en función de su ubicación, poder y niveles de financiación.
+
+El MAPA DE INFLUENCIA POLICIAL muestra el radio efectivo de las Comisarías
+según su ubicación, poder y nivel de financiación.
+								Página 25^
+
+USANDO LOS MAPAS
+Se debe consultar constantemente la VENTANA DEL MAPA en todas las etapas de la ciudad.
+planificación, construcción y gestión. 
+
+ANTES DE CONSTRUIR
+Utilice el mapa antes de comenzar una nueva ciudad para planificar:
+	donde quieres tu centro de la ciudad,
+	donde desea las áreas residenciales frente al mar de clase alta,
+	donde cruzarás agua con puentes, líneas eléctricas y túneles,
+	dónde colocar las centrales eléctricas,
+	dónde ubicar grandes secciones industriales alejadas del residencial
+		secciones,
+	el trazado general de la ciudad.
+
+Imprimir el mapa y dibujar su plano con lápiz o bolígrafo le ahorrará un
+mucha demolición, rezonificación y reconstrucción.
+
+DURANTE EL CRECIMIENTO DE LA CIUDAD
+Utilice el mapa para guiar el crecimiento de su ciudad alrededor de áreas forestales, para preservar
+los árboles y mejorar el valor de las propiedades.
+
+Utilice el mapa de transporte junto con el mapa de densidad de tráfico para planificar
+control y ampliación del tráfico.
+
+Utilice los mapas de la ciudad para asegurarse de tener la proporción adecuada de residencial a
+zonas comerciales a industriales.
+
+Utilice el mapa de contaminación para detectar áreas problemáticas y dispersar la industria.
+zonas y/o reemplazar carreteras por rieles.
+
+Imprimir el mapa en varias etapas de desarrollo y hacer algunas
+Puede resultar útil realizar una planificación preliminar de la ampliación con lápiz. Las impresiones pueden
+También se puede utilizar para registros históricos.
+
+DURANTE EL MANTENIMIENTO DE LA CIUDAD
+Las centrales eléctricas de carbón sólo suministrarán electricidad a unas 50 zonas y
+Las plantas nucleares suministrarán alrededor de 150. La sobrecarga de las plantas de energía puede causar
+apagones y apagones. Utilice el mapa de la red eléctrica para localizar zonas que tienen
+poder perdido.
+Utilice los mapas de servicios de la ciudad para evaluar la cobertura efectiva de su
+departamentos de policía y bomberos.
+
+Utilice el mapa de índice de criminalidad para localizar áreas problemáticas que necesitan más policía
+protección.
+
+Utilice el mapa de contaminación para localizar áreas problemáticas.
+
+Utilice los mapas de transporte y densidad de tráfico para determinar dónde
+sustituir las carreteras por rieles.
+								Página 26^
+
+Utilice el mapa de valor de la tierra para localizar áreas deprimidas para mejorar o
+reemplazo.
+
+Utilice los mapas de la ciudad para mantener la proporción adecuada entre residencial y comercial.
+a zonas industriales.
+
+GRÁFICOS 	
+El lado derecho de la VENTANA MAPAS/GRÁFICOS le ofrece gráficos basados en el tiempo de 
+diversos datos de la ciudad. Puede ver gráficos de períodos de tiempo de los últimos
+diez años o los últimos 120 años haciendo clic en "10 AÑOS/120 AÑOS"
+botón.
+									
+El gráfico de POBLACIÓN RESIDENCIAL muestra la población total en zonas residenciales. 
+zonas.
+									
+El gráfico de POBLACIÓN COMERCIAL muestra la población total en zonas comerciales. 
+zonas.
+										
+El gráfico de POBLACIÓN INDUSTRIAL muestra la población total en zonas industriales. 
+zonas.
+			
+El gráfico TASA DE CRIMEN muestra la tasa de criminalidad general de toda la ciudad.
+									
+El gráfico FLUJO DE EFECTIVO muestra el flujo de caja de tu ciudad: dinero recaudado en impuestos 
+el año pasado menos el dinero que se necesitó para mantener su ciudad.
+
+Nota: El flujo de caja tiene poco que ver con sus fondos actuales o con cuánto 
+gastar en construcción (excepto que la expansión de la ciudad aumentará ambos impuestos 
+gastos de recaudación y mantenimiento).
+									
+La línea en el centro del gráfico de flujo de efectivo representa un flujo de efectivo de 
+cero. No construir más infraestructura (carreteras, ferrocarriles, departamentos de policía, 
+estaciones de bomberos) de lo que puede financiar con los ingresos fiscales.
+ 
+									
+El gráfico CONTAMINACIÓN muestra la lectura general de contaminación de toda la ciudad.
+
+USANDO LOS GRÁFICOS
+Los Gráficos brindan información sobre muchos de los mismos factores que los Mapas, pero
+mostrar la información a lo largo del tiempo. Los gráficos sirven para localizar tendencias en la vida de la ciudad.
+eso no se notará en un mapa. Si miras un mapa, por ejemplo el
+mapa de tasas de criminalidad, cada año, un aumento muy leve en la tasa de criminalidad no
+ser notorio. Pero en un gráfico, se podría localizar fácilmente la tendencia ascendente en
+crimen porque estarás viendo los niveles durante varios años en el
+mismo tiempo.
+
+Crecimiento y/o disminución de la población residencial, comercial e industrial
+Se puede rastrear y mostrar. Si nota una tendencia a la baja en cualquiera de
+estos, consulte la Tarjeta de referencia del usuario para localizar posibles problemas y
+soluciones.
+
+Se puede mostrar la tasa de criminalidad, revelando un ligero pero consistente aumento o
+tendencias a la baja.
+
+Utilice el gráfico de flujo de efectivo para realizar un seguimiento de la eficiencia de su ciudad a medida que crece. si
+sus costos de mantenimiento son más altos que sus ingresos fiscales, tendrá una
+flujo de caja negativo.
+
+Utilice el gráfico de contaminación para detectar los niveles crecientes de contaminación antes de que
+alcanzar un nivel de problema.
+								Página 27^
+		
+		(La página 28 es una imagen de la ventana de evaluación).
+
+			LA VENTANA DE EVALUACIÓN
+									
+La VENTANA DE EVALUACIÓN le brinda una calificación de desempeño. Puedes acceder a él 
+a través del MENÚ DE WINDOWS.
+										
+LA OPINIÓN PÚBLICA se presenta en forma de encuesta, calificando su trabajo en general. 
+como alcalde y enumerar lo que el público considera como los problemas más urgentes de la ciudad. 
+problemas. Se recomienda mantener contentos a sus residentes o podrían 
+Si emigras, te quedarás con un "pueblo fantasma".
+
+En general, si más del 55% de la población piensa que estás haciendo un buen
+trabajo, entonces podrá sentirse seguro de conservarlo.
+
+Si el 10% o menos de la gente piensa que algo es un problema, entonces no lo es.
+muy mal.
+
+Estos son los problemas de los que se quejan los ciudadanos y cómo corregirlos
+ellos:
+
+	TRÁFICO: reemplace las secciones densas de las carreteras con rieles.
+	CRIMEN--Construir más departamentos de policía o intentar aumentar el valor de la tierra. 
+	CONTAMINACIÓN--Reemplazar carreteras con rieles, dispersar zonas industriales.
+	VIVIENDA--Zona más residencias. 	
+	COSTOS DE VIVIENDA--Zonificar más residencias en zonas de bajo valor inmobiliario.
+	INCENDIOS--Construir más departamentos de bomberos.
+	IMPUESTOS--Impuestos más bajos (si puede).	
+	DESEMPLEO--Construir más zonas industriales y comerciales.
+Se muestran ESTADÍSTICAS sobre POBLACIÓN, MIGRACIÓN NETA y VALOR EVALUADO, 
+junto con el NIVEL DE JUEGO de la ciudad y la PUNTUACIÓN GENERAL DE LA CIUDAD. Estos datos son 
+calculado una vez al año en el momento del presupuesto.
+										
+POBLACIÓN es el número de residentes de tu ciudad.
+
+La estadística de MIGRACIÓN NETA proporciona una calificación de la deseabilidad de su
+ciudad. Si la gente se va en masa, sabes que algo está podrido
+Ciudad Sim. 
+
+El VALOR EVALUADO es el valor combinado de todas las propiedades de propiedad de la ciudad:
+carreteras, ferrocarriles, centrales eléctricas, estaciones de policía y bomberos, aeropuertos, puertos marítimos,
+parques, etc. No incluye zonas residenciales, comerciales e industriales.
+
+Las CATEGORÍAS se definen por población de la siguiente manera:
+	PUEBLO 0 a 1.999
+	PUEBLO 2.000 a 9.999
+	CIUDAD 10,000 a 49,999
+	CAPITAL 50.000 a 99.999
+	METRÓPOLIS 100.000 a 499.999
+	MEGALÓPOLIS 500.000 y más.
+								Página 29^
+
+La PUNTUACIÓN GENERAL DE LA CIUDAD es una puntuación compuesta basada en los siguientes factores
+(algunos positivos, otros negativos):
+
+FACTORES PRINCIPALES: delincuencia, contaminación, costos de vivienda, impuestos, tráfico,
+desempleo, protección contra incendios, zonas sin electricidad, tasa de crecimiento de la ciudad.
+
+FACTORES MENORES: Se necesita estadio (pero no construido), se necesita puerto marítimo (pero no
+construido), aeropuerto necesario (pero no construido), financiación de carreteras, financiación de la policía, bomberos
+financiación del departamento e incendios.
+ 										
+Una gran población no es necesariamente señal de una ciudad exitosa.
+El tamaño de la población no afecta la puntuación general de la ciudad, ya que los bajos
+La población podría indicar una ciudad nueva o en crecimiento.
+
+Dado que la tasa de crecimiento de la ciudad afecta la puntuación general de la ciudad, una ciudad en la que
+El crecimiento se ha detenido intencionalmente por motivos ambientales o estéticos.
+Las razones tendrán una puntuación ligeramente inferior.
+
+				DESASTRES								
+Los desastres ocurrirán aleatoriamente mientras juegas SimCity. En niveles de juego más altos 
+Los desastres ocurrirán más a menudo. La mayoría de los desastres se pueden activar desde 
+el MENÚ DE DESASTRES.
+									
+Los INCENDIOS pueden comenzar en cualquier lugar de la ciudad. El fuego se propaga con bastante rapidez 
+bosques y edificios, algo más lento sobre carreteras. El fuego no cruzará 
+agua o terreno claro.
+									
+La eficacia del departamento de bomberos (que se puede ver en el
+VENTANA DE MAPAS/GRÁFICOS) se basa en qué tan cerca está del incendio y su financiación. 
+niveles. Los incendios dentro de este radio efectivo se extinguirán automáticamente.
+Si no tiene departamentos de bomberos operativos en el área, puede intentar 
+controla el fuego tú mismo. Dado que el fuego no se propagará a través de claro 
+terreno, puedes construir cortafuegos con la excavadora. Simplemente rodea el 
+fuego con áreas despejadas y dejará de propagarse y eventualmente arderá 
+mismo fuera.  
+	Nota: No se puede extinguir un incendio directamente.
+									
+Las INUNDACIONES ocurren cerca del agua. Las inundaciones se extienden gradualmente y destruyen edificios 
+y servicios públicos. Después de un tiempo, las aguas de la inundación retrocedieron, dejando atrás 
+terreno.
+									
+Los ACCIDENTES AÉREOS pueden ocurrir en cualquier lugar de la ciudad si un aeropuerto está operativo.
+Esto sucede siempre que los aviones chocan con cosas, como tornados o 
+otro avión. Cuando ocurre un choque, se produce un incendio, a menos que el 
+El accidente es en el agua. Una buena estrategia es ubicar el aeropuerto lejos de 
+el centro de la ciudad para minimizar los daños del incendio.
+								
+Los TORNADOS pueden ocurrir en cualquier parte del mapa en cualquier momento. muy rapido y 
+impredecibles, pueden aparecer y desaparecer en cualquier momento. 
+Los tornados destruyen todo a su paso y pueden provocar aviones, 
+Helicópteros, trenes y barcos se estrellan.
+									
+LOS TERREMOTOS son el desastre más devastador. Este es un terremoto GRANDE. 
+entre 8,0 y 9,0 en la escala de Richter.  Destruirá edificios y 
+iniciar incendios. el 
+								Página 30^
+
+El daño inicial variará con la gravedad del terremoto y la 
+El daño final por incendio depende de sus esfuerzos para controlar el incendio. 
+
+Cuando ocurre un terremoto, verá temblar la ventana del EDITOR. 
+por un tiempo. Cuando se detenga, tendrás que hacerte cargo y controlar el 
+incendios dispersos. Utilice la topadora para contener los incendios más grandes primero y 
+avance hasta llegar a los más pequeños.
+Los ATAQUES DE MONSTRUOS son provocados por altos niveles de contaminación. un monstruo 
+destruye todo a su paso, provoca incendios y provoca aviones, 
+Helicópteros, trenes y barcos se estrellan.
+									
+Los MELTDOWNS solo son posibles si estás utilizando una planta de energía nuclear. 
+Si se produce una fusión, su planta nuclear explotará en llamas.  
+El área circundante quedará inutilizable durante el resto de la simulación. 
+debido a la contaminación radiactiva. Las fusiones no están disponibles en el 
+MENÚ DE DESASTRES.
+									
+Los NAUFRAGIOS pueden ocurrir una vez que se tiene un puerto marítimo operativo. pueden causar 
+Incendios en los que el barco choca contra una orilla o un puente. Los naufragios no son 
+disponible en el MENÚ DE DESASTRES.
+
+				ESCENARIOS			
+								
+Los escenarios proporcionan problemas tanto reales como hipotéticos para que usted los resuelva. 
+con en siete ciudades famosas (y una no tan famosa). Presentan diversos 
+niveles de dificultad. Algunos problemas adoptan la forma de desastres que 
+ocurrir algún tiempo después de comenzar. Otros problemas son más a largo plazo, como 
+crimen. 
+
+Su tarea es abordar el problema en cuestión lo mejor posible. 
+bajo las circunstancias. Después de cierto tiempo los residentes de la ciudad 
+Calificará su desempeño en una elección especial. Si lo haces muy bien 
+Se le puede dar la llave de la ciudad. Sin embargo, si lo haces mal, es posible que simplemente 
+echarte de la ciudad. 
+
+	NOTA: Para evitar el desastre vinculado a un escenario, guarde 
+	guárdelo en el disco y vuelva a cargar la ciudad desde el archivo guardado.
+
+
+			NIVEL DE JUEGO							
+Cuando comienzas una nueva ciudad por primera vez, debes elegir un nivel de dificultad. 
+Una vez que se inicia una ciudad, no puedes cambiar el nivel del juego; queda 
+en su escenario inicial para la vida de la ciudad. La configuración del nivel del juego. 
+se muestra en la ventana de evaluación.  
+
+Este nivel (Fácil, Medio o Difícil) ajusta la simulación a tu nivel actual. 
+habilidades alterando varios factores. Un ajuste más duro aumentará la 
+posibilidad de desastres, hacer que los residentes sean más intolerantes a los impuestos, causar 
+costos de mantenimiento para crecer, etc.
+
+			CRECIENDO UNA CIUDAD
+Mientras hace crecer una ciudad, consulte con frecuencia la TARJETA DE REFERENCIA DEL USUARIO. proporciona
+un gráfico de la dinámica de la ciudad; cómo son todos los factores de la vida y el crecimiento de la ciudad
+relacionado.
+								Página 31
+
+Los principales puntos a tener en cuenta al hacer crecer una ciudad son:
+
+Crecer lentamente. Cuida tu dinero.
+
+Todas las zonas deben tener energía para desarrollarse.
+
+Las carreteras o ferrocarriles deben proporcionar acceso hacia y desde cada zona para que pueda funcionar completamente.
+desarrollarse.
+
+Hay un costo de mantenimiento anual para cada tramo de carretera, ferrocarril, puente.
+y túnel. Esto puede sumar. No construyas demasiadas carreteras y vías férreas y
+generar altos costos de mantenimiento antes de que su ciudad pueda generar suficientes impuestos
+ingresos para sostenerlos.
+
+Las plantas de energía adicionales y las líneas eléctricas redundantes son costosas, pero pueden mantener
+zonas se queden sin electricidad durante un desastre o emergencia o se deterioren.
+
+Los rieles pueden transportar mucho más tráfico que las carreteras. Mientras se construye y zonifica un
+área que usted predice generará mucho tráfico, instale rieles en su lugar
+de carreteras en las primeras etapas de desarrollo.
+
+Si recibe muchas advertencias de tráfico intenso, reemplace las carreteras con rieles. tu
+Incluso se puede construir una ciudad enteramente sin carreteras.
+
+Agrupar zonas juntas, 4 o 5 en fila tocándose entre sí, puede
+eliminar muchos segmentos de líneas eléctricas.
+
+Los aeropuertos, los puertos marítimos y los estadios no ayudarán a que una ciudad pequeña crezca, así que ahorre
+tu dinero hasta que la ciudad crezca. Los Sims te dirán cuando
+Necesito estas cosas.
+
+Coloque zonas, caminos, etc. con cuidado: no se pueden mover y usted
+tenemos que pagar para derribarlos y reconstruirlos.
+
+Como regla general, el número de zonas residenciales debería ser
+aproximadamente igual a la suma de las zonas comerciales e industriales. cuando
+tu ciudad es pequeña, necesitarás más zonas industriales que comerciales,
+y cuando tu ciudad crezca, necesitarás más zonas comerciales que
+industriales.
+
+Separar las zonas residenciales de las industriales.
+
+La proximidad a bosques, parques y agua aumenta el valor de la tierra, lo que
+aumenta los impuestos recaudados. No arrases más bosque que tú
+debe. Además, la costa natural aumenta el valor de las propiedades más que los vertederos.
+costa.
+
+Tenga en cuenta que la proximidad al centro aumenta el valor de las propiedades. el
+El simulador define el centro de la ciudad como el "centro de masa del
+densidad de población." Calcula el centro geográfico medio de la
+población.
+								Página 32^
+
+Una ciudad más grande y más poblada no es necesariamente mejor. tener un
+Una ciudad autosuficiente y rentable con un entorno agradable es mejor que
+una ciudad enorme que siempre está en quiebra y sin bosque ni costa.
+
+Utilice los diversos mapas y gráficos para planificar el crecimiento de la ciudad, localizar problemas,
+y sigue tu progreso. Busque áreas que necesiten cobertura policial y de bomberos
+a medida que avanza, para que no tenga que regresar y demoler zonas desarrolladas para
+dejar espacio para las estaciones de policía y bomberos.
+
+Guarde su ciudad en el disco antes de probar cualquier política nueva importante para poder continuar.
+de vuelta si su plan no funciona.
+
+Imprime tu ciudad en diferentes etapas de evolución para realizar un seguimiento y planificar
+crecimiento.
+
+Consulte la VENTANA DE EVALUACIÓN con frecuencia. Los Sims te harán saber cómo estás
+haciendo. También las estadísticas pueden resultar útiles; si tu población se está reduciendo, 
+No vayas a zonificar nuevas áreas que tal vez nunca se desarrollen, busca problemas en el
+áreas zonificadas existentes y dedicar su tiempo y dinero a resolverlas.
+
+			¡¡¡GUARDA TU CIUDAD EN EL DISCO CON FRECUENCIA!!!
+
+			LA TARJETA DE REFERENCIA DEL USUARIO
+En la caja de SimCity se incluye la Tarjeta de referencia del usuario. (Al final de
+este archivo doc...)
+
+TABLA DE EVOLUCIÓN DE ZONAS
+En un lado de la Tarjeta de referencia del usuario se encuentra el Cuadro de evolución de zonas. eso
+muestra los distintos niveles de desarrollo y decadencia de la vivienda,
+zonas comerciales e industriales. El nivel de desarrollo depende de la
+valor de la tierra y densidad de población.
+
+Utilice este gráfico junto con la función Consulta para identificar y recopilar
+información sobre zonas individuales.
+
+GRÁFICO DE DINÁMICA DE LA CIUDAD
+La otra cara de la tarjeta es el Cuadro de dinámica de la ciudad. Este cuadro enumera
+los factores de la vida y el crecimiento de la ciudad y muestra cómo se interrelacionan. uso
+Esta tabla te guiará en el diseño de tu ciudad. Te ayudará a encontrar
+soluciones a las quejas de los Sims y a los problemas que descubras en el
+mapas y gráficos.   
+								Página 33^
+
+			TABLA DE REFERENCIA DEL TECLADO
+
+COMANDOS GENERALES DEL TECLADO
+
+DERECHA-AMIGA/ B - Abre la VENTANA DE PRESUPUESTO
+DERECHA-AMIGA/E - Abre la VENTANA DE EVALUACIÓN
+DERECHA-AMIGA/G: abre la VENTANA MAPAS/GRÁFICOS
+DERECHA-AMIGA/ L - Carga una ciudad
+DERECHA-AMIGA/P: muestra el MENÚ DE SELECCIÓN DE ESCENARIO.
+DERECHA-AMIGA/ N - Comienza una Nueva Ciudad
+DERECHA-AMIGA/ Q - Activa el comando DESHACER.
+DERECHA-AMIGA/ S - Salva una ciudad
+
+COMANDOS DE TECLADO DE LA VENTANA DEL EDITOR ESPECIAL
+
+X y Z: recorre y activa las funciones de los iconos
+									
+Q - (Consulta) - Apunte a una zona u objeto en la VENTANA DE EDITAR, mantenga presionada "Q" 
+mientras hace clic con el botón izquierdo del mouse para que aparezca información sobre la zona 
+u objeto.
+
+B activa el Bulldozer mientras está presionado, anulando el ícono activo. 
+
+R activa el trazado de carreteras mientras está presionado, anulando el icono activo.
+
+T activa el tendido de líneas de tránsito mientras está presionado, anulando el ícono activo.
+
+P activa el tendido de líneas eléctricas mientras está presionado, anulando el ícono activo.
+
+LAS TECLAS DEL CURSOR desplazan el terreno debajo de la VENTANA DE EDICIÓN.
+
+								Página 34^
+
+
+				DENTRO de SimCity
+
+			CÓMO FUNCIONA EL SIMULADOR Y 
+			  ESTRATEGIAS PARA UTILIZARLO
+						
+Muchos factores influyen en las posibilidades de que tu ciudad prospere o fracase: 
+tanto factores internos (la estructura y eficiencia de su ciudad) como 
+factores externos (economía regional, desastres, etc.).
+
+ZONAS									
+Tu ciudad está dividida en tres zonas principales: residencial, comercial 
+e industriales. Estas zonas simbolizan los tres pilares básicos sobre los que 
+Se fundamenta una ciudad: población, industria y comercio. Los tres son necesarios 
+para que tu ciudad crezca y prospere.
+										
+Las ZONAS RESIDENCIALES son donde viven los Sims. Aquí construyen casas, apartamentos. 
+e instalaciones comunitarias como iglesias y escuelas. Los Sims son la fuerza laboral. 
+para las zonas comerciales e industriales de tu ciudad.
+Las ZONAS INDUSTRIALES se utilizan para ubicar almacenes, fábricas y otros lugares antiestéticos. 
+y estructuras contaminantes que tienen un impacto negativo en las zonas circundantes. 
+Uno de los principales objetivos de la planificación es separar estas molestias de las 
+zonas donde vive la gente. En esta simulación, las zonas industriales representan el 
+producción "básica" de tu ciudad. Las cosas producidas aquí se venden fuera del 
+ciudad a un "mercado externo", trayendo dinero a la ciudad para su crecimiento futuro.
+									
+Las ZONAS COMERCIALES representan las tiendas minoristas y servicios de tu ciudad,
+incluyendo gasolineras, supermercados, bancos y oficinas. Comercial 
+áreas se dedican principalmente a producir bienes y servicios necesarios dentro 
+tu ciudad. A esto se le llama producción "no básica" o producción para el 
+"mercado interior".
+				
+POBLACIÓN-RESIDENCIAL 							
+Los principales factores que controlan la población residencial son la tasa de natalidad,
+disponibilidad de empleo y vivienda, desempleo y calidad de vida dentro 
+la ciudad.
+									
+La tasa de natalidad como se usa aquí es en realidad una combinación de la tasa de natalidad (+) 
+y la tasa de mortalidad (-). Dentro de SimCity siempre hay una tasa de natalidad positiva.
+
+La disponibilidad de empleos (la tasa de empleo) es una proporción de la actual 
+población comercial e industrial respecto de la población residencial total. 
+Como regla general, el número de zonas comerciales e industriales juntas 
+debería ser aproximadamente igual al número de zonas residenciales.  
+																			
+Si hay más empleos que residentes en tu ciudad, los nuevos colonos 
+ser atraído. Si el mercado laboral cae durante una recesión local, su 
+la gente emigrará en busca de empleo.
+								Página 35^							
+																
+Las viviendas para sus residentes se construyen en las zonas residenciales. Estas zonas 
+debe estar alimentado y conectado a los lugares de trabajo con una carretera 
+y/o red ferroviaria. Las estructuras construidas en zonas residenciales son 
+influenciado por el valor de la tierra y la densidad de población.
+									
+La calidad de vida es una medida del "atractivo" relativo asignado a 
+diferentes ubicaciones de la zona. Se ve afectado por factores negativos como 
+la contaminación y la delincuencia, y factores positivos como los parques y la accesibilidad.
+
+MERCADO EXTERIOR - INDUSTRIAL						
+Hay miles de variables que influyen en tu ciudad. Todos estos 
+Las variables pueden verse influenciadas por sus acciones con la excepción de una.
+									
+El mercado externo (las condiciones económicas que existen fuera de su 
+cily) está controlado por la simulación; no hay nada que puedas hacer para cambiarlo.
+En muchos sentidos, este mercado externo es la fuente original de todo crecimiento de la ciudad. 
+Las ciudades frecuentemente comienzan como centros de producción (ciudades siderúrgicas, refinerías, etc.) 
+que atienden una demanda en la región circundante. A medida que pasa el tiempo, el exterior 
+El mercado crece para reflejar el crecimiento regional que se produce alrededor de su ciudad.
+										
+La industria de su ciudad intentará crecer a medida que crezca el mercado externo. 
+Para que esto suceda debe haber espacio para la expansión (más zonas industriales) 
+y una oferta laboral adecuada (más zonas residenciales).
+
+MERCADO INTERIOR-COMERCIAL						
+El mercado interior está completamente influido por las condiciones de su país. 
+ciudad. La producción interna, creada en las zonas comerciales, representa toda 
+las cosas que se compran y consumen dentro de la ciudad. tiendas de alimentos, 
+gasolineras, tiendas minoristas, servicios financieros, atención médica, etc., todos 
+dependen de una población cercana para dar servicio. Dentro de SimCity, el tamaño del 
+El mercado interior determina el ritmo al que prosperarán las zonas comerciales. 
+Las zonas comerciales necesitan suficiente terreno zonificado para construir y una existencia, 
+mano de obra suficiente para emplear. Las estructuras construidas en zonas comerciales. 
+están influenciados principalmente por el valor de la tierra y la densidad de población.
+									
+Las zonas comerciales crecen y se desarrollan para atender al mercado interno en expansión. 
+El crecimiento comercial suele ser lento al principio, cuando la población es 
+pequeño y necesita muy poco. A medida que su ciudad crezca, el crecimiento comercial aumentará
+acelerará y el mercado interior se convertirá en un consumidor mucho mayor de 
+la producción total de tu ciudad.  Este efecto acelerador, cuando el factor externo/
+La producción industrial es superada por la acelerada economía interna/comercial. 
+sector, puede convertir una pequeña y tranquila ciudad de 50.000 habitantes en una próspera capital de 
+200.000 en unos pocos años.
+
+TASA DE IMPUESTO									
+La tasa impositiva que establezcas controla la cantidad de ingresos generados por tu ciudad. 
+Como los impuestos se recaudan cada año (tiempo de simulación), la VENTANA DE PRESUPUESTO 
+aparecerá, brindándole los detalles fiscales de su ciudad y la oportunidad de ajustar 
+tarifas. La simulación determina la cantidad de ingresos recaudados mediante la evaluación 
+cada zona una cantidad basada en el valor de su terreno, nivel actual de desarrollo 
+y el tipo impositivo actual.
+								Página 36^									
+
+La tasa impositiva tiene un efecto global en la tasa de crecimiento de su ciudad. Si lo configuras 
+bajo (0 - 4%), el crecimiento será rápido pero los ingresos de la ciudad serán bajos. si tu 
+configúrelo alto (10 - 20%), recaudará mucho en el corto plazo pero en el 
+Los ingresos fiscales a largo plazo disminuirán junto con la población. debes mantener 
+ingresos fiscales lo suficientemente altos como para cubrir los costos de mantenimiento de la ciudad e invertir en nuevas 
+desarrollo, pero lo suficientemente bajo como para no asustar a residentes y empresas. un 
+Una tasa impositiva alta es una forma de controlar el crecimiento de la ciudad, si se desea 
+experimentar con medidas de "control del crecimiento".
+
+PRESUPUESTO								
+El presupuesto de la ciudad afecta la forma en que crece su ciudad. Costo de infraestructura de la ciudad 
+Está representado por tres departamentos: policía, bomberos y transporte. tu 
+podrá fijar los niveles de financiación por separado para cada uno.  Los tres departamentos 
+solicitar un determinado nivel de financiación cada año. Puede suministrar todo o parte de 
+los fondos solicitados, en el intento de equilibrar las necesidades de seguridad y las necesidades presupuestarias. 
+preocupaciones.
+
+DEPARTAMENTOS DE POLICÍA						
+Las comisarías reducen la tasa de criminalidad dentro de un territorio. El efectivo 
+El radio de su comisaría está relacionado con la cantidad de fondos asignados. 
+al departamento de policía. Existe una correlación positiva entre el valor 
+de terreno y proximidad a una comisaría. Las comisarías cuestan 100 dólares al año 
+para financiar.
+
+DEPARTAMENTOS DE BOMBEROS							
+Los departamentos de bomberos previenen y extinguen incendios. El nivel de financiación determina
+mina el radio efectivo de un departamento de bomberos. Los departamentos de bomberos apagaron 
+Los incendios dentro de este radio mucho antes que fuera de él, y disminuyen la 
+posibilidad de que comiencen en primer lugar. Los departamentos de bomberos cuestan $100 
+por año para financiar.
+
+DEPARTAMENTO DE TRANSPORTE							
+Cuando construyes carreteras y sistemas ferroviarios, se te cobra por la construcción y 
+mantenimiento anual. Cuanto más grande sea su red de transporte, más 
+costo por mantenimiento. Si decide no o no puede pagar este mantenimiento 
+costo, las carreteras se deteriorarán lentamente y quedarán inutilizables. el mantenimiento 
+El costo de cada pieza es: Carretera - $1, Puente - $4, Ferrocarril - $4, Túnel ferroviario -$10.
+
+PODER									
+La energía eléctrica hace posibles las ciudades modernas. Energía eficiente y confiable 
+La transmisión a todas las zonas es el objetivo de una buena "gestión de la energía".
+
+Periódicamente en la simulación se enciende toda la red eléctrica de tu ciudad. 
+Comprobado si hay enlaces al poder. Si una zona está conectada (por otras zonas o 
+líneas eléctricas) a una planta de energía, la zona se considera energizada.
+									
+Las zonas deben recibir energía para que se produzca el desarrollo. Muchas cosas (como incendios, 
+inundaciones, monstruos y excavadoras) pueden derribar líneas eléctricas y causar 
+apagones en partes de tu ciudad. El desarrollo se detendrá sin energía. 
+zonas, y si la energía no se restablece rápidamente, la zona volverá a disminuir 
+a su estado original de vacío. Plantas de energía redundantes y energía. 
+Las conexiones pueden hacer que su red eléctrica sea más confiable, pero ejecutar más líneas 
+añade costos de construcción.
+								Página 37^
+
+TRANSPORTE - TRÁFICO					
+Uno de los elementos más importantes de la estructura de la ciudad es la 
+red de transporte. Mueve Sims y mercancías por toda tu ciudad. 
+Las carreteras suelen ocupar entre el 25% y el 40% del suelo en las zonas urbanas.
+El tráfico a lo largo de estas carreteras indica qué secciones de su sistema de carreteras 
+son los que más se utilizan.
+										
+Los niveles de tráfico se simulan mediante un proceso conocido como "Generación de viaje". 
+Con el tiempo, cada zona poblada de la ciudad generará una serie de 
+viajes, dependiendo de la población. Cada viaje generado comienza en el 
+zona de origen, viaja a lo largo de la red de carreteras/ferrocarriles, y si un "destino adecuado"
+"inación", finaliza en la zona de destino; de lo contrario, el viaje 
+falla. Un fallo de disparo indica la inaccesibilidad de una zona y limita su 
+crecimiento.
+										
+La mayoría de los viajes generados representan personas que se desplazan hacia y desde 
+trabajo. El tráfico adicional lo generan los residentes que viajan para ir de compras,
+recreación, etc. Al analizar el tráfico, el simulador prueba lo siguiente
+rutas de tráfico:
+
+De: ORIGEN A: DESTINO
+Zonas residenciales Zonas comerciales y zonas industriales.
+Zonas comerciales Zonas residenciales y zonas industriales.
+Zonas industriales Zonas residenciales.
+
+Cuando los Sims se alejan de una zona de origen, tienen un "rango de viaje" limitado
+en el que encontrar una zona de destino. El tráfico pesado disminuye el viaje.
+rango. Si la zona de destino está demasiado lejos, el viaje no tendrá éxito.
+Los viajes repetidos y sin éxito harán que los Sims se alejen del origen.
+zona.
+  									
+Cada vía tiene una capacidad de tráfico limitada.  Cuando esta capacidad es 
+Se formarán atascos de tráfico excesivos. Los atascos reducen drásticamente el 
+capacidad de una carretera, lo que agrava el problema y frustra a los conductores.
+Las condiciones del tráfico fluctúan rápidamente, respondiendo a cosas como apertura 
+puentes, eventos deportivos y actividad portuaria.  Evite problemas de tráfico al 	
+proporcionar varias rutas para el tráfico y construir vías ferroviarias 
+sistemas cuando se lo pueda permitir. El helicóptero de tráfico detectará el tráfico. 
+cuellos de botella y denunciarlos.
+
+Una carretera debe ser adyacente a una zona para que la zona esté conectada a la
+patrón de tráfico. Las zonas no conducen el tráfico de la misma manera que conducen la energía.
+Las carreteras y las vías se pueden utilizar juntas, ya que los Sims pueden salir de sus
+automóviles y a las líneas de tránsito, o desde las líneas de tránsito a las carreteras sin demora.
+ 
+CONTAMINACIÓN								
+Los niveles de contaminación se rastrean en todas las áreas de su ciudad.  Este es un 
+"Nivel de molestia" general que incluye la contaminación del aire y del agua, el ruido. 
+contaminación, desechos tóxicos, etc. La contaminación tiene un impacto negativo en la 
+crecimiento de las zonas residenciales. 
+
+La principal causa de contaminación son las zonas industrializadas. el nivel de 
+La contaminación creada por una zona industrial aumenta con su nivel de crecimiento.
+ 
+El tráfico es otra causa de contaminación. Hay medios limitados para combatirla. 
+el nivel de contaminación. Reducir la densidad del tráfico, limitar el desarrollo industrial,
+y será útil separar la contaminación de las zonas residenciales.
+								Página 38^
+
+CRIMEN									
+Las tasas de criminalidad están influenciadas por la densidad de población y la aplicación de la ley local. 
+y valores de la tierra. A medida que aumenta la densidad de población en un área, el número 
+de delitos cometidos aumenta. 
+
+La delincuencia también aumentará en zonas de bajo valor de la tierra. La forma más efectiva 
+Para hacer frente a los altos índices de criminalidad es introducir una comisaría de policía en la zona. 
+En función de su nivel de financiación, la comisaría reducirá la tasa de 
+delincuencia en su esfera de influencia.  Un enfoque a largo plazo para reducir la delincuencia 
+es aumentar el valor del suelo de la zona. Una forma de hacerlo es demoler 
+y rezonificación (renovación urbana).
+
+VALOR DEL TERRENO								
+El valor del suelo es uno de los aspectos más fundamentales de la estructura urbana. 
+El valor del suelo de un área afecta cómo se utiliza esa área. En esta simulación 
+El valor del suelo de un área se basa en el terreno, la accesibilidad, la delincuencia, 
+contaminación y distancia al centro.
+								
+Cuanto más lejos tengan que ir los residentes a trabajar, menor será el valor del suelo 
+donde viven, debido en parte a los costos de transporte. el valor de 
+Las zonas comerciales dependen en gran medida de la accesibilidad de la población.
+									
+El valor del suelo también se ve afectado por el terreno circundante. Si la tierra está más cerca
+al agua, a los árboles o a los parques, su valor aumentará.  Colocación creativa de 
+zonas dentro del terreno, con poca nivelación, pueden aprovechar bien 
+esta ventaja natural.
+								
+El valor de la tierra y la tasa de criminalidad tienen un efecto de retroalimentación mutua. 
+Los valores más bajos de la tierra hacen que aumenten las tasas de criminalidad.  Tasas de criminalidad más altas 
+causar que el valor de la tierra caiga y puede causar "áreas de transición" cerca 
+su ciudad central pierda rápidamente valor.
+								Página 39^
+
+		HISTORIA DE LAS CIUDADES Y URBANISMO
+			por Cliff Ellis
+
+INTRODUCCIÓN
+La construcción de ciudades tiene una historia larga y compleja. Aunque la planificación urbana 
+como profesión organizada existe desde hace menos de un siglo, todas las ciudades
+Mostrar varios grados de previsión y diseño consciente en su diseño.
+y funcionamiento.
+
+Los primeros humanos llevaban una existencia nómada, dependiendo de la caza y la recolección para
+sustento. Hace entre 8.000 y 10.000 años, el cultivo sistemático de
+Las plantas y la domesticación de animales permitieron una vida más permanente.
+asentamientos. Durante el cuarto milenio a.C., los requisitos para la
+finalmente se cumplió la "revolución urbana": la producción de un excedente de
+alimentos almacenables, un sistema de escritura, una organización social más compleja y
+avances tecnológicos como el arado, el torno de alfarero, el telar y
+metalurgia.
+
+Las ciudades existen por muchas razones y la diversidad de formas urbanas puede
+Se remonta a las complejas funciones que desempeñan las ciudades. Las ciudades sirven como
+centros de almacenamiento, comercio y fabricación. El excedente agrícola de
+el campo circundante se procesa y distribuye en las ciudades. Ciudades
+También creció alrededor de mercados, donde se podían vender productos de lugares distantes.
+intercambiados por productos locales. A lo largo de la historia se han fundado ciudades
+en las intersecciones de rutas de transporte, o en puntos donde las mercancías
+debe cambiar de un modo de transporte a otro, como en los ríos y
+puertos oceánicos.
+
+Los elementos religiosos han sido cruciales a lo largo de la historia urbana. antiguo
+Los pueblos tenían lugares sagrados, a menudo asociados con cementerios o santuarios.
+alrededor del cual crecieron las ciudades. Las ciudades antiguas solían tener grandes recintos de templos.
+con monumentales edificios religiosos. Muchas ciudades medievales se construyeron cerca
+monasterios o catedrales.
+
+Las ciudades a menudo brindaban protección en un mundo precario. Durante los ataques, el
+la población rural podía huir detrás de las murallas de la ciudad, donde se reunían las fuerzas de defensa
+para repeler al enemigo. El muro cumplió este propósito durante milenios, hasta que el
+La invención de la artillería pesada hizo que los muros fueran inútiles en la guerra. con el
+Con la llegada de la guerra aérea moderna, las ciudades se han convertido en los principales objetivos de
+destrucción en lugar de refugios seguros.
+
+Las ciudades sirven como centros de gobierno. En particular, el surgimiento de la
+Los grandes estados-nación de Europa entre 1400 y 1800 condujeron a la creación de
+nuevas capitales o la inversión de ciudades existentes con ampliaciones
+funciones gubernamentales.
+
+Washington, D.C., por ejemplo, muestra los edificios monumentales, radiales
+patrón de calles y grandes espacios públicos típicos de las ciudades capitales.
+
+Las ciudades, con su concentración de talento, mezcla de pueblos y
+superávit económico, han proporcionado un terreno fértil para la evolución de la humanidad
+Cultura: las artes, la investigación científica y la innovación técnica. ellos
+sirven como centros de comunicación, donde se distribuyen nuevas ideas e información.
+se extendió al territorio circundante y a tierras extranjeras.
+								Página 40^
+
+LIMITACIONES EN LA FORMA DE LA CIUDAD
+Las ciudades son artefactos físicos insertados en un mundo natural preexistente,
+y las limitaciones naturales deben respetarse para que un asentamiento sobreviva y
+prosperar. Las ciudades deben adaptarse al paisaje en el que se ubican,
+aunque paulatinamente se han desarrollado tecnologías para reorganizar la tierra
+para satisfacer los propósitos humanos. Los terrenos con pendiente moderada ofrecen las mejores condiciones urbanas.
+sitio, pero se han logrado efectos espectaculares en sitios tan montañosos como San
+Francisco, Río de Janeiro y Atenas.
+
+El clima influye en la forma de la ciudad. Por ejemplo, las calles se han alineado para
+aproveche la brisa refrescante y las arcadas diseñadas para proteger
+peatones del sol y la lluvia. La arquitectura de los edificios individuales.
+a menudo respeta las adaptaciones a la temperatura, la lluvia, la nieve, el viento y otros
+características climáticas.
+
+Las ciudades deben tener un suministro de agua saludable y las ubicaciones a lo largo de ríos o
+Siempre se han favorecido los arroyos o cerca de cursos de agua subterráneos. muchos
+Las grandes ciudades modernas han superado sus suministros locales de agua y dependen de
+fuentes de agua distantes desviadas por elaborados sistemas de tuberías y canales.
+
+La ubicación y la estructura interna de la ciudad han sido profundamente influenciadas por
+rutas de transporte naturales. Las ciudades a menudo han estado situadas cerca de zonas naturales.
+puertos, en ríos navegables o a lo largo de rutas terrestres determinadas por
+topografía.
+
+Por último, las ciudades han tenido que sobrevivir a desastres naturales periódicos, como
+terremotos, huracanes, tornados e inundaciones. El terremoto de San Francisco
+de 1906 demostró cómo las fuerzas naturales pueden deshacer décadas de trabajo humano en
+un tiempo muy corto.
+
+ELEMENTOS DE ESTRUCTURA URBANA
+Los planificadores urbanos deben entrelazar una gama compleja y en constante cambio de elementos en un
+trabajar en conjunto: ese es el desafío perenne de la planificación urbana. el
+Los elementos físicos de la ciudad se pueden dividir en tres categorías:
+redes, edificios y espacios abiertos. Muchos arreglos alternativos de
+Estos componentes se han probado a lo largo de la historia, pero no existe una forma de ciudad ideal.
+incluso se ha acordado. Acalorados debates sobre la mejor manera de organizar
+Las anatomías urbanas continúan haciendo estragos y no muestran signos de disminuir.        
+
+
+REDES
+Cada ciudad moderna contiene una asombrosa variedad de vías para transportar flujos o
+personas, bienes, agua, energía e información. Las redes de transporte son
+el más grande y visible de ellos. Las ciudades antiguas dependían de las calles,
+la mayoría de ellos bastante estrechos para los estándares modernos, para soportar el tráfico peatonal y
+carros. La ciudad moderna contiene una compleja jerarquía de transporte.
+canales, que van desde autopistas de diez carriles hasta aceras. en los estados unidos
+Estados Unidos, la mayor parte de los viajes se realizan en automóviles privados con masa
+transitar un distante segundo. Las ciudades estadounidenses muestran la expansión de baja densidad
+característico del desarrollo urbano autocentrado. En cambio, muchos
+Las ciudades europeas tienen las altas densidades necesarias para soportar el tránsito ferroviario
+sistemas.
+								Página 41^
+
+Las ciudades modernas dependen de complejas redes de servicios públicos. Cuando las ciudades eran
+pequeña, obtener agua pura y eliminar los desechos no era una tarea importante.
+problema, pero las ciudades con grandes poblaciones y altas densidades requieren
+infraestructura pública costosa. Durante el siglo XIX, la rápida expansión urbana
+El crecimiento y la industrialización causaron hacinamiento, contaminación y enfermedades en
+áreas urbanas. Después de que se descubriera la conexión entre el agua impura y las enfermedades
+establecidas, las ciudades americanas y europeas comenzaron a instalar sistemas de alcantarillado adecuados.
+y sistemas de agua. Desde finales del siglo XIX, las ciudades también han sido
+entrelazados con cables y conductos que transportan electricidad, gas y comunicaciones.
+señales.
+
+EDIFICIOS
+Los edificios son los elementos más visibles de la ciudad, las características que le dan
+cada ciudad su carácter único. Las estructuras residenciales ocupan casi la mitad
+sobre todo suelo urbano, con tipologías de edificación que van desde dispersas
+desde viviendas unifamiliares hasta densos apartamentos de gran altura. Los edificios comerciales son
+agrupados en el centro y en varios subcentros, con rascacielos apiñados en
+el distrito comercial central y las estructuras de poca altura que prevalecen en otros lugares,
+aunque los edificios altos son cada vez más comunes en los suburbios. industriales
+Los edificios adoptan muchas formas, desde grandes complejos fabriles hasta
+distritos industriales hasta pequeños talleres.
+
+Los urbanistas se dedican a una búsqueda constante de la disposición adecuada de
+estos diferentes tipos de uso del suelo, prestando especial atención a
+compatibilidad de diferentes actividades, densidades de población, tráfico
+generación, eficiencia económica, relaciones sociales y la altura y
+grueso de los edificios.
+
+ESPACIOS ABIERTOS
+El espacio abierto a veces se trata como un sobrante, pero contribuye en gran medida
+a la calidad de vida urbana. Espacios "duros" como plazas, centros comerciales y
+Los patios proporcionan escenarios para actividades públicas de todo tipo. "Suave"
+espacios como parques, jardines, céspedes y reservas naturales proporcionan
+alivio esencial de las duras condiciones urbanas y servir como espacio para
+actividades recreativas. Estas "comodidades" influyen cada vez más en cuál
+las ciudades serán percibidas como lugares deseables para vivir.
+
+
+EVOLUCIÓN DE LA FORMA URBANA
+Los primeros asentamientos urbanos verdaderos aparecieron alrededor del 3.000 a.C. en la antigua
+Mesopotamia, Egipto y el valle del Indo. Las ciudades antiguas mostraban ambos
+tipos de forma urbana "orgánica" y "planificada". Estas sociedades habían elaborado
+jerarquías religiosas, políticas y militares. Recintos dedicados a la
+Las actividades de la élite eran a menudo muy planificadas y de forma regular. en
+Por el contrario, las zonas residenciales a menudo crecieron mediante un lento proceso de acumulación,
+produciendo los patrones complejos e irregulares que llamamos "orgánicos". dos
+Los rasgos típicos de la ciudad antigua son la muralla y la ciudadela: la muralla
+para la defensa en regiones periódicamente barridas por ejércitos conquistadores, y la
+ciudadela, un recinto grande y elevado dentro de la ciudad, dedicado a actividades religiosas.
+y funciones estatales.
+								Página 42^
+
+Los romanos emprendieron extensas actividades de construcción de ciudades a medida que se consolidaban 
+su imperio. La propia Roma mostró la complejidad informal creada por
+siglos de crecimiento orgánico, aunque en particular los templos y distritos públicos
+fueron muy planificados. Por el contrario, las ciudades militares y coloniales romanas
+se dispusieron en una variación de la cuadrícula. Muchas ciudades europeas, incluidas
+Londres y París, surgieron de estos orígenes romanos.
+
+Solemos asociar las ciudades medievales con calles estrechas y sinuosas que convergen
+en una plaza del mercado con una catedral y un ayuntamiento. Muchas ciudades de este
+período muestra este patrón, el producto de miles de incrementos
+adiciones al tejido urbano. Sin embargo, nuevas ciudades sembradas a lo largo
+Las regiones subdesarrolladas de Europa se basaban en la cuadrícula familiar. en cualquiera de los dos
+En este caso, se construyeron grandes muros circundantes para defenderse de los merodeadores.
+ejércitos; Se construyeron nuevos muros que encerraban más terreno a medida que la ciudad se expandía y
+superó su antiguo contenedor.
+
+Durante el Renacimiento, los arquitectos comenzaron a estudiar sistemáticamente la
+conformación del espacio urbano, como si la ciudad misma fuera una pieza de
+arquitectura a la que se le podría dar un aspecto estéticamente agradable y funcional.
+orden. Muchos de los grandes espacios públicos de Roma y otras ciudades italianas.
+datan de esta época. Se reconstruyeron partes de las ciudades antiguas para crear elegantes
+plazas, largas vistas de calles y disposiciones simétricas de los edificios.
+Respondiendo a los avances en armas de fuego durante el siglo XV, nueva ciudad
+Las paredes se diseñaron con grandes movimientos de tierra para desviar la artillería y en forma de estrella. 
+puntos para proporcionar a los defensores líneas de fuego amplias. colonial español
+Las ciudades del Nuevo Mundo se construyeron según reglas codificadas en las Leyes.
+de Indias de 1573, especificando una ordenada grilla de calles con un centro
+plaza, muralla defensiva y estilo de construcción uniforme.
+
+Asociamos la ciudad barroca con el surgimiento de grandes estados-nación
+entre 1600 y 1750. Los monarcas ambiciosos construyeron nuevos palacios, cortes,
+y oficinas burocráticas. La gran escala se buscó en el público urbano.
+espacios: largas avenidas, redes de calles radiales, plazas monumentales, geométricas
+parques y jardines. Versalles es una clara expresión de esta construcción de ciudad.
+modelo; Washington, D.C. es un ejemplo de los Estados Unidos. Barroco
+Los principios del diseño urbano fueron utilizados por el barón Haussmann en su célebre
+reestructuración de París entre 1853 y 1870. Haussmann talló amplios nuevos
+vías a través de la enmarañada red de antiguas calles parisinas, uniendo
+principales subcentros de la ciudad entre sí en un patrón que ha servido
+como modelo para muchos otros planes de modernización.
+
+Hacia la segunda mitad del siglo XVIII, particularmente en América,
+la ciudad como escenario del comercio asumió la primacía. Los edificios de la
+La burguesía se expandió junto con la prosperidad de sus dueños: bancos, oficinas
+edificios, almacenes, hoteles y pequeñas fábricas. Nuevas ciudades fundadas
+durante este período fueron concebidas como empresas comerciales, y la
+la red neutral era el medio más eficaz para dividir la tierra en parcelas
+en venta. La ciudad se convirtió en un tablero de ajedrez sobre el que los jugadores especulaban
+cambios en el valor de la tierra. Ya no existirían diferencias religiosas, políticas y culturales
+los imperativos dan forma al desarrollo urbano; más bien, se permitiría al mercado
+determinar el patrón de crecimiento urbano. Nueva York, Filadelfia y Boston
+alrededor de 1820 ejemplifican la ciudad comercial de esta época, con sus bulliciosas,
+distritos costeros de uso mixto.             
+								Página 43^
+
+TRANSICIÓN A LA CIUDAD INDUSTRIAL
+Las ciudades han cambiado más desde la Revolución Industrial que en todos los
+siglos anteriores de su existencia. Nueva York tenía una población de aproximadamente
+313.000 en 1840, pero había llegado a 4.767.000 en 1910. Chicago explotó desde
+4.000 a 2.185.000 en el mismo período. Millones de habitantes de zonas rurales ya no
+necesarios en las granjas acudieron en masa a las ciudades, donde se produjeron nuevas fábricas
+productos para nuevos mercados accesibles mediante ferrocarriles y barcos de vapor. en
+Estados Unidos, millones de inmigrantes de Europa engrosaron la población urbana
+poblaciones. Las economías urbanas estaban cada vez más estrechamente entrelazadas
+las economías nacional e internacional.
+
+Surgieron innovaciones tecnológicas, muchas de ellas con profundos impactos en
+forma urbana. Las vías del ferrocarril llegaron al corazón de la ciudad.
+Los sistemas de transporte ferroviario interno ampliaron enormemente el radio de las zonas urbanas.
+asentamiento: carros de caballos a partir de la década de 1830, teleféricos en la década de 1870 y
+carros eléctricos en la década de 1880. En la década de 1880, la primera potencia central
+Las plantas comenzaron a suministrar energía eléctrica a las zonas urbanas. el rapido
+La comunicación proporcionada por el telégrafo y el teléfono permitía antiguamente
+actividades urbanas concentradas se dispersaran en un campo más amplio.
+
+La ciudad industrial todavía se centraba en el centro de la ciudad, que contenía tanto
+el distrito central de negocios, definido por grandes edificios de oficinas, y
+un número considerable de estructuras de fábricas y almacenes. Tanto los carros como
+Los sistemas ferroviarios convergían en el centro de la ciudad, que contaba con la
+establecimientos de entretenimiento y compras de primer nivel. La clase trabajadora vivió
+en barrios populosos cercanos al centro de la ciudad, cerca de sus lugares de
+empleo.
+
+Las primeras fábricas estadounidenses estaban ubicadas fuera de las principales ciudades a lo largo de los ríos.
+que proporcionaba energía hidráulica para la maquinaria. Después de que la energía de vapor se generalizara
+disponibles en la década de 1830, las fábricas podían ubicarse dentro de la ciudad en
+proximidad a instalaciones portuarias, líneas ferroviarias y a la fuerza laboral urbana. Grande
+surgieron zonas manufactureras dentro de las principales zonas del noreste y medio oeste.
+ciudades como Pittsburgh, Detroit y Cleveland. Pero a finales
+En el siglo XIX, la descentralización fabril ya había comenzado, como
+Los fabricantes buscaron parcelas más grandes de tierra lejos de la congestión del
+ciudad. Gary, Indiana, por ejemplo, fue fundada en 1906 en la costa sur
+del Lago Michigan por la United States Steel Company.
+
+El creciente hacinamiento, la contaminación y las enfermedades en el centro de la ciudad
+produjo un creciente deseo de escapar a un ambiente más saludable en el
+suburbios. Las clases altas siempre habían podido retirarse a hogares en el
+campo. A partir de la década de 1830, los ferrocarriles de cercanías permitieron
+clase para desplazarse al centro de la ciudad. Se construyeron líneas de coches de caballos en muchos
+ciudades entre las décadas de 1830 y 1880, lo que permitió que la clase media se mudara
+desde las ciudades centrales hacia suburbios más espaciosos. Finalmente, durante el
+Proliferaron los tranvías eléctricos de la década de 1890 y las líneas elevadas de tránsito rápido,
+proporcionando transporte urbano barato para la mayoría de la población.
+
+El distrito central de negocios de la ciudad sufrió una transformación radical
+con el desarrollo del rascacielos entre 1870 y 1900. Estos altos
+Los edificios no eran técnicamente viables hasta la invención del ascensor.
+y métodos de construcción con estructuras de acero. Los rascacielos reflejan la dinámica de
+el mercado inmobiliario; el edificio alto
+								Página 44^
+
+extrae el máximo valor económico de una parcela de tierra. estas oficinas
+Los edificios albergaban al creciente número de empleados administrativos de la banca,
+Finanzas, gestión y servicios empresariales, todas las manifestaciones del cambio.
+de una economía de pequeñas empresas a una de grandes corporaciones.
+
+
+LA FORMA DE LA CIUDAD MODERNA EN LA ERA DEL AUTOMÓVIL
+La ciudad actual puede dividirse en dos partes:(1) una zona interior,
+coextensivo con los límites de la antigua ciudad industrial, y (2) suburbano
+áreas, que datan de la década de 1920, que han sido diseñadas para el sutomóvil
+desde el principio.
+
+Los distritos comerciales centrales de las ciudades estadounidenses se han convertido en centros de
+procesamiento de información, finanzas y administración en lugar de fabricación.
+Los empleados de cuello blanco en estos sectores económicos viajan desde el
+suburbios en una red de autopistas urbanas construidas durante las décadas de 1950 y 1960; esto
+El patrón de autopista de "eje y rueda" se puede observar en muchos mapas de ciudades. Nuevo
+puentes han atravesado ríos y bahías, como en Nueva York y San Francisco,
+uniendo ciudades anteriormente separadas en vastas regiones urbanizadas.
+
+Olas de demolición y reconstrucción han producido centros urbanos "manhattanizados"
+por toda la tierra. Durante las décadas de 1950 y 1960, los programas de renovación urbana limpiaron
+eliminar grandes áreas de la ciudad vieja, liberando el terreno para nuevas oficinas
+edificios, centros de convenciones, hoteles y complejos deportivos. edificio
+Las oleadas han convertido los centros de las ciudades estadounidenses en bosques de altos
+edificios de oficinas. Más recientemente, las funciones de oficina que no requieren un centro
+La ubicación se ha trasladado a enormes parques de oficinas en los suburbios.
+
+Alrededor del área central de negocios se encuentra una gran franja de antiguos usos mixtos.
+y edificios residenciales que albergan a los pobres de las zonas urbanas. Alto crimen, bajo
+ingresos, deterioro de los servicios, vivienda inadecuada y problemas sociales intratables.
+Los problemas plagan estas áreas desatendidas de las zonas urbanas de Estados Unidos. la fabricacion
+Los empleos que antes estaban disponibles para los residentes del centro de la ciudad ya no existen, y
+no se han comprometido recursos para reemplazarlos.
+
+Estas zonas del centro de la ciudad han quedado atrás debido a una migración masiva hacia el
+suburbios, que comenzó a finales del siglo XIX pero se aceleró en el
+Década de 1920 con la difusión del automóvil. Construcción de autopistas después de la Guerra Mundial
+II abrió áreas aún mayores de terreno suburbano, que rápidamente se llenaron
+por personas que huyen del declive del centro de la ciudad. Hoy en día, más personas viven en los suburbios.
+que en las ciudades propiamente dichas. Los fabricantes también han trasladado su producción.
+instalaciones a ubicaciones suburbanas que tengan acceso a autopistas y ferrocarriles.
+
+De hecho, hemos alcanzado una nueva etapa de urbanización más allá de las metrópolis.
+La mayoría de las grandes ciudades ya no se centran exclusivamente en lo tradicional
+centro de la ciudad. Han surgido nuevos subcentros en la periferia, y estos
+Los subcentros satisfacen la mayor parte de las necesidades diarias de sus poblaciones adyacentes.
+La antigua metrópoli se ha convertido en una región urbana multicéntrica. A su vez, muchos
+de estas regiones urbanas se han expandido hasta el punto de fusionarse
+en vastos cinturones de urbanización -lo que el geógrafo Jean Gottman denominó
+"megalópolis". El mejor ejemplo es el este
+								Página 45^
+
+costa de los Estados Unidos desde Boston hasta Washington. El planificador C.A.
+Doxiadis ha especulado que vastos corredores de urbanización similares
+aparecerán en todo el mundo durante el próximo siglo. Hasta ahora, americano
+Los planificadores no han tenido mucho éxito en imponer una forma racional a esta
+proceso. Sin embargo, los programas de Ciudades Nuevas y cinturones verdes en Gran Bretaña y el
+Los países escandinavos han impedido, hasta cierto punto, que se produzca una expansión informe.
+envolviendo el campo.
+
+
+LA ECONOMÍA DE LAS ZONAS URBANAS
+Desde la década de 1950, los urbanistas han prestado cada vez más atención a la
+Economía de las zonas urbanas. Cuando muchas ciudades estadounidenses experimentaron
+Durante las crisis del decenio de 1970, la gestión financiera urbana asumió una importancia aún mayor.
+importancia. Hoy en día, los planificadores evalúan rutinariamente las consecuencias económicas de
+todos los cambios importantes en la forma de la ciudad.
+
+Varios conceptos básicos subyacen al análisis económico urbano y regional.
+Primero, las ciudades no pueden crecer si sus residentes simplemente brindan servicios para
+el uno al otro. La ciudad debe crear productos que puedan venderse a un exterior.
+comprador, aportando dinero que puede reinvertirse en nueva producción
+instalaciones y materias primas. Esta "base económica" de producción para
+los mercados externos es crucial. Sin él, el motor económico de la ciudad
+se detiene.
+
+Una vez establecida la base económica, un mercado interno elaborado puede
+evolucionar. Este mercado incluye la producción de bienes y servicios para
+empresas y residentes dentro de la ciudad. Evidentemente, una gran parte de la
+La planta física de la ciudad está dedicada a instalaciones para estos internos.
+transacciones: comercios minoristas de todo tipo, restaurantes, locales profesionales
+servicios, etcétera.
+
+Las ciudades modernas están cada vez más involucradas en una competencia por la economía.
+recursos como plantas industriales, sedes corporativas, alta tecnología
+empresas e instalaciones gubernamentales. Las ciudades intentan atraer inversiones con una
+variedad de características: tasas impositivas bajas, transporte y servicios públicos mejorados
+infraestructura, terrenos baratos y mano de obra calificada. Servicios como
+clima, proximidad a recreación, parques, arquitectura elegante y centros culturales.
+Las actividades influyen en las decisiones de ubicación de empresas e individuos.
+Muchas ciudades más antiguas han tenido dificultades para sobrevivir en este nuevo juego económico.
+Abandonados por las industrias tradicionales, ahora intentan crear una nueva
+base económica que involucra sectores de crecimiento como el de alta tecnología.
+
+Hoy en día, las ciudades ya no compiten en meros mercados regionales o nacionales: la
+El mercado es internacional. Empresas multinacionales cierran plantas en Chicago
+o Detroit y construir reemplazos en Asia o América Latina. extranjero
+Estos productos dominan sectores enteros del mercado estadounidense de bienes de consumo. enorme
+sumas de dinero se mueven alrededor del mundo en forma instantánea
+transacciones. Las ciudades deben luchar por sobrevivir en un entorno volátil
+en el que las reglas siempre están cambiando. Esto hace que la planificación urbana sea aún más
+desafiante que antes.
+								Página 46^
+
+
+
+URBANISMO MODERNO
+La planificación urbana moderna se puede dividir en dos tipos distintos pero relacionados.
+planificación. La planificación urbana visionaria propone cambios radicales en forma de
+la ciudad, a menudo junto con cambios radicales en el entorno social y
+orden económico. La planificación urbana institucionalizada se aloja en el
+estructuras de gobierno existentes y modifica los procesos de crecimiento urbano en
+maneras moderadas y pragmáticas. Está limitado por la alineación predominante de
+fuerzas políticas y económicas dentro de la ciudad.
+
+URBANISMO VISIONARIO O UTOPICO
+La gente ha imaginado ciudades ideales durante milenios. La República de Platón fue una
+ciudad ideal, aunque carente del detalle espacial de esquemas posteriores.
+Los arquitectos del Renacimiento diseñaron numerosas ciudades geométricas y desde entonces
+Los arquitectos han sido la principal fuente de propuestas urbanas imaginativas. en
+el siglo XX, Le Corbusier, Frank Lloyd Wright, Paolo Soleri y
+decenas de otros arquitectos han diseñado ciudades sobre papel. Aunque pocos tienen
+realizados en forma pura, han influido en el diseño de muchos nuevos
+ciudades y proyectos de reurbanización urbana.
+
+En su "Ciudad contemporánea para tres millones de personas" de 1922 y "Radiante
+Ciudad" de 1935, Le Corbusier abogó por una alternativa urbana de alta densidad,
+con rascacielos de oficinas y apartamentos de media altura ubicados dentro
+espacios abiertos tipo parque. Los diferentes usos del suelo se ubicaron en zonas separadas.
+distritos, formando un patrón geométrico rígido con un sistema sofisticado
+de autopistas y tránsito ferroviario.
+
+Frank Lloyd Wright imaginó una ciudad descentralizada de baja densidad que mantuviera
+con su disgusto por las grandes ciudades y su creencia en el individualismo fronterizo.
+El plan de Broadacre City de 1935 es una gran red de arterias repartidas por
+el campo, con la mayor parte del espacio interno dedicado a viviendas unifamiliares
+viviendas en lotes grandes. También se reservan cuidadosamente zonas para pequeñas explotaciones,
+industria ligera, huertas, áreas de recreación y otras instalaciones urbanas. un
+Una red de superautopistas une la región, tan espacialmente dispersa
+Las instalaciones están realmente muy cerca en términos de tiempo de viaje. En muchos sentidos,
+Broadacre City de Wright se parece a los suburbios y exurbanos estadounidenses
+Los acontecimientos del período posterior a la Segunda Guerra Mundial.
+
+Se podrían catalogar muchos otros planes utópicos, pero la cuestión es que
+Los planificadores y arquitectos han generado una compleja gama de patrones urbanos.
+del que sacar ideas e inspiración. La mayoría de los urbanistas, sin embargo, no
+no trabajar sobre un lienzo en blanco; sólo pueden realizar cambios incrementales en un
+escena urbana ya moldeada por un complicado proceso histórico.
+								Página 47^
+
+
+URBANISMO INSTITUCIONALIZADO
+La forma de la ciudad está determinada principalmente por miles de empresas privadas.
+decisiones de construcción de edificios, en el marco de la ciudadanía
+infraestructura y regulaciones administradas por la ciudad, el estado y el gobierno federal.
+gobiernos. Las acciones de planificación urbana pueden tener un enorme impacto en el valor del suelo.
+Desde el punto de vista de la economía del suelo, la ciudad es un enorme lugar de juego.
+campo en el que miles de competidores luchan por capturar valor mediante
+construir o comercializar terrenos o edificios. El objetivo de la planificación urbana es
+intervenir en este juego para proteger valores públicos ampliamente compartidos, como
+como salud, seguridad, calidad ambiental, equidad social y estética.
+
+Las raíces de la planificación urbana estadounidense se encuentran en una serie de esfuerzos de reforma de
+Finales del siglo XIX: el movimiento de los Parques, la Ciudad Bella
+movimiento, campañas por regulaciones de vivienda, el movimiento progresista por
+reforma gubernamental y esfuerzos para mejorar la salud pública a través de la
+provisión de alcantarillado sanitario y suministro de agua potable. El Primer Nacional
+Conferencia sobre Planificación Urbana tuvo lugar en 1909, el mismo año en que Daniel
+El famoso Plan de Chicago de Burnham. Esa fecha podrá utilizarse para marcar el
+inauguración de la nueva profesión. Los primeros urbanistas llegaron
+de diversos orígenes como paisajismo, arquitectura,
+ingeniería y derecho, pero compartían el deseo común de producir un mundo más
+patrón urbano ordenado.
+
+La zonificación de la tierra se convirtió, y sigue siendo, en el instrumento más potente
+a disposición de los urbanistas estadounidenses para controlar el desarrollo urbano.
+La zonificación es básicamente la división de la ciudad en áreas discretas dentro
+en el que sólo se pueden construir determinados usos del suelo y tipos de edificios. el
+la razón es que ciertas actividades o tipos de edificios no funcionan bien;
+fábricas y hogares, por ejemplo. Las mezclas ilógicas crean molestias para
+las partes involucradas y menores valores de la tierra. Después de varias décadas de
+desarrollo gradual, la zonificación del uso de la tierra recibió la aprobación legal del
+Corte Suprema en 1926.
+
+Zonificar no es lo mismo que planificar: es una herramienta legal para la implementación 
+de planos. La zonificación debe estar estrechamente integrada con un Plan Maestro o
+Plan Integral que marca un camino lógico para el futuro de la ciudad en
+áreas como uso de la tierra, transporte, parques y recreación, medio ambiente
+calidad y construcción de obras públicas. En los primeros días de la zonificación, esto
+a menudo se descuidaba, pero esta falta de coordinación entre la zonificación y
+La planificación es menos común ahora.
+
+Otros dos elementos importantes de la planificación urbana existente son la subdivisión
+regulaciones y regulaciones ambientales. Las regulaciones de subdivisión requieren
+que los terrenos que se subdividan para su desarrollo cuenten con la adecuada
+calles, alcantarillado, agua, escuelas, servicios públicos y diversas características de diseño.
+El objetivo es evitar desarrollos lamentables y deficientes que produzcan
+dolores de cabeza tanto para sus residentes como para la ciudad. Desde finales de los años 1960,
+Las regulaciones ambientales han ejercido una influencia más fuerte en los patrones de
+crecimiento urbano al restringir el desarrollo en llanuras aluviales, en laderas inestables,
+en fallas sísmicas o cerca de áreas naturales sensibles. Las empresas han sido
+obligados a reducir las emisiones de humo y la eliminación de residuos han sido más
+monitoreados de cerca. En general, el ritmo de degradación ambiental ha sido
+desacelerado, pero ciertamente no detenido, y una desalentadora acumulación de
+Aún quedan peligros por limpiar. Los urbanistas tienen mucho trabajo por hacer
+a medida que avanzamos hacia el siglo veinte
+								Página 48^
+
+
+primer siglo.
+
+
+CONCLUSIÓN: BUENA FORMA DE CIUDAD
+¿Cuál es la buena ciudad? Es poco probable que lleguemos a una respuesta inequívoca;
+La diversidad de necesidades y gustos humanos frustra todos los intentos de proporcionar
+recetas o manuales de instrucciones para la construcción de ciudades. Sin embargo, podemos
+identificar las dimensiones cruciales del desempeño de la ciudad y especificar las muchas
+formas en que las ciudades pueden lograr el éxito junto con estas dimensiones.
+
+Una guía muy útil es A THEORY OF GOOD CITY FORM de Kevin Lynch (Cambridge,
+Massachusetts MIT Press, 1981). Lynch ofrece cinco dimensiones básicas de la ciudad
+desempeño: vitalidad, sentido, ajuste, acceso y control. A estos añade
+dos "metacriterios": eficiencia y justicia.
+
+Para Lynch, una ciudad vital satisface con éxito las necesidades biológicas de sus
+habitantes, y proporciona un ambiente seguro para sus actividades. un
+La ciudad sensible se organiza de manera que sus habitantes puedan percibir y
+comprender la forma y función de la ciudad. Una ciudad con buen ajuste proporciona la
+edificios, espacios y redes necesarios para que sus residentes lleven a cabo sus
+proyectos con éxito. Una ciudad accesible permite a personas de todas las edades y
+antecedentes para obtener las actividades, recursos, servicios e información
+que necesitan. Una ciudad con buen control está organizada para que sus ciudadanos
+pueden tener voz en la gestión de los espacios en los que trabajan y
+comercio.
+
+Finalmente, una ciudad eficiente logra los objetivos enumerados anteriormente al menos
+y equilibra el logro de los objetivos entre sí. ellos
+No se pueden maximizar todos al mismo tiempo. Y una ciudad justa distribuye
+beneficios entre sus ciudadanos de acuerdo con algún estándar justo. Claramente, estos
+Dos metacriterios plantean cuestiones difíciles que seguirán despertando
+debates para el futuro previsible.
+
+Estos criterios indican a los aspirantes a constructores de ciudades hacia dónde apuntar, mientras
+reconocer las diversas formas de lograr una buena forma de ciudad. Las ciudades son
+infinitamente fascinante porque cada uno es único, producto de décadas,
+siglos, o incluso milenios o evolución histórica. Mientras caminamos a través
+Calles de la ciudad, caminamos a través del tiempo, encontrando el legado de la construcción de la ciudad.
+de generaciones pasadas. París, Venecia, Roma, Nueva York, Chicago, San
+Francisco, cada uno tiene sus glorias y sus fracasos. En teoría, deberíamos estar
+capaces de aprender las lecciones de la historia y construir ciudades que nuestros descendientes
+admirará y deseará conservar. Esto sigue siendo un desafío constante para todos.
+quienes asumen la tarea de planificación urbana.
+								Página 49^
+
+
+			B I B L I O G R A F Y
+Boyer, R. y D. Savageau. Lugares clasificados Almanaque. Chicago: Rand McNally y
+Co., 1986.
+
+Choay, Françoise. La ciudad moderna: la planificación en el siglo XIX. Nueva York:
+George Braziller, 1969.
+
+Clark, David. Geografía urbana. Baltimore: la Universidad Johns Hopkins
+Prensa, 1982.
+
+Arcilla, Grady. Primer plano, cómo leer la ciudad americana. chicago: el
+Prensa de la Universidad de Chicago, 1986.
+
+Gallion, A. y S. Eisner. El patrón urbano. Nueva York: Van Nostrand
+Compañía Reinhold, 1986.
+
+Greenburg, M., D. Kueckeberg y C. Michaelson. Población local y
+Técnicas de Proyección de Empleo. Nuevo Brunswick: Centro de Política Urbana
+Investigaciónxh, 1987.
+
+Jacobs, Jane. La muerte y la vida de las grandes ciudades americanas. Nueva York:
+Libros antiguos, 1961.
+
+Kückeberg, Donald. Análisis de Planificación Urbana; métodos y modelos. Nueva York:
+John Wiley e hijos, 1974.
+
+Callenbach, Ernesto. Ecotopía. Berkeley: Libros de Banyan Tree, 1975.
+
+Hoskin, Frank P. El lenguaje de las ciudades. Cambridge: Editorial Schenkman
+Compañía, Inc., 1972.
+
+Le Corbusier. La ciudad del mañana y su planificación. Nueva York: Dover
+Publicaciones, Inc, 1987.
+
+Planificación (La revista de la Asociación Estadounidense de Planificación)
+1313 60th St., Chicago IL 60637
+								Página 50^
+LECTURA RELACIONADA PARA NIÑOS
+
+FICCIÓN
+Burton, Virginia Lee. La Casita. Boston: Houghton Mifflin, 1942
+(reeditado en 1969).
+
+Murphy, Shirley y Murphy, Pat. El regreso al sol de la señora Torrino. pastor
+Libros, 1980.
+
+Dr. Seuss. El Lórax. Nueva York: Random House, 1971.
+
+NO FICCIÓN
+Macaulay, David. Ciudad: una historia de planificación y construcción romana. Boston:
+Houghton Mifflin, 1974.
+
+Macaulay, David. Subterráneo. Boston: Houghton Mifflin, 1976.
+
+Barker, Alberto. Del asentamiento a la ciudad. Nueva York: Julian Messner, 1978.
+
+Eichner, James A. El primer libro del gobierno lacal. Nueva York: Franklin
+Vatios, 1976.
+
+Rodas, Dorothy. Cómo leer un mapa de la ciudad. Chicago: Elk Grove Press, 1967.
+
+Monroe, Roxie. Los arquitectos hacen zigzags: una mirada a la arquitectura de la A a la Z. 
+Washington DC: Fondo Nacional para la Preservación Histórica, 1986.
+
+Para obtener más información sobre planificación urbana y temas relacionados, comuníquese con:
+
+Asociación Americana de Planificación
+Librería Planners 1313 E. 60th St.
+Chicago IL 60637
+(312)955-9100
+								Página 51^
+
+
+
+
+				REFERENCIA DE USUARIO DE SIMCITY
+
+
+
+Estos niveles>
+son afectados por
+estos factores
+(abajo)
+			A B C D E F G H I J K
+ 
+Población residencial + + + +
+Población Comercial + + + +
+Población industrial + + + + +
+Densidad de población +
+Tráfico + + -
+Contaminación - - -
+Crimen - -
+Valor del terreno + - + +
+Arboles-Parques +
+Agua +
+Proximidad al centro de la ciudad +
+Radioactividad +
+Tasa impositiva + - - - -
+Desempleo + -
+Estadio +
+Puerto Marítimo +
+Aeropuerto +
+Departamentos de policía + -  
+Departamentos de Bomberos +
+Carreteras +
+Transporte masivo +
+
+
+R: Financiamiento de mantenimiento
+B: Impuestos recaudados
+C: Valor de la tierra
+re: crimen
+E: Contaminación
+F: Densidad de tráfico
+G: Población industrial
+H: Población Comercial
+I: Población Residencial
+J: Puntuación general de la ciudad
+
++ Efecto positivo
+- efecto negativo
+
+EVOLUCIÓN DE LA ZONA SIMCIY
+Las zonas en SimCtiy evolucionan y descentralizan según muchos factores, como se muestra en el gráfico.
+arriba. 
+
+Las ZONAS RESIDENCIALES crecen desde viviendas vacías hasta viviendas unifamiliares, y luego a
+cuatro niveles de densidad y cuatro niveles de valor del suelo. Zonas residenciales
+También pueden convertirse en iglesias y hospitales.
+
+ZONAS COMERCIALES pasan de “zonas libres” vacías a cinco niveles de densidad
+y cuatro niveles de valor de la tierra.
+
+ZONAS INDUSTRIALES crecen de “zonas libres” vacías a cuatro niveles de densidad
+y dos niveles de valor de la tierra.
+
+En tu disco de SimCity se incluye un programa llamado ZONE EVOLUTION. esto
+El programa muestra una ventana que contiene un gráfico de la evolución de la zona en
+Ciudad Sim. 
+
+Haga doble clic en el ícono ZONE EVOLUTION antes de comenzar SimCity, y el
+El gráfico estará disponible en una ventana durante el juego.   
+
+          
+
+                    **********************************
+                    ESO ES TODO POR LOS DOCUMENTOS: ¡DIVIÉRTETE! 
+                    **********************************
+
+Algunos saludos personales van a: Puppet Master, The Freelancer, Bigfoot, Warehead
+			      Rokman, Nomad, Blackhawk, The Agnostic y de
+			      ¡Por supuesto, todos los miembros de Spreadpoint/Defjam/CCS!
+Observación del Doxtor: Esto es lo que hace el tan cacareado escáner de texto del
+                           Mac es capaz de hacerlo; Pasé 35 minutos editando esto.
+                           archivo para eliminar los "thc" que estaban
+                           se supone que son "the", y más. ES más rápido que
+                           escribiendo, por supuesto...
+Corregido el 15/6/89 por Doxtor, un bastardo quisquilloso que odia los errores ortográficos.
+archivos documentales!
+
+Completamente reeditado y MUCHO material nuevo mecanografiado (¡alrededor de 60K!) para hacer estos 
+dox lo más completo posible por Doxtor, 17-21/8/89.
+
+¡Uf!

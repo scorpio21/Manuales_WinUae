@@ -1,0 +1,148 @@
+Era de la vela
+
+Recreaciones de conflictos, Inc.
+P.O. Caja 272
+Oakdale, CT 06370
+c) 1987
+
+Simulaciones para jugadores serios
+
+
+Notas de la versión 1.0
+
+
+Ejecutando los programas
+
+El acceso a todos los programas ahora se logra a través de ICONOS.  Para acceder a los ICONOS,
+seleccione el ICONO del disco "Age_of_Sail" en Workbench.
+
+
+Aparecerá un grupo de ICONOS y podrá elegir el programa a ejecutar.
+haciendo doble clic en uno de ellos.  Alternativamente, aún puedes optar por ejecutar
+todos menos Shipbuilder y Orders del programa principal.
+
+Usuarios de un solo disco: para evitar el intercambio de discos, ingrese lo siguiente
+en CLI o ED su archivo Workbench 1.2:s/startup-sequence de la siguiente manera:
+
+Copie la RAM "Workbench 1.2:c/run":<TECLA DE RETORNO>
+Asignar C: ram:<TECLA DE RETORNO>
+
+Nuevamente, trabaje SÓLO con una copia de seguridad de Workbench y Age_of_Sail.
+
+Uso del disco duro: Recomendamos crear un cajón dh0:AOS.
+Edite su df0:s/startup-sequence de la siguiente manera:
+Asignar Edad_de_Vela: dh0:AOS<RET>
+
+Usuarios de RAM adicionales: recomendamos escribir esto desde CLI o editar
+su df0:s/startup-sequence de la siguiente manera:
+
+Copiar Age_of_Sail: ram:<RET>
+Asignar Age_of_Sail: ram:<RET>
+
+Empezando a jugar.
+
+Antes de comenzar a jugar, asegúrese de que cada jugador asigne hombres a los cañones, velas,
+etc. Es posible que no veas los otros barcos en la pantalla visual hasta después del
+primer turno de juego.
+
+Seleccione PRINCIPAL con el mouse. Cuando aparezca la pantalla, seleccione PEDIDOS
+programar y asignar a sus hombres, etc. Cuando termine, el programa PRINCIPAL
+recargar.  Seleccione el programa JUEGO del menú y ejecute tantos "turnos"
+como desees.  El programa PRINCIPAL se recargará y luego podrá seleccionar el
+Programa PEDIDOS. Repita la selección del programa de juegos/órdenes hasta que haya
+un vencedor.
+
+
+¿Insectos?
+
+¿Mejores formas de hacerlo?  Escríbenos a nuestra dirección.
+
+Subiendo
+
+Al cargar en Compuserve Information Service (CIS)
+especifique que el archivo debe ser BINARIO.  enviar cada barco
+por separado en su propio archivo.  Esto garantizará una adecuada
+almacenamiento (8K está permitido por CIS) y evitar el formateo
+caracteres sean insertados por CIS.
+
+Al cargar cualquier servicio o BBS, asegúrese de que la computadora host no
+inserte un retorno de carro después de cada línea.
+
+Un retorno de carro corromperá el archivo de envío, haciéndolo inútil. Todos los archivos
+debe ser recibido por el anfitrión TAL CUAL.
+
+
+Era del disco de vela
+
+
+Se puede (y se debe hacer una copia de seguridad) del disco Age_of_Sail.
+
+PRECAUCIÓN: archivos de barcos en Age of Sail: el directorio principal será cambiado por
+el programa!!!
+
+Mientras esté en la pantalla Workbench, haga lo siguiente:
+
+      1. Haga clic una vez en el icono Age_of_Sail.
+      2. Seleccione la opción "Cambiar nombre" en el menú Workbench.
+      3. Cuando aparezca el solicitante, cambie el nombre del
+         copia de seguridad de "Copia de Age_of_Sail" a "Age_of_Sail".
+      4. Todos los módulos del juego buscan "Age_of_Sail.0 [4m 
+Soporte en línea
+
+Háganos saber si desea que su nombre se divulgue a otros
+jugadores de todo el país.  Estaremos encantados de ayudarle
+jugadores con cualquier problema que puedan tener.
+
+Errores
+   
+Ninguno conocido.
+
+
+Cambios manuales
+
+Pág. 13 Cambie el método para ingresar al lado y al escuadrón de la siguiente manera:
+
+Introduzca el lado:F<RET> <-nota F mayúscula
+Entrar escuadrón:1<RET>
+
+Pg 26 Ahora puede ignorar esta advertencia.  Error solucionado durante la prueba Beta.
+
+Pág. 36 Ya no existe una asignación de tripulación óptima para el gobierno.
+       y detalle de navegación.  Cuantos más hombres se asignen, más eficiente será
+       la tripulación estará cumpliendo órdenes.  Un buen tamaño de tripulación
+       ser el 25% del total de hombres posibles transportados.
+
+
+Consejos útiles
+
+
+     1. Al virar el barco es posible quedarse sin impulso antes de
+         virar con el viento y no poder girar ni acelerar.
+         Esto se debe a que la tripulación intenta seguir órdenes.  tienes
+         dos alternativas:
+         
+        a) asignar más hombres para cumplir órdenes
+        b) asignar menos hombres y dejar que el viento se la lleve.
+
+     2. Para jugar un escenario debes moverlo al directorio principal de
+         Edad_de_la_vela:.  Hay dos maneras de hacer esto:
+
+Nota: un Cofre del Tesoro es lo mismo que un cajón (es decir, un cajón de sistemas).
+
+ICONO:
+Abra los escenarios Treasure Chest y el escenario deseado.
+Cofre del tesoro (es decir, ¡batalla!).
+Para cada ícono:
+    1. Haga clic en cada ícono
+    2. Seleccione Duplicar en el menú Workbench.
+    3. Mueva la copia de Icon al directorio principal (el mismo cajón que el
+       los programas residen en).
+    4. Cambie el nombre (menú Workbench) y elimine las palabras Copia de del título.
+       CLI y el método más sencillo:
+
+Abra la CLI
+ingrese lo siguiente:
+Copiar Age_of_Sail:/scenarios/Battle!/#? Edad_de_vela:<RET>
+Tenga en cuenta que ¡Batalla! es el escenario que desea copiar.
+luego ingresa:
+finalcli<RET>

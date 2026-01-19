@@ -1,0 +1,826 @@
+Anillos de Medusa          
+                  
+            Instrucciones de carga:
+            
+            Reinicie el disco A en la unidad interna. Coloque el disco B en el 
+            unidad interna cuando la computadora le solicite que lo haga (sólo 
+            Atari ST). Después de cargar el juego, puedes ingresar tu 
+            nombre, y el juego comienza. Durante la carga tienes el 
+            posibilidad de cambiar a 50 o 60 Hz pulsando el botón 5 
+            o 6 continuamente.
+            
+            Configuraciones para Anillos de Medusa
+            Commodore Amiga 512/ Atari St con monitor a color.
+            1. Idea/Objetivo del juego 
+            
+            a) Pre-cuento:
+                    El jugador actúa como el hijo del rey, en un 
+            Planeta desconocido. El país florece y prospera, la vida. 
+            continúa muy tranquilamente. Pero un día la situación cambia. 
+            La gente está cada vez más controlada por el mal. 
+            fuerza. Surgen revoluciones y guerras. Los antes unidos 
+            El reino se divide. Finalmente, el viejo rey descubre que un 
+            diosa llamada "Medusa" intenta controlar a la gente desde 
+            del inframundo, para conquistar y gobernar el 
+            mundo entero con su ejército del infierno.
+            
+            b) Objetivo del juego:
+                    El jugador que asume el papel del príncipe es 
+            obligado a detener el avance de Medusa y reunir a la división 
+            reino. Para llegar a eso, deberá luchar contra la diosa. 
+            Medusa y derrotarla nuevamente. Como el oponente es un 
+            diosa, el jugador no puede encontrarla en ninguna parte 
+            el país.
+            Sólo puede llamarla cuando encuentra 5 anillos, los pone. 
+            juntos en un templo y obliga a Medusa a enfrentar una pelea. 
+            Por tanto, la tarea básica es la búsqueda de los 5 anillos. 
+            Lamentablemente el rey tiene muy poca energía, por lo que 
+            las condiciones iniciales para su hijo no parecen muy buenas 
+            bueno. Primero tiene que ganar algo de dinero para poder costear un ejército. 
+            lo cual es necesario para encontrar los anillos. Esto causa más 
+            problemas, que el jugador se da cuenta e incluye en el 
+            curso del juego.
+            
+            2. Punto de entrada:
+            
+                    El jugador tiene graves problemas económicos, que 
+            significa que primero debe recolectar algo de dinero. hay 
+            varias posibilidades:
+            
+                 -Comercio
+                 -Atacar caravanas
+                 -Conquistar ciudades y saquear las tesorerías.
+                 -Buscar materias primas, encontrarlas y explotarlas.
+                 -encuentra los tesoros del rey
+                 -Apuesta en el casino.
+            
+            
+            
+            
+            
+            
+            3. Descripción de la superficie de usuario del programa.
+            
+                 En cada pantalla hay una barra de información y una 
+            menú de opciones.
+          mi 
+            avisos (por ejemplo, las coordenadas de una isla).
+             
+            Compra: Sirve para comprar en combinación con compra o 
+            vender, es decir, se compran o venden todos los artículos posibles.
+            La posición del interruptor es visible en el puntero del mouse. 
+            Apague haciendo clic en MÁXIMO nuevamente.
+            
+            Puerta: Sirve en la mayoría de los casos para salir de situaciones especiales. 
+            o lugares.
+            
+            OK: Para responder una pregunta, el jugador hace clic aquí, si 
+            la pregunta deberá responderse con un "sí" (por ejemplo, Enter 
+            Ciudad XYZ ?).
+            
+            Retirada: Sirve para volver a llamar a la unidad de selección en el 
+            pantalla de lucha.
+            
+            Ataque: realiza un ataque de unidad en la pantalla de lucha. 
+            De lo contrario, atacar en general (por ejemplo, a una ciudad, a un banco o a una 
+            castillo).
+            
+            Incremento: Sirve para ajustar la velocidad en los combates.
+pantalla, en la que se desarrolla la pelea. También un 
+            posibilidad al ajustar el valor del dinero durante 
+            NEGOCIACIONES (ver más abajo)
+            
+            Búsqueda: envíe exploradores para buscar materias primas o 
+            tesoro.
+            
+            
+            
+            
+            Restaurar: Sirve para restaurar una partida guardada. Sólo es posible 
+            en un pueblo.
+            
+            Información de la ciudad: Te da información sobre la ciudad. 
+            estás dentro.
+            
+            Vender: Con esta función, el jugador puede vender su 
+            bienes. También en relación con MAXIMUN.
+            
+            Más productos: Te ayuda a buscar dentro del ALMACÉN.
+            
+            Tesoro: te muestra las coordenadas conocidas de un tesoro. 
+            visualmente.
+           
+            No está bien: como OKAY, te ayuda a responder preguntas. aquí 
+            sirve como negación.
+            
+            Negociaciones: Durante la pelea puedes hacer negociaciones. 
+            para evitar un conflicto armado siempre que sea posible.
+            
+            Disminución: Lo contrario de AUMENTAR.
+            
+            Mía" Puedes abrir una mina.
+            
+            
+             Además, en el centro hay un campo de información. 
+            del menú, en el que puede ajustar o leer especiales 
+            cosas. También hay un botón verde en la parte superior izquierda. 
+            esquina del campo,. lo que hace que el campo gire. 
+            La sincronización y los efectos se pueden activar y desactivar 
+            aquí.
+            
+            (Consulte también la breve descripción en el Apéndice A)
+            
+            
+            
+            
+            4. Partes del programa
+                 El programa se puede dividir en tres partes: 
+            Paisaje, Pueblo y Lucha.
+            
+            
+            4.1 Paisaje
+            
+            En el paisaje, el jugador puede viajar de una ciudad a otra. 
+            el otro, abrir minas y encontrar tesoros. tienes                                                                                           
+            prestar atención al hecho de que el jugador no puede 
+            montar sobre montañas. Si el jugador va acompañado de 
+            un ejército, tiene que asegurarse de que sus soldados reciban 
+            su dinero el primer día de cada mes. el jugador 
+            por lo tanto siempre debe tener suficiente dinero con él, para que 
+            que pueda pagar por su ejército. El dinero que el 
+            El jugador tiene en su cuenta no se puede utilizar para pagar. 
+            los salarios de los soldados.
+            
+            
+            
+            
+            
+            Además, existen dos lugares peligrosos para el 
+            ejército:   
+            
+            un.      Por un lado el pantano, en el que 
+            El ejército de jugadores se hunde cuando tiene suficientes magos. 
+            con aquel que protege su ejército. Cada mago es capaz 
+            para proteger a unos 100 soldados en el pantano.
+            
+            B.      Lo mismo ocurre con el bosque encantado, excepto que 
+            por el hecho de que cada mago sólo puede proteger 50 
+            soldados.
+            
+            
+            Cuando cruza el paisaje, el jugador debe además 
+            Tenga en cuenta que también hay algunas caravanas. 
+            viajando y que posiblemente podría toparse con 
+            estos.
+            El jugador tiene la posibilidad de encontrar al enemigo. 
+            ejércitos. Esto depende del número de exploradores que 
+            el jugador se lleva consigo. Cuantos más exploradores tenga, más 
+            Cuanto mayor sea el radio en el que puede ver a sus enemigos. 
+            Durante la búsqueda el radio disminuye, a medida que la búsqueda 
+            estos bienes es mucho más difícil que la búsqueda de 
+            ejércitos.
+            
+            ¡Pero cuidado! Durante la búsqueda de materias primas o
+tesoros, el jugador ya no puede mover su ejército como 
+            tiene que esperar a los exploradores. Es más, él no es 
+            capaz de ver a sus enemigos, ya que los exploradores están siendo utilizados 
+            en otra parte y ya no puede iluminar la visión del enemigo. 
+            territorio.
+            
+            Si llegara a pelearse durante una fase de 
+            buscando, los exploradores tampoco están en casa del jugador. 
+            eliminación. No obstante, el jugador debe tener en cuenta 
+            que se debe pagar el salario del explorador.
+            
+            Si el jugador tiene la suerte de encontrar un tesoro o 
+            materias primas, debe abrir una mina. Para ello, 
+            necesita un capital de 30000 y un sistema de transporte 
+            se puede comprar en el almacén bajo la designación 
+            "máquina".
+            
+            Con el dinero y la máquina, el jugador puede abrir una 
+            el mío (yendo al lugar elegido por los exploradores y 
+            seleccione la función "MINAS").
+            
+            Si no ha llegado exactamente al lugar indicado por el 
+            cazatalentos, es posible que se haya perdido el raw 
+            reservas de materiales. En este caso, la mina revela 
+            suelo y residuos. Si el jugador ahora debería entender la idea 
+            de llenar sus carros con tierra y desechos, si el 
+            el jugador debe obtener el número correspondiente de vagones, 
+            ya que nadie estará dispuesto a comprarle los residuos.
+            
+            
+            
+            Pero si ha encontrado una materia prima, se la revelará. 
+            este material cada vez más, hasta que el espacio en el 
+            El almacén está lleno o las reservas se agotan. 
+            Cada almacén tiene espacio para 300 unidades de cualquier materia prima. 
+            materia. El jugador tiene la posibilidad de construir. 
+            más almacenes, lo que por supuesto daría como resultado 
+            costos adicionales. Pero la mina estaría lista para revelar 
+            materias primas durante más tiempo. Además, el jugador 
+            No necesita ir a buscar las materias primas con tanta frecuencia. 
+            Ya no será necesario suspender la producción. 
+            debido a que los almacenes se llenaron tan pronto.
+            También es posible que el jugador, si tiene más 
+            máquinas con él, para construir también 3 torres transportadoras 
+            por mina. Esto tiene la ventaja de aumentar la 
+            importe del transporte.
+            
+            Como al jugador sólo se le permite poseer un máximo de 20 
+            minas al mismo tiempo (debido al peligro de una 
+            monopolio), debe en cualquier circunstancia cerrar 
+            minas agotadas, cuando quiere abrir otras nuevas. 
+            
+            Si el jugador encuentra un tesoro y quiere tomarlo, 
+            necesita, como para la apertura de la mina, 30.000 capital y un 
+            sistema de transporte. En un tesoro puede haber un anillo. 
+            pero también una cierta cantidad de dinero. Ambos son seguramente 
+            útil para ganar el juego.
+            
+            Respecto al tesoro, se puede decir lo siguiente 
+            cosas:
+            
+            En el gran continente, 2 de los anillos buscados son 
+            escondido en los tesoros. 2 anillos más están en tesoros
+            en las islas y otro anillo está escondido entre un 
+            ejército que va a ser derrotado.  
+           
+            
+            4.2 El Pueblo
+            
+            En la ciudad cada jugador puede comprar o vender bienes, apostar 
+            el casino, comprar ejércitos, ir al banco, etc. Todos 
+            Las opciones de los jugadores se colocan en casas individuales separadas. 
+            Si quieres entrar a una casa sólo tienes que hacer clic 
+            en la casa correspondiente.
+            En general es una operación. Un jugador puede comparar 
+            precios y tomar decisiones porque el reloj está 
+            detenido.
+            
+            
+            
+            El puerto
+El puerto sólo se puede encontrar en las localidades situadas en el 
+            mar o en ríos. Aquí el jugador puede hacer de todo. 
+            concerni un mensaje, para que pueda recogerlo en la ciudad donde 
+            ha sido construido.
+            Antes de poder hacerse a la mar con este barco tiene que 
+            recluta marineros que gobiernen el barco.
+            El jugador tiene que entrar al pub y alistar a los marineros. 
+            ofreciendo dinero. Cuanto más dinero ofrece, más 
+            Los marineros estarán interesados en el trabajo.
+            
+           
+            "Salarios/mes" se colocan en el lado izquierdo del 
+            pantalla. Al hacer clic con el puntero del ratón hacia arriba o hacia 
+            En la parte inferior se puede cambiar el valor dado. Debajo 
+            el jugador puede ver cuántas personas están interesadas en 
+            la oferta. Si el jugador ofrece 20 por mes, por 
+            Por ejemplo, puede haber cinco personas que estén 
+            interesado. Si recluta a estas cinco personas, tiene que 
+            pagar 100 por mes. Si vuelve a ofrecer 20 por mes 
+            no habrá nadie interesado, porque todo el que 
+            queria trabajar por 20 al mes ya esta 
+            alistado. Los salarios deben aumentarse al 25 por ciento. 
+            mes, por ejemplo. Entonces podría haber un nuevo marinero. 
+            quién está interesado en los trabajos. Si el jugador no tiene
+            
+            
+            
+            Alistaron a los marineros por 20 por mes, estos marineros 
+            estaría interesado en los trabajos más adelante. es 
+            importante que el jugador solo aliste 3 de 7 
+            marineros interesados por un salario y luego subir o bajar 
+            el salario, o incluso salir del pub, para que el 
+            Los marineros restantes están decepcionados y abandonan el pub. 
+            ellos mismos. Esto significa que no deben ser alistados. 
+            más.
+            En el lado derecho del formulario impreso puede ver cómo 
+            se necesitan muchos marineros.>>NECESARIOS<<. De<<salarios>> usted 
+            saber cuánto tienes que pagar por el barco elegido por 
+            mes.
+            
+            
+            La tienda:
+            
+            Aquí el jugador puede comprar o vender bienes. a la izquierda 
+            Al lado de la pantalla puedes ver el precio y 
+            cantidad. A la derecha puedes ver el tuyo.  
+            carga.
+            El jugador puede ajustar la cantidad de bienes en el 
+            centro de la pantalla para que puedas comprar o vender el 
+            artículos. El jugador de los artículos siempre piensa. 
+            sobre la función máxima.
+            El precio de los artículos se calcula de forma individual. 
+            número de ciudadanos, lo cual es inestable. Si hay un 
+            enorme población en esta ciudad en este momento, los precios 
+            son muy altos, porque la demanda es de acuerdo a la 
+            población. Al mismo tiempo la producción de bienes. 
+            en esta localidad está en su máximo. Eres capaz de mirar 
+            la población momentánea de la información de la ciudad. en 
+            Además de eso, existen diferencias de precios con respecto a 
+            pueblo en pueblo.
+            
+            Ejemplo: Si la ciudad X produce manzanas, esta es la ciudad 
+            donde las manzanas son más baratas que en cualquier otro pueblo. en 
+            ciudad Y, que podría estar muy lejos, las manzanas están 
+            caro < cuanto más lejos está la ciudad, más 
+            caro>. En la tienda también hay un gráfico de la 
+            capacidad de carga de cada medio de transporte, como 
+            en el puerto.
+            
+            (consulte el Apéndice B)
+            
+            
+            Banco:
+            
+            En el banco el jugador puede ganar su dinero. 
+            transacciones. Sólo hay un sistema bancario en el 
+            todo el reino, una oficina en cada ciudad. si el 
+            El jugador paga en dinero en un banco de la ciudad X, puede
+retirarlo en cualquier otra ciudad. El jugador puede pagar 
+            o retirar dinero de su cuenta y puede tomar una 
+            crédito.
+            Al principio, el banco ofrece una oferta inicial 
+            
+            
+            
+            préstamo de 3000. Si el jugador toma sólo una parte del 
+            préstamo, no tiene ningún derecho sobre el resto del préstamo. el 
+            El jugador tiene que pagar los intereses, por supuesto. el vera 
+            la cantidad de interés en las tasas comerciales de cada banco 
+            y condiciones. Tiene que pagar intereses en su banco. 
+            cuenta y préstamos. Precaución: Los comerciantes locales en el 
+            tienda apoya al banco. El jugador no recibirá sus bienes. 
+            de los comerciantes si no paga los préstamos (pero 
+            Puede comprar con crédito durante 3 meses hasta que los comerciantes. 
+            dejar de hacer negocios con él). debería ir al banco 
+            inmediatamente y devolver el préstamo.
+            El banco decide si es merecedor de un crédito. el tiene 
+            tener un equivalente apropiado de bienes; el dinero es 
+            no es un equivalente en este caso. Él puede mirar el 
+            margen de crédito respectivo en el "alcance del crédito".
+            
+            El parque:
+            
+            El jugador puede comprar soldados para su ejército en el parque. 
+            pero tiene que observar varias cosas. el ejército es 
+            subdividido en 7 partes: infantería, caballería, artillería, 
+            exploradores, jinetes de dragones, magos y arqueros. cada unidad 
+            tiene ventajas y desventajas que dependen de la 
+            terreno de combate. Por ejemplo, los jinetes de dragones son 
+            muy buenos en el pantano porque saben volar; 
+            las otras unidades se hundirían.
+            Por otro lado, los jinetes de dragones son malos en el 
+            bosque. No pueden alcanzar y luchar contra la infantería. 
+            suelo debido al denso bosque. La selección de 
+            carreras también es muy importante para la fuerza del 
+            ejército seleccionado para las unidades. Si el jugador toma el 
+            gigantes enormes y torpes como sus exploradores, no lo harán 
+            lograr tanto como los pequeños y ágiles elfos.
+            
+                    
+            Hay 10 carreras y 5 cualidades en todas y cada una de las carreras. 
+            tiene hasta cierto punto:
+            
+            
+            100 significa máximo, 0 mínimo
+            
+                    
+                    Fuerza Coraje Resistencia Agilidad Inteligencia
+            
+            Humano 50 50 50 50 50
+            Elfo 40 37 28 75 70
+            Enano 64 67 81 22 17
+            Mediano 34 24 42 92 58
+            Orco 79 33 75 44 19
+            Gnomo 16 33 26 89 86
+            Gigante 99 27 91 19 14
+            Trol 92 32 87 21 18
+            Ogro 85 39 79 31 16
+            Zwark 18 40 32 81 79
+            
+            
+            
+            
+            
+            El siguiente cuadro muestra qué cualidades son importantes para 
+            cada unidad (por ejemplo, los exploradores no tienen que ser muy fuertes, pero sí tienen 
+            a inteligente):
+            
+            
+            1 no es importante, 5 es muy importante
+             
+                       
+                       Fuerza Coraje Resistencia Agilidad Inteligencia
+            
+            Infantería 5 5 5 1 1
+            Caballería 1 5 1 5 3
+            Artillería 1 5 1 3 5
+            Explorador 1 1 5 5 5
+            Jinetes de dragones 3 5 3 3 3
+Magos 1 1 1 5 5
+            Arqueros 1 5 3 5 3
+            
+            
+            El siguiente cuadro aclara qué unidad es mejor para 
+            diferentes escenarios (cuanto mayor sea el valor, mejor 
+            unidad):
+            
+            
+                      Llanura Bosque Bosque mágico Colina Pantano
+            
+            Infantería 10 10 5 8 8
+            Calvario 20 5 3 15 3
+            Artillería 10 3 1 15 1
+            Explorador 8 20 8 15 15
+            Jinete de dragón 20 3 1 20 20
+            Magos 8 10 20 15 20
+            Arqueros 20 3 1 10 8
+            
+            
+            El jugador debe intentar poner la carrera correcta con el 
+            unidad correcta, de lo contrario la fuerza del ejército disminuye
+            
+                                     
+            Hay un número limitado de personas disponibles en 
+            cada pueblo. Los jóvenes deben crecer antes de poder 
+            pelear. Entonces es posible que la gente de una raza sea 
+            Aún no está disponible. En la "INFORMACIÓN DEL PUEBLO" puedes ver 
+            cómo están disponibles las personas.
+            En el parque, el jugador descubre cuánto dinero tiene para 
+            pagar por sus ejércitos y marineros cada mes (salarios totales).
+            Puede ver el salario de una unidad para cada mes.
+            Debajo encuentra el diagrama de la composición. 
+            condición del ejército que consta de los respectivos 
+            carreras. Esta condición de entrenamiento determina el poder del 
+            ejército. La condición de entrenamiento se puede mejorar entrenando. 
+            en los castillos.
+            
+            
+            
+            
+            
+            Formación:  
+            
+            El entrenamiento ocurre sólo en castillos. Aquí cada parte de 
+            El ejército puede ser entrenado según diferentes criterios. el 
+            La formación cuesta dinero pero vale la pena. Las funciones son 
+            Lo mismo que en la tienda.
+            
+            Armas:
+            
+            Aquí el jugador puede equipar su ejército con armas adicionales. 
+            armas, con el fin de aumentar la fuerza de combate de la 
+            unidades. Puede comprar armaduras, armas y otros 
+            El equipo es mucho más débil que uno perfectamente equipado.
+            
+            Palacio:
+            
+            El jugador sólo puede entrar al palacio cuando está 
+            atacó y conquistó el botín del tesoro, es decir. 
+            recaudar los impuestos de la gente. Los impuestos dependen del total. 
+            población de la ciudad.
+             
+            Cuartel:
+            
+            El jugador sólo puede entrar al cuartel cuando 
+            posee un pueblo. Si ha tomado un pueblo, el otro 
+            Las caravanas pugnan por la reconquista de este pueblo. Por lo tanto 
+            El jugador debe dejar una parte de su ejército en el 
+            cuarteles, como refuerzo para sus recién conquistados 
+            pueblo. La pantalla se vuelve a dividir en mitades. en el 
+            A la izquierda está tu propio ejército, a la derecha, el ejército de la ciudad. 
+            Ahora puedes transferir partes de tu ejército de un lado a otro. en el 
+            En el borde derecho de la pantalla hay varios haces que 
+            describir el retardo de tiempo después del cual la unidad correspondiente 
+            se une a la lucha cuando la ciudad es atacada. en esto 
+            De esta manera, el jugador puede ordenar a su gente un plan de defensa de 
+            la ciudad, estableciendo una estrategia para la ciudadanía 
+            acción. Por ejemplo, es prudente que la artillería 
+            Comienza a disparar inmediatamente después de un ataque del enemigo. El
+Los dragonriders probablemente deberían comenzar un poco más tarde para 
+            llegar a las líneas enemigas junto con la infantería. el 
+            más a la izquierda aparece la viga en la pantalla, el 
+            antes las unidades correspondientes comienzan la lucha. cuando 
+            la viga está en el extremo derecho. El ejército del jugador espera. 
+            para el ataque enemigo. Para desarrollar una buena estrategia de lucha, 
+            Es útil analizar al oponente de la computadora y posiblemente 
+            seguir adelante de manera similar (muy difícil).
+            
+            Estable:
+            
+            En el establo, el jugador puede comprar transporte para 
+            sus bienes. Un juego completo consta de dos caballos y un 
+            vagón. En cada uno de ellos hay espacio para un máximo de 80 mercancías. el 
+            El control del usuario es el mismo que en la "tienda".
+            
+            
+            
+            
+            
+            Pub:
+            
+            Dentro del pub, el jugador tiene la posibilidad de jugar un 
+            Juego de cartas similar al "Black Jack".
+            
+            Las reglas son las siguientes:
+            
+            As (A)=11 Reina (D)=3 Diez =10 Ocho= 8
+            Rey (K)= 4 Sota (B)=2 Nueve= 9 Siete= 7
+            
+            El doble as siempre gana.
+            Antes de coger una carta, el jugador debe realizar su apuesta. el 
+            El jugador ha ganado cuando tiene más puntos que el ordenador. 
+            pero no más de 21 (las únicas excepciones son dos ases, 
+            que siempre ganan). Para alcanzar eso, puede tomar tantos 
+            cartas como quiera. Si hubiera igualdad de puntos, 
+            la computadora gana. El jugador siempre comienza. el toma un 
+            tarjeta seleccionándola de la pila de tarjetas. si el piensa 
+            que tiene suficientes puntos, debe seleccionar el cancelado 
+            baraja de cartas. Puede decidir el importe de su apuesta 
+            haciendo clic en monedas de diferentes valores. En caso de un 
+            victoria, el jugador recupera el doble del importe de su apuesta, 
+            Si pierde, su dinero va al banco. Si el quiere 
+            salir del pub, debe hacer clic en la puerta en la parte inferior 
+            esquina derecha.
+            
+            Templo:
+            
+            En el templo, el jugador recibe información sobre el 
+            tesoros, que está situado en la parte correspondiente de 
+            el país. Desafortunadamente, los sacerdotes dentro de cada templo 
+            No sabemos la ubicación exacta del tesoro. Por lo tanto, 
+            sólo escucharás rumores sobre la posible ubicación. el 
+            El lugar real a veces puede diferir considerablemente del 
+            nombrado uno. También recibirás solo una ubicación geográfica. 
+            coordinar. Puedes obtener dos o más coordenadas 
+            conquistar otro pueblo dentro de la misma parte del 
+            pantalla. El jugador conocerá este pueblo en el 
+            templo conectado.
+            
+            La segunda posibilidad del jugador de encontrar un tesoro es 
+            encontrar un área grande con una coordenada y buscar 
+            a través de esta área con sus exploradores.
+            
+            Si ha recibido las tres coordenadas, formarán una 
+            triángulo, con un tesoro en el campo interior. el 
+            cuantas más coordenadas recibas, más pequeña será la vecindad 
+            buscar.
+            Además, el jugador puede obtener información sobre su 
+            estatus en el templo, es decir, recibe información sobre 
+            cuantos anillos tiene ya y cuantas minas, barcos 
+            etc. él es dueño
+            
+            
+            
+            
+            
+            
+            También debe colocar los anillos encontrados en una estrella de cinco puntas. 
+            dentro del templo de su elección (simplemente haga clic en un vacío 
+            espacio). Con cada anillo que el jugador coloca en el templo,
+Recibirás habilidades mágicas:
+            
+            1er anillo:
+              El jugador hace una demostración de su propia fuerza. 
+            y la fuerza del ejército contrario durante una pelea. 
+            Por lo tanto, es más fácil encontrar una estrategia, ya que el jugador 
+            Ahora puedes ver qué unidad es actualmente fuerte.
+            
+            2do anillo:
+              El jugador llega a saber qué bienes se producen en 
+            que pueblo. Por lo tanto, también sabe dónde conseguir qué 
+            Producto a los precios más baratos. Esta información es 
+            aparece en el correspondiente "INFORMACIÓN DEL PUEBLO". con 
+            eso, su comercio se vuelve mucho más eficiente.
+            
+            3er anillo:
+              El jugador no necesita más exploradores para explorar el 
+            país circundante, es decir, puede ver a todos los enemigos, no 
+            dependiendo de la distancia y el número de exploradores que 
+            tiene a su alrededor. Por lo tanto, viajar de ciudad en ciudad es 
+            no tan peligroso.
+            
+            4to anillo:
+              La fuerza del ejército del jugador aumenta en un 50%. 
+            es decir, su ejército es ahora un 50% más fuerte que antes. esto es 
+            muy útil para la pelea final contra Medusa.
+            
+            5to anillo:
+              Tan pronto como suena el quinto timbre, el jugador llama 
+            Medusa, quien ahora acepta la pelea final.
+            
+            
+            Joyero:
+            
+            Aquí el jugador puede vender las preciosas materias primas que 
+            Excavó en sus minas. Hay precios considerables. 
+            diferencias. No sirve de nada vender justo al lado del 
+            el mío, ya que los precios serán muy bajos. El jugador debe 
+            en lugar de eso, transporte las materias primas a un lugar donde esté 
+            no es posible encontrarlos. No puede comerciar con materias primas. 
+            materiales, es decir no se pueden comprar, sólo vender. una vez 
+            Nuevamente, todos los ajustes se realizan como en "TIENDA".
+            
+            
+            4.3 Castillo:
+                       
+              Además de las ciudades también hay algunos castillos, que 
+            todos tienen el mismo propósito de educar al ejército del jugador. 
+            y mejorar su estado de formación. Para entrar en un 
+            castillo, debe ser atacado o conquistado.
+            
+            
+            
+            
+            
+            
+            5.0 El ejército del jugador puede luchar contra ejércitos enemigos, 
+            barcos, castillos o pueblos.
+            Por lo tanto, son posibles las siguientes configuraciones:
+            5.1 Ejército de lucha <-> Ejército
+              Si chocas con la figura de un oponente con la tuya 
+            figura, se trata de una pelea entre las dos partes. el 
+            El ejército del jugador está en el lado izquierdo, el del oponente en el 
+            lado derecho. Desafortunadamente, el número de soldados que 
+            Se desconoce el propietario del oponente. Por eso te preguntan 
+            al principio si quieres enviar a tus exploradores 
+            para aprender sobre la fuerza del oponente. Esto costó mucho 
+            dinero, pero vale la pena el compromiso. Si no lo haces 
+            poseer exploradores, esto por supuesto no es posible. aprender 
+            sobre el cálculo exacto de la fuerza de combate, 
+            consulte la sección "ESTACIONAMIENTO" de este manual.
+            
+            Cuando comienza la pelea, el jugador tiene dos 
+            posibilidades:
+            
+            1) Puede enviar unidades individuales a la pelea (selecciona unidad 
+            y haga clic en atacar) o puede llamarlos de vuelta (seleccione la unidad 
+            y haga clic en retirarse). Durante el ataque, los ejércitos comienzan 
+            avanzando, que el jugador puede seguir en la parte superior 
+            borde de la pantalla. Sólo cuando unidades de su propio ejército se reúnan 
+            unidades del ejército contrario, podrá llevarse a cabo una lucha adecuada.
+Las unidades involucradas en la pelea se muestran en rojo. si 
+            hay bajas, dependen de los propios jugadores 
+            fuerza y la fuerza del oponente, así como en la 
+            Número de soldados del propio jugador y del oponente. 
+            soldados.
+            
+            Una excepción es la artillería. Si recibe el pedido de 
+            En un ataque, abre fuego de inmediato, lo que resulta directamente 
+            en bajas para el oponente. Lo mismo ocurre, por supuesto, 
+            para la artillería del oponente y la del jugador 
+            bajas.
+            
+            Los combates continúan. Un ejército ha perdido, es decir, ya no tiene más. 
+            gente. Si el jugador pierde la pelea, pierde. 
+            todo lo que tiene consigo, excepto su carro. 
+            Sin embargo, el banco es tan amable de repartir el dinero inicial. 
+            Préstamo de 3000 nuevamente. Una cuenta bancaria ya existente 
+            ¡No te dejes tocar! Si el jugador gana la pelea, lo hará. 
+            recibir todo el dinero que la caravana del oponente 
+            posee.
+            
+            2) El jugador evita una pelea. Esto sucede al hacer clic 
+            sobre las "negociaciones". Con la ayuda de eso, puede comenzar 
+            negociaciones, pero sólo tiene una oportunidad. Fallido 
+            Las negociaciones no pueden reanudarse. Una posibilidad: 
+            O usa un farol y se jacta de ser el 
+            más fuerte, o soborna al oponente con dinero ( ajustar 
+            con "Aumentar" o "Disminuir"). El oponente a veces 
+            cae en el engaño, pero no siempre. Esto depende del 
+            
+            
+            la propia superioridad del oponente. 
+            
+            Durante el soborno, el jugador no debe ser demasiado estricto con 
+            su dinero. Cuando pierde una pelea, todo el dinero irá a 
+            los enemigos de todos modos. El monto del soborno también depende 
+            en el número del ejército del jugador y el del oponente 
+            ejército.
+            
+            Si el jugador ha atacado una caravana más de cinco veces, 
+            ya no puede entrar en la ciudad natal de la caravana, ya que 
+            ya no comerciará con él.
+            Lo mismo se aplica a la situación en la que un jugador tiene 
+            Atacó una ciudad directamente.
+            
+            (Consulte el Apéndice C)
+            
+            
+            5.2 Ejército de lucha <-> Pueblo o Pueblo <-> Ejército
+            
+              Si el jugador ataca una ciudad o un castillo, se aplican las mismas reglas. 
+            se aplica como en 5.1 "Ejército de lucha<->Ejército". ¿Debería el jugador 
+            gana, se apodera de la ciudad/castillo.
+            Naturalmente, no todos los castillos o ciudades tienen el mismo tamaño. el 
+            El tamaño de una ciudad o un castillo se puede reconocer en la pantalla. 
+            gráficos, sino también en la "INFORMACIÓN DEL PUEBLO". Grandes ciudades 
+            Por supuesto, tienen más soldados para defenderse que  
+            pueblos más pequeños.
+            Si la ciudad de un jugador es atacada por el ejército de un oponente, el 
+            El jugador no tiene ninguna influencia en el resultado. el puede 
+            Sólo confíe en su estrategia (ver CUARTEL) y espere que él 
+            ganará.
+            
+            
+            
+            5.3 Barco de combate <-> Barco
+            
+              Si dos barcos chocan en el mapa, se desencadena una batalla naval. 
+            comienza. En este caso, el resultado depende de cómo 
+            Muchos cánones están a disposición de los jugadores. Los acorazados, 
+            Por supuesto, tienen ventaja sobre los mercantes. el 
+            p[layer ahora se enfrenta a un barco que representa el del oponente 
+            flota.
+            Su tarea ahora es atacar este barco con la mayor frecuencia posible. 
+            Esto puede verse influenciado por dos cosas: el ángulo de disparo. 
+            y la cantidad de polvo. El ángulo de disparo se puede cambiar. 
+            haciendo clic en el canon en el centro de la pantalla.
+En el centro derecho de la pantalla, puedes ver una sección 
+            del canon. Primero debes llenar el cañón con pólvora, 
+            esto sucede haciendo clic en el barril de pólvora a la izquierda 
+            lado.
+            El polvo ahora debe ser visible dentro de la sección. el 
+            El polvo debe rellenarse haciendo clic en el embutidor en la 
+            extremo izquierdo. Esta acción también debe ser visible en el 
+            sección transversal. Si quieres aumentar el disparo. 
+            distancia, el cañón debe ser rellenado y llenado con más 
+            polvo. Si has llenado suficiente polvo, la bola
+            
+            
+            
+            se cargará haciendo clic en él. Ahora el canon debería ser 
+            listo para disparar, que se hace visible mediante una mecha. si 
+            No se ve ningún fusible, algo se ha hecho mal (p. ej. 
+            no relleno, etc.). Pero si todo se ha hecho 
+            correctamente, ahora puede disparar el cañón haciendo clic en el 
+            llama y enciende la mecha lenta. Desafortunadamente, el jugador
+            tiene que actuar en un espacio de tiempo limitado, en el que 
+            Debes intentar conseguir tantos golpes como sea posible. cuando el
+            Cuando termine el tiempo, los resultados finales aparecerán en la 
+            pantalla. Como el jugador ha disparado con un cañón como 
+            representativo de todos los cánones, el número de aciertos es 
+            multiplicado por el número de cánones. Esto resulta en la 
+            Número total de impactos recibidos por la flota enemiga. 
+            Cada barco necesita 10 golpes para hundirse. Por lo tanto, uno puede 
+            averiguar de esta manera cuántos de los suyos y cuántos de ellos 
+            Los barcos del oponente han sido hundidos. Si todos los 
+            Los propios barcos del jugador han sido hundidos por el oponente, su 
+            El juego se acabó porque se ahoga. Si el jugador tiene 
+            Destruyó todos los barcos del oponente, recibe algunos 
+            dinero o tal vez incluso un anillo. 
+         
+            
+            
+            Ejemplo de un posible comienzo para "Anillos de Medusa"
+            
+            1. Si el puntero del mouse se mueve en el menú de opciones, 
+            el juego se detendrá hasta que uno salga del menú de opciones 
+            otra vez. Esto es muy útil para llegar a las negociaciones. 
+            durante una pelea, por ejemplo.
+            
+            2. La puntuación del juego debe guardarse en un disco especial. 
+            tan a menudo como sea posible. Esto se prepara formateando un 
+            disco vacío.
+            
+            3. Notas de un inicio exitoso del juego:
+                  1. Ir a un banco y pedir un crédito.
+                  2. Compra una carreta con caballos en un establo.
+                  3. Comerciar con los pueblos alejados de 
+                     unos a otros.
+                  4. Negociar siempre con el oponente en caso de una 
+                     ataque.
+                  5. Compra exploradores al principio del juego.
+                  6. Wright abajo coordenadas y otros importantes 
+                     cosas en el Panel de Avisos.
+            
+            
+            
+            
+            
+            APÉNDICE A:
+                 Arriba: Bloc de notas, Guardar, Comprar, Vender, Máximo, Puerta,
+                         50/60 Hz, Música/Sonidos, Está bien, No está bien,
+                         Retiro, Búsqueda
+                 Abajo: Carga, Información de la Ciudad, Más Mercancías, 
+                 Coordenadas, Fin de Juego, Negociación, Mía
+            
+            
+            
+            
+            APÉNDICE B:
+                 Arriba: Bienes, Disminuir cantidad de bienes (rápido y 
+                         lentamente), aumentar la cantidad de bienes
+                 Abajo: Monto de Disposición, Capacidad, Medios de 
+                         Transporte
+            
+            
+            
+            APÉNDICE C:
+                 Arriba: número total de soldados 
+                 Abajo: Ejército propio, Unidad del Ejército involucrada en los combates,
+Ejército del oponente

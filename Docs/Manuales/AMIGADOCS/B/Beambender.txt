@@ -1,0 +1,293 @@
+                       .
+                       |
+                      .|
+.---------------------||----------------------------------------------.
+|  title of the game  || BEAMBENDER                                   |
+`---------------------||----------------------------------------------'
+|   softwarecompany   || BLUE LEMON STUDIO                            |
+`---------------------||----------------------------------------------'
+|     supplied by     || FAITH`97                                     |
+`---------------------||----------------------------------------------'
+|protection removed by|| NONE FOUND                                   |
+`---------------------||----------------------------------------------'
+                      :|
+                      .
+
+
+
+           beambender documentation - 1997 - blue lemon studio®
+
+
+RECOMMENDATIONS --------------------------------------------------------------
+
+ Remove write protection if you run beambender from a floppy disk!
+ Insert floppy disk into drive df0: and restart computer.
+ It is recommended to install beambender onto hard disk.
+
+
+INSALLATION ------------------------------------------------------------------
+
+ In the workbench drag the beambender drawer-icon into the harddisk directory
+ in which you want to install beambender.
+ Start with a double click on bb-icon in drawer.
+
+
+MAIN-MENU --------------------------------------------------------------------
+
+ In the menu window use the cursor keys to move up, down, left or right.
+·PLAYER-MODE      Singlemode (1 Player) or Teammode (2 Player)
+·MOUSE/JOYSTICK   Mouse or Joystick control.
+·MUSIK/FX         Selection of Unit-Music or FX (Cursor keys left/right).
+                  While in the menu window you can play the selected music by
+                  hitting the return key. Its also possible after every unit.
+                  Select as shown above, continue with mouse click.
+·CODE             Level Passwords
+·BEND THE BEAM    Starts the game.
+·QUIT BEAMBENDER  End, back to workbench.
+
+
+HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT HINT ... 
+
+ Every time you need to think of a solution to the level, use the Pause
+ function. (Playtime should only be used to set the components.)
+
+
+THE GAME ---------------------------------------------------------------------
+
+ With the aid of various components (mirrors and colour converters) the goal
+ of this game is to hit all Exits (=target of a laserbeam) with one (!)
+ laserbeam of mathing colour. Therefore every Cannon (=source of a laserbeam)
+ does not have to be used (to operate see Final Test Mode). With the cursor,
+ components from the manufacturer , are »beamed« onto the gamefield.
+ An empty cursor appears round on the gamefield, square in the manufacurer
+ area. An arrow appears on the top of the cursor when a component is selected.
+
+·MANIPULATION MODE (=Play Mode - Cannons and Exits are locked)
+ in this mode all components can be set and Wobbly Dots appear.
+
+·TEST MODE (Cannons and Exits are activated)
+ Double click on selected Cannon. The Canon shoots three times in sequence to
+ check beam path and possible errors. After the third lasershot construction
+ errors have an effect on the score. During the first two shots errors are
+ indicated  by an »Overload« (flash over Cannon and Exit).
+
+·FINAL TEST MODE (Cannons and Exits are activated)
+ Double click on any Exit - each Cannon shoots only once in sequence. Every
+ consruction error has an immediate effect on the score. During the Final Test
+ each Exit must be hit once by a laserbeam of corresponding colour, without
+ destroying any Cannon or Exit. Only when the Final Test Mode is correctly
+ completed , will the level be resolved.
+
+ TEST MODE AND FINAL TEST MODE CAN BE ENDED WITH A SINGLE CLICK ON ANY CANNON
+ OR EXIT = BACK TO MANIPULATION MODE.
+
+ The total points for a resolved level are calculated from the corresponding
+ level value plus time bonus, minus number of used mirrors.
+
+
+
+           different colour laserbeam enters open side
+                            FALSE !!!
+
+                                |
+                                |
+                                v
+
+    same colour laserbeam     /   \     different colour laserbeam
+         hits closed side --> |   | <-- hits closed side
+                FALSE !!!     \   /     FALSE !!!
+
+                                ^
+                         __     |
+                        /_      |   same colour laserbeam from any Cannon
+                        |_<> ___|/| enters open side of Exit
+                        \__     / | CORRECT !!!
+                               /__|
+
+
+GAMEFIELD COMPONENTS ---------------------------------------------------------
+
+   __     __
+  /_     /      CANNON
+  |_<>   |<>    Shoots (when activated) a laserbeam (Test 1X Final Test 3X).
+  \__    \__    If a Cannon is hit from any side by a laserbeam, it will be
+                destroyed. This could be necessary to resolf a level.
+ activ. locked
+
+   __     __
+  /  \   /  \   EXIT
+         ----   Every Exit must be hit by a single laserbeam of the same
+  \__/   \__/   colour. If the Exit is hit from the side, it will be
+                destroyed - the level will restart and the player looses
+ activ. locked  one try.
+
+
+ SENSOR
+ Allows laserbeam of its colour to pass, other colours are absorbed.
+
+ BASE
+ Baseplate - only these will hold any components.
+
+ KEEP OFF!
+ Components can not be set there, but it may already contain components.
+
+ EYE
+ Every laserbeam that hits will be absorbed.
+
+ GRIM REAPER
+ If hit by a laserbeam, the level will be restart and the player looses 1 try.
+
+ BLOCK
+ Sits on a baseplate and stops every laserbeam, but can be blasted with a mine.
+
+
+COMPONENTS -------------------------------------------------------------------
+
+
+ These are made in the Manufacturer. Once set on the gamefield the position
+ of components can not be changed. They can only be blasted with mines.
+ Mirrors may be present. The components used by the laserbeam in the Final
+ Test are minus points.
+
+     ^
+     |    ANGLE (70 minus points)
+  ___|/|  Deflects the direction of the laserbeam by 90°.
+     / |  If the back side of an Angle is hit it reflects the laserbeam.
+    /__|
+
+
+     ^
+     |    HEMISPHERE (130 minus points)
+  ___|/|  Like an Angle, except it can be rotated in any direction in any 
+     / |  direction with a single click after it has been set.
+    /_/
+
+
+     ^
+     |    DIVIDER (50 minus points)
+  ___|/_> Splits laserbeam in TWO directions - straight forward and 90° (like
+     /    Angle).
+    /
+
+
+     ^
+     |    CRYSTAL BALL (110 minus points)
+  --( )-> Splits laserbeam into THREE directions.
+     |
+     v
+
+
+     ^
+     |    REFLECTOR (70 minus points)
+    |||   Returns laserbeam on the closed side, but lets the laserbeam pass
+-><-|||   trough the open side.
+    |||
+     |
+
+
+
+          CONVERTER (90 minus points)
+  __/\__> The laserbeam is changed into the color of the Converter (the
+    \/    laserbeam will not be deflected).
+ 
+
+
+     v    MINE (150 minus points on Safe-Field)
+    > <   Blasts components which are on the Baseplate.
+     ^
+
+
+     _    COIN (30 plus points)
+    (_)   Not a component, but a bonus point - single click.
+
+
+MANUFACTURER -----------------------------------------------------------------
+
+ 1 PAUSE           Interrupts game, so you have time to think about solutions,
+                   another single click on Pauseplate resumes game.
+                 
+ 2 SAFE-FIELD      A component can be kept during the present level.
+                 
+ 3 MANUFACTURER    Makes components.
+
+ 4 TRASHCAN        Unwanted components from the Manufacturer (and from
+                   Safe-Field) can be dumped. The Manufacturer is forced to
+                   make new parts.
+
+ 5 RESTART         A double click restets the level back to the start position
+                   and one try is lost.
+
+
+
+                      1     2     3             3     4     5
+                    _____ _____ _____         _____ __ __ _____
+                   |  _  |  v  |  v  |       |  v  | /_\ |     |
+                   | / \ |     | _|  |       | _|  |/   \| /^\ |
+                   | | | |     ||___ | * * * ||___ ||   || < > |
+                   | \_/ |     |   _||       |   _||\ _ /| \v/ |
+                   |_____|_____|__|__|       |__|__|_\ /_|_____|
+
+
+SCORE-BOARD ------------------------------------------------------------------
+
+ 1 SCORE           -
+
+ 2 PLAYTIME        Shows total level-playtime. After the time limit is
+                   exceeded, the level will restart and the player looses
+                   one try.
+
+ 3 LEVEL INDICATOR -
+
+ 4 NEXT CANNON     Shows the colour of the next shooting Cannon.
+
+ 5 CANNON TIMER    Shows remaining time before next Cannon goes automatically
+                   into Test Mode.
+
+ 6 ROUND INDICATOR Number of tries remaining.
+
+ 7 PLAYERMODE      Single- or Teammode
+
+
+
+                      1      2    3    5    6    7
+                                     
+                                  0  
+                   000000   000       00   00   SING
+                                 (*) 
+
+                                  4
+
+
+WOBBLY DOTS ------------------------------------------------------------------
+
+ :-)   SMILY (yellow)
+       Single click = 30 sec. time bonus.
+
+ :-)   SMARTY (red)
+       Single click = ONE bonus try.
+
+ :-(   SLIMY (green) (10 plus points)
+       If not converted into points by a single click, it slimes a Base
+       making it unuseable. The laserbeam is not affected.
+
+ :-(   SQUEALY (blue) (10 plud points)
+       If not converted into points by a single click, it rotates all of the
+       Hemispheres.
+
+
+COPYRIGHTS`N`STUFF -----------------------------------------------------------
+
+ Idea & Programming:     Robert Aichinger
+
+ Grafifcs arts & Musics: Bernhard Aichinger
+                         Mark Wittmann
+
+This software product, including all screen images, concepts, audio effects,
+musical material, program code, manual and box are the copyright of
+blue lemon studio®. The documents, program code and other items may not be
+copied, reproduced, hired, rented, lend or transmitted in any way without
+prior consent in writing from blue lemon studio®. Persons found doing so will
+be prosecuted.
+
+(c) Copyright blue lemon studio® 1997
+beambender demo - (c) 1997 blue lemon studio ®

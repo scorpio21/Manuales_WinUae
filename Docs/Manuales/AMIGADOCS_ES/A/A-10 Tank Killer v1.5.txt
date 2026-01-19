@@ -1,0 +1,1622 @@
+A - 10
+
+                              ASESINO DE TANQUES
+
+
+Contenido:
+
+Índice de contenidos 3 Información/Reunión informativa 16
+Créditos 4-5 Resumen de la misión 17
+Técnica 6 Armas Carga 18
+Solución de problemas 7 La simulación 19
+Controles 8-9 Sistemas de simulación 24
+Descripción general del juego 10 Manual del piloto del A-10 29
+Controles del menú 12 Entrevista al piloto del A-10 41
+Menú de selección principal 13 Notas de diseño 43
+Menú de selección de misión 15
+
+
+                                        -3-
+-----------------------------------------------------------------------
+
+CRÉDITOS
+=======
+
+                Asesino de tanques A-10
+
+  Director................................Damon Slye
+  Programación...................Lincol Hutton
+  Con................................David McClurg
+  Director de arte...................Kobi Miller
+  Arte y animación 3D....Mark Brenneman
+                                     Ciro Kanga
+  Dir. de producción de imágenes.....Randy Dersham
+  Casting/Vestuario..................Sher Alltucker
+  Diseño de misión.................David Selle
+                                     Damon Slye
+  Efectos de sonido y
+  Edición musical...................Bryce Morsello
+  Partitura musical...................Alan McKean
+  Diseño................................Damon Slye
+                                     Jerry Luttrell
+  Productor ejecutivo.................Jeff Tunnell
+
+
+                Soporte técnico
+
+  Máquina virtual...................Mike Edwards
+  Gráficos EGA y VGA.................Peter Lukaszuk
+  3Space (tm)................................David McClurg
+  Herramientas de software.................Richard Rayl
+                                     Darek Lukaszuk
+                                     Peter Lukaszuk
+                                     Lincoln Hutton
+                                     David McClurg
+  Sistema de soporte de audio................Bryce Morsello
+  Inicio inteligente (tm).................Richard Rayl
+                                     David McClurg
+                                     Peter Lukaszuk
+
+
+                                        -4-
+
+-----------------------------------------------------------------------
+
+CRÉDITOS
+=======
+                        Elenco
+
+  Rich Scheeland como Commander Cord
+  Dave Shew como el Capitán Buck Ryan
+  Brian Hahn como el teniente Jake Styles
+
+
+                Soporte adicional
+
+  Soporte de hardware...................Marc Von Ahn
+  Soporte administrativo....Tony Reyneke
+                                     Karen Peal
+  Probadores de juego...................Mike Westrick
+                                     Dan Hinds
+  Ilustración del paquete.................Roger Smith
+  Diseño de paquete.................Jerry Luttrell
+                                     Kobi Miller
+  Documentación...................Jerry Luttrell
+                                     David Sellé
+                                     Damon Slye
+  Director de marketing................Jerry Luttrell
+
+
+
+                  agradecimiento especial
+
+  Mayor Chuck "Hollywood" Temple, USMCR
+  Guardia Nacional Aérea de Oregón
+  Aeronaves
+  23a Ala de Caza Táctico
+  Greg Dean
+
+                                        -5-
+
+-----------------------------------------------------------------------
+
+TÉCNICO
+=========
+
+inteligente
+tarta (tm)
+
+En Dynamix estábamos cansados de que nos preguntaran qué tipo de gráficos y velocidad de reloj
+nuestro sistema informático tenía cada vez que queríamos jugar un juego.  Entonces, inventamos
+Inicio inteligente.  A diferencia del sistema "tonto" utilizado por la mayoría de los juegos, Smart
+Start determinará automáticamente los gráficos, el sonido, los dispositivos de entrada y
+acelerar las capacidades de su sistema informático y optimizar las características del juego.
+Smart Start también lo llevará paso a paso a través del proceso de instalación.
+tu juego en un disco duro y también hacer copias de seguridad.  no lo seas
+intimidado, ¡salta y pruébalo!
+
+
+Copiar A-10 Tank Killer a un disco duro:
+-----------------------------------------
+1. Después de iniciar, inserte el disco 1 en la unidad A:
+2. Escriba A: <ENTRAR>
+3. Escriba INSTALAR <ENTER>
+4. Seleccione "Copiar A10 al disco duro" en el menú Inicio inteligente.
+5. Siga las instrucciones en pantalla.
+
+
+Configuración de preferencias
+-------------------
+Smart Start hará todo lo posible para decidir qué tipo de equipo informático necesita.
+tiene, pero a veces puede cometer un error o puede que desee probar otras
+modos gráficos, configuraciones de sonido, etc. Para modificar la preferencia de Smart Start,
+sigue estos pasos:
+
+1. Después de iniciar, inserte el disco 1 en la unidad A:
+2. Escriba A: <ENTRAR>
+3. Escriba INSTALAR <ENTER>
+4. Seleccione "Cambiar gráficos" o "Cambiar sonidos/música" en Smart Start.
+   menú.
+5. Siga las instrucciones en pantalla.
+
+
+Hacer una copia de seguridad
+--------------------
+A-10 no está protegido contra copia y se recomienda no reproducir desde el
+discos originales.  Smart Start tiene una función integrada para ayudarle a crear
+una copia de seguridad.
+
+1. Después de iniciar, inserte el disco 1 en la unidad A:
+2. Escriba A: <ENTRAR>
+3. Escriba INSTALAR <ENTER>
+4. Seleccione "Crear copia de seguridad de A-10" en el menú Inicio inteligente.
+5. Siga las instrucciones en pantalla.
+
+
+                                        -6-
+
+-----------------------------------------------------------------------
+
+Solución de problemas
+=================
+
+
+Problema: Mi computadora tiene al menos 512 k de memoria, pero A-10 no se ejecuta.
+
+Posible solución: Es posible que su computadora esté ejecutando un programa "emergente" (TSR) como
+como compañero o puede estar conectado a un dispositivo como una LAN que utiliza un
+porción de la memoria.
+
+
+Problema: el joystick no funciona correctamente.
+
+Posible solución: Presione ALT C para centrar el joystick.
+
+
+Problema: Al tocar desde el teclado suceden cosas extrañas como el
+cursor moviéndose por toda la pantalla.
+
+Posible solución: Presione ALT J para apagar el joystick.
+
+
+Problema: Reproducir música constantemente me molesta, pero todavía quiero escuchar el sonido
+efectos.
+
+Posible solución: presione ALT M para apagar la música.
+
+
+Problema: Los gráficos aparecen en un modo que no quiero.
+
+Posible solución: escriba INSTALL <ENTER> y luego use Smart Start para seleccionar el
+tipo de gráficos que desea.
+
+
+Problema: Tengo gráficos MCGA y A-10 no funciona.
+
+Posible solución: Probablemente tenga un sistema informático con sólo 512k.
+Debido a que los gráficos MCGA ocupan una gran cantidad de memoria, 512 k no serán suficientes.
+Tendrás que forzar A-10 a gráficos CGA.  Escriba INSTALL <ENTER> y luego use
+Smart Start para seleccionar gráficos CGA.
+
+
+
+  Si tiene un problema que no se aborda en esta lista de solución de problemas,
+                                ¡LLÁMANOS!
+
+
+                LÍNEA DE AYUDA de Dynamix: (503) 687-8690
+
+        Dynamix, Inc. | CORREOS. Caja 11806 | Eugene, Oregón 97440
+
+
+                                        -7-
+
+-----------------------------------------------------------------------
+
+CONTROLES
+========
+
+
+Control de vuelo
+--------------
+
+
+                                BUCEO
+                                 +-+
+                                 |8|
+                                 +-+
+
+                                  ^
+                           +-+ |    +-+
+                      IZQUIERDA |4| <--+--> |6| DERECHA
+                           +-+ |    +-+
+                                  v
+
+                                 +-+
+                                 |2|
+                                 +-+
+                                SUBIR
+
+
+Botones de fuego
+------------
+
+Palanca de mando del teclado
+-------- --------
+Cañón Vengador = Botón de la barra espaciadora n.º 2 = Arma seleccionada
+Arma seleccionada = Botón ENTER #1 = Cañón Vengador
+
+
+
+A-10 Vistas
+----------
+
+Vistas de la cabina Vistas exteriores
+(Teclas de función) (Teclas de función)
+--------------- ---------------
+F1 - Mirar hacia adelante F4 - Vista frontal
+F2 - Mirar hacia la izquierda F5 - Vista lateral izquierda
+F3 - Mirar hacia la derecha F6 - Vista lateral derecha
+                                        F7 - Vista trasera
+                                        F8 - Vista de ataque con arma
+                                        F9 - Vista de interacción
+                                       F10 - Vista de compromiso en ángulo inverso
+
+
+                                        -8-
+
+-----------------------------------------------------------------------
+
+CONTROLES
+========
+
+
+Teclas del teclado activo
+--------------------
+BARRA ESPACIADORA Fire Avenger Cañón de 30mm
+ENTRAR Disparar arma seleccionada
+TAB Alterna el siguiente objetivo para HUD y TID
+ESC abre el Panel de control y pausa el juego.
+P Pausar juego
+M Mostrar Mapa Estratégico
+Q abre el menú Salir
++ Selecciona la siguiente arma activa
+- Seleccionar arma activa anterior
+H Seleccionar Maverick
+J Seleccionar LGB
+K Seleccione Ojo de Roca
+L Seleccionar Durandal
+;               Seleccione enrollador lateral
+< Timón izquierdo
+> Timón derecho
+Acelerador numérico 1-9: 1 = sin acelerador, 9 = acelerador a fondo.
+F Liberación de bengala
+C Liberar paja
+R En PANTALLA DE MAPA: interruptor de encendido/apagado para alcance SAM en mapa estratégico
+S En SIMULACIÓN: Muestra la pantalla de estado.
+D Mostrar el registro de mensajes.
+
+PANTALLAS DE MENÚ
+------------
+BARRA ESPACIADORA Elige la selección de menú actual
+TAB Siguiente selección del menú
+ESC se salta la sesión informativa
+
+
+                                        -9-
+
+-----------------------------------------------------------------------
+
+RESUMEN DEL JUEGO
+==============
+
+Bienvenido a A-10 Tank Killer.  Para que aprender el juego sea lo más rápido y fácil posible
+posible, se ofrece la siguiente descripción general.  Es una guía rápida para
+Sistema de menús y jugabilidad.  Una descripción detallada sigue a esto.
+Introducción que proporciona una descripción detallada de cada pantalla.
+
+                       +-----------------+
+                     +-|Vuela una misión |-+
+                     | +-----------------+ |
+                     | +-----------------+ |   +--------+
+                     +-|Iniciar campaña |-+---|Briefing|
+                     | +-----------------+ |   +--------+
+                     | +-----------------+ |        |
+                     +-|Continuar campaña|-+ +------------+ +-------------+
+                     | +-----------------+ |Carga de armas|  +-|Interfaz de vídeo|
++----------------+-->+ +------------+ | +------------+
+|Menú de selección principal|                                  |        |
++----------------+-->+ +------------+ | +------------+
+        |            | +-----------------+ | Simulación |--+-|Vista múltiple|
+        |            +-|Mejores campañas |   +------------+ | +------------+
+        |            | +-----------------+ |        |
+        |            | +-----------------+ +------------+ | +------------+
+        |            +-|Mejores Misiones |   |  Dejar de fumar |  +-|Pantalla de estado|
+        |            | +-----------------+ +------------+ | +------------+
+        |            | +-----------------+ |        |
+        |            +-|Vista previa del vehículo |   +------------+ | +------------+
+        |              +-----------------+ | Informe |  +-|Mapa Estratégico|
+        |                                    +------------+ +-------------+
+        v |
+      +----+ +---------------+
+      |Salir|                                |Resumen de la misión|
+      +----+ +---------------+
+
+
+                                    -10- y -11-
+
+-----------------------------------------------------------------------
+
+CONTROLES DEL MENÚ
+==============
+
+El sistema de menús del A-10 Tank Killer fue diseñado para ser intuitivo y sencillo.
+para usar tanto para usuarios principiantes como avanzados.  A continuación se ofrecen algunos consejos sencillos.
+e instrucciones que explican el uso básico del menú.
+
+
++-----------------------+ +----------+ +-----------------------+
+|o SELECCIONAR MISIÓN o|    | ALMOHADILLAS CALIENTES |    |o SELECCIÓN PRINCIPAL o|
+|                        |    +----------+ |                       |
+| +---------------+ +---+|         |          | +-------------------+ |
+| |ENTRENAMIENTO | | ^ ||<---+ |     +--->| | VUELA UNA MISIÓN | |
+| |ROTURA DE PUENTES | | | ||    |    |     |    | +-------------------+ |
+| |SAM SLAM | +---+|    +----+-----+ | +-------------------+ |
+| |MADRE GALLINA | +---+|    |          |    | | MEJORES MISIONES | |
+| |LA CIUDAD | | | ||<---+ |    | +-------------------+ |
+| |GOLPE PROFUNDO | | v ||    |          |    | +-------------------+ |
+| +---------------+ +---+|    |          |    | | INICIAR CAMPAÑA | |
+| +---------------+ |    |          |    | +-------------------+ |
+| | NIVEL DE AMENAZA | +---+|    |          |    | +-------------------+ |
+| |+-------------+| | X ||<---+ |    | | CONTINUAR CAMPAÑA | |
+| ||    SUAVE || | X ||    |          |    | +-------------------+ |
+| |+-------------+| +---+|    |          |    | +-------------------+ |
+| +---------------+ |    |          |    | | MEJORES CAMPAÑAS | |
+| +---------------+ |    |          |    | +-------------------+ |
+| |  MUNICIONES | +---+|    |          |    | +-------------------+ |
+| |+-------------+| | X ||<---+ |    | | VISTA PREVIA DEL VEHÍCULO | |
+| ||   LIMITADO || | X ||    |          |    | +-------------------+ |
+| |+-------------+| +---+|    |          |    | +-------------------+ |
+| +---------------+ |    |          +--->| | SALIR POR AHORA | |
+| +---------------+ |    |               | +-------------------+ |
+| |    DAÑO | +---+|    |               |                       |
+| |+-------------+| | X ||<---+ |o o|
+| || NORMAL A10 || | X ||                    +-----------------------+
+| |+-------------+| +---+|
+| +---------------+ |
+|                        |      +---------------------------------+
+|      +---+ |      |         ¡VAMOS! Clave |
+|      |-->|             |      |                                  |
+|      |¡VAYA!|<------------|------| ¡VAMOS! La clave es un Hot Pad especial |
+|      +---+ |      | que ingresa cualquier cambio que tengas |
+|o o|      | realizado y sale del menú |
++--------------------------------+ +----------------------------------+
+
+
+
+                Control por ratón, joystick o teclado
+
+    La flecha en pantalla se puede mover con el mouse, el joystick o el teclado.
+
+
+RATÓN
+-----
+Seleccionar Hot Pad: mueva el mouse para colocar la flecha en Hot Pad y presione cualquiera de los mouse
+botón para seleccionar.
+
+JOYSTICK
+--------
+Seleccionar Hot Pad: Mueva el joystick para colocar la flecha en Hot Pad y presione
+botón del joystick para seleccionar.
+
+TECLADO
+--------
+Seleccionar Hot Pad: Presione la tecla "TAB" para mover la flecha de un Hot Pad a
+otro.  Presione la "BARRA ESPACIADORA" para seleccionar.
+
+
+                                        -12-
+
+-----------------------------------------------------------------------
+
+MENÚ PRINCIPAL DE SELECCIÓN
+=================
+
+La primera pantalla del menú es Selección principal.  Es el punto de partida desde el que
+entra al juego.
+
+
+¿Misión o campaña?
+--------------------
+Entre las siete opciones de menú en el menú de selección principal se encuentran Fly One Mission e Start.
+Campaña.  Estos son dos modos de juego que ofrece A-10 Tank Killer.
+
+
+Fly One Mission te permite seleccionar individualmente qué misión volar.  cada uno
+La misión incluirá una sesión informativa/información, selección de armas y misión.
+Resumen.  Cuando se completa o se sale de una misión, volverás a la
+Menú de selección principal.
+
+Iniciar campaña lo introduce en un "período de servicio" preestablecido.  Empezarás en
+misión n.° 1 y continúa hasta que hayas completado todas las misiones,
+son derribados o pierden la guerra.  Un elemento clave del modo Campaña es que los objetivos,
+Los objetivos y los jugadores clave se trasladan de una misión a la siguiente.  en
+Modo campaña, si lo haces mal en la primera misión, puede volver a
+perseguirte.  También es importante en el modo Campaña que las campañas se pueden guardar para
+continuación posterior.  Al comenzar una campaña, ingresarás un personaje.
+nombre.  La campaña se guardará con este nombre y luego podrá verse o
+continuó.
+
+                                        -13-
+
+-----------------------------------------------------------------------
+
+También disponible desde el menú de selección principal
+==========================================
+
+
+Continuar campaña
+-----------------
+Le da la opción de continuar una campaña guardada.
+
+Mejor Campaña
+-------------
+Te permite ver las mejores actuaciones de todos los jugadores del modo Campaña.
+
+Mejor misión
+------------
+Muestra un "Salón de la Fama" para las mejores actuaciones en una sola misión.
+
+Vista previa del vehículo
+---------------
+Te permite obtener una vista previa de las armas y vehículos utilizados tanto por los amigos como por los enemigos.
+fuerzas.
+
+dejar de fumar
+----
+Sale del juego y sale a DOS.
+
+
+                                        -14-
+
+-----------------------------------------------------------------------
+
+Menú de selección de misión
+====================
+
+En el menú de selección de misión, podrás seleccionar una única misión y
+Adapta su dificultad y parámetros de juego.  Estos incluyen:
+
+
+Nivel de amenaza
+------------
+Puedes adaptar individualmente el grado de dificultad de cada misión.
+Suave = Modo débil
+Moderado = Tontos bastante malos
+Agresivo = malas noticias importantes
+
+
+Municiones
+----------
+Puede seleccionar un suministro de munición "limitado" o "ilimitado".
+
+
+Daño
+------
+Puedes seleccionar un A-10 "normal" o "invencible".
+Una configuración de "normal" significa que su A-10 puede dañarse.
+Una configuración de "invincivle" significa que su A-10 no puede sufrir daños.
+
+
+    +-------------------------------------------------------------------+
+    |                               NOTA: |
+    |                                                                   |
+    | Puntuaciones obtenidas con la selección de munición "ilimitada" o |
+    | El daño "invencible" NO será registrado en el salón de la fama.   |
+    +-------------------------------------------------------------------+
+
+                                        -15-
+
+-----------------------------------------------------------------------
+
+INFORMACIÓN/INFORME
+====================
+
+
+Conozca al comandante Cord, su oficial al mando.  Está lleno de consejos, sabiduría y
+pedidos.  Lo conocerás antes y después de cada misión.  En la sesión informativa, él
+Le informará sobre la situación actual y le dará sus órdenes.  de
+Por supuesto, una vez en el aire, usted y su copiloto son libres de hacer lo que deseen.  PERO,
+Suponiendo que regreses con vida, tendrás que responder ante Cord en el interrogatorio.
+
+                                        -16-
+
+-----------------------------------------------------------------------
+
+RESUMEN DE LA MISIÓN
+================
+
+
+Resumen de la misión
+---------------
+Después de cada informe de misión, recibirás un resumen de la misión.  Misión
+Los resúmenes contienen todos los datos sobre su último rendimiento.  Se le dará el
+resultado general de la misión y su puntuación táctica (un sistema de puntos basado
+según el número y tipo de muertes).
+
+Resumen de campaña
+----------------
+En el modo Campaña, recibirás un resumen de la misión y una campaña.
+Resumen.  El Resumen de campaña contiene una puntuación táctica acumulativa (compilada
+de todas las misiones jugadas).  Después de la pantalla Resumen de campaña estará la
+Pantalla de decisión de campaña.  Este será el punto en el que decidas
+Recibir la siguiente tarea o regresar al menú de selección principal.  Elegir Recibir Siguiente
+La tarea te ubicará en la siguiente misión de la campaña.  Eligiendo
+Volver al menú de selección principal guardará su lugar en la campaña actual y
+regresará al menú de selección principal.  Una vez guardada, se puede reiniciar una campaña.
+en cualquier momento desde la sección Continuar campaña del menú de selección principal.
+
+                                        -17-
+
+-----------------------------------------------------------------------
+
+CARGA DE ARMAS
+=============
+
+La pantalla final que encontrará antes de ingresar a la simulación será
+Carga de armas.  Se te presentará una selección de 5 cargas de armas preestablecidas,
+uno de los cuales será designado como la selección recomendada.  el recomendado
+La carga se basa en los objetivos específicos de cada misión y, en la mayoría de los casos,
+parte, resultar eficaz.  Sin embargo, a medida que juegas cada misión y desarrollas la tuya propia
+estrategia, es posible que descubra que otras selecciones distintas a las recomendadas son más
+útil.
+
+(Ver Sistemas de armas: página 30)
+
+
+
+Seleccione el tipo adecuado para usar contra el objetivo.
+-------------------------------------------------
+
+Contra tanques: selecciona el cañón Avenger de 30 mm o selecciona un MAVerick.
+
+Contra otros vehículos: seleccione la bomba de racimo Avenger, MAVerick o ROCKeye
+especialmente si hay varios vehículos muy juntos.
+
+Contra puentes, búnkeres, edificios o instalaciones: seleccione LGB.
+
+Contra pistas de aterrizaje: seleccione DURandal.
+
+Contra aviones: seleccione SIDewinder.
+
+                                        -18-
+
+-----------------------------------------------------------------------
+
+LA SIMULACIÓN
+===============
+
+Se ha puesto todo el cuidado posible para que la simulación del A-10 Thunderbolt II sea lo más
+realista posible sin atascar el juego con innecesariamente
+controles complicados.  Lo que obtienes es una representación muy precisa de la
+sensación de vuelo del A-10 sin la carga de conocimientos de vuelo complejos.
+Volar el A-10 es tan sencillo como agarrar el joystick y acelerar.  y,
+con la interfaz VCR, se le brinda control total sobre la definición 3D,
+tamaño de ventana y niveles de dificultad de la misión.
+(Ver: Interfaz VCR: Página 27).
+
+                                        -19-
+
+-----------------------------------------------------------------------
+
+PANTALLA ARRIBA (HUD)
+=======================
+
+
+Mira de pistola: coloque el objetivo dentro de la mira para alinear el GAU-8 Avenger
+cañón.
+
+Indicador de velocidad del aire: muestra la velocidad del aire en nudos.
+
+Arma activa: La pantalla de arma activa en el HUD indica el arma activa actualmente.
+arma seleccionada: (Para obtener información sobre armas activas, consulte: Sistemas de armas: página
+30.)
+
+  MAV = AGM-65 Maverick
+  LGB = Pavimento LGB
+  República de China = Rockeye II CBU
+  DUR = Durandal
+  SID = AIM 9L Enrollador lateral
+
+Rumbo: Muestra el rumbo actual del A-10 en grados.
+
+  NOTA: Para rumbo Norte es 000 grados
+                     el sur es 180 grados
+                     El este es 090 grados.
+                     Oeste es 270 grados
+
+Cuadro de objetivo: indica el objetivo actual para la pantalla de información táctica.
+(TID).
+
+Marcador de destino: dirección indicada hacia el destino actual.  Para encontrar tu
+camino al objetivo seleccionado actualmente en el mapa estratégico, centre el
+Marcador de destino en el HUD (un pequeño triángulo en la parte inferior del HUD) y
+mantenlo ahí.  (Ver Mapa Estratégico: pág. 24.)
+
+Altímetro: muestra la altitud actual en pies.
+
+Indicador de tono: Indica el tono del A-10 en grados.
+
+                                        -20-
+
+-----------------------------------------------------------------------
+
+INDICADORES DE AMENAZA
+==================
+
+Este par de LED montados encima del receptor de advertencia de radar (RWR) advierte al
+piloto del A-10 cuando un SAM guiado por infrarrojos (IR) o radar se ha fijado en su
+avión.  El LED izquierdo indica que un misil IR se ha fijado en el A-10.  el
+El LED derecho indica una amenaza de misil de radar.  (Ver Sistemas de armas defensivas:
+pág. 35)
+
+
+Receptor de alerta de radar (RWR)
+----------------------------
+
+El RWR detecta misiles tierra-aire (SAM) y aviones y muestra un punto
+representando cada una de estas amenazas en la consola RWR.  Un punto rojo indica una
+Amenaza SAM, un punto azul indica una amenaza aérea y un punto blanco indica una
+misil entrante.  Estos puntos parpadean cuando has bloqueado con éxito un objetivo.
+con el equipo de Jamming Automático que es estándar en su A-10 Thunderbolt
+II.  (Ver Sistemas de armas defensivas: pág. 35)
+
+                                        -21-
+
+-----------------------------------------------------------------------
+
+MAPA TÁCTICO
+=============
+
+El mapa táctico muestra todo terreno en un área de 40 km x 30 km alrededor de la A-10.
+La posición actual de la cuadrícula del A-10 se muestra en la parte inferior central de la
+mapa táctico.
+
+
+Indicador de advertencia de colisión
+---------------------
+
+Este LED advierte al piloto de un inminente choque con el suelo.
+
+                                        -22-
+
+-----------------------------------------------------------------------
+
+Indicador de velocidad vertical
+============================
+
+El indicador de velocidad vertical muestra qué tan rápido está ganando el A-10
+o perder altitud.  Apunta directamente a la izquierda en vuelo nivelado.
+
+
+Pantalla de información táctica (TID)
+----------------------------------
+
+El TID muestra el objetivo actual en el que está bloqueado el sistema de armas.  si un
+Cuando se dispara el arma, atacará al objetivo mostrado.  El TID proporciona alcance,
+Identificación del objetivo e información IFF (Identificar amigo o enemigo) con
+Los objetivos hostiles se muestran en texto rojo y los objetivos amigos se muestran en blanco.
+texto.  (Ver Descripciones de Vehículos: pág. 32)
+
+¡NOTA IMPORTANTE!
+
+ o ¡Compruebe siempre el TID antes de disparar!
+   Desperdiciar amistosos no suele considerarse algo bueno.
+
+                                        -23-
+
+-----------------------------------------------------------------------
+
+SISTEMAS DE SIMULACIONES
+====================
+
+Junto a la cabina principal y sus instrumentos, hay varias pantallas y
+menús que están disponibles en el modo de simulación que resultarán muy
+beneficioso para una misión exitosa.  (Ver descripción general del juego: página 10)
+
+
+Mapa Estratégico
+-------------
+
+Al presionar "M" durante la simulación aparece el mapa estratégico.  Este es el
+principal fuente de información sobre el flujo de la batalla durante el transcurso de cada
+misión.  Cada objetivo que se muestra en el mapa se puede seleccionar alternando el actual
+cuadro de destino hasta que se coloque sobre el objetivo deseado.  Cambio del objetivo
+cuadro se puede hacer de dos maneras:
+
+  1) Haciendo clic en las flechas en la parte inferior derecha de la pantalla.
+  2) Haciendo clic en el objetivo deseado con el cursor en pantalla.
+
+Una vez seleccionado un objetivo, el Mapa Estratégico proporcionará una descripción del
+objetivo designado.  Esta descripción incluye:
+
+  o Tipo de objetivo
+  o Ubicación de destino (en coordenadas de cuadrícula)
+  o rumbo objetivo
+  o Velocidad estimada del objetivo
+  o Demora del objetivo en relación con la posición actual del A-10
+  o Distancia del objetivo en relación con la posición actual del A-10
+  o Informes de Inteligencia (si los hubiera) sobre el objetivo.
+
+Todos los objetivos enemigos se muestran en rojo, mientras que las unidades amigas se muestran en azul.
+
+
+Iconos del mapa estratégico
+-------------------
+
+El Mapa Estratégico utiliza varios tipos diferentes de íconos para representar una variedad
+de objetivos.  A continuación se muestra una lista de todos los iconos utilizados y su significado.
+
+
+  |                                     \ /
+  |   SAM (Misil Tierra-Aire) \/ Unidad Terrestre, patrulla de camiones,
+  |                                      /\ convoy
+----- /\
+
+
+----- |
+|   |                                     |  |
+|   |  Instalación (Base, Puente, ---+--- Reproductor (A-10)
+|   |                edificio) |  |
+----- |
+
+    |                                     |
+    |                                     |
+----- Aeronave (Helicóptero o ---+--- Convoy de camiones
+    |            Avión) |
+    |                                     |
+
+
+                                        -24-
+
+-----------------------------------------------------------------------
+
+IMPORTANTE:
+==========
+
+El objetivo seleccionado actualmente se convierte en una guía direccional para el destino.
+Marcador en el HUD.  Siguiendo el marcador de destino irá directamente al último
+objetivo seleccionado en el Mapa Estratégico.  (Ver Marcador de Destino: pág. 20).
+
+
+NOTA:
+-----
+Al presionar "S" en el mapa estratégico se activa y desactiva la visualización de los rangos SAM.
+apagado.  (Ver Controles: pág. 8).
+
+                                        -25-
+
+-----------------------------------------------------------------------
+
+PANTALLA DE ESTADO
+==============
+
+"S" Muestra la pantalla de estado A-10.  Esta pantalla muestra gráficamente el
+cantidad de daño sufrido por el A-10 y muestra su armamento restante, arma
+municiones, paja y salvas de bengalas.  (Para referencia Ver: Sistemas de armas: pág.
+30)
+
+
+IMPORTANTE:
+----------
+Si el A-10 pierde un ala, todas las armas del ala se pierden con él.
+
+
+MÚLTIPLES VISTAS
+--------------
+Junto con 3 vistas internas de la cabina, el A-10 Tank Killer es capaz de mostrar
+7 vistas externas, incluidas las vistas de víctima y participación.  (Ver Controles: pág.
+9)
+
+Victim View es una cámara externa que se mueve para mantener constantemente un arma disparada
+y su objetivo a la vista.
+
+Engagement View es una cámara externa que se desplaza para mantener al enemigo y al A-10
+ambos a la vista.
+
+                                        -26-
+
+-----------------------------------------------------------------------
+
+INTERFAZ DE VCR
+==============
+
+En un esfuerzo constante por hacer que nuestros juegos sean más divertidos y menos frustrantes,
+han desarrollado un nuevo tipo de control de juego llamado VCR Interface.  en
+En esencia, la interfaz VCR es un menú al que se puede acceder en cualquier momento durante
+Juego de simulación que te permite controlar elementos vitales del juego.  el
+La interfaz tendrá diferentes apariencias en diferentes juegos, pero la función
+siempre será el mismo: darle al usuario el mayor control posible sobre
+Funciones y flujo del juego.  En A-10 Tank Killer, la interfaz VCR se ve en
+varios lugares.  Se puede acceder a la interfaz desde el menú de selección de misión.
+y en el Menú de control (ver más abajo).  En el menú de selección de misión te permite
+para personalizar la dificultad de cada misión.  En el Menú de Control, da
+Tienes control en el juego sobre los detalles del mundo 3D, el tamaño de la visualización
+ventana, el tiempo que los mensajes se muestran en la pantalla y conceptos básicos
+como el sonido del juego.  Se puede acceder al menú de control en cualquier momento presionando
+la tecla "ESC".
+(Ver: Controles: pág.8 Ver también: Controles del menú: pág.12)
+
+
+BARRAS DESLIZANTES DE DETALLE DEL MUNDO Y DE LA VENTANA
+-----------------------------------
+
+Qué hacen: porque el A-10 Tank Killer utiliza un sistema tridimensional muy avanzado.
+sistema de modelado llamado 3Space, las computadoras más antiguas pueden tener algunas dificultades
+manejar las complejas ecuaciones matemáticas que son necesarias para impulsar el
+mundos tridimensionales detallados.  Las barras deslizantes de detalles le permiten personalizar los detalles.
+del juego para adaptarse a la velocidad de tu computadora.  Al utilizar las barras deslizantes,
+Puede "ajustar" la cantidad de detalles en la cabina o en el mundo 3-D.  (Ver:
+Controles: pág.8 Ver también: Controles del menú: pág.12)
+
+
+NOTA:
+-----
+Cada vez que se accede a cualquiera de las pantallas del sistema de simulación, el juego se inicia.
+pausado.
+
+                                        -27-
+
+-----------------------------------------------------------------------
+
+EL MENÚ SALIR
+==============
+
+En cualquier momento durante el juego, si se presiona la tecla "Q", se abrirá el menú Salir.
+aparecer.  Este menú le presenta dos opciones: Regresar a la base o Continuar
+Volando.  Seleccionar Regresar a la base lo colocará directamente en su misión
+Informe.  Al seleccionar Continuar volando se volverá a ingresar a la simulación.
+
+
+IMPORTANTE:
+----------
+Hay dos formas de salir de la simulación: con la batalla completa o
+Incompleto.  Abandonar una misión incompleta dejará a los aliados restantes
+tropas abiertas al ataque.  Si esto sucede, la evaluación de su misión puede verse afectada.
+(Ver Resumen: pág.17)
+
+                                        -28-
+
+-----------------------------------------------------------------------
+
+A-10 MANUAL DEL PILOTO
+====================
+
+                           Especificaciones del jabalí A-10
+---------------------
+
+Fabricante: Fairchild Republic Co.
+
+Misión principal: apoyo aéreo cercano sostenido
+
+Planta motriz: dos General Electric TF34-GE-100
+                        motores turbofan, cada uno en desarrollo
+                        aproximadamente 9.000 libras (4.082 kg) de empuje.
+
+Longitud: 53 pies, 4 pulgadas (16,25 m)
+
+Altura: 14 pies, 8 pulgadas (17,53 m)
+
+Capacidad interna de combustible: 10,700 lbs (4,853 kg)
+
+Peso operativo: 25 000 libras (11 340 kg)
+
+Peso bruto máximo: 50 000 lbs (22 680 kg)
+
+Capacidad de munición: 5.000 cartuchos: mezcla de HE y uranio empobrecido.
+
+Armamento: Un General Electric GAU-8 Avenger de 30 mm
+                        cañón de siete cañones
+
+Velocidad de disparo: 2100/4200 disparos por minuto
+
+Capacidad de artillería: hasta 16.000 libras (7.257 kg) de artillería mixta en diez
+                        Estaciones de pilón debajo de las alas con combustible parcial.
+
+Alcance del ferry: 2.173 millas náuticas (4.026 km)
+
+Radio de combate con
+carga típica del arma: 250 nm
+
+Velocidad máxima (limpio): 450 kt.
+
+Velocidad de combate con
+Carga típica de arma: 380 kt.
+
+                                        -29-
+
+-----------------------------------------------------------------------
+
+VISIÓN GENERAL DE LA A-10 Y SU PAPEL
+===================================
+
+El A-10 es un avión de ataque de apoyo aéreo cercano.  Ayuda a las tropas terrestres mediante
+eliminando amenazas como tanques hostiles, cazacarros y otros blindados.
+Su amplia carga de armas le permite eliminar objetivos más grandes, como
+puentes, pistas de aterrizaje y edificios.
+
+En Vietnam se descubrió que un avión debe poder sobrevivir a varios SAM.
+golpes.  El A-10 está construido con partes estructurales redundantes para que pueda tomar un
+mucho daño.  De hecho, un A-10 puede volar con un motor y media ala despegada
+¡fuera!  Los motores están colocados en lo alto del avión para protegerlos de
+misiles.  La bañera de armadura alrededor de la cabina puede soportar balas de 20 mm.
+
+La característica más llamativa del A-10 es su cañón de 30 mm, el Avenger.  eso
+¡Dispara proyectiles del tamaño de botellas de leche a una velocidad de 4200/minuto!  las conchas
+Puede atravesar el blindaje de cualquier tanque en servicio.  La A-10 pega muy fuerte
+de hecho.
+
+
+SISTEMAS DE ARMAS
+================
+
+Cañón Vengador de 30 mm:
+--------------------
+Efectivo contra: tanques, vehículos
+
+El GAU-8 "Avenger" es el arma más grande y poderosa jamás montada en un
+avión.  Puede disparar proyectiles de uranio empobrecido de 2,5 libras a una velocidad de 4.200
+disparos/minuto a un objetivo a 4000 pies de distancia con un 80% de precisión.  la energia
+de estas rondas disparadas es suficiente para atravesar la armadura de cualquier batalla principal.
+Tanque actualmente en servicio
+
+        o Cualquier cosa que se mueva en el campo de batalla puede ser aniquilada por
+          la potencia de fuego de esta asombrosa arma.
+
+
+Inconformista (MAV):
+---------------
+Efectivo contra: tanques, vehículos
+
+El Hughes Aircraft AGM-65D IIR (Imaging InfraRed) Maverick es un fuego y
+Olvídese del sistema de misiles aire-tierra capaz de atacar objetivos a distancias de
+hasta cinco millas en condiciones ideales.  El buscador de calor infrarrojo del Maverick
+se fija en el calor emitido por el vehículo objetivo; esto le permite regresar a casa
+sobre un objetivo sin guía del avión una vez lanzado.  el
+La ojiva cargada de Maverick puede vaporizar el blindaje de cualquier tanque actualmente
+presentada por el Pacto de Varsovia.  Operacionalmente, el Maverick es muy letal.
+sistema, obteniendo una probabilidad de muerte del 85% en las pruebas de armas.  Cualquier vehículo o
+Los aviones en tierra se pueden eliminar con Mavericks.
+
+                                        -30-
+
+-----------------------------------------------------------------------
+
+Bombas guiadas por láser Paveway (LGB):
+---------------------------------
+Efectivo contra: Puentes, Bunkers, Edificios, Instalaciones
+
+Otra munición de precisión que lleva el A-10 es la Texas Instruments.
+Bomba de 2000 libras guiada por láser GBU-10E Paveway II Mk 84.  El Paveway es básicamente
+una "bomba de hierro" con un buscador láser y superficies de control añadidas.  un tipico
+El perfil de ataque es el siguiente: El piloto fija un objetivo iluminado por un
+láser terrestre o aéreo utilizando la cápsula de adquisición Pave Penny A-10.  Entonces el
+Libera el arma que se desliza hacia el objetivo por sí sola, haciendo que el vuelo esté en pleno vuelo.
+correcciones según sea necesario.  Paveway es más eficaz contra objetivos difíciles como
+puentes, revestimientos reforzados para aviones y grandes edificios.
+
+
+Bomba de racimo Honeywell Mk 20 Rockeye II (ROC):
+----------------------------------------------
+Efectivo contra: vehículos
+
+A pesar de la incorporación de un buscador láser en las versiones más nuevas, Rockeye no es
+considerada una munición de precisión.  El Rockeye se basa en el 'efecto de dispersión'
+de hasta 150 bombas perforantes y altamente explosivas para destruir su objetivo.
+Cualquier cosa dentro de su radio letal (aproximadamente 500 pies) seguramente resultará dañada,
+y tiene muchas posibilidades de quedar totalmente destruido.  El Rockeye es más
+eficaz contra vehículos ligeramente blindados (BRDM 3, ACRV, Mobile SAM
+lanzadores, aviones en tierra) pero un golpe de suerte puede matar un tanque.
+
+
+Bomba antipenetración de pista Matra Durandal (DUR):
+--------------------------------------------------
+Efectivo contra: Pistas de aterrizaje
+
+El Durandal es un arma muy especializada que es devastadoramente efectiva.
+contra ciertos tipos de objetivos terrestres.  Consta de un gran HE (Alta
+Explosivo) ojiva encerrada en una camisa de acero muy dura unida a un cohete
+motor.  Después del lanzamiento, la artillería libera un paracaídas de arrastre y cae hasta que es
+apuntando hacia abajo.  Entonces el motor del cohete se enciende, impulsando al Durandal.
+profundamente en el objetivo donde detona.  Esta explosión provoca un enorme 'levantamiento'
+"efecto" que puede romper el hormigón armado e inutilizar una pista con
+sólo un golpe.  Además de las pistas, el Durandal es particularmente
+eficaz contra búnkeres y tanques de combustible subterráneos.
+
+
+Enrollador lateral AIM 9L (SID):
+------------------------
+Efectivo contra: Aeronaves
+
+El AIM 9L Sidewinder es un misil aire-aire de búsqueda de calor con todos los aspectos
+capacidad de seguimiento; Esto permite que el misil se fije en un avión enemigo incluso
+si está cara a cara con la A-10.  El alcance efectivo de un sidewinder es
+unas 5 millas.
+
+                                        -31-
+
+-----------------------------------------------------------------------
+
+DESCRIPCIONES DE VEHÍCULOS
+=====================
+
+
+Unidades hostiles (Ver pantalla de información táctica: página 23)
+-------------------------------------------------------
+
+Tanque de batalla principal T-72, T-80
+---------------------
+Armamento primario: cañón de 125 mm.
+Velocidad máxima: 60 km/h
+Amenaza a la A-10: ninguna
+El T-80 es una amenaza para cualquier cosa en tierra.  Su potente cañón de 125 mm puede
+elimina otros tanques, cazacarros, lanzadores SAM y edificios.  el
+Avenger y Mavericks son la mejor manera de enfrentarlo, aunque un Rockeye lo hará.
+a veces destruirlo.  El A-10 'Tank Killer' fue diseñado para destruir tanques
+como el T-80
+
+
+Vehículo de combate de infantería BMP-2
+-------------------------------
+Armamento primario: cañón de 30 mm.
+Velocidad máxima: 63 km/h
+Amenaza a la A-10: ninguna
+El BMP-2 es un vehículo de orugas ligeramente blindado.  Está diseñado para llevar
+tropas en el campo de batalla.  Su pequeño cañón le permite atacar a vehículos con armadura ligera.
+Los vehículos como los camiones, pero no son rival para un tanque.  Comprometerlo con el
+Avenger, Rockeye o Maverick.
+
+
+Vehículo de mando ACRV-2
+----------------------
+Armamento primario: ninguno
+Velocidad máxima: 58 km/h
+Amenaza a la A-10: ninguna
+El ACRV-2 es un vehículo de orugas ligeramente blindado diseñado para servir como vehículo móvil.
+puesto de mando.  Está desarmado.  Enfréntate al Vengador, un Maverick o un
+Ojo de roca.
+
+
+Destructor de tanques BRDM-3
+---------------------
+Armamento primario: misil antitanque
+Velocidad máxima: 90 km/h
+Amenaza a la A-10: ninguna
+El BRDM-3 representa una gran amenaza para cualquier tanque amigo.  Su alcance de arma es
+mayor que el del M1 Abrams.  Enfréntate al Vengador, un Maverick,
+o un Rockeye.
+
+                                        -32-
+
+-----------------------------------------------------------------------
+
+Camión Zil-157
+-------------
+Velocidad máxima: 90 km/h
+Amenaza a la A-10: ninguna
+El Zil-157 es el camión soviético estándar.  Se utiliza para transportar tropas,
+suministros, municiones y equipos.
+
+
+Lanzadores SAM SA-6 Gainful, SA-11 Gadfly
+----------------------------------------
+Armamento primario: misiles tierra-aire guiados por radar
+Velocidad máxima: 58 km/h
+Amenaza a la A-10: GRANDE
+El SA-6 y el SA-11 son lanzadores móviles de misiles tierra-aire.  los misiles
+rastrear la A-10 con un sistema de guía por radar.  El sistema a veces puede ser
+engañado arrojando paja que distrae el misil del A-10.  el
+Los misiles causan un gran daño al A-10.  El SA-11 tiene un alcance mucho mayor que
+el SA-6.  Atacar un SAM con el A-10 es peligroso, pero se puede hacer con el
+Avenger, Maverick o Rockeye.
+(Para más información Ver: Sistemas de Armas Defensivas: p.35 y Tácticas Contra
+SAM: p.40)
+
+
+Lanzadores SA-9 Gaskin, SA-13 Gopher SAM
+---------------------------------------
+Armamento primario: misiles guiados por infrarrojos tierra-aire
+Velocidad máxima: 90 km/h
+Amenaza a la A-10: GRANDE
+El SA-9 y el SA-13 son lanzadores móviles de misiles tierra-aire.  los misiles
+Vivienda en la A-10 con sistema de búsqueda de calor por infrarrojos.  A veces pueden
+distraerse lanzando una bengala.  Estos sistemas tienen un alcance menor que
+sus homólogos guiados por radar (el SA-6 y el SA-11).  Involucrar un SAM con el
+El A-10 es peligroso, pero se puede hacer con el Avenger, un Maverick o un Rockeye.
+(Para más información Ver: Sistemas de Armas Defensivas: p.35 y Tácticas Contra
+SAM: p.40).
+
+
+Helicóptero de asalto trasero Mi-24
+-----------------------
+Armamento primario: misiles antitanque
+Velocidad máxima: 320 km/h
+Amenaza a la A-10: ninguna
+El Hind es un helicóptero de asalto rápido.  Presenta un gran peligro para su
+fuerzas terrestres amigas.  Es particularmente eficaz contra el M1 Abrams.  eso
+Se puede atacar con un Sidewinder y los pilotos expertos del A-10 pueden derribarlo.
+con el Vengador.
+
+                                        -33-
+
+-----------------------------------------------------------------------
+
+Caza de ataque MiG-27 Foxbat
+----------------------------
+Armamento primario: una variedad de armas montadas en las alas, incluidas
+misiles y bombas antiaéreos.
+Velocidad máxima: 800 nudos
+Amenaza a la A-10: GRANDE
+El Foxbat puede atacar cualquier cosa en el campo de batalla o en el aire.  su
+Los misiles antiaéreos pueden dañar el A-10.  Se puede comprometer con un
+Sidewinder, y un disparo afortunado de Avenger podría dañarlo.
+
+
+
+AMIGOS
+==========
+
+
+Tanque de batalla principal M1 Abrams
+--------------------------
+Armamento primario: cañón de 120 mm.
+Velocidad máxima: 70 km/h
+El M1 Abrams es eficaz contra la mayoría de objetivos terrestres.  La A-10 debería
+proporcionar apoyo aéreo cercano para el M1, especialmente cuando hay tanques
+destructores o helicópteros Hind en la zona.
+
+
+Vehículo de combate de infantería M2 Bradely
+------------------------------------
+Armamento principal: Metralleta de 25 mm.
+Velocidad máxima: 65 km/h
+El M2 es la contraparte estadounidense del BMP-2.  Puede atacar a vehículos ligeramente blindados.
+objetivos, pero deben evitar enfrentamientos uno a uno con los tanques.
+
+
+Lanzador SAM M48 Chaparral
+--------------------------
+Armamento primario: misil tierra-aire guiado por infrarrojos
+Velocidad máxima: 60 km/h
+El M48 es el sistema de armas de defensa aérea estándar de Estados Unidos.  se puede sacar
+Helicópteros Hind y MiG-27 Foxbats.  Cuando la A-10 se ve amenazada por un
+MiG, agacharse bajo el "paraguas" de un M48 es una decisión inteligente.
+
+
+Granjas
+-----
+Las granjas se consideran objetivos civiles neutrales y no deben ser atacadas.
+
+                                        -34-
+
+-----------------------------------------------------------------------
+
+Puentes, Edificios, Botaderos de Suministros, Bases, etc.
+---------------------------------------
+Estructuras como estas se pueden acoplar con el Paveway LGB.  Sin embargo, antes
+dejar caer un LGB en uno, asegúrese de que los objetivos de la misión requieran que
+ser destruido.  Derribar un puente que las fuerzas estadounidenses planean cruzar no es una
+táctica inteligente.
+
+
+Pistas de aterrizaje
+---------
+Las pistas de aterrizaje controladas por el enemigo se pueden destruir con el Durandal.
+
+
+
+SISTEMAS DE ARMAS DEFENSIVAS
+===========================
+
+ALQ-119 ECM Jamming pod: este pod cuelga del pilón exterior del ala izquierda
+de la A-10.  Tiene bloqueadores que pueden confundir temporalmente al radar.
+sistemas de adquisición en lanzadores SAM.  Esto le da al piloto del A-10 un poco de
+tiempo extra antes del lanzamiento de misiles SAM hostiles.  Los lanzadores atascados se indican con un
+punto parpadeante en el RWR.
+
+Bengala: Se trata de un pequeño señuelo emisor de calor que el piloto del A-10 puede soltar.
+A veces engañará a un SAM entrante con orientación por infrarrojos para que lo rastree.
+en lugar de la A-10.  Es útil contra el SA-9 y el SA-13.
+
+Chaff: Este es un cartucho que libera una nube de pequeñas tiras de papel de aluminio.
+La nube reflejará el radar enemigo y lo cegará durante unos segundos.  esto será
+a veces le dan al A-10 tiempo suficiente para escapar de un SAM entrante guiado por radar
+(como el SA-6 y el SA-11).
+
+                (Ver Receptor de alerta de radar: pág.21)
+
+                                        -35-
+
+-----------------------------------------------------------------------
+
+INSTRUCCIONES DE VUELO
+====================
+(Ver Controles: pág. 8)
+
+
+
+                        ---El despegue---
+
+En la mayoría de las misiones comenzarás en la pista.  Despegar es
+simple: acelere a fondo el A-10 y tire de la palanca hacia atrás.  cuando tu
+Si tienes suficiente velocidad, despegarás.  Con menos del acelerador a fondo, puede correr
+fuera de pista.  Incluso esto rara vez es fatal.  Recientemente un A-10 del 81
+Tactical Fighter Wing perdió su despegue y se estrelló contra un campo de remolacha.  el
+El A-10 sufrió muy pocos daños.
+
+
+                           ---Aterrizaje---
+
+No es necesario aterrizar en el A-10 Tank Killer.  Puede renunciar en cualquier momento
+presionando Q. Esto finalizará la misión y lo regresará a la base de manera segura.
+
+Si quieres experimentar un aterrizaje, aquí te explicamos cómo hacerlo.  Alinear unos 4000 metros.
+desde la pista, volando en paralelo hacia la pista.  Usa el timón para hacer
+pequeños ajustes en su rumbo para alinearse exactamente.  trae tu
+Acelere a 4. Llegue a una altitud de unos 100 pies y guíe la A-10.
+adentro. Su copiloto bajará automáticamente los flaps y el tren de aterrizaje por usted.
+Una vez que estés en el suelo, baja el acelerador a 1.
+
+
+                            ---Impuestos---
+
+Si aterrizas y la misión no ha terminado querrás despegar de nuevo.  hacer
+Para ello, tendrás que girar la A-10 para tener suficiente pista.  taxi
+usa un poco de acelerador.  Para mayor comodidad, puedes guiar la A-10 por tierra.
+con los mandos del timón o alieron.
+
+
+                             ---Vuelo---
+
+Los aviones son guiados por superficies de control en las alas y la cola, y por el
+cantidad de empuje generado por los motores.  Los alerones en las alas controlan el
+balanceo de la A-10, e indirectamente el rumbo.  La cola controla el tono,
+y el timón controla el rumbo.
+
+Escalada y Buceo
+-------------------
+Para ganar altitud, emprenda una subida.  Simplemente tire hacia atrás de la palanca hasta que la A-10
+está orientado hacia arriba (tono positivo).  Continúe subiendo hasta llegar al
+altitud que desee.  Una inmersión es todo lo contrario.  Empuje hacia adelante el palo para
+perder altitud.
+
+                                        -36-
+
+-----------------------------------------------------------------------
+
+girando
+-------
+Hay varias formas de ejecutar un giro.  La forma más sencilla de girar es moverse.
+el palo hacia la izquierda (o hacia la derecha).  Esto inclinará ligeramente la A-10 e iniciará una
+girar.  Cuanto más te inclines, más girará la A-10.  Cuando casi hayas
+llegado al rumbo que desea, nivele la A-10.
+
+Se puede ejecutar un giro más rápido moviendo la palanca hacia la izquierda (o hacia la derecha) y
+luego tirando hacia atrás.  Ésta es la forma más rápida de cambiar de rumbo.  Sin embargo
+es muy fácil sobrepasar el rumbo deseado, a menos que se haya rodado el A-10
+exactamente 90 grados, también cambiarás tu tono.
+
+Se pueden realizar pequeños ajustes en el rumbo con el timón.  Usando el
+El timón es la forma más lenta de girar, pero no afecta el cabeceo y es
+el más preciso.  Normalmente querrás iniciar un giro moviendo la palanca
+izquierda (o derecha), acérquese al rumbo que desea, nivele la A-10 y
+luego haga los ajustes finales al rumbo con el timón.
+
+Velocidad y pérdida
+----------------
+La velocidad está controlada por el acelerador.  A toda velocidad, a toda velocidad.  un puesto
+Ocurre cuando el avión se mueve por el aire muy lentamente.  Se pierde elevación y
+Las superficies de control no funcionan correctamente.  La A-10 descenderá morro hasta el
+La velocidad del aire es mayor que la velocidad de pérdida.  Para evitar pérdidas, mantenga el acelerador
+en 4 o más.  No te detengas a baja altura a menos que te guste chocar.
+
+
+TÁCTICAS DE COMBATE
+===============
+
+El A-10 es un tipo especial de avión: es un avión de combate armado hasta el
+dientes.
+
+
+Encontrar el objetivo
+------------------
+Encuentre el objetivo que desea en el mapa estratégico y luego selecciónelo (consulte la página 24).
+Puede seleccionarlo colocando la flecha sobre él y haciendo clic en él,
+o secuenciando todos los objetivos con los botones de flecha.  El seleccionado
+El objetivo se resaltará en el mapa con un cuadrado negro a su alrededor.  el
+La pantalla de información a la derecha le dará el rumbo y la distancia del
+objetivo desde su posición actual.
+
+Regrese a la vista frontal de la cabina (F1).  El indicador de destino encima del
+La cinta de la brújula en el HUD lo guiará hacia el objetivo (consulte la página 20).  solo cambia
+su rumbo hasta que el indicador de destino (un pequeño triángulo) esté centrado en
+la cinta.  Ahora te diriges directamente hacia el objetivo.  Mantente agachado y vete
+acelera a fondo y alcanzarás el objetivo.  Cuando te acercas al objetivo,
+debería aparecer en la pantalla TID. (Ver página 23)
+
+                                        -37-
+
+-----------------------------------------------------------------------
+
+Tácticas de ataque
+--------------
+Cuando estés a unos 7000 metros del objetivo, reduce la velocidad hasta alcanzar la velocidad de ataque, una
+ajuste del acelerador de 3 o 4. Esto le dará tiempo suficiente para alinearse en el
+objetivo.
+
+Selecciona el tipo de arma adecuada para usar contra el objetivo.
+
+  o Contra tanques: selecciona el cañón Avenger de 30 mm o selecciona un MAVerick.
+
+  o Contra otros vehículos: seleccione el grupo Avenger, MAVerick o ROCkeye
+    bomba (especialmente si hay varias juntas).
+
+  o Contra puentes, búnkeres, edificios o instalaciones: seleccione LGB.
+
+  o Contra pistas de aterrizaje: seleccione DURandal.
+
+  o Contra aviones: seleccione SIDewinder.
+
+
+Una carrera de ataque vengador
+---------------------
+El Avenger es un arma no guiada, va fijada al fuselaje del A-10.
+Debes colocar la mira sobre el objetivo y disparar.  Para configurar una carrera, quédese
+baja (alrededor de 150 pies) y avance a baja velocidad.  Alinearse con el objetivo.  uso
+el timón se alinee exactamente con el objetivo.  Manténgase alineado y aproximadamente
+3000 m, incline el avión de modo que la cruz quede exactamente sobre el objetivo.
+¡FUEGO!
+
+Si hay varios objetivos ante ti, usa el timón para extender el Avenger.
+fuego a través de ellos.  ¡A menudo puedes eliminar un pelotón de tanques completo en segundos!
+
+Otra táctica útil para marcar es "caminar sobre el fuego" a través del objetivo.
+Cuando la mira esté debajo del objetivo, comience a disparar.  Tira del impacto
+punta de los proyectiles a través del objetivo tirando hacia atrás del palo.
+
+Si fallas algunos de los objetivos en la primera carrera, haz una segunda carrera.  Pasa volando
+los objetivos a toda velocidad durante unos 7 segundos.  Vuelva a acelerar a un
+velocidad más lenta y hacer girar la A-10 con un giro rápido o un bucle y
+medio rollo.  ¡Alinea de nuevo y remata el objetivo!
+
+
+Otras armas
+-------------
+Las otras armas son más sencillas de acertar.  Mantenga el objetivo en el
+HUD.  Secuencia todos los objetivos en el HUD hasta que el que deseas esté
+se muestra en el TID y se selecciona en el HUD.  Asegúrate de tener el arma adecuada.
+se selecciona el tipo.  Cuando el objetivo esté dentro del alcance, aparecerá BLOQUEADO en
+el HUD al lado del tipo de arma.
+
+                                        -38-
+-----------------------------------------------------------------------
+
+Para ver toda la fuerza del ataque, cambie a una de las vistas cinematográficas (F8,
+F9 o F10).  (Ver Vistas A-10, pág.8)
+
+La LGB y la Rockeye son bombas guiadas, mientras que la Maverick y la Sidewinder lo son.
+misiles.  Con LGB y Rockeye, el alcance de bloqueo es menor.
+
+
+Vengador contra Maverick
+--------------------
+Ambas armas tienen el mismo propósito: matar tanques.  tendrás que decidir
+cuál usar en cada ejecución de ataque.  El Maverick es más fácil de usar.  Seleccione el
+objetivo que desea en el TID, espere a BLOQUEADO y dispare.  El sistema de guia
+asegurará que el Maverick alcance el objetivo.  El Maverick tiene mayor alcance que
+Sin embargo, con el cañón Avenger, tienes menos Mavericks que ráfagas de Avenger.
+
+Si apareces sobre una colina y hay un SAM mirándote, es mejor
+sácalo con el Vengador.  Los proyectiles de los Vengadores son más rápidos que los de un Maverick, y
+En sorteos rápidos como este, el Avenger sale victorioso.  Tratando de dibujar rápido
+en un SAM con un Maverick es, en el mejor de los casos, arriesgado.
+
+El Avenger es la forma más rentable de matar tanques.  Un estallido de Vengador
+Cuesta una fracción de un misil Maverick.
+
+
+peleas de perros
+---------
+Aunque el A-10 no fue diseñado para peleas de perros, los pilotos del A-10 no
+consideran a los MiG una amenaza invencible.  En altitudes elevadas la A-10 se encuentra en una
+clara desventaja, pero a bajas altitudes un MiG tiene dificultades para maniobrar.
+
+Cuando veas un MiG, mantenlo frente a ti.  Si tienes un sidewinder, dispara
+tan pronto como logre el bloqueo.  A corta distancia, puedes intentar golpear el
+MiG con una ráfaga de Avenger, pero esto es muy difícil.  Si estás fuera de
+Sidewinder, señor, está en problemas.  Tu mejor oportunidad es mantenerte agachado, caer
+bengalas cuando sea necesario y corre hacia el "paraguas" de un SAM amigo.  si
+el MiG te sigue hasta el 'paraguas', hay muchas posibilidades de que le disparen
+abajo.
+
+El A-10 puede hacer limpieza contra los helicópteros Hind.  El Hind no fue diseñado para
+combate aire-aire.  Puedes usar Sidewinders contra un Hind, o solo contra el
+Vengador.  El Hind es mucho más lento que un MiG y con práctica un buen piloto
+Puedes eliminar un Hind rápidamente con el Avenger.
+
+                                        -39-
+
+-----------------------------------------------------------------------
+
+Tácticas defensivas contra SAM
+------------------------------
+Mantente agachado.  Cuanto más bajo vueles, mayores serán las posibilidades de que el terreno
+esconderte de los lanzadores SAM.  Utilice el mapa estratégico para mantenerse fuera del alcance
+de lanzadores SAM.  Supervise el RWR para ver qué amenazas SAM existen.
+
+Cuando un SAM se acerca a ti, hay algunas tácticas que puedes probar.  si hay una colina
+cerca, agáchate detrás de él.  Si el SAM es guiado por radar (indicado por la derecha
+(más luz sobre el RWR parpadeante), deja caer un poco de paja para distraerlo.  si tiene
+Búsqueda por infrarrojos (indicada por la luz más a la izquierda sobre el RWR parpadeante),
+luego deja caer una o dos bengalas.  Como último recurso, intente superar al SAM.
+Esto es muy difícil.
+
+Si te encuentras en un apuro con un lanzador SAM, puedes intentar tomar
+Compruébalo con el Avenger antes de su lanzamiento.
+
+
+PLAN DE MISIÓN
+=============
+En la sesión informativa, el Comandante Cord le informará cuáles son los objetivos de su misión.
+son y cuáles son las prioridades.  Una vez estés en la A-10, revisa la
+Mapa Estratégico.  Te familiarizará con la batalla.  Haga un plan de vuelo.
+Sin embargo, debido a la naturaleza dinámica de las batallas terrestres, probablemente tendrás que
+Modifique su plan de vuelo varias veces.  Estarás recibiendo nuevos pedidos y
+llamadas de socorro por radio durante la misión.  Mantente alerta y quédate
+flexible.  Ten siempre presente tus objetivos.
+
+                                        -40-
+
+-----------------------------------------------------------------------
+
+ENTREVISTA AL PILOTO DEL A-10
+=====================
+
+
+¿Qué tácticas se emplean cuando se lanza un SAM en la A-10?
+
+"En primer lugar, permanecer agachados para evitar que los operadores SAM adquieran el A-10.
+Una vez que se lanza un SAM, haga una separación tridimensional del SAM.  Además,
+Se pueden lanzar bengalas para atraer misiles que buscan infrarrojos, y se utilizan paja en
+misiles guiados por radar."
+
+
+¿Qué tácticas se utilizan cuando se detecta un caza enemigo, digamos un MiG?
+
+"Mantenlo delante de ti.  No dejes que te siga.  Puedes involucrar al
+luchador con sidewinders.  Se pueden cargar dos sidewinders en cualquiera de los lados
+pilón.  El arma, aunque no es muy eficaz para derribar aviones, es
+muy eficaz para hacer que el caza enemigo adopte una postura defensiva."
+
+
+En combate real, ¿a qué altura volarías?
+
+"Entre 100 y 400 pies."
+
+
+¿Cuál es el papel de la A-10?
+
+"Apoyo aéreo cercano, lo llamamos CAS.  Apoyamos estrechamente a las tropas terrestres.
+proximidad, que se define como operar dentro de 1000 yardas de fuerzas amigas.
+
+
+¿Cuál es la diferencia entre el papel del A-10 y el papel de un ataque?
+¿helicóptero?
+
+"Las funciones son idénticas. Ambos aviones proporcionan apoyo aéreo cercano. Sin embargo,
+las capacidades de un helicóptero de ataque son diferentes."
+
+
+¿De qué manera?
+
+"Esconderse, por ejemplo. Un helicóptero se esconde flotando bajo detrás de algunos árboles, o
+aterrizando realmente en un campo abierto.  La A-10, ya que debe seguir moviéndose,
+se escondería volando bajo detrás de una cresta o colina.  Los helicópteros no son tan
+sobrevivible como el A-10.  Uno o dos impactos en un helicóptero generalmente
+paralizarlo, mientras que el A-10 fue diseñado para recibir golpes.  En Vietnam, los aviones
+fueron golpeados bastante, por lo que la capacidad de supervivencia fue un factor importante.  Además, el
+El A-10 puede transportar más municiones.  Los helicópteros transportan alrededor de 2000 libras.  La A-10
+Puede transportar 15.000 libras."
+
+
+El F16 es un avión de ataque a tierra, ¿cuál es la diferencia entre los A-10?
+papel y el papel del F16?
+
+"El F16 es un avión rápido. Se utiliza para ataques de interdicción profunda en
+territorio enemigo: derribar un puente detrás de las líneas enemigas, por ejemplo.  eso
+puede entrar, atacar y salir.  El A-10 puede volar mucho más lento que el F16.
+Esto es esencial para el apoyo aéreo cercano.  Los pilotos del A-10 pueden operar de forma dinámica.
+entorno, donde los objetivos se mueven rápidamente y están bien camuflados.  un
+El piloto del A-10 puede detectar una unidad terrestre, identificarla, girar y destruirla.
+Un F16 ni siquiera sabría que está allí.
+
+                                        -41-
+
+-----------------------------------------------------------------------
+
+¿En qué consistiría una misión típica?
+
+"En una guerra real, digamos en Europa Central, un piloto de A-10 saldría y volaría
+bajo hasta un punto de contacto.  En el punto de contacto, el piloto hablaría con un operador de tierra.
+comandante, que podría decir: "Se vieron cuatro tanques enemigos al aire libre moviéndose
+hacia el sur en las coordenadas XX y viajando a una velocidad de Y. Estás autorizado
+seguir adelante y enfrentarlos.'  El contacto también le informaría al piloto qué
+Las amenazas SAM están en el área y qué amistosos debería esperar ver".
+
+
+¿Cómo es disparar el arma?
+
+"El arma hace mucho ruido.  Sacude todo el avión.  Nunca te acostumbras
+eso."
+
+
+¿Qué tal despedir a un Maverick?
+
+"Lo bueno de un Maverick es que no escuchas nada.  Se suelta y se mueve.
+delante de ti.  Puedes ver el motor y el humo.  Mientras que el arma
+es una experiencia de audio, el Maverick es visual".
+
+                                        -42-
+
+-----------------------------------------------------------------------
+
+NOTAS DE DISEÑO
+=============
+
+Nuestra motivación para hacer este producto fue el propio A-10.  es perfecto
+material para una simulación desafiante de alto ritmo.  El A-10 está diseñado para
+Lucha en un entorno de alta amenaza, donde se encuentran los frentes de dos ejércitos.  en
+En medio de todo este caos, un piloto de A-10 tiene que tomar decisiones tácticas rápidas.
+y ajustar sus planes de acuerdo con la dinámica de la situación del campo de batalla.
+
+La A-10 tiene mucha personalidad.  Oficialmente se llama Thunderbolt II.
+pero los volantes lo llaman Warthog.  A los pilotos del A-10 se les llama "conductores de cerdos".  suelo
+Las tropas se refieren a la A-10 como la Cruz del Diablo.  Por su forma, el tanque
+A los comandantes les resulta difícil saber si se está alejando o acercándose.  es
+No es de extrañar que esto los ponga nerviosos... el cañón Avenger puede destrozar un tanque.
+separarse en segundos.
+
+Al construir el A-10 Tank Killer, queríamos crear una experiencia que capturara
+la personalidad y sensación de la A-10.  Queríamos especialmente crear un
+experiencia que SE SENTÍA COMO REAL.  Hicimos una extensa investigación sobre el
+avión en sí (especificaciones de vuelo, datos de armas, etc.) para obtener la simulación
+exacto.  Pero los números no dicen cómo es realmente volar un A-10.
+Entonces, entrevistamos a los pilotos del A-10 para obtener una perspectiva humana de la experiencia.
+Un piloto comentó: "Volar el A-10 es divertido. ¿Puedes expresar eso en tu
+¿simulación?"  Dejaremos esa pregunta a usted.
+
+Queríamos que A-10 Tank Killer fuera entretenido.  Por eso elegimos
+comprimir el tiempo.  Mantiene el ritmo alto.  Todos los momentos aburridos que pasamos transportando
+Los movimientos de ida y vuelta hacia el frente se exprimen con la compresión del tiempo.  Nosotros también
+Elige ir con un A-10 biplaza.  No hay muchos de ellos en
+servicio, pero sentimos que era importante tener esa charla colorida que usted
+obtener de su copiloto.
+
+Para poder sacar este producto correctamente, tuvimos que superar muchos
+desafíos.  Optimizamos nuestros gráficos 3-D por quinta vez en cuatro años.
+Escribimos varias rutinas de dibujo de 256 colores que eran más rápidas que las anteriores.
+Rutinas de dibujo de 16 colores.  Y desarrollamos un proceso de digitalización que involucra una
+laboratorio fotográfico, actores reales, vestuario y sesiones fotográficas en exteriores.  Este último bit
+La tecnología era necesaria porque sabíamos que los dibujos animados y dibujados a mano
+El aspecto que se ve en la mayoría de los juegos de 16 colores no reflejaría nuestro deseo de crear el tanque A-10.
+Killer SIENTE COMO LO REAL.  Nuestros gráficos tenían que parecer reales, especialmente
+cuando íbamos a admitir sistemas VGA de 256 colores.
+
+Creemos que todo este esfuerzo valió la pena y esperamos que disfrutes jugando.
+A-10 Tank Killer tanto como disfrutamos construyéndolo.
+
+Brindemos por volar bajo y golpear fuerte.
+
+                                        -43-
+
+Fin....................

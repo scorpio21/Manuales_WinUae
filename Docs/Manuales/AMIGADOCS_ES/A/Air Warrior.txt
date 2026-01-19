@@ -1,0 +1,731 @@
+GUERRERO DEL AIRE
+
+                              Amiga Versión 1.0
+
+
+                              Anteproyecto
+
+
+
+
+
+
+
+
+
+                               Derechos de autor 1987
+
+                              Corporación Kesmai
+
+
+
+
+                           Actualización por: RGRIMM - 4/88
+
+
+
+
+
+
+
+
+
+
+
+
+                           TABLA DE CONTENIDO
+
+
+
+       1. PREFACIO ................................... 1
+
+
+       2. OBTENCIÓN DEL SOFTWARE ........................ 1
+
+
+       3. GUERRERO AÉREO CORRIENTE ........................ 2
+
+
+       4. VOLAR EL AVIÓN ................................ 3
+
+           4.1 Resumen ................................ 3
+           4.2 Los controles ................................ 4
+           4.3 Comandos de teclado "retenidos" ................. 4
+           4.4 Comandos de teclado "Alternar" ................. 5
+           4.5 Comandos de teclado poco utilizados ................ 6
+           4.6 Comandos <Esc> orientados a línea ......... 7
+           4.7 El menú de opciones ........................ 8
+
+
+       5. BOMBARDEROS: CONSIDERACIONES ESPECIALES................ 8
+
+           5.1 Reunir una tripulación ........................ 9
+           5.2 Bombarderos: carga útil y tripulaciones... 9
+           5.3 Bombas y bombardeos ........................ 9
+           5.4 Torretas ................................ 10
+           5.5 Misiones con tripulación insuficiente ................ 10
+
+
+       6. LAS SALAS DE CONFERENCIAS ........................ 11
+
+           6.1 Resumen ................................ 11
+           6.2 Comandos de la habitación ........................ 11
+           6.3 Formación de escuadrones ........................ 13
+
+
+       7. PUNTUACIÓN ................................ 13
+
+           7.1 Resumen ................................ 13
+           7.2 Categorías de puntuación de misiones ......... 13
+           7.3 Definiciones de puntuación ......... 14
+           7.4 Cálculo de daños ................... 15
+           7.5 Categorías de acumulación de puntos ......... 15
+
+
+       8. EL MAPA ................................................ 15
+
+
+       9. LOS AVIONES ................................. 16
+
+           9.1 Lista de planos actuales (V1.0) .......... 16
+           9.2 Estadísticas de vuelo de aeronaves importantes... 16
+
+
+      10. CONCLUSIÓN ................................ 17
+
+
+
+
+
+
+                                 1. PREFACIO
+
+     Air Warrior es una simulación de combate aéreo multijugador.  Utilizando software sofisticado tanto en el microprocesador del usuario como en el sistema GEnie, Air Warrior proporciona el nivel de detalle gráfico y capacidad de respuesta que se espera de un videojuego, pero al mismo tiempo el alcance y la gran cantidad de participantes de un juego en línea.
+
+     Los jugadores de Air Warrior pertenecen a una de tres nacionalidades.  Estos tres pequeños países están continuamente en guerra, principalmente en el aire (aunque se rumorea que también están formando ejércitos).  Cada país tiene varios aeródromos primarios y varios campos secundarios donde un avión puede aterrizar en caso de emergencia.  Debido a que estos países son tan pobres, lo mejor que pueden permitirse son aviones excedentes de la Segunda Guerra Mundial, que sus mecánicos altamente calificados mantienen en excelentes condiciones de funcionamiento a pesar de las difíciles condiciones.  Toman todo lo que pueden conseguir, ya sean aviones estadounidenses, británicos, alemanes o incluso soviéticos usados, y se los roban unos a otros siempre que pueden.  De esta forma se pone a disposición de los pilotos de cada país una amplia variedad de aviones.  A veces incluso aparecen aviones antiguos de la Primera Guerra Mundial.
+
+
+                          2. OBTENCIÓN DEL SOFTWARE
+
+     Para jugar Air Warrior, necesitarás descargar varios archivos que sean específicos de tu marca particular de computadora.  La cantidad de tipos diferentes de máquinas admitidas es limitada, pero estamos trabajando para producir tantas versiones diferentes como sea posible.
+Su primer paso será obtener algún tipo de programa de transferencia de archivos Xmodem, para que pueda descargar el software Air Warrior de GEnie.  La mayoría de los paquetes de comunicaciones comerciales tienen capacidad Xmodem y también están disponibles muchos excelentes programas gratuitos y shareware.  Los usuarios de Amiga necesitarán el programa ARC para descomprimir y desagregar los datos binarios en los archivos, ya que han sido "ARC" para reducir el tiempo necesario para descargarlos.
+
+     Una vez que esté en línea en GEnie con su programa de transferencia de archivos, escriba AIR (o M 870) para ir a la página de Air Warrior.  Seleccione la opción 4, Descargar software, para ver el menú de descarga.  La primera entrada de esta página contendrá información detallada y actualizada sobre la descarga de las distintas versiones de software disponibles.  Debe leer esta información en línea antes de continuar.  También debes asegurarte de comprender el acuerdo de licencia bajo el cual estás descargando el software del juego, que se encuentra en este archivo.
+
+     El paquete Air Warrior consta de tres archivos: el programa, la base de datos del programa y la base de datos del terreno.  Por tanto tendrás que hacer tres descargas, una larga para obtener el programa y dos relativamente cortas para obtener el programa y las bases de datos del terreno.  Si coloca el programa en un directorio, debe colocar todos estos archivos en el mismo.  En las versiones actuales, la base de datos del terreno debe llamarse terreno.dat y la base de datos del programa debe llamarse airwar.dat, por lo que si su método de transferencia de archivos no establece el nombre correctamente, deberá cambiarle el nombre.  A partir de la versión 0.4, hay cuatro archivos airwar.dat separados para cada resolución que elija volar. Airwar.dat es el archivo básico de baja resolución y DEBE descargarse.  AirwarM.dat es para resolución media, airwarH.dat para alta resolución y airwarT.dat para resolución entrelazada, y son opcionales.  Si elige estas otras resoluciones, se suman al archivo airwar.dat de baja resolución, que el programa necesita encontrar al cargar.
+     La razón por la que necesita descargar un archivo separado para el archivo de terreno es que así podemos alterar el mapa del mundo periódicamente, y todo lo que se requiere es una descarga relativamente corta para obtener la última versión de los archivos de datos.  La versión 1.0 se cargó en abril de 1988 y los archivos de datos del programa también se cambiaron, pero están separados del programa principal.  Debes estar atento al banner que aparece en el juego para obtener información sobre cuándo necesitarás realizar una descarga, aunque el programa mismo te informará si ingresas al juego en GEnie sin el archivo más reciente.
+                                                                            1
+
+
+                          2. OBTENCIÓN DEL SOFTWARE (cont.)
+
+     De vez en cuando, podemos considerar necesario realizar un cambio importante en el software, ya sea para corregir un error o agregar una característica nueva importante.  Generalmente podremos asegurarnos de que las versiones existentes del software seguirán funcionando, pero esto no siempre es posible o deseable.  Si te dicen que tu software no está actualizado cuando intentas ingresar al juego en GEnie, esto significa que se ha realizado un cambio importante que requiere una descarga nueva.  Cuando esto suceda, siempre habrá una explicación de lo sucedido en las Notas de la versión, que se pueden encontrar en el menú Instrucciones en la página 870.
+Además, a menudo se realizarán cambios al final del programa GEnie para mejorar el rendimiento o agregar nuevas funciones.  El número de versión que el programa muestra en el banner cuando ingresa a la página 870 puede indicarle si el software GEnie se ha modificado recientemente.  Nuevamente, los detalles de cualquier cambio se colocarán en las Notas de la versión.  Debería acostumbrarse a estar atento a los cambios en el número de versión y leer las notas de la versión cada vez que cambie.  Muy a menudo, allí se explicarán cambios importantes en el juego, y estarás en una desventaja significativa si no lees sobre ellos.  La naturaleza de los juegos en línea es evolucionar con el tiempo, mejorando continuamente en respuesta a nuevas ideas.
+
+
+
+                         3. GUERRERO AÉREO CORRIENTE
+
+     El programa del microprocesador se inicia en "modo práctica".  En este modo se habilitan los menús Control, Planos y Opciones.  Puedes practicar volar un avión seleccionando el que desees en el menú Aviones (consulta Volar un avión para obtener más detalles).  Todo funciona en el modo de práctica excepto los elementos relacionados con el combate (como las armas, las bombas y los íconos de seguimiento), pero de todos modos no hay nada a lo que disparar.  Siempre comenzarás en el Aeródromo 1 del País A (generalmente denominado A:1), pero los demás aeródromos están todos presentes si quieres volar a ellos.  El modo de práctica está diseñado principalmente para que aprendas a volar bien el avión y, con suerte, a aterrizarlo de forma segura.  Una vez que domines el vuelo, es hora de subirte a GEnie y poner a prueba tu temple contra otros pilotos.
+
+     Para poner el programa en modo terminal, seleccione Elegir modo terminal en el menú Control.  El menú Configuración ahora se habilita, por lo que puede configurar correctamente la velocidad en baudios y otros parámetros de comunicación.  Puede utilizar los comandos de marcación manual para su módem o el solicitante de marcación, que se ha habilitado en esta versión para Amiga.  Los parámetros de comunicación y la cadena de marcado se guardan en un archivo llamado 'config'.  Es seguro eliminar el archivo de configuración antes de ejecutar el programa; Si el archivo no está presente, el programa establecerá de forma predeterminada todas las configuraciones de comunicaciones en valores razonables.  Si tiene problemas para que Air Warrior marque, un buen primer paso es eliminar el archivo de configuración y restablecer todas las configuraciones nuevamente.  Esto suele solucionar el problema.
+
+     Es importante estar en el programa Air Warrior, en modo Terminal, antes de seleccionar la opción de menú GEnie para ingresar a Air Warrior.  Las acciones que puede realizar un terminal normal en Air Warrior son limitadas.  GEnie lo resolverá eventualmente si cambia a la interfaz Air Warrior a mitad de ejecución, pero el proceso puede resultar confuso tanto para usted como para el sistema.  Cuando ingrese al programa Air Warrior en GEnie, se habilitará el menú Comandos.  El menú Comandos proporciona una forma cómoda de realizar operaciones comunes sin tener que recordar comandos.  Parece que todos los comandos están habilitados para Amiga en la versión 1.0, incluida la elección de un aeródromo y otros solicitantes impulsados ​​por "gadgets".
+
+
+
+
+
+
+                                                                            2
+
+
+                             4. VOLAR EL AVIÓN
+
+4.1 Resumen.
+
+     La práctica es lo más importante que puedes hacer para aprender a volar y luchar bien.  Utilice el modo de práctica del programa para dominar el aterrizaje, ya que conseguir un aterrizaje o una zanja es muy superior a saltar al final de la misión.  Las habilidades acrobáticas también pueden resultar útiles para eludir un avión que te sigue o hacer una maniobra elegante para subirte al de otra persona.
+La visualización gráfica en la pantalla de la computadora contiene toda la información que necesita para volar su avión.  La mayor parte de la pantalla la ocupa la imagen gráfica, que muestra lo que puedes ver desde tu avión.  Verás pistas, edificios, montañas, otros aviones y, a veces, armas o vehículos en tierra.  Parte de la imagen quedará oscurecida por su propio avión, que estará dibujado con cierto detalle.  Si ve otro avión o un objetivo terrestre y se encuentra a menos de 6000 yardas (menos para algunos objetivos pequeños), el programa mostrará textualmente el número de identificación del objetivo, el alcance hasta el objetivo en yardas y dos íconos pequeños y únicos que se usan para identificar el objetivo.  Aparecerá un icono debajo de la vista de la ventana de la cabina actual, directamente debajo del objetivo correspondiente.  El otro ícono aparecerá directamente encima del área de radar/texto y mostrará el número de identificación y el alcance hasta el objetivo en yardas.  Los diferentes iconos se pueden utilizar para distinguir pequeñas imágenes de otros planos en la pantalla, compensando el pequeño tamaño de la pantalla del ordenador.  Los íconos también estarán codificados por colores por país.  Los íconos grises son para el país A, los íconos amarillos son para el país B y los íconos rojos son para el país C.
+
+     Debajo de la imagen en la pantalla hay una representación del panel de instrumentos del avión.  Los instrumentos principales son el altímetro, el indicador de velocidad de ascenso, la brújula, el combustible, el aceite, la munición y los indicadores de velocidad del aire.  El altímetro tiene tres agujas, que representan decenas, centenas y miles de pies.  El Amiga tiene un indicador de velocidad de ascenso marcado en pies por minuto, con un rango de aproximadamente -2000 a 2000 pies por minuto de deflexión completa.  La brújula digital lee en grados, con el cero como norte y los noventa al este.  El consumo de combustible y aceite se indica mediante una barra deslizante de izquierda a derecha.  El consumo de munición, de manera similar, se indica mediante un dial analógico redondo.  El medidor de velocidad indica la velocidad real, pero también se puede cambiar para mostrar la velocidad indicada en el menú Opciones.  La velocidad indicada es la velocidad del avión en relación con el aire que lo rodea.  La verdadera velocidad del aire está en relación con el suelo.  La velocidad del aire se mide en nudos o millas náuticas por hora.  Un nudo equivale aproximadamente a 1,14 millas por hora.  Además, la frecuencia de radio actual se indica en la esquina superior derecha del panel de instrumentos. Un nuevo indicador es el acelerómetro o medidor de G.  Esto indica que el piloto y la estructura del avión sienten de -3 a 5 g en los giros y ladeos.  ¡Supera el límite estructural del avión y arrancarás las alas!
+
+     Otros indicadores en el panel de control son indicadores de control de aeronaves.  El cuadro grande en el centro del panel es la "caja de palos", o indicador de posición de los palos.  En la parte superior de la caja de mandos se encuentra el indicador de posición del timón; una pequeña barra gris que "cuelga" desde la parte superior de la caja.  El timón sólo afecta al vuelo en modo "experto".  Consulte 4.4 "Vuelo del avión para obtener una descripción de cómo volar con el timón. El indicador del acelerador muestra la configuración actual del acelerador. (Arriba para aceleración máxima). Los pequeños indicadores indican si el tren de aterrizaje está arriba o abajo, y la posición de los flaps. (Abajo para flaps máximos).
+
+     Los controles básicos del avión están en el ratón.  Empujar el mouse hacia adelante o hacia atrás baja y sube la nariz, respectivamente.  Mover el ratón de un lado a otro inclinará el avión, lo que lo girará en esa dirección.  Cuanto más inclinada sea la pendiente, más rápido será el giro.  Cuanto más rápido se mueve el avión, más inclinado tendrá que inclinarse para girar rápidamente.
+
+     Hay dos modos básicos de control del mouse, el modo experto y el modo no experto.
+
+                                                                            3
+
+
+                             4. VOLAR EL AVIÓN (cont.)
+
+4.2 Los Controles.
+El modo experto está diseñado para dar respuestas realistas a los movimientos del ratón, mientras que el modo no experto está diseñado para proporcionar un sistema de control simple y estable a costa de algo de realismo.  En el modo experto, un movimiento del ratón hacia la derecha hace que el avión se incline hacia la derecha; cuanto más se mueve el ratón, más rápido rueda el avión hacia la derecha.  Si mueve el mouse hacia la derecha y lo mantiene allí, el avión ejecutará un giro completo y seguirá rodando hasta que mueva el mouse nuevamente al centro.  Del mismo modo, tirar del ratón hacia atrás y mantenerlo allí hará que el avión pase por un bucle vertical completo.  Para ejecutar un giro controlado hacia la derecha, debes mover el mouse hacia la derecha, lo que hace que el avión gire hacia la derecha.  Una vez que alcance un ángulo de inclinación aceptable, como aproximadamente 45 grados, mueva el mouse hacia el centro para detener el giro.  Cuando el avión gire hacia el rumbo deseado, mueva el mouse hacia la izquierda para hacer girar el avión nuevamente al nivel, luego céntrelo cuando el avión se haya enderezado.
+
+     En el modo no experto, el ratón controla la posición real del avión en lugar de las posiciones de sus superficies de control.  Al mover el ratón hacia la derecha, el avión se inclina hacia la derecha; cuanto más a la derecha vaya, más pronunciado será el giro.  Para girar a la derecha, mueva el mouse hacia la derecha para inclinar el avión.  Cuando alcance el rumbo deseado, mueva el mouse nuevamente al centro para enderezar el avión.  A diferencia del modo experto, los movimientos del mouse aquí se parecen poco a los movimientos reales de la palanca en un avión, pero son fáciles de entender y fáciles de volar.  La variedad de maniobras que el avión puede realizar en este modo se limita básicamente a vuelo nivelado, ascensos, picados y giros.  Los bucles y maniobras más complejas requieren el uso del modo experto.
+
+     Con el botón izquierdo del mouse presionado, mover el mouse hacia adelante o hacia atrás ajustará el acelerador hacia arriba y hacia abajo (tenga en cuenta el indicador del acelerador en la pantalla que sigue el movimiento del mouse). Querrá usar el acelerador a fondo para el despegue y las subidas empinadas, con quizás un 70% de aceleración para una velocidad de crucero nivelada, y generalmente apagará el motor a un 20% aproximadamente para un descenso para aterrizar.
+
+     El botón izquierdo del mouse ya no le brinda bancos descoordinados en NINGÚN modo.  Cuando presiona la tecla "9" del teclado, esto bloquea la actitud de inclinación y "cambia" el botón izquierdo del control del acelerador al control de los elevadores para que pueda ajustar la actitud de ascenso/descenso de la aeronave.
+
+    Al hacer doble clic en el botón del mouse, se centrará la palanca, lo que resulta útil para ajustar el avión para que vuele recto en el modo experto o nivelarlo en el modo no experto.
+
+     También hay varios comandos de teclado.  Se dividen en tres categorías; los que se mantienen presionados para realizar una acción, los que se presionan una vez para iniciar una acción y los que son comandos orientados a líneas.
+
+
+4.3 Comandos de teclado "retenidos".
+
+4.3a Vista de cabina (teclas numéricas del teclado)
+
+     En el Amiga, al mantener presionada la tecla '4' podrás mirar hacia el ala izquierda del avión.  Mientras mantengas presionada la tecla, mirarás hacia la izquierda.  La tecla '6' hace lo mismo, hacia la derecha.  La tecla '2' se utiliza para mirar directamente detrás de usted.  La tecla '8' mira hacia arriba y la tecla '5' mira hacia abajo.  Tenga en cuenta que mirar hacia abajo no funciona muy bien en la mayoría de los aviones, todo lo que ve es el piso de la cabina.  Si mantienes presionadas las teclas '4' y '2', o '6' y '2' en combinación, obtendrás una vista "por encima del hombro e inclinada hacia un lado", lo que puede ser útil en un avión con un fuselaje alto detrás del piloto.
+
+                                                                            4
+
+
+                             4. VOLAR EL AVIÓN (cont.)
+
+4.3 Comandos de teclado "retenidos". (continúa)
+
+4.3a Vista de cabina (teclas numéricas del teclado) (cont.)
+Las teclas anteriores se pueden combinar con la tecla '8' para mirar hacia arriba y la tecla '5' para mirar hacia abajo.  Además, la tecla '-' del teclado permitirá combinar una vista hacia adelante con las teclas para arriba, abajo, derecha e izquierda.  Esto elimina muchos de los "puntos ciegos" anteriores en la vista de la computadora y hace que localizar a un enemigo sea mucho más fácil.
+
+     Al mantener presionada la tecla <Enter> se solicitará el mapa del radar.  La visualización del mapa muestra varias cosas.  Tu avión está representado por una pequeña línea blanca en el centro de la imagen.  El norte siempre está en la parte superior de la pantalla.  Las líneas de color verde oscuro representan cuadrículas de mapas (consulte la discusión sobre el Mapa).  Líneas cortas grises horizontales o verticales muestran las posiciones de las distintas pistas.  Las líneas rojas, amarillas o gris oscuro representan aviones cercanos, dentro de aproximadamente 8 millas.  Los bombarderos mostrarán una línea de color adicional para distinguirlos.
+
+     Cualquier avión que puedas ver por la ventana, con o sin un ícono de seguimiento, se mostrará en el mapa, con un ícono de seguimiento que te permitirá identificarlo.  Además de estos indicadores de posición real, cada sector del mapa dentro de un radio de dos sectores tendrá un conjunto de pequeños cuadros de colores a los lados que le indicarán cuántos aviones amigos y enemigos hay dentro del sector.  En el lado izquierdo, los pequeños cuadros amarillos representan aviones enemigos, los pequeños cuadros verde oscuro representan aviones amigos.  Tenga en cuenta que estos contadores solo se actualizan cada 45 segundos aproximadamente, mientras que los indicadores de posición real se actualizan continuamente.  ¡Tenga en cuenta también que las montañas NO se muestran en el modo radar!
+
+4.3b Movimiento de torreta con teclado
+
+     Las torretas operadas manualmente girarán únicamente con el uso de las teclas del teclado numérico.  La tecla "7" girará la torreta hacia la izquierda.  La tecla "9" girará la torreta hacia la derecha.  La tecla "1" hará girar la torreta hacia arriba.  La tecla "3" hará girar la torreta hacia abajo.  Consulte la sección 5 para una discusión más completa sobre consideraciones especiales al tripular un bombardero.
+
+4.3c Otras claves "retenidas".
+
+     Al mantener presionada la barra espaciadora, se presionará el pedal del freno para detener el avión en el suelo.
+
+     Mantener presionado el botón izquierdo del mouse controla el acelerador del avión, excepto cuando previamente se haya presionado la tecla "9" del teclado.  Luego, el botón izquierdo solo controla los ascensores para realizar ajustes de actitud de ascenso/descenso.
+
+
+4.4 Comandos de teclado "Alternar".
+
+     Al presionar SHIFT * se arrancarán los motores.  Para aviones con múltiples motores, deberá hacer esto para cada motor.  Un segundo SHIFT* apagará TODOS los motores.
+
+     Al presionar una barra diagonal "/" la radio cambiará al modo "enviar".  Verá un mensaje "/", lo que significa que puede escribir su mensaje.  Se enviará a través del canal de radio que haya sintonizado cuando presione regresar, lo que luego hará que la radio vuelva al modo "solo recibir".
+
+     Al presionar "'" se activará el intercomunicador cuando estés en un bombardero.  Todas las conversaciones del intercomunicador son privadas del avión y NO serán escuchadas por nadie, amigo o enemigo, en otro avión.  No tiene nada que ver con el canal de radio que se esté utilizando.
+                                                                            5
+
+
+                             4. VOLAR EL AVIÓN (cont.)
+
+4.4 Comandos de teclado "Alternar". (continúa)
+
+     Al golpear una "B", se lanzará una bomba.  ¡No debes hacer esto mientras estás sentado en el suelo!  Al presionar varias teclas se liberarán bombas sucesivas para aviones que puedan transportar más de una.  Los bombarderos deben tener las puertas de la bahía abiertas y haber cargado las bombas antes de seleccionar "/volar".  Los cazas, además, ya debían tener activado el modo bombardeo antes del despegue.
+El "." y las teclas "0" del teclado numérico se utilizan para controlar el timón del avión.  El control del timón no es necesario para giros ordinarios, porque el programa siempre asume competencia por parte del piloto y ajusta el timón automáticamente para un vuelo coordinado adecuadamente.  El control del timón se utiliza en modo experto para alejar el avión de la condición normal de vuelo estable.  Al presionar la tecla "0", el timón se moverá una posición hacia la izquierda, lo que hará que el avión gire hacia la izquierda.  Pulsando el "." La tecla moverá el timón a la posición derecha.  ¡El control de centrado del timón es ahora la tecla '3' del teclado!  La posición del timón se indica mediante una barra gris en la parte superior de la caja del mando.  La tecla '9' del teclado ahora cambiará el botón izquierdo del mouse del control 
+del acelerador al de la palanca solamente, bloqueando el banco y permitiéndole ajustar la actitud del avión.
+     Las teclas numéricas 1 a 4 del teclado (no del teclado) controlarán la distancia de la imagen fuera de la cabina.  "1" te da la imagen de alcance completo, "2" te da una imagen de alcance medio, "3" te da la imagen de corto alcance y "4" te da la imagen de alcance de combate.  Dado que el anfitrión debe actualizar estas imágenes constantemente, cuanto mayor sea el detalle (mayor alcance), más lenta será la actualización.  Por lo tanto, la imagen del campo de combate se actualiza con mayor frecuencia y sin problemas, lo que la hace fundamental para seguir visualmente correctamente a un objetivo durante las peleas de perros.  Al cambiar las imágenes en el modo de práctica, verá que las montañas y otros detalles a veces no se muestran en las imágenes de menor alcance debido a su distancia del avión.  En el rango de imagen de combate, estas características del terreno se mostrarán sólo cuando estés en peligro inminente de chocar contra ellas.
+
+     Pulsar la tecla ESC le dará acceso al modo de comando.  Consulte la sección 4.6 para obtener más información sobre estos comandos.
+
+4.5 Comandos de teclado poco utilizados.
+
+     Se utilizan otros tipos de comandos de teclado para controlar algún aspecto del plano que no se cambia con frecuencia.  Estos comandos son:
+
+    ;  - Subir o bajar el tren de aterrizaje.  Asegúrate de que tu equipo esté abajo antes de intentar aterrizar.  Aterrizar con el tren puesto es muy difícil y peligroso.  Tenga en cuenta que dejar el tren de aterrizaje bajado generará un exceso de resistencia, lo que puede ser bueno o malo dependiendo de si desea reducir la velocidad o acelerar.
+
+    > - Bajar las trampillas un punto.  Bajar los flaps se utiliza para aumentar la sustentación y la resistencia del avión, especialmente para el aterrizaje.  También la tecla "1" del teclado.
+
+    < - Levante las trampillas un poco.  Disminuye la resistencia (y la elevación) y puede usarse para 
+ganando velocidad y nivel de crucero.  También la tecla "7" del teclado
+
+    f - Dispara las ametralladoras en una ráfaga de 2 segundos.  Las armas tienen un alcance de 800 yardas en este momento (alcance efectivo de 400 yardas), y básicamente puedes alcanzar un objetivo que esté dentro de la mira.  El hecho de que esté en la caja no garantiza que lo acertarás.  Esta tecla duplica el clic derecho del ratón, que también disparará las ametralladoras.
+
+    x: activa y desactiva el "modo experto".  Puede entrar y salir del modo experto libremente, según lo amerite la situación.
+
+                                                                            6
+
+
+                             4. VOLAR EL AVIÓN (cont.)
+
+4.6 Comandos <Esc> orientados a líneas.
+
+     Los comandos del teclado orientado a líneas se utilizan principalmente para cosas que requieren comunicarse con GEnie, como hablar con otro avión.  Para ingresar uno de estos comandos, presione la tecla Escape (denominada en adelante <Esc>).  Aparecerá un mensaje ">" en su pantalla y todo lo que escriba se repetirá junto al mensaje.  Estos comandos finalizan con un retorno y se pueden cancelar ingresando Ctrl-x.
+Los comandos Fin (e) y Paracaídas (p) se utilizan para abandonar el avión y regresar al área de conferencia.  Debes estar estacionario en el suelo para finalizar, lo que implica un aterrizaje o amaraje exitoso.  El comando "p" (todos estos comandos deben ingresarse como su primer carácter) se puede ingresar en cualquier lugar, pero tenga en cuenta que el juego puede estar verificando maniobras estúpidas como saltar cuando está demasiado bajo para abrir el paracaídas.
+
+     El comando Armar (a) solo se puede utilizar mientras se está en tierra y se utiliza para armar y permitir el bombardeo de cazas que puedan transportarlos.
+
+     El comando Tune (t) se utiliza para sintonizar su radio a bordo.  Simplemente ingrese "t", luego un número de canal del 1 al 999. El canal 1 es un canal público, los demás son privados para cada país.  Cualquier charla de radio identificará al hablante. 
+comenzando con el número de identificación del jugador, si está en vuelo, o el nombre del jugador si 
+en una de las salas de conferencias o aeródromos.
+
+     EJEMPLO: 9999: ¡Tally ho!                (jugador 9999 en vuelo)
+     EJEMPLO: Blondie: ¿Dónde está la acción?   (jugador Blondie en el suelo)
+
+     El comando Intercom (') se usa en un avión multijugador (bombarderos) para hablar con otros miembros de la tripulación sin tener que usar una frecuencia de radio separada.  Por lo tanto, aún puedes monitorear tu frecuencia de radio actual sin que te escuchen discutiendo las tácticas de la tripulación.  Cualquier conversación a través del intercomunicador siempre se indica entre paréntesis alrededor del número de identificación del miembro de la tripulación que habla.
+     EJEMPLO: (9999): ¿Nos alcanzan?            (miembro de la tripulación 9999 en el intercomunicador)
+     EJEMPLO: 9999: ¿Estás golpeado?            (jugador 9999 en radio normal)
+NOTA: El intercomunicador también se puede iniciar simplemente escribiendo "'" en el campo inmediato. 
+modo.
+
+     El comando Lista (r) imprimirá una lista de aviones actualmente en vuelo.  La lista solo contiene otros jugadores, por lo que no aparecerás en la lista.
+
+     EJEMPLO: 9999 A Blondie (jugador 9999, país A, identificador "Blondie")
+
+     El comando Dónde (w) le indicará aproximadamente dónde se encuentra.  Le dará el sector de la cuadrícula del mapa donde se encuentra actualmente y el sector de la cuadrícula donde comenzó.
+
+     EJEMPLO: sector inicial 3,3
+              sector actual 3,2
+
+     El comando Bombsight (z) activará la mira, si el avión lleva una.  En los Bombers, esto cambiará a una pantalla de mira de bombas.
+
+     El comando Modo (m) se utiliza junto con "0", "1" o "2" para especificar el alcance del mapa de radar.  (es decir, <Esc>m1) El rango 0 mostrará el área justo dentro de su sector actual.  El rango "1" es 2 sectores y "2" es el rango máximo.  El valor predeterminado es 2. Es una buena idea utilizar el alcance del radar "0" para peleas de perros, ya que proporciona la máxima sensibilidad a la separación de aviones.
+
+     EJEMPLO: <Esc>m0 (cambiar a rango de radar "0")
+
+                                                                            7
+
+
+                             4. VOLAR EL AVIÓN (cont.)
+
+4.6 Comandos <Esc> orientados a líneas.  (continúa)
+
+     El comando Salto "j" permitirá a un miembro de la tripulación (pero no al piloto) de un bombardero "saltar" desde su posición actual de artillero a otra posición de artillero desocupada.  Esto permite que un bombardero que carece de una tripulación completa todavía tenga posibilidades de luchar contra el enemigo.  Debe especificar la posición deseada a la que "saltar" como una única abreviatura.
+
+     EJEMPLO: <Esc>jl (saltar a la torreta inferior)
+     EJEMPLO <Esc)jt (saltar al cañón de cola)
+     EJEMPLO <ESC>ju (saltar a la torreta superior)
+
+
+4.7 El menú de opciones.
+
+     El menú Opciones contiene varias funciones opcionales útiles que están activas tanto en modo local como en línea en GEnie.  Cada opción está activada o desactivada, representada por una marca de verificación en el menú.  Las opciones son:
+
+(1) Sight On/Off controla si se muestra una mira.
+
+(2) Bomb Sight On/Off controla si se muestra una mira de bomba en condiciones normales.
+     aviones.  Esta mira es útil para bombardeos en picado.  Cuando la vista está encendida, un
+     Una pequeña X aparecerá en algún lugar debajo de su avión en la ubicación aproximada.
+     donde caería una bomba.
+(3) Controles expertos es una forma adicional de activar y desactivar el programa.
+     modo experto.
+
+(4) El encendido/apagado del sonido del motor controla si el programa produce un zumbido
+     recuerda al motor de un avión.
+
+(5) Gun Sound On/Off controla si el programa produce un sonido similar al de las armas.
+     disparando.
+
+(6) Visible Tracers On/Off no está disponible actualmente en la versión Amiga
+     de Guerrero Aéreo.  Sin embargo, si estás dentro de los 400 metros del objetivo,
+     Verá aparecer un "rayado cruzado" de 45 grados en el objetivo si realiza un impacto.
+
+(7) La velocidad indicada On/Off hace que el indicador de velocidad aérea sea como el de un avión real.
+    avión; mostrando velocidad a través del aire, en lugar de velocidad relativa al
+    suelo.  ¡Estas dos cantidades son MUY diferentes!
+
+
+                           5. BOMBARDEROS: CONSIDERACIONES ESPECIALES
+
+     Si bien los bombarderos vuelan de la misma manera que otros aviones (aunque con sus propias características particulares de rendimiento de vuelo), existen comandos y consideraciones especiales que son necesarios mientras eres miembro de la tripulación.  Los miembros de la tripulación no necesitan seleccionar un bombardero, se les asignará según la selección del avión del piloto.  Cuando el piloto elija despegar, todos los miembros actuales de la tripulación serán colocados automáticamente en el avión en la pista; no necesitan utilizar el comando "/fly".
+
+     En este momento, sólo el piloto sabrá cuándo el avión está siendo alcanzado por fuego enemigo.
+
+     Los bombarderos también tienen un sistema de "intercomunicador" que permite a los miembros de la tripulación hablar entre sí sin tener que cambiar la frecuencia de radio para mantener una conversación privada.  Consulte la sección 4.6 para conocer los comandos del intercomunicador.
+
+                                                                            8
+
+
+                           5. BOMBARDEROS: CONSIDERACIONES ESPECIALES (cont.)
+
+5.1 Montaje de una tripulación.
+
+     El piloto es el único que puede aceptar miembros de la tripulación.  La formación de una tripulación debe realizarse en el aeródromo o sala de conferencias ANTES de seleccionar "/fly" (despegue) y solo después de que el piloto haya seleccionado un bombardero en el menú Aviones.    Los comandos de tripulación son:
+
+    /join (número de jugador piloto) (posición) - emitido por la posible tripulación
+
+    /aceptar (número de jugador de la tripulación) - emitido por el piloto del bombardero
+
+    /deny (número de jugador de la tripulación) - emitido por el piloto
+
+  Si el piloto decide cambiar a un bombardero diferente mientras ya tiene un 
+tripulación, toda la tripulación será descargada y deberá volver a postularse para sus puestos.
+
+
+5.2 Bombarderos - Posiciones de carga útil y tripulación disponibles.
+
+     NOTA: La posición del Navegador es básicamente la posición de un observador y no tiene control sobre el avión.  El navegante, sin embargo, puede "saltar" en vuelo a cualquier posición de artillero desocupada.
+
+5.2a Fortaleza Voladora B-17G. 12 bombas.
+
+     Piloto - sin arma
+     Navegador (posición de observador)
+     Artillero de cola - controlado a distancia
+     Artillero de torreta superior (dorsal) - controlado a distancia
+     Artillero de torreta inferior (de bola) - operado manualmente
+     Artillero de cintura izquierda - montado en giratorio
+     Artillero de cintura derecha - montado en giratorio
+     Torreta de barbilla - controlada a distancia
+
+5.2b B-25H Mitchell.  6 bombas.
+
+     Piloto - armas estacionarias
+     Navegador (posición de observador)
+     Artillero de cola - controlado a distancia
+     Artillero de torreta superior (dorsal) - controlado a distancia
+     Artillero de torreta inferior - controlado a distancia
+
+5.2c A26-B Invasor.  8 bombas.
+
+     Piloto - armas estacionarias
+     Artillero de torreta superior (dorsal) - controlado a distancia
+     Artillero de torreta inferior - controlado a distancia
+
+
+5.3 Bombas y bombardeos.
+
+     Cuando esté en el área objetivo, las puertas de la bahía de bombas deben estar abiertas para lanzar la ordenanza.  Esto se hace mediante el comando "<Esc>a".  Se emitirá un mensaje para informarle al piloto que las puertas de su bahía están abiertas.  Al emitir un segundo comando "<Esc>a" se cerrarán las puertas del compartimento.
+
+     La nueva versión del host cargará automáticamente el bombardero con bombas cuando se seleccione.  Recuerda esto si decides llevar un bombardero y NO deseas lanzar ninguna bomba.  Tendrás que deshacerte de ellos después del despegue (aléjate primero de la pista) para aumentar el rendimiento del avión.
+9
+
+
+                           5. BOMBARDEROS: CONSIDERACIONES ESPECIALES (cont.)
+
+5.3 Bombas y bombardeos.  (continúa)
+
+     El comando "<Esc>z" le dará al piloto la vista de mira.  Aparecerá una cruz que marcará el lugar donde caerán las bombas.  Si bien el piloto aún conserva el control de vuelo sobre el avión durante el lanzamiento de la bomba, cualquier movimiento excesivo de la palanca hará que la mira pierda su "bloqueo" en el objetivo y desaparezca hasta que se realicen cambios menos drásticos en las características de vuelo.
+
+     Una vez que las puertas de la bahía estén abiertas y tengas el objetivo en la mira, presionar la "b" en el teclado reducirá la mitad de tu carga útil.  Simplemente presione "b" por segunda vez para liberar la otra mitad.  Un segundo comando "<Esc>z" le devolverá la vista normal al piloto.  Tenga en cuenta que SÓLO el piloto puede utilizar la mira.
+
+
+5.4 Torretas.
+
+     Tripular un bombardero como artillero puede ser más divertido cuando los cazas enemigos se abalanzan sobre tu barco.  Recuerde que es posible que el piloto no pueda usar sus propias armas (si las tiene) y dependerá de usted para rastrear los objetivos visualmente o en  
+modo radar y destrúyelos antes de que el avión reciba demasiados impactos.
+
+     La mira de la torreta se mueve mediante el control del ratón.  Debes tener el objetivo casi exactamente centrado para registrar un impacto.
+
+  Las posiciones de la torreta tienen todos los alcances de imagen y radar disponibles para ayudarles a localizar objetivos.  También tienen las vistas posicionales normales. Sólo pueden disparar en la dirección a la que apunta la torreta, por lo que un artillero debe "rotar" la torreta en otras direcciones para posiciones de artillero con torretas giratorias.  Hay tres tipos de torretas.
+
+5.4a Torretas operadas manualmente. (es decir, torreta de bolas B-17)
+
+     Las torretas operadas manualmente utilizan las teclas del teclado para girar y apuntar.  El teclado "7" girará una torreta hacia la izquierda.  La tecla "9" girará la torreta hacia la derecha.  La tecla "1" hará girar la torreta hacia arriba.  La tecla "3" hará girar la torreta hacia abajo.
+
+5.4b Torretas controladas remotamente. (es decir, ambas torretas A-26, torreta B-17 Chin)
+
+     Las torretas controladas remotamente apuntan a la mira moviendo el mouse por la pantalla.  Mover la mira hacia los bordes de la pantalla hará que la torreta se mueva en esa dirección.  Lo más probable es que tengas que volver a centrar la mira en el objetivo después de un gran movimiento de rotación.
+
+5.4c Pistolas montadas giratorias.  (es decir, pistola de cintura B-17)
+
+     Las pistolas montadas giratorias se apuntan únicamente moviendo la mira con el mouse.  Dado que estas armas sólo pueden apuntar en una dirección en la vida real, no hay controles de rotación para ellas.
+
+
+5.5 Misiones con tripulación insuficiente.
+
+     Cuando un bombardero no tiene suficiente tripulación, el artillero (o artilleros, si existen más de 2 posiciones de arma para ese avión) pueden "saltar" desde su posición actual a una posición de arma desocupada emitiendo el comando "saltar".  El piloto no podrá abandonar su puesto en ningún momento.  Consulte la sección 4.6 para conocer los comandos de "salto".
+
+
+
+                                                                           10
+
+
+                           6. LAS SALAS DE CONFERENCIAS
+
+6.1 Resumen.
+
+     Cuando ingrese a Air Warrior en GEnie, estará en la sala de conferencias general uno.  Aquí puedes hablar con otros jugadores, mirar quién está volando o pasar a una sala de conferencias diferente para mantener conversaciones privadas.  Hay un total de nueve salas de conferencias generales, abiertas a cualquier persona sin importar su nacionalidad (están ubicadas en un país neutral).  Las salas de conferencias generales también están abiertas a usuarios con terminales normales, por lo que puedes entrar y hablar incluso si no tienes el software adecuado.  Si quieres discutir algo con gente de otros países, o burlarte de ellos por su mal vuelo, lo haces allí, en las salas de conferencias generales.
+Cada país cuenta con una sala de conferencias ubicada en su sede.  Esta sala de conferencias está abierta solo para jugadores que pertenecen a ese país, por lo que puede usarse para planificar misiones u otras discusiones delicadas.  La sala de conferencias de la sede también está abierta a los usuarios de terminales normales, para que puedan participar en estos debates si es necesario.
+
+     Cada aeródromo importante también tiene una sala de reuniones donde los pilotos que se preparan para el despegue o que regresan de misiones pueden hablar.  Estas salas de información están abiertas sólo para usuarios del software de la terminal Air Warrior y, por supuesto, sólo para miembros de ese país.  Desde la sala de instrucciones del aeródromo, puedes emprender el vuelo seleccionando el avión que desees en el menú Aviones o ingresando el comando de teclado adecuado.
+
+     Las salas de conferencias ofrecen una forma cómoda de hablar con otros pilotos, todos sentados alrededor de la misma mesa, por así decirlo.  Si quieres hablar con pilotos en otros aeródromos o en vuelo, debes utilizar la radio.  Para ir a una sala de radio y ponerse unos auriculares, simplemente ingrese el comando apropiado para seleccionar una frecuencia de radio.  Las frecuencias van del 2 al 999 y cada país utiliza una banda separada.  La frecuencia 1 es un canal común especial que le permite hablar con aviones de otros países, siempre que también estén sintonizados en el canal 1. Con los auriculares puestos, no podrá escuchar la conversación que se desarrolla en la sala de reuniones, pero escuchará todo lo que digan los demás en su frecuencia.
+
+     En vuelo podrás sintonizar cualquier canal del 1 al 999, igual que en las salas de radio.  Deberías ser parco en la charla durante el vuelo, todos (incluido tú) estarán ocupados pilotando sus aviones.
+
+
+6.2 Comandos de Sala.
+
+     Los siguientes comandos de teclado están disponibles en cualquiera de las salas de conferencias generales, en la sede o en las salas de información de los aeródromos.  Cualquier comando indicado con un "*" está habilitado en el menú Comando y se puede seleccionar desde la barra de menú para facilitarlo.
+
+     Para hablar con las otras personas en la sala, o hablar por radio si tiene auriculares puestos, simplemente escriba lo que quiere decir sin necesidad de barra ("/").  Todos los demás comandos del programa comienzan con una barra diagonal ("/").  Los comandos se pueden abreviar a unicidad, a menudo un solo carácter después de la barra.
+
+    /bomb # - carga # bombas en el avión.  Si no se especifica ningún número, o si el número
+               excede la capacidad de carga útil, entonces el número máximo de bombas será
+               cargado.
+
+    /help: imprime una lista de los comandos disponibles de la sala de conferencias.
+
+* /end o /exit - Deja Air Warrior y regresa a GEnie.
+
+
+                                                                           11
+
+
+                           6. LAS SALAS DE CONFERENCIAS (continuación)
+
+6.2 Comandos de Sala.  (continúa)
+
+* /handle (nombre): cambia el identificador por el que eres conocido en Air Warrior.
+                      Inicialmente será el mismo que su identificador de correo de GEnie.
+
+* /roster - Imprime una lista de los demás en Air Warrior, mostrando qué habitación
+               en que se encuentran si están en tierra y en qué tipo de avión
+               han seleccionado, si los hubiera.
+
+    /quién (número de identificación del jugador): imprime registros detallados sobre la persona que especifique.
+                          El número que das es el número al lado de ese.
+                          nombre de la persona en un comando /roster, p.e. "/quién 3046".
+                          Estos registros mostrarán los totales de misión de esa persona.
+                          y tiempos de vuelo para las categorías de exitosos
+                          misiones, misiones que terminan abandonando el avión,
+                          misiones que terminan rescatando a amigos
+                          territorio y misiones que terminan en un accidente o rescate
+                          sobre territorio enemigo.  Ver la discusión de
+                          Puntuación para una definición precisa de estas categorías.
+
+* /status (número de identificación del jugador): imprime el estado de otro miembro de tu
+país, como el avión que se utiliza actualmente, y
+                             si hay o no pasajeros o artilleros en 
+                             abordar el avión. Utilice este comando para determinar
+                             ¿Qué ranuras están abiertas en un avión que puede transportar más?
+                             de una persona.
+
+* /hq - Muévete a tu sede nacional.
+
+* /general (número de habitación): este comando se utiliza para pasar a una de las habitaciones generales.
+                         salas de conferencias.  p.ej. "/generación 1".  Si omites el
+                         número, irá a la sala de conferencias general 1.
+
+* /airfields: imprime una lista de aeródromos activos y la información pertinente.
+                  información sobre cada uno.
+
+* /goto (número de aeródromo): muévete a uno de los aeródromos de tu país.  debes hacer
+                          esto antes de que puedas despegar.  tienes que estar corriendo
+                          el software Air Warrior para que este comando tenga éxito.
+
+* /avión (número de pedido del avión): seleccione un avión.  Debes estar en un aeródromo para usar
+                              este comando y, por supuesto, debes estar ejecutando
+                              el software Air Warrior.
+
+* /fly - Iniciar un vuelo. Esto lo ubicará a usted y a los pasajeros que tenga
+            el avión.  Aparecerá la pantalla de gráficos y el resto depende de
+            ¡tú!
+
+    /tune (canal #): lo colocará en la sala de radio y le colocará unos auriculares.
+                         para que puedas hablar y escuchar en la radio de los canales 1
+                         al 999.
+
+    /reserve (teatro #) - La versión 1.0 tiene dos salas de combate, y debes
+                          elige uno para poder volar.  El teatro 1 es el habitual.
+                          Versión para tres países.  El teatro 0 es un especial
+                          versión para dos países que se utilizó para probar V 1.0 y
+                          Es ideal para el combate con aviones de la Primera Guerra Mundial.
+
+
+
+
+                                                                           12
+
+
+                           6. LAS SALAS DE CONFERENCIAS (continuación)
+
+6.3 Formación de Escuadrones (Equipos).
+
+     Todos los comandos del escuadrón se ejecutan desde las salas de conferencias, es decir, no hay un menú de equipo separado a diferencia de nuestros otros productos. La estructura general de los equipos es muy parecida a la de Stellar Warrior, sin embargo, la principal diferencia es que no hay "telegramas"; el líder y el posible nuevo miembro del equipo deben estar en la misma sala para intercambiar los comandos de invitación y aceptación. Esto no debería presentar ningún problema para un juego estructurado como este. Los comandos son:
+
+  /invitar <número de envío>: envía una invitación a alguien.  Si no tienes
+                              Aún no hay equipo, se crea uno nuevo.
+  /rename <nuevo nombre> - Cambia el nombre de tu equipo.
+  /team [<número de equipo>] - Muestra la lista de tu propio equipo o el especificado
+                              equipo.
+  /retirarse: retirarse de su equipo.
+  /expel <número> - Expulsar a un miembro.  Debes ser el líder.
+  /disband: disuelve el equipo.
+  /accept <número de equipo>: acepta una invitación para unirse a un equipo.
+
+     La forma en que una persona se une a un equipo es acorralando al líder en una sala de conferencias en algún lugar.  El líder emite un comando de invitación, que imprime un mensaje en la pantalla de la persona.  Luego ingresan aceptar <número de equipo>, lo que los coloca en el equipo.  Si han cambiado de opinión, pueden simplemente ignorar la invitación.  Tenga en cuenta que el líder y el posible miembro deben estar en el mismo país y en la misma habitación.
+
+  Tenga en cuenta que NO es necesario ser miembro de un equipo en particular para tripular un bombardero, ni la membresía en un equipo impide tripular un bombardero con miembros que no sean del equipo.
+
+
+
+                                 7. PUNTUACIÓN
+
+7.1 Resumen.
+Puedes ganar puntos básicamente de una sola manera: infligiendo daño a un país enemigo.  Puedes derribar aviones enemigos o ametrallar y bombardear objetivos terrestres enemigos.  Más adelante se añadirán posibilidades de misión adicionales.  Obtendrás una puntuación por dañar un objetivo y una puntuación adicional si logras destruirlo.  Una vez que hayas ganado puntos por tus acciones en el aire, tendrás que devolver tu avión a la base para obtener crédito por tus victorias.  Se otorga crédito parcial o total en cuatro categorías de puntuación dependiendo de cómo termine su misión.  Las cuatro categorías de puntuación son: misión completada, abandonado, rescatado y estrellado/derribado.  Estos se definen de la siguiente manera:
+
+
+7.2 Categorías de puntuación de misiones.
+
+     Las misiones completadas son misiones en las que aterrizas con éxito el avión en un aeródromo amigo, lo detienes por completo y luego presionas el comando Finalizar.  Esto registrará todos los puntos obtenidos en la misión y recibirás el crédito completo por la misión.
+
+     Las misiones abandonadas son misiones que terminan con un aterrizaje suave exitoso en territorio amigo, pero no en una pista.  Tienes que tener más cuidado al aterrizar lentamente que si aterrizas en una pista, ¡y debes tener el tren de aterrizaje bajado!  Una misión que termina en un amaraje, seguida de una orden de finalización, valdrá la mitad del crédito, pero es mucho más fácil que aterrizar en una pista.  Aterrizar en territorio enemigo es muy malo (entregar un avión intacto al enemigo es lo peor que se puede hacer) y cuenta más como un accidente que como un aterrizaje exitoso.
+                                                                           13
+
+
+                                 7. PUNTUACIÓN (continuación)
+
+7.2 Categorías de puntuación de misiones.  (continúa)
+
+     Puedes salir de tu avión en cualquier momento y, si estás sobre territorio amigo, recibirás un tercio del crédito por la misión.  Salir sobre territorio enemigo equivale a ser derribado, porque el piloto, si sobrevive, será prisionero de guerra.  Por lo tanto, un rescate en territorio enemigo se trata de la misma manera que un accidente.
+
+     Si estrella el avión o lo derriban, su puntuación se registrará en la cuarta categoría, que vale un cuarto de crédito.
+
+     Hay una categoría adicional que actualmente no aparece en el marcador.  Esta es la categoría de "error del sistema", para todas las misiones terminadas por un apagado del sistema o una falla del software host de Air Warrior (por muy improbable que sea).  Se otorgará crédito completo por cualquier misión en progreso si ocurre uno de estos desafortunados eventos.
+
+
+7.3 Definiciones de puntuación.
+
+     El criterio para que se te conceda una muerte en un avión enemigo consiste en lo siguiente: debes infligir daños graves al enemigo y el avión debe estrellarse o saltar en cinco minutos.  Si más de una persona impacta el avión, la muerte se otorgará al avión que cumpla con el criterio anterior y que haya causado el mayor daño.  Los puntos siempre se otorgan por infligir daño, pero Air Warrior no dividirá los puntos por la muerte entre varios pilotos.  No se permiten muertes fraccionadas.  La puntuación funciona de la siguiente manera (tenga en cuenta que todos los números reales no son necesariamente definitivos, pero creo que el enfoque está bien):
+
+     No obtienes NADA por matar un avión de tu propio país, ni puntos ni un derribo. Esto también se aplica a los robots amigables.  Si derribas DOS amistosos, ese país ya no te entregará municiones y tendrás que cambiar de bando.
+La mayoría de los aviones tienen un valor base de 500 puntos.  Los valores varían de 550 a 550, dependiendo de lo difícil que sea matar ese avión.  El valor base del avión se ajusta mediante dos factores de bonificación. En primer lugar, cualquier muerte de un caza o bombardero enemigo obtiene una bonificación que varía según la cantidad de muertes de aviones que hayas obtenido en la misión actual.  Actualmente, la primera muerte otorga una bonificación del 5 % (de hecho, aumenta el valor base de un avión a 525), la segunda otorga una bonificación del 10 % (lo que hace que la segunda muerte valga 550), y así sucesivamente.  Esto tiene como límite una bonificación máxima del 30%, o 650 puntos por muerte.  Esto proporciona un ligero incentivo para realizar misiones valientes y prolongadas en lugar de volver al campo después de la primera muerte para registrar tus puntos.  Las misiones más largas son más eficientes para el país y reciben recompensas. Los objetivos terrestres (como King Kong y cañones de ataque, y futuros tanques y formaciones de tropas) no obtendrán esta bonificación ni se suman a tu cuenta de muertes.
+
+     En segundo lugar, cualquier muerte que tenga lugar en territorio enemigo obtiene una bonificación adicional del 20% por su aventureridad.  Este es un experimento.  Queremos que la gente vuele y pelee en lugar de inventar formas de ganar puntos en tierra en aeródromos amigos.  La defensa es algo bueno, pero la ofensiva parece menos sujeta a posibles abusos.  Si logramos estructurar el resto de la puntuación para que no se produzcan los habituales abusos tontos, seremos más sofisticados e interesantes con este bono.
+
+     La mayoría de los objetivos terrestres valen actualmente entre 100 y 200 puntos.  Estos están sujetos al bono de territorio enemigo del 20%, pero no al bono de recuento de muertes.
+
+
+
+                                                                           14
+
+
+                                 7. PUNTUACIÓN (continuación)
+
+     Cuando dañas un objetivo aéreo, también obtienes algunos puntos.  Obtienes una fracción (actualmente 1/3) del valor de muerte del objetivo, proporcional al porcentaje de daño que infliges.  Si infliges un 20% de daño al avión en un disparo, obtendrás 1/3 del valor del objetivo.  También se aplican las dos bonificaciones anteriores. Los objetivos terrestres no dan puntos de daño, sólo puntos cuando mueren.
+
+
+7.4 Cálculo de Daños.
+
+     Se ha introducido un nuevo esquema de cálculo de daños que maneja los impactos de armas en aviones de una manera mucho más detallada (y por lo tanto realista).  Cada vez que un avión recibe un impacto, en lugar de dividir uniformemente sus capacidades, se intenta determinar dónde fue impactado el avión y cómo debería fallar.  Los tipos de daños que puede sufrir un avión son:
+
+          Fugas de combustible
+          Fugas de aceite (provocarán fallas en el motor cuando se acabe el aceite)
+          Pérdida de sustentación
+          Pérdida de alerones (tasa de balanceo)
+          Pérdida de la superficie de la cola (control de actitud)
+          Flaps o tren de aterrizaje atascados
+          Fallo inmediato del motor (baja probabilidad)
+
+
+7.5 Categorías de acumulación de puntos.
+
+     Los puntos se acreditan en varias categorías internamente, actualmente los puntos se obtienen al matar objetivos terrestres y los puntos se obtienen al matar o herir objetivos aéreos, para cada uno de los 4 tipos de finalización de misiones.  También se ha asignado almacenamiento para los puntos obtenidos al pilotar un bombardero, al operar una torreta en un bombardero y para futuras expansiones a tanques y barcos.  El comando OMS suma estos diferentes tipos para imprimir la columna Puntuación, pero podremos hacer algo interesante más adelante si los mantenemos separados.  Del mismo modo, las muertes de cazas y bombarderos se registran por separado para la columna Muertes del comando de la OMS.
+
+      Tenga en cuenta que no hay puntuación de tiempo de vuelo. No creemos que tenga ningún mérito otorgar puntos por el tiempo de conexión. Es demasiado difícil determinar las misiones reales "iniciar sesión y dejar que el avión dé vueltas durante 2 horas y luego aterrizarlo". Nos interesan las habilidades, no la riqueza o el umbral del aburrimiento. ¡Creo que todos los demás también!
+
+
+
+                                 8. EL MAPA
+El mundo se compone de tres países, cada uno de los cuales ocupa una región de unas cincuenta millas de lado.  El mundo está dividido en una cuadrícula de ocho por ocho, y cada sector de la cuadrícula tiene 65536 pies de lado, o aproximadamente doce millas y media.  Los sectores de la cuadrícula están numerados del 0 al 7 en cada dirección, de modo que el sector (0,0) está en la esquina suroeste del mundo ocupado y el sector de la cuadrícula (7,7) está ubicado en la esquina noreste.  Estos sectores de cuadrícula se utilizan para dar la ubicación general de pistas y otros aviones.
+
+     Los propietarios de Amiga tienen dos opciones para obtener un mapa del mundo.  Hay archivos de imágenes para mapas tanto en el área del software Air Warrior como en el área del software Amiga RT (biblioteca n.° 9) disponibles para descargar.
+
+
+
+
+
+                                                                           15
+
+
+                                 9. LOS AVIONES
+
+     Las versiones actuales de Air Warrior admiten catorce tipos diferentes de aviones.  Los siguientes cuadros ofrecen una breve descripción de los aviones principales.  Los aficionados a la aviación pueden notar algunas divergencias en los siguientes gráficos con respecto al rendimiento de sus aviones favoritos.  Los gráficos reflejan el rendimiento real del programa en lugar del valor realista exacto.  A medida que obtengamos mejores datos y refinemos la simulación, las cifras se acercarán más al realismo preciso.
+
+9.1 Lista de aviones actuales en la versión 1.0
+
+9.1a Aviones de combate de la Segunda Guerra Mundial
+
+          Mustang P-51D
+          Mitsubishi A6M5 cero
+          ME 262A-1a (jet - no siempre disponible en todos los aeródromos)
+          Spitfire MK IX
+          YO 109G-6
+          Focke-Wulf 190A-8
+          Hawker-Huracán MK II
+          F4U-1D Corsario
+
+Bombarderos 9.1b
+
+          Fortaleza Voladora B-17G
+          B-25H Mitchell
+          Invasor A-26B
+
+Aviones 9.1c de la Primera Guerra Mundial
+
+          Triplano Fokker Dr.1
+          camello sopwith
+          Spad S.XIII
+          Fokker Dr.VII
+
+
+9.2 Estadísticas de vuelo de aeronaves importantes.
+
+9.2a P-51D Mustang.
+
+     El Mustang fue quizás el mejor caza propulsado por hélice jamás producido, y el modelo D fue el más producido en la Segunda Guerra Mundial.  El Mustang estaba propulsado por un motor Merlin fabricado por Packard de 1490 hp, lo que le otorgaba una velocidad máxima de más de 430 mph.  El peso al despegue fue de alrededor de 8600 libras, dependiendo del combustible y la carga de armas.  El armamento era generalmente de seis ametralladoras.  El P-51D podía transportar hasta dos bombas de 1000 libras bajo las alas.  El siguiente cuadro describe el rendimiento del avión según el modelo de Air Warrior.
+
+        Altitud (pies) Velocidad máxima (mph) Velocidad de ascenso (fpm)
+            0 340 3960
+         4900 356 3900
+         9800 373 3840
+        14800 393 3760
+        21300 421 3645
+        26200 435 3300
+        31200 428 2448
+        36000 416 1676
+        41000 386 780
+
+
+
+
+
+                                                                           16
+
+
+                                 9. LOS AVIONES (continuación)
+
+9.2 Estadísticas de vuelo de aeronaves importantes.  (continúa)
+
+9.2b Spitfire Mark XIV.  (Usado antes de V1.0)
+
+     El Supermarine Spitfire era el mejor avión de combate de Gran Bretaña.  El Spitfire Mark XIV era un modelo de finales de la guerra (1944), capaz de defenderse junto al Mustang contra los mejores de la Luftwaffe.  Estaba propulsado por un motor Roll Royce Griffon de 2050 hp, lo que le daba la velocidad para luchar contra los aviones y la bomba V-1.  El Spitfire estaba fuertemente armado, con 2 cañones de 20 mm y 4 ametralladoras.  Tal como lo modela actualmente Air Warrior, el Spitfire tiene un rendimiento muy similar al P-51D MUstang, pero mejor velocidad y velocidad de ascenso por encima de los 30000 pies.
+
+
+9.2c Focke Wulf 190D-9.  (Usado antes de V1.0)
+El Focke Wulf 190 fue uno de los aviones de combate alemanes de mayor éxito y se considera la columna vertebral de la Luftwaffe.  El FW-190D-9 fue el último modelo de la guerra, producido en grandes cantidades en 1944 y 1945.  Podía transportar una bomba de 1000 libras y tenía 2 cañones de 20 mm y 2 ametralladoras.
+
+        Altitud (pies) Velocidad máxima (mph) Velocidad de ascenso (fpm)
+            0 380 4350
+         4900 400 4300
+         9800 418 4240
+        14800 432 3943
+        21300 427 2900
+        26200 421 2191
+        31200 395 972
+
+
+9.2d Messerschmitt 109K-4.  (Usado antes de V1.0)
+
+     El Me 109 fue el avión de combate más producido en la Segunda Guerra Mundial, más de 35.000 en total.  El último modelo K, producido en 1943, era el más rápido y potente de todos, con un motor de 2.000 CV, frente a los 610 CV del primer modelo. Llevaba un cañón de 30 mm y 2 cañones de 15 mm.
+
+        Altitud (pies) Velocidad máxima (mph) Velocidad de ascenso (fpm)
+            0 375 3476
+         4900 392 3404
+         9800 411 3325
+        14800 432 3236
+        21300 442 2636
+        26200 443 1895
+        31200 416 1215
+        36000 384 587
+
+
+
+                              10. CONCLUSIÓN
+
+     Air Warrior todavía se encuentra en sus etapas de formación y continuamente se realizan muchos cambios en el juego.  ¡Mantente al tanto de los cambios en el juego revisando las notas de la versión con regularidad!  También hay una discusión sobre Air Warrior en la Mesa Redonda de Juegos de Scorpia, damos la bienvenida a más participantes allí.
+
+
+
+
+
+                                                                           17

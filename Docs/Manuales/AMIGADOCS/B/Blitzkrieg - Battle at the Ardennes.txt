@@ -1,0 +1,1050 @@
+		Blitzkrieg at the Ardennes
+
+Introduction: Blitzkrieg at the Ardennes sumulates one of the 
+most decisive battles of WWII.  On Dec 16, 1944, to coincide
+with several days of bad weather, Hitler ordered directive
+"Wacht am Rhine."  The German plan was to quickly strike
+weakened Allied lines in Belgium and Luxemburg and to
+breakthrough and push quickly to the Meuse River to capture
+the Leige and finally the port city of Antwerp.  The capture
+of Antwerp was essential to postpone the invasion of
+Germany, and give the Fuhrer a chance to honor his 
+promises of secret weapons that would win the war.  But the
+chances of success were remote.  The Germans were 
+desperately low on fuel and the Allies had firm control of
+the air, and strategic superiority in Europe.
+
+Overview: Blitzkrieg at the Ardennes is an interactive computer
+simulation composed of a set of rules, a terrain map, and set
+of units representing the opposing forces.  The map or
+battlefield is an area composed of 1700 hexagonal cells
+(hexes).  Each cell is assigned a terrain type of mountain,
+plain, forest, city, or siegfried.  The normal display is a
+subarea or "window" into this battlefield eight cells wide by
+six cells high.  Positioning the pointer at any edge of the
+screen causes the display to move in that direction one hex.
+At this resolution the strengths and status of all units is
+visible.  The next level of resolution can display about one
+half of the battlefield.  individual units and nationality are
+visible with artillery and infiltrator units a different shade.  A
+large scale display of the entire area is also available.  It is
+possible to use these maps to move the display rapidly from
+one area of the battlefield to another (see NAVIGATION).
+
+The attacker moves his units around the map encountering
+and engaging the units of the enemy.  The various types of
+units have combat strengths and movement abilities
+associated with them.  These are modified by the terrain.  A
+tank for example moves more rapidly down a road than
+Through a forest.
+
+All interaction with the simulation can be done with the
+mouse, although there are command key alternatives provided
+
+						Page 1
+
+
+
+for all items on the menu.  Moving a unit or units for
+example would involve selecting "collect" from the menu (or
+pressing the right Amiga key and the letter "c" similtaneously)
+positioning the pointer over the unit to be moved and
+pressing the left mouse button.  The selected unit would then
+disappear from the map and move to a special area of the
+screen called the raster.  Up to 27 additional units can be
+"collected" in the same manner.  Logically these units would
+then be either moved to some stragic objective if it were
+unguarded, or to an area where it could engage the enemy at 
+favorable odds.  This would be done by selecting "deposit"
+from the menu, positioning the pointer over the desired
+destination and clicking the left mouse button.  Assuming
+that the move is legal, the unit will disappear from the raster
+and reappear at the desired location.  Whenever a unit is
+adjacent to an enemy unit in can engage the enemy unit in
+combat.  The units participating in the engagement are
+indicated with the mouse.  When the details of all the
+engagements are defined the battle resolution phase can
+begin.  
+
+The battle is resolved one engagement at a time, in the order
+that they are selected by the attacker.  Selection is done
+"picking" with the mouse any unit in that engagement.  The
+outcome of the battle is determined by the relative strengths
+of the units involved (modified by their position in terrain)
+and a random factor (die roll).  All calculations are done
+automatically.  The "odds" or relative strengths  of the units
+were calculated and shown to the player as he defined the
+engagement.  The roll of the die commenced with the
+selection of the engagement.  The result of the engagement is
+then announced with a message at the bottom of the screen.
+Adjustments related to battle damage are made automatically.
+Any advance or retreat of units must then be done by the
+player owning those units.  When all units are serviced the
+next engagements may be resolved.  When the last engagement
+in the battle is resolved the next turn begins.
+
+The preceding explanation consists of only the bare
+essentials.  There are many other details involved.  These
+details are, we think, exactly what one would expect when
+
+
+
+						Page 2
+
+
+one considers the implications of the situation.  This is after
+all a simulation.  The object of a simulation is realism.  There
+are also a great number of player aids incorporated.  It is
+impossible to violate the rules.  Informational messages are
+displayed whenever this is attempted.  The following section
+details the Menu Picks or modes.
+
+
+
+
+
+						Page 3
+
+
+MENU: The menu is activated by moving the pointer to the
+upper right hand corner of the display screen and holding
+down the right mouse key.  When the menu appears slide the
+pointer over the menu entry you wish to activate and release
+the right mouse button.  All menu picks have command key
+alternatives which are displayed next to the text in the menu.
+Pressing the right Amiga key and the indicated letter will
+select that menu function.  The current menu mode will be
+displayed at the top of the screen.
+
+Not all menu picks result in an explicit action.  Some define
+the context within which mousebutton activities will be
+interpreted.  There are basically only three things you can do
+with the mouse: position the pointer on the screen, press the 
+left button or press the right button.  In order to perform the
+command functions of the simulation there must be different
+contexts under which this action occurs.  For example if the
+pointer is positioned over a unit and the left mouse button is
+pressed what can that mean?  In a general sense we will say
+that the unit has been "selected".  What happens then will be
+the function of the "mode".  With a few exceptions the mode
+is what is selected from the menu.  Most of the menu picks
+establish modes.  They are:
+
+
+VIEW: If there are more than one unit in a hex some part of
+the other units will be obscured fro view.  In this mode,
+positioning the pointer over the visible part of the unit and
+pressing the left mouse button will rearrange the positions of
+the units so that the selected unit is entirely visible.  If the
+unit happens to be in an engagement, the odds for that
+engagement will be displayed.
+
+
+COLLECT: Selection of a unit while in this mode will cause
+the unit to be removed from the map and placed in a special
+area of the screen called the raster.  If the selected unit is part
+of an engagement, the selected unit will be removed from the
+engagement and the odds for that engagement recalculated
+and displayed.  Up to 27 units can be "collected" in this
+mode.
+
+
+						Page 4
+
+
+
+DEPOSIT: The last unit in the raster is deposited into the
+hex which is under the pointer, provided that this is a legal
+move.  If the hex contains other units which are engaged and
+the pointer is positioned over the visible part of one of these,
+the unit in the raster will be added to the engagement and
+the recalculated odds displayed.
+
+ARTILLERY: In this mode unit selections will be interpreted
+as, associating artillery pieces, and their targets.  The first
+selection will be interpreted as a firing unit selection.  The
+hex containing the unit will turn black.  The next selection
+will be interpreted as the target.  After the target is selected
+the hexes containing artillery and target will return to their
+previous appearance.  The artillery unit will contain a square
+in the upper right hand corner indicating that it has been
+assigned a target and the target will contain a square about
+one third of the way down the right edge of the unit marker
+indicating that it is a target.  If the target is in an engagement
+the square on the artillery marker will have the color of the
+engagement (see ENGAGE).  One artillery cannot target
+multiple units but any unit can be targeted by as many
+artillery units as are in range (three hexes in any direction).
+Artillery can be targeted during any time after reinforcements
+(if any) have been deployed and before battle resolution
+has begun.  In addition, the Allies, after battle resolution has
+been finished may elect to give protective fire to any of their 
+units in range.  The mechanics of this process is the same as
+offensive fire except friendly units are selected as targets.
+Then at the beginning of the German resolve turn, the
+selected artillery will automatically fire on the largest
+German unit in range that was attacking the selected Allied
+unit.
+
+
+ENGAGE: Unit selections will define engagements.  The
+sequence of selection is of some importance.  An attacking
+unit can engage the units in any adjacent hex.  All defending
+units in any hex enter the engagement as one group i.e. the
+defending units in any hex can belong but to a single
+engagement.  Attacking units occupying the same hex can
+
+
+						Page 5
+
+
+
+engage different defending units in the same or different
+hexes.  One attacker could have combat with several defending
+units on separate hexes but the strength of the defending
+units remains one number.  This restriction prevents the
+construction of a "chain" of engagements extending across the
+board.  As a result every engagement will consist of units
+from at most seven hexes-the "central" hex and the six
+adjacent hexes.  The central hex will be attacking and the rest
+defending, or the central hex will be defending and the rest
+attacking.  The hex containing the first unit selected will be
+interpreted to be the central hex.  That hex will turn black
+and the selected unit will show a border in one of twelve
+colors.  All other units that are selected for this engagement
+will have the same color border until battle resolution for
+that unit is finished.  After unit in the central hex is complete
+units may be selected in the adjacent hexes.  Once a unit in
+an adjacent hex has been selected the computer will interpret
+any subsequent selection in the central hex as ending the
+engagement definition.  The central hex will revert to its
+former appearance and the program will wait for the next
+engagement definition.
+
+
+UNDO ENGAGE: Selection of any unit that is in an
+engagement while in this mode will cause that engagement to 
+be dissolved.  All units will revert to their unengaged status
+and appearance.
+
+
+DEMOLISH: In this mode selections will be interpreted as
+orders to the selected unit to demolish a bridge or a fuel
+dump.  The selected unit will have had to have started the
+turn in the hex it is to demolish.  If the hex is both a bridge
+and a dump, the dump will be demolished.  Only one attempt
+at demolition per hex per turn is permitted.  The unit
+attempting demolition is immobilized for the rest of the turn
+regardless of the success or failure of the attempt.]
+
+
+BRIDGE: This works like demolish (same rules apply to the
+selected unit) except it causes a demolished bridge to be
+
+
+						Page 6
+
+
+
+rebuilt.  A fuel dump cannot be reconstructed.  But if the
+enemy has destroyed both sides, they must be reconstructed
+separately.
+
+
+JOIN UNITS: This works like deposit except the unit in the
+raster will merge with the selected unit.  The resulting unit
+will have the sum of the strength of both.  Both units must be
+the same type.  A unit cannot be built up beyond its original
+strength.  Any surplus strength remains with the unit in the
+raster.  The unit being built up in immobilized.  The unit
+building up the selected unit must have been able to reach
+the selected hex.  If an unsupplied unit and a supplied unit
+are joined, both are considered resupplied.
+
+
+RESOLVE: This menu pick indicates that the
+movement/engagement phase is over.  Offensive firing of all
+target artillery is done automatically and the results
+calculated and displayed.  The Germans get to launch their V2
+rockets against the Leige or Antwerp.  After this is done, the
+attacker is asked to select an engagement to resolve.  The
+engagement containing the unit which is then selected is
+resolved.  If the results indicate any movement, each of the
+remaining units in the engagement must be
+advanced/retreated.  Retreat is obligatory.  Advance is optional,
+but two selections must be made for each unit in the
+engagement (Exception: a unit that must retreat but cannot,
+is eliminated immediately upon its selection).  The first
+selection is a unit selection and indicates the unit to be
+moved.  The hex containing the unit turns black.  The second
+selection is a selection of the destination hex.  The unit
+disappears from the hex it where it originated and reappears
+at its destination.  The colored border disappears from the
+unit marker.  The hex of origin returns to its previous
+appearance.  If the owner of a unit wishes to decline an
+advance, this is indicated by selecting the unit twice (i.e.
+destination is the same as origin).  After a unit has been
+selected for advance/retreat but before it has been assigned a
+destination, a representation of permissable destinations can
+be seen by a menu pick of WHERE.
+
+
+						Page 7
+
+
+
+			NAVIGATION
+
+BIG PICTURE: The normal display of the battlefield is an
+area eight hexes wide by six hexes high.  This can be thought
+of as a "window" into the battlefield.  The big picture causes a
+large scale map of the entire battlefield to be displayed.  A
+blue square is displayed on the map and represents the
+current "window".  This square can be moved with the pointer.
+A click of the left mouse button will cause a redefination of
+the window to coincide with the location of the blue square
+at the time of the click.
+
+
+ZONES: This is simular to the big picture except that the
+scale of the map is about one half that of the big picture.  All
+hexes adjacent to the German units (except infiltrators) 
+are outlined in red, those adjacent to Allies in the blue, and
+those adjacent to both, in yellow.  The blue square works as in
+the big picture.  This is helpful in visualizing the lines of the
+respective forces.
+
+
+WHERE: This displays the same type of map as zones but the
+hexes outlined in blue represent permissable moves for the
+last unit in the raster, or in the case of movement during
+battle resolution, the permissable moves of the selected unit
+(see RESOLVE).  The hex where the unit was at the start of 
+the turn is outlined in yellow.
+Home Hex - will position the window over an area containing hexes
+which are legitimate destinations for the last unit in the raster.
+
+
+
+						Page 8
+
+
+
+			RASTER OPERATIONS
+
+
+NEXT: Causes every unit in the raster to move up one
+position.  The last unit moves to the first position.
+
+
+HOLD: Causes reinforcement units currently in the raster to
+be deferred.  They will be offered again on the next turn.
+
+
+
+			QUITTING
+
+
+QUIT: Ends the simulation.  Nothing is saved.
+
+
+SAVE: Causes the current state of the simulation to be saved
+to disk where at a later time the file may be used to restart
+the simulation at the point it was saved.  "Save" can only be
+used after reinforcements have been deployed and before
+battle resolution has started.  Does not cause the simulation
+to terminate.
+
+
+DISPLAY: At the top of the screen, game information is 
+displayed-date, time, turn indicator, menu mode, weather.
+
+
+MESSAGES: At the bottom of the screen information will be
+given during the course of the game.
+
+
+
+						Page 9
+
+
+MOVEMENT: After a player decides which unit(s) to move, he
+may move these units their full number of movement points
+for that unit or until it becomes adjacent to an enemy unit
+(except infiltrators). Each hex traversed by a unit during a
+turn requires an expenditure of a certain number of
+movement points.  The point requirement will be different for
+each type of unit and for each kind of terrain being
+traversed (see table 9).  Any unit may be picked up and put
+down as many time as you wish.  The Amiga never forgets
+where a unit starts.
+
+
+COMBAT: After the attacker has moved all of his unit(s) next
+to enemy units he wishes to attack, he may select the
+ENGAGE function on the menu.  All units next to enemy
+units must be engaged for attack during the resolution phase.
+Up to three units, including infiltrators may be placed in any
+hex.  Allied Units may not occupy a Siegfried hex.  Each unit
+displays a number indicating it's combat strength.  If a unit is
+attacking this number represents its attack strength, if
+defending, its defense strength.  The defender may be
+doubled or tripled in strength according to what unit(s) are
+in a particular type of terrain (see table 8).  This modification
+is not displayed on the unit but will be reflected in the odds.
+The attacker is never modified.  When the strength points of
+the attacker and the defender are added up, the ratio of
+attack to defense is formed.  Example:  30 combat points
+attacking 10 pts would be a 3 to 1 ratio.  Or, if 10 points were
+attacking 30, the ratio would be 1 to 3.  Odds are scaled to the
+values 1 (or less)-4 to 6 (or greater)-1 where the first
+number represents the attacker's odds and the second the
+defender's (see table 2).  Odds are rounded to the defenders
+advantage.  After the engagements are defined, the artillery
+may be engaged and targets chosen.
+
+You are now ready to Resolve (see menu).  If, at this time
+there are still enemy units adjacent that have not been
+engaged, the computer will take you there so you can either
+engage that unit or move it away.  Note:  You may have to
+unengage and re-engage as desired.  Press Resolve again.  The
+artillery phase will then start by systematically reducing units
+
+
+						Page 10
+
+
+that the artillery had been set on during the engagement
+phase.  Note:  These reductions will affect engagement odds
+during Combat Resolution.  After each battle, damage is
+calculated and deducted from each unit(s) in a hex involved
+in that battle.  If there are more than one attacker or
+defender in a hex, all units receive damage.  This damage is
+deducted in fractions of the unit's attack strength at the time
+of the damage.  Losses are rounded to the nearest whole
+number.  e.g. A loss of 1.5 becomes a loss of 2, and a loss of
+1.3 becomes a loss of 1.
+
+
+RESULTS:
+
+
+DEFENDER LOSE:-Points deducted from all defenders.
+
+DEFENDER BACK:-All defending units are retreated the
+exact number of hexes on the results table.  If a unit can not
+move because:
+
+(a) movement would take it at any time next to an enemy or
+off the board.
+
+(b) armor would have to cross an unbridged river or
+
+(c) more than 3 units would be stacked together on the same
+hex or
+
+(d) in the case of an ally it would have to move in or through
+a Siegfried hex
+
+	IT IS ELIMINATED
+
+
+DEFENDER ADVANCE:-All units are given the indicated
+number of movement points and may advance as in regular
+movement.  A unit is always allowed to enter the defender's
+hex even if such movement would exceed the movement
+point requirement to enter that hex.  No hex to be entered
+twice.
+
+DEFENDER ELIMINATED:-All defending units are eliminated.
+
+
+						Page 11
+
+
+EXCHANGE:-Both attacker and defender lose one unit of
+their choice if the defender only had one unit, the attacker
+may move into vacated hex.
+
+
+NO MOVEMENT:-No movement on either side.
+
+
+ATTACKER LOSE:-Points deducted from all attackers in
+engagement.
+
+
+ATTACKER BACK:-Same as defender back.
+
+
+ATTACKER ADVANCE:-Same as defender advance.
+
+
+SUPPLY:-All units except air, V2, and infiltrators must be
+supplied by fuel dumps.  If a unit is not supplied, it may
+affect its attack and/or movement.  Defensive strength is never
+affected.  Units are considered out of supply if at the
+beginning of their turn they are out of range of all fuel
+dumps in friendly hands.  The reduction of isolated units will
+be different for each type of unit and calculated at the time
+of isolation (see table 7).  Note:  If a unit's combat strength
+falls below one during isolation it is eliminated.  In order to
+be supplied, a unit must be at least 4 hexes from a road that
+leads to a friendly supply source.  This may change however,
+due to a V2 rocket attack, German or Allied bombing,
+demolition, or enemy zone of control.  The supply line back
+may not travel through or adjacent to enemy units, or
+through unbridged rivers or in the case of the Allies through
+Siegfried hexes.
+
+At the beginning of the game, Allies are supplied from the
+Leige, Antwerp, and two other fuel dumps, near Stavlot and 
+Bastogne.  The Germans have two fuel dumps both behind the
+Siegfried line on the bottom corners of the mapboard.
+
+The number of hexes a friendly unit(s) may be from a supply
+road and still be supplied is displayed in the top corner of
+the supply hex, and is reduced by one for each hit from air
+
+
+						Page 12
+
+
+units or V2 rocket attack.  If the supply source number falls
+below 1, it is destroyed.  A dump may also be destroyed by
+any ground unit provided the unit has been there one turn
+before its demolition and an enemy unit (not infiltrators) are
+at least 4 hexes away.  Any unit that is resupplied is restored
+to its combat level at the time of isolation unless it was
+damaged during isolation.  Note:  Any isolated unit can be
+combat supplied if, built up by supply unit of that type (see
+menu).
+
+
+						Page 13
+
+
+
+UNIT IDENTIFICATION:
+
+Strength Bar: Vertical line on left side of marker shows what
+percent of original strength remains.
+
+Combat Points: First of two numbers displayed at lower left
+of marker shows the strength of a unit at the time of combat.
+This number indicates attacking or defending strength but
+does not reflect terrain bonuses.
+
+Movement: Indicates movement points available to the unit.
+
+
+
+						Page 14
+
+
+UNITS:
+
+Armor: Contain some of the highest combat factors but
+cannot advance or retreat across unbridged rivers.
+
+Infantry: Receives no road bonuses but defends well in
+wooded areas.
+
+Motorized Infantry: Nice to have on defense anywhere, very
+mobile.
+
+Artillery: These are very valuable and fire directly on
+individual units up to 3 hexes away, but may never fire if
+engaged by an enemy.  In this case artillery units participate
+in battle like ordinary units but defend at half their attack
+strength.  At the end of their turn, the Allies may target units
+for defensive fire support (see menu).
+
+Volkswerfers: German, only.  Unit is very slow but has a 
+stinging attack value.  Always defends at 1/4 of its attack
+strength.  Cannot fire on enemy units from a distance like
+other artillery.
+
+Infiltrators: German, only.  These units may be positioned
+uring the German movement phase.  They may be placed
+adjacent to or in the same hex with enemy units.  If
+movement is made into enemy hex, the die will be rolled to
+see if Germans have been recognized and rolled again at the
+end of each succeeding turn they remain there.  Any time the
+Allies attempt to collect one of their units from a hex
+containing an infiltrator the die is again rolled.  If recognized
+by Allies, infiltrator is destroyed.  If not recognized, the Allied
+unit is diverted at random into an area of three hex radius
+from the infiltrator and immobilized for the remainder of
+the Allied turn.  Infiltrators may also divert "passing" Allied
+units.  If an Allied unit wants to move from point A to point
+B, and the only way to get there would be to pass by an
+infiltrator, the recognition table must be consulted.
+
+
+						Page 15
+
+
+Infiltrators may be placed on roads or anywhere they can
+divert the Allies and prevent them from reorganizing.  Also,
+having an infiltrator unit in a dump or bridge hex, will make it
+more difficult for the Allies to reach and demolish it.
+Infiltrators have no attack or defensive strength and may not
+participate in engagements.
+
+Air Units:-When air units are in Raster, simply position the
+pointer over any unit or dump you wish to bomb and press
+left mouse button.  If unit is in a dump merely click on the
+unit and both the dump and the unit may sustain damage.
+Air may only be used in A.M. clear weather only.
+
+
+TERRAIN: Affects all units in terms of movement and
+combat.  Specific effect may differ for different types of units
+(see table 8).
+
+
+River Movement: Units attempting to cross a river must wait
+one turn unless the river is bridged by a road or the unit started
+its turn in the hex adjacent to the river at the point of
+intended crossing.  Immediate movement across unbridged
+rivers is permitted for units advancing or retreating as a 
+result of battle resolution.  Armored units may never cross an
+unbridged river.  In terms of combat, a unit's defense strength
+is doubled in an engagement where all of the attacking units
+are across a river from all the defending units.  This is lost
+however, if only one of the attackers was not.
+
+
+Siegfried Line: No Ally may enter-ever!  Allied supply may
+never pass through these hexes.  All Germans in Siegfried
+Line are tripled in defense.
+
+
+Fuel Dumps: Automatically supplies friendly units at
+beginning of game.  By default Germans own the two dumps
+behind the Siegfried line unless an Allied unit is occupying
+this hex.  The Allies own the other fuel dump areas unless a
+German occupies the hex.  If a unit occupies a hex containing
+an enemy dump, that dump will function as a supply source
+
+
+						Page 16
+
+
+for friendly units as long as it is occupied by at least one
+friendly unit.  Unoccupied dumps supply their default owners.
+Demolition of dump is also possible.  See menu.
+
+
+Customization:-Before the simulation starts, you will be
+given a choice of features to adjust for balance.  If default
+conditions are desired, simply select OK.  Simulation will
+commence upon selection.
+
+
+Beginning: The Allied units are already deployed.  The
+Germans units are placed on the hexes in their starting zones
+(use "where" on menu function to see these).  Once the units
+are placed, the computer will calculate its movement as
+though the unit originated from that hex.  The unit may then
+be collected and moved in normal way.  Other units may then
+be deposited in the vacated hex.  After all units have been
+placed, you are ready to start.
+
+
+SEQUENCE:
+
+
+Air Bombardment Phase: If weather is clear and A.M., air
+attack is used.
+
+
+Movement Phase: All units may be moved.
+
+
+Combat Engagement Phase:-All units including artillery may
+be set up for combat (see menu engage).
+
+
+Combat Resolution Phase:-After all units have been set up for
+combat, select "Resolve" from menu.  Battles are resolved as follows:
+
+(1) Reinforcements are displayed in the raster.  Units must be
+    placed in permitted areas (displayed by "where".  If units
+    are unable to be deployed in indicated areas may be
+    deferred by selecting "hold" from menu.
+
+(2) Artillery resolution phase
+
+
+						Page 17
+
+
+(3) V2 Rocket (German only)
+
+(4) Battle Resolution Selected in order by the attacker.  Note:
+    The computer will position the window on an engagement
+    of its own selection if there are no engagements visible
+    at the time of selection.  If you wish to start the battle
+    with another engagement simply reposition the window
+    with "the big picture."
+
+(5) Defensive Artillery Support (Allied only).  After this phase
+    is complete, supply lines will be calculated and isolated
+    units will have factors adjusted.
+
+
+COMPUTER OPPONENT: Although it may require a few
+minutes, the computer will do everything a human player
+would do except much faster.  It will however, allow you to see
+the engagements it has made before they are resolved.  When
+you are ready to proceed, simply select "resolve" from the
+menu.
+
+
+VICTORY CONDITIONS: The German side has several ways
+to win.
+
+(1) the capture of Antwerp before Jan. 1, 1945.  All three
+    hexes must be occupied by German units one full turn.
+    This is the highest level of victory the German may
+    receive.
+
+(2) capture of the Leige and three of the 6 major cities,
+    being defined as: Bastogne, Maastricht, Givet, Dinnant,
+    Namur, and Huy.
+
+(3) To score a tactical victory, all of these major cities.
+
+(all of the above victory cities must be held for one turn.)
+
+The Allied player wins simply by not allowing the German
+player to achieve his objectives before Jan. 1.  Although a 
+player may decide to quit they will receive a rating based
+upon their performance to that point.
+
+
+						Page 18
+
+
+HINTS: The Allied player should fall back somewhat and try
+to prevent the German from gaining control of bridges and
+fuel dumps.  They should also stall for time awaiting
+reinforcements and clear weather for bombing German
+positions and supply.  The German player must move forward,
+quickly seizing bridges, cities, and hopefully, fuel dumps.
+Infiltrators may be used to help gain these objectives.  Supply
+roads must be kept open.
+
+
+						Page 19
+
+
+(Editors Note:  Page 20 is a map of the general area, which I
+cannot reproduce.)
+
+
+						Page 20
+
+
+		LOADING THE GAME
+
+Boot with the disk supplied (this is necessary to set the stack at
+21,000 bytes and assure maximum memory availability).  This will
+produce the CLI prompt.
+
+1
+
+Simply type Blitz at the prompt and press the return key.  If there are
+any "saved" files (page 9) on the disk, you will be given the option
+of restarting the simulation from one of these.  If you decline to
+restart (by selecting "cancel", or by leaving the field after "restart
+from file:" blank, the simulation will start on Dec. 16, 1944 with a 
+German attack.
+
+The saved games are stored in The Directory wgames.  The
+workbench commands dir and delete are included on the disk.
+
+The Command:
+
+1  Delete wgames/game1
+
+will delete the file called game1 from The Directory (assuming The
+Directory contained a file by that name).
+
+The Command:
+
+1  DIR wgames
+
+will produce a listing of games in the directory.
+
+
+						Page 21
+
+
+Blitzkrieg at the Ardennes is not a "retread" of some game
+that was developed for a 64 K machine and then brought
+over to the Amiga virtually unchanged.  It was developed on
+and for the Amiga.  The program grew very large.  Although
+workbench had to be sacrificed to make room once inside
+Blitzkrieg, full use of the Amiga Intuition user interface will
+make use of the program easy.
+
+
+						Page 22
+
+
+		Key to Tables
+
+
+		A	-	Attacker
+		D	-	Defender
+		b	-	Back
+		a	-	Advance
+		L	-	Lose
+		E	-	Eliminated
+		nr	-	No Reduction
+		nm	-	No Movement
+		blu	-	Both Lose one unit
+		
+
+			Table 1
+
+			Artillery
+
+			Odds A-D
+
+
+Roll		1-2		1-1		2-1		3-1
+
+1		L1/6		L1/5		L1/4		L1/3
+
+2		L1/6		L1/5		L1/4		L1/3
+
+3		L1/5		L1/4		L1/3		L1/3
+
+4		L1/5		L1/4		L1/3		L1/3
+
+5		L1/4		L1/4		L1/3		L1/2
+
+6		L1/6		L1/3		L1/2		L1/2
+
+
+						Page 23
+
+
+
+
+
+			Table 2
+
+			Odds A-D
+
+Roll	1-4		1-3		1-2		1-1		2-1
+
+1	nr		AL1/2		A&DL1/4		DL1/5		DL1/4
+	AE Da3		Da2 Ab2		nm		nm		Db2 Aa1
+
+2	AL2/3		AL1/3		nr		AL1/3		nr
+	Ab2 Da2		Ab3 Da3		AE Da2		Db3 Aa2		blu
+
+3	AL1/2		AL1/2		nr		A&DL1/4		A&DL1/4
+	Ab3 Da3		Ab3 Da2		blu		Db2 Aa1		nm
+
+4	nr		AL2/3		A&DL1/4		AL1/4		nr
+	AE Da3		Ab3 Da3		Db1 Aa1		Ab1 Da1		Db3 Aa2
+
+5 	nr		nr		AL1/2		nr		A&DL1/4
+	AE Da3		AE Da2		Ab2 Da2		blu		Db3 Aa2
+
+6	nr		nr		A&DL1/4		A&DL1/2		AL1/4
+	AE Da4		AE Da2		Ab2 Da1		nm		Db3 Aa2
+
+
+
+			Table 2, cont.
+
+Roll	3-1		4-1		5-1		6-1
+
+1	nr		nr		DL2/3		DL4/5
+	blu		DE Aa4		Db3 Aa3		Db4 Aa4
+
+2	DL1/3		DL2/3		nr		nr
+	Db3 Aa3		nm		DE Aa4		DE Aa4
+
+3	DL1/3		DL1/2		DL1/2		nr
+	Db3 Aa3		Db3 Aa2		Db4 Aa4		DE Aa5
+
+4	DL1/2		DL1/2		DL4/5		DL4/5
+	nm		Db2 Aa2		Db1 Aa1		Db4 Aa4
+
+5	DL1/2		DL1/3		DL1/2		nr
+	Db3 Aa2		Db3 Aa3		Db4 Aa4		DE Aa6
+
+6	DL1/3		DL1/4		nr		DL2/3
+	Db3 Aa3		Db3 Aa3		DE Aa3		Db4 Aa4
+
+
+						Page 24
+
+
+			Table 3
+	
+		Infiltrator Elimination
+
+
+			Turn
+
+Roll		1-2		3-on
+
+1		E		E
+
+2		nr		E
+
+3		nr		E
+
+4		nr		nr
+
+5		nr		nr
+
+6		nr		nr
+
+
+
+			Table 4
+
+		      Bombardment
+
+	Roll		
+
+	1		L1/4
+
+	2		L1/4
+
+	3		L1/3
+
+	4		nr
+
+	5		L1/4
+
+	6		L1/3
+
+
+						Page 25
+
+
+			Table 5
+
+		 Bridge Demolition
+
+				Infiltrator			Enemy Adjacent
+				  in hex	Enemy		and infiltrator
+Roll		OK		with Allies	Adjacent	in hex
+
+1		YES		YES		YES		NO
+
+2		NO		NO		NO		NO
+
+3		YES		YES		YES		YES
+
+4		YES		NO		NO		YES
+
+5		YES		YES		YES		YES
+
+6		YES		NO		YES		NO
+
+
+			Table 6
+
+		Bridge Construction
+
+						Enemy
+		Roll		OK		Adjacent
+
+		1		YES		YES
+
+		2		NO		NO
+
+		3		YES		YES
+
+		4		YES		NO
+
+		5		YES		YES
+
+		6		YES		YES
+
+
+						Page 26
+
+
+			Table 7
+
+		Effect of Isolation on Unit
+		    Strength - Movement
+
+				Number of Turns Isolated
+
+Class			1		2		3+
+
+Armor			L1/4-L1/3       L1/2-L2/3       L2/3-all
+
+Motor Infantry		L1/4-L1/4       L1/3-L1/2       L1/2-L1/2
+  Artillery		
+
+Infantry, V.W.,		nr-nr		L1/4-nr		L1/2-nr
+Paratrooper
+
+
+			Table 8
+
+		Effect of Terrain on Unit
+		    Defense Strength
+
+			Terrain
+
+Class		Forest		Mountain	City		Siegfried
+
+Armor		1X		2X		2X		3X
+
+Motor Inf.	2X		2X		2X		3X
+
+Artil.		2X		2X		2X		3X
+
+Infant		3X		2X		2X		3X
+
+V.W.		2X		2X		2X		3X
+
+Paratrooper	3X		2X		2X		3X
+
+
+						Page 27
+
+
+
+			Table 9
+
+		Effect of Terrain on Unit
+		  Defense Mobility
+		(Movement Points Expended per hex)
+
+			Terrain
+
+Class		Forest		Mountain	Clear		Road
+
+Armor		5		3		1		1/2
+
+Motor Inf.	3		2		1		1/2
+
+Artill.		3		2		1		1/2
+
+Infant		2		2		1		1
+
+V.W.		2		3		1		1/2
+
+Paratrooper	2		2		1		1
+
+
+
+
+						Page 28

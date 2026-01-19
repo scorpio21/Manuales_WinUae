@@ -1,0 +1,335 @@
+Guerra nuclear
+Escrito por PARANOMIA. Editado por PARÁSITO
+
+Instrucciones de carga de la unidad de disquete:
+
+Para ejecutar Nuclear War desde una unidad de disquete, simplemente inserte el Disco 1 de Nuclear War en DF0: en el indicador de Workbench. Si tiene una segunda unidad de disquete, coloque en ella el Disco de Guerra Nuclear 2. De lo contrario, se le pedirá que cambie entre el Disco 1 y el Disco 2 cuando sea necesario.
+
+Se recomienda que hagas una copia de Nuclear War Disk 2 y la uses para jugar. Consulta el manual de tu Amiga DOS para obtener detalles sobre cómo realizar una copia de seguridad del disco. Nuclear War Disk 2, o una copia, debe permanecer en la unidad mientras juegas y debe estar habilitado para escritura.
+Instalación del disco duro de la Guerra Nuclear:
+
+Inicie su disco duro según las instrucciones normales del disco duro. Abra una ventana CLI (consulte el manual de Amiga DOS y cree un directorio para Nuclear War escribiendo:
+
+MAKEDIR DH0:NO
+
+(si su disco duro tiene un nombre distinto de DH0:, sustitúyalo cada vez que se solicite DH0:)
+
+Después de haber creado el directorio de Nuclear War, inserte el Disco 1 de Nuclear War en DF0: y escriba:
+
+COPIAR DF0: DH0:NW TODO
+
+Cuando su computadora haya terminado de copiar el Disco 1, inserte el Disco 2 de Nuclear War en DF0: y escriba:
+
+COPIAR DF0: DH0:NW TODO
+
+Luego agregue el ícono de Guerra Nuclear a la raíz de su disco duro para cargarlo fácilmente escribiendo:
+
+COPIAR DH0:NW/#?.INFO DH0:
+
+Además, debes agregar dos líneas a la secuencia de inicio de tu disco duro. Estas líneas deben agregarse a la secuencia directamente después de montar el disco duro. Las dos líneas son:
+
+ASIGNAR "GUERRA NUCLEAR 1:" DH0:NW
+ASIGNAR "GUERRA NUCLEAR 2:" DH0:NW
+
+Estas líneas le indican al programa Nuclear War dónde encontrar sus archivos de datos en su disco duro en lugar de revisar sus unidades de disquete.
+
+Ejecutar Nuclear War desde el disco duro: Para iniciar Nuclear War después de haberlo instalado en su disco duro, simplemente haga clic en el ícono de Nuclear War. Si desea omitir la secuencia del título al cargar Nuclear War, puede hacer clic en el ícono de inicio rápido de Nuclear War.
+Protección de copia:
+
+Después de que concluya la secuencia del título (o si usas Inicio rápido, antes de que comience el juego), se te pedirá que insertes el Disco de Guerra Nuclear 1, el Disco de Clave Nuclear, en DF0: Una vez que el juego haya validado tu disco de clave y haya concluido la carga del juego, puedes quitar el Disco de Clave Nuclear, ya que ya no se usará más.
+Borrar la lista de puntuaciones más altas:
+
+Desde una ventana CLI, puede restablecer su lista de puntuación más alta actual a la lista de puntuación predeterminada escribiendo.
+
+ELIMINAR "GUERRA NUCLEAR 2: PUNTUACIONES MÁS ALTAS"
+Una nota sobre sonidos y gráficos:
+
+Nuclear War utiliza prácticamente toda la memoria del chip de su máquina, ya sea 512 K o más, y se recomienda que no se utilice la multitarea mientras se ejecuta el programa Nuclear War.
+
+Además, Nuclear War detecta cuánta memoria tiene su máquina (512K o más) y carga sonidos y gráficos adicionales si su máquina tiene más de 512K disponibles.
+Controles y menús:
+
+En el manual, siempre que le indique "hacer clic en el botón del mouse", utilice el botón izquierdo del mouse. Para reiniciar o salir de un juego mientras juegas a Nuclear War, selecciona la opción adecuada del menú con el botón derecho del ratón.
+Desafío de guerra nuclear:
+
+Sólo unos pocos lo han visto, pero en ciertos casos la población de una ciudad se vuelve tan enorme que una metrópoli se ve obligada a convertirse en una ciudad abovedada. ¿Puedes terminar tu juego con alguna ciudad abovedada?
+NUKE: La revista de la era nuclear
+CÓMO INICIAR LA GUERRA NUCLEAR
+
+¡Bienvenidos a la Guerra Nuclear! Como líder de una potencia global en un mundo ficticio, debes llevar a tu nación a la victoria siendo el último país que queda en el mundo. Debes utilizar todos los medios a tu disposición para ganar, ya sea mediante el uso astuto de campañas de propaganda o mediante la fuerza devastadora de un ataque nuclear táctico. Debes aprovechar a los débiles y conspirar contra los poderosos para asegurar tu lugar como el vencedor final.
+Seleccionar oponentes
+Una vez concluida la secuencia del título, se te presentará la pantalla del oponente de la guerra nuclear. Puedes elegir cuatro líderes globales de los diez disponibles para competir. Para obtener más información sobre los líderes globales, lea el artículo titulado Líderes globales. Para elegir una guía, simplemente mueva el puntero hacia la guía deseada y haga clic con el botón del mouse. Aparecerá una carita feliz de color amarillo en la esquina superior derecha del monitor de video del líder. Si desea cambiar su selección de videos, simplemente haga clic en el líder nuevamente. La cara feliz desaparecerá y podrás seleccionar otro líder. Continúe este proceso hasta que haya seleccionado los cuatro líderes que desea.
+
+Después de haber seleccionado cuatro líderes, haga clic en el título "Guerra nuclear". Si desea una selección aleatoria de líderes, haga clic en "Guerra Nuclear" sin elegir ningún líder. Además, puede elegir uno, dos o tres líderes y llenar los espacios restantes al azar.
+Iniciar el juego
+
+Después de hacer clic en "Guerra Nuclear", el juego comenzará cargando la Terminal de Diplomacia. Es desde esta pantalla que se decidirán tus acciones y las acciones de los demás líderes mundiales.
+Terminal de diplomacia
+
+La Terminal de Diplomacia es donde se deciden todos los aspectos del juego. La terminal contiene monitores individuales para los otros cuatro líderes mundiales, íconos de misiles, ojivas, bombarderos y sistemas de defensa, además de acumular reservas nucleares y realizar propaganda. El terminal también cuenta con un visor central que muestra la demografía actual de la población de cada país.
+
+El visor central muestra automáticamente su propio país y su población. Para ver el país de otro líder global, simplemente haga clic en el rostro del líder deseado y se mostrará su país. Para volver a una vista de su propio país, haga clic en la cara del líder cuyo país está viendo actualmente.
+
+Mientras se utiliza la Terminal de Diplomacia, hay dos acciones que se deben completar. Primero, puede establecer su actitud actual hacia los otros líderes globales haciendo clic en la cara feliz del líder seleccionado hasta que se muestre la actitud deseada. Para obtener más información sobre las diferentes actitudes, lea el artículo de Relaciones Internacionales.
+
+En segundo lugar, el rostro del líder te envía un mensaje. La expresión te permite saber qué esperar de ese líder, ya sea amistad o antagonismo. Al comienzo del juego, todos los líderes se tratan entre sí de forma neutral. A partir de entonces, cada acción afecta lo que cada líder siente hacia usted y hacia los demás. Cada líder tiene cinco caras diferentes. Su rango consta de Hostil, Antipático, Neutral, Amistoso y Benevolente.
+
+En la esquina inferior derecha de su pantalla de visualización, los líderes tienen un número que representa lo que ese líder siente hacia usted. En la tarjeta aparecerá una calificación de 0 a 99. Un "0" significaría que el líder odia todo sobre usted y que todos sus ataques inmediatos se dirigen en su dirección, un "50" significaría que el líder conserva sentimientos neutrales hacia usted y un "99" significaría que no puede hacer nada malo a los ojos del líder y que no tiene nada que temer del líder, a menos que sea la única otra nación que queda.
+
+Para saber cómo se siente cada líder entre sí, haga clic en la cara del líder. Los otros tres líderes ahora tienen un número de calificación diferente, mientras que el líder que seleccionó no tiene ninguno. Las cifras de calificación de los líderes ahora reflejan cómo se siente cada líder hacia el líder que no revela ninguna calificación. No se recomienda lanzar ningún tipo de ataque contra alguien a quien le gustas. Por mucho que les agradaras antes, ahora te odiarían en la misma medida. La traición es algo costoso.
+
+Una vez que hayas establecido todas tus actitudes, debes decidir tu acción para el próximo turno de juego. Puedes elegir entre construir tu arsenal nuclear, lanzar una campaña de propaganda, preparar un sistema de defensa o preparar un ataque nuclear. Sólo puedes intentar una de las cuatro acciones por turno.
+Edificio
+Para construir misiles, bombarderos, ojivas y sistemas de defensa, haz clic en el ícono Construir en la parte superior izquierda de la Terminal de Diplomacia. Al hacer clic en el logotipo de "Guerra Nuclear", tu turno finaliza y te envía a la pantalla Global Monitor para ver las acciones de todos los líderes.
+
+Tu capacidad para producir un componente de arma o un sistema defensivo depende de la cantidad de ciudades que tengas. En cinco ciudades, la producción alcanza su máxima eficiencia. En una ciudad, la producción es mínima. Además, los componentes de armas y sistemas defensivos más poderosos son más difíciles de construir que los de menor magnitud. Los elementos construidos aparecerán en la máquina de teletipo de la Terminal de Diplomacia después de que todas las acciones se hayan resuelto en la pantalla del Monitor Global.
+
+Aparecerá una luz verde si tienes al menos uno de los componentes de armas específicos del sistema de defensa. Cuando te quedas sin un componente de arma del sistema de defensa, la luz se volverá roja.
+
+Si construyes dos veces seguidas, todos los líderes globales automáticamente desconfiarán de ti. Te estás retirando de la política global y del almacenamiento. No se recomienda que hagas reservas, ya que incluso tus amigos empezarán a odiarte.
+propaganda
+
+Para realizar propaganda, primero debes seleccionar un objetivo. Elige el líder cuyo país deseas bombardear haciendo clic en su cara. Selecciona la ciudad enemiga que deseas bombardear con la campaña de propaganda moviendo el puntero sobre ella y haciendo clic con el botón del ratón. Los resultados de tu campaña se mostrarán en la pantalla Global Monitor después de que hagas clic en el logotipo de "Guerra Nuclear" para finalizar tu turno.
+
+Una campaña de propaganda puede provocar que entre 1 y 10 millones de personas abandonen su tierra natal para trasladarse a su país. El número real de personas que emigran depende del tamaño de la ciudad y de varios otros factores.
+
+Una nota importante: los ataques de propaganda tienen la mayor probabilidad de que algo salga mal. Casi cualquier cosa puede resultar si una campaña de propaganda fracasa. Cuidado con el uso excesivo de propaganda.
+
+Para obtener más información sobre lo que sucede cuando ocurre una calamidad, lea el artículo titulado ¡Desastres!
+Sistemas de defensa
+
+Cuando tienes poca población y sabes que serás el objetivo de un ataque nuclear, es hora de pensar seriamente en desplegar un sistema de defensa nuclear. Para preparar un sistema de defensa, puede hacer clic en el ícono de Defensa, que carga automáticamente su sistema defensivo más potente, o puede seleccionar manualmente uno de los tipos de sistema haciendo clic en el nombre del modelo deseado.
+
+Para obtener más información sobre las diferentes capacidades de los sistemas defensivos, lea la sección sobre armas defensivas en el artículo The Nuclear Arsenal.
+Ataque nuclear
+
+Un ataque nuclear, la forma de ataque más letal y efectiva, en realidad requiere un mínimo de dos turnos para ejecutarse. Esto se debe a que consiste en preparar el portaaviones y luego preparar la carga nuclear.
+
+Para preparar el portaaviones, selecciona el misil o bombardero que deseas lanzar. Si hace clic en el icono de Misil o Bombardero, se elegirá el portaaviones de mayor capacidad del tipo seleccionado. Si desea un transportista específico, haga clic en el tamaño deseado que aparece junto al icono correspondiente. Después de seleccionar un transportista, haz clic en el logotipo de "Guerra Nuclear" para finalizar tu turno.
+
+En el turno posterior al despliegue de un portaaviones, selecciona una ciudad enemiga como objetivo haciendo clic en ella. Para cargar una ojiva en el portaaviones, puedes hacer clic en el ícono de Ojiva, que preparará la ojiva más grande posible para el misil, o elegir un tamaño específico de la lista al lado del ícono de Ojiva. Para culminar el ataque nuclear, haga clic en el logo "Guerra Nuclear". Tenga en cuenta que si no se coloca una ojiva en el portaaviones y se toma alguna otra medida, el portaaviones se desperdiciará.
+
+Si lanzas dos portaaviones seguidos, no agradarás a tus aliados. Estás perdiendo un tiempo precioso y poniendo en peligro alianzas. ¡No vaciles, lanza una ojiva!
+
+Para obtener más información sobre los diferentes misiles, bombarderos y ojivas, lea la sección correspondiente en el artículo The Nuclear Arsenal de la revista Nuke.
+Pantalla de monitor global
+
+Una vez que hayas decidido el plan de acción que seguirás, finaliza tu turno haciendo clic en el logo de "Guerra Nuclear". La siguiente pantalla que ve es la pantalla de monitor global.
+
+En esta pantalla se representarán las acciones de los cinco líderes mundiales. Una secuencia de animación para cada nación representa qué acción decidió hacer cada líder por su propio país. Un mensaje impreso aparece en la parte inferior de la pantalla aclarando aún más las distintas acciones. Si desea acelerar las secuencias de animación, haga clic en el botón del ratón. Una vez que el último país haya completado su secuencia de acción, regresará a la Terminal de Diplomacia.
+Tamaños de ciudad
+
+Hay cinco íconos diferentes que representan los innumerables tamaños que pueden tener las ciudades. Van desde una pequeña tienda de campaña hasta una metrópolis en expansión. A continuación se muestra un desglose del tamaño de la población que representa cada ícono:
+
+Tienda de campaña: 1-4 millones de personas
+
+Choza con techo de paja: 5-9 millones de personas
+
+Cabaña: 10-19 millones de personas
+
+Mansión: 20-29 millones de personas
+
+Metrópolis: 30 millones de personas y más
+Perder una ciudad
+
+Ya sea por propaganda, un desastre o un ataque nuclear, el desgaste demográfico que enfrentan las ciudades puede ser devastador. Pero, ¿qué sucede cuando la población de una ciudad se elimina por completo? La ciudad está destruida y nunca más podrá sustentar la vida. Ahora es un cráter permanente. Esto reduce tu capacidad de construcción o la de tu enemigo y te acerca un paso más a la aniquilación.
+
+Si convocas un ataque nuclear o una campaña de propaganda contra una ciudad que ha sido arrasada por un oponente, entonces tu curso de acción fue en vano. El oponente llegó primero y no queda nada que destruir o atraer. La huelga o campaña frustrada se denomina "ejercicio militar". A ningún líder le gusta admitir que ha sido derrotado.
+Golpe final
+
+Cuando la última ciudad de una nación es destruida por cualquier medio, la acción agonizante del país es lanzar un último y desesperado ataque contra todos los jugadores restantes. El jugador derribado ataca una ciudad habitada aleatoriamente en cada país superviviente. Si el jugador no tiene suficientes portaaviones o ojivas para atacar a las naciones que quedan en el mundo, la nación que más odia es atacada primero, y luego la segunda más odiada es atacada, y así sucesivamente hasta que se agote el arsenal. Si el jugador tiene portaaviones y ojivas para atacar más de una ciudad por nación, el exceso de armamento se desperdicia. Sólo se puede atacar una ciudad por nación, sin importar cuál sea la situación.
+
+El Golpe Final, que controla la computadora, ocurre después de que concluye la ronda en la que una nación fue destruida. El ordenador también selecciona las combinaciones de armas más poderosas y lanza los portaaviones uno tras otro hacia los territorios restantes.
+
+Después de un Golpe Final, el líder diezmado ya no aparece en la Terminal de Diplomacia y es reemplazado por una pantalla muerta. El líder queda completamente eliminado del juego y su turno se omitirá en la pantalla Global Monitor.
+
+Si el elemento humano queda eliminado del juego, la computadora entrará en un modo de juego rápido, sin abandonar nunca la pantalla del Monitor Global, que acelera hacia el final del juego. El jugador superviviente de la computadora, si lo hay, gana el juego y tiene la posibilidad de registrar una puntuación en la lista de puntuaciones más altas.
+Lista de puntuación más alta
+
+Las puntuaciones están determinadas tanto por el número de ciudades que tiene el superviviente como por la población final que le queda.
+LÍDERES MUNDIALES
+Castro Infiel
+Hasta el matrimonio de su hermana mayor, Infidelity, con el presidente de una nación superpotencia, la patria de Infidel era considerada una república bananera de bajo presupuesto. Tan pronto como pudo, Infidelity hizo que su esposo, Nikita Chikita, enviara misiles nucleares por barco a Infidel. Este disparo en el brazo permitió a los ansiosos infieles entrar en la arena de la política global. Al gloriarse del papel del joven advenedizo, Infidel en general ha inflamado las tensiones globales y ha puesto las demandas de su, de otro modo, insignificante nación, ante las narices de los demás líderes. Los demás líderes se han visto obligados, a regañadientes, a lidiar con el molesto y entrometido poder que representa Infidel.
+
+Infidel realmente aprecia y admira a algunos de los líderes mundiales más establecidos y juega con ellos. Si se impresiona adecuadamente, Infidel puede ser un aliado incondicional. Si se enoja o se disgusta, el omnipresente cigarro del infiel arderá, probablemente con varios millones de ciudadanos sufriendo la repentina llamarada de una explosión nuclear.
+Mao el juego de palabras
+
+El ascenso al poder de este rotundo bromista ha sido fenomenal. El hijo menor de una familia mejor llamada horda. Mao dejó la granja familiar y se fue a la ciudad para comenzar una nueva vida. Trabajó en clubes nocturnos como comediante, haciendo reír al público con juegos de palabras realmente horribles y su escandalosa vestimenta uniforme.
+
+Mao creció rápidamente en fama y finalmente consiguió su propia comedia televisiva distribuida a nivel nacional, junto con una hermosa, aunque algo vacía, ex presentadora de un programa de entrevistas. Su popularidad crecía constantemente, al igual que la población de su propia patria. Inspirado por el ascenso al poder de un mal actor de película B y el ascenso a la gloria política en una nación vecina, Mao se postuló con éxito para un cargo nacional.
+
+No acostumbrado a tal poder, el mandato de Mao en la política global ha sido más bien vacilante. Prefiere preocuparse por cuestiones internas y juegos de palabras en lugar de preocuparse por los demás líderes. Si se lo trata bien, Mao corresponderá. Si se enoja, Mao atacará. La política simple le conviene a su nación, ya que creen que eventualmente invadirán el mundo a medida que se propaguen como conejos. El reinado de Mao se ve interrumpido intermitentemente por rápidos aumentos demográficos, lo que provoca problemas de hacinamiento.
+Ghanji
+
+El músico y cultivador de hierbas distraído se vio empujado a la política global de mala gana. Miembro de una coalición internacional de grandes de la música unidos por la armonía mundial, el anciano Ghanji fue llamado a utilizar su popularidad como superestrella del reggae para reunir a sus compatriotas detrás de él y convertirse en una fuerza internacional por la paz.
+
+Ahora, obligado a ocupar una posición de poder no deseada, Ghanji utiliza su magnetismo y su música para obtener lo que desea. Pacifista declarado, nunca utilizará un arma nuclear.
+
+Sin embargo, debido en gran parte a su popularidad internacional como cantante de reggae, destaca en el uso de propaganda. Cuando lleva a cabo una campaña de propaganda, ésta funciona con un mayor índice de efectividad. También extremadamente crédulo, intentará hacerse amigo de cualquiera que prefiera el uso de la propaganda a la fuerza nuclear.
+Jimi granjero
+
+El señor Farmer es un perfecto caballero y siempre intenta tratar a sus contemporáneos de manera justa y con ecuanimidad. Jimi era prácticamente un don nadie hasta que, debido a conflictos internos dentro del partido de oposición, Jimi tomó las riendas del poder de su nación.
+
+Jimi es reticente a utilizar armas nucleares y prefiere el uso astuto de la propaganda para atraer a la gente hacia caminos honestos de paz y unidad. Su pasividad y su deseo genuino de paz mundial hacen que algunas personas lo consideren un presa fácil. Pero ten cuidado, Jimi no tolera ningún tipo de engaño y, si lo amenazan, atacará con saña y contundencia.
+
+Un dato valioso sobre Jimi es que a menudo tiene crisis familiares y debe romper relaciones internacionales para afrontar cualquier problema que exista. Esta perturbación cancela todas y cada una de las acciones previstas para su nación. La mayoría de las veces, su hermano Bili, una vergüenza para la familia, es la causa de cualquier trastorno que se produzca.
+Mijaíl Gorabachev
+Mikhail era un jefe de estado menor que visitaba una planta de energía nuclear cuando una gigantesca fusión destruyó todo el campo. Mikhail provocó la crisis cuando derramó un refresco en el panel de control principal. Mikhail fue el único superviviente del accidente y escapó con sólo una cicatriz importante. Un poco de refresco le salpicó la cabeza y la radiación le quemó el cuero cabelludo, lo que le hizo perder la mayor parte del cabello que rodeaba la mancha permanente de refresco.
+
+Mikhail rápidamente mintió hasta llegar al puesto de liderazgo más alto de su nación, citando que el antiguo régimen fue negligente en el cuidado de la población. Rápidamente limpió todos los puestos gubernamentales de administradores competentes y los reemplazó con sus amigos y familiares. Luego pronunció muchos discursos para decirle a su nación y al mundo cuánto más próspero era su país bajo su gobierno. Mikhail y sus conocidos más cercanos fueron los únicos que prosperaron, acumulando enormes cuentas en bancos suizos y apareciendo en programas de entrevistas sensacionalistas.
+
+Especialmente astuto y sorprendentemente creíble, Mikhail miente constantemente y se sale con la suya. Su táctica favorita es actuar amistosamente con una nación que quiere controlar y luego, cuando menos se lo espera, organiza un ataque nuclear total contra esa nación.
+Polla complicada
+
+Tricky Dick, uno de los líderes más nefastos de todos los tiempos, podía vender hamburguesas a un hindú. Conoce las debilidades de todos y se jacta de ellas.
+
+Tricky Dick era un vendedor de autos usados ​​hasta que ganó poder político vendiendo a un político prominente un automóvil que alguna vez fue propiedad de un personaje desagradable del inframundo. Tricky Dick se olvidó de mencionar que uno de los extras que traía el coche era un cadáver acribillado a balazos en el maletero. Después de la venta, Tricky Dick llamó inmediatamente al sheriff local, a su cuñado, e hizo arrestar al jefe político.
+
+Luego, Tricky Dick entró en la política con una campaña basada en la moral y la ética. Desafortunadamente, miente como una alfombra vieja y es despiadado. Muchos líderes mundiales han encontrado su perdición después de seguir el consejo de Tricky Dick. Sin embargo, exuda un aura increíble y los líderes mundiales no pueden evitar agradarle. Incluso si hace algo que normalmente provocaría una confrontación, los líderes mundiales simplemente dirán: "Ah, me han jodido otra vez" y le sonreirán.
+Coronel Malomar Kadaffy
+
+Malomar es el hijo extraordinariamente perturbado de un magnate de las galletas fracasado. El joven Malomar, insatisfecho, se asoció con ciertos aspirantes a políticos que querían cambiar la estructura de poder dentro de su tierra natal. Malomar, un lunático declarado con erráticos ataques de paranoia, pronto tomó las riendas del liderazgo de manos de sus antiguos compañeros, quienes de hecho estaban contentos de tener a un hombre tan ambicioso entre ellos.
+
+Después de un exitoso golpe militar, los partidarios más acérrimos de Malomar vinieron a felicitarlo. Malomar rápidamente los ejecutó a todos, pensando que iban tras él. Ahora, razonablemente seguro de que nadie estaba contra él, comenzó su confuso gobierno. Los antiguos aliados fueron atacados sin motivo alguno, los enemigos atroces recibieron ayuda extranjera y las galletas de su padre se convirtieron en la moneda nacional.
+
+Tratar con el coronel Malomar en la política global tiene los mismos efectos que tirar un dado continuamente, es decir, resultados aleatorios. Además, vale la pena derribar cualquier misil o bombardero que lance Malomar. Está tan perturbado que de vez en cuando coloca una ojiva de 100 megatones en un misil de cualquier tamaño. A veces este ataque tiene efectos catastróficos. A menudo, la ojiva se cae prematuramente.
+Ayatolá Kookamamie
+
+El ayatolá Kookamamie comenzó su vida como un inocente monaguillo, hasta que un día lo encerraron en el receptáculo final de un vertedero de lavandería. Lo encontraron allí tres días después, completamente sepultado en las túnicas y sábanas del monje y farfullando como un idiota enloquecido. Después de mucha psicoterapia intensiva y un amplio tratamiento de shock, el ayatolá fue devuelto a la sociedad.
+Tras su liberación, rápidamente reunió a sus conocidos más fanáticos y formó un grupo que buscaba ilustrar a las masas sobre las ventajas de vivir la vida de una estética vestida con toallas de baño y ropa de cama, especialmente sábanas ajustables. Es común ver a sus seguidores haciendo cabriolas en las calles, vestidos con sábanas y toallas sagradas, pidiendo donaciones.
+
+Vestido constantemente con alta vestimenta religiosa, sábanas que adornan respetuosamente su cuerpo y una toalla de baño sagrada envuelta reverentemente alrededor de su cráneo, el Ayatolá es sumamente caótico y peligroso. La mayoría de los líderes mundiales creen que el ayatolá debería ser lavado en seco antes de que se extienda su influencia.
+Ronnie Raygun
+
+Quizás el líder más carismático de los últimos tiempos, Ronnie está completamente desconectado de la realidad. Comenzó su carrera como organillero. La compañera de Ronnie era una chimpancé superinteligente, llamada Nancy, que rescató de un laboratorio de investigación genética. El chimpancé controlaba todos los aspectos de la vida de Ronnie, y el intelecto superior se imponía claramente. Nancy quería vengarse de los investigadores genéticos y obligó a Ronnie a postularse para un cargo nacional. Poco después de que Ronnie asumiera el poder, Nancy murió, dejando a Ronnie sin guía. Bajo el tenue control de Ronnie, su país ya no se dirige a ninguna parte.
+
+Ronnie ahora está entrando en la senilidad y está constantemente cansado y de mal humor. Ten en cuenta que cuando Ronnie se pierde la siesta de la mañana o de la tarde, ¡se pone francamente de mal humor! Esto, junto con el hecho de que a veces piensa que está viviendo en un Spaghetti Western, convierte a Ronnie en una especie de belicista sin sentido. Ronnie siempre está a un paso de su juguete brillante favorito, The Button.
+
+De vez en cuando, Ronnie olvida por completo su actitud actual hacia los demás líderes mundiales y comienza nuevas negociaciones con cada uno de ellos. Ésta es quizás la única razón por la que no ha estallado una guerra nuclear durante su reinado.
+Primer Ministro Satcher
+
+La única mujer líder, la Primera Ministra Satcher, ganó su puesto siendo especialmente despiadada y sanguinaria. Esto atrajo a la envejecida aristocracia de su arruinada nación, que rápidamente respaldó su ascenso al poder global, con la esperanza de una última y gloriosa guerra.
+
+Bajo su reinado, su decadente nación ha seleccionado una variedad de naciones del Tercer Mundo para destrozarlas. La población ha aceptado las incesantes declaraciones de guerra de Satcher, e incluso ha obtenido mucho apoyo para sus acciones. Recientemente, su popularidad alcanzó su punto máximo después de que ella personalmente liderara un asalto para recuperar una cadena de islas que una nación particularmente tonta pensó que podía reclamar.
+
+Satcher no tiene reparos en llevar un conflicto al punto de ruptura y comenzar un sangriento baño de sangre. Conocida ampliamente como "P.M. Satcher", es propensa a sufrir ataques inexplicables de violencia extrema. Los demás líderes mundiales temen esos pocos e inevitables días en los que no tienen más opción que aplacar al temperamental e irascible autócrata.
+EL ARSENAL NUCLEAR
+
+¿Estás cansado de los requisitos absurdos que te impone la burocracia para gobernar tu país? ¿Alguno de tus vecinos globales simplemente te molesta? ¿Estás harto del ruido de pies sin sentido mientras las víctimas de las campañas de propaganda van y vienen entre las naciones del mundo, desertando e inmigrando continuamente? Hay una manera de acabar con todos estos problemas.
+Simplemente presione el botón.
+
+¿Pero qué lanzarás? ¿Cuánto daño pueden hacer tus armas? ¿Cuántos megatones puede transportar cada misil o bombardero? En Nuke Magazine hemos consultado con algunos de los principales expertos del mundo y hemos llegado a estas respuestas.
+Ojivas
+
+Limitadas a cuatro tamaños básicos, las ojivas son una parte integral del ataque nuclear. Aunque tienen distinta potencia, los cuatro tienen el mismo objetivo final: la reducción de la población.
+
+La ojiva de 10 megatones, cariñosamente llamada "Boom-Boom" por el grupo de expertos militares, es la unidad de energía más pequeña, más extendida y básica del arsenal nuclear. Por sí solo, puede infligir daños capaces de destruir una base de dos millones de personas y puede lanzarse contra cualquier misil o bombardero.
+La ojiva de 20 megatones es el explosivo favorito de la mayoría de los líderes mundiales. "Raging Death" lanza una arrasadora bola de fuego de destrucción capaz de destruir una base de cinco millones de personas, mucho más efectiva que múltiples ataques de 10 megatones. Otra ventaja es que "Raging Death" es bastante fácil de producir y puede lanzarse con casi todos los misiles.
+
+Normalmente reservada para oponentes verdaderamente despreciables, la ojiva de 50 megatones es sin duda una herramienta de destrucción masiva. Una base de 10 millones de personas puede ser purificada en este ordenado paquete de muerte en llamas, a veces llamado "El Limpiador". El único inconveniente es la cantidad limitada de operadores disponibles para esta potente carga útil.
+
+"Buster", la ojiva de último recurso, es la carga útil de 100 megatones que lo hace todo. Este ángel del Apocalipsis mata directamente a una base de apenas 25 millones de personas, alterando efectivamente el equilibrio de poder a favor del agresor. ¡Tener cuidado! Si "Buster" tiene la oportunidad de atacar un arsenal nuclear, los resultados podrían ser catastróficos para todos.
+misiles
+
+Los misiles, la forma clásica de ataque nuclear, son también el más popular de los dos sistemas vectores. Fácilmente producidos en masa y, por lo tanto, relativamente baratos, cada nación puede permitirse gastos militares extravagantes en misiles sin protestas de las masas. Sin embargo, los misiles sólo sirven para un único ataque, ya que explotan con la ojiva.
+
+El asqueroso misil Carnage tiene la capacidad más pequeña de cualquier sistema de lanzamiento nuclear. Sólo puede transportar una ojiva de 10 megatones. Se utiliza principalmente cuando los países no desean desperdiciar un misil más grande en una ojiva pequeña de 10 megatones.
+
+Una vez más, la potencia destructiva de tamaño mediano gana la encuesta de popularidad nuclear. El espantoso misil Gravedigger fomenta la destrucción donde quiera que vaya, transportando una ojiva de 10 o 20 megatones en sus formidables confines. Este es fácilmente el más utilizado y útil de todos los sistemas de entrega.
+
+Portador de la muerte. No hay mucho más que decir sobre este misil, aparte del nombre, cuando está cargado correctamente. Puede transportar 10, 20 o hasta 50 megatones de Armageddon portátil como carga útil. Muchos países desarrollan programas de defensa específicamente contra los estragos que puede producir este misil de alta tecnología.
+
+La pura posesión es todo lo que un país necesita para que el Misil Pacificador someta a sus vecinos difíciles de manejar. Poco numeroso y atesorado, el sistema de entrega Pacifier tiene la capacidad de paralizar a las potencias más fuertes o poner fin a las naciones más débiles. Sólo este misil puede transportar la temible ojiva "Buster" de 100 megatones.
+Bombarderos
+
+Los bombarderos están ganando popularidad constantemente en los niveles militares del mundo. Pueden dar servicio a múltiples áreas globales y transportar combinaciones de ojivas hasta que hayan alcanzado su nivel máximo de carga útil. Su flexibilidad y utilidad general están superando lentamente el ridículo precio que generalmente se les asocia.
+
+El confiable NP-1 es el primer bombardero que logró un uso global generalizado. Conocido ampliamente como el "cartero nuclear", el NP-1 nunca ha dejado de recibir una pronta entrega de sus ardientes paquetes de alegría radiactiva hasta la fecha. El "cartero nuclear" puede transportar hasta 50 megatones de correo atómico, pero más allá de esa cantidad está prohibido. Y no te preocupes, este cartero también reparte los domingos.
+
+El bombardero GR-2, comúnmente conocido como "The Grim Reaper", es el sistema de lanzamiento más potente jamás creado. "The Grim Reaper" puede llevar cualquier combinación de ojivas de hasta 100 megatones. Las combinaciones van desde un único proyecto de servicio con una ojiva "Buster" o una sucesión de contratos de servicio con cualquier combinación de ojivas menores que no superen los 100 megatones de destrucción.
+NOTA: Los bombarderos pueden llevar cualquier combinación de ojivas que no excedan la capacidad máxima de carga útil. Prepara el bombardero, en el siguiente turno apunta y carga la primera ojiva. En el siguiente turno, apunta y carga la segunda ojiva. Continúe este proceso hasta alcanzar la capacidad máxima. Por ejemplo, si un GR-2 tuviera una capacidad de 90 megatones (digamos de una ojiva de 50 megatones y luego de dos ojivas posteriores de 20 megatones), sólo podría transportar una ojiva de 10 megatones en su cuarto y último bombardeo. Cuando los bombarderos han alcanzado su capacidad o ese líder global juega cualquier cosa que no sea una ojiva mientras se despliega un bombardero, el bombardero queda anulado y desaparece del arsenal.
+Sistemas de defensa
+
+Los sistemas de defensa normalmente se despliegan como último recurso. Se utilizan para proteger los últimos vestigios que quedan de una población devastada o cuando una nación se ha quedado sin opciones ofensivas y se cree el objetivo de un ataque nuclear. Sin embargo, el uso estratégico de un sistema de defensa puede aplastar eficazmente la ofensiva de una nación enemiga. Recuerde, un sistema defensivo destruye todos los portaaviones que puede durante el turno en el que se despliega el sistema de defensa.
+
+El sistema de defensa Laser Net puede derribar y destruir cualquier misil hostil. Lamentablemente, las mortíferas pinzas de luz láser empuñadas por Laser Net han demostrado ser totalmente ineficaces frente a un ataque nuclear realizado por bombarderos.
+
+Lo último en capacidad de defensa, el Peacekeeper MegaCannon puede destruir cualquier ataque nuclear hostil lanzado contra la nación de origen. Tanto los misiles como los bombarderos son blancos fáciles para este formidable instrumento de reivindicación defensiva.
+¡DESASTRES!
+
+Como líder global, usted es responsable de la salud y el bienestar de sus ciudadanos. Debes promover sus ideales y satisfacer sus deseos. Y en la era nuclear, debes proteger a las masas de las explosiones, la radiación y la lluvia radiactiva.
+
+Haces todo lo posible para satisfacer estas necesidades, pero algunas cosas están condenadas al fracaso. Un terremoto puede destruir el refugio antiaéreo mejor construido, o una fusión nuclear puede destruir tus tierras de cultivo más fértiles.
+
+La revista Nuke ha compilado una lista de sucesos inexplicables, buenos y malos, que pueden alterar la posición de una nación.
+Terremotos
+
+Un desastre aleatorio que no tiene piedad, el terremoto ocurre con poca frecuencia. Un terremoto, causa de gran angustia en todo el mundo, puede arrasar cualquier ciudad en cuestión de momentos. Ninguna ciudad es inmune, desde una metrópolis en expansión hasta una choza destartalada.
+Fusiones nucleares
+
+¿Qué se puede decir? Los accidentes ocurren, incluso en lugares con cientos de controles de seguridad y dispositivos de seguridad. Por supuesto, algunos accidentes son más desastrosos que otros, y este en particular es quizás el último "Boo-Boo". Presiona el botón equivocado, derrama refresco en el panel equivocado o te quedas dormido en el momento equivocado, el resultado final es el mismo. El campo circundante será inhabitable durante un siglo o más, y siempre habrá otros lugares donde pasar sus vacaciones. De todos modos, probablemente no necesitabas esa ciudad.
+Explosiones demográficas
+
+Y todos pensaban que sólo Mao los tenía. De vez en cuando, sin motivo aparente, nacerá una masa de bebés. Tal vez fueron los medicamentos para la fertilidad que se encuentran en el suministro de agua, o el almizcle que circula con el aire acondicionado, o podrían haber sido esas ostras que todos se vieron obligados a comer. Podrían haber sido simplemente hormonas. No importa por qué, ahora tienes más electores a los que lavarles el cerebro. ¡Sea agradecido!
+Deserciones masivas
+
+Acéptalo, no todo el mundo estará de acuerdo con la forma en que diriges tu país. Probablemente incluso dirán algunas mentiras sobre lo superior que es la nación de su vecino. Demonios, el tipo probablemente sea una planta, ¡y lo sabes! De todos modos, podrías perder a algunas personas a manos de uno de tus vecinos. Por supuesto, podrías ganar parte de la población de tu vecino cuando su población descubra la verdad sobre tu excepcional nación.
+Eyecciones forzadas
+A veces, las facciones disidentes son descubiertas antes de que ganen el poder suficiente como para alterar tu control absoluto sobre la nación. ¿Qué haces con estos alborotadores? Una ejecución masiva generaría simpatía y no se les puede convencer de que sigan su ejemplo. La respuesta, bastante ingeniosa, fue la catapulta humana. Esta catapulta titánica lanza a todos los disidentes al país de su elección, "Par Avon".
+Ganadería
+
+Cattletech, una mutación perversa de la catapulta humana, sustituye la munición humana normal por un oído de vaca. Creado por un psicótico que tenía mucha malicia hacia Ghanji, Cattletech se usa cuando una nación no puede o no quiere tomar ningún Toro de ningún país. Esta arma devastadora crea histeria colectiva, caos y estragos. Tan pronto como suena el grito de guerra: "¡Cherchez la vache!" Cuando se pronuncia, el miedo entra en el corazón incluso del más valiente. Las vacas en el aire aplastan casas, automóviles, escuelas, hospitales e incluso restaurantes de comida rápida. Las vacas que sobreviven al impacto de ser arrojadas por el cielo a miles de kilómetros de distancia realizan una estampida en la nación objetivo, destruyendo todo a su paso hasta que la última vaca se convierte en hamburguesa.
+Platillos voladores
+
+Los informes de que nuestros hermanos en el espacio nos observan son ciertos. Y se divierten. Mejor que la peor película de acción por pura devastación por minuto, los extraterrestres han decidido que la raza humana debe mantenerse con vida. Apuntan a una de las ciudades más prometedoras, elegida por su brutalidad y estupidez, y la clonan. ¡Dos personas idénticas donde había una, el doble de la población total y el doble de potencial para el caos!
+Peso de 16 toneladas
+
+Nadie sabe con seguridad de dónde vino esta extraña tecnología o qué mente retorcida la creó, pero todos temen sus efectos ruinosos. Materializándose sobre una ciudad aparentemente aleatoria, el peso de 16 toneladas cae sobre la población, repartiendo una muerte verdaderamente blanda en masa. El peso cae una y otra vez, hasta que no queda nada más que un páramo llano.
+Cadetes espaciales
+
+Cada nación los tiene. Se arrastran por el sistema de alcantarillado, se infiltran en las casas y se reproducen. Ningún líder sabe qué hacer con ellos. De vez en cuando, ganan suficiente dinero, contratan a las personas adecuadas y ¡BINGO! ¡Se han ido! Atan un gran motor de cohete al fondo de la ciudad, colocan una gran carcasa de plástico en la parte superior de la ciudad y ¡WHAMMO! La ciudad ha salido al espacio para vivir en el Patrón Orbital 1,5, donde es segura.
+RELACIONES INTERNACIONALES
+
+Para ayudarle a usted, el líder global agresivo, a obtener una ventaja sobre sus oponentes, la revista Nuke ha preparado un informe sobre las diferentes personalidades que se cree que tienen los otros líderes globales. También se detalla el arte de la diplomacia Happy Face, que es la piedra angular de la política de la era nuclear.
+Personalidades
+
+Después de una investigación muy profunda, se encontraron cinco tipos básicos de personalidad entre los diez líderes globales dominantes. Al principio pensamos que solo había un tipo, Ausente, pero después de varios años de observación con los microscopios electrónicos más potentes, se encontraron diferencias sutiles. Las cinco personalidades son estándar, pacifista, mentirosa, caótica y belicista. Casualmente, un par de líderes coinciden con cada tipo de personalidad. A continuación se incluye una definición de cada tipo de personalidad y una lista de los líderes que los exhiben.
+Estándar
+
+Básicamente, esta es la personalidad del grupo de control. Las reacciones mostradas por otras personalidades podrían rastrearse como una mutación de la reacción estándar. ¿Cuál es la reacción estándar?
+
+Si te enfrentas a un líder estándar, no le agradarás al líder. Si cultivas una amistad, agradarás al líder. Una personalidad estándar se sentirá neutral con cualquiera hasta que se muestre el motivo del cambio.
+
+Los líderes que muestran personalidades de Standard son Infidel Kastro y Mao the Pun. Las personalidades estándar se encuentran entre las más fáciles de manipular.
+pacifista
+
+Este es realmente el tipo de personalidad más extraño para un líder global. ¿Qué piensan los líderes pacifistas? ¿Creen honestamente que pueden promover los objetivos de sus ciudadanos y de su nación a través de la paz y la no violencia?
+Los pacifistas prefieren utilizar la propaganda a los ataques nucleares tácticos y son propagandistas muy exitosos. Si se le arrincona o se enoja profundamente, el pacifista contemplará la posibilidad de emprender una acción nuclear.
+
+Ghanji y Jimi Farmer son pacifistas declarados. Ambos son oponentes extremadamente duros, se enojan fácilmente por los ataques nucleares y, sin embargo, muy susceptibles a las mentiras.
+mentiroso
+
+Aunque todos los líderes globales tienen la tendencia o deberíamos decir aptitud, para mentir, unos pocos seleccionados nunca parecen decir la verdad. Sienten que si dijeran la verdad, todos sus planes serían revelados. Teniendo en cuenta que todo el mundo sabe que sus planes consisten en diversas formas de subvertir el mundo según sus caprichos y que mienten cuando hablan de armonía y hermandad, mentir parece más bien inútil.
+
+Un mentiroso es difícil de evaluar. Puede que esté enojado contigo y, aun así, golpeará a tu enemigo. O podría profesarle amistad y respeto por sus ideales y luego darse la vuelta y aniquilar a su nación. Lo que hace que un mentiroso sea aún peor es que a veces introduce algo de verdad en tus tratos. Entonces, cuando esperas lo contrario, el Mentiroso realmente hace lo que dice.
+
+Los mentirosos más famosos del mundo son Tricky Dick y Mikhail Gorbachef. Son los dos líderes mundiales más difíciles de conquistar.
+Caótico
+
+Algunos líderes desafían la definición. Sus reacciones son verdaderamente aleatorias y diversas. Pueden atacarte porque es un día nublado, pueden atacarte porque es un día soleado, o pueden atacarte porque es cualquier día. Los líderes caóticos son esencialmente locos y totalmente impredecibles.
+
+Actúan como niños pequeños, dudando de sus amigos y teniendo esperanzas de sus enemigos. Es mejor tener precaución cuando se trata de Caóticos. Esté atento a sus reacciones y podrá descubrir un método para su locura. Tu método es incorrecto; sin embargo, son verdaderamente caóticos.
+
+Las personalidades caóticas son bastante obvias: el coronel Malomar Kadaffy y el ayatolá Kookamamie.
+belicista
+
+Esta es una personalidad sencilla. Los belicistas serán tus amigos siempre que los ayudes a bombardear a sus enemigos. Usa propaganda débil o atácalos a ellos o a uno de sus amigos, y felizmente te bombardearán hasta que sólo nubes de polvo radiactivo y arremolinados habiten tus ciudades.
+
+Los dos belicistas son Ronnie Raygun y el primer ministro Satcher, y ambos son relativamente fáciles de controlar.
+Diplomacia de cara feliz
+
+Hay cinco caras felices diferentes: Benevolente, Amistosa, Neutral, Antipática y Hostil, cada una de las cuales representa una actitud diferente que puedes adoptar hacia cualquier líder global. La misma actitud afectará a cada líder de manera diferente.
+
+Si bien una actitud hostil puede aumentar el agrado de un belicista hacia ti, irritará profundamente a un pacifista. Descubre las reacciones que tienen los diferentes tipos de personalidad ante cada cara feliz y utiliza bien los resultados. Una palabra de advertencia: a medida que cambia la actitud (rostro) del líder, también cambia el afecto de las diferentes caras felices.
+
+Recuerda, ni siquiera el uso más efectivo de caras felices aliviará los problemas causados ​​cuando almacenas, lanzas misiles o bombarderos consecutivos sin ojivas o pierdes tiempo. Todas las acciones afectan las actitudes de cada líder, así que tenga cuidado.

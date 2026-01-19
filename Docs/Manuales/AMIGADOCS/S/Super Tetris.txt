@@ -1,0 +1,616 @@
+                                Super Tetris  
+ 
+                                    From 
+
+                              Spectrum Holobyte   
+
+  PRIVYET! 
+  First there was tetris. Then there was the fall of communism. 
+  Coincidence - or incredibly crafty plan? 
+ 
+  Consider: when Alexey Pajitnov created tetris, there were very few 
+  computers in the whole of the Soviet Union and authorities were mightily 
+  concerned with controlling the flow of information those computers could 
+  provide. But the savvy young Russian went ahead and made his game 
+  in spite of that, and then found a way to market it around the world. It 
+  became one of the most successful games the world has ever seen and 
+  threw a spotlight on the creativity waiting to be unleashed in the 
+  world's eastern hemisphere. Who's to say if that one example showed the 
+  Soviet bureaucrats that there was more to be gained from plunging ahead 
+  into modern times than holding back? All we know is, the world started 
+  humming balalaika music and the commissars collapses... 
+ 
+  ...leaving Alexey even freer to take tetris to new levels of 
+  entertainment and excitement, so that now: 
+ 
+  *       The pit is deeper, and it scrolls as your pieces fall. 
+  *       The bottom of the pit is filled with rubble, which conceals 
+          seven types of buried treasures. 
+  *       Removing a line wins you a bomb cluster, which you can use to 
+          blow up extra pieces or activate treasures. 
+  *       The rubble makes up a hidden picture, which is revealed in the 
+          thermometer next to the pit as you remove each line of rubble. 
+  *       The game advances to a higher level when you've completely 
+          revealed the picture in the rubble. 
+  *       The number of pieces you can use to clear the pit is limited. 
+  *       Pieces fall faster and the rubble is more difficult to clear 
+          at higher levels. 
+  *       You can make pieces fall faster by pressing a key, but releasing 
+          the key returns them to their normal rate of descent. 
+  *       The game ends when the pieces reach the top of the pit, you run 
+          out of pieces, or you run out of time (in a timed game). 
+  *       There are single player timed games, cooperative games and 
+          competitive games. 
+ 
+  So get ready to dig into super tetris. Who knows? You just may be 
+  changing the course of history - again! 
+
+ 
+AMIGA
+~~~~~
+Loading the Program
+
+Turn on the computer (Amiga 1000 owners must use Kickstart.) When prompted
+for the Workbench disk, place the Super Tetris disk into the drive. The 
+game will "auto-boot."
+ 
+If you have 1 megabyte RAM or more, Super Tetris can be multi-tasked.
+
+Making a Backup Copy
+
+Super Tetris for the Amiga contains off-disk copy protection, which means 
+that you can make a backup copy.
+
+Installation
+~~~~~~~~~~~~
+You can install Super Tetris to any location on your hard drive, as long
+as you assign tetris: to that location.
+I.E:
+
+ASSIGN TETRIS: DH3:GAMES/TETRIS
+
+Copy it with
+
+COPY DF0: TO DH3:GAMES/TETRIS ALL
+
+
+IBM
+~~~
+
+  SYSTEM REQUIREMENTS 
+  ~~~~~~~~~~~~~~~~~~~ 
+  Super tetris operates on any IBM PC compatible computer running Windows 
+  3.0 or later. In addition, the program requires: 
+ 
+  *       2MB RAM 
+  *       One 1.2 MB 5 1/4 or 1.44 MB  1/2 disk drive 
+  *       Hard drive 
+  *       VGA graphics 
+  *       Microsoft-compatible mouse 
+ 
+  Options: 
+  ~~~~~~~~ 
+  *       Super VGA graphics 
+  *       Sound blaster card 
+ 
+ 
+  INSTALLATION 
+  ~~~~~~~~~~~~ 
+  Make backup copies of your super tetris program disks before you do 
+  anything else and put your original program disks in a safe place. 
+  Because the super tetris program must be run from a hard drive, you 
+  cannot run super tetris from floppy disks. 
+ 
+  To install the program: 
+  ~~~~~~~~~~~~~~~~~~~~~~~ 
+  1.      Start Windows as you normally do. 
+  2.      Insert super tetris disk 1 into your floppy drive. 
+  3.      From the program manager's file menu, choose "RUN" 
+  4.      In the command line box, type "A:SETUP" 
+  5.      Press the ENTER key 
+  6.      Follow the onscreen instructions. The setup program will install 
+          super tetris to c:\supertet unless you want to change it. If you 
+          wish to install the game to a different directory, type the new 
+          directory name in the space below. Press OK to continue with the 
+          installation. 
+  7.      Next the setup program will determine if your windows system is 
+          running in a 256 color or 16 color mode. If your system is in 
+          256 color mode, setup will ask if you want to install 256 color 
+          images, 16 color images or both. Choose one of the options and 
+          press OK 
+  8.      Next, the setup program will ask you if you have a sound blaster 
+          or sound blaster pro card. If so, the setup program will install 
+          the necessary sound files. 
+  9.      The setup program will then check your win.ini file to see if it 
+          has been modified for the sound blaster. If not, setup will ask 
+          if you want to add the following lines to your win.in file: 
+ 
+          [SoundBlaster] 
+          Port=220 
+          Int=7 
+          DMA=1 
+ 
+          Note: The lines above assume that your sound blaster is set to 
+          220 hex for the address and 7 for the interrupt. If your 
+          settings are not the same as these, change the values 
+          accordingly in your win.in file. The testsbc program from 
+          creative labs will help you check your card's address and 
+          interrupt setting. 
+ 
+          You will need to restart windows in order for the changes in 
+          your win.in file to take effect for the sound blaster. 
+ 
+ 
+  LOADING SUPER TETRIS 
+  ~~~~~~~~~~~~~~~~~~~~ 
+  To run super tetris, open the games program group in the program 
+  manager. Double-click the super tetris icon. You will soon see the 
+  introductory sequence and the super tetris title screen. 
+ 
+  Please note that super tetris will only run under the standard or 386 
+  enhanced mode of windows. You can check to see which windows mode you 
+  are running in by selecting "about program manager" from the help menu 
+  while in the program manager. If you are running in real mode, super 
+  tetris will not load. 
+ 
+  If you are running in standard mode, super tetris does not support music 
+  through the sound blaster or sound blaster pro. The music button on the 
+  game configuration screen will be dimmed out if you are either running 
+  in standard mode or do not have a sound blaster card. If you are running 
+  in enhanced mode, super tetris supports both music and sound effects on 
+  your sound blaster. 
+ 
+ 
+  TERMS YOU NEED TO KNOW 
+  ~~~~~~~~~~~~~~~~~~~~~~ 
+  Level           Level of difficulty in the game 
+  Square          Basic unit of a super tetris piece 
+  Piece           Made up of four squares. There are seven unique pieces 
+  Next Piece      Next piece to fall. This is shown so you can anticipate 
+                  where to place it in your well. 
+  Pieces Left     Number of pieces you have to finish the level 
+  Line            Horizontal row of squares, formed by fitting pieces 
+                  together 
+  Pit             Where the game is played, 28 squares deep 
+  Water Line      The line which is 14 lines from the top of the pit with 
+                  the rubbles below 
+  Rubble          Squares beneath the water line that have been already 
+                  placed in the pit 
+  Thermometer     Small replica of the entire pit which allows you to 
+                  better see the design formed as you remove lines of 
+                  rubble 
+  Bomb            Special piece which destroys squares and itself when it 
+                  touches squares or other bombs 
+  Treasure        Special square embedded in rubble which provides rewards 
+                  when bombed 
+ 
+ 
+  GAME CONFIGURATION 
+  ~~~~~~~~~~~~~~~~~~ 
+  The game configuration screen allows you to choose the type of game you 
+  want to play. Make your choices by moving the onscreen arrow with the 
+  mouse. When the arrow is positioned over the choice you want, click the 
+  left mouse button to open dialog boxes or to toggle (if an On/Off choice 
+  is available). 
+ 
+ 
+  SELECT A GAME MODE 
+  ~~~~~~~~~~~~~~~~~~ 
+  There are six game modes in super tetris: 
+  SINGLE PLAYER, SINGLE PLAYER 5 MINUTE, SINGLE PLAYER 10 MINUTE, SINGLE 
+  PLAYER 15 MINUTE, CO-OPERATIVE AND COMPETITIVE. When you select the 
+  first button on your screen, a dialog box appears listing these modes. 
+  Select one by clicking on it with the left mouse button. We suggest you 
+  start with a single player game to get a feel for super tetris before 
+  you try the other game modes. Playing and scoring in a single player 
+  game is explained in the playing super tetris section later in this 
+  manual. The other game modes are explained in their own chapters. 
+ 
+ 
+  SELECT A DIFFICULTY LEVEL 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~ 
+  When you select difficulty level, a dialog box appears listing the 
+  levels by number. The higher the number, the faster the pieces fall; 
+  also, rubble becomes more difficult to clear, the pit becomes deeper and 
+  more treasure types appear. Select your level by clicking on it with the 
+  left mouse button. We suggest you start with level 1 to get a feel for 
+  super tetris before you try the other difficulty levels. 
+ 
+ 
+  SELECT A CONTROL METHOD 
+  ~~~~~~~~~~~~~~~~~~~~~~~ 
+  Now move the arrow over the player 1 button and select your method of 
+  controlling super tetris. You can use either the keyboard or the mouse. 
+  If you've selected a cooperative or competitive game, the same choices 
+  appear for player 2 just below player 1's button. Only one player can 
+  have mouse selected in a cooperative or competitive game. 
+ 
+ 
+  SELECT OPTIONS 
+  ~~~~~~~~~~~~~~ 
+  The following buttons allow you to change the way the game is played. 
+ 
+  You can decide whether you want advance notice of what piece will fall 
+  after the current piece by toggling next piece on or off. The game is 
+  more challenging if you don't know what is coming next and you will 
+  score more points for successful play. We suggest, though, that you lean 
+  super tetris with this option turned on. 
+ 
+  You can also decide whether you want to play with sound effects by 
+  toggling sound effects on or off, and whether you want music (if you 
+  have a sound blaster running in enhanced mode) by toggling music on or 
+  off. 
+ 
+ 
+  AND...GO! 
+  ~~~~~~~~~ 
+  Select new game to begin a brand-new game. This activates all your 
+  choices on the game. Configuration screen and starts the game. 
+ 
+  Load game brings up a dialog box which allows you to restart a saved 
+  game. 
+ 
+  Selecting quit at the game configuration screen returns you to the 
+  desktop. You can also press ALT F4. 
+ 
+ 
+  PLAYING SUPER TETRIS 
+  ~~~~~~~~~~~~~~~~~~~~ 
+  Super tetris starts on whichever level you last selected on the game 
+  configuration screen, but the initial default is level 1. Each level 
+  shows the pit on the left and a screen from the world famous moscow 
+  circus on the right. 
+ 
+  In single player and cooperative games, the box above the pit shows the 
+  current point score. In a competitive game, player 1's point score 
+  appears in a box at the upper left of the screen and player 2's score 
+  appears in a box at the upper right. 
+ 
+  In single player and cooperative games, the box at the upper left of the 
+  screen shows the level. In a competitive game, the level is shown above 
+  the pit. 
+ 
+  If you choose next piece on from the game configuration screen, a 
+  picture of the next piece to fall is shown in the box below your score. 
+  In a competitive game, each player has a separate box for the next 
+  piece. 
+ 
+  Below the picture of the next piece is the number of pieces left at this 
+  level. 
+ 
+  To the lower left of the pit is a miniature version of the pit, called 
+  the thermometer, which shows a miniature picture of the rubble as you 
+  destroy it. The rubble forms a picture, which you can best see in the 
+  thermometer's reduced format. The rubble picture is usually related to 
+  that level's background artwork. 
+ 
+ 
+  PIECES AND BOMBS 
+  ~~~~~~~~~~~~~~~~ 
+  Super tetris pieces come in seven shapes. Each level has a finite number 
+  of pieces to begin with. In the single player and competitive game modes 
+  you have 50 pieces, but in cooperative it is 100. Each time a super 
+  tetris piece drops, the number of pieces left goes down by one. If the 
+  number of pieces decreases to zero, then the game is over. You can get 
+  more pieces by completing lines or exploding certain treasures. Each 
+  time you finish a level, the number of pieces is reset to 50 (or 100) 
+  and you now have that number of pieces to complete the new level. 
+ 
+  The lower portion of the pit is filled with water and rubble. Pieces 
+  drop randomly from the top of the pit and fall until they land on 
+  another piece or the rubble. You must position the pieces as they fall, 
+  trying to fit them together at the bottom like a jigsaw puzzle. When a 
+  horizontal line completely crossing the pit is formed, the line 
+  disappears and the piece that falls next is, in fact, a cluster of 
+  bombs. This cluster can also be positioned as it falls and whatever 
+  squares the bomb touches as it moves are destroyed. Bombs do not 
+  subtract from the piece count. 
+ 
+  Bomb clusters are awarded as follows: 
+ 
+          Completing 1 line               2 bombs 
+          Completing 2 lines              4 bombs 
+          Completing 3 lines              8 bombs 
+          Completing 4 lines or more      12 bombs 
+ 
+ 
+  MOVING PIECES 
+  ~~~~~~~~~~~~~ 
+  As pieces or bombs fall into the pit, you can move them left or right, 
+  rotate them or make them fall more quickly, using the control method you 
+  choose on the game configuration screen. You can also move pieces using 
+  a mouse. 
+          Rotate  Left button 
+          Drop    Right button 
+          Left    Move mouse left 
+          Right   Move mouse right 
+ 
+  The following table lists the keys that control the movement of the 
+  pieces and bombs: 
+ 
+  Control 1: Single Player 
+  ~~~~~~~~~~~~~~~~~~~~~~~~ 
+          Move piece left         4       A       left arrow 
+          Move piece right        6       D       right arrow 
+          Rotate piece            5       S       up arrow 
+          Drop piece              2       X Space down arrow 
+          Left and down           1       Z 
+          Right and down          3       C 
+ 
+  Control 1: Competitive and Cooperative 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+          Move piece left         A 
+          Move piece right        D 
+          Rotate piece            S 
+          Drop piece              X Space 
+          Left and down           Z 
+          Right and down          C 
+ 
+  Control 2:Competitive and Cooperative 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+          Move piece left         4       left arrow 
+          Move piece right        6       right arrow 
+          Rotate piece            5       up arrow 
+          Drop piece              2       down arrow 
+          Left and down           1 
+          Right and down          3 
+ 
+ 
+  TREASURES 
+  ~~~~~~~~~ 
+  Buried in the rubble are treasures. When a bomb blows up treasure, good 
+  things happen, as described below: 
+ 
+  5                       adds 5 pieces 
+ 
+  10                      adds 10 pieces 
+ 
+  15                      adds 15 pieces 
+ 
+  (Square in a circle     turns into a bubble which moves upward, filling 
+  in a square)            all empty spaces with pieces, until it reaches 
+                          the water line. 
+ 
+  (Circle in a square)    turns into a bubble which moves upward, 
+                          destroying all rubble and treasures it touches, 
+                          until it reaches the water line 
+ 
+  (Squiggle line)         removes the line it's in 
+ 
+  (Detonator box)         destroys all squares, treasures and your other 
+                          bombs in a 3x3 area around itself 
+ 
+  (Bomb)                  turns the next piece into a bomb shaped like 
+                          the next piece 
+ 
+  (Line in a box)         turns the next piece into a straight, blue, 
+                          4-square piece 
+ 
+  The first three treasures give you more pieces with which to form lines, 
+  thus giving you a better chance of finished the level. The fourth 
+  treasure is valuable for filling holes to make more lines. The next 
+  treasure eliminates any pieces overhanging holes, making it easier to 
+  fill in the holes. Since the sixth treasure takes out a line, you should 
+  always detonate this treasure. The seventh treasure destroys a large 
+  section of rubble. The next treasure gives you an extra shot at blowing 
+  things up with bombs, and the last treasure is the long straight piece 
+  you always want. 
+ 
+ 
+  COMPLETING THE LEVEL 
+  ~~~~~~~~~~~~~~~~~~~~ 
+  When a horizontal line disappears, one of two things happens in the pit. 
+  If the line is above the water line, all squares above the line drop 
+  down into the open space. If the line is below the water line, the rubble 
+  rises all the way to the water line (i.e., if you complete the last line 
+  of rubble), the level is won. Each time you complete a level, you will 
+  be awarded a point bonus before going to the next level, where you will 
+  be given more pieces to finish the new level. 
+ 
+  You lose the level if one of three things happens before you complete 
+  the level: 
+ 
+  1. You let pieces reach the top of the pit 
+  2. You run out of pieces 
+  3. During a timed game, you run out of time 
+ 
+ 
+  HIGHER LEVELS 
+  ~~~~~~~~~~~~~ 
+  As each higher level begins, the background art changes to another 
+  scene from the Moscow circus, the depth of the rubble increases, and 
+  (though level 10) the pieces fall move quickly. In addition, new 
+  treasure types are introduced at higher difficulty levels. 
+ 
+ 
+  MENU BAR 
+  ~~~~~~~~ 
+  The game screen also has a menu bar which you can use to change your 
+  options and perform other activities while the game is in progress. When 
+  you activate the menu bar, the game will pause. You can then click with 
+  the left mouse button to select a menu option or you can press the 
+  equivalent hot key combination. 
+ 
+  About                    Credits screen 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+  Game            ALT G 
+  New             ALT N    Aborts game and starts a new one 
+  Abort           ALT A    Aborts game and returns to the game config 
+  End             ALT E    Ends game with a score awarded and 
+                           continues to the high scores screen 
+  Load            ALT L    Loads a previously saved game 
+  Save            ALT S    Saves current game 
+  Pause           ALT P    Pauses the game 
+  Exit            ALT F4   Exits to desktop 
+  Options         ALT O 
+   Next Piece 
+   Sound Effects 
+   Music 
+  High Scores     ALT H 
+   Single player 
+   Single player timed     Submenu chooses 5, 10 or 15 minute 
+   Cooperative 
+   Competitive 
+ 
+ 
+  SCORING 
+  ~~~~~~~ 
+  Points are awarded for each piece that falls, for the speed at which the 
+  pieces fall, for each line completed, and for completing the level with 
+  pieces left over and for all the white space above the water line. Note 
+  that points are awarded for lines completed, not lines removed with 
+  bombs or treasures. The move lines completed with a single piece, the 
+  move the lines are worth. In addition, more points are awarded if Next 
+  piece is off. 
+ 
+  For each line completed, you each: 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+          1 line          7  points 
+          2 lines         14 points 
+          3 lines         28 points 
+          4 lines         56 points 
+          more lines      (number of lines x 15) points 
+ 
+  Then the speed that each piece falls is calculated and multiplied by the 
+  level. If you choose next piece off, the total is multiplied by 25%. 
+ 
+  At the end of each level, you earn a big bonus, which is calculated by: 
+  (pieces left x 4 x level) + (amount of white space above the water line 
+  x level) 
+ 
+ 
+  HIGH SCORES 
+  ~~~~~~~~~~~ 
+  When you reach the end of the current game, the game continues to the 
+  high scores screen for the game mode you chose. Whether or not your 
+  score is among the top ten scores, it appears below the high scores 
+  list. If your score does rank among the high scores, a dialog box 
+  appears. Type in your name, then hit ENTER or click OK to record your 
+  score, which will then appear in the list. 
+ 
+  Click OK to return to the game configuration screen 
+ 
+  Click ERASE to erase the current high scores. 
+ 
+ 
+                             GAME VARIATIONS 
+                             ~~~~~~~~~~~~~~~ 
+  TIMED GAMES 
+  ~~~~~~~~~~~ 
+  In these forms of super tetris, you play with a predetermined time 
+  limit, trying for the highest score in the time allotted. During the last 
+  five seconds of the game, you will hear warning beeps or (if you have a 
+  sound blaster) a countdown of 5-4-3-2-1! 
+ 
+ 
+  COOPERATIVE MODE 
+  ~~~~~~~~~~~~~~~~ 
+  In this form of super tetris, two players share the same game, the same 
+  score, and the same pool of pieces to be used. In cooperative the two of 
+  you have 100 pieces to finish each level, instead of the normal 50. The 
+  pit is wider than in single player mode - 16 squares instead of 10 - so 
+  that two pieces have enough room to fall at the same time. Each player 
+  controls his own piece, with both working together to win the game. 
+ 
+ 
+  COMPETITIVE MODE 
+  ~~~~~~~~~~~~~~~~ 
+  In this form of super tetris, two players compete on the same computer, 
+  each with his own pool of 50 pieces, each for his own score. The pit  is 
+  wider than in single player mode - 16 squares instead of 10 - so that 
+  two pieces can fall at the same time. 
+ 
+  Each player controls his won piece, working to score points for himself 
+  by completing a line before his opponent can. Each player can also keep 
+  his opponent from scoring, by creating an arrangement his opponent's 
+  falling piece won't fit or by using bombs to erase his opponent's piece. 
+ 
+ 
+  STRATEGY 
+  ~~~~~~~~ 
+  Super tetris, like tetris, is both so simple and so addictive that 
+  you're bound to develop your own strategies, but here are a few 
+  different ideas to start you off: 
+ 
+ 
+  PIT AND PIECES 
+  ~~~~~~~~~~~~~~ 
+  *       Since you only have seven shapes to work with, try to avoid 
+          forming empty areas where no piece can possibly fit. 
+ 
+  *       If you get a run of pieces that won't complete lines for you, 
+          try to stack them together on one side of the pit, leaving as 
+          much open space as possible for later pieces to fill in. 
+ 
+  *       Be sure not to create holes on both sides of the pit or else 
+          you'll have to fill in both holes to complete lines 
+ 
+  *       Use the diagonal keys to move a piece into an oddly shaped hole 
+          that you couldn't ordinarily fill with just a straight drop 
+ 
+  *       Try not to stack pieces over holes in the rubble because you 
+          will eventually have to get a piece into those holes 
+ 
+  *       If you're getting near the end of a level and you have enough 
+          pieces and time left, clear away as much of the pieces remaining 
+          in the pit before you complete the level - because any leftover 
+          pieces are carried to the next level and because you also get a 
+          bonus for the white spaces above the water line 
+ 
+ 
+  BOMBS 
+  ~~~~~ 
+  *       Don't forget that you can move a bomb cluster after the first 
+          bomb explodes 
+ 
+  *       Similarly, don't forget that you can rotate a bomb cluster 
+          around its original center point after the first bomb explodes 
+ 
+  *       Try to set up your holes so you'll be able to complete more than 
+          one line when you get the right piece. It means many more bombs! 
+ 
+  *       Use your bombs to clear your mistakes. If you had to leave an 
+          empty space which then got covered over, blast the covering 
+          squares away to regain the chance to fill the hole 
+ 
+  *       Don't use bombs to blow out squares below the top of the rubble 
+          under the water line. If you have squares overhanging each 
+          other, it makes it more difficult to fit pieces into complete 
+          line 
+ 
+  *       In a cooperative game, if one player gets a bomb, it can be used 
+          to blow up squares in the other player's piece so that the piece 
+          will fit in the pit better 
+ 
+  *       One way to use a bomb wisely is in anticipation of the next 
+          piece. You can blast away the correctly shaped space that the 
+          next piece will fit in. 
+ 
+ 
+  TREASURES 
+  ~~~~~~~~~ 
+  *       Use your treasures to clear away any mistakes. Super tetris is 
+          much more forgiving than tetris, so take advantage of that. 
+ 
+  *       Since treasures must be detonated by a bomb, don't forget that 
+          you can also move a bomb sideways into a treasure as well as 
+          from directly above. 
+ 
+  *       Going after a remove line treasure is almost always a good 
+          thing. The only drawback is that you don't get any points for 
+          completing the line 
+ 
+  *       At the higher levels, you definitely need to go after the add 
+          pieces treasure. Otherwise you'll probably run out of pieces 
+          before completing the level 
+ 
+ 
+  THE FINAL GOAL 
+  ~~~~~~~~~~~~~~ 
+  *       But the bottom line, so to speak, is to complete lines below 
+          the water line. Of course, you want the pieces to fit together 
+          well, but don't get too caught up in the jigsaw aspects of super 
+          tetris. Or else you will run out of pieces because you spent all 
+          of them making lines above the water line 
+
+End....................

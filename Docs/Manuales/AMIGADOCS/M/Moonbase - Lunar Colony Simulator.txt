@@ -1,0 +1,707 @@
+                              SKID ROW
+
+                              presents
+
+                          MOONBASE for Amiga
+
+System Requirements
+
+   MOONBASE for Amiga is designed to run on all Amiga systems, 
+including 500, 1000, 2000, 2500 and 3000.  The program requires 512K
+RAM (1 Meg recommended), at least one floppy drive, and KICKSTART
+and WORKBENCH 1.2 or greater.
+
+Installing MOONBASE
+
+   MOONBASE can be run from a floppy disk or can be installed to run
+on your hard drive.
+
+   Prior to installation, you should first make a backup copy of the
+MOONBASE distribution disk.  Your AmigaDOS manual explains how to do
+this.
+
+   To install MOONBASE, onto your hard drive, insert the MOONBASE
+disk into any floppy drive, double-click on your hard drive disk
+icon, double-click on the MOONBASE disk icon, and drag the 
+MOONBASE, Fonts and Libs drawers into the drive window.
+
+Running MOONBASE
+
+   Included on the distribution disk is a README file that contains
+additional information for running MOONBASE, as well as new 
+enhancements to the program.  To read this file, just double-
+click on the README icon.
+
+From floppy:
+
+   Turn on your Amiga computer and insert the MOONBASE disk into
+drive df0:.  The program will load and start automatically.
+
+   Insert the MOONBASE disk into drive df0: and reboot your computer 
+from the keyboard.
+
+From your hard drive:
+
+   To run MOONBASE from WORKBENCH on your hard drive, double click
+on the MOONBASE disk icon, double-click on the MOONBASE drawer,
+and double-click on the MOONBASE tool icon.
+
+SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW
+=======================================================================
+                           WELCOME TO MOONBASE
+
+       Thank you for purchasing MOONBASE!!!
+
+               First of all, take the time to fill out the registration form 
+               in the front of your manual and send it in.
+
+               Please refer to the paper insert in the box on 
+       installation instructions and additional information at the
+       end of this readme about installing MOONBASE on your hard drive.
+       
+       New features for Amiga MOONBASE not documented in the
+       MOONBASE manual or changed from the current information.
+
+       --->    Power/Thermal gauges - by either clicking on the
+               button in the lower left corner of the main window,
+               or by selecting Power/Thermal gauges from the
+               OPERATIONS menu, you can pull up a requester box
+               that shows gauges for power and thermal control.
+               When the needles are in the red, you need more
+               power or thermal control. In addition, the images
+               on the button will flash when your moonbase requires
+               more power or thermal control structures.
+
+       --->    New Cursor - the cursor (when over the lunar 
+               surface part of the main window) now shows the
+               locations of the airlocks and power/thermal connectors
+               of the currently selected tool. The airlocks appear
+               as small dash marks coming in from the outer edges
+               of the cursor outline. The power/thermal connector
+               is shown as a small square in on corner of the cursor.
+
+       --->    Pause Mode - by either clicking on the button in the
+               lower right corner of the main window (with the 'P'
+               on it) or by selecting Pause from the SETUP menu,
+               you can pause the simulation. Pressing the OK button
+               in the resulting requester box will resume normal
+               play.
+
+       --->    Menu Hotkeys - many of the selections in the menus
+               can be invoked via normal keys from the keyboard
+               making access to frequently used requester boxes
+               easier.
+
+       --->    Rotate Lab - The Labratory tool can be toggled
+               between the vertical and horizontal orientation
+               by clicking with the right mouse button while in
+               the lunar surface part of the main window.
+
+       --->    Cancel button for the Sell and Budget requester
+               boxes. By clicking on the cancel button in either
+               requester, all operations done since opening the
+               requester will be canceled.
+
+       --->    Drag and Draw - while in the lunar surface part of
+               the main window, it is possible to Drag and draw
+               with any tool in straight lines. This is especially
+               helpfull while laying down Roads, Pipes, or Power cable.
+               To use this feature, click and hold the left mouse
+               button down while also holding down either shift
+               key on the keyboard, then drag the mouse in the 
+               direction you wish to lay down tools. The direction
+               that you first move in will be the axis upon which
+               the tools will be placed along.
+
+	MOONBASE is not copy protected in any shape or form, and
+	was developed on and runs just fine on an Amiga 3000.
+
+	Additional information about installing MOONBASE on a hard
+	drive.
+
+	MOONBASE requires some fonts and library files in order
+	to operate. The installation instructions tell you to
+	just drag the Fonts and Libs drawers into your hard drive
+	partition window. This will copy all the fonts and libraries
+	files from the distribution disk into your fonts and libs drawers
+	on your hard drive. Some of the fonts and library files may
+	already exist on your hard drive. If you don't want the files
+	on the distribution disk to overwrite existing files on your
+	hard disk, then open a cli or shell and copy the files you don't
+	have on your hard disk manually from the floppy.
+	The files that MOONBASE requires from the fonts and libs drawers
+	are:
+		From the Libs drawer
+
+	 	diskfont.library
+		mathtrans.library
+		iff.library (if you want the logo screen to appear)
+
+		From the Fonts drawer
+
+		info.font and the file in the info drawer
+		ticker.font and the file in the ticker drawer
+		times.font and the files in the times drawer
+		sapphire.font and the file in the sapphire drawer
+
+	Any of the files that you don't have on your hard disk, just
+	copy them from the distribution disk.
+===============================================================================
+                            MOONBASE APPENDICES
+
+
+Typed by SIDEWINDER of LSD.  (Finished 4th July 1991)
+Manual supplied by SCOOTER.
+
+NOTE: This is the Appendices, the first 90 pages of the manual are a
+story, and are not necessary to play the game, but if anyone wants to add
+them to this, be my guest!
+
+
+QUICK REFERENCE
+Your job as Moonbase Commander is to build a successful and self
+supporting base.  NASA will provide you with seed money but you have to
+invest it wisely.  Here are the basics you need to know.
+
+Building a lunar base.  Your crew needs four things to survive on the
+Moon: Shelter, Power, Thermal Control, and Supplies.  Your base will
+function better if you keep all four of these in mind.
+
+Shelter is provided by habitation modules.
+
+Power and thermal control are provided by building power plants and
+radiators and then hooking these up to other nodules with power cables
+and thermal control pipes.
+
+Supplies are provided by purchasing them from Earth or by growing your
+own food in Greenhouses, finding water and making your own spare parts.
+
+CASH.
+You can raise cash by trading in one of the five commodities which are in
+constant demand.  You can invest in a plant that manufactures one of
+these commodities and provide it with what it needs to run: Crew, Power,
+Thermal Control and Resupply.  You can then sell the goods you produce on
+the open market.  The five commodities sold at the Lunar Commodities
+Exchange are Oxygen, Water, Helium-3. Electronics and Materials.  Each of
+these markets is unique and has a character all its own.
+
+OXYGEN
+Oxygen is needed to support life, but the quantities needed for this
+purpose is relatively small.  The major use for oxygen is as the primary
+component in rocket propellant.  When the Moonbase is established, the
+level of rocket traffic around Earth will be very high.  The demand for
+rocket propellant will also be high.  Oxygen is cheap on Earth, but it is
+expensive to lift into orbit.  Some of the things that affect the demand
+for oxygen are the level of the rocket traffic making resupply runs to
+and from the Moonbase, as well as any major space exploration missions to
+other planets and associated activity around the Earth space stations.
+
+WATER
+Water is also needed to support life, but unlike oxygen, that is not how
+the bulk of the water will be used.  Water can be broken down by
+electrolysis into hydrogen and oxygen which together make both components
+of a very powerful rocket propellant.  The hydrogen is the fuel and the
+oxygen id the oxidizer.  Since they are used for essentially the same
+purpose, many of the same things that affect the oxygen market will
+affect the water market.
+
+HELIUM-3
+Helium-3 is the fuel in many of the nuclear fusion reactions being
+studied as potential power sources.  Helium-3 is a light isotope of
+helium (common helium has a mass of 4) and is very rare on Earth.  On the
+Moon, however, the solar winds deposit Helium-3 in the Regolith, but not
+in high concentrations.  Large amounts of Regolith must be processed in
+order to extract significant quantities of Helium-3.  There presently is
+a small demand for Helium-3 for research purposes, but if fusion power
+generation were to be perfected, the demand for Helium-3 would grow
+rapidly.
+
+MANUFACTURING
+Established industry, centres for processing lunar materials or
+manufacturing electronic components.
+
+ELECTRONICS
+Unique electronic components can be built on the Moon because of its low
+gravity and relatively extreme conditions.  The quality of these
+components is very high but they could be improved upon by research and
+development work aimed specifically at the lunar electronics
+manufacturing process.  Lunar electronic components are in very high
+demand on Earth but other nations have their eye on these markets.
+
+MATERIALS
+Many uses can be made of the materials available on the lunar surface and
+it is possible that some of these could be of sufficient quality to be
+sold back on Earth.  A more likely occurrence, however, is the
+possibility that something could be made on the Moon that would be needed
+at the Earth space stations.  On exploration missions to other planets,
+it would be cheaper to transport materials from the Moon than from Earth.
+Since the Moon's gravity is only about one sixth of the Earth's it would
+be much easier to transport goods from the Moon to Earth Orbit that it is
+to transport goods from the Earth's surface to Earth Orbit.  The Moonbase
+Materials Processing Plant produces solar power cells which are in demand
+at the Earth space station and on the ion rockets which transports cargo
+from the Earth to the Moon.
+
+HABITATION
+Place living structures on the Moon's surface.  Put down four Space
+Station Command Modules (SSCM) that house 4 persons each or go for a
+larger inflatable habitat that can accommodate 50 persons.  If you really
+need large housing facilities, select the advanced habitat which holds
+living quarters for 150 residents.  You can try to generate additional
+income for the base by constructing a hotel to lure rich tourists from
+Earth.  Recreation Centres give the inhabitants of Moonbase a place to
+relax and exercise.  All in all, having adequate housing and recreation
+increases morale and overall base productivity.
+
+SCIENCE
+Get on NASA's good side by emplacing science facilities on the Moon.
+Increase nuclear power, electronics and solar cell research with a
+laboratory module.  Look for life on distant planets with an astronomy
+facility.  Search the lunar surface for high concentrations of oxygen and
+other valuable mineral deposits.  Reduce your resupply costs for food by
+building greenhouses.
+
+MINING
+Collect lunar regolith and process it into Lunar-derived Liquid OXygen
+(LLOX).  Use information from exploration to place Helium-3 and water
+processing plants at points of high concentrations.
+
+UTILITIES
+Emplace a communication facility to learn news of war, depression, or
+future missions from Earth.  Build a maintenance facility to cut down
+your hardware resupply costs.  Improve overall safety on your base by
+building roads and landing pads.  Or use the bulldozer to destroy
+everything!
+
+THERMAL CONTROL
+You must build radiators and connect them to other structures to radiate
+heat and make up for the lack of an atmosphere.
+
+POWER
+Whether solar, fission, or fusion, a central source is needed to supply
+power to almost every structure on your base.
+
+
+APPENDIX 1
+The following section describes the major components that you can use to
+build your base and provide some technical details.
+
+HABITATION FACILITIES
+
+HAB MODULE:
+This is the primary habitation designed for use on SSF or lunar base.
+The habitation module is a complex of four Space Station Common Modules
+connected by a node.  The quarters provided by the basic hab are
+relatively cramped and uncomfortable.
+
+Resupply Needs:     400 kg/month
+Power Needed:       20 kWe
+Man Power           1
+Crew Capacity:      16 crew members
+
+INFLATABLE HAB:
+Inflatable medium-sized habitation module which provides more comfortable
+crew accommodations than the basic hab.
+
+Resupply needs:     1600 kg/month
+Power needed:       80 kWe
+Man Power:          1
+Crew Capacity:      50 crew members
+
+ADVANCED HABITAT:
+Largest habitation module available, provides the most comfortable crew
+quarters as well as extensive common areas which help crew morale.
+
+Resupply Needs:     4800 kg/month
+Power Needed:       400 kWe
+Man Power:          7
+Crew Capacity:      150 crew members
+
+RECREATION HABITAT:
+Habitation module designed for recreational facilities, these are needed
+to help keep the crew's morale high.
+
+Resupply Needs:     200 kg/month
+Power Needed:       80 kWe
+Man Power:          3
+
+HOTEL:
+Hotels for tourists visiting the Moon.  Tourists from Earth are
+interested in visiting interesting surface features on the Moon and
+historic sites.
+
+Resupply Needs:     300 kg/month
+Power Needed:       200 kWe
+Man Power:          10
+Tourist Capacity:   20 tourists
+
+SCIENCE FACILITIES
+
+SCIENCE LAB:
+Module dedicated to scientific research and experimentation.  Research
+carried out in the Moonbase Science Labs can lead to discoveries in
+nuclear fusion as well as processes to produce improved electronics in
+the Moonbase Electronics Plants and improved solar power cells in the
+Moonbase Materials Plants.
+
+Resupply Needs:     10 kg/month
+Power Needed:       30 kWe
+Man Power:          4
+
+ASTRONOMY:
+Module designed to house astronomy equipment and crew.  The astronomy
+facilities are self-contained and do not require power and thermal
+control.
+
+Resupply Needs:     10 kg/month
+Power Needed:       0 kWe
+Man Power:          3
+
+GREENHOUSE:
+Greenhouses are facilities for growing food which can help reduce the
+annual resupply costs and help make the base self-sufficient.
+
+Resupply Needs:     2500 kg/month
+Power Needed:       200 kWe
+Man Power:          8
+Production Rate:    5000 kg of food/month
+
+POWER GENERATION FACILITIES
+
+NUCLEAR POWER PLANT:
+Power plant that uses nuclear fission reactions to generate power.
+
+Resupply Needs:     100 kg/month
+Power Needed:       0 kWe
+Man Power:          4
+Output Power:       1500 kWe
+
+SOLAR:
+Power system that converts solar energy to electrical power.
+
+Resupply Needs:     10 kg/month
+Power Needed:       0 kWe
+Man Power:          1
+Output Power:       400 kWe
+
+FUSION:
+Nuclear power plant using fusion to generate power.  This is a cleaner,
+safer way to generate power than nuclear fission.
+
+Resupply Needs:     100 kg/month
+Power Needed:       0 kWe
+Man Power:          25
+Output Power:       10000 kWe
+
+MAINTENANCE AND OPERATIONS FACILITIES
+
+LANDING PAD:
+Landing pad for lunar landers.  Landing pads make it safer for lander
+operations and reduce the odds of landers crashing.  As your base grows
+large the number of lander flights increases so the need for landing pads
+grows.
+
+Resupply Needs:     100 kg/month
+Power Needed:       0 kWE
+Man Power:          2
+
+COMMUNICATION:
+Communication equipment for contacting Earth.
+
+Resupply Needs:     1 kg/month
+Power Needed:       5 kWe
+Man Power:          2
+
+MAINTENANCE:
+Maintenance/repair facilities for base hardware.  Building maintenance
+facilities helps to reduce the annual hardware resupply costs.
+
+Resupply Needs:     500 kg/month
+Power Needed:       100 kWe
+Man Power:          4
+
+MINING AND MANUFACTURING FACILITIES
+
+WATER PROCESSING PLANT:
+Water mining/processing facility.  Water Processing Plants must be placed
+at a site that contains water.  Water can be located by explorations.
+
+Resupply Needs:     80 kg/month
+Power Needed:       800 kWe
+Man Power:          35
+Production Rate:    50 MT/month
+
+LLOX PROCESSING PLANT:
+Lunar-derived Liquid OXygen production plant.  LLOX plants extract oxygen
+by a reduction process from lunar regolith.  Each facility requires a
+Mobile Oxygen Miner to supply it with raw material.
+
+Resupply Needs:     70 kg/month
+Power Needed:       300 kWe
+Man Power:          16
+Production Rate:    150 MT/month
+
+MOBILE OXYGEN MINER:
+The Mobile Oxygen Miner digs up Regolith and transports it to the Oxygen
+Processing Plant.  Three Miners are needed to supply each LLOX Processing
+Plant.
+
+Resupply Needs:     10 kg/month
+Power Needed:       50 kWe
+Man Power:          16
+Mining Rate:        15000 MT of regolith/month
+
+HELIUM-3 PROCESSING PLANT:
+Helium-3 mining/processing facility.  This is a mobile miner and
+processor.  Helium-3 is available in such small quantities that the
+volume of Regolith that must be processed is extremely large.
+
+Resupply Needs:     100 kg/month
+Power Needed:       200 kWe
+Man Power:          20
+Production Rate:    3 kg/month
+
+ELECTRONICS MANUFACTURING PLANT:
+Plant for producing electronic components from lunar materials.
+Electronics produced on the Moon have to compete with those produced at
+the space stations and at other lunar bases.
+
+Resupply Needs:     5000 kg/month
+Power Needed:       1000 kWe
+Man Power:          80
+Unit Production:    1000 units/month
+
+MATERIALS PROCESSING PLANT:
+Plant for producing solar cells from lunar materials.
+
+Resupply Needs:     1000 kg/month
+Power Needed:       200 kWe
+Man Power:          40
+Production Rate:    500 solar cells/month
+
+THERMAL CONTROL FACILITIES
+
+RADIATOR:
+The radiators are the primary component of the base thermal control
+system.  A heat exchange fluid is circulated throughout the buildings on
+the base and then piped to the radiators where the heat is exchanged and
+radiated into space.
+
+Resupply Needs:     10 kg/month
+Power Needed:       0 kWe
+Man Power:          1
+Heat Rejected:      5000 kWe
+
+
+APPENDIX 2
+
+PLAYING HINTS
+STARTING FROM SCRATCH
+When you begin each new scenario, your base crew consists of YOU -
+period.  So once you've made your site selection, start simple.  After
+all, NASA has only given you a limited amount of cash to get started.
+Place an SSCM, one RADIATOR and perhaps one PHOTOVOLTAIC ARRAY.  This
+will be more than adequate to get things moving.  Next, check your
+population needs and refer to the APPENDIX for SSCM capacity and crew
+requirements for the power and thermal units (See Example below).
+
+With a small base of operations in place, your next task is to start
+producing something that can be sold - oxygen is the most abundant.
+Oxygen will be found in concentrations up to 40 percent, so the higher
+the concentration, the better your productivity.  Once you have located a
+suitable mining site, build a LLOX PLANT and give it at least one LLOX
+MINER.  Now, quickly check the crew requirement for the total facility -
+Plant, Miner, Power and Radiator - and increase your crew and housing
+accordingly.  You do not need to place housing at the facility site, but
+you can if you want to.
+
+With these elements in place, check your PRODUCTIVITY box under
+OPERATIONS.  You should see the level of LLOX productivity rising from
+zero, which means you have products to sell (check the MARKETS box).
+
+Now, you need to keep your miners happy.  If you don't have enough cash
+to build the structures you need, sell some or all your Oxygen inventory.
+And watch your RESUPPLY at the start of each new year.  You MUST resupply
+your base.  If you fail to resupply, your mining and processing
+facilities will breakdown and your productivity will drop - which leaves
+you with no inventory to sell when you need it.  You'll notice more often
+than not that resupply will destroy your cash balance.  This is when you
+need to sell your inventory, and then add to your base.  Check the DEMAND
+chart under MARKETS to see what is needed, then select an appropriate
+facility and place it in the the same manner as previous units.
+
+The next facility that you should construct is COMMUNICATIONS.  Up to
+this point in the scenario, your yellow INFORMATION BAR has remained
+inoperative.  Placing a COMMUNICATIONS facility will get your market
+information flowing so you can keep a constant eye on prices without
+accessing the Sell or DEMAND boxes.  The INFORMATION BAR also warns you
+of some elements that will affect your productivity or market
+productivity.  Building LANDING PADS will make lander operations safer,
+reducing the chances of a crash.
+
+NEGOTIATING A STRIKE
+If you don't keep your miners happy, they'll start complaining ... and a
+miner strike can ruin everything.  Placing a GREENHOUSE and a RECREATION
+CENTRE at your base to provide the crew with fresh food and something to
+do when they aren't working.  Make sure you check the crew, housing,
+power and thermal requirements for each module, and increase them when
+needed.  You MUST balance these factors each time you enlarge your base,
+or productivity will start to slip.
+
+TOURISTS - WHEN AND WHERE TO BUILD HOTELS
+At some point, you may decide to start up a tourist trade.  Placing a
+HOTEL works the same way as any other structure, and requires attention
+to crew, power and thermal control.  You can place a HOTEL anywhere on
+the playing grid, but it is best to select a site close to some
+interesting selenographic feature - a cluster of craters, for instance.
+This placement will not affect your tourist income, but this income WILL
+rise if you locate one or more of the special 'features'.
+
+HOTELS do not need to be placed close to your base.  A single
+PHOTOVOLTAIC ARRAY and RADIATOR are sufficient to run the facility, which
+eliminates the need for proximity to the base.  Nor is it necessary to
+place a LANDING PAD in the vicinity of the HOTEL.  It may, however, be
+detrimental to your tourism operations if you place your HOTELS close to
+mines, processing plants and power facilities, if only from an aesthetic
+point of view.
+
+GLOSSARY
+
+AI - Artificial Intelligence - computer systems designed to imitate
+intelligent behaviour such as understanding languages, solving problems,
+and learning.
+
+ALS - Advanced Launch System - launch vehicle being designed by the Air
+Force to carry 50 metric ton payloads to LEO.
+
+APOLLO - U.S. manned Lunar missions flown in the late 1960's and early
+1970's; led to first Lunar landings.
+
+BASE - a permanent occupied set of buildings or shelters that provide
+life support and work facilities.
+
+BIOSPHERE - a closed-ecology system in which biological systems provide
+mutual support and recycling of water, air, and food.
+
+CELSS - Closed-Ecology Life Support System - a mechanical or biological
+system that recycles the water, air, and food needed to support a human
+crew on a spacecraft, space station, or lunar base.
+
+CRATER - deep depressions formed by meteor impacts.
+
+ECLSS - Environment Control and Life Support Systems - mechanical systems
+that maintains climate, oxygen levels, and usable water levels for life
+support.
+
+ELV - Expendable Launch Vehicle - non-reusable rocket.
+
+ESA - European Space Agency
+
+EVA - Extra-Vehicular Activity - a spacewalk
+
+FAR SIDE - the side of the Moon which does not face the Earth.
+
+GAMMA RAYS - electromagnetic radiation emitted by radioactive decay; more
+deadly than X-rays.
+
+GEO - Geostationary Earth Orbit - a circular orbit (altitude of about
+22300 miles above the Earth's surface and inclination near 0 degrees) in
+which an object moves around a planet at the same rate as the Earth
+rotates, thus making it appear stationary with respect to points on the
+planet's surface.
+
+GTO - Geosynchronous Transfer Orbit - orbit designed to take a satellite
+from LEO to GEO.
+
+HEAT PIPES - sealed pipes filled with a fluid that can be vaporized and
+later condensed to carry heat away from vital hardware.
+
+HELIOSPHERE - region of space in which the effects of the Sun's solar
+wind and interplanetary magnetic field can be felt.
+
+HELIUM-3 - a helium compound used as a safer fuel for fusion reactors;
+found in the Lunar regolith.
+
+HLLV - Heavy Lift Launch Vehicle - launch vehicle designed to carry 100
+metric tons to LEO.
+
+IUS - Inertial Upper Stage - upper rocket stage designed to propel
+payloads from LEO to higher orbits.
+
+LEM - Lunar Excursion Module - name for the landing vehicles with ascent
+stages used in the Apollo missions.
+
+LEO - Low Earth Orbit - Earth orbit with a maximum altitude of about
+1,000 kilometres.
+
+LIBERATION POINTS - points in space at which the gravitational forces of
+attracting bodies balance, allowing an object to remain at the point if
+placed there with the correct velocity (also called Lagrange points).
+
+LLOX - Lunar-derived Liquid OXygen.
+
+LUNA PROBES - series of Moon reconnaissance probes launched by the
+U.S.S.R. between 1959 and 1976.
+
+LUNAR DAY - amount of time it takes for the Moon to rotate once with
+respect to the Sun; 27.3 Earth days.
+
+MASS-DRIVER - an electromagnetic accelerating device used to propel
+material into orbit from a planet's (or moon) surface.
+
+MICROGRAVITY - extremely low level of gravity (near zero-g)
+
+MIR - third generation Soviet space station
+
+MT - Metric ton (1000 kg)
+
+NASA - National Aeronautics and Space Administration
+
+NASDA - Japanese space agency
+
+OMV - Orbital Manoeuvring Vehicle - a spacecraft designed to move other
+spacecraft in orbit and handle refuelling operations.
+
+OUTPOST - an initial shelter erected on a planet's surface to provide
+temporary shelter for crew.
+
+PAM - Payload Assist Module - small upper stage rocket used to boost
+satellites from LEO to higher orbits.
+
+RANGER PROBES - series of U.S. photo-reconnaissence probes sent to the
+Moon in the early 1960's.
+
+REGOLITH - mixture of soil and rock fragments found on the surface of the
+Moon.
+
+SEI - Space Exploration Initiative - plan proposed by President Bush to
+establish a manned space station, a manned lunar base, and a manned
+mission to Mars.
+
+SPACEPORT - orbiting transportation centre that provides facilities for
+transferring crew between spacecraft and provides repair and refuelling
+services for spacecraft.
+
+SPECIFIC IMPULSE - a measure of engine performance calculated by dividing
+the engine's thrust by the product of the fuel mass flow rate and the
+gravitational acceleration constant.
+
+SSCM - Space Station Communication Module - habitation module designed
+for use on the Space Station Freedom; can be used as an habitation module
+on the Moon.
+
+SSF - Space Station Freedom - U.S. space station to be launched in the
+mid-1990's.
+
+SHUTTLE - reusable orbiting vehicle which is launched with the help of
+two solid rocket boosters and a main fuel tank that feeds fuel to the
+orbiter's engines; also known as the STS - Space Transportation System.
+
+SURVEYOR PROBE - early U.S. lunar probes launched in the mid-1960's to
+analyse possible landing sites for the Apollo missions; performed soil
+analysis.
+
+TELE-OPERATED - a system, such as a drill or spacecraft, that can be
+remotely controlled.
+
+End.

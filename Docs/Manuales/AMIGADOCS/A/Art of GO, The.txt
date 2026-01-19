@@ -1,0 +1,674 @@
+
+"The Go player must contend less with his opponent and more with conflicting
+impulses and emotions within himself."
+
+THE ART OF GO (tm)
+
+From A-SQUARED DISTRIBUTIONS INC.
+
+
+CONCEPTION             PROGRAMMING           ADDITIONAL CODE
+James R. Logan, Jr.    James R. Logan, Jr.   Jean Tantra
+
+
+GRAPHICS               SOUND                 PRODUCT  MANAGER
+Dana Dominiak          David Minor           Randy Spencer
+
+
+AMIGA VERSION          AMIGA MANUAL
+Mike Meyer             Matthew Leeds and Anneli Meyer
+
+
+ADDITIONAL PROGRAMMING
+Arthur Abraham
+Chris Goodman
+
+SPECIAL THANKS TO
+Brian Thompson
+James Palmer
+James Connelly and Ishi Press
+Ursala Bendixen
+Sue Redding 
+
+
+Copyright  1987  James R. Logan, Jr.   All rights reserved.
+Developed and Manufactured in the U.S.A.
+
+Limited Warranty: 
+
+If during the first 60 days from the date of purchase the disk is found to
+be defective, please return it to A-Squared Distributions Inc., for a free
+replacement.  After 60 days send your disk and $10.00 for replacement.  To
+obtain this warranty, you must complete and return your Art of Go
+registration card. 
+
+A-Squared Distributions Inc. makes no warranties, expressed or implied,
+including but not limited to the implied warranties of merchantability, and
+fitness for a particular purpose are disclaimed.  The seller's liability,
+whether in contract, in tort, under any warranty, in negligence, or
+otherwise, shall not exceed the return of the amount of the purchase price
+paid by the purchaser and under no circumstances shall seller be liable for
+special, indirect, or consequential damages. 
+
+
+A-SQUARED DISTRIBUTIONS INC.
+6114 La Salle Avenue, Suite 326
+Oakland, California 94611
+(415) 339-0339
+
+Copy Protection:
+
+The Art of Go does not use disk-based copy-protection.  The first thing  to
+do is make a backup copy of the master disk and store that in a safe place.
+Now you're ready to boot up the program and play. 
+
+We hope that you'll support non-protected software by keeping your Art of
+Go disk for yourself.  This will allow us to stay in business, and bring
+out future products. 
+
+Please contribute.  Don't distribute!
+
+General Play:
+
+The Go board that appears is a standard 19 x 19 grid.  However, Go can also
+be played on boards as small as 3 x 3.  With The Art of Go, you have the
+option of selecting the size board on which you can play.  Each time you
+select "New" from the File menu, you'll have the opportunity to choose a
+new board size. 
+
+The program automatically defaults to "Human vs. Human", an option in the
+Players menu.  To play the computer, choose "Human vs. Computer" from the
+Players menu.  The computer will wait for you to move first. You move by
+pointing to a position on the game board and pressing the mouse button. 
+Or, you can cause the computer to move first by selecting "Begin" in the
+Play menu. When the computer has moved, it waits for you to make the next
+move.  Play continues, alternating between you and the computer until the
+game ends. 
+
+You are not required to play a stone on every turn.  If you don't want to
+play a stone, you may decline to play by selecting "Pass" in the Play menu.
+
+When you and the computer both pass on consecutive turns the game is over. 
+You should then remove the dead stones from the board (Stones menu; see The
+Menus section of this manual) and calculate the "Final Score" (Play menu). 
+The Art of Go will display its own calculations for the final score in the
+game window. However, as territory is often contested, it's wise for you to
+practice calculating the final score by hand as well!
+
+About Go
+
+Go is based on the ancient board game of Chinese origin, which is very
+popular today in Japan and other Asian countries.  In recent years, though,
+the game has become increasingly popular in the United States, Canada, and
+Europe because of its challenging nature.  The game is played with black and
+white stones on a grid of 19 vertical and 19 horizontal lines. 
+
+Although the rules of the game are very simple, the strategy necessary to
+win is very complex -- comparable to chess.  The game will stimulate both
+analytical and intuitive thought processes. 
+
+ 
+The Art of Go Lets You:
+
+ - Play in three different modes:  human vs. computer, human vs. human,
+       and computer vs. computer
+ - See the computer's reasoning for each stone it plays
+ - Play, unplay and replay stones
+ - Keep track of prisoners and owned territories
+ - Save, replay and annotate games
+ - Print game boards on Preferences supported printers
+ - Number the stones as they are played on the board
+ - Play on different board sizes from 3 x 3  all the way up to 19 x 19
+ - Display a "best guess" final score
+ - Use both the Japanese and Chinese scoring methods
+ - Annotate your games
+ 
+
+Rules
+
+The object of the game is to secure territory on the board.  The winner is
+the player who has succeeded in occupying the most territory at the end of
+the game, either by completely surrounding an area with his stones, or by
+capturing the stones of the opponent. 
+
+The game is played between two players alternately placing black and white
+stones on a game board.  The game board consists of a grid 19 lines wide and
+19 lines high.  Stones are played on the points where lines cross on the
+board, not on the squares.  Once stones are placed on the board, they cannot
+be moved unless they are removed by capture. 
+
+Customarily, the weaker player uses the black stones and moves first.
+Players take turns placing stones on the game board.  Either player may
+decline to play (pass) on any turn. 
+
+"Groups of stones" are stones of the same color that are connected along the
+lines on the board.  Stones do not connect diagonally.  A group of stones
+cannot be captured if it has two "eyes", where an eye is territory that is
+completely surrounded by stones that cannot be captured.
+
+Each stone, or group of stones, must have at least one empty neighbor. These
+neighbors are called "liberties". Stones with no liberties are "smothered"
+and are removed from the board immediately.  A stone cannot be played if it
+will result in no liberties for itself or for its group. 
+
+One more rule, the rule of "Ko", forbids playing a stone that causes an
+exact repeat of any previous pattern of stones on the whole game board.  A
+common example of this is when one white stone is played and captures one
+black stone, black must wait at least one turn before recapturing the white
+stone that was just played (if indeed the white stone can be recaptured). 
+
+The opening moves in Go have about the same importance as the opening moves
+in chess.  The corners of the game board are the easiest place to surround
+and defend.  Therefore, most games begin with the players placing stones
+near the corners of the board. 
+
+When both players decline to move (pass) on consecutive turns, the game is
+over.  At the end of a game, dead stones are removed from the game board. 
+"Dead stones" are any stones or group of stones that do not have sufficient
+territory for two eyes.  If there is any question about the life or death of
+stones, simply continue playing until the outcome is clear. 
+
+There is a situation called "seki", which means "dual life".  A seki occurs
+where two opposing groups of stones share one or two mutual liberties, and
+neither group has enough territory to live by itself.  Either player commits
+suicide by playing a stone on one of the mutual liberties, so both groups of
+stones live. 
+
+The Menus
+
+Here is a list of the menu items and their uses. 
+
+
+The File Menu
+
+New (Amiga-N)
+"New" begins a new game of Go.  You have the option to change the board size
+(and add handicap stones automatically to a 19 x 19 board), or to use the
+current board size each time you choose New. 
+
+Open (Amiga-O)
+"Open" is your key for opening The Art of Go's On-line Tutorial.  Just
+select "Open", and then select "Tutorial" from the file requestor.  The Art
+of Go is now ready to lead a novice player through a trial game.
+
+"Open" is also used to open and replay a saved game.  Only one game file can
+be open at any time. 
+
+As soon as a saved game is opened, it begins to replay stones on the board. 
+To stop this, hold down the Amiga key along with the period or click
+anywhere with the mouse.  You can then back up and start re-playing from the
+beginning. 
+
+Note: The comments which are displayed in the game window are not retained
+from one play to the next.  Therefore, you cannot back up or unplay stones
+to see previous comments. 
+
+If the saved game contains comments, then the game action will stop when the
+comments appear in the annotation window.  When this occurs, you can select
+one of the following two options in the annotation window to resume the game
+action or stop play from the game file. 
+
+"Continue"
+This option causes the saved game to resume playing until it comes upon the
+next comment. 
+
+"Quit"
+This option stops the play of a saved game.
+
+
+Annotate (Amiga-A)
+"Annotate" opens a new game file and begins recording comments and play
+actions.  First, make a "New" board (File menu).  Second, start an
+annotation file.  Finally, "Open" a saved game.  You'll see the first
+stone played as soon as the annotation window appears. 
+
+The annotation window has 3 options that you can select: "Save", "Skip" and
+"Quit".  These options determine whether or not text in the annotation
+window is saved in the game file.  They don't affect the sequence of
+stones being played.  The position and size of the annotation window is
+saved along with the comments.  A functional description of these options
+follows:
+
+"Save" 
+This option saves the window characteristics and all text from the
+annotation window into the game file.  Saving text this way is the only way
+to cause a game to be paused when a game file is replayed. 
+
+"Skip" 
+This option ignores text in the annotation window and proceeds to the next
+play.  This option is most useful when you are simultaneously replaying a
+game file and annotating the game.  Select this option when you
+don't wish to comment on the last play. 
+
+"Quit"
+This option terminates the annotation of a game and saves the annotation
+file.
+
+Note that the comments from a game file are not retained from one play to
+the next, so you cannot back up or unplay stones to see previous comments. 
+However, if you do back up, you can show the results of several branches in
+strategy from a single point while adding in new comments. 
+
+
+Save (Amiga-G)
+"Save" opens a game file and immediately writes the current game sequence
+into a game file.  Usually you will select this option at the end of a game.
+
+
+Save Setting (Amiga-S)
+"Save Setting" saves the current program settings as defaults.  The saved
+settings include the following parameters:
+
+ - Checkable menu options in the Players, Stones and Display menus;
+ - Parameters and weights in the Settings menu.
+
+
+Print
+"Print" outputs the game board and stones on Preference supported printers. 
+
+
+Quit (Amiga-Q) 
+"Quit" terminates The Art of Go, after asking whether or not to save any
+game in progress. 
+
+
+The Play Menu
+
+Begin/Resume (Amiga-B)
+"Begin/Resume" causes the computer to move if the computer is one of the
+players checked in the "Players" menu.  The primary purpose of this item is
+to continue play after "Pause" has been selected or the computer has been
+interrupted with either a mouse click or Amiga-period.  Furthermore, use
+"Begin/Resume" to start the computer's first turn. 
+
+Pause (Amiga-.) 
+"Pause" temporarily stops the program from playing a game until
+"Begin/Resume" is selected, or until you make a play.  You can also use
+Amiga-period or a mouse click to interrupt the computer when it is thinking,
+moving or replaying a game. 
+
+Pass (Amiga-P)
+"Pass" indicates that you decline to play this turn, and the opportunity to
+play moves to the opponent. 
+
+Change Sides (Amiga-C)
+"Change Sides" causes the color of stones being used by the players to be
+switched.  Therefore, if you were playing black, you swap bowls of stones
+with your opponent and begin to play white.  If you are black and it is your
+turn, changing sides does not affect the fact that it is still your turn. 
+This will prove helpful in setting up problem scenarios. 
+
+Forward One Move (Amiga-])
+"Forward One Move" replays a stone from the current game record only if
+stones have been unplayed or the "Back Up One Move" item has been selected
+immediately before.  Stones are replayed in the same order that they were
+originally played. 
+
+Backward One Move (Amiga-[)
+"Backward One Move" unplays the most recently played stone in the current
+game.  This can be either black or white.  To move back one complete turn,
+you must select this twice.  Selecting this item only once effectively makes
+you change sides with your opponent as well. 
+
+Final Score (Amiga-F)
+"Final Score" displays a suggested final game score.  Usually a game ends
+when both players pass.  Dead stones are then removed, and the final score
+is decided upon by both players.  Therefore, you may not always agree with
+computerized scoring.  We advise you to practice tallying the final score
+yourself. 
+
+
+The Players Menu
+
+Human vs. Human  (Amiga-1)
+"Human vs. Human" indicates that both black and white stones are played by
+pressing the mouse button. 
+
+Human vs. Computer (Amiga-2)
+"Human vs. Computer" allows you to play against the computer.  If you want
+the computer to move first select "Begin/Resume" in the Play menu.  Clicking
+anywhere with the mouse interrupts the computer's turn.  Select
+"Begin/Resume" in the Play menu to continue. 
+
+Computer vs. Computer (Amiga-3)
+"Computer vs. Computer" specifies that the computer plays against itself. 
+To start the game select "Begin" in the Play menu.  Clicking anywhere with
+the mouse interrupts the game.  Select "Begin/Resume" in the Play menu to
+continue. 
+
+
+Mouse Menu
+
+Play Stones
+Clicking the mouse button plays and unplays stones when this item is
+selected.  To play a stone, point the mouse cursor at a vacant position on
+the game board and click the mouse button.  One stone or more will be
+unplayed if the mouse is pointing to a stone on the game board when the
+mouse button is clicked.  The unplay feature can be disabled by selecting
+"Disable Unplay" at the end of the Settings menu. 
+
+Handicap Stones 
+Clicking the mouse button adds and removes handicap stones when this item is
+selected.  On a 19 x 19 sized board, handicap stones can be automatically
+placed on the handicap positions indicated by the black dots.  Try starting
+a "New" game (File menu) with 5 handicaps and see what happens.  The weaker
+player should receive enough handicap stones to make the game a close
+contest.  If you choose only one handicap point, then the traditional
+Chinese handicap is set.  For 2 through 17 handicap points, Japanese
+handicaps are used.
+
+Symbol Stones
+Symbols are useful for annotating games and preparing instruction material. 
+Select "Symbol Stones" and click the mouse button to add symbols.  Symbols
+are chosen by pressing any key on the keyboard. Mouse clicks can only add
+symbols to the board.  In order to remove symbols, use the "Back Up One
+Move" feature from the Play menu. 
+
+Dead Stones
+To remove dead stones at the end of a game, select "Dead Stones". Clicking
+on a group of stones removes it from the board and adds the number of stones
+in the group to the prisoners.  Do this only at the end of a game.  You will
+not be able to undo any removal. 
+
+Analyze Point
+Clicking the mouse button on any point or stone displays information about
+that position.  The display information includes the number of liberties,
+number of eyes, and the results of simple ladders. 
+
+Disable Unplay (Amiga-U)
+When "Disable Unplay" is selected, the unplay feature of "Play Stones" is
+disabled.  This mode is useful for tournament play, so that you don't
+accidently unplay several stones. 
+
+When this item is not selected, you can click on any stone, and the computer
+unplays that stone and all stones which came after it. 
+
+
+
+The Display Menu
+
+Marble Board
+"Marble Board" displays a marble game board with blue and red stones as an
+alternative to the traditional wooden board with black and white stones. To
+return to the wooden board, deselect "Marble Board".
+
+Columns and Rows
+"Columns and Rows" displays the traditional column and row symbols at the
+edge of the game board.  The computer refers to the stone positions using
+these designators. 
+
+Stone Numbers
+"Stone Numbers" displays numbers on the stones indicating their order of
+play.  This number is also referred to when displaying the reasons for the
+computer's move.  In order to renumber the stones beginning at, say, stone
+number 25, hold down the Amiga key and click on that stone.  Now stones from
+1 through 24 will be blank, and stone 25 will be number 1. 
+
+Blink Last Stone 
+This causes the last stone that the computer played to blink.
+
+Beep After Play 
+This causes the program to beep after the computer plays. 
+
+Stone Sound 
+This causes the program to simulate the sound of a stone hitting the surface
+of the game board when a stone is played. 
+
+Cursor Shape
+When selected, this changes the cursor shape to a circle when the computer
+is waiting for your move. 
+
+Reasons for Moves 
+This displays the reasons that the computer used to play a stone in the text
+window.  The stones are referenced by column and row. 
+
+Title Bar (Amiga-T)
+This causes the standard Amiga screen title bar to be displayed for the GO
+screen.
+
+
+The Settings Menu
+
+Parameters...
+Select this to change program settings that affect the computer's playing
+algorithms, change display options, or change sound options. A later section
+in this manual contains a description of the parameters. 
+
+Weights...
+Select this to change the relative weights of patterns that the program uses
+to choose the best move.  The next section of this manual contains a
+description of the weights.  
+
+Restore Factory Settings
+This causes all of the program settings to be reset to the preset factory
+values. 
+
+Lock Settings (Amiga-L)
+Use "Lock Settings" to avoid accidently changing the program settings for
+parameters and weights.
+
+
+About Game Weights
+
+The Art of Go game weights determine the way in which the program plays. 
+Moves are based on a value that is computed for each position, and the value
+is the sum of the weights for that position.  You may change the weights as
+listed in the Settings menu, thus altering the personality of the computer. 
+They may be altered between any two turns. 
+
+A short description of the weights in the program follows:
+
+Atari
+Computer moves to atari the opponent.
+
+Attack
+Computer attacks small opponent armies near the edge (row 2 or 3).  At least
+one other computer stone must be present on the board, and the size of the
+opponent army must be only one or two stones. 
+
+Capture
+Computer moves to capture an opponent army (group of stones). 
+
+Circle
+Computer moves to the center of an area surrounded by at least one computer
+stone and one opponent stone.  (Same as "Space Empty", but covers a slightly
+larger circle.)
+
+Connect
+Computer moves to connect two stones diagonally because an opponent stone is
+nearby and the opponent threatens to cut. 
+
+Corner Guard
+Computer moves in its own corner to protect its territory. 
+
+Cut and Connect
+The computer moves to an area surrounded by computer stones and opponent
+stones so that the computer stones will be loosely connected and the
+opponent stones will be loosely "cut" apart. 
+
+Cut
+The computer moves to a position that neighbors on two opponent armies,
+threatening on the next move to cut the armies apart. 
+
+Cut Prevent
+The computer moves to protect against an opponent stone that would loosely
+"cut" two areas of influence apart. 
+
+Edge Atari
+The computer moves to the edge to atari the opponent at the edge. 
+
+Edge Attack
+The computer moves on row 2, near an opponent's stone to increase the
+computer's territory at the edge of the game board. 
+
+Edge Connect
+The computer moves to connect under an opponent stone at the edge. The
+opponent stone must be on row 2. 
+
+Edge Cut
+The computer moves to prevent the opponent from connecting under a computer
+stone at the edge. 
+
+Edge Guard
+The computer moves to protect the edge of its territory.
+
+Eye Shape
+The computer moves to make 3 stones into a half-circle shape. 
+
+Invade
+The computer will only move into an opponent's "eye" if this threshold is
+exceeded by the sum of a position's weights. 
+
+Protect
+The computer moves to protect an army from capture. 
+
+Push
+The computer moves to push into an enemy-held territory.
+
+Retreat
+The computer moves to protect an army from being a victim of its opponent's
+atari. 
+
+Run From Edge
+On row 2 or 3 only, build a wall extending out from the edge to prevent the
+opponent from trapping the computer at the edge.  This requires one
+neighboring opponent stone. 
+
+Run To Edge
+On row 2 or 3 only, build a wall to the edge to keep the opponent from
+invading the computer's territory at the edge.  This requires one
+neighboring opponent stone. 
+
+Space Empty
+Computer moves to the center of an area surrounded by at least one computer
+stone and one opponent stone.  (Same as "Circle Shape", but covers a
+slightly smaller circle)
+
+Squeeze Run
+The computer moves to help a small army from being surrounded by opponent
+stones.  This move is designed to run toward the center of the board. 
+
+Surround
+In a close battle with few liberties left, the computer moves to surround an
+opponent's army. 
+
+Territory
+The computer moves to an area where no other stones are present. 
+
+Undercut
+The computer moves to undercut an opponent stone on row 2 or 3 from the
+edge. 
+
+
+About Game Parameters
+
+The Art of Go game parameters affect the way the program plays and affects
+visual characteristics of the program as well.  They may be altered between
+any two turns. 
+
+The following is a listing of Game Parameters.
+
+1st Libs Max
+A threshold beyond which The Art of Go will stop counting primary liberties.
+"1st Libs max" affects the length of time that the program uses to select a
+move. 
+
+2nd Libs Max
+A threshold beyond which The Art of Go will stop counting secondary
+liberties. "2nd Libs max" affects the length of time that the program uses
+to select a move. 
+
+3rd Libs Max
+A threshold beyond which The Art of Go  will stop counting tertiary
+liberties. "3rd Libs max" affects the length of time that the program uses
+to select a move. 
+
+Blink Speed
+This controls how quickly the last stone played blinks if the "blink last
+stone" feature is selected.
+
+Blink Times
+This controls how many times a stone blinks when it is played by the
+computer.
+
+Crowded Area
+A threshold that, when exceeded, indicates that a position on the game board
+is crowded with other stones.  This threshold is compared against a count of
+stones in a 5 x 5 square around a given position. 
+
+Invade Value
+A threshold that must be exceeded before The Art of Go will attempt a move
+that invades an opponent's area. 
+
+Komi
+A value that is added to white's score at the end of a game to offset the
+advantage that black has by moving first. 
+
+Livable Area
+A threshold of potential area that must be exceeded before The Art of Go
+will attempt an invasion of area under the influence of opponent stones. 
+
+Position
+When The Art of Go is selecting a move it considers the resulting score and
+the relative value of the position.  These two values are added together and
+the sum is compared against the sum for other positions. "Position" is a
+value that is multiplied against the value of a position before adding the
+resulting score. This is to increase the influence of the value of a
+position in the selection process. 
+
+Replay Speed
+Determines the minimum time, in 60ths of a second, that must pass before The
+Art of Go takes the next sequential action from an open game file being
+replayed. 
+
+Search Time
+Specifies the maximum time, in 60ths of a second, that The Art of Go may use
+to play ahead as it searches for the best sequence of moves. 
+
+Small Army
+A threshold that, when exceeded, indicates an army's size is no longer
+considered small, thus affecting computer strategy. 
+
+Unplay Verify
+A threshold that, when equaled or exceeded, causes a dialogue window to be
+displayed to confirm that the operator really wants to unplay the indicated
+number of stones.  This value is only valid if "Disable Unplay" in the
+Stones menu is not selected. 
+
+
+For More Information:
+
+The following are suggested reading for novice Go players:
+
+ - "The Way to Go" by Karl Baker, which we have included in The Art of Go
+ - "Steppingstones to Go" by Shigemi Kishikawa
+ - "Go for Beginners" by Kaoru Iwamoto
+ - "In the Beginning" by Ikuro Ishigure
+ - "Basic Techniques of Go" by Haruyama Isamu and Nagahara Yoshiaki
+ - "The American Go Journal" published by the American Go Association
+ - "Go World" published by Ishi Press
+
+The American Go Association (AGA) is dedicated to the promotion of Go.  It
+supports projects designed to encourage more people to learn about and enjoy
+this remarkable game.  It provides assistance to clubs and players
+everywhere. 
+
+The AGA publishes the American Go Journal and Newsletter, maintains a
+listing of sources for Go equipment and books, distributes annual listings
+of all American clubs and AGA members, encourages and sanctions tournaments,
+maintains computerized national rankings, organizes the annual US
+Championship Matches, organizes tours by professional players, and manages
+US participation in international Go events. 
+
+Go players from all over the American continent and overseas belong to the
+AGA.  For membership information you may contact:
+
+American Go Association
+Box 397, Old Chelsea Station
+New York, NY 10113
+
+
+Technical Notes:
+
+The Art of Go for the Commodore Amiga was compiled using optimized,
+ANSII-Standard, Manx Aztec C, version 5.0.

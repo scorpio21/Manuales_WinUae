@@ -1,0 +1,130 @@
+cueva del dragón
+-----------------
+                                                              septiembre de 1990
+                                                               Hartmut Stein
+                                                  Software BERNSTEIN ZIRKEL
+
+
+
+Una breve documentación del juego DragonCave V1.00 para Commodore Amiga.
+Se incluye un manual de instrucciones detallado en el propio programa.
+
+
+1. Introducción
+----------------
+
+Este disco contiene el programa DragonCave, un juego tipo Sokoban para
+Amiga.  Se ofrecen las siguientes características:
+
+- Puedes elegir entre una versión bidimensional y tridimensional
+  del juego.  Mientras que el modo 2D corresponde al juego convencional, el
+  El modo 3D es aún más difícil de jugar, ya que exige gran parte de la
+  la capacidad del jugador para pensar en forma tridimensional.
+
+- El juego contiene 100 niveles; 50 de ellos pueden ser modificados por usted mediante
+  el editor incorporado.
+
+- Se puede ingresar a cada nivel directamente;  cada uno tiene su propia lista de
+  sus puntuaciones.
+
+- Puedes deshacer hasta 1000 de los pasos anteriores.
+
+- Cuando comienza el juego, copia tantos archivos de datos como sea posible al
+  Disco RAM para reducir los tiempos de carga mientras juegas.
+
+- Las posibles opciones se podrán introducir al iniciar el juego; también es
+  Es posible iniciar el juego directamente, omitiendo la introducción y el
+  menú.
+
+
+2. Mensajes de error
+------------------
+
+En caso de que aparezca un error, DragonCave le mostrará una alerta (como un
+Guru Meditation) y le dará un número y una breve descripción del error.
+Estos mensajes de error se explican a continuación de forma más detallada.
+
+ · 1 - no puedo acceder al archivo de datos
+ · 14/15 - no puedo leer el nivel
+   ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+DragonCave no puede leer uno de sus archivos de datos.  Puede haber diferentes
+razones. En primer lugar, uno de los archivos puede eliminarse o
+manipulado.   En segundo lugar, puede haber un error de lectura-escritura en el disco.  En tercer lugar,
+Este error puede deberse a dos formas extrañas de iniciar el programa.
+Por eso NO DEBES hacer lo siguiente:
+   'Ruta DFx: Agregar'
+   'Ejecutar DragonCave'
+o
+   'Asignar XYZ: DFx:DragonCave'
+   'Ejecutar XYZ:'
+En este caso, DragonCave no puede encontrar sus archivos de datos y producirá este
+mensaje de error.
+
+ · 2 - sin pantalla
+ · 3/7 - sin ventana
+ · 8 - sin puerto_audio
+ · 10 - sin puerto_juego
+   ­­­­­­­­­­­­­­­­­­­­
+
+DragonCave no puede abrir una pantalla, una ventana o un MsgPort.  esto puede
+resultado de la falta de memoria libre.  Mire los códigos de error 15-26.
+
+ · 4 - sin biblioteca de intuición
+ · 5 - sin biblioteca de gráficos
+ · 6 - sin biblioteca de iconos
+ · 11 - sin dispositivo de puerto de juego
+ · 13 - sin dispositivo de consola
+   ­­­­­­­­­­­­­­­­­­­­­­­­­
+
+DragonCave no puede abrir una biblioteca o un dispositivo.  Por favor asegúrese de que su
+Amiga se está ejecutando con kickstart-versión 1.2 o superior y lo arranca con un
+disco de banco de trabajo estándar.
+
+ · 15-26 - memoria insuficiente
+   ­­­­­­­­­­­­­­­­­­­­­­­­­
+
+DragonCave no encuentra suficiente memoria libre.  Por favor finalice todas las demás ejecuciones.
+programas, cierre todas las ventanas innecesarias y vuelva a intentarlo.  Si DragonCave falla
+Nuevamente, debes reiniciar tu Amiga.
+
+ · 9 - no hay canal de audio disponible
+   ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+Todos los canales de audio están ocupados por un programa diferente.  Termina este y
+inténtalo de nuevo.
+
+ · 12 - puerto de juego aún en uso
+   ­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+El segundo puerto del controlador lo utiliza un programa diferente.  Termina este
+e inténtalo de nuevo.
+
+
+3. Gracias
+----------
+
+Nos gustaría agradecer a las siguientes personas:
+
+Andy Taros: por los excelentes gráficos del juego DungeonMaster, que
+                     es el mejor juego que hemos comprado para Amiga (si te gusta
+                     juegos de rol de fantasía, ¡DEBES jugar este!)
+Dirk Strobel: para muchas sugerencias y consejos
+
+
+4. Contacto
+-----------
+
+Software BERNSTEIN ZIRKEL
+c/o Michael Berling
+Imbacher Weg 89
+D-5090 Leverkusen 3
+Alemania Occidental
+
+o
+
+Software BERNSTEIN ZIRKEL
+c/o Hartmut Stein
+Kölner Straße 7
+D-5090 Leverkusen 3
+Alemania Occidental

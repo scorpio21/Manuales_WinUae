@@ -1,0 +1,1783 @@
+------------------------------------------------------------------------------
+                 |                                         |  
+                 |          T E A M   Y A N K E E          | 
+                 |                                         |  
+                 |       U  S  E  R    G  U  I  D  E       |                                          
+------------------------------------------------------------------------------
+                    
+                       A C K N O W L E D G E M E N T S
+    
+         Amiga and Atari ST                        Steven W. Green
+         Implementation                            Richard T. Horrocks
+  
+         IBM PC Conversion                         The Assembly Line
+  
+         Graphic Design                            Kevin R. Ayre
+  
+         Addition Graphic                          Gareth B. Williams
+         Design
+  
+         Loading Sequence                          Richard L. Yapp
+         Design                                    John G. Wood
+  
+         Additional Design                         Peter Hellings
+                                                   David M. Pringle
+    
+         Documentation                             Antony J. Bond
+         Design and Typesetting                    + [RYGAR]
+  
+         Additional Documentation                  Marisa H. Pauwels 
+         Design                                    & [RYGAR] 
+  
+         *ASCII TYPING*                            [RYGAR] (WOW! YEAH!!!)
+  
+        Team Yankee the computer game is based on the novel Team Yankee by
+                  Harold Coyle, copyright [c] 1987 Presidio Press
+ 
+             Unauthorised publication and all that shit is prohibited 
+                                All Rights Reserved
+
+           Software Copyright  [c] 1990 Oxford Digital Enterprises Ltd.
+
+                       Software published by Empire Software
+
+          Empire Software * 4 The Stannets * Laindon North Trade Centre
+         Basildon * Essex SS15 6DJ * Tel: 0268 541126 * Fax: 0268 541125
+------------------------------------------------------------------------------
+
+                                C O N T E N T S
+
+Figures                         Figures vii
+
+Prologue                        Prologue ix
+
+Chapter 1                       Setting Up  1
+                                      Making a backup  2
+                                      Loading Team Yankee  2
+                                      Using Hard Disk Drives  3
+
+Chapter 2                       Controls  5
+
+Chapter 3                       The Start-up Screen  7
+
+Chapter 4                       Vehicle Identification  11
+
+Chapter 5                       The Breifing Screen 13
+
+Chapter 6                       The Gameplay Screens  17
+                                      Quadrant View  19 
+                                           Quadrant 3-D View  20
+                                           Map Quadrants  21
+                                           Status Quadrant  23
+                                      Full Screen Mode  24
+                                           Full Screen 3-D View  25
+                                           Full Screen Map View  26
+                                           Full Screen Status View  28
+
+Chapter 7                       The De-briefing Screen  29
+
+Chapter 8                       Vehicle Types  31
+                                      M-1 Abrams  32
+                                      M-113  33      
+                                      M-2 Bradley  34
+                                      ITV  35
+                                      T-62  36
+                                      T-72  37
+                                      BMP-2  38
+                                      BTR-60  39
+
+Chapter 9                       U.S./Soviet Organisation  41
+                                      U.S. Organisation  42
+                                      Soviet Organisation  43
+                                      
+Chapter 10                      How To Play Team Yankee  45
+                                      Training Scenario  46
+                                      Strategy  49
+                                      Higher Ranks  51
+                                      Terrain  52
+
+Glossary                        Glossary  53
+
+Nato Military Symbols           [RYGAR] - It's The IFF-Pic, DUDE !
+
+------------------------------------------------------------------------------
+
+                                F I G U R E S
+
+Chapter 3                       The Start-up Screen  7
+                                Figure 3.0      The Start-up Screen  8
+                                Figure 3.1      Player Registration Menu  9
+                                
+Chapter 4                       Vehicle Identification  11
+                                Figure 4.0   Vehicle Identification Screen  12
+
+Chapter 5                       The Briefing Screen  13
+                                Figure 5.0      The Breifing Screen  14
+                                Figure 5.1      The Artillery Overlay  16
+
+Chapter 6                       The Gameplay Screens  17
+                                Figure 6.0      Quadrant Mode Screen  18
+                                Figure 6.1      The Map Quadrant Screen  22
+                                Figure 6.2      The Status Quadrant Screen  23
+                                Figure 6.3      Full Screen Mode  24
+                                Figure 6.4      Full Screen Status Mode  28
+
+Chapter 8                       Vehicle Types  31
+                                Figure 8.0      M-1 Abrams  32
+                                Figure 8.1      M-113  33
+                                Figure 8.2      M-2 Bradley  34
+                                Figure 8.3      M-901  35
+                                Figure 8.4      T-62  36
+                                Figure 8.5      T-72  37
+                                Figure 8.6      BMP-2  38
+                                Figure 8.7      BTR-60  39
+
+Chapter 10                      How to Play Team Yankee  45
+                                Figure 10.0     Training Scenario Map  47
+
+[RYGAR] - These Figures are not in this ASCII file you should understand that
+          it is impossible to make figures like tanks,maps etc, in ASCII..
+          BUT, I might do them on Deluxe Paint later !  If you got any Pics
+          together with this doc, then i did them !.. hehe   [RYGAR] 901108
+
+------------------------------------------------------------------------------
+
+                                P R O L O G U E
+
+The background for the scenarios of the computer game
+Team Yankee lie in the book of the same name by Harold
+Coyle. A New York Times Number 1 bestseller, Team 
+Yankee is THE definitive tank warfare novel. It is the story
+of a U.S. Army tank unit in Germany during the opening
+days of a third world war fought with conventional weapons.
+The hero of the book is an Army captain called Sean Bannon,
+who commands a reinforced tank company with two tank
+platoons and a mechanized infantry platoon assisted by
+antitank vehicles. The name of that company is Team 
+Yankee.
+
+At the start Bannon and his men are put on alert after a clash
+of warships in the Persian Gulf - a chilling echo of the current
+world political climate. (CLI-Mate ? [RYGAR] HEE HEE) Hostilities
+begin when the Russians strike across the German border. Bannon's
+wife and children are hurriedly evacuated back to the United States
+admidst confusion and danger. Nobody really believed that
+this could happen:
+
+       Both  Colonel Reynolds and  Captain Ban- 
+       non stood  there transfixed,  staring at
+       the point where the two Russian jets had
+       disappeared  up  the  valley.   Bannon's
+       mind was almost numb.  He kept trying to
+       convince himself that  maybe they hadn't
+       really seen two Russian jets.   Maybe he
+       was mistaken.  It  had  to be a mistake.
+       The thought, "We can't really be at war.
+       That  isn't  impossible,"  kept  running
+       through his mind.
+
+After a long day and night of waiting, the second day of war
+sees the Russian first echelon forces break through and enter
+the valley which Bannon and his troops are defending.
+
+At the start of the First Battle there has been a sudden
+detonation in the village at the centre of the valley:
+
+       "ROMEO 25 - THIS IS MIKE 77 - SPOT REPORT
+       - 5  T-72 TANKS MOVING WEST - GRID 190852
+       - CONTINUING TO OBSERVE - OVER."   Bannon
+       snapped his head to the left.   There was
+       no need to use a map.  There was only one
+       place  the  Russians would  be,  and that 
+       was  between  the  forests   2200  meters 
+       away.....
+
+Team Yankee acquits itself well in the following action and
+the Russian attack is repelled. The Team is now relieved
+from its position, so that it can spearhead an offensive to the
+north which will take it into the flank of 28th Soviet Guards
+division. The move up north, a few miles to the rear of the
+line, is performed in the dark. All of the supporting C
+company gets lost on the way, so Bannon and his men are
+forced to launch an attack through the woods towards
+Arnsdorf with no support at all.
+
+       As the Team passed between  the two tree
+       lines  and rested  the small  hill,  the
+       terrain beyond opened up before it.  The
+       hill that was Objectuve LOG was directly
+       in front about four kilometres away.  As
+       the Team moved out from its last  cover,
+       all  eyes  for  kilometres  around  were
+       turning  on  it. The  other  people, the
+       Soviets, also watched.  Reports  flashed
+       to their commanders.  Gunners threw down 
+       their mess tins and  slid into position.
+       Loaders  and  ammo bearers  prepared  to
+       load the next round.......
+
+After frantic action, Team Yankee runs through Objective
+Log, and rushes onwards to Hill 214 overlooking Arnsdorf.
+Bannon desperately tries to call hIs team to a halt over the
+radio - but it is out of action - and he then loses hIs tank as
+well.
+
+Finally, he makes it up to Hill 214 on a PC 
+to discover that the rest of the Team has successfully taken it. 
+Bannon decides that this hill, won at such cost, would be defended
+from any Russian attempts to retake it until support arrives. As
+the light falls, the Team sEes a Russian motorised rifle company
+arrive in Arnsdorf. The defense of Hill 214 has begun. Close
+on midnight the Russians start a three-pronged attack on the
+hill:
+
+       Two of the BTR's  were  starting to fire
+       at Bannon's tank. Bannon decided to take
+       them out first.  Grabbing  the override,
+       he slued the turret to the left.
+       "GUNNER - HEAT - TWO  BTR'S - LEFT BTR!"
+       "FIRE!"
+       The first HEAT round found its mark just
+       below the small turret on the BTR.   The
+       impact   and  the   internal  explosions 
+       caused the BTR to swerwe to the left and
+       out of the battle............
+       Kelp watched as a  figure came up out of
+       the T-72's hatch and looked to the rear.
+       The  turret   began  to  travers  round.
+       "SHIT! HURRY OR WE'RE DEAD MEAT!" yelled
+       Kelp.........
+
+After a close-fought night encounter Team Yankee succeed
+in repulsing everything the Russians can throw at them. As
+the dawn of the next morning breaks they are relieved by A
+company of the 78th Mechanized Infantry. Team Yankee
+are now the prestige group of the battalion. After a few days
+rest behind the lines Bannon is informed that his team is to
+spearhead an advance of the entire brigade deep into enemy
+territory. Initially this was to take them up a tree-lined valley
+past the town of Issel, onto Korberg:
+
+       The   sudden  realization  that   he  was
+       running  side by side with  a Polish tank
+       was numbing.   It was  the  sensation  of
+       urine ([RYGAR] - Urrk) running  down  his
+       leg that  galvanised  Avery into  action.
+       He began to slew the turret and issue the
+       fire command.     "GUNNER - BATTLESIGHT -
+       TANK!"   The  target was so near  and the 
+       thermal  sight  so uniformly  green  that
+       Tessman  didn't  recognize  the object in
+       his sight as a  tank....Avery  fired  the
+       main   gun   from  his  override  without
+       bothering  to  go down to his sight.  The
+       report of  21's  gun  and the   impact on
+       target  were as one.  The T-55 veered off
+       to the left, and began to burn.
+
+After some vigorous fighting and attacks from deep inside
+the forest, Team Yankee make it up to the top of the first
+valley, where it turns eastwards past Langen. It becomes
+clear that they have met only the lead elements of an entire
+tank brigade. Major Jordan and Bannon sit down to discuss
+how they can possibly hold their position:
+
+       After studying  the   terrain, they dis-
+       cussed  the  various   ways  the Soviets
+       could come.  Both were in agreement that
+       they  probably  would  not  try sneaking
+       through the woods again. Odds were, they
+       would  try  to bull  through  this time.
+       Hence  division's  and  brigade's belief
+       that   they   would   use   the   Langen
+       Gap........
+
+The problem is, YOU won't have Major Jordan to help decide
+on your strategy, In Team Yankee the computer game, you
+will never be sure whether the Russians are going to play by
+the book or not. All of the above Scenarios form the game
+you are going to have to master. There is only one way to find
+out whether or not you're up to it........
+
+------------------------------------------------------------------------------
+
+                                Setting Up
+
+Making A Backup Copy
+
+Make a copy of your Game Disk before you attempt to play
+the game. Before you make a copy, ensure that the game
+disk is write protected by either attaching a write protect
+strip (5.25 disk) or opening the write protect notch (3.5"
+disk). User your copy while playing the game (ensuring that
+it is write enabled, since information is written to the disk
+during play) and only use the original disk for making
+further copies. If you are unsure of how to copy a disk, read
+the manual for your computer. (Or use X-copy maybe? [RYGAR])
+
+Loading Team Yankee
+
+IBM PC And Compatibles
+
+Insert your operating system disk and wait until you see the
+a> prompt on your screen. This game will perform Blah blah
+sorry im not typing more of this IBM Pc bull.. [RYGAR]
+
+Commodore Amiga (This is What we WANT! [RYGAR])
+
+Performance will be enhanced if you disconnect all external
+disk drives and peripherals and ensure no other software is
+running. Turn on your computer and insert your Copy (Crack!)
+of the Team Yankee game disk at the Workbench prompt.
+(A1000 users should insert their Kickstart disk first.) After
+a few moments the loading sequence will commence. If you
+wish to halt this at any time then hold down the left mouse
+button. Once loading has been completed you will be
+presented with a filing screen. Read about how to proceed
+in Chapter 3.
+
+
+Atari ST   (I'm not typing this either haha sorry! [RYGAR])
+
+USING HARD DISK DRIVES
+
+IBM PC and Compatibles
+
+(Skipped... [RYGAR])
+
+Commodore Amiga
+
+For details about hard disk installation look at the Read.Me
+file on the game disk. To do this, boot with your normal
+Workbench disk and then insert the game disk and double
+click on the TY disk icon and then double click on the icon
+labelled Read.Me
+
+Atari ST
+
+(NEIN !!!   I'm skipping this shit too.. [RYGAR] )
+
+------------------------------------------------------------------------------
+
+                                Controls   
+
+The game is designed to run using keyboard, analogue
+joystick or microsoft compatible mouse on the IBM PC. On
+the Atari and Commodore Amiga, the game may be run
+using either mouse or keyboard, although mouse control is
+recommended. In the following documentation the phrases
+"click on icon X" and "press fire with the pointer over icon
+X" are synonomous and should be taken to mean either:
+
+[a] Place the pointer over icon X and press the return key.
+[b] Place the pointer over icon X and press the fire button of
+the joystick (IBM PC only).
+[c] Place your pointer over icon X and press the left mouse
+button.
+
+Keyboard Shortcuts
+
+Using certain keyboard shortcuts instead of directly using
+the pointer can become a quick way to perform certain
+actions, especially when you are not using a mouse.
+
+Key                          Action
+
+F1 or 1                  Choose Platoon 1                        
+F2 or 2                  Choose Platoon 2
+F3 or 3                  Choose Platoon 3
+F4 or 4                  Choose Platoon 4
+F7 or 7                  Select map view for chosen platoon.
+F8 or 8                  Select 3d view for chosen platoon.
+F9 or 9                  Select status view for chosen platoon.
+F10,F0 or 0              Toggle between map, 3d and status
+                         view for chosen platoon.
+Escape                   Toggle between "Quadrant" and "Full
+                         screen" views
+Delete                   Quit game
+Help                     Pause game
+
+------------------------------------------------------------------------------
+
+                                The Start-up Screen
+
+The first screen of the game resembles an open filing cabinet
+for the simple reason that all of the information about your
+performance can be accessed from here. Figure 3.0 shows
+a representation of this screen. On the front of the filing
+cabinet there are three icons which look like labels. The
+leftmost icon is the QUIT GAME icon. If you click on this
+icon then you will be asked to verify whether or not you wish
+to quit the game. The middle icon is the CREDIT icon,
+which provides information on the game's designers. You
+are also able to choose the desired language for play, by
+clicking on the language icon at the lower part of the credit
+window. The rightmost icon is the PRACTICE icon, which 
+allows you to play a practice scenario.
+This Scenario will familiarise you with the control of the
+game, without stretching your tactical expertise. It is highly
+recommended that you attempt to master this scenario be-
+fore you pitch yourself into full-scale war. If you wish to
+practise, then go to chapter 5, which details the next portion
+of the game. There are also details about the practice sce-
+nario in chapter 10 - How to play Team Yankee
+
+There are eight files available in the filing cabinet, and each
+one can hold information about your exloits. When you
+first start to play the game you will be hold the rank of private,
+and the default name on the left hand side of each file marker
+is PFC. Bannon. Sean Bannon is the major character in the
+book Team Yankee. On the right hand side of each file
+marker your will see the characters #1. This represents the
+First scenario or `chapter' of the game.The game has a total
+of five chapters. You must start at the first and you will only
+be allowed to progress to the next chapter if you are 
+victorious in the previous one. If you wish to start playing the game
+proper, then you must register yourself as a new player. To
+do this, locate the pointer over one of the eight file markers
+and press fire. The relevant file will now spring up from the
+cabinet, and you will be presented with all of the file
+contents. See Figure 3.1 below. (Not Included [RYGAR])
+
+You may now type in the name you wish to use in the area
+at the top of the registration menu. The program will auto-
+matically append all of your combat records under this name
+in the filing cabinet. Underneath your name you will see
+your strike rate under KILLS and LOSSES. This details the
+number of Soviet vehicles you have disabled and the number
+of your own vehicles which have been lost, respectively,
+under your command. In the middle of the file is detailed the
+name of the scenario, or `chapter' which will take place if
+you proceed into the game. At the bottom of the file there are
+three icons. If you select the PLAY option before a name has
+been entered a confirmation box will appear requesting you
+to register your name.
+
+The leftmost icon is the PLAY icon which take you into the
+briefing screen for the first scenario, described in Chapter 5,
+once you have successfully passed the vehicle identification
+stage, detailed in Chapter 4. You will not be allowed to play
+the game until you have typed in your playing name. The
+middle CANCEL icon causes the current file to go back into
+the filing cabinet. The rightmost RESET icon causes all of
+the campaign information under the current filename to be
+erasedm in case you wish to start your campaign over again.
+You may have the information for up to eight different
+campaigns stored in your filing cabinet. We have made life
+easy for you by writing all of your compaign information to
+the filing cabinet automatically at the end of each scenario
+you successfully complete. You may only play a particular
+scenario at any one time as one of the characters in your filing
+cabinet. If you succeed in your first battle, then your
+scenario chapter will increment by 1 and you will be able to
+proceed to the next battle.
+
+There are five separate chapters to the Team Yankee cam-
+paign. If you manage to succeed in the whole campaign then
+you will be rewarded with a promotion to the next rank of
+Corporal. You will then have to replay each of the five
+chapters under your new exalted position. But beware,
+because as you progress, so the tactical skills you will have
+to deploy become more complex and demanding. It will take
+total success in a further four ever more draining campaigns 
+until you can attain the highest rank of Captain. Victory in
+Team Yankee is not going to be simple!
+
+------------------------------------------------------------------------------
+                         
+                            Vehicle Identification
+
+[RYGAR] - Not really needed since your playing a cracked version i hope.. but!
+          here goes anyway:
+
+If you are playing the full game rather than the practice
+scenario, then you will have to suffer the rigours of a vehicle
+identification class before you are allowed near a tank. The
+screen will show the profile of a particular NATO or Warsaw
+Pact vehicle, which you must identify by clicking on the
+correct vehicle name on the right hand side of the screen.
+
+You will be shown three screens with profiles of three
+different vehicles, and you must identify all three correctly
+to proceed. See figure 4.0.
+
+NOTE: The vehicle identification screen will show 10 different views of the
+      vehicle you must identify together with a rotating view in the
+      centre.
+
+In the mayhem of battle it is imperative that you can tell at
+a glance the difference between an M113 and a BMP-1, if
+only because if you shoot the wrong one you will be killing
+men who are on your own side! If you study the section in 
+the manual on vehicle types (chapter 8), you should be able
+to graduate through vehicle identification school with flying
+colours!
+
+------------------------------------------------------------------------------
+
+                             The Breifing Screen
+
+The briefing screen, shown in figure 5.0, presents all of the
+information which is available from intelligence for your
+forthcoming scenario, and also allows you to set up artillery
+bombardments where applicable. The name of the forth-
+coming engagement is shown at the top centre of the screen.
+
+In the central part of the screen, to the left, you will see a full
+map of the battlefield. This displays all of the major features,
+forests, roads, rivers and villages. It also shows the disposi-
+tion of your forces for the start of the battle.
+
+Each platoon of Team Yankee is represented by an Ameri-
+can flag. There is also an overlay on the map which is
+referred to in the briefing text. To the right of the map is a
+notebook, which details all of the important information
+which intelligence can provide before the battle. You may
+flip through this notebook by clicking on the arrows at the
+bottom or top of each spage, where applicable. There is
+nothing to prevent you from reading through the notebook as
+many times as you wish. Beneath the map you will see
+displayed the battle start time on an LCD display at the
+bottom of the screen.
+
+The cross swords icon will take you into full battle.
+After you have clicked on this you will be asked to confirm
+that you wish to go into battle. Make sure that your are fully
+prepared!
+
+The notebook icon reactivates the notebook if you have
+previously activated one of the next two icons. This contains
+your briefing from Company HQ based on all known infor-
+mation before your engagement.
+
+The eye - or information - icon is a special feature which
+allows you to glean further information from the map. When
+you are in information mode place your pointer over the
+map, and you will notice that it changes shape into a cursor.
+If you click at any point you will notice that a flashing box
+will appear on the map. This box appears at the closest point
+of special interest relative to your cursor position. The
+notepad will now display the particular information about
+this position on the map. You will find out important facts 
+relating to your platoon and local topography when you use
+this feature. Alternatively, now that you are in information
+mode, you can llok at all the special points of interest simply
+by clicking up or down through the notepad. When you get
+to a new page, the new point of interest will flash on the map.
+
+The cannon icon allows you to set up artillery barrages in
+advance of the battle. You are not able to access artillery
+during theh battle itself. You will be allowed to create a
+number of separate barrages of HE (High Explosive), 
+DPICM (Dual-Purpose Improved Conventional Muni-
+tions) and SMOKE shells. See figure 4.1
+
+The precise availability of artillery will depend on your
+scenario and rank. The precise details of each barrage that
+you set up for the battle may be varied on the overlays which
+appear on the notepad once you have clicked on the cannon
+icon.
+
+By pressing either of the two arrows next to the timer on the
+overlay you may alter the start time for a particular barrage.
+Clicking on the red cross stops that barrage from taking
+place. The location for a particular barrage is shown by a
+flashing yellow square on the map. This location may be
+changed by moving the cursor over the map and clicking at
+the desired position. At lower levels of rank you will often
+find that artillery is either not available or is preset to a useful
+value. For further information on the available artillery
+types, please read the glossary at the end of the manual.
+
+------------------------------------------------------------------------------
+ 
+                           The Gameplay Screens
+
+Team Yankee is unique, since the game not only allows the
+player full control over each of the four platoons in the Team,
+but can display the actions of all four platoons simultane-
+ously! This means that you have access to all 16 vehicles in
+the Team, and you are going to have to become proficient at
+managing all of them. Team Yankee is designed to test your
+leadership and tactical skills to the quick. You can display
+in either "quadrant mode", shown in figure 6.0, where all
+four platoons may be controlled at once, or "full-screen
+mode", shown in figure 6.3, where the display homes in on
+just one platoon.
+
+You have the flexibility to display either an overhead map
+view of the surrounding area, a simulated 3-d view of the
+battlefield, or a status screen showing the performance of all
+vehicles in a platoon. Irrespective of which screen mode you
+choose during battle, there is a constant column of informa-
+tion to the right of the screen.
+
+Just beneath the Team Yankee logo there is a white flag, or
+game QUIT icon, which allows you to exit the battle. You
+will be asked to confirm this decision before you can quit.
+
+To the right is the game PAUSE icon, which allows you to
+take a break or take your breath during battle. Underneath
+you will find the TIME display, which gives the time in
+hours, minutes and seconds on a 24 hour clock. You should
+keep an eye on this to note forthcoming artillery attacks or
+when your scenario involves a deadline. Beneath the clock
+there are two STRENGHT histograms topped by Russian
+and American flags, These show the relative strenghts of
+the two sides, calculated according to casualty and morale
+factors. At the bottom of this column you will see your
+RANK displayed graphically, this obviously differs accord-
+ing to the rank you have reached. Along the bottom of the
+screen there is a single text line which will display any vitally
+important information. You will be told about forthcoming
+artillery strikes, casualties in your team or hits on opposing
+cavalry.
+
+Quadrant View
+
+When you first enter the game you will be in "quadrant
+mode", where the active part of the screen is split up into four
+sections relating to each of the four platoons of Team
+Yankee. The upper row of icons in each quadrant allow you
+to alter what is viewed on the screen - see figure 6.0. The
+leftmost ion will expand the view of that particular platoon
+to occupy most of the screen - in this "full screen mode" you
+will be offered extra features - but you will not be able to see
+all of the action. In the middle the name of the platoon is
+displayed. To the right there are three icons. The map icon
+changes the view to a map quadrant with a plan view of the
+battlefield. The 3-d view icon changes the view to a 3-d
+simulation of the battlefield. The status icon changes the
+view to a status screen. The icon corresponding to the
+current viewing mode is shaded in yellow. Chapter details
+how to access these features bY using the keyboard.
+
+Quadrant 3-D view
+
+When the view in a quadrant is the 3d display, then unDer-
+neath you will see the following icons:
+
+Two red arrows which form a rotate icon, allowing The
+player to rotate the view clockwise or anticlockwise through
+360 degrees. This is equivalent to rotating the gun turret - IT DOES
+NOT ALLOW YOU TO ALTER THE DIRECTION IN
+WHICH YOU ARE TRAVELLING. Between the two rotate arrows lie two 
+compasses: the upper (red) compass
+shows the direction in which you (i.e. the gun turret) are
+facing; the lower (green) compass shows the direction in
+which the vhicle is facing. If you click on the central part
+of the compass, then your view will rotate towards the
+direction in which you are travelling.
+
+To the right of the compasses are five icons which represent
+the various types of weaponry available to the unit. Click-
+ing on any of these is equivalent to a command to the loader
+to load a particular shell. WHen the shell is selected the icon
+clicks in (like a button) and when it is loaded the icon lights
+up. You will also hear a signal when the weapon is available
+for firing. The weapon loading times accurately reflect the
+time taken for a vehicle to re-arm itself in battle. See Chapter
+8 for more details. Once a weapon is fully loaded, the pointer
+becomes a set of sights when moved over the 3d display.
+Clicking at a particular point on the landscape leads to the
+shell being aimed at that point (with some predetermined
+inaccuracy factors). The five available weapon types, from
+left to right, are:
+
+HEAT - a high explosive anti-tank round (see glossary);
+SABOT - an armor-piercing tungsten shell (see glossary);
+TOW - a high-range anti-tank missile (see glossary, and
+note in particular that this may only be fired when your 
+vehicle is STATIONARY);
+SMOKE - a smoke grenade which allows enemy vision to
+be obscured (see glossary);
+MACHINE GUN - which is always available to the player
+and has an `infinite' number of rounds (see glossary).
+
+Most platoons will not have all weapon types available (for
+instance, the M1 Tank does not carry TOW missiles). If a
+weapon is not available then that particular icon will not be
+displayed.
+
+Once the platoon has no more loaded shells of a particular
+type there will be a delay before it is possible to use them
+again, according to the re-load times of your weapons.
+
+The operation of all these screens is "non-modal". This
+means, for instance, that while your are waiting for one
+platoon to load its weaponry, you are free to do anything you
+wish with any othere platoon.
+
+Map Quadrants
+
+The major capability of the quadrant map screen (see figure
+6.1) is to alter the movement and formation of any platoon.
+The whole of the map may be viewed at once, or you may
+zoom into any portion of the battlefield using the icons to the
+right of the map, All of the major features of the battlefield
+are displayed on the map - roads are light grey, rivers are
+blue, forests are green shaded clumps, and buildings are
+marked as red and white boxed.
+
+There are two zoom icons represented by magnifying 
+glasses. Clicking on the upper zoom icon magnifies the
+resolution of the map. Clicking on the lower zoom icon
+demagnifies the map. There are seven levels of magnifica-
+tion. On the lowest level the whole width of the battlefield
+- 4 miles across - is displayed. On the highest magnification
+the width of the map is 0.2 miles across.
+
+The full width of the map in miles is displayed as a number
+between the two zoom icons. If you have a mouse, and you
+are not viewing the whole battlefield, you may scroll the map
+in any direction by locating the pointer over the map and
+depressing the right mouse button. The map will then scroll
+at a speed and direction relative to the position of the cursor
+from the centre of the map. 
+
+In order to move your platoon you have to provide informa-
+tion about the destination and the pseed of the platoon. Place
+the pointer over the map, locate the desired location to which
+you wish to move to, and press fire. A crosshair will be left
+on the screen which shows the end point of the current
+movement. Now go to the slider bar and set the desired
+speed of travel. You may do this either by clicking on the
+arrows at the top or bottom of the slider bar, to increase or
+decrease the platoon speed respectively, or by clicking the
+pointer at the point on the slider you wish the bar to reach.
+The current speed is displayed, in miles per hour, under the
+bottom arrow of the slider bar.
+
+The expected time of arrival, or ETA, at the present
+destination is printed at the top of the right hand side of te
+map quadrant. Note that only one destination is allowed for
+any platoon at any time.
+
+This destination may be altered at any time, irrespective of
+whether or not the platoon has reached its destination. The
+maximum speed of any of your vehicles is 50 miles per hour.
+The maximum speed you may achieve depends on the 
+terrain type across which you are travelling. The fastest
+terrain type is road, followed by cross country, forest and
+then river, which is the slowest terrain type. If you wish to
+travel by the fastest possible means, try to find a suitable
+road.
+
+Status Quadrant
+
+The Status Quadrant (Figure 6.2) is accessed by clicking on
+the status icon. Each of the four vehicles in each unit will
+then be displayed on this "status" screen (By now you will,
+hopefully, be able to recognise and identify the profile of all
+of your vehicles!) To the right of each vehicle are two bars.
+The lenght of the upper bar represents the morale of the
+personnel in the vehicle. Morale is improved when the
+vehicle achieves a hit on a Warsaw Pact tank, and decreases
+when the platoon is fired at, or when there are losses on the
+American side.
+
+The lower bar represents the effiency of the vehicle and its
+personnel. The efficiency decreases when the vehicle has
+suffered some damage from opposition fire power.
+
+The values of morale and efficiency affect the ability of your
+platoon to strike the opposition accurately and switly when
+a command to launch a weapon is raised. If a vehicle is
+terminally damaged it will turn red on the status screen. That
+vehicle and any remaining personnel will be left behind
+when the platoon moves on. War is no place for the faint
+hearted! If all of the vehicles in a platoon are disabled, that
+platoon becomes ineffective, and a red status screen will be
+displayed permanently
+
+Full Screen Mode
+
+It is possible to concentrate your view on just one single
+platoon by clicking on the top left icon of any of the
+quadrants. This will take you into "full screen mode" for that
+platoon (see figure 6.3). The top row of icons in this mode
+are identical in function to those in quadrant mode. The only
+difference you will note is that all of the platoons are named,
+and the current platoon in view is highlighted in yellow. If
+you click on any platoon name then the screen will change
+to a full screen view for that platoon. The game remebers
+what type of view was last displayed for that platoon, and
+this same type of view is displayed for the platoon in full
+screen mode.
+
+Full Screen 3-D View
+
+The type of view is identical to the quadrant 3-d view, only
+it is larger, and there are additional facilities available for
+use. The control panel underneath the view has the follow-
+int icons:
+
+Enging Smoke   Clicking on this icon causes your platoon to
+produce engine smoke. This will prove very useful in
+confusing your enemy if you find yourseelf in a tight corner.
+
+Infra-red (or thermal) imaging.   This system will be vital
+to see what is happening when it is dark, or when Russian
+forces are covered by smoke. Anything which produces heat
+can be imaged using a thermal sight - you will soon get used
+to identifying vehicles by their thermal image. This feature
+is very useful for identifying vehicles camouflaged on the
+edge of forests. Contrary to popular belief the thermal image
+generated in a modern tank is green and not red.
+
+Rotation icon and compass display.   These work in the
+same way as in quadrant view, and the mouse shortcut
+still applies.
+
+Zoom.   When this icon is accessed the central portion of the
+screen is magnified by a fator of 10. You will find the zoom
+facility essential for spotting vehicles which are over 500m
+away. Since the range of some of your (and the enemy's)
+weapons is over 2 km, using the zoom feature may save your
+life. Note that when you are in zoom mode your speed of
+rotation is slower than in normal viewing mode.
+
+Weapons.   These icons work in identical fashion to the
+quadrant weaponry icons. The only difference is that the
+number of remaining missiles for eah type is displayed
+underneath each icon. If you have 100 or more of a particular
+weapon, the number displayed will be 99.
+
+Laser range finder.   Underneath the weapon displays you
+will find the laser range finder, which lights up red when in
+use. The range finder will lok on to a reflective target (such 
+as an armored vehicle) if the firing cursor is placed directly
+over the object. You will know that the system has locked
+on because the cursor changes shape to a rectangle. The
+range finder, however, will not keep a moving object perma-
+nently locked - so it is easiest to use on a stationary target
+when you are stationary. Remember, though, that when you
+are stationary you present an easier target for you opponents
+if they have spotted you. Although using the range finder
+will increase you shooting accuracy, it does not provide a
+100% hit rate. Clicking on this icon will toggle range finding
+on and off.
+
+Full Screen Map View
+
+The full screen map for a particular unit has all the capabili-
+ties of the quadrant map as mentioned earlier, with some
+additional features. On the map itself you will see that the
+flags relating to each Team Yankee platoon have a number
+next to them - these relate to the platoon number of that unit.
+The extra icon features to the right of the map are as follows:
+
+Scroll icon.   The four arrows underneath the ETA display
+allow you to scroll your map in any of the four directions. If
+you click on the region in the centre of the arrows the map
+will automatically centre on your platoon position.
+
+Dead Stop icon.   This red icon, just to the bottom left of the
+speed slider bar, causes your platoon to come to a dead halt
+when clicked.
+
+Wide formation icon.   This increases the spacing between
+vehicles in your platoon to 100 metres. You might wish to
+increase your formation spacing if you are travelling in file
+through a narrow gap. If you are spotted while you go
+through the gap, then you will have more time to react, since
+your spacing is greater.
+
+Narrow formation icon.   This reduces the inter-vehicle 
+spacing in your platoon to 50 metres.
+
+
+The bottom six icons of the vertical column to the left of the
+screen allows you to change the formation type of the vehicles
+in your platoon:
+
+In line - places your vehicles in a line abreast relative to your
+direction.
+                                     
+Column - places your vehicles in a line ahead relative to
+your direction.
+                             
+Echelon right - places your vehicles on a left to right
+diagonal relative to your direction.
+                                         
+Echelon left - places your vehicles on a right to left diagonal
+relative to your direction.
+                                 
+Wedge - places your vehicles in a wedge formation.
+                                                
+Vee - places your vehicles in a vee formation.
+                              
+Full Screen Status View
+                                                           
+As in the quadrant status view, the morale and efficiency of
+each vehicle in a platoon is displayed. The extra information
+provided in full screen view shows the number of each
+weapon type each on of your vehicles has remaining. All
+vehicles in Team Yankee are armed with an 'infinite'
+number of machine gun rounds. Particular damage to any
+vehicle is displayed in red. See figure 6.4
+
+------------------------------------------------------------------------------
+
+                            THE DE-BRIEFING SCREEN
+
+A scenario in which you are involved may end for a number
+of reasons. You may have won because you have reached a
+desired attacking position, held a defensive position for
+enough time, or destroyed the majority of the opposing
+forces. You may have lost because you have not gained a
+desired attacking position, held a defensive position for long
+enough, or lost too many of the vehicles of Team Yankee.
+The victory criteria alter according to your rank, so your
+game performance will have to improve as your rank in-
+creases.
+
+When the end of the scenario has been reached you will be
+told the outcome in the text line at the bottom of the
+gameplay screen. You then have the option to click on ThIs
+line in order to view the de-briefiNg screen, or to quit the
+game using the white flag icon. The reason we Have
+provided thIs option is for the case when you have WON a
+scenario, but have lost so many veHicles tHat you would
+rather retry the scenario again. Remember that if YoU win a
+scenarIo and complete by moving onto the debriefing screen
+then all of your gameplay infOrmation is written to disk foR
+the start of the next scenario. You may review the status of
+aLl of your platoons before making your decision. Note that
+if you have LOST the scenario, then you will have to replay
+the scenario again and no information is written to your
+game disc.
+
+If you move to the de-briefing screen, then you will recieve
+a summary of what your campaign has achieved. Once you
+have noted the comments on this screen then press fire to
+return to the start-up filing screen.
+
+------------------------------------------------------------------------------
+   
+                             Vehicle Types
+
+M-1 Abrams Main Battle Tank
+
+Specifications
+--------------
+Crew                4
+Weight (Tonnes)     54.5
+Full Lenght (cm)    977         
+Engine Type         Turbine
+Road Range (km)     498
+Max Speed (km/h)    72.4 [RYGAR: Not bad 'ey? For a Tank...]
+Max Speed Off-road  48.3                          
+Frontal Armour (mm) 380                  
+Main Gun            Smooth                 
+Calibre (mm)        105
+Effective Range (m) 2500             
+Maxrate (round/min) 8       
+Total Rounds        55
+HEAT Rounds         Yes
+SABOT Rounds        Yes
+TOW Rounds          No
+
+The M-1 Abrams is the fastest and best protected main battle 
+tank in service with any army in the world today. Its 105 mm
+gun is extremely effective and, while it does not have the
+muzzle velocity of the 125 mm hypervelocity smoothbores
+of Soviet tanks, its advanced ammunition and very effective
+ballistic computer combine to give comparable or superior
+performance.
+
+New SABOT ammunition (see glossary) has recently in-
+creased this effectiveness. The thermal sights, allowing the
+gunner improved visibility through smoke and darkness,
+give the vehicle a unique combat advantage over its adver-
+saries.
+
+The M-1 uses `Chobham' composite armour, which con-
+tains a large outer layer of hard steel, with sucessive inner
+layers of other metals and ceramics. This type of armour
+very effectively absorbs the heat from the hot gasses of
+HEAT ammunition. The cost of each M-1 tank is in the
+region of $2,500,000. 
+
+---
+
+M-113 Armoured Personnel Carrier                   
+                                        
+Specifications                                     
+--------------                                          
+Crew (+Squad)       2 (+11)                                  
+Weight (Tonnes)     11.2                                  
+Full Lenght (cm)    486                                 
+Engine Type         Diesel                                  
+Road Range (km)     321                                 
+Max Speed (km/h)    64.4                                
+Max Speed (Water)   5.8                              
+Frontal Armour (mm) 38                                 
+Main Gun            Machine                           
+Calibre (mm)        12.7                              
+Effective Range (m) 500                              
+Maxrate (round/min) N/A                       
+Total Rounds        1200                            
+HEAT Rounds         No                
+SABOT Rounds        No                                
+TOW Rounds          No                                     
+
+The M-113 is the basic armoured troop carrier in the U.S.
+Army, and has been since the Vietnam War. It was designed
+`to provide a lightweight, armoured personnel carrier for
+armour and infantry units capable of amphibious and air-
+drop operations, superior cross-country mobility and adap-
+tations to multiple functions'.
+
+The all welded aluminium hull protets the crew from small
+arms fire and shell splinters. It is fully amphibious, being
+propelled in water by its tracks. Successful adaptions
+include the M163 Vulcan self-propelled anti-aircraft gun,
+the M577 Command Post and the M901 Improved TOW
+Vehicle.                         
+
+The M-113 is going to be replaced by the M-2 Bradley
+Infantry Fighting Vehicle, but the slow procurement rate
+means that many US mechanised units will continue to use
+the M-113 into the 1990's.             
+                                               
+---                                   
+                   
+M-2 Bradley Infantry Fighting Vehicle                
+                   
+Specifications                                 
+--------------                               
+Crew (+Squad)       3 (+6)                                    
+Weight (Tonnes)     22.7                                    
+Full Lenght (cm)    645                                      
+Engine Type         Diesel                              
+Road Range (km)     483                                    
+Max Speed (km/h)    66                                      
+Max Speed (Water)   7.2                                   
+Frontal Armour (mm) 60                                   
+Main Gun            Cannon                                 
+Calibre (mm)        25                                     
+Effective Range (m) 1000                                  
+Maxrate (round/min) 100                          
+Total Rounds        900                         
+HEAT Rounds         No                        
+SABOT Rounds        No                  
+TOW Rounds          2+5
+
+The Bradley is a reasonable protected infantry carrier and is
+extremely mobile and well armed. The hull of the M-2 is of
+welded aluminium armour with additional laminate fitted to
+the hull front, sides and rear. It is full amphibious, being
+propelled through water by its tracks.
+
+By 1987 only 3000 Bradleys had been delivered to the US
+Army out of a procurement of nearly 7000 vehicles. The M-
+2 has come under considerable fire from critics due to its
+expense and slow delivery. Critics also suggest that its
+inferior armour protection will hamper its ability to operate
+with the M-1 tank. An effort is being made to equip battalion
+scout platoons with Bradleys, however, and this is the case
+in the novel Team Yankee.
+
+The M-2 has extra firing ports to side and rear and can carry
+a full rifle squad. It is worth noting the the M-2's TOW
+missiles may only be launched when the vehicle is station-
+ary.
+
+---
+
+M-901 Improved TOW Vehicle (ITV)
+
+Specifications
+--------------
+Crew                4                      
+Weight (Tonnes)     11.2                   
+Full Lenght (cm)    486
+Engine Type         Diesel
+Road Range (km)     321
+Max Speed (km/h)    55                   
+Max Speed Off-road  N/A                 
+Frontal Armour (mm) 38                  
+Main Gun            None
+Calibre (mm)        -                  
+Maxrate (round/min) -                 
+Total Rounds        -                        
+HEAT Rounds         No                     
+SABOT Rounds        No                  
+TOW Rounds          2+10                    
+Effective Range TOW 4000m             
+
+This is a variant of the M-113, mounting the `hammerhead'
+armoured TOW launcher in an overhead mount.
+
+The launcher assembly contains twin TOW launch tubes,
+wIth another 10 launch missiles carried in the hull. This
+gives the ITV the ability of to park with the entire vehicle
+behind cover and only the missile launcher exposed. The
+launcher can also be reloaded from inside the vehicle.
+
+A major disadvantage is that the armoured TOW launcher
+and ammunition carried internally have badly overloaded
+the chassis and reduced its mobility significantly. Also, re-
+member that a TOW missile can only be launched from a
+stationary vehicle.
+
+The ITV is the standard anti-tank missile carrier of the U.S.
+Army, having first entered service in 1979.
+
+---
+
+[RYGAR - The next four vehicles are Warsaw Pact...]
+
+T-62 Main Battle Tank
+
+Specifications
+--------------
+Crew                4                      
+Weight (Tonnes)     37.5
+Full Lenght (cm)    933                  
+Engine Type         Diesel                       
+Road Range (km)     450
+Max Speed (km/h)    50                  
+Max Speed Off-road  N/A
+Frontal Armour (mm) 200
+Main Gun            Smooth
+Calibre (mm)        115                     
+Maxrate (round/min) 3-5
+Effective Range     1500m
+Total Rounds        40
+HEAT Rounds         Yes             
+SABOT Rounds        Yes
+TOW Rounds          No
+
+First fielded in the 1960's the T-62 was the first major tank
+to use a smooth bore gun.
+
+There were sever limitations due to engineering design, 
+which for example, meant that reloading could only accur at
+a set turret angle and barrel elevation.
+
+The T-62 has now been superceded in fron line service by
+more modern types, such as the T-72. It is still found in
+second line Soviet units and in the armed forces of the other
+Warsaw Pact nations.
+
+---
+
+T-72 Main Battle Tank
+
+Specifications
+--------------
+Crew                3                 
+Weight (Tonnes)     41                       
+Full Lenght (cm)    953                        
+Engine Type         Diesel
+Road Range (km)     450
+Max Speed (km/h)    70
+Max Speed Off-road  N/A
+Frontal Armour (mm) 250                 
+Main Gun            Smooth
+Calibre (mm)        125
+Effective Range     2000m
+Maxrate (round/min) 6-8
+Total Rounds        39                  
+HEAT Rounds         Yes                   
+SABOT Rounds        Yes                 
+Anti-Tanks Rounds   No
+
+The T-72 is one of several modern tanks that equip the Red
+Army, and was its main battle tank throughout the 1970's.
+
+It is logical, progressive development of the T-62, incorpor-
+rating a larger gun, improved fire control system, better
+protection and a more powerful power plant. The strange
+drums on the back of the T-72 are long range fuel tanks.
+
+In the late 1980's a new model was spotted, which had a
+bulging turret front, known colloquially as the `Super Dolly
+Parton'. 
+
+---
+
+BMP-2 Infantry Fighting Vehicle
+
+Specifications
+--------------
+Crew (+Squad)       3 (+6)
+Weight (Tonnes)     14.5
+Full Lenght (cm)    674
+Engine Type         Diesel
+Road Range (km)     500
+Max Speed (km/h)    70
+Max Speed Off-road  N/A                    
+Frontal Armour (mm) 19                
+Main Gun            Auto-Cannon          
+Calibre (mm)        30                   
+Effective Range     1000m               
+Maxrate (round/min) N/A             
+Total Rounds        40
+HEAT Rounds         No
+SABOT Rounds        No
+Anti-Tank Rounds    Yes
+Anti-Tank Range     4000m
+
+BMP is an abbrevation for Bronevaya Mashina Piekhota, 
+or "Armoured Vehicle, Infantry".
+
+The BMP-1 was the first infantry fighting vehicle in the
+world to mount a cannon and antitank missile armament,
+thus giving the rifle squad the ability to engage enemy
+armour at substantial rangeS With a reasonable prospect of
+success.
+
+The newly-introduced BMP-2 is an improved version with
+a larger turret which mounts a 0 mm auTocannon, and an
+AT-5 `Spandrel' anti-tank missile.
+
+---
+
+BTR-60 Armoured Personnel Carrier
+
+Specifications
+--------------
+Crew (+Squad)       2 (+12)
+Weight (TOnNes)     10.2
+Full Lenght (cm)    722
+Engine Type         Petrol
+Road Range (km)     500
+Max Speed (km/h)    8
+Max Speed Off-road  N/A
+Frontal Armour (mm) 9
+Main Gun            Machine
+Calibre (mm)        14.5
+Effective Range     500m
+Maxrate (round/min) N/A
+Total Rounds        500
+HEAT Rounds         No         
+SABOT Rounds        No          
+TOW Rounds          No        
+
+The BTR-60 is a wheeled armoured personnel carrier which
+equips many Soviet motorised rifle units.
+
+The advantage of a wheeled vehicle is higher road speed,
+lower manufacturing costs, and generally increased case of
+maintenance and mechanical reliability.
+
+The main disadvantage is that a wheeled vehilce loses moRe
+of its road speed when travelling croSs-country - however, it
+is sufficiently fast on the road that it can keep up with most
+tracked vehicles cross country.
+
+-----------------------------------------------------------------------
+------
+
+                        U.S./Soviet Organisation
+
+U.S. Organisation
+
+The largest unit in the U.S. Army with a fixed organisation
+is the  division, which is normally either deployed as a
+mechanized or armoured division. The basic building
+blocks of these divisions are battalions. An armoured
+division will have six armoured batallions, five mechanized
+battalions, three artillery battalions, and one battalion each
+of armoured cavalry (reconnaissance) and attack helicop-
+ters. Mechanized divisions are similar, but have six mecha-
+nized battalions and four armoured battalions.
+
+Each armoured  battalion consists of four tank companies
+and a headquarters (HQ) company. The HQ company 
+consists of 331 officers and men - more than twice as many
+is in an entire Soviet tank battalion. In addition to extensive
+command, control and support elements, the HQ company
+includes a heavy mortar platoon of six 4.2 inch self-pro
+pelled mortars and a scout platoon of six M-3 Bradley
+cavalry fighting vehicles.
+
+The four tank  companies are the heart of the battalion's
+combat power. Team Yankee is organised around one such
+company. At full strenght the company has 62 officers and
+men 14 M-1 Abrams tanks. The company is divided into
+three platoons of four tanks each. There are also two extra
+tanks which are commanded in battle by the CO and the XO.
+
+Although the U.S Army organises its battalions as pure tank
+or pure infantry, in practice combined arms combat together
+at much lower levels. Standard practice in the field is to have
+an armoured battalion and a mechanised battalion swap one
+platoon with one of the other companies in the battalion,
+giving a battalion two pure companies, one tank-heavy
+company team and one mech-heavy company team.
+
+This is exactly the procedure that has been followed in the
+novel Team Yankee. Bannon's company has been attached
+to the 1-78 Infantry Battalion in exchange for its own A
+company. This leaves the 1-78 battalion with its own B,C,
+D companies, its anti-armour company, headquarters com-
+pany and Bannon's tank company. Lieutenant Colonel Rey-
+nolds, the battalion commander, then removed one of Ban-
+non's tank platoons (1 platoon) and gave it to his own B
+company in return for one of its mechanised infantry pla-
+toons. (The resulting B company is known as Team Bravo.)
+In the novel Team Yankee, Bannon's team therefore con-
+sists of 2 and 3 Platoons (containing 4 M-1 tanks each),
+Mech Platoon (containing 4 M-113 armoured personnel car-
+riers) and HQ Platoon (containing 2 M-1 tanks and 2 ITV's).
+In the game Team Yankee, in the interests of playability, we
+have replaced 2 of the M-113's in Mech Platoon with 2 M-
+2 Bradley vehicles. Hence, at the start of the game, you will
+have at your disposal the following:-
+
+Unit 1      HQ Platoon       2 x M-1 Tanks and 2 x ITV's
+Unit 2      2 Platoon        4 x M-1 Tanks
+Unit 3      3 Platoon        4 x M-1 Tanks
+Unit 4      Mech Platoon     2 x M-113 APC's
+                             and 2 x M-2 Bradley's
+
+Soviet Organisation
+
+Soviet mechanised infantry is called Motor Rifle troopes.
+They are carried either in armoured personnel carriers (e.g.
+BTR-60's) or in infantry fighting vehicles (BMP's). The
+principle differences between these two are that the BTR is
+wheeled, lightly armed and armoured, and designed for
+cheap mass production, while the BMP is tracked, heavily
+armed, and considerably more expensive. The shock troops
+of a division will be mounted on BMP's while the bulk of the
+motor rifle troops are carried in BTR's.
+
+The largest formations in the Red Army with a fixed
+organisation are divisions. There are three principle types of
+combat divisions: tank divisions, motor rifle divisions, and
+air assault divisions.
+
+Tank divisions consists of one motorised rifle regiment in
+BMP's, three tank regiments and one artillery regiment. The
+tank regiment of the tank division consists of three tank
+battalions, one motorised rifle battalion in BMP's, one
+artllery battalion, one reconnaissance company, one anti-
+aircraft company and one engineer company. The tank
+battalion of a tank regiment has only 135 officers and men.
+It consists of three tank companies and a small battalion
+headquarters. Each tank company has three platoons of
+three tanks each plus a company commander's tank, giving
+a total of 31 tanks.
+
+Motor rifle divisions are composed of one tank regiment,
+two motor rifle regiments in BTR's, one motor rifle regiment
+in BMP's and one artillery regiment. Each motor rifle
+regiment consists of three motor rifle battalions, one tank
+battalion, one artillery battalion, and one company each of
+antitank missiles, air defense guns and missiles, reconnais-
+sance troops and mortars. A motor rifle battalion based on
+BMP infantry fighting vehicles consists of three motor rifle
+companies, one mortar company, one anti-craft platoon,
+one automatic grenade launcher platoon and various small
+non-combat support units. The motor rifle company, with
+over 100 men, consists of a company headquarters, three
+motorised rifle platoons and one fire support platoon. Each
+motorised rifle platoon consists of 29 officers and men,
+divided into three rifle squads, each of which is carried in a
+single BMP.
+                          
+In Team Yankee the second echelon of Soviet attack, which             
+is faced in the First Battle, mainly come from a motorised               
+rifle battalion, mainly composed of BMP's and T-72's.         
+                                                                      
+------------------------------------------------------------------------------
+                                                                     
+                         HOW TO PLAY TEAM YANKEE                
+                                                                         
+In Team Yankee, we have been scrupulous in our attempts to            
+convey the urgency of modern tank warfare, within the               
+constraints imposed by the computer medium. All of the               
+action in the game is closely based on battles which are                 
+described in the book Team Yankee. The best advice on how                
+to play the game is therefore simple - read the book! In                
+order to keep your attention, though, we have made subtle              
+changes to scenarios, so that you will never know exactly               
+what to expect. Particularly in later stages of the game you         
+will find that the enemy is even more powerful and cunning          
+than in the book.                                                    
+                                                                      
+When we designed this product we had to make a hard choice              
+between total accuracy of simulation and features which we              
+felt would enhance the gameplay. It may annoy the purist,               
+but when accuracy and gameplay conflicted, the game                   
+always won out! Another important feature is our belief that             
+the player should be able to pick up the game and play                
+without leafing through a 300 page manual. However, you           
+will undoubtedly benefit from reading through the docu-          
+mentation and, hopefully, from reading this section.            
+                                                                  
+The Training Scenario                                            
+                                                                  
+The training scenario, accessed by clicking on Practice                
+Game icon, has been designed to give you a clear idea of how              
+to control an individual platoon as well as all of Team                 
+Yankee. The scenario is laid out on a circuit which is                 
+modelled on a standard training range - see figure 10.0.                  
+Your objective is to traverse the road linking points A to B,              
+leaving certain units strategically placed along the way. If              
+you can achieve all of the aims of the training run then you               
+will be very well prepared to go into full battle. The                 
+following instructions are more substantial than those you          
+will find on the briefing screen.                            
+                                                                    
+At the start your four platoons are placed around point A.             
+Unit 1, containing 2 M-1 Abrams tanks and 2 ITV's, is facing          
+the three other units of Team Yankee. Unit 2, with 4 M-1              
+tanks, is straight ahead to the east in column formation. Just           
+to the north is unit 3, also with 4 M-1 tanks, and just to the            
+south is unit 4, with 2 M-113's and 2 M-2 Bradleys. At the              
+start you will be in `quadrant' mode, with a view of the            
+battlefield from each of the four units. You should now             
+familiarise yourself with the controls at your disposal in            
+quadrant mode. Now, home in on the `full screen' view for              
+unit 1. Straight ahead of you, you will see the other vehicles          
+of Team Yankee. You will be able to examine them more                
+closely by using magnify mode. Examine the facilities              
+available in full screen mode using the Expand View icon            
+described on page 24 of the manual.                        
+                                                                    
+A few minutes after the start there will be a parade of all of            
+the vehicles you will meet in the game traversing the track            
+from C to D. The parade will start at 12:02, so make sure you           
+are in position on time. When each vehicle comes past, try           
+to identify it from the photographs of each vehicle in section          
+8.                                                         
+                                                                  
+Once the parade has finished you should move unit 1 along               
+the road to the east, just over the point where it crosses the             
+river. When you come alongside two trees on either side of              
+the road, stop immediately. Directly in front of you there are             
+4 vehicles. Two are Russian made BMP-2's and the two                 
+others are American ITV's.                                          
+                                                                
+Once you have identified which is which you should try and              
+destroy the two Russian vehicles. Load up a HEAT missile                
+and turn on the laser ranging facility. Make sure that you               
+learn what happens when your rights have 'locked on' to a              
+target, and then fire. If you hit the wrong vehicle you will be          
+told in no uncertain terms!                                      
+                                                                    
+Once you have accomplished this first objective you should              
+leace unit 1 where it is, and get your other three units onto the         
+road. Try to see if you can get used to moving your units             
+while on the quadrant view. Move units 2,3 and 4 past unit            
+1 and take them round the road until you find the next                 
+position where there are two trees straddling the road. Stop              
+at this point and move into full screen mode for unit 2. At this          
+point you will find 4 Russian BTR's in front of the tree line           
+to the west, and four American M-113's on the tree line to the            
+east. If you have difficulty locating them then turn on your           
+infra red display. You will find that in battle the infra red          
+display is invaluable for uncovering vehicles camouflaged                
+by forest cover. Again, you should try to destroy the Russian           
+vehicles - use your SABOT weapons this time.                      
+                                                                    
+Leaving unit 2 at this position continue along the road with             
+the remaining two units. Just before the road turns west at             
+the top of the training are you will find another position               
+straddled by two trees. Stop here and this time search for the            
+two nearby units of vehicles. One unit is composed of T-             
+62's. Try to see which weapon types are needed to destroy            
+them.                                                           
+                                                                    
+Leave unit 3 behind, and with the remaining unit (4) continue       
+around the circuit until you reach the track through the forest.        
+Along the track at the very centre of the forest you will find           
+a single T-72 - see if you can locate and destroy it. Beyond            
+the forest, on the road leading south you will find the point         
+at which unit 4 is to halt - again marked by two trees. You          
+must now locate the nearby Russian tanks and destroy them.        
+                                                                    
+If you have got this far, then you will know that you have learnt         
+the basics of control which will be important to succeeding            
+in Team Yankee. However, you will have one final lesson              
+to learn. And that is how to attack enemy vehicles simulta-          
+neously while in quadrant mode. At 12:30 precisely each of            
+your four units will have a short time in which to destroy            
+moving targets simultaneously. Make sure appropriate                  
+weapons are loaded for each unit. Point unit 1 towards the             
+south-east, unit 2 to the north, unit 3 to just north of west and         
+unit 4 to the north. Keep your eyes peeled. If you can destroy         
+all of the Russian tanks as they move from forest cover, then           
+you will know that you have mastered all of the basices of the          
+game. You can now go out and KICK SOME ASS!               
+                                                               
+Strategy                                                       
+                                                                 
+Before launching yourself into a scenario it is best to use the         
+briefing information to decide on your strategy for the             
+forthcoming battle. Quite often you will be expected to             
+position your vehicles very quickly at the start of the sce-            
+nario (particularly if it is a defensive scenario). Through             
+practise you will learn the strike power of Team Yankee's as            
+well as the Warsaw Pact vehicles. The information in                  
+Chapter 8 referring to vehicle types and the additional infor-         
+mation in the Glossary will give you an idea of the relative           
+strengths and ranges of all of the weapons that you will use             
+or come up against. For instance, a BTR has very little             
+armour and is only armed with a machine gun.                 
+                                                              
+If you are in a platoon manned by M-1 tanks, you therefore           
+have very little to worry about from a BTR, and you should           
+dispose of them at your leisure, while considering that the             
+threat from a T-72 is rather more potent. Your TOW missiles            
+on your M-2's and ITV's are your most potent weapons in              
+terms of strength and range, but remember that your vehicle          
+MUST be stationary before they can be fired. Because you             
+have to control four tank platoons simultaneously in Team             
+Yankee, we have not been strictly accurate in our operation          
+of these wire guided missiles. Instead of leaving you to             
+control and aim the missile over its flight of up to 15 seconds          
+(thus causing you to relinquish your control of everything            
+else that is going on), we have treated the TOW as a normal          
+missile - once launched it will strike the area you have aimed         
+at.                                                      
+The loading times for all of the missiles are accurately              
+presented and reflect the length of time it takes for a missile         
+to be loaded after the tank commander (you!) has ordered his          
+gunner and loader to set up a target. It is part of the frustration      
+of war that it takes some time to load an appropriate missile            
+when confronted by a new and threatenging target.                 
+                                                                 
+It is worth remembering that tank battles are often fought at           
+long range, and in particular that a platoon of tanks in the            
+middle of an open plain are `cannon-fodder' for suitably               
+placed opposition. The tree line of forests provides very               
+adequate protection for tanks. In Team Yankee, you will find            
+that the first 100 metres or so of forest provides you with          
+cover, and yet allows you to look out clearly onto the              
+battlefield. As soon as you fire, however, you will give your          
+opponents a chance to locate you for a certain amount of            
+time. Remember that your opposition will often use the             
+same tactic of hiding within the tree line. Your infra-red             
+sights will often be invaluable to spot vehicles which would           
+otherwise be hidden in the tree line.                         
+                                                                 
+The magnify mode on the 3d view is very powerful. Since             
+you should be able to destroy a vehicle which is well over a         
+mile away from you, you will often need to use the magnified          
+sights in order to locate the enemy before they spot you.             
+When you are being attacked try to locate the precise                
+vehicles which are firing at you, since they will be the most            
+potent threat. It is obviously more urgent to dispose of a            
+threat which is attacking you rather than one which is             
+attacking another unit.                                        
+                                                          
+The position of known Soviet units will often be marked on          
+the map displays with a flag representing each unit. These          
+flags will be displayed either when the player should have              
+the units in his sights or when there has been information            
+recieved from intelligence. However, just because a Soviet           
+flag does not appear on the map near to you does not                
+necessarily mean that there are no enemy units nearby. For                
+instance, if a Soviet unit is in a forest or near the tree line of         
+a forest, there will normally be no information presented on            
+the map screens. It is up to you to seek and hunt down the               
+enemy.                                                            
+                                                                    
+Higher Ranks                           
+                                                              
+The first five scenarios you will complete in Team Yankee           
+will be at the rank of Private (First Class), or PFC. You will         
+have to pass through three more campaigns at three higher             
+ranks - Corporal (Cpl), Sergeant (Sgt), Staff Sergeant (SSg)           
+- before you reach the ultimate rank of Captain (Cpt). The             
+strategy you will have to pursue will be increasingly more           
+subtle as you progress. Your opposition will increase in             
+number and will perform increasingly more ingenious and             
+daring tactics in order to circumvent your victory. On the           
+first rank the Russian maneouvres will all be to a set formula,          
+which you should be quick to master once you have learned          
+the basics of control and sensible tank warfare tactics. Later         
+on, they may well surprise you, so you will have to look out          
+for all sorts of devious approaches. At the lower levels you         
+will always have your weapons, morale and vehicle damage          
+reasonably restored between scenarios. Later on, you will          
+find that you will have to conserve all of your capabilities in       
+order to provide an effective fighting force in the next         
+scenario. Modern tank warfare is very close to attrition!         
+                                                                
+Some later scenarios will take place at night. In these cases        
+you will find that all of your normal external views are          
+completely dark. The only way to fight will be to use your            
+infra-red views. At first this will seem quite disconcerting,           
+but you will have to learn to cope!                     
+                               
+Terrain                         
+                                                             
+There are many different types of terrain over which you can             
+move in Team Yankee. You will only be able to achieve your               
+full operating speed while travelling over roads, which are            
+denoted in grey on the map and in your 3d view. Travelling              
+over cross-country reduces your speed and increases the              
+amount of `pitch' which you will encounter in your 3d view.           
+This will make the engagement of the enemy that much more           
+difficult. Your speeds on the tree line of forests are further          
+reduced, but these regions do provide some camouflage              
+from your opponents. Inside forests you may find hidden            
+tracks which will allow you to make faster progress, al-            
+though you will find that these are often used by the enemy.         
+It will often be useful to locate these tracks and incorporate        
+them in you strategic plan. Rivers provide the slowest type       
+of terrain over which to cross, and can leave you exposed to      
+enemy fire while you are crossing them.                             
+                                                           
+------------------------------------------------------------------------------
+                                                       
+                                   GLOSSARY
+                                                      
+BMP-2          A Soviet fully tracked infantry-fighting vehicle mounting a
+               30 mm cannon, an antitank guided missile, and a 7.62 mm
+               machine gun. The BMP carries a crew of three and a six-man
+               infantry squad. The BMP provided the prime motivation for
+               the design and production of the Bradley fighting vehicle.
+                                                      
+BRADLEY        An armoured fighting vehicle that comes in two version, the
+               M-2 mechanized infantry fighting vehicle version and the
+               M-3 scout version. Both have a two-man turret that mounts
+               a TOW missile launcher, a 25 mm chain gun and a 7.62 mm
+               machine gun mounted coaxially.
+                                                     
+BTR-60         A Soviet eight-wheeled armoured personnel carrier. This
+               vehicle comes several versions, from the original, which
+               has an open top, to the BTR-60PB, which is completely
+               enclosed and carries a small turret mounting a 14.5 mm and
+               7.62 mm machine gun. In addition to the personnel carrier
+               version, the BTR-60 serves as a command and control 
+               vehicle, close air support vehicle, and other such uses.
+                                                   
+C.O.           Short for Commanding Officer.
+                                                
+DPICM          Short for dual-purpose, improved conventional munitions.
+               This is an artillery round that contains many small submuni-
+               tions or bomblets that are capable of defeating the thin
+               armour located on top of armoured vehicles as well as being
+               effective against personnel and other "soft" targets.
+                                           
+DRAGON         A medium antitank guided missile launcher. Man-portable,
+               the Dragon is the infantry's medium range antitank weapon,
+               with a range of 1000 metres.
+                                               
+HEAT           Short for high explosive antitank, a round that depends on a
+               shaped charge explosion to penetrate an armoured vehicle's
+               armour. Because the round contains high explosive, it has a
+               secondary role as an antimaterial round. A typical muzzle
+               velocity might be 1100 metres per second, with a penetration
+               of over 150 mm in reactive armour. It is, however, much
+               more effective against APC's than tanks, for which SABOT
+               or TOW ammunition is more appropriate.
+                                                       
+ITV            Short for Improved TOW vehicle. A modified M-113
+               armoured personnel carrier that has an anti-tank guided mis-
+               sile launcher mounted on a small rotating turret. TOW
+               stands for tube launched, optically-tracked, wire-guided
+               anti-tank guided missile. The TOW is currently the heaviest
+               antitank guided missile in the U.S. Army's inventory ca-
+               pable of hitting a tank-sized target out to a range of 3700
+               metres.                                
+                                        
+MACHINE GUN    Every tank and personnel carrier in Team Yankee carries an
+               M2 caliber 0.50 machine gun, nicknamed `Ma Duce'. This
+               is the same heavy machine gun used in World War 2 - and
+               serves as a tank commander's weapon. Additionally, each
+               tank is provided with two `M240' 7.62 mm machine guns.
+               One is mounted coaxially next to the main gun - hence the
+               nickname `Coax'. The second M240 is mounted freeswing-
+               ing outside the loaders hatch - its main value being that the
+               two machine guns are interchangeable, as well as giving the
+               loader something to hang on to when the tank is moving!
+                                                  
+M-1            This is currently the main battle tank of the U.S. Army. It has
+               a crew of four, mounts a 105 mm main gun, an M2 calibre
+               0.50 machine gun, and an M240 7.62 mm machine gun. The
+               54-ton tank is powered by a 1500 horsepower turbine engine
+               and is capable of 45mph. The fire-control system incorpo-
+               rates a laser range finder, a solid state computer, a thermal
+               imaging sight, and other electronics that allow the main gun
+               to fire while on the move with a high degree of accuracy, day
+               or night [RYGAR - Watch my Picture of this tank! YEAH!]
+                                                        
+M-113          Until recently, the M-113 was the primary U.S. Army
+               armoured personnel carrier. Weighing 11 tons, it has a crew
+               of two, driver and commander, and the capacity to carry an
+               entire infantry squad. The M-113 is normally armed with a
+               caliber .50 M2 machine gun located at the commander's
+               position. Because infantry cannot fight while mounted, the
+               M-113 is being replaced by the M-2 Bradley fighting ve-
+               hicle. The M-113 still remains a mainstay in the U.S. Army,
+               performing support roles on or near the front.
+                                              
+MECH           Short for mechanized or, in the case of Team Tankee,
+               mechanized infantry.
+                                              
+SABOT          The word is actually French for shoe. Here, it is the name of
+               an antitank round. SABOT is short for armour-piercing fin-
+               stabilised discarding sabot (APFSDS). The round consists
+               of a small tungsten alloy or depleted uranium penetrator that
+               has a diameter smaller than the diameter of the gun tube. To
+               compensate for this, the penetrator is seated in a boot that is
+               the same diameter as the gun. This boot, called the SABOT,
+               falls away after the round leaves the gun, leaving the pene-
+               trator to continue to the target. The SABOT round has a very
+               effective armour penetration out to 2500 metres. More
+               useful against tank armour than a HEAT round.
+                                                     
+SMOKE          Smoke is very usefully generated in battle in order to obscure
+               the location of vehicles from the enemy. There are three
+               ways in which smoke can be produced in the battlefield. M-
+               1 tanks and M-2 Bradleys have smoke grenade launchers
+               on the sides of the turret. These can be fired forwards, giving
+               a short-lived smoke-screen. The same vehicles can also
+               produce engine exhaust smoke, which produces a smoke
+               screen from the vehicle's rear, and which will move with the
+               vehicle if it is in motion. Artillery smoke is very useful
+               when called in just before an attack on an enemy position, to
+               obscure you from their view.
+                                             
+T-62           A Soviet tank with a four man crew and mounting a 115 mm
+               smoothbore gun, a 12.5 mm and a 7.62 mm machine gun.
+               Though considered obsolete, it is still very capable and
+               found in many Warsaw Pact units.
+                                                        
+T-72           A Soviet tank with a three-man crew and mounting a 125 mm
+               smoothbore gun, a 12.5 mm and a 7.62 mm machine gun.
+               The elemination of the fourth crewman is achieved by using
+               an automatic loader for the main gun. Special armour and a
+               sophisticated fire-control system make it a powerful foe that
+               is difficult to stop.
+                                              
+TEAM           A company-sized unit that includes both tank and mecha-
+               nized infantry platoons. Unlike a peacetime company, the
+               number and type of platoons in a team can vary according to
+               its assigned mission. In the case of Team Yankee, the Team
+               initially has two rank, and one mechanized infantry platoon
+               as well as two improved TOW vehicles.
+                                                  
+THERMAL SIGHT  A sight that detects heat emitted by an object and translates
+               it into a visible image for the gunner or commander.
+                                              
+TOW            Short for tube-launched, optically-tracked, wire guided
+               antitank guided missile. The TOW is the U.S. Army's 
+               current heavy antitank missile with a range of nearly
+               4000 metres. The guidance system provides a high proba-
+               bility of hitting a tank-sized target out to its maximum range.
+               A TOW missile can only be launched from a static vehicle.
+                                     
+TRACK          This term can be used to refer to the caterpillar tracks
+               of a vehicle, or any tracked vehicle, other than a tank. For
+               some perverse reason tanks, although having tracks, are not
+               referred to as `tracks'.
+                                          
+WARSAW PACT    A military alliance founded by the European Communist 
+               countries to counter NATO. Consists of Soviet Union,
+               Poland, German Democratic Republic [RYGAR- eeehrr dunno!),
+               Hungary, Czechoslovakia, Bulgaria and Roumania.
+                                           
+------------------------------------------------------------------------------
+                                                        
+END.............

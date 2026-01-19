@@ -1,0 +1,828 @@
+¡Aquí están los códigos para TRIANGO!
+         /------------------------------\
+
+aquí hay 16 de 20 de los códigos necesarios, si arranca y no obtiene uno,
+entonces por favor reinicie de nuevo...
+
+código de página de línea de letra
+------ ---- ---- ----
+  2 2 5 O
+  4 2 10 años
+  2 5 21 litros
+  3 3 19D
+  1 2 6T
+  2 4 7 norte
+  4 3 5 litros
+  2 4 15 mi
+  3 2 7R
+  3 2 18 mi
+  1 2 13T
+  2 3 11H
+  1 4 9 C
+  5 4 12 yo
+  1 4 8 W
+  3 2 14 mi
+
+
+     triango
+     
+     
+     
+                               TABLA DE CONTENIDO
+     
+     Introducción
+     Empezando
+     Interfaz de usuario
+     Elementos del juego
+     	Junta TrianGO
+     	piedras
+     	Jugadores
+     Cómo jugar
+     	Objeto del juego
+     	Colocando piedras
+     	Creando triángulos
+     	Capturando
+     	Puntuación
+     	Tres o cuatro jugadores
+     Estrategia
+     Menús Triango
+     	Archivo
+     		Nuevo juego
+     		Guardar/cargar juego
+     		Guardar registro
+     		Imprimir registro
+     		dejar de fumar
+     	Editar
+     		Editar tablero
+     		Cambiar de bando
+     		Deshacer mover
+     		Ocultar comandos
+     	Jugadores
+     	Opciones
+     		Borrar puntuación
+     		Mostrar puntuación
+     		Imprimir Mover
+     		Último movimiento
+     		Sonido apagado
+     		pista
+     Figuras
+     	1. Tablero de juego para dos jugadores
+     	2. Tablero de juego para cuatro jugadores
+     	3. Colocar piedras en los perímetros
+     	4. Puntos numerados en el tablero TrianGO
+     
+     Página 1
+     
+                                  INTRODUCCIÓN
+     
+     Felicitaciones por su compra de TrianGO.  Estás a punto de experimentar una
+     juego que ofrece todo el desafío y la emoción de tu tablero favorito
+     juegos, pero es nuevo y único.  TrianGO combina la estimulación mental
+     ajedrez y la astucia estratégica necesaria para jugar GO de un modo colorido y
+     juego innovador.
+     
+     Para ejecutar el programa, necesitará tener su usuario de TrianGO
+     manual a mano cada vez que inicie el programa TrianGO.  Es, por tanto,
+     muy importante que NO PIERDAS EL MANUAL DE USUARIO DE TrianGO.
+     
+     Cuando inicie el programa TrianGO, aparecerá un cuadro de diálogo preguntando
+     pregunta en referencia al manual.  Tendrás que consultar la información de tu usuario.
+     manual para poder responder correctamente a esta pregunta.  Si no respondes
+     correctamente, aparecerá otro cuadro de diálogo para ofrecerle un segundo cambio
+     Responde la pregunta. No responder correctamente a la pregunta ni un segundo. 
+     El tiempo finalizará el programa TrianGO y lo enviará de regreso a la computadora.
+     sistema operativo.
+     
+     Las siguientes páginas explican las reglas de este juego y cómo jugarlo en
+     tu computadora.  Así que enciende tu computadora, inicia el juego y disfruta.
+     Horas de entretenimiento con TrianGO.
+     
+     Página 2
+     
+                                   PARA EMPEZAR
+     
+     Su disquete TrianGO no está protegido contra copia, por lo que antes de jugar TrianGO,
+     haga una copia de seguridad del disquete original (consulte el manual del propietario de su computadora).
+     manual para obtener instrucciones sobre cómo hacer esto).  Utilice su copia de seguridad cuando
+     arrancando el juego.
+     
+     Para iniciar TrianGO:
+     AMIGA: Enciende tu sistema informático con tu disco KickStart (versión
+     1,2 o superior).  Cuando aparezca el mensaje para insertar el disco WorkBench,
+     Coloque el disquete TrianGO en la unidad. Tu ordenador cargará el TrianGO 
+     programa.
+     
+     Apple IIe/C/GS: Coloque el disquete TrianGO en la disquetera.  Enciende tu
+     monitor y la computadora.  Su computadora cargará el programa TrianGO.
+     
+     Atari ST: Coloque el disquete TrianGO en su unidad de disco.  Enciende tu
+     computadora.  Cuando aparezca el escritorio, haga doble clic en TRIANGO.PRG.  tu
+     La computadora cargará el programa TrianGO.
+     
+     Commodore 64/128: Encienda su sistema informático de la forma habitual
+     (Si tiene un C128, mantenga presionada la tecla Commodore mientras enciende el
+computadora.) Después de que aparezca el mensaje LISTO, escriba:
+     			CARGAR "*",8,1
+     y presione RETORNO.  Su computadora cargará el programa TrianGO.
+     
+     
+     IBM PC y compatibles: encienda su sistema informático usando su DOS
+     disco.  Cuando aparezca el mensaje de DOS, coloque el disquete TrianGO en la unidad A. Si
+     no está en la unidad A, cambie a la unidad A, escribiendo A: y presionando ENTER.
+     Luego, escribe:
+     					triango
+       y presione ENTRAR.  Su computadora cargará el programa TrianGO.
+     
+     Macintosh: Encienda su computadora usando el disquete del sistema o el disco duro. 
+     Inserte el disquete de TrianGO en la disquetera y haga clic en TrianGO.
+     
+     Página 3
+     
+                                   INTERFAZ DE USUARIO
+     
+     Todos los movimientos en TrianGO se realizan apuntando con el cursor y seleccionando
+     elementos en la pantalla.  Para mover el cursor, apunte y seleccione.
+     
+     Atart ST, AMIGA, Apple IIGS y Macintosh: use el mouse para moverse
+     el cursor.  Presione el botón del mouse para seleccionar.
+     
+     Commodore 64, Apple IIe/IIc: Utilice el joystick para mover el cursor.
+     Presione el botón del joystick para seleccionar -o- Use las teclas del cursor para mover el
+     cursor.  Presione la tecla RETORNO para seleccionar.
+     
+     PC IBM y compatibles:
+     Al usar el teclado:
+     Teclas de cursor: mueven la flecha
+     Barra espaciadora: selecciona un elemento indicado por el cursor.
+     Tecla Intro: selecciona el botón predeterminado (con borde más grueso) en el cuadro de diálogo.
+     			cajas
+     Tecla Ins: selecciona el botón Aceptar en los cuadros de diálogo
+     Tecla Esc: cancela las operaciones de menú, cuadro de diálogo y captura.
+     Tecla de retroceso: elimina un carácter en un nombre de archivo
+     Tecla C: Realiza una captura
+     Tecla U: Retira un movimiento (deshacer)
+     Tecla L: Le permite ver el último movimiento
+     Tecla H: Le permite obtener una pista de la computadora
+     Al seleccionar comandos de la barra de menú o menús desplegables, seleccione
+     la letra o número en mayúscula.
+     
+     Cuando utilice el joystick:
+     -Utilice el joystick para mover el cursor y presione el botón del joystick para
+     seleccione.
+     
+     Al usar el mouse:
+     -Utiliza el ratón para mover el cursor.  Presione el botón del mouse para seleccionar un
+     elemento o para desplegar menús desde la barra de menú.  Resalte lo deseado
+     comando y suelte el botón para seleccionar.
+     
+     Página 4
+     
+                                    ELEMENTOS DEL JUEGO
+     
+                                    Junta TrianGO
+     
+     TrianGO se juega en un campo de juego único que es
+     diferente al de cualquier otro juego de mesa (ver figura 1).
+     El perímetro, o bordes exteriores del campo de juego, es
+     Compuesto por 6 líneas dobles.  El resto del 
+     campo en forma de hexágono se compone de 21 líneas que cruzan 
+     para formar los muchos triángulos que componen el juego de TrianGO
+     tan emocionante.  El tablero contiene 55 puntos (donde las líneas
+     intersecar) en el que un jugador puede colocar sus piedras.
+     
+                                       PIEDRAS
+     
+     Las piezas de TrianGO son piedras redondas de colores que se
+     colocados en los puntos del campo de juego.  las piedras en
+     TrianGO está disponible en cuatro colores.  El color de cada
+     Stone depende de la capacidad gráfica de su computadora.
+     Cada jugador comienza el juego con un total de 14 piedras de un
+     color dado.  Estas piedras están ubicadas en la caja de cada jugador.
+     Las piedras capturadas por un jugador durante el juego son 
+     también colocado en este cuadro.
+     
+                                       JUGADORES
+     
+     El juego de TrianGO se puede jugar con hasta cuatro jugadores.
+     Cuando juegas TrianGO contra un oponente de computadora,
+     Sólo puede haber un juego de dos jugadores.  Cuando hay tres o
+     cuatro jugadores involucrados en un juego, la pantalla está adaptada para
+     incluir a estos jugadores (ver figura 2).
+     
+     Página 5
+     
+     El orden en que los jugadores colocan sus piedras en el
+     tablero (es decir, quién comienza primero) se puede determinar en el
+     siguientes maneras:
+1. Mientras estás en el modo de edición (ver comando Editar tablero),
+     Puede seleccionar uno de los jugadores para que sea el jugador activo.  el
+     El último jugador activo seleccionado al salir del modo de edición será
+     permitido dar el siguiente paso.
+     
+     2. Puede utilizar el comando Cambiar lados para cambiar
+     el orden de los turnos.  Al jugar contra la computadora, el
+     El valor predeterminado es que inicies el juego.
+     
+     Independientemente del orden elegido, los turnos siempre se alternarán 
+     en el sentido de las agujas del reloj.
+     
+     Como se mencionó anteriormente, puedes jugar contra la computadora,
+     o contra uno, dos o tres jugadores.  cuando juegas
+     contra la computadora, tendrás la opción de elegir
+     uno de los cinco niveles de habilidad para tu oponente informático. estos
+     Los niveles, enumerados en orden ascendente de dificultad, incluyen:
+     Novato, Intermedio, Experto, Maestro y Gran Maestro
+     Computadora.  Cuanto más difícil sea el nivel de habilidad elegido, más
+     más tardará la computadora en realizar un movimiento.  Para
+     Por ejemplo, si estás jugando en la computadora en el Grand
+     En el nivel Master, el ordenador, a su vez, tardará unos cuantos
+     minutos para evaluar sus posibles movimientos.  Si no quieres
+     para esperar la computadora, puede usar la tecla CONTROL
+     para obligar a la computadora a hacer un movimiento.  Cuando presionas
+     la tecla CONTROL, espere un momento, hasta que la computadora
+     finaliza la actual evaluación de uno de sus posibles movimientos
+     y hace su movimiento en el tablero.  Tenga en cuenta que si lo hace
+     interrumpe la computadora, ésta hará su movimiento basándose en el 
+     información que evaluó antes de la interrupción.
+     
+     Página 6
+     
+                                     CÓMO JUGAR
+     
+     TrianGO se juega colocando piedras en los puntos vacíos de
+     el campo de juego.  El juego comienza con un tablero vacío.
+     
+     El primer jugador comienza colocando una piedra (desde la parte superior 
+     cuadro derecho como valor predeterminado) en cualquier punto del tablero.  el
+     segundo jugador (contando turnos en el sentido de las agujas del reloj)
+     coloca una piedra a continuación y el juego continúa con los jugadores.
+     colocando piedras alternativamente en puntos desocupados del
+     tablero o capturando piedras.  Se colocan piedras en el tablero.
+     en un intento de crear triángulos y capturar los oponentes.
+     piedras.
+     
+                                 OBJETO DEL JUEGO
+     
+     El objetivo del juego de TrianGO es ser el último jugador
+     capaz de hacer un movimiento.
+     
+                                   COLOCANDO PIEDRAS
+     
+     Para colocar una piedra en TrianGO, seleccione la adecuada
+     punto desocupado del tablero de juego.  Cuando un punto es
+     seleccionado, la piedra del jugador aparecerá en ese punto.  el
+     La piedra superior de la pila de cada jugador se resaltará tal como está
+     a punto de entrar en juego.
+     
+     Se aplican las siguientes reglas al colocar piedras en el tablero:
+     
+     1. Puedes colocar una piedra sólo en un punto desocupado.
+     Página 7
+     
+     2. No podrás colocar tus piedras en los tres puntos de un
+     perímetro (marcado por líneas dobles).  Puedes colocar
+     piedras en ambos o en uno de los puntos finales del perímetro, o
+     sólo en el punto central (ver figura 3).
+     
+     3. Puedes tener un máximo de seis piedras en total en todos
+     puntos de los perímetros.  Si intentas colocar una piedra sobre un
+     perímetro, y ya tienes seis piedras colocadas en el 
+     perímetros, la piedra no será colocada, y tú
+     La computadora emitirá un pitido.
+     
+     Una vez que se ha colocado una piedra en el campo de juego, puede 
+     no ser movido.  La única manera de mover una piedra es si una
+     caputre está involucrado (ver capítulo sobre Captura).  si un jugador 
+     hace una captura, todas las piedras del jugador que estaban en
+     ese triángulo se recupera.  Luego pueden ser devueltos
+     en juego.  Cualquiera de las piedras de un oponente que hayan sido
+     capturados por un jugador quedan permanentemente fuera del juego.
+     
+                                 CREANDO TRIÁNGULOS
+     
+     Se crea un triángulo cuando las piedras de un jugador son
+colocado en tres puntos (las esquinas del triángulo) que
+     se puede conectar con líneas rectas (los bordes de la
+     triángulo) que contienen uno o más puntos.  Un triángulo debe
+     contener un mínimo de seis puntos.
+     
+     Hay dos tipos de triángulos que se pueden crear en
+     TrianGO. Estos son triángulos vacíos y llenos.
+     Página 8
+     
+     Los triángulos vacíos no contienen ninguno de los oponentes.
+     piedras (pero pueden contener piedras de un jugador). un vacío
+     El triángulo crea un territorio controlado por el jugador.
+     quien formó ese triángulo.
+     
+     Un triángulo completo contiene uno o más de los oponentes.
+     piedras. Sólo se puede eliminar (capturar) un triángulo completo
+     del tablero.
+     
+     TrianGO le ofrece la función de delinear
+     triángulos que se han creado.  Si hay un oponente
+     piedra dentro de un triángulo, el triángulo se encuadra para mostrar que 
+     es un triángulo completo. El delineado y sombreado de triángulos.
+     coincide con el color de las piedras del jugador. en la situación
+     donde dos o más triángulos se superponen, los colores se fusionarán
+     para crear un área sombreada que muestre dónde están los dos
+     los triángulos se superponen.  Después de capturar un triángulo, el
+     el contorno o el sombreado desaparecerán (consulte también Ocultar
+     comandos).
+     
+                                      CAPTURAR
+     
+     Cuando creas un triángulo que tiene el oponente
+     piedra(s) dentro de él o en sus bordes, tienes la opción de
+     capturando todas las piedras contenidas en ese triángulo.  en cada
+     turno siguiente, el botón CAPTURAR aparecerá en la pantalla.
+     pantalla. Este letrero le indicará que tiene la opción de
+     Página 9
+     
+     capturando el triángulo o colocando otra piedra.  (El único
+     El tiempo que te verás obligado a capturar es si no tienes más.
+     piedras para colocar.) Si continúas colocando piedras, puedes
+     crear más de un triángulo completo, y el CAPTURE
+     El botón seguirá apareciendo hasta que todos tus triángulos estén completos.
+     desaparecer.  El triángulo puede desaparecer de dos maneras:
+     hacer una captura que elimine el triángulo del tablero,
+     o tu oponente hace una captura que elimina uno o
+     más de las tres piedras en las esquinas de tu triángulo.
+     
+     Si elige capturar, seleccione el botón CAPTURAR.  si
+     sólo tienes un triángulo completo, será automáticamente
+     eliminado del tablero.  Si tienes dos o más triángulos
+     en el tablero que contiene la piedra de un oponente,
+     debe indicar qué triángulo capturar.  Esto se hace por
+     seleccionar suficientes piedras angulares que componen el
+     triángulo deseado, de modo que el triángulo esté diferenciado
+     de tus otros triángulos completos.
+     
+     Una captura se trata como un turno en TrianGO.  cuando un caputre
+     se hace, el jugador elimina todo su, así como su
+     piedras del oponente desde dentro del triángulo y a lo largo del 
+     bordes del triángulo.  Las piedras del jugador que estaban
+     Los objetos recuperados se pueden reutilizar en el juego.  el oponente
+     Las piedras que han sido capturadas quedan fuera del juego.
+     Página 10
+     
+                                       PUNTUACIÓN
+     
+     Los jugadores continúan colocando y capturando piedras hasta que haya 
+     Sólo un jugador puede hacer un movimiento.  El último jugador capaz 
+     hacer un movimiento gana el juego y recibe un punto.
+     Cuando se completa un juego, aparecerá un mensaje en la
+     Pantalla que anuncia el ganador del juego.
+     
+     El número de piedras que han sido capturadas no tiene
+     efecto en la puntuación.  Este es un factor importante para recordar.
+     a la hora de planificar tu estrategia TrianGO.
+     
+     
+                                TRES O CUATRO JUGADORES
+     
+     TrianGO permite hasta cuatro jugadores por juego (ver figura 2).
+     Cada una de las piedras de estos jugadores se muestra en un diferente
+     matiz o color.  cuando hay tres jugadores, el cuarto
+     jugador y el juego extra de piedras no aparecerá en el
+     pantalla.
+Los jugadores deciden entre ellos qué color de
+     piedras que usarán y dos comenzarán primero.  Luego, usando el
+     Comando Cambiar lado (o Editar tablero), indican que
+     la computadora qué jugador (color) hace el primer movimiento.
+     Página 11
+     
+     El juego de tres o cuatro jugadores se juega casi exactamente
+     como un juego de dos jugadores (la computadora no participa en
+     estos juegos), pero hay una diferencia.  Durante el juego en un
+     juego de dos jugadores, si un jugador se queda sin piedras, ese jugador
+     ha perdido.  En un juego con más de dos jugadores, esto no es
+     siempre es el caso.  Si, por ejemplo, el tercer jugador se queda sin
+     piedras, pero todavía tiene un triángulo vacío en el baord, y un
+     El oponente coloca una piedra dentro de ese triángulo, el triángulo
+     puede ser capturado en el turno del jugador tres.  Las piedras que son
+     recuperado de esa captura puede luego ser devuelto a
+     jugar.
+     
+     El ganador es el último jugador que tenga una piedra para colocar.
+     
+     Al jugar un juego con más de dos jugadores, puedes
+     Captura más de las piedras de un jugador dentro de un triángulo.
+     Además, un juego que involucra a más jugadores concentra
+     más en capturar, porque hay menos oportunidades
+     para mantener la seguridad a lo largo del borde una vez que un jugador tiene una
+     ventaja sustancial en el juego.
+                                      ESTRATEGIA
+     
+     Una vez que hayas aprendido a jugar a TrianGO, podrás
+     Querrás mejorar tu estrategia de juego.  lo siguiente
+     sección ofrece algunas sugerencias para ayudarle a mejorar su
+     jugar estrategia y hacer TrianGO mucho más divertido
+     para jugar.
+     
+     · No siempre es la mejor idea capturar triángulos completos también
+     rápidamente.  cuando capturas un triángulo, debilitas tu
+     posición del tablero.  Si tienes un triángulo grande y completo que
+     controla bastante territorio, puedes llenarlo de piedras,
+     crear otros triángulos y al mismo tiempo controlar un
+     mayoría de la junta directiva.
+     
+     · Cuando tengas triángulos completos en el tablero (triángulos
+     que son elegibles para capturar), a menudo es una buena idea
+     Llena estos triángulos con tus piedras.  Cuando finalmente lo hagas
+     captura el triángulo, puedes recuperar más piedras
+     y tenerlos disponibles para su uso posterior en el juego.
+     
+     · Intenta evitar colocar piedras en el centro del tablero
+     puntos que no serán ocupados por tus triángulos completos. el
+     Los puntos en el centro del tablero son las posiciones más débiles.
+     para colocar tus piedras.  Además, intenta evitar crear triángulos.
+     que será destruido cuando se produzca una captura.
+     
+     · Intenta obligar a tu oponente a tomar triángulos completos lo antes posible.
+     lo más posible. Esto se hace creando tus propios triángulos completos.
+     que contienen las piedras angulares del juego completo de tu oponente.
+     triángulos.
+     Página 13
+     
+                                    MENÚS TRIANGO
+     
+     Los comandos disponibles en TrianGO se invocan a través de 
+     el uso de una serie de menús desplegables ubicados en la parte superior
+     de la pantalla.  Los comandos se clasifican por su
+     funciones y cada menú contiene comandos que
+     se relacionan con un aspecto diferente del juego.
+     
+                                        ARCHIVO
+     
+     El menú Archivo mostrará principalmente comandos que
+     implican leer o escribir información en el disco.  cuando
+     Si selecciona Archivo, aparecerá un menú desplegable con estos comandos.
+     aparecer.
+     
+                                      NUEVO JUEGO
+     
+     El comando Nuevo Juego borrará el juego actual,
+     Limpia el tablero y reinicia las piedras para un nuevo juego.  tu
+     Puedes seleccionar este comando en cualquier momento para iniciar un nuevo juego. 
+     Si estás en medio del juego en ese momento, el Nuevo
+     Se selecciona el comando del juego, aparecerá un mensaje para
+     Asegúrate de que quieres comenzar un nuevo juego.  Si comienzas un
+     juego nuevo y no guardas el juego actual, se borra
+de la memoria de la computadora. Tenga en cuenta que el nuevo juego
+     El comando debe seleccionarse después de cada juego completado en
+     para comenzar el siguiente juego.
+     Página 14
+     
+                                   Guardar/cargar juego
+     
+     El comando Guardar juego guardará el juego actual en
+     el disco.  Cuando se selecciona Guardar juego, aparece un cuadro de diálogo con
+     Se muestran los archivos del directorio actual.  Introduzca el
+     Nuevo nombre o seleccione un nombre de archivo que se muestra en el directorio.
+     para sobrescribir un archivo existente.  Todos los movimientos que han sido
+     realizado en el juego actual, así como el recuento de puntos de
+     Los juegos jugados se guardarán en el disco.  También puedes usar
+     el comando Guardar juego para guardar la puntuación actual, si
+     decide cambiar el número de jugadores en el juego.
+     
+     El comando Cargar Juego cargará un juego previamente guardado.
+     juego, incluida la puntuación guardada.  Cuando un cuadro de diálogo
+     Aparece mostrando los archivos del directorio actual, seleccione
+     el nombre del archivo del juego que deseas cargar.  Seleccionar
+     OK para cargar el juego.  Seleccione Cancelar para volver a la actual
+     juego.
+     Si desea conservar la puntuación actual, seleccione Cancelar cuando
+     la pregunta "¿Restaurar la puntuación guardada?" aparece.
+     
+                                      GUARDAR REGISTRO
+     
+     El comando Guardar registro guardará un archivo ASCII de todos
+     movimientos que se han realizado durante el juego actual.
+     Cuando se selecciona el comando Guardar registro, aparece un cuadro de diálogo
+     Aparece mostrando los archivos del directorio actual. Entrar
+     el nombre del archivo del registro que desea guardar y seleccione
+     Está bien.
+     Página 15
+     
+                                      IMPRIMIR REGISTRO
+     
+     Al seleccionar el comando Imprimir registro se imprimirá el registro actual.
+     Este registro incluye cada movimiento que se ha realizado desde el
+     desde el principio hasta el punto actual del juego.  el registro
+     Describe movimientos en el tablero usando números.  Estos
+     Los números corresponden a los puntos del tablero que se muestran en
+     figura 4. Puedes imprimir un registro de un juego hasta que emitas un
+     Nuevo comando de juego. Cuando comienzas un nuevo juego, un
+     Se inicia un nuevo registro.  Si desea cancelar el registro de impresión
+     comando, seleccione el cuadro Cancelar que aparece en la
+     pantalla durante la impresión.  Cuando se utiliza el registro de impresión
+     comando, debe recordar encender su impresora.
+     
+                                        SALIR
+     
+     El comando Salir le permite salir del programa.  un
+     Se mostrará un cuadro de diálogo para confirmar que desea
+     para dejar de fumar.  Al seleccionar Aceptar se saldrá del programa sin guardar.
+     el juego.  Seleccionando GUARDAR (que sólo aparece cuando el
+     el juego está en progreso) guardará el juego actual y luego
+     salir del programa.  Al seleccionar CANCELAR regresará a la
+     juego actual.
+     Página 16
+     
+                                        EDITAR
+     
+     El menú Editar contiene comandos que editan el juego.
+     y tablero de juego.  Esto incluye la edición antes, durante y
+     después de un juego.
+     
+                                     EDITAR TABLERO
+     
+     Seleccionar el comando Editar tablero le permite
+     reorganizar las posiciones de las piedras en el tablero, así como
+     para indicar qué jugador comenzará el juego.  cuando tu
+     seleccione este comando, se indica con una marca de verificación y
+     Todos los botones CAPTURAR se muestran en la pantalla.
+     
+     Las siguientes reglas se aplican cuando se ejecuta el comando Editar tablero.
+     seleccionado:
+     
+     1. La piedra superior de la pila del jugador activo será
+     resaltado.  El jugador activo es el jugador que está más
+     directamente afectados por las acciones de edición.  Por ejemplo, tu
+     puede manipular las piedras del jugador activo en el tablero, o
+     sumar y/o restar de la tienda de jugadores activos
+     piedras capturadas.
+     
+     2. Para activar un jugador, use el cursor para seleccionar
+     cualquier piedra en la pila de ese jugador.  si no hay mas
+     piedras en la caja del jugador, seleccione el área de la caja donde
+     normalmente se encuentra la pila.
+3. Para colocar la piedra de un jugador activo en el tablero, usa el
+     cursor para seleccionar cualquier punto válido en el tablero.
+     
+     4. Seleccionar la piedra de un jugador en el tablero trae esa piedra.
+     De vuelta a su caja.
+     Página 17
+     
+     5. Seleccionar la piedra de un oponente en el tablero captura
+     esta piedra y la lleva a la casilla del jugador activo.
+     
+     6. Seleccionar una piedra capturada en la caja de un jugador coloca esta
+     piedra de nuevo en la respectiva caja del oponente.
+     
+     7. Seleccionar una piedra capturada en la caja del oponente.
+     captura esta piedra en la caja del jugador activo.
+     
+     8. Al seleccionar el botón CAPTURAR del oponente se mueve el 
+     la piedra del jugador activo desde su caja a la caja del oponente.
+     
+     9. Seleccionando el botón CAPTURAR del jugador activo,
+     captura el triángulo completo del jugador (si lo hay) del tablero. si
+     el jugador activo tiene más de un triángulo completo en el
+     baord debe seleccionar el triangulo a capturar haciendo clic en
+     las esquinas del triángulo deseado de modo que el triángulo quede
+     diferenciado de otros triángulos completos en el tablero.
+     
+     10. Al salir del comando Editar tablero (esto se hace mediante
+     seleccionando Editar tablero nuevamente), el juego se reanudará en el
+     posición actual del tablero, y el último jugador activo es el
+     aquel que da el siguiente paso.
+     
+     La última regla se puede utilizar para elegir qué jugador comienza.
+     primero.  Por ejemplo, si estás jugando contra la computadora,
+     y desea que la computadora dé el primer paso, seleccione
+     el comando Editar tablero, activa la computadora
+     jugador seleccionando su piedra superior y saliendo del modo de edición
+     (ver también el comando Cambiar Lado).
+     Página 18
+     
+                                    CAMBIAR DE LADO
+     
+     El comando Cambiar lados se utiliza normalmente cuando
+     están jugando contra un oponente de computadora.  cuando el
+     Se selecciona el comando Cambiar Lados, las piedras que estabas
+     La reproducción será realizada por el ordenador y el
+     Las piedras de la computadora ahora son tuyas.  En otras palabras, si usted
+     Estabas jugando con las piedras del jugador 1 y seleccionas Cambiar.
+     Por otro lado, ahora jugarás con las piedras del jugador 2.
+     
+     Cuando juegas contra la computadora, puedes usar Cambiar
+     Comandos de lados y editar tablero para indicar el jugador
+     quién empieza primero y el color que utiliza.  A continuación se muestra una lista de
+     opciones posibles y las acciones necesarias para implementarlas.
+     esas elecciones.
+     
+     1. El jugador desea empezar primero y quiere jugar en la caja.
+     en el lado derecho del tablero: este es el valor predeterminado para el
+     juego.  No se necesita ninguna otra acción.
+     
+     2. El jugador desea que la computadora comience primero, jugando el
+     cuadro en el lado derecho del tablero: use el botón Cambiar lados
+     comando para cambiar de lugar con la computadora.
+     
+     3. El jugador desea que la computadora comience primero, jugando el
+     cuadro en el lado izquierdo del tablero: Usar el tablero de edición
+     comando para seleccionar la piedra superior en el cuadro de la izquierda y
+     luego salga del modo de edición.
+     
+     4. El jugador desea empezar primero, jugando en el cuadro de la izquierda:
+     Utilice el comando Editar tablero para seleccionar la piedra superior en
+     el cuadro de la izquierda.  Seleccione el comando Cambiar lados,
+     y luego salga del modo de edición.
+     Página 19
+     
+     El comando Cambiar lados también se puede utilizar en el
+     comienzo de juegos de dos, tres y cuatro jugadores para
+     indicar el jugador que comienza primero.
+     
+                                      DESHACER MOVER
+     
+     El comando Deshacer movimiento le permite hacer una copia de seguridad del
+     juego, paso a paso, hasta el comienzo del juego.
+     juego.
+     
+     Cuando juegas contra un oponente de computadora,
+     seleccionar este comando eliminará la última piedra que fue
+     colocado por la computadora así como la última piedra colocada por
+     usted.
+     
+     Cuando se selecciona el comando Deshacer Mover, la última piedra
+     haber sido colocado será eliminado del tablero y
+     devuelto a la pila de piedras del jugador correspondiente.  si el
+El último movimiento es una captura, todas las piedras que han sido eliminadas.
+     durante la captura serán regresados a sus posiciones originales
+     en el tablero.  Cada vez que selecciona Deshacer Mover
+     comando, se quitará una piedra del tablero (o
+     Las piedras se devolverán al tablero, si el último movimiento fue un
+     captura), hasta que regrese al comienzo de la
+     juego.
+     
+     Tenga en cuenta que usted deshace el último movimiento de un juego completado,
+     La puntuación de ese juego se borrará.  La puntuación
+     regresar cuando se realiza un movimiento final.
+     Página 20
+     
+                                    Ocultar comandos
+     
+     Los comandos Ocultar se utilizan para suprimir la visualización de
+     triángulos de los jugadores.  Esto significa que cuando un triángulo es
+     creado, tanto vacío como lleno, el sombreado no aparecerá
+     en la pantalla.  Esto añade una dificultad extra al juego,
+     porque los jugadores deben seguir los triángulos
+     mentalmente sin verlos en la pantalla.
+     
+     Hay cuatro comandos Ocultar disponibles, uno para cada
+     jugador.  El formato de los comandos Ocultar se verá así
+     esto:
+     
+     				Ocultar (color/reproductor)
+     
+     El color corresponderá a los colores de las piedras utilizadas.
+     por cada jugador.  Por ejemplo, si selecciona Ocultar azul, el
+     sombreados para todos los triángulos formados por el jugador usando el
+     Las piedras azules no aparecerán en el tablero.
+     
+     Selecciona el color del jugador cuyos triángulos desearías
+     le gusta esconderse.  Puedes ocultar los trianlges para todos los jugadores en
+     el juego, o para unos pocos seleccionados. Cuando estás jugando un
+     juego de dos jugadores, el comando Ocultar sólo ocultará los dos
+     colores que se utilizan.  Los comandos Ocultar para el tercero y
+     El cuarto jugador se atenuará.
+     
+     Cuando se selecciona cualquiera de los comandos Ocultar, se muestran
+     indicado con una marca de verificación. Para volver a mostrar triángulos,
+     seleccione el comando apropiado por segunda vez.
+     Página 21
+     
+                                       JUGADORES
+     
+     El menú Jugadores contiene los comandos que permiten
+     Tú eliges el número de jugadores para el juego.  tu
+     podrá elegir entre jugar contra el ordenador o
+     jugando contra uno, dos o tres jugadores humanos.  el
+     El menú de jugadores también contiene los comandos que
+     determinar el nivel de habilidad en el que el oponente de la computadora
+     jugará.
+     
+     La primera mitad del menú Jugadores contiene los comandos.
+     que determinan quién jugará el juego.  Seleccione el
+     Comando Computadora vs Jugador cuando quieres una computadora
+     oponente.  Selecciona 2 jugadores cuando quieras dos personas.
+     juego.  Selecciona el comando 3 jugadores cuando quieras un
+     juego de tres personas y selecciona 4 jugadores cuando quieras un
+     Juego de cuatro jugadores.  Cuando seleccionas a los 3 jugadores
+     comando o el comando 4 jugadores, la pantalla será
+     ajustado para incluir las pilas adicionales de piedras.  un
+     La marca de verificación junto al comando indicará qué
+     El comando ha sido seleccionado.  El primer comando,
+     Computadora vs Jugador, es el valor predeterminado.
+     
+     Tenga en cuenta que cuando cambia el número de jugadores, el
+     La computadora le preguntará si desea borrar el archivo actual.
+     puntuación.  El puntaje actual al que se refiere es el acumulado.
+     puntuación total de los juegos jugados hasta el momento.  Seleccione Aceptar para borrar el
+     recuento de puntuación actual de los juegos jugados.  Si quieres guardar
+     el recuento de puntuación actual, debes guardar el juego actual
+     usando el comando Guardar juego antes de cambiar el
+     número de jugadores.
+     Página 22
+     
+     La segunda mitad del menú Jugadores contiene la
+     comandos que le dicen a la computadora en qué nivel de habilidad debe
+     jugar.  Las opciones son: Computadora principiante, Intermedio
+     Computadora, Computadora experta, Computadora maestra y
+     Grand Master Computer, siendo Novice Computer el
+     menos difícil y Grand Master Computer siendo el más
+     difícil.  El comando que ha sido seleccionado será
+     marcado con una marca de verificación.
+Tenga en cuenta que el nivel de habilidad elegido afectará no sólo a la
+     forma en que juega el ordenador, sino también el tiempo en el que
+     el ordenador tarda en realizar cada movimiento.  Como el nivel de habilidad
+     aumenta, la computadora tardará más en realizar cada
+     moverse.  Por ejemplo, el oponente de Novice Computer
+     tómate unos segundos para hacer un movimiento, mientras el Gran
+     El oponente de Master Computer tardará varios minutos.
+     (El tiempo de respuesta también depende del tipo de computadora).
+     
+     Para forzar a la computadora a hacer un movimiento, basado en el
+     información que ha recopilado hasta el momento, presione el botón CONTROL
+     y espere hasta que la computadora finalice su proceso actual.
+     evaluación y hace un movimiento.
+     Página 23
+     
+                                       OPCIONES
+     
+     El menú Opciones contiene una variedad de diferentes
+     opciones de juego.   Estas opciones pueden usarse para ayudarlo a
+     jugar el juego, mostrarle la clasificación del juego y
+     en alterar otros aspectos del juego.
+     
+                                     Borrar puntuación
+     
+     TrianGO mantendrá automáticamente un total acumulado de los
+     Número de juegos que ha ganado cada jugador. el
+     La opción Borrar puntuación, cuando se selecciona, devolverá cada
+     la puntuación del jugador a cero.
+     
+     Cuando seleccione la opción Borrar puntuación, aparecerá un mensaje.
+     aparecerá en la pantalla para confirmar que desea restablecer el
+     puntuaciones a cero.  Seleccione Aceptar para confirmar.  Seleccione Cancelar para
+     volver al juego actual.
+     
+                                     Mostrar puntuación
+     
+     Cuando seleccionas la opción Mostrar puntuación, aparecerá un cuadro
+     en la pantalla que muestra las puntuaciones actuales. si hay
+     Si solo hay dos jugadores, solo se mostrarán dos puntuaciones.  si
+     hay jugadores adicionales, el cuadro de puntuación mostrará el 
+     puntuaciones para todos los jugadores en el juego.  Seleccione el botón Aceptar para
+     volver al juego actual.
+     Página 24
+     
+                                     Imprimir Mover
+     
+     La opción Imprimir Mover le permite imprimir un registro continuo
+     de un juego, tal como se juega. Este registro describe los movimientos en el
+     tablero usando los números que se muestran en la figura 4. Cuando Imprimir mover
+     ha sido seleccionado, está marcado con una marca de verificación.  esto 
+     La opción se puede activar o desactivar en cualquier momento.
+     
+                                      Último movimiento
+     
+     La opción Último movimiento le permite ver el último movimiento.
+     realizado en el tablero.  Esta opción puede ser útil cuando
+     jugando contra la computadora Master o Grand Master
+     oponente.
+     
+                                      Sonido apagado
+     
+     La opción Sound Off activará el sonido del juego.
+     y apagado.  El valor predeterminado es tener el sonido activado.  cuando tu
+     seleccione esta opción por primera vez, el sonido se activará
+     apagado.  Una marca de verificación junto a esta opción indicará que el
+     el sonido se ha apagado.  Para volver a activar el sonido,
+     seleccione la opción Sonido desactivado por segunda vez.
+     Página 25
+     
+                                        PISTA
+     
+     El comando Sugerencia le permite obtener ayuda del
+     computadora en cuanto a los mejores movimientos que debes hacer,
+     dadas las posiciones actuales de la junta directiva.  Hay tres niveles
+     de sugerencias que puedes utilizar: Sugerencia de experto, Sugerencia maestra y
+     Sugerencia del Gran Maestro.  La calidad de la pista mejora a medida que
+     pasar de Sugerencia de experto (nivel predeterminado) a Gran maestro
+     Pista.  El tiempo que tarda la computadora en dar la pista.
+     aumenta también.  Una vez que haya seleccionado el
+     nivel apropiado de la pista, seleccione el comando Pista en
+     para ver la pista que sugiere el ordenador.
+     
+     Tenga en cuenta que puede utilizar la tecla CONTROL para
+     obligar a la computadora a darle una pista basada en el
+     información que evaluó antes de la interrupción.  cuando tu
+     presione la tecla CONTROL, debe esperar hasta que la computadora
+     termina la evaluación actual y hace parpadear su piedra en el
+     Posición sugerida en el tablero.
+Tenga en cuenta que el comando Sugerencia sólo se puede utilizar en un
+     "Computadora contra jugador" o un juego de "2 jugadores".

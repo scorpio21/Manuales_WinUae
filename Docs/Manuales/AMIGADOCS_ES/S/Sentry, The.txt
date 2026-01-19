@@ -1,0 +1,365 @@
+La referencia rápida de Sentry
+
+Lista de claves
+--------
+Panorámica izquierda S Transferencia Q
+Pan Derecha R Absorber A
+Panorámica arriba L Giro en U U
+Panorámica hacia abajo, hiperespacio H
+Crear miras de Robot R activadas/desactivadas BARRA ESPACIADORA
+Crear roca B
+Crear árbol T ^ |
+Pausar <- o -> Cancelar pausa | o v
+
+Equivalentes de energía
+------------------
+Centinela 4 Roca 2
+Landgazer 4 Árbol 1
+Robot 3 malo 1
+
+
+
+=========================
+La documentación del centinela
+=========================
+  Presentado por M.A.A.D.
+
+El centinela
+
+En un extraño universo de 10.000 paisajes donde la única fuerza es pura
+energía, un robot solitario lucha contra Sentry y sus agentes, el
+observadores de la tierra.
+
+Controlas este robot en su intento de usurpar al Centinela como gobernante del
+paisaje.  Para hacer esto, debes maniobrar alrededor del Paisaje, evitando
+la mirada fulminante de los Sentry y Landgazers, hasta que te encuentres en un
+posición para absorber al Centinela.  Su energía es tuya y puedes reemplazarla.
+ella como gobernante de ese Paisaje.
+
+Una vez que haya logrado esto, podrá recurrir a sus reservas de energía y
+hiperespacio hacia un paisaje nuevo y aún más desafiante para comenzar la lucha
+de nuevo.
+
+PARA EMPEZAR
+
+Una vez que el juego se haya cargado, se mostrará la pantalla de título.  Presione cualquier tecla
+para acceder a la pantalla de selección de espacio terrestre.
+
+Primero se le pedirá que ingrese un número horizontal.  Escriba el número de
+el paisaje al que desea ir y presione RETORNO.
+
+Si este es tu primer juego de Sentry o aún no te han dado un secreto
+Código de entrada, seleccione Paisaje 0000 simplemente presionando RETORNO.  Como este es el
+Sólo paisaje que no requiere un código de entrada secreto, la siguiente sección
+Se omitirá y el juego comenzará.
+
+Después de haber seleccionado un paisaje al que ir, se le pedirá que ingrese un
+Código de entrada secreto de 8 dígitos.
+
+Cada paisaje tiene un código de entrada único correspondiente que se otorga una vez que
+haber absorbido con éxito un Centinela y un Hiperespaciado de forma segura fuera de ella
+Paisaje.
+
+Escriba el número del Código de entrada secreto correspondiente a su seleccionado
+Paisaje y presione RETORNO para comenzar el juego.
+
+Si comete un error al escribir números, puede editarlos usando eliminar.
+Si ingresa un código de entrada secreto incorrecto, se lo colocará nuevamente en el
+pantalla de título después de un retraso de unos segundos.
+
+RESUMEN DEL PAISAJE
+
+Después de pasar por la sección de selección de Paisaje, hay un retraso de
+unos nueve segundos, después de los cuales se le mostrará una vista aérea de su
+Paisaje elegido.  Esto muestra las posiciones relativas del Sentry (el que
+parado en la torre) y cualquier Landgazers que pueda estar presente.
+
+Debería estudiar esta pantalla detenidamente, ya que le dará una idea de la
+Paisaje y le permitirá planificar su asalto al Sentry.  aunque tu
+La posición inicial no se muestra en esta vista aérea, estará cerca de la
+altitud más baja posible en este paisaje.
+
+Una vez que se haya familiarizado con el diseño del paisaje, presione cualquier
+clave.  Serás teletransportado a la superficie del Paisaje y tu
+La batalla con el Sentry comenzará.
+
+LA PANTALLA DE VISUALIZACIÓN
+
+Después de un retraso de unos seis segundos, la visión de su robot se aclarará y podrá
+Se mostrará una vista del paisaje tal como lo ve su robot.  Por encima del
+En la pantalla de visualización hay dos indicadores: Energía del robot (esquina superior izquierda) y Escaneo.
+Indicador de Advertencia/Pausa (esquina superior derecha).
+
+La energía del robot
+Esto proporciona un ícono que representa cuánta energía tiene su robot en su
+reservas.  Los iconos representan los siguientes valores de energía:
+   Robot dorado = 15 unidades Roca = 2 unidades
+   Robot = 3 unidades Árbol = 1 unidad
+Por lo tanto, si la pantalla muestra 1 robot dorado, 2 robots y un árbol, tienes un
+total de 15+2x3+1 unidad de energía, o 22 unidades.
+
+Indicador de advertencia/pausa de escaneo
+Si un Sentry o Landgazer te ve y puede ver el cuadrado en el que se encuentra tu robot
+De pie, este indicador se llenará de motas.  Esto se llama completo
+Escanear.  Si el indicador está lleno de motas sólo hasta la mitad, ha sido
+detectado pero el Sentry o Landgazers no pueden ver el cuadrado en el que se encuentra su robot.
+de pie.  Esto se llama Medio Escaneo.
+Si pausas el juego, el indicador de Advertencia/Pausa del escaneo se llenará con
+color sólido hasta que retomes la pausa.
+
+MIRANDO ALREDEDOR
+
+Al comienzo del juego, los Sentry y Landgazers (si los hay) están estacionarios,
+escuchando cualquier sonido que delate la posición de un intruso.  tu
+Debe utilizar este período seguro para mirar alrededor del paisaje usando la función Panorámica.
+llaves.  Esto le dará una buena idea de en qué parte del paisaje se encuentra su robot.
+es y cómo debes proceder.
+
+La panorámica es la única operación que puede realizar su robot y que no produce ruido.
+Una vez que haces un ruido, al hacer un giro en U, por ejemplo, el Sentry y
+Los observadores terrestres te escucharán y comenzarán a rastrearte.
+
+(Nota: desde el paisaje 0000, si se desplaza hacia la derecha 9 veces y hacia arriba 3 veces, puede
+Verás al Centinela en su torre de espaldas a ti.)
+
+Aunque puedes desplazarte hacia la derecha y hacia la izquierda en 360 grados, solo puedes desplazarte hacia arriba
+y hacia abajo hasta unos 80 grados.  Esto significa que no puede obtener una
+vista al revés del paisaje.
+
+ESCANEO
+
+Una vez que Sentry y Landgazers están activos, funcionan de la siguiente manera:
+
+Giran lentamente sobre el lugar, buscando en el paisaje espacios cuadrados.
+que contienen más de 1 unidad de energía.  Ignorarán los cuadrados vacíos.
+y cuadrados con sólo árboles, porque los árboles valen sólo 1 unidad de
+energía.
+
+Una vez que puedan ver claramente un cuadrado con un contenido energético de dos o más,
+se fijan en ese cuadrado y comienzan a redistribuir la energía en el
+siguiente manera:
+
+Se toma 1 unidad del cuadrado y se crea un árbol en un espacio vacío aleatorio.
+cuadrado.  Esta secuencia se repite hasta que solo quede 1 unidad de energía.
+en el cuadrado (es decir, un árbol).  El Sentry o Landgazer continuará
+girando.
+
+Por ejemplo, un Sentry detecta un robot encima de una roca.
+
+Primero, el robot (que vale 3 unidades de energía) se transforma en una roca (que vale 3 unidades de energía).
+2 unidades de energía) y se crea un árbol en alguna parte.  Entonces la Roca se convierte en un
+árbol, y un segundo árbol se coloca aleatoriamente en el paisaje.  Ahora tienes un
+árbol encima de una roca, que vale 3 unidades de energía.
+
+A continuación, este árbol desaparece (dejando solo una roca) y se coloca un tercer árbol.
+en algún lugar del Paisaje.  Por último, la Roca se transforma en un árbol.
+y se crea un cuarto árbol final en una ubicación aleatoria, dejando solo un
+Un solo árbol en la plaza.
+
+Es importante darse cuenta de que la cantidad de energía en un paisaje siempre
+permanece constante pase lo que pase.  En el ejemplo anterior, las 5 unidades originales
+de energía (un robot y una roca) se convirtió en 5 árboles.
+
+OBJETOS ABSORBENTES
+
+Tu robot puede absorber Meanies, árboles, rocas, robots, Landgazers y el
+Sentírate y agrega su contenido de energía a la energía de tu robot.
+reservas.
+
+Para absorber y objetar, enciende la mira y céntrala en el cuadrado.
+superficie debajo del objeto a absorber y presione la tecla absorber (A).
+
+El objeto se disolverá y una vez que desaparezca por completo, tu energía
+Las reservas aumentarán en una cantidad correspondiente a la energía de ese objeto.
+contenido. (es decir, absorbe una roca y tu reserva de energía aumenta en 2).
+
+Los cantos rodados son diferentes a todos los demás objetos en que solo tienes que colocarlos
+las miras en el lado de una roca para absorberla o absorber un objeto
+directamente encima de la roca.
+
+Si sus miras están colocadas incorrectamente cuando coloca la llave de absorción, un
+Sonará una advertencia audible y no absorberá el objeto.  Mueva el
+mira e inténtalo de nuevo.
+
+Una vez que haya absorbido un objeto, apague la mira ya que la panorámica es mucho más
+más lento con ellos puestos y tendrás que moverte rápidamente para evitar el
+Centinela o Landgazers.
+
+CREANDO OBJETOS
+
+Su robot puede crear robots, rocas y árboles a partir de sus reservas de energía.
+
+Crear objetos funciona de manera similar a absorber.  Primero enciende tu
+miras y céntralas en un cuadrado vacío, luego presiona 'R' para crear un robot,
+'B' para crear una roca o 'T' para crear un árbol.
+
+El objeto aparecerá lentamente píxel a píxel y tus reservas de energía aumentarán.
+disminuir en una cantidad correspondiente al contenido de energía del objeto creado.
+(es decir, crea un robot y tu reserva de energía se reduce en 3).
+
+Los cantos rodados se pueden colocar uno encima del otro para formar una pila encima de la cual
+Se puede colocar un árbol (de dudosa utilidad) o un robot (de considerable utilidad).
+
+Para crear un objeto encima de una roca, coloca tu mirada en la parte superior de la roca.
+lado y luego presione 'R', 'T' o 'B', según corresponda.
+
+Coloque las miras en la roca superior en una pila para crear un objeto encima de
+la pila de rocas.
+
+EN MOVIMIENTO
+
+Para moverse por el paisaje, primero cree un robot como se describe en la
+sección "Creación de objetos".  Este nuevo robot puede estar en el suelo o
+encima de una pila de rocas.  Luego presione la tecla transferir (Q), asegurándose
+que tus miras no se han movido y siguen encendidas después de crear el robot.
+
+Serás transferido al nuevo robot, mirando hacia tu antiguo robot.
+que puedes absorber junto con las rocas sobre las que pueda haber estado.
+Estarás mirando directamente en esa dirección;  es posible que necesites hacer una panorámica
+abajo para ver el viejo robot.
+
+También puedes transferirte a un viejo robot que quedó en el paisaje colocando el
+mira la base de ese robot y presiona la tecla de transferencia.
+
+Ahora puedes moverte libremente por el Paisaje, usando pilas de rocas para ganar
+altitud hasta que estés en condiciones de absorber el Sentry y convertirte en maestro
+del Paisaje.
+
+SIENDO ESCANEADO
+
+Si un Sentry o Landgazer te ve y puede ver la casilla en la que estás parado
+(o la roca sobre la que estás parado), el indicador de advertencia de escaneo se llenará
+con motas y escuchará un zumbido bajo.
+
+Esto significa que está siendo sometido a un análisis completo.
+
+Tienes unos 5 segundos para salir de la vista del Sentry o Landgazer.
+antes de que se agote su reserva de energía, 1 punto a la vez.  Cada vez que un
+Cuando se drena la unidad de energía, se coloca un árbol aleatoriamente en el paisaje.
+
+Una vez que toda tu energía se haya agotado, serás absorbido y el juego
+Se acabó (¡perdiste!).
+
+HIPERESPACIO
+
+Otra forma de moverse es el hiperespacio.  Esto utiliza 3 unidades de energía de
+tu reserva, porque crea un nuevo robot en una posición aleatoria en el
+Horizontal y te transfiere automáticamente a él, dejando tu viejo robot
+detrás.
+
+Es probable que termines a la misma altura o más abajo, pero nunca terminarás
+en tu cuadrado original.  Si hiperespacio con menos de 3 unidades de
+energía, te has destruido a ti mismo y el juego ha terminado.
+
+MALVADOS
+
+Si te han detectado, pero el Sentry o Landgazer no pueden ver el cuadrado.
+sobre el que se encuentra, el indicador de advertencia de escaneo se llenará hasta la mitad con
+motas y escuchará un zumbido bajo.  Esto significa que estás siendo
+sometido a un Half Scan.
+
+Debido a que el Sentry o Landgazer no puede absorber tu energía, intenta
+obligarte a salir a la intemperie.  Primero buscará un árbol en el interior de tu robot.
+cercanías cercanas.  Una vez que se encuentra un árbol, el Sentry o Landgazer se transformará
+el árbol en un Meanie.
+
+El trabajo del Meanie es sacarte, y lo hace obligándote a hacerlo.
+hiperespacio.  El Meanie gira rápidamente haciendo un sonido de clic bajo, hasta que
+está mirando hacia su robot.  Si el Meanie ahora puede ver tu robot,
+automáticamente hiperespacio y se deducirán 3 unidades de energía de tu
+reserva de energía.  Si tienes menos de 3 unidades de energía en tu reserva cuando
+Te obligan al hiperespacio, Meanie te ha matado y el juego termina.
+terminado.
+
+Onve the Meanie te ha obligado al hiperespacio o si no puede verte, el
+Sentry o Landgazer que creó al Meanie lo transformará nuevamente en un
+Árbol.
+
+GANAR EL JUEGO
+
+Una vez que haya maniobrado su robot hasta una posición donde pueda ver el
+En lo alto de la torre Sentry, puedes absorberla.
+
+Una vez que el Sentry ha sido absorbido, ya no podrás absorber energía, aunque
+aún puedes crear objetos y transferirlos a otros robots.  Si hay alguno
+Los observadores terrestres todavía están en el paisaje, todavía están activos y son una amenaza para
+tu existencia continua.
+
+Una vez que Sentry haya sido absorbido, crea un robot en su torre, transfiérelo a
+ese robot y luego el hiperespacio fuera de ese Paisaje.  Has derrotado al
+Sentry y la expulsaron del Paisaje, pero eso fue solo 1. Hay
+Aún quedan 9.999 paisajes más por conquistar, cada uno más peligroso que el
+último.
+
+Una vez que hayas salido hiperespaciadamente de un paisaje, después de un retraso de aproximadamente 15
+segundos, se le dará un código de entrada secreto a un nuevo paisaje.
+
+El Paisaje al que tienes acceso se resuelve de la siguiente manera:
+
+La cantidad de energía en tu reserva menos 3 unidades para el hiperespacio agregadas
+al número del paisaje del que acabas de hacer hiperespacio.
+
+Por ejemplo, acaba de completar y hacer un hiperespaciado del Paisaje 4096, con
+35 unidades de energía en tu reserva.
+Se le dará el código a Landscape 4128 (4096+35-3).
+
+CONSEJOS Y CONSEJOS
+
+Una vez que los Sentry y Landgazers están activados, rotan en el lugar a través de
+360 grados en incrementos de 30 grados.  Es importante determinar en qué dirección
+Cada Landgazer y el Sentry están girando (ya sea en el sentido de las agujas del reloj o en el sentido de las agujas del reloj).
+en el sentido contrario a las agujas del reloj) ya que esto le permitirá evitar su mirada fulminante.
+
+Si no estás seguro de si un Sentry o Landgazer puede ver un cuadrado en el que
+desea transportar, cree una roca en el cuadrado.  Si la roca es
+absorbido, luego espera hasta que escuches girar a Sentry y Landgazers.
+Ahora debería ser seguro transportarse a esa casilla, a menos que un Centinela diferente
+o Landgazer ahora pueden ver el cuadrado.
+
+ÁRBOLES - ¡NO TAN INÚTILES!
+
+Al principio, lo único que parecen útiles los árboles es para recargar energía.
+reservas.  Pero tienen otro uso.
+
+Porque no puedes ser absorbido si un Sentry o Landgazer no puede ver el
+cuadrado en el que estás parado, puedes crear árboles en una posición tal
+que la vista del Sentry o Landgazer de tu base está bloqueada.
+
+Al colocar un árbol entre usted y el Sentry o un Landgazer, no podrá
+ya no será absorbido.  Ahora sólo serás escaneado a medias.
+
+VENCER A LOS MALVADOS
+
+Los malvados giran muy rápidamente, así que no pierdas el tiempo dando vueltas.
+buscándolo.  The Meanie te atrapará mucho antes de que tú lo consigas.  Sólo si
+el Meanie se crea en tu pantalla de visualización o si sabes dónde está el Meanie
+creado si intentas absorberlo.
+
+Un Meanie, al igual que el árbol del que procede, vale 1 unidad de energía.
+
+Si no puedes absorber inmediatamente a un Meanie, debes crear un robot cerca.
+y transferirlo a él.  Ahora deberías ver tu viejo robot y el Meanie.  el
+Meanie girará hasta que esté frente a tu viejo robot y luego, al darse cuenta de que
+ya no estás en él, Meanie volverá a ser un árbol.
+
+Si absorbes el Landgazer que creó un Meanie mientras ese Meanie es
+activo, el Meanie se congelará en su posición y estará "muerto".
+
+¿Crees que eres bueno? --- Un desafío REAL es forzar la creación de un Meanie.
+en la torre del Centinela.
+
+¿PAISAJES IMPOSIBLES?
+
+Algunos paisajes inicialmente parecen imposibles de completar, pero esto es
+No es el caso, todos los paisajes tienen solución.  La parte más difícil de un
+El paisaje está al principio cuando no tienes mucha energía en reserva.
+y estás en la altitud más baja.
+
+Muy a menudo tienes que hacer Hiperespacio una o dos veces al comienzo del juego en
+para llegar a una zona que sea de alguna utilidad.
+
+Si realmente te quedas atascado, regresa al último paisaje y termínalo con un
+diferente cantidad de energía.  Esto evitará el difícil paisaje.
+
+No deberías saber lo suficiente como para idear tus propias estrategias y dominar 'The
+Sentry', el juego más absorbente de todos los tiempos.

@@ -1,0 +1,168 @@
+	        ______________________________________________
+	       /					     /\
+	      /		      Balder's Grove		    /\/
+	     /						   /\/
+	    /    Copyright (C) 1993 by Morgan Antonsson   /\/
+	   /						 /\/
+	  /	      Version 1.11 (6.2.1993)		/\/
+	 /_____________________________________________/\/
+	 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \/
+	  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+INTRODUCTION
+~~~~~~~~~~~~
+This is a freely distributable game based on the Boulderdash idea,
+dedicated to all Boulderdash fans. I have tried to stick as close as
+possible to the old Commodore version, because I think it is the best
+one!
+
+There are only 40 levels included in this package, but by using the level
+editor you are able to create 60 more (or replace the 40 original levels
+with new, better ones). Read 'BGLevEd.doc' for more information.
+
+
+STARTING UP
+~~~~~~~~~~~
+You can start the game from either Workbench or Shell, version 2.04 or
+higher. If you are using Shell, make sure that the 'Level' directory is
+in the current directory. If the game won't start it will tell you why,
+using an alert. When succeeded it shows you the title screen.
+
+
+THE TITLE SCREEN
+~~~~~~~~~~~~~~~~
+The first thing that appear is the menu. If you don't move your joystick
+for about 8 seconds, the menu vanishes and the top-ten list is dispalyed.
+After 8 seconds or when you move the joystick, it will switch back to the
+menu.
+
+Use the joystick to select from the menu whether you want to practice or
+play a real game, and choose a level to start at. If you decide to play
+you can start only from levels ending with a '0' or a '5'. When
+practicing you are able to start from any level, but you will only get
+one life and you won't proceed to the next level when you have finished
+your selected level.
+
+If your selected level doesn't exist, you will automatically start from
+level 00. The same thing happens when you have finished one level and the
+next is not to be found.
+
+
+LEVELS
+~~~~~~
+There are two types of levels. The first one is the ordinary level, or
+simply 'level'. It is 40×30 squares, and covers four 'normal' screens.
+The screen will scroll when you approach the edges.
+
+The second type is the intermission. This is one fourth of an ordinary
+level (20×15 squares) and covers only one screen. If you have an NTSC-
+amiga it covers a bit more than one screen and there will be some
+scrolling here too. While playing you will note another difference. You
+won't lose any life if you die, instead you will move on to the next
+level. If you find the exit, you get a bonus life. Bonus lives are also
+given for every 10000 points you reach.
+
+When you have completed a level you get 7 points for every remaining
+timeunit.
+
+
+THE GAME
+~~~~~~~~
+All objects and characters correspond to an object or a character in the
+original Boulderdash game. They don't look quite the same so I guess an
+introduction is appropriate.
+
+BALDER		This is you! A young Nordic god who thinks everything is
+		good. Use your joystick to make him move. If you keep the
+		button pressed he will only touch the adjacent square.
+
+BUSH		Has nothing to do with an American expresident. Just walk
+		on it and it disappears. It keeps berserks and snakes
+		away and stops falling rings and stones.
+
+RING		Collect these, and you will see the exit open.
+
+RUNESTONE	It follows the law of gravity just like the ring. Remove
+		the object it rests on and it will fall down. Try to push
+		it and it will move if there is nothing blocking its way.
+		Use it to kill berserks and snakes.
+
+FENCE		Looks like four plaited boards. You can't remove it
+		simply by walking on it, but it will disappear by an
+		explosion caused by a berserk or a snake.
+
+EXPANDING FENCE	Looks like a fence but it will expand to the right and
+		the left if it finds an empty square. Be carefull with
+		this one! It blocks your way very easy.
+
+MAGIC FENCE	This one transforms runestones into rings and vice versa.
+		You start it by dropping a stone or a ring on it. It will
+		only stay active for a settled time, and you won't be
+		able to activate it again when this time is over. Make
+		sure there is enough space below it for the transformed
+		rings and stones or else they will be forever lost!
+
+STOCKS		Two stocks together. All levels are surrounded by stocks.
+		Stocks are the only things that are indestructible.
+
+EXIT		Looks exactly like stocks until it opens. It is often
+		placed in the border among stocks. Unlike stocks, the
+		exit is NOT indestructible. An explosion will blow it
+		out.
+
+THORSHAMMER	This is the hammer that Thor, the god of thunder,
+		carries. Now it helps Balder by destroying everything
+		that is evil. Both berserks and snakes will explode when
+		they touch a hammer. A hammer may multiply to an adjacent
+		square that is empty or covered with a bush.
+
+BERSERK		A viking running around the screen, following the edge of
+		empty squares. If you touch him or drop a stone or a ring
+		at him, he will explode leaving upto nine empty squares.
+		If you are too close you lose a life.
+
+SNAKE		Much the same as the berserk, except it will leave rings
+		instead of empty squares when it explode.
+
+The last row of the game screen shows you some interesting and important
+information. It could look something like this:
+
+	S: 001346  R: 023  T: 129  L:27  M: 2
+
+You have probably already guessed what the letters denote, but I will
+give a short explanation anyway.
+
+	S - Score
+	R - Rings left to take before the exit will open
+	T - Time left
+	L - Level
+	M - Men left including the one you are using right now
+
+Beside the joystick there are a few keys that effect the game.
+
+	SPACE		Pause the game
+	ESC		Suicide (if you get stuck somewhere)
+	ALT ESC		Collective suicide, you lose all you men
+
+Well, now I think you are fit for fight! Just one more thing. The program
+will save the highscore list in the current directory as 'BGHighScores'.
+Happy playing!
+
+
+HISTORY
+~~~~~~~
+V1.11	The game now works with NTSC-machines too! I had to change the
+	title screen a bit.
+	Unfortunately you won't get the same good survey of the game
+	screen with NTSC-machines as with PAL-machines. Sorry.
+
+V1.0	First release.
+
+-------------------------------------------------------------------------
+
+	Morgan Antonsson
+	Litsleby 3262
+	S-457 00 Tanumshede
+	SWEDEN
+
+EMAIL:	d0antmo@dtek.chalmers.se

@@ -1,0 +1,400 @@
+                      Amy's Fun-2-3 Adventure!
+
+                            Instructions
+
+Page 3
+
+Contents
+
+Dear Parent ......................................  4
+System Requirements ..............................  5
+Hard Drive Installation ..........................  6
+Loading The Program ..............................  7
+The Menu .........................................  8
+Disk Swapping .................................... 10
+The Exit Button .................................. 10
+Let's Count! ..................................... 11
+Matching With Marty .............................. 12
+Music Magic ...................................... 14
+Cookie Castle .................................... 16
+Ending The Game .................................. 18
+
+Page 4
+
+Dear Parent,
+
+Thank you for purchasing Amy's Fun-2-3 Adventure.  We're sure it will
+bring many hours of fun and education to your child.  Amy's Fun-2-3
+Adventure contains detailed graphics, smooth animation, and high quality
+speech and sound effects, all which combine to create a very captivating
+and entertaining learning experience.
+
+Your child interacts with Amy and her environment by using the mouse --
+no typing is required!  We have tried to create as child-friendly an
+interface as possible, and from our frequent play-testing results
+(using 3 year old subjects), we believe we've succeeded.
+
+In Amy's Fun-2-3 Adventure your child can visit Amy's Doghouse where
+numbers and counting are introduced.  After that, a visit to see Marty
+the Match Machine could result in Amy being a very happy puppy if
+Marty is supplied with correct answers to his matching game.  From
+there your child might choose to go to Cookie Castle, where Amy and your
+child help to rebuild a damaged castle wall.  King Cookie himself gives
+a reward for a job well done!  Along with presenting numbers and
+counting skills to youngsters, music is introduced in Amy's Fun-2-3
+Adventure which helps to instill number recognition skills and creativity
+in your child.  (It also gives Amy a chance to show off her dancing 
+prowess!)  All in all, there is much to do and see in Amy's world.
+
+So let's get started!  Learning how to count has just gotten a lot
+"ruffer" now that your child has Amy as a friend!
+
+Page 5  
+
+System Requirements
+
+You will need the following to run Amy's Fun-2-3 Adventure:
+
+1) An Amiga 500, 1000, 2000 series or 3000 series Computer and Color
+   Monitor.
+2) A minimum of 1 megabyte of memory.  (See A Note On Memory below.)
+3) One (or more) 3.5" Floppy Disk Drive(s).
+4) A Mouse.
+
+   Note: If you are using Version 2.0 of the operating system, you
+should be using V2.04 or later (Kickstart V37.175 / Workbench V37.64),
+otherwise, Amy's Fun-2-3 Adventure may not run properly.
+
+Optional Equipment:
+
+1) A Hard Drive.  (See page 6 for hard drive installation procedures.)
+
+A Note On Memory:
+
+If you have been using your Amiga for a while before running Amy's
+Fun-2-3 Adventure, your Amiga's memory may be fragmented.  Amy's Fun-2-3
+Adventure requires large amounts of contiguous chip memory to run 
+properly, so you may have to reset your Amiga before running Amy if
+memory is fragmented.
+
+You will get an indication that memory is low or fragmented if after
+choosing a destination from the Menu Screen, Amy fails to go to that
+destination, and the program simply returns to the Menu Screen.  Before
+running Amy's Fun-2-3 Adventure, make sure to end all other programs,
+and close any unnecessary windows on the Workbench.
+
+Page 6
+
+Hard Drive Installation
+
+If you have a hard drive, you may want to install Amy's Fun-2-3 Adventure
+on it.  Doing so will speed up loading times for your child.  You will
+need at least 2 MB of space on your hard drive to complete this procedure.
+
+To install Amy's Fun-2-3 Adventure on a hard drive, open a CLI and enter
+the following: (We assume a name of DH0: for the hard drive.  Substitute
+the name of your hard drive or partition for every instance of DH0: if it
+differs.)
+
+1) Type MAKEDIR DH0:AmyFun23.  Press ENTER.
+2) Insert Amy's Disk 1 in any drive.
+3) Type COPY AMY1:HDicons to DH0:.
+4) Type COPY AMY1: ALL TO DH0:AmyFun23.
+5) Insert Amy's Disk 2 in any drive.
+6) Type COPY AMY2: ALL TO DH0:AmyFun23.
+7) Insert Amy's Disk 3 in any drive.
+8) Type COPY AMY3: ALL TO DH0:AmyFun23.
+
+Amy's Fun-2-3 Adventure is now installed on your hard drive.  Now, to
+properly set up the directory, edit the Startup-Sequence in your S:
+directory and add the following 3 lines to it.
+
+    Assign Amy1: DH0:AmyFun23
+    Assign Amy2: DH0:AmyFun23
+    Assign Amy3: DH0:AmyFun23
+
+Save the new Startup-Sequence and reset your Amiga to execute the new
+Assigns.  You're all set to go!
+
+Page 7
+
+Loading The Program
+
+From Floppies:
+
+There are 2 methods for loading Amy's Fun-2-3 Adventure from floppies.
+The first method is the easier of the two and is recommended if you have
+only one floppy drive.  Method 1 also assures that your Amiga's memory
+is not fragmented when Amy's Fun-2-3 Adventure begins.
+
+-Method 1-
+
+1) Turn on your Amiga.  Load Kickstart if required.
+2) When the Amiga asks for the Workbench disk, insert Amy's Fun-2-3
+   Adventure Disk 1 instead.
+3) Amy's Fun-2-3 Adventure will now load and run.
+
+Note: You may also reboot your Amiga with Disk 1 in drive DF0: if your
+Amiga has been on for awhile.
+
+-Method 2-
+
+1) Turn on your Amiga.  Load Kickstart if required.
+2) Load the Workbench disk when asked for and wait for the Workbench to
+   load.
+3) Insert Amy's Fun-2-3 Adventure Disk 1 in drive DF1:.  (leave your
+   Workbench disk in drive DF0:.)
+4) Click twice on the Amy1 disk icon when it appears.
+5) Click twice on the Fun23 icon when it appears.
+6) Amy's Fun-2-3 Adventure will now load and run.
+7) After the Menu Screen loads, you may replace your Workbench disk and
+   Amy's Disk 1 with Amy's Disk 2 and Disk 3.  No further disk swapping 
+   will be required.
+
+From a Hard Drive:
+
+1) Turn on your Amiga and wait for Workbench to load. 
+2) Click twice on your Hard Disk Drive icon.
+3) A window will open.  Click twice on the AmyFun23 Drawer in this window.
+4) Another window will open.  Click twice on the Fun23 Icon in this window.
+5) Amy's Fun-2-3 Adventure will now load and run.
+
+Page 8
+
+The Menu
+
+The Menu Screen lets your child choose where he or she would like to go
+in Amy's world.  This is the central point of the program -- in other
+words, after going to say, Cookie Castle and then returning, this is the
+screen you will return to.
+
+There are four choices on this screen.  Any one of them may be chosen by
+moving the mouse pointer over the box of where your child would like to
+go, and then clicking on either mouse button.  The program will then
+give an audible tone indicating that the choice has been received.
+
+In brief, the four destinations your child may choose from are as follows:
+A the upper left corner of the screen is Amy's Doghouse, where number
+recognition and basic counting skills take place.  Clicking on the upper
+right box will take you to see Marty the Match Machine.  The lower left
+box is the Music Magic Room, where your child can make up music of their
+own, or choose from 8
+
+Page 9
+
+different songs to play.  And finally, Cookie Castle can be visited by
+clicking on the box at the lower right-hand corner of the screen.
+
+More detailed information on each of the above destinations is given
+in the following sections.
+
+P.S. For a little surprise, have your child click on Amy in the center
+box.
+
+Page 10
+
+Disk Swapping 
+
+If you are using floppies and have a 1 drive system, the program may ask
+you to insert Amy's Fun-2-3 Adventure Disk 2 or 3 after a selection has 
+been made from the Menu Screen.  It does so by displaying the Disk Change
+Screen, where a sad disk displays the number of the disk which should be
+loaded.  At this time, the disk in the drive may be removed, and then
+replaced by the requested disk.  The program will then load.
+
+If you have 2 floppy drives, Disk 2 and Disk 3 may be put in both drives
+after the Menu Screen has loaded.  At this point, Disk 1 will never be
+asked for again, so no future disk swapping need take place.
+
+Note: Be careful never to remove a disk while the floppy drive light is
+still on.  Doing so could cause damage to the disk.  Also, never remove
+a disk unless the program asks for another to replace it.  The program
+may not run properly if you do.
+
+The Exit Button
+
+When your child makes a selection at the Menu Screen, he or she will be
+transported to that destination.  Once there, they can play until they
+would like to move on to another section in the program.
+
+The Exit Button is a convenient way for your child to leave each section
+of the program.  It is depicted as a scrolling arrow in a box, and is
+located at the lower left corner of each screen.  By clicking on it with 
+the mouse, your child will be brought back to the Menu Screen, where
+another selection may be made.
+
+Page 11
+
+Let's Count!
+
+Just what is a number?  And what is its purpose?  As adults, the answers
+to these questions are simple, but to a child, these abstract symbols 
+that somehow relate to quantity represent quite a challenge to understand.
+
+In this section of the program, number recognition and counting skills
+are introduced.  At the top of the screen are the numbers 1 through 10.
+By clicking on any one of these ten numbers, your child will set into
+motion one of an assortment of animations to show what the number clicked
+on symbolizes.
+
+For example, if your child clicked on the number 5, a voice will say "5"
+to show your child how to pronounce the number.  (Be sure to turn the
+volume up on your Amiga to hear this voice.)  Then Amy might bounce a
+ball on her nose 5 times, or jump over her doghouse 5 times, or do any
+one of a variety of other examples to show how much "5" is.  The voice
+counts along with Amy's example, to reinforce the idea of how counting
+is done and what it sounds like.
+
+Page 12
+
+Matching With Marty 
+
+Marty the Match Machine is a computer at the Brainy Guys Institute of
+Science.  Howard Sneezlezug is the head scientist of the institute
+who lets Amy come in and play with Marty.  "We don't use Marty much
+these days," says Howard, "because we have acquired much more advanced
+computers that do things like display letters of the alphabet.  So Amy
+is welcome to come in and visit with Marty anytime she wants."
+
+"Perhaps Amy can come and use our more advanced computers someday, but
+for now, we keep them very busy displaying letters and such," said
+Howard, as he hints towards a possible future (and software package)
+for Amy.
+
+This part of the program will help your child further develop his or her
+number recognition and counting skills.  In addition, comparison skills
+come into play as Marty asks your child to count 2 sets of shapes and
+then match one of them to a number he has chosen.
+
+Page 13
+
+After Amy turns Marty on, Marty will generate a random display of shapes
+and numbers.  When Marty has chosen a final set of 2 shape sets and a
+number, it is up to your child to match the number Marty has chosen with
+one of the shape sets.  Your child can position the arrow over one of the
+shape sets by moving the mouse, and then can press either mouse button to
+make a choice.
+
+Your child helps Amy get Doggie Treats from Marty by making a correct
+choice between the 2 sets of shapes.  If a correct choice is made, a
+happy tune will play, and Marty will drop a treat for Amy to eat.  But
+if an incorrect choice is made, a sad song plays, and an unhappy Amy
+expresses her discontent. (sniff)
+
+Your child may leave Marty by clicking on the Exit Button when the mouse
+pointer is present.  The program will then return to the Menu Screen.
+
+Page 14
+
+Music Magic 
+
+If you have ever seen a child "play" a piano or a toy drum, you know the
+enthusiasm that they have for music.  While playing an instrument is fun
+for all ages, children seem to enjoy it all the more, gaining a certain
+excitement from the random notes that they string together.  While
+everyone in the house may not share in this excitement at all times,
+the fact remains that this wonder for playing music should be encouraged,
+as so many of us tend to unfortunately lose these creative feelings
+as we grow older.
+
+In this part of the program, your child can compose melodies of his or
+her own design, or choose from up to 8 different children's songs to
+play.  Amy dances to your child's creative canticles, but shows when a
+mistake is made in the "match the number" songs by waiting patiently
+until the right key is hit.
+
+To play a song of their own, have your child move the mallet over the keys
+by moving the mouse left and right.  (Be careful not to move too far to
+the left, other-
+
+Page 15
+
+wise the mallet will turn into an arrow, which can be used to make other
+choices.)  When your child moves the mallet over the key they wish to
+hit, they can press either mouse button to make the mallet hit the key.
+
+To play a song from Amy's selection of children's songs, move the mallet
+all the way to the left pass Key 1.  The mallet will turn into an arrow
+which will allow you to click on the Song Choice Button.  The Music
+Magic Screen will fade down, and the Song Choice Screen will fade onto
+the screen.  To choose a song, have your child move the pointer over the
+song he or she wishes to play, and then click the mouse button to select
+it.
+
+Now, the Music Magic Screen will fade up, and the first note of the
+chosen song will be displayed in the Note Box at the upper right corner
+of the screen.  Your child should choose the key that matches the number
+in the Note Box, and press either mouse button to hit it.  After the 
+correct key is hit, another number will appear in the Note Box.  Hit the
+correct key that matches that one, and then repeat the procedure until
+the song is finished.  Amy will continue to dance as long as the correct
+keys are hit in a timely manner.  If an incorrect key is hit, or the
+time between key hits is too long, Amy will stop dancing.
+
+To exit Music Magic, move the mouse to the left past Key 1 until it
+becomes a pointer.  Then click on the Exit Button to return to the
+Menu Screen.
+
+Page 16
+
+Cookie Castle
+
+Not far from Amy's Doghouse, at the top of Majestic Mountain, sits Cookie
+Castle.  Cookie Castle is a happy place where the people and animals
+play together and pass the time by baking King Cookie's delicious cookie
+recipes.  Amy loves to visit her friend the King, and play in his giant
+castle.
+
+On this day of Amy's visit, Danny Dragon came upon the castle.  Now Danny
+is really a very nice dragon, unlike a few of the dragons who live on the
+mountain, but he had never seen a castle before.  "Hmmm, I wonder what
+this is", he thought.  So, being a bit curious and even more dim-witted,
+he began to puff his fiery breath on the castle wall.  "Uh-Oh!"
+
+So begins Amy's job of rebuilding the castle wall.  But because Amy
+would much rather have fun then think of it as a job, she makes up a
+game for your child and her to play together.
+
+The game starts after four flashing number squares are put at the bottom
+of the broken wall.  Amy will choose a number from one of the squares to
+count out on her fingers.  Your child's part in the game is to count
+
+Page 17
+
+the number of fingers Amy is holding up and match that number with one
+of the numbers on the squares.  If your child chooses the correct number,
+a brick will fall into place and become part of the wall.  But if your
+child doesn't choose the correct number, the brick will fall and break
+up when it reaches the bottom of the wall.
+
+The mouse pointer will appear after Amy is done counting a number out
+on her fingers.  To choose the number of fingers that Amy is holding
+up, your child can move the pointer to the corresponding number in
+one of the flashing squares, and click either mouse button to make a
+choice.  After the brick falls, Amy will choose another number until the
+wall is finished.
+
+When your child has helped fill the entire wall, Amy will do a little
+celebration dance, and King Cookie will reward her and your child for a
+job well done!  The program will then return to the Menu Screen.
+
+Your child may leave Cookie Castle before the wall is finished by
+clicking the mouse on the Exit Button at any time.  The program
+will then return to the Menu Screen.
+
+Page 18
+
+Ending The Game
+
+You can end Amy's Fun-2-3 Adventure at any time by pressing the ESC Key
+on your keyboard.  (This is the key at the upper left-hand corner of the
+keyboard.)
+
+After the ESC Key is pressed, a Quit Screen will appear which asks you
+to confirm your wish to exit the program.  Clicking on the "Nodding
+Yes" Button on the left will allow you to leave the program.  Clicking
+on the "Shaking Head No" Button on the right will return you to the
+Menu Screen of Amy's Fun-2-3 Adventure and allow you to continue the
+program.
+
+End..............

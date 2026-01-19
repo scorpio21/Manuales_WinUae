@@ -1,0 +1,2065 @@
+Teleépico
+
+                            Tabla de contenidos
+
+Acerca de TeleEpic................................................5
+Soporte BBS................................................5
+Soporte BIX................................................6
+Hacer una copia de trabajo................................6
+Requisitos de hardware................................6
+
+Operación básica de TeleEpic................................7
+	Cargando TeleEpic (512K).................................7
+	Cargando TeleEpic (1 megas+).................................8
+	Cuando comienza el programa................................8
+	Ratón................................................9
+	Teclado................................................9
+	Solicitantes de verificación................................10
+	Descripción general de TeleEpic................................10
+
+	Pantalla y control TeleEpic................................12
+		Mapa del terreno del campo de batalla................12
+		Panel de control................................13
+			Menú/Barra de mensajes................13
+			Tabla de estado del guerrero................14
+			Cuadrícula táctica del guerrero....15
+			Dispositivos de control del guerrero....16
+			RECV y envío....................19
+
+	Guerreros y armas................................19
+	Iniciando TeleEpic................................................23
+	Movimiento guerrero.................................24
+	Ataques de guerreros................................25
+	Opciones................................................26
+	Reproducción de TeleEpic.................................26
+	Finalizando TeleEpic...................................27
+
+Menús TeleEpic - Información general................................27
+	Menú Teleépico...................................29
+	Menú de escenario.................................29
+
+	Menú de juego.................................30
+		Elija un lado................................30
+		Iniciar un juego................................30
+		Ceder/Fin del juego................................30
+
+	Menú TeleComm.................................30
+		Modo de telecomunicación...................31
+			Enviando (llamante).................31
+			Recibir (Respuesta).................31
+			Conexión de módem nulo................32
+			TeleConexión APAGADA...................32
+		Desconectar (colgar)....................32
+		Transmitir Juego y Jugar...................32
+		Marcar número de teléfono...................33
+
+	Menú Tele Archivos...................................33
+		Parámetros del módem................................34
+		Parámetros del oponente...................36
+
+	Menú Archivos del juego................................37
+		Directorio de juegos................................37
+		Jugar partida guardada................................38
+
+	Menú de opciones................................38
+		Ajustes del temporizador de giro................39
+		Asignación de armas................................39
+		Ataque/Guerrero/Turno....................40
+
+Procedimiento de TeleConnect................................40
+	Configuración de los parámetros del módem................41
+	Contacto de voz................................43
+	Resumen del procedimiento de TeleConnect................44
+	TeleConnect -- Otro método................................45
+
+Apéndice A - Directorios TeleEpic................................46
+Apéndice B - Uso de un disco duro................................47
+Apéndice C - Solución de problemas................................48
+
+			Introducción
+
+1 Acerca de TeleEpic.
+2
+3 TeleEpic es el tercer juego de una serie de
+4 juegos de guerra de telecomunicaciones escritos por
+5 Scott Lamb y publicado por el Software
+6 terminales.  TeleEpic permite que dos jugadores
+7 juega un juego de guerra de estrategia medieval contra
+8 entre sí, ya sea por teléfono con
+9 dos computadoras y módems, o en una sola
+10 computadora.
+11
+12 Hay tres mapas de terreno de Battlefield,
+13 en los que se puede jugar TeleEpic, cada uno
+14 que ofrecen diferentes problemas en el ejército.
+15 estrategia.  Los tres terrenos del campo de batalla
+16 mapas en TeleEpic se llaman REYES
+17 PUENTE, MURALLA DEL PUEBLO Y TORNEO DEL CASTILLO.
+18
+19 Cada jugador controla un pequeño ejército de
+20 guerreros medievales animados gráficamente,
+21 cada uno de los cuales puede usar una variedad de manos.
+22 armas: arco y flechas, hachas, cuchillos,
+23 y espada.  Los guerreros forman ofensiva.
+24 y formaciones defensivas y luchar contra uno.
+25 otro hasta que un lado salga victorioso.
+26
+27 Si te gusta TeleEpic, también te gustará
+28 como TeleWar y TeleWar II, los dos primeros
+29 juegos de la serie.
+30
+31 Soporte BBS
+32
+33 Le solicitamos que complete y envíe por correo el
+34 tarjeta de registro adjunta para nosotros.  cuando nosotros
+35 recibes esta tarjeta, iniciarás sesión en nuestro
+36 Tablón de anuncios de 2400 baudios, Pista ][.
+37
+38 Todas las actualizaciones y revisiones de TeleEpic,
+39 en caso de ser necesario, se publicará en
+40 el área ARCHIVOS y se puede descargar mediante
+41 todos los usuarios registrados sin demora.
+
+			Página 5
+
+1 También se proporciona un área de mensajes donde
+Se pueden publicar 2 comentarios y preguntas,
+Se pueden encontrar 3 jugadores de TeleEpic.  nosotros
+4 también le pido que informe los problemas que
+5 podría estar teniendo con TeleEpic.  Consultas
+6 serán respondidos dentro de las 24 horas
+7
+Soporte 8 BIX
+9
+10 Además de mantener nuestra propia BBS,
+11 mantenemos una conferencia de proveedores sobre BIX
+12 (Intercambio de información de la revista Byte)
+13 bajo el nombre de conferencia 'telejuegos'.
+14 Preguntas y respuestas, además de novedades.
+15 información del producto, se puede encontrar aquí.
+16
+17 Hacer una copia funcional de TeleEpic
+18
+19 El disco del programa TeleEpic no es disco
+20 copias protegidas.  Se puede copiar usando
+21 cualquiera de las técnicas habituales de copia de Amiga
+22 desde WorkBench o CLI.  Por favor lea
+23 el manual de tu Amiga para conocer los detalles de
+Copia de 24 discos, si no está familiarizado con
+25 estos procedimientos.
+26
+27 Antes de usar TeleEpic por primera vez, 
+28 te recomiendo que hagas una copia de trabajo
+29 del disco.  Por favor cambie el nombre de la copia.
+30 TeleEpic, como el disco del programa maestro.
+31
+32 Requisitos de hardware
+33
+34 Para jugar TeleEpic necesitarás un Amiga
+35 computadora - 500, 1000, 2000, etc. - con
+36 al menos 512K de RAM.
+37
+38 Para reproducir TeleEpic por teléfono con
+39 otra computadora también necesitas un "AT"
+Módem compatible con conjunto de 40 comandos en funcionamiento
+41 a 300, 1200, 2400 o 9600 baudios.
+
+		Página 6
+
+1 Cargando TeleEpic (512K)
+2
+3 Para jugar TeleEpic en un Amiga con 512K
+4 de RAM, siga el encendido habitual
+5 secuencia para tu computadora Amiga (si
+6 están usando un Amiga 1000, entonces asegúrese de no
+7 para olvidar el disco Kickstart.)
+8
+9 Cuando tu ordenador Amiga solicita la
+10 1.2 Disco de banco de trabajo, inserte el TeleEpic
+11 copia de trabajo en la unidad de disco interna.
+12 TeleEpic luego se iniciará automáticamente.
+13
+14 Si sólo tienes 512 K de RAM en tu
+15 Amiga, entonces DEBES desconectar cualquier
+16 unidades de disco externas montadas en su
+17 sistema.  Apague la computadora antes
+18 desconectando sus unidades de disco.
+19
+20 Nos disculpamos por este inconveniente, pero
+21 siento que la mayoría de ustedes preferirían tener
+22 las características adicionales del juego que requieren 30K
+23 de memoria que de otro modo se usaría
+24 por cada unidad de disco externa.
+25
+26 Amigas con más de 512K de memoria
+27 no están limitados por estos recuerdos.
+28 restricciones y puede tener unidades externas.
+29 conectado a la computadora.
+30
+31 Nota: TeleEpic requiere todos los 512K de
+32 memorias para operar.  En consecuencia, a menos que
+33 Hay más de 512K instalados en tu Amiga
+34 no habrá suficiente memoria para ejecutar
+35 tanto TeleEpic como el Workbench en el
+36 al mismo tiempo.  Además habrá un
+37 retraso de unos segundos cada vez que se desliza hacia arriba
+Se accede a 38 pantallas (Módem y Oponente).
+39 Parámetros y Directorio de juegos).
+40
+41
+
+		Página 7
+
+1 Cargando, TeleEpic (1 MEG + RAM)
+2
+3 Arranca tu Amiga con tu modo habitual
+4 discos de banco de trabajo personalizados.  Luego coloca tu
+5 copias de trabajo de TeleEpic en cualquier unidad,
+6 e inicia el programa usando el icono
+7 proporcionado en la ventana del directorio.
+8
+9 TeleEpic es un programa inteligente y encontrará
+10 en sí y sus directorios de archivos, ya sea
+11 reside en cualquiera de las unidades de disquete df0,
+12 df1, df2 o df3.
+13
+14 Por supuesto, también puedes iniciar con el
+15 Copia de trabajo de TeleEpic.  si tienes 1 mega
+16 o más de RAM en tu Amiga, puedes
+17 quiero editar la secuencia de inicio del
+18 copia de trabajo para eliminar lo "bajo"
+19 parámetros, por lo que el programa no se retrasará
+20 después de acceder a las pantallas deslizables.
+21
+22 Cuando comienza el programa
+23
+24 Cuando TeleEpic se carga en la computadora, 
+25 la imagen de Créditos aparece en tu 
+26 monitores.  Salir de los Créditos y jugar
+27 TeleEpic, haga clic con el botón izquierdo del ratón.  un
+Aparecerá 28 solicitante y le pedirá un
+29 caracteres de validación manual.
+30
+31 Se le pedirá que escriba el 1er.
+32 letras de una palabra aleatoria de TeleEpic
+33 manuales.  Por ejemplo, el solicitante puede
+34 pide la primera carta de
+35
+36 Página 12 Línea 14 Palabra 5
+37
+38 Después de encontrar y escribir la información correcta 
+39 letras, el mapa del campo de batalla de King's Bridge
+Se cargarán 40.  TeleEpic está lista para comenzar.
+41
+
+		Página 8
+
+1 ratón
+2
+3 TeleEpic utiliza el conocido usuario Intuition
+4 interfaz.  Interactúas con el programa.
+5 con el ratón.  El botón izquierdo del ratón
+6 siempre te permite seleccionar y mover el juego
+7 piezas, y hacer solicitante y control.
+Selecciones de gadgets de 8 paneles.  El ratón derecho
+El botón 9 se utiliza para mostrar y seleccionar el menú.
+10 opciones que controlan las operaciones del programa.
+11
+12 ¡ADVERTENCIA IMPORTANTE!
+13
+14 ¡¡IMPORTANTE!!  AL TELECOMUNICARSE,
+15 NO MANTENGA PULSADO EL MENÚ DERECHO
+16 BOTONES A MENOS QUE ABSOLUTAMENTE
+17 NECESARIO, YA QUE EVITARÁ
+18 LECTURAS DEL PUERTO SERIE, Y POSIBLEMENTE
+19 CAUSA QUE TU AMIGA EXTRAÑO TU
+20 MOVIMIENTOS DEL OPONENTE, DESTRUYENDO ASÍ
+21 ¡EL JUEGO!
+22
+23 teclado
+24
+25 Se utiliza el teclado de su computadora
+26 para ingresar nombres de archivos específicos del módem y 
+27 parámetros de telecomunicaciones oponentes,
+28 y mensajes (una vez que se haya realizado una teleconexión)
+29 ya establecidos).
+30
+31 Usando las líneas SEND y RECV en el
+32 mensajes en la parte inferior de la pantalla entre jugadores.
+33 se puede escribir en cualquier momento durante un juego.
+34 Debido a las intensas exigencias de tiempo
+35 de TeleEpic durante la animación de la pieza del juego,
+36 sin embargo (gráficos, sonido y
+37 telecomunicaciones), las letras que escribes
+38 están almacenados temporalmente y en realidad no
+39 se muestra hasta que se haya completado toda la animación.
+40 completados.
+41
+
+			Página 9
+
+1 Solicitantes de verificación
+2
+3 Aparece un solicitante de verificación en la 
+4 centro de su Panel de control, y en el
+5 centro de todas las pantallas de acceso al disco con desplazamiento,
+6 cada vez que solicite una acción que pueda
+7 afecta la configuración actual del juego.
+8 Mover el puntero del ratón dentro del campo
+9 fronteras de un solicitante de verificación y
+10 al hacer clic con el botón izquierdo del ratón
+11 generalmente causar la acción solicitada a la
+12 iniciado, mientras mueve el puntero del mouse
+13 fuera de las fronteras del solicitante y
+14 al hacer clic con el botón izquierdo del ratón
+15 generalmente luego cancela la acción solicitada.
+16
+17 Estos solicitantes están diseñados para proteger
+18 usted de iniciar accidentalmente una acción
+19 que pueden cambiar irreversiblemente algún aspecto
+20 del juego, o romper sin querer el
+21 teleconexión.
+22
+23 Por favor lea atentamente estos solicitantes
+24 antes de responderles, de lo contrario usted
+25 puede iniciar una acción que realmente haces
+26 no quiere que ocurra.
+27
+28 Descripción general de TeleEpic
+29
+30 TeleEpic permite que dos usuarios de computadora con
+31 módems para jugar gráficamente animados,
+32 juegos de guerra de estrategia medieval contra uno.
+33 otro por teléfono.  Dos jugadores pueden
+34 también se juegan en una sola computadora.
+35
+36 Tres campos de batalla vistos en perspectiva
+Se proporcionan 37 mapas del terreno, King's Bridge,
+38 Muralla del pueblo y torre del homenaje, al otro lado
+39 el cual deberás luchar contra las fuerzas de tu
+40 oponente a la victoria o la derrota.
+41
+
+			Página 10
+
+1 Ambos bandos en TeleEpic tienen 12 animados
+2 guerreros individuales, cada uno con diferentes
+3 nombres y habilidades, que se mueven y luchan.
+4 al mando.
+5
+6 Para seleccionar cualquier guerrero, simplemente apunta el
+7 punta del cuchillo del puntero del mouse a cualquier
+8 guerreros visibles en el mapa del campo de batalla, o
+9 a una de las posiciones de colores amigos
+10 marcado en la cuadrícula táctica y presione el
+11 botón izquierdo del ratón.  El guerrero elegido
+12 ahora estará marcado por un entorno
+13 soporte amarillo.
+14
+15 Para MOVER al guerrero, apunta con el ratón
+16 cursor a otra ubicación del mapa de Battlefield
+17 y presione el botón izquierdo del ratón.  el
+18 guerreros intentarán caminar hasta el
+19 destino seleccionado.
+20
+21 Para ATACAR con el guerrero seleccionado,
+22 elige un arma del Arma lista
+23 Grupo de gadgets y una dirección de ataque
+24 del grupo de dispositivos de dirección de ataque.
+25 Ahora haz clic en el gadget ATTACK y el
+26 guerreros seleccionados atacarán al más cercano.
+27 guerreros enemigos en esa dirección.
+28
+29 Cada guerrero tiene cuatro tipos de armas:
+30 arco y flechas, cuchillos, hachas y una espada. 
+31 - con el que luchar.  El RANGO y
+32 EL PODER de cada tipo de arma varía según
+33 las habilidades de cada guerrero.  cuando un
+34 guerrero usa lo último de un arma determinada
+35 tipo, entonces debe elegir otro.
+36
+37 El turno de un jugador dura hasta que cada guerrero
+38 se ha movido y atacado una vez, o
+39 el temporizador de turno llega a cero.  Jugar
+40 se puede pasar al otro jugador en cualquier
+41 vez haciendo clic en el gadget PASS.
+
+			Página 11
+
+1 Al comienzo de un juego, los guerreros poseen un
+2 número de puntos de vida e indicar su
+3 fuerza vital.  Cada vez que un guerrero es golpeado
+4 por un ataque enemigo, recibe una herida
+5 que reduce sus puntos de vida.  si un guerrero
+6 recibe demasiadas heridas y el Golpe
+7 puntos disminuyen a cero, luego el guerrero
+8 muere.  Los guerreros muertos permanecen en el
+9 mapas del campo de batalla durante tres turnos antes de
+10 se eliminan automáticamente.
+11
+12 guerreros pueden estar DESCANSADOS o CURADOS
+13 durante un juego, lo que restaurará su
+14 puntos de vida agotados en diversos grados.
+15
+16 El objetivo de TeleEpic es matar a todos
+17 guerreros enemigos: ¡no es una tarea fácil!  cuando
+18 flechas y hachas llenan el aire, y espadas
+19 enfrentamientos, sólo puede haber un vencedor.
+20
+21 Visualización y control TeleEpic
+22
+23 La pantalla TeleEpic está dividida en dos
+24 secciones.  La mitad superior de la pantalla es la
+25 mapas de terreno del campo de batalla, mientras que el inferior
+26 la mitad de la pantalla se conoce como la
+27 Panel de control.
+28
+29 Mapa del terreno del campo de batalla
+30
+31 El mapa del terreno de Battlefield es un primer plano
+32 vista prospectiva de la actual TeleEpic
+33 campos de batalla con AZUL y ROJO
+34 guerreros en posición.  En cualquier momento dado
+35 una sexta parte del mapa del campo de batalla es
+36 mostrados en la pantalla.  guerrero
+37 movimientos y ataques están gráficamente.
+38 animados en este mapa de terreno de Battlefield.
+39 Sólo aquellas áreas del mapa que contienen
+40 uno de sus guerreros puede ser visto por el
+41 jugador.
+
+			Página 12
+
+1 panel de control
+2
+3 La mitad inferior de la pantalla TeleEpic está
+4 el Panel de Control.  El panel de control es
+5 compuesto por cinco áreas distintas que
+6 proporcionan información, control del guerrero y un 
+7 interfaz de usuario a usuario.  Estas secciones son
+8 de la siguiente manera:
+9
+10 (1) La barra de menú/mensajes
+11 (2) Tabla de estado del guerrero
+12 (3) Cuadrícula táctica del guerrero
+13 (4) Dispositivos de control de guerreros
+14 (5) RECV y ENVIAR mensajes
+15
+16
+17 (1) Menú/Barra de mensajes
+18
+19 La barra negra que separa el Panel de control
+20 y la pantalla del mapa del campo de batalla, es el 
+21 Menú y barra de mensajes.  No dejes que el
+22 ubicación te engañan.  Este es el mismo tipo
+23 de la barra de menú Intuition que generalmente se encuentra en
+24 la parte superior de la pantalla en otros Amiga
+25 programas.
+26
+27 Se mostrará la barra de menú de TeleEpic.
+28 siempre que se pulsa el botón derecho del ratón 
+29 presionados.  Consulte la sección Menús en
+30 este manual para conocer el funcionamiento
+31 de cada menú.
+32
+33 Durante un juego de TeleEpic, la barra de menú
+34 muestra MENSAJES para usted, el
+35 comandante, desde tu ROJO o AZUL
+36 guerreros.  Si no sabes el resultado
+37 de tu última acción, lee el mensaje que
+Se muestra 38.  Por ejemplo, si tienes
+39 acabas de atacar a un guerrero enemigo, lo harás
+40 ser informado si usted o no
+41 hirieron a ese guerrero.
+
+			Página 13
+
+1 (2) Tabla de estado del guerrero
+2
+3 En el extremo izquierdo del Panel de control está el
+4 Tabla de estado del guerrero.  El estado de la
+5 artillería seleccionada siempre se muestra en
+6 esta tabla.  Si un guerrero tiene la
+7 armas y la capacidad de completar un
+8 misiones, así como suficientes puntos de vida para
+9 sobreviven a una misión, se puede determinar con
+10 un vistazo a esta tabla.
+11 !----------------------------------!
+12 ! NOMBRE |   ¡Fletch Flecha carcaj!
+13 !----------------------------------!
+14 ! Arma | Cantidad | rango | Pow | AZUL  !
+15 !----------------------------------!
+16 ! Flechas |  7 |  7 |  8 | ¡Paso!
+17 !--------------------------|   5 !
+18 ! Cuchillos |  1 |  2 |  3 |-------!
+19 !--------------------------|Presiona Pt !
+20 ! Hacha |  1 |  3 | 10 |  29 !
+21 !--------------------------|       !
+   ! Espada |  1 |  1 |  7 |       !
+   !----------------------------------!
+22 La tabla de estado del guerrero enumera los datos del guerrero.
+23 en las siguientes áreas.
+24
+25 Nombre del guerrero: cada guerrero tiene un nombre
+26 por el cual puedes reconocer a ese individuo
+27 guerrero.  Dado que cada guerrero tiene diferentes
+28 fortalezas y debilidades, es importante
+29 que un jugador aprenda los nombres de sus
+30 guerreros.
+31
+32 Turno del jugador: el color del guerrero cuyo
+33 turno actual se muestra en el Guerrero
+34 Tabla de estado en el extremo derecho de la línea
+35 debajo del nombre del guerrero.
+36
+37 Warrior Stride: la máxima movilidad
+38 rango para el guerrero seleccionado, donde 1
+La unidad de 39 pasos moverá al guerrero.
+40 cuadrados horizontales o un cuadrado vertical en el
+Cuadrícula táctica de 41 guerreros (22x15).
+
+			Página 14
+
+1 puntos de vida: la constitución de ese
+2 guerrero, donde cero puntos de vida significa el
+3 guerreros están muertos.  Cada guerrero comienza con
+4 puntos de vida máximos diferentes.  Puntos de vida
+5 puede ser restaurado descansando o curando a un
+6 guerrero.
+7
+8 Tabla de armas del guerrero: el arma
+9 Nombre, Cantidad (QNT), Rango (RNG) y
+10 de potencia (POW), de cada tipo de arma es
+11 mostrado en la tabla de estado del guerrero.
+12
+13 Cantidad es cuantos de estos
+14 armas que posee el guerrero.
+15
+16 El rango es el rango horizontal efectivo.
+17 distancia de esta arma, donde 1
+18 unidades equivalen a una celda en el 22x15
+Cuadrícula táctica de 19 guerreros.
+20
+21 El poder es la cantidad de puntos de vida
+22 de daño hecho a un enemigo cuando
+23 este guerrero usa esta arma.
+24
+25 (3) Cuadrícula táctica del guerrero
+26
+27 La mitad del Panel de control muestra
+28 la cuadrícula táctica del guerrero.  el guerrero
+29 cuadrículas tácticas muestran todo el campo de batalla
+30 mapas de terreno bajo una cuadrícula superpuesta de 22x15,
+31 en qué mapa destacado del campo de batalla
+Se muestran 32 funciones.
+33
+34 El mapa de cuadrícula del terreno muestra posiciones
+35 por cada color de guerrero cuyo turno sea
+36 posiciones actuales y las últimas conocidas de
+37 guerreros enemigos previamente detectados.
+Se actualizan 38 posiciones de guerreros enemigos.
+39 cada vez que un jugador selecciona un amistoso
+40 guerreros en los alrededores.
+41
+
+			Página 15
+
+1 Las actualizaciones de posición ocurren cuando el área del mapa
+2 en cuestión se muestra en la parte superior
+3 Visualización del mapa del campo de batalla.  Cuando un jugador no
+4 ya no tiene guerreros en esa área, es
+5 no es posible ver esa área.
+6
+7 El guerrero seleccionado indica su Guerrero
+8 Posición de la cuadrícula táctica parpadeando y
+9 de descuento.  Otro guerrero amistoso puede ser
+10 elegidos para la acción haciendo clic en uno de los
+11 cuadrados de colores amigables en el Táctico
+12 Mapa de cuadrícula con el ratón.  cuadrados rojos
+13 indican GUERREROS ROJOS, mientras que AMARILLO
+14 cuadrados indican GUERREROS AZULES.
+15
+16 (4) Dispositivos de control de guerreros
+17
+18 En el extremo derecho del Panel de control se encuentran
+19 los DISPOSITIVOS DE COMANDO DEL GUERRERO que
+20 se utilizan para indicar acciones de guerreros.  Estos
+21 gadgets han sido separados en cuatro
+22 grupos distintos.
+23
+24 dispositivos de actividad son MOVER y ATACAR, 
+25 y son de color ROJO si todavía están activos durante
+26 ese guerrero en un turno determinado.  Selección
+27 dispositivos son DESCANSO y CURACIÓN, ARCO, CUCHILLO,
+28 AXE y SWORD en Arma lista,
+29 y la dirección de ataque actual.  Elección
+30 dispositivos son AZULES cada vez que se seleccionan y
+31 BLANCO cuando no está seleccionado.
+32
+33 Grupo de dirección de ataque
+34
+35 La dirección del ataque NO -N- NE
+36 Grupo de gadgets -W- --|-- -E-
+37 muestra el SW -S- SE de disparo
+38 ángulo para un seleccionado
+39 guerrero.  Ocho disparos
+Hay 40 ángulos disponibles.
+41
+
+			Página 16
+
+1 grupo de dispositivos de comando principal
+2
+3 ¡El comando principal!-----------------------!
+¡4 Cluster tiene gadgets! << |   180 |   >> !  
+5 esa página a través del !--------------------------------!
+¡Lista de 6 guerreros en cualquiera de los dos! Mover |  Ataque | Aprobar ! 
+7 dirección, para indicar !--------------------------------!
+8 MOVERSE, PASAR o DISPARAR.
+9
+10 << >> -- HACIA ATRÁS y ADELANTE
+11 páginas de gadgets a través de la lista de guerreros para
+12 de los que quedan en el campo de batalla.
+13
+14 MOVE: este dispositivo indica si
+15 el guerrero seleccionado ha movido este turno.
+16 El movimiento guerrero real siempre es
+17 comandados en la visualización del mapa de Battlefield
+18 (Ver MOVIMIENTO en la página 24).
+19
+20 ATAQUE: este dispositivo se elige para
+21 Ataque con el arma lista del
+22 guerreros seleccionados.  El ataque actual
+La dirección 23 siempre se indica en AZUL en
+24 una de las ocho brújulas de dirección de ataque
+25 dispositivos de grupo.
+26
+27 PASS - PASS se elige cada vez que un jugador
+28 ha terminado la actividad guerrera y desea
+29 PASAR el turno a su oponente, incluso
+30 aunque el cronómetro de duración de giro aún no ha
+31 llegaron a cero.
+32
+33 Grupo de dispositivos listos para armas
+34
+35 Selecciona un arma con !----------------!
+36 que ese guerrero !  ¡Arma lista!
+37 ATACARÁN.  Cuando          !----------------!
+38 ¡un guerrero se queda sin ! Arco  ! Cuchillo   !
+39 un arma, otra !----------------!
+Entonces se deben elegir 40.        ! ¡Hacha! Espada   !
+41 !----------------!
+
+			Página 17
+
+1 Gadgets para descansar y curar
+2
+3 ¡El DESCANSO y la SANACIÓN!------!
+¡4 dispositivos permiten un! Descansar !
+¡5 guerreros para recuperarse!------!
+6 puntos de vida perdidos, cuando ! Sanar !
+7 ¡Llegan tan bajo que está! ------!
+8 peligro de morir.
+9
+10 DESCANSO restaura 8 puntos de vida al guerrero
+11 que está descansando.  Un descanso dura para uno.
+12 vuelta completa.
+13
+14 Para que un guerrero seleccione DESCANSO, no debe
+15 MOVER o ATACAR ese turno.  El golpe
+Se agregarán 16 puntos a las publicaciones de éxito para
+17 ese guerrero en su próximo turno.
+18
+19 Sin embargo, si un guerrero enemigo
+20 hiere al guerrero en reposo antes del siguiente
+Comienza el turno 21, luego su descanso será 
+22 interrumpido y no recibirá el 8
+23 puntos de vida.
+24
+25 HEAL restaura todos los puntos de vida al
+26 guerrero que ha sido sanado.  una curación
+27 toma tres turnos completos, durante los cuales
+28 veces el guerrero no puede moverse ni atacar a un
+29 guerrero enemigo.
+30
+31 Para que un guerrero seleccione SANAR, no debe
+32 MOVER o ATACAR ese turno.  Todo golpeado
+Se devolverán 33 puntos a ese guerrero.
+34 después de que hayan pasado tres turnos.
+35
+36 Sin embargo, si un guerrero enemigo
+37 herir al guerrero sanador durante cualquiera de
+38 los tres turnos necesarios para la curación
+39 proceso, entonces su curación será
+40 interrumpido y no recibirá ningún Hit
+41 puntos en total.
+
+			Página 18
+
+1 (5) líneas de mensajes RECV y SEND
+2
+3 Las líneas RECV y Enviar mensaje
+4 mostrado en la parte inferior del Control
+5 Panel sólo se activan después de una conexión
+6 se establece con otra computadora.  Todos
+7 teclas alfanuméricas escritas en el teclado
+8 se mostrará en la línea ENVIAR.  algunos
+Se permite la edición de 9 líneas, como el cursor
+10 teclas, retroceso y la tecla DEL.
+11
+12 El texto del mensaje se transmitirá al
+13 computadora teleconectada ya sea cuando el
+14 Se pulsa la tecla RETURN, o cuando finaliza
+Se alcanza el número 15 de la línea ENVIAR.
+16
+17 La línea de mensajes RECV muestra mensajes entrantes.
+18 mensajes de texto de tu teleconectado
+19 oponente.  Suena un timbre como señal entrante.
+20 se recibe un mensaje para alertar al jugador
+21 lee el mensaje.
+22
+23 Con algunos módems, la línea RECV
+24 repite tu mensaje ENVIAR después de escribirlo
+25 en caso de que se rompa la teleconexión.
+26
+27 guerreros y armas
+28
+29 Ambos ejércitos están compuestos por doce
+30 guerreros, que están posicionados en el
+31 mapas del campo de batalla al inicio de cada uno
+32 Juego TeleEpic.  Cada uno de los tres
+33 Battlefield Maps ofrece cuatro piezas de juego
+34 escenarios con varias ubicaciones de guerreros.
+35
+36 Cada guerrero es individual, es decir,
+37 difiere en nombre, zancada, puntos de vida y
+38 habilidad para usar cada arma.  es
+39 importante para los jugadores utilizar a los guerreros
+40 eficazmente, juntos y solos, para
+41 maximizar la efectividad de cada uno.
+
+			Página 19
+
+1 Cada guerrero de un ejército tiene un 
+2 homólogos en el otro ejército, que
+3 posee las mismas estadísticas de guerrero.  entonces ambos
+4 bandos en el conflicto están iguales al principio
+5 de un juego.  Algunos guerreros son ligeros de
+6 pies y muévase rápidamente de un lugar a otro.
+7 lugar, mientras que otros son pesados y lentos.
+8 Algunos son excelentes espadachines, mientras que
+Otros nueve destacan con un arco o un hacha.  algunos
+10 tienen la constitución y la resistencia para
+11 resisten muchos golpes, mientras otros mueren
+12 rápidamente.
+13
+14 Una breve descripción de cada guerrero rojo.
+15 y le sigue su homólogo azul.
+16
+17 Lord Justin y el Príncipe Aragón son los
+18 líderes aristocráticos de los dos ejércitos.
+19 Entrenado en el arte de la guerra desde temprana edad.
+20 años, son mortales con todas las armas,
+21 pies rápidos y poseen resistencia promedio.
+22 Como el mejor espadachín del reino,
+23 son valiosos al final de un juego, cuando
+24 armas de proyectiles escasean y espadas.
+25 son todo lo que quedan.
+26
+27 Martin Trueflight y Fletch Arrowquiver
+28 son cazadores forestales.  El arco y la flecha son
+29 su arma, aunque también son buenos
+30 espadachín.  Su paso y puntos de vida
+31 son de promedio a bajo.  Son más útiles
+32 cuando se usa para ataques con arco de largo alcance.
+33
+34 El barón von Krieg y Balthizar Ali son cada uno
+35 mercenarios extranjeros que luchan por el oro
+36 en lugar de gloria.  Su promedio a bajo
+37 habilidad de arma y Stride se compensa con
+38 experiencia de batalla que se refleja en lugar
+39 puntos de vida altos para cada uno.  son utiles
+40 para liderar un ataque, para absorber golpes que
+41 mataría a guerreros menores.
+
+			Página 20
+
+1 Monsieur Epcet y Don Agil Espada son
+2 jóvenes nobles extranjeros enviados por su
+3 familias tituladas para aprender el arte de la guerra.
+4 Su juventud les da un paso rápido, y
+5 su entrenamiento los hace mejores que
+6 promedio con todas las armas.  Su falta de
+7 la experiencia se refleja de media a baja
+8 puntos de vida.  ellos darán cuenta
+9 ellos mismos bien en la batalla, aunque pueden
+10 no viven mucho.
+11
+12 Elric Quickstroke y Rapier Thrust son ambos
+13 consumados hombres de armas.  ellos son
+14 excelente con todas las armas, especialmente
+15 espadas, son rápidos de pies y de mediana edad.
+16 puntos de vida.  ambos son luchadores eficientes y
+17 harán el trabajo.  Su paso será
+18 ser marcado con los cuerpos de los caídos
+19 enemigo.
+20
+21 Gray Ferret y Dirk Poniard son ladrones por
+22 comerciantes, obligados a unirse a la guerra para escapar
+23 la horca.  El cuchillo es su arma de
+24 opciones.  Cada uno es rápido y silencioso de pies,
+25 aunque bajo en puntos de vida.  Colocado en el
+26 líneas del frente, morirán rápidamente.  pero si
+27 se mantienen en las sombras al borde
+28 de una refriega, sus cuchillos pasarán factura.
+29
+30 Eric Stoutheart y Balantine Brusk son
+31 fuertes siervos que sirvieron en el ejército
+32 de su señor feudal para escapar de trabajar en
+33 los campos.  Son promedio con la mayoría
+34 armas, además de un paso medio.  Golpear
+35 puntos son un promedio bajo.  ellos pelearan
+36 porque no saben nada más.  es
+37 lamentable, pero cierto, que el éxito en
+38 la batalla a menudo se basa en guerreros de este tipo, que
+39 mueren para que otros puedan conquistar.
+40
+41
+
+			Página 21
+
+1 Braddock Dala y Duke Celibrian son
+2 nobles que luchan por la fama, el amor y
+3 gloria.  Están bien entrenados y
+4 experimentados en todas las armas, especialmente la
+5 espada, tener un paso mejor que el promedio, 
+6 y puntos de vida promedio.  Su experiencia es
+7 invaluable en cualquier pelea, pero más aún en el
+8 final de un juego cuando las armas de proyectiles
+9 se quedan cortos.
+10
+11 Goldie Chimera y Scarlet Sage son dandis
+12 que son parientes lejanos de importancia
+13 personas (nadie recuerda quiénes).
+14 Tienen opiniones más altas de sí mismos.
+15 que lo justifican sus capacidades, que son
+16 promedio en el mejor de los casos.  A su favor, hay un
+17 suerte asombrosa, que se refleja en muy
+18 puntos de vida altos.  Nadie se queja cuando
+19 estos dos están colocados en las primeras líneas de
+20 una batalla.  Son supervivientes.
+21
+22 Robin Locksley y Warden Forester son dos
+23 cazadores forestales más que destacan con el arco
+24 y flechas además de una espada.  ellos son
+25 muy veloces, pero bajos en puntos de vida.
+26 Utilice arcos largos desde la distancia.  si
+27 pueden vaciar sus aljabas antes de
+28 mueren, entonces es poco probable que muchos
+29 enemigos sobreviven.
+30
+31 Giantkiller y Theron Axewielder están exiliados
+32 enanos de las montañas de antiguas disputas
+33 familias.  Cada uno tiene una fuerza que es
+34 inigualables por los hombres normales, que huyen del
+35 potencia de sus ejes.  El poder de sus
+36 puntos de vida son famosos.  ignoran las heridas
+37 que matan a otros.  Sin embargo, cada uno es lento de
+38 zancadas y muy mal espadachín.  es
+39 importante que cada hacha que lleven lleve
+40 un peaje en la batalla.  Úsalos para girar
+41 la marea de la batalla.
+
+			Página 22
+
+1 Bangor Hatchett y Haibard Berserker son
+2 gigantes bárbaros de tribus en guerra de
+3 las estepas orientales.  ellos saben como
+4 pelear con cualquier arma.  Pero es con el
+5 hachas que atraviesan a sus enemigos,
+6 como una guadaña que atraviesa el trigo en el campo.
+7 Tal vez sean lentos de pies, pero han golpeado
+8 Puntos tan altos que son difíciles
+9 para derribar.  Como los enanos pueden
+10 ser utilizado para romper las líneas del enemigo.
+11 Si cada hacha ha dado en el blanco, al
+12 como mínimo, el enemigo no aguantará
+13 ventaja.
+14
+15 Inicio de TeleEpic
+16
+17 TeleEpic comenzará cuando selecciones "Iniciar
+18 a Game" en el menú "Jugar".  un pequeño
+19 cargas de archivos de datos desde el disco y el juego.
+20 comienza.  El lado (ROJO o AZUL) que está
+21 actualmente elegidos en el menú de reproducción siempre.
+22 comienza.
+23
+24 Una vez comenzado el juego, las posiciones de
+25 todos los guerreros amigos se muestran en el 
+Cuadrícula táctica de 26 guerreros.  El guerrero seleccionado
+27 estará marcado con un corchete amarillo en
+28 la pantalla del mapa del campo de batalla, y su
+La ubicación 29 parpadeará en Warrior Tactical
+30 Cuadrícula.
+31
+32 Para seleccionar un guerrero diferente,
+33 apunta el puntero del cuchillo del ratón a cualquier otro
+34 guerreros en la pantalla del mapa del campo de batalla y
+35 haga clic con el botón izquierdo del ratón.  el
+La visualización del mapa del campo de batalla 36 luego se realinea
+37 al nuevo guerrero, centrándolo en el 
+38 pantalla cuando sea posible.  El estatus de guerrero
+39 La tabla ahora muestra estadísticas del guerrero,
+40 y todos los dispositivos de comando reflejan su
+41 opciones restantes.
+
+				Página 23
+
+1 Otro guerrero, en particular aquellos que no están en
+2 vista en la pantalla del mapa de Battlefield, se puede
+3 elegidos haciendo clic con el puntero del mouse
+4 pistola sobre un guerrero de color amigo que es
+5 marcados en ROJO o AMARILLO en el Guerrero
+6 Cuadrícula Táctica.
+7
+8 movimiento guerrero
+9
+10 El guerrero seleccionado que esté dentro del
+11 límites del corchete amarillo pueden ser
+12 ordenó moverse simplemente apuntando el
+13 puntero del mouse a otra ubicación en el
+14 Visualización del mapa del campo de batalla y haciendo clic en el
+15 botón izquierdo del ratón.  Si la ubicación no es
+16 intransitable (ocupado por otro guerrero,
+17 árboles, agua, piedra, etc.), y está dentro
+18 el rango de zancada del guerrero, entonces él
+19 hará todo lo posible para pasar al seleccionado
+20 ubicación, evitando cualquier intransitable
+21 obstrucciones.
+22
+23 TeleEpic analiza la jugada y calcula
+24 la mejor ruta para llegar a ese destino,
+25 teniendo en cuenta el terreno
+26 cruzado y la zancada del guerrero.
+27 A veces el guerrero no llega al
+28 destino, sin embargo, porque un puente, un
+29 colina, escaleras, muebles, etc. ralentizan su
+30 avances.  A veces el destino miente
+31 justo fuera del alcance de zancada del guerrero,
+32 s hace lo mejor que puede con lo que
+33 has.
+34
+35 Generalmente, las órdenes de movimiento que están dentro
+36 el rango STRIDE del guerrero son más 
+37 probablemente se llevarán a cabo con éxito.  en 
+38 cualquier guerra que empuje a las tropas más allá de sus límites
+39 puede ser contraproducente.
+40
+41
+
+				Página 24
+
+1 ataques de guerreros
+2
+3 El modo predeterminado del juego permite a cada guerrero
+4 para atacar una vez por turno.  si el doble
+5 La opción Ataque está habilitada en Opciones
+6 Menú, luego cada guerrero puede ATACAR,
+7 MOVERSE y luego ATACAR de nuevo.
+8
+9 Establezca el ángulo de ataque seleccionando primero un
+10 ángulos de la brújula de los ocho dispositivos en
+11 el grupo de dispositivos de dirección de ataque.  entonces
+12 hacer clic en el gadget ATTACK provoca que
+13 guerreros para atacar.  Cuando un guerrero tiene
+14 atacados con arma de proyectil (flecha.
+15 cuchillo, o hacha), el arma continúa en un
+16 camino recto hasta que:
+17
+18 (1) golpes alcanzados por el primer guerrero enemigo,
+19 (2) alcanza su alcance efectivo de arma,
+20 (3) golpea un objeto intransitable,
+21 (4) llega a un límite del mapa del campo de batalla.
+22
+23 Para usar una espada, el guerrero debe estar sobre una
+24 casillas adyacentes a un guerrero enemigo.
+25
+26 Debido a la estrecha visión vertical del
+27 Visualización del mapa del campo de batalla, es posible
+28 golpea a un guerrero enemigo que está a una fila de distancia
+29 la parte superior o inferior del mapa del campo de batalla
+30 pantalla.
+31
+32 Los guerreros no pueden atacar a los guerreros de color.
+33 como ellos mismos.  Las armas se suponen
+34 para pasar por encima de sus cabezas.
+35
+36 El vencedor en TeleEpic es el que mejor utiliza
+37 sus fortalezas guerreras.  Recuerda el
+38 estadísticas defensivas de cada guerrero enemigo.  hacer
+39 no desperdiciar un ataque de 12 hachas de poder en un
+40 guerrero que tiene sólo 4 puntos de vida, pero
+41 en su lugar, lanza un cuchillo de 4 poderes.
+
+				Página 25
+
+1 opciones
+2
+3 El menú Opciones ofrece opciones de juego que
+4 se pueden configurar antes de que comience el juego.  estos
+5 incluyen configurar el cronómetro de turno, arma
+6 Asignación y Ataque/Guerrero/Turno.
+7
+8 Configuraciones del temporizador de turnos: el temporizador de turnos
+9 obliga a que el turno cambie después de un cierto
+Han transcurrido 10 minutos.  el cronómetro
+11 tiene un valor predeterminado de tres minutos.  Sin embargo,
+12 desde 30 segundos hasta 5 minutos, por
+13 la duración máxima del turno de un jugador,
+14 se puede configurar como una selección del menú "Opciones".
+15 Cuanto más corto sea el tiempo asignado, menos
+16 guerreros que un jugador puede mover durante
+17 el transcurso de un turno.
+18
+19 Asignación de armas – Asignación de armas
+20 establece el número de armas de proyectiles por
+21 guerrero a CINCO o NUEVE (el 
+22 por defecto).  Con CINCO armas asignadas a
+23 cada guerrero, el juego normalmente terminará
+24 con muchos duelos de espadas.  Esto proporciona una
+25 variaciones interesantes de NUEVE armas,
+26 donde los guerreros rara vez se quedan sin
+27 armas de proyectiles.
+28
+29 Ataque/Guerrero/Turno: esta opción permite
+30 un juego para jugar con un Ataque Único
+31 por guerrero por modo turno (el valor predeterminado),
+32 o un doble ataque por guerrero por turno
+33 modo.  En modo Doble Ataque guerreros
+34 puede ATACAR, MOVERSE y luego ATACAR de nuevo.
+35
+36 Jugando Teleépico
+37
+38 Cuando TeleEpic se teleconecta a otro
+39 computadora, cada movimiento correcto realizado en
+40 una computadora se repiten en la otra.
+41
+
+			Página 26
+
+1 La única excepción a esto es que el
+2 el ordenador receptor no recibe el
+3 cuadrículas tácticas de guerreros del oponente.
+4
+5 Espere que la mayoría de los jugadores se tomen unos minutos
+6 para hacer movimientos al comienzo de un juego de
+7 Teleépico.  Utilice este tiempo sabiamente leyendo
+8 estadísticas de guerreros enemigos (llámalos inteligencia
+9 informes), marcando a los guerreros más débiles como
+10 buenos objetivos.  Los giros tomarán menos tiempo ya que
+Mueren 11 guerreros.
+12
+13 Finalizando TeleEpic
+14
+15 Una vez que todos los guerreros de un jugador hayan sido
+16 muertos, ha perdido el juego y debe
+17 seleccione FINALIZAR/CEDER JUEGO en PLAY
+18 menú antes de que pueda comenzar otro juego.
+19
+20 Menús -- Información General
+21
+22 encabezados de menú TeleEpic se muestran cuando
+23 se presiona el botón derecho del mouse.  Por
+24 moviendo el puntero del mouse sobre estos menús
+Se muestran 25 títulos, elementos para cada uno.
+26 Mover el cursor hacia abajo en la lista de elementos del menú
+27 resaltará cada elemento.  Liberando el
+28 botón de menú derecho siempre que cualquier menú
+29 elemento está tan resaltado que lo seleccionará.
+30
+31 A veces, cuando se selecciona un elemento del menú,
+32 hace que otros menús y elementos de menú
+33 ser activado o desactivado (fantasma).
+34 No se pueden seleccionar elementos del menú fantasma.
+35
+36 Cuando está teleconectado a otra computadora,
+37 los menús son accesibles sólo para el
+38 jugadores cuyo turno es el actual.  Los menús son
+39 no suele estar disponible para el jugador
+40 recibiendo estos movimientos, aunque pueden
+41 ser activado.
+
+				Página 27
+
+1 Cada vez que la Intuición recibe una señal de
+2 el boton derecho del mouse, deja de funcionar
+3 todo lo demás, incluida la lectura del
+4 datos que llegan al puerto serie.  si un juego
+5 movimientos deben recibirse en el puerto serie
+6 mientras se mantiene presionado el botón derecho del mouse,
+7 entonces esa jugada puede ser malinterpretada, o incluso
+8 perdidos.
+9
+10 Esto significa que los ordenadores teleconectados
+11 mostrarían cada uno un TeleEpic diferente
+12 configuraciones de juego que obviamente
+13 no funcionan.  TeleEpic requiere que ambos
+14 computadoras coinciden en todo momento, de lo contrario,
+15 la continuación del juego es imposible.
+16
+17 Este problema no afectará a TeleEpic, ya que
+18 siempre y cuando los jugadores no hagan uso del derecho
+19 botón del ratón durante el juego cuando
+20 están recibiendo movimientos del oponente.
+21
+22 Si se debe acceder a los menús para guardar un juego
+23 en progreso, entonces un jugador solo debe hacer
+24 así cuando sea su turno.  Esto minimiza la
+25 posibilidad de interrumpir el juego
+26 transmisiones.
+27
+28 Si es ABSOLUTAMENTE necesario acceder
+29 los menús cuando están apagados y
+30 estás recibiendo los movimientos de tu oponente,
+31 se pueden reactivar haciendo clic en
+32 la barra de menú/mensajes con el ratón
+33 puntero.
+34
+35 Pero, por favor, hazle saber a tu oponente lo que
+36 lo estás haciendo para que pueda retrasar la mudanza
+37 hasta que haya terminado con los menús.
+38 De lo contrario es muy probable que el juego
+39 quedarán revueltos entre los dos
+40 computadoras.
+41
+
+			Página 28
+
+1 (I) Menú Teleépico
+2
+3 El Menú TeleEpic ofrece cuatro posibles
+4 selecciones de menú.
+5
+6 (1) Puente del Rey
+7 (2) Muro de la aldea
+8 (3) Torre del Castillo
+9 (4) Salir de TeleEpic
+10
+11 Las tres primeras selecciones se cargan y reproducen
+12 los diferentes mapas de terreno de Battlefield.
+13 Al estar teleconectados, es imperativo que
+14 ambas computadoras juegan en el mismo mapa,
+15 de lo contrario no se podrá iniciar el juego.
+16
+17 Salir TeleEpic finalizará el programa y
+18 devolver toda la memoria y los recursos a
+19 tu Amiga.
+20
+21 (II) Menú de escenario
+22
+23 El menú de escenario ofrece cuatro juegos.
+24 escenarios en los que la ubicación de los guerreros varía.
+25 Al estar teleconectado, el escenario seleccionado
+26 en la computadora que inicia el juego
+27 sea el escenario que se juegue.
+28
+29 En King's Bridge y Castle Mantén el
+30 escenarios sitúan a los guerreros de la siguiente manera:
+31
+32 Escenario #1: juega de derecha a izquierda
+33 Escenario #2: juega en diagonal
+34 Escenario #3: juega de arriba a abajo
+35 Escenario #4: juega un patrón X
+36
+37 En Village Wall los cuatro escenarios tienen
+38 han sido asignados a ubicaciones de guerreros que dan
+39 ya sea ROJO o AZUL una ventaja.  Todos
+40 estos escenarios se juegan de arriba a abajo.
+41
+
+			Página 29
+
+1 (III) Menú del juego
+2
+3 El menú del juego ofrece los siguientes tres
+4 opciones:
+5
+6 (1) Elige un bando
+7 (2) Iniciar un juego
+8 (3) Ceder/Fin
+9 juego
+10
+11 (1) Elegir un lado selecciona AZUL o
+12 ROJO como color del ejército del primer jugador.
+13 Este color seleccionado iniciará el juego.
+14
+15 Cuando está teleconectado, el ordenador se inicia
+16 el juego recibió este color y siempre lo es
+17 el primero en moverse.
+18
+19 (2) Iniciar un juego comenzará un NUEVO
+20 Juego TeleEpic, usando el seleccionado
+21 Mapa y escenario del campo de batalla.
+22
+23 Al teleconectarse, cualquiera de los jugadores
+24 podrá iniciar el partido.  Todas las configuraciones del juego,
+25 Mapa, Escenario, opciones, etc., serán
+26 determinado por la computadora de inicio.
+27
+28 (3) End/Cede Game terminará la TeleEpic
+Actualmente se juegan 29 partidos.
+30
+31 (IV) Menú de telecomunicaciones
+32
+33 El menú TeleComm contiene todas las opciones.
+34 relativo a las telecomunicaciones:
+35
+36 (1) Modo de telecomunicación
+37 (2) Desconectar (Colgar)
+38 (3) Transmitir Juego y Jugar
+39 (4) Marcar número de teléfono
+40
+41
+
+			Página 30
+
+1 (I) Modo de telecomunicaciones
+2
+3 La opción Modo de Telecomunicación ofrece
+4 cuatro posibles modos de teleconexión en
+5 en los que se puede configurar el Amiga:
+6
+7 (A) Envío (persona que llama)
+8 (B) Recibir (Respuesta)
+9 (C) Conexión de módem NULO
+10 (D) Teleconexión APAGADA
+11
+12 La computadora siempre estará configurada en cono de
+13 estos cuatro modos de telecomunicaciones.  el
+14 el valor predeterminado es TeleConnect APAGADO.  para
+15 iniciar una teleconexión con otro
+16 computadora, uno de los tres primeros elementos
+Se deben seleccionar 17.  Telecomunicación
+18 El modo vuelve a TeleConnect APAGADO cuando
+19 se selecciona el elemento de menú Desconectar.
+20
+21 (A) Envío de telecomunicaciones (llamante)
+El modo 22 designa a esta computadora como la
+23 computadora que llama, es decir, la computadora que
+24 inicia la teleconexión llamando al
+25 otras computadoras por teléfono.
+26
+27 Cuando se selecciona el modo de envío, el botón "Dial
+28 el elemento de menú "Número de teléfono" en
+29 se activa el encabezado del menú TeleComm.
+30
+31 (B) Recepción (Respuesta) de telecomunicaciones
+El modo 32 designa esta computadora como la que
+33 que espera y atiende la llamada de
+34 la otra computadora cuando una teleconexión
+35 está por establecerse.
+36
+37 Al seleccionar Recibir se coloca el Amiga en
+38 un estado pasivo en el que espera tranquilamente
+39 para que suene el teléfono.  Una vez que el teléfono
+40 anillos; TeleEpic responde y establece las
+41 teleconexión.
+
+			Página 31
+
+1 (C) Telecomunicaciones de conexión de módem nulo
+Modo 2 coloca a TeleEpic en un Teleconectado
+3 estados, sin pasar por la comunicación del módem
+4 rutinas.  Este modo debe seleccionarse
+5 cada vez que dos computadoras están conectadas a
+6 entre sí con un módem nulo de puerto serie
+7 cables.
+8
+9 También puede usarse si su módem no es
+10 conjuntos de comandos suficientemente "AT" compatibles
+11 para los modos de envío y recepción para
+12 funcionan correctamente.  Puedes usar otros
+13 software de telecomunicaciones para colocar el
+14 llamar y contestar el teléfono.  Una vez que el
+15 se realiza teleconexión con este otro
+16 software, seleccionando Conexión de módem nulo
+17 hará que TeleEpic se haga con la serie abierta
+18 líneas para que se pueda jugar un juego.
+19
+20 (D) TeleConexión APAGADO
+21
+22 El modo TeleConnect Off permite dos jugadores
+23 para jugar TeleEpic en una sola computadora.  eso
+24 vuelve automáticamente a este modo
+25 siempre que la opción del menú Desconectar esté 
+26 seleccionados.
+27
+28 (2) Desconectar (Colgar)
+29
+30 La opción Desconectar colgará tu
+31 módem, rompiendo la teleconexión, y
+32 devolver TeleEpic al TeleConnect APAGADO
+33 Modo de telecomunicaciones.  Ambas computadoras
+34 debe seleccionar Desconectar cuando una sesión haya
+35 terminaron.
+36
+37 (3) Transmitir Juego y Jugar
+38
+39 La opción Transmitir juego y jugar en
+40 el encabezado del menú TeleComm transmite un
+41 configuración de juego guardado, eso fue solo
+
+			Página 32
+
+1 cargado, al ordenador teleconectado.
+2 Ambas computadoras deben mostrar el mismo
+3 Mapa de terreno y no tener partida iniciada
+4 cuando se selecciona esta opción.
+5
+6 Antes de que se transmita un juego, un jugador
+7 debe alertar al otro sobre el hecho de que un
+8 juegos están a punto de ser enviados.  Usa el chat
+9 líneas para enviar tal mensaje.
+10
+11 (4) Marcar número de teléfono
+12
+13 Cuando la computadora se coloca en Envío
+14 modo de telecomunicaciones (llamante) y un 
+15 teleconexión aún no se han establecido,
+16 la opción de menú Marcar número de teléfono está
+17 habilitados.  Al seleccionar esta opción se marcará
+18 el número de teléfono del oponente seleccionado.
+19
+20 (V) Menú Tele Archivos
+21
+22 archivos de disco de telecomunicaciones TeleEpic son
+23 accesibles en este menú bajo uno de los 
+24 títulos:
+25
+26 (1) Parámetros del módem
+27 (2) Parámetros del oponente
+28
+29 Archivos tanto del módem como del oponente para todos los
+30 juegos de telecomunicaciones publicados por
+31 Terminal de software, TeleJuegos, TeleGuerra,
+32 TeleWar II y TeleEpic -- se comparten en
+33 comunes.
+34
+35 Si tienes más de uno de nuestros juegos,
+36 no es necesario volver a introducir los archivos para
+37 cada uno.  Asignación de los Archivos Tele+: lógico
+38 dispositivos en un único directorio que contiene
+39 tus archivos de módem y oponente harán
+40 ellos disponibles para todos estos juegos a la vez
+41 (Ver Apéndice A y B).
+
+			Página 33
+
+1 (1) Parámetros del módem
+2
+3 parámetros del módem se configuran deslizando hacia arriba
+4 pantalla que aparece cada vez que el Módem
+La opción 5 Parámetros está seleccionada.
+6
+7 Cada vez que se carga TeleEpic, lee un 
+8 archivo de disco llamado "modemset", almacenado en el
+9 Directorio Tele_Files, por defecto
+10 configuraciones de módem.  Estas configuraciones pueden ser
+11 editados para adaptarse a su módem y
+12 guardados en disco, para que cada vez TeleEpic
+13 cargas, el valor predeterminado es su módem personal.
+14
+15 La configuración actual del módem se muestra en
+16 AZUL en la pantalla Parámetros del módem.
+17 Las siguientes configuraciones del módem son
+18 configurables por el usuario.
+19
+Velocidad de 20 baudios: parámetros del módem
+21
+22 velocidades de baudios de 300, 1200, 2400 y 9600
+Se pueden seleccionar 23 haciendo clic en un gadget
+24 cuadros con el puntero del mouse.
+25
+26 Comando de marcación: parámetros del módem
+27
+28 Cuando su módem marca un teléfono
+29 número debe enviar una señal a su
+30 módem de los que se trata un número de teléfono
+31 para enviar.  Si su módem es "AT"
+32 compatibles, luego uno de los dos gadgets
+33 "ATDT" (para marcación por tonos) o "ATDP" (marcación por pulsos)
+34 marcación) se debe elegir.
+35
+36 Se proporciona un cuadro de entrada de comando personalizado
+37 para cualquier módem con módem no estándar
+38 conjuntos de comandos.  Tenga en cuenta que este cuadro de entrada
+39 también se puede utilizar para agregar comandos "AT" a
+40 el comando de marcación.  Por ejemplo, ATX6DT
+41 marcará por tono y devolverá códigos de resultado,
+
+			Página 34
+
+1 que TeleEpic puede utilizar para informarle
+2 solicitudes de que el número estaba ocupado,
+3 si era un humano y no un 
+4 computadora que contestó el teléfono, y
+5 si nadie contestó el teléfono.
+6
+7 Si se muestra algún carácter en el
+8 cuadro de comando de marcado personalizado, entonces ese es el
+9 comando de marcación activo actual.  Haga clic en
+10 casilla activa, escriba el comando y presione
+11 REGRESO.
+12
+13 Comando de respuesta: parámetros del módem
+14
+15 Se debe ordenar a un módem que responda
+16 el teléfono cuando suena.  Si el módem
+17 tiene una función de respuesta automática, el comando
+18 gadget, "ATSO=1" en el parámetro del módem
+La pantalla 19 le ordena que levante el teléfono.
+20 después de que suene una vez.
+21
+22 No todos los módems responderán automáticamente, pero deben
+A 23, en su lugar, se les pedirá que contesten el teléfono.
+24 después de que suena.  Se utiliza el dispositivo "ATA".
+25 en este caso.  Si has seleccionado esto
+26 comando de respuesta, no debe ingresar el
+27 modo de recepción hasta después del teléfono
+28 timbres (Ver Parámetros de TeleConnect).
+29
+30 Se proporciona un cuadro de entrada de comando personalizado,
+31 en caso de que el comando de respuesta de su módem sea diferente
+32 de los proporcionados.  Haga clic/active el
+33, escriba el comando y presione RETORNO.
+34
+35 CARGAR/GUARDAR/SALIR - Parámetros del módem
+36
+37 Haga clic en los gadgets proporcionados para CARGAR y
+38 GUARDE el archivo del módem.  Haga clic en
+39 Gadget "QUIT" para salir del Módem
+40 Pantalla de parámetros y volver al juego.
+41
+
+			Página 35
+
+1 (2) Parámetros del oponente
+2
+3 parámetros del oponente se establecen desde una diapositiva
+4 arriba.  pantalla Archivos de telecomunicación que
+5 aparece cada vez que los parámetros del oponente
+Se selecciona la opción 6.  Aquí puedes
+7 introduce el número de teléfono de un oponente
+8 y la velocidad en baudios a la que reproduces eso
+9 individuales y guárdelo en un archivo que pueda
+10 más tarde se recuperarán rápidamente para establecer una
+11 teleconexión.
+12
+13 Haga clic en el cuadro de entrada del número de teléfono,
+14 escribe el número de teléfono y pulsa
+15 REGRESO.  Luego haga clic en la velocidad en baudios en
+16 con el que jugarás contra ese oponente.  el
+La velocidad de 17 baudios debería ser la velocidad más alta que
+18 tanto tu módem como el de tu
+19 oponentes tienen en común.  Por ejemplo,
+20 si un módem con una velocidad de 2400 baudios reproduce una velocidad de 1200
+Módem de 21 baudios, luego reproduzca a 1200 baudios.
+22
+23 GUARDAR - Parámetros del oponente: Configuraciones para
+24 todos los oponentes pueden guardarse en un archivo
+25 que se pueden recuperar instantáneamente cuando sea
+26 quieres jugar TeleEpic con eso
+27 oponente.  Haga clic en el texto del nombre del archivo
+28 casilla de entrada, escriba el nombre del oponente,
+29 y pulsa RETORNO.  Ahora simplemente haga clic en
+30 GUARDAR gadget.  Observe que el archivo ahora está
+31 entró en el directorio de archivos del oponente.
+32 El directorio de oponentes contiene todos los
+33 expedientes opositores ingresaron a TeleEpic.
+34
+35 CARGAR - Parámetros del oponente: Para seleccionar un
+36 archivo para cargar, haga clic en el cuadro de archivo
+37 que contiene el nombre del oponente.  lo harás
+38 ver el nombre del archivo aparecer en el Nombre de archivo
+39 caja.  Ahora haga clic en el gadget CARGAR y el
+El archivo 40 oponente cargará y configurará el
+41 computadora a los parámetros de ese oponente.
+
+			Página 36
+
+1 BORRAR - Parámetros del oponente: hacer clic
+2 en el gadget DELETE eliminará el archivo
+3 del disco que aparece en el archivo
+4 Cuadro de nombre.
+5
+6 SALIR - Parámetros del oponente: hacer clic
+7 el gadget SALIR se desplazará hacia abajo 
+8 Pantalla de parámetros del oponente.
+9
+10 (VI) Menú de archivos de juego
+11
+12 El menú Archivos del juego ofrece opciones para
+13 guardar un juego que se está jugando en el disco,
+14 y por luego recuperar ese juego de
+15 el disco para reanudar la reproducción.  hay dos
+16 selecciones bajo este encabezado de menú.
+17
+18 (1) Directorio de juegos
+19 (2) Jugar partida guardada
+20
+21 (1) Directorio de juegos
+22
+23 El juego en curso puede GUARDARSE, volver a
+24 CARGADO o incluso BORRADO de la diapositiva
+25 arriba.  Aparece la pantalla Directorio de juegos
+26 cada vez que la opción Directorio de juegos tiene
+27 han sido seleccionados.  Solo los archivos del juego
+28 guardados previamente para el campo de batalla actual
+29 mapas se enumeran en el directorio de archivos del juego.
+30
+31 Nota: Los juegos siempre deben guardarse mientras
+32 el juego sigue activo.  No guardes un
+33 partido que ha finalizado.
+34
+35 GUARDAR - Directorio de juegos: El actual
+Se pueden guardar 36 juegos en el disco para publicarlos más tarde.
+37 recargados y juego renombrado.  Haga clic en el
+38 Cuadro de entrada de texto Nombre de archivo, escriba un archivo
+39 nombre y presione RETORNO.  A continuación haga clic en
+40 GUARDAR gadget.  Observe que el archivo del juego es
+41 ahora ingresado en el directorio de archivos del juego.
+
+			Página 37
+
+1 CARGAR - Directorio de juegos: Para seleccionar un
+2 archivos de juego para cargar, haga clic en el cuadro de archivo
+3 que contiene el nombre de la partida guardada.
+4 Verá que el nombre del archivo aparece en la
+5 Cuadro Nombre de archivo.
+6
+7 Ahora haz clic en el gadget CARGAR y el juego
+Se cargarán 8 archivos.  Una vez que haya SALIDO del
+9 En la pantalla Directorio de juegos, verás el
+10 guerreros se reacomodan a los previamente salvados.
+Configuración de 11 juegos.
+12
+13 BORRAR - Directorio de juegos: Al hacer clic en
+14 el gadget DELETE eliminará el archivo
+15 enumerados en el cuadro Nombre de archivo del disco.
+16
+17 SALIR - Directorio de juegos: Al hacer clic en el 
+18 El dispositivo SALIR te devolverá al juego.
+19 Si juegas en una computadora, ahora puedes
+20 "Jugar partida guardada"; o si te teleconectaste
+21 puede seleccionar "Transmitir Juego y Jugar".
+22
+23 (2) Jugar partida guardada
+24
+25 Al jugar en una sola computadora en el
+26 Modo TeleConnect OFF, para comenzar
+27 jugando el juego guardado recién cargado, el
+28 La opción de menú "Jugar partida guardada" debe estar
+29 seleccionados.  El juego se reanudará en el
+30 punto en el que se salvó.
+31
+32 (VII) Menú de opciones
+33
+34 El menú Opciones ofrece una serie de
+35 opciones de juego que se pueden configurar ante un
+Se inicia el juego 36.  Estas opciones son:
+37
+38 (1) Configurar el temporizador de giro
+39 (2) Protocolo de disparo
+40 (3) Ataque/Guerrero/Turno
+41
+
+			Página 38
+
+1 (1) Configuración de tiempo de giro
+2
+3 TeleEpic está equipado con un temporizador de giro
+4 que obliga a los jugadores a cambiar de turno después del
+Han transcurrido las 5 siguientes opciones del temporizador.  tres
+6 minutos es el valor predeterminado.
+7
+8 (A) .5 Minutos
+9 (B) 1 minuto
+10 (C) 2 minutos
+11 (D) 3 minutos
+12 (E) 4 minutos
+13 (F) 5 minutos
+14
+15 Configurar el temporizador de giro en tiempos muy cortos
+16 normalmente sólo permitirá que unos pocos guerreros
+17 MOVER y ATACAR en un turno determinado,
+18 evitando así que múltiples guerreros
+19 se unen todos a la vez contra un solo guerrero
+20 y matándolo.
+21
+22 (2) Asignación de armas
+23
+24 La selección del menú de asignación de armas.
+25 proporciona dos opciones para configurar el
+26 número de armas de proyectiles llevadas por
+27 cada guerrero.
+28
+29 (A) 5/Guerrero
+30 (G) 9/Guerrero
+31
+32 (A) 5/Modo Guerrero permite 5 proyectiles
+33 armas por guerrero.  Esta configuración
+34 normalmente permite que los guerreros se queden sin
+35 armas de proyectiles al final del 
+36, lo que hace que la lucha con espadas sea importante.
+37
+38 (B) 9/Modo Guerrero permite 9 proyectiles 
+39 armas por guerrero.  Este es el valor predeterminado.
+40
+41
+
+			Página 39
+
+1 (3) Ataque/Guerrero/Turno: esta opción
+2 permite jugar juegos con el
+3 opciones de ATAQUE siguientes.
+4
+5 (A) Ataque único
+6 (B) Doble ataque
+7
+8 (A) Ataque único por guerrero por turno
+9 permite que cada guerrero ataque solo
+10 una vez por turno.  El ataque único es el predeterminado
+11 modos.
+12
+13 (B) Ataque doble por guerrero por turno
+El modo 14 permite que cada guerrero ataque dos veces.
+15 en cada turno.  Para atacar con un
+16 guerrero dos veces en este modo, debe
+17 ATAQUE antes de que se mueva.  despues de el
+18 MOVIMIENTOS, se le permite ATACAR nuevamente.
+19
+20 Procedimiento de Teleconexión
+21
+22 La característica principal de TeleEpic es que
+23 permite que dos personas jueguen un personaje animado.
+Juego de guerra medieval de 24 estrategias sobre el
+25 teléfono usando computadoras y módems.
+26
+Generalmente se utilizan 27 módems para contactar con un BBS.
+28 (Sistema de tablón de anuncios) para publicar mensajes
+29 y cargar y descargar programas y
+30 archivos.  TeleEpic proporciona a su módem
+31 otro uso: jugar.
+32
+33 Realizar una teleconexión con otro
+34 computadora es fácil con TeleEpic.  el
+35 mística de las telecomunicaciones informáticas.
+36 se ha ido.
+37
+38 TeleEpic hace todo el trabajo, para que el
+39 usuarios pueden concentrarse en perfeccionar su juego
+40 habilidades de juego
+41
+
+			Página 40
+
+1 Configuración de los parámetros del módem
+2
+3 Para que TeleEpic funcione correctamente, debe
+4 comuníquese con su módem y el
+5 módem de tu oponente.  algunos simples
+Se deben realizar 6 ajustes antes de establecer
+7 una teleconexión, para que TeleEpic pueda
+8 comunicarse con su módem.  estos
+9 ajustes solo se realizan una vez y se guardan
+10 al disco para que puedan automáticamente
+11 carga cuando quieras jugar.
+12
+13 Estos ajustes de parámetros se realizan en el
+14 Pantalla de parámetros del módem, que se desplaza
+15 a la vista cuando el parámetro del módem 
+La opción 16 está seleccionada en el menú Tele Files.
+17 (consulte Menú Tele Archivos, página 32).  los baudios
+18 comandos de velocidad, marcación y respuesta deben
+19 debe configurarse antes de que se realice la teleconexión.
+20 intentos.
+21
+22 Velocidad en baudios es el número de dígitos binarios
+23 por segundo transmitidos a través de su módem.
+24 Los módems actuales comúnmente transmiten a
+25 ya sea 300, 1200 o 2400 baudios.  TeleEpic voluntad
+26 admiten todas estas velocidades en baudios, así como
+27 los nuevos módems de 9600 baudios.
+28
+29 Establece tu velocidad en baudios al nivel más alto
+30 compatibles con su módem, eso será lo más
+31 comúnmente se usa para jugar TeleEpic con
+32 tus amigos.  Las velocidades de baudios más altas
+33 transmiten datos del juego más rápidamente, por lo que
+Naturalmente se prefieren 34.
+35
+36 comandos de marcación y respuesta le indican al módem
+37 cómo marcar y contestar el teléfono.  Módems
+38 reconocer un conjunto de instrucciones de comando que
+39 permite que la computadora dirija el módem
+40 para realizar estas actividades.  Teleépico
+41 admite el estándar de conjunto de comandos "AT".
+
+			Página 41
+
+1 Si su teléfono es de tonos, haga clic en "ATDT"
+2 en la pantalla Parámetros del módem.
+3 Sin embargo, si tienes un pulso rotatorio
+4 teléfono, luego haga clic en "ATDP" para configurar el
+Comando de marcación de 5 módem.  Si tu módem
+6 reconoce un conjunto de comandos diferente, o para
+7 agregar comandos adicionales en el marcado
+8 cadena de comando, haga clic con el mouse en Personalizado
+9 Marque el cuadro de comando, escriba el comando,
+10 y presione RETORNO.
+11
+12 comandos de respuesta del módem se configuran en el
+13 de la misma manera.  "ATSO=1" ordena tu
+14 módem para contestar el teléfono con un solo timbre,
+15 cuando esté en el modo de respuesta.  "ATA"
+16 obliga al módem a captar instantáneamente el
+17 teléfono al ingresar al modo de respuesta.  como
+18 con el cuadro de cadena de comando de marcado, un
+Se pueden ingresar 19 comandos de respuesta personalizados
+20 en el cuadro Comando de respuesta personalizado.
+21
+22 Después de configurar los parámetros del módem
+23 configurados, asegúrese de GUARDARLOS en el disco.
+24
+25 Configurar los parámetros del oponente también es fácil,
+26 y sólo es necesario hacerlo una vez.  estos
+27 parámetros guardan los números de teléfono y
+28 baudios de oponentes en archivos, por lo que
+29 se pueden recuperar cuando sea necesario.
+30
+31 En el menú Tele Files seleccione el
+32 Opción Parámetro del oponente para desplazar el
+33 Pantalla del directorio de parámetros del oponente en
+Vista 34 (consulte Parámetros del oponente en la página
+35 30).
+36
+37 Escribe el número de teléfono de tu oponente,
+38 y seleccione la velocidad en baudios a la que desea
+39 siempre juegan.  La velocidad en baudios debe ser la
+40 más alto en común para ambos módems.
+41
+
+			Página 42
+
+1 Luego escribe el nombre de tu oponente en el
+2 Cuadro de nombre de archivo (después de hacer clic en él activo),
+3 y pulsa RETORNO.  Finalmente, GUARDE el archivo.
+4
+5 La próxima vez que quieras jugar TeleEpic
+6 con ese oponente, solo CARGA el archivo
+7 desde la pantalla Parámetros del oponente.
+8
+9 Antes de establecer una teleconexión,
+10 ya sea que esté enviando (llamando) o
+11 Recibir (Contestar), DEBE configurar el
+12 parámetros del oponente o CARGAR un
+13 Archivo de parámetros del oponente desde el disco.
+14
+15 Contacto de voz
+16
+17 Se recomienda que la voz del teléfono
+18 primero se establezca contacto entre los
+19 jugadores de TeleEpic para decidir quién será el
+20 llamante e ingrese al modo de envío y marque
+21 el número, y quién contestará el
+22 teléfono y así ingresar al Modo de Recepción.
+23
+24 La persona que llama debe ingresar a la ventana de envío
+25 Modo y el receptor debe entrar en el modo
+26 Modo de recepción, si la respuesta de este último
+27 está configurado en "ATSO=1" (si es "ATA", el
+28 el receptor no debe ingresar al área de recepción 
+29 Modo hasta que suene el teléfono).
+30
+31 Cuando ambos jugadores estén listos para jugar,
+32 pueden estar de acuerdo en que se realizará la llamada 15
+33 o 20 segundos después de que cada uno cuelga el
+34 teléfono.
+35
+36 Esto minimizará la posibilidad de una
+37 llamada entrante extraña sonando el teléfono
+38 del RECEPTOR antes del Envío
+39 computadora puede marcar el número.
+40
+41
+
+			Página 43
+
+1 Resumen del procedimiento de teleconexión
+2
+3 1. Cada computadora cargará TeleEpic.
+4
+5 2. Configure los parámetros del módem, si no están configurados.
+6
+7 3. Cargar o configurar los parámetros del oponente.
+8
+9 4. Llama a tu oponente por teléfono para
+10 deciden quién llamará a quién.
+11
+12 5. Ambas computadoras deben estar en la misma
+13 mapas y no haber iniciado ningún juego.
+14
+15 6. La persona que llama debe ingresar al menú ENVÍO
+16 modo, y el que contesta
+17 debe ingresar al MODO DE RECEPCIÓN,
+18 si "ATSO=1" es su comando de respuesta.
+19
+20 7. Justo antes de colgar el teléfono,
+21 acuerdan que se realizará una llamada en 15
+22 segundos.  Cuelga el teléfono.
+23
+24 8. El jugador ENVÍO ahora selecciona el
+25 Opción "Marcar un número de teléfono" y
+26 esa computadora marca el teléfono y
+27 espera una respuesta.
+28
+29 9. Si "ATSO=1" está configurado en el menú RECIBIR
+30 computadora, contestará la llamada
+31 después de que el teléfono suena una vez, y
+32 realiza la teleconexión.
+33
+34 Si "ATA" es la computadora RECV
+35 comando de respuesta, el jugador ingresa
+36 el MODO DE RECEPCIÓN en el teléfono
+37 suena, y realiza la teleconexión.
+38
+39 10. Los jugadores se escriben mensajes entre sí,
+40 INICIAR UN NUEVO JUEGO, o CARGAR y
+41 TRANSMITIR Y JUGAR una partida guardada.
+
+			Página 44
+
+1 TeleConnect: otro método
+2
+3 Algunos módems no estándar no responden
+4 el teléfono o reconocer el comando "AT"
+5 juegos, por lo que inicialmente puede que no funcione
+6 con TeleEpic.
+7
+8 ¡No pierdas la esperanza todavía!  tu eres capaz de
+9 jugar usando el MODEM NULO 
+10 modo CONECTAR.
+11
+12 Ambas computadoras deben usar telecomunicaciones
+13 software que sí funciona con sus
+14 módems para establecer la teleconexión.
+15 Este software debe configurarse en la
+16 siguientes parámetros de telecomunicaciones.
+17
+18 Velocidad en baudios = tu velocidad en baudios
+19 Paridad = NINGUNA
+20 Longitud de datos = 8 bits
+21 bits de parada = 1 bit de parada
+22 Dúplex = Dúplex completo
+23
+24 Después de realizar una teleconexión 
+25 entre las dos computadoras, SALGA del
+26 otros programas de telecomunicaciones.  el
+La línea telefónica 27 debe permanecer abierta entre
+28 los dos módems.
+29
+30 Cargue TeleEpic en cada computadora.  ambos
+31 computadoras deben ser colocadas inmediatamente en
+32 el modo CONEXIÓN DE MÓDEM NULO.  hacer
+33 no hacer nada más hasta que sea razonable
+34 Ha pasado mucho tiempo, por lo que tu
+35 oponente tiene tiempo de seguir lo mismo.
+36 procedimiento para colocar su computadora en NULL
+37 MODO DE CONEXIÓN DEL MÓDEM.
+38
+39 Finalmente, los jugadores deben escribir mensajes para
+40 entre sí para ver si se realizó una teleconexión
+41 establecidos con éxito.
+
+			Página 45
+
+1 Apéndice A - Directorios TeleEpic
+2
+3 TeleEpic accede a dos directorios principales
+4 durante la operación del programa.
+5
+6 (1) Directorio Tele_Epic
+7 (2) Directorio Tele_Files
+8
+9 El directorio Tele_Epic contiene todos los
+10 archivos de datos de gráficos y sonido necesarios para
+11 el programa.  Este directorio está asignado
+12 el nombre del dispositivo lógico EP: para que pueda
+13 ser encontrado por el programa si
+14 reside en un disquete o en un disco duro.
+15
+16 El director de Tele_Files contiene todos los
+17 el usuario creó archivos de disco utilizados en el
+18 juego.
+19
+20 El archivo modemset contiene el valor predeterminado
+21 parámetros de módem que se cargan cada uno
+22 veces se juega TeleEpic.
+23
+24 El subdirectorio TeleFiles que se encuentra en el
+25 El directorio Tele_Files contiene todos sus
+26 archivos de parámetros del oponente
+27
+28 El subdirectorio GameFiles que está en el
+29 El directorio Tele_Files contiene todos los
+30 Juegos guardados para TeleEpic.
+31
+32 Al directorio Tele_Files se le asigna el
+33 nombre de dispositivo lógico TELE+FILES:, de modo que
+34 el programa puede determinar si
+35 reside en un disquete o en un disco duro.
+36
+37 Los TeleJuegos, TeleWar, TeleWar II y
+38 directorios de archivos TeleEpic son compatibles
+39 con los de TeleEpic.  solo uno
+Se necesita el directorio 40 Tele_Files para dar servicio
+41 todos estos juegos.
+
+			Página 46
+
+1 Apéndice B: Uso de un disco duro
+2
+3 Para usar TeleEpic desde un disco duro, copie
+4 el siguiente directorio, archivos de programa y
+5 iconos a tu disco duro.
+6
+7 (1) programa TeleEpic
+8 (2) Cajón del directorio Tele_Epic
+9 (3) Cajón del directorio Tele_Files
+10
+11 No es necesario colocar estos archivos en la raíz
+12 directorio del disco duro.  pueden ser
+13 ubicado en cualquiera de los directorios o
+14 subdirectorios en tu disco duro.
+15
+16 Sin embargo, ahora será necesario asignar dos
+17 agregados a su secuencia de inicio en orden
+18 para el programa para localizar los directorios
+19 cada vez que se inicia.
+20
+21 Cada vez que enciendes tu Amiga, el
+22 secuencia de inicio, ubicada en la "S"
+23 directorio de su disco de arranque, se ejecuta.
+24
+25 Colocar las asignaciones aquí asegurará que
+26 tu Amiga siempre podrá funcionar
+27 TeleEpic sin ninguna dificultad o demora.
+28
+29 Entonces, ¿dónde
+30
+31 HD = tu disco duro dh0:, dh2:, etc.
+32
+33 DP = ruta del directorio a los directorios de TeleEpic
+34
+35 agrega las siguientes líneas a tu inicio
+36 secuencia.
+37
+38 Asignar EP: <HD>:<DP>/Tele_War
+39 ASIGNAR TELE+ARCHIVOS: <HD>:<DP>/Tele_Files
+40
+41
+
+				Página 47
+
+1 Solución de problemas
+2
+3 TeleEpic no se carga
+4
+5 1) ¿Tiene suficiente dinero disponible gratis?
+6 memoria para cargar TeleEpic?
+7 2) En un Amiga 512K solo un externo
+8 unidades deben estar conectadas y no
+9 otras tareas deberían estar ejecutándose.
+10 3) Verifique que su TeleEpic
+11 copia de trabajo no está dañada.
+12
+13 TeleEpic no marcará un número
+14
+15 1) ¿Está su módem conectado y encendido?
+16 2) ¿Están todos los parámetros de su módem
+17 configurados correctamente?
+18 3) ¿Es su módem compatible con el
+19 ¿Conjunto de comandos "AT"?
+20 4) De lo contrario, consulte el manual de su módem para
+21 un comando de marcación que podría funcionar,
+22 y escríbalo en el cuadro de comando de marcación.
+23 5) Si todo lo demás falla, pruebe Teleconnect.
+24 Otro método (página 45).
+25
+26 TeleEpic no contesta el teléfono
+27
+28 1) ¿Está su módem conectado y encendido?
+29 2) ¿Son correctos los parámetros de su módem?
+30 juegos?
+31 3) ¿Es su módem compatible con el
+32 ¿Conjunto de comandos "AT"?
+33 4) Si no, consulte el manual de su módem para
+34 un comando de respuesta que podría funcionar,
+35 y escriba en el cuadro de comando de respuesta.
+36 5) Pruebe el comando "ATA" para forzar la
+37 módem para contestar el teléfono (Seleccione
+38 Modo de recepción después del teléfono
+39 anillos).
+40 6) Si todo lo demás falla, pruebe Teleconnect.
+41 Otro método (página 45).
+
+				Página 48
+
+1 TeleConnected, pero el juego no funciona
+2
+3 1) ¿Están ambas computadoras configuradas de la misma manera?
+4 la misma velocidad en baudios?
+5 2) ¿Se INICIÓ un juego en una computadora?
+6 ¿Cuándo se realizó la Teleconexión?
+7 3) ¿Están ambas computadoras en el mismo mapa?
+8 4) Cuelgue y luego restablezca el teléfono
+9 contactos de voz para verificar el módem
+10 configuraciones y luego inténtelo nuevamente.
+11
+12 TeleConnected y jugando, luego no hay respuesta
+13
+14 1) ¿Sigues conectado? comprobar si
+15 la luz de detección de portador (CD) en su
+16 módem, si lo tiene.
+17 2) Escriba uno o dos mensajes.  el timbre
+18 puede despertar a tu oponente.
+19 3) Si usted o su oponente accedieron al
+20 menús, o pulsando el botón derecho del ratón
+21 botón cuando el otro estaba haciendo un
+22 movimientos, la transmisión de movimientos del juego puede
+23 han sido revueltos.
+24 4) Si la línea del mensaje ENVIAR se repite
+25 a la línea de mensaje RECV (con algunos
+26 módems), entonces estás desconectado.
+27 5) Si te han desconectado, primero
+28 GUARDAR juego.  Elija "Desconectar"
+29 opciones de menú.  Si el juego sigue
+30 activos y elemento de menú Ceder/End Game
+31 está fantasma, seleccione TeleConnect
+32 Modo OFF (incluso si ya estaba
+33 seleccionado) para forzar la activación del
+34 Elemento de menú Ceder/Finalizar juego.
+35
+36 Si has llegado al final de tu cuerda
+37
+38 Llame a nuestro BBS al (817) 244-4151 y solicite
+39 ayuda.  Ayudaremos todo lo que podamos.  pero
+¡La estrategia 40 en TeleEpic depende de ti!
+41
+
+				Página 49
+
+==============================================================================
+         DOCUMENTOS PROPORCIONADOS POR -+*+-THE SOUTHERN STAR-+*+- para M.A.A.D.                                                               
+==============================================================================

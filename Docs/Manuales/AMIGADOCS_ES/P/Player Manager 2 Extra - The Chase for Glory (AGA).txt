@@ -1,0 +1,2321 @@
+-- --- --> JUGADOR MANAGER 2 EXTRA <-- --- --
+
+                          - --> DOCUMENTOS COMPLETOS! <-- -
+
+
+                              PARA EMPEZAR
+                              ---------------
+
+A.AMIGA
+--------
+
+Inserte el Disco 1 en la unidad y encienda la computadora. Inserte el requerido
+disco cuando aparezca el solicitante.
+
+B. COMPATIBLES CON PC
+-----------------
+
+INSTALACIÓN DEL PROGRAMA: Inserte el disco clave e inicie sesión en la unidad correspondiente. cuando
+Aparece A: o B:, escriba Instalar y presione Intro.
+
+B.1 EJECUTANDO EL PROGRAMA: El programa necesita 4MByte de memoria y 550K de
+memoria convencional. Escriba PM2 y presione regresar.
+
+EL DISCO LLAVE DEBE DEJARSE EN LA UNIDAD PARA EJECUTAR EL PROGRAMA INSTALADO
+
+B.2 BORRAR SUFICIENTE MEMORIA PARA EJECUTAR EL PROGRAMA
+
+B.3 PC DOS: Si tiene DOS 6 o superior, presione F5 cuando aparezca el mensaje Iniciando
+MS-DOS se muestra al encender. Si es DOS 5 o inferior, deberá realizar una
+disco de arranque. Tenga en cuenta que aún necesitará cargar un controlador de mouse. si tu
+No sé cómo se llama, sigue la sección B.9 para encontrar la línea.
+que contiene el mouse, escríbalo en un papel, salga del programa. Ahora escribe la línea
+adentro y presione regresar. Esto instalará el controlador de su mouse. Ahora puedes correr
+PM2.
+
+B.4 CD ROM: normalmente se elimina la unidad inteligente que ocupa casi 1 M.Byte
+La memoria solucionará el problema; de lo contrario, tendrá que crear un disco de ARRANQUE.
+
+B.5 Para eliminar SMART DRIVE: Necesitará un EDITOR de DOS o algún tipo de
+Editor para realizar esta acción. DOS EDIT está en su directorio de DOS.
+
+B.6 TIPO: EDITAR C:\AUTOEXEC.BAT (Regresar)
+
+B.7 Se mostrará el listado de Auto EXEC. Mira el listado y
+Identifique la línea que comienza con la palabra SmartDrv. Insertar Rem antes de la palabra
+SmartDrv. Puede verse como se muestra a continuación.
+
+Rem SmartDrv 512K
+
+Ahora guarde el archivo y salga del programa manteniendo presionada la tecla ALT y presionando F.
+luego x.
+
+Presione Y para guardar el archivo editado.
+
+B.8 CREACIÓN DE UN DISCO DE INICIO: Antes de crear un disco de inicio, debe encontrar
+algunas líneas. Tipo
+
+B.9 Editar C:\Autoexec.bat (Volver)
+
+Busque una línea que contenga la palabra MSCD. Copie esta línea en papel. (Esto será
+llamarse línea 1). Busque una línea que contenga la palabra Mouse. Copia esto
+abajo también (Línea 2). Salga del programa manteniendo presionada la tecla ALT y luego
+presione F y luego X.
+
+B.10 Ahora escriba
+
+Editar C:\config.sys (Regresar)
+
+Busque la línea que contiene las palabras MSCD. Copie la línea hacia abajo (Línea 3).
+
+Salga del programa.
+
+B.11 Ahora está listo para crear un disco de ARRANQUE. Inserte un disco en blanco en su
+unidad y tipo:
+
+B.12 Formato A:/S
+
+Cuando se haya formateado el disco, escriba Editar A:\Autoexec.bat (Regresar).
+
+B.13 Se mostrará una pantalla en blanco. Tipo:
+
+@ECO APAGADO
+
+mensaje $p$p
+
+Ruta = c:\Dos
+
+Línea 1, es decir, escriba la Línea 1 del papel
+
+Establecer Blaster = A220 15 D1 H5 P330 T6
+
+Línea 2, es decir, escriba la Línea 2 del papel
+
+La línea 1 puede verse similar a C:\DOS\MSCDEX.EXE/D:MSCD001/V/M:15
+
+La línea 2 puede parecerse a LH C:\Mouse\Mouse.Com.
+
+Mantenga presionada la tecla ALT y presione F y luego X
+
+Responda Y para guardar el archivo editado.
+
+B.14 Ahora escriba
+
+Editar A:config.sys (Regresar)
+
+dispositivo = C:\dos\himem.sys
+
+dispositivo = C:\dos\emm386.exe noems
+
+Línea 3, es decir, escriba la línea 3 del papel.
+
+dos = alto, umb
+
+shell = C:\command.com c: /P
+
+La línea 3 puede verse como dispositivo =C:\SB16\drv\sbcd.sys/d=mscd001/p:220
+
+Mantenga presionada la tecla ALT y presione F y luego X. Responda Y para guardar los archivos editados.
+
+PC-DOS siga las instrucciones de B.12, B.13 y B.14.
+
+En B.13 omita la instrucción para escribir la Línea 1
+
+En B.14 omita la instrucción para escribir la Línea 3
+
+C. CD-ROM
+---------
+
+Coloque el CD en la unidad de CD ROM.
+
+Cuando aparezca el mensaje de MS DOS, escriba las letras del mensaje para la unidad, por ejemplo
+D: y presiona regresar.
+
+Escriba CONFIGURACIÓN y presione regresar.
+
+Se cargará la CONFIGURACIÓN. Ahora siga las instrucciones en pantalla.
+
+Para ejecutar el juego, asegúrese de que el CD esté en la unidad de CD ROM.
+
+Escriba CD\PM2 o ​​el nombre del directorio proporcionado y presione Intro.
+
+Escriba PM2 y presione regresar.
+
+BORRAR SUFICIENTE MEMORIA PARA EJECUTAR EL PROGRAMA - Ver B.4
+
+D. VENTANAS 95
+-------------
+
+D.1 Desde el escritorio de Windows 95, seleccione el botón "Inicio", luego el
+Opción "Apagar".
+
+D.2 En este punto aparecerá un diálogo. Seleccione `Reiniciar la computadora en
+MS-DOS y presione el botón "SÍ".
+D.3 La computadora descargará Windows 95 en este punto y lo regresará a
+el indicador de DOS.
+
+D.4 Aquí, simplemente ingrese la letra de su unidad de CD-ROM, para este ejemplo
+será "D".
+
+D.5 Escriba D: y presione enter.
+
+D.6 A partir de este punto, simplemente instala y ejecuta el juego normalmente.
+
+D.7 Nota: Si la letra de su unidad de CD ROM no parece estar disponible
+después de ingresar al modo MSDOS, probablemente se deba a que la unidad de CD ROM no está
+compatible correctamente con Windows 95.
+
+D.8 Para contrarrestar esto, simplemente reinstale el software en CD que vino con su
+conduzca y reinicie la computadora.,
+
+D.9 A continuación siga las instrucciones anteriores y cuando vuelva a ingresar al modo MS DOS,
+la letra de la unidad debería estar disponible para usted.
+
+E. JOYSTICK
+------------
+
+E.1 Necesitas un joystick para jugar en el campo.
+
+E.2 Un juego de dos jugadores requiere una tarjeta de juego de dos puertos. Si tienes tal
+tarjeta, asegúrese de haber desactivado el puerto del joystick en la tarjeta de sonido.
+
+No puedes usar un joystick divisor para un juego de 2 jugadores en el campo.
+
+E.3 No toque el joystick cuando salga de los Menús hasta que se inicie KICK OFF.
+tener lugar. Durante este tiempo, el joystick se activa automáticamente.
+calibrado.
+
+F. TARJETAS DE SONIDO
+--------------
+
+F.1 El programa soporta Sound Blaster o tarjetas compatibles con hardware.
+
+F.2 El menú de la tarjeta de sonido se mostrará con los valores predeterminados comúnmente utilizados.
+valores. Si su tarjeta de sonido tiene una configuración de canal IRQ o PORT diferente,
+modificar los valores mediante el teclado.
+
+F.3 El archivo modificado se guardará en el disco duro.
+
+F.4 Sin sonido: Verifique que se hayan establecido las configuraciones para la dirección del puerto, DMA e IRQ.
+correctamente en la utilidad de configuración.
+
+F.5 Si no conoce la configuración, utilice el software que viene con su
+tarjeta para determinar los valores correctos.
+
+F.6 Una vez que conozca estos valores, ejecute el programa SET UP en su CD.
+
+F.7 Guarde la configuración eligiendo la opción Guardar configuración.
+
+G. SALIR DEL PROGRAMA (SÓLO PARA PC)
+---------------------
+
+Cuando se muestre el complejo de oficinas, presione el botón Escape.
+
+H. REQUISITOS DEL DISCO DURO (SÓLO PC)
+-----------------------------------
+
+El programa requiere aproximadamente 20 MB de espacio en el disco duro para ejecutarse
+eficientemente.
+
+
+                             1.0 INTRODUCCIÓN
+                             ----------------
+
+1.1 A la edad de 28 años, estás en la cima de tu carrera, un jugador internacional.
+Has sido nombrado director de jugadores de un club de 2ª división. tu
+habilidades superiores y experiencia en el campo serán una gran ventaja para
+ganando un ascenso inicialmente, pero a medida que creces y la competencia se vuelve
+más difícil, la única manera de llegar a la cima es reuniendo el mejor equipo, usando
+tácticas que maximicen la fuerza de tu equipo y tener suficiente dinero
+en el banco para comprar el éxito cuando las cosas se ponen difíciles.
+
+1.2 Player Manager 2 es un juego de 1 a 4 jugadores.
+
+1.3 PM2 es un juego de gran profundidad. Cada aspecto de la gestión tiene
+significado. No se puede ignorar un aspecto y no pagar la penalización.
+
+1.4 Para aquellos que quieran concentrarse únicamente en la Gestión, existen
+Opciones de Predicción, Vigilancia, Escáner de gestión y Resaltado disponibles. en
+En los primeros años, contra equipos débiles, jugar en el campo puede darte más
+Resultados favorables, especialmente si eres un buen jugador. Esta ventaja
+desaparece a medida que envejeces y la oposición se vuelve más dura.
+
+1.5 Para aquellos que deseen jugar en el campo, hay dos opciones de juego.
+disponible. Normal y juego de roles. La opción NORMAL controla la
+jugador más cercano a la pelota y el JUEGO DE ROL se juega en un lugar preseleccionado.
+posición, es decir, medio campo, etc.
+
+1.6 También tienes cuatro vistas del campo para jugar. Cada vista tiene ciertas
+ventajas. Las vistas son arriba y abajo, arriba de lado a lado,
+Perspectiva e Isométrica.
+
+1.7 Hay cuatro divisiones en la liga, PREMIER, 1ª, 2ª y 3ª.
+Tres clubes ascienden y tres clubes descienden. hay dos
+competiciones de Copa nacionales y tres de Europa.
+
+Como todas las simulaciones, el resultado final depende de multitud de factores.
+y su mezcla. Te dejamos para que aprendas de tu experiencia.
+1.8 Hay una función para GUARDAR PARTIDA. NO GUARDE MÁS DE SEIS VECES EN UN
+TEMPORADA. Existen sanciones severas si excede este límite.
+
+1.9 SUBDIRECTOR: El Entrenador tiene que colgar las botas al cumplir 36 años.
+Se le permitirá nombrar un subgerente después de un año, es decir, para
+Un año no puedes jugar en el campo y debes concentrarte en la gestión.
+Una vez que el subdirector tenga un contrato de 3 años. Al vencimiento del
+contrato, el gerente tendrá que esperar un año antes de nombrar
+otro subgerente.
+
+                             2.0 CONTROLES DEL MENÚ
+                             -----------------
+
+2.1 Necesitará un mouse o un joystick para controlar los menús, pero para
+Para jugar en el campo necesitarás un joystick.
+
+2.2 RATÓN: Utilice el botón IZQUIERDO del ratón para SELECCIONAR un elemento.
+
+           Utilice el botón DERECHO del ratón para SALIR del menú.
+
+Algunos menús tienen un ícono LISTO en la esquina inferior derecha. Seleccione Listo para salir
+el menú.
+
+2.3 JOYSTICK: Joystick de dos botones: Úselo como mouse.
+
+              Joystick de un botón: use ESC en lugar del botón derecho del mouse.
+
+2.4 MÚLTIPLES JUGADORES: Cada jugador toma su turno para completar su
+gestión. El número en el cursor corresponde con el del jugador en
+controlar. Una vez que un jugador ha terminado la parte de gestión, hace clic en el
+Boot Room para terminar su turno. El número en el cursor cambiará y el
+El siguiente jugador toma el control. Cuando el último jugador haya completado el
+administración, se mostrará la Sala de arranque. El cursor mostrará el
+Número de jugador que juega el primer partido. El nombre del equipo controlado por
+el jugador también se mostrará en la pared.
+
+2.5 Cuando se utiliza el TECLADO para ingresar un valor, TERMINAR la entrada
+presionando la tecla ENTER o RETURN.
+
+Sonido 2.6 (SÓLO PC). Utilice las teclas especificadas para activar y desactivar el sonido.
+en cualquier momento.
+
+Música de fondo M
+
+Menú Efectos de sonido S
+
+Utilice las teclas + y - para ajustar el volumen.
+
+Los efectos de sonido en la parte de planificación no se pueden desactivar.
+
+                             3.0 MENÚS DE APERTURA
+                             -----------------
+
+Estos menús configuran el entorno del juego antes de que asumas la gestión.
+responsabilidades.
+
+3.1 MENÚ PRINCIPAL
+-------------
+
+3.1.1 JUEGO NUEVO: Comienzas un juego totalmente nuevo.
+
+3.1.2 RETO: Este es un desafío personal. Después de una temporada, eres
+establecer un objetivo de puntos a conseguir en la próxima temporada. Los puntos son
+otorgado por una variedad de logros como ascenso, cuarta final de la Copa F.A.
+victoria, etc
+
+3.1.2.1 Los puntos obtenidos se pueden utilizar para comenzar un NUEVO JUEGO en niveles superiores.
+divisiones. Suficientes puntos te permitirán gestionar equipos como Newcastle,
+Liverpool, Manchester United, etc., poderosos y ricos. Los puntos también pueden
+ser utilizado en cualquier momento durante el juego para buscar un nombramiento como gerente de
+otro club.
+
+3.1.3 KNOCK OUT: Un juego de 2 a 4 jugadores. Los jugadores empiezan en el mismo
+división. El juego continúa normalmente hasta que uno de los jugadores asciende.
+o relegado. El cronómetro comienza y, a menos que dentro de un período establecido, todos los jugadores
+vuelven a estar en la misma división, el último jugador queda eliminado. el juego
+continúa hasta que hay un ganador.
+
+3.1.4 CONTINUAR JUEGO: Esta opción se utiliza para continuar un juego previamente guardado.
+juego. Se muestra un directorio de los juegos guardados. Seleccione el nombre del archivo de
+el juego que deseas continuar.
+
+3.1.5 JUEGO DEMOSTRACIÓN: Este es un modo tutorial para familiarizarte con el
+Gane. La temporada comienza en la semana 12 y al final de la temporada el juego de demostración.
+regresa al menú principal. El juego de demostración te brinda la oportunidad de explorar
+todo el juego.
+
+3.2 CONFIGURACIÓN DEL JUEGO
+---------------
+
+3.2.1 NUEVO JUEGO
+
+3.2.1.1 EL ADMINISTRADOR: Al llegar al menú, aparecen cuatro caras del administrador.
+mostrado. Puede hacer clic en la cara para recorrer las caras disponibles.
+(Solo CD-ROM para PC)
+
+3.2.1.2 NOMBRE DEL ADMINISTRADOR: Haga clic en el nombre del administrador y luego use el teclado para
+inserte el nombre. Termine la entrada presionando la tecla Retorno. si tu
+Ha hecho clic accidentalmente en el nombre de un administrador, presione la tecla ESC para obtener la pelota.
+cursor hacia atrás.
+3.2.1.3 POSICIÓN: Se muestra la posición predeterminada. Para seleccionar una nueva posición,
+haga clic en la posición actual para recorrer otras posiciones.
+
+3.2.1.4 PUNTOS DE DESAFÍO: Se muestran sus puntos de desafío. cuanto más alto
+Cuantos más puntos, mejor será la elección. Puedes gestionar los mejores equipos como Newcastle,
+Hombre. Utd, Liverpool, Leeds, etc. Haga clic en el nombre de su equipo para mostrar el
+equipos disponibles.
+
+3.2.1.5 NOMBRE DEL EQUIPO: A cada jugador se le asigna un equipo de la 2ª división.
+Puedes seleccionar otro equipo. Haga clic en el nombre de su equipo para mostrar los equipos.
+disponible para su selección.
+
+3.2.1.6 JUEGO DE ROL: Se muestra el valor predeterminado NO. Tú controlarás el
+jugador más cercano a la pelota. Haga clic en él para cambiarlo a SÍ. ahora lo harás
+controlar únicamente al jugador que juega en la posición especificada en 3.2.1.3.
+
+3.2.1.7 DIVISIÓN: Todos los jugadores normalmente comienzan en la División 2 a menos que el desafío
+Se utilizan puntos. Se muestra la división en la que comienza cada gerente.
+
+3.2.1.8 NIVEL DE HABILIDAD: Hay 3 niveles de habilidad: NORMAL, FÁCIL y MUY.
+FÁCIL. El nivel de habilidad se aplica a todos los gerentes. Haga clic en la opción que
+desea seleccionar.
+
+3.2.1.9 TEMPORADA: Para cambiar el año, haga clic en los números a eliminar. Utilice el
+teclado para ingresar nuevos números. Presione la tecla ENTER para finalizar la entrada.
+
+                              4.0 PRETEMPORADA
+                              --------------
+
+En tu cita, tienes 6 semanas de Pretemporada antes de la temporada real
+comienza. La primera semana la pasa en la playa y luego cinco semanas en la oficina.
+Durante este tiempo podrás comprar y vender tantos jugadores como quieras. el
+El tamaño mínimo del equipo es 16 y el máximo es 24. También debes organizar
+entrenamiento físico riguroso ya que su equipo está semi-en forma. Las tareas en la primera
+semana son los siguientes.
+
+4.1 PATROCINIO (Inscripción: libro)
+-----------------------
+
+Tienes tres tipos de patrocinio. Efectivo directo, efectivo + recibos en puerta
+y bono en efectivo + premio por copa. Resalte la oferta que desea aceptar y luego
+seleccione Listo para confirmar la elección.
+
+4.2 ORGANIZAR AMIGOS (Entrada: teléfono)
+-----------------------------------------
+
+Tienes cinco amistosos que organizar. Puedes seleccionar cualquier equipo de la liga.
+o equipos en Europa. Haga clic en P.D. Wk2 (semana 2 de pretemporada) para mostrar el
+divisiones, haga clic en la división de su elección y los equipos en esa
+Se mostrará la división. Selecciona un equipo. Repita para P.D. Semana 3, 4, 5 y
+6. Para beneficiarte de los amistosos, debes comenzar con cualquiera de las divisiones inferiores.
+clubes y construir clubes más fuertes. Ver el juego o conseguir algo
+Una práctica útil con el joystick será una buena idea.
+
+4.3 REALIZAR CITAS (Entrada: portátil)
+-------------------------------
+
+Los contratos del ojeador, fisio y entrenador son anuales por lo que sus contratos
+debe renovarse cada año. Todos ellos tienen una calificación que se refleja en
+su salario. Las calificaciones van del 1 al 15, siendo 1 la más baja.
+calificación. Un entrenador de cinco estrellas importará mucha más habilidad en tu equipo en un
+período más corto que el de un entrenador de una estrella. Debes seleccionar un entrenador, fisio,
+ojeador y entrenador de porteros especializado antes de poder salir de la pretemporada
+menú. Sólo un ojeador de 5 estrellas puede buscar jugadores en Europa. Obteniendo lo mejor
+lo que puedes permitirte es dinero bien gastado.
+
+4.4 CONTRATOS DE ESCOLARES
+------------------------
+
+A partir de la segunda temporada, puedes inscribir a los colegiales en el equipo. tu
+puede entrenar a los jóvenes jugadores talentosos y venderlos a tiempo a la Premier
+clubes de división. Puedes pujar por hasta ocho jugadores siempre y cuando no
+exceder la fuerza máxima del escuadrón de 24.
+
+4.4.1 Los colegiales son jugadores renacidos que se retiraron o dejaron el fútbol por
+una razón u otra. Conservan sus nombres y posiciones de juego, es decir, un
+El extremo renacerá como extremo, pero sus estadísticas son diferentes y
+El entrenamiento y el manejo determinan en qué tipo de jugadores se convierten.
+
+4.4.2 Los colegiales empiezan con contrato de 3 años y se pueden comprar y vender.
+como cualquier otro jugador. Su precio durante los primeros años es muy bajo.
+
+            LOS CLUBES DE LA PRIMERA DIVISIÓN NO PUEDEN OFERTAR POR COLEGIALES
+4.4.3 FICHA EN COLEGIOS: explora la lista de jugadores y selecciona
+qué jugadores deseas comprar. Haga clic en la selección para cancelarla. una vez
+que ha seleccionado, su oferta se considerará frente a otras ofertas. si tu
+Si la oferta tiene éxito, los jugadores jóvenes se unirán a tu equipo.
+
+4.4.4 Los escolares son muy importantes para usted económicamente. puedes entrenar
+cuidarlo y, en general, cuidarlo y luego venderlos a buen precio.
+
+4.5 Cuando se hayan completado todas las tareas, seleccione LISTO para ir a su oficina
+complejo.
+
+                          5.0 EL COMPLEJO DE OFICINAS
+                          ----------------------
+
+El complejo de oficinas consta de ocho habitaciones.
+
+ARCHIVOS: Información sobre la liga, clubes, hot shots, historia del club, etc.
+
+DIRECTORES FINANCIEROS: Te brinda una visión general de las finanzas del club.
+
+SALA DE PRENSA: Todos los chismes y toda la información que puedas necesitar.
+
+SALA DE JUNTAS: Hábitat de tus jefes.
+
+DESPACHO DEL DIRECTOR: El centro neurálgico del club.
+
+SALA DEL ENTRENADOR: Entrenamiento y entrenamiento.
+
+SALA DE FISIO: Donde se atiende a los jugadores lesionados.
+
+SALA DE BOTAS: Preparación final antes del día del partido.
+
+Las funciones de cada oficina se describirán ahora con más detalle.
+
+SALIR DEL JUEGO: Pulsa la tecla Escape.
+
+                           6.0 OFICINA DEL GERENTE
+                           --------------------
+
+A medida que avanzas por la oficina del director, las funciones de los distintos elementos
+se mostrará en la parte inferior de la pantalla. Seleccionar el elemento tomará
+usted al menú. Los menús se explican por sí solos, pero se necesita una breve descripción.
+dado a continuación. Encontrará la oficina del gerente en la oscuridad (PC CD ROM
+únicamente) en partidos entre semana. Simplemente enciende las luces.
+
+6.1 EL EQUIPO (Entrada: Cuadro en la pared)
+------------------------------------------
+
+Tu equipo es el corazón de tu club. Cuídalo bien. Tamaño mínimo de
+la plantilla es de 16 y el máximo 24. Puedes editar los nombres de los jugadores.
+en tu equipo.
+
+6.1.0 CLASIFICACIÓN DEL EQUIPO: la clasificación de su equipo se muestra en la parte superior. Hay 64 equipos
+en la liga. La calificación muestra su posición basándose únicamente en el promedio.
+valor de 16 de los mejores jugadores de tu plantilla. Si has gastado mucho
+dinero comprando jugadores, tu CLASIFICACIÓN DE EQUIPO aumentará. si tu liga
+entonces la posición no mejora dramáticamente, usted ha comprado tontamente y
+La junta no estará muy contenta. Intenta conseguir una posición más alta en la Liga.
+que la calificación del equipo. Cuanto mayor sea la brecha, mejor lo habrá hecho en
+mercado de fichajes. Utilice su experiencia en Compra y Venta de jugadores para
+impresionar a la junta y su evaluación.
+
+6.1.1 TÁCTICAS: Las tácticas del partido actual se muestran en la parte superior. tu puedes
+cambia las tácticas haciendo clic en él. Pasará por 4 seleccionados
+tácticas de partido. Para cambiar las tácticas de partido, consulte 7.4.
+
+6.1.1.1 Los colores de las camisetas en la 2da columna cambiarán según
+tácticas, indicando el tipo de jugador requerido para las tácticas seleccionadas.
+El color de las camisetas es el siguiente. Esta es una clasificación amplia.
+
+Verde --> Guardián
+
+Azul --> Defensor
+
+Amarillo --> Mediocampo
+
+Rojo --> Adelante
+
+6.1.2 NOMBRES: La primera columna detalla los nombres de todos los jugadores en el
+escuadrón. Puedes editar los nombres de los jugadores de tu plantilla.
+
+6.1.2.1 EDITAR NOMBRES DE JUGADORES: Los nombres se editan en los Datos del jugador.
+pantalla. Consulte 6.1.3.2 para acceder a la pantalla. Haga clic en el nombre. uso
+el teclado para ingresar el nuevo nombre y presione la tecla Retorno.
+
+6.1.3 INFORMACIÓN DEL JUGADOR
+
+6.1.3.1 La información del jugador proporciona información detallada sobre cada jugador.
+en el equipo para ayudarte a administrar el equipo.
+
+6.1.3.2 ACCESO: Seleccione el jugador primero. Se muestra un panel en la parte inferior.
+esquina izquierda con flechas a cada lado. Haga clic en las flechas para mostrar una.
+de las siguientes opciones y luego seleccione la opción.
+
+a) DATOS DEL JUGADOR Ver 6.2
+
+b) EVALUACIÓN Ver 6.1.9
+
+c) RENDIMIENTO: Este es un registro de los datos del partido de un jugador durante 28 semanas.
+Rendimiento de la LIGA. Los registros de copa no se muestran. Si no ha jugado
+En un partido, se mostrará una cruz. Para darle tanta información como sea posible
+posible, la cifra de rendimiento se muestra de forma continua, es decir, si
+es sólo el sexto. semana de la temporada, las cifras de rendimiento son hasta la semana 5 para
+la temporada actual y el resto son de la temporada pasada.
+
+d) RÉCORDS: Se muestran los récords personales del jugador.
+
+e) COMPARACIÓN: Muestra las habilidades o atributos de todo el escuadrón. Haga clic
+en el encabezado para recorrer las habilidades y atributos.
+
+6.1.4 SELECCIONAR EL EQUIPO DEL PARTIDO: Solo puedes seleccionar jugadores disponibles. el
+La primera columna muestra la disponibilidad del jugador. Un jugador puede ser
+no está disponible por las siguientes razones.
+
+(a) Heridos: Cruz Roja
+
+(b) Enfermo: Cruz Verde
+
+(c) No apto: Corazón Rojo
+
+d) Int. Deber: Gorra Roja
+
+(e) Suspendido: S - Muestra Tarjeta Roja
+
+Un corazón amarillo muestra que el jugador está SEMI FIT y puede jugar si
+necesario.
+
+6.1.4.1 La segunda columna muestra el tipo de jugador requerido para el seleccionado
+tácticas. Seleccione el tipo correcto de jugador para la posición. La tercera columna
+Muestra la posición natural de juego del jugador. Hay 11 tipos de
+jugadores específicos. El tipo está codificado por colores como en 6.1.1.1. para conseguir lo correcto
+tipo de jugador en la posición correcta, coincide con las camisetas. Si no es así
+Si es posible hacerlo, busque el jugador que mejor se adapte a sus necesidades. Por ejemplo,
+la táctica requiere un defensa central pero tienes defensores. mira su
+adaptabilidad además de otras estadísticas.
+
+6.1.4.2 Para mover un jugador de una posición a otra, simplemente haga clic en el
+dos nombres.
+
+6.1.5 Un número de camiseta para una táctica dada define las funciones del
+jugador que lleva esa camiseta. Hemos definido ampliamente estas funciones como 11
+posiciones. Las posiciones son las siguientes:
+
+Defensa central (CBK): Defensor central.
+
+Full Back (FBK): Defendiendo jugando de lado. Jugador en general
+                                tiene un ritmo mejor que el promedio.
+
+Defensor (DEF): Defensor de utilidad.
+
+Playmaker (PMK): un mediocampista utilizado para distribuir el
+                                pelota.
+
+Mediocampo (MID): Buena capacidad de pase.
+
+Mediocampista general (MGN): Tipo de mediocampista luchador.
+
+Extremo (WNG): Jugando de banda. Tiene ritmo alto.
+
+Delantero Centro (CFW): Un delantero que juega en posición central.
+
+Target Man (TMN): Se utiliza junto con extremos como
+                                Receptor de balones cruzados.
+
+Delantero (STK): Buen delantero goleador.
+
+Los jugadores que juegan en estas posiciones tienen una combinación única de atributos físicos.
+y habilidades. Consulte 19.0 para obtener una explicación detallada.
+
+6.1.6 EDAD: El rango de edad es de 16 a 35 años. Un escolar de 16 años no es realmente
+listo para un partido de liga y, si se usa, debe usarse con moderación. Su resistencia
+También es un poco sospechoso. En su 36 cumpleaños, un jugador se retira. como un
+A medida que el jugador envejece, algunos, no todos, sus atributos y habilidades se deterioran.
+
+6.1.7 CLASIFICACIÓN DE ESTRELLAS: Un Jugador tiene una calificación de 1 a 5 en esa división. Un 5 estrellas
+Un jugador de 1ª división sólo podrá puntuar con 3 estrellas en la división Premier.
+Las calificaciones de estrellas le brindan una comparación amplia de las capacidades comercializables de
+los jugadores de la plantilla.
+
+6.1.7.1 AMIGA - PC DOS: Si un jugador está clasificado, se muestra su clasificación
+en lugar de su nivel de habilidad.
+
+6.1.8 EVALUACIÓN DEL ENTRENADOR: Esta es una evaluación general de un jugador por parte del
+entrenador. Toma en cuenta varios factores como la experiencia y el rendimiento del partido.
+cuenta. Un entrenador es tan bueno en su evaluación como en su calificación y
+experiencia.
+
+6.1.9 CALIFICACIÓN DEL ENTRENADOR: Cuando accedes por primera vez a la pantalla del equipo, esta columna
+quedará en blanco. Seleccione EVALUACIÓN como se detalla en 6.1.3.2. Un nuevo panel
+mostrarse. Seleccione el jugador a evaluar haciendo clic en su nombre en
+esta columna.
+
+Ahora puedes hacer tu propia evaluación de cualquier jugador. Puedes decidir cual
+habilidades que deseas tener en cuenta y cuánta importancia deseas
+Darlo en valoración global. Por ejemplo, un delantero puede tener todos los
+habilidades, pero si tiene mal genio, es decir, su temperamento es bajo, no es
+va a ser de mucha utilidad.
+
+6.1.9.1 Habilidades: se muestran las calificaciones de cada habilidad. lo importante
+Se resaltan las habilidades según la posición del jugador y la habilidad general.
+Se muestra la calificación. Puedes incluir otras habilidades o eliminar una habilidad seleccionada
+de consideración haciendo clic en él. La calificación general puede cambiar como
+Se forma una combinación diferente.
+
+6.1.9.2 Atributos: Como 6.1.9.1
+
+6.1.9.3 Evaluación: La tabla muestra una lista de 7 factores que pueden ser
+importante para llegar a una evaluación global. Consulte COMPRENSIÓN DE LAS ESTADÍSTICAS en
+la parte posterior del manual para las habilidades y atributos que debes concentrar
+activado para un determinado tipo de jugador. Los factores son:
+
+Habilidades y atributos
+
+Resistencia: Necesitas resistencia si el campo es pesado o puede haber tiempo extra.
+
+Adaptabilidad: Solo se debe considerar si tienes que jugar con él.
+posición.
+
+Experiencia: Las habilidades del jugador y algunos atributos disminuyen, pero su experiencia
+Puede ser valioso, especialmente en ocasiones importantes como partidos de copa o derbi.
+
+Rendimiento: esta calificación se basa en el rendimiento de partidos recientes.
+
+Disciplinario: si tienes un árbitro duro, tu historial disciplinario puede ser un
+problema.
+
+Temperamento: ¿Puede el jugador mantener la calma cuando está bajo presión?
+
+6.1.9.4 Se otorga una calificación a cada título. Puedes decidir cómo
+importante es un aspecto. Por ejemplo, puedes dar habilidad - 50%, Atributos
+- 30%, Experiencia - 5%, Desempeño - 15%, Otros - 0% importancia. cada uno
+El jugador debe ser evaluado de forma diferente y regular durante la temporada.
+
+6.1.9.5 La calificación general se mostrará como calificación del Gerente. Una vez que tu
+Si tienes un buen entrenador, podrás confiar en sus consejos.
+
+6.1.10 RANKING: Este es un ranking de liga. Hay 20 porteros clasificados de
+1 al 20. Estos son los 20 mejores porteros en ese orden en los 64 clubes del
+liga.
+
+Hay 20 defensores, centrocampistas y delanteros clasificados. La clasificación es
+evaluado cada semana.
+
+6.1.10.1 AMIGA - PC DOS: Ver 6.1.7.1
+
+6.1.11 TARJETAS: Muestra el número de tarjetas amarillas recibidas por el jugador. un
+El jugador que recibe su cuarta tarjeta amarilla es suspendido por las próximas 2 semanas y
+no está disponible durante 2 partidos. Un jugador con tarjeta roja será suspendido por 3 semanas.
+
+6.1.12 CONTRATO: Un Jugador que muestre 0 en esta columna saldrá al final
+del año en curso. Puedes renovar su contrato en el menú Datos del jugador.
+El jugador podrá rechazar el contrato. El motivo principal de la negativa es que el
+El jugador no está contento en el club. No se le han dado suficientes oportunidades.
+para jugar en el club.
+
+6.1.12.1 Tienes dos opciones:
+
+             un. Dale algunos juegos para levantarle la moral y vuelve a intentarlo.
+
+             b. Negociar un contrato con él.
+
+6.1.12.2 Cuando un jugador rechaza un contrato, un solicitante se acercará a preguntar
+usted si desea negociar el contrato.
+
+6.1.12.3 Si selecciona la opción SÍ, se muestra un panel que muestra su
+oferta actual y la demanda del jugador. Puede cambiar el salario semanal y
+el periodo del contrato. El jugador podrá modificar su demanda. puedes dejar de fumar
+negociaciones en cualquier momento o llegar a un acuerdo con el jugador.
+
+6.1.12.4 ADVERTENCIA: Piense detenidamente antes de negociar un contrato individual como
+Destruye la estructura salarial del club. Otros jugadores pedirán más
+dinero cuando llegue el momento de renovar su contrato.
+
+6.1.13 LISTA DE TRANSFERENCIA O PRÉSTAMO: Siguientes mensajes/iconos (solo PC CD ROM)
+aparecer.
+
+Teléfono Rojo :Tr. Listado: El jugador ha sido transferido en la lista.
+
+Teléfono Amarillo :Tr. Solicitud: El jugador solicita una transferencia.
+
+Teléfono Verde :Rec Oferta :Se ha recibido oferta para el
+                                         jugador.
+
+White Telephone :Loan Lstd :El jugador está en la lista de préstamos.
+
+6.1.14 PARTES INTERNACIONALES: Las selecciones otorgadas por las selecciones nacionales son
+visualizado.
+
+GORRA ROJA: El jugador está en servicio internacional.
+
+GORRA AMARILLA: Pasado Internacional.
+
+GORRA AZUL: Internacional vigente.
+
+6.1.15 APARICIONES: El número de apariciones en el club realizadas por el jugador son
+mostrado.
+6.1.16 NACIONALIDAD: Se muestra la Nacionalidad del jugador.
+
+6.1.16.1 AMIGA - PC DOS: La Nacionalidad del jugador solo se muestra
+a la hora de seleccionar la plantilla para los partidos europeos. Luego reemplaza el
+apariencias.
+
+6.2 DATOS DEL JUGADOR
+---------------
+
+Los datos del jugador brindan detalles muy completos del jugador. es un
+información así como un menú de acciones.
+
+ACCESO: Ver 6.1.3.2
+
+6.2.1 Se muestra la siguiente información: NOMBRE del jugador y su
+VALORACIÓN DEL CLUB, EDAD del jugador, POSICIÓN de juego, CLASIFICACIÓN, RANKING y
+NACIONALIDAD.
+
+6.2.2 CLASIFICACIÓN: Si bien la Clasificación es un indicador divisional de la puntuación de los jugadores
+habilidad, la clasificación puede cambiar de una semana a otra. Un jugador puede ocupar el puesto uno.
+semana y no la siguiente.
+
+6.2.3 NACIONALIDAD: La liga contiene jugadores de 16 naciones.
+
+6.2.3.1 Competiciones europeas: solo puedes utilizar 4 en el extranjero
+jugadores en competiciones europeas. Cualquier jugador que no sea de nacionalidad inglesa.
+Es un jugador extranjero.
+
+6.2.3.2 Internacionales: El jugador puede ser convocado para jugar por su
+país.
+
+6.2.3.3 Se muestra la cara de un jugador representativo. Muestra la MORAL del jugador.
+Tiene 5 etapas desde muy feliz hasta deprimida. (Sólo CD-ROM para PC).
+
+6.2.4 HABILIDADES Y ATRIBUTOS: Una combinación de habilidades y atributos físicos.
+Los atributos definen de forma única a un jugador. El gráfico de barras muestra cada habilidad y
+atributo. Un marcador te da el promedio divisional como guía, para que puedas
+ver cómo se compara el jugador con el resto de jugadores de esa división.
+
+6.2.5 Los colores de la barra son los siguientes
+
+Rojo por debajo del promedio
+
+Naranja Promedio
+
+Amarillo por encima del promedio
+
+La evaluación de las habilidades y atributos de cada jugador individual es la
+aspecto más importante del trabajo de un Gerente.
+
+6.2.6 Los ATRIBUTOS son los siguientes:
+
+6.2.6.1 RITMO: Velocidad del jugador. El ritmo disminuye a medida que el jugador se pone
+cansado. Ya sabes lo útil que es tener ese metro extra de ritmo. El ritmo es
+el principal atributo de un extremo y, en cierta medida, de un lateral.
+
+6.2.6.2 ACELERACIÓN: Determina qué tan rápido un jugador llega a su máximo
+ritmo.
+
+6.2.6.3 RESISTENCIA: Afecta directamente el ritmo y las habilidades. Un jugador cansado no puede estar
+que ágil o preciso en el tiro. Consulte 7.2 para mejorar la resistencia.
+
+6.2.6.4 RESILIENCIA: Un jugador con baja resiliencia puede lesionarse.
+más a menudo.
+
+6.2.6.5 AGILIDAD: Determina qué tan rápido un jugador puede pasar el balón por debajo.
+controlar.
+
+6.2.6.6 VISIÓN: La visión se trata de leer el juego. Un jugador con buena visión.
+no pasará automáticamente el balón al jugador más cercano, sino que verá cuál
+El jugador puede utilizar mejor la pelota. Un requisito importante para un Armador de Jugadas.
+
+6.2.6.7 ADAPTABILIDAD: Un jugador con alta adaptabilidad jugará de manera competente
+fuera de su posición natural.
+
+6.2.6.8 AGRESIÓN: Un jugador con alta agresividad irá a por el balón. el
+también puede cometer falta contra el árbitro a menos que tenga un buen tackle,
+Habilidades de control y buen temperamento.
+
+6.2.6.9 FLAIR: Un jugador con mucho talento es codicioso e importante
+Requisito para un delantero.
+
+6.2.6.10 TEMPERAMENTO: Un jugador con buen temperamento se mantendrá tranquilo bajo
+presión y no dejarse intimidar por la oposición. Cuanto mayor sea el
+temperamento, más frío es el comportamiento.
+
+6.2.7 HABILIDADES DEL JUGADOR
+
+6.2.7.1 PASAR: La habilidad de pasar es probablemente la habilidad más importante para un
+Jugador especialmente para centrocampistas.
+
+6.2.7.2 TIRO: Muestra la precisión del tiro del jugador, muy importante
+por un delantero.
+
+6.2.7.3 ENTRADA: La capacidad de recibir el balón y no cometer falta contra el jugador es
+la medida de abordar. La medida del abordaje es una habilidad importante para
+un defensor o un mediocampista.
+
+6.2.7.4 CONTROL: La habilidad para controlar el balón.
+
+6.2.8 HABILIDADES DEL PORTER
+
+El portero tiene su propia medida de habilidades. Las habilidades especiales de Guardián son como
+sigue:
+
+6.2.8.1 LANZAMIENTO: Qué tan lejos el portero lanza o hace rodar la pelota.
+
+6.2.8.2 PATADA: Hasta dónde patea el balón el portero.
+
+6.2.8.3 GUARDIA: Determina la habilidad del guardián para lanzarse y atrapar.
+
+6.2.8.4 SALTO: La altura que puede saltar para lanzar el balón por encima de la barra.
+6.2.8.5 MANEJO: Su anticipación de salirse de la línea.
+
+6.2.9 COMPARACIONES: Si en algún momento deseas ver un atributo en particular
+o habilidad para todo el equipo junto, selecciona comparaciones en la parte inferior
+esquina izquierda.
+
+6.2.10 EDITAR NOMBRES DE JUGADORES: Puedes editar el nombre de un jugador. Haga clic en el nombre
+para eliminar el nombre actual. Utilice el teclado para ingresar un nuevo nombre. terminar
+la entrada con la tecla Retorno.
+
+6.2.11 PANEL DE ACCIONES: Se muestra a la derecha.
+
+6.2.11.1 DISPONIBILIDAD: Si un jugador está disponible para ser seleccionado, se mostrará una marca.
+mostrado. Si no está disponible la duración y el motivo de su ausencia.
+se muestra.
+
+6.2.11.2 TARJETAS: Muestra tarjetas disciplinarias.
+
+6.2.11.3 INT. ESTADO: Muestra si el jugador ha sido limitado y si
+es Internacional Actual o Internacional Pasado.
+
+6.2.11.4 INT. CAPS: Número de caps ganados por el jugador.
+
+6.2.11.5 SALARIOS: El jugador recibe dinero por aparición equivalente a su salario si
+él juega en la cancha. Si juega dos veces por semana, tendrá dos apariciones.
+honorarios más los salarios mostrados.
+
+6.2.11.6 PRÉSTAMO: Si deseas prestar un jugador, haz clic en esta opción.
+Puedes ceder un jugador durante 4 a 7 semanas. Seleccione el número de semanas. el
+El jugador pasará a estar incluido en la lista de préstamos.
+
+6.2.11.7 TRANSFERENCIA: Si desea transferir un jugador, seleccione esta opción.
+El jugador aparecerá en la lista de transferencias. Solo puedes transferir la lista de 2 jugadores en
+1 semana.
+
+6.2.11.8 CANCELAR TRANSFERENCIA: Puede cancelar la lista de transferencia seleccionando
+la opción de transferencia. No puedes cancelarlo en la misma semana en la que el
+El jugador estaba en la lista de transferencia. Puedes prestar un máximo de 4 jugadores en un
+año.
+
+La lista de transferencias se cierra a partir de la semana 25. Entonces se cierra toda la lista de transferencias.
+cerrado.
+
+6.2.11.9 PRECIO DE VENTA: Puede establecer un precio de venta diferente al precio
+mostrado para el jugador. Si quieres vender un jugador rápidamente, reduce el
+precio. También puedes establecerlo más alto si realmente no quieres vender un jugador.
+solicitando un traslado.
+
+6.2.11.10 CONTRATO: Puedes renovar el contrato de un jugador. Máx. la duración es 3
+años. Seleccione la duración.
+
+6.2.11.11 APARICIONES Y METAS DE TEMPORADA: Muestra el número de veces que
+jugador ha jugado sobre el terreno de juego y el número de goles que ha marcado en el
+presente temporada.
+
+6.2.11.12 APARICIONES Y METAS EN LA CARRERA: Total acumulado de lo anterior en
+toda su carrera.
+
+6.3 LISTA DE ACCESORIOS (Entrada: Tablero en la pared)
+---------------------------------------
+
+La lista de partidos le ofrece una lista de todos los partidos conocidos de la temporada.
+Los partidos de copa, repeticiones y partidos aplazados se añaden a medida que se vuelven
+conocido.
+
+6.3.1 ASISTENCIA: La última columna muestra la asistencia a cada partido, una
+Muy buen indicador de tu desempeño.
+
+6.4 LAS CUENTAS (Entrada: Laptop)
+--------------------------------
+
+Las cuentas en la oficina del gerente son semanales. El saldo se lleva
+Adelante para la próxima semana. Todos los gastos fijos se calculan después
+El partido del sábado. Si hay un partido a mitad de semana, las puertas y los jugadores
+El dinero de apariencia se incluye en los gastos de inmediato. las cuentas son
+se explica por sí mismo. Debes mantener una estrecha vigilancia sobre las cuentas, de no hacerlo
+por lo que puede provocar su despido.
+
+6.5 EL SCOUT (Entrada: Laptop)
+-----------------------
+
+Hay 5 grados de exploradores. Sólo un explorador con calificación de 5 estrellas puede buscar
+jugadores en Europa. La calidad determina la clase del jugador que encuentra.
+Puedes indicarle que busque 3 jugadores a la vez. Seleccione el
+encabezado Jugador 1. Ahora haga clic en cada subtítulo para mostrar las opciones
+disponible. Por ejemplo, haga clic en Tipo y Portero, Defensor, Mediocampo y
+Se muestran hacia adelante. Haz tu elección. Ahora puedes darle al explorador
+instrucciones detalladas.
+
+6.5.1 Cuando se hayan dado todas las instrucciones, el scout dará 1 de 4
+respuestas: No hay problema, hago lo mejor que puedo, Muy difícil o Imposible.
+
+6.5.2 Los dos últimos indican que es posible que tenga que esperar mucho tiempo para encontrar un
+jugador. Puedes relajar las condiciones lo suficiente como para conseguir uno de los dos primeros.
+respuestas.
+
+6.5.3 Puede cancelar las instrucciones de exploración en cualquier momento haciendo clic en Cancelar
+Inst.
+6.5.4 Oferta por un jugador explorado: Cuando el Informe Scout de un jugador
+cambia de No a Sí, haga clic en Sí para ir a la lista de jugadores que ha encontrado.
+Seleccione el jugador por el que desea ofertar y irá directamente a la oferta.
+pantalla. Siga el procedimiento detallado en 6.10.
+
+6.5.5 VISITA: Cuando seleccionas esta opción, puedes darle al Scout algunas
+instrucciones específicas.
+
+6.5.5.1 VER: Puedes ver los resultados previstos de tantos partidos como quieras.
+deseo. La predicción te mostrará los jugadores utilizados, las incidencias, el jugador
+actuaciones, etc. Cada partido se juega en tiempo real y, por lo tanto, puede
+proporcionar información valiosa sobre otros equipos. La selección se hace a partir de eso.
+calendario de la semana y por lo tanto sólo es válido durante 1 semana. Seleccione el
+división para mostrar la lista de partidos de la división y seleccionar los juegos a
+ver.
+
+6.5.5.2 SEGUIR: Selecciona cualquier equipo de la liga para seguir. la instrucción
+permanecerá operativo hasta que se cancele. Seleccione la división para mostrar la
+equipos de la división.
+
+6.5.5.3 OBSERVACIÓN: Puedes indicarle a tu ojeador que vigile a cualquier jugador en el
+liga. Seleccione el equipo para mostrar el equipo. Selecciona el jugador.
+
+6.5.5.4 El propósito de esta instrucción es observar al jugador antes de
+comprándolo. Al seleccionar el reproductor, se muestra la siguiente información.
+mostrado.
+
+Nombre, edad, posición, clasificación, clasificación, operador y objetivos de temporada y
+Apariciones y precio estimado de Scouts que depende de sus calificaciones.
+
+6.5.5.5 En esta etapa, tiene la opción de cambiar de opinión y seleccionar
+otro jugador. Una vez que procedas con la selección, esta opción se cierra.
+durante 3 semanas. El Scout informará después de 3 semanas.
+
+6.5.5.6 INFORME SCOUT: El Scout regresará con lo siguiente
+información adicional.
+
+Rendimiento del jugador, Evaluación Scout, Duración del contrato, Precio esperado.
+
+6.5.5.7 COMPRAR JUGADOR SCOUTED: Puedes ofertar por este jugador seleccionando SÍ
+opción. Lo llevará directamente a la pantalla de oferta.
+
+6.5.5.8 CANCELAR: Cancela la instrucción Seguir.
+
+6.6 LA OPOSICIÓN (Entrada: Laptop)
+----------------------------------
+
+La oposición te da la siguiente información.
+
+6.6.1 El equipo: muestra el equipo contrario completo. Los nombres de los jugadores,
+su posición de juego y los 5 mejores goleadores. Para ver el registro de desempeño
+de cualquier jugador, haz clic en el nombre. Su actuación a lo largo de 28 semanas de liga
+Se mostrarán los juegos. Si la semana actual es 7, entonces las primeras 6 semanas serán
+ser de la temporada actual y el resto de la temporada pasada.
+
+6.6.2 Comparación: Esto compara tu equipo seleccionado actual con el
+equipo contrario utilizado en el último partido. Compara a los porteros, la defensa,
+mediocampo y delanteros en las habilidades pertinentes.
+
+Si la barra está a la derecha, el oponente tiene ventaja y si la barra
+está a la izquierda, tienes la ventaja. La longitud y el color de la barra.
+muestra el grado de ventaja. Colores claros 0 a 50%, Colores oscuros 51
+al 100%.
+
+6.6.3 Formulario: El formulario muestra los resultados de la oposición en los últimos 5 partidos en casa o
+partidos fuera de casa dependiendo de si juegan en casa o fuera.
+
+6.7 TABLAS DE LIGA (Entrada: Filofax)
+----------------------------------
+
+Una referencia útil para ver las clasificaciones, resultados y calendarios de tu
+propia división.
+
+6.7.1 KNOCK OUT: Se muestran las posiciones de los jugadores.
+
+6.7.2 EL DESAFÍO: Se muestra el estado del desafío hasta el momento.
+
+6.8 DISEÑADORES TÁCTICOS (Entrada: Caballete)
+------------------------------------
+
+En el programa se proporcionan ocho tácticas. Estos son bastante estándar
+tácticas y es posible que no se adapten a las necesidades especiales de su escuadrón. tu puedes
+ahora afina cualquiera de estas tácticas o diseña cualquier número desde cero.
+
+6.8.1 La base del diseño táctico es que mueves el balón desde el cuadrado.
+cuadrar y posicionar a los jugadores en el terreno de juego con respecto al balón. tu
+Puedes diseñar la táctica con tu jugador en posesión del balón (Ataque).
+o el contrario con el balón (Defensa).
+
+6.8.2 Puede utilizar la función Ray Trace para garantizar que las rutas de los jugadores
+no cruces y que no les pidas que se alejen demasiado porque es posible que no
+tener suficiente ritmo para llegar a la nueva posición.
+
+6.8.3 Hay varios íconos en la parte superior y a la izquierda del campo.
+
+Los iconos son los siguientes.
+
+6.8.3.1 Ataque: Táctica cuando se tiene la posesión del balón.
+
+6.8.3.2 Defensa: Táctica cuando los oponentes tienen el balón.
+
+6.8.3.3 Ray Trace: Traza la posición de los jugadores hasta por 5 movimientos
+de la pelota.
+
+6.8.3.4 Copiar: Copia la posición de los jugadores para una posición del
+pelota a la siguiente posición de la pelota.
+
+6.8.3.5 Cargar y guardar: Puede cargar cualquier táctica existente, modificarla y guardarla.
+en su disco/disco duro.
+
+6.8.3.6 Posición: Especificar los números de camiseta utilizados en defensa, mediocampo y
+zonas adelantadas.
+
+6.8.3.7 Ver: Tu equipo está en el campo.
+
+6.8.3.8 Oposición: El equipo contrario está en el campo.
+
+Puedes ver ambos equipos simultáneamente.
+
+6.8.3.9 Esquina superior
+
+ATAQUE: Posición de tus jugadores cuando estás sacando un córner.
+
+DEFENSA: Posición de tus jugadores cuando los contrarios sacan un córner.
+
+6.8.3.10 Saque de meta
+
+ATAQUE: Posición de tus jugadores cuando el portero contrario realiza un gol.
+patada.
+
+DEFENSA: Posición de tus jugadores cuando tu portero ejecuta el saque de meta.
+
+6.8.3.11 Inicio
+
+ATAQUE: Pateas.
+
+DEFENSA: La oposición arranca.
+
+6.8.3.12 Esquina inferior: Como en 6.8.3.9
+
+6.8.4 Empezar: cuando vas al Diseñador de tácticas, aparece una táctica predeterminada.
+ya está cargado. Puedes modificar y adaptar esta táctica o cargar otra.
+tácticas para modificar o formar la base de una nueva táctica.
+
+6.8.5 Cargando una táctica: selecciona el ícono Cargar. Un directorio de ocho
+Se mostrarán tácticas prediseñadas. También puedes cargar un previamente
+tácticas diseñadas. Seleccione el ícono del disco para cargar una táctica guardada.
+
+6.8.6 Guardar una táctica: utilice el icono Guardar. NO PUEDES guardar una táctica en
+el título ya utilizado para tácticas prediseñadas.
+
+6.8.6.1 AMIGA: Necesitará un disco formateado para guardar las tácticas. Insertar un
+disco en blanco formateado en la unidad antes de seleccionar la opción Guardar. el
+El disco SAVE puede almacenar 10 tácticas y 5 partidas guardadas.
+
+PC: Las tácticas se almacenan en el disco duro.
+
+6.8.7 MOVER LA BOLA: Mueve el cursor a la bola. Presione el botón izquierdo del mouse
+botón. Mantén presionado el botón y arrastra la bola a la nueva posición.
+Suelte el botón.
+
+6.8.8 MOVER UN JUGADOR: Mueva el cursor al jugador y mueva el jugador como
+tú haces la pelota.
+
+6.8.9 Las tácticas de ataque y defensa son diferentes. Selecciona uno u otro
+por ej. Ataca y mueve la pelota a cada casilla por turno. Para cada posición de
+el balón, mueve a los jugadores a sus nuevas posiciones. Necesitas arreglar el
+Posición de los jugadores para los saques de esquina, saques de banda y saques de meta.
+
+6.8.10 Utilice la función Ray Trace para garantizar que los jugadores no se crucen entre sí.
+los caminos de otros. Los movimientos de los jugadores deben limitarse, de lo contrario
+Los jugadores no estarán en posición. Por supuesto que puedes diseñar tramos profundos.
+
+6.8.11 COPIAR: Esta facilidad te permite copiar la posición de los jugadores.
+para la posición de la pelota a otro cuadrado. Por ejemplo, si desea hacer
+la posición del cuadrado 2 es la misma que la posición del cuadrado 5, seleccione Copiar
+opción. Luego haces clic en 5 y luego en 2.
+
+6.8.12 POSICIONES: Antes de ir a la opción Guardar, debes definir las
+Posición de juego de cada jugador, es decir, defensa, mediocampo o delanteros. cuando
+Si seleccionas esta opción, el tono se dividirá en tres secciones:
+Delantero, Mediocampista y Defensa. Coloca a tus delanteros en la sección delantera.
+y así sucesivamente. Colocarlos con precisión en la posición en la que jugarán también es
+importante, es decir, si 7 es extremo y mediocampista y la táctica es 4-2-4, coloque
+él desviado en el área del medio campo pero justo en el límite uniéndose al delantero
+área. La pantalla que organices se utilizará en Team Talk. Estudia uno de los
+Tácticas, por ejemplo.
+
+                          6.9 TRANSFERENCIAS Y PRÉSTAMOS
+                          -----------------------
+
+Las opciones de transferencias y préstamos son una parte muy importante de la gestión.
+
+6.9.0.1 Se accede a las transferencias y préstamos en los Datos del jugador de un jugador.
+Para obtener los datos de jugador de cualquier jugador, simplemente haga clic en la columna de disponibilidad
+del jugador requerido en el Equipo en la oficina del Gerente.
+
+La lista de transferencias y préstamos se cierra a partir de la semana 25. Cualquier jugador que aún esté en la lista
+La lista de transferencias o préstamos se eliminan de la lista.
+
+6.9.0.2 Las opciones de transferencia y préstamo se muestran en la columna verde en
+la derecha.
+
+6.9.1 VENDER UN JUGADOR: Para vender un jugador, lo pones en el
+Lista de transferencias.
+
+6.9.1.1 Haga clic en Transferir y aparecerá "Tr. Listed" junto a la opción.
+
+6.9.2 REGLAS.
+
+6.9.2.1 Sólo puedes poner 2 jugadores en la Lista de Transferencias en una semana.
+
+6.9.2.2 No se puede Transferir Listar a un jugador lesionado o a un jugador que ha
+sido cedido a otro club.
+
+6.9.2.3 Si un jugador se lesiona después de haber sido incluido en la lista de transferencias con una cruz roja
+aparecerá junto a su nombre en la Lista de Transferencias.
+
+6.9.2.4 ELIMINAR UN JUGADOR DE LA LISTA DE PRÉSTAMOS: Para eliminar un Tr. Jugador listado
+desde la Lista de transferencias, simplemente haga clic en la transferencia.
+
+6.9.2.5 Un jugador debe permanecer en la Lista de transferencias durante una semana, es decir, puede
+No cambies de opinión inmediatamente.
+
+6.9.2.6 No puedes transferir a la lista un jugador que hayas comprado antes de que haya sido
+contigo durante 4 semanas.
+
+6.9.3 Listado de préstamo de un jugador: seleccione la opción Préstamo. Puedes prestar un
+jugador durante 4 a 7 semanas. Seleccione el período.
+
+6.9.3.1 Eliminar jugador de la lista de préstamos: haga clic en Préstamo para cancelar el
+instrucción.
+
+6.9.4 OFERTA RECIBIDA: Si tu jugador está en una lista de transferencia, mantente atento
+en la columna Transferencia/Préstamo en la pantalla del equipo. Si un club puja por tu
+jugador, aparecerá un mensaje "Oferta recibida" o un TELÉFONO VERDE. esto
+El mensaje puede aparecer incluso si su jugador no figura en la lista de transferencias. Tu jugador
+ha sido explorado por otro club.
+
+6.9.4.1 Para vender este jugador, haga clic en el mensaje Oferta recibida y
+vaya directamente a la pantalla de ofertas.
+
+6.9.5 PANTALLA DE OFERTA: La pantalla de oferta se utiliza tanto para comprar como para vender un
+jugador.
+
+6.9.5.1 VENDER UN JUGADOR: Si estás vendiendo un jugador, tu precio de venta
+aparece en la parte superior. Se muestra el precio que los postores están dispuestos a pagar. un
+El cursor parpadeará para darle la oportunidad de cambiar el precio. el
+El postor puede volver a ofertar con un precio más alto o retirarse.
+
+6.9.5.2 Si hay más de un postor, los postores podrán competir contra
+entre sí hasta que quede sólo un postor. Todo lo que tienes que hacer es presionar el
+Tecla de retorno para mostrar que no estás cambiando tu precio.
+
+                           6.10 COMPRAR UN JUGADOR
+                           --------------------
+
+Selecciona el tipo de jugador que deseas comprar. Una lista de jugadores será
+mostrado. Selecciona el jugador que deseas comprar.
+
+6.10.1 Puedes comprar o intentar comprar 2 jugadores y ver un total de 4
+jugadores en una semana.
+
+6.10.2 Cuando seleccionas un jugador de la lista, estás mirando el
+jugador. Se muestra el precio de venta. Puede ingresar su oferta. Presione el
+Tecla de retorno para finalizar la entrada. El vendedor responderá en uno de tres
+maneras.
+
+a) Dar un nuevo precio.
+
+b) Aparecerá una cruz AZUL junto a la oferta para invitarle a aumentar la
+oferta.
+
+c) Aparecerá una cruz ROJA para finalizar la transacción, es decir, desaparecer.
+
+6.10.3 Puede, en el caso de (a) o (b), ingresar una nueva oferta. la transacción
+está completo cuando dos precios son iguales.
+
+Cuando aparece una cruz roja, no tienes otra opción que dejar la pantalla de oferta como
+el vendedor se ha ido.
+
+La venta podría bloquearse después de que su junta directiva haya acordado el precio si
+Sienten que pondrá en peligro las finanzas del club.
+
+Puedes guardar una partida hasta el momento en cualquier momento. Si estás jugando un desafío
+juego, al final de un desafío exitoso, se te pedirá que guardes el
+juego. Si tu próximo desafío falla, puedes cargar el juego guardado y
+Continuar el desafío nuevamente. Por favor tenga cuidado de no SOBREESCRIBIR esto
+ranura concreta.
+
+6.11.1 HAGA CLIC EN CAJÓN. Se mostrará un menú con 20 espacios. Seleccione el
+ranura que desea utilizar. Si un juego ya está guardado, se sobrescribirá.
+Utilice el teclado para insertar el nombre del archivo y finalizar la entrada con
+Tecla de retorno.
+
+6.11.2 AMIGA: Antes de guardar una partida por primera vez, debes tener una
+disco formateado en blanco listo. Para formatear un disco, consulte su Amiga
+manuales. Este disco se puede utilizar para guardar cinco juegos y diez tácticas. esto será
+se llamará GUARDAR disco. Puede tener tantos discos guardados como desee.
+
+6.11.3 PC: Cada JUEGO GUARDADO necesitará 350K de espacio en el disco duro.
+
+                               7.0 EL ENTRENADOR
+                               -------------
+
+Después del entrenador, el entrenador probablemente desempeña el papel más importante en el
+desarrollo del plantel. Hay cinco grados de entrenador. Cuanto mayor sea el
+grado, mejor será el entrenamiento.
+
+7.1 EL ENTRENADOR (Entrada: El hombre cerca del pizarrón)
+----------------------------------------------------
+
+Se muestra el detalle del cuerpo técnico y sus especialidades. si
+Se ha nombrado un subdirector que formará parte del cuerpo técnico.
+personal. Los porteros son entrenados por un entrenador de porteros especializado. el especialista
+Se nombra en el menú de Pretemporada.
+
+7.1.1 Las actividades de entrenamiento se dividen en dos partes - PRÁCTICA DE EQUIPO
+y COACHING DE GRUPO.
+
+Durante la temporada, el número de horas asignadas para el entrenamiento es de 20.
+
+7.1.2 El entrenamiento se realiza 4 días a la semana, a saber, lunes, martes,
+Jueves y viernes. Cada sesión diaria es de 5 horas. La práctica en equipo es
+asumido por todo el personal en conjunto, mientras que el Coaching grupal lo realiza cada uno
+miembro del personal de forma individual.
+
+7.1.3 Sólo puedes realizar una actividad cada día. Seleccione una actividad para
+cada día.
+
+7.2 PRÁCTICA EN EQUIPO (Entrada: Máquina para correr)
+------------------------------------------
+
+Hay ocho elementos para la práctica en equipo. Puedes asignar tiempo a cada uno.
+actividad. Cuanto más practiques, más experto te volverás y mejor
+ejecución.
+
+7.2.1 Cuatro tácticas de partido: normalmente se utilizan dos de las cuatro tácticas. tu
+Debería familiarizarse con estos dos. Los otros dos necesitan ocasionalmente
+refrescante.
+
+7.2.2 Los córners y los tiros libres necesitan mucha práctica para lograr un tiro real.
+diferencia. Ambos se llevan automáticamente al campo. Cuanto mayor sea el
+familiaridad, más probabilidades tendrás de anotar. También se necesita familiaridad.
+en cuenta al predecir el resultado.
+
+7.2.3 Five a Side mejora la resistencia y la moral del equipo. En lanzamientos pesados,
+Los jugadores necesitan mucha resistencia.
+
+7.2.4 La aptitud física afecta las habilidades y atributos de los jugadores. Un jugador necesita ser
+totalmente apto para producir resultados.
+
+7.3 ENTRENAMIENTO DE GRUPO (Inscripción: Jugador Permanente)
+
+A cada miembro del cuerpo técnico se le puede asignar una habilidad de entrenamiento por día.
+día. Las actividades son Tiro, Pase, Entrada, Control y Cabeceo.
+La plantilla se divide en 3 categorías, Defensores, Mediocampo y Delanteros.
+
+7.3.1 La barra que se muestra frente a cada jugador muestra su estado de habilidad actual
+para la actividad mostrada en el encabezado. El marcador muestra la DIVISIONAL
+promedio de la habilidad. Si entrenas al jugador, verás su habilidad.
+mejorando y la mejora en la habilidad se refleja en su precio.
+
+7.3.2 En la parte inferior se muestran cinco íconos, uno para cada habilidad. para dar
+el jugador que entrena, primero seleccione el miembro del personal y luego el día. el
+Se resaltará la columna del día apropiado. Seleccione la habilidad que desea
+entrenador. Aparecerá una letra apropiada, es decir, S para disparar, junto al
+miembro del personal seleccionado. Antes de seleccionar al miembro del personal, tenga en cuenta la
+siguiendo en mente.
+
+7.3.3 Idoneidad del Cuerpo Técnico: Todo el plantel tiene una especialidad
+y por lo tanto darán un mejor entrenamiento en su especialidad particular. el
+La competencia para cada habilidad frente a cada tipo se detalla a continuación:
+
+                Tiro Pases Entradas Control
+
+Defensor MAL PROMEDIO MEJOR OK
+
+Medio campo OK MEJOR PROMEDIO OK
+
+Delantero MEJOR PROMEDIO MAL OK
+
+7.3.4 El número óptimo de jugadores que un miembro del personal puede manejar durante un
+habilidad es su calificación de estrellas + 1. Se muestra una barra contra cada miembro del
+cuerpo técnico con un marcador. El marcador indica el número máximo de
+jugadores que puede entrenar.
+7.3.4.1 Seleccionar los jugadores para entrenar. Al seleccionar los jugadores, la barra
+comenzará a llenarse. El color de la barra cambiará de amarillo a rojo.
+si excede el no. de jugadores más allá de su capacidad, lo que denota que
+el entrenamiento será pobre.
+
+7.3.4.2 Un mismo jugador no puede ser entrenado el mismo día por dos jugadores diferentes.
+miembros del personal.
+
+7.3.4.3 Seleccionar cuidadosamente a los jugadores a entrenar. No desperdicies entrenamiento
+tiempo, p.e. dándole entrenamiento de tiro a un defensor. Si tienes dudas,
+haga clic en el icono en la esquina inferior izquierda. Él lo indicará con un tic
+Marque qué jugador necesita ese entrenamiento de habilidad en particular. Una cruz indica
+NO.
+
+7.3.4.4 CAMBIO: La pantalla de la barra ahora muestra el cambio en la habilidad desde el
+inicio de temporada. Haga clic en el encabezado para recorrer otras habilidades.
+
+7.3.5 FATIGA: Los jugadores jóvenes se cansan fácilmente y se vuelven propensos a sufrir lesiones.
+Mire el factor de fatiga y dé descanso a los buenos jugadores para partidos sin importancia.
+dar experiencia a otros jugadores y evitar que soliciten
+transferencias. Tenga mucho cuidado con la frecuencia con la que se utilizan los reproductores. No quemes un
+jugador joven.
+
+7.4 TÁCTICAS (Entrada: Tablero en la pared)
+----------------------------------
+
+Puedes utilizar cuatro tácticas en un partido. La táctica más importante es
+las tácticas de INICIO del partido. Puedes intercambiar tácticas, es decir, hacer cualquiera de las cuatro
+tácticas a tácticas de INICIO.
+
+7.4.1 Para cargar una nueva táctica, descarta una de las tácticas del partido. Seleccione el
+tácticas para ser descartadas y luego hacer clic en la papelera.
+
+7.4.2 Seleccione las tácticas a cargar desde el directorio y luego haga clic en
+el puesto vacante.
+
+7.4.3 Intercambiar las nuevas tácticas con el espacio vacante en las tácticas de partido.
+mesas.
+
+7.4.4 Normalmente se utilizan las mejores tácticas. La segunda y tercera táctica son
+Tácticas de reserva, una para ataque total y otra para defensa total.
+
+La cuarta táctica es una táctica de guardería que consiste en afinar la primera.
+tácticas. Se entrena para esta táctica y cuando los jugadores están lo suficientemente
+familiar reemplace las tácticas iniciales con las nuevas tácticas. entonces puedes bien
+afinar la segunda táctica.
+
+7.5 EVALUACIÓN (Entrada: Gráfico mural)
+----------------------------------
+
+El entrenador da la valoración del primer equipo Delanteros, Centrocampista,
+Defensa y Guardianes en las habilidades importantes para esa posición. Seleccione el
+icono para mostrar su evaluación del primer equipo y la plantilla, p. el
+Los defensores del primer equipo y todos los defensores de la plantilla.
+
+7.5.1 COMPARACIÓN: El entrenador también da la valoración relativa del
+Fortalezas generales de todos los equipos de la división.
+
+7.6 HOJA INFORMATIVA (Entrada: Primer cajón)
+------------------------------------
+
+La hoja informativa es una muestra y un registro de un vistazo de aspectos importantes de
+el desempeño del equipo hasta la fecha. Contra el nombre de cada jugador y su forma de jugar.
+posición, se muestran los siguientes datos del partido.
+
+7.6.1 Nº de camiseta, puntos por rendimiento del partido, goles y tarjetas, si las hubiera. si el
+jugador resultó lesionado, Tarjeta Roja, Suspendido, En Int. Deber, etc., el
+Se mostrará información en lugar del número de camiseta.
+
+7.6.2 Podrás ver si has jugado con un jugador en el mismo
+posición, partido tras partido y su desempeño en esa posición. tu puedes
+ver quién está mejorando el rendimiento. De hecho, se pueden hacer muchas cosas
+leer en esta hoja.
+
+7.7 INFORMES DEL EQUIPO (Entrada: Segundo Cajón)
+---------------------------------------
+
+Visualización gráfica de los efectos del coaching en las habilidades y el rendimiento del equipo.
+
+7.7.1 HABILIDADES DEL EQUIPO: Las cinco habilidades para cuatro tipos de jugadores son
+mostrado. El gráfico muestra una comparación de cada habilidad con las
+promedio divisional de esa habilidad. Si el promedio de, por ejemplo, el
+La habilidad de tiro de todos los delanteros del equipo es menor que la divisional.
+promedio de tiro de los delanteros, la barra está en rojo. si
+el amarillo es mayor. La barra general de la lista compara el promedio de
+todas las habilidades del tipo seleccionado de jugadores contra el promedio divisional.
+La visualización de la barra GENERAL compara el promedio de todas las habilidades del conjunto.
+equipo al promedio divisional. El color de la pantalla es rojo, naranja o
+amarilla dependiendo de que el promedio de la plantilla sea menor, igual o mayor que el
+promedio divisional.
+
+7.7.2 HABILIDADES DEL PRIMER EQUIPO: Como arriba para el primer equipo.
+
+7.7.3 REGISTROS DE HABILIDAD: El promedio de las habilidades de Guardianes, Defensores,
+Los centrocampistas y delanteros de toda la plantilla están trazados en todo el
+temporada.
+
+7.7.4 RENDIMIENTO DEL EQUIPO: Muestra los resultados y el promedio del partido.
+puntos de rendimiento de porteros, defensores, centrocampistas y delanteros para
+todos los partidos de la temporada.
+
+7.7.5 RESISTENCIA - FIVE A SIDE: La resistencia depende del entrenamiento Five A Side.
+El gráfico muestra el promedio de resistencia del equipo durante toda la temporada. el
+Las horas dedicadas al entrenamiento Five A Side también se muestran para que el efecto
+se puede ver directamente. La mejora o el deterioro no son inmediatos.
+
+7.7.6 APTITUD - ENTRENAMIENTO FÍSICO: El promedio de aptitud física del equipo (excluyendo
+jugadores lesionados) se traza para toda la temporada, así como el Fitness
+Entrenamiento impartido al plantel. Nuevamente los efectos no son aparentes.
+inmediatamente.
+
+7.8 RENDIMIENTO DEL JUGADOR
+----------------------
+(Entrada: seleccione el nombre del jugador en los datos del partido)
+
+Un informe de cada jugador de la plantilla.
+
+7.8.1 TARJETAS: Muestra cuándo el jugador recibió tarjetas amarillas y rojas durante el
+temporada. También se muestran su agresividad y temperamento.
+
+7.8.2 El TIEMPO perdido por el jugador por lesión hasta estar en condiciones de jugar
+se muestra para la temporada. También se muestra la resiliencia del jugador.
+
+7.8.3 APTITUD - FATIGA: La condición física y la fatiga del jugador a lo largo de la temporada se
+mostrado.
+
+7.8.4 RENDIMIENTO: Se muestran los puntos de rendimiento del jugador.
+
+7.8.5 HABILIDADES GENERALES: El promedio de las habilidades relevantes del jugador.
+en comparación con el promedio divisional para la temporada.
+
+7.9 MENSAJES DEL ENTRENADOR (Entrada: Tercer Cajón)
+----------------------------------------
+
+El entrenador son tus ojos y oídos en el vestuario. Presta atención a su
+mensajes.
+
+                                8.0 FISIO
+                                ----------
+
+El fisioterapeuta atiende a los jugadores lesionados y enfermos. Hay cinco grados
+de fisio. Cuanto mejor sea el fisio, mejor será el tratamiento, de ahí la
+Acortar el tiempo de lesión del jugador.
+
+8.1 LISTA DE LESIONES: (Entrada: Cuadro al final de la Cama)
+
+Todos los jugadores lesionados están listados. Contra cada nombre la duración del
+Se da la recuperación de una lesión. También se da el diagnóstico. en el primero
+semana de la lesión, tienes la opción de seleccionar el tratamiento.
+
+8.2 El tiempo de recuperación se muestra si utiliza el médico del club. tienes el
+opción de utilizar un tratamiento privado o contratar a un especialista. Estas dos opciones
+cuestan más pero pueden reducir el tiempo de recuperación. aptitud del jugador
+se deteriora a medida que pasan las semanas. Cuando se haya recuperado de una lesión o
+enfermedad, el fisioterapeuta se hace cargo.
+
+8.3 Contra cada jugador también se enumeran otros 3 períodos que serán necesarios
+antes de que el jugador esté en plena forma.
+
+8.4 FISIO: Este es el tiempo que el fisio necesita para llevar al jugador a una
+cierto nivel de condición física. Este tiempo depende de la calidad del fisio.
+y el deterioro de la forma física de los jugadores.
+
+8.5 El fisio y el entrenador trabajan juntos para que el paciente alcance un 90% de forma física.
+
+8.6 ENTRENADOR: Especifica el tiempo necesario para ponerse en plena forma.
+
+                       9.0 DIRECTOR FINANCIERO (F.D)
+                       ----------------------------
+
+Como era de esperar, el director financiero tiene la responsabilidad general de
+las finanzas del club. Los entrenadores van y vienen, pero los clubes están ahí para siempre.
+Los libros de la oficina de F.D son muy útiles para tener una visión general del club.
+finanzas.
+
+9.1 SALARIOS
+---------
+
+Esto da los salarios actualizados de cada jugador. Contra cada jugador están
+registró su salario básico hasta la fecha y el monto total pagado hasta la fecha.
+
+Cada jugador recibe un salario básico y dinero de aparición igual a su salario básico.
+cada vez que juega en el campo. Si hay un partido a mitad de semana, puede
+Obtenga dinero por apariencia dos veces. Haga clic en el nombre para obtener todos los detalles.
+
+9.2 INGRESOS
+----------
+
+Esto suma todos los ingresos hasta la fecha.
+
+9.3 GASTO
+---------------
+Aquí se detallan todos los gastos hasta la fecha.
+
+BONIFICACIÓN 9.4 (Entrada: Imagen en la pared):
+---------------------------------------
+
+Hay dos tipos de bonificación que se pueden otorgar.
+
+9.4.1 BONO DE GANANCIA: Este es un bono de incentivo otorgado a los jugadores que obtienen
+aparición en el próximo partido. Sólo obtienen el bono si ganan.
+
+9.4.2 BONIFICACIÓN EN EFECTIVO: bonificación incondicional otorgada a todo el equipo como moral
+refuerzo.
+
+9.4.3 Para otorgar un bono, seleccione el tipo y aparecerá un cursor. Utilice el
+teclado para ingresar la cantidad y finalizar la entrada con la tecla Retorno.
+
+9.4.4 Utilice CANCELAR para cancelar el bono. Una vez que haya salido de la pantalla,
+No puedo cancelar el bono.
+
+9.4.5 La JUNTA podrá bloquear el bono. Aparecerá una cruz y tu entrada.
+será eliminado. Ingrese el nuevo bono.
+
+9.4.6 Se muestra el monto total del bono.
+
+9.5 MEJORAS DEL ESTADIO
+------------------------
+
+Necesitas mejorar la capacidad de tu estadio desde el principio.
+Una mayor capacidad le permitirá tener mayores multitudes para los partidos de copa si
+Tienes suerte de conseguir un div premier. club. Necesitará puertas grandes para
+sobrevivir en las divisiones superiores.
+
+9.6.1 Debes proporcionar cobertura total para los espectadores, es decir, cubrir ambos lados.
+y extremos del estadio antes de que el club pueda ascender a la primera
+división. No hacerlo resultará en la pérdida de la promoción incluso si usted
+han ganado la división.
+
+9.6.2 El estadio debe contar con iluminación adicional y calefacción subterránea.
+antes de que puedas ascender a la división Premier.
+
+9.6.3 Puede solicitar las mejoras en cualquier momento, pero se realizarán después
+La temporada ha terminado y está lista al comienzo de la nueva temporada.
+
+9.6 TOME UN DESCANSO (Entrada: Imagen en la pared):
+----------------------------------------------
+
+Esto es un refuerzo moral. Hay una opción de ubicación, actividades y
+duración. Cuando haya elegido las tres opciones, se mostrará el costo. tu
+puede cancelar la elección y hacer una nueva selección.
+
+9.7.1 Antes de darle un descanso al equipo, asegúrate de que puedes permitírtelo.
+
+                              10.0 SALA DE JUNTAS
+                              ---------------
+
+La junta directiva en general apoya mucho al gerente. Sin embargo se mantiene
+vigila de cerca las finanzas y bloqueará su oferta por un jugador si la oferta
+pondrá en peligro las finanzas del club. También le impedirá vender un
+jugador demasiado barato. La junta espera que usted produzca resultados de acuerdo con
+la calificación de tu equipo.
+
+10.1 Podrás acudir a la Sala de Juntas en cualquier momento. Verás a la secretaria.
+ocupado en el trabajo. Hay 3 libros sobre su mesa. Cada libro contiene importantes
+información.
+
+10.2 MENSAJES DEL CONSEJO (Entrada: Libro Rojo)
+-------------------------------
+
+De vez en cuando, el tablero te envía mensajes. Pueden ser advertencias o
+mensajes de aliento o simplemente comentarios sobre usted o el equipo
+rendimiento.
+
+10.2.1 Su calificación actual del tablero y la calificación a lo largo de la temporada también son
+mostrado. La calificación se realiza mensualmente y es una medida del desempeño de la Junta.
+satisfacción con su desempeño en el club. Si cae por debajo de un
+En cierto momento, lo convocarán a la sala de juntas y lo alfombrarán. si el
+Si su desempeño continúa deteriorándose, será despedido.
+
+10.3 CALIFICACIONES (Entrada: Libro Azul)
+-------------------------------
+
+Las calificaciones muestran su desempeño en ese campo hasta el momento. Esta información es
+Se utiliza para evaluar la calificación general del Gerente. Todas las calificaciones se realizan en
+mensualmente.
+
+10.3.1 CALIFICACIÓN FINANCIERA: Muestra qué tan bien ha administrado las finanzas del club.
+
+10.3.2 COACHING: Muestra la mejora general en todos los aspectos de
+entrenamiento.
+
+10.4 INFORMACIÓN VITAL (Entrada: Libro Amarillo)
+------------------------------------------
+
+Esta es quizás la información más útil sobre la cual puedes evaluar tu
+rendimiento hasta el momento.
+
+10.4.1 ASISTENCIA A LA LIGA: Muestra la relación entre el desempeño en
+la Liga y la asistencia
+
+10.4.2 CLASIFICACIÓN DEL EQUIPO: La clasificación del equipo y la posición de la liga se trazan en la
+mismo gráfico. La brecha entre ambos demuestra tu habilidad en el Transfer
+mercado. Si su posición en la liga es mayor que la calificación de su equipo, tiene
+BIEN hecho. Cuanto mayor sea la brecha, mejor lo habrás hecho. Si tu calificación es
+más alto que su posición en la liga, el presidente se pondrá nervioso. si
+Si la brecha se hace grande, él estará detrás de tu cabeza en un plato.
+
+10.4.3 RESULTADOS: Muestra los resultados locales y visitantes de los partidos de liga.
+El resultado mostrado para cada semana es la diferencia entre tu y el
+meta de la oposición.
+
+10.5 CONVOCATORIA A SALA DE JUNTA:
+
+Estos son los mensajes prioritarios del consejo que transmite el presidente
+personalmente al gerente. La citación llega cuando estás en tu oficina.
+La puerta marcada como Sala de juntas se abre y lo convocan a la Sala de juntas.
+
+                             11.0 OFICINA DE PRENSA
+                             -----------------
+
+11.1 Equipo Internacional (Entrada: Tablón de Anuncios)
+----------------------------------------------
+
+Se enumeran los jugadores seleccionados para Inglaterra. La segunda lista muestra la
+jugadores extranjeros en la liga llamados al deber internacional por su
+países.
+
+11.2 ANCO TIMES (Entrada: News Rack)
+----------------------------------
+
+Informes de coincidencias factuales. Uno para cada gerente.
+
+11.3 NOTICIAS DE CALIENTE (Entrada: Televisión)
+----------------------------------
+
+Chismes, escándalos, despidos y mucho más. Las noticias te mantienen informado de
+lo que está sucediendo en otros lugares y puede ser útil.
+
+11.4 ASCENSOS Y DESLEGADOS (Entrada: Imagen de la Copa en la pared)
+------------------------------------------------------
+
+Esto enumera los ascensos y descensos del año pasado.
+
+11.5 VACANTES Y NOMBRAMIENTOS (Entrada: Fax)
+----------------------------------------------------
+
+La liga es notificada de los nuevos nombramientos y rescisiones de contratos
+ya sea por dimisiones o despidos del directivo.
+
+Si está interesado en una vacante, haga clic en la vacante para ver la
+detalles.
+
+Tendrás la oportunidad de postular a la vacante. si el tablero
+está de acuerdo, se le dará una respuesta de inmediato. asumirás
+responsabilidad en el nuevo club inmediatamente.
+
+11.6 CLASIFICACIONES DE ENTRENADORES Y JUGADORES (Entrada: Computadora portátil)
+------------------------------------------------
+
+La barra en la parte superior muestra:
+
+a) Entrenador, Jugador, Sub 21.
+
+b) Mes, Año.
+
+c) Prem., 1º, 2º, 3º y Club.
+
+Se resaltará una de las opciones de cada grupo.
+
+11.6.1 ADMINISTRADOR DEL MES: Muestra el Gerente del mes para cada
+división y la clasificación de cada gerente en la división.
+
+11.6.2 JUGADOR DEL MES: Jugador del mes y mejores jugadores de cada
+Se muestran las divisiones.
+
+11.6.3 JUGADOR DEL MES SUB 21: Como 11.6.2 para jugadores menores de 21 años.
+
+11.6.4 CLASIFICACIÓN DEL CLUB: Muestra los 16 mejores jugadores del club desde el inicio del
+temporada.
+
+11.6.5 GERENTE DEL AÑO: Muestra el ranking de los gerentes hasta el momento para
+cada división y Gerente del Año para cada división.
+
+11.6.6 JUGADOR DEL AÑO: Muestra el ranking de los 16 mejores jugadores de cada
+división hasta el momento para cada división.
+
+11.6.7 JUGADOR DEL AÑO SUB 21: Igual que arriba para el jugador sub 21.
+
+11.7 CUADRO DE HONOR (Entrada: Libro Sobre La Mesa)
+----------------------------------------------
+
+Récords de Entrenador, Jugador y Jugador Sub 21 del año para cada división en
+el año anterior.
+
+                               12.0 ARCHIVOS
+                               -------------
+
+Esto le brinda información completa sobre los 64 clubes de la liga y muchos
+más. Esta información se puede utilizar con gran ventaja.
+
+12.1 Hay en total cinco bastidores etiquetados como:
+
+La Liga, Récords, Clubes, Campeones y Copas
+
+12.2 LA LIGA:
+----------------
+
+El rack tiene cuatro estantes, uno para cada división. Cada estante da eso
+Calendario, resultados y tablas de la división.
+
+12.3 CLUBES:
+-----------
+
+Este rack también cuenta con cuatro estantes, uno para cada división. Selecciona la división
+para mostrar los nombres de los clubes de la división.
+
+12.3.1 Seleccione el club para ver el historial, los antecedentes, los partidos y la plantilla.
+
+12.3.2 HISTORIAL: Muestra las posiciones del club en la liga, ascensos,
+descensos y el número de veces que ganaron cualquiera de los campeonatos nacionales o
+Copas de Europa.
+12.3.3 PLANTILLA: Proporciona una lista de los nombres, edades, posiciones, clasificaciones,
+rankings, nacionalidades y partidos internacionales.
+
+12.3.4 ANTECEDENTES: Una fuente de información muy útil sobre el club. todos ustedes
+Necesito saber sobre el club.
+
+12.3.5 PARTIDOS: El calendario de partidos del club.
+
+12.4 REGISTROS:
+-------------
+
+Esto le brinda información como la puerta más alta, el máximo goleador, etc.
+
+12.4.1 HOT SHOTS: Se enumeran los máximos goleadores de cada división.
+
+12.4.2 JUGADORES CLASIFICADOS: 20 mejores porteros, defensores, centrocampistas y delanteros
+en la liga están listados.
+
+12.4.3 TRANSFERENCIAS ANTERIORES: Se proporcionan detalles de 50 transferencias pasadas. como el nuevo
+Las transferencias entran, las transferencias antiguas se desplazan hacia la parte superior.
+
+                              13.0 SALA DE ARRANQUE
+                              --------------
+
+Esta es la última sala antes de ir al partido. Una vez que haya seleccionado
+Boot Toom, no puedes volver a ninguna otra habitación del complejo de oficinas.
+hasta que se haya jugado ese partido.
+
+13.1 JUGADORES MÚLTIPLES:
+----------------------
+
+Si juega más de un jugador, cada jugador irá a la Sala de arranque. cuando
+ha realizado todas sus tareas, hace clic en la ventana del día del partido.
+
+13.2 El cursor cambiará para el siguiente jugador y este completará su
+tareas y su turno haciendo clic en la ventana. Cuando todos los jugadores hayan
+tomado su turno, al hacer clic en la ventana accederá al día del partido de
+el primer encuentro que es independiente del número de jugador.
+
+13.3 EVALUACIÓN PREVIA AL PARTIDO:
+--------------------------
+
+Hay una evaluación previa al partido de Alan Hansen.
+
+13.4 FINAL DE TEMPORADA:
+-------------------
+
+Cuando se hayan completado todos los accesorios, la Boot Room se cerrará para
+usted. Puede navegar por el complejo de oficinas y consultar archivos, cuentas
+etc. La sala de arranque ahora cambiará a una escena de playa. Haga clic en esto para finalizar
+la temporada.
+
+                              14.0 DÍA DEL PARTIDO
+                              --------------
+
+14.1 Los dos equipos contrarios se muestran junto con el árbitro. tienes el
+siguientes opciones.
+
+14.1.1 JUGAR: (Entrada: Fútbol) Puedes jugar en el campo siempre que tengas
+te seleccionaste para jugar. Si te lesionas, te expulsan o te sustituyen
+usted mismo, el juego volverá al modo Ver. Se requiere JOYSTICK.
+
+14.1.2 MIRAR: (Entrada: Binoculares) Puedes ver el juego. Puedes implementar
+sustituciones y cambios de táctica. No se requiere palanca de mando.
+
+14.1.3 PREDECIR: (Entrada: Bola de Cristal) Se predice el resultado. un animado
+El marcador muestra el progreso del partido. Puedes salir de la animación.
+pantalla presionando el botón derecho del mouse.
+
+14.1.4 DESTACADOS: (Entrada: T.V) Se muestran los momentos destacados del partido.
+
+14.1.5 ESCÁNER DE GESTIÓN: (Entrada: Campo) El partido se juega en el escáner
+y es exactamente igual que el juego en el modo Ver excepto que puedes ver
+todo el campo y por lo tanto la acción. El escáner es la mejor manera de
+desempeña tu papel como gerente.
+
+14.1.6 Al seleccionar una de las opciones, pasará a la siguiente pantalla.
+
+14.2 JUGAR Y VER: Si ha seleccionado Reproducir o Ver, la siguiente pantalla
+mostrará el color del kit de ambos equipos. Tienes la opción de jugar en
+CUATRO VISTAS.
+
+a) De arriba hacia abajo: arriba y abajo
+
+b) De arriba hacia abajo: de lado a lado
+
+c) Perspectiva
+
+d) Isométrica.
+
+14.2.1 Cada vista tiene ventajas y desventajas.
+
+14.2.2 Isométrico es el más bonito. Te da una buena visión general de
+el juego, pero no es tan fácil de controlar a un jugador.
+
+ADVERTENCIA: Como casi todos los jugadores son visibles la mayor parte del tiempo, el juego
+Es probable que disminuya de vez en cuando.
+
+14.2.3 Vistas de arriba hacia abajo: excelente para jugar, pero se mueve como volea, etc.
+no son tan evidentes.
+
+Perspectiva: Es un buen compromiso entre las vistas Top Down e Isométrica.
+
+14.2.4 LANZAMIENTO: Haga clic en la moneda para que se lance. Si ganas el sorteo, puedes
+seleccione:
+
+Paso hacia arriba o hacia abajo para isométricos o de arriba hacia abajo: lanzamientos hacia arriba y hacia abajo.
+
+Derecha o Izquierda o viceversa para los otros dos tonos.
+
+Una vez realizada la selección, pasarás al partido.
+
+ADVERTENCIA: NO TOQUE EL JOYSTICK AL SALIR DE ESTA PANTALLA Y VAYA A LA
+LANZAR HASTA EL INICIO. Durante este tiempo, el joystick se activa automáticamente.
+calibrado.
+
+14.3 ESCÁNER DE GESTIÓN:
+------------------------
+
+El escáner muestra el tono. Los jugadores se muestran mediante puntos en el equipo.
+colores. El juego que se juega es exactamente el mismo que el de Watch, pero con muchas
+ventajas. Utilice un teclado (solo PC) o un joystick para dar instrucciones.
+
+14.3.1 El equipo local se muestra a la izquierda y los visitantes a la
+correcto. Debajo de cada equipo el desempeño de los delanteros, mediocampistas y defensores.
+se muestra. En la parte superior de la pantalla, la posesión de dos equipos se muestra como
+una pantalla de barra.
+
+14.3.2 Se muestra la plantilla y los dos sustitutos de ambos equipos.
+Junto a cada nombre aparece el nº de camiseta del jugador, su rendimiento y un marcador.
+para indicar que ha recibido instrucciones de Team Talk. como el juego
+El rendimiento del jugador fluctuará.
+
+14.3.3 ESCÁNER DE VELOCIDAD MÚLTIPLE: El escáner tiene 3 velocidades: Normal, 2X y 4X
+velocidad normal. Puedes cambiar la velocidad en cualquier momento durante el juego
+seleccionando la casilla correspondiente. También dispone de movimiento Paso a Paso. si tu
+seleccione el modo paso a paso, cada selección hará un movimiento.
+
+14.3.4 Utilice el ratón o el joystick para mover el puntero cuando el juego esté en marcha.
+pausado.
+
+14.3.5 SUSTITUCIÓN: Presione F1 para el jugador 12 y F2 para el jugador 14. (F9 y
+F10 para el equipo B). Cuando el balón haya salido de juego se podrán realizar sustituciones.
+hecho. Seleccione el jugador a sustituir.
+
+14.3.6 Sustituir a un jugador lesionado: Cuando uno de tus jugadores se lesiona,
+seleccione el sustituto.
+
+14.3.7 PAUSA: Presiona la barra espaciadora para pausar y reanudar el juego.
+
+14.3.8 CHARLA DE EQUIPO: Puedes darle a cada jugador del equipo uno de los
+siguiendo ocho instrucciones. Seleccione el jugador y luego la instrucción.
+
+a) PUSH UP: El jugador jugará 1 casilla por delante de la posición normal.
+
+b) DROP BACK: Inverso de lo anterior
+
+c) TUCK IN: El jugador jugará 1 casilla `in' hacia el centro.
+Instrucción generalmente para extremos y laterales.
+
+d) JUGAR ANCHO: Inverso de lo anterior.
+
+e) BALÓN LARGO: El jugador pateará el balón hacia arriba. Instrucción para
+defensores.
+
+f) PÉRDIDA DE TIEMPO: Los jugadores se pasarán el balón.
+
+g) TIRO A VISTA: Los jugadores dispararán a portería siempre que puedan.
+
+h) PONGANSE DUROS: Los jugadores se ponen agresivos.
+
+i) TAL COMO ERES: Cancela la instrucción dada al jugador.
+
+14.3.9 TÁCTICAS: Haga clic en tácticas para cambiar las tácticas.
+
+14.3.10 JUGADORES: Puedes intercambiar jugadores, es decir, mover a un jugador de la defensa a
+mediocampo. Haz clic en los dos jugadores para intercambiar las posiciones.
+
+14.3.11 PASO A PASO: Presione F.B. para cada movimiento.
+
+14.4 INFORMES DESPUÉS DEL PARTIDO
+------------------------
+
+Hay varios tipos de informes después del partido.
+
+14.4.1 REGISTRO DE EVENTOS: Muestra el tiempo de goles, lesiones, golpes, tarjetas y
+sustitución para ambos equipos.
+
+14.4.2 REGISTRO DE RENDIMIENTO: Muestra puntos de rendimiento, goles, tarjetas, lesiones
+y sustitución para ambos equipos.
+
+14.4.3 LÍNEAS DE CABEZA: Líneas de Cabecera en TIEMPOS ANCO de los partidos que involucran
+jugadores.
+
+14.4.4 INFORME COMPLETO DEL PARTIDO: Haga clic en el titular para obtener el partido completo
+informe. Se muestra el titular del primer jugador. Haga clic en el titular
+para ver el informe completo del partido. Los resultados de toda la división son
+aparece debajo del título. Si uno de los otros jugadores está en el mismo
+división, el resultado del encuentro se resaltará. Para mostrar el titular
+para otros jugadores, haga clic en el partido. Haga clic en el marcador de pasar la página.
+para mostrar otros resultados divisionales.
+
+                            15.0 CONTROLES DEL JUEGO
+                            ------------------
+
+SE REQUIERE JOYSTICK PARA JUGAR EN EL CAMPO.
+
+MOVIMIENTOS: Los jugadores se mueven en las ocho direcciones del joystick.
+
+    PENSIÓN COMPLETA. - Amiga = Botón de disparo
+
+    F.B. -PC = Botón A
+
+15.1 DISPARO:
+--------------
+
+Presione F.B. para tirar la pelota.
+
+15.2 PASO:
+-------------
+
+Debes atrapar la pelota antes de poder pasar. Presione F.B. antes de tocar el
+pelota. Luego la pelota queda atrapada. Mueve el joystick en la dirección que desees.
+para pasar y liberar el F.B.
+
+15.3 CHIPEAR LA BOLA:
+-------------------
+
+AMIGA: Invierte el joystick rápidamente.
+PC: Presione el botón B
+
+15.4 ENCABEZADO:
+------------
+
+Si la pelota está en el aire, presiona el botón de disparo para saltar. Mueva el joystick hacia adentro
+la dirección en la que deseas dirigir la pelota.
+
+15.5 CRUCE:
+--------------
+
+Si el balón está en el área de cruce (cerca de la línea de fondo del equipo contrario)
+gol) invierta el joystick (Amiga) o presione el botón B (PC) para cruzar el balón
+en el área de 18 yardas.
+
+15.6 ENTRADA:
+--------------
+
+Si el oponente tiene el balón, presione F.B. para hacer un tackle deslizante.
+
+15.7 LANZAMIENTOS:
+---------------
+
+Presiona el F.B. y mueve el joystick en la dirección que deseas lanzar y
+suelta el botón de disparo. Cuanto más tiempo mantengas el F.B. presiona cuanto más tiempo
+el lanzamiento.
+
+15.8 Esquinas y tiros libres a balón parado:
+--------------------------------------
+
+Estos están controlados por computadora. CUANDO MÁS LOS PRACTICAS EN EL COACHING DE EQUIPOS,
+CUANTO MEJORES SON. Las esquinas pueden ser letales. Si se practica mucho pueden
+ser verdaderos ganadores del partido.
+
+15.9 SUSTITUCIÓN
+-----------------
+
+15.9.1 Sustituir a un jugador: Presione F1 si desea incorporar al jugador 12 o
+F2 para el jugador 14. Se mostrará el mensaje "Calentamiento de sustitutos".
+Cuando el balón sale del juego, uno de los jugadores nombra y su camiseta no.
+Aparecerá, usa las teclas de cursor arriba y abajo para recorrer el escuadrón.
+Presione la tecla Enter para implementar la sustitución. El jugador cuyo nombre está en
+El panel se apagará y el sustituto correrá al terreno de juego. El equipo B utiliza
+Teclas F9 y F10.
+
+15.9.2 Sustitución de un jugador lesionado: Aparecerá el nombre del sustituto 12 o 14
+en el panel. Utilice las teclas de cursor arriba y abajo para recorrerlas. prensa
+Ingrese la clave para implementar la sustitución.
+
+15.10 CAMBIO DE TÁCTICAS:
+-----------------------
+
+Pausa el juego. Presione F5 (F6 para el equipo B) para mostrar las tácticas actuales.
+Utilice las teclas de cursor arriba y abajo para recorrer las 4 tácticas de partido.
+
+15.11 CHARLA DE EQUIPO:
+----------------
+
+Puedes darle a cada jugador una de las 8 instrucciones individuales. Pausa el
+juego y presione F4 (F7 para el equipo B). Utilice las teclas de cursor arriba y abajo para seleccionar
+el reproductor y las teclas de cursor izquierda y derecha para recorrer las
+instrucciones. Para dar instrucciones al escuadrón, dale la instrucción a cualquier
+jugador de toda la plantilla.
+
+                        16.0 COPAS Y COMPETENCIAS
+                        --------------------------
+
+16.1 LIGA:
+------------
+
+Hay una liga de cuatro divisiones. Tres equipos descienden de la Premier
+división. La 1ª y 2ª división cuentan con tres equipos ascendidos y tres
+equipos descendidos. La 3ª división tiene tres equipos ascendidos.
+
+16.1.1 Una victoria en un partido de liga garantiza 3 puntos, un empate, un punto y un
+pérdida - sin puntos. Si los puntos son iguales, la diferencia en goles a favor y
+Goles en contra decide esta posición.
+
+16.2 COPA FA:
+-------------
+
+Esta es una competencia eliminatoria. Si hay un empate entonces se realizará una repetición.
+ordenado.
+
+16.2.1 Si al final del tiempo completo el resultado sigue siendo empate, se aplicará la prórroga.
+se juega. Si el resultado sigue siendo empate, se aplicará la pena de muerte súbita.
+se lleva a cabo.
+
+16.3 COPA DE LIGA:
+----------------
+
+Las rondas 1, 2, 3, cuartos de final y final se juegan según las reglas.
+descrito en 16.2.1.
+
+16.3.1 La semifinal se juega a dos partidos. El ganador se decide
+agregado. Sin embargo, si el total es el mismo, el resultado lo decide
+en la prórroga y si aún no se resuelve mediante la tanda de penaltis.
+
+16.4 COPA DE LA U.E.F.A, RECOPA y COPA DE EUROPA
+--------------------------------------------------
+
+Si un equipo inglés es el titular, el equipo se clasifica automáticamente, en caso contrario
+se lleva a cabo una ronda preliminar. La ronda preliminar y las otras rondas
+excluyendo la final constan de dos partidos, uno en casa y otro fuera. Los partidos son
+se decidió por el resultado global de los dos partidos. Si el agregado es el
+Lo mismo se decide entonces por los goles fuera de casa. Los goles fuera de casa cuentan como dos. si ambos
+Los equipos siguen igualados y se juega la prórroga seguida de la tanda de penaltis.
+fuera si es necesario.
+
+                              RETO 17.0
+                              --------------
+17.1 Este es un desafío individual. Hay 20 rondas. al principio
+de cada ronda, se te asigna la tarea de conseguir un número determinado de puntos en un
+duración fija. Se otorgan diferentes puntos por victorias locales, victorias visitantes y visitantes.
+sorteos, etc. Los puntos también son una función para mostrar la calidad del
+oposición.
+
+17.2 Al inicio del desafío, se te informa del número de
+puntos a conseguir y el no. de años permitidos. Si tienes éxito, puedes
+pasar a la siguiente ronda. Si fallas, deberás comenzar de nuevo la ronda fallida.
+Puedes ver el progreso del desafío en cualquier momento haciendo clic en el
+filofax en la oficina del gerente en cualquier momento. Puedes GUARDAR el juego hasta el momento.
+en cualquier momento (Ver 6.11).
+
+17.3 No puedes postular a otro trabajo.
+
+17.4 Al completar con éxito una ronda, los puntos de bonificación se suman a
+los puntos totales. Recibes un bono financiero. La cantidad será
+mayor si logras más que el objetivo establecido.
+
+17.5 Después del último partido de la temporada, el estado del Desafío será
+mostrado. Si la duración no finaliza, puede continuar normalmente
+salir del menú.
+
+17.5.1 Si finaliza la duración y ha tenido éxito, podrá
+Se le pedirá que GUARDE el juego.
+
+17.6 PUNTOS DE BONIFICACIÓN: Los puntos de bonificación se pueden utilizar en el juego principal para obtener el
+trabajo de gerente en una división superior. club de tu elección. Cuanto más altos sean los puntos,
+más grande es la elección.
+
+17.6.1 Puedes seleccionar un equipo usando los puntos de bonificación al comienzo de una nueva
+juego en el menú Configuración del juego.
+
+17.7 Pantalla: Puedes ver el estado del desafío en el libro en la
+oficina del gerente.
+
+                              18.0 KNOK OUT
+                              --------------
+
+18.1 Este es un juego de 2 a 4 jugadores. Todos los jugadores comienzan en la misma división.
+
+18.2 Mientras todos los jugadores estén en la misma división, el juego
+continúa con normalidad. Tan pronto como un jugador asciende o desciende, el
+el reloj arranca. Al cabo de 2 años, el último jugador queda eliminado.
+fuera. El reloj se pone en hora. Si todos los jugadores están en la misma división, el
+El juego continúa con normalidad. Sin embargo, si ese no es el caso, el reloj
+Se reinició inmediatamente y se fijó para 1 año.
+
+18.3 No puedes postular a un nuevo trabajo.
+
+18.4 Puedes ver el estado de la competición en el libro del manager.
+oficina.
+
+                         19.0 ENTENDIENDO LAS ESTADÍSTICAS.
+                         -------------------------
+
+19.1 Hay dos tipos de estadísticas.
+
+19.1.1 Estadísticas de personalidad: estas son las estadísticas con las que nace y hace un jugador.
+No, no cambia mucho. Las estadísticas son Agresión, Estilo y Temperamento.
+
+19.1.2 Estadísticas curvas: estas estadísticas cambian con la edad. Las estadísticas son ritmo,
+Resistencia, Resiliencia, Agilidad, Adaptabilidad, Aceleración y Visión.
+
+19.1.3 En PM2, hay 50 curvas para cada una de estas estadísticas, es decir, 50 curvas
+para ritmo, 50 para resistencia y así sucesivamente. Cada curva tiene una forma diferente. como el
+edades estará un jugador en una de estas curvas para cada atributo. durante el
+período de envejecimiento, se moverá a diferentes curvas dependiendo del entrenamiento,
+tipo de gerente, oportunidades, experiencia, etc., es decir, los factores que dan forma
+una carrera. Con algunas excepciones flagrantes, todos los jóvenes de 16 años que se unen a un
+Los clubes profesionales son muy parecidos a los escolares. Algunos llegan a la cima
+mientras que otros languidecen en las divisiones inferiores o abandonan el ámbito profesional.
+fútbol. Todo depende de los directivos, entrenadores y de los descansos que tengan.
+
+Habilidades: Un jugador nace con habilidades. Una vez más hay 50 curvas para
+cada habilidad. Estas habilidades mejoran con el entrenamiento, la experiencia y un jugador puede
+pasar dramáticamente de una curva a otra.
+
+19.1.4 Algunas de estas curvas después de un aumento constante se aplanan a medida que el jugador
+edades. Por ejemplo, habilidad para pasar. Otra curva puede elevarse, aplanarse durante un
+mientras luego cae. Por otro lado, puede seguir aumentando a medida que el jugador obtiene
+experiencia.
+
+19.1.5 Una vez que pueda apreciar la importancia de los cambios, será
+capaz de conseguir mejores jugadores por su dinero y utilizar más a su personal
+efectivamente.
+19.1.6 Cuando busques un jugador, la siguiente información puede ayudarte
+para evaluar al jugador. Las estadísticas importantes para cada tipo de jugador son
+listado:
+
+KEEPER Agilidad, manejo y retención.
+
+DEFENSA COMPLETA Ritmo, pases y entradas - Alto.
+
+                        Resistencia, control, tiro y aceleración: bueno.
+
+DEFENSA CENTRAL Pase, entrada y cabeceo - Alto.
+
+                        Visión, control y resistencia: Bueno.
+
+DEFENSOR Ritmo, entrada, pase y cabeceo - Alto.
+
+                        Control y resistencia: bueno.
+
+                        Visión: muy alta si se usa como barrendero.
+
+MEDIO CAMPO Pase, entrada, tiro - Alto.
+
+                        Agresión, control, tiro y visión - Bueno.
+
+PLAYMAKER Visión y pases - Muy Alto.
+
+                        Tiros y entradas - Alto.
+
+                        Ritmo y control: superior a la media.
+
+MEDIO CAMPO GENERAL Tiro y agresión - Alto.
+
+                        Pase y entrada - Muy alto.
+
+                        Visión y control - Bueno.
+
+EXTREMO Ritmo y pases - Muy alto.
+
+                        Tiro y entrada - Alto.
+
+                        Aceleración y resistencia: buena.
+
+DELANTERO CENTRO Tiro y ritmo - Alto.
+
+                        Cabeceo, resistencia, agilidad y control: bueno.
+
+TARGET MAN Ritmo y disparo - Alto.
+
+                        Cabeceo, agilidad y control: superior a la media.
+
+Disparo STRIKER: muy alto.
+
+                        Ritmo, agilidad y control - Alto.
+
+                        Rumbo - Bueno.
+
+
+    Estas son estadísticas ideales y será costoso comprar la combinación correcta.
+
+                              CONSEJOS Y CONSEJOS
+                              --------------
+
+Configuración del juego: Seleccionar tu posición de juego es importante. estas aconsejado
+no seleccionar la posición de Mediocampista General ya que es probable que
+recoger tarjetas rojas con más frecuencia. Evita las posiciones de lateral y lateral
+ya que el efecto sobre el ritmo puede ser revelador. Las posiciones sugeridas son el centro.
+delantero o un centrocampista, preferiblemente un mediocampista.
+
+Pretemporada: selecciona el mejor entrenador que puedas permitirte y un buen ojeador. hacer
+seguro que el entrenador tiene una especialidad diferente a la tuya. una defensa
+Se recomienda especialidad para el entrenador.
+
+Colegiales: Estos jugadores son tu vida en las divisiones inferiores. antes
+Al final de la temporada, asegúrate de que tu equipo tenga menos de 24 personas.
+Se permite pujar por hasta 8 colegiales. La oferta sugerida para siempre.
+los colegiales cuesta 50.000 libras esterlinas. Entrénelo, entrénelo y úselo con moderación y vea el
+dinero entrando.
+
+Entrenamiento de pretemporada: ponga a los jugadores en forma y sintonícelos. Experimente con todos
+los jugadores de la plantilla. Aprovecha los partidos de pretemporada para experimentar
+Jugadores y tácticas.
+
+Oficina del entrenador: Lo más importante es seleccionar el equipo adecuado y
+tácticas correctas.
+
+Tácticas: Para empezar selecciona las tácticas que se adapten a los jugadores que tienes.
+Durante un período de tiempo, consigue que los jugadores se adapten a tu propio estilo táctico.
+Los administradores de computadoras hacen cambios totales dependiendo de su estilo cuando
+Se nombra un nuevo gerente para el club. Por lo tanto, es una ventaja
+Esté atento a los gerentes entrantes y salientes.
+
+Evaluación: Esto es para ayudarte a juzgar a cada jugador por ti mismo. el
+La computadora te da una calificación para cada jugador y el entrenador da la suya.
+evaluación. Puedes ver la utilidad de un reproductor como quieras y tomar
+en cuenta sus necesidades tácticas. A medida que adquieras experiencia,
+Considere esta característica esencial.
+
+Secretaria: Le encantan los chismes.
+
+Scout: Un buen scout da buenas instrucciones, éstas producen resultados. el
+El secreto está en estas instrucciones. Mire sus requisitos cuidadosamente.
+
+Coaching: Tómese el coaching muy en serio. Lea la sección de entrenamiento en el
+manual a fondo, juega un papel vital en el juego. Consigue el mejor entrenador
+te lo puedes permitir. Sea muy selectivo con quién entrena. No sobrecargues el
+personal. Cambie el horario de entrenamiento al menos una vez cada quince días, si no una vez al año.
+semana.
+
+Conferencia de prensa: ¡Cuidado!
+
+Board Roon: Vigile muy de cerca sus calificaciones. Cuanto más alta sea tu liga
+posición más espera la junta directiva de usted. Con razón. Si estás en un gran
+club, quedar segundo no es suficiente. Mantener la diferencia en la liga
+posición y calificación del equipo lo más bajas posible; de lo contrario, estarás en problemas.
+Preste atención a los mensajes del presidente. Él paga tu salario. el es
+el jefe y tiene personalidad.
+
+Personalidad: Su presidente, árbitro, responsables informáticos, jugadores y muchos más.
+otros tienen personalidad. Cómo reaccionan ante una situación determinada es la mitad de la
+divertido.
+
+Desafío: consigue un buen equipo, por lo que vale la pena el esfuerzo.
+
+Niveles de habilidad: distingue a los hombres de los niños. El nivel de habilidad normal es para
+hombres.
+
+Equipo: decide desde la palabra GO a qué apuntas: nacional o
+Honores europeos. Si es nacional, puedes permitirte comprar jugadores extranjeros,
+pero no demasiados jugadores internacionales para un partido importante,
+Es posible que quedes reducido a un bastón esquelético.
+
+Dinero: Vigila muy de cerca las finanzas del club. No hay sobregiro
+del banco. Te arriesgas y el director financiero te atacará.
+te gustan una tonelada de ladrillos.
+
+Guardar: se recomienda no guardar el juego más de 6 veces en una.
+temporada. Hay una penalización por hacerlo.
+
+
+Copyright 1995 Juegos Anco.
+
+Publicado por:
+anco software ltd,
+7 Polígono Industrial Millside,
+camino de lawson,
+Dartford,
+Kent,
+DA1 5BH
+Teléfono: (01322) 292513
+
+Ilícito/LSD el 23/12/95. ¡Uf! ¡Por fin completé los documentos! :) ¡Más tarde chicos!

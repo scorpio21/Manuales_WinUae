@@ -1,0 +1,600 @@
+NEMAC IV
+
+ 
+What is NEMAC 4
+
+NEMAC 4 is a 3D action game (or is it a VR game?) with features like leaving
+multitasking/system untouched, support of OCS/ECS/AGA, Gfx boards, using any
+suitable screenmode, window resizing and more ...
+
+The .config file
+
+You can do additional preferences for i-glasses! or Graffiti in the ".config"
+file that is in the NEMAC_4 directory.
+
+
+These are the possible commands:
+	IGL-BAUD
+	IGL-TFILTER
+	IGL-MFILTER
+	IGL-SMOOTH
+	IGL-PRE
+	DEVICE
+
+	GRA-WINLEFT
+
+GRA-WINLEFT <x> is the only one command for Graffiti. This hardware may
+possibly need another screen position in horizontal direction. Our prototype
+needed often another value than it is written in the documentation. So we
+decided to make this configurable. You can enter (positive and negative)
+numbers. First you should try to use the values given in the Graffiti
+documentation. If these are not suitable you should experiment a little bit.
+Please note that a softscroll value of 1 is 2 for this command! Always use
+even numbers. ("GRA_WINLEFT 2")
+
+IGL-BAUD <x> is the baud rate you want to use for communications with your
+i-glasses! The default value is 19200 baud and that should only be altered
+when your serial device or cabling has difficulties at this speed. The baud
+rate should be as high as possible to get a good mean value of the headtracker,
+but it may not be greater than 19200 baud.
+
+IGL-TFILTER <x> and IGL-MFILTER <x> are the i-glasses! tilt and magnetic
+filtering. Here you can enter values between 0 and 7. What these filters
+exactly do depends obviously on the version of your i-glasses! and you should
+read the documentation for further information. Our i-glasses! ran best with
+values of 7 for both commands. 
+
+IGL-SMOOTH <x> and IGL-PRE <x> are commands for our own headtracker soothing
+routines. This was necessary because the headtracker gives inaccurate values
+for the heading direction. If you enter values of 0, smoothing is disabled.
+IGL-SMOOTH means from how many values a mean value is calculated. This should
+be between 0 and 20. IGL-PRE precalculates the heading from the actual movement
+and should have a value between 0 and 6. If you are dissatisfied with the
+default values you might experiment a little bit, but, it is very difficult to
+try to get accurate values from inaccurate ones. :-)
+
+DEVICE <name>: You can enter a name of a alternative serial device which is
+connected with your i-glasses!
+
+
+
+" How to Start NEMAC 4  "
+
+NEMAC_4 can be started by a double click on the icon via Workbench or in
+a shell. If you start it from a shell, you have to cd into that directory,
+because otherwise the maze.cld can not be found.
+
+If you want to save screenshots (be careful, an extra Buffer is
+allocated!), you have to start it from a shell with the option
+s<name>!<x-size>!<y-size>. If you start it up for example typing
+"NEMAC_4 spic!320!256", every time you press "s" in the game a snapshot
+of the window will be saved, named "pic.0001", "pic.0002" and so on,
+sized 320x256 pixels. The screenshot is saved in the actual directory,
+so copy it to your harddisk first!
+
+
+ Preferences
+
+If you start NEMAC IV, the preferences requester appears:
+
+<Selected Screenmode>
+
+Here the current selected screenmode is shown by name.
+
+
+Select Screenmode
+
+If you click this button, a screenmode requester appears.
+
+In the left window the suitable screenmodes found on your Amiga are
+shown, in the right one you can see some informations about the current
+selected screenmode (frequencies, number of colours etc.)
+
+All screenmodes more than 160 pixels width and more than 128 lines high,
+extra halfbrite mode or a depth of 8 bitplanes are shown.
+
+Please have a look at the frequencies of the selected screenmode. If they
+go over the ones in your monitor's specification you have a good chance
+to destroy it.
+
+
+Close Workbench
+
+Closes the Workbench if no other program runs on the Workbench screen.
+This gives you some bytes of Chip Memory if you are short on RAM.
+
+
+Chunky To Planar Modus
+
+Chunky 2 Planar mode: Here you can select the method of converting the
+rendered chunky data into the screen's bitplane mode. CPU+Blitter is
+recommended for all Amigas with a CPU < 68060 :-) CPU+Blitter is disabled
+for Amigas with the old Blitter, because it is not capable of moving
+the required amount of memory.
+
+Chunky to planar means the method of converting the chunky raw data
+so that you can see it on screen. The picture that is rendered lies
+in chunky raw format in memory, that means that every one byte
+represents one pixel. If you use bitplane-orientated screens, these
+pixels must be spread over eight bytes.
+
+If you have selected a gfx-board screenmode or Graffiti output, this
+button is disabled because no conversion is needed.
+
+
+Memory size
+
+LARGE: The program tries to allocate 1.7 MB RAM. Here you can achieve
+best graphics detail.
+
+SMALL: Now the program just tries to get 840 KB RAM. Now the textures
+and monsters have less detail so they fit into this tiny amount of
+memory :-)
+
+AUTO: If you have selected this option, the program first tries to
+allocate 1.7 MB, and if this fails, 840KB with the corresponding
+loss in detail.
+
+
+i-glasses! Mode
+
+This button gives you six options:
+
+Off:        Nothing of the i-glasses! is supported
+Use:        3D output for i-glasses! is enabled
+Use/Trk:    3D output for i-glasses! and the headtracker are enabled,
+            you can look left and right, but don't run in the direction
+            you look
+Use/Hd Trk: 3D output for i-glasses! and the headtracker are enabled and
+            you run always the direction you look.
+Tracker:    Only the headtracker is enabled, you can look left and right,
+            but don't run in the direction you look
+
+Head Trk:   Only the headtracker is enabled and you run always the
+            direction you look.
+
+To get a correct 3D output, please make sure that an INTERLACE mode is
+selected that the i-glasses! can display (i.e. PAL or NTSC interlace)
+
+
+
+Save
+
+Here the current preferences are saved to ENV:NEMAC_4.prefs and
+ENVARC:NEMAC_4.prefs.
+
+
+Use
+
+Here you start the game with the current preferences.
+
+
+Quit
+
+Never press this button :-)
+
+
+The Main Menu
+
+The main menu looks like this:
+
+	START NEW GAME - Starts a new game at the first level.
+	LOAD OLD GAME  - here you can load and play an old saved game.
+                         Make your selection using cursor up/down,
+                         Shift and cursor up/down for jumping a page
+                         forward/backwards and <RETURN> for selecting
+                         a game. If you press <ESC> you come back to the
+                         main menu.
+	INTRO          - Shows the intro once again.
+	QUIT           - Quits immidately
+
+Loading of a level takes about 10 seconds, because 1 to 2 MB of data must
+be read and remapped to the current colour map.
+
+
+
+The Game
+
+If the level is loaded, you will 'wake up' in the starting room.
+On the screen you see how many ammunition, what door codes and how many
+life energy you have.
+
+By pressing <right> key you turn right, by pressing the <left> key you
+turn left, of course. By pressing the <speedup> key you run faster.
+
+If you press the <strafe> key and hit the <left> or <right> key, you will
+go left or right, not turn.
+
+If you shoot, please keep in mind that the bombs do not explode when they
+hit the ground, they explode by pressing the <ex bombs> key in the order
+of throwing them out. Of course, bombs can also attached to monsters and
+objects. It might appear that a bomb doesn't explode immidiately. If that
+occurs it will do so if it thinks it is the right time to do it :-)
+This is not a bug, it's a feature.
+
+Barrels can be moved around if you stand in front of them.
+
+Switches often start actions over a large distance (e.g. letting walls
+appear or vanish). They can be demolished by a explosion that is near
+enough. If this happens, the action is started, but not more reversible.
+
+When starting up the game, you first see the intro. If you hit the 
+<RETURN> key, the next part of the intro comes at once. By hitting
+any other key, you get to the Main Menu.
+
+Between the levels a statistics is shown with total and level information.
+You get to the Level Menu by hitting any key.
+
+In the options menu you can set the window size and
+other parameters. You get into that menu by pressing the <ESC> key
+during the game.
+
+If you are dead, press the <RETURN> key, if you want to start the level
+up again using the last known status (not in level one) or press
+the <SPACE> key if you want to start up with standard status.
+
+By pressing the <G> key during the game you can adjust the gamma
+correction (sort of brightening) in five levels.
+
+Pause is witched on hitting the key <P>. If the game is in pause mode,
+it is in wait state, i.e. no CPU time is wasted.
+
+
+
+The Level Menu
+
+You can select:
+- Next Level	You are transported to the next level.
+- Save Game	The current game standings are saved.
+- Replay Level	Statistics are discarded and you replay the last level.
+- Exit		Quit game and go back to the main menu.
+
+
+Keyboard Configuration
+
+You can define the keyboard configuration for yourself. If you click on the
+button, another window is opened where the current definitions are shown.
+Right from the short description there is another small button that enables
+key recording. Any key you hit now will be used for the specified function.
+Some keys are predefined and cannot be used for playing (see below).
+
+On the bottom of the window there are four buttons:
+- Default        The default configuration will be loaded.
+- Last saved     The last saved configuration will be loaded.
+- Cancel         The definitions are discarded.
+- OK             The defintions you made will be checked and then you go back
+                 to the preferences requester. The first three weapons may use
+                 the same key, everything else has to use a different key.
+
+These are the functions you can define:
+
+Chain gun	Aha.	
+Plasma gun	The same :-)
+Grenades:	Guess what
+Bombs:		And here?
+Forward:	Go forward
+Backward:	Go backward
+Left:		Turn left
+Right:		Turn right
+Ex bombs:	Bombs explode in the order you throwed them.
+Fetch bomb:	Here you can collect the bombs you have already throw out.
+Speedup:	Lets you faster get away from trouble.
+Strafe:		Force sidestep
+Strafe L:	Special key for only going left
+Strafe R:	The same to the right
+Cross:          With thiskey you can switch on any crosswires you like :-)
+                This might help you aiming at monsters a little bit.
+Map on/off:	Turn on auto-map
+Map zoom +:	Zoom the map in
+Map zoom -:     Zoom the map out
+Ground map:	Texturemapping for ground and ceiling on/off
+Switch On:	Press button
+
+
+Using Joystick or Mouse                 
+~~~~~~~~~~~~~~~~~~~~~~~
+If you want to use joystick (port 2) or mouse (port 1), you have to
+click on one of the checkboxes. You can only use either joystick
+or mouse or none of them.
+
+To use any function click on the box of the function, so that it is
+in "record mode" and then click on the joystick/mouse button you
+want to use. In mouse mode the walking functions are fixed to
+the mouse of course.
+
+
+How to quit
+~~~~~~~~~~~
+You can quit the game by choosing 'Exit' in the options menu.
+
+
+Notes
+~~~~~
+The weapons may be fired all at once if you have enough ammunition.
+
+Because of a bug in the A1200-keyboard the program can not notice
+hitting a key while another is pressed. The default key definitions
+are made keeping that in mind, so that the problems should be
+minimized.
+
+
+Predefined Keys
+~~~~~~~~~~~~~~~
+<ESC>          Options Menu
+<P>            Pause
+<S>            Save screenshots (must be enabled with argument startup)
+<G>            Gamma correction
+<SPACE>        Start up again when you are dead
+
+
+
+Options Screen
+
+The options menu looks like this:
+
+     WINDOW SIZE       - Here you can resize the window on the screen.
+                         This can be done in steps of 8 pixels in each
+                         direction by using the cursor keys. By pressing
+                         <SHIFT> while resizing, the steps are 32 pixels.
+                         If you use Picasso/CyberGraphX output, the
+                         horizontal steps are always 32 pixels.
+     DETAIL LEVEL      - (not while using picasso)
+                         The pixel size can be set depending on the chunky
+                         2 planar method. CPU+Blitter: 1x1 pixel or 2x2
+                         pixel, CPU C2P 1x1 or 1x2 pixel, Graffiti 1x1, 1x2,
+                         2x1 or 2x2 pixels. The window size will be adapted
+                         on the pixel size.
+     SOUND FX          - ON/OFF
+     EXIT TO MAIN MENU - Quit the game and go back to the main menu 
+
+                    
+
+Some Hints
+
+If a monster is shooting at you, it is better to strafe left and right
+while shooting back. So the monster can't hit you as much.
+
+When you stand in a room with many monsters, before running quickly away
+you should shoot at a monster standing in the background. When it starts
+shooting more heavily it hits the other monsters which will blow it up
+and maybe themselves too. So the level becomes a little bit easier.
+
+Doors that are not locked by a key code can be opened by shooting at
+them.
+
+The weapons can be all be fired the same time, if you have the right
+ammunition.
+
+The ground and ceiling texture mapping can be switched off by the <ground
+map> key. This raises the rendered speed.
+
+
+If you have difficulties in starting the program because of insufficient RAM, you should
+- Boot your Amiga without startup sequence
+- Because the game needs preferences data from "ENV:" and "ENVARC:", make sure
+  that both assigns exist and are assigned correctly
+- Change the directory to that one containing NEMAC 4
+- Start the game
+
+
+Story of NEMAC IV
+
+Nemac IV -- The story
+---------------------
+
+In 2048 the superpowers decided to hand global defense over to 
+computers.The technicians of the three ruling alliances built one 
+headquarter for each of them. Each headquarter was connected with 
+the others to coordinate all decisions with the other alliances.
+
+The essential part of each HQ was a neural computer, with the 
+ability to analyse the global situation within seconds. The tactical 
+reactions that could influence the life of millions came out faster 
+than a bullet hits its target.
+
+The three megacomputers were called  NEMAC I - III.
+
+But the system was not untouchable.
+
+During the North - South Wars 2057-2065 a commando unit slipped 
+through all defenses and was able to hit one of the HQ's. Dispute 
+about competence and the human Factor paralysed the system when it 
+was most needed.
+
+Only Nemac II managed to avoid the worst by massive employment of 
+conventional units and strategic nuclear weapons. The principle of 
+computer control had shown its effiency.
+
+In the troublous time of the years 2066 to 2073 the whole earth was like 
+a big barrel full of gunpowder.
+
+The new founded alliance NSS decided to build a central command unit 
+which was designed to react fully independent to a possible attack. 
+All automatic combat units and the complete nuclear potential were 
+controlled by this HQ. The command unit was named like its brain, 
+the most powerful neural computer ever created. Nemac IV.
+
+The Structure of Nemac IV
+-------------------------
+
+Nemac IV is a bunker, reaching several hundred meters down into 
+solid granite. The lowest level contains a fusion reactor that 
+provides independent power supply.
+
+Embedded in the system are all communication and defense satellites 
+giving it control over all military movements. Nemac IV and all 
+nuclear defense installations run fully autonomous.
+
+The structure of the bunker, as much as the power of the defensive 
+installations make a direct assault on Nemac IV virtually 
+impossible. Nor the bunker itself neither its periphery can be 
+destroyed by a nuclear attack.
+
+The parts of the central computer are spread over the whole 
+building. The destruction of single components has no influence on 
+the functionality of the system because of the ability of the 
+neural net to take over tasks from destroyed parts similar to the 
+human brain but a thousand times faster.
+
+To avoid an assault by a commando team or an army that has taken the 
+first levels, the floors were built displaced. There is no direct 
+way down.
+
+The essential parts of the computer are situated in deeper 
+levels. They are protected by automated combat units, that keep 
+commandos from proceeding into Nemac IV.
+
+Given the theoretical situation, that it is taken by the enemy Nemac 
+IV would give destruction tasks to all its units, fire all its 
+missiles and subsequently initiate the selfdestruction sequence.
+
+The Problem
+-----------
+
+Just before Nemac IV was completed its systems should have been 
+tested by running a simulation. The program simulated a situation in 
+which enemy parachute troops have taken key positions in our country 
+and in which various command levels have been infiltrated or 
+sabotaged. Additionally simulated a broad scale assault.
+
+They only forgot one thing. They didn't tell Nemac IV that this was 
+only a simulated conflict.
+
+The Situation
+-------------
+
+Nemac IV took full control of the defense installations, as he 
+should do, in case of a conflict.
+
+As the data he received from his surveillance drones differed from 
+that of the simulation he decided that must have been disrupted by 
+the enemy.
+
+50 milliseconds after the simulation had been started Nemac IV 
+launched a fullscale counterattack.
+
+5 seconds later all human beings within the bunker had been 
+classified as enemies because of their behaviour. Only ten seconds 
+later there was no living human being within the walls of the 
+bunker.
+
+Four of the five external control rooms also received the status: 
+Infiltrated by enemy forces. They were obliterated by a massive 
+blast of conventional missiles. Control room 5 is unknown to the 
+computer.
+
+There is no more chance to prevent a war. The conventional units were 
+stopped but the computer will soon start to fire its nuclear weapons 
+because of a lack of feedback from his troops.
+
+We only must prevent him from blowing up our own territories, 
+assuming that there are enemy forces.
+
+One of the control rooms was able to disable the internal 
+surveillance cameras and communication lines just before it was 
+blown away.
+
+Therefore Nemac IV has no control of his defense installations and no 
+information on what is going on inside of the bunker. But all the 
+automated combat units are still fully operational.
+  
+The Mission
+-----------
+
+During the first testphase a FIKM-7 unit has been equipped with a 
+remote control to destroy combat drones that are out of control.
+
+This unit is still fully operational and unknown to Nemac IV. 
+
+We believe that the computer sees no direct threat for him in the 
+moment, that means as long as the surveillance outside the bunker 
+doesn't sense an attack.
+
+All documents are inside the bunker or in buildings in its nearer 
+region. An intrusion into this area could be mistaken as an 
+attack.
+
+YOU are to guide the FIKM-7 unit down to the reactor to blow it up.
+
+We have only one chance.
+
+We count on you.
+
+FAILURE IS NOT AN OPTION
+
+
+Credits
+-------
+
+Idea & Concept		Martin Schlott
+			Oliver Groth
+			Stefan Heinsen
+Textures		Michael Amend
+			Alex Grasso
+			Oliver Groth
+Music			Stefan Schulz
+Raytracing & Monster	Oliver Groth
+Programming		Oliver Groth
+			Stefan Heinsen
+			Martin Schlott
+Levels			Oliver Groth
+			Stefan Heinsen
+			Martin Schlott
+			Stefan Holländer
+
+The Picasso II support routines are by VillageTronic, Hannover, Germany.
+
+
+Thanks to ...
+
+We want to thank:
+
+	- Alex Grasso 
+	- Steffen P. Häuser
+	- Michael Amend
+	- Stefan Holländer
+	- Stefan Schulz
+	- Executor from IRC #amigager
+	- IRC #amigager for many good tips
+	- Aminet, those who maintain the sites and those who wrote the
+	  software and uploaded it.
+	- Star Trek :-)
+
+
+	
+Details of the Engine
+
+This programm is fully system friendly. Multitasking keeps untouched.
+
+This game should run on every Amiga that has the specifications that are
+required.
+
+The graphic output adapts automatically to the possibilities and bitmap
+depth of your computer!
+
+Nearly every screen with nealry every frequency can be selected. That means
+that everyone can play the game on his favourite screen mode. It does NOT
+just open a standard PAL or NTSC screen.
+
+The keyboard definition is conforme to your keymap loaded.
+
+The synchronisation of the game is independent from computer speed, because
+it is just not synchronized by building a frame.
+
+Textures can be scaled absolutely free in x- and y-direction on walls and
+everything else without time loss.
+
+
+Requirements
+
+You need a computer with following specifications:
+
+- An Amiga :-)
+- A MC68020 CPU or better
+- Amiga OS 2.0 or better
+- At least 2 MB continouus Memory, Fast RAM is recommended, but not
+  necessary
+
+- Graphics: This program runs on AGA- AND OCS/ECS-Amiga, i.e. on all types
+  of Amigas that meet the requirements above, not only on A1200 and A4000.
+  Besides, it supports Graffiti, i-glasses!, Picasso II and CyberGraphX.

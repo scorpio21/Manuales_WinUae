@@ -1,0 +1,517 @@
+Táctico de fútbol 2
+                      ===================== ESCRIBIDO POR FRAGMENTO - N&B
+                                                
+
+
+El requisito previo para apreciar plenamente FT2 es estar a cargo de un club.
+Sin ningún administrador humano, el juego simplemente se ejecutará en modo automático.
+
+Para convertirse en gerente, deberá solicitar un trabajo, inicialmente con uno de
+los clubes más pequeños.
+
+Puedes gestionar cualquier club cuya clase sea igual o inferior a tu propia calificación.
+
+Como todos los gerentes humanos comienzan con una calificación de 3, la mayoría de los clubes en el nivel inferior
+La división es accesible de inmediato.
+
+Para gestionar mejores clubes tendrás que ganar al menos 4 partidos seguidos.
+
+El juego funcionará perfectamente sin un solo administrador humano.   pero
+Considerando que FT2 es capaz de manejar hasta 46 gerentes humanos, hay
+No tiene mucho sentido eso.
+
+Para solicitar un trabajo, seleccione el MENÚ DE ACCIÓN.  Luego haga clic en administradores.
+
+Ahora elige uno de los administradores humanos.  Di FRED.  Haga clic en UNIRSE.  Ahora
+Selecciona el club al que te gustaría unirte.  Si es aceptado, aparecerá un logotipo.
+presentarse y confirmar su cita.
+
+Diviértete y... ¡buena suerte!
+
+Para obtener más detalles sobre la acción del teclado, presione F10.
+
+pájaros que hablan
+
+Consulte el Manual.  La sección titulada quién está a cargo le explicará
+la mecánica del mismo.
+
+
+El menú Archivo.  
+-------------
+
+LAST SEASON cargará los calendarios y resultados de la última temporada completa.
+temporada.  En su disco, este archivo está registrado como fixt_00.dat
+
+Una vez que se recuerda la ÚLTIMA TEMPORADA, la temporada actual queda en espera.  Sólo
+Ahora se podrán jugar partidos amistosos.
+
+Muchas funciones estarán deshabilitadas: guardar, nuevo, saque inicial, máximos goleadores, etc.
+ya no está disponible.
+
+El cursor también cambiará.
+
+Ahora estamos en MODO REVISIÓN.
+
+La idea de cargar una temporada antigua, ya sea de la ÚLTIMA TEMPORADA o
+de los cuadros de TEMPORADA DE CARGA es para ver rápidamente resultados pasados, tal vez para verificar
+cómo lo hiciste contra tus próximos oponentes.
+
+El camino obvio a seguir, en este modo, es hacer clic en TABLAS, luego hacer clic en
+en SELECCIONAR CUALQUIER SEMANA.  Los registros completos ahora estarán a tu alcance.
+
+Otra característica útil es cargar cualquier logotipo, hacer clic en él y seleccionar
+LISTA DE ACCESORIOS.   Se le presentará la historia completa de ese
+equipo en particular durante la temporada bajo revisión.
+
+Una vez en el 'MODO DE REVISIÓN', el cuadro ÚLTIMA TEMPORADA ahora dirá REANUDAR.
+
+Tienes que hacer clic en REANUDAR si quieres salir del MODO REVISIÓN y continuar
+con el modo predeterminado.
+
+El siguiente cuadro en este MENÚ DE ARCHIVO es GUARDAR.  Si desea guardar sus registros
+haga clic en este en cualquier momento durante el campeonato, excepto en el momento
+final del último día, cuando aparecerá como NUEVA TEMPORADA.
+Tendrás que hacer clic en NUEVA TEMPORADA para guardar TODO el campeonato para
+posteridad.  Siempre se guardará como FIXT_00.DAT.  Todos los partidos serán entonces
+reiniciarse y puede comenzar una nueva temporada con saldos bancarios, niveles de habilidad y
+los escuadrones quedaron sin cambios.
+
+SAVE guarda por completo todos los registros del equipo y del club, la lista de repeticiones y
+resultados hasta el momento.
+
+Pero el puntero de la semana seguirá como está.
+
+Siempre que haga clic en GUARDAR, asegúrese de que su disco NO esté protegido
+
+La próxima entrada es NUEVA.
+
+Esta es una característica sin concesiones.  Todo se restablece al original.
+estándar.   De hecho, estás sobrescribiendo tus registros con el valor predeterminado.
+archivos siempre guardados en el disco.
+
+No hace falta decir que se le solicitará una confirmación completa y deberá
+responder sólo con el teclado.
+
+EDITOR, la siguiente entrada, te da acceso a los 920 jugadores.
+
+Los nombres se pueden cambiar pero las habilidades y valoraciones requieren una contraseña.
+
+LA TEMPORADA DE CARGA es similar a la TEMPORADA ÚLTIMA excepto que aquí puedes elegir cuál
+temporada particular que deseas cargar: 0 es la que acaba de desaparecer.  usted puede
+recuperar hasta 21 temporadas.
+
+Una vez que esta función esté activa, estará nuevamente en MODO REVISIÓN, según lo confirmado por
+el cursor rectangular.  Ahora aparecerá un nuevo cuadro justo debajo: GUARDAR
+COMO.
+
+La temporada que acaba de cargar se puede volver a guardar con cualquier nombre del 1 al
+20. Asegúrate de no sobrescribir una temporada que te haya gustado especialmente.
+orgulloso de.
+
+PROMOCIONES solo está activa durante la primera parte de la temporada.  lo hará
+reorganice las dos divisiones según las entradas que se muestran en HONORES.
+
+Como todos los archivos maestros se cambiarán, utilícelos con cuidado.
+
+Esto cubre todas las opciones del menú ARCHIVO.
+
+El menú de acción.  
+---------------
+
+VER CLUBES.  Esto mostrará todos los clubes de su división junto con sus
+administradores humanos o no.
+
+MANAGERS es una lista de 46 nombres de usuario ya preparados.  Estos son totalmente editables.
+y tener calificaciones individuales según sus logros.
+
+También se muestra el dinero ganado por estos administradores, así como sus registros.
+
+SELECT CLUB es una de las opciones más utilizadas en este juego.  Tienes que
+seleccionar un club para examinar su plantilla y realizar la selección y
+Decisiones estratégicas que harán ganar o perder un partido.
+
+REPETIR es una de las muchas opciones ÚNICAS de Football Tactician.
+
+Da acceso a los partidos disputados el pasado sábado en ambas divisiones.
+
+Ideal para analizar tu último juego y ver qué salió bien (o mal) y también
+para ver cómo se desempeñaron los otros equipos.
+
+CLÁSICOS es otra función de repetición, excepto que aquí solo se seleccionan los dorados.
+Se muestran coincidencias.  Para almacenar un partido famoso en la sección clásica
+necesitas llamar a la rutina de archivo más abajo.
+
+¡KICK OFF pone la pelota en marcha!
+
+Todos los partidos se jugarán por turnos.  Aquellos que no impliquen usuarios-administradores
+su resultado parpadeará durante dos segundos.  Los demás se jugarán en
+lleno.  Primero se recuperarán de la memoria los logotipos relevantes y luego el partido.
+comenzará a una velocidad definida por el menú de opciones.  Tendrás acceso a
+los dos logos donde se podrán realizar sustituciones, marcajes y cambios de táctica
+hecho.   Si desea cambiar la velocidad del reloj, presione ENTER, - o + en el
+teclado.
+
+Todos los partidos se jugarán de forma totalmente realista, ya sean
+mostrado o no.   Los oponentes informáticos organizarán sus escuadrones, cambiarán
+tácticas o realizar sustituciones según el desarrollo de la jugada.
+
+El KICK OFF también se puede activar haciendo clic en el círculo central.
+
+Igualmente, una vez informados todos los eventos de la semana, se producirá el KICK OFF.
+automáticamente.
+
+Los amistosos se juegan colocando dos logos en las ventanas y presionando F.
+Si alguno de los dos logos que se muestran es un usuario-administrador, el partido será
+informado en su totalidad; de lo contrario, solo se mostrará el resultado.  Aun así, el partido
+habrá sido grabado.
+
+Para reproducirlo, presione R en el teclado.
+
+ARCHIVO muestra el estado de los tres bancos de grabación.  Si haces clic en cualquiera
+de los 36 partidos, el ratón saltará a la sección permanente donde hasta
+Se pueden almacenar cinco coincidencias para siempre.
+
+VIEW REFS enumerará a los 88 árbitros de la liga junto con sus
+récord de dureza.  Nueve es mortal.  Uno es un blando.
+
+Esto cubre todas las opciones del menú ACCIÓN.
+
+El Menú MESAS.  
+----------------
+
+TABLAS En el modo ESTÁNDAR, se puede hacer clic en este cuadro para revelar una división completa
+excepto cuando la temporada aún no ha comenzado.
+
+En modo REVISAR, cuando el cursor es rectangular, esta opción está inactiva,
+pero las tablas de clasificación se llaman desde la opción SELECCIONAR SEMANA más abajo.
+
+PARTIDOS Los partidos de la próxima semana están almacenados aquí.
+
+RESULTADOS Los resultados de la semana pasada se muestran aquí.
+
+TRANSFERENCIAS Esta es una lista completa de todos los jugadores en la lista de transferencias.
+Aunque se muestran las calificaciones de los jugadores, la lista no revela si
+están lesionados, suspendidos o con la moral baja.
+
+Comprar un jugador con calificación de 100 puede resultar en que su nueva calificación salte a
+107 simplemente porque su antigua moral estaba baja.  Para evitar comprar un jugador con un
+suspensión larga o alguna lesión grave, se recomienda revisar su club
+logotipo primero.
+
+Esta lista de transferencias cambia constantemente.  Los jugadores de computadora pueden poner un jugador
+en la lista de transferencias y eliminarlo unas semanas después.
+
+Los niveles de escuadrón no pueden bajar de 17. Verás que si un escuadrón
+está demasiado agotado, un club entrará automáticamente en el mercado de fichajes.
+
+MÁXIMOS GOLEADORES Aquí es donde deberían aparecer tus jugadores si lo estás haciendo bien.
+en la liga.
+
+SELECCIONE CUALQUIER SEMANA.   Una opción muy útil.  Puedes ver cualquier semana en el
+temporada.   Si eliges una semana ya jugada, verás los resultados y
+la tabla completa para esa semana en particular.
+
+Si eliges una semana que aún no se ha jugado, solo aparecerán los partidos.
+
+Esta característica está activa tanto en el modo ESTÁNDAR como en el modo REVISIÓN.
+
+HONORS muestra los principales ganadores de la última temporada completa.  Se muestra
+de un vistazo quién ascenderá y descenderá si decide llamar
+la rutina de promoción.
+
+LAS COPAS Aquí se muestran todas las inscripciones a copas locales y europeas.
+
+Las miniligas de la CE ya están operativas.
+
+Los sorteos de copa varían de una temporada a otra.
+
+EURO POOL Los jugadores pueden comprarse en este grupo.  Igualmente podrá disponer de
+tus jugadores no deseados dándoles una transferencia gratuita.
+
+Esto cubre todas las opciones del menú TABLAS.
+
+El menú OPCIONES.  
+-----------------
+
+La mayoría de los cuadros bajo este menú son del tipo alternable: es decir, simplemente cambian
+ciertas condiciones activadas o desactivadas.
+
+La configuración predeterminada se guardará en el disco automáticamente.
+
+La opción NOTICIAS le permite determinar la cantidad de actividad a mitad de semana.
+
+Se llevarán a cabo entre ocho y veinticuatro eventos, incluidos posibles traspasos.
+lugar dependiendo del entorno.
+
+VELOCIDAD La velocidad de la acción del partido es lenta, en cuyo caso cada bola
+La competencia dura unos dos segundos, o lo normal, que dura medio segundo, o
+rápido que dura 1/50 de segundo.
+
+La duración efectiva de la acción depende no sólo de esta configuración sino
+sobre cuántas ilustraciones aparecen durante el partido.   banderas de fuera de juego,
+penalizaciones, etc. tardan un poco en mostrarse y ralentizan un poco las cosas.
+
+Descubrirás que intervenir con el ratón durante un partido configurado en rápido es
+No es tan fácil.   Presione - en el teclado (repetidamente si es necesario) para reducir la velocidad.
+cosas hacia abajo, luego haga clic en los logotipos.
+
+HIGHLIGHTS es otra variable que afecta la forma en que se informará un partido reportado.
+mira.
+
+El modo predeterminado es DESTACADOS, que informará de todos los eventos importantes: goles,
+tiros, faltas, córners, penaltis, lesiones y cambios de táctica.
+
+Cuando se establece en COMENTARIO COMPLETO, los nombres de los jugadores se informarán todo el tiempo.
+tiempo.   Los jugadores locales estarán a la izquierda y los visitantes a la derecha.  el
+El jugador que realmente controla el balón se muestra en azul.
+
+La otra configuración es SÓLO METAS, que solo informará los goles marcados.
+quién los anotó y cuándo.
+
+Las TRANSFERENCIAS entre equipos informáticos podrán ser automáticas o no.
+
+Debes recordar que si se permiten transferencias automáticas, mucho
+del movimiento del jugador tendrá lugar, especialmente si has elegido el
+Opción de NOTICIAS semanales completas.
+
+Para reducir la migración excesiva de jugadores, puede seleccionar Semana BREVE
+eventos o desactivar TRANSFERENCIAS periódicamente.
+
+Los equipos administrados por jugadores usuarios no realizarán transferencias automáticas a menos que
+permites que tu escuadrón se agote indebidamente.
+
+Esto cubre el menú de opciones.
+
+El menú del logotipo.  
+--------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!)
+
+Durante la semana, se puede contactar y reorganizar a todos los jugadores (a menos que estén lesionados).
+o suspendido).   Durante un partido sólo se podrán reorganizar los once primeros,
+y se podrán incorporar hasta dos sustitutos.
+
+Haz clic en el nombre del jugador para activar un intercambio con otro jugador.
+
+Algunos jugadores tienen roles variables y pueden ser cambiados del mediocampo al
+ataque o mediocampo a la defensa.   O pueden jugar como extremos, o
+barrenderos...
+
+Haga clic en estas columnas para cambiar los roles de los jugadores.
+
+Si empiezas un partido con dos porteros, o ninguno, el programa rectificará
+esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.
+Puedes tener hasta 20 jugadores en tu plantilla.
+
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.
+
+No hay garantía de que el jugador se una a ti.  Puede que tengas que
+acercarse a él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema de barredora y ritmo de pausa.
+
+Por ejemplo, buscar pases en profundidad solo tiene valor si tienes uno o
+Dos verdaderos atacantes al frente (ATT) con una velocidad superior a la media.  en el
+Por otro lado, es posible que les pillen en fuera de juego algunas veces...
+
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.  Nuevamente, consulte su manual.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.
+
+Se permitirá el acceso a la plantilla contraria en cualquier momento, pero, en el partido
+modo no podrá interferir con él.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.
+
+Marcar a un oponente reducirá gravemente su rendimiento, pero será al menos
+a expensas de su calificación general.
+
+Opciones de fin de logotipo
+
+El menú del logotipo.  
+--------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!)
+
+Durante la semana, se puede contactar y reorganizar a todos los jugadores (a menos que estén lesionados).
+o suspendido).   Durante un partido sólo se podrán reorganizar los once primeros,
+y se podrán incorporar hasta dos sustitutos.
+
+Haz clic en el nombre del jugador para activar un intercambio con otro jugador.
+
+Algunos jugadores tienen roles variables y pueden ser cambiados del mediocampo al
+ataque o mediocampo a la defensa.   O pueden jugar como extremos, o
+barrenderos...
+
+Haga clic en estas columnas para cambiar los roles de los jugadores.
+
+Si empiezas un partido con dos porteros, o ninguno, el programa rectificará
+esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.
+
+Puedes tener hasta 20 jugadores en tu plantilla.
+
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.
+
+No hay garantía de que el jugador se una a ti.  Puede que tengas que
+acercarse a él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema de barredora y ritmo de pausa.
+
+Por ejemplo, buscar pases en profundidad solo tiene valor si tienes uno o
+Dos verdaderos atacantes al frente (ATT) con una velocidad superior a la media.  en el
+Por otro lado, es posible que les pillen en fuera de juego algunas veces...
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.  Nuevamente, consulte su manual.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.
+
+Se permitirá el acceso a la plantilla contraria en cualquier momento, pero, en el partido
+modo no podrá interferir con él.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.
+
+Marcar a un oponente reducirá gravemente su rendimiento, pero será al menos
+a expensas de su calificación general.
+
+Opciones de fin de logotipo
+
+El menú del logotipo.  
+--------------
+
+Se puede acceder al menú LOGO tanto durante la semana como durante un partido.
+
+Algunas funciones estarán activas todo el tiempo, otras serán específicas de
+cualquiera de estas posibilidades.
+
+SELECT te da acceso a tu escuadrón (¡o al escuadrón del oponente!)
+
+Durante la semana, se puede contactar y reorganizar a todos los jugadores (a menos que estén lesionados).
+o suspendido).   Durante un partido sólo se podrán reorganizar los once primeros,
+y se podrán incorporar hasta dos sustitutos.
+
+Haz clic en el nombre del jugador para activar un intercambio con otro jugador.
+
+Algunos jugadores tienen roles variables y pueden ser cambiados del mediocampo al
+ataque o mediocampo a la defensa.   O pueden jugar como extremos, o
+barrenderos...
+
+Haga clic en el ROL DERECHO para activar los cambios.  El papel de izquierda es el
+posición predeterminada y no es accesible.
+
+Si empiezas un partido con dos porteros, o ninguno, el programa rectificará
+esta anomalía automáticamente.
+
+COMPRAR te permite ver la lista de transferencias y comprar un jugador, fondos
+lo permite.
+
+Puedes tener hasta 20 jugadores en tu plantilla.
+
+APPROACH te permite acercarte a cualquier jugador de cualquier club.  hay algunos
+costos involucrados.  Y el valor de mercado del jugador probablemente aumentará.
+
+No hay garantía de que el jugador se una a ti.  Puede que tengas que
+acercarse a él varias veces.
+
+ESTRATEGIA.   Tienes la opción de elegir ocho estrategias diferentes, cada una con
+su propio mérito (y desventaja).  Consulta tu manual.  Las estrategias son:
+
+Normal, trampa de fuera de juego, centros altos, contraataques rápidos, pases en profundidad, constante
+acumulación, sistema barredor y ritmo de rotura.
+
+Por ejemplo, buscar pases en profundidad solo tiene valor si tienes uno o
+Dos verdaderos atacantes al frente (ATT) con una velocidad superior a la media.  en el
+Por otro lado, es posible que les pillen en fuera de juego algunas veces...
+
+Las TÁCTICAS tienen una influencia significativa en la forma en que avanza el partido.  áspero
+Jugar golpeará al rival pero te dará algunas tarjetas amarillas.  cayendo
+en el área puede ganar alguna que otra penalización, pero también una amonestación y pérdida de
+posesión.  Nuevamente, consulte su manual.
+
+La FORMACIÓN es una casilla no accesible.  Simplemente confirma la configuración actual.
+
+LA PRÓXIMA SEMANA no sólo te informa de tus próximos oponentes, sino que al hacer clic en él,
+cargará su logo y plantilla.
+
+Se permitirá el acceso a la plantilla contraria en cualquier momento, pero, en el partido
+modo no podrá interferir con él.
+
+VENDER te permite poner a cualquiera de tus jugadores en la lista de transferencias.  esperar
+la moral cae cuando intentas vender un jugador.  Para eliminar a un jugador del
+lista de transferencias, tendrás que hacer clic en DESLISTAR.
+INFO te brinda información histórica de tu club.  FINANCIERO muestra el
+saldo bancario actual y las distintas cuentas comerciales.  todavía lo serás
+Se le permite jugar si sale en números rojos, pero se negarán las compras.
+
+LISTA DE ACCESORIOS es una opción útil que muestra toda la temporada de un vistazo, con
+resultados de los partidos jugados.  No sólo puedes examinar tu propia lista, sino
+el de cualquier club de tu división.
+
+En el modo PARTIDO, algunas de las opciones anteriores estarán deshabilitadas, pero una nueva
+Aparecerá: MARCAR OPONENTE.  Marcar a un oponente reducirá severamente su
+rendimiento, pero será a expensas de su calificación general.
+
+
+----------------------------------FIN------------------------------------

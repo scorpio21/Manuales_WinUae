@@ -1,0 +1,1212 @@
+                            SHERLOCK
+                 The Riddle of the Crown Jewels
+
+If you've never played Infocom's interactive fiction before, you should
+read this entire instruction manual.  But, if you're an experienced Infocom
+game player, just read Section I: About The Riddle of the Crown Jewels.
+
+      
+                        TABLE OF CONTENTS 
+ 
+Section I: About The Riddle of the Crown Jewels 
+ 
+Preface to the Story . . . . . . . . . . . Page 3
+Hints. . . . . . . . . . . . . . . . . . . . . .3
+Sample Transcript and Map. . . . . . . . . . . .3 
+About the Author . . . . . . . . . . . . . . . .8 
+About the Others . . . . . . . . . . . . . . . .8 
+ 
+Section II: About Infocom's Interactive Fiction 
+ 
+An Overview:
+What is interactive fiction?. . . . . . . . . . 8 
+ 
+Starting and Stopping. . . . . . . . . . . . . .8 
+	"Booting Up"  
+	Saving and Restoring  
+	Quitting and Restarting  
+ 
+Communicating with Infocom's Interactive 
+Fiction. . . . . . . . . . . . . . . . . . . . .9  
+	Basic sentences  
+	Complex sentences  
+	Talking to characters in the story  
+
+Special Commands . . . . . . . . . . . . . . . .11 
+ 
+Tips for Novices . . . . . . . . . . . . . . . .12 
+Eleven useful pointers about interactive fiction.  
+  
+Common Complaints. . . . . . . . . . . . . . . .13
+ 
+If You Have Technical Problems . . . . . . . . .14 
+ 
+Copyright and Warranty Information . . . . . . .14 
+ 
+Quick Reference Guide. . . . . . . . . . . . . .15 
+The most important things to know about interactive fiction.  
+
+We're Never Satisfied. . . . . . . . . . . . . .15
+
+				2
+
+SECTION I: ABOUT THE RIDDLE OF THE CROWN JEWELS
+
+Preface to the Story
+
+In The Riddle of the Crown Jewels, you play the role of Doctor Watson.  You
+have received an urgent summons to the rooms of your good friend Sherlock
+Holmes by his landlady, Mrs. Hudson.  Normally you are not up and about so
+early on a Saturday.  But here you are, outside the Baker Street residence,
+and not a moment too soon; for the fog has thickened and traveling is
+difficult since you can't see more than a few feet in front of you.
+
+Hints
+
+The Riddle of the Crown Jewels is partly a story for you to read and partly
+puzzles for you to solve.  If you feel stuck on any puzzle in The Riddle of
+the Crown Jewels, you can type HINT and press the RETURN (or ENTER) key. 
+Then follow the instructions on your screen.  Most of the hints are nudges
+in the right direction; the last hint in a sequence is usually a complete
+answer.
+
+Sample Transcript and Map
+
+This transcript is not from The Riddle of the Crown Jewels, but it does
+show many of the usual things you can do in the story.  It shows a few
+simple puzzles and their solutions, and it will give you a good idea of how
+Infocom's interactive fiction works.  The player's commands appear in
+capital letters after each prompt (>).  The map shows the layout of the
+rooms in the sample transcript as you might have drawn it.
+
+                          Stationmaster
+          !--------!    !------------!       !----------!
+          ! Train  !----! End of     !       ! 221B     !
+          ! Berth  !    ! Platform   !       ! Baker    !
+          !--------!\   !------|-----!       ! Street   !
+                    |          |             !----|-----!
+                   /    !------|-----!            |
+   after trip --- /     ! King's     !   via ---- |
+                 /      ! Cross      !   cab      |
+                /       ! Station    !    | !-----|--! !--------! 
+         !-----/--!     !------|-----!    | !Outside !-!Victoria!
+ Station !Laven-  !            |          | !Victoria! !Station !
+Master   !shire   !            |          | !Station ! !--------!
+         !Station !            |            !--------!
+         !---|----!            |           /
+             |           !-----|--------!/
+        !----|------!    !Outside King's!
+Shepherd! Outside   !    ! Cross        !            / \
+        ! Lavenshire!    ! Station      !             |
+        ! Station   !    !-----|--------!             |
+        !-----------!          |                      |
+                         !-----|--------!             |
+                         ! By the       !             N
+                         ! Pushcart     !
+                         !--------------! Flowers
+                                          Old woman
+
+"Well, Doctor, it seems that I shall have the honor of providing you with
+more material with which you may exaggerate and glorify my most elementary
+deductions.  What do you make of this?" Holmes hands you a piece of paper.
+
+>READ THE PAPER
+"A thorny problem, a maiden's name,
+A cheeky colore, 'tis all the same.
+In Lavenshire he's heard of sheep.
+A stone's throw away fore'er you'll sleep.
+
+Holmes hands you your hat and coat and ushers you outside.  "Let's go down
+to Lavenshire at once.  Here's the train schedule," he says, pressing it
+into your hand.  "Lead the way, Watson, so that I may reflect upon the
+riddle."  Holmes furrows his brow and half closes his eyes in
+concentration.
+
+				3
+
+221B Baker Street
+You are standing outside Holmes' residence on Baker Street.  The door to
+the house is to the west.  The street continues north and south.  Holmes
+stands nearby, deep in thought.
+
+>INVENTORY
+You are carrying a whistle, a train schedule, a riddle, a pound note, a
+shilling, and your hat and coat.
+
+The cool damp air makes your bones shiver.
+
+>LOOK AT THE TRAIN SCHEDULE
+
+            MORNING DEPARTURES FROM VICTORIA STATION
+
+Leaving 
+Victoria
+Station	Arriving (Place & Time)
+
+6:40		Wellifleet 7:20, Muttontown 7:40
+		Simpson 9:00, Leominister 9:20,
+		Pallis 9:45, Everett 10:15
+
+9:55		Herringdale 10:25, Elmsford
+		10:40, Lavenshire 11:00,
+		Farmington 11:20, Great
+		Meadows 11:45, Cotsworth 12:10
+
+11:20	South Torrington 11:40, North
+		Torrington 11:55, Bateshire 12:20,
+		Gladtree 12:45, The Firs 1:05
+
+Save sixpence - Buy your ticket in advance from the Stationmaster. 
+Schedule subject to change without notice.
+
+The cool damp air makes your bones shiver again.
+
+>TIME
+It is 9:45 a.m. [In The Riddle of the Crown of Jewels, the date and the
+time of day in the story are always displayed at the top of your screen, so
+you don't actually need to type TIME when you play.]
+
+Your teeth are beginning to chatter from the cold.
+
+>PUT ON THE COAT
+You put on the coat and immediately feel a little more comfortable.
+
+>BLOW THE WHISTLE
+Tweeet
+
+>WEAR HAT
+You don your hat and immediately feel much more comfortable.
+
+A growler cab pulls up beside you.
+
+>GET IN THE CAB
+You get in the cab.  Holmes climbs in next to you.
+
+"Where to, guv'nor?" asks the cabbie.
+
+>VICTORIA STATION
+"Victoria Station it is, guv'nor."  The cab deftly maneuvers through the
+narrow twisty streets.  After awhile, the cab stops in front of Victoria
+Station.
+
+>GET OUT OF CAB
+You get out of the cab, and Holmes follows you.  The cab drives away and
+disappears.
+
+Outside Victoria Station
+The entrance to Victoria Station is to the east.  Streets lead off to the
+north, south, and southwest.
+
+>GO EAST
+Victoria Station
+This large train station is usually a hubbub of activity.  At the moment,
+however, the platform is deserted, and the tracks are empty.
+
+>TIME
+It is 10:00
+
+Holmes snaps out of his trance-like concentration and looks around.  He
+sighs, smiles wanly, and says kindly, "My dear Watson, it seems we have
+missed the train to Lavenshire.  No train, no case; and no case, no story
+for you.  The next time you use your whistle, blow it twice, and a hansom
+cab shall arrive.  Hansom cabs are vastly more reliable than growlers, and
+they are hardly any less comfortable."
+
+				4
+
+>I
+You are carrying a whistle, a train schedule, a riddle, a pound note, and a
+shilling.  You are wearing your hat and coat.
+
+>TURN OVER THE TRAIN SCHEDULE. READ IT.
+You turn over the train schedule.
+
+          MORNING DEPARTURES FROM KING'S CROSS STATION
+
+Leaving
+King's Cross
+Station	Arriving (Place & Time)
+
+7:15		Hartley 7:35, Reeve 7:50, Cushing
+		8:10, Upper Tadworth 8:30, Tadworth
+		8:45, Selfridge 9:10
+
+10:40	Bellingdon 11:05, Westwood
+		11:20, Lavenshire 11:40,
+		Farmington 11:55, Great
+		Meadows 12:25, Cotsworth 1:10
+
+11:40	Galley Hill 12:00, Richmond
+		12:15, Sutton Green 12:35,
+		Plainview 12:55, Elk's Way 1:20,
+		Upton 1:40
+
+Save sixpence - Buy your ticket in advance from the Stationmaster. 
+Schedule subject to change without notice.
+
+>W
+Outside Victoria Station
+Holmes ambles along beside you, shaking his head.
+
+>BLOW THE WHISTLE
+Tweeet!
+
+>AGAIN
+Tweeeeet!
+
+Holmes looks at you expectantly.
+
+>LOOK AT HOLMES
+Holmes is wearing his cape and deerstalker cap.  He is watching you
+carefully, as if he expects you to surprise him.
+
+A hansom cab pulls up beside you.
+
+>GET IN HANSOM CAB
+You get into the cab. Holmes seats himself next to you.
+
+"Where to, guv'nor?" asks the driver
+
+>KING'S CROSS STATION
+"King's Cross Station it is, then," says the driver.  You are thrown back
+to the back of your seat as the cab races through the streets, and moments
+later, you find yourself outside King's Cross Station.
+
+Holmes is clearly pleased. "Good show Watson!  We'll get to Lavenshire
+yet."  He immediately furrows his brow again and thinks of the case that
+lies ahead, meditating with such concentration that he appears to be in a
+near-hypnotic state.
+
+>GET OUT OF THE CAB
+You get out of the cab, and Holmes follows.  The cab drives away and
+disappears.
+
+Outside King's Cross Station
+Streets head off to the east and west, and the entrance to King's Cross
+Station lies to the north.  Across the street to the south, an old woman
+with a pushcart sells flowers.
+
+>TIME
+It is 10:25
+
+>S
+Holmes follows you across the street.
+
+By the Pushcart
+A dirty woman dressed all in gray stands here next to her wooden pushcart,
+which is full of bright and beautiful flowers.  "Buy some flowers,
+gentlemen?   For your wives or lady friends?"
+
+>LOOK AT THE FLOWERS
+The pushcart is covered with carnations, roses, tulips, verbena, irises,
+lobelia, chrysanthemums, and daisies.
+
+				5
+
+>BUY ROSES
+"Ah, lovely, lovely.  That'll be two shillings for a dozen, then."
+
+Holmes nods at you appreciatively.  "A thorny problem, a maiden's name, a
+cheeky color, 'tis all the same." Roses!  Good show, Watson!"
+
+>HAGGLE WITH THE WOMAN
+The old woman frowns. "But sir, these roses are good enough for the Queen
+herself.  All right, then, one shilling six."
+
+>AGAIN
+"But sir, look at the color, the rich ruby red.  Look at the stems, sir,
+long, beautiful, tapered stems.  The finest roses in all of England, and
+you, a gentleman, want to steal them from me?  Impossible, sir, impossible
+for me to settle for anything less than a shilling."
+
+>GIVE SHILLING TO WOMAN
+The woman takes the coin, shoving it into the folds of her clothing, then
+hands you a dozen roses.  "Anything for you, sir?" she asks Holmes.  But
+Holmes, again lost in thought, does not reply.
+
+>N.N
+Holmes follows you across the street.
+
+Outside King's Cross Station
+
+Holmes follows you into the station.
+
+King's Cross Station
+Unlike Victoria Station at this hour, King's Cross Station is bustling with
+activity.  To the west, a train on the platform hisses impatiently as
+porters assist passengers and load baggage.  Families give their tearful
+farewells to loved ones, and children run amid the crowds and columns. 
+Beggars shake their tin cups at top-hatted gentlemen and perfumed ladies. 
+At the northern end of the platform, a uniformed stationmaster watches over
+all, occasionally checking the watch he holds in his hand.  The station may
+be exited to the south.
+
+>TIME
+It is 10:35
+
+>GO NORTH
+
+Holmes follows you.
+
+End of Platform
+The platform is less crowded here.  The stationmaster barely glances at
+you, then looks at his watch and studies the pandemonium behind you.
+
+>BUY TWO TICKETS TO LAVENSHIRE
+The stationmaster pulls a large pad from a deep pocket, rips two tickets
+from it, and with an efficiency acquired from years of practice, punches
+them to show date, point of departure, destination, and price.  He hands
+you the tickets and says, "One pound, sir."
+
+>GIVE POUND NOTE TO THE STATIONMASTER
+"Thank you, sir."
+
+>BOARD THE TRAIN
+You find an empty compartment toward the front of the train, and you and
+Holmes settle yourselves.  Holmes is still lost deep in thought.
+
+Train Berth
+You are sitting in a small but comfortable berth.  You may exit the train
+via the door to the east, or enter the train's corridor to the west. 
+Holmes sits opposite you, his eyes now completely shut in intense
+concentration.
+
+Outside you hear the stationmaster shout "All aboard!"
+
+>WAIT UNTIL 11:40
+Time passes...
+
+The train pulls out of the station.
+
+A conductor enters the berth, checks your tickets, and leaves
+
+Time passes...
+
+				6
+
+The train slows down and pulls into a station.  A voice outside shouts
+"Bellingdon!" Do you wish to keep waiting? >Y
+
+Outside you hear a voice shout "All aboard!"  Moments later, the train
+pulls out of the station.
+
+Time passes...
+
+The train slows down and pulls into a station.  A voice outside yells
+"Westwood!"  Do you wish to keep waiting? >Y
+
+Outside you hear a voice shout "All aboard!"  Moments later, the train
+pulls out of the station.
+
+Time passes...
+
+The train slows down and pulls into a station.  A voice outside yells
+"Lavenshire!"
+
+It is now 11:40
+
+>WEST
+You step out of the train, and Holmes follows you.
+
+Lavenshire Station
+The air here, as anywhere in the English countryside, seems remarkably pure
+compared to London's.  A stationmaster, somewhat older and frailer than the
+one at King's Cross, stands lookout to the north.  The train hisses on the
+western track.  The station may be exited to the south.
+
+>S
+Holmes follows you outside.
+
+Outside Lavenshire Station
+You are in the quiet English countryside.  The Lavenshire train station
+lies to the north, and a small road runs east to west.  A bearded shepherd
+stands alone nearby, holding his staff.
+
+Holmes whispers to you, "Odd, is it not, Watson, that the shepherd has no
+flock?  Perhaps 'heard of sheep' is our punster's way of referring to a
+shepherd.  Perhaps this fellow might provide us with some guidance."
+
+>I
+You are carrying a whistle, a train schedule, a riddle, a dozen roses, and
+two train tickets.  You are wearing your hat and coat.
+
+>SHOW THE RIDDLE TO THE SHEPHERD                        
+Warily, the shepherd looks at the riddle.  As he reads it, his eyes grow
+wide and his face turns white.  The he notices what you're carrying. 
+"Blood-red roses!" he croaks.  He drops his staff, clutches his heart, and
+cries "Moriarty!  He wore he'd find me!"  Then he falls to the ground.
+
+>LOOK AT THE SHEPHERD
+He is quite dead of fright, his face twisted grotesquely.  His left hand
+clutches a small stone.
+
+>TAKE THE SMALL STONE
+You pry the stone from the dead man's grip.
+
+>LOOK AT IT
+The stone has a small symbol scratched onto its surface.
+
+>GIVE THE STONE TO HOLMES
+Holmes studies the stone with his magnifying glass for a few seconds, then
+stares intensely at the horizon.  "Watson, we are in great danger.  I have
+been a fool, and this man is dead because of it.  Come!  We haven't a
+moment to lose!"  Holmes dashes down the road to the east.
+
+				7
+
+About the Author
+
+Bob Bates, a native of Greenbelt, Maryland, is a disgruntled graduate of
+Georgetown University and a gruntled employee of Challenge, Inc.  He
+bewilders his fellow workers by wearing ties to work and by singing
+unaccompanied four-part harmony at odd times of the day.  He seizes any
+excuse to read all night, and when he can't find an excuse, he does it
+anyway.
+
+About the Others
+
+The author thanks everyone who helped create this product, especially
+senior programmer Frederick Wilt and programmers Duane Beck and Mark
+Poesch.  So many Info-people made major contributions - from the testers to
+the packagers and marketeers - that it would be unfair to single out just a
+few.  Consequently, the author gratefully acknowledges the help of Stu
+Galley and Chris Reeve, and he hopes that all the others will be content
+with the large cash payment they will be receiving any day now.  Special
+thanks are also due to Dave Wilt and Anne Mortimer at Challenge, and to
+Peggy Ariani, who not only married the author, but stayed with him through
+thin and thick.
+
+We gratefully acknowledge The Times of London for their kind permission to
+reproduce their nameplate and selected stories from their edition of June
+17, 1887.
+
+SECTION II:  ABOUT INFOCOM'S INTERACTIVE FICTION
+
+An Overview 
+ 
+Interactive fiction is a story in which you are the main character.  Each
+interactive story, such as The Riddle of the Crown Jewels, tells you about
+a series of places, things, people, and events.  You can move from place to
+place, use the things you find, and interact with the other people, to
+affect the outcome of the story.
+
+An important element of interactive fiction is puzzle-solving.  If you find
+a locked door or a watchdog, don't think of it as an obstacle; it's just a
+puzzle to be tackled. (Find the key that unlocks the door, or figure out
+how to fool or get around the dog.)  Often the best way to solve a puzzle
+is to find a certain thing in the story, bring it with you, and use it the
+right way.
+
+When you play The Riddle of the Crown Jewels, the story goes on only from
+the time you press the RETURN (or ENTER) key until you see the next prompt
+(>).  Nothing happens until you type a sentence and press the RETURN (or
+ENTER) key, so you can think and plan your turns as slowly and carefully as
+you want.
+
+Starting and Stopping  
+  
+Starting the Story:  To start The Riddle of The Crown Jewels, follow the
+instructions on the Reference Card in your package.   The computer will
+display the title of the story and ask you to press any key to begin the
+story.  Then the computer will describe the place where the story begins:
+on Baker Street, outside Sherlock Holmes' residence.   Finally the prompt
+(>) will appear, which means that the computer is ready for your command. 
+
+Here are a few inputs for you to try at the first several prompts.  After
+typing each input, don't forget to press the RETURN (or ENTER) key.  
+
+>INVENTORY              
+>LOOK AT THE BLACK BAG  
+>KNOCK ON THE DOOR
+>OPEN THE BAG
+
+				8
+  
+Saving and restoring:  You will probably have many hours of fun before you
+finish The Riddle of the Crown Jewels.  If you use SAVE command, you can
+continue the story at a later time without having to start over from the 
+beginning, just as you can place a bookmark in a book you are reading. The
+SAVE command puts a "snapshot" of your place in the story onto another
+disk.  You can also save your place before (or after) trying something
+dangerous or tricky.  That way, you can go back to that point later, even
+if you get lost or "killed" in the story.
+
+To save your place in the story, type SAVE at the prompt (>), and then
+press the RETURN (or ENTER) key.  Then follow the  instructions for saving
+and restoring on your Reference Card.  Some computers require a blank disk,
+initialized and formatted, for saving your place.  If you use a disk with
+data on it (not counting other saves), the data may be destroyed. You can
+save your place as often as you like, if you use more blank disks.  
+
+You can restore a saved place any time you want. To do so, type RESTORE at
+the prompt (>), and press the RETURN (or ENTER) key.  Then follow the
+instructions on your Reference Card.  You can then continue the story from
+the point where you used the SAVE command. 
+  
+Quitting and restarting:  If you want to start over from the beginning,
+type RESTART and press the RETURN (or ENTER) key.  (This is usually faster
+than "booting up" again).  Just to make sure,  the computer will ask if you
+really want to start over.  If you do, type Y for YES and press the RETURN
+(or ENTER) key. 
+
+If you want to stop entirely, type QUIT and press the RETURN (or ENTER)
+key. Once again, the computer will ask if this is really what you want to
+do.
+
+Remember when you RESTART or QUIT: if you want to be able to return to this
+point again, you must first use the SAVE command. 
+ 
+Communicating with Infocom's Interactive Fiction 
+  
+In The Riddle of the Crown Jewels you type your commands in plain English
+each time you see the prompt (>).  The computer usually acts as if your
+sentence begins with "I want to.....," although you shouldn't actually type
+those words. You can use words like THE if you want, and you can use
+capital letters if you want; the computer doesn't care either way. 
+
+When you have finished typing a command, press the RETURN (or ENTER) key. 
+The computer will then respond, telling you whether your request is
+possible at this point in the story, and what happened as a result.  
+
+The computer looks at only the first nine letters of each of your words,
+and it ignores any letters after the ninth. For example, the computer would
+think COUNTERFEit, COUNTERFEiter, and COUNTERFEited are all the same word.
+
+To move around, just type the direction you want to go.  Directions can be
+abbreviated: NORTH to N, SOUTH to S, EAST to E, WEST to W,  NORTHEAST to
+NE, NORTHWEST to NW, SOUTHEAST to SE, and SOUTHWEST to SW, UP to U, and
+DOWN to D.  Remember that IN and OUT will also work in certain places.  You
+don't need to walk around or turn around in a place.
+
+The computer recognizes many different kinds of sentences.  Here are some
+examples. (Some of these things do not actually appear in the story.)  
+  
+>WALK NORTHEAST  
+>DOWN  
+>ROW WEST
+>TAKE THE GUN
+>OPEN BAG            
+>LOOK AT THE HAIR THROUGH THE MICROSCOPE
+>HOLD THE FRYING PAN OVER THE FIRE
+>READ PLAQUE
+>EXAMINE THE WATCH WITH THE MAGNIFYING GLASS
+>PUT ON THE GLOVES             
+>KNOCK ON DOOR             
+
+				9
+
+>UNLOCK BOX WITH KEY           
+>RUB THE CHICKEN WITH THE GARLIC 
+>BLOW THE WHISTLE            
+>HIT THE BALL WITH THE MALLET
+>PUT CARD ON TRAY  
+ 
+If you want to TAKE, DROP, or PUT more than one thing, you can do it in one
+command if you separate the things with a comma or the word AND.  Here are
+some examples:  
+  
+>TAKE THE NEWSPAPER AND THE KNIFE
+>DROP BAG, CARNATION, AND HAT                             
+>PUT THE PIPE AND THE TOBACCO IN THE BAG   
+ 
+You can type several sentences on the same line if you separate them with a
+period or the word THEN. (Each sentence will still count as a turn.)  You
+don't need a period at the end of the input line.  For example, you could
+type all of these sentences at once, before pressing the RETURN (or ENTER)
+key:  
+  
+>TURN ON THE LAMP.GO NORTH THEN CLIMB THE LADDER.READ THE NOTE
+
+Remember, use AND only to connect two direct objects.  Use THEN or a period
+to connect two sentences.
+
+If the computer doesn't understand one of your sentences, or if something
+unusual happens, it will ignore the rest of your input line (see "Common
+Complaints" on page 13).   
+
+The words IT and ALL can be very useful.  For example: 
+ 
+>TAKE THE NEWSPAPER.READIT.PUT IT ON THE TABLE
+>CLOSE THE HEAVY METAL DOOR. LOCK IT 
+>TAKE THE TRENCH COAT.PUT IT ON     
+>TAKE ALL 
+>TAKE ALL EXCEPT THE WET EGG AND THE KEY 
+>TAKE ALL FROM BAG     
+>DROP ALL BUT THE RING   
+ 
+The word ALL refers to every visible thing except those inside something
+else.  If there were an apple on the ground and an orange inside a cabinet,
+TAKE ALL would take the apple but not the orange.  
+
+You will meet many interesting people in the story, and you  can "talk" to
+them and give them commands.  There are some simple rules to follow when
+"talking" to people.  To "talk" to a person, type the person's name, then a
+comma, then whatever you want to say to them.  For example: 
+ 
+>HOLMES, TELL ME ABOUT THE NOTE
+>WIGGINS, FOLLOW ME                      
+>SHERMAN, GIVE ME THE BIRD                   
+ 
+You can ask questions by typing ASK (someone) ABOUT (someone or something.)
+For instance: 
+
+>ASK MYCROFT ABOUT WIGGINS
+>ASK HOLMES ABOUT THE RUBY
+
+However, most people in the story don't care for idle chatter.  Your deeds
+will speak louder than your words.
+
+The computer will try to guess what you really mean if you don't  give
+enough information.  For example, if you say that you want to do something,
+but not what you want to do it to or with, the computer will may decide
+that there is only one possible thing you could mean.  When it does so, it
+will tell you.  For  example: 
+ 
+>UNLOCK THE DOOR 
+(with the key) 
+The door is now unlocked 
+ 
+If your command is not clear enough, the computer will ask what you really
+mean.  You can answer most of these questions briefly by  supplying the
+missing information, not the entire sentence again.  You can do this only
+at the very next prompt.  For example:
+
+				10 
+ 
+>OPEN THE DOOR
+Which door do you mean, the front door or the parlour door?
+
+>FRONT     
+You open the front door, but no one is there.           
+ 
+or 
+ 
+>TAKE THE BUTTERFLY 
+Which butterfly do you mean, the delicate magenta butterfly or the fat
+yellow butterfly? 
+
+>DELICATE 
+The delicate magenta butterfly flutters away as you reach for it.
+ 
+The computer recognizes over 1400 words, nearly all that you are  likely to
+use in your commands.  However, there are many words in the story's
+descriptions that the computer  will not recognize in your sentences.  For
+example, you might read, "The fog swirls around you, and the sound of your
+footsteps seem amplified on the empty cobblestone street."  If the computer
+doesn't recognize the words FOG or FOOTSTEPS when you type them, then you
+know that you don't need them to finish the story; they just give you a
+more vivid description of where you are or what is going on.   
+ 
+Special Commands  
+  
+This is a list of useful one-word commands and their explanations. You can
+use them whenever you want.  Some count as a turn, others do not.  Type the
+command after the prompt (>) and press the RETURN (or ENTER) key.
+   
+AGAIN -  The computer will act as though you had typed your previous
+command again. For instance, typing BLOW THE WHISTLE then typing AGAIN
+would be like blowing the whistle twice in a row. You can abbreviate AGAIN
+to G.  
+  
+BRIEF - After this command, the computer will tell you all about a place or
+thing only the first time you see it.  If you see it again later, the
+computer will tell you only that it is there. This is the normal way that
+the computer will act,  unless you use the VERBOSE or SUPERBRIEF command.
+SUPERBRIEF tells the computer to tell you only the name of a place you have
+entered, even the first time you see it.  Of course, you can always LOOK to
+get a description of a place, and the things there.  In SUPERBRIEF mode,
+there is no blank line between turns. SUPERBRIEF is for players who are
+already very familiar with the story.  VERBOSE tells the computer to tell
+you all about a place or thing every time you see it.
+  
+HINT - If you have difficulty while playing the story, and you can't figure
+out what to do next, just type HINT.  You will see a list of questions you
+can ask.  Just follow the directions at the top of your screen to see the
+hint of your choice.
+
+INVENTORY -  The computer will tell you what you are carrying and wearing. 
+You can abbreviate INVENTORY to I.  
+  
+LOOK - This tells the computer to describe your location in full detail.
+You can abbreviate LOOK to L.  
+
+				11
+  
+OOPS - If you accidentally misspell a word, and the computer doesn't
+recognize it, you can fix it at the next prompt (>) by typing OOPS and the
+correct word.  For example, if you typed GIVE THE MANGIFYING GLASS TO
+HOLMES and were told "[I don't  know the word 'mangnifying'.]" You could
+type OOPS MAGNIFYING instead of typing the whole sentence again.
+  
+QUIT - This lets you stop.  If you want to save your place before stopping,
+follow the instructions in the "Starting and  Stopping" section on page 8.
+You can abbreviate QUIT to Q.  
+  
+RESTART - This stops the story and starts it over from the beginning.  
+  
+RESTORE - This lets you continue from any point where you used the restores
+SAVE command.  See "Starting and Stopping" on page 8 for more details.  
+
+SAVE - This puts a "snapshot" of your place in the story onto a storage
+disk.  You can use the RESTORE command at a later time to continue from the
+same place.  See "Starting and Stopping" on page 8 for more details.  
+ 
+SCORE -  The computer will give you your current score in the story. 
+ 
+SCRIPT - This command tells your printer to begin making a transcript of
+the story as you play.  A transcript may help you remember things, but you
+don't need it to play.  It will work only on certain computers; read your
+Reference Card for details. 
+  
+SUPERBRIEF - See BRIEF above.  
+ 
+UNDO - You can use this command to "back up" one more.  Note that this
+command works only on certain computers with enough memory.
+
+UNSCRIPT - This commands your printer to stop making a transcript. 
+
+VERBOSE - See BRIEF above.   
+  
+VERSION -  The computer responds by showing you the release number and the
+serial number of your copy of the story.  Please send us this information
+if you ever report a "bug" in the story. 
+  
+WAIT - This will make time pass in the story while you do nothing.  For
+example, if you get in a boat, you might WAIT to see where it will take
+you; or if you meet someone, you might WAIT to see what will happen.  You
+can also wait a specified number of minutes; for instance, you can WAIT FOR
+15 MINUTES or WAIT FOR 40 MINUTES.  You can abbreviate WAIT to  Z. 
+
+WAIT UNTIL (time) - This causes time to pass until the desired time
+arrives.  For instance, you can WAIT UNTIL 12 or WAIT UNTIL 3:35.  If
+anything interesting happens during this time, you will have a chance to
+stop waiting. 
+ 
+Tips for Novices  
+  
+1. Draw a map showing each location and the directions connecting it to
+adjoining locations.  When you find yourself in a new location, make a note
+of any interesting objects there. (See the small sample map that goes along
+with the sample transcript on page 3.)  Note there are 10 possible
+directions (NORTH, SOUTHEAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST,
+SOUTHWEST, UP, AND DOWN) plus IN and OUT.  
+ 
+2. EXAMINE all objects you come across in the story. You can abbreviate
+EXAMINE to X. 
+
+3. If you find an object that you think you can use, TAKE IT.  Some objects
+will help you solve some of the puzzles.
+ 
+4.  Save your place often.  That way, if you mess up or get  "killed," you
+won't have to start over from the beginning.  See  page 9 for instructions.
+
+5.  Read the story carefully!  There are often clues in the descriptions
+of locations and objects. 
+ 
+6.  Try everything you can think of - even strange or dangerous actions may
+provide clues, and might prove to be fun!  You can
+
+				12
+
+always save your position first if you want.  Here's a silly example:
+
+>GIVE THE RUBBER DUCK TO THE GUARD DOG
+The guard dog isn't interested in a rubber bone, let alone a rubber duck. 
+He continues to growl and stare at your throat.
+
+Here you have a clue and maybe giving something else to the guard dog (like
+a steak) would be better.
+
+7. Unlike other "adventure games" you may have played, there are many
+possible routes to the end of the story.  If you get stuck on one puzzle,
+move on to another. Some puzzles have more than one solution; other puzzles
+don't need to be solved at all.  Sometimes you will have to solve one
+puzzle in order to obtain the item(s) or information you need to solve
+another  puzzle. 
+ 
+8.  You may find it helpful to go through the story with another person. 
+Different people may find different puzzles easy and can often complement
+each other.
+
+9. If you really have difficulty, you can type HINT.  The screen will then
+show you a list of questions to which you can get answers.  (Simply follow
+the directions at the top of your screen to see the hint of your choice.)
+You don't need to use the hints to enjoy the story, but it will make 
+solving the puzzles easier. 
+ 
+10.  Read the sample transcript on page 3 to get a feel for how Infocom's
+interactive fiction works. 
+ 
+11.  You can word a command in many different ways.  For example, if you
+wanted to take a black bag, you could type in any of the following: 
+ 
+>GET BAG  
+>TAKE THE BAG  
+>PICK UP THE BLACK BAG   
+ 
+If you type in a command that the computer doesn't understand, try 
+rewording the sentence or using synonyms.  If the computer still doesn't
+recognize your sentence, you are almost certainly trying to do something
+that you don't need to do.
+
+Common Complaints  
+  
+The computer will complain if you type a sentence that confuses it  
+completely.  It will then ignore the rest of the input line if there are
+any more commands.  (Certain events, such as being attacked or walking into
+something, may also cause the computer to ignore the rest of your commands,
+since the event may have changed your situation drastically.)  Some of the
+computer's  complaints:  
+  
+THIS STORY CANNOT UNDERSTAND THE WORD "__________" WHEN YOU USE IT THAT
+WAY.  The computer knows the word you typed, but couldn't understand it in
+that sense.  Usually this is because the computer knows the word as a
+different part of speech.  For example, if you typed DROP THE OPEN BAG, you
+are using OPEN as an adjective, but the computer might know OPEN only as a
+verb, as in OPEN THE WINDOW.
+
+THERE ARE NOT ANY VERBS IN THAT SENTENCE.  Unless you are answering a
+question of typing a compass direction, each sentence must have a verb (or
+one of the special commands).
+  
+THERE AREN'T ENOUGH NOUNS IN THAT SENTENCE.  This usually means your
+sentence was incomplete, such as EAT THE BLUE or PUT THE  BOOK IN THE. 
+  
+THERE WERE TOO MANY NOUNS IN THAT SENTENCE!  An example is PUT THE SOUP IN
+THE BOWL WITH THE LADLE, which has three noun  "phrases," one more than the
+computer can digest in a single action.   
+
+WHAT? You pressed the RETURN (or ENTER) key without typing anything.
+
+YOU CAN'T SEE THAT HERE!  The thing in your sentence was not visible.  It
+may be somewhere else, or inside a closed container.
+
+				13
+  
+YOU CANNOT REFER TO MORE THAN ONE OBJECT AT A TIME WITH "______."  You can
+use multiple objects (that is, nouns or noun phrases separated by AND or a
+comma) or the word ALL only with certain verbs.  Among the more useful of
+these verbs are TAKE, DROP, and PUT.  You can't use more than one object
+with most verbs, like EXAMINE; so you can't EXAMINE ALL or EXAMINE THE
+MATCH AND THE CIGARETTE.
+  
+PLEASE TRY TO EXPRESS THAT ANOTHER WAY. 
+The computer thought the sentence you typed was nonsense, such as GIVE
+SHERLOCK WITH NEWSPAPER.  Or you may have typed a reasonable sentence but
+used a syntax that the computer does not recognize, such as WAVE OVER THE
+FENCE.  Try rephrasing the sentence. 
+ 
+If You Have Technical Problems  
+  
+You can call the Infocom Technical Support Team to report "bugs" and
+technical problems, but not for hints to solve puzzles, at (617) 576-3190. 
+If your disk develops a problem within ninety (90) days after purchase, we
+will replace it at no charge.  Otherwise, there is a replacement fee of
+$5.00 (U.S. funds).  If you call to report a bug, please provide your
+version number, which you can find by typing VERSION.  Please return your
+registration card if you'd like to be on our mailing list and  receive our
+newsletter.  
+ 
+Copyright and Warranty Information  
+  
+Limited Warranty  
+  
+This software product and the attached instructional materials are sold "AS
+IS", without warranty as to their performance.  The entire risk as to the
+quality and performance of the computer software program is assumed by the
+user.  However, to the original purchases of a disk prepared by Infocom and
+carrying the Infocom label on the disk jacket, Infocom warrants the medium
+on which the program is recorded to be free from defects in materials and
+faulty workmanship under normal use and service for a period of ninety (90)
+days from the date of purchase.  If during this period a defect on the
+medium should occur, the medium may be returned to Infocom or to an
+authorized Infocom dealer, and Infocom will replace the medium without
+charge to you.  Your sole and exclusive remedy in the event of a defect is
+expressly limited to replacement of the medium as provided above.  This
+warranty gives you specific legal rights and you may also have other rights
+which vary from state to state.  
+
+N.B. After the warranty period, a defective Infocom disk may be returned to
+Infocom with a check or money order for $5.00 U.S. funds for replacement.  
+
+				14
+
+		       Quick Reference Guide  
+  
+1. To start the story ("boot up"), see the separate Reference Card in your
+package.  
+  
+2. When you see the prompt (>) on your screen, is waiting for your input.
+There are four basic kinds of sentences or commands that the computer
+understands:  
+  
+A. Direction commands:  To move from place to place, just type  the
+direction you want to go: N (or NORTH), S, E, W, NE, NW, SE, SW, UP, DOWN,
+IN, or OUT.  
+  
+B. Actions:  Just type what you want to do.  Some examples:   READ THE BOOK
+or OPEN THE DOOR or LOOK THROUGH THE WINDOW or GIVE THE BALL TO THE CAT.
+Once you're familiar with simple commands, you'll want to use more complex
+sentences are described in  "Communicating with Infocom's Interactive
+Fiction" on page 9. 
+  
+C. Commands given to other characters:  Talk to characters in the story by
+typing their name, then a comma, then what you want to say to them.  For
+example:  HOLMES, TELL ME ABOUT THE NOTE or WIGGINS, GIVE ME THE SAPPHIRE.
+  
+D. Special commands: Some commands, such as INVENTORY or SUPERBRIEF, give
+you specific information or affect your output. A list of these appears in
+the "Special Commands" section on page 11.  
+  
+3. After typing your input, you must press the RETURN (or ENTER) key before
+the computer will respond.  
+  
+4. Your location in the story and the day and time are displayed at the top
+of your screen on a special line called the status line. 
+  
+5. You can pick up and carry many of the items you'll find in the story. 
+For example, if you type TAKE THE FLASK, you will be carrying it.  Type
+INVENTORY to see a list of the items you are carrying. 
+  
+6. When you want to stop, save your place for later, or start over, read
+the "Starting and Stopping" section on page 8.  
+  
+7. If you have trouble, refer to the specific section of the manual for
+more detailed instructions.  
+
+We're Never Satisfied  
+  
+Here at the Infocom, we take great pride in the quality of our stories. 
+Even after they're "out the door," we're constantly improving, honing and
+perfecting them. 
+
+Your input is important.  No matter how much testing we do, it seems that
+some bugs never crawl into view until thousands of you begin doing all
+those wild and crazy things to the story.  If you find a bug, or if you
+think a certain puzzle was too hard or too easy, or if you have some other
+suggestion, or if you'd just like to tell us your opinion of the story,
+drop us a note!  We love every excuse to stop working, and a letter from
+you is just such an excuse!   Write to:  
+
+	Infocom  
+	125 CambridgePark Drive  
+	Cambridge, MA  02140  
+	Attn: Mycroft
+
+				15
+   
+            Interactive Fiction Reference Card for the  
+  
+                         COMMODORE AMIGA  
+  
+This booklet tells you how to run your Infocom story on your computer, and
+provides a few other handy bits of information.  
+  
+I.  What You Need  
+Required:  
+	Amiga computer   
+	For Interactive Fiction PLUS only: A monitor that supports 
+        an 80-column display, such as an RGB-type monitor.  
+  
+Optional:  
+	256K memory expansion cartridge (for faster execution;  
+        especially recommended for Interactive Fiction PLUS)  
+	Extra 3-1/2 double-sided disks (for SAVEs)	  
+	A second disk drive (for convenience with saves)  
+	Compatible printer (for SCRIPTing)  
+  
+II.  Making a Backup Copy  
+
+In accordance with the licensing agreement in your package, we recommend
+that you make a backup copy of the original story disk for your personal
+use.  See your hardware manual for instructions on how to make disk copies.
+Store your original disk in a safe place and always start the story from
+the backup.  
+  
+III.  Starting the Story  
+
+Turn on the Amiga and wait for the Workbench to appear. Insert the story
+disk and open the disk icon into a window, then double-click on the story
+icon.  
+ 
+The story can also be started from within the Command Line Interpreter
+(CLI).  If the default drive and directory are not the same as the story's,
+they must first be changed with the "CD" command (for example, CD DF1:)
+Then type in the story name.  
+  
+IV.  Talking to the Story  
+
+Whenever you see the prompt (>), the story is waiting for your  
+instructions. If you make a mistake, use the backspace key to erase the
+error.  When you have finished typing in your instructions, press the
+RETURN key.  The story will respond and the prompt (>) will reappear.  
+
+If a description will not fit on a screen all at once, "[MORE]" will
+appear at the bottom of the screen.  After reading the screen, press any
+key to see the rest of the description.  
+  
+V.   The Status Line  
+
+At the top of the screen is a status line.  This line is updated after
+every move to show your current position in the story.   Depending upon the
+type of story, it may also show other information.  
+  
+Score and Moves  
+  
+In stories that keep a score, such as the ZORK underground adventures, the
+right side of the status line will show something like this:  
+
+	Score: 245/920  
+
+The first number is your score and the second is the total number of moves
+you have made.  In the example above, you have 245  points in 920 moves.  
+
+Time  
+  
+In stories that keep track of the time, such as the mystery thriller
+DEADLINE, the right side of the status line will look something like the
+following:  
+
+	Time: 9:22 a.m.  
+
+This shows the current time of day in the story.  
+  
+VI.  SCRIPTing  
+
+You can use the SCRIPT command to print out a transcript of your moves as
+you go along.  SCRIPTing is an optional feature which is not necessary to
+complete the story and may not be available with certain hardware.  
+  
+1.	Connect the printer to the appropriate port at the back of 
+        the computer.  Use the Preferences tool (see Section IX) to
+        make sure the system is configured correctly for your  
+        printer.  
+ 
+2.	Turn on the printer and make sure it's ready.  
+ 
+3. 	Type SCRIPT at the prompt (>) to start the transcript.  To 
+        stop the transcript, type UNSCRIPT.  
+ 
+4.	SCRIPT and UNSCRIPT may be used as often as desired.  
+
+If a problem occurs with the printer, the story will "timeout" (appear to
+hang) for 30-seconds or so, then a printer error message will appear.  If
+you don't correct the problem before the 30 seconds are up, scripting is
+automatically cancelled.  
+  
+VII.  Saving a Story Position  
+
+You can save your current position in the story to any disk in any drive,
+space permitting. The save disk must not be write-protected. No other data
+on the save disk will be affected.  
+  
+1.   Type SAVE at the prompt (>).  A message will appear asking 
+     you to choose a name for the save file.  
+ 
+2.   If you want to SAVE to the story disk itself, just enter a 
+     file name and press RETURN.  
+ 
+3.   If you want to save to another disk, you must prefix the  
+     file name with either the name of the second disk (e.g.,  
+     Saves:) or the name of the drive containing it (e.g., DF0:). 
+     The prefix is needed even if the two disks were swapped  
+     using a single drive.  If the save succeeds, the prefix  
+     becomes the default prefix, and need not be typed again for
+     the next save.  
+
+     The disk drive will spin for several seconds. If all is  
+     well, the story will respond:  
+		OK  
+	If it responds:  
+		FAILED  
+     consult the Troubleshooting section (see Section XI).  
+     After saving your position, you may continue with the story.
+
+ 
+   NOTE: The file "Icon.Data" is used to create icons for new 
+   save files. If you delete this file, new save files will not  
+   have visible icons.  
+  
+VIII. Restoring a Saved Story Position  
+  
+You can return to a previously saved story position at any time.  Type
+RESTORE at the prompt (>).  The most recently saved or restored position
+will be displayed as the default.  Then enter the name of a save file, as
+in Section VII.  
+
+If you want to return to the default position, you can just press the
+RETURN key.  
+  
+IX.  Amiga Preferences  
+
+Several aspects of the story presentation can be changed using the Amiga
+Preferences tool, including text size (60 or 80 columns, except for
+Interactive Fiction PLUS, which requires 80 columns) and color.  The size
+can be changed only before the story is started.  You also use Preferences
+to specify your type of printer and the port to which it is connected.  The
+Amiga supports both parallel and serial devices.  
+  
+X.  Memory Usage and Multi-tasking  
+  
+On a multi-tasking computer such as the Amiga, all tasks share the
+available memory.  Some tasks may require that a certain amount of memory
+be available to work correctly.  Also, actions like opening and resizing
+windows or loading a printer driver can use large blocks of memory.  
+
+When the Infocom story loads, it will normally leave a minimum of 64 Kbytes
+(32 Kbytes for Interactive Fiction PLUS).  This can be changed by starting
+the story from the CLI with a special argument of the form "F/n", where n
+is the new minimum number of free bytes (for example, Deadline F/32000). If
+you supply an argument, memory use statistics will be displayed when the
+story loads.  
+
+You may need to increase the amount of free memory if, for example, you are
+running several tasks and switching between them causes the system to hang.
+On the other hand, you can probably decrease free memory if you are running
+only the story.  This may reduce or eliminate disk activity on versions of
+the Amiga with limited memory.  
+  
+X.  Troubleshooting - Load, SAVE, RESTORE and Other Problems  
+ 
+A. If the story fails to load properly, or SAVE/RESTORE or SCRIPT fails,
+check each of the following items.  If none of these offers a solution,
+consult your Commodore dealer for assistance.
+
+ 1.  Inspect all disks carefully for any visible damage.  
+ 
+ 2.  For SAVEs, make sure the save disk is not write-protected  
+     (the small opening in the corner of the disk should be  
+     covered).  
+ 
+3.   For SCRIPTing, make sure the printer is connected properly,
+     enabled for printing, not out of paper, etc.  
+ 
+4.   Try again; the problem may be only momentary.  If all else 
+     fails, you can call the Infocom Technical hotline at (617) 
+     576-3190.  Please note that this number is for technical  
+     problems only, not hints.  
+  
+B.  If the story produces an error message, run the following procedure: 
+  
+Restart the story.  When the initial screen appears, type $VERIFY and press
+the RETURN key.  The disk drive will spin for a minute or so, and a message
+similar to one of the following will appear:
+ 
+1.  "DISK CORRECT".  The disk has not been damaged and the data is intact.
+If you are having problems, they are most likely hardware related.  It is
+also possible that there is a bug in the program.  If you suspect that
+there is a bug, call the Infocom Technical Hotline.  
+  
+2. "DISK FAILED" or "DISK READ ERROR".  This reply indicates either
+hardware trouble or disk damage.  Repeat the $VERIFY procedure several
+times.  Also try the $VERIFY process on another computer (such as your
+dealer's).  If the story ever replies "DISK CORRECT", the problem is your
+hardware.   
+
+If you repeatedly get a negative response on more than one  computer, the
+disk has most likely been damaged.  Please send the disk only to Infocom
+for testing and replacement.   
+
+============================================================================
+         DOCS PROVIDED BY  -+*+-THE SOUTHERN STAR-+*+- for M.A.A.D.                                                               
+============================================================================

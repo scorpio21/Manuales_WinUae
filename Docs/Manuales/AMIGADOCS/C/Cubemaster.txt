@@ -1,0 +1,333 @@
+        CUBEMASTER
+    
+    Welcome to CubeMaster, an action packed shoot'em up with a good deal of
+    strategy as well.  This document gives information you'll need to know
+    that isn't self-explanatory from within the game itself.
+    
+    1.  Our Contract
+    You and I have an agreement.
+    
+    For my end I worked the better part of ten months (on and off but there
+    was quite a lot "on" I can tell you) on CubeMaster making it a good
+    balanced and fun game.  CubeMaster is my first game attempt and while
+    other games for the Amiga may be more flashy in some respects
+    CubeMaster should earn high marks for playability and entertainment
+    value.  This is what I wanted to achieve.
+    
+    For your end of the agreement you should not distribute CubeMaster to
+    others nor receive it yourself from another person through illegal
+    means.  This isn't a threat.  It's an agreement.  It's a trust.
+    
+    As long as we can continue to pay the salaries of ASDG's employees and
+    keep our computers dry by putting a roof over them, we'll bust our
+    buns to provide you with quality products and service.  Piracy makes it
+    very hard for companies like ASDG to continue their efforts and should
+    those efforts cease, the very best of what makes the Amiga personal
+    computer so dynamic (the creativity, quality and caring by small
+    businesses such as ASDG) shall cease as well.
+    
+    2.  Machine Requirements CubeMaster will operate on any Amiga
+    personal computer with a minimum of 512K of chip memory and version 1.2
+    of Kickstart.  A joystick is strongly recommended but is not required.  
+    Sound plays a large part of CubeMaster so make sure your Amiga is
+    hooked up to a set of speakers.
+    
+    3.  Machine Set Up and Multitasking
+    
+    If you are using a joystick, connect it to the secondary mouse port. 
+    CubeMaster multitasks cleanly and can be started from the WorkBench or
+    the CLI. The game also handles external memory correctly as well.
+    
+    On a 512 machine CubeMaster will take up most of the available memory
+    so while multitasking is possible it won't be practical.
+    
+    On machines with more than 512K CubeMaster can easily be multitasked
+    with other programs.  In fact, clicking on a screen other than
+    CubeMaster will put CubeMaster into pause mode (except when you click
+    on the title screen in which case the CubeMaster game selection screen
+    suddenly jumps out at you)
+    
+    4.  The CubeMaster Distribution Disk
+    The CubeMaster distribution disk contains the CubeMaster game as well
+    as the files the game requires to run.  The CubeMaster game itself is
+    in the root directory of the floppy and is visible from the Workbench.
+    
+    Also visible from the Workbench is the CMScore drawer (or directory). 
+    This drawer contains three files which constitute CubeMaster's scoring
+    facility.
+    
+    CM
+    Le	velScores is the machine readable form of the best times through
+    each of the 100 levels of CubeMaster.  If this file is missing it will
+    be recreated automatically.  This file is not visible from the
+    Workbench.
+    
+    CM
+    TopTen is the machine readable form of the ten best point scores that
+    have even been reached (so far) for complete games.  If this file is
+    missing it will be recreated automatically.  This file is not visible
+    from the Workbench.
+    
+    ScoreReport is the human readable condensation of both the above files. 
+    This file is visible from the Workbench and can be read by double
+    clicking on its icon.
+    
+    The CMTitle directory contains the title screen for CubeMaster.  It was
+    done by Gred Tsadillas and is copyrighted material and NOT in the
+    public domain. The title screen must be present for the game to
+    operate.  The CMTitle directory is not visible from the Workbench.
+    
+    The CMSound directory contains the sounds needed for CubeMaster.  These
+    sounds were done by me and were a lot of work indeed.  These sounds are
+    NOT public domain and are copyrighted material a well.
+    
+    The Coockoo clock sound provided by Rick Rae and The Fabulous Sound
+    Effects was recorded live in the control room of WEVA Radio. 
+    Thank you Rick, I wanted to use more but there just wasn't room.
+    
+    All sound files MUST be present for the game to operate.
+    
+    The Credits program visible from the Workbench in the root directory of
+    the CubeMaster disk will play a pre-recorded message thanking various
+    people for their contribution to the development of CubeMaster. 
+    Starting up Credits simultaneously with another CubeMaster program is
+    not suggested since the files involved are quite large and will cause a
+    long delay in loading.
+    
+    The CopyProtection program visible from the Workbench in the root
+    directory of the CubeMaster disk will play a pre-recorded message from
+    people who work at ASDG Incorporated thanking you for not taking away
+    their livelihood.  As with Credits, wait for this program to complete
+    before starting another since thrashing on the floppies will age you
+    before your time.
+    
+    5.  Setting Up CubeMaster on Hard Disk
+    For CubeMaster to work it must know where to find the files it needs. 
+    The startup-sequence on the CubeMaster distribution disk contains the
+    following lines:
+    
+    assign CMSound:  CubeMaster:CMSound
+    assign CMScore:  CubeMaster:CMScore
+    assign CMTitle:  CubeMaster:CMTitle
+    
+    To install CubeMaster on a hard disk copy all CubeMaster files to your
+    hard disk using whatever organization you prefer (the easiest is to use
+    the three directory organization I've used).
+    
+    Then, to run CubeMaster make sure you've executed assigns similar to
+    the ones above (only modified to suit the location on hard disk where
+    the files actually reside).
+    
+    6.  Game Startup
+    Upon entry into CubeMaster the title screen will be displayed.  When
+    the sound of bouncing CubeDrones starts you know CubeMaster is finished
+    loading.
+    
+    CubeMaster will alternate between the Selection Screen and the title
+    screen about once every 10 to 11 seconds.  Pressing any key while the
+    title screen is being shown will bring the Selection Screen to front.
+    
+    There are lots of things which can go wrong in starting up CubeMaster. 
+    For example, there may not be enough memory for the game.  I have tried
+    to check for every eventuality and should some kind of fault be found I
+    have tried to present understandable and accurate error reports.  For
+    example, if there is not enough memory available CubeMaster will tell
+    you so and exit cleanly.  If a file was not available, CubeMaster will
+    tell you so and again, exit cleanly.
+    
+    7.  Selection Screen
+    The Selection Screen is fairly self-explaining.  From here F6 through
+    F10 and the E key are enabled.
+    
+    E will cause CubeMaster to exit after writing out its score files.
+    
+    F10 will cause CubeMaster to write out an updated copy of the
+    ScoreReport file in case you want to see it NOW (recall that CubeMaster
+    multitasks!) F9 allows you to select the starting level of play.  This
+    can be any interger number from 1 to 100.  However, if you don't start
+    from the beginning (level 1) your top ten score will not be recorded
+    but your best time score will.
+    
+    F8 allows you to select your name for scoring purposes.  Be crazy.  If
+    you don't select your own name your score files will become peopled
+    with the Unknown CubeMaster.  Who is the Unknown CubeMaster anyway.
+    
+    F7 enters you into a practice screen where you can learn to fly your
+    Manned Mobility Unit.  Just to make things more interesting some of the
+    Bad Guys are enabled though your shields will not become weakened by
+    them.
+    
+    F6 starts your CubeMaster run at the level you're specified (level 1,
+    the beginning, if you didn't use F9 to alter your starting level).
+    
+    8.  Controlling The CubeMaster
+    Remember that you are in zero gravity.  Once you start travelling in  a
+    direction it will require an equal force in the other direction to stop
+    you.
+    
+    Your controls are:
+    Forward Joystick (or the up arrows on the keyboard) activates your
+    forward rockets.  You will be propelled in whatever direction the
+    CubeMaster happe ns to be facing.
+    
+    Backward Joystick (or the down arrow on the keyboard) activates your
+    retro rockets.  You will be propelled against whatever direction the
+    CubeMaster happens to be facing.
+    
+    Right Joystick (or the right arrow on the keyboard) activates your
+    clockwise attitude rockets.  You will rotate clockwise.
+    
+    Left Joystick (or the right arrow on the keyboard) activates your
+    counter clockwise attitude rockets.  You will rotate counter clockwise.
+    
+    Joystick Button (or the space bar) will activate your particle cannon. 
+    Sometimes you will be in Equal Mass Reaction mode.  When in this mode
+    when you shoot forwards, you go backwards.  Makes things quite tricky.
+    
+    You also have a brake (the B key or the "B" gadget).  Using the brake
+    will cost you time so use it with discretion.
+    
+    The P gadget or the P key will pause CubeMaster.  Being in the Manned
+    Mobility Unit for too long can become uncomfortable.  If you know what
+    I mean.  When the game is in progress you can use the F1 key to
+    increase the volume of the sounds or the F2 to decrease the volume.  Or
+    you can frob the volume knob on your stereo.
+    
+    Remember that you are in zero gravity. Once you start travelling in a
+    direction it will require an equal force in the other direction to stop
+    you.  (I said this before didn't I?)
+    
+    Interactions between you and the CubeDrones or the Bad Guys are modeled
+    on real world physics so controlling the CubeMaster in the real game is
+    not as easy as it is on the practice screen (where there are no
+    CubeDrones).
+    
+    9.  The CubeDrones
+    There are two sizes of CubeDrone.  Big and Little.  Break the big
+    CubeDrones into little ones.  Break the little ones into space dust. 
+    There are also seven different colored CubeDrones each having different
+    properties.  Large CubeDrones  have "more" of the special property than
+    small ones of the same color.
+    
+    When "Reincarnation" is on (which it usually is) small CubeDrones if
+    not destroyed quickly enough will revert to large CubeDrones which must
+    be broke down all over again.
+    
+    CubeDrones also change colors on their own if you don't shoot them
+    quickly enough.  Sometimes this is to your advantage.  Sometimes not. 
+    It is a sign of a maturing CubeMaster when you know which is which.
+    
+    Green CubeDrones are the only exception to the color changing rule. 
+    This, coupled with the fact that Green CubeDrones requir multiple hits
+    of the particle cannon make them extremely frustrating to deal with. 
+    You'll usually find your last CubeDrone left if a Greenie.  On the
+    balance, bouncing into a Greenie does not do you any damage.
+    
+    Yellow CubeDrones are a real drag.  Touching them will cause all your
+    controls to become mixed up for some period of time.  You know when
+    you've been confused when the coockoo clock chimes.  Yellows do not
+    cause shield damage.  Destroying a Yellow CubeDrone will decrease the
+    amount of time you are confused.
+    
+    Each shot you fire from your particle cannon causes heat to build up
+    within it.  If the cannon gets too hot, you can't fire until it cools
+    down.  Touching Brown CubeDrones will elevate the temperature of your
+    particle cannon making it more likely that your cannon will fail. 
+    Destroying a Brownine will serve  to cool your cannon so plan your
+    shots well.  Brown CubeDrones do not affect your shields.
+    
+    Blue CubeDrones are perhaps the most dangerous in that touching them
+    reduces your ability to defend yourself.  Touching a Blue has a large
+    probability of causing the number of particles your particle cannon can
+    control to be reduced.  You can only have five particles in flight at
+    one time.  Touching a Blue might decrease this to four.  Then to three. 
+    And then  Destroying a Blue CubeDrone increases your maximum number of
+    particles in flight at one time.  So if you're low, hope for Blues.
+    
+    Light Grey CubeDrones will sap your shield strength if you touch them. 
+    Shields gone, you're gone.  However they don't zap you as badly as Red
+    CubeDrones.  Light Grey CubeDrones turn into different colored Drones
+    when you hit them.  All reincarnated CubeDrones start out as Light
+    Grey.
+    
+    Red CubeDrones will deplete your shields quicker than you'll care to
+    experience.  They're also different from the other CubeDrones in one
+    other important way.  That is, when other colored large CubeDrones are
+    destroyed they spawn four small CubeDrones.  When a large Red CubeDrone
+    is destroyed it spawns eight small CubeDrones.  Balance this against
+    the fact that destroying Red CubeDrones is the only way to replenish
+    your shields.
+    
+    And last but not least, your friend, the Dark Grey CubeDrone.  Bouncing
+    into the Dark Grey CubeDrone will have no effect on your shields.  
+    That's nice.  Destroying a Dark Grey CubeDrone grants you the Halo of
+    Displacement.  That's really nice.  The Halo of Displacement shifts the
+    atoms in your body just enough to allow CubeDrones to pass right
+    through you.  The Halo doesn't last forever though so watch out.  Also,
+    missiles launched by the Bad Guys are tuned to your atomic frequency no
+    matter what state your atoms are in.
+    
+    10.  The Bad Guys
+    As if just navigating your CubeMaster around wasn't hard enough there
+    are some pretty nasty Bad Guys which come out from time to time. 
+    They'll introduce themselves to you, I'm sure.
+    
+    Some Bad Guys will follow you around.  Others will waltz around on
+    their own accord.  Some will fire CubeMaster seeking missiles while
+    others may themselves be CubeMaster seeking missiles.  Touching a Bad
+    Guy is never good for your health.  They are known to paralyze unlucky
+    CubeMasters for extended periods of time or toss them around like rag
+    dolls.  Not fun.
+    
+    11.  Other Little Details
+    Each screen has an introduction screen.  Read it.  It will tell you
+    what modes are present during the next level of play. Reincarnation and
+    Equal Mass Reaction have been explained before.  Sequential mode is a
+    nearly impossible situation in which you won't be allowed to destroy a
+    large CubeDrone until all small CubeDrones have been destroyed.  When
+    you start out with a few large CubeDrones this mode becomes quite
+    difficult.  Thankfully, it's rare.
+    
+    By the way, leaving a large CubeDrone alone long enough will result in
+    the miracle of birth.  It's not pretty.
+    
+    Particles fired by your particle cannon degrade over distance.  Some
+    screens start you off with better grade particles (which last longer)
+    than other screens.
+    
+    12.  Your Instruments
+    The Blue Instrument on the bottom of your screen is an LED meter
+    counting the maximum number of particles you can have in flight at
+    once.  This is easy to remember since Blue CubeDrones are the ones
+    which affect your particle count.
+    
+    The Brown Instrument is an LED meter indicating cannon heat.  The
+    hotter your cannon the higher the meter until it starts turning red,
+    then you can't fire at all.  This is easy to remember since Brown
+    CubeDrones affect cannon heat.
+    
+    The Red Instrument is your life.  It indicates the level of your
+    shields.  When this gives out, so do you.
+    
+    Your total score will be displayed at all times.  As well as the score
+    you will be awarded at the end of the present screen.  CubeMaster
+    calculates the difficulty of each screen and presents a "best" score
+    which counts down every second.  The longer it takes for you to
+    complete the screen the lower your score will be (even if negative).
+    
+    The present level number will be displayed.  Some say CubeMaster keeps
+    time on a screen by screen basis for scoring purposes, though.
+    
+    13.  Scoring
+    Hitting a large CubeDrone adds a little to your score.
+    Hitting a small CubeDrone adds more to your score.
+    Destroying a Bad Guy adds a lot more to your score.
+    Finishing a level may add or subtract from your score (depending on how
+    long it took you to complete the level).
+    
+    Total Score at the end of the game may win you a place in the TopTen
+    score history.   Your time through each level, however, is compared
+    against the best time through the level by another player.  Beating
+    records is important.
+    
+    14.  Get Out There, Your Fans are Waiting!.

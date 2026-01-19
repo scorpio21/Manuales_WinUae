@@ -1,0 +1,826 @@
+Rings of Medusa          
+                  
+            Loading instructions:
+            
+            Reset disk A into the internal drive. Put disk B into the 
+            internal drive when the computer ask you to do so (only 
+            Atari ST). After loading the game, you can enter your 
+            name, and the game starts.During the loading you have the 
+            possibility of switching to 50 or 60 Hz pressing the  5 
+            or 6 continuously.
+            
+            Configurations for Rings of Medusa
+            Commodore Amiga 512/ Atari St with colour monitor.
+            1.   Idea/Aim of the game 
+            
+            a)   Pre-story:
+                    The player acts as the son of the king, on an 
+            unknown planet. The country flourishes and thrives, life 
+            goes on very calmly. But one day the situation changes. 
+            The people get more and more controlled by and evil 
+            force. Revolutions and wars arise. The formerly united 
+            kingdom divides. Finally, the old king finds out that a 
+            goddess called "Medusa" tries to control the people from 
+            out of the underworld, in order to conquer and rule the 
+            entire world with her army from hell.
+            
+            b)   Aim of the game:
+                    The player who takes the role of the prince is 
+            forced to stop Medusa's advance and to reunite the split 
+            kingdom. To reach that, he must fight against the goddess 
+            Medusa and defeat her again. As the opponent is a 
+            goddess, the player is not able to find her anywhere in 
+            the country.
+            He can only call her when he finds 5 rings, puts them 
+            together in a temple and forces Medusa to face a fight. 
+            The basic task is therefore the search for the 5 rings. 
+            Unfortunately the king has very little energy, and so 
+            the starting conditions for his son do not look very 
+            good. First he has to earn some money to afford an army 
+            which is necessary to find the rings. This causes more 
+            problems, which the player realizes and includes in the 
+            course of the game.
+            
+            2.   Point of entry:
+            
+                    The player has severe financial problems, which 
+            means that he first must collect some money. There are 
+            several possibilities:
+            
+                 -Trade
+                 -Attack caravans
+                 -Conquer towns and plunder the treasuries
+                 -Search for raw materials, find and exploit
+                 -find the kings treasures
+                 -Gamble in the casino
+            
+            
+            
+            
+            
+            
+            3.   Description of the program's user surface
+            
+                 On each screen, there is an information bar and an 
+            options menu.
+          e 
+            notices, (e.g. the coordinates of an island).
+             
+            Buying:  Serves to buy combination with buying or 
+            selling, i.e. all possible articles are bought or sold.
+            Position of the switch is visible on the mouse pointer. 
+            Switch off by clicking on MAXIMUM again.
+            
+            Door:   Serves in most cases to leave special situations 
+            or places.
+            
+            OK:     To answer a question, player clicks on here, if 
+            the question shall be answered with a "yes" (e.g. Enter 
+            Town XYZ ?).
+            
+            Retreat: Serves to call back the selection unit in the 
+            fighting screen.
+            
+            Attack: Make unit attack in the fighting screen. 
+            Otherwise attack in general (e.g. of a town, bankor a 
+            castle) .
+            
+            Increase:  Serves to adjust the speed in the fighting 
+            screen, in which the fight takes places. Also a 
+            possibility while adjusting the money value during 
+            NEGOTIATIONS ( see below)
+            
+            Search:  Send out scouts to search for raw materials or 
+            treasure.
+            
+            
+            
+            
+            Restore:  Serves to restore a saved game. Only possible 
+            in a town.
+            
+            Town information:  Give you information about the town 
+            you are in.
+            
+            Sell:   With this function, the player can sell his 
+            goods. Also in connection with MAXIMUN.
+            
+            More goods:  Helps you to ssearch inside the WAREHOUSE.
+            
+            Treasure:  Shows you the known coordinates of a treasure 
+            visually.
+           
+            Not Okay:  Like OKAY, helps you to answer question. Here 
+            it serves as a negation.
+            
+            Negotiations:  During the fight you can make negotiations 
+            to avoid an armed conflict whenever possible.
+            
+            Decrease:  Opposite of INCREASE.
+            
+            Mine"   You can open a mine.
+            
+            
+             Furthermore, there is as information field in the center 
+            of the menu, in which you can adjust or read special 
+            things. There is also a green button in the upper left 
+            corner of the field,. which makes the field rotate. 
+            Synchronization and effects can be switched on and off 
+            here.
+            
+            ( Also see the short description in Appendix A)
+            
+            
+            
+            
+            4. Program parts
+                 The program can be divided up into three parts: 
+            Landscape, Town and Fight.
+            
+            
+            4.1  Landscape
+            
+            In the landscape, the player can ride from one town to 
+            the other, open mines and find treasures. You have                                                                                           
+            to pay attention to the fact that the player cannot 
+            ride over mountains. If the player is accompanied by 
+            an army, he has to make sure his soldiers receive 
+            their money on the first day of each month. The player 
+            therefore always should have enough money with him, so 
+            that he can pay for  his army. The money which the 
+            player has on his account cannot be used for paying 
+            the soldiers' wages.
+            
+            
+            
+            
+            
+            Furthermore, there are two dangerous places for the 
+            army:   
+            
+            a.      On the one hand the swamp, in which the 
+            players army sinks when he does have enough magicians 
+            with him who protect his army. Each magician is able 
+            to protect about 100 soldiers in the swamp.
+            
+            b.      The same goes for the enchanted forest, except 
+            for the fact that each magician can only protect 50 
+            soldiers.
+            
+            
+            When he crosses the landscape, the player further must 
+            consider the fact that there are also some caravans 
+            travelling around and that he could possibly bump into 
+            these.
+            The player has the possibility of finding the enemy 
+            armies. This depends on the number of scouts the 
+            player takes with him. The more scouts he has, the 
+            bigger the radius in which he can see his enemies. 
+            During the search radius decreases, as the search for 
+            these goods is much more difficult than the search for 
+            armies.
+            
+            But look out! During the search for raw materials or 
+            treasures, the player can no longer move his army as 
+            he has to wait for the scouts. Moreover, he is not 
+            able to see his enemies, as the scouts are being used 
+            elsewhere and can no longer enlighten the enemy's 
+            territory.
+            
+            If it should come to a fight during a phase of 
+            searching, the scouts are also not at player's 
+            disposal. The player should nevertheless keep in mind 
+            that the scout's wages must be paid.
+            
+            If the player is lucky enough to find a treasure or 
+            raw materials, he must open a mine To do that, he 
+            needs a capital of 30000 and a transportation system 
+            can be bought in the warehouse under  the designation 
+            "machine".
+            
+            With the money and the machine, the player can open a 
+            mine (by going to the place chosen by the scouts and 
+            select the function "MINES").
+            
+            If he has not exactly hit the place named by the 
+            scouts, it is possible that he missed the raw 
+            materials reserves. In this case, the mine reveals 
+            soil and waste. If the player should now get the idea 
+            of filling his wagons with soil and waste, If the 
+            player should get the corresponding number of wagons, 
+            as nobody will be ready to buy the waste from him.
+            
+            
+            
+            But if he has found a raw material, the will reaveal 
+            this material incressantly, until the space in the 
+            storehouse is filled or the reserves are exhaust ed. 
+            Each storehouse has room for 300 units of any raw 
+            material. The player has the possibility of building 
+            more storehouses, which would of course result in 
+            further costs. But the mine would be ready to reveal 
+            raw materials for a longer time. Moreover, the player 
+            does not need to fetch the raw materials as often 
+            anymore, as the production will not have to be ceased 
+            because of the overfilled storehouses so soon.
+            It is also possible for the player, if he has more 
+            machines with him, to build up too 3 conveyor towers 
+            per mine. This has the advantage of increasing the 
+            amount of the haulage.
+            
+            As the player is only allowed to own a maximum of 20 
+            mines at one time (because of the danger of a 
+            monopoly), he must under all circumstances close 
+            exhausted mines, when he wants to open new ones. 
+            
+            If the player finds a treasure and wants to take it, 
+            he needs, like the mine opening,30000 capital and a 
+            transport system. In a treasure, there can be a ring 
+            but also a certain amount of money. Both are surely 
+            helpful to win the game.
+            
+            Concerning the treasure, one can say the following 
+            things:
+            
+            On the big continent, 2 of the searched rings are 
+            hidden in the treasures. 2 more rings are in treasures
+            on the islands and another ring is hidden among an 
+            army which is to be defeated.  
+           
+            
+            4.2     The Town
+            
+            In town every player can buy or sell goods, gamble in 
+            the casino, buy armies, go to the bank and so on. All 
+            players options are placed in separate, single houses. 
+            If you want to enter a house, you just have to click 
+            on the appropriate house.
+            In general it is an operation. A player can compare 
+            prices and make decisions because the clock is 
+            stopped.
+            
+            
+            
+            The Harbor
+            The harbor can just be found in towns situated at the 
+            sea or at rivers. Here the player can do everything 
+            concerni      a message, so that he can pick it up in the town where 
+            it has been built.
+            Before he can go to sea with this ship he has to 
+            enlist sailors who steer the ship.
+            The player has to enter the pub and enlist the sailors 
+            by offering money. The more money he offers the more 
+            sailors will be interested in the job.
+            
+           
+            "Wages/month" are placed on the left hand of the 
+            screen. By clicking the mouse pointer to the top or to 
+            the bottom the given value can be changed. Underneath 
+            the player can see how many people are interested in 
+            the bid. If the player offers 20 per month, for 
+            example, there might be five people who are 
+            interested. If he enlist these five people, he has to 
+            pay 100 per month. If he offers again 20 per month 
+            there will be no one interested, because every who 
+            wanted to work for 20 per month is already 
+            enlisted. The wages have to be raised to 25 per 
+            month,for example. Then there might be a new sailor 
+            who is interested in the jobs. If the player has not
+            
+            
+            
+            enlisted the sailors for 20 per month, these sailors 
+            would be interested in the jobs further on. It is 
+            important that the player only enlist 3 of 7 
+            interested sailors for a wage and then raise or lower 
+            the wage, or even leaves the pub, so that the 
+            remaining sailors are disappointed and leave the pub 
+            themselves. This means that they not to be enlisted 
+            anymore.
+            On the right side of the printed form you can see how 
+            many sailors are needed.>>NEEDED<<. From<<wages>> you 
+            know how much you have to pay for the chosen ship per 
+            month.
+            
+            
+            The store:
+            
+            Here the player can buy or sell goods. On the left 
+            hand side of the screen you can see the price and 
+            quantity. On the right hand side you can see your own  
+            cargo.
+            The player can adjust the quantity of the goods in the 
+            middle of the screen so you can buy or sell the 
+            articles. The player of the articles always think 
+            about the maximum function.
+            The price of the articles are calculated by the single 
+            number of citizens, which is unstable. If there is a 
+            huge population in this town at the moment, the prices 
+            are very high, because the demand is according to the 
+            population. At the same time the production of goods 
+            in this town is at its maximum. You're able to look at 
+            the momentary population of the city information. In 
+            addition to that, there are differences of prices from 
+            town to town.
+            
+            Example: If city X produces apples, this is the city 
+            where apples are cheaper than in any other town. In 
+            city Y, which could be far away, the apples are 
+            expensive < the further away the city, the more 
+            expensive>. In the store there is also a chart of the 
+            loading capacity of each means of transportation, like 
+            in the harbor.
+            
+            (please refer to Appendix B)
+            
+            
+            Bank:
+            
+            In the bank the player can make his money 
+            transactions. There's just one bank system in the 
+            whole kingdom, one office in every town. If the 
+            player pays in money on a bank of town X, he can 
+            withdraw it in every other town. The player can pay in 
+            or withdraw money on his account and he can take a 
+            credit.
+            In the beginning, the bank offers an initial starting 
+            
+            
+            
+            loan of 3000. If the player takes just a part of the 
+            loan he has no claim to the rest of the loan. The 
+            player has to pay the interest, of course. He'll see 
+            the amount of interest in each banks business rates 
+            and conditions. He has to pay interest on his bank 
+            account and loans. Caution: The local traders at the 
+            store support the bank. The player won't get his goods 
+            from the traders if he doesn't pay the loans ( but he 
+            can buy with credit for 3 months until the traders 
+            stop business with him). He should go to the bank 
+            immediately and pay back the loan.
+            The bank decides if he is worthy of a credit. He has 
+            to have an appropriate equivalent of goods; money is 
+            not an equivalent in this case. He can look at the 
+            respective credit margin at "credit scope."
+            
+            The Park:
+            
+            The player can buy soldiers for his army in the park 
+            but he has to observe several things. The army is 
+            subdivided into 7 parts: Infantry, cavalry, artillery, 
+            scouts, dragonriders, wizards and archers. Every unit 
+            has advantages and disadvantages which depend upon the 
+            fighting ground. For example, the dragonriders are 
+            very good in the swamp because they are able to fly; 
+            the other units would sink.
+            On the other hand, the dragonriders are bad in the 
+            forest. They can't reach and fight the infantry on 
+            ground because of the dense forest. The selection of 
+            races is also very important for the strength of the 
+            army selected for the units. If the player takes the 
+            huge and clumbsy giants as his scouts, they won't 
+            achieve as much as the little and agile elves.
+            
+                    
+            There are 10 races and 5 qualities each and every race 
+            has to a certain degree:
+            
+            
+            100 means maximum,0 minimum
+            
+                    
+                    Strength  Courage   Endurance   Agility   Intelligence
+            
+            Human      50        50        50         50        50
+            Elf        40        37        28         75        70
+            Dwarf      64        67        81         22        17
+            Halfling   34        24        42         92        58
+            Orc        79        33        75         44        19
+            Gnome      16        33        26         89        86
+            Giant      99        27        91         19        14
+            Troll      92        32        87         21        18
+            Ogre       85        39        79         31        16
+            Zwark      18        40        32         81        79
+            
+            
+            
+            
+            
+            This next chart shows which qualities are important for 
+            each unit (e.g. scouts don't have to strong, but they have 
+            to clever):
+            
+            
+            1 is not important, 5 is very important
+             
+                       
+                       Strength  Courage   Endurance  Agility  Intelligence
+            
+            Infantry     5         5         5          1        1
+            Cavalry      1         5         1          5        3
+            Artillery    1         5         1          3        5
+            Scout        1         1         5          5        5
+            Dragonriders 3         5         3          3        3
+            Magicians    1         1         1          5        5
+            Archers      1         5         3          5        3
+            
+            
+            The following chart clarifies what unit is best for 
+            different scenarios ( the higher the value the better 
+            unit):
+            
+            
+                      Plain     Forest    Magic forest  Hill     Swamp
+            
+            Infantry    10        10         5            8        8
+            Calvary     20         5         3            15       3
+            Artillery   10         3         1            15       1
+            Scout        8        20         8            15      15
+            Dragonrider 20         3         1            20      20
+            Magicians    8        10        20            15      20
+            Archers     20         3         1            10       8
+            
+            
+            The player should attempt to put the correct race with the 
+            correct unit, otherwise the strength of the army decreases
+            
+                                     
+            There is just a limited number of available people in 
+            every town. The young must grow up before they are able to 
+            fight. So it is possible that the people of one race are 
+            not available yet. In the " TOWN INFORMATION" you can see 
+            how people are available.
+            In the park, the player discovers how much money he has to 
+            pay for his armies and sailors each month ( total wages ).
+            He can see the salary of a unit for each month.
+            Underneath that he finds the chart of the composition 
+            condition of the army which consists of the respective 
+            races. This training condition determines the power of the 
+            army. The training condition can be improved by training 
+            in the castles.
+            
+            
+            
+            
+            
+            Training:  
+            
+            The training happens only in castles. Here every part of 
+            the army can be trained for different criteria. The 
+            training costs money but it's worth it. The functions are 
+            the same as in the store.
+            
+            Weapons:
+            
+            Here the player is able to equip his army with additional 
+            weapons, in order to increase the fighting strength of the 
+            units. He can purchase armours, weapons and other 
+            equipment is much weaker than a perfectly equipped one.
+            
+            Palace:
+            
+            The player is only able to enter the palace when he is 
+            attacked and conquered the plunder the treasury, i.e. 
+            collect the peoples taxes. The taxes depend upon the total 
+            city population.
+             
+            Barracks:
+            
+            The player is only allowed to enter the barracks when he 
+            possesses a town. If he has taken a town, the other 
+            caravans strive for the reconquest of this town. Therefore 
+            the player should leave a part of his army in the 
+            barracks, as as reinforcement for his newly conquered 
+            town. The screen is again separated into halves. On the 
+            left there is your own army, on the right, the town army. 
+            Now you can transfer parts of your army to and fro. On the 
+            right edge of the screen there are several beams which 
+            describe the time delay after which the corresponding unit 
+            joins the fighting when the town gets attacked. In this 
+            way, the player can order his people to a defense plan of 
+            the town, by setting up a strategy for the people's 
+            action. It is, for example, wise for the artillery to 
+            start shooting at once after an attack by the enemy. The 
+            dragonriders should probably start a little bit later to 
+            reach the enemy lines together with the infantry. The 
+            further to the left the beam appears on the display, the 
+            earlier the corresponding units start the fighting. When 
+            the beam is on the far right side. The player's army waits 
+            for the enemy attack. To develop a good fighting strategy, 
+            it is useful to analyse the computer opponent and possibly 
+            to go ahead in a similar way ( very difficult).
+            
+            Stable:
+            
+            In the stable, the player can purchase transportation for 
+            his goods. A complete set consists of two horses and a 
+            wagon. Each provides room for a maximum of 80 goods. The 
+            user's control is the same as in the "store".
+            
+            
+            
+            
+            
+            Pub:
+            
+            Inside the pub, the player has a possibility of playing a 
+            card game similar to "Black Jack".
+            
+            The rules are as follows:
+            
+            Ace  (A)=11       Queen (D)=3      Ten =10    Eight= 8
+            King (K)= 4       Jack  (B)=2      Nine= 9    Seven= 7
+            
+            Double aces always wins.
+            Before taking a card, the player must place his bet. The 
+            player has won when he has more points than the computer, 
+            but not more than 21 ( the only exceptions are two Aces, 
+            which always win). To reach that, he may take as many 
+            cards as he likes. Should there be a equality of points, 
+            the computer wins. The player always begins. He takes a 
+            card by selecting from the stack of cards. If he thinks 
+            that he has enough points, he must select the cancelled 
+            deck of cards. He can decide the amount of his bet by 
+            clicking on coins of different values. In case of a 
+            victory, the player gets back twice the amount of his bet, 
+            If he loses, his money goes to the bank. If he wants to 
+            leave the pub, he must click on the door in the lower 
+            right corner.
+            
+            Temple:
+            
+            In the temple, the player receives information about the 
+            treasures, which is situated in the corresponding part of 
+            the country. Unfortunately, the priests inside each temple 
+            do not know the exact location of the treasure. Therefore, 
+            you will only hear rumors about the possible location. The 
+            actual place can sometimes differ considerably from the 
+            named one. You will also just receive one geographical 
+            coordinate. You can get two or more coordinates by 
+            conquering another town inside the same part of the 
+            screen. The player will get to know about this town in the 
+            connected temple.
+            
+            The player's second possibility of finding a treasure is 
+            to find a big area with one coordinate and to search 
+            through this area with his scouts.
+            
+            If he has received all three coordinates, they will form a 
+            triangle, with a treasure lying in the inner field. The 
+            more coordinates you receive, the smaller the vicinity 
+            search.
+            Furthermore, the player can get information about his 
+            status in the temple, i.e. he receives information about 
+            how many rings he has already and how many mines, ships 
+            etc. he owns
+            
+            
+            
+            
+            
+            
+            He must also set the found rings in a five pronged star 
+            inside the temple of his choice ( simply click on an empty 
+            space). With every ring the player sets in the temple, he 
+            will receive magic skills:
+            
+            1st ring:
+              The player gets a display of his own strength 
+            and the strength of the opponets's army during a fight. 
+            Therefore, it is easier to find a strategy, as the player 
+            can now see which unit is currently strong.
+            
+            2nd ring:
+              The player gets to know which goods are produced in 
+            which town. Therefore he also knows where to get which 
+            product at the cheapest prices. This information is 
+            displayed in the corresponding "TOWN INFORMATION". with 
+            that, his trading becomes much more efficient.
+            
+            3rd ring:
+              The player does not need any more scouts to explore the 
+            surrounding country, i.e. he can see all enemies, not 
+            depending on the distance and the number of the scouts he 
+            has around him. Therefore traveling from town to town is 
+            not as dangerous.
+            
+            4th ring:
+              The strength of the player's army is increased by 50%, 
+            i.e., his army is now 50% stronger than before. This is 
+            very useful for the final fight against Medusa.
+            
+            5th ring:
+              As soon as he sets in the fifth ring, the player calls 
+            Medusa, who now accepts the final fight.
+            
+            
+            Jeweler:
+            
+            Here the player can sell the precious raw materials which 
+            he excavated in his mines. There are considerable price 
+            differences. It is not useful to sell right beside the 
+            mine, as the prices will be very low. The player should 
+            instead transport the raw materials to a place where it is 
+            not possible to find them. He cannot trade with raw 
+            materials,i.e. they cannot be bought, just sold. Once 
+            again, all adjustments are done like in the "STORE".
+            
+            
+            4.3   Castle:
+                       
+              Besides the towns there are also a few castles, which 
+            all have the same purpose of educating the player's army 
+            and to improve his state of training. To get inside a 
+            castle, it must be attacked or conquered.
+            
+            
+            
+            
+            
+            
+            5.0   The palyer's army can fight against opposing armies, 
+            ships, castles or towns.
+            Therefore, the following configurations are possible:
+            5.1   Fight Army <-> Army
+              If you bump into an opponet's figure with your own 
+            figure, it comes to a fight between the two parties. The 
+            player's army is on the left side, the opponent's on the 
+            right side. Unfortunately, the number of soldiers the 
+            opponent owns is not known. Because of that, you get asked 
+            at the beginning whether you want to send out your scouts 
+            to learn about the opponent's strength. This cost a lot of 
+            money, but it is well worth the engagement. If you do not 
+            own any scouts, this is of course not possible. To learn 
+            about the exact calculation of the fighting strength, 
+            refer to the section "PARK" in this manual.
+            
+            When the fighting starts, the player has two 
+            possibilities:
+            
+            1)    He can send single units into the fight (select unit 
+            and click on attack) or he can call them back (select unit 
+            and click on retreat). During the attack, the armies start 
+            moving forward,which the player can follow on the upper 
+            edge of the screen. Only when units of his own army meets 
+            units of the opponent's army, can a proper fight proceed. 
+            The unites involved in the fight are shown in red. If 
+            there are casualties, they depend on the players own 
+            strength and the opponent's strength, as well as on the 
+            number of the player's own soldiers and the opponent's 
+            soldiers.
+            
+            One exception is the artillery. If it gets the order for 
+            an attack, it opens fire at once, which directly results 
+            in casualties for the opponent. The same goes, of course, 
+            for the opponent's artillery and the player's own 
+            casualties.
+            
+            The fighting continues one army has lost, i.e. has no more 
+            people. If the player should lose the fight, he loses 
+            everything he has with him, except his wagon. 
+            Nevertheless, the bank is so kind to hand out the starting 
+            loan of 3000 again. An already existing bank-account will 
+            not be touched! If the player wins the fight, he will 
+            receive all the money which the opponent's caravan 
+            possesses.
+            
+            2)    The player avoids a fight. This happens by clicking 
+            on the "negotiations". With the help of that, he can start 
+            negotiations, but he has only one chance. Failed 
+            negotiations cannot be started again. One possibility: 
+            Either he uses a bluff and he boasts that he is the 
+            strongest, or he bribes the opponent with money ( adjust 
+            with "Increase" or "Decrease"). The opponent sometimes 
+            falls for the bluff, but not always. This depends on the 
+            
+            
+            opponent's own superiority. 
+            
+            During the bribery, the player should not be to tight with 
+            his money. When he loses a fight, all the money will go to 
+            the enemies anyway. The amount of the bribery also depends 
+            on the number of the player's army and the opponent's 
+            army.
+            
+            If the player has attacked a caravan more than five times, 
+            he is no longer able to enter the caravan's home town, as 
+            it will no longer trade with him.
+            The same goes for the situation in which a player has 
+            attacked a town directly.
+            
+            (Please refer to Appendix C)
+            
+            
+            5.2   Fight army <-> Town or Town<-> Army
+            
+              If the player attacks a town or a castle, the same rules 
+            apply as in 5.1 "Fight Army<->Army". Should the player 
+            win, he takes over the town/castle.
+            Naturally, not every castle or town is the same size. The 
+            size of a town or a castle can be recognized in the screen 
+            graphics, but also in the "TOWN INFORMATION." Big towns 
+            have of course more soldiers to defend themselves than  
+            smaller towns.
+            If a player's town is attacked by an opponent's army the 
+            player does not have any influence on the outcome. He can 
+            only rely on his strategy (see BARRACKS) and hope that he 
+            will win.
+            
+            
+            
+            5.3   Fight Ship <-> Ship
+            
+              If 2 ships bump into each other on the map, a sea battle 
+            begins. In this case, the out come is dependent upon how 
+            many canons are at the players disposal. The battleships, 
+            of course, have an advantage over the merchantmen. The 
+            p[layer now faces one ship representing the opponent's 
+            fleet.
+            His task is now to hit this ship as often as possible. 
+            This can be influenced by two things: the shooting angle 
+            and the powder amount. The shooting angle can be changed 
+            by clicking on the canon in the centre of the screen.
+            On the right centre of the screen , you can see a section 
+            of the canon. First you must fill the cannon with powder, 
+            this happens by clicking on the powders barrel on the left 
+            side.
+            The powder now must be visible inside the section. The 
+            powder must be stuffed by clicking on the stuffer on the 
+            far left side. This action must also be visible in the 
+            cross-section. If you want to increase the shooting 
+            distance, the canon must be stuffed and filled with more 
+            powder. If you have filled in enough powder, the ball
+            
+            
+            
+            will be loaded by clicking it on. Now the canon should be 
+            ready for shooting, which is made visible by by a fuse. If 
+            no fuse is visible, something has been done wrong (e.g. 
+            not stuffed etc.). But if everything has been performed 
+            properly, he can now fir the canon by clicking on the 
+            flame and firing the slow-match. Unfortunately, the player
+            has to act in a limited space of time, in which he 
+            should try to score as many hits as possible. When the
+            time is over, the final results will appear on the 
+            screen. As the player has shot with one canon as a 
+            representative of all the canons, the number of hits is 
+            multiplied by the number of canons. This results in the 
+            total number of hits received by the opponent's fleet. 
+            Each ship needs 10 hits to sink. Therefore, one can 
+            ascertain in this way how may of his own and how many of 
+            the opponent's ships have been sunk. If all of the 
+            player's own ships have been sunk by the opponent, his 
+            game is over because he drowns. If the player has 
+            destroyed all of the opponent's ships, he receives some 
+            money or maybe even a ring. 
+         
+            
+            
+            Example of a possible begin for "Rings of Medusa"
+            
+            1.    If the mouse pointer is moves in the options menu, 
+            the game will be stopped until one leaves the options menu 
+            again. This is very useful to reach the negotiations 
+            during a fight, for example.
+            
+            2.    The game's score should be saved on a special disk 
+            as often as possible. You prepare this by formatting an 
+            empty disk.
+            
+            3.    Notes of a successful start for the game:
+                  1. Go to a bank and take a credit.
+                  2. Purchase a wagon with horses in a stable.
+                  3. Trade with the towns which are far apart from 
+                     each other.
+                  4. Always negotiate with the opponent in case of an 
+                     attack.
+                  5. Purchase scouts early in the game.
+                  6. Wright down coordinates and other important 
+                     things in the Notice Pad.
+            
+            
+            
+            
+            
+            APPENDIX A:
+                 Above:  Note Pad, Save, Buy, Sell, Maximum, Door,
+                         50/60 Hz, Music/Sounds, Okay, Not Okay,
+                         Retreat, Search
+                 Below:  Load, Town Information, More Goods, 
+                 Coordinates, End of Game, Negotiation, Mine
+            
+            
+            
+            
+            APPENDIX B:
+                 Above:  Goods, Decrease Amount of Goods (fast and 
+                         slowly), Increase Amount of Goods
+                 Below:  Disposal Amount, Capacity, Means of 
+                         Transportation
+            
+            
+            
+            APPENDIX C:
+                 Above:  Total Number of Soldiers 
+                 Below:  Own Army, Army Unit Involved in the Fighting, 
+                         Opponent's Army

@@ -1,0 +1,125 @@
+               /******************************************\
+                *>                                      <*
+                *>        Diplomacy for the Amiga       <*
+                *>              Version 1.0             <*
+                *> Copyright (c) 1988 by Steven Douthat <*
+                *>        Imported by TARKUS TEAM       <*
+               \******************************************/
+
+
+The game of diplomacy is played in years consisting of three seasons: Spring,
+Fall and Winter.  The Spring and Fall turns are when the players issue orders
+for movement of their existing units (armies and fleets).  In the Winter turn,
+supply center owners
+
+HOW TO ISSUE ORDERS (Spring and Fall turns)
+
+There are three possible orders for each unit on the board: hold, move or support.  In addition, fleets have a fourth option, "convoy" of an army from one coast to another.  In general, orders are issued by selecting the provinces involved.  This is done 
+the province and clicking the left mouse button.  Each order requires 3 provinces: 
+   the province containing the unit being ordered, 
+   the province containing the unit that is moving, 
+   and the destination province.
+Clicking on these three provinces is usually enough to fully describe the order.  
+
+   HOLD: click three times on the province containing the unit.
+         (remember to click on the NAME of the province)
+
+   MOVE: click twice on the province containing the unit to move;
+         click the province where the unit is going.
+
+SUPPORT: click the province containing the unit providing the support;
+         click the province containing the unit receiving the support;
+         if the supporting unit is a fleet in the water and the supported 
+         unit is an army on the coast, then a requester will ask you to 
+         select between "support" or "convoy"; select "support";
+         click the province where the supported unit is going/staying.
+
+ CONVOY: same as SUPPORT but select "convoy" at requester.  Note that a 
+         convoy order is not valid unless the unit being convoyed is ordered
+         to move to the same province.
+
+A text representation of the order will be constructed in the upper right message area as each order is input.  The entire list of orders can be viewed on-screen or printed out at any time during order entry by selecting the proper item on the "orders" me
+
+When all orders have been entered correctly, a click on the end gadget in the lower right corner will signal the computer to resolve the orders.  A requester will ask where to print the results of the orders.  Sending this list to the printer ("print") is
+
+After the order results have been listed, the map is adjusted based on these 
+results and all required retreats, if any, are announced.  The computer will 
+then request the destinations for each retreating unit.  The "end" gadget can be used to order a unit to disband.  
+
+ADJUSTING UNITS (Winter turn)
+
+At the end of the Fall turn, the computer will automatically adjust supply ownership.  Then the numbers of supplies owned will be compared to the number of units deployed for each power.  Build or disband orders will be requested from each power as requir
+
+----------------------------------------------------------------------------
+THE MENU
+----------------------------------------------------------------------------
+
+GAME MENU
+   These commands affect the entire game and can be used anytime.
+
+   TO BACK - sends game screen behind workbench,etc to allow multitasking 
+             control
+
+       NEW - restarts game at Spring 1901 (or whatever configuration is 
+             specified in Data/new.data)
+
+       OLD - loads previously saved game (requires entry of name of game 
+             file)
+
+      SAVE - saves current game configuration in file on disk for later 
+             retrieval using OLD command
+
+      QUIT - closes game screen and returns to workbench/CLI
+
+STATUS MENU
+   These commands list the year and current supply ownership
+
+     PRINT - output list to printer; includes list of units for each power;
+             this is handy to produce worksheet for writing orders during 
+             diplomacy period
+
+      VIEW - show list on screen
+
+ORDERS MENU
+   These commands list all units by power and their current order.  This 
+   menu is only active during order entry.
+
+     PRINT - output list to printer
+
+      VIEW - show list on screen
+
+ADJUST MENU
+   These commands give the user raw power to adjust the game to any 
+   configuration.  Although the game has been play-tested and is believed to
+   follow the rules accurately in resolving orders, gamemasters can chose to
+   over-ride the decisions and adjust the map to what they believe is 
+   correct.
+
+      UNIT - build/change/disband a unit; the unit in the province selected 
+             is replaced by the unit built
+
+    SUPPLY - change/eliminate ownership of a supply province
+
+----------------------------------------------------------------------------
+KNOWN BUGS/LIMITATIONS
+----------------------------------------------------------------------------
+
+If the game is quit when the top edge of the map is displayed in the display window, computer memory will be corrupted.  The result of this is almost always a fatal software system error when a subsequent program is run.  The cause for this is unknown, bu
+
+
+----------------------------------------------------------------------------
+PLANNED REVISIONS
+----------------------------------------------------------------------------
+
+A computer opponent who will play any country or countries independently or as a team.  This will allow for a one-player game of World War I or variant thereof.  
+
+More elaborate file requester for saving and retrieving files.  One that lists files in current directory and allows movement through directories.
+
+Mapmaking utility to aid in the creation of other maps to use in game.  By the way, the map.data file was created with Deluxe Paint and is a standard IFF file (8 color, hires, 1000 x 400 pixels).  If anyone improves upon the artwork, please send me a copy
+
+-------------------------------------------------------------------------
+   Diplomacy is Copyright (c) 1976 Avalon Hill Game Company
+   Diplomacy for the Amiga is Copyright (c) 1989 Steven Douthat
+   Deluxe Paint is a trademark of Electronic Arts
+   Amiga and AmigaDOS are trademarks of Commodore-Amiga, Inc.
+-------------------------------------------------------------------------

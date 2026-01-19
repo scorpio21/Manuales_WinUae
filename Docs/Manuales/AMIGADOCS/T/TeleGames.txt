@@ -1,0 +1,712 @@
+PROTECTION CODES
+
+4-20-5=I  4-26-1=E  5-26-8=Q  6-3-6=N   6-41-3=H  7-6-1=A  7-41-2=B
+
+7-41-6=B  7-42-1=O  8-31-1=L  8-41-6=J  9-12-13=K  9-18-4=L  10-6-5=U
+
+10-11-3=A  11-28-3=P  11-42-3=T  12-18-2=K  12-27-4=B  13-15-3=Y  13-30-3=M
+
+14-7-4=Y  14-38-1=N  15-41-1=Y  16-6-2=U  16-11-3=P  17-1-3=U  18-35-6=J
+
+18-42-1=H  21-20-5=F  21-24-2=Q  22-29-3=N  23-12-5=U  23-14-1=Q  23-18-1=M
+
+24-27-6=U  24-33-3=S  24-37-2=W  25-29-2=W  26-19-1=I  26-31-4=R  27-41-4=V
+
+27-42-3=D  30-26-7=J  31-13-3=B  33-43-6=0  34-6-8=W  34-31-3=M  35-8-3=E
+
+35-10-1=I  38-6-2=G  38-30-2=T  39-3-1=T  39-14-4=D  39-28-4=A
+
+DONT HAVE PAGE 37 BUT "L" HAS BEEN KNOWN TO WORK.
+
+=============================================================================
+                             TeleGames
+											Contents
+                         TABLE OF CONTENTS
+
+BBS Support.................................................    4
+Making a Working Copy.......................................	5
+Loading TeleGames...........................................	6
+TeleGames Basic Operation...................................	7
+	Mouse..................................................	7
+	Keyboard...............................................	7
+	Verification Requesters................................	7
+	Moving a Game Piece....................................	8
+	RECV and SEND Message Lines............................	9
+	Customizing the Mouse Pointer..........................	9
+TeleGames Menus.............................................	10
+	TeleGames Menu.........................................	10
+	Game Menu..............................................	11
+	Board View Menu........................................	12
+	TeleComm Menu..........................................	13
+	Tele Files Menu........................................	16
+	Game Files Menu........................................	20
+	Sound Menu.............................................	21
+Teleconnect Procedure.......................................	22
+Playing TeleGames...........................................	27
+	TeleChess..............................................	27
+	TeleCheckers...........................................	29
+	TeleBackgammon.........................................	31
+	Reference..............................................	35
+Appendix A - Using the Ramdisk..............................	36
+Appendix B - Using a Hard Disk..............................	37
+Appendix C - TeleGames Directories..........................	38
+Appendix D - Trouble Shooting...............................	39
+          Amiga, Kickstart, Workbench, & Intuition
+          are trademarks of Commodore Amiga, Inc.
+				Page 3
+
+                             BBS Support
+1	BBS SUPPORT
+2
+3	Filling out and returning the enclosed
+4	registration card will entitle you to
+5	free TeleGames revisions and updates
+6	(should any be necessary), accessible
+7	as downloads on our 2400 baud bulletin
+8	board, Track ][. Phone # (817) 244-4151.
+9	When we receive your registration card,
+10	you will be logged in as a registered
+11	TeleGames user.
+12
+13	We would also ask that you report any
+14	problems you might be having with
+15	Telegames in the BBS message area.  Any	
+16	inquiries made will usually be answered
+17	within 24 hours.
+18
+19	Although a great deal of testing has
+20	gone into TeleGames to insure that it is
+21	bug free, we realize that no software
+22	can ever be called "finished". Please
+23	be sure, however, that you are familiar
+24	with the rules of the games before
+25	labeling a rule interpretation as an
+26	error.  All game specific rules were
+27	researched throughly before inclusion
+28	into TeleGames.
+29	
+30	It would also be a great help to us in
+31	solving any problems you may have, if
+32	you would save the game at the point
+33	where the problem occurred. Then upload
+34	the saved game file to us in the
+35	TeleGames File area on Track ][.  The
+36	saved game files are only a few hundred
+37	bytes in length, and will take you only
+38	a few seconds to upload to us.
+39
+40		Please leave a post in the message
+41	area listing the type of computer you
+42	are using and the problem you are
+43	having.
+				Page 4
+
+            			Copying
+
+1	Our BBS is also a great place to meet
+2	other TeleGames users interested in
+3	playing Chess, Checkers, and Backgammon.
+4	Posts from TeleGames users issuing game
+5	challenges may be found in the Track ][
+6	TeleGames message area.
+7	
+8	COPYING TELEGAMES
+9
+10	TeleGames is not copy protected. It may
+11	be copied using any of the regular Amiga
+12	copy techniques from Workbench or the 	
+13	CLI. Please read your Amiga manual for
+14	the particulars of disk copying should
+15	you be unfamiliar with these procedures.
+16
+17	Before using the program for the first 
+18	time, we recommend that you make a 
+19	working copy of TeleGames. Please
+20	rename the copy TeleGames_WB, just like
+21	the master program disk.
+22	
+23	If you have more than 512K of RAM in
+24	your Amiga, it is also possible to copy
+25	TeleGames graphics and telecommunication
+26	files over to the Ramdisk for very quick
+27	file acess. Use the copy icons provided
+28	in the Tele_Batch directory/drawer on
+29	the TeleGames_WB disk (See Appendix A).
+30
+31	Icon driven Batch files also have been
+32	provided to copy TeleGames to your hard
+33	disk. If you are interested in putting	
+34	TeleGames on a hard disk see Appendix B.
+35	
+36	We have offered you TeleGames without
+37	copy protection and at a reasonable
+38	price, because that is what you, the
+39	telecomputerist, has requested. By
+40	honoring our Copyright and preventing
+41	unauthorized distribution you can show
+42	us that lack of copy protection on
+43	TeleGames was a wise choice.
+				Page 5
+
+				Loading
+
+1	LOADING
+2
+3	To play TeleGames you will need:
+4	
+5	+ An Amiga Computer
+6	+	512K or more of RAM
+7	+	An "AT" command set compatible
+8		modem operating at 9600, 2400,
+9		1200, or 300 baud.
+10
+11	Follow the regular startup instructions
+12	for your Amiga computer, using Kickstart
+13	1.2. When the Amiga requests the 1.2
+14	Workbench Disk, insert the TeleGames_WB
+15 	working copy into the internal drive.
+16
+17	Once the Workbench has loaded, double 
+18	click on the TeleGames_WB disk icon to
+19	open the TeleGames window.
+20
+21	Finally, double click on the TeleGame
+22	program icon to load the program.
+23
+24	After a few moments, the TeleGames
+25	credits screen will be displayed on your
+26	monitor, indicating that the program
+27	has correctly loaded.
+28
+29	To leave the credits screen and play
+30	TeleGames, click the left mouse button.
+31	A requester will ask you for a manual
+32	validation character. After you find
+33	and type this letter, TeleGames will
+34	load in the 3 D Chess board and pieces.
+35	You are now ready to begin.
+36
+37	Note: With 1 external drive mounted to a
+38	512K Amiga, TeleGames requires all but
+39	about 28K of the entire memory to
+40	operate. Consequently, it will not load
+41	if you have two external drives mounted,
+42	or another task running, on a 512K
+43	Amiga.
+				Page 6
+
+			      Operation
+
+1	BASIC OPERATION
+2
+3	Mouse
+4	
+5	TeleGames makes use of the familiar
+6	Amiga Intuition user interface. You
+7	interact with TeleGames by means of the
+8	mouse, which is used to move the mouse
+9	pointer across the screen. The left
+10	mouse button allows you to pickup and
+11	drop game pieces, and make gadget or
+12	requester selections. The right mouse
+13	button displays and selects menu options
+14	that control program operations.
+15
+16	Keyboard
+17
+18	The keyboard is used to input specific
+19	modem and opponent telecommunication
+20	parameters, file names, and messages
+21	(once a teleconnection is established).
+22
+23	Verification Requesters
+24	
+25	A verification requester will appear in
+26	the center of your screen (and in the
+27	center on the disk I/O screen) whenever
+28	you request an action that may 
+29	drastcally effect the current game
+30	configuration. Moving the mouse pointer
+31	within the borders of these requesters
+32	and clicking the left mouse button will
+33	generally cause the requested action to
+34	be initiated, while moving the mouse
+35	pointer outside the requester and
+36	clicking the left mouse button will
+37	cancel the requested action. These
+38	requesters are designed to protect you
+39	from accidentally initiating an action.
+40	Please read these requesters carefully
+41	before clicking the left mouse button,
+42	otherwise you may inadvertently end a
+43 	game.
+				Page 7
+
+				Operation
+
+1	Moving a Game Piece - - A Walk Through
+2	
+3	Before going any further, start a chess
+4	game on your Amiga by choosing the START
+5	A GAME menu selection under the CHESS
+6	menu. Now point to the top portion of a
+7	WHITE chess piece with the mouse
+8	pointer, and push the left mouse button.
+9	As long as the button is depressed the
+10	selected piece will move in the
+11	direction in which you roll the mouse.
+12
+13	Note that the chess piece depth arranges
+14	itself withe the other pieces on the
+15	board, moving in front of and behind the
+16	other pieces as it is moved across the
+17	board.
+18	
+19	To place the selected piece into a new
+20	position, move it to the desired square
+21	on the board and release the mouse
+22	button. If the chosen square is a legal
+23	move for that piece, then TeleGames will
+24	place the piece in the center of the
+25 	square and indicate that it is now RED'S
+26 turn. If the chosen square is not a 
+27 legal move for that piece, then the
+28 piece will be returned to its original
+29 starting position, and it will still be
+30 WHITE'S move. TeleGames only allows
+31 legal moves (according to the rules of
+32 the game) to be made.
+33
+34 As each move is attempted, TeleGames
+35 will inform you of the status of your
+36 move in one of the message boxes in the
+37 top portion on the board screen. Read
+39 the current status of your moves.
+40
+41 To end this example game just select the
+42 CEDE/END GAME menu option under the
+43 CHESS menu.
+				Page 8
+
+				Operation
+
+1	RECV and SEND MESSAGE LINES
+2
+3 The RECV and SEND message lines at the
+4 bottom of the TeleGames screen are only
+5 active after a Teleconnection has been
+6 established.
+7
+8 During game play, letters typed on the
+9 keyboard will be displayed on the SEND
+10 line. The SEND Message line will allow
+11 all the normal line editiong control of
+12 the Amiga keyboard: cursor keys, back
+13 space, and the DEL key. The message
+14 text will be transmitted either when you
+15 hit RETURN, or when you have typed to
+16 the end of the SEND message line.
+17
+18 The RECV message line will display the
+19 text message that is received from the
+20 teleconnected computer of your opponent.
+21 A chime will sound when an incoming
+22 message is displayed to alert you to the 
+23 RECV message. With some modems the RECV
+24 line will echo your SEND message should
+25 the teleconnection be broken or lost.
+26
+27 Customizing the Mouse Pointer
+28
+29 TeleGames was written so that you might
+30 customize your own mouse pointer in the
+31 Preferences screen. If you do customize
+32 the mouse pointer, please do not change
+33 the "point" pixel from its default,
+34 unless you have accounted for the new
+35 "point" pixel in your pointer image.
+36 Otherwise the program may not recognize
+37 that the pointer is over a game piece.
+38
+39 When picking up a chess piece with the
+40 mouse pointer, point to the upper part
+41 of the piece above the upper band on the
+42 shaft. Checker and Backgammon pieces are
+43 picked up on the upper disk surfaces.
+				Page 9
+
+		TeleGames Menu
+
+1 MENUS
+2
+3	Menu headings are displayed when the
+4	right mouse buttojn is depressed. By
+5	moving the mouse cursor over these menu
+6	headings, the menu items under each
+7	heading will be displayed. Moving the
+8	cursor down the menu item list will
+9	highlight that item. Releasing the right
+10	menu button while a menu item is
+11	highlighted will activate that menu
+12	selection.
+13
+14	When a menu item is selected, it may
+15	cause other menu items to be activated
+16	or deactivated (ghosted). Ghosted menu
+17	items cannot be selected.
+18
+19	TeleGames Menu
+20
+21	The TeleGames Menu (first menu heading
+22	from the left) offers four possible menu
+23	selections
+24
+25	TeleChess
+26	TeleCheckers
+27	TeleBackgammon
+28	Exit TeleGames
+29
+30	The first three selections will allow
+31	you to play the indicated game: either
+32 Chess, Checkers, or Backgammon. Upon
+33 selection, it may take a few moments to
+34 load in the requested game graphics.
+35
+36 Exit Telegames will cause the TeleGames
+37 program to end, de-allocating all memory
+38 and resources that had been allocated.
+39
+40 When any of the TeleGames menu items
+41 have been selected, the chime will sound
+42 and the verification requester will be
+43 displayed.
+			Page 10
+
+           		Game Menu
+
+1	Game Menu
+2
+3 The Game Menu (second menu from the
+4 left) will display the name of the Game
+5 currently being played. Under this menu
+6 heading are displayed the following menu
+7 options.
+8
+9 Choose a Side
+10 Start New Game
+11 Cede/End Game
+12
+13 Choose a Side
+14
+15 Choose a Side allows you to choose
+16 either WHITE or RED as your piece color
+17 in the game to be played.
+18
+19 Start a Game
+20
+21 Start a Game will begin a NEW game for
+22 the TeleGame currently displayed on the
+23 screen. When this menu item is
+24 selected, the TeleGames and TeleFiles
+25 menus are deactivated.
+26
+27 When you are teleconnected to another
+28 computer either player may start the
+29 game. The color of the side of the
+30 starting computer is retained, while the
+31 other computer defaults to the color of
+32 the other side. For example, if both
+33 computers have chosen to be WHITE, only
+34 the computer that STARTS the game will
+35 be WHITE. The other computer will, by
+36 default, become the RED side.
+37 
+38 Cede/End Game
+39
+40 Cede/End Game will cause the game
+41 currently being played to end. Both the
+42 TeleGames and TeleFiles menus will be
+43 activated when Cede/End Game is chosen.
+			Page 11
+
+
+      		Board View Menu
+
+1 Board View Menu
+2
+3 The Board View Menu will allow you to
+4 change the viewing angle of the game
+5 that is currently being displayed on
+6 your screen. There are two menu options
+7 available under Board View: View
+8 Dimensions and Board View Angle.
+9
+10 View Dimensions
+11
+12 View Dimensions allows you to play any
+13 of the games on either a 3 dimensional
+14 perspectively viewed game board. The
+16 3D default view is the most realistic,
+17 but some players may at first have
+18 trouble keeping the relative positions
+19 of the game pieces straight. If this is
+20 the case, use the 2D view.
+21
+22 Board View Angle
+23
+24 Board View Angle will allow you to
+25 rotate the game board to any of four
+26 angles in Chess and Checkers, and any of
+27 two sided in Backgammon. In each case,
+28 the Board View Angle default to the
+29 WHITE view (WHITE in the foreground).
+30 The computer that is RED should flip the
+31 Board View Angle around to the RED View
+32 at the start of the game.
+33
+34 It is also possible to view the Chess
+35 and Checker boards from King's Side
+36 view and the Queen's Side view.  These
+37 angles may most frequently be used when
+38 two players are playing a game on a
+39 single computer.
+40
+41 Whenever the 3D/2D View Dimensions are
+42 changed, the Board View Angle defaults
+43 to the WHITE View, and so must be reset.
+			Page 12
+
+               	TeleComm Menu
+
+1 TeleComm Menu
+2
+3 The TeleComm menu contains the TeleGames
+4 options relating to telecommunications.
+5
+6 Telecommunication Mode
+7 Disconnect (Hang Up)
+8 Transmit Game and Play
+9 Dial Telephone Number
+10
+11 Telecommunications Mode
+12
+13 The Telecommunications Mode menu item
+14 offers four possible modes as sub items
+15 into which your computer may be set.
+16
+17 Sending (Caller)
+19 Receiving (Answer)
+19 Null Modem Connect
+20 Teleconnect Off
+21
+22 Your computer will always be set to one
+23 of these telecommunication modes. The
+24 default is Teleconnect Off. In order to
+25 teleconnect with another computer you
+26 must set the Telecommunication Mode to
+27 one of the first three of these menu
+28 items.
+29
+30 The Telecommunication Mode reverts to
+31 the Teleconnect Off mode whenever the
+32 Disconnect (Hang Up) menu subitem is
+33 selected.
+34
+35 Sending (Caller)
+36
+37 Sending mode will make your computer the
+38 calling computer; that is, the one that
+39 initiates the teleconnection by calling
+40 the other computer over the telephone.
+41 When the Sending mode is chosen, the
+42 Dial Telephone Number menu option is
+43 activated.
+			Page 13
+
+ 		TeleComm Menu
+
+1 Receiving (Answer)
+2
+3 Receiving mode will make your computer
+4 the answering computer; that is, the one
+5 that answers the call that will be
+6 placed by the other computer. Selecting
+7 Receiving mode places your computer into
+8 a state where it passively awaits an
+9 incoming call. A Cancel Answering Mode
+10 requester is provided in the event you
+11 wish to exit from the Receiving mode.
+12
+13 When an incoming call is received,
+14 TeleGames will answer your phone and
+15 make the teleconnection so that game
+16 play may begin.
+17
+18 Null Modem Connect
+19
+20 The Null Modem Connect mode forces
+21 TeleGames into the teleconnected state.
+22 This mode should be used whenever two
+23 computers are connected to each other by
+24 a direct serial port null modem cable.
+25
+26 It may also be used if your modem is not
+27 sufficiently compatible with the "AT"
+28 command set for the Sending or Answering
+29 modes to function properly. You may use
+30 other communication software running as
+31 a multitask to place the call or answer
+32 the telephone. Once the teleconnection
+33 has been made, simply put your computer
+34 into Null Modem Connect mode and begin
+35 to play. TeleGames will grab the open
+36 teleconnected serial line and work.
+37
+38 Note: it may be necessary to shut down
+39 the other comm task in the event that it
+40 has grabbed exclusive use of the serial
+41 port. Most comm software will leave the
+42 line open even though the program that
+43 opened the line has ended.
+			Page 14
+
+			TeleComm Menu
+1 Teleconnect Off
+2
+3 Teleconnect Off mode allows two players
+4 to play TeleGames on a single computer.
+5 Telegames reverts to this mode when the
+6 Disconnect menu option is selected. It
+7 will always enable the Cede/End Game
+8 menu item when it is selected.
+9
+10 Disconnect (Hang Up)
+11
+12 The Disconnect option will cause the
+13 teleconnected state of your computer to
+14 be broken by hanging up the telephone,
+15 returning TeleGames to the Teleconnect
+16 Off mode. Both computers must select
+17 Disconnect when a session has ended.
+18
+19 Transmit Game and Play
+20
+21 The Transmit Game and Play option under
+22 thee Telecomm Menu allows you to transmit
+23 a saved and previously loaded game
+24 configuration to the other teleconnected
+25 computer. Both computers must be in the
+26 same unstarted game. (Start a New Game
+27 enabled) when this option is selected.
+28
+29 Before a game is transmitted, players
+30 should use the message chat lines to
+31 establish that a game is about to be
+32 transmitted. Transmit only when there is
+33 no activity on the receiving computer,
+34 otherwise the transmit may be aborted.
+35
+36 Dial Telephone Number
+37
+38 This menu item is activated whenever
+39 your computer has been placed in the
+40 Sending mode and a teleconnection is not
+41 yet established. The telephone number
+42 for the current opponent will be dialed
+43 to attempt a teleconnection.
+			Page 15
+
+		Tele Files Menu
+
+1 Tele Files Menu
+2
+3 The Tele Files Menu allows access to all
+4 the disk files that relate to TeleGames
+5 telecommunications. There are only tow
+6 options under this Menu heading: Modem
+7 Parameters and Opponent Parameters.
+8
+9 Modem Parameters
+10
+11 Selecting Modem Parameters will cause
+12 the Set Modem Parameter window to scroll
+13 up from the bottom of your screen.
+14
+15 When TeleGames is first loaded into the
+16 computer, it consults a file called
+17 modemset in the Tele_Files directory and
+18 loads in the default settings for the
+19 modem that will be used with the
+20 program. The Set Modem Parameters
+21 window allows you to set these values
+22 once and save them to the disk so that
+23 they will autoload each time TeleGames
+24 is run.
+25
+26 The current setting will be displayed
+27 in highlights. Note that if these
+28 settings are chanted, they will be
+29 active whether they were saved or not.
+30
+31 Baud Rate
+32
+33 Clic on the Baud Rate that you will
+34 usually be using with TeleGames, either
+35 300, 1200, 2400, or 9600.
+36
+37 Dial Command
+38
+39 There are three options under the
+40 heading Dial Command. If your modem
+41 uses the standard "AT" command set, you
+42 may click on either ATDT for tone
+43 dialing or ATDP for pulse dialing.
+			Page 16
+
+			Tele Files Menu
+
+1 The box under this heading is provided
+2 so that you might input custom dialing
+3 command strings. Note that it also may
+4 be used to add modem commands to the
+6 standard "AT" set. For example ATX6DT
+6 will tone dial and return result codes
+7 to TeleGames. Telegames will then tell
+8 you whether the line was busy, or
+9 whether no one answered the phone.
+10
+11 If any characters are displayed in the 
+12 Dialing Command Box, then that is the
+13 current active Dialing Command.
+14
+15 Answer Command
+16
+17 There are also three commands available
+18 under the Answer Command heading. If
+19 your modem recognizes the "AT" command
+20 set, ATSO=1 will cause your modem to
+21 answer the phone after 1 ring.
+22
+23 If your modem does not recognize this
+24 command. then you might choose ATA,
+25 which will force the computer to
+26 immediately answer the telephone when
+27 you enter Receiving (Answer) mode. If
+28 you are using ATA command, then you
+29 should not select the Receiving mode
+30 until after you have heard the telephone
+31 ring.
+32
+33 Like the Dial Command, the Answer
+34 Command provides a custom command input
+35 box. Use this box to enter your custom
+36 modem answer command string.
+37
+38 Both the Dialing and Answer Command
+39 boxes are used by clicking them active
+40 with the mouse, and then typing in the
+41 character string from the keyboard. You
+42 must hit RETURN to activate the string
+43 and regain control of the mouse buttons.
+			Page 17
+

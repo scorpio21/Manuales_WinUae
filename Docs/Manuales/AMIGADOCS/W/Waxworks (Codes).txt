@@ -1,0 +1,78 @@
+Lower words:
+-------------
+Egypt         England       Germany       Greece
+-----------   -----------   -----------   --------------
+Bats => 3     Bolts => 5    Claws => 1    Construct => 3
+                            Song  => 6
+
+Hades         Haiti         Ireland       Labyrint
+-----------   -----------   -----------   --------------
+Fangs => 4    Flesh =>1     Hordes => 4   Horns => 2
+              Fear => 6
+
+Mongolia      Poland        Tibet         Translvania
+-----------   -----------   -----------   --------------
+Snakes => 1   Snow => 2     Canine => 4   Undead => 2
+Moon => 5                                 Wax => 6
+
+=================================================================
+
+Word on the upper right:
+------------------------
+
+Banshee   Cerebus   Dracula   Franken-  Ghengis   Golem
+-------   -------   -------   stein---  Khan---   -----
+8871      1632      1266      2244      5738      1673
+3298      1739      5478      7690      ****      4363
+1275      7821      3257      3420      1498      8723
+4452      3565      9189      7121      4738      3831
+8371      ****      8965      4345      8755      9921
+7031      9093      9265      8568      4940      ****
+
+Medusa    Minotaur  Mummy     Wolfman   Yeti      Zombie
+------    --------  -----     -------   ----      ------
+5452      3628      1237      ****      1839      1738
+8241      1112      8790      1901      2906      2830
+8346      7637      2003      2188      9394      ****
+3408      ****      9382      1298      9415      9684
+3780      6779      8938      8543      8989      3482
+8236      6621      9301      8939      1927      7431
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+Symbol:
+--------
+Bird     Trapezoid  Jar       Splint    Human     Rabbit
+-----     ------    ----      ----      ------    ----
+3920      4902      7143      1313      4223      8543
+3483      6063      3899      4840      2325      3341
+6221      9101      7558      5843      4593      2823
+1419      2938      9222      5248      3095      8392
+4902      3042      3989      5983      9335      9133
+9001      2222      9544      9854      5932      8321
+
+Bug       Eye       Square    Bird w.   "A"       Cup
+-----     ----      -------   Circle--  ----      ------
+1712      3482      5002      5832      4840      3483
+1933      4732      6000      8843      5893      2922
+8949      4884      4722      3732      2392      9585
+6432      9820      4629      4723      5904      3922
+7432      3287      2274      1135      9983      4463
+3843      4933      2288      5927      1934      4932
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+1. Look for the word on the lower left in the headlines of the "Lower words" section
+2. Look for the word on the lower right in the same section
+3. Count horizontally the number of columns from the word on the LL to the word on the LR starting with 0. This is the number N.
+4. Take the number behind the word on the LR (N-th column). This is the number X.
+5. Look for the word on the upper right in the respective section. Count N columns horizontally (again, starting with 0).        We're now in the target column. The code is in line X of this column.
+6. If there's **** there instead of a number, you have to look at the symbol on the upper left. Look for the symbol in the       section "Symbol" and count N columns from there (again, starting with 0). The code is in like X of the target column.
+
+#  Translated from German by Genjuro
+#  Cracked by Night & Day
+#  
+#  Greets to: NOBODY
+#             D.A.

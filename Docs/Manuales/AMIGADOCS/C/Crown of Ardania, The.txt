@@ -1,0 +1,956 @@
+                         THE CROWN OF ARDANIA V2.0
+
+                                The Manual
+
+                               By Gary Yates
+
+            Copyright (C) 1987 G.L.A.U.G. & Neale Computer Arts
+
+
+                        Original concept and design
+
+                          GARY YATES & G.L.A.U.G.
+
+                                Programming
+                      Gary Yates      William Johnson
+                      John Hoffman    Steve Sinclair
+                        Tom Burns       Gary Rantz
+
+                             Graphics & Sound
+                             Victor Lee Neale
+
+           This program was created using the AC/Basic compiler
+                   Copyright (C) 1987 Absoft Corporation
+
+
+
+     The Crown of Ardania is a fantasy war game which combines the strategies
+of Risk and other such games with the completely new aspect of MAGIC!
+
+The game is played on a map which has 16 territories.  The object is to be
+the sole ruler in the land by conquering all other opponents so that
+you occupy all territories.  There can be up to four players.  Each player
+takes on the role of a mage of great power who is battling to become the
+King of the magical land of Ardania.  Each player commands troops in each
+of the territories he or she controls.  These troops are made up of
+soldiers, knights and wizards.
+
+Soldiers are the main fighting force in Crown of Ardania (CA).  They are average
+fighting men.  They have no special strengths except for their shear number.
+Knights are more powerful, skilled fighters and thus aid you in battle.  The
+more knights you have in a territory the better that territory's fighting
+ability.
+
+Wizards benefit you in two ways.  First, like knights, they help you in battle.
+But Secondly, and much more importantly, they generate the power (in the
+form of spell points) that you use to cast your spells.  The more wizards
+you have, the more spell points you will generate each turn.
+
+In addition to troops, there are three other components to the game which are
+very important: food, gold and spell points.  As mentioned above you acquire 
+spell points from your wizards (5 per wizard) at the beginning of each turn.
+
+You acquire gold from your territories in the form of taxes.  The more 
+territories you own, the more taxes you will be able to demand from your
+peasants each day.  However, the terrain of each territory also plays a part
+in how much gold you will be able to get, more on this later.
+
+Food is also produced by your territories.  The amount of food produced
+depends on each territory's terrain.
+
+
+SYSTEM REQUIREMENTS
+
+Currently there are three versions of CA, a demo which will run on any
+Amiga with 512K, a full game version which will run on a 512K machine, and
+a full game version which requires at least 1 MEG.
+
+The demo version is freely distributable and is supplied on a single disk.
+It has no sound and all graphics which are not essential to game play have
+been removed.  Also, many of the game features have been made inoperable.
+
+The two full game versions ARE NOT FREELY DISTRIBUTABLE!  See the READ ME
+FIRST file which accompanies the demo version for information about
+purchasing the full game versions.
+
+Both full game versions (512K & 1MEG) are identical except that the 512K
+version does not have a computer player and some of the music which the 1MEG
+version has. 
+
+STARTING A GAME
+
+If you have not already done so, see the READ_ME_FIRST file, which should have
+accompanied the game, for instructions on installing and booting Crown of
+Ardania.
+
+Once you have started CA, after a delay (while CA loads itself and all of its
+data files) you will be presented with the opening screen.  There will be a
+long elaborate introduction.  You can skip this introduction by pressing the
+SPACE BAR at any time. 
+
+After the introduction you will see the map of Ardania appear.  The game
+begins by each player entering their name.  Each person should note what color
+wizard they are, so that they know which territories they own.
+                                                   
+                                              
+There can be up to four players.  If there are less than four playing, simply
+press return when CA asks for the name of the next player.
+With the 1MEG version you can also have the computer play any of the four
+players by typing COMPUTER as the name of the player.  The Computer Player's
+name will be its color, Red, Green, Blue or Purple.  There can be from 0 to 4
+computer players.  If you would like to see a demo of the game, make all four
+players the computer and it will play itself.  There is no computer player in
+the 512K version.
+
+After the players have entered their names,  the computer will ask if you want
+to use the FAST game or NORMAL game options.  You need to click on the option
+to use.
+
+NORMAL GAME - with the NORMAL game option, each Player is randomly given one
+territory at the start of the game, 40 soldiers, 8 knights, 2 wizards, 10
+spell points, 100 food units and no spies.
+
+FAST GAME - with the fast game all of the territories are randomly given to
+players so that each player gets the same number.  Note that if there are
+three players, there will be one empty territory leftover.  Also, a random
+number of soldiers, knights, and wizards are placed on each territory.  Each
+Player starts with 100 spell points, large quantity of food, and some spies. 
+
+After you have selected which type of game, if there is a computer player,
+you will be asked if you want to see the computer players moves (1 MEG version
+only).  If you select YES, you will see everything the computer player does
+just as if it was a human player.  If you select NO you will only see the
+computer player select menu options.
+
+Not being able to see what the computer player does increases the difficulty
+of the game.  It also speeds up the game quite a bit. 
+
+
+TERRITORIES & TERRAIN
+
+The land of Ardania is divided into 16 territories.  Territories are IMPORTANT!
+You should own as many as you can at all times!  To own or occupy a territory
+you need to have at least 1 soldier,knight or wizard in that territory.  If you
+ever move all of your troops out of a territory (or they are all killed) that
+territory will become "free".  Free territories are indicated by their brown 
+color.  Anyone can take a free territory by simply moving troops into it.
+
+It should be noted here that the term TROOPS refers to all three classes of
+men which you can control: soldiers, knights, and wizards.  It does NOT simply
+refer to soldiers.
+
+The terrain of each territory plays a very big factor in the game, and should
+be kept in mind when playing CA.
+
+There are four types of terrain: Flatlands, Swamps, Forests & Mountains.  Each
+has its own effects, advantages and disadvantages.
+
+FLATLANDS - There are only two territories in Ardania which are flatlands.
+They are both very large and have a large population.  Therefore, each
+of these territories will usually yield a large number of recruits each day.
+However, the people who live here are extremely poor so you will not be able
+to get much in taxes from them.  The flatlands make very good farm lands and
+produce large quantities of food.  However, the flatlands are very hard to
+defend!
+
+SWAMPS - There are fewer people in the swamps so you will not get as many
+recruits from here.  But they are slightly richer people. The swamps are
+fairly good food producers and somewhat easier to defend than the flatlands.
+
+FOREST - There are still fewer people in the forest territories.  But they
+can make up for their lack of number with gold.  Plus the forests are fairly
+easy to defend.  But, the food production is a bit lacking here.
+
+MOUNTAINS - There are very few people in the mountains. But the few who are
+there are extremely rich due to the extensive mining.  And while mountains
+produce very little food, mountain passes are very easy to defend!
+
+
+TURNS AND PHASES
+
+The game of CA proceeds in a series of turns. (In the game, each Turn is
+refered to as a 'day'.)  Turns are divided into two Phases: The Movement
+Phase & The Action Phase.  The Movement Phase preceeds the Action Phase
+in each turn.  There is a unique set of play options in each of the different
+phases.  Each phase is divided into "player turns", one for each player.
+
+During your turn, you can take as many moves as you like.  Your turn does
+not end until you select DONE.  Note, there are some option which will
+prematurely end your turn.  It is specifically stated in the description of
+each of these options that they end your turn.
+
+The order in which players get to take their turn in any given PHASE is 
+determined by the computer. Thus it is important to remember, even if
+you get to go first in the movement phase, you might not go first in the 
+action phase!
+
+The computer, much more often than not, will allow the LOSING player to go
+first and make the winning player go last.  But DO NOT depend on this!
+If some players are of ABOUT equal "strength" it is somewhat random as to 
+what order those players will get to take their turns.
+
+
+TAXES & RECRUITS
+
+At the start of each Movement Phase each player receives his/her taxes, 
+recruits, food and spell points for that day(turn) as his/her player turn
+occurs.
+
+First, you are asked how much in taxes to demand from your peasants.  Your
+advisors will suggest an amount which is consistent with the wealth of the
+peasants in the territories you own.  You should choose wisely here.  If
+you take more than your advisors suggest, your peasants will be upset
+because they are being over taxed and you will get little or NO recruits
+for that day.  If you take less than what your advisors suggest, your
+peasants will be overly grateful and you get more recruits for that day. 
+If you take exactly the suggested amount you will get a "fair" number of
+recruits.  Note that the extent to which your peasants are angered or
+pleased about the taxation depends upon how much over or under the
+suggested amount you demand.  For example if you take only one gold piece
+more than what your advisors suggest, your peasants will not be overly
+angered.  However, if you take twice the amount that your advisors suggest
+(the maximum you can ever ask for) your peasants will not be happy, to say
+the least, and you will probably get very few recruits!
+
+At the beginning of the phase, a scroll will appear over the map of Ardania
+asking you for the amount you demand.  Type in the number of gold pieces 
+you demand and press return.
+
+After you have taxed your peasants you will be told how many spell points
+your wizards have generated for you this day and how much food your 
+territories produced. (CA will wait for you to click on continue).  Next,
+you will be told how many recruits have joined your army and be asked to
+which territory you wish to assign them.  You must assign your recruits to
+a territory WHICH YOU ALREADY OWN.  You cannot assign them to an empty
+territory.  To assign your troops simply click on the territory you wish 
+to place them in.
+
+
+FOOD & REST
+
+Also at the beginning of each Movement Phase you will be warned if your
+troops have become overly fatigued or if you have run low on food and your
+troops are starving.  You should be very aware that both of these situations
+can be very serious!
+
+FOOD
+Each and every member of your army must have one food unit each day to
+survive.  If you begin to run low on food and cannot feed your troops they
+will begin to perish!  The worse your food situation is, the more troops
+that will die from starvation.  You should keep a close eye on your food
+supply!
+
+REST
+
+As you select options in the game, your troops become more and more
+fatigued. Afterall, it is not easy running from territory to territory
+fighting all types of battles.  You will be warned if your troops start
+to become fatigued and if you do not take a good rest, they will eventually
+become so fatigued they will begin to die! Also remember, fatigued troops
+could not possibly fight as well as troops which are well rested!
+
+
+MOVEMENT PHASE
+~~~~~~~~~~~~~~~
+
+During the Movement Phase there are nine options which you can select to
+do.  Most of these you can do repeatedly without ending your turn.
+However, there are some which you can do only once each Movement Phase.
+
+     The Movement Phase options are:
+
+     I.    MOVE TROOPS
+     II.   VISIT A TERRITORY
+     III.  ADVERTISE FOR TROOPS
+     IV.   REST (DONE)
+     V.    VISIT TREASURY
+     VI.   HIRE SPIES
+     VII.  CAST A SPELL
+     VIII. ALLOCATE SPIES
+     IX.   BUY FOOD
+
+
+~I. MOVE TROOPS
+     This option allows you to move any number of your troops from a
+territory you own to another territory you own OR to an empty territory
+in order to take that territory.  First you must select one of your
+territories to move troops FROM then select a territory to move troops
+TO.  The two territories you select MUST be adjacent.  You can then move
+as many troops as you like between the two territories.  Note, however,
+if you move all of your troops out of a territory that territory will
+become free for anyone else who wishes to take it.
+
+Moving Troops TO AN EMPTY TERRITORY ends your turn.  However, you can
+move troops between territories you already own as much as you like. 
+
+
+The Troops Allocation Requester:
+
+When ever you need to move or allocate troops in CA you will be presented
+with the Troops Allocation Requester.  This requester looks something like
+this:
+
+         FROM      ->      TO
+
+     <<   100  soldiers   10  >>
+
+     <<    10  knights     0  >>
+
+     <<     5  wizards     1  >>
+
+         CANCEL        DONE
+
+To allocate the troops to be affected by whatever option you are
+currently in, you can click on the numbers to the right to move troops
+over ONE AT A TIME.  Or you can click on the numbers to the left to
+move troops back one at a time. Likewise, You can click on the double
+arrows ( << , >> ) to move troops over or back TEN AT A TIME.
+
+When you are finished allocating your troops click on DONE.  Or,
+if you no longer wish to take this action, you can click on CANCEL.
+
+Whenever you are presented with the Troops Allocation Requester, a second
+smaller scroll will always appear telling you what you are allocating
+troops for.
+
+
+~II. VISIT A TERRITORY
+
+This game option does NOT actually have an entry in one of the Movement
+Phase or Action Phase menus.  You activate this option by simply clicking
+on any territory you wish to visit.
+
+It is possible, when playing CA, to keep the number of troops you have on
+each territory fairly secret from the other players.  In fact this can be
+an effective strategy to follow.  In this way you can "hide your numbers"
+or fool the other players into believing you have more troops than you
+actually do.  Because of this strategy the Visit A Territory option can
+be used in two ways.  First, if you forget how many troops you have on a
+territory you can use this option to see what you have.  Second if you
+hire spies (more below) you can spy on an enemy territory and find out 
+how many troops your opponent has there.
+
+
+III. ADVERTISE FOR TROOPS
+
+Just as in the real world, ADVERTISING WORKS!  Using this option, you
+can increase the number of recruits you will get the next day by paying 
+advertisers to recruit for you.  You can pay as little or as much as you
+like for this advertising.  But keep in mind no matter how much you pay
+it is only for advertising ONE  day.  You will get your recruits from
+this advertising at the start of the next day and that's it.  To get
+more recruits (over what you would normally get) you will have to
+advertise again.  One hint: Also as in the real world, good advertising 
+is not cheap!
+
+
+~IV. REST (DONE)
+
+As stated in the FOOD & REST section, if your troops become overly
+fatigued they will begin to perish!  To prevent this you must give your
+troops a good rest.
+
+To truely rest, you must select rest as the VERY FIRST option in a phase.
+This is stressed by the fact that this option will only say REST in the
+menus of the two phases if you have selected no other option.  As soon
+as you select an option other than rest, this option will change to say
+DONE.  In otherwords, in order to rest your troops you must do nothing
+but rest for an entire phase!
+
+You can rest both during the Movement Phase and during the Action Phase.
+Resting during the Movement Phase is only a very light rest and will do
+little to actually relieve the fatigue of your troops. However, it will
+impress the locals that you are kind to your troops and you may get more
+recruits the next day.
+
+Resting during an Action Phase is a good rest and will relieve the
+fatigue of your troops quite well.  However, if you have pushed your
+troops to the point of dying from fatigue it may take more than one
+Action Phase rest to get them totally back to normal.
+
+Resting always ends your turn. If you do other things in a phase besides
+rest, this option becomes the means by which you end your turn.  When
+you are finished with your turn select this option (DONE).
+
+
+V. VISIT TREASURY
+
+If during the Movement Phase you need to find out how much gold, spell
+points, food, spies or troops you have, you can use this option.  You
+can also use this option to find out how much gold and spell points an 
+opponent has if you hire some spies.  As with troops it is a good idea
+to keep the amount of gold and spell points you have under wraps as best
+you can.
+
+
+VI. HIRE SPIES
+
+As mentioned above, if you hire spies you can find out some very important
+things about your opponent.  Spies can be very useful AND important to have.  
+
+Spies work in the following way.  First, you must hire them to do a task
+for you.  Spies cost one gold piece each to hire.  After you have hired
+spies, you can use them in one of three ways.  Each of these options takes
+a certain number of spies to complete the task.  After this, these spies
+have satisfied their debt to you and will leave your service.  You must
+then hire more spies to do another task.  Note that you can hire a surplus
+of spies and use them as needed.
+
+The three uses for spies are with the Visit Territory, the Visit Treasury
+and the Combat options.  To use spies with the Visit Territory option, you
+simply click on an opponents territory.  If you have enough spies, you will
+be told how many troops your opponent has on that territory.  It takes five
+spies to spy on an opponents territory.
+
+If you select Visit Treasury and you have spies, you will be asked if you
+wish to visit YOUR treasury or if you want to spy on an opponent.  Spying
+on an opponents treasury takes 10 spies.
+
+Probably the most important use of spies is during combat.  Use of spies in
+combat will be discussed in the COMBAT section below.
+
+
+VII. CAST A SPELL
+
+Magic is the one thing which gives CA its twist. And, magic is very
+important in the game.  Your strategy should include the CAREFUL use of it.
+
+Magic in Ardania exists as spells which you, as a great mage, can cast.
+Casting a spell costs spell points, which are generated by your wizards.
+The greater the power of the spell the more spell points it costs.
+
+There are three important things to remember about spells.  First, with few
+exceptions, spells are cast on a TERRITORY not on the troops in that territory.  
+The spell will last for its entire duration regardless of WHO occupies the
+territory.  Second, Spells can be cast on ANY territory!  Lastly, the duration
+of a spell begins during THE TURN YOU CAST IT.  Example, a Magic Sword lasts
+for 2 turns: the turn you cast it and the next turn.  Below is a list of the
+
+Movement Phase spells, including cost and duration of each.
+
+SPELL         COST(sp pts)    DURATION(turns)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Detection         3               *
+Magic Swords      5               2
+Magic Shields    10               2
+Fear             10               2
+Magic Hammers    15               3
+Magic Traps      15               -
+Teleport         20               *
+Dust to Gold     25               *
+Gold to Dust     50               *
+
+* = instantaneous
+- = special, see text
+
+
+SPELL DETAILS
+
+DETECTION - Some spells' effects last for several turns.  The detection
+spell lets you find out what spells are currently active on the
+territory you cast it upon.
+
+MAGIC SWORDS - Magic Swords cause the weapons of whatever troops are in
+the affected territory to become enchanted.  This allows the troops
+to ATTACK better in combat.  Magic Swords does NOT aid in defense of a
+territory.  Note that Magic Swords is a low level spell.  It will not
+make an outstanding difference in battles.  But it could give you that 
+extra edge!
+
+It should be noted here that only ONE spell of a given type can be cast
+on a territory at any given time.  That is, only one Magic Swords can be
+cast on a territory.  Casting a second Magic Swords on the same territory
+would have no additional affect except to extend the spells duration.
+Example, if you cast a Magic Swords on a territory (duration 2 turns), then
+immediately cast a second Magic Swords on the same territory, you now have
+a territory with a Magic Swords which will last four turns!
+
+You CAN cast two different spells on the same territory.  For example, you
+could cast a Magic Swords AND a Magic Hammers on the same territory and have
+both spells in effect and their effects will be additive!
+
+MAGIC SHIELDS - This spell enchants the armor of the troops in the affected
+territory helping them to defend.  It has no effect during attacks.  (NOTE:
+attacking and defending will be discussed in detail in the combat section.)
+
+FEAR - This spell causes the troops in the affected territory to be afraid
+of whoever they are facing in combat and to fight poorly against them.  This
+spell affects both attacking and defending.  You should bear in mind that
+if you use this spell in an offensive way, and you attack and take the
+territory BEFORE the duration of the spell has expired, the troops you move
+into that territory will be affect by this spell!
+
+MAGIC HAMMERS - Like Magic Swords this spell enchants the weapons of the
+troops in the territory this spell is cast upon.  However, Magic Hammers is
+a more powerful version of the spell AND it affects both attacking and
+defending.  It also has a longer duration.
+
+MAGIC TRAPS - This spell causes traps to be set in the territory it is cast
+upon.  For a detailed explanation of traps see the LEAVING TRAPS option in
+the combat section.
+
+TELEPORT - Using this spell you can teleport troops from one territory to
+another.  This is the only spell which cannot be cast on just any territory.
+You can only use this spell to move YOUR troops from a territory you own to
+another territory you own OR to an empty territory.  You cannot teleport an
+enemy's troops.  The Teleport spell works very similar to the Move Troops
+option except that the territories do not have to be adjacent.  This spell
+is very useful if you get blocked into a small area of the map by your 
+opponents.
+
+DUST TO GOLD - This spell is cast on yourself and NOT on any particular
+territory.  While you could cast this spell on an opponent, that would
+not be the smartest of moves.  This spell is greatly affected by the number
+and terrains of the territories you occupy.  This spell allows you to create
+gold from the dust of the earth.  And it requires a great deal of dust.
+Because of this, dusty territories such as the flatlands or the mountains
+will create much more gold than the wet swamps or the forests.  But keep
+in mind that this spell is very unpredictable.  And just because you have
+flatlands or mountains does not mean you will rake in the gold.
+
+GOLD TO DUST - This spell is cast on a player and not on a territory.
+However, you still need to select a territory to indicate which player
+will be affected by the spell.  When you cast this spell on a player, ALL 
+of that players gold will be instantly turned to dust and be worthless.
+
+VIII. ALLOCATE SPIES
+
+This option will be explained in the combat section.
+
+IX. BUY FOOD
+
+If your territores are not producing enough food to support your troops,
+you will need to buy food.  You can buy food at a rate of 3 food units
+for each gold piece.
+
+
+ACTION PHASE
+~~~~~~~~~~~~~
+
+There are seven options in the Action Phase.
+
+     I.   ATTACK A TERRITORY
+     II.  CAST A SPELL
+     III. BUILD FORTRESS
+     IV.  REST (DONE)
+     V.   SUMMON DRAGON
+     VI.  VISIT TREASURY
+     VII. VISIT TERRITORY
+
+
+I. ATTACK A TERRITORY
+This is by far the most important option in CA since attacking and taking
+territories is how players overcome their opponents.
+
+While the mechanics involved in attacking a territory are fairly simple
+the factors affecting combat are numerous and complex.  A few of these 
+factors are given in the COMBAT section below.
+
+COMBAT
+
+Combat in CA is based on the principle that there is an Attacker and a
+Defender in each battle.  The attacker is the active player who selected
+the option and is threatening to take the Defending player's territory. 
+The Attacker selects one of his territories to attack from (the attacking
+territory) AND an opponent's territory to attack (the defending territory).
+These two territories must be adjacent.  The attacking territory is the
+territory that the attacker can draw his troops from to create an attacking
+army which then moves into the defending territory and engages in battle.
+The defending army is made up of ALL of the troops on the defending territory.
+If the Attacker wins he/she claims the defending territory as his/her own
+and the troops which remain alive in the attacking army are placed there
+as that territory's occupants.  The Attacker cannot move any more troops
+there until the next Movement Phase.  One thing the attacker should
+remember is that fighting battles is very draining on troops and that
+the attacker's troops will be building up fatigue at a much greater rate
+then normal.  Also, this fatigue will affect the ability of the army to 
+fight.
+
+If at any time the attackers army is defeated the defender remains owner
+of the defending territory.  Note that the Attacker can never loose a
+territory UNLESS the attacker places ALL of the attacking territory's
+troops into his attacking army.  In this case, whether the attacker wins
+or loses, the original attacking territory becomes a free territory!
+
+The Mechanics of Attacking
+
+This section describes in detail how a battle is carried out.
+
+The first thing the attacking player must do after electing to attack a
+territory is to select a territory to attack FROM, then a territory to
+attack.  The attacker will then select his/her ATTACK MODE.  After the
+attacker has selected an attack mode, the defender will select his/her
+DEFENSE MODE.
+
+There are five attack modes and six defense modes.  These attack and
+defense modes should be selected in secrecy!  So while the attacker is 
+selecting his/her attack mode the defender should turn away from the
+screen and visa-versa when the defender selects a defense mode.  The
+attack and defense modes are discussed in detail below.
+
+After the battle modes have been selected the outcome of the battle will
+be resolved.  Note that certain combinations of attack and defense modes
+will NOT result in any actual fighting.    If fighting does occur, the
+players simply sit back and watch as their troops perish in the onslaught.
+The winner is the player who has troops surviving at the end of the
+battle.  Note that it is possible for BOTH armies to be completely
+destroyed in the melee. If both armies are destroyed then the defending
+territory becomes a free territory.
+
+Factors Which Affect Combat
+
+Besides the attack and defense modes selected by the attacker and
+defender, there are many other factors which can affect the outcome
+of a battle.  Several of these factors are listed here.
+
+Terrain - The terrain of the DEFENDER'S territory plays a big role in
+combat.  As mentioned above in the TERRAIN section, the terrain of
+a territory determines how difficult or easy that territory is to defend. 
+Only the defender's territory is considered in combat because the attackers
+are thought to be rushing into the defending territory.
+
+Spells - The spells cast on both the attacking AND defending territories
+are considered for combat.  The spells cast on the attacking territory
+affect the attacking army and the spells cast on the defending territory
+affect the defending army.  The affect that spells have on the battle
+are discussed in their respective sections.
+
+Fatigue - How fatigued the armies are will affect how well they can fight.
+The more fatigued an army is the worse it will fight.
+
+Fortresses - A fortress built on a defending territory will help the
+defender greatly.  Fortresses on the attacking territory have no effect.
+
+Troops - Aside from the number of soldiers in an army the number of
+knights and wizards dictate that army's strength.
+
+ATTACK & DEFENSE MODES
+
+The first three attack modes and the first three defense modes are all
+simple battle strategies to use in actual fighting.  All other battle
+modes are special actions that can also be done in a combat situation.
+
+Battle Strategies
+
+The three attack strategies are:
+
+Sneak Attack - The attacking army is silently entering the defending
+              territory in an attempt to surprise the defender.
+
+Normal Attack - The attacking army is marching in formation into the
+                defending territory hoping their number and battle skills
+                will be sufficient to win.
+
+Ferocious Attack - The attacking army is rushing forward in a berzerking
+                   rage.
+
+The three defense strategies are:
+
+Ambush - The defenders are in hiding, waiting to surprise the attacking army
+         as it enters the territory.
+
+Stand Ground - The defenders are in formation ready to take the attackers
+               head on.  Counter Attack - The defenders, in a wild burst,
+               rush forward in hopes of catching the attackers off guard.
+
+Below is a table which shows how these battle strategies correlate to each
+other to determine which side has the advantage.  This table was
+constructed to be fair not necessarily to make sense in a real life battle
+situation.  However, with a little imagination the entries in the table
+can make sense.  For example, attacking ferociously has the advantage
+over a defenders ambush because the attackers rush in surprising the
+defenders before they can hide.
+
+    E - Even, no advantages, strategies cancel
+    A - Attackers advantage
+    D - Defenders advantage
+
+Defender:     Ambush  Stand Ground  Counter Attack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Attacker:
+
+Sneak Attack     E         A               D
+
+Normal Attack    D         E               A
+
+Ferocious        A         D               E
+Attack
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Other Attack Modes
+
+SPREAD RUMORS - This is a total fake out.  You can select this option if
+you want to only pretend you are attacking your opponent.  While you can't
+take a territory using this mode, you can reap some benefits from it.
+If the defender does not realize you are bluffing and plans a defense
+anyway his/her troops will become disgruntled and the defender will get
+very few recruits next turn. Because the defender was a poor general.
+You, on the other hand, will look very good and may get extra recruits.
+These bonuses and penalties can be quite large if the defender does
+something really extreme such as retreats from the territory.  Keep in
+mind though, there is an 'It's only rumors' defense mode.
+
+SEND BANDITS - You may, if you have the money, choose to hire bandits
+and rogues to fight for you.  This way, you do not have to endanger
+your own troops in combat.  However, you cannot take a territory with 
+hired warriors.  If your hired army wins they will simply leave the
+territory unoccupied.  Bandits are used mostly to chop away at the
+opposing army's troops.
+
+Bandits can be hired at one gold piece each.  Keep in mind that these
+are not the greatest fighting men.  They will be at a natural disadvantage.
+
+Other Defense Modes
+
+LEAVE TRAPS - Leaving traps is a way of retreating but at the same time
+take one last stab at the enemy.  With this mode, as your troops retreat
+from the territory they setup dangerous traps.  Then when the enemy enters
+the territory they will set off these traps causing a significant number
+of the attacking troops to perish. Note, if the traps are not set off
+by the attackers (such as when the defender leaves traps but the attacker
+spreads rumors), or if magic traps are set, the traps will remain until
+someone moves INTO the territory.  Moving out of a territory does not set
+off traps.  Keep in mind that it costs gold pieces to build these traps,
+25 g.p. to be exact. If you do not have 25 g.p. then leaving traps will
+automatically become a retreat!  You WILL NOT be told that you do not have
+enough gold.  And, you will NOT get the chance to change your selection.
+
+IT'S ONLY RUMORS - If you are pretty sure that the attacker is only
+spreading rumors (such as when your spies tell you), you can select this
+option and turn the tables on them.  If they really were only spreading
+rumors then you will look like a great general and may get a significant
+number of extra recruits.  And your opponent will look foolish and get a
+penalty to his/her recruits.
+
+However, if the attacker really wasn't spreading rumors your troops will
+be confused and unprepared when the invaders rush in and many of them will
+die before they can regroup well enough to fight.
+
+RETREAT - If you are hopelessly outnumbered, you do not have enough gold
+for leaving traps, but you want to save your troops, you can retreat.  When
+you retreat (OR leave traps) the computer will  ask you which territory
+you wish to retreat to.  If you do not own  a territory ADJACENT to the
+defending territory your troops will simply be killed in hostile enemy
+lands!
+
+Using Spies in combat
+
+If you have hired spies you can allocate some of these spies for use in
+combat using the ALLOCATE SPIES option in the MOVEMENT PHASE.  It is
+important to remember to do this in the movement phase before the Action
+Phase when you actually need the spies or you are out of luck!
+
+There are two things you need to allocate spiesfor, offense and defense.
+
+Offensive spies will help you when YOU attack a territory.  They will not
+help you when you are ATTACKED.  If you have offensive spies, when you 
+attack, these spies may tell you what defense mode your opponent selected
+and you will get a chance to change your attack mode accordingly.  Note
+however, in a tense battle situation it may be difficult for spies to
+survive the dangerous task assigned them or for them to tell exactly what
+the opponent's field movements actually mean.  Thus, there is the 
+possibility that your spies will not give you any response.  Or if they
+do, it will be an incorrect answer.  To overcome this problem,  you can
+set more spies to the task.  In fact the more spies you allocate to
+offense, or defence, the better your chances that you will get a response
+and the better the chance that that response will be correct.
+
+The opposite of offensive spies, deffensive spies aid you when you are
+attacked by telling you what attack mode your opponent has selected.
+Keep in mind that after you have selected your defense mode, if the
+attacker has spies he/she will get to reselect his attack (if his spies
+give an answer), but you will not get a second chance!  This can make
+selecting a defence mode quite tricky, but, "that's the way the battle
+is fought!"
+
+Finally, spies allocated for attack and defence will remain active until
+they are actually put to use.  That is, offensive spies will not actually
+leave the players service until the player makes an attack.  Likewise,
+defensive spies will not leave until the player is attacked.  Until the
+player is envolved in combat these spies will remain turn after turn.
+Also, the spies do not leaveuntil the END of the Action Phase in which
+the spies are used.  So if, for example, a player is attacked twice
+during a phase and that player has defensive spies, those spies will be
+a benefit for BOTH attacks.  Then the spies will leave the players
+service at the end of the phase.  The player should then consider hiring 
+more spies and allocating new defensive spies during the next Movement
+Phase.
+
+
+
+II. CAST A SPELL (Action Phase)
+
+There are eight additional spells which can only be cast during the Action
+Phase.  Here is a list of their costs and durations.
+
+SPELL               COST      DURATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wall of Ice          20           3
+Wall of Fire         20           1
+Lightning Strike     30           *
+Summon Army          30           -
+Plague               40           4
+Demote               50           *
+Anti-Magic Shield    50           3
+FIRESTORM           200           *
+
+
+WALL OF ICE - This spell creates an impenetrable wall of ice completely
+encircling the territory you cast it upon.  No troops (yours or anyone elses)
+will be able to move in or out of this territory, except with a teleport
+spell.  Nothing can destroy a wall of ice before its duration has expired
+except for a FIRESTORM spell!
+
+WALL OF FIRE - Although this spell has a very short duration (the turn
+you cast it), it is a very good defensive spell.  This spell creates a
+searing wall of flames surrounding the territory.  ANYONE passing through
+these flames will be burnt!  Keep in mind that this spell lasts only
+during the Action Phase in which you cast it.  So if you are the last
+player to take his/her turn during the Action Phase casting this spell
+would be foolish.  However, if you are the first player to take his/her
+turn in the Action Phase (which possibly means you are losing) this can
+be a very effective defense.
+
+LIGHTNING STRIKE - This spell does serious damage to a single territory
+by destroying a significant number of the SOLDIERS there.  The larger
+the number of soldiers in the territory, the more effective the spell.
+
+SUMMON AN ARMY - This spell instantly creates 100-200 soldiers on the
+territory in which you cast it.  Keep in mind, however, that you must
+feed all of these men you are suddenly conjuring into existense. 
+
+PLAGUE - This spell causes a horrible unknown blite to descend upon a
+territory.  This blite causes several bad effects:
+
+  - troops will die
+  - the territory will produce NO food
+  - it will produce less gold
+  - the wizards on the territory will produce NO 
+    spell pts
+
+
+                                                 
+  - in their weakened state the troops there will 
+    not be able to defend the territory very well
+
+All in all, not a good situation to be in!
+
+DEMOTE - This spell instantly removes the special fighting skills of all
+the knights on a territory reducing them to mere soldiers.
+
+ANTI-MAGIC SHIELD - This spell, when cast on a territory, will cancel
+any attempt by your opponent to cast a spell on that same territory.
+It does not affect any spells which you attempt to cast on that territory.
+Anti-Magic Shield, however, only has a 80% chance of stopping a FIRESTORM
+spell.  This is due to the shear power of the FIRESTORM.
+
+FIRESTORM - If all else fails NUKE 'EM! This spell will instantly destroy
+everything on a single territory!  It kills all troops, destroys any
+fortress and negates any other spells which are currently active on the
+affected territory!  BUT BE WARNED! The FIRESTORM spell is so powerful
+that it is very hard to control.  There is a chance that it will
+backfire!!!  Casting a FIRESTORM spell ends your turn.
+
+
+III. BUILD A FORTRESS
+
+Building a fortress on a territory can greatly aid in defending that
+territory.  And fortresses are fairly inexpensive for the defensive
+capabilities they give.  They start at about 60 gold pieces to build one
+on a flatlands.  And go up to 120 to build one on a mountain territory.
+
+The only thing which can destroy a fortress once it has been built is a
+FIRESTORM spell.
+
+You should take care and defend your fortresses well.  For if your
+opponent should take that territory, then you will have to fight
+against your own fortress to regain it.
+
+
+IV. REST (DONE)
+
+Resting was covered in detail under the Movement Phase Rest option.
+
+
+V. SUMMON THE DRAGON
+
+Three times, and only three times during the course of an entire game,
+each player can summon The Great Dragon to aid in their struggle.
+The Dragon is extremely chaotic and unpredictable.  So there is no
+way of knowing what type of aid he will give.  It could be anything.
+He could give you more soldiers, knights, or wizards, or all three!
+He could give you more spell points, gold, or simply a good rest.  He
+may even take an opponents territory away and give it to you with all
+the troops still there! But whether the dragon gives you something
+so-so or something great, it will always be good.  The dragon will
+never harm the person who summons him.
+
+One thing to remember about the dragon, he is very sympathetic.  He
+tends to give the most help to players who are in trouble, but not
+always!
+
+If The Dragon gives you troops of any kind, he will distribute these
+troops evenly over all of your territories.  This prevents an opponent
+from immediately destroying all of The Dragon's gift by attacking
+or firestorming a single territory.
+
+Summoning the dragon ends your turn.
+
+
+VI. VISIT A TERRITORY
+
+This option is identical to its Movement Phase counterpart.
+
+
+VII. VISIT TREASURY
+
+This option is identical to its Movement Phase counterpart.
+
+
+
+SAVING & RESTORING GAMES
+
+     It can take a very long time to finish a game of Crown of Ardania
+(anywhere from four to six hours)!  For this reason a method of saving
+games so they can be restarted later has been included.
+
+To save a game you can press the ESC key at any time.  To show that
+you have selected the save option, the word 'SAVE' will appear in the
+upper left corner of the game map.  Then at the beginning of the next
+turn a small scroll will appear with a requester asking you for a name
+to save the game under.  At this point you should put the disk to
+which you want to save the game in a drive, then enter a name and press
+return. You SHOULD include the entire path in the name.
+
+     Example:  df0:MyGame
+          OR:  df0:CofAGames/MyGame
+
+Disk number one of the CA set has a directory called CofAGames on it so
+that you can save games to this disk.  WARNING: you should backup this
+disk before saving anything to it!!
+
+Note that saving a game does not end that game.  The game will continue
+as usual after the game has been saved.  Thus saving a game is like
+taking a snap shot of the game at a particular point.
+
+To restore a previously saved game, restart Crown of Ardania and
+type RESTORE as the name of the first player.  You will be presented
+with a similar requester as when you saved the game.  You can then
+type the name of the saved game (including the entire path) to restore
+that game.  The game will then continue at the beginning of the turn
+which was about to start when you saved it.
+
+
+ENDING A GAME
+
+If you wish to end a game before the conclusion of that game, either
+because you have saved the game or because you are simply tired of
+playing, hold down the Right-Amiga key and press the period '.' key.  
+The game will terminate and return you to the WorkBench screen.
+
+
+The authors would like to thank all the people who helped play test this
+game, proofread the manual, and otherwise helped to develope this game..
+
+Imported by Midnight Maniac & Mayday 14/2-90

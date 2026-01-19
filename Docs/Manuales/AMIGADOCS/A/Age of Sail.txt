@@ -1,0 +1,148 @@
+Age of Sail
+
+Conflict Recreations, Inc
+P.O. Box 272
+Oakdale, CT  06370
+(c) 1987
+
+Simulations for Serious Gamers
+
+
+Version 1.0 Notes
+
+
+Running the programs
+
+Access to all programs is now accomplished via ICONS.  To access the ICONS,
+select the "Age_of_Sail" disk ICON from Workbench.
+
+
+A group of ICONS will appear, and you may choose the program to run by
+double-clicking one of them.  Alternately, you may still choose to run
+all but Shipbuilder and Orders from the main program.
+
+Single disk users:  In order to avoid disk swapping enter the following
+in CLI or ED your Workbench 1.2:s/startup-sequence file as follows:
+
+Copy "Workbench 1.2:c/run" ram:<RETURN KEY>
+Assign C: ram:<RETURN KEY>
+
+Again, work ONLY with a backup copy of Workbench and Age_of_Sail!
+
+Hard Disk usage: We recommend creating a drawer dh0:AOS.
+Edit your df0:s/startup-sequence as follows:
+Assign Age_of_Sail: dh0:AOS<RET>
+
+Extra ram users: We recommend either typing this in from CLI or editing
+your df0:s/startup-sequence as follows:
+
+Copy Age_of_Sail: ram:<RET>
+Assign Age_of_Sail: ram:<RET>
+
+Starting Play.
+
+Before starting play make sure that each player assigns men to cannon, sail,
+etc.  You may not see the other ships on the visual screen until after the
+first game turn.
+
+Select MAIN with the mouse. When the screen appears, select the ORDERS
+program and assign your men, etc.  When finished, the MAIN program will
+reload.  Select the GAME program from the menu and run as many "turns"
+as you desire.  The MAIN program will reload, and then you may select the
+ORDERS program. Repeat the game/orders program selection until there is
+a victor.
+
+
+Bugs?
+
+Better ways to do it?  Write us at our address.
+
+Uploading
+
+When Uploading to Compuserve Information Service (CIS)
+specify that the file is to be BINARY.  Send each ship
+separately into its own file.  This will ensure adequate
+storage (8K is allowed by CIS) and prevent formatting
+characters from being inserted by CIS.
+
+When uploading to any service or BBS ensure that the host computer does not
+insert a carriage return after each line.
+
+A carriage return will corrupt the ship file making it useless. All files
+must be received by the host AS IS.
+
+
+Age of Sail Disk
+
+
+The Age_of_Sail disk may (and should be backed up).
+
+CAUTION: ship files in the Age of Sail: main directory will be changed by
+the program!!!
+
+While in the Workbench screen do the following:
+
+      1. Click the Age_of_Sail icon once.
+      2. Select the "Rename" option from the Workbench menu.
+      3. When the requester comes up change the name of the
+         backup from "Copy of Age_of_Sail" to "Age_of_Sail".
+      4. All modules in the game look for "Age_of_Sail.0  [4m 
+Online Support
+
+Let us know if you want your name to be released to other
+players around the country.  We will be pleased to assist
+players with any problems that they may have.
+
+Bugs
+   
+None Known.
+
+
+Manual Changes
+
+Pg 13  Change the method to entering side and squadron as follows:
+
+Enter side:F<RET> <-note capital F
+Enter Squadron:1<RET>
+
+Pg 26  You may now ignore this warning.  Bug fixed during Beta Testing.
+
+Pg 36  There is no longer an Optimum crew assignment for the steering
+       and sailing detail.  The more men assigned the more efficient
+       the crew will be in carrying out orders.  A good crew size would
+       be 25% of the total possible men carried.
+
+
+Helpful Hints
+
+
+     1.  When Tacking the ship it is possible to run out of momentum before
+         tacking through the wind, and being unable to turn, or accelerate.
+         This is because the crew is attempting to follow orders.  You have
+         two alternatives:
+         
+        a)  assign more men to carry out orders
+        b)  assign fewer men and let the wind take her.
+
+     2.  To play a scenario you must move it to the main directory of
+         Age_of_Sail:.  There are two ways to do this:
+
+Note:  a Treasure Chest is the same thing as a drawer (ie a systems drawer).
+
+ICON:
+Open the scenarios Treasure Chest and the desired scenario
+Treasure Chest (ie Battle!).
+For each Icon:
+    1. Click on each Icon
+    2. Select Duplicate from the Workbench menu.
+    3. Move the copy of Icon to the main directory (the same drawer as the
+       programs reside in).
+    4. Rename (Workbench menu) and delete the words Copy of from the title.
+       CLI and the easier method:
+
+Open the CLI
+enter the following:
+Copy Age_of_Sail:/scenarios/Battle!/#? Age_of_Sail:<RET>
+Note that Battle! is the scenario you want copied.
+then enter:
+endcli<RET>

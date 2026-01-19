@@ -1,0 +1,1223 @@
+La batalla de Austerlitz 
+Presentado por Belgarath
+
+-Tabla de contenidos - 
+Parte I 
+1). Introducción 
+2). Cargando el programa 
+3). Escenarios 
+4). Opciones 
+5). Líderes 
+6). El campo de batalla 
+7). Inspeccionando las tropas 
+8). Cómo dar órdenes 
+9). Órdenes de cuerpo 
+10). Órdenes del ejército 
+11). movimiento 
+12). Columna versus línea 
+13). Combinando unidades 
+14). Cargando 
+15). Plaza de Infantería 
+16). combate 
+     a). fuego 
+     b). cuerpo a cuerpo 
+17). Terreno 
+18). Moral y fatiga 
+19). Movimiento oculto 
+20). Desmoralización del ejército 
+21). Ganar el juego 
+22). Configuración de tiempo y pausa 
+23). Guardar el juego, finalizar el juego 
+
+Parte II 
+1). Historia 
+2). Escenarios 
+3). Líderes 
+4). Notas tácticas 
+5). Notas del diseñador 
+6). Orden de batalla 
+7). Preguntas y respuestas 
+8). Créditos 
+
+Manual y programa 
+Copyright © 1989 Cornerstone Software Inc. 
+- Página 1 - 
+
+PARTE 
+1). INTRODUCCIÓN 
+Austerlitz es una gran simulación militar táctica de la primera guerra de Napoleón. 
+gran batalla como emperador de los franceses. En Austerlitz conoció y profundamente 
+Derrotó a los ejércitos combinados de Rusia y Austria. 
+
+2). CARGANDO EL PROGRAMA 
+Los propietarios de Commodore 64, Amiga y Atari ST deben consultar la parte posterior de 
+el manual de carga y otras instrucciones específicas de la máquina. con el 
+Disco de juego insertado, escribe '1805'. Después de una introducción a la campaña, el juego 
+se cargará. Cuando llegues a la pantalla del escenario (ver parte 3 sobre Escenarios), 
+inserte el disco de escenario si posee la versión IBM 5 1/4". Para instalar 
+el juego en un disco duro, primero tendrás que crear un directorio usando el 
+Comando Crear directorio: rnkdir C:\AUSTRLTZ'. Luego, copia del 
+disco del juego con el comando copiar, todos los archivos en su nuevo directorio: copiar 
+a: *.* C:\AUSTRLTZ. Luego copie el disco del escenario al nuevo directorio 
+de la misma manera. Para jugar, necesitarás configurar tu directorio actual en el 
+Directorio de Austerlitz: 'cd c:\'AUSTRLTZ'. Entonces, mientras estás en eso 
+directorio, simplemente escriba '1805' para la introducción/juego o simplemente escriba 'principal' para ir 
+directamente al juego (sin pasar por las pantallas de introducción). Cuando el programa pregunta 
+para insertar el disco de escenario, simplemente ignore esto y elija el 
+escenario normalmente. 
+
+3). ESCENARIOS 
+Después de la pantalla de título, aparecerá el menú del escenario. Presione las flechas para 
+Elige un escenario. Presione F3 o RETORNO para pasar a la pantalla MAPA. 
+
+"Rotura del Centro Aliado", describe el asalto a media mañana a la 
+ Alturas de Pratzen. 
+
+"Lucha por el Bajo Golbach" describe la lucha temprana en la 
+Flanco derecho francés mientras los aliados intentan atravesar la retaguardia francesa. 
+
+"¡No los dejes escapar!", - representa la lucha de un día a la izquierda entre 
+Lannes y Bagration, junto con la batalla de caballería masiva de Murat y 
+Liechtenstein. 
+
+"Batalla histórica" - representa todo el día de la batalla sin variaciones. 
+
+"La traición de Bernadotte", representa toda la batalla sin el yo de Bernadotte 
+ Cuerpo del lado francés. 
+
+"El fracaso de Davout", - representa toda la batalla sin el HI Corps de Davout en 
+ el lado francés. 
+
+"¡Egads!", - representa toda la batalla sin el I Cuerpo de Bernadotte ni 
+El HI Corps de Davout en el lado francés. 
+- Página 2 -
+
+4). OPCIONES 
+Después de la pantalla de escenario, aparecerá la pantalla OPCIÓN. para alterar el 
+configuración de la OPCIÓN mostrada actualmente, presione la flecha derecha o izquierda 
+Claves. Para pasar a una nueva OPCIÓN, presione las teclas de flecha hacia arriba o hacia abajo. 
+La OPCIÓN 'Jugador aliado': 'Jugador francés' convierte al jugador de la computadora 
+de vez en cuando para los aliados. 
+Selecciona COMPUTADORA para que la computadora juegue con los Aliados. 
+Seleccione VER para que la computadora juegue, pero le permitirá ver sus movimientos. 
+Seleccione NO para permitir un oponente humano para los Aliados. 
+La OPCIÓN de Dificultad ajusta la Inteligencia Artificial de la Computadora 
+Jugador. 
+Selecciona FÁCIL para un juego de nivel principiante. 
+Seleccione HISTÓRICO para los niveles históricos. 
+Selecciona DIFÍCIL para un juego difícil. 
+La 'dureza' se puede utilizar para bajar la moral de las unidades del bando seleccionado. 
+ligeramente, haciéndolos más fáciles de batir. También se puede utilizar para equilibrar dos 
+juego de jugador.
+Seleccione NORMAL para el nivel de moral normal. 
+Seleccione FÁCIL para bajar el nivel de moral. 
+La OPCIÓN 'Moral' determina si se va a utilizar la moral de las unidades. 
+en los cálculos de combate. 
+Selecciona SÍ para usar la moral en combate. 
+Selecciona NO para ignorar la moral en combate. 
+La OPCIÓN 'Fatiga' determina si se va a utilizar la fatiga de las unidades. 
+en los cálculos de combate. 
+Seleccione SÍ para utilizar la fatiga. 
+Selecciona NO para ignorar la fatiga en combate. 
+La OPCIÓN 'Movimiento oculto' le permite activar el movimiento oculto 
+encendido o apagado. 
+Seleccione SÍ para que la computadora use movimiento oculto. 
+Seleccione NO para no utilizar movimientos ocultos. 
+Nota: En Human vs. Human, el movimiento oculto se desactiva automáticamente. 
+La OPCIÓN 'Planes alternativos' determina si la computadora 
+El jugador seguirá el plan de batalla histórico o creará su propio plan de batalla. 
+Seleccione SÍ para usar sus propios planes. 
+Seleccione NO para utilizar los planes históricos. 
+Cuando esté satisfecho con sus selecciones, presione 'F3' o 'RETURN' para 
+pasar a la pantalla LÍDER. Si seleccionaste continuar con un juego guardado, 
+Puede ver y cambiar las opciones del juego guardado. 
+- Página 3 - 
+
+5). PANTALLA LÍDER 
+Después de haber seleccionado todas las opciones, la computadora le pedirá que seleccione una 
+personalidad para el equipo que va a jugar. Usando las teclas de flechas, puedes 
+resalte el nombre de uno de los seis líderes diferentes en los que la computadora 
+basar sus decisiones estratégicas. Una vez que esté satisfecho con su elección, presione 
+'REGRESO'. Desde aquí irá a la pantalla MAPA o se le pedirá que 
+elige otro líder (si la computadora está jugando sola). Nota: No hay 
+limitación de quién puede comandar qué ejército. Esto le permite a Napoleón 
+comandar el ejército aliado, otorgándoles sus beneficios si así lo desea. 
+
+6). EL CAMPO DE BATALLA 
+NOTA: Para utilizar un joystick en IBM, debe encenderlo 
+presionando 'J' en el teclado mientras estás en la pantalla MAP. Si no tienes un juego 
+puerto y presione 'J', obtendrá un movimiento impredecible del cursor. tu puedes 
+recupera tu juego simplemente presionando 'J' nuevamente. 
+Una vez que haya seleccionado a su(s) líder(es), llegará a un mapa del 
+campo de batalla. Dependiendo del escenario seleccionado, el mapa puede desplazarse hasta que 
+golpea un borde o el borde del área involucrada. Hay una serie de 
+diferentes tipos de terreno que afectan el movimiento y el combate. Estos son: 
+GRÁFICO DEL TERRENO 
+Borrar ................cuadrado vacío 
+Río/Arroyo ........líneas azules 
+Lagos congelados.........blanco sólido/cuadrado parcial 
+Puente....río/arroyo roto 
+Maderas................formas de árboles verdes/marrones 
+Pueblo................formas de casas marrones/amarillas 
+Castillo.............. forma de castillo gris 
+Ciudad................ formas de edificios grises 
+Pendiente .................patrón marrón radiante 
+Pendiente pronunciada... patrón marrón concentrado 
+Alturas................ cuadrado despejado en la cima de las laderas 
+
+Para saber sobre qué tipo de terreno se encuentra el cursor, presione la barra espaciadora 
+(botón del mouse o joystick). Se mostrará el nombre del tipo de terreno. 
+en la franja informativa en la parte inferior de la pantalla. 
+En la mitad derecha de la pantalla está la indicación de la velocidad del juego. Presionas el 
+teclas numéricas para ajustar la velocidad a la que se jugará el juego. La configuración actual es 
+mostrado aquí. (Consulte la parte 22, AJUSTES DE HORA Y PAUSAS, para obtener más información). 
+información). 
+- Página 4 -
+
+7). INSPECCIONANDO LAS TROPAS 
+Las unidades francesas son azules, las unidades rusas son verde oscuro y las 
+Los austriacos son blancos. Hay varios tipos diferentes de unidades: 
+ICONO DE TIPO 
+Columna de Infantería 2 hombres 
+ los pies enarcados se mueven 
+ arma de fuego levantada 
+ movimientos de arma cuerpo a cuerpo 
+
+Línea de Infantería 1 hombre
+ los pies en marcha se mueven 
+ arma de fuego levantada 
+ movimientos de arma cuerpo a cuerpo 
+
+Plaza de Infantería
+ Disparando armas pronunciadas 
+
+Hombre de caballería a caballo 
+ movimientos de sable cuerpo a cuerpo 
+
+Cañón de artillería 
+ Dispara humo sobre el cañón, dispara al objetivo.
+NOTA: Cuando las unidades cambian a un color sólido inverso, están desorganizadas y 
+No puede cargar, pero puede cuerpo a cuerpo y disparar, causando menos bajas. 
+
+8). CÓMO DAR PEDIDOS 
+En general, las órdenes se dan a todas las unidades de la misma forma: 
+1). Coloque el cursor en la unidad a la que se le darán órdenes, 
+2). Presione la barra espaciadora para obtener un cursor especial, 
+3). Coloque el cursor en el cuadrado objetivo, 
+4). Pulsa la barra espaciadora. 
+
+NOTA: Si usa el joystick o el mouse, debe presionar el botón para obtener la 
+cursor especial, y luego MIENTRAS MANTIENE EL BOTÓN, mueva el cursor 
+al cuadrado objetivo y luego SUELTE el botón para dar la orden. 
+
+Simplemente mirar una unidad no tiene ningún efecto en las órdenes de la unidad; sin embargo, moverse 
+el cursor mientras mira la unidad lo hace. Para borrar un pedido antiguo, simplemente dé un 
+nuevo orden. Para cancelar las órdenes de una unidad, seleccione la casilla en la que se encuentra la unidad como 
+cuadrado objetivo. Para hacer esto, presione la barra espaciadora, mueva el cursor fuera de la 
+unidad, luego muévalo de regreso a la unidad y presione la barra espaciadora nuevamente. 
+- Página 5 - 
+
+Además del cursor, hay una V que marca el cuadrado objetivo. Seleccionar 
+una unidad y ordenarle que avance hasta un cuadrado. Después de haber emitido el 
+órdenes, regresa a la unidad y presiona la barra espaciadora nuevamente. Habrá V en 
+la casilla a la que se ordenó moverse a la unidad. Si la unidad no tiene órdenes, el 
+V estará en el mismo cuadrado que la propia unidad. Hay varios diferentes 
+tipos de órdenes que se pueden dar. No a todas las unidades se les pueden dar todos los tipos de 
+pedidos. A continuación se muestra una lista de los tipos de pedidos: 
+                                        C64
+1). Pistola de artillería de fuego cursor amarillo Gris oscuro 
+2). Mover como columna cursor blanco Púrpura 
+3). Mover como línea cursor rojo Rojo 
+
+A continuación se muestra una tabla de lo que puede hacer cada unidad: 
+                 Infantería Caballería Artillería 
+Fuego Artillería No No Sí 
+Mover columna Sí No No 
+Mover línea Sí Sí Sí 
+
+Para usar un tipo particular de cursor, debe MOVER el cursor mientras está en el 
+color adecuado. Una vez que se haya movido el cursor, no cambiará de color. 
+
+Caballería: cuando presionas la barra espaciadora, aparece un CURSOR DE MOVER rojo. 
+y podrás ingresar tus pedidos. 
+
+Artillería: para artillería, hay dos cursores, el CURSOR DE FUEGO amarillo, 
+y el rojo MOVER EL CURSOR. Cuando presionas la barra espaciadora, el FUEGO amarillo 
+Aparece el CURSOR. Si no mueve el cursor en un segundo, el cursor 
+cambiará a MOVER EL CURSOR rojo. Si mueve el cursor dentro de un 
+segundo de presionar la barra espaciadora, el CURSOR DE FUEGO amarillo permanecerá. si 
+Si quisieras dar órdenes a una unidad de artillería para que dispare sus armas, presionarías el botón 
+barra espaciadora y dentro de un segundo, aleje el cursor amarillo de la unidad. 
+Ahora con el cursor amarillo 'fijado', muévalo al cuadrado objetivo y presione 
+la barra espaciadora para seleccionar ese cuadrado como objetivo. La artillería sólo puede tener uno. 
+tipo de orden a la vez. Si le das una nueva orden a una unidad, dejará de hacer lo que 
+estaba haciendo y comenzar a ejecutar su nueva orden. El viejo orden se perderá. 
+
+Infantería: también hay dos cursores para Infantería. La COLUMNA blanca 
+El CURSOR indica a las unidades que se muevan en formación de columnas y el MOVER rojo 
+El CURSOR indica a las unidades que se muevan en formación de línea. Si la unidad está en LÍNEA 
+formación, aparece MOVER CURSOR y luego cambia a COLUMNA. 
+CURSOR. Si le dices a una unidad en formación en línea que se mueva usando la COLUMNA 
+CURSOR, la unidad primero cambiará a formación de columna y luego comenzará 
+en movimiento. Existen algunas complicaciones para las unidades apiladas (consulte la parte 13). 
+Combinando unidades para obtener más información). 
+- Página 6 -
+
+9). ÓRDENES DEL CUERPO 
+Como hay una gran cantidad de tropas, puede resultar bastante tedioso. 
+dando a cada unidad órdenes individuales. Austerlitz tiene una característica única que 
+permite dar una única orden a todo un elemento de maniobra (división o 
+Cuerpo dependiendo de la cadena de mando). La computadora entonces tomará
+sobre el comando basado en la calificación de comando de los líderes históricos y 
+ejercer de forma independiente todo el elemento hacia sus objetivos. 
+
+Para dar órdenes al Cuerpo, presiona 'F5' si estás jugando con los aliados, o 'F6' si 
+están jugando los franceses. Una lista de los nombres de los comandantes, la fuerza de su 
+comando, y se mostrará la moral y la fatiga promedio de sus hombres. Por 
+Al mover las teclas de flecha hacia arriba y hacia abajo, puede resaltar el nombre de un líder y 
+vea cuál es su orden actual (si corresponde). Luego, al presionar la flecha derecha, 
+Puede ir a la lista de modos y decidir qué modo desea que elija. 
+Las órdenes disponibles son MOVER, ATACAR y DEFENDER. Una vez hecho esto, 
+presione 'REGRESAR' y será llevado a la pantalla MAPA. una bandera nacional 
+porque ese Cuerpo aparecerá en el centro aproximado del Cuerpo, o 
+donde estuvieron sus últimas órdenes de Cuerpo. Simplemente mueves la bandera a donde desees. 
+el Cuerpo para ir, y presione la barra espaciadora (o el botón del joystick del mouse). Pronto, eso 
+El cuerpo comenzará a avanzar hacia el objetivo en el modo que seleccionaste. 
+Al presionar ESC se regresará al mapa. 
+
+Si seleccionaste el modo ATAQUE, el Cuerpo marchará en ataque. 
+formación y buscar unidades enemigas para luchar en el proceso de tomar la 
+objetivo. Si seleccionó el modo DEFENDER, el Cuerpo marchará hacia el 
+objetivo, y luego entrar en una formación defensiva y tratar de mantener el objetivo. 
+¡No es buena idea mover un Cuerpo en modo defensa a grandes distancias! si 
+Si seleccionaste el modo MARCHA, el Cuerpo marchará hacia el objetivo, 
+IGNORANDO a las unidades enemigas, pero a un ritmo ligeramente más rápido. No es una buena idea 
+tener un Cuerpo MARCHA en cualquier lugar cerca de formaciones enemigas sin aliados 
+apoyo. 
+
+Nota: Perderás el control de todas las unidades de ese Cuerpo hasta que canceles 
+Órdenes del cuerpo. Para hacer esto, simplemente regrese a la pantalla de estado (F5 o F6) y 
+seleccione NINGUNO para ese comandante. Después de un minuto, todos los pedidos de esas unidades 
+será CANCELADO. Además, una vez que las unidades se comprometen intensamente en el combate, 
+se reducirá la capacidad de respuesta de las órdenes del Cuerpo. Obviamente, la computadora 
+Intentará atacar y derrotar al enemigo y mover su objetivo. 
+alrededor no tendrá mucho efecto mientras esté muy involucrado. 
+
+10). ÓRDENES DEL EJÉRCITO 
+Cuando la victoria es segura (o la derrota es inminente), es posible que desees tener todas las 
+avance (o retirada) de la unidad independientemente de la organización o formación del Cuerpo. esto 
+se puede hacer con la orden de ATAQUE GENERAL (o la orden GENERAL 
+orden de RETIRO). 
+- Página 7 - 
+
+Sin embargo, una vez que se emita esta orden perderás todo el control de tus unidades. 
+a menos que canceles la orden (por ejemplo, presionar 'A' ordena al ejército aliado que ataque). 
+Si golpea 'A' nuevamente, cancela el ataque). Si cancelas una Orden del Ejército debes 
+retira tus unidades ya sea manualmente o con Órdenes Corporativas. 
+
+El jugador Aliado usa 'A' para Atacar y 'X' para Retirada. Los franceses 
+El jugador usa 'F' para atacar y V para retirarse. Cuando la computadora está jugando, 
+Las teclas de Ataque/Retirada de su ejército están desactivadas. 
+
+11). MOVIMIENTO 
+Aunque el área de juego parece continua, en realidad está dividida en 
+cuadrados para fines de movimiento. Cada cuadrado tiene el tamaño de un símbolo de unidad. 
+y tiene aproximadamente 275 yardas de lado. El tiempo que tarda una unidad en 
+pasar de una casilla a otra depende del tipo de unidad que sea y de qué 
+tipo de terreno al que ingresa la unidad. Se proporciona una lista de atributos del terreno en 
+17) TERRENO. Para unidades de artillería que han estado disparando, permita de uno a tres 
+minutos (para recargar las armas) antes de que la unidad comience a moverse. 
+
+Si una unidad encuentra una unidad amiga en su camino (las unidades no pueden pasar a través 
+entre sí) o una característica del terreno que la ralentizaría, la unidad se moverá 
+un cuadrado al lado, si tal movimiento evitará el obstáculo. Cuando una unidad 
+encuentra una unidad enemiga directamente en su camino, intentará desalojarla 
+unidad. (Ver parte 16 COMBATE). 
+
+12). COLUMNA VS. LÍNEA 
+Las unidades de infantería pueden estar en una de dos formaciones diferentes: línea o columna.
+Línea significa que las tropas están dispuestas en línea. La ventaja es que 
+cada hombre puede disparar su mosquete al enemigo. La desventaja es que si el 
+Si se traspasa la línea en cualquier punto, la unidad se encuentra en una posición peligrosa. Infantería 
+en la columna están dispuestos en una formación similar a un bloque. las tropas 
+ganar un impulso moral en un fenómeno de "seguridad en números", pero la mayoría de los 
+Las tropas son bastante inútiles para luchar. Sin embargo, la formación de columnas permitió 
+para un asalto más rápido y era una manera bastante fácil de manejar a los mal entrenados 
+hombres. Para que una unidad pudiera utilizar con éxito la formación de líneas, normalmente tenía que 
+tener mucha formación. Para convertir la infantería de una formación a la 
+otro, dale órdenes de movimiento con el cursor para ese tipo de formación. la unidad 
+Tomará unos minutos realizar el cambio de formación, luego comenzará a 
+moverse. Si quieres que una unidad cambie de formación sin moverse, mueve el 
+cursor del color apropiado fuera de la unidad, luego muévalo nuevamente a la unidad antes 
+'soltando' la barra espaciadora (es decir, presionándola por segunda vez). 
+
+13). COMBINANDO UNIDADES 
+Otra ventaja de la columna es que las unidades del mismo Cuerpo pueden ser 
+agrupados en una sola formación, en un solo cuadrado. Esto le permite 
+- Página 8 -
+Concentra muchos hombres para un ataque poderoso. Para combinar dos unidades de infantería 
+Ambas unidades deben estar en columna, deben comenzar su movimiento adyacente a cada una. 
+otro; y, deberán ser del mismo Cuerpo. (Compruebe la pantalla de la unidad). 
+Usando el CURSOR DE COLUMNA, ordene a una unidad que se mueva hacia la otra. la unidad 
+avanzará y se fusionará con la unidad que no se mueve. Esto puede repetirse como 
+tanto como quieras, siempre y cuando la fuerza total no supere los 6300 hombres. el 
+Las 'pilas' de unidades se pueden mover como cualquier otra unidad de columna. Una pila no puede ser 
+cambiado a formación de líneas. Para separar las unidades, ordene la 'unidad' apilada para 
+moverse como línea. En lugar de que la 'unidad' cambie a línea, la última unidad en unirse a la 
+La pila se separará y se moverá al cuadrado objetivo. El resto de la pila 
+permanecerá en su lugar. Esto se puede repetir hasta que todas las unidades individuales estén 
+separados. Los nombres individuales no se muestran para las unidades apiladas. si todos 
+Si las unidades son de la misma división, se mostrará el nombre de la división. 
+Si todas las unidades son del mismo Cuerpo, se mostrará el nombre del Cuerpo. 
+
+Los niveles de fuerza, moral y fatiga se muestran normalmente (si el 
+Se eligen OPCIONES). La fuerza mostrada es la suma de las fuerzas de la unidad. 
+fortalezas individuales. La moral mostrada es una moral de grupo. el 
+La fatiga mostrada es la de la unidad más baja de la pila. Para fines de 
+Para determinar si una unidad se desorganiza o se derrota, la moral más baja en 
+se utiliza la pila. Para los cálculos de combate, cada unidad utiliza la moral del grupo. 
+y su fatiga real. 
+
+14). CARGANDO 
+Durante el transcurso de una batalla, las unidades normalmente se movían a paso. 
+Sin embargo, cuando las unidades se acercaban a una unidad enemiga que estaban atacando, 
+Se cerraría rápidamente para minimizar el tiempo que estuvieron expuestos al enemigo. 
+fuego. En el juego, las unidades de infantería y caballería cruzarán la última casilla de una vez. 
+minuto. Sin embargo, esto sólo ocurre en condiciones ideales. Las unidades sólo pueden cargar 
+si están formados (es decir, no desorganizados, ver parte 16 COMBATE). Además, unidades 
+Sólo puede cargar a través de casillas despejadas. Reducen la velocidad a su ritmo normal. 
+avanzando por arroyos, bosques, pueblos, etc. 
+
+15). PLAZA DE INFANTERÍA 
+Debido a su movilidad, la caballería podría moverse rápidamente a los flancos de 
+unidades de infantería y causar grandes estragos. Para contrarrestar esto, la infantería podría cambiar 
+en formación cuadrada, con los hombres mirando hacia afuera en todas direcciones. Usando el 
+En formación cuadrada, la infantería podía hacer frente incluso a la mejor caballería. en el 
+juego, cuando una unidad de caballería enemiga se mueve a 2-3 casillas de una 
+unidad de infantería, la infantería cambiará a cuadro. Esto tomará varios 
+minutos. Cuando la caballería se aleja, la unidad volverá a su 
+formación previa. Las unidades en cuadro no pueden moverse, aunque todavía pueden
+fuego. Si deseas que una unidad en cuadro se mueva de todos modos, vuelve a emitir órdenes. el 
+La unidad volverá a la formación y comenzará a moverse. 
+- Página 9 - 
+
+Esta "anulación de cuadrados" permanecerá vigente hasta, 1). alcanza su objetivo 
+cuadrado, 2). cambia su objetivo a su ubicación actual, o 3). no hay 
+unidades de caballería dentro de 2-3 casillas. Sólo las unidades de infantería formadas pueden utilizar el cuadrado. 
+formación. La infantería desorganizada o derrotada está a merced del enemigo. 
+caballería. Sin embargo, las unidades de infantería nunca entrarán en formación de cuadro si sus 
+La casilla objetivo está ocupada por una unidad enemiga. En ese caso te asumirán 
+Deseamos que ataquen sin importar las circunstancias. Así, es muy 
+Es peligroso ordenar a la infantería que se mueva grandes distancias para atacar, ya que si bien 
+Si tu atención se desvía, la caballería enemiga podría realizar una carga de oportunidad. 
+El comandante prudente siempre hará que su infantería se mueva a una posición de preparación. 
+área antes de ordenar a sus unidades que pasen las últimas casillas hacia el enemigo. 
+posición. Obviamente, como en la vida real, la presencia de caballería enemiga hace que sea 
+extremadamente difícil llevar a cabo un asalto de infantería organizado. 
+
+16) COMBATE 
+Existen varios métodos para infligir pérdidas a las unidades enemigas. en 
+En general, cuanto más baja sea la moral de un atacante, menos enemigos podrá matar; y, el 
+cuanto más cansado esté, menos pérdidas puede causar. 
+
+16.1). COMBATE DE FUEGO 
+Artillería: La artillería puede disparar a objetivos a una distancia de hasta cinco casillas. Mover 
+el cursor amarillo al cuadrado objetivo y dentro de 1-3 minutos, el 
+comenzará el bombardeo. Cuando cambias el objetivo de una unidad de artillería, éste 
+tardará aproximadamente 1 minuto en volver a mirar. La efectividad de la artillería aumenta a medida que 
+disminución de la distancia de disparo; a una distancia de un cuadrado, es mucho más 
+eficaz. Además, la artillería es más efectiva disparando contra una unidad grande que 
+contra una unidad pequeña. Tenga en cuenta que las unidades de artillería que disparan a más de una casilla 
+ocasionalmente puede fallar y acertar en casillas adyacentes a la casilla objetivo. Además, 
+La artillería puede infligir daño por bombardeo a tus propios atacantes mientras 
+acercarse a sus objetivos. Tenga en cuenta que si dirige fuego a una unidad donde el fuego 
+estaría bloqueado (como detrás de un bosque), la artillería disparará, y sí, 
+será bloqueado y el enemigo no sufrirá bajas. 
+
+Infantería: La infantería sólo tiene un alcance de una casilla. Unidades de infantería que lo hacen. 
+no tienen órdenes de moverse, dispararán a las unidades enemigas adyacentes, si hay 
+cualquiera. Entonces, para que una unidad de infantería participe en combate de fuego con otra unidad, ordénale que 
+moverse adyacente a la unidad objetivo. Cuando llegue al cuadrado adyacente, 
+cesar el movimiento y comenzar a disparar. 
+
+Artillería adjunta: algunas unidades de caballería e infantería tenían una pequeña 
+con ellos varias piezas de artillería ligera. Debido al pequeño número y 
+Debido al calibre de estos cañones, sólo tenían un efecto apreciable a corta distancia. 
+Por lo tanto, se manejan como fuego de infantería. Sólo disparan a una distancia de 
+un cuadrado, el fuego se maneja automáticamente y no hay ninguna explosión que indique su 
+bombardeo. 
+- Página 10 -
+ia2) COMBATE CUERPO A CUERPO 
+Cuerpo a cuerpo es combate de fuego y cargas a muy corta distancia. Cuando una unidad 
+intenta moverse a una casilla ocupada por una unidad enemiga, intentará 
+participar en combate cuerpo a cuerpo para desalojar a la unidad enemiga. El combate cuerpo a cuerpo suele ocurrir 
+automáticamente cuando una unidad se acerca a una unidad enemiga. (Las unidades de carga tardan 1 
+minuto para cerrar después de moverse adyacente. Si por alguna razón una unidad no puede 
+carga, el tiempo será el tiempo normal para moverse a través del área particular. 
+terreno.) El combate cuerpo a cuerpo no es automático en los siguientes casos; 1) La artillería no puede 
+iniciar el combate cuerpo a cuerpo. 2). El defensor se encuentra en un terreno de acceso limitado, como un 
+pueblo o castillo. La ventaja del combate cuerpo a cuerpo sobre el fuego de infantería es que las bajas 
+pueden ser infligidos a un ritmo más rápido, y los objetivos en manos del enemigo pueden ser 
+tomado. Esto es particularmente cierto para las unidades en columna, que tienen una capacidad limitada. 
+Número de hombres que pueden disparar. 
+
+17). TERRENO 
+Hay muchos tipos diferentes de terreno. Estos afectan tanto el movimiento
+y combate. El siguiente es un resumen de los efectos del terreno: 
+
+Terreno Movimiento Efecto Combate Atacante Combate Defensor
+Borrar Normal Ninguno Ninguno
+Frontera Prohibida, excepto para salir N/A N/A
+River Slows no puede cargar ninguno
+                                       Desorganizado (2-3) min
+El puente del río se ralentiza y no se puede cargar ninguno
+Woods ralentiza no puede cargar ninguno
+              La artillería no puede entrar.
+              La caballería no puede entrar.
+              Infantería desorganizada
+Village Normal no puede cobrar pérdidas reducidas
+              Bloquea el fuego de artillería
+Castle Normal no puede cobrar pérdidas reducidas
+                                      Bloquea el fuego de artillería
+                                      Cuerpo a cuerpo, no automático
+La pendiente disminuye Ninguno N/A
+La pendiente pronunciada se ralentiza. No se puede cargar ninguno.
+              Las unidades de artillería desorganizada no pueden disparar
+- Página 10 -
+
+18). MORAL Y FATIGA 
+La moral es una representación de qué tan bien le está yendo psicológicamente a una unidad. 
+La moral de una unidad fluctuará hacia arriba y hacia abajo durante la batalla, como es habitual. 
+expuestos a diferentes condiciones. Cada unidad tiene una moral máxima. 
+Generalmente, las unidades de élite, como los guardias, tienen un máximo más alto que las unidades mal 
+unidades entrenadas. La moral real, que es la que se muestra en la pantalla de la unidad. 
+comienza con la moral máxima, luego se reduce según la proporción de 
+bajas que la unidad ha sufrido recientemente en comparación con su fuerza total. el 
+Los efectos de las bajas disminuyen gradualmente con el tiempo. La moral también 
+reducido por la presencia de unidades enemigas. La caballería tiene los efectos más perjudiciales. 
+efecto, seguido por la infantería. La artillería tiene poco efecto. La caballería enemiga tiene 
+muy poco efecto si tus unidades de infantería están en formación cuadrada. si enemigo 
+las unidades están desorganizadas, tienen menos efecto sobre la moral; si son encaminados, 
+no tienen ningún efecto en absoluto. 
+
+Para unidades combinadas, la moral máxima es la moral de la unidad más baja. 
+en la pila, por lo que combinar unidades buenas y malas no es una buena idea. el 
+Las bajas y fuerzas de todas las unidades se combinan para encontrar los efectos en 
+moral. Luego se tiene en cuenta la presencia de unidades enemigas adyacentes. 
+Por lo tanto, al flanquear una unidad enemiga, no sólo infligirás más bajas, 
+pero causa una mayor caída en la moral de las unidades enemigas, provocando que se rompa. 
+antes. 
+
+Si la moral de una unidad cae al NIVEL JUSTO, la unidad pasará a ser 
+desorganizado (se muestra en color sólido e invertido), si la moral cae más allá 
+POBRE, será derrotado e intentará retirarse. Cuando una unidad huye, su 
+la moral máxima se reduce permanentemente. Cuando una unidad se aleja del enemigo 
+unidades y deja de sufrir bajas, la moral que se muestra aumentará gradualmente 
+volver a su máximo. Cuanto mayor sea la moral de la unidad, más rápido 
+recuperarse de la desorganización (pero sólo mientras descansa; no mientras se mueve, 
+disparos o combates cuerpo a cuerpo). 
+
+La fatiga aumentará con el movimiento y el combate. Cuanto mayor sea el valor de una unidad 
+Cuanto mayor sea el valor de fatiga, más ineficaz será en combate. El combate es más 
+perjudicial para la fatiga de una unidad que moverse. Si una unidad cesa su actividad, su 
+La fatiga se reducirá según el tiempo que deje descansar la unidad. 
+
+19). MOVIMIENTO OCULTO 
+Si se selecciona esta OPCIÓN, no todas las unidades enemigas serán visibles en absoluto. 
+veces. Ciertas características del terreno (como el bosque, las alturas y las aldeas) 
+bloquear la línea de visión de tus unidades a las unidades enemigas, manteniendo así al enemigo 
+Unidades ocultas. La mayor parte del campo de batalla está despejada, ya que las tácticas del día 
+exigió esto. Así, los comandantes enemigos normalmente podían ver al enemigo 
+a menos que fuera 1). Fuera de rango, 2). Hubo combate entre las unidades. 
+produciendo mucho humo, o 3). Si las condiciones climáticas afectaran la visibilidad. 
+- Página 12 -
+En Austerlitz, el movimiento oculto será el más afectado por una temprana 
+niebla matutina. Cuando comience la batalla, el alcance visible será sólo de unos pocos 
+casillas, excepto las unidades en las alturas, que estaban por encima de la niebla y visibles para 
+el mando enemigo. Alrededor de las 8:00 am, el sol saldrá lo suficientemente alto y 
+comenzará a quemar la niebla y el alcance visible aumentará gradualmente hasta su 
+alcance máximo de varias millas. Además, las unidades en combate bloquearán la línea de 
+sitio a las unidades detrás de ellos. Debido al terreno en gran parte despejado y al número de 
+unidades, esto generalmente no será suficiente para ocultar las unidades detrás de las 
+combate. Sin embargo, ocasionalmente lo hará y puede dar lugar a situaciones inesperadas. 
+refuerzos para el enemigo. Por lo tanto, es aconsejable utilizar Light, que tiene una gran movilidad. 
+Caballería para vigilar al enemigo. 
+
+20). DESMORALIZACIÓN DEL EJÉRCITO 
+Durante el juego, la computadora tabula constantemente el número de 
+unidades destruidas, derrotadas y desorganizadas para cada ejército, según las 
+siguiente fórmula: 
+
+Unidades destruidas: 4 x valor de la unidad 
+Unidades en ruta: 2 x valor de la unidad 
+Unidades desorganizadas: 1 x valor de la unidad 
+
+El valor de una unidad depende de su importancia. Se pesan las Conserjerías 
+más intensamente que las unidades pequeñas y sin importancia. Para pilas, los cálculos son 
+se hace por separado para cada unidad en la pila (en otras palabras, una pila no 
+cuenta como una unidad). Si la suma de estos puntos es alguna vez mayor que un 
+valor predeterminado, se dice que ese ejército está desmoralizado. el oponente 
+Se toca el himno del bando y cada unidad del ejército desmoralizado tiene su 
+moral máxima reducida permanentemente. Además, el ejército desmoralizado 
+Las fuerzas perdidas debido a la derrota (aquellos que huyen o fueron capturados) se cuentan en 
+el total de bajas para determinar la victoria. El número de hombres perdidos cuando un 
+La ruta de la unidad suele ser bastante grande. Por lo tanto, desmoralizar al enemigo. 
+El ejército (y conseguir puntos extra) suele ser crucial para ganar. un corto 
+Una vez que un lado está desmoralizado, el otro lado obtendrá una bonificación agregada a 
+la moral de su ejército a medida que la victoria se vuelve segura. Aun así, no es prudente aceptar 
+desmoralización del enemigo como el fin de la victoria, enviando así a cada unidad 
+ciegamente hacia adelante. Esto normalmente resultará en que tu propio ejército se convierta en 
+desmoralizados cuando tus unidades golpean focos enemigos de resistencia poco a poco y son 
+¡Se derrotaron! 
+
+21). GANAR EL JUEGO 
+La puntuación se calcula comenzando con una puntuación base, sumando el número 
+de aliados muertos/heridos y luego restando el número de franceses 
+muerto/herido. Además, si un ejército está desmoralizado, los hombres de ese 
+También se cuentan los ejércitos que se perdieron debido a la derrota. Al final del juego, el 
+La computadora analizará el puntaje final y le dirá el resultado histórico. 
+basado en la batalla. 
+- Página 13 - 
+
+Para una Victoria Marginal, se tocará una versión corta del himno del vencedor. 
+Por una Victoria Decisiva, se tocará una versión larga del himno de la victoria. 
+En caso de empate, no se reproducirá ningún himno. 
+
+22). AJUSTE DE LA VELOCIDAD Y PAUSA 
+Para pausar el juego, simplemente presione 'P'. Para reanudar el juego, haz cualquier juego. 
+acción o presione 'G'. Las teclas numéricas sirven para controlar la velocidad del juego. 
+La configuración es la siguiente: 
+
+1 = 1 segundo por minuto de juego 
+2 = 3 segundos por minuto de juego 
+3 = 5 segundos por minuto de juego 
+4 = 7 segundos por minuto de juego 
+5 = 10 segundos por minuto de juego 
+6 = 15 segundos por minuto de juego 
+7 = 20 segundos por minuto de juego 
+8 = 30 segundos por minuto de juego 
+9 = 60 segundos por minuto de juego 
+0 = ejecutar 1 minuto de juego, luego detenerse. 
+
+Tenga en cuenta que estos son tiempos objetivo. En los escenarios más grandes, el reloj 
+solo avanzará después del movimiento, el combate y, si la computadora está jugando, la IA 
+se ejecutan las rutinas. Seleccionar una velocidad más rápida que la que ejecuta la computadora 
+No tendrá un efecto adverso en el juego, pero puede que no vaya tan rápido. Si 'O1 es 
+presionado, el juego detendrá el avance del reloj, pero te permitirá continuar 
+dar órdenes. De esa manera, si las cosas son más de lo que puedes afrontar, puedes
+tiempo de pausa. Recuerde, sin embargo, que en la vida real esto no se puede hacer. 
+
+23). GUARDAR EL JUEGO, TERMINAR EL JUEGO 
+Para guardar el juego, presione 'F3'. El juego se detendrá y aparecerá un mensaje "GUARDAR JUEGO". 
+Aparecerá la pantalla. Escribe el nombre que deseas usar para el archivo del juego guardado. 
+Puede utilizar hasta 8 caracteres. El juego agregará un extensor .BOX al 8 
+nombre de archivo de carácter que haya elegido. Puedes finalizar cualquier juego en cualquier 
+tiempo y vea su puntaje actual presionando 'F9'. Esto termina el juego, después 
+guardando el juego puedes reanudarlo presionando 'F4' o iniciar otro 
+juego presionando 'F10'. Tenga en cuenta que su puntuación actual se muestra en la parte superior 
+lado derecho de la pantalla. Si parece bajo durante el transcurso del juego, 
+recuerda que cuando desmoralices al enemigo, saltará a tu favor 
+(más alto para los franceses, más bajo para los aliados), y si estás desmoralizado, te 
+saltar a favor del enemigo. 
+- Página 14 -
+
+PARTE II 
+1). HISTORIA 
+Con el oro inglés apoyando los complots realistas contra Francia, y 
+Napoleón entrenando lo que eventualmente sería la Grande Armée', el Tratado 
+de Amiens estaba destinada al fracaso. En 1805, Inglaterra formó la Tercera Coalición, 
+formado por Austria, Rusia, Nápoles y Suecia. Napoleón deseaba 
+invadir Inglaterra y detener las guerras desde su origen. Sin embargo, el inglés 
+dominio de los mares, y la tormenta que se avecinaba hacia el este condujo a una drástica 
+cambio de planes; antes de que sus enemigos pudieran unirse para avanzar hacia 
+Francia, tendría que desplegarse rápidamente hacia el este y derrotarlos en detalle. 
+Para los aliados, era una cuestión de supervivencia de sus regímenes. ellos tenian 
+Al principio pensaron poco en la Revolución Francesa, pero ahora, durante diez años, habían 
+estado en guerra, primero con los revolucionarios radicales que prometieron que todos los reyes 
+debería morir, y luego el invencible Napoleón. Para ellos la guerra era 
+necesario restablecer el antiguo orden, que por supuesto era como Dios pretendía 
+así sea. 
+Los austriacos avanzaron con confianza ante sus aliados rusos. 
+Llegó y lo pagó en Ulm; todo un ejército rodeado y capturado. 
+Durante las primeras semanas de la campaña, Napoleón se alzó triunfalmente en 
+el Danubio. 
+Sin embargo, no todo era seguro para el Emperador. Los austriacos tenían un ejército en 
+el sur, y otro organizando en el norte. Estaba lejos de casa con 
+sus líneas de comunicación son inseguras y los suministros se están agotando. tenia que terminar 
+la guerra. Con los rusos finalmente llegando con fuerza y la deserción en 
+Su ejército crecía a medida que avanzaba el invierno y las condiciones parecían sombrías. 
+El plan aliado bajo Kutuzov era sensato. Espere y reúna sus 
+fuerzas y dejar que los franceses se retiraran o libraran una batalla en los términos de los aliados. pero 
+cuando los jóvenes lobos del personal del zar Alejandro vieron a Napoleón en un 
+posición aparentemente débil cerca de Austerlitz, tuvieron que dar batalla. La gloria fue 
+para los que actuaron! 
+Napoleón ensangrentó el anzuelo con una fingida retirada de la meseta de Pratzen. 
+lo que puso fin al debate aliado. ¡Atacarían! Barriendo hacia abajo 
+Pratzen que ahora poseían, someterían a la débil derecha de Napoleón 
+Legrand y reúne a todo su ejército. Kutuzov preguntó qué harían en 
+¿Napoleón no se quedó quieto contemplando su obra maestra? Pasó el resto del 
+Batalla dormido o borracho, sin ser escuchado. 
+El 2 de diciembre comenzó con una espesa niebla. Los aliados establecieron su plan 
+movimiento, sin saber que Napoleón tenía la intención de aplastar su centro justo cuando 
+Salió del Pratzen. Mientras Legrand pudiera retener a los aliados por un tiempo, 
+El destino del ejército aliado estaba prácticamente decidido. El avance aliado fue lento 
+y falló. Columnas enteras se cruzaron unas a otras. Legrand fue 
+empujado detrás del arroyo, pero Davout llegó a tiempo desde el sur, dejando 
+el avance aliado se vio obstaculizado. Mientras el sol salía sobre las colinas y se consumía 
+la niebla, Napoleón lanzó a Soult (St. Hilaire y Vandamme), contra el 
+Pratzen. La decisión osciló en la balanza por un corto tiempo, pero finalmente la 
+¡La línea aliada se rompió y la meseta fue tomada! 
+-Página 15-
+En el extremo izquierdo de la línea francesa, Lannes y Bagration se enfrentaron con 
+la Caballería Pesada opuesta de ambos ejércitos cargando entre sí, haciendo 
+mucho ruido pero con pocos resultados. A la derecha, Napoleón dirigió personalmente 
+la destrucción de la izquierda aliada mientras Bernadotte frustraba el plan de Constantino. 
+intento de salvar el centro aliado. 
+Alrededor de las 16:30 una tormenta de nieve puso fin a la batalla. Los franceses habían 
+obtuvo una victoria decisiva, mientras el zar Alejandro se quedó llorando. Los franceses 
+tuvo menos de 2.000 muertos y aproximadamente 7.000 heridos. Los aliados 
+sufrió al menos 15.000 muertos y heridos y más de 10.000 capturados. 
+Los franceses se llevaron a casa cuarenta y cinco estandartes enemigos y más de 180 aliados. 
+cañón. Los rusos regresaron a casa y la Coalición colapsó. el 
+Los miembros gobernantes de la aristocracia inglesa se enfurecieron... ¡la revolución viviría! 
+
+2). LOS ESCENARIOS 
+SOL DE AUSTERLITZ - Ruptura del Centro Aliado 
+8:30 am a 11:00 am 
+Puntuaciones 
+Los aliados necesitan: menos de 13.000 
+Necesidades francesas: más de 18.000 
+Conociendo las intenciones aliadas de intentar girar su flanco, Napoleón 
+planeaba esperar hasta que la meseta de Pratzen estuviera libre de enemigos, luego rápidamente 
+atacarlo cortando al ejército aliado en dos. Sin embargo, la incompetencia aliada 
+¡Era incluso peor de lo que pensaba Napoleón! Las divisiones de St. Hillaire y 
+Vandamme se reunió con los reclutas de Kollowrath, los rusos de Milorodovich, 
+quien llamó a varias unidades de la columna III de Prybyshevsky, y el 
+¡Los franceses se vieron superados en número! Sin embargo, una dura carga por 
+Vandamme derrotó a Milorodovich, barriendo a los aliados de la meseta y 
+sellando el destino del ejército aliado. 
+
+¡COMPROBADO POR DAVOUT! Lucha por el Bajo Golbach 
+6:30 am a 10:30 am 
+Los aliados deben intentar conseguir 16 unidades al menos 2 casillas al sur del Brook. 
+Los franceses deben detenerlos. 
+Este escenario describe la lucha matutina en la derecha francesa. 
+Los aliados planeaban girar rápidamente el flanco francés y quedar detrás. 
+El ejército de Napoleón, aplastándolo en el proceso. Sin embargo, una tenaz defensa por 
+Legrand y la oportuna llegada de Davout detuvieron el avance y propiciaron la 
+destrucción completa de las columnas de ataque aliadas cuando St. Hillaire y 
+Vandamme del IV Cuerpo de Soult apareció de repente detrás de ellos y condujo 
+llevarlos a los Estanques Congelados. 
+- Página 16 -
+
+NO LOS DEJES ESCAPAR 
+9:00 am a 3:00 pm 
+Puntuaciones 
+Los aliados necesitan: menos de 30.000 
+Necesidades francesas: más de 37.000 
+Si bien la batalla se libró y ganó a la derecha de la línea francesa, ambos 
+Los bandos esperaban que la izquierda fuera una maniobra de inmovilización. Históricamente, cuando la batalla 
+estaba perdido para los aliados, Bagration luchó una tenaz defensa y salvó su 
+tropas, formando el núcleo del ejército que más tarde se enfrentaría a los franceses en 
+1807-1808. 
+
+BATALLA HISTÓRICA 
+6:30 am a 4:30 pm 
+Puntuaciones 
+Los aliados necesitan: menos de 48.300 
+Necesidades francesas: más de 88.450 
+Esto te permite jugar toda la batalla con el bando que elijas. 
+Sin embargo, independientemente del bando en el que juegues, te verás obligado a tomar decisiones decisivas. 
+Derrota a tu oponente y el tiempo será el factor crítico. la batalla es 
+relativamente corto, por lo que si bien debes moverte rápidamente, también debes dar tu 
+unidades de tiempo suficiente para llegar a las posiciones óptimas; de lo contrario, la mayor parte del 
+El enemigo puede escapar. A diferencia de muchos juegos por turnos, donde se lava el tiempo. 
+lejos y perdido en innumerables fases, y donde se simula el sentido del tiempo 
+con porcentaje de posibilidades de que tus unidades se muevan, aquí tú controlas cuando la clave 
+se hace el golpe. Recuerde, el que toma el campo de batalla puede decir que ha ganado, 
+¡pero el que gana la guerra escribe la historia! 
+
+LA TRAICIÓN DE BERNADOTTE 
+6:30 am a 4:30 pm 
+Puntuaciones 
+Los aliados necesitan: menos de 48.300 
+Necesidades francesas: más de 88.450 
+El mariscal Bernadotte fue uno de los muchos individuos que querían echar una mano. 
+en gobernar Francia, pero perdió cuando Napoleón tomó el poder. aunque recibiendo 
+su bastón de mariscal en 1804 (porque se casó con la antigua novia de Napoleón 
+Desiree) permaneció extremadamente celoso de Napoleón y finalmente lo traicionó. 
+él y luchando contra Francia. Este escenario es el mismo que el
+Escenario histórico, pero teoriza que Bernadotte podría haberlo convenientemente 
+no llegó a la batalla. Esto deja a los franceses sin sus fuerzas más fuertes. 
+Cuerpo de reserva, y mejora considerablemente las posibilidades aliadas. 
+- Página 17 - 
+
+FRACASO DE DAVOUTS 
+6:30 am a 4:30 pm 
+Puntuaciones 
+Los aliados necesitan: menos de 48.300 
+Necesidades francesas: más de 88.450 
+Davout NUNCA falló. Igual a Napoleón en el campo de batalla, ocupó el cargo de 
+a la derecha de la línea de Napoleón más veces que cualquier otro mariscal. este escenario 
+Teoriza que Davout no llega al campo de batalla. Mientras que él históricamente 
+Sólo lo logró con la mitad de su mando, fue suficiente para controlar a los aliados. 
+¡Avanza y permite que Napoleón destruya el ejército aliado! 
+
+EGADSI 
+6:30 am a 4:30 pm 
+Puntuaciones 
+Los aliados necesitan: menos de 48.300 
+Necesidades francesas: más de 88.450 
+Este escenario combina la traición de Bernadotte y el fracaso de Davout. 
+Históricamente, Napoleón no utilizó a los Granaderos de Oudinot ni a las tropas imperiales. 
+Guardia. De hecho, Bernadotte se utilizó con moderación. Se ha estimado que 
+Napoleón utilizó 45.000 hombres para derrotar a 90.000. Para los franceses, este escenario 
+hace que cualquier error sea costoso. Para los aliados, espero que finalmente puedan ganar. 
+
+3). BIOGRAFÍAS DE LÍDERES 
+Se proporcionan tres líderes de cada bando, cada uno de los cuales libra la batalla. 
+de manera diferente. Para mayor variación, cada lado puede tener cualquiera de los seis líderes. 
+ordenarlo. 
+
+LOS FRANCÉS 
+Ney, Michel (1769 - 1815). "El más valiente de los valientes". Se alistó en el ejército en 
+1788, ascendió al rango de Mariscal de Francia en 1804. Ney sirvió en todos los principales 
+Campañas napoleónicas y se distinguió como un táctico competente. 
+y excelente luchador de retaguardia cuando lograba mantener la cabeza. Ney era 
+Hombre de extremos, o se aferraba a la letra de sus órdenes o las desobedecía. 
+completamente. A lo largo de su carrera nunca logró aprender el arte de 
+armas combinadas, que se demostró de manera más desastrosa en Quatra Bras 
+y Waterloo en 1815. 
+
+Davout, Luis Nicolás (1770 - 1823). "Los Justos". Encargado en el 
+Caballería en 1789, posteriormente fue expulsado del ejército a principios del 
+Revolución Francesa por insubordinación. Regresó al servicio militar en 1792. 
+como comandante de un batallón de voluntarios. Para sorpresa de muchos, Davout 
+- Página 18 -
+
+fue nombrado mariscal en 1804. Famoso por su defensa de Hamburgo entre 1813 y 1814, 
+Al rendirse sólo después de la primera abdicación de Napoleón, Davout es considerado por 
+algunos lo consideran un equivalente táctico de Napoleón. Era frío, metódico, 
+incorruptible y silencioso. Un organizador experto, sus tropas siempre fueron las mejores. 
+entrenado, equipado y disciplinado en el campo de batalla. A lo largo de su carrera, 
+Davout demostró ser uno de los líderes militares más importantes de la era napoleónica. 
+Nunca fue derrotado. 
+Históricamente, Davout comandó el "alardeado" III Cuerpo del Grande. 
+Armee, cuya oportuna llegada a la derecha francesa obstaculizó el avance aliado. 
+Davout, como oponente, debería ofrecer un desafío al jugador experimentado. 
+
+Bonaparte, Napoleón (1769 - 1821). Emperador de los franceses, Napoleón 
+obtuvo el rango de General y mando del Ejército de Italia en 1796 por 
+distinguiéndose en el asedio de Toulon, y más tarde dispersando una 
+turba realista con el famoso "olor a trago de uva". La victoria siguió a la victoria 
+como Napoleón demostró una comprensión estratégica nunca antes vista en el 
+historia de la guerra. Después de una campaña fallida en Egipto, donde Napoleón intentaba 
+atacar el comercio inglés y aliviar a Francia de la amenazante guerra de Inglaterra 
+esfuerzo, regresó a una Francia derrotada en muchos frentes y con el gobierno 
+Directorio corrupto y fallido. Muchos grupos diferentes estaban planeando 
+poder, pero Napoleón, con la ayuda de su hermano Lucien, actuó y se apoderó 
+controlar. Después de que la Batalla de Marengo destruyera la Segunda Coalición, Napoleón 
+logró la paz con el Tratado de Amiens. El 2 de diciembre de 1804, Napoleón 
+Fue coronado Emperador de los franceses tras un enorme plebescito a su favor. el 
+pasó a convertir a Francia en el país más avanzado social e intelectualmente de Europa.
+país, mientras rechazaba los ataques de las monarquías europeas. En 1812, con 
+noticias de la traición de Rusia al Tratado de Tilst y con la esperanza de poner fin a las guerras 
+De una vez por todas, Napoleón intentó invadir y someter a Rusia antes de que 
+La guerra llegó a Europa Central. Sin embargo, años de victoria dejaron a Napoleón 
+complaciente y fue derrotado. Napoleón volvió a demostrar su 
+brillantez en 1813 y 1814, pero las Monarquías europeas provocaron 
+El nacionalismo (que finalmente los destruyó) para derrotar a los "agresivos" 
+Francés. Napoleón fue exiliado, pero regresó en 1815 para los "Cien Días". 
+Finalmente perdió en Waterloo, pero se aseguró el lugar solitario en 
+historia como el soldado más grande que el mundo haya visto jamás. Históricamente, 
+Napoleón comandó el ejército francés y aplastó a los aliados. el gran 
+La confianza y la moral de Armee bajo Napoleón estaban en su punto más alto. 
+Sólo aquellos comandantes que hayan aprendido el arte de la guerra napoleónica, 
+debería intentar oponerse a Napoleón. 
+
+LOS ALIADOS 
+Zar Alejandro. Llegó al poder tras el asesinato de su padre, Paul. 
+Participó en gran parte de las Guerras Napoleónicas, aunque no sabe nada de ellas. 
+asuntos militares. Se sentía el salvador de Europa de Napoleón mientras 
+sofocando la libertad de su propio pueblo. Mostró una firmeza notable. 
+en la campaña rusa e introdujo muchas reformas en la campaña rusa 
+Militar. 
+- Página 19 - 
+
+Históricamente estuvo al mando del ejército austro-ruso, aunque 
+Fue fácilmente persuadido por aquellos que hablaban de victoria e ignoraban las palabras de Kutusov. 
+ruegos que esperen. Alexander debería ser el oponente más fácil para el nuevo 
+comandante. 
+
+Bagración, Pedro (1765-1812). Entró en el ejército ruso en 1782, y por 
+En 1799 había servido con distinción contra los turcos y en Polonia. En 1808, él 
+hizo una audaz marcha a través del helado Golfo de Finlandia para apoderarse de Aland 
+Islas de los suecos. Fue herido de muerte en la batalla de Borodino. 
+en 1812. 
+Bagration, aunque tácticamente tenaz, nunca demostró ninguna estrategia. 
+habilidad y no era apto para un gran mando independiente. Un furioso, testarudo, 
+inspirador líder de hombres, era muy parecido a Ney: personalmente valiente, 
+imprudente y muy agresivo. En la batalla de Austerlitz, comandó el 
+Advance Guard, las mejores tropas aliadas en el campo. Si bien es mucho mejor 
+líder que Alejandro, no era tan cauteloso ni tan reflexivo como Kutusov, por lo que 
+proporcionando un oponente moderado en el campo de batalla. 
+
+Kutusov, Mijaíl Lariónovich (1745-1813). Entró en el ejército en 1759. 
+Sirvió en Polonia, 1764-69, y contra los turcos, 1770-74 y 1788-91. en 
+En 1805, comandó la fuerza expedicionaria rusa enviada para ayudar a Austria. el 
+A partir de entonces ocupó puestos administrativos hasta 1812, cuando fue llamado a 
+mando supremo contra Napoleón. 
+Sabio y cauteloso, más que cualquier otro líder aliado conocía el 
+limitaciones de sus hombres y el potencial del enemigo. Sólo él vio el 
+desastre inminente en Austerlitz, pero fue derrotado por Alejandro I y su 
+personal hambriento de guerra. Supondrá el mayor desafío de los aliados. 
+líderes. 
+
+Los jugadores nuevos en los juegos en tiempo real pueden encontrar la brecha entre los tradicionales 
+Juegos de mesa orientados por turnos y el realismo de la ejecución simultánea. 
+frustrante. Recomendamos que los nuevos jugadores primero dominen el arte de la defensa. 
+con el primer escenario y lea el siguiente comentario del mariscal de campo 
+R. Cromwell Bastian III, veterano de la 1'Battaile de la Playtestour'. 
+
+4). NOTAS TÁCTICAS PARA EL SOL DE AUSTERLITZ 
+ESCENARIO 
+2 de diciembre de 1805 
+Atención soldados del ejército austro-ruso: 
+Para enviar adecuadamente a los jefes de Vandamme y St. Hilaire de regreso a 
+Napoleón en bandeja de plata, hay que recordar que la nuestra es una defensa 
+posición, y el ataque sólo se utilizará cuando la victoria sea segura. 
+Debido a que la potencia de fuego es mayor cuando se utiliza la formación en línea, es la mejor manera de atacar. 
+defensa posible. Las unidades apiladas no pueden utilizar la formación en línea, por lo que debemos 
+desapilar nuestras unidades combinadas. Luego nos desplegaremos en formación de línea en el
+a la izquierda del mapa (nuestro flanco derecho), en una posición cercana a la cresta de la pendiente. debido a 
+nuestra posición, los franceses avanzarán cuesta arriba. 
+- Página 20 -
+
+Esto los ralentizará, dándonos más tiempo para contraatacar. 
+y combate de fuego. Nuestra principal fortaleza reside en el 23º regimiento de infantería. nosotros 
+Usaremos este gigante como piedra angular colocándolo en el medio de nuestro 
+línea. Aunque nuestros regimientos son pequeños, tenemos muchos, por lo que una reserva de 
+uno o dos regimientos pueden mantenerse justo detrás de nuestro centro. Formación de columnas 
+debería utilizarse para estas reservas, añadiendo así una velocidad de despliegue que 
+permitirles llenar rápidamente cualquier vacío, y una bonificación de moral en caso de que el cuerpo a cuerpo sea 
+necesario. En caso de que uno de nuestros regimientos se rompa, debemos 
+Mueva inmediatamente una de las unidades de reserva a la cavidad abierta. el 
+El posicionamiento de nuestra unidad de artillería a pie es de suma importancia. es el 
+fuerza que, con suerte, protegerá cualquier intento francés de romper nuestra defensa. 
+Su despliegue debe ser en el centro detrás de nuestra línea, proporcionando así una 
+bombardeo devastador que protegerá a todo nuestro Cuerpo. 
+Nuestras tácticas deberían ser las mismas para los rusos. Mientras que Kollowrath 
+Los austriacos mantienen el flanco derecho, los rusos defenderán el izquierdo. 
+flanco. Una vez más, el posicionamiento de regimientos de reserva justo detrás de nuestra línea es muy 
+importante para que no se aprovechen los avances franceses. Nuestro 
+La artillería a pie rusa debería desplegarse detrás de nuestro centro proporcionando fuego a 
+todos los frentes. 
+Después de que los franceses se hayan golpeado repetidamente en nuestra línea de 
+fuego de mosquete, y se ha desorganizado y se está retirando, ESTE es el momento de atacar 
+y limpiar todo. Colocando a los austriacos de Kollowrath en columna 
+formación, podemos intentar envolver a los franceses moviéndonos alrededor de su izquierda 
+flanco. Con nuestros rusos, nos moveremos en columna hacia su centro (o 
+lo que queda de él) e intentar participar en combate cuerpo a cuerpo usando nuestros regimientos más grandes, 
+inmovilizando así al enemigo y dando tiempo para el envolvimiento austríaco. 
+Si todo tiene éxito, el centro francés quedará destruido y nos permitirá destruirlo. 
+todo su ejército. 
+Tras haber vencido a los franceses en la introducción de 'El sol de Austerlitz' 
+En este escenario, probablemente estés listo para tomar el mando de todo un ejército y 
+conducirlos a la victoria. Si es así, entonces será necesario atacar. muchos 
+A los nuevos jugadores les resulta difícil atacar y se frustran cuando sus unidades 
+derrota. A continuación se ofrecen algunos consejos que le ayudarán a encontrar el éxito. Haga que las unidades lleguen al 
+punto de ataque al mismo tiempo. Si avanzan solos, probablemente lo harán. 
+ser rechazado. Cuando te enfrentes a una línea de defensa, intenta maniobrar alrededor de una 
+Flanco donde puedes poner tres unidades contra una. Los ataques de múltiples unidades son muy 
+tiene éxito y puede provocar un efecto dominó a lo largo de la línea enemiga. 
+Usa la caballería para amenazar a la infantería sin enfrentarte. Si la infantería va 
+en cuadro, use infantería amiga para entrar en combate de fuego y artillería para 
+bombardear la formación compacta. Si el enemigo sale de la plaza, entonces 
+Haga que la caballería avance junto con la infantería, pero aún así no se enfrente. el 
+El error más común en este juego es sentir que una vez que las unidades están adyacentes, una 
+debería tenerlos cuerpo a cuerpo. La mayoría de las víctimas son causadas por combates de fuego, y 
+cuando una unidad enemiga huye. 
+La caballería pesada es la élite de tus tropas de choque. Sin embargo, también fueron 
+frágil. Se necesita tiempo para reorganizarse después de una carga y se fatigan. 
+rápidamente. Guarda la caballería pesada para los momentos de decisión, y si ganas el 
+Batalla sin usarlo, considérate un mejor General. 
+-Página 21 - 
+
+Y finalmente, aprende cuándo reducir el ritmo y permitir que tu ejército 
+recuperarse. Presionarlos demasiado puede hacer que tu ejército se desmoralice, incluso a 
+el punto de la victoria. 
+
+5). NOTAS DEL DISEÑADOR 
+No hay comparación entre Austerlitz y otros juegos de guerra. 
+Austerlitz es el primer juego de guerra informático que comienza a utilizar la tecnología del ordenador.
+capacidades en una gran escala táctica, a diferencia de aquellas débiles, lentas y poco realistas. 
+clones de juegos de mesa. La Inteligencia Artificial que mueve el ordenador 
+El jugador se divide en tres niveles. En el Gran Táctico o nivel más alto, el 
+La computadora analiza la batalla para determinar conceptos generales: dónde atacar, quién. 
+enviar y cuándo retirarse, o lanzar un ataque total. 
+Una vez decidido esto, otro módulo se encarga de la coordinación del 
+elementos de maniobra (divisiones, cuerpos, columnas). Esta fue, con diferencia, la más 
+elemento difícil en el diseño. A partir de este módulo, los objetivos para cada Cuerpo son 
+seleccionados cuáles tienen más probabilidades de lograr el éxito del Gran Táctico 
+plano. 
+Con estos objetivos, el módulo táctico toma el relevo y da las órdenes para 
+las unidades individuales. Aquí cosas como fuego de artillería, unidades alineándose para 
+Se decide el fuego o columna para asaltar las ciudades, y el compromiso de la caballería. 
+Asimismo, se comprueba el estado del Cuerpo, y en su caso, del módulo táctico. 
+Puede anular las órdenes del Cuerpo y darles otras nuevas. 
+Los líderes son muy, muy importantes, aunque no hay ninguno con quien moverse. 
+Los líderes del ejército afectan la forma en que se deciden las Grandes Tácticas. cada uno 
+El elemento de maniobra también se clasifica según el líder involucrado y cualquier otro 
+factor que pueda afectar su desempeño. Uno debería encontrar jugar el 
+Los franceses contra los aliados hay una tremenda diferencia entre lo fácil y lo fácil. 
+nivel más difícil. En lugar de simplemente afectar los números en los cálculos, el 
+La computadora realmente cambiará sus tácticas y utilizará mejor su ejército. yo estaba 
+cansado de tener que bajar la moral de mi bando, y una serie de cosas más en 
+¡Para tener un verdadero desafío! 
+En la batalla real, el sistema de mando francés funcionó bien, aunque 
+hubo algunos problemas cuando Napoleón dirigía la destrucción del 
+Aliados cerca de los estanques. Parece que de alguna manera Murat y Lannes en el lejano 
+La izquierda no recibió las órdenes de Napoleón de avanzar y Bagration escapó. 
+El sistema aliado era abismal. Algunas órdenes aliadas ni siquiera se emitieron 
+hasta pasadas las 8:00 am... ¡y la batalla ya estaba decidida! De hecho, la IA para esto 
+El juego es muchas veces mejor que el comando histórico aliado, pero se mantuvo. 
+de esta manera para fines de juego. Con este sistema de IA, hay 3906 posibles 
+objetivos para cada una de las 140 unidades. Por supuesto el despliegue de los ejércitos. 
+ciertamente reduce esto, pero siento que no tener un sistema basado en 
+Las ubicaciones predefinidas hacen que este juego sea una gran mejora con respecto a muchos que 
+existen hoy. Con la IA tal como está, también podríamos ofrecer al jugador Cuerpos 
+Órdenes. Con esto, el jugador asume la responsabilidad del Gran 
+Coordinación de tácticas y cuerpos, pero permite que la computadora maneje las tácticas. 
+de una situación particular. 
+- Página 22 -
+
+Esto no sólo es más realista, sino que permite centrar la atención en un 
+evento sin que la batalla se pierda de vista. Pero, también como la historia, tú como 
+El comandante puede tomar control personal de cualquier Cuerpo en cualquier momento. 
+El 'tiempo real' también permite tener una idea mucho mayor de cómo fueron las batallas. 
+lucharon y las decisiones tomadas. No hay giros ni fases, y no 
+reglas ridículas o 'puntos' para limitar cosas que no podrían haber sucedido en 
+vida real, pero normalmente lo hacemos en juegos de mesa o juegos de mesa de computadora. un manual 
+Debe explicar cómo jugar, no enumerar reglas que limiten al jugador. Las reglas son 
+intentan encubrir una limitación del sistema. Un ejemplo de esto 
+Sería el dilema de la caballería en un juego de mesa. Debido a su alto índice de 
+movimiento, la caballería normalmente podría ponerse detrás de las unidades en su fase de movimiento 
+y provocar la eliminación de una unidad de forma poco realista. Para contrarrestar esto, las reglas 
+fueron desarrollados para obstaculizar el movimiento de la caballería, siendo el más popular un 
+control de moral antes de moverse en caso de que decidieran "no ir". Sin embargo, 
+Esto en sí mismo es una solución horrible que ahora se ha infiltrado en la computadora.
+industria. En Austerlitz, la caballería se mueve a voluntad. Porque el enemigo puede 
+reaccionar a su movimiento, los alrededores son naturalmente difíciles de lograr. esto es 
+como debería ser. 
+Este juego fue diseñado para ser rápido, emocionante y muy jugable. la mayoría 
+Lo más importante es que el disfrute y la diversión han regresado al mundo estancado. 
+de juegos de guerra informáticos. Espero que las otras empresas más grandes gasten mucho. 
+más tiempo en cada lanzamiento para que la industria pueda revitalizarse y el 
+Se puede detener el actual declive de las simulaciones militares. Vive 1'Empereur! 
+
+Stephen M. Beckett II 
+
+6). ORDEN DE BATALLA 
+Cada líder maniobrable tiene su nombre en NEGRITA. A continuación hay un 
+calificación de cómo ese elemento responde a las ÓRDENES del Cuerpo (basado en Fuerza, 
+Moral y Liderazgo) 
+
+Orden de batalla francés: 
+I Cuerpo Bernadotte, Mariscal Jean Baptiste Jules (por debajo del promedio) 
+
+Kellerman 
+ Húsares 1310 Teniente de Caballería
+Rivaud 
+ 8.º 1910 Infantería 3 cañones 
+ 45.o 1650 Infantería 
+ 54.o 1570 Infantería 
+Drouet 
+ 27L 2010 Infantería 3 cañones 
+ 94.o 1830 Infantería 
+ 95.o 2060 Infantería 
+Artillería de 8.o pie 18 cañones 
+
+- Página 23 - 
+
+III Cuerpo Davout, Mariscal Louis Nicolas (Promedio) 
+
+friante 
+ 108.o 845 Infantería 
+ 15 L 467 Infantería
+ 33.º 750 de infantería 
+ III 664 Infantería 
+ 48.o 583 Infantería 
+Bourcier             
+ Dragones 1447 Caballería Pesada 3 Cañones 
+ 2do H. Artillería 9 Cañones 
+ 
+IV Cuerpo Soult, Mariscal Jean de Dieu 
+St. Hilaire (por encima del promedio) 
+ 10 L 1500 Infantería 
+ 14.º 1600 de infantería 
+ 36.o 1600 Infantería 
+ 43.o 1600 Infantería 
+ 55.o 1600 Infantería 
+ 5to pie. Artillería 16 cañones 
+
+Vandamme (por encima del promedio) 
+ 24L 1350 Infantería 
+ 46.o 1610 Infantería 
+ 57.o 1830 Infantería 
+ 4to de infantería de 1880 
+ 28 de infantería de 1690 
+ Artillería Laribois 17 cañones 
+
+Legrand (por encima del promedio) 
+ 26L 1400 Infantería 
+ 18.o 1200 Infantería 
+ 75.o 1200 Infantería 
+ Tir corses 450 Infantería 
+ Margarón 
+  Ch.a' Cheval 735 Teniente de Caballería 
+
+V Cuerpo Lannes, Mariscal Jean 
+ Suchet (por encima del promedio) 
+ 17L 1450 Infantería
+ 34.o 1300 Infantería
+ 40.o 1360 Infantería
+ 64.o 855 Infantería
+ 88.o 1590 Infantería
+ 7mo pie. Artillería 22 cañones
+- Página 24 -
+
+V Cuerpo (Continuación) 
+
+Caffarelli (por encima del promedio) 
+ 13L 1380 Infantería 
+ 17.° 1420 Infantería 
+ 30.o 1170 Infantería 
+ 51.o 1200 Infantería 
+ 61.o 1230 Infantería 
+ Fauconnet 
+  Ch.a' Cheval 500 tenientes de caballería 
+
+Murat, mariscal Joachim (por encima de la media) 
+ Reserva de Caballería 
+  División Nansouty 1390 Caballería Pesada 
+  División D'Hautpoul 1045 Caballería Pesada 
+  División Walther 1245 Caballería Pesada 
+  División Beaumont 1250 Caballería Pesada (comandada por Boye)
+  División Milhaud 425 Caballería Ligera
+  División Treilhard 305 Caballería Ligera
+  Artillería a caballo Mossel 12 cañones 
+
+Reserva del Emperador 
+ División Oudinot (por encima del promedio) 
+ 1 regimiento de élite 980 de infantería 
+ 2 Rgt.d'elite 1100 Infantería 
+ 3 Rgt.d'elite 1090 Infantería 
+ 4 Rgt.d'elite 1000 Infantería 
+ 5 Rgt.d'elite 1230 Infantería 
+ Reserva de artillería 10 cañones 
+
+Guardia Imperial 
+ Bessieres, mariscal Jean Baptiste (por encima de la media) 
+ Gren.a' Pied 1345 Infantería 
+ Chas.a'Pied 1270 Infantería 
+ Infantería Gd Royal 700 
+ Ordener 1035 Caballería Pesada 
+ Imp.Dios. H.Arty 24 armas 
+ Santone Arty 18 Guns (No se puede mover) 
+
+Ejército austro-ruso:
+Kienmayer, teniente mariscal de campo barón (por debajo del promedio) 
+Guardia de avance del viento izquierdo 
+ N.7 Frontera 500 Infantería 
+ N.14 Frontera 1300 Infantería 
+ N.15 Frontera 1300 Infantería 
+ Infantería Nostitz 1000 
+ Stutterheim 1940 Teniente de Caballería 
+ Stutterheim 12 cañones 
+
+- Página 25 - 
+
+Dokhturov, teniente general (promedio) 
+Primera columna 
+luis
+ 7 Infantería Jag 650 
+ Nuevo Inkermanland 2000 Infantería 6 cañones 
+ Yaroslav 2000 Infantería 6 cañones 
+líderes 
+ Vladimir 2000 Infantería 6 Cañones 
+ Bryansk 2000 Infantería 6 cañones 
+Urusov 
+ Vyatka 2000 Infantería 6 cañones 
+ Moscú 1400 Infantería 6 cañones 
+ KievGren 1000 Infantería 4 cañones 
+ 3 pies. Artillería 24 cañones
+
+Langeron, teniente general conde (promedio) 
+Segunda columna 
+almaima 
+ 8 Jag 1970 Infantería 5 cañones 
+olsuvev 
+ Vibourg 2000 Infantería 5 cañones 
+ Perm 2000 Infantería 5 cañones 
+ Kursk 2000 Infantería 5 Cañones 
+Kamensky 
+ Riazán 2000 Infantería 5 cañones 
+ Fanagoria Gren 2000 Infantería 5 Cañones 
+
+Prebyshevsky, teniente general (por debajo del promedio) 
+Tercera columna 
+Müller 
+ 7 Jag 1275 Infantería 5 cañones 
+ Galicia 1500 Infantería 5 Cañones 
+ Butyrsk 1700 Infantería 5 cañones 
+Wimpfen 
+ Narva 1600 Infantería 5 Cañones 
+ Podolia 700 Infantería 5 cañones 
+ Azov 900 Infantería 5 cañones 
+
+Miloradovich, teniente general (por debajo del promedio) 
+Cuarta columna 
+ Adv. Dios. Apcheron 500 Infantería 
+ Adv. Dios. Novogorod 1330 Infantería 6 cañones 
+Berg 
+ Pequeña Rusia Gren 1500 Infantería 6 cañones 
+ Smolensk 1500 Infantería 6 cañones 
+repninsky                
+ Infantería de Nóvgorod 670 
+ Infantería Apcheron 1000 
+
+Pies Arty.                 12 armas 
+
+- Página 26 -
+
+8). PREGUNTAS FRECUENTES
+
+P: ¿Por qué mis unidades de infantería no se apilan?
+R: Hay una serie de requisitos para que las unidades se fusionen. Primero,
+deben ser de la misma formación. (Cuerpo o Columna). En segundo lugar, el límite en
+un cuadrado son 6350 hombres. En tercer lugar, las unidades deben comenzar una al lado de la otra.
+Esto se hizo para evitar el apilamiento accidental cuando las unidades se solicitan sobre
+grandes distancias. El mejor procedimiento para apilar es el siguiente: mover las unidades
+adyacente, haz que se detengan, dale a uno la orden de pasar al otro.
+
+P: ¿Cómo cambio la formación de una unidad de infantería sin moverla?
+R: Con el cursor sobre la unidad, presione el botón de disparo (la barra espaciadora primero
+tiempo). Cuando aparezca el cursor del color apropiado (línea o columna), mueva el
+cursor lejos de la unidad. Luego muévalo de regreso a la unidad y suelte el fuego.
+(barra espaciadora por segunda vez). Esto no afectará las pilas.
+
+9). CREDITOS DEL JUEGO
+
+Diseño del sistema de juego: Stephen Marhsall Beckett II y Steve Krenek
+IBM: Stephen Marhshall Beckett II, Steve Krenek y Robert Crowell Bastian III
+Atari ST: Stephen Marhsall Beckett II y Robert Cromwell Bastian III
+Capítulo 64: Ray Vallieres, Jr.
+Amiga: Jeff Jones
+Escenarios y mapa: Stephen Marshall Beckett II
+Gráficos por computadora: Kurt Hoover y Stephen Marshall Beckett II
+Diseño manual: Steve Nolan
+Manual de texto: Belgarath
+Orden de batalla proporcionado por: John Wladis
+Consultores históricos: John Wladis y Dave Naquin
+Pruebas de juego: Duane Anthony Schell, Richard Griffith Schell, Steve Nolan,
+Douglas R. Oberle, Woody Nichols, Michael Gilchrist y Karlton S. Patton

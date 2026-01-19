@@ -1,0 +1,253 @@
+TRAPPED AGA/HD (NEW GENERATION SW)
+
+Installing to Harddisk
+
+Enter the first Disk (TRAPPED1) of your set into the floppy and start "Trapped_Install". Then you will be asked for the path where you wish to install TRAPPED. After you have been asked for all Disks of the set you can go to the installed version and start it by clicking "Trapped_Start".
+
+If you use an Amiga with only 2MB of memory you should boot without startup-sequence, switch off all drives which are not necessary for TRAPPED, as the game needs at least 1945000 bytes of free memory!
+
+To run TRAPPED on a standard A1200: Install the game to your Boot partition boot without startup sequence and switch of all!! drives, except the one with TRAPPED on it!
+Force_GFX Mode
+
+With this small tool TRAPPED will be set to a fixed GFX mode.
+Hardware Requirements
+
+    * any Amiga with at least 2MB of memory and an 68020 CPU
+    * 15MB of free Harddisk-Space
+
+Supported Hardware
+
+    * 68020 up to 68060 Processor
+    * if you use a 68030 Processor, please switch of the DataBurst cache to improve the speed of the engine by 5-10 percent
+    * Up to 6MB RAM (not more necessary!)
+
+If you have more RAM following things will be added to the game:
+
+    * Weapon display animations
+    * several texture animations
+    * a module which can be played during the game
+    * several extra sound effects
+    * AntiAlias mode (64KB)
+
+Speeding up the 3D engine
+
+    * pre-shaded textures (700KB)
+    * light calculating tables (64KB)
+    * glowing tables for lens flares (64KB) 
+
+All keys in overview
+
+    - Cursor left/right/up/down: move character
+    - left ALT: attack
+
+    - 'p' toggle active potion              - 'm' toggle automapping
+    - ENTER drink potion                    - 'l' lock guardian drone
+
+    - 'a' rotate view angle left
+    - 's' rotate view angle right            - 'F1' toggle view modes
+    - 'w' restore view angle                 - 'F2' Automap
+                                            - 'F3' Character overview
+    - '7' NumBlock look to roof             - 'F4' Scrolls
+    - '1' NumBlock look to floor            - 'F5' Quit menu
+    - '4' NumBlock restore view             - 'F6' Item Screen
+                                            - 'F7' Fog Screen
+    - '1' Dagger        - '4' Hammer        - 'F8' Options Menu
+    - '2' Sword         - '5' Pike          - 'F9' Spell Book
+    - '3' Morning Star  - '6' War Axe       - 'F10' Statistics
+
+MENUS / SCREENS
+The Automap (F2)
+
+Your already painted dungeon-map will be displayed at the centre of the screen. Here you can see your position, signed by a little yellow arrow showing the direction you are walking and of course walls and the floor.
+
+If you press 'r' at this screen you will toggle a grid to make it easier for the player to paint the maps if wanted.
+Character Overview (F3)
+
+On this screen you can find all the information of your character you need:
+
+    * Actual / Maximum Health
+    * Dexterity (low is better)
+    * Your Strength and the Weapon Strength which is the damage base value if you add them
+    * Normal Speed and Fast Speed (if potion is used)
+    * Your Delay and the Weapon Delay to start a new attack after you punched an enemy
+    * Attack which shows your attacking accuracy
+    * Status: your character class
+    * The magical red/green/blue fog you are carrying
+    * also some specials are shown if activated, e.g. if you are wasted
+
+Scrolls (F4)
+
+At this screen you can see the scrolls, which you have collected in the actual dungeon. If you haven't collected any yet, no screen will appear, if you have collected more than one use the cursor keys to select one.
+Quit Menu (F5)
+
+You may select: Quit (without saving), Save and Quit and Resume.
+
+The actual selection will be shown by a white box, use cursor keys to select. There aren't any different saved games as it is not possible to come to a dead end in this game. At everytime there is a possibility to solve the game.
+
+If you have finished a level the game will be saved automatically.
+Item Menu (F6)
+
+In the item menu you can select one of the items you collected by using the cursor key to select. The selected item will be shown by a lighted border and the name of the item will be displayed on top of the screen. You can activate the item by pressing return so this will be used for your next action, e.g. if you need a key to activate a switch.
+Fog Menu (F7) - The spell casting menu
+
+The Spell menu is divided into two section. The fog you have collected (select area) and the fogs you want to use for casting a spell (cast area).
+
+To select a fog use the cursor keys, for moving it to the cast area use the space key. For casting the spell use enter. If you have moved a wrong spell to the cast area use the <right alt key> to toggle the active area. Use space again after selecting the wrong fog to move it back to the select area, which is your inventory of spells.
+Options Screen (F8)
+
+The options may help you to setup the game to the quality you wish and your machine will calculate. Select an option by using cursor up/down and press space to make your choice. Following options are available:
+
+    View Mode:      pixel ratio, 1x1 - 2x1 OR 2x2 and Graffiti (1x1)
+
+    Floor Mapping:  switches on/off the floor/roof mapping
+
+    Sound Effects:  Filter On/Off / no Sound and Module, which will only
+                    will be possible if you have enough memory.
+
+    Bouncing Movement:
+                    On/Off will toggle between simulating the movement
+                    of your head and a straight movement like flying.
+
+    Scroll Textures:
+                    On/Off will activate/deactivate all kind of texture
+                    movements which are programmed effects like
+                    scrolling, fire, feedbacks.
+
+    Transparency:
+                    On/Off will toggle between rendering with/without
+                    any transparency, e.g. Lens flares.
+
+    Blur Mode:      Off - Blur - Anti Alias
+                    These options will cause a much higher render quality
+                    and they will take lots of rastertime. The AntiAlias
+                    mode is only available with more than 2MB of memory.
+
+    Dynamic Light:  No Lights - Flatshading - Gouraud
+                    This controls the active light functions, with a
+                    higher light rendering quality the game will get
+                    slower, so choose the best for your machine.
+
+    Texture Anims:  on/off These animations are: Weapon Animations,
+                    texture animations, which will only be loaded with
+                    more than 2MB of memory.
+
+    Lens Flares:    on/off will toggle the lens flares
+
+    View Depth:     small - medium - large - xlarge
+                    As this is a polygon routine this value switches the
+                     rendering depth.
+
+    Sound Volume:   10, 20, 30 .... , 100 percent
+
+    Brightness:     Level -4 (low), -3, ... 0 ..., 3, 4 (high)
+
+Reference System:
+
+With using the cursor left/right keys you can choose a hardware configuration which comes closest to your hardware. The options will be set automatically for a smooth gfx display. If you choose an 68040/60 processor you should be sure that you don't have a 68020/30 processor, because this will activate a special chunky to planar converter for 68040/60.
+Spell Book (F9)
+
+In here you can watch the list of spells you already have found during the game. The Spells you know are displayed by small balls in the colour of the fogs you need to cast them.
+
+   1. 'Cure Wounds' will raise your health points according to your experience level.
+   2. 'Light' will generate a magic torch
+   3. 'Speed' accelerates your moving speed for some seconds
+   4. 'Haste' will slow down the environment of your player, so the actions of the hero will happen in half of the time.
+   5. 'Magic Kompass' activates a magic kompass limited time
+   6. 'Magic Map' will show a magical map including all objects, enemies, fireball, etc.
+   7. 'Fireball Resistance' makes you resistant for fireballs, so that they cannot hit you.
+   8. 'Hold Monster' will cause a magical shock to the enemies, so that they are not able move.
+   9. 'Invulnerable' is a mighty spells which reduces every attack to a damage of one hit point.
+  10. 'Monster Fear' will cause fear to all enemies so that they will try to run away from you.
+  11. 'Guardian Drone' activates a magical drone which lets you view in two directions and you can lock the drone to observe a special part of the dungeon.
+  12. 'Static Light' is a spell to lighten a darker area of a dungeon, with a side effect: All the monsters try to move to this light.
+
+MAIN CONTROLS
+Controlling your hero
+
+Mouse and keyboard control is available. Moving the mouse left/right or cursor left/right will turn your running angle. Right mouse button or cursor up will move forward. To move backwards you have to press left shift (mouse control) or cursor down(keyboard control).
+
+To attack a monster press the left mouse button or the left ALT key.
+The function keys
+
+F1 - toggles screen modes to bitplanes 2x2, 2x1, 1x1 or Graffiti 1x1
+F2 - will display your painted map of the actual level
+F3 - Character Screen
+F4 - shows the collected scrolls of the actual level
+F5 - Quit menu
+F6 - Item menu
+F7 - Spell Cast menu
+F8 - Options
+F9 - Your Spell Book will be displayed
+F10 - Statistics Screen
+
+Special hero controls
+
+For looking to the roof/floor you have to use the numeric-key-block. For To look to the roof use '7', for floor use '1', to restore the view use '4'.
+Running angle and viewing angle:
+
+You can change these angle differently, so you can run in another direction as you walk. To turn the viewing angle use the keys 'a' for left and 's' for right, to restore it use 'w'.
+Choosing a weapon
+
+For choosing one out of the six weapons use the keys '1' to '6'. The actual weapon will be shown with a white border or a small animation.
+Using Potions
+
+To toggle between the potions use the key 'p', to drink the selected potion use enter.
+Automapping
+
+To toggle the automapping use the key 'm'. As your player has to paint the map, he will be slower if automapping is activated. If you use a speed potion no automapping is possible, as if the character is running very fast he will not be able to paint a map.
+Switches
+
+To turn on switches you have to press 'space' and if the switch needs an item you have to select it in the item menu.
+Floor Switches
+
+Just walk on the floor switch, this will activate it.
+MAIN SCREEN
+
+On the left you can see the main screen of the game. All actions will take place in the centred black Box and all parameters of your player
+
+are shown at the border. This split will give you a good overview all the time you play. The border is splitted into four main sections, which are the weapons, character values, overviews and actual parameters.
+WEAPONS
+
+There are six different weapons which can be found. These weapons are:
+
+Dagger, which didn't cause big damages, but it can be used very fast. (Good for hunters)
+
+Long Sword, a weapon which is difficult to use, so not all character classes will be a good fighter with it. (Good for fighters, knights)
+
+Morning Star, a mighty weapon if you have learned to use it. (Good for knights)
+
+Hammer, a heavy weapons which can be used by strong characters in a successful way. (Good for barbar, dwarf)
+
+Pike, a long distance weapon which causes big damages to your enemies. (Good for hunters)
+
+War Axe, a very heavy weapon which can kill several monsters with a single strike. (Good for dwarfs)
+
+Each strike with a weapon will cause a delay time to the next possible attack. This is shown by the hand to the left.
+Character Values
+
+There are four main Character parameters which are Strength, Health, Armour and Speed.
+
+The values are displayed in decimal values from 00-99, if one ability will be higher then 99 it will be shown as --.
+
+The light value will be displayed by a line, where a longer line means brighter light.
+OVERVIEWS
+
+On top of the overview section you can see the real-time maps (The box with 'Map' inside) This map can be activated by a spell or by collecting a magical map item. Two different maps are available, one with items, fireballs, etc. and the other without any item and traps. A yellow arrow shows your walking direction in the middle of the map, items and traps will be displayed by white points, walls are light-blue lines and the floor is shown by dark-blue boxes.
+
+The guardian drone can be activated by a spell so you can observe a special position of every dungeon if you lock the drone. Four different potions can be found in the dungeons,
+
+    * a health potion (blue), which refreshes 25 health points
+    * an armour potion (red) refreshes 15 armour points
+    * a strength potion (green) which increases your strength by one
+    * a speed potion (yellow) which makes you run faster for 5 seconds for each potion.
+
+The amount of available potion is displayed in decimal from 00 to 99.
+
+The actual potion is displayed with a brighter value display. (like the armour potion in the picture)
+ACTUAL PARAMETERS
+
+On top of the screen at the left box you can see the actual item you have activated. If you are in the Item-Menu or the Spell-Menu the actual item/fog will be displayed. The six small boxes will show you how long the following spells last: Haste, Fireball Resistance, Hold Monster, Invulnerability, Monster Fear and the automapping.
+
+Below these boxes you will see the compass.
+
+On the right you see the two experience parameters, which are your Level and your experience points.

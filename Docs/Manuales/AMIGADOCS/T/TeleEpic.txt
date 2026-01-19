@@ -1,0 +1,2065 @@
+				TeleEpic
+
+                            Table of Contents
+
+About TeleEpic...............................................5
+BBS Support..................................................5
+BIX Support..................................................6
+Making a Working Copy........................................6
+Hardware Requirements........................................6
+
+TeleEpic Basic Operation.....................................7
+	Loading TeleEpic (512K)..............................7
+	Loading TeleEpic (1 meg+)............................8
+	When the Program Begins..............................8
+	Mouse................................................9
+	Keyboard.............................................9
+	Verification Requesters.............................10
+	TeleEpic Overview...................................10
+
+	TeleEpic Display & Control..........................12
+		Battlefield Terrain Map.....................12
+		Control Panel...............................13
+			Menu/Message Bar....................13
+			Warrior Status Table................14
+			Warrior Tactical Grid...............15
+			Warrior Control Gadgets.............16
+			RECV & Send.........................19
+
+	Warriors & Weapons..................................19
+	Starting TeleEpic...................................23
+	Warrior Movement....................................24
+	Warrior Attacks.....................................25
+	Options.............................................26
+	Playing TeleEpic....................................26
+	Ending TeleEpic.....................................27
+
+TeleEpic Menus -- General Info..............................27
+	TeleEpic Menu.......................................29
+	Scenario Menu.......................................29
+
+	Game Menu...........................................30
+		Choose a Side...............................30
+		Start a Game................................30
+		Cede/End Game...............................30
+
+	TeleComm Menu.......................................30
+		TeleCommunication Mode......................31
+			Sending (Caller)....................31
+			Receiving (Answer)..................31
+			Null Modem Connect..................32
+			TeleConnect OFF.....................32
+		Disconnect (Hangup).........................32
+		Transmit Game and Play......................32
+		Dial Telephone Number.......................33
+
+	Tele Files Menu.....................................33
+		Modem Parameters............................34
+		Opponent Parameters.........................36
+
+	Game Files Menu.....................................37
+		Game Directory..............................37
+		Play Saved Game.............................38
+
+	Options Menu........................................38
+		Turn Timer Settings.........................39
+		Weapon Allotment............................39
+		Attack/Warrior/Turn.........................40
+
+TeleConnect Procedure.......................................40
+	Setting Modem Parameters............................41
+	Voice Contact.......................................43
+	TeleConnect Procedure Summary.......................44
+	TeleConnect -- Another Method.......................45
+
+Appendix A - TeleEpic Directories...........................46
+Appendix B - Using a Hard Disk..............................47
+Appendix C - Trouble Shooting...............................48
+
+			Introduction
+
+1  About TeleEpic.
+2
+3  TeleEpic is the third game in a series of
+4  Telecommunication war games written by
+5  Scott Lamb and published by the Software
+6  Terminal.  TeleEpic allows two players to
+7  play a Medieval, strategy war game against
+8  each other, either over the telephone with
+9  two computers and modems, or on a single
+10 computer.
+11
+12 There are three Battlefield Terrain maps,
+13 across which TeleEpic may be played, each
+14 offering different problems in military
+15 strategy.  The three Battlefield Terrain
+16 Maps in TeleEpic are called KINGS
+17 BRIDGE, VILLAGE WALL & CASTLE KEEP.
+18
+19 Each player controls a small army of
+20 graphically animated medieval warriors,
+21 each of whom can use a variety of hand
+22 weapons: bow and arrows, axes, knives,
+23 and sword.  The warriors form offensive
+24 and defensive formations and fight one
+25 another until one side is victorious.
+26
+27 If you like TeleEpic, then you will also
+28 like TeleWar and TeleWar II, the first two
+29 games in the series.
+30
+31 BBS Support
+32
+33 We ask that you fill out and mail the
+34 enclosed registration card to us.  When we
+35 receive this card, you'll be logged on our
+36 2400 baud bulletin board, Track ][.
+37
+38 All updates and revisions of TeleEpic,
+39 should any be necessary, will be posted in
+40 the FILES area and can be downloaded by
+41 all registered users without delay.
+
+			Page 5
+
+1  A message area is also provided where
+2  comments and questions may be posted,
+3  an TeleEpic players may be found.  We
+4  also ask that you report problems you
+5  might be having with TeleEpic.  Inquiries
+6  will be answered within 24 hours
+7
+8  BIX Support
+9
+10 In addition to maintaining our own BBS,
+11 we maintain a vendor conference on BIX
+12 (Byte Magazine Information Exchange)
+13 under the conference name 'telegames'.
+14 Questions and answers, as well as new
+15 product information, can be found here.
+16
+17 Making a Working Copy of TeleEpic
+18
+19 The TeleEpic program disk is not disk
+20 copy protected.  It may be copied using
+21 any of the regular Amiga copy techniques
+22 from WorkBench or the CLI.  Please read
+23 your Amiga manual for the particulars of
+24 disk copying, if you are unfamiliar with
+25 these procedures.
+26
+27 Before using TeleEpic the first time, we 
+28 recommend that you make a working copy
+29 of the disk.  Please rename the copy
+30 TeleEpic, like the master program disk.
+31
+32 Hardware Requirements
+33
+34 To play TeleEpic you will need an Amiga
+35 computer -- 500, 1000, 2000, etc. -- with
+36 at least 512K of RAM.
+37
+38 To play TeleEpic over the telephone with
+39 another computer you also need an "AT"
+40 command set compatible modem operating
+41 at 300, 1200, 2400 or 9600 baud.
+
+		Page 6
+
+1  Loading TeleEpic (512K)
+2
+3  To play TeleEpic on an Amiga with 512K
+4  of RAM, follow the regular power up
+5  sequence for your Amiga computer (if you
+6  are using an Amiga 1000, then be sure not
+7  to forget the Kickstart disk.)
+8
+9  When your Amiga computer requests the
+10 1.2 Workbench disk, insert the TeleEpic
+11 working copy in the internal disk drive.
+12 TeleEpic will then autoboot.
+13
+14 If you have only 512K of RAM in your
+15 Amiga, then you MUST disconnect any
+16 external disk drives mounted on your
+17 system.  Turn off the computer before
+18 disconnecting your disk drives.
+19
+20 We apologize for this inconvenience, but
+21 feel that most of you would rather have
+22 the extra game features requiring the 30K
+23 of memory that would otherwise be used
+24 by each external disk drive.
+25
+26 Amigas with more than 512K of memory
+27 are not limited by these memory
+28 constraints, and may have external drives
+29 attached to the computer.
+30
+31 Note:  TeleEpic requires all 512K of
+32 memory to operate.  Consequently, unless
+33 more than 512K is installed in your Amiga
+34 there will not be enough memory to run
+35 both TeleEpic and the Workbench at the
+36 same time.  In addition there will be a
+37 few second delay whenever the slide up
+38 screens are accessed (Modem & Opponent
+39 Parameters, and Game Directory).
+40
+41
+
+		Page 7
+
+1  Loading, TeleEpic (1 MEG + RAM)
+2
+3  Boot up your Amiga with your usual
+4  custom Workbench Disk.  Then place your
+5  working copy of TeleEpic in any drive,
+6  and start up the program using the icon
+7  provided in the directory window.
+8
+9  TeleEpic is a smart program, and will find
+10 itself and its file directories, whether it
+11 resides on any of the floppy drives df0,
+12 df1, df2, or df3.
+13
+14 Of course you may also boot up with the
+15 TeleEpic working copy.  If you have 1 meg
+16 or more of RAM in your Amiga, you may
+17 want to edit the startup-sequence of the
+18 working copy to remover the "low"
+19 parameter, so the program will not delay
+20 after slide up screens are accessed.
+21
+22 When the Program Begins
+23
+24 When TeleEpic loads into the computer, 
+25 the Credits picture displays on your 
+26 monitor.  To exit the Credits and to play
+27 TeleEpic, click the left mouse button.  A
+28 requester will appear and ask you for a
+29 manual validation character.
+30
+31 You will be requested to type in the 1st
+32 letter of a random word from the TeleEpic
+33 manual.  For example, the requester may
+34 ask for the first letter from
+35
+36    Page 12      Line 14     Word 5
+37
+38 After you find and type in the correct 
+39 letter, the King's Bridge Battlefield map
+40 will load.  TeleEpic is ready to begin.
+41
+
+		Page 8
+
+1  Mouse
+2
+3  TeleEpic uses the familiar Intuition user
+4  interface.  You interact with the program
+5  with the mouse.  The left mouse button
+6  always allows you to select and move game
+7  pieces, and make requester and control
+8  panel gadget selections.  The right mouse
+9  button is used to display and select menu
+10 options that control program operations.
+11
+12 IMPORTANT WARNING!
+13
+14 IMPORTANT!!  WHEN TELECOMMUNICATED,
+15 DON'T HOLD DOWN THE RIGHT MENU
+16 BUTTON UNLESS ABSOLUTELY
+17 NECESSARY, AS IT WILL PREVENT
+18 SERIAL PORT READS, AND POSSIBLY
+19 CAUSE YOUR AMIGA TO MISS YOUR
+20 OPPONENT'S MOVES, THUS DISRUPTING
+21 THE GAME!
+22
+23 Keyboard
+24
+25 The keyboard of the your computer is used
+26 to input filenames specific modem and 
+27 opponent telecommunication parameters,
+28 and messages (once a teleconnection has
+29 been established).
+30
+31 Using the SEND and RECV lines at the
+32 display's bottom messages between players
+33 may be typed at any time during a game.
+34 Because of the intense time requirements
+35 of TeleEpic during game piece animation,
+36 however (simultaneous graphics, sound and
+37 telecommunications), the letters you type
+38 are temporarily buffered and not actually
+39 displayed until after all animation has been
+40 completed.
+41
+
+			Page 9
+
+1  Verification Requesters
+2
+3  A verification requester appears in the 
+4  center of your Control Panel, and in the
+5  center of all scrolling disk access screens,
+6  whenever you request an action that might
+7  effect the current game configuration.
+8  Moving the mouse pistol pointer within the
+9  borders of a verification requester and
+10 clicking the left mouse button will
+11 generally cause the requested action to the
+12 initiated, while moving the mouse pointer
+13 outside the borders of the requester and
+14 clicking the left mouse button will
+15 generally then cancel the requested action.
+16
+17 These requesters are designed to protect
+18 you from accidentally initiating an action
+19 that may irreversibly change some aspect
+20 of game play, or inadvertently break the
+21 teleconnection.
+22
+23 Please read these requesters carefully
+24 before responding to them, otherwise you
+25 may initiate an action that you actually do
+26 not want to occur.
+27
+28 TeleEpic Overview
+29
+30 TeleEpic allows two computer users with
+31 modems to play a graphically animated,
+32 medieval strategy war game against one
+33 another over the phone.  Two players may
+34 also play on a single computer.
+35
+36 Three perspectively viewed Battlefield
+37 Terrain Maps are provided, King's Bridge,
+38 Village Wall, and Castle Keep, across
+39 which you must battle the forces of your
+40 opponent to victory or defeat.
+41
+
+			Page 10
+
+1  Both sides in TeleEpic have 12 animated
+2  individual warriors, each with different
+3  names and abilities, which move and fight
+4  on command.
+5
+6  To select any warrior, simply point the
+7  knife tip of the mouse pointer to any
+8  warrior visible on the Battlefield Map, or
+9  to one of the friendly colored positions
+10 marked on the Tactical Grid, and press the
+11 left mouse button.  The chosen warrior
+12 will now be marked by a surrounding
+13 yellow bracket.
+14
+15 To MOVE the warrior, point the mouse
+16 cursor to another Battlefield Map location
+17 and press the left mouse button.  The
+18 warrior will attempt to walk to the
+19 selected destination.
+20
+21 To ATTACK with the selected warrior,
+22 choose a weapon from the Weapon Ready
+23 Gadget Cluster and an Attack direction
+24 from the Attack Direction Gadget Cluster.
+25 Now click on the ATTACK gadget, and the
+26 selected warrior will attack the closest
+27 enemy warriors in that direction.
+28
+29 Each warrior has four weapon types --
+30 Bow and Arrows, Knives, Axes and a Sword 
+31 -- with which to fight.  The RANGE and
+32 POWER of each weapon type varies with
+33 the abilities of each warrior.  When a
+34 warrior uses the last of a given weapon
+35 type, then he must choose another.
+36
+37 A player's turn lasts until each warrior
+38 has either moved and attacked once, or
+39 the Turn Timer runs down to zero.  Play
+40 can be passed to the other player at any
+41 time by clicking the PASS gadget.
+
+			Page 11
+
+1  At the start of a game warriors possess a
+2  number of Hit Points and indicate their
+3  life strength.  Each time a warrior is hit
+4  by an enemy attack, he takes a wound
+5  which reduces his Hit Points.  If a warrior
+6  receives too many wounds and the Hit
+7  Points decreases to zero, then the warrior
+8  dies.  Dead warriors remain on the
+9  Battlefield Map for three turns before they
+10 are automatically removed.
+11
+12 Warriors may be RESTED or HEALED
+13 during a game, which will restore their
+14 depleted Hit Points to varying degrees.
+15
+16 The goal of TeleEpic is to kill every
+17 enemy warrior -- not an easy task!  When
+18 arrows and axes fill the air, and swords
+19 clash, there can be but one victor.
+20
+21 TeleEpic Display and Control
+22
+23 The TeleEpic display is divided into two
+24 sections.  The upper half screen is the
+25 Battlefield Terrain Map, while the lower
+26 half of the display is referred to as the
+27 Control Panel.
+28
+29 Battlefield Terrain Map
+30
+31 The Battlefield Terrain map is a close-up
+32 prospective view of the current TeleEpic
+33 battlefield with both the BLUE and RED
+34 warriors in position.  At any given time
+35 one-sixth of the Battlefield Map is
+36 displayed on the screen.  Warrior
+37 movement and attacks are graphically
+38 animated on this Battlefield Terrain Map.
+39 Only those areas of the map containing
+40 one of his warriors may be viewed by the
+41 player.
+
+			Page 12
+
+1  Control Panel
+2
+3  The lower half of the TeleEpic display is
+4  the Control Panel.  The Control Panel is
+5  comprised of five distinct areas which
+6  provide information, warrior control, and a 
+7  user-to-user interface.  These sections are
+8  as follows:
+9
+10	(1) The Menu/Message Bar
+11	(2) Warrior Status Table
+12	(3) Warrior Tactical Grid
+13	(4) Warrior Control Gadgets
+14	(5) RECV & SEND Messages
+15
+16
+17 (1) Menu/Message Bar
+18
+19 The black bar separating the Control Panel
+20 and the Battlefield Map display, is the 
+21 Menu and Message Bar.  Don't let the
+22 location fool you.  This is the same type
+23 of Intuition Menu bar that usually sits at
+24 the top of the screen in other Amiga
+25 programs.
+26
+27 The TeleEpic menu bar will be displayed
+28 whenever the right mouse button is 
+29 pressed.  Refer to the Menus section in
+30 this manual to learn about the operation
+31 of each menu.
+32
+33 During a game of TeleEpic, the Menu Bar
+34 displays MESSAGES to you, the
+35 commander, from your RED or BLUE
+36 warriors.  If you do not know the result
+37 of your last action, read the message that
+38 is displayed.  For example, if you have
+39 just attacked an enemy warrior, you will
+40 be informed as to whether or not you
+41 wounded that warrior.
+
+			Page 13
+
+1  (2) Warrior Status Table
+2
+3  At the far left of the Control Panel is the
+4  Warrior Status Table.  The status of the
+5  selected ordnance is always displayed in
+6  this table.  Whether a warrior has the
+7  weapons and the ability to complete a
+8  mission, as well as enough Hit Points to
+9  survive a mission, can be determined with
+10 a glance at this table.
+11 !----------------------------------!
+12 ! NAME |   Fletch    Arrowquiver   !
+13 !----------------------------------!
+14 ! Weapon | Qnt | Rng | Pow | BLUE  !
+15 !----------------------------------!
+16 ! Arrows |  7  |  7  |  8  |Stride !
+17 !--------------------------|   5   !
+18 ! Knives |  1  |  2  |  3  |-------!
+19 !--------------------------|Hit Pt !
+20 ! Axe    |  1  |  3  | 10  |  29   !
+21 !--------------------------|       !
+   ! Sword  |  1  |  1  |  7  |       !
+   !----------------------------------!
+22 The Warrior Status Table lists warrior data
+23 in the following areas.
+24
+25 Warrior Name -- Each warrior has a name
+26 by which you can recognize that individual
+27 warrior.  Since each warrior has different
+28 strengths and weaknesses, it is important
+29 that a player learn the names of his
+30 warriors.
+31
+32 Player's Turn -- The warrior color whose
+33 turn is current is displayed in the Warrior
+34 Status Table to the far right of the line
+35 beneath the warrior's name.
+36
+37 Warrior Stride -- the maximum mobility
+38 range for the selected warrior, where 1
+39 stride unit will move the warrior one
+40 horizontal or one vertical square on the
+41 Warrior Tactical Grid (22x15).
+
+			Page 14
+
+1  Hit Points -- the constitution of that
+2  warrior, where zero Hit Points means the
+3  warrior is dead.  Each warrior begins with
+4  different maximum Hit Points.  Hit Points
+5  may be restored by Resting or Healing a
+6  warrior.
+7
+8  Warrior Weapon Table -- The Weapon
+9  Name, Quantity (QNT), Range (RNG), and
+10 Power (POW), of each weapon type is
+11 displayed in the Warrior Status Table.
+12
+13	Quantity is how many of these
+14	weapons the warrior possesses.
+15
+16	Range is the effective horizontal
+17	distance of this weapon, where 1
+18	unit equals one cell on the 22x15
+19	Warrior Tactical Grid.
+20
+21	Power is the amount of Hit Point
+22	damage done to an enemy when
+23	this warrior uses this weapon.
+24
+25 (3) Warrior Tactical Grid
+26
+27 The middle of the Control Panel displays
+28 the Warrior Tactical Grid.  The Warrior
+29 Tactical Grid display the whole Battlefield
+30 Terrain Map under a 22x15 grid overlay,
+31 upon which prominent Battlefield Map
+32 features are displayed.
+33
+34 The Terrain Grid Map displays positions
+35 for each warrior color whose turn is
+36 current, and the last known positions of
+37 previously detected enemy warriors.
+38 Enemy warrior positions are updated
+39 whenever a player selects a friendly
+40 warrior in the vicinity.
+41
+
+			Page 15
+
+1  Position updates occur when the map area
+2  in question is displayed within the upper
+3  Battlefield Map display.  When a player no
+4  longer has any warriors in that area, it is
+5  not possible to view that area.
+6
+7  The selected warrior indicates its Warrior
+8  Tactical Grid position by blinking on and
+9  off.  Another friendly warrior may be
+10 chosen for action by clicking one of the
+11 friendly colored squares on the Tactical
+12 Grid map with the mouse.  RED squares
+13 indicate RED WARRIORS, while YELLOW
+14 squares indicate BLUE WARRIORS.
+15
+16 (4) Warrior Control Gadgets
+17
+18 At the far right of the Control Panel are
+19 the WARRIOR COMMAND GADGETS which
+20 are used to indicate warrior actions.  These
+21 gadgets have been separated into four
+22 distinct clusters.
+23
+24 Activity gadgets are MOVE and ATTACK, 
+25 and are RED colored if still active for
+26 that warrior in a given turn.  Selection
+27 gadgets are REST and HEAL, BOW, KNIFE,
+28 AXE, and SWORD under Weapon Ready,
+29 and the current Attack direction.  Choice
+30 gadgets are BLUE whenever selected and
+31 WHITE when not selected.
+32
+33 Attack Direction Cluster
+34
+35 The Attack Direction      NW -N- NE
+36 Gadget Cluster will     -W- --|-- -E-
+37 display the firing        SW -S- SE
+38 angle for a selected
+39 warrior.  Eight firing
+40 angles are available.
+41
+
+			Page 16
+
+1  Primary Command Gadget Cluster
+2
+3  The Primary Command     !-----------------------!
+4  Cluster has gadgets     ! <<   |   180   |   >> !  
+5  that page through the   !-----------------------!
+6  warrior list in either  ! Move |  Attack | Pass ! 
+7  direction, to indicate  !-----------------------!
+8  MOVE, PASS or FIRE.
+9
+10 <<  >> -- The BACKWARD and FORWARD
+11 gadgets page through the warrior list for
+12 those remaining on the Battlefield.
+13
+14 MOVE -- This gadget indicates whether
+15 the selected warrior has moved this turn.
+16 Actual warrior movement is always
+17 commanded in the Battlefield Map display
+18 (See MOVEMENT on page 24).
+19
+20 ATTACK -- This gadget is chosen to
+21 Attack with the Weapon Ready of the
+22 selected warrior.  The current attack
+23 direction is always indicated in BLUE on
+24 one of the eight Attack Direction Compass
+25 Cluster gadgets.
+26
+27 PASS -- PASS is chosen whenever a player
+28 has finished warrior activity and wishes to
+29 PASS the turn to his opponent, even
+30 though the Turn Length Timer has not yet
+31 reached zero.
+32
+33 Weapon Ready Gadget Cluster
+34
+35 Selects a Weapon with       !----------------!
+36 which that warrior          !  Weapon Ready  !
+37 will ATTACK.  When          !----------------!
+38 a warrior runs out of       ! Bow  ! Knife   !
+39 a weapon, another           !----------------!
+40 must then be chosen.        ! Axe  ! Sword   !
+41                             !----------------!
+
+			Page 17
+
+1  Rest and Heal Gadgets
+2
+3  The REST and HEAL         !------!
+4  gadgets allow a           ! Rest !
+5  warrior to recover        !------!
+6  lost Hit Points, when     ! Heal !
+7  they get so low he is     !------!
+8  danger of dying.
+9
+10 REST restores 8 Hit Points to the warrior
+11 who is resting.  A rest lasts for one
+12 complete turn.
+13
+14 For a warrior to select REST, he must not
+15 MOVE or ATTACK that turn.  The Hit
+16 Points will be added to the Hit Posts for
+17 that warrior on his next turn.
+18
+19 However, if an enemy warrior should
+20 wound the resting warrior before the next
+21 turn begins, then his rest will be 
+22 interrupted and he will not receive the 8
+23 Hit Points.
+24
+25 HEAL restores all Hit Points to the
+26 warrior who has been healed.  A healing
+27 takes three complete turns, during which
+28 time the warrior cannot move or attack an
+29 enemy warrior.
+30
+31 For a warrior to select HEAL, he must not
+32 MOVE or ATTACK that turn.  All Hit
+33 Points will be restored to that warrior
+34 after three turns have passed.
+35
+36 However, if an enemy warrior should
+37 wound the healing warrior during any of
+38 the three turns needed for the healing
+39 process, then his healing will be
+40 interrupted and he will not receive any Hit
+41 Points at all.
+
+			Page 18
+
+1  (5) RECV and SEND Message Lines
+2
+3  The RECV and Send message lines
+4  displayed across the bottom of the Control
+5  Panel are only activated after a connection
+6  is established with another computer.  All
+7  alphanumeric keys typed on the keyboard
+8  will be displayed on the SEND line.  Some
+9  line editing is allowed, such as cursor
+10 keys, back space and the DEL key.
+11
+12 Message text will be transmitted to the
+13 teleconnected computer either when the
+14 RETURN key is pressed, or when the end
+15 of the SEND line is reached.
+16
+17 The RECV message line displays incoming
+18 text messages from your teleconnected
+19 opponent.  A chime sounds as an incoming
+20 message is received to alert the player to
+21 read the message.
+22
+23 With some modems the RECV line will
+24 echo your SEND message after it is typed
+25 should the teleconnection be broken.
+26
+27 Warriors and Weapons
+28
+29 Both armies are comprised of twelve
+30 warriors, who are positioned on the
+31 Battlefield Map at the start of each
+32 TeleEpic game.  Each of the three
+33 Battlefield Maps offers four game piece
+34 scenarios with various warrior placement.
+35
+36 Each warrior is individual -- that is, he
+37 differs in Name, Stride, Hit Points, and
+38 ability to use each weapon.  It is
+39 important for players to use the warriors
+40 effectively, together and alone, to
+41 maximize the effectiveness of each.
+
+			Page 19
+
+1  Every warrior in one army has a 
+2  counterpart in the other army, who
+3  possesses the same warrior stats.  So both
+4  sides in the conflict are equal at the start
+5  of a game.  Some warriors are light of
+6  foot, and move swiftly from place to
+7  place, while others are heavy and slow.
+8  Some are excellent swordsman, while
+9  others excel with a bow or an axe.  Some
+10 have the constitution and stamina to
+11 withstand many blows, while others die
+12 quickly.
+13
+14 A brief description of each red warrior
+15 and his blue counterpart follows.
+16
+17 Lord Justin & Prince Aragon are the
+18 aristocratic leaders of the two armies.
+19 Trained in the art of war from an early
+20 age, they are deadly with all weapons,
+21 swift of foot, and possess average stamina.
+22 As the finest swordsman in the realm they
+23 are valuable at the end of a game, when
+24 projectile weapons are scarce and swords
+25 are all that remain.
+26
+27 Martin Trueflight & Fletch Arrowquiver
+28 are forest hunters.  The bow and arrow is
+29 their weapon, though they are also good
+30 swordsman.  Their Stride and Hit Points
+31 are average to low.  They are useful most
+32 when used for long range Bow attacks.
+33
+34 Baron von Krieg & Balthizar Ali are each
+35 foreign mercenaries who fight for gold
+36 rather than glory.  Their average to low
+37 weapon ability and Stride is offset by
+38 battle experience that reflects in rather
+39 high Hit Points for each.  They are useful
+40 to lead an attack, to soak up blows that
+41 would kill lesser warriors.
+
+			Page 20
+
+1  Monsieur Epcet & Don Agil Espada are
+2  young foreign noblemen sent by their
+3  titled families to learn the art of war.
+4  Their youth gives them a rapid stride, and
+5  their training makes them better than
+6  average with all weapons.  Their lack of
+7  experience reflects itself in average to low
+8  Hit Points.  They will account for
+9  themselves well in battle, though they may
+10 not live long.
+11
+12 Elric Quickstroke & Rapier Thrust are both
+13 accomplished men at arms.  They are
+14 excellent with all weapons, especially
+15 swords, are quick of foot, and of average
+16 Hit Points.  both are efficient fighters and
+17 will get the job done.  Their passage will
+18 be marked with the bodies of fallen
+19 enemy.
+20
+21 Grey Ferret & Dirk Poniard are thieves by
+22 trade, forced to join the war to escape
+23 the gallows.  The knife is their weapon of
+24 choice.  Each is fast and silent of foot,
+25 though low in Hit Points.  Placed in the
+26 front lines, they will quickly die.  But if
+27 they are kept in the shadows at the edge
+28 of a fray, their knives will take their toll.
+29
+30 Eric Stoutheart & Balantine Brusk are
+31 sturdy serfs who took service in the army
+32 of their liege lord to escape working in
+33 the fields.  They are average with most
+34 weapons, as well as average in stride.  Hit
+35 Points are average low.  They will fight
+36 because they know nothing else.  It is
+37 unfortunate, but true, that success in
+38 battle is often built on such warriors, who
+39 die that others may conquer.
+40
+41
+
+			Page 21
+
+1  Braddock Dala & Duke Celibrian are
+2  noblemen fighting for fame, love, and
+3  glory.  They are well trained and
+4  experienced in all weapons, especially the
+5  sword, have better than average stride, 
+6  and average Hit Points.  Their expertise is
+7  invaluable in any fight, but more so at the
+8  end of a game when projectile weapons
+9  run short.
+10
+11 Goldie Chimera & Scarlet Sage are dandies
+12 who are distant relations of important
+13 people (nobody can remember whom).
+14 They have higher opinions of themselves
+15 than justified by their abilities, which are
+16 average at best.  In their favor, is an
+17 uncanny luck, which is reflected in very
+18 high Hit Points.  No one complains when
+19 these two are placed in the front lines of
+20 a battle.  They are survivors.
+21
+22 Robin Locksley & Warden Forester are two
+23 more forest hunters who excel with a bow
+24 and arrows as well as a sword.  They are
+25 very fleet of foot, but low in Hit Points.
+26 Use there long bows from a distance.  If
+27 they can empty their quivers before they
+28 are killed, then it is unlikely that many
+29 enemy survive.
+30
+31 Giantkiller & Theron Axewielder are exiled
+32 mountain dwarfs of ancient feuding
+33 families.  They each have strength that is
+34 unequalled by normal men, who flee the
+35 power of their axes.  The might of their
+36 Hit Points is renown.  They ignore wounds
+37 that kill others.  However, each is slow of
+38 stride and a very poor swordsman.  It is
+39 important that every axe they carry takes
+40 a toll on the battle.  Use them to turn
+41 the tide of battle.
+
+			Page 22
+
+1  Bangor Hatchett & Haibard Berserker are
+2  barbarians giants of warring tribes from
+3  the eastern steppes.  They know how to
+4  fight with any weapon.  But it is with the
+5  axe that cut a swath through their foes,
+6  like a scythe through wheat in a field.
+7  They may be slow of foot, but have Hit
+8  Point so very high that they are difficult
+9  to bring down.  Like the dwarfs they can
+10 be used to break the lines of the enemy.
+11 If every axe has found its mark, then at
+12 the very least, the enemy will hold no
+13 advantage.
+14
+15 Starting TeleEpic
+16
+17 TeleEpic will begin when you select "Start
+18 a Game" under the "Play" menu.  A small
+19 data file loads from the disk and the game
+20 begins.  The side (RED or BLUE) that is
+21 currently chosen on the play menu always
+22 begins.
+23
+24 Once a game has begun, the positions of
+25 all friendly warriors are displayed on the 
+26 Warrior Tactical Grid.  The selected warrior
+27 will be marked with a yellow bracket on
+28 the Battlefield Map display, and his
+29 location will blink on the Warrior Tactical
+30 Grid.
+31
+32 In order to select a different warrior,
+33 point the mouse knife pointer at any other
+34 warrior on the Battlefield Map display and
+35 click the left mouse button.  The
+36 battlefield Map display then realigns itself
+37 to the new warrior, centering it in the 
+38 display when possible.  The Warrior Status
+39 Table now displays stats for the warrior,
+40 and all the Command Gadgets reflect his
+41 remaining options.
+
+				Page 23
+
+1  Another warrior, in particular those not in
+2  view in the Battlefield Map display, can be
+3  chosen by clicking the mouse pointer
+4  pistol on a friendly colored warrior that is
+5  marked in RED or YELLOW on the Warrior
+6  Tactical Grid.
+7
+8  Warrior Movement
+9
+10 The selected warrior that is within the
+11 boundaries of the yellow bracket can be
+12 ordered to move by simply pointing the
+13 mouse pointer to another location in the
+14 Battlefield Map display and clicking the
+15 left mouse button.  If the location isn't
+16 impassable (occupied by another warrior,
+17 trees, water, stone, etc.), and is within
+18 the STRIDE range of the warrior, then he
+19 will do his best to move to the selected
+20 location, avoiding any impassable
+21 obstructions.
+22
+23 TeleEpic analyzes the move and calculates
+24 the best route to reach that destination,
+25 taking into consideration the terrain
+26 crossed and the STRIDE of the warrior.
+27 Sometimes the warrior will not reach the
+28 destination, however, because a bridge, a
+29 hill, stairs, furniture, etc. slow his
+30 progress.  Sometimes the destination lies
+31 just outside the warrior's STRIDE range,
+32 s he does the best he can with what he
+33 has.
+34
+35 Usually, movement orders that are within
+36 the STRIDE range of the warrior are more 
+37 likely to be successfully carried out.  In 
+38 any war pushing troops beyond their limits
+39 can be counter productive.
+40
+41
+
+				Page 24
+
+1  Warrior Attacks
+2
+3  The game default mode allows each warrior
+4  to attack once per turn.  If the Double
+5  Attack option is enabled under the Options
+6  Menu, then each warrior may ATTACK,
+7  MOVE, then ATTACK again.
+8
+9  Set the Attack Angle by first selecting a
+10 compass angle from the eight gadgets in
+11 the Attack Direction Gadget Cluster.  Then
+12 clicking the ATTACK gadget causes that
+13 warrior to attack.  When a warrior has
+14 attacked with a projectile weapon (arrow.
+15 knife, or axe), the weapon continues in a
+16 straight path until either it:
+17
+18 (1) hits the first enemy warrior reached,
+19 (2) reaches its effective weapon range,
+20 (3) hits an impassable object,
+21 (4) reaches a Battlefield Map boundary.
+22
+23 To use a sword, the warrior must be on a
+24 square adjacent to an enemy warrior.
+25
+26 Because of the narrow vertical view of the
+27 Battlefield Map display, it is possible to
+28 hit an enemy warrior who is one row off
+29 the top or bottom of the Battlefield Map
+30 display.
+31
+32 Warriors cannot attack warriors colored
+33 like themselves.  The weapons are assumed
+34 to pass over their heads.
+35
+36 The victor in TeleEpic is he who best uses
+37 his warrior strengths.  Remember the
+38 defensive stats of each enemy warrior.  Do
+39 not waste a 12 power axe attack on a
+40 warrior who has only 4 Hit Points, but
+41 throw a 4 Power knife instead.
+
+				Page 25
+
+1  Options
+2
+3  The Options menu offers game options that
+4  can be set before a game is begun.  These
+5  include Setting the Turn Timer, Weapon
+6  Allotment, and Attack/Warrior/Turn.
+7
+8  Turn Timer Settings -- The Turn Timer
+9  forces the turn to change after a certain
+10 number of minutes have elapsed.  The timer
+11 defaults to three minutes.  However,
+12 anything from 30 seconds to 5 minutes, for
+13 the maximum length of a player's turn,
+14 may be set as an "Options" menu selection.
+15 The shorter the time allotted, the fewer
+16 warriors a player is able to move during
+17 the course of a turn.
+18
+19 Weapon Allotment -- Weapon Allotment
+20 sets the number of projectile weapons per
+21 warrior to either FIVE or NINE (the 
+22 default).  With FIVE weapons allotted to
+23 each warrior, the game will usually end
+24 with many sword duels.  This provides an
+25 interesting variation to NINE weapons,
+26 wherein the warriors rarely run out of
+27 projectile weapons.
+28
+29 Attack/Warrior/Turn -- This option allows
+30 a game to be played with a Single Attack
+31 per Warrior per Turn mode (the default),
+32 or a Double Attack per Warrior per Turn
+33 mode.  In Double Attack mode warriors
+34 may ATTACK, MOVE, then ATTACK again.
+35
+36 Playing TeleEpic
+37
+38 When TeleEpic is teleconnected to another
+39 computer, every correct moves made on
+40 one computer are echoed on the other.
+41
+
+			Page 26
+
+1  The one exception to this is that the
+2  receiving computer does not receive the
+3  opponent's Warrior Tactical Grid.
+4
+5  Expect most players to take a few minutes
+6  to make moves at the start of a game of
+7  TeleEpic.  Use this time wisely by reading
+8  enemy warrior stats (call them intelligence
+9  reports), marking the weaker warriors as
+10 good targets.  Turns will take less time as
+11 warriors are killed.
+12
+13 Ending TeleEpic
+14
+15 Once all of a player's warriors have been
+16 killed, he has lost the game and must
+17 select END/CEDE GAME under the PLAY
+18 menu before another game can begun.
+19
+20 Menus -- General Information
+21
+22 TeleEpic menu headings are displayed when
+23 the right mouse button is depressed.  By
+24 moving the mouse pointer over these menu
+25 headings, items for each are displayed.
+26 Moving the cursor down the menu item list
+27 will highlight each item.  Releasing the
+28 right menu button whenever any menu
+29 item is so highlighted it will select it.
+30
+31 Sometimes, when a menu item is selected,
+32 it causes other menus and menu items to
+33 be activated or deactivated (ghosted).
+34 Ghosted menu items cannot be selected.
+35
+36 When teleconnected to another computer,
+37 the menus are accessible only to the
+38 player whose turn is current.  Menus are
+39 not usually available to the player
+40 receiving these moves, although they can
+41 be activated.
+
+				Page 27
+
+1  Whenever Intuition receives a signal from
+2  the right mouse button, it stops doing
+3  everything else -- including reading the
+4  data coming in the serial port.  If a game
+5  move should be received at the serial port
+6  while the right mouse button is depressed,
+7  then that move can be misread, or even
+8  lost.
+9
+10 This means the teleconnected computers
+11 would each display a different TeleEpic
+12 game configuration which obviously will
+13 not work.  TeleEpic requires that both
+14 computers match at all times, otherwise,
+15 continuation of the game is impossible.
+16
+17 This problem will not effect TeleEpic, as
+18 long as the players do not use the right
+19 mouse button during game play when they
+20 are receiving opponent moves.
+21
+22 If menus must be accessed to save a game
+23 in progress, then a player should only do
+24 so when it is his turn.  This minimizes the
+25 possibility of interrupting game play
+26 transmissions.
+27
+28 If it is ABSOLUTELY necessary to access
+29 the menus when they are turned off and
+30 you are receiving your opponent's moves,
+31 they can be re-activated by clicking on
+32 the menu/message bar with the mouse
+33 pointer.
+34
+35 But please let your opponent know what
+36 you are doing so he can delay moving
+37 until you are finished with the menus.
+38 Otherwise it is very likely that the game
+39 will become scrambled between the two
+40 computers.
+41
+
+			Page 28
+
+1  (I) TeleEpic Menu
+2
+3  The TeleEpic Menu offers four possible
+4  menu selections.
+5
+6	(1) King's Bridge
+7	(2) Village Wall
+8	(3) Castle Keep
+9	(4) Exit TeleEpic
+10
+11 The first three selections load and play
+12 the different Battlefield Terrain Maps.
+13 When teleconnected, it is imperative that
+14 both the computers play on the same map,
+15 otherwise the game cannot be started.
+16
+17 Exit TeleEpic will end the program and
+18 return all memory and resources back to
+19 your Amiga.
+20
+21 (II) Scenario Menu
+22
+23 The Scenario Menu offers four game
+24 scenarios wherein warrior placement varies.
+25 When teleconnected, the scenario selected
+26 on the computer that starts the game will
+27 be the scenario that is played.
+28
+29 In King's Bridge and Castle Keep the
+30 scenarios place the warriors as follows:
+31
+32	Scenario #1: plays Right to Left
+33	Scenario #2: plays Diagonally
+34	Scenario #3: plays Top to Bottom
+35	Scenario #4: plays an X pattern
+36
+37 In the Village Wall the four scenarios have
+38 been set to warrior placements that give
+39 either RED or BLUE an advantage.  All
+40 these scenarios play Top to Bottom.
+41
+
+			Page 29
+
+1  (III) Game Menu
+2
+3  The Game Menu offers the following three
+4  options:
+5
+6	(1) Choose a Side
+7	(2) Start a Game
+8	(3) Cede/End
+9	Game
+10
+11 (1) Choose a Side selects either BLUE or
+12 RED as the army color of the first player.
+13 This selected color will start the game.
+14
+15 When teleconnected, the computer starting
+16 the game received this color and always is
+17 the first to moves.
+18
+19 (2) Start a Game will begin a NEW
+20 TeleEpic game, using the selected
+21 Battlefield Map and Scenario.
+22
+23 When teleconnected, either of the players
+24 may start the game.  All game settings,
+25 Map, Scenario, options, etc., will be
+26 determined by the starting computer.
+27
+28 (3) End/Cede Game will end the TeleEpic
+29 game currently being played.
+30
+31 (IV) TeleComm Menu
+32
+33 The TeleComm menu contains all options
+34 relating to telecommunication:
+35
+36	(1) TeleCommunication Mode
+37	(2) Disconnect (Hangup)
+38	(3) Transmit Game and Play
+39	(4) Dial Telephone Number
+40
+41
+
+			Page 30
+
+1  (I) Telecommunication Mode
+2
+3  The TeleCommunication Mode option offers
+4  four possible teleconnection modes into
+5  which the Amiga may be set:
+6
+7	(A) Sending (Caller)
+8	(B) Receiving (Answer)
+9	(C) NULL Modem Connect
+10	(D) Teleconnect OFF
+11
+12 The computer will always be set to cone of
+13 these four Telecommunication modes.  The
+14 default is TeleConnect OFF.  In order to
+15 initiate a teleconnection with another
+16 computer, one of the first three items
+17 must be selected.  TeleCommunication
+18 Mode reverts to TeleConnect OFF when
+19 the menu item Disconnect is selected.
+20
+21 (A) Sending (Caller) telecommunication
+22 mode designates this computer as the
+23 calling computer, i.e. the computer that
+24 initiates the teleconnection by calling the
+25 other computer over the telephone.
+26
+27 When Sending Mode is selected, the "Dial
+28 the Telephone Number" menu item under
+29 the TeleComm Menu header is activated.
+30
+31 (B) Receiving (Answer) telecommunication
+32 mode designates this computer as the one
+33 that waits for and answers the call from
+34 the other computer when a teleconnection
+35 is to be established.
+36
+37 Selecting Receiving places the Amiga into
+38 a passive state in which it quietly waits
+39 for the telephone to ring.  Once the phone
+40 rings; TeleEpic answers and establishes the
+41 teleconnection.
+
+			Page 31
+
+1  (C) Null Modem Connect telecommunication
+2  mode places TeleEpic in a Teleconnected
+3  state, bypassing the modem communication
+4  routines.  This mode should be selected
+5  whenever two computers are connected to
+6  one another with a serial port null modem
+7  cable.
+8
+9  It may also be used if your modem is not
+10 sufficiently "AT" command set compatible
+11 for the Sending and Receiving modes to
+12 function properly.  You can use other
+13 telecommunication software to place the
+14 call and answer the telephone.  Once the
+15 teleconnection is made with this other
+16 software, selecting Null Modem Connect
+17 will cause TeleEpic to grab the open serial
+18 line so a game can be played.
+19
+20 (D) TeleConnect OFF
+21
+22 TeleConnect Off mode allows two players
+23 to play TeleEpic on a single computer.  It
+24 automatically reverts to this mode
+25 whenever the Disconnect menu option is 
+26 selected.
+27
+28 (2) Disconnect (Hang up)
+29
+30 The Disconnect option will hang up your
+31 modem, breaking the teleconnection, and
+32 return TeleEpic to the TeleConnect OFF
+33 Telecommunications mode.  Both computers
+34 must select Disconnect when a session has
+35 ended.
+36
+37 (3) Transmit Game and Play
+38
+39 The Transmit Game and Play option under
+40 the TeleComm Menu heading transmits a
+41 saved game configuration, that was just
+
+			Page 32
+
+1  loaded, to the teleconnected computer.
+2  Both computers must display the same
+3  Terrain map and not have a game started
+4  when this option is selected.
+5
+6  Before a game is transmitted, one player
+7  should alert the other to the fact that a
+8  game is about to be sent.  Use the chat
+9  line to send such a message.
+10
+11 (4) Dial Telephone Number
+12
+13 When the computer is placed in Sending
+14 (Caller) telecommunications mode and a 
+15 teleconnection has yet to be established,
+16 the Dial Telephone Number menu option is
+17 enabled.  Selecting this option will dial
+18 the selected opponent's phone number.
+19
+20 (V) Tele Files Menu
+21
+22 TeleEpic telecommunication disk files are
+23 accessible in this menu under one of the 
+24 headings:
+25
+26	(1) Modem Parameters
+27	(2) Opponent Parameters
+28
+29 Both Modem and Opponent files for all the
+30 Telecommunication games published by
+31 Software Terminal, TeleGames, TeleWar,
+32 TeleWar II and TeleEpic -- are shared in
+33 common.
+34
+35 If you have more than one of our games,
+36 you don't need to re-enter the files for
+37 each one.  Assigning the Tele+Files: logical
+38 device to one single directory containing
+39 your Modem and Opponent files will make
+40 them available to all these games at once
+41 (See Appendix A and B).
+
+			Page 33
+
+1  (1) Modem Parameters
+2
+3  Modem Parameters are set from a slide up
+4  screen that appears whenever the Modem
+5  Parameters option is selected.
+6
+7  Whenever TeleEpic is loaded, it reads a 
+8  disk file called "modemset", stored in the
+9  Tele_Files directory, for the default
+10 modem settings.  These settings can be
+11 edited to conform to your modem and
+12 saved to disk, so that each time TeleEpic
+13 loads it defaults to your personal modem.
+14
+15 Current modem settings are displayed in
+16 BLUE on the Modem Parameters screen.
+17 The following modem settings are
+18 configurable by the user.
+19
+20 Baud Rate - Modem Parameters
+21
+22 Baud rates of 300, 1200, 2400 and 9600
+23 may be selected by clicking on a gadget
+24 box with the mouse pointer.
+25
+26 Dial Command - Modem Parameters
+27
+28 When your modem dials a telephone
+29 number it must send a signal to your
+30 modem that a telephone number is about
+31 to be sent.  If your modem is "AT"
+32 compatible, then one of the two gadgets
+33 "ATDT" (for tone dialing) or "ATDP" (pulse
+34 dialing) should be chosen.
+35
+36 A custom command entry box is provided
+37 for any modems with non-standard modem
+38 command sets.  Note that this entry box
+39 may also be used to add "AT" commands to
+40 the dial command.  For example, ATX6DT
+41 will tone dial and return result codes,
+
+			Page 34
+
+1  which TeleEpic can use to inform you with
+2  requests that the number was busy,
+3  whether it was a human and not a 
+4  computer that answered the phone, and
+5  whether no one answered the phone.
+6
+7  If any characters are displayed in the
+8  custom dial command box then that is the
+9  current active dialing command.  Click the
+10 box active, type the command, and hit
+11 RETURN.
+12
+13 Answer Command - Modem Parameters
+14
+15 A modem must be commanded to answer
+16 the phone when it rings.  If the modem
+17 has an auto answer feature, the command
+18 gadget, "ATSO=1" on the Modem Parameter
+19 screen commands it to pick up the phone
+20 after it rings once.
+21
+22 Not all modems will auto answer, but must
+23 instead be told to pick up the telephone
+24 after it rings.  The "ATA" gadget is used
+25 in this case.  If you have selected this
+26 answer command, you should not enter the
+27 receiving mode until after the telephone
+28 rings (See TeleConnect Parameters).
+29
+30 A custom command entry box is provided,
+31 should your modem answer command differ
+32 from those provided.  Click/activate the
+33 box, type the command and hit RETURN.
+34
+35 LOAD/SAVE/QUIT - Modem Parameters
+36
+37 Click the gadgets provided to LOAD and
+38 SAVE the modemset file.  Click the
+39 "QUIT" gadget to exit the Modem
+40 Parameter screen and return to the game.
+41
+
+			Page 35
+
+1  (2) Opponent Parameters
+2
+3  Opponent Parameters are set from a slide
+4  up.  TeleCommunication Files screen that
+5  appears whenever the Opponent Parameters
+6  option is selected.  Here you are able to
+7  enter the telephone number of an opponent
+8  and the baud rate at which you play that
+9  individual, and save it in a file that can
+10 later be quickly retrieved to establish a
+11 teleconnection.
+12
+13 Click on the telephone number entry box,
+14 type in the telephone number, and hit
+15 RETURN.  Then click on the baud rate at
+16 which you will play that opponent.  The
+17 baud rate should be the highest rate that
+18 both your modem and that of your
+19 opponent have in common.  For example,
+20 if a 2400 baud rate modem plays a 1200
+21 baud rate modem, then play at 1200 baud.
+22
+23 SAVE - Opponent Parameters: Settings for
+24 all opponents may each be saved in a file
+25 that can be instantly retrieved whenever
+26 you want to play TeleEpic with that
+27 opponent.  Click on the File Name text
+28 entry box, type in the opponent's name,
+29 and hit RETURN.  Now just click the
+30 SAVE gadget.  Notice that the file is now
+31 entered into the Opponent File Directory.
+32 The Opponent Directory contains all the
+33 opponent files entered into TeleEpic.
+34
+35 LOAD - Opponent Parameters: To select a
+36 file for loading, click on the file box
+37 containing the opponent's name.  You will
+38 see the file name appear in the File Name
+39 box.  Now click the LOAD gadget, and the
+40 opponent file will load and configure the
+41 computer to that opponent's parameters.
+
+			Page 36
+
+1  DELETE - Opponent Parameters:  Clicking
+2  on the DELETE gadget will delete the file
+3  from the disk that is listed in the File
+4  Name box.
+5
+6  QUIT - Opponent Parameters:  Clicking
+7  the QUIT gadget will scroll down the 
+8  Opponent Parameters screen.
+9
+10 (VI) Game Files Menu
+11
+12 The Game Files Menu provides options for
+13 saving a game that is being played to disk,
+14 and for later retrieving that game from
+15 the disk to resume play.  There are two
+16 selections under this menu heading.
+17
+18	(1) Game Directory
+19	(2) Play Saved Game
+20
+21 (1) Game Directory
+22
+23 The game in progress may be SAVED, re-
+24 LOADED or even DELETED from the slide
+25 up.  Game Directory screen that appears
+26 each time the Game Directory option has
+27 been selected.  Only the game files
+28 previously saved for the current Battlefield
+29 Map are listed in the Game File Directory.
+30
+31 Note:  Games should always be saved while
+32 the game is still active.  Do not save a
+33 game that has been ended.
+34
+35 SAVE - Game Directory:  The current
+36 game may be saved to disk to be later
+37 reloaded and play renamed.  Click on the
+38 File Name text entry box, type in a file
+39 name, and hit RETURN.  Next click the
+40 SAVE gadget.  Notice that the game file is
+41 now entered into the Game File Directory.
+
+			Page 37
+
+1  LOAD - Game Directory: To select a
+2  game file for loading, click on the file box
+3  containing the name of the saved game.
+4  You will see the file name appear in the
+5  File Name box.
+6
+7  Now click the LOAD gadget and the game
+8  file will load.  Once you have QUIT the
+9  Game Directory screen, you will see the
+10 warriors rearrange to the previously saved
+11 game configuration.
+12
+13 DELETE - Game Directory: Clicking on
+14 the DELETE gadget will delete the file
+15 listed in the File Name box from the disk.
+16
+17 QUIT - Game Directory:  Clicking on the 
+18 QUIT gadget will return you to the game.
+19 If playing on one computer, you may now
+20 "Play Saved Game"; or if teleconnected you
+21 may select "Transmit Game and Play".
+22
+23 (2) Play Saved Game
+24
+25 When playing on a single computer in the
+26 TeleConnect OFF mode, in order to begin
+27 playing the saved game just loaded, the
+28 "Play Saved Game" menu option must be
+29 selected.  Game play will resume at the
+30 point at which it was saved.
+31
+32 (VII) Options Menu
+33
+34 The Options menu offers a number of
+35 game options that may be set before a
+36 game is started.  These options are:
+37
+38	(1) Set Turn Timer
+39	(2) Firing Protocol
+40	(3) Attack/Warrior/Turn
+41
+
+			Page 38
+
+1  (1) Turn Time Settings
+2
+3  TeleEpic is equipped with a Turn Timer
+4  that forces player turn changes after the
+5  following timer options have elapsed.  Three
+6  minutes is the default.
+7
+8	(A) 	 .5 Minutes
+9	(B)	1   Minute
+10	(C)	2   Minutes
+11	(D)	3   Minutes
+12	(E)	4   Minutes
+13	(F)	5   Minutes
+14
+15 Setting the Turn Timer to very short times
+16 will usually only allow a few warriors to
+17 MOVE and ATTACK in a given turn,
+18 thereby preventing multiple warriors from
+19 ganging up all at once on a single warrior
+20 and killing him.
+21
+22 (2) Weapon Allotment
+23
+24 The Weapon Allotment menu selection
+25 provides two options for setting the
+26 number of projectile weapons carried by
+27 each warrior.
+28
+29	(A)	5/Warrior
+30	(B)	9/Warrior
+31
+32 (A) 5/Warrior Mode allows 5 projectile
+33 weapons per warrior.  This configuration
+34 usually allows warriors to run out of
+35 projectile weapons by the end of the 
+36 game, making sword fighting important.
+37
+38 (B) 9/Warrior Mode allows 9 projectile 
+39 weapons per warrior.  This is the default.
+40
+41
+
+			Page 39
+
+1  (3) Attack/Warrior/Turn -- This option
+2  allows games to be played with the
+3  following ATTACK options.
+4
+5	(A) Single Attack
+6	(B) Double Attack
+7
+8  (A) Single Attack per Warrior per Turn
+9  allows each warrior to attack only
+10 once per turn.  Single Attack is the default
+11 mode.
+12
+13 (B) Double Attack per Warrior per Turn
+14 mode allows each warrior to attack twice
+15 each turn.  In order to attack with a
+16 warrior twice in this mode, he must
+17 ATTACK before he moves.  After he
+18 MOVES, he is allowed to ATTACK again.
+19
+20 TeleConnect Procedure
+21
+22 The primary feature of TeleEpic is that it
+23 allows two persons to play an animated
+24 strategy medieval war game over the
+25 phone using computers and modems.
+26
+27 Modems are usually used to contact a BBS
+28 (Bulletin Board System) to post messages
+29 and upload and download programs and
+30 files.  TeleEpic provides your modem with
+31 another use -- game playing.
+32
+33 Making a teleconnection with another
+34 computer is easy with TeleEpic.  The
+35 mystique of computer telecommunications
+36 is gone.
+37
+38 TeleEpic does all the work, so that the
+39 user can concentrate on honing his game
+40 playing skills
+41
+
+			Page 40
+
+1  Setting Modem Parameters
+2
+3  If TeleEpic is to work correctly, it must
+4  communicate with your modem and the
+5  modem of your opponent.  A few simple
+6  settings must be made prior to establishing
+7  a teleconnection, so that TeleEpic can
+8  communicate with your modem.  These
+9  settings are only made once, and are saved
+10 to the disk so that they can automatically
+11 load when you want to play.
+12
+13 These parameter settings are made on the
+14 Modem Parameter Screen, which scrolls
+15 into view when the Modem Parameter 
+16 option is selected in the Tele Files menu
+17 (see Tele Files Menu, page 32).  The baud
+18 rate and dial and answer commands must
+19 be set before the teleconnection is
+20 attempted.
+21
+22 Baud Rate is the number of binary digits
+23 per second transmitted across your modem.
+24 Modems today commonly transmit at
+25 either 300, 1200 or 2400 baud.  TeleEpic will
+26 support all these baud rates, as well as
+27 the new 9600 baud modems.
+28
+29 Set your baud rate to the highest level
+30 supported by your modem, that will most
+31 commonly be using to play TeleEpic with
+32 your friends.  The higher baud rates will
+33 transmit game data more quickly, so they
+34 are naturally preferred.
+35
+36 Dial and Answer Commands tell the modem
+37 how to dial and answer the phone.  Modems
+38 recognize a command instruction set that
+39 allows the computer to direct the modem
+40 to perform these activities.  TeleEpic
+41 supports the "AT" command set standard.
+
+			Page 41
+
+1  If your phone is touch tone, click "ATDT"
+2  on the Modem Parameter screen.
+3  However, if you have a pulse rotary
+4  phone, then click "ATDP" to set the
+5  modem dial command.  If your modem
+6  recognizes a different command set, or to
+7  add additional commands in the dialing
+8  command string, mouse click in the Custom
+9  Dial Command Box, type in the command,
+10 and press RETURN.
+11
+12 Modem Answer commands are set in the
+13 same manner.  "ATSO=1" commands your
+14 modem to answer the phone on one ring,
+15 when you are in the Answer  Mode.  "ATA"
+16 forces the modem to instantly pick up the
+17 phone as you enter the Answer Mode.  As
+18 with the dial command string box, a
+19 custom answer command may be entered
+20 into the Custom Answer Command box.
+21
+22 After the Modem Parameters have been
+23 set, be sure to SAVE them to disk.
+24
+25 Setting Opponent Parameters are also easy,
+26 and need only be done once.  These
+27 parameters save the telephone numbers and
+28 baud rates of opponents in files, so they
+29 may be retrieved when needed.
+30
+31 Under the Tele Files menu select the
+32 Opponent Parameter option to scroll the
+33 Opponent Parameters Directory screen into
+34 view (see Opponent Parameters on page
+35 30).
+36
+37 Type the phone number of your opponent,
+38 and select the baud rate at which you will
+39 always play.  The baud rate should be the
+40 highest in common to both modems.
+41
+
+			Page 42
+
+1  Then type your opponent's name into the
+2  File Name Box (after clicking it active),
+3  and hit RETURN.  Finally, SAVE the file.
+4
+5  The next time you wish to play TeleEpic
+6  with that opponent, just LOAD the file
+7  from the Opponent Parameters screen.
+8
+9  Before you establish a teleconnection,
+10 whether you are Sending (Calling) or
+11 Receiving (Answering), you MUST set the
+12 Opponent Parameters or LOAD an
+13 Opponent Parameters file from disk.
+14
+15 Voice Contact
+16
+17 It is recommended that telephone voice
+18 contact first be established between the
+19 TeleEpic players to decide who will be the
+20 caller and enter the Sending Mode and dial
+21 the number, and who will answer the
+22 phone and so enter the Receiving Mode.
+23
+24 The caller should then enter the Sending
+25 Mode and the receiver should enter the
+26 Receiving Mode, if the latter's answer
+27 command is set to "ATSO=1" (if "ATA", the
+28 receiver should not enter the Receiving 
+29 Mode until after the phone rings).
+30
+31 When both players are ready to play, they
+32 can agree that the call will be placed 15
+33 or 20 seconds after they each hang up the
+34 phone.
+35
+36 This will minimize the chance of an
+37 extraneous incoming call ringing the phone
+38 of the RECEIVER before the Sending
+39 computer can dial the number.
+40
+41
+
+			Page 43
+
+1  Teleconnect Procedure Summary
+2
+3	1. Each computer will load TeleEpic.
+4
+5	2. Set Modem Parameters, if not set.
+6
+7	3. Load or set Opponent Parameters.
+8
+9	4. Call your opponent on the phone to
+10	   decide who will call whom.
+11
+12	5. Both computers should be on the same
+13 	   map, and not have a game started.
+14
+15	6. The caller should enter the SENDING
+16	   mode, and the one who answers
+17	   should enter the RECEIVING MODE,
+18	   if "ATSO=1" is his answer command.
+19
+20	7. Just before hanging up the telephone,
+21	   agree that a call will be placed in 15
+22	   seconds.  Hang up the phone.
+23
+24	8. The SENDING player now selects the
+25	   "Dial a Telephone Number" option and
+26	   that computer dials the phone and
+27	   waits for an answer.
+28
+29	9. If "ATSO=1" is set on the RECEIVING
+30	   computer, it will answer the call
+31	   after the telephone rings once, and
+32	   makes the teleconnection.
+33
+34	   If "ATA" is the RECV computer
+35	   answer command, the player enters
+36	   the RECEIVING MODE on the phone
+37	   ring, and makes the teleconnection.
+38
+39	10. Players type messages to each other,
+40	    START A NEW GAME, or LOAD and
+41	    TRANSMIT & PLAY a saved game.
+
+			Page 44
+
+1  TeleConnect - Another Method
+2
+3  Some non-standard modems don't answer
+4  the phone or recognize the "AT" command
+5  set, so may not initially seem to work
+6  with TeleEpic.
+7
+8  Don't give up hope yet!  You are able to
+9  play by using the NULL MODEM 
+10 CONNECT mode.
+11
+12 Both computers must use telecomm
+13 software that does work with their
+14 modems to establish the teleconnection.
+15 This software should be set to the
+16 following telecommunication parameters.
+17
+18	Baud Rate	=	your baud rate
+19	Parity		=	NONE
+20	Data Length	=	8 bits
+21	Stop Bits	=	1 stop bit
+22	Duplex		=	Full Duplex
+23
+24 After a teleconnection has been made 
+25 between the two computers, QUIT the
+26 other telecommunication programs.  The
+27 telephone line should remain open between
+28 the two modems.
+29
+30 Load TeleEpic on each computer.  Both
+31 computers should immediately be placed in
+32 the NULL MODEM CONNECT mode.  Do
+33 not do anything else until a reasonable
+34 length of time has passed, so your
+35 opponent has time to follow the same
+36 procedure to place his computer in NULL
+37 MODEM CONNECT MODE.
+38
+39 Finally, players should type messages to
+40 each other to see if a teleconnection was
+41 successfully established.
+
+			Page 45
+
+1  Appendix A - TeleEpic Directories
+2
+3  TeleEpic accesses two main directories
+4  during program operation.
+5
+6	(1) Tele_Epic Directory
+7	(2) Tele_Files Directory
+8
+9  The Tele_Epic directory contains all the
+10 graphics and sound data files needed by
+11 the program.  This directory is assigned
+12 the logical device name EP: so that it may
+13 be found by the program whether it
+14 resides on a floppy or a hard disk.
+15
+16 The Tele_Files director contains all of
+17 the user created disk files used in the
+18 game.
+19
+20 The modemset file contains the default
+21 modem parameters that are loaded each
+22 time TeleEpic is played.
+23
+24 The TeleFiles subdirectory that is in the
+25 Tele_Files directory contains all of your
+26 Opponent Parameter files
+27
+28 The GameFiles subdirectory that is in the
+29 Tele_Files directory contains all of the
+30 saved Games for TeleEpic.
+31
+32 The Tele_Files directory is assigned the
+33 logical device name TELE+FILES:, so that
+34 it may be found by the program whether it
+35 resides on a floppy or a hard disk.
+36
+37 The TeleGames, TeleWar, TeleWar II and
+38 TeleEpic file directories are compatible
+39 with those of TeleEpic.  Only one
+40 Tele_Files directory is needed to service
+41 all of these games.
+
+			Page 46
+
+1  Appendix B - Using a Hard Disk
+2
+3  To use TeleEpic from a hard disk, copy
+4  the following directory, program files and
+5  icons to your hard disk.
+6
+7	(1)	TeleEpic program
+8	(2)	Tele_Epic directory drawer
+9	(3)	Tele_Files directory drawer
+10
+11 These files need not be placed in the root
+12 directory of the hard drive.  They can be
+13 located in any of the directories or
+14 subdirectories on your hard drive.
+15
+16 Two assigns, however, will now need to be
+17 added to your startup sequence in order
+18 for the program to locate the directories
+19 whenever it is started.
+20
+21 Each time your Amiga is turned on, the
+22 startup-sequence, located in the "S"
+23 directory of your boot disk, is run.
+24
+25 Placing the assigns here will assure that
+26 your Amiga will always be able to run
+27 TeleEpic without any difficulty or delay.
+28
+29 So, where
+30
+31 HD = your hard drive dh0:, dh2:, etc.
+32
+33 DP = directory path to TeleEpic directories
+34
+35 add the following lines to your startup
+36 sequence.
+37
+38 Assign EP: <HD>:<DP>/Tele_War
+39 ASSIGN TELE+FILES: <HD>:<DP>/Tele_Files
+40
+41
+
+				Page 47
+
+1  Trouble Shooting
+2
+3  TeleEpic will not Load
+4
+5	1) Do you have sufficient available free
+6	   memory for TeleEpic to load?
+7	2) On a 512K Amiga only one external
+8	   drive should be connected, and no
+9	   other task should be running.
+10	3) Check to verify that your TeleEpic
+11	   working copy is not damaged.
+12
+13 TeleEpic will not Dial a Number
+14
+15	1) Is your modem connected & powered?
+16	2) Are all of your Modem Parameters
+17	   set correctly?
+18	3) Is your modem compatible with the
+19	   "AT" command set?
+20	4) If not, consult your modem manual for
+21	   a dialing command that might work,
+22	   and type it in the Dial Command Box.
+23	5) If all else fails, try Teleconnect --
+24	   Another Method (page 45).
+25
+26 TeleEpic will not Answer the Phone
+27
+28	1) Is your modem connected & powered?
+29	2) Are your Modem Parameters correctly
+30	   set?
+31	3) Is your modem compatible with the
+32	   "AT" command set?
+33	4) If not, consult your modem manual for
+34	   an answer command that might work,
+35	   & type in the Answer Command Box.
+36	5) Try the "ATA" command to force the
+37	   modem to answer the phone (Select
+38	   Receiving Mode after the phone
+39	   rings).
+40	6) If all else fails, try Teleconnect --
+41	   Another Method (page 45).
+
+				Page 48
+
+1  TeleConnected, but Game will not Work
+2
+3	1) Are both computers the same set to
+4	   the same baud rate?
+5	2) Was a game STARTED on a computer
+6	   when the Teleconnection was made?
+7	3) Are both computers on the same Map?
+8	4) Hangup and then re-establish phone
+9	   voice contact to verify modem
+10	   settings, and then try again.
+11
+12 TeleConnected & Playing, then No Response
+13
+14	1) Are you still connected? Check for
+15	   the Carrier Detect (CD) light on your
+16	   modem, if it has one.
+17	2) Type in a message or two.  The chime
+18	   may awaken your opponent.
+19	3) If you or your opponent accessed the
+20	   menus, or pressed the right mouse
+21	   button when the other was making a
+22	   move, game move transmission may
+23  	   have been scrambled.
+24	4) If the SEND message line echos back
+25	   to the RECV message line (with some
+26	   modems), then you are disconnected.
+27	5) If you have been disconnected, first
+28	   SAVE game.  Choose the "DisConnect"
+29	   menu option.  If the game is still
+30	   active and menu item Cede/End Game
+31	   is ghosted, select the TeleConnect
+32	   OFF mode (even if it was already
+33	   selected) to force activate the
+34	   Cede/End Game menu item.
+35
+36 If you have Reached the End of your Rope
+37
+38 Call our BBS at (817) 244-4151 and ask for
+39 help.  We will help all we can.  But
+40 strategy in TeleEpic is up to you!
+41
+
+				Page 49
+
+============================================================================
+         DOCS PROVIDED BY  -+*+-THE SOUTHERN STAR-+*+- for M.A.A.D.                                                               
+============================================================================

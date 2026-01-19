@@ -1,0 +1,636 @@
+KIT DE CONSTRUCCIÓN SHOOT EM UP
+                  ------------------------------------
+
+     A) PRIMEROS PASOS... (LA GUÍA RÁPIDA Y SUCIA).
+
+     Aquí está nuestra guía ~rápida y sucia~ para ayudarle a tener una idea de
+     cómo funciona SEUCK, lo guiaremos a través de cada
+     función para darle una idea de lo que necesita para producir un
+     juego.
+     El proceso es bastante sencillo de seguir y todo lo que necesitas es el 
+     SEUCK Disco de datos. Bien, allá vamos;
+
+     1) Para empezar, la mejor idea es cargar una de las tres muestras.
+     Juegos para jugar: puedes examinar todos los componentes y ver cómo se unen. También significa que puedes probar un 
+     uno o dos juegos para que puedas ver lo que es realmente posible. Para cargar un
+     juego de muestra seleccione CARGAR TODO desde la opción CARGAR DATOS en el menú ALMACENAMIENTO. Cuando aparezca la lista de juegos, haga clic en el
+     archivo llamado slap`n`tickle.all, y se cargará de inmediato. Para
+     Los propósitos de esta pequeña demostración rápida no los dibujaremos.
+     cualquier cosa, simplemente juegue un poco con los ejemplos solo para mostrar
+     lo que es posible.
+
+     2) Seleccione editar sprite en el menú EDITAR SPRITE. Un duende es un
+     fotograma de animación que se utilizará en un objeto. cada uno tiene un numero
+     y el primero que ves es el número 0. Haz clic en los botones + y -
+     en el indicador de Número de Sprite para recorrer los sprites y
+     Mira cómo están dibujados. Puedes hacer sprites eligiendo colores.
+     de la paleta y pintándolos en la cuadrícula. Pulsa la salida
+     para volver al menú principal.
+
+     3) Seleccione Editar objeto en el menú EDITAR OBJETO. Los duendes son
+     combinados para crear "objetos" animados. Los objetos son las cosas. 
+     que realmente te mueves por la pantalla. El objeto actual es
+     mostrado en pantalla, como una serie de fotogramas de animación o sprites.
+     debajo de la ventana de imagen animada en la parte inferior derecha de la 
+     La pantalla es un botón marcado DIRECTO o ANIMADO, dependiendo del modo.
+     La animación direccional está relacionada con el movimiento del joystick.
+     el cual deberías tener en el PUERTO 2. si tienes un joystick conectado
+     luego muévalo para probar la animación en la pequeña ventana de vista previa
+     en la parte inferior derecha de la pantalla (pruebe diferentes objetos haciendo clic en
+     presionando los botones + y - para cambiar el número de objeto).
+     cambia la visualización de la animación para mostrarle 18 fotogramas posibles de
+     animación. Pruebe el efecto haciendo clic en el indicador del último fotograma hacia arriba
+     a una cifra superior. Cuando hayas visto suficiente, haz clic para volver a DIRECTO
+     y haga clic en SALIR.
+
+     4) Haga clic en Editar bits del enemigo en el menú EDITAR OBJETO. esto te muestra
+     la fuerza y la munición, etc. disponible para cada objeto enemigo diferente
+     No modifique ninguna de las configuraciones. simplemente haga clic en SALIR para regresar.
+
+     5) El mapa sobre el que puedes jugar es en realidad una larga franja de
+     gráficos cuadrados llamados BLOQUES. Haga clic en Editar bloque en EDITAR
+     Menú FONDO. Haga clic en los distintos bloques gráficos utilizando el
+     Indicador de número de bloque botones + y -. Cuando los hayas visto todos,
+     haga clic en el botón SALIR para volver al menú principal.
+
+     6) Seleccione Editar mapa. Esto te muestra el mapa para el nivel en el que estás.
+     actualmente trabajando y un cursor inusual. Este es el cursor del bloque.
+     y para estampar el bloque actual (el número en verde) en el mapa,
+     lo posicionas y haces clic con el puntero del mouse sobre el número. Presionando
+     Los signos + y - cambian el número de bloque para que obtenga un gráfico diferente.
+     Las flechas te llevan rápidamente a otra parte del mapa. para escapar
+     presione el botón derecho del mouse.
+
+     7) Luego seleccione la opción EDITAR efectos de sonido IFF. Haga clic en + y -
+     y observe los números de sonido en la parte superior de la pantalla y
+     Puedes ver todos los nombres de los sonidos asignados a cada número. muestras del FIB 
+     se puede cargar desde cualquier fuente, incluso una que haya creado usted mismo, pero
+Para evitarte molestias, hay 72 muestras de alta calidad en los juegos. 
+     Disco incluido en este paquete.
+
+     8) Haga clic en el menú LIMITACIONES DEL JUGADOR y seleccione Jugador 1. Ahora
+     Puedes ver todos los atributos de tu jugador, incluida el área de
+     la pantalla que puede ocupar. Observe que los jugadores se pueden activar o desactivar
+     por elegir diseñar juegos para dos o un jugador. tienes que tener cuidado
+     Sin embargo, no seleccionar un juego SIN jugador.
+
+     9) Está bien, ya basta de juguetear. ¡Prueba el juego! pruébalo en modo trampa
+     Primero, para que puedas ver el juego completo sin depilarte. 
+     usted mismo. (por supuesto, tome algunas fotos usted mismo) Vea si puede
+     detecta todos los sprites y bloques que viste en las ventanas de edición,
+     y cómo se combinan.
+
+     10) Ahora regresa y cambia algunas cosas quieras o no, adelante, disfruta
+     usted mismo. No puedes romper nada cambiando cualquiera de las configuraciones.
+     y quién sabe, tal vez puedas descubrir cómo algunos de los
+     Las funciones funcionan. ¡Pero configure las pestañas de protección contra escritura! en caso de que intentes
+     ¡guárdalo por error!.
+
+     ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+
+     LOS MENÚS...(a. EDITAR SPRITE)
+
+     Aquí es donde creas los gráficos básicos que luego usarás.
+     animar en objetos `juegos~. Las opciones en esta selección de menú son
+     EDITAR SPRITE, EDITAR COLORES y BORRAR SPRITE.
+     
+     EDITAR SPRITES; Te presenta la ventana del editor de sprites. El 24X
+     La cuadrícula de 24 a la izquierda representa una parte de la pantalla en blanco en la que
+     Puedes dibujar tus personajes de sprites. El pequeño cuadrado en la parte superior izquierda.
+     contiene una representación en tamaño real del objeto que estás dibujando
+     El objeto actual en la pantalla tendrá un número, que se muestra en el 
+     indicador de número de sprite. Al hacer clic en los botones + o - se cambia el
+     duende. Puedes seleccionar cualquier sprite en la memoria simplemente haciendo clic hasta
+     su número aparece en esta ventana. Simplemente haz clic en el color que quieras
+     en la paleta en el centro de la pantalla y luego haga clic en el cuadrado
+     en la cuadrícula que desea colorear. (El color actual se muestra en la
+     ventana PEN) Puede mantener presionado el botón y mover el mouse o 
+     joystick para llenar más de un cuadrado con el color seleccionado.
+
+     Los botones ESPEJO voltean el objeto en la dirección de la flecha. es
+     Probablemente sea más fácil para usted intentar esto en lugar de intentar explicarlo.
+     eso.
+
+     Los botones SLIDE sirven para mover la imagen en la cuadrícula.
+     Al hacer clic en cualquiera de los botones, la imagen se mueve un píxel en ese
+     dirección.
+
+     El botón DESHACER hace precisamente eso. Deshace el último clic. si haces        
+     un error, luego mantén presionado todo hasta que hagas clic en deshacer para ir
+     Volver a como era antes de que cometieras el error. si has hecho más de uno
+     Haga clic en el error y luego tendrá que corregirlo a mano.
+
+     Los botones FLOOD llenan la cuadrícula con el color seleccionado,
+     borrando todo lo que había allí, no hay opción de LLENAR, así que si quieres
+     un gran bloque de color, lo mejor es inundar la pantalla con el color
+     que quieras y córtalo para obtener la forma que deseas.
+
+     El botón COPIAR te permite copiar los gráficos de un sprite en otro. 
+     duende. Simplemente establezca el número de destino en otro número y haga clic en
+     el botón copiar. Ahora ese sprite contendrá los mismos gráficos que 
+     el actual. Útil si dos sprites van a ser similares pero con pequeñas
+     diferencias.
+
+     Editar colores; Esto es muy similar a la ventana de edición de Sprite, pero
+     incluye dispositivos + y - para RED.GREEN.BLUE(RGB) que van de 0 a 15.
+     aunque solo puedes tener ocho(8) colores de la paleta de amiga
+     de 4096. Simplemente haga clic en un color para seleccionarlo, luego use los botones + y -
+     para ajustar el color seleccionado a tu gusto. Básicamente tu mezcla
+     los colores, sumando o restando cantidades de ROJO, VERDE, AZUL, a la
+     color, y 15 es un de él.
+
+     BORRAR SPRITES; Hace precisamente eso, vacía el gráfico del sprite actual.
+de memoria, dejándote con borrón y cuenta nueva.
+
+     SALIDA; Le lleva de regreso al menú principal.
+
+     (b. EDITAR SPRITES)
+     Una vez que hayas dibujado todos tus sprites debes combinarlos como 
+     `objetos` para animación continua o direccional durante el juego. el
+     Las opciones disponibles aquí son EDITAR OBJETO, COPIAR OBJETO y EDITAR ENEMIGO.
+     ATRIBUTOS.
+
+     EDITAR OBJETO; Muestra la ventana de edición de objetos. Ahora no puedes 
+     En realidad, modifique cualquier gráfico aquí, pero puede combinarlos para crear un  
+     Objeto animado para usar como jugador, enemigo, bala o explosión.
+     Al hacer clic en los botones + y - marcados con el número de objeto, podrá
+     examinar los objetos almacenados actualmente (si alguno ha sido cargado o dibujado)
+     Observe los nombres de los objetos, como jugador 1, jugador 2, enemigo. 
+     explosión, etc. se escriben en la parte superior de la pantalla a medida que se escribe cada objeto.
+     seleccionado. Estos objetos siempre realizan la misma función en cada
+     juego. Pero la forma y la animación dependen de ti. Asegúrate de que
+     coloque los gráficos correctos en los objetos correctos. No querrías hacerlo
+     Terminarás disparando barcos enemigos con pequeñas balas, ¿verdad?
+     Para colocar sprites en el objeto, simplemente seleccione un gráfico de sprite con el
+     Botones + y - en el número de sprite, luego haga clic con el puntero del mouse en
+     uno de los cuadros de objetos y el sprite aparecerá allí con su
+     número debajo, en el modo ANIMADO, los fotogramas estarán en filas, y en el modo ANIMADO, 
+     Modo DIRECTO los fotogramas se agruparán de dos en ocho (8)
+     direcciones del joystick.
+
+     El botón DIRECTO con la pequeña imagen encima es una ventana para
+     animación de prueba. En modo DIRECTO el objeto en la ventana reacciona a
+     movimiento desde el joystick. Observe que los gráficos están organizados con
+     abajo, centro, arriba a la izquierda, arriba a la derecha, abajo a la izquierda, abajo a la derecha. La razón ahí
+     son dos gráficos en este punto es que se animan entre los dos
+     cuando el joystic está en esa posición. En el ejemplo preestablecido el 
+     Dos gráficos en cada punto son iguales, por lo que permanecen quietos. intenta moverte
+     el joystick (en el puerto 2) y verifique el movimiento direccional en el
+     pequeña ventana.
+   
+     Al hacer clic en el botón DIRECTO, se cambia a ANIMADO (y viceversa).
+     y en el modo ANIMACIÓN puedes hacer hasta una animación de 18 fotogramas dentro del
+     cuadrados de objetos. Intensifique los botones ÚLTIMO CUADRO + y - para configurar el     
+     cantidad de fotogramas que deseas animar, teniendo en cuenta lo primero 
+     El primer cuadro es 0. Una vez más, en el modo ANIMADO, puedes obtener una vista previa del
+     Animación en la ventanita. El botón DELAY establece la pausa entre
+     sprites, menos pausa significa que la animación se mueve más rápido.
+
+     El botón NO HOLD es otro botón de alternancia como ANIMATE/DIRECT. esto
+     conjuntos de control, cuando empujas un objeto en una dirección, si permanece
+     apuntando en esa dirección o se restablece para apuntar hacia adelante cuando 
+     suelte la palanca de mando.
+
+     COPIAR OBJETO; Puede pegar los gráficos de un objeto desde el actual
+     número a cualquiera de los otros números del 0 al 55. PERO...sólo si el objeto
+     es del mismo tipo, es decir, bala, enemigo, etc. Esto puede ahorrar mucho
+     volver a dibujar si algunos de los objetos van a ser bastante similares. el
+     Por cierto, los botones NO HOLD y ANIMATE no funcionarán en este modo.
+
+     EDITAR BITS DEL ENEMIGO; Esto es lo mismo que el menú `ATRIBUTOS DEL JUGADOR`, con 
+     interruptores especiales para establecer la cantidad de golpes que el enemigo puede recibir, y 
+     Varios otros rasgos de personalidad, como cuántas balas puede tener.
+     pantalla al mismo tiempo, velocidad de disparo, dirección de disparo, etc.
+
+     La opción de velocidad establece la velocidad del objeto enemigo a lo largo de su camino,
+     en un rango de 0-10. Establecer la velocidad en 0 significa que el objeto está
+     papelería.
+
+     Puntos establece la cantidad de puntos anotados por el jugador cuando sopla
+     este enemigo arriba. el rango es 0-10000.
+
+     Hits to Kill es obviamente la cantidad de veces que el jugador tiene que disparar.
+     y golpea al enemigo para volarlo. en un rango de 1-10
+Dirección de fuego describe las direcciones en las que dispara el enemigo y
+     Al hacer clic en el cuadro (sin disparar), se desplaza en cuatro direcciones (arriba, abajo, izquierda, derecha)
+     Disparo, disparo en diagonal en cuatro direcciones, disparo solo hacia arriba, solo hacia abajo, solo hacia la izquierda,
+     solo derecha, arriba a la izquierda, arriba a la derecha, abajo a la izquierda, solo abajo a la derecha, más R para
+     disparo aleatorio y D para direccional. En ALEATORIO la dirección del fuego.
+     se genera aleatoriamente a partir de todo lo anterior. El enemigo sólo dispara
+     la dirección del movimiento.
+
+     Tasa de fuego; es el período entre disparos; 100 es igual a no muchos disparos
+     y 0 es un disparo muy rápido, casi demasiado rápido.
+
+     Velocidad de bala; es la velocidad a la que viajan las balas una vez liberadas
+     del enemigo. 0 es estacionario y 15 es rápido.
+
+     Utilice ambas opciones para seleccionar una tarifa y velocidad adecuadas para su
+     enemigos.
+
+     De la misma manera puedes asignar gráficos a cada bala y explosión,
+     También puedes asignar efectos de sonido. El Explosion FX y el Bullet FX hacen esto
+     para ti. Todo lo que tienes que hacer es seleccionar entre los efectos de sonido 0-49
+     que te gustaría representar los sonidos del enemigo explotando o
+     el enemigo dispara, y estos se almacenarán listos para el juego.
+     
+     Los botones EXPLOSION OBJECT y BULLET OBJECT te permiten seleccionar qué
+     gráficos de viñetas y gráficos de explosión que desea asignar al
+     objeto actual. Los ocho (8) objetos tipo bala se encuentran entre el objeto 6 y
+     El objeto 13 y las ocho (8) explosiones enemigas se encuentran entre 14 y 21.
+
+     La detección de colisiones para este enemigo se maneja en el enemigo restante.
+     para enviar y enemigo para botones de bala. ENEMIGO PARA ENVIAR le dice a la computadora
+     Si golpeas a un enemigo con tu nave, si el enemigo explotará,
+     explotar o ambos explotar, si quieres que el enemigo explote, haz clic
+     la casilla ENEMY DIE a sí. Si quieres que tu nave explote, haz clic en el
+     ENVIAR a MORIR en Sí. Si desea que ambos exploten, haga clic en ellos.
+     ambos a si. Obviamente si quieres que ambos estén intactos después 
+     colisión, haga clic en ambos para no.
+
+     Del mismo modo, si quieres que el enemigo muera al chocar con una bala,
+     haga clic en el cuadro ENEMY DIE en ENEMY to Bullet para decir sí, si desea que 
+     La bala también explotará, luego haz clic en Bala para morir también. Si quieres el
+     enemigo para ser invulnerable, sin embargo (¿y por qué no?), luego haga clic en Enemigo
+     al cuadro de troquel al no. Si ocurre lo mismo con tu viñeta, haz clic en Viñeta.
+     morir al no también.
+
+     SALIDA; Sí, lo mismo otra vez, enviándote de regreso al menú principal.
+    (c.EDITAR FONDO)
+     Este menú trata sobre el mapa de fondo de tu juego. puedes crear
+     los `Bloques` gráficos que componen tu `MAPA` y colócalos en un largo
+     desnúdate listo para que los gráficos de tu juego bailen.
+     Las opciones aquí son SELECCIONAR BLOQUE, EDITAR COLORES y EDITAR MAPA.
+
+     SELECCIONAR BLOQUE: En este modo tienes acceso a todos los bloques que has
+     dibujado hasta ahora.    Esta es una función útil cuando sabes qué gráfico
+     Quieres y sabes y sabes cómo se ve, pero no puedes
+     Recuerda qué número es.
+     Encontrarlo es fácil. Simplemente coloca el cursor grande sobre el bloque que deseas.
+     y haga clic en el número verde.  Luego el bloque se almacena en la memoria.
+     y el número aparece en los números verdes.  Luego puedes ir a
+     EDITAR BLOQUE y modifíquelo, o puede colocarlo en su mapa con EDITAR
+     MAPA.  Los signos + y - en el cursor lo escanean de un lado a otro
+     a través de cuatro o cinco líneas compuestas por todos sus diseños actualmente 
+     bloques colocados en línea de izquierda a derecha.    
+     
+     EDITAR BLOQUE: Esta ventana es muy similar a la ventana EDITAR SPRITE.
+     , excepto que la cuadrícula es más grande con 32 x 32 puntos.   aun estas limitado
+     hasta ocho colores en la construcción de tu bloque, pero afortunadamente
+     Son otros ocho colores en lugar de la misma paleta que tu 
+     duendes. ¡Uf!
+
+     EDITAR COLORES: La configuración de Editar colores es la misma que la del Bloque de edición
+     pantalla, excepto que tiene la paleta de colores en la pantalla y el RGB
+Botones para mezclar los colores.  Como antes 15 es mucho
+     color y 0 es nada de eso.
+
+     EDITAR MAPA: Aquí es donde colocas tus bloques para formar el mapa.
+     (que tontería)   
+     La posición en el mapa siempre se muestra en el centro del
+     Pantalla.
+     Para estampar el bloque actualmente seleccionado (el número en verde) en
+     el mapa, coloca el cursor cuadrado grande donde desea colocar
+     un gráfico y haga clic con el puntero del mouse en el número verde.
+     Al presionar el botón en los signos + y - se cambia el número de bloque
+     arriba y abajo para que pueda seleccionar un gráfico diferente.  las flechas rapidas
+     te reenvía hacia arriba y hacia abajo a otra parte del mapa.  para escapar de
+     área del mapa simplemente presione el botón derecho del mouse.
+     SALIR: Le lleva de regreso al menú principal.
+
+                           d. EDITAR SONIDO IFF.
+     Este menú le permite cargar y utilizar archivos de muestra de sonido IFF para
+     produce efectos de sonido en tu juego.  Hay un total de tres
+     directorios llenos de muestras suministradas con SEUCK.   Si esto no es
+     basta con que puedas cargar tu propio disco de muestras que hayas creado
+     y trabajar en efectos con estos.  Las opciones en este menú son EDITAR
+     IFF SOUND, nuevo directorio de sonido IFF, carga archivos de sonido IFF y borra IFF 
+     Archivos de sonido.
+     
+     EDITAR EFECTOS DE SONIDO IFF: Esta es la pantalla donde puedes tomar IFF
+     Muestras de sonido, cargadas en el SEUCK desde un disco de datos u otros discos.
+     de sus propias muestras y manipularlas para convertirlas en efectos (FX) para 
+     sonidos en tu juego.
+
+     Primero selecciona el número del efecto de sonido en la parte superior de la pantalla.
+     Estos pueden oscilar entre 0 y 49. Son 50 sonidos diferentes para tu juego.
+
+     Los contadores gemelos de tasa de reproducción siempre muestran el mismo número, pero
+     incremento en diferentes cantidades: observe las etiquetas x100 y x1 para
+     ajuste grueso o fino.  Usando estos contadores puedes jugar cualquier
+     El sonido regresa a una velocidad diferente, alterando totalmente el efecto. una vez
+     seleccionado el efecto permanece asignado al número de efecto de sonido hasta
+     cambiado.  Esta es la parte complicada (¡lo sabía!). Puedes asignarla como
+     muchas tasas de reproducción diferentes (velocidades) para su sonido como desee,
+     ¡Así obtendrás muchos efectos diferentes de la misma muestra!
+     Diabólicamente inteligente, ¿eh?
+
+     Volumen del efecto cambia el volumen del efecto en relación con
+     los otros sonidos.  El rango es de 0 a 64 y claramente 0 significa
+     el sonido no se puede escuchar y 64 significa que te quita el sombrero.
+
+     Al hacer clic en el botón EFECTO se reproduce el sonido actual que se está editando.
+     .  Se pueden recuperar diferentes sonidos de la memoria haciendo clic en el
+     junto al nombre de la muestra.  Los nombres aparecen en el cuadro, y para
+     ellos como un efecto debes asignar el que está en el cuadro al efecto actual
+     número de sonido, simplemente haciendo clic en el botón USAR.   Ahora puedes
+     Modifique su velocidad de reproducción y escuche el efecto presionando
+     el botón EFECTO.
+
+     Las pantallas al lado del botón SAMPLE no se pueden modificar, pero sí
+     la configuración original del sonido, en caso de que te pierdas y quieras
+     para escuchar la configuración original.
+     La RAM de sonido libre se refiere a la cantidad de memoria que queda para las muestras.
+     Por supuesto, Salir lo lleva de regreso al menú principal.
+
+     NUEVO DIRECTORIO DE SONIDO IFF: Esta opción es puramente para permitirle
+     cambia de directorio para tener acceso a otras muestras, pero no
+     realmente cárguelo: seleccione la siguiente opción para hacerlo. el
+     El directorio predeterminado siempre es `sonido 1`, pero `sonido 2` y `sonido 3`
+     También se suministran con SEUCK. Si tienes tu propio disco de muestras
+     colóquelo en la unidad y escriba el nombre del directorio relevante
+     , por ej. DF0:sonidos del mar.
+
+     CARGAR ARCHIVOS DE SONIDO IFF: Esto supone que el directorio es `sonido 1`
+     a menos que se modifique (como arriba). Todos los archivos en el directorio son
+     enumerados en la pantalla.  Seleccione con el cursor el que requiera y
+     cargar haciendo clic en el botón izquierdo. NB: Sólo puedes mostrar hasta 24
+nombres de archivos en cualquier directorio. Agregar otro archivo a un directorio completo
+     resultará en que su archivo nuevo o un archivo antiguo en el directorio sea
+     perdido.
+
+     CLEAR IFF SOUND: Elimina los datos de sonido de la memoria, dejándote
+     con borrón y cuenta nueva. Te pide que confirmes Sí o No, por si acaso.
+     seleccionaste esta opción por error.
+     SALIR: Le lleva de regreso al menú principal.
+
+                           mi. LIMITACIONES DEL JUGADOR.
+
+     En este menú puedes editar las habilidades y limitaciones de tu
+     jugador(es).  Dentro de los menús del Jugador 1 y del Jugador 2 hay indicadores
+     para permitirle editar todo lo relacionado con los jugadores. la opción
+     en el primer menú están Jugador 1, Jugador 2 y Salir. En ambos Jugador 1
+     y 2 hay submenús idénticos de Editar parámetros. Editar reproducir
+     Área y Editar posición inicial.
+
+     EDITAR PARÁMETROS: Aquí es donde edita los atributos de su 
+     jugador como lo hizo en la pantalla Editar atributos del enemigo. los ajustes
+     son esencialmente iguales que ese menú, excepto que puedes seleccionar
+     Habilitación del jugador, vidas y velocidad del barco.
+     Player Enable le permite activar o desactivar el reproductor. esto solo
+     realmente se aplica al jugador 2, porque si ambos jugadores están incapacitados
+     ¡No tendrás mucho juego! Si tu barco no aparece en la pantalla
+     , entonces es posible que hayas cambiado a ambos jugadores. (¡tonto!    
+     Vidas es la cantidad de veces que te pueden matar antes de que termine el juego.
+     y esto va del 1 al 10.
+     Ship Speed se refiere a la velocidad de tu barco, es decir, cuánto
+     rápido puedes moverte hacia adelante y hacia atrás y de lado a lado. (La velocidad de
+     El desplazamiento del fondo debajo de tu nave se controla en
+     menú EDITAR NIVEL.)
+
+     EDITAR ÁREA DE JUEGO: Al igual que las selecciones de nivel, las áreas de jugador son
+     Seleccionado y editado usando el joystick. Editar área de juego te permite 
+     seleccione el área que su jugador puede habitar en la pantalla. Para mover la parte superior
+     o marcadores inferiores, empújelos hacia arriba o hacia abajo. Para mover los marcadores laterales
+     hacia adentro o hacia afuera, empuje el joystick hacia la izquierda o hacia la derecha, presione y mantenga presionado el
+     y muévalos hacia la izquierda y hacia la derecha.
+
+     EDITAR POSICIÓN INICIAL: Le permite colocar una cruz donde desee
+     tu jugador aparecerá después de cada nivel o después de un accidente. Al contrario
+     Según la creencia popular, es mucho mejor aparecer del lado del
+     pantalla y aproximadamente a un tercio de su altura. Si apareces en el
+     abajo y en el centro eres un blanco fácil! (¡teta!)
+     Hay un período de invulnerabilidad incorporado de 3 segundos para ayudar al 
+     jugador (o wally!).
+     Asegúrate de que tu posición inicial esté dentro del área de juego.
+
+    SALIDA: Te lleva de regreso (sí, lo has adivinado, ¡aprendes rápido, eh!)
+    al menú principal.
+    JUGADOR 2: Estas son casi exactamente las mismas opciones de menú que
+    Menú del jugador 1, excepto que está etiquetado como Jugador 2. Eso sí, no lo hagas.
+    Confundete con esto (sí, ¿tu único ser humano?) Y comprueba cuál
+    estás encendido. Por cierto, el jugador 2 no aparece en la pantalla hasta que
+    Presiona el botón de disparo. (Tienes un joystick, ¿no?)
+
+                         f. EDITAR ONDAS DE ATAQUE.
+
+    El menú Attack Waves te permite colocar enemigos en el mapa y crear
+    sus rutas de ataque usando el joystick. (¡Oh, compraste uno! Bien.)
+    Las opciones son insertar enemigo, unirse a enemigos, eliminar enemigos y
+    Limpiar la lista de enemigos.
+    INSERTAR ENEMIGO: En esta opción colocas el objeto enemigo actual.
+    en el mapa. Verá el gráfico del objeto, como Editar
+    Pantalla de objetos.  Seleccionas el objeto que deseas colocar con el
+    Botones de número de objeto y luego haga clic en el botón COLOCAR.
+
+    Primero ajustas aproximadamente su posición con el joystick, haciendo
+    Asegúrate de detenerte justo antes de la parte del mapa que deseas.
+    Luego haces clic en el botón del joystick y se te pide que "bien".
+    coloque `la posición del mapa en la pantalla. ( ADVERTENCIA: sólo puedes
+    empuja el mapa hacia arriba en esta etapa, de ahí lo de detenerse antes
+    la sección en la que quieres que esté el enemigo. No te preocupes por esto también
+mucho. Descubrirás (ramita) la situación tan pronto como la uses.)
+    Luego vuelves a hacer clic en el botón del joystick (¡espero que sea bueno!).
+    Ahora verá el objeto que desea colocar en la pantalla.
+    Colóquelo en su posición inicial y haga clic en el botón del joystick.
+    otra vez.  Ahora puede ingresar la ruta ST. Ups, el enemigo se lo llevará.
+    usando el viejo joystick para moverlo por ese camino.
+    Si presionas fuego en el joystick, el enemigo se detendrá en ese lugar.
+    en el juego. Fácil, ¿eh?... (¡malditamente brillante!)
+    Luego haga clic (no en la cámara) con el botón derecho del mouse para finalizar.
+    Luego se le pedirá (¿quién dijo eso?) que almacene la ruta que acaba de
+    creado empujando el joystick hacia la izquierda, o rechazándolo empujando el
+    Quédate a la derecha. La pantalla confirmará su selección.
+    NOTA: Si colocas un atari, ups me refiero a un enemigo y hazlo caminar.
+    en la pantalla es posible que no aparezca, (bueno) ya que estará caminando en el 
+    misma velocidad que la pantalla de desplazamiento. Podrías acompañarlo desde el
+    lado de la pantalla, pero evite el movimiento hacia arriba a menos que haya ido 
+    abajo primero.
+    ÚNETE A ENEMIGOS: Esta es una característica muy interesante en SEUCK,
+    y es poder unir dos o más objetos enemigos entre sí
+    para hacer formaciones de enemigos o grandes enemigos. el unico
+    El inconveniente (travieso) de crear grandes enemigos es que cuando disparas
+    una parte de ellos, sólo esa parte explotará, por lo que cada parte del gran
+    El enemigo debe ser independiente o se verá un poco divertido.
+
+    Para unirte a enemigos, selecciona la opción, selecciona tu objeto usando el
+    botón de número de objeto, luego haga clic en el botón COLOCAR.
+    Se te pedirá que coloques al enemigo de manera aproximada usando el joystick,
+    al igual que la última opción. Presiona fuego. Entonces se te pedirá que
+    Seleccione una posición precisa usando el joystick, nuevamente como antes.
+    Presiona fuego. Ahora aparecerá una gran cruz con flechas en los puntos,
+    y el mensaje "¿Unirse a qué enemigo?". Utilice el joystick para
+    Coloque la cruz en el que (buena revista) desea que tenga el nuevo objeto.
+    seguir. Haga clic en el botón del joystick.  El objeto ahora aparecerá
+    en la pantalla y siga el otro objeto seleccionado.
+
+    ADVERTENCIA: Si te has unido a un grupo de alienígenas y eliminas el
+    Objeto principal, todos los objetos unidos a él se volverán estacionarios.
+
+    ELIMINAR ENEMIGO: Esto eliminará el enemigo actualmente seleccionado.
+    Posición y movimientos del juego. Ahora puedes reemplazarlo
+    si lo deseas.
+
+    ELIMINAR LISTA DE ENEMIGOS: Esto elimina todo el movimiento enemigo y
+    posiciones fuera del juego, lo que te permite colocarlas todas de nuevo.
+    La computadora le pedirá que confirme sí o no, en caso de que seleccione
+    ¡Esta posición accidentalmente! (¡o la amartillaste!)
+
+    Las unidades enemigas y las unidades de ruta gratuitas te dan un total acumulado de cómo
+    Cuánta memoria te queda para jugar.
+    SALIDA; Dios mío, ¿realmente tenemos que decírtelo de nuevo?
+     
+                          gramo. EDITAR NIVELES
+    Aquí es donde editas las áreas del mapa que ocupan tus niveles.
+    y cómo se comporta cada sección en juego. También hay una pequeña sección.
+    dedicado a la posición inicial de tus jugadores y la cantidad de pantalla
+    se puede mover. Las opciones aquí son Editar parámetros de nivel,
+    Edite el mapa de nivel actual y las limitaciones del jugador. Ah, sí, y sal de nuevo.
+
+    EDITAR PARÁMETROS DE NIVEL; El editor de niveles es sorprendentemente pequeño y
+    eficiente, considerando lo que debe hacer. es aquí donde ajustas el
+    número de nivel, velocidad de desplazamiento (si corresponde), duración del nivel, nivel
+    tipo y lo que sucede al final del nivel.
+
+    Nivel; es el número de nivel, y al presionar los botones se selecciona el nivel actual.
+    Nivel para trabajar, del 1 al 22.
+
+    Velocidad; se refiere a la velocidad a la que se desplaza el fondo, si se realiza algún desplazamiento
+    estando hecho. Este es un rango corto de 1 a 4, pero lo mejor es limitarse a 1 o 2.
+    para la mayoría de las cosas, a menos que realmente quieras ser malo.
+    Duración: selecciona la duración del nivel, si quieres que sea tiempo
+    limitado, es decir, si no quieres tener límite de tiempo, y quieres dárselo a
+Dale tiempo al nivel para que se reproduzca hasta el final, selecciona la duración en 255.
+    (NB; al hacer clic en el signo - del 1 obtendrás 255, en caso de que estuvieras a punto de
+    ¡Haz clic en él 255 veces!)
+
+    Tipo de nivel: alterna entre desplazamiento, desplazamiento pulsado y quieto. todavía significa
+    Es un nivel de pantalla única y no se desplaza. Desplazarse significa que sí 
+    desplazarse, y a la velocidad establecida por la velocidad anterior. Empujar desplazamiento significa que
+    La pantalla solo se desplaza cuando el jugador empuja contra el borde superior de su
+    área de movimiento en la pantalla (consulte LIMITACIONES DEL JUGADOR).
+
+    Fin de nivel: se refiere a lo que sucede cuando tu jugador llega al final del
+    el nivel. Nuevamente este cuadro alterna entre varias opciones, continuar,
+    bucle y volver a dibujar. Redibujar significa que cuando el nivel termina, el primero
+    La pantalla del siguiente nivel aparecerá automáticamente. Continuar significa que
+    el siguiente nivel se desplazará hacia abajo, Continuar significa que el siguiente nivel se desplazará hacia abajo.
+    desplazarse hacia abajo Loop devolverá al jugador al comienzo del nivel uno.
+
+    EDITAR MAPA DE NIVEL ACTUAL; Habiendo seleccionado el tipo de nivel y la velocidad, usted
+    Luego puede seleccionar el área del mapa que constituye el nivel, presionando el botón
+    El joystick hacia arriba te lleva al final del marcador de nivel, empujar hacia abajo te lleva
+    hasta el inicio del marcador de nivel. Empujar y sostener el joystick
+    El botón te permite mover los marcadores de nivel hacia arriba o hacia abajo en el mapa, para que
+    cubrir las áreas del mapa que desees. Tan pronto como hayas colocado el
+    marcadores, puedes salir de esta opción pulsando el botón derecho del ratón
+    botón.
+    SALIDA; ¡Oh, sí, sabes a lo que me refiero!
+               
+                         h. JUEGO DE PRUEBA
+   Ahora puedes probar el juego. Las opciones son para un juego adecuado o un truco.
+   modo.
+
+   PRUEBA ADECUADA; Esto te da una primera visión de tu juego tal como será.
+   busca a alguien que lo toque. todos los movimientos, sonidos y gráficos.
+   que usted diseñó se combinarán. Después de haber disfrutado de tu maravilla
+   suficiente, puede presionar ambos botones del mouse para regresar.
+
+   MODO TRUCO; Lo mismo que una prueba adecuada, excepto que tienes vidas infinitas.
+   prueba primero el modo trampa, para que puedas ver cómo está armado el juego
+   sin depilarte antes de llegar al final, si el juego no funciona
+   por alguna razón, entonces puedes regresar y arreglarlo, luego probar el juego
+   nuevamente, antes de guardarlo como un juego terminado. Cuando seleccionas el
+   modo trampa, el juego comenzará en el nivel seleccionado actualmente en EDITAR
+   PARÁMETROS DE NIVEL.
+ 
+   El CONTADOR DE MEMORIA LIBRE en este menú le indicará cuánta memoria del chip
+   te queda en tu computadora. Obviamente este será un mayor
+   cantidad en una amiga de 1 mega.
+   SALIDA; ¡Vamos!
+  
+                             i. ALMACENAMIENTO EN DISCO
+
+   Para guardar su trabajo (esfuerzo) o cargar partes en las que haya trabajado antes, debe
+   debe usar una de estas opciones, cargar datos, guardar datos, borrar datos y, por
+   Por supuesto, la opción favorita de todos, Salir.
+
+   CARGAR DATOS: Esto abre un submenú que le pregunta si desea cargar
+   FONDO, SPRITES, OBJETOS, ONDAS DE ATAQUE, NIVELES, EFECTOS DE SONIDO, o 
+   TODO. GUARDAR TODO es la opción que te permitirá
+   hacer un juego independiente (ver capítulo 5) El archivo TODO es un
+   juego completo y borrará todos los datos que ya tengas en la memoria
+   El archivo TODO es en lo que opera para crear un archivo de arranque
+   juego terminado.
+
+   GUARDAR DATOS: Al seleccionar esta opción aparece un menú idéntico al
+   Cargar, pero con Guardar fondo, Sprites, Objetos, etc.
+
+   BORRAR DATOS: esta opción le permite liberar espacio eliminando datos
+   archivos de su disco de datos. La computadora le indicará "Confirmar".
+   Borrar` si o no, para que puedas salir de él si lo seleccionas
+   por error.
+
+   NUEVA UNIDAD: Esta opción le permite cambiar el disco predeterminado
+   unidad, por ejemplo, DF0, DF1, DH0, etc.
+   SALIDA: ¿Ya debes saber qué es esto?
+
+                         j.SALIR BÚSQUEDA.
+   ¿Y quién dijo que no había salida?.....Sí, esta es la salida.
+   de SEUCK, y se le da la opción de Continuar y salir, o Cancelar
+. Esto es sólo en caso de que hayas seleccionado esta opción por accidente.
+
+                    HACER UN JUEGO TERMINADO A PARTIR DE SEUCK
+
+   Para poder hacer un juego terminado a partir de uno de tus patéticos esfuerzos.
+   debes crear un disco de datos o un disco de juego SEUCK. este sera el disco
+   que usas para almacenar la basura que acabas de hacer, oh, bueno, la práctica hace
+   Perfección, lástima que Jeff Minter no haya practicado lo suficiente.
+   Además, contendrá todo lo que necesitas para iniciar tu juego desde
+   scratch o permita que se inicie desde un icono en el banco de trabajo.
+
+   HACER UN DISCO DE JUEGO.
+   Cargue el disco de su workbech (¿no puede encontrarlo?) y formatee un disco nuevo,
+   Después de formatear el disco, seleccione Cambiar nombre en la barra de menú de wokbench.
+   y cámbiele el nombre a SEUCK Games Disk cuando se le solicite.
+
+   Ahora inserte el disco maestro de juegos en su unidad y ábralo.
+   Haga doble clic en el icono del disco Crear juegos con el botón izquierdo del ratón.
+   .Siga las indicaciones en pantalla hasta que todos los archivos relevantes para crear
+   El juego independiente está en la memoria RAM de la computadora.
+
+   Luego se le pedirá que inserte el disco formateado en blanco que tiene
+   llamado SEUCK Games Disk y todos los archivos se transferirán a este 
+   disco. Este es un buen momento para hacer varias copias de repuesto del SEUCK
+   disco de juegos. Se puede copiar con el banco de trabajo y le ahorrará
+   a través de las etapas de preparación cada vez que necesite un disco nuevo, pero tenga
+   asegúrese de cambiar el nombre de cada copia del disco de juegos SEUCK.
+
+                                JUEGO POR DEFECTO   
+   Para crear un juego independiente, ya habrás creado jugadores y 
+   Objetos con efectos de sonido, posición inicial en pantalla y rutas de movimiento.
+   etc. A medida que creas cada parte, guarda el archivo en tus juegos SEUCK. 
+   disco usando el mismo nombre para todos los diferentes tipos de datos.
+   Cuando esté satisfecho con su trabajo de diseño, asegúrese de que todas las piezas separadas estén 
+   en la memoria (comprueba que funciona seleccionando el juego de prueba). Ahora puedes guardar
+   todos estos datos separados como un solo archivo; para que con tus Juegos SEUCK 
+   disco insertado, seleccione Guardar todo y use el nombre que ha elegido 
+   para dar tu juego.
+
+   Inicie su banco de trabajo y luego inserte su disco de juegos SEUCK. Puede
+   prepare su pantalla de carga usando cualquier utilidad que guarde en IFF
+   formato.Asegúrese de guardar en el directorio EDIT_FILES.Esto 
+   se incluirá automáticamente como parte del juego cuando hagas clic en el icono
+   .Si no has incluido una pantalla de carga habrá un mensaje
+   indicando que este archivo no ha sido cargado y el nombre del juego
+   se mostrará en su lugar
+
+                                   Arranque automático
+   Para iniciar automáticamente tu juego cuando insertas el disco en una inserción 
+   indicador del banco de trabajo, debe utilizar la función del bloc de notas en sus utilidades 
+   cajón en el banco de trabajo para modificar un archivo llamado secuencia de inicio en el S
+   directorio en su disco maestro de juegos.
+   (La secuencia de inicio es un archivo de texto que el sistema operativo Amigas
+   mira cuando arranca. Luego ejecuta cualquier comando que sea 
+   ese archivo. Consulte el manual de su Amiga para obtener detalles sobre la secuencia de inicio).
+   Puedes reemplazar el comando LOADWB con el nombre de tu juego.

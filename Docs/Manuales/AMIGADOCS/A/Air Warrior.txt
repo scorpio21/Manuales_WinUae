@@ -1,0 +1,745 @@
+                                 AIR WARRIOR
+
+                              Amiga Version 1.0
+
+
+                              Preliminary Draft
+
+
+
+
+
+
+
+
+
+                               Copyright 1987
+
+                              Kesmai Corporation
+
+
+
+
+                           Update by: RGRIMM - 4/88
+
+
+
+
+
+
+
+
+
+
+
+
+                           TABLE OF CONTENTS
+
+
+
+       1. PREFACE .....................................  1
+
+
+       2. OBTAINING THE SOFTWARE ......................  1
+
+
+       3. RUNNING AIR WARRIOR .........................  2
+
+
+       4. FLYING THE PLANE ............................  3
+
+           4.1 Summary ................................  3
+           4.2 The Controls ...........................  4
+           4.3 "Held" Keyboard Commands ...............  4
+           4.4 "Toggle" Keyboard Commands .............  5
+           4.5 Seldom Used Keyboard Commands ..........  6
+           4.6 Line-Oriented <Esc> Commands ...........  7
+           4.7 The Options Menu .......................  8
+
+
+       5. BOMBERS: SPECIAL CONSIDERATIONS..............  8
+
+           5.1 Assembling a Crew ......................  9
+           5.2 Bombers - Payload and Crews ............  9
+           5.3 Bombs and Bombing ......................  9
+           5.4 Turrets ................................ 10
+           5.5 Undercrewed Missions ................... 10
+
+
+       6. THE CONFERENCE ROOMS ........................ 11
+
+           6.1 Summmary ............................... 11
+           6.2 Room Commands .......................... 11
+           6.3 Forming Squadrons ...................... 13
+
+
+       7. SCORING ..................................... 13
+
+           7.1 Summary ................................ 13
+           7.2 Mission Scoring Categories ............. 13
+           7.3 Scoring Definitions .................... 14
+           7.4 Damage Calculation ..................... 15
+           7.5 Point Accumulation Categories .......... 15
+
+
+       8. THE MAP ..................................... 15
+
+
+       9. THE PLANES .................................. 16
+
+           9.1 List of Current Planes (V1.0) .......... 16
+           9.2 Flight Statistics for Major Aircraft ... 16
+
+
+      10. CONCLUSION .................................. 17
+
+
+
+
+
+
+                                 1. PREFACE
+
+     Air Warrior is a multiplayer aerial combat simulation.  Using sophisticated software on both the user's microprocessor and the GEnie system, Air Warrior provides the level of graphical detail and responsiveness expected from a video game, yet at the same time the scope and large number of participants of an online game.
+
+     Players of Air Warrior belong to one of three nationalities.  These three small countries are continually at war, primarily waged in the air (though it is  rumored they are building armies as well).  Each country has several primary airfields and a number of secondary fields where a plane can land in an emergency.  Because these countries are so poor, the best they can afford is surplus World War II planes, which their highly skilled mechanics keep in excellent working order despite difficult conditions.  They take whatever they  can get, be it used American, British, German, or even Soviet planes, stealing them from each other whenever possible.  Thus a wide variety of planes are available to pilots of each country.  Sometimes even World War I vintage planes show up.
+
+
+                          2. OBTAINING THE SOFTWARE
+
+     To play Air Warrior, you will need to download several files that are specific to your particular brand of computer.  The number of different types of machines supported is limited, but we are working to produce as many different versions as possible.
+
+     Your first step will be to obtain some sort of Xmodem file transfer program, so that you can download the Air Warrior software from GEnie.  Most  commercial communications packages have Xmodem capability, and many excellent free and shareware programs are also available.  Amiga users will need the ARC program, to un-compress and un-bundle the binary data in the files, as they have been "ARCed" to reduce the time necessary to download them.
+
+     Once you are online on GEnie with your file transfer program, type AIR (or M 870) to go to the Air Warrior page.  Select option 4, Download Software, to see the download menu.  The first entry on this page will contain detailed up to date information on downloading the various versions of software available.  You should read this information online before proceeding further.  You should also make sure you understand the licensing agreement under which you are downloading the game software, which is contained in this file.
+
+     The Air Warrior package consists of three files: the program, the progrm data base and the terrain data base.  Therefore you will have three downloads to do, a long one to obtain the program and two relatively short ones to obtain the program and terrain data bases.  If you place the program into a directory, you should place all these files into the same one.  In the current versions, the terrain data base must be called terrain.dat, and the program data base must be called airwar.dat, so if your file transfer method does not set the name properly, you will need to rename it.  As of version 0.4, there are four separate airwar.dat files for each resolution you choose to fly in.  Airwar.dat is the basic low-res and MUST be downloaded.  AirwarM.dat is for medium-res, airwarH.dat for high-res, and airwarT.dat for interlace resolution, and are optional.  If you choose these other resolutions, they are in addition to the low-res airwar.dat file, which the program needs to find when loading.
+     The reason you need to download a separate file for the terrain file is that we are thus able to alter the map of the world periodically, and all that is required is a relatively short download to obtain the latest version of the datafiles.  Version 1.0 was loaded April, 1988 and the program datafiles were also changed, but are split off from the main program.  You should keep an eye on the banner going into the game for information on when you will need to do a download, although the program itself will inform you if you enter the game on GEnie without the latest file.
+                                                                            1
+
+
+                          2. OBTAINING THE SOFTWARE  (cont'd)
+
+     Every once in a while, we may find it necessary to make a major change in the software, either to fix a bug or to add a major new feature.  Generally we  will be able make sure that existing versions of the software will continue to work, but this is not always possible or desirable.  If you are told your software is out of date when you try to enter the game on GEnie, this means a major change has been made that requires a fresh download.  When this happens, there will always be an explanation of what has happened in the Version Notes,  which can be found under the Instructions menu on page 870.
+
+     In addition, changes will often be made to the GEnie end of the program to  enhance performance or add new features.  The version number that the program  displays on the banner when you enter page 870 can tell you whether the GEnie software has been changed recently.  Again, details of any changes will be placed in the Version Notes.  You should make it a practice to watch for changes in the version number, and to read the version notes whenever it changes.  Quite often important changes to the game will be explained there, and you will be at a significant disadvantage if you do not read about them.  It is the nature of online games to evolve over time, continually improving in response to new ideas.
+
+
+
+                         3. RUNNING AIR WARRIOR
+
+     The microprocessor program starts up in "practice mode".  In this mode the Control, Planes and Options menus are enabled.  You can practice flying a plane  by selecting the one you want from the Planes menu (see Flying a Plane for details).  Everything works in practice mode except the combat-related items (like the guns, bombs, and tracking icons), but there is nothing to shoot at anyway.  You'll always start out at Airfield 1 of Country A (generally denoted as A:1), but the other airfields are all present if you want to fly to them.  The practice mode is primarily designed for you to learn to fly the plane well, and, hopefully, to land it safely.  Once you have the hang of flying, it's time to get on GEnie and test your mettle against other pilots.
+
+     To put the program in Terminal Mode, select Choose Terminal Mode under the  Control menu.  The Setup menu now becomes enabled, so you can set your baud rate and other communications parameters correctly.  You can either use the manual dialing commands for your modem or the dialing requestor, which has been enabled in this version for the Amiga.  The communications parameters and dial string is saved in a file called 'config'.  It is safe to delete the config file before running the program; if the file is not present then the program will default all the communications settings to reasonable values.  If you are having trouble getting Air Warrior to dial, a good first step is to remove the config file and reset all the settings again.  This often clears up the problem.
+
+     It's important to be in the Air Warrior program, in Terminal Mode, before  you select the GEnie menu option to Enter Air Warrior.  The actions a normal terminal can perform in Air Warrior are limited.  GEnie will figure it out eventually if you switch to the Air Warrior front end in mid-run, but the process may be confusing both to you and the system.  When you enter the Air Warrior program on GEnie, the Commands menu will be enabled.  The Commands menu provides a convenient way to perform common operations without having to remember commands.  It appears all the commands are enabled for the Amiga in version 1.0, including chosing an airfield and other "gadget" driven requestors.
+
+
+
+
+
+
+                                                                            2
+
+
+                             4. FLYING THE PLANE
+
+4.1  Summary.
+
+     Practice is the most important thing you can do to learn to fly and fight well.  Use the Practice Mode of the program to master landing, as getting a landing or ditch is vastly superior to bailing out at the end of the mission.  Acrobatic skills can also come in handy in eluding a plane on your tail, or making a fancy maneuver to get on someone else's.
+
+     The graphical display on the computer screen contains all the information you need to fly your plane.  The largest part of the display is taken up by the  graphical picture, which shows what you can see from your plane.  You will see runways, buildings, mountains, other planes, and sometimes guns or vehicles on the ground.  Part of the picture will be obscured by your own plane,  which  will be drawn in some detail.  If you do see another plane or ground target, and are within 6000 yards (less for some small targets), the program will textually display the id number of the target, the range to the target in yards, and two small, unique icons used to identify the target.  One icon will appear below the the current cockpit window view, directly below the corresponding target.  The other icon will appear directly above the radar/text area and will show the id number and range to the target in yards.  The different icons can be used to distinguish small images of other planes on the screen, compensating for the small size of the computer screen.  The icons will also be color coded by country.  Gray icons are for country A, yellow icons are for country B and red icons are for country C.
+
+     Below the picture on the screen is a representation of the aircraft's  instrument panel.  The major instruments are the altimeter, rate-of-climb gauge, compass, fuel, oil, ammo and the airspeed indicators.  The altimeter has three needles, representing tens, hundreds, and thousands of feet.  The Amiga has a rate-of-climb gauge marked in feet per minute, with a range of about -2000 to 2000 feet per minute full deflection.  The digital compass reads in degrees, with zero as north and ninety due east.  Fuel and oil comsumption is indicated by a sliding bar from left to right.  Ammo consumption, similarly, is indicated by a round analog dial.  The velocity gauge indicates true airspeed , but can also be switched to show indicated airspeed in the Options menu.  Indicated airspeed is speed of the aircraft relative to the air around it.  True airspeed is in relation to the ground.  Airspeed is measured in knots, or nautical miles per hour.  One knot is approximately 1.14 miles per hour.  Also, the current radio frequency is indicated in the upper right-hand corner of the instrument panel. A new gauge is the accelerometer or G-meter.  This indicates from -3 to 5 g's being felt by the pilot and the airframe on turns and banks.  Exceed the plane's structural limit and you'll rip the wings off!
+
+     Other indicators on the control panel are aircraft control indicators.  The large box in the center of the panel is the "stick box", or stick position indicator.  At the very top of the stick box is the rudder position indicator; a small grey bar that "hangs down" from the top of the box.  Rudder only affects flying in the "expert" mode.  See 4.4 "Flying the plane for a description of flying with the rudder.  The throttle indicator shows the current throttle setting.  (Up for full throttle.)  Small gauges indicate whether the landing gear are up or down, and the position of the flaps.  (Down for full flaps.)
+
+     The basic controls of the plane are on the mouse.  Pushing the mouse forward or backward lowers and raises the nose, respectively.  Moving the mouse from side to side will bank the plane, which will turn it in that direction.  The steeper the bank, the faster the turn.  The faster the plane is moving the steeper the plane will have to be banked to turn the plane quickly.
+
+     There are two basic modes of mouse control, expert mode and non-expert mode.
+
+                                                                            3
+
+
+                             4. FLYING THE PLANE  (cont'd)
+
+4.2  The Controls.
+
+     Expert mode is designed to give realistic responses to mouse motions, whereas non-expert mode is designed to provide a simple and stable control system at the cost of some realism.  In expert mode, a mouse motion to the right causes the plane to bank to the right, the more the mouse is moved the faster the plane rolls to the right.  If you move the mouse to the right and keep it there, the plane will execute a full roll, and keep rolling till you move the mouse back to center.  Likewise pulling the mouse back and keeping it there will put the plane through a full vertical loop.  To execute a controlled turn to the right, you would move the mouse to the right, causing the plane to roll to the right.  Once it reaches an acceptable angle of bank, such as 45 degrees or so, move the mouse back to center to stop the roll.  When the plane turns around to the desired heading, move the mouse to the left to roll the plane back to level, then center it when the plane has straightened up.
+
+     In non-expert mode, the mouse controls the actual position of the plane rather than the positions of its control surfaces.  Moving the mouse to the right banks the plane to the right, the farther to the right it goes, the steeper the bank.  To make a right turn, move the mouse to the right to bank the plane.  When it reaches the desired course, move the mouse back to center to straighten the plane out.  Unlike the expert mode, the mouse motions here bear little resemblance to the actual motions of the stick in a plane, but they are easy to understand and easy to fly with.  The variety of maneuvers the plane can perform in this mode is basically limited to level flight, climbs, dives and turns.  Loops and more complex maneuvers require the use of expert mode.
+
+     With the left mouse button held down, moving the mouse forward or backward will adjust the throttle up and down (note the throttle gauge on the screen that tracks the motion of the mouse.)  You'll want to use full throttle for takeoff and steep climbs, with maybe 70% throttle for level cruising, and will usually shut the engine down to 20% or so for a descent for landing.
+
+     The left mouse button no longer gives you uncoordinated banks in ANY mode.  When you hit the keypad "9" key, this locks the bank attitude and "shifts" the left button from control of the throttle to the control of the elevators so you can adjust the climb/descent attitude of the aircraft.
+
+    Double-clicking the mouse button will center the stick, useful for trimming the plane to fly straight in expert mode, or leveling the plane out in the non-expert mode.
+
+     There are also several keyboard commands.  They fall into three categories; those that you hold down to perform an action, those that are pressed once to initiate an action, and those that are line-oriented commands.
+
+
+4.3  "Held" Keyboard Commands.
+
+4.3a  Cockpit view (Keypad Numeric Keys)
+
+     On the Amiga, holding down the '4' key will cause you to look out over the left wing of the plane.  As long as the key is held down, you'll look to the left.  The '6' key does the same thing, to the right.  The '2' key is used to look directly behind you.  The '8' key looks straight up, and the '5' key looks straight down.  Note that looking down doesn't work very well for most planes, all you see is the floor of your cockpit.  Holding down the '4' and '2', or '6' and '2' keys in combination will give you an 'over the shoulder and leaning to the side' view, which can be useful in a plane with a high fuselage behind the pilot.
+
+                                                                            4
+
+
+                             4. FLYING THE PLANE  (cont'd)
+
+4.3  "Held" Keyboard Commands. (cont'd)
+
+4.3a  Cockpit view (Keypad Numeric Keys)  (cont'd)
+
+     The above keys can be combined with the '8' key for looking upwards, the '5' key for looking downwards.  In addition, the '-' keypad key will allow a forward view to be combined with keys for up, down, right and left.  This eliminates many of the previous "blind spots" in the computer view and makes locating an enemy much easier
+
+     Holding the <Enter> key will request the radar map.  The map display shows several things.  Your plane is represented by a small white line in the center of the picture.  North is always to the top of the screen.  Dark green lines represent map grids (see the discussion of the Map).  Short grey horizontal or vertical lines show the positions of the various runways.  Red, Yellow or Dark grey lines represent nearby planes, within about 8 miles.  Bombers will display an extra colored line for distinction.
+
+     Any plane you can see out the window, with or without a tracking icon, will be displayed on the map, with a tracking icon enabling you to identify it.  In addition to these true position indicators, each map sector within a radius of two sectors will have a set of small colored boxes along its sides telling you how many friendly and enemy planes are within the sector.  Up the left side, small yellow boxes represent enemy planes, small dark green boxes represent friendly planes.  Note that these counters are only updated every 45 seconds or so, whereas the true position indicators are updated continuously.  Also note that mountains are NOT displayed in radar mode!
+
+4.3b  Turret movement with keypad
+
+     Hand operated turrets will rotate only with the use of the numeric keypad keys.  The  "7" key will rotate the turret to the left.  The "9" key will rotate the turret to the right.  The "1" key will rotate the turret up.  The "3" key will rotate the turret down.  See section 5 for a fuller discussion of special considerations when crewing a bomber.
+
+4.3c  Other "held" keys.
+
+     Holding down the space bar will push down on the brake pedal, in order to stop a plane on the ground.
+
+     Holding down the left mouse button controls the throttle of the airplane, except when the keypad "9" key has been hit previously.  Then the left button only controls the elevators for climb/descent attitude adjustments.
+
+
+4.4  "Toggle" Keyboard Commands.
+
+     Pressing SHIFT * will start the engines.  For planes with multiple engines, you will need to do this for each engine.  A second SHIFT * will cut off ALL engines.
+
+     Hitting a slash "/" will toggle the radio into the "send" mode.  You'll see a "/" prompt, which means you can type your message.  It'll be sent out over the radio channel you have tuned when you hit return, which will then toggle the radio back to "recieve only" mode.
+
+     Hitting a "'" will toggle on the intercom when in a bomber.  All intercom chatter is private to the aircraft and will NOT be heard by anyone, friend or foe, in another plane.  It has nothing to do with the radio channel that is being used.
+                                                                            5
+
+
+                             4. FLYING THE PLANE  (cont'd)
+
+4.4  "Toggle" Keyboard Commands. (cont'd)
+
+     Hitting a "B" will drop a bomb.  You should not do this while you are sitting  on the ground!  Multiple keypresses will release successive bombs for planes that can carry more than one.  Bombers must have the bay doors open and have already loaded the bombs prior to selecting "/fly".  Fighters, in addition, must have already had the bombing mode enabled before takeoff.
+
+     The "." and "0" keys on the numeric keypad are used to control the plane's rudder.  The rudder control is not needed for ordinary turns, because the program always assumes competence on the part of the pilot and adjusts the rudder automatically for properly coordinated flight.  The rudder control is used in expert mode to push the plane away from the normal steady flight condition.  Hitting the "0" key will move the rudder one position to the left, causing the plane to turn to the left.  Hitting the "." key will move the rudder to the right one position.  The centering rudder control is now the '3' keypad key!  The position of the rudder is indicated by a grey bar along the top of the stick box.  The '9' keypad key will now shift the left mouse button from control 
+of the throttle to that of the stick only, locking the bank and allowing you to adjust the attitude of the airplane.
+     The keyboard (not keyapad) numeric keys 1 - 4 will control the distance of the picture out of the cockpit.  "1" gives you the full range picture, "2" gives you a medium range picture, "3" gives you the short range picture and "4" gives you the combat range picture.  Since the host must update these pictures constantly, the greater the detail (longer range), the slower the update.  Thus, the combat range picture is updated the most frequently and smoothly, making it critical for correctly tracking a target visually while dogfighting!  By switching the pictures in practice mode, you will see that mountains and other details are not displayed at times in the shorter range pictures because of their distance from the plane.  In the combat picture range, these terrain features will be displayed only when you are in imminent danger of crashing into them.
+
+     Hitting the ESC key will give you access to the command mode.  See section 4.6 for a discussion of these commands.
+
+4.5  Seldom Used Keyboard Commands.
+
+     Other kinds of keyboard commands are used to control some aspect of the plane that isn't changed frequently.  These commands are:
+
+    ;  - Raise or lower the landing gear.  Make sure your gear are down before you try to land.  Landing with the gear up is very difficult and dangerous.  Note that leaving the landing gear down will generate excess drag, which may be good or bad depending on whether you want to slow down or speed up.
+
+    >  - Lower the flaps one notch.  Lowering the flaps is used to increase the lift and the drag of the airplane, especially for landing.  Also keypad "1" key.
+
+    <  - Raise the flaps a notch.  Decreases drag (and lift) and can be used for 
+gaining speed and level cruising.  Also keypad "7" key
+
+    f  - Fire the machine guns in a 2 second burst.  The guns have a range of 800 yards at the moment (effective range 400 yards), and you can basically hit a target that's within the sight box.  Just because it is in the box does not guarantee you hit it.  This key duplicates clicking the right mouse button, which will also fire the machine guns.
+
+    x  - Toggle the "expert mode" on and off.  You can go in and out of expert mode freely, as the situation warrants.
+
+                                                                            6
+
+
+                             4. FLYING THE PLANE  (cont'd)
+
+4.6  Line-Oriented <Esc> Commands.
+
+     The line-oriented keyboard commands are used primarily for things that require communicating to GEnie, such as talking to another plane.  To enter one  of these commands, hit the Escape key (denoted hereafter as <Esc> ).  A ">" prompt will appear on your screen, and anything you type will be echoed back  next to the prompt.  These commands are terminated with a return, and can be canceled by entering a Ctrl-x.
+
+     The End (e) and Parachute (p) commands are used to leave the plane and return to the conference area.  You must be stationary on the ground to End, which implies a successful landing or ditching.  The "p" command (all these commands should be entered just as their first character) can be entered anywhere, but keep in mind that the game may be checking for stupid maneuvers like bailing out when too low to open your parachute.
+
+     The Arm (a) command can only be used while on the ground, and is used to arm and enable bombing in fighters which can carry them.
+
+     The Tune (t) command is used to tune your in-flight  radio.  Just enter "t", then a channel number from 1 to 999.  Channel 1 is a public channel, the others are private to each country.  Any radio chatter will identify the speaker 
+by beginning with the players id number, if in flight, or the player's handle if 
+in one of the conference rooms or airfields.
+
+     EXAMPLE:  9999: Tally ho!                (player 9999 in flight)
+     EXAMPLE:  Blondie: Where's the action?   (player Blondie on the ground)
+
+     The Intercom (') command is used while in a multi-player plane (bombers) to talk to other crew members without having to use a separate radio frequency.  Thus, you can still monitor your current radio freuqency without being overheard discussing crew tactics.  Any intercom chatter is always indicated by parentheses around the id number of the crew member speaking.
+     EXAMPLE:  (9999): Are we hit?            (crewmember 9999 on intercom)
+     EXAMPLE:   9999: Are you hit?            (player 9999 on normal radio)
+NOTE: The intercom can also be initiated simply by typing a "'" in the immediate 
+mode.
+
+     The Roster (r) command will print a list of planes currently in flight.  The roster only contains other players, so you will not be listed.
+
+     EXAMPLE: 9999 A Blondie   (player 9999, country A, handle "Blondie")
+
+     The Where (w) command will tell you roughly where you are.  It will give the map grid sector where you currently are and the grid sector where you started.
+
+     EXAMPLE: starting sector 3,3
+              current sector  3,2
+
+     The Bombsight (z) command will switch on the bombsight, if the plane carries one.  In the Bombers, this will switch to a bombsight screen.
+
+     The Mode (m) command is used in connection with "0","1" or "2" to specify the range of the radar map.  (i.e. <Esc>m1)  The 0 range will display the the area just within your current sector.  The "1" range is 2 sectors, and "2" is maximum range.  The default is 2.  It is a good idea to use the "0" radar range for dogfighting as it gives the maximum sensitivity to plane separation.
+
+     EXAMPLE:  <Esc>m0    (switch to "0" radar range)
+
+                                                                            7
+
+
+                             4. FLYING THE PLANE  (cont'd)
+
+4.6  Line-Oriented <Esc> Commands.  (cont'd)
+
+     The Jump "j" command will allow a crewmember (but not the pilot) of a bomber to "jump" from his current gunner position to another unoccupied gunner position.  This allows a bomber which is lacking a full crew to still have a fighting chance against the enemy.  You must specify the desired position to be "jumped" to as a single abbreviation.
+
+     EXAMPLE: <Esc>jl     (jump to lower turret)
+     EXAMPLE  <Esc)jt     (jump to tail gun)
+     EXAMPLE  <ESC>ju     (jump to upper turret)
+
+
+4.7  The Options Menu.
+
+     The Options menu contains several useful optional features that are active in both local mode and online on GEnie.  Each option is either on or off, represented by a checkmark in the menu.  The options are:
+
+(1)  Sight On/Off controls whether a gunsight is displayed.
+
+(2)  Bomb Sight On/Off controls whether a bombsight is displayed for normal
+     planes.  This sight is useful for dive bombing.  When the sight is on, a
+     small X will appear somewhere below your plane at the approximate location
+     where a bomb would hit.
+
+(3)  Expert Controls is an additional way to toggle the program in and out of
+     expert mode.
+
+(4)  Engine Sound On/Off controls whether the program produces a buzzing sound
+     reminiscent of an aircraft engine.
+
+(5)  Gun Sound On/Off controls whether the program produces a sound akin to guns
+     firing.
+
+(6)  Visible Tracers On/Off  is currently not available in the Amiga version
+     of Air Warrior.  However, if you are within 400 yards of the target, you
+     will see a 45 degree "cross-hatch" appear on the target if you make a hit.
+
+(7) Indicated airspeed On/Off makes the airspeed indicator like that of a real
+    airplane; showing speed through the air, rather than speed relative to the
+    ground.  These two quantities are VERY different!
+
+
+                           5. BOMBERS: SPECIAL CONSIDERATIONS
+
+     While bombers fly in the same manner as other aircraft (albeit with their own particular flight performance characteristics), there are special commands and considerations that are necessary while you are a crew member.  Crew members need not select a bomber, it will be assigned for them based on the pilot's plane selection.  When the pilot elects to takeoff, all current crew members will automatically be placed in the plane on the runway; they do not need to use the "/fly" command.
+
+     At this time, only the pilot will know when the plane is being hit by enemy fire.
+
+     Bombers also have an "intercom" system to let crewmembers talk to each other without having to change radio frequency to hold a private conversation.  See section 4.6 for the intercom commands.
+
+                                                                            8
+
+
+                           5. BOMBERS: SPECIAL CONSIDERATIONS  (cont'd)
+
+5.1  Assembling a crew.
+
+     The pilot is the only one who can accept crew members.  Assembling a crew must be done at the airfield or conference room BEFORE selecting "/fly" (takeoff) and only after the pilot has selected a bomber from the Planes menu.    The crewing commands are:
+
+    /join (pilot player number) (position) - issued by prospective crew
+
+    /accept (crew player number)  - issued by bomber pilot
+
+    /deny (crew player number) - issued by pilot
+
+  Should the pilot decide to change to a different bomber while he already has a 
+crew, all the crew will be unloaded and must reapply for their positions.
+
+
+5.2  Bombers - Payload and crew positions available.
+
+     NOTE:  The Navigator position is basically an observer's position and has no control over the plane.  The navigator, however, can "jump" to any unoccupied gunner position in-flight.
+
+5.2a  B-17G Flying Fortress. 12 bombs.
+
+     Pilot - no gun
+     Navigator (observer position)
+     Tail Gunner - remote controlled
+     Upper (dorsal) turret gunner - remote controlled
+     Lower (ball) turret gunner - hand operated
+     Left Waist gunner - swivel mounted
+     Right Waist gunner - swivel mounted
+     Chin turret - remote controlled
+
+5.2b  B-25H Mitchell.  6 bombs.
+
+     Pilot - stationary guns
+     Navigator (observer position)
+     Tail Gunner - remote controlled
+     Upper (dorsal) turret gunner - remote controlled
+     Lower turret gunner - remote controlled
+
+5.2c  A26-B Invader.  8 bombs.
+
+     Pilot - stationary guns
+     Upper (dorsal) turret gunner - remote controlled
+     Lower turret gunner - remote controlled
+
+
+5.3  Bombs and bombing.
+
+     When at the target area, the bomb bay doors must be open to drop the ordinance.  This is done via the "<Esc>a" command.  A message will be issued to tell the pilot that his bay doors are open.  Issuing a second "<Esc>a" command will close the bay doors.
+
+     The new host version will automatically load the bomber with bombs when selected.  Remember this if you decide to take a bomber and DO NOT wish to drop any bombs.  You will need to get rid of them after taking off (get away from your runway first) to increase the plane's performance.
+
+                                                                            9
+
+
+                           5. BOMBERS: SPECIAL CONSIDERATIONS  (cont'd)
+
+5.3  Bombs and bombing.  (cont'd)
+
+     The "<Esc>z" command will give the pilot the bombsight view.  A set of cross-hairs will appear and mark the spot where the bombs will drop.  While the pilot still retains flight control over the plane during a bomb run, any excessive stick movement will cause the sight to lose it's "lock" on the target and disappear until less drastic changes in flight characteristics are made.
+
+     Once the bay doors are open and you have the target in the cross hairs, pressing the "b" on the keyboard will drop half your payload.  Simply press "b" a second time to relesase the other half.  A second "<Esc>z" command will give the normal view back to the pilot.  Note that ONLY the pilot may use the bombsight.
+
+
+5.4  Turrets.
+
+     Crewing in a bomber as a gunner can be most enjoyable when enemy fighters pounce on your ship.  Remember that the pilot may not be able to use his own guns (if he has them) and will be relying on you to track targets visually or in  
+radar mode and destroy them before the plane takes too many hits.
+
+     The turret cross-hairs are moved by mouse control.  You must have the target almost exactly centered to record a hit.
+
+  The turret positions have all available picture and radar ranges to assist them in locating targets.  They also have the normal positional views. They can only fire in the direction the turret is pointing, so a gunner must "rotate" the turret in other directions for gunner positions with rotating turrets.  There are three types of turrets.
+
+5.4a  Manually operated turrets. (i.e. B-17 Ball turret)
+
+     Hand operated turrets use the keypad keys to rotate and aim.  The keypad "7" will rotate a turret to the left.  The "9" key will rotate the turret to the right.  The "1" key will rotate the turret up.  The "3" key will rotate the turret down.
+
+5.4b  Remote controlled turrets. (i.e. Both A-26 turrets, B-17 Chin turret)
+
+     Remote controlled turrets aim the cross-hairs by moving the mouse around the screen.  Moving the cross-hairs to the edges of the screen will cause the turret to move in that direction.  You will more than likely then have to recenter the cross-hairs on the target after a large rotation movement.
+
+5.4c Swivel mounted guns.  (i.e. B-17 Waist gun)
+
+     Swivel mounted guns are aimed solely by moving the cross-hairs via the mouse.  Since these guns could only point in one direction in real life, there are no rotational controls for them.
+
+
+5.5  Undercrewed missions.
+
+     When a bomber is undercrewed, the gunner (or gunners, if more than 2 gun positions exist for that plane) may "jump" from their current position to an unoccupied gun position by issuing the "jump" command.  The pilot is ineligible to leave his position at any time.  See section 4.6 for the "jump" commands.
+
+
+
+                                                                           10
+
+
+                           6. THE CONFERENCE ROOMS
+
+6.1  Summary.
+
+     When you enter Air Warrior on GEnie, you'll be in general conference room  one.  Here you can talk with other players, look to see who is flying, or move to a different conference room to private conversations.  There are a total of nine general conference rooms, open to anyone no matter which nationality (they are located in a neutral country).  The general conference rooms are open to users with normal terminals as well, so you can come in and talk even if you don't have the right software.  If you want to discuss something with people of  other countries, or taunt them for their poor flying, you do it there in the general conference rooms.
+
+     Each country has a conference room located at its headquarters.  This conference room is open only to players who belong to that country, so it can be used for planning missions or other sensitive discussions.  The headquarters conference room is also open to users of normal terminals, so that they can participate in these discussions if need be.
+
+     Each major airfield also has a briefing room, where pilots readying for takeoff or returning from missions may talk.  These briefing rooms are open only for users of the Air Warrior terminal software, and of course only to members of that country.  From the briefing room at the airfield, you can go into flight by selecting the plane you want from the Planes menu, or entering the proper keyboard command.
+
+     The conference rooms provide a convenient way to talk to other pilots, all sitting around the same table, so to speak.  If you want to talk to pilots at other airfields or in flight, you have to use the radio.  To go into a radio room and put on a pair of headphones, you just enter the appropriate command to select a radio frequency.  Frequencies run from 2 to 999, and each country uses  a separate band.  Frequency 1 is a special common channel that permits you to talk to planes of other countries, so long as they are also tuned to channel 1.  With headphones on, you can't hear the conversation going on back in the briefing room, but you'll hear anything said by others on your frequency.
+
+     In flight, you can tune to any channel from 1 to 999, just as in the radio rooms.  You should be sparing with chatter while in flight, everyone (including  you) will be busy flying their planes.
+
+
+6.2  Room Commands.
+
+     The following keyboard commands are available in any of the general conference rooms, headquarters, or the briefing rooms at the airfields.  Any command denoted with a "*" is enabled in the Command menu and can be selected from the menu bar for ease.
+
+     To talk to the other people in the room, or to talk on the radio if you have headphones on, you just type what you want to say with no slash ("/") needed.  All other commands to the program begin with a slash ("/").  Commands can be abbreviated to uniqueness, often a single character after the slash.
+
+    /bomb #  - load # bombs into plane.  If no number is specified, or if number
+               exceeds payload capacity then the maximum number of bombs will be
+               loaded.
+
+    /help  - Print a list of the available conference room commands.
+
+*   /end or /exit  - Leave Air Warrior and return to GEnie.
+
+
+                                                                           11
+
+
+                           6. THE CONFERENCE ROOMS  (cont'd)
+
+6.2  Room Commands.  (cont'd)
+
+*   /handle (name)  - Change the handle by which you are known in Air Warrior.
+                      Initially it will be the same as your GEnie mail handle.
+
+*   /roster  - Print a listing of the others in Air Warrior, showing which room
+               they are in if they are on the ground, and which type of plane
+               they have selected, if any.
+
+    /who (player id #)  - Print detailed records about the person you specify.
+                          The number you give is the number next to that
+                          person's name on a /roster command, e.g. "/who 3046".
+                          These records will show that person's mission totals
+                          and flight times for the categories of successful
+                          missions, missions ending by ditching the plane,
+                          missions ending by bailing out over friendly
+                          territory, and missions ending in a crash or bailing
+                          out over enemy territory.  See the discussion of
+                          Scoring for a precise definition of these categories.
+
+*   /status (player id #)  - Print out the status of another member of your
+                             country, such as the current plane being used, and
+                             whether or not any passengers or gunners are on 
+                             board the plane. Use this command to determine
+                             which slots are open on a plane that can carry more
+                             than one person.
+
+*   /hq  - Move to your national headquarters.
+
+*   /general (room #)  - This command is used to move to one of the general
+                         conference rooms.  e.g. "/gen 1".  If you omit the
+                         number, you'll go to general conference room 1.
+
+*   /airfields  - Print out a list of active airfields, and pertinent infor-
+                  mation about each.
+
+*   /goto (airfield #)  - Move to one of your country's airfields.  You must do
+                          this before you can take off.  You have to be running
+                          the Air Warrior software for this command to succeed.
+
+*   /plane (plane order #)  - Select a plane.  You must be at an airfield to use
+                              this command, and, of course, you must be running
+                              the Air Warrior software.
+
+*   /fly  - Start a flight. This will place you and any passengers you have onto
+            the plane.  The graphics screen will appear, and the rest is up to
+            you!
+
+    /tune (channel #)  - Will put you in the radio room and place a headset on
+                         so you can talk and listen on the radio from channels 1
+                         to 999.
+
+    /reserve (theatre #) - Version 1.0 has two theaters for combat, and you must
+                          choose one in order to fly.  Theatre 1 is the regular
+                          three-country version.  Theater 0 is a special
+                          two-country version that was used to test V 1.0 and
+                          is ideal for combat with WW I planes.
+
+
+
+
+                                                                           12
+
+
+                           6. THE CONFERENCE ROOMS  (cont'd)
+
+6.3  Forming Squadrons (Teams).
+
+     The squadron commands are all run from the conference rooms, i.e. there is no separate team menu unlike our other products. The overall structure to the teams is very like Stellar Warrior, however, the major difference being that there are no 'telegrams'; the leader and prospective new team member must be in the same room to exchange the invite-accept commands. This should not present any problems for a game structured like this one is. The commands are:
+
+  /invite <ship number>     - Send an invite to someone.  If you don't have
+                              a team yet, a new one is created.
+  /rename <new name>        - Change the name of your team.
+  /team [<team number>]     - Show the roster of your own team or the specified
+                              team.
+  /withdraw                 - Withdraw from your team.
+  /expel <number>           - Expel a member.  You must be the leader.
+  /disband                  - Disband the team.
+  /accept <team number>     - Accept an invitation to join a team.
+
+     The way a person joins a team is to corner the leader is a conference room somewhere.  The leader issues an invite command, which prints a message on the person's screen.  They then enter accept <team number>, which puts them on the team.  If they have changed their mind, they can just ignore the invitation.  Note the leader and prospective member must be on the same country, and in the same room.
+
+  Note that one does NOT have to be a member of a particular team to crew on a bomber, nor does membership in a team disable one from crewing a bomber with non-team members.
+
+
+
+                                 7. SCORING
+
+7.1  Summary.
+
+     You can earn points in basically only one way, by inflicting damage on an enemy country.  You can shoot down enemy planes, or strafe and bomb enemy ground targets.  Additional mission possibilities will be added later.  You will earn some score for damaging a target, and additional score if you succeed in destroying it.  Once you have earned points for your actions in the air, you will need to return your plane to base to get credit for your victories.  Partial or full credit is awarded under four scoring categories depending on how your mission ends.  The four scoring categories are: Completed Mission, Ditched,   Bailed Out, and Crashed/Shot Down.  These are defined as follows:
+
+
+7.2  Mission Scoring Categories.
+
+     Completed Missions are missions where you successfully land the plane at a friendly airfield, bring the plane to a complete stop, then hit the End command.  This will record all points earned in the mission, and you'll receive full credit for the mission.
+
+     Ditched missions are missions that end with a successful soft landing in friendly territory, but not on a runway.  You have to be more careful to touch down slowly than if you land on a runway, and you must have your landing gear down!  A mission ending in a ditching, followed by an End command, will be worth half credit, but it's a lot easier than landing on a runway.  Ditching in enemy  territory is very bad (delivering an intact plane to the enemy is about the worst thing one can do), and counts as a crash rather than a successful landing.
+                                                                           13
+
+
+                                 7. SCORING  (cont'd)
+
+7.2  Mission Scoring Categories.  (cont'd)
+
+     You can bail out of your plane at any time, and if you are over friendly territory, you'll receive one-third credit for the mission.  Bailing out over enemy territory is tantamount to being shot down, because the pilot, if he survives, will be a prisoner of war.  Thus, a bail out over enemy territory is treated the same as a crash.
+
+     If you crash the plane or are shot down, your score will be recorded in the  fourth category, which is worth one-fourth credit.
+
+     There is an additional category, which is currently not shown on the score  board.  This is the 'system error' category, for all missions terminated by a  system shutdown or a crash of the Air Warrior host software (as unlikely as that is).  Full credit will be awarded for any missions in progress if one of these unfortunate events occurs.
+
+
+7.3  Scoring Definitions.
+
+     The criterion for being awarded a kill on an enemy plane consists of the following: you must inflict serious damage on the enemy, and the plane must crash or bail out within five minutes.  If more than one person hit the plane the kill will be awarded to the plane that fits the above criterion that did the most damage.  Points are always awarded for inflicting damage, but Air Warrior will not divide the points for the kill itself among several pilots.  Fractional kills are not allowed.  Scoring works as follows (note that all the actual numbers are not necessarily final, but I think the approach is ok):
+
+     You don't get ANYTHING for killing a plane of your own country, neither points nor a kill. That goes for friendly robots also.  If you shoot down TWO friendlies, you won't be issued ammunition from that country anymore and will have to change sides.
+
+     Most planes have a base value of 500 points.  Values range from to 550 depending on how hard that plane is to kill.  The base value of the plane is adjusted by two bonus factors. First, any kill of either an enemy fighter or bomber gets a bonus that varies with the number of aircraft kills you have scored in the current mission.  Currently, the first kill gives a bonus of 5% (in effect raising the base value of a plane to 525), the second gives a bonus of 10% (making the second kill worth 550), and so on.  This caps out at a maximum bonus of 30%, or 650 points per kill.  This gives an slight incentive to  extended courageous missions rather than turning back to the field after the first kill to record your points.  Longer missions are more efficient for the country, and are rewarded. Ground targets (such as King Kong and ack-ack guns, and future tanks and troop formations) will not earn this bonus, nor do they add to your kill count.
+
+     Second, any kill that takes place over enemy territory gets an additional 20% bonus for adventurousness.  This is an experiment.  We want people to fly around and dogfight rather than concoct ways to earn points on the ground at friendly airfields.  Defense is a good thing to do, but offense seems less subject to potential abuse.  If we succeed in structuring the rest of the scoring so that the usual silly abuses don't occur, we'll get fancier and more interesting with this bonus.
+
+     Most ground targets are worth 100 to 200 points currently.  These are subject to the 20% enemy territory bonus, but not the kill count bonus.
+
+
+
+                                                                           14
+
+
+                                 7. SCORING  (cont'd)
+
+     When you put damage on an aerial target, you get some points as well.  You earn a fraction (currently 1/3) of the kill value of the target, proportioned by the percent damage that you do.  If you put 20% damage on the plane in a shot, you'll get 1/3 of the value of the target.  The above two bonuses also apply. Ground targets do not give damage points, only points when they are killed.
+
+
+7.4  Damage Calculation.
+
+     A new scheme of damage calculation has been introduced which handles gun hits on planes in a much more detailed (and therefore realistic) fashion.  Whenever a plane takes a hit, rather than uniformly slicing its capabilities, some attempt is made to determine where the plane was hit and how it should fail.  The types of damage a plane can suffer are:
+
+          Fuel Leaks
+          Oil Leaks (will cause engine failure when oil runs out)
+          Loss of Lift
+          Loss of ailerons (roll rate)
+          Loss of tail surface (attitude contrrol)
+          Flaps or landing gear jammed
+          Immediate engine failure (low probability)
+
+
+7.5  Point accumulation categories.
+
+     Points get credited into several categories internally, currently points earned killing ground targets, and points earned killing or wounding aerial targets, for each of the 4 mission completion types.  Storage has also been allocated for points earned while piloting a bomber,  while operating a turret on a bomber, and for future expansion into tanks and ships.  The WHO command sums these different types to print the Score column, but we'll be able to do something interesting later by keeping them separate.  Likewise, fighter and bomber kills are recorded separately for the Kills column of the WHO command.
+
+      Note that there is no time of flight score. We don't feel there is any merit to awarding points for connect time. Its too difficult to determine actual missions from "logging in and letting the plane circle 2 hours then landing it". We're interested in skill, not wealth or boredom threshold. I think everyone else is too!
+
+
+
+                                 8. THE MAP
+
+     The world consists of three countries, each occupying a region about fifty miles on a side.  The world is divided up into an eight by eight grid, with each  grid sector being 65536 feet on a side, or about twelve and a half miles.  The grid sectors are numbered from 0 to 7 in each direction, so that sector (0,0) is in the southwest corner of the occupied world, and grid sector (7,7) is located in the northeast corner.  These grid sectors are used to give the general location of runways and other planes.
+
+     Amiga owners have two options for obtaining a map of the world.  There are picture files for maps in both the Air Warrior software area, and in the Amiga RT software area (library #9) available for downloading.
+
+
+
+
+
+                                                                           15
+
+
+                                 9. THE PLANES
+
+     The current versions of Air Warrior support fourteen different kinds of aircraft.  The following charts give a brief overview of the major planes.  Aviation buffs may notice some divergence in the following charts from the performance of their favorite planes.  The charts reflect the actual performance of the program rather than the exact realistic value.  As we obtain better data and refine the simulation the numbers will fall closer to precise realism.
+
+9.1  List of current planes in version 1.0
+
+9.1a  WWII Fighter Aircraft
+
+          P-51D Mustang
+          Mitsubishi A6M5 Zero
+          ME 262A-1a           (jet - not always available at all airfields)
+          Spitfire MK IX
+          ME 109G-6
+          Focke-Wulf 190A-8
+          Hawker-Hurricane MK II
+          F4U-1D Corsair
+
+9.1b  Bombers
+
+          B-17G Flying Fortress
+          B-25H Mitchell
+          A-26B Invader
+
+9.1c  WWI Aircraft
+
+          Fokker Dr.1 Triplane
+          Sopwith Camel
+          Spad S.XIII
+          Fokker Dr.VII
+
+
+9.2  Flight Statistics for Major Aircraft.
+
+9.2a  P-51D Mustang.
+
+     The Mustang was perhaps the finest propeller-driven fighter ever produced, and the D model was the most widely produced in World War II.  The Mustang was powered by a 1490 hp Packard-built Merlin engine, giving it a top speed of over 430 mph.  Takeoff weight was around 8600 pounds, depending on fuel and weapons load.  Armnament was generally six machine guns.  The P-51D could carry as much as two 1000 pound bombs under the wings.  The following chart outlines the plane's performance as modeled by Air Warrior.
+
+        Altitude (feet) Top Speed (mph)      Rate of Climb (fpm)
+            0                340                  3960
+         4900                356                  3900
+         9800                373                  3840
+        14800                393                  3760
+        21300                421                  3645
+        26200                435                  3300
+        31200                428                  2448
+        36000                416                  1676
+        41000                386                   780
+
+
+
+
+
+                                                                           16
+
+
+                                 9. THE PLANES  (cont'd)
+
+9.2  Flight Statistics for Major Aircraft.  (cont'd)
+
+9.2b  Spitfire Mark XIV.  (Used prior to V1.0)
+
+     The Supermarine Spitfire was Britain's finest fighter plane.  The Spitfire Mark XIV was a late-war model (1944), capable of holding its own alongside the Mustang against the Luftwaffe's best.  It was powered by a 2050 hp Roll Royce Griffon engine, giving it the speed to fight jets and the V-1 buzz bomb.  The Spitfire was heavily armed, with 2 20mm cannons and 4 machine guns.  As currently modeled by Air Warrior, the Spitfire has very similiar performance to the P-51D MUstang, but better speed and rate of climb above 30000 feet.
+
+
+9.2c  Focke Wulf 190D-9.  (Used prior to V1.0)
+
+     The Focke Wulf 190 was one of the most successful German fighter planes, and is considered to have been the backbone of the Luftwaffe.  The FW-190D-9 was the last model of the war, produced in 1944 and 1945 in large numbers.  It could carry a 1000 pound bomb, and had 2 20mm cannons and 2 machine guns.
+
+        Altitude (feet) Top Speed (mph)      Rate of Climb (fpm)
+            0                380                  4350
+         4900                400                  4300
+         9800                418                  4240
+        14800                432                  3943
+        21300                427                  2900
+        26200                421                  2191
+        31200                395                   972
+
+
+9.2d  Messerschmitt 109K-4.  (Used prior to V1.0)
+
+     The Me 109 was the most highly produced  fighter planes in World War II, over 35,000 in total.  The final K model, produced in 1943, was the fastest and most powerful of the lot, with a 2000 hp engine, in comparison to 610 hp in the first model. It carried one 30mm cannon and 2 15mm cannon.
+
+        Altitude (feet) Top Speed (mph)      Rate of Climb (fpm)
+            0                375                  3476
+         4900                392                  3404
+         9800                411                  3325
+        14800                432                  3236
+        21300                442                  2636
+        26200                443                  1895
+        31200                416                  1215
+        36000                384                   587
+
+
+
+                              10. CONCLUSION
+
+     Air Warrior is still in its formative stages, many changes are being made to the game continuously.  Keep on top of changes to the game by checking the version notes regularly!  Also there is a discussion of Air Warrior going on in Scorpia's Games Round Table, we welcome more participants there.
+
+
+
+
+
+                                                                           17

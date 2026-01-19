@@ -1,0 +1,1962 @@
+			TeleWar II
+
+		     TABLE OF CONTENTS
+
+About TeleWar and TeleWar II.................................5
+BBS Support..................................................5
+Bix Support..................................................6
+Making a Working Copy........................................6
+Hardware Requirements........................................6
+
+TeleWar II Basic Operation...................................7
+	Loading Telewar II (512K)............................7
+	Loading TeleWar II (1 meg+)..........................7
+	When the Program Begins..............................8
+	Mouse................................................8
+	Keyboard.............................................8
+	Verification Requesters..............................9
+	TeleWar II Overview.................................10
+
+	TeleWar II Display & Control........................11
+		Battlefield Terrain Map.....................11
+		Control panel...............................12
+			Menu/Message Bar....................12
+			Ordnance Status Table...............13
+			Tactical Grid Map...................14
+			Ordnance Control....................15
+			RECV & Send.........................17
+
+	Ordnance - the Game Pieces..........................18
+	Starting TeleWar II.................................21
+	Movement............................................22
+	Firing Unit.........................................23
+	Options.............................................24
+	Playing TeleWar II..................................25
+	Ending TeleWar II...................................25
+
+TeleWar II Menus - General Info.............................26
+
+	TeleWar II Menu.....................................27
+	Scenario Menu.......................................27
+	Game Menu...........................................28
+		Choose A Side...............................28
+		Start A Game................................29
+		Cede/End Game...............................29
+
+TeleComm Menu...............................................29
+	TeleCommunication Mode..............................29
+		Sending (Caller)............................30
+		Receiving (Answer)..........................30
+		Null Modem Connect..........................30
+		TeleConnect OFF.............................31
+	Disconnect (Hangup).................................31
+	Transmit Game and Play..............................31
+	Dial Telephone Number...............................31
+
+Tele Files Menu.............................................32
+	Modem Parameters....................................32
+	Opponent Parameters.................................34
+
+Game Files Menu.............................................35
+	Game Directory......................................36
+	Play Saved Game.....................................37
+
+Options Menu................................................37
+	Turn Timer Settings.................................37
+	Firing Protocol.....................................37
+	Fire/Unit/Turn......................................38
+
+TeleConnect Procedure.......................................38
+	Setting Modem Parameters............................39
+	Voice Contact.......................................41
+	TeleConnect Procedure Summary.......................42
+	TeleConnect - Another Method........................43
+
+Appendix A - TeleWar II Directories.........................44
+Appendix B - Using a Hard Disk..............................45
+Appendix C - Trouble Shooting...............................46
+
+
+1			ABOUT TELEWAR AND TELEWAR II
+2
+3 TeleWar II is the second in a series of
+4 Telecommunication war games written by
+5 Scott Lamb and published by the Software
+6 Terminal. The first game in the series
+7 was TeleWar. Due to the popular demand
+8 of the dedicated ranks of TeleWar users,
+9 TeleWar II was released.
+10
+11 Game play in both TeleWar and TeleWar II
+12 is identical. The difference between the
+13 two is that each contains a different set
+14 of Battlefield maps. The Battlefield maps
+15 in the original TeleWar were called RIVER
+16 MEADOW, MARSHLAND BOG and DESERT
+17 DUNE.
+18
+19 The three new maps provided in TeleWar
+20 II are named ROCKY CANYON, JUNGLE
+21 RUINS, and ARCHIPELAGOS. As with
+22 TeleWar, each of these Battlefield Maps
+23 were designed to provide a unique
+24 strategic and tactical arena in which to
+25 play a war game.
+26
+27 Both TeleWar and TeleWar II stand alone
+28 as games; that is, neither one requires
+29 possession of the other in order to be
+30 played.
+31
+32			BBS SUPPORT
+33
+34 We ask that you fill out and mail the
+35 enclosed registration card to us. When we
+36 receive this card, you'll be logged on our
+37 2400 baud bulletin board, Track II. All
+38 updates and revisions of TeleWar II, should
+39 any be necessary, will be posted in the
+40 FILES area and can be downloaded by all
+41 registered owners.
+
+					Page 5
+
+1 A message area is herein provided where
+2 comments and questions may be posted,
+3 and TeleWar II players may be found. We
+4 also ask that you report problems you
+5 might be having with TeleWar II.
+6 Inquiries will usually be answered within
+7 24 hours.
+8
+9                BIX SUPPORT
+10
+11 In addition to maintaining our own BBS,
+12 we maintain a vendor conference on BIX
+13 (Byte Magazine Information Exchange)
+14 under the conference name 'telegames'.
+15 Questions and answers, as well as new
+16 product information, can be found here.
+17
+18      MAKING A WORKING COPY - TELEWAR II
+19
+20 TeleWar II is not disk copy protected. It
+21 may be copied using any of the regular 
+22 Amiga copy techniques from WorkBench or
+23 the CLI. Please read your Amiga manual
+24 for the particulars of disk copying, if you
+25 are unfamiliar with these procedures.
+26
+27 Before using TeleWar II for the 1st time,
+28 we recommend you make a working copy
+29 of the disk. Then Please rename the copy
+30 TeleWarII, like the master program disk.
+31
+32              HARDWARE REQUIREMENTS
+33
+34 To play TeleWar II you will need an Amiga
+35 computer - 500, 1000, 2000, etc. - with
+36 at least 512K of RAM.
+37
+38 To play TeleWar II over the phone with
+39 another computer you also need an "AT"
+40 command set compatible modem operating
+41 at 300, 1200, 2400 or 9600 baud.
+
+                                        page 6
+
+1               LOADING TELEWAR II (512K)
+2
+3 To play TeleWar II on an Amiga with 512K
+4 of RAM, just follow the regular startup
+5 sequence for your Amiga computer (if you
+6 are using an Amiga 1000, then be sure not
+7 to forget the Kickstart disk). When your
+8 Amiga computer requests the 1.2
+9 Workbench disk, insert the TeleWar II
+10 working copy into the internal drive.
+11 TeleWar II will then autoboot.
+12
+13 Note: With 1 external disk drive mounted
+14 on your system, TeleWar II requires all
+15 512K of memory to operate. Consequently,
+16 unless more than 512K is installed in the
+17 computer, there will not be enough
+18 memory to run both TeleWar II and the
+19 WorkBench at the same time.
+20
+21      LOADING TELEWAR II (1 MEG+ RAM)
+22
+23 Boot up your Amiga with your usual
+24 custom Workbench Disk. Then place the
+25 TeleWarII working copy in any disk drive,
+26 and start up the program using the icon
+27 provided in the directory window.
+28
+29 TeleWar II is a "smart" program, and will
+30 find itself and all its file directories,
+31 whether it resides on any of the floppy
+32 disk drives df0, df1, df2, or df3.
+33
+34              WHEN THE PROGRAM BEGINS
+35
+36 After TeleWar Ii loads into the computer,
+37 the Credits picture will display on your
+38 monitor. To exit the Credit picture and
+39 to play TeleWar II, click the left mouse
+40 button. A requester will appear and ask
+41 you for a manual validation character.
+
+                                     Page 7
+
+1 You will be requested to type in the 1st 
+2 letter of a random word for the TeleWar
+3 II manual. For example, the requester may
+4 ask for the first letter from
+5
+6 Page 12 Line 14 Word 5
+7
+8 After you find and type in the correct
+9 letter, the Rocky Canyon Battlefield map
+10 will load. TeleWar II is now ready to
+11 begin.
+12
+13                     MOUSE
+14
+15 TeleWar II uses the familiar Intuition use
+16 interface. You interact with the program
+17 by means of the mouse. The left mouse
+18 button always allows you to select and
+19 move game pieces, and make requester and
+20 control panel gadget selections. The right
+21 mouse button is used to display and select
+22 menu options that control program
+23 operations.
+24
+25 IMPORTANT WARNING!
+26
+27 IMPORTANT!!! WHEN TELECONNECTED,
+28 DON'T HOLD DOWN THE RIGHT MENU
+29 BUTTON UNLESS ABSOLUTELY
+30 NECESSARY, AS IT PREVENTS SERIAL
+31 PORT READS, AND POSSIBLY CAUSE
+32 YOUR AMIGA TO MISS OPPONENT'S
+33 MOVES, THUS DISRUPTING THE GAME!
+34
+35 	KEYBOARD
+36
+37 The keyboard of the Amiga computer is
+38 used to input specific modem and opponent
+39 telecommunication parameters, filenames,
+40 and messages (once a telecommunication has
+41 been established).
+
+				Page 8
+
+1 Messages between players may be typed at
+2 any time during a game, using the SEND
+3 and RECV lines at the bottom of the
+4 display. However, because of the intense
+5 time requirements of TeleWar II during
+6 piece animation (simultaneous graphics,
+7 sound and telecommunications) the letters
+8 typed must be temporarily buffered and
+9 not displayed until after all animation has
+10 been completed.
+11
+12    VERIFICATION REQUESTERS
+13
+14 A verification requester will appear in the
+15 center of your Control Panel, and in the
+16 center of all scrolling disk access screens,
+17 whenever you request an action that might
+18 drastically effect the current game
+19 configuration. Moving the mouse pointer
+20 within the borders of such a requester and
+21 clicking the left mouse button will
+22 generally cause the requested action to be
+23 initiated, while moving the mouse pointer
+24 outside the borders of the requester and
+25 clicking the left mouse button will
+26 generally then cancel the requested action.
+27
+28 These requesters are designed to protect
+29 you from accidentally initiating an action
+30 that may irreversibly change  some aspect
+31 of the game play, or inadvertently break the
+32 teleconnection.
+33
+34 Please read these requesters carefully
+35 before responding to them, otherwise you
+36 may initiate an action that you actually do
+37 no want to occur.
+38
+39
+40
+41
+
+				Page 9
+
+1   TELEWAR II OVERVIEW
+2
+3 TeleWar II allows two computer users with
+4 modems to play an animated, strategy war
+5 game against one another over the phone.
+6 Two players may also play against each
+7 other on a single computer.
+8
+9 Three perspectively viewed Battlefield
+10 Terrain Maps are provided, Rocky Canyon,
+11 Jungle Ruins, and Archipelagos, across
+12 which you must battle your opponent to
+13 victory or defeat.
+14
+15 Four types of animated military attack
+16 ordnance are provided, as well as supply
+17 vehicles and air support.
+18
+19 Pieces move, turn and fire on command.
+20 To select an ordnance unit, simply point
+21 the pistol barrel of the mouse pointer to
+22 any game piece visible on the Battlefield
+23 Map or to one of the positions marked on
+24 the Tactical Grid, and press the left mouse
+25 button. The chosen piece is now marked
+26 by a surrounding yellow bracket.
+27
+28 To MOVE the selected unit, just point to
+29 any location on the Battlefield Map and
+30 press the left mouse button. To FIRE the
+31 selected unit, choose a firing angle from
+32 the Firing Gadget Cluster, then click on
+33 the Firing gadget.
+34
+35 A single turn lasts until each ordnance
+36 unit has moved and fired once or the Turn
+37 Timer runs to zero. Play can be passed to
+38 the other player by clicking on the PASS
+39 gadget once the player has made all the
+40 moves he wishes to make.
+
+				Page 10
+
+1 Each time a game piece is hit it sustains
+2 damage. Too much damage, and the piece
+3 is destroyed. Destroyed game units may
+4 be removed from the Battlefield Map by a
+5 single, on target hit from either side.
+6
+7 As units run short of AMMO or FUEL,
+8 the can be resupplied from Supply
+9 Vehicles which are positioned adjacent.
+10
+11 Air support may be called as long as less
+12 then FIVE pieces have moved and less
+13 then FIVE shots have been fired.
+14
+15 The goal of TeleWar II is to destroy your
+16 enemy's HeadQuarters -- not an easy task!
+17
+18  TELEWAR II DISPLAY AND CONTROL
+19
+20 The display of TeleWar II is divided into
+21 two sections. The upper half screen is
+22 called the Battlefield Terrain map, while
+23 the lower half of the display is referred to
+24 as the Control Panel.
+25
+26  BATTLEFIELD TERRAIN MAP
+27
+28 The Battlefield Terrain Map is a close-up
+29 perspective view of the current TeleWar II
+30 battlefield with both the BLUE and RED
+31 military ordnance in position. At any
+32 given time one-sixth of the Battlefield
+33 Map is displayed. Movement and attacks by
+34 army units are graphically animated on
+35 this Battlefield Terrain Map. Generally,
+36 only those areas of the map containing a 
+37 player's unit can be viewed. Calling for
+38 Air Support, however, will scroll across
+39 the one-third portion of the Battlefield
+40 Map over which the Air Support flies --
+41 updating enemy positions as it does so.
+
+				Page 11
+
+1     CONTROL PANEL
+2
+3 The lowe half of the TeleWar II display is
+4 called the Control Panel. The Control
+5 Panel is comprised of five distinct areas
+6 which provide information, game controls,
+7 and a user-to-user interface. These five
+8 sections are as follows.
+9
+10	(1) The Menu/Message Bar
+11	(2) The Ordnance Status Table
+12	(3) The Tactical Grid
+13	(4) RECV & SEND Message Lines
+15
+16  (1) MENU/MESSAGE BAR
+17
+18 The black bar at the top of the Control
+19 Panel, that separates it from the display
+20 of the Battlefield Map, is the Menu and
+21 Message Bar. Don't let the location fool
+22 you. This is the same Intuition Menu bar
+23 that usually sits at the top of the screen.
+24
+25 The menus will be displayed whenever the
+26 right mouse button is pressed. Refer to
+27 the Menus section in this manual to learn
+28 about the operation of each menu.
+29
+30 During the course of a game, the Menu
+31 Bar displays MESSAGES to you, the
+32 commanding officer from your field units
+33 of either the RED or BLUE army. If you
+34 do not know the result of your last
+35 action, read the message that is displayed.
+36 For example, if you have just fired on an
+37 enemy unit, your troops will inform you as
+38 to whether or not you hit that unit. Or
+39 if the enemy has fired, you will learn if
+40 one of your units was damaged by the
+41 incoming fire.
+
+				Page 12
+
+1   (2) ORDNANCE STATUS TABLE
+2
+3 The far left portion of the Control Panel
+4 is the Ordnance Status Table. The status
+5 of the ordnance currently selected will
+6 always be displayed in the table. Whether
+7 a unit has the necessary Fuel, Ammo and
+8 Defense to complete a mission, or the Gun
+9 Range or Power to destroy an enemy, can
+10 be determined at a glance.
+11
+12 The name of the player's army, whose turn
+13 is current, is written above the table.
+14
+15 The Ordnance Status Table lists unit data
+16 in the following areas.
+17
+18 Ordnance Type -- type of military unit
+19 currently selected; either Heavy or Light
+20 Armor, Heavy or Light Artillery, Supply
+21 Vehicle, Air Support Transmitter, or the
+22 HeadQuarter.
+23
+24 Position -- both horizontal and vertical
+25 coordinates of the selected unit on the
+26 Tactical Grid Map (32 x 20).
+27
+28 AMMO -- amount of ammunition remaining,
+29 where 1 Ammo = 1 Firing of that unit.
+30
+31 Gun Range -- the maximum horizontal gun
+32 range for the selected unit, where 1 Gun
+33 Range unit = 1 sq. on the 32x20 Tactical
+34 Grid map. This range is always limited to
+35 grid cells at least partially visible on the
+36 Battlefield Map.
+37
+38 Defense -- the strength of a unit, where
+39 zero Defense means the unit is destroyed.
+40 All units begin with maximum Defense for
+41 that ordnance type.
+
+				Page 13
+
+1 Gun Power -- the amount of damage to be
+2 subtracted from the target enemy unit's
+3 Defense stat with each successful hit by
+4 this ordnance type.
+5
+6 Mobility -- the maximum mobility range
+7 for the selected unit, where 1 mobility
+8 unit will move the ordnance 1 horizontal
+9 or 1 vertical square on the Tactical Grid
+10 Map (32x20).
+11
+12   (3) TACTICAL GRID MAP
+13
+14 The middle portion of the Control Panel
+15 displays the Tactical Grid Map. The
+16 Tactical Grid Map is a miniature display of
+17 each Battlefield Terrain Map under a 32x20
+18 grid overlay upon which prominent
+19 Battlefield Map features are displayed.
+20
+21 The Terrain grid Map displays positions
+22 for each unit of the army whose turn is
+23 current, and the last known positions of
+24 previously detected enemy units. Enemy
+25 positions are updated whenever a player
+26 selects a friendly unit in the vicinity.
+27
+28 Position updates occur only when the map
+29 area in question is displayed within the
+30 upper Battlefield Map display. When a
+31 player no longer has any units in that
+32 vicinity, it is not possible to view that
+33 area without calling Air Support.
+34
+35 Reconnaissance updates on enemy units are
+36 received for the entire one-third portion
+37 of the Battlefield map over which the Air
+38 Support flies, each time Air Support is
+39 called. note that destroyed units still
+40 displayed as rubble can also be used as
+41 "recon" posts to update enemy positions.
+
+				Page 14
+
+1 The selected unit indicates its Tactical
+2 Grid Map position by blinking on and off.
+3 Another friendly unit may be chosen for
+4 action by clicking one of the friendly
+5 colored squares on the Tactical Grid map
+6 with the mouse. RED squares indicate
+7 RED ARMY units, while YELLOW squares
+8 indicate BLUE ARMY units.
+9
+10   (4) ORDNANCE CONTROL GADGETS
+11
+12 The right portion of the Control Panel are
+13 the UNIT COMMAND GADGETS used to 
+14 initiate unit action. These gadgets are
+15 separated into four distinct clusters.
+16
+17 Activity gadgets are MOVE, FIRE,
+18 SUPPLY, and AIR SUPPORT, and are RED
+19 colored, if still active in a given turn.
+20 Selection gadgets are AMMO and FUEL of
+21 Supply, and TOP, MID and LOW of Air
+22 Support. Choice gadgets are BLUE if
+23 selected and WHITE if not selected.
+24
+25 Firing Direction Cluster
+26 
+27 The Firing Direction     !-----!-----!-----!
+28 Gadget Cluster will      ! NW  ! -N- ! NE  !
+29 display the firing       !-----!-----!-----!
+30 angle for a selected     ! -W- !  0  ! -E- !
+31 unit. Eight firing       !-----!-----!-----!
+32 angles are available     ! SW  ! -S- ! SE  !
+33                          !-----!-----!-----!
+34  Primary Command Gadget Cluster
+35
+36 The Primary Command      !--------------------!
+37 Cluster has gadgets      !      << UNIT >>    !
+38 that page through the    !------!------!------!
+39 unit list in either      ! MOVE ! PASS ! FIRE !
+40 direction, to indicate   !------!------!------!
+41 MOVE, PASS or FIRE.
+
+ 				Page 15
+
+1 << >> -- The BACKWARD and FORWARD
+2 gadgets page through the ordnance units
+3 list for each piece remaining in the game.
+4
+5 MOVE -- this gadget is an indicator as to
+6 whether the selected unit has moved this
+7 turn. Actual unit movement is commanded
+8 in the Battlefield Map display.
+9 
+10 PASS -- PASS is chosen when a player has
+11 finished unit activity and wishes to PASS
+12 the turn to his opponent, even though the
+13 Turn Length Times has not reached zero.
+14
+15 FIRE -- This gadget is chosen to fire the
+16 guns of the selected unit. The current
+17 firing direction is indicated in BLUE on
+18 the Firing Direction Compass Cluster.
+19
+20 Supply Gadget Cluster
+21                          !----------------!
+22 Units may be supplied    !     SUPPLY     !
+23 with FUEL or AMMO        !-------!--------! 
+24 once during a turn.      ! FUEL  !  AMMO  !
+25                          !-------!--------!
+26 Supply may occur when the supply truck is
+27 adjacent to the vehicle requesting
+28 SUPPLY. Either FUEL or AMMO may be
+29 chosen as the material being supplied, and
+30 is so marked in BLUE. Clicking on
+31 SUPPLY will provide the current unit with
+32 the maximum allowable quantity of fuel or
+33 ammunition for that ordnance type.
+34
+35 Supply trucks cannot resupply each other
+36 during a game. For a supply truck to be
+37 resupplied with fuel, it must return to a
+38 square adjacent HeadQuarters (HQ). If a
+39 Supply Truck runs out of FUEL before HQ
+40 is reached, it is stranded for the
+41 remainder of the game.
+
+				Page 16
+
+1 Air Support Gadget Cluster
+2
+3 The Air Support           !-----------------!
+4 Gadget Cluster            !   AIR SUPPORT   !
+5 controls the flight       !-----!-----!-----!
+6 path of an air attack     ! TOP ! MID ! LOW !
+7 and calls an air          !-----!-----!-----!
+8 attack on the enemy.
+9
+10 If the player's Transmitter has not been
+11 destroyed, AIR SUPPORT can be called,
+12 and as long as less than FIVE units have
+13 moved and fired. When the fifth unit is
+14 moved or fired, AIR SUPPORT is deactivated
+16 for the that turn.
+16
+17 The TOP, MID and LOW gadgets select
+18 that portion of the Battlefield Map over
+19 which Air Support flies. When AIR
+20 SUPPORT is called, a plane will randomly
+21 strafe one of seven horizontal grid rows
+22 within the 1/3 map portion indicated in
+23 BLUE on either the TOP, MID or LOW
+24 gadget. Each enemy unit encountered on
+25 that row will receive FIVE points of
+26 damage. Friendly units are not damaged.
+27
+28 A player's turn automatically ends after
+29 Air Support has completed a strafing run
+30 on the enemy and reconned and updated
+31 all enemy positions in the flight area.
+32
+33 (5) RECV and SEND MESSAGE LINES
+34
+35 The RECV and SEND message lines at the
+36 bottom of the Control Panel are activated
+37 after a teleconnection is established with
+38 another computer. All alphanumeric keys
+39 typed will be displayed on the SEND line.
+40 Some line editing is allowed, such as
+41 cursor keys, back space and the DEL key.
+
+				Page 17
+
+1 Message text will be transmitted to the
+2 teleconnected computer either when the
+3 RETURN key is pressed, or when the end
+4 of the SEND line (72 characters) is
+5 reached.
+6
+7 The RECV message line displays incoming
+8 text messages from your teleconnected
+9 opponent. A chime sounds as an incoming
+10 message is received to alert the player to
+11 read the message. With some modems the
+12 RECV line will echo your SEND message
+13 should the teleconnection be broken.
+14
+15  ORDNANCE - THE GAME PIECES
+16
+17 There are seven different ordnance unit
+18 markers in TeleWar II that are placed on
+19 the Battlefield Map at the start of each
+20 game. Each of the three Battlefield Maps
+21 offers four game piece scenarios (see the
+22 SCENARIO Menu) that provide various unit
+23 configurations and placement.
+24
+25 Each ordnance type has a different amount
+26 of FUEL, AMMO, DEFENSE, GUN RANGE
+27 and GUN POWER, and MOBILITy. It is
+28 important that players use ordnance types
+29 effectively, together and alone, to
+39 maximize their effectiveness.
+31
+32 HeadQuarters -- The HeadQuarters (HQ)
+33 for each army is a flagged tent.
+34 HeadQuarters is a stationary object and
+35 cannot fire. The sole defense of HQ rests
+36 with the mobile ordnance units.
+37
+38 A game is won when a player destroys his
+39 opponents HQ. Conversely, it is important
+40 for a player to protect his HQ to prevent
+41 his opponent from winning the game.
+
+				Page 18
+
+1 Transmitter -- The Transmitter is also a
+2 stationary object that is not able to
+3 defend itself. The Transmitter allows Air
+4 Support to be called. If one player's
+5 Transmitter should be destroyed, then he
+6 cannot call Air Support for the remainder
+7 of the game. It is VERY important for a
+8 player to protect his own Transmitter,
+9 while attempting to destroy that of his
+10 opponent, if the game is to be won.
+11
+12 Light Artillery -- Light Artillery is
+13 depicted as a jeep with a mounted, short
+14 range RPG. These units have the longest
+15 MOBILITY range, and the largest FUEL
+16 and AMMO supply of any ordnance type.
+17 On the other hand, they have the lowest
+18 DEFENSE, GUN RANGE and GUN POWER.
+19
+20 Light Artillery can easily be the first to
+21 attack, but without the support of heavier
+22 units, will likely be the first to be
+23 destroyed. Nevertheless, when used
+24 together, they can produce enough fire
+25 power to take out any enemy unit.
+26 
+27 They are also useful for clearing away the
+28 debris of destroyed units, thereby allowing
+29 the greater fire power of heavy units to
+30 attack enemy units otherwise shielded by
+31 the debris.
+32
+33 Light Armour -- Light armor is depicted as
+34 a single-barrel light tank. They carry a
+35 respectable quantity of FUEL and of
+36 AMMO, have good MOBILITY, GUN RANGE
+37 and POWER. Light Armor provides good
+38 backup support for Light Artillery. They
+39 are effective when used with heavier units
+40 to destroy enemy units.
+41
+
+				Page 19
+
+1 Heavy Armor -- Heavy Armor is depicted
+2 as a two-barrel tank. These units have
+3 very high DEFENSE ratings, GUN RANGE
+4 reaching anywhere on the Battlefield Map
+5 display, and a very high GUN POWER.
+6 They can fire on lighter enemy units,
+7 while staying out of range of return fire.
+8
+9 Heavy Artillery -- Heavy Artillery should
+10 be considered Heavy "Armored" Artillery.
+11 They are depicted as large gun barrels on
+12 trends. The highest DEFENSE, GUN
+13 POWER and GUN RANGE make these the
+14 strongest units in the game. MOBILITY,
+15 FUEL and AMMO are all very low,
+16 however, and so require constant resupply.
+17
+18 Its extremely long GUN RANGE can be
+19 used effectively for defense along the
+20 right and left borders of the Battlefield
+21 Map, where they can see and fire farther
+22 than any approaching enemy units.
+23
+24 Supply Vehicle -- Supply Vehicles are
+25 depicted as trucks, and cannot fire upon
+26 the enemy. They do have a huge fuel and
+27 mobility range, however. They are used to
+28 resupply FUEL and AMMO to combat units
+29 in the field. Because of the low DEFENSE
+30 of Supply Vehicles, it is important they be
+31 keep out of range of enemy fire.
+32
+33 The Supply vehicle has immense strategic
+34 importance. Offensive thrusts without
+35 Supply Vehicle support fizzle and die, as
+36 combat units run out of FUEL and AMMO.
+37 On the other hand, a player able to
+38 destroy his opponent's Supply Vehicles has
+39 struck him a very crippling blow. NOTE:
+40 Supply units that have run out of fuel
+41 can still be used for resupply.
+
+				Page 20
+
+1  STARTING TELEWAR II
+2
+3 TeleWar II starts when "Start a Game" is
+4 selected under the "Play" menu. A small
+5 data file loads from disk and the game
+6 begins. The side (RED or BLUE) that is
+7 currently chosen on the play menu always
+8 begins.
+9
+10 Once a game has begun, the positions of
+11 all friendly units are displayed on the
+12 Tactical Grid Map. The current unit (at
+13 the start of a game, HQ) will be marked
+14 by a yellow bracket on the Battlefield Map
+15 display. Its location will blink on and off
+16 on the Tactical Grid map.
+17
+18 Note that for non-combatant units (HQ
+19 and the Transmitter) the Firing Direction
+20 gadget cluster disappears, and only the
+21 AIR SUPPORT gadget is activated RED.
+22
+23 To select another unit as the current unit,
+24 point the mouse pistol pointer at any unit
+25 visible in the Battlefield Map display and
+26 click the left mouse button. The
+27 Battlefield Map display then realigns itself
+28 to the new piece, centering it in the
+29 display when possible. The Ordnance
+30 Status Table now displays the stats for
+31 that unit, and all the Command Gadgets
+32 reflect the options remaining for that unit.
+33
+34 Another unit, in particular those not in
+35 view in the Battlefield Map display, can be
+36 chosen by clicking the mouse pointer
+37 pistol on a friendly colored unit that is
+38 marked in RED or YELLOW ont he
+39 Tactical Grid Map.
+40
+41
+
+			Page 21
+
+1   MOVEMENT
+2
+3 The selected unit within the boundaries of
+4 the yellow bracket can be ordered to move
+5 by simply pointing the mouse pistol to
+6 another location in the Battlefield Map
+7 display and clicking the left mouse button.
+8 If the location isn't impassable (occupied
+9 by trees, water, another unit, etc.), and is
+10 within the MOBILITy range of that unit,
+11 then the unit will do its best ot move to
+12 the selected location, avoiding any
+13 impassable obstructions.
+14
+15 Generally, TeleWar II analyzes the move
+16 and takes the best and shortest route to
+17 reach the selected location, taking into
+18 consideration the terrain crossed, and the
+19 MOBILITY, and the remaining FUEL of the
+20 unit. Often the unit will not reach the 
+21 location, however, due to bridges, hills or
+22 sand, which slow the progress of that unit.
+23 Sometimes the location just lies outside
+25 movement orders that are within the
+26 mobility range of a unit are more likely to
+27 be successfully carried out. Pushing
+28 troops beyond their limits can be counter
+29 productive.
+30
+31 Water is always impossible to cross. Sand
+32 and hills, are passable, but cause some
+33 delays. Where such type terrain must be
+34 crossed, it might be necessary to order a 
+35 unit to move beyond the destination of its
+36 MOBILITY range in the hopes that it
+37 pushes harder and reaches the correct
+38 coordinates. The outcome of such moves
+39 is variable with the terrain type being
+40 crossed. An astute general will be able to
+41 evaluate such moves correctly.
+
+				Page 22
+
+1   FIRING UNITS
+2
+3 The game default mode allows each unit to
+4 fire once per turn. If the Double Fire
+5 option is enable under the OPTIONS Menu,
+6 then each unit may FIRE, MOVE, then
+7 FIRE again.
+8
+9 The Firing angle is set by clicking on a
+10 compass angle in the Firing Direction
+11 Gadget Cluster. Then clicking on the 
+12 FIRE gadget fires the unit. When a unit
+13 is fired, the shell continues in a straight
+14 path until either it:
+15
+16  (1) hits the first enemy unit encountered
+17  (2) reaches its effective GUN RANGE
+18  (3) hits an object in OBSTRUCTED MODE
+19  (4) reaches a Battlefield Map boundary
+20
+21 at which point the shell explodes.
+22
+23 Note that it is sometimes possible to hit
+24 an enemy unit just off screen, but whose
+25 Tactical Grid coordinates are technically
+26 on screen. Friendly units are not damaged
+27 by friendly fire.
+28
+29 Units hit by enemy fire sustain damage
+30 until they are destroyed and reduced to a
+31 pile of debris. Keep in mind that debris
+32 can form an effective shield for other
+33 units. Either army may obliterate a pile
+34 of debris, regardless of its color, with a
+35 single, on target shot.
+36
+37 The victor in TeleWar II is he who best
+38 uses his fire power. Remember the
+39 DEFENSE of each enemy unit. Don't
+40 waste a shot of 4 power, if 2 power would
+41 suffice.
+
+				Page 23
+
+1   OPTIONS
+2
+3 The Options menu provides game options
+4 that can be set before a game is started.
+5 These include setting the Turn Timer, the
+6 Firing Protocol, and the Firings per Unit
+7 per Turn.
+8
+9 Turn Timer Settings -- TeleWar II is
+10 equipped with a Turn Timer that forces
+11 the turn to change after a certain number
+12 of minutes has elapsed. The default is set
+13 to 4 minutes, however, anything from 30
+14 seconds to 15 minutes, for the maximum
+15 length of a player's turn, may be set as
+16 an "Options" menu selection.
+17
+18 The shorter the time, the fewer pieces a
+19 player is able to move during the course
+20 of a turn. Air Support usually plays a big
+21 role in the 30 second and 1 minute games.
+22
+23 Firing Protocol -- Firing Protocol allows a
+24 game to be played in OBSTRUCTED or
+25 UNOBSTRUCTED mode. In OBSTRUCTED
+26 mode (the default) all shots explode when
+27 they contact Battlefield impediments such
+28 as trees, rocks, etc. In UNOBSTRUCTED
+29 mode, shots move through, or over,
+30 Battlefield objects.
+31
+32 Obstructed mode is more realistic, and
+33 usually more challenging to play.
+34
+35 Fire/Unit/Turn -- This option allows a 
+36 game to be played with a Single Fire per
+37 unit per turn mode (the default), or a
+38 Double Fire per unit per turn mode. In
+39 Double Fire mode units may FIRE, MOVE,
+40 then FIRE again.
+41
+
+                                Page 24
+
+1   PLAYING TELEWAR II
+2
+3 When teleconnected to another computer,
+4 every correct move mode on one computer
+5 is also enacted on the other. The only
+6 exception to this is that the receiving
+7 computer does not receive the opponent's
+8 Tactical Grid Map display.
+9
+10 Expect a player to take a few minutes to
+11 make moves at the start of a game. Use
+12 this time wisely be reading enemy unit
+13 stats (call it intelligence reports) and
+14 marking the weaker units as good targets.
+15 Turns take less time as more of the units
+16 are destroyed.
+17
+18 Air Support may be called on any turn as 
+19 long as
+20
+21	(1) The Transmitter is not destroyed
+22	(2) less than 5 units have moved
+23	(3) less than 5 units have fired
+24
+25 Air Support is a powerful weapon that will
+26 quickly reduce the enemy's strength. But
+27 when called too frequently, it gives the
+28 enemy the opportunity to position a large
+29 number of ordnance units in a  major
+30 offensive. Relying solely on Air Support
+31 rarely wins a game of TeleWar II.
+32
+33 However, Air Support might result in
+34 a victory for an otherwise losing player, if
+35 used frequently at the end of a game.
+36
+37   ENDING TELEWAR II
+38
+39 Once a player's HQ is destroyed, he must
+40 select END/CEDE GAME under the PLAY
+41 menu before another game can begin.
+
+				Page 25
+
+1   MENUS -- GENERAL INFORMATION
+2
+3 TeleWar II menu headings are displayed
+4 when the right mouse button is depressed.
+5 By moving the mouse pointer over these
+6 menu headings, the menu items under each
+7 heading will be displayed. Then, moving
+8 the cursor down the menu item list will
+9 highlight that item. Releasing the right
+10 menu button, whenever any menu item is
+11 so highlighted, will select it.
+12
+13 Sometimes, when a menu item is selected,
+14 it causes other menus and menu items to
+15 be activated or deactivated (ghosted).
+16 Ghosted menu items cannot be selected.
+17
+18 When teleconnected to another computer,
+19 the TeleWar II menus are accessible to the
+20 player whose turn is current. Menus are
+21 not available to the player receiving these
+22 moves, however.
+23
+24 When Intuition receives a signal from the
+25 right mouse button, ti stops doing every-
+26 thing else, including reading the serial
+27 port. If a game move is being received at
+28 the serial port when the right mouse
+29 button is depressed, then that move can be
+30 misread, or even lost. This means the
+31 teleconnected computers will each display
+32 different game configurations. TeleWar II
+33 requires that both computers match at all
+34 times, otherwise, continuation of the game
+35 is impossible.
+36
+37 This problem will not effect TeleWar II, as
+38 long as players do not use the right mouse
+39 button during game play when they are
+40 receiving opponent moves.
+41
+
+				Page 26
+
+1 If menus must be accessed to save a game
+2 in progress, then a player should only do
+3 so when it is his turn. This minimizes the
+4 possibility of interrupting game play
+5 transmissions.
+6
+7 If it is ABSOLUTELY necessary to access 
+8 the menus when they are turned off, they
+9 can be re-activated by clicking on the
+10 menu/message bar with the mouse pointer.
+11
+12   (I) TELEWAR II MENU
+13
+14 The TeleWar II Menu offers four possible
+15 menu selections.
+16
+17		(1) Rocky Canyon
+18		(2) Jungle Ruins
+19		(3) Archipelagos
+20		(4) Exit TeleWar II
+21
+22 The first three selections load and play
+23 the different Battlefield Terrain Maps.
+24 When teleconnected it is imperative that
+25 both the computers play on the same map,
+26 otherwise the game cannot be started.
+27
+28 Exit TeleWar II will end the program and
+29 return all memory and resources back to
+30 your Amiga.
+31
+32   (II) SCENARIO Menu
+33
+34 The Scenario Menu offers 4 game scenarios
+35 wherein the ordnance placement and
+36 number of each ordnance type vary. To 
+37 select a scenario it is necessary to select
+38 the sub-item attached to each that
+39 describes the scenario ordnance
+40 configuration. Each scenario subtly changes
+41 the strategy and tactics used in a game.
+
+				Page 27
+
+1 When teleconnected, the scenario selected
+2 on the computer that starts the game will
+3 be the scenario that is played.
+4 
+5 Scenario #1 -- 5 of each combat ordnance
+6 type and 2 supply vehicles make this the
+7 most challenging scenario of all to play.
+8 Supply is always short. It is the longest
+9 scenario to play.
+10
+11 Scenario #2 -- 6 Light Armor and 9 Light
+12 Artillery make this the fastest of all the
+13 game scenarios to play. Though there are
+14 but 2 supply vehicles, supply is not too
+15 big a problem
+16
+17 Scenario #3 -- 8 Light Armour and 4 Heavy
+18 Armor make this a true tank war. 4 supply
+19 vehicles keep the offensives on the move.
+20
+21 Scenario #4 -- Extra light ordnance and
+22 three Supply Vehicles offer a composite of
+23 scenarios #2 and #3.
+24
+25   (III) GAME MENU
+26
+27 The Game Menu offers the following three
+28 options:
+29
+30		(1) Choose a Side
+31		(2) Start a Game
+32		(3) Cede/End Game
+33
+34 (1) Choose a Side selects either BLUE or
+39 the game receives this color and always is
+40 the first to moves.
+41
+
+				Page 28
+
+1 (2) Start a Game will begin a NEW
+2 TeleWar II game, using the selected
+3 Battlefield Map and Scenario.
+4
+5 When teleconnected, either of the players
+6 may start the game. All game settings,
+7 Map, Scenario, Options, etc., will be
+8 determined by the starting computer.
+9
+10 (3) End/Cede Game will end the TeleWar II
+11 game currently being played.
+12
+13   (IV) TELECOMM MENU
+14
+15 The TeleComm menu contains all options
+16 relating to telecommunication:
+17
+18		(1) TeleCommunication Mode
+19		(2) Disconnect (Hangup)
+20		(3) Transmit Game and Play
+21		(4) Dial Telephone Number
+22
+23   (1) TELECOMMUNICATIONS MODE
+24
+25 The TeleCommunications Mode option offers
+26 four possible teleconnection modes into
+27 which the Amiga may be set:
+28
+29		(A) Sending (Caller)
+30		(B) Receiving (Answer)
+31		(C) NULL Modem Connect
+32		(D) TeleConnect OFF
+33
+34 The computer will be set to one of these
+35 four Telecommunication modes. The default
+36 is TeleConnect OFF. In order to initiate
+37 a teleconnection with another computer,
+38 one of the first three items must be
+39 selected. TeleCommunication Mode reverts
+40 to TeleConnect OFF when t he menu item
+41 Disconnect (Hangup) is selected.
+
+				Page 29
+
+1 (A) Sending (Caller) telecommunication
+2 mode designates this computer as the
+3 calling computer; i.e., the computer that
+4 initiates the teleconnection by calling the
+5 other computer over the telephone.
+6
+7 When Sending Mode is selected, the "Dial
+8 the Telephone Number" menu item under 
+9 the TeleComm Menu heading is activated.
+10
+11 (B) Receiving (Answer) telecommunication
+12 mode designates this computer as the one
+13 that waits for and answers the call from
+14 the other computer when a teleconnection
+15 is to be established. Selecting Receiving
+16 places the Amiga into a passive state in
+18 which it quietly waits for the telephone to
+18 ring.
+19
+20 Once the phone rings, TeleWar II answers
+21 it and establishes the teleconnection.
+22
+23 (C) Null Modem Connect telecommunication
+24 mode places TeleWar II in a Teleconnected
+25 state, bypassing the modem communication
+26 routines. This mode should be selected
+27 whenever two computers are connected to
+28 one another with a serial port null modem
+29 cable.
+30
+31 It may also be used if your modem is not
+32 sufficiently "AT" command set compatible
+33 for the Sending and Receiving modes to
+34 function properly. You can use other
+35 telecommunication software to place the
+36 call and answer the telephone. Once the
+37 teleconnection is made with this other
+38 software, selecting NULL MODEM
+39 CONNECT will cause TeleWar II to grab
+40 the open serial line so a game can be
+41 played.
+
+				Page 30
+
+1 (D) TeleConnect OFF
+2
+3
+TeleConnect Off mode allows two player
+4 to play TeleWar II on a single computer. It
+5 automatically reverts to this mode
+6 whenever the Disconnect menu option is
+7 selected.
+8
+9 (2) DISCONNECT (HANGUP)
+10
+11 The Disconnect option will hang up your
+12 modem, breaking the teleconnection, and
+13 return TeleWar II to the TeleConnect OFF
+14 Telecommunications mode. Both computers
+15 must select Disconnect when a session has
+16 ended.
+17
+18 (3) TRANSMIT GAME AND PLAY
+19
+20 The Transmit Game and Play option under
+21 the TeleComm Menu heading transmits a
+22 saved game configuration, that was just
+23 loaded, tot he teleconnected computer.
+24 Both computers must display the same
+25 Terrain map and not have a game started
+26 when this option is selected.
+27
+28 Before a game is transmitted, one player
+29 should alert the other to the fact that a 
+30 game is about to be sent. Use the chat
+31 line to send such a message.
+32
+33 (4) Dial Telephone Number
+34
+35 When t he computer is placed in Sending
+36 (Caller) telecommunications mode and a
+37 teleconnection has yet to be established,
+38 the Dial Telephone Number menu option is
+39 enabled. Selecting this option will dial
+40 the selected opponent's phone number.
+41
+
+				Page 31
+
+1	(V) TELE FILES MENU
+2
+3 TeleWar II telecommunication disk files are
+4 accessible in this menu under one of the
+5 headings:
+6
+7		(1) Modem Parameters
+8		(2) Opponent Parameters
+9
+10 Both the Modem and Opponent files for all
+11 the Telecommunication games published by
+12 Software Terminal -- TeleWar, TeleGames,
+13 TeleWar II and TeleEpic -- are shared in
+14 common. If you have more than one of
+15 these games, you do not need to re-enter
+16 these files for each one. Assigning the
+17 Tele+Files: logical device to one single
+18 directory containing both your Modem and
+19 Opponent files will make them available to
+20 all these games at once (See Appendix B
+21 and Appendix C).
+22
+23 (1) Modem Parameters
+24
+25 Modem Parameters are set from a slide up
+26 screen that appears whenever the Modem
+27 Parameters option is selected.
+28
+29 Whenever TeleWar II is loaded, it reads a
+30 disk file called "modemset", stored in
+31 Tele_Files directory, for the default
+32 modem settings. These settings can be
+33 edited to conform to your modem and
+34 saved to the disk, so that each time
+35 TeleWar II loads it defaults to your
+36 personal modem.
+37
+38 Current modem settings are displayed in
+39 BLUE on the Modem Parameters screen.
+40 The following modem settings are
+41 configurable by the user.
+
+				Page 32
+
+1 Baud Rate - Modem Parameters
+2
+3 Baud rates of 300, 1200, 2400 and 9600
+4 may be selected by clicking on a gadget
+5 box with the mouse pointer.
+6
+7 Dial Command - Modem Parameters
+8
+9 When your modem dials a telephone
+10 number it must send a signal to your
+11 modem that a telephone number is about
+12 to be sent. If your modem is "AT"
+13 compatible, then one of the two gadgets
+14 "ATDT" (for tone dialing) or "ATDP" (pulse
+15 dialing) should be chosen. A custom
+16 command entry box is provided for any
+17 modems with non-standard modem command
+18 sets. note that this entry box may also
+19 be used to add "AT" commands to the dial
+20 command. For example ATX6DT will tone
+21 dial and return result codes, which
+22 TeleWar II can use to inform you with
+23 requesters that the number was busy,
+24 whether it was a human and not a
+25 computer that answered the phone, and
+26 whether no one answered the phone.
+27
+29 If any characters are displayed in the
+29 custom dial command box, then that is the
+30 current active dialing command. Click the
+31 box active, type the command, and hit
+32 RETURN.
+33
+34 Answer Command - Modem Parameters
+35
+36 A modem must be commanded to answer
+37 the phone when it rings. If the modem
+38 has an auto answer feature, the command
+39 gadget, "ATS0=1", on the Modem Parameter
+40 screen commands it to pick up the phone
+41 after it rings once.
+
+				Page 33
+
+1  Not all modems will auto answer, but must
+2 instead be told to pick up the telephone
+3 after it rings. The "ATA" gadget is used 
+4 in this case. If you have selected this
+5 answer command, you would not enter the
+6 receiving mode until after the telephone
+7 rings (see TeleConnect Procedures).
+8
+9 A custom command entry box is provided,
+10 should your modem answer command differ
+11 from those provided. Click/activate the
+12 box, type the command, and hit RETURN.
+13
+14   LOAD/SAVE/QUIT - Modem Parameters
+15
+16 Click the gadgets provided to LOAD and
+18 SAVE the modem set file. Click the
+18 "QUIT" gadget to exit the Modem
+19 Parameter screen and return to the game.
+20
+21 (2) OPPONENT PARAMETERS
+22
+23 Opponent Parameters are set from a slide
+24 up, TeleCommunication Files screen that
+25 appears whenever the Opponent Parameters
+26 option is selected. This screen allows you
+27 to enter the telephone number of an
+28 opponent and the baud rate at which you
+29 play that individual, and save it in a t\file
+30 that can later be quickly retrieved to 
+31 establish a teleconnection.
+32
+33 Click on the telephone number entry box,
+34 type in the phone number, and hit
+35 RETURN. Then click on the baud rate at
+36 which you should be the highest rate that
+38 both you and your modem and that of you
+39 opponent have in common. For example,
+409 if a 2400 baud rate modem plays a 1200
+41 baud rate modem, then play at 1200 baud.
+
+				Page 34
+
+1 SAVE - Opponent Parameters: These 
+2 setting may be saved in a file that can
+3 then be instantly retrieved each time you
+4 want to play TeleWar II with that
+5 opponent. Click on the File Name text
+6 entry box, type in the opponent's name,
+7 and hit RETURN. Now just click the
+8 SAVE gadget. Note that the file is now
+9 entered into the Opponent file Directory.
+10
+11 The Opponent Directory contains all the
+12 opponent files entered into TeleWar II.
+13
+14 LOAD - Opponent Parameters: To select a
+15 file for loading, click on the file box
+16 containing the opponent's name. You will
+17 see the file name appear in the File Name
+18 box. Now click the LOAD gadget, and the
+19 opponent file will load and configure the
+20 computer to that opponent's parameters.
+21
+22 DELETE - Opponent Parameters: Clicking
+23 on the DELETE gadget will delete the file
+24 from the disk that is listed in the File
+25 Name box.
+26
+27 QUIT - Opponent Parameters: Clicking
+28 the QUIT gadget will scroll down the
+29 Opponent Parameters screen and return to
+30 the game.
+31
+32   (VI) GAME FILES MENU
+33
+34 The Game Files Menu provides options for
+35 SAVING an ongoing game to disk, and for
+36 later retrieving that game from the disk to
+37 resume play. There are two selections
+38 under this menu heading.
+39
+40		(1) Game Directory
+41		(2) Play Saved Game
+
+				Page 35
+
+1  (1) GAME DIRECTORY
+2
+3 The game in progress may be SAVED, re-
+4 LOADED or even DELETED from the slide
+5 up, Game Directory screen that appears
+6 when the Game Directory Option is
+7 selected. Only the game files previously
+8 saved for the current Battlefield Map are
+9 displayed in the Game File Directory.
+10
+11 Note: Games should always be saved while
+12 the game is still active. Do not save a
+13 game that has ended.
+14
+15 SAVE - Game Directory: The current 
+16 game may be saved to disk to be later
+17 reloaded and play resumed. Click on the
+18 File Name text entry box, type in a file
+19 name, and hit RETURN. Next click the
+20 SAVE gadget. Notice that the game file is
+21 now entered into the Game File Directory.
+22
+23 LOAD - Game Directory: To select a
+24 game file for loading, click on the file box
+25 containing the name of the saved game.
+26 You will see the file name appear in the
+27 File Name box. Now click the LOAD
+28 gadget nd the game file will load. Once
+29 you have QUIT the Game Directory screen,
+30 you will see the ordnance unite rearrange
+31 to the previously saved game configuration.
+32
+33 DELETE - Game Directory: Clicking on
+34 the DELETE gadget will delete the file
+35 listed in the File Name box from the disk.
+36
+37 QUIT - Game Directory: Clicking on the
+38 QUIT gadget will return you to the game.
+39 If playing on one computer, you may now
+40 "Play Saved Game"; or if teleconnected you
+41 may select "Transmit Game and Play".
+
+				Page 36
+
+1  (2) PLAY SAVED GAME
+2
+3 When playing on a single computer in the
+4 TeleConnect OFF mode, in order to begin
+5 playing the saved game just loaded, the
+6 "Play Saved Game" menu option must be
+7 selected. Game play will resume at the
+8 point which it was saved.
+9
+10   (VII) OPTIONS MENU
+11
+12 The Options menu offers a number of
+13 game options that may be set before a 
+14 game is started. These options are
+15
+16		(1) Set Turn Timer
+17		(2) Firing Protocol
+18		(3) Fire/Unit/Turn
+19
+20 (1) TURN TIMER SETTINGS
+21
+22 TeleWar II is equipped with a Turn Timer
+23 that forces player turn changes after the
+24 following timer options have elapsed.
+25
+26		(A)	.5 Minute
+27		(B)	1  Minute
+28		(C)	2 Minutes
+29		(D)  3 Minutes
+30		(E)  4 Minutes
+31		(F)  5 Minutes
+32		(G)  10 Minutes
+33		(H)  15 Minutes
+34
+35  (2) FIRING PROTOCOL
+36
+37 The Firing Protocol menu selection allows
+38 a game to be played in one of two modes,
+39
+40		(A) Unobstructed
+41		(B) Obstructed
+
+				Page 37
+
+1 (A) Unobstructed Mode allows shots fired
+2 to move through, or over, all Battlefield
+3 objects such as trees, rocks, etc.
+4
+5 (B) Obstructed Mode (the default) allows
+6 every shot to explode when they contact
+7 Battlefield impediments, such as trees,
+8 rocks and buildings.
+9
+10 Obstructed mode is more realistic, and
+11 usually more challenging to play.
+12
+13 (3) FIRE/UNIT/TURN -- This option allows
+14 games to be played with the following
+15 firing options.
+16
+17		(A) Single Fire
+18		(B) Double Fire
+19
+20 (A) Single Fire per unit per turn mode
+25 allows units to fire twice each turn. In
+26 order to fire a unit twice in this mode, it
+27 must Fire before it moves. After it
+28 moves, it is allowed to fire again.
+29
+30   TELECONNECT PROCEDURE
+31
+32 The primary feature of TeleWar II is that
+33 it allows two persons to play an animated
+34 strategy war game over the phone using
+35 computers and modems.
+36
+37 Modems are usually used to contact a BBS
+38 (Bulletin Board System) to post messages
+39 and upload and download programs and
+40 files. TeleWar II provides your modem
+41 with another use - game playing.
+
+				Page 38
+
+1 Making a teleconnection with another
+2 computer is easy with TeleWar II. The 
+3 mystique of computer telecommunications
+4 is gone. TeleWar II does all the work, so
+5 that the user can concentrate on honing
+6 his game playing skill.
+7
+8  SETTING MODEM PARAMETERS
+9
+10 For TeleWar II to work correctly, it must
+11 communicate with your modem and the
+12 modem of your opponent. A few simple
+13 settings must be determined prior to
+14 establishing a teleconnection, so that
+15 TeleWar II can talk with your modem.
+16 These settings are only made once, and
+17 are saved to the disk, so that they can
+18 automatically load when you want to play.
+19
+20 These parameter settings are made on the 
+21 Modem Parameters screen, which scrolls
+22 into view when the Modem Parameter
+23 option is selected in the Tele Files menu
+24 (see Tele File Menu, page 32). The baud
+25 rate and dial and answer commands must
+26 be set before a teleconnection is
+27 attempted.
+28
+29 Baud Rate is the number of binary digits
+30 per second transmitted across your modem.
+31 Modems today commonly transmit at either 
+32 300, 1200, or 2400 baud. TeleWar II will
+33 support all these baud rates, as well as
+34 the new 9600 baud modems.
+35
+35 Set your baud rate to the highest level
+37 supported by your modem, that will most
+38 commonly be using to play TeleWar II with
+39 your friends. The higher baud rates will
+40 transmit game data more quickly, so they
+41 are naturally preferred.
+
+				Page 39
+
+1 Dial and Answer Commands tell your
+2 modem how to dial and answer the phone.
+3 Modems recognize a command instruction
+4 set that allows the computer to direct the
+5 modem to perform these activities.
+6 TeleWar II supports the "AT" command set
+7 standard.
+8
+9 If your phone is touch tone, click "ATDT"
+10 on the Modem Parameter screen. If
+11 instead you have a pulse rotary phone,
+12 then click "ATDP" to set the modem dial
+13 command. If your modem recognizes a
+14 different command set, or to add
+15 additional commands in the dialing
+16 command string, mouse click in the Custom
+17 Dial Command Box, type in the command,
+18 and press RETURN.
+19
+20 Modem Answer commands are set in the
+21 same manner. "ATS0=1" commands your
+22 modem to answer the phone on one ring,
+23 when you are in the Answer Mode. "ATA"
+24 forces the modem to instantly pick up the
+25 phone as you enter the Answer Mode. As
+26 with the dial command string box, a
+27 custom answer command may be entered
+28 into the Custom Answer Command Box.
+29
+30 After the Modem Parameters have been
+31 set, be sure to SAVE them to the disk.
+32
+33 Setting Opponent Parameters are also easy,
+34 and need only be done once. These
+35 Parameters save the telephone numbers and
+36 baud rates of opponents in files, so they
+37 may be retrieved when needed. Under the
+38 Tele Files menu select the Opponent
+40 Parameters option to scroll the Opponent
+40 Parameters Directory screen into view (see
+41 Opponent Parameters on page 34).
+
+				Page 40
+
+1 Type the phone number of your opponent,
+2 and select the baud rate at which you will
+3 always play. The baud rate should be the
+4 highest in common to both modems. Then
+5 type your opponent's name into the File
+6 Name Box (after clicking it active), and
+7 hit RETURN. Finally SAVE the file. The
+8 next time you wish to play TeleWar II
+9 with that opponent just LOAD the file
+10 from the Opponent Parameters screen.
+11
+12 Before you establish a teleconnection,
+13 whether you are Sending (Calling) or
+14 Receiving (Answering), you MUST set the
+15 Opponent Parameters or LOAD an
+16 Opponent Parameters file from disk.
+17
+18   VOICE CONTACT
+19
+20 It is recommended that telephone voice
+21 contact first be established between the
+22 TeleWar II players to decide who will be
+23 the caller and enter the Sending mode and
+24 dial the number, and who will answer the
+25 phone and so enter the Receiving Mode.
+26
+27 The caller should then enter the Sending
+28 Mode and the receiver should enter the
+29 Receiving Mode. If the latter's answer
+30 command is set to "ATS0=1" (if "ATA", the
+31 receiver should not enter the Receiving
+32 Mode until after the phone rings).
+33
+34 When both players are ready to play, they
+35 can agree that the call will be placed 15
+36 or 20 seconds after they each hang up the
+37 phone. This will minimize the chance of
+38 an extraneous incoming call ringing the
+39 phone of the receiver before the Sending
+40 computer can dial the number.
+41
+
+				Page 41
+
+1     Teleconnect Procedure Summary
+2
+3 	1. Each computer will load TeleWar II.
+4
+5	2. Set Modem Parameters, if not set.
+6
+7	3. Load or set Opponent Parameters
+8
+9	4. Call your opponent on the phone to
+10      decide who will call whom.
+11
+12	5. Both computers should be on the same
+13      map, and not have a game started.
+14
+15	6. The caller should enter the SENDING
+16      mode, and the one who answers
+17      enters the RECEIVING MODE, if
+18      "ATS0=1" is his answer command.
+19
+20	7. Just before hanging up the phone,
+21      agree that a call will be placed in 15
+22      seconds. Hang up the phone.
+23	   
+24   8. The SENDING player now selects the
+25      "Dial a Telephone Number" option and
+26       that computer dials the telephone and
+27       waits for an answer.
+28
+29	9. If "ATS0=1" is set on the RECEIVING
+30      computer, it will answer the call
+31      after the phone rings once, and
+32      makes the teleconnection.
+33
+34      If "ATA" is the RECV computer
+35      answer command, the player enters
+36      the RECEIVING MODE on the phone
+37      ring, and makes the teleconnection.
+38
+39  10. Players type messages to each other,
+40      START A NEW GAME, or LOAD and
+41      TRANSMIT & PLAY a saved game.
+
+				Page 42
+
+1    TELECONNECT  - ANOTHER METHOD
+2
+3 Some non-standard modems don't answer
+4 the phone or recognize the "AT" command
+5 set, and may not initially seem to work
+6 with TeleWar II. Don't give up hope yet!
+7 You are able to play by using the NULL
+8 MODEM CONNECT mode. The procedure
+9 that follows should be used to establish a
+10 teleconnection should that be the case.
+11
+12 Both computers must use telecomm
+13 software that does work with their
+14 modems to establish the teleconnection.
+15 This software should be set to the
+16 following telecommunication parameters.
+17
+18	Baud Rate = your baud rate
+19   Parity    = NONE
+20	Data Length = 8 bits
+21	Stop Bits = 1 stop bit
+22	Duplex = Full Duplex
+23
+24 After a teleconnection has been made
+25 between the two computers, QUIT the
+26 other telecommunication programs. The
+27 telephone line should remain open between
+29 the two modems.
+30
+31 Load TeleWar II on each computer. Both
+31 computers should immediately be placed in
+32 the NULL MODEM CONNECT mode. Do
+33 not do anything else until a reasonable
+34 length of time has passed, so your
+35 opponent has time to have followed the same
+36 procedure to place his computer in NULL
+37 MODEM CONNECT MODE.
+38
+39 Finally, players should type messages to
+40 each other to determine if teleconnection
+41 was successfully established.
+
+				Page 43
+
+1   APPENDIX A - TELEWAR DIRECTORIES
+2
+3 TeleWar II accesses two main directories
+4 during program operation.
+5
+6	(1) Tele_War Directory
+7	(2) Tele_Files Directory
+8
+9 The Tele_War directory contains all the
+10 graphics and sound data files needed by
+11 the program. This directory is assigned
+12 the logical device name WAR:, so that it
+13 may be found by the program whether it
+14 resides on a floppy or a hard disk.
+15
+16 The Tele_Files directory contains all of
+17 the user created disk files used in the
+18 game.
+19
+20 the Modemset file contains the default
+21 modem parameters that are loaded each
+22 time TeleWar II is played.
+23
+24 The TeleFiles subdirectory that is in the
+25 Tele_Files directory contains all of your
+26 Opponent Parameter files.
+27
+28 The GameFiles subdirectory that is in the
+29 Tele_Files directory contains all of the
+30 saved Games for TeleWar II.
+31
+32 The Tele_Files directory is assigned the
+33 logical device name TELE+FILES:, so that
+34 it may be found by the program whether it
+35 resides on a floppy or a hard disk.
+36
+37 All TeleGames, TeleWar, and TeleEpic file
+38 directories are compatible with those of
+39 TeleWar II. A single Tele_Files directory
+40 will service all of these games without
+41 conflict.
+
+				Page 44
+
+1	APPENDIX B - USING A HARD DISK
+2
+3 To use TeleWar II from a hard disk, copy
+4 the following directory, program files and
+5 icons to your hard disk.
+6
+7	(1) TeleWar program
+8	(2) Tele_War directory drawer
+9	(3) Tele_Files directory drawer
+10
+11 These files need not be placed in the root
+12 directory of the hard drive. They can be
+13 located in any of the directories or
+14 subdirectories on your hard drive.
+15
+16 Two assigns, however, will not need to be
+17 added to your startup sequence in order
+18 for the program to locate the directories
+19 whenever it is started. Each time your
+20 Amiga is turned on, the startup-sequence,
+21 located in the S directory of your boot
+22 disk, is run. Placing the assigns here will
+23 assure that your Amiga will always be able
+24 to run TeleWar II without any difficulty or
+25 delay.
+26
+27 So, where
+28
+29 HD = your hard drive dh0;, dh2:, etc.
+30
+31 DP = directory path to TeleWar directories
+32
+33 add the following lines to your startup
+34 sequence.
+35
+36 Assign WAR: <HD>:<DP>/Tele_War
+37 Assign TELE+FILES: <HD>:<DP>/Tele_Files
+38
+39 TeleWar II will now reside on your hard
+40 disk.
+41
+
+				Page 45
+
+1		TROUBLE SHOOTING
+2
+3 TeleWar II will not Load
+4
+5	1) Do you have sufficient available free
+6       memory for TeleWar II to load?
+7	2) On a 512K Amiga only one external
+8       drive may be connected, and no other
+9       task should be running.
+10	3) Check to verify that your TeleWar II
+11	   working copy is not damaged.
+12
+13 TeleWar II will not Dial a Number
+14
+15	1) Is your modem connected & powered?
+16	2) Are your Modem Parameters correctly
+17      set?
+18	3) Is your modem compatible with the
+19      "AT" command set?
+20	4) If not, consult your modem manual for
+21      a dial command that might work, and
+22      type it into the Dial Command Box.
+23   5) If all else fails, try Teleconnect -
+24      Another Method (page 43).
+25
+26 TeleWar II will now Answer the Phone
+27
+28	1) Is your modem connected & powered?
+29	2) Are your Modem Parameters correctly
+30      set?
+31	3) Is your modem compatible with the
+32      "AT" command set?
+33	4) If not, consult your modem manual for
+34      an answer command that might work,
+35	   & type in the Answer Command Box.
+36	5) Try the "ATA" command to force the
+37      modem to answer the phone (Select
+38      Receiving Mode after the phone
+39      rings).
+40	6) If all else fails, try Teleconnect -
+41      Another Method (page 43).
+
+				Page 46
+
+1 TeleConnected, but Game will not Work
+2
+3	1) Are both computers the same set to
+4	   the same baud rate?
+5	2) Was a game STARTED on a computer
+6       when the Teleconnection was made?
+7	3) Are both computers on the same Map?
+8	4) Hangup and then re-establish phone
+9       voice connect to verify modem
+10      settings, and then try again.
+11
+12 TeleConnected & Playing, then No Response
+13
+14	1) Are you still connected? Check for
+15      the Carrier Detect (CD) light on your
+16      modem, if it has one.
+17	2) Type in a message or two. The chime
+18      may awaken your opponent.
+19	3) If you or your opponent accessed the
+20      menus, or pressed the right mouse
+21      button when the other was making a
+22      move, game move transmissions may
+23      have been scrambled.
+24	4) If the SEND message line echos back
+25      to the RECV message line (with some
+26      modems), then you are disconnected.
+27	5) If you have been disconnected, first
+28      SAVE game. Choose the "DisConnect"
+29      menu option. If the game is still
+30      active and menu item Cede/End Game
+31      is ghosted, select the TeleConnect
+32      OFF mode (even if it was already
+33      selected) to force activate the
+34      Cede/End Game menu item.
+35
+36 If you have Reached the End of your Rope
+37
+38 Call our BBS at (817) 244-4151 and ask for
+39 help. We will help all we can. But
+40 tactics and in TeleWar are up to you!
+41
+				Page 47
+
+============================================================================
+         DOCS PROVIDED BY  -+*+-THE SOUTHERN STAR-+*+- for M.A.A.D.                                                               
+============================================================================

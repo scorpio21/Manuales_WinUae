@@ -1,0 +1,511 @@
+AMIGA TANX
+                          ~~~~~~~~~~~~
+                     Producida por Gary Roberts.
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      Versión 1.1 (Ver cambios)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 Nueva Versión para Amiga Action 1991.
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    
+ 
+ 
+                     ¡Tanques! una breve descripción general.
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ ¿Recuerdas ese gran juego llamado "TANKS!" que apareció
+en varias máquinas hace muchos años.? ¿No lo haces? ¿Dónde has estado?
+todo este tiempo.? 
+ Tanto niños como adultos pasaron muchas horas jugando a este sencillo
+juego en la universidad y en el trabajo. Es uno de esos juegos que o te encantan.
+o lo odias.
+
+ Me temo que no sé quién creó los Tanks originales, así que no puedo
+darles algún crédito. (Si alguien sabe quién fue, por favor contacte
+yo, entonces puedo darles crédito.! )
+
+ De todos modos, Tanks es un juego sólo para 2 jugadores (aunque he conocido algunos
+¡Gente que juega sola! ), cada jugador recibe un tanque para
+control en un paisaje, la idea es tomar turnos para disparar a tu
+oponente. (¿Ves? Dije que era simple). Tienes control sobre el
+ángulo del cañón del tanque y la velocidad detrás del disparo.
+ El ganador es la persona que logra un golpe directo a sus oponentes.
+tanque. (Cooo, ahora hay una sorpresa).  
+ Esa es la idea básica detrás del juego Tanks original, ahora aquí.
+es mi versión.
+
+
+                             Amiga Tanx.
+                            ~~~~~~~~~~~~~
+ Amiga Tanx sigue la misma línea que el juego original, pero con sólo
+algunas variaciones.
+
+    a) Paisajes generados aleatoriamente.
+    b) Dos tipos principales de Paisajes.
+    c) Gravedad variable.
+    d) Fuerza y ​​dirección del viento variables.
+    e) Blancos a alcanzar.
+    f) Objetos que afecten el vuelo de los tanques disparados.
+    g) Sonido estéreo completo.
+    h) 50 fotogramas por segunda actualización de pantalla.
+    i) Área de juego con desplazamiento de paralaje.
+    j) Más de 100 colores en pantalla. (¡Honesto!)
+    
+ Podría seguir, pero no lo haré.
+
+ 
+                            Tanx inicial
+                           ~~~~~~~~~~~~~~~
+ Bastante sencillo en esta parte.
+ El juego Tanx ocupa alrededor de 400k de chip ram, así que si no lo haces
+tienes 1 megachip de ram o tienes una amiga A3000, tendrás que cerrar
+todas las ventanas y asegúrese de tener al menos 400k de RAM libre.
+
+ NOTA: si solo tienes una amiga de 512k, entonces tanx no se ejecutará
+Banco de trabajo. Tendrá que iniciar el disco y ejecutar Tanx desde la CLI
+
+ Tanx sólo se puede ejecutar desde la CLI, pero gracias a un programa encantador
+llamado ICONX, puedes ejecutarlo desde Workbench.
+ Para ejecutar Amiga Tanx, abra la ventana de Tanx y haga doble clic en el
+Icono de Tanx. Aparecerá una ventana CLI y Tanx procederá a ejecutarse.
+ Si se produce algún error, aparecerá un mensaje agradable en la pantalla.
+ 
+ Tanx se puede ejecutar únicamente desde la CLI. Para ello, debe crear el comando "Tanx!"
+directorio el directorio actual antes de ejecutar.
+
+ P.ej.
+      CD df0: ¡Tanx!	- Para cambiar de directorio.
+      
+ Si Tanx no puede encontrar o cargar el archivo "Tanx-Title.Dat", no se ejecutará.
+ Busca "Tanx-Title.Dat" en el directorio actual.
+ 
+ Si deseas transferir el Juego Tanx al disco duro o a algún otro 
+multimedia, entonces necesitará los siguientes archivos de Tanx! directorio.
+
+       Tanx (y los archivos de iconos asociados si lo desea)
+       Tanx-Título.Dat
+
+   
+ "Tanx" es el programa principal, mientras que "Tanx-Title.Dat" es la imagen del título.
+Mientras ambos archivos estén en el mismo directorio, Tanx se ejecutará.
+ Para que puedas transferir el juego al disco duro o a algún otro medio.
+ El juego es compatible con el sistema operativo y devuelve el sistema operativo intacto al
+saliendo. Si se están ejecutando otros programas, se detendrán mientras
+TANX está funcionando, pero al salir de TANX, seguirán funcionando sin
+problemas.        
+ 
+                       Jugando el juego
+                      ~~~~~~~~~~~~~~~~~~
+
+ Cuando aparezca el título de Tanx, presione el botón izquierdo del mouse, después de unos pocos
+segundos aparecerá la pantalla de opciones principales.
+
+ Desde esta pantalla puedes cambiar muchos parámetros del juego.
+ Los parámetros se explicarán más adelante.
+ 
+ Para jugar un juego simplemente mueva el puntero del mouse y haga clic en JUGAR
+Icono situado en la parte superior derecha de la pantalla.
+
+ Después de unos segundos se le mostrará el paisaje en el que se encuentra 
+La batalla está a punto de tener lugar.
+ (El paisaje tiene aproximadamente 2 pantallas de ancho).
+ 
+ Luego se despliega un panel de control desde la parte superior de la pantalla.
+Desde aquí, el jugador actual puede controlar su tanque y desplazarse
+alrededor del paisaje.
+
+ Se muestra el nombre de los jugadores actuales y se muestra su tanque.
+a la vista. 
+ Los siguientes iconos se muestran en el panel.
+ 
+ Velocidad: representada por campanas de barra. (¿Qué más?) 
+                 Al hacer clic en las flechas debajo
+                 alterar la velocidad del tiro de los jugadores.
+                 Si mantienes presionado el botón izquierdo del mouse, entonces
+                 La velocidad aumentará lentamente, mantenga presionados ambos.
+                 botones izquierdo y derecho del mouse y la velocidad
+                 subirá rápidamente.
+                 La velocidad puede estar en el rango de 0 a 199.
+ 
+ Ángulo: representado por un ángulo de 90 grados.
+                 Al hacer clic en las flechas debajo
+                 alterar el ángulo del cañón del arma del tanque.
+                 Haga clic solo con el botón izquierdo y el valor.
+                 cambiará lentamente. Mantenga presionados ambos botones del mouse
+                 y las cosas avanzarán.
+                 Los ángulos están en grados.
+                 Los valores están entre -90 y 150.
+                 Los ángulos negativos dispararán las balas hacia abajo.
+                 + 90 grados dispararán las balas hacia arriba.
+                                  
+ Fuego: representado por un cohete sobre un botón rojo.
+                 Si estás contento con el ángulo, la velocidad y los tanques.
+                 posición, luego haga clic en esto para disparar su bala!
+ 	
+ Salir: representado por una bandera blanca.
+                 Al hacer clic en esto durante cualquier momento del juego,
+                 salir del juego actual y volver a las opciones
+                 pantalla.
+ 
+ Scroll Land: representado por un pequeño paisaje y un tanque.
+                 Haga clic en las flechas para desplazar el paisaje.
+                 Izquierda y derecha, arriba y abajo. esto permitirá
+                 Tú eliges tu objetivo (los otros jugadores
+                 tanque).
+                 Al presionar el botón izquierdo del mouse se desplazará lentamente.
+                 Mantenga presionados ambos botones y comenzará a moverse.	
+ 
+ Move Tank: representado por un tanque (sorprendente, ¿eh?)
+                 Al hacer clic en las flechas debajo del icono se moverá
+                 tu tanque.
+                 Los tanques sólo pueden moverse en su llanura.
+                 No pueden subir ni bajar colinas ni pasar
+                 cráteres.
+
+ Cuando dispares las balas, volarán dado tu ángulo y
+velocidad. Las balas se calculan con precisión utilizando
+un proyectil forumla, por lo que actuarán como en la vida real.
+
+ Cada jugador, por turnos, dispara un tiro. el primer jugador en
+¡Golpea el tanque de tus oponentes y gana! 
+
+ Después de haber ganado un juego. Se muestra una pantalla de estado.
+ Se muestra un recuento de los juegos ganados por cada jugador.
+ 
+ Desde la pantalla de Estado puedes jugar otro juego con el actual
+ parámetros o puede salir a la pantalla de Opciones principales para modificar 
+ los parámetros. - Ver la siguiente sección.
+
+ El recuento actual de juegos ganados por cada jugador es sólo
+ Se borra cuando cambias el nombre de los jugadores en las opciones principales.
+ pantalla.   - Ver siguiente sección.
+ 
+
+                           Parámetros del juego.
+                          ~~~~~~~~~~~~~~~~~~
+ Como habrás visto en la pantalla de Opciones principales, hay muchos
+de parámetros que puede cambiar.
+
+               A) Fuerza del viento.
+               B) Dirección del viento.
+               C) Fuerza de gravedad.
+               D) Generación de paisaje.
+               E) Objetos.
+               F) Sonido.
+También en la pantalla de opciones principales encontrará los siguientes iconos.
+
+ ACERCA DE - ¡La versión actual del juego y quién lo escribió!
+
+ SALIR - Salir del juego. 
+ 
+ JUGADOR1 -  
+ JUGADOR2: los dos íconos de jugador en la parte superior izquierda de la
+              La pantalla de opciones principales le permite modificar la 
+              nombres de los jugadores. Simplemente haga clic en el icono debajo del
+              nombre de los jugadores. Puede escribir 3 letras del
+              teclado o mueva el mouse hacia la izquierda/derecha y haga clic para
+              dejar un personaje.
+
+ JUGAR: juega un juego con los parámetros seleccionados.
+  
+ Revisaré cada uno de los parámetros y explicaré 
+¡Qué hacen todos!
+ Para operar cualquiera de las opciones, simplemente mueva el puntero del mouse.
+sobre los interruptores (pequeñas cajas con luces negras o rojas)
+y presione el botón izquierdo del mouse.
+
+
+                       A) Fuerza del viento.
+                      ~~~~~~~~~~~~~~~~~~~
+ Bastante obvio este. Puedes introducir el efecto del viento.
+en el juego. El viento afecta el vuelo de las balas y
+hace que el juego sea un poco más difícil de jugar.
+ La fuerza y dirección del viento se muestran durante el juego,
+en la parte inferior de la pantalla. La bandera indica la dirección, mientras que
+el metro y el número (de 0 a 9) indican la fuerza.
+
+ Las opciones en Fuerza del viento son las siguientes.
+ 
+  1) Ninguno: no afecta en absoluto el viento. La opción predeterminada.
+  
+  2) Ligero - Viento ligero. Sopla una pequeña brisa y tiene un 
+                  pequeño efecto en el vuelo de las balas.
+
+  3) Medio: sopla un viento fuerte en el paisaje.
+                  Este viento afecta notablemente a las balas.
+                  vuelo.
+                  
+  4) Fuerte: Definitivamente ahora hay condiciones de fuerza de vendaval.
+                  El viento es muy fuerte y las balas
+                  se ven muy afectados por el viento.
+                  
+  5) Aleatorio: la fuerza del viento se elige al azar.
+                  durante el juego. Después de que cada jugador disparó
+                  el viento puede cambiar de fuerza con esta opción.                 
+                  
+ NOTA: Con las opciones 2 a 4, la fuerza del viento se elige en el
+       comienzo de un juego y NO cambia a lo largo del
+       juego.
+       Con la opción 5. La fuerza del viento se elige al azar,
+       y SÍ cambia durante un juego. Así que observe el anemómetro
+       antes de disparar.!!!
+
+          
+                         B) Dirección del viento
+                        ~~~~~~~~~~~~~~~~~~~
+ Esta opción altera correctamente la forma en que se genera la dirección del viento.
+ 
+ 1) Lo mismo.   - La opción predeterminada.
+                  La dirección del viento se elige aleatoriamente al inicio.
+                  de cada juego y no cambia durante ese juego.
+  
+ 2) Aleatorio: la dirección del viento se elige aleatoriamente al inicio.
+                  de cada juego, pero puede cambiar aleatoriamente durante un juego
+                  asi que ojo!!!                  
+     
+
+
+                        C) Fuerza de gravedad
+                       ~~~~~~~~~~~~~~~~~~~~~                   
+
+ No hay premios por adivinar qué hace esto.
+ Diferentes fuerzas de gravedad requieren diferentes tácticas.
+
+ Toda la gravedad se elige al comienzo de cada juego y NO
+ cambiar durante el juego.
+   
+  1) Luz: gravedad ligera, hace que las balas se sientan muy ligeras.
+                  Cuando se disparan, tenderán a flotar.
+                 
+                    
+  2) Medio: esta es la opción predeterminada y equivale a
+                  la gravedad terrestre.
+   
+  3) Fuerte: las balas se sienten muy pesadas y caen como una
+                  elefante que lleva varios yunques de plomo a modo de pendientes.
+
+  4) Aleatorio: la gravedad se elige aleatoriamente entre las anteriores.
+
+
+                     D) Generación de Paisaje.
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+ Hay dos tipos de paisajes. Montañas y estribaciones.
+ Para cada tipo, el paisaje se genera aleatoriamente, por lo que no hay dos.
+ Los paisajes serán los mismos.
+
+ Durante la creación de paisajes y objetos, aparece un pequeño mensaje.
+en pantalla informándote. - Consulte la sección de errores conocidos.!!! 
+
+  1) Montañas- Montañas escarpadas con grandes valles.
+                  Esto hace que golpear a los tanques sea bastante complicado.
+                  Mucha cobertura.
+
+  2) Foot Hills: valles poco profundos con pequeñas colinas.
+                  Los tanques se detectan fácilmente y no son difíciles.
+                  para llegar a.
+                                   
+  3) Aleatorio Se genera un paisaje totalmente aleatorio.
+                  ¡¡Cuidado!! algunas formas extrañas pueden ser
+                  generado con esta opción.
+
+
+                  
+                         E) Objetos.
+                        ~~~~~~~~~~~~~   
+
+ ¡Estos no son para los débiles de corazón!
+ Se pueden colocar 4 tipos de objetos en el paisaje.
+
+ Todos los objetos están colocados aleatoriamente en el paisaje.
+ 
+ NOTA: ¡¡¡Consulte la sección Errores conocidos!!!
+       
+       1) Objetivos. - Estos pueden ser destruidos si golpeas un objetivo.
+                     Obtendrás un tiro gratis en la siguiente ronda.
+                              
+       2) Abanicos: no se pueden destruir.
+                     Estos golpes (¿Qué más hacen los fans?)
+                     muy duro en la dirección en la que miran.
+                     Si las balas entran dentro del alcance de uno de estos
+                     espere resultados extraños.!
+                     La fuerza del viento de un ventilador suele ser más fuerte que la
+                     un viento fuerte. La fuerza de los fans es aleatoria.
+                     elegido.
+
+       3) Empujadores: estos extraños objetos parecen pulsantes.
+                     pirámides rojas. (Con una flecha subiendo y bajando)
+                     Cuando una bala pase sobre ellos será
+                     empujado hacia arriba con mucha fuerza.
+                     
+       4) Tiradores: parecen un par de mandíbulas que se abren y cierran.
+                     Estos tienen el efecto opuesto al de los Pushers.
+                     Cuando las balas pasen sobre ellos, serán arrastradas.
+                     baja muy bruscamente.
+                     
+                     
+                            f) sonido
+                           ~~~~~~~~~~
+ Si lo deseas, puedes apagar todos los sonidos durante el juego.
+ Todos los sonidos están digitalizados y reproducidos en estéreo completo, entonces, ¿por qué?
+ ¿Deberías querer apagar el sonido?
+
+ 
+                    Algunas otras cosas que debo mencionar,
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ No habrá dos juegos de Tanx iguales. La mayoría de los parámetros
+Utilizo para generar paisajes y las posiciones de los objetos son aleatorias.
+tanto como sea posible. (¡Esto fue muy doloroso depurar el código!)
+
+ Los tanques se colocan aleatoriamente en el paisaje, los jugadores
+tanques asignados aleatoriamente para usar. El jugador que va primero también es
+elegidos al azar. ¡¡Así que no te quejes si tu compañero siempre va primero!!
+
+ Los tanques están limitados a moverse únicamente en su "planicie", no pueden
+subir montañas o sobre cráteres.
+ Pero puedes hacer un "túnel" hacia una montaña cercana.
+ Simplemente coloque su tanque aproximadamente al ancho del tanque desde la montaña o 
+colina, establezca su ángulo en -4 o -5 y la velocidad en más de 100.
+ La explosión de las balas que golpeen la tierra eliminará una gran cantidad de
+trozo de tierra. Repite esto varias veces y habrás creado
+un túnel. ¡Conduce tu tanque para cubrirte! Pero su tanque debe poder
+¡Fuera fuego!  
+
+ Intente configurar el paisaje en Foothills, viento fuerte y gravedad.
+a la luz. Divertido, ¿no? ¡¡Ten cuidado de no dispararte.!!
+
+ Es mejor empezar con las opciones predeterminadas, sin viento, medio
+gravedad y ningún objeto. Tan pronto como le resulte fácil, preséntele
+viento y diferentes fuerzas de gravedad.
+
+ Finalmente intenta encender lo siguiente y jugar por el
+ nivel más difícil.
+ 
+   1) Todos los objetos en
+   2) Fuerza del viento aleatoria
+   3) Dirección aleatoria del viento
+   4) Gravedad aleatoria
+   5) Paisaje aleatorio.
+   
+
+    ¡¡¡Divertirse!!!
+  
+ 
+ Información técnica.
+~~~~~~~~~~~~~~~~~~~~~~~
+
+ Debido a la naturaleza del sistema y cómo opera el juego, esto 
+El juego no realiza múltiples tareas. ¡¡¡Lo siento!!!.
+ Cuando salgas del juego, el sistema volverá exactamente como estaba.
+lo encontré.
+ Para alcanzar los 50 fotogramas por segundo, es necesario hacerse cargo del sistema.
+¡Lo siento!
+
+ El juego real se ejecuta en baja resolución 320*256 y con sobreexploración PAL completa.
+ La actualización de la pantalla se realiza a velocidad arcade (50 fotogramas por segundo)
+ Se utilizan 6 planos de bits para producir campos de juego duales. usando el cobre
+ Más de 100 colores se muestran en la pantalla.
+ 
+ La pantalla de opciones y las pantallas de estado están todas en 32 colores.
+ 
+ Se utiliza sonido estéreo completo. Sube el volumen y aumenta el
+¡¡Bajo para molestar a los vecinos!!
+ Se utilizan más de 100 k para sonido digitalizado, 280 k de datos gráficos
+y 20k de código.
+
+ El juego fue escrito usando una Amiga A500, con disco duro A590, 3 megas,
+2 unidades y monitor. Fue escrito en Assembler usando el brillante
+Hisoft Devpac 2.14 y tardó aproximadamente 1 mes en escribirse.
+ Para los gráficos se utilizó Dpaint III.
+ Se utilizó Audio Master II para digitalizar los sonidos.
+ Pixmate también se utilizó para la conversión de imágenes IFF a plano de bits RAW.
+archivos.
+ 
+ El juego se ejecutará en todos los Amigas, incluidos los A3000 y
+Amigas aceleradas.
+ Si el juego no se ejecuta en tu configuración, contáctame y
+Intentaré solucionar el problema.
+ Si encuentra algún error o tiene algunas ideas nuevas para el próximo
+liberar nuevamente, por favor contácteme.
+
+ Mi dirección.
+     Gary Roberts
+     17 cerca Tudor,
+     Camino de madera de abedul
+     Alderholt
+     Cerca de Fordingbridge
+     HANTS
+     SP6 3LY
+     INGLATERRA.
+     
+
+ Esta es la versión 1.1 de TANX.
+
+  ¡Gracias por jugarlo!
+
+            Gaz Robertz 1991.
+            
+
+
+ Errores conocidos.
+~~~~~~~~~~~~~
+ El único error que podría ocurrir es durante la generación de
+Posiciones de objetos en el paisaje.
+
+  es decir, tiene 1 o más de las opciones de objeto activadas.
+
+ He tratado de mantener los parámetros de los juegos y aleatorizarlos como
+posible. De esta manera no habrá dos juegos iguales.
+
+ El paisaje se genera aleatoriamente. Se generan varios puntos.
+y estos se unieron para formar la tierra.
+ Cuando se trata de generar las posiciones de los objetos, el programa
+se sienta en un bucle.
+ Genera posiciones aleatorias para los objetos. Luego verifica para ver
+si las posiciones de los objetos recién generados están realmente en tierra. (Nosotros
+Ahora no queremos objetivos flotando en el cielo, ¿verdad? )
+ Si no están en tierra, genera más puntos aleatorios,
+este bucle continúa hasta que todas las posiciones de los objetos estén en tierra.
+
+ Ahora bien, en teoría, la computadora podría permanecer en este bucle para siempre, generando
+puntos aleatorios que no se encuentran en el terreno. (Esto nunca ha
+sucedió durante las 2 semanas de prueba de juego).
+
+ Por eso he proporcionado una función de "salida". Mientras que el
+Se están generando posiciones de objetos, aparece un mensaje en la pantalla.
+te lo digo. Puedes salir de esto manteniendo presionado el botón
+botón izquierdo del mouse, esto lo llevará a la pantalla de Opciones principales.
+(No te preocupes, las puntuaciones de los jugadores no se borrarán)
+
+ Durante las 2 semanas de pruebas de juego, el tiempo que más tiempo ha tardado en 
+generar un paisaje con todos los objetos encendidos es de 11 segundos.
+ Si tarda más de 30 segundos en hacerlo, le sugiero que
+sal y vuelve a intentarlo.
+
+ Me disculpo por esto, pero creo que la importancia de aleatorizar
+Los parámetros en la medida de lo posible superan la importancia de este error.
+ 
+ Espero que este error no te moleste.
+
+ Gracias.
+  
+  
+ Actualizaciones
+~~~~~~~~~
+
+
+Tanx original completado el 14/02/91
+
+
+Fecha de cambio 25/07/91
+
+ 1) Se corrigió el error de colisión de bala. Las balas a veces alcanzan el tanx, pero pasan.
+    por no registrar un acierto.
+    
+ 2) Se estaban generando valores de viento negativos. Fijado.
+ 
+ 3) Rutina de aleatorización más rápida. La generación de paisajes es más rápida.
+ 
+ 4) Rutina de teclado reelaborada. 
+ 
+ 
+Última actualización 25/07/91

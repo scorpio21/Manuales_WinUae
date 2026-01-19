@@ -1,0 +1,705 @@
+FILA DE DESLIZAMIENTO
+
+                              presenta
+
+                          BASE LUNA para Amiga
+
+Requisitos del sistema
+
+   MOONBASE para Amiga está diseñado para ejecutarse en todos los sistemas Amiga, 
+incluyendo 500, 1000, 2000, 2500 y 3000. El programa requiere 512K
+RAM (se recomienda 1 mega), al menos una unidad de disquete y KICKSTART
+y WORKBENCH 1.2 o superior.
+
+Instalación de BASE LUNA
+
+   MOONBASE se puede ejecutar desde un disquete o se puede instalar para ejecutar
+en tu disco duro.
+
+   Antes de la instalación, primero debe hacer una copia de seguridad del
+Disco de distribución MOONBASE.  Su manual de AmigaDOS explica cómo hacer
+esto.
+
+   Para instalar MOONBASE, en su disco duro, inserte MOONBASE
+disco en cualquier unidad de disquete, haga doble clic en el disco de su disco duro
+icono, haga doble clic en el icono del disco MOONBASE y arrastre el 
+MOONBASE, Fonts y Libs cajones en la ventana de la unidad.
+
+Ejecutando BASE LUNA
+
+   En el disco de distribución se incluye un archivo README que contiene
+información adicional para ejecutar MOONBASE, así como nuevas 
+mejoras al programa.  Para leer este archivo, simplemente doble
+haga clic en el icono LÉAME.
+
+De disquete:
+
+   Encienda su computadora Amiga e inserte el disco MOONBASE en
+conducir df0:.  El programa se cargará y comenzará automáticamente.
+
+   Inserte el disco MOONBASE en la unidad df0: y reinicie su computadora 
+desde el teclado.
+
+Desde tu disco duro:
+
+   Para ejecutar MOONBASE desde WORKBENCH en su disco duro, haga doble clic
+en el icono del disco MOONBASE, haga doble clic en el cajón MOONBASE,
+y haga doble clic en el icono de la herramienta MOONBASE.
+
+FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA
+==========================================================================
+                           BIENVENIDO A BASE LUNA
+
+       ¡¡¡Gracias por comprar MOONBASE!!!
+
+               Primero que nada, tómate el tiempo para completar el formulario de registro. 
+               en el frente de su manual y envíelo.
+
+               Consulte el folleto de papel en el cuadro de 
+       instrucciones de instalación e información adicional en el
+       final de este archivo Léame sobre la instalación de MOONBASE en su disco duro.
+       
+       Nuevas funciones para Amiga MOONBASE no documentadas en el
+       manual de MOONBASE o modificado de la información actual.
+
+       ---> Indicadores de potencia/térmicos: ya sea haciendo clic en el
+               botón en la esquina inferior izquierda de la ventana principal,
+               o seleccionando Medidores de potencia/térmicos en la lista
+               menú OPERACIONES, puede abrir un cuadro de solicitud
+               que muestra indicadores de potencia y control térmico.
+               Cuando las agujas están en rojo, necesitas más
+               control de potencia o térmico. Además, las imágenes
+               en el botón parpadeará cuando su base lunar lo requiera
+               más estructuras de control térmico o de potencia.
+
+       ---> Nuevo Cursor - el cursor (cuando está sobre la luna 
+               parte de la superficie de la ventana principal) ahora muestra la
+               Ubicaciones de las esclusas de aire y conectores de alimentación/térmicos.
+               de la herramienta actualmente seleccionada. Aparecen las esclusas de aire
+               como pequeñas marcas de guiones que vienen de los bordes exteriores
+               del contorno del cursor. El conector de alimentación/térmico
+               se muestra como un pequeño cuadrado en la esquina del cursor.
+
+       ---> Modo de pausa: haciendo clic en el botón en el
+               esquina inferior derecha de la ventana principal (con la 'P'
+               en él) o seleccionando Pausa en el menú CONFIGURACIÓN,
+               puedes pausar la simulación. Pulsando el botón Aceptar
+               en el cuadro del solicitante resultante se reanudará normalmente
+               jugar.
+
+       ---> Teclas de acceso rápido al menú: muchas de las selecciones en los menús
+               se puede invocar a través de las teclas normales del teclado
+               acceder a los buzones de solicitud de uso frecuente
+               más fácil.
+
+       ---> Rotar laboratorio: la herramienta Laboratorio se puede alternar
+               entre la orientación vertical y horizontal
+haciendo clic con el botón derecho del ratón mientras está en
+               la parte de la superficie lunar de la ventana principal.
+
+       ---> Botón Cancelar para el solicitante de Venta y Presupuesto
+               cajas. Al hacer clic en el botón cancelar en cualquiera de los dos
+               solicitante, todas las operaciones realizadas desde que se abrió el
+               solicitante será cancelado.
+
+       ---> Arrastrar y dibujar: mientras estás en la parte de la superficie lunar de
+               la ventana principal, es posible arrastrar y dibujar
+               con cualquier herramienta en líneas rectas. Esto es especialmente
+               Útil al colocar carreteras, tuberías o cables de alimentación.
+               Para utilizar esta función, haga clic y mantenga presionado el botón izquierdo del mouse.
+               botón hacia abajo mientras mantiene presionado cualquiera de los cambios
+               tecla en el teclado, luego arrastre el mouse en el 
+               dirección en la que desea colocar las herramientas. la direccion
+               que primero te muevas será el eje sobre el cual
+               Las herramientas se colocarán a lo largo.
+
+	MOONBASE no está protegido contra copia de ninguna forma, y
+	Fue desarrollado y funciona bien en un Amiga 3000.
+
+	Información adicional sobre la instalación de MOONBASE en un disco duro
+	conducir.
+
+	MOONBASE requiere algunas fuentes y archivos de biblioteca para poder
+	para operar. Las instrucciones de instalación le indican que
+	simplemente arrastre los cajones de fuentes y bibliotecas a su disco duro
+	ventana de partición. Esto copiará todas las fuentes y bibliotecas.
+	archivos del disco de distribución a sus cajones de fuentes y bibliotecas
+	en tu disco duro. Algunas de las fuentes y archivos de biblioteca pueden
+	ya existe en su disco duro. Si no quieres los archivos
+	en el disco de distribución para sobrescribir los archivos existentes en su
+	disco duro, luego abra un cli o shell y copie los archivos que no
+	tener en su disco duro manualmente desde el disquete.
+	Los archivos que MOONBASE requiere de los cajones de fuentes y bibliotecas
+	son:
+		Del cajón Libs
+
+	 	biblioteca.diskfont
+		biblioteca mathtrans
+		iff.library (si desea que aparezca la pantalla del logotipo)
+
+		Del cajón de fuentes
+
+		info.font y el archivo en el cajón de información
+		ticker.font y el archivo en el cajón del teletipo
+		times.font y los archivos en el cajón de tiempos
+		sapphire.font y el archivo en el cajón de zafiro
+
+	Cualquiera de los archivos que no tienes en tu disco duro, solo
+	cópielos del disco de distribución.
+===================================================================================
+                            APÉNDICES DE BASE LUNAR
+
+
+Escrito por SIDEWINDER de LSD.  (Terminado el 4 de julio de 1991)
+Manual suministrado por SCOOTER.
+
+NOTA: Estos son los Apéndices, las primeras 90 páginas del manual son una
+historia, y no son necesarios para jugar el juego, pero si alguien quiere agregar
+ellos a esto, ¡sea mi invitado!
+
+
+REFERENCIA RÁPIDA
+Su trabajo como comandante de la base lunar es construir una empresa exitosa y personal.
+base de soporte.  La NASA te proporcionará dinero inicial, pero tienes que hacerlo.
+invertirlo sabiamente.  Estos son los conceptos básicos que necesita saber.
+
+Construyendo una base lunar.  Tu tripulación necesita cuatro cosas para sobrevivir en el
+Luna: refugio, energía, control térmico y suministros.  Tu base
+Funciona mejor si tienes estos cuatro en mente.
+
+El refugio lo proporcionan módulos habitacionales.
+
+El control térmico y de energía se proporciona mediante la construcción de plantas de energía y
+radiadores y luego conectarlos a otros nódulos con cables de alimentación
+y tuberías de control térmico.
+
+Los suministros se obtienen comprándolos en la Tierra o haciendo crecer tu
+propia comida en Invernaderos, encontrando agua y fabricando tus propios repuestos.
+
+DINERO EN EFECTIVO.
+Puede recaudar efectivo negociando uno de los cinco productos básicos que se encuentran en
+demanda constante.  Puedes invertir en una planta que fabrique uno de
+estos productos y proporcionarle lo que necesita para funcionar: tripulación, potencia,
+Control Térmico y Reabastecimiento.  Luego podrás vender los bienes que produzcas.
+el mercado abierto.  Las cinco materias primas vendidas en Lunar Commodities
+Los intercambios son oxígeno, agua y helio-3. Electrónica y Materiales.  cada uno de
+estos mercados es único y tiene un carácter propio.
+
+OXÍGENO
+Se necesita oxígeno para sustentar la vida, pero las cantidades necesarias para ello
+El propósito es relativamente pequeño.  El uso principal del oxígeno es como principal
+Componente del propulsor de cohetes.  Cuando se establezca la base lunar, el
+El nivel de tráfico de cohetes alrededor de la Tierra será muy alto.  la demanda de
+El propulsor de cohetes también será alto.  El oxígeno es barato en la Tierra, pero lo es
+caro de poner en órbita.  Algunas de las cosas que afectan la demanda.
+para oxígeno son el nivel del tráfico de cohetes que realizan viajes de reabastecimiento a
+y desde la base lunar, así como cualquier misión importante de exploración espacial a
+otros planetas y la actividad asociada alrededor de las estaciones espaciales terrestres.
+
+AGUA
+El agua también es necesaria para sustentar la vida, pero a diferencia del oxígeno, no es así como
+se utilizará la mayor parte del agua.  El agua se puede descomponer mediante
+electrólisis en hidrógeno y oxígeno que juntos forman ambos componentes
+de un propulsor de cohetes muy potente.  El hidrógeno es el combustible y el
+El oxígeno es el oxidante.  Dado que se utilizan esencialmente para lo mismo
+propósito, muchas de las mismas cosas que afectan el mercado del oxígeno
+afectar al mercado del agua.
+
+HELIO-3
+El helio-3 es el combustible en muchas de las reacciones de fusión nuclear que se están llevando a cabo.
+estudiados como posibles fuentes de energía.  El helio-3 es un isótopo ligero de
+helio (el helio común tiene una masa de 4) y es muy raro en la Tierra.  en el
+Luna, sin embargo, los vientos solares depositan Helio-3 en el Regolito, pero no
+en altas concentraciones.  Se deben procesar grandes cantidades de regolito en
+para extraer cantidades significativas de Helio-3.  Actualmente hay
+una pequeña demanda de helio-3 para fines de investigación, pero si la energía de fusión
+Si se perfeccionara la generación de energía, la demanda de Helio-3 crecería
+rápidamente.
+
+FABRICACIÓN
+Industria establecida, centros de procesamiento de materiales lunares o
+fabricación de componentes electrónicos.
+
+ELECTRÓNICA
+En la Luna se pueden construir componentes electrónicos únicos debido a su baja
+gravedad y condiciones relativamente extremas.  La calidad de estos
+componentes es muy alto, pero podrían mejorarse mediante investigación y
+Trabajo de desarrollo dirigido específicamente a la electrónica lunar.
+proceso de fabricación.  Los componentes electrónicos lunares están en muy alto
+demanda en la Tierra, pero otras naciones tienen sus ojos puestos en estos mercados.
+
+MATERIALES
+Se pueden hacer muchos usos de los materiales disponibles en la superficie lunar y
+Es posible que algunos de estos sean de calidad suficiente para ser
+vendido de nuevo en la Tierra.  Sin embargo, lo más probable es que
+posibilidad de que se pueda hacer algo en la Luna que sea necesario
+en las estaciones espaciales terrestres.  En misiones de exploración a otros planetas,
+Sería más barato transportar materiales desde la Luna que desde la Tierra.
+Dado que la gravedad de la Luna es sólo aproximadamente una sexta parte de la de la Tierra, sería
+Será mucho más fácil transportar mercancías desde la Luna a la órbita terrestre que
+para transportar mercancías desde la superficie de la Tierra a la órbita terrestre.  La base lunar
+La planta de procesamiento de materiales produce células de energía solar que tienen demanda
+en la estación espacial terrestre y en los cohetes de iones que transportan carga
+de la Tierra a la Luna.
+
+HABITACIÓN
+Coloca estructuras vivas en la superficie de la Luna.  Deja cuatro espacios
+Módulos de comando de estación (SSCM) que albergan a 4 personas cada uno o van por un
+Hábitat inflable más grande con capacidad para 50 personas.  si realmente
+necesita grandes instalaciones de vivienda, seleccione el hábitat avanzado que contenga
+Vivienda para 150 residentes.  Puedes intentar generar más
+ingresos para la base mediante la construcción de un hotel para atraer a turistas ricos de
+Tierra.  Los centros recreativos brindan a los habitantes de Moonbase un lugar para
+relajarse y hacer ejercicio.  En definitiva, disponer de vivienda y recreación adecuadas
+aumenta la moral y la productividad básica general.
+
+CIENCIA
+Gánate el favor de la NASA colocando instalaciones científicas en la Luna.
+Incrementar la investigación sobre energía nuclear, electrónica y células solares con un
+módulo de laboratorio.  Busca vida en planetas distantes con una astronomía
+instalación.  Busque en la superficie lunar altas concentraciones de oxígeno y
+otros yacimientos minerales valiosos.  Reduzca sus costos de reabastecimiento de alimentos al
+construcción de invernaderos.
+
+MINERÍA
+Recolecta regolito lunar y procésalo para obtener oxígeno líquido derivado de la Luna.
+(LLOX).  Utilice información de la exploración para colocar helio-3 y agua.
+plantas procesadoras en puntos de altas concentraciones.
+
+UTILIDADES
+Instalar un servicio de comunicación para conocer noticias de guerra, depresión o
+futuras misiones desde la Tierra.  Construir una instalación de mantenimiento para reducir
+sus costos de reabastecimiento de hardware.  Mejore la seguridad general en su base al
+construcción de carreteras y pistas de aterrizaje.  O usar la excavadora para destruir
+¡todo!
+
+CONTROL TÉRMICO
+Debes construir radiadores y conectarlos a otras estructuras para irradiar.
+Calor y compensar la falta de atmósfera.
+
+PODER
+Ya sea solar, de fisión o de fusión, se necesita una fuente central para suministrar
+energía a casi todas las estructuras de tu base.
+
+
+APÉNDICE 1
+La siguiente sección describe los componentes principales que puede utilizar para
+construye tu base y proporciona algunos detalles técnicos.
+
+INSTALACIONES DE HABITACIÓN
+
+MÓDULO HAB:
+Esta es la habitación principal diseñada para su uso en SSF o base lunar.
+El módulo habitacional es un complejo de cuatro módulos comunes de la estación espacial.
+conectados por un nodo.  Las habitaciones proporcionadas por la hab básica son
+relativamente estrecho e incómodo.
+
+Necesidades de reabastecimiento: 400 kg/mes
+Potencia necesaria: 20 kWe
+Poder humano 1
+Capacidad de tripulación: 16 miembros de tripulación
+
+HAB INFLABLE:
+Módulo habitacional hinchable de tamaño mediano que proporciona mayor comodidad
+alojamiento para la tripulación que el hab básico.
+
+Necesidades de reabastecimiento: 1600 kg/mes
+Potencia necesaria: 80 kWe
+Mano de obra: 1
+Capacidad de tripulación: 50 tripulantes
+
+HÁBITAT AVANZADO:
+El módulo habitacional más grande disponible, proporciona la tripulación más cómoda
+cuartos, así como amplias áreas comunes que ayudan a la moral de la tripulación.
+
+Necesidades de reabastecimiento: 4800 kg/mes
+Potencia necesaria: 400 kWe
+Fuerza humana: 7
+Capacidad de tripulación: 150 miembros de tripulación
+
+HÁBITAT DE RECREACIÓN:
+Módulo habitacional diseñado para instalaciones recreativas, estos son necesarios
+para ayudar a mantener alta la moral de la tripulación.
+
+Necesidades de reabastecimiento: 200 kg/mes
+Potencia necesaria: 80 kWe
+Fuerza humana: 3
+
+HOTELES:
+Hoteles para turistas que visitan la Luna.  Los turistas de la Tierra son
+interesado en visitar características interesantes de la superficie de la Luna y
+sitios históricos.
+
+Necesidades de reabastecimiento: 300 kg/mes
+Potencia necesaria: 200 kWe
+Mano de obra: 10
+Capacidad Turística: 20 turistas
+
+INSTALACIONES CIENTÍFICAS
+
+LABORATORIO DE CIENCIAS:
+Módulo dedicado a la investigación y experimentación científica.  Investigación
+llevado a cabo en los laboratorios científicos de Moonbase puede conducir a descubrimientos en
+fusión nuclear, así como procesos para producir electrónica mejorada en
+las plantas electrónicas Moonbase y celdas de energía solar mejoradas en el
+Plantas de materiales de base lunar.
+
+Necesidades de reabastecimiento: 10 kg/mes
+Potencia necesaria: 30 kWe
+Fuerza humana: 4
+
+ASTRONOMÍA:
+Módulo diseñado para albergar equipos y tripulación de astronomía.  la astronomía
+Las instalaciones son autónomas y no requieren energía ni calor.
+controlar.
+
+Necesidades de reabastecimiento: 10 kg/mes
+Potencia necesaria: 0 kWe
+Fuerza humana: 3
+
+INVERNADERO:
+Los invernaderos son instalaciones para cultivar alimentos que pueden ayudar a reducir la
+los costos anuales de reabastecimiento y ayudar a que la base sea autosuficiente.
+
+Necesidades de reabastecimiento: 2500 kg/mes
+Potencia necesaria: 200 kWe
+Fuerza humana: 8
+Tasa de producción: 5000 kg de alimentos/mes
+
+INSTALACIONES DE GENERACIÓN DE ENERGÍA
+
+CENTRAL NUCLEAR:
+Central eléctrica que utiliza reacciones de fisión nuclear para generar energía.
+
+Necesidades de reabastecimiento: 100 kg/mes
+Potencia necesaria: 0 kWe
+Fuerza humana: 4
+Potencia de salida: 1500 kWe
+
+SOLARES:
+Sistema de energía que convierte la energía solar en energía eléctrica.
+
+Necesidades de reabastecimiento: 10 kg/mes
+Potencia necesaria: 0 kWe
+Mano de obra: 1
+Potencia de salida: 400 kWe
+
+FUSIÓN:
+Central nuclear que utiliza fusión para generar energía.  Este es un limpiador
+forma más segura de generar energía que la fisión nuclear.
+
+Necesidades de reabastecimiento: 100 kg/mes
+Potencia necesaria: 0 kWe
+Mano de obra: 25
+Potencia de salida: 10000 kWe
+INSTALACIONES DE MANTENIMIENTO Y OPERACIONES
+
+PISTA DE ATERRIZAJE:
+Plataforma de aterrizaje para módulos de aterrizaje lunares.  Las plataformas de aterrizaje hacen que el módulo de aterrizaje sea más seguro
+operaciones y reducir las probabilidades de que los módulos de aterrizaje se estrellen.  A medida que tu base crece
+grande, el número de vuelos del módulo de aterrizaje aumenta, por lo que la necesidad de plataformas de aterrizaje
+crece.
+
+Necesidades de reabastecimiento: 100 kg/mes
+Potencia necesaria: 0 kWE
+Fuerza humana: 2
+
+COMUNICACIÓN:
+Equipos de comunicación para contactar con la Tierra.
+
+Necesidades de reabastecimiento: 1 kg/mes
+Potencia necesaria: 5 kWe
+Fuerza humana: 2
+
+MANTENIMIENTO:
+Instalaciones de mantenimiento/reparación de hardware base.  mantenimiento de edificios
+Las instalaciones ayudan a reducir los costos anuales de reabastecimiento de hardware.
+
+Necesidades de reabastecimiento: 500 kg/mes
+Potencia necesaria: 100 kWe
+Fuerza humana: 4
+
+INSTALACIONES DE MINERIA Y FABRICACIÓN
+
+PLANTA PROCESADORA DE AGUA:
+Instalación de extracción/procesamiento de agua.  Se deben ubicar plantas procesadoras de agua.
+en un sitio que contiene agua.  El agua se puede localizar mediante exploraciones.
+
+Necesidades de reabastecimiento: 80 kg/mes
+Potencia necesaria: 800 kWe
+Mano de obra: 35
+Tasa de producción: 50 TM/mes
+
+PLANTA PROCESADORA LLOX:
+Planta de producción de OXÍGENO Líquido de origen lunar.  Las plantas LLOX extraen oxígeno
+por un proceso de reducción del regolito lunar.  Cada instalación requiere un
+Minero de oxígeno móvil para suministrarle materia prima.
+
+Necesidades de reabastecimiento: 70 kg/mes
+Potencia necesaria: 300 kWe
+Mano de obra: 16
+Tasa de producción: 150 TM/mes
+
+MINERO DE OXÍGENO MÓVIL:
+El minero móvil de oxígeno desentierra el regolito y lo transporta al oxígeno
+Planta de Procesamiento.  Se necesitan tres mineros para abastecer cada procesamiento LLOX
+Planta.
+
+Necesidades de reabastecimiento: 10 kg/mes
+Potencia necesaria: 50 kWe
+Mano de obra: 16
+Tasa de minería: 15000 TM de regolito/mes
+
+PLANTA DE PROCESAMIENTO DE HELIO-3:
+Instalación de extracción/procesamiento de helio-3.  Este es un minero móvil y
+procesador.  El helio-3 está disponible en cantidades tan pequeñas que el
+El volumen de regolito que debe procesarse es extremadamente grande.
+
+Necesidades de reabastecimiento: 100 kg/mes
+Potencia necesaria: 200 kWe
+Mano de obra: 20
+Tasa de producción: 3 kg/mes
+
+PLANTA DE FABRICACIÓN DE ELECTRÓNICA:
+Planta para la producción de componentes electrónicos a partir de materiales lunares.
+Los productos electrónicos producidos en la Luna tienen que competir con los producidos en
+las estaciones espaciales y en otras bases lunares.
+
+Necesidades de reabastecimiento: 5000 kg/mes
+Potencia necesaria: 1000 kWe
+Fuerza humana: 80
+Producción unitaria: 1000 unidades/mes
+
+PLANTA DE PROCESAMIENTO DE MATERIALES:
+Planta para producir células solares a partir de materiales lunares.
+
+Necesidades de reabastecimiento: 1000 kg/mes
+Potencia necesaria: 200 kWe
+Mano de obra: 40
+Tasa de producción: 500 células solares/mes
+
+INSTALACIONES DE CONTROL TÉRMICO
+
+RADIADOR:
+Los radiadores son el componente principal del control térmico básico.
+sistema.  Un fluido intercambiador de calor circula por todos los edificios en
+la base y luego se canaliza a los radiadores donde se intercambia el calor y
+irradiado al espacio.
+
+Necesidades de reabastecimiento: 10 kg/mes
+Potencia necesaria: 0 kWe
+Mano de obra: 1
+Calor rechazado: 5000 kWe
+
+
+APÉNDICE 2
+
+PISTAS DE JUEGO
+EMPEZAR DESDE CERO
+Cuando comienzas cada nuevo escenario, tu tripulación base está formada por TÚ:
+período.  Entonces, una vez que haya seleccionado su sitio, comience de manera simple.  después
+En definitiva, la NASA sólo le ha dado una cantidad limitada de dinero en efectivo para empezar.
+Coloque un SSCM, un RADIADOR y quizás un ARRAY FOTOVOLTAICO.  esto
+será más que suficiente para poner las cosas en marcha.  A continuación, revisa tu
+necesidades de la población y consulte el APÉNDICE para conocer la capacidad y la tripulación del SSCM.
+requisitos para las unidades térmicas y de energía (consulte el ejemplo a continuación).
+
+Con una pequeña base de operaciones establecida, su próxima tarea es comenzar
+producir algo que pueda venderse: el oxígeno es el más abundante.
+El oxígeno se encontrará en concentraciones de hasta el 40 por ciento, por lo que cuanto mayor sea
+Cuanto más concentración, mejor será tu productividad.  Una vez que haya localizado un
+sitio minero adecuado, construya una PLANTA LLOX y déle al menos un LLOX
+MINERO.  Ahora, verifique rápidamente los requisitos de tripulación para toda la instalación.
+Planta, Minero, Energía y Radiador - y aumente su personal y vivienda
+respectivamente.  No es necesario colocar viviendas en el sitio de la instalación, pero
+puedes si quieres.
+
+Con estos elementos en su lugar, marque la casilla PRODUCTIVIDAD debajo
+OPERACIONES.  Debería ver cómo el nivel de productividad de LLOX aumenta desde
+cero, lo que significa que tienes productos para vender (marca la casilla MERCADOS).
+
+Ahora necesitas mantener contentos a tus mineros.  Si no tienes suficiente efectivo
+Para construir las estructuras que necesitas, vende parte o todo tu inventario de oxígeno.
+Y controle su REABASTECIMIENTO al comienzo de cada nuevo año.  DEBES reabastecerte
+tu base.  Si no logra reabastecerse, su extracción y procesamiento
+las instalaciones se estropearán y su productividad disminuirá, lo que deja
+usted sin inventario para vender cuando lo necesite.  Lo notarás más a menudo
+que no, el reabastecimiento destruirá su saldo de efectivo.  Esto es cuando tu
+Necesitas vender tu inventario y luego agregarlo a tu base.  Consulta la DEMANDA
+gráfico debajo de MERCADOS para ver qué se necesita, luego seleccione un
+instalación y colóquela de la misma manera que las unidades anteriores.
+
+La siguiente instalación que debes construir es COMUNICACIONES.  hasta
+En este punto del escenario, tu BARRA DE INFORMACIÓN amarilla se ha mantenido
+inoperativo.  Colocar una instalación de COMUNICACIONES hará que su mercado
+información que fluye para que puedas mantener un ojo constante en los precios sin
+accediendo a las casillas Vender o DEMANDA.  La BARRA DE INFORMACIÓN también te avisa
+de algunos elementos que afectarán su productividad o mercado
+productividad.  La construcción de plataformas de aterrizaje hará que las operaciones del módulo de aterrizaje sean más seguras.
+reduciendo las posibilidades de un accidente.
+
+NEGOCIAR UNA HUELGA
+Si no mantienes contentos a tus mineros, empezarán a quejarse... y un
+La huelga de mineros puede arruinarlo todo.  Colocando un INVERNADERO y una RECREACIÓN
+CENTRO en su base para proporcionar a la tripulación alimentos frescos y algo para
+hacer cuando no están trabajando.  Asegúrate de revisar la tripulación, el alojamiento,
+requisitos de energía y térmicos para cada módulo, y aumentarlos cuando
+necesario.  DEBES equilibrar estos factores cada vez que amplías tu base,
+o la productividad comenzará a disminuir.
+
+TURISTAS - CUÁNDO Y DÓNDE CONSTRUIR HOTELES
+En algún momento, es posible que decidas iniciar un negocio turístico.  Colocando un
+HOTEL funciona de la misma manera que cualquier otra estructura y requiere atención.
+a la tripulación, la potencia y el control térmico.  Puedes colocar un HOTEL en cualquier lugar de
+la parrilla de juego, pero es mejor seleccionar un sitio cerca de algún
+rasgo selenográfico interesante: un grupo de cráteres, por ejemplo.
+Esta colocación no afectará sus ingresos turísticos, pero estos ingresos SÍ
+aumentará si localiza una o más de las "características" especiales.
+
+Los HOTELES no necesitan estar ubicados cerca de su base.  un solo
+DISPOSITIVO FOTOVOLTAICO y RADIADOR son suficientes para hacer funcionar la instalación, lo que
+elimina la necesidad de proximidad a la base.  Tampoco es necesario
+colocar una PISTA DE ATERRIZAJE en las proximidades del HOTEL.  Puede ser, sin embargo,
+perjudicial para sus operaciones turísticas si coloca sus HOTELES cerca de
+minas, plantas de procesamiento e instalaciones eléctricas, aunque sólo sea desde un punto de vista estético.
+punto de vista.
+
+GLOSARIO
+
+AI - Inteligencia Artificial - sistemas informáticos diseñados para imitar
+comportamiento inteligente como comprender idiomas, resolver problemas,
+y aprendizaje.
+
+ALS - Advanced Launch System - vehículo de lanzamiento diseñado por Air
+Fuerza para transportar cargas útiles de 50 toneladas métricas a LEO.
+
+APOLO - Misiones lunares tripuladas por Estados Unidos realizadas a finales de los años 1960 y principios
+Década de 1970; condujo a los primeros alunizajes.
+
+BASE: un conjunto permanentemente ocupado de edificios o refugios que proporcionan
+soporte vital e instalaciones de trabajo.
+
+BIOSFERA: un sistema ecológico cerrado en el que los sistemas biológicos proporcionan
+apoyo mutuo y reciclaje de agua, aire y alimentos.
+
+CELSS - Sistema de soporte vital ecológico cerrado - mecánico o biológico
+sistema que recicla el agua, el aire y los alimentos necesarios para sustentar a un ser humano.
+tripulación de una nave espacial, estación espacial o base lunar.
+
+CRÁTER: depresiones profundas formadas por impactos de meteoritos.
+
+ECLSS - Sistemas de control ambiental y soporte vital - sistemas mecánicos
+que mantiene el clima, los niveles de oxígeno y los niveles de agua utilizables para la vida.
+apoyo.
+
+ELV - Vehículo de lanzamiento desechable - cohete no reutilizable.
+
+ESA - Agencia Espacial Europea
+
+EVA - Actividad Extra-Vehicular - un paseo espacial
+
+LADO LEJOS: el lado de la Luna que no mira hacia la Tierra.
+
+RAYOS GAMMA: radiación electromagnética emitida por desintegración radiactiva; más
+mortal que los rayos X.
+
+GEO - Órbita terrestre geoestacionaria: una órbita circular (altitud de aproximadamente
+22300 millas sobre la superficie de la Tierra y una inclinación cercana a 0 grados) en
+que un objeto se mueve alrededor de un planeta al mismo ritmo que la Tierra
+gira, haciéndolo parecer estacionario con respecto a los puntos de la superficie.
+la superficie del planeta.
+
+GTO - Órbita de Transferencia Geosincrónica - órbita diseñada para tomar un satélite
+de LEO a GEO.
+
+TUBOS DE CALOR: tubos sellados llenos de un fluido que puede vaporizarse y
+luego se condensa para alejar el calor del hardware vital.
+
+HELIOSFERA: región del espacio en la que se producen los efectos de la radiación solar del Sol.
+Se puede sentir el viento y el campo magnético interplanetario.
+
+HELIO-3: un compuesto de helio utilizado como combustible más seguro para reactores de fusión;
+encontrado en el regolito lunar.
+
+HLLV - Heavy Lift Launch Vehicle - vehículo de lanzamiento diseñado para transportar 100
+toneladas métricas a LEO.
+
+IUS - Inertial Upper Stage - etapa superior del cohete diseñada para propulsar
+cargas útiles desde LEO a órbitas más altas.
+
+LEM - Módulo de Excursión Lunar - nombre de los vehículos de aterrizaje con ascenso
+Etapas utilizadas en las misiones Apolo.
+
+LEO - Órbita terrestre baja: órbita terrestre con una altitud máxima de aproximadamente
+1.000 kilómetros.
+
+PUNTOS DE LIBERACIÓN: puntos en el espacio en los que las fuerzas gravitacionales de
+Atraer el equilibrio de los cuerpos, permitiendo que un objeto permanezca en el punto si
+colocado allí con la velocidad correcta (también llamados puntos de Lagrange).
+
+LLOX - Oxígeno líquido de origen lunar.
+
+SONDAS LUNA - serie de sondas de reconocimiento lunar lanzadas por el
+U.R.S.S. entre 1959 y 1976.
+
+DÍA LUNAR: cantidad de tiempo que le toma a la Luna girar una vez con
+respeto al sol; 27,3 días terrestres.
+
+MASS-DRIVER: un dispositivo acelerador electromagnético utilizado para propulsar
+material en órbita desde la superficie de un planeta (o luna).
+
+MICROGRAVEDAD: nivel de gravedad extremadamente bajo (cerca de gravedad cero)
+
+MIR: estación espacial soviética de tercera generación
+
+TM - Tonelada métrica (1000 kg)
+
+NASA - Administración Nacional de Aeronáutica y del Espacio
+
+NASDA - agencia espacial japonesa
+
+OMV - Vehículo de maniobra orbital: una nave espacial diseñada para mover otros
+naves espaciales en órbita y encargarse de las operaciones de reabastecimiento de combustible.
+
+OUTPOST: un refugio inicial erigido en la superficie de un planeta para proporcionar
+Refugio temporal para la tripulación.
+
+PAM - Módulo de asistencia de carga útil: pequeño cohete de etapa superior utilizado para impulsar
+satélites desde LEO a órbitas más altas.
+
+SONDAS RANGER: serie de sondas de reconocimiento fotográfico estadounidenses enviadas al
+Luna a principios de los años 1960.
+
+REGOLITO: mezcla de suelo y fragmentos de roca que se encuentran en la superficie del
+Luna.
+
+SEI - Iniciativa de Exploración Espacial - plan propuesto por el Presidente Bush para
+establecer una estación espacial tripulada, una base lunar tripulada y una
+misión a Marte.
+
+SPACEPORT: centro de transporte orbital que proporciona instalaciones para
+transferir tripulación entre naves espaciales y proporcionar reparación y reabastecimiento de combustible
+servicios para naves espaciales.
+
+IMPULSO ESPECÍFICO: una medida del rendimiento del motor calculada dividiendo
+el empuje del motor por el producto del caudal másico de combustible y la
+constante de aceleración gravitacional.
+
+SSCM - Módulo de comunicación de la estación espacial - módulo habitacional diseñado
+para uso en la Estación Espacial Freedom; Se puede utilizar como módulo de habitación.
+en la Luna.
+
+SSF - Space Station Freedom - La estación espacial estadounidense se lanzará en el
+mediados de los años 1990.
+
+SHUTTLE: vehículo orbital reutilizable que se lanza con la ayuda de
+dos propulsores de cohetes sólidos y un tanque de combustible principal que alimenta el combustible al
+motores del orbitador; también conocido como STS - Sistema de Transporte Espacial.
+
+SONDA SURVEYOR: las primeras sondas lunares estadounidenses se lanzaron a mediados de los años 1960 para
+analizar posibles lugares de aterrizaje para las misiones Apolo; suelo realizado
+análisis.
+TELE-OPERADO: un sistema, como un taladro o una nave espacial, que puede ser
+controlado remotamente.
+
+Fin.

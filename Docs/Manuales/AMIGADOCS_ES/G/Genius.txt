@@ -1,0 +1,520 @@
+1. ¿Cuál es el objetivo de Genius?
+
+Genius es un nuevo juego de combinación tridimensional.
+Tú, como jugador, tienes la tarea de utilizar toda tu inteligencia para explorar el
+Estructuras de los cubos.
+Cada cubo tiene tres lados cuadrados de colores visibles. Ahora tienes que explorar 
+qué lado del cuadrado tiene qué color.
+
+2. Cómo jugar Genio
+
+ 2.1 Definiciones
+
+Primero tenemos que definir algunos términos, que aparecen en esta instrucción. después
+que te explicamos el juego en sí.
+
+Elemento: un lado cuadrado de un solo color del cubo.
+
+Molécula: un cubo que consta de tres lados cuadrados de colores (elementos)
+
+Combinación: consulte las imágenes 1, 2, 3, 4, 5
+                                 Foto 1
+     Yo----yo yo----yo
+     I I---------I I 1 = Molécula, 2 = Combinación
+     Yo----Yo 2 Yo----Yo
+       1
+
+Estructura de un virus: consta de varias moléculas (cubos), que son
+conectados por diferentes combinaciones. La imagen 1 muestra la estructura más simple.
+de un virus, que consta de 2 moléculas, 1 combinación, 6 elementos (= 2
+moléculas).
+Las estructuras complicadas de un virus constan de varias combinaciones, que
+parcialmente entrelazado.
+Ver fotos 2, 3, 4, 5.
+
+  
+ Mismos elementos (a, b, c)
+       			
+		     Combinación 1 
+                          /
+          /-----/yo / /-----/yo                     
+         /b/yo/ /e/yo           
+        /-----/ ================/-----/ Yo            
+        Yo a Ic / Yo d Si /                     
+        Yo yo / Yo yo /              
+        -------/ -------/
+           ||
+           ||------- Combinación 2
+           ||
+           ||        Imagen 2: Estructura de un virus que consta de dos
+         /-||--/I combinaciones con los mismos elementos a,b,c.
+        /h || / yo
+       /-----/ yo
+       yo g ii /
+       yo yo /
+       -------/
+
+
+            |==========================| 
+	    ||	          |          || 
+            ||            |          ||         
+          /-||--/yo |       /--||-/yo                     
+         /b/yo |      /e/yo           
+        /-----/ Yo |     /-----/ yo            
+        Yo un Ic / |     Yo d si /                     
+        yo yo / |     yo yo /              
+        -------/ |     -------/
+           ||             |
+           ||------- Combinación directa 
+           ||
+           ||        Imagen 3: Estructura de un virus que consta de un
+         /-||--/I combinaciones con nueve elementos.
+        /h || / yo
+       /-----/ yo
+       yo g ii /
+       yo yo /
+       -------/
+
+
+
+            |==========================| 
+ D C--------||	                     || 
+ yo o ||                       ||         
+ r n /-||--/I /--||-/I                     
+ e n / b / I / e / I           
+ c e /-----/ ================/-----/ I            
+ t c I a Ic / |     Yo d si /                     
+   t yo yo / |     yo yo /              
+   yo -------/ |     -------/
+   o ||             |
+   n-------||        Combinación 2 
+           ||
+   1 ||        Imagen 4: Estructura de un virus que consta de un
+         /-||--/I combinación directa (1) y una normal
+        /h || / Yo combinación (2). La combinación 2 es completamente
+       /-----/ Lo incluí en la combinación 1.
+       yo g ii /
+       yo yo /
+       -------/
+
+
+  					    /-----/yo
+  					   /k/yo
+  					  /-----/ yo
+  				          Yo j Il /
+				          yo/yo/
+     				          -//----/
+                                          //           
+                  Combinación 2 ----------//         
+                                        //         
+                                       //            
+                                      // Mismos elementos d,e,f    
+          /-----/yo /-----/yo                     
+         /b/yo/e/yo
+/-----/ ================/-----/ =================|            
+        Yo un Ic / |       Yo d Si / ||        
+        yo yo / |       Yo yo / ||
+        -------/ |       -------/ ||
+            		|			       ||
+		Combinación 1 (directa) ----------------||
+						       ||
+  						       ||
+ 	Imagen 5: Estructura del virus que consta ||
+	       de una combinación directa (1) y un /-||--/I
+               combinación normal (2) con el mismo /h || / yo
+  	       elementos d,e,f.			   /-----/ yo
+  					           yo g ii /
+					           yo yo /
+     				        	   -------/
+
+
+
+Las combinaciones directas entran por un lado cuadrado de un cubo y salen por el lado opuesto.
+lado cuadrado y así formar una combinación directa. No cometas el error y piensa
+que los elementos a,b,c - d,e,f - j,k,l también forman una combinación directa. Foto 4 
+indica la misma combinación directa que en la foto 3. Solo tiene un adicional 
+combinación normal de los elementos a,b,c - d,e,f. Todas las estructuras complicadas son
+construido de la misma manera.
+
+2.2 Resultados
+ Para conocer el tipo de elementos que presentan los colores, el
+ La computadora genera un resultado para cada combinación.
+ Para cada combinación de una estructura de un virus, la computadora produce un resultado:
+ ventana, que consta de tantos cuadrados como elementos se presentan a la vez 
+ combinación. La imagen 6 muestra una ventana de resultados para una combinación normal, la imagen 7 muestra
+ una ventana de resultados para una combinación directa.
+
+ ------------- Imagen 6: Ventana de resultados de una combinación normal (6 elementos)
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+
+
+ ------------- Imagen 7: Ventana de resultados de una combinación directa (9 elementos)
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+
+ La computadora coloca las ventanas de resultados de manera que usted pueda ver 
+ a qué combinación pertenecen (mira las fotos 8,9 y 10). Las flechas muestran a
+ a qué combinaciones específicas pertenecen las ventanas de resultados.
+       			
+		      
+                           
+          /-----/yo /-----/yo ---------          
+         /b/yo/e/yo |   |   |   
+        /-----/ =============/-----/ Yo /_____ ---------          
+        I a Ic / I d Si / \ |   |   |           
+        Yo yo / Yo yo / ---------  
+        -------/ -------/ |   |   |
+           ||                                     ---------
+           ||
+           ||
+           ||        
+         /-||--/yo	
+        /h || / yo
+       /-----/ yo
+       yo g ii /
+       yo yo /
+       -------/ Foto 8
+
+         /\
+          | 
+          |
+     
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+
+
+
+            |======================|
+            ||                   ||
+            ||                   ||
+          /-||--/yo /-||--/yo ---------          
+         /b|| /yo/e|| /yo |   |   |   
+        /-----/ =============/-----/ Yo /_____ ---------          
+        I a Ic / I d Si / \ |   |   |           
+        Yo yo / Yo yo / ---------  
+        -------/ -------/ |   |   |
+           ||                                     ---------
+           ||
+           ||
+           ||        
+         /-||--/yo	
+        /h || / yo
+       /-----/ yo
+       yo g ii /
+       yo yo /
+       -------/ Foto 9
+
+         /\
+          | 
+          |
+     
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+
+
+     
+                                         -------------
+    				         |   |   |   |
+    				         -------------
+  				         |   |   |   |
+ 				         -------------
+					       |
+					       |	
+					      \/
+/-----/yo
+  					   /k/yo
+  					  /-----/ yo
+  				          Yo j Il /
+				          yo/yo/
+     				          -//----/
+                                          //           
+                                         //         
+                                        //         
+                                       //            
+                                      //     
+          /-----/yo /-----/yo                     
+         /b/yo/e/yo           
+        /-----/ ================/-----/ =================|            
+        I a Ic / I d Si / ||        
+        Yo yo / Yo yo / ||
+        -------/ -------/ ||
+            					       ||
+		                                       ||
+						       ||
+  						       ||
+ 	                                               ||
+	                                             /-||--/yo
+                                                    /h || / yo
+  	                   			   /-----/ yo
+  		Foto 10 I g Ii /
+					           yo yo /
+     				        	   -------/
+
+                                                     /\
+      						      | 
+      						      |
+     
+         					-------------
+       						|   |   |   |
+       						-------------
+       						|   |   |   |
+       						-------------
+					        |   |   |   |
+					        -------------
+
+
+La computadora que conoce la mezcla química (coloreada) real de la estructura
+de las moléculas del tipo equivalente del virus, las compara con las
+colores ingresados por usted.
+Por cada elemento (color) descubierto correctamente pero ubicado en el lugar equivocado
+posición, la computadora coloca un punto blanco en la ventana de resultados. 
+Por cada elemento (color) descubierto correctamente y ubicado a la derecha 
+posición, la computadora coloca un punto negro en la ventana de resultados.
+Los colores que no se descubren no se representan en la ventana de resultados. 
+El jugador tiene que descubrir mediante el pensamiento lógico qué colores se supone que
+representarse en la ventana de resultados: ejemplos de algunos resultados:
+
+
+
+          /-----/yo /-----/yo -----          
+         / /yo/ /yo | X | = negro 
+        /-----/ ================/-----/ Yo -----  
+        Yo yo / Yo yo / | O | = blanco          
+        Yo yo / Yo yo / -----   
+        -------/ -------/ |   | = vacío
+						    -----  
+        ---------
+        | X | X |     Imagen 11: Se supone que los seis elementos son rojos.
+        ---------
+        |   |   |
+        ---------
+        |   |   |
+        ---------
+
+Ejemplo 1: en la imagen 11 ves dos puntos negros en la ventana de resultados, eso significa
+que 2 colores se descubran directamente y se ubiquen en la posición correcta.
+Como todos los elementos tienen el mismo color en ese caso se sabe que dos de los
+seis elementos tienen este color y están ubicados correctamente. Los otros cuatro 
+Aún se desconocen los elementos. Para saber cuáles de los seis elementos
+están ubicados correctamente hay que hacer más pruebas.
+
+
+
+          /-----/yo /-----/yo -----          
+         / /yo/ /yo | X | = negro 
+        /-----/ ================/-----/ Yo -----  
+        Yo yo / Yo yo / | O | = blanco          
+        Yo yo / Yo yo / -----   
+        -------/ -------/ |   | = vacío
+						    -----  
+        ---------
+        | X | O |     Imagen 12: Se supone que el cubo de la izquierda es rojo.
+        --------- Se supone que el cubo derecho es verde.
+        |   |   |
+        ---------
+        |   |   |
+        ---------
+
+
+
+
+Ejemplo 2: en la imagen 2, ve un punto blanco y negro en la ventana de resultados.
+Eso significa que un color se descubre y se localiza correctamente (punto negro).
+El otro color se descubre correctamente pero no se localiza correctamente (blanco).
+Ahora tienes cuatro posibilidades: 
+
+ 1. Dos cuadrados laterales rojos son correctos. Uno está ubicado correctamente a la izquierda.
+    cubo y el otro tiene que estar en el cubo correcto.
+
+ 2. Dos cuadrados laterales verdes son correctos. Uno está ubicado correctamente a la derecha.
+    cubo y el otro tiene que estar en el cubo de la izquierda.
+
+ 3. Se descubre un cuadrado lateral rojo y se ubica correctamente en el cubo derecho.
+    Un cuadrado lateral verde se descubre correctamente pero no se localiza. Eso significa
+    que el cuadrado del lado verde tiene que estar en el cubo de la izquierda.
+
+ 4. Se descubre un cuadrado lateral verde y se ubica correctamente en el cubo derecho.
+    un cuadrado lateral rojo se descubre correctamente pero no se localiza. eso significa
+    que el cuadrado del lado rojo tiene que estar en el cubo correcto.
+
+Tienes que comprobar mediante pruebas adicionales cuál de estas posibilidades es la correcta.
+
+
+2.3 Fin del juego.
+
+ Cuando todos los elementos están ubicados y descubiertos correctamente, la ventana de resultados solo
+consta de puntos negros. Después de eso, la computadora anuncia la sustancia química.
+Fórmula del virus. ¡Después de eso podrás comenzar un nuevo juego!
+
+3. Uso
+
+3.1 Pantalla de menú
+
+Después de ingresar los códigos aparecerá la siguiente pantalla de menú.
+
+---------------------------------------------------------------------
+|                                                                         |
+|    |      |      |      |      |      |      |      |      |       |    |
+|    \/ \/ ​​\/ ​​\/ ​​\/ ​​\/ ​​\/ ​​\/ ​​\/ ​​\/ ​​|
+|                                                                         |
+|    O O O O O O O O O O |
+|                                                                         |
+|                                                                         |
+|   -------------------- ----------------------- ------------------- |
+|   |                  |   |                     |   |                 |  |
+|   |   Competencia |   |       Jugador: |   |   Juego normal |  |
+|   | 1 |   | 2 |   | 3 |  |
+|   -------------------- ----------------------- ------------------- |
+|                                                                         |
+|          ----------------- ------------------ -------------- |
+|          |               |   |                |  |            |         |
+|          |      Fin |   |       CUBO |  |    Inicio |         |
+|          |       4 |   |        5 |  |      6 |         |
+|          |               |   |                |  |            |         |
+|          ----------------- ------------------ -------------- |
+|                                                                         |
+|  ------------ -------------- ------------- ------------ ---------- |
+|  |          |  |            |  |           |  |          |  |        |  |
+|  |   Nota |  |   Eliminar |  |    Cargar |  |   Guardar |  |  Lista |  |
+|  | 7 |  | 8 |  | 9 |  | 10 |  | 11 |  |
+|  ------------ -------------- ------------- ------------ ---------- |
+|                                                                         |
+| ----------------------------------------------------------------------- |
+| |                                                                     | |
+| |   ¡MONKES NEGROS!  Por favor ingrese su nombre | |
+| |                                                                     | |
+| ----------------------------------------------------------------------- |
+|                                                                         |
+---------------------------------------------------------------------
+                                   Foto 13
+
+3.1.1 Selección de colores.
+
+ Aboii ves diez manchas de color. Puedes seleccionar los colores que se supone
+para ser utilizado durante el juego. Al hacer clic en el punto de color con la izquierda
+ botón del ratón la flecha vence, otro clic lo hace aparecer de nuevo.
+ En cualquier caso se deben activar al menos dos colores. 
+
+3.1.2 Opciones
+
+ Después de cargar el juego se activa la opción "competencia". Cuando haces clic
+ este icono la pantalla cambia al estándar respectivamente "Conversión". /icono 1
+
+3.1.2.1 Competición
+
+ ¡Juegas a todo o nada! Se depositan 20 combinaciones de colores para cada nivel.
+ y estamos esperando ser resueltos por usted. Alguien que explora todas las combinaciones.
+ de un tipo de virus correctamente en el menor tiempo tiene derecho a llamarse a sí mismo
+ "GENIO". Recuerde: "¡Todo o nada!" Para la resolución no se mostrará después
+ la competencia".                           
+
+3.1.2.2 Estándar
+
+ ¿Quieres tener un nuevo desafío cada vez? Cada juego tiene un color diferente.
+ combinaciones. Leerás el capítulo 3.1.4 "versiones" cuyas dificultades se
+ esperándote en la opción "estándar".
+
+3.1.2.3 Conversión
+
+ ¿Tienes los nervios fuertes? ¿Estás totalmente concentrado? Si no, omite esto
+ párrafo y no se amontone con "conversión". Si es así, pruébalo, habrá
+ sorpresa viciosa. No vamos a contar más sobre esto esta vez. De todos modos, sólo
+ juega la conversión cuando juegas Genius antes. Pero piensa en esto: para cada 
+ La estructura existe una solución que nunca se rinde. 
+
+3.1.3 Nombre del Jugador
+ 
+ Al lado del ícono de opción está el ícono del nombre del jugador. Después de cargar
+ el nombre ALMISOFT se imprimirá en este icono. Al hacer clic con la izquierda 
+ Con el botón del mouse, el jugador puede ingresar su nombre.
+
+3.1.4 Versiones
+
+ Las siguientes versiones (icono 3) se pueden seleccionar con el botón del ratón, si
+ ha elegido estándar o conversión.
+
+3.1.4.1 Juego normal
+
+ ¿Tienes tiempo y quieres jugar un jueguito? ¡Aquí tienes tiempo ilimitado!
+ Esta versión es especialmente para novatos.
+
+3.1.4.2 Intentos máximos
+
+ ¿Eres optimista o tienes agallas? Ahora tienes que resolver una estructura.
+ con una determinada cantidad de intentos. Cuando eliges esta versión, aparece una nueva línea en
+ Aparecerá el botón de la pantalla. Puede seleccionar un máximo de 29 intentos.
+
+3.1.4.3 Hora de pensar
+
+ ¿Quieres tener estrés? ¡Puedes tenerlo! Por cada intento tienes una cantidad
+ de tiempo que has elegido tú mismo.
+
+3.1.4.4 Tiempo máximo
+
+ ¿Quieres tener un límite de tiempo? Dentro de la duración del juego elegido por 
+ usted mismo tiene que explorar una estructura completa. Para configurar la hora haga clic 
+ "Min" o "SEC" y cambiar con "+" o "-". 
+
+3.1.5 Fin
+
+3.1.6 Niveles
+
+ El icono en el medio de la imagen 13 (CUBO) muestra la estructura del virus que
+ tienes que jugar. Al hacer clic puedes cambiar las estructuras. Fíjate que puedes
+ Elija diferentes estructuras por opción.
+
+3.1.7 Inicio
+
+3.1.8 Nota
+
+ ¿Tienes una impresora? Si es así, puede imprimir una nota. fin
+
+3.1.9 Eliminar/Cargar/Guardar
+
+3.1.10 Lista
+
+ Aparece la lista de puntuaciones más altas.
+
+ 4. la pantalla del juego
+
+La pantalla del juego consta de 20 cuadrados en 5 columnas y 4 filas. el primero
+La estructura aparecerá en la parte superior izquierda. Tienes que llenarlo de color.
+Detrás de la última foto mostrada aparece una paleta de colores con los colores actuales.
+ e íconos que incluyen las letras E, S, R, A, >.
+Los elementos de la primera estructura tienen el primer color. este color seria
+ser blanco, si hubieras jugado con los diez colores.
+
+Al hacer clic con el botón derecho del ratón puede seleccionar un color. el raton
+El puntero ahora tiene el color elegido y con él puedes rellenar tantos elementos como quieras.
+como quieras. Esto lo haces haciendo clic en el elemento con el botón izquierdo del mouse. 
+botón. Al hacer clic en '>' con el botón izquierdo del ratón, el ordenador realiza la
+resultados y coloca los puntos en la ventana de resultados. Al mismo tiempo un nuevo
+Aparece una imagen en la que puedes introducir los colores del siguiente intento.
+los colores con respecto a los resultados anteriores para resolver todos los elementos de la
+estructura rápidamente. El icono R convierte la estructura actual a la anterior.
+estructura. El icono A cambia todos los elementos de la estructura al color de
+el último color elegido, que también se muestra con el puntero del ratón.
+El icono E significa Salir del juego. Si sales, la solución aparece en una nueva ventana.
+(excepto el modo competición). Cuando cierras esta ventana, aparece una ventana de comentarios.
+aparecerá. Al hacer clic en la ventana de comentarios, verá nuevamente la pantalla del menú.
+El ícono S solo significa guardar juego.
+
+
+
+
+ Esta instrucción fue traducida y simplificada por Andy de Black Monks.

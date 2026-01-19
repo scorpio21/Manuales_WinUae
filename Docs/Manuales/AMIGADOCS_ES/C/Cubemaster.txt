@@ -1,0 +1,330 @@
+CUBEMASTER
+    
+    Bienvenido a CubeMaster, un juego de disparos lleno de acción y con una gran cantidad de
+    estrategia también.  Este documento proporciona información que necesitará saber.
+    eso no se explica por sí mismo desde el propio juego.
+    
+    1. Nuestro contrato
+    Tú y yo tenemos un acuerdo.
+    
+    Por mi parte, trabajé la mayor parte de diez meses (intermitentemente, pero hubo
+    estuvo bastante "activo", te lo puedo asegurar) en CubeMaster, lo que lo convierte en un buen
+    Juego equilibrado y divertido.  CubeMaster es mi primer intento de juego y mientras
+    Otros juegos para Amiga pueden ser más llamativos en algunos aspectos.
+    CubeMaster debería obtener altas calificaciones en jugabilidad y entretenimiento
+    valor.  Esto es lo que quería lograr.
+    
+    Por su parte del acuerdo, no debe distribuir CubeMaster a
+    otros ni recibirlo usted mismo de otra persona a través de
+    significa.  Esto no es una amenaza.  Es un acuerdo.  Es un fideicomiso.
+    
+    Mientras podamos seguir pagando los salarios de los empleados de ASDG y
+    Si mantenemos nuestras computadoras secas poniéndoles un techo, nos arruinaremos
+    bollos para brindarle productos y servicios de calidad.  La piratería lo hace
+    Es muy difícil para empresas como ASDG continuar con sus esfuerzos y debería
+    esos esfuerzos cesan, lo mejor de lo que hace que Amiga sea personal
+    ordenador tan dinámico (la creatividad, la calidad y el cariño de los pequeños
+    empresas como ASDG) también cesarán.
+    
+    2. Requisitos de la máquina CubeMaster funcionará en cualquier Amiga
+    computadora personal con un mínimo de 512K de memoria de chip y versión 1.2
+    de Kickstart.  Se recomienda encarecidamente un joystick, pero no es obligatorio.  
+    El sonido juega un papel importante en CubeMaster, así que asegúrate de que tu Amiga esté
+    conectado a un conjunto de altavoces.
+    
+    3. Configuración de la máquina y multitarea
+    
+    Si está utilizando un joystick, conéctelo al puerto secundario del mouse. 
+    CubeMaster realiza múltiples tareas de forma limpia y se puede iniciar desde WorkBench o
+    la CLI. El juego también maneja correctamente la memoria externa.
+    
+    En una máquina 512, CubeMaster ocupará la mayor parte de la memoria disponible.
+    Por lo tanto, si bien es posible realizar múltiples tareas, no será práctico.
+    
+    En máquinas con más de 512K, CubeMaster puede realizar múltiples tareas fácilmente
+    con otros programas.  De hecho, al hacer clic en una pantalla que no sea
+    CubeMaster pondrá a CubeMaster en modo de pausa (excepto cuando haga clic en
+    en la pantalla de título, en cuyo caso la pantalla de selección de juego de CubeMaster
+    de repente salta hacia ti)
+    
+    4. El disco de distribución CubeMaster
+    El disco de distribución de CubeMaster también contiene el juego CubeMaster.
+    como los archivos que el juego requiere para ejecutarse.  El juego CubeMaster en sí es
+    en el directorio raíz del disquete y es visible desde Workbench.
+    
+    También es visible desde Workbench el cajón (o directorio) de CMScore. 
+    Este cajón contiene tres archivos que constituyen la puntuación de CubeMaster.
+    instalación.
+    
+    CM
+    Le velScores es la forma legible por máquina de los mejores tiempos a través de
+    cada uno de los 100 niveles de CubeMaster.  Si falta este archivo, lo hará
+    recrearse automáticamente.  Este archivo no es visible desde el
+    Banco de trabajo.
+    
+    CM
+    TopTen es la forma legible por máquina de los diez mejores puntajes que
+    incluso se han alcanzado (hasta ahora) para juegos completos.  Si este archivo es
+    faltante se recreará automáticamente.  Este archivo no es visible
+    desde el banco de trabajo.
+    
+    ScoreReport es la condensación legible por humanos de los dos archivos anteriores. 
+    Este archivo es visible desde el Workbench y se puede leer mediante doble
+    haciendo clic en su icono.
+    
+    El directorio CMTitle contiene la pantalla de título de CubeMaster.  fue
+    hecho por Gred Tsadillas y es material con derechos de autor y NO en el
+    dominio público. La pantalla de título debe estar presente para que el juego pueda
+    operar.  El directorio CMTitle no es visible desde Workbench.
+    
+    El directorio CMSound contiene los sonidos necesarios para CubeMaster.  Estos
+Los sonidos fueron hechos por mí y realmente supusieron mucho trabajo.  Estos sonidos son
+    NO es de dominio público y también es material protegido por derechos de autor.
+    
+    El sonido del reloj Coockoo proporcionado por Rick Rae y The Fabulous Sound
+    Los efectos fueron grabados en vivo en la sala de control de WEVA Radio. 
+    Gracias Rick, quería usar más pero simplemente no había espacio.
+    
+    Todos los archivos de sonido DEBEN estar presentes para que el juego funcione.
+    
+    El programa de Créditos visible desde el Workbench en el directorio raíz de
+    El disco CubeMaster reproducirá un mensaje pregrabado agradeciendo a varios
+    personas por su contribución al desarrollo de CubeMaster. 
+    Iniciar Créditos simultáneamente con otro programa CubeMaster es
+    No se sugiere ya que los archivos involucrados son bastante grandes y causarán un
+    Gran retraso en la carga.
+    
+    El programa CopyProtection visible desde el Workbench en la raíz
+    El directorio del disco CubeMaster reproducirá un mensaje pregrabado desde
+    personas que trabajan en ASDG Incorporated agradeciéndoles por no quitarnos
+    su sustento.  Al igual que con los créditos, espera a que se complete este programa.
+    antes de empezar otro ya que golpear los disquetes te hará envejecer
+    antes de tu tiempo.
+    
+    5. Configurar CubeMaster en el disco duro
+    Para que CubeMaster funcione debe saber dónde encontrar los archivos que necesita. 
+    La secuencia de inicio en el disco de distribución de CubeMaster contiene el
+    siguientes líneas:
+    
+    asignar CMSound: CubeMaster:CMSound
+    asignar CMScore: CubeMaster:CMScore
+    asignar CMTitle: CubeMaster:CMTitle
+    
+    Para instalar CubeMaster en un disco duro, copie todos los archivos de CubeMaster a su
+    disco duro usando la organización que prefieras (lo más fácil es usar
+    la organización de tres directorios que he usado).
+    
+    Luego, para ejecutar CubeMaster, asegúrese de haber ejecutado asignaciones similares a
+    los anteriores (solo modificados para adaptarse a la ubicación en el disco duro donde
+    los archivos realmente residen).
+    
+    6. Inicio del juego
+    Al ingresar a CubeMaster, se mostrará la pantalla de título.  cuando
+    el sonido de los CubeDrones rebotando comienza, sabes que CubeMaster ha terminado
+    cargando.
+    
+    CubeMaster alternará entre la pantalla de selección y el título.
+    pantalla aproximadamente una vez cada 10 a 11 segundos.  Al presionar cualquier tecla mientras el
+    Cuando se muestra la pantalla de título, aparecerá la pantalla de selección.
+    
+    Hay muchas cosas que pueden salir mal al iniciar CubeMaster. 
+    Por ejemplo, es posible que no haya suficiente memoria para el juego.  lo he intentado
+    para verificar cualquier eventualidad y si se encuentra algún tipo de falla,
+    Hemos intentado presentar informes de errores comprensibles y precisos.  Para
+    Por ejemplo, si no hay suficiente memoria disponible, CubeMaster le indicará
+    Hazlo y sal limpiamente.  Si un archivo no estaba disponible, CubeMaster lo
+    Te lo digo una y otra vez, sal limpiamente.
+    
+    7. Pantalla de selección
+    La pantalla de selección se explica por sí sola.  Desde aquí F6 hasta
+    F10 y la tecla E están habilitadas.
+    
+    E hará que CubeMaster salga después de escribir sus archivos de partitura.
+    
+    F10 hará que CubeMaster escriba una copia actualizada del
+    Archivo ScoreReport por si quieres verlo YA (recuerda que CubeMaster
+    ¡multitareas!) F9 te permite seleccionar el nivel inicial de juego.  esto
+    puede ser cualquier número entero del 1 al 100. Sin embargo, si no comienza
+    desde el principio (nivel 1) tu puntuación entre los diez primeros no se registrará
+    pero tu mejor tiempo lo hará.
+    
+    F8 le permite seleccionar su nombre para fines de puntuación.  Vuélvete loco.  si
+    Si no seleccionas tu propio nombre, tus archivos de partitura se llenarán de personas.
+    con el CubeMaster desconocido.  ¿Quién es el CubeMaster desconocido de todos modos?
+    
+    F7 te lleva a una pantalla de práctica donde puedes aprender a volar tu
+    Unidad de Movilidad Tripulada.  Sólo para hacer las cosas más interesantes algunas de las
+    Los tipos malos están habilitados aunque tus escudos no se debilitarán por
+    ellos.
+F6 inicia la ejecución de CubeMaster en el nivel especificado (nivel 1,
+    desde el principio, si no usaste F9 para alterar tu nivel inicial).
+    
+    8. Controlando el CubeMaster
+    Recuerda que estás en gravedad cero.  Una vez que comienzas a viajar en un
+    dirección, se requerirá una fuerza igual en la otra dirección para detenerse.
+    usted.
+    
+    Tus controles son:
+    El joystick hacia adelante (o las flechas hacia arriba en el teclado) activa su
+    cohetes delanteros.  Serás impulsado en cualquier dirección que
+    CubeMaster resulta estar frente a frente.
+    
+    El joystick hacia atrás (o la flecha hacia abajo en el teclado) activa su
+    cohetes retro.  Serás propulsado en cualquier dirección en la que te encuentres.
+    CubeMaster se encuentra frente a frente.
+    
+    El joystick derecho (o la flecha derecha del teclado) activa tu
+    Cohetes de actitud en el sentido de las agujas del reloj.  Girarás en el sentido de las agujas del reloj.
+    
+    El joystick izquierdo (o la flecha derecha del teclado) activa tu
+    Cohetes de actitud en sentido antihorario.  Girarás en sentido antihorario.
+    
+    El botón del joystick (o la barra espaciadora) activará tu cañón de partículas. 
+    A veces estarás en modo de reacción de masa igual.  Cuando en este modo
+    cuando disparas hacia adelante, retrocedes.  Hace las cosas bastante complicadas.
+    
+    También tienes un freno (la tecla B o el gadget "B").  Usando el freno
+    Le costará tiempo, así que úselo con discreción.
+    
+    El dispositivo P o la tecla P pausarán CubeMaster.  Estar en el tripulado
+    Unidad de Movilidad durante demasiado tiempo puede resultar incómodo.  Si sabes a lo que me refiero.  Cuando el juego esté en progreso, puedes usar la tecla F1 para
+    aumenta el volumen de los sonidos o el F2 para bajar el volumen.  O
+    Puedes mover la perilla de volumen de tu estéreo.
+    
+    Recuerda que estás en gravedad cero. Una vez que comienzas a viajar en un
+    dirección, se requerirá una fuerza igual en la otra dirección para detenerse.
+    usted.  (Dije esto antes, ¿no?)
+    
+    Se modelan las interacciones entre usted y los CubeDrones o los Bad Guys.
+    basado en la física del mundo real, por lo que controlar el CubeMaster en el juego real es
+    no es tan fácil como lo es en la pantalla de práctica (donde no hay
+    CuboDrones).
+    
+    9. Los CuboDrones
+    Hay dos tamaños de CubeDrone.  Grandes y pequeños.  romper lo grande
+    CubeDrones en los más pequeños.  Convierte a los más pequeños en polvo espacial. 
+    También hay siete CubeDrones de diferentes colores, cada uno con diferentes
+    propiedades.  Los CubeDrones grandes tienen "más" propiedades especiales que
+    pequeños del mismo color.
+    
+    Cuando "Reencarnation" está activado (lo que suele ser) pequeños CubeDrones si
+    no se destruye lo suficientemente rápido volverá a ser grandes CubeDrones que deben
+    romperse de nuevo.
+    
+    Los CubeDrones también cambian de color por sí solos si no les disparas
+    lo suficientemente rápido.  A veces esto es una ventaja para usted.  A veces no. 
+    Es una señal de que un CubeMaster está madurando cuando sabes cuál es cuál.
+    
+    Los Green CubeDrones son la única excepción a la regla del cambio de color. 
+    Esto, junto con el hecho de que los Green CubeDrones requieren múltiples golpes.
+    del cañón de partículas hacen que sea extremadamente frustrante tratar con ellos. 
+    Por lo general, encontrarás el último CubeDrone que te quede si eres un Greenie.  en el
+    equilibrio, rebotar contra un Greenie no te causa ningún daño.
+    
+    Los CubeDrones amarillos son un verdadero fastidio.  Tocarlos causará que todos tus
+    los controles se confundan durante algún período de tiempo.  sabes cuando
+    Te has sentido confundido cuando suena el reloj de cocina.  Los amarillos no
+    causar daño al escudo.  Destruir un CubeDrone amarillo disminuirá la
+    cantidad de tiempo que estás confundido.
+    
+    Cada disparo que disparas con tu cañón de partículas provoca que se acumule calor.
+    dentro de él.  Si el cañón se calienta demasiado, no podrás disparar hasta que se enfríe.
+    abajo.  Tocar Brown CubeDrones elevará la temperatura de tu
+    cañón de partículas, lo que hace que sea más probable que su cañón falle.
+Destruir un Brownine servirá para enfriar tu cañón, así que planifica tu
+    dispara bien.  Los Brown CubeDrones no afectan tus escudos.
+    
+    Los Blue CubeDrones son quizás los más peligrosos en cuanto a tocarlos
+    reduce su capacidad para defenderse.  Tocar un azul tiene una gran
+    probabilidad de causar la cantidad de partículas que su cañón de partículas puede
+    el control debe reducirse.  Sólo puedes tener cinco partículas en vuelo al mismo tiempo.
+    una vez.  Tocar un azul podría reducirlo a cuatro.  Luego a las tres. 
+    Y luego, destruir un Blue CubeDrone aumenta tu número máximo de
+    partículas en vuelo al mismo tiempo.  Entonces, si estás deprimido, espera Blues.
+    
+    Light Gray CubeDrones minará la fuerza de tu escudo si los tocas. 
+    Los escudos se han ido, tú te has ido.  Sin embargo, no te atacan tanto como Red.
+    CuboDrones.  Los CubeDrones gris claro se convierten en drones de diferentes colores
+    cuando los golpeas.  Todos los CubeDrones reencarnados comienzan como Light
+    Gris.
+    
+    Red CubeDrones agotará tus escudos más rápido de lo que te gustaría
+    experiencia.  También se diferencian de los otros CubeDrones en un
+    otra manera importante.  Es decir, cuando se utilizan otros CubeDrones grandes y de colores.
+    Destruidos, generan cuatro pequeños CubeDrones.  Cuando un gran Red CubeDrone
+    Cuando se destruye, se generan ocho pequeños CubeDrones.  Equilibra esto con
+    el hecho de que destruir Red CubeDrones es la única forma de reponer
+    tus escudos.
+    
+    Y por último, pero no menos importante, tu amigo, el Dark Grey CubeDrone.  Rebotando
+    en el Dark Grey CubeDrone no tendrá ningún efecto en tus escudos.  
+    Qué lindo.  Destruir un CubeDrone gris oscuro te otorga el Halo de
+    Desplazamiento.  Eso es realmente lindo.  El Halo de Desplazamiento cambia el
+    átomos en tu cuerpo lo suficiente como para permitir que CubeDrones pase correctamente
+    a través de ti.  Sin embargo, el Halo no dura para siempre, así que ten cuidado.  Además,
+    Los misiles lanzados por los malos están sintonizados a tu frecuencia atómica, no.
+    No importa en qué estado se encuentren tus átomos.
+    
+    10. Los malos
+    Como si simplemente navegar con tu CubeMaster no fuera lo suficientemente difícil allí
+    Hay algunos tipos malos bastante desagradables que salen de vez en cuando. 
+    Se presentarán ante ti, estoy seguro.
+    
+    Algunos tipos malos te seguirán a todas partes.  Otros bailarán el vals
+    por voluntad propia.  Algunos dispararán misiles CubeMaster en busca de misiles mientras
+    otros pueden ser ellos mismos CubeMaster en busca de misiles.  Tocar un mal
+    El chico nunca es bueno para tu salud.  Se sabe que paralizan a los desafortunados.
+    CubeMasters durante períodos prolongados de tiempo o tírelos como si fueran trapos
+    muñecas.  No es divertido.
+    
+    11. Otros pequeños detalles
+    Cada pantalla tiene una pantalla de introducción.  Léelo.  te lo dira
+    qué modos están presentes durante el siguiente nivel de juego. Reencarnación y
+    La reacción en masa igual se ha explicado antes.  El modo secuencial es un
+    Situación casi imposible en la que no se te permitirá destruir un
+    CubeDrone grande hasta que todos los CubeDrones pequeños hayan sido destruidos.  cuando
+    Si empiezas con unos cuantos CubeDrones grandes, este modo se vuelve bastante
+    difícil.  Afortunadamente, es raro.
+    
+    Por cierto, dejar un CubeDrone grande solo el tiempo suficiente resultará en
+    el milagro del nacimiento.  No es bonito.
+    
+    Las partículas disparadas por su cañón de partículas se degradan con la distancia.  Algunos
+    Las pantallas comienzan con partículas de mejor calidad (que duran más)
+    que otras pantallas.
+    
+    12. Tus instrumentos
+    El instrumento azul en la parte inferior de la pantalla es un medidor LED
+    contando el número máximo de partículas que puedes tener en vuelo a
+    una vez.  Esto es fácil de recordar ya que los Blue CubeDrones son los que
+    que afectan su recuento de partículas.
+    
+    El Instrumento Marrón es un medidor LED que indica el calor del cañón.  el
+    Cuanto más caliente sea tu cañón, más alto será el medidor hasta que comience a ponerse rojo,
+    entonces no puedes disparar en absoluto.  Esto es fácil de recordar ya que Brown
+    Los CubeDrones afectan el calor del cañón.
+El Instrumento Rojo es tu vida.  Indica el nivel de su
+    escudos.  Cuando esto se agote, usted también.
+    
+    Tu puntuación total se mostrará en todo momento.  Así como la puntuación
+    Serás premiado al final de la pantalla actual.  cubomaster
+    calcula la dificultad de cada pantalla y presenta una "mejor" puntuación
+    que cuenta atrás cada segundo.  Cuanto más tiempo te lleve
+    Completa la pantalla, menor será tu puntuación (incluso si es negativa).
+    
+    Se mostrará el número de nivel actual.  Algunos dicen que CubeMaster mantiene
+    Sin embargo, el tiempo pantalla por pantalla a efectos de puntuación.
+    
+    13. Puntuación
+    Golpear un CubeDrone grande aumenta un poco tu puntuación.
+    Golpear un pequeño CubeDrone añade más a tu puntuación.
+    Destruir a un chico malo añade mucho más a tu puntuación.
+    Terminar un nivel puede sumar o restar a tu puntuación (dependiendo de cómo
+    tiempo que te llevó completar el nivel).
+    
+    La puntuación total al final del juego puede hacerte ganar un lugar en el TopTen
+    historial de puntuaciones.   Sin embargo, se compara tu tiempo en cada nivel.
+    contra el mejor tiempo a lo largo del nivel de otro jugador.  paliza
+    Los registros son importantes.
+    
+    14. ¡Sal, tus fans te están esperando!

@@ -1,0 +1,1740 @@
+Bienvenidos a Primera Línea.  Este archivo le informa sobre cualquier
+      Detalles específicos y cambios en esta versión de Amiga.
+
+      PRIMERA LÍNEA INICIAL
+      ------------------
+        Si tiene un megabyte o más de memoria, Workbench se
+      cargado, y Frontline se puede iniciar haciendo clic en el
+      Ícono FRONTAL.PRG. Si solo tienes 512k, Frontline será
+      arranca directamente después de que se le haya dado la opción de ver
+      este archivo, para ahorrar memoria, también la ventana CLI y el
+      La pantalla del banco de trabajo también se cerrará para conservar memoria.
+
+      ADICIONES A LA VERSIÓN ST
+      -----------------------
+        Ha habido algunas adiciones a la versión de Frontline.
+      en el ST. Para empezar, durante el líder y el arma de apoyo.
+      procedimiento de selección, se ha añadido un icono adicional (con forma de cruz).
+      agregado para permitir que la selección de la unidad actual sea
+      cancelado.
+        Los efectos de sonido están muestreados, en lugar de computadora.
+      generado - esperemos que esto proporcione una mejor atmósfera.
+        También se han agregado unidades 'ocultas', esto significa que las únicas
+      Las unidades enemigas que puedes ver en el mapa son aquellas que están dentro
+      la línea de visión de sus unidades.  Esto significa que puedes ser
+      emboscado por una unidad enemiga oculta, pero por supuesto puedes hacer una
+      ataque sorpresa a usted mismo.
+
+      CARGANDO Y GUARDANDO
+      ----------------
+        Antes de comenzar, es una buena idea formatear un par de
+      discos en blanco, para que pueda guardar un escenario si es necesario.
+      Los discos deben llamarse 'FRONTSAVE' para que Frontline pueda
+      encontrarlos cuando guarda un juego, se proporciona un archivo de script en
+      el disco Frontline para este propósito. Simplemente haga doble clic en
+      el icono FormatSaveDisk en el disco Frontline y siga las
+      instrucciones, insertando el disco a formatear cuando
+      preguntó. Si su máquina es de 512k y el disco Frontline
+      normalmente arranca directamente en el juego, arranca con tu
+      Disco WorkBench y luego inserte el disco Frontline para acceder
+      la utilidad (Nota: no habrá suficiente memoria para ejecutar
+      Frontline si su máquina normalmente arranca directamente en el
+      juego).
+        Sólo puedes guardar un juego por disco, lamento que esto sea un
+      un poco engorroso, pero no tuve tiempo de implementar un más
+      elegante método de guardar/cargar. Sin embargo, en la mayoría de los casos, no
+      Tienes que usar la opción de guardar ya que los escenarios generalmente pueden ser
+      terminado en un par de horas. Además, los usuarios con 512.000 máquinas
+      Es posible que no pueda salvar algunos de los escenarios más grandes.
+
+      SOPORTE DE IMPRESORA
+      ---------------
+        Puede imprimir el estado actual de sus unidades con el
+      Opción Imprimir estado del menú Unidades. Si arrancas desde el
+      Disco de primera línea, la impresora está configurada para usar una impresora genérica
+      conectado al puerto paralelo.  Tendrás que usar el
+      Programa de preferencias que viene en el disco de Workbench para
+      modifique la configuración si es necesario.
+
+      DISCOS DUROS
+      -----------
+        Frontline se puede mover con bastante facilidad a un disco duro. (El
+      El desarrollo de Frontline se llevó a cabo en un disco duro y bastante
+      vive felizmente allí.) Sin embargo, debe tener al menos un
+      megabyte de memoria junto con su disco duro (como estoy seguro
+      El 99,9% de los propietarios de discos duros lo tienen) debido a la gran cantidad
+      de memoria que consume un disco duro.
+        Transferir a través de Workbench es más fácil:
+
+      1) Cree un cajón para Frontline en el disco duro y arrástrelo
+      sobre todos los íconos en el disco Frontline.
+
+      2) Haga clic en el ícono HDInstall; esto copiará ZRead y
+      IconX desde el disco Frontline al directorio C: del
+      disco duro. Estos programas son utilizados por READ_ME.PRG y
+      HDAsignar iconos. Una vez hecho esto, el ícono HDInstall puede
+      eliminarse del disco duro.
+3) Frontline obtiene los datos del escenario de la lógica
+      directorio FRONTLINE: puede insertar una línea en su
+      secuencia de inicio de la siguiente manera, 'ASSIGN FRONTLINE: ruta' donde
+      ruta es el nombre de ruta completo del directorio donde ha puesto
+      Primera línea. Alternativamente, ejecute el programa HDAssign, que
+      configurará todo para usted, para esa sesión. (lo harás
+      tendrá que volver a ejecutarlo cada vez que reinicie). Asegúrate de eliminar
+      el disco Frontline antes de ejecutar este programa, o no
+      ejecutar correctamente.
+         Esta operación permitirá futuros discos de escenario adicionales.
+      si se produce.
+
+      GRACIAS
+      ----------
+        Ok, aquí va, primero que nada Alan Lenton por escribir el
+      versión original de Frontline en el ST, y por darme
+      el trabajo de convertirlo.  Gracias a Stuart Cupit por unos
+      detectar efectos gráficos y el ícono de Workbench cuando mi triste
+      Las capacidades artísticas me fallaron.
+        Gracias a Nico Francois por PowerPacker que me permitió
+      meter todo en un solo disco.  (Vale la pena el Shareware
+      tarifa!)
+        Gracias a usted, el cliente por comprar este juego. Espero
+      ¡lo disfrutas!
+
+      John Chasey.
+      24 de junio de 1990
+
+      Un par de palabras de Alan Lenton:
+
+      CAMBIOS
+      -------
+         Como resultado de los comentarios de los probadores, uno o dos
+      de los escenarios han tenido las fuerzas que luchan en la batalla
+      alterado. En particular, el número de escuadrones aliados en el
+      El escenario de Cassino se ha reducido en aproximadamente un tercio.
+
+      JUGANDO LOS ESCENARIOS
+      ---------------------
+         Algunos de los escenarios son más difíciles que otros. yo
+      Sugeriría que el mejor orden para reproducirlos es:
+            Asalto a la colina 193 (cubre unidades de infantería y apoyo
+      armas)
+            Puente de Pegaso
+            Stalingrado
+            Limpia el convento (agrega una unidad de artillería)
+            Guadalcanal (agrega artillería fuera del mapa)
+            Casino
+
+      Para que conste, mi escenario favorito -y el de la mayoría de
+      los expertos - es Pegasus Bridge.  Ninguno de los escenarios
+      son imposibles, pero cuando empieces por primera vez, es posible que te resulte
+      Es más fácil apagar el temporizador (consulte el manual para obtener más detalles).
+      Por lo general, le resultará más fácil jugar como defensor.
+
+         Una breve nota sobre la artillería fuera del mapa: ya que es posible
+      para provocar un bombardeo sobre tu propia cabeza (muy útil si
+      están en un búnker y la oposición está al aire libre!) no puedes
+      Cancela una ronda de detección haciendo clic en tu propio jugador. encontrar
+      ¡Un trozo de terreno muerto y dirige la ronda hacia allí!
+
+      OTROS ESCENARIOS
+      -----------------
+         Si la demanda es lo suficientemente grande, entonces produciré algo
+      Más escenarios para el juego.  Probablemente sólo serán
+      disponible en pedido por correo. Para recibir notificaciones sobre otros escenarios,
+      Por favor completa y devuelve la tarjeta de registro en el juego.
+      caja. Debido al hecho de que los escenarios no se ejecutarán sin el
+      programa principal, es poco probable que los escenarios
+      disponible en las tiendas.
+
+      ÚLTIMA PALABRA
+      ---------
+         Frontline deliberadamente NO está protegida contra copia, ya que encuentro
+      la protección contra copias es una molestia, y estoy seguro de que a ti también. Eso es
+      por qué puedes copiar el juego en discos duros. Por favor no abuses
+      el fideicomiso entregando copias a otras personas.
+
+         Espero que disfrutes jugando Frontline.  Estaría feliz de
+      recibir cualquier comentario, o sugerencia para futuros escenarios.
+      Puedes enviármelos a c/o CCS, 14 Langton Way, Londres SE3
+      7TL.
+
+            Diviértete
+
+                  Alan Lentón
+======================================================================
+-----------------------------------------------------------------------
+ 
+                     LÍNEA FRONTAL
+Por
+ 
+                                 Alan Lentón
+ 
+                -- Documentos escritos por RYGAR / SCIENCE 451 ! --
+
+-----------------------------------------------------------------------
+
+                        ----------------------------                           
+                        |         IMPORTANTE |
+                        |         --------- |
+                        | Antes de jugar PRIMERA LÍNEA |
+                        |  por primera vez, Leer | 
+                        | el archivo READ_ME en tu |
+                        | disco de juego, esto le dará |
+                        |  usted información de cualquier |
+                        |extras que tiene el juego Amiga.| 
+                        ----------------------------
+
+-----------------------------------------------------------------------
+ 
+INTRODUCCIÓN
+ 
+Se considera, con razón, que la Segunda Guerra Mundial es el lugar y el momento 
+cuando las fuerzas blindadas cobraron importancia. Lamentablemente, la prominencia 
+logrado por fuerzas blindadas ha permitido la contribución de la
+la infantería debe ser pasada por alto.
+ 
+Ya en el primer mes de la guerra, la vulnerabilidad de los tanques a
+soldados decididos se demostró de manera inequívoca. en el
+En los suburbios de Varsovia, la 4.ª División Panzer perdió 60 tanques en un solo día.
+ 
+Muchas de las batallas en el Pacífico se libraron sin el beneficio de
+tanques, y la mayor parte de los combates en las ciudades de Europa y Rusia fueron
+casi exclusivamente dominio exclusivo de la infantería. Primera línea es un escuadrón.
+Simulación a nivel de algunos de los aspectos de estas batallas. las batallas
+Los elegidos provienen de diferentes escenarios de guerra y, si hay una
+Si hay demanda, produciré discos de escenarios para otras batallas.
+
+Al escribir Frontline he intentado crear un juego que sea jugable,
+no hace trampa a favor de la computadora, traté de dar una idea de lo que
+cómo eran las batallas y ayuda a que el jugador comprenda cómo
+Tácticas básicas de infantería. Estos objetivos son contradictorios y sólo el
+¡El jugador puede juzgar si los compromisos necesarios fueron correctos!
+
+Los jugadores de juegos de mesa reconocerán muchas ideas y técnicas en
+Frontline, pero he intentado aprovechar los puntos fuertes de la computadora,
+y minimizar sus debilidades frente a los juegos de mesa. donde habia
+un choque entre jugabilidad y simulación, normalmente he bajado
+por el lado de la jugabilidad.
+
+El factor más importante que afecta el desempeño de los escuadrones en
+La primera línea es la moral. Creo que fue Napoleón quien dijo que "en la guerra el
+Lo espiritual es a lo material como tres a uno”. Y él sabía una cosa o
+¡Dos sobre hacer la guerra! Así, el concepto de moral y liderazgo es
+central del juego. Asegúrese de que los escuadrones en las posiciones clave
+tendrán un liderazgo adecuado y podrán resistir
+probabilidades!
+
+                                                              Alan Lentón
+
+-----------------------------------------------------------------------
+CONTENIDOS
+
+1.0 CONFIGURACIÓN ................................................3
+        1.1 Elección del escenario ........................3
+        1.2 Elegir tu bando ................................3
+        1.3 Asignación de líderes ................................4
+        1.4 Asignación de armas de apoyo ................4
+
+2.0 EL JUEGO ................................................5
+        2.1 Tomar decisiones ................................5
+        2.2 La Pantalla/Terreno ................................6
+        2.3 Tus Fuerzas ................................9
+
+3.0 ICONOS DEL PANEL DE CONTROL ........................10
+        3.1 Instruyendo a sus unidades ........................12
+        3.2 Información - Infantería ........................12
+        3.3 Información - Artillería ........................13
+        3.4 Movimiento - Infantería ........................14
+        3.5 Movimiento - Artillería ........................15
+        3.6 Disparos - Infantería ................................16
+3.7 Disparo - Artillería ................................17
+        3.8 Bajo fuego ................................18
+        3.9 Armas de apoyo ................................18
+        3.10 Bombardeo ................................20
+        3.11 Combate cuerpo a cuerpo ................................22
+        3.12 Moral ........................................23
+
+4.0 PROGRESO DEL JUEGO ................................24
+
+5.0 LOS ESCENARIOS ........................................26
+        5.1 Escenarios introductorios ........................26 
+        5.2 Puente de Pegaso ................................27
+        5.3 El fin en Stalingrado ........................28
+        5.4 Guadalcanal................................30
+        Casino 5.5 ........................................31
+
+6.0 ORDEN DE BATALLA ................................33
+        
+APÉNDICE A - Tabla de resultados del combate de fuego de infantería ........35
+
+APÉNDICE B - Equivalentes de calibre de pistola/potencia de fuego ................36
+
+APÉNDICE C - Artillería para impactar en la mesa .........36
+
+APÉNDICE D - Modificadores del cañón de la pistola ................36
+
+APÉNDICE D - Mapas (RYGAR: ¡NO INCLUIDO! ¡¡COMPRA EL JUEGO!!)....37
+
+-----------------------------------------------------------------------
+
+1.0 CONFIGURACIÓN
+
+1.1 Elección del escenario
+
+La pantalla inicial le permite seleccionar uno de los siguientes 6 escenarios:
+
+   Asalto a la colina 139 (entrenamiento)
+   Limpiar el convento (entrenamiento)
+   Puente de Pegaso
+   Stalingrado
+   Guadalcanal
+   Casino
+
+Seleccione el menú desplegable JUEGO, haga clic en ESCENARIO y
+Aparecerá información sobre el primer escenario. Habrá dos iconos:
+
+-------
+| \ \ |   
+| / / |   Haga clic para pasar al siguiente escenario.
+-------
+
+-------
+|---- |  
+| mi \/|  Haga clic para seleccionar el escenario que se muestra actualmente.
+-------
+
+Alternativamente puedes cargar una partida guardada; haz clic en CARGAR JUEGO y 
+siga las instrucciones en pantalla.
+
+1.2 Elegir tu bando
+
+Una vez cargado el escenario deberás elegir tu bando. Haga clic en
+SIGUIENTE para cambiar entre los dos lados y SELECCIONAR para seleccionar su lado.
+
+Para cada lado se le dará información sobre las unidades. hay
+dos tipos de unidad: un escuadrón de infantería, formado por cinco o diez hombres, o
+una pieza de artillería y su tripulación.
+
+Para las unidades de artillería, se te indicará el tipo de arma y su tamaño.
+
+Si la unidad es de infantería, los números al lado del nombre de la unidad se refieren a su
+potencia de fuego, alcance y moral; por ejemplo, 4-5-7 significa potencia de fuego
+4, un alcance 5 y moral 7.
+
+También se te indicará qué armas de apoyo tiene disponible cada bando,
+con la potencia de fuego y alcance de cada arma (cuando corresponda) -
+es decir, 5-11 significa potencia de fuego 5 y alcance 11.
+
+Finalmente se le informa qué líderes están disponibles y las personas apropiadas.
+modificador de combate. Las unidades con líderes obtienen mejores resultados en combate; cuanto más bajo sea
+modificador de combate, más efectivo será el líder. Los líderes sólo pueden ser
+asignados a escuadrones de infantería: las piezas de artillería pueden o no ya
+Tener un líder de artillería.
+
+1.3 Asignación de líderes
+
+Una vez que hayas seleccionado tu bando, podrás asignar líderes. Información
+se muestra sobre cada escuadrón. Puede consultar esta información en cualquier 
+tiempo - se explica detalladamente en las secciones de Información. te lo dirán
+si la unidad comienza el juego fuera del mapa. Si es así, se le indicará en qué
+girar aparece.
+
+-------
+| \ \ | Este ícono te llevará a través de los equipos disponibles. cuando el
+| / / | Aparece el escuadrón elegido, haz clic en el líder que deseas asignar. 
+-------
+        Cuando haya terminado de asignar líderes, haga clic. Si haces clic
+------- antes de que hayas terminado puedes cambiar de opinión, pero 
+|---- | No se pueden reasignar los líderes ya asignados. Confirma que
+| mi \/| está satisfecho con su asignación y procederá a la
+------- siguiente etapa.
+
+1.4 Asignación de armas de apoyo
+
+La siguiente pantalla te permite asignar armas de apoyo. solo puedes
+asignar armas de apoyo a los escuadrones de infantería.
+------- Utilice este icono para mostrar el equipo al que desea asignar, luego
+| \ \ | Haz clic en el arma que deseas darle. Hay tres tipos de 
+| / / | ametralladora (ligera, media y pesada), pero todas tienen la
+------- mismo icono.
+
+Se le proporciona información sobre el arma que ha seleccionado: alcance
+y potencia de fuego, munición disponible y peso. Vea la sección sobre
+Armas de soporte para más información. Lo importante en este
+el escenario es el peso; Esto afecta la velocidad de movimiento del escuadrón que lleva.
+eso. Un equipo completo puede acumular hasta cinco puntos; media escuadra dos. tu puedes 
+asignar más de un elemento a un escuadrón, siempre que pueda llevar el
+peso.
+
+------- 
+|---- | Una vez que hayas terminado haz clic aquí. Puedes regresar al
+| mi \/| pantalla de asignaciones, pero ya no puede cambiar las asignaciones
+------- hecho.
+
+Confirma que has terminado de asignar y se te presentará
+con la pantalla principal del juego.
+
+2.0 EL JUEGO
+
+2.1 Tomar decisiones
+
+En Frontline, tanto tú como la computadora tomáis decisiones: dónde
+mueve tus unidades, a quién atacar, si entrar en combate.
+                                                           
+El ordenador resuelve las decisiones y calcula          
+el resultado. A esto se le llama "tirar los dados", por analogía. 
+con juegos de mesa.                                          
+                                                               
+Si tiene la opción PANTALLA en el menú desplegable de XTRAS
+encendido, usted mismo tira los dados. Si no se selecciona esta opción, el
+la computadora resuelve las decisiones y sólo te dirá el resultado.
+
+Si eliges tirar los dados tú mismo, la computadora te mostrará cómo
+calcula el resultado.
+
+El juego utiliza el equivalente a dos dados de seis caras lanzados. 
+simultáneamente y sumados. Por lo tanto, el número más alto que puedas
+la tirada es 12 y la más baja 2.
+
+Para todas las tiradas de dados, cuanto menor sea el número, mejor será el resultado.
+
+La tirada de dados "bruta" puede modificarse mediante varios modificadores que se añaden
+a él, para tener en cuenta las circunstancias. Los modificadores pueden ser
+positivo o negativo. Dado que su objetivo es obtener números bajos, se deduce que
+los modificadores negativos te ayudan y los modificadores positivos te obstaculizan.
+
+Por ejemplo, deseas disparar contra una unidad enemiga que ocupa un cráter,
+proporcionando una cobertura de +2. Tienes un líder de -1. Sacas un 9 para que el
+El resultado será 9 + 2 - 1 = 10 (manos arriba los que tuvieron que alcanzar un
+calculadora!)
+
+Cuando lances los dados, haz clic con el botón izquierdo del ratón una vez para comenzar y
+una vez para parar. Luego haga clic en CONTINUAR y la computadora aplicará 
+cualquier modificador para calcular el resultado.
+
+2.2 La pantalla/terreno
+
+La barra de menú en la parte superior de la pantalla y los íconos en la parte inferior aparecerán.
+explicarse a medida que avanza el juego. Justo encima de los iconos hay un cuadro. 
+donde aparece información sobre el progreso del juego - por
+Por ejemplo, diciéndote que es tu turno de moverte.
+
+En el lado izquierdo hay un panel donde se encuentran iconos de información y selección.
+para sus unidades se mostrará.
+
+(Imagen de la pantalla del juego aquí)
+
+La parte principal de la pantalla es una "ventana" que muestra la parte del mapa.
+donde se desarrolla la acción. Al comienzo de todos los escenarios, la ventana
+se coloca en la esquina superior izquierda del mapa.
+
+La imagen da una indicación del tipo de terreno; para más detalles
+información, haz clic en el mapa y se te indicará cuál es el terreno.
+Los tipos de terreno que se encuentran en los diferentes escenarios son:
+
+
+TERRENO ALTURA CUBIERTA MOVIMIENTO
+                                                 COSTOS
+
+Alambre de púas 0 0 5
+Variable puente +1 2
+Borrar 0 0 2 
+Cráter 0 +2 3
+Cráter profundo -1 +1 3
+Selva +3 +4 5
+Línea ferroviaria 0 0 2
+Barranco -1 +1 3
+Camino 0 0 2
+Escombros +1 +3 4
+Sacos de arena +1 +3 3
+Zanja cortada 0 +2 4
+Edificio de piedra +2 +4 3
+Pantano/Marisma 0 0 4
+Árboles +2 +2 3
+Agua 0 0 8
+Restos 1 +2 4 
+
+Cada uno de estos aspectos del terreno es importante por una razón diferente.
+
+Altura
+La altura del terreno que estás ocupando en comparación con el
+El terreno circundante afecta la cantidad del área que puedes ver. esto es
+conocido como "Línea de visión". Obviamente, para disparar a una unidad enemiga debes
+poder verlo! Las líneas de visión son recíprocas: si puedes ver a un enemigo
+unidad, puede verte (¡y dispararte!).
+
+Al mirar la altura del terreno debes tener en cuenta la
+altura de la "base" y la altura de la "característica". Por ejemplo, un cráter tiene una
+altura de -1, pero si el cráter está en la cima de una colina con una altura de 3, entonces
+la altura real es 2.
+
+------- (RYGAR: SE SUPONE QUE ESTO MUESTRA UN ICONO QUE TIENE FLECHAS Apuntando)
+||\ /|| (EN LAS CUATRO DIRECCIONES DIAGONALES, ¡ESPERO QUE LO ENTIENDAS!)
+|  # | Puedes comprobar la línea de visión de cualquier unidad seleccionando la unidad.
+||/ \|| y luego haciendo clic en este icono. Todas las áreas del mapa que la unidad no puede 
+------- ver estará atenuado. Esto sólo funciona para la parte del mapa. 
+        mostrado en la pantalla.
+
+Entonces, ¿cómo se calculan las líneas de visión?
+
+---------------------------------------------------
+|       |       |       |       |       |       |       | mirando el
+|       | UNIDAD B|       |       |       |       |       | diagrama, que
+|       |_______|       |       |       |       |       | muestra cinco unidades
+|-------|#######|---------------------------------| ocupando diferentes
+|       |#######|       |       |       |       |       | alturas del terreno,
+|       |#######|       |       | UNIDAD C|       |       | UNIDAD B y UNIDAD C 
+|       |#######|       |       |_______|       |       | podemos vernos,
+|-------|#######|---------------|#######|---------------| al igual que la UNIDAD C Y 
+|       |#######|       |       |#######|       |       | E. E y D también son
+|       |#######|       |       |#######|       | UNIDAD E| en el uno del otro 
+|       |#######|       |       |#######|       |_______| línea de visión, pero
+|-------|#######|---------------|#######|-------|#######| D no puedo ver ninguno 
+|       |#######|       |       |#######|       |#######| unidad excepto E. UNIDAD
+| UNIDAD A|#######|       |       |#######| UNIDAD D|#######| A es completamente   
+|       |#######|       |       |#######|       |#######| escondido de todos los
+|----------------------------------------------------------------| otros. y
+|       |       |       |       |       |       |       | por lo tanto no puedo ver
+|         La altura del terreno ocupado por | ellos tampoco.
+|           una unidad afecta su línea de visión |
+---------------------------------------------------
+
+
+Portada
+La cobertura combina dos factores; cuánto oculta el terreno
+unidad ocupante y cuánta protección ofrece. Por ejemplo, un campo
+de trigo oculta muy bien una unidad, pero no proporciona mucha protección.
+Por el contrario, una unidad que ocupe un búnker de piedra será bastante visible, pero
+¡Varios pies de concreto generalmente detiene una bala adecuadamente!
+
+Estos dos factores se combinan para proporcionar la cifra de cobertura. cuando
+disparas contra una unidad, se añade un modificador a la cobertura proporcionada por el
+terreno.
+
+Costo de movimiento
+El movimiento simplemente define lo fácil que es moverse a través de los diferentes
+tipos de terreno. Cada unidad tiene una cantidad de puntos de movimiento que pueden
+Usa cada turno. El coste de movimiento del terreno al que se dirigen.
+se deduce por cada movimiento. Subir una cuesta cuesta un movimiento extra
+punto, y llevar armas de apoyo desempaquetadas también aumenta el costo.
+Cuando mueves una unidad necesitas tener en cuenta los factores de
+altura, cobertura y coste de movimiento antes de decidir qué ruta tomar.
+Evidentemente podrás moverte más rápido en terreno despejado, pero es más
+Es probable que seas alcanzado por fuego enemigo.
+
+2.3 Tus fuerzas
+
+Puede desplazarse por el mapa en las ocho direcciones de la brújula haciendo clic en el
+flechas en la esquina inferior derecha.
+
+Haz esto hasta que encuentres tus fuerzas. Las unidades son
+representado por un icono en el mapa, el color
+dependiendo de la nacionalidad:
+
+   Azul británico y de la Commonwealth
+   gris alemán
+   SS alemán negro
+   rojo americano
+   Marrón claro japonés
+   Rojo soviético
+
+------------
+|Imagen de|
+|atacando | Las unidades de infantería están representadas por este icono.
+|soldado |
+|aquí!!    |
+------------
+
+------------
+|Imagen de|
+|un cañón |
+|¡aquí!     | Las unidades de artillería están representadas por este icono.
+|          |
+------------
+
+Si no estás seguro de si la unidad pertenece a tu bando o no, haz clic en
+¡en eso! Si pertenece al enemigo, te lo dirán. Si es su unidad una
+Un conjunto de iconos aparece en el cuadro a la izquierda de la pantalla. Este es el
+Panel de control, que utilizas para dar órdenes a la unidad seleccionada.
+
+Una forma más rápida de encontrar tus fuerzas es usar la opción BRIEFING en el
+Menú UNIDADES. Esto mostrará una lista de sus unidades en el panel de información.
+Si el nombre de la unidad es gris, significa que está muerta, fuera del mapa o
+roto, si es amarillo, aún puede realizar una acción en ese turno; y si es blanco,
+está en el mapa pero ha finalizado su acción para ese turno.
+
+Al hacer clic en el nombre de la unidad si está muerta o fuera del mapa, aparece
+información sobre la unidad. De lo contrario, al hacer clic en el nombre se centrará
+el mapa en la unidad y abra el panel de control. Si la unidad está cerca
+borde del mapa, la pantalla se desplazará hasta que la unidad esté lo más cerca posible
+centro como sea posible.
+
+Cada vez que seleccionas una unidad, ya sea haciendo clic en ella o usando el
+opción BREIFING, los colores de su icono se invierten.
+
+3.0 LOS ICONOS DEL PANEL DE CONTROL
+
+Cuando se selecciona una unidad, el panel de control aparece en el cuadro de la
+izquierda de la pantalla. Algunos de los iconos del panel de control sólo se pueden
+utilizado por escuadrones de infantería, algunos sólo por unidades de artillería. Dependiendo del
+estado del juego no todas las opciones estarán disponibles para el seleccionado
+unidad, en cuyo caso el icono estará en blanco.
+
+Los iconos del panel de control se explican detalladamente en las secciones correspondientes.
+del manual, pero brevemente son:
+
+RYGAR: HE HECHO LOS ICONOS QUE ERA POSIBLE HACER CON ASCII, ESOS
+       ICONOS QUE TIENEN GRÁFICOS COMPLEJOS HE ESCRITO LO QUE ES MENTAR
+       ¡SER!  ESPERO QUE ENTENDAN CHICOS! 
+
+----------
+|Imagen |
+|de un | Da información sobre la unidad.
+|bloc de notas |
+|aquí.   |
+----------
+
+----------
+|Imagen | 
+|de 4 |
+|diagonal| Le permite mover la unidad - SÓLO INFANTERÍA.
+|flechas! |
+----------
+
+---------
+|   |   |
+| -- -- | Indica a la unidad que dispare contra otra unidad. 
+|   |   | 
+---------
+
+---------
+| No |
+| saber | Se utiliza para reunir a las tropas si la unidad está rota. 
+| esto |
+| todavía |
+---------
+
+---------
+|Imagen|
+|de un | Da información sobre el terreno que ocupa la unidad.
+|árbol |
+|¡aquí!  | 
+---------
+
+--------
+||_|_|_|
+||_|_|_| Muestra una cuadrícula sobre el mapa, para ayudar a calcular rangos o
+||_|_|_| movimientos.
+|| | | |
+--------
+
+----------
+|Imagen |
+|de un arma| Da acceso a las armas de apoyo de la unidad: SÓLO INFANTERÍA.
+|(un automóvil|
+|matic!!)|
+----------
+
+-----------
+|Imagen |
+|de una lata| Le indica a la unidad que invoque un bombardeo desde un lugar fuera del mapa. 
+|en punta| batería de artillería, siempre que la unidad lleve una radio -
+|¡Está bien!| SÓLO INFANTERÍA.
+-----------
+
+----------
+| Imagen|
+| de un | Inicia combate cuerpo a cuerpo - SÓLO INFANTERÍA.
+| Cuchillo |
+| ¡aquí!  |
+----------
+
+-------------------
+|  ---- |  ---- |
+| ||  || | ||  || | Gira una pieza de artillería 90 grados en el sentido de las agujas del reloj o en sentido antihorario.
+| \/ || | ||  \/ | en el sentido de las agujas del reloj - SÓLO ARTILLERÍA.
+|        |        | 
+-------------------
+
+---------
+|Imagen|
+|de un | Intentos de reparar una pieza de artillería dañada - SÓLO ARTILLERÍA.
+|mono-|
+|llave inglesa |
+---------
+
+--------- 
+| ---- | Haga clic en el botón FINALIZAR cuando haya terminado de dar órdenes
+| mi \/ | a la unidad seleccionada.
+---------
+
+3.1 Instruyendo a sus unidades
+
+Habiendo encontrado una de tus unidades, hay varias cosas que puedes decirle.
+hacer. Si es un escuadrón de infantería, puede moverse, disparar a una unidad enemiga, ir
+en combate cuerpo a cuerpo (si está adyacente a una unidad enemiga), use un apoyo
+arma, o solicitar un bombardeo desde una batería de artillería fuera del mapa (si
+tiene radio).
+
+Una pieza de artillería puede girar el cañón del arma para apuntar hacia un lugar diferente.
+dirección o disparar contra otra unidad.
+
+Algunas de estas acciones ocupan un turno completo; pero otros, como llamar
+derribar un bombardeo, te permitirá dar más órdenes a la unidad en el mismo
+girar.
+
+No tienes que darle a una unidad todas sus órdenes -----------------------
+durante ese turno antes de dar instrucciones a otra unidad;  |                           |
+puedes volver a él más tarde.                  |          ESCUADRÓN | 
+                                                |                           |
+3.2 Información - Infantería |         A n s e l | 
+                                                |                           |
+--------- |      Cuadrados completos |
+|Imagen| Al hacer clic en este icono aparece |      Información de línea |
+|de un | información sobre el seleccionado |      Bueno |
+|bloc de notas| escuadrón de infantería.                       |      Inicio: 1 |
+|¡aquí!  |                                       |      Movimientos: |
+--------- |       Usado: 0 |
+                                                |       Izquierda: 8 |
+Por si acaso has olvidado qué equipo |      Moral: 7 |
+se trata, su nombre aparece en |      Líder: 0 |
+la parte superior del cuadro de información.                 |      Fuego: 4 |
+                                                |      Rango: 5 |
+La plantilla es una plantilla completa (diez hombres) |                           |
+o media escuadra (cinco hombres).                     |                           |
+                                                |                           |
+La siguiente línea se refiere al estado de las tropas, |                           |
+cuál es su capacidad de luchar. Puede ser bueno |                           |
+o roto. La relevancia de esto es |                           |
+explicado en la sección sobre Moral.             |             ------------- |
+                                                |             | \ \ | --- | | 
+Los puntos de movimiento limitan hasta qué punto la unidad |             | / / | mi \/| |
+puede moverse en cada turno - varios tipos de |             ------------- |
+El terreno consume diferentes cantidades de M-P.        -----------------------
+
+La moral es un indicador de la facilidad con la que el equipo se desintegrará y
+se explica detalladamente en la sección de Moral.
+
+El Liderazgo afecta el daño que hará la unidad al atacar a un
+unidad enemiga. Como en la vida real, cuanto mejor sea el líder (es decir, cuanto menor sea el
+modificador) más efectiva será la unidad.
+
+La potencia de fuego de la unidad también afecta su capacidad de combate; cuanto mayor sea el
+Cuanto mayor sea la potencia de fuego, mejor será el resultado de un ataque.
+
+El alcance limita la distancia a la que la unidad puede disparar realmente.
+
+Si el escuadrón lleva armas de apoyo, éstas aparecerán en la lista.
+
+3.3 Información - Artillería
+
+--------- ----------------------------
+|Imagen| Al hacer clic en este icono aparece |                          |
+|de un | información sobre el seleccionado |         MORTERO |
+|bloc de notas| unidad de artillería.                       |                          |
+|¡aquí!  |                                       |       Heilbron |
+--------- |                          |
+                                                |   Mortero |
+Nuevamente, el nombre de la unidad aparece en la parte superior de |   Operativo |
+la caja, y te dicen el tipo de artillería |   Moral: 8 |
+pedazo.                                          |   Líder: 0 |
+                                                |   Cal: 120 |
+Se le muestra el estado del arma, ya sea |   Gama |
+se puede utilizar o no. Puede estar operativo;      |     Mín. 3 |
+atascado, en cuyo caso debe ser |     Máximo 60 |
+reparado; U/S (inservible), que en efecto |   Rof: 2 |
+significa que la unidad no puede seguir participando en |   Munición: 25 | 
+la acción; o roto - que se refiere a la |   Mermeladas: 12 |
+estado de la tripulación, en cuyo caso necesita |   Sin objetivo |
+para reunir a los hombres antes de que puedan disparar.          |   ------------ |
+                                                |   |/\ Imagen|           |
+El nivel de moral es un indicador de la facilidad con la que |   ||| de algunos |           |
+la unidad se romperá cuando esté bajo fuego enemigo.      |   |tipo de |           |
+Consulte la sección sobre Moral para obtener más detalles.          |   |¡arma aérea!|           |
+                                                |   ------------ -------- | 
+El modificador de Liderazgo mejorará el |                 | ---- | | 
+posibilidades de la unidad de golpear y dañar |                 | mi \/| | 
+el enemigo. Cuanto menor sea el número, mejor |                 -------- |
+el resultado.                                     ---------------------------- 
+
+El calibre es el tamaño del arma. Cuanto mayor sea el calibre, mayor será el
+la potencia de fuego será.
+
+El alcance del arma limita a qué puede disparar. Algunas unidades de artillería tienen
+un rango máximo y mínimo.
+
+La cadencia de tiro indica cuántos disparos puede tener en cada turno.
+
+La munición se refiere al número de disparos que el arma puede realizar antes
+Los objetivos que se están agotando y adquiridos se explican en la sección sobre Disparo.
+- Artillería
+
+3.4 Movimiento - Infantería
+
+----------
+|Imagen |  
+|de cuatro |
+|diagonal| Los escuadrones de infantería se pueden mover haciendo clic en este icono.
+|flechas! |
+----------
+
+El fondo de las flechas de movimiento en la parte inferior derecha.
+La esquina cambiará de color a rojo. Al hacer clic en las flechas se mueve el
+escuadrón en cualquiera de las ocho direcciones de la brújula.
+
+Los puntos de movimiento (M-P) disponibles para el escuadrón se mostrarán en
+el cuadro de información debajo del mapa. Cada vez que mueves el escuadrón, el
+M-P se reducirá según el terreno al que se muevan. si
+el escuadrón avanza cuesta arriba, el coste de movimiento aumenta en uno.
+La información sobre los tipos de terreno se muestra en la parte superior derecha de la pantalla.
+
+----------
+||_|_|_|_| Haga clic en este icono para mostrar los cuadrados individuales en el mapa,
+||_|_|_|_| que le ayuda a calcular qué tan lejos puede moverse la unidad en una
+||_|_|_|_| doblar. La computadora sabe que si te mueves en diagonal,
+|| | | | | ¡Usa más M-P que moverse horizontal o verticalmente! 
+----------
+
+Si el escuadrón lleva armas de apoyo desembaladas, el coste del movimiento
+aumenta con el peso del arma(s) desembalada(s). Si deseas
+mueve la unidad más de un par de casillas antes de usar el arma,
+primero debes empacar el arma de apoyo; sin embargo, si sólo desea
+mueve la unidad una distancia corta, no vale la pena perder un turno para empacar la
+arma y otro para desembalarla. Ver la sección sobre Armas de Apoyo
+para obtener detalles sobre cómo empacar o desempacar armas.
+
+No puedes mover un escuadrón a una ubicación que contenga otra unidad.
+
+-------- Cuando hayas movido el escuadrón tan lejos como desees (o tan lejos 
+| ---- | ¡como puedas!) haz clic en el botón FINALIZAR para volver al control
+| mi \/| panel. Si tus movimientos han reducido el M-P del escuadrón a cero o
+-------- uno, automáticamente regresará al panel.    
+
+Habiendo movido un escuadrón, no podrás hacer más con él ese turno.
+
+3.5 Movimiento - Artillería
+
+Las unidades de artillería están estacionarias, pero si deseas disparar el arma a un enemigo
+unidad, debe asegurarse de que apunte en la dirección correcta. la imagen
+Debajo de los íconos de las unidades se muestra en qué dirección apunta el arma.
+
+------------------- 
+|  ---- |  ---- | Utilice estos dos iconos para girar el arma 90 grados en sentido anti-
+| ||  || | ||  || | en el sentido de las agujas del reloj o en el sentido de las agujas del reloj. Atravesar el arma toma un 
+| \/ || | ||  \/ | giro completo de la unidad.
+|        |        |
+------------------- 
+
+----------
+|  __ _ | El diagrama muestra la línea de fuego de una unidad de artillería. Haga clic en
+| |\ /|\ | este icono debajo del mapa y cualquier parte del mapa que no esté en la línea
+|   \ |  | del fuego, o no a la vista, aparecerá atenuado.
+|<--- # |
+---------- --------------------------------------------
+             |                                          |
+             |                                          |    
+             |     --------------------------------- | 
+             |     ##|\ |   |   |   |   |   |  /|## |     
+             |     ##| \ |   |   |   |   |   | / |## |   
+             |     ##|  \|   |   |   |   |   |/ |## |   
+             |     ------\-------------------/------ |
+             |     ##|###|\ |   |   |   |  /|###|## |
+             |     ##|###| \ |   |   |   | / |###|## |
+             |     ##|###|  \|   |   |   |/ |###|## |
+             |     ----------\-----------/---------- |
+             |     ##|###|###|\ |   |  /|###|###|## |
+             |     ##|###|###| \ |   | / |###|###|## |
+             |     ##|###|###|  \|   |/ |###|###|## |
+             |     --------------\---/-------------- |
+             |     ##|###|###|###|Arte|###|###|###|## |
+             |     ##|###|###|###|enfermo|###|###|###|## |
+             |     ##|###|###|###|ery|###|###|###|## |
+             |     --------------------------------- |
+             |    Línea de fuego para una unidad de artillería - |
+             |      No se puede disparar contra el área #.      |
+             --------------------------------------
+
+Las unidades de artillería tienen un alcance muy largo y pueden usarse para disparar a través de
+el mapa, pero el ícono solo muestra la línea de fuego para esa parte del
+mapa mostrado en la pantalla.
+
+3.6 Disparos - Infantería
+
+--------- Si hay una unidad dentro del alcance, puedes indicarle a tu escuadrón que dispare a
+|   |   | haga clic en este icono. Aparecerá una cuadrícula sobre el mapa y usted
+| -- -- | Puede hacer clic en el objetivo. Si cambias de opinión, haz clic en el
+|   |   | unidad de disparo y regresará al panel de control.
+---------
+
+---------
+| |\ /| | Para disparar a otra unidad, el objetivo debe estar a la vista. Al hacer clic en
+|   # | este icono atenuará cualquier parte del mapa que se encuentre actualmente en la pantalla
+| |/ \| | que la unidad no puede ver.
+---------
+
+Como en la vida real, ¡es perfectamente posible disparar desde tu propio lado!
+
+Si ha seleccionado PANTALLA, aparece un cuadro que brinda los detalles del disparo.
+En la parte superior se muestra la potencia de fuego del escuadrón. Esta es la potencia de fuego inherente.
+del plantel. Si el escuadrón lleva una ametralladora, es posible
+agregue la potencia de fuego del arma a la potencia de fuego inherente; consulte la sección
+sobre armas de apoyo.
+
+Si el escuadrón está disparando a poca distancia, es decir, el objetivo es un enemigo adyacente.
+cuadrado: la potencia de fuego se duplica. Cualquier modificador por liderazgo o
+terreno están indicados: tener un líder aumenta el daño probable que
+unidad hace a su objetivo, pero mejor será la cobertura proporcionada por el terreno
+Cuanto más ocupa el enemigo, menos daño sufrirá.
+
+Los posibles resultados de disparar o ser atacado son:
+
+   - - - - Sin efecto
+
+     MC: se comprueba la moral de la unidad (no se ve el resultado de una
+            control de moral de la unidad enemiga)
+
+     L_KIA - El líder de la unidad muere
+KIA - La unidad está aniquilada
+
+     MITAD - La unidad se reduce en tamaño a medio escuadrón (medio escuadrón
+             no se reducirán a cuartos de escuadrones; o son aniquilados o
+             sobrevivir intacto)           
+
+3.7 Disparo - Artillería
+
+---------
+|   |   | Al hacer clic en este icono se coloca una cuadrícula sobre el mapa y le permite
+| -- -- | seleccione su objetivo: use las flechas para desplazarse por el mapa hasta que
+|   |   | encontrar el objetivo.
+---------
+
+Hay dos etapas para disparar una unidad de artillería. El primero determina
+ya sea que alcances tu objetivo o no. Se te muestra la tirada básica para el
+arma (que es diferente para cada tipo de arma) y cualquier modificador
+que afectarán el resultado: liderazgo, tamaño del barril (cuanto más largo sea el
+cañón, más precisa será el arma) y alcance (algunos tipos de armas
+son particularmente precisos en ciertos rangos, y algunos particularmente
+inexacto!)
+
+También se utiliza un modificador para un objetivo adquirido. Si el arma ya
+logrado alcanzar el objetivo, tiene más posibilidades de alcanzarlo un
+segunda vez, y se considera que ha adquirido un objetivo. el objetivo
+se refiere al cuadrado en el mapa, no a la unidad que lo ocupa. Entonces si matas
+una unidad y otra unidad se mueven a la misma casilla, el modificador sigue
+aplica. Los objetivos adquiridos se transfieren de un turno a otro.
+
+La información sobre la unidad le indica si tiene una adquisición
+objetivo o no; sin embargo, no te dice dónde está el objetivo, está arriba
+a ti para recordar!
+
+El modificador de tamaño se refiere al tamaño del objetivo; obviamente, el
+Cuanto más grande sea el objetivo, más fácil será alcanzarlo.
+
+Se muestra el resultado final que debes obtener para alcanzar el objetivo.
+en el cuadro rojo en la parte superior de la pantalla.
+
+Si fallas, sólo tienes que volver a intentarlo. Alguna artillería se puede disparar más. 
+más de una vez por turno: esto se muestra como velocidad de disparo en la información
+sobre la unidad.
+
+Si aciertas, se vuelven a tirar los dados para calcular el daño, con
+Se tienen en cuenta modificadores para el liderazgo y el terreno.
+
+Si mientras disparas una unidad de artillería, obtienes un resultado mayor o igual
+a lo mostrado por su posibilidad de atasco, el arma está dañada y
+Tendrás que repararlo en tu próximo turno. Haga clic en este icono y gire el
+dados para intentar arreglarlo. El resultado será:
+
+    No tiene ningún efecto, en cuyo caso tendrás que intentar repararlo nuevamente.
+    siguiente turno
+
+    Éxito, en cuyo caso se podrá utilizar en el próximo turno.
+
+    El arma es irreparable.
+
+Intentar una reparación consume un turno completo.
+
+3.8 Bajo fuego
+
+Si la computadora dispara en una de sus unidades, se le informará que su unidad
+está bajo fuego y el mapa se centrará en la unidad afectada. la computadora
+resolverá el combate y te dirá el resultado.
+
+No te dirán quién te está disparando; como en la vida real, tendrás que
+resuélvalo usted mismo.
+
+Los posibles resultados del fuego enemigo son:
+
+    Su unidad ha sido aniquilada por completo
+
+    Tu unidad se reduce a medio escuadrón y perderá todo apoyo.
+    armas que ya no puede llevar (si la unidad es una unidad de artillería, es
+    Se supone que tiene una tripulación de cinco hombres, por lo que no se reducirá en tamaño)
+
+    Tendrás que comprobar la moral de tu unidad (consulta la sección sobre
+    moral)
+
+    O su unidad saldrá ilesa.
+
+3.9 Armas de apoyo
+
+--------- Es posible que hayas asignado armas de apoyo a un escuadrón de infantería,
+|Imagen| y al hacer clic en este icono aparecerá información sobre el
+|de un | arma y los íconos del arma que usas para controlar el
+|pistola | armas de apoyo.
+---------
+
+El peso del arma cuando está ----------------------------
+operativo restringirá el movimiento de la |     -------------- |
+escuadrón (esto no aplica para demolición | |Foto de un| |
+cargos). Potencia de fuego, alcance y municiones |     |¡Ametralladora!|       |
+se explican por sí solos.                            |     -------------- |
+                                                 |                          |
+El número de interferencia que se muestra se refiere al |   Med m/g |
+probabilidad de que el arma se rompa. Si, |                          | 
+al dispararlo, tu tirada sin modificar es mayor |   Peso: 3 |
+mayor o igual a este número el arma |   Fuego: 3 |
+se atasca y tendrás que reparar antes que tú |   Rango: 7 |
+puede usarlo de nuevo.                                |   Munición: 14 |
+                                                 |   Mermeladas: 12 |
+El arma puede estar empaquetada u operativa, |     Operat'n1 |
+y te dicen si el arma tiene |   Sin usar |
+ya se ha utilizado en ese turno - y si lo es |  ----------------------- |
+apretado.                                          |  |Mismo icono|Pistola |  |  | |
+                                                 |  |en cuanto a lo|tomado|-- --| |
+----------- Esta opción sólo está disponible para |  |dejado aquí|aparte|  |  | |
+|   | |   | ametralladoras. Al hacer clic en este icono |  |---------------------- |
+|--- ---| añade la potencia de fuego del arma a |  |vacío | \ \ |  --- | |
+|--- ---| la potencia de fuego inherente del escuadrón. |  |icono! | / / | mi \/ | |
+|   | |   | Esto resulta en una -----------------------------
+----------- potencia de fuego, aunque el alcance será solo el de la unidad 
+            en sí, que puede ser menor que el del arma por sí sola. 
+            Al hacer clic en este icono, en realidad no se dispara el arma; hacer  
+            Para eso, sal de los íconos de armas y usa el botón de disparo en la unidad.
+            panel de control. 
+           
+
+----------- Este ícono le indica al escuadrón que empaque o configure el arma.
+|Imagen | Obviamente un arma no puede usarse mientras está empaquetada, pero si está
+|de un | desembalado restringe el movimiento (a menos que sea una carga de demolición)
+|arma tomada| - el peso del arma se suma a los costos de movimiento del
+|aparte!   | terreno para cada movimiento. Empacar o configurar un arma usa uno
+----------- girar.
+             
+--------- Este ícono dispara el arma por separado del arma inherente al escuadrón.
+|   |   | potencia de fuego. Todas las armas, excepto las ametralladoras, deben dispararse en
+| -- -- | de esta manera. El alcance será el del propio arma (morteros
+|   |   | tener un rango mínimo de 2).
+---------
+
+Si el arma de apoyo se dispara primero, el escuadrón puede moverse, lo que
+no se puede hacer si el arma se suma a la potencia de fuego inherente.
+
+Alternativamente, habiendo usado el arma de apoyo por sí sola, el escuadrón
+Luego puede usar su potencia de fuego inherente por separado, obteniendo de hecho dos
+disparos en un solo turno. Nuevamente, primero se debe disparar el arma de apoyo. el
+El escuadrón no necesita disparar su poder de fuego inherente al mismo objetivo que el
+arma de apoyo.
+
+--------- 
+|Imagen| Si un arma de soporte se atasca, tendrás que repararla antes de que pueda
+|de un | ser usado nuevamente. Al hacer clic en este icono se intenta realizar la reparación, que
+|mono | da una vuelta completa. Dependiendo del lanzamiento de los dados, el resultado
+|¡llave inglesa!| será: 
+---------
+          
+      Una reparación exitosa significa que el arma se puede usar en el siguiente turno.     
+ 
+      Un fracaso, en cuyo caso tendrás que volver a intentarlo en el siguiente turno.
+
+      Un completo desastre que deja el arma fuera de combate.
+      comisión!
+
+-------
+| \ \ | Si el escuadrón tiene más de un arma, haz clic en este icono para ver
+| / / | el próximo. 
+-------
+
+--------
+| ---- | Haga clic en el botón FINALIZAR para regresar al panel de control.
+| mi \/|
+--------
+Aunque las radios se cuentan como armas de apoyo y puedes obtener 
+información sobre ellos usando el ícono del arma de soporte (y repararlos
+¡si se dañan!), en realidad no los usas con este ícono.
+Consulte la siguiente sección para obtener detalles sobre cómo usarlos.
+
+3.10 bombardeo
+
+---------
+|Imagen| Si el escuadrón tiene una radio, puede solicitar un bombardeo desde fuera del mapa.
+|de un | batería de artillería usando este icono. Información sobre la batería
+|¡cañón!| Se mostrará disponible: su calibre (cuanto mayor sea el calibre,
+--------- cuanto mayor sea la potencia de fuego) y el número de salvas disponibles.
+
+NOTA: la artillería fuera del mapa está separada de cualquier artillería en el mapa.
+
+El uso de una batería de artillería implica tres etapas, y la etapa actual
+se muestra en el estado. Cada una de estas etapas requiere un turno; sin embargo,
+puedes continuar y darle al escuadrón más instrucciones, como moverse
+o pelear, en el mismo turno, siempre que puedas usar el bombardeo primero.
+
+Primero hay que contactar con la batería por radio. La tirada de dados decide
+si logras establecer contacto. Si fallas, tienes que volver a intentarlo.
+en tu próximo turno. Si la radio se estropea, debe repararse antes
+puedes usarlo de nuevo.
+
+Si la unidad está en contacto con la artillería, puedes seleccionar el objetivo
+haciendo clic en el mapa. Se envía una ronda de detección (no hay límite para la
+número de rondas de observación disponibles). Lamentablemente no hay
+garantizar que la ronda de detección aterrice donde usted espera; incluso puede
+aterrizar fuera de la vista, en cuyo caso tendrás que llamar a otro en tu
+siguiente turno.
+
+Un bombardeo cubrirá un área de nueve cuadrados, centrados alrededor del cuadrado.
+donde aterriza la ronda de detección. Es una buena idea centrar el mapa en
+su objetivo previsto antes de llamar a la ronda de localización: tiene una
+más posibilidades de ver dónde aterriza.
+
+También vale la pena usar el ícono de línea de visión para verificar qué cantidad de
+El terreno circundante es visible.
+
+Si una ronda de observación aterriza en la misma casilla que una unidad enemiga (o una
+de tus unidades!) la computadora resolverá la decisión y te dirá el
+resultado.
+
+En tu tercer turno, puedes invocar el bombardeo si lo deseas. tu eres
+presentado con cuatro iconos.
+
+
+
+               -------- Estos dos íconos son íconos uno u otro, uno de ellos  
+¡No puedo ver esto! | _/\_ | siempre está seleccionado y se alterna entre los dos.
+¡MIERDA!          |  \/ | Determinan si el bombardeo o el avistamiento
+               -------- la ronda se mueve si decides cambiar el objetivo.
+
+------
+|\ /| Este ícono lo lleva de regreso a la etapa 2, permitiéndole seleccionar una nueva
+| \/ | objetivo para una ronda de detección. Deberías usar esto si el manchado
+| /\ | La bala aterrizó muy desviada del objetivo. 
+|/ \| 
+------
+
+------- Este icono le permite mover el bombardeo o la ronda de detección
+||\ /|| (lo que haya sido seleccionado) por un cuadrado. Si el bombardeo es 
+|  X | seleccionado, moverá el objetivo en la dirección elegida y luego traerá
+||/_\|| bajar una barrera; si se selecciona la ronda de detección, simplemente se mueve
+------- el objetivo.
+
+-------
+|     | Este icono reduce el bombardeo sobre el objetivo actual - no
+|  !  | No importa si el ícono de bombardeo o el ícono de ronda de detección están 
+|     | seleccionado, ¡el bombardeo comenzará!
+|     |
+-------
+
+Por cada unidad que alcance el bombardeo, incluida la tuya, la computadora
+resolverá el conflicto.
+
+A veces vale la pena lanzar un bombardeo sobre tu propia cabeza,
+Especialmente si tu unidad está bien protegida pero está rodeada de enemigos.
+unidades al aire libre.
+
+3.11 Combate cuerpo a cuerpo
+
+---------
+|Imagen| Si un escuadrón de infantería está adyacente a una unidad enemiga, puede atacar
+|de un | en combate cuerpo a cuerpo. En combate cuerpo a cuerpo, el defensor siempre recibe
+|cuchillo! | la primera fiesta.
+---------
+
+Las unidades de artillería no pueden iniciar un combate cuerpo a cuerpo pero sí pueden defenderse. 
+ellos mismos si son atacados, en cuyo caso usan su potencia de fuego inherente,
+que es 2, y tiene cinco hombres.
+
+En combate cuerpo a cuerpo, la potencia de fuego utilizada para resolver cada ataque es la de la unidad.
+potencia de fuego inherente más 1. A medida que las tropas mueren o resultan heridas,
+La potencia de fuego se reduce proporcionalmente. Si la unidad defensora está rota, su
+La potencia de fuego se reduce a la mitad.
+
+Las armas de apoyo no se pueden usar en combate cuerpo a cuerpo; podrías usar un
+arma de apoyo para "suavizar" al enemigo antes de atacar de cerca.
+combate, pero no puedes ponerlo en juego una vez que la pelea está en progreso.
+
+El cuadro de información a la izquierda de la pantalla muestra el resultado de cada
+ataque: los dados lanzados, los modificadores por liderazgo y combate cuerpo a cuerpo
+(Esto se reduce en uno en cada ronda del combate a medida que los escuadrones localizan
+las disposiciones enemigas, pero nunca bajará de -9) y el resultado.
+
+Cada ronda de combate cuerpo a cuerpo puede resultar en ningún efecto o en un número
+de las tropas muertas. Si el número de hombres restantes cae a cinco
+o menos, la unidad se convierte en medio escuadrón, con la consiguiente pérdida de
+potencia de fuego y armas de apoyo. Si el número de muertos es mayor que el
+número restante, la unidad se elimina.
+
+En cada ronda del combate cuerpo a cuerpo, tanto tú como la computadora tenéis
+la opción de atacar o retirarse, aunque las unidades de artillería no pueden retirarse,
+¡Deben luchar o morir!
+
+Si la unidad defensora se retira, saldrá de la casilla ocupada y
+el atacante entrará. Si la unidad defensora está completamente rodeada
+no tiene más remedio que rendirse. Si el escuadrón atacante se retira,
+no se moverá sino que simplemente dejará de atacar, pero el defensor podrá entonces
+¡atacar en su turno, si así lo desea!
+
+El combate cuerpo a cuerpo continúa hasta que una unidad se retira o es aniquilada.
+fuera.
+
+3.12 Moral
+
+Una unidad se desintegra cuando las tropas están más preocupadas por su vida personal.
+supervivencia que con el logro de su objetivo. En lugar de atacar,
+(muy sensatamente) correrá para cubrirse.
+
+Si una unidad se rompe, no puede hacer nada ese turno, excepto un único intento.
+para reunir las tropas. Algunas unidades comienzan el juego acurrucadas en un estado de
+¡Entra en pánico y debes reunirlos antes de que sean de alguna utilidad!
+
+-------- Al hacer clic en este icono, intenta reunir las tropas. debes rodar
+| No | menor o igual a su nivel moral. Los modificadores se utilizan para
+| Saber | liderazgo: un buen líder tiene más posibilidades de oponerse a los
+| Este | tropas - y el hecho de que la unidad ya está desmantelada, lo que
+| Icono | hace que sea más difícil persuadirlos para que se levanten y luchen.
+--------
+
+Si logras reunir al escuadrón con éxito, podrá continuar con el turno.
+moverse, pelear o lo que sea. Si fallas, no podrá hacer más y tú
+Debes intentarlo de nuevo en tu próximo turno.
+
+Si obtienes un 2 sin modificar, las tropas se reúnen con tanto éxito que
+El liderazgo de la unidad mejora permanentemente en 1, pero si tiras un
+sin modificar 12 las tropas no están impresionadas por su retórica hueca y
+¡El nivel de moral se reduce permanentemente en 1!
+
+Uno de los posibles resultados de estar bajo fuego es que la moral de
+Las tropas serán revisadas para ver si se rompen. Esto se maneja exactamente
+de la misma manera que cuando intentas reunirlos, excepto que puede haber
+Habrá modificadores adicionales del resultado de la prueba de moral.
+
+4.0 PROGRESO DEL JUEGO
+
+Dependiendo de qué lado hayas elegido jugar, tú o el
+La computadora tendrá el primer turno. En todos los escenarios, el lado que se mostró
+El primero obtiene el primer turno.
+
+-------- En tu turno, le indicas a cada una de tus unidades que se mueva, desempaque
+|---- | sus armas, fuego o lo que sea necesario. cada vez
+| mi \/ | terminas con una unidad en particular, haz clic en el botón FINALIZAR para esa
+-------- unidad.
+
+--------
+|---- | Cuando hayas terminado todas las instrucciones para ese turno, haz clic en
+| mi \/ | en este botón en la fila de íconos debajo del mapa. 
+--------
+
+La computadora hará sus movimientos, y el nombre de cada unidad que está
+tratar aparecerá en el cuadro debajo del mapa. Puedes convertir esto
+opción desactivada deseleccionando la opción INFO en el menú XTRAS.
+
+Si los movimientos de la computadora involucran combate contra una de tus unidades,
+Se le mostrará el resultado y tendrá que tomar cualquier acción necesaria, como
+como control de la moral. Una vez que la computadora ha terminado su turno, el control es
+regresó a ti.
+
+-----------
+|Algún tipo| 
+|de círculo| Cada escenario tiene un número limitado de turnos disponibles. tu puedes
+|,tal vez un | mira cuantos giros han pasado del total haciendo clic en
+|CERO,o un| este icono.
+|ESCENARIO!|
+-----------
+
+----------
+| ------ |  
+| ## ## | Este icono es una palanca. Cuando está activo, las unidades se eliminan de la vista.
+| ## ## | permitiéndote comprobar el terreno que ocupan.
+| ###### |
+----------
+
+------------
+|Imagen de| Este icono muestra la línea de visión de una unidad seleccionada. cualquier parte
+|4 flechas | Las partes del mapa que el escuadrón no puede ver aparecerán atenuadas. Líneas
+|señalando | de visión son recíprocos: si puedes ver una unidad enemiga, puede
+|en diagonal| Verte (¡y dispararte!).
+------------
+
+----------
+|  __ /\ | Si la unidad seleccionada es una unidad de artillería, al hacer clic en este icono
+|  |\ | | mostrará la línea de fuego. La unidad no sólo debe poder ver 
+|    \##| el objetivo, también debe tener su arma apuntando hacia la derecha
+| <----##| ¡dirección!
+----------
+
+-------- (NOTA: ESTO SI CUATRO FLECHAS APULAN UNA CONTRA OTRA (RYGAR))
+| \ / | Al hacer clic en este icono se centrará el mapa en el lugar seleccionado actualmente.
+|      | unidad.
+| /\ |
+--------
+
+MENÚ FL
+
+Frontline Da información sobre el juego.
+
+MENÚ DE JUEGO
+
+Escenario Te permite elegir qué escenario deseas jugar. esto es
+              Sólo está disponible al comienzo del juego.
+
+Cargar juego Carga un juego previamente guardado desde el disco.
+
+Guardar juego Guarda tu posición actual en el disco.
+
+Rendición Finaliza el juego actual, dándote la opción de iniciar un
+              nuevo juego, cargar un juego guardado o salir al escritorio.
+
+Salir Abandona el juego y reinicia la máquina.
+
+MENÚ DE UNIDADES   
+
+Breifing Enumera tus unidades, permitiéndote encontrarlas inmediatamente.
+              Si el nombre de la unidad es gris, está muerta, rota o fuera de servicio.
+              mapa; si es amarillo todavía puede realizar acciones que giren; si
+              Las blancas han terminado sus acciones para ese turno.
+
+Imprimir estado Imprime los detalles de todas sus unidades, incluida su
+              armas de apoyo, siempre que tengas una impresora en línea.
+              Haz esto al comienzo del juego para ver exactamente
+              qué fuerzas tienes disponibles. ADVERTENCIA: SI NO
+              TENGA UNA IMPRESORA EN LÍNEA, LA MÁQUINA PUEDE BLOQUEARSE.
+
+MENÚ XTRAS  
+
+Información Si se selecciona esta opción, se le indicará el nombre de
+              cada unidad enemiga mientras la computadora se ocupa de ella. Usando
+              Esta opción ralentiza un poco el juego.
+
+Mostrar Si esta opción está desactivada, no verás ninguna tirada de dados.
+              o tablas de cálculo; solo se le informará el resultado.
+
+Sound FX Activa o desactiva los efectos de sonido.
+
+Hora Si esta opción está desactivada, no hay límite de tiempo para
+              el juego.
+
+5.0 LOS ESCENARIOS
+
+5.1 Escenarios introductorios
+
+1. El asalto a la colina 193
+
+Este escenario especial introductorio forma parte de las operaciones cubiertas
+por el escenario de Cassino. Este escenario sólo utiliza un pequeño número de
+escuadrones y ninguna artillería. Está diseñado para permitirle familiarizarse
+con la forma en que funciona el juego.
+
+Es tarea del bando aliado eliminar el búnker situado en la colina.
+en la parte superior del mapa. Desde este búnker los alemanes tienen un
+vista dominante de las operaciones en la ciudad y, si tuvieran una radio
+estaría en una posición ideal para dirigir el fuego de artillería contra las fuerzas aliadas.
+
+La naturaleza del terreno es tal que la infantería puede esperar poco.
+apoyo de los tanques, por lo que deben eliminar el búnker por su cuenta. a
+Para ello, deberán aprovechar cualquier cobertura disponible.
+
+Las fuerzas alemanas tendrán que desplegarse para cubrir la mayor parte posible de la colina.
+posible, no sólo el búnker. El escenario muestra la necesidad de un 'intervalo
+tropas para proteger puntos fuertes: intenta jugar usando solo un escuadrón
+¡En el búnker si no lo crees!
+
+Para ganar los Aliados deben eliminar TODAS las fuerzas alemanas en el mapa.
+Los alemanes ganan si los aliados fracasan.
+
+2. Limpiar el convento
+
+El segundo escenario introductorio también proviene de Cassino. eso
+introduce el uso de piezas de artillería en el mapa en el juego; en este
+caso un mortero de 120 mm y tripulación.
+------------------------------------------------- Uno de los pocos relativamente
+|                                               | edificios intactos en el
+| Armamento aliado | El pueblo era un convento. es
+| Subfusil Sten Mark 2 | la tarea de los aliados
+|                                               | obliga a limpiar el 
+| Munición: 9 mm | Alemanes fuera del edificio.
+| Cíclico: 550 RPM | y pasar a ocuparse de
+| Revista: Caja de 32 Rondas | Mortero de 120 mm. el 
+| Velocidad de salida: 1250 pies por segundo | aproximaciones a este último
+|                                               | están cubiertos por el alemán
+| El Sten se destacó por su falta de fiabilidad en | tropas en el convento, por lo que
+| los primeros modelos. Su gran debilidad fue | probablemente tendrán que
+| la revista que a menudo provocaba paros | ser tratado primero.
+| debido a que no hay bala en la recámara - o incluso |
+| ¡dos! Su coste de producción de 2,95 libras ganó | Los alemanes pretenden frustrar
+| le dio el sobrenombre de "La pistola Woolworth". El | los aliados aferrándose a
+| Mark 2 fue el caballo de batalla con más | el edificio. ellos son
+| 2.000.000 fabricados en tres años.                | esperando el anochecer, cuando 
+------------------------------------------------- Se podrán reforzar
+                                                  para colarse en la ciudad.
+
+El convento está en el centro izquierdo del mapa.
+
+Para ganar, los aliados deben limpiar el área del mapa de alemanes: los alemanes.
+ganar si los aliados fracasan.
+
+5.2 Puente de Pegaso
+
+El 6 de junio de 1944 los aliados abrieron el tan esperado Segundo Frente.
+al invadir Normandía. La operación fue una de las más grandes realizadas por vía marítima.
+operaciones jamás realizadas. La tarea de asegurar los flancos del
+La invasión y la prevención del movimiento de refuerzos enemigos fue
+asignado a las divisiones aerotransportadas.
+
+La seguridad del Canal de Caen-----------------------------------------------
+puente en Benouville era uno | Armamento aliado |
+de los objetivos asignados a| Ametralladora ligera Bren Mark I |
+el sexto aerotransportado británico |                                             |
+División. Para lograr esto | Munición: .303 pulgadas |
+objetivo se decidió | Cíclico: 500 RPM | 
+aterriza tres planeadores en un campo | Cargador: Caja de 30 balas o 100 |
+junto al puente y aprovechar |                  tambor redondo |
+mediante un golpe de mano.         | Velocidad de salida: 2440 pies por segundo |
+                              |                                             |
+A las 00:16 horas del día 6 de junio primero| De diseño simplista y resistente |
+planeador aterrizó, de cerca | construcción, esta fue la mejor LMG aliada |
+seguido de los otros dos - | de la Segunda Guerra Mundial. Sólo tenía un fallo real y ese|
+las primeras tropas aliadas en | hubo paros por cartuchos con reborde |
+Aterriza en el alma francesa. El | y la revista. La velocidad de disparo podría |
+tropas salieron tambaleándose del | ser variado mediante un enchufe ajustable |
+planeadores, habiendo logrado | y tenía un cañón que se podía cambiar |
+completa sorpresa, el | en cuestión de segundos.                     |
+centinelas asumiendo que el -----------------------------------------------
+Los accidentes fueron restos de un bombardero.
+golpeando el suelo.
+
+Parte de la fuerza comenzó a limpiar los pastilleros en la orilla oriental del
+el canal, mientras el resto de la pequeña fuerza se apresuraba hacia el puente. Una vez terminado
+En el puente, las fuerzas alemanas del otro lado fueron derrotadas rápidamente,
+y el cruce quedó asegurado.
+
+Luego, la pequeña fuerza mantuvo el puente durante las siguientes dos horas hasta unir
+junto con la principal fuerza aerotransportada que había sido lanzada más al este.
+
+En honor a los hombres que tomaron el puente, más tarde pasó a llamarse "Pegaso".
+Puente' según la insignia de las tropas aerotransportadas.
+
+El escenario describe la toma del puente. La tarea de los aliados es
+tomar el puente y limpiar el área circundante de fuerzas alemanas.
+El objetivo de los alemanes es frustrar a los aliados.
+
+5.3 El fin en Stalingrado
+
+La ofensiva rusa de noviembre de 1943 aplastó a las fuerzas débiles.
+manteniendo los flancos del Grupo de Ejércitos Sur. A finales de mes el
+El Sexto Ejército alemán en Stalingrado estaba firmemente rodeado y el
+Los hombres atrapados se acomodaron a esperar que llegara el socorro.
+
+Las operaciones de socorro fueron confiadas a Manstein -uno de los
+mejores comandantes, y se le dio una fuerza heterogénea para lograr
+la tarea. El 12 de diciembre, las fuerzas de socorro estaban a sólo 30 millas de
+Stalingrado, pero no pudo avanzar más.
+
+Hitler, sin embargo, se negó a permitir que el VI Ejército estallara y así
+el destino del Sexto ejército estaba sellado... Con suministros insignificantes el
+Los asediados continuaron luchando durante otras seis semanas, hasta que, muertos de hambre y sin recursos,
+municiones que ya no pudieron resistir.
+
+El 31 de enero de 1943, Paulus entregó el VI ejército alemán.
+Stalingrado desafiando las órdenes de Hitler de resistir hasta el final. en el
+sector industrial del norte los restos del XI Cuerpo se negaron a rendirse
+y continuó aguantando.
+
+Aguantaron dos días más, luchando entre los escombros del Tractor.
+Factory hasta las 8:40 del día 2 de febrero cuando transmitieron su último
+mensaje al mundo exterior. Media hora después finalmente estaban
+invadida por los rusos y la lucha en Stalingrado terminó.
+
+El escenario muestra los últimos combates en el taller de montaje de la fábrica.
+El objetivo de los rusos es eliminar completamente a las fuerzas alemanas.
+- permitir que las tropas inversoras se destinen a otras operaciones. el
+El objetivo de los alemanes es retrasar --------------------------------------------
+los rusos sobreviviendo al |                                          |
+final del tiempo asignado.       | Armamento alemán |
+(Durante este período el | Subfusil MP 38/40 |
+Los rusos estaban desesperados por |                                          |
+acabar con los alemanes en | Longitud: 832 mm | 
+Stalingrado para que pudieran |                  (629 en stock plegado) |
+redesplegar las tropas a | Munición: 9 mm |
+operaciones diseñadas para cortar | Cíclico: 500 RPM |
+Fuerzas alemanas en el | Revista: Caja de 32 Rondas |
+Cáucaso.) | Velocidad de salida: 1250 pies por segundo |
+                                 |                                          | 
+                                 | Conocido incorrectamente como "Schmeisser", |
+                                 | De hecho, el MP38/40 fue un prototipo de |
+                                 | Fábrica de Erma, que todavía existe|
+                                 | hoy. Mientras que el MP38 era caro |
+                                 | producir pronto fue reemplazado por el |
+                                 | MP40 que utilizó estampados de chapa de acero |
+                                 | y fueron soldados con soldadura fuerte o por puntos.  |
+                                 |                                          |
+                                 --------------------------------------
+
+5.4 Guadalcanal
+
+En el verano de 1942, la isla de Guadalcanal asumió repentinamente 
+una importancia estratégica importante, cuando se descubrió que los japoneses
+construir un aeródromo. Desde esta posición podrían amenazar la
+Líneas de comunicación entre Estados Unidos y Australia.
+
+A la 1.ª División del Cuerpo de Marines de los EE. UU. se le asignó apresuradamente la tarea
+de tomar la isla. Con poco tiempo para prepararse, los 19.000 efectivos
+La división zarpó.
+
+Los marines aterrizaron y se abrieron camino tierra adentro hasta el aeródromo a medio construir.
+asegurándolo dentro de las 36 horas. Amenazado por la flota japonesa, EE.UU.
+Los transportes y buques de guerra se retiraron antes de que se completara la descarga.
+Estirando sus raciones lo mejor que pudieron, reforzando sus defensas
+con armamento capturado y luchando contra los dos japoneses.
+contraataques y los problemas del intenso calor y las temperaturas tropicales.
+enfermedad, los marines completaron la construcción del aeródromo.
+
+Los japoneses estaban decididos a retomar la isla. Varios
+batallones bajo el mando del mayor general Kiyotaki Kawaguchi
+desembarcaron, y en las noches del 12 y 13 de septiembre
+intentó asaltar la cresta --------------------------------------------
+separándolos del | Armamento americano |
+aeródromo capturado, haciendo un | Submáquina Thompson Modelo 1928A1 |
+intento total de desalojar al | Arma |
+Infantería de marina.                         |                                          |
+                                 | Munición: 0,45 pulgadas |
+Las fuerzas estadounidenses estaban bien atrincheradas. Cíclico: 725 RPM |
+A pesar de estar sorprendidos | Revista: 20-30 Ronda |
+se defendió llamando |                   Caja escalonada |
+fuego de apoyo desde la artillería hacia| Velocidad de salida: 920 pies por segundo |
+romper japonés |                                          |
+concentraciones.                  | El principal inconveniente de esta arma era su |
+                                 | Fabricación complicada y precisa.     |
+Los combates fueron intensos. Por el | Esto hizo que no fuera tan confiable en |
+mañana del 14 japonés | el campo como debe y también a lo alto|
+cadáveres cubrían las pistas - | costo de producción. Se instalaron modelos posteriores |
+600 muertos y 600 heridos.        | sin compensador en la boca. Es|
+                                 | El apodo era "La Tommy Gun".            |
+                                 --------------------------------------
+
+Los marines perdieron 40 de sus 700 hombres y 103 resultaron heridos. no por nada
+Era el campo de batalla llamado "Bloody Ridge".
+
+Cinco días después, importante EE. UU. ---------------------------------------
+Los refuerzos aterrizaron y el | Armamento japonés |
+Los marines cansados ​​de la batalla pudieron | Fusil tipo 99 |
+para retirarse. Los combates |                                           |
+continuó por otros cuatro | Munición: 7,7 mm |
+meses antes que los japoneses | Longitud: 1143 mm |
+finalmente se retiró, saliendo | Revista: Caja interna de 5 rondas |
+Guadalcanal seguro en | Velocidad de salida: 2400 pies por segundo |
+Manos americanas.                  |                                           |
+                                 | Reemplazando el tipo del año 38 en 1939, |
+El escenario representa parte del | se destacó por la inclusión de un |
+último ataque japonés al | monopié de alambre endeble y barras de plomo plegables |
+cresta. Para ganar a los japoneses | en la mira trasera. Así fue el soldado|
+debe limpiar el sector de EE.UU. | ¡Podría usarlo contra aviones! Un tipo 99 |
+Infantería de marina. Los marines estadounidenses deben | También se introdujo el rifle paracaidista de 7,7 mm.
+sobrevivir para ganar.                  | producido en 1940 pero no fue un éxito y |
+                                 | fue reemplazado por el Tipo 2 de 7,7 mm en 1942 |
+                                 --------------------------------------- 
+
+Casino 5.5
+
+Los aliados desembarcaron en Italia en septiembre de 1943 pero el avance pronto
+disminuyó la velocidad y finalmente se detuvo frente a la Línea Gustav. Estirándose
+Italia, estaba dominada por Monte Cassino, de 1.700 pies de altura y bloqueando
+la carretera principal a Roma.
+
+Mostrando una calidad de general que recuerda a la Primera Guerra Mundial,
+Se lanzaron ataques frontales contra el macizo de Cassino. mal tiempo
+y la fuerte oposición alemana infligió pérdidas considerables a la
+Fuerzas aliadas.
+
+Sin inmutarse, el alto mando decidió continuar con el ariete.
+ataques y trajo refuerzos en forma de Nueva Zelanda
+Cuerpo. Las batallas continuaron hasta que el clima detuvo la batalla.
+peleas.
+
+Tres semanas después se reanudó el ataque. El plan era para el 4to.
+División India para ascender las laderas orientales de la Colina del Monasterio mientras
+La 2.ª División de Nueva Zelanda y la 4.ª Brigada Blindada entraron
+el pueblo.
+
+El 15 de marzo se lanzaron más de 1.000 toneladas de bombas sobre la
+calles estrechas de Cassino, seguido de un bombardeo de 200.000 balas. el
+la ciudad quedó reducida a escombros. Entonces los generales estaban convencidos de que el
+Los alemanes habían sido aniquilados.
+
+Estaban equivocados. soldados de
+el primer paracaídas alemán
+La división sobrevivió. Escombros y
+enormes cráteres detuvieron a los tanques
+entrando al pueblo, y el
+La infantería estaba sola.
+
+Se abrieron camino luchando 250
+metros dentro de la ciudad, pero bajo
+cubierta de noche los alemanes
+trajo reservas. una semana
+Posteriormente, el 23 de marzo, el
+se llamó asalto desastroso 
+apagado. No fue hasta mayo que los aliados
+tomar Cassino, y sólo cuando los alemanes se retiraron. el camino
+quedó claro, con un coste de 105.000 víctimas.
+
+El escenario describe el inicio del asalto a la ciudad. la tarea de
+las fuerzas de Nueva Zelanda es limpiar el sector representado por el
+Mapa de las fuerzas alemanas. El objetivo alemán es sobrevivir...
+
+6.0 ORDEN DE BATALLA
+
+El asalto a la colina 193
+
+Alemanes aliados
+       
+7 x escuadrones de infantería de línea 4-5-7 3 x escuadrones de infantería de élite 5-4-8
+1 x -2 Líder 1 x -2 Líder
+1 x -1 Líder 2 x -1 Líder
+2 x ametralladora ligera 3 x ametralladora pesada
+
+              ----------------------------------------------
+
+Limpiar el convento
+
+Alemanes aliados  
+
+7 x escuadrones de infantería de línea 4-5-7 2 x escuadrones de infantería de élite 5-4-8
+2 x -1 Líderes 1 x medio escuadrón de infantería de élite 3-4-8
+2 x ametralladoras ligeras 1 x mortero de 120 mm y tripulación (moral 8)
+                                           1 x -2 Líder
+                                           1 x -1 Líder
+                                           1 x ametralladora pesada
+                                           1 x ametralladora ligera
+                                           1 x mortero ligero
+
+               ---------------------------------------
+
+Puente de Pegaso
+
+Alemanes aliados
+
+Elementos de la 6.a División Aerotransportada Británica Elementos de la 346.a División de Infantería
+5 x escuadrones de infantería de élite 6-3-8 9 x escuadrones de infantería de línea 4-6-7
+2 x escuadrones de infantería de élite 4-5-8 3 x -1 líderes
+1 x Líder -3 3 x Ametralladora pesada
+2 x -1 Líderes 2 x Ametralladora mediana
+3 x ametralladora ligera
+2 x cargas de demolición
+
+               ---------------------------------------
+
+El fin en Stalingrado
+
+ruso alemán 
+
+Elementos del 62º Ejército Elementos del XI Cuerpo
+4 x escuadrones de infantería de élite 6-2-8 5 x infantería de línea 4-6-7
+8 x escuadrones de infantería de línea 4-4-7 1 x -3 Líder
+4 x -1 Líder 2 x -1 Líderes
+2 x lanzallamas 3 x ametralladoras pesadas
+4 x Cargas de demolición 1 x Mortero ligero
+1 x ametralladora pesada
+
+Guadalcanal
+
+Alemanes aliados
+
+Elementos de la 1.ª División de Infantería de Marina de EE. UU. Elementos de 2/5 y 2/1 Para
+4 x escuadrones de infantería de élite 5-4-8 (1.ª División de Paracaidistas)
+2 x medios escuadrones de infantería de élite 3-4-8 6 x escuadrones de infantería de élite 5-4-8 
+1 x Líder -3 1 x Medio escuadrón de infantería de élite 3-4-8
+2 x -1 Líder 1 x mortero de 120 mm y tripulación (moral 8)
+1 x Radio (acceso a batería fuera del mapa de 155 mm) 1 x -2 líder
+4 x ametralladora pesada 2 x -1 líder
+2 x ametralladora ligera 1 x radio (acceso a 155 mm fuera del mapa)
+                                               batería)
+                                           1 x ametralladora ligera
+                                           2 x ametralladora mediana
+                                           3 x ametralladora pesada
+2 x mortero ligero
+
+APÉNDICE A
+
+Tabla de resultados del combate de fuego de infantería
+       |
+       |Potencia de fuego...
+Resultado |1 2 4 6 12 16 20 24 30 36              
+       | 
+------------------------------------------------------------------------------
+<0 |TOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+- |MITA MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD
+1 |MC_1 MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD MITAD
+2 |MC_1 MC_1 MC_2 MITAD MITAD L_KIA KIA KIA KIA
+3 |MC_0 MC_1 MC_1 MC_2 MC_2 MC_3 L_MANTENER MANTENER MANTENER
+4 |OK MC_0 MC_1 MC_1 MC_2 MC_2 MC_4 L_OK
+5 |OK OK MC_0 MC_1 MC_1 MC_2 MC_3 MC_4 L_OK 
+6 |OK OK OK MC_0 MC_1 MC_1 MC_2 MC_3 MC_4 L_OK
+7 |OK OK OK OK MC_0 MC_1 MC_2 MC_2 MC_3 MC_4 
+8 |OK OK OK OK OK MC-0 MC_1 MC_2 MC_2 MC_3 
+9 |OK OK OK OK OK OK MC_1 MC_1 MC_2 MC_2
+10 |OK OK OK OK OK OK MC_0 MC_0 MC_1 MC_1
+11 |OK OK OK OK OK OK OK MC_0 MC_0 MC_1
+12 |OK OK OK OK OK OK OK OK MC_0 MC_1
+13 |OK OK OK OK OK OK OK OK OK MC_1
+>14 |OK OK OK OK OK OK OK OK MC_0
+- |
+
+SÍMBOLOS:
+
+KIA Muerto en acción
+MITAD Plantilla completa reducida a mitad de plantilla
+         Medio escuadrón muerto en acción.
+Líder de L_KIA muerto en acción
+MC_# Se requiere control de moral con un modificador de +#
+OK SIN efecto
+
+APÉNDICE B
+
+Equivalentes de calibre de arma/potencia de fuego
+
+Calibre | 20 30 40 50 60 70 85 100 125 150 200
+         |
+------------------------------------------------------------------------------
+Potencia de fuego|  1 2 4 6 8 12 16 20 24 30 36  
+         |  
+
+APÉNDICE C
+
+Artillería para golpear la mesa
+
+Gama | <6 7-12 13-18 19-24 25-30 31-36 37-42 43-48 49-54 >54
+         |
+------------------------------------------------------------------------------
+Resultado |  8 7 6 5 4 3 2 1 0 -1
+         |
+
+APÉNDICE D
+
+Modificadores de cañón de pistola
+        
+        | 
+Mod | <6 7-12 13-18 19-24 25-30 31-36 37-42 43-48 49-54 >54
+------------------------------------------------------------------------------
+-1 | 0 0 +1 +1 +1 +1 +1 +1 +1 +1
+ 0 | 0 0 0 0 0 0 0 0 0  
++1 | 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
++2 | 0 0 -1 -1 -2 -2 -2 -2 -2 -2
+        | 
+
+MAPAS: ¡NO SE INCLUYEN MAPAS! COMPRA EL JUEGO SI QUIERES
+          ¡ELLOS!  
+
+¡FIN DEL MANUAL!   NO ESTOY PARTICULARMENTE ORGULLOSO DE LAS DESCRIPCIONES DE LOS ICONOS, PERO
+¿QUÉ DEMONIOS, QUÉ PUEDES ESPERAR? CON LA VERSIÓN CRACKEADA Y ESTE MANUAL
+¡NO TIENES QUE COMPRAR EL JUEGO!         DESPUÉS TODO... [RYGAR] ¡CIENCIA 451!
+
+TIEMPO DE ESCRITURA: UNAS 5 HORAS...
+             ¡MALDITA PÉRDIDA DE TIEMPO!
+             (Y TAMBIÉN ERA ABURRIDO...)

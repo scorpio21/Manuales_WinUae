@@ -1,0 +1,635 @@
+INSTRUCTIONS FOR SUPER HUEY
+
+TABLE OF CONTENTS
+
+OVERVIEW                                                     1
+LOADING THE PROGRAM IN AMIGA                                 2
+LOADING THE PROGRAM IN ATARI (NOT TYPED IN THESE INSTS)      3
+HELICOPTER CONTROL CONVENTIONS                               4
+UH-1XA FLIGHT CONTROL                                        7
+INSTRUMENTS                                                 11
+COMPUTER CONTROL FUNCTIONS                                  15
+WEAPONS FIRE                                                15
+COMPUTER COMMANDS                                           16
+TAKE-OFF, FLIGHT AND LANDING                                17
+AUTOROTATIVE LANDING                                        19
+MISSION ASSIGNMENTS                                         20
+THE MISSIONS                                                20
+NAVIGATION                                                  24
+
+OVERVIEW
+The UH-1XA is a new, experimental high performance helicopter using the 
+latest in electronic control systems and stabilization. Its features include:
+
+    *State-of-the-art electronic instrument console
+    *On-board computer that regulates and monitors ship's systems and 
+     provides pilot messages and commands for special operations.
+    *Automatic pitch control to engine power linkage for RPM equilibrium, 
+     including synchronization of anti-torque pitch (with manual override).
+
+The UH-1XA is powered by a new VLW (very light weight) piston engine molded 
+from a super-strength, superlight composite metal of militarily classified 
+process, which rivals the weight to thrust ratio of most turbo shaft engines,
+and provides lower echelon field maintenance capabilities. Mounted 
+vertically, the engine is coupled to the main rotor shaft through a custom 
+direct drive transmission that auto clutches to a 10 to 1 engine to rotor 
+RPM reduction rate.
+
+The rotor assembly consists of semi-rigid blades and a hub articulation 
+system that is adjusted servo-electronically to respond to flight conditions.
+This system causes flight drag reduction of 40 to 60% with resultant 
+improvement in speed, performance and fuel economy.
+
+Structually based on Bell Helicopters' UH-1 series, the UH-1XA's fuselage is
+molded in carbon fiber laminates for optimum aero-dynamic characteristics 
+and low weight. Defensively, the fuselage is vulnerable to weapons fire, 
+although the unique elasticity of the material resists and deflects hits 
+better than metal exteriors of equivalent weight.
+
+The streamlined cockpit seat one pilot in front with room for a navigator/
+pilot directly behind. Space amidship allows three additional personnel to 
+squeeze in.
+
+The main controls are incorporated into one unique incremental controller --
+a revolutionary and controversial innovation that replaces the collective, 
+cyclic and anti-torque controls of conventional helicopters.
+
+While the UH-1XA's innovative controller requires new techniques to be 
+learned by both novices and experienced pilots, it also provides advantages.
+In solo flight, it allows the pilot to fly the craft while also operating 
+the on board computer, radio and weapons.
+
+The weapons system includes rockets that can be armed in sets of four and 
+fired at one second intervals. Two machine guns, mounted one on each side of
+the fuselage, fire in tandem. Maximum load is 20 rockets and 2,000 machine 
+gun rounds.
+
+The UH-1XA was not specifically designed as a military aircraft. It's high 
+speed and long range is useful for reconnaissance or rescue, while its 
+armaments provide adequate defense capability.
+
+The UH-XA represents a new direction in helicopter flight and control system
+design. See your Huey dealer and fly one when it becomes available. In the 
+meantime, prepare yourself with the Super Huey Flight Simulator from Cosmi!
+
+
+LOADING THE PROGRAM INTO THE AMIGA
+
+SYSTEM REQUIREMENTS FOR THE AMIGA 1000
+1) The Super Huey Disk
+2) Amiga Computer with 512K minimum RAM
+3) The Amiga Mouse
+Note: The mouse should be plugged into port #2 during play, leave the disk 
+in the drive.
+1) Be sure your computer, monitor, computer keyboard and mouse are correctly
+connected.
+2) Install the Kickstart (version 1.1 or later), and power on the computer. 
+Also power on the monitor. If your system is already initialized, just warm 
+boot to reset.
+3) Place the Super Huey disk in the computer's built-in drive.
+4) When the 1> symbol appears, type in the letters SH and press the return 
+key on the computer keyboard.
+5) After the title sequence plays, you are in the cockpit of the Super Huey 
+UH-1XA.
+6) To choose your mission, press the F7 key to power up the on board 
+computer, they type in the word mission, press the return key followed by 
+one of the four mission commands:
+    1) SCHOOL
+    2) EXPLORE
+    3) COMBAT
+    4) RESCUE
+
+LOADING THE PROGRAM INTO THE ATARI ST (These instructions were not included 
+by the typist).
+
+HELICOPTER CONTROL CONVENTIONS
+This is not intended as a tutorial on helicopter but rather a general 
+description of the traditional and well understood characteristics of 
+rotary-wing aircraft.
+
+The physics of flight are the same for fixed wing and rotary wing aircraft, 
+but the helicopter introduces some complex problems over airplanes. In the 
+first place, airplanes are inherently stable whereas helicopters are 
+inherently unstable. As a result, planes tend to maintain straight and level
+flight, while helicopters tend to deviate from it. Both the wing of an 
+airplane and the rotor blade of a helicopter are "airfoils" and interact 
+with the air the same way through the "Bernoulli Effect". Briefly, this 
+describes the effect of the curvature of a wing causing a higher air 
+pressure area below the wing and a low pressure area above, producing 
+(vertical) lift as the wing moves through the air.
+
+A fixed wing craft requires forward movement through the air to produce lift.
+A helicopter blade achieves lift by spinning on a stationary axis, causing 
+the blade to cut through the air, this producing lift (or vertical thrust) 
+in a direction parallel to the axis of rotation of the blade.
+
+The amount of lift depends on the "angle of attack" of the airfoil, which is
+the angle of the blade to vertical. A "flat" blade will produce lift merely 
+because of the airfoil effect, but not enough to lift the mass of the 
+helicopter. The angle of attack is the pitch of the rotor blade -- the pitch
+is controlled by the pilot -- greater pitch increasing the Bernoulli effect,
+therefore producing more lift. But, simultaneously, as pitch increases, so 
+does drag, because more power is required to maintain the rotor RPM. The 
+relationship between pitch and RPM is perhaps the most important 
+consideration in operating a helicopter.
+
+Another factor in a rotary wing system is the torque reaction of the 
+spinning rotor on the fuselage. The torque of the turning rotor exerts an 
+equal and opposite force on the body of the craft causing it to turn in the 
+direction opposite to the rotation of the blades. Unless counteracted by 
+another force, in this case the action of the tail, (or anti-torque), rotor
+blade. The tail rotor provides thrust in a direction opposite the torque 
+reaction, thereby equalizing the force and stabilizing the rotation of the 
+craft. Further, the thrust of the tail rotor is controllable by the pilot 
+providing directional control, described as right or left yaw. This is 
+possible because overcompensation of the torque effect will turn the 
+fuselage in the direction of the spinning blades: a thrust less than the 
+force of torque will allow the fuselage to turn opposite the rotor direction.
+
+To fly, four main control systems are found in conventional helicopters. 
+These are the cyclic stick, the collective pitch control, the throttle, and 
+the anti-torque (or rudder) pedals. This collective pitch control, usually 
+just called the collective, increases or decreases the pitch of all blades 
+equally, and is the primary vertical thrust control. Normally, pulling up on
+the collective stick will produce lift and lowering it will decrease lift. 
+As mentioned above, as pitch increases, so does rotor drag, requiring an 
+increase in engine power to maintain RPM. In many helicopters, this 
+synchronization is provided automatically by the link between the collective
+and the throttle.
+
+The throttle controls engine power and RPM directly. It is located on the 
+collective stick to aid in the coordination of pitch and RPM. The anti-
+torque pedals control the pitch of the tail rotor blades, providing torque 
+compensation and directional control. Normally these are conventional rudder
+pedals.
+
+Finally, the cyclic stick is the main direction control, and determines the 
+attitude of the rotor system. Basically, when the plane of the spinning 
+rotor is horizontal, all the trust produced is directed upwards, 
+perpendicular to the rotor plane and the horizontal axis of the helicopter, 
+and parallel to the rotor shaft axis. Moving the cyclic stick in any 
+direction away from center (the neutral position) tilts the plane of blade 
+rotation -- the rotor -- in the same direction, thereby adding a horizontal 
+component to the thrust caused by the spinning of the blades, causing the 
+helicopter to move in that same direction. For example, moving the cyclic 
+forward will cause forward thrust to a degree which is proportional to the 
+amount of rotor tilt from the horizontal. At the same time the attitude of 
+the fuselage will change to the same degree (in forward flight, a nose down 
+condition). Also, a cyclic change changes the "blade angle of attack" set by
+the collective pitch control, which will affect RPM and thereby torque 
+reaction. This illustrates an essential characteristic of helicopter 
+controls. Any change in one of the controls will, in most cases, require 
+some adjustment of the others. This fundamental instability in flight 
+behavior is why helicopters must be flown at all times. Summing up, the four
+main control systems are:
+    *The cyclic controls the direction and attitude of the helicopter.
+    *The collective controls the amount of thrust produced by the rotor 
+blades in the direction set by the cyclic.
+    *The throttle directly controls engine power output and RPM.
+    *The anti-torque control adjusts torque compensation and directional 
+control (by yawing) to maintain heading.
+
+UH-1XA FLIGHT CONTROL
+The Super Huey Control System is divided into two main components: the 
+computer keyboard and the incremental flight controller.
+The keyboard design is based on the familiar computer, with full key 
+complement and 10 function control keys. The UH-1XA functions are:
+
+        FUNCTION              KEY
+        COMPUTER ON           F7
+        START ENGINE          F8
+        ENGAGE ROTOR CLUTCH   F9
+        CUT POWER             F10
+
+The remainder of the keyboard and other functions are used to enter commands
+and data to the on board computer, and control the Super Huey UH-1XA's 
+weapons system.
+
+The flight control device is a UH-1XA innovation, and houses all four of the
+helicopter's normal control devices into a single unit. The "mouse" style 
+controller may be positioned to the pilot's satisfaction, and it accommodates
+itself to each pilot's own style of operation.
+
+It operates on an uncluttered flat surface, and employs two activation 
+switches: a left button operated switch and a right button operated switch.
+
+The UH-1XA Control operates in two modes: the cyclic mode, wherein the 
+controller operates like a normal helicopter's cyclic control stick, and 
+collective mode, wherein the controller effects the throttle and rotor blade
+pitch angles.
+
+Pressing the left button engages the cyclic control; pressing the right 
+button engages the collective. Starting with the controller at any position 
+on the surface comfortable to the pilot. A button is pressed and held down, 
+and the control is moved slightly forward (away from the pilot), backwards 
+(toward the pilot), or to either side to engage a specific operation.
+
+The operation is engaged until the button is released, or the controller is 
+moved in another direction. Please note that the top line on the on board 
+computer screen verifies the operation currently engaged, and that the 
+current position of the controller is always relative to the its last 
+position. With both buttons released, the controlled may be moved to any 
+comfortable starting position for the next incremental control move.
+
+Movement of the controller will be described with compass directions: 
+Forward-North, Back-South, Left-West, Right-East, with Northwest or 
+Southwest movement of the cyclic producing left yaw and Northeast or 
+Southeast movement of the cyclic producing right yaw.
+
+With the exception of hard bank turns, all other cyclic and collective 
+controls changes are designed to "set to hold". This control will be 
+continuous until an opposite control maneuver to the same degree is executed
+by the pilot. For example, pushing the control to the Northwest will lessen 
+tail rotor thrust, allowing the fuselage to begin turning to the left. The 
+longer the control is held in that direction, the greater the reaction in 
+tail rotor thrust. Returning the control to center will not eliminate this 
+change, and the helicopter will continue turning left. To stop turning, the 
+pilot must increase tail rotor thrust by moving the control to the Northwest.
+This counteracting thrust, correctly applied will stop the turning and the 
+helicopter will fly a straight course. This counteracting thrust, applied 
+too vigorously, will cause the helicopter to turn right, for which left 
+correcting yaw control must be applied.
+
+Similarly, in the collective mode, an increase in lift produced by moving 
+the control South will build vertical thrust. This lift attitude will remain
+the same until the collective is lowered (moved northward), thereby reducing
+lift. If the resultant lift is not enough to overcome with weight of the 
+helicopter, then it will begin to descend, and, if conducted at a proper 
+rate, land safely. Only experience will allow the pilot to discover the 
+precise points of equilibrium for successful maneuvers.
+
+INSTRUMENTS
+                     
+1) FRE-Automatic VHF omnidirectional range transmission from a local station
+or base used by the navigation computer to set a heading to the transmission
+heading.
+2) HOM-A homing device with an effective range of approximately 25 miles may
+be dropped using the HOM command. The heading to the drop spot from the 
+helicopter is transmitted from the HOMing device is displayed here.
+3) NAV-Compass navigation heading computed from the VOR transmission. (1) 
+The AUTO (Automatic Course Correction) command may be used to copy this 
+heading to the automatic course (COR) setting (2) or the NAV heading may be 
+followed manually.
+4) RES-This is the heading displayed by a homing transmitter in the 
+possession of the ground personnel to be located. This readout will activate
+automatically when within range of the REScue signal.
+5) NAV SCREEN-Blip marks location of current active NAVigation, or REScue 
+transmission source relative to the position of the helicopter within an 
+8-mile radius.
+6) ARM-ARM is when the machine guns are activated during the COMBAT mission.
+7) 1 2 3 4-These numerals represent rocket bays one, two, three and four. 
+When the rockets are loaded into the bays, the numerals are lit. When the 
+rockets are armed, the indicator lights are on.
+8) INDICATOR LIGHTS-Routine automatic systems check will light the 
+appropriate indicator if a malfunction is found in the electronic systems. 
+Cycling lights indicate check in progress: non-cycling light on indicates 
+malfunction.
+9) ON BOARD COMPUTER-On board computer screen displays cyclic and collective
+action, computer messages, and the pilot's computer keyboard commands.
+10-11) ENG-Engine tachometer set includes digital readout of engine 
+revolutions per minute (RPM) and a sliding needle gauge. Red areas on needle
+gauge indicate low or excessive levels. Yellow areas are cautionary levels.
+Pale blue area is the normal operating range.
+12) MFLD-The manifold pressure gauge indicates engine power output. Red area
+indicates dangerously high pressure.
+     Note: The engine automatically cuts off to prevent rupture at high 
+manifold pressure levels.
+13-14) ROT-Rotor tachometer set includes digital readout of rotor RPM and 
+sliding needle gauge. Red, yellow and pale blue areas are explained above 
+under ENG.
+15) FUL-Fuel gauge
+16) OIL-Oil pressure gauge. Optimum reading is center mark.
+17) TMP-Engine temperature gauge. Normal reading is center mark.
+18) WIN-Ambient wind direction.
+19) PCH-Collective pitch gauge: shows degree of blade pitch between from 
+"full low" (zero degree angle of attack) to the highest pitch point.
+20) HORIZON-Artificial horizon indicates the fuselage attitude relative to 
+a horizon line.
+21) COM-Compass heading.
+22) COR-Automatic course setting indicates preset heading (set with the AUTO
+on board computer command), which will be followed if there is no manual 
+flying control.
+    Note: Although many stabilization features are included in the UH-1XA, 
+the inherent instability of helicopters makes automatic course setting with 
+the AUTO command only 70 to 80% reliable.
+23) ATQ-Anti-torque gauge indicates level of rotor torque compensation by 
+the tail rotor. Also indicates rate of yaw.
+24) AMP-Ampmeter gauge indicates electrical power output. Normal reading is 
+center mark.
+25) EXH-Exhaust/cylinder head temperature gauge indicates engine operating 
+conditions. Optimum reading is center mark.
+26) SPD-Indicates wind speed in the direction indicated by the WINd gauge.
+27) CRB-Carburetor gauge: during warm-up, this gauge shows "full-rich" fuel 
+mixture for primary ignition, which then falls to medium. At normal operating
+temperatures, the gauge indicates carburetor intake air temperature.
+28-29) SPEEDOMETER-The speedometer set includes digital readout and sliding 
+needle gauge. Red, yellow, and pale blue areas are explained above under ENG.
+30) GROUND PROXIMITY GAUGE-Vertical needle gauge shows elevation from 0 to 
+200 feet.
+31-32) ALTIMETER-The Altimeter set includes digital readout and sliding 
+needle gauge. Red, yellow and pale blue areas are explained above under ENG.
+33) MALFUNCTION LIGHTS-Indicator lights illuminate in the event of 
+malfunction or excessive readings in its related instrument.
+
+COMPUTER CONTROL FUNCTIONS
+F1, F2, F3 and F4 - Loads rockets bays number 1 through 4 respectively on 
+first press, arms rockets 1 through 4 respectively on second press.
+F5 - In combat mission, arms the UH-1XA's machine guns
+F6 - Not used
+F7 - Powers on board computer
+F8 - Starts the engine. The engine will not start until the on board 
+computer command POW is entered.
+F9 - Engage rotor clutch. It is not advisable to engage rotor clutch until 
+engine RPM exceeds 1200 RPM.
+F10 - Cut engine power. This stops the engine. The rotor clutch automatically
+disengages and the rotor "free-wheels" to an autorotative landing.
+
+WEAPONS FIRE
+Left Amiga (Red A by space bar) - Rockets are fired using left A.
+Right Amiga (Read A by space bar) - Fires machine guns.
+
+COMPUTER COMMANDS
+Enter at least the first three letters of the computer command. Make 
+corrections with the on board computer's delete (DEL) key. When the command 
+is complete, press the on board computer's RETURN key.
+
+ABORT - Abort current mission and stop all activity.
+AUTO - Set automatic course correction. When prompted by SET, enter compass 
+heading. Auto works only when there is no manual control input.
+CLIMATE - Displays current climatic conditions including temperature, 
+humidity, and barometric reading.
+DISTANCE - Displays line-of-sight distance from take-off point.
+HOMING - Drop a homing device that transmits directional signal to the 
+navigation computer.
+MISSION - Select new mission, then enter one of the following commands into 
+the on board computer: (1) SCHOOL - Flight Instruction (2) EXPLORE - 
+Exploration and mapping (3) COMBAT - Air battle (4) RESCUE - Personnel 
+rescue mission. Note: The mission can be changed anytime, which aborts the 
+mission currently in progress.
+POWER - Turn on power
+SEND - Send coordinates when landing or during emergency.
+VOR - Activate VHF Range reception for navigation.
+VSI - Display digital vertical speed reading
+XXX - Cancel previous command input. (Not available on immediate action 
+commands).
+
+STANDARD TAKE-OFF, FLIGHT AND LANDING PROCEDURES
+
+1) Turn on the computer with the F7 key, then enter MIS to select an 
+assignment. Select your mission when prompted by the on board computer.
+2) Enter the POW command to turn on power.
+3) Start the engine (F8). Wait for engine temperature gauges to warm up to 
+middle range, then increase throttle to bring engine RPM to about 1200 RPM.
+4) Engage rotor clutch (F10). Wait for RPM to stabilize at approximately 
+one-tenth of the engine RPM. Monitor oil pressure and carburetor gauges for
+ normal operating levels. Observe instruments for engine malfunctions and 
+high or low temperature levels.
+5) Increase throttle to build RPM to take off speed (3500-3600 engine, 
+350-360 rotor RPM). Note: Make sure that collective pitch is at FULL LOW 
+before increasing throttle.
+6) With engine at proper RPM begin to increase pitch with the control 
+(collective south). As lift is attained, watch for wind drift and 
+instability. Control position and heading with rudder (yaw) control 
+(cyclic NW, NE, SW, SE). Continue to control pitch angle as necessary to 
+obtain smooth vertical movement. Equalize lift to attain a stationary hover 
+at 90-100 feet.
+7) Select heading with the rudder control and begin moving the control, in 
+cyclic mode, forward (cyclic north). As some airspeed is achieved, add more 
+lift with the collective to go into a climbing forward attitude. While 
+forward cyclic increases RPM, back collective maintains RPM due to a 
+throttle link. It is very important to hold RPM at a constant rate during 
+cyclic/collective adjustments. Also forward cyclic will tilt the fuselage 
+forward bringing the nose down. Hold the ship at the proper attitude with 
+back cyclic adjustments. Increase forward thrust and airspeed with the 
+collective control rather than the cyclic control to maintain flight 
+attitude, but monitor the degree of pitch and manifold pressure to stay at
+safe levels. Holding the control too long in any position will result in 
+over controlling. Make adjustments small and gradual to achieve a smooth 
+steady, controlled rate of change.
+8) Bring airspeed to between 70 and 90 knots and continue climbing to at 
+least 500 feet, which is the minimum altitude from which an autorotative 
+landing can be made in the event of engine failure.
+9) Once desired altitude is reached, decrease collective to a point of lift 
+equilibrium allowing straight and level flight. Watch the airspeed indicator
+and altimeter for steady and consistent readings.
+10) During straight and level flight, maintain altitude and airspeed with 
+both cyclic and collective control, and hold steady course with rudder (yaw))
+control. Watch the magnetic compass for your heading.
+11) To return to base, bank a full 180 degree turn to right or left (cyclic 
+left or right). Monitor your heading on the compass. Slightly BEFORE reaching
+the desired return heading, bring the control to center and level off.
+12) While flying forward and in close proximity to the base, begin descent 
+by gradually decreasing pitch (collective south). As altitude decreases, 
+maintain airspeed with cyclic control. Keep the descent rate constant with 
+pitch adjustments on the collective. Watch your ground proximity gauge for 
+the needle to approach center, which is an altitude of 100 feet, then slowly
+increase collective pitch to reduce descent speed. Also, decrease forward 
+thrust by applying "back" cyclic (cyclic south) to "flare" the helicopter, 
+which brings the nose up and further reduces the speed of descent. At 20 to 
+25 feet, bring the ship to zero airspeed and hover, then gradually decrease 
+lift with the collective to lower the helicopter to the ground. Just before 
+touchdown, add some degree of lift to cushion your landing. Once on the 
+ground, immediately DECREASE PITCH TO FULL LOW.
+13) Cut the engine and power with the F10 key. The rotor clutch will 
+disengage and gradually slow to stop. The engine cannot be started again 
+until the rotor has come to a complete stop.
+
+AUTOROTATIVE LANDING
+Autorotative is a maneuver wherein, through failure or intent, the engine 
+has stopped and the rotor is spinning freely. Control during autorotative is
+similar to powered flight, with the exception that rotor RPM is maintained 
+by either free-wheeling rotating blade is then an airfoil as in an autogyro,
+the forerunner to helicopter. Therefore, speed or sufficient elevation to 
+permit accumulation of speed is necessary for an autorotative landing. To 
+control autorotative descent, try to gain a high forward glide speed, while 
+reducing drag by reducing collective pitch, yet keeping enough lift to check
+the rate of descent. Near the ground, a full flare maneuver with back cyclic
+(cyclic south) combined with a quick and substantial collective pitch 
+increase (collective south) should cut vertical speed enough to allow a 
+fairly soft touchdown. Note: Your local library will have information on the
+flight characteristics of helicopters, and with the exception of their 
+standard control configuration, will be of further help learning to operate 
+UH-1XA with confidence and skill.
+
+MISSION ASSIGNMENTS
+1) FLIGHT INSTRUCTION (Enter SCHOOL) - Computer controlled flight training. 
+The computer will lead you through a series of maneuvers from take-off to 
+landing with simple control pull control of the on board computer. However, 
+the trainee is in full control of the aircraft and should have an understand-
+ing of the instruments and controls before attempting the flight.
+2) EXPLORATION AND MAPPING (Enter EXPLORE) - Fly a survey mission over 
+previously uncharted territory. Map out the general terrain, major geological
+features, water supply, timberland or sings of habitation.
+3) RESCUE (Enter RESCUE) - Military personnel are either lost or 
+incapacitated. The mission is to locate, transmit heading and distance, and,
+if possible, land and pick up the party. The helicopter's maximum passenger 
+capacity on this mission is four.
+4) AIR BATTLE (Enter COMBAT) - A secret desert installation to which you are
+assigned is under possible threat of attack by unknown hostile forces. You 
+job is reconnaissance and, if necessary, defense. Determine enemy's strength
+and determine if engagement is feasible.
+All mission assignments are unrestricted in form and within the general 
+outline of the mission are nonrepetitive. All command decisions are the 
+responsibility of the pilot.
+Refueling and repairs are at the take off point only. In the event of crash 
+landings, damage, or emergency set downs, the current mission is terminated.
+
+THE MISSIONS
+
+FLIGHT INSTRUCTION
+This training mission tests your ability to follow flying procedures in an 
+efficient and competent manner. The on board computer is programmed to lead 
+you through a flight that employs the maneuvers necessary to develop flying 
+skill and familiarize you with the terms associated with flight procedures. 
+In the mission, observe the on board computer screen for your instructions, 
+then obey them in a responsive, controlled manner. Flying skill is evidenced
+by a gentle, firm hand on the controls, and smooth transmission from one 
+maneuver to another. When your mission is over, only you will know how you 
+performed -- you are on the honor system. The training flight can be taken 
+at any time.
+
+EXPLORATION AND MAPPING
+The essential task of this mission is to map the terrain that surrounds your
+base. Mapping can be a very long and involved process, and is probably best 
+done in stages to prevent the inaccuracies from careless work caused by 
+fatigue. The are to be explored is quite large, and is evidenced by ground 
+objects such as forests, low hills, towns, lakes and other unique terrain 
+features. Note that vegetation, water, and other features cause pronounced 
+variations in color of the terrain. Monotonous terrain without changing 
+ground characteristics indicates that you have flown beyond the exploration 
+area.
+Establish your pattern of sweep early, and as you monitor your headings, pay
+close attention to ground features. Note their location from your position 
+and distance from the base, and any other triangulation method you develop.
+ As an example of a type of pattern you might like to establish, let's 
+assume that you have chosen to start in the quadrant Northwest of the base. 
+Take off from the base and fly North Northwest. Check your distance from the
+base with the DISTANCE computer command, and when you are approximately five
+miles out, then turn due west to a compass heading of 270. Your NAV gauge 
+should be showing a heading of approximately 150 from your position back to 
+the base. As you continue west, the NAV will move toward a reading of 090. 
+Continue due west for the distance necessary to cover the area you have 
+chosen. When you reach that distance, turn due north (COM 000), travel 10 
+miles and turn due east (COM 090). Maintain that course, continuing to 
+observe and note ground features, until the NAV reading approaches 180, 
+which means the base is due south of you. Go north 10 miles again, then turn
+due west, again noting ground features, maintaining course and calculating 
+the point at which you turn to backtrack for the next leg of your search. 
+Planning and practice will determine that searching pattern that produce 
+best results.
+
+RESCUE
+Military personnel are stranded. They are transmitting from a homing device 
+whose heading will register on your REScue digital display once you are 
+within range of it. But, since your briefing only indicates that the general
+location of the party is unknown, careful ground-covering search and rescue 
+techniques must be employed. At an elevation that permits visual detection 
+of the ground party, select a compass quadrant and establish a search 
+pattern that allows for the transmission range of their device -- from five 
+to 10 miles.
+Once the heading is received and followed, keep your eyes open. Military 
+sorties into the desolate country are required to carry signal flares. Once 
+the flare has been sighted, visual reckoning should bring you to a position 
+over the party -- and they should be overjoyed to see you.
+A careful landing will provide the grateful party the opportunity to climb 
+aboard, and insure your ability to deliver them safely to the base.
+
+AIR BATTLE
+At desert base of undetermined location you will do battle with an 
+unidentified enemy helicopter force. Their position is in relatively close 
+proximity to your base, and they change their field of operation often, and 
+so no heading from the base is safe.
+When they discover you, it is all out combat, and the skies won't be friendly
+until you have eliminated them all. Your base is not a safe haven, because 
+they will pursue you to their last man. It takes skillful flying to evade 
+their deadly attacks.
+Your defense weapons are rockets and machine guns. They are fixed mount and 
+aimed straight ahead. While machine gun fire must be extremely accurate, the
+rockets have proximity detonators that arm in flight, and so can destroy the
+enemy without a direct hit. The machine guns short fire-to-target time 
+permits quick response once Super Huey is head onto target. To be successful
+with the rockets, you must anticipate the enemies flight path.
+You have 20 rockets, which must be loaded into the rocket bays, then armed, 
+before being fired in 1 2 3 4 sequence. 32 enemy craft must be vanquished, 
+so judicious use of the rockets and the 2,000 machine gun rounds available 
+to you to insure victory.
+Fortunately, the enemy apparently has a kamikaze code, and will approach and
+fire only from your front. Evasive action, combined with aggressive use of 
+your arsenal and flying skills, is your only chance.
+Not recommended, but perhaps useful for greater accuracy, the field sight 
+developed by Huey Cobra pilots in Viet Nam may be useful to you, but perhaps
+harmful to your equipment. In Nam, pilots with a grease pencil, drew an "X" 
+on their windshield to mark the point of convergence of their weapons fire.
+
+NAVIGATION
+
+To understand the NAV and RES readouts of compass headings for navigation it 
+is necessary to adopt the proper perspective relationship of the earth and 
+helicopter. The headings displayed are coordinates relative to the magnetic 
+compass, but the computer always sees itself at the exact center of the 
+compass with the earth moving beneath it. Assume that a compass diagram 
+showing North, East, South and West is affixed to the aircraft. Whenever 
+you fly, the vertical line that always points East and West always converge 
+at the helicopter. All other locations are measured from this helicopter 
+centered intersection.
+Let us take off from Base, the source of the VOR transmission, with our NAV 
+active and fly due north. The COMpass reading will be 000. If we observe the
+NAV readout we see that it reads 180, the opposite of our flight heading 
+because that base is now directly behind us to the South. If we stop, hover 
+and turn completely around until the COM reads 180 and fly straight ahead 
+and south, the NAV also reads 180 until we pass over the base, at which 
+point the NAV will change to 000, or due north, since the base is now behind
+us as we continue on our southward heading of 180. In the same manner, had 
+we flown due East from Base at a COMpass reading of 90, the NAV readout 
+would indicate 270, a west heading, since it is showing the heading necessary
+for return to the base.
+Before flying in some other direction, a further understanding of the way 
+headings are computed is necessary. Since there is only one signal coming 
+from one direction on which to home in on, the position of the source cannot
+be triangulated, and therefore the NAV heading is not absolutely accurate 
+and becomes significantly inaccurate beyond a range of 25 miles. To compute 
+the helicopter's position from base transmitter, a single source, the 
+computer first uses a north/south bias that selects either north or south 
+numbers depending on the incoming signal. A discrete measurement is made of 
+the angle of reception to find the distance to the east or west of the 
+source.
+To see how this works out, let us take off from BASE and this time fly 
+Northeast at COMpass reading of 040. What happens to the NAV readout? As we 
+move in a somewhat northward direction, we know the base is somewhat south 
+so the NAV reading will be some southern degree. Similarly, since we are 
+also flying eastward, the Base is somewhat to the west of our position. 
+Therefore, the NAV heading to the base from the helicopter falls somewhere 
+between South (180) and west (270). Therefore, as we remain in the quadrant
+Northeast of the base, the NAV heading should vary between 180 and 270.
+What would happen if we turned due North (COMpass heading 000)? At that 
+moment, the NAV readout would not change since we are at the same relative 
+position to be base. If, on the other hand, we turned southeast the NAV 
+would to move toward 270 as we continued in a southwest direction. But, when
+we cross the line due east from the base (where the NAV reads 270) and enter
+the quadrant southeast of the base, the NAV readout would 'flips' to a 
+Northwest heading.
+The inaccuracy of the NAV heading is approximately 10% beyond 25 miles of 
+the base, and increases proportionally with distance. Therefore, flying 
+southeasterly and crossing the line due east from the base as in the example
+above, at a great distance a NAV heading of 230 could 'flip' to as much as 
+330. Since the base is now Northwest of the helicopter, the NAV reading is 
+incorrect but indicates the correct quadrant.
+In practice, the pilot should interpret the NAV heading with consideration 
+to the inaccuracies of the system. If one followed the NAV heading exactly 
+as the numbers indicated, the course travelled back to Base would be an arc 
+rather than a straight line as the readings grow more accurate within 25 
+miles of the base.
+A thorough understanding of the error introduced into the NAV headings and 
+the bias in the error toward the previous locations of the craft will allow 
+the pilot to 'cut in' on the arc and fly a more direct course by leading the
+NAV heading in the direction of change. For example, you are somewhere 
+northwest of Base: the NAV reads 150. If you travel east, the number changes
+ to 160, 165, 170, etc. As you can see, the heading is moving toward due 
+south (180). If you originally did not follow the heading 150 but, instead, 
+turned more southerly, say 160, you would actually be moving more directly 
+toward the Base. Calculating the amount of lead is a matter of geometry and 
+practice but, as you see, the selection in this instance must be a considered
+estimate between 150 and 180. If you choose the lesser.
+
+
+THE END

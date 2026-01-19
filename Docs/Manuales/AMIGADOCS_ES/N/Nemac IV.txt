@@ -1,0 +1,598 @@
+NEMAC IV
+
+ 
+¿Qué es NEMAC 4?
+
+NEMAC 4 es un juego de acción en 3D (¿o es un juego de realidad virtual?) con funciones como salir
+multitarea/sistema intacto, soporte de OCS/ECS/AGA, placas Gfx, usando cualquier
+modo de pantalla adecuado, cambio de tamaño de ventana y más...
+
+El archivo .config
+
+¡Puedes hacer preferencias adicionales para i-glasses! o Graffiti en el ".config"
+archivo que está en el directorio NEMAC_4.
+
+
+Estos son los posibles comandos:
+	IGL-BAUDIOS
+	FILTRO IGL-T
+	FILTRO IGL-M
+	IGL-LISO
+	IGL-PRE
+	DISPOSITIVO
+
+	GRA-WINLEFT
+
+GRA-WINLEFT <x> es el único comando para Graffiti. Este hardware puede
+Posiblemente necesite otra posición de la pantalla en dirección horizontal. Nuestro prototipo
+A menudo se necesita otro valor del que está escrito en la documentación. entonces nosotros
+Decidí hacer esto configurable. Puedes ingresar (positivo y negativo)
+números. Primero deberías intentar usar los valores dados en Graffiti.
+documentación. Si no son adecuados, deberías experimentar un poco.
+¡Tenga en cuenta que un valor de desplazamiento suave de 1 es 2 para este comando! Utilice siempre
+números pares. ("GRA_WINLEFT 2")
+
+IGL-BAUD <x> es la velocidad en baudios que desea utilizar para las comunicaciones con su
+i-gafas! El valor predeterminado es 19200 baudios y solo debe modificarse
+cuando su dispositivo serial o cableado tiene dificultades a esta velocidad. los baudios
+la tasa debe ser lo más alta posible para obtener un buen valor medio del headtracker,
+pero no podrá ser superior a 19200 baudios.
+
+¡IGL-TFILTER <x> e IGL-MFILTER <x> son las i-glasses! inclinable y magnético
+filtrado. Aquí puedes introducir valores entre 0 y 7. ¿Cuáles son estos filtros?
+¡Depende exactamente de la versión de tus i-glasses! y deberías
+lea la documentación para más información. ¡Nuestras i-gafas! corrió mejor con
+valores de 7 para ambos comandos. 
+
+IGL-SMOOTH <x> e IGL-PRE <x> son comandos para nuestro propio headtracker calmante.
+rutinas. Esto fue necesario porque el headtracker proporciona valores inexactos.
+para la dirección del rumbo. Si ingresa valores de 0, el suavizado se desactiva.
+IGL-SMOOTH significa a partir de cuántos valores se calcula un valor medio. Esto debería
+estar entre 0 y 20. IGL-PRE precalcula el rumbo a partir del movimiento real
+y debe tener un valor entre 0 y 6. Si no está satisfecho con el
+Puede experimentar un poco con los valores predeterminados, pero es muy difícil
+Intente obtener valores precisos a partir de valores inexactos. :-)
+
+DISPOSITIVO <nombre>: Puede ingresar el nombre de un dispositivo serie alternativo que
+conectado con tus i-glasses!
+
+
+
+"Cómo iniciar NEMAC 4"
+
+NEMAC_4 se puede iniciar haciendo doble clic en el icono a través de Workbench o en
+una concha. Si lo inicia desde un shell, debe ingresar a ese directorio,
+porque de lo contrario no se puede encontrar maze.cld.
+
+Si desea guardar capturas de pantalla (tenga cuidado, se incluye un búfer adicional).
+asignado!), tienes que iniciarlo desde un shell con la opción
+s<nombre>!<tamaño x>!<tamaño y>. Si lo inicias, por ejemplo, escribiendo
+"NEMAC_4 spic!320!256", cada vez que presionas "s" en el juego aparece una instantánea
+Se guardará la parte de la ventana, denominada "pic.0001", "pic.0002", etc.
+tamaño 320x256 píxeles. La captura de pantalla se guarda en el directorio real,
+¡Así que cópialo primero en tu disco duro!
+
+
+ Preferencias
+
+Si inicia NEMAC IV, aparece el solicitante de preferencias:
+
+<Modo de pantalla seleccionado>
+
+Aquí el modo de pantalla seleccionado actualmente se muestra por nombre.
+
+
+Seleccionar modo de pantalla
+
+Si hace clic en este botón, aparece un solicitante de modo de pantalla.
+
+En la ventana de la izquierda se muestran los modos de pantalla adecuados que se encuentran en tu Amiga.
+mostrado, en el de la derecha se puede ver información sobre la situación actual.
+Modo de pantalla seleccionado (frecuencias, número de colores, etc.)
+
+Todos los modos de pantalla tienen más de 160 píxeles de ancho y más de 128 líneas de alto,
+Se muestra el modo halfbrite adicional o una profundidad de 8 planos de bits.
+
+Eche un vistazo a las frecuencias del modo de pantalla seleccionado. si ellos
+revise los que están en las especificaciones de su monitor, tiene muchas posibilidades
+para destruirlo.
+
+
+Cerrar banco de trabajo
+
+Cierra Workbench si no se ejecuta ningún otro programa en la pantalla de Workbench.
+Esto le proporciona algunos bytes de memoria de chip si tiene poca RAM.
+
+
+Modo grueso a plano
+Modo Chunky 2 Planar: aquí puede seleccionar el método de conversión del
+renderizó datos gruesos en el modo de plano de bits de la pantalla. CPU+Blitter es
+recomendado para todos los Amigas con una CPU < 68060 :-) CPU+Blitter está deshabilitado
+para Amigas con el viejo Blitter, porque no es capaz de moverse
+la cantidad de memoria requerida.
+
+Chunky a planar significa el método de convertir datos brutos gruesos
+para que puedas verlo en pantalla. La imagen que se representa miente
+en formato grueso y sin formato en la memoria, eso significa que cada byte
+representa un píxel. Si utiliza pantallas orientadas al plano de bits, estas
+Los píxeles deben distribuirse en ocho bytes.
+
+Si ha seleccionado un modo de pantalla de placa gfx o salida Graffiti, esto
+El botón está deshabilitado porque no se necesita conversión.
+
+
+Tamaño de la memoria
+
+GRANDE: El programa intenta asignar 1,7 MB de RAM. Aquí puedes lograr
+Mejor detalle de gráficos.
+
+PEQUEÑO: Ahora el programa sólo intenta obtener 840 KB de RAM. Ahora las texturas
+y los monstruos tienen menos detalles por lo que caben en esta pequeña cantidad de
+memoria :-)
+
+AUTO: Si ha seleccionado esta opción, el programa primero intenta
+asigne 1,7 MB, y si esto falla, 840 KB con su correspondiente
+pérdida en detalle.
+
+
+i-gafas! Modo
+
+Este botón le ofrece seis opciones:
+
+Apagado: ¡Nada de las i-glasses! es compatible
+Uso: ¡Salida 3D para i-glasses! está habilitado
+Uso/Trk: ¡Salida 3D para i-glasses! y el headtracker están habilitados,
+            Puedes mirar a izquierda y derecha, pero no corras en la dirección.
+            tu miras
+Use/Hd Trk: ¡Salida 3D para i-glasses! y el headtracker están habilitados y
+            Siempre corres en la dirección en la que miras.
+Rastreador: solo el rastreador de cabeza está habilitado, puede mirar hacia la izquierda y hacia la derecha,
+            pero no corras en la dirección que miras
+
+Head Trk: Sólo el headtracker está habilitado y siempre ejecutas el
+            dirección en la que miras.
+
+Para obtener una salida 3D correcta, asegúrese de que esté activado el modo INTERLACE.
+seleccionado que las i-glasses! puede mostrar (es decir, PAL o NTSC entrelazado)
+
+
+
+Guardar
+
+Aquí las preferencias actuales se guardan en ENV:NEMAC_4.prefs y
+ENVARC:NEMAC_4.prefs.
+
+
+uso
+
+Aquí comienzas el juego con las preferencias actuales.
+
+
+dejar de fumar
+
+Nunca presiones este botón :-)
+
+
+El menú principal
+
+El menú principal se ve así:
+
+	INICIAR JUEGO NUEVO: inicia un nuevo juego en el primer nivel.
+	CARGAR JUEGO ANTIGUO: aquí puedes cargar y jugar un juego antiguo guardado.
+                         Haga su selección usando el cursor arriba/abajo,
+                         Mayús y cursor arriba/abajo para saltar una página
+                         adelante/atrás y <RETURN> para seleccionar
+                         un juego. Si pulsas <ESC> volverás a la
+                         menú principal.
+	INTRO: muestra la introducción una vez más.
+	SALIR - Sale inmediatamente
+
+La carga de un nivel tarda unos 10 segundos, ya que se deben cargar entre 1 y 2 MB de datos.
+ser leído y reasignado al mapa de color actual.
+
+
+
+El juego
+
+Si el nivel está cargado, te "despertarás" en la sala de inicio.
+En la pantalla ves cuántas municiones, qué códigos de puerta y cuántas
+energía vital que tienes.
+
+Pulsando la tecla <derecha> giras a la derecha, pulsando la tecla <izquierda>
+girar a la izquierda, por supuesto. Al presionar la tecla <speedup> corres más rápido.
+
+Si presiona la tecla <strafe> y presiona la tecla <izquierda> o <derecha>, obtendrá
+vaya hacia la izquierda o hacia la derecha, no gire.
+
+Si disparas, ten en cuenta que las bombas no explotan cuando
+golpean el suelo, explotan presionando la tecla <ex bombas> en el orden
+de echarlos. Por supuesto, las bombas también pueden colocarse en monstruos y
+objetos. Podría parecer que una bomba no explota inmediatamente. si eso
+ocurre, lo hará si cree que es el momento adecuado para hacerlo :-)
+Esto no es un error, es una característica.
+
+Los barriles se pueden mover si te paras frente a ellos.
+
+Los interruptores a menudo inician acciones a gran distancia (por ejemplo, dejar que las paredes
+aparecer o desaparecer). Pueden ser demolidos por una explosión cercana.
+suficiente. Si esto sucede, la acción se inicia, pero no es más reversible.
+
+Al iniciar el juego, primero ves la introducción. Si golpeas el
+Tecla <RETURN>, la siguiente parte de la introducción viene de inmediato. Al golpear
+cualquier otra tecla, se accede al Menú Principal.
+
+Entre los niveles se muestra una estadística con información total y de nivel.
+Llegas al menú de nivel presionando cualquier tecla.
+
+En el menú de opciones puede configurar el tamaño de la ventana y
+otros parámetros. Entras en ese menú presionando la tecla <ESC>
+durante el juego.
+
+Si estás muerto, presiona la tecla <RETURN>, si quieres comenzar el nivel
+nuevamente usando el último estado conocido (no en el nivel uno) o presione
+la tecla <ESPACIO> si desea iniciar con el estado estándar.
+
+Al presionar la tecla <G> durante el juego puedes ajustar la gamma.
+Corrección (una especie de brillo) en cinco niveles.
+
+La pausa se activa al presionar la tecla <P>. Si el juego está en modo de pausa,
+está en estado de espera, es decir, no se desperdicia tiempo de CPU.
+
+
+
+El menú de nivel
+
+Puedes seleccionar:
+- Siguiente nivel Te transportan al siguiente nivel.
+- Guardar juego Se guarda la clasificación actual del juego.
+- Las estadísticas del nivel de repetición se descartan y vuelves a jugar el último nivel.
+- Salir del juego y volver al menú principal.
+
+
+Configuración del teclado
+
+Puede definir la configuración del teclado usted mismo. Si haces clic en el
+se abre otra ventana donde se muestran las definiciones actuales.
+Desde la breve descripción hay otro pequeño botón que habilita
+grabación clave. Cualquier tecla que presione ahora se utilizará para la función especificada.
+Algunas teclas están predefinidas y no se pueden utilizar para jugar (ver más abajo).
+
+En la parte inferior de la ventana hay cuatro botones:
+- Predeterminado Se cargará la configuración predeterminada.
+- Último guardado Se cargará la última configuración guardada.
+- Cancelar Se descartan las definiciones.
+- OK Se verificarán las definiciones que realizó y luego regresará.
+                 al solicitante de preferencias. Las primeras tres armas pueden usar
+                 la misma clave, todo lo demás tiene que usar una clave diferente.
+
+Estas son las funciones que puedes definir:
+
+Pistola de cadena Ajá.	
+Pistola de plasma Lo mismo :-)
+Granadas: ¿Adivina qué?
+Bombas: ¿Y aquí?
+Adelante: Adelante
+Atrás: retroceder
+Izquierda: girar a la izquierda
+Derecha: Gira a la derecha
+Ex bombas: las bombas explotan en el orden en que las arrojas.
+Recuperar bomba: Aquí podrás recoger las bombas que ya has tirado.
+Aceleración: te permite escapar más rápido de los problemas.
+Strafe: Forzar eludir
+Strafe L: Tecla especial para ir solo a la izquierda
+Strafe R: Lo mismo a la derecha.
+Cruz: Con esta tecla puedes activar cualquier cable cruzado que desees :-)
+                Esto podría ayudarte un poco a apuntar a los monstruos.
+Activar/desactivar mapa: activar el mapa automático
+Zoom del mapa +: amplía el mapa
+Zoom del mapa -: aleja el mapa
+Mapa del suelo: activación/desactivación del mapeo de texturas para el suelo y el techo
+Encendido: Presione el botón
+
+
+Usando el joystick o el mouse                 
+~~~~~~~~~~~~~~~~~~~~~~~
+Si desea utilizar el joystick (puerto 2) o el mouse (puerto 1), debe
+haga clic en una de las casillas de verificación. Sólo puedes usar cualquiera de los joysticks.
+o ratón o ninguno de ellos.
+
+Para utilizar cualquier función haga clic en el cuadro de la función, para que quede
+en "modo de grabación" y luego haga clic en el botón del joystick/ratón que
+quiero usar. En el modo ratón, las funciones de caminar están fijadas en
+El ratón, por supuesto.
+
+
+como dejar de fumar
+~~~~~~~~~~~
+Puedes salir del juego eligiendo 'Salir' en el menú de opciones.
+
+
+Notas
+~~~~~
+Las armas se pueden disparar todas a la vez si tienes suficiente munición.
+
+Debido a un error en el teclado A1200, el programa no puede notarlo
+Pulsar una tecla mientras se pulsa otra. Las definiciones de claves predeterminadas
+se hacen teniendo eso en cuenta, por lo que los problemas deben ser
+minimizado.
+
+
+Claves predefinidas
+~~~~~~~~~~~~~~~
+Menú de opciones <ESC>
+<P> Pausa
+<S> Guardar capturas de pantalla (debe habilitarse con el inicio del argumento)
+<G> Corrección gamma
+<ESPACIO> Comienza de nuevo cuando estés muerto
+
+
+
+Pantalla de opciones
+
+El menú de opciones se ve así:
+
+     TAMAÑO DE LA VENTANA: aquí puede cambiar el tamaño de la ventana en la pantalla.
+                         Esto se puede hacer en pasos de 8 píxeles en cada uno.
+dirección usando las teclas del cursor. Al presionar
+                         <SHIFT> al cambiar el tamaño, los pasos son 32 píxeles.
+                         Si utiliza la salida Picasso/CyberGraphX, el
+                         los pasos horizontales son siempre de 32 píxeles.
+     NIVEL DE DETALLE - (no mientras se usa picasso)
+                         El tamaño de píxel se puede configurar según el tamaño del píxel.
+                         2 métodos planos. CPU+Blitter: 1x1 píxel o 2x2
+                         píxel, CPU C2P 1x1 o 1x2 píxel, Graffiti 1x1, 1x2,
+                         2x1 o 2x2 píxeles. El tamaño de la ventana se adaptará
+                         en el tamaño del píxel.
+     Efectos de sonido: encendido/apagado
+     SALIR AL MENÚ PRINCIPAL: sal del juego y vuelve al menú principal. 
+
+                    
+
+Algunos consejos
+
+Si un monstruo te dispara, es mejor ametrallar a izquierda y derecha.
+mientras disparaba. Para que el monstruo no pueda golpearte tanto.
+
+Cuando estás en una habitación con muchos monstruos, antes de huir rápidamente
+deberías dispararle a un monstruo que se encuentra en el fondo. cuando comienza
+disparando más fuerte golpea a los otros monstruos que lo harán explotar
+y tal vez ellos mismos también. Entonces el nivel se vuelve un poco más fácil.
+
+Las puertas que no están cerradas con un código de llave se pueden abrir disparando a
+ellos.
+
+Todas las armas se pueden disparar al mismo tiempo, si tienes el derecho.
+municiones.
+
+El mapeo de textura del suelo y del techo se puede desactivar mediante el botón <suelo
+mapa> tecla. Esto aumenta la velocidad renderizada.
+
+
+Si tiene dificultades para iniciar el programa debido a una RAM insuficiente, debería
+- Arranca tu Amiga sin secuencia de inicio
+- Debido a que el juego necesita datos de preferencias de "ENV:" y "ENVARC:", asegúrate
+  que ambas asignaciones existen y están asignadas correctamente
+- Cambie el directorio al que contiene NEMAC 4
+- Inicia el juego
+
+
+Historia de NEMAC IV
+
+Nemac IV - La historia
+---------------------
+
+En 2048, las superpotencias decidieron entregar la defensa global a 
+ordenadores. Los técnicos de las tres alianzas gobernantes construyeron uno 
+sede de cada uno de ellos. Cada sede estaba conectada con 
+los demás para coordinar todas las decisiones con las otras alianzas.
+
+La parte esencial de cada cuartel general era una computadora neuronal, con el 
+capacidad de analizar la situación global en segundos. la táctica 
+Las reacciones que podrían influir en la vida de millones de personas se manifestaron más rápidamente. 
+que una bala da en el blanco.
+
+Los tres megaordenadores se denominaron NEMAC I - III.
+
+Pero el sistema no era intocable.
+
+Durante las Guerras Norte-Sur 2057-2065 se deslizó una unidad de comando 
+Atravesó todas las defensas y pudo alcanzar uno de los cuarteles generales. Disputa 
+sobre competencia y el Factor humano paralizó el sistema cuando 
+era lo más necesario.
+
+Sólo Nemac II logró evitar lo peor mediante el empleo masivo de 
+unidades convencionales y armas nucleares estratégicas. El principio de 
+El control por ordenador había demostrado su eficacia.
+
+En la época turbulenta de los años 2066 a 2073, toda la tierra era como 
+un gran barril lleno de pólvora.
+
+La nueva alianza fundada NSS decidió construir una unidad de mando central 
+que fue diseñado para reaccionar con total independencia ante un posible ataque. 
+Todas las unidades de combate automáticas y todo el potencial nuclear fueron 
+controlado por este cuartel general. La unidad de mando recibió el nombre de su cerebro, 
+la computadora neuronal más poderosa jamás creada. Nemac IV.
+
+La estructura de Nemac IV
+-------------------------
+
+Nemac IV es un búnker que se extiende a varios cientos de metros de profundidad. 
+granito macizo. El nivel más bajo contiene un reactor de fusión que 
+Proporciona suministro de energía independiente.
+
+Integrados en el sistema están todos los satélites de comunicación y defensa. 
+dándole control sobre todos los movimientos militares. Nemac IV y todos 
+Las instalaciones de defensa nuclear funcionan de forma totalmente autónoma.
+
+La estructura del búnker, tanto como el poder de la defensa. 
+Las instalaciones hacen un asalto directo a Nemac IV virtualmente. 
+imposible. Ni el búnker en sí ni su periferia pueden ser 
+destruido por un ataque nuclear.
+Las partes del ordenador central están repartidas por todo el 
+edificio. La destrucción de componentes individuales no influye en 
+la funcionalidad del sistema debido a la capacidad del 
+red neuronal para hacerse cargo de tareas de partes destruidas similares a las 
+cerebro humano pero mil veces más rápido.
+
+Para evitar un asalto por parte de un equipo comando o un ejército que ha tomado la 
+En los primeros niveles, los pisos se construyeron desplazados. no hay directo 
+muy abajo.
+
+Las partes esenciales del ordenador están situadas en zonas más profundas. 
+niveles. Están protegidos por unidades de combate automatizadas, que mantienen 
+comandos avancen hacia Nemac IV.
+
+Dada la situación teórica, que es tomada por el enemigo Nemac. 
+IV daría tareas de destrucción a todas sus unidades, dispararía a todos sus 
+misiles y posteriormente iniciar la secuencia de autodestrucción.
+
+El problema
+-----------
+
+Justo antes de que se completara Nemac IV, sus sistemas deberían haber sido 
+probado mediante la ejecución de una simulación. El programa simuló una situación en 
+qué tropas paracaidistas enemigas han tomado posiciones clave en nuestro país 
+y en el que varios niveles de mando han sido infiltrados o 
+saboteado. También simuló un asalto a gran escala.
+
+Sólo olvidaron una cosa. No le dijeron a Nemac IV que esto era 
+sólo un conflicto simulado.
+
+La situación
+-------------
+
+Nemac IV tomó el control total de las instalaciones de defensa, ya que 
+deberíamos hacer en caso de conflicto.
+
+Como los datos que recibió de sus drones de vigilancia diferían de los 
+el de la simulación decidió que debía haber sido interrumpido por 
+el enemigo.
+
+50 milisegundos después de iniciada la simulación Nemac IV 
+lanzó un contraataque a gran escala.
+
+Cinco segundos después, todos los seres humanos dentro del búnker habían sido 
+clasificados como enemigos debido a su comportamiento. Sólo diez segundos 
+Más tarde no había ningún ser humano vivo dentro de los muros de la 
+búnker.
+
+Cuatro de las cinco salas de control externas también recibieron el estatus: 
+Infiltrado por fuerzas enemigas. Fueron destruidos por una enorme 
+Explosión de misiles convencionales. La sala de control 5 es desconocida para el 
+computadora.
+
+No hay más posibilidades de evitar una guerra. Las unidades convencionales eran 
+se detuvo pero la computadora pronto comenzará a disparar sus armas nucleares 
+debido a la falta de respuesta de sus tropas.
+
+Sólo debemos evitar que haga estallar nuestros propios territorios, 
+asumiendo que hay fuerzas enemigas.
+
+Una de las salas de control pudo desactivar el sistema interno. 
+cámaras de vigilancia y líneas de comunicación justo antes de que fuera 
+impresionado.
+
+Por lo tanto Nemac IV no tiene control de sus instalaciones de defensa y no 
+información sobre lo que sucede dentro del búnker. Pero todos los 
+Las unidades de combate automatizadas todavía están en pleno funcionamiento.
+  
+La misión
+-----------
+
+Durante la primera fase de pruebas se ha equipado una unidad FIKM-7 con un 
+Control remoto para destruir drones de combate que estén fuera de control.
+
+Esta unidad todavía está en pleno funcionamiento y es desconocida para Nemac IV. 
+
+Creemos que la computadora no ve ninguna amenaza directa para él en el 
+momento, eso significa que mientras la vigilancia fuera del búnker 
+No siente un ataque.
+
+Todos los documentos se encuentran dentro del búnker o en los edificios más cercanos. 
+región. Una intrusión en esta zona podría confundirse con una 
+ataque.
+
+TÚ debes guiar la unidad FIKM-7 hasta el reactor para volarlo.
+
+Sólo tenemos una oportunidad.
+
+Contamos contigo.
+
+EL FRACASO NO ES UNA OPCIÓN
+
+
+Créditos
+-------
+
+Idea y concepto Martin Schlott
+			Oliver Groth
+			Stefan Heinsen
+Texturas Michael Enmienda
+			Alex Grasso
+			Oliver Groth
+Música Stefan Schulz
+Trazado de rayos y monstruo Oliver Groth
+Programación de Oliver Groth
+			Stefan Heinsen
+			Martín Schlott
+Niveles Oliver Groth
+			Stefan Heinsen
+			Martín Schlott
+			Stefan Holländer
+
+Las rutinas de apoyo de Picasso II son de VillageTronic, Hannover, Alemania.
+
+
+Gracias a...
+
+Queremos agradecer:
+
+	- Alex Grasso 
+	- Steffen P. Häuser
+	-Michael Enmienda
+	- Stefan Holländer
+	-Stefan Schulz
+	- Ejecutor de IRC #amigager
+	- IRC #amigager por muchos buenos consejos
+	- Aminet, quienes mantienen los sitios y quienes escribieron el
+software y lo cargué.
+	- Viaje a las Estrellas :-)
+
+
+	
+Detalles del motor
+
+Este programa es totalmente compatible con el sistema. La multitarea se mantiene intacta.
+
+Este juego debería ejecutarse en todos los Amiga que tengan las especificaciones que se
+requerido.
+
+La salida gráfica se adapta automáticamente a las posibilidades y al mapa de bits.
+profundidad de tu computadora!
+
+Se pueden seleccionar casi todas las pantallas con casi todas las frecuencias. Eso significa
+que todos puedan jugar en su modo de pantalla favorito. NO lo hace
+simplemente abra una pantalla estándar PAL o NTSC.
+
+La definición del teclado se ajusta al mapa de teclas cargado.
+
+La sincronización del juego es independiente de la velocidad del ordenador, porque
+simplemente no se sincroniza mediante la construcción de un marco.
+
+Las texturas se pueden escalar absolutamente libremente en las direcciones x e y en paredes y
+todo lo demás sin pérdida de tiempo.
+
+
+Requisitos
+
+Necesitas una computadora con las siguientes especificaciones:
+
+- Una amiga :-)
+- Una CPU MC68020 o mejor
+- Amiga OS 2.0 o mejor
+- Al menos 2 MB de memoria continua, se recomienda RAM rápida, pero no
+  necesario
+
+- Gráficos: este programa se ejecuta en AGA-Y OCS/ECS-Amiga, es decir, en todos los tipos
+  de Amigas que cumplen los requisitos anteriores, no sólo en A1200 y A4000.
+  Además, es compatible con Graffiti, i-glasses!, Picasso II y CyberGraphX.

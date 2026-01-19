@@ -1,0 +1,398 @@
+¡La aventura Fun-2-3 de Amy!
+
+                            Instrucciones
+
+Página 3
+
+Contenidos
+
+Estimado padre ........................................ 4
+Requisitos del sistema ................................ 5
+Instalación del disco duro ................. 6
+Cargando el programa ................................ 7
+El Menú ........................................ 8
+Intercambio de disco ................................ 10
+El botón Salir ................................. 10
+¡Contemos! ........................................ 11
+Coincidiendo con Marty ................................ 12
+Magia musical ........................................ 14
+Castillo de las galletas ................................... 16
+Finalizar el juego ................................. 18
+
+Página 4
+
+Estimado padre,
+
+Gracias por comprar Amy's Fun-2-3 Adventure.  Estamos seguros de que así será
+Traiga muchas horas de diversión y educación a su hijo.  La diversión de Amy-2-3
+La aventura contiene gráficos detallados, animación fluida y alta calidad.
+efectos de voz y sonido, todos los cuales se combinan para crear una experiencia muy cautivadora.
+y entretenida experiencia de aprendizaje.
+
+Su hijo interactúa con Amy y su entorno usando el mouse.
+¡no es necesario escribir!  Hemos intentado crear un entorno lo más adecuado para los niños.
+interfaz como sea posible, y de nuestros frecuentes resultados de pruebas de juego
+(utilizando sujetos de 3 años), creemos que lo hemos conseguido.
+
+En Amy's Fun-2-3 Adventure, su hijo puede visitar Amy's Doghouse, donde
+Se introducen los números y el conteo.  Después de eso, una visita para ver a Marty.
+Match Machine podría hacer que Amy sea un cachorro muy feliz si
+Marty recibe las respuestas correctas a su juego de correspondencias.  De
+allí su hijo podría optar por ir al Castillo de las Galletas, donde Amy y su
+ayuda infantil para reconstruir la muralla dañada del castillo.  El propio Rey Cookie da
+¡Una recompensa por el trabajo bien hecho!  Además de presentar números y
+habilidades para contar a los jóvenes, la música se presenta en Amy's Fun-2-3
+Aventura que ayuda a inculcar habilidades de reconocimiento de números y creatividad.
+en tu hijo.  (También le da a Amy la oportunidad de mostrar su baile. 
+¡proeza!) Considerándolo todo, hay mucho que hacer y ver en el mundo de Amy.
+
+¡Así que comencemos!  Aprender a contar se ha vuelto mucho
+"ruffer" ahora que su hijo tiene a Amy como amiga.
+
+Página 5  
+
+Requisitos del sistema
+
+Necesitará lo siguiente para ejecutar Amy's Fun-2-3 Adventure:
+
+1) Una computadora y color Amiga serie 500, 1000, 2000 o 3000
+   Monitorear.
+2) Un mínimo de 1 megabyte de memoria.  (Consulte una nota sobre la memoria a continuación).
+3) Una (o más) unidades de disquete de 3,5".
+4) Un ratón.
+
+   Nota: Si está utilizando la versión 2.0 del sistema operativo, debe
+debe utilizar V2.04 o posterior (Kickstart V37.175 / Workbench V37.64),
+de lo contrario, es posible que Amy's Fun-2-3 Adventure no se ejecute correctamente.
+
+Equipo opcional:
+
+1) Un disco duro.  (Consulte la página 6 para conocer los procedimientos de instalación del disco duro).
+
+Una nota sobre la memoria:
+
+Si has estado usando tu Amiga por un tiempo antes de ejecutar Amy's
+Fun-2-3 Adventure, la memoria de tu Amiga puede estar fragmentada.  La diversión de Amy-2-3
+Adventure requiere grandes cantidades de memoria de chip contigua para ejecutarse 
+correctamente, por lo que es posible que tengas que reiniciar tu Amiga antes de ejecutar Amy si
+La memoria está fragmentada.
+
+Recibirá una indicación de que la memoria es baja o está fragmentada si después
+Al elegir un destino en la pantalla de menú, Amy no logra ir a ese
+destino y el programa simplemente regresa a la pantalla de menú.  antes
+ejecutando Amy's Fun-2-3 Adventure, asegúrese de finalizar todos los demás programas,
+y cierre todas las ventanas innecesarias en el Workbench.
+
+Página 6
+
+Instalación del disco duro
+
+Si tienes un disco duro, quizás quieras instalar Amy's Fun-2-3 Adventure
+en ello.  Hacerlo acelerará los tiempos de carga para su hijo.  lo harás
+Necesita al menos 2 MB de espacio en su disco duro para completar este procedimiento.
+
+Para instalar Amy's Fun-2-3 Adventure en un disco duro, abra una CLI e ingrese
+lo siguiente: (Asumimos un nombre de DH0: para el disco duro. Sustituya
+el nombre de su disco duro o partición para cada instancia de DH0: si
+difiere.)
+1) Escriba MAKEDIR DH0:AmyFun23.  Presione ENTRAR.
+2) Inserte el Disco 1 de Amy en cualquier unidad.
+3) Escriba COPY AMY1:HDicons en DH0:.
+4) Escriba COPIAR AMY1: TODO A DH0:AmyFun23.
+5) Inserte el Disco 2 de Amy en cualquier unidad.
+6) Escriba COPIAR AMY2: TODO A DH0:AmyFun23.
+7) Inserte el Disco 3 de Amy en cualquier unidad.
+8) Escriba COPIAR AMY3: TODO A DH0:AmyFun23.
+
+Amy's Fun-2-3 Adventure ahora está instalado en su disco duro.  Ahora, a
+configure correctamente el directorio, edite la secuencia de inicio en su S:
+directorio y agregue las siguientes 3 líneas.
+
+    Asignar Amy1: DH0:AmyFun23
+    Asignar Amy2: DH0:AmyFun23
+    Asignar Amy3: DH0:AmyFun23
+
+Guarde la nueva secuencia de inicio y reinicie su Amiga para ejecutar la nueva
+Asigna.  ¡Estás listo para comenzar!
+
+Página 7
+
+Cargando el programa
+
+De disquetes:
+
+Hay 2 métodos para cargar Amy's Fun-2-3 Adventure desde disquetes.
+El primer método es el más fácil de los dos y se recomienda si tiene
+Sólo una unidad de disquete.  El método 1 también asegura que la memoria de tu Amiga
+no está fragmentado cuando comienza la aventura Fun-2-3 de Amy.
+
+-Método 1-
+
+1) Enciende tu Amiga.  Cargue Kickstart si es necesario.
+2) Cuando el Amiga te pida el disco Workbench, inserta Amy's Fun-2-3
+   En su lugar, el Disco de Aventura 1.
+3) Amy's Fun-2-3 Adventure ahora se cargará y ejecutará.
+
+Nota: También puedes reiniciar tu Amiga con el Disco 1 en la unidad DF0: si tu
+Amiga ha existido por un tiempo.
+
+-Método 2-
+
+1) Enciende tu Amiga.  Cargue Kickstart si es necesario.
+2) Cargue el disco de Workbench cuando se le solicite y espere a que Workbench se
+   carga.
+3) Inserte el disco 1 de aventuras Fun-2-3 de Amy en la unidad DF1:.  (deja tu
+   Disco del banco de trabajo en la unidad DF0:.)
+4) Haga clic dos veces en el icono del disco Amy1 cuando aparezca.
+5) Haga clic dos veces en el icono de Fun23 cuando aparezca.
+6) Amy's Fun-2-3 Adventure ahora se cargará y ejecutará.
+7) Después de que se cargue la pantalla de menú, puede reemplazar su disco Workbench y
+   El disco 1 de Amy con el disco 2 y el disco 3 de Amy. No hay más intercambios de disco 
+   será requerido.
+
+Desde un disco duro:
+
+1) Enciende tu Amiga y espera a que se cargue Workbench. 
+2) Haga clic dos veces en el icono de su unidad de disco duro.
+3) Se abrirá una ventana.  Haga clic dos veces en el cajón AmyFun23 en esta ventana.
+4) Se abrirá otra ventana.  Haga clic dos veces en el icono Fun23 en esta ventana.
+5) Amy's Fun-2-3 Adventure ahora se cargará y ejecutará.
+
+Página 8
+
+El Menú
+
+La pantalla de menú le permite a su hijo elegir adónde le gustaría ir.
+en el mundo de Amy.  Este es el punto central del programa; en otras palabras
+palabras, después de ir a decir Cookie Castle y luego regresar, este es el
+pantalla a la que regresará.
+
+Hay cuatro opciones en esta pantalla.  Cualquiera de ellos podrá ser elegido por
+moviendo el puntero del mouse sobre el cuadro donde a su hijo le gustaría
+ir y luego hacer clic en cualquiera de los botones del mouse.  El programa entonces
+dar un tono audible indicando que se ha recibido la elección.
+
+En resumen, los cuatro destinos entre los que su hijo puede elegir son los siguientes:
+En la esquina superior izquierda de la pantalla está Amy's Doghouse, donde el número
+Se llevan a cabo el reconocimiento y las habilidades básicas de conteo.  Haciendo clic en la parte superior
+El cuadro de la derecha te llevará a ver Marty the Match Machine.  La parte inferior izquierda
+Box es Music Magic Room, donde su hijo puede inventar la música que desee.
+propio, o elegir entre 8
+
+Página 9
+
+diferentes canciones para tocar.  Y por último, el Castillo de las Galletas puede ser visitado por
+haciendo clic en el cuadro en la esquina inferior derecha de la pantalla.
+
+Se proporciona información más detallada sobre cada uno de los destinos anteriores.
+en las siguientes secciones.
+
+PD Para una pequeña sorpresa, haga que su hijo haga clic en Amy en el centro.
+caja.
+
+Página 10
+
+Intercambio de disco 
+
+Si está utilizando disquetes y tiene un sistema de 1 unidad, es posible que el programa le solicite
+insertar el disco de aventuras Fun-2-3 de Amy 2 o 3 después de haber seleccionado 
+realizado desde la pantalla de menú.  Lo hace mostrando el cambio de disco.
+Pantalla, donde un disco triste muestra el número del disco que debe ser
+cargado.  En este momento, se puede extraer el disco de la unidad y luego
+reemplazado por el disco solicitado.  Luego se cargará el programa.
+
+Si tiene 2 unidades de disquete, el disco 2 y el disco 3 se pueden colocar en ambas unidades.
+después de que se haya cargado la pantalla de menú.  En este punto, el Disco 1 nunca será
+solicitado nuevamente, por lo que no será necesario realizar ningún intercambio de disco en el futuro.
+
+Nota: Tenga cuidado de no retirar nunca un disco mientras la luz de la unidad de disquete esté encendida.
+todavía en marcha.  Hacerlo podría causar daños al disco.  Además, nunca retire
+un disco a menos que el programa solicite otro para reemplazarlo.  el programa
+Es posible que no se ejecute correctamente si lo hace.
+
+El botón de salida
+
+Cuando su hijo haga una selección en la pantalla de menú, se le
+transportado a ese destino.  Una vez allí, podrán jugar hasta que
+Me gustaría pasar a otra sección del programa.
+
+El botón Salir es una manera conveniente para que su hijo salga de cada sección.
+del programa.  Se representa como una flecha que se desplaza en un cuadro y se
+ubicado en la esquina inferior izquierda de cada pantalla.  Al hacer clic en él con 
+Al presionar el mouse, su hijo regresará a la pantalla de menú, donde
+se puede hacer otra selección.
+
+Página 11
+
+¡Contemos!
+
+¿Qué es exactamente un número?  ¿Y cuál es su finalidad?  Como adultos, las respuestas
+estas preguntas son simples, pero para un niño, estos símbolos abstractos 
+que de alguna manera se relacionan con la cantidad representan todo un desafío de entender.
+
+En esta sección del programa, reconocimiento de números y habilidades para contar.
+son introducidos.  En la parte superior de la pantalla están los números del 1 al 10.
+Al hacer clic en cualquiera de estos diez números, su hijo entrará en
+mueva una de una variedad de animaciones para mostrar en qué número hizo clic
+en simboliza.
+
+Por ejemplo, si su hijo hizo clic en el número 5, una voz dirá "5".
+para mostrarle a su hijo cómo pronunciar el número.  (Asegúrese de girar el
+sube el volumen de tu Amiga para escuchar esta voz.) Entonces Amy podría rebotar un
+pelota en su nariz 5 veces, o saltar sobre su caseta de perro 5 veces, o hacer cualquier
+uno de una variedad de otros ejemplos para mostrar cuánto es "5".  la voz
+cuenta junto con el ejemplo de Amy, para reforzar la idea de cómo contar
+está hecho y cómo suena.
+
+Página 12
+
+Coincidiendo con Marty 
+
+Marty the Match Machine es una computadora en el Brainy Guys Institute of
+Ciencia.  Howard Sneezlezug es el científico jefe del instituto.
+quien deja que Amy entre y juegue con Marty.  "No usamos mucho a Marty
+estos días", dice Howard, "porque hemos adquirido tecnologías mucho más avanzadas
+Computadoras que hacen cosas como mostrar las letras del alfabeto.  entonces amy
+"Puede venir y visitar a Marty cuando quiera".
+
+"Tal vez Amy pueda venir y usar nuestras computadoras más avanzadas algún día, pero
+por ahora los mantenemos muy ocupados exhibiendo cartas y cosas así", dijo
+Howard, mientras insinúa un posible futuro (y un paquete de software)
+para Amy.
+
+Esta parte del programa ayudará a su hijo a desarrollar aún más su
+Habilidades de reconocimiento y conteo de números.  Además, habilidades de comparación.
+entran en juego cuando Marty le pide a su hijo que cuente 2 conjuntos de formas y
+luego haga coincidir uno de ellos con un número que haya elegido.
+
+Página 13
+
+Después de que Amy encienda a Marty, Marty generará una visualización aleatoria de formas.
+y números.  Cuando Marty haya elegido un conjunto final de 2 conjuntos de formas y un
+número, depende de su hijo hacer coincidir el número que Marty ha elegido con
+uno de los conjuntos de formas.  Su hijo puede colocar la flecha sobre uno de los
+conjuntos de formas moviendo el mouse, y luego puede presionar cualquiera de los botones del mouse para
+hacer una elección.
+
+Su hijo ayuda a Amy a recibir golosinas para perros de Marty haciendo una correcta
+elección entre los 2 conjuntos de formas.  Si se hace una elección correcta, un
+Sonará una melodía alegre y Marty le dejará una golosina para que Amy la coma.  pero
+Si se toma una decisión incorrecta, suena una canción triste y una Amy infeliz
+expresa su descontento. (olfatear)
+
+Su hijo puede salir de Marty haciendo clic en el botón Salir cuando el mouse
+El puntero está presente.  El programa luego regresará a la pantalla de menú.
+
+Página 14
+
+Magia musical 
+
+Si alguna vez ha visto a un niño "tocar" un piano o un tambor de juguete, sabrá
+entusiasmo que tienen por la música.  Mientras que tocar un instrumento es divertido.
+para todas las edades, los niños parecen disfrutarlo aún más, adquiriendo cierta
+emoción por las notas aleatorias que encadenan.  mientras
+Es posible que no todos en la casa compartan esta emoción en todo momento,
+lo cierto es que hay que fomentar esta maravilla de tocar música,
+Como muchos de nosotros, lamentablemente, tendemos a perder estos sentimientos creativos.
+a medida que envejecemos.
+
+En esta parte del programa, su hijo puede componer melodías propias o
+su propio diseño, o elegir entre hasta 8 canciones infantiles diferentes para
+jugar.  Amy baila los cánticos creativos de su hijo, pero muestra cuando un
+Se comete un error en las canciones de "coincidir con el número" al esperar pacientemente.
+hasta que se presione la tecla correcta.
+
+Para tocar su propia canción, pídale a su hijo que mueva el mazo sobre las teclas.
+moviendo el ratón hacia la izquierda y hacia la derecha.  (Tenga cuidado de no moverse demasiado para
+la izquierda, otra-
+
+Página 15
+
+De esta manera, el mazo se convertirá en una flecha, que puede usarse para hacer otros
+opciones.) Cuando su hijo mueve el mazo sobre la tecla que desea
+golpe, pueden presionar cualquier botón del mouse para que el mazo golpee la tecla.
+
+Para reproducir una canción de la selección de canciones infantiles de Amy, mueva el mazo
+hasta el final hacia la izquierda, pase la Tecla 1. El mazo se convertirá en una flecha.
+lo que le permitirá hacer clic en el botón de elección de canción.  la musica
+La pantalla mágica se desvanecerá y la pantalla de elección de canción se desvanecerá.
+la pantalla.  Para elegir una canción, pídale a su hijo que mueva el puntero sobre la
+canción que desea reproducir y luego haga clic en el botón del mouse para seleccionar
+eso.
+
+Ahora, la pantalla Music Magic se desvanecerá y la primera nota del
+La canción elegida se mostrará en el cuadro de notas en la esquina superior derecha.
+de la pantalla.  Su hijo debe elegir la clave que coincida con el número.
+en el cuadro de notas y presione cualquiera de los botones del mouse para presionarlo.  Después del 
+Si presiona la tecla correcta, aparecerá otro número en el cuadro de notas.  Golpea el
+clave correcta que coincida con esa y luego repita el procedimiento hasta
+la canción está terminada.  Amy seguirá bailando mientras lo haga correctamente.
+Las teclas se presionan de manera oportuna.  Si se presiona una tecla incorrecta, o el
+El tiempo entre pulsaciones de teclas es demasiado largo y Amy dejará de bailar.
+
+Para salir de Music Magic, mueva el mouse hacia la izquierda pasando la Tecla 1 hasta que
+se convierte en un puntero.  Luego haga clic en el botón Salir para regresar al
+Pantalla de menú.
+
+Página 16
+
+Castillo de galletas
+
+No muy lejos de Amy's Doghouse, en la cima de Majestic Mountain, se encuentra Cookie.
+Castillo.  Cookie Castle es un lugar feliz donde la gente y los animales
+Jueguen juntos y pasen el tiempo horneando la deliciosa galleta de King Cookie
+recetas.  A Amy le encanta visitar a su amigo el Rey y jugar en su gigante.
+castillo.
+
+Ese día de la visita de Amy, Danny Dragon llegó al castillo.  Ahora danny
+es realmente un dragón muy agradable, a diferencia de algunos de los dragones que viven en el
+montaña, pero nunca antes había visto un castillo.  "Hmmm, me pregunto qué
+Esto es”, pensó.  Entonces, siendo un poco curioso y aún más tonto,
+Comenzó a soplar su aliento de fuego contra la muralla del castillo.  "¡Uh-Oh!"
+
+Así comienza el trabajo de Amy de reconstruir el muro del castillo.  Pero porque Amy
+preferiría divertirse que pensar en ello como un trabajo, ella inventa un
+juego para que su hijo y ella jueguen juntos.
+
+El juego comienza después de que se coloquen cuatro cuadrados numéricos parpadeantes en la parte inferior.
+de la pared rota.  Amy elegirá un número de uno de los cuadrados para
+cuenta con los dedos.  La parte de su hijo en el juego es contar.
+
+Página 17
+
+el número de dedos que Amy está levantando y une ese número con uno
+de los números en los cuadrados.  Si su hijo elige el número correcto,
+un ladrillo caerá en su lugar y pasará a formar parte de la pared.  Pero si tu
+El niño no elige el número correcto, el ladrillo se caerá y se romperá.
+hacia arriba cuando llegue al fondo de la pared.
+
+El puntero del mouse aparecerá después de que Amy termine de contar un número.
+en sus dedos.  Para elegir el número de dedos que sostiene Amy
+hacia arriba, su hijo puede mover el puntero al número correspondiente en
+uno de los cuadrados parpadeantes y haga clic en cualquiera de los botones del mouse para crear un
+elección.  Después de que caiga el ladrillo, Amy elegirá otro número hasta que el
+La pared está terminada.
+Cuando su hijo haya ayudado a llenar toda la pared, Amy hará un poco
+baile de celebración y el Rey Galleta la recompensará a ella y a su hijo por un
+trabajo bien hecho!  El programa luego regresará a la pantalla de menú.
+
+Su hijo puede salir de Cookie Castle antes de que se termine la pared.
+haciendo clic con el mouse en el botón Salir en cualquier momento.  el programa
+Luego regresará a la pantalla de menú.
+
+Página 18
+
+Terminando el juego
+
+Puedes finalizar la aventura Fun-2-3 de Amy en cualquier momento presionando la tecla ESC
+en tu teclado.  (Esta es la clave en la esquina superior izquierda de la
+teclado.)
+
+Después de presionar la tecla ESC, aparecerá una pantalla para salir que le preguntará
+para confirmar su deseo de salir del programa.  Al hacer clic en "Asentir
+Sí" El botón de la izquierda le permitirá salir del programa.  Haciendo clic
+en el botón "Sacudir la cabeza, no" a la derecha, lo regresará a la
+Pantalla de menú de Amy's Fun-2-3 Adventure y le permite continuar
+programa.
+
+Fin..............

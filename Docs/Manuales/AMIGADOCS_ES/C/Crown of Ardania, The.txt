@@ -1,0 +1,953 @@
+LA CORONA DE ARDANIA V2.0
+
+                                el manual
+
+                               Por Gary Yates
+
+            Copyright (C) 1987 G.L.A.U.G. & Neale Artes Informáticas
+
+
+                        Concepto y diseño originales.
+
+                          GARY YATES Y G.L.A.U.G.
+
+                                Programación
+                      Jaime Yates
+                      John Hoffman, Steve Sinclair
+                        Gary Rantz
+
+                             Gráficos y sonido
+                             Víctor Lee Neale
+
+           Este programa fue creado usando el compilador AC/Basic.
+                   Copyright (C) 1987 Absoft Corporation
+
+
+
+     The Crown of Ardania es un juego de guerra de fantasía que combina las estrategias
+of Risk y otros juegos similares con el aspecto completamente nuevo de MAGIC!
+
+El juego se juega en un mapa que tiene 16 territorios.  El objeto es ser
+el único gobernante en la tierra conquistando a todos los demás oponentes para que
+Ocupas todos los territorios.  Puede haber hasta cuatro jugadores.  cada jugador
+asume el papel de un mago de gran poder que lucha para convertirse en el
+Rey de la tierra mágica de Ardania.  Cada jugador comanda tropas en cada
+de los territorios que controla.  Estas tropas están compuestas por
+soldados, caballeros y magos.
+
+Los soldados son la principal fuerza de combate en Crown of Ardania (CA).  son promedio
+hombres luchadores.  No tienen resistencias especiales excepto su número de corte.
+Los caballeros son luchadores más poderosos y hábiles y, por lo tanto, te ayudan en la batalla.  el
+Cuantos más caballeros tengas en un territorio, mejor será la lucha en ese territorio.
+habilidad.
+
+Los magos te benefician de dos maneras.  Primero, como los caballeros, te ayudan en la batalla.
+Pero en segundo lugar, y mucho más importante, generan el poder (en el
+forma de puntos de hechizo) que usas para lanzar tus hechizos.  Cuantos más magos
+tienes, más puntos de hechizo generarás en cada turno.
+
+Además de las tropas, hay otros tres componentes en el juego que son
+muy importante: comida, oro y puntos de hechizo.  Como se mencionó anteriormente, usted adquiere 
+puntos de hechizo de tus magos (5 por mago) al comienzo de cada turno.
+
+Adquieres oro de tus territorios en forma de impuestos.  Cuanto más 
+territorios que posees, más impuestos podrás exigir a tus
+campesinos cada día.  Pero también influye la orografía de cada territorio.
+en cuanto oro podrás conseguir, hablaremos de esto más adelante.
+
+Tus territorios también producen alimentos.  La cantidad de alimento producido
+Depende del terreno de cada territorio.
+
+
+REQUISITOS DEL SISTEMA
+
+Actualmente existen tres versiones de CA, una demostración que se ejecutará en cualquier
+Amiga con 512K, una versión completa del juego que se ejecutará en una máquina de 512K, y
+una versión completa del juego que requiere al menos 1 MEG.
+
+La versión de demostración se puede distribuir gratuitamente y se suministra en un único disco.
+No tiene sonido y todos los gráficos que no son esenciales para el juego tienen
+sido eliminado.  Además, muchas de las funciones del juego han quedado inoperables.
+
+¡Las dos versiones completas del juego NO SE DISTRIBUYEN GRATIS!  Ver el LÉEME
+PRIMER archivo que acompaña a la versión de demostración para obtener información sobre
+comprando las versiones completas del juego.
+
+Ambas versiones completas del juego (512K y 1MEG) son idénticas excepto que la 512K
+La versión no tiene un reproductor de computadora y parte de la música que el 1MEG
+la versión tiene. 
+
+COMENZAR UN JUEGO
+
+Si aún no lo ha hecho, consulte el archivo READ_ME_FIRST, que debería tener
+acompaña al juego, para obtener instrucciones sobre cómo instalar y arrancar Crown of
+Ardania.
+
+Una vez que haya iniciado CA, después de un retraso (mientras CA se carga a sí mismo y a todos sus
+archivos de datos) se le presentará la pantalla de inicio.  Habrá un
+introducción larga y elaborada.  Puedes saltarte esta introducción presionando el botón
+BARRA ESPACIADORA en cualquier momento. 
+
+Después de la introducción verás aparecer el mapa de Ardania.  el juego
+comienza cuando cada jugador ingresa su nombre.  Cada persona debe anotar de qué color
+magos que son, para que sepan qué territorios poseen.
+                                                   
+                                              
+Puede haber hasta cuatro jugadores.  Si hay menos de cuatro jugando, simplemente
+presione regresar cuando CA solicite el nombre del siguiente jugador.
+Con la versión de 1MEG también puedes hacer que la computadora reproduzca cualquiera de los cuatro
+jugadores escribiendo COMPUTER como nombre del jugador.  El jugador de la computadora
+El nombre será su color, rojo, verde, azul o morado.  Puede haber de 0 a 4
+reproductores de computadora.  Si quieres ver una demostración del juego, haz los cuatro.
+reproduce la computadora y ésta se reproducirá sola.  No hay ningún reproductor de computadora en
+la versión 512K.
+
+Después de que los jugadores hayan ingresado sus nombres, la computadora le preguntará si desea
+para usar las opciones de juego RÁPIDO o NORMAL.  Debes hacer clic en la opción.
+para usar.
+
+JUEGO NORMAL: con la opción de juego NORMAL, cada jugador recibe uno al azar
+territorio al inicio del juego, 40 soldados, 8 caballeros, 2 magos, 10
+puntos de hechizo, 100 unidades de comida y sin espías.
+
+JUEGO RÁPIDO: con el juego rápido, todos los territorios se asignan aleatoriamente
+jugadores para que cada jugador obtenga el mismo número.  Tenga en cuenta que si hay
+tres jugadores, quedará un territorio vacío sobrante.  Además, un azar
+En cada territorio se coloca un número determinado de soldados, caballeros y magos.  cada uno
+El jugador comienza con 100 puntos de hechizo, una gran cantidad de comida y algunos espías. 
+
+Después de haber seleccionado qué tipo de juego, si hay un jugador de computadora,
+Se le preguntará si desea ver los movimientos de los jugadores de la computadora (versión de 1 MEG).
+únicamente).  Si selecciona SÍ, verá todo lo que hace el reproductor de la computadora.
+como si fuera un jugador humano.  Si selecciona NO, solo verá el
+Opciones de menú de selección del reproductor de computadora.
+
+No poder ver lo que hace el jugador de la computadora aumenta la dificultad.
+del juego.  También acelera bastante el juego. 
+
+
+TERRITORIOS Y TERRENO
+
+La tierra de Ardania está dividida en 16 territorios.  ¡Los territorios son IMPORTANTES!
+¡Debes poseer tantos como puedas en todo momento!  Poseer u ocupar un territorio.
+necesitas tener al menos 1 soldado, caballero o mago en ese territorio.  si tu
+alguna vez saques todas tus tropas de un territorio (o morirán todas) que
+territorio será "libre".  Los territorios libres se indican con su color marrón. 
+color.  Cualquiera puede tomar un territorio libre simplemente trasladando tropas a él.
+
+Cabe señalar aquí que el término TROPAS se refiere a las tres clases de
+Hombres que puedes controlar: soldados, caballeros y magos.  NO es simplemente
+referirse a los soldados.
+
+El terreno de cada territorio juega un factor muy importante en el juego y debe
+tener en cuenta al jugar CA.
+
+Hay cuatro tipos de terreno: llanuras, pantanos, bosques y montañas.  cada uno
+tiene sus propios efectos, ventajas y desventajas.
+
+PLANILLAS - Sólo hay dos territorios en Ardania que son llanuras.
+Ambos son muy grandes y tienen una gran población.  Por lo tanto, cada
+de estos territorios normalmente producirá un gran número de reclutas cada día.
+Sin embargo, la gente que vive aquí es extremadamente pobre por lo que no podrás
+obtener mucho de ellos en impuestos.  Las llanuras son muy buenas tierras agrícolas y
+producir grandes cantidades de alimentos.  Sin embargo, las llanuras son muy difíciles de
+defender!
+
+PANTANO: Hay menos gente en los pantanos, por lo que no obtendrás tanta
+reclutas de aquí.  Pero son gente un poco más rica. Los pantanos son
+bastante buenos productores de alimentos y algo más fáciles de defender que las llanuras.
+
+BOSQUE - Todavía hay menos gente en los territorios forestales.  pero ellos
+pueden compensar su falta de número con oro.  Además, los bosques son bastante
+fácil de defender.  Pero aquí la producción de alimentos es un poco escasa.
+
+MONTAÑAS - Hay muy poca gente en las montañas. Pero los pocos que son
+Son extremadamente ricos debido a la extensa minería.  Y mientras las montañas
+Producen muy poca comida, ¡los pasos de montaña son muy fáciles de defender!
+
+
+GIROS Y FASES
+El juego de CA se desarrolla en una serie de turnos. (En el juego, cada turno es
+denominado "día".) Los turnos se dividen en dos fases: El movimiento
+Fase y Fase de Acción.  La Fase de Movimiento precede a la Fase de Acción
+en cada turno.  Hay un conjunto único de opciones de juego en cada uno de los diferentes
+fases.  Cada fase se divide en "turnos de jugador", uno para cada jugador.
+
+Durante tu turno, puedes realizar tantos movimientos como quieras.  Tu turno lo hace
+no finalizará hasta que seleccione LISTO.  Tenga en cuenta que hay algunas opciones que
+terminar prematuramente tu turno.  Se indica específicamente en la descripción de
+cada una de estas opciones que finalizan tu turno.
+
+El orden en el que los jugadores toman su turno en cualquier FASE determinada es 
+determinado por la computadora. Por eso es importante recordar, incluso si
+puedes ir primero en la fase de movimiento, es posible que no vayas primero en la 
+Fase de acción!
+
+La computadora, muchas veces, permitirá que el jugador PERDEDOR se vaya
+primero y hacer que el jugador ganador sea el último.  ¡Pero NO dependas de esto!
+Si algunos jugadores tienen aproximadamente la misma "fuerza", es algo aleatorio 
+en qué orden esos jugadores tomarán sus turnos.
+
+
+IMPUESTOS Y RECLUTAS
+
+Al inicio de cada Fase de Movimiento, cada jugador recibe sus impuestos, 
+reclutas, comida y puntos de hechizo para ese día (turno) según el turno de su jugador
+ocurre.
+
+Primero, te preguntan cuántos impuestos exigir a tus campesinos.  tu
+Los asesores sugerirán una cantidad que sea consistente con la riqueza del
+campesinos en los territorios que posee.  Debes elegir sabiamente aquí.  si
+Si tomas más de lo que sugieren tus asesores, tus campesinos se enfadarán.
+porque les están cobrando demasiado y obtendrás pocos o NINGÚN recluta
+para ese día.  Si toma menos de lo que sugieren sus asesores, su
+Los campesinos estarán muy agradecidos y obtendrás más reclutas para ese día. 
+Si toma exactamente la cantidad sugerida obtendrá un número "justo" de
+reclutas.  Tenga en cuenta que el grado en que sus campesinos estén enojados o
+satisfecho con los impuestos depende de cuánto está por encima o por debajo del
+cantidad sugerida que usted demanda.  Por ejemplo si tomas solo una pieza de oro
+más de lo que sugieren tus asesores, tus campesinos no serán demasiado
+enojado.  Sin embargo, si toma el doble de la cantidad que sugieren sus asesores
+(lo máximo que puedes pedir) tus campesinos no estarán contentos, decir
+lo menos, ¡y probablemente conseguirás muy pocos reclutas!
+
+Al inicio de la fase aparecerá un pergamino sobre el mapa de Ardania.
+pidiéndole la cantidad que demanda.  Escribe el número de piezas de oro. 
+usted exige y presiona regresar.
+
+Después de haber gravado a tus campesinos, se te dirá cuántos puntos de hechizo
+tus magos han generado para ti este día y cuánta comida tu 
+territorios producidos. (CA esperará a que hagas clic en continuar).  A continuación,
+Se te dirá cuántos reclutas se han unido a tu ejército y se te pedirá que
+qué territorio desea asignarles.  Debes asignar a tus reclutas a
+un territorio QUE YA POSEE.  No puedes asignarlos a un espacio vacío.
+territorio.  Para asignar tus tropas simplemente haz clic en el territorio que desees. 
+para colocarlos.
+
+
+COMIDA Y DESCANSO
+
+También al comienzo de cada Fase de Movimiento se te advertirá si tu
+tus tropas se han fatigado demasiado o si te has quedado sin comida y tu
+Las tropas se mueren de hambre.  Debes ser muy consciente de que ambas situaciones
+puede ser muy serio!
+
+COMIDA
+Todos y cada uno de los miembros de tu ejército deben tener una unidad de alimentos cada día para
+sobrevivir.  Si empiezas a quedarte sin comida y no puedes alimentar a tus tropas, ellos
+comenzará a perecer!  Cuanto peor sea tu situación alimentaria, más tropas
+que morirá de hambre.  Debes vigilar de cerca tu comida.
+suministro!
+
+DESCANSO
+
+A medida que seleccionas opciones en el juego, tus tropas se vuelven cada vez más
+fatigado. Después de todo, no es fácil correr de un territorio a otro.
+librando todo tipo de batallas.  Se te advertirá si tus tropas comienzan
+fatigarse y si no descansa bien, eventualmente se fatigarán
+¡Se fatigan tanto que comenzarán a morir! Recuerde también, tropas fatigadas
+¡No es posible luchar tan bien como tropas que están bien descansadas!
+
+
+FASE DE MOVIMIENTO
+~~~~~~~~~~~~~~~
+
+Durante la fase de movimiento hay nueve opciones que puedes seleccionar para
+hacer.  La mayoría de estos puedes hacerlos repetidamente sin terminar tu turno.
+Sin embargo, hay algunos que sólo puedes hacer una vez en cada Fase de Movimiento.
+
+     Las opciones de la Fase de Movimiento son:
+
+     I. MOVER TROPAS
+     II.   VISITAR UN TERRITORIO
+     III.  PUBLICIDAD DE TROPAS
+     IV.   DESCANSO (HECHO)
+     V. VISITA AL TESORO
+     VI.   CONTRATAR ESPÍAS
+     VII.  LANZAR UN HECHIZO
+     VIII. ASIGNAR ESPÍAS
+     IX.   COMPRAR COMIDA
+
+
+~Yo. MOVER TROPAS
+     Esta opción te permite mover cualquier número de tus tropas desde un
+territorio que posee a otro territorio que posee O a un territorio vacío
+para tomar ese territorio.  Primero debes seleccionar uno de tus
+territorios desde donde mover tropas y luego seleccione un territorio para mover tropas
+A.  Los dos territorios que selecciones DEBEN ser adyacentes.  Entonces puedes moverte
+tantas tropas como quieras entre los dos territorios.  Tenga en cuenta, sin embargo,
+Si sacas todas tus tropas de un territorio, ese territorio
+será gratuito para cualquier otra persona que desee tomarlo.
+
+Mover tropas A UN TERRITORIO VACÍO finaliza tu turno.  Sin embargo, puedes
+mueve tropas entre territorios que ya posees tanto como quieras. 
+
+
+El solicitante de asignación de tropas:
+
+Cuando necesites mover o asignar tropas en CA, se te presentará
+con el Solicitante de Asignación de Tropas.  Este solicitante se parece a
+esto:
+
+         DESDE -> HASTA
+
+     << 100 soldados 10 >>
+
+     << 10 caballeros 0 >>
+
+     << 5 magos 1 >>
+
+         CANCELAR LISTO
+
+Para asignar las tropas que se verán afectadas por cualquier opción que tengas.
+Actualmente, puedes hacer clic en los números a la derecha para mover tropas.
+sobre UNO A LA VEZ.  O puede hacer clic en los números a la izquierda para
+hacer retroceder las tropas una a la vez. Asimismo, puedes hacer clic en el doble
+Flechas (<<, >>) para mover tropas hacia arriba o hacia atrás DIEZ A LA VEZ.
+
+Cuando hayas terminado de asignar tus tropas, haz clic en LISTO.  O,
+Si ya no desea realizar esta acción, puede hacer clic en CANCELAR.
+
+Siempre que se le presente el Solicitante de asignación de tropas, aparecerá un segundo
+Siempre aparecerá un desplazamiento más pequeño que le indicará lo que está asignando.
+tropas para.
+
+
+~II. VISITAR UN TERRITORIO
+
+Esta opción de juego en realidad NO tiene una entrada en uno de los Movimientos.
+Menús de Fase o Fase de Acción.  Activas esta opción simplemente haciendo clic
+en cualquier territorio que desee visitar.
+
+Es posible, al jugar CA, mantener el número de tropas que tienes en
+Cada territorio es bastante secreto para los demás jugadores.  De hecho esto puede ser
+una estrategia eficaz a seguir.  De esta forma podrás "ocultar tus números"
+o engañar a los demás jugadores haciéndoles creer que tienes más tropas que las tuyas.
+realmente lo hago.  Debido a esta estrategia, la opción Visitar un territorio puede
+utilizarse de dos maneras.  Primero, si olvidas cuántas tropas tienes en un
+territorio puedes usar esta opción para ver lo que tienes.  segundo si tu
+Contrata espías (más abajo). Puedes espiar un territorio enemigo y descubrirlo. 
+cuántas tropas tiene tu oponente allí.
+
+
+III. PUBLICIDAD DE TROPAS
+
+Al igual que en el mundo real, ¡LA PUBLICIDAD FUNCIONA!  Usando esta opción, usted
+Puedes aumentar el número de reclutas que obtendrás al día siguiente pagando. 
+anunciantes para reclutar para usted.  Puedes pagar tanto como quieras
+Me gusta para esta publicidad.  Pero ten en cuenta que no importa cuánto pagues
+es solo para publicidad UN día.  Obtendrás tus reclutas de
+esta publicidad al inicio del día siguiente y listo.  para conseguir
+más reclutas (más de lo que normalmente obtendrías) tendrás que
+anunciar de nuevo.  Una pista: como en el mundo real, buena publicidad 
+¡No es barato!
+
+
+~IV. DESCANSO (HECHO)
+
+Como se indica en la sección COMIDA Y DESCANSO, si tus tropas se vuelven demasiado
+¡Fatigados comenzarán a perecer!  Para evitar esto debes dar tu
+tropas un buen descanso.
+Para descansar verdaderamente, debes seleccionar descansar como la PRIMERA opción en una fase.
+Esto se destaca por el hecho de que esta opción sólo dirá DESCANSO en el
+menús de las dos fases si no ha seleccionado ninguna otra opción.  tan pronto
+Al seleccionar una opción que no sea descansar, esta opción cambiará para decir
+HECHO.  En otras palabras, para que tus tropas descansen no debes hacer nada
+¡Pero descansa durante toda una fase!
+
+Puedes descansar tanto durante la Fase de Movimiento como durante la Fase de Acción.
+Descansar durante la Fase de Movimiento es sólo un descanso muy ligero y servirá
+poco para aliviar realmente la fatiga de tus tropas. Sin embargo, lo hará
+Impresiona a los lugareños que eres amable con tus tropas y es posible que obtengas más.
+recluta al día siguiente.
+
+Descansar durante una Fase de Acción es un buen descanso y aliviará el
+fatiga de tus tropas bastante bien.  Sin embargo, si ha presionado su
+tropas hasta el punto de morir de fatiga puede ser necesario más de un
+Descanso de la fase de acción para que vuelvan totalmente a la normalidad.
+
+Descansar siempre termina tu turno. Si haces otras cosas en una fase además
+descansar, esta opción se convierte en el medio por el cual finalizas tu turno.  cuando
+Ya has terminado con tu turno, selecciona esta opción (LISTO).
+
+
+V. VISITA AL TESORO
+
+Si durante la Fase de Movimiento necesitas saber cuánto oro, deletrea
+puntos, comida, espías o tropas que tengas, puedes utilizar esta opción.  tu
+También puedes usar esta opción para averiguar cuánto oro y puntos de hechizo tienes. 
+oponente tiene si contratas algunos espías.  Como ocurre con las tropas, es una buena idea.
+para mantener en secreto la cantidad de oro y puntos de hechizo que tienes
+tu puedes.
+
+
+VI. CONTRATAR ESPÍAS
+
+Como se mencionó anteriormente, si contratas espías puedes descubrir algunas cosas muy importantes.
+cosas sobre tu oponente.  Tener espías puede ser muy útil E importante.  
+
+Los espías funcionan de la siguiente manera.  Primero, debes contratarlos para realizar una tarea.
+para ti.  Los espías cuestan una moneda de oro cada uno para contratarlos.  Después de haber contratado
+espías, puedes usarlos de tres maneras.  Cada una de estas opciones requiere
+un cierto número de espías para completar la tarea.  Después de esto, estos espías
+han satisfecho su deuda con usted y dejarán su servicio.  debes
+luego contrata más espías para realizar otra tarea.  Tenga en cuenta que puede contratar un excedente
+de espías y utilizarlos según sea necesario.
+
+Los tres usos de los espías son el Territorio de visita y el Tesoro de visita.
+y las opciones de combate.  Para utilizar espías con la opción Visitar territorio, usted
+simplemente haz clic en el territorio de un oponente.  Si tienes suficientes espías, lo harás.
+Se te dirá cuántas tropas tiene tu oponente en ese territorio.  se necesitan cinco
+espías para espiar el territorio de un oponente.
+
+Si seleccionas Visitar Tesoro y tienes espías, se te preguntará si
+deseas visitar TU tesoro o si quieres espiar a un oponente.  espiar
+en el tesoro del oponente se necesitan 10 espías.
+
+Probablemente el uso más importante de los espías sea durante el combate.  Uso de espías en
+El combate se discutirá en la sección COMBATE a continuación.
+
+
+VII. LANZAR UN HECHIZO
+
+La magia es lo único que le da a CA su toque especial. Y la magia es muy
+importante en el juego.  Tu estrategia debe incluir el uso CUIDADOSO del mismo.
+
+La magia en Ardania existe en forma de hechizos que tú, como gran mago, puedes lanzar.
+Lanzar un hechizo cuesta puntos de hechizo, que son generados por tus magos.
+Cuanto mayor sea el poder del hechizo, más puntos de hechizo costará.
+
+Hay tres cosas importantes que recordar acerca de los hechizos.  Primero, con pocos
+Con excepciones, los hechizos se lanzan en un TERRITORIO, no en las tropas en ese territorio.  
+El hechizo durará toda su duración independientemente de QUIÉN ocupe el lugar.
+territorio.  En segundo lugar, ¡los hechizos se pueden lanzar en CUALQUIER territorio!  Por último, la duración
+de un hechizo comienza durante EL TURNO EN EL QUE LO LANZAS.  Ejemplo, una Espada Mágica dura
+durante 2 turnos: el turno en que lo lanzas y el siguiente turno.  A continuación se muestra una lista de los
+
+Hechizos de la fase de movimiento, incluido el costo y la duración de cada uno.
+
+COSTO DEL HECHIZO (pts) DURACIÓN (turnos)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Detección 3*
+Espadas Mágicas 5 2
+Escudos mágicos 10 2
+Miedo 10 2
+Martillos Mágicos 15 3
+Trampas mágicas 15 -
+Teletransporte 20 *
+Polvo a Oro 25 *
+Oro en polvo 50 *
+
+* = instantáneo
+- = especial, ver texto
+
+
+DETALLES DEL HECHIZO
+
+DETECCIÓN - Los efectos de algunos hechizos duran varios turnos.  la deteccion
+hechizo te permite saber qué hechizos están actualmente activos en el
+territorio sobre el que lo arrojas.
+
+ESPADAS MÁGICAS: Las espadas mágicas hacen que las armas de cualquier tropa que se encuentren
+el territorio afectado quede encantado.  Esto permite a las tropas
+para ATACAR mejor en combate.  Magic Swords NO ayuda en la defensa de un
+territorio.  Tenga en cuenta que Magic Swords es un hechizo de bajo nivel.  No lo hará
+marca una diferencia sobresaliente en las batallas.  Pero podría darte eso 
+ventaja adicional!
+
+Cabe señalar aquí que solo se puede lanzar UN hechizo de un tipo determinado.
+en un territorio en un momento dado.  Es decir, sólo se puede usar una Espada Mágica.
+arrojado sobre un territorio.  Lanzar una segunda Espada Mágica en el mismo territorio.
+no tendría ningún efecto adicional excepto extender la duración del hechizo.
+Por ejemplo, si lanzas Espadas Mágicas en un territorio (duración 2 turnos), entonces
+inmediatamente lanza una segunda Espada Mágica en el mismo territorio, ahora tienes
+¡Un territorio con espadas mágicas que durará cuatro turnos!
+
+Puedes lanzar dos hechizos diferentes en el mismo territorio.  Por ejemplo, tu
+Podría lanzar espadas mágicas y martillos mágicos en el mismo territorio y tener
+¡Ambos hechizos en vigor y sus efectos serán aditivos!
+
+ESCUDOS MÁGICOS: este hechizo encanta la armadura de las tropas en la zona afectada.
+territorio ayudándoles a defender.  No tiene ningún efecto durante los ataques.  (NOTA:
+atacar y defender se discutirá en detalle en la sección de combate).
+
+MIEDO: este hechizo provoca que las tropas en el territorio afectado tengan miedo.
+de quienes se enfrentan en combate y luchar mal contra ellos.  esto
+El hechizo afecta tanto al ataque como a la defensa.  Debes tener en cuenta que
+si usas este hechizo de manera ofensiva, y atacas y tomas el
+territorio ANTES de que la duración del hechizo haya expirado, las tropas que mueves
+¡En ese territorio se verá afectado por este hechizo!
+
+MARTILLOS MÁGICOS: al igual que las espadas mágicas, este hechizo encanta las armas del
+tropas en el territorio sobre el que se lanza este hechizo.  Sin embargo, Magic Hammers es
+una versión más poderosa del hechizo Y afecta tanto al ataque como al
+defendiendo.  También tiene una mayor duración.
+
+TRAMPAS MÁGICAS: este hechizo hace que se coloquen trampas en el territorio donde se lanza.
+sobre.  Para obtener una explicación detallada de las trampas, consulte la opción DEJAR TRAMPAS en
+la sección de combate.
+
+TELEPORTAR: con este hechizo puedes teletransportar tropas de un territorio a
+otro.  Este es el único hechizo que no se puede lanzar en cualquier territorio.
+Sólo puedes usar este hechizo para mover TUS tropas desde un territorio que posees hacia
+otro territorio de su propiedad O a un territorio vacío.  No puedes teletransportar a un
+las tropas enemigas.  El hechizo Teletransportar funciona de manera muy similar al hechizo Mover tropas.
+opción excepto que los territorios no tienen que ser adyacentes.  este hechizo
+Es muy útil si tu jugador te bloquea en un área pequeña del mapa. 
+oponentes.
+
+POLVO A ORO: este hechizo se lanza sobre ti mismo y NO sobre ningún objeto en particular.
+territorio.  Si bien podrías lanzar este hechizo a un oponente, eso sería
+No será el más inteligente de los movimientos.  Este hechizo se ve muy afectado por el número
+y terrenos de los territorios que ocupas.  Este hechizo te permite crear
+oro del polvo de la tierra.  Y requiere mucho polvo.
+Por ello, territorios polvorientos como las llanuras o las montañas
+creará mucho más oro que los pantanos húmedos o los bosques.  pero sigue
+Tenga en cuenta que este hechizo es muy impredecible.  Y sólo porque tienes
+Las llanuras o las montañas no significan que ganarás oro.
+
+ORO AL POLVO: este hechizo se lanza sobre un jugador y no sobre un territorio.
+Sin embargo, aún necesitas seleccionar un territorio para indicar qué jugador
+se verá afectado por el hechizo.  Cuando lanzas este hechizo sobre un jugador, TODOS 
+De ese jugador, el oro se convertirá instantáneamente en polvo y no tendrá valor.
+
+VIII. ASIGNAR ESPÍAS
+
+Esta opción se explicará en la sección de combate.
+
+IX. COMPRAR COMIDA
+
+Si tus territorios no producen suficientes alimentos para sustentar a tus tropas,
+necesitarás comprar comida.  Puedes comprar comida a razón de 3 unidades de comida.
+por cada pieza de oro.
+
+
+FASE DE ACCIÓN
+~~~~~~~~~~~~~
+
+Hay siete opciones en la Fase de Acción.
+
+     I. ATACAR UN TERRITORIO
+     II.  LANZAR UN HECHIZO
+     III. CONSTRUIR FORTALEZA
+     IV.  DESCANSO (HECHO)
+     V. INVOCAR DRAGÓN
+     VI.  VISITA TESORERÍA
+     VII. VISITA TERRITORIO
+
+
+I. ATACAR UN TERRITORIO
+Esta es, con mucho, la opción más importante en CA desde atacar y tomar
+territorios es la forma en que los jugadores superan a sus oponentes.
+
+Si bien la mecánica involucrada en atacar un territorio es bastante simple
+Los factores que afectan el combate son numerosos y complejos.  Algunos de estos 
+Los factores se dan en la sección COMBATE a continuación.
+
+COMBATE
+
+El combate en CA se basa en el principio de que hay un atacante y un
+Defensor en cada batalla.  El atacante es el jugador activo que seleccionó
+la opción y amenaza con tomar el territorio del jugador Defensor. 
+El atacante selecciona uno de sus territorios desde donde atacar (el territorio atacante
+territorio) Y el territorio de un oponente para atacar (el territorio defensor).
+Estos dos territorios deben ser adyacentes.  El territorio atacante es el
+territorio del que el atacante puede sacar sus tropas para crear una zona de ataque.
+ejército que luego avanza hacia el territorio defensor y se involucra en la batalla.
+El ejército defensor está formado por TODAS las tropas del territorio defensor.
+Si el atacante gana, reclama el territorio defensor como propio.
+y las tropas que quedan vivas en el ejército atacante se colocan allí
+como ocupantes de ese territorio.  El atacante no puede mover más tropas.
+allí hasta la siguiente Fase de Movimiento.  Una cosa que el atacante debería
+recordar es que librar batallas es muy agotador para las tropas y que
+Las tropas del atacante acumularán fatiga a un ritmo mucho mayor.
+entonces normal.  Además, esta fatiga afectará la capacidad del ejército para 
+pelear.
+
+Si en algún momento el ejército atacante es derrotado, el defensor sigue siendo el dueño.
+del territorio defensor.  Tenga en cuenta que el atacante nunca puede perder un
+territorio A MENOS que el atacante coloque TODOS los territorios atacantes
+tropas a su ejército atacante.  En este caso, si el atacante gana
+o pierde, ¡el territorio atacante original se convierte en territorio libre!
+
+La mecánica del ataque
+
+Esta sección describe en detalle cómo se lleva a cabo una batalla.
+
+Lo primero que debe hacer el jugador atacante después de elegir atacar a un
+territorio es seleccionar un territorio desde el cual atacar, luego un territorio
+ataque.  El atacante seleccionará entonces su MODO DE ATAQUE.  Después del
+El atacante ha seleccionado un modo de ataque, el defensor seleccionará su
+MODO DEFENSA.
+
+Hay cinco modos de ataque y seis modos de defensa.  Estos atacan y
+¡Los modos de defensa deben seleccionarse en secreto!  Entonces, mientras el atacante está 
+Al seleccionar su modo de ataque, el defensor debe alejarse del enemigo.
+pantalla y viceversa cuando el defensor selecciona un modo de defensa.  el
+Los modos de ataque y defensa se analizan en detalle a continuación.
+
+Después de seleccionar los modos de batalla, el resultado de la batalla será
+ser resuelto.  Tenga en cuenta que ciertas combinaciones de modos de ataque y defensa
+NO resultará en ninguna pelea real.    Si se producen enfrentamientos, el
+Los jugadores simplemente se sientan y observan cómo sus tropas perecen en el ataque.
+El ganador es el jugador que tiene tropas sobreviviendo al final del
+batalla.  Tenga en cuenta que es posible que AMBOS ejércitos estén completamente
+destruido en el combate cuerpo a cuerpo. Si ambos ejércitos son destruidos entonces el defensor
+El territorio se convierte en territorio libre.
+
+Factores que afectan el combate
+
+Además de los modos de ataque y defensa seleccionados por el atacante y
+defensor, hay muchos otros factores que pueden afectar el resultado
+de una batalla.  Varios de estos factores se enumeran aquí.
+
+Terreno: el terreno del territorio del DEFENSOR juega un papel importante en
+combate.  Como se mencionó anteriormente en la sección TERRENO, el terreno de
+un territorio determina qué tan difícil o fácil es defender ese territorio. 
+Sólo el territorio del defensor se considera en combate porque los atacantes
+Se cree que se están precipitando hacia el territorio defensor.
+
+Hechizos: los hechizos lanzados tanto en los territorios atacantes como en los defensores.
+son considerados para el combate.  Los hechizos lanzados sobre el territorio atacante.
+Afecta al ejército atacante y a los hechizos lanzados en el territorio defensor.
+afectar al ejército defensor.  El efecto que tienen los hechizos en la batalla.
+se analizan en sus respectivas secciones.
+
+Fatiga: el nivel de fatiga de los ejércitos afectará su capacidad de lucha.
+Cuanto más fatigado esté un ejército, peor luchará.
+
+Fortalezas: una fortaleza construida en un territorio defensor ayudará al
+defensor en gran medida.  Las fortalezas en el territorio atacante no tienen ningún efecto.
+
+Tropas: aparte del número de soldados de un ejército, el número de
+Los caballeros y magos dictan la fuerza de ese ejército.
+
+MODOS DE ATAQUE Y DEFENSA
+
+Los primeros tres modos de ataque y los primeros tres modos de defensa son todos
+Estrategias de batalla simples para usar en combates reales.  Todas las demás batallas
+Los modos son acciones especiales que también se pueden realizar en una situación de combate.
+
+Estrategias de batalla
+
+Las tres estrategias de ataque son:
+
+Ataque furtivo: el ejército atacante ingresa silenciosamente a la defensa.
+              territorio en un intento de sorprender al defensor.
+
+Ataque normal: el ejército atacante marcha en formación hacia el
+                defendiendo el territorio esperando su número y habilidades de batalla
+                será suficiente para ganar.
+
+Ataque feroz: el ejército atacante se precipita hacia adelante en un frenesí.
+                   rabia.
+
+Las tres estrategias de defensa son:
+
+Emboscada: los defensores están escondidos, esperando sorprender al ejército atacante.
+         cuando ingresa al territorio.
+
+Stand Ground: los defensores están en formación listos para enfrentar a los atacantes.
+               de frente.  Contraataque: los defensores, en un ataque salvaje,
+               Corre hacia adelante con la esperanza de tomar a los atacantes con la guardia baja.
+
+A continuación se muestra una tabla que muestra cómo estas estrategias de batalla se correlacionan con cada una.
+otro para determinar qué lado tiene la ventaja.  Esta mesa fue
+construido para ser justo, no necesariamente para tener sentido en una batalla de la vida real
+situación.  Sin embargo, con un poco de imaginación las entradas de la tabla
+puede tener sentido.  Por ejemplo, atacar ferozmente tiene la ventaja.
+sobre una emboscada de los defensores porque los atacantes se apresuran a sorprender al
+defensores antes de que puedan esconderse.
+
+    E - Incluso, sin ventajas, las estrategias se cancelan.
+    A - Ventaja de los atacantes
+    D - Ventaja de los defensores
+
+Defensor: emboscada, contraataque en tierra
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atacante:
+
+Ataque furtivo E A D
+
+Ataque normal D E A
+
+Feroz A D E
+ataque
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otros modos de ataque
+
+DIFUNDIR RUMORES - Esto es totalmente falso.  Puede seleccionar esta opción si
+sólo quieres fingir que estás atacando a tu oponente.  mientras no puedas
+Toma un territorio usando este modo, puedes obtener algunos beneficios de él.
+Si el defensor no se da cuenta de que estás mintiendo y planea una defensa
+De todos modos, sus tropas estarán descontentas y el defensor obtendrá
+muy pocos reclutas en el próximo turno. Porque el defensor era un pobre general.
+Tú, por otro lado, lucirás muy bien y es posible que consigas reclutas adicionales.
+Estas bonificaciones y penalizaciones pueden ser bastante cuantiosas si el defensor no
+algo realmente extremo como las retiradas del territorio.  Mantener en
+Sin embargo, tenga en cuenta que hay un modo de defensa de "Son sólo rumores".
+
+ENVIAR BANDIDOS: si tienes dinero, puedes optar por contratar bandidos.
+y pícaros para luchar por ti.  De esta manera no tendrás que poner en peligro
+tus propias tropas en combate.  Sin embargo, no puedes tomar un territorio con 
+guerreros contratados.  Si tu ejército contratado gana, simplemente abandonarán el
+territorio desocupado.  Los bandidos se utilizan principalmente para cortar el
+tropas del ejército contrario.
+
+Los bandidos se pueden contratar por una pieza de oro cada uno.  Tenga en cuenta que estos
+No son los mejores luchadores.  Estarán en desventaja natural.
+
+Otros modos de defensa
+
+DEJAR TRAMPAS - Dejar trampas es una forma de retirarse pero al mismo tiempo
+Da un último puñalada al enemigo.  Con este modo, mientras tus tropas se retiran
+Desde el territorio colocan trampas peligrosas.  Luego, cuando el enemigo entra
+el territorio en el que se activarán estas trampas provocando un número importante
+de las tropas atacantes perezcan. Tenga en cuenta que si las trampas no están activadas
+por los atacantes (como cuando el defensor deja trampas pero el atacante
+difunde rumores), o si se colocan trampas mágicas, las trampas permanecerán hasta
+alguien se muda AL territorio.  Salir de un territorio no establece
+fuera de las trampas.  Tenga en cuenta que construir estas trampas cuesta piezas de oro,
+25 po para ser exactos. Si no tienes 25 g.p. entonces dejar trampas
+¡Conviértete automáticamente en un retiro!  NO le dirán que no tiene
+suficiente oro.  Y NO tendrá la oportunidad de cambiar su selección.
+
+SON SÓLO RUMORES: si está bastante seguro de que el atacante sólo
+difundir rumores (como cuando tus espías te lo dicen), puedes seleccionar esta
+opción y darles la vuelta.  Si realmente solo se estuvieran propagando
+rumores, entonces parecerás un gran general y puedes obtener una importante
+número de reclutas adicionales.  Y tu oponente quedará como un tonto y obtendrá una
+penalización a sus reclutas.
+
+Sin embargo, si el atacante realmente no estaba difundiendo rumores, tus tropas
+estar confundido y desprevenido cuando los invasores se apresuren y muchos de ellos
+mueren antes de que puedan reagruparse lo suficientemente bien como para luchar.
+
+RETIRADA: si te superan irremediablemente en número, no tienes suficiente oro
+por dejar trampas, pero quieres salvar a tus tropas, puedes retirarte.  cuando
+te retiras (O dejas trampas) la computadora te preguntará qué territorio
+deseas retirarte.  Si no posee un territorio ADYACENTE al
+Al defender el territorio, tus tropas simplemente morirán en manos de un enemigo hostil.
+tierras!
+
+Usando espías en combate
+
+Si ha contratado espías, puede asignar algunos de estos espías para usarlos en
+combate usando la opción ASIGNAR ESPÍAS en la FASE DE MOVIMIENTO.  es
+Es importante recordar hacer esto en la fase de movimiento antes de la acción.
+¡Fase en la que realmente necesitas a los espías o no tendrás suerte!
+
+Hay dos cosas para las que necesitas asignar espías: ofensiva y defensiva.
+
+Los espías ofensivos te ayudarán cuando TÚ ataques un territorio.  ellos no lo harán
+ayudarte cuando te ataquen.  Si tienes espías ofensivos, cuando 
+ataque, estos espías pueden decirte qué modo de defensa seleccionó tu oponente
+y tendrás la oportunidad de cambiar tu modo de ataque en consecuencia.  Nota
+Sin embargo, en una situación de batalla tensa puede resultar difícil para los espías
+sobrevivir a la peligrosa tarea que se les asignó o para que digan exactamente qué
+realmente significan los movimientos de campo del oponente.  Así, existe la 
+posibilidad de que tus espías no te den ninguna respuesta.  O si ellos
+hacerlo, será una respuesta incorrecta.  Para superar este problema, puedes
+Envía más espías a la tarea.  De hecho, cuantos más espías asignes
+ataque o defensa, mayores serán sus posibilidades de obtener una respuesta
+y mayores serán las posibilidades de que esa respuesta sea correcta.
+
+Lo opuesto a los espías ofensivos, los espías defensivos te ayudan cuando estás
+atacado diciéndole qué modo de ataque ha seleccionado su oponente.
+Tenga en cuenta que después de haber seleccionado su modo de defensa, si el
+El atacante tiene espías, podrá volver a seleccionar su ataque (si sus espías
+da una respuesta), ¡pero no tendrás una segunda oportunidad!  esto puede hacer
+Seleccionar un modo de defensa es bastante complicado, pero "así es como se desarrolla la batalla".
+¡Se pelea!"
+
+Finalmente, los espías asignados para ataque y defensa permanecerán activos hasta
+en realidad se ponen en uso.  Es decir, los espías ofensivos en realidad no
+abandonar el servicio del jugador hasta que el jugador realice un ataque.  Asimismo,
+Los espías defensivos no se irán hasta que el jugador sea atacado.  hasta el
+El jugador está involucrado en combate, estos espías permanecerán turno tras turno.
+Además, los espías no se van hasta el FINAL de la Fase de Acción en la que
+Se utilizan los espías.  Así, si, por ejemplo, un jugador es atacado dos veces
+durante una fase y ese jugador tiene espías defensivos, esos espías serán
+un beneficio para AMBOS ataques.  Entonces los espías dejarán a los jugadores.
+servicio al final de la fase.  El jugador entonces debería considerar contratar 
+más espías y asignando nuevos espías defensivos durante el próximo Movimiento
+Fase.
+
+
+
+II. LANZAR UN HECHIZO (Fase de Acción)
+
+Hay ocho hechizos adicionales que sólo se pueden lanzar durante la Acción.
+Fase.  A continuación se muestra una lista de sus costos y duraciones.
+
+DURACIÓN DEL COSTO DEL HECHIZO
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Muro de Hielo 20 3
+Muro de fuego 20 1
+Rayo 30 *
+Invocar ejército 30 -
+Plaga 40 4
+Degradar 50*
+Escudo antimagia 50 3
+TORMENTA DE FUEGO 200 *
+
+
+MURO DE HIELO: este hechizo crea un muro impenetrable de hielo completamente
+rodeando el territorio sobre el que lo arrojaste.  Sin tropas (tuyas o de otros)
+Podrás entrar o salir de este territorio, excepto con un teletransporte.
+hechizo.  Nada puede destruir una pared de hielo antes de que expire su duración.
+¡excepto por un hechizo TORMENTA DE FUEGO!
+
+MURO DE FUEGO - Aunque este hechizo tiene una duración muy corta (el turno
+lo lanzas), es un muy buen hechizo defensivo.  Este hechizo crea un
+abrasador muro de llamas que rodea el territorio.  CUALQUIERA que pase por
+¡Estas llamas arderán!  Tenga en cuenta que este hechizo dura sólo
+durante la Fase de Acción en la que lo lanzas.  Así que si eres el último
+jugador tomará su turno durante la Fase de Acción lanzando este hechizo
+Sería una tontería.  Sin embargo, si eres el primer jugador en tomar su
+entregar la Fase de Acción (lo que posiblemente signifique que estás perdiendo), esto puede
+ser una defensa muy eficaz.
+
+ATAQUE DE RAYOS: este hechizo causa graves daños a un solo territorio.
+destruyendo a un número significativo de SOLDADOS allí.  Cuanto más grande
+Cuanto más soldados haya en el territorio, más efectivo será el hechizo.
+
+CONVOCAR UN EJÉRCITO: este hechizo crea instantáneamente entre 100 y 200 soldados en el
+territorio en el que lo lanzas.  Tenga en cuenta, sin embargo, que debe
+Alimenta a todos estos hombres que de repente estás haciendo existir. 
+
+PLAGA: este hechizo hace que una horrible plaga desconocida descienda sobre un
+territorio.  Este blite provoca varios efectos negativos:
+
+  - las tropas morirán
+  - el territorio NO producirá alimentos
+  - producirá menos oro
+  - los magos en el territorio producirán NO 
+    deletrea ptos
+
+
+                                                 
+  - en su estado debilitado las tropas allí 
+    no poder defender muy bien el territorio
+
+Considerándolo todo, ¡no es una buena situación!
+
+DEMOTE: este hechizo elimina instantáneamente las habilidades especiales de lucha de todos
+los caballeros en un territorio reduciéndolos a meros soldados.
+
+ESCUDO ANTIMAGICO - Este hechizo, cuando se lanza en un territorio, cancelará
+cualquier intento de tu oponente de lanzar un hechizo en ese mismo territorio.
+No afecta ningún hechizo que intentes lanzar en ese territorio.
+El Escudo Antimagia, sin embargo, sólo tiene un 80% de posibilidades de detener una TORMENTA DE FUEGO.
+hechizo.  Esto se debe al poder cortante de FIRESTORM.
+
+TORMENTA DE FUEGO: ¡Si todo lo demás falla, NUKE 'EM! Este hechizo destruirá instantáneamente
+¡Todo en un solo territorio!  Mata a todas las tropas, destruye cualquier
+fortaleza y niega cualquier otro hechizo que esté actualmente activo en la
+territorio afectado!  ¡PERO CUIDADO! El hechizo TORMENTA DE FUEGO es tan poderoso
+que es muy difícil de controlar.  Existe la posibilidad de que así sea
+¡¡¡contraproducente!!!  Lanzar un hechizo TORMENTA DE FUEGO finaliza tu turno.
+
+
+III. CONSTRUYE UNA FORTALEZA
+Construir una fortaleza en un territorio puede ser de gran ayuda para defenderlo.
+territorio.  Y las fortalezas son bastante económicas para la defensa.
+capacidades que dan.  Comienzan con unas 60 piezas de oro para construir uno.
+en una llanura.  Y sube a 120 para construir uno en un territorio montañoso.
+
+Lo único que puede destruir una fortaleza una vez construida es una
+Hechizo de TORMENTA DE FUEGO.
+
+Debes cuidar y defender bien tus fortalezas.  Por si tu
+El oponente debe tomar ese territorio, entonces tendrás que luchar.
+contra tu propia fortaleza para recuperarla.
+
+
+IV. DESCANSO (HECHO)
+
+El descanso se cubrió en detalle en la opción Descanso de la fase de movimiento.
+
+
+V. INVOCAR AL DRAGÓN
+
+Tres veces, y sólo tres veces durante el transcurso de un juego entero,
+Cada jugador puede convocar al Gran Dragón para que le ayude en su lucha.
+El Dragón es extremadamente caótico e impredecible.  Entonces no hay
+forma de saber qué tipo de ayuda dará.  Podría ser cualquier cosa.
+¡Podría darte más soldados, caballeros o magos, o los tres!
+Podría darte más puntos de hechizo, oro o simplemente un buen descanso.  el
+incluso puede quitarle el territorio a un oponente y entregártelo a ti con todas
+¡las tropas siguen ahí! Pero si el dragón te da algo.
+regular o algo genial, siempre será bueno.  El dragón
+Nunca hagas daño a la persona que lo convoca.
+
+Una cosa para recordar sobre el dragón es que es muy comprensivo.  el
+tiende a dar la mayor ayuda a los jugadores que están en problemas, pero no
+siempre!
+
+Si El Dragón te da tropas de cualquier tipo, las distribuirá
+tropas uniformemente en todos tus territorios.  Esto evita que un oponente
+de destruir inmediatamente todo el regalo del Dragón atacando
+o arrasar un solo territorio.
+
+Invocar al dragón finaliza tu turno.
+
+
+VI. VISITAR UN TERRITORIO
+
+Esta opción es idéntica a su contraparte de la Fase de Movimiento.
+
+
+VII. VISITA TESORERÍA
+
+Esta opción es idéntica a su contraparte de la Fase de Movimiento.
+
+
+
+GUARDAR Y RESTAURAR JUEGOS
+
+     Puede llevar mucho tiempo terminar una partida de Crown of Ardania
+(entre cuatro y seis horas)!  Por esta razón un método de ahorro
+Se han incluido juegos para poder reiniciarlos más tarde.
+
+Para guardar una partida puedes pulsar la tecla ESC en cualquier momento.  para mostrar eso
+Si ha seleccionado la opción de guardar, aparecerá la palabra 'GUARDAR' en el
+esquina superior izquierda del mapa del juego.  Luego, al comienzo del siguiente
+gire, aparecerá un pequeño pergamino con un solicitante que le pedirá un nombre.
+para guardar el juego a continuación.  En este punto deberías poner el disco en
+que deseas guardar el juego en una unidad, luego ingresa un nombre y presiona
+regresar. DEBE incluir la ruta completa en el nombre.
+
+     Ejemplo: df0:MiJuego
+          O: df0:CofAGames/MiJuego
+
+El disco número uno del conjunto de CA tiene un directorio llamado CofAGames, por lo que
+que puedes guardar juegos en este disco.  ADVERTENCIA: debes hacer una copia de seguridad de esto
+disco antes de guardar algo en él!!
+
+Tenga en cuenta que guardar un juego no finaliza ese juego.  El juego continuará
+como de costumbre después de guardar el juego.  Así, guardar un juego es como
+tomando una instantánea del juego en un punto particular.
+
+Para restaurar una partida previamente guardada, reinicia Crown of Ardania y
+escribe RESTORE como nombre del primer jugador.  serás presentado
+con un solicitante similar al que tenías cuando guardaste el juego.  entonces puedes
+escribe el nombre del juego guardado (incluida la ruta completa) para restaurar
+ese juego.  El juego continuará al comienzo del turno.
+que estaba a punto de comenzar cuando lo guardaste.
+
+
+TERMINAR UN JUEGO
+
+Si deseas finalizar un juego antes de su conclusión, ya sea
+porque has guardado el juego o porque simplemente estás cansado de
+Mientras estás jugando, mantén presionada la tecla Derecha-Amiga y presiona el punto '.' llave.  
+El juego finalizará y volverá a la pantalla WorkBench.
+
+
+Los autores desean agradecer a todas las personas que ayudaron a probar esto.
+juego, revisó el manual y ayudó a desarrollar este juego.
+
+Importado por Midnight Maniac y Mayday 14/2-90

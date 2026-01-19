@@ -1,0 +1,3345 @@
+FILA DE DESLIZAMIENTO
+
+                                 presenta
+
+                 HECHIZO -----|- PERDIDA DE LA FORJA CÓSMICA
+
+                         ATENCIÓN JUGADORES DE AMIGA:
+
+           SI ESTÁS JUGANDO A BANE OF THE COSMIC FORGE DESDE FLOPPY
+                 DISCOS DEBES HACER UNA COPIA DEL DISQUETE "A".
+
+         ES PREFERIBLE QUE HAGAS COPIAS DE TODOS LOS DISCOS QUE
+             LO RECIBES EN TU PAQUETE.  ESTO EVITARÁ CUALQUIER
+               QUE SUCEDAN ACCIDENTES A SUS DISCOS MAESTROS.
+
+ADVERTENCIA 
+
+Guarda tu juego con frecuencia.  Y guarda una copia de seguridad de esa partida guardada.
+alrededor.
+
+Si estás jugando en tu disco duro, guarda tu juego en un disquete de vez en cuando.
+y otra vez.  Si juegas desde disquetes, guarda tus juegos en
+disquetes formateados alternativamente.  ¿Por qué?  Nunca se sabe cuando es moderno 
+La tecnología se encontrará con un imán, eliminando así todo su arduo trabajo.
+
+         Bane of the Cosmic Forge - Tarjeta de referencia del sistema
+               Amiga 500, 1000, 2000 2500 y 3000
+--------------------------------------------------------------------------
+
+Instalación de Bane of the Cosmic Forge en un disco duro (fijo)
+
+Bane of the Cosmic Forge tiene su propio programa de instalación que
+ayudarle a instalar Wizardry en el disco duro de su computadora.  La perdición requiere
+aproximadamente 2,5 megabytes de espacio en disco; por favor asegúrese de tener
+este espacio disponible.  Debe ejecutar el programa de instalación desde el
+CLI.  Siga las instrucciones a continuación:
+
+   1. Inicie su Amiga para que su sistema configure y reconozca el
+       disco duro.
+
+   2. Desde Workbench, invoque CLI o SHELL haciendo doble clic en su
+       icono.  Puede estar ubicado en el cajón del sistema.
+
+   3. Inserte el Disco E en la unidad DF0: y escriba DF0:WINSTALL DH0:BANE y
+       presione VOLVER.  Bane creará su propio directorio y comenzará el
+       instalación.  Si tiene más de una partición de disco duro,
+       como DH1:, y deseas instalar Bane en ese disco duro,
+       entonces, en su lugar, escribiría DF0:WINSTALL DH1:BANE.
+
+   4. Cuando comience la instalación, el programa de instalación le pedirá que
+       Confirme su elección de directorio.  Presione Y o N y VOLVER.
+       Si el programa no puede crear el directorio o encontrarlo debido
+       ante algún error, abortará el procedimiento de instalación.
+
+   5. Bane ahora te pedirá el disco "E".  Ya debería estar en tu
+       conducir.  Presione C para continuar o Q para salir, luego presione RETORNO.
+
+   6. Cuando Bane haya copiado sus archivos del disco E, le preguntará a continuación 
+       para el disco A. Este procedimiento se repetirá para cada uno de sus
+       discos.  Inserte el disco en la unidad DF0: y presione C y RETORNO para
+       continuar.
+
+Para jugar a Bane of the Cosmic Forge
+
+Puede iniciar Bane of the Cosmic Forge desde el disquete DF0: ejecutarlo desde
+CLI o haga doble clic en su icono en el menú Workbench.  si eres
+Si no reproduce desde el disco duro, le recomendamos que inicie Bane desde el
+disquete para liberar la mayor cantidad de memoria posible.
+
+Desde el disquete: Inserte el disco A en la unidad DF0: y encienda su computadora. 
+                  encendido. 
+Desde Workbench: haga doble clic en el icono del disco duro BANE.  Entonces 
+                  Haga doble clic en el icono BANE.  si estas jugando
+                  Para sacar los disquetes, simplemente haga doble clic en BANE
+                  icono.
+Desde la CLI: cambie su directorio de trabajo al directorio Bane.
+                  (Por ejemplo, CD DF0: para usuarios de disquetes, CD DH0:Bane
+                  para usuarios de discos duros.) Escriba BANE y presione RETORNO.
+
+Ajustar la configuración de la pila antes de jugar
+
+Si juegas a Bane desde la CLI, debes ajustar el tamaño de la pila
+cada vez que juegas.  Normalmente, la pila se establece en 3000 o 4000.
+Sin embargo, para Bane, necesitarás al menos 8000. Para cambiar la pila
+desde CLI, escriba STACK 8000 y presione RETORNO.  Si haces clic en Bane
+o inicie el disco, la pila se configurará automáticamente.
+
+Sólo para usuarios de discos duros
+
+Bane of the Cosmic Forge requiere aproximadamente 1 megabyte de memoria RAM
+para correr.  Sin embargo, entiende que la sobrecarga del sistema ocupa
+aproximadamente 50 a 75K.  Para liberar la mayor cantidad de memoria posible,
+Puede ser necesario eliminar cualquier programa de memoria residente de su
+secuencia de inicio.
+
+Encantado de conocerte
+
+AmigaDOS tarda unos segundos cada vez que colocas un disco en la unidad para
+familiarízate con él.  En ocasiones donde se requieren cambios de disco,
+Bane hará una pausa deliberadamente para darle tiempo a AmigaDOS para registrar el disco.
+Sin embargo, si no reconoce su disco en el tiempo asignado,
+repetirá la solicitud del disco.  Simplemente haga clic o presione RETORNO para
+continuar.
+
+No extraiga ningún disco antes de tiempo
+
+Preste atención a la luz del disco al cambiar de disco.  si tiras
+Si sacas un disco demasiado pronto, puedes terminar escribiendo un dragón feroz
+¡Tus personajes de nivel uno!  Cuando se apague la luz, podrá retirar
+un disco e inserte otro.
+
+Guardar unidad de juego
+
+Puedes guardar tu juego en cualquier unidad de disco.  Una vez que hayas entrado
+Wizardry, seleccione la opción "Disco".  A continuación, seleccione "Configuración del juego".
+Usando las teclas de flecha ARRIBA y ABAJO, vaya a la opción Guardar unidad de juego.
+
+     Disco duro: para guardar el juego en tu disco duro, deja esto
+     campo en blanco.  Si deja este campo en blanco, Wizardry guardará
+     tu juego al directorio predeterminado (el mismo directorio donde
+     instalado el programa).  Si deseas guardar el juego en un
+     directorio diferente, debe ingresar el nombre del dispositivo y
+     nombre del directorio seguido de una barra diagonal.  Por ejemplo,
+     DH0:BANE/.  Si desea guardarlo en otro directorio o
+     ruta, el directorio debe existir de antemano; La hechicería no
+     crea el directorio por ti.
+
+     Disquetes: si quieres guardar tu juego en una unidad de disquete,
+     simplemente escriba el nombre del dispositivo de la unidad, como DF0: (o DF1:).
+     Si tiene una segunda unidad de disco (DF1:), le recomendamos que utilice
+     esta unidad para guardar tus juegos y reducir el intercambio de discos.  antes
+     guardas un juego, sin embargo, asegúrate de que tu disco para guardar el juego esté
+     formateado con antelación.  Te recomendamos guardar tu juego en
+     disquetes alternos periódicamente para realizar copias de seguridad.
+     Entonces, en caso de que algo le suceda a tu partida guardada, tienes
+     una copia de seguridad.
+
+Reemplazo de "Reemplazar"
+
+En el manual encontrará referencia a una opción llamada "Reemplazar".
+Usando este comando, podrías reemplazar a uno de tus más experimentados.
+miembros del grupo con un personaje de nivel 1 recién creado.  esta opción
+ha sido eliminado del juego.  En efecto, "Replace" derrotó a la
+esencia de Bane of the Cosmic Forge... dirigiendo creativamente un solo
+fiesta durante toda la aventura.  Por lo tanto, esta opción no es
+Ya no está disponible para que puedas disfrutar de la verdadera esencia de Bane of the.
+Forja Cósmica sin concesiones.
+
+                              FILA DE DESLIZAMIENTO
+
+
+=============================================================================
+                                 FILA DE DESLIZAMIENTO
+
+                                 presenta
+
+                 HECHIZO -----|- PERDIDA DE LA FORJA CÓSMICA
+ 
+     
+                                Hechizos de fuego
+
+Nombre del hechizo
+   Base del libro de hechizos
+   Reparto cuando el costo afecta la descripción
+-------------------------------------------------------------------------
+ENERGY BLAST 2 1 Monstruo Una chispa de energía eléctrica
+   Mago que hace de 1 a 7 puntos de daño por
+   Nivel de poder de combate.
+
+FLASH CEGADOR 3 1 Monstruo Un destello de luz gigante que puede
+   Alquimista por poder ciega temporalmente a los oponentes.
+   nivel de combate
+
+FIREBALL 6 3 Monstruos Bolas de fuego ardientes que arden
+   Mago que potencia a los oponentes y puede realizar de 2 a 10 golpes.
+   Puntos de nivel de combate de daño por fuego por poder
+                                       nivel.
+
+FIRE SHIELD 8 Party Crea una barrera impermeable a
+   Fuego de mago que protege al grupo.
+Combate desde hechizos de tipo fuego.
+
+BOMBA DE FUEGO 8 4 Monstruos Un hechizo incendiario y explosivo
+   Alquimista más poder que genera entre 3 y 9 puntos de vida de fuego.
+   Daño de nivel de combate por nivel de potencia.
+
+RAYOS 8 3 Monstruos Un rayo de energía eléctrica lanzado
+   Sacerdote más poder sobre los oponentes haciendo 1-10 golpes.
+   Puntos de nivel de combate de daño eléctrico por
+                                       nivel de potencia.
+
+PRISMIC MISSILE 9 3 Monstruos También conocido como DANCING LIGHT y
+   Mage plus power RAYOS ARCO IRIS, los distintos
+   Los espectros de niveles de combate tienen diferentes niveles aleatorios.
+                                       efectos sobre los monstruos.    
+
+FIRESTORM 12 Nube Una amplia nube de fuego que
+   El mago dura varias rondas de combate.
+   Combate y quema a todos los monstruos que se encuentran dentro de él.
+                                       Monstruos afectados, duración y
+                                       Los daños causados dependen de
+                                       nivel de poder del hechizo.
+
+NUCLEAR BLAST 16 Todos los monstruos Una bomba de fusión en miniatura.  esto
+   El hechizo de mago quema a todos los monstruos y lo hace.
+   Combate 5-25 puntos de daño por fuego.
+                                       por nivel de potencia.
+
+
+                             Hechizos de agua
+-------------------------------------------------------------------------
+CHILLING TOUCH 2 1 Monster Una ráfaga helada de frío que
+   El mago tiene entre 1 y 6 puntos de golpe de frío.
+   Daño de combate por nivel de potencia.
+
+RESISTENCIA 2 1 Personaje Repone parte del
+   Sacerdote, resistencia del personaje psiónico.  Cantidad
+   El alquimista depende del nivel de poder.
+   En cualquier momento
+
+TERROR 3 1 Grupo Evoca miedo y terror en
+   Mago, monstruos psiónicos y puede hacer que
+   Combatir huir o reducir de otro modo su
+                                       capacidad de luchar contra el
+                                       fiesta.
+
+DEBILITAR 4 3 Monstruos Drena físicamente a los monstruos
+   Mago, psiónico y poder que los hace más vulnerables a
+   Ataque a nivel de combate y hacer que peleen.
+                                       y reaccionar mal.
+
+LENTO 4 3 Monstruos Ralentiza a los monstruos.  no pueden
+   Sacerdote, Psionic plus power se mueven tan rápido para golpearte, y son
+   Nivel de combate más fácil de golpearse a sí mismos.
+
+HASTE 5 Party Acelera los movimientos de los personajes.
+   Sacerdote, psiónico dándoles energía extra.
+   Combate También es útil para contrarrestar un
+                                       Hechizo LENTO.
+
+CURA PARALISIS 6 1 Personaje Intenta curar a un personaje de
+   Sacerdote, parálisis psiónica.  El éxito depende de
+   Fuerza alquimista de parálisis en relación con
+   En cualquier momento la fuerza del hechizo.
+
+ICE SHIELD 8 Party Una barricada que resiste el
+   El mago afecta del frío y protege el
+   Grupo de combate de tipo frío y frío.
+                                       hechizos.  Fuerza y duración
+                                       en relación con el nivel de potencia de
+                                       del hechizo.
+
+ICEBALL 8 4 Monsters Una ráfaga de bolas de hielo punzantes
+   Mago más poder que causa 3-12 puntos de vida de
+   Daño de hielo a nivel de combate por nivel de potencia.
+PARALYZE 5 1 Monster Intenta solidificar un monstruo.
+   Sacerdote, duración psiónica y éxito dependen del
+   Nivel de poder de combate del hechizo.
+
+DEEP FREEZE 6 1 Monstruo Intenta congelar el cuerpo de un monstruo.
+   Mage fluidos corporales sólidos haciendo 3-30 golpes
+   Puntos de combate de daño severo por hielo por
+                                       nivel de potencia.
+
+                              Hechizos de aire
+-------------------------------------------------------------------------
+POISIÓN 2 1 Monstruo Vuelve venenoso el aire alrededor del
+   Monstruo alquimista y causa de 1 a 5 puntos de vida.
+   Daño de combate por nivel de poder más
+                                       envenenamiento.  Fuerza del veneno
+                                       en relación con el nivel de potencia del
+                                       hechizo.
+
+MISSILE SHIELD 5 Party Protege parte de los misiles,
+   Flechas de mago y armas arrojadizas, etc.,
+   Combate endureciendo el aire alrededor del
+                                       partido en un escudo.
+
+BOMBA Apestosa 4 3 Monstruos Una nube olorosa de vapores apestosos
+   Mago, alquimista que puede causar de 1 a 6 puntos de daño.
+   Combate por nivel de potencia más náuseas.
+
+AIR POCKET 8 Party Protege al grupo de hechizos de aire.
+   Mago, Alquimista como nubes apestosas y 
+   Combatir la asfixia creando un bolsillo
+                                       de aire limpio alrededor de la fiesta.
+                                       Fuerza y duración en relación con
+                                       el nivel de poder del hechizo.
+
+SILENCIO 4 3 Monstruos Hace que el aire alrededor de los monstruos se detenga.
+   Sacerdote, Psionic plus poder que transmite sonido, por lo tanto
+   Nivel de combate que les impide lanzar
+                                       hechizos.  Fuerza y duración
+                                       en relación con el nivel de potencia.
+
+POISON GAS 7 Cloud Nube de Posion que dura varios
+   El alquimista rodea y rodea a los monstruos.
+   Los monstruos de combate dentro de la nube sufren
+                                       por envenenamiento y daños.  el
+                                       monstruos afectados, duración y
+                                       El daño causado todo depende de la
+                                       nivel de poder del hechizo.
+
+CURA VENENO 8 1 personaje Intenta curar a un personaje de
+   Sacerdote, envenenamiento de alquimista.  El éxito depende de 
+   Fuerza de combate del veneno en relación con el
+                                       fuerza del hechizo.
+
+WHIRLWIND 8 3 Monstruos Un tornado arremolinado que azota
+   Sacerdote además de potenciar a los monstruos y destruirlos.
+   Nivel de combate con 1-7 puntos de daño por
+                                       nivel de potencia.
+
+PURIFY AIR 10 Party Intenta limpiar el aire de cualquier
+   Sacerdote, Alquimista nubes peligrosas como FIRESTORM
+   Combate y GAS VENENO.  El éxito depende
+                                       en la fuerza y cantidad de
+                                       nubes en relación con la fuerza de
+                                       el hechizo.
+
+VENENO MORTAL 8 1 Monstruo Mata al monstruo directamente o lo hace.
+   Alquimista envenenamiento extremadamente fuerte plus
+   Combate de 3 a 15 daños por nivel de potencia.
+
+LEVITATE 12 Party Mantiene la fiesta en el aire varios centímetros
+Mago sobre el suelo ayudando a prevenir.
+   Cualquier daño en caso de que se caigan.
+                                       La duración del hechizo es relativa.
+                                       al nivel de poder del hechizo.
+
+VAPORES TÓXICOS 8 Nube Una nube gigante y pegajosa de vapores.
+   Alquimista que rodea a los monstruos y
+   El combate causa de 2 a 6 puntos de daño por
+                                       nivel de potencia.  Monstruos afectados
+                                       depende del nivel de potencia del
+                                       hechizo.
+
+HUMOS NOXIOSOS 10 3 Monstruos Torrentes con olor horrible que
+   Mago, Alquimista y poder explotan las narices de los monstruos y
+   El nivel de combate causa de 1 a 6 puntos de daño por
+                                       Náuseas del nivel de potencia.
+
+ASFIXIACIÓN 12 1 Grupo Traga aire alrededor de los monstruos
+   Mago, Alquimista que no deja a nadie sin aliento.  oportunidad 
+   La muerte del combate de los monstruos depende de
+                                       su fuerza y susceptibilidad
+                                       en relación con la fuerza del
+                                       hechizo.  Criaturas o cosas que
+                                       No respires, como las rocas, no puedo.
+                                       ser asfixiado.
+
+DEADLY AIR 16 Todos los monstruos Hace que el aire rodee a los monstruos.
+   Alquimista totalmente irrespirable y causa
+   Combate 4-16 puntos de daño por poder
+                                       nivel.
+
+                             Hechizos de tierra
+-------------------------------------------------------------------------
+ACID SPLASH 2 1 Monster Una ola vertiginosa de ácido burbujeante
+   Alquimista que causa 1-7 puntos de vida de
+   Daño de combate por nivel de potencia.
+
+PICAZÓN EN LA PIEL 2 3 Monstruos Una pizca de polvo que provoca
+   Alquimiza la piel de los monstruos para que pique.  eso
+   El combate también irrita a los monstruos y
+                                       disminuye su capacidad de atacar
+                                       y defender.
+
+ARMOR SHIELD 2 Party Crea un escudo mágico al frente
+   Haz magia con el grupo y reduce la CA del grupo.
+   Combatir a los miembros por un punto por poder.
+                                       nivel.
+
+DIRECCIÓN 3 Parte Muestra la dirección hacia la que mira la parte
+   Mago (N, S, E, W) en la mazmorra.  el
+   En cualquier momento la duración del hechizo es relativa a
+                                       su nivel de potencia.
+
+KNOCK-KNOCK 6 Bloqueado Altera mágicamente el bloqueo de un 
+   Mago, puertas psiónicas y puerta (atascada o no) o un cofre en
+   En A Door o Treasure, intenta desbloquearlo.  cuando
+   Cofre del tesoro Cofres usados en un cofre, hay un
+                                       porcentaje de probabilidad de que pueda establecer el
+                                       atrapar.
+
+HOJAS 6 3 Lanzamientos de monstruos que cortan hojas de afeitar
+   Sacerdote, Psionic plus potencia el aire con 2-8 puntos de vida
+   Daño de nivel de combate por nivel de potencia.
+
+ARMORPLATE 6 Party Crea una armadura mágica.
+   Sacerdote alrededor del partido, protegiéndolos.
+   En cualquier momento y bajando su clase de armadura.
+
+WEB 7 1 Monstruo Intenta capturar 1 monstruo en un
+   Mago, telaraña pegajosa de alquimista.  El éxito depende de
+Combate la fuerza del monstruo
+                                       en relación con el nivel de potencia del
+                                       hechizo.
+
+ACID BOMB 8 Cloud Una nube ácida gigante que rodea
+   Monstruos alquimistas y causa daño ácido.
+   Combate Los monstruos afectados, duración.
+                                       y el daño causado todo depende de la
+                                       nivel de poder del hechizo.
+
+ARMORMELT 8 1 Grupo Suaviza la armadura de monstruos y
+   Mago, Psionic aumenta su CA en proporción a
+   Combate el nivel de poder del hechizo.  el
+                                       la armadura y la piel suavizadas son más fáciles
+                                       para penetrar.
+
+CREATE LIFE 10 Party Convoca a un grupo de orgánicos
+   Monstruos alquimistas que vendrán y lucharán por el
+   Partido de combate.  La potencia y el número de
+                                       Los monstruos convocados son relativos a
+                                       el nivel de poder del hechizo.
+
+CURE STONE 18 1 Personaje Intenta restaurar a un drogado 
+   Sacerdote, carácter alquimista a carne normal y
+   Hueso en cualquier momento.  El éxito depende de la
+                                       fuerza de la piedra relativa
+                                       al nivel de poder del hechizo.
+
+                                Hechizos mentales
+-------------------------------------------------------------------------
+MENTAL ATTACK 3 1 Monstruo Una presión invasora del pensamiento
+   Psionic haciendo girar el cerebro del monstruo y
+   Combate que causa de 1 a 7 puntos de vida mental.
+                                       daño por nivel de potencia.  puede causar
+                                       locura.
+
+SLEEP 3 3 Monstruos Hace que los monstruos se duerman y
+   Mago, Psionic plus power les impide atacar al
+   Miembros del grupo de nivel alquimista y defensa.
+   Combatirse del ataque.  Éxito
+                                       depende del poder del
+                                       monstruos en relación con el poder
+                                       nivel del hechizo.
+
+BLESS 4 Party Reduce mágicamente la CA del grupo
+   Sacerdote, psiónico y mejora sus posibilidades de acertar.
+   Monstruo de combate en relación con el poder.
+                                       nivel del hechizo.
+
+ENCANTO 5 1 Monstruo Intenta encantar a un monstruo, así
+   Sacerdote, psiónico o NPC que le impida atacar al
+   Fiesta de alquimistas.  Cualquier monstruo encantado
+   El combate/NPC también será más fácil de golpear.  cuando
+                                       lanzado en situaciones que no son de combate, el
+                                       El hechizo intenta encantar al NPC.
+                                       para que se respete la fiesta
+                                       de manera amistosa.  cuanto más alto
+                                       Cuanto mayor sea el nivel de potencia, más fuerte será
+                                       encanto.
+
+CURE LESSER CND 4 1 Personaje Intenta curar a un personaje de
+   Sacerdote, psiónico una de las enfermedades menores: 
+   Alquimista Miedo, Dormido, Ceguera,
+   En cualquier momento Náuseas e irritaciones menores.
+                                       El éxito depende de la fuerza.
+                                       de la enfermedad en relación con la
+                                       fuerza del hechizo.
+TRAMPA DIVINA 4 Lanzador Permite al lanzador determinar
+   Sacerdote, Psionic las letras de una trampa en el pecho.
+   En un tesoro con excelente confiabilidad.  
+   El éxito del cofre depende del poder de
+                                       La trampa relativa al poder de
+                                       el hechizo.
+
+DETECT SECRET 5 Lanzador Abre la mente del lanzador a
+   Mago, psiónico, cualquier cosa que pueda ser extraña o
+   En cualquier momento fuera de lugar en un área y permite
+                                       él o ella para detectar su presencia
+                                       dentro del entorno inmediato del partido
+                                       área.  El ojo DETECTAR SECRETO en
+                                       las ventanas mágicas "parpadearán"
+                                       cuando esto ha sucedido.  Duración
+                                       y el éxito del hechizo es
+                                       relativo al poder del hechizo
+                                       nivel.
+
+IDENTIFICAR 8 1 Monstruo Intenta revelar el verdadero nombre
+   Sacerdote, Psionico o un Objeto de un monstruo o un objeto.  Éxito
+   Combate/En cualquier momento depende del poder del
+                                       monstruo o la capa del objeto
+                                       en relación con el nivel de potencia de
+                                       el hechizo.
+
+MANTENER MONSTRUOS 6 3 Monstruos Intenta confundir a los monstruos.
+   Sacerdote, psiónico y poder para creer que son
+   Nivel de combate paralizado.  Si tiene éxito, 
+                                       Los monstruos estarán temporalmente.
+                                       paralizado.  El éxito depende de
+                                       poder del monstruo en relación con
+                                       el nivel de poder del hechizo.
+
+MINDREAD 8 Caster intenta discernir lo que hay en un
+   Mente del NPC psiónico.  El éxito depende de
+   NPC el poder del NPC en relación con
+                                       el nivel de poder del hechizo.
+
+MENTE SANA 10 1 Personaje Intenta restaurar la cordura a un
+   Sacerdote, personaje psiónico demente.  Éxito
+   Cualquier momento depende de cuán loco esté el
+                                       El carácter es relativo al
+                                       fuerza del hechizo.
+
+PSIONIC BLAST 8 3 Monstruos Una sacudida extrema y poderosa de
+   Energía mental psiónica más poder que revuelve el
+   Cerebros de monstruos de nivel de combate y causas 1-7
+                                       puntos de vida daño mental por
+                                       nivel de potencia y puede causar
+                                       locura.
+
+ILUSIÓN 10 Fiesta Intentos de evocar una ilusión
+   Psionico de una criatura tan real que puede
+   Combate, lucha y ataca a los monstruos.
+                                       y a su vez, puede ser atacado
+                                       por los monstruos.  la cantidad y
+                                       poder de los monstruos en la ilusión
+                                       depende del nivel de potencia del
+                                       hechizo.
+
+OJO DEL MAGO 10 Lanzador Permite al lanzador ver el
+   Mago, área circundante psiónica desde arriba
+   Vista de exploración.  El tamaño del área vista.
+                                       depende del nivel de potencia del
+                                       hechizo.
+#1: Sólo el piso.
+                                         #2: Obstrucciones con un 3
+                                             radio cuadrado.
+                                         #3: Vista completa con un cuadrado de 3
+                                             radio.
+                                         #4: Piso solo con un cuadrado de 5
+                                             radio.
+                                         #5: Obstrucciones con un 5
+                                             radio cuadrado.
+                                         #6: Vista completa con un cuadrado de 5
+                                             radio.
+
+MUERTE 10 1 Monstruo Intenta matar a un solo monstruo
+   Sacerdote, psiónico absoluto.  El éxito depende de la
+   Poder de combate del monstruo en relación con
+                                       el nivel de poder del hechizo.
+
+LOCALIZAR OBJETO 8 Lanzador Permite al lanzador mágicamente
+   Sacerdote y psiónico determinan el paradero de un 
+   Explorando cierto objeto.  El éxito depende
+                                       sobre la ubicación del artículo
+                                       En relación al partido, ¿qué tan bien?
+                                       el elemento está oculto y el poder
+                                       nivel del hechizo.
+
+MIND FLAY 18 Todos los monstruos Una marea concentrada de mental
+   Asalto psiónico que devasta el
+   Combate monstruos con entre 4 y 16 puntos de vida.
+                                       daño por nivel de potencia más
+                                       locura potencial.
+
+
+                               Hechizos mágicos
+------------------------------------------------------------------------
+SANAR HERIDAS 4 1 personaje Cura de 1 a 8 puntos de vida por poder.
+   Sacerdote, nivel psiónico.  Sanar las heridas no curará.
+   Alquimista condiciones menores o resucitar
+   Siempre personajes muertos.
+
+HACER HERIDAS 3 1 Monstruo Invoca poderes divinos para causar
+   Daño corporal al sacerdote que inflige de 1 a 8 golpes
+   Puntos de daño de combate por nivel de potencia.
+
+MISILES MÁGICOS 4 1 Monstruo Pequeños, pero poderosos, misiles de
+   Mago más poder: energía mágica lanzada a un
+   Oponente de nivel de combate que hace de 1 a 7 puntos de vida de
+                                       Daño mágico por nivel de poder.
+
+DISPELL UNDEAD 7 1 Monstruo Intenta disipar un monstruo animado.
+   Sacerdote por poder y monstruo no-muerto.  el éxito
+   El nivel de combate depende del poder del
+                                       monstruo en relación con el poder
+                                       nivel del hechizo.
+
+ENCHANTED BLADE 4 Party Mejora mágicamente la
+   Espadas y aumentos de los personajes sacerdotes.
+   Siempre que exista la probabilidad de éxito
+                                       chocar contra un monstruo.  también
+                                       aumenta la posibilidad de que un golpe
+                                       penetrar la armadura del monstruo.
+                                       La duración y el poder de la
+                                       Los efectos son relativos a la
+                                       nivel de poder del hechizo.
+
+BLINK 7 Caster Permite que el lanzador desaparezca. 
+   Mago, psiónico por un breve tiempo durante
+   Combate de combate.  Una vez que se lanza Blink, el
+                                       El lanzador "parpadea" y
+                                       "parpadear" en algún momento durante el
+cada ronda de combate.  el lo hará
+                                       siempre reaparece a tiempo para
+                                       ejecutar su combate normal
+                                       opción como blandir una espada
+                                       o lanzar un hechizo.  la duracion
+                                       es relativo al nivel de potencia de
+                                       el hechizo.
+
+PANTALLA MÁGICA 8 Party Crea una barrera mágica que
+   El mago intenta proteger al grupo. 
+   En cualquier momento de todos los hechizos que se les lancen.  
+                                       La fuerza de la barrera es
+                                       en relación con el poder del
+                                       Los hechizos de los monstruos y el poder.
+                                       nivel de la pantalla mágica.
+
+CONJURACIÓN 10 Monstruos Invoca monstruos del
+   Mago, Sacerdote de aviones etéreos para luchar por el
+   Partido de combate.  La potencia y el número de
+                                       Los monstruos convocados son relativos.
+                                       al nivel de poder del hechizo.
+
+ANTIMAGIA 7 Monstruos Forma una barrera mágica alrededor
+   Mago de los monstruos que pueden causar
+   Combatir sus hechizos para que se apaguen y/o
+                                       contraproducente.  La fuerza de la
+                                       La barrera es relativa al poder.
+                                       nivel de los hechizos y monstruos
+                                       elenco y el nivel de potencia del
+                                       Pantalla antimagia.
+
+QUITAR MALDICIÓN 10 Objetos Intenta levantar una maldición mágica
+   Sacerdote de un objeto para que un personaje
+   En cualquier momento puede retirar el artículo que tenía.
+                                       sido obligado a usar.  Éxito
+                                       depende de la fuerza del
+                                       maldición relativa a la fuerza
+                                       del hechizo.
+
+LIFESTEAL 12 1 Monstruo Elimina prácticamente toda la fuerza vital
+   Priest, Psionic y Caster de un monstruo e intenta
+   El combate canaliza parte de él de regreso al
+                                       lanzador para curarlo.  hace
+                                       4-16 puntos de daño mágico por
+                                       nivel de potencia - multiplicado por el
+                                       nivel de poder del hechizo.  en el
+                                       sexto nivel de potencia, LIFESTEAL puede
+                                       entregar 144-576 puntos de vida
+                                       daño.
+
+PUERTA ASTRAL 8 1 Monstruo Intenta desterrar a un tipo demonio
+   Mago, Sacerdote por monstruo de poder de este mundo.  Éxito
+   El nivel de combate depende del poder del
+                                       monstruo en relación con el poder de
+                                       el hechizo.
+
+PALABRA DE MUERTE 18 Todos los Monstruos Una palabra divina dicha así
+   Sacerdote poderosamente que destroza el
+   Combate monstruos con 4-16 puntos de vida.
+                                       de daño mágico por poder
+                                       nivel.
+
+RESURRECCIÓN 20 1 personaje Intenta criar un personaje
+   Mago, sacerdote de entre los muertos.  El éxito depende
+   Psionic sobre la fuerza vital del personaje.
+   En cualquier momento (vitalidad) en relación con el poder.
+nivel del hechizo.  cada vez
+                                       un personaje se levanta de la
+                                       muerto, pierde un punto
+                                       de vitalidad.
+
+DESEO DE MUERTE 20 Todos los monstruos Intenta matar a todos los monstruos.
+   Sacerdote francamente por pura magia.
+   Fuerza de combate.  El éxito depende de la
+                                       poder de los monstruos relativo
+                                       al nivel de poder del hechizo.
+
+
+
+                           Libro de hechizos de los alquimistas
+------------------------------------------------------------------------
+
+Costo del nivel del reino de hechizos
+
+Fuego cegador 2 3
+Bomba Incendiaria Fuego 4 8
+
+Resistencia Agua 1 2
+Curar la parálisis del agua 3 6
+
+Aire venenoso 1 2
+Bomba fétida aire 3 4
+Bolsa de aire Aire 3 8
+Posión Gas Aire 4 7
+Cure el aire venenoso 4 8
+Veneno mortal aire 5 8
+Purificar aire aire 5 10
+Vapores Tóxicos Aire 6 8
+Humos nocivos Aire 6 10
+Asfixiacion Aire 6 12
+Aire mortal Aire 7 16
+
+Salpicadura ácida Tierra 1 2
+Picazón En La Piel Tierra 1 2
+Web Tierra 3 7
+Bomba ácida Tierra 4 8
+Crear Vida Tierra 5 10
+Piedra curativa Tierra 6 18
+
+Dormir mentalmente 1 3
+Encanto Mental 1 5
+Cura Lessor Cnd Mental 2 4
+
+Sanar Heridas Magia 1 4
+
+
+                              Libro de hechizos de los magos
+------------------------------------------------------------------------
+
+Nivel de reino de hechizos   
+
+Explosión de energía Fuego 1 2
+Bola de fuego fuego 3 6
+Fuego Escudo Fuego 3 8
+Fuego de misiles prismáticos 5 9
+Tormenta de fuego Fuego 6 12
+Fuego de explosión nuclear 7 16
+
+Agua Toque Escalofriante 1 2
+Terror Agua 1 3
+Debilitar el agua 2 4
+Escudo de Hielo Agua 3 8
+Bola de hielo agua 4 8
+Agua ultracongelada 5 6
+
+Escudo antimisiles aéreo 2 5
+Bomba fétida aire 3 4
+Bolsa de aire Aire 3 8
+Levitar aire 5 12
+Humos nocivos Aire 6 10
+Asfixiacion Aire 6 12
+
+Armadura Escudo Tierra 1 2
+Dirección Tierra 1 3
+Toc-toc Tierra 2 6
+Web Tierra 3 7
+Derretimiento de armadura Tierra 4 8
+
+Dormir mentalmente 1 3
+Detectar secreto mental 2 5
+Mago Ojo Mental 4 10
+
+Magia Misil Mágico 2 4
+Parpadeo Magia Magia 3 7
+Pantalla mágica Magia 4 8
+Magia de conjuración 4 10
+Magia Antimagia 5 7
+Magia Puerta Astral 6 8
+Magia de resurrección 7 20
+
+
+                             Libro de hechizos de los sacerdotes
+------------------------------------------------------------------------
+
+Costo del nivel del reino de hechizos
+Rayo Fuego 5 8
+
+Resistencia Agua 1 2
+Agua Lenta 2 4
+Agua Prisa 3 5
+Curar la parálisis del agua 3 6
+Paralizar el agua 4 5
+
+Silencio Aire 3 4
+Cura Posion Air 4 8
+Torbellino de aire 4 8
+Purificar aire aire 5 10
+
+Placa de armadura Tierra 3 6
+Cuchillas Tierra 3 6
+Piedra curativa Tierra 6 18
+
+Bendición Mental 1 4
+Encanto Mental 1 5
+Cura Lessor Cnd Mental 2 4
+Trampa Divina Mental 2 4
+Identificar Mental 2 8
+Mantenga monstruos mental 3 6
+Mente Sana Mental 3 10
+Muerte Mental 5 10
+Localizar Objeto Mental 6 8
+
+Sanar Heridas Magia 1 4
+Hacer que las heridas sean mágicas 1 3
+Disipar la magia de los no-muertos 2 7
+Magia de espada encantada 2 4
+Magia de conjuración 4 10
+Eliminar maldición mágica 5 10
+Magia de robo de vida 6 12
+Magia Puerta Astral 6 8
+Palabra de Muerte Magia 7 18
+Magia de resurrección 7 20
+Magia del deseo de muerte 7 20
+
+
+                            Libro de hechizos psiónicos
+------------------------------------------------------------------------
+
+Costo del nivel del reino de hechizos
+
+Resistencia Agua 1 2
+Terror Agua 1 3
+Debilitar el agua 2 4
+Agua Lenta 2 4
+Agua Prisa 3 5
+Curar la parálisis del agua 3 6
+Paralizar el agua 4 5
+
+Silencio Aire 3 4
+
+Toc-toc Tierra 2 6
+Cuchillas Tierra 3 6
+Derretimiento de armadura Tierra 4 8
+
+Ataque Mental Mental 1 3
+Dormir mentalmente 1 3
+Bendición Mental 1 4
+Encanto Mental 1 5
+Cura Lessor Cnd Mental 2 4
+Trampa Divina Mental 2 4
+Detectar secreto mental 2 5
+Identificar Mental 2 8
+Mantenga monstruos mental 3 6
+Lectura mental mental 3 8
+Mente Sana Mental 3 10
+Explosión psiónica mental 4 8
+Ilusión mental 4 10
+Mago Ojo Mental 4 10
+Muerte Mental 5 10
+Localizar Objeto Mental 6 8
+Mente Flay Mental 7 18
+
+Sanar Heridas Magia 1 4
+Parpadeo mágico 3 7
+Magia de robo de vida 6 12
+Magia de resurrección 7 20
+
+
+
+			AYUDA DEL ASISTENTE
+
+---------------------------------------------------------------------
+                              armadura
+
+Nombre Tipo Peso Clase de armadura
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ARMADURA CORPORAL DE PECHO 18.0 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+ARMADURA CORAZÓN DE BRONCE 21.0 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA CORPORAL DE CADENA HAUBERK 28.0 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA DOBLE CHAMAIL 5.0 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmpTRaBpvblsmn MF
+
+
+CAMISA DE TELA BODY ARMOR 2.5 AC -1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+PLACA ÉBANO (U) ARMADURA 30.0 AC -14
+                     Abeto:12% Wat:12% Aire:12% Oreja:30% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA CORPORAL DE PLACA COMPLETA (U) 40.0 AC -12
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA CORPORAL DE PELO HALTER 2.5 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn mF
+
+
+ARMADURA CORPORAL HI-KANE-DO (U) 35.0 AC -12
+                     Abeto:15% Wat:00% Aire:00% Oreja:30% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+ARMADURA CORPORAL TÚNICA JAZERAINT 20.0 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+CORAZÓN DE CUERO ARMADURA 14.0 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+ARMADURA DE CUERO HAUBERK 18.0 AC -7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+NINJA GARB (U) ARMADURA CORPORAL 3.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+PLACA DU FAUX BODY ARMADURA 35.0 AC 2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA DE CORREA DE PLACA 33.0 AC -10
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+EDREDÓN TÚNICA BODY ARMOR 10.0 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmPtrabpVBLSmn MF
+
+
+TÚNICA de ENCHANT(U) BODY ARMOR 3.0 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:25%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+TÚNICAS (U) ARMADURA CORPORAL 3.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+STUD-CUIR BRA+2 ARMADURA 5.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+ARMADURA CORPORAL DE HAUBERK CON TACHUELAS 22.0 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+ARMADURA DOBLE ANTE 5.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+ARMADURA CORPORAL DE CORREO DESPLAZADO 28.0 AC 1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA CORPORAL TOSEI-DO (U) 24.0 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+BATA VENNAL (U) ARMADURA CORPORAL 3.0 AC 4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+---------------------------------------------------------------------
+                              Botas
+
+Nombre Tipo Peso Clase de armadura
+Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+BOTAS BUSKINS 3.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLSmn MF
+
+
+BOTAS DE MANGUERA DE CADENA 9.0 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BOTAS ZAPATILLAS CRISTAL 2.5 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:100% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN mF
+                                     KARA+1
+
+BOTAS PLOMO BOTAS 75.0 AC 5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BOTAS DE PIEL BOTAS 5.0 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+BOTAS MANTIS BOTAS 9.0 AC -14
+                     Abeto:00% Wat:25% Aire:00% Oreja:12% Hombres:12% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     VEL+1
+
+BOTAS ZAPATILLAS SAGRADAS 2.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:17%
+                     HEDGHfLDFRM fmPtrabpvBlsmn MF
+
+
+SANDALIAS BOTAS 1.5 AC -1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+BOTAS SOLLERET PLATA 12.5 AC -12
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BOTAS SOLLERET 10.0 AC -10
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BOTAS TABI BOTAS 2.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+BOTAS ALAS DE AGUA 2.0 AC -7
+                     Abeto:10% Wat:10% Aire:10% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+---------------------------------------------------------------------
+                              Guanteletes
+
+Nombre Tipo Peso Clase de armadura
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+GUANTES DE GAMUZA GUANTELETS 2.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLsmn MF
+
+
+GUANTES DE COBRE GUANTELETS 8.5 AC -10
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+GUANTELETS CUIR GUANTELETS 3.5 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+MANOPLAS DE CORREO GUANTELETS 6.0 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+GUANTES MANTIS GUANTELETS 6.0 AC -14
+                     Abeto:25% Wat:00% Aire:37% Oreja:00% Hombres:25% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     DES+1
+
+GUANTES DE PLATA GUANTELETS 9.5 AC -12
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+Guanteletes de acero Guanteletes 8.0 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+GUANTES UNTUOSOS GUANTELETS 2.5 AC 4
+Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLsmn MF
+
+
+---------------------------------------------------------------------
+                              casco
+
+Nombre Tipo Peso Clase de armadura
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+CASCO ARMET 7.5 AC -10
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO BASCINET 6.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO BASCINET&CAMAIL 11.5 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO BURGONET HELM 6.5 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO COXCOMB 3.0 AC 3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLsmn MF
+
+
+CASCO HEAUME ÉBANO 10.0 AC -14
+                     Abeto:12% Wat:12% Aire:12% Oreja:30% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO GORRA HADA .2 AC -4
+                     Abeto:25% Wat:25% Aire:25% Oreja:25% Hombres:25% Mag:25%
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                                     POR+1
+
+SOMBRERO DE PLUMAS CASCO 1.5 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+CASCO MÁSCARA DE CABRA 9.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+CASCO HEAUME 14.0 AC -12
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+
+
+TIMÓN DE CASCO OBITUS 8.5 AC 8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO HELM&COIF 10.5 AC -7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO KABUTO 5.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+CASCO TIMÓN DE PIEL 3.5 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+CASCO CORREO COIF 6.0 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO DE INGLETE 3.5 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+
+
+CASCO MITRE DE SANCT 3.5 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmPtrabpvBlsmn MF
+
+
+CASCO CONO DE MARDECAI 4.0 AC -7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:50% Mag:50%
+                     HEDGHfLDFRM fMptrAbPvblsmn MF
+
+
+CASCO NINJA 1.5 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+CASCO GORRA FRIGIA 3.5 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmpTraBpVbLsmn MF
+
+
+CASCO SKULLCAP .5 AC -1
+Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPvBlsMn MF
+
+
+CASCO TIMÓN DE ACERO 4.0 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CASCO TRICORNIO 3.5 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+CASCO CONO DE MAGO 2.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+
+
+---------------------------------------------------------------------
+                              Armadura de pierna
+
+Nombre Tipo Peso Clase de armadura
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ARMADURA DE PIERNAS GREBAS DE BRONCE 12.5 AC -7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CALZAS DE CADENA PROTECCIÓN DE PIERNAS 20.0 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+PANTALÓN CHAMAIL ARMADURA DE PIERNAS 6.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmpTRaBpvblsmn MF
+
+
+FALDA GAMUZA PIERNAS ARMOR 4.5 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn mF
+
+
+PANTALÓN DE TELA ARMADURA DE PIERNAS 3.5 AC -1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+PLACA ÉBANO (L) ARMADURA PIERNAS 30.0 AC -14
+                     Abeto:12% Wat:12% Aire:12% Oreja:25% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+PLACA COMPLETA (L) ARMADURA DE PIERNAS 32.0 AC -12
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMADURA DE PIERNA DE PIEL LEGGING 5.0 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLSmn MF
+
+
+ARMADURA DE PIERNAS HI-KANE-DO (L) 35.0 AC -12
+                     Abeto:15% Wat:00% Aire:00% Oreja:30% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+ARMADURA DE PIERNAS DE LEGGINGS CANOS 19.0 AC 1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmpTraBpVbLSmn MF
+
+
+ARMADURA DE PIERNAS DE PLACA HOAXIAL 35.0 AC 2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FALDA JAZERAINT ARMADURA PIERNAS 18.5 AC -7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn mF
+
+
+ARMADURA DE PIERNAS GREBAS DE CUERO 8.5 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+PROTECCIÓN DE PIERNAS LEGGINGS DE CUERO 11.0 AC -5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+ARMADURA DE PIERNAS NINJA (L) 3.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+PLACA GREVIERE ARMADURA PIERNAS 14.0 AC -10
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+QUILT LEGGING ARMADURA DE PIERNAS 9.0 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmPtrabpVBLSmn MF
+
+
+TÚNICA de ENCHANT(L) LEG ARMOR 4.0 AC -6
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:25%
+HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+TÚNICAS (L) ARMADURA DE PIERNAS 4.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+PROTECCIÓN DE PIERNAS PARA CALZAS STUD 17.0 AC -8
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+PANTALÓN DE ANTE LEG ARMOR 6.5 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+TOSEI-DO (L) ARMADURA DE PIERNAS 20.0 AC -9
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+BATA VENNAL (L) ARMADURA DE PIERNAS 4.0 AC 4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+---------------------------------------------------------------------
+                              Mágico
+
+Nombre Tipo Peso
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+
+BOMBA ÁCIDA MÁGICA .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOMBA ÁCIDA Secundaria
+
+POLVO ANTIGUO MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DEBILITAR Secundaria
+
+ARMADURA ESCUDO MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ESCUDO DE ARMADURA
+
+ARMADURA MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ARMADURA
+
+CUCHILLAS MÁGICAS .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CUCHILLAS
+
+CIEGO MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DESTELLO CEGADOR Secundario
+
+PARPADEO MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     PARPADEO
+
+LIBRO de DOZES MÁGICAS 2.0
+
+                     HEDGHFLDFRM fMptRABPvBlSMn MF
+                     DORMIR
+
+BOMBA DE CEREZA MÁGICA .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+CONJURACIÓN MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CONJURACIÓN
+
+CURA LT. CND MÁGICO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURA MENOR CND Secundaria
+
+CURA PARALIZ MÁGICA .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURA LA PARÁLISIS Secundaria
+
+CURA VENENO MÁGICO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURA VENENO Secundaria
+
+PIEDRA DE CURA MÁGICA .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     PIEDRA DE CURACIÓN Secundaria
+
+MÁGICO DE ADLYPOISON .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     VENENO MORTAL Secundaria
+
+DISPIRA MÁGICO DE LOS NO MUERTOS .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DISPIRAR LOS NO MUERTOS
+
+HOJA ENCANTADA MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HOJA ENCANTADA
+
+POLVO DE HADAS MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SUEÑO Secundaria
+
+BOMBA DE FUEGO MÁGICA 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOMBA DE FUEGO Secundaria
+
+ESCUDO FUEGO MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ESCUDO DE FUEGO
+
+BOLA DE FUEGO MÁGICA .3
+HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOLA DE FUEGO
+
+POLVO PARA PIES MÁGICO 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+MANTENER MONSTRUOS MÁGICOS .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MANTENER MONSTRUOS
+
+SANTO H2O(+) MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     AGUA BENDITA Secundaria
+
+AGUA BENDITA MÁGICA .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     AGUA BENDITA Secundaria
+
+HV. SANAR MÁGICO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SANAR HERIDAS Secundaria
+
+HV. RESISTENCIA MÁGICA .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESISTENCIA Secundaria
+
+ESCUDO DE HIELO MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ESCUDO DE HIELO
+
+ILUSIÓN MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ILUSIÓN
+
+KNOCK-KNOCK MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     TOC-TOC
+
+LEVITAR MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     LEVITAR
+
+MÁGICO DE ROBADO DE VIDA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ROBAR VIDA
+
+LT. SANAR MÁGICO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SANAR HERIDAS Secundaria
+
+MISILES MÁGICOS MÁGICOS .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MISIL MÁGICO
+
+MOD. SANAR MÁGICO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SANAR HERIDAS Secundaria
+
+MOD. RESISTENCIA MÁGICA .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESISTENCIA Secundaria
+
+ACEITE MISTERIOSO MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+POLVO MÍSTICO MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CREAR VIDA Secundaria
+
+BOMBA VENENO MÁGICA 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     GAS VENENO Secundario
+
+RESURRECCIÓN MÁGICA 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECCIÓN Secundaria
+
+RESURRECCIÓN MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECCIÓN
+
+LENTO MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     LENTO
+
+ESTORNUDO MÁGICO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     Picazón en la piel Secundaria
+
+BOMBA Apestosa MÁGICA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOMBA Apestosa Secundaria
+
+TERROR MÁGICO .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     TERROR
+
+---------------------------------------------------------------------
+                              Varios. Artículo
+
+Nombre Tipo Peso
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+AMULETO DE AIRE MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:25% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOLSILLO DE AIRE
+
+AMULETO de HIELO MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:25% Aire:00% Oreja:00% Hombres:00% Mag:00%
+HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOLA DE HIELO
+
+AMULETO DE VIDA MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECCIÓN
+
+AMULETO DE NOCHE MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     FLASH CEGADOR
+
+AMULETO DE VIENTOS MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:25% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     Torbellino
+
+ANKH de ARNIE MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:25%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     CC+1(1)
+
+ANKH de MUERTE MISC. TEMA .5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MUERTE
+
+ANKH de VIDA MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECCIÓN CND+1(1)
+
+ANKH de PODRÍA MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     FUE+1
+
+ANKH de PHYRE MISC. TEMA 1.5
+                     Abeto:25% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BOLA DE FUEGO
+
+ANKH de PUREZA MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     KARA+1
+
+ANKH de SANTIDAD MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     TARTA+1
+
+ANKH de MARAVILLA MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SANAR HERIDAS
+
+ANKH de MISC JUVENIL. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     PG+1(1)
+
+MANTO UNGIDO MISC. ARTÍCULO 6.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:12%
+                     HEDGHFLDFRM FmPtrabpVBLsMn MF
+
+
+COLLAR DE HUESO MISC. TEMA 2.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:35%
+                     HEDGHFLDFRM FmPtrabpVBlsmn MF
+                                     VIT+1
+
+MEDALLÓN DE CAMEO MISC. TEMA .5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:50%
+                     HEDGHFLDFRM FMPTRABPVBLSMN Mf
+                                     CC+1(1)
+
+CAPA de HI-ZEN MISC. ARTÍCULO 5.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:70% Mag:70%
+                     HEDGHFLDFRM fmptrabpvblsMn MF
+                                     PG+1(1)
+
+CADENA DE DESESPERACIÓN MISC. TEMA 3.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CLAVO DE AJO MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+ANILLO DE DIAMANTES VARIOS. TEMA .2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:50%
+                     HEDGHFLDFRM FMPTRABPVBLSMN mF
+                                     CDN+1(1)
+
+CAPA DESPLAZADORA MISC. ARTÍCULO 4.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     PARPADEO
+
+PARCHE EN EL OJO MISC. TEMA .1
+Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CABO BOSQUE MISC. TEMA 6.5
+                     Abeto:00% Wat:15% Aire:15% Oreja:15% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptRabpvblsmn MF
+
+
+GUIRNALDA DE ROSAS MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:40%
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+                                     CDN+1(1)
+
+LORO VERDE MISC. ARTÍCULO 4.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:05%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     POR+1
+
+IDOLO de MAU-MU-MU MISC. ARTÍCULO 4.0
+                     Abeto:37% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+DECODIFICADOR J.R. MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+FIGURA DE JADE MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:20% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsMn MF
+                                     CC+1(1)
+
+ANILLO DE LINCE MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     STM+1
+
+BOLSA DE MEDICINA MISC. TEMA .3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM fmptrAbpvblsmn MF
+                     SANAR HERIDAS
+
+MEMPO DE MUERTE MISC. TEMA 2.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:42%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+                                     KARA+1
+
+CAPA DE MEDIANOCHE MISC. ARTÍCULO 5.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmpTraBpvblsmN MF
+
+
+ANILLO DE MÍSTICO MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:12%
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+
+
+PK CRISTAL MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:90% Mag:00%
+                     HEDGHFLDFRM fmptrabPvblsmn MF
+                                     INT+1
+
+POL ANKH MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+ANILLO DE DEFTNESS MISC. TEMA .2
+                     Abeto:00% Wat:00% Aire:00% Oreja:25% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     DES+1
+
+ANILLO de DELPHI MISC. TEMA .5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ANILLO de MENTES MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:25% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPvBlsMn MF
+                     MENTAL
+
+ANILLO de VELOCIDAD MISC. TEMA .2
+                     Abeto:00% Wat:00% Aire:00% Oreja:25% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     VEL+1
+
+ANILLO DE ESTRELLAS MISC. TEMA .2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:50% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+TALISMAN DE RUBÍ MISC. TEMA .7
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:02%
+                     HEDGHFLDFRM FMpTRABPVbLSMN MF
+                                     INT+1
+
+COLLAR ESCARABAJO VARIOS. TEMA 1.5
+                     Abeto:35% Wat:00% Aire:25% Oreja:00% Hombres:25% Mag:25%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+TARTA+1
+
+CAPA DE SOMBRA MISC. TEMA 4.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM fmpTraBpvblsmN MF
+
+
+CRUZ DE PLATA MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:10%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+
+
+CRUZ DE PLATA MISC. ARTÍCULO 1.0
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:10%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           No se puede soltar
+
+ANILLO DE PIEDRA DE SAPO MISC. TEMA .1
+                     Abeto:00% Wat:00% Aire:35% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURA EL VENENO
+
+TORA MAEDATE MISC. TEMA 1.5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:12%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+                                     VIT+1
+
+ANILLO DE MAGO MISC. TEMA .5
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:05%
+                     HEDGHFLDFRM fMptrAbPvBlsmn MF
+                                           No se puede soltar
+
+---------------------------------------------------------------------
+                              Misiles
+
+Nombre Tipo Peso Daño A Golpe Ataques
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+MISIL ARROW A.P. .2 1D8+4 +2 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL FLECHA DE PÚAS .3 1D8+4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL ROMPE HUESOS .3 3D3+4 +1 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+BALA PIEDRA MISIL .5 1D4 GOLPE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL FLECHA CUPIDO .2 1D4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL DE PIEDRA DEL DIABLO .3 4D4 +2 GOLPE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL FLECHA ELM .2 EMPUJE 1D6
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISILES RAYOS .4 5D5+5 +2 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL FLECHA MÍSTICA .2 4D4+2 +2 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISILES PACIFICADORES .4 6D6+6 +3 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL QUARREL .2 1D4+1 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL DE PIEDRA DE NAVAJA .5 2D3+1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISILES DE PIEDRA DEL RIN .5 1D1 -4 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL DE PIEDRA SERPIENTE .5 3D3+3 +1 GOLPE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+MISIL FLECHA VIPER .2 1D7+3 +1 EMPUJE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+---------------------------------------------------------------------
+                              Escudo
+
+Nombre Tipo Peso
+                     Resistencias mágicas
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ESCUDO HEBILLA ESCUDO 4.0 AC -1
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+ESCUDO COMETA DRAGON 16.5 AC -4
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ESCUDO PATO 4.5 AC 2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+PROTECCIÓN DEL CALENTADOR 17.0 AC -3
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ESCUDO HERÁLDICO 8.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     FUE+1
+
+ESCUDO REDONDO 10.0 AC -2
+                     Abeto:00% Wat:00% Aire:00% Oreja:00% Hombres:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+---------------------------------------------------------------------
+                              Especial
+
+Nombre Tipo Peso
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ESPECIAL LENGUA DE ÁNGEL 2.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     BENDIGA
+
+ESPECIAL MANZANA .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ALIMENTOS ÚTILES
+
+B.D.LLAVE ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BOLSA DE ARENA ESPECIAL 20.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BAJO LIRA ESPECIAL 18.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     LENTO
+
+CHUCHERÍA Y BARATINAS ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+LLAVE DE CAMPANA ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE HUESO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LIBRO de AIR SHIELD ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ESCUDO MISIL
+
+LIBRO DE AIRES ESPECIAL .0
+
+                     HEDGHFLDFRM fMptRABpvBlSmn MF
+                     BOLSILLO DE AIRE
+
+LIBRO de ANTIMAGIA ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ANTIMAGIA
+
+LIBRO de ARMORMELT ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     ARMORFUSION
+
+LIBRO de CIEGO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmn MF
+                     FLASH CEGADOR
+
+LIBRO de CHILLS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     TOQUE ESFRESCANTE
+
+LIBRO DE DEMONIOS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMPtrabpvBlsmn MF
+                     CONJURACIÓN
+
+LIBRO de DETECCIÓN ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     DETECTAR SECRETO
+
+LIBRO DE DIRECCIONES ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     DIRECCIÓN
+
+LIBRO de FIRESHIELD ESPECIAL 2.0
+HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ESCUDO DE FUEGO
+
+LIBRO de ICESHIELD ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ESCUDO DE HIELO
+
+LIBRO de IDENTIDAD ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmptrabPvBlsmn MF
+                     IDENTIFICAR
+
+LIBRO de KNOCKS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     TOC-TOC
+
+LIBRO de LEVITACIÓN ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     LEVITAR
+
+LIBRO de LT.CURADO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     CURA MENOR CND
+
+LIBRO de MANTRAS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     RESISTENCIA
+
+LIBRO de PAZ ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     MENTE SANA
+
+LIBRO de POESÍA ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     INT+1
+
+LIBRO de VENENOS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmn MF
+                     VENENO
+
+LIBRO de PROTECCIÓN ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtrabpVBLsmn MF
+                     ARMADURA
+
+LIBRO de RAMM ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LIBRO de RAPTO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     ENCANTO
+
+LIBRO de SILENCIO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     SILENCIO
+
+LIBRO de PEREZOSO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     LENTO
+
+LIBRO de EL MALDITO ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LIBRO de LAS SIRENAS ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LIBRO de DEBILITAMIENTO ESPECIAL 2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     DEBILITAR
+
+LIBRO de VIUDAS ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmN MF
+                     VENENO MORTAL
+
+BOTL C/ANS+COORCHO ESPECIAL .7
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BOTELLA CON GMS+COORCHO ESPECIAL .7
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BOTELLA CON CORCHO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BOTELLA CON MSG ESPECIAL .6
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ARTÍCULO ROTO ESPECIAL .0
+
+                     hedghfldfrm fmptrabpvblsmn mf
+                                           No se puede soltar
+
+PIÑON ROTO ESPECIAL 25.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE CROMADA ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE COBRE ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+BOBBER DE CORCHO ESPECIAL .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAMADA DE CUCO ESPECIAL 1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     ATAQUE MENTAL
+
+CILINDRO de CENIZA ESPECIAL 1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CILINDRO de CENIZA ESPECIAL 1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+CILINDRO de CENIZA ESPECIAL 1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+REGISTRO DE HOMBRE MUERTO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+PIPA DEL DIABLO ESPECIAL 1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     DEBILITAR
+
+LLAVE DE MAZMORRA ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE SALIDA ESTE ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+SACO VACÍO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ANZUELO ESPECIAL .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL LINEA DE PESCA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LINEA CON GANCHO ESPECIAL .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+GLOOP SPLOCH ESPECIAL .6
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL LLAVE DE ORO .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ARMONIO ESPECIAL 1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     Picazón en la piel
+
+ESPECIAL HIERBAS .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ALIMENTOS ÚTILES
+
+PIPA HOOKAH ESPECIAL 12.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BOCINA de PROMETEO ESPECIAL 7.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     BOLA DE FUEGO
+
+CUERNO de ALMAS ESPECIAL 2.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+HV. ESPECIAL BULDER 35.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+HV. CUERDA ESPECIAL 55.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+INCIENSO ESPECIAL .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+LLAVE DE HIERRO ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+LLAVE DE CARCELERO ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de 1ª PRUEBA ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de 1ª PRUEBA ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+¿CLAVE de ?DECISIÓN?    ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+¿CLAVE de? ¿QUANDRY?     ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de UN MENOR ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de DROWS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE del MAL ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de FINALIDAD ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de FINALIDAD ESPECIAL .5
+HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de CABALLEROS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de MINOS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+CLAVE de NADA ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de REINAS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de RAMM ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de ESPADAS ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de ESTRELLAS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE del MALDITO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE LOS MUERTOS ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE del ESPECIAL PERDIDO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de VALKYRIAS ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE de MAGO CUEVA ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+DIARIO DEL REY ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+METAL LIQUIDO ESPECIAL 1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LAÚD ESPECIAL 4.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     DORMIR
+
+LIRA de TORTAS ESPECIAL 12.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     ALIMENTOS ÚTILES
+
+ESPECIAL GALLETA MÁGICA .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     COMIDA MÁGICA
+
+CORO DE MEDIANOCHE ESPECIAL 8.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     TERROR
+
+LLAVE DE SALIDA NORTE ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+FLAUTA DE PAN ESPECIAL 2.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     ENCANTO
+
+ESPECIAL SETAS ROJAS .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     COMIDA MÁGICA
+
+MAIZ TOSTADO ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ALIMENTOS ÚTILES
+
+ROCA de REFLEXIÓN ESPECIAL 1.2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secundaria
+
+CUERDA Y GANCHO ESPECIAL 56.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL PÉTALOS DE ROSA .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     COMIDA MÁGICA
+
+ESPECIAL QUESO PODRIDO .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+GOMA ESPECIAL 20.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+TRENZA DE GOMA ESPECIAL 10.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+HILO DE GOMA ESPECIAL 5.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+OJO DE RUBÍ ESPECIAL 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+OJO DE RUBÍ ESPECIAL 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL RUTABEGA .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ALIMENTOS ÚTILES
+
+LLAVE DE PLATA ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE ESQUELETO ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+MENSAJE ESPECIAL ESPECIAL .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE SPIRE ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+PIÑON ESPECIAL 25.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+GANCHO DE ACERO ESPECIAL 1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+BEAGLE DE PELUCHE ESPECIAL 3.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL TALÓN DE BOLETO .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL DE CAMPANITA .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE LA TUMBA ESPECIAL .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+LLAVE DE BÓVEDA ESPECIAL .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ESPECIAL BOTELLA DE VINO .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+REGISTRO DEL MAGO ESPECIAL 2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+---------------------------------------------------------------------
+                              Arma (E)
+
+Nombre Tipo Peso Daño A Golpe Ataques
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+AWL PIKE ARMA (E) 12.0 1D6 EMPUJE
+
+                     HEDGHfLDFRM FmptrabpVbLSmN MF
+                                           dos manos
+
+BO ARMA (E) 5.0 1D6 +1 EMPUJE GOLPE
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           dos manos
+
+ARMA LÁTIGO (E) 2.5 1D4 +1 LÁTIGO
+
+                     HEDGHFLDFRM FMPTRABPVBLsMN MF
+
+
+ARMA DE NUEVE COLAS CAT'O (E) 6.5 6D3 +3 LASH
+
+                     HEDGHfLDFRM FMpTRABPVbLsMN MF
+
+
+ARMA FAUCHARD (E) 13.5 1D12 SWING
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+FAUSTO ALABARDA ARMA (E) 17.5 4D4+2 +2 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     LIFESTEAL a dos manos
+
+ARMA ALABARDA (E) 15.0 1D10 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+HAYAI BO ARMA (E) 5.0 1D6+3 +2 EMPUJE GOLPE
+HEDGHFLDFRM fmptrabpvblSMN MF
+                                           dos manos
+
+ARMA SANTA BASHER (E) 9.0 1D8+4 +1 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           dos manos
+
+ARMA LANZA (E) 18.0 1D12 -2 EMPUJE
+
+                     HEDGHfLDFRM fmptrabpVbLsmn MF
+                                           dos manos
+
+ARMA LANZA DE MAENAD (E) 19.0 2D12 +3 EMPUJE
+
+                     HEDGHFLDFRM fmptrabpVblsmn MF
+                                     FUE+1 a dos manos
+
+ARMA DE CUSTODIA (E) 9.0 1D8 -1 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           dos manos
+
+ARMA NAGINATA (E) 13.5 1D12 OSCILACIÓN
+
+                     HEDGHfLDFRM fmptrabpvblSMN MF
+                                           dos manos
+
+ARMA DEL CUARTO (E) 4.5 1D5 EMPUJE GOLPE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           dos manos
+
+ARMA PERSONAL RAMMBUS (E) 12.0 2D4+4 +2 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                     RELÁMPAGO A dos manos
+
+RAVENS BILL ARMA (E) 20.0 4D4+2 +2 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ARMA LANZA (E) 5.0 1D6 EMPUJE
+
+                     HEDGHFLDFRM FmptRabpVbLsmN MF
+                                           dos manos
+
+LANZA DE ARMA DE MUERTE (E) 9.0 1D5+4 +1 EMPUJE
+
+                     HEDGHfLDFRM FmptRabpVbLSMN MF
+
+
+BASTÓN de ARAM ARMA (E) .7 2D5+2 +1 EMPUJE GOLPE CUERPO A CUERPO
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           No se puede soltar
+
+ZATOICHI BO ARMA (E) 5.0 3D6+6 +4 EMPUJE GOLPE
+
+                     HEDGHFLDFRM fmptrabpvblSMn MF
+                     BLINDING FLASH STM+1 a dos manos
+
+---------------------------------------------------------------------
+                              Arma (G)
+
+Nombre Tipo Peso Daño A Golpe Ataques
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ARCO ELFO ARMA (G) 4.5 0D0 +4
+
+                     hEdghfldfrm FmptRabpVbLsMn MF
+                                     VEL+1
+
+GRAN ARMA ARCO (G) 7.5 0D0 +2
+
+                     HEDGHFLDFRM FmptRabpVblSMN MF
+
+
+HV. ARMA BALLESTA (L) 14.5 0D0
+
+                     HEDGHfLDFRM FmptRabpVbLsMn MF
+
+
+ARMA ARCO LARGO (L) 4.5 0D0
+
+                     HEDGHFLDFRM FmptRabpVbLSMN MF
+
+
+LT. ARMA BALLESTA (G) 7.5 0D0 -2
+
+                     HEDGHfLDFRM FmpTRaBpVbLsMn MF
+
+
+ARMA ARBALEST DE ASEDIO (G) 19.0 0D0 +4
+
+                     HEDGHfLDFRM FmptRabpVbLsMn MF
+
+
+ARMA DE ARCO CORTO (L) 2.5 0D0 -3
+
+                     HEDGHFLDFRM FMpTRABPVbLSMN MF
+
+
+ARMA DE ESLINGA (L) 1.0 0D0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+ARMA ARCO VEX (L) 8.0 0D0 -8
+
+                     HEDGHfLDFRM FmptRabpVbLSMN MF
+
+
+ARMA COHETE DE MUÑECA (L) 1.5 0D0 +3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+---------------------------------------------------------------------
+                              Arma (S)
+
+Nombre Tipo Peso Daño A Golpe Ataques
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ARMA (S) MAYAL UNGIDA 15.0 1D6+1 GOLPE
+HEDGHfLDFRM FmPtrabpVBLsmN MF
+
+
+HACHA de AY ARMA (S) 18.0 2D6+2 -8 SWING CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ESPADA BASTARDA ARMA (S) 10.0 2D4+1 -1 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+HACHA DE BATALLA ARMA (S) 8.5 2D4 SWING CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLSmN MF
+
+
+HACHA DE GUERRA BARBADA ARMA (S) 4.0 1D5 SWING
+
+                     HEDGHfLDFRM FmptRabpVbLsmn MF
+                                           Secundaria
+
+ARMA (S) BEASTMASTER 6.0 1D8+4 +1 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BEC DE CORBIN ARMA (S) 4.0 2D3+1 +1 EMPUJE GOLPE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Secundaria
+
+BIPENNIS ARMA(S) 18.0 2D6+2 SWING CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ARMA (S) BLACKBLADE 6.0 1D8+4 +1 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+HOJA CUISINART ARMA (S) 5.5 4D4+2 +2 GIRO EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+HOJAS de AESIR ARMA (S) 18.0 2D12 +2 GIRO EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     BOLA DE HIELO A dos manos
+
+ARMA (S) DE ESPADA 6.0 1D7+1 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMA DE HOJA BUSHIDO (S) 4.0 2D7+2 +2 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+
+
+ARMA CLAYMORE (S) 15.0 2D4+2 EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+CLUB ARMA (S) 8.0 2D4 BASH
+
+                     HEDGHfLDFRM FmPtRabpVBLsMN MF
+                                           dos manos
+
+VARITA DE CRISTAL ARMA(S) .8 3D3 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     OJO DE MAGO Secundaria
+
+ARMA CUTLASS (S) 4.5 1D6+1 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM FmpTRaBpVblSmn MF
+
+
+DAGA ARMA(S) 1.0 1D4 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secundaria
+
+DAGA de RAMM ARMA (S) 1.5 2D3+1 +1 EMPUJE
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           Irrenunciable\Secundario
+
+DEMONIOS DIENTE ARMA (S) 1.5 3D4+4 +3 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fmpTraBpvblsmn MF
+                                           Secundaria
+
+OJOS DE DIAMANTE ARMA(S) 4.0 3D4+4 +2 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                                     PER+1 Secundaria
+
+ARMA (S) DRAGON SLAYER 6.5 1D10+5 +1 EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ARMA(S) DE PERSONAL DRIÁDICO 4.0 2D4 +1 BASH
+
+                     HEDGHFLDFRM fMptRAbPvblsMn MF
+                     PARPADEO
+
+ESTOC de OLIVIA ARMA (S) 5.0 2D7+4 +3 EMPUJE
+
+                     HEDGHFLDFRM fmptRabpvblsmn MF
+                                     VIT+1
+
+ARMA EXCALIBRE (S) 24.0 4D8+4 +4 EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     RELÁMPAGO A dos manos
+
+PALO DE HADA ARMA (S) .2 3D4 +1 LANZAMIENTO DE EMPUJE
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     PARPADEO Secundario
+
+ARMA DE COLMILLO (S) 5.0 2D8+8 +2 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+FUE+1
+
+ARMAS FLAMBERGE 14.0 2D5+2 EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+TRINEO GIGANTE ARMA (S) 45.0 3D6 -8 BASH
+
+                     HeDghfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ARMA DE VARILLA DE ORO (S) .1 3D4 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                     SANAR HERIDAS Secundaria
+
+MARTILLO ARMA(S) 4.0 1D4+1 -1 LANZAMIENTO DE GOLPE
+
+                     HEDGHfLDFRM FmpTRabpVbLsmn MF
+                                           Secundaria
+
+MARTILLO+1.5 ARMA(S) 6.5 2D4+6 +1 LANZAMIENTO DE GOLPE
+
+                     HEDGHFLDFRM FmpTRabpVblSmn MF
+                                           Secundaria
+
+ESTACA SANTA de MADERA ARMA(S) 3.5 EMPUJE 1D5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Irrenunciable\Secundario
+
+ESPADA INFERIOR ARMA(S) 5.0 1D6 -1 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ARMA KATANA (S) 4.0 1D7 +1 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+
+
+PARARAYOS ARMA(S) .1 3D4 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     RAYOS Secundario
+
+ARMA(S) DE ESPADA LARGA 5.0 1D8 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+MAZA ARMA (S) 10.0 1D6+1 GOLPE
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+
+
+CABEZA DE DONCELLA ARMA (S) 12.0 1D16 +2 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                     ENCANTO
+
+ARMA(S) PRINCIPAL GAUCHE 2.0 1D5 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+                                           Secundaria
+
+CINCEL DE MINERO ARMA (S) 2.5 1D3 -1 EMPUJE
+
+                     HEDGHFLDFRM FmpTraBpVbLsmN MF
+                                           Irrenunciable\Secundario
+
+ARMA DE SELECCIÓN DEL MINERO (S) 6.0 1D7+2 -5 SWING
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           UnDropable\Dos manos
+
+ARMA MORNINGSTAR (S) 12.0 2D4 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+
+
+ARMA DE HOJA DE MURAMASA (S) 4.0 3D7+4 +4 EMPUJE CUERPO A CUERPO
+
+                     HEDGHFLDFRM fmptrabpvblSmn MF
+                                     PV +1
+
+MAZA MOSTAZA ARMA (S) 1.0 1D6+3 +1 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                     BOMBA Apestosa
+
+ARMA DE VARILLA DE NECROLOGÍA (S) 1.2 3D3 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     RESURRECCIÓN Secundaria
+
+ARMA (S) PALO NOCTURNO .2 LANZAMIENTO DE EMPUJE 2D4
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     DESTELLO CEGADOR Secundario
+
+ARMA NINJATO (S) 3.5 2D4 +1 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secundaria
+
+ARMA(S) NO-DACHI 13.0 2D7 EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM fmptrabpvblSmN MF
+                                           dos manos
+
+NUNCHAKA ARMA(S) 2.5 1D5 +1 GOLPE
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secundaria
+
+ARMA PALO PIXIE (S) .2 LANZAMIENTO DE EMPUJE 2D4
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     SUEÑO Secundaria
+
+POIGNARD ARMA(S) 3.5 1D6 +1 EMPUJE
+
+                     HEDGHFLDFRM FmptRaBpVbLsmn MF
+                                           Secundaria
+ARMA RAPIER (S) 4.0 1D7 EMPUJE
+
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+VARILLA de SPRITES ARMA(S) .5 4D4 +2 LANZAMIENTO DE EMPUJE
+
+                     hedghFldfrm fMptrAbPvblsmn MF
+                                           Secundaria
+
+ARMA(S) SAI 3.5 2D3+2 +1 EMPUJE
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secundaria
+
+SAINT BASTARD ARMA (S) 11.0 2D4+5 +2 GOLPE DE EMPUJE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+ESPADA CORTA ARMA(S) 3.0 1D6 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+                                           Secundaria
+
+CRÁNEO DAGA ARMA (S) 1.0 2D4 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secundaria
+
+ARMA (S) DEL PERSONAL 4.0 1D4 GOLPE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+PERSONAL MAGICUS ARMA(S) 4.0 2D4 +1 BASH
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     PANTALLA MÁGICA
+
+BASTÓN de RUINA ARMA (S) 4.0 1D2 -4 BASH
+
+                     HEDGHFLDFRM fMPtrAbPvBlsmn MF
+
+
+STAVE de MISILES ARMA (S) 4.0 1D4+2 +1 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MISIL MÁGICO
+
+BASTÓN DE LUNAS ARMA (S) 4.0 2D4 +1 BASH
+
+                     HEDGHFLDFRM fMPtRAbPvBlsmn MF
+                     DORMIR
+
+BASTÓN DE ESTRELLAS ARMA (S) .0 2D4 +1 BASH
+
+                     HEDGHFLDFRM fMPtRAbPvBlsmn MF
+                     BOLA DE FUEGO
+
+BASTÓN de BRUJAS ARMA (S) 4.0 3D4 +2 BASH
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     TERROR
+
+ESPADA DE ARMA DE FUEGO (S) 14.0 2D8 +2 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     BOLA DE FUEGO A dos manos
+
+ESPADA DE CORAZONES ARMA (S) 4.5 1D7+4 +2 EMPUJE
+
+                     HEDGHFLDFRM fmpTRaBpvblsmn MF
+
+
+ESPADA DE ARMA DE CARGA (S) 45.0 1D8+8 -6 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+ESPADA de ARMA DE GOLPE (S) 5.0 1D8 +2 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+EL ARMA DEL VENGADOR (S) 7.5 3D8+4 +3 EMPUJE DE GIRO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     RELÁMPAGO
+
+LADRONES DAGA ARMA(S) 1.5 3D4 +2 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fmpTrabpvblsmn MF
+                                     SPD+1 Secundario
+
+ARMA DE MARTILLO VULCANO (S) 8.0 3D4+4 +2 LANZAMIENTO DE GOLPE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     BOLA DE FUEGO
+
+ARMA WAKIZASHI (S) 3.0 1D6 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+                                           Secundaria
+
+WAKIZASHI+1 ARMA(S) 3.5 1D9+1 +1 EMPUJE DE GIRO
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+                                           Secundaria
+
+VARITA DE FANTASMAS ARMA(S) .8 5D3 +2 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     DISPIRAR NO MUERTOS Secundaria
+
+VARITA de ARMA(S) MISTERIOSA .8 3D3 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     MISILES PRISMICOS Secundario
+
+VARITA de ARMA ARRASTRE (S) .8 1D3 -4 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                                           Secundaria
+
+VARITA de TEJER ARMA(S) .8 3D3 +1 LANZAMIENTO DE EMPUJE
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     ILUSIÓN Secundaria
+
+MARTILLO DE GUERRA ARMA(S) 6.5 1D5+1 BASH
+HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CETRO DE GUERRA ARMA(S) 6.0 1D6 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                                           Secundaria
+
+ARMA ESTRELLA ZIZKA (S) 13.0 2D5 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmN MF
+
+
+ZWEIHANDER ARMA (S) 16.0 3D5 GIRO EMPUJE CUERPO A CUERPO
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           dos manos
+
+---------------------------------------------------------------------
+                              Arma (T)
+
+Nombre Tipo Peso Daño A Golpe Ataques
+
+                     Razas Clases Sexos (Se pueden usar mayúsculas)
+                     Propiedades especiales del hechizo
+---------------------------------------------------------------------
+
+ARMA BOTTLEROCKET (T) .3 LANZAMIENTO 1D8
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     MISILES MÁGICOS Secundaria
+
+HACHA MARIPOSA ARMA (T) 3.5 1D8+3 TIRO
+
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+                                           Secundaria
+
+ARMA DIRK (T) 1.0 LANZAMIENTO 1D4
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secundaria
+
+ARMA METARDIO (T) .1 3D8
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                                           Secundaria
+
+ARMA CUCHILLO GINZU (T) .5 3D2 +1 LANZAR
+
+                     HEDGHFLDFRM FmptrabpvblSmN MF
+                                           Secundaria
+
+ARMA CARÁMBANO (T) .1 LANZAMIENTO 2D8
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     TOQUE ENFRIADOR Secundario
+
+SHIKEN SHURI ARMA (T) .5 1D7+5 +1 TIRO
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Secundaria
+
+ARMA SHURIKEN (T) .5 1D6+1 TIRO
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Secundaria
+
+ARMA SKYROCKET (T) .5 LANZAMIENTO 5D5
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     MISILES MÁGICOS Secundaria
+
+ARMA SPARKLER (T) .1 1D8 LANZAMIENTO DE GOLPE
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                                           Secundaria
+
+ARMA ESTILETTO (T) .5 2D3 +2 LANZAR
+
+                     HEDGHFLDFRM FmpTraBpVbLsmn MF
+                                           Secundaria
+
+Notas
+  (1) Estos no son confiables, pero deberían descubrirse fácilmente.
+
+  (2) Aquí no se enumeran ataques especiales (KNOCKOUT, CRÍTICO, POSIÓN, etc.)
+      ya que todavía no he descubierto cómo interpretarlos.
+
+  (3) Lo mismo para la regeneración, maldiciones y otras propiedades inusuales.
+
+
+
+                                Magia 6 Armas
+
+                               golpear
+   Bonificación de daño por nombre Otros efectos
+
+Flecha AP 1d8+4 +2
+El polvo antiguo se debilita
+Mayal ungido 1d6+1 Knockout
+Espada Bastarda 2d4+1 -1
+Hacha de guerra barbuda 1d5+0
+Maestro de bestias 1d8+4 +1 SUEÑO
+Bec De Corbin 2d3+1 +1 Knockout
+Bipenis 2d6+2
+Blackblade 1d8+4 +1 VENENO Regen-1
+Hoja Cuisinart 4d4+2 +2 CRÍTICO
+Bo 1d6+0 +1
+Rompehuesos 3d3+4 +1
+Botella Cohete 1d8+0 Misil mágico
+Espada Bushido 2d7+2 +2 CRÍTICO
+Hacha mariposa 1d8+3
+Claymore 2d4+2
+Varita de cristal 3d3+0 +1 Ojo de mago del SUEÑO(?)
+Flecha de Cupido 1d4+0 SUEÑO
+Alfabeto 1d6+1
+La pipa del diablo se debilita (al máximo)
+Asesino de dragones 1d10+5 +1
+Flechas de Olmo 1d6+0
+Palo de hadas 3d4+0 +1 Parpadeo(?)
+Colmillo 2d8+8 +2 CRÍTICO Poder especial
+Flamberge 2d5+2
+Trineo gigante 3d6+0 -8 KNOCKOUT
+Alabarda 1d10+0
+Martillo 1d4+1 -1 Knockout
+Martillo+1.5 2d4+6 +1 Knockout
+Hayai Bo 1d6+3 +2 Knockout
+Santo Basher 1d8+4 +1 Knockout
+Katana 1d7+0 +1
+Lanza 1d12+0 -2
+Pararrayos 3d4+0 +1 Rayo
+Arco largo 0d0+0
+Lanza de Ménade 2d12+0 +3 Regen +1, CRÍTICO,
+                                        Poder especial (+1 Fuerza, 3 veces)
+Principal Gauche 1d5+0
+Terror del coro de medianoche (al máximo)
+Custodia 1d8+0 -1 KNOKOUT
+Estrella de la mañana 2d4+0 Knockout
+Muramasa Blade 3d7+4 +4 CRÍTICO Poder especial
+Flecha Mística 4d4+2 +2 PARALIZAR
+Naganata 1d12+0
+Vara de necrología 3d3+0 +1 Resurrección
+Night Stick 2d4+0 Destello cegador(?)
+Ninjato 2d4+0 +1 CRÍTICO
+No-Dachi 2d7+0 CRÍTICO
+Pacificador 6d6+6 +3 CRÍTICO
+Bastón 1d5+0
+Estoque 1d7+0
+Raven's Bill (maldito) 4d4+2 +2 VENENO CRÍTICO Regen-2
+Piedra Navaja 2d3+1
+Diamantes de imitación 1d1+0 -4
+Sai 2d3+2 +1 CRÍTICO
+Piedra Serpiente 3d3+3 +1 VENENO
+Arco corto 0d0+0 -3
+Shuriken 1d6+1
+Daga Calavera 2d4+0 +1 CRÍTICO
+Sky Rocket 5d5+0 Misil Mágico
+Lanza de la Muerte 1d5+4 +1 VENENO, CRÍTICO
+Staff Magicus 2d4+0 +1 Pantalla mágica(?)
+Bastón de ARAM 2d5+2 +1 VENENO KNOCKOUT CRÍTICO Regen-1
+Bastón de misiles 1d4+2 +1 Misil mágico(?)
+Bastón de Lunas 2d4+0 +1 SUEÑO
+Espada de embarque (maldita) 1d8+8 -6 KNOCKOUT
+Espada de Golpe 1d8+0 +2
+El Vengador 3d8+4 +3 CRÍTICO Rayo(?)
+Martillo Vulcano 3d4+4 +2 KNOCKOUT Bola de fuego
+Wakazashi 1d6+0
+Wakazashi+1 1d9+1 +1 CRÍTICO
+Varita de fantasmas 5d3+0 +2 Disipar muertos vivientes(?)
+Varita del Misterio 3d3+0 +1 PARALYZE Misil Prismico(?)
+Varita devastadora (maldita) 1d3+0 -4
+Martillo de guerra 1d5+1 Knockout
+Látigo 1d4+0 +1
+Dos manos 3d5+0
+
+
+             Otros artículos
+
+Amuleto de Hielo 25% agua, Bola de Hielo
+Ankh de Arnie 25% de magia, poder especial (incluye HP dos veces)
+Ankh de la Muerte Muerte
+Ankh of Life Resurrection (?) Poder especial (incluidos HP)
+Ankh of Might Poder especial (+1 fuerza)
+Ankh de Phyre Fire 25% Bolas de fuego (?)
+Poder especial Ankh de Pureza (+1 Karma)
+Ankh de Santidad Poder Especial (+1 Piedad)
+Ankh de Wonder Regen+1 Curar heridas(?)
+Capa ungida 12% de magia
+Collar de Hueso 35% Poder Mágico Especial (+1 Vitalidad)
+Cameo Locket Regen+1 Magia 50% Poder Especial
+Cameo Locket Regen+1, Magia 50%, Poder especial (incluye HP 3 veces)
+Cadena de desesperación Regeneración -1
+Parpadeo de capa desplazadora (máx.)
+Cuerno de bola de fuego de Prometeo (Max)
+Ídolo de Mau-Mu-Mu 35% Fuego
+Figura de jade Mental 20% de poder especial (solo monjes)
+Poder especial del anillo de lince
+Botas Mantis Agua 25% Tierra 12% Mental 12% Poder especial (+1 velocidad)
+Guantes Mantis Fuego 25% Aire 37% Mental 25% Poder especial (+1 Dex)
+Anillo de Místico 12% de magia
+Anillo de Estrellas Regeneración+1 Mental 50%
+Túnicas de magia de encantamiento 25%
+Ruby Talisman 2% Poder especial mágico (+1 inteligencia)
+Cruz de plata 10% mágica
+Anillo del mago 5% de magia

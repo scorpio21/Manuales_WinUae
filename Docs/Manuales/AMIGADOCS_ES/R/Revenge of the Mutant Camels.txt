@@ -1,0 +1,713 @@
+¡Saludos, chipheads!
+
+Bienvenido a la última versión shareware de Llamasoft: Revenge of
+Los camellos mutantes.  Espero que lo disfrutes tanto como Llamatron.
+Es un tipo diferente de juego pero espero que te guste.
+tanto.
+
+Buenas noticias para los propietarios de Amiga: su versión de Revenge es más grande
+¡Y más chocolate que las versiones ST! Cuando hice Llamatron,
+la versión Amiga salió más lenta y no tan pulida
+como la versión ST.  Amiga Revenge es mucho mejor que su ST
+contraparte, en parte porque la ganancia de velocidad al usar el Blitter
+es mucho mayor cuando se mueven objetos grandes, y en parte
+porque, como prometí en el archivo Léame de Llamatron, tomé más
+tiempo de espera para usar el hardware Amiga.  Para los fanáticos de la tecnología
+Entre ustedes, las principales cosas que hice fueron las siguientes:
+
+En primer lugar, los sprites de los personajes principales se implementaron usando
+los sprites de hardware del Amiga, lo que tiene el doble beneficio
+de garantizar que su camello y su cabra siempre se muevan a 50 Hz y
+También quita una gran carga a la CPU en el momento del sorteo. A continuación, lo lógico
+La pantalla se ha hecho más ancha que la pantalla visible, obviando
+la necesidad de recorte horizontal de sprites: más tiempo de CPU
+salvado.  Se ha mejorado la detección de colisiones, lo que ayuda
+jugabilidad general, al igual que la velocidad de actualización de cuadros mejorada
+obtienes como resultado de todo ese tiempo de CPU ahorrado.  Por lo mismo
+La razón por la que obtienes mejor potencia de fuego: balas adicionales en pantalla. tu
+También obtienes bonitos horizontes rasterizados y un desplazador con mayor
+y objetos más detallados.  Los propietarios de 512K Ami no salen perdiendo
+sobre cualquier suavidad o detalle gráfico en su versión - el
+La única diferencia entre las versiones 512K y 1M está en el
+Calidad y número de muestras de sonido.
+
+Para que todos los amitas puedan mirar hacia abajo y burlarse de esos pobres ST.
+dueños y sepan que sus camellos son mejores que sus
+camellos.  Pero no seas demasiado arrogante: es posible que conozcas al propietario de un TT.
+Su versión es espectacular.
+
+
+A continuación alguna información sobre el lanzamiento.  Estamos probando algunos
+ajuste fino del procedimiento Shareware, y me gustaría decirle
+cómo funciona esta vez y exactamente por qué.
+
+Amiga Revenge existe en 4 versiones. Uno de los placeres del shareware
+es que como no estás lanzando un solo disco en grandes cantidades,
+Puedes hacer muchas versiones diferentes de tu juego.  venganza
+viene en las versiones 512K, 1Meg, 512K/NTSC y 1Meg/NTSC. nosotros
+pedir que las bibliotecas, redes y quienes distribuyan únicamente el
+Versión 512K.  De esa manera, podemos ofrecer (como incentivo para registrarse)
+Versiones especiales para máquinas específicas.  Verás, no siempre podemos
+ofrecer dos juegos diferentes por la cuota de inscripción: soy el
+Sólo soy programador y ya estoy trabajando a tope, pero nos gusta
+ofrecer algún beneficio a quienes se registren.  Entonces, si la versión 512K
+se distribuye ampliamente, la gente se sentirá inclinada a registrarse para
+obtener una versión para su máquina.  No vamos a hacer ningún esfuerzo para
+hacer cumplir esto; en la tradición shareware dejaremos eso en manos de
+la honestidad de las bibliotecas y las redes.  Te agradecemos por tu
+cooperación.
+
+El trato esta vez es el siguiente: Si te registras en Revenge,
+Puede solicitar cualquiera de los siguientes títulos:
+
+ Venganza (versión 512)
+ Venganza (versión 1Meg)
+ Venganza (versión 512/NTSC)
+ Venganza (versión 1Meg/NTSC)
+ Llamatrón
+ Corredor de cuadrícula
+
+o puedes obtener una oferta especial y tener la versión Amiga de
+Trip-A-Tron por diez libras (cinco libras de descuento sobre el precio habitual).
+
+Indique claramente que desea una versión Amiga.  nosotros también
+proporcionarle uno de nuestros carteles clásicos de Llamasoft del
+días anteriores al Imperio del Software, con ilustraciones de Steinar Lund,
+un tipo increíble con un aerógrafo que desapareció de nuestro precio
+rango hace un tiempo.
+
+Puedes registrarte por medios convencionales o con tarjeta de crédito (Visa,
+Master Card/Access) que es útil para aquellos que se registran desde
+en el extranjero.  Puede comunicarse con nosotros por teléfono al (Reino Unido) 0734-81-4478, nuestro
+la dirección es 49, Mount Pleasant, Tadley, Hants RG26 6BN (Reino Unido).
+
+Por favor ayúdanos difundiendo la versión 512K junto con esto.
+README y abstenerse de distribuir las otras versiones.
+
+
+Ahora.
+Voy a incluir un poco del archivo documental de Llamatron aquí.
+Es la parte donde se explica toda la idea del Shareware. mucho
+Muchos de vosotros lo habéis leído antes y podéis pasar al siguiente.
+Un poco después, específico de la venganza.  Los que no lo han hecho, tómate el tiempo.
+para leer la explicación. Puedes pensar que estamos locos por dar
+Juegos completos fuera de casa sin dinero.  Lea la explicación y encuentre
+descubrir exactamente por qué hemos adoptado el procedimiento Shareware.
+
+
+SHAREWARE: QUÉ, CÓMO, POR QUÉ....
+
+Todos los juegos comerciales están diseñados para una entidad teórica conocida como Darren.
+Darren es un chico de 14 años con manchas que no se lleva muy bien con
+personas, por lo que pasa todo el tiempo en su dormitorio jugando juegos en su
+computadora. Darren se deja impresionar fácilmente por los gráficos y la música, y
+Realmente no quiere aprender nada realmente complicado, siempre y cuando
+tiene Ninja Hampsters y trabaja con un Kempston, eso está bien. De alguna manera
+puede persuadir a su padre para que le desembolse 25 libras una vez cada pocas semanas por
+la última versión de R-Type con diferentes gráficos en su Amiga,
+no me preguntes como. O eso, o espera y golpea a su compañero Wayne para
+una versión pirata dentro de un par de semanas.
+
+En consecuencia, se ha vuelto mucho más difícil para los programadores retener 
+su integridad creativa y ganarse la vida también.  Es practicamente imposible
+para que un pequeño desarrollador independiente haga llegar juegos a la gente
+sin conectarse primero a una de las empresas más grandes para su distribución
+y publicidad, y esas empresas más grandes tienden a querer cosas que sean
+cosas muy normales, de naves espaciales y extraterrestres, sin llamas, por favor, y no demasiado
+raro.
+
+Sin embargo, con las máquinas populares basadas en discos, la idea del dominio público
+Los programas realmente se han hecho realidad. Las bibliotecas de PD dan acceso a
+una gran cantidad de software gratuito.  La PD suele ser material subcomercial,
+a menudo buenos servicios públicos pero sin el "pulido" de los comerciales
+versiones.
+
+Sería bueno utilizar las bibliotecas PD existentes para distribuir software.
+a cualquiera que esté interesado, y también ganar un poco de dinero - y eso
+Es donde entra en juego el Shareware.
+
+El principio de Shareware es simple. El juego es distribuido por el
+Bibliotecas PD, subiéndolas a BBS y regalando copias. Los usuarios pueden
+obtén una versión completa del juego solo por el precio del medio,
+y luego llévalo a casa y juega. Si al usuario le gusta el juego,
+envía al autor una tarifa de Shareware.  Generalmente, el autor enviará
+devolver algunos obsequios (como incentivo para registrarse) y, si suficientes personas
+envíe el dosh para que valga la pena, es posible que haga más cosas de Shareware.
+
+Naturalmente no tienes que pagar nada si no te gusta el juego.
+Por supuesto, a mucha gente le puede gustar el juego y decide no pagar,
+pero si mucha gente hace eso entonces nadie se molestará en hacer nada.
+Shareware decente en absoluto, y volvemos a los juegos de 25 libras de Darren.
+Entonces, depende de los usuarios: si son honestos, los programadores también
+estarán más dispuestos a trabajar duro en las versiones de Shareware.
+
+La idea de Shareware es muy idealista, quizás impracticable,
+pero las ventajas respecto al mercado de los videojuegos convencionales son tantas
+tan enorme que pensé que había que intentarlo, al menos una vez.  la respuesta
+de este experimento determinará si Llamasoft lanza o no
+más shareware.
+
+Ventajas del shareware:
+
+1- Es una forma de vender totalmente honesta. Todos los usuarios pueden probar el juego.
+y sólo aquellos que quedan enganchados están moralmente obligados a pagar la tarifa.
+Nadie se siente decepcionado ni estafado.
+
+2- No existen limitaciones a la creatividad. Nadie dice 'no podemos
+publicar esto porque no es popular". Los programadores hacen lo que
+Demonios, les gusta y los usuarios votan con sus tarifas de Shareware.
+
+3- Cualquiera puede jugar. El mecanismo de distribución ya está en marcha.
+lugar en forma de bibliotecas de desarrollo profesional. Todo lo que el originador tiene que proporcionar
+Hay un disco para cada una de las bibliotecas PD con el juego y la documentación.
+Entonces, si tienes cosas buenas, no importa si no estás firmado
+un sello discográfico importante: si es bueno, se difundirá en la escena de PD;
+Si es malo, nadie se preocupará por ello.  El autor podría estar trabajando.
+para una empresa o codificación en su dormitorio; el potencial de distribución
+es lo mismo. Olvídate de gastar miles en anuncios intentando convencer
+que la gente gaste mucho dinero en un juego al que ni siquiera ha jugado
+todavía...
+
+4- El concepto de piratería queda nulo. Todo ese negocio de hackear
+y el cracking no se aplica al software que es gratuito y
+desprotegido.  Los autores de shareware QUIEREN que su software se difunda
+y copiado. Si llega a ser un BB en Estados Unidos y se extiende por todas partes
+Estados Unidos, ¡bien y genial! ¡El buen Shareware se exporta solo!
+
+5- Los precios pueden ser muy bajos. Dado que los autores no tienen gastos generales en
+términos de producción y publicidad, no necesitan preguntar tan
+mucho en pago.  Y los usuarios pagan directamente a los programadores. 
+nadie más recibe una parte. El 100% de cinco libras es mejor que el 5% de
+veinte libras.
+
+
+Las ventajas del Shareware como forma democrática y honesta de
+El software de publicación es bastante obvio, pero tiene que desaparecer.
+en ambos sentidos. Si un programador dedica mucho tiempo y esfuerzo a su
+código y lo publica como Shareware, él confía en ustedes, los usuarios, para
+Sé honesto y págale si te gusta su programa.  Si todos ustedes simplemente
+escabullirse y tomar las cosas gratis, él no se molestará en hacer nada
+más cosas.  Si apoya al autor, él estará dispuesto a hacerlo.
+mucho mejor la próxima vez, ¡y ustedes serán los que se beneficiarán!
+
+
+
+
+
+¡VENGANZA!
+
+Bueno, basta de cosas serias.  Ahora les voy a contar todo sobre el
+juego, todas las diferentes versiones, y luego simplemente volverse suave y
+charla sobre todas las cosas que están pasando con esta vieja bestia.
+
+Primero, aquí están las encarnaciones de Revenge con detalles.
+descripciones.
+
+REVENGE (512K): Esta es la versión de lanzamiento básica. eso
+Proporciona un juego completo de Venganza, 42 niveles de rareza.
+
+VENGANZA (1Meg): Mejores efectos de sonido; más muestras y lotes
+de ruidos extraños de bestias.  
+
+REVENGE (versiones NTSC): Son como las anteriores, pero usan el formato más pequeño.
+Pantalla de 200 líneas, para que los usuarios al otro lado de una
+De hecho, una gran extensión de océano no pierde las 56 líneas inferiores de
+su exhibición y ser capaz de ver sólo la cabeza del camello y
+la punta de su joroba.  En todos los demás aspectos las versiones son las
+igual que sus equivalentes PAL.
+
+
+ACERCA DEL JUEGO:
+
+La venganza no es tan maníaca como Llamatron. usted puede o
+Puede que no se sienta aliviado al oír eso.  La venganza tiene la misma jugabilidad.
+modos como Llamatron: Solo, Droid (llamado CPU ASSIST en Revenge)
+y dos jugadores.
+
+El modo de juego es el siguiente: Eres un hombre de apariencia bastante raída.
+camello.  Si estás jugando con CPU Assist o para dos jugadores, estás
+acompañado por una gran criatura cabra peluda llamada Ancipital,
+que acechaba en las pantallas C64 mucho antes de que Psygnosis hiciera Shadow
+de la Bestia.  Ustedes son los buenos.  Tu misión es simple:
+mantente con vida a través de 42 zonas de 7 km cada una.  Estas zonas están pobladas
+por quioscos telefónicos desenfrenados, canguros esquiando, butch Greenham
+Mujeres de Paz Comunes, Minters maníacos, ovejas voladoras y todos los
+tonterías habituales.  Estos son los chicos malos.  Intentan matarte
+apagado y usted, naturalmente y siguiendo la tradición
+Naturaleza tranquila, racional y reflexiva de los videojuegos, desperdicia
+ellos con un montón de armamento espectacularmente destructivo.
+
+DETALLES ESPECÍFICOS:
+
+Para ejecutar Revenge, escriba REVENGE en el indicador CLI y presione Enter.
+El juego se cargará y mostrará la pantalla de título apropiada para el
+versión, junto con información sobre cómo registrarse para producir
+la conciencia de cualquiera que siga jugando y no lo haya hecho
+pagado todavía.  Al presionar FUEGO se pasa esta pantalla y encontrará
+el juego en demostración automática.
+
+(512K, usuarios de unidades gemelas: es posible que se produzca un error de carga si intenta
+y ejecute Revenge con la segunda unidad conectada [el sistema operativo tarda más
+memoria para la segunda unidad, lo que puede dañar el cargador].  esto
+No le pasa a mi Ami pero sí a mi papá, así que si obtienes
+problemas, desconecte esa segunda unidad, reinicie y cargue)
+
+Quizás quieras echarle un vistazo a la demostración un rato; lo demostrará
+los primeros veinte niveles, pero para ver el resto ¡tienes que jugar!
+Puedes interrumpir la demostración en cualquier momento presionando el botón de fuego.
+botón del joystick al que sin duda ya te has conectado
+su otro puerto (que no sea el del mouse) (siempre que no lo haya roto mientras jugaba)
+Llamatrón).
+
+Al presionar FUEGO para interrumpir la demostración, aparece una pantalla de menú.
+Las pantallas de menú funcionan igual, siempre hay
+tres opciones.  Seleccionas que opción quieres con el stick
+y presione el botón FUEGO en su selección.
+
+Las primeras tres opciones son:
+
+MÁS OPCIONES (te lleva al menú de opciones del sistema)
+JUGAR VENGANZA (te lleva al inicio del juego)
+REANUDAR EL MODO ATRAER (reanuda la demostración)
+
+El valor predeterminado es Jugar Venganza.  Al presionar esto se produce el inicio del juego.
+menú:
+
+REINICIAR: te permite iniciar el juego en un punto de reinicio
+JUGAR: Iniciar juego
+SALIR: No jugar después de todo
+
+Al seleccionar Reiniciar aparece una pantalla de entrada de texto donde debe
+ingrese un código de reinicio válido (más sobre esto más adelante).  Seleccionando
+PLAY abre un menú final en el que seleccionas Solo, CPU Assisi
+o Juego en equipo para comenzar el juego.
+
+En el menú Más opciones hay selecciones que le permiten cambiar
+la fase de efectos de sonido, establece la intensidad de los efectos estroboscópicos en el
+juego y ver la tabla de puntuación más alta.
+  
+
+Te recomendamos que juegues tus primeros juegos con CPU Assist
+controlando la cabra.  A medida que adquieras más habilidad, te recomiendo Solo.
+
+CONTROLES:
+
+Su camello se controla con un joystick de la siguiente manera: izquierda y derecha
+Haz más o menos lo que esperarías, Arriba hace que el camello salte
+el aire y Abajo hace que la bestia se tumbe en el suelo. siendo
+un camello, el animal escupe continuamente, y siendo un Camello Mutante,
+lo que escupe es una variedad de balas letales.  El camello dispara
+la dirección en la que apunta el joystick.  Si mantienes presionado el
+botón DISPARAR, el camello no saltará ni se sentará, lo que le permitirá
+apunte los tiros directamente sobre su cabeza mientras permanece en el suelo.
+
+Si estás jugando con la cabra CPU Assist, puedes usarla en
+conjunción con tu camello. Normalmente la cabra corre apuntando
+y disparar a los enemigos de forma independiente.  Si te acercas al
+cabra (o delante de ella; correrá hacia ti) y siéntate, la cabra
+montará tu joroba.  Una vez allí puedes llevarlo contigo y
+Actúa como una torreta "inteligente", que apunta a objetivos enemigos, y como un
+escudo, protegiendo tu joroba de ser golpeado.  la cabra se quedara
+sobre tu joroba hasta que mueras o hasta que te vuelvas a sentar, lo que provoca
+la criatura salte.  (Es posible que el camello recoja
+El jugador dos juega en equipo, pero el jugador dos puede saltar).
+
+Al comienzo de cada ola hay un período de tiempo durante el cual la
+La cabra vendrá a tu lado, permitiéndote atrapar a la bestia con seguridad.
+montado antes de que comience el nivel.
+
+Cada nivel se desarrolla a lo largo de una distancia determinada. esa distancia es
+indicado en pantalla por una publicación de inicio, seis 'publicaciones de kilómetros' y
+un poste final que se desplaza por el suelo.  El ataque comienza sólo
+una vez que el camello pasa el puesto de inicio y se detiene inmediatamente
+pasa el poste final.  Entre niveles recibes un escudo
+Bonificación por el escudo restante y un impulso de energía que
+aumenta la fuerza de tu escudo, pero nunca tanto como te gustaría.
+El indicador Shield Energy es la cara del camello a la derecha.
+lado de la barra de estado.  A medida que tus escudos se dañan, aparece una gran 'X' roja
+se dibuja a través de la cara.  Cuando la 'X' esté completa, es
+MacMutant Camelburgers por todos lados en Cairo Macdonald's.
+
+Cada cinco niveles, llegas a un Oasis de reinicio, donde llegas a
+ve una animación tonta del camello repostando combustible y
+reciben un código de reinicio.  Tome nota del Código, ya que puede utilizarlo
+para reiniciar un juego desde ese punto cada vez que juegues Revenge.
+Utilice la opción "Desde un punto de reinicio" en el menú de inicio del juego.
+
+[ACTUALIZACIÓN: Una crítica que hemos recibido de los usuarios de ST es que en la fuente
+Las D y O utilizadas se parecen demasiado y el código de reinicio desaparece
+de la pantalla demasiado rápido.  Consejo Yakly: mantén un bolígrafo junto al
+máquina, recuerda que si no presionas FUEGO durante el oasis
+escena tienes unos quince segundos, y las D están biseladas en
+la parte superior mientras que las O son cuadradas]
+Ahora, pasemos a los beneficios: potenciadores y armas.  Mientras juegas el 
+juego, notarás que algunos de los enemigos, cuando se les dispara en un
+particular, producirá nubes de pequeñas bonificaciones que flotarán
+arriba la pantalla.  Esto es algo excelente, porque anotas
+los bonos Y tienes una mayor probabilidad de obtener un potenciador.
+Los íconos de encendido son cuadrados y descienden desde la parte superior del
+pantalla.  Reclamas un potenciador tocándolo con tu bestia.
+
+Los potenciadores son los siguientes:
+
+'P': potencia el arma actual en un nivel.  (Las armas tienen cuatro
+niveles de cada encendido: el nivel actual se muestra junto al escudo
+indicador: la energía se agota con el tiempo).
+
+MANZANA: Agregue una pequeña cantidad al escudo (12 manzanas = escudo completo)
+
+ARMAS: Cuatro potenciadores, cada uno con un pequeño icono azul en su interior.
+que representa el tipo de arma.  Cuando se acaba la energía, arma
+vuelve a las pequeñas viñetas azules predeterminadas.
+
+NIKE TRAINER: Duplica la velocidad de desplazamiento y por lo tanto reduce a la mitad
+el tiempo necesario para llegar al final de un nivel.  Útil en situaciones complicadas
+niveles.
+
+CAMELLO: Da una vida extra.
+
+BOMBA INTELIGENTE: Mata o daña todo lo que aparece en la pantalla.
+
+HALO: Te hace invencible durante unos 20 segundos.
+
+TAZA DE TÉ: Como una bomba inteligente, sólo que más.
+
+'W': pasa directamente al siguiente punto de reinicio.
+
+
+La cabra también puede recoger todos estos potenciadores; para que ambos puedan tener
+diferentes armas al mismo tiempo, lo que puede ser más
+útil!
+
+
+Ésa es la buena noticia.  La mala noticia es esta: cada vez que usted o el
+Si una cabra es golpeada, existe la posibilidad de que se lance un Anti-Powerup.
+Se parecen a tus potenciadores habituales (porque son manejados por el
+misma rutina) PERO siempre tienen algo de ROJO en el borde de
+los iconos.  No recopile estos iconos. Te hacen mal.
+
+APAGAR (parece una 'P' al revés): corriente de apagado
+arma en un nivel.
+
+CIGARRILLO: Hace que tu animal tenga un cigarro. El control se vuelve lento,
+errático y entrecortado hasta que se fuma el cigarro.
+
+CONFUZER: (dos flechas <- -> con un triángulo de advertencia debajo)
+Qué desagradable esto. En solitario y en asistencia de CPU, provoca que la izquierda/derecha
+los comandos del joystick se inviertan durante unos diez segundos. en
+modo de dos jugadores, los jugadores se encuentran controlando cada uno
+¡las bestias de otros!  Las bestias confusas tienen un signo de interrogación verde
+sobre sus cabezas hasta que desaparezca.
+
+CRÁNEO: No hay duda de que este icono; es rojo y siniestro.  Instantáneo
+camello muerto a menos que tengas un halo.  CPU-Goat puede comer esto con
+Impunidad, pero el Jugador 2 en el Modo Equipo es mortal.
+
+
+
+CONTROLES DEL TECLADO: Durante un nivel puedes presionar 'x' para salir
+al menú en cualquier momento; 'p' pausa el juego y 'o' reanuda el juego.
+
+Si completas los 42 niveles, llegarás al Red-Hot
+Zona donde todo vuelve a pasar pero más duro.  Si logras pasar
+QUE llegas a la Zona Candente, y Ghodhelpyou si llegas
+ahí!
+
+
+
+Bien, ya te he dicho lo que hace todo en el juego. Ahora algunos
+sugerencias sobre cómo jugar.
+
+
+CÓMO NO CONSEGUIR LA JOROBA JUGANDO LA VENGANZA DE LOS CAMELLOS MUTANTES:
+
+1: ORDENAR LOS BONUS.  Puedes jugar a Revenge solo para sobrevivir.
+pero no obtendrás una gran cantidad de puntos o potenciadores que
+manera.  El juego está diseñado para recompensar al jugador hábil con
+riquezas y bonificaciones una vez que el jugador sabe qué disparar y
+cuando.  Por ejemplo, en el nivel 1 puedes simplemente disparar a los pájaros.
+una vez y caen muertos.  Pero si sigues disparándoles
+a medida que caen, generan muchas bonificaciones.  Entonces obtienes tu
+bestia en tu joroba, ve directamente debajo y dispara directamente
+hacia ellos, sigue disparando mientras caen sobre ti, y podrás
+Consigue un montón de puntos y un montón de potenciadores.
+
+2: BUSCA PUNTOS DULCES.  Algunos niveles tienen un lugar particular.
+un camello prudente puede mantenerse en pie y no ser golpeado (mucho).  tal vez tu
+Tienes que enviar a la cabra delante de ti. Tal vez sea mejor en
+tu joroba. Estudia cada ola y formula una estrategia.
+
+3: ¡TEN UN CIGGIE!  Por la forma en que los cigarrillos ralentizan tu
+camello, si consigues uno justo cuando empiezas a saltar te quedarás
+en el aire mucho más tiempo del habitual.  Esto puede ser un
+Es bueno si hay muchas cosas desagradables a nivel del suelo.
+
+4: VENTAJAS DE LAS DIFERENTES ARMAS.
+BALAS AZULES REDONDAS (predeterminado): buena arma todoterreno; puede ser
+dirigido en cualquier dirección.
+
+LÁSER: Sólo puede apuntar a izquierda y derecha, pero inflige más
+más daño que los RBB, especialmente cuando están encendidos.  Excelente para
+algunos enemigos, pero una perra con la que tener que quedarse cuando realmente
+Necesito poder encender.
+
+BALAS DE PEINE: Se pueden apuntar en cualquier dirección excepto en línea recta.
+hacia arriba o hacia abajo.  Débil en su estado de menor potencia, pero
+con sucesivos potenciadores se expanden hasta llenar la pantalla de forma encantadora.
+franjas.
+
+BALAS DE ONDA SINUSoidal OVALADA: Se pueden apuntar en cualquier dirección excepto en línea recta.
+izquierda y derecha.  Muy lentas con poca potencia, estas balas todavía son
+devastadores porque no son detenidos por los enemigos.  ellos lo hacen
+una gran cantidad de daño y libera muchos potenciadores.  Consíguelos
+encendidos para mayor facilidad de uso y, a pesar de su fuerza, son
+no es apropiado para cada situación.
+
+5: ELIGE TU TUMBA  Si sabes que vas a morir y estás
+en una ola atroz, asegúrate de morir lo más cerca de la mano derecha
+lado de la pantalla como sea posible.  Tu nuevo camello no será liberado.
+en la refriega hasta que tu lápida haya salido a la izquierda, y
+Para cuando aparezca, estarás mucho más cerca del final.
+de la ola.
+
+6: FRAGMENTOS.  Puedes pastorear quioscos pero al final tendrás que saltar.
+ellos. Las ovejas explotando se ven mejor desde lo alto. latas de coca cola
+y los logotipos de Atari son absolutamente letales.  Los bits 10p causan más daño
+que los receptores que caen. Los chips sólo arrojan flujos de bits si
+molestarlos.  Cuidado con la base láser rosa en Space Invaders. cuando
+el vicario te invita a tomar el té, coloca las tazas en vertical.
+
+
+
+
+VENGANZA: NOTAS HISTÓRICAS.
+
+La Venganza original fue escrita en otoño de 1983 en el C-64, justo
+antes de tener mis primeras vacaciones de esquí. Era parte de un
+secuencia de juegos que comprende Attack of the Mutant Camels (implementado
+en C64 y Atari de 8 bits), Revenge (C-64) y Return of the
+Camellos mutantes (C-64).  Este último juego fue el último juego C64 de Yak,
+y algunos de ustedes pueden haber tenido la mala suerte de encontrarse
+Las versiones Amiga y ST de Mastertronic de ese último juego lanzadas como
+Venganza II.  Esas versiones eran una parodia del original.
+Juego de comodoro. Mastertronic utilizó cinco programadores y tomó como
+Muchos meses para producir una auténtica conversión. ellos
+Cambió muchos niveles y erradicó implacablemente cada
+Una pizca de jugabilidad Yak incorporada en el Commodore original. si
+Si alguna vez ves la versión Mastertronic en algún lugar, no la compres.
+porque es espantoso.  Ni siquiera me mostraron una copia antes.
+Lo lanzaron. Tuve que comprarlo en una tienda de Basingstoke.
+y es horrible.  Sólo hay una verdadera Venganza de 16 bits, y esta
+lo es.
+
+Los nombres de los 42 niveles y los temas generales son los mismos.
+como los del juego Commodore original.  Los que jugasteis
+El viejo juego estará mejor preparado para manejar a los enemigos a medida que avanzan.
+se comportan de una manera similar a sus homólogos Commodore (a veces).
+Por supuesto, el juego original no tenía cabras, ni potenciadores, ni reinicio.
+puntos, sin modo de equipo y solo una bala en la pantalla a la vez, por lo que
+¡No esperes que sea exactamente igual a como lo recuerdas!
+
+
+
+
+QUE ESTA PASANDO...
+
+Definitivamente hace mucho tiempo afgano aquí en el abismo.
+regiones de Gales; ovejas húmedas y barro por todos lados. Buen momento de
+año por estar sentado todo el día frente al ensamblador con
+Pon música a todo volumen y ponte manos a la obra.  he estado trabajando
+en dos cosas a la vez recientemente, lo cual es soportable pero es un
+un poco frustrante a veces.  Trabajo tal vez una semana en cada proyecto.
+y luego cambiar, lo cual está bien, pero lo que sucede es que simplemente
+A medida que empiezas a fluir en una cosa, tienes que detenerte y cambiar.
+al otro.  Es un poco como tener que parar en medio de
+haciendo pipí. Te lleva uno o dos días recuperar el impulso cuando
+cambiar.
+
+Las dos cosas han sido: este juego y la quinta generación.
+Sistema de sintetizador de luz en el que estoy trabajando. No estoy preparado para liberar muchos
+detalles todavía, basta decir que ya estamos a un millón de millas
+más allá de Trip-A-Tron y aún no hay señales de desaceleración.  Volver a algunos
+codificación seriamente obsesiva y una cabeza llena de sintetizador de luz todo el día...
+...bueno, ¿quién necesita una vida social de todos modos?
+
+
+(Apéndice: parece que estoy a punto de conseguir un Amiga bonito y fuerte
+(9 megabytes, disco duro de 40 millones) de un tipo que ha pasado a una empresa más grande
+y cosas mejores (cosas tipo 80486 40 MHz): puedo vivir con el
+Amiga OS ejecutándose desde un disco duro.  Tal vez no sea tan doloroso
+¡Esta vez estamos trabajando en Amiga!)
+
+[Apéndice al apéndice: Desafortunadamente este acuerdo nunca se llevó a cabo.
+Resultó que el tipo que me ofreció este trato estaba lleno de
+excremento de bovinos machos y no estaba precisamente siendo honesto
+conmigo.  Visiones del sistema operativo Amiga en el disco duro, sin complicaciones
+Uso de CLI, sin intercambio de disco y enormes animaciones de trazado de rayos para usar
+con nuestro sintetizador de luz tristemente se desvanece y muere.  Volver a la A500...]
+
+
+Seguimos teniendo buena respuesta de las dos versiones de Llamatron
+que a estas alturas parece haberse vuelto totalmente global. nosotros
+hemos tenido registros de todo el planeta - incluyendo nuestro
+¡Primero desde Moscú el otro día!  La versión Amiga de 'Tron
+generó menos respuesta que la versión ST a pesar de una respuesta inicial
+lanzamiento de más copias.  Saque su propia conclusión sobre el respectivo
+proporción de Darrens en las bases de usuarios de Amiga/ST...
+
+[¡Sí! ¡¡Vamos amigos Amiga!!]
+
+Simplemente nos colamos en el último disco de cubierta de NCE antes de que se plegara, con
+nuestra versión Shareware de Colourspace.  Esto va bastante bien,
+generando registros y pedidos para Trip-A-Tron de aquellos
+quienes realmente aceptaron la idea del sintetizador de luz.  Esto es lo que esperábamos;
+El sintetizador de luz siempre ha sido difícil de describir en los anuncios, entonces, ¿qué
+mejor manera de estimular la conciencia del viaje que utilizando 'Space to
+anunciar el concepto? 
+
+Entonces, ¿qué sigue?  Bueno, el trabajo del sintetizador de luz todavía tiene mucho camino por recorrer;
+El hardware se está construyendo a mi alrededor y a medida que hay más en línea
+hay más por hacer. Tenemos suficiente juntos que hemos estado haciendo
+algunos conciertos ya. Tengo la versión Amiga como se mencionó anteriormente,
+Debería llevarme un mes como máximo. Luego, esquiar!!!!!! y solo
+QUIZÁS cuando regrese tenga en mis manos Jaguar, el nuevo Atari
+bestia.  Estoy deseando poder disfrutar de 50 Hz en serio.
+genialidad en esta nueva máquina.  Atari cree que es mucho mejor
+que el Panther, que no era exactamente malo en primer lugar. 
+Todavía no conozco ningún detalle técnico íntimo, pero lo que
+Lo que sí sé es suficiente para saber que técnicamente al menos será nuclear.
+Famicom.  Como dije antes, necesitan que el software coincida.
+El buen software vende sistemas.  Hace un par de fines de semana tuve cinco
+chicos que se quedan aquí el fin de semana. Todos jugamos mucho a F-Zero (el
+increíble juego de conducción en Famicom) y dos de esos tipos se fueron
+con la intención de pedir sus propios sistemas Famicom lo antes posible solo para poder
+Juega a F-Zero. Atari consigue cinco o diez juegos así en el Jag y
+Podría tener Nintendo.  Aquí está la esperanza...
+
+Una advertencia: la próxima vez que alguien me vea, verás un poco de
+Anatomía de Yakly nunca antes expuesta en público. tu has sido
+advirtió.
+
+En cuanto a mi próxima pieza de Shareware, no lo he decidido.  he tenido
+solicitudes de versiones actualizadas de todo, desde Hover Bovver hasta
+Iridis Alpha, y seguro que sería divertido resucitar y
+traer al futuro uno de esos viejos juegos, pero una parte de mí está
+También estoy pensando en tal vez algún nuevo trabajo original.  Lo pensaré.
+Tengo algunas ideas que incluso han llegado un poco más lejos.
+código, ¡así que espera y verás!
+
+[Todavía estoy pensando en ello. me inclino hacia algo
+se agita tan total y absolutamente rápido que hará que Llamatron
+parece geriátrico. Adictos a la adrenalina, esperen... ¡¡Usa la prisa!!]
+
+
+Sabes, a veces me pregunto si debería detener todo esto.
+durante unos meses y probar a ser humano?  Por otra parte,
+los hábitos de diez años tardan en morir, el avance implacable de
+la tecnología trae constantemente nuevos desafíos y posibilidades,
+y Yak puede comunicarse con infinitamente más personas en infinitas
+más lugares a través de este medio, en el cual se me da bastante bien, más bien
+que a través de medios sociales convencionales, donde uno tiene que operar
+secuencialmente, y qué diablos alguien tiene que codificar los transputadores.
+Solía preocuparme mucho más por esas cosas cuando parecía que
+El sintetizador de luz estaba en espera indefinida e intentaba conseguir un juego.
+entrar en el sistema comercial era como tratar de meter mantequilla en un
+la fosa nasal del puercoespín con un alfiler al rojo vivo, independientemente de
+qué tan buenos podrían ser realmente los juegos.  Ahora el sintetizador de luz ha vuelto
+y mejor que nunca y de hecho puedo publicar cosas gracias
+a Shareware; No hay suficientes horas en el día para codificar.
+y estoy de vuelta allí con toda la fuerza.  ni siquiera me detengo a mirar
+Vecinos más. Las 5 de la mañana no es raro.  Yak está feliz.
+
+[Diablos, he estado sin televisión durante las últimas semanas,
+La antena es genial y realmente no me la he perdido.  hecho un montón
+de trabajo estos últimos días.  Arréglalo un día de estos
+Supongo, pero te sorprenderá cómo no te lo pierdes.
+
+Estoy contento ahora mismo porque el 31 de enero me iré de aquí, me voy.
+a las montañas durante unas semanas para hacer descensos
+cosa.  Excelente.  Gran prisa todo el día haciendo lo que seguramente debe
+ser una de las actividades físicas más excelentes jamás ideadas,
+luego bebe un trago en el Viejo Tirol por la noche, luego levántate
+¡Y hazlo todo de nuevo!  No puedo esperar, yo….]
+
+Bueno, eso es todo para este archivo ASCII.  Muchas gracias a todos
+quienes nos apoyaron con Llamatron y Colourspace.  Esperemos que nosotros
+Puedo hacerlo de nuevo esta vez, sólo que más. Te estaremos avisando
+cómo va y, como de costumbre, los comentarios y opiniones sobre el juego son
+Siempre bienvenido (y haz que te escuchen también; no notarás que no hay mensajes de texto).
+dando vueltas en la pantalla y la capacidad de configurar la intensidad del estroboscópico
+en Venganza).
+
+
+Nos vemos la próxima vez...
+
+-- Ya K 20/11/91
+
+
+PD: No puedes sentarte justo al lado del borde izquierdo de la pantalla.
+Si lo intentas, harás que el camello se contraiga de forma convulsiva, lo que 
+Tenía al menos un probador de juegos impotente de risa.
+
+
+
+YAK SALUDA:
+
+(Los puse al final. Ni se me ocurriría hacerte leerlos.
+si te aburren. Ningún escritor de demostraciones, yo).
+
+YAK saluda a: Wulf (¡una estación de trabajo por estudiante! y aquellos Cerebus
+¡Los libros eran AMAAAAAAZING!), Marco y los chicos de Londres que están tratando de
+ayuda a VL ahora mismo; los chicos de Diseño de Paisaje (¿cómo está la bestia?
+¿Ya arreglaste tus otros canales? y recuerda esa noche que miramos
+Koyyanisqatsi e hizo lo de Proto jeje...), Keith y Sophie
+(consigue a tu hermanito y a tu hermanita en este, Soph); 'Lope (quien finalmente
+se comunicó) tu bastardo casado; Anna (diferente Kronschnabl
+(¿Es así?) Esta vez, el mismo resultado: adicción), Sr. Todd,
+Capón 'Pollo de Goma', M.C.Urtis y Hendy el Matemático Loco,
+TT (será un TT muy pronto, ¿no?), TC, Lisa y su familia (¿entendido?
+¿Porsche blanco todavía?), y cualquiera que considere bueno ser
+recibido por un animal de programación largo y peludo con fijación por el camello.
+
+Repite conmigo: "PUEDO MOVERME MOVERME MOVER CUALQUIER MONTAÑA"
+
+
+
+[Recomendaciones sonixx de YAK:
+
+-- Shamen (En:Tact en particular, pero mira algunos de sus
+cosas anteriores que pueden sorprenderte si te gustan los primeros Floyd!)
+-- Bassomatic 'Establece los controles'
+-- Grito Primordial 'Screamadelica'
+-- Inspira 'La Bestia Interior'
+-- Jesús Jones 'Duda'
+-- El KLF 'La Sala Blanca'
+-- The Orb 'Aventuras más allá del Ultramundo'
+-- No más fe 'la cosa real'
+-- ese de Jane's Addiction que dice "Me han pillado robando"
+
+
+Recomendaciones de la consola Kickass:
+
+F-Zero (S-Famicom) TOP juego de conducción
+
+Super Mario Land (Mario 4) Juego de plataformas definitivo, no tan bonito
+como Sonic en Sega, pero mucho más difícil y con más niveles, así que no
+Lo completaré en dos días.  Además, puedes montar un lindo
+Bestia dinosaurio llamada Yoshi a la que se puede persuadir para que excrete
+champiñones especiales. Ah, sí, está en S-Famicom.
+
+Thunder Force III (Megadrive): explosión de desplazamiento horizontal como
+Lo has visto 1000 veces antes, pero es bastante bueno y tiene algunas
+gráficos psicodélicos absolutamente locos (mira el Fire
+Planeta).
+STUN Runner (Lynx): juego de conducción ultrarrápido en 3D en el que
+derribar tubos, como un bobsleigh de alta tecnología. La versión lince
+es increíble y supera a esos horribles ST y Amiga
+versiones que actualizaban la pantalla a un fotograma por domingo.
+
+Bueno, debo irme. Tengo discos que hacer. Amigoides: disfruta de tu
+Venganza...
+
+
+--YaK 1/10/92

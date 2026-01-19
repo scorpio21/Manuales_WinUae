@@ -1,0 +1,545 @@
+DETECTIVE MAESTRO DE LA PISTA
+
+                   Para IBM PC, Atari ST y Amiga
+
+				1
+
+				2
+
+                            CONTENIDOS
+
+4 INTRODUCCIÓN
+
+5 CARGANDO
+
+6 MÉTODOS DE CONTROL
+
+7 INICIO DEL JUEGO
+8 La pantalla de configuración
+9 Las cartas están repartidas
+9 tu movimiento
+10 Sugiriendo
+11 espiando
+12 pasajes secretos
+12 Más sobre mudanzas
+13 Más sobre sugerencias
+13 Acusando
+14 Finalizando tu turno
+
+14 LOS MENÚS DESPLEGABLES
+14 Pista
+14 Archivo
+15 Guardar juego
+15 Restaurar juego
+15 opciones
+16 Jugar
+
+18 CONSEJOS DE ESTRATEGIA PARA EL SÚPER SLEUTH
+
+				3
+
+                           INTRODUCCIÓN
+
+En 1945, un empleado de abogados de Birmingham, Inglaterra, visitó
+Waddingtons Games Ltd. en Leeds.  Anthony E. Pratt, su esposa y una pareja
+de amigos inventores de juegos vinieron a presentar su prototipo de misterio
+juego de detección a los fabricantes del juego.
+
+A la gente de Waddingtons le gustó lo que vieron y acordaron producir el
+juego.  Tres años más tarde, Parker Brothers llevó el juego a Estados Unidos.
+amantes del misterio, y ha sido el favorito de la familia desde entonces.
+
+La última versión de ese juego original es "CLUE MASTER DETECTIVE". 
+Y ahora puedes reproducirlo en tu computadora.  Juega el papel de tu favorito.
+héroe o heroína de la literatura policial.  Imagina que eres Sherlock Holmes,
+Nancy Drew, Charlie Chan y Miss Marple, todos en uno.
+
+Hay tantas posibilidades de Quién, Dónde y Con Qué Arma que el
+El misterio a resolver es diferente para cada juego que juegues.  Elige jugar
+contra tus amigos, los oponentes de la computadora o una combinación de los dos.  usar
+Tu lógica y tus habilidades deductivas para descubrir la novela policíaca mediante un proceso de
+eliminación.
+
+                         "¡El juego está en marcha!"
+
+				4
+
+                             CARGANDO
+
+Computadora IBM:
+Inicie la computadora (usando DOS 2.1 o posterior).  Inserte el disco apropiado
+en la unidad A de su computadora.  Escriba CLUE y presione RETORNO.
+
+Se le pedirá que seleccione el dispositivo de entrada (compatible con Microsoft
+Mouse, Joystick o Teclado) que desea utilizar. Si selecciona Ratón,
+CLUE asume que ya tiene cargado el controlador del mouse.  Instalaciones CLUE
+sus propios controladores especiales si selecciona Joystick o Teclado.
+
+INSTALACIÓN DEL DISCO DURO IBM
+En el símbolo C>, cree un directorio y copie todos los archivos del programa.
+discos a ese directorio.
+
+	Ejemplo: Con el disco de programa en la unidad A, escriba:
+
+		PISTA MD <RETORNO>
+		Copiar A:*.* C:PISTA <RETORNO>
+		(repita para cada disco)
+
+Cargando desde el disco duro:
+1. En el indicador C>, cambie los directorios, luego escriba CLUE y presione RETORNO.
+
+	Ejemplo: CD CLUE <RETORNO>
+		 PISTA <RETORNO>
+
+CALLE ATARI:
+Encienda la computadora e inserte el disco. El programa se iniciará automáticamente.
+
+COMODORA AMIGA:
+Encienda la computadora y arranque como de costumbre (insertando el disco Kickstart si
+tienes un A1000).  Inserte el disco CLUE cuando el banco de trabajo lo solicite
+aparece.
+
+				5
+
+A medida que se carga CLUE, primero muestra una pantalla de título y luego los créditos.  prensa
+una tecla o botón para continuar.  Cuando CLUE se haya cargado, se le pedirá que
+seleccione una opción de los menús.
+
+                         MÉTODOS DE CONTROL
+
+Computadora IBM:
+CLUE es un "programa basado en menús".  Esto significa que lo controlas mediante
+Menús "desplegables" y seleccionando acciones de ellos.  Los menús contienen
+todas las acciones que necesitas para jugar CLUE.
+
+Para desplegar un menú, mueva el puntero usando un mouse compatible con Microsoft,
+Joystick o las teclas del cursor (según el dispositivo de entrada que haya seleccionado)
+anteriormente) para apuntar al menú apropiado y presionar el botón izquierdo del mouse
+(o botón de disparo del joystick, o tecla 5 en el teclado).  Pruebe esto ahora:
+mueva el puntero hacia el menú en la parte superior izquierda de la pantalla.
+(Si está utilizando el teclado, puede variar la velocidad del puntero
+presionando las teclas F1 (lento) a F10 (rápido).
+
+Una vez que haya desplegable el menú, verá una lista de opciones (en la
+Menú CLUE solo hay uno: Acerca de CLUE).  Moviendo el puntero hacia abajo
+lista puede resaltar la opción que requiera.  Pruebe esto ahora seleccionando
+Acerca de PISTA.  si hiciste todo correctamente, se te mostrará una pantalla completa
+de información sobre el programa.  En la parte inferior está la palabra SALIR en un cuadro.
+ Pulsa el "botón" con el puntero cuando hayas visto suficiente.
+
+Para cancelar un menú si lo abre por accidente, simplemente mueva el puntero
+apáguelo y presione el botón.
+
+				6
+
+En algunas etapas del juego, los elementos de los menús no se pueden seleccionar; para
+Por ejemplo, no puedes seleccionar Acusar en el menú JUGAR a menos que hayas iniciado un
+juego.  La opción se mostrará "atenuada" para indicar esto.
+
+CALLE ATARI:
+CLUE utiliza las convenciones estándar de GEM.
+
+COMODORA AMIGA:
+CLUE utiliza las convenciones estándar de "Intuición".
+
+                         COMENZANDO EL JUEGO
+
+¡El señor Boddy ha sido brutalmente asesinado!
+
+¿Cuál de los invitados de Boddy Manor ha cometido este crimen cobarde? 
+¿Dónde se cometió el asesinato y cuál fue el arma?  Depende de ti
+resolver el misterio.
+
+Hay diez posibles perpetradores, doce posibles lugares de asesinato y
+ocho posibles armas.  Todo lo que necesitas hacer es acusar al sospechoso correcto.
+de cometer el asesinato, el lugar donde se cometió el crimen y el
+arma que fue utilizada.
+
+Después de cargar, el juego prepara el escenario mostrando un posible asesinato.
+escenario.  Luego se muestra la pantalla de configuración.
+
+				7
+
+                       LA PANTALLA DE CONFIGURACIÓN
+
+Juegas el papel de uno de los diez sospechosos del juego.  La pantalla de configuración
+te permite elegir el sospechoso que deseas interpretar y los sospechosos que se interpretarán
+por tus oponentes.
+
+Cada tarjeta sospechosa tiene un panel debajo.  Señale este panel con el
+puntero del mouse y haga clic en el botón izquierdo del mouse.  El panel
+pasar de Neutral a Humano, a Computadora 1, Computadora 2 y Computadora
+3 y de regreso a Neutral.  Selecciona Humano para el sospechoso con el que quieres interpretar.
+        
+	NEUTRO
+	HUMANO
+	COMP 1
+	COMP 2
+	COMP 3
+
+Los jugadores neutrales no participan activamente en el juego.  Los jugadores humanos son
+La computadora le indicará que tome su turno.  Los jugadores de ordenador toman sus
+girar automáticamente.  Los números después de Computadora indican las diferentes habilidades.
+niveles disponibles.  Los jugadores de Computer 3 son los ordenadores más hábiles.
+jugadores.
+
+Si juegas contra otras personas, permíteles seleccionar a los sospechosos.
+desean jugar.  Selecciona cualquier jugador de computadora contra el que quieras jugar. 
+Debe haber al menos 3 jugadores participando activamente en el juego, pero
+Todos ellos pueden ser humanos, todos informáticos o una mezcla de los dos.
+
+Puede escribir un nombre para asociarlo con cualquiera de los sospechosos.  esto
+se mostrará cada vez que se mencione ese sospechoso en el juego.  Para escribir
+en un nombre, haga clic en el panel vacío debajo de la tarjeta del sospechoso.  Un cursor
+se colocará al principio del texto y se podrá escribir un nombre.
+
+Si desea hacer clic en las tarjetas sospechosas reales, se le dará una breve
+antecedentes de cada uno de los sospechosos.
+
+Cuando estés satisfecho con el juego que has configurado, haz clic en el
+cuadro de inicio para iniciar el juego.
+
+				8
+
+                       LAS CARTAS SE REPARAN
+
+No verás que sucede, pero la computadora baraja la baraja de 30 cartas,
+selecciona un sospechoso, una ubicación y un arma y los guarda como cartas de asesinato.
+ Las cartas de asesinato representan quién, cómo y dónde del crimen.  el
+Las cartas restantes se reparten a los jugadores.
+
+Se muestra el tablero principal, con una barra de menú en la parte superior.  todos los jugadores
+Comience en el guardarropa.  El asesinato nunca ocurre en el guardarropa.  el
+El jugador inicial se elige al azar y luego los jugadores se turnan en orden.
+
+Tu objetivo es moverte por la mansión del Sr. Boddy, entrando y saliendo de la
+12 posibles lugares de asesinato.  Cada vez que entras a una habitación o al exterior
+ubicación, puede "hacer una sugerencia" y recopilar información valiosa sobre
+las cartas que los otros jugadores tienen en sus manos.  Al descubrir lo que
+cartas que tienen los otros jugadores, puedes deducir las cartas asesinas mediante un proceso
+de eliminación.
+
+Si un jugador de computadora comienza, intentará moverse a una ubicación y
+hacer una sugerencia.  Haga un no de su sugerencia y de quién pasó las tarjetas.
+Encontrará la información útil para su consulta.
+
+                            TU MUDANZA
+
+Se imprimirá un mensaje para avisarte cuando es tu turno.  Haga clic en el
+casilla OK para que el mensaje desaparezca.  Los dados se lanzan por ti, en un
+cuadro en la parte superior derecha de la pantalla.  Este es el ícono de los dados.
+
+El número en los dados es el número de espacios que puedes mover en tu
+girar.
+
+Puedes moverte vertical u horizontalmente sobre el tablero, pero no
+diagonalmente.  Puedes cambiar de dirección tantas veces como lances tus dados.
+permitirá; sin embargo, no puedes ingresar al mismo cuadrado más de una vez en
+el mismo turno.
+
+				9
+
+No puedes aterrizar en una casilla ocupada por otra ficha.  Si tus dados tiran
+te llevaría allí por conteo exacto, debes detenerte un espacio detrás del
+la ficha de otro jugador.  Si obtuviste un número más alto, salta sobre el otro.
+ficha, contando el espacio ocupado y moviendo el número total de espacios
+enrollado.
+
+Para realizar su movimiento, mueva el puntero para seleccionar la ruta que desea tomar. 
+Haga clic en cada cuadrado por turno, comenzando desde su posición actual. debes
+entrar y salir de las habitaciones utilizando las puertas, por lo que el programa sólo le permitirá
+para resaltar espacios legales.  Para seleccionar una habitación u otra ubicación como parte de
+nuestra ruta, haga clic en el centro de esa ubicación.  Un marcador será
+aparecerá para mostrar que la ubicación está seleccionada.
+
+Cuando tu ruta esté resaltada por huellas, haz clic en los dados para hacer la
+moverse.  El camino que has tomado se mostrará con una huella más pesada.  en
+Al comienzo de tu turno, tu ficha parpadea para que puedas localizarla.  si
+haces clic en una posición incorrecta, un lugar donde no puedes moverte legalmente
+- Se emite un pitido de advertencia y la computadora volverá a mostrar su token.
+
+		          SUGERIENDO
+
+Cuando ingresas una ubicación, se muestra un ícono de sugerencia en la parte inferior.
+derecha de la pantalla.
+
+Haga clic en este icono para hacer una sugerencia.  Se le pedirá que seleccione
+el personaje a sugerir.  Haz clic en la carta del personaje que quieras.  hacer
+Esto de nuevo para el arma.  La ubicación será aquella en la que te encuentres cuando
+haciendo la sugerencia.  Cualquier carta que se te pase aparecerá boca abajo en
+la pantalla.  Para darles la vuelta, apúntalos y mantén pulsado el ratón.
+botón.  Si juegas contra otras personas, asegúrate de poner la mano en forma de copa.
+Redondea las cartas a medida que las muestras, para ocultarlas de tu vista.
+ojos del oponente.  Después de haber anotado las tarjetas, haga clic en el cuadro de salida para
+volver a la pantalla principal.
+
+Si no quieres hacer alguna sugerencia (quizás sólo estás pasando
+a través de la ubicación) haga clic en el icono del dado.  Esto hará que el
+El ícono de sugerencia desaparecerá y su movimiento continuará.
+
+				10
+
+El sospechoso nombrado en una sugerencia se traslada a la ubicación sugerida.
+
+Si haces una sugerencia en una ubicación, no podrás realizar más movimientos en
+ese turno.
+
+	                    HUSPIENDO
+
+Snoop Spaces... Nueve espacios en el tablero están marcados por un catalejo que
+se ve así:
+                 __
+		(__)==
+
+Como parte de tu movimiento, puedes aterrizar en uno de estos cuadrados y "espiar" a un
+oponente.
+
+Cuando "husmees", se te mostrarán los sospechosos interpretados por tu
+oponentes.  Seleccione el jugador para espiar usando el mouse, joystick o
+teclado para mover el puntero en la tarjeta.  Luego se le presentará
+todas las cartas que tiene ese jugador, boca abajo, para que no puedas verlas. 
+Selecciona una carta al azar y haz clic en ella.  La tarjeta se mostrará mientras
+mantiene presionado el botón o la tecla, así que asegúrese de mantenerlo cubierto de otros
+jugadores humanos.
+
+Nota: Las cartas se barajan antes de exponerlas al fisgón.
+
+				11
+
+                        PASAJES SECRETOS
+
+Algunos lugares están unidos por pasadizos secretos.  Estas ubicaciones son
+conectados: salón con invernadero, biblioteca con cocina y el
+Escaleras del sótano al paseo del jardín.  Movimiento a través de un pasaje secreto.
+cuenta como un espacio.
+
+Para utilizar un pasaje secreto entre habitaciones, haga clic en la habitación en la que se encuentra el pasaje.
+se conecta a.  Para utilizar el pasaje secreto entre las escaleras del sótano y el
+Garden Walk, haga clic en el cuadrado de Garden Walk cuando sea el destino. 
+Haga clic en las escaleras del sótano cuando ese sea el destino.
+
+                      MÁS SOBRE MUDANZAS
+
+Al entrar o salir de un lugar, no es necesario aterrizar en el
+ubicación por el conteo exacto.  Puedes pasar por una ubicación en un turno,
+contándolo como un espacio.
+
+No puedes volver a entrar a una habitación en el mismo turno.
+
+No es necesario que utilices todos tus dados a la vez.
+
+Puedes moverte a una casilla de fisgón y luego usar la cuenta restante.  si tu
+Queda una cuenta en los dados y hay un lugar al que moverse, el
+El programa no continuará hasta que se agote.
+
+La computadora verifica si usted se ha encerrado. Si no hay ningún
+lugar al que puedes moverte, perderás cualquier cuenta que quede en los dados.  si el
+El icono de sugerencia está presente y haces clic en el icono del dado para eliminarlo.
+Se le pedirá que mueva el resto de la cuenta en los dados.  Así que asegúrate
+desea moverse antes de hacer esto.
+
+Puedes moverte sobre otro jugador durante tu turno, pero no puedes detenerte en
+un jugador.  Si intenta detenerse en un reproductor, la computadora emitirá un pitido y le dará
+Tienes la opción de detenerte detrás de ese jugador cuando te mueves.
+
+				12
+
+                       MÁS SOBRE SUGERENCIAS
+
+Puedes hacer una sugerencia y una acusación en el mismo turno.
+
+Después de ingresar a una de las ubicaciones, solo podrás hacer una sugerencia.  a
+hacer otro, debes esperar hasta otro turno cuando estés en un diferente
+ubicación o, en algún momento después de tu próximo turno, vuelve a ingresar la ubicación que más te guste.
+Recientemente se fue.
+
+Si otro jugador movió su ficha a una nueva ubicación en el transcurso de
+haciendo una sugerencia, en tu próximo turno puedes hacer una sugerencia a partir de ese
+ubicación sin moverse.  O bien, puede hacer clic en el icono del dado (para eliminar el
+icono de sugerencia) y continúa moviéndote de una de las formas habituales.
+
+                            ACUSANDO
+
+Cuando esté seguro de haber deducido la solución correcta al asesinato,
+debes hacer una acusación para ganar el juego.
+
+Para hacer una acusación debes desplegar el menú JUGAR desde la barra de menú en
+la parte superior de la pantalla.  Seleccione ACUSAR en el menú y se le preguntará
+para confirmar que desea acusar.  Esto es sólo en caso de que tengas
+activó el menú por accidente.
+
+Selecciona el sospechoso, la ubicación y el arma que crees que componen el asesinato.
+tarjetas.  Si está en lo cierto, la computadora mostrará una recreación del
+asesinato.
+
+Si acusas incorrectamente, abandonarás el juego y el otro
+Los jugadores continuarán hasta que alguien lo haga bien.  Si no deseas
+Espere a que seleccione NUEVO JUEGO en el menú ARCHIVO.
+
+				13
+
+                         FINALIZANDO TU TURNO
+
+Cuando hayas terminado tu movimiento, verás que el icono del dado ha sido
+reemplazado con un ícono que dice PRÓXIMO JUGADOR.  No puedes hacer otro
+sugerencia o avanzar más en este punto, pero todavía puedes hacerlo
+algunas otras cosas.  Estos se explicarán en la siguiente sección.  para terminar
+tu turno, haz clic en el ícono PRÓXIMO JUGADOR.
+
+                       LOS MENÚS DESPLEGABLES
+
+Hay varias opciones disponibles durante el juego.  A estos se puede acceder mediante
+desplegable el menú apropiado desde la barra de menú en la parte superior de la
+pantalla.  Estos funcionan de manera similar a otras aplicaciones en su
+computadora.
+
+PISTA
+
+Este menú tiene solo una opción: ACERCA DE CLUE.
+Esto te cuenta un poco sobre el juego.
+
+ARCHIVO
+
+Si deseas dejar de jugar a CLUE MASTER DETECTIVE o decides modificar
+la configuración, este menú contiene la opción que le permitirá hacer esto.
+
+NUEVO: comenzará un nuevo juego de CLUE MASTER DETECTIVE.  Esta opción abandona
+tu juego actual y te regresa a la pantalla de configuración.  Antes de esto
+sucede, se le pedirá que confirme que desea hacer esto.
+
+GUARDAR JUEGO
+
+TECLADO: mueva el cursor de flecha a ARCHIVO y presione ENTER.  Selecciona GUARDAR JUEGO
+con el cursor de flecha y presione ENTER.  El juego se guardará automáticamente en
+disco.
+
+RATÓN: mueva el mouse a ARCHIVO y haga clic.  Seleccione GUARDAR JUEGO con el mouse y
+haga clic.  El juego se guardará automáticamente en el disco.
+JOYSTICK: mueve el joystick a ARCHIVO y presiona el botón de disparo.  Mueva la palanca de mando a
+GUARDAR JUEGO y presione el botón.  El juego se guardará automáticamente en el disco.
+
+RESTAURAR JUEGO
+
+TECLADO: mueva el cursor de flecha a ARCHIVO y presione ENTER.  Selecciona GUARDAR JUEGO
+con el cursor de flecha y presione ENTER.  El juego se guardará automáticamente en
+disco.
+
+RATÓN: mueva el mouse a ARCHIVO y haga clic.  Seleccione GUARDAR JUEGO con el mouse y
+haga clic.  El juego se guardará automáticamente en el disco.
+
+JOYSTICK: mueve el joystick a ARCHIVO y presiona el botón de disparo.  Mueva la palanca de mando a
+GUARDAR JUEGO y presione el botón.  El juego se guardará automáticamente en el disco.
+
+SALIR: abandonará CLUE MASTER DETECTIVE.  Antes de que esto suceda estarás
+Se le pedirá que confirme que desea hacer esto.
+
+OPCIONES
+
+El menú de opciones le permite hacer una variedad de cosas.
+
+IMPRIMIR NOTA: si tiene una impresora estándar conectada a su computadora,
+Puede imprimir hojas de notas en las que no se incluye la información que recopila.
+durante el juego.
+
+				15
+
+IMPRIMIR JUEGO: si tienes una impresora conectada, puedes imprimir una reseña de
+todas las sugerencias y acusaciones hechas por los jugadores durante el partido. 
+Esto incluye quién pasó las cartas, pero no quién pasó qué.
+
+Nota: Los jugadores que pasaron cartas se enumeran estrictamente en el orden en
+que aparecen en la hoja de notas.
+
+COMENTARIOS: a medida que avanza el juego, los oponentes de tu computadora se reunirán
+información de la misma manera que lo hace usted.  Como indicación de cómo
+están avanzando, les hemos dado la posibilidad de hacer comentarios.  si tu
+Si esto te distrae, puedes desactivar esta función.  Si bien hay un
+'marca de verificación' junto a Comentarios en el menú Opciones, los comentarios están habilitados. 
+Cuando no hay una 'marca de verificación', los comentarios están deshabilitados.
+
+SONIDOS: esta opción activa y desactiva el sonido del juego. Una 'marca de verificación'
+junto a Sonidos significa que los sonidos están habilitados.
+
+PUNTERO: esta opción cambia el puntero del mouse de una lupa a
+una flecha y viceversa.
+
+JUEGO RÁPIDO: cuando esta opción está habilitada, el programa corta la vista de
+el jugador entra en la sala para acelerar el juego.
+
+JUGAR
+
+El menú de juego contiene las opciones disponibles para cada jugador individual.
+
+ACUSAR - Cuando esté seguro del asesinado, del arma y del lugar del crimen,
+seleccione esta opción para hacer su acusación.
+
+MOSTRAR NOTAS: la computadora contiene un conjunto completo de notas para cada jugador. 
+Cuando sea tu turno, puedes seleccionar MOSTRAR NOTAS y ver tu propia hoja de notas.
+Las cartas que tienes en la mano están marcadas con una "C".  Como ves el
+cartas de otros jugadores, la computadora marcará las cartas que veas con un
+"X".
+
+				16
+
+ HABITACIONES ARMAS SOSPECHOSAS
+ Cuchillo Patio Col. Mostaza
+ Candelero Cenador Prof. Ciruela
+ Salón Revólver Sr. Green
+ Cuerda De Comedor Sra. Peacock
+ Pipa de plomo para cocina Miss Scarlet
+ Llave de la casa del carruaje Sra. White
+ Sala de Trofeos Veneno Mme. rosa
+ El Sargento de Herradura del Conservatorio. gris
+ Estudio M. Morena
+ Sala de billar Miss Peach
+ Biblioteca
+ fuente
+
+Al hacer clic en los cuadros de notas, puede modificar la marca asociada con cada una.
+artículo.
+
+Hay una "Y" y un "?" para que lo utilices de la manera que prefieras, por ejemplo. "Y" puede
+se usará para marcar aquellas cartas que estás seguro que tiene un jugador y el "?"
+Se puede utilizar si no está seguro.
+
+MOSTRAR TARJETAS: esto mostrará las cartas que tienes en la mano.  Haga clic en las espaldas
+de las cartas para ver cuáles son.
+
+RESPUESTA AUTOMÁTICA: a veces es posible que tengas más de una de las tarjetas mencionadas en
+una sugerencia.  Si deseas elegir tú mismo qué tarjeta mostrar,
+desactivar la respuesta automática.  Normalmente, la respuesta automática estará activada y la computadora
+seleccionará y pasará una tarjeta por usted.  Al seleccionar qué tarjeta pasar, el
+La computadora utiliza el mismo procedimiento que el reproductor de la computadora, por lo que
+La respuesta automática no debería ser una desventaja.  Si solo tienes una tarjeta,
+La computadora lo mostrará automáticamente ya que no tiene ninguna opción.
+
+Si juegas con otras personas y no solo con jugadores de computadora,
+probablemente sea mejor mantener activada la respuesta automática para que el otro
+Los jugadores no se benefician injustamente al saber si tienes más de uno de
+las cartas.
+
+				17
+
+               CONSEJOS DE ESTRATEGIA PARA EL SÚPER SLEUTH
+
+No olvides husmear... especialmente cuando tu tirada de dados sea lo suficientemente grande como para
+fisgonear e ingresar a una ubicación en el mismo movimiento.
+
+Haciendo sugerencias... Quizás quieras nombrar una o más de tus propias tarjetas en
+para obtener información... o engañar a tus oponentes.
+
+Demostrando una sugerencia... Es posible que en un turno se muestren los tres.
+tarjetas.  Sin embargo, esto no es necesariamente una ventaja, porque todos los
+Los jugadores te escucharon hacer tu sugerencia y todos sabrán que esas
+Tres cartas no son las cartas del asesinato.  Esta es otra razón por la que quizás quieras
+incluir una de sus propias tarjetas en las tarjetas de sugerencias.
+
+Movimiento furtivo... Si la ficha de un oponente parece dirigirse a una
+Ubicación importante, en tu turno es posible que desees incluir a ese Sospechoso en una
+Sugerencia para alejarlo de esa Ubicación.
+
+				18
+
+==============================================================================
+         DOCUMENTOS PROPORCIONADOS POR -+*+-THE SOUTHERN STAR-+*+- para M.A.A.D.                                                               
+==============================================================================

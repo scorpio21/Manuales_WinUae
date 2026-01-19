@@ -1,0 +1,521 @@
+1.  What's the aim of Genius ?
+
+Genius is a new three - dimensional combination game .
+You as player have the task to use all your intelligence to explore the
+structures of the cubes.
+Each cube has three visible coloured square sides. Now you have to explore 
+which square side has which colour.
+
+2.  How to play Genius
+
+ 2.1 Definitions
+
+First we have to define some terms, which appear in this instruction. After
+that we explain the game itself.
+
+Element - a single coloured square side of the cube
+
+Molecule - a cube that consists of three coloured square sides (elements)
+
+Combination - see Pic 1, 2, 3, 4, 5
+                                 Pic 1
+     I----I         I----I
+     I    I---------I    I    1 = Molecule, 2 = Combination
+     I----I    2    I----I
+       1
+
+Structure of a virus - consists of several molecules (cubes), which are
+connected by different combinations. Pic 1 shows the simplest structure
+of a virus, which consists of 2 molecules, 1 combination, 6 elements (= 2
+molecules).
+Complicated structures of a virus consist of several combinations, which
+partly interlock.
+See pic 2, 3, 4, 5.
+
+  
+ Same elements (a, b, c)
+       			
+		     Combination 1 
+                          /
+          /-----/I       /        /-----/I                     
+         / b   / I      /        / e   / I           
+        /-----/ ================/-----/  I            
+        I a   Ic /              I d   If /                     
+        I     I /               I     I /              
+        -------/                -------/
+           ||
+           ||------- Conbination 2
+           ||
+           ||        Pic 2: Structure of a virus which consists of two
+         /-||--/I	    combinations with the same elements a,b,c.
+        /h || / I
+       /-----/  I
+       I g   Ii /
+       I     I /
+       -------/
+
+
+            |=========================| 
+	    ||	          |          || 
+            ||            |          ||         
+          /-||--/I        |       /--||-/I                     
+         / b   / I        |      / e   / I           
+        /-----/  I        |     /-----/  I            
+        I a   Ic /        |     I d   If /                     
+        I     I /         |     I     I /              
+        -------/          |     -------/
+           ||             |
+           ||------- Direct Combination 
+           ||
+           ||        Pic 3: Structure of a virus which consists of a
+         /-||--/I	    combinations with nine elements.
+        /h || / I
+       /-----/  I
+       I g   Ii /
+       I     I /
+       -------/
+
+
+
+            |=========================| 
+ D C--------||	                     || 
+ i o        ||                       ||         
+ r n      /-||--/I                /--||-/I                     
+ e n     / b   / I               / e   / I           
+ c e    /-----/ ================/-----/  I            
+ t c    I a   Ic /        |     I d   If /                     
+   t    I     I /         |     I     I /              
+   i    -------/          |     -------/
+   o       ||             |
+   n-------||        Combination 2 
+           ||
+   1       ||        Pic 4: Structure of a virus which consists of a
+         /-||--/I	    direct combination (1) and a normal
+        /h || / I           conbination (2). Conbination 2 is completely
+       /-----/  I           included in combination 1.
+       I g   Ii /
+       I     I /
+       -------/
+
+
+  					    /-----/I
+  					   /k    / I
+  					  /-----/  I
+  				          I j   Il /
+				          I //  I /
+     				          -//----/
+                                          //           
+                  Combination 2 ----------//         
+                                        //         
+                                       //            
+                                      //     Same elements d,e,f    
+          /-----/I                /-----/I                     
+         / b   / I               / e   / I           
+        /-----/ ================/-----/ ================|            
+        I a   Ic /      |       I d   If /             ||        
+        I     I /       |       I     I /              ||
+        -------/        |       -------/               ||
+            		|			       ||
+		Combination 1 (direct) ----------------||
+						       ||
+  						       ||
+ 	Pic 5: Structure of of virus which consists    ||
+	       of a direct combination (1) and a     /-||--/I
+               normal combination (2) with the same /h || / I
+  	       elements d,e,f.			   /-----/  I
+  					           I g   Ii /
+					           I     I /
+     				        	   -------/
+
+
+
+Direct combinations enter a square side of a cube and come out from the opposite
+square side and thus form a direct combination. Don't make the mistake and think
+that the elements a,b,c - d,e,f - j,k,l form a direct combination, too. Pic 4 
+indicates the same direct combination as in pic 3. It just has an additional 
+normal combination of the elements a,b,c - d,e,f. All complicated structures are
+built in the same way.
+
+2.2 Results
+ In order to find out the kind of elements which are presented by colours, the
+ computer makes a result for every combination.
+ For each combination of a structure of a virus the computer produces a result-
+ window, which consists of as many squares as elements are featured at one 
+ combination. Pic 6 shows a result window for a normal combination, pic 7 shows
+ a result window for a direct combination.
+
+ -------------    Pic 6: Result window of a normal combination (6 elements)
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+
+
+ -------------    Pic 7: Result window of a direct combination (9 elements)
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+ |   |   |   |
+ -------------
+
+ The result windows are placed by the computer in a way that you can see to 
+ which combination they belong (look at pic 8,9 and 10). The arrows show to
+ which specific combinations the result windows belong.
+       			
+		      
+                           
+          /-----/I             /-----/I           ---------          
+         / b   / I            / e   / I           |   |   |   
+        /-----/ =============/-----/  I   /_____  ---------          
+        I a   Ic /           I d   If /   \       |   |   |           
+        I     I /            I     I /            ---------  
+        -------/             -------/             |   |   |
+           ||                                     ---------
+           ||
+           ||
+           ||        
+         /-||--/I	
+        /h || / I
+       /-----/  I
+       I g   Ii /
+       I     I /
+       -------/            Pic 8
+
+         /\
+          | 
+          |
+     
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+
+
+
+            |=====================|
+            ||                   ||
+            ||                   ||
+          /-||--/I             /-||--/I           ---------          
+         / b|| / I            / e|| / I           |   |   |   
+        /-----/ =============/-----/  I   /_____  ---------          
+        I a   Ic /           I d   If /   \       |   |   |           
+        I     I /            I     I /            ---------  
+        -------/             -------/             |   |   |
+           ||                                     ---------
+           ||
+           ||
+           ||        
+         /-||--/I	
+        /h || / I
+       /-----/  I
+       I g   Ii /
+       I     I /
+       -------/            Pic 9
+
+         /\
+          | 
+          |
+     
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+       |   |   |   |
+       -------------
+
+
+     
+                                         -------------
+    				         |   |   |   |
+    				         -------------
+  				         |   |   |   |
+ 				         -------------
+					       |
+					       |	
+					      \/	
+
+ 					    /-----/I
+  					   /k    / I
+  					  /-----/  I
+  				          I j   Il /
+				          I //  I /
+     				          -//----/
+                                          //           
+                                         //         
+                                        //         
+                                       //            
+                                      //     
+          /-----/I                /-----/I                     
+         / b   / I               / e   / I           
+        /-----/ ================/-----/ ================|            
+        I a   Ic /              I d   If /             ||        
+        I     I /               I     I /              ||
+        -------/                -------/               ||
+            					       ||
+		                                       ||
+						       ||
+  						       ||
+ 	                                               ||
+	                                             /-||--/I
+                                                    /h || / I
+  	                   			   /-----/  I
+  		Pic 10			           I g   Ii /
+					           I     I /
+     				        	   -------/
+
+                                                     /\
+      						      | 
+      						      |
+     
+         					-------------
+       						|   |   |   |
+       						-------------
+       						|   |   |   |
+       						-------------
+					        |   |   |   |
+					        -------------
+
+
+The computer that knows the real chemical (colored) mixture of the structure
+of the molecules of the equivalent type of the virus, compares them with the
+colours entered by you.
+For each element (colour) discovered correctly but located at the wrong
+position the computer puts a white spot into the result window. 
+For each element (colour) discovered correctly and is located at the right 
+position the computer puts a black spot into the result window.
+Colours which aren't discovered arn't represented at the result window. 
+The player has to find out by logical thinking which colours are supposed to
+be represented at the result window: examples for a few results:
+
+
+
+          /-----/I                /-----/I          -----          
+         /     / I               /     / I          | X | = black 
+        /-----/ ================/-----/  I          -----  
+        I     I  /              I     I  /          | O | = white          
+        I     I /               I     I /           -----   
+        -------/                -------/            |   | = empty
+						    -----  
+        ---------
+        | X | X |     Pic 11: The six elements are supposed to be red.
+        ---------
+        |   |   |
+        ---------
+        |   |   |
+        ---------
+
+Example 1: At pic 11 you see two black spots at the result window, that means
+that 2 colours are discovered directly and are located at the correct pos..
+As all elements have the same colour in that case it is known that two of the
+six elements have this colour and are located correctly. The other four 
+elements are still unknown. In order to find out which two of the six elements
+are located correctly you have to do further tests.
+
+
+
+          /-----/I                /-----/I          -----          
+         /     / I               /     / I          | X | = black 
+        /-----/ ================/-----/  I          -----  
+        I     I  /              I     I  /          | O | = white          
+        I     I /               I     I /           -----   
+        -------/                -------/            |   | = empty
+						    -----  
+        ---------
+        | X | O |     Pic 12: The left cube is supposed to be red.
+        ---------             The right cube is supposed to be green.
+        |   |   |
+        ---------
+        |   |   |
+        ---------
+
+
+
+
+Example 2: At pic 2 you see a black and a white spot at the result window.
+That means that one colour is discovered and located correctly (black spot).
+The other colour is discovered correctly but not located correctly (white).
+Now you have four possibilities: 
+
+ 1. Two red side squares are correct. One is located correctly on the left
+    cube and the other one has to be at the right cube.
+
+ 2. Two green side squares are correct. One is located correctly on the right
+    cube and the other one has to be at the left cube.
+
+ 3. One red side square is discovered and located correctly at the right cube.
+    One green side square is discovered correctly but not located. That means
+    that the green side square has to be at the left cube.
+
+ 4. One green side square is discovered and located correctly at the right cube
+    one red side square is discovered correctly but not located. Theat means
+    that the red side square has to be at the right cube.
+
+You have to check out by further tests which of these possibilities is correct.
+
+
+2.3 End of the game.
+
+ When all elements are located and discovered correctly, the result window only
+consists of black spots. After that the computer announces the chemical
+formula of the virus. After that you can begin a new game!
+
+3. Usage
+
+3.1 Menu screen
+
+After entering the codes the following menu screen will appear.
+
+---------------------------------------------------------------------------
+|                                                                         |
+|    |      |      |      |      |      |      |      |      |       |    |
+|    \/     \/     \/     \/     \/     \/     \/     \/     \/      \/   |
+|                                                                         |
+|    O      O      O      O      O      O      O      O      O       O    |
+|                                                                         |
+|                                                                         |
+|   --------------------   -----------------------   -------------------  |
+|   |                  |   |                     |   |                 |  |
+|   |   Competition    |   |       Player:       |   |   Normal Game   |  |
+|   | 1                |   | 2                   |   | 3               |  |
+|   --------------------   -----------------------   -------------------  |
+|                                                                         |
+|          -----------------   ------------------  --------------         |
+|          |               |   |                |  |            |         |
+|          |      End      |   |       CUBE     |  |    Start   |         |
+|          |       4       |   |        5       |  |      6     |         |
+|          |               |   |                |  |            |         |
+|          -----------------   ------------------  --------------         |
+|                                                                         |
+|  ------------  --------------  -------------  ------------  ----------  |
+|  |          |  |            |  |           |  |          |  |        |  |
+|  |   Note   |  |   Delete   |  |    Load   |  |   Save   |  |  List  |  |
+|  | 7        |  | 8          |  | 9         |  | 10       |  | 11     |  |
+|  ------------  --------------  -------------  ------------  ----------  |
+|                                                                         |
+| ----------------------------------------------------------------------- |
+| |                                                                     | |
+| |   B L A C K   M O N K S  !  P l e a s e  e n t e r  y o u  n a m e  | |
+| |                                                                     | |
+| ----------------------------------------------------------------------- |
+|                                                                         |
+---------------------------------------------------------------------------
+                                   Pic 13
+
+3.1.1 Colour selection.
+
+ Aboii you see ten color spots. You can select the colours, which are supposed
+ to be used during the game. By clicking the colour spot with the left
+ mousebutton the arrow vanquishes, another clicking makes him appear again.
+ Enyway two colours have to be activated at least. 
+
+3.1.2 Options
+
+ After loading the game the option "competition" is activated. When you click
+ this icon the display changes to standard respectevely "Conversion". /icon 1
+
+3.1.2.1 Competition
+
+ You play all or nothing! 20 colour combination for each level are deposited
+ and are waiting to be solfed by you. Somebody who explores all combinations
+ of a virus type correctly at the fastest time has the right to call himself
+ "GENIUS". Remember: "All or Nothing!" For desolution will not be shown after
+ the competition".                           
+
+3.1.2.2 Standard
+
+ Do you want to have a new challenge each time ? Each game has different colour
+ combinations. You will read chapter 3.1.4 "versions" which dificulties are
+ waiting for you at the option "standard".
+
+3.1.2.3 Conversion
+
+ Do you have strong nervs? Are you totally concentrated?? If not, skip this
+ paragraph and don't mass with "conversion". If so - try it - there will be
+ vicious suprise. We don't wont to tell more about it this time. Anyway, just
+ play conversion when you play Genius before. But think of this: for each 
+ sturcture exists one solution never surender. 
+
+3.1.3 Name of the Player
+ 
+ Next to the option icon is the icon for the name of the player. After loading
+ the name ALMISOFT will be printed at this icon. By clicking with the left 
+ mousebutton the player can enter his name.
+
+3.1.4 Versions
+
+ The following versions (icon 3) can be selected with the mousebutton, if you
+ have choosen standard or conversion.
+
+3.1.4.1 Normal game
+
+ You have time and want to play a little game? Here you have unlimited time!
+ This version is especially for rookies.
+
+3.1.4.2 Maximal tries
+
+ Are you optimistic or do you have guts? Now you have to solve a structure
+ with a given amount of tries. When you choose this version a new line at
+ the buttom of the screen will appear. You can select a maximum of 29 tries.
+
+3.1.4.3 Time to think
+
+ Do you want to have stress?? You can have it ! For each try you have an amount
+ of time you have choosen yourself.
+
+3.1.4.4 Maximum time
+
+ Do you want to have a time limit?? Within the length of the game chossen by 
+ yourself you have to explore a complete structure. To set the time click 
+ "Min" or "SEC" and change with "+" or "-". 
+
+3.1.5 End
+
+3.1.6 Levels
+
+ The icon in the middle of pic 13 (CUBE) shows the structure of the virus you
+ have to play. By clicking you can change the structures. Notice that you can
+ choose different structures per option.
+
+3.1.7 Start
+
+3.1.8 Note
+
+ Do you have a printer ? If so you can print a note. ende
+
+3.1.9 Delete/Load/Save
+
+3.1.10 List
+
+ The highscorelist appears.
+
+ 4. the game screen
+
+The game screen consists of 20 squares in 5 colums and 4 rows. The first
+structure will appear at the left top. You have to fill it with colour.
+Behind the last showed pic a colour palette appears with the curent colours
+ and icons including the letters E, S, R, A, >.
+The elements of the first structure have the first colour. This colour would
+be white, if you had played with all ten colours.
+
+By clicking with the right mouse button you can select one colour. The mouse
+pointer now has the chosen colour and with it you can fill as many elements
+as you want.You do this by clicking on the element with the left mouse 
+button. By clicking '>' with the left mouse button the computer makes the
+results and puts the spots at the result window. At the same time a new
+picture appears which you can enter the colours of the next try in. Put
+the colours in regard of the previous results to solve all elements of the
+structure quickly. The icon R converts the current structure to the previous
+structure. Icon A changes all elements of the structure to the colour  of
+the last chosen colour, which also is displayed by the mouse pointer.
+Icon E means Exit Game. If you exit, the soloution appears at a new window
+(except the competition mode). When you close this window, a comment window
+will appear. By clicking the comment window you see the menu screen again.
+Icon S just means save game.
+
+
+
+
+ This instruction was translated and simplified by Andy of Black Monks.

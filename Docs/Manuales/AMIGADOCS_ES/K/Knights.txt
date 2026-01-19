@@ -1,0 +1,646 @@
+-----K-N-I-G-H-T-S-+---
+
+                         por Reaper Software 1993-1994
+
+
+
+
+Concursos:
+
+1. Descripción general Información general
+2. Inicio del juego ¿Cómo iniciar Knights?
+3. Métodos y claves de control del juego
+4. Menú del juego Cómo personalizar las mazmorras
+5. Diseño de configuración de pantalla
+6. Controlar a tu Caballero Cómo moverlo y manipularlo
+7. Entorno de mazmorra ¿Qué tenemos allí?
+8. Cosas en las Mazmorras ¿Qué es este objeto?
+9. Criaturas Criaturas en mazmorras.
+10. Notas del creador ¡Evita esto! ;)
+
+
+
+-----------
+1. Descripción general
+-----------
+Knights es un juego para dos jugadores en el que participan valientes caballeros que se adentran en las profundidades del 
+peligrosas mazmorras que persiguen su objetivo.
+
+Incluye:
+* Casi 250 bases de planos de mazmorras que permiten casi infinitas 
+  número de mazmorras diferentes
+* Excelentes efectos de sonido y agradable violencia.
+* Cadáveres y sangre que no desaparece.
+* Personalización flexible de misiones
+* Criaturas con bonitos sonidos y tácticas sofisticadas.
+
+El juego requiere dos jugadores y al menos un joystick.
+
+*************************************************************
+*NOTA:*
+*PARA DISFRUTAR PLENAMENTE DE ESTE JUEGO DEBES CREAR DESDE EL TABLERO*
+*O RESERVAR UNA PANTALLA DIVISORA ENTRE CADA MITAD DEL*
+*PANTALLA PARA QUE NINGÚN JUGADOR PUEDA VER A SUS RIVALES*
+*LA MITAD DE LA PANTALLA*
+*************************************************************
+
+Está escrito y compilado con AMOS 1.36.
+
+Necesita aproximadamente 1 MB de memoria y funciona en A500, A2000 y A1200 a 
+menos. Ahora también funciona con AA y puede realizar múltiples tareas.
+Además, se admite NTSC y la pantalla se puede reposicionar
+
+
+Esta última versión es tremendamente complicada respecto a la que se lanzó hace medio
+hace un año e incluye numerosas características adicionales, que incluyen:
+
+* Mazmorras más grandes
+* Varitas, libros y varios equipos iniciales.
+* Diferentes misiones
+* Sistema de control de caballero mejorado
+* Generador de mazmorras más eficiente y variado.
+* Más elementos básicos y habitaciones de mazmorras.
+* Monstruos inteligentes
+* Nuevas pociones y pergaminos.
+* Textos informativos
+* Posibilidad de suicidio
+* Disparadores y trampas especiales.
+* Soporte AA y NTSC
+
+
+*******************************************************************
+*NOTA II:*
+* LOS CABALLEROS VIENEN SIN NINGUNA GARANTÍA. CUALQUIER DAÑO *
+*CAUSADO A COSAS MECÁNICAS O BIOLÓGICAS NO ES DIRECTAMENTE*
+* CAUSADO POR ESTE JUEGO Y EL CREADOR NO ES RESPONSABLE DE ELLOS *
+*NO GUARDA NADA NI MODIFICA DISCO*
+*******************************************************************
+
+
+
+----------------
+2. Inicio del juego
+----------------
+Arranque con el disco Knights o ejecútelo desde WB
+
+Espere hasta que se cargue el juego y termine la irritante demostración, y luego simplemente
+Presiona fuego con el joystick o la barra espaciadora.
+
+Porque Knight #2 se controla con el selector del joystick 0 (puerto del mouse)
+puede moverse sin control al comienzo del juego si se coloca el mouse
+incorrectamente en el tablero
+
+
+
+-------------------
+3. Control del juego 
+-------------------
+El jugador n.° 1 (lado izquierdo) solo se puede controlar con el joystick n.° 1 (puerto izquierdo)
+
+El jugador n.° 2 (lado derecho) se puede controlar con el joystick n.° 0 (puerto para mouse)
+y/o con teclas de cursor y mayúsculas a la derecha
+
+El juego se puede finalizar en cualquier momento con Ctrl+C cuando la acción regrese a WB.
+o CLI
+
+Puedes cambiar entre CLI o WB y jugar con LAmiga+A
+
+Puede reposicionar la pantalla en casi todas las oportunidades con CTRL+cursores
+
+Durante el juego, Esc se usa para regresar al menú del juego y Bloq Mayús para pausar el juego.
+
+
+
+----------------------------------------------------
+4. Menú del juego (Menú de personalización del entorno de la mazmorra)
+----------------------------------------------------
+En este menú los jugadores pueden seleccionar varios aspectos de los juegos.
+Arriba/Abajo mueve el cursor y Derecha/Izquierda cambia el valor
+El fuego se utiliza para obtener información adicional o marcar el estado listo en "continuar"
+linea
+
+
+
+Misión:
+------
+Hay varias misiones predeterminadas que puedes seleccionar. solo estan hechos
+para facilitar la configuración de la mazmorra y no incluya nada que no pueda ser
+hecho manualmente.
+Entonces, si seleccionas alguna misión y luego cambias, por ejemplo, la cantidad de gemas, el juego
+Es idéntica a la misión seleccionada excepto que hay más gemas. Si luego reduce
+gemas al original, el nombre de la misión sigue siendo "Personalizado" pero es completamente idéntico al
+que previamente seleccionado
+
+
+
+Especificación de la misión:
+----------------------
+Objetivo principal del juego. Requisitos en cada misión:
+
+-Escapar de la mazmorra-
+Encuentre la cantidad requerida de gemas (ver más abajo) y salga, y será el ganador.
+
+-Duelo a muerte-
+No hay escapatoria del calabozo, y como las vidas son ilimitadas, la única manera
+ganar es asegurar todos los puntos de entrada con la varita (ver más abajo)
+
+-Recuperar varita y escapar-
+Debes encontrar la varita del calabozo y escapar con ella. Además, es posible que
+Necesito recuperar algunas gemas (ver más abajo)
+
+-Recuperar libro y escapar-
+Debes encontrar un libro en la mazmorra y escapar con él. De nuevo, puede haber algunos
+gemas que también deben ser recolectadas.
+
+-Destruye libro con varita-
+Debes encontrar el libro y luego llevarlo al pentagrama especial en la parte superior de las escaleras.
+(lugar muy especial, se distingue fácilmente de los pentagramas normales)
+Luego debes encontrar la varita y la cantidad requerida de gemas y presionar ese libro en penta.
+
+
+
+Tipo de Libro:
+-------------
+Si has seleccionado la misión con libro, hay una escondida en la mazmorra.
+El libro es pesado y es imposible luchar con un libro en las manos, por lo que se debe tener cuidado.
+tomarse al transportarlo.
+
+-Libro perdido de Ashur-
+Libro general sin lugar especial ni efectos especiales.
+
+-Necronomicón-
+El Libro de la Magia Oscura siempre está en la habitación del mago, detrás de puertas de hierro cerradas con llave. cuando
+Se toman poderes, se desata y muchos cadáveres cerca del libro se levantan como zombies.
+Además, cuando se lleva el libro, la actividad zombi alcanza automáticamente su máximo...
+
+-Tomo de los Gnomos-
+El Libro de la Sabiduría de los Gnomos siempre se encuentra detrás de trampas inteligentes o acertijos mecánicos.
+
+-Libro Antiguo del Conocimiento-
+El libro está en algún lugar y automáticamente otorga el mapa a su portador. ¡Ay, el enemigo es!
+Siempre consciente de tu ubicación si lo llevas.
+
+
+
+Tipo de varita:
+-------------
+Si hay varitas en la mazmorra, todas son del mismo tipo. Las varitas se llevan como
+cualquier otra arma (cuerpo a cuerpo) y también se usan como ellas. Cuando se usa, las áreas se llenan
+con luz mágica. Todos los objetivos deben ser golpeados físicamente con una varita.
+
+-Varita de Destrucción-
+Destruye cualquier criatura u objeto de madera rompible.
+
+-Varita de la No Muerte-
+Varita desagradable que destruye zombies y convierte al caballero enemigo en uno. Además, no
+El zombi atacará al portador de esta varita.
+
+-Varita de Caminos Abiertos-
+Abre el objetivo, ya sea una puerta cerrada o una criatura (*sonrisa*)
+
+-Varita de Aseguramiento-
+La varita se usa para "asegurar" los puntos de entrada para que el enemigo no pueda usarlos más. Después de todo
+Los puntos de entrada están asegurados y el enemigo muere, no tiene forma de ingresar a la mazmorra y tiene
+perdió el juego. Asegurar la puerta no impide que la persona de seguridad entre desde ese punto.
+(a menos que otro caballero ya haya asegurado esa ubicación...)
+
+
+
+Número de varitas:
+----------------
+¿Esto no necesita aclaración?
+Algunas misiones requieren que haya al menos una varita en la mazmorra.
+
+
+
+Número de gemas:
+---------------
+Número total de gemas en la mazmorra.
+Las gemas casi siempre se encuentran en los cofres, pero también se pueden encontrar en las mesas.
+
+
+
+Gemas necesarias:
+------------
+¿Cuántas gemas debe llevar el caballero además de cualquier otro requisito de la misión?
+antes de que pueda ganar. 
+
+
+
+
+Tipo de mazmorra:
+-------------
+Disposición general de la mazmorra.
+Si el tipo seleccionado es demasiado "pequeño" para la creación de la misión, se elimina automáticamente. 
+ampliado.
+Las mazmorras de serpientes son como pasillos muy tablones.
+
+
+
+Preasignado:
+----------
+Opción para mapear la mazmorra automáticamente antes del juego.
+
+
+
+Punto de entrada:
+------------
+¿Dónde entrará el caballero al calabozo?
+El punto de entrada se mantendrá igual a menos que esté asegurado por el enemigo con una varita de seguridad.
+cuando lo nuevo es aleatorio.
+
+
+
+Marcha de arranque:
+--------------
+Los caballeros pueden tener equipo adicional al comienzo del juego. la cantidad de
+Las cosas adicionales disminuirán con cada muerte.
+
+
+
+Punto de salida:
+-----------
+¿Dónde está ubicado el lugar desde donde el caballero puede salir de la mazmorra? si llega el caballero
+en este lugar antes de recolectar todas las cosas requeridas, se le dirá qué hace
+él todavía necesita.
+
+
+
+Número de llaves:
+---------------
+Cuántas llaves (y cerraduras) diferentes hay. Además de estas claves, existe
+Siempre hay al menos una ganzúa que pueda usarse para abrir cualquier puerta cerrada, si hay tiempo.
+no hay problema...
+
+
+
+Cofres preatrapados:
+------------------
+Algunos cofres pueden estar atrapados previamente con una aguja venenosa o un resorte de hoja si esta opción
+está seleccionado.
+
+
+
+Cantidad de cosas:
+----------------
+Cuántas cosas diferentes (ver más abajo) hay en el suelo y en las mesas.
+
+
+
+Actividad zombi:
+----------------
+¿Qué tan rápido los cadáveres se transformarán en cadáveres y luego se levantarán para caminar?
+Tierra...
+
+
+
+Murciélagos vampiros:
+-------------
+Cuántos murciélagos asesinos de vampiros hay en la mazmorra.
+
+
+
+----------------
+5. Diseño de pantalla
+----------------
+
+La pantalla de tu juego está dividida en dos partes. La parte superior consta de vista de la habitación.
+donde se encuentra actualmente tu caballero.
+
+La parte inferior incluye información (de izquierda a derecha) como:
+-calaveras-
+Las calaveras te dicen cuántas veces has muerto. Afortunadamente las vidas son ilimitadas.
+
+-Botella- 
+La botella te dice tu estado de vida y si hay algún efecto mágico especial actualmente.
+afectándote. Los colores se indican en la parte del equipamiento (capítulo 8). Si el nivel del
+El líquido ha bajado, deberías encontrar una poción curativa o visitar tu punto de entrada.
+
+-Equipo-
+Aquí se muestra cualquier equipo pequeño que lleve en sus bolsas.
+
+-Mapa-
+El mapa de la mazmorra se dibuja aquí.
+Knight mapea automáticamente cualquier habitación a la que entre si no hay enemigos a los que detener
+él.
+Además, es posible que obtengas un desplazamiento del mapa, o que la mazmorra esté premapeada, cuando los límites
+para las habitaciones que aún no han sido inscritas ya están sorteadas.
+También hay un pergamino llamado "Limpiar mapa". No hace falta decir lo desagradable que es.
+
+Aparecerá como un punto parpadeante en su mapa si puede mapear su habitación actual.
+Además, hay pergaminos que te indican la ubicación de tu oponente. el tambien es
+se muestra como un punto parpadeante en su mapa.
+
+
+
+--------------------------------------
+6. Controlar a tu Caballero durante el juego
+--------------------------------------
+
+Knight se controla con un joystick (o con el lado derecho, alternativamente, con cursores y
+desplazamiento a la derecha)
+
+Shift+Alt se usa para suicidarse, si es necesario (nunca sucedió, pero podría ser posible)
+Usa las llaves de tu lado para suicidarte.
+
+
+6.1 Mudanza
+----------
+Mueve tu caballero a la dirección deseada empujando el joystick hacia esa dirección
+
+
+6.2 Manipulación rápida de elementos
+--------------------------
+Presiona fuego con la dirección para usar tu objeto en las manos:
+
+La espada y el mazo se utilizan para atacar.
+El hacha se lanza o se usa para golpear dependiendo de tu situación.
+La varita está zapeada.
+Se dispara la ballesta cargada
+Se deja caer la ballesta, el bastón o el libro descargados.
+
+La ballesta se recarga automáticamente si no haces nada y tienes peleas contigo
+
+
+6.3 Parar
+------------
+Tu caballero intentará automáticamente parar los golpes que vienen desde el frente, si
+tiene espada, hacha o bastón en sus manos, y no se toca ningún controlador.
+Parar con el bastón es más fácil que parar con la espada, que es más fácil que
+parando con hacha.
+El mazo o la ballesta son demasiado torpes y la varita demasiado frágil para usarla como arma de parada.
+
+
+6.4 Manipulación de elementos en el mismo cuadrado
+------------------------------------
+Al presionar fuego por un momento, se le presentará el menú de acciones siempre que mantenga
+fuego presionado. Al empujar el joystick para corregir la dirección, la acción mostrada por el icono es
+realizado. El menú permanecerá mientras mantenga presionado el botón de disparo.
+El menú de acción se usa para recoger elementos, soltar gemas y otras cosas, para configurar el oso. 
+trampas y forzar cerraduras.
+
+NOTA: Obtienes la acción predeterminada simplemente presionando fuego durante un período muy corto.
+La acción predeterminada es recoger y soltar elementos en un cuadrado. El menú debe usarse cuando
+Se dejan caer gemas, se lanzan dagas o se coloca una trampa para osos.
+
+
+6.5 Manipulación de objetos en el frente cuadrado del caballero
+-----------------------------------------
+Al acercarse primero al cuadrado adyacente y luego presionar fuego (sin soltar 
+dirección) se le presenta el menú 'acercándose', que se utiliza de la misma manera
+como menú de acciones, excepto que las acciones son diferentes. En este menú puedes colocar trampas,
+abrir cerraduras y poner o sacar objetos de cofres o mesas.
+
+NOTA: Nuevamente, puede utilizar un clic corto para la acción predeterminada. La acción predeterminada es
+apertura, toma de artículos y cierre. El menú debe usarse cuando desee abrir el bloqueo.
+o poner trampas.
+
+
+NOTA 2: Acciones como abrir y cerrar se pueden realizar en cualquiera de los menús.
+NOTA 3: Los menús normalmente solo se usan al colocar trampas/abrir cerraduras/lanzar
+	dagas, porque el clic corto es mucho más fácil y rápido
+
+
+
+
+
+---------------------
+7. Entorno de mazmorra
+---------------------
+
+La mazmorra es un lugar hostil con objetos mágicos y lugares especiales...
+
+
+7.1 Punto de entrada
+---------------
+Lugar donde tu caballero entra en juego. Si estás dañado visitando tu punto de entrada.
+sanará su daño - lentamente.
+Si el enemigo usa una varita para asegurar tu punto de entrada, recibirás nuevos
+punto de entrada, que luego se utiliza para la curación y el reingreso.
+
+
+7.2 Punto de salida
+--------------
+Lugar que debes encontrar para ganar (excluyendo Duelo a muerte y destrucción de libros)
+Normalmente es el mismo que tu punto de entrada, pero puede ser el mismo que el de tus enemigos.
+o incluso cualquier desconocido.
+Si debes escapar de la mazmorra con algunos elementos que actualmente no tienes,
+te dirán lo que te estás perdiendo.
+
+
+7.3 Pozos
+--------
+Hay pozos sin fondo. No entrar. 
+
+
+7.4 Interruptores
+------------
+Algunos interruptores abren puertas o cierran fosas. Algunas gotas de portucullis en la espalda. algunos 
+Dispara ballestas dentro de cráneos y paredes.
+
+
+7,5 pentagramas
+--------------
+Algunos pentagramas son inofensivos.
+Otros no lo son e incluyen poderosos conjuros que pueden transferir a tu caballero 
+invisible, invulnerable o incluso teletransportarte cerca de tu enemigo.
+Por desgracia, a veces te transformas en zombie.
+
+
+7.6 Bolas de Cristal
+-----------------
+Hay bolas de cristal en algunas mazmorras. Mirar dentro de uno (acercarse a él) le dirá
+donde está tu oponente en tu mapa.
+
+
+7.7 Puertas y cofres
+--------------------
+Todas las puertas y cofres están cerrados al comienzo del juego. Además, podrían
+estar bloqueado. En ese caso, debe encontrar llaves o ganzúas adecuadas o simplemente aplastarlas.
+la puerta o el cofre. Lamentablemente también hay puertas de hierro que no se pueden romper,
+solo se abre con llaves o ganzúas
+
+
+
+
+--------------------
+8. Cosas en las mazmorras
+--------------------
+
+El suelo y las mesas están llenos de cosas variadas...
+
+
+8.1 Espada
+---------
+Tu caballero siempre tiene su espada. Si toma algo grande, lo envaina.
+hasta que dejes caer ese nuevo artículo.
+La espada es la mejor arma cuerpo a cuerpo, pero no se puede lanzar (¡¿Por qué?! Grita nuestro clon de Conan) 
+y es irremediablemente malo rompiendo cosas
+
+
+8.2 Artículos grandes
+-------------
+Hay algunos objetos que son tan grandes que el caballero sólo puede llevar uno consigo al mismo tiempo. 
+el tiempo.
+
+-Hacha-
+El hacha es un arma cuerpo a cuerpo aceptable, que también se puede lanzar. Además, está lejos 
+Más mejor que la espada cuando necesitas destruir objetos de madera.
+
+-Maul-
+Maul es un arma poderosa, contra objetos inanimados. Ningún objeto de madera rompible
+puede resistir su fuerza. Por el contrario, es un arma cuerpo a cuerpo muy mala.
+
+-Personal-
+El bastón no se puede usar cuerpo a cuerpo de manera eficiente porque es demasiado liviano para causar
+cualquier daño contra caballeros con armadura. En cambio, se utiliza para desarmar trampas. si tu
+abre una puerta o un cofre con un bastón en tus manos, no te caerá ninguna trampa.
+(NOTA: debido a que el bastón es un arma cuerpo a cuerpo tan mala, se suelta automáticamente si
+Presiona fuego con dirección (en abierto) Si realmente quieres golpear algo con
+para ello, debes usar el menú)
+
+-Ballesta-
+La ballesta es un arma poderosa, si está cargada. Para cargar una ballesta, debes tener
+peleas y paciencia. Knight cargará automáticamente la ballesta si tienes peleas.
+y permanecer en su lugar. Si se interrumpe la carga (por ejemplo, por movimiento), se debe
+Empezó desde el principio de nuevo.
+
+-Trampas para osos-
+Las trampas para osos en el piso están armadas o desarmadas. Los desarmados son inofensivos y pueden ser recogidos.
+levantarse o caminar sin miedo.
+Las trampas para osos armadas están abiertas. Si el caballero choca contra uno, queda dañado y atrapado por
+Un rato. Después de eso, la trampa para osos está desarmada. Se pueden "disparar" trampas armadas golpeando
+ellos con algún artículo. Eso no dañará el artículo.
+Las trampas para osos se pueden transportar y dejar caer o colocar en ciertos lugares estratégicos. en
+Además de ralentizar a tu enemigo, son 'alarmas audibles' bastante útiles porque
+Disparar uno causará suficiente ruido como para alarmarte.
+
+-Otro-
+El libro y las varitas también son artículos importantes. Sobre sus usos especiales lea la parte 4
+
+
+8.3 Artículos pequeños
+---------------
+Algunos artículos se pueden llevar y llevar con tu caballero.
+
+-Gemas-
+Algunas mazmorras incluyen gemas, que deben recuperarse al menos parcialmente. Las gemas son
+Se transportan como otros objetos pequeños, pero también se pueden dejar caer.
+(¿Por qué soltar gemas? Si tienes muchas gemas y tu enemigo te mata, se las queda todas).
+y ganará fácilmente. Al ocultar algunos de ellos, sabes que no ganará si
+simplemente te mata...)
+
+-Peleas-
+Se necesitan peleas con ballesta. Cualquiera de las dos es inútil sin la otra.
+
+-Dagas-
+Se pueden lanzar dagas desde el menú. Son bastante inofensivos pero no completamente inútiles.
+y podría resultar muy peligroso cuando se combina con rapidez mágica y grandes
+cantidades.
+
+-Teclas-
+Se necesitan llaves para abrir puertas cerradas (bueno, al menos si son de hierro). Cuarta clave
+es una ganzúa, que se puede utilizar para abrir cualquier cerradura, con el tiempo.
+
+-Agujas venenosas-
+Las agujas venenosas son trampas que matan al caballero que intenta abrir el objeto atrapado con 
+ellos a menos que tenga inmunidad al veneno o invulnerabilidad (o esté equipado con personal)
+
+-Hoja de resorte-
+Dispare los disparos de la hoja de resorte en la dirección donde se colocó en el objeto si alguien
+abre o golpea el objeto. Es tan peligroso como una ballesta y sólo puede ser
+discapacitado con personal (o por venir desde una dirección diferente)
+
+
+8.4 Pociones
+-----------
+Hay pociones mágicas en la mazmorra, que se pueden beber recogiéndolas.
+Los efectos de ellos son impredecibles pero sobre todo útiles. Aquí hay una lista de diferentes
+efectos y sus colores (en tu poción de fuerza vital)
+
+Curación (ninguna) Cura a tu caballero hasta dejarlo ileso.
+Inmunidad al veneno (blanco intermitente) Da inmunidad contra el veneno
+Veneno (verde oscuro) ¡Te mata!
+Paralización (verde) Te paraliza por un tiempo.
+Fuerza* (azul) Te da una fuerza superior
+Rapidez* (violeta) Te proporciona una velocidad superior
+Regeneración* (naranja) Te proporciona regeneración (curación automática)
+Invisibilidad* (negro) Te hace invisible
+Super* (multicolor) Te hace fuerte, rápido y regenerador.
+
+(*solo uno de estos podrá estar vigente al mismo tiempo)
+Todos los efectos (excepto la curación) son temporales.
+
+
+8.5 Pergaminos
+-----------
+Además de las pociones, también hay pergaminos mágicos que se leen seleccionando
+ellos arriba. Sus efectos pueden ser similares a los de las pociones, pero también tienen muchas
+diferente, como:
+
+Mapa Mapa de la mazmorra.
+Teleport Te teletransporta cerca de tu enemigo o de él hacia ti.
+Sensación Le brinda a usted y/o a su enemigo conocimiento de la ubicación de los demás.
+Treasury Sense le brinda ubicaciones de gemas, varitas o libros en el área
+			que ya has mapeado
+La invulnerabilidad te hace invencible.
+Borrar mapa ¡Perdiste tu mapa!
+Nigromancia ¡Te conviertes en un zombie! (*UAAAAAA*)
+
+
+
+-----------
+9. Bichos
+-----------
+Las mazmorras pueden incluir algunas criaturas desagradables...
+
+
+9.1 Murciélagos vampiros
+----------------
+Murciélagos chupadores de sangre con colmillos afilados que pueden perforar incluso armaduras de placas. ellos
+Se matan con bastante facilidad, pero pueden matar fácilmente a un caballero en pánico. Además, sus
+El sonar no se puede engañar con la invisibilidad.
+
+
+9.2 Zombis
+-----------
+La magia maligna hará que los cadáveres se conviertan en zombis. Los zombies solo existen para matar. 
+Caballeros vivientes, no perturban a los murciélagos. Los zombis son duros y pueden derribarse.
+puertas y mesas, para que puedan deambular fácilmente por la mazmorra...
+
+
+
+
+
+----------------------
+10. Notas del Creador    
+----------------------
+
+Espero que haya suficiente información en estos documentos para dominar completamente a los caballeros.
+
+La creación de este juego ha sido una buena forma de pasar el tiempo durante los fines de semana.
+y noches, y finalmente siento que está lo suficientemente listo para ser lanzado _realmente_
+
+Quiero agradecer a mis amigos por la ayuda;
+Miku por proporcionar esos horribles efectos de sonido...
+Rami, Tommi, A.P. y mi hermano por las pruebas de juego y las ideas...
+
+
+Y una vez más repito:
+Para disfrutar plenamente de este juego, _divide_ la pantalla con algo. No hay diversión en
+¡Invisibilidad si tu oponente puede verte con solo mirar a tu costado!
+
+
+Ahora vuelvo mi atención hacia Art of War, el mejor juego de tanques jamás creado ;) y
+Visual-MUD, enorme creación gaming para UNIX
+
+Si encuentra algún error aparente envíeme un correo. 
+
+Si te gusta o no te gusta este juego, envíame un correo electrónico también.
+
+me gusta el correo electrónico
+
+También puedes enviarme regalos, postales, etc. si quieres :)
+
+
+Entonces, ahora volvamos a crear robots 'inteligentes' para Art of War...

@@ -1,0 +1,685 @@
+                                  SkyChase
+
+MAIN MENU OPTIONS
+
+Game Seletions
+
+Two Player (Human vs Human):
+     Two joysticks are required.
+
+One Player (Human vs Computer):
+     The computer assumes the right player's role. The options can be set
+     for the computer player with the Computer Skill setting. The right
+     player settings will apply to the computer in this mode.
+
+     Options that can be set independently for the computer player include
+     the following:
+
+     Jet Selection
+     Fuel Selection
+     Ammunition
+     Missile Store
+     Missile Lock Threshold
+     Bullet Hit Threshold
+     G-Force Blackout Threshold
+
+     The computer will always use "Pitch and Roll Combined" for his
+     "joystick".
+
+One Player (With no right window):
+     This option is the same as the other one player mode with the exception
+     that the computer's screen is blanked out. This provides more challeng-
+     ing competition, since you won't be able to see what the computer is
+     doing in advance. In addition, you will notice that your jet performance
+     is substantially improved.
+
+Zero Player (Computer vs Computer):
+     This is a demonstration mode you can show your friends. When this mode
+     is selected, the menus can be used to set parameters for both computer
+     players. When "Run Demo" is selected on the main menu, preset parameters
+     will be used.
+
+Left and Right Player Selections:
+     Each player can choose his or her own setting preferences. This allows
+     one player to handicap the other in order to even out the play.
+
+Jet Select:
+Take some time to review the aircraft fleet up close while you're making
+your jet selection; once combat begins, chances are things will be happening
+too fast and at too great a "distance" to appreciate their distinctive
+features.
+
+Throttle and rotation limits are different for each jet.
+
+A) Each jet's maximum velocity is set.
+B) Each jet's maximum roll rate is limited to a specific value.
+C) The maximum rate of change for each jet's pitch is similarly limited. The
+   limit when going into a climb is the same as the jet's roll rate limit.
+   The limit when going into a dive is approximately one half.
+
+                                                   Maximum        Maximum
+                                                   upward         downward
+                          Max Speed    Maximum   pitch change   pitch change
+              Throttle    for level   roll rate     rate            rate
+    Jet        limit       flight    degrees/sec  degrees/sec    degrees/sec
+   -----     ----------  ----------- ----------- ------------   ------------
+    F18          11         1234          50          50              25
+    F14          13         1462          45          45              25
+    F15          12         1348          45          45              25
+    F16          12         1348          50          50              25
+    M31          15         1691          35          35              20
+    M27          14         1577          40          40              20
+     PA          15         1691          50          50              25
+
+Fuel Select:
+Each 550 gallon increment lasts approximately 3-7 minutes depending on the
+amount of power required for flight. With 8800 gallons, or the maximum amount
+of fuel, combat can last for up to one hour. Firing a missile uses a small
+amount of your fuel. Getting hit uses a lot of your fuel. Hitting your
+opponent adds the same amount of fuel back to your tank.
+
+Ammunition:
+Each player can select the number of bullets to be carried on board. Press 1
+for no bullets, 9 for unlimited bullets and 2-8 for selecting a specific
+number of bullet rounds.
+
+The number of bullets fired per minute increases as the overall game speed
+increases. If you are using the 8x8 grid for example, which increaes game
+speed, you will want to add more bullets.
+
+Bullets are not very effective in close range because, unlike actual jet
+combat where targets remain the same size regardless of distance, Sky Chase
+jets literally grow as they get closer and shrink with distance. As a result,
+striking the exact center of your target (see Bullet Hit Threshold) with the
+tiny bullets because proportionately more difficult in relation to increased
+jet size. The distance to the target cannot be to great, because the target
+will be out of bullet range.
+
+Missile Store:
+Each player may select the number of missiles to be carried on board.
+Missiles are effective at close range when using the HUD (Heads Up Display)
+missile lock feature.
+
+HUD Display:
+When the jets are close enough to deploy the missiles, the HUD for missile
+locking will appear in the center of the screen. The crosshairs show the
+direction that your craft is pointing. A box will also appear in front of
+the opponent's jet to indicate where the missile should be fired to hit the
+jet. There is a line drawn between the crosshairs and the box. The idea is
+to position the box as close as possible to the crosshairs, by making the
+line as small as possible. The distance that the crosshairs need to be from
+the box to get missile lock can be selected with the missile lock threshold
+setting.
+
+The HUD has auditory cues for the player. The beeping tone indicates that
+missile lock is near. The steady tone indicates that missile lock has been
+achieved.
+
+When the HUD has been succussfully activated, the "missile lock" indicator
+will flash green. If the opponent's HUD is locked onto your jet, the "enemy
+missile lock" indicator will turn red. If both players have each other in
+missile lock, both indicators will light up. Under these conditions, fired
+missiles will automatically hit the opponents jet.
+
+Missile Lock Threshold:
+Missile lock threshold represents the spacial interval within which missiles
+will automatically adjust directions to strike their targets. That interval
+is measured in pixels between the crosshairs and the box, (a pixel equals the
+space of one dot on the computer screen), and players may select thresholds
+ranging from 1-40 pixels. A choice of 1 pixel, for example, would mean that
+the center crosshairs and the HUD box would need to overlap exactly to
+achieve a hit; with 40 pixels, a line of that length connecting the center
+crosshairs and the HUD box would represent the range in which a fired missile
+would achieve a hit.
+
+The HUD only becomes active when an opponent is within missile range. Missile
+lock is achieved when the HUD is positioned over the crosshairs within the
+missile lock threshold range. The larger the number, the easier it is to get
+missile lock on your opponent. Double clicking the joystick button fires a
+missile when an opponent is within range.
+
+Bullet Hit Threshold:
+The Bullet Hit Threshold setting determines the size of the area within which
+you can score a hit with the jet's machine guns. The selections are small,
+medium and large. Small represents a one pixel dot on the center of the jet
+that must be hit by a bullet to register a kill. Medium represents a 9 pixel
+area and large represents a 25 pixel area. Collision detection for bullets
+is two dimensional, making it easier to hit a jet that is far away because it
+is smaller, and thus, more likely to fall within the hit area.
+
+Trigger Timing:
+Holding the joystick button down causes continuous machine gun fire. When the
+HUD is displayed the missile can be fired by pressing the joystick button
+twice, quickly, in succession. The missile trigger is distinguished from the
+bullet trigger by the length of the interval between the 2 clicks of the
+joystick button. This delay can be set for Fast, Medium or Slow.
+
+G-Force Effect:
+Gravity forces affect the pilot by affecting blood flow to the brain. There
+are 2 kinds of G-forces: negative G's, which accrue when a plane descends and
+forces blood into the head, and positive G's, which accrue when a plane
+ascends or turns sharply, forcing blood out of the head.
+
+Your body and plane can tolerate many more positive than negative G's.
+Excessive negative G's cause the blood vessels in your eyes to rupture, or
+Redout. Blackout occurs if the effect of positive G's are too strong,
+causing you to lose control of the jet. Sky Chase's G-froce limit is 9 G's
+for both positive and negative G-forces. When you blackout, the G-force
+meter will flash and the "autopilot" will take over a jet and return it to
+a straight and level course. Once the jet is flying straight and level, the
+blackout will terminate and, within two seconds, the pilot will regain
+control. To reach 9 G's you must roll to 90 degrees or change pitch at the
+maximum limit.
+
+The amount of time required at 9 G's to blackout can be adjusted for each
+player. The amount of time to blackout can be set to low, medium, high or
+unlimited.
+
+Grid Select:
+Sky Chase displays a grid on the ground. The number of cells in the grid
+effects the overall speed of the game. Game speed increases with fewer cells
+and decreases with more cells. The fastest game is achieved by selecting the
+8x8 grid and the slowest, the 64x64 grid. The grid is projected on the
+ground to supply perspective.
+
+The combat takes place over the grid. The outside perimeter is a small
+distance from the outside of the grid.
+
+Computer Skill:
+The computer can be adjusted to different levels of difficulty. Players can
+choose from one of four levels-Easy, Average, Difficult and Ace-which
+correspond to increasing levels of maneuverability. The computer skill option
+is only applicable to single player or computer vs computer modes.
+
+Flyby Control:
+The flyby mechanism which initiates all jet combat is automatically
+activated at the beginning of each round. Players can also select flyby as
+a means of resuming combat following any kill, or can bypass flyby and merely
+resume combat from jet positions at the time of the kill.
+
+Sound Control:
+The game sounds can be turned off if desired.
+
+Music Control:
+The game music is only played when the option menus are being displayed; it
+too may be disconnected.
+
+COCKPIT INSTRUMENTATION
+
+Radar (bottom center of screen):
+The radar provides an overview of the combat zone, allowing the player to
+determine an opponent's position. The arrows on the radar screen represent
+the jets; the red arrow is the left jet and the white arrow is the right
+jet. The borders are colored to remind you which is which. The arrows can
+appear in 16 different positions to represent the heading of each jet. When
+the arrows overlap, the arrow on the top is the higher jet. The relative
+altitudes of the jets are better represented with the altimeter.
+
+Altimeter:
+There are 2 bars on the Altimeter. The green bar reflects the pilot's
+altitude and the red bar, the opponent's altitude. This gauge allows you to
+determine if your opponent is above or below you. Exceeding the ceiling of
+50,000 feet will cause a crash. The 50,000 ft. indicator will flash to warn
+you that the ceiling is near.
+
+Score:
+The score is displayed with the guage.
+
+Thrust:
+The thrust is a constant force that represents the force of the jet engine.
+The thrust value will increase as the throttle is increased and decrease
+when the throttle is decreased. The jet's rate of turn will decrease as it's
+speed increases and the rate of turn will increase as it's speed decreases.
+
+Heading (Top side box):
+Indicates the direction the aircraft is pointing in from side to side, i.e.
+north, east, south or west. This indicator shows the top view of the jet. The
+heading guage matches the direction of the arrow on the radar.
+
+Pitch (Middle side box):
+Indicates the angle the aircraft is pointing in from nose to tail, i.e.
+climbing or diving positions. This indicator shows the side view of the jet.
+
+Roll (Bottom side box):
+Indicates the angle the aircraft is pointing in from wing to wing, i.e.
+turning or banking. This indicator shows the rear view of the jet.
+
+Speed:
+The speed represents the air speed in MPH.
+
+Missile Lock Indicators (Center of screen below flight view):
+One flashes green when your missile lock indicator is on; the other flashes
+red when the opponents indicator is locking on you.
+
+G-Force Indicator (Bottom right corner):
+The indicator shows the current G factor. Pilots will black out at 9 G's.
+The indicator turns red at 9 G's and flashes bright red while you are
+blacked out.
+
+Perimeter Indicator (Next to Altimeter):
+Lights up to warn that your aircraft is in danger of colliding with the
+perimeter of the cubed-shaped combat arena. If you hit the perimeter your
+jet will blow up.
+
+Bullets Remaining:
+Represents the number of bullets left.
+
+Missiles Remaining:
+Represents the number of missiles left.
+
+Screen Outline:
+The screen outlines are color coded red and white to correspond with the
+arrows on the radar screen for easier recognition of players' jets.
+
+AIR COMBAT
+
+Flyby:
+The flyby is a fair way of starting an aerial combat and is initiated
+automatically. Pilot controls are suspended until the jets approach and
+pass each other head on. After the flyby, combat begins with all pilot
+controls activated.
+
+WEAPONS
+
+Machine Guns:
+Holding the joystick button down cause continuous machine gun fire. The
+Bullet Hit Threshold area determines the hit area within which you can score
+a hit. The hit area is 2-dimensional making it easier to hit a jet that is
+farther away because it is smaller, and thus, more likely to fall within
+pixel range. Bullets are not very effective in close range, because it's
+harder to hit the small target area on such a large wire frame jet image.
+
+Smart Missiles:
+Double clicking the joystick button fires a missile when the oppenent is
+within range. The missile can be activated when the jets are within range,
+with the crosshairs appearing on the center of the screen. The missile will
+actually turn toward the opponent as it is flying. The missile lock range is
+set by the missile threshold. When you fire a missile, you see it rushing
+away from the nose of your aircraft. Your opponent will see the same missile,
+if he is facing it.
+
+Using Sound:
+The jet soundgets higher pitched as the jets approach and lower as they move
+farther away. This "doppler effect", the change in the pitch of sound in
+relation to speed and proximity, provides players with an audio clue about
+the relative positions of the jets.
+
+The missile, missile lock, bullet and explosion sounds are in stereo, with
+the right and left channels reflecting the sounds of the right and left
+players.
+
+Computer Pilot:
+The computer pilot, which is always the right player, will follow an
+invariable series of strategies:
+
+*If the opponent is out of missile range but within machine gun range, the
+ computer will fire the guns.
+*The computer will resort to machine guns within missile range when it runs
+ out of missiles.
+*The computer pilot will always attempt to fly directly towards the calculat-
+ ed missile lock coordinates.
+*The computer will always fire when it has the opponent in missile lock.
+*If you fly in a large circle by staying in a rolled position, the computer
+ will follow you exactly.
+*The computer, even in Ace mode, can be considered handicapped in that its
+ pitch is limited to a maximum of 60 degrees. In the easy and medium modes
+ the pitch and roll limits are restricted even more.
+
+Novices may wish to disarm the right computer player to even out your odds
+and train more effectively.
+
+Goals:
+The game continues until the jet's fuel is exhausted. The player with the
+most points wins.
+
+Points:
+Points are given for the following:
+ 1-Opponent fires missile
+10-Destruction of opponent with machine guns or missiles
+10-Opponent crashes on ground, ceiling or perimeter
+10-Mid-Air collision (both players get 10 points)
+
+Combat Zone:
+The perimeter of the cube, or combat zone, is just outside of the grid area.
+The radar screen will display a solid black square within a green field and
+flash the perimeter warning light to let you know that you are approaching a
+wall. The perimeter includes the ceiling as well as the 4 walls and ground.
+
+Pausing:
+Pressing upper or lower case "P" during play will cause the game to pause.
+Just press the joystick trigger button or any key to resume play.
+
+Quitting:
+Press upper or lower case "Q" to quit the game during play. You will then
+return to the copyright screen; press any key to get to the main menu. To
+return to other software applications turn your computer off and reboot.
+
+FLYING
+
+Turning, Climbing and Diving:
+When the aircaraft is turned in any horizontal direction, i.e. north, south,
+east or west, you are adjusting its heading. Heading direction is displayed
+in the heading indicator box and the radar screen.
+
+When the nose of the aircraft is raised or lowered, you are adjusting its
+pitch, causing it to move up or down. The degree of pitch is shown in the
+pitch indicator box.
+
+When the aircraft is rolled, or rotated to one side, the combination of air
+pressure and velocity will force the plane into a banking turn. The degree
+of roll is reflected in the roll indicator box.
+
+                                  Dive
+                         Dive/     |     Dive/
+                       Bank Left\  |  /Bank Right
+                                  \|/
+                   Bank Left-------+-------Bank Right
+                                  /|\
+                        Climb/  /  |  \  Climb
+                      Bank Left    |   Bank Right
+                                 Climb
+
+Use the joystick to manipulate pitch and roll.
+(your heading will be affected by these 2 factors in combination):
+
+      Top position = Nose Down (Dive)
+    Right position = Banking turn to the right
+     Left position = Banking turn to the left
+   Bottom position = Nose Up (Climb)
+
+Joystick Select:
+The four diagonal positions can be set in one of two ways:
+
+Option 1: The high speed roll. This is a banked turn, or roll, occuring at
+such a high speed of rotation that the jet will actually proceed in a
+straight line until released from it; upon release from the high speed roll,
+the aircraft will continue to bank at the angle it is released from. This
+ability to make faster, sharper turns makes the high speed roll an excellent
+offensive tool.
+
+Option 2: Pitch and roll combined. This combines the pitch and roll of the
+two positions adjacent to the diagonal; for example, the bottom right corner
+would produce a roll which climbs to the right. The pitch and roll combina-
+tion produces a kind of corkscrew motion and, because it makes it very
+difficult for an opponent to follow, it is an excellent defensive tool.
+
+Throttle:
+The throttle controls the thrust, or jet engine force, of the aircraft. The
+throttle of each player's jet can be set during flight. The throttle will
+always be set in the middle during the flyby but will conform to the player's
+preferences following the activation of pilot control. Remebere that higher
+throttle settings consume fuel faster.
+
+The jet's rate of turn will decrease as it's speed increases. Likewise, the
+jet's rate of turn will increase as it's speed decreases. This accurately
+reflects the actual performance of a jet, just as a car turns more sharply
+when it is going slow than at high speeds. To turn at the fastest rate,
+therefore, slow down before turning.
+
+  Amiga Throttle commands:
+        Left Shift Key = increase in left players throttle
+        Left "ALT" key = decrease in left players throttle
+     "." key on keypad = increase in right players throttle
+   Enter key on keypad = decrease in right players throttle
+
+Jet Speed and Performance:
+Two variables control the overall speed and performance of the combat;
+throttle settings and grid size. For the slowest game, choose the 64x64 grid
+with a low thrust setting; for the fastest game, choose the 8x8 grid with
+the highest thrust. You can use a high throttle setting to offset low speeds
+in a grid with many squares, or use a low throttle setting to compensate for
+higher speeds in a grid with few squares. Selection of the paper airplane
+will also increase the overall game speed.
+
+
+A HISTORY OF DOGFIGHTS IN JET COMBAT
+
+The history of the dogfight, head-to-head air combat issuing in the
+destruction of one of the participants, is nearly as long as the history of
+airplanes themselves. Dogfights have been around since WWI; but in fact,
+most strategists of that time felt sure that dogfights would never outlast
+the Great War. Leading military strategists, at almost every stage of air-
+craft development, have felt that the new high speed technologies-whether it
+be the propeller drive of the WWII Spitfire, or the supersonic power of the
+Vietnam era's F4 Phantom jet-would render the dogfight impractical and
+obsolete.
+
+Dogfights, of course, have survived to the present day as one of the most
+perilous, and strategically critical, parts of our national defense. Yet, if
+dogfights are no less hazardous now than they were during the WWI era, that
+is perhaps the only feature which has remained unchanged. A WWI flying ace
+would have closed in on his opponent from the cockpit of a two- or even
+three-winged plane providing maximum lift, since engineers and strategists
+felt that maneuverability, more than speed, was crucial to combat success.
+
+By the 1930's, bitter experience had taught air combat designers that great
+maneuverability was all but useless against a higher speed aircraft that
+could overtake a plane before it had time to execute a defensive maneuver.
+This realization permanently changed the course of air combat design; now
+the premium was on sheer speed and power. The first breakthrough in flight
+speed came with propeller driven planes like the Spitfire, which can be
+credited with the Allied victory in WWII's pivotal Battle of Britain.
+
+The development of jet flight, and later, supersonic speeds seemed to lend
+credence to the idea that dogfights were destined to become a relic of
+"conventional" air combat. After all, how could two jets engage in head-to-
+head combat at velocities faster than the speed of sound? Engineers of the F4
+Phantom, in 1953, were so confident that dogfights were history that they
+left guns out of the design completely, relying on missiles alone instead.
+
+Supersonic speed brought unquestioned technical superiority, but it brought
+a host of new challenges as well. High speed flights subjected pilots to
+dangerous "G" forces, up to 9 times the force of gravity, which caused loss
+of consciousness through oxygen deprivation. Along with immediately physical
+hazards were mental ones; controlling the new, sophisticated jets required
+that additional levels of expertise and attention be lavished on proliferat-
+ing numbers of gauges and dials, diverting pilots dangerously away from the
+combat at hand.
+
+Today, jet fighter pilots must undergo extensive training and study to ensure
+that they remain the masters, and not the victims, of the specialized
+machines they fly. At Top Gun, the U.S. Navy Flight School, and at Red Flag,
+the Flight School of the U.S. Air Force, would-be jet pilots train with jet
+simulation tools much like Sky Chase; in fact, Sky Chase is modeled directly
+on Flight School combat jet training maneuvers.
+
+JET DETAILS
+
+               McDonnell Douglas F-18 Hornet
+
+The Hornet is a lightweight multi-mission aircraft produced in several
+versions: 1) the carrier-based multi-role fighter; 2) the twin seat trainer;
+and 3) the land-based attack fighter. It first flew in 1978. The aircraft
+uses a single 20mm gun, and has a toal of nine external weapons stations,
+allowing a wide range of air-to-air and air-to-ground weapons to be fitted.
+
+  Engine: Twin GE F404-400 augmented turbofans; 16,000 lb thrust each
+  Length: 56 ft
+  Wingspan: 37 ft 6 in (w/out missiles); 40 ft 4.75 in (w/2 missiles)
+  Height: 15 ft 3.5 in
+  Weights: Empty 20,583 lb; loaded (air-air) 33,642 lb; loaded (ground
+           attack) 48,253 lb; max load (catapult limit 50,064 lb)
+  Max Speed: Mach 1.8 (1,190 mph), air-to-air loaded, at altitude
+  Service Ceiling: Over 49,000 ft
+
+               Grumman F-14 Tomcat
+
+A variable geometry (swing wing) two seater carrier-based fighter, the Tomcat
+first flew in 1970. It carries a 20mm gun, and can house four AIM-54 Phoenix,
+AIM-7 Sparrow or AIM-120 Amraam air-to-air missiles on fuselage pallets.
+Additional four air-to-air missiles (including Sidewinders) can be fitted on
+wing pylons.
+
+  Engines: Two 20,900 lb Pratt & Whitney TF3-412A
+  Length: 62 ft 8 in
+  Wingspan: 38 ft 2 in (68 degree sweep); 64 ft 1.5 in (20 degree sweep)
+  Height: 16 ft
+  Weights: Empty 37,500 lb; loaded (air-air) 55,000 lb; max load 72,000 lb
+  Max Speed: Mach 2.34 (1,564 mph) at altitude; Mach 1.2 (910 mph) sea level
+  Service Ceiling: Over 56,000 ft
+
+               McDonnell Douglas F-15A Eagle
+
+The eagle was selected as the US Air Force's response to the MIG 25 in 1969,
+with the first prototype flying in 1972. It was developed almost solely as
+a superiority fighter, although ground attack capabilities were explored
+from the mid-70's. It has a single 20mm gun, and would typically be armed
+with four AIM-7 Sparrow missiles, and has provision for four AIM-9 Sidewinder
+missiles. Other armament includes conventional and smart bombs, stand off
+General Electric Gepod multi-barrel 30 mm cannon and a range of ground
+attack missiles.
+
+  Engines: Twin 23,930 lb Pratt & Whitney F100-100 after burning turbofans
+  Length: 63 ft 9 in
+  Wingspan: 42 ft 9.75 in
+  Height: 18 ft 7.5 in
+  Weights: Empty 28,000 lb; loaded (air-air) 41,500 lb; max load 56,500 lb
+  Max Speed: Mach 2.5 (1,653 mph), over 36,000 ft, AIM-7 armament only
+
+               General Dynamics F-16A Fighting Falcon
+
+The F-16A is a lightweight multi-role combat aircraft designed for both air-
+to-air combat and ground attack. First prototypes flew in 1976. The aircraft
+carries a 20mm gun, and can have a wide range of air-to-ground and air-to-air
+weaponry fitted in stand-off position. In air combat mode it would typically
+be equipped with Sidewinder heat seeking missiles.
+
+  Engine: One 23,830 lb Pratt & Whitney F100-PW-200 augmented turbofan
+  Length: 47 ft 7.7 in
+  Wingspan: 31 ft (w/out missiles); 32 ft 10 in (w/missiles)
+  Height: 16 ft 8.5 in
+  Weights: Empty 15,137 lb; loaded (air-air) 23,357; max load 35,400 lb
+  Max Speed: Mach 2.05 (1,350 mph) at 40,000 ft; Mach 1.2 (915 mph) sea level
+  Service Ceiling: Over 50,000 ft
+
+               Mikoyan/Gurevich MiG 27
+
+The MIG 27 is the ground attack version of the MIG 23 and, like the 23, has
+variable geometry. Basic armament is a 23mm multi-barrel gun, with a mix of
+air-to-air and air-to-ground missiles and conventional bombs carried in
+stand-off positions. First prototypes flew in 1970.
+
+  Engine: One 25,353 ob Tumanksii R-29 series augmented turbofan
+  Length: 53 ft 5 in
+  Wingspan: 46 ft 9 in (16 degree sweep); 26 ft 9.5 in (72 degree sweep)
+  Height: 14 ft 4 in
+  Weights: Empty 22,000 lb; loaded (w/out external weapons) 34,170 lb;
+           max load 44,310 lb
+  Max Speed: Mach 1.6 (1,050) high alt; Mach 1.1 (762 mph) sea level
+  Service Ceiling: 50,000 ft
+
+               Mikoyan/Gurevich MiG-31 'Foxhound-A'
+
+Faced with the requirement for a new long-range interceptor able to detect,
+track and destroy low-visibility B-1 bombers carrying out their attacks at
+low levels, the Soviet Union appears to be developing the fast, heavily
+armed but short-legged MiG-25. Looking at the likely shape of the require-
+ment and the potential of the original design, however, it seems that a much
+altered MiG-25, with more efficient engines, new missiles, an improved radar
+and control system, and with large external fuel tanks for increased range,
+could form the basis for the worlds most powerful interceptor. First flown
+in 1974-75, the Foxhound sports two 32,000 lb thrust turbojet engines that
+allow it to reach speeds in excess of Mach 2.4 and attain a service ceiling
+of 75,000 ft.
+
+  Engine: Two 32,000 lb thrust turbojets
+  Length: 75 ft 8 in
+  Wingspan: 46 ft
+  Max Speed: Maxh 2.4 
+  Service Ceiling: 75,000 ft
+
+               Maxis Paper Airplane
+
+  ****************     
+  *  TOP SECRET  *
+  ****************
+
+AIR COMBAT MANEUVERS
+
+The maneuvers which follow are those which are actually employed by fighter
+pilots in combat situations. To perfect your technique, you may wish to
+practice these maneuvers initially at low speeds.
+
+Break:
+Aircraft A, under attack from the rear, turns hard, forcing aircraft B to
+overshoot. Aircraft A is then able to turn back onto the tail of aircraft B.
+The success of the break is dependent on the relative turn rates of the two
+aircraft, as a high turn rate aircraft like the F16 or F18 could successfully
+break from a MiG 27, but the latter would have difficulty returning the break
+maneuver.
+
+Scissors:
+The scissors is basically a series of breaks, each aircraft in turn forcing
+an overshoot by its enemy. It can continue until one or the other aircraft
+initiates an alternative maneuver.
+
+High G Yo-Yo:
+Reacting to a break maneuver by aircraft A, aircraft B executes a shallower
+turn than A, but at the same time climbs. The combination of the shallower
+turn and climb is intended to leave B on A's tail after A executes a sharper
+turn. Our MiG 27 facing an F16 would do well to consider this option.
+
+Low G Yo-Yo:
+A poorer performance aircraft can use this diving alternative of the High G
+Yo-Yo. As A turns sharp B executes a shallower turn and dives, bringing its
+nose up behind A's tail.
+
+Flip Yo-Yo:
+This time B rolls as it enters the low G Yo-Yo dive. This means it pulls
+fewer negative G's, and allows it to pick up speed faster as it comes back
+into a climb. If A pulls up sharp it is however possible for B to overshoot
+because of excessive speed buildup.
+
+Lag Pursuit:
+As A attempts a Break, B positions itself behind and below its target, turn-
+ing at the same rate, and keeping speed down by moving into a slight climb
+every now and then.
+
+Split S:
+Attacker B has moved in too close to A during a Break. A rolls over and pulls
+into a dive before B can respond. Rolling first means that the G's pulled are
+positive, allowing A to accelerate better. Note that this maneuver, success-
+fully executed, allows combat to be broken off.
+
+Head On:
+First class gunnery wins in this confrontation, but if neither hits as the
+aircraft close, the "winner" of the maneuver is the aircraft with the tight-
+est turning circle.
+
+Vertical Loop:
+By pulling up into a loop you can return the aircraft to the same flight
+path, behind a pursuer, provided the pursuer does not react at all. More
+typically it can be used to confuse the opponent prior to executing a
+second manuever.
+
+Immelmann:
+The classic Immelmann is a combination half loop and roll, leaving the
+aircraft flying in the opposite direction from the one it started in, and
+at a higher altitude. In its tightest execution it is commenced by a vertical
+climb and simultaneous rool, followed by a roll back onto the level at the
+top of the climb. Less powerful aircraft will have to execute it in easier
+stages.
+
+Dive Loop:
+As the aircraft is put into a dive it executes a half roll, pulling positive
+G's and allowing a tighter turn; then it pulls onto the level at the bottom
+of the dive. It is related to the Immelmann, but performed "in reverse".
+
+AMIGA SYSTEM CARD (Reference Card)
+
+At least one joystick is required. 2 joysticks are required to use the 2
+player option.
+
+Left player - Joystick port #2
+Right Player- Joystick port #1
+
+The mouse is not used in Sky Chase
+
+Throttle Key Commands:
+
+       Left Shift Key = increase left players throttle
+       Left "ALT" Key = decrease left players throttle
+    "." key on keypad = increase right players throttle
+  ENTER key on keypad = decrease right players throttle
+
+Complete docs to Sky Chase provided by MERKWooD of MAAD!

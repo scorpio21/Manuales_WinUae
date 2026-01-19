@@ -1,0 +1,3210 @@
+------------------------------------------------------------------------------
+ 0
+                                   FATE
+                               Gates of Dawn
+
+                                  Manual
+
+------------------------------------------------------------------------------
+ 1
+                               INSTRUCTIONS
+
+------------------------------------------------------------------------------
+ 2
+
+                                TABLE OF CONTENTS
+
+                             Loading instructions    4
+                                            Amiga    4
+                                         Atari ST    4
+                              IBM and compatibles    5
+                           Other Computer Systems    6
+                             FATE - GATES OF DAWN    7
+                                        THE STORY    9
+                                       ATTRIBUTES   23
+                                 Character Values   23
+                                Magical Abilities   26
+                                   Battle Classes   26
+                                        THE RACES   28
+                                THE WORLD OF FATE   33
+                           In Cities and Villages   34
+                                         Dungeons   37
+                                        ENCOUNTER   39
+                                        Disengage   39
+                                           Action   41
+                                          Forward   41
+                                             Talk   41
+                                            Fight   44
+
+------------------------------------------------------------------------------
+ 3
+
+                                        MAIN MENU   51
+                                 THE MAGIC SYSTEM   54
+                               ARMAMENT AND ITEMS   55
+                                    SCREEN LAYOUT   57
+                   GENERAL OPERATING INSTRUCTIONS   60
+                                 Movement on Land   60
+                                    Ship Controls   61
+                           Invoking the Main Menu   61
+                Additional Operating Instructions   62
+                      THE FEATURES UNIQUE TO FATE   63
+                                  Party-Switching   63
+                                        Storyline   64
+                            Reality Approximation   64
+                                        Surprises   65
+                                    A QUICK START   66
+                                   How to Proceed   66
+                                     General Tips   67
+                                MEMORY MANAGEMENT   68
+
+                                       APPENDICES    1a
+                             The Development Team    2a
+                                         Contents    3a
+                                  Spells Overview    4a
+                                  Magician Spells    6a
+                                  Conjurer Spells    7a
+                                  Sorcerer Spells    8a
+                                    Wizard Spells    9a
+                                  Archmage Spells   10a
+                                     Fairy Spells   11a
+                                     Witch Spells   12a
+                                 Enchanter Spells   13a
+                                  Valkyrie Spells   14a
+                                    Cleric Spells   15a
+                                    Priest Spells   16a
+                                     Angel Spells   17a
+                                   Warlock Spells   18a
+                                     Nymph Spells   19a
+                                     Druid Spells   20a
+                                 Alchemist Spells   21a
+                                      Monk Spells   22a
+                                   Banshee Spells   23a
+                                Elementary Spells   24a
+                                    Master Spells   25a
+                                    Magic Potions   26a
+                                    Item Overview   29a
+                                            Index   31a
+
+------------------------------------------------------------------------------
+ 4
+
+Loading Instructions
+
+The game can be played either from a floppy or hard disk on any computer
+system. To avoid any danger from viruses it is recommended that you turn the
+computer off and on again before starting the game.
+ALWAYS make sure that your original disk is write protected!
+The program saves data only to a separate data disk, the original disk must
+therefore always be write protected.
+
+AMIGA
+
+As soon as the hand prompting you to insert the workbench disk appears
+insert the "FATE - Gates of Dawn 1" disk in the internal drive. The game
+will then automatically load and start. If you wish to install the game on
+your hard disk, first load the workbench as usual. Once it's loaded insert
+the "FATE - Gate of Dawn 1" disk in any drive. Click on the disk icon twice.
+A window will appear containing the program FATE INSTALL. Double click
+this icon. All further instructions will then be provided by the program
+itself.
+
+ATARI ST COLOR
+
+Insert the "FATE - Gates of Dawn 1" disk in the internal disk drive and
+press the reset button. The program will load and start automatically.
+If you wish to install the program on your hard disk, insert the "FATE -
+Gates of Dawn" disk from the Desktop. Click on the icon for drive A twice. A
+window will appear containing the
+
+------------------------------------------------------------------------------
+ 5
+
+program INSTALL. Doubleclick this icon. All further instructions will then
+be provided by the program itself.
+
+IBM PC AND COMPATIBLES
+
+The program must be run from the DOS command level interface. Insert the
+"FATE - Gates of Dawn 1" disk in drive A. Switch to this drive by typing A:
+and then type in "FATE". This can be done only if the program hasn't already
+been installed. You can install it on a formatted floppy disk (3.5", 5.25",
+DD, HD etc.) or on your hard disk.
+The following expansion cards are supported by the program:
+
+ e     EGA graphic card
+ v     VGA graphic card
+ t     TGA graphic card (Tandy)
+ a     Adlib sound card, Soundblaster sound card and compatibles
+ s     Tandy sound
+ m     Microsoft compatible mouse cards and drivers
+ j     analog joystick cards
+
+The program normally recognizes any installed expansion cards and uses them
+to the best of its ability. However, if something is still not quite right
+you can use the letters shown above to activate a particular piece of
+hardware (e.g. "e" for an EGA card). Example:
+You have a computer with a VGA card, adlib sound card and
+
+------------------------------------------------------------------------------
+ 6
+
+a mouse. For this configuration you would then use the following to run the
+program: "FATE v a m".
+Do note that the sound and mouse drivers must be activated before running
+the program.
+
+OTHER COMPUTER SYSTEMS
+
+The complete loading and installation instructions can be found on the label
+of the "FATE - Gates of Dawn 1" disk or on a separate instruction leaflet.
+
+------------------------------------------------------------------------------
+ 7
+
+Fate - Gates of Dawn
+
+Role playing games are currently very popular. Computer users like games
+which are not only exiting and imaginative but also challenging and real.
+The delectable mix of atmosphere, storyline, battles and presentation makes
+such a game a classic which continues to fascinate and is fill of spirit
+years after it is first published.
+However, popular role playing games are often only improvements and
+modifications which result in a game which is fun but contains no new ideas.
+I've missed these innovations in many of the "new" role playing games. So,
+the development of FATE - Gates of Dawn begun already in 1986. And here too,
+the classic programs were the spiritual forefathers, but the usage and
+complexity of common functions were improved and many new ideas not found in
+any other role playing games were released.
+First of all, the game is controlled by the computer in a systematic fashion.
+The player obtains important information during game play only by engaging
+the inhabitants and Mages in a conversation. In time, he encounters numerous
+puzzles which must be solved. FATE - Gates of Dawn does not employ the often
+abused question and answer trick - each puzzle must be solved step by step
+before a new adventure can begin. Since not only the graphics but also the
+program data need an immense amount of memory this sometimes caused
+problems in making the program run on computers without requiring additional
+memory. Because of this, especially during lower levels, additional data must
+be loaded but this loading is kept
+
+------------------------------------------------------------------------------
+ 8
+
+to a minimum by using an improved loading procedure. The total memory is
+available at all times without any of it being lost to the operating system.
+If you have a computer with a large amount of RAM, the complete game is
+loaded at the very start and no additional loading takes place after that.
+But enough about that - you are now invited to enter the fantastic world of
+FATE - Gates of Dawn and meet interesting people, mysterious creatures and
+encounter magical powers.
+
+                                                O. Patzenhauer
+
+------------------------------------------------------------------------------
+ 9
+
+The Story
+
+Winwood, the main character in FATE - Gates of Dawn, is a man in the best
+years of his life and a proud owner of a small record shop on fifth street.
+His business can not exactly be described as a gold mine, so since Winwood
+can certainly use each cent he makes, he keeps his store open for as long as
+possible. However, one afternoon he felt particularly weak and tired. Barely
+able to keep his eyes open, he closed his store, laid down on his old sofa
+and wandered off into the dream land. As soon as he fell asleep, Winwood was
+drawn into a world of dark nightmares. Lightning and thunder went off around
+him, images flashed before his eyes only to disappear again just as fast.
+Suddenly, he was engulfed by a gaping emptiness. Slowly, he began drifting
+towards an old, peculiarly dressed man. An underground vault started
+materializing around him, and as Winwood approached he made out a weird
+drawing above the old man. Sweat dripped from the forehead of the ancient
+one as he performed magic gestures with his hands. He whispered strange words
+- and, all of a sudden, the drawing started to glow in a dark red color. It
+gloved ever brighter, with sparks flashes disappearing into the darkness. A
+blurred image of a man wandering helplessly
+
+------------------------------------------------------------------------------
+ 10
+
+through the nothingness appeared from the drawing. Winwood shuddered - this
+helpless man was himself!
+The old man uttered another magic word and disappeared in front of Winwood's
+eyes together with the underground vault. Once more Winwood was engulfed by
+darkness. Minutes became hours. Slowly, a paralysing cold started creeping
+all over his body. He could not feel his arms and legs anymore. The coldness
+reached his head. Winwood drifted into a deep, dreamless sleep.
+As he awoke he found himself, to his amazement, not on his sofa but in a
+sparsely furnished room. The wooden bed on which he lay was covered with a
+dirty sheet. Against one wall of the room was a richly decorated wardrobe,
+which looked like an expensive antique, yet it did not appear to be that
+old. On the other side of the room he saw a simple wooden chest, with a few
+pieces of clothing strewn over it.The clothes looked as if they were from
+some movie about middle ages. Since Winwood awoke in an old dirty nightshirt
+he had no choice but to put these clothes on. He had to draw in his stomach
+while putting on the trousers but the clothes seem to fit him perfectly.
+Winwood - not exactly prone to brooding - began immediately exploring the
+room more closely. It was a were dirty room which on top of everything seem
+to be flee infested (a few itchy spots on his body led him to this
+conclusion). His imaginative mind accounted very quickly for the
+circumstances of his peculiar surroundings. The notion that the room in
+which he stood was not only very far away from his record shop but
+
+------------------------------------------------------------------------------
+ 11
+
+was only apparently in the 16th century didn't come as a great surprise to
+him.
+As Winwood left the room and went down the corridor he arrived in the bar of
+an inn. He stood at the top of a protruding rustic staircase from which he
+was able to see every nook and cranny in the smoky bar. Winwood glanced at
+the scene below which resembled something from a cloak-and-dagger movie. The
+adventurous guests loafed around a rough table drinking heavily. Winwood,
+who in his new robe found a few coins - so-called Piasters - thought it would
+be the best to mingle among the people and try to find out where he was. He
+soon noticed a table which, as it seemed to him, wasn't filled with
+cutthroats alone so he joined the group. At first he only listened, but then
+carefully joined the conversation, and after a tasty round of beer Winwood
+knew approximately were he was. Indeed, he woke up in the same area where
+his record shop used to be. And the year was not sixteen-hundred-something
+as he suspected but 1932. The only problem was that the world that he found
+himself in was not the Earth he knew. Furthermore, this was a place very
+similar to his Earth but it's history technical development seem to have
+taken a very different turn. Even though this was 1932 cars and similar
+machines were nowhere to be seem. The electricity was not yet discovered and
+the alchemists and the Mages were all the rage since magic worked very well
+in this world. And just like chemistry, physics and mathematics use
+formulas and theorems, in that other world everything was done with magic.
+For example, the guild of Mages at the court of sultan
+
+------------------------------------------------------------------------------
+ 12
+
+Suleiman, who reigned over the Ottoman empire 300 years ago, rendered
+outstanding services to the science of magic. For it was they who discovered
+and recorded the basic laws of magic. This magic enabled Suleiman to first
+lay siege to and then take Vienna. In Winwood's world this conquest failed.
+But here Suleiman managed to hold on to the conquered city and his wise
+government made the Ottoman empire blossom in previously undreamt of way.
+The inhabitants of this other world were also different from the people on
+Earth. In addition to Humans it contained many other intelligent and
+civilized races that by and large lived in harmony with each other.
+Winwood thought that for now he learned enough, so he paid his bill and
+left the bar...
+
+He was only a couple of hundred of yards away when he saw a group of
+horsemen approaching in the distance. Somehow he had a bad feeling that it
+would be a good idea to hide from the horsemen so he jumped sideways into
+the bush and kept quiet. The horsemen galloped by and a short while
+afterwards he heard shots from the direction of the inn. A little later a
+thick, oily smoke cloud appeared above the hill and obscured the view of
+the inn. After making sure that the horsemen have gone Winwood ventured back
+to the inn.
+
+------------------------------------------------------------------------------
+ 13
+
+The horsemen committed a terrible bloodbath and slaughtered all guests -even
+those he just spoke with. He then heard a moan. A man was alive but badly
+hurt. The dying man told him that the horsemen were the bodyguards of a Mage
+called Thardan. They looked for someone they described as a "traveller
+between worlds". And as he uttered those last words the man died.
+A number of theories came to Winwood. If Thardan was old man he saw in his
+dream cowering over the magical drawing and, with hindsight, who abducted
+him from his own world, what was he up to? Winwood just had to find answers
+to these questions if he wanted to return to his own world. And he was very
+sure he wanted to return.
+Meanwhile, Winwood thought it would be wise to hide in the bushes, since he
+had no idea if the horsemen, after facing Thardan, were to return and look
+for him once more. So. out of branches and leaves Winwood built himself a
+hideout in a nearby oak tree. From there he could keep an eye on the inn
+without being observed. In his hiding place Winwood thought some more about
+strange circumstances which put him there. It appeared that there was at
+least one reason as to why he was here. It was something to do with this
+Thardan. The traveller between worlds must have been Winwood himself,
+although he did not come to this world willingly. Could it be that
+Thardan brought him here by using the magic powers he already demonstrated?
+If this was the case what did Thardan hope to achieve by Winwood's presence
+in this world?
+And while these thoughts were going through his head, the
+
+------------------------------------------------------------------------------
+ 14
+
+afternoon turned into evening and first signs of dusk appeared on the
+horizon. Even though Winwood's hideout was not very comfortable he fell
+asleep. When he woke up he could not tell how long was he asleep, nor could
+he say what was the reason for the scream that startled him and woke him
+up. By weak moonlight he thought he saw pale shapes crawling around among
+the ruins of the inn. Sniffing noises like those of a horde of rummaging
+animals reverberated through the darkness. The sniffing was accompanied by
+smacking and cracking finally climaxing in a shrill, triumphant cry. A cry
+seem to reflect the primeval terror of animal rage. A chill run down
+Winwood's back and he sure hoped that this screaming creature could not
+climb. The smacking, cracking and sniffing continued throughout the rest of
+the night and ended only with the first signs of dawn. But even in full
+daylight Winwood did not dare to leave his tree. Whatever happened in the
+ruins last night could still be going on in the surrounding area and he had
+no wish to face such a being. Out of his tree Winwood could also see the
+street leading to the inn and while the middle of this street was still
+enveloped in the last remnants of the early morning fog, a man rode into the
+ruins. Winwood was still suspicious that this horseman too could be in the
+service of Thardan but, nevertheless, his appearance exuded confidence.
+The horseman reacted the blackened ruins and disappeared among them. A short
+while later he reappeared, mounted his horse and was about to ride on.
+Winwood could not stand it any longer so he got out of his hideout as fast
+as he could and then climbed down the rugged
+
+------------------------------------------------------------------------------
+ 15
+
+branches of the oak tree. He ran towards the horseman with both arms waving.
+As he ran he caught a glance of the insides of the ruins.
+The image he got from this short glance will haunt him in his nightmares for
+a long time to come. The massacre performed by Thardan's henchmen was an
+invitation to something or someone. No corpse was left on the same spot
+where it was the day before. In the middle of the ruin was a mountain of
+bones, whose greasy surfaces reflected the morning sun and shimmered in a
+few red and moist places. The base of this heap of bones was a ring of
+skulls whose tops were shattered. Winwood shuddered and then ran on waving
+and shouting after the horseman who finally noticed him. He stopped his
+horse and turned half way around in his saddle. To his amazement, Winwood
+noticed that the man did not for the ominous rapier dangling from his hip.
+A bit out of breath Winwood about ten yards in front of the horseman,
+looked straight into his eyes and introduced himself. The man on the horse
+wasn't exactly in the prime of his life. The broad-brimmed dark-grey felt
+hat, decorated with a large white feather, was on a head of thick gray hair
+which extended down to his shoulders like a white loin's mane. The left eye
+was covered with a black eye patch. The stranger wore a brown cape under
+which Winwood saw a black leather suit with many small pockets.
+After Winwood told the horseman about the bloody attack on the inn, leaving
+out the amazing circumstances of how himself got there, the man run his
+gloved right hand through
+
+------------------------------------------------------------------------------
+ 16
+
+the big, gray, thick beard and nodded. Without a word the gray-haired one
+signaled Winwood to follow him, turned his horse and started riding slowly.
+Even when a little later they got of the road and on to a winding path
+fighting the undergrowth, Winwood did not utter a word.
+
+After a long stretch of road through the thick forest they arrived in a
+large valley which suddenly appeared in front of them. The valley was about
+three miles wide and had an almost perfect circular shape. The middle of the
+valley contained a forest which even from this distance looked very thick
+and dark. A steep rock shot out of this forest. Its eastern side was covered
+with lush woody plants almost all the way to the top. All of the other sides
+were a steep and smooth rock face. The top of this cliff, flat and wooded,
+did not rise above the forest or the rock face surrounding the valley.
+You could only find this place from air or if you knew the way. If you
+wanted a place to hide this was it.
+
+The climb down into the valley proved to be real hard, but in spite of the
+precipitous path the grey-haired-one did not get of his horse who seem to
+instinctively find each step. They travelled across the valley and reached
+the forest. As they approached, the rock in the middle of the ground started
+to ascend steadily. The old man beat a barely visible path in the easterly
+direction through the thick, ancient forest. The way lead to the east side
+of the rock. Ever more frequently the layer of soil thinned out exposing
+the white limestone underneath.
+
+------------------------------------------------------------------------------
+ 17
+
+The higher they climbed the smaller the tree tops were, and the last
+stretch to the rock plateau was over a small, steep and growth-free ridge.
+The plateau was not very big and not perfectly flat but this was hidden by
+the thick tree growth in its middle. The gray-haired-one lead Winwood
+straight to the thick forest which thinned out a little after only a few
+steps. Winwood could see that in the very middle of the plateau, hidden by
+the trees, was an old, fortified tower.
+It was obvious that the old man lived here. Indeed, he got of his horse and
+walked it to a stone stable up against the tower wall. he tied his horse to
+the stable wall, took his hat off, glanced at the outside of the tower and
+called out several times to someone named Jordrak. Another gray-haired man
+appeared. But even though the horseman was obviously older, he made an
+impression of being alert and strong while Jordrak walked with a stoop.
+He greeted both Winwood and the horseman in a friendly manner, walked by the
+grey-haired-one, loosened the rope with which the horse was tied to the moss
+covered stone wall and lead it into the stable. The grey-haired-one waved to
+Winwood to follow him and entered the tower
+
+------------------------------------------------------------------------------
+ 18
+
+through a small but portal.
+The inside was heated and lit up by a fire from a large stone fireplace.
+In the middle of the room, whose floor was made out of rough floor boards,
+was a big table. Around the table were wooden benches. The rest of the room
+was in the shade and Winwood, by and large, could not make out the items
+hanging on the walls. The most he could see was that right next to the
+fireplace was a stone staircase going along the tower wall up to the
+ceiling. The gray-haired-one indicated to Winwood, still without speaking,
+to sit down and then got a large round metal bowl out of one of the
+numerous cupboards. He filled it with soup from the boiling kettle above the
+fireplace and placed the ball together with a large piece of bread in front
+of Winwood. He then sat down at the table across from him and said: "My
+name is Naristos". And after a short pause: "And what shall i call you the
+traveller between worlds?" Winwood, who noticed how hungry he was only after
+seeing the hot, delicious smelling soup, almost choked then he heard these
+words. When he recovered he looked up at Naristos wide eyed and asked:
+"What do you know about it?" "More than i would like to. Today as i rode by
+the inn, or what was left of it, i was looking for you." "In that case you
+must have certainly heard of one Thardan?" As soon as this name was
+mentioned the expression on Naristo's face darkened. "If there is anyone in
+this world who can get you it's Thardan." "But why?", asked Winwood.
+"I believe it's time you learn more about certain strange
+
+------------------------------------------------------------------------------
+ 19
+
+events. You will surely think that a lot of what i am about to explain is
+nonsense, but i beg of you to suspend your disbelief and hear me out to the
+very end." "Well replied Winwood, "I have been transferred from an afternoon
+nap into a strange world, and that expanded my horizons tremendously."
+A bit bewildered by this spontaneous exchange with Winwood the gray-haired-
+one shook his head. But since Winwood did not say anything else, he run his
+hand through his beard and started to speak.
+"As you the traveller between two worlds can establish by yourself, there is
+more than one world which the people who live on it call Earth. All of these
+worlds exist side by side, in a way incomprehensible to us, some of them
+even in one and the same place, without approaching or interfering with each
+other. It's even impossible to see one world, for example your Earth, from
+the other. Even if one is to build a telescope which could see throughout
+the whole universe the search would be fruitless. And yet there are gates
+through which these other worlds can be reached. But one should not view
+these gates as simple doors which can be opened by anyone. Just as each
+single world is different from all other worlds, the methods for opening
+these world gates are different from world to world. There are worlds where
+the time flows slower than it does here, in others the history recorded the
+strangest of developments. But in some odd way all of these worlds are
+somehow related to each other. What is a fairytale, saga or legend here is
+history somewhere else. And many of our past heroes and
+
+------------------------------------------------------------------------------
+ 20
+
+demons are fairytales in other worlds. Each traveller who enters a new world
+brings along many things from his old home - not things which can be felt or
+seen but which are nevertheless real. He took a deep breath and continued.
+"People of all times used all means available to them to solve the riddles
+of the gates, the worlds and the traveller between worlds. The people from
+other Earths have been to this world several times already, but did not jump
+out of a tree dressed in rags like you did. They came in floating spheres
+shining as if they were lit up by a thousand of candles. They made notes,
+observed, recorded and then disappeared. Nobody was ever hurt or damaged by
+them in any way. But what happened to you could not have been their doing.
+That was the work of a resident of this world. Perhaps, the person who
+brought you here wants to use whatever you brought with you from your own
+world. This someone surely wanted to put you in chains as soon as he got you
+here. But it seems that fortunately something went wrong."
+It appeared that the old man finished his story because he folded his hands
+on the table and stared at Winwood. Winwood said: "Well, all this doesn't
+sound that implausible. Only, I don't quite understand the bit this
+invisible something that the traveller is supposed to carry with him between
+worlds?"
+"Well, in our world there are simple ghosts, trolls, fairies and many other
+things and beings which in your world exists only as legends and fairytales.
+The magic makes it possible to use all of these beings and powers to one's
+own advantage. For example,
+
+------------------------------------------------------------------------------
+ 21
+
+there is a railway in these here parts which is not powered by a steam
+engine. The locomotive contains a simple ghost whose power makes it move. If
+you were to attempt to build a locomotive you are familiar with and which is
+powered by a steam engine, it would not move an inch here. The water would
+become hot and turn into steam, but the steam would not built up any
+pressure. In the same way you can mix some gun powder in this world but even
+though it would hiss and explode you would not be able to shoot with it.
+Thardan can build many things with whatever it is you brought with you from
+your own world but it will never work here.
+"Who is this Thardan anyway?" asked Winwood somewhat uneasily.
+The expression on the old man's face darkened again as he considered
+Winwood's question. "That's a very difficult question you are asking me.
+Nobody has so far met this Mage face to face, at least nobody that's still
+alive. Yet, in a strange way, all residents of our world always feel his
+presence. He commands an unbelievable magical power with which he keeps all
+beings under his permanent control. And any creatures that dare to revolt
+against him regretted it bitterly. He never appears in person, but commands
+an enormous and inexhaustible army of henchmen which he created using his
+magical abilities."
+With a long look at Winwood, who still felt uneasy, he continued. "As you
+can see, you are in great danger. Sooner or later Thardan will find out
+where you are. And if he were to capture you here, that would have terrible
+consequences for both you and us."
+
+------------------------------------------------------------------------------
+ 22
+
+Winwood overcame the strong urge to hide somewhere and wait for this
+horrible nightmare to end. He pulled himself together and turned again to
+Naristos. "But what can I do to return back to my own world?"
+"Well, I don't believe there is a simple way back", replied Naristos in a
+sympathetic voice, "I'm sorry to say, but you have become a part of our
+world. And the only who can reverse this is Thardan. But I doubt he'll help,
+at least not willingly. The only thing left for you is to make the problems
+in our world your own. Perhaps with your help we'll finally manage to find a
+way to end Thardan's tyranny."
+"But what can I do", replied Winwood doubtfully, "I am a normal man who
+finds himself in a desperate situation. How can I assist you against such a
+superior Mage?"
+"Don't forget the secret power you bring with you into our world", retorted
+the old man cheerfully, "If Thardan went out of his way so much to obtain
+this power, maybe it can also help you to do something to him."
+"But it's time for you to leave", continued the old man. "You should not
+stay too long in one place. Don't forget that Thardan will do everything he
+can to capture you. His henchmen are everywhere and if you are not careful
+you'll meet them."
+"Go to Larvin first and make yourself scarce. Try to find a few companions
+since alone you will not get far. Good luck, Winwood!"
+With these words the old man said his goodbyes and left the room. Winwood
+looked around once more, then opened the
+
+------------------------------------------------------------------------------
+ 23
+
+Attributes
+
+Each character has a whole range of different attributes which are very
+important for their actions. They are character values, magical abilities
+and battle classes.
+
+CHARACTER VALUES
+
+Hitpoints
+
+The hitpoints are the most important strength of a character. They determine
+their vigour. Each time a character is wounded it looses a few hitpoints.
+When they reach zero the character dies.
+
+Magepoints
+
+The Magepoints determine how many spells a Mage can cast before having a
+rest. Each spell uses a certain amount of Magepoints. When all are used up
+the Mage is no longer able to cast spells.
+
+Strength
+
+This is demonstrated most clearly in battle and it determines, together with
+the weapon, what damage a blow can cause to an opponent. But it's also very
+important in special cases, for example when an obstacle is to be
+overcomed. In addition, it determines how much a character can carry.
+
+Stamina
+
+The stamina is the ability to resist. It determines how quickly the
+hitpoints of a character can regenerate, how he reacts to
+
+------------------------------------------------------------------------------
+ 24
+
+illness or poisoning and how quickly will he get tired if under strain.
+
+Skill
+
+This value determines the offensive capabilities of a character. The weapon
+proficiency, aim and the ability to take the opponent by surprise with
+clever tricks all belong to skill.
+
+Dexterity
+
+This value encompasses the defensive abilities. It determines the agility
+with which the character can evade the attacks of an opponent and how fast
+can he withdraw from battle. Both dexterity values also influence how
+quickly can a character get ready in a battle round.
+
+Intelligence
+
+The intelligence influences all actions of a character and is central to it.
+It's particularly important for Mages since the effectiveness of the spells
+depends on it.
+
+Wisdom
+
+This encompasses the attributes such as concentration, talking skills,
+ability to withstand mental stress, cunning and alertness. Wisdom too is of
+central importance to the way a character behaves; in particular it
+determines how quickly the Magepoints of a Mage are regenerated.
+
+------------------------------------------------------------------------------
+ 25
+
+Charisma
+
+This describes the personal charisma of a character, that is to say the
+impression he makes on his fellow men. This gift decides whether someone is
+sympathetic person or an unpleasant, unfriendly companion. The charisma is
+particularly important for communication and recruiting.
+
+Experience
+
+The experience points determine what a character achieved while belonging to
+a party. Each person gets a certain number of experience points for each
+successful action. When a specific value is reached the player is promoted
+to next level. Together with this promotion he gets particular number of
+Hit- and Magepoints as well as the permission to improve his abilities and
+learn new spells.
+
+------------------------------------------------------------------------------
+ 26
+
+MAGICAL ABILITIES
+
+Each character is surrounded by a number of invisible magical spheres which
+protect and aid him in his actions.
+
+Anti-magic sphere protects the character against opponent's spells.
+Anti-shot sphere blocks arrows and thrown weapons.
+Anti-fire sphere protects against burns of all types.
+Anti-infection sphere prevents illness.
+Sphere of magical powers strengthens the spells of a Mage.
+Invulnerability sphere protects against injuries and limits the damage.
+Anti-critical sphere can protect the character so that his weak points are
+ not hit.
+Anti-charisma sphere protects the person against the enchantments.
+Magic Eye prevents the character from falling into traps.
+Anti-poison sphere protects against poisoning.
+
+BATTLE CLASSES
+
+The fighting power of a character is composed of many values: character
+value, magic spheres, weapons, the effectiveness of spells and magic
+potions and many other values. To give the player a good overview of all
+these values they are combined in 4 battle classes which are permanently
+shown in the status display.
+
+------------------------------------------------------------------------------
+ 27
+
+The Weapon Class (WC)
+
+WC describes the effectiveness of weapons belonging to a character. It's
+mainly composed of weapon and character values.
+
+The Armor Class (AC)
+
+This is determined from the values for the armaments (suit of armor, the
+helmet, gloves and shoes) and character stamina.
+
+The Skill Class (SC)
+
+SC is basically calculated from the armament values and skill.
+
+The Dexterity Class (DC)
+
+It shows the defensive strength which is obtained from the values for armor
+and dexterity.
+
+All classes include the active magic (spells and potions) and the character
+level. In addition, certain races and character classes get particular bonus
+which is added in during battle class calculation.
+To score a hit in battle the character must first overcome the opponent's DC
+with his SC or he will miss. Second, he must surpass the opponent's AC with
+his WC. Only when both of these conditions are met the opponent is hurt.
+When the opponent attacks he tries to achieve the opposite.
+There is a number of other values which influence the actions of a character
+such as his bravery and loyalty. However, these values are not displayed;
+they are only demonstrated in actions a character remarks.
+
+------------------------------------------------------------------------------
+ 28
+
+The Races
+
+In the beginning the development of the human race on the parallel Earth
+occurred exactly the same as on our world. However, once the magic was
+discovered the changes were very sudden.
+Since there was a big dependence, on slaves the ancient Mages attempted at a
+very early stage to change the genetic makeup of many people. They wanted to
+create a race of ideal work slaves. These were to be as strong as possible,
+so they could perform the hardest of chores, but not be very intelligent so
+as not to realize that their situation really is.
+So the Mages experimented and experimented. However, most of their creatures
+were not able to survive and died very quickly. But there were a few
+successes too. The most peculiar beings were created in this way. But the
+Mages did not stop with humanoid beings, they also formed all of the animals
+according to their own wishes.
+However, all those manipulations upset the balance of nature and strong laws
+were promptly created to ban the experiments. But the interventions could
+not be reserved anymore. Numerous new races of humans and species of animals
+were already in existence, many of them possessing many abilities which until
+then were totally unknown.
+A list of most important human races which dominate the world of FATE
+follows next.
+
+------------------------------------------------------------------------------
+ 29
+
+Humans
+
+These are the humans which were spared from the experiments and have not
+mixed with other races. Humans can be found in all available professions in
+this world. They don't possess any special abilities but they don't have any
+great disadvantages either.
+
+Zaraks
+
+The Zaraks emerges from the original slave race. They are mostly quite
+large, strong and of low intelligence. They are persistent warriors and
+workers, and can be influenced easily. Only a few Zaraks are able to go to
+school. Most of them refuse to indulge in magic because they trust their
+strength. Since, in most cases, Zaraks are not very good company, are
+unfriendly and unpredictable most races get out of their way.
+
+Bes Zaraks
+
+The Bes Zaraks are half-breeds between Humans and Zaraks. In the beginning
+they were outcasts, accepted neither by Humans nor Zaraks. But in time they
+created their own race with their own culture. Judging by appearance they can
+barely be distinguished from Zaraks. However, they are more intelligent. Bes
+Zaraks are ideal warriors willing to be hired by anyone.
+
+Giants
+
+Giants were created, like the Zaraks, to be a slave race. They are enormous
+in stature and very heavy. They are ideal workers
+
+------------------------------------------------------------------------------
+ 30
+
+since they have immense body strength. Giants are often slow and stout
+so they are in most cases not suitable as warriors. In contrast to Zaraks
+they are really friendly and good-natured and can be seen everywhere.
+
+Morons
+
+The Morons are the result of an experiment to create a mental super race.
+Morons spend all of their lives trying to improve themselves. They refuse
+all physical labor without exception. They are mostly delicate and tend to be
+fragile. But you should not be fooled by their appearance. Due to their
+outstanding intelligence almost all of them posses magical powers. Morons
+are a highly ethical race and refuse to use weapons.
+
+Ter Morons
+
+Like Bes Zaraks before them Ter Morons are also a half-breed this time
+between Humans and Morons. They also created their own culture and distance
+themselves from their originating races. In their appearance they resemble
+Humans but their mental abilities resemble the Morons. They are able to
+defend themselves and are sometimes warriors.
+
+Pheyds
+
+The Pheyds emerged from the Morons. They are a highly spiritual race which
+consider their own bodies only as a hindrance. They strive a complete
+division between the body and the soul. Pheyds are all Mastermages who use
+their powers only
+
+------------------------------------------------------------------------------
+ 31
+
+for good. They roam the world and help those who are in need of their help.
+They are mostly encountered in the shape of Fairies and Druids.
+
+Dwarfs and Gnomes
+
+These races are a result of failed experiments. They often have weird shapes
+and peculiar abilities. They are very hard to describe or figure out. Most
+of them are constantly furious and see as their only goal in life is to
+anger or harm others. What's worse they command strong magical powers and
+use whenever they can. If you have them as comrades in arms they can be very
+useful. Otherwise, you should keep out of their way.
+
+Errins
+
+The race of demon ridden Errins was created with black magic. On the outside
+they appear like Humans but looking into their eyes sends a chill down one's
+back. They are excellent warriors, master of war spells and have very fast
+reflexes. In this they are clearly superior to all other races. They are
+totally unable to relate to other people since every normal person feels
+very uncomfortable in their presence. Errins are therefore loners who roam
+around at night looking for victims. But if you have an Errin as a comrade
+in arms he is valuable.
+
+Laurins
+
+Laurins are also creatures of black magic. With them one never knows if they
+are real or imaginary. Laurins can change their appearance at will and they
+use this to deceive. Sometimes they
+
+------------------------------------------------------------------------------
+ 32
+
+are simply invisible. Laurins can have any profession and in most cases
+cannot be recognized as Laurins since they always try to hide it. Laurins
+are, like Errins, perfect warriors since they can deceive the opponents at
+will.
+
+Mutants
+
+Mutants are not a race as such, they are a hotchpotch of all beings that
+don't belong anywhere else. They have most peculiar abilities and the
+strangest of shapes. Most of them are not very intelligent and often very
+ugly. They don't usually have any profession and they are only rarely versed
+in the art of magic.
+
+------------------------------------------------------------------------------
+ 33
+
+The World Of Fate
+
+THE WILDERNESS
+
+The world of the game Fate, in which the player takes on the personality of
+Winwood, is composed of a great wilderness which is surrounded by an
+impenetrable mountain range in the north and west and by a great sea in the
+south and east.
+In the wilderness the player will find 4 big cities (Larvin, Valvice,
+Cassida and the mysterious Katloch) as well as 5 small villages (Laronnes,
+Fainvil, Perdida, Pirate Rock and Mernoc).
+The cities are interconnected by a wide network of roads.
+Numerous signposts serve to guide the traveller so he is not hopelessly lost
+in these foreign parts.
+A more comfortable way of travel is by an underground railway, the
+Cavetrain, which connects almost all cities with each other as well as with
+a few locations in the wilderness. However, it's not always safe to use this
+railway.
+The wilderness is full of ominous dangers which await the lonely traveller.
+One should always be on the lookout there and be prepared for anything. At
+the beginning of the game it's a good idea to seek out the protection of a
+city as fast as possible and leave it only after finding a few companion and
+gaining some experience. But even then the dangerous swamps and thick
+forests should be avoided for some time to come and travel only on
+relatively safe roads.
+
+------------------------------------------------------------------------------
+ 34
+
+IN CITIES AND VILLAGES
+
+Most cities are relatively safe. But one should nevertheless be careful
+since even there treacherous thieves hide behind corners and vicious
+murderers lurk in the shadows. But one should also be careful with his own
+actions. You should not simply slaughter every person you meet. The city
+guards will severely punish such behavior.
+While exploring the cities one will come across various public buildings
+whose services are essential to the adventurer:
+
+Pubs and Taverns
+
+The destitute traveller can satisfy his hunger quench his thirst here. He
+can also stock up supplies of nourishment and drink and so be prepared for a
+long journey. After a long trip one should treat his character now and then
+to the cozy atmosphere of a noisy pub so that the character does not get
+bored. Furthermore, the pubs always offer the opportunity of eavesdropping
+on this or that conversation and so obtain valuable information. Drunk guys
+are often very talkative. You can also find many adventures which are
+willing to join your party.
+
+Inns and Hotels
+
+After a long and exhausting trip the tired traveller can rest here. One
+should spend the night in one of the numerous inns whenever possible.
+Admittedly, you can rest almost anywhere, even in the wilderness or in the
+dungeons, but the character will not like it very much in the long run.
+
+------------------------------------------------------------------------------
+ 35
+
+The Blacksmiths
+
+Each town has several blacksmith shops that offer a wide range of weapons
+and armor to the mobile adventurer. Here, one can find everything required
+to survive in the wilderness: gleaming swords, comfortable armor, gloves and
+shoes of all types, but also spells for the Mage and arrows for the archer.
+Each blacksmith shop has a different assortment of items in stock. But just
+as diverse as the wares are also the prices.
+While most blacksmith shops can be described as fair, there are also black
+sheep in the guild. And they're out to get the unsuspecting adventurers. As
+a greenhorn one should never reveal that he's not very familiar with the
+prices.
+
+The Shops
+
+Beside blacksmiths the towns also have a whole range of other traders which
+specialize exclusively in magical items. The adventurer will find many
+useful things there to make his life easier. The selection range from magic
+potions and magic lamps to all imaginable magic wands for all purposes. But
+watch out, some traders hiding behind fancy sounding names will also try to
+sell you garbage at outrageous prices. Otherwise, everything else is the
+same as in blacksmith shops. Careful window shopping can save the
+adventurer a lot of money and frustration.
+
+The Banks
+
+The banks found in cities are just as helpful. Since the number of thieves
+and robbers is always on the rise it's a good
+
+------------------------------------------------------------------------------
+ 36
+
+idea not to carry too much cash around. A common thief can be hiding behind
+any corner poised to relieve the adventurer of his hard earned Piasters.
+There is a whole range of various accounts which the adventurer can open.
+But keep in mind that the deposits and withdrawals can only be made at one's
+own bank. The only exception to this is a general account to which all
+characters have access and which allows transfers between cities.
+There are also savings and investment accounts. The interest on saving
+accounts is higher but the money must be deposited for a longer period of
+time. You can speculate with the investment accounts but you should be
+extremely careful. Some adventures have already lost all their fortune in
+dubious speculations.
+
+The Temples
+
+Since certain areas can be quite dangerous and one can get caught up in
+bloody battles, there are temples almost around every other corner where the
+wounded and dead adventurers can be taken care of for a fee.
+This has turned into a profitable undertaking for the clerics and healers
+particularly since Thardans henchmen started making even the cities unsafe.
+The inexperienced adventurer will surely be a frequent visitor to the
+temples.
+
+The Indulgence Traders
+
+Another type of cleric specialize in confession business. Since in certain
+cities one can be severely punished for his
+
+------------------------------------------------------------------------------
+ 37
+
+sins, these so-called clergymen can make a pretty profitable business out of
+it. Such cleric can become one of richest inhabitants in the city since he
+charges the adventurers who went astray horrendous amounts of money for
+penance. But for inexperienced adventurers his services can make a
+difference between life and death.
+
+The Guilds
+
+Various groups of Mages have formed guilds to help educate their younger
+members.
+The Mages who advance a level can learn new spells here and get recognition
+for new Spellclasses. The Mages in the guild will also, for a fee,
+regenerate the magical and bodily strengths of an exhausted traveller.
+Furthermore, all characters who have the permission can improve their
+personal abilities here.
+
+DUNGEONS
+
+The dungeons in Fate are all huge and full of nooks and crannies. One can
+very easy get lost in there. It is therefore advisable to either draw one's
+own map or take along a large supply of magic Jewels which can be used to
+create a map of their surrounding area. For those who wish to draw their own
+map do note that all levels (cities and dungeons) are always 56 by 56 fields
+and are directly one on top of the other, i.e. your position is not changed
+when using the stairs. Most dungeons are divided into several large sections
+which are not connected to each other - i.e. they can be composed of parties
+in different dungeons.
+
+------------------------------------------------------------------------------
+ 38
+
+Many traps and riddles await the adventurer. But valuable treasures and
+useful items can also be found in certain corners and recesses. One should
+therefore examine the labyrinths very carefully. Do not despair if you get
+lost and can't find the exit anymore. At least in the first two dungeons
+there are emergency stairs which can be used to exit the dungeons.
+Each level has numerous clearly marked teleports which lead to these
+emergency stairs.
+A general note: As a rule a dungeon should be entered before the party knows
+exactly why. Otherwise, one goes in and out of dungeons endless and nothing
+happens.
+
+                                              -----------------
+                                              | MAP 1 picture |
+                                              -----------------
+
+------------------------------------------------------------------------------
+ 39
+
+Encounter
+
+The worlds of Fate is swarming with various life forms, so it is only to be
+expected that one constantly comes across them during these encounters an
+abundance of different positions is available to the player. For best
+results one should know these options very well so as to be able to always
+choose the right move.
+At the start of an encounter one is in the so-called encounter mode, i.e.
+it's not yet clear whether this is friendly or a hostile encounter. In most
+cases the player himself has the control over this.
+The "Fight" option should be selected only in the last resort since it's
+always better to have a peaceful encounter. The "Talk" option is particulary
+recommended. If an opponent refuse to respond but you, nevertheless, wish to
+avoid a confrontation select "Disengage".
+
+DISENGAGE
+
+Converts a hostile encounter into a peaceful one. If the opponent is a
+peaceful person or being using this option does not make much sense. The
+following explanations apply only to adversaries with hostile intentions.
+RUN AWAY Not exactly a heroic solution. Running away in panic should only be
+done in utmost emergencies since in the mayhem of the withdrawal the party
+can often loose items or have them stolen. If running away fails the
+opponent starts fighting right away.
+
+------------------------------------------------------------------------------
+ 40
+
+IGNORE Wait and see what happens. Sometimes the opponent will reconsider
+whether it would be better to avoid fighting.
+HIDE An attempt to avoid battle by hiding quickly. The assumption is that
+the members of a party are highly skilled.
+As a rule, running away is preferable because if it fails the opponents may
+not start fighting right away.
+PRAY An extremely likely cause of getting away without a scratch. However,
+sometimes the prayer are heard and the party can escape unseen and unhurt,
+But this require a very strong priest or cleric in the party.
+BRIBE A relatively sure way of avoiding battles. The rule is: the more you
+give the better the chance of the bribe being accepted. A sizeable offer
+will make even the cutthroat henchman ready to talk. However, there are also
+a number of beings to whom the money doesn't mean anything.
+CHANT Recommended only for musically gifted characters. Trying to get a
+horde of barbarians and warriors to chant will only make even the most
+peaceful opponent start fight. But if there is a Fairy or a Nymph in the
+party the chanting can be successful and lull the opponent to sleep so that
+the party can leave unnoticed.
+JOKE Requires a lot of intelligence and wisdom but is often rewarded by
+achieving success. If it doesn't work right away you should try this option
+several times. If you have a Jester in your party almost all hostile can be
+calmed down so that they agree to peaceful solution.
+
+------------------------------------------------------------------------------
+ 41
+
+ACTION
+
+Can sometimes end an encounter quickly.
+MOCK A double edged sword. If you're lucky and mock the opponent in a right
+way it can happen that he gets so confused he taken leave of his senses. But
+if you're unlucky, the opponent can get even more mad and hostile than
+before. Here too a professional jester is very valuable.
+WARCRY Scream loudly and the battle is half won. But this works only if you
+have loud warriors in your party who can let out a fearsome battle cry.
+SCROLL A holy Scroll can always be read but you must get one first. It
+performs the same as a Holy Handgranade only it's fatal.
+All other actions require no further explanation.
+
+FORWARD
+
+If the opponents maintain a distance from the party, the party will advance
+2 yards forward.
+
+TALK
+
+An attempt to engage in a conversation is normally the best solution for
+everything. Most information is obtained this way. During a conversation you
+don't have to type things in. Everything can be chosen quite comfortably by
+using the mouse.
+You only need to choose between a question and a remark. A remark relevant
+to the situation or a question based on the knowledge of the party is
+automatically selected.
+
+------------------------------------------------------------------------------
+ 42
+
+WAIT This will make the opponent take the initiative. You just simply wait
+and see if he says anything by himself.
+JOIN An attempt to convince the person you're talking to, to join the party.
+But before this happens you must, as a rule first negotiate a little and try
+to befriend the opponent.
+Since this is a very important option, which is also used very often, a few
+tips to help recognize at an early stage if the person you're talking to can
+at all join your party:
+
+   * the characters who can join usually travel alone
+   * at the start of an encounter they are always immediately in front of
+     the party
+   * monsters can never join a party
+
+BYE Ends a conversation. An encounter should always be terminated using the
+option and not just by clicking away since the character will then not get
+experience points.
+GIVE ALMS A quick, although expensive, method to make friends with the
+opponent. But be careful, there are people who might be offended by it.
+TRADE An attempt to buy something from the people you talk with.
+THREATEN Not very nice but lucrative if you have a strong party. You face
+your opponent with: "Your money or your life!".
+
+                                              -----------------
+                                              | MAP 2 picture |
+                                              -----------------
+
+------------------------------------------------------------------------------
+
+ 43
+
+SPECIAL QUESTIONS (Ask for):
+PROFESSION The opponent is asked about his occupation.
+HELP The opponent is asked for help. The help which is eventually given can
+be quite varied. Sometimes the help can only be obtained after giving alms.
+HINT General hints are requested here, that is to say, the party already
+has some incomplete information. An appropriate question is then
+formulated. For example, if the party has a hint about an island a more
+detailed question about the island is then asked.
+ITEMS Either a general question about weapon or a specific question
+depending on that you already know.
+PERSON Asking about a person.
+BEINGS Asking about one or more beings.
+NAME Asking the person you're talking with for his name.
+SELF The opponent is asked to say something about himself. If he responds
+positively to this question, the probability that he wants to join the party
+is greater.
+MORE Appears only after the person you're talking with has already answered
+to the question "Self". Normally, the opponent is asked about his special
+abilities.
+
+GENERAL CONVERSATION (Chat):
+
+INSULT If the conversation does not lead anywhere this menu item can be used
+to force a fight.
+ADULATE You shower the opponent with praise trying to get on his good side.
+Not very honorable but it works.
+ENCHANT Trying to flirt. This option can only succeed if the
+
+------------------------------------------------------------------------------
+ 44
+
+character has a high charisma value.
+CURSE As with insults there are beings who consider swearing a friendly
+greeting.
+JOKE A good joke sometimes works wonders in loosening up a conversation. But
+you should be careful not to select a character who tells stale jokes.
+BRAG It's well known that immodesty stinks, but if a character can really
+proclaim his enormous abilities, an accomplished boaster can thoroughly
+impress the opponent.
+TELL FIBS Invent totally wild stories to empress the opponent. But you
+should be careful to whom you tell these fairytales. A highly intelligent
+Mage will notice right away that you're putting him on.
+INTRODUCE You say a greeting and introduce yourself.
+
+FIGHT
+
+You should familiarize yourself with the complex battle system in case a
+fight can't be avoided.
+The fighting runs in rounds. In each round everyone involved gets one turn.
+This applies every character and every opponent. Everyone then takes only
+one action. The order is based on character values, experience and on the
+race and class of the character. It should be the best if a character were
+to face the opponent in one line but at the start of the game and in most
+other cases this occurs only rarely. If it does and he's strong enough, the
+character who is first in line then has the opportunity to eliminate the
+fastest or the most dangerous opponent.
+
+------------------------------------------------------------------------------
+ 45
+
+The commands are issued only when the character is next in line. This has
+the advantage that you can adapt to the current state of affairs. In older
+role playing games there are always a problem in that all actions must be
+specified in advance so by the time the character attacks the opponent -
+they may not longer exist.
+When a character is ready for action one can see his picture and the main
+battle menu. In addition, the current opponent is also shown on the scroll.
+
+ATTACK A direct blow with a primary weapon. If a character has no weapon in
+hand he tries to punch or kick. The range for this attack is determined by
+the weapon used. Most weapons or a punch or kick have a range of zero, i.e.
+they can only be used against opponents immediately in front of the party.
+In most cases only one opponent is hit. If there are more groups they must
+be selected for attack separately.
+The following also goes for all other options. If a character has a
+so-called Melee Weapon a whole group or in case of a Greater Melee Weapon
+all opponents are attacked.
+
+SPELL The most important battle option there is. When casting a spell the
+Spellclass is determined first and only then the
+
+------------------------------------------------------------------------------
+ 46
+
+desired spell. As in case of attack, the spell as for all of the following
+options, the target groups is chosen next. When all this is done the effect
+of the spell is displayed on the scroll.
+You shouldn't only limit yourself to destructive spells. Often it makes much
+more sense or make even be necessary to weaken the opponent first and only
+then attack in earnest. Since the enemy Mages have the same spells as the
+party you should normally fight them first.
+
+ITEM Using items is another indispensable martial art. Since some character
+classes may not use effective weapons and have only few or no battle spells
+at all, the items are a good alternative. Each item can be used by all
+characters without limitations. For example, a Fairy with a Masterwand can
+become an extremely strong warrior.
+But compared to weapons the items have a big drawback. Since they are all
+magical in nature, they often disappear in thin air after being used. Whether
+they do disappear depends first of all on the item themselves; a magical
+Pearl disappears almost always after usage, while a Lightwand can sometimes
+be used more than 100 times. On the other hand it also depends on the
+character who uses the item. A Barbarian given a Flamewand makes it disappear
+every time, sometimes even before he uses it.
+
+SHOOT An effective way to do battle at a distance. Although it requires that
+a weapon (bow or crossbow) be placed as the 2nd weapon of the character who
+is about to shoot. Of course,
+
+------------------------------------------------------------------------------
+ 47
+
+one also needs arrows which can be purchased from any blacksmith. Do pay
+attention to their quality though. Simple wooden arrows can at best be used
+to shoot a rat. A giant would surely use such an arrow as a toothpick. But
+there is a sufficient variety of arrows to kill even the strongest of
+opponents. The professional archers are a special case. If an archer has
+enough experience he can sometimes shoot two arrows in the same round.
+
+THROW If you have no shooting weapons but still wish to attack an opponent
+from a distance, the only thing you can do is hurl at him the weapon you
+have in your hands. The big drawback here is that the weapon which is thrown
+is then lost for the duration of this battle. There are certain magic
+weapons which return after being thrown. The primary weapon is thrown first
+and the secondary weapon is thrown after that.
+If one is victorious in battle the characters automatically gather all their
+thrown weapons. This does not apply to any arrows that were shot.
+Throwing at sea from a ship is definitely not advisable.
+
+WEAPON When this option is selected you can change the weapons in your hands
+during battle. This is very useful when you've already thrown your primary
+and secondary weapons.
+
+DEFEND In principle this means you wish to do nothing. It should only be
+selected when there are no useful alternatives or if you engage in battle by
+mistake.
+
+------------------------------------------------------------------------------
+ 48
+
+SPECIAL
+
+ENCHANT An attempt to distract or confuse the opponent. It should only be
+used when charisma value of a character is well above 20.
+If an attempt to enchant is successful the opponent becomes very confused.
+This can be used mercilessly by the next character in line. Not very
+honorable but extremely effective. When enchanting you can choose between
+attacking all opponents or concentrating on a single group. The effect is
+stronger in the second case.
+
+                                              -----------------
+                                              | MAP 3 picture |
+                                              -----------------
+
+WARCRY A battle cry by a Warrior or a Barbarian can be very effective. An
+opponent who until then appears fearless can easily wet his pants in panic.
+His attack is then considerably weakened. Sometimes he can even be scared
+out of damage points. A battle cry is basically directed at all opponents.
+
+Steal Trying to steal gold pieces out of opponent's pockets. It should only
+be attempted by experienced thieves since if the
+
+------------------------------------------------------------------------------
+ 49
+
+opponent catches the thief he will become considerably more aggressive and
+will attack more forcefully.
+If stealing goes unnoticed you get a bonus of extra cash.
+
+MOCK It does require a bit of courage to ridicule an opponent during battle,
+but it can be very effective. However, you should be very careful in
+choosing which opponents you mock. An irritated opponent will as a rule
+become exposed somewhat in order to attack more forcefully. In addition he
+will not attack carefully but will allow himself to be carried away be
+instinct. Also, it makes no sense to ridicule a barbarian since his actions
+are already influenced by his feelings. Mocking can be used very
+successfully on Mages and other equally intelligent people since they will
+then loose their concentration.
+
+GROPE Grabbing an opponent is a special type of fighting which only a few
+very experienced characters can perform. Some creatures, mainly Errins and
+Laurins, over time get so powerful in magic that they can hurt an opponent
+badly by simply touching. This can paralyse, age or even turn him to stone.
+
+DUPE A very sneaky trick. The character makes the skilful manoeuvre and
+tries to strike the opponent from behind with a decisive blow. It should
+only be attempted by characters who are very swift and experienced in
+battle. If the attempt fails the
+
+------------------------------------------------------------------------------
+ 50
+
+character is momentarily exposed and is then very vulnerable. You should
+therefore think carefully before trying this manoeuvre.
+
+HIDE This is an option for characters in grave danger who have no great
+battle strength, such as magic beings like Fairies or Nymphs which have been
+struck more than once. To avoid a fight by hiding a character most possess
+necessary amount of hiding skill as well as be intelligent.
+
+SPECIAL This is only available to characters who possesses special
+abilities. The player must find out for himself how this works.
+
+                          BLUE-----RED-----BLACK
+
+                                  YELLOW
+
+                          WHITE---BROWN----GREEN
+
+------------------------------------------------------------------------------
+ 51
+
+Main Menu
+
+Certain actions and functions can be performed even when a party is not in a
+confrontation. To do this click on the picture of a character (see
+"Operating Instructions").
+ARMAMENT All objects can be made ready, dropped, examined, used or
+transferred to another member of the party. If the clicked character has a
+magic jewel you can use this function to create a map of the surrounding
+area.
+CONSUME Using this submenu a character can eat, drink or take a magic
+potion. The whole party can eat/drink together or the nourishment can be
+divided among all members of the party.
+SPELL If a character has magic powers (Magepoints) a spell can be cast here.
+STATISTICS What would a role playing game be without statistics?
+In FATE - Gates of Dawn you can practically invoke all information about the
+party and its members.
+PARTY The numerous party functions and so-called party-switching are the
+icing on the cake. The following functions are available:
+   SPLIT Given that there are no more than 3 parties a party can be divided
+   here.
+   TRANSFER If two parties are on the same playing field one or more
+   characters can be transferred to the other party.
+   RELEASE A member of the party is let go.
+   INFO Using this function general party information such as level,
+   statistics, position, tickets and abilities can be invoked.
+   SWITCH TO If one wishes to continue playing in another party the player
+   can change over. The party (or parties)
+
+------------------------------------------------------------------------------
+ 52
+
+   remain at their current position(s). The name of the first
+   character is always given as the party name.
+   EXCHANGE This is similar to the Transfer command; two characters from
+   different parties are swapped. Here too, both parties must be located on
+   the same playing field.
+   REST Even the strongest parties need to rest from time to time. Invoking
+   this function creates a place to rest and the player decides how long the
+   party will rest.
+   BOARD If a party is near a ship this command can be used embark the ship.
+   ASHORE If a party is already on board a ship this function can be used to
+   disembark.
+GAME The functions listed here relate to somewhat "technical" settings and
+options:
+   SAVE The current state of the game including all data and settings are
+   saved. You can only save to a separate floppy disk or to a hard disk. On
+   Amiga you can even use unformatted disks (in any case the previous
+   contents of the disk are destroyed!!!). On other systems the disks must
+   be formatted before the game starts. Up to eight games can be saved on
+   one disk.
+   NEW GAME If everything has gone wrong for you the game can be restarted.
+   QUIT This will also save the game. However, the game will then be
+   terminated.
+   FREEZE There are no ridges in FATE - Gates of Dawn. The game normally
+   operates in real time. This option here is the only possibility to stop
+   the time (this is particularly
+
+------------------------------------------------------------------------------
+ 53
+
+   handy for coffee breaks).
+   LOAD Reloads a previously saved game. The current game state is thereby
+   destroyed.
+   DELAYS To guarantee a comfortable game operation you can set a variable
+   pause after each text output. The
+   CLICKS parameter is particularly handy for beginners because it waits for
+   a mouse click after each text output.
+   PIC / NO PIC On computers with very little RAM this option is selectable.
+   Frequently used graphics such as room interiors can be activated and
+   deactivated.
+ACTIONS You can invoke the general actions like touch, dig, search or -
+well, this is a reLINE game - kiss, at any time.
+TIME No, not the current time of your internal clock but the time and date
+in the world of FATE.
+
+------------------------------------------------------------------------------
+ 54
+
+The Magic System
+
+In contrast to other worlds, the magic in Fate is something quite normal.
+Admittedly, not everyone can use it but it belongs to the normal everyday
+life just as much as various physical items. Due to the constant presence of
+magic, several new unique races have been developed such as the eerie
+Laurins and Errins. Some classes of Mages can use magic already from birth
+(Witches and Fairies, for example), while others must first acquire these
+abilities by studying (such as Sorcerers and Wizards). In theory, any being
+can learn the art of magic but some professions have decided to renounce it.
+All in all, there are 15 non-Mage and 17 Mage classes. The 200 known spells
+are divided into 20 Spellclasses. Each Spellclass has its own unique
+properties. There are for example purely defensive Spellclasses such as
+Elementary or Enchanter, healing Spellclasses such as Clerics or Fairies and
+naturally the fighting Spellclasses such as Banshee or Warlock. At the start
+of his career each Mage has only one Spellclass. Later, as he advances he
+can require additional Spellclasses. But the order of this advancement is
+fixed for each profession. A healing Mage must first get all of the healing
+Spellclasses before he can require a fighting Spellclass. The actual spells
+are explained in detail in the "Spell Overview" appendix.
+
+------------------------------------------------------------------------------
+ 55
+
+Armament And Items
+
+The number of armament items is considerably greater than even the number of
+spells. In all options they are divided into 7 groups.
+
+1. Weapons       Swords, daggers, shields etc.
+2. Armor         Robes, breastplates, capes etc.
+3. Headgear      Caps, helmets, bandannas etc.
+4. Gloves        Gloves of all sorts
+5. Footwear      Shoes, boots etc.
+6. Arrows        Arrows and projectiles of all sorts
+7. Items         Magic wands, magic pearls etc.
+
+In each category the player can experiment with numerous items. A detailed
+description can be found in the appendix.
+
+How much a character can carry is limited to prevent one from lugging about
+an infinite number of things. Even the number of items of the same kind
+cannot exceed a certain value regardless of weight. For example Weapons,
+Armor, Headgear, Gloves and Footwear are always limited to 9, while items
+and potions are limited to 20 items per character. An archer can carry a
+maximum of five different quivers with up to 99 arrows.
+
+            ---------------------------------------------------
+            | Note: A character must make his weapon or armor |
+            | ready before he can use it.                     |
+            ---------------------------------------------------
+
+------------------------------------------------------------------------------
+ 56
+
+As is common in role playing games not every character class can pick up
+every weapon. There are set rules as to who can use what. Mages cannot, as a
+rule, use heavy armor or weapons, while most warriors cannot use magic
+equipment. An exception are magic items which can be used by all characters.
+In the equipment menus or prohibited items are shown in red and all allowed
+items in white. The most important items are listed and explained in the
+chapter "Overview Of Important Items".
+
+           -----------------                  -----------------
+           | MAP 4 picture |                  | MAP 5 picture |
+           -----------------                  -----------------
+
+------------------------------------------------------------------------------
+ 57
+
+Screen Layout
+
+The screen is divided into four independent areas.
+
+       -------------------------------------------------------------
+       |           |           |           |           |           |
+       |           |         Character display         |           |
+       |           |           |           |           |           |
+       |           |           |           |           |           |
+       |-----------|-----------------------------------------------|
+       |           |                                   |           |
+       |           |                                   |           |
+       |           |                                   |   Menu    |
+       |           |            View window            |   field   |
+       |-----------|                                   |           |
+       |           |                                   |           |
+       |           |                                   |           |
+       |           |                                   |           |
+       |           |                                   |           |
+       |-----------------------------------------------------------|
+       |                                                           |
+       |                       Output scroll                       |
+       -------------------------------------------------------------
+
+The view window
+
+All events occur in this window. The window shows exactly what the party
+sees at a given moment. For example when it's dark this window can also
+become completely black.
+
+The menu field
+
+This shows all current options available to a character or a party.
+
+The output scroll
+
+All events and actions are documented on the scroll. After each text output
+there is a pause of variable length. There are 5 possible settings for this
+pause and its length can be
+
+------------------------------------------------------------------------------
+ 58
+
+changed in the game menu (see DELAYS). In the beginning you should choose a
+longer pause. But after you familiarize yourself with the text it's a good
+idea to change to a shorter pause or the encounters will take too long.
+However, in case of important texts, such as the story information, the game
+waits for a mouse click so no information is lost. This occurs even when the
+pause is completely turned off.
+
+The character display
+
+The 7 characters in the party are shown here. As a rule you can see the
+status display of the character. The bars and lights have the following
+meaning:
+
+          _______________________________
+         |   _________________________   |     A:  Name
+         |  |A                        |  |     B:  Hitpoints
+         |  |_________________________|  |     C:  Weapon class
+         |             _____             |     D:  Armor class
+         |   _   _    |B    |    _   _   |     E:  Dexterity class
+         |  |C| |D|   |_____|   |E| |F|  |     F:  Skill class
+         |  | | | |             | | | |  |     G:  Magicpoints
+         |  | | | |    _____    | | | |  |     H:  Hunger
+         |  | | | |   |G    |   | | | |  |     I:  Thirst
+         |  |_| |_|   |_____|   |_| |_|  |     J:  Tiredness
+         |   _   _   _   _   _   _   _   |     K:  Burden
+         |  |H| |I| |J| |K| |L| |M| |N|  |     L:  Illness
+         |_______________________________|     M:  Poisoning
+                                               N:  Drunkenness
+
+
+The top number shows the Hitpoints, the bottom number the Magepoints. The
+four bars indicate the battle classes and the 7 lights at the bottom the
+condition of the character. If the values are satisfactory or good the
+lights and the bars are yellow.
+
+------------------------------------------------------------------------------
+ 59
+
+A gray bar indicates that the corresponding value is only adequate or bad.
+If a condition light are gray something is wrong with the character. You
+must then take measures to repair the damage.
+If you click on a character you can see their picture.
+
+The menu structure
+
+All menus are consistent. They are always composed out of a heading and up
+to 8 menu items. In some cases there are also additional icons to click on
+such as arrows or plus/minus fields.
+
+How to use
+
+Clicking on one of the 8 menu items performs the relevant function or
+invokes the relevant submenu. (Keyboard: (1) to (8))
+Clicking on a menu heading from a submenu goes one up in the menu hierarchy.
+If you're already on the first level clicking on a heading terminates the
+action. (Keyboard: (Return))
+Clicking outside of the menu cancels the action if possible.
+(Keyboard: (ESC))
+If you need to select a character simply click on the field with the desired
+character. (Keyboard: function keys (F1) to (F7))
+In some cases the menu items must be scrolled up or down. The arrow fields
+are intended for this purpose. (Keyboard: cursor keys (up) (down))
+If you need to set numeric values use the 3 fields [+] [-] and [=].
+(Keyboard: cursor keys (up) (down) and (space bar))
+
+------------------------------------------------------------------------------
+ 60
+
+General Operating Instructions
+
+MOVEMENT ON LAND
+
+The simplest way to move a party is by using the mouse and the movement
+menu. The following options are available:
+
+  - step forward         (cursor key up)
+                         (numeric keypad 5)
+  - turn left            (cursor key left)
+                         (numeric keypad 4)
+  - turn right           (cursor key right)
+                         (numeric keypad 6)
+  - step left            (numeric keypad 1)
+  - step right           (numeric keypad 3)
+  - turn around          (cursor key down)
+                         (numeric keypad 2)
+  - step back            mouse only
+
+SHIP CONTROLS
+
+Once on board of a ship you can change its Course and View as well as roll
+the sails up or down. The arrows underneath the relevant compass are always
+used for this purpose. The Course can be changed in 45 degree steps, while
+the View can only be changed in 90 degree steps, as in the case of land.
+
+------------------------------------------------------------------------------
+ 61
+
+Keyboard commands:
+
+  - starboard            (cursor key right)
+  - port                 (cursor key left)
+  - turn right           (numeric keypad 6)
+  - turn left            (numeric keypad 4)
+  - role sails up/down   (Taste (S))
+
+To find out the wind strength and direction click on the compass.
+(Keyboard: (W))
+
+INVOKING THE MAIN MENU
+
+To invoke the main menu  you must first select a character. This is done by
+clicking on the relevant character field.
+(Keyboard: function keys (F1) to (F7))
+If the character is able to do something their picture will appear. You can
+then see all currently possible action in the menu field. Since there are
+many different options they are divided into several submenus.
+Please refer to the chapter "Main Menu" which lists all available functions.
+
+------------------------------------------------------------------------------
+ 62
+
+ADDITIONAL OPERATING INSTRUCTIONS
+
+When writing the documentation one never know on which computer the program
+will be run. To avoid potential problems any possible changes to the
+instruction are to be found on a separate sheet or a "READ ME" file on
+FATE 1 disk.
+
+A READ ME file can be viewed with any standard editor.
+Important modifications are displayed as a page of text when the program
+starts.
+
+                                              -----------------
+                                              | MAP 6 picture |
+                                              -----------------
+
+------------------------------------------------------------------------------
+ 63
+
+The Features Unique To FATE
+
+This chapter should be of particular interest to role playing game fans
+since FATE - Gates of Dawn has a whole range of completely new game
+elements.
+
+PARTY SWITCHING
+
+Party Switching is the biggest difference between Fate and other older role
+playing games. The player can form up to 4 parties each with 7 characters
+and switch between them at will. Of course, the other parties will not move.
+But even for inactive parties the life goes on. So these characters will
+also get hungry and tired.
+The inactive parties, though, do not participate in the game directly, i.e.
+they will not attack and do not move even when there is an opponent on their
+own playing field. They will react only when you switch. This simplification
+could not be avoided for technical reasons.
+As far as experience and crimes are concerned all parties are treated as one
+big unit - if the player engages one party in battle all other parties share
+in the experience points. If a party obtain certain information the other
+characters become immediately aware of it. When one party commits a crime
+all other must suffer because of it. This collective nature of things goes
+for both good and bad.
+In case of certain tasks the player MUST react with several parties
+simultaneously, for example when one character holds the door open while
+others search the area.
+
+------------------------------------------------------------------------------
+ 64
+
+STORYLINE
+
+At the beginning the player only knows what has happened in the past.
+Everything else is obtained by communicating with persons he meets during
+his adventures. The subjects of the questions during a dialogue are chosen
+depending on the current amount of available knowledge.
+If the player deviates from the storyline too much he is given tips which
+put him back on the right track. This prevents the player from getting
+totally lost. The newcomers to role playing games will particularly treasure
+this help.
+
+REALITY APPROXIMATION
+
+All persons in FATE react like living beings. They can become tired or
+hungry, dissatisfied with their situation and some have a manifest sense of
+justice. Each character has its own peculiarities and preferences; some
+persons are very inobedient while others do things even before being asked
+to. The player has totally unlimited control only over Winwood. The others
+he must also control - but with a lot of forethought and treating them with
+kid gloves.
+Even the weather plays a part in what goes on. When it rains the respectable
+citizens stay at home and one meets mostly beggars and vagabonds. During the
+night the murderers and thieves are up to their mischief. When it gets cold
+the characters need better clothing so that they don't freeze.
+
+------------------------------------------------------------------------------
+ 65
+
+SURPRISES
+
+Obviously even the citizens of FATE - Gates of Dawn are familiar with the
+famous reLINE games. There are rumors that, due to a technical error by a
+graphic artist during digitalization, a model from the Hollywood Poker PRO
+vanished into this parallel world. Her clothing has also disappeared during
+this process. Who knows, maybe you'll meet her and help her out...
+To keep the evil software pirates at bay the reLINE team employed a Password
+Nymph who constantly checks to see whether Winwood is only a cheep copy of
+the original. She too, seems to have already met the model from Hollywood
+Poker PRO several times - but see for yourself!
+Normally, we don't want to reveal all of the surprises (we wouldn't like to
+spoil your fun). But we will say so much: even when you've completed the
+game - and enjoyed the lavishly animated final credits - it certainly pays
+to play again.
+Allusions to any current or old games are purely coincidental.
+
+------------------------------------------------------------------------------
+ 66
+
+A Quick Start
+
+The beginning of a role playing game is always the most difficult part (also
+the most beautiful!). In order to make it easier for role playing game
+newcomers, in the beginning one meets only very weak persons who do not pose
+a very big danger for Winwood. This protective mode is active until a small
+party is assembled.
+
+HOW TO PROCEED
+
+Very close to the starting point is a path with the destroyed inn. Explore
+this area carefully since there are some weapons and armaments to be found
+here. Pick up armaments and weapons by using the main menu (the main menu
+appears as soon as the Winwood character image is clicked on). In order to
+orient yourself it's recommended that you have a look at the map of the
+surrounding area (select ARMAMENTS from the main menu and then in the
+submenu go to Jewel).
+Then, go along the path to the city of Larvin (in the north-westerly
+direction). Watch for signs and avoid any fights with opponents if you can.
+Once in the city assemble a party as quickly as possible. Talking with
+people can frequently provide additional help. After a bit of tittle-tattle
+and pointed questions select the function JOIN. Many adventurous characters
+eager to join can be found particularly in pubs.
+Senseless killing of opponents is far less helpful than a diplomatic
+approach. Mages in particular provide a party with valuable information
+about what happens next. Do keep in mind that
+
+------------------------------------------------------------------------------
+ 67
+
+without helpful information you don't really know what to do next!
+Many shady creatures crawl around in the night. A safe place to stay
+protects the party from uninvited guests.
+
+GENERAL TIPS
+
+A magic Jewel can only create one map of the surrounding area. To be on the
+safe side and to limit the use of magic Jewels you should also draw your own
+maps of cities and dungeons.
+An old favorite is to save the current game and then try out several
+different approaches from that point. Don't bother trying this with FATE -
+the program will notice frequent game loading and will as a result make the
+game more difficult.
+Do not crack or copy the game under any circumstances! The citizens of FATE
+are very touchy about this; the Password Nymph in particular is not amused
+by it. Now, we don't really want anything to happen to you (or your disk
+drive)...
+
+------------------------------------------------------------------------------
+ 68
+
+Memory Management
+
+The program uses all available memory. Any installed memory expansion are
+used to the last byte.
+Due to cache memory management the loading times at the beginning of the
+game can differ considerably since the complete free RAM is first filled
+with data. This avoids having to later load the required program segments or
+data.
+The program and data altogether about 6 megabyte in size (this varies across
+different computer systems). If you have that much RAM all data is loaded at
+the beginning of the game. In theory, you could then take the disk out of
+the drive since, barring any password checks, nothing else needs to be
+loaded.
+On the computers with very little RAM some things such as sound or graphics
+are somewhat limited (otherwise the program itself will not have enough
+memory).
+
+------------------------------------------------------------------------------
+ 1a
+
+                                APPENDICES
+
+------------------------------------------------------------------------------
+ 2a
+
+                              The Development Team
+
+                 Program by:  Olaf Patzenhauer
+                   Graphics:  Frank Knust          Matthias Kæstner
+                              Ingo La Tendresse    Rydiger Skwarczynski
+                              Andreas Gehrke       Thomas Langhanki
+                              Thomas Andrae        Michael Pløger
+                              Olaf Patzenhauer
+ Game concept and storyline:  Olaf Patzenhauer     Heinrich Stiller
+                 SoundTrack:  Matthias Steinwachs  Karsten Obarski
+              Sound effects:  Olaf Patzenhauer
+                Game tested:  Kalle Teichmann      Jens Busse
+                              Oliver Assel         Frank Fenske
+                              Oliver Kuhlemann     Tobias Basse
+                              Michael Wolff        Jørg Kopmann
+                              Andre Negerski       Timo Lomatzsch
+                Disk system:  reDOS 5              Holger Gehrmann
+      Datasearch filesystem:  Holger Heinrich
+      Compacting algorithms:  Holger P. Krekel     Holger Heinrich
+         Technical advisers:  Holger Heinrich      Rydiger Skwarczynski
+                              Holger Gehrmann
+            Project Leaders:  Olaf Patzenhauer     Holger Gehrmann
+              Handbook text:  Holger Gehrmann      Olaf Patzenhauer
+                              Timo Lomatzsch
+                Translation:  Donald M. Maple
+              Cover picture:  Celal Kandemiroglu
+                Coordinator:  Holger Gehrmann
+          Special thanks to:  Dominik Tonn         Uwe Gramschuh
+                              Antje Thoene         Heike Nixdorf
+                              Jørg Heitmyller      Softgold GmbH
+                              Herrn Blymel         Familie Poppenhæger
+                              Karl-Ernst von Hallmackenreuter
+         Copyrights 1991 by:  reLINE Software GmbH - Germany
+   reLINE Hotline (service):  Tel:+49 511-315834,Mo to Fr, 15-16 PM
+
+ Any written inquiries about the game or tips as well as telephone calls
+ outside of the hotline hours (see above) will NOT be answered. In case of a
+ defective disk or incomplete enclosures please contact your dealer.
+
+------------------------------------------------------------------------------
+ 3a
+
+                                 CONTENTS
+
+                            Spells Overview    4a
+                            Magician Spells    6a
+                            Conjurer Spells    7a
+                            Sorcerer Spells    8a
+                              Wizard Spells    9a
+                            Archmage Spells   10a
+                               Fairy Spells   11a
+                               Witch Spells   12a
+                           Enchanter Spells   13a
+                            Valkyrie Spells   14a
+                              Cleric Spells   15a
+                              Priest Spells   16a
+                               Angel Spells   17a
+                             Warlock Spells   18a
+                               Nymph Spells   19a
+                               Druid Spells   20a
+                           Alchemist Spells   21a
+                                Monk Spells   22a
+                             Banshee Spells   23a
+                          Elementary Spells   24a
+                              Master Spells   25a
+                              Magic Potions   26a
+                              Item Overview   29a
+                                      Index   31a
+
+------------------------------------------------------------------------------
+ 4a
+
+Spells Overview
+
+In order to best explain the spell functions they are sorted by magic
+classes. In addition, each spell is also explained in more detail on a small
+function template:
+
+               Name   The name of the spell as it appears in the
+                      spell menu.
+                MPt   The number of required Magepoints before a spell
+                      can be cast.
+              Range   The range of a battle spell in yards or "long"
+                      for long range spells.
+                  *   Specifies who the spell can be used against.
+                      The characters mean the following:
+                 PM   The member of a party
+                  P   The whole party
+                  O   An opponent
+                 OG   A group of opponents
+                 AO   All groups of opponents
+                  A   All   (universal)
+              Power   This is the magic power of all spell. For the
+                      total effectives add this value to the magical
+                      power of a Mage.
+
+------------------------------------------------------------------------------
+ 5a
+
+                  o   Specifies the duration of a spell. The
+                      characters mean the following:
+                 vs   very short
+                  s   short
+                  m   medium
+                  l   long
+                 vl   very long
+                  p   permanent
+                  a   one-time action
+                  !   In case of destructive spells this indicates the
+                      approximate damage caused. For extremely strong
+                      or weak opponents this may vary.
+               Type   The type of spell is specified here.
+                      The characters mean the following:
+                  B   a spell which is only available in battle
+                  A   a spell which can always be cast
+                  E   can only be cast without a threat
+
+------------------------------------------------------------------------------
+ 6a
+
+ Magician Spells
+                 Name      | MPt|  Range | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     entangles an opponent |    |        |    |       |    |           |
+                  ENTANGLE |  2 | 14 yds | O  |  30   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     strengthens the armor |    |        |    |       |    |           |
+                     ARMOR |  3 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     paralyses an opponent |    |        |    |       |    |           |
+                  PARALYSE |  4 | 12 yds | O  |  35   | vs |     -     |  B
+                           |    |        |    |       |    |           |
+      confuses and injures |    |        |    |       |    |           |
+               an opponent |    |        |    |       |    |           |
+                       FOG |  4 | 12 yds | O  |  25   | p  |    3-6    |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    slows down an opponent |    |        |    |       |    |           |
+                      LAME |  5 | 12 yds | OG |  65   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+    increases the strength |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                  STRENGTH |  4 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        blinds an opponent |    |        |    |       |    |           |
+                 LIGHTBALL |  7 | 12 yds | OG |  22   | a  |   4-11    |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+  removes opponent's armor |    |        |    |       |    |           |
+                  ARMORZOT |  6 | 10 yds | O  |  63   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+      creates a hate field |    |        |    |       |    |           |
+        around an opponent |    |        |    |       |    |           |
+                      HATE |  4 | 14 yds | AO |  55   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      beats up an opponent |    |        |    |       |    |           |
+                   JABFIST | 10 | 14 yds | OG |  19   | a  |   23-54   |  B
+
+------------------------------------------------------------------------------
+ 7a
+
+ Conjurer Spells
+                 Name      | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+      creates a very short |    |        |    |       |    |           |
+               magic light |    |        |    |       |    |           |
+        LIGHT (very short) |  3 |   -    | -  |  -    | vs |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     makes ugly and stupid |    |        |    |       |    |           |
+                      NUTS |  3 | long   | O  |  65   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         makes very greedy |    |        |    |       |    |           |
+                 for money |    |        |    |       |    |           |
+                     GREED |  4 | long   | OG |  86   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+     weakens the abilities |    |        |    |       |    |           |
+                 of a Mage |    |        |    |       |    |           |
+                  MAGEWEAK |  6 | 12 yds | O  |  125  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+          causes an attack |    |        |    |       |    |           |
+               of weakness |    |        |    |       |    |           |
+                    WEAKEN |  3 | long   | O  |  155  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+           creates a short |    |        |    |       |    |           |
+               magic light |    |        |    |       |    |           |
+                 LIGHT (s) |  4 |   -    | -  |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      creates magic vortex |    |        |    |       |    |           |
+                    VORTEX |  7 |  8 yds | O  |  20   | a  |   7-14    |  B
+                           |    |        |    |       |    |           |
+         entangles a group |    |        |    |       |    |           |
+              of opponents |    |        |    |       |    |           |
+                 ENTANGLE! |  9 |  9 yds | OG |  70   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+    causes an overpowering |    |        |    |       |    |           |
+           feeling of fear |    |        |    |       |    |           |
+                     SCARE | 12 | 10 yds | OG |  85   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+     weakens the abilities |    |        |    |       |    |           |
+                 of a Mage |    |        |    |       |    |           |
+                 MAGEWEAK! | 14 | 16 yds | OG |  185  | p  |     -     |  B
+
+------------------------------------------------------------------------------
+ 8a
+
+ Sorcerer Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+   strengthens the weapons |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                    WEAPON |  4 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+      creates a cold field |    |        |    |       |    |           |
+        around an opponent |    |        |    |       |    |           |
+                    FREEZE |  5 | 14 yds | O  |  50   | a  |   50-81   |  B
+                           |    |        |    |       |    |           |
+     forces an opponent to |    |        |    |       |    |           |
+      jump around like mad |    |        |    |       |    |           |
+                    TICKLE |  7 | long   | O  |  85   | vs |     -     |  B
+                           |    |        |    |       |    |           |
+             makes a tired |    |        |    |       |    |           |
+           character alert |    |        |    |       |    |           |
+                     AWAKE |  8 |   -    | PM |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+    speeds up the movement |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                    FASTER |  7 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+     causes an opponent to |    |        |    |       |    |           |
+      have a sneeze attack |    |        |    |       |    |           |
+                    SNEEZE |  9 | long   | O  |  80   | vs |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ starts a vortex of stones |    |        |    |       |    |           |
+                 STONEFALL | 11 | 12 yds | OG |  31   | a  |   40-83   |  B
+                           |    |        |    |       |    |           |
+  strengthens the throwing |    |        |    |       |    |           |
+      power of a character |    |        |    |       |    |           |
+                     THROW | 16 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+         turns an opponent |    |        |    |       |    |           |
+                into stone |    |        |    |       |    |           |
+                   STONING | 13 | 18 yds | O  |  60   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+       increases the magic |    |        |    |       |    |           |
+         powers of a party |    |        |    |       |    |           |
+                 MAGEPOWER | 22 |   -    | P  |  -    | s  |     -     |  A
+
+------------------------------------------------------------------------------
+ 9a
+
+ Wizard Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+       poisons an opponent |    |        |    |       |    |           |
+                    POISON |  6 | 16 yds | O  |  87   | a  |   15-48   |  B
+                           |    |        |    |       |    |           |
+          causes an attack |    |        |    |       |    |           |
+               of weakness |    |        |    |       |    |           |
+                     FAINT |  8 | 14 yds | OG |  75   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         turns an opponent |    |        |    |       |    |           |
+                  into ice |    |        |    |       |    |           |
+                  ICECLOUD |  7 | long   | O  |  70   | vs |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ throws an magical iceball |    |        |    |       |    |           |
+                   ICEBALL |  9 | 12 yds | OG |  59   | a  |   15-64   |  B
+                           |    |        |    |       |    |           |
+      makes the opponent's |    |        |    |       |    |           |
+           armor disappear |    |        |    |       |    |           |
+                 ARMORWHAM | 11 | 10 yds | OG |  83   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         turns an opponent |    |        |    |       |    |           |
+                  into ice |    |        |    |       |    |           |
+                   ICEFIST | 11 | long   | O  |  120  | m  |     -     |  B
+          makes a group of |    |        |    |       |    |           |
+       opponents fall into |    |        |    |       |    |           |
+              a deep sleep |    |        |    |       |    |           |
+                     SLEEP | 11 | 10 yds | OG |  75   | s  |     -     |  B
+                           |    |        |    |       |    |           |
+          sets off anxiety |    |        |    |       |    |           |
+                  and fear |    |        |    |       |    |           |
+                    HORROR | 17 | 14 yds | AO |  65   | p  |   7-15    |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    sets off a brain shock |    |        |    |       |    |           |
+                     SHOCK | 15 | 10 yds | O  |  355  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+       being very cruel to |    |        |    |       |    |           |
+               an opponent |    |        |    |       |    |           |
+                  EVILSONG | 30 |  8 yds | AO |  120  | p  |   39-70   |  B
+
+------------------------------------------------------------------------------
+ 10a
+
+ Archmage Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+         burns an opponent |    |        |    |       |    |           |
+                      ACID |  6 | 10 yds | O  |  86   | a  |  40-150   |  B
+                           |    |        |    |       |    |           |
+      prevents an opponent |    |        |    |       |    |           |
+       from casting spells |    |        |    |       |    |           |
+                  SPELLZAP |  9 | long   | O  |  125  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     makes an opponent age |    |        |    |       |    |           |
+                    WITHER | 12 | 12 yds | OG |  110  | p  |   15-30   |  B
+                           |    |        |    |       |    |           |
+   speeds up the movements |    |        |    |       |    |           |
+                of a party |    |        |    |       |    |           |
+                     SPEED | 11 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+         blows an opponent |    |        |    |       |    |           |
+             12 yards away |    |        |    |       |    |           |
+                  BLOWAWAY |  8 |  2 yds | OG |  240  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+        sometimes turns an |    |        |    |       |    |           |
+       opponent into stone |    |        |    |       |    |           |
+                 STONEFIST | 15 | long   | O  |  62   | a  |  90-200   |  B
+                           |    |        |    |       |    |           |
+         makes an opponent |    |        |    |       |    |           |
+           ugly and stupid |    |        |    |       |    |           |
+                      NUTS |  8 | long   | AO |  115  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+       poisons an opponent |    |        |    |       |    |           |
+                   POISON! | 25 | 16 yds | AO |  135  | a  |  400-800  |  B
+                           |    |        |    |       |    |           |
+  enormously increases the |    |        |    |       |    |           |
+   battle power of a party |    |        |    |       |    |           |
+                     POWER | 22 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+          hits an opponent |    |        |    |       |    |           |
+           very critically |    |        |    |       |    |           |
+                EVILHAMMER | 45 | long   | AO |  110  | a  | 3000-5000 |  B
+
+------------------------------------------------------------------------------
+ 11a
+
+ Fairy Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+ returns up to 6 Hitpoints |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                    HEAL 6 |  3 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+      calms down and makes |    |        |    |       |    |           |
+           less aggressive |    |        |    |       |    |           |
+                    CALM 1 |  4 |  8 yds | O  |  155  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+        weakens opponent's |    |        |    |       |    |           |
+                   attacks |    |        |    |       |    |           |
+                   PROTECT |  5 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+ returns up to 6 Hitpoints |    |        |    |       |    |           |
+         to all characters |    |        |    |       |    |           |
+                 HEALALL 6 | 13 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+      calms down and makes |    |        |    |       |    |           |
+           less aggressive |    |        |    |       |    |           |
+                    CALM 2 |  9 |  8 yds | OG |  145  | p  |     -     |  B
+          returns up to 15 |    |        |    |       |    |           |
+          Hitpoints to all |    |        |    |       |    |           |
+                characters |    |        |    |       |    |           |
+                   HEAL 15 |  6 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+   creates a calming field |    |        |    |       |    |           |
+      around all opponents |    |        |    |       |    |           |
+                    CALM 3 | 14 | 10 yds | AO |  190  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+  makes a character immune |    |        |    |       |    |           |
+         to poison attacks |    |        |    |       |    |           |
+                  ANTIDOTE |  7 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+             protects from |    |        |    |       |    |           |
+         opponent's spells |    |        |    |       |    |           |
+                 ANTIMAGIC | 12 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+    makes a dead character |    |        |    |       |    |           |
+        come to life again |    |        |    |       |    |           |
+                    REVIVE | 40 |   -    | PM |  -    | a  |     -     |  E
+
+------------------------------------------------------------------------------
+ 12a
+
+ Witch Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      throws a storm punch |    |        |    |       |    |           |
+                 STORMFIST |  4 | 16 yds | O  |  45   | a  |  75-100   |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                "STRGHT 1" |  5 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+         prevents a battle |    |        |    |       |    |           |
+             at a distance |    |        |    |       |    |           |
+                  ANTIHURL |  6 | long   | O  |  179  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+  makes an opponent insane |    |        |    |       |    |           |
+                  INSANITY |  8 | 18 yds | O  |  155  | p  |   50-60   |  B
+                           |    |        |    |       |    |           |
+          causes an attack |    |        |    |       |    |           |
+               of weakness |    |        |    |       |    |           |
+                    FAINT! | 14 | long   | AO |  85   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+               "WC PLUS 1" | 12 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   incinerates an opponent |    |        |    |       |    |           |
+                  FIREBALL | 14 | 12 yds | OG |  70   | a  |  50-180   |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ guides arrows to a target |    |        |    |       |    |           |
+                 NEVERMISS | 10 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+   draws an opponent close |    |        |    |       |    |           |
+              to the party |    |        |    |       |    |           |
+                  PULLNEAR | 14 | long   | OG |  555  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+         turns unprotected |    |        |    |       |    |           |
+      opponents into stone |    |        |    |       |    |           |
+                 STONEFIRE | 22 | 14 yds | OG |  97   | a  |  110-175  |  B
+
+------------------------------------------------------------------------------
+ 13a
+
+ Enchanter Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+      sets off anxiety and |    |        |    |       |    |           |
+       fear in an opponent |    |        |    |       |    |           |
+                  FEARWORD |  4 | long   | O  |  155  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+          creates a strong |    |        |    |       |    |           |
+             magical light |    |        |    |       |    |           |
+            LIGHT (medium) | 10 |   -    | A  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+         shows the current |    |        |    |       |    |           |
+       position of a party |    |        |    |       |    |           |
+                  LOCATION |  1 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+     causes a strong greed |    |        |    |       |    |           |
+                 for money |    |        |    |       |    |           |
+                    GREED! | 13 | long   | AO |  166  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         reduces the power |    |        |    |       |    |           |
+                of weapons |    |        |    |       |    |           |
+                    WEAKEN | 10 | 12 yds | OG |  153  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+       sucks the opponents |    |        |    |       |    |           |
+             into a vortex |    |        |    |       |    |           |
+                   TORNADO | 10 |  8 yds | OG |  68   | vs |     -     |  B
+                           |    |        |    |       |    |           |
+        exposes opponent's |    |        |    |       |    |           |
+                  treasure |    |        |    |       |    |           |
+                    REVEAL | 30 | long   | AO |  60   | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        shows hidden doors |    |        |    |       |    |           |
+                     FLARE | 40 |   -    | A  |  -    | l  |     -     |  A
+  creates an illusion of a |    |        |    |       |    |           |
+    map of the surrounding |    |        |    |       |    |           |
+                      area |    |        |    |       |    |           |
+                   SHOWMAP | 23 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    blocks various attacks |    |        |    |       |    |           |
+                     BLOCK | 20 |   -    | P  |  -    | m  |     -     |  A
+
+------------------------------------------------------------------------------
+ 14a
+
+ Valkyrie Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+          creates a strong |    |        |    |       |    |           |
+                shock wave |    |        |    |       |    |           |
+                     BLAST |  6 | 12 yds | O  |  145  | a  |  100-220  |  B
+                           |    |        |    |       |    |           |
+        destroys armor and |    |        |    |       |    |           |
+          defensive powers |    |        |    |       |    |           |
+                 DEPROTECT |  8 | 10 yds | OG |  138  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+     enhances the throwing |    |        |    |       |    |           |
+      power of a character |    |        |    |       |    |           |
+                 LONGTHROW |  8 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+     guides direct attacks |    |        |    |       |    |           |
+   always to their targets |    |        |    |       |    |           |
+                   SUREHIT |  8 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     creates a fear sphere |    |        |    |       |    |           |
+                      FEAR | 11 | 14 yds | OG |  151  | p  |  40-160   |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    returns thrown weapons |    |        |    |       |    |           |
+                    RETURN |  9 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+      prevents a battle at |    |        |    |       |    |           |
+                a distance |    |        |    |       |    |           |
+                 ANTIHURL! | 12 | long   | AO |  149  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+       weakens an opponent |    |        |    |       |    |           |
+           in every regard |    |        |    |       |    |           |
+                 WEAKSPERE | 24 | long   | AO |  136  | p  |   5-40    |  B
+                           |    |        |    |       |    |           |
+     strengthens the power |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                   WEAPON! | 29 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+ reverts magic and strikes |    |        |    |       |    |           |
+      all Mages critically |    |        |    |       |    |           |
+                  REVMAGIC | 65 | long   | AO |  185  | a  |     -     |  B
+
+------------------------------------------------------------------------------
+ 15a
+
+ Cleric Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 7 Hitpoints |    |        |    |       |    |           |
+                    HEAL 7 |  3 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+          zaps a small sin |    |        |    |       |    |           |
+  committed by a character |    |        |    |       |    |           |
+                    ZAPSIN | 13 |   -    | PM |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+   removes all poison from |    |        |    |       |    |           |
+               a character |    |        |    |       |    |           |
+                   CLEANSE | 11 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+   zaps several small sins |    |        |    |       |    |           |
+  committed by a character |    |        |    |       |    |           |
+                   ZAPSIN! | 24 |   -    | PM |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+  cures vitamin deficiency |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                  VITAMINS | 16 |   -    | PM |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+          to 100 Hitpoints |    |        |    |       |    |           |
+                  HEAL 100 | 16 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+         zaps a mortal sin |    |        |    |       |    |           |
+  committed by a character |    |        |    |       |    |           |
+                  ZAPSIN!! | 31 |   -    | PM |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    return youth and power |    |        |    |       |    |           |
+                REJUVENATE | 21 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+          heals all wounds |    |        |    |       |    |           |
+                of a party |    |        |    |       |    |           |
+                   HEALALL | 36 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+     increases the loyalty |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                  SOULBIND | 75 |   -    | PM |  -    | p  |     -     |  E
+
+------------------------------------------------------------------------------
+ 16a
+
+ Priest Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 5 Hitpoints |    |        |    |       |    |           |
+                    HEAL 5 |  3 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+  alleviates the poisoning |    |        |    |       |    |           |
+                  somewhat |    |        |    |       |    |           |
+                   CLEANSE |  6 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+    alleviates the illness |    |        |    |       |    |           |
+                  somewhat |    |        |    |       |    |           |
+                      CURE |  9 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+         sobers up a drunk |    |        |    |       |    |           |
+                 character |    |        |    |       |    |           |
+                     SOBER |  7 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+ makes a character content |    |        |    |       |    |           |
+             and satisfied |    |        |    |       |    |           |
+                 ZAPHUNGER |  6 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 5 Hitpoints |    |        |    |       |    |           |
+                 HEALALL 5 | 12 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ puts an opponent to sleep |    |        |    |       |    |           |
+                     SLEEP | 10 | 10 yds | O  |  145  | s  |     -     |  B
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+           to 80 Hitpoints |    |        |    |       |    |           |
+                   HEAL 80 | 15 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+     petrifies an opponent |    |        |    |       |    |           |
+                 with fear |    |        |    |       |    |           |
+                   PETRIFY | 22 | 14 yds | O  |  52   | s  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                    "CURE" | 30 |   -    | A  |  -    | a  |     -     |  E
+
+------------------------------------------------------------------------------
+ 17a
+
+ Angel Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 8 Hitpoints |    |        |    |       |    |           |
+                    HEAL 8 |  4 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+         heals the illness |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                      CURE | 10 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+        weakens opponent's |    |        |    |       |    |           |
+                   attacks |    |        |    |       |    |           |
+                   PROTECT | 14 |   -    | P  |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+          heals all wounds |    |        |    |       |    |           |
+            of a character |    |        |    |       |    |           |
+                    HEAL A | 14 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+  creates a strong magical |    |        |    |       |    |           |
+           protection wall |    |        |    |       |    |           |
+                 MAGICWALL | 13 |   -    | PM |  -    | s  |     -     |  B
+                           |    |        |    |       |    |           |
+      heals all wounds and |    |        |    |       |    |           |
+            mental illness |    |        |    |       |    |           |
+                   RESTORE | 22 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+    makes immune to poison |    |        |    |       |    |           |
+                   attacks |    |        |    |       |    |           |
+                  ANTIDOTE | 20 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+    heals all wounds of up |    |        |    |       |    |           |
+          to 100 Hitpoints |    |        |    |       |    |           |
+               HEALALL 100 | 21 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+  creates a strong magical |    |        |    |       |    |           |
+           protection wall |    |        |    |       |    |           |
+                  MAGEWALL | 28 |   -    | P  |  -    | s  |     -     |  B
+                           |    |        |    |       |    |           |
+      heals all wounds and |    |        |    |       |    |           |
+            mental illness |    |        |    |       |    |           |
+                  RESTORE! | 45 |   -    | P  |  -    | a  |     -     |  A
+
+------------------------------------------------------------------------------
+ 18a
+
+ Warlock Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        hurls a magic club |    |        |    |       |    |           |
+                  MAGECLUB |  6 | 12 yds | O  |  135  | a  |  55-180   |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ enhances the battle power |    |        |    |       |    |           |
+                  WARPOWER |  6 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    returns thrown weapons |    |        |    |       |    |           |
+                   GETBACK | 13 |   -    | PM |  -    | l  |     -     |  A
+                           |    |        |    |       |    |           |
+    make an opponent loose |    |        |    |       |    |           |
+                all reason |    |        |    |       |    |           |
+                  MINDFIRE | 12 | 14 yds | OG |  85   | p  |  12-140   |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   incinerates an opponent |    |        |    |       |    |           |
+                  FIREWALL | 18 |  6 yds | AO |  83   | a  |  70-130   |  B
+                           |    |        |    |       |    |           |
+      destroys the magical |    |        |    |       |    |           |
+             defense power |    |        |    |       |    |           |
+                  ZAPPOWER | 23 | long   | AO |  135  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        hurls a stone club |    |        |    |       |    |           |
+                STONECLOUD | 21 | long   | O  |  76   | a  | 2000-4000 |  B
+                           |    |        |    |       |    |           |
+        creates a critical |    |        |    |       |    |           |
+               shock field |    |        |    |       |    |           |
+                BRAINSHOCK | 29 | 14 yds | OG |  116  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+  changes a berserker back |    |        |    |       |    |           |
+                    CANDOR | 34 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+    turns a character into |    |        |    |       |    |           |
+               a berserker |    |        |    |       |    |           |
+                 BERSERKER | 41 |   -    | PM |  -    | a  |     -     |  A
+
+------------------------------------------------------------------------------
+ 19a
+
+ Nymph Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 5 Hitpoints |    |        |    |       |    |           |
+                    HEAL 5 |  2 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+    calms down an opponent |    |        |    |       |    |           |
+                    CALM 1 |  6 |  8 yds | O  |  175  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+           to 24 Hitpoints |    |        |    |       |    |           |
+                   HEAL 24 |  6 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+         returns the youth |    |        |    |       |    |           |
+            to a character |    |        |    |       |    |           |
+                     YOUTH |  9 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+        calms down a group |    |        |    |       |    |           |
+              of opponents |    |        |    |       |    |           |
+                    CALM 2 | 11 |  8 yds | OG |  175  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+    creates a regeneration |    |        |    |       |    |           |
+                    sphere |    |        |    |       |    |           |
+                  R-SPHERE | 28 |   -    | P  |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ makes a tired party alert |    |        |    |       |    |           |
+                     AWAKE | 11 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+           to 24 Hitpoints |    |        |    |       |    |           |
+                HEALALL 24 | 16 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+       removes disease and |    |        |    |       |    |           |
+                   poisons |    |        |    |       |    |           |
+                     CURE! | 30 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+                creates an |    |        |    |       |    |           |
+    invulnerability sphere |    |        |    |       |    |           |
+                 R-SPHERE! | 50 |   -    | P  |  -    | l  |     -     |  A
+
+------------------------------------------------------------------------------
+ 20a
+
+ Druid Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                 "DXRTY 1" |  4 |   -    | A  |  -    | a  |     -     |  E
+      creates a protection |    |        |    |       |    |           |
+      field against poison |    |        |    |       |    |           |
+                   attacks |    |        |    |       |    |           |
+                POISONWALL |  7 |   -    | P  |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+       makes all opponents |    |        |    |       |    |           |
+           unable to speak |    |        |    |       |    |           |
+                   SILENCE | 11 | long   | AO |  145  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         makes an opponent |    |        |    |       |    |           |
+                  pass out |    |        |    |       |    |           |
+                   PASSOUT | 10 |  8 yds | OG |  45   | s  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                 "HEAL 15" | 11 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+         increases defense |    |        |    |       |    |           |
+             against magic |    |        |    |       |    |           |
+                ANTIMAGIC! | 15 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                 "REFRESH" | 17 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+         turns an opponent |    |        |    |       |    |           |
+                  into ice |    |        |    |       |    |           |
+                    FREEZE | 21 |  8 yds | OG |  95   | s  |     -     |  B
+                           |    |        |    |       |    |           |
+    prevents a corpse from |    |        |    |       |    |           |
+               decomposing |    |        |    |       |    |           |
+                     MUMMY | 22 |   -    | PM |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                 "HEALALL" | 31 |   -    | A  |  -    | a  |     -     |  E
+
+------------------------------------------------------------------------------
+ 21a
+
+ Alchemist Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                  "HEAL 4" |  2 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                 "SKILL 2" |  6 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+ envelops an opponent in a |    |        |    |       |    |           |
+   cloud of itching powder |    |        |    |       |    |           |
+                    ITCH 1 |  7 | long   | O  |  160  | s  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+               "DC PLUS 1" | 14 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+               "SC PLUS 1" | 17 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+     makes gold coins rain |    |        |    |       |    |           |
+               from heaven |    |        |    |       |    |           |
+                  GOLDRAIN | 12 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     causes a coughing fit |    |        |    |       |    |           |
+                     COUGH | 14 | 10 yds | OG |  150  | s  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+               "AC PLUS 1" | 16 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+        creates the potion |    |        |    |       |    |           |
+                   "INVUL" | 21 |   -    | A  |  -    | a  |     -     |  E
+                           |    |        |    |       |    |           |
+ envelops all opponents in |    |        |    |       |    |           |
+ a cloud of itching powder |    |        |    |       |    |           |
+                    ITCH 2 | 29 | 14 yds | AO |  155  | s  |     -     |  B
+
+------------------------------------------------------------------------------
+ 22a
+
+ Monk Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 6 Hitpoints |    |        |    |       |    |           |
+                    HEAL 6 |  2 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+ envelops an opponent in a |    |        |    |       |    |           |
+             cloud of heat |    |        |    |       |    |           |
+                      BURN |  4 |  8 yds | O  |  130  | a  |   2-17    |  B
+                           |    |        |    |       |    |           |
+    protects from "turn to |    |        |    |       |    |           |
+            stone" attacks |    |        |    |       |    |           |
+                 ANTISTONE |  6 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+    increases the strength |    |        |    |       |    |           |
+      and the battle power |    |        |    |       |    |           |
+                  WARPOWER | 10 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+          weakens and ages |    |        |    |       |    |           |
+               an opponent |    |        |    |       |    |           |
+                    WITHER |  8 | 16 yds | O  |  160  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+        heals wounds of up |    |        |    |       |    |           |
+            to 3 Hitpoints |    |        |    |       |    |           |
+                 HEALALL 3 | 14 |   -    | P  |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+      protects from thrown |    |        |    |       |    |           |
+        weapons and arrows |    |        |    |       |    |           |
+                HURLSHIELD | 10 |   -    | PM |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+         makes an opponent |    |        |    |       |    |           |
+                  go crazy |    |        |    |       |    |           |
+                     CURSE | 14 | 16 yds | O  |  150  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+        alleviates illness |    |        |    |       |    |           |
+             and poisoning |    |        |    |       |    |           |
+                    SOOTHE | 20 |   -    | PM |  -    | a  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      slimes the opponents |    |        |    |       |    |           |
+                 SLIMEFIST | 15 |  8 yds | OG |  135  | a  |   5-20    |  B
+
+------------------------------------------------------------------------------
+ 23a
+
+ Banshee Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+     makes the brain of an |    |        |    |       |    |           |
+          opponent explode |    |        |    |       |    |           |
+                   MINDZAP |  6 |  4 yds | O  |  112  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+  deteriorates the defense |    |        |    |       |    |           |
+                    WEAKEN |  8 | 10 yds | OG |  138  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     creates a nerve shock |    |        |    |       |    |           |
+                   MADNESS | 11 | 18 yds | OG |  155  | p  |   20-80   |  B
+                           |    |        |    |       |    |           |
+        leaves an opponent |    |        |    |       |    |           |
+       totally unprotected |    |        |    |       |    |           |
+                 ZAPSHIELD |  9 | 14 yds | O  |  192  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+         kills an opponent |    |        |    |       |    |           |
+                    HAMMER | 17 | long   | O  |  180  | a  |     -     |  B
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     unleashes a firestorm |    |        |    |       |    |           |
+                 FIRESTORM | 19 | 10 yds | OG |  46   | a  |  150-320  |  B
+                           |    |        |    |       |    |           |
+         makes the defense |    |        |    |       |    |           |
+                  collapse |    |        |    |       |    |           |
+                 UNPROTECT | 22 | 10 yds | AO |  138  | p  |     -     |  B
+                           |    |        |    |       |    |           |
+         turns an opponent |    |        |    |       |    |           |
+                  into ice |    |        |    |       |    |           |
+                   FREEZE! | 31 | 10 yds | AO |  95   | s  |     -     |  B
+                           |    |        |    |       |    |           |
+        creates a critical |    |        |    |       |    |           |
+              wall of fire |    |        |    |       |    |           |
+                  HELLFIRE | 29 | long   | OG |  157  | a  |  400-900  |  B
+                           |    |        |    |       |    |           |
+    destroys the brains of |    |        |    |       |    |           |
+             all opponents |    |        |    |       |    |           |
+                 MINDCRACK | 40 | 12 yds | AO |  142  | a  |     -     |  B
+
+------------------------------------------------------------------------------
+ 24a
+
+ Elementary Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+ creates a long and strong |    |        |    |       |    |           |
+             magical light |    |        |    |       |    |           |
+              LIGHT (long) | 15 |   -    | A  |  -    | l  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ makes it rain for a while |    |        |    |       |    |           |
+                      RAIN | 15 |   -    | A  |  -    | m  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     deactivates all traps |    |        |    |       |    |           |
+                  ZAPTRAPS | 15 |   -    | A  |  -    | m  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+       makes the sun shine |    |        |    |       |    |           |
+                   ZAPRAIN | 22 |   -    | A  |  -    | m  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+     stops the time, short |    |        |    |       |    |           |
+              TIME (short) | 20 |   -    | A  |  -    | s  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   makes a party invisible |    |        |    |       |    |           |
+                 INVISIBLE | 18 |   -    | P  |  -    | m  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   speeds up the movements |    |        |    |       |    |           |
+                 DOUBLEHIT | 22 |   -    | P  |  -    | m  |     -     |  A
+                           |    |        |    |       |    |           |
+           deactivates all |    |        |    |       |    |           |
+           teleport fields |    |        |    |       |    |           |
+                 TELEPORTS | 39 |   -    | A  |  -    | m  |     -     |  E
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      stops the time, long |    |        |    |       |    |           |
+               TIME (long) | 45 |   -    | A  |  -    | l  |     -     |  A
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+         unleashes a storm |    |        |    |       |    |           |
+                     STORM | 50 |   -    | A  |  -    | l  |     -     |  E
+
+------------------------------------------------------------------------------
+ 25a
+
+ Master Spells
+                      Name | MPt| Range  | *  | Power | o  |     !     | Type
+ --------------------------|----|--------|----|-------|----|-----------|-----
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   destroys all protection |    |        |    |       |    |           |
+                   DEARMOR | 30 | long   | AO |  199  | p  |     -     |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+      creates a life-stone |    |        |    |       |    |           |
+                 LIFESTONE | 35 |   -    | A  |  -    | a  |     -     |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+   creates a magical light |    |        |    |       |    |           |
+                PRIMEFLARE | 40 |   -    | A  |  -    | vl |     -     |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+  makes an opponent go mad |    |        |    |       |    |           |
+                  MINDWARP | 45 | long   | AO |  199  | p  |  400-900  |
+                           |    |        |    |       |    |           |
+     heals wounds, disease |    |        |    |       |    |           |
+             and poisoning |    |        |    |       |    |           |
+                 GREATHEAL | 45 |   -    | P  |  -    | a  |     -     |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+ improve characters values |    |        |    |       |    |           |
+                   IMPROVE | 50 |   -    | PM |  -    | m  |     -     |
+                           |    |        |    |       |    |           |
+             increases the |    |        |    |       |    |           |
+              battle class |    |        |    |       |    |           |
+                     SKILL | 60 |   -    | P  |  -    | m  |     -     |
+                           |    |        |    |       |    |           |
+           strengthens the |    |        |    |       |    |           |
+           magical spheres |    |        |    |       |    |           |
+                   SPHERES | 60 |   -    | P  |  -    | m  |     -     |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+       unleashes hell fire |    |        |    |       |    |           |
+                 PURGATORY | 70 | long   | AO |  199  | a  | 5000-9000 |
+                           |    |        |    |       |    |           |
+                           |    |        |    |       |    |           |
+                 heals all |    |        |    |       |    |           |
+                MASTERHEAL | 85 |   -    | P  |  -    | a  |     -     |
+
+------------------------------------------------------------------------------
+ 26a
+
+Magic Potions
+
+There is an abundance of various magic potions which can make the life of an
+adventurer easier. Magic potions are sort of like spells that even the
+non-Mages can use. You can either bye them in stores, create them using
+spells or quite simply find them. Due to space constrains we cannot list all
+the potions. A few remarks first to make the abbreviations and information
+easier to understand
+As a rule, the names of potions are composed of a description which indicates
+what the potion does, and a number which specifies how strong the effect is
+
+                 1  weak for a short time
+
+                 2  strong for a short time
+
+                 3  permanent improvement by 1 point
+
+                 4  permanent improvement by 2 points
+
+                 5  permanent improvement by 4 points
+
+               ----------------------------------------------------
+               |  A few examples                                  |
+               |                                                  |
+               |  WC PLUS 2 enhances the weapon class briefly     |
+               |                                                  |
+               |  DXRTY 3   performs a permanent improvement of   |
+               |            defensive fate by 1 point.            |
+               |                                                  |
+               |  ASHOT 1   will briefly enhance the Anti-shot    |
+               |            sphere (by about 4 points.)           |
+               ----------------------------------------------------
+
+------------------------------------------------------------------------------
+ 27a
+
+The healing potions are the exception since the number of hitpoints to
+regenerate is specified explicitly e.g., "Heal 15" heals by 15 hitpoints.
+
+The HP PLUS... potion increases the hitpoints permanently. Here are a few
+examples:
+
+         HP PLUS 1   increase by 1 point
+
+         HP PLUS 2   increase by 13 points
+
+         HP PLUS 3   increase by 25 points
+
+Furthermore, there are some potions with special effects. Here are a short
+selection:
+
+         YOUTH       heals an artificially aged character
+
+         REFRESH     relieves a character from hunger, thirst or exhaustion
+
+         SPELL       enables a Mage to learn a new spell
+
+         HP PLUS 1   increase by 1 point
+
+         BERSERKER   see the Warlock Spell of the same name
+
+         CANDOR      see the Warlock Spell of the same name
+
+         RESTORE     restores the character's values and Magepoints
+
+------------------------------------------------------------------------------
+ 28a
+
+POTION ABBREVIATIONS
+
+A lot of abbreviations, sometimes not very obvious, are used in potion names.
+The most important ones are as follows:
+
+                     DXRTY   Dexterity
+                     SKILL   Skill
+                    AMAGIC   Anti-magic spheres
+                     ASTON   Anti-stone sphere
+                     ASHOT   Anti-shot sphere
+                     AFIRE   Anti-fire sphere
+                    AINFCT   Anti-infection sphere
+                    MPOWER   A sphere of magical power
+                     INVUL   Invulnerability sphere
+                     ACRIT   Anti-critical sphere
+                    ACHARM   Anti-charm sphere
+                      MEYE   Magic eyes
+                    APOISN   Anti-poison sphere
+
+------------------------------------------------------------------------------
+ 29a
+
+Item Overview
+
+Since the exact effect and meaning of some items are not immediate apparent,
+here's a brief summary of the most important ones:
+
+      Pearls   gives the coordinate position of the party.
+     Whistle   deteriorates many of opponent's values.
+      Clover   eliminates hunger, thirst, tiredness and vitamin deficiency,
+               heals some things and improves the defenses.
+     Oakleaf   improves the defenses and heals by up to 3 Hitpoints.
+   Lifestone   makes a dead character come to life again.
+  Deathstone   releases a character who was turned into stone.
+ Crystalwand   permanently increases the strength by 1 point and the
+               Hitpoints by 3. It also heals poisoning and illness.
+   Curestaff   cures disease and returns 3 Hitpoints.
+   Grailwand   permanently increases the wisdom by 1 point and the
+               Hitpoints by 3.
+     Plunger   A plunger with a piece of string attached. Draws a group
+               of opponents to the party.
+    Repowand   cures poisoning.
+    Starwand   heals poisoning and illness.
+     Goldeye   creates a magical light that makes the secret doors visible.
+   Lockstaff   gives the position of a party.
+    Fracwand   stops the time briefly.
+   Stonering   protects against being turned into stone.
+
+------------------------------------------------------------------------------
+ 30a
+
+The following items are simply weapons. Their effects manifest themselves on
+the opponent to whom they're applied:
+
+                      Mirror   causes damage
+                       Sling   causes damage
+                       Fluff   makes an opponent possessed
+                 Holy Mortar   causes damage
+                   Eviltowel   makes insane
+                  Magic Sack   causes damage
+                     Warpipe   causes damage
+                   Flamewand   causes damage
+                  Dragonwand   turns into stone
+                    Jaggalak   poisons
+                   Stonewand   turns into stone
+                  Masterwand   strikes a decisive blow
+                     Bogwand   makes mad
+                   Deathwand   strikes a decisive blow
+                  Froststaff   lames
+                  Witherwand   makes old
+
+------------------------------------------------------------------------------
+ 31a
+
+Index
+
+ANTI-CHARM SPHERE The Anti-charm sphere protects the character from being
+ enchanted.
+ANTI-CRITICAL SPHERE The Anti-critical sphere can protect the weak points
+ from being hit in battle.
+ANTI-FIRE SPHERE The Anti-fire sphere protects against burns of all types.
+ANTI-INFECTION SPHERE The Anti-infection sphere can prevent a character from
+ getting sick.
+ANTI-MAGIC SPHERE The Anti-magic sphere protects the character against
+ opponent's spells.
+ANTI-POISON SPHERE The Anti-poison sphere protects the characters from being
+ poisoned.
+ANTI-SHOT SPHERE The Anti-shot sphere blocks arrows and thrown weapons.
+ANTI-STONE SPHERE The Anti-stone sphere protects the character from being
+ turned into stone.
+ARMOR CLASS (AC) The armor class specifies how well a character is protected
+ against attacks. It is composed of the clothing and armor the character
+ wears as well as the physical constitution of the character.
+ATTRIBUTES see character values.
+BROADSIDE WEAPON A weapon which can be used to attack a whole group of
+ opponents or even all opponents simultaneously.
+CHARACTER A character is a figure controlled by the player during a role
+ playing game. A character has particular character values and various
+ characteristics and abilities.
+CHARACTER VALUE A character value determines the abilities of a character.
+ It can be improved during the game.
+CLASS Each character has a predefined class. This is similar to a profession
+
+------------------------------------------------------------------------------
+ 32a
+
+ but cannot be changed during a game. The class determines the development of
+ a character.
+CONJURER, Conjures magicians.
+CRIMES The crimes are killing or injuring of friendly persons. Friendly
+ persons are decent citizens in the towns as well as fairies and nymphs in
+ the wilderness.
+CRITICAL HIT A critical hit is always fatal. It hits the miracle spot of the
+ opponent.
+DAMAGE POINTS Damage points indicate the amount of injury caused by a blow or
+ spell. They are subtracted from the Hitpoints.
+DEATH As in role playing games the death is not final. Dead people can be
+ brought back to life at any time using proper measures. Only when a character
+ remains dead for too long he cannot be revived.
+DEXTERITY CLASS (DC) The dexterity class indicates how well a character can
+ deflect opponent's attacks. It is composed of defence abilities, battle
+ experience (level) as well as the armor in its possession.
+DISEASE The effect of disease are similar, but stronger, to those of poisons.
+DOOR There are many different types of doors. Some are visible, others are
+ not. A few are only passable in one direction.
+DUNGEON A dungeon or a vault, usually underground, swarming with dangerous
+ monsters and valuable treasures.
+ENCHANTER, Enchantress magicians.
+EXPERIENCE POINT Each character gets experience points for each successful
+ action. When a certain number of points is reached the character is promoted
+ to a higher level.
+FIGURE See character.
+FORTY-TWO A very famous number which, in contrast to many other computer
+
+------------------------------------------------------------------------------
+ 33a
+
+ games, has absolutely no meaning in FATE.
+GROUP OF OPPONENTS Opponents basically attack in an orderly formation. They
+ can be organized in up to 5 groups each with up to 8 members.
+GUILDS In contrast to other buildings guilds have a completely different
+ meaning to the one in reality. In role playing games guilds are magical
+ places where new abilities are negotiated and the art of magic is learned.
+HITPOINTS The Hitpoints indicate the health of a character. A few Hitpoints
+ are lost with each hostile encounter. Once they are down to zero the
+ character dies.
+INCANTATIONS Invoking of demons to support the party.
+INDULGENCE Get a pardon for one's sins.
+INVULNERABILITY SPHERE The invulnerability sphere protects the characters
+ from injury or limits the damage.
+JEWEL By using a jewel a map of the surrounding area can be looked at.
+LAW The law in FATE is set and maintained by druids and guards.
+LEGEND OF FAERGHAIL Another neat role playing game by reLINE.
+LEVEL A level is an experience plane which a character reaches during game
+ play. The higher the level the easier it is for the character to master
+ difficult situations.
+ Level also describes the floors in a dungeon. The various levels are on top
+ of each other and are connected by stairs.
+MAGEPOINTS Each Mage has a certain number of Magepoints. After each spell a
+ fixed number of points is subtracted. When all Magepoints have been used up
+ the Mage must rest before being able to cast spells again.
+MAGIC CLASSES The spells are divided into various magic classes. When a Mage
+ learns all spells in a magic class he can be granted a new magic class in a
+ guild.
+
+------------------------------------------------------------------------------
+ 34a
+
+MAGIC EYE The magic eye protects the character from falling into traps.
+MENU All options available to a player at any given time are listed in a menu.
+NON-PLAYER CHARACTER (NPC) An NPC is a character figure which cannot be
+ controlled by the player. They proceed at their own discretion.
+OLD Old is a special condition of a character. This does not mean the natural
+ process of aging but an artificially caused condition. The character is
+ robbed of all of his abilities.
+OPTION Options are all possible courses of action available to the character
+ in a certain situation.
+OUTLAWS If a character commits more than 9 crimes he is considered an outlaw
+ and may be killed by the custodians of the law without warning.
+PARTY A party is a group of characters which have joined forces and roam the
+ world together.
+PARTY SWITCHING Party Switching is changing from one party to another.
+PERMIT The character can get a permit to learn spells and to increase their
+ character value. They are educated in the guilds.
+PIASTER The monetary unit in the world of FATE.
+PLAYER A strange being sitting in front of a computer in a tense posture and
+ with a strained expression on his face.
+POISON If a character is poisoned his defensive powers decrease considerably.
+ If this condition persists he starts loosing Hitpoints and eventually
+ character values.
+POSSESSED A possessed character cannot be controlled by the player anymore.
+ He's neither dead nor alive and is dominated by a diabolical power.
+PROMOTION From time to time the characters are rewarded for their efforts.
+ They are promoted to a higher level and receive a number of bonus points
+
+------------------------------------------------------------------------------
+ 35a
+
+ for special abilities.
+RACE Each character has a predefined race to which he belongs and which
+ affects his abilities.
+reLINE The legendary software company which basically only produces
+ exquisite software.
+RESTAUR., RESTAURANT Restores bodily and mental capabilities.
+SCROLL Reading a holy scroll can kill all opponents in one go.
+SINS See crimes.
+SKILL CLASS (SC) The skill class indicates how skilful a character is at
+ administering blows. It is composed of its attack skill, battle experience
+ (level) as well as the weapons in its possession.
+SORCERER, SORCERESS Magicians.
+SPELLS Each Mage has a certain number of spells available to him. Once a
+ spell has been learned it can be used at will. New spells can be learned in
+ the guilds.
+SPHERE OF MAGICAL POWER The sphere of magical power enhances the magical
+ power of a spell cast by a Mage and increases its punch.
+STATUS The status of a character determines its general condition. Normally,
+ he's OK but he can also be insane, turned into a stone or dead.
+STONING A character condition similar to death. A character who was turned
+ into stone does not decompose and can be brought back to life at any time.
+TELEPORT FIELD Teleport fields transport the party in trouble to a different,
+ safer place.
+UNDEAD See possessed.
+WARLOCK A magician.
+WATER You cannot normally go across water surfaces on foot or by swimming.
+
+------------------------------------------------------------------------------
+ 36a
+
+ You can reach the other side only by ship.
+WEAPON CLASS (WC) The weapon class indicates the damage a character can
+ inflict in an attack. It is composed of all weapons a character carries, the
+ strength and various other factors.
+WIZARD A magician.
+W.PIPE War-pipe.
+
+
+
+ Also available:
+
+LEGEND OF FAERGHAIL  Amiga, Atari ST (color + mono), IBM PC
+A group of, still uninjured, warriors are sent to a neighboring country to get
+help in war against fairies. Impressive graphics and numerous sound
+effects make for a perfect atmosphere. An international hit!
+
+------------------------------------------------------------------------------
+
+                                   Typed by
+                  FastBrain, Dennis the Menace and Allan TNT
+                                     1994

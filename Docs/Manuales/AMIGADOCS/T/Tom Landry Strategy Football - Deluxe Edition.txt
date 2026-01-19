@@ -1,0 +1,1404 @@
+                               SKID ROW
+
+                               presents
+
+              TOM LANDRY STRATEGY FOOTBALL DELUXE EDITION
+
+Technical Reference Guide
+
+Amiga Requirements
+
+Tom Landry Strategy Football Deluxe Edition offers more features than any
+other football game on the Amiga and is very memory-intensive.  For this
+reason, we strongly recommend a hard drive and 1.5 Megabytes of RAM.  
+Although TLSF Deluxe will run on systems with 1MB of RAM, you may encounter
+difficulties, especially if you load Workbench and have windows open.
+If your machine has only 1MB of memory, you may have to boot from a copy
+of Disk 1 of TLSF Deluxe.  (Always play with copies of the original disks!)
+The TLSF Deluxe Editor runs easily in 1MB.
+
+Installing TLSF Deluxe to Your Hard Drive
+
+(1) Boot from your hard drive, not the game disk.
+(2) Open the disk labeled DTLSF1.
+(3) Double-click on the Install DTLSF icon.  You will be prompted to
+select a partition or drawer where you want TLSF Deluxe.  If you wish
+to bypass this step, or don't use the User-startup file, you will need
+to make the assigns yourself.  The Three assigns are DTLSF1:, DTLSF2:,
+DTLSF3:, and all three should refer to the directory created by the
+installation program.
+           
+NOTE: The installation program modifies your User-startup file to make
+the assigns necessary to run TLSF Deluxe.  If you wish to bypass this 
+step, or don't use the User-startup file, you will need to make the
+assigns yourself.  The three assigns are DTLSF1:, DTLSF2:, DTLSF3:, and
+all three should refer to the directory created by the installation
+program.
+
+Starting the Game
+
+(A) From Workbench: Open the DTLSF1 disk and double-click on the game
+icon, labelled FOOTBALL.
+(B) CLI users: Move to the DTLSF drawer and type Football and the
+game will load and run for you.
+
+Don't Ever Play With Your Originals
+
+The disks are not copy-protected because we believe you should have the
+confidence of backing up your disks, as well as copying the program to
+your hard drive.  Many other publishers don't give you this option.
+Please prove them wrong by not abusing our trust.  Pass the word, not the
+disk!  If you are playing the game from your backup copies of the original
+disks, you should make sure that the disks are named DTLSF1, DTLSF2, and
+DTLSF3, since the program will have to look for certain files.
+
+User Validation
+
+Following the opening credits sequence is the user validation screen.
+This screen shows an offensive play diagram and prompts you to enter a 3-
+character password printed in the TLSF Deluxe User's Guide.  Turn to the
+page in the User's Guide which shows the exact same offensive play diagram.
+Locate the correct password printed below the diagram and enter this
+password from your keyboard.  If you have entered the correct password,
+the TLSF Deluxe main screen will appear.
+
+(Fuck that, SKID ROW cracked this bitch!)
+
+Loading the TLSF Deluxe Editor
+
+The TLSF Deluxe editor is a separate application.
+(A) From Workbench: Open the DTLSF1 disk and double-click on the game
+icon, labelled EDITOR.
+(B) CLI users: Move to the DTLSF drawer and type Editor.
+
+Not Enough Memory
+
+Workbench, disk drives, hard drive partitions, and background applications
+all take up memory.  If you have only 1 Megabyte of RAM, you may find it
+necessary to boot off your copy of the DTLSF1 disk.  This method of
+running the program bypasses Workbench and starts the football game
+directly.
+
+Modem Play
+
+Playing AMiga to PC-Compatibles.  Because the Amiga architecture differs
+from PC-Compatibles, TLSF Deluxe leagues must be converted if they are
+to be shared between the two platforms.  To avoid confusion, the conversion
+program exists only on the Amiga.  Hence, if sending a league from your
+Amiga to a PC, you must first convert it.  Likewise, when you receive a
+league from a PC to your Amiga, convert it upon receiving it.
+
+Running the League Conversion Program.  From the CLI, type convert_lg
+at the CLI prompt.  From Workbench, double-click on the Convert_lg icon.
+You will then be asked for the name of the input league to convert,
+then the name of the converted league being created.  The current and
+new leagues must have different names.
+
+NOTE: If you are running the conversion program from the Workbench,
+you'll need to close the window when done.
+
+Troubleshooting.  Users with high-speed modems may sometimes encounter
+difficulties because their modem is forcing flow control.  If you 
+encounter any problems connecting using your high-speed modem, you
+should disable XON/XOFF and RTS/CTS flow control.  We suggest the
+following steps:
+
+   (1) From the main screen, select CONNECT to go to the telecomm screen.
+   (2) At the telecomm screen, enter the following string in the Answer
+   string box: AT&K (this disables all flow control).
+   (3) If you are the answering machine, now enter your answering string
+   (ATS0=1, ATA, etc).  If you want, you can save your answer string
+   as: AT&K S0=1 or AT&K ATA, etc.
+   (4) The dialing machine proceeds as normal.  Again, if you wish,
+   you can include the AT&K in your dial string.  Users with call-
+   waiting may be interrupted during play.  We suggest you include the
+   command to disable call-waiting in your dial command.  Consult your
+   local phone company to determine the command; *70 is an example.
+
+ 
+                             USER'S GUIDE
+
+Getting Started
+
+A Word from Coach Landry
+
+I've been asked many times what it takes to become a successful
+head football coach.  Is it preparation?  Knowledge?  Personnel
+and time management skills?  Dedication?  Determination?
+
+The answer is no secret - it takes all of these factors and a lot
+more, even a little bit of luck!
+
+Tom Landry Strategy Football (TLSF) is the first strategy football
+game which tests your coaching ability in all of these areas.  In
+fact, TLSF is more than just a game, it's a football simulation which
+offers you everything real coaches have at their disposal - and more!
+
+Even though pro coaching is a complicated business, we have designed 
+TLSF so that it can be enjoyed by beginners and experts, alike.  Extensive
+online help - including football fundamentals, rules, and terminology -
+is available if you want it.  Plus, in the Ask Landry option, I share my
+advice and philosophy in numerous play situations, based on down and
+distance, field position, score, and time remaining.  And play-calling
+is easy - just point and click and your team is off and running.
+
+Football has been a very important part of my life, and I am happy to
+share some of my coaching experience with you in TLSF.  Even if you
+don't aspire to become a pro football coach, I hope TLSF will enhance
+your understanding and increase your enjoyment of football - either as
+a player or a fan.
+
+                                           Tom Landry
+Designer's Notes:
+
+Our goal is designing TLSF Deluxe Edition was to create the most
+entertaining football game on the market.  One reason we're confident
+we have achieved this goal is that we've spent a great deal of time
+evaluating requests and suggestions from owners of the original version
+of TLSF.  In fact, almost all of the enhancements to this Deluxe
+Edition of TLSF have come about as a result of valuable input from our
+users.
+
+We wanted to make TLSF Deluxe more than just an entertaining game,
+however.  Coach Landry's extensive involvement in the project in the
+form of advice, suggestions, and critiques has helped make TLSF
+Deluxe the most complete and realistic simulation of football
+you'll find, with the emphasis on real football strategy.
+
+With the League Editor you can create leagues of College or Pro
+teams and create 16-game professional seasons (using pro rules to
+create pairings).  You have access to modify all of the team and
+individual attributes, including team colors and detailed coaching
+strategies.
+
+In League play, you can try to coach your team to the playoffs and
+the Championship Game.  Throughout the season, you can view the
+division standings, league leaders, and teams' season stats.  There's
+even a "Sunday Night Recap" in which you can recap all the games
+of the current week (films automatically catch all the scoring plays
+for you to watch in instant replay).
+
+Of course, you'll have to contend with real penalties (some teams get
+flagged more than others), injuries, (losing your quarterback for the
+season makes your task pretty tough), and weather.
+
+In Exhibition games, we've included a Scenario Editor.  A complete
+coaching clinic, the Scenario Editor enables you to create any
+scenario you want and play it.  Perhaps you would want to see how
+you would do in a two-minute drill, down by 4, in a blizzard!
+
+And with a modem, you can play your coaching rivals in other cities!
+
+Our modular approach to playcalling is the most flexible and powerful
+interface in any football game.  You have literally thousands of plays
+available to you - a "playbook on the fly," just like in real life.
+However, you'll also find playcalling simple and intuitive!
+
+With all of these features and more, we hope you'll find TLSF Deluxe
+to be the ultimate strategy football game, providing you with the
+full coaching experience, simulating all of the "tools of the trade"
+that coaches on the field have.
+
+Kerry Batts
+
+Before Playing
+
+Following are some important points you should know before playing
+TLSF Deluxe:
+
+1. Games are either Scheduled or Exhibition.  In scheduled games,
+the team selections are limited to the pairings for a given week in
+the scheduled.  In exhibition games, you may select any two teams
+to play and may modify the game conditions.
+
+2. When using the Telecomm option, you are responsible for ensuring
+that both players are using the same league.  If playing a scheduled
+game, both players must also be using the same schedule, and be at the 
+same week.
+
+3. On "cycle" buttons (which cycle through a list of options), clicking
+on the right side of the button advances through the list; clicking
+on the left side backs up in the list.
+
+4. Don't overlook the wealth of information available to you in the
+online Help.  We've included a glossary of football terms, descriptions
+of offensive and defensive formations, running and passing plays,
+and much more.  Whether you want to know more about which pass patterns
+to throw against zone coverage, or how to best defend against the run,
+it's all here!
+
+5. Even in scheduled games, go to the Scenario Editor to get pre-game
+information on the game conditions.
+
+6. Locate the GO! button in the lower right corner.  This button is
+used to exit most screens.  Other buttons on the lower panel allow
+you to save and load games and quit the game.
+
+7. On the defense screen, clicking on the miniature playing area pops
+up a dialog box describing your opponent's offensive formation and
+strong side.
+
+8. The TLSF Editor is an executable utility program that is separate
+from the main TLSF Deluxe application.  Please consult your TLSF Deluxe
+Technical Reference Guide for instructions on how to load the TLSF
+Editor.
+
+9. The leagues (and the custom schedules which are bound to those
+leagues) that you create and save in the TLSF Editor will appear in
+the Load a League menu in the main TLSF Deluxe application.
+
+League Play
+
+Playing Scheduled Games
+
+TLSF Deluxe season schedules include 16 games and three rounds of playoffs,
+with the Landry Bowl Championship Game (see Appendix C for how playoff
+teams are determined).  From the main screen, toggle the game type
+button from Exhibition to Scheduled.  If the two teams currently selected
+aren't scheduled to play this week, you'll need to click on Select Teams
+to select a matchup.  Either team's coach can be Human or Computer.
+
+Figure 1.  Toggling the Game Type Button
+
+At the end of the game, season stats are automatically updated.  To
+view the season stats, leaders, records, etc., go to the Current
+Season screen, from the main screen.
+
+Note: Please see the section entitled, The TLSF Editor for information
+on creating custom schedules using the Schedule Editor.
+
+Computer Simulation of Games
+
+At the Select Teams screen, you can opt to have the computer simulate
+this week, or even the whole season.  You can also have the computer
+simulate individual games by selecting a matchup, then setting both
+coaches to Computer.  (For fast play of individual games, turn off
+animation at the Preferences screen.)
+
+Figure 2.  The Select Teams Screen
+
+When simulating a week, the computer quickly plays each remaining
+game in which neither team has a Human default coach.  This allows
+you to play scheduled games with your favorite teams each week and
+let the computer play all of the other games of the week automatically.
+
+Example:  If you favorite team is Dallas, you can create a custom
+league in the TLSF Editor which designates Dallas as having a Human
+default coach.  When you load this league in the main TLSF application
+and select Scheduled Games, you will be able to play all of the other
+teams' games automatically.
+
+Note: Please see the section entitled, The TLSF Editor for information
+on designating a default Human coach for a given team.
+
+When simulating an entire season, the computer simulates all games
+each week, until you interrupt the simulation.  At the end of the
+season, you are given the option of continuing the simulation or 
+playing the playoffs yourself.
+
+A note about the computer simulations.  The computer does play
+complete games, rather than just "estimating" the result.  Season
+stats, records, and injuries are automatically updated.  Computer-
+coached teams use the playcalling tendencies for the teams (these
+can be modified with the TLSF Editor).
+
+Team Standings
+
+From the Current Season screen you can access a wealth of information
+regarding league play, including the team standings.
+
+Figure 3.  The Current Season Menu
+
+In TLSF Deluxe professional leagues, the same rules used in the pros
+are used to determine division leaders:
+
+   1. Overall won-loss record
+   2. Head-to-head records
+   3. Best won-lost-tied percentage in divisional games
+   4. Best won-lost-tied percentage in conference games
+   5. Best won-lost-tied percentage in common games
+   6. Best net points in division games
+   7. Best net points in all games
+   8. Coin toss
+
+In college leagues, teams are ranked by won-loss records.
+
+League Leaders
+
+League leaders in 18 different categories are available at any time.
+Track the rushing and passing leaders, who has the longest reception,
+scoring leaders, etc.
+
+Figure 4.  League Leaders
+
+Team Stats
+
+You can view each team's compiled season stats, as well as how 
+opponents have done versus each team.  View total stats or average
+"per-game" stats.  Both team and individual stats are given.
+
+Reviewing the Week's Games
+
+All completed games of the current week are available for recap.
+Just select a matchup from the list of games, and you can view the
+final game stats for the teams and individuals.  Game films capture
+all the scoring plays for the week's games.  For your records,
+you can print the game stats and all scoring drives.
+
+Viewing the Schedule
+
+You can view (and print) the season schedule by team or by week.
+
+Figure 5.  Viewing the Schedule by Team
+
+Clearing the Season
+
+Clearing the Season clears all injuries, records, and statistics,
+allowing you replay the season from the beginning.
+
+Today's Game
+
+The Scoreboard
+
+Most information you need during the game is available with a glance
+at the scoreboard.  The teams are displayed, with the home team being
+on the bottom.  A light to the left of the teams indicates which team
+currently has the ball.  Directly to the right of the team names are
+three small lights which indicate the number of timeouts remaining
+for each team.  Farther right, the six larger boxes display each
+team's score by quarter, including overtime, and the scoring totals. 
+The right side of the scoreboard displays the game time and quarter,
+down and distance to go, and the line of scrimmage.
+
+Figure 6.  The Scoreboard
+
+Selecting a League
+
+With the TLSF Editor, you can create custom leagues with custom
+schedules, including college leagues.  Click on Load a League to
+select the league for today's game.  (See the section entitled,
+The TLSF Editor for more details.)
+
+Scouting the Teams
+
+Once you've loaded a league, you can scout the individual teams.
+Click on Scout Teams to select a team to view.  You can view the
+team's offense, defense, or playcalling, and print the team's roster
+of starters and subs.
+
+Selecting the Teams and Coaches
+
+Click on Select Teams to set today's opponents.  If playing a scheduled
+game, choose from any remaining scheduled game for this week.  In
+exhibition games, you can select any two teams.  There are 3 ways
+to play, in addition to telecomm play:
+
+   o Human vs. Human
+   o Human vs. Computer
+   o Computer vs. Computer
+
+Figure 7 illustrates how you may select any of these options from the
+Today's Game section of the main screen.  Each button may be toggled in
+two positions - Human or Computer - via the point-and-click interface.
+If, for example, you (Dallas) want to play against the computer (Buffalo),
+you would click on the button next to Buffalo until Computer is displayed.
+In the same way, you would click on the button next to Dallas until
+Human is displayed.  Once play has begun, these options may not be
+changed unless you quit the game.
+
+Figure 7.  Three Ways to Play
+
+Human vs. Human.  This option provides the greatest variety in play while 
+requiring, perhaps, the greatest amount of skill.  You can play with 
+another person at your location, or you can play with someone at a remote
+location via a modem.  Refer to the Telecommunications section in this 
+manual for detailed instructions on playing TLSF Deluxe using a modem.
+
+Human vs. Computer.  This option still requires the same amount of skill
+as before, but now you are pitting your play-calling skills against those 
+of the computer.  When playing against the computer, TLSF Deluxe randomly 
+selects plays based on statistical data pertinent to the way each pro team 
+plays.  For example, Houston likes to run the Run and Shoot offense, so the 
+computer randomly calls plays based upon Houston's team statistics.
+
+Computer vs. Computer.  If you just want to sit back, relax, and enjoy 
+watching your two favorite teams play, then choose this mode of play.  
+You will still be able to see what plays the computer calls as you cheer 
+your team to victory.  You may stop play and return to the main screen
+at any time by pressing any key on the keyboard.
+
+The Computer vs. Computer option is also for when you want to play a
+quick game of football.  To speed up the game, click on the Preferences
+button and turn off the animation option.  To play an even quicker game, 
+click on the Preferences button and turn off both the animation and the 
+computer's calls.
+
+Game Conditions and the Scenario Editor
+
+In scheduled games, game conditions depend on the time of year and the
+home team's site and stadium.  With exhibition games, however, you have
+complete control over the game conditions and initial scenario.  You
+can access the game conditions for the current game by clicking on the
+Scenario Editor button at the main screen.
+
+Figure 8 shows the Scenario Editor screen.  The Scenario Editor may
+be used when:
+
+   o you do not have time to play a complete game
+   o you want to practice particular game situations (two-minute offense,
+     etc.
+   o you want to relive some of football's greatest plays.
+   o you want to view the weather conditions for today's game.
+
+Figure 8.  The Scenario Editor
+
+To change the data in any field within the Scenario Editor, simply
+click on that field and type in the new data using the keyboard.
+Using the Scenario Editor is both simple and quick.  For example,
+if you want to practice your fourth quarter two-minute offense,
+simply click the game clock  TIME  2:00  with the mouse pointer changing 
+the clock (using the keyboard) to 2:00 remaining in the game.  Next
+change the QTR (quarter) to FOURTH. and set the score, weather, ball
+possession, and yardline marker to whatever you wish depending upon
+the game conditions you want to set up.  Clicking on GO! saves your 
+selections and takes you back to the main screen.  Clicking on GO! from 
+the main screen starts your two-minute offense drill.  Clicking on NEW 
+GAME resets the Scenario Editor data fields to the default values.
+
+Coaching Essentials
+
+Consider the Weather
+
+Before starting the game, go to the Scenario Editor to view today's
+weather.  During the game, simply click on Weather to get an update.
+
+Scout Your Opponent
+
+Both before and during the game, scout your opponent!  A coach who
+ignores his opponent's strengths and weaknesses is asking for trouble.
+It's also a good idea to scout your own team, if you're not well
+acquainted with it.
+
+To scout your opponent during the game, select Scout - select Subs
+to view your own team.
+
+Make Substitutions 
+
+From the Subs screen, you can select reserve players.  Sometimes a 
+reserve may be weaker overall, but may be stronger in a particular
+area.  For instance, some reserve running backs are better receivers
+than the starters.
+
+Watch the Game Stats
+
+For an objective snapshot of how you and your opponent are doing,
+select Stats.  You can see how individuals are doing, as well as how
+both teams are doing overall.  Pay attention to time of possession,
+since defenses can tire late in a game if left on the field too much.
+
+Access Online Help
+
+The online Help provides crucial information about many different facets
+of football.  If you haven't been to a football clinic, don't ignore this
+option.  In addition to a glossary of football terms, there's in-depth
+discussion of the different aspects of football.  There's also much 
+information specific to TLSF Deluxe.  The online Help is context
+sensitive.
+
+Ask Landry
+
+Advice from Coach Landry is available to help you understand the
+particular situation, and what options are best in this situation.
+At the advice screen, select GO! to exit, or click on Suggest to let
+the Coach recommend a play for you.
+
+Manage the Clock
+
+Managing the clock is a critical aspect of playing a good football game.
+Even some of the best coaches fail in this area, and it can cost the
+game.  So that you can manage the clock effectively, the clock menu
+is provided which allows for several options (see Figure 9)>
+
+It is recommended that you select the option to have the clock
+menu displayed whenever the clock is running if you are trying to
+conserve time; in which case you should also tell your ball carrier
+or receiver to get out of bounds to stop the clock.
+
+Deal with Penalties and Injuries
+
+Penalties and injuries are an unfortunate part of every game.  Unlike
+most football games, TLSF Deluxe includes all the penalties which occur
+in real football.  You can set each team's penalty rate in the TLSF
+Editor.
+
+Some penalties are optional, whereas others are not.  During play when a 
+penalty does occur; the referee will come on-screen to explain the 
+infraction.  If, for example, the penalty is against your opponent, you 
+will be given the option of accepting or declining the penalty.  If the 
+penalty is against you, your opponent (human or computer) will of course 
+choose to accept or decline the penalty.  When playing against the 
+computer, the computer will make the best choice for itself in regard to
+penalties.
+
+Evaluate Game Films (Instant Replay)
+
+Instant replay is a very powerful tool used by coaches, players, officials, 
+and fans.  Selecting Replay from the command bar enables you to control 
+both the speed and direction of the replay.
+
+Note: The Instant Replay VCR control panel can be relocated by clicking
+on the up/down arrow at the left end of the panel.
+
+
+Offense
+
+Calling Plays
+
+TLSF employs a modular approach to calling offensive plays.  This approach
+is simpler and far more powerful than the playcalling in other games.
+While most games have a separate playbook, we know that coaches in real
+life create plays on the fly during games, changing individual components
+of plays.  They might try the same run from a different formation, for
+instance, or send a different man in motion, or add playaction.
+
+Figure 10.  The Offense Screen
+
+With this approach, you have literally thousands of plays available at your
+fingertips.  Yet, changing a play is as simple as clicking on a button.
+Your offensive playcalling is only limited by your imagination!
+
+Selecting an offensive play consists of selecting a formation, the strong
+side (right or left), the specific play, and the assigned ball carrier
+or receiver.  You can also send any flanker in motion and add playaction
+fakes to any pass.  Of course, "trick" plays are included!  The play is
+displayed on the miniature playing field.
+
+Formations
+
+There are 12 offensive formations available:
+
+Running Formations:
+   o Pro I (strong for inside runs - traps, slants, counters)
+   o Power I Right (Pro I which cheats to the right)
+   o Power I Left (Pro I which cheats to the left)
+   o Brown (strong inside runs to the weak side and Fullback)  
+   o Blue (strong inside runs to the strong side) 
+   o Short Yardage (strong inside runs up the middle /off-tackle)
+
+Passing Formations:
+   o Run and Shoot (four wide receivers stretch the defense)
+   o Trips (four wide receivers, three on one side)
+   o Shotgun (gives the QB more time to read the defense)
+   o Shotgun/4WR (powerful, but not as much pass blocking)
+
+Balanced Formations:
+   o Pro Set (good for outside runs and passing)
+   o One Back (good to both sides, passing, counters)
+
+Note: For each formation, you can also decide which side is the "strong"
+side - the side having more receivers.
+
+The Running Game
+
+While passing is more exciting, the running game is important in 
+establishing control of the game and consuming the clock.  All runs work
+better against "pass" defenses, but traps and draws work particularly well.
+Use traps to attack middle blitzes and the 3-4 or shifted 4-3 lines.
+Use draws to attack zones and Nickel defenses.
+
+Middle Runs.  Middle runs are designed to test the defensive line strength
+by running the Back directly over the Center.  The middle runs that
+are available are:
+
+   o  Line Plunge
+   o  Middle Trap 
+   o  Draw
+   o  Drop to Knee
+
+Inside Runs.  Inside runs are also designed to wear down the defensive
+line.  If your offense can establish a good running game, then you
+will limit the time your opponent has the ball.  The inside runs that 
+are available are: 
+
+   o  Slant Left
+   o  Slant Right
+   o  Counter Left
+   o  Counter Right
+
+Outside Runs.  Outside running plays are designed for a quick back who
+can round the corner without being caught.  If he is quick enough, the
+back will not be tackled until he reaches the defensive secondary.  The
+outside runs that are available are:
+
+   o  Sweep Left
+   o  Sweep Right
+   o  Reverse
+
+Note: Outside runs are also good for attacking Nickel defenses, which
+have one less linebacker.
+
+The Passing Game
+
+Short Passes.  Short passes are easiest to complete and can even replace
+the running game for some teams.  They work best against zone coverages
+and are much less effective against man to man.  If you're patient,
+and the defense keeps staying in zones, use these to "nickel and dime"
+your way downfield.
+
+Short Routes:                           
+   RB: Circle, Flat, Flare, Delay, Shuffle        
+   WR: Zoom, Hitch, Quick Out, Slant     
+   TE: Slant In, Slant Out, Delay        
+
+Medium Passes.  Medium passes actually consist of two sets of near-
+identical routes, one deeper than the other.  For instance, the sideline
+route is deeper than the square out.  Deeper routes take more time to
+develop but can get more yardage, of course.
+
+Medium Routes:
+   RB: Hook, Come Back, Square Out, Sideline
+   WR: Cross, Square Out, Sideline, Hook, Come Back, Square In, Fade
+   TE: Cross, Square Out, Sideline, Hook, Come Back
+
+Long Passes.  Long passes stretch the defense and are great for attacking
+man to man coverage.  They're also important when you need to pick
+up a lot of yardage at once.  If the running backs are covered by 
+linebackers, it's often a mismatch.  Against blitzes, you should keep
+a back near, as a "hot" receiver.
+
+Long Routes:
+   RB: Corner, Out and Up, Fly, Post
+   WR: Post, Corner, Fly, Hook and Go
+   TE: Post, Corner, Fly, Hook and Go
+
+Finesses Passes.  Finesse passes try to take advantage of some leaning
+in the defense.  Screens are used, for instance, to slow a pass rush.
+If the defense keeps focusing on the pass, especially with zone coverage,
+use screens against him.  The "Hail Mary" pass is a last-ditch desperate
+pass.  The Halfback Pass and the Flea Flicker are trick plays designed
+for use against a run defense.  They should be set up by establishing
+a good running game and shouldn't be called too often.  (It's harder
+to fool the secondary a second time).
+
+Defense
+
+Calling Plays
+
+On the defense screen, TLSF Deluxe offers the same modular approach to
+playcalling that is used in the offense screen.  You have hundreds of
+defensive combinations at your fingertips, giving you full flexibility
+to adjust your defense to meet the offense at their strengths and
+tendencies.
+
+Figure 11.  The Defense Screen
+
+Note: For help in recognizing your opponent's offensive formation,
+click on the miniature playing area.  A dialog box will display the
+offensive formation and strength.
+
+Defensive sets consist of the focus (run or pass), basic formation,
+lineshift, and secondary coverage.  In addition, with man to man
+coverage you may blitz the Weak Safety and any linebackers, and
+doubleteam a particular receiver.  Against the run, you may direct
+your linemen and linebackers how to key.
+
+Focus
+
+Although your men must be able to respond to each play, they initially
+look for a particular type of play: run or pass.  When defending the pass,
+the linemen rush harder, straight toward the quarterback, and the
+linebackers immediately begin dropping away from the line.  When
+focusing on the run, the linemen hold their ground and the linebackers
+hesitate.  Obviously, being right helps the defense considerably,
+while being wrong puts them at a disadvantage!
+
+Formations
+
+There are seven basic formations:
+
+Run Defense:
+   o Flex (safest, basically a staggered 4-3)
+   o Short Yardage (risky, but very good when needing just a few yards)
+   o Goal Line (open to big gains, this 5-2 has lots of big, slow guys)
+
+Pass Defense:
+   o Nickel (generates good pass rush, decent versus most runs, replaces
+     a linebacker with a fifth defensive back)
+   o Prevent (3-2-6, poor pass rush, accepts small gains to prevent
+     big ones)
+
+Balanced Formations:
+   o 4-3 (good against both run and passes, good pass rush)
+   o 3-4 (less pass rush, better versus sweeps and short passes)
+
+Shifting
+
+Formations with 4-man lines can shift the linemen in anticipation of the
+point of attack.  There are five shifts available:
+   o Over (shift to the offense's strong side) 
+   o Under (shift to the offense's weak side)
+   o Tight (squeeze the inside runs)  
+   o Wide (line up outside the blockers)
+   o Stunt (generate a much stronger pass rush)
+
+Coverage
+
+Defenses normally use three pass coverages to stop an offense: Man To Man, 
+2-Deep Zone ("Halves"), and 3-Deep Zone ("Thirds").  Generally, Man to Man 
+coverage is best against short passes, and it allows linebackers to blitz, 
+whereas the 2-Deep Zone is best against medium passes.  The 3-Deep Zone is 
+best against long passes.  To select the coverage you want to use, just 
+point and click on the COVERAGE button.
+
+Blitzing
+
+Blitzing linebackers and defensive backs can cause offenses major
+headaches, though they also create dangerous holes in the defense which
+good offenses may exploit.  Blitzing can increase offensive mistakes and
+cause fumbles but can also give up big yardage.  As you select different
+men to blitz, watch the miniature display.  Blitzing the safety puts a lot
+of pressure on the quarterback, and the corners have to try to keep their
+receivers inside.  Outside patterns are a little easier, while inside 
+routes are more difficult (though, if caught, can yield big gains).
+
+Keys 
+
+When the RUN button is displayed, you will have the option of retaining
+normal keys, or keying on the flow or on a particular man.  When the PASS
+button is displayed and you are in man to man coverage, you may
+choose to Double Team a primary receiver.
+
+Special Teams
+
+The performance of the special teams often plays a decisive role in the
+outcome of a football game.  A punter who can consistently bury the
+opposing team inside their own 20 helps his defense out considerably.
+The punt or kick returner who breaks free for a long return can fire
+up his team and put pressure on the opposing defense (even better,
+he can score, which really fires his team up).  And a proficient field
+goal kicker is worth his weight in gold, especially in close games.
+
+On kickoffs, the kicking team has the option of onside, squib, or deep
+kicks, and the receiving team decides how to line up his team.  On punts
+and fieldgoal attempts, the defense can put on a heavier rush, which
+increases the chance of a block but also increases the chance of 
+roughing the kicker.  Or they may want to hold up and watch for a fake
+kick.
+
+Post-Game
+
+Following the completion of a game, the FINAL GAME STATS will automatically
+be displayed on the screen.  To view the statistics of the Visiting Team,
+point and click on VISITOR.  Once the visitor's stats are displayed, you
+may choose to review the rushing, receiving, passing, and the total
+yards.  To view the Home Team's statistics, point and click on HOME.
+Once your stats are displayed, you may choose to review the rushing,
+receiving, passing, and the total yards.
+
+Note: You also have the option of printing out the Final Game Stats
+by clicking on the Print button.
+
+Clicking on GO! takes you to the End of the Game screen where you may
+view the scoring drives and update the season stats.
+
+View Scoring Drives
+
+Clicking on the VIEW SCORING DRIVES button takes you through each scoring
+drive of the game.  The type of score (touchdown, field goal, or safety)
+is indicated at the top of the screen along with the following information:
+
+   o  who scored
+   o  in what quarter the score occurred
+   o  the game clock time
+   o  the number of yards covered in how many plays
+   o  The amount of time the drive consumed.
+
+To view each additional scoring drive, click on the Next button; to
+back up and look at previous drive, click on the Prev button.  During
+the review of the scoring drives, you may opt to review the game film.
+To do this, click on the Replay button in the command bar to review 
+whatever scoring drive you want.  The message, Please Wait While We
+Load the Film, will be displayed until the game film is ready to be shown.
+At this point, the actions you need to review the film are exactly
+the same as for the instant Replay.
+
+Note: You also have the option of printing out the statistics of all
+your scoring drives by clicking on the Print All Drives button.  
+
+When you are finished viewing the game film of a particular scoring
+drive, you may click on GO! to take you back to the End of Game screen.
+
+If you want to save the game you just finished playing, click on the
+Save button located in the command bar.  Then click on the first
+available numbered line on the Save screen, enter an appropriate
+filename, and press the Enter key.  Saving a complete game will enable 
+you to review and replay scoring drives.  When you return to the End
+of Game screen, you may click on GO! in the command bar to return to the
+TLSF Deluxe main screen.
+
+Update Season Stats
+
+Season Stats are not automatically compiled with college or mix leagues.
+However, you can still compile the stats and records if you wish by 
+clicking on the Update Season Stats button.
+
+Telecomm Play
+
+Clicking on Connect in the Telecommunications box on the main screen
+allows you to play TLSF Deluxe with a friend at a remote location, 
+provided both of you have a modem.  Figure 12 shows the Telecomm screen
+in which data can be entered via the mouse and keyboard.
+
+Figure 12.  The Telecomm Screen
+
+Establishing a Connection
+
+On the Telecomm screen you need to select:
+
+   o  Dial command for your modem (often ATDT or ATDP)*
+      To disable your call-waiting, consult your local telephone
+      company.  A common command is *70 (for example, the command
+      would be "ATDT *70").
+   o  Answer command for your modem * ATS0=1 signals it to answer on the
+      first ring ATA signals "auto-answer."
+   o  Baud rate (of course, both machines have to be the same).
+   o  COM PORT (for PC-compatibles), either: COM1, COM2, COM3, or COM4.
+   o  Select Dial or Answer for remote connection, Null Modem for a 
+      direct connection.
+
+If connecting directly via a null-modem, both machines simply select the 
+Null Modem button.
+
+If connecting via a modem, you need to decide beforehand which player is
+going to call and who is going to answer, and select the appropriate
+buttons.  The TLSF software will dial and establish the connection.  If
+successful, you will be returned to the main screen.  If you cannot
+connect, a message will notify you of the problem, such as The line's
+busy.
+
+Starting the Game
+
+Once you have established a connection, the player who initiated the call
+(the caller) will begin gameplay by clicking on the GO! button at the main
+screen.  (The player who answered the call must wait for the caller to
+begin gameplay.)
+
+One player at a time has control, and the other player will see a message
+like Your opponent is deciding.  The person in control can set all the
+game options that are normally available (instant replay, consult Landry,
+make player substitutions, etc.), including Chat with the opponent.
+The current offensive and defensive screens reflect each player's 
+previous non-kicking call, so you can keep tabs on each other's 
+tendencies.
+
+Chatting with Your Opponent
+
+Clicking on the Chat button opens two windows for typing messages to each 
+other.  Chatting is not available if either player is viewing animation or
+consulting Landry.  Once the chat windows are open, you can each type 
+messages to each other.  Your text appears in the upper window, and your 
+opponent's messages appear in the lower one.  Either player can exit the 
+chatting mode by clicking on the Exit button.
+
+Note: "Forcing" a Chat while it is your opponent's turn could seriously
+disrupt telecommunications.  Therefore, it is recommended that you only
+initiate a Chat when it is your turn to call the next play.
+
+Hanging Up
+
+When you have finished playing a game and have finished viewing the post-
+game highlights, return to the main screen and click on Disconnect at
+the Telecommunications box.
+
+Note: If you decide to stop the game and resume it at a later time, it
+is imperative that both players save the game before disconnecting.
+Simply click on the Save button in the command bar at the bottom of the
+screen.  At the save screen, click on an empty line, enter a filename,
+and press the Enter key to save the file.
+
+Troubleshooting:
+
+   o Check to make sure you are both at the same baud rate.
+   o When playing exhibition games, be sure both of you are using the
+     same league.  
+   o When playing scheduled league games, be sure both of you are using 
+     the same league and schedule.
+
+Game Preferences
+
+This screen allows you to set game conditions.  A check mark in the box
+next to the condition means the condition is enabled.  To deselect a
+game condition, click on the box you want to deselect and the red check
+mark will disappear.  
+
+Note: Preferences may be changed during a game by clicking Prefs in the 
+command bar at the bottom of the screen.  In scheduled games, some 
+preferences are automatically on.  Homefield advantage is on in every
+game (other than the Landry Bowl), including playoffs.  Injuries,
+fatigue, and modern timing are also kept on.
+
+The following conditions may be set for your game:
+
+o Use modern timing
+     Until recent years, the clock stopped if a player went out of bounds
+     or if there was a penalty on the play, and it did not restart until
+     the ball was snapped.  Modern rules, however, try to speed up the
+     game.  Under modern rules, officials restart the clock after kick
+     returns, players going out of bounds, and declined penalties,
+     after the chains have been moved.  There are exceptions to these
+     rules; however; in the final 5 minutes of the 4th quarter or final
+     2 minutes of the 2nd (and overtime quarters), the clock does not
+     restart until the ball is snapped.
+
+o Injuries
+     This option makes players susceptible to injury.
+
+o Fatigue
+     Players tire at a normal rate; substitutions can be made for tired
+     and/or injured players.
+
+o Homefield advantage
+     Playing in front of the hometown fans offers a distinct advantage;
+     also, many domed stadiums offer an advantage in that the crowd noise
+     can be a factor in whether the visiting team can hear audibles at
+     the line of scrimmage.
+
+o Play sound effects
+     Sound effects are built into the program which will enhance your
+     enjoyment when playing TLSF Deluxe.
+
+
+o Ball Color
+     You have the option of choosing a Normal or a Highlighted football  
+     for the animation sequences.
+
+o Music
+     Music is played at all menus and submenus, but not during animation
+     sequences.
+
+o Show digitized PICS
+     Whenever you score a touchdown, field goal, safety, or incur a 
+     penalty, a digitized referee appears on the screen to signal the
+     points scored or the infraction.  You may turn off this feature
+     to speed up game play.
+
+o Show animation
+     When this option is selected, you will the see the players on the
+     playing field throughout the game.  You may turn this feature off
+     to speed up game play.
+
+o Show computer's calls
+     When playing computer vs. computer, or human vs. computer, you will
+     see what offensive or defensive play the computer calls.  You may 
+     turn this feature off to speed up game play.
+
+The TLSF Editor
+
+With the TLSF Editor, you can create your own leagues of teams from
+any year and create realistic schedules.  Or you might opt to design
+a league of teams from different years (for instance, some great teams
+from the past).  You can even create college leagues, complete with current
+college rules.  In addition to editing the league and schedules, you can
+edit the teams and individual players.
+
+Notes: The TLSF Editor is an executable utility program that is separate
+from the main TLSF Deluxe application.  Please consult your TLSF Deluxe
+Technical Reference Guide for instructions on how to load the TLSF
+Editor.
+
+The leagues (and associated custom schedules) that you create and save
+in the TLSF Editor will appear in the Load a League menu in the main
+TLSF Deluxe application.
+
+Figure 13.  The TLSF Editor Menu
+
+After you load the TLSF Editor, the first screen you will see is the
+Select League screen, where you click on the league you wish to load
+and edit.  If you are using the TLSF Editor for the first time,
+you will select the default league that appears on the Select League
+screen.  You will use this default league as a starting point for
+creating a customized league of your own.
+
+A Word of Caution:  Changes to the league are not saved until you
+save the league!  Click on Save at the bottom of the screen.  When
+you are ready to save your newly created league for the first time,
+be sure to give this new league a name that is different from the default
+league that came with TLSF Deluxe, otherwise you will overwrite data
+contained in the default league.
+
+Leagues
+
+First decide what type of league this is to be - college, a mixture
+of pro teams from different years, or a normal single season league
+of pro teams.  Rename the league, conferences, and divisions to 
+whatever you like.
+
+Figure 14.  The League Edit Screen
+
+Teams
+
+Click on a team to edit and you will see the main team edit screen.
+Here you can rename your team (and its abbreviation) and set its
+default coach.  Set the default coach to Human for any teams you
+wish to play manually when using the Scheduled Game option in the
+TLSF Deluxe application.  Set the default coach to Computer for the
+teams that you want the computer to coach automatically in simulated
+Scheduled Games.  When the computer is coaching a team, it will use
+certain tendencies, and it will have a particular approach to the game,
+depending on what "style" you set for it.  For example, a gambling
+coach is more likely to go for it on 4th and one.
+
+In addition to setting the team's penalty rate, you can also set the 
+weather conditions at the team's home stadium.  Cold sites, for 
+example, are increasingly likely to have snow late in the season.
+The four buttons across the bottom of the screen allow editing of the
+four main subcomponents of each team - Offense, Defense, Special
+Teams and Team Colors.
+
+Figure 15. The Team Edit Screen
+
+Offense.  
+
+There are three aspects to the offense: the abilities of individual
+players, how the offensive unit performs as a whole, and the coach's
+playcalling tendencies.  At the offense unit screen, you can set the
+offensive line's abilities (as a unit) in both pass and run blocking.
+Also, you can set the preferred formations for whenever the computer
+coaches the team. 
+
+Figure 16.  Editing Offensive Players
+
+Offensive Players.
+   You can set the starters and reserve players at all the key offensive
+   positions.  The editor allows you to quickly change players' names 
+   and attributes.  To quickly change all a player's attributes to a
+   value, click in the box next to Initialize All Values and enter the
+   value (1-9) you want for that player.  Note that halfbacks have
+   passing attributes because they throw from both halfback passes and
+   fake kicks.
+
+Offensive Playcalling.
+   Coaches usually take different approaches depending on where their
+   team is on the field, breaking the field into roughly three areas:  
+   inside their own 20, between the 20's, and in the "Red Zone" (scoring
+   range).  For each area, percentages are given for each down and
+   distance (second and long, for instance).  Use this screen to define
+   how the computer coach guides this team.
+
+Defense.  As in the offense, the defense must be viewed both as individuals
+and as a unit.  On the main defensive screen, the overall defensive unit
+is defined.  The individual players can be modified on a separate screen.
+
+Special Teams.  At this screen are the kicker, punter, and return men.
+The kicker performs on kickoffs, fieldgoals, and point after touchdown
+kicks.  As in real life, punters differ in strength, hang time, and
+accuracy.  Some punters are better at nailing their opponents inside
+the 20, for example.  Finally, define the abilities for the kick and 
+punt return men, including how much the individual is used.
+
+Team Colors.  The team's colors can be set by cycling through the available
+colors with the Prev and Next buttons.  Some teams prefer to wear white at
+home, while others prefer to wear their colored jerseys.  You can set the
+team's home preference.
+
+Schedules
+
+In addition to modifying the league and teams, you can create complete 
+16-game pro schedules, including a bye week for each team.  Using actual
+professional league rules, the schedules generated for each team depend
+on a number of factors:  the team's standing at the end of the previous
+season, and the year of the schedule being generated.
+
+Figure 17.  The TLSF Schedule Editor
+
+Creating a Custom Schedule.  To create a custom schedule, follow these
+steps:
+
+o Enter the year of the schedule.  Simply click in the text box and enter
+  the desired year.
+
+o Next, decide how you want to rank the team standings for the previous
+  year:  Do you want to rank them yourself, or do you want the computer
+  to rank them randomly?
+
+o If you want to rank them manually, click on the Manually Adjust Rankings
+  button and rearrange the rankings within each division.  If you want
+  the computer to rank the teams, click on the Use Random Rankings button.
+
+o Note: After the computer has randomly ranked the teams, you may click
+  on the Manually Adjust Rankings button to view the rankings.
+
+o Click on the New button to generate a new season based on the parameters
+  you have just chosen.
+
+o Click on By Week or By Team to view the newly created schedule.  (You
+  may also print the new schedule.)
+
+o Click on the Save button in the Schedules box, enter a filename for 
+  your new schedule, and press Enter to save.
+
+Note: Do not confuse the Save button in the Schedules box with the
+Save button in the command bar at the bottom of the screen.  The former
+is for savings schedules; the latter is for savings leagues.
+
+Building a Custom League and a Custom Schedule.  To bind a custom
+league and a custom schedule together, follow these steps:
+
+   o Load the league of your choice by clicking on the Load a League
+     button on the main screen of the TLSF Editor.
+   o Load the schedule of your choice by clicking on the Load button
+     in the Schedules box on the TLSF Schedule Editor screen.
+   o Save the combined league and schedule file by clicking on the 
+     Save button in the command bar at the bottom of the screen
+     (See Figure 18).  It is recommended that you use a unique
+     filename for this new file.
+
+Figure 18.  Binding League and Schedule Files Together
+
+Note: Although only one schedule is linked to a league at a time, you 
+can save different league/schedule permutations for loading and replaying
+later.
+
+Appendix A: What's New in TLSF Deluxe
+
+o A full-blown editor is now included to allow editing of leagues, teams,
+  men, and schedules.  In keeping with the design of the original TLSF,
+  you'll find our editor to be one of the friendliest and most flexible
+  you've used in any game.
+
+o League play now takes TLSF to a new level of game play.  Multi-game
+  injuries can wreck your season.  Season stats and records are 
+  automatically maintained, and league leaders and division leaders
+  are tracked.  Real playoffs include a wildcard round and the 
+  championship Landry Bowl.
+
+o Offenses now have five new formations (Blue, Power I Left, Power I
+  Right, Shotgun 4 WR, Trips) and can switch the Tight End to the other
+  side by setting the "strong side" to the left or right.
+
+o In the original version of TLSF, the only offensive player sent in motion
+  was the first flanker.  You can now select either flanker to go in
+  motion.
+
+o New pass patterns have been added, such as the Shuffle and the Hook
+  and Go.
+
+o In addition to shifting over and under, the defensive line can now
+  shift inside and outside, and even stunt (god on passing downs).
+
+o While blitzing in the original TLSF was simple, it was incomplete.
+  Now you can customize your blitzing, giving specific orders
+  to each individual linebacker.  Also, you can now send the weak
+  safety on a safety blitz!
+
+o The Instant Replay VCR control can now be located at either the top or
+  bottom of the screen to reveal different portions of the field.
+
+o Finally, we've added print routines to allow you to print stats,
+  drives, rosters, etc., either to a file or directly to your printer.
+
+Appendix B: League Rules and Penalties
+
+Unlike most football games, TLSF Deluxe includes all the penalties
+which can occur in a real game.  Penalties can occur before and
+after turnovers, can be offsetting, can be enforced on the following
+kickoff... well, you get the idea.  With TLSF Deluxe you get real
+penalties, and real headaches - just like coaches in real life.
+
+We have used real league rules in both the college and pro leagues
+(of course, the rules in real life seem to change yearly).  For
+example, in determining schedules and playoff teams, we emulated the
+algorithms used by pros.
+
+Appendix C: Playoffs
+
+Twelve teams make the playoffs.  In each conference, there are three
+divisional winners and three wildcard teams.  The first week of
+postseason play is the Wildcard round - four teams from each conference
+play.  The next week is referred to as the "First Round" and involves
+the remaining eight teams.  The four winners of that round then play in 
+the Conference Championship games.  Finally, for the grand prize,
+the two conference champions meet in the Landry Bowl at a neutral
+site.  The rules for determining divisional leaders are described in the
+League Play section of the manual, and the rules for determining the
+wildcard teams are similar.
+
+Appendix D: Computer Play
+
+When playing a computer opponent, the computer uses the tendencies for
+that team.  In special situations, like a two-minute offense, it 
+switches to other, more appropriate logic.  Also, the computer tracks
+your playcalling by field position, down, and distance.  For instance,
+if it notices you are tending to run inside on second and 5, it
+modifies its defense - just like human coaches do.  However, if your
+running game is faltering, it may just ignore your run.
+
+Conversely, if the computer picks up that you play a lot of man to man
+coverage on first and 10, expect some longer passes.  Just a note here -
+under no circumstances does the computer "cheat" or "know" your call,
+so what you call is important.
+
+Appendix E: Game-winning Strategy
+
+TLSF Deluxe has a wealth of football strategy available at your
+fingertips.  Selecting the online Help brings up over 20 different
+topics to help you develop winning strategy during the game when you
+need it.  The following information is meant to supplement the online
+Help.
+
+Football Strategy
+
+In the early days of football, teams relied almost solely on guts.  
+However, as the game progressed, innovative coaches like Lombardi,
+Shula, Landry, Walsh, and Gibbs have continually found ways to give the
+other teams headaches.  With proper understanding and use of formations -
+offensive and defensive - even weaker teams can often find an edge over
+stronger opponents.
+
+The same holds true for the other components of the game.  Winning
+offenses use motion and misdirection, while successful defenses confuse
+their opponents with shifting lines, blitzes, and different pass 
+coverages. 
+
+TLSF Deluxe offers you all of the tools of the trade that "real" coaches 
+use.  Your assistant coaches have scouted your opponent and you can check
+their reports at anytime to recognize player strengths and weaknesses.
+As the game progresses, you should check the game stats.  These can
+often reveal whether your opponent is focusing on a particular back or
+receiver, or leaning heavily on the run or pass.  They may also show
+that you are over-playing your own hand and need to mix up your
+plays a little bit more.
+
+If you are playing against a computer coach, the scouting report even
+tells you his offensive tendencies for different parts of the field.
+Of course, those tendencies are not much use in lop-sided games, or
+against human coaches.
+
+Field Position
+
+The football field is 100 yards from your goal line to your opponent's 
+goal, and where you are on the field should play a major role in your
+playcalling.  Most coaches break the field up into five areas.
+
+Inside the offense's 20 is the dangerous part of the field.  If you
+make one mistake here, your opponent likely has at least 3 points.
+Good quarterbacks will throw the ball away rather than be sacked or
+force the ball into a crowd.  Rarely do you see pitches, reverses, or
+screens within the 20 yardline.
+
+From the 20 up to the 35 yardline, the offense can open up, but still
+has to avoid turnovers and sacks.  Second and 9 isn't too bad, but 
+second and 15 is real tough between the 20 and 35 yardlines.
+
+Offenses can call just about anything (playaction, misdirection, trick
+plays, bombs) between the 35 yardlines.  Defenses usually go with zones,
+especially late in a game, but sometimes use blitzes to rattle the
+offense and perhaps force a mistake or at least a wasted down.
+
+Inside the 35 yardline, the offense is usually in field goal range,
+and almost never punts.  The key here is to avoid losing yards, so the
+offense will call short and medium plays.
+
+Inside the 20 yardline is the most difficult part of the field from
+which to score.  Pass routes must become shorter and the quarterback
+must get rid of the ball quicker.  It is important to try to score
+either a touchdown or at least a fieldgoal every time you are within
+your opponent's 20 yardline.
+
+Passing
+
+To have a successful passing offense, receivers must know their routes
+and the quarterback must be able to hit his receivers.  Nothing is more
+frustrating than completing a ten yard pass on 3rd and 14.  The 
+quarterback also must be able to read defensive formations and to call 
+audibles at the line of scrimmage when necessary.
+
+The very short passes (Flare, Flat and Zoom) are designed to outwit
+blitzing defenses.  Short passes are used to pick up 5 to 7 yards.
+Medium routes are good for 10 to 12 yards, while deep, medium, routes
+can usually yield about 13 to 16 yards.  Long passes are good for at
+least 20 yards.
+
+Generally, man-to-man coverage is best against short passes; 2-Deep
+zones, against medium passes; and 3-Deep zones, against long passes.
+However, each defensive formation has its strengths and weaknesses.
+For instance, the 2-Deep zone is great against fly and corner patterns,
+but weak against posts.  In man-to-man coverage, the presence of a 
+Free Safety can make the difference between a long completion and a 
+deep interception (the Weak Safety is "free" if he doesn't have to
+cover a receiver).  Zone defenses are usually known for causing
+interceptions.  Man-to-man coverage allows linebackers to blitz,
+which can cause loss of yards and fumbles.
+
+Offenses can attack man-to-man coverages with long passes, especially
+fly patterns and passes to backs (who are usually faster than the
+linebackers trying to cover them).  Also, man-to-man coverages are
+usually not as good against runs, unless blitzing with Run focus.
+Attack zone defenses with short passes, draws, screens and playaction
+passes.  
+
+Running
+
+The three types of runs are the power runs, bread-and-butter runs, and
+finesse plays.  Power runs are used to wear down a defense, or when
+you need just a yard or two.  The Line Plunge is the main power run.
+
+The off-tackle runs (slants) and sweeps are your basic runs.  Slants
+are a little safer than sweeps, especially versus the 3-4 defense,
+while sweeps have more potential for longer gains.
+
+If the defense is over-pursuing ("keying on flow"), the offense has to
+call misdirection plays - counters and traps.  Traps are particularly
+strong against zones and Nickel formations.
+
+Offensive Formations
+
+There are three basic groups of offensive formations: strong running
+sets, strong passing formations, and balanced formations.  Using 
+different sets can keep your opponent off balance.  Use the strengths
+of each formation, but also mix in some running from passing sets.
+
+If you want a strong running game, especially inside, use mainly
+the Pro I and Brown formations.  The Brown is particularly strong for
+the fullback running off the left tackle, while the I is very good
+for inside runs.
+
+For a more balanced attack, at the cost of some inside strength, use
+the Pro Set and One-back offenses.  Both of these sets open up the
+one-back set is excellent for running counters.
+
+If you want a wide-open game, use the Run-and-Shoot formation.  This
+offense spreads the defense across the field and gives the quarterback
+plenty of choices for receivers.  If your quarterback has a slow release,
+or cannot find open receivers, plan on a lot of quarterback sacks.
+
+The Short Yardage and Shotgun formations are specialized formations;
+use them when you need them.  They are particularly good for run and
+pass plays.
+
+Defensive Formations
+
+While the offense uses formations to maximize strength, the defense
+uses different sets to try to anticipate the offense's point of attack.
+Different formations are stronger against plays and weaker against
+others.
+
+One of the most interesting defensive positions is that of the Free Safety.
+Actually, there is no Free Safety position.  Rather, there are two
+defensive safeties on the field - the Strong Safety and the Weak Safety
+(the names have nothing to do with their strength).  The Strong Safety
+is responsible for covering the Tight End in man-to-man pass coverage
+or a deep zone in zones.  The Weak Safety may also have an assignment.
+In zone coverage, he covers a deep zone.  However, in man-to-man coverage,
+if all the receivers are already covered, he becomes a "free" safety.
+From there, he can react to the ball and often assists on both runs
+and passes.  He can also be used to double-cover a receiver.
+
+Short zone coverage gives the defense five zones approximately ten
+yards beyond the line of scrimmage, and two deep zones extending to the
+remainder of the field.  Short zones are very tough on medium and long
+passes, except posts.  The deep zone set has 4 short and 3 deep zones,
+which is not quite as good against medium passes, but is better against
+the deep passes.
+
+SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW

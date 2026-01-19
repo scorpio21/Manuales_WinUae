@@ -1,0 +1,290 @@
+.
+                       |
+                      .|
+.---------------------||----------------------------------------------.
+|  título del juego || FORMADOR DE VIGAS |
+`---------------------||----------------------------------------------'
+|   empresa de software || ESTUDIO LIMÓN AZUL |
+`---------------------||----------------------------------------------'
+|     suministrado por || FE`97 |
+`---------------------||----------------------------------------------'
+|protección eliminada por|| NINGUNO ENCONTRADO |
+`---------------------||----------------------------------------------'
+                      :|
+                      .
+
+
+
+           Documentación de Beambender - 1997 - Blue Lemon Studio®
+
+
+RECOMENDACIONES --------------------------------------------------------------
+
+ ¡Elimine la protección contra escritura si ejecuta Beambender desde un disquete!
+ Inserte el disquete en la unidad df0: y reinicie la computadora.
+ Se recomienda instalar Beambender en el disco duro.
+
+
+INSALACIÓN ------------------------------------------------------------------
+
+ En el banco de trabajo, arrastre el ícono del cajón de Beambender al directorio del disco duro.
+ en el que desea instalar Beambender.
+ Comience con un doble clic en el ícono bb en el cajón.
+
+
+MENÚ PRINCIPAL --------------------------------------------------------------------
+
+ En la ventana del menú use las teclas del cursor para moverse hacia arriba, abajo, izquierda o derecha.
+·MODO JUGADOR Modo único (1 jugador) o modo equipo (2 jugadores)
+·MOUSE/JOYSTICK Control mediante ratón o joystick.
+·MUSIK/FX Selección de Unidad-Música o FX (teclas del cursor izquierda/derecha).
+                  Mientras está en la ventana del menú, puede reproducir la música seleccionada
+                  presionando la tecla de retorno. También es posible después de cada unidad.
+                  Seleccione como se muestra arriba, continúe con el clic del mouse.
+·Contraseñas de nivel CÓDIGO
+·BEND THE BEAM Comienza el juego.
+·SALIR BEAMBENDER Fin, regreso al banco de trabajo.
+
+
+PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA PISTA ... 
+
+ Cada vez que necesites pensar en una solución para el nivel, utiliza la pausa.
+ función. (El tiempo de reproducción solo debe usarse para configurar los componentes).
+
+
+EL JUEGO ---------------------------------------------------------------------
+
+ Con la ayuda de diversos componentes (espejos y convertidores de color) el objetivo
+ de este juego es alcanzar todas las Salidas (=objetivo de un rayo láser) con una (!)
+ rayo láser de color matemático. Por lo tanto, cada Cañón (=fuente de un rayo láser)
+ no es necesario utilizarlo (para utilizarlo, consulte Modo de prueba final). Con el cursor,
+ Los componentes del fabricante se »transmiten« al campo de juego.
+ Aparece un cursor vacío redondo en el campo de juego, cuadrado en el fabricante
+ área. Aparece una flecha en la parte superior del cursor cuando se selecciona un componente.
+
+·MODO MANIPULACIÓN (=Modo Juego - Cañones y Salidas están bloqueados)
+ En este modo se pueden configurar todos los componentes y aparecen Wobbly Dots.
+
+·MODO PRUEBA (Se activan Cañones y Salidas)
+ Haga doble clic en el cañón seleccionado. La Canon dispara tres veces en secuencia para
+ comprobar la trayectoria del haz y posibles errores. Después de la construcción del tercer disparo láser.
+ Los errores tienen un efecto en la puntuación. Durante los dos primeros tiros los errores son
+ indicado por una »Sobrecarga« (destello sobre Cañón y Salida).
+
+·MODO DE PRUEBA FINAL (Se activan Cañones y Salidas)
+ Haz doble clic en cualquier salida: cada cañón dispara solo una vez en secuencia. cada
+ El error de construcción tiene un efecto inmediato en la puntuación. Durante la prueba final
+ cada Salida debe ser impactada una vez por un rayo láser del color correspondiente, sin
+ destruyendo cualquier Cañón o Salida. Sólo cuando el modo de prueba final esté correctamente
+ completado, se resolverá el nivel.
+
+ EL MODO DE PRUEBA Y EL MODO DE PRUEBA FINAL SE PUEDEN FINALIZAR CON UN SOLO CLIC EN CUALQUIER CAÑÓN
+ O SALIR = VOLVER AL MODO MANIPULACIÓN.
+
+ Los puntos totales para un nivel resuelto se calculan a partir del correspondiente
+ valor de nivel más bonificación de tiempo, menos el número de espejos usados.
+Rayo láser de diferente color entra por el lado abierto
+                            FALSO!!!
+
+                                |
+                                |
+                                v
+
+    Rayo láser del mismo color / \ Rayo láser de diferente color
+         golpea el lado cerrado --> |   | <-- golpea el lado cerrado
+                FALSO!!!     \   /     FALSO !!!
+
+                                ^
+                         __ |
+                        /_ |   Rayo láser del mismo color desde cualquier cañón.
+                        |_<> ___|/| entra por el lado abierto de la salida
+                        \__ / | CORRECTO !!!
+                               /__|
+
+
+COMPONENTES DEL CAMPO DE JUEGO ---------------------------------------------------------
+
+   __ __
+  /_ / CAÑÓN
+  |_<> |<> Dispara (cuando está activado) un rayo láser (Prueba 1X Prueba final 3X).
+  \__ \__ Si un cañón es alcanzado desde cualquier lado por un rayo láser, será
+                destruido. Esto podría ser necesario para resolver un nivel.
+ activo. bloqueado
+
+   __ __
+  / \ / \ SALIR
+         ---- Cada salida debe ser alcanzada por un solo rayo láser del mismo
+  \__/ \__/ color. Si la salida es golpeada desde un costado, será
+                destruido: el nivel se reiniciará y el jugador perderá.
+ activo. bloqueado un intento.
+
+
+ SENSORES
+ Deja pasar el rayo láser de su color, otros colores son absorbidos.
+
+ FONDO
+ Placa base: solo éstas sostendrán los componentes.
+
+ ¡ALEJAR!
+ Los componentes no se pueden configurar allí, pero es posible que ya contenga componentes.
+
+ OJO
+ Cada rayo láser que impacte será absorbido.
+
+ Parca
+ Si es alcanzado por un rayo láser, el nivel se reiniciará y el jugador perderá 1 intento.
+
+ BLOQUEAR
+ Se asienta sobre una placa base y detiene todos los rayos láser, pero puede explotar con una mina.
+
+
+COMPONENTES -------------------------------------------------------------------
+
+
+ Estos se fabrican en el fabricante. Una vez establecida en el campo de juego la posición
+ de los componentes no se pueden cambiar. Sólo pueden ser atacados con minas.
+ Es posible que haya espejos. Los componentes utilizados por el rayo láser en la Final
+ Las pruebas son puntos negativos.
+
+     ^
+     |    ÁNGULO (70 puntos menos)
+  ___|/|  Desvía la dirección del rayo láser 90°.
+     / |  Si se golpea la parte posterior de un ángulo, se refleja el rayo láser.
+    /__|
+
+
+     ^
+     |    HEMISFERIO (130 puntos menos)
+  ___|/|  Como un ángulo, excepto que se puede girar en cualquier dirección en cualquier 
+     / |  dirección con un solo clic después de haber sido configurada.
+    /_/
+
+
+     ^
+     |    DIVISOR (50 puntos menos)
+  ___|/_> Divide el rayo láser en DOS direcciones: hacia adelante y 90° (como
+     / Ángulo).
+    /
+
+
+     ^
+     |    BOLA DE CRISTAL (110 puntos menos)
+  --( )-> Divide el rayo láser en TRES direcciones.
+     |
+     v
+
+
+     ^
+     |    REFLECTOR (70 puntos menos)
+    |||   Devuelve el rayo láser al lado cerrado, pero deja pasar el rayo láser.
+-><-|||   por el lado abierto.
+    |||
+     |
+
+
+
+          CONVERTIDOR (90 puntos menos)
+  __/\__> El rayo láser cambia al color del convertidor (el
+    \/ el rayo láser no se desviará).
+ 
+
+
+     v MINE (150 puntos negativos en Safe-Field)
+    > < Destruye los componentes que se encuentran en la placa base.
+     ^
+
+
+     _ MONEDA (más de 30 puntos)
+    (_) No es un componente, sino un punto extra: un solo clic.
+
+
+FABRICANTE -----------------------------------------------------------------
+
+ 1 PAUSA Interrumpe el juego para que tengas tiempo de pensar en soluciones.
+                   otro clic en Pauseplate reanuda el juego.
+                 
+ 2 CAMPO SEGURO Un componente se puede conservar durante el nivel actual.
+                 
+ 3 FABRICANTE Fabrica componentes.
+
+ 4 TRASHCAN Componentes no deseados del Fabricante (y de
+                   Safe-Field) puede ser volcado. El fabricante se ve obligado a
+                   hacer piezas nuevas.
+
+ 5 REINICIAR Un doble clic restablece el nivel a la posición inicial.
+                   y se pierde un intento.
+
+
+
+                      1 2 3 3 4 5
+_____ _____ _____ _____ __ __ _____
+                   |  _ |  v |  v |       |  v | /_\ |     |
+                   | /\ |     | _|  |       | _|  |/ \| /^\ |
+                   | | | |     ||___ | * * * ||___ ||   || < > |
+                   | \_/ |     |   _||       |   _||\ _ /| \v/ |
+                   |_____|_____|__|__|       |__|__|_\ /_|_____|
+
+
+TABLERO DE PUNTUACIÓN ------------------------------------------------------------------
+
+ 1 PUNTUACIÓN -
+
+ 2 TIEMPO DE JUEGO Muestra el tiempo total de juego. Después del límite de tiempo
+                   superado, el nivel se reiniciará y el jugador perderá
+                   un intento.
+
+ INDICADOR DE 3 NIVELES -
+
+ 4 SIGUIENTE CAÑÓN Muestra el color del siguiente Cañón que dispara.
+
+ 5 TEMPORIZADOR DE CANNON Muestra el tiempo restante antes de que el siguiente Cañón se active automáticamente
+                   en modo de prueba.
+
+ INDICADOR DE 6 RONDAS Número de intentos restantes.
+
+ 7 MODO JUGADOR Modo individual o en equipo
+
+
+
+                      1 2 3 5 6 7
+                                     
+                                  0  
+                   000000 000 00 00 CANTAR
+                                 (*) 
+
+                                  4
+
+
+PUNTOS TAMBALOSOS ------------------------------------------------------------------
+
+ :-) SONRIENTE (amarillo)
+       Un solo clic = 30 seg. bonificación de tiempo.
+
+ :-) INTELIGENTE (rojo)
+       Un solo clic = UN intento adicional.
+
+ :-( SLIMY (verde) (más de 10 puntos)
+       Si no se convierte en puntos con un solo clic, adelgaza una Base.
+       haciéndolo inservible. El rayo láser no se ve afectado.
+
+ :-( SQUEALY (azul) (10 puntos plus)
+       Si no se convierte en puntos con un solo clic, rota todos los
+       Hemisferios.
+
+
+DERECHOS DE AUTOR Y COSAS -----------------------------------------------------------
+
+ Idea y programación: Robert Aichinger
+
+ Artes gráficas y música: Bernhard Aichinger
+                         Marcos Wittmann
+
+Este producto de software, incluidas todas las imágenes de pantalla, conceptos, efectos de audio,
+El material musical, el código del programa, el manual y la caja son propiedad intelectual de
+estudio de limón azul®. Es posible que los documentos, el código del programa y otros elementos no estén
+copiado, reproducido, contratado, alquilado, prestado o transmitido de cualquier manera sin
+consentimiento previo por escrito de blue Lemon Studio®. Las personas que sean encontradas haciéndolo
+ser procesado.
+
+(c) Copyright azul limón estudio® 1997
+Demostración de Beambender - (c) 1997 blue Lemon Studio ®

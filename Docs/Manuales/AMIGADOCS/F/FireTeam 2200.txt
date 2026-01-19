@@ -1,0 +1,188 @@
+Fire Team 2200 Reference Card
+Typed by THB
+
+COMMAND OPTIONS
+
+Wpn1            F1      *menu shows weapon's designation (e.g. 120MM)
+Wpn2            F2      *menu shows weapon's designation (e.g. HMG)
+Wpn3            F3      *menu shows weapon's designation (e.g. AAMG)
+Scan            F4      select unit or location to scan
+Contacts        F5      toggle between "TRACK" multiple target tracking
+                        and "SCAN" single target scan.
+Systems
+Status          F6      toggle between "ARMOR" armor/weapons display,
+                        "SYSTEM" critical systems status display, "TEAM"
+                        FireTeam roster and status, and "SUPPT" support
+                        team status roster.
+Map             F8      toggle between strategic map and tactical display
+Update          F9      force an update (not available to TERMINAL player)
+Help            F10     bring up a help screen (not in Two Player Conflict)
+Fire          <space>   shoot current weapon
+Load            'L'     load or unload cargo
+Move            'M'     enter movement path
+Pause           'P'     pause the game (not available in Two Player Conflict)
+
+FireTeam
+Members   'A' thru 'H'  select a Fire Team Member calls up submenu to give 
+                        orders
+
+Support
+Members   'S' thru 'Z'  select a Support Team Member calls up submenu to 
+                        give orders
+
+Intercept       'I'     Intercept and occupy another unit (only if ejected)
+Radio           'R'     talk on radio (Two Player Conflict only)
+Computer      <Pg Up>   scan back through computer messages
+              <Pg Dn>   scan forward through computer messages
+Command       <Alt-C>   change the duration of the command phase to
+                        3, 6, 9 or 12 seconds
+Sounds        <Alt-S>   turn sound on or off
+Update        <Alt-U>   change the update mode to automatic, forced, or pause
+Eject         <Alt-E>   eject from your vehicle
+Quit          <Alt-Q>   quit the game
+
+
+
+
+
+TASK DESCRIPTION
+
+
+Assault and Retreat
+
+Engage enemy targets at will.
+Move to objectives without stopping.
+
+
+Probe
+
+Engage enemy targets at will.
+Move to objectives normally, but avoid all minefields.
+If damaged, seek cover. Once under cover, do not move again until undamaged
+by enemy fire for a full 30 seconds.
+
+
+Defend
+
+Engage enemy targets at will.
+Do not move unless covered by smoke, and then only one location toward
+objective.
+
+
+Cover
+
+Engage enemy targets at will, using smoke rounds if possible.
+Move to objectives normally.
+Infantry units with this task will not enter transport vehicles.
+
+
+Strafe
+
+Engage enemy targets at will.
+Travel to objectives without stopping. If at objective 1, revise objectives,
+making objective 2 the first objective, and objective 1 the second objective.
+In this manner, move back and forth between objective 1 and objective 2.
+
+
+Convoy
+
+Engage enemy targets at will.
+Attempt to use road movement at all times. Priority is to always move forward
+into next road location. However, if at a movement objective, and new objective
+perpendicular to current facing, go off-road toward new objective.
+If unable to continue on road toward current objective, go off-road, and use
+assault style movement until road movement can be used again.
+If confused, change task to Assault, and radio status change to Commander.
+
+
+
+
+MOVEMENT COSTS BY TERRAIN TYPE
+
+                Open    Woods   Urban   Water   Road
+Air Units         1       1       1       1       1
+
+Infantry Units    6       6       6       6       6
+
+Light Tank &
+Recon Tank        1       2       2       NA      1
+
+All Hovers        1       5       3       1       1
+
+Heavy Truck,
+Heavy IVF,
+Both Mortars,
+Heavy Tank        3       3       3       NA      1
+
+All Other
+Ground Vehicles   2       3       3       NA      1
+
+
+
+Hit Probability Modifiers
+
+Target in Urban Terrain                 -10%
+Target in woods Terrain                 -30%
+Target or Shooter in Light Smoke        -10%
+Target or Shooter in Heavy Smoke        -30%
+Target is Moving                        -15%
+Shooter is Moving                       -15%
+Target and Shooter are Moving           -25%
+Weapon is Damaged                       -25%
+Computer is Damaged                     -25%
+Computer is Disabled                    -50%
+
+Individual unit commander with high rank are know to achieve higher hit
+probabilities than junior officer. Higher ranking commander also have the
+ability to reduce the hit probability of incoming fire while they are in
+motion, due to their superior knowledge of tactical maneuvaring.
+
+Other modifiers due to special equipment and/or unique terrain can affect hit
+probability, but these situations have not been adequately documented by
+Corporate Auditors and are therefore ommiited from this briefing.
+
+
+
+Damage Characteristics
+
+Weapon &                        Relative Damage Capability
+Shell Type                 Penetration     Armor Damage    Infantry Damage
+
+Small Arms                      1               2               1/troop
+Medium Machine Gun              1               1               3
+Heavy Machine Gun               2               2               5
+Anti-Aircraft Gun               3               7               0
+
+75mm AutoCannon HE              1               3               3
+75mm AutoCannon AP              4               4               2
+
+105mm AutoCannon HE             2               8               4
+105mm AutoCannon AP             4               6               2
+105mm AutoCannon HEP            3               5               3
+105mm AutoCannon APU            4               6               2
+
+120mm AutoCannon HE             2               8               6
+120mm AutoCannon AP             5               7               2
+120mm AutoCannon HEP            3               7               5
+120mm AutoCannon APU            5               7               2
+
+150mm AutoCannon HE             2               10              8
+150mm AutoCannon AP             5               10              2
+150mm AutoCannon HEP            3               9               6
+150mm AutoCannon APU            5               9               2
+
+200mm AutoCannon HE             3               13              10
+200mm AutoCannon AP             5               13              3
+
+AT Missile Launcher             5               7               2
+AT Missile System               5               11              2
+
+Laser                           5               7               2
+Pulse laser                     4               6               0
+Gauss Cannon                    5               9               0
+
+75mm Mortar                     2               8               3
+105mm Mortar                    3               13              6
+
+HE Mine                         0               0               6
+AT Mine                         3               13              0

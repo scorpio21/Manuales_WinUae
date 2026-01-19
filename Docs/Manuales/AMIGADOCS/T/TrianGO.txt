@@ -1,0 +1,833 @@
+          Here are the codes for TRIANGO!
+         /------------------------------\
+
+here are 16 outa 20 of the needed codes, if you boot and dont get one,
+then by all means please do boot again...
+
+letter   line   page  code
+------   ----   ----  ----
+  2       2      5     O
+  4       2      10    Y
+  2       5      21    L
+  3       3      19    D
+  1       2      6     T
+  2       4      7     N
+  4       3      5     L
+  2       4      15    E
+  3       2      7     R
+  3       2      18    E
+  1       2      13    T
+  2       3      11    H
+  1       4      9     C
+  5       4      12    I
+  1       4      8     W
+  3       2      14    E
+
+
+     Triango
+     
+     
+     
+                               TABLE OF CONTENTS
+     
+     Introduction
+     Getting Started
+     User Interface
+     Game Elements
+     	TrianGO Board
+     	Stones
+     	Players
+     How to Play
+     	Object of the Game
+     	Placing Stones
+     	Creating Triangles
+     	Capturing
+     	Scoring
+     	Three or Four Players
+     Strategy
+     Triango Menus
+     	File
+     		New Game
+     		Save/Load Game
+     		Save Log
+     		Print Log
+     		Quit
+     	Edit
+     		Edit Board
+     		Change Sides
+     		Undo Move
+     		Hide Commands
+     	Players
+     	Options
+     		Clear Score
+     		Show Score
+     		Print Move
+     		Last Move
+     		Sound Off
+     		Hint
+     Figures
+     	1.  Two-Player Game Board
+     	2.  Four-Player Game Board
+     	3.  Placing Stones on Perimeters
+     	4.  Numbered Points on the TrianGO Board
+     
+     Page 1
+     
+                                  INTRODUCTION
+     
+     Congratulations on your purchase of TrianGO.  You are about to experience a
+     game that provides all the challenge and excitement of your favorite board
+     games, but is new and unique.  TrianGO combines the mental stimulation
+     ofchess and the strategic cunning required to play GO in a colorful,
+     innovative game.
+     
+     In order to run the program, you will need to have your TrianGO user's
+     manual on hand whenever you boot up the TrianGO program.  It is, therefore,
+     very important that you DO NOT LOSE YOUR TrianGO USER'S MANUAL.
+     
+     When you boot up the TrianGO program, a dialog box will appear asking a
+     question in reference to the manual.  You will have to refer to your user's
+     manual in order to answer this question correctly.  If you fail to answer
+     correctly, another dialog box will appear to give you a second change to
+     answer the question. Failure to answer the question correctly a second 
+     time will end the TrianGO program and send  you back to the computer's
+     operating system.
+     
+     The following pages explain the rules of this game and how to play it on
+     your computer.  So turn on your computer, boot up the game, and enjoy
+     hours of entertainment with TrianGO.
+     
+     Page 2
+     
+                                   GETTING STARTED
+     
+     Your TrianGO diskdette is not copy protected, so before playing TrianGO,
+     make a back-up copy of the original diskette (see your computer owner's
+     manual for instructions on how to do this).  Use your back-up copy when
+     booting the game.
+     
+     To boot TrianGO:
+     AMIGA:  Turn on your computer system with your KickStart disk (version
+     1.2 or greater).  When the prompt appears to insert the WorkBench disk,
+     put the TrianGO diskette in the drive. Your computer will load the TrianGO 
+     program.
+     
+     Apple IIe/C/GS:  Put the TrianGO diskette in the disk drive.  Turn on your
+     monitor and the computer.  Your computer will load the TrianGO program.
+     
+     Atari ST:  Place the TrianGO diskette in the your disk drive.  Turn on your
+     computer.  When the desktop appears, double click on TRIANGO.PRG.  Your
+     computer will load the TrianGO program.
+     
+     Commodore 64/128:  Turn on your computer system in the usual manner
+     (if you have a C128, hold down the Commodore Key while turning on the
+     computer.)  After the READY prompt appears, type:
+     			LOAD "*",8,1
+     and press RETURN.  Your computer wil load the TrianGO program.
+     
+     
+     IBM PC & Compatibles:  Turn on your computer system using your DOS
+     disk.  When the DOS prompt appears, put the TrianGO diskette in drive A. If
+     you are not in drive A, switch to drive A, by typing A: and pressing ENTER.
+     Then, type:
+     					triango
+       and press ENTER.  Your computer will load the TrianGO program.
+     
+     Macintosh:  Turn on your computer using the system diskette or hard disk. 
+     Insert the TrianGO diskette into the disk drive and click on TrianGO.
+     
+     Page 3
+     
+                                   USER INTERFACE
+     
+     All moves in TrianGO are made by pointing with the cursor and selecting
+     items on the screen.  To move your cursor, point and select.
+     
+     Atart ST, AMIGA, Apple IIGS, and Macintosh:  Use the mouse to move
+     the cursor.  Press the mouse button to select.
+     
+     Commodore 64, Apple IIe/IIc:  Use the joystick to move the cursor.
+     Press the joystick button to select -or- Use the cursor keys to move the
+     cursor.  Press the RETURN key to select.
+     
+     IBM PC & Compatibles:
+     When using the keyboard:
+     Cursor keys:  	Moves the arrow
+     Space Bar:	Selects an item indicated by the cursor.
+     Enter Key:	Selects the default button (with thicker border) in dialog
+     			boxes
+     Ins Key:		Selects the OK button in dialog boxes
+     Esc Key:		Cancels menu, dialog-box, and caputre operations
+     Backspace Key:	Deletes a charcater in a filename
+     C Key:		Performs a capture
+     U Key:		Takes back a move (undo)
+     L Key:		Allows you to see the last move
+     H Key:		Allows you to get a hint from the computer
+     When selecting commands from the menu bar or pull-down menus, select
+     the capitalized letter or number.
+     
+     When using the joystick:
+     -Use the joystick to move the cursor, and press the joystick button to
+     select.
+     
+     When using the mouse:
+     -Use the mouse to move the cursor.  Press the mouse button to select an
+     item or to pull down menus from the menu bar.  Highlight the desired
+     command and release the button to select.
+     
+     Page 4
+     
+                                    GAME ELEMENTS
+     
+                                    TrianGO Board
+     
+     TrianGO is played on a unique playing field which is
+     different from that of any other board game (see figure 1).
+     The perimeter, or outer edges of the playing field, is
+     composed of 6 double lines.  The remainder of the 
+     hexagon-shaped field is composed of 21 lines which cross 
+     to form the many triangles that make the game of TrianGO
+     so exciting.  The board contains 55 points (where the lines
+     intersect) on which a player may place his stones.
+     
+                                       STONES
+     
+     The pieces in TrianGO are round, colored stones which are
+     placed on the points of the playing field.  The stones in
+     TrianGO are available in four colors.  The color of each
+     stone is dependent on your computer's graphics capability.
+     Each player begins the game with a total of 14 stones of a
+     given color.  These stones are located in each player's box.
+     Stones which are captured by a player during the game are 
+     also placed in this box.
+     
+                                       PLAYERS
+     
+     The game of TrianGO can be played with up to four players.
+     When playing TrianGO against a computer opponent, you
+     may only have a two-player game.  When there are three or
+     four players involved in a game, the screen is adusted to
+     include these players (see figure 2).
+     
+     Page 5
+     
+     The order in which the players place their stones on the
+     board (ie. who starts first) can be determined in the
+     following ways:
+     
+     1.  While in edit mode (see Edit Board command), you
+     can select one of the players to be the active player.  The
+     last active player selected when you exit edit mode will be
+     allowed to make the next move.
+     
+     2.  You may use the Change Sides command to change
+     the order of turns.  When playing against the computer, the
+     default is for you to start the game.
+     
+     Regardless of the order chosen, turns will always alternate 
+     in a clockwise direction.
+     
+     As mentioned before, you can play against the computer,
+     or against one, two, or three players.  when you play
+     against the computer, you will have the option of choosing
+     one of five skill levels for your computer opponent. These
+     levels, listed in ascending order of difficutly, include:
+     Novice, Intermediate, Expert, Master, and Grand Master
+     Computer.  The more difficult the skill level chosen, the
+     longer the computer will take in making a move.  For
+     example, if you are playing the computer at the Grand
+     Master level, the computer, on its turn, will take a few
+     minutes to evaluate its possible moves.  If you don't want
+     to wait for the computer, you can use the CONTROL key
+     to force the computer to make amove.  When you press
+     the CONTROL key, wait a while, until the computer
+     finishes the current evalution of one of its possible moves
+     and makes its move on the board.  Note, that if you do
+     interrupt the computer, it will make its move based on the 
+     information it evaluated before the interruption.
+     
+     Page 6
+     
+                                     HOW TO PLAY
+     
+     TrianGO is played by placing stones on the empty points of
+     the playing field.  Play begins with an empty board.
+     
+     The first player begins by placing astone (from the upper 
+     right box as the default) on any point on the board.  The
+     second player (counting turns in a clockwise direction)
+     places a stone next, and play continues with players
+     alternately placing stones on unoccupied points on the
+     board or capturing stones.  Stones are placed on the board
+     in an attempt to create triangles and capture opponents'
+     stones.
+     
+                                 OBJECT OF THE GAME
+     
+     The object of the game of TrianGO is to be the last player
+     able to make a move.
+     
+                                   PLACING STONES
+     
+     To place a stone in TrianGO, select the appropriate
+     unoccupied point on the playing board.  When a point is
+     selected, the player's stone will appear on that point.  The
+     top stone on each player's stack will be highlighted as it is
+     about to come into play.
+     
+     The following rules apply when placing stones on the board:
+     
+     1.  You can place a stone only on an unoccupied point.
+     Page 7
+     
+     2.  You may not place your stones on all three points of a
+     perimeter (marked by double lines).  You may place
+     stones on both or one of the end points of the perimeter, or
+     only on the center point (see figure 3).
+     
+     3.  You may have a maximum of six stones in total on all
+     points of the perimeters.  If you try to place a stone on a
+     perimeter, and you already have six stones placed on the 
+     perimeteres, the stone will not be placed, and you
+     computer will beep.
+     
+     Once a stone has been placed on the playing field, it may 
+     not be moved.  The only way a stone will be moved is if a
+     caputre is involved (see chapter on Capturing).  If a player 
+     makes a capture, all of the player's stones which were in
+     that triangle are retrieved.  They can then be brought back
+     into play.  Any of an opponent's stones that have been
+     captured by a player are permanently out of the game.
+     
+                                 CREATING TRIANGLES
+     
+     A triangle is created when one player's stones are
+     positioned on three points (the corners of the triangle) that
+     can be connected with straight lines (the borders of the
+     triangle) which contain one or more points.  A triangle must
+     contain a minimum of six points.
+     
+     There are two types of triangles that can be created in
+     TrianGO. These are empty and full triangles.
+     Page 8
+     
+     Empty triangles don't contain any of an opponent's
+     stones (but they may contain a player's stones). An empty
+     triangle creates territory that is controlled by the player
+     who formed that triangle.
+     
+     A full triangle contains one or more of an opponent's
+     stones. Only a full triangle can be removed (captured)
+     from the board.
+     
+     TrianGO provides you with the feature of outlining
+     triangles that have been created.  If there is an opponent's
+     stone within a triangle, the triangle is sahded to show that 
+     it is a full triangle. The outlining and shading of triangles
+     matches the color of the player's stones. In the situation
+     where two or more triangles overlap, the colors will merge
+     to create a shaded area thatshows where the two
+     triangles overlap.  After a triangle has been captured, the
+     outlining or shading will disappear (see also Hide
+     commands.).
+     
+                                      CAPTURING
+     
+     When you create a triangle which has an opponent's
+     stone(s) within it or on its borders, you have the option of
+     capturing all the stones contained in that triangle.  On each
+     subsequent turn, the CAPTURE button will appear on the
+     screen. This sign will tell you that you have the choice of
+     Page 9
+     
+     capturing the triangle or placing another stone.  (The only
+     time you will be forced to capture is if you have no more
+     stones to place.)  If you continue to place stones, you can
+     create more than one full triangle, and the CAPTURE
+     button will continue to appear until all your full triangles
+     disappear.  The triangle can disappear in two ways:  you
+     make a capture that removes the triangle from the board,
+     or your opponent makes a capture that removes one or
+     more of the three stones on the corners of your triangle.
+     
+     If you choose to caputre, select the CAPTURE button.  If
+     you have only one full triangle, it will be automatically
+     removed from the board.  If you have two or more triangles
+     on the board which contain an opponent's stone, you
+     must indicate which triangle to capture.  This is done by
+     selecting enough corner stones which make up the
+     desired triangle, such that the triangle is differentiated
+     from your other full triangles.
+     
+     A capture is treated asa turn in TrianGO.  When a caputre
+     is made, the player removes all of his, as well as his
+     opponent's stones from within the triangle and along the 
+     borders of the triangle.  The player's stones that were
+     recovered can then be reused in play.  The opponent's
+     stones that have been captured are out of the game.
+     Page 10
+     
+                                       SCORING
+     
+     Players continue to place and capture stones until there is 
+     only one player able to make a move.  The last player able 
+     to make amove wins the game and receives one point.
+     When a game is completed, a message will appear on the
+     screen announcing the winner of the game.
+     
+     The number of stones that have been captured has no
+     effect on scoring.  This is an important factor to remember
+     when planning your TrianGO strategy.
+     
+     
+                                THREE OR FOUR PLAYERS
+     
+     TrianGO allows up to four players per game (see figure 2).
+     Each of these player's stones are displayed in a different
+     shade or color.  when there are three players, the fourth
+     player and the extra set of stones will not appear on the
+     screen.
+     
+     The players decide among themselves which color of
+     stones they will use and hwo will start first.  Then, using the
+     Change Side (or Edit Board) command, they indicate to
+     the computer which player (color) makes the first move.
+     Page 11
+     
+     The three- or four-player game is played almost exactly
+     like a two-player game (the computer is not involved in
+     these games), but there is one difference.  During play in a
+     two-player game, if a player runs out of stones, that player
+     has lost.  In a game with more than two players, this is not
+     always the case.  If, for example, the third player is outof
+     stones, but still has an empty triangle on the baord, and an
+     opponent places a stone within that triangle, the triangle
+     can be captured on player three's turn.  The stones that are
+     recovered from that capture can then be brought back into
+     play.
+     
+     The winner is the last player who has a stone to place.
+     
+     When playing a game with more than two players, you may
+     capture more than one player's stones within a triangle.
+     Also, a game that involves more players concentrates
+     more on capturing, because there are fewer opportunities
+     to maintain safety along the edge once a player has a
+     substantial lead in the game.
+                                      STRATEGY
+     
+     Once you have learned to play the game of TrianGO, you
+     will want to improve your playing strategy.  The following
+     section offers a few suggestions to help you improve your
+     playing strategy and to make TrianGO that much more fun
+     to play.
+     
+     � It is not always the best idea to capture full triangles too
+     quickly.  when you capture a triangle, you weaken your
+     board position.  If you have a large, full triangle which
+     controls quite a bit of territory, you can fill it with stones,
+     create other triangles, and at the same time control a
+     majority of the board.
+     
+     � When you have full triangles on the board (triangles
+     which are eligible for capturing), it is often a good idea to
+     fill these triangles with your stones.  When you do finally
+     capture the triangle, you can recover more of your stones
+     and have them availabe for further use in the game.
+     
+     � Try to avoid placing stones in the center of the board on
+     points which will not be occupied by your full triangles. the
+     points in the center of the board are the weakest positions
+     to place your stones.  Also, try to avoid creating triangles
+     which will be destroyed when a capture takes place.
+     
+     � Try to force your opponent to take full triangles as soon
+     as possible. This is done by creating your own full triangles
+     which contain the corner stones of your opponent's full
+     triangles.
+     Page 13
+     
+                                    TRIANGO MENUS
+     
+     The commands available in TrianGO are invoked through 
+     the use of a number of pull down menus located at the top
+     of the screen.  The commands are categorized by their
+     functions, and each menu contains commands which
+     relate to a different aspect of the game.
+     
+                                        FILE
+     
+     The File menu will display mainly commands which
+     involve reading or writing informato to the disk.  When
+     you select File, a pull down menu of these commands will
+     appear.
+     
+                                      NEW GAME
+     
+     The New Game command will erase the current game,
+     clear the board, and reset the stones for a new game.  You
+     can selec this command at any time to start a new gaem. 
+     If you are in the middle of the game at the time the New
+     Game command is selected, a message will appear to
+     ensure that you want to start a new game.  If you start a
+     new game and do not save the current game, it is erased
+     from the computer's memory. Note, that the New Game
+     command must be selected after each completed game in
+     order to start the next game.
+     Page 14
+     
+                                   Save/Load Game
+     
+     The Save Game command will save the current game to
+     the disk.  When Save Game is selected, a dialog box with
+     the files of the current directory is displayed.  Enter the
+     neew name or select a file name displayed in the directory
+     to overwrite an existing file.  All moves that have been
+     made in the current game as well as the score count of
+     games played will be saved to the disk.  You can also use
+     the Save Game command to save the current score, if you
+     decide to change the number of players in the game.
+     
+     The Load Game command will load a previously saved
+     game, including the saved score.  When a dialog box
+     appears displaying the files of the current directory, select
+     the file name for the game you would like to load.  Select
+     OK to load the game.  Select Cancel to return to the current
+     game.
+     If you wish to keep the current score, select Cancel when
+     the question "Restore saved score?" appears.
+     
+                                      SAVE LOG
+     
+     The Save Log command will save an ASCII file of all
+     moves that have been made during the current game.
+     When the Save Log command is selected, a dialog box
+     appears displaying the files of the current directory. Enter
+     the file name for the log you would like to save and select
+     OK.
+     Page 15
+     
+                                      PRINT LOG
+     
+     Selecting the Print Log command will print the current log.
+     This log includes every move that has been made from the
+     beginning to the present point in the game.  The log
+     describes moves on the board using numbers.  These
+     numbers correspond to points on the board shown in
+     figure 4.  You may print a log of a game until you issue a
+     New Game command. When you start a new game, a
+     new log is begun.  If you want to cancel the Print Log
+     command, select the Cancel box that appears on the
+     screen during printing.  When using the Print Log
+     command, you must remember to turn your printer on.
+     
+                                        QUIT
+     
+     The Quit command allows you to exit the program.  A
+     dialog box will be displayed to confirm that you would like
+     to quit.  Selecting OK will exit the program without saving
+     the game.  Selecting SAVE (which only appears when the
+     game is in progress) will save the current gaem and then
+     exit the program.  Selecting CANCEL returns you to the
+     current game.
+     Page 16
+     
+                                        EDIT
+     
+     The Edit menu contains comands which edit the game
+     and game board.  This includes editing before, during and
+     after a game.
+     
+                                     EDIT BOARD
+     
+     Selecting the Edit Board command allows you to
+     rearrange the positions of stones on the board as well as
+     to indicate which player will start the game.  when you
+     select this command, it is indicated by a check mark, and
+     all CAPTURE buttons are displayed on the screen.
+     
+     The following rules apply when the Edit Board command is
+     selected:
+     
+     1.  The top stone on the active player's stack will be
+     highlighted.  The active player is the player who is most
+     directly affected by the editing actions.  For example, you
+     can manipulate the active player's stones on the board, or
+     add to and/or subtract from the active player's store of
+     captured stones.
+     
+     2.  In order to make a player active, use the cursor to select
+     any stone on that player's stack.  If there are no more
+     stones in the player's box, select the area of the box wher
+     the stack is normally located.
+     
+     3.  To place an active player's stone on the board, use the
+     cursor to select any valid point on the board.
+     
+     4.  Selecting a player'sstone on the board brings that stone
+     back to his box.
+     Page 17
+     
+     5.  Selecting an opponent's stone on the board captures
+     this stone and removes it to the active player's box.
+     
+     6.  Selecting a captured stone in a player's box places this
+     stone back in the respective opponent's box.
+     
+     7.  Selecting a captured stone in the opponent's box
+     captures this stone to the active player's box.
+     
+     8.  Selecting the opponent's CAPTURE button moves the 
+     active player's stone from his box to the opponent's box.
+     
+     9.  Selecting the active player's CAPTURE button,
+     captures the player's full triangle (if any) from the board. If
+     the active player has more than one full triangle on the
+     baord he must select the triangle to capture by clicking on
+     the corners of the desired triangle such that the triangle is
+     differentiated from other full triangles on the board.
+     
+     10.  When exiting the Edit board command (this is done by
+     selecting Edit Board again), the game will resume at the
+     current board position, and the last active player is the
+     one who makes the next move.
+     
+     The last rule can be used to choose which player starts
+     first.  For example, if you're playing against the computer,
+     and you want the computer to make the first move, select
+     the Edit Board command, make the computer the active
+     player by selecting its top stone, and exit the edit mode
+     (see also the Change Sides command).
+     Page 18
+     
+                                    CHANGE SIDES
+     
+     The Change Sides command is normally used when you
+     are playing against a computer opponent.  When the
+     Change Sides command is selected, the stones you were
+     playing will be played by the computer, and the
+     computer's stones are now yours.  In other words, if you
+     were playing player 1's stones and you select Change
+     Sides, you will now play player 2's stones.
+     
+     When playing against the computer, you can use Change
+     Sides and Edit Board commands to indicate the player
+     who starts first and the color he uses.  Below is a list of
+     possible choices and the actions needed to implement
+     those choices.
+     
+     1.  Player wishes to start first and wishes to play the box
+     on the right side of the board:  This is the default for the
+     game.  No further action is needed.
+     
+     2.  Player wishes the Computer to start first, playing the
+     box on the right side of the board:  Use the Change Sides
+     command to switch places with the computer.
+     
+     3.  Player wishes the Computer to start first, playing the
+     box on the left side of the board:  Use the Edit Board
+     command to select the top stone in the left-hand box and
+     then exit edit mode.
+     
+     4.  Player wishes to start first, playing the left-hand box:
+     Use the Edit Board command to select the top stone in
+     the left-hand box.  Select the Change Sides command,
+     and then exit the edit mode.
+     Page 19
+     
+     The Change Sides command can also be used at the
+     beginning of two-, three-, and four-player games to
+     indicate the player who starts first.
+     
+                                      UNDO MOVE
+     
+     The Undo Move command allows you to back up the
+     game, one step at a time, until the very beginning of the
+     game.
+     
+     When you are playing against a computer opponent,
+     selecting this command will remove the last stone that was
+     placed by the computer as well as the last stone placed by
+     you.
+     
+     When the Undo Move command is selected, the last stone
+     to have been placed will be removed from the board and
+     returned to the appropriate player's stack of stones.  If the
+     last move is a capture, all stones that have been removed
+     during the capture will be returne to their original positions
+     on the board.  Each time you select the Undo Move
+     command, a stone will be removed from the board (or
+     stones will be returned to the board, if the last move was a
+     capture), until you are returned to the beginning  of the
+     game.
+     
+     Note, that is you Undo the last move of a completed game,
+     the score for that game will be erased.  The score will
+     return when a final move is made.
+     Page 20
+     
+                                    Hide Commands
+     
+     The Hide commands are used to supress the display of
+     players' triangles.  This means that when a triangle is
+     created, both empty and full, the shading will not appear
+     on the screen.  This adds an extra difficulty to the game,
+     because the players must keep track of the triangles
+     mentally without seeing them on the screen.
+     
+     There are four Hide commands available, one for each
+     player.  The format of the Hide commands will look like
+     this:
+     
+     				Hide (color/player)
+     
+     The color will correspond to the colors of the stones used
+     by each player.  For example, if you select Hide Blue, the
+     shadings for all triangles formed by the player using the
+     blue stones will not appear on the board.
+     
+     Select the color for the player whose triangles you would
+     like to hide.  You can hide the trianlges for all the players in
+     the game, or for a selected few. When you are playing a
+     two-player game, the Hide command will only hide the two
+     colors being used.  The Hide commands for the third and
+     fourth player will be dimmed.
+     
+     When any one of the Hide commands is selected, they are
+     indicated with a check mark. To re-display triangles,
+     select the appropriate command a second time.
+     Page 21
+     
+                                       PLAYERS
+     
+     The Players menu contains the commands which allow
+     you to choose the number of players for the game.  You
+     may choose between playing against the computer or
+     playing against one, two, or three human players.  The
+     Players menu also contains the commands which
+     determine the skill level at which the computer opponent
+     will play.
+     
+     The first half of the Players menu contains the commands
+     which determine who will play the game.  Select the
+     Computer vs Player command when you want a computer
+     opponent.  Select 2 Players when you want a two-person
+     game.  Select the 3 Players comand when you want a
+     three-person game, and select 4 Players when you want a
+     four-player game.  When you select either the 3 Players
+     command or the 4 Players command, the screen wil be
+     adjusted to include the additional stacks of stones.  A
+     check mark next to the command will indicate which
+     command has been selected.  The first command,
+     Computer vs Player, is the default.
+     
+     Note, that when you change the number of players, the
+     computer will ask you if you want to clear the current
+     score.  The current score it is referring to is the cumulative
+     score total for games played so far.  Select OK to clear the
+     current score count of games played.  If you want to save
+     the current score count, you must save the current game
+     using the Save Game command before changing the
+     number of players.
+     Page 22
+     
+     The second half of the Players menu contains the
+     commands which tell the computer at what skill level to
+     play.  The choices are: Novice Computer, Intermeditate
+     Computer, Expert Computer, Master Computer, and
+     Grand Master Computer, with Novice Computer being the
+     least difficult and Grand Master Computer being the most
+     difficult.  The command which has been selected will be
+     marked with a check mark.
+     
+     Note, that the skill level chosen will affect not only the
+     way in which the computer plays, but also the time the
+     computer takes to make each move.  As the skill level
+     increases, the computer will take longer to make each
+     move.  For example, the Novice Computer opponent wil
+     take a few seconds to make a move, while the Grand
+     Master Computer opponent will take several minutes
+     (response time also depends onthe type of computer).
+     
+     To force the computer to make a move, based on the
+     information it has collected so far, press the CONTROL
+     key and wait until the computer finishes its current
+     evaluation and makes a move.
+     Page 23
+     
+                                       OPTIONS
+     
+     The Options menu contains an assortment of different
+     game options.   These options can be used to help you in
+     playing the game, showing you the game standings, and
+     in altering other aspects of the game.
+     
+                                     Clear Score
+     
+     TrianGO will automatically keep a running total of the
+     number of games that have been won by each player. The
+     Clear Score option, when selected, will return each
+     player's score to zero.
+     
+     When you select the Clear Score option, a message will
+     appear on the screen to confirm that you want to reset the
+     scores to zero.  Select OK to confirm.  Select Cancel to
+     return to the current game.
+     
+                                     Show Score
+     
+     When you select the Show Score option, a box will appear
+     on the screen displaying the current scores. If there are
+     only two players, there will only be two scores displayed.  If
+     there are additional players, the score box will show the 
+     scores for all players in the game.  Select the OK button to
+     return to the current game.
+     Page 24
+     
+                                     Print Move
+     
+     The Print Move option allows you to print a continuous log
+     of a game, as it is played. This log describes moves on the
+     board using numbers shown in figure 4.  When Print move
+     has been selected, it is marked with a check mark.  This 
+     option can be turned on or off at any time.
+     
+                                      Last Move
+     
+     The Last Move option allows you to see the last move
+     made on the board.  This option can be useful when
+     playing against the Master or Grand Master Computer
+     opponent.
+     
+                                      Sound Off
+     
+     The Sound Off optin will turn the sound of the game on
+     and off.  The default is to have the sound on.  When you
+     select this option for the first time, the sound will be turned
+     off.  A check mark next to this option will indicate that the
+     sound has been turned off.  To turn the sound back on,
+     select the Sound Off option a second time.
+     Page 25
+     
+                                        HINT
+     
+     The Hint command allows you to get help from the
+     computer as to the best moves that you should make,
+     given the present board positions.  There are three levels
+     of hints that you can use:  Expert Hint, Master Hint, and
+     Grand Master Hint.  The quality of the hint improves as you
+     move from Expert Hint (default level) to Grand Master
+     Hint.  The time that the computer takes to give the hint
+     increases as well.  Once you have selected the
+     appropriate level of the hint, select the Hint command in
+     order to view the hint that the computer suggests.
+     
+     Note, that you can use the CONTROL key in order to
+     force the computer to give you a hint based on the
+     information it evaluated before the interruption.  When you
+     press the CONTROL key, you must wait until the computer
+     finishes the current evaluation and blinks your stone in the
+     suggested position on the board.
+     
+     Note, that the Hint comand can only be used in a
+     "Computer vs Player" or a "2 Player" game.

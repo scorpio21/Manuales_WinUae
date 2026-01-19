@@ -1,0 +1,2334 @@
+               -- --- -->  pLAYER mANAGER 2 EXTRA  <-- --- --
+
+                          - --> fULL dOCS! <-- -
+
+
+                              GETTING STARTED
+                              ---------------
+
+A. AMIGA
+--------
+
+Insert Disk 1 in the drive and switch the computer on. Insert the required
+disc when requester appears.
+
+B. PC COMPATIBLES
+-----------------
+
+INSTALLING PROGRAM: Insert key disc and log on to the relevant drive. When
+A: or B: appears, type Install and press return.
+
+B.1 RUNNING THE PROGRAM: The program needs 4MByte memory and 550K of
+conventional memory. Type PM2 and press return.
+
+THE KEY DISC MUST BE LEFT IN THE DRIVE TO RUN THE INSTALLED PROGRAM
+
+B.2 CLEARING ENOUGH MEMORY TO RUN THE PROGRAM
+
+B.3 PC DOS: If you have DOS 6 or above, press F5 when message Starting
+MS-DOS is displayed on Power Up. If DOS 5 or lower, you will have to make a
+boot disc. Please note you will still need to load a mouse driver. If you
+don't know what it is called, follow section B.9 to find the line
+containing mouse, write it down on paper, exit program. Now type the line
+in and press return. This will install your mouse driver. Now you can run
+PM2.
+
+B.4 CD ROM: Usually removal of smart drive which occupies nearly 1 M.Byte
+memory will cure the problem, otherwise you will have to make a BOOT disc.
+
+B.5 To remove SMART DRIVE: You will need a DOS EDITOR or some kind of
+Editor to do this action. DOS EDIT is in your DOS directory.
+
+B.6 TYPE: EDIT C:\AUTOEXEC.BAT (Return)
+
+B.7 Listing of Auto EXEC will be displayed. Look at the listing and
+identify the line starting with word SmartDrv. Insert Rem before word
+SmartDrv. It may look as below.
+
+Rem SmartDrv 512K
+
+Now save the file and exit the program by holding down ALT and pressing F
+then X.
+
+Press Y to save the edited file.
+
+B.8 CREATING A BOOT DISC: Before you make a boot disc, you have to find
+some lines. Type
+
+B.9 Edit C:\Autoexec.bat (Return)
+
+Look for a line containing word MSCD. Copy this line on paper. (This will
+be called line 1). Look for a line containing the word Mouse. Copy this
+down as well (Line 2). Quit the program by holding down ALT key and then
+press F then X.
+
+B.10 Now type
+
+Edit C:\config.sys (Return)
+
+Look for the line containing words MSCD. Copy the line down (Line 3).
+
+Quit the program.
+
+B.11 You are now ready to create a BOOT disc. Insert a blank disc in your
+drive and type:
+
+B.12 Format A:/S
+
+When the disc has been formatted, type Edit A:\Autoexec.bat (Return).
+
+B.13 A blank screen will be displayed. Type:
+
+@ECHO OFF
+
+prompt $p$p
+
+Path = c:\Dos
+
+Line 1 i.e. type Line 1 from paper
+
+Set Blaster = A220 15 D1 H5 P330 T6
+
+Line 2 i.e. type Line 2 from paper
+
+Line 1 may look something like C:\DOS\MSCDEX.EXE/D:MSCD001/V/M:15
+
+Line 2 may look something like LH C:\Mouse\Mouse.Com.
+
+Hold ALT key down and press F then X
+
+Answer Y to save edited file.
+
+B.14 Now type
+
+Edit A:config.sys (Return)
+
+device = C:\dos\himem.sys
+
+device = C:\dos\emm386.exe noems
+
+Line 3 i.e. type line 3 from the paper
+
+dos = high,umb
+
+shell = C:\command.com c: /P
+
+Line 3 may look like device =C:\SB16\drv\sbcd.sys/d=mscd001/p:220
+
+Hold ALT key and press F then X. Answer Y to save edited files.
+
+PC-DOS follow the instructions in B.12, B.13 and B.14.
+
+In B.13 omit instruction to type Line 1
+
+In B.14 omit instruction to type Line 3
+
+C. CD ROM
+---------
+
+Place CD in the CD ROM drive.
+
+When the MS DOS prompt appears, type the prompt letters for the drive e.g
+D: and press return.
+
+Type SETUP and press return.
+
+The SETUP will be loaded. Now follow on screen instructions.
+
+To run the game, ensure the CD is in the CD ROM drive.
+
+Type CD\PM2 or the given directory name and press return.
+
+Type PM2 and press return.
+
+CLEARING ENOUGH MEMORY TO RUN THE PROGRAM - See B.4
+
+D. WINDOWS 95
+-------------
+
+D.1 From the Windows 95 desktop, select the `Start' button, then the
+`Shutdown' option.
+
+D.2 At this point a dialog will appear. Select `Restart the computer in
+MS-DOS and press the `YES' button.
+
+D.3 The computer will unload Windows 95 at this point, and return you to
+the DOS prompt.
+
+D.4 Here, simply enter the letter for your CD-ROM drive, for this example
+it will be `D'.
+
+D.5 Type D: and press enter.
+
+D.6 From this point simply install and run the game as normal.
+
+D.7 Note: If your CD ROM drive letter, does not appear to be available
+after entering MSDOS mode, that is probably because the CD ROM drive is not
+properly supported under Windows 95.
+
+D.8 To counter this, simply re-install the CD software that came with your
+drive and reset the computer.,
+
+D.9 Next follow the above instructions, and when you re-enter MS DOS mode,
+the drive letter should be available to you.
+
+E. JOYSTICKS
+------------
+
+E.1 You need a joystick to play on the pitch.
+
+E.2 A two player game requires a two port game card. If you have such a
+card, make sure that you have disabled the joystick port on the sound card.
+
+You cannot use a joystick splitter for a 2 player game on the pitch.
+
+E.3 Do not touch the joystick when you leave the Menus until KICK OFF is to
+take place. During this time the joystick is being automatically
+calibrated.
+
+F. SOUND CARDS
+--------------
+
+F.1 The program supports Sound Blaster or hardware compatible cards.
+
+F.2 The sound card menu will be displayed with commonly used default
+values. If your sound card has a different IRQ or PORT channel settings,
+alter the values using the keyboard.
+
+F.3 The modified file will be saved on the hard disc.
+
+F.4 No Sound: Check settings for Port Address, DMA, and IRQ have been set
+correctly in the set up utility.
+
+F.5 If you do not know the settings, use the software that came with your
+card to determine the correct values.
+
+F.6 Once you know these values, run the SET UP program on your CD.
+
+F.7 Save the settings by choosing the Save Settings option.
+
+G. QUIT PROGRAMME (PC ONLY)
+---------------------------
+
+When office complex is displayed, press Escape button.
+
+H. HARD DISC REQUIREMENTS (PC ONLY)
+-----------------------------------
+
+The programme requires about 20 M.Byte of Hard Disc space to run
+efficiently.
+
+
+                             1.0 INTRODUCTION
+                             ----------------
+
+1.1 At the age of 28, you are at the peak of your career, a capped player.
+You have been appointed the Player Manager of a 2nd division club. Your
+superior skills and experience on the pitch will be a great advantage for
+gaining promotion initially, but as you grow older and the competition gets
+tougher, the only way to the top is by assembling the best squad, using
+tactics that maximises the strength of your squad and having enough money
+in the bank to buy success when shove comes to push.
+
+1.2 Player Manager 2 is a 1 - 4 player game.
+
+1.3 PM2 is a game of great depth. Each aspect of the management has
+significance. You can't ignore an aspect and not pay the penalty.
+
+1.4 For those who want to concentrate on Management only, there are
+Predict, Watch, Management Scanner and Highlight options available. In
+early years, against weak teams, playing on the pitch may give you more
+favourable results, specially if you are a good player. This advantage
+disappears as you get older and opposition gets tougher.
+
+1.5 For those who wish to play on the pitch, two playing options are
+available. Normal and Role Play. The NORMAL option is controlling the
+player nearest to the ball and ROLE PLAY is playing in a pre-selected
+position i.e. Midfield etc.
+
+1.6 You also have four views of the pitch to play on. Each view has certain
+advantages. The views are Overhead Up and Down, Overhead Side to Side,
+Perspective and Isometric.
+
+1.7 There are four divisions in the league, PREMIER, 1st, 2nd and 3rd.
+Three clubs are promoted and three clubs are relegated. There are two
+domestic and three European Cup Competitions.
+
+Like all simulations, the final outcome depends on a multitude of factors
+and their mix. We leave you to learn from your experience.
+
+1.8 There is a SAVE GAME facility. DO NOT SAVE MORE THAN SIX TIMES IN A
+SEASON. There are severe penalties if you exceed this limit.
+
+1.9 ASSISTANT MANAGER: The Manager has to hang his boots at the age of 36.
+You will be allowed to appoint an Assistant Manager after one year i.e. for
+a year you can not play on the pitch and must concentrate on management.
+Once the assistant manager has a contract of 3 years. On the expiry of the
+contract, the manager will have to wait for one year before appointing
+another assistant manager.
+
+                             2.0 MENU CONTROLS
+                             -----------------
+
+2.1 You will need a mouse or joystick for controlling the menus, but to
+play on the pitch you will need a joystick.
+
+2.2 MOUSE: Use the LEFT mouse button to SELECT an item.
+
+           Use the RIGHT mouse button to QUIT the menu.
+
+Some menus have a DONE icon in the bottom right corner. Select Done to quit
+the menu.
+
+2.3 JOYSTICK: Two button Joystick: Use as the mouse.
+
+              One button Joystick: Use ESC instead of right mouse button.
+
+2.4 MULTIPLE PLAYERS: Each player takes his turn to complete his
+management. The number on the cursor corresponds with the the player in
+control. Once a player has finished the management part, he clicks on the
+Boot Room to finish his turn. The number on the cursor will change and the
+next player takes control. When the last player has completed the
+management, the Boot Room will be displayed. The cursor will display the
+player number playing the first match. The name of the team controlled by
+the player will also be displayed on the wall.
+
+2.5 When the KEYBOARD is used to enter a value, TERMINATE the input by
+pressing ENTER or RETURN key.
+
+2.6 Sound (PC ONLY). Use the specified keys to switch the sound ON and OFF
+at any time.
+
+Background Music               M
+
+Menu Sound Effects             S
+
+Use the + and - keys to adjust the volume.
+
+The sound effects in the planning part can not be switched off.
+
+                             3.0 OPENING MENUS
+                             -----------------
+
+These menus set up the game enviroment before you assume the management
+responsibilities.
+
+3.1 MAIN MENU
+-------------
+
+3.1.1 NEW GAME: You start a totally new game.
+
+3.1.2 CHALLENGE: This is a personal challenge. After one season, you are
+set a target of points to achieve in the next season. The points are
+awarded for a range of achievements like promotion, F.A Cup Quater final
+victory, etc.
+
+3.1.2.1 The points gained can be used to start a NEW GAME in higher
+divisions. Enough points will enable you to manage teams like Newcastle,
+Liverpool, Manchester United, etc., powerful and rich. The points can also
+be used by any time during the game to seek appointment as a manager of
+another club.
+
+3.1.3 KNOCK OUT: A game for 2 to 4 players. The players start in the same
+division. The game continues as normal until one of the players is promoted
+or relegated. The clock starts and unless within a set period, all players
+are in the same division again, the bottom player is eliminated. The game
+continues until there is a winner.
+
+3.1.4 CONTINUE GAME: This option is used to continue a previously saved
+game. A directory of the saved games is displayed. Select the file name of
+the game you wish to continue.
+
+3.1.5 DEMO GAME: This is a tutorial mode to get you acquainted with the
+gane. The season starts in week 12 and at the end of season the Demo Game
+returns to the main menu. The Demo Game gives you an opportunity to explore
+the whole game.
+
+3.2 GAME SET UP
+---------------
+
+3.2.1 NEW GAME
+
+3.2.1.1 THE MANAGER: As you come to the menu, four manager faces are
+displayed. You can click on the face to cycle through the available faces.
+(PC CD ROM only)
+
+3.2.1.2 MANAGER NAME: Click on the manager name then use the keyboard to
+insert the name. Terminate the input by pressing the Return key. If you
+have accidently clicked on a manager name, press ESC key to get the Ball
+cursor back.
+
+3.2.1.3 POSITION: Default position is displayed. To select a new position,
+click on the current position to cycle through other positions.
+
+3.2.1.4 CHALLENGE POINTS: Your Challenge points are displayed. The higher
+the points, the better the choice. You can manage top teams like Newcastle,
+Man. Utd, Liverpool, Leeds etc. Click on your team name to display the
+available teams.
+
+3.2.1.5 TEAM NAME: A team in the 2nd division is allocated to each player.
+You can select another team. Click on your team name to display the teams
+available for selection.
+
+3.2.1.6 ROLE PLAY: Default value NO is displayed. You will control the
+player nearest to the ball. Click on it to change it to YES. You will now
+only control the player playing in the position specified in 3.2.1.3.
+
+3.2.1.7 DIVISION: All players normally start in Division 2 unless challenge
+points are used. The division in which each manager starts is displayed.
+
+3.2.1.8 SKILL LEVEL: There are 3 skill levels namely NORMAL, EASY and VERY
+EASY. The skill level spplies to all the managers. Click on the option you
+wish to select.
+
+3.2.1.9 SEASON: To change the year, click on the numbers to delete. Use the
+keyboard to enter new numbers. Press ENTER key to terminate the input.
+
+                              4.0 PRE-SEASON
+                              --------------
+
+On your appointment, you have 6 weeks Pre Season before the real season
+starts. The first week is spent on the beach then five weeks in the office.
+During this time you can buy and sell as many players as you like. The
+minimum squad size is 16 and the maximum is 24. You must also organise
+rigorous fitness training as your squad is semi-fit. The tasks in the first
+week are as follows.
+
+4.1 SPONSORSHIP (Entry: book)
+-----------------------------
+
+You have three types of sponsorship. Straight cash, cash + gate receipts
+and cash + cup win bonus. Highlight the offer you wish to accept and then
+select Done to confirm the choice.
+
+4.2 ARRANGE FRIENDLIES (Entry: telephone)
+-----------------------------------------
+
+You have five friendlies to arrange. You can select any team in the league
+or teams in Europe. Click on P.S. Wk2 (pre season week 2) to display the
+divisions, click on the division of your choice and the teams in that
+division will be displayed. Select a team. Repeat for P.S. Wk 3, 4, 5 and
+6. To benefit from the Friendlies, you should start with either lower div.
+clubs and build up to stronger clubs. Watching the game or getting some
+useful joystick practice will be a good idea.
+
+4.3 MAKE APPOINTMENTS (Entry: laptop)
+-------------------------------------
+
+The contracts of the scout, physio and coach are yearly so their contracts
+must be renewed each year. They all have a rating which is reflected in
+their salary. The ratings range from 1 to 15 with 1 being the lowest
+rating. A five star coach will import a lot more skill in your squad in a
+shorter period than a one star coach. You must select a coach, physio,
+scout and a specialist keeper coach before you can exit the pre-season
+menu. Only a 5 star scout can look for players in Europe. Getting the best
+you can afford is money well spent.
+
+4.4 SCHOOL BOY CONTRACTS
+------------------------
+
+From the 2nd season onwards, you can sign on schoolboys to the squad. You
+can coach the young talented players and sell them in time to Premier
+division clubs. You can bid for up to eight players as long as you do not
+exceed the maximum squad strength of 24.
+
+4.4.1 The schoolboys are reborn players who retired or left football for
+one reason or another. They retain their names and playing positions i.e. a
+winger will be reborn as a winger but their stats are different and
+coaching and handling determines what sort of players they develop into.
+
+4.4.2 The schoolboys start with 3 years contract and can be bought and sold
+like any other player. Their price during early years is very low.
+
+            PREMIER DIVISION CLUBS CAN NOT BID FOR SCHOOL BOYS
+
+4.4.3 SIGNING ON SCHOOL BOYS: Scan through the list of players and select
+which players you wish to buy. Click on the selection to cancel it. Once
+you have selected, your bid will be considered against other bids. If your
+bid succeeds, the young players will join your squad.
+
+4.4.4 The schoolboys are very important to you financially. You can train
+him and generally look after him and sell them later on for a good price.
+
+4.5 When all tasks have been completed, select DONE to go to your office
+complex.
+
+                          5.0 THE OFFICE COMPLEX
+                          ----------------------
+
+The office complex consists of eight rooms-
+
+ARCHIVES: Information on the league, clubs, hot shots, club history etc.
+
+FINANCIAL DIRECTORS: Gives you an overall picture of the club's finances.
+
+PRESS ROOM: All the gossip and all the infomation you will ever need.
+
+BOARD ROOM: Habitat of your bosses.
+
+MANAGER'S OFFICE: The nerve center of the club.
+
+COACH'S ROOM: Coaching and training.
+
+PHYSIO ROOM: Where injured players are cared for.
+
+BOOT ROOM: Final preparation before match day.
+
+The functions of each office will now be described in more detail.
+
+QUITTING THE GAME: Press Escape key.
+
+                           6.0 MANAGER'S OFFICE
+                           --------------------
+
+As you move round the manager's office, the functions of the various items
+will be displayed at the bottom of the screen. Selecting the item will take
+you to the menu. The menus are self explanatory but a brief description is
+given below. You will find the manager's office in darkness (PC CD ROM
+only) on weekday matches. Just switch on the lights.
+
+6.1 THE SQUAD (Entry: Picture on the wall)
+------------------------------------------
+
+Your squad is the heart of your club. Take good care of it. Minimum size of
+the squad is 16 and the maximum 24. You can edit the names of the players
+in your team.
+
+6.1.0 TEAM RATING: Your Team Rating is shown at the top. There are 64 teams
+in the league. The rating shows your position based solely on the average
+value of 16 of the best players in your squad. If you have spent a lot of
+money buying players, your TEAM RATING will get higher. If your league
+position then does not improve dramatically, you have bought foolishly and
+the board will not be very pleased. Try to get a League position higher
+than the team rating. The bigger the gap, the better you have done in
+transfer market. Use your expertise in Buying and Selling of players to
+impress the board and their assessment.
+
+6.1.1 TACTICS: The current match tactics is shown at the top. You can
+change the tactics by clicking on it. It will cycle through 4 selected
+match tactics. To change Match Tactics, see 7.4.
+
+6.1.1.1 The shirt colours in the 2nd column will change according to
+tactics, indicating the type of player required for the selected tactics.
+The colour of the shirts are as follows. This is a broad classification.
+
+Green    -->    Keeper
+
+Blue     -->    Defender
+
+Yellow   -->    Midfield
+
+Red      -->    Forward
+
+6.1.2 NAMES: The first coloumn details the names of all the players in the
+squad. You can edit the names of the players in your squad.
+
+6.1.2.1 EDITING PLAYER NAMES: The names are edited on the Player Data
+screen. See 6.1.3.2 for access to the screen. Click on the name. Use
+the keyboard to enter the new name and press the Return key.
+
+6.1.3 PLAYER INFOMATION
+
+6.1.3.1 The Player infomation provides detailed infomation on each player
+in the squad to help you to manage the squad.
+
+6.1.3.2 ACCESS: Select the player first. A panel is displayed in the bottom
+left corner with arrows on either side. Click on the arrows to display one
+of the following options and then select the option.
+
+a) PLAYER DATA     See 6.2
+
+b) ASSESSMENT      See 6.1.9
+
+c) PERFORMANCE: This is a record of a player's match data for 28 weeks
+LEAGUE performance. The cup records are not displayed. If he has not played
+in a match, a cross will be displayed. To give you as much infomation as
+possible, the performance figure is displayed on a rolling basis i.e. if it
+is only 6th. week of the season, the performance figures are up to wk 5 for
+the current season and the remainder are from the last season.
+
+d) RECORDS: The personal records of the player are displayed.
+
+e) COMPARISON: Displays the skills or attributes of the whole squad. Click
+on the header to cycle through skills and attributes.
+
+6.1.4 SELECTING MATCH SQUAD: You can only select available players. The
+first column shows the availability of the player. A player can be
+unavailable for the following reasons.
+
+(a) Injured       : Red Cross
+
+(b) Sick          : Green Cross
+
+(c) Unfit         : Red Heart
+
+(d) Int. Duty     : Red Cap
+
+(e) Suspended     : S - Shows Red Card
+
+A yellow heart shows that player is SEMI FIT and can be played if
+necessary.
+
+6.1.4.1 The 2nd column shows the type of player required for the selected
+tactics. Select the right type of player for the position. The 3rd column
+shows the natural playing position of the player. There are 11 types of
+specific players. The type is colour coded as in 6.1.1.1. To get the right
+type of player in the right position, match the shirts. If it is not
+possible to do so, then look for a player who will suit best. For example,
+the tactics requires a Centre Back but you have defenders. Look at his
+adaptability besides other stats.
+
+6.1.4.2 To move a player from one position to another, simply click on the
+two names.
+
+6.1.5 A shirt number for a given tactics defines the functions of the
+player wearing that shirt. We have broadly defined these functions as 11
+positions. The positions are as follows:
+
+Centre Back (CBK)             : A Central Defender.
+
+Full Back (FBK)               : Defending playing wide. Player generally
+                                has beter than average pace.
+
+Defender (DEF)                : Utility defender.
+
+Playmaker (PMK)               : A midfielder used for distributing the
+                                ball.
+
+Midfield (MID)                : Good Passing ability.
+
+Midfield General (MGN)        : Battling type of midfielder.
+
+Winger (WNG)                  : Playing wide. Has high pace.
+
+Centre Forward (CFW)          : A forward playing in central position.
+
+Target Man (TMN)              : Used in conjunction with wingers as
+                                reciever of crossed balls.
+
+Striker (STK)                 : A good goal scoring forward.
+
+Players playing in these positions have a unique mix of physical attributes
+and skills. See 19.0 for a detailed explanation.
+
+6.1.6 AGE: Age range is 16 - 35. A 16 year old school boy is not really
+ready for a league game and if used, should be used sparingly. His stamina
+is also a bit suspect. On his 36th birthday, a player is retired. As a
+player gets older, some, not all of his attributes and skills detoriate.
+
+6.1.7 STAR RATING: A Player is rated from 1 to 5 in that division. A 5 star
+player in the 1st division may only rate 3 stars in the Premier division.
+The star ratings give you a broad comparison of the marketable abilities of
+the players in the squad.
+
+6.1.7.1 AMIGA - PC DOS: If a player is ranked, his ranking is displayed
+instead of his skill level.
+
+6.1.8 COACH ASSESSMENT: This is an overall assessment of a player by the
+coach. He takes various factors like experience, match performance into
+account. A coach is only as good in his assessment as his rating and
+experience.
+
+6.1.9 MANAGER'S RATING: When you first go to the squad screen, this column
+will be blank. Select ASSESSMENT as detailed in 6.1.3.2. A new panel will
+be displayed. Select the player to assess by clicking against his name in
+this column.
+
+You can now do your own assessment of any player. You can decide which
+skills you wish to take into account and how much importance you wish to
+give it in overall assessment. For example, a forward can have all the
+skills but if he has a short temper i.e. his temperament is low, he is not
+going to be of much use.
+
+6.1.9.1 Skills: The ratings for each skill is displayed. The important
+skills according to player position are highlighted and the overall skill
+rating is shown. You may include other skills or remove a selected skill
+from consideration by clicking on it. The overall rating may change as a
+different combination is made up.
+
+6.1.9.2 Attributes: As 6.1.9.1
+
+6.1.9.3 Assessment: The table shows a list of 7 factors that can be
+important in arriving at an overall assessment. See UNDERSTANDING STATS at
+the back of the manual for the skills and attributes you should concentrate
+on for a given type of player. The factors are:
+
+Skills and Attributes
+
+Stamina: You need stamina if the pitch is heavy or there may be extra time.
+
+Adaptability: Only to be considered if you have to play him out of
+position.
+
+Experience: Player skills and some attributes decline but his experience
+can be valuable, specially on big occasions like cup or derby matches.
+
+Performance: This rating is based on recent match performances.
+
+Disciplinary: If you get a tough referee, your disciplinary record can be a
+problem.
+
+Temperament: Can the player keep his cool when under pressure?
+
+6.1.9.4 Against each heading, a rating is given. You can decide how
+important an aspect is. For instance, you may give skill - 50%, Attributes
+- 30%, Experience - 5%, Performance - 15%, Others - 0% importance. Each
+player has to be assessed differently and regularly during the season.
+
+6.1.9.5 The overall rating will be displayed as Manager's rating. Once you
+have a good coach, you will be able to rely on his advice.
+
+6.1.10 RANKING: This is a league ranking. There are 20 ranked keepers from
+1 to 20. These are the 20 best keepers in that order in the 64 clubs in the
+league.
+
+There are 20 ranked defenders, midfielders and forwards. Ranking is
+assessed every week.
+
+6.1.10.1 AMIGA - PC DOS: See 6.1.7.1
+
+6.1.11 CARDS: It shows the number of yellow cards recieved by the player. A
+player recieving his 4th yellow card is suspended for the next 2 weeks and
+is unavailable for 2 matches. A red carded player is suspended for 3 weeks.
+
+6.1.12 CONTRACT: A Player displaying 0 in this column will leave at the end
+of the current year. You can renew his contract in the Player Data menu.
+The player may refuse the contract. The main reason for refusal is that the
+player is unhappy at the club. He has not been given enough opportunities
+to play for the club.
+
+6.1.12.1 You have two options:
+
+             a. Give him a few games to lift his morale and try again.
+
+             b. Negotiate a contract with him.
+
+6.1.12.2 When a player refuses a contract, a requester will come up to ask
+you if you wish to negotiate the contract.
+
+6.1.12.3 If you select YES option, a panel is displayed showing your
+current offer and the player's demand. You can change the weekly wage and
+the contract period. The player may modify his demand. You can quit
+negotiations at any time or reach an agreement with the player.
+
+6.1.12.4 WARNING: Think hard before you negotiate an individual contract as
+it destroys the wage structure of the club. Other players will ask for more
+money when their contract comes up for renewal.
+
+6.1.13 TRANSFER OR LOAN LIST: Following messages / icons (PC CD ROM only)
+appear.
+
+Red Telephone		:Tr. Listed	:Player has been transfer listed.
+
+Yellow Telephone        :Tr. Request    :Player is requesting a transfer.
+
+Green Telephone         :Bid Recd       :Bid has been received for the
+                                         player.
+
+White Telephone         :Loan Lstd      :Player is on loan list.
+
+6.1.14 INTERNATIONAL CAPS: The caps awarded by the national teams are
+diaplayed.
+
+RED CAP                 :Player is on International duty.
+
+YELLOW CAP              :Past International.
+
+BLUE CAP                :Current International.
+
+6.1.15 APPEARANCES: The number of club appearances made by the player are
+displayed.
+
+6.1.16 NATIONALITY: The Nationality of the player is displayed.
+
+6.1.16.1 AMIGA - PC DOS : The Nationality of the player is only displayed
+if selecting the squad for European fixtures. It then replaces the
+appearances.
+
+6.2 PLAYER DATA
+---------------
+
+The player data gives very comprehensive details of the player. It is an
+infomation as well as an action menu.
+
+ACCESS: See 6.1.3.2
+
+6.2.1 The following infomation is displayed - NAME of the player and his
+CLUB VALUATION, Player's AGE, playing POSITION, RATING, RANKING and
+NATIONALITY.
+
+6.2.2 RANKING: While Rating is a divisional indicator of the players'
+abiltiy, ranking can change from week to week. A player may be ranked one
+week and not the next.
+
+6.2.3 NATIONALITY: The league contains players from 16 nations.
+
+6.2.3.1 European Competitions: You are allowed to use only 4 overseas
+players in a European Competitions. Any player not of English nationality
+is a foreign player.
+
+6.2.3.2 Internationals: The player may be called away to play for his
+country.
+
+6.2.3.3 A representive player's face is displayed. It shows player MORALE.
+It has 5 stages from very happy to depressed. (PC CD ROM only).
+
+6.2.4 SKILLS AND ATTRIBUTES: A combination of skills and physical
+attributes uniquely defines a player. The bar graph displays each skill and
+attribute. A marker gives you the divisional average as a guide, so you can
+see how the player compares with the rest of the players in that division.
+
+6.2.5 The bar colours are as follows
+
+Red             Below Average
+
+Orange          Average
+
+Yellow          Above Average
+
+The assessment of skills and attributes of each individual player is the
+most important aspect of a Manager's job.
+
+6.2.6 The ATTRIBUTES are as follows:
+
+6.2.6.1 PACE: Speed of the player. The pace decreases as the player gets
+tired. You know how useful it is to have that extra yard of pace. Pace is
+the main attribute of a winger and to some extent of a Full Back.
+
+6.2.6.2 ACCELERATION: Determines how quickly a player gets to his maximum
+pace.
+
+6.2.6.3 STAMINA: Directly affects pace and skills. A tired player can't be
+that agile or accurate in shooting. See 7.2 for improving stamina.
+
+6.2.6.4 RESILIENCE: A player with low resilience is liable to get injured
+more often.
+
+6.2.6.5 AGILITY: Determines how quickly a player can get the ball under
+control.
+
+6.2.6.6 VISION: Vision is about reading the game. A player with good vision
+will not automatically pass the ball to the nearest player but see which
+player can utilise the ball best. An important requirement for a Playmaker.
+
+6.2.6.7 ADAPTABILITY: A player with high adaptability will play competently
+out of his natural position.
+
+6.2.6.8 AGGRESSION: A player with high aggression will go for the ball. He
+is also liable to fall foul of the referee unless he has good tackling,
+control skills and good temperament.
+
+6.2.6.9 FLAIR: A player with high flair is greedy, and important
+requirement for a striker.
+
+6.2.6.10 TEMPERAMENT: A player with good temperament will keep cool under
+pressure and not get wound up by the opposition. The higher the
+temperament, the cooler the behaviour.
+
+6.2.7 PLAYER SKILLS
+
+6.2.7.1 PASSING: Passing skill is probably the most important skill for a
+player especially for midfielders.
+
+6.2.7.2 SHOOTING: Shows the accuracy of the player shooting, very important
+for a forward.
+
+6.2.7.3 TACKLING: The ability to get the ball and not foul the player is
+the measure of tackling. The measure of tackling is an important skill for
+a defender or midfielder.
+
+6.2.7.4 CONTROL: The skill in controlling the ball.
+
+6.2.8 KEEPER SKILLS
+
+The keeper has his own measure of skills. Special Keeper skills are as
+follows:
+
+6.2.8.1 THROWING: How far the keeper throws or rolls the ball.
+
+6.2.8.2 KICKING: How far the keeper kicks the ball.
+
+6.2.8.3 KEEPER: This determines the keeper's diving and catching ability.
+
+6.2.8.4 JUMPING: The height he can jump to tip the ball over the bar.
+
+6.2.8.5 HANDLING: His anticipation to come off the line.
+
+6.2.9 COMPARISONS: If at any time you wish to see one particular attribute
+or skill for the whole squad together, select comparisons in the bottom
+left corner.
+
+6.2.10 EDIT PLAYER NAMES: You can edit a player's name. Click on the name
+to delete the current name. Use the keyboard to enter a new name. Terminate
+the input with Return key.
+
+6.2.11 ACTION PANEL: This is displayed on the right.
+
+6.2.11.1 AVAILABILITY: If a player is available for selection, a tick mark is
+displayed. If he is not available the duration and reason for his absence
+is displayed.
+
+6.2.11.2 CARDS: Shows disciplinary cards.
+
+6.2.11.3 INT. STATUS: Shows whether the player has been capped and whether
+he is Current International or Past International.
+
+6.2.11.4 INT. CAPS: Number of caps gained by the player.
+
+6.2.11.5 WAGES: The player gets appearance money equivalent to his wages if
+he plays on the pitch. If he plays twice in a week, he gets two appearance
+fees plus the wages shown.
+
+6.2.11.6 LOAN OUT: If you wish to loan out a player, click on this option.
+You can loan out a player for 4 to 7 weeks. Select the number of weeks. The
+player will then become Loan Listed.
+
+6.2.11.7 TRANSFER: If you wish to transfer a player, select this option.
+The player will be transfer listed. You can only transfer list 2 players in
+1 week.
+
+6.2.11.8 CANCEL TRANSFER: You can cancel the transfer listing by selecting
+the transfer option. You can't cancel it in the same week in which the
+player was transfer listed. You can loan out a maximum of 4 players in a
+year.
+
+The transfer list is closed from week 25. All transfer listing is then
+closed.
+
+6.2.11.9 SELLING PRICE: You can set a different selling price to the price
+shown for the player. If you want to sell a player quickly, reduce the
+price. You can also set it higher if you don't really want to sell a player
+requesting a transfer.
+
+6.2.11.10 CONTRACT: You can renew a player's contract. Max. duration is 3
+years. Select the duration.
+
+6.2.11.11 SEASON APPEARANCES AND GOALS: Displays the number of times the
+player has played on the pitch and the number of goals he has scored in the
+present season.
+
+6.2.11.12 CAREER APPEARANCES AND GOALS: Cumulative total of the above in
+his entire career.
+
+6.3 FIXTURE LIST (Entry: Board on wall)
+---------------------------------------
+
+The fixture list gives you a list of all the known fixtures for the season.
+The cup fixtures, replays and postponed fixtures are added as they become
+known.
+
+6.3.1 ATTENDANCE: The last column shows the attandance for each match, a
+very good indicator of your performance.
+
+6.4 THE ACCOUNTS (Entry: Laptop)
+--------------------------------
+
+The accounts in the manager's office are weekly. The balance is carried
+forward to the next week. All the fixed expenses are calculated after
+Saturday's match. If there is a mid-week match, the gates and player's
+appearance money are included in expenses immediately. The accounts are
+self explanatory. You must keep a close eye on the accounts, failure to do
+so may lead to your sacking.
+
+6.5 THE SCOUT (Entry: Laptop)
+-----------------------------
+
+There are 5 grades of scouts. Only a 5 star rated scout can look for
+players in Europe. The quality determines the class of the player he finds.
+You can instruct him to look for 3 players at any one time. Select the
+header Player 1. Now click on each sub header to display the choices
+available. For example click on Type and Keeper, Defender, Midfield and
+Forward are displayed. Make your choice. You can now give the scout
+detailed instructions.
+
+6.5.1 When all the instructions have been given, the scout will give 1 of 4
+responses - No Problem, Do my Best, Very Difficult or Impossible.
+
+6.5.2 The last two indicate that you may have to wait a long time to find a
+player. You can relax conditions sufficiently to get one of the first two
+responses.
+
+6.5.3 You can cancel scout instructions at anytime by clicking on Cancel
+Inst.
+
+6.5.4 Bidding for a Scouted Player: When the Scout Report for a player
+turns from No to Yes, click on Yes to go to list of players he has found.
+Select the player you wish to bid for and you will go straight to the bid
+screen. Follow the procedure detailed in 6.10.
+
+6.5.5 VISIT: When you select this option, you can give the Scout some
+specific instructions.
+
+6.5.5.1 VIEW: You can see the predicted results of as many matches as you
+wish. The predict will show you the players used, the incidents, player
+performances etc. Every match is played in real time and can therefore
+provide valuable infomation on other teams. The selection is made from that
+week's fixture list and is therefore only valid for 1 week. Select the
+division to display the divisional fixture list and select the games to
+view.
+
+6.5.5.2 FOLLOW: Select any team in the league to follow. The instruction
+will remain operational until cancelled. Select the division to display the
+teams in the division.
+
+6.5.5.3 WATCH: You can instruct your scout to watch any player in the
+league. Select the team to display the squad. Select the player.
+
+6.5.5.4 The purpose of this instruction is to watch the player before
+buying him. As you select the player, the following infomation is
+displayed.
+
+Name, Age, Position, Rating, Ranking, Carrier and Season goals and
+appearances and Scouts estimated price which depends on his ratings.
+
+6.5.5.5 At this stage, you have the option to change your mind and select
+another player. Once you proceed with the selection, this option is closed
+for 3 weeks. The Scout will report after 3 weeks.
+
+6.5.5.6 SCOUT REPORT: The Scout will come back with the following
+additional infomation.
+
+Player performance, Scout Assessment, Contract duration, Expected Price.
+
+6.5.5.7 BUYING SCOUTED PLAYER: You can bid for this player by selecting YES
+option. It will take you straight to the bid screen.
+
+6.5.5.8 CANCEL: Cancels the Follow instruction.
+
+6.6 THE OPPOSITION (Entry: Laptop)
+----------------------------------
+
+The opposition gives you the following infomation.
+
+6.6.1 The Squad: Shows the full opposition squad. The names of the players,
+their playing position and the top 5 scorers. To see the performance record
+of any player, click on the name. His performance over 28 weeks of league
+games will be displayed. If the current week is 7, then first 6 weeks will
+be from current season and the remainder from the last season.
+
+6.6.2 Comparison: This compares your current selected squad against the
+opposition squad used in the last match. It compares the keepers, defence,
+midfield and forwards in the pertinent skills.
+
+If the bar is to the right, the opposition has the advantage and if the bar
+is to the left, you have the advantage. The length and colour of the bar
+displays the degree of advantage. Light colours 0 to 50%, Dark colours 51
+to 100%.
+
+6.6.3 Form: The form shows the opposition results in the last 5 home or
+away games depending on whether they are playing home or away.
+
+6.7 LEAGUE TABLES (Entry: Filofax)
+----------------------------------
+
+A handy reference to see the league tables, results and fixtures of your
+own division.
+
+6.7.1 KNOCK OUT: The positions of the players are shown.
+
+6.7.2 THE CHALLENGE: The state of challenge so far is displayed.
+
+6.8 TACTICS DESIGNERS (Entry: Easel)
+------------------------------------
+
+Eight tactics are provided in the program. These are fairly standard
+tactics and may not accommodate the special needs of your squad. You can
+now fine tune any of these tactics or design any number from scratch.
+
+6.8.1 The basis of the tactics design is that you move the ball from square
+to square and position the players on the pitch relative to the ball. You
+can design the tactics with your player in possession of the ball (Attack)
+or the opposition with the ball (Defence).
+
+6.8.2 You can use the Ray Trace facility to ensure that the players' paths
+don't cross and that you do not ask them to move too far as they may not
+have enough pace to get to the new position.
+
+6.8.3  There are various icons at the top and to the left of the pitch.
+
+The icons are as follows.
+
+6.8.3.1 Attack: Tactics when you have the possession of the ball.
+
+6.8.3.2 Defence: Tactics when the opponents have the ball.
+
+6.8.3.3 Ray Trace: Traces the position of the players for up to 5 movements
+of the ball.
+
+6.8.3.4 Copy: Copies the position of the players for one position of the
+ball to the next position of the ball.
+
+6.8.3.5 Load and Save: You can load any existing tactic, modify it and save
+it on your disc / hard drive.
+
+6.8.3.6 Position: Specify the shirt numbers used in defence, midfield and
+forward areas.
+
+6.8.3.7 View: Your team is on the pitch.
+
+6.8.3.8 Opposition: Opposition team is on the pitch.
+
+You can view both teams simultaneously.
+
+6.8.3.9 Top Corner
+
+ATTACK: Position of your players when you are taking a corner.
+
+DEFENCE: Position of your players when the opponents take a corner.
+
+6.8.3.10 Goal Kick
+
+ATTACK: Position of your players when the opponent's keeper takes a goal
+kick.
+
+DEFENCE: Position of your players when your keeper takes the goal kick.
+
+6.8.3.11 Kick Off
+
+ATTACK: You kick off.
+
+DEFENCE: Opposition kicks off.
+
+6.8.3.12 Bottom corner: As in 6.8.3.9
+
+6.8.4 Making a start: When you go to Tactics Designer, a default tactics
+is already loaded. You can modify and adapt this tactics or load another
+tactics to modify or form a basis of a new tactics.
+
+6.8.5 Loading a Tactics: Select the Load icon. A directory of eight
+pre-designed tactics will be displayed. You can also load a previously
+designed tactics. Select the disc icon to load a saved tactics.
+
+6.8.6 Saving a Tactics: Use the Save icon. You CAN NOT save a tactics under
+the heading already used for pre-designed tactics.
+
+6.8.6.1 AMIGA: You will need a Formatted disc to save the tactics. Insert a
+formatted blank disc in the drive before selecting the Save option. The
+SAVE disc can store 10 tactics and 5 save games.
+
+PC: The tactics are stored on the hard drive.
+
+6.8.7 MOVING THE BALL: Move the cursor to the ball. Press left mouse
+button. Keep the button pressed and drag the ball to the new position.
+Release the button.
+
+6.8.8 MOVING A PLAYER: Move the cursor to the player and move the player as
+you do the ball.
+
+6.8.9 Attack and defence tactics are different. Select one or the other
+e.g. Attack and move the ball to each square in turn. For each position of
+the ball, move the players to their new positions. You need to fix the
+position of the players for corners, kick off and goal kicks.
+
+6.8.10 Use the Ray Trace facility to ensure that players do not cross each
+other's paths. The movemnets of the players should be limited otherwise the
+players will not be in position. Of course you can design deep runs.
+
+6.8.11 COPY: This faciltiy allows you to copy the position of the players
+for the ball position to another sqaure. For example if you wish to make
+the square 2 position the same as the square 5 position, select the Copy
+option. You then click on 5 then on 2.
+
+6.8.12 POSITIONS: Before going to the Save option, you must define the
+playing position of each player i.e. defence, midfield or forwards. When
+you select this option, the pitch will be divided into three sections -
+Forward, Midfield and Defence. Place your forwards in the forward section
+and so on. Placing them accurately in the position they will play is also
+important, i.e. if 7 is a winger and midfielder and tactics is 4-2-4, place
+him wide in the midfield area but right on the boundary joining the forward
+area. The display you arrange will be used in Team Talk. Study one of the
+tactics for an example.
+
+                          6.9 TRANSFERS AND LOANS
+                          -----------------------
+
+Transfers and loans options are a very important part of the management.
+
+6.9.0.1 Transfers and loans are accessed in the Player Data for a player.
+To get the Player Data of any player, simply click the availability column
+of the required player in the Squad in the Manager's office.
+
+The transfer and Loan List closes from week 25. Any players still on the
+Transfer or Loan List are removed from the list.
+
+6.9.0.2 Transfer and loan out options are displayed in the green column on
+the right.
+
+6.9.1 SELLING A PLAYER: To sell a player, you put the player on the
+Transfer list.
+
+6.9.1.1 Click on Transfer and "Tr. Listed" will appear against the option.
+
+6.9.2 RULES.
+
+6.9.2.1 You can only put 2 players on the Transfer List in one week.
+
+6.9.2.2 You can not Transfer List an injured player or a player who has
+been loaned out to another club.
+
+6.9.2.3 If a player gets injured after being Transfer Listed a red cross
+will appear against his name in the Transfer List.
+
+6.9.2.4 REMOVING A PLAYER FROM LOAN LIST: To remove a Tr. Listed player
+from the Transfer List, simply click on the transfer.
+
+6.9.2.5 A player must remain on the Transfer List for one week i.e. you can
+not change your mind immediately.
+
+6.9.2.6 You can't Transfer List a player you have bought before he has been
+with you for 4 weeks.
+
+6.9.3 Loan Listing A Player: Select Loan Out option. You can loan out a
+player for 4 to 7 weeks. Select the period.
+
+6.9.3.1 Removing Player From Loan List: Click on Loan Out to cancel the
+instruction.
+
+6.9.4 BID RECEIVED: If your player is on a transfer list, keep a close eye
+on the Transfer / Loan column in the squad screen. If a club bids for your
+player, a message "Bid Received" or a GREEN TELEPHONE will appear. This
+message may appear even if your player is not transfer listed. Your player
+has been scouted by another club.
+
+6.9.4.1 To sell this player, click on the Bid Received message and you will
+go straight to the Bid Screen.
+
+6.9.5 BID SCREEN: The bid screen is used for both buying and selling a
+player.
+
+6.9.5.1 SELLING A PLAYER: If you are selling a player, your selling price
+appears at the top. The price bidders are prepared to pay is displayed. A
+cursor will flash to give you the opportunity to change the price. The
+bidder may bid again with a higher price or go away.
+
+6.9.5.2 If there is more than one bidder, the bidders may compete against
+each other until only one bidder is left. All you have to do is press the
+Return key to show you are not changing your price.
+
+                           6.10 BUYING A PLAYER
+                           --------------------
+
+Select the type of player you wish to buy. A list of players will be
+displayed. Select the player you wish to buy.
+
+6.10.1 You can buy or attempt to buy 2 players and look at total of 4
+players in one week.
+
+6.10.2 When you select a player from the list, you are looking at the
+player. The selling price is displayed. You can enter your bid. Press the
+Return key to terminate the input. The seller will respond in one of three
+ways.
+
+a) Give a new price.
+
+b) A BLUE cross will appear against the bid to invite you to increase the
+bid.
+
+c) A RED cross will appear to terminate the transaction i.e. Go away.
+
+6.10.3 You can, in the case of (a) or (b), enter a new bid. The transaction
+is complete when two prices are equal.
+
+When a red cross appears, you have no option but to leave the bid screen as
+the seller has gone away.
+
+The sale might be blocked after the price has been agreed by your board if
+they feel it will imperil the club finances.
+
+You can save a game so far at any time. If you are playing a Challenge
+game, at the end of a successful challenge, you will be asked to save the
+game. If your next challenge fails, you can load the saved game and
+continue the challenge again. Please take care not to OVERWRITE this
+particular slot.
+
+6.11.1 CLICK ON DRAWER. A menu with 20 slots will be displayed. Select the
+slot you wish to use. If a game is already atored, it will be overwritten.
+Use the keyboard to insert the file name and terminate the input with
+Return key.
+
+6.11.2 AMIGA: Before you save a game for the first time, you must have a
+blank formatted disc ready. For formatting a disc, refer to your Amiga
+manual. This disc can be used to save five games and ten tactics. This will
+be called SAVE disc. You can have as many Save discs as you like.
+
+6.11.3 PC: Each SAVE GAME will need 350K space on the hard disc.
+
+                               7.0 THE COACH
+                               -------------
+
+After the manager, the coach probably plays the most important part in the
+development of the squad. There are five grades of coach. The higher the
+grade, the better the coaching.
+
+7.1 THE COACH (Entry : The man near the black board)
+----------------------------------------------------
+
+The details of the coaching staff and their specialities is displayed. If
+an assistant manager has been appointed, he will be a part of the coaching
+staff. The keepers are trained by a specialist keeper coach. The specialist
+is appointed in the Pre-Season menu.
+
+7.1.1 The coaching activities are divided into two parts - TEAM PRACTICE
+and GROUP COACHING.
+
+During the season, the number of hours assigned for coaching are 20.
+
+7.1.2 The coaching is done on 4 days of the week namely Monday, Tuesday,
+Thursday and Friday. Each day session is of 5 hours. The Team Practice is
+taken by the whole staff together, while the Group Coaching is done by each
+member of the staff individually.
+
+7.1.3 You can only do one activity on any one day. Select an activity for
+each day.
+
+7.2 TEAM PRACTICE (Entry: Running Machine)
+------------------------------------------
+
+There are eight items for the Team Practice. You can allocate time to each
+activity. The more you practice, the more expert you get and the better the
+execution.
+
+7.2.1 Four Match Tactics: Usually you use two of the four tactics. You
+should become familiar with these two. The other two need occasional
+refreshing.
+
+7.2.2 Corners and Free kicks need a lot of practice to make a real
+difference. Both are taken automatically on the pitch. The greater the
+familiarity, the more you are likely to score. Familiarity is also taken
+into account when predicting the result.
+
+7.2.3 Five a Side improves the team's stamina and morale. On heavy pitches,
+players need a lot of stamina.
+
+7.2.4 Fitness affects player skills and attributes. A player needs to be
+fully fit to produce results.
+
+7.3 GROUP COACHING (Entry: Standing Player)
+
+Each member of the coaching staff can be allocated one skill coaching a
+day. The activities are Shooting, Passing, Tackling, Control and Heading.
+The squad is split in 3 categories, Defenders, Midfield and Forwards.
+
+7.3.1 The bar display against each player shows their current skill status
+for the activity displayed by the header. The marker shows the DIVISIONAL
+avergae of the skill. If you coach the player, you will see his skill
+improving and the improvement in skill is reflected in his price.
+
+7.3.2 Five icons, one for each skill are displayed at the bottom. To give
+the player coaching, first select the staff member and then the day. The
+appropriate day column will be highlighted. Select the skill you wish to
+coach. An appropriate letter i.e. S for shooting will appear against the
+selected staff member. Before you select the staff member, bear the
+following in mind.
+
+7.3.3 Suitability of the Coaching Staff: All the staff have a speciality
+and therefore will give better coaching in their particular speciality. The
+proficiency for each skill against each type is given below:
+
+                Shooting        Passing         Tackling        Control
+
+Defender        BAD             AVERAGE         BEST            OK
+
+Midfield        OK              BEST            AVERAGE         OK
+
+Forward         BEST            AVERAGE         BAD             OK
+
+7.3.4 The optimum number of players that a member of staff can handle for a
+skill is his star rating + 1. A bar is displayed against each member of the
+coaching staff with a marker. The marker denotes the maximum number of
+players he can coach.
+
+7.3.4.1 Select the players for coaching. As you select the players, the bar
+will start filling up. The colour of the bar will change from yellow to red
+if you exceed the no. of players beyond his capability, denoting that
+coaching will be poor.
+
+7.3.4.2 The same player can't be coached on the same day by two different
+members of the staff.
+
+7.3.4.3 Select the players to be coached carefully. Do not waste coaching
+time e.g. by giving a defender shooting coaching. If you are in doubt,
+click on the icon in the bottom left corner. He will indicate by a tick
+mark which player needs that particular skill coaching. A cross indicates
+NO.
+
+7.3.4.4 CHANGE: The Bar display now shows the change in skill since the
+start of the season. Click on the Header to cycle through other skills.
+
+7.3.5 FATIGUE: Young players get tired easily and become prone to injuries.
+Look at the fatigue factor and rest good players for unimportant matches to
+give other players experience, and keep them away from requesting
+transfers. Be very careful how often players are used. Do not burn out a
+young player.
+
+7.4 TACTICS (Entry: Board on wall)
+----------------------------------
+
+You are allowed to take four tactics to a match. The top listed tactics is
+the match START Tactics. You can exchange tactics i.e. make any of the four
+tactics a START tactics.
+
+7.4.1 To load a new tactics, discard one of the match tactics. Select the
+tactics to be discarded and then click on the trash can.
+
+7.4.2 Select the tactics to be loaded from the directory and then click on
+the vacant slot.
+
+7.4.3 Exchange the new tactics with the vacant slot in the match tactics
+tables.
+
+7.4.4 Usually the top tactics is used. The second and the third tactics are
+reserve tactics, one for all out attack and the other for all out defence.
+
+The fourth tactics is a nursery tactics which is fine tuning of the first
+tactics. You train for this tactics and when the players are sufficiently
+familiar replace the start tactics with the New tactics. You can then fine
+tune the second tactics.
+
+7.5 ASSESSMENT (Entry: Wall Chart)
+----------------------------------
+
+The coach gives the assessment of the first team Forwards, Midfield,
+Defence and Keepers in the important skillsfor that position. Select the
+icon to display his assessment of the first team and the squad e.g. the
+first team defenders and all the defenders in the squad.
+
+7.5.1 COMPARISON: The coach also gives the relative assessment of the
+overall strengths of all the teams in the division.
+
+7.6 FACT SHEET (Entry: First Drawer)
+------------------------------------
+
+The Fact Sheet is an at a glance display and record of important aspects of
+the squad performance to date. Against each player name and his playing
+position, the following match data is displayed.
+
+7.6.1 Shirt No., Match Performance Points, Goals and cards if any. If the
+player was injured, Red Carded, Suspended, On Int. Duty etc., the
+infomation will be displayed instead of the shirt no..
+
+7.6.2 You will be able to see if you have played a player in the same
+position, match after match and his performance in that position. You can
+see whose performance is improving. As a matter of fact, quite a lot can be
+read on this sheet.
+
+7.7 TEAM REPORTS (Entry: Second Drawer)
+---------------------------------------
+
+Graphical display of effects of coaching on team skills and performance.
+
+7.7.1 SQUAD SKILLS: All five skills for four types of players are
+displayed. The graph displays a comparison of each skill against the
+divisional average of that skill. If the average of, for example, the
+shooting skill of all the forwards in the squad is less than the divisional
+average of shooting skills of the forwards, the bar display is in red. If
+yellow it is greater. The overall bar in the list compares the average of
+all the skills of selected type of players against the divisional average.
+The OVERALL bar display compares the average of all the skills of the whole
+squad to the divisional average. The display colour is in red, orange or
+yellow depending on the squad average being less, equal or greater than the
+divisional average.
+
+7.7.2 FIRST TEAM SKILLS: As above for the first team.
+
+7.7.3 SKILL RECORDS: The average of the skills of Keepers, Defenders,
+Midfielders and Forwards of the whole squad are plotted over the whole
+season.
+
+7.7.4 TEAM PERFORMANCE: This shows the results and the average of match
+performance points of Keepers, Defenders, Midfielders and Forwards for
+every match in the season.
+
+7.7.5 STAMINA - FIVE A SIDE: The stamina depends on Five A Side training.
+The graph displays the average of Team Stamina for the whole season. The
+hours spent on Five A Side training are also displayed so that the effect
+can be seen directly. The improvement or deterioration are not immediate.
+
+7.7.6 FITNESS - FITNESS TRAINING: The average of squad Fitness (Excluding
+injured players) is plotted for the whole season as well as the Fitness
+Training given to the squad. Again the effects are not apparent
+immediately.
+
+7.8 PLAYER PERFORMANCE
+----------------------
+(Entry: Select Player Name In Match Facts)
+
+A report on every player in the squad.
+
+7.8.1 CARDS: Shows when the player received yellow and red cards during the
+season. His aggression and temperament are also displayed.
+
+7.8.2 The TIME lost by the player through injury until he was fit to play
+is displayed for the season. Player's Resilience is also displayed.
+
+7.8.3 FITNESS - FATIGUE: Player's Fitness and Fatigue over the season is
+displayed.
+
+7.8.4 PERFORMANCE: Player's performance points are displayed.
+
+7.8.5 OVERALL SKILLS: The average of the relevant skills of the player
+compared to the divisional average are plotted for the season.
+
+7.9 COACH MESSAGES (Entry: Third Drawer)
+----------------------------------------
+
+The coach is your eyes and ears in the dressing room. Pay heed to his
+messages.
+
+                                8.0 PHYSIO
+                                ----------
+
+The physio looks after the injured and sick players. There are five grades
+of physio. The better the physio, the better the treatment, hence the
+shorter the injury time of the player.
+
+8.1 INJURY LIST: (Entry: Chart at the end of Bed)
+
+All the injured players are listed. Against each name the duration of the
+recovery from injury is given. The diagnosis is also given. In the first
+week of injury, you have the option to select the treatment.
+
+8.2 Recovery time is displayed if you use the club doctor. You have the
+option to use Private treatment or engage a specialist. These two options
+cost extra but they may reduce the recovery time. Player fitness
+deteriorates as the weeks pass. When he has recovered from injury or
+illness, the physio takes over.
+
+8.3 Against each player is also listed 3 other periods which will be needed
+before the player is fully fit.
+
+8.4 PHYSIO: This is the time the physio needs to get the player to a
+certain level of fitness. This time depends on the quality of the physio
+and the deterioration in player fitness.
+
+8.5 Physio and Coach work together to get the patient to 90% fitness.
+
+8.6 COACH: This specifies the time required to get fully fit.
+
+                       9.0 FINANCIAL DIRECTOR (F.D)
+                       ----------------------------
+
+As you would expect, the Financial Director has overall responsibility for
+the club's finances. Managers come and go but the clubs are there forever.
+The books in the F.D office are very useful for an overview of the club
+finances.
+
+9.1 WAGES
+---------
+
+This gives the up-to-date wages of each player. Against each player are
+recorded his basic wage to date and the total amount paid to date.
+
+Each player gets a basic wage and appearance money equal to his basic wage
+every time he plays on the pitch. If there is a mid week fixture, he can
+get appearance money twice. Click on the name to get full details.
+
+9.2 INCOME
+----------
+
+This totals all the income to date.
+
+9.3 EXPENDITURE
+---------------
+
+This details all the expenditure to date.
+
+9.4 BONUS (Entry: Picture On The Wall):
+---------------------------------------
+
+There are two types of bonus that can be given.
+
+9.4.1 WIN BONUS: This is an incentive bonus given to the players making
+appearance in the next match. They only get the bonus if they win.
+
+9.4.2 CASH BONUS: Unconditional bonus given to the whole squad as a morale
+booster.
+
+9.4.3 To give a bonus, select the type and a cursor will appear. Use the
+keyboard to input the amount and terminate the input with Return Key.
+
+9.4.4 Use CANCEL to cancel the bonus. Once you have quit the screen, you
+can't cancel the bonus.
+
+9.4.5 The BOARD may block the bonus. A cross will appear and your entry
+will be deleted. Enter the new bonus.
+
+9.4.6 The total amount of bonus is displayed.
+
+9.5 STADIUM IMPROVEMENTS
+------------------------
+
+You need to improve the capacity of your stadium right from the start.
+Bigger capacity will enable you to have larger crowds for cup matches if
+you are lucky to draw a premier div. club. You will require big gates to
+survive in the higher divisions.
+
+9.6.1 You must provide full cover for the spectators i.e. cover both sides
+and ends of the stadium before the club can be promoted to the first
+division. Failure to do so will result in loss of promotion even if you
+have won the division.
+
+9.6.2 The stadium must have extra floodlighting and undersoil heating
+before you can be promoted to the Premier division.
+
+9.6.3 You can order the improvements at any time but will take place after
+the season is over and ready at the start of the new season.
+
+9.6 TAKE A BREAK (Entry: Picture On The Wall):
+----------------------------------------------
+
+This is a morale booster. There is a choice of location, activities and
+duration. When you have made all three choices, the cost will be shown. You
+can cancel the choice and make new selection.
+
+9.7.1 Before giving the squad a break, make sure you can afford it.
+
+                              10.0 BOARD ROOM
+                              ---------------
+
+The board on the whole is very supportive of the manager. However it keeps
+a close eye on the finances and will block your bid for a player if the bid
+will endanger the club's finances. It will also stop you from selling a
+player too cheaply. The board expects you to produce results in line with
+your team rating.
+
+10.1 You can go to the Board Room at any time. You will see the secretary
+busy at work. There are 3 books on her table. Each book contains important
+infomation.
+
+10.2 BOARD MESSAGES (Entry: Red Book)
+-------------------------------------
+
+From time to time, the board sends you messages. They may be warnings or
+meessages of encouragement or just comments on your or the team
+performance.
+
+10.2.1 Your current Board Rating and the rating over the season is also
+displayed. The rating is done on monthly basis and is a measure of Board's
+satisfaction with your performance at the club. If it drops below a
+certain point, you will be summoned to the Board Room and carpeted. If the
+performance continues to deteriorate, you will be sacked.
+
+10.3 RATINGS (Entry: Blue Book)
+-------------------------------
+
+The ratings show your performance in that field so far. This infomation is
+used to assess the Manager's overall rating. All ratings are done on
+monthly basis.
+
+10.3.1 FINANCIAL RATING: Shows how well you have managed club finances.
+
+10.3.2 COACHING: Displays the overall improvement in all aspects of
+coaching.
+
+10.4 VITAL INFOAMTION (Entry: Yellow Book)
+------------------------------------------
+
+This is perhaps the most useful infomation on which you can assess your
+performance so far.
+
+10.4.1 LEAGUE ATTENDANCE: It shows the relationship between performance in
+the League and attendance
+
+10.4.2 TEAM RATING: Team Rating and League Position are plotted on the
+same graph. The gap between the two shows your ability in the Transfer
+market. If your League Position is higher than your Team Rating, you have
+done WELL. The bigger the gap, the better you have done. If your Rating is
+higher than your league position, the chairman is going to get nervous. If
+the gap gets big, he will be after your head on a plate.
+
+10.4.3 RESULTS: This displays HOME and AWAY results of the League matches.
+The result displayed for each week is the difference between your and the
+opposition goal.
+
+10.5 SUMMONS TO BOARD ROOM:
+
+These are priority messages from the board which the chairman delivers
+personally to the manager. The summons come when you are in your office.
+The door marked Board Room opens and you are summoned to the Board Room.
+
+                             11.0 PRESS OFFICE
+                             -----------------
+
+11.1 International Squad (Entry: Notice Board)
+----------------------------------------------
+
+The players selected for England are listed. The second list shows the
+foreign players in the league called for international duty by their
+countries.
+
+11.2 ANCO TIMES (Entry: News Rack)
+----------------------------------
+
+Factaul match reports. One for each manager.
+
+11.3 HOT NEWS (Entry: Television )
+----------------------------------
+
+Gossips, scandals, sackings and much more. The news keeps you informed of
+what is happening elsewhere and can be useful.
+
+11.4 PROMOTIONS AND RELEGATIONS (Entry: Cup Picture On Wall)
+------------------------------------------------------------
+
+This lists last year's promotions and relegations.
+
+11.5 VACANCIES AND APPOINTMENTS (Entry: Fax Machine)
+----------------------------------------------------
+
+The league is notified of the new appointments and termination of contracts
+either by resignations or sackings of the manager.
+
+If you are interested in a vacancy, click on the vacancy to see the
+details.
+
+You will have the opportunity to apply for the vacancy. If the board
+agrees, you will be given an answer straight away. You will assume
+responsibility at the new club immediately.
+
+11.6 MANAGER AND PLAYER RANKINGS (Entry: Laptop)
+------------------------------------------------
+
+The bar at the top displays:
+
+a) Manager, Player, U 21.
+
+b) Month, Year.
+
+c) Prem., 1st, 2nd, 3rd and Club.
+
+One of the options of in each group will be highlighted.
+
+11.6.1 MANAGER OF THE MONTH: Displays Manager Of The Month for each
+division and the ranking of each manager in the division.
+
+11.6.2 PLAYER OF THE MONTH: Player of the month and top players of each
+division are displayed.
+
+11.6.3 UNDER 21 PLAYER OF THE MONTH: As 11.6.2 for players under 21.
+
+11.6.4 CLUB RANKING: Displays top 16 players of the club from start of the
+season.
+
+11.6.5 MANAGER OF THE YEAR: Shows the ranking of the managers so far for
+each division and Manager Of The Year for each division.
+
+11.6.6 PLAYER OF THE YEAR: Shows the ranking of the 16 top players in each
+division so far for each division.
+
+11.6.7 UNDER 21 PLAYER OF THE YEAR: As above for under 21 player.
+
+11.7 ROLL OF HONOUR (Entry: Book On The Table)
+----------------------------------------------
+
+Records of Manager, Player and U 21 Player of the year for each division in
+the previous year.
+
+                               12.0 ARCHIVES
+                               -------------
+
+This gives you full infomation on all the 64 clubs in the league and lots
+more. This infomation can be used to great advantage.
+
+12.1 There are in total five racks labelled as:
+
+The League, Records, Clubs, Champions and Cups
+
+12.2 THE LEAGUE:
+----------------
+
+The rack has four shelves, one for each division. Each shelf gives that
+division's Fixtures, Results and Tables.
+
+12.3 CLUBS:
+-----------
+
+This rack also has four shelves, one for each division. Select the division
+to display the names of the clubs in the division.
+
+12.3.1 Select the club to view History, Background, Fixtures and the Squad.
+
+12.3.2 HISTORY: This shows the club's positions in the league, promotions,
+relegations and the number of times they won any of the domestic or
+European cups.
+
+12.3.3 SQUAD: Gives a list of the player' names, ages, positions, ratings,
+rankings, nationalities and international caps.
+
+12.3.4 BACKGROUND: A source of very useful infomation on the club. All you
+need to know about the club.
+
+12.3.5 FIXTURES: The club fixture list.
+
+12.4 RECORDS:
+-------------
+
+This gives you infomation such as the highest gate, top scorer etc.
+
+12.4.1 HOT SHOTS: Top scorers for each division are listed.
+
+12.4.2 RANKED PLAYERS: Top 20 Keepers, Defenders, Midfielders and Forwards
+in the league are listed.
+
+12.4.3 PAST TRANSFERS: Details of 50 past transfers are given. As the new
+transfers come in, the old transfers scroll off the top.
+
+                              13.0 BOOT ROOM
+                              --------------
+
+This is the final room before you go to the match. Once you have selected
+the Boot Toom, you can't go back to any other room in the office complex
+until that match has been played.
+
+13.1 MULTIPLE PLAYERS:
+----------------------
+
+If more than one player is playing, each player goes to the Boot Room. When
+he has done all his tasks, he clicks on the window for Match Day.
+
+13.2 The cursor will change for the next player and he will complete his
+tasks and his turn by clicking on the window. When all the players have
+taken their turn, clicking on the window will take you to the Match Day of
+the first fixture which is independent of the player number.
+
+13.3 PRE MATCH ASSESSMENT:
+--------------------------
+
+There is a pre-match assessment by Alan Hansen.
+
+13.4 END OF SEASON:
+-------------------
+
+When all your fixtures have been completed, the Boot Room will be closed to
+you. You can browse round the office complex and look at archives, accounts
+etc. The Boot Room will now change to a Beach Scene. Click on this to end
+the season.
+
+                              14.0 MATCH DAY
+                              --------------
+
+14.1 The two opposing teams are shown along with the referee. You have the
+following choices.
+
+14.1.1 PLAY: (Entry: Football) You can play on the pitch provided you have
+selected yourself to play. If you get injured, sent off or substitute
+yourself, the game will revert to Watch mode. JOYSTICK is required.
+
+14.1.2 WATCH: (Entry: Binoculars) You can watch the game. You can implement
+substitutions and change tactics. Joystick is not required.
+
+14.1.3 PREDICT: (Entry: Crystal Ball) The result is predicted. An animated
+scoreboard shows the progress of the match. You can quit the animated
+display by pressing right mouse button.
+
+14.1.4 HIGHLIGHTS: (Entry: T.V) Match highlights are shown.
+
+14.1.5 MANAGEMENT SCANNER: (Entry: Pitch) The game is played on the scanner
+and is exactly the same as the game in Watch mode except that you can see
+the whole pitch and therefore the action. The scanner is the best way to
+play your part as a manager.
+
+14.1.6 Selecting one of the options will take you to the next screen.
+
+14.2 PLAY AND WATCH: If you have selected Play or Watch, the next screen
+will display the kit colour of both teams. You have the option to play in
+FOUR VIEWS.
+
+a) Top Down - Up and Down
+
+b) Top Down - Side to Side
+
+c) Perspective
+
+d) Isometric.
+
+14.2.1 Each view has advantages and disadvantages.
+
+14.2.2 Isometric is the nicest looking. It gives you a good overall view of
+the game but is not so amenable for controlling a player.
+
+WARNING: As nearly all the players are visible a lot of the time, the game
+is likely to slow down from time to  time.
+
+14.2.3 Top Down Views - Excellent for playing but moves like volley etc.
+are not so evident.
+
+Perspective: Is a good compromise between Top Down and Isometric views.
+
+14.2.4 TOSS: Click on the coin for it to flip. If you win the toss, you can
+select:
+
+Up or Down pitch for Isometric or Top Down - Up and Down pitches.
+
+Right or Left or vice versa for the other two pitches.
+
+Once the selection has been made, you will go to the match.
+
+WARNING: DO NOT TOUCH THE JOYSTICK AS YOU LEAVE THIS SCREEN AND GO TO THE
+PITCH UNTIL KICK OFF. During this time the joystick is being automatically
+calibrated.
+
+14.3 MANAGEMENT SCANNER:
+------------------------
+
+The scanner displays the pitch. The players are displayed by dots inteam
+colours. The game played is exactly same as a Watch game but with many
+advantages. Use a keyboard (PC only) or joystick to give instructions.
+
+14.3.1 The Home team is displayed on the left and the visitors on the
+right. Under each team the performance of Forwards, Midfield and Defenders
+is displayed. At the top of the screen, possession by two teams is shown as
+a bar display.
+
+14.3.2 The squad and the two substitutes are displayed for both teams.
+Against each name appears the player's shirt no., performance and a marker
+to indicate that he has received Team Talk instruction. As the game
+proceeds player performance will fluctuate.
+
+14.3.3 MULTI SPEED SCANNER: The scanner has 3 speeds - Normal, 2X and 4X
+normal speed. You can change the speed at anytime during the game by
+selecting the appropriate box. It also has Step by Step movement. If you
+select the step by step mode each selection will do one movement.
+
+14.3.4 Use the Mouse or Joystick to move the pointer when the game is
+paused.
+
+14.3.5 SUBSTITUTION: Press F1 for player 12 and F2 for player 14. (F9 and
+F10 for team B). When the ball has gone out of play substitutions can be
+made. Select the player to be substituted.
+
+14.3.6 Substituting an Injured Player: When one of your players is injured,
+select the substitute.
+
+14.3.7 PAUSE: Press the Space Bar to Pause and Unpause the game.
+
+14.3.8 TEAM TALK: You can give each player in the squad one of the
+following eight instructions. Select the player and then the instruction.
+
+a) PUSH UP: The player will play 1 square ahead of normal position.
+
+b) DROP BACK: Reverse of above
+
+c) TUCK IN: The player will play 1 square `in' towards the centre.
+Instruction usually for Wingers and Full Backs.
+
+d) PLAY WIDE: Reverse of above.
+
+e) LONG BALL: The player will kick the ball up pitch. Instruction for
+defenders.
+
+f) TIME WASTE: The players will pass the ball around.
+
+g) SHOOT ON SIGHT: The players will shoot at goal whenever they can.
+
+h) GET TOUGH: The players get aggressive.
+
+i) AS YOU ARE: Cancels instruction given to player.
+
+14.3.9 TACTICS: Click on tacticsto change the tactics.
+
+14.3.10 PLAYERS: You can swap players i.e. move a player from defence to
+midfield. Click on the two players to exchange the positions.
+
+14.3.11 STEP BY STEP: Press F.B. for each move.
+
+14.4 AFTER MATCH REPORTS
+------------------------
+
+There are various kinds of reports after the match.
+
+14.4.1 EVENT RECORD: Shows the time of goals, injuries, knocks, cards, and
+substitution for both teams.
+
+14.4.2 PERFORMANCE RECORD: Shows Performance points, goals, cards, injuries
+and substitution for both teams.
+
+14.4.3 HEAD LINES: Head Lines in ANCO TIMES of the matches involving human
+players.
+
+14.4.4 FULL MATCH REPORT: Click on the headline to get the full match
+report. The headline for the first player is shown. Click on the headline
+to see the full match report. The results of the whole division are
+displayed below the headline. If one of the other players are in the same
+division, the fixture result will be highlighted. To display the headline
+for other players, click on the fixture. Click on the turn the page marker
+to display other divisional results.
+
+                            15.0 GAME CONTROLS
+                            ------------------
+
+JOYSTICK IS REQUIRED TO PLAY ON THE PITCH.
+
+MOVEMENTS: Players move in the eight joystick directions.
+
+    F.B. - Amiga = Fire Button
+
+    F.B. - PC = Button A
+
+15.1 SHOOTING:
+--------------
+
+Press F.B. to shoot the ball.
+
+15.2 PASSING:
+-------------
+
+You must trap the ball before you can pass. Press F.B. before you touch the
+ball. The ball is then trapped. Move the joystick in the direction you wish
+to pass and release the F.B.
+
+15.3 CHIP THE BALL:
+-------------------
+
+AMIGA   : Reverse the joystick quickly.
+
+PC      : Press Button B
+
+15.4 HEADER:
+------------
+
+If the ball is in the air, press fire button to jump. Move the joystick in
+the direction you wish to head the ball.
+
+15.5 CROSSING:
+--------------
+
+If the ball is in the crossing area (near the byline of the opposition
+goal) reverse the joystick (Amiga) or press button B (PC) to cross the ball
+into the 18 yards box.
+
+15.6 TACKLING:
+--------------
+
+If the opposition has the ball, press F.B. to do a sliding tackle.
+
+15.7 THROW INS:
+---------------
+
+Press the F.B. and move the joystick in the direction you wish to throw and
+release the fire button. The longer you keep the F.B. presses the longer
+the throw.
+
+15.8 CORNERS AND SET PIECE FREE KICKS:
+--------------------------------------
+
+These are computer controlled. THE MORE YOU PRACTISE THEM IN TEAM COACHING,
+THE BETTER THEY ARE. The corners can be lethal. If practised a lot they can
+be real match winners.
+
+15.9 SUBSTITUTION
+-----------------
+
+15.9.1 Substituting A Player: Press F1 if you want to bring on player 12 or
+F2 for player 14. The message "Substitute warming up" will be displayed.
+When the ball goes out of play, one of the player names and his shirt no.
+will appear, use the up and down cursor keys to cycle through the squad.
+Press Enter key to implement the substitution. The player whose name is in
+panel will go off and the substitute will run on to the pitch. Team B uses
+F9 and F10 keys.
+
+15.9.2 Substituting an Injured Player: Substitute 12 or 14 name will appear
+in the panel. Use up and down cursor keys to cycle through them. Press
+Enter key to implement the substitution.
+
+15.10 CHANGING TACTICS:
+-----------------------
+
+Pause the Game. Press F5 (F6 for Team B) to display the cureent tactics.
+Use up and down cursor keys to cycle through the 4 match tactics.
+
+15.11 TEAM TALK:
+----------------
+
+You can give each player one of the 8 individual instructions. Pause the
+game and press F4 (F7 for Team B). Use up and down cursor keys to select
+the player and left and right cursor keys to cycle through the
+instructions. To give Squad instructions, give the instruction to any
+player for the whole squad.
+
+                        16.0 CUPS AND COMPETITIONS
+                        --------------------------
+
+16.1 LEAGUE:
+------------
+
+There is a four division league. Three teams are relegated from the Premier
+division. The 1st and 2nd divisions have three teams promoted and three
+teams relegated. The 3rd division has three teams promoted.
+
+16.1.1 A win in a league game secures 3 points, a draw - one point and a
+loss - no points. If the points are equal, the difference in Goals For and
+Goals Against decides this position.
+
+16.2 F.A CUP:
+-------------
+
+This is a knock out competition. If there is a draw then a Replay is
+ordered.
+
+16.2.1 If at the end of full time, the result is still a draw, extra time
+is played. If the result is still a draw then a sudden death penalty shoot
+out takes place.
+
+16.3 LEAGUE CUP:
+----------------
+
+Rounds 1, 2, 3, quarter finals and finals are played according to rules
+described in 16.2.1.
+
+16.3.1 The Semi Final is played over 2 two legs. The winner is decided on
+aggregate. However if the aggregate is the same, the result is decided by
+extra time and if still unresolved by a penalty shoot out.
+
+16.4 U.E.F.A CUP, CUP WINNERS CUP and EUROPEAN CUP
+--------------------------------------------------
+
+If an English team is the holder, the team qualifies automatically, if not
+a preliminary round takes place. The preliminary round and the other rounds
+excluding the final consist of two legs, one home and one away. Matches are
+decided on the aggregate score of the two legs. If the aggregate is the
+same it is then decided on away goals. Away goals count as two. If both
+sides are still equal then extra time is played followed by a penalty shoot
+out if necessary.
+
+                              17.0 CHALLENGE
+                              --------------
+
+17.1 This is an individual challenge. There are 20 rounds. At the beginning
+of each round, you are set the task of getting a set number of points in a
+fixed duration. Different points are awarded for Home wins, Away wins, Away
+draws etc. The points are also a function to show the quality of the
+opposition.
+
+17.2 At the start of the challenge, you are informed of the number of
+points to get and the no. of years allowed. If you are successful, you can
+go to the next round. If you fail, you must start the failed round again.
+You can see the progress of the challenge at any time by clicking on the
+filofax in the manager's office at any time. You can SAVE the game so far
+at any time (See 6.11).
+
+17.3 You can't apply for another job.
+
+17.4 On the successful completion of a round, the bonus points are added to
+the total points. You are given a financial bonus. The amount will be
+greater if you achieve more than the set target.
+
+17.5 After the last match of the season, the state of the Challenge will be
+displayed. If the duration is not finished, you can continue as normal by
+quitting the menu.
+
+17.5.1 If the duration is finished and you have been successful, you will
+be asked to SAVE the game.
+
+17.6 BONUS POINTS: The bonus points can be used in the main game to get the
+manager's job at a higher div. club of your choice. Higher the points,
+bigger is the choice.
+
+17.6.1 You can select a team using the bonus points at the start of a new
+game in Game Setup menu.
+
+17.7 Display: You can see the state of the challenge in the book in the
+manager's office.
+
+                              18.0 KNOCK OUT
+                              --------------
+
+18.1 This is a 2 to 4 player game. All players start in the same division.
+
+18.2 As long as all the players are in the same division, the game
+continues as normal. As soon as one player gets promoted or relegated, the
+clock starts. At the end of 2 years, the bottom placed player is knocked
+out. The clock is re-set. If all the players are in the same division, the
+game continues as normal. If however that is not the case, the clock is
+re-started immediately and set for 1 year.
+
+18.3 You can't apply for a new job.
+
+18.4 You can see the state of the competition in the book in the manager's
+office.
+
+                         19.0 UNDERSTANDING STATS.
+                         -------------------------
+
+19.1 There are two types of stats.
+
+19.1.1 Personality Stats: These are the stats a player is born with and do
+not not change very much. The stats are Aggression, Flair and Temperament.
+
+19.1.2 Curving Stats: These stats change with age. The stats are Pace,
+Stamina, Resilience, Agility, Adaptability, Acceleration and Vision.
+
+19.1.3 In PM2, there are 50 curves for each of these stats i.e. 50 curves
+for pace, 50 for stamina and so on. Each curve is of different shape. As he
+ages a player will be on one of these curves for each attribute. During the
+ageing period, he will move to different curves depending on the coaching,
+type of manager, opportunities, experience etc. i.e. the factors that shape
+a career. With a few glaring exceptions, all 16 year olds joining a
+professional club as school boys are much the smae. Some make it to the top
+while others either languish in the lower divisions or leave professional
+football. All depends on the managers, coaches and the breaks they get.
+
+Skills: A player is born with skills. Once again there are 50 curves for
+each skill. These skills improve with coaching, experience and a player can
+move dramatically from one curve to another.
+
+19.1.4 Some of these curves after a steady rise flatten out as the player
+ages. For instance passing skill. Another curve may rise, flatten for a
+while then fall. On the other hand it can keep on rising as the player gets
+experience.
+
+19.1.5 Once you can appreciate the significance of the changes, you will be
+able to get better players for your money - and use your staff more
+effectively.
+
+19.1.6 When you are looking for a player, the infomation below may help you
+to assess the player. The important stats for each type of player are
+listed:
+
+KEEPER			Agility, handling and keeping.
+
+FULL BACK               Pace, passing and tackling - High.
+
+                        Stamina, control, shooting and acceleration - Good.
+
+CENTRE BACK             Passing, tackling and heading - High.
+
+                        Vision, control and stamina - Good.
+
+DEFENDER                Pace, tackling, passing and heading - High.
+
+                        Control and stamina - Good.
+
+                        Vision - Very High if using as a sweeper.
+
+MIDFIELDER              Passing, tackling, shooting - High.
+
+                        Aggression, control, shooting and vision  - Good.
+
+PLAYMAKER               Vision and passing - Very High.
+
+                        Shooting and tackling - High.
+
+                        Pace and control - Above Average.
+
+MIDFIELD GENERAL        Shooting and agression - High.
+
+                        Passing and tackling - Very High.
+
+                        Vision and control - Good.
+
+WINGER                  Pace and passing - Very high.
+
+                        Shooting and Tackling - High.
+
+                        Acceleration and stamina - Good.
+
+CENTRE FORWARD          Shooting and pace - High.
+
+                        Heading, stamina, agility and control - Good.
+
+TARGET MAN              Pace and shooting - High.
+
+                        Heading, agility and control - Above Average.
+
+STRIKER                 Shooting - Very High.
+
+                        Pace, agility and control - High.
+
+                        Heading - Good.
+
+
+    These are ideal stats and the correct mix will be expensive to buy.
+
+                              HINTS AND TIPS
+                              --------------
+
+Game Set Up: Selecting your playing position is important. You are advised
+not to select the position of Midfield General as you are liable to
+collect red cards more often. Avoid the positions of winger and full back
+as the effect on pace can be telling. The suggested positions are centre
+forward or a midfielder, preferably a midfielder.
+
+Pre Season: Select the best coach you can afford and a good scout. Make
+sure that the coach has a different speciality to yours. A defence
+speciality is advised for the coach.
+
+Schoolboys: These players are your lifehood in the lower divisions. Before
+the end of the season make sure that your squad is well less then 24. You
+are allowed to bid for up to 8 schoolboys. The suggested bid for good
+schoolboys is £50K. Train him, coach him and use him sparingly and see the
+money rolling in.
+
+Pre Season Coaching: Get the players fit and tuned in. Experiment with all
+the players in the squad. Use the pre-season matches to experiment with
+players and tactics.
+
+Manager's Office: The most important thing is to select the right squad and
+right tactics.
+
+Tactics: To begin with select the tactics to suit the players you have.
+Over a period of time get the players to suit your own style of tactics.
+The computer managers make wholesale changes depending on their style when
+a new manager is appointed to the club. It is therefore an advantage to
+keep an eye on incoming and outgoing managers.
+
+Assessment: This is to help you judge every player for yourself. The
+computer gives you a rating for each player and the coach gives his own
+assessment. You can view the usefulness of a player as you want and take
+your tactical requirements into account. As you get experienced you will
+find this feature essential.
+
+Secretary: She thrives on gossip.
+
+Scout: A good scout gives good instructions, these produce results. The
+secret lies in these instructions. Look at your requirements carefully.
+
+Coaching: Take coaching very seriously. Read the coaching section in the
+manual thoroughly, it plays a vital part in the game. Get the best coach
+you can afford. Be very selective in who you coach. Don't overload the
+staff. Change the coaching schedule at least once a fortnight if not once a
+week.
+
+Press Conference: Be careful!
+
+Board Roon: Keep a very close eye on your ratings. The higher your league
+position the more the board expects of you. Rightly so. If you are at a big
+club, coming second is not good enough. Keep the difference in league
+position and Team Rating as low as possible, otherwise you are in trouble.
+Pay attention to the messages from the chairman. He pays your wages. He is
+the boss and he has a personality.
+
+Personality: Your chairman, referee, computer managers, players and many
+others have a personality. How they react to a given situation is half the
+fun.
+
+Challenge: Gets you a good team so it is worth the effort.
+
+Skill Levels: Sorts out the men from the boys. Normal skill level is for
+men.
+
+Squad: Decide right from the word GO what you are aiming for - Domestic or
+European honours. If it is domestic, you can afford to buy foreign players,
+but not too many international players otherwise for an important match,
+you may be reduced to a skeleton staff.
+
+Money: Keep a very close eye on the club finances. There is no overdraft
+from the bank. You take risks and the Financial Director will come down on
+you like a ton of bricks.
+
+Saving: You are advised not to save the game more than 6 times in one
+season. There is a penalty for doing so.
+
+
+Copyright 1995 Anco Games.
+
+Published by:
+Anco Software Ltd,
+7 Millside Industrial Estate,
+Lawson Road,
+Dartford,
+Kent,
+DA1 5BH
+Tel: (01322) 292513
+
+Illicit/LSD on 23/12/95. Phew! Completed the docs at last! :) Later guyz!

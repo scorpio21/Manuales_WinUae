@@ -1,0 +1,670 @@
+"El jugador de Go debe luchar menos con su oponente y más con enemigos conflictivos.
+impulsos y emociones dentro de sí mismo."
+
+EL ARTE DE GO (tm)
+
+De A-SQUARED DISTRIBUTIONS INC.
+
+
+CÓDIGO ADICIONAL PROGRAMACIÓN DE CONCEPCIÓN
+James R. Logan, Jr. James R. Logan, Jr. Jean Tantra
+
+
+GERENTE DE PRODUCTOS DE SONIDO GRÁFICO
+Dana Dominiak David Minor Randy Spencer
+
+
+VERSIÓN AMIGA MANUAL AMIGA
+Mike Meyer Matthew Leeds y Anneli Meyer
+
+
+PROGRAMACIÓN ADICIONAL
+Arturo Abraham
+Chris Goodman
+
+AGRADECIMIENTO ESPECIAL A
+Brian Thompson
+James Palmer
+James Connelly y Ishi Press
+Ursala Bendixen
+Sue Redding 
+
+
+Copyright 1987 James R. Logan, Jr. Todos los derechos reservados.
+Desarrollado y fabricado en los EE.UU.
+
+Garantía limitada: 
+
+Si durante los primeros 60 días a partir de la fecha de compra se descubre que el disco
+defectuoso, devuélvalo a A-Squared Distributions Inc., gratis
+reemplazo.  Después de 60 días envíe su disco y $10.00 para reemplazo.  a
+Para obtener esta garantía, debe completar y devolver su Art of Go
+tarjeta de registro. 
+
+A-Squared Distributions Inc. no ofrece garantías, expresas o implícitas,
+incluidas, entre otras, las garantías implícitas de comerciabilidad, y
+Se rechaza la idoneidad para un propósito particular.  La responsabilidad del vendedor,
+ya sea por contrato, por agravio, bajo cualquier garantía, por negligencia o
+en caso contrario, no excederá la devolución del importe del precio de compra.
+pagado por el comprador y bajo ninguna circunstancia el vendedor será responsable de
+daños especiales, indirectos o consecuentes. 
+
+
+DISTRIBUCIONES A-SQUARED INC.
+6114 Avenida La Salle, Suite 326
+Oakland, California 94611
+(415) 339-0339
+
+Protección de copia:
+
+The Art of Go no utiliza protección de copia basada en disco.  Lo primero que
+Lo que debe hacer es hacer una copia de seguridad del disco maestro y guardarla en un lugar seguro.
+Ahora estás listo para iniciar el programa y jugar. 
+
+Esperamos que admita el software no protegido manteniendo su Art of
+Vaya al disco usted mismo.  Esto nos permitirá permanecer en el negocio y traer
+a cabo futuros productos. 
+
+Por favor contribuya.  ¡No distribuyas!
+
+Juego general:
+
+El tablero Go que aparece es una cuadrícula estándar de 19 x 19.  Sin embargo, Go también puede
+jugar en tableros tan pequeños como 3 x 3. Con The Art of Go, tienes la
+Opción de seleccionar el tamaño del tablero en el que puedes jugar.  Cada vez que tu
+seleccione "Nuevo" en el menú Archivo, tendrá la oportunidad de elegir un
+nuevo tamaño de tablero. 
+
+El programa automáticamente establece por defecto "Humano contra Humano", una opción en el
+Menú de jugadores.  Para jugar en la computadora, elige "Humano vs. Computadora" en el menú
+Menú de jugadores.  La computadora esperará a que usted se mueva primero. te mueves
+apuntando a una posición en el tablero de juego y presionando el botón del mouse. 
+O puede hacer que la computadora se mueva primero seleccionando "Comenzar" en el
+Menú de reproducción. Cuando la computadora se ha movido, espera a que usted haga la siguiente
+moverse.  El juego continúa, alternando entre usted y la computadora hasta que
+termina el juego. 
+
+No es necesario que juegues una piedra en cada turno.  Si no quieres
+juega una piedra, puedes negarte a jugar seleccionando "Pasar" en el menú Jugar.
+
+Cuando tú y la computadora pasáis turnos consecutivos, el juego termina. 
+Luego debes eliminar las piedras muertas del tablero (menú Piedras; ver El
+Menús de este manual) y calcular el "Puntuación Final" (menú Reproducir). 
+The Art of Go mostrará sus propios cálculos para la puntuación final en el
+ventana de juego. Sin embargo, como el territorio suele estar en disputa, es aconsejable que
+¡Practica también calculando la puntuación final a mano!
+
+Acerca de ir
+
+Go está basado en el antiguo juego de mesa de origen chino, que es muy
+Popular hoy en Japón y otros países asiáticos.  Sin embargo, en los últimos años,
+El juego se ha vuelto cada vez más popular en los Estados Unidos, Canadá y
+Europa debido a su naturaleza desafiante.  El juego se juega con negras y
+piedras blancas en una cuadrícula de 19 líneas verticales y 19 horizontales.
+Aunque las reglas del juego son muy simples, la estrategia necesaria para
+Ganar es muy complejo, comparable al ajedrez.  El juego estimulará a ambos.
+Procesos de pensamiento analíticos e intuitivos. 
+
+ 
+El arte de ir te permite:
+
+ - Juega en tres modos diferentes: humano contra computadora, humano contra humano,
+       y computadora contra computadora
+ - Ver el razonamiento de la computadora para cada piedra que juega.
+ - Reproducir, cancelar y reproducir piedras.
+ - Realizar un seguimiento de los prisioneros y territorios de propiedad
+ - Guardar, reproducir y anotar juegos.
+ - Imprima tableros de juego en impresoras compatibles con Preferencias
+ - Numera las piedras a medida que se juegan en el tablero.
+ - Juega en diferentes tamaños de tablero, desde 3 x 3 hasta 19 x 19
+ - Mostrar una puntuación final de "mejor suposición"
+ - Utilice los métodos de puntuación japonés y chino.
+ - Anota tus juegos
+ 
+
+Reglas
+
+El objetivo del juego es asegurar territorio en el tablero.  el ganador es
+el jugador que haya logrado ocupar la mayor cantidad de territorio al final de
+el juego, ya sea rodeando completamente un área con sus piedras, o
+capturando las piedras del oponente. 
+
+El juego se juega entre dos jugadores colocando alternativamente blanco y negro.
+piedras en un tablero de juego.  El tablero de juego consta de una cuadrícula de 19 líneas de ancho y
+19 líneas de alto.  Las piedras se juegan en los puntos donde se cruzan las líneas en el
+tablero, no en las casillas.  Una vez colocadas las piedras en el tablero, no pueden
+ser movidos a menos que sean eliminados por captura. 
+
+Habitualmente, el jugador más débil usa las piedras negras y mueve primero.
+Los jugadores se turnan para colocar piedras en el tablero de juego.  Cualquier jugador puede
+negarse a jugar (pasar) en cualquier turno. 
+
+Los "grupos de piedras" son piedras del mismo color que están conectadas a lo largo del
+líneas en el tablero.  Las piedras no se conectan en diagonal.  un grupo de piedras
+no puede ser capturado si tiene dos "ojos", donde un ojo es un territorio que está
+completamente rodeado de piedras que no pueden ser capturadas.
+
+Cada piedra, o grupo de piedras, debe tener al menos un vecino vacío. Estos
+los vecinos se llaman "libertades". Las piedras sin libertad son "asfixiadas"
+y son eliminados del tablero inmediatamente.  No se puede jugar una piedra si
+no dará lugar a ninguna libertad para sí mismo ni para su grupo. 
+
+Una regla más, la regla del "Ko", prohíbe jugar una piedra que cause un
+repetición exacta de cualquier patrón de piedras anterior en todo el tablero de juego.  un
+Un ejemplo común de esto es cuando se juega una piedra blanca y captura una
+piedra negra, las negras deben esperar al menos un turno antes de recuperar la blanca
+piedra que se acaba de jugar (si es que se puede recuperar la piedra blanca). 
+
+Los movimientos iniciales en Go tienen aproximadamente la misma importancia que los movimientos iniciales.
+en ajedrez.  Las esquinas del tablero de juego son el lugar más fácil de rodear.
+y defender.  Por lo tanto, la mayoría de los juegos comienzan cuando los jugadores colocan piedras.
+cerca de las esquinas del tablero. 
+
+Cuando ambos jugadores se niegan a moverse (pasar) en turnos consecutivos, el juego termina.
+terminado.  Al final de una partida, las piedras muertas se retiran del tablero de juego. 
+"Piedras muertas" son cualquier piedra o grupo de piedras que no tienen suficiente
+territorio para dos ojos.  Si hay alguna duda sobre la vida o muerte de
+piedras, simplemente continúa jugando hasta que el resultado sea claro. 
+
+Existe una situación llamada "seki", que significa "vida dual".  Ocurre un seki
+donde dos grupos opuestos de piedras comparten una o dos libertades mutuas, y
+Ninguno de los grupos tiene suficiente territorio para vivir por sí solo.  Cualquier jugador se compromete
+suicidio jugando una piedra sobre una de las libertades mutuas, por lo que ambos grupos de
+las piedras viven. 
+
+Los menús
+
+Aquí hay una lista de los elementos del menú y sus usos. 
+
+
+El menú Archivo
+
+Nuevo (Amiga-N)
+"Nuevo" comienza un nuevo juego de Go.  Tienes la opción de cambiar el tamaño del tablero.
+(y agregar piedras de handicap automáticamente a un tablero de 19 x 19), o usar el
+tamaño actual del tablero cada vez que elija Nuevo. 
+
+Abierto (Amiga-O)
+"Abrir" es la clave para abrir el tutorial en línea de The Art of Go.  solo
+seleccione "Abrir" y luego seleccione "Tutorial" en el solicitante de archivos.  El arte
+of Go ahora está listo para guiar a un jugador novato a través de un juego de prueba.
+"Abrir" también se utiliza para abrir y reproducir una partida guardada.  Sólo un archivo de juego puede
+estar abierto en cualquier momento. 
+
+Tan pronto como se abre una partida guardada, comienza a reproducir piedras en el tablero. 
+Para detener esto, mantenga presionada la tecla Amiga junto con el punto o haga clic en
+en cualquier lugar con el ratón.  Luego puedes hacer una copia de seguridad y comenzar a reproducir desde el
+comienzo. 
+
+Nota: Los comentarios que se muestran en la ventana del juego no se conservan.
+de una jugada a la siguiente.  Por lo tanto, no puedes realizar copias de seguridad ni cancelar la reproducción de piedras.
+para ver comentarios anteriores. 
+
+Si el juego guardado contiene comentarios, la acción del juego se detendrá cuando el
+Los comentarios aparecen en la ventana de anotaciones.  Cuando esto ocurre, puede seleccionar
+una de las siguientes dos opciones en la ventana de anotación para reanudar el juego
+acción o detener el juego desde el archivo del juego. 
+
+"Continuar"
+Esta opción hace que la partida guardada se reanude hasta que llegue al
+siguiente comentario. 
+
+"Salir"
+Esta opción detiene la reproducción de una partida guardada.
+
+
+Anotar (Amiga-A)
+"Anotar" abre un nuevo archivo de juego y comienza a grabar comentarios y jugar.
+acciones.  Primero, cree un tablero "Nuevo" (menú Archivo).  En segundo lugar, inicie un
+archivo de anotaciones.  Finalmente, "abre" una partida guardada.  Verás el primero
+piedra jugada tan pronto como aparezca la ventana de anotación. 
+
+La ventana de anotación tiene 3 opciones que puede seleccionar: "Guardar", "Omitir" y
+"Salir".  Estas opciones determinan si el texto en la anotación
+La ventana se guarda en el archivo del juego.  No afectan la secuencia de
+piedras que se juegan.  La posición y el tamaño de la ventana de anotación son
+guardado junto con los comentarios.  Una descripción funcional de estas opciones.
+sigue:
+
+"Guardar" 
+Esta opción guarda las características de la ventana y todo el texto del
+ventana de anotaciones en el archivo del juego.  Guardar texto de esta manera es la única manera
+para hacer que un juego se detenga cuando se reproduce un archivo de juego. 
+
+"Saltar" 
+Esta opción ignora el texto en la ventana de anotación y pasa a la siguiente
+jugar.  Esta opción es más útil cuando estás reproduciendo simultáneamente un
+archivo del juego y anotar el juego.  Seleccione esta opción cuando
+No quiero comentar sobre la última jugada. 
+
+"Salir"
+Esta opción finaliza la anotación de un juego y guarda la anotación.
+archivo.
+
+Tenga en cuenta que los comentarios de un archivo de juego no se conservan de una partida a otra.
+el siguiente, por lo que no puedes hacer una copia de seguridad ni cancelar la reproducción de piedras para ver los comentarios anteriores. 
+Sin embargo, si realiza una copia de seguridad, puede mostrar los resultados de varias ramas en
+estrategia desde un solo punto mientras agrega nuevos comentarios. 
+
+
+Guardar (Amiga-G)
+"Guardar" abre un archivo de juego e inmediatamente escribe la secuencia del juego actual
+en un archivo de juego.  Normalmente seleccionarás esta opción al final del juego.
+
+
+Guardar configuración (Amiga-S)
+"Guardar configuración" guarda la configuración actual del programa como predeterminada.  los salvados
+La configuración incluye los siguientes parámetros:
+
+ - Opciones de menú comprobables en los menús Jugadores, Piedras y Pantalla;
+ - Parámetros y pesos en el menú de Configuración.
+
+
+Imprimir
+"Imprimir" genera el tablero de juego y las piedras en impresoras compatibles con Preferencias. 
+
+
+Salir (Amiga-Q) 
+"Salir" finaliza The Art of Go, después de preguntar si desea guardar o no cualquier
+juego en progreso. 
+
+
+El menú de reproducción
+
+Comenzar/Reanudar (Amiga-B)
+"Comenzar/Reanudar" hace que la computadora se mueva si la computadora es uno de los
+jugadores marcados en el menú "Jugadores".  El objetivo principal de este artículo es
+para continuar la reproducción después de haber seleccionado "Pausa" o de haber apagado la computadora.
+interrumpido con un clic del mouse o con Amiga-punto.  Además, utilice
+"Comenzar/Reanudar" para iniciar el primer turno de la computadora. 
+
+Pausa (Amiga-.) 
+"Pausa" detiene temporalmente el programa y deja de jugar hasta que
+Se selecciona "Comenzar/Reanudar", o hasta que realices una jugada.  También puedes usar
+Amiga-punto o un clic del mouse para interrumpir la computadora cuando está pensando,
+mover o repetir un juego. 
+
+Pase (Amiga-P)
+"Pasar" indica que rechazas jugar este turno y la oportunidad de
+el juego pasa al oponente. 
+
+Cambiar de bando (Amiga-C)
+"Cambiar lados" hace que el color de las piedras que utilizan los jugadores cambie
+cambiado.  Por lo tanto, si jugabas con negras, intercambias cuencos de piedras.
+con tu oponente y comienza a jugar con blancas.  Si eres negro y es tu
+girar, cambiar de lado no afecta el hecho de que todavía es tu turno. 
+Esto resultará útil para configurar escenarios problemáticos. 
+
+Adelante un movimiento (Amiga-])
+"Adelante un movimiento" reproduce una piedra del registro del juego actual sólo si
+las piedras no se han jugado o se ha seleccionado el elemento "Retroceder un movimiento"
+inmediatamente antes.  Las piedras se repiten en el mismo orden en que fueron
+jugado originalmente. 
+
+Un movimiento hacia atrás (Amiga-[)
+"Backward One Move" deja de reproducir la piedra jugada más recientemente en el actual
+juego.  Este puede ser blanco o negro.  Para retroceder una vuelta completa,
+debes seleccionar esto dos veces.  Seleccionar este elemento sólo una vez efectivamente hace
+También cambias de bando con tu oponente. 
+
+Puntuación final (Amiga-F)
+"Puntuación final" muestra una puntuación final sugerida del juego.  Generalmente un juego termina
+cuando ambos jugadores pasan.  Luego se retiran las piedras muertas y se obtiene la puntuación final.
+Lo deciden ambos jugadores.  Por lo tanto, es posible que no siempre esté de acuerdo con
+puntuación computarizada.  Te aconsejamos que practiques el conteo del puntaje final.
+usted mismo. 
+
+
+El menú de jugadores
+
+Humano contra humano (Amiga-1)
+"Humano contra Humano" indica que tanto las piedras blancas como las negras son jugadas por
+presionando el botón del ratón. 
+
+Humano versus computadora (Amiga-2)
+"Humano vs. Computadora" te permite jugar contra la computadora.  si quieres
+La computadora se moverá primero y seleccione "Comenzar/Reanudar" en el menú Reproducir.  Haciendo clic
+cualquier lugar con el mouse interrumpe el turno de la computadora.  Seleccionar
+"Comenzar/Reanudar" en el menú Reproducir para continuar. 
+
+Computadora contra computadora (Amiga-3)
+"Computadora contra computadora" especifica que la computadora juega contra sí misma. 
+Para iniciar el juego, seleccione "Comenzar" en el menú Jugar.  Haciendo clic en cualquier lugar con
+el ratón interrumpe el juego.  Seleccione "Comenzar/Reanudar" en el menú Reproducir para
+continuar. 
+
+
+Menú del ratón
+
+jugar piedras
+Al hacer clic en el botón del ratón, se reproducen y no se reproducen piedras cuando este elemento está
+seleccionado.  Para jugar una piedra, apunte el cursor del ratón a una posición vacía en
+el tablero de juego y haga clic en el botón del ratón.  Una piedra o más serán
+no se juega si el ratón apunta a una piedra en el tablero de juego cuando el
+se hace clic en el botón del ratón.  La función de reproducción se puede desactivar seleccionando
+"Desactivar Unplay" al final del menú Configuración. 
+
+Piedras de desventaja 
+Al hacer clic en el botón del mouse, se agregan y eliminan piedras de desventaja cuando este elemento está
+seleccionado.  En un tablero de tamaño 19 x 19, las piedras de handicap se pueden colocar automáticamente.
+colocados en las posiciones de handicap indicadas por los puntos negros.  Intenta comenzar
+un juego "Nuevo" (menú Archivo) con 5 handicaps y mira qué pasa.  el mas debil
+El jugador debe recibir suficientes piedras de handicap para cerrar el juego.
+concurso.  Si eliges sólo un punto de handicap, entonces el tradicional
+El hándicap chino está establecido.  De 2 a 17 puntos de handicap, japonés
+Se utilizan desventajas.
+
+Piedras simbólicas
+Los símbolos son útiles para anotar juegos y preparar material de instrucción. 
+Seleccione "Piedras con símbolos" y haga clic con el botón del mouse para agregar símbolos.  Símbolos
+se eligen presionando cualquier tecla del teclado. Los clics del mouse solo pueden agregar
+símbolos al tablero.  Para eliminar símbolos, utilice la opción "Back Up One
+Mover" del menú Reproducir. 
+
+Piedras muertas
+Para eliminar piedras muertas al final de un juego, selecciona "Piedras muertas". Haciendo clic
+sobre un grupo de piedras lo retira del tablero y suma el número de piedras
+en el grupo a los prisioneros.  Haz esto sólo al final de un juego.  lo harás
+no podrá deshacer ninguna eliminación. 
+
+Analizar punto
+Al hacer clic con el botón del mouse en cualquier punto o piedra se muestra información sobre
+esa posición.  La información de visualización incluye el número de libertades,
+número de ojos y los resultados de escaleras simples. 
+
+Desactivar la reproducción (Amiga-U)
+Cuando se selecciona "Desactivar reproducción", la función de reproducción de "Play Stones" se desactiva.
+discapacitado.  Este modo es útil para jugar torneos, de modo que no
+Accidentalmente deshace varias piedras.
+Cuando este elemento no está seleccionado, puede hacer clic en cualquier piedra y la computadora
+elimina esa piedra y todas las piedras que vinieron después de ella. 
+
+
+
+El menú de visualización
+
+Tablero de mármol
+"Marble Board" muestra un tablero de juego de mármol con piedras azules y rojas como
+alternativa a la tradicional tabla de madera con piedras blancas y negras. a
+Regrese al tablero de madera, deseleccione "Tablero de mármol".
+
+Columnas y filas
+"Columnas y filas" muestra los símbolos tradicionales de columnas y filas en la
+borde del tablero de juego.  El ordenador se refiere a las posiciones de las piedras mediante
+estos designadores. 
+
+Números de piedra
+"Números de piedras" muestra números en las piedras que indican su orden de
+jugar.  También se hace referencia a este número cuando se muestran los motivos de la
+movimiento de la computadora.  Para volver a numerar las piedras comenzando en, digamos, piedra
+número 25, mantén presionada la tecla Amiga y haz clic en esa piedra.  Ahora piedras de
+Del 1 al 24 estarán en blanco y la piedra 25 será la número 1. 
+
+Parpadea la última piedra 
+Esto hace que la última piedra que jugó la computadora parpadee.
+
+Pitido después de jugar 
+Esto hace que el programa emita un pitido después de que la computadora reproduzca. 
+
+Sonido de piedra 
+Esto hace que el programa simule el sonido de una piedra golpeando la superficie.
+del tablero de juego cuando se juega una piedra. 
+
+Forma del cursor
+Cuando se selecciona, esto cambia la forma del cursor a un círculo cuando la computadora
+está esperando tu movimiento. 
+
+Razones para los movimientos 
+Esto muestra las razones por las que la computadora solía jugar una piedra en el texto.
+ventana.  Las piedras están referenciadas por columna y fila. 
+
+Barra de título (Amiga-T)
+Esto hace que se muestre la barra de título de la pantalla estándar de Amiga para el GO.
+pantalla.
+
+
+El menú de configuración
+
+Parámetros...
+Seleccione esto para cambiar la configuración del programa que afecta la reproducción de la computadora.
+algoritmos, cambiar opciones de visualización o cambiar opciones de sonido. Una sección posterior
+En este manual contiene una descripción de los parámetros. 
+
+Pesos...
+Seleccione esto para cambiar los pesos relativos de los patrones que utiliza el programa.
+para elegir la mejor jugada.  La siguiente sección de este manual contiene una
+descripción de los pesos.  
+
+Restaurar la configuración de fábrica
+Esto hace que todas las configuraciones del programa se restablezcan a los valores predeterminados de fábrica.
+valores. 
+
+Configuración de bloqueo (Amiga-L)
+Utilice "Bloquear configuración" para evitar cambiar accidentalmente la configuración del programa para
+parámetros y pesos.
+
+
+Acerca de los pesos del juego
+
+Los pesos del juego Art of Go determinan la forma en que se juega el programa. 
+Los movimientos se basan en un valor que se calcula para cada posición, y el valor
+es la suma de los pesos para esa posición.  Puede cambiar los pesos según
+enumerados en el menú Configuración, alterando así la personalidad de la computadora. 
+Pueden modificarse entre dos turnos cualesquiera. 
+
+A continuación se ofrece una breve descripción de los pesos del programa:
+
+Atari
+La computadora se mueve para atacar al oponente.
+
+ataque
+La computadora ataca a pequeños ejércitos oponentes cerca del borde (fila 2 o 3).  al menos
+Otra piedra de computadora debe estar presente en el tablero, y el tamaño de la
+El ejército oponente debe tener sólo una o dos piedras. 
+
+Capturar
+La computadora se mueve para capturar un ejército oponente (grupo de piedras). 
+
+circulo
+La computadora se mueve al centro de un área rodeada por al menos una computadora
+piedra y una piedra oponente.  (Igual que "Espacio vacío", pero cubre un poco
+círculo más grande.)
+
+Conectar
+La computadora se mueve para conectar dos piedras en diagonal porque una piedra oponente está
+cerca y el oponente amenaza con cortar. 
+
+Guardia de esquina
+La computadora se mueve en su propio rincón para proteger su territorio. 
+
+Cortar y conectar
+La computadora se mueve a un área rodeada de piedras de computadora y oponentes.
+piedras para que las piedras de la computadora queden conectadas sin apretar y el
+Las piedras del oponente serán "cortadas" sin apretar. 
+
+cortar
+La computadora se mueve a una posición vecina a dos ejércitos oponentes,
+amenazando con dividir a los ejércitos en el próximo movimiento. 
+
+Cortar Prevenir
+La computadora se mueve para protegerse contra una piedra oponente que libremente
+"separar" dos áreas de influencia. 
+
+borde atari
+La computadora se mueve hacia el borde para atacar al oponente en el borde. 
+
+Ataque de borde
+La computadora se mueve en la fila 2, cerca de la piedra del oponente para aumentar la
+territorio de la computadora en el borde del tablero de juego. 
+
+Conexión perimetral
+La computadora se mueve para conectarse debajo de una piedra del oponente en el borde. el
+La piedra oponente debe estar en la fila 2. 
+
+Corte de borde
+La computadora se mueve para evitar que el oponente se conecte debajo de una computadora.
+piedra en el borde. 
+
+Protector de borde
+La computadora se mueve para proteger el borde de su territorio.
+
+Forma de ojo
+La computadora se mueve para formar 3 piedras en forma de semicírculo. 
+
+Invadir
+La computadora sólo se moverá hacia el "ojo" de un oponente si este umbral es
+superado por la suma de los pesos de una posición. 
+
+proteger
+La computadora se mueve para proteger a un ejército de la captura. 
+
+empujar
+La computadora se mueve para avanzar hacia un territorio controlado por el enemigo.
+
+retiro
+La computadora se mueve para proteger a un ejército de ser víctima de la ofensiva de su oponente.
+atari. 
+
+Ejecutar desde el borde
+Sólo en las filas 2 o 3, construya una pared que se extienda desde el borde para evitar que
+oponente atrape la computadora en el borde.  Esto requiere uno
+piedra oponente vecina. 
+
+Correr hasta el borde
+Sólo en la fila 2 o 3, construye una pared hasta el borde para evitar que el oponente
+invadiendo el territorio de la computadora en el borde.  Esto requiere uno
+piedra oponente vecina. 
+
+Espacio vacío
+La computadora se mueve al centro de un área rodeada por al menos una computadora
+piedra y una piedra oponente.  (Igual que "Forma de círculo", pero cubre una
+círculo ligeramente más pequeño)
+
+Ejecutar apretado
+La computadora se mueve para ayudar a un pequeño ejército a evitar que el oponente lo rodee.
+piedras.  Este movimiento está diseñado para correr hacia el centro del tablero. 
+
+envolvente
+En una batalla cerrada con pocas libertades, la computadora se mueve para rodear a un
+ejército del oponente. 
+
+Territorio
+La computadora se mueve a un área donde no hay otras piedras presentes. 
+
+Socavado
+La computadora se mueve para socavar una piedra oponente en la fila 2 o 3 desde el
+borde. 
+
+
+Acerca de los parámetros del juego
+
+Los parámetros del juego Art of Go afectan la forma en que el programa juega y afecta
+características visuales del programa también.  Pueden ser alterados entre
+dos vueltas cualesquiera. 
+
+La siguiente es una lista de parámetros del juego.
+
+1.ª liberación máxima
+Un umbral más allá del cual The Art of Go dejará de contar las libertades primarias.
+"1st Libs max" afecta el tiempo que el programa utiliza para seleccionar una
+moverse. 
+
+2.ª liberación máxima
+Un umbral más allá del cual The Art of Go dejará de contar como secundario
+libertades. "2nd Libs max" afecta la cantidad de tiempo que utiliza el programa
+para seleccionar un movimiento. 
+
+3.ª liberación máxima
+Un umbral más allá del cual The Art of Go dejará de contar en terciario
+libertades. "3rd Libs max" afecta el tiempo que utiliza el programa
+para seleccionar un movimiento. 
+
+Velocidad de parpadeo
+Esto controla qué tan rápido parpadea la última piedra jugada si el "último parpadeo
+La característica "piedra" está seleccionada.
+
+Tiempos de parpadeo
+Esto controla cuántas veces parpadea una piedra cuando es tocada por el
+computadora.
+
+Área concurrida
+Un umbral que, cuando se excede, indica que una posición en el tablero de juego
+está lleno de otras piedras.  Este umbral se compara con un recuento de
+piedras en un cuadrado de 5 x 5 alrededor de una posición determinada. 
+
+Valor de invasión
+Un umbral que debe superarse antes de que The Art of Go intente un movimiento
+que invade el área de un oponente. 
+
+komi
+Un valor que se añade a la puntuación de las blancas al final de un juego para compensar la
+ventaja que tienen las negras al moverse primero. 
+
+Área habitable
+Un umbral de área potencial que debe superarse antes de The Art of Go
+Intentará una invasión del área bajo la influencia de las piedras del oponente. 
+
+Posición
+Cuando The Art of Go selecciona un movimiento, considera la puntuación resultante y
+el valor relativo de la posición.  Estos dos valores se suman y
+la suma se compara con la suma de otras posiciones. "Posición" es una
+valor que se multiplica por el valor de una posición antes de sumar el
+puntuación resultante. Esto es para aumentar la influencia del valor de un
+posición en el proceso de selección. 
+
+Velocidad de reproducción
+Determina el tiempo mínimo, en 60 décimas de segundo, que debe transcurrir antes de que
+Art of Go realiza la siguiente acción secuencial desde un archivo de juego abierto que se
+reproducido. 
+
+Tiempo de búsqueda
+Especifica el tiempo máximo, en 60 segundos, que puede utilizar The Art of Go
+seguir adelante mientras busca la mejor secuencia de movimientos. 
+
+Pequeño ejército
+Un umbral que, cuando se excede, indica que el tamaño de un ejército ya no es
+considerado pequeño, afectando así la estrategia informática. 
+
+Dejar de reproducir Verificar
+Un umbral que, cuando se iguala o supera, hace que se abra una ventana de diálogo.
+se muestra para confirmar que el operador realmente desea cancelar la reproducción indicada.
+número de piedras.  Este valor sólo es válido si "Desactivar no reproducir" en el
+El menú Piedras no está seleccionado. 
+
+
+Para más información:
+
+Se recomienda leer lo siguiente para los jugadores novatos de Go:
+
+ - "The Way to Go" de Karl Baker, que hemos incluido en The Art of Go
+ - "Pasos para avanzar" de Shigemi Kishikawa
+ - "Vaya para principiantes" de Kaoru Iwamoto
+ - "En el principio" de Ikuro Ishigure
+ - "Técnicas básicas de Go" de Haruyama Isamu y Nagahara Yoshiaki
+ - "The American Go Journal" publicado por la American Go Association
+ - "Go World" publicado por Ishi Press
+
+La American Go Association (AGA) se dedica a la promoción del Go.  eso
+apoya proyectos diseñados para animar a más personas a aprender y disfrutar
+este notable juego.  Proporciona asistencia a clubes y jugadores.
+en todas partes. 
+
+La AGA publica el American Go Journal and Newsletter, mantiene un
+listado de fuentes de equipos y libros de Go, distribuye listados anuales
+de todos los clubes americanos y miembros de la AGA, fomenta y sanciona los torneos,
+mantiene clasificaciones nacionales computarizadas, organiza la encuesta anual de EE. UU.
+Championship Matches, organiza giras de jugadores profesionales y gestiona
+Participación de Estados Unidos en eventos internacionales de Go. 
+
+Jugadores de Go de todo el continente americano y del exterior pertenecen a la
+AGÁ.  Para obtener información sobre la membresía, puede comunicarse con:
+
+Asociación Americana de Go
+Box 397, antigua estación de Chelsea
+Nueva York, Nueva York 10113
+
+
+Notas técnicas:
+
+The Art of Go para Commodore Amiga se compiló usando software optimizado y
+Estándar ANSII, Manx Aztec C, versión 5.0.

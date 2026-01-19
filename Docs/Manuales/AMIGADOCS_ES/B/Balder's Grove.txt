@@ -1,0 +1,168 @@
+______________________________________________
+	       / /\
+	      / Arboleda de Balder /\/
+	     / /\/
+	    / Copyright (C) 1993 de Morgan Antonsson /\/
+	   / /\/
+	  / Versión 1.11 (6.2.1993) /\/
+	 /___________________________________________/\/
+	 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \/
+	  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+INTRODUCCIÓN
+~~~~~~~~~~~~
+Este es un juego de distribución gratuita basado en la idea de Boulderdash,
+Dedicado a todos los fanáticos de Boulderdash. He tratado de permanecer lo más cerca posible
+posible a la antigua versión Commodore, porque creo que es la mejor
+uno!
+
+Sólo hay 40 niveles incluidos en este paquete, pero al usar el nivel
+editor, puedes crear 60 niveles más (o reemplazar los 40 niveles originales).
+con otros nuevos y mejores). Lea 'BGLevEd.doc' para obtener más información.
+
+
+PUESTA EN MARCHA
+~~~~~~~~~~~
+Puedes iniciar el juego desde Workbench o Shell, versión 2.04 o
+más alto. Si está utilizando Shell, asegúrese de que el directorio 'Nivel' esté
+en el directorio actual. Si el juego no comienza, te dirá por qué.
+utilizando una alerta. Cuando lo logras, te muestra la pantalla de título.
+
+
+LA PANTALLA DE TÍTULO
+~~~~~~~~~~~~~~~~
+Lo primero que aparece es el menú. Si no mueves tu joystick
+Durante unos 8 segundos, el menú desaparece y se muestra la lista de los diez primeros.
+Después de 8 segundos o cuando mueva el joystick, volverá al modo
+menú.
+
+Utilice el joystick para seleccionar en el menú si desea practicar o
+juega un juego real y elige un nivel para comenzar. Si decides jugar
+solo puedes comenzar desde niveles que terminen con un '0' o un '5'. cuando
+practicando puedes empezar desde cualquier nivel, pero solo obtendrás
+una vida y no pasarás al siguiente nivel cuando hayas terminado
+su nivel seleccionado.
+
+Si el nivel seleccionado no existe, automáticamente comenzarás desde
+nivel 00. Lo mismo sucede cuando has terminado un nivel y el
+El siguiente no se encuentra.
+
+
+NIVELES
+~~~~~~
+Hay dos tipos de niveles. El primero es el nivel ordinario, o
+simplemente 'nivel'. Tiene 40×30 cuadrados y cubre cuatro pantallas "normales".
+La pantalla se desplazará cuando te acerques a los bordes.
+
+El segundo tipo es el intermedio. Esto es una cuarta parte de lo normal.
+nivel (20×15 cuadrados) y cubre solo una pantalla. Si tienes un NTSC-
+amiga cubre un poco más de una pantalla y habrá algunas
+desplazándose aquí también. Mientras juegas notarás otra diferencia. tu
+No perderás ninguna vida si mueres, sino que pasarás a la siguiente
+nivel. Si encuentras la salida, obtienes una vida extra. Las vidas extra también son
+dado por cada 10000 puntos que alcances.
+
+Cuando hayas completado un nivel obtendrás 7 puntos por cada nivel restante.
+unidad de tiempo.
+
+
+EL JUEGO
+~~~~~~~~
+Todos los objetos y personajes corresponden a un objeto o un personaje en el
+Juego original de Boulderdash. No se ven exactamente iguales, así que supongo que
+la introducción es apropiada.
+
+BALDER ¡Este eres tú! Un joven dios nórdico que piensa que todo es
+		bueno. Usa tu joystick para hacerlo mover. Si mantienes el
+		Al presionar el botón, solo tocará el cuadrado adyacente.
+
+BUSH No tiene nada que ver con un expresidente americano. solo camina
+		sobre él y desaparece. Mantiene locos y serpientes.
+		se aleja y deja de caer anillos y piedras.
+
+ANILLO Recógelos y verás la salida abierta.
+
+RUNESTONE Sigue la ley de la gravedad al igual que el anillo. Quitar
+		el objeto sobre el que se apoya y caerá. Intenta empujar
+		y se moverá si no hay nada que bloquee su camino.
+		Úselo para matar locos y serpientes.
+
+CERCA Parece cuatro tablas trenzadas. no puedes eliminarlo
+		simplemente caminando sobre él, pero desaparecerá con un
+		Explosión causada por un loco o una serpiente.
+
+VALLA EXPANDIBLE Parece una valla pero se expandirá hacia la derecha y
+		la izquierda si encuentra un cuadrado vacío. Ten cuidado con
+		este! Te bloquea el camino muy fácilmente.
+
+CERCA MÁGICA Ésta transforma las piedras rúnicas en anillos y viceversa.
+		Comienzas dejando caer una piedra o un anillo sobre él. Va a
+mantente activo solo durante un tiempo determinado y no estarás
+		poder activarlo nuevamente cuando este tiempo termine. hacer
+		Asegúrese de que haya suficiente espacio debajo para el transformado.
+		¡Anillos y piedras o se perderán para siempre!
+
+ACCIONES Dos acciones juntas. Todos los niveles están rodeados de acciones.
+		Las acciones son las únicas cosas que son indestructibles.
+
+SALIDA Se ve exactamente como acciones hasta que se abre. a menudo es
+		colocado en la frontera entre acciones. A diferencia de las acciones, el
+		La salida NO es indestructible. Una explosión lo volará
+		fuera.
+
+THORSHAMMER Este es el martillo que Thor, el dios del trueno,
+		lleva. Ahora ayuda a Balder destruyéndolo todo.
+		eso es malo. Tanto los locos como las serpientes explotarán cuando
+		tocan un martillo. Un martillo puede multiplicarse a un adyacente.
+		cuadrado que está vacío o cubierto por un arbusto.
+
+BERSERK Un vikingo corriendo por la pantalla, siguiendo el borde de
+		cuadrados vacíos. Si lo tocas o se te cae una piedra o un anillo
+		hacia él, explotará dejando hasta nueve cuadrados vacíos.
+		Si estás demasiado cerca pierdes una vida.
+
+SERPIENTE Muy parecida al loco, excepto que dejará anillos.
+		en lugar de cuadrados vacíos cuando explota.
+
+La última fila de la pantalla del juego te muestra algunas cosas interesantes e importantes.
+información. Podría verse así:
+
+	S: 001346 R: 023 T: 129 L: 27 M: 2
+
+Probablemente ya habrás adivinado lo que significan las letras, pero lo haré
+da una breve explicación de todos modos.
+
+	S - Puntuación
+	R - Anillos que quedan por tomar antes de que se abra la salida.
+	T - Tiempo restante
+	L - Nivel
+	M - Quedan hombres, incluido el que estás usando ahora mismo.
+
+Al lado del joystick hay algunas teclas que afectan el juego.
+
+	ESPACIO Pausa el juego
+	ESC Suicidio (si te quedas atascado en algún lugar)
+	ALT ESC Suicidio colectivo, perdéis a todos los hombres.
+
+Bueno, ¡ahora creo que estás en condiciones de luchar! Sólo una cosa más. el programa
+guardará la lista de puntuaciones más altas en el directorio actual como 'BGHighScores'.
+¡Feliz juego!
+
+
+HISTORIA
+~~~~~~~
+V1.11 ¡El juego ahora también funciona con máquinas NTSC! tuve que cambiar el
+	pantalla de título un poco.
+	Desafortunadamente no obtendrás la misma buena encuesta del juego.
+	pantalla en máquinas NTSC como en máquinas PAL. Lo siento.
+
+V1.0 Primera versión.
+
+-------------------------------------------------------------------------
+
+	Morgan Antonsson
+	Litsleby 3262
+	S-457 00 Tanumshede
+	SUECIA
+
+CORREO ELECTRÓNICO: d0antmo@dtek.chalmers.se

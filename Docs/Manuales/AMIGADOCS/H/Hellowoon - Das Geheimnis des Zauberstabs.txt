@@ -1,0 +1,294 @@
+                     ====================================
+                     ==   INSTRUCTIONS FOR HELLOWOON   ==
+                     ==  typed down in holy german by: ==
+                     ==        B L I Z Z A R D         ==
+                     ====================================
+
+                                 Bewegung:
+                                 ---------
+Um sich in Daemonia oder Magica  bewegen  zu koennen, muessen sie dem Programm
+mitteilen, in welche  Richtung,  oder  wohin  sie  gehen  wollen. Das Programm
+versteht z.B. die vier  Himmelsrichtungen  NORD,  SUED, WEST, OST genauso, wie
+deren Abkuerzungen N, S, W, oder  O.  HOCH  und  RUNTER sind weitere moegliche
+Eingaben, die das Programm verstehen  kann.  Darueberhinaus  sind auch Richt -
+ungsangaben, wie z.B.
+
+    N
+    NORD
+    NORDEN
+    GEH NACH NORDEN
+    GEH SCHNELL NACH NORDEN
+    KLETTERE LEISE DIE TREPPE HINAUF
+
+erlaubt. Nach einigen Versuchen werden  sie  feststellen, dass man sich Muehe-
+los mit allen moeglichen Befehlen fortbewegen kann.
+
+Wenn Sie nun bereits wissen, was sich  im  Norden befindet, koennen sie eben -
+falls sagen
+
+    BETRITT DAS GASTHAUS
+    GEH IN DAS GASTHAUS
+
+oder, wenn sie eben nicht hinein wollen
+
+    VERLASSE DAS GASTHAUS
+    GEH AUS DEM GASTHAUS
+    GEH DURCH DIE TUER
+
+
+Der letzte Vorschlag geht davon aus, dass  dieser Raum nur eine Tuer hat. Gibt
+es mehrere, so wird  die  naheliegendste  genommen.  Das  Programm geht in der
+Reihenfolge Nord, Sued, West, Ost alle Ausgaenge  durch. Wollen Sie also durch
+die Tuer nach Westen, es befindet  sich  jedoch  im Norden auch noch eine,  so
+sollten Sie
+
+    GEHE DURCH DIE TUER IM WESTEN
+    VERLASSE DAS GASTHAUS NACH WESTEN
+
+oder eine aehnliche Syntax verwenden.
+
+Natuerlich werden auch Eingaben wie
+
+    SETZ DICH AUF DEN BODEN
+    SETZ DICH AUF DEN STUHL
+    STEH AUF
+
+verstanden.
+
+Denken Sie daran, dass eine Tuer,  durch  die  sie gehen wollen auch geoeffnet
+sein muss...
+
+
+                               Handlungen
+                               ----------
+
+Dieses Programm erlaubt es Ihnen,  unzaelige  Verben zur Handlungsbeschreibung
+zu  verwenden.  Wahrscheinlich  werden  sie  nie  alle  benoetigen,  die ihnen
+Hellowoon zur Verfuegung stellt. Die  einfachste  Befehlsart  besteht schlicht
+aus einem Verb und einem Substantiv, wie
+
+    NIMM BUCH
+
+Hier wird nun ein Buch aufgehoben und, falls dies moeglich ist, in ihr Gepaeck
+(Inventory) uebernommen.
+
+Selbstverstaendlich koennen sie diese Anweisung  auch ausweiten, um dem Ganzen
+mehr  Persoenlichkeit  und  Ausstrahlung  zu  geben.  Dies  koennte in etwa so
+aussehen:
+
+    NIMM DAS BUCH
+    HEB DAS BUCH AUF
+    NIMM DAS BUCH, DIE TASCHE UND DEN STIFT MIT
+
+Derartige Formulierungen  gelten  fuer  alle  Verben,  die  Sie verwenden. Sie
+sehen, dass ein  recht  lockerer  Umgangston  entsteht  und  man  den Eindruck
+gewinnt, mit einer Person zu sprechen.
+
+Wenn sie also eine Eingabe wie
+
+    NIMM DAS BUCH, DIE TASCHE UND DEN STIFT, LEGE NUN DEN MANTEL AUF DEN
+    TISCH, KLETTERE SCHNELL DIE TREPPE IM OSTEN HINAUF UND SIEH DICH UM.
+
+machen, so wird das Programm  ohne  grosse  Schwierigkeiten  verstehen und den
+Satz in der  entsprechenden  Reihenfolge  abarbeiten.  Es wird also zuerst das
+Buch nehmen, dann die Tasche und den  Stift.  Anschliessend wird es den Mantel
+auf den Tisch legen, die Treppe im Osten hinaufsteigen und sich umsehen.
+
+Ebenso, wie sie hier ein Verb auf  mehrere  Objekte bezogen haben, koennen Sie
+natuerlich auch mehrere Verben auf ein Objekt anwenden.
+Dies sieht dann etwa so aus:
+
+    NIMM DAS BUCH, OEFFNE ES UND LESE ES.
+    SCHLIESSE DIE TUER MIT DEM GOLDENEN SCHLUESSEL AUF, OEFFNE SIE
+    UND GEHE DURCH SIE NACH NORDEN.
+
+Sollten sie einmal in Verlegenheit kommmen, kaempfen zu muessen,
+so bedienen Sie sich bitte der Form:
+
+    VERTEIDIGE DICH MIT DEM FUSS
+    VERTEIDIGE DICH MIT HAENDEN UND FUESSEN
+    GREIFE DEN BETRUNKENEN MIT DEM FUSS AN
+    GREIFE DEN BETRUNKENEN MIT DEM TISCHBEIN AN
+
+Falls Sie einmal den Wunsch haben  sollten,  jemanden  mit einem Fluch zu be -
+legen oder einfach zu verzaubern, so geht das ueber folgende Syntax vor sich 
+    VERZAUBERE jemanden/etwas MIT EINEM zauber
+    SCHLEUDERE EINEN zauber AUF jemandem/etwas.
+
+Ihre Zauber koennen Sie ueber die  Funktionstaste  F4  erfragen. Es existieren
+drei Arten von Zauberspruechen, die sie  sich nach und nach aneignen koennen -
+und auch sollten.
+
+    FISP     Firespell - Mit diesem Spruch koennen sie Braende legen, oder
+             einfach einen Streichholz anzuenden.
+
+    MISP     Mirrorspell - Mit Hilfe dieses Zauberspruchs erscheint das
+             Gegenstueck zu der Figur, auf den er ausgesprochen wurde. Ist
+             die Figur Urspruenglich gut, so ist das Gegenstueck dazu Boese
+             und Umgekehrt. In der Regel bekaempfen sich die beiden Egos
+             sofort und man kann einen Gegner somit ausschalten.
+
+    HESP     Hellspell - Der maechtigste Zauber ueberhaupt. Er ist in der
+             Lage alles um einen herum zu verwuesten oder zu toeten. Ver-
+             wenden Sie diesen Zauber nur shr vorsichtig.
+
+Grundsaetzlich sollte man  sich  den  Einsatz  von  Zauberspruechen  sehr  gut
+ueberlegen, da im  Spiel  nur  sehr  wenige  zu  finden  sind  und  ein falsch
+gebrauchter Spruch  das  unmittelbare  Spielende  oder  gar  die Unloesbarkeit
+desAdventures zur Folge haben kann.
+
+Wenn Sie  Verben  verwenden,  die  zusaetzlich  zu  einem  Subjekt  ein Objekt
+benoetigen, und sie dieses  Objekt  vergessen,  so  wird  sie das Programm dan
+achfragen.
+
+    SCHNEIDE DAS BROT
+
+wird als Antwort die Frage WOMIT nach sich ziehen, da das Werkzeug fehlt.
+
+Des oefteren wird es  auch  vorkommen,  dass  sie  vom  Programm etwas gefragt
+werden. Beantworten sie die Frage mit den Vokabeln JA, NEIN, NIE, NEIMALS DOCH
+oder aehnliche.
+
+Einzelne  Satzglieder  koenne  durch  UND,  DANN,  '.'  oder  ','  miteinander
+verbunden werden.
+
+Wenn es Ihnen zu  langwierig  erscheint,  vollstaendige,  syntaktisch korrekte
+Saetze einzugeben, so koennen Sie einige Abkuerzungen benutzen:
+
+    NORD            N                  SPIELENDE            X  
+    SUED            S                  INVENTORY/GEPAECK    I
+    WEST            W                  SCHAUE               SCH
+    OST             O                  GEHE                 G
+    HOCH            H                  ZUSTAND              C/Z
+    RUNTER          R                  ZAUBERSPRUECHE       SP
+    VON             V                  MIT                  M
+    NIMM            NI                 LEGEN                L
+
+Neben diesen Kuerzeln besteht selbstverstaendlich die Moeglichkeit die Eingabe
+kuerzer zu halten und die Artikel oder Adjektive weglassen. Hellowoon versteht
+auch Eingaben, wie
+
+    NIMM BUCH, SCH ES UND LEG ES WEG
+
+                               Konversation
+                               ------------
+
+Gelegentlich werden Sie auf Ihrer  Reise  Figuren  treffen und haben eventuell
+das Verlangen, sich mit Ihnen  zu  unterhalten.  Dies  koennten Sie tun nur um
+Zeit totzuschlagen,  doch  gibt  es  da  noch  ein  weiteres  Moment,  welches
+mitspielt. Einige der Figuren koennen  Ihnen  helfen weiterzukommen. Mit etwas
+Geschick koennen sie diese Figuren  sogar  dazu bewegen, Ihnen irgendetwas auf
+die  Reise  mitzugeben.  Versuchen  Sie  auf  jeden  Fall  immer  hoeflich und
+zuvorkommend zu sein.
+Grundsaetzlich  laufen   Unterhaltungen,  oder  besser  Aktionen  mit  anderen
+Figuren, wie folgt ab:
+
+    FRAGE jemanden NACH SEINEM GEPAECK
+    GIB jemandem etwas
+    GIB etwas jemandem
+    NIMM etwas von jemandem.
+
+Eine Funktion, um  jemanden  direkt  anzusprechen  und  sich  ganz  gezielt zu
+unterhalten, gibtes nicht. Sie muessen also versuchen, auf diese Weise mit den
+Charakteren Kontakt zu bekommen.
+
+Einen ganz besonderen  Charakter  stellt  Ihre  Computerfigur mit Namen Zarrak
+dar. Er  ist,  wie  Sie  schnell  feststellen  werden,  sehr  eigenwillig  und
+unterhaltsam, ueber ihn haben Sie die  Mglichkeit, Informationen ber andere
+Spielfiguren und ihre Umgebung zu erhalten.
+
+Fragen Sie ihn einfach einmal
+
+    WAS WEISST DU UEBER jemanden/etwas ?
+    z.B. WAS WEISST DU UEBER DEN BSEN WOLF ?
+
+oder
+
+
+
+    WEISST DU ETWAS UEBER jemanden/etwas ?
+    z.B. WEISST DU ETWAS BER DIE STERNE ?
+
+und er wird  ihnen  bereitwillig  Auskunft  geben,  soweit  er  es wei . Diese
+Funktion  ist  abzngig  vom  Spielstand.  Sie  knnen  also  nichts ber Figuren
+erfahren, deren Namen Sie noch nicht  einmal  kennen,  doch sobald dieser Name
+einmal gefallen ist,  Knnen  Sie  sich  ber  Zarrak  mehr  oder weniger genaue
+Informationen einholen.
+
+                           Spezialbefehle
+                           --------------
+
+Bei diesen Spezialbefehlen handelt es  sich  in der Regel um Einwortkommandos,
+die Sie jederzeit hrend  des  Spieles  eingeben  knnen.  Diese  Spezialbefehle
+werden durch Drucken der entsprechenden Funktionstasten ausgelst.
+
+    F1    HILFE    Diese Funktionen gibt Ihnen kleine (aber wirklich nur
+                   kleine) Hilfestellungen, falls Sie einmal zngen sollten.
+
+    F2    INVENTORY Hier wird Ihr Gezck angezeigt.
+
+    F3    ZUSTAND   Mittels dieser Funktion knnen Sie Ihren
+                    Gesundheitszustand kontrollieren. Vergessen Sie auf
+                    keinen Fall fters etwas zu essen, da Zarrak sonst
+                    verhungert. Hitpoints gibt an, wieviele Treffer Sie in
+                    einem Zweikampf wegstecken knnen. An ihrer Srke
+                    knnen Sie ablesen, wieweit  Zarraks krper geschcht
+                    ist und das Charisma bestimmt ihre Ausstrahlung. Diese
+                    ist bei der Konversation mit anderen Figuren sehr
+                    wichtig, da man einem Wesen mit guter Ausstrahlung mehr
+                    Vertrauen entgegenbringt. Zauber zeigt an, wieviele
+                    Zaubersprche Sie momentan zur Verfgung haben und
+                    Gezck ist die Last, die Sie tragen.
+
+    F4    ZAUBER    Mit dieser Funktion werden Ihre verfgbaren
+                    Zaubersprche angezeigt.
+
+    F5    SPIELLADEN Es erscheint eine Dialogbox zur Auswahl des Spieles,
+                     das Sie laden wollen. Anschlifend geht das Spiel an
+                     der geladenen Position weiter.
+
+    F6    SICHERN    Es erscheint eine Dialogbox zur Namensauswahl des abzu-
+                     speichernden Spielstandes. Sichern Sie Ihr Spiel regel-
+                     zig, um den Verlust einer guten Spielposition zu
+                     vermeiden.
+
+    F8    GRAFIK     Hiermit wird die Grafik abwechselnd ein- und
+                     ausgeschaltet.
+
+    F9    CREDITS    Mittels dieser Funktion wird eine Kredittafel
+                     angezeigt, die sie ruhig mal lesen sollten.
+
+
+    F10   NOCHMAL    Der zuletzt eingegebenen Befehl wird wiederholt.
+
+    ESC   KARTE      Das Programm zeichnet selbszndig eine Landkarte mit
+                     die Sie ber die Escape Taste erreichen knnen. Es
+                     werden immer die grten Stationen Ihrer Reise er -
+                     znzt. Nochmaliges Drcken derselben Taste bringt Sie
+                     zurck ins Spielgeschehen. Diese Option arbeitet nur
+                     mit einem Farbmonitor.
+
+
+                                  Grafik
+                                  ------
+
+Wie bereit erzhnt, knnen Sie  die  Grafik  mit  der Funktionstaste F8 ab - und
+einschalten. Die Gre des Grafikfensters wird mit der Cursortasten gesteuert.
+
+    CURSOR HOCH      Die Grafik wird um einen kleinen Schritt nach oben
+                     geschoben.
+
+    CURSOR RUNTER    Die Grafik wird um einen kleinen Schritt nach unten
+                     gescrollt.
+
+    SHIFT CURSOR HOCH  Die Grafik wird bis ganz nach oben gescrollt, sod
+                       sie unsichtbar ist.
+
+    SHIFT CURSOR RUNTER  Die Grafik wird ganz nach unten gescrollt.
+
+
+
+                 
+                     Angaben typed down ohne Gehr by
+
+                     B L I Z Z A R D

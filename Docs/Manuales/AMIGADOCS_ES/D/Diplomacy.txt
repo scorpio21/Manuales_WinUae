@@ -1,0 +1,125 @@
+/******************************************\
+                *> <*
+                *> Diplomacia para Amiga <*
+                *> Versión 1.0 <*
+                *> Copyright (c) 1988 de Steven Douthat <*
+                *> Importado por TARKUS TEAM <*
+               \******************************************/
+
+
+El juego de la diplomacia se juega en años que constan de tres estaciones: primavera,
+Otoño e invierno.  Los turnos de primavera y otoño son cuando los jugadores dan órdenes.
+para el movimiento de sus unidades existentes (ejércitos y flotas).  En el turno de invierno,
+propietarios de centros de suministro
+
+CÓMO REALIZAR PEDIDOS (turnos de primavera y otoño)
+
+Hay tres órdenes posibles para cada unidad en el tablero: mantener, mover o apoyar.  Además, las flotas tienen una cuarta opción: "convoy" de un ejército de una costa a otra.  En general, las órdenes se emiten seleccionando las provincias involucradas.  esto esta hecho 
+la provincia y haciendo clic con el botón izquierdo del ratón.  Cada pedido requiere 3 provincias: 
+   la provincia que contiene la unidad que se solicita, 
+   la provincia que contiene la unidad que se está moviendo, 
+   y la provincia de destino.
+Hacer clic en estas tres provincias suele ser suficiente para describir completamente el orden.  
+
+   MANTENER: haga clic tres veces en la provincia que contiene la unidad.
+         (recuerda hacer clic en el NOMBRE de la provincia)
+
+   MOVER: haga clic dos veces en la provincia que contiene la unidad a mover;
+         Haga clic en la provincia a donde se dirige la unidad.
+
+APOYO: haga clic en la provincia que contiene la unidad que brinda apoyo;
+         haga clic en la provincia que contiene la unidad que recibe el apoyo;
+         si la unidad de apoyo es una flota en el agua y la unidad apoyada 
+         unidad es un ejército en la costa, entonces un solicitante le pedirá que 
+         seleccione entre "apoyo" o "convoy"; seleccione "soporte";
+         haz clic en la provincia a la que se dirige o permanece la unidad admitida.
+
+ CONVOY: igual que APOYO pero seleccione "convoy" en el solicitante.  Tenga en cuenta que un 
+         La orden del convoy no es válida a menos que se ordene a la unidad que está en el convoy.
+         trasladarse a la misma provincia.
+
+Se construirá una representación de texto del pedido en el área de mensajes superior derecha a medida que se ingresa cada pedido.  La lista completa de pedidos se puede ver en pantalla o imprimir en cualquier momento durante el ingreso del pedido seleccionando el elemento adecuado en el menú "pedidos".
+
+Cuando todos los pedidos se hayan ingresado correctamente, un clic en el gadget final en la esquina inferior derecha le indicará a la computadora que resuelva los pedidos.  Un solicitante le preguntará dónde imprimir los resultados de los pedidos.  Enviar esta lista a la impresora ("imprimir") es
+
+Después de que se hayan enumerado los resultados del pedido, el mapa se ajusta en función de estos 
+Se anuncian los resultados y todos los retiros requeridos, si los hubiera.  La computadora 
+luego solicita los destinos de cada unidad en retirada.  El dispositivo "final" se puede utilizar para ordenar la disolución de una unidad.  
+
+AJUSTE DE UNIDADES (Turno de invierno)
+
+Al final del turno de Otoño, la computadora ajustará automáticamente la propiedad de los suministros.  Luego, la cantidad de suministros poseídos se comparará con la cantidad de unidades desplegadas para cada potencia.  Las órdenes de construcción o desmantelamiento se solicitarán a cada potencia según sea necesario.
+
+----------------------------------------------------------------------
+EL MENÚ
+----------------------------------------------------------------------
+
+MENÚ DE JUEGO
+   Estos comandos afectan a todo el juego y se pueden utilizar en cualquier momento.
+
+   HACIA ATRÁS: envía la pantalla del juego detrás del banco de trabajo, etc. para permitir la multitarea 
+             controlar
+
+       NUEVO: reinicia el juego en Spring 1901 (o cualquier configuración que sea 
+             especificado en Datos/nuevo.datos)
+
+       ANTIGUO: carga el juego previamente guardado (requiere ingresar el nombre del juego). 
+             archivo)
+
+      GUARDAR: guarda la configuración actual del juego en un archivo en el disco para más adelante. 
+             recuperación usando el comando ANTIGUO
+
+      SALIR: cierra la pantalla del juego y regresa al banco de trabajo/CLI
+
+MENÚ DE ESTADO
+Estos comandos enumeran el año y la propiedad actual del suministro.
+
+     IMPRIMIR: lista de salida a la impresora; incluye lista de unidades para cada potencia;
+             Esto es útil para producir una hoja de trabajo para escribir pedidos durante 
+             periodo de diplomacia
+
+      VER - mostrar lista en pantalla
+
+MENÚ DE PEDIDOS
+   Estos comandos enumeran todas las unidades por poder y su orden actual.  esto 
+   El menú solo está activo durante la entrada del pedido.
+
+     IMPRIMIR - lista de salida a la impresora
+
+      VER - mostrar lista en pantalla
+
+AJUSTAR MENÚ
+   Estos comandos le dan al usuario poder bruto para ajustar el juego a cualquier 
+   configuración.  Aunque el juego ha sido probado y se cree que
+   seguir las reglas con precisión al resolver órdenes, los gamemasters pueden elegir
+   anular las decisiones y ajustar el mapa a lo que creen que es 
+   correcto.
+
+      UNIDAD - construir/cambiar/disolver una unidad; la unidad en la provincia seleccionada 
+             es reemplazada por la unidad construida
+
+    SUMINISTRO - cambiar/eliminar la propiedad de una provincia proveedora
+
+----------------------------------------------------------------------
+ERRORES/LIMITACIONES CONOCIDOS
+----------------------------------------------------------------------
+
+Si se sale del juego cuando se muestra el borde superior del mapa en la ventana de visualización, la memoria de la computadora se dañará.  El resultado de esto es casi siempre un error fatal del sistema de software cuando se ejecuta un programa posterior.  La causa de esto es desconocida, pero
+
+
+----------------------------------------------------------------------
+REVISIONES PLANIFICADAS
+----------------------------------------------------------------------
+
+Un oponente informático que jugará contra cualquier país o países de forma independiente o en equipo.  Esto permitirá un juego para un jugador de la Primera Guerra Mundial o una variante de la misma.  
+
+Solicitante de archivos más elaborado para guardar y recuperar archivos.  Uno que enumera los archivos en el directorio actual y permite el movimiento a través de directorios.
+
+Utilidad de creación de mapas para ayudar en la creación de otros mapas para usar en el juego.  Por cierto, el archivo map.data se creó con Deluxe Paint y es un archivo IFF estándar (8 colores, contrataciones, 1000 x 400 píxeles).  Si alguien mejora la obra de arte, por favor envíeme una copia.
+
+-------------------------------------------------------------------------
+   La diplomacia tiene derechos de autor (c) 1976 Avalon Hill Game Company
+   Diplomacia para Amiga tiene Copyright (c) 1989 Steven Douthat
+   Deluxe Paint es una marca registrada de Electronic Arts
+   Amiga y AmigaDOS son marcas comerciales de Commodore-Amiga, Inc.
+-------------------------------------------------------------------------

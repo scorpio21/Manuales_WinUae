@@ -1,0 +1,251 @@
+ATRAPADO AGA/HD (SW DE NUEVA GENERACIÓN)
+
+Instalación en el disco duro
+
+Ingrese el primer disco (TRAPPED1) de su conjunto en el disquete e inicie "Trapped_Install". Luego se le preguntará la ruta donde desea instalar TRAPPED. Después de que se le hayan solicitado todos los discos del conjunto, puede ir a la versión instalada e iniciarla haciendo clic en "Trapped_Start".
+
+Si usas un Amiga con sólo 2 MB de memoria, debes arrancar sin secuencia de inicio, apaga todas las unidades que no sean necesarias para TRAPPED, ya que el juego necesita al menos 1945000 bytes de memoria libre.
+
+Para ejecutar TRAPPED en un A1200 estándar: ¡Instala el juego en tu partición de arranque sin secuencia de inicio y cambia todo! unidades, excepto la que tiene ATRAPADO.
+Modo Force_GFX
+
+Con esta pequeña herramienta, TRAPPED se configurará en un modo GFX fijo.
+Requisitos de hardware
+
+    * cualquier Amiga con al menos 2 MB de memoria y una CPU 68020
+    * 15 MB de espacio libre en disco duro
+
+Hardware compatible
+
+    * Procesador 68020 hasta 68060
+    * Si utiliza un procesador 68030, cambie la caché DataBurst para mejorar la velocidad del motor entre un 5 y un 10 por ciento.
+    * Hasta 6 MB de RAM (¡no es necesario más!)
+
+Si tienes más RAM, se agregarán las siguientes cosas al juego:
+
+    * Animaciones de visualización de armas.
+    * varias animaciones de textura
+    * un módulo que se puede jugar durante el juego
+    * varios efectos de sonido adicionales
+    * Modo AntiAlias (64 KB)
+
+Acelerando el motor 3D
+
+    * texturas pre-sombreadas (700KB)
+    * mesas de cálculo ligeras (64KB)
+    * mesas luminosas para destellos de lentes (64KB) 
+
+Todas las claves en resumen
+
+    - Cursor izquierda/derecha/arriba/abajo: mover personaje
+    - ALT izquierda: ataque
+
+    - 'p' alterna la poción activa - 'm' alterna la asignación automática
+    - ENTRAR a beber poción - 'l' lock guardian drone
+
+    - 'a' rotar el ángulo de visión hacia la izquierda
+    - 's' gira el ángulo de visión hacia la derecha - 'F1' alterna los modos de visualización
+    - 'w' restaurar el ángulo de visión - 'F2' Automap
+                                            - Descripción general del personaje 'F3'
+    - '7' NumBlock mira al techo - 'F4' Scrolls
+    - '1' NumBlock mira al piso - 'F5' Salir del menú
+    - Vista de restauración de NumBlock '4' - Pantalla de elemento 'F6'
+                                            - Pantalla antiniebla 'F7'
+    - Daga '1' - Martillo '4' - Menú de opciones 'F8'
+    - Espada '2' - Pica '5' - Libro de hechizos 'F9'
+    - Estrella de la mañana '3' - Hacha de guerra '6' - Estadísticas 'F10'
+
+MENÚS / PANTALLAS
+El mapa automático (F2)
+
+Tu mapa de mazmorra ya pintado se mostrará en el centro de la pantalla. Aquí puedes ver tu posición, marcada por una pequeña flecha amarilla que muestra la dirección en la que caminas y, por supuesto, las paredes y el suelo.
+
+Si presionas 'r' en esta pantalla, alternarás una cuadrícula para que al jugador le resulte más fácil pintar los mapas si así lo desea.
+Descripción general del personaje (F3)
+
+En esta pantalla podrás encontrar toda la información de tu personaje que necesitas:
+
+    * Salud real / máxima
+    * Destreza (baja es mejor)
+    * Tu fuerza y la fuerza del arma, que es el valor base del daño si las sumas
+    * Velocidad normal y velocidad rápida (si se usa poción)
+    * Tu retraso y el retraso del arma para iniciar un nuevo ataque después de golpear a un enemigo.
+    * Ataque que muestra tu precisión de ataque.
+    * Estado: tu clase de personaje
+    * La mágica niebla roja/verde/azul que llevas
+    * También se muestran algunas ofertas especiales si están activadas, p. si estas perdido
+
+Pergaminos (F4)
+
+En esta pantalla puedes ver los pergaminos que has recolectado en la mazmorra real. Si aún no has recopilado ninguno, no aparecerá ninguna pantalla, si has recopilado más de uno utiliza las teclas del cursor para seleccionar uno.
+Salir del menú (F5)
+
+Puede seleccionar: Salir (sin guardar), Guardar y Salir y Reanudar.
+
+La selección real se mostrará mediante un cuadro blanco; utilice las teclas del cursor para seleccionar. No hay partidas guardadas diferentes ya que no es posible llegar a un callejón sin salida en este juego. En todo momento existe la posibilidad de resolver el juego.
+Si has terminado un nivel, el juego se guardará automáticamente.
+Menú de elementos (F6)
+
+En el menú de elementos, puede seleccionar uno de los elementos que recopiló usando la tecla del cursor para seleccionar. El elemento seleccionado se mostrará con un borde iluminado y el nombre del elemento se mostrará en la parte superior de la pantalla. Puede activar el elemento presionando Intro para que se use en su próxima acción, p. si necesita una llave para activar un interruptor.
+Menú de niebla (F7): el menú de lanzamiento de hechizos
+
+El menú Hechizo está dividido en dos secciones. La niebla que has recolectado (área seleccionada) y las nieblas que deseas usar para lanzar un hechizo (área de lanzamiento).
+
+Para seleccionar una niebla usa las teclas del cursor, para moverla al área de lanzamiento usa la tecla espaciadora. Para lanzar el hechizo usa enter. Si has movido un hechizo incorrecto al área de lanzamiento, usa la <tecla alt derecha> para alternar el área activa. Usa el espacio nuevamente después de seleccionar la niebla incorrecta para moverla nuevamente al área seleccionada, que es tu inventario de hechizos.
+Pantalla de opciones (F8)
+
+Las opciones pueden ayudarte a configurar el juego con la calidad que deseas y tu máquina lo calculará. Seleccione una opción usando el cursor arriba/abajo y presione la barra espaciadora para hacer su elección. Están disponibles las siguientes opciones:
+
+    Modo de visualización: proporción de píxeles, 1x1 - 2x1 O 2x2 y Graffiti (1x1)
+
+    Mapeo de piso: activa/desactiva el mapeo de piso/techo
+
+    Efectos de sonido: Filtro activado/desactivado/sin sonido y módulo, que solo
+                    Será posible si tienes suficiente memoria.
+
+    Movimiento de rebote:
+                    Activado/Desactivado alternará entre simular el movimiento
+                    de tu cabeza y un movimiento recto como volar.
+
+    Texturas de desplazamiento:
+                    Activar/Desactivar activará/desactivará todo tipo de textura.
+                    movimientos que son efectos programados como
+                    desplazamiento, fuego, retroalimentación.
+
+    Transparencia:
+                    Activado/Desactivado alternará entre renderizado con/sin
+                    cualquier transparencia, p.e. Destellos de lente.
+
+    Modo de desenfoque: Desactivado - Desenfoque - Antialias
+                    Estas opciones provocarán una calidad de renderizado mucho mayor.
+                    y tomarán mucho tiempo de rasterización. El antialias
+                    El modo sólo está disponible con más de 2 MB de memoria.
+
+    Luz dinámica: sin luces - Sombreado plano - Gouraud
+                    Éste controla las funciones de luz activa, con un
+                    mayor calidad de reproducción de la luz que obtendrá el juego
+                    más lento, así que elija el mejor para su máquina.
+
+    Animaciones de textura: activar/desactivar Estas animaciones son: animaciones de armas,
+                    animaciones de textura, que sólo se cargarán con
+                    más de 2 MB de memoria.
+
+    Destellos de lente: encendido/apagado alternará los destellos de lente
+
+    Profundidad de vista: pequeña - mediana - grande - extragrande
+                    Como se trata de una rutina poligonal, este valor cambia el
+                     profundidad de renderizado.
+
+    Volumen de sonido: 10, 20, 30..., 100 por ciento
+
+    Brillo: Nivel -4 (bajo), -3,... 0..., 3, 4 (alto)
+
+Sistema de referencia:
+
+Usando las teclas de cursor izquierda/derecha puede elegir la configuración de hardware que más se acerque a su hardware. Las opciones se configurarán automáticamente para una visualización gfx fluida. Si elige un procesador 68040/60, debe asegurarse de no tener un procesador 68020/30, porque esto activará un convertidor especial de grueso a plano para 68040/60.
+Libro de hechizos (F9)
+
+Aquí puedes ver la lista de hechizos que ya has encontrado durante el juego. Los hechizos que conoces se muestran en pequeñas bolas del color de la niebla que necesitas para lanzarlos.
+
+   1. 'Cure Wounds' aumentará tus puntos de salud según tu nivel de experiencia.
+   2. La 'luz' generará una antorcha mágica
+   3. 'Velocidad' acelera tu velocidad de movimiento durante algunos segundos
+   4. 'Prisa' ralentizará el entorno de tu jugador, por lo que las acciones del héroe ocurrirán en la mitad del tiempo.
+   5. 'Magic Kompass' activa un kompass mágico por tiempo limitado
+6. 'Mapa Mágico' mostrará un mapa mágico que incluye todos los objetos, enemigos, bolas de fuego, etc.
+   7. La 'Resistencia a las bolas de fuego' te hace resistente a las bolas de fuego, para que no puedan golpearte.
+   8. 'Hold Monster' causará un shock mágico a los enemigos, de modo que no puedan moverse.
+   9. 'Invulnerable' es un poderoso hechizo que reduce cada ataque a un daño de un punto de vida.
+  10. 'Monster Fear' causará miedo a todos los enemigos para que intenten huir de ti.
+  11. 'Guardian Drone' activa un dron mágico que te permite ver en dos direcciones y puedes bloquear el dron para observar una parte especial de la mazmorra.
+  12. 'Luz estática' es un hechizo para iluminar un área más oscura de una mazmorra, con un efecto secundario: todos los monstruos intentan moverse hacia esta luz.
+
+CONTROLES PRINCIPALES
+Controlando a tu héroe
+
+El control del mouse y el teclado está disponible. Mover el mouse hacia la izquierda/derecha o el cursor hacia la izquierda/derecha cambiará el ángulo de carrera. El botón derecho del mouse o el cursor hacia arriba avanzarán. Para retroceder tienes que presionar Mayús izquierda (control del mouse) o cursor hacia abajo (control del teclado).
+
+Para atacar a un monstruo, presione el botón izquierdo del mouse o la tecla ALT izquierda.
+Las teclas de función
+
+F1: cambia los modos de pantalla a planos de bits 2x2, 2x1, 1x1 o Graffiti 1x1
+F2: mostrará el mapa pintado del nivel actual
+F3 - Pantalla de personaje
+F4: muestra los pergaminos recopilados del nivel actual.
+F5 - Salir del menú
+F6 - Menú de elementos
+F7 - Menú de lanzamiento de hechizos
+F8 - Opciones
+F9 - Se mostrará tu libro de hechizos
+F10 - Pantalla de estadísticas
+
+Controles especiales de héroe
+
+Para mirar al techo/suelo tienes que utilizar el bloque de teclas numéricas. Para mirar hacia el techo use '7', para el piso use '1', para restaurar la vista use '4'.
+Ángulo de carrera y ángulo de visión:
+
+Puedes cambiar estos ángulos de manera diferente, para que puedas correr en otra dirección mientras caminas. Para girar el ángulo de visión use las teclas 'a' para izquierda y 's' para derecha, para restaurarlo use 'w'.
+Elegir un arma
+
+Para elegir una de las seis armas utiliza las teclas '1' a '6'. El arma real se mostrará con un borde blanco o una pequeña animación.
+Usando pociones
+
+Para alternar entre las pociones usa la tecla 'p', para beber la poción seleccionada usa enter.
+Mapeo automático
+
+Para alternar la asignación automática utilice la tecla 'm'. Como tu jugador tiene que pintar el mapa, será más lento si se activa el mapeo automático. Si usas una poción de velocidad, no es posible realizar un mapeo automático, ya que si el personaje corre muy rápido no podrá pintar un mapa.
+interruptores
+
+Para activar los interruptores, debe presionar 'espacio' y si el interruptor necesita un elemento, debe seleccionarlo en el menú de elementos.
+Interruptores de piso
+
+Simplemente camine sobre el interruptor del piso, esto lo activará.
+PANTALLA PRINCIPAL
+
+A la izquierda puedes ver la pantalla principal del juego. Todas las acciones se llevarán a cabo en el cuadro negro centrado y en todos los parámetros de su reproductor.
+
+se muestran en el borde. Esta división te dará una buena visión general todo el tiempo que juegues. La frontera se divide en cuatro secciones principales, que son las armas, los valores de los personajes, las descripciones generales y los parámetros reales.
+ARMAS
+
+Hay seis armas diferentes que se pueden encontrar. Estas armas son:
+
+Daga, que no causó grandes daños, pero se puede usar muy rápido. (Bueno para cazadores)
+
+Espada larga, un arma que es difícil de usar, por lo que no todas las clases de personajes serán buenos luchadores con ella. (Bueno para luchadores, caballeros)
+
+Morning Star, un arma poderosa si has aprendido a usarla. (Bueno para caballeros)
+
+Martillo, un arma pesada que puede ser utilizada por personajes fuertes de manera exitosa. (Bien por barbar, enano)
+
+Pica, un arma de larga distancia que causa grandes daños a tus enemigos. (Bueno para cazadores)
+
+War Axe, un arma muy pesada que puede matar varios monstruos con un solo golpe. (Bueno para los enanos)
+
+Cada golpe con un arma provocará un retraso hasta el siguiente ataque posible. Esto lo muestra la mano de la izquierda.
+Valores de carácter
+
+Hay cuatro parámetros principales de personaje que son fuerza, salud, armadura y velocidad.
+Los valores se muestran en valores decimales del 00 al 99; si una habilidad será superior a 99, se mostrará como --.
+
+El valor de la luz se mostrará mediante una línea, donde una línea más larga significa una luz más brillante.
+RESUMEN
+
+En la parte superior de la sección de descripción general puedes ver los mapas en tiempo real (el cuadro con 'Mapa' dentro). Este mapa se puede activar mediante un hechizo o recolectando un elemento mágico del mapa. Hay dos mapas diferentes disponibles, uno con elementos, bolas de fuego, etc. y el otro sin elementos ni trampas. Una flecha amarilla muestra la dirección en la que caminas en el medio del mapa, los elementos y las trampas se mostrarán mediante puntos blancos, las paredes son líneas de color azul claro y el suelo se mostrará mediante cuadros de color azul oscuro.
+
+El dron guardián se puede activar mediante un hechizo para que puedas observar una posición especial de cada mazmorra si bloqueas el dron. Se pueden encontrar cuatro pociones diferentes en las mazmorras,
+
+    * una poción de salud (azul), que refresca 25 puntos de salud
+    * una poción de armadura (roja) actualiza 15 puntos de armadura
+    * una poción de fuerza (verde) que aumenta tu fuerza en uno
+    * una poción de velocidad (amarilla) que te hace correr más rápido durante 5 segundos por cada poción.
+
+La cantidad de poción disponible se muestra en decimal del 00 al 99.
+
+La poción real se muestra con una visualización de valor más brillante. (como la poción de armadura en la imagen)
+PARÁMETROS REALES
+
+En la parte superior de la pantalla, en el cuadro de la izquierda, puede ver el elemento real que ha activado. Si estás en el Menú de Objetos o en el Menú de Hechizos, se mostrará el objeto/niebla real. Los seis cuadros pequeños te mostrarán cuánto duran los siguientes hechizos: Prisa, Resistencia a la bola de fuego, Mantener monstruo, Invulnerabilidad, Miedo a los monstruos y el mapeo automático.
+
+Debajo de estos cuadros verás la brújula.
+
+A la derecha ves los dos parámetros de experiencia, que son tu nivel y tus puntos de experiencia.

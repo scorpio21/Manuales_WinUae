@@ -1,0 +1,3360 @@
+                                 SKID ROW
+
+                                 presents
+
+                 WIZARDRY -----|- BANE OF THE COSMIC FORGE
+
+                         ATTENTION AMIGA PLAYERS:
+
+           IF YOU ARE PLAYING BANE OF THE COSMIC FORGE FROM FLOPPY
+                 DISKS YOU MUST MAKE A COPY OF DISKETTE "A".
+
+         IT IS PREFERABLE THAT YOU MAKE COPIES OF ALL THE DISKS THAT
+             YOU RECEIVE IN YOUR PACKAGE.  THIS WILL PREVENT ANY
+               ACCIDENTS FROM HAPPENING TO YOUR MASTER DISKS.
+
+WARNING 
+
+Please save your game often.  And keep a backup copy of that save game
+around.
+
+If you're playing on your hard drive, save your game to floppy every now
+and again.  If you're playing from floppies, save your games to
+alternating formatted diskettes.  Why?  You never know when modern 
+technology will meet a magnet thus eliminating all your hard work.
+
+         Bane of the Cosmic Forge - System's Reference Card
+               Amiga 500, 1000, 2000 2500 and 3000
+--------------------------------------------------------------------------
+
+Installing Bane of the Cosmic Forge on a Hard (Fixed) Disk
+
+Bane of the Cosmic Forge has its own installation program which will
+help you to install Wizardry on your computer's hard disk.  Bane requires
+approximately 2.5 megabytes of disk space; please be certain you have
+this space available.  You must run the installation program from the
+CLI.  Follow the directions below:
+
+   1.  Boot your Amiga so that your system configures and recognizes the
+       hard drive.
+
+   2.  From Workbench, invoke the CLI or SHELL by double-clicking on its
+       icon.  It may be located in the System drawer.
+
+   3.  Insert Disk E in drive DF0: and type DF0:WINSTALL DH0:BANE and
+       press RETURN.  Bane will create its own directory and begin the
+       installation.  If you have more than one hard drive partition,
+       such as DH1:, and you wish to install Bane on that hard drive,
+       then you would type DF0:WINSTALL DH1:BANE instead.
+
+   4.  When the installation begins, the install program will ask you to
+       confirm your choice for a directory.  Press Y or N and RETURN.
+       If the program is unable to create the directory or find it due
+       to some error, it will abort the installation procedure.
+
+   5.  Bane will now ask for the "E" disk.  It should already be in your
+       drive.  Press C to continue or Q to quit, then press RETURN.
+
+   6.  When Bane has copied its files from the E disk, it will next ask 
+       for disk A.  This procedure will be repeated for each of your
+       disks.  Insert the disk in drive DF0: and press C and RETURN to
+       continue.
+
+To Play Bane of the Cosmic Forge
+
+You may boot Bane of the Cosmic Forge from the floppy DF0:, run it from
+the CLI, or double click on its icon from the Workbench menu.  If you're
+not playing off the hard drive, we recommend you boot Bane from the
+floppy to free up as much memory as possible.
+
+From the Floppy:  Insert disk A into drive DF0: and turn your computer 
+                  on. 
+From Workbench:   Double click on the BANE hard drive icon.  Then 
+                  double click on the BANE icon.  If you're playing
+                  off the floppy disks, just double click on the BANE
+                  icon.
+From the CLI:     Change your working directory to the Bane directory.
+                  (For example, CD DF0: for floppy users, CD DH0:Bane
+                  for hard drive users.)  Type BANE and press RETURN.
+
+Adjusting the Stack Setting Before Play
+
+If you play Bane from the CLI, you must adjust the size of the stack
+each time you play.  Normally, the stack is set at 3000 or 4000.
+However, for Bane, you'll need at least 8000.  To change the stack
+from CLI, type STACK 8000 and press RETURN.  If you click on Bane's
+icon or boot the disk itself, the stack will be set for you.
+
+Just for Hard Drive Users
+
+Bane of the Cosmic Forge requires approximately 1 megabyte of RAM memory
+to run.  However, it understands that system overhead takes up
+approximately 50 to 75K.  To free up as much memory as possible, it
+may be necessary to remove any resident memory programs from your
+startup sequence.
+
+Nice to Meet Ya
+
+AmigaDOS takes a few seconds each time you put a disk into the drive to
+get acquainted with it.  On occasions where disk switches are required,
+Bane will deliberately pause to give AmigaDOS time to log the disk.
+However, if it does not recognize your disk in the time allotted, it
+will repeat the request for the disk.  Just click or press RETURN to
+continue.
+
+Pull No Disk Before its Time
+
+Pay attention to the disk light when switching disks.  If you pull
+a disk out too soon, you may end up writing a vicious dragon over
+your level one characters!  When the light goes out, you may remove
+one disk and insert another.
+
+Save Game Drive
+
+You may save your game to any disk drive.  Once you have entered
+Wizardry, select the "Disk" option.  Next, select "Game Configuration".
+Using the UP and DOWN arrow keys, move to the Save Game Drive option.
+
+     Hard Disk:  To save the game to your hard drive, leave this
+     field blank.  If you leave this field blank, Wizardry will save
+     your game to the default directory (the same directory where you
+     installed the program).  If you wish to save the game to a
+     different directory, you should enter the device name and
+     directory name followed by a forward slash.  For example,
+     DH0:BANE/.  If you would like to save it to another directory or
+     path, the directory must exist beforehand; Wizardry will not
+     make the directory for you.
+
+     Floppies:  If you'd like to save your game to a floppy drive,
+     just type the device name of the drive, such as DF0: (or DF1:).
+     If you have a second disk drive (DF1:), we recommend you use
+     this drive to save your games to reduce disk swapping.  Before
+     you save a game, however, make sure your save game disk is
+     formatted ahead of time.  We recommend you save your game to
+     alternate floppy disks on a regular basis for backup purposes.
+     So, just in case something happens to your save game, you've got
+     a backup.
+
+Replacing "Replace"
+
+In the manual, you will find reference to an option called "Replace".
+Using this command, you could replace one of your more experienced
+party members with a newly created, level 1 character.  This option
+has been removed from the game.  In effect, "Replace" defeated the
+essence of Bane of the Cosmic Forge... creatively directing a single
+party throughout the entire adventure.  Therefore, this option is no
+longer available so you can enjoy the true essence of Bane of the
+Cosmic Forge without compromise.
+
+                              SKID ROW
+
+
+==========================================================================
+                                 SKID ROW
+
+                                 presents
+
+                 WIZARDRY -----|- BANE OF THE COSMIC FORGE
+ 
+     
+                                Fire Spells
+
+Spell Name
+   Spellbook       Base
+   Cast When       Cost  Affects       Description
+-------------------------------------------------------------------------
+ENERGY BLAST         2   1 Monster     A jolting spark of electric energy
+   Mage                                doing 1-7 hit points of damage per
+   Combat                              power level.
+
+BLINDING FLASH       3   1 Monster     A giant flash of light which may
+   Alchemist             per power     temporarily blind opponents.
+   Combat                level
+
+FIREBALL             6   3 Monsters    Blazing fireballs which burn
+   Mage                  plus power    opponents and can do 2-10 hit
+   Combat                level         points of fire damage per power
+                                       level.
+
+FIRE SHIELD          8   Party         Creates a barrier impervious to
+   Mage                                fire which protects the party
+   Combat                              from fire-type spells.
+
+FIRE BOMB            8   4 Monsters    An exploding, incendiary spell
+   Alchemist             plus power    which does 3-9 hit points of fire
+   Combat                level         damage per power level.
+
+LIGHTNING            8   3 Monsters    A bolt of electrical energy hurled
+   Priest                plus power    at the opponents doing 1-10 hit
+   Combat                level         points of electrical damage per
+                                       power level.
+
+PRISMIC MISSILE      9   3 Monsters    Also known as DANCING LIGHT and
+   Mage                  plus power    RAINBOW RAYS, the various
+   Combat                level         spectrums have different random
+                                       effects upon the monsters.    
+
+FIRESTORM           12   Cloud         A sweeping cloud of fire that
+   Mage                                lasts for several rounds of combat
+   Combat                              and burns all monsters within it.
+                                       Monsters affected, duration and
+                                       damage done all depend on the
+                                       power level of spell.
+
+NUCLEAR BLAST       16   All Monsters  A miniature fusion bomb.  This
+   Mage                                spell burns all monsters and does
+   Combat                              5-25 hits points of fire damage
+                                       per power level.
+
+
+                             Water Spells
+-------------------------------------------------------------------------
+CHILLING TOUCH       2   1 Monster     A freezing blast of cold which
+   Mage                                does 1-6 hit points of cold
+   Combat                              damage per power level.
+
+STAMINA              2   1 Character   Replenishes some of the
+   Priest, Psionic                     character's stamina.  Amount
+   Alchemist                           depends on the power level.
+   Anytime
+
+TERROR               3   1 Group       Evokes fear and terror in
+   Mage, Psionic                       monsters and may cause them to
+   Combat                              flee or otherwise reduce their
+                                       ability to fight against the
+                                       party.
+
+WEAKEN               4   3 Monsters    Physically drains the monsters
+   Mage, Psionic         plus power    making them more vulnerable to
+   Combat                level         attack, and causing them to fight
+                                       and react poorly.
+
+SLOW                 4   3 Monsters    Slows monsters down.  They can't
+   Priest, Psionic       plus power    move as fast to hit you, and are
+   Combat                level         easier to hit themselves.
+
+HASTE                5   Party         Speeds up characters' movements
+   Priest, Psionic                     by giving them extra energy.
+   Combat                              Also helpful to counteract a
+                                       SLOW spell.
+
+CURE PARALYSIS       6   1 Character   Attempts to cure one character of
+   Priest, Psionic                     paralysis.  Success depends on
+   Alchemist                           strength of paralysis relative to
+   Anytime                             the strength of the spell.
+
+ICE SHIELD           8   Party         A barricade which resists the
+   Mage                                affects of cold and protects the
+   Combat                              party from cold and cold-type
+                                       spells.  Strength and duration
+                                       relative to the power level of
+                                       of the spell.
+
+ICEBALL              8   4 Monsters    A flurry of stinging ice balls
+   Mage                  plus power    which cause 3-12 hit points of
+   Combat                level         ice damage per power level.
+
+PARALYZE             5   1 Monster     Attempts to solidify a monster.
+   Priest, Psionic                     Duration and success depend on the
+   Combat                              power level of spell.
+
+DEEP FREEZE          6   1 Monster     Attempts to freeze a monster's
+   Mage                                bodily fluids solid doing 3-30 hit
+   Combat                              points of severe ice damage per
+                                       power level.
+
+                              Air Spells
+-------------------------------------------------------------------------
+POISION              2   1 Monster     Turns the air poisonous around the
+   Alchemist                           monster, and causes 1-5 hit points
+   Combat                              damage per power level plus
+                                       poisoning.  Strength of poison
+                                       relative to the power level of the
+                                       spell.
+
+MISSILE SHIELD       5   Party         Protects part from missiles,
+   Mage                                arrows and hurled weapons, etc.,
+   Combat                              by hardening the air around the
+                                       party into a shield.
+
+STINK BOMB           4   3 Monsters    A odorous cloud of stinking fumes
+   Mage, Alchemist                     that can do 1-6 hit points damage
+   Combat                              per power level plus nausea.
+
+AIR POCKET           8   Party         Protects party from air spells
+   Mage, Alchemist                     such as stinking clouds and 
+   Combat                              suffocation by creating a pocket
+                                       of clean air around the party.
+                                       Strength and duration relative to
+                                       the power level of the spell.
+
+SILENCE              4   3 Monsters    Causes air around monsters to stop
+   Priest, Psionic       plus power    transmitting sound, thus
+   Combat                level         preventing them from casting
+                                       spells.  Strength and duration
+                                       relative to power level.
+
+POISON GAS           7   Cloud         Posion cloud which lasts several
+   Alchemist                           rounds and surrounds the monsters.
+   Combat                              Monsters inside the cloud suffer
+                                       from poisoning and damage.  The
+                                       monsters affected, duration and
+                                       damage done all depend on the the
+                                       power level of the spell.
+
+CURE POISON          8   1 Character   Attempts to cure one character of
+   Priest, Alchemist                   poisoning.  Success depends on 
+   Combat                              strength of poison relative to the
+                                       strength of the spell.
+
+WHIRLWIND            8   3 Monsters    A swirling tornado whipping around
+   Priest                plus power    the monsters and blasting them
+   Combat                level         with 1-7 hit points damage per
+                                       power level.
+
+PURIFY AIR          10   Party         Attempts to clean the air of any
+   Priest, Alchemist                   dangerous clouds such as FIRESTORM
+   Combat                              and POISON GAS.  Success depends
+                                       on the strength and amount of
+                                       clouds relative to the strength of
+                                       the spell.
+
+DEADLY POISON        8   1 Monster     Kills monster outright or does
+   Alchemist                           extremely heavy poisoning plus
+   Combat                              3-15 damage per power level.
+
+LEVITATE            12   Party         Holds party in air several inches
+   Mage                                above the floor helping to prevent
+   Anytime                             damage in case they fall.
+                                       Duration of the spell is relative
+                                       to the power level of the spell.
+
+TOXIC VAPORS         8   Cloud         A giant, sticking cloud of vapors
+   Alchemist                           which surrounds the monsters and
+   Combat                              causes 2-6 hit points damage per
+                                       power level.  Monsters affected
+                                       depends on the power level of the
+                                       spell.
+
+NOXIOUS FUMES       10   3 Monsters    Horrid smelling torrents which
+   Mage, Alchemist       plus power    blast the monsters' noses and
+   Combat                level         cause 1-6 hit points damage per
+                                       power level nausea.
+
+ASPHYXIATION        12   1 Group       Swallows air around monsters
+   Mage, Alchemist                     leaving none to breathe.  Chance 
+   Combat                              of monsters' death depends on
+                                       their strength and susceptibility
+                                       relative to the strength of the
+                                       spell.  Creatures or things that
+                                       don't breathe, like rocks, can't
+                                       be asphyxiated.
+
+DEADLY AIR          16   All Monsters  Makes air surrounding the monsters
+   Alchemist                           entirely unbreathable and causes
+   Combat                              4-16 hit points damage per power
+                                       level.
+
+                             Earth Spells
+-------------------------------------------------------------------------
+ACID SPLASH          2   1 Monster     A rushing wave of bubbling acid
+   Alchemist                           which causes 1-7 hit points of
+   Combat                              damage per power level.
+
+ITCHING SKIN         2   3 Monsters    A sprinkle of powder which causes
+   Alchemist                           the monsters' skin to itch.  It
+   Combat                              also irritates the monsters and
+                                       lessens their ability to attack
+                                       and defend.
+
+ARMOR SHIELD         2   Party         Creates a magical shield in front
+   Mage                                the party, and lowers AC of party
+   Combat                              members by one point per power
+                                       level.
+
+DIRECTION            3   Party         Shows direction party is facing
+   Mage                                (N, S, E, W) in the dungeon.  The
+   Anytime                             duration of spell is relative to
+                                       its power level.
+
+KNOCK-KNOCK          6   Locked        Magically alters the lock on a 
+   Mage, Psionic         Doors and     door (jammed or not) or a chest in
+   At A Door or          Treasure      an attempt to unlock it.  When
+   Treasure Chest        Chests        used on a chest, there is a
+                                       percent chance that it may set the
+                                       trap off.
+
+BLADES               6   3 Monsters    Hurls slicing razor blades through
+   Priest, Psionic       plus power    the air doing 2-8 hit points
+   Combat                level         damage per power level.
+
+ARMORPLATE           6   Party         Creates a magic armor plating
+   Priest                              around the party, protecting them
+   Anytime                             and lowering their armor class.
+
+WEB                  7   1 Monster     Attempts to capture 1 monster in a
+   Mage, Alchemist                     sticky web.  Success depends on
+   Combat                              the strength of the monster
+                                       relative to the power level of the
+                                       spell.
+
+ACID BOMB            8   Cloud         A giant acid cloud that surrounds
+   Alchemist                           monsters and causes acid damage.
+   Combat                              The monsters affected, duration
+                                       and damage done all depend on the
+                                       power level of the spell.
+
+ARMORMELT            8   1 Group       Softens the armor of monsters and
+   Mage, Psionic                       raises their AC in proportion to
+   Combat                              the power level of the spell.  The
+                                       softened armor and hide are easier
+                                       to penetrate.
+
+CREATE LIFE         10   Party         Summons a group of organic
+   Alchemist                           monsters to come and fight for the
+   Combat                              party.  The power and number of
+                                       monsters summoned is relative to
+                                       the power level of the spell.
+
+CURE STONE          18   1 Character   Attempts to restore a stoned 
+   Priest, Alchemist                   character to normal flesh and
+   Anytime                             bone.  Success depends on the
+                                       strength of the stone relative
+                                       to the power level of the spell.
+
+                                Mental Spells
+-------------------------------------------------------------------------
+MENTAL ATTACK        3   1 Monster     An invading pressure of thought
+   Psionic                             swirling the monster's brain and
+   Combat                              causing 1-7 hit points of mental
+                                       damage per power level.  May cause
+                                       insanity.
+
+SLEEP                3   3 Monsters    Causes monsters to fall asleep and
+   Mage, Psionic         plus power    prevents them from attacking the
+   Alchemist             level         party members and defending
+   Combat                              themselves from attack.  Success
+                                       depends on the power of the
+                                       monsters relative to the power
+                                       level of the spell.
+
+BLESS                4   Party         Magically lowers the party's AC
+   Priest, Psionic                     and enhances their chance to hit a
+   Combat                              monster relative to the power
+                                       level of the spell.
+
+CHARM                5   1 Monster     Attempts to charm a monster, thus
+   Priest, Psionic       or NPC        preventing it from attacking the
+   Alchemist                           party.  Any monster charmed will
+   Combat/NPC                          likewise be easier to hit.  When
+                                       cast in non-combat situations, the
+                                       spell attempts to charm the NPC
+                                       so that it will reagard the party
+                                       in a friendly manner.  The higher
+                                       the power level, the stronger the
+                                       charm.
+
+CURE LESSER CND      4   1 Character   Attempts to cure a character of
+   Priest, Psionic                     one of the lesser maladies: 
+   Alchemist                           Afraid, Asleep, Blindness,
+   Anytime                             Nausea, and minor Irritations.
+                                       Success depends on the strength
+                                       of the malady relative to the
+                                       strength of the spell.
+
+DIVINE TRAP          4   Caster        Permits the caster to determine
+   Priest, Psionic                     the letters of a trap on chest
+   At a Treasure                       with excellent reliability.  
+   Chest                               Success depends on the power of
+                                       the trap relative to the power of
+                                       the spell.
+
+DETECT SECRET        5   Caster        Opens the caster's mind to
+   Mage, Psionic                       anything which may be strange or
+   Anytime                             out of place in a area and allows
+                                       him or her to detect its presence
+                                       within the party's immediate
+                                       area.  The DETECT SECRET eye in
+                                       the magical windows will "blink"
+                                       when this has happened.  Duration
+                                       and success of the spell is
+                                       relative to the spell's power
+                                       level.
+
+IDENTIFY             8   1 Monster     Attempts to reveal the true name
+   Priest, Psionic       or an Item    of a monster or an item.  Success
+   Combat/Anytime                      depends on the power of the
+                                       monster or the cloak of the item
+                                       relative to the power level of
+                                       the spell.
+
+HOLD MONSTERS        6   3 Monsters    Attempts to confuse the monsters
+   Priest, Psionic       plus power    into believing they are
+   Combat                level         paralyzed.  If successful, 
+                                       monsters will be temporarily
+                                       paralyzed.  Success depends on
+                                       power of the monster relative to
+                                       the power level of the spell.
+
+MINDREAD             8   Caster        Attempts to discern what's on an
+   Psionic                             NPC's mind.  Success depends on
+   NPC                                 the power of the NPC relative to
+                                       the power level of the spell.
+
+SANE MIND           10   1 Character   Attempts to restore sanity to an
+   Priest, Psionic                     insane character.  Success
+   Anytime                             depends on just how nuts the
+                                       character is relative to the
+                                       strength of the spell.
+
+PSIONIC BLAST        8   3 Monsters    An extreme and powerful jolt of
+   Psionic               plus power    mental energy which scrambles the
+   Combat                level         monsters' brains and causes 1-7
+                                       hit points mental damage per
+                                       power level and may cause
+                                       insanity.
+
+ILLUSION            10   Party         Attempts to conjure an illusion
+   Psionic                             of a creature so real that it can
+   Combat                              fight and attack the monsters,
+                                       and in turn, it can be attacked
+                                       by the monsters.  The amount and
+                                       power of monsters in the illusion
+                                       depends on the power level of the
+                                       spell.
+
+WIZARD'S EYE        10   Caster        Allows the caster to see the
+   Mage, Psionic                       surrounding area from an overhead
+   Exploring                           view.  The size of the area seen
+                                       depends on the power level of the
+                                       spell.
+                                         #1: Just the floor.
+                                         #2: Obstructions with a 3
+                                             square radius.
+                                         #3: Full view with a 3 square
+                                             radius.
+                                         #4: Floor only with a 5 square
+                                             radius.
+                                         #5: Obstructions with a 5
+                                             square radius.
+                                         #6: Full view with a 5 square
+                                             radius.
+
+DEATH               10   1 Monster     Attempts to kill a single monster
+   Priest, Psionic                     outright.  Success depends on the
+   Combat                              power of the monster relative to
+                                       the power level of the spell.
+
+LOCATE OBJECT        8   Caster        Allows the caster to magically
+   Priest, Psionic                     determine the whereabouts of a 
+   Exploring                           certain object.  Success depends
+                                       on the location of the item
+                                       relative to the party, how well
+                                       the item is hidden and the power
+                                       level of the spell.
+
+MIND FLAY           18   All Monsters  A concentrated tide of mental
+   Psionic                             assault which devastates the
+   Combat                              monsters doing 4-16 hit points
+                                       damage per power level plus
+                                       potential insanity.
+
+
+                               Magic Spells
+------------------------------------------------------------------------
+HEAL WOUNDS          4   1 Character   Heals 1-8 hit points per power
+   Priest, Psionic                     level.  Heal wounds will not cure
+   Alchemist                           lesser conditions or resurrect
+   Anytime                             dead characters.
+
+MAKE WOUNDS          3   1 Monster     Invokes divine powers to cause
+   Priest                              bodily harm inflicting 1-8 hit
+   Combat                              points of damage per power level.
+
+MAGIC MISSILE        4   1 Monster     Small, but powerful, missiles of
+   Mage                  plus power    magical energy hurled at an
+   Combat                level         opponent doing 1-7 hit points of
+                                       magic damage per power level.
+
+DISPELL UNDEAD       7   1 Monster     Attempts to dispell an animated
+   Priest                per power     and undead monster.  The success
+   Combat                level         depends on the power of the
+                                       monster relative to the power
+                                       level of the spell.
+
+ENCHANTED BLADE      4   Party         Magically enhances the
+   Priest                              characters' swords and increases
+   Anytime                             the likelihood of a successful
+                                       hit upon a monster.  Also
+                                       increases the chance a hit will
+                                       penetrate the monster's armor.
+                                       The duration and power of the
+                                       effects are relative to the
+                                       power level of the spell.
+
+BLINK                7   Caster        Allows the caster to disappear 
+   Mage, Psionic                       for for a brief time during
+   Combat                              combat.  Once Blink is cast, the
+                                       caster "blinks out" and will
+                                       "blink in" sometime during the
+                                       each round of combat.  He will
+                                       always reappear in time to
+                                       execute his or her normal combat
+                                       option such as swinging a sword
+                                       or casting a spell.  The duration
+                                       is relative to the power level of
+                                       the spell.
+
+MAGIC SCREEN         8   Party         Creates a magical barrier which
+   Mage                                attempts to protect the party 
+   Anytime                             from all spells cast at them.  
+                                       The strength of the barrier is
+                                       relative to the power of the
+                                       monsters' spells and the power
+                                       level of the Magic Screen.
+
+CONJURATION         10   Monsters      Summons monsters from the
+   Mage, Priest                        ethereal planes to fight for the
+   Combat                              party.  The power and number of
+                                       monsters summoned is relative
+                                       to the power level of the spell.
+
+ANTI-MAGIC           7   Monsters      Forms a magical barrier around
+   Mage                                the monsters which may cause
+   Combat                              their spells to fizzle out and/or
+                                       backfire.  The strength of the
+                                       barrier is relative to the power
+                                       level of the spells and monsters
+                                       cast and the power level of the
+                                       Anti-Magic screen.
+
+REMOVE CURSE        10   Item          Attempts to lift a magical curse
+   Priest                              from an item so that a character
+   Anytime                             can remove the item he or she had
+                                       been forced to wear.  Success
+                                       depends on the strength of the
+                                       curse relative to the strength
+                                       of the spell.
+
+LIFESTEAL           12   1 Monster     Removes virtually all lifeforce
+   Priest, Psionic       and Caster    from a monster and attempts to
+   Combat                              channel some of it back into the
+                                       caster to heal him or her.  Does
+                                       4-16 hit points magic damage per
+                                       power level - multiplied by the
+                                       power level of the spell.  At the
+                                       sixth power level, LIFESTEAL can
+                                       deliver 144-576 hit points
+                                       damage.
+
+ASTRAL GATE          8   1 Monster     Attempts to banish a demon-type
+   Mage, Priest          per power     monster from this world.  Success
+   Combat                level         depends on the power of the
+                                       monster relative to the power of
+                                       the spell.
+
+WORD OF DEATH       18   All Monsters  A divine word spoken so
+   Priest                              powerfully that it smashes the
+   Combat                              monsters with 4-16 hit points
+                                       of magical damage per power
+                                       level.
+
+RESURRECTION        20   1 Character   Attempts to raise one character
+   Mage, Priest                        from the Dead.  Success depends
+   Psionic                             on the character's life force
+   Anytime                             (vitality) relative to the power
+                                       level of the spell.  Each time
+                                       a character is raised from the
+                                       dead, he or she loses one point
+                                       of vitality.
+
+DEATH WISH          20   All Monsters  Attempts to kill all monsters
+   Priest                              outright through sheer magical
+   Combat                              force.  Success depends on the
+                                       power of the monsters relative
+                                       to the power level of the spell.
+
+
+
+                           Alchemists' Spellbook
+------------------------------------------------------------------------
+
+Spell               Realm       Level      Cost
+
+Blinding Flash      Fire           2          3
+Fire Bomb           Fire           4          8
+
+Stamina             Water          1          2
+Cure Paralysis      Water          3          6
+
+Poision             Air            1          2
+Stink Bomb          Air            3          4
+Air Pocket          Air            3          8
+Posion Gas          Air            4          7
+Cure Poison         Air            4          8
+Deadly Poison       Air            5          8
+Purify Air          Air            5          10
+Toxic Vapors        Air            6          8
+Noxious Fumes       Air            6          10
+Asphxysiation       Air            6          12
+Deadly Air          Air            7          16
+
+Acid Splash         Earth          1           2
+Itching Skin        Earth          1           2
+Web                 Earth          3           7
+Acid Bomb           Earth          4           8
+Create Life         Earth          5           10
+Cure Stone          Earth          6           18
+
+Sleep               Mental         1           3
+Charm               Mental         1           5
+Cure Lessor Cnd     Mental         2           4
+
+Heal Wounds         Magic          1           4
+
+
+                              Mages' Spellbook
+------------------------------------------------------------------------
+
+Spell               Realm          Level   
+
+Energy Blast        Fire           1           2
+Fireball            Fire           3           6
+Fire Shield         Fire           3           8
+Prismic Missile     Fire           5           9
+Firestorm           Fire           6           12
+Nuclear Blast       Fire           7           16
+
+Chilling Touch      Water          1           2
+Terror              Water          1           3
+Weaken              Water          2           4
+Ice Shield          Water          3           8
+Iceball             Water          4           8
+Deep Freeze         Water          5           6
+
+Missile Shield      Air            2           5
+Stink Bomb          Air            3           4
+Air Pocket          Air            3           8
+Levitate            Air            5           12
+Noxious Fumes       Air            6           10
+Asphxysiation       Air            6           12
+
+Armor Shield        Earth          1           2
+Direction           Earth          1           3
+Knock-Knock         Earth          2           6
+Web                 Earth          3           7
+Armormelt           Earth          4           8
+
+Sleep               Mental         1           3
+Detect Secret       Mental         2           5
+Wizard Eye          Mental         4           10
+
+Magic Missile       Magic          2           4
+Blink Magic         Magic          3           7
+Magic Screen        Magic          4           8
+Conjuration         Magic          4           10
+Anti-Magic          Magic          5           7
+Astral Gate         Magic          6           8
+Resurrection        Magic          7           20
+
+
+                             Priests' Spellbook
+------------------------------------------------------------------------
+
+Spell               Realm       Level       Cost
+
+Lightning           Fire           5           8
+
+Stamina             Water          1           2
+Slow                Water          2           4
+Haste               Water          3           5
+Cure Paralysis      Water          3           6
+Paralyze            Water          4           5
+
+Silence             Air            3           4
+Cure Posion         Air            4           8
+Whirlwind           Air            4           8
+Purify Air          Air            5           10
+
+Armorplate          Earth          3           6
+Blades              Earth          3           6
+Cure Stone          Earth          6           18
+
+Bless               Mental         1           4
+Charm               Mental         1           5
+Cure Lessor Cnd     Mental         2           4
+Divine Trap         Mental         2           4
+Identify            Mental         2           8
+Hold Monsters       Mental         3           6
+Sane Mind           Mental         3           10
+Death               Mental         5           10
+Locate Object       Mental         6           8
+
+Heal Wounds         Magic          1           4
+Make Wounds         Magic          1           3
+Dispell Undead      Magic          2           7
+Enchanted Blade     Magic          2           4
+Conjuration         Magic          4           10
+Remove Curse        Magic          5           10
+Lifesteal           Magic          6           12
+Astral Gate         Magic          6           8
+Word of Death       Magic          7           18
+Resurrection        Magic          7           20
+Death Wish          Magic          7           20
+
+
+                            Psionics' Spellbook
+------------------------------------------------------------------------
+
+Spell               Realm       Level       Cost
+
+Stamina             Water          1           2
+Terror              Water          1           3
+Weaken              Water          2           4
+Slow                Water          2           4
+Haste               Water          3           5
+Cure Paralysis      Water          3           6
+Paralyze            Water          4           5
+
+Silence             Air            3           4
+
+Knock-Knock         Earth          2           6
+Blades              Earth          3           6
+Armormelt           Earth          4           8
+
+Mental Attack       Mental         1           3
+Sleep               Mental         1           3
+Bless               Mental         1           4
+Charm               Mental         1           5
+Cure Lessor Cnd     Mental         2           4
+Divine Trap         Mental         2           4
+Detect Secret       Mental         2           5
+Identify            Mental         2           8
+Hold Monsters       Mental         3           6
+Mindread            Mental         3           8
+Sane Mind           Mental         3           10
+Psionic Blast       Mental         4           8
+Illusion            Mental         4           10
+Wizard Eye          Mental         4           10
+Death               Mental         5           10
+Locate Object       Mental         6           8
+Mind Flay           Mental         7           18
+
+Heal Wounds         Magic          1           4
+Blink               Magic          3           7
+Lifesteal           Magic          6           12
+Resurrection        Magic          7           20
+
+
+
+			WIZARD  HELP
+
+---------------------------------------------------------------------------
+                              Armor
+
+Name                 Type      Weight ArmorClass
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+BREASTPLATE          BODY ARMOR  18.0 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BRONZE CUIRASS       BODY ARMOR  21.0 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CHAIN HAUBERK        BODY ARMOR  28.0 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CHAMAIL DOUBLET      BODY ARMOR   5.0 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmpTRaBpvblsmn MF
+
+
+CLOTH SHIRT          BODY ARMOR   2.5 AC -1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+EBONY PLATE (U)      BODY ARMOR  30.0 AC -14
+                     Fir:12% Wat:12% Air:12% Ear:30% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FULL PLATE (U)       BODY ARMOR  40.0 AC -12
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FUR HALTER           BODY ARMOR   2.5 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn mF
+
+
+HI-KANE-DO (U)       BODY ARMOR  35.0 AC -12
+                     Fir:15% Wat:00% Air:00% Ear:30% Men:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+JAZERAINT TUNIC      BODY ARMOR  20.0 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+LEATHER CUIRASS      BODY ARMOR  14.0 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+LEATHER HAUBERK      BODY ARMOR  18.0 AC -7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+NINJA GARB (U)       BODY ARMOR   3.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+PLATE DU FAUX        BODY ARMOR  35.0 AC 2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+PLATE MAIL           BODY ARMOR  33.0 AC -10
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+QUILT TUNIC          BODY ARMOR  10.0 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmPtrabpVBLSmn MF
+
+
+ROBE of ENCHANT(U)   BODY ARMOR   3.0 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:25%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+ROBES (U)            BODY ARMOR   3.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+STUD-CUIR BRA+2      BODY ARMOR   5.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+STUDDED HAUBERK      BODY ARMOR  22.0 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+SUEDE DOUBLET        BODY ARMOR   5.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+TARNISHED MAIL       BODY ARMOR  28.0 AC 1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+TOSEI-DO (U)         BODY ARMOR  24.0 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+VENNAL ROBE (U)      BODY ARMOR   3.0 AC 4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+---------------------------------------------------------------------------
+                              Boots
+
+Name                 Type      Weight ArmorClass
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+BUSKINS              BOOTS        3.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLSmn MF
+
+
+CHAIN HOSEN          BOOTS        9.0 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+GLASS SLIPPERS       BOOTS        2.5 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:100% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN mF
+                                     KAR+1
+
+LEAD BOOTS           BOOTS       75.0 AC 5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+LEATHER BOOTS        BOOTS        5.0 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+MANTIS BOOTS         BOOTS        9.0 AC -14
+                     Fir:00% Wat:25% Air:00% Ear:12% Men:12% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     SPD+1
+
+SACRED SLIPPERS      BOOTS        2.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:17%
+                     HEDGHfLDFRM fmPtrabpvBlsmn MF
+
+
+SANDALS              BOOTS        1.5 AC -1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+SILVER SOLLERET      BOOTS       12.5 AC -12
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+SOLLERET             BOOTS       10.0 AC -10
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+TABI BOOTS           BOOTS        2.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+WATER WINGS          BOOTS        2.0 AC -7
+                     Fir:10% Wat:10% Air:10% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+---------------------------------------------------------------------------
+                              Gauntlets
+
+Name                 Type      Weight ArmorClass
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+CHAMOIS GLOVES       GAUNTLETS    2.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLsmn MF
+
+
+COPPER GLOVES        GAUNTLETS    8.5 AC -10
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CUIR GAUNTLETS       GAUNTLETS    3.5 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+MAIL MITTENS         GAUNTLETS    6.0 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+MANTIS GLOVES        GAUNTLETS    6.0 AC -14
+                     Fir:25% Wat:00% Air:37% Ear:00% Men:25% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     DEX+1
+
+SILVER GLOVES        GAUNTLETS    9.5 AC -12
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+STEEL GAUNTLETS      GAUNTLETS    8.0 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+UNCTUOUS GLOVES      GAUNTLETS    2.5 AC 4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmPTRaBpVBLsmn MF
+
+
+---------------------------------------------------------------------------
+                              Helmet
+
+Name                 Type      Weight ArmorClass
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+ARMET                HELMET       7.5 AC -10
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BASCINET             HELMET       6.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BASCINET&CAMAIL      HELMET      11.5 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BURGONET HELM        HELMET       6.5 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+COXCOMB              HELMET       3.0 AC 3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLsmn MF
+
+
+EBONY HEAUME         HELMET      10.0 AC -14
+                     Fir:12% Wat:12% Air:12% Ear:30% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FAERIE CAP           HELMET        .2 AC -4
+                     Fir:25% Wat:25% Air:25% Ear:25% Men:25% Mag:25%
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                                     PER+1
+
+FEATHERED HAT        HELMET       1.5 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+GOAT'S MASK          HELMET       9.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+HEAUME               HELMET      14.0 AC -12
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+
+
+HELM of OBITUS       HELMET       8.5 AC 8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+HELM&COIF            HELMET      10.5 AC -7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+KABUTO               HELMET       5.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+LEATHER HELM         HELMET       3.5 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+MAIL COIF            HELMET       6.0 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+MITRE                HELMET       3.5 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+
+
+MITRE DE SANCT       HELMET       3.5 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmPtrabpvBlsmn MF
+
+
+MORDECAI'S CONE      HELMET       4.0 AC -7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:50% Mag:50%
+                     HEDGHfLDFRM fMptrAbPvblsmn MF
+
+
+NINJA COWL           HELMET       1.5 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+PHRYGIAN CAP         HELMET       3.5 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmpTraBpVbLsmn MF
+
+
+SKULLCAP             HELMET        .5 AC -1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPvBlsMn MF
+
+
+STEEL HELM           HELMET       4.0 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+TRICORNE HAT         HELMET       3.5 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn MF
+
+
+WIZARD'S CONE        HELMET       2.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+
+
+---------------------------------------------------------------------------
+                              Leg Armor
+
+Name                 Type      Weight ArmorClass
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+BRONZE GREAVES       LEG ARMOR   12.5 AC -7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CHAIN CHAUSSES       LEG ARMOR   20.0 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+CHAMAIL PANTS        LEG ARMOR    6.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmpTRaBpvblsmn MF
+
+
+CHAMOIS SKIRT        LEG ARMOR    4.5 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn mF
+
+
+CLOTH PANTS          LEG ARMOR    3.5 AC -1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+EBONY PLATE (L)      LEG ARMOR   30.0 AC -14
+                     Fir:12% Wat:12% Air:12% Ear:25% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FULL PLATE (L)       LEG ARMOR   32.0 AC -12
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+FUR LEGGING          LEG ARMOR    5.0 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLSmn MF
+
+
+HI-KANE-DO (L)       LEG ARMOR   35.0 AC -12
+                     Fir:15% Wat:00% Air:00% Ear:30% Men:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+HOARY LEGGING        LEG ARMOR   19.0 AC 1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmpTraBpVbLSmn MF
+
+
+HOAXIAL PLATE        LEG ARMOR   35.0 AC 2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+JAZERAINT SKIRT      LEG ARMOR   18.5 AC -7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLsmn mF
+
+
+LEATHER GREAVES      LEG ARMOR    8.5 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+LEATHER LEGGING      LEG ARMOR   11.0 AC -5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTraBpVbLSmn MF
+
+
+NINJA GARB (L)       LEG ARMOR    3.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+
+
+PLATE GREVIERE       LEG ARMOR   14.0 AC -10
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+QUILT LEGGING        LEG ARMOR    9.0 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmPtrabpVBLSmn MF
+
+
+ROBE of ENCHANT(L)   LEG ARMOR    4.0 AC -6
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:25%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+
+ROBES (L)            LEG ARMOR    4.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMn MF
+
+
+STUD CHAUSSES        LEG ARMOR   17.0 AC -8
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLSmn MF
+
+
+SUEDE PANTS          LEG ARMOR    6.5 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+TOSEI-DO (L)         LEG ARMOR   20.0 AC -9
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+
+
+VENNAL ROBE (L)      LEG ARMOR    4.0 AC 4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPVBLSMn MF
+
+---------------------------------------------------------------------------
+                              Magical
+
+Name                 Type      Weight
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+
+ACID BOMB            MAGICAL       .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ACID BOMB             Secondary
+
+ANCIENT DUST         MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     WEAKEN                Secondary
+
+ARMOR SHIELD         MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ARMOR SHIELD
+
+ARMORPLATE           MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ARMORPLATE
+
+BLADES               MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BLADES
+
+BLIND                MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BLINDING FLASH        Secondary
+
+BLINK                MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BLINK
+
+BOOK of DOZES        MAGICAL      2.0
+
+                     HEDGHFLDFRM fMptRABPvBlSMn MF
+                     SLEEP
+
+CHERRY BOMB          MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+CONJURATION          MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CONJURATION
+
+CURE LT. CND         MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURE LESSER CND       Secondary
+
+CURE PARALYZ         MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURE PARALYSIS        Secondary
+
+CURE POISON          MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURE POISON           Secondary
+
+CURE STONE           MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURE STONE            Secondary
+
+DEADLYPOISON         MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DEADLY POISON         Secondary
+
+DISPEL UNDEAD        MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DISPEL UNDEAD
+
+ENCHANTED BLADE      MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ENCHANTED BLADE
+
+FAERIE DUST          MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SLEEP                 Secondary
+
+FIRE BOMB            MAGICAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     FIRE BOMB             Secondary
+
+FIRE SHIELD          MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     FIRE SHIELD
+
+FIREBALL             MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     FIREBALL
+
+FOOT POWDER          MAGICAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+HOLD MONSTERS        MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HOLD MONSTERS
+
+HOLY H2O(+)          MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HOLY WATER            Secondary
+
+HOLY WATER           MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HOLY WATER            Secondary
+
+HV. HEAL             MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HEAL WOUNDS           Secondary
+
+HV. STAMINA          MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     STAMINA               Secondary
+
+ICE SHIELD           MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ICE SHIELD
+
+ILLUSION             MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ILLUSION
+
+KNOCK-KNOCK          MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     KNOCK-KNOCK
+
+LEVITATE             MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     LEVITATE
+
+LIFESTEAL            MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     LIFESTEAL
+
+LT. HEAL             MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HEAL WOUNDS           Secondary
+
+MAGIC MISSILE        MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MAGIC MISSILE
+
+MOD. HEAL            MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HEAL WOUNDS           Secondary
+
+MOD. STAMINA         MAGICAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     STAMINA               Secondary
+
+MYSTERY OIL          MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+MYSTIC DUST          MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CREATE LIFE           Secondary
+
+POISON BOMB          MAGICAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     POISON GAS            Secondary
+
+RESURRECTION         MAGICAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECTION          Secondary
+
+RESURRECTION         MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECTION
+
+SLOW                 MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     SLOW
+
+SNEEZE               MAGICAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ITCHING SKIN          Secondary
+
+STINK BOMB           MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     STINK BOMB            Secondary
+
+TERROR               MAGICAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     TERROR
+
+---------------------------------------------------------------------------
+                              Misc. Item
+
+Name                 Type      Weight
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+AMULET of AIR        MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:25% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     AIR POCKET
+
+AMULET of ICE        MISC. ITEM   1.0
+                     Fir:00% Wat:25% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     ICEBALL
+
+AMULET of LIFE       MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECTION
+
+AMULET of NIGHT      MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BLINDING FLASH
+
+AMULET of WINDS      MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:25% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     WHIRLWIND
+
+ANKH of ARNIE        MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:25%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     CC+1(1)
+
+ANKH of DEATH        MISC. ITEM    .5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     DEATH
+
+ANKH of LIFE         MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     RESURRECTION    CND+1(1)
+
+ANKH of MIGHT        MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     STR+1
+
+ANKH of PHYRE        MISC. ITEM   1.5
+                     Fir:25% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     FIREBALL
+
+ANKH of PURITY       MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     KAR+1
+
+ANKH of SANCTITY     MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     PIE+1
+
+ANKH of WONDER       MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HEAL WOUNDS
+
+ANKH of YOUTH        MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     GP+1(1)
+
+ANOINTED CLOAK       MISC. ITEM   6.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:12%
+                     HEDGHFLDFRM FmPtrabpVBLsMn MF
+
+
+BONE NECKLACE        MISC. ITEM   2.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:35%
+                     HEDGHFLDFRM FmPtrabpVBlsmn MF
+                                     VIT+1
+
+CAMEO LOCKET         MISC. ITEM    .5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:50%
+                     HEDGHFLDFRM FMPTRABPVBLSMN Mf
+                                     CC+1(1)
+
+CAPE of HI-ZEN       MISC. ITEM   5.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:70% Mag:70%
+                     HEDGHFLDFRM fmptrabpvblsMn MF
+                                     GP+1(1)
+
+CHAIN of DESPAIR     MISC. ITEM   3.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CLOVE of GARLIC      MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+DIAMOND RING         MISC. ITEM    .2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:50%
+                     HEDGHFLDFRM FMPTRABPVBLSMN mF
+                                     CND+1(1)
+
+DISPLACER CLOAK      MISC. ITEM   4.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     BLINK
+
+EYE-PATCH            MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+FOREST CAPE          MISC. ITEM   6.5
+                     Fir:00% Wat:15% Air:15% Ear:15% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptRabpvblsmn MF
+
+
+GARLAND of ROSES     MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:40%
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+                                     CND+1(1)
+
+GREEN PARROT         MISC. ITEM   4.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:05%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     PER+1
+
+IDOL of MAU-MU-MU    MISC. ITEM   4.0
+                     Fir:37% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+J.R. DECODER         MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+JADE FIGURINE        MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:20% Mag:00%
+                     HEDGHFLDFRM fmptrabpvblsMn MF
+                                     CC+1(1)
+
+LYNX RING            MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     STM+1
+
+MEDICINE BAG         MISC. ITEM    .3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM fmptrAbpvblsmn MF
+                     HEAL WOUNDS
+
+MEMPO of DEATH       MISC. ITEM   2.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:42%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+                                     KAR+1
+
+MIDNIGHT CLOAK       MISC. ITEM   5.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmpTraBpvblsmN MF
+
+
+MYSTIC'S RING        MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:12%
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+
+
+PK CRYSTAL           MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:90% Mag:00%
+                     HEDGHFLDFRM fmptrabPvblsmn MF
+                                     INT+1
+
+POL ANKH             MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+RING of DEFTNESS     MISC. ITEM    .2
+                     Fir:00% Wat:00% Air:00% Ear:25% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     DEX+1
+
+RING of DELPHI       MISC. ITEM    .5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RING of MINDS        MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:25% Mag:00%
+                     HEDGHFLDFRM fMPtrAbPvBlsMn MF
+                     MINDREAD
+
+RING of SPEED        MISC. ITEM    .2
+                     Fir:00% Wat:00% Air:00% Ear:25% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     SPD+1
+
+RING of STARS        MISC. ITEM    .2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:50% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBY TALISMAN        MISC. ITEM    .7
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:02%
+                     HEDGHFLDFRM FMpTRABPVbLSMN MF
+                                     INT+1
+
+SCARAB NECKLACE      MISC. ITEM   1.5
+                     Fir:35% Wat:00% Air:25% Ear:00% Men:25% Mag:25%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                     PIE+1
+
+SHADOW CLOAK         MISC. ITEM   4.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM fmpTraBpvblsmN MF
+
+
+SILVER CROSS         MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:10%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+
+
+SILVER CROSS         MISC. ITEM   1.0
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:10%
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           UnDropable
+
+TOADSTONE RING       MISC. ITEM    .1
+                     Fir:00% Wat:00% Air:35% Ear:00% Men:00% Mag:00%
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     CURE POISON
+
+TORA MAEDATE         MISC. ITEM   1.5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:12%
+                     HEDGHfLDFRM fmptrabpvblSmn MF
+                                     VIT+1
+
+WIZARD'S RING        MISC. ITEM    .5
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:05%
+                     HEDGHFLDFRM fMptrAbPvBlsmn MF
+                                           UnDropable
+
+---------------------------------------------------------------------------
+                              Missles
+
+Name                 Type      Weight Damage  ToHit Attacks
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+A.P. ARROW           MISSILE       .2 1D8+4      +2 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+BARBED ARROW         MISSILE       .3 1D8+4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+BONE BREAKER         MISSILE       .3 3D3+4      +1 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+BULLET STONE         MISSILE       .5 1D4           BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+CUPID ARROW          MISSILE       .2 1D4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+DEVIL STONE          MISSILE       .3 4D4        +2 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+ELM ARROW            MISSILE       .2 1D6           THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+LIGHTNING BOLT       MISSILE       .4 5D5+5      +2 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+MYSTIC ARROW         MISSILE       .2 4D4+2      +2 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+PEACEMAKER           MISSILE       .4 6D6+6      +3 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+QUARREL              MISSILE       .2 1D4+1         THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+RAZOR STONE          MISSILE       .5 2D3+1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+RHINE STONE          MISSILE       .5 1D1        -4 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+SERPENT STONE        MISSILE       .5 3D3+3      +1 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+VIPER ARROW          MISSILE       .2 1D7+3      +1 THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+---------------------------------------------------------------------------
+                              Shield
+
+Name                 Type      Weight
+                     Magic Resistances
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+BUCKLER SHIELD       SHIELD       4.0 AC -1
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+DRAGON KITE          SHIELD      16.5 AC -4
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+DUCK SHIELD          SHIELD       4.5 AC 2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+
+
+HEATER SHIELD        SHIELD      17.0 AC -3
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+HERALDIC SHIELD      SHIELD       8.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                     STR+1
+
+ROUND SHIELD         SHIELD      10.0 AC -2
+                     Fir:00% Wat:00% Air:00% Ear:00% Men:00% Mag:00%
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+---------------------------------------------------------------------------
+                              Special
+
+Name                 Type      Weight
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+ANGEL'S TONGUE       SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     BLESS
+
+APPLE                SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HELPFOOD
+
+B.D.KEY              SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BAG of SAND          SPECIAL     20.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BASSO LYRE           SPECIAL     18.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     SLOW
+
+BAUBLE&TRINKETS      SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+BELL KEY             SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BONE KEY             SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOOK of AIR SHIELD   SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     MISSILE SHIELD
+
+BOOK of AIRS         SPECIAL       .0
+
+                     HEDGHFLDFRM fMptRABpvBlSmn MF
+                     AIR POCKET
+
+BOOK of ANTI-MAGIC   SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ANTI-MAGIC
+
+BOOK of ARMORMELT    SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     ARMORMELT
+
+BOOK of BLINDING     SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmn MF
+                     BLINDING FLASH
+
+BOOK of CHILLS       SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     CHILLING TOUCH
+
+BOOK of DEMONS       SPECIAL      2.0
+
+                     HEDGHFLDFRM fMPtrabpvBlsmn MF
+                     CONJURATION
+
+BOOK of DETECTION    SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     DETECT SECRET
+
+BOOK of DIRECTIONS   SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     DIRECTION
+
+BOOK of FIRESHIELD   SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     FIRE SHIELD
+
+BOOK of ICESHIELD    SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     ICE SHIELD
+
+BOOK of IDENTITY     SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptrabPvBlsmn MF
+                     IDENTIFY
+
+BOOK of KNOCKS       SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     KNOCK-KNOCK
+
+BOOK of LEVITATION   SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBpvBlSmn MF
+                     LEVITATE
+
+BOOK of LT.CURING    SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     CURE LESSER CND
+
+BOOK of MANTRAS      SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     STAMINA
+
+BOOK of PEACE        SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     SANE MIND
+
+BOOK of POETRY       SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                     INT+1
+
+BOOK of POISONS      SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmn MF
+                     POISON
+
+BOOK of PROTECTION   SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtrabpVBLsmn MF
+                     ARMORPLATE
+
+BOOK of RAMM         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOOK of RAPTURE      SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtRAbPVBLsMn MF
+                     CHARM
+
+BOOK of SILENCE      SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     SILENCE
+
+BOOK of SLOTH        SPECIAL      2.0
+
+                     HEDGHFLDFRM fmPtrabPVBLsMn MF
+                     SLOW
+
+BOOK of THE DAMNED   SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOOK of THE SIRENS   SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOOK of WEAKENING    SPECIAL      2.0
+
+                     HEDGHFLDFRM fMptraBPvBlSMn MF
+                     WEAKEN
+
+BOOK of WIDOWS       SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptRAbpvblsmN MF
+                     DEADLY POISON
+
+BOTL W/ANS+CORK      SPECIAL       .7
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOTL W/MSG+CORK      SPECIAL       .7
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOTTLE W/CORK        SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BOTTLE W/MSG         SPECIAL       .6
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+BROKEN ITEM          SPECIAL       .0
+
+                     hedghfldfrm fmptrabpvblsmn mf
+                                           UnDropable
+
+BROKEN SPROCKET      SPECIAL     25.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+CHROME KEY           SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+COPPER KEY           SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CORK BOBBER          SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+CUCKOO CALL          SPECIAL      1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     MENTAL ATTACK
+
+CYLINDER of ASH      SPECIAL      1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+CYLINDER of ASH      SPECIAL      1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+CYLINDER of ASH      SPECIAL      1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+DEADMAN'S LOG        SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+DEVIL'S PIPE         SPECIAL      1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     WEAKEN
+
+DUNGEON KEY          SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+EAST EXIT KEY        SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+EMPTY SACK           SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+FISH HOOK            SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+FISHLINE             SPECIAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+FISHLINE W/HOOK      SPECIAL       .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+GLOOP SPLOCH         SPECIAL       .6
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+GOLD KEY             SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+HARMONIUM            SPECIAL      1.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     ITCHING SKIN
+
+HERBAL PATTY         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HELPFOOD
+
+HOOKAH PIPE          SPECIAL     12.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+HORN of PROMETHEUS   SPECIAL      7.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     FIREBALL
+
+HORN of SOULS        SPECIAL      2.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+HV. BOULDER          SPECIAL     35.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+HV. ROPE             SPECIAL     55.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+INCENSE              SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+IRON KEY             SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+JAILER KEY           SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of 1ST TEST      SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of 1ST TEST      SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of ?DECISION?    SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of ?QUANDRY?     SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of A MINOR       SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of DROWS         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of EVIL          SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of FINALITY      SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of FINALITY      SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of KNIGHTS       SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of MINOS         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of NOTHING       SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of QUEENS        SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of RAMM          SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of SPADES        SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of STARS         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of THE DAMNED    SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of THE DEAD      SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of THE LOST      SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of VALKYRIES     SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KEY of WIZARD CAVE   SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+KING'S DIARY         SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+LIQUID METAL         SPECIAL      1.5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+LUTE                 SPECIAL      4.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     SLEEP
+
+LYRE of CAKES        SPECIAL     12.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     HELPFOOD
+
+MAGIC COOKIE         SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MAGICFOOD
+
+MIDNIGHT CHOIR       SPECIAL      8.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     TERROR
+
+NORTH EXIT KEY       SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+PAN FLUTE            SPECIAL      2.0
+
+                     HEDGHFLDFRM fmptraBpvblsmn MF
+                     CHARM
+
+RED MUSHROOM         SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MAGICFOOD
+
+ROASTED CORN         SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HELPFOOD
+
+ROCK of REFLECTION   SPECIAL      1.2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Secondary
+
+ROPE & HOOK          SPECIAL     56.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+ROSE PETALS          SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MAGICFOOD
+
+ROTTEN CHEESE        SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBBER BAND          SPECIAL     20.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBBER BRAID         SPECIAL     10.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBBER STRAND        SPECIAL      5.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBY EYEBALL         SPECIAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUBY EYEBALL         SPECIAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+RUTABEGA             SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     HELPFOOD
+
+SILVER KEY           SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+SKELETON KEY         SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+SPECIAL MESSAGE      SPECIAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+SPIRE KEY            SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+SPROCKET             SPECIAL     25.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+STEEL HOOK           SPECIAL      1.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+STUFFED BEAGLE       SPECIAL      3.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+TICKET STUB          SPECIAL       .1
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+TINKERBELL           SPECIAL       .3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+TOMB KEY             SPECIAL       .5
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+VAULT KEY            SPECIAL       .2
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+WINE BOTTLE          SPECIAL       .4
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+WIZARD'S RECORD      SPECIAL      2.0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+---------------------------------------------------------------------------
+                              Weapon (E)
+
+Name                 Type      Weight Damage  ToHit Attacks
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+AWL PIKE             WEAPON (E)  12.0 1D6           THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLSmN MF
+                                           Two Handed
+
+BO                   WEAPON (E)   5.0 1D6        +1 THRUST BASH
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Two Handed
+
+BULLWHIP             WEAPON (E)   2.5 1D4        +1 LASH
+
+                     HEDGHFLDFRM FMPTRABPVBLsMN MF
+
+
+CAT'O NINE TAIL      WEAPON (E)   6.5 6D3        +3 LASH
+
+                     HEDGHfLDFRM FMpTRABPVbLsMN MF
+
+
+FAUCHARD             WEAPON (E)  13.5 1D12          SWING
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+FAUST HALBERD        WEAPON (E)  17.5 4D4+2      +2 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     LIFESTEAL             Two Handed
+
+HALBERD              WEAPON (E)  15.0 1D10          SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+HAYAI BO             WEAPON (E)   5.0 1D6+3      +2 THRUST BASH
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Two Handed
+
+HOLY BASHER          WEAPON (E)   9.0 1D8+4      +1 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           Two Handed
+
+LANCE                WEAPON (E)  18.0 1D12       -2 THRUST
+
+                     HEDGHfLDFRM fmptrabpVbLsmn MF
+                                           Two Handed
+
+MAENAD'S LANCE       WEAPON (E)  19.0 2D12       +3 THRUST
+
+                     HEDGHFLDFRM fmptrabpVblsmn MF
+                                     STR+1 Two Handed
+
+MONSTRANCE           WEAPON (E)   9.0 1D8        -1 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           Two Handed
+
+NAGINATA             WEAPON (E)  13.5 1D12          SWING
+
+                     HEDGHfLDFRM fmptrabpvblSMN MF
+                                           Two Handed
+
+QUARTERSTAFF         WEAPON (E)   4.5 1D5           THRUST BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           Two Handed
+
+RAMMBUS STAFF        WEAPON (E)  12.0 2D4+4      +2 BASH
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                     LIGHTNING             Two Handed
+
+RAVENS BILL          WEAPON (E)  20.0 4D4+2      +2 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+SPEAR                WEAPON (E)   5.0 1D6           THRUST
+
+                     HEDGHFLDFRM FmptRabpVbLsmN MF
+                                           Two Handed
+
+SPEAR of DEATH       WEAPON (E)   9.0 1D5+4      +1 THRUST
+
+                     HEDGHfLDFRM FmptRabpVbLSMN MF
+
+
+STAFF of ARAM        WEAPON (E)    .7 2D5+2      +1 THRUST BASH MELEE
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable
+
+ZATOICHI BO          WEAPON (E)   5.0 3D6+6      +4 THRUST BASH
+
+                     HEDGHFLDFRM fmptrabpvblSMn MF
+                     BLINDING FLASH  STM+1 Two Handed
+
+---------------------------------------------------------------------------
+                              Weapon (L)
+
+Name                 Type      Weight Damage  ToHit Attacks
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+ELVEN BOW            WEAPON (L)   4.5 0D0        +4
+
+                     hEdghfldfrm FmptRabpVbLsMn MF
+                                     SPD+1
+
+GREAT BOW            WEAPON (L)   7.5 0D0        +2
+
+                     HEDGHFLDFRM FmptRabpVblSMN MF
+
+
+HV. CROSSBOW         WEAPON (L)  14.5 0D0
+
+                     HEDGHfLDFRM FmptRabpVbLsMn MF
+
+
+LONG BOW             WEAPON (L)   4.5 0D0
+
+                     HEDGHFLDFRM FmptRabpVbLSMN MF
+
+
+LT. CROSSBOW         WEAPON (L)   7.5 0D0        -2
+
+                     HEDGHfLDFRM FmpTRaBpVbLsMn MF
+
+
+SEIGE ARBALEST       WEAPON (L)  19.0 0D0        +4
+
+                     HEDGHfLDFRM FmptRabpVbLsMn MF
+
+
+SHORT BOW            WEAPON (L)   2.5 0D0        -3
+
+                     HEDGHFLDFRM FMpTRABPVbLSMN MF
+
+
+SLING                WEAPON (L)   1.0 0D0
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+VEX BOW              WEAPON (L)   8.0 0D0        -8
+
+                     HEDGHfLDFRM FmptRabpVbLSMN MF
+
+
+WRIST ROCKET         WEAPON (L)   1.5 0D0        +3
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+---------------------------------------------------------------------------
+                              Weapon (S)
+
+Name                 Type      Weight Damage  ToHit Attacks
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+ANOINTED FLAIL       WEAPON (S)  15.0 1D6+1         BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmN MF
+
+
+AXE of WOE           WEAPON (S)  18.0 2D6+2      -8 SWING MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+BASTARD SWORD        WEAPON (S)  10.0 2D4+1      -1 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BATTLE AXE           WEAPON (S)   8.5 2D4           SWING MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLSmN MF
+
+
+BEARDED WAR AXE      WEAPON (S)   4.0 1D5           SWING
+
+                     HEDGHfLDFRM FmptRabpVbLsmn MF
+                                           Secondary
+
+BEASTMASTER          WEAPON (S)   6.0 1D8+4      +1 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BEC DE CORBIN        WEAPON (S)   4.0 2D3+1      +1 THRUST BASH
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Secondary
+
+BIPENNIS             WEAPON (S)  18.0 2D6+2         SWING MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+BLACKBLADE           WEAPON (S)   6.0 1D8+4      +1 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BLADE CUISINART      WEAPON (S)   5.5 4D4+2      +2 SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BLADES of AESIR      WEAPON (S)  18.0 2D12       +2 SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     ICEBALL               Two Handed
+
+BROADSWORD           WEAPON (S)   6.0 1D7+1         SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+BUSHIDO BLADE        WEAPON (S)   4.0 2D7+2      +2 SWING THRUST
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+
+
+CLAYMORE             WEAPON (S)  15.0 2D4+2         SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+CLUB                 WEAPON (S)   8.0 2D4           BASH
+
+                     HEDGHfLDFRM FmPtRabpVBLsMN MF
+                                           Two Handed
+
+CRYSTAL WAND         WEAPON (S)    .8 3D3        +1 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     WIZARD EYE            Secondary
+
+CUTLASS              WEAPON (S)   4.5 1D6+1         SWING THRUST
+
+                     HEDGHFLDFRM FmpTRaBpVblSmn MF
+
+
+DAGGER               WEAPON (S)   1.0 1D4           THRUST THROW
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secondary
+
+DAGGER of RAMM       WEAPON (S)   1.5 2D3+1      +1 THRUST
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                                           UnDropable\Secondary
+
+DEMONS TOOTH         WEAPON (S)   1.5 3D4+4      +3 THRUST THROW
+
+                     HEDGHFLDFRM fmpTraBpvblsmn MF
+                                           Secondary
+
+DIAMOND EYES         WEAPON (S)   4.0 3D4+4      +2 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                                     PER+1 Secondary
+
+DRAGON SLAYER        WEAPON (S)   6.5 1D10+5     +1 SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+DRYADIC STAFF        WEAPON (S)   4.0 2D4        +1 BASH
+
+                     HEDGHFLDFRM fMptRAbPvblsMn MF
+                     BLINK
+
+ESTOC of OLIVIA      WEAPON (S)   5.0 2D7+4      +3 THRUST
+
+                     HEDGHFLDFRM fmptRabpvblsmn MF
+                                     VIT+1
+
+EXCALIBER            WEAPON (S)  24.0 4D8+4      +4 SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     LIGHTNING             Two Handed
+
+FAERIE STICK         WEAPON (S)    .2 3D4        +1 THRUST THROW
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     BLINK                 Secondary
+
+FANG                 WEAPON (S)   5.0 2D8+8      +2 SWING THRUST
+
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+                                     STR+1
+
+FLAMBERGE            WEAPON (S)  14.0 2D5+2         SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+GIANT SLEDGE         WEAPON (S)  45.0 3D6        -8 BASH
+
+                     HeDghfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+GOLDEN ROD           WEAPON (S)    .1 3D4        +1 THRUST THROW
+
+                     HEDGHFLDFRM fmPtrabpvBlsmn MF
+                     HEAL WOUNDS           Secondary
+
+HAMMER               WEAPON (S)   4.0 1D4+1      -1 BASH THROW
+
+                     HEDGHfLDFRM FmpTRabpVbLsmn MF
+                                           Secondary
+
+HAMMER+1.5           WEAPON (S)   6.5 2D4+6      +1 BASH THROW
+
+                     HEDGHFLDFRM FmpTRabpVblSmn MF
+                                           Secondary
+
+HOLY STAKE of WOOD   WEAPON (S)   3.5 1D5           THRUST
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                                           UnDropable\Secondary
+
+INFERIOR SWORD       WEAPON (S)   5.0 1D6        -1 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+KATANA               WEAPON (S)   4.0 1D7        +1 SWING THRUST
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+
+
+LIGHTNING ROD        WEAPON (S)    .1 3D4        +1 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     LIGHTNING             Secondary
+
+LONGSWORD            WEAPON (S)   5.0 1D8           SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+MACE                 WEAPON (S)  10.0 1D6+1         BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+
+
+MAIDEN HEAD          WEAPON (S)  12.0 1D16       +2 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                     CHARM
+
+MAIN GAUCHE          WEAPON (S)   2.0 1D5           SWING THRUST
+
+                     HEDGHFLDFRM FmptrabpVbLsmn MF
+                                           Secondary
+
+MINER'S CHISEL       WEAPON (S)   2.5 1D3        -1 THRUST
+
+                     HEDGHFLDFRM FmpTraBpVbLsmN MF
+                                           UnDropable\Secondary
+
+MINER'S PICK         WEAPON (S)   6.0 1D7+2      -5 SWING
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           UnDropable\Two Handed
+
+MORNINGSTAR          WEAPON (S)  12.0 2D4           BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+
+
+MURAMASA BLADE       WEAPON (S)   4.0 3D7+4      +4 SWING THRUST MELEE
+
+                     HEDGHFLDFRM fmptrabpvblSmn MF
+                                     HP +1
+
+MUSTARD MACE         WEAPON (S)   1.0 1D6+3      +1 BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                     STINK BOMB
+
+NECROLOGY ROD        WEAPON (S)   1.2 3D3        +1 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     RESURRECTION          Secondary
+
+NIGHT STICK          WEAPON (S)    .2 2D4           THRUST THROW
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     BLINDING FLASH        Secondary
+
+NINJATO              WEAPON (S)   3.5 2D4        +1 SWING THRUST
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secondary
+
+NO-DACHI             WEAPON (S)  13.0 2D7           SWING THRUST MELEE
+
+                     HEDGHfLDFRM fmptrabpvblSmN MF
+                                           Two Handed
+
+NUNCHAKA             WEAPON (S)   2.5 1D5        +1 BASH
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secondary
+
+PIXIE STICK          WEAPON (S)    .2 2D4           THRUST THROW
+
+                     hedghFldfrm FMPTRABPVBLSMN MF
+                     SLEEP                 Secondary
+
+POIGNARD             WEAPON (S)   3.5 1D6        +1 THRUST
+
+                     HEDGHFLDFRM FmptRaBpVbLsmn MF
+                                           Secondary
+
+RAPIER               WEAPON (S)   4.0 1D7           THRUST
+
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+
+
+ROD of SPRITES       WEAPON (S)    .5 4D4        +2 THRUST THROW
+
+                     hedghFldfrm fMptrAbPvblsmn MF
+                                           Secondary
+
+SAI                  WEAPON (S)   3.5 2D3+2      +1 THRUST
+
+                     HEDGHFLDFRM fmptrabpvblsmN MF
+                                           Secondary
+
+SAINT BASTARD        WEAPON (S)  11.0 2D4+5      +2 SWING THRUST BASH
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+SHORT SWORD          WEAPON (S)   3.0 1D6           SWING THRUST
+
+                     HEDGHFLDFRM FmpTRaBpVbLsmn MF
+                                           Secondary
+
+SKULL DAGGER         WEAPON (S)   1.0 2D4        +1 THRUST THROW
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secondary
+
+STAFF                WEAPON (S)   4.0 1D4           BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+
+
+STAFF MAGICUS        WEAPON (S)   4.0 2D4        +1 BASH
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     MAGIC SCREEN
+
+STAFF of RUIN        WEAPON (S)   4.0 1D2        -4 BASH
+
+                     HEDGHFLDFRM fMPtrAbPvBlsmn MF
+
+
+STAVE of MISSILES    WEAPON (S)   4.0 1D4+2      +1 BASH
+
+                     HEDGHFLDFRM FMPTRABPVBLSMN MF
+                     MAGIC MISSILE
+
+STAVE of MOONS       WEAPON (S)   4.0 2D4        +1 BASH
+
+                     HEDGHFLDFRM fMPtRAbPvBlsmn MF
+                     SLEEP
+
+STAVE of STARS       WEAPON (S)    .0 2D4        +1 BASH
+
+                     HEDGHFLDFRM fMPtRAbPvBlsmn MF
+                     FIREBALL
+
+STAVE of WITCHES     WEAPON (S)   4.0 3D4        +2 BASH
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     TERROR
+
+SWORD of FIRE        WEAPON (S)  14.0 2D8        +2 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     FIREBALL              Two Handed
+
+SWORD of HEARTS      WEAPON (S)   4.5 1D7+4      +2 THRUST
+
+                     HEDGHFLDFRM fmpTRaBpvblsmn MF
+
+
+SWORD of LADING      WEAPON (S)  45.0 1D8+8      -6 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+SWORD of STRIKING    WEAPON (S)   5.0 1D8        +2 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+THE AVENGER          WEAPON (S)   7.5 3D8+4      +3 SWING THRUST
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     LIGHTNING
+
+THIEVES DAGGER       WEAPON (S)   1.5 3D4        +2 THRUST THROW
+
+                     HEDGHFLDFRM fmpTrabpvblsmn MF
+                                     SPD+1 Secondary
+
+VULCAN HAMMER        WEAPON (S)   8.0 3D4+4      +2 BASH THROW
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                     FIREBALL
+
+WAKIZASHI            WEAPON (S)   3.0 1D6           SWING THRUST
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+                                           Secondary
+
+WAKIZASHI+1          WEAPON (S)   3.5 1D9+1      +1 SWING THRUST
+
+                     HEDGHFLDFRM fmptrabpvblSmN MF
+                                           Secondary
+
+WAND of GHOSTS       WEAPON (S)    .8 5D3        +2 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     DISPEL UNDEAD         Secondary
+
+WAND of MYSTERY      WEAPON (S)    .8 3D3        +1 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     PRISMIC MISSILE       Secondary
+
+WAND of RAZING       WEAPON (S)    .8 1D3        -4 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                                           Secondary
+
+WAND of WEAVING      WEAPON (S)    .8 3D3        +1 THRUST THROW
+
+                     HEDGHFLDFRM fMptrAbPvblsmn MF
+                     ILLUSION              Secondary
+
+WAR HAMMER           WEAPON (S)   6.5 1D5+1         BASH
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+
+
+WAR SCEPTRE          WEAPON (S)   6.0 1D6           BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmn MF
+                                           Secondary
+
+ZIZKA STAR           WEAPON (S)  13.0 2D5           BASH
+
+                     HEDGHfLDFRM FmPtrabpVBLsmN MF
+
+
+ZWEIHANDER           WEAPON (S)  16.0 3D5           SWING THRUST MELEE
+
+                     HEDGHfLDFRM FmptrabpVbLsmn MF
+                                           Two Handed
+
+---------------------------------------------------------------------------
+                              Weapon (T)
+
+Name                 Type      Weight Damage  ToHit Attacks
+
+                     Races       Classes        Sexes (Upper Case can use)
+                     Spell Cast  Special   Properties
+---------------------------------------------------------------------------
+
+BOTTLEROCKET         WEAPON (T)    .3 1D8           THROW
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     MAGIC MISSILE         Secondary
+
+BUTTERFLY AXE        WEAPON (T)   3.5 1D8+3         THROW
+
+                     HEDGHfLDFRM FmpTRaBpVbLsmn MF
+                                           Secondary
+
+DIRK                 WEAPON (T)   1.0 1D4           THROW
+
+                     HEDGHFLDFRM FMpTRABPVbLSmN MF
+                                           Secondary
+
+FIRECRACKER          WEAPON (T)    .1 3D8
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                                           Secondary
+
+GINZU KNIFE          WEAPON (T)    .5 3D2        +1 THROW
+
+                     HEDGHFLDFRM FmptrabpvblSmN MF
+                                           Secondary
+
+ICICLE               WEAPON (T)    .1 2D8           THROW
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     CHILLING TOUCH        Secondary
+
+SHIKEN SHURI         WEAPON (T)    .5 1D7+5      +1 THROW
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Secondary
+
+SHURIKEN             WEAPON (T)    .5 1D6+1         THROW
+
+                     HEDGHFLDFRM fmptrabpvblSMN MF
+                                           Secondary
+
+SKYROCKET            WEAPON (T)    .5 5D5           THROW
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                     MAGIC MISSILE         Secondary
+
+SPARKLER             WEAPON (T)    .1 1D8           BASH THROW
+
+                     HEDGHFLDFRM fMpTrABPvblsmN MF
+                                           Secondary
+
+STILETTO             WEAPON (T)    .5 2D3        +2 THROW
+
+                     HEDGHFLDFRM FmpTraBpVbLsmn MF
+                                           Secondary
+
+Notes
+  (1) These are not reliable, but should be easily discovered
+
+  (2) No special attacks are listed here (KNOCKOUT, CRITICAL, POSION, etc
+      since I have not yet discovered how to interpret them yet.
+
+  (3) Same for regen, curses, and other unusal properties
+
+
+
+                                Wizardry 6 Weapons
+
+                               to hit
+   Name                Damage  Bonus      Other effects
+
+A.P. Arrow              1d8+4    +2
+Ancient Dust                            Weaken
+Anointed Flail          1d6+1           KNOCKOUT
+Bastard Sword           2d4+1    -1
+Bearded War Axe         1d5+0
+Beastmaster             1d8+4    +1     SLEEP
+Bec De Corbin           2d3+1    +1     KNOCKOUT
+Bipennis                2d6+2
+Blackblade              1d8+4    +1     POISON Regen-1
+Blade Cuisinart         4d4+2    +2     CRITICAL
+Bo                      1d6+0    +1
+Bone Breaker            3d3+4    +1
+Bottle Rocket           1d8+0           Magic missile
+Bushido Blade           2d7+2    +2     CRITICAL
+Butterfly Axe           1d8+3
+Claymore                2d4+2
+Crystal Wand		    3d3+0    +1     SLEEP Wizard Eye(?)
+Cupid Arrow             1d4+0           SLEEP
+Cutlass                 1d6+1
+Devil's Pipe                            Weaken (at max)
+Dragon Slayer           1d10+5   +1
+Elm Arrows              1d6+0
+Faerie Stick            3d4+0    +1     Blink(?)
+Fang                    2d8+8    +2     CRITICAL Special Power
+Flamberge               2d5+2
+Giant Sledge            3d6+0    -8     KNOCKOUT
+Halberd                 1d10+0
+Hammer                  1d4+1    -1     KNOCKOUT
+Hammer+1.5              2d4+6    +1     KNOCKOUT
+Hayai Bo                1d6+3    +2     KNOCKOUT
+Holy Basher             1d8+4    +1     KNOCKOUT
+Katana                  1d7+0    +1
+Lance                   1d12+0   -2
+Lightning Rod           3d4+0    +1     Lightning
+Long Bow                0d0+0
+Maenad's Lance          2d12+0   +3     Regen +1, CRITICAL,
+                                        Special power (+1 Strength, 3 times)
+Main Gauche             1d5+0
+Midnight Choir                          Terror (at max)
+Monstrance              1d8+0    -1     KNOCKOUT
+Morning Star            2d4+0           KNOCKOUT
+Muramasa Blade          3d7+4    +4     CRITICAL Special Power
+Mystic Arrow            4d4+2    +2     PARALYSE
+Naganata                1d12+0
+Necrology Rod           3d3+0    +1     Resurrect
+Night Stick             2d4+0           Blinding Flash(?)
+Ninjato                 2d4+0    +1     CRITICAL
+No-Dachi                2d7+0           CRITICAL
+Peacemaker              6d6+6    +3     CRITICAL
+Quarterstaff            1d5+0
+Rapier                  1d7+0
+Raven's Bill(cursed)    4d4+2    +2     POISON CRITICAL Regen-2
+Razor Stone             2d3+1
+Rhinestones             1d1+0    -4
+Sai                     2d3+2    +1     CRITICAL
+Serpent Stone           3d3+3    +1     POISON
+Short Bow               0d0+0    -3
+Shuriken                1d6+1
+Skull Dagger            2d4+0    +1     CRITICAL
+Sky Rocket              5d5+0           Magic Missile
+Spear of Death          1d5+4    +1     POISON, CRITICAL
+Staff Magicus           2d4+0    +1     Magic Screen(?)
+Staff of ARAM           2d5+2    +1     POISON CRITICAL KNOCKOUT Regen-1
+Stave of Missiles       1d4+2    +1     Magic Missile(?)
+Stave of Moons          2d4+0    +1     SLEEP
+Sword of Lading(cursed) 1d8+8    -6     KNOCKOUT
+Sword of Striking       1d8+0    +2
+The Avenger             3d8+4    +3     CRITICAL Lightning(?)
+Vulcan Hammer           3d4+4    +2     KNOCKOUT Fireball
+Wakazashi               1d6+0
+Wakazashi+1             1d9+1    +1     CRITICAL
+Wand of Ghosts          5d3+0    +2     Dispell Undead(?)
+Wand of Mystery         3d3+0    +1     PARALYSE Prismic Missile(?)
+Wand of Razing(cursed)  1d3+0    -4
+War Hammer              1d5+1           KNOCKOUT
+Whip                    1d4+0    +1
+Zweihander              3d5+0
+
+
+             Other items
+
+Amulet of Ice           25% water, Iceball
+Ankh of Arnie           25% magic, Special power (inc HP's twice)
+Ankh of Death           Death
+Ankh of Life            Resurrection(?) Special Power(inc HP's)
+Ankh of Might           Special Power (+1 strength)
+Ankh of Phyre           Fire 25%  Fireballs(?)
+Ankh of Purity		    Special Power (+1 Karma)
+Ankh of Sanctity        Special Power (+1 Piety)
+Ankh of Wonder          Regen+1  Heal Wounds(?)
+Annointed Cloak         12% magic
+Bone Necklace           35% Magic  Special Power(+1 Vitality)
+Cameo Locket            Regen+1  Magic 50%  Special Power
+Cameo Locket            Regen+1, Magic 50%, Special Power (inc HP's 3 times)
+Chain of Despair        Regen -1
+Displacer Cloak         Blink(Max)
+Horn of Prometheus      Fireball(Max)
+Idol of Mau-Mu-Mu       35% Fire
+Jade Figurine           Mental 20%  Special Power   (Monks only)
+Lynx Ring               Special Power
+Mantis Boots            Water 25% Earth 12% Mental 12% Special Power (+1 Speed)
+Mantis Gloves           Fire 25% Air 37% Mental 25% Special Power (+1 Dex)
+Mystic's Ring           12% magic
+Ring of Stars           Regen+1 Mental 50%
+Robes of Enchantment    Magic 25%
+Ruby Talisman           2% Magic Special Power(+1 Intelligence)
+Silver cross            10% magic
+Wizard's Ring           5% magic

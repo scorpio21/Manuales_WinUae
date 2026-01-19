@@ -1,0 +1,1227 @@
+The Battle of Austerlitz 
+Brought to you by Belgarath
+
+-Table of Contents - 
+Part I 
+1). Introduction 
+2). Loading the Program 
+3). Scenarios 
+4). Options 
+5). Leaders 
+6). The Battlefield 
+7). Inspecting the Troops 
+8). How to Give Orders 
+9). Corps Orders 
+10). Army Orders 
+11). Movement 
+12). Column vs. Line 
+13). Combining Units 
+14). Charging 
+15). Infantry Square 
+16). Combat 
+     a). Fire 
+     b). Melee 
+17). Terrain 
+18). Morale and Fatigue 
+19). Hidden Movement 
+20). Army Demoralization 
+21). Winning the Game 
+22). Time Settings and Pausing 
+23). Saving the Game, Ending the Game 
+
+Part II 
+1). History 
+2). Scenarios 
+3). Leaders 
+4). Tactical Notes 
+5). Designer Notes 
+6). Order of Battle 
+7). Questions and Answers 
+8). Credits 
+
+Manual and Program 
+Copyright © 1989 Cornerstone Software Inc. 
+- Page 1 - 
+
+PARTI 
+1). INTRODUCTION 
+Austerlitz is a grand tactical military simulation of Napoleon's first 
+major battle as Emperor of the French. At Austerlitz he met and soundly 
+defeated the combined armies of Russia and Austria. 
+
+2). LOADING THE PROGRAM 
+Commodore 64, Amiga and Atari ST owners please refer to the back of 
+the manual for loading and other machine specific instructions. With the 
+Game Disk inserted, type '1805'. After a campaign introduction, the game 
+will load. When you get to the scenario screen (see part 3 on Scenarios), 
+insert the Scenario Disk if you own the IBM 5 1/4" version. In order to install 
+the game on a hard drive, you will first have to make a directory using the 
+Make Directory command: rnkdir C:\AUSTRLTZ'. Then, copy from the 
+game disk with the copy command, all the files into your new directory: copy 
+a: *.* C:\AUSTRLTZ. Then copy the scenario disk to the new directory the 
+same way. To play the game, you will need to set your current directory to the 
+Austerlitz directory: 'cd c:\'AUSTRLTZ'. Then, while you are in that 
+directory, simply type '1805' for the intro/game or just type 'main' to go 
+directly to the game (by-passing the intro screens). When the program asks 
+for the Scenario Disk to be inserted, simply ignore this and choose the 
+scenario normally. 
+
+3). SCENARIOS 
+After the title screen, the scenario menu will appear. Press the arrows to 
+choose a scenario. Press F3 or RETURN to move to the MAP screen. 
+
+"Breaking of the Allied Center", depicts the mid-morning assault on the 
+ Pratzen heights. 
+
+"Fight for the Lower Golbach", depicts the early hour struggle on the 
+French right flank as the Allies try to smash through to the French rear. 
+
+"Don't let them Escape!", - depicts the day long fight on the left between 
+Lannes and Bagration, along with the mass cavalry battle of Murat and 
+Liechtenstein. 
+
+"Historical Battle", - depicts the entire day of the battle with no variation. 
+
+"Bernadotte's Betrayal", depicts the entire battle without Bernadotte's I 
+ Corps on the French side. 
+
+"Davout's Failure", - depicts the entire battle without Davout's HI Corps on 
+ the French side. 
+
+"Egads!", - depicts the entire battle without either Bernadotte's I Corps or 
+Davout 's HI Corps on the French side. 
+- Page 2 -
+
+4). OPTIONS 
+After the Scenario Screen, the OPTION screen will appear. To alter the 
+setting of the currently displayed OPTION, press the Right or Left Arrow 
+Keys. To move to a new OPTION, press the Up or Down Arrow Keys. 
+The 'Allied Player': 'French Player' OPTION turns the computer player 
+on and off for the Allies. 
+Select COMPUTER to have the computer play the Allies. 
+Select SEE to have the computer play, but allow you to see his moves. 
+Select NO to allow a human opponent for the Allies. 
+The Difficulty OPTION adjusts the Artificial Intelligence of the Computer 
+Player. 
+Select EASY for a beginner level game. 
+Select HISTORIC for the historical levels. 
+Select HARD for a difficult game. 
+'Toughness' can be used to lower the morale of the selected side's units 
+slightly, making them easier to beat. It also can be used to balance a two 
+player game. 
+Select NORMAL for the regular morale level. 
+Select EASY for the lowered morale level. 
+The 'Morale' OPTION determines if the morale of the units is to be used 
+in the combat calculations. 
+Select YES to use morale in combat. 
+Select NO to ignore morale in combat. 
+The 'Fatigue' OPTION determines if the fatigue of the units is to be used 
+in the combat calculations. 
+Select YES to use fatigue. 
+Select NO to ignore fatigue in combat. 
+The 'Hidden Movement' OPTION allows you to turn hidden movement 
+on or off. 
+Select YES for the computer to use hidden movement. 
+Select NO to not use hidden movement. 
+Note: In Human vs. Human, hidden movement is automatically turned off. 
+The 'Alternative Plans' OPTION determines whether the computer 
+player will follow the Historical battle plan or create a battle plan of it's own. 
+Select YES to use its own plans. 
+Select NO to use the historical plans. 
+When you are satisfied with your selections, press 'F3' or 'RETURN' to 
+move to the LEADER screen. If you selected to continue a saved game, you 
+may see and change the options for the saved game. 
+- Page 3 - 
+
+5). LEADER SCREEN 
+After you have selected all the options, the computer will ask you to select a 
+personality for the side it is going to play. By using the arrow keys, you can 
+highlight the name of one of six different leaders on which the computer will 
+base its strategic decisions. Once you are satisfied with your choice, hit 
+'RETURN'. From here you will either go to the MAP screen or be asked to 
+choose another leader (if the computer is playing itself). Note: There is no 
+limitation of who can command what army. This allows Napoleon to 
+command the Allied army, giving his benefits to them if one wishes. 
+
+6). THE BATTLEFIELD 
+NOTE: In order to use a joystick on the IBM, it must be turned on by 
+hitting 'J' on the keyboard while at the MAP screen. If you do not have a game 
+port, and hit 'J', you will get unpredictable cursor movement. You can 
+recover your game simply by hitting 'J' again. 
+Once you have selected your leader(s), you will come to a map of the 
+battlefield. Depending on the scenario selected, the map may scroll until it 
+hits either a border or the edge of the involved area. There are a number of 
+different types of terrain that affect movement and combat. These are: 
+TERRAIN             GRAPHIC 
+Clear ..............empty square 
+River/Stream ........blue lines 
+Frozen Lakes.........white solid/partial square 
+Bridge...............broken river/stream 
+Woods................green/brown tree shapes 
+Village..............brown/yellow house shapes 
+Castle.............. grey castle shape 
+City................ grey building shapes 
+Slope ...............radiating brown pattern 
+Steep Slope..........concentrated brown pattern 
+Heights.............. clear square at top of slopes 
+
+To find out what type of terrain the cursor is over, press the space bar 
+(button on mouse or joystick). The name of the terrain type will be displayed 
+in the information strip at the bottom of the screen. 
+On the right half of the display is the game speed indication. You press the 
+number keys to adjust how fast the game will play. The current setting is 
+displayed here. (See part 22, TIME SETTINGS AND PAUSING, for more 
+information). 
+- Page 4 -
+
+7). INSPECTING THE TROOPS 
+The French units are blue, the Russian units are dark green, and the 
+Austrians are white. There are several different types of units: 
+TYPE                 ICON 
+Infantry Column      2 men 
+ inarching            feet move 
+ firing               gun raised 
+ melee                gun moves 
+
+Infantry Line        1 man
+ marching            feet move 
+ firing              gun raised 
+ melee               gun moves 
+
+Infantry-Square      Square
+ firing              guns pronounced 
+
+Cavalry              man on horse 
+ melee               sabre moves 
+
+Artillery            cannon 
+ fire                smoke on cannon, blast on target 
+
+NOTE: When units change to solid inverse color, they are disorganized and 
+can not charge, but can melee and fire, inflicting lesser casualties. 
+
+8). HOW TO GIVE ORDERS 
+In general, orders are given to all units in the same way: 
+1). Place the cursor on the unit to be given orders, 
+2). Press the space bar to get a special cursor, 
+3). Place the cursor on the target square, 
+4). Press the space bar. 
+
+NOTE: If using the joystick or mouse, you must press the button to get the 
+special cursor, and then WHILE HOLDING THE BUTTON, move the cursor 
+to the target square, and then RELEASE the button to give the order. 
+
+Just looking at a unit has no effect on the unit's orders, however, moving 
+the cursor while looking at the unit does. To erase an old order, simply give a 
+new order. To cancel a unit's orders, select the square that the unit is in as the 
+target square. To do this, press the space bar, move the cursor out from the 
+unit, then move it back to the unit and press the space bar again. 
+- Page 5 - 
+
+In addition to the cursor, there is a V that marks the target square. Select 
+a unit and order it to move forward to a square. After you have issued the 
+orders, go back to the unit and press the space bar again. There will be V in 
+the square the unit was ordered to move to. If the unit doesn't have orders, the 
+V will be in the same square as the unit itself. There are several different 
+types of orders that may be given. Not all units can be given all types of 
+orders. Below is a list of the types of orders: 
+                                        C64
+1). Fire artillery gun   yellow cursor  Dark Gray 
+2). Move as column       white cursor   Purple 
+3). Move as line         red cursor     Red 
+
+Here is a table of what each unit can do: 
+                 Infantry         Cavalry       Artillery 
+Fire Artillery   No               No            Yes 
+Column Move      Yes              No            No 
+Line Move        Yes              Yes           Yes 
+
+To use a particular type of cursor, you must MOVE the cursor while it is the 
+proper color. Once the cursor has been moved, it will not change color. 
+
+Cavalry - When you press the space bar, a red MOVE CURSOR appears 
+and you can enter your orders. 
+
+Artillery - For artillery, there are two cursors, the yellow FIRE CURSOR, 
+and the red MOVE CURSOR. When you press the space bar, the yellow FIRE 
+CURSOR appears. If you don't move the cursor within one second, the cursor 
+will change to a red MOVE CURSOR. If you move the cursor within one 
+second of pressing the space bar, the yellow FIRE CURSOR will remain. If 
+you wanted to give an artillery unit orders to fire its guns, you would press the 
+space bar and within one second, move the yellow cursor away from the unit. 
+Now with the yellow cursor 'locked in', move it to the target square and press 
+the space bar to select that square as the target. Artillery can have only one 
+type of order at a time. If you give a unit a new order, it will stop doing what it 
+was doing and begin to execute its new order. The old order will be lost. 
+
+Infantry - There are also two cursors for Infantry. The white COLUMN 
+CURSOR tells the units to move in column formation and the red MOVE 
+CURSOR tells units to move in line formation. If the unit is in LINE 
+formation, the MOVE CURSOR appears, then changes to the COLUMN 
+CURSOR. If you tell a unit in line formation to move using the COLUMN 
+CURSOR, the unit will first change to column formation and then begin 
+moving. There are a few complications for units in stacks, (see part 13 
+Combining Units for more information). 
+- Page 6 -
+
+9). CORPS ORDERS 
+Since there are a large number of troops, it can become quite tedious 
+giving each unit individual orders. Austerlitz has a unique feature that 
+allows you to give a single order to an entire maneuver element (division or 
+Corps depending on the chain of command). The computer will then take 
+over the command based on the historical leaders command rating and 
+independently wield the entire element towards its goals. 
+
+To give Corps orders, hit 'F5' if you are playing the allies, or 'F6' if you 
+are playing the French. A list of the commanders names, the strength of his 
+command, and his men's average morale and fatigue will be displayed. By 
+moving the arrow keys up and down, you can highlight a leader's name, and 
+see what his current order (if any) is. Then, by hitting the right arrow, you 
+can go to the mode list and decide which mode you wish him to take. 
+Available orders are MOVE, ATTACK, and DEFEND. After this is done, 
+press 'RETURN', and you will be taken to the MAP screen. A national flag 
+for that Corps will appear either at the approximate center of the Corps, or 
+where its last Corps orders were. You simply move the flag to where you wish 
+the Corps to go, and press the space bar (or mouse I joystick button). Soon, that 
+Corps will start to move towards the objective in the mode you selected. 
+Pressing ESC returns you to the map. 
+
+If you selected the ATTACK mode, the Corps will march off in attack 
+formation and look for enemy units to fight in the process of taking the 
+objective. If you selected the DEFEND mode, the Corps will march off to the 
+objective, and then go into a defensive formation and try to hold the objective. 
+It is not a good idea to move a Corps in defense mode over large distances! If 
+you selected MARCH mode, the Corps will march off to the objective, 
+IGNORING enemy units, but at a slightly faster rate. It is not a good idea to 
+have a Corps MARCH anywhere near enemy formations without friendly 
+support. 
+
+Note: You will lose control of all units of that Corps until you cancel 
+Corps orders. To do this, simply go back to the status screen (F5 or F6) ,and 
+select NONE for that commander. After one minute all orders for those units 
+will be CANCELLED. Also, once units become committed in combat heavily, 
+the responsiveness of Corps orders will be reduced. Obviously, the computer 
+will be trying to engage and defeat the the enemy, and moving its target 
+around will not have much effect while its heavily involved. 
+
+10). ARMY ORDERS 
+When victory is certain, (or defeat iminent), you might wish to have every 
+unit advance (or retreat) regardless of Corps organization or formation. This 
+can be done with the GENERAL ATTACK order (or the GENERAL 
+RETREAT order). 
+- Page 7 - 
+
+However, once this order is issued you will lose all control of your units 
+unless you cancel the order (ex: Hitting 'A'orders the allied army to attack. 
+If hit 'A' again it cancels the attack). If you cancel an Army Order you must 
+recall your units either manually or with Corp Orders. 
+
+The Allied player uses 'A' for Attack and 'X' for Retreat. The French 
+player uses 'F' for Attack and V for Retreat. When the computer is playing, 
+the Attack/Retreat keys for its army are disabled. 
+
+11). MOVEMENT 
+Although the playing area appears continuous it is actually broken into 
+squares for movement purposes. Each square is the size of one unit symbol 
+and is approximately 275 yards on a side. The length of time it takes a unit to 
+move from one square to another depends on the type of unit it is and what 
+kind of terrain the unit is entering. A list of terrain attributes is given under 
+17) TERRAIN. For artillery units that have been firing, allow one to three 
+minutes (to relimber the guns) before the unit begins to move. 
+
+If a unit encounters a friendly unit in its path (units cannot pass through 
+one another) or a terrain feature which would slow it down, the unit will move 
+one square to the side, if such a move will avoid the obstacle. When a unit 
+encounters an enemy unit directly in its path, it will attempt to dislodge that 
+unit. (See part 16 COMBAT). 
+
+12). COLUMN VS. LINE 
+Infantry units may be in one of two different formations: line or column. 
+Line means that the troops are strung out in a line. The advantage is that 
+every man can fire his musket at the enemy. The disadvantage is that if the 
+line is penetrated at any point, the unit is in a dangerous position. Infantry 
+in column are arranged in a somewhat block-like formation. The troops 
+gain a morale boost in a 'safety in numbers' phenomenon, but most of the 
+troops are rather useless for fighting. However, column formation did allow 
+for a more rapid assault and was a fairly easy way to handle poorly trained 
+men. For a unit to be able to successfully use line formation, it usually had to 
+have a great deal of training. To convert infantry from one formation to the 
+other, give it move orders with the cursor for that type of formation. The unit 
+will take a few minutes to make the change in formation, then it will begin to 
+move. If you want a unit to change formation without moving, move the 
+cursor of the proper color out from the unit, then move it back to the unit before 
+'releasing' the space bar (that is, hitting it a second time). 
+
+13). COMBINING UNITS 
+Another advantage to column is that units from the same Corps may be 
+grouped into a single formation, in a single square. This allows you to 
+- Page 8 -
+concentrate many men for a powerful attack. To combine two infantry units 
+both units must be in column, they must begin their move adjacent to each 
+other; and, they must be from the same Corps. (Check the unit display). 
+Using the COLUMN CURSOR, order one unit to move into the other. The unit 
+will advance and merge with the non-moving unit. This may be repeated as 
+much as you want, as long as the total strength does not exceed 6300 men. The 
+'stacks' of units can be moved as any other column unit. A stack cannot be 
+changed to line formation. To separate the units, order the stacked 'unit' to 
+move as line. Instead of the 'unit' changing to line, the last unit to join the 
+stack will separate and move to the target square. The remainder of the stack 
+will stay in place. This can be repeated until all of the individual units are 
+separated. The individual names are not shown for stacked units. If all of 
+the units are from the same division, the divisional name will be displayed. 
+If all of the units are from the same Corps, the Corps name will be displayed. 
+
+Strength, morale, and fatigue levels are shown normally (if the 
+OPTIONS are chosen). The displayed strength is the sum of the unit's 
+individual strengths. The displayed morale is a group morale. The 
+displayed fatigue is that of the lowest of any unit in the stack. For purposes of 
+determining if a unit becomes disorganized or routed, the lowest morale in 
+the stack is used. For combat calculations, each unit uses the group morale 
+and its actual fatigue. 
+
+14). CHARGING 
+During the course of a battle, units normally moved at a walking pace. 
+However, when units got near an enemy unit that they were attacking, they 
+would close quickly to minimize the time that they were exposed to enemy 
+fire. In the game, infantry and cavalry units will cross the last square in one 
+minute. However, this is only under ideal conditions. Units can only charge 
+if they are formed (i.e. not disorganized, see part 16 COMBAT). Also, units 
+may only charge through clear squares. They slow to their normal pace 
+moving through streams, woods, towns, etc.. 
+
+15). INFANTRY SQUARE 
+Because of their mobility, cavalry could quickly move to the flanks of 
+infantry units and cause great havoc. To counter this, infantry could change 
+to square formation, with men facing outward in all directions. Using the 
+square formation, infantry could stand up to even the best cavalry. In the 
+game, when an enemy cavalry unit moves to within 2-3 squares of an 
+infantry unit, the infantry will change to square. This will take several 
+minutes. When the cavalry moves away, the unit will change back to its 
+previous formation. Units in square cannot move, although they can still 
+fire. If you wish to have a unit in square move anyway, re-issue orders. The 
+unit will change back to formation and begin moving. 
+- Page 9 - 
+
+This "square override" will remain in effect until, 1). it reaches its target 
+square, 2). you change its target to its present location, or 3). there are no 
+cavalry units within 2-3 squares. Only formed infantry units can use square 
+formation. Disorganized or routed infantry are at the mercy of the enemy 
+cavalry. However, infantry units will never enter square formation if their 
+target square is occupied by an enemy unit. In that case they will assume you 
+wish them to attack no matter what the circumstances. Thus, it is very 
+dangerous to order infantry to move large distances to attack, since while 
+your attention is diverted, enemy cavalry could get off an opportunity charge. 
+The prudent commander will always have his infantry move to a staging 
+area before ordering his units over the last several squares to the enemy 
+position. Obviously, as in real life, the presence of enemy cavalry makes it 
+extremely difficult to conduct an organized infantry assault. 
+
+16) COMBAT 
+There are several methods of inflicting losses on enemy units. In 
+general, the lower an attacker's morale, the fewer enemy it can kill; and, the 
+more tired it is, the fewer losses it can inflict. 
+
+16.1). FIRE COMBAT 
+Artillery: Artillery may fire at targets up to five squares distant. Move 
+the yellow cursor to the target square and within 1-3 minutes, the 
+bombardment will begin. When you change an artillery unit's target, it will 
+take about 1 minute to resight. Artillery's effectiveness increases as the 
+firing distance decrease; at a distance of one square, it is much more 
+effective. Also, artillery is more effective firing against a large unit than 
+against a small unit. Note that artillery units firing more than one square 
+can occasionally miss and hit squares adjacent to the target square. Also, 
+artillery can inflict damage by bombardment on your own attackers as they 
+close with their targets. Note that if you direct fire at a unit where the fire 
+would be blocked (such as behind woods), the artillery will fire, and yes, it 
+will be blocked and the enemy will suffer no casualties. 
+
+Infantry: Infantry only has a range of one square. Infantry units that do 
+not have orders to move, they will fire at adjacent enemy units, if there are 
+any. So, to have an infantry unit engage in fire combat with a unit, order it to 
+move adjacent to the target unit. When it reaches the adjacent square, it will 
+cease movement and begin firing. 
+
+Attached Artillery: Some cavalry and infantry units had a small 
+number of light artillery pieces with them. Because of the small number and 
+caliber of these guns, they only had an appreciable effect at close range. 
+Therefore, they are handled like infantry fire. They only fire a distance of 
+one square, fire is handled automatically, and there is no blast to indicate its 
+bombardment. 
+- Page 10 -
+ia2) MELEE COMBAT 
+Melee is fire combat and charges at very close quarters. When a unit 
+attempts to move into a square occupied by an enemy unit, it will attempt to 
+engage in melee to dislodge the enemy unit. Melee usually happens 
+automatically when a unit closes with an enemy unit. (Charging units take 1 
+minute to close after moving adjacent. If for some reason a unit cannot 
+charge, the time wilt be normal time for moving across the particular 
+terrain.) Melee is not automatic in the following cases; 1) Artillery cannot 
+initiate melee. 2). The defender is in limited access terrain, such as a 
+village or castle. The advantage of melee over infantry fire is that casualties 
+can be inflicted at a faster rate, and objectives held by the enemy can be 
+taken. This is particularly true for units in column, which have a limited 
+number of men who can fire. 
+
+17). TERRAIN 
+There are many different types of terrain. These affect both movement 
+and combat. The following is a summary of terrain effects: 
+
+Terrain       Movement Effect          Combat Attacker       Combat Defender
+Clear         Normal                   None                  None
+Border        Prohibted,except to exit N/A                   N/A
+River         Slows                    Cannot Charge         None
+                                       Disorganized (2-3) min
+River Bridge  Slows                    Cannot Charge         None
+Woods         Slows                    Cannot Charge         None
+              Artillery Cannot nter
+              Cavalry Cannot enter
+              Infantry Disorganized
+Village       Normal                  Cannot Charge          Reduced Losses
+              Blocks Artillery Fire
+Castle        Normal                  Cannot Charge          Reduced Losses
+                                      Blocks Artillery Fire
+                                      Melee not Auto
+Slope         Slows                   None                   N/A
+Steep Slope   Slows                   Cannot Charge          None
+              Units Disorganized      Artillery Cannot Fire
+- Page 10 -
+
+18). MORALE & FATIGUE 
+Morale is a representation of how well a unit is doing psychologically. 
+The morale of a unit will fluctuate up and down during the battle, as it is 
+exposed to different conditions. Each unit has a maximum morale. 
+Generally, elite units such as guards have a higher maximum than poorly 
+trained units. The actual morale, which is what is shown on the unit display 
+begins with the maximum morale, then is reduced based on the ratio of 
+casualties that the unit has recently taken compared to its total strength. The 
+effects of the casualties is gradually lessened over time. The morale is also 
+reduced by the presence of enemy units. Cavalry has the most detrimental 
+effect, followed by infantry. Artillery has little effect. Enemy cavalry have 
+very little effect if your infantry units are in square formation. If enemy 
+units are disorganized, they have less effect on morale; if they are routed, 
+they have no effect at all. 
+
+For combined units, the maximum morale is the morale of the lowest unit 
+in the stack, so combining good and poor units is not a great idea. The 
+casualties and strengths of all units are combined to find the effects on 
+morale. Then the presence of adjacent enemy units is taken into account. 
+Thus, by flanking an enemy unit, you will not only inflict more casualties, 
+but cause a greater drop in the enemy units morale, causing it to break 
+sooner. 
+
+If the morale of a unit drops to the FAIR LEVEL, the unit will become 
+disorganized (shown in solid, inversed color), if the morale drops past 
+POOR, it will become routed, and attempt to retreat. When a unit routs, its 
+maximum morale is permanently reduced. As a unit gets away from enemy 
+units and stops taking casualties, the morale that is displayed will gradually 
+return to its maximum. The higher the unit's morale, the faster it will 
+recover from disorganization (but only while resting; not while moving, 
+firing or meleeing). 
+
+Fatigue will be increased with movement and combat. The higher a unit's 
+fatigue value, the more ineffective in combat it will be. Combat is more 
+detrimental to a unit's fatigue than moving. If a unit ceases activity, its 
+fatigue will be lowered based on how much time you allow the unit to rest. 
+
+19). HIDDEN MOVEMENT 
+If this OPTION is selected, not all of the enemy units will be visible at all 
+times. Certain terrain features, (such as forest, the heights, and villages) will 
+block line of sight from your units to enemy units, thus keeping the enemy 
+units hidden. Most of the battlefield is clear, since the tactics of the day 
+demanded this. Thus, enemy commanders usually could see the enemy 
+unless he was 1). Out of range, 2). There was combat between the units 
+producing a lot of smoke, or 3). If weather conditions affected visibility. 
+- Page 12 -
+
+At Austerlitz, hidden movement will be most affected by an early 
+morning fog. When the battle starts, the visible range will only be a few 
+squares, except for units on the heights, which were above the fog and visible to 
+the enemy command. Around 8:00 am, the sun will rise high enough and 
+start burning away the fog, and visible range will gradually increase to its 
+maximum range of several miles. Also, units in combat will block line of 
+site to the units behind them. Due to the largely clear terrain and number of 
+units, this will usually not be sufficient to hide the units behind those in 
+combat. However, occasionally it will, and can lead to some unexpected 
+reinforcements for the enemy. Thus, it is wise to use the highly mobile Light 
+Cavalry to keep watch on the enemy. 
+
+20). ARMY DEMORALIZATION 
+During the game, the computer constantly tabulates the number of 
+destroyed, routed, and disorganized units for each army, according to the 
+following formula: 
+
+Destroyed Units: 4 x Unit's Value 
+Routed Units: 2 x Unit's Value 
+Disorganized Units: 1 x Unit's Value 
+
+A unit's value depends on its significance. Guard Units are weighed 
+more heavily than small, unimportant units. For stacks, calculations are 
+done separately for each unit in the stack (in other words, a stack does not 
+count as one unit). If the sum of these points is ever greater than a 
+predesignated value, that army is said to be demoralized. The opposing 
+side's anthem is played and each unit in the demoralized army has its 
+maximum morale permanently reduced. Also, a demoralized army's 
+strength lost due to rout (those who run away or were captured) is counted in 
+the casualty totals for victory determination. The number of men lost when a 
+unit is routing is usually fairly large. Therefore, demoralizing the enemy 
+army (and getting the extra points) is usually crucial to winning. A short 
+time after one side is demoralized, the other side will get a bonus added to 
+their army morale as victory becomes certain. Even so, it is not wise to accept 
+demoralization of the enemy as the end-all to victory, thus sending every unit 
+blindly forward. This will usually result in your own army becoming 
+demoralized as your units hit enemy pockets of resistance piece meal and are 
+routed themselves! 
+
+21). WINNING THE GAME 
+The score is calculated by starting with a base score, adding in the number 
+of Allied killed/wounded and then subtracting the number of the French 
+killed/wounded. In addition, if an army is demoralized, the men of that 
+army who were lost due to rout are also counted. At the end of the game, the 
+computer will analyze the final score and tell you the Historical outcome 
+based on the battle. 
+- Page 13 - 
+
+For a Marginal Victory, a short version of the victor's anthem will be played. 
+For a Decisive Victory, a long version of victor's anthem will be played. 
+For a Draw, no anthem will be played. 
+
+22). SETTING THE SPEED AND PAUSING 
+To pause the game, just press 'P'. To resume the game, do any game 
+action or press 'G'. The number keys are to control how fast the game plays. 
+The settings are as follows: 
+
+1 = 1 second per game minute 
+2 = 3 seconds per game minute 
+3 = 5 seconds per game minute 
+4 = 7 seconds per game minute 
+5 = 10 seconds per game minute 
+6 = 15 seconds per game minute 
+7 = 20 seconds per game minute 
+8 = 30 seconds per game minute 
+9 = 60 seconds per game minute 
+0 = execute 1 game minute, then stop. 
+
+Please note that these are target times. In the bigger scenarios, the clock 
+will only advance after the mover, combat, and if the computer is playing, AI 
+routines execute. Selecting a speed faster than the computer is executing will 
+not have an adverse affect on the game, but it may not go that fast. If 'O1 is 
+pressed, the game will stop the clock from advancing, yet allow you to still 
+give orders. That way, if things are more than you can cope with, you can 
+pause time. Remember, though, that in real life this could not be done. 
+
+23). SAVING THE GAME, ENDING THE GAME 
+To save the game, press 'F3'. The game will stop and a "SAVE GAME" 
+screen will appear. Type in the name you wish to use for the saved game file. 
+You may use up to 8 characters. The game will add a .BOX extender to the 8 
+character filename that you have chosen. You may end any game at any 
+time, and see your current score by pressing 'F9'. This ends the game, after 
+saving the game you can resume the game by pressing 'F4' or start another 
+game by pressing 'F10'. Note that your current score is displayed in the upper 
+right hand side of the screen. If it looks low during the course of play, 
+remember that when you demoralize the enemy, it will jump in your favor 
+(higher for French, lower for Allies), and if you are demoralized, it will 
+jump in the enemy's favor. 
+- Page 14 -
+
+PART II 
+1). HISTORY 
+With English gold supporting Royalist plots against France, and 
+Napoleon training what would eventually be the Grande Armee', the Treaty 
+of Amiens was destined to fail. In 1805, England formed the Third Coalition, 
+consisting of Austria, Russia, Naples and Sweden. Napoleon wished to 
+invade England, and stop the wars at their source. However, English 
+domination of the seas, and the gathering storm to the east led to a drastic 
+change in plans; before his enemies could combine for their advance into 
+France, he would have to swiftly deploy eastwards and defeat them in detail. 
+For the Allies, it was a matter of survival for their regimes. They had 
+first thought little of the French Revolution, but now for ten years they had 
+been at war, first with the radical revolutionaries who pledged that all kings 
+should die, and next with the unconquerable Napoleon. For them, war was 
+necessary to reestablish the old order, which of course was how God intended 
+it to be. 
+The Austrians confidently went forward before their Russian allies 
+arrived, and paid for it at Ulm; an entire army surrounded and captured. 
+Within the first few weeks of the campaign, Napoleon stood triumphantly on 
+the Danube. 
+However, all was not safe for the Emperor. The Austrians had an army in 
+the south, and another organizing in the north. He was far from home with 
+his lines of communication unsafe and supplies running out. He had to end 
+the war. With the Russians finally arriving in strength, and desertion in 
+his army growing as the winter wore on, conditions seemed bleak. 
+The Allied plan under Kutuzov was sound . Wait and gather their 
+strength, and let the French retreat or fight a battle on the Allies' terms. But 
+when the young wolves on Czar Alexander's staff saw Napoleon in an 
+apparently weak position near Austerlitz, they had to give battle. Glory was 
+for those who acted! 
+Napoleon bloodied the bait with a feigned retreat off the Pratzen Plateau, 
+which ending the Allied debate. They would attack! Sweeping down off the 
+Pratzen they now possessed, they would turn Napoleon's weak right under 
+Legrand and roll up his entire army. Kutuzov asked what they would do in 
+case Napoleon did not sit still for their masterpiece? He spent the rest of the 
+battle asleep or drunk, unheard. 
+December 2nd opened with a thick fog. The Allies set their plan into 
+motion, not knowing that Napoleon intended to smash their center just as they 
+left the Pratzen. As long as Legrand could hold the Allies just a little while, 
+the Allied army's fate was virtually sealed. The Allied advance was slow 
+and bungled. Entire columns crossed through each other. Legrand was 
+pushed behind the brook, but Davout arrived in time from the south, leaving 
+the Allied advance stymied. As the sun rose over the hills and burned away 
+the fog, Napoleon launched Soult (St. Hilaire and Vandamme), against the 
+Pratzen. The decision swayed in the balance for a short time, but finally the 
+Allied line broke, and the plateau was taken! 
+-Page 15- 
+
+At the far left of the French line, Lannes and Bagration sparred off with 
+the opposing Heavy Cavalry of both armies charging each other, making 
+much noise but with little results. On the right, Napoleon personally directed 
+the destruction of the Allied left while Bernadotte thwarted Constantino's 
+attempt to save the Allied center. 
+Around 4:30 pm a snow storm brought the battle to an end. The French had 
+won a decisive victory, while Czar Alexander was left weeping. The French 
+had less than 2,000 dead, with approximately 7,000 wounded. The Allies 
+suffered at least 15,000 killed and wounded with a further 10,000+ captured. 
+The French took home forty-five enemy standards and over 180 Allied 
+cannon. The Russians returned home, and the Coalition collapsed. The 
+ruling members of English aristocracy raged... the revolution would live! 
+
+2). THE SCENARIOS 
+SUN OF AUSTERLITZ - Breaking of the Allied Center 
+8:30 am to 11:00 am 
+Scores 
+Allies need: below 13,000 
+French need: over 18,000 
+Knowing the Allied intentions of trying to turn his flank, Napoleon 
+planned to wait until the Pratzen Plateau was void of the enemy, then quickly 
+attack it cutting the Allied army in two. However, the Allied incompetence 
+was even worse than Napoleon thought! The divisions of St. Hillaire and 
+Vandamme met the conscripts of Kollowrath, the Russians of Milorodovich, 
+who recalled several units from the Prybyshevsky's III column, and the 
+French found themselves outnumbered! However, a stiff charge by 
+Vandamme broke Milorodovich, sweeping the Allies from the plateau and 
+sealing the fate of the Allied army. 
+
+CHECKED BY DAVOUT! Fight for the Lower Golbach 
+6:30 am to 10:30 am 
+Allies must attempt to get 16 units at least 2 squares south of the Brook. 
+French must stop them. 
+This scenario depicts the early morning struggle on the French Right. 
+The Allies planned to swiftly turn the French flank and get behind 
+Napoleon's army, crushing it in the process. However a stubborn defense by 
+Legrand and the timely arrival of Davout halted the advance, and led to the 
+complete destruction of the Allied attack columns when St. Hillaire and 
+Vandamme of Soult's IV Corps suddenly appeared in their rear and drove 
+them into the Frozen Ponds. 
+- Page 16 -
+
+DON'T LET THEM ESCAPE 
+9:00 am to 3:00 pm 
+Scores 
+Allies need: below 30,000 
+French need: above 37,000 
+While the battle was fought and won on the right of the French line, both 
+sides expected the left to be a pinning maneuver. Historically, when the battle 
+was lost for the Allies, Bagration fought a stubborn defense and saved his 
+troops, forming the nucleus of the army which would later face the French in 
+1807-1808. 
+
+HISTORICAL BATTLE 
+6:30 am to 4:30 pm 
+Scores 
+Allies need: below 48,300 
+French need: above 88,450 
+This allows you to play the entire battle as the side of your choice. 
+However, regardless of the side you play, you will be forced to decisively 
+defeat your opponent, and time will be the critical factor. The battle is 
+relatively short, and so while you must move quickly, you must also give your 
+units time enough to get in the optimum positions, otherwise the bulk of the 
+enemy can slip away. Unlike in many turn games, where timing is washed 
+away and lost in countless phases, and where the sense of timing is simulated 
+with percentage chances of your units moving, here you control when the key 
+blow is made. Remember, he who takes the battlefield can claim to have won, 
+but he who wins the war writes the history! 
+
+BERNADOTTE'S BETRAYAL 
+6:30 am to 4:30 pm 
+Scores 
+Allies need: below 48,300 
+French need: above 88,450 
+Marshal Bernadotte was one of the many individuals who wanted a hand 
+in ruling France, but lost out when Napoleon seized power. Though receiving 
+his Marshal's Baton in 1804 (because he married Napoleon's old girlfriend 
+Desiree) he remained extremely jealous of Napoleon, ultimately betraying 
+him and fighting against France. This scenario is the same as the 
+Historical Scenario, but theorizes that Bernadotte might have conveniently 
+not made it to the battle. This leaves the French without their strongest 
+reserve Corps, and improves the Allied chances considerably. 
+- Page 17 - 
+
+DAVOUTS FAILURE 
+6:30 am to 4:30 pm 
+Scores 
+Allies need: below 48,300 
+French need: above 88,450 
+Davout NEVER failed. Napoleon's equal on the battlefield, he held the 
+right of Napoleon's line more times than any other Marshal. This scenario 
+theorizes that Davout does not make it to the battlefield. While he historically 
+only made it with half of his command, it was enough to check the Allied 
+advance, and allow Napoleon to destroy the Allied Army! 
+
+EGADSI 
+6:30 am to 4:30 pm 
+Scores 
+Allies need: below 48,300 
+French need: above 88,450 
+This scenario combines Bernadotte's Betrayal and Davout's Failure. 
+Historically, Napoleon did not use Oudinot's Grenadiers or the Imperial 
+Guard. Bernadotte was in fact used sparingly. It has been estimated that 
+Napoleon used 45,000 men to defeat 90,000. For the French, this scenario 
+makes any mistake costly. For the Allies, I hope you can finally win. 
+
+3). BIOGRAPHIES OF LEADERS 
+Three leaders of each side are provided, each of whom fights the battle 
+differently. For added variation, each side can have any of the six leaders 
+command it. 
+
+THE FRENCH 
+Ney, Michel (1769 - 1815). "Bravest of the brave". Enlisted in the army in 
+1788, rose to rank of Marshal of France in 1804. Ney served in all major 
+Napoleonic Campaigns, and distinguished himself as a competent tactician 
+and excellent rear guard fighter when he managed to keep his head. Ney was 
+a man of extremes, he either clung to the letter of his orders, or disobeyed them 
+completely. Throughout his career he never quite managed to learn the art of 
+combined arms, which was demonstrated most disastrously at Quatra Bras 
+and Waterloo in 1815. 
+
+Davout, Louis Nicolas (1770 - 1823). "The Just". Commissioned in the 
+Cavalry in 1789, he was later expelled from the army at the beginning of the 
+French Revolution for insubordination. Returned to military service in 1792 
+as a commander of a volunteer battalion. To the surprise of many, Davout 
+- Page 18 -
+
+was made a Marshal in 1804. Famous for his defense of Hamburg 1813-14, 
+surrendering only after Napoleon's first abdication, Davout is considered by 
+some to be a tactical equivalent of Napoleon. He was cold, methodical, 
+incorruptible, and quiet. An expert organizer, his troops were always the best 
+trained, equipped and disciplined on the battlefield. Through his career, 
+Davout proved to be one of the greatest military leaders of the Napoleonic era. 
+He was never defeated. 
+Historically Davout commanded the "vaunted" III Corps of the Grande 
+Armee, whose timely arrival on the French right stymied the allied advance. 
+Davout as an opponent, should offer a challenge to the experienced player. 
+
+Bonaparte, Napoleon (1769 - 1821). Emperor of the French, Napoleon 
+gained the rank of General and command of the Army of Italy in 1796 by 
+distinguishing himself at the Siege of Toulon, and later by dispersing a 
+royalist mob with the famous "whiff of grape shot". Victory followed victory 
+as Napoleon demonstrated strategic understanding never before seen in the 
+history of war. After a failed campaign in Egypt, where Napoleon was trying 
+to strike at English trade and relieve France from England's menacing war 
+effort, he returned to a France defeated on many fronts and with the ruling 
+Directory corrupt and failing. Many different groups were scheming for 
+power, but Napoleon, with the help of his brother Lucien, acted and seized 
+control. After the Battle of Marengo destroyed the Second Coalition, Napoleon 
+achieved peace with the Treaty of Amiens. On December 2nd, 1804, Napoleon 
+was crowned Emperor of the French after a huge plebescite in his favor. He 
+went on to make France Europe's most socially and intellectually advanced 
+country, while beating off the attacks of European Monarchies. In 1812, with 
+news of Russia's betrayal of the Treaty of Tilst, and with hope to end the wars 
+once and for all, Napoleon attempted to invade and subdue Russia before the 
+war was brought into Central Europe. However, years of victory left Napoleon 
+complacent, and he was defeated. Napoleon again demonstrated his 
+brilliance in 1813 and 1814, but the European Monarchies stirred up 
+Nationalism (which eventually destroyed them) to defeat the "aggressive" 
+French. Napoleon was exiled, but returned in 1815 for the "Hundred Days". 
+He eventually lost at Waterloo, but secured for himself the solitary place in 
+history as the greatest soldier the world has ever seen. Historically, 
+Napoleon commanded the French army and crushed the Allies. The Grand 
+Armee's confidence and morale under Napoleon was at its highest peak. 
+Only those commanders who have learned the art of Napoleonic Warfare, 
+should attempt to oppose Napoleon. 
+
+THE ALLIES 
+Czar Alexander. Came to power after the murder of his father, Paul. 
+Participated in much of the Napoleonic Wars, though he know nothing of 
+military matters. He felt he was the savior of Europe from Napoleon while 
+stifling the freedom of his own people. He did show remarkable steadfastness 
+in the Russian Campaign and introduced many reforms in the Russian 
+Military. 
+- Page 19 - 
+
+Historically, he was in command of the Austro-Russian army, though he 
+was easily persuaded by those who spoke of victory and ignored Kutusov's 
+pleas to wait. Alexander should provide the easiest opponent for the new 
+commander. 
+
+Bagration, Peter (1765-1812),. Entered the Russian Army in 1782, and by 
+1799 had served with distinction against the Turks and in Poland. In 1808, he 
+made a daring march across the frozen Gulf of Finland to seize the Aland 
+Islands from the Swedes. He was mortally wounded at the battle of Borodino 
+in 1812. 
+Bagration, though tactically tenacious, never demonstrated any strategic 
+skill, and was unfit for large independent command. A furious, stubborn, 
+inspiring leader of men, he was much like Ney: personally fearless, 
+reckless, and very aggressive. At the Battle of Austerlitz, he commanded the 
+Advance Guard, the finest Allied troops on the field. While a much better 
+leader than Alexander, he was not as cautious or thoughtful as Kutusov, thus 
+providing a moderate opponent on the battlefield. 
+
+Kutusov, Mikhail Larionovich (1745-1813). Entered the army in 1759. 
+Served in Poland, 1764-69, and against the Turks, 1770-74 and 1788-91. In 
+1805, he commanded the Russian expeditionary force sent to aid Austria. He 
+filled administrative posts thereafter until 1812 when he was recalled to 
+supreme command against Napoleon. 
+Wise and cautious, more than any other allied leader he knew the 
+limitations of his men, and the potential of the enemy. Only he saw the 
+impending disaster at Austerlitz, but was out-voted by Alexander I, and his 
+war-hungry staff. He will provide the greatest challenge of the Allied 
+leaders. 
+
+Players new to real-time games may find the gap between the traditional 
+turn oriented board games and the realism of simultaneous execution 
+frustrating. We recommend that new players first master the art of defense 
+with the first scenario and read the following commentary by Field Marshal 
+R. Cromwell Bastian III, veteran of 1'Battaile de la Playtestour'. 
+
+4). TACTICAL NOTES FOR THE SUN OF AUSTERLITZ 
+SCENARIO 
+December 2nd, 1805 
+Attention soldiers of Austro-Russian Army: 
+In order to properly send the heads of Vandamme and St. Hilaire back to 
+Napoleon on a silver platter, we must remember that ours is a defensive 
+position, and the attack will only be used when victory is certain. 
+Because firepower is greatest when line formation is used, it is the best 
+defense possible. Stacked units may not use line formation, so we must 
+unstack our combined units. We will then deploy in line formation on the 
+left of the map (our right flank), at a position near the crest of the slope. Due to 
+our position, the French will be advancing up the slope. 
+- Page 20 -
+
+This will slow them down, allowing us more time for counter-maneuver 
+and fire combat. Our main strength lies in the 23rd Infantry regiment. We 
+will use this behemoth as the keystone by positioning it in the middle of our 
+line. Although our regiments are small, we have many so that a reserve of 
+one or two regiments may be kept just behind our center. Column formation 
+should be used for these reserves, thus adding a speed of deployment that will 
+allow them to quickly fill any gaps, and a morale bonus in case melee is 
+necessary. In the event of one of our regiments breaking, we must 
+immediately move one of the reserve units into the open cavity. The 
+positioning of our foot artillery unit is of the utmost importance. It is the 
+strength that will hopefully ward off any French attempt to break our defense. 
+Its deployment should be in the center behind our line, thus providing a 
+devastating bombardment that will protect our entire Corps. 
+Our tactics should be the same for the Russians. While Kollowrath's 
+Austrians are holding the right flank, the Russians will be defending the left 
+flank. Again, positioning of reserve regiments just behind our line is very 
+important so that any French breakthroughs will not be exploited. Our 
+Russian foot artillery should be deployed behind our center providing fire to 
+all fronts. 
+After the French have repeatedly beaten themselves against on our line of 
+musket fire, and has disorganized and is retreating, THIS is the time to stike 
+and wipe up the lot. By shifting Kollowrath's Austrians into column 
+formation, we may attempt to envelope the French by moving around their left 
+flank. With our Russians, we will move in column towards their center (or 
+what's left of it) and attempt to engage in melee using our larger regiments, 
+thus pinning the enemy and allowing time for the Austrian envelopment. 
+With all successful, the French center will be broken, and allow us to destroy 
+their entire army. 
+Having vanquished the French in the introductory 'Sun of Austerlitz' 
+scenario, you probably are ready to take the command of an entire army and 
+lead them to victory. If so, then you will find it necessary to attack. Many 
+new players find attacking difficult, and become frustrated when their units 
+rout. Here are some tips to help you find success. Have units arrive at the 
+point of attack at the same time. If they advance alone, then they will probably 
+be repulsed. When faced with a line of defense, try to maneuver around a 
+flank where you can put three units against one. Multi-unit attacks are very 
+successful, and can lead to a domino effect along the enemy line. 
+Use cavalry to threaten infantry without engaging. If the infantry goes 
+into square, use friendly infantry to enter into fire combat, and artillery to 
+bombard the compact formation. If the enemy comes out of the square, then 
+have the cavalry advance along with infantry, but still do not engage. The 
+most common mistake in this game is to feel that once units are adjacent, one 
+should have them melee. Most casualties are caused by fire combat, and 
+when an enemy unit routs. 
+Heavy cavalry are the elite of your shock troops. However, they were also 
+fragile. It takes time to reorganize after a charge, and they become fatigued 
+quickly. Save the heavy cavalry for moments of decision, and if you win the 
+battle without using it, consider yourself a better General. 
+-Page 21 - 
+
+And finally, learn when to slow down the pace and allow your army to 
+recover. Pushing them too hard can cause your army to demoralize, even at 
+the point of victory. 
+
+5). DESIGNER'S NOTES 
+There is no comparison between Austerlitz and other wargames. 
+Austerlitz is the first computer wargame to begin to utilize the computer's 
+capabilities on a Grand Tactical scale, unlike those weak, slow, unrealistic 
+board game clones. The Artificial Intelligence which drives the computer 
+player is broken into three levels. On the Grand Tactical or highest level, the 
+computer analyzes the battle to determine broad concepts: where to attack, who 
+to send and when to retreat, or launch an all out attack. 
+Once this is decided, another module handles the coordination of the 
+maneuver elements (divisions, Corps, columns). This was, by far, the most 
+difficult element in the design. From this module, targets for each Corps are 
+selected which are most likely to bring about the success of the Grand Tactical 
+plan. 
+With these targets, the tactical module takes over and gives the orders to 
+the individual units. Here things like artillery fire, units going into line to 
+fire or column to assault towns, and the commitment of cavalry are decided. 
+Also, the status of the Corps is checked, and if necessary, the tactical module 
+can override the Corps orders and give them new ones. 
+Leaders are very, very important, though there are none to move around. 
+The army leaders affect the way the Grand Tactics are decided. Each 
+maneuver element is also rated based on the leader involved, and any other 
+factor which might affect its performance. One should find playing the 
+French against the Allies a tremendous difference between the easy and 
+hardest level. Instead of just affecting the numbers in the calculations, the 
+computer will actually change its tactics and utilize its army better. I was 
+tired of having to lower my side's morale, and a number of other things in 
+order to have a real challenge! 
+In the real battle, the French command system functioned well, though 
+there were some problems when Napoleon was directing the destruction of the 
+Allies near the ponds. It appears that somehow Murat and Lannes on the far 
+left did not receive Napoleon's orders to advance, and Bagration got away. 
+The Allied system was abysmal. Some Allied orders were not even issued 
+until after 8:00 am... and the battle had been decided! In fact, the AI for this 
+game is many times better than the historical Allied command, but was kept 
+this way for gaming purposes. With this AI system, there are 3906 possible 
+targets for each of the 140 units. Of course the deployment of the armies 
+certainly does cut this down, but I feel not having a system based on 
+predefined locations makes this game a great improvement over many that 
+exist today. With the AI the way it is, we could also offer the player Corps 
+Orders. With this, the player takes over the responsibility of the Grand 
+Tactics and Corps Coordination, but allows the computer to handle the tactics 
+of a particular situation. 
+- Page 22 -
+
+This is not only more realistic, but allows one's attention to be centered on an 
+event without the battle being lost out of view. But, also like history, you as the 
+commander can take personal control over any Corps at any time. 
+The 'real-time' also allows for a much greater feel for how the battles were 
+fought, and the decisions made. There are no turns and phases, and no 
+ridiculous rules or 'points' to limit things that could not have happened in 
+real life, but usually do in board games, or computer board games. A manual 
+should explain how to play, not list rules which limit the player. Rules are 
+themselves attempts to cover up a limitation in the system. An example of this 
+would be the cavalry dilemma in a board game. Because of their high rate of 
+movement, cavalry could usually get behind units in their movement phase 
+and cause the elimination of a unit unrealistically. To counter this, rules 
+were developed to hinder the movement of cavalry, the most popular being a 
+morale check before they moved in case they decided 'not to go'. However, 
+this in itself is a horrible solution which has now infiltrated the computer 
+industry. In Austerlitz, cavalry are moved at will. Because the enemy can 
+react to their movement , surrounds are naturally difficult to achieve. This is 
+how it should be. 
+This game was designed to be quick, exciting, and highly playable. Most 
+importantly, enjoyment and fun has been brought back to the stagnant world 
+of computer wargames. I hope the other bigger companies will spend a lot 
+more time on each release so that the industry can be revitalized and the 
+current decline of military simulations can be halted. Vive 1'Empereur! 
+
+Stephen M. Beckett II 
+
+6). ORDER OF BATTLE 
+Each Maneuverable Leader has his name in BOLD. Following that is a 
+rating of how that element responds to Corps ORDERS, (based on Strength, 
+Morale, and Leadership) 
+
+French Order of Battle: 
+I Corps Bernadotte, Marshal Jean Baptiste Jules (Below Average) 
+
+Kellerman 
+ Hussars             1310 Lt. Cavalry
+Rivaud 
+ 8th                 1910 Infantry 3 Guns 
+ 45th                1650 Infantry 
+ 54th                1570 Infantry 
+Drouet 
+ 27L                 2010 Infantry 3 Guns 
+ 94th                1830 Infantry 
+ 95th                2060 Infantry 
+8th Ft Artillery     18 Guns 
+
+- Page 23 - 
+
+III Corps Davout, Marshal Louis Nicolas (Average) 
+
+Friant 
+ 108th                  845 Infantry 
+ 15 L                   467 Infantry
+ 33rd                   750 Infantry 
+ lllth                  664 Infantry 
+ 48th                   583 Infantry 
+Bourcier             
+ Dragoons               1447 Heavy Cavalry 3 Guns 
+ 2nd H. Artillery       9 Guns 
+ 
+IV Corps Soult, Marshal Jean de Dieu 
+St. Hilaire (Above Average) 
+ 10 L                   1500 Infantry 
+ 14th                   1600 Infantry 
+ 36th                   1600 Infantry 
+ 43rd                   1600 Infantry 
+ 55th                   1600 Infantry 
+ 5th Ft. Artillery      16 Guns 
+
+Vandamme (Above Average) 
+ 24L                    1350 Infantry 
+ 46th                   1610 Infantry 
+ 57th                   1830 Infantry 
+ 4th                    1880 Infantry 
+ 28th                   1690 Infantry 
+ Laribois Artillery     17 Guns 
+
+Legrand (Above Average) 
+ 26L                    1400 Infantry 
+ 18th                   1200 Infantry 
+ 75th                   1200 Infantry 
+ Tir corses             450 Infantry 
+ Margaron 
+  Ch.a' Cheval          735 Lt. Cavalry 
+
+V Corps Lannes, Marshal Jean 
+ Suchet (Above Average) 
+ 17L                    1450 Infantry
+ 34th                   1300 Infantry
+ 40th                   1360 Infantry
+ 64th                   855  Infantry
+ 88th                   1590 Infantry
+ 7th Ft. Artillery      22   Guns
+- Page 24 -
+
+V Corps (Cont'd) 
+
+Caffarelli (Above Average) 
+ 13L                    1380 Infantry 
+ 17th                   1420 Infantry 
+ 30th                   1170 Infantry 
+ 51st                   1200 Infantry 
+ 61st                   1230 Infantry 
+ Fauconnet 
+  Ch.a' Cheval          500 Lt. Cavalry 
+
+Murat, Marshal Joachim (Above Average) 
+ Cavalry Reserve 
+  Division Nansouty      1390 Heavy Cavalry 
+  Division D'Hautpoul    1045 Heavy Cavalry 
+  Division Walther       1245 Heavy Cavalry 
+  Division Beaumont      1250 Heavy Cavalry (Commanded by Boye)
+  Division Milhaud       425  Light Cavalry
+  Division Treilhard     305  Light Cavalry
+  Mossel Horse Artillery 12   Guns 
+
+Emperor's Reserve 
+ Division Oudinot (Above Average) 
+ 1 Rgt.d'elite           980  Infantry 
+ 2 Rgt.d'elite           1100 Infantry 
+ 3 Rgt.d'elite           1090 Infantry 
+ 4 Rgt.d'elite           1000 Infantry 
+ 5 Rgt.d'elite           1230 Infantry 
+ Reserve Artillery       10   Guns 
+
+Imperial Guard 
+ Bessieres, Marshal Jean Baptiste (Above Average) 
+ Gren.a' Pied            1345  Infantry 
+ Chas.a'Pied             1270  Infantry 
+ Gd Royal                700   Infantry 
+ Ordener                 1035  Heavy Cavalry 
+ Imp.Gd. H.Arty          24    Guns 
+ Santone Arty            18    Guns (Can not move) 
+
+Austro - Russian Army: 
+
+Kienmayer, Lieutenant Field Marshal Baron (Below Average) 
+Left Wind Advance Guard 
+ N.7 Frontier             500   Infantry 
+ N.14 Frontier            1300  Infantry 
+ N.15 Frontier            1300  Infantry 
+ Nostitz                  1000  Infantry 
+ Stutterheim              1940  Lt. Cavalry 
+ Stutterheim              12    Guns 
+
+- Page 25 - 
+
+Dokhturov, Lieutenant general (Average) 
+First Column 
+Lewis
+ 7 Jag                   650    Infantry 
+ New Inkermanland        2000   Infantry 6 Guns 
+ Yaroslav                2000   Infantry 6 Guns 
+Leiders 
+ Vladimir                2000   Infantry 6 Guns 
+ Bryansk                 2000   Infantry 6 Guns 
+Urusov 
+ Vyatka                  2000   Infantry 6 Guns 
+ Moscow                  1400   Infantry 6 Guns 
+ KievGren                1000   Infantry 4 Guns 
+ 3 Ft. Artillery         24     Guns
+
+Langeron, Lieutenant General Count (Average) 
+Second Column 
+Soulima 
+ 8 Jag                   1970 Infantry 5 Guns 
+Olsuvev 
+ Vibourg                 2000 Infantry 5 Guns 
+ Perm                    2000 Infantry 5 Guns 
+ Kursk                   2000 Infantry 5 Guns 
+Kamensky 
+ Ryazan                  2000 Infantry 5 Guns 
+ Fanagoria Gren          2000 Infantry 5 Guns 
+
+Prebyshevsky, Lieutenant General (Below Average) 
+Third Column 
+Muller 
+ 7 Jag                   1275 Infantry 5 Guns 
+ Galicia                 1500 Infantry 5 Guns 
+ Butyrsk                 1700 Infantry 5 Guns 
+Wimpfen 
+ Narva                   1600 Infantry 5 Guns 
+ Podolia                 700 Infantry 5 Guns 
+ Azov                    900 Infantry 5 Guns 
+
+Miloradovich, Lieutenant general (Below Average) 
+Fourth Column 
+ Adv. Gd. Apcheron       500 Infantry 
+ Adv. Gd. Novogorod      1330 Infantry 6 Guns 
+Berg 
+ Little Russia Gren      1500 Infantry 6 Guns 
+ Smolensk                1500 Infantry 6 Guns 
+Repninsky                
+ Novgorod                670 Infantry 
+ Apcheron                1000 Infantry 
+
+Ft Arty.                 12 Guns 
+
+- Page 26 -
+
+8). FREQUENTLY ASKED QUESTIONS
+
+Q: Why don't my infantry units stack?
+A: There are a number of requirements for units to merge together. First,
+they must be of the same formation. (Corps or Column). Second, the limit in
+one square is 6350 men. Third, the units must start adjacent to each other.
+This was done to prevent accidental stacking when units are ordered over
+large distances. The best procedure for stacking is as follows: move the units
+adjacent, have them stop, give one orders to move into the otehr.
+
+Q: How do I change an infantry unit's formation without moving it?
+A: With the cursor over the unit, press the fire button (spacebar first
+time). When the appropiate colur cursor (line or column) appears, move the
+cursor away from the unit. Then move it back to the unit and release the fire
+button (spacebar second time). This will not affect stacks.
+
+9). GAME CREDIS
+
+Game System Design: Stephen Marhsall Beckett II and Steve Krenek
+IBM: Stephen Marhshall Beckett II, Steve Krenek and Robert Crowell Bastian III
+Atari ST: Stephen Marhsall Beckett II and Robert Cromwell Bastian III
+C64: Ray Vallieres, Jr.
+Amiga: Jeff Jones
+Scenarios and Map: Stephen Marshall Beckett II
+Computer Graphics: Kurt Hoover and Stephen Marshall Beckett II
+Manual Layout: Steve Nolan
+Text Manual: Belgarath
+Order of Battle provided by: John Wladis
+Historical Consultants: John Wladis and Dave Naquin
+Playtesters: Duane Anthony Schell, Richard Griffith Schell, Steve Nolan,
+Douglas R. Oberle, Woody Nichols, Michael Gilchrist & Karlton S. Patton

@@ -1,0 +1,647 @@
+                           -----K-N-I-G-H-T-S-+---
+
+                         by Reaper Software 1993-1994
+
+
+
+
+Contests:
+
+1. Overview	General info
+2. Game Starting	How to start Knights?
+3. Game Controlling	Control methods and keys
+4. Game Menu	How to customize dungeons
+5. Screen setup	Layout
+6. Controlling your Knight	How to move and manipulate
+7. Dungeon Enviroment	What have we there?
+8. Stuff in Dungeons	What is this item?
+9. Critters	Creatures in dungeons
+10. Notes from creator	Avoid this! ;)
+
+
+
+-----------
+1. Overview
+-----------
+Knights is a two-player game of brave knights who wander deep in the 
+dangerous dungeons pursuing their goal.
+
+It includes:
+* Almost 250 dungeon floorplan bases which allows almost infinite 
+  number of different dungeons
+* Excellent sound effects and nice violence
+* Corpses and gore that does not vanish
+* Flexible quest customization
+* Creatures with nice sounds and fancy tactics
+
+Game requires two players and at least one joystick
+
+************************************************************
+* NOTE:	                          *
+* TO FULLY ENJOY THIS GAME YOU SHOULD CREATE FROM BOARD    *
+* OR BOOKS A SCREEN DIVIDER BETWEEN EACH HALF OF THE       *
+* SCREEN SO THAT NEITHER PLAYER CAN SEE HIS OPPONENTS      *
+* HALF OF THE SCREEN	                          *
+************************************************************
+
+It is written and compiled with AMOS 1.36
+
+It needs about 1 MB of memory and works in A500, A2000 and A1200 at 
+least. Now it works with AA, too and can be multitasked.
+In addition, NTSC is supported and screen can be repositioned
+
+
+This latest version is awfully complicated from that released half a
+year ago and includes innumerous additional features, including:
+
+* Bigger Dungeons
+* Wands, Books and various starting gear
+* Different missions
+* Improved knight control system
+* More efficient and varying dungeon generator
+* More dungeon basic elements and rooms
+* Clever monsters
+* New potions and scrolls
+* Information texts
+* Suicide possibility
+* Triggers and special traps
+* AA and NTSC support
+
+
+*******************************************************************
+* NOTE II:	                                 *
+*       KNIGHTS COME WITH ABSOLUTELY NO WARRANTY. ANY DAMAGE      *
+*     CAUSED TO MECHANICAL OR BIOLOGICAL THINGS IS NOT DIRECTLY   *
+*    CAUSED BY THIS GAME AND CREATOR IS NOT RESPONSIBLE FOR THEM  *
+*            IT DOES NOT SAVE ANYTHING OR MODIFY DISK             *
+*******************************************************************
+
+
+
+----------------
+2. Game starting
+----------------
+Boot with Knights disk or run it from WB
+
+Wait until game is loaded and irritating demo is over, and then just
+press fire of either joystick or space
+
+Because Knight #2 is controlled with joystick 0 (mouse port) selector
+may move uncontrollably at the start of the game if mouse is placed
+improperly on the board
+
+
+
+-------------------
+3. Game Controlling 
+-------------------
+Player #1 (left-side) can only be controlled with joystick #1 (left port)
+
+Player #2 (right-side) can be controlled with joystick #0 (mouse-port)
+and/or with cursor keys and right shift
+
+Game can be terminated at any time with ctrl+C when action returns to WB
+or CLI
+
+You may switch between CLI or WB and game with LAmiga+A
+
+You may reposition screen at almost every oppurtunity with CTRL+cursors
+
+During game Esc is used to return to game menu and Caps Lock to pause game
+
+
+
+----------------------------------------------------
+4. Game Menu (Dungeon Enviroment Customization Menu)
+----------------------------------------------------
+In this menu players can select various aspects of the games.
+Up/Down moves cursor and Right/Left changes value
+Fire is used to gain additional information, or mark ready status at 'continue'
+line
+
+
+
+Quest:
+------
+There are several predetermined quests, which you can select. They are only made
+to ease dungeon configuration, and do not include anything that could not be
+made manually.
+So, if you select some quest and then change, for example, number of gems, game
+is identical to selected quest except there are more gems. If you then reduce
+gems to original, quest name is still 'Custom' but it is completely identical to
+that previously selected
+
+
+
+Mission Specification:
+----------------------
+Main goal in the game. Requirements in each mission:
+
+-Escape from the Dungeon-
+Find the required number of gems (see below) and exit, and you are winner
+
+-Duel to the Death-
+There is no escape from the dungeon, and because lives are unlimited the only way
+to win is to secure all entry points with wand (see below)
+
+-Retrieve Wand and Escape-
+You must find wand from the dungeon and escape with it. In addition, you might
+need to retrieve some gems (see below)
+
+-Retrieve Book and Escape-
+You must find book from the dungeon and escape with it. Again, there might be some
+gems which must be collected, too.
+
+-Destroy book with wand-
+You must find book, and then bring it to the special pentagram at the top of stairs
+(very special place, it is easily distinguished from normal pentagrams)
+Then you must find wand and required number of gems and hit that book in penta
+
+
+
+Type of Book:
+-------------
+If you have selected mission with book, there is one hidden into the dungeon.
+Book is heavy and fighting with book in hands is impossible, so care should
+be taken when carrying it.
+
+-Lost Book of Ashur-
+General book with no special place or special effects.
+
+-Necronomicon-
+Book of Dark Magic is always in conjurer's room behind locked iron doors. When it
+is taken powers are unleashed and many corpses near book are raised as zombies.
+In addition, when book is carried Zombie activity is automatically at its maximum...
+
+-Tome of Gnomes-
+Book of Gnome Wisdom is always located behind clever traps or mechanical riddles
+
+-Ancient Book of Knowledge-
+Book is somewhere, and automatically grants map to its carrier. Alas, enemy is
+always aware of your location if you carry it.
+
+
+
+Type of Wand:
+-------------
+If there is any wands in dungeon they are all of same kind. Wands are carried like
+any other (melee) weapons and are used like them, too. When used, areas are filled
+with magical light. All targets must be physically hit with wand.
+
+-Wand of Destruction-
+Destroys any creature or wooden, breakable object
+
+-Wand of Undeath-
+Nasty wand which destroys zombies and turns enemy knight into one. In addition, no
+zombie will attack wearer of this wand.
+
+-Wand of Open Ways-
+Opens target, be it locked door or creature (*grin*)
+
+-Wand of Securing-
+Wand is used to 'secure' entry points so that enemy can use them no more. After all
+entry points are secured and enemy dies, he have no way to enter dungeon and have
+lost the game. Securing door does not prevent securer from entering from that point
+(unless other knight has already secured that location...)
+
+
+
+Number of Wands:
+----------------
+This needs no clarification?
+Some missions require that there is at least one wand in dungeon
+
+
+
+Number of Gems:
+---------------
+Total number of gems in dungeon.
+Gems are almost every time in chests but might be found from tables, too.
+
+
+
+Gems Needed:
+------------
+How many gems must knight carry in addition to any other mission requirements
+before he can win. 
+
+
+
+
+Dungeon Type:
+-------------
+General layout of the dungeon.
+If selected type is too 'small' for mission creation, it is automatically 
+enlarged.
+Snake dungeons are like very board corridors
+
+
+
+Premapped:
+----------
+Option to have dungeon automatically mapped before game
+
+
+
+Entry Point:
+------------
+Where shall knight enter dungeon.
+Entry point will keep same unless it is secured by enemy with wand of securing,
+when new is randomized.
+
+
+
+Starting Gear:
+--------------
+Knights may have additional equipment at the start of the game. The amouunt of
+extra stuff will decrease at each death.
+
+
+
+Exit Point:
+-----------
+Where is located that place from where knight can exit dungeon. If knight arrives
+at this location before collecting all required stuff he will be told what does
+he still need.
+
+
+
+Number of Keys:
+---------------
+How many different keys (and locks) there are. In addition to these keys, there is
+always at least one lock pick which can be used to open any locked door, if time
+is no problem...
+
+
+
+Pretrapped Chests:
+------------------
+Some chests might be pretrapped with poison needle or blade spring if this option
+is selected.
+
+
+
+Amount of Stuff:
+----------------
+How much varying stuff (see below) there are lying in floor and tables.
+
+
+
+Zombie Activity:
+----------------
+How quickly dead bodies will transform into the corpses and then raise to walk on
+Earth...
+
+
+
+Vampire Bats:
+-------------
+How much vampire killer bats there are in the dungeon.
+
+
+
+----------------
+5. Screen layout
+----------------
+
+Your game screen is divided into two parts. Upper part consists of view of room
+where your knight currently is.
+
+Lower part includes information (from left to right) like:
+-Skulls-
+Skulls  tell you how many times you have died. Fortunately lives are unlimited.
+
+-Bottle- 
+Bottle tells you your life status and if any special magical effect is currently
+affecting you. Colors are told in equipment part (chapter 8). If level of the
+liquid have lowered you should find healing potion or visit your entry point
+
+-Equipment-
+Any small equipment stuffed to your pouches is shown here.
+
+-Map-
+Dungeon map is drawn here.
+Knight automatically maps any room where he enters if there are no enemies to stop
+him.
+In addition, you may get map-scroll, or dungeon might be premapped, when borders
+for rooms not yet entered are drawn already.
+There is also a scroll named 'Wipe Map'. No need to tell how nasty it is.
+
+You are shown as a blinking dot in your map if are able to map your current room.
+In addition, there are scrolls that tell you your opponent's location. He is also
+shown as blinking dot in your map.
+
+
+
+--------------------------------------
+6. Controlling your Knight during game
+--------------------------------------
+
+Knight is controlled with joystick (or right sided alternatively with cursors and
+right shift)
+
+Shift+Alt is used to make suicide, if need to (never happened, but might be possible)
+Use keys on your side to suicide
+
+
+6.1 Moving
+----------
+Move your knight to desired direction by pushing joystick to that direction
+
+
+6.2 Fast item manipulating
+--------------------------
+Press fire with direction to use your item in hands:
+
+Sword and Maul are used to strike
+Axe is throwed or is used to strike depending of your situation
+Wand is zapped
+Loaded crossbow is fired
+Unloaded crossbow, staff or book is dropped
+
+Crossbow is automatically reloaded if you do nothing and have quarrels with you
+
+
+6.3 Parrying
+------------
+Your knight will automatically try to parry strikes coming from front, if he
+has sword, axe or staff in his hands, and no controller is touched.
+Parrying with staff is easier than parrying with sword which is easier than
+parrying with axe.
+Maul or X-bow are too clumsy and wand too fragile to used as parrying weapon
+
+
+6.4 Item manipulation in same square
+------------------------------------
+By pressing fire for a while you are presented with action menu as long as you keep
+fire pressed. By pushing joystick to correct direction action shown by icon is
+performed. Menu will remain as long as you keep fire button pressed.
+Action menu is used to pick up items, drop gems and other stuff,to set bear 
+traps and to pick locks.
+
+NOTE: You get default action simply by pressing fire for a very short period.
+Default action is picking and dropping items in square. Menu must be used when
+gems are dropped, daggers are thrown or bear trap is set.
+
+
+6.5 Item manipulation in square front of knight
+-----------------------------------------------
+By first approaching adjacent square and then pressing fire (without releasing 
+direction) you are presented with 'approaching' menu, which is used at the same way
+as action menu, except actions are different. In this menu you can set traps,
+pick locks and put to or take items from chests or tables.
+
+NOTE: Again, you may use short click for default action. Default action is
+opening, item taking and closing. Menu must be used when you want to pick lock
+or set traps.
+
+
+NOTE 2: Actions like opening and closing may be done in either menu.
+NOTE 3: Menus are normally only used when setting traps/picking locks/throwing
+	daggers, because short click is far more easier and faster
+
+
+
+
+
+---------------------
+7. Dungeon Enviroment
+---------------------
+
+Dungeon is hostile place with magical items and special places...
+
+
+7.1 Entry Point
+---------------
+Place where your knight enters game. If you are damaged visiting your entry point
+will heal your damage - slowly.
+If enemy uses wand of securing against your entry point, you will be given new
+entry point, which is then used for healing and re-entry.
+
+
+7.2 Exit Point
+--------------
+Place, which you must find to win (excluding Duel to the death and book destroying)
+Normally it is same as your entry point but it might be same as your enemies entry
+or even any unknown.
+If you must escape the dungeon with some items which you currently does not have,
+you will be told what are you missing.
+
+
+7.3 Pits
+--------
+There are bottomless pits. Do not enter. 
+
+
+7.4 Switches
+------------
+Some switches open doors or close pits. Some drops portucullis to your back. Some 
+triggers crossbows inside skulls and walls.
+
+
+7.5 Pentagrams
+--------------
+Some pentagrams are harmless.
+Others are not, and include powerful conjurations which may transfer your knight 
+invisible, invulnerable or even teleport you near your enemy.
+Alas, sometimes you change into the zombie.
+
+
+7.6 Crystal Balls
+-----------------
+There are crystal balls in some dungeons. Looking into one (approach it) will tell
+you where your opponent is in your map.
+
+
+7.7 Doors and Chests
+--------------------
+All doors and chests are closed at the start of the game. In addition, they might
+be locked. In that case, you must find suitable key or lock picks or simple smash
+the door or chest. Unfortunately there are also iron doors which cannot be breaked,
+only opened with keys or lock picks
+
+
+
+
+--------------------
+8. Stuff in Dungeons
+--------------------
+
+Floor and tables are filled with varying stuff...
+
+
+8.1 Sword
+---------
+Your knight always have his sword. If you take something big, he puts it to scabbard
+till you drop that new item.
+Sword is best weapon in melee, but cannot be thrown (Why?! Cries our Conan-clone) 
+and is hopelessly bad at breaking things
+
+
+8.2 Big items
+-------------
+There are some items that are so big that knight can carry only one with him at 
+the time.
+
+-Axe-
+Axe is acceptable melee weapon, which can also be thrown. In addition, it is far 
+more better than sword when you need to destroy wooden objects
+
+-Maul-
+Maul is mighty weapon - against inanimate objects. No wooden, breakable object
+can resist its force. In contrast, is it very bad melee weapon.
+
+-Staff-
+Staff cannot be used in melee in efficient way, because it is too light to cause
+any damage against armored knights. Instead, it is used to disarm traps. If you
+open a door or chest with staff in your hands, no trap will strike you.
+(NOTE: Because staff is so bad melee weapon it is automatically dropped if you
+press fire with direction (in open) If you really want to strike something with
+it, you must use menu)
+
+-Crossbow-
+Crossbow is powerful weapon - if it is loaded. To load a crossbow, you must have
+quarrels and patience. Knight will automatically load crossbow if you have quarrels
+and stay in place. If loading is aborted (by moving, for example) it must be
+started from start again.
+
+-Bear Traps-
+Bear traps in floor are armed or unarmed. Unarmed are harmless and can be picked
+up or walked over without fear.
+Armed beartraps are open. If knight walks into one he is damaged and stuck for
+a while. After that bear trap is unarmed. Armed traps may be 'fired' by striking
+them with some item. That will not harm item.
+Bear traps may be carried and dropped or set to certain, strategic places. In
+addition to slowing down your enemy they are quite useful 'audible alarms' because
+firing one will cause enough noise to alarm you.
+
+-Other-
+Book and Wands are big items, too. About their special uses read part 4
+
+
+8.3 Small items
+---------------
+Some items can be taken and carried with your knight
+
+-Gems-
+Some dungeons include gems, which must be at least partially retrieved. Gems are
+carried like other small items, but they can be dropped, too.
+(Why to drop gems? If you have many gems and your enemy kills you he gets them all
+and will easily win. By hiding some of them you know that he will not win if he
+just kills you...)
+
+-Quarrels-
+Quarrels are needed with crossbow. Either is useless without other.
+
+-Daggers-
+Daggers can be thrown from menu. Thay are quite harmless but not completely useless,
+and might prove very dangerous when combined with magical quickness and large
+quantites.
+
+-Keys-
+Keys are needed to open locked doors (well, at least if it is of iron). Fourth key
+is lock pick, which can be used to open any lock, given time.
+
+-Poison Needles-
+Poison needles are traps that kill knight which tries to open item trapped with 
+them unless he has poison immunity or invulnerability (or is equipped with staff)
+
+-Spring Blade-
+Set spring blade fires toward direction where it was put into the object if someone
+opens or strikes the object. It is as dangerous as crossbow, and can only be
+disabled with staff (or by coming from different direction)
+
+
+8.4 Potions
+-----------
+There are magical potions in the dungeon, which can be drinked by picking them up.
+Effects from them are unpredictable but mostly helpful. Here is list of different
+effects and their colors (in your life force potion)
+
+Healing (none) 				Heals your knight to uninjured state
+Poison immunity (flashing white)	Gives immunity against poison
+Poison (dark green)			Kills you!
+Paralyzation (green)			Paralyzes you for a while
+Strength* (blue)			Gives you superior strength
+Quickness* (violet)			Gives you superior speed
+Regeneration* (orange)			Gives you regeneration (auto-healing)
+Invisiblity* (black)			Makes you invisible
+Super* (multicolored)			Makes you strong, fast and regenerating
+
+(* only one of these may be in effect at the same time)
+All effects (except healing) are temporary
+
+
+8.5 Scrolls
+-----------
+In addition to potions, there are magical scrolls, too, which are read by picking
+them up. They effects are might be similar to potions, but they also have many
+different, like:
+
+Map			Map of the dungeon
+Teleport		Teleports you near your enemy or him to you
+Sensing			Gives you and/or your enemy knowledge of others location
+Treasury Sense		Gives you places of any gems, wands or books in area
+			which you have already mapped
+Invulnerabilty		Makes you invincible
+Map Wipe		You lose your map!
+Necromancy		You turn into a zombie! (*UAAAAAA*)
+
+
+
+-----------
+9. Critters
+-----------
+Dungeons may include some nasty creatures...
+
+
+9.1 Vampire bats
+----------------
+Blood-sucking bats with razor-sharp fangs which can pierce even plate armor. They
+are quite easily killed but can easily kill panicked knight. In addition, their
+sonar cannot be fooled with invisiblity.
+
+
+9.2 Zombies
+-----------
+Evil magic will cause corpses to turn into zombies. Zombies only exist to kill 
+living knights, they do not disrupt bats. Zombies are tough and can break down
+doors and tables, so they can easily wander around dungeon...
+
+
+
+
+
+----------------------
+10. Notes from Creator    
+----------------------
+
+I hope there is enough information in these documents to completely master knights
+
+Creation of this game have been a nice way of spending my time during weekends
+and evenings, and finally I feel it is ready enough to be _really_ released
+
+I want to thank my friends for help;
+
+Miku for supplying those awful sound effects...
+Rami, Tommi, A.P. and my brother for playtesting and ideas...
+
+
+And yet again, I repeat:
+To fully enjoy this game, _divide_ the screen with something. There is no fun in
+invisiblity if your opponent can see you just by looking at your side!
+
+
+Now, I turn my attention toward Art of War, nicest tank game ever created ;) and
+Visual-MUD, enormous gaming creation for UNIX
+
+If you find any apparent bugs send me mail. 
+
+If you like / dislike this game, send me email then, too.
+
+I like email
+
+You can also send me gifts, postcards etc. if you want to :)
+
+
+So, now back to creating 'smart' bots for Art of war...

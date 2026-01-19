@@ -1,0 +1,1745 @@
+        Welcome  to  Frontline.  This  file  tells  you  about  any
+      specific details and changes to this Amiga version.
+
+      STARTING FRONTLINE
+      ------------------
+        If you have a megabyte or more of memory, Workbench will be
+      loaded, and Frontline  can  be  started  by  clicking  on the
+      FRONT.PRG icon. If  you  only  have  512k,  Frontline will be
+      booted directly after you have been  given the option to view
+      this file, to  save  memory,  also  the  CLI  window  and the
+      Workbench screen will also be closed to conserve memory.
+
+      ADDITIONS TO ST VERSION
+      -----------------------
+        There have been some additions  to the version of Frontline
+      on the ST. To  start,  during  the  leader and support weapon
+      selection procedure, an extra  icon  (shaped  as a cross) has
+      been added to allow the selection  for the current unit to be
+      cancelled.
+        The  sound  effects  are   sampled,  rather  than  computer
+      generated - hopefully this gives a better atmosphere.
+        'Hidden' Units have also  been  added,  this means the only
+      enemy units you can see on the  map are those that are within
+      the line-of-sight  of  your  units.  This  means  you  can be
+      ambushed by a hidden enemy unit, but of course you can make a
+      surprise attack yourself.
+
+      LOADING & SAVING
+      ----------------
+        Before you start, it's a  good  idea  to format a couple of
+      blank disks, so that you can save a scenario if you need to.
+      The disks should be called  'FRONTSAVE' so that Frontline can
+      find them when it saves a game,  a script file is provided on
+      the Frontline disk for  this  purpose. Simply double-click on
+      the FormatSaveDisk icon on the  Frontline disk and follow the
+      instructions,  inserting  the  disk   to  be  formatted  when
+      prompted. If your  machine  is  512k  and  the Frontline disk
+      normally  boots  directly  into  the  game,  boot  with  your
+      WorkBench disk and then insert  the  Frontline disk to access
+      the utility (Note: There  will  not  be  enough memory to run
+      Frontline if your machine  normally  boots  straight into the
+      game).
+        You can only save one game  per  disk, sorry that this is a
+      bit cumbersome, but I didn't  have  time  to implement a more
+      elegant save/load method. In  most  cases  however, you won't
+      have to use the save option  as  the scenarios can usually be
+      finished in a couple of hours. Also, users with 512k machines
+      may not be able to save some of the larger scenarios.
+
+      PRINTER SUPPORT
+      ---------------
+        You can print out the current status of your units with the
+      Print Status option from the Units menu. If you boot from the
+      Frontline disk, the printer is setup to use a generic printer
+      attached to the  parallel  port.  You  will  have  to use the
+      Preferences program that  comes  on  your  Workbench  disk to
+      alter the configuration if required.
+
+      HARD-DRIVES
+      -----------
+        Frontline can be quite happily  moved on a hard-drive. (The
+      development of Frontline took place on a hard-drive and quite
+      happily lives there.) You  must  however,  have  at least one
+      megabyte of memory together with you  hard drive (as I'm sure
+      99.9% of hard-drive owners have)  because of the large amount
+      of memory a hard-drive eats.
+        Transferring via Workbench is easiest:
+
+      1) Create a drawer for Frontline  on the hard-drive, and drag
+      over all the icons on the Frontline disk.
+
+      2) Click on the HDInstall  icon  -  this  will copy ZRead and
+      IconX from the Frontline  disk  to  the  C:  directory of the
+      hard-drive. These programs are  used  by  the READ_ME.PRG and
+      HDAssign icons. Once this is  done,  the   HDInstall icon can
+      be deleted from the Hard-drive.
+
+      3)  Frontline  gets  the  scenario   data  from  the  logical
+      directory FRONTLINE: you can  either  insert  a  line in your
+      startup-sequence as follows,  'ASSIGN  FRONTLINE: path' where
+      path is the full pathname of the Directory where you have put
+      Frontline. Alternatively,  run  the  HDAssign  program, which
+      will set up everything for  you,  for that session. (You will
+      have to re-run it everytime you reboot). Make sure you remove
+      the Frontline disk before running this program, or it will not
+      run correctly.
+         This operation will allow for  future extra scenario disks
+      if produced.
+
+      THANK-YOUS
+      ----------
+        Ok, here goes, first  of  all  Alan  Lenton for writing the
+      original version of Frontline on  the  ST,  and for giving me
+      the job of converting it.  Thanks  to  Stuart Cupit for a few
+      spot graphic effects and  the  Workbench  icon when my dismal
+      artistic capabilities failed me.
+        Thanks to Nico Francois for PowerPacker which allowed me to
+      cram everything onto  one  disk.  (Well  worth  the Shareware
+      fee!)
+        Thank to you, the customer  for  buying  this game - I hope
+      you enjoy it!
+
+      John Chasey.
+      24th June 1990
+
+      A couple of words from Alan Lenton:
+
+      CHANGES
+      -------
+         As a result of comments  from  the playtesters, one or two
+      of the scenarios  have  had  the  forces  fighting the battle
+      altered. In particular the  number  of  Allied  squads in the
+      Cassino scenario has been reduced by about a third.
+
+      PLAYING THE SCENARIOS
+      ---------------------
+         Some of the scenarios  are  more  difficult than others. I
+      would suggest that the best order in which to play them is:
+            Assault on Hill 193 (covers  infantry units and support
+      weapons)
+            Pegasus Bridge
+            Stalingrad
+            Clear the Convent (adds an artillery unit)
+            Guadalcanal (adds off-map artillery)
+            Cassino
+
+      For the record, my favourite scenario  -  and that of most of
+      the playtesters - is  Pegasus  Bridge.  None of the scenarios
+      are impossible - but when you first start, you might find it
+      easier to turn off the  timer  (see  the manual for details).
+      Usually you will find it easier to play the defender.
+
+         One brief note on off-map artillery - since it is possible
+      to call down a barrage on  your  own head (very useful if you
+      are in a bunker and the opposition is in the open!) you can't
+      cancel a spotting round by clicking  on your own player. Find
+      a piece of dead ground and direct the round to that!
+
+      FURTHER SCENARIOS
+      -----------------
+         If the demand is great  enough,  then  I will produce some
+      further scenarios for the game.  These  will probably only be
+      available on Mail Order. To be notified of further scenarios,
+      please complete and return the  registration card in the game
+      box. Because of the fact that scenarios won't run without the
+      main  program,  it  is  unlikely   that  the  scenarios  will
+      available in the shops.
+
+      LAST WORD
+      ---------
+         Frontline is deliberately NOT copy protected, since I find
+      copy protection a pain, and I'm sure  you do as well. That is
+      why you can copy the game onto hard disks. Please don't abuse
+      the trust by giving copies to other people.
+
+         I hope  you  enjoy  playing  Frontline.  I'd  be  happy to
+      receive any comments, or suggestions for future scenarios.
+      You can send them to me  c/o  CCS, 14 Langton Way, London SE3
+      7TL.
+
+            Have fun
+
+                  Alan Lenton
+===================================================================
+-----------------------------------------------------------------------------
+ 
+                     F   R   O   N   T   L   I   N   E
+  
+                                     By
+ 
+                                 Alan Lenton
+ 
+                -- Docs Written by RYGAR / SCIENCE 451 ! --
+
+-----------------------------------------------------------------------------
+
+                        ----------------------------                           
+                        |         IMPORTANT        |
+                        |         ---------        |
+                        | Before Playing FRONTLINE |
+                        |  for the 1st time, Read  | 
+                        | the READ_ME file on your |
+                        | gamedisk, this will give |
+                        |  you information of any  |
+                        |extras the Amiga game has.| 
+                        ----------------------------
+
+-----------------------------------------------------------------------------
+ 
+INTRODUCTION
+ 
+The Second World War is rightly considered to be the place and time 
+when armoured forces came into their own. Sadly, the prominence 
+achieved by armoured forces has allowed the contribution of the
+infantry to be overlooked.
+ 
+As early as the first month of the war, the vulnerability of tanks to
+determined soldiers was demonstrated in no uncertain fashion. In the
+suburbs of Warsaw, 4th Panzer Division lost 60 tanks in a single day!
+ 
+Many of the battles in the Pacific were fought without the benefit of
+tanks, and most of the fighting in the cities of Europe and Russia was
+almost exclusively the preserve of the infantry. Frontline is a squad
+level simulation of some of the aspects of these battles. The battles
+chosen are drawn from different theatres of war, and, if there is a
+demand, I will produce scenario disks for other battles.
+
+In writing Frontline I have tried to produce a game which is playable,
+doesn't cheat in favour of the computer, tried to give some idea of what
+the battles were like, and helps give the player an understanding of
+basic infantry tactics. These objectives are contradictory, and only the
+player can judge whether the necessary compromises were correct!
+
+Players of board games will recognise many ideas and techniques in
+Frontline, but i have tried to make use of the strengths of the the computer,
+and minimise its weaknesses vis a vis board games. Where there was
+a clash between playability and simulation, I have usually come down
+on the side of playability.
+
+The most important factor affecting the performance of squads in
+Frontline is morale. I think it was Napoleon who said that `in war the
+spiritual is to the material as three is to one'. And he knew a thing or
+two about waging war! Thus the concept of morale and leadership is
+central to the game. Make sure that the squads in the key positions
+have adequate leadership, and they will be able to hold against the
+odds!
+
+                                                              Alan Lenton
+
+-----------------------------------------------------------------------------
+CONTENTS
+
+1.0   SETTING UP ............................................3
+        1.1  Choosing the Scenario ..........................3
+        1.2  Choosing Your Side .............................3
+        1.3  Allocating Leaders .............................4
+        1.4  Allocating Support Weapons .....................4
+
+2.0   THE GAME ..............................................5
+        2.1  Making Decisions ...............................5
+        2.2  The Screen/Terrain .............................6
+        2.3  Your Forces ....................................9
+
+3.0   THE CONTROL PANEL ICONS ..............................10
+        3.1  Instructing Your Units ........................12
+        3.2  Information - Infantry ........................12
+        3.3  Information - Artillery .......................13
+        3.4  Movement - Infantry ...........................14
+        3.5  Movement - Artillery ..........................15
+        3.6  Firing - Infantry .............................16
+        3.7  Firing - Artillery ............................17
+        3.8  Under Fire ....................................18
+        3.9  Support Weapons ...............................18
+        3.10 Barrage .......................................20
+        3.11 Close Combat ..................................22
+        3.12 Morale ........................................23
+
+4.0   GAME PROGRESS ........................................24
+
+5.0   THE SCENARIOS ........................................26
+        5.1  Introductory Scenarios ........................26 
+        5.2  Pegasus Bridge ................................27
+        5.3  The End at Stalingrad .........................28
+        5.4  Guadalcanal ...................................30
+        5.5  Cassino .......................................31
+
+6.0   ORDER OF BATTLE ......................................33
+        
+APPENDIX A - Infantry Fire Combat Results Table ............35
+
+APPENDIX B - Gun Calibre/Fire Power Equivalents ............36
+
+APPENDIX C - Artillery To Hit Table ........................36
+
+APPENDIX D - Gun Barrel Modifiers ..........................36
+
+APPENDIX D - Maps (RYGAR: NOT INCLUDED! BUY THE GAME!!).....37
+
+-----------------------------------------------------------------------------
+
+1.0   SETTING UP
+
+1.1   Choosing the Scenario
+
+The initial screen allows you to select one of the following 6 scenarios:
+
+   Assault on Hill 139 (Training)
+   Clear the Convent (Training)
+   Pegasus Bridge
+   Stalingrad
+   Guadalcanal
+   Cassino
+
+Select the GAME drop-down menu, click on SCENARIO, and
+information about the first scenario will appear. There will be two icons:
+
+-------
+| \ \ |   
+| / / |   Click to move to the next scenario.
+-------
+
+-------
+|---- |  
+| E \/|  Click to select the scenario currently displayed.
+-------
+
+Alternatively you can load a saved game; click on LOAD GAME and 
+follow the instructions on the screen.
+
+1.2  Choosing Your Side
+
+Once the scenario has loaded you must choose your side. Click on
+NEXT to switch between the two sides and SELECT to select your side.
+
+For each side you will be given information about the units. There are
+two types of unit - an infantry squad, consisting of five or ten men, or
+an artillery piece and its crew.
+
+For artillery units, you will be given the type of gun and its size.
+
+If the unit is infantry the numbers next to the unit's name refer to its
+firepower, range and morale - for instance, 4-5-7 means a firepower
+4, a range 5 and morale 7.
+
+You will also be told what support weapons each side has available,
+with the firepower and range for each weapon (where appropriate) -
+ie 5-11 means a firepower 5 and a range 11.
+
+Finally you are told what leaders are available and the appropriate
+combat modifier. Units with leaders do better in combat; the lower the
+combat modifier, the more effective the leader. Leaders can only be
+allocated to infantry squads - artillery pieces may or may not already
+have an artillery leader.
+
+1.3   Allocating Leaders
+
+Once you have selected your side you can allocate leaders. Information
+is shown about each squad. You can call up this information at any 
+time - it is explained fully in the Information sections. You will be told
+whether the unit starts the game off the map. If so, you are told on which
+turn it appears.
+
+-------
+| \ \ | This icon will move you through the available squads. When the
+| / / | chosen squad appears, click on the leader you wish to allocate. 
+-------
+        When you have finished allocating leaders, click. If you click
+------- before you have finished you can change your mind, but you 
+|---- | cannot re-allocate the leaders already assigned. Confirm that
+| E \/| you are happy with your allocation, and you will proceed to the
+------- next stage.
+
+1.4   Allocating Support Weapons
+
+The next screen allows you to allocate support weapons. You can only
+allocate support weapons to infantry squads.
+
+------- Use this icon to display the squad you wish to allocate to, then
+| \ \ | click on the weapon you wish to give it. There are three types of 
+| / / | machine gun - light, medium and heavy - but they all have the
+------- same icon.
+
+You are given information about the weapon you have selected - range
+and firepower, ammunition available, and weight. See the section on
+Support Weapons for more information. The important thing at this
+stage is the weight; this affects the movement rate of the squad carrying
+it. A full squad can carry up to five points; a half squad two. You can 
+allocate more than one item to a squad, as long as it can carry the
+weight.
+
+------- 
+|---- | Once you have finished click here. You can return to the
+| E \/| allocations screen, but you cannot change allocations already
+------- made.
+
+Confirm the you have finished allocating and you will be presented
+with the main game screen.
+
+2.0   THE GAME
+
+2.1   Making Decisions
+
+In Frontline both you and the computer make decisions - where to
+move your units, who to attack, whether to engage in combat.
+                                                           
+The computer resolves the decisions and calculates          
+the outcome. This is called `rolling the dices', by analogy 
+with board games.                                          
+                                                               
+If you have the DISPLAY option in the XTRAS pull-down menu
+switched on, you roll the dice yourself. If this option is not selected, the
+computer resolves the decisions and you will only be told the outcome.
+
+If you choose to roll the dice yourself, the computer will show you how
+it calculates the outcome.
+
+The game uses the equivalent of two six-sided dice rolled 
+simultaneously and added together. Thus, the highest number you can
+roll is 12 and the lowest 2.
+
+For all dice rolls, the lower number, the better the result.
+
+The `raw' dice roll can be altered by various modifiers which are added
+to it, to take account of the circumstances. Modifiers can be either
+positive or negative. Since your aim is to roll low numbers it follows that
+negative modifiers help you and positive modifiers hinder you.
+
+For example, you wish to fire on an enemy unit occupying a crater,
+providing a cover of +2. You have a leader of -1. You roll a 9 so the
+result will be 9 + 2 - 1 = 10 (hands up those who had to reach for a
+calculator!)
+
+When you roll the dice, click the left mousebutton once to start, and
+once to stop. Then click on CONTINUE and the computer will apply 
+any modifiers to calculate the outcome.
+
+2.2   The Screen/Terrain
+
+The menu bar at the top of the screen and the icons at the botton will
+be explained as the game progresses. Just above the icons is a box 
+where information about the progress of the game appears - for
+example, telling you it is your turn to move.
+
+On the left hand side is a panel where information and selection icons
+for your units will be displayed.
+
+(Picture of the gamescreen here)
+
+The main part of the screen is a `window' showing the part of the map
+where the action takes place. At the start of all scenarios, the window
+is placed at the top left hand corner of the map.
+
+The picture gives an indication of the type of terrain; for more detailed
+information, click on the map and you will be told what the terrain is.
+The types of terrain found in the different scenarios are:
+
+
+TERRAIN            HEIGHT         COVER         MOVEMENT
+                                                 COSTS
+
+Barbed Wire          0              0              5
+Bridge            variable         +1              2
+Clear                0              0              2 
+Crater               0             +2              3
+Deep Crater         -1             +1              3
+Jungle              +3             +4              5
+Rail Line            0              0              2
+Ravine              -1             +1              3
+Road                 0              0              2
+Rubble              +1             +3              4
+Sandbags            +1             +3              3
+Slit Trench          0             +2              4
+Stone Building      +2             +4              3
+Swamp/Marsh          0              0              4
+Trees               +2             +2              3
+Water                0              0              8
+Wreckage             1             +2              4 
+
+Each of these aspects of the terrain is important for a different reason.
+
+Height
+The height of the terrain you are occupying compared to the
+surrounding terrain affects how much of the area you can see. This is
+known as `Line of Sight'. Obviously, to shoot at an enemy unit you must
+be able to see it! Lines of sight are reciprocal - if you can see an enemy
+unit, it can see (and shoot at!) you.
+
+When looking at the height of terrain you must take into account the
+`base' height and the "feature" height. For example, a crater has a
+height of -1, but if the crater is on top of a hill with a height of 3, then
+the actual height is 2.
+
+------- (RYGAR: THIS IS SUPPOSED TO SHOW AN ICON THAT HAS ARROWS POINTING)
+||\ /|| (       OUT IN ALL FOUR DIAGONAL DIRECTIONS, HOPE YOU UNDERSTAND!)
+|  #  | You can check the Line of Sight for any unit by selecting the unit
+||/ \|| and then clicking on this icon. All areas of the map the unit cannot 
+------- see will be greyed out. This only works for the portion of the map 
+        displayed on the screen.
+
+So how are lines of sight calculated?
+
+---------------------------------------------------------
+|       |       |       |       |       |       |       | Looking at the
+|       | UNIT B|       |       |       |       |       | diagram, which
+|       |_______|       |       |       |       |       | shows five units
+|-------|#######|---------------------------------------| occupying different
+|       |#######|       |       |       |       |       | heights of terrain,
+|       |#######|       |       | UNIT C|       |       | UNIT B and UNIT C 
+|       |#######|       |       |_______|       |       | can see each other,
+|-------|#######|---------------|#######|---------------| as can UNIT C AND 
+|       |#######|       |       |#######|       |       | E. E and D are also
+|       |#######|       |       |#######|       | UNIT E| in each others' 
+|       |#######|       |       |#######|       |_______| line of sight, but
+|-------|#######|---------------|#######|-------|#######| D can't see any 
+|       |#######|       |       |#######|       |#######| unit except E. UNIT
+| UNIT A|#######|       |       |#######| UNIT D|#######| A is completely   
+|       |#######|       |       |#######|       |#######| hidden from all the
+|-------------------------------------------------------| others. and
+|       |       |       |       |       |       |       | therefore can't see
+|         The height of the terrain occupied by         | them either.
+|           a unit affects it's Line of Sight           |
+---------------------------------------------------------
+
+
+Cover
+Cover combines two factors; how much the terrain conceals the
+occupying unit, and how much protection it offers. For example, a field
+of wheat hides a unit very well - but doesn't provide much protection.
+Conversely, a unit occupying a stone bunker will be fairly visible, but
+several feet of concrete usually stops a bullet adequately!
+
+These two factors are combined to provide the figure for cover. When
+you fire on a unit, a modifier is added for the cover provided by the
+terrain.
+
+Movement Cost
+Movement simply defines how easy it is to move through the different
+types of terrain. Each unit has a number of movement points they can
+use each turn. The movement cost of the terrain they are moving onto
+is deducted for each move. Moving uphill costs an extra movement
+point, and carrying unpacked support weapons also increases the cost.
+
+When you move a unit you need to take into account the factors of
+height, cover and movement cost before deciding which route to take.
+Obviously, you will be able to move faster on clear ground, but it is more
+likely you will be hit by enemy fire.
+
+2.3   Your Forces
+
+You scroll the map in the eight compass directions by clicking on the
+arrows in the lower right hand corner.
+
+Do this until you find your forces. Units are
+represented by an icon on the map, the colour
+depending on the nationality:
+
+   British and Commonwealth        Blue
+   German                          Grey
+   German SS                       Black
+   American                        Red
+   Japanese                        Light Brown
+   Soviet                          Red
+
+------------
+|Picture of|
+|attacking | Infantry units are represented by this icon.
+|soldier   |
+|here!!    |
+------------
+
+------------
+|Picture of|
+|a cannon  |
+|here!     | Artillery units are represented by this icon.
+|          |
+------------
+
+If you are not sure whether the unit belongs to your side or not, click
+on it! If it belongs to the enemy, you will be told so. If it is your unit a
+set of icons comes up in the box on the left of the screen. This is the
+control panel, which you use to give orders to the selected unit.
+
+A faster way to find your forces is to use the BRIEFING option in the
+UNITS menu. This brings up a list of your units in the information panel.
+If the unit's name is grey, it means it is either dead, off the map, or
+broken, If it is yellow, it can still make an action that turn; and if white,
+it is on the map but has finished its action for that turn.
+
+Clicking on the unit's name if it is dead or off the map brings up
+information about the unit. Otherwise, clicking on the name will centre
+the map on the unit and bring up the control panel. If the unit is near
+the edge of the map, the screen will scroll until the unit is as near to the
+centre as possible.
+
+Whenever you select a unit, either by clicking on it or by using the
+BREIFING option, the colours of its icon are reversed.
+
+3.0   THE CONTROL PANEL ICONS
+
+When a unit is selected, the control panel appears in the box on the
+left of the screen. Some of the icons in the control panel can only be
+used by infantry squads, some only by artillery units. Depending on the
+state of the game not all of the options will be available to the selected
+unit, in which case the icon will be blank.
+
+The icons in the control panel are fully explained in the relevant sections
+of the manual, but briefly they are:
+
+RYGAR: I HAVE DONE THE ICONS THAT WAS POSSIBLE DOING WITH ASCII , THOSE
+       ICONS THAT HAS COMPLEX GRAPHIC I HAVE WRITTEN WHAT IT IS MENT TO
+       BE!  HOPE YOU UNDERSTAND GUYS! 
+
+----------
+|Picture |
+|of a    | Gives information about the unit.
+|notepad |
+|here.   |
+----------
+
+----------
+|Picture | 
+|of 4    |
+|diagonal| Allows you to move the unit - INFANTRY ONLY.
+|arrows! |
+----------
+
+---------
+|   |   |
+| -- -- | Instructs the unit to fire on another unit. 
+|   |   | 
+---------
+
+---------
+| Don't |
+| know  | Used to rally the troops if the unit is broken. 
+| this  |
+| yet   |
+---------
+
+---------
+|Picture|
+|of a   | Gives information about the terrain the unit is occupying.
+|tree   |
+|here!  | 
+---------
+
+--------
+||_|_|_|
+||_|_|_| Brings up a grid over the map, to assist in working out ranges or
+||_|_|_| movements.
+|| | | |
+--------
+
+----------
+|Picture |
+|of a gun| Gives access to the unit's support weapons - INFANTRY ONLY.
+|(an auto|
+|matic!!)|
+----------
+
+-----------
+|Picture  |
+|of a cann| Instructs the unit to call down a barrage from an off-map 
+|on pointi| artillery battery, providing the unit is carrying a radio -
+|ng right!| INFANTRY ONLY.
+-----------
+
+----------
+| Picture|
+| Of A   | Initiates close combat - INFANTRY ONLY.
+| Knife  |
+| here!  |
+----------
+
+-------------------
+|  ----  |  ----  |
+| ||  || | ||  || | Turns an artillery piece 90 degrees clockwise or anti-
+| \/  || | ||  \/ | clockwise - ARTILLERY ONLY.
+|        |        | 
+-------------------
+
+---------
+|Picture|
+|of a   | Attempts to repair a damaged artillery piece - ARTILLERY ONLY.
+|monkey-|
+|wrench |
+---------
+
+--------- 
+| ----  | Click on the END button when you have finished giving orders
+| E  \/ | to the selected unit.
+---------
+
+3.1   Instructing Your Units
+
+Having found one of your units, there are are several things you can tell it
+to do. If it is an infantry squad, it can move, fire at an enemy unit, go
+into close combat (if it is adjacent to an enemy unit), use a support
+weapon, or call down a barrage from an off-map artillery battery (if it
+has a radio).
+
+An artillery piece can turn the barrel of the gun to point in a different
+direction, or fire on another unit.
+
+Some of these actions take up a whole turn; but others, such as calling
+down a barrage, allow you to give the unit further orders in the same
+turn.
+
+You do not have to give a unit all its orders   -----------------------------
+for that turn before instructing another unit;  |                           |
+you can come back to it later.                  |          S Q U A D        | 
+                                                |                           |
+3.2   Information - Infantry                    |         A n s e l l       | 
+                                                |                           |
+---------                                       |      Full Sq              |
+|Picture| Clicking on this icon brings up       |      Line Inf             |
+|of a   | information about the selected        |      Good                 |
+|notepad| infantry squad.                       |      Start:          1    |
+|here!  |                                       |      Moves:               |
+---------                                       |       Used:          0    |
+                                                |       Left:          8    |
+Just in case you have forgotten which squad     |      Morale:         7    |
+you are dealing with, its name appears at       |      Leader:         0    |
+the top of the information box.                 |      Fire:           4    |
+                                                |      Range:          5    |
+The squad is either a full squad (ten men)      |                           |
+or a half squad (five men).                     |                           |
+                                                |                           |
+The next line refers to the troops' status,     |                           |
+which is their ability to fight. It can be good |                           |
+or broken. The relevance of this is             |                           |
+explained in the section on Morale.             |             ------------- |
+                                                |             | \ \ | --- | | 
+The movement points limit how far the unit      |             | / / | E \/| |
+can move each turn - various types of           |             ------------- |
+terrain use up different amounts of M-P.        -----------------------------
+
+Morale is an indicator of how easily the squad will become broken, and
+is explained fully in the Morale section.
+
+The Leadership affects the damage the unit will do when attacking an
+enemy unit. As in real life, the better the leader (ie the lower the
+modifier) the more effective the unit will be.
+
+The unit's firepower also affects their fighting ability; the higher the
+firepower, the better the result in an attack.
+
+Range limits how far the unit can actually fire.
+
+If the squad is carrying support weapons, these will be listed.
+
+3.3   Information - Artillery
+
+---------                                       ----------------------------
+|Picture| Clicking on this icon brings up       |                          |
+|of a   | information about the selected        |         M O R T A R      |
+|notepad| artillery unit.                       |                          |
+|here!  |                                       |       H e i l b r o n    |
+---------                                       |                          |
+                                                |   Mortar                 |
+Again, the unit's name appears at the top of    |   O p e r a t i v e      |
+the box, and you are told the type of artillery |   Morale:       8        |
+piece.                                          |   Leader:       0        |
+                                                |   Cal:        120        |
+You are shown the gun's status - whether it     |   Range                  |
+can be used or not. It can be operational;      |     Min         3        |
+jammed, in which case it needs to be            |     Max        60        |
+repaired; U/S (unservicable), which in effect   |   Rof:          2        |
+means the unit can take no further part in      |   Ammo:        25        | 
+the action; or broken - which refers to the     |   Jams:        12        |
+state of the crew - in which case you need      |   No  t a r g e t        |
+to rally the men before they can fire.          |   ------------           |
+                                                |   |/\ Picture|           |
+The Morale level is an indicator of how easily  |   ||| of some|           |
+the unit will break when under enemy fire.      |   |kind of   |           |
+See the section on Morale for details.          |   |airweapon!|           |
+                                                |   ------------  -------- | 
+The Leadership modifier will improve the        |                 | ---- | | 
+unit's chances of both hitting and damaging     |                 | E  \/| | 
+the enemy. The lower the number, the better     |                 -------- |
+the result.                                     ---------------------------- 
+
+Calibre is the size of the weapon. The higher the calibre, the higher the
+firepower will be.
+
+The range of the gun limits what it can fire at. Some artillery units have
+both a maximum and a minimum range.
+
+The rate of fire indicates how many shots it can have in each turn.
+
+Ammunition refers to the number of shots the gun can make before
+running out, and acquired targets are explained in the section on Firing
+- Artillery
+
+3.4   Movement - Infantry
+
+----------
+|Picture |  
+|of four |
+|diagonal| Infantry squads can be moved by clicking on this icon.
+|arrows! |
+----------
+
+The background of the movement arrows in the bottom right hand
+corner will change colour to red. Clicking on the arrows moves the
+squad in any of the eight compass directions.
+
+The movement points (M-P) available for the squad will be shown in
+the information box under the map. Each time you move the squad, the
+M-P will be reduced according to the terrain they are moving onto. If
+the squad is moving uphill, the movement cost increases by one.
+Information on terrain types is displayed in the top right of the screen.
+
+----------
+||_|_|_|_| Click on this icon to show the individual squares on the map,
+||_|_|_|_| which helps you to calculate how far the unit can move in one
+||_|_|_|_| turn. The computer knows that if you are moving diagonally, it
+|| | | | | uses more M-P than moving horizontally or vertically! 
+----------
+
+If the squad is carrying unpacked support weapons, the movement cost
+is increased by the weight of the unpacked weapon(s). If you wish to
+move the unit more than a couple of squares before using the weapon,
+you should pack the support weapon first; however, if you only wish to
+move the unit a short distance it is not worth losing a turn to pack the
+weapon, and another to unpack it. See the section on Support Weapons
+for details of how to pack or unpack weapons.
+
+You cannot move a squad into a location containing another unit.
+
+-------- When you have moved the squad as far as you wish (or as far 
+| ---- | as you can!) click on the END button to return to the control
+| E  \/| panel. If your moves have reduced the squad's M-P to zero or
+-------- one, you will automatically be returned to the panel.    
+
+Having moved a squad, you can do no more with it that turn.
+
+3.5   Movement - Artillery
+
+Artillery units are stationery, but if you wish to fire the gun at an enemy
+unit, you must make sure it is pointing in the right direction! The picture
+underneath the unit icons shows which way the gun is pointing.
+
+------------------- 
+|  ----  |  ----  | Use these two icons to turn the gun 90 degrees anti-
+| ||  || | ||  || | clockwise or clockwise. Traversing the gun takes up a 
+| \/  || | ||  \/ | complete turn for the unit.
+|        |        |
+------------------- 
+
+----------
+|  __ _  | The diagram shows the line of fire for an artillery unit. Click on
+| |\ /|\ | this icon under the map and any part of the map not in the line
+|   \ |  | of fire, or not in sight, will be greyed out.
+|<--- #  |
+----------   --------------------------------------------
+             |                                          |
+             |                                          |    
+             |     ---------------------------------    | 
+             |     ##|\  |   |   |   |   |   |  /|##    |     
+             |     ##| \ |   |   |   |   |   | / |##    |   
+             |     ##|  \|   |   |   |   |   |/  |##    |   
+             |     ------\-------------------/------    |
+             |     ##|###|\  |   |   |   |  /|###|##    |
+             |     ##|###| \ |   |   |   | / |###|##    |
+             |     ##|###|  \|   |   |   |/  |###|##    |
+             |     ----------\-----------/----------    |
+             |     ##|###|###|\  |   |  /|###|###|##    |
+             |     ##|###|###| \ |   | / |###|###|##    |
+             |     ##|###|###|  \|   |/  |###|###|##    |
+             |     --------------\---/--------------    |
+             |     ##|###|###|###|Art|###|###|###|##    |
+             |     ##|###|###|###|ill|###|###|###|##    |
+             |     ##|###|###|###|ery|###|###|###|##    |
+             |     ---------------------------------    |
+             |    Line of Fire for an artillery unit -  |
+             |      The # area cannot be fired on.      |
+             --------------------------------------------
+
+Artillery units have a very long range and can be used to fire right across
+the map, but the icon only shows you the line of fire for that part of the
+map displayed on the screen.
+
+3.6   Firing - Infantry
+
+--------- If there is a unit in range, you can instruct your squad to fire at
+|   |   | it by clicking this icon. A grid will come up over the map and you
+| -- -- | can click on the target. If you change your mind, click on the
+|   |   | firing unit and you will be returned to the control panel.
+---------
+
+---------
+| |\ /| | To fire on another unit, the target must be in sight. Clicking on
+|   #   | this icon will grey out any part of the map currently on the screen
+| |/ \| | that the unit cannot see.
+---------
+
+As in real life, it is perfectly possible to fire on your own side!
+
+If you have DISPLAY selected, a box appears giving the firing details.
+At the top, the squad's firepower is shown. This is the inherent firepower
+of the squad. If the squad is carrying a machine gun, it is possible to
+add the firepower of the gun to the inherent firepower - see the section
+on Support Weapons.
+
+If the squad is firing at poing blank range - ie the target is an adjacent
+square - the firepower is doubled. Any modifiers for leadership or
+terrain are indicated - having a leader increases the likely damage the
+unit does to its target, but the better the cover provided by the terrain
+the enemy occupies, the less damage it will sustain.
+
+Possible outcomes of firing or being fired upon are:
+
+   - - - -  No Effect
+
+     MC  -  Unit's morale is checked (you do not see the result of an
+            enemy unit's morale check)
+
+     L_KIA - Unit's leader is killed     
+       
+     KIA   - The unit is wiped out
+
+     HALF  - The unit is reduced in size to a half squad (half squads
+             won't reduce to quarter squads;they are either wiped out or they
+             survive intact)           
+
+3.7   Firing - Artillery
+
+---------
+|   |   | Clicking on this icon puts a grid over the map and allows you to
+| -- -- | select your target - use the arrows to scroll the map until you
+|   |   | find the target.
+---------
+
+There are two stages to firing an artillery unit. The first determines
+whether you hit your target or not. You are shown the basic roll for the
+weapon (which is different for each type of weapon) and any modifiers
+that will affect the outcome - leadership, barrel size (the longer the
+barrel the more accurate the weapon), and range (some types of gun
+are particularly accurate at certain ranges - and some particularly
+inaccurate!)
+
+A modifier is also used for an acquired target. If the weapon has already
+succeeded in hitting the target it has a better chance of hitting it a
+second time, and is considered to have acquired a target. The target
+refers to the square on the map, not the unit occupying it. So if you kill
+a unit and another unit moves into the same square, the modifier still
+applies. Acquired targets are carried over from turn to turn.
+
+The information about the unit tells you whether it has an aquired
+target or not; however, it does not tell you where the target is, it is up
+to you to remember!
+
+The modifier for size refers to the size of the target - obviously, the
+bigger the target, the easier it is to hit.
+
+The final result which you need to roll in order to hit the target is shown
+in the red box at the top of the screen.
+
+If you miss, you just have to try again. Some artillery can be fired more 
+than once in a turn - this is shown as rate of fire in the information
+about the unit.
+
+If you hit, the dice are rolled again to calculate the damage, with
+modifiers taken into account for leadership and terrain.
+
+If while firing an artillery unit, you roll a number greater than or equal
+to that shown for its jamming possibility, the weapon is damaged and
+will need to be repaired on your next turn. Click on this icon and roll the
+dice to try and fix it. The result will be:
+
+    No effect at all, in which case you have to try and repair it again
+    next turn
+
+    Success, it which case it is usable next turn
+
+    The weapon is irrepairable.
+
+Attempting a repair uses up a whole turn.
+
+3.8   Under Fire
+
+If the computer fires on one of your units, you will be told that your unit
+is under fire and the map will centre on the affected unit. The computer
+will resolve the combat and tell you the outcome.
+
+You won't be told who is firing on you - as in real life, you will have to
+work it out for yourself.
+
+The possible outcomes of enemy fire are:
+
+    Your unit is wiped out completely
+
+    Your unit is reduced to a half squad, and will lose any support
+    weapons it can no longer carry (if the unit is an artillery unit it is
+    assumed to have a five-man crew so won't reduce in size)
+
+    You will need to check the morale of your unit (see the section on
+    Morale)
+
+    Or your unit will escape unscathed.
+
+3.9   Support Weapons
+
+--------- You may have allocated support weapons to an infantry squad,
+|Picture| and clicking on this icon will bring up information about the
+|of a   | weapon, and the weapon's icons which you use to control the
+|gun    | support weapons.
+---------
+
+The weight of the weapon when it is              ----------------------------
+operational will restrict the movement of the    |     --------------       |
+squad (this does not apply to demolition         |     |Picture of a|       |
+charges). Firepower, range and ammunition        |     |Machine gun!|       |
+are self-explanatory.                            |     --------------       |
+                                                 |                          |
+The jamming number shown refers to the           |   Med m/g                |
+likelihood of the weapon breaking down. If,      |                          | 
+when firing it, your unmodified roll is greater  |   Weight:   3            |
+than or equal to this number the weapon          |   Fire:     3            |
+jams and you will have to repair before you      |   Range:    7            |
+can use it again.                                |   Ammo:    14            |
+                                                 |   Jams:    12            |
+The weapon can be packed or operational,         |     Operat'n1            |
+and you are told whether the weapon has          |   Unused                 |
+already been used in that turn - and if it is    |  ----------------------- |
+jammed.                                          |  |Same icon|Gun  |  |  | |
+                                                 |  |as to the|taken|-- --| |
+----------- This option is only available to     |  |left here|apart|  |  | |
+|   | |   | machine guns. Clicking on this icon  |  |---------------------- |
+|---   ---| adds the firepower of the weapon to  |  |empty | \ \ |  ---   | |
+|---   ---| the inherent firepower of the squad. |  |icon! | / / | E  \/  | |
+|   | |   | This results in a much greater       ----------------------------
+----------- firepower,although the range will only be that of the unit 
+            itself, which may be lower than that of the gun on its own. 
+            Clicking on this icon doesn't actually fire the weapon; to do  
+            that, exit the weapons icons and use the firebutton in the unit's
+            control panel. 
+           
+
+----------- This icon instructs the squad to pack or set up the weapon.
+|Picture  | Obviously a weapon can't be used while it is packed, but if it is
+|of a     | unpacked it restricts movement (unless it is a demolition charge)
+|gun taken| - the weapon's weight is added to the movement costs of the
+|apart!   | terrain for each move. Packing or setting up a weapon uses one
+----------- turn.
+             
+--------- This icon fires the weapon separately from the squad's inherent
+|   |   | firepower. All weapons except machine guns must be fired in
+| -- -- | this manner. The range will be that of the weapon itself (mortars
+|   |   | have a minimum range of 2).
+---------
+
+If the support weapon is fired first, the squad can then move, which it
+cannot do if the weapon is added to the inherent firepower.
+
+Alternatively, having used the support weapon on its own the squad
+can then use its inherent firepower separtely - in effect getting two
+shots in one turn. Again, the support weapon must be fired first. The
+squad need not fire its inherent fier power at the same target as the
+support weapon.
+
+--------- 
+|Picture| If a support weapon jams you will need to repair it before it can
+|of a   | be used again. Clicking on this icon attempts the repair, which
+|monkey | takes a full turn. Depending on the roll of the dice, the outcome
+|wrench!| will be: 
+---------
+          
+      A successfull repair meaning the weapon can be used next turn     
+ 
+      A failure in which case you have to try again next turn
+
+      A complete disaster which puts the weapon right out of
+      commission!
+
+-------
+| \ \ | If the squad has more than one weapon, click on this icon to see
+| / / | the next. 
+-------
+
+--------
+| ---- | Click on the END button to return to the control panel.
+| E  \/|
+--------
+Although radios are counted as support weapons, and you can get 
+information on them using the support weapon's icon (and repair them
+if they become damaged!) you don't actually use them with this icon.
+See the next section for details of how you do use them.
+
+3.10   Barrage
+
+---------
+|Picture| If the squad has a radio, it can call in a barrage from an off-map
+|of a   | artillery battery using this icon. Information about the battery
+|cannon!| available will be displayed - its calibre (the higher the calibre,
+--------- the higher the firepower) and the number of salvoes available.
+
+NOTE: the off-map artillery is separate from any artillery on the map.
+
+Using an artillery battery involves three stages, and the current stage
+is shown in the status. Each of these stages takes one turn - however,
+you can go on and give the squad further instructions, such as moving
+or fighting, in the same turn, as long as you can use the barrage first.
+
+First you have to contact the battery by radio. The dice roll decides
+whether you succeed in making contact. If you fail, you have to try again
+on your next turn. If the radio breaks down, it must be repaired before
+you can use it again.
+
+If the unit is in contact with the artillery, you can select the target by
+clicking on the map. A spotting round is sent in (there is no limit to the
+number of spotting rounds available). Unfortunately there's no
+guarantee the spotting round will land where you expect it - it can even
+land out of sight, in which case you have to call down another on your
+next turn.
+
+A barrage will cover an area of nine squares, centred around the square
+where the spotting round lands. It is a good idea to centre the map on
+your intended target before calling in the spotting round - you have a
+better chance of seeing where it lands.
+
+It's also worth using the line of sight icon to check how much of the
+surrounding terrain is visible.
+
+If a spotting round lands on the same square as an enemy unit (or one
+of your units!) the computer will resolve the decision and tell you the
+result.
+
+On your third turn, you can call down the barrage if you wish. You are
+presented with four icons.
+
+
+
+               -------- These two icons are either/or icons - one of them  
+Cant see this! | _/\_ | is always selected and you toggle between the two.
+SHIT!          |  \/  | They determine whether the barrage or the spotting
+               -------- round is moved if you decide to change the target.
+
+------
+|\  /| This icon takes you back to stage 2, allowing you to select a new
+| \/ | target for a spotting round. You should use this if the spotting
+| /\ | round landed way off target. 
+|/  \| 
+------
+
+------- This icon allows you to move the barrage or the spotting round
+||\ /|| (whichever has been selected) by one square. If barrage is 
+|  X  | selected it will move the target in the chosen direction, then bring
+||/_\|| down a barrage; if the spotting round is selected it simply moves
+------- the target.
+
+-------
+|     | This icon brings down the barrage on the current target - no
+|  !  | matter whether the barrage icon or the spotting round icon are 
+|     | selected, the barrage will commence!
+|     |
+-------
+
+For each unit that the barrage hits - including your own - the computer
+will resolve the conflict.
+
+It is sometimes worth bringing down a barrage on your own head,
+particularly if your unit is well protected but is surrounded by enemy
+units in the open.
+
+3.11   Close Combat
+
+---------
+|Picture| If an infantry squad is adjacent to an enemy unit, it can engage
+|of a   | in close combat. In close combat, the defender is always given
+|knife! | the first bash.
+---------
+
+Artillery units cannot initiate close combat but they can defend 
+themselves if attacked, in which case they use their inherent firepower,
+which is 2, and have five men.
+
+In close combat, the firepower used to resolve each attack is the unit's
+inherent firepower plus 1. As the troops are killed or wounded the
+firepower is reduced proportionally. If the defending unit is broken, its
+firepower is halved.
+
+Support weapons cannot be used in close combat - you could use a
+support weapon to 'soften up' the enemy before engaging in close
+combat, but you can't bring it into play once the fight is in progress.
+
+The information box on the left of the screen shows the result of each
+attack - the dice rolled, the modifiers for leadership and close combat
+(this redudces by one each round of the combat as the squads locate
+the enemy dispositions, but will never go below -9) and the result.
+
+Each round of close combat can result in either no effect, or a number
+of the troops being killed. If the number of men remaining falls to five
+or below, the unit becomes a half squad, with a consquent loss of
+firepower and support weapons. If the number killed is greater than the
+number remaining, the unit is wiped out.
+
+In each round of the close combat, both you and the computer have
+the option to attack or retreat - although artillery units cannot retreat,
+they must fight or die!
+
+If the defending unit retreats it will move out of the occupied square and
+the attacker will move in. If the defending unit is completely surrounded
+it has no choice but to surrender. If the attacking squad retreats, it will
+not move but will simply stop attacking - but the defender is then able
+to attack on its turn, if it wishes!
+
+The close combat continues until one unit either retreats or is wiped
+out.
+
+3.12   Morale
+
+A unit is broken when the troops are more concerned with their personal
+survival than with achieving their objective. Rather than attacking, they
+will (very sensibly) be running for cover.
+
+If a unit is broken, it can do nothing that turn, except a single attempt
+to rally the troops. Some units start the game cowering in a state of
+panic and you must rally them before thay will be of any use!
+
+-------- Clicking on this icon attempt to rally the troops. You must roll
+| Dont | less or equal to their morale level. Modifiers are used for
+| Know | leadership - a good leader stands more chance of bucking the
+| This | troops up - and the fact that the unit is already broken, which
+| Icon | makes it harder to persuade them to stand up and fight.
+--------
+
+If you successfully rally the squad, it can then proceed with the turn -
+moving, fighting, or whatever. If you fail, it can do no more and you
+must try again on your next turn.
+
+If you roll an unmodified 2, the troops are rallied so successfully that
+the unit's leadership is permanently improved by 1, but if you roll an
+unmodified 12 the troops are not impressed by your hollow rhetoric and
+the morale level is permanently reduced by 1!
+
+On of the possible outcomes of being under fire is that the morale of
+the troops will be checked to see if they break. This is handled in exactly
+the same way as when you attempt to rally them, except that there may
+be extra modifiers from the morale check result.
+
+4.0   GAME PROGRESS
+
+Depending upon which side you have chosen to play, either you or the
+computer will get first turn. In all scenarios, the side that was displayed
+first gets the first turn.
+
+-------- On your turn, you instruct each of your units to move, unpack
+|----  | their weapons, fire, or whatever may be necessary. Each time
+| E \/ | you finish with a particular unit, click on the END button for that
+-------- unit.
+
+--------
+|----  | When you have finsihed all your instructions for that turn, click
+| E \/ | on this button in the row of icons below the map. 
+--------
+
+The computer will make its moves, and the name of each unit it is
+dealing with will appear in the box under tha map. You can turn this
+option off by de-selecting the INFO option in the XTRAS menu.
+
+If the computer's moves involve combat against one of your units you
+will be shown the outcome and have to take any action necessary, such
+as checking morale. Once the computer has finished its turn, control is
+returned to you.
+
+-----------
+|Some kind| 
+|of circle| Each scenario has a limited number of turns available. You can
+|,maybe a | see how many turns have passed out of the total be clicking on
+|ZERO,or a| this icon.
+|SCENARIO!|
+-----------
+
+----------
+| ------ |  
+| ##  ## | This icon is a toggle. When active, units are removed from view
+| ##  ## | allowing you to check the terrain they occupy.
+| ###### |
+----------
+
+------------
+|Picture of| This icon shows the line of sight for a selected unit. Any part
+|4 arrows  | of the map that the squad cannot see will be greyed out. Lines
+|pointing  | of sight are reciprocal - if you can see an enemy unit, it can
+|diagonally| see (and shoot at!) you.
+------------
+
+----------
+|  __ /\ | If the selected unit is an artillery unit, clicking on this icon
+|  |\  | | will show the line of fire. Not only must the unit be able to see 
+|    \ ##| the targer, it must also have it's weapon pointing in the right
+| <----##| direction!
+----------
+
+-------- (NOTE: THIS IF FOUR ARROWS POINTING AGAINST EACHOTHER (RYGAR))
+| \  / | Clicking on this icon will centre the map on the currently selected
+|      | unit.
+| /  \ |
+--------
+
+FL MENU
+
+Frontline     Gives information about the game.
+
+GAME MENU
+
+Scenario      Lets you choose which scenario you wish to play. This is
+              only available at the start of the game.
+
+Load Game     Loads a previosly saved game from disk.
+
+Save Game     Saves your current position to disk.
+
+Surrender     Ends the current game, giving you the option to start a
+              new game, load a saved game, or exit to the desktop.
+
+Quit          Leaves the game and resets the machine.
+
+UNITS MENU   
+
+Breifing      Lists your units, allowing you to find them immediately.
+              If the unit's name is grey it is dead, broken or off the
+              map; if yellow it can still carry out actions that turn; if
+              white it has finished its actions for that turn.
+
+Print Status  Prints out the details of all your units, including their
+              support weapons, providing you have a printer online.
+              Do this a the start of the game in order to see exactly
+              what forces you have available. WARNING: IF YOU DO NOT
+              HAVE A PRINTER ONLINE, THE MACHINE MAY LOCK UP.
+
+XTRAS MENU  
+
+Info          If this option is selected, you will be told the name of
+              each enemy unit as the computer deals with it. Using
+              this option slows the game a little.
+
+Display       If this option is turned off, you will not see any dice rolls
+              or calculation tables; you will just be told the outcome.
+
+Sound FX      This turns the sound effects on or off.
+
+Time          If this option is turned off, there is no time limit on
+              the game.
+
+5.0   THE SCENARIOS
+
+5.1   Introductory Scenarios
+
+1.    The Assault on Hill 193
+
+This special introductory scenario forms part of the operations covered
+by the Cassino scenario. THis scnenario only uses a small number of
+squads, and no artillery. It is designed to allow you to become familiar
+with the way the game works.
+
+It is the task of the Allied side to take out the bunker located on the hill
+at the top of the map. From this bunker the Germans have a
+commanding view of the operations in the town and, if they had a radio
+would be ideally placed to direct artillery fire onto the Allied forces.
+
+The nature of the terrain is such that the infantry can expect little
+support from tanks, and so must take out the bunker on their own. To
+do this they will need to take advantage of any cover available.
+
+The German forces will need to deploy to cover as much of the hill as
+possible, not just the bunker. The scenario shows the need for 'interval
+troops' to protect strongpoints - try playing the game just using a squad
+in the bunker if you don't believe it!
+
+To win the Allies must eliminate ALL the German forces on the map.
+The Germans win if the Allies fail.
+
+2.     Clear the Convent
+
+The second introductory scenario also comes from Cassino. It
+introduces the use of on-map artillery pieces into the game - in this
+case a 120mm mortar and crew.
+------------------------------------------------- One of the few relatively
+|                                               | undamaged buildings in the
+| Allied Weaponry                               | town was a convent. It is
+| Sten Mark 2 Sub-Machine Gun                   | the task of the Allied
+|                                               | forces to clear the 
+| Ammunition:     9mm                           | Germans out of the building
+| Cyclic:         550RPM                        | and go on to deal with the
+| Magazine:       32 Round Box                  | 120mm mortar. The 
+| Muzzle Velocity:1250 Feet Per Second          | approaches to the latter
+|                                               | are covered by the German
+| The Sten was noted for its unreliablility in  | troops in the convent, so
+| the early models. Its great weakness was      | they will probably have to
+| the magazine which often led to stoppages     | be dealt with first.
+| due to no round in the breech - or even       |
+| two! Its cost of 2.95 pounds to produce earned| The Germans aim to frustrate
+| it the nickname "The Woolworth Gun". The      | the Allies by hanging on to
+| Mark 2 was the work horse with over           | the building. They are
+| 2,000,000 made in three years.                | waiting for nightfall, when 
+------------------------------------------------- reinforcesments will be able
+                                                  to slip into the town.
+
+The convent is in the left centre of the map.
+
+To win the Allies must clear the map area of Germans - the Germans
+win if the Allies fail.
+
+5.2   Pegasus Bridge
+
+On 6th June 1944 the Allies opened the much awaited Second Front
+by invading Normandy. The operation was one of the largest seaborne
+operations ever carried out. The task of securing the flanks of the
+invasion and preventing the movement of enemy reinforcements was
+allocated to the airborne divisions.
+
+The securing of the Caen Canal-----------------------------------------------
+bridge at Benouville was one  | Allied Weaponry                             |
+of the objectives allocated to| Bren Mark I Light Machine Gun               |
+the British 6th Airborne      |                                             |
+Division. To achieve this     | Ammuntion:       .303 Inch                  |
+objective it was decided to   | Cyclic:          500RPM                     | 
+land three gliders in a field | Magazine:        30 round Box or 100        |
+next to the bridge and seize  |                  round Drum                 |
+it by a coup de main.         | Muzzle Velocity: 2440 Feet Per Second       |
+                              |                                             |
+At 00:16 on 6th June the first| Of simplistic design and rugged             |
+glider landed, closely        | construction, this was the best Allied LMG  |
+followed by the other two -   | of WWII. It only had one real fault and that|
+the first Allied troops to    | was stoppages due to rimmed cartridges      |
+land on French soul. The      | and the magazine. The rate of fire could    |
+troops staggered out of the   | be varied by means of an adjustable plug    |
+gliders, having achieved      | and it had a barrel that could be changed   |
+complete surprise, the        | in a manner of seconds.                     |
+sentries assuming that the    -----------------------------------------------
+crashes were bomber wreckage
+hitting the ground.
+
+Part of the force began to clear out pill boxes on the eastern bank of
+the canal, while the rest of the small force rushed the bridge. Once over
+the bridge the German forces on the far side were dealt with rapidly,
+and the crossing was secured.
+
+The small force then held the bridge for the next two hours until linking
+up with the main airborne force who had been dropped further east.
+
+In honour of the men who took the bridge it was later renamed `Pegasus
+Bridge' after the insignia of the airborne troops.
+
+The scenario depicts the seizing of the bridge. The task of the Allies is
+to take the bridge and clear the surrounding areo of German forces.
+The aim of the Germans is to frustrate the Allies.
+
+5.3   The End at Stalingrad
+
+The Russian November offensive of 1943 smashed in the weak forces
+holding the flanks of Army Group South. By the end of the month the
+German Sixth Army in Stalingrad was firmly surrounded, and the
+trapped men settled down to wait for relief to reach them.
+
+The relief operations were entrusted to Manstein - one of Germany's
+finest commanders - and he was given a motley force to accomplish
+the task. By 12th December the relief forces were only 30 miles from
+Stalingrad, but could make no further headway.
+
+Hitler, however, refused to allow the Sixth Army to break out and so
+the fate of the Sixth army was sealed... With Negligible supplies the
+besieged fought on for another six weeks, until starving and out of
+ammunition they could resist no longer.
+
+On 31st January 1943, Paulus surrendered the German Sixth Army ay
+Stalingrad in defiance of Hitler's orders to hold out to the end. In the
+northern industrial sector the remnants of XI Corps refused to surrender
+and continued to hold out.
+
+They held out for a further two days, fighting in the rubble of the Tractor
+Factory until 8:40 on 2nd February when they transmitted their last
+message to the outside world. Half an hour later they were finally
+overrun by the Russians, and the fighting at Stalingrad was over.
+
+The scenario depicts the last of the fighting in the factory's fitting shop.
+The aim of the Russians is to completely eliminate the German forces
+- allowing the investing troops to be allocated to other operations. The
+aim of the Germans is to delay   --------------------------------------------
+the Russians by surviving to the |                                          |
+end of the allocated time.       | German Weaponry                          |
+(During this period the          | MP 38/40 Sub-Machine Gun                 |
+Russians were desperate to       |                                          |
+finish off the Germans in        | Lenght:          832mm                   | 
+Stalingrad so they could         |                  (629 Stock Folded)      |
+re-deploy the troops to          | Ammunition:      9mm                     |
+operations designed to cut off   | Cyclic:          500RPM                  |
+German forces in the             | Magazine:        32 Round Box            |
+Caucasus.)                       | Muzzle Velocity: 1250 Feet Per Second    |
+                                 |                                          | 
+                                 | Incorrectly known as the "Schmeisser",   |
+                                 | the MP38/40 was in fact prototyped by the|
+                                 | Erma factory, which is still in existence|
+                                 | today. Whilst the MP38 was expensive to  |
+                                 | produce it was soon superseded by the    |
+                                 | MP40 which used sheet steel stampings    |
+                                 | and was brazed or spot welded together.  |
+                                 |                                          |
+                                 --------------------------------------------
+
+5.4   Guadalcanal
+
+In the Summer of 1942, the island of Guadalcanal suddenly assumed 
+a major strategic importance, when it was found the Japanese were
+building an airfield. From this position they could threaten the
+US/Australia lines of communication.
+
+The 1st Division of the US Marine Corps was hurriedly given the task
+of taking the island. Given little time to prepare, the 19,000-strong
+Division sailed.
+
+The Marines landed and fought their way inland to the half built airfield,
+securinng it within 36 hours. Menaced by the Japanese fleet, the US
+transports and warships withdrew before unloading was complete.
+Stretching their rations as best they could, strenghtening their defences
+with captured weaponry, and fighting off both Japanese
+counter-attacks and the problems of the intense heat and tropical
+disease, the Marines completed building the airfield.
+
+The Japanese were determined to re-take the island. Several
+battalions under the command of Major-General Kiyotaki Kawaguchi
+were landed, and on the nights of 12th and 13th September they
+attempted to storm the ridge     --------------------------------------------
+separating them from the         | American Weaponry                        |
+captured airfield, making an     | Thompson Model 1928A1 Sub-Machine        |
+all-out attempt to dislodge the  | Gun                                      |
+Marines.                         |                                          |
+                                 | Ammunition:       .45 Inch               |
+The US forces were well dug in.  | Cyclic:           725RPM                 |
+In spite of being surprised they | Magazine:         20-30 Round            |
+fought back calling in           |                   Staggered Box          |
+supporting fire from artillery to| Muzzle Velocity:  920 Feet Per Second    |
+break up Japanese                |                                          |
+concentrations.                  | The main drawback to this weapon was its |
+                                 | complicated and precise manufacture.     |
+The fighting was intense. By the | This led to it not being as reliable in  |
+morning of the 14th Japanese     | the field as it should and also to a high|
+corpses littered the slopes -    | production cost. Later models were fitted|
+600 dead and 600 wounded.        | without a compensator on the muzzle. It's|
+                                 | nickname was "The Tommy Gun".            |
+                                 --------------------------------------------
+
+The Marines lost 40 of their 700 men, with 103 wounded. Not for nothing
+was the battlefield named `Bloody Ridge'.
+
+Five days later major US         ---------------------------------------------
+reinforcements landed, and the   | Japanese Weaponry                         |
+battle-weary Marines were able   | Type 99 Rifle                             |
+to withdraw. The fighting        |                                           |
+continued for another four       | Ammuntion:        7.7mm                   |
+months before the Japanese       | Lenght:           1143mm                  |
+finally withdrew, leaving        | Magazine:         5 Round Internal Box    |
+Guadalcanal secure in            | Muzzle Velocity:  2400 Feet Per Second    |
+American hands.                  |                                           |
+                                 | Replacing the 38th Year Type in 1939, it  |
+The scenario depicts part of the | was noticeable for the inclusion of a     |
+last Japanese attack on the      | flimsy wire monopod and folding lead bars |
+ridge. To win the Japanese       | on the rear sight. This was so the soldier|
+must clear the sector of US      | could use it against aircraft! A Type 99  |
+Marines. The US Marines must     | 7.7mm Parachutists Rifle was also intro-  |
+survive to win.                  | duced in 1940 but was not a success and   |
+                                 | was superseded by the Type 2 7.7mm in 1942|
+                                 --------------------------------------------- 
+
+5.5   Cassino
+
+The Allies landed in Italy in september 1943 but the advance soon
+slowed and finally stalled in front of the Gustav Line. Stretching across
+Italy, it was dominated by Monte Cassino, 1,700 ft high and blocking
+the main road to Rome.
+
+Showing a quality of generalship reminsicent of the First World War,
+head-on attacks were launched on the Cassino massif. Bad weather
+and the strong German opposition inflicted considerable losses on the
+Allied forces.
+
+Undeterred, higher command decided to continue the battering ram
+attacks and brought up reinforcements in the form of the New Zealand
+Corps. Battles continued to rage until the weather brought a halt to the
+fightings.
+
+Three weeks later the attack was renewed. The plan was for the 4th
+Indian Division to ascend the Eastern slopes of Monastery Hill while
+the 2nd New Zealand Division and the 4th Armoured Brigade entered
+the town.
+
+On 15th March more than 1,000 tons of bombs were dropped on the
+narrow streets of Cassino, following by a 200,000 round barrage. The
+town was reduced to rubble. Then generals were convinced that the
+Germans had been wiped out.
+
+They were wrong. Soldiers of
+the German 1st Parachute
+Division survived. Rubble and
+huge craters stopped tanks
+entering the town, and the
+infantry were on their own.
+
+They fought their way 250
+yards into the town, but under
+cover of night the Germans
+brought in reserves. A week
+later, on 23rd March the
+disastrous assault was called 
+off. Not until May did the Allies
+take Cassino, and then only when the Germans withdrew. The way
+was clears - at a cost of 105,000 casualties.
+
+The scenario depicts the start of the assault on the town. The task of
+the New Zealand forces is to clear the sector represented by the
+map of German forces. The German aim is to survive...
+
+6.0   ORDER OF BATTLE
+
+The Assault on Hill 193
+
+Allied                                      German
+       
+7 x Line infantry squads 4-5-7              3 x Elite infantry squads 5-4-8
+1 x -2 Leader                               1 x -2 Leader
+1 x -1 Leader                               2 x -1 Leader
+2 x Light machine gun                       3 x Heavy machine gun
+
+              ----------------------------------------------
+
+Clear the Convent
+
+Allied                                     German  
+
+7 x Line infantry squads 4-5-7             2 x Elite infantry squads 5-4-8
+2 x -1 Leaders                             1 x Elite infantry half squad 3-4-8
+2 x Light machine guns                     1 x 120mm mortar & crew (morale 8)
+                                           1 x -2 Leader
+                                           1 x -1 Leader
+                                           1 x Heavy Machine Gun
+                                           1 x Light Machine Gun
+                                           1 x Light mortar
+
+               ---------------------------------------------
+
+Pegasus Bridge
+
+Allied                                     German
+
+Elements 6th British Airborne Division     Elements of 346th Infantry Division
+5 x Elite infantry squads 6-3-8            9 x Line infantry squads 4-6-7
+2 x Elite infantry squads 4-5-8            3 x -1 Leaders
+1 x -3 Leader                              3 x Heavy machine gun
+2 x -1 Leaders                             2 x Medium machine gun
+3 x Light machine gun
+2 x Demolition charges
+
+               ---------------------------------------------
+
+The End at Stalingrad
+
+Russian                                    German 
+
+Elements of the 62nd Army                  Elements of XI Corps
+4 x Elite infantry squads 6-2-8            5 x Line infantry 4-6-7
+8 x Line infantry squads  4-4-7            1 x -3 Leader
+4 x -1 Leader                              2 x -1 Leaders
+2 x Flame throwers                         3 x Heavy machine guns
+4 x Demolition charges                     1 x Light mortar
+1 x Heavy machine gun
+
+Guadalcanal
+
+Allied                                     German
+
+Elements of the US 1st Marine Division     Elements of 2/5 and 2/1 Para
+4 x Elite infantry squads 5-4-8               (1st Parachute Division)
+2 x Elite infantry half squads 3-4-8       6 x Elite infantry squads 5-4-8 
+1 x -3 Leader                              1 x Elite infantry half squad 3-4-8
+2 x -1 Leader                              1 x 120mm mortar & crew (morale 8)
+1 x Radio(access to 155mm offmap battery)  1 x -2 leader
+4 x Heavy machine gun                      2 x -1 leader
+2 x Light machine gun                      1 x Radio (access to 155mm off-map
+                                               battery)
+                                           1 x Light machine gun
+                                           2 x Medium machine gun
+                                           3 x Heavy machine gun
+                                           2 x Light mortar
+
+APPENDIX A
+
+Infantry Fire Combat Results Table
+       |
+       |Firepower...
+Result |1      2      4     6     12     16     20     24    30    36              
+       | 
+-----------------------------------------------------------------------------
+<0     |KIA    KIA    KIA   KIA   KIA    KIA    KIA    KIA   KIA   KIA
+-      |HALF   KIA    KIA   KIA   KIA    KIA    KIA    KIA   KIA   KIA
+1      |MC_1   HALF   HALF  KIA   KIA    KIA    KIA    KIA   KIA   KIA
+2      |MC_1   MC_1   MC_2  HALF  HALF   L_KIA  KIA    KIA   KIA   KIA
+3      |MC_0   MC_1   MC_1  MC_2  MC_2   MC_3   L_KIA  KIA   KIA   KIA
+4      |OK     MC_0   MC_1  MC_1  MC_2   MC_2   MC_4   L_KIA KIA   KIA
+5      |OK     OK     MC_0  MC_1  MC_1   MC_2   MC_3   MC_4  L_KIA KIA 
+6      |OK     OK     OK    MC_0  MC_1   MC_1   MC_2   MC_3  MC_4  L_KIA
+7      |OK     OK     OK    OK    MC_0   MC_1   MC_2   MC_2  MC_3  MC_4 
+8      |OK     OK     OK    OK    OK     MC-0   MC_1   MC_2  MC_2  MC_3 
+9      |OK     OK     OK    OK    OK     OK     MC_1   MC_1  MC_2  MC_2
+10     |OK     OK     OK    OK    OK     OK     MC_0   MC_0  MC_1  MC_1
+11     |OK     OK     OK    OK    OK     OK     OK     MC_0  MC_0  MC_1
+12     |OK     OK     OK    OK    OK     OK     OK     OK    MC_0  MC_1
+13     |OK     OK     OK    OK    OK     OK     OK     OK    OK    MC_1
+>14    |OK     OK     OK    OK    OK     OK     OK     OK    OK    MC_0
+-      |
+
+SYMBOLS:
+
+KIA      Killed in action
+HALF     Full squad reduced to half squad
+         Half squad killed in action
+L_KIA    Leader killed in action
+MC_#     Morale Checkk requierd with a modifier of +#
+OK       NO effect
+
+APPENDIX B
+
+Gun Calibre/Fire Power Equivalents
+
+Calibre  | 20   30   40   50   60   70   85   100   125   150   200
+         |
+---------------------------------------------------------------------------
+Firepower|  1    2    4    6    8   12   16    20    24    30    36  
+         |  
+
+APPENDIX C
+
+Artillery To Hit Table
+
+Range    | <6  7-12  13-18  19-24  25-30  31-36  37-42  43-48  49-54  >54
+         |
+---------------------------------------------------------------------------
+Result   |  8    7     6      5      4      3      2      1      0    -1
+         |
+
+APPENDIX D
+
+Gun Barrel Modifiers
+        
+        | 
+Mod     | <6  7-12  13-18  19-24  25-30  31-36  37-42  43-48  49-54  >54
+----------------------------------------------------------------------------
+-1      | 0    0      +1     +1    +1     +1     +1     +1     +1    +1
+ 0      | 0    0       0      0     0      0      0      0      0     0  
++1      | 0    0      -1     -1    -1     -1     -1     -1     -1    -1 
++2      | 0    0      -1     -1    -2     -2     -2     -2     -2    -2
+        | 
+
+MAPS :    NO MAPS ARE INCLUDED! BUY THE GAME IF YOU WANT
+          THEM!  
+
+END OF MANUAL!   I AM NOT PARTICULARLY PROUD OVER THE ICON DESCRIPTIONS, BUT
+WHAT THE HELL, WHAT CAN YOU EXPECT? WITH THE CRACKED VERSION, AND THIS MANUAL
+YOU DON'T HAVE TO BUY THE GAME!         LATER ALL...   [RYGAR]   SCIENCE 451!
+
+TYPING TIME: ABOUT 5 HOURS...
+             FUCKING WASTE OF TIME!
+             (AND BORING IT WAS, TOO...)

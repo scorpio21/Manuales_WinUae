@@ -1,0 +1,61 @@
+DOCUMENTOS PARA LOS OJOS 
+~~~~~~~~ 
+la junta 
+~~~~~~~~~ 
+El tablero consta de 32 cuadrados de colores formados por dos espirales dentro de un círculo. 
+Hay 8 colores diferentes, cada uno con 4 cuadrados a la vista en cualquier momento. 
+Al girar las espirales es posible cambiar la posición visual de la 
+cuadrados de cada color. 
+ 
+La posición de los cuadrados de cada color se llama patrón.  Por  
+Al girar las espirales, notarás que hay 4 patrones: la espiral larga, 
+la espiral corta, la línea recta y el círculo.  También se muestra en el 
+El tablero es el cuadro de estado del jugador.  Se utiliza inicialmente para indicar la 
+Número de fichas que debe colocar un jugador durante la preparación y después para 
+indicar colores controlados que el jugador puede capturar durante el curso 
+del juego.  El objetivo del juego es conseguir el número necesario de 
+tus fichas en los cuadrados de colores correspondientes en el tablero de juego. 
+ 
+El juego de 2 jugadores 
+================== 
+ 
+El ganador del juego de 2 jugadores es la persona que logra conseguir 4 de sus 
+contadores en su patrón de colores en el tablero.  Cada jugador comienza con 6 
+contadores y toma su turno para colocar 1 pieza a la vez en un espacio desocupado. 
+casilla en el tablero.  El jugador que juega rojo hace el primer movimiento. 
+El número de movimientos que puede hacer un jugador está determinado por el número más alto 
+de sus fichas en cualquier color.  Por ejemplo, si un jugador tiene 3 fichas 
+en gris, 2 fichas en verde y una ficha en naranja, entonces tienen 
+3 movimientos disponibles para ellos.  Un movimiento se realiza moviendo el propio jugador. 
+contador a un cuadrado adyacente o moviendo una de las ruedas en espiral  
+en sentido horario o antihorario.  Un jugador en su turno puede mover sus fichas.  
+y/o girar la rueda en cualquier combinación o dirección hasta el número total 
+de movimientos permitidos.  Un jugador no puede colocar una ficha en un ya 
+casilla ocupada, ni saltar sobre casillas ocupadas.  Las ruedas se pueden mover. 
+en sentido horario o antihorario por pasos.  Se necesitan 16 pasos para 
+Completa una revolución de la rueda y cada paso cuenta como un movimiento.  si un 
+jugador en cualquier momento durante un movimiento tiene 4 de sus fichas en cualquier color que no sea 
+que el suyo propio, se considera que tienen el control de ese color y esto 
+indicarse colocando una ficha de "color de control" en el campo del jugador. 
+cuadro de estado.  Si antes de que un jugador haga un movimiento hay alguno de sus oponentes 
+fichas que se encuentran en el "color controlado" de un jugador, pueden, si lo desean, mover 
+cualquiera o todas las fichas infractoras a cualquier casilla desocupada del tablero. 
+ 
+Las variaciones del juego 
+ 
+La versión para computadora del juego "Eye" tiene varias características y reglas. 
+variaciones que no están incluidas en el juego de mesa.   Selección de estos 
+se realiza mediante varias indicaciones en pantalla al comienzo del juego.  primero tu 
+Se le pedirá que ingrese un número relacionado con el número de movimientos realizados antes 
+Se produce un cambio de color en el tablero.  Los pares de colores que se intercambian 
+son: rosa con gris y naranja con malva.  Esta entrada puede ser cualquier número. 
+entre 1 y 255, pero al presionar ENTER se selecciona una placa estática.  durante 
+En el juego normal, a un jugador solo se le permitirá ganar el juego o capturar un color. 
+durante su turno.  La siguiente opción le permite hacer ambas cosas en cualquier momento durante 
+el juego.  Simplemente presione la tecla de aviso en pantalla para seleccionar o rechazar esto  
+opción.  Finalmente, existe una opción que permite a los jugadores "robar" un 
+color capturado durante el transcurso del juego colocando el número requerido 
+de contadores sobre un color ya controlado.  Nuevamente, simplemente presione el botón 
+mensaje en pantalla para aceptar o rechazar.
+
+Fin.............

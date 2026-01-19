@@ -1,0 +1,372 @@
+hexadecimal
+
+HEX es un juego mágico de estrategias cambiantes y cambios repentinos.  tu eres 
+el Unicornio, compitiendo contra tus compañeros para perfeccionar tus habilidades mágicas.  el 
+El juego es sutil, las estrategias complejas, los usos de la magia... ¡alucinantes!
+
+HEX se juega en 120 niveles, cada uno más difícil que el anterior.  lo harás
+Enfréntate a doce oponentes varias veces cada uno, tanto en solitario como en parejas.  para ganar un
+nivel, debes volver verde todo el HEX Arena mientras tu oponente intenta
+vuélvelo morado.  Si la Arena termina en rojo o azul, o si el nivel no ha 
+ganado en 100 turnos, entonces tú y tu oponente habéis empatado y debéis 
+jugar contra el mismo oponente nuevamente.  Para ganar el juego, debes ganar los 120 niveles.
+
+
+
+LA ARENA HEXAGONAL
+
+Diecinueve pilares hexagonales ('hexes') forman el HEX Arena.  La parte superior de cada 
+El hexágono cambia de color ("voltea") cuando tú o un oponente se mueven hacia él.  los colores
+cambiar en una secuencia simple; verde, rojo, morado, azul y de nuevo al verde.
+
+Siempre que dos hexágonos adyacentes sean del mismo color, se "bloquearán".  tu 
+o tu oponente debe "saltar" sobre todos los hexágonos en un "grupo" bloqueado antes 
+todos se voltearán.  A medida que avanza un nivel, los hexágonos se unirán en 
+grupos cada vez más grandes hasta que toda la Arena sea de un solo color y el 
+finaliza el nivel.  Cuando un jugador salta a un hexágono bloqueado, el hexágono "almacena" el lanzamiento;
+ un grupo bloqueado no cambiará de color hasta que cada hexágono tenga al menos un giro 
+almacenado en él.  El color del pilar de un hexágono en un grupo indica si
+ ese hexágono tiene flips almacenados: un hexágono con un pilar oscuro tiene flips almacenados, y 
+aún debes saltar sobre un hexágono con un pilar de luz si quieres voltear su 
+grupo al siguiente color.
+
+
+MOVIMIENTO
+
+Tú y tu oponente os turnáis para moveros.  En tu turno, puedes saltar a un 
+hexágono adyacente o en el que estás haciendo clic con el ratón en ese hexágono.  
+A medida que mueves el ratón, la superficie del hexágono que estás a punto de seleccionar 
+ser resaltado.  No puedes entrar en un hexágono ocupado por un oponente y 
+no puede salir de la Arena.  Si intentas hacerlo, saltarás en el lugar.
+
+MAGIA
+
+HEX ofrece más de 100 hechizos mágicos, que tú y tu oponente podéis usar
+para darle la vuelta al tablero a tu favor.  Puedes "conocer" hasta cinco hechizos al mismo tiempo. 
+cualquier momento.  Lanzar hechizos requiere el gasto de energía mágica, 
+que se gana durante el transcurso de un juego.  La cantidad de energía que puedes 
+tener está limitado por tu capacidad mágica.  Tu capacidad crecerá cada vez 
+nivel, siempre que puedas niveles de forma rápida y consistente.
+
+  Si tu capacidad alguna vez cae a 0, pierdes el juego.
+
+
+
+Comenzando...
+
+
+Cuando abres el programa HEX, ves la pantalla del logotipo, una demostración 
+juego, y luego el MAIN MENU.  (Al hacer clic en el botón del ratón se tomará
+directamente al MENÚ PRINCIPAL.) El MENÚ PRINCIPAL incluye siete opciones de comando
+y diez juegos guardados.
+
+
+JUEGO DEMO inicia una serie de juegos de demostración.  Ver estos juegos puede 
+Mejora tu comprensión del juego y de tus oponentes.  puedes irte
+la demostración en cualquier momento haciendo clic en el botón del ratón.
+
+REGLAS muestra una pantalla de reglas y pautas simples.  Para volver a la 
+MENÚ PRINCIPAL, clic en el botón del ratón.
+
+
+
+NUEVO JUEGO te permite comenzar un nuevo juego de HEX e ingresar tu nombre; tu nombre 
+identifica tu juego guardado.  (Es posible que desees comenzar cada juego con un 
+nombre diferente, ya que un mismo nombre no puede aparecer más de una vez en el 
+lista de puntuaciones más altas.) Si ya hay diez juegos guardados, tendrás que 
+borre uno antes de poder comenzar un nuevo juego.
+
+CLEAR GAME te muestra las estadísticas vitales de todos los juegos guardados y 
+le permite borrar uno de ellos.  Si decides no borrar un juego, haz clic en 
+en CANCELAR.
+
+CLR SCORES le permite borrar todos los puntajes más altos excepto los tres primeros.  haz esto 
+ocasionalmente para que nuevos jugadores puedan ingresar a la lista de puntuación.
+
+SOUND ON activa el sonido del juego.  Cuando el sonido está activado, esta opción 
+cambia a SONIDO APAGADO y viceversa.  Durante el juego, puedes alternar el 
+sonido apagado haciendo clic en MUTE.
+EXIT le permite salir del programa HEX.  Esto es distinto de SAVE, que es 
+disponible durante el juego y te devolverá al MENÚ PRINCIPAL después de guardar tu juego.
+
+JUEGOS GUARDADOS: Si has iniciado un juego y no has ganado, perdido o 
+borrado es, HEX ha guardado tu juego.  Para continuar una partida guardada, simplemente 
+haga clic en él con el mouse.
+
+
+Magia...
+
+Los hechizos mágicos son herramientas que te ayudarán a ganar niveles de HEX.  Es posible que tengas hasta 
+cinco hechizos en los 'Ranuras de hechizos' que se encuentran a la izquierda de la Arena. en cada 
+Por turno, puedes seleccionar cualquiera de estos hechizos para lanzarlos.
+
+Para seleccionar un hechizo, haga clic en su ranura con el mouse; todavía puedes cambiar 
+tu mente hasta que te muevas en la Arena.  Cada hechizo tiene una duración por turnos. 
+(dur) y un costo en la energía mágica; estos se muestran en la parte inferior 
+línea de la ranura de cada hechizo.  Necesitas hechizos para superar el uso de magia poderosa.
+oponentes, pero ten cuidado de no usar toda tu energía contra un oponente,
+o serás vulnerable al siguiente.
+
+HECHIZOS DE APRENDIZAJE
+
+Cada vez que ganas un nivel de HEX, se te ofrece un nuevo hechizo o hechizo 
+mejora.  Aceptar un hechizo o una mejora te cuesta parte de tu 
+energía mágica.  Para aceptar un nuevo hechizo, haga clic en una ranura y luego en 
+CONTINUAR.  El nuevo hechizo reemplazará cualquier hechizo en el espacio que tengas. 
+indicado.  Una mejora de hechizo siempre reducirá el coste (por turno) de un 
+hechizo; algunas mejoras también reducirán su duración.  para aplicar un 
+mejora de uno de tus hechizos, haz clic en la ranura de ese hechizo y luego en 
+'CONTINUAR'.  Para rechazar un hechizo, haga clic en 'CONTINUAR' mientras No hay hechizo. 
+seleccionado.
+
+
+
+ENERGÍA Y CAPACIDAD MÁGICA
+
+Lanzar un hechizo utiliza energía mágica (ENR); este es el costo del hechizo.  
+Por lo tanto, debes ganar energía mágica para poder lanzar hechizos.  tu recibes
+un punto de energía por cada hexágono verde en la Arena en cada turno.  tu también 
+Obtén una octava parte de la energía gastada por tus oponentes cada vez que lanzan 
+un hechizo.  Recibes una gran bonificación de energía mágica cuando ganas un nivel.
+
+Tu energía mágica está limitada por tu capacidad mágica (CAP), que 
+cambios durante el transcurso de un juego.  Su capacidad comienza en 500, y 
+aumenta en 250 cada vez que ganas un nivel.  Tu capacidad se reduce en 400 cada uno. 
+vez que pierdes un nivel, y pierdes un poco de capacidad, cada turno de cada 
+nivel.  Para desarrollar y mantener una alta capacidad, debes ganar niveles rápidamente.
+y consistentemente.  Si tu capacidad cae a cero, has perdido el juego. 
+y debes empezar de nuevo desde cero.
+
+LOS HECHIZOS
+
+Hay más de 100 hechizos que tú y tus oponentes podéis usar para 
+trascender las reglas básicas de cada juego.  Estos hechizos se componen de 'hechizo
+partes'.  Cada hechizo también tiene un costo y una duración (ambos pueden ser 
+mejorado).  Los hechizos de varios turnos se pueden cancelar en el medio seleccionando 
+otro hechizo o Sin hechizo.  Sin embargo, no querrás hacer esto muchas veces, 
+ya que pagas la mitad del coste de un hechizo de varios turnos en el primer turno.
+
+
+Los hechizos se dividen en categorías de la siguiente manera:
+
+Ayuda: comienzas el juego con un único hechizo de Ayuda.  Este hechizo juega cinco
+gira PARA TI.  Úselo si está confundido acerca de sus objetivos o si desea 
+para aprender buenas tácticas.
+
+Jump o Jmp): te permite moverte a un hexágono distante.  'Salto 3', por ejemplo,
+te permite moverte tres veces, volteando solo el último hexágono en el que aterrizas.  
+Cuando está en un hechizo de varias partes, Salto te permite moverte a un hexágono distante. 
+antes de aplicar el resto del hechizo.
+
+Voltear (o Flp): controla el número de veces que volteas un hexágono cuando aterrizas
+eso.  Sin magia, sólo volteas un hexágono una vez cuando aterrizas en él; con hechizos,
+sin embargo, puedes voltear un hexágono dos o tres veces, o ninguna.  Hechizos de volteo 
+no siempre cambiará el color de un hexágono porque no niegan el 
+efectos del bloqueo.
+
+Hay tres aspectos especializados de voltear:
+
+* Clear Flips elimina los flips almacenados de un hexágono y enciende su pilar de luz.
+* Random Flip puede voltear un hexágono un número aleatorio de veces (de 0 a 3), o 
+borrarlo.
+* Own Flip pone el número correcto de lanzamientos (0-3) en un hexágono para que sea tu 
+color, Own Flip actúa como Clear Flips en hexágonos que ya son de tu color.
+Velocidad (o Spd): te permite realizar varios movimientos en un turno.  cuando 
+Combinado con otros componentes, Speed te permite realizarlos todos. 
+repetidamente durante un turno.  Por ejemplo, 'Spd3Jmp2Flp2' le permite mover 
+dos hexágonos y voltea dos veces el hexágono en el que aterrizas, tres veces en un solo turno.
+
+Break Lock: es como Flip, excepto que rompe el maleficio que estás lanzando.
+de cualquier grupo bloqueado.  Own Color es como Own Flip excepto que siempre 
+convierte el hexágono a tu color independientemente del bloqueo.  Color aleatorio (o Rdm 
+Color) es equivalente a Random Flip.
+
+Las regiones especifican un área donde afectará un hechizo.  Se pueden utilizar para afectar 
+el hexágono bajo tu oponente.  Hay cinco tipos de regiones:
+
+* Ray afecta una línea recta de hexágonos desde donde estás hasta el borde del
+Estadio.  Los hechizos que incluyen a Ray son los únicos hechizos que no te permiten 
+moverse a un nuevo hexágono sin un componente de salto.  La dirección que indicas 
+Después de seleccionar el hechizo, se especifica la dirección del rayo en lugar de 
+su movimiento previsto.
+
+* Big Hex (o Bhx): incluye el hexágono al que te mueves y todos los hexágonos adyacentes.  
+Por lo tanto, los Big Hexes tienen más efecto cuando estás cerca del centro de la Arena. 
+que cuando estás al límite.
+
+* Dispersión: afecta a un número aleatorio de hexágonos (uno de cada cuatro, en promedio) 
+dispersos aleatoriamente por la Arena.  La dispersión no necesariamente afecta 
+el maleficio sobre el que saltas.
+
+* Grupo: se refiere al hexágono sobre el que saltas y a todos los hexágonos que están bloqueados.
+eso.
+
+* Arena: cubre todo el campo de juego y tiene el mismo efecto en todos 
+maleficio sin importar dónde saltes.
+
+Alternar: te permite destruir un hexágono, eliminándolo por completo de la Arena durante
+el resto del nivel.  Los hechizos no tienen efecto en hexágonos alternados, excepto
+Falsificaciones (ver más abajo) u otro Toggle, que restaura un maleficio y lo convierte en 
+tu propio color.
+
+Falso: te permite cambiar la apariencia del hexágono sobre el que saltas sin 
+realmente afectándolo en absoluto.  La ilusión dura hasta que se salta el maleficio. 
+de nuevo o hasta que se emita un Dispel Fake.  Hay cuatro tipos 
+de escamas:
+
+* Invisible: hace que uno o más maleficios desaparezcan.
+* Flip falso: hace que los hexágonos afectados parezcan tener pilares oscuros. 
+independiente de cualquier lanzamiento real almacenado.
+* Color falso: hace que los hexágonos parezcan estar compensados por dos colores de su 
+color real.
+* Randome Flake: hace que los hexágonos parezcan tener un color y un pilar aleatorios. 
+color.
+
+Escudo: evita que tú y tu oponente afecten un hexágono mientras dure 
+del hechizo.   Hay tres tipos de partes de hechizos de escudo:
+
+* Movimiento de escudo: evita que tú y tus oponentes os mováis a un hexágono.
+* Shield Flip evita que cambie el número de flips almacenados.
+* El color del escudo evita que el hexágono cambie de color.
+Intercambiar lugares: te permite cambiar de posición con tu oponente antes de que tu
+movimiento regular.
+
+Las partes de los hechizos de influencia vienen en tres tipos.  Cada tipo puede afectar su 
+Hechizos y/o Movimiento del oponente.  Si un hechizo no dice cuál de estos es
+está afectando, entonces influye en AMBOS.  La influencia afecta a todos tus 
+oponentes, pero no socios fantasmas:
+
+* Congelar hechizos: evita que tus oponentes lancen un hechizo y 
+Cancela inmediatamente cualquier hechizo que tenga en efecto.
+* Congelar movimiento: evita que tus oponentes se muevan mientras dure 
+el hechizo.
+* Confundir: aleatoriza el movimiento de tus oponentes y/o la selección de hechizos.
+* Control: te permite controlar el movimiento o los hechizos de tus oponentes, o ambos.  
+Si estás seleccionando un hechizo, pero no tienes el control del movimiento, debes 
+Sigue haciendo clic en la Arena para que el hechizo surta efecto.
+
+Phantom Partner: crea un compañero "etéreo" que saltará por el 
+Arena intenta ayudarte a ponerlo verde.  Phantom Partners no puede usar magia,
+y, en su mayor parte, no se ven afectados por él.  Esto es particularmente bueno 
+hechizo para lanzar al comienzo de un nivel o cuando estés confundido.
+Clonar: crea un TÚ completamente nuevo.  Tú los controlas a ambos y eres 
+equivalente en todos los sentidos.  Ambos lanzan hechizos y ambos se ven afectados. 
+por influencia.  También compartís la misma Energía.  Esto significa que tu energía 
+y la capacidad aumenta o disminuye dos veces más rápido.  Tú y tus oponentes podéis crear
+hasta cuatro Clones, siempre y cuando nunca haya más de un total de seis 
+criaturas en la Arena al mismo tiempo.  Los socios fantasma y los clones duran hasta 
+el final de un nivel.
+
+
+
+Los otros jugadores...
+
+
+Tus oponentes en el juego HEX son una extraña colección de criaturas errantes. 
+Hechiceros y diletantes poderosos.  Cada uno tiene un estilo único y un 
+conjunto único de hechizos.  Para jugar bien a HEX, debéis tratar a los demás. 
+jugadores de forma individual y adapta tu estrategia a la de tu oponente.  cuando 
+te enfrentas a dos oponentes a la vez, esto se vuelve particularmente 
+desafiante.
+
+Egbert: es el último de los Dodoes de Mauricio.  Cuando sus compañeros estaban 
+Al extinguirse, Egbert repentina y misteriosamente adquirió poder mágico y 
+desapareció de la faz de la Tierra.  Desde entonces ha estado jugando HEX y
+pastando en la extraña flora alrededor de la Arena.  Todavía no ha aprendido a 
+lee o escribe, pero ejerce un gran poder.
+
+Manowa: es una medusa de considerable tamaño e inteligencia.  Al principio ella
+Tuve problemas para desplazarme en tierra firme, pero este tipo de problema puede ser 
+superar con perseverancia. . . y poder!  Ella usa este poder con impresionantes
+efecto mientras flota sobre el HEX Arena.
+
+Fitzroy: es un Triceratops de la época de la Gran "Extinción" Mesozoica.
+En realidad, la mayoría de los dinosaurios no se extinguieron; ellos partieron para
+otras dimensiones.  Debido a la distorsión del tiempo involucrada en la dimensión. 
+viaje, Fitzroy es todavía un bebé después de 65 millones de años, pero tiene bastante 
+pisotear!
+
+Amy: no es un hongo sensible promedio.  Ella creció como huérfana en 
+la ciudad de Mascara, sobreviviendo gracias a su ingenio y magia.  Ella depende principalmente 
+sobre ilusiones y hechizos defensivos.   Sin siquiera intentar ver a través de ella 
+propias ilusiones, puede superar a la mayoría de los rivales.
+
+Brazz - es el Príncipe Heredero de Mayfair.  Como manu de la nobleza adecuada, 
+Pasa la mayor parte de su tiempo involucrado en deportes.  Debido a su vida fácil tiene 
+Tuve mucho tiempo para practicar HEX.  Como las abejas más simples de la Tierra, le gustan. 
+revolotear de aquí para allá y jugar entre colores brillantes.
+
+Sir Jake: es un dupstanding, pero no exactamente británico.  De hecho, él es
+no exactamente nada.  Es mucho más parecido a nada en absoluto. donde vino jake 
+desde, nada es mucho de nada.  Se siente muy cómodo sin nada.
+e intenta mantener la Arena en esa dirección.
+
+Phoebe: es una de las siete Doncellas Escudo de Artemisa.  cuando ella no está encendida 
+Deber, busca desafíos para perfeccionar sus habilidades de mente y cuerpo.  HEX es 
+tal desafío.  Phoebe es fuerte, rápida e inteligente, y sus hechizos 
+Fueron elegidos de ella por la propia Artemisa.  Cuidado con los famosos estallidos de Phoebe
+de poder.  (Mitad caballo, mitad mujer.)
+
+Kirion: proviene de Islandia, donde todavía quedan bastantes de los pequeños
+gente.  Prefiere no involucrarse con extraños, pero Stephen lo convenció.
+a probar un juego de HEX y desde entonces ha quedado enganchado.  Su especialidad 
+Es una ilusión y puede hacer una deslumbrante exhibición de artimañas.  (hombre de las cavernas 
+tipo.)
+
+Kengar: es un vagabundo de las dimensiones.  Nadie sabe de dónde vino.
+A veces se la puede encontrar acechando a los wumpi en Rigel, o persiguiendo nubes de 
+agua a través de Enchanged Grove.  A veces no se la puede encontrar en absoluto.  
+Kengar es rápido, muy rápido.  ¡Puede dejar atrás a un halcón en las montañas!  ella es 
+también lo suficientemente poderoso como para vagar libremente por los 500 mundos.  (Leopardo.)
+
+Stephen: es un ser humano común y corriente a quien se le otorgaron poderes místicos como 
+resultado de su amistad con Kirion.  Stephen cree que el gran poder 
+conlleva una gran responsabilidad.  Su vida es difícil y peligrosa.  para relajarse
+y calma sus nervios juega HEX.  Su estilo mágico se desarrolló durante más
+propósitos importantes, pero también puede ser devastador en la Arena.
+
+Rubicón: es un dragón joven y fornido.  Su clan la considera muy 
+prometedor y ya muy poderoso.  Ella es bastante formidable, y cuando ella 
+ha aprendido astucia y sutileza será prácticamente invencible.  no lo hagas 
+subestimar su poder y versatilidad.
+
+KRAKAWANN: es una fuerza elemental de la naturaleza y casi un dios.  su 
+El poder y la sabiduría son incomprensibles en términos ordinarios.  KRAKAWANN creado 
+el HEX Arena y está familiarizado con todas sus intracacies.  la unica razon 
+que los otros jugadores están dispuestos a entrar a la Arena con KRAKAWANN es que
+Pone muy poca atención y voluntad en el juego.
+
+
+
+Terminando...
+
+
+HEX guarda tu juego cuando haces clic en SAVE.  Sin embargo, ahorrar en el 
+la mitad de un nivel te hace perder el terreno; tendrías que empezar 
+el nivel desde el principio con la energía y capacidad que tenías cuando 
+dejar de fumar.  Sin embargo, guardar al principio de un nivel no tiene penalización.
+
+Sólo hay tres formas de eliminar una partida guardada:
+
+* Gana los 120 niveles y así gana el juego;
+* Pierdes toda tu capacidad y así pierdes el juego;
+* Borra el juego guardado con la opción BORRAR JUEGO del MENÚ PRINCIPAL.
+
+PUNTUACIONES ALTAS
+
+La lista de puntuación más alta registra el nivel más alto que usted o cualquier otro jugador 
+ha ganado, y tu energía al final de ese nivel.  Para superar la puntuación más alta 
+lista no sólo debes ganar más niveles que cualquier jugador anterior, sino que también 
+Debe hacerlo con más energía restante.
+
+GANAR
+
+Para ganar un juego de HEX, debes ganar los 120 niveles diferentes.  en el primero 
+nivel, jugarás solo para familiarizarte con la Arena.  después 
+Luego, te enfrentarás a oponentes en conjuntos de siete niveles.  Las apuestas de la 
+El juego aumenta con cada serie.  Tu bonificación por ganar un nivel aumenta cada 
+conjunto, y su capacidad de pérdida por turno aumenta.
+
+
+
+¡Buena suerte y que gane el mejor mago!

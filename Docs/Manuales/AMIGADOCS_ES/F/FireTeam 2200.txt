@@ -1,0 +1,188 @@
+Tarjeta de referencia del equipo de bomberos 2200
+Escrito por THB
+
+OPCIONES DE COMANDO
+
+Wpn1 F1 *el menú muestra la designación del arma (por ejemplo, 120 mm)
+Wpn2 F2 *el menú muestra la designación del arma (por ejemplo, HMG)
+Wpn3 F3 *el menú muestra la designación del arma (por ejemplo, AAMG)
+Escanear F4 seleccione la unidad o ubicación para escanear
+Contactos F5 alterna entre el seguimiento de múltiples objetivos "TRACK"
+                        y "SCAN" escaneo de un solo objetivo.
+Sistemas
+Estado F6 alterna entre visualización de armadura/armas "ARMOR",
+                        Visualización del estado de los sistemas críticos "SYSTEM", "TEAM"
+                        Lista y estado de FireTeam y soporte "SUPPT"
+                        lista de estado del equipo.
+Mapa F8 alterna entre mapa estratégico y visualización táctica
+Actualizar F9 fuerza una actualización (no disponible para el reproductor TERMINAL)
+Ayuda a F10 a abrir una pantalla de ayuda (no en Conflicto de dos jugadores)
+Disparar <espacio> disparar arma actual
+Cargar 'L' cargar o descargar carga
+Mover 'M' entrar en la ruta de movimiento
+Pausa 'P' pausa el juego (no disponible en Conflicto de dos jugadores)
+
+equipo de bomberos
+Los miembros 'A' a 'H' seleccionan un miembro del equipo de bomberos y abren el submenú para dar 
+                        pedidos
+
+Soporte
+Los miembros 'S' a 'Z' seleccionan un miembro del equipo de soporte y abren el submenú para 
+                        dar ordenes
+
+Interceptar 'I' Interceptar y ocupar otra unidad (solo si es expulsado)
+Charla de radio 'R' en la radio (solo conflicto de dos jugadores)
+Computadora <Pg Up> escanear hacia atrás a través de mensajes de computadora
+              <Pg Dn> escanear hacia adelante a través de mensajes de la computadora
+Comando <Alt-C> cambia la duración de la fase de comando a
+                        3, 6, 9 o 12 segundos
+Sonidos <Alt-S> activa o desactiva el sonido
+Actualizar <Alt-U> cambia el modo de actualización a automático, forzado o en pausa
+Expulsar <Alt-E> expulsar de su vehículo
+Salir <Alt-Q> salir del juego
+
+
+
+
+
+DESCRIPCIÓN DE LA TAREA
+
+
+Asalto y retirada
+
+Enfréntate a objetivos enemigos a voluntad.
+Avanza hacia los objetivos sin parar.
+
+
+sonda
+
+Enfréntate a objetivos enemigos a voluntad.
+Muévete hacia los objetivos normalmente, pero evita todos los campos minados.
+Si está dañado, busque cobertura. Una vez a cubierto, no vuelva a moverse hasta que no haya sufrido daños.
+por fuego enemigo durante 30 segundos completos.
+
+
+defender
+
+Enfréntate a objetivos enemigos a voluntad.
+No se mueva a menos que esté cubierto de humo, y luego solo un lugar hacia
+objetivo.
+
+
+Portada
+
+Ataca objetivos enemigos a voluntad, usando rondas de humo si es posible.
+Pasar a los objetivos normalmente.
+Las unidades de infantería con esta tarea no entrarán en vehículos de transporte.
+
+
+ametrallar
+
+Enfréntate a objetivos enemigos a voluntad.
+Viaja a objetivos sin parar. Si está en el objetivo 1, revise los objetivos,
+haciendo del objetivo 2 el primer objetivo y el objetivo 1 el segundo.
+De esta manera, avance y retroceda entre el objetivo 1 y el objetivo 2.
+
+
+convoy
+
+Enfréntate a objetivos enemigos a voluntad.
+Intente utilizar el movimiento de la carretera en todo momento. La prioridad es siempre avanzar
+a la siguiente ubicación de la carretera. Sin embargo, si en un objetivo de movimiento y un nuevo objetivo
+Perpendicular al frente actual, salga del camino hacia el nuevo objetivo.
+Si no puede continuar por el camino hacia el objetivo actual, salga del camino y use
+movimiento estilo asalto hasta que el movimiento por carretera pueda usarse nuevamente.
+Si está confundido, cambie la tarea a Asalto y el estado de la radio cambie a Comandante.
+
+
+
+
+COSTOS DE MOVIMIENTO POR TIPO DE TERRENO
+
+                Carretera de agua urbana Open Woods
+Unidades Aéreas 1 1 1 1 1
+
+Unidades de Infantería 6 6 6 6 6
+
+Tanque ligero y
+Tanque de reconocimiento 1 2 2 NA 1
+
+Todos los desplazamientos 1 5 3 1 1
+
+camión pesado,
+FIV pesada,
+Ambos morteros,
+Tanque pesado 3 3 3 NA 1
+
+Todos los demás
+Vehículos terrestres 2 3 3 NA 1
+
+
+
+Modificadores de probabilidad de acierto
+
+Objetivo en Terreno Urbano -10%
+Objetivo en bosque Terreno -30%
+Objetivo o tirador en humo ligero -10%
+Objetivo o tirador en humo denso -30%
+El objetivo se está moviendo -15%
+El tirador se está moviendo -15%
+El objetivo y el tirador se están moviendo -25%
+El arma está dañada -25%
+La computadora está dañada -25%
+La computadora está deshabilitada -50%
+
+Se sabe que los comandantes de unidades individuales con alto rango logran un mayor impacto.
+probabilidades que el oficial subalterno. Los comandantes de mayor rango también tienen la
+capacidad de reducir la probabilidad de impacto del fuego entrante mientras están en
+movimiento, debido a su conocimiento superior de maniobras tácticas.
+
+Otros modificadores debidos a equipos especiales y/o terreno único pueden afectar el impacto.
+probabilidad, pero estas situaciones no han sido documentadas adecuadamente por
+Auditores Corporativos y, por lo tanto, están omitidos en esta sesión informativa.
+
+
+
+Características de los daños
+
+Arma y capacidad de daño relativo
+Tipo de proyectil Penetración Daño de armadura Daño de infantería
+
+Armas pequeñas 1 2 1/tropa
+Ametralladora mediana 1 1 3
+Ametralladora pesada 2 2 5
+Cañón antiaéreo 3 7 0
+
+Cañón automático de 75 mm HE 1 3 3
+Cañón automático de 75 mm AP 4 4 2
+
+Cañón automático de 105 mm HE 2 8 4
+Cañón automático de 105 mm AP 4 6 2
+Cañón automático de 105 mm HEP 3 5 3
+APU de cañón automático de 105 mm 4 6 2
+
+Cañón automático de 120 mm HE 2 8 6
+Cañón automático de 120 mm AP 5 7 2
+Cañón automático de 120 mm HEP 3 7 5
+APU de cañón automático de 120 mm 5 7 2
+
+Cañón automático de 150 mm HE 2 10 8
+Cañón automático de 150 mm AP 5 10 2
+Cañón automático de 150 mm HEP 3 9 6
+APU de cañón automático de 150 mm 5 9 2
+
+Cañón automático de 200 mm HE 3 13 10
+Cañón automático de 200 mm AP 5 13 3
+
+Lanzador de misiles AT 5 7 2
+Sistema de misiles AT 5 11 2
+
+Láser 5 7 2
+Láser de pulso 4 6 0
+Cañón Gauss 5 9 0
+
+Mortero de 75 mm 2 8 3
+Mortero de 105 mm 3 13 6
+
+Él mío 0 0 6
+En la mina 3 13 0

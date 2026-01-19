@@ -1,0 +1,1297 @@
+[-UMS II-]
+                
+                        DOX ESCRIBIDO POR SCOOTER
+                             [1304 LÍNEAS]
+
+PRIMER SALUDO GOTO -RYGAR-FOXY-UNDERTAKER-POR SU COOL DOX...
+
+A CONTINUACIÓN HE ESCRIBIDO TODOS (LO QUE PIENSO) SON LOS DOX NECESARIOS PARA JUGAR ESTO
+JUEGO... ESPERO QUE LES SEAN ÚTILES... Y RECUERDEN SI PIENSAN EN ESTE JUEGO
+ES SUFICIENTEMENTE FRESCO PARA JUGAR -COMPRAR EL ORIGINAL-
+
+
+EL PANEL DE CONTROL MAESTRO.
+-------------------------
+
+EL PANEL DE CONTROL MAESTRO NO ES EL CEREBRO NI EL CORAZÓN DE LA UMS
+II, MÁS BIEN, COMO EL NOMBRE LO IMPLICA, ES EL LUGAR DONDE UNA MIRIAD DE VARIACIONES
+PUEDE AJUSTARSE, MODIFICARSE Y MODIFICARSE PARA QUE LA SIMULACIÓN PUEDA ADAPTARSE A
+SER LO MÁS EXACTO POSIBLE, POR EJEMPLO, SI EL USUARIO DESEA SIMULAR UNA
+TEMPORADA ESPECIALMENTE LLUVIOSA DE LOS MONZONES, O ACELERAR LA TASA DE ESCORBUTO (DESGASTE)
+ENTRE MARINEROS, ENTONCES ESTE SERÍA EL LUGAR PARA HACERLO.
+
+ARCHIVOS .MCP
+----------
+
+TODAS LAS CONFIGURACIONES DEL PANEL DE CONTROL MAESTRO SE PUEDEN GUARDAR Y RECARGAR EN UN
+MÁS TARDE, ESTOS ARCHIVOS, QUE TERMINAN CON LA EXTENSIÓN DE ARCHIVO .MCP, PUEDEN GUARDARSE O
+CARGADO DESDE EL MENÚ `MODIFICAR` (VER DETALLES DEL CAPÍTULO 2) CUANDO UN ESCENARIO ES PRIMERO
+CARGADO, EL PROGRAMA BUSCARÁ AUTOMÁTICAMENTE UN ARCHIVO MCP DEL MISMO NOMBRE.-PARA
+EJEMPLO: SI SE CARGA EL ESCENARIO ABCDEF.DAT, EL PROGRAMA INTENTARÁ CARGAR
+EL ARCHIVO .MCP CORRESPONDIENTE -ABCDEF.MCP-TAMBIÉN SE GUARDA EN LOS ARCHIVOS .MCP
+VARIAS PREFERENCIAS DEL USUARIO, COMO MOSTRAR LA TEMPERATURA EN CENTÍGRADOS O
+FAHRENHEIT, DISTANCIAS EN MILLAS O KILÓMETROS Y EL NOMBRE DEL USUARIO PARA LOS 4
+NIVELES DE VISUALIZACIÓN.
+
+LA INTERFAZ DEL PANEL DE CONTROL MAESTRO.
+-----------------------------------
+
+PARA ACCEDER AL PANEL DE CONTROL MAESTRO SELECCIONE -PANEL DE CONTROL MAESTRO- DESDE EL
+-MODIFICAR MENÚ-(VER CAPÍTULO 2). EL PANEL DE CONTROL MAESTRO CONSTA DE 4 GRUPOS DE
+BOTONES. AL HACER CLIC CON EL RATÓN EN CUALQUIERA DE LA FILA SUPERIOR DE BOTONES (EXCEPTO SALIR)
+CAMBIA LAS ETIQUETAS DE LOS OTROS 3 GRUPOS DE BOTONES. AL HACER CLIC CON EL RATÓN EN EL
+LA SEGUNDA FILA DE BOTONES CAMBIARÁ LAS ETIQUETAS DE LOS 2 GRUPOS RESTANTES DE
+BOTONES. AL HACER CLIC CON EL RATÓN EN EL CONJUNTO DE BOTONES IZQUIERDO, LAS ETIQUETAS CAMBIARÁN
+EL GRUPO CORRECTO DE BOTONES, Y SÓLO EL GRUPO CORRECTO, CONTIENE VALORES QUE EL
+EL USUARIO PUEDE CAMBIAR. ESTE MÉTODO DE SELECCIÓN DE MENÚ REEMPLAZA CIENTOS DE DIÁLOGOS
+CAJAS.
+
+CAMBIAR VALES DE BOTÓN (ATARI ST/AMIGA) -(NO PUSO EN MAC O IBM VAL)
+---------------------------------------------------------------
+
+PARA CAMBIAR UN VALOR QUE SE MUESTRA EN UN BOTÓN DEL GRUPO DERECHO DE LA
+ST/AMIGA -HAGA CLIC EN EL BOTÓN HASTA QUE SE DESTAQUE- LUEGO PRESIONE LA MANO IZQUIERDA
+BOTÓN DEL RATÓN..(A PARTIR DE AHORA SE MUESTRA COMO -LMB- O -RMB-) PARA DISMINUIR EL VALOR O
+EL RMB PARA AUMENTAR EL VALOR. CADA VALOR EN EL PANEL DE CONTROL MAESTRO TIENE UN
+VALOR MÁXIMO Y MÍNIMO. EL VALOR SE DETIENE AL ALCANZARLO.
+
+LOS BOTONES DE CONTROL MAESTRO.
+---------------------
+
+EL PANEL DE CONTROL MAESTRO (AHORA SE MUESTRA COMO MCP) ESTÁ CONFIGURADO EN UNA ESTRUCTURA DE ÁRBOL.
+ES DECIR QUE CAMBIAR EL BOTÓN SUPERIOR SELECCIONADO CAUSARÁ DIFERENTES OPCIONES PARA
+APARECE EN LOS GRUPOS SUBORDENADOS DE BOTONES.
+
+EL TABLA QUE COMIENZA DESCRIBE LA UBICACIÓN DE TODOS LOS BOTONES EN EL -MCP- Y
+INCLUYE UNA BREVE DESCRIPCIÓN DE LA VARIABLE ALMACENADA....
+
+BOTÓN SUPERIOR - -2º BOTÓN- -BOTÓN IZQUIERDO- -BOTÓN DERECHO-
+
+DESGASTE EXPERIENCIA TERRESTRE NIVELES DE EXPERIENCIA 0-9
+                                                  ESTAS VARIABLES ESPECIFICAN
+                                                  EL PORCENTAJE DE DESGASTE
+                                                  PARA UNIDADES TIERRAS BASADAS EN
+                                                  EXPERIENCIA. EL MAYOR
+                                                  EL NÚMERO-CUanto MÁS ALTO EL
+                                                  PÉRDIDAS.
+
+                                 LIDERAZGO NIVELES DE LIDERAZGO 0-9
+                                                  EXACTAMENTE COMO CON LA EXPERIENCIA
+                                                  ARRIBA...PERO BASADO EN
+LIDERAZGO..
+                                                  CUANTO MAYOR ES EL NÚMERO -
+                                                  -CUanto mayores sean las pérdidas
+
+                                 MORAL NIVELES DE MORAL 0-9
+                                                  EXACTAMENTE COMO CON EL LIDERAZGO
+                                                  PERO BASADO EN LA MORAL..
+                                                  CUANTO MAYOR ES EL NÚMERO-
+                                                  -CUanto mayores sean las pérdidas
+
+                                 NIVELES DE OFERTA 0-9
+                                                  EXACTAMENTE COMO CON EL LIDERAZGO
+                                                  PERO BASADO EN LA OFERTA..
+                                                  CUANTO MAYOR ES EL NÚMERO -
+                                                  -CUANTO MAYORES SON LAS PÉRDIDAS.
+
+                 NIVELES DE SUMINISTRO MARÍTIMO 0-9
+                                                  EL % DE DESGASTE PARA NAVAL
+                                                  UNIDADES SEGÚN LA OFERTA.
+                                                  CUANTO MAYOR ES EL NÚMERO -
+                                                  -CUANTO MAYORES SON LAS PÉRDIDAS.
+
+                                 LIDERAZGO NIVELES DE LIDERAZGO 0-9
+                                                  EXACTAMENTE LO MISMO QUE -SEA
+                                                  -SUMINISTRO.
+
+                                 EXPERIENCIA NIVELES DE EXPERIENCIA 0-9
+                                                  EXACTAMENTE IGUAL QUE EL DE
+                                                  MAR/SUMINISTRO -MAR/LIDERAZGO
+
+                                 MORAL NIVELES DE MORAL 0-9
+                                                  EXACTAMENTE IGUAL QUE
+                                                  MAR/SUMINISTRO ..ect
+
+                                 TIEMPO LLUVIA...
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE DESGASTE PARA NAVAL
+                                                  UNIDADES BAJO LLUVIA...
+                                           
+                                                  NIEVE...
+                                                  EXACTAMENTE IGUAL QUE..
+                                                  CLIMA/LLUVIA
+
+MOVIMIENTO TIERRA TIEMPO LLUVIA...
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA TERRESTRE
+                                                  UNIDADES VIAJANDO BAJO LLUVIA.
+
+                                                  NIEVE...
+                                                  EXACTAMENTE IGUAL QUE EL ANTERIOR
+                                                  -LLUVIA- A BASE DE NIEVE.
+
+                                 EXPERIENCIA NIVEL DE EXPERIENCIA 0-9
+                                                  EXACTAMENTE LO MISMO QUE NIEVE/LLUVIA
+                                                  PERO BASADO EN LA EXPERIENCIA.
+
+                                 MORAL MORAL NIVEL 0-9
+                                                  EXACTAMENTE LO MISMO QUE NIEVE/LLUVIA
+                                                  PERO BASADO EN LA MORAL.
+
+                                 MARCHA FORZADA
+                                 BONO DE MOVIMIENTO - ESTA VARIABLE ESPECIFICA EL
+                                                  % DE BONIFICACIÓN EN PUNTOS DE MOVIMIENTO
+                                                  PARA UNIDADES TIERRAS QUE TIENEN
+                                                  HA SIDO ORDENADO PARA REALIZAR UNA
+                                                  MARCHA FORZADA.
+
+                 LIDERAZGO DEL MAR NIVEL DE LIDERAZGO 0-9
+ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN 
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES BASADAS EN EL LIDERAZGO.
+
+                                 EXPERIENCIA NIVEL DE EXPERIENCIA 0-9
+                                                  EXACTAMENTE IGUAL QUE
+                                                  LIDERAZGO...PERO BASADO EN
+                                                  EXPERIENCIA.
+
+                                 MORAL MORAL NIVEL 0-9
+                                                  EXACTAMENTE IGUAL QUE
+                                                  LIDERAZGO...PERO BASADO EN
+                                                  MORAL.
+
+                                 VIENTO DIRECTAMENTE EN EL VIENTO..
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES QUE VIAJAN CONTRA EL VIENTO
+
+                                                  CORRIENDO CON EL VIENTO..
+                                                  EXACTAMENTE IGUAL QUE...
+                                                  -DIRECTAMENTE AL VIENTO-
+
+                                                  APORTE CERCANO..
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES QUE VIAJAN A UN GRADO
+                                                  ÁNGULO -HACIA- EL VIENTO.
+
+                                                  ALCANZANDO..
+                                                  ESTA VARIABLE ESPECIFICA LA 
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES VIAJANDO A 90
+                                                  ÁNGULO DE GRADO -CON- EL VIENTO
+
+                                                  ALCANCE DE BROCHA..
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES VIAJANDO A 45
+                                                  ÁNGULO DE GRADO -CON- EL VIENTO
+
+                                                  CALMA..
+                                                  ESTA VARIABLE ESPECIFICA LA
+                                                  % DE COSTO ADICIONAL EN
+                                                  PUNTOS DE MOVIMIENTO PARA NAVAL
+                                                  UNIDADES QUE VIAJAN POR UNA CUADRADA DEL MAPA
+                                                  CON VIENTOS EN CALMA.
+
+PISTA DE RUTAS DE BONIFICACIÓN DE MOVIMIENTO.
+                                                  % DE BONIFICACIÓN EN PUNTOS DE MOVIMIENTO
+                                                  PARA UNIDADES QUE VIAJAN POR UN
+                                                  PISTA (RUTA TIPO 1)
+
+                                                  CARRETERA..
+                                                  IGUAL QUE EL TIPO DE RUTA 1
+                                                  SOLO EL CAMINO ES (CAMINO TIPO 2)
+
+                                                  CARRETERA..
+                                                  IGUAL QUE LOS TIPOS DE RUTA 1/2  
+                                                  SOLO LA CARRETERA ES (CAMINO TIPO 3)
+FERROCARRIL..
+                                                  COMO TIPOS DE RUTA 1/2/3..
+                                                  SÓLO ES FERROCARRIL (CAMINO TIPO 4)
+
+                                                  RÍO..
+                                                  IGUAL QUE LOS TIPOS DE RUTA 1/2/3/4
+                                                  SOLO ES RÍO (SENDERO TIPO 5)
+
+                                                  CANAL..
+                                                  IGUAL QUE LOS TIPOS DE RUTA 1/2/3/4/5
+                                                  SOLO ES CANAL (SENDERO TIPO 6)
+
+COMBATE BATALLA EQU MULTIPLICADORES MORAL NIVEL MULTIPLICADOR
+                                                  UN FACTOR DE MORAL DE UNIDADES ES
+                                                  MULTIPLICADO POR ESTE NÚMERO
+                                                  EN LA ECUACIÓN DE BATALLA.
+
+                                                  MULTIPLICADOR DE NIVEL DE LIDERAZGO
+                                                  UN FACTOR DE LIDERAZGO DE UNIDADES ES
+                                                  MULTIPLICADO POR ESTE NÚMERO
+                                                  EN LA ECUACIÓN DE BATALLA.
+
+                                                  MULTIPLICADOR DE NIVEL DE EXPERIENCIA.
+                                                  IGUAL QUE ANTERIOR SOLO SU
+                                                  -EXPERIENCIA-.
+
+                                                  MULTIPLICADOR ALEATORIO MÁXIMO..
+                                                  ESTE ES EL ALEATORIO MÁS GRANDE
+                                                  NÚMERO PERMITIDO EN BATALLA.
+
+                                                  DIFERENCIA DE NIVEL TÉCNICO..
+                                                  EN COMBATE EL NIVEL TECNOLOGICO
+                                                  ENTRE LOS COMBATENTES ES Y EL
+                                                  UNIDAD QUE TIENE LA MAYOR
+                                                  EL NIVEL TÉCNICO RECIBIRÁ UN
+                                                  BONO EQUIVALENTE A ESTE
+                                                  NUMERO DE VECES LA DIFERENCIA.
+
+                                 FORTIFICACIÓN
+                                 NIVEL - TIEMPOS SP:
+                                                  UNA UNIDAD DEFENSA EN UN ESPECIAL
+                                                  LA CUADRADO TENDRÁ SU FUERZA
+                                                  PUNTOS MULTIPLICADOS POR EL
+                                                  NIVEL DE FORTIFICACIÓN DEL
+                                                  HORARIOS CUADRADOS ESPECIALES ESTE
+                                                  NÚMERO.
+
+                                 ALCANCE DE EXPLOSIÓN PRIMARIA DE ARMAS NUCLEARES EN KMS.
+                                                  TODAS LAS UNIDADES INDEPENDIENTEMENTE DE
+                                                  NACIONALIDAD -DENTRO- DE ESTE
+                                                  DISTANCIA(EN KILÓMETROS) DE A
+                                                  LA DETONACIÓN SERÁ 
+                                                  INMEDIATAMENTE DESTRUIDA.Y
+                                                  ELIMINADO DEL MAPA.
+
+                                                  GAMA DE EFECTOS SECUNDARIOS
+                                                  EN KMS..
+                                                  TODAS LAS UNIDADES INDEPENDIENTEMENTE DE
+                                                  NACIONALIDAD,-MENOS- QUE ESTA
+                                                  DISTANCIA(EN KILÓMETROS)DE A
+                                                  DETONACIÓN DE UNA NUCLEAR
+                                                  DISPOSITIVO, PERDERÁ UN % DE PUNTO
+                                                  RESISTENCIA SEGÚN SE DETERMINA EN EL
+                                                  VARIABLE INMEDIATAMENTE A CONTINUACIÓN.
+EFECTO Explosión SECUNDARIA...
+                                                  EL COSTE EN % DEL TOTAL
+                                                  PUNTOS FUERTES DE TODAS LAS UNIDADES
+                                                  DENTRO DEL RANGO DE SECUNDARIA
+                                                  DEL EFECTO DE UNA DETONACIÓN
+                                                  DE UN DISPOSITIVO NUCLEAR..
+                                                  (VER ARRIBA)
+
+TIERRA A/D 80%+
+BAJAS- LAS PÉRDIDAS SUFRIDAS POR UNA UNIDAD TERRESTRE (COMO % DEL TOTAL
+                 PUNTOS DE FUERZA) DE UNA UNIDAD QUE TIENE UN 80% O MÁS
+                 VENTAJA SOBRE SU OPONENTE DETERMINADA POR LA BATALLA
+                 ECUACIÓN. EL NÚMERO PRECISO DE VÍCTIMAS SE DETERMINA POR
+                 LA FORMACIÓN DE LA UNIDAD. LAS 7 POSIBLES FORMACIONES MILITARES
+                 PARA LAS UNIDADES TIERRAS SON... PANTALLA-DEFENDER-MANTENER-MARCHA-FORZADA
+                 MARCHA-ATAQUE-ASALTO.
+
+                 A/D 60%-79%
+                 DE UNA UNIDAD QUE TIENE 60-79% DE VENTAJA SOBRE SU OPONENTE COMO
+                 DETERMINADO POR LA ECUACIÓN DE BATALLA. EL NÚMERO PRECISO
+                 ESTÁ DETERMINADO POR LA FORMACIÓN DE LA UNIDAD. QUE PUEDE SER CUALQUIER
+                 DE LOS 7 MENCIONADOS ANTERIORMENTE (A/D80+)
+
+                 A/D 40%-59% (CUANDO LA UNIDAD TIENE LA FUERZA DE SU OPONENTE)
+                 EL RESTO ES COMO ANTERIOR A/D 80% ECT...
+
+                 A/D 20%-39% (CUANDO LA UNIDAD TIENE UN 20-39% -DESVENTAJA-)
+                 EL RESTO ES COMO ARRIBA...
+
+                 A/D <20% (CUANDO UNA UNIDAD TIENE UN <20% -DESVENTAJA-)
+                 EL RESTO ES COMO ARRIBA
+
+VÍCTIMAS MARÍTIMAS A/D 80%+
+                 LAS PÉRDIDAS SUFRIDAS POR UNA UNIDAD TERRESTRE (COMO PORCENTAJE DEL TOTAL
+                 PUNTOS DE FUERZA) DE UNA UNIDAD QUE TIENE UN 80% O -MAS-
+                 VENTAJA SOBRE SU OPONENTE SEGÚN SE DETERMINA POR LA ECUACIÓN DE BATALLA
+                 EL NÚMERO PRECISO DE VÍCTIMAS ESTÁ DETERMINADO POR EL
+                 FORMACIÓN DE LA UNIDAD. LAS 4 POSIBLES FORMACIONES MILITARES PARA
+                 LAS UNIDADES MARÍTIMAS SON...EVITAR-EVADIR-ATACAR-BOMBARDEO COSTA FUERA.
+
+                 A/D 60%-79% (CUANDO UNA UNIDAD TIENE 60-79% -VENTAJA-)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D 40%-59% (CUANDO UNA UNIDAD 40-59% LA FUERZA DE SU OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D 20%-39% (CUANDO UNA UNIDAD TIENE 20-39% -DESVENTAJA- CON SU
+                 OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D <20% (CUANDO UNA UNIDAD TIENE <20% -MENOS QUE SU OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+MISILES DE AIRE 
+BAJAS.. A/D 80%+
+                 LAS PÉRDIDAS SUFRIDAS POR UNA UNIDAD AÉREA O DE MISILES (EN % DEL TOTAL
+                 PUNTOS DE FUERZA) DE UNA UNIDAD QUE TIENE UN 80% O -MAS-
+                 VENTAJA SOBRE SU OPONENTE DETERMINADA POR LA BATALLA
+                 ECUACIÓN. LAS 7 POSIBLES FORMACIONES MILITARES PARA EL AIRE Y
+                 LOS MISILES SON...MOVER-PATROL-ESCOLT-TRANSPORTE-ATAQUE-INTERCEPCIÓN
+
+                 A/D 60%-79% (CUANDO UNA UNIDAD TIENE 60-79% -VENTAJA- SOBRE SU
+                 OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D 40%-59% (CUANDO UNA UNIDAD TIENE 40-59% -LA FUERZA- DE SU
+                 OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D 20%-39% (CUANDO UNA UNIDAD TIENE 20-39% -DESVENTAJA- DE SU
+                 OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+
+                 A/D <20% (CUANDO UNA UNIDAD TIENE <20% -MENOS- QUE SU OPONENTE)
+                 EL RESTO ES COMO ARRIBA
+------------------------------------------------------------------------------
+BOTÓN SUPERIOR -2º BOTÓN- -BOTÓN IZQUIERDO- -BOTÓN DERECHO-
+  
+ESTABLECER LA HORA INTERNA DE LA UIT
+                 UNIDADES- EN DÍAS
+                                                 LA UNIDAD DE TIEMPO MÍNIMO EN UMS II
+ES UN DÍA PARA CALCULAR EL
+                                                 TIEMPO QUE TOMA CREAR UNIDADES
+                                                 Y REFUERZOS.ESTO
+                                                 LA VARIABLE ESTABLECE ITUS EN X NÚMERO
+                                                 DE DÍAS POR EJEMPLO, SI ESTO
+                                                 EL NÚMERO SE ESTABLECE EN 7, ENTONCES LA UIT
+                                                 SERÁ IGUAL A UNA SEMANA 
+
+                 TIEMPO ENTRE
+                 COMANDOS- CALANDER INCREMENTADO EN DÍAS
+                                                 DESPUÉS DE ESTOS MUCHOS DÍAS HAN
+                                                 TRANSCURRIDO LA SIMULACIÓN
+                                                 DETENER Y PERMITIR AUTOMÁTICAMENTE
+                                                 NACIONES CONTROLADAS POR HUMANOS PARA
+                                                 EMITIR NUEVAS ÓRDENES A LAS UNIDADES COMO
+                                                 ASÍ COMO UNA OPORTUNIDAD PARA ESTABLECER
+                                                 POLÍTICAS NACIONALES, DURAN
+                                                 COPIAR MAPAS IMPRESOS, FORMULARIO
+                                                 ALIANZAS DIPLOMÁTICAS, ESTABLECIDAS
+                                                 PRESUPUESTOS Y METAS ECT..
+
+RECURSOS PROVINCIAL PROVINCIAL
+                                 PUNTOS- COSTO EN PUNTOS DE PRODUCCIÓN
+                                                 ESTE NÚMERO REPRESENTA EL
+                                                 NÚMERO DE PUNTOS DE PRODUCCIÓN
+                                                 QUE SE DEBE GASTAR PARA AUMENTAR
+                                                 EL NIVEL DE PRODUCCIÓN
+                                                 PUNTOS PRODUCIDOS POR UN
+                                                 PROVINCIA EXISTENTE
+
+                                 RECLUTAMIENTO
+                                 PUNTOS- COSTO EN PUNTOS DE PRODUCCIÓN
+                                                 ESTE NÚMERO REPRESENTA
+                                                 EL NÚMERO DE PRODUCCIÓN
+                                                 PUNTOS QUE DEBEN GASTARSE
+                                                 PARA AUMENTAR EL NIVEL DE
+                                                 PUNTOS DE RECLUTAMIENTO
+                                                 PRODUCIDO POR UN EXISTENTE
+                                                 PROVINCIA
+
+                 TIPO DE IMPUESTO PÉRDIDA DE VOLUNTAD POR EL 10% DEL TIPO DE IMPUESTO
+                                                 ESTE NÚMERO REPRESENTA EL
+                                                 NÚMERO DE VOLUNTAD NACIONAL 
+                                                 PUNTOS QUE SE RESTAN
+                                                 POR EL 10% DEL TIPO IMPUESTO
+                                                 (SEGÚN LO ESTABLECIDO EN LOS PRESUPUESTOS Y
+                                                 CUADRO DE DIÁLOGO DE PRODUCCIÓN)PARA
+                                                 EJEMPLO, SI ESTE NÚMERO ES
+                                                 SET A `2` Y LAS NACIONES
+                                                 LA TASA DE IMPUESTO ES 80% LUEGO 16
+                                                 LOS PUNTOS NACIONALES SERÁN
+                                                 RESTA CADA GIRO.
+
+                 PUERTOS CAPACIDAD PORTUARIA-COSTO EN PUNTOS DE PRODUCCIÓN
+                                                 ESTE NÚMERO REPRESENTA
+                                                 EL NÚMERO DE PRODUCCIÓN
+                                                 PUNTOS QUE DEBEN GASTARSE
+                                                 PARA AUMENTAR EL PUERTO
+                                                 CAPACIDAD DE UN ESPECIAL DETERMINADO
+                                                 CUADRADO
+VOLUNTAD NACIONAL CAPITALES PÉRDIDA DE CAPITAL NACIONAL
+                                                 ESTE NÚMERO SERÁ DEDUCIDO
+                                                 DE LA VOLUNTAD NACIONAL DE
+                                                 UN PAÍS QUE PIERDE SU
+                                                 CAPITAL NACIONAL
+
+                                                 CAPTURA DE CAPITAL NACIONAL
+                                                 ESTE NÚMERO SE AGREGARÁ A
+                                                 LA VOLUNTAD NACIONAL DE UN PAÍS
+                                                 QUE CAPTURA A UN ENEMIGO 
+                                                 CAPITAL.
+
+                                                 PÉRDIDA DE CAPITAL PROVICINAL
+                                                 ESTE NÚMERO SERÁ
+                                                 DEDUCIDO DEL NACIONAL
+                                                 VOLUNTAD DE UN PAÍS QUE
+                                                 PIERDE UNA CAPITAL PROVINCIAL
+
+                                                 CAPTURA DE UN PROVICINAL-
+                                                 -CAPITAL.
+                                                 ESTE NÚMERO SE AGREGARÁ
+                                                 A LA VOLUNTAD NACIONAL DE UN
+                                                 PAÍS QUE CAPTURA UN
+                                                 CAPITAL PROVICINAL ENEMIGOS
+
+                                 UNIDADES MILITARES- PÉRDIDA DE UNIDAD
+                                                 ESTE NÚMERO SERÁ
+                                                 DEDUCIDO DEL NACIONAL
+                                                 VOLUNTAD DE UN PAÍS PARA
+                                                 CADA UNIDAD MILITAR PERDIDA
+                                                 POR CUALQUIER MOTIVO.
+
+                                                 CAPTURA DE UNA UNIDAD
+                                                 ESTE NÚMERO SE AGREGARÁ
+                                                 A LA VOLUNTAD NACIONAL DE UN 
+                                                 PAÍS PARA CADA ENEMIGO
+                                                 DESTRUIDO POR DIRECTO
+                                                 ACCIÓN MILITAR
+
+                                 CUADRADOS ESPECIALES-PÉRDIDA DE CUADRADOS ESPECIALES
+                                                 ESTE NÚMERO SERÁ DEDUCIDO
+                                                 DE LA VOLUNTAD NACIONAL DE UN
+                                                 PAÍS POR LA PÉRDIDA DE UN
+                                                 PLAZA ESPECIAL PARA LO QUE SEA
+                                                 RAZÓN
+
+                                                 CAPTURA DE UNA PLAZA ESPECIAL
+                                                 ESTE NÚMERO SE AGREGARÁ 
+                                                 A LA VOLUNTAD NACIONAL DE UN
+                                                 PAÍS PARA CADA ESPECIAL
+                                                 CUADRADO QUE SE CAPTURA
+                                                 A TRAVÉS DE LA ACCIÓN MILITAR
+
+VISIBILIDAD DE LA UNIDAD DE PROXIMIDAD UNIDADES ENEMIGAS VISIBLES DENTRO
+                                                 -KILOMETROS-
+                                                 SÓLO UNIDADES ENEMIGAS DENTRO
+                                                 ESTA DISTANCIA SERÁ
+                                                 MOSTRADO EN EL MAPA
+
+                 CONTACTO HOSTIL
+                 DISTANCIA ENTRE
+                 UNIDADES- KILOMETROS
+                                                 CONTACTO HOSTIL (BATALLA)
+                                                 SUCEDERÁ CUANDO 2 UNIDADES ENEMIGAS
+                                                 VEN DENTRO DE ESTA DISTANCIA
+EL UNO DEL OTRO
+
+CLIMA VIENTOS PREDOMINANTES
+                 POR LATITUD- LATITUD(-90 A +90)
+                                                 ESTE BOTÓN CAMBIA ENTRE
+                                                 `ESTE A OESTE` Y `OESTE A
+                                                 ESTE` ESTO ESTABLECE LA PREVALENCIA
+                                                 DIRECCIÓN DEL VIENTO EN LONGITUD
+
+                 ZONA DE PRESIÓN
+                 MATRIZ LIBRE- TAMAÑO SI CUADRADOS EN KILÓMETROS
+                                                 ESTA VARIABLE ESTABLECE LA
+                                                 TAMAÑO DE LOS CUADRADOS DE
+                                                 MATRICES DE ZONA DE PRESIÓN
+                 
+                 PROMEDIOS DE TEMPERATURA POR
+                                 LATITUD- LATITUD (-90 A +90)
+                                                 ESTAS VARIABLES ESTABLECEN
+                                                 LA TEMPERATURA PROMEDIO
+                                                 PARA LOS SELECCIONADOS
+                                                 BANDA DE LONGITUD
+
+                                 TEMPORADA PRIMAVERA
+                                                 VERANO
+                                                 CAÍDA
+                                                 INVIERNO
+                                                 ESTAS VARIABLES ESTABLECEN
+                                                 LA TEMPERATURA ESTACIONAL
+                                                 MODIFICADOR PARA CADA UNO DE LOS
+                                                 4 ESTACIONES
+
+                                 CLIMA TROPICAL
+                                 GRUPO 1- MONZÓN
+                                                 SEMIÁRIDO
+                                                 ÁRIDO
+                                                 MEDITERRÁNEO
+                                                 SUBTROPICAL
+                                                 MARINO
+
+                                                 FRESCO CONTINENTAL
+                                                 FRESCO
+                                                 SUBÁRTICO
+                                                 ESTAS VARIABLES ESTABLECEN EL
+                                                 TEMPERATURA CLIMA
+                                                 MODIFICADOR PARA CADA UNO DE ESTOS
+                                                 TIPOS DE CLIMA
+
+                                 CLIMA ALTA ALTITUD
+                                 GRUPO 2 POLARES
+                                                 ESTAS VARIABLES ESTABLECEN EL
+                                                 TEMPERATURA CLIMA
+                                                 MODIFICADOR PARA CADA UNO
+                                                 ESTOS TIPOS DE CLIMA
+
+                                 TIERRA + MAR TIERRA
+                                                 ESTA VARIABLE ESTABLECE LA
+                                                 MODIFICADOR DE TEMPERATURA
+                                                 PARA CADA UNO DE ESTOS CLIMAS
+                                                 TIPOS
+
+                                                 MAR
+                                                 IGUAL QUE ANTERIOR -TIERRA-
+
+                 PRECIPITACIÓN CLIMA TROPICAL
+                                 GRUPO 1 MONZÓN
+                                                 SEMIÁRIDO
+                                                 ÁRIDO
+                                                 MEDITERRANEO
+                                                 SUBTROPICAL
+                                                 MARINO
+                                                 CONTINENTAL
+                                                 FRESCO
+SUBÁRTICO
+                                                 ESTAS VARIABLES ESTABLECEN EL
+                                                 %(PROBABILIDAD) DE
+                                                 PRECIPITACIÓN EN UN DADO
+                                                 PLAZA DE ESTE CLIMA
+                                                 TIPO UNA VEZ UN FRENTE METEOROLÓGICO
+                                                 HA SIDO UBICADO EN ESTOS
+                                                 CORDINADAS
+
+                                 CLIMA ALTA ALTITUD
+                                 GRUPO 2 POLARES
+                                                 EL DESCANSO ES EL MISMO QUE EL GRUPO 1 ANTERIOR
+
+SALIR: AL SELECCIONAR SALIR, SE SALDRÁ DEL PANEL DE CONTROL PRINCIPAL Y EL USUARIO REGRESARÁ AL MAPA.
+
+------------------------------------------------------------------------------
+TIERRA
+MOVIMIENTO Y PEDIDOS.
+--------------------
+ACTIVAR UNA UNIDAD....HACER DOBLE CLIC EN LA PARTE SUPERIOR IZQUIERDA DEL CUADRO DE INFORMACIÓN DE LA UNIDAD
+APARECERÁ LA INFORMACIÓN SOBRE ESA UNIDAD (TIENE UNA BANDERA DEL PAÍS DE LA UNIDAD) IBM
+COMANDOS DE TECLADO ---E/EMITIR ÓRDENES DIRECTAS...D/HECHO...N/SIGUIENTE UNIDAD.
+
+UNA UNIDAD TIERRA PUEDE ACTIVARSE HACIENDO DOBLE CLIC EN LA ESQUINA SUPERIOR DE UNA UNIDAD.SI
+MÁS DE UNA UNIDAD COMPARTE ESTE MAPA CUADRADO SELECCIONA LA SIGUIENTE UNIDAD (ABAJO DERECHA)
+ESQUINA)PARA ACTIVAR LA UNIDAD DESEADA. SELECCIÓN DE EMISIÓN DE PEDIDOS DIRECTOS DE LA UNIDAD (2.ª CAJA
+DESDE ABAJO) HARÁ QUE APAREZCA EL CUADRO DE PEDIDOS DE UNIDADES DE TIERRA.
+
+MOVIMIENTO DEL SUELO.
+----------------
+A LAS UNIDADES TIERRAS SE PUEDE ASIGNAR UNA ORDEN DE MOVIMIENTO Y UNA ORDEN DE DEFENSA, ASÍ COMO
+HASTA 7 PUNTOS DE RUTA. LA ORDEN DE MOVIMIENTO, YA SEA MARCHA-MARCHA FORZADA-ATAQUE-O
+EL ASALTO INDICA LA FORMACIÓN QUE ASUMIRÁ LA UNIDAD TIERRA AL MOVIR
+DE UN PUNTO DEL MAPA A OTRO. CUANDO LA UNIDAD HA ALCANZADO SU
+OBJETIVO (EL ÚLTIMO PUNTO DE RUTA ASIGNADO) O LA UNIDAD HA SIDO ASIGNADA POR
+LA ORDEN DEFENSIVA.
+
+SÓLO SE ATENDERÁN LOS PEDIDOS PARA LOS QUE UNA UNIDAD TENGA SUFICIENTES SUMINISTROS PARA REALIZAR
+ACTIVO. CADA PEDIDO CUESTA UN NÚMERO ESTABLECIDO DE PUNTOS DE SUMINISTRO POR PUNTO DE FUERZA.
+EL COSTE, EN PUNTOS DE SUMINISTRO, DE CADA PEDIDO PUEDE SER FIJADO POR EL USUARIO EN EL COSTE DE PEDIDOS
+Y EFECTO. POR EJEMPLO, SI EL COSTO DE UNA UNIDAD TERRESTRE QUE ASUME -ASALTO-
+LA FORMACIÓN ES DE 3 PUNTOS DE SUMINISTRO, Y LA UNIDAD TIENE 4 PUNTOS DE FUERZA, ES
+NECESARIO QUE LA UNIDAD TENGA AL MENOS 12 PUNTOS DE SUMINISTRO PARA EMITIR ESTE
+COMANDO. ESTOS CÁLCULOS LOS REALIZA LA COMPUTADORA ANTES DE ESTE DIÁLOGO
+SE PRESENTA LA CAJA Y NO SERAN SELECCIONABLES LOS PEDIDOS ILEGALES.
+
+LA CAJA DE CONTROL DEL MOVIMIENTO DEL SUELO.
+--------------------------------
+A CADA UNIDAD SE PUEDE ASIGNAR UNA DE LAS 5 ÓRDENES DE MOVIMIENTO ASÍ COMO UNA DE
+TRES ÓRDENES DEFENSIVAS.
+EL BOTÓN DE RESUMINISTRO SE HABILITARÁ SÓLO SI OTRA UNIDAD COMPARTE EL MISMO MAPA
+CUADRADO.
+EL BOTÓN TRANSPORTE SERÁ SELECCIONABLE SÓLO SI LA UNIDAD ACTIVA TIENE TRANSPORTE
+CAPACIDADES -Y- OTRA UNIDAD COMPARTE EL MISMO CUADRADO DEL MAPA.
+CANCELAR SALE DEL CUADRO DE COMANDOS DE MOVIMIENTO REDONDO SIN GUARDAR ÓRDENES PARA MÁS TARDE
+EJECUCIÓN.
+
+CONFIGURACIÓN DE PUNTOS DE RUTA
+-----------------
+DESPUÉS DE QUE A UNA UNIDAD SE LE HAYA ASIGNADO UNA ORDEN DE MOVIMIENTO (NO ES NECESARIO QUE UNA UNIDAD
+A SER ASIGNADA UNA ORDEN DEFENSIVA; UNA UNIDAD A LA QUE NO SE ASIGNE UNA ORDEN DEFENSIVA
+POR DEFECTO A PANTALLA) Y SE HA SELECCIONADO CONTINUAR, EL CURSOR PASARÁ DE UN
+FLECHA A UNA CRUZ NEGRA SÓLIDA. UNA LÍNEA SE EXTENDERÁ DESDE LA MANO SUPERIOR IZQUIERDA
+ESQUINA DE LA UNIDAD AL CURSOR. COLOQUE EL CURSOR EN EL PUNTO DE RUTA DESEADO
+Y PRESIONA EL LMB PARA ESTABLECER UN PUNTO DE RUTA. PRESIONE EL RMB PARA FINALIZAR LA CONFIGURACIÓN DE PUNTOS DE RUTA
+. EL USUARIO NO PUEDE SELECCIONAR UN PUNTO DE RUTA ILEGAL. PARA DETERMINAR EL
+RUTA REAL QUE VIAJARÁ UNA UNIDAD DESDE EL PUNTO DE WAYPOINT AL SIGUIENTE,PRESIONE -ALT-
+CLAVE. LA RUTA APARECERÁ COMO UNA SERIE DE CUADROS OSCUROS E INTERMITENTES.
+MÉTODO ÚTIL PARA DETERMINAR LOS MOVIMIENTOS LEGALES A TRAVÉS DE LOS RÍOS.
+
+(PUNTOS DE RUTA ILEGALES) - LAS UNIDADES TIERRAS NO PUEDEN VIAJAR A TRAVÉS DEL MAR COSTERO O DEL MAR POCO POCO
+O CUADRADOS DEL MAPA DE MAR PROFUNDO (EXCEPTO CUANDO SE TRANSPORTE POR UNIDADES NAVALES) TERRESTRE
+LAS UNIDADES NO PUEDEN CRUZAR RÍOS O CANALES EXCEPTO EN CUADRADOS DEL MAPA QUE TAMBIÉN CONTIENEN
+YA SEA UNA VÍA-CAMINO-FERROCARRIL-O UNA CARRETERA.
+
+------------------------------------------------------------------------------
+CLIMA.
+--------
+ESTAMOS PREOCUPADOS POR EL CLIMA PRINCIPALMENTE POR 2 RAZONES; 1- CÓMO EFECTOS EL TIEMPO
+MOVIMIENTO DE UNIDADES; 2- CÓMO CONTRIBUYE EL TIEMPO AL DESGASTE O A LA PÉRDIDA DE UN
+FUERZA DE LAS UNIDADES.
+LLUVIA-NIEVE-VIENTOS-FRENTES DE TORMENTA Y TEMPERATURAS NO OCURREN SIMPLEMENTE, SINO
+SE GENERAN DINÁMICAMENTE SIGUIENDO UN CONJUNTO DE REGLAS DETALLADAS. Y, COMO TODOS
+FACTORES IMPORTANTES EN UNA SIMULACIÓN, EL USUARIO PUEDE AJUSTAR LAS VARIABLES Y CAMBIAR
+EL RESULTADO.
+
+ZONAS DE PRESIÓN.
+---------------
+NOTA UNA LETRA `L` CIRCULADA SIGNIFICA A -ZONA DE BAJA PRESIÓN-
+............. `H` ................. -ZONA DE ALTA PRESIÓN-
+
+EL PRIMER FACTOR EN TODOS LOS CÁLCULOS DEL TIEMPO ES LA UBICACIÓN DEL ALTO
+ZONAS DE PRESIÓN Y BAJA PRESIÓN. CUANDO SE CREA UN ESCENARIO POR PRIMERA VEZ ALTA PRESIÓN
+Y LAS ZONAS DE BAJA PRESIÓN SE COLOCAN EN EL MAPA DE UNA MANERA SIMILAR A COLOCAR
+UNIDADES. A medida que transcurre el tiempo simulado, estas zonas de presión se mueven por el globo. COMO
+ESTAS ZONAS DE PRESIÓN SE MUDAN, CREAN Y MODIFICAN FRENTES DE TORMENTA Y VIENTO
+PATRONES.
+LAS ZONAS DE PRESION SE MUEVE EN LA DIRECCION GENERAL DE LOS VIENTOS PREDOMINANTES DEL
+LOGTITUD EN QUE SE ENCUENTRAN ACTUALMENTE SITUADOS. LOS VIENTOS PREDOMINANTES PUEDEN SER FIJADOS
+EN BANDAS LARGAS DE 20 GRADOS UTILIZANDO EL PANEL DE CONTROL MAESTRO (MCP) PARA
+EJEMPLO, SI LOS VIENTOS PREDOMINANTES DE 30 GRADOS NORTE A 50 GRADOS NORTE HAN
+SE HA ESTABLECIDO DE ESTE A OESTE, LUEGO UNA ZONA DE PRESIÓN UBICADA A 37 GRADOS NORTE NORTE
+SE MOVERA EN DIRECCION OESTE. USANDO EL MCP EL USUARIO PUEDE INVERTIR EL
+LOS VIENTOS PREDOMINANTES EN ESTAS LONGITUDES Y LA MISMA ZONA DE PRESIÓN AHORA SE MOVERÍAN
+EN DIRECCIÓN OPUESTA O ESTE. ADEMÁS SE PUEDEN ENVIAR PATRONES DE VIENTO
+REVERSA AUTOMÁTICAMENTE CON EL CAMBIO DE ESTACIONES.
+ADEMÁS, LA DIRECCIÓN DEL MOVIMIENTO DE LAS ZONAS DE PRESIÓN SE AFECTA POR LA
+UBICACIÓN DE OTRAS ZONAS DE PRESIÓN CERCANAS. LAS ZONAS DE ALTA PRESIÓN SE MUDAN HACIA BAJA
+ZONAS DE PRESIÓN.
+
+LA DIRECCIÓN DEL VIENTO OBVIAMENTE AFECTA EL MOVIMIENTO DE LAS UNIDADES NAVALES A VELA (CÓMO
+LOS EFECTOS DEL VIENTO EN ESTAS UNIDADES ES AJUSTABLE MEDIANTE EL MCP)LAS 2 FUERZAS QUE, EN
+GIRO,EFECTO DIRECCIÓN DEL VIENTO SON; 1-LA UBICACIÓN Y PROXIMIDAD DE PRESIÓN
+ZONAS...Y 2- LOS PATRONES DE VIENTO PREDOMINANTES EN UNA LONGHITUD ESPECÍFICA.
+SI NO HAY ZONAS DE PRESIÓN, EL VIENTO SE MOVERÍA DIRECTAMENTE DE ESTE A OESTE, O
+LÍNEAS DE OESTE A ESTE. ES LA UBICACIÓN Y EL TIPO DE ZONAS DE PRESIÓN LO QUE CAMBIA
+PATRONES DE VIENTO.
+
+LA PRESIÓN CAUSA QUE LOS PATRONES DEL VIENTO TOMEN FORMA DE ESPIRAL O EFECTO CORIOLIS
+FORMAS, POR ENCIMA DEL ECUADOR, LAS ZONAS DE ALTA PRESIÓN CAUSAN UN EFECTO EN EL SENTIDO DE LAS HORARIOS Y BAJAS
+LAS ZONAS DE PRESIÓN PROVOCAN UN EFECTO EN EL SENTIDO ANTIHORARIO. ESTOS PATRONES ESTÁN INVERTIDOS
+DEBAJO DEL ECUADOR.
+
+EL RANGO O DISTANCIA EN QUE LAS ZONAS DE PRESIÓN AFECTAN LOS PATRONES DE VIENTO PREVANTEENTES (SEGÚN
+ASÍ COMO FRENTES DE TORMENTA) PUEDEN AJUSTARSE A TRAVÉS DEL MCP. ESTO SE HACE CAMBIANDO EL
+VALOR PARA LA VARIABLE `TAMAÑO DE LOS CUADRADOS DE LA MATRIZ DE ZONA DE PRESIÓN` ESTE NÚMERO
+AJUSTA EL TAMAÑO, EN KILÓMETROS, DE LOS CUADRADOS QUE COMPROMETEN LA ZONA DE PRESIÓN
+MATRIZ. UNA MATRIZ DE ZONA DE PRESIÓN ESTÁ CONFIGURADA EN 5 MATRIZ CUADRADA DE 2 DIMENSIONES.
+EJEMPLO, SI LA VARIABLE SE ESTABLECE EN 100 KILÓMETROS ENTONCES UN RADIO DE ZONAS DE PRESIÓN
+DE EFECTO SERÍA 250 KILÓMETROS (UN DIÁMETRO DE 500 KILÓMETROS CENTRADO EN EL
+UBICACIÓN DE LA ZONA DE PRESIÓN).
+
+4 FACTORES AFECTAN LA TEMPERATURA DE UNA UBICACIÓN ESPECÍFICA; 1- LA LONGITUD DE
+LA UBICACIÓN..2- EL GRUPO CLIMÁTICO GENERAL DE LA UBICACIÓN..3- LA ACTUALIDAD
+TEMPORADA..Y 4- SI LA UBICACIÓN ES SOBRE MAR O TIERRA.
+
+EL GLOBO ESTA DIVIDIDO EN ZONAS DE TEMPERATURA LATITUDINAL DE 20 GRADOS CADA UNO,EL
+LA TEMPERATURA PROMEDIO O BASE PARA CADA UNA DE LAS ZONAS SE PUEDE CONFIGURAR A TRAVÉS DEL MCP.
+EL USUARIO TAMBIÉN CAMBIA ESTA TEMPERATURA BASE A TRAVÉS DEL MCP.
+LA MODIFICACIÓN DE LA TEMPERATURA CLIMÁTICA PUEDE SER EN NÚMEROS POSITIVOS O NEGATIVOS, PORQUE
+EJEMPLO, SI LA TEMPERATURA PROMEDIO EN UN DETERMINADO LUGAR ES DE 60 GRADOS
+FAHRENHEIT, EL CLIMA LOCAL ES MEDITERRANEO, Y EL CLIMA MODIFICADOR PARA
+MEDITERRÁNEO ES +7 ENTONCES EL RESULTADO SERÍA 67 GRADOS FAHRENHEIT.
+
+ESTE NÚMERO SE MODIFICA AÚN POR LA DIFERENCIA ESTACIONAL. COMO EL CLIMA
+MODIFICADORES, ESTE PUEDE SER UN NÚMERO POSITIVO O NEGATIVO QUE SE SUMA AL
+RESULTADOS DE LOS CÁLCULOS ANTERIORES. SE SUPONE QUE LA PRIMAVERA Abarca LA
+MESES DE MARZO-ABRIL-MAYO: VERANO JUNIO-JULIO-AGOSTO; OTOÑO SEPTIEMBRE- OCTUBRE-
+-NOVIEMBRE; INVIERNO DICIEMBRE-ENERO-FEBRERO. LOS MODIFICADORES ESTACIONALES PUEDEN SER
+CAMBIADO A TRAVÉS DEL MCP... POR EJEMPLO, SI LA FECHA DEL ESCENARIO ACTUAL ES EL 15 DE JULIO, Y
+EL MODIFICADOR DE TEMPORADA DE VERANO ES +12 LA TEMPERATURA DE NUESTRA ANTERIOR
+LA UBICACIÓN HIPOTÉTICA AHORA SERÍA 79 GRADOS FAHRENHEIT.
+
+LA ÚLTIMA VARIABLE UTILIZADA PARA DETERMINAR LA TEMPERATURA ES UN MODIFICADOR PARA TIERRA O
+MAR.ESTE ÚLTIMO NÚMERO REFLEJA LA TENDENCIA DEL AGUA A RETENER EL CALOR EN EL WITER COMO
+LA TIERRA LO HACE EN VERANO. LOS 2 NÚMEROS, UNO PARA TIERRA Y OTRO PARA SE, PUEDEN SER
+YA SEA UN NÚMERO POSITIVO O NEGATIVO. EL USUARIO PUEDE MODIFICARLOS A TRAVÉS DEL
+MCP. ESTE NÚMERO SE SUMA LUEGO A LOS CÁLCULOS ANTERIORES Y AL RESULTANTE
+EL NÚMERO ES LA TEMPERATURA EN ESTA UBICACIÓN.
+
+LAS TEMPERATURAS DE LAS UBICACIONES EN EL MAPA SE PUEDEN VER VERIFICANDO EL
+OPCIÓN `TEMPERATURA` EN EL CUADRO DE VISUALIZACIÓN DEL TIEMPO. TEMPERATURA EN UN SOLO LUGAR
+PUEDE SER VER COLOCANDO EL CURSOR SOBRE LA UBICACIÓN DESEADA Y HACIENDO CLIC
+EL BOTÓN DEL RATÓN MIENTRAS PRESIONA LA TECLA -SHIFT-. SE PUEDEN MOSTRAR TEMPERATURAS
+EN CENTÍGRADOS O FAHRENHEIT MARCANDO LA OPCIÓN DESEADA EN EL
+CAJA DE VISUALIZACIÓN DEL TIEMPO.
+
+TORMENTAS Y FRENTES DE TORMENTA.
+------------------------
+
+LOS FRENTES DE TORMENTA SE PRODUCEN CUANDO EL RADIO DE EFECTO DE UNA ZONA DE ALTA PRESIÓN
+SE SUPERPONDE AL RADIO DE EFECTO DE UNA ZONA DE PRESIÓN DE OW. SI LA TEMPERATURA EN EL
+LA UBICACIÓN ESTÁ POR ENCIMA DEL NIVEL DE CONGELACIÓN (32 GRADOS FAHRENHEIT. 0 GRADOS CENTÍGRADOS) EL
+EL SÍMBOLO DE TORMENTA SE MUESTRARÁ EN EL LUGAR. SI LA TEMPERATURA EN
+LA UBICACIÓN ESTÁ BAJO EL CIELO, EL SÍMBOLO METEOROLÓGICO DE NIEVE SERÁ
+MOSTRADO. ES MUY POSIBLE QUE UN FRENTE DE TORMENTA PRODUZCA AMBAS LLUVIAS Y
+NIEVE.
+ 
+UNA VEZ DETERMINADOS LOS FRENTES, LA PROBABILIDAD DE PRECIPITACIÓN PARA CADA MAPA
+SE CALCULA LA CUADRADO AFECTADO POR LOS FRENTES. ESTO SE HACE COMPARANDO LOS
+% DE PREIPITACIÓN CLIMÁTICA PARA LAS UBICACIONES PERTINENTES A UN GENERADO ALEATORIAMENTE
+NÚMERO, EL % DE PRECIPITACIÓN CLIMÁTICA (O LA PROBABILIDAD DE QUE LLUVIA O NIEVE DURANTE
+UN TIPO DE CLIMA DETERMINADO) PUEDE ODIFICARSE UTILIZANDO EL -MCP-
+
+CLIMAS.
+---------
+
+HAY 12 TIPOS DIFERENTES DE CLIMAS;TROPICAL-MONZÓN-SEMI/ÁRIDO-ÁRIDO-
+-MEDITERRANEO-SUB-TROPICAL-MARINO-CONTINENTAL-FRIO-SUB/ARTICO-ALTA ALTITUD-Y
+POLARES. CADA LUGAR DEL MUNDO PERTENECE A UNO DE ESTOS GRUPOS.
+LOS CLIMAS EFECTAN LA PRECIPITACIÓN Y LA TEMPERATURA (VER ARRIBA). UTILIZANDO EL -MCP- ES
+POSIBLE REDEFINIR LOS ATRIBUTOS DE LOS GRUPOS CLIMÁTICOS. POR EJEMPLO, ES
+POSIBLE ESTABLECER EL % DE PRECIPITACIÓN CLIMÁTICA EN 99% PARA ÁRIDO, ESTO SERÍA
+CURSO, RESULTA EN LLUVIA EN LO QUE NORMALMENTE SERÍA UN ÁREA DESÉRTICA.
+------------------------------------------------------------------------------
+
+PLAZAS ESPECIALES-PUERTOS Y FUERTES.
+--------------------------------
+UNA CUADRADA ESPECIAL ES UNA CUADRADA DEL MAPA QUE CONTIENE UNA CAPITAL NACIONAL, UNA
+CAPITAL DE PROVINCIAL, UN PUERTO, UN PUEBLO O FORTIFICACIONES. CUADRADOS ESPECIALES TIENEN
+NOMBRES -AUNQUE NO ES NECESARIO QUE UN CUADRADO TENGA UN NOMBRE ÚNICO-Y SON
+CONTROLÓ CUALQUIERA DE LAS PROVINCIAS QUE FORMAN LAS NACIONES (Y POR LO TANTO
+CONSIDERADOS COMO PARTE DE LOS RECURSOS DE ESA NACIÓN) O SE DECLARAN
+`NO CONTROLADO` Y SERÁ OCUPADO POR LA PRIMERA UNIDAD MILITAR QUE ENTRE AL
+PLAZA ESPECIAL.
+
+DESDE EL -MENÚ PRINCIPAL- ES POSIBLE -IR A CUALQUIER CUADRADO ESPECIAL DESDE CUALQUIER PUNTO
+EN EL MAPA, AL SELECCIONAR ESTA OPCIÓN DEL MENÚ SE PRODUCRÁ EL DIÁLOGO GOTO
+CAJA. HAGA CLIC EN EL CUADRADO ESPECIAL DESEADO PARA VER SUS COORDENADAS. DOBLE CLIC
+EN LA PLAZA ESPECIAL PARA IR A ESAS COORDENADAS DE INMEDIATO. A LA IZQUIERDA DE
+LA LISTA DE CUADRADOS ESPECIALES ES UNA LISTA DE TODOS LOS SENDEROS DEL MUNDO. ESTAS FUNCIONES
+IDÉNTICO A LA LISTA DE CUADRADO ESPECIAL.
+
+INFORMACIÓN DE LA PLAZA ESPECIAL
+-------------------
+PARA RECIBIR INFORMACIÓN DETALLADA SOBRE UN CUADRADO ESPECIAL (AHORA SE MUESTRA COMO -SS-).POSICIÓN
+EL CURSOR SOBRE EL LUGAR DESEADO EN EL MAPA Y PRESIONE -LMB-Y SHIFT IZQUIERDA
+LLAVE JUNTOS. AHORA APARECERÁ UN CUADRO DE DIÁLOGO DETALLADO QUE MUESTRA INFORMACIÓN SOBRE EL
+TEMPERATURA LOCAL, CLIMA, DIRECCIÓN DEL VIENTO Y COORDENADAS. HAGA CLIC EN `MÁS
+CUADRO INFO` PARA RECIBIR INFORMACIÓN DETALLADA SOBRE LA PLAZA ESPECIAL. HAGA CLIC EN `CONTINUAR`
+PARA SALIR DE LA CAJA... LOS USUARIOS DE IBM TAMBIÉN PUEDEN UTILIZAR LAS TECLAS `M` Y `C` RESPECTIVAMENTE PARA EL
+MISMO EFECTO.
+
+NIVEL DE FORTIFICACIÓN.
+--------------------
+EL NIVEL DE FORTIFICACIÓN DE A -SS- SE UTILIZA PARA AUMENTAR LA FUERZA DEFENSIVA DE
+UNIDADES UBICADAS EN LA -SS-. EL BONO DE FORTIFICACIÓN ES UNA VARIABLE QUE PUEDE SER
+CAMBIADO USANDO EL -MCP- CUANTO MÁS ALTO SEA EL NIVEL DE FORTIFICACIÓN, MAYOR
+BONIFICACIÓN.
+
+CAPACIDAD PORTUARIA ACTUAL.
+---------------------
+ESTE NÚMERO INDICA LOS PUNTOS MÁXIMOS COMBINADOS DE RESISTENCIA DE LOS BUQUES QUE PUEDEN SER
+ATRACADO EN ESTE -SS- ESPECÍFICO A LA VEZ. POR EJEMPLO, SI EL PUERTO ACTUAL
+LA CAPACIDAD DE UNA -SS- ES DE 10, UNA UNIDAD NAVAL CON 6 PUNTOS DE FUERZA Y OTRA CON
+4 PUEDE ESTAR SIMULTÁNEAMENTE EN LA MISMA CUADRADA. SIN EMBARGO, UN TERCER BUQUE, DANDO ÓRDENES DE
+MÚDATE A ESTE -SS- NO SE PERMITIRÁ ENTRAR. SI LA UNIDAD NAVAL EN
+LA PREGUNTA ESTÁ BAJO CONTROL HUMANO. SE EMITIRÁ UN INFORME SOLICITANDO AL USUARIO QUE
+HACER NUEVOS PEDIDOS PARA LA TERCERA UNIDAD.
+
+CAPACIDAD POTENCIAL DEL PUERTO.
+------------------------
+LA CAPACIDAD DEL PUERTO SE PUEDE AMPLIAR UTILIZANDO LOS PUNTOS DE PRODUCCIÓN DE LAS PROVINCIAS, EL
+EL COSTE, EN PUNTOS DE PRODUCCIÓN, PARA AUMENTAR LA CAPACIDAD DEL PUERTO SE ESTABLECE EN EL
+-MCP-. LA CAPACIDAD PORTUARIA POTENCIAL INDICA LA CAPACIDAD PORTUARIA MÁXIMA QUE
+ESTE -SS- SE PUEDE ELEVAR A.
+
+CAPACIDAD PORTUARIA ACTUAL.
+----------------------
+ESTE NÚMERO REPRESENTA LA PROFUNDIDAD DEL CALADO DE LOS BUQUES QUE PUEDEN ATRACAR EN
+ESTE -SS-.HAY 4 BORRADORES REPRESENTADOS POR LOS NÚMEROS 1-4; 1- MUY PROFUNDA
+BORRADOR; 2- CALADO POCO PROFUNDO; 3-AGUA PROFUNDA; 4- AGUAS MUY PROFUNDAS. A SU VEZ, CADA NAVAL
+AL TIPO DE UNIDAD, CUANDO SE CREA, SE LE ASIGNA UNA CLASE CORRESPONDIENTE AL BORRADOR DEL
+NAVE. POR EJEMPLO, UN BUQUE CON UNA UNIDAD TIPO CLASE 3 (AGUAS PROFUNDAS) NO SERÍA
+PERMITIDO ENTRAR A UN -SS- QUE TIENE UNA CLASE DE PUERTO ACTUAL DE 2 (CALADO POCO PROFUNDO).
+
+CAPACIDAD POTENCIAL DEL PUERTO.
+------------------------
+LA CAPACIDAD PORTUARIA SE PUEDE AMPLIAR UTILIZANDO PUNTOS DE PRODUCCIÓN DE LAS PROVINCIAS.
+EL COSTE,EN PUNTOS DE PRODUCCIÓN,PARA AUMENTAR UNA CAPACIDAD DE -SS- SE ESTABLECE EN EL -MCP-.
+LA CAPACIDAD PORTUARIA POTENCIAL INDICA LA CAPACIDAD PORTUARIA MÁXIMA QUE ESTE
+-SS- SE PUEDE ELEVAR A. NINGÚN ESPECIAL PUEDE TENER UNA CAPACIDAD PORTUARIA SUPERIOR A 4.
+
+CAPTURA Y PÉRDIDA DE CUADRADOS ESPECIALES.
+------------------------------------
+LA PÉRDIDA DE UNA -SS- EFECTA ADVERSAMENTE LA VOLUNTAD NACIONAL DE UN PAÍS. CUANDO UN PAÍS
+LA VOLUNTAD NACIONAL SE REDUCE A CERO DE QUE LA NACIÓN SE ENTREGUE, A LA INVERSA, LA CAPTURA DE
+UN ENEMIGO -SS- AUMENTA LA VOLUNTAD NACIONAL DE LOS VENCEDORES. LA CANTIDAD DEL INCREMENTO,
+Y LA DISMINUCIÓN SE PUEDE ESTABLECER EN EL -MCP-.
+------------------------------------------------------------------------------
+
+PODER MARÍTIMO Y OPERACIONES ANFIBIAS.
+------------------------------------
+
+UN ESCENARIO PUEDE CONTENER HASTA 40 TIPOS DIFERENTES DE UNIDADES NAVALES. EL TOTAL
+SIN EMBARGO, EL NÚMERO DE UNIDADES INDIVIDUALES ESTÁ LIMITADO PRINCIPALMENTE POR LO DISPONIBLE.
+LAS UNIDADES RAM.NAVAL, COMO TODAS LAS UNIDADES EN UMS II, ESTÁN CONTROLADAS POR UNA JERARQUÍA DE MANDO,
+U ORDEN DE BATALLA.
+POR EJEMPLO, CUALQUIER PEDIDO DADO A HARDY SE PASARÁ AUTOMÁTICAMENTE AL
+`VICTORIA`-`EURYALUS` Y `NEPTUNE` (YA QUE ESTOS BARCOS TIENEN MENOS SP QUE HARDY) CUALQUIER
+LOS PEDIDOS QUE SE DEN A NELSON SE PASARAN AUTOMATICAMENTE A HARDY (MISMO
+SE APLICA: TIENE UN SP MÁS ALTO QUE HARDY) Y A TRAVÉS DE ÉL A LOS BARCOS BAJO SU
+CONTROLAR. ESTO SERÁ ESPECIALMENTE ÚTIL AL REALIZAR MOVIMIENTOS A GRAN ESCALA.
+
+ACTIVAR UNA UNIDAD.
+------------------
+SE PUEDE ACTIVAR UNA UNIDAD DE MAR COLOCANDO EL CURSOR EN LA ESQUINA IZQUIERDA
+DE UNA UNIDAD Y DOBLE CLIC. SI MÁS DE UNA UNIDAD COMPARTE ESTE MAPA CUADRADO
+SELECCIONE -UNIDAD NXT- PARA ACTIVAR LA UNIDAD DESEADA. SELECCIÓN -EMITIR ÓRDENES- VOLUNTAD
+HAGA QUE APARECE EL CUADRO DE ÓRDENES DE UNIDAD NAVAL.
+
+ÓRDENES NAVALES.
+-------------
+EN TODO MOMENTO UNA UNIDAD NAVAL SE ENCUENTRA ACTUALMENTE BAJO UNO DE 4 ÓRDENES. ADEMÁS DE
+ESTAS ORDENES PERMANENTES, A LA UNIDAD SE LE PUEDEN ASIGNAR HASTA 7 PUNTOS DE WAYPOINT. LA NAVAL
+LA UNIDAD PROCEDERÁ DE UN PUNTO DE RUTA AL SIGUIENTE EN ORDEN CONSECTUTIVO HASTA EL
+SE ALCANZA EL ÚLTIMO PUNTO DE RUTA O SE EMITEN NUEVAS ÓRDENES A LA UNIDAD. NO LO ES
+NECESARIO ASIGNAR A UNA UNIDAD NAVAL CUALQUIER PUNTO DE RUTA. UNA UNIDAD SIN ACTUALMENTE
+LOS PUNTOS DE RUTA ASIGNADOS PERMANECERÁN EN SU UBICACIÓN ACTUAL.
+
+[NOTA] UN ESCENARIO PUEDE CONTENER HASTA 40 TIPOS DIFERENTES EN TOTAL, ESTAS 40 UNIDADES
+LOS TIPOS PUEDEN SER CUALQUIER COMBINACIÓN DE TROPAS NAVALES, AÉREAS, DE MISIL O TERRESTRE. MIENTRAS ES
+MUY POSIBLE QUE UN ESCENARIO CONTENGA SÓLO UNIDADES NAVALES, LA MAYORÍA DE LOS ESCENARIOS
+CONTIENE UNAS 10 UNIDADES NAVALES DIFERENTES.
+
+VIENTO Y MOVIMIENTO NAVAL.
+------------------------
+LA DIRECCIÓN DEL VIENTO EN RELACIÓN CON LA DIRECCIÓN DE VIAJE DE LA VELA
+LAS UNIDADES NAVALES PROMOCIONADAS AFECTAN LA VELOCIDAD DE LA UNIDAD NAVAL. LA CANTIDAD DEL
+EL EFECTO ESTÁ DETERMINADO POR LOS AJUSTES EN EL -MCP-(BAJO MOVIMIENTO, VIENTOS DEL MAR
+MENÚ)
+
+LAS CONFIGURACIONES PREDETERMINADAS SON; CORRER 100%-AMPLIAR ALCANZAR 120%-ALCANZAR 60%-CERCA
+ACARREANDO 40% Y DIRECTAMENTE AL VIENTO 20%. POR EJEMPLO, UNA UNIDAD NAVAL QUE VIAJA
+DEL SUR AL NORTE, CON EL VIENTO DEL SUROESTE SERÍA DE `AMPLIA ALCANCE`
+Y RECIBIRÍA SÓLO UN BONO DE MOVIMIENTO DEL 20%.
+
+[NOTA] SÓLO LAS UNIDADES NAVALES A VELA SE AFECTAN LA DIRECCIÓN DEL VIENTO.
+
+OPERACIONES DEL ANFIBIO.
+---------------------
+OPERACIONES-CAMPAÑAS ANFIBIUS QUE IMPLICAN EL TRANSPORTE DE UNIDADES TERRESTRE
+CUERPOS DE AGUA POR UNIDADES NAVALES- SON TOTALMENTE APOYADOS POR LA UMS II. TRANSPORTAR UN
+LA UNIDAD TIERRA A TRAVÉS DE UNA UNIDAD NAVAL SE REALIZA EN 2 PASOS.
+
+PRIMERO.
+------
+UNA UNIDAD NAVAL (CON SUFICIENTE CAPACIDAD DE TRANSPORTE) SE MUEVE A UN ESPECIAL
+LOS CUADRADOS (-SS-) SON LOS ÚNICOS LUGARES EN UN MAPA QUE LAS UNIDADES TIERRAS Y NAVALES PUEDEN COMPARTIR
+UNA UBICACIÓN. TODAS LAS UNIDADES TERRESTRE TIENEN UN `VALOR DE CARGA` O EL COSTO DE TRANSPORTAR ESTE
+UNIDAD ESTE NÚMERO SE ESTABLECE PARA UN TIPO DE UNIDAD PARTICULAR EN EL MOMENTO EN QUE EL
+SE CREA EL ESCENARIO. CUANDO UNA UNIDAD NAVAL CON `CAPACIDAD DE TRANSPORTE`(TAMBIÉN ESTABLECIDA PARA
+CADA TIPO DE UNIDAD EN EL MOMENTO EN QUE SE CREA EL ESCENARIO) INGRESE A -SS- A `LOAD
+APARECE UNIT BOX` Y MUESTRA UNA LISTA DE TODAS LAS UNIDADES TIERRAS QUE LA UNIDAD NAVAL
+TIENE SUFICIENTE CAPACIDAD DE TRANSPORTE PARA LLEVAR. SI HAY MÁS DE 5 TIERRAS
+UNIDADES UBICADAS EN EL -SS- SE HABILITA EL BOTÓN `MÁS` SELECCIONANDO ESTE BOTÓN
+MOSTRARÁ EL SIGUIENTE CONJUNTO DE 5 UNIDADES TIERRAS. AL SELECCIONAR ESTE BOTÓN OTRA VEZ
+CONTINUAR MOSTRANDO LAS UNIDADES TIERRAS EN GRUPOS DE 5. PARA CARGAR UNA UNIDAD TIERRA, HAGA CLIC
+EL BOTÓN QUE CONTIENE EL NOMBRE DE LA UNIDAD, LOS SÍMBOLOS <> APARECERÁ EN CUALQUIER
+LADO DEL NOMBRE DE LA UNIDAD PARA INDICAR QUE HA RECIBIDO ORDENES DE EMBARQUE
+TRANSPORTE.
+
+SEGUNDO.
+-------
+PARA DESCARGAR UNA UNIDAD TERRESTRE QUE ESTÁ SIENDO TRANSPORTADA POR UNA UNIDAD NAVAL, MIENTRAS SE DA
+ÓRDENES DE MOVIMIENTO A LA UNIDAD NAVAL QUE TRANSPORTA, SITUAR EL CURSOR SOBRE UN TERRESTRE
+CUADRADO QUE ESTÁ ADYACENTE A UN CUADRADO DE AGUA Y PRESIONE LA TECLA -SHIFT DERECHA- Y
+LMB JUNTOS. APARECERÁ EL CUADRO DE DESCARGA DE UNIDADES. HAGA CLIC EN EL BOTÓN DEL RATÓN
+QUE CONTIENE EL NOMBRE DE LA UNIDAD O UNIDADES QUE DESEA DESCARGAR EN ESTE
+LUGAR. LAS UNIDADES SELECCIONADAS APARECEN CON UN GUIÓN (--) A CUALQUIER LADO DE LA
+NOMBRE DE LA UNIDAD.
+------------------------------------------------------------------------------
+
+SUMINISTROS Y TRANSPORTE.
+----------------------------
+
+SUMINISTROS.
+
+LOS SUMINISTROS SON LA MONEDA QUE GASTAN LAS UNIDADES MILITARES A MEDIDA QUE ASUMEN DIFERENTES
+FORMACIONES Y MOVERSE POR EL MAPA. EL COSTO DE Asumir CADA FORMACIÓN MILITAR ES
+ESTABLECIDO POR EL USUARIO EN EL CUADRO COSTE Y EFECTO DE FORMACIÓN. NOTA EN EL CUADRO DE DIÁLOGO.
+LA MITAD IZQUIERDA Y DERECHA DE LA CAJA SE HA DIVIDIDO PARA FINES DE EXHIBICIÓN.
+
+SI EL COSTO EN PUNTOS DE SUMINISTRO PARA CADA FORMACIÓN MILITAR SE ESTABLECE EN CERO ENTONCES
+EL SUMINISTRO NO TENDRÁ IMPORTANCIA NI EFECTO EN UNA SIMULACIÓN. ES POR ESTE
+CUADRO DE DIÁLOGO QUE ES ET LA IMPORTANCIA DEL SUMINISTRO EN UNA SIMULACIÓN.
+
+REDISTRIBUIR SUMINISTROS.
+---------------------
+CUANDO 2 O MÁS UNIDADES OCUPAN EL MISMO CUADRADO DEL MAPA, SE PUEDEN CAMBIAR LOS MATERIALES
+ENTRE ELLOS. ESTO ES NECESARIO PARA RESUMINISTRAR UNIDADES Y CARGAR SUMINISTROS EN
+UNIDADES DE TRANSPORTE PARA EL MOVIMIENTO.
+
+LA OPCIÓN "RE-SUMINISTRO" SE PUEDE SELECCIONAR DESDE EL CUADRO DE COMANDOS DE MOVIMIENTO DE LA UNIDAD (VER
+MOVIMIENTO TERRESTRE-MOVIMIENTO MARÍTIMO..ECT) SI SE SELECCIONA ESTE BOTÓN LA REDISTRIBUCIÓN
+APARECERÁ LA CAJA DE SUMINISTROS CON UNA LISTA DE TODAS LAS UNIDADES QUE COMPARTEN EL MISMO MAPA
+CUADRADO, SELECCIONAR "MÁS" CAUSARÁ QUE EL SIGUIENTE GRUPO DE 5 UNIDADES SE MUESTRE EN
+LA CAJA.
+
+PARA TRANSFERIR SUMINISTROS ENTRE UNIDADES, DISMINUIR EL ALMACEN DE SUMINISTROS DE LA PRIMERA
+UNIDAD HACIENDO CLIC EN LA FLECHA ABAJO. LOS SUMINISTROS SE SUMARAN AL TOTAL DE
+"SUMINISTROS NO RECLAMADOS" EN LA PARTE SUPERIOR DEL CUADRO DE DIÁLOGO. PARA AGREGAR ESTOS SUMINISTROS AL
+SEGUNDA UNIDAD, HAGA CLIC EN LA FLECHA ARRIBA PARA ESA UNIDAD. LOS SUMINISTROS SERÁN DEDUCIDOS
+DEL TOTAL NO RECLAMADO Y SUmado A LA 2DA UNIDAD. SELECCIONE `HECHO` CUANDO
+TERMINADO.
+
+TODOS LOS SUMINISTROS NO RECLAMADOS SE DESTRUYEN.
+LA CANTIDAD MÁXIMA DE SUMINISTROS QUE PUEDE LLEVAR CUALQUIER UNIDAD ES DE 99 PUNTOS DE SUMINISTRO.
+
+BOTINES.
+-------
+AL VICTOR EL BOTÍN. CUANDO UNA UNIDAD HA SIDO ELIMINADA EN BATALLA,
+LA UNIDAD VICTORIOSA RECIBIRÁ TODOS LOS SUMINISTROS DE LAS UNIDADES ELIMINADAS QUE PUEDA
+LLEVAR.
+
+------------------------------------------------------------------------------
+COMBATE.
+-------
+
+EL COMBATE OCURRE CUANDO LA DISTANCIA ENTRE 2 UNIDADES HOSTILES ES MENOR QUE LA
+VALOR ACTUAL DEL `CONTACTO ENTRE UNIDADES HOSTILES` SEGÚN LO ESTABLECIDO EN EL -MCP-. ESTO
+LA DISTANCIA GENERALMENTE ES DE 20 KILÓMETROS, SIN EMBARGO, EL USUARIO PUEDE CAMBIARLA PARA CADA UNO
+ESCENARIO.
+
+LOS MÉTODOS PARA DETERMINAR LAS UNIDADES VICTORIOSAS Y DERROTADAS, ASÍ COMO LAS
+EL NÚMERO DE BAJAS SUFRIDAS LO DEFINE EL USUARIO.
+
+DESPUÉS DEL COMBATE, EL NIVEL DE MORAL DE LA UNIDAD VICTORIOSA AUMENTA EN 1 PUNTO.
+POR EJEMPLO, UNA UNIDAD DETERMINADA A SER VICTORIA QUE ANTERIORMENTE AL COMBATE TENÍA MORAL
+NIVEL DE 5;-STALWART- SE ELEVARÍA A UN NIVEL DE MORAL DE 6;-DETERMINADO-. un
+EL NIVEL DE MORAL DE LAS UNIDADES DERROTADAS SE REDUCE EN 1 PUNTO. POR EJEMPLO; UNA UNIDAD
+DETERMINADO A SER LA UNIDAD DERROTADA QUE ANTERIORMENTE TENÍA UN NIVEL MORAL DE
+-VACULAR- SE REDUCIRÍA A UN NIVEL DE MORAL DE 3;-SACUDIDOS-.
+
+DESPUÉS DEL COMBATE, EL NIVEL DE EXPERIENCIA DE "AMBAS" UNIDADES AUMENTA EN 1
+PUNTO, POR EJEMPLO; UNA UNIDAD QUE ANTERIORMENTE AL COMBATE TENÍA UN NIVEL DE EXPERIENCIA DE
+5;-IRREGULAR- SERÍA ELEVADO A UN NIVEL DE EXPERIENCIA DE 6;-REGULAR-.
+
+LA UNIDAD QUE SUFRE EL MAYOR NÚMERO DE BAJAS, MEDIDA EN FUERZA
+PUNTOS- SERÁ OBLIGADO A RETIRARSE. LA COMPUTADORA MOVERÁ LA UNIDAD EN EL
+DIRECCIÓN OPUESTA A LA QUE ATACÓ. SI EL ATACADOR GANA LA VICTORIA
+CONTINUAR CON SUS PEDIDOS ANTERIORES. SI CUALQUIERA DE LAS UNIDADES NO PUEDE CONTINUAR CON
+SUS PEDIDOS ANTERIORES Y ESTA BAJO CONTROL `HUMANO` SE LE PEDIRA AL USUARIO QUE
+EMITIR NUEVAS ÓRDENES A LA UNIDAD.
+
+INFORMAR CONTACTO HOSTIL.
+--------------------------
+
+SI ALGUNA DE LAS NACIONES CONTROLADORAS DE LA UNIDAD ATASCANTE O DEFENSORA HA TENIDO
+LA OPCIÓN `MOSTRAR INFORME` ESTABLECIDA. UN INFORME SOBRE EL APROPIADO NACIONAL
+ESTACIONARIO SE MOSTRARÁ EN PANTALLA.
+
+EN AMIGA EL INFORME TAMBIÉN APARECERÁ EN EL TIPO DE LETRA ESPECIFICADO PARA ESAS NACIONES
+INFORME, COMO ABAJO.
+
+SI SE HA SELECCIONADO LA OPCIÓN `IMPRIMIR INFORMES` EL INFORME TAMBIÉN SE ENVIARÁ A
+IMPRESORA. SI PREVIAMENTE SE HA SELECCIONADO LA OPCIÓN USO ESTACIONARIO EL INFORME
+SE IMPRIMIRÁN EN MODO GRÁFICOS EN LA HOJA DE PAPELERÍA. SI EL FORMULARIO DE OPCIÓN
+ANTERIORMENTE SE HABÍAN SELECCIONADO FFED (O PÁGINAS SEPARADAS EN ALGUNAS COMPUTADORAS), EL
+LA IMPRESORA AVANZARÁ AUTOMÁTICAMENTE EL PAPEL A LA SIGUIENTE HOJA ENTRE INFORMES.
+ 
+-------------------
+1. LAS UNIDADES HOSTILES SE DEFINEN COMO UNIDADES PERTENECIENTES A LAS FUERZAS ARMADAS
+ORGANIZACIÓN DE 2 NACIONES DIFERENTES QUE ACTUALMENTE ESTÁN EN GUERRA.
+
+2. SE ACCEDE A ESTA VARIABLE BAJO EL MENÚ -PROXIMIDAD- DEL -MCP-.
+LA DISTANCIA PARA INICIAR EL COMBATE SE DEFINE EN KILÓMETROS.
+
+3.EL NIVEL DE MORAL DE UNA UNIDAD SE EXPRESA COMO UN NÚMERO ENTRE 0 Y 9, SIENDO 0
+EL VALOR MÁS BAJO POSIBLE. EL NIVEL DE MORAL INICIAL PARA UNA UNIDAD SE ESTABLECE EN EL
+HORA EN QUE SE CREA LA UNIDAD.
+
+4.EL NIVEL DE EXPERIENCIA -SE ESTABLECE EXACTAMENTE COMO EL ARRIBA- (MORAL)
+______________________________________________________________________________
+
+LA ECUACIÓN DE BATALLA.
+--------------------
+nombre de la unidad fuerza actual de la unidad
+----\---- ------------\-----------
+FUERZA DE LA 101.ª UNIDAD AEROTRANSPORTADA (10)
+
+
+no hay diferencia en ningún avance tendría modificador 
+Los niveles tecnológicos del atacante se han multiplicado por 20 para esta ecuación.    
+y defensor.
+------\------------------ ---------\----------- /---------------------
++ NIVEL TÉCNICO DE (0) *VENTAJA DEL NIVEL TÉCNICO(20)*4%} = 10,00  
+
+
+total acumulado llevado a cabo el 101 tiene órdenes de modificar 
+terminado desde el último asalto de ecuación que se ha establecido para esta ecuación
+                            a un valor del 150%
+------\------------------ ---------\------------ ----/-----------------
++ {TOTAL EN EJECUCIÓN(10.00) * {EFECTO DE LOS PEDIDOS(150%)-100% * 16% = 10.80
+
+
+El total acumulado nos llevó a los paras atacando en modificador.
+desde la última ecuación en terreno accidentado para esta ecuación
+------\------------------ ---------\------------ ----/-----------------
++ {TOTAL EN EJECUCIÓN(10,80) * {MODIFICADOR DE TERRENO (90%)-100% * 16% = 10,63
+
+
+moral de los atacantes 4 puntos la diferencia en el modificador de liderazgo
+más alto que los defensores se multiplica por 50 para esta ecuación
+-----\------------------- ---------\------------ ----/----------------
++ MORAL(4)* MULTIPLICADOR DEL NIVEL DE MORAL (2) * 12%}= 11,59
+
+
+El liderazgo de los atacantes es 1 la diferencia en el modificador de liderazgo. 
+El punto más alto que el defensor se multiplica por 50 para esta ecuación.
+-----\------------------ -------------------\- ----/---------------
++ {LIDERAZGO (1) * MULTIPLICADOR DEL NIVEL DE LIDERAZGO(50) * 10%= 16,59 
+
+
+La experiencia de los atacantes es 2. La diferencia en el modificador de experiencia.
+El punto más alto que el defensor se multiplica por 2 para esta ecuación.
+-----\------------------ -------------------\- ----/--------------
++ {EXPERIENCIA(2) * MULTIPLICADOR DE NIVEL DE EXPERIENCIA (2) * 10%}=16,99
+
+
+modificador de número menos generado aleatoriamente para
+que el máximo aleatorio de esta ecuación
+--------------\--------------- ----/--------
++ {ALEATORIO (50) * 0% } = 17,84
+
+ 
+Paracaidistas estadounidenses atacando la división estática alemana.
+-------------------------------/----------
+* ÍNDICE CRUZADO DE ATAQUE DEL TIPO DE UNIDAD (105%) = 17,84
+
+
+relación ataque-defensa
+-----------------------\
+RELACIÓN DE COMBATE SOBRE TODO 4:1
+
+
+número restado del resultado de resistencia original
+--------------/------------------------- /-----
+BAJAS = 1 PF.           FUERZA ACTUAL = 9
+______________________________________________________________________________
+
+[NOTA] SE REALIZAN CÁLCULOS IDÉNTICOS PARA LA UNIDAD DEFENSA, SÓLO LOS PARA LA
+SE MUESTRA LA UNIDAD ATAQUE (IE 101ST AIRBORNE).
+
+
+AQUÍ HAY UN DESGLOSE DE LA ECUACIÓN DE BATALLA.
+-----------------------------------------
+
+NOMBRE DE LA UNIDAD.
+----------
+ESTE ES EL NOMBRE DE LA UNIDAD COMO APARECE EN EL ORDEN DE BATALLA NACIONAL O ARMADO
+ORGANIGRAMA DE LAS FUERZAS.[NOTA] ESTE NOMBRE NO TIENE QUE SER ÚNICO.
+
+FUERZA ACTUAL DE LA UNIDAD
+------------------------
+ESTE NÚMERO ES LA FUERZA ACTUAL, ANTES DEL CONTACTO HOSTIL O LA BATALLA COMO
+MEDIDO EN PUNTOS DE FUERZA (SP). ESTE ES UN NÚMERO ARBITRARIO, DECIDIDO POR EL
+DISEÑADOR DE ESCENARIOS, BASADO EN LA INTENSIDAD DE CAMPO DE LA UNIDAD Y RANGO DE 1-99.
+CUANDO ESTE NÚMERO SE REDUCE A CERO, POR CUALQUIER MOTIVO, LA UNIDAD SE ELIMINA
+DEL ORDEN DE BATALLA NACIONAL Y YA NO SE MUESTRA EN EL MAPA.
+ADEMÁS, LA NACIÓN CONTROLADORA DE LAS UNIDADES ESTÁ SUJETA A LA CORRESPONDIENTE PÉRDIDA DE
+VOLUNTAD NACIONAL. VER -MCP- PARA FIJAR EL EFECTO DE LA VOLUNTAD NACIONAL CAUSADO POR
+LA PÉRDIDA DE LA UNIDAD. EN ESTE EJEMPLO, LA FUERZA AÉREA DE LA 101.ª ES DE 10 SP.
+
+EFECTO DEL NIVEL TÉCNICO
+-----------------
+
+CADA UNIDAD SE CREA CON UN NIVEL TECNOLÓGICO QUE VA DESDE (0) EDAD DE PIEDRA
+AL FUTURO DE LA III GUERRA MUNDIAL (18). EL NIVEL TÉCNICO DE LOS ATAQUES SE COMPARA CON EL
+EL NIVEL TÉCNICO DE LOS DEFENSORES Y LA UNIDAD SUPERIOR RECIBEN UNA BONIFICACIÓN BASADA EN ESTO
+NÚMERO.
+VENTAJA DEL NIVEL TÉCNICO
+--------------------
+ESTE NÚMERO ES EL BONO QUE SE OTORGA A CADA UNIDAD QUE TIENE UNA TECNOLOGÍA SUPERIOR
+NIVEL.ESTA BONIFICACIÓN SE MULTIPLICA POR CADA NIVEL TECNOLÓGICO QUE TIENE LA UNIDAD SUPERIOR
+ENCIMA DE LA UNIDAD INFERIOR. ESTE BONO ESTÁ DEFINIDO POR EL USUARIO Y PUEDE ESTABLECERSE EN EL -MCP-
+
+MODIFICADOR DE ECUACIÓN DE NIVEL TECNOLÓGICO
+----------------------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO) REPRESENTA EL PESAJE DE
+LA IMPORTANCIA DE LA DIFERENCIA DE NIVEL TECNOLÓGICO ENTRE UNIDADES. POR EJEMPLO, SI
+ESTE NÚMERO SE ESTABLECE EN 100 (100% DEL RESULTADO DE LA ECUACIÓN) ENTONCES
+EL 100%(TODO) DEL NÚMERO RESULTANTE SE SUMARÁ AL TOTAL ACTUAR DEL
+FUERZA DE BATALLA DE LA UNIDAD. EN EL EJEMPLO ANTERIOR, EL MODIFICADOR DE NIVEL DE TECNOLOGÍA ES
+ESTABLECIDO EN 20%, POR LO TANTO, EL RESULTADO DE LA ECUACIÓN DEL NIVEL DE TECNOLOGÍA SE MULTIPLICARÁ
+EN UN 20% Y EL RESULTADO SE SUMA A LOS PUNTOS DE FUERZA DE LAS UNIDADES ATACANTES ORIGINALES.
+
+EFECTO DE LOS PEDIDOS
+----------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO), REPRESENTA LA BONIFICACIÓN OTORGADA
+PARA UNA UNIDAD QUE ASUME UNA ENTRE VARIAS FORMACIONES. POR EJEMPLO, UN ATAQUE
+LA UNIDAD TERRESTRE SERÁ -MARCHA-ATACANDO- O ASALTANDO. UNA UNIDAD DEFENSA
+ESTARÁ EN CUALQUIER PANTALLA,-DEFENDER-MANTENER A TODA COSTA FORMACIONES. CADA UNIDAD
+EL TIPO(TERRESTRE,MARINO,AIRE,MISILES U ORBITAL) TIENE UN NÚMERO PREDEFINIDO DE FORMACIONES,
+Y CADA FORMACIÓN TIENE UN BONO DE COMBATE PREDEFINIDO. LOS VALORES DE ESTOS BONOS
+ESTÁN CONFIGURADOS PARA EL USUARIO (VER ABAJO). EN ESTE EJEMPLO, LA 101.ª AEROBORNE ESTÁ EN
+FORMACIÓN DE ASALTO Y EL BONO POR ESTA INFORMACIÓN ES DEL 150%. EL EFECTO DE
+LA BONIFICACIÓN DE PEDIDOS, MENOS EL 100% PARA OBTENER EL CAMBIO NETO, SE MULTIPLICA POR EL
+TOTAL EN FUNCIONAMIENTO.
+[NOTA] ESTE NÚMERO PUEDE SER MENOS DEL 100% Y POR LO TANTO NO ES UNA BONIFICACIÓN EN
+TODO, PERO MÁS BIEN UNA RESPONSABILIDAD.
+
+EFECTO DEL MODIFICADOR DE ECUACIÓN DE ÓRDENES
+----------------------------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO), REPRESENTA LA PONDERACIÓN DE
+LA IMPORTANCIA DEL EFECTO DE LA BONIFICACIÓN DE PEDIDOS. POR EJEMPLO, SI SE ESTABLECE ESTE NÚMERO
+AL 100(100% DEL RESULTADO DE LA ECUACIÓN) LUEGO 100%(TODO) DEL NÚMERO RESULTANTE
+SE AGREGARÁ AL TOTAL ACTUAR DE LA FUERZA DE BATALLA DE LA UNIDAD. EN EL
+EN EL EJEMPLO ANTERIOR, EL EFECTO DEL MODIFICADOR DE ÓRDENES SE ESTABLECE EN 16%, POR LO TANTO EL RESULTADO
+DEL EFECTO DE LA ECUACIÓN DE ÓRDENES SE MULTIPLICA POR 16% Y EL RESULTADO SE SUMA A
+LAS UNIDADES ATACANTES ORIGINALES EN TOTAL QUE SE MUESTRA EN EL LADO DERECHO
+DE LOS LADOS IGUALES DE LA ECUACIÓN.
+
+[NOTA] LA ECUACIÓN DE BATALLA NO SE MUESTRA EN EL TIPO DE LETRA NACIONAL.
+EL INTERÉS DE LA CLARIDAD.
+
+MODIFICADOR DE TERRENO
+----------------
+CADA TIPO DE UNIDAD (PUEDE HABER HASTA 40 TIPOS DE UNIDADES DIFERENTES PARA CADA
+ESCENARIO)HA SIDO CRUZADO CON SU CAPACIDAD DE ATACAR(O DEFENDER) EN LOS 16
+TIPOS DE TERRENO.
+ESTO SE CONFIGURA EN EL MOMENTO EN QUE SE CREA EL ESCENARIO. EN ESTE EJEMPLO. LA UNIDAD
+EL TIPO, PARACAIDISTAS AMERICANOS, ESTÁ CRUZADO CON ATAQUE A TRAVÉS DEL ÁSPERO
+TERRENO Y EL RESULTADO (90) MENOS 100% PARA OBTENER EL CAMBIO NETO, SE MULTIPLICA
+POR EL TOTAL ACTUABLE.
+[NOTA] EL TIPO DE TERRENO DE LA PLAZA DEFENSA DETERMINA EL TIPO DE TERRENO.
+SE REALIZA EL MISMO CÁLCULO PARA LA UNIDAD DEFENSA, PERO UNA TABLA DIFERENTE
+SE UTILIZA PARA CALCULAR EL EFECTO DEL TERRENO EN LA DEFENSA.
+
+MODIFICADOR DE LA ECUACIÓN DEL EFECTO DEL TERRENO
+--------------------------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO) REPRESENTA LA PONDERACIÓN DE
+LA IMPORTANCIA DEL BONO EFECTO TERRENO.
+POR EJEMPLO, SI ESTE NÚMERO SE ESTABLECE EN 100(100% DEL RESULTADO DEL
+ECUACIÓN)ENTONCES EL 100%(TODO) DEL NÚMERO RESULTANTE SE SUMARÁ A LA EJECUCIÓN
+TOTAL DE LA FUERZA DE BATALLA DE LA UNIDAD. EN EL EJEMPLO ANTERIOR, EL TERRENO
+EL MODIFICADOR DEL EFECTO ESTÁ AJUSTADO AL 16%, POR LO TANTO, EL RESULTADO DEL EFECTO DEL TERRENO
+LA ECUACIÓN SE MULTIPLICARÁ POR 16% Y EL RESULTADO SE SUMARÁ A LAS UNIDADES ATACANTES
+TOTAL ACTUAR QUE SE MUESTRA AL LADO DERECHO DEL SIGNO IGUAL DEL
+ECUACIÓN.
+
+NIVEL DE MORAL
+------------
+TODAS LAS UNIDADES TIENEN UN NIVEL DE MORAL QUE VARIA DE 0 (ROTA) A 9 (FANATICA)
+[NOTA] EL NIVEL DE MORAL DE UNA UNIDAD VICTORIOSA AUMENTA 1 PUNTO DESPUÉS DE UN
+BATALLA, MIENTRAS SE DEDUCE LA MORAL DE UNA UNIDAD DERROTA 1. 
+EL NÚMERO MOSTRADO ES LA DIFERENCIA ENTRE ATACANTES Y DEFENSORES
+MORAL. EN ESTE EJEMPLO EL NIVEL DE MORAL DE LA 101.ª AEROBORDACIÓN ES 4 PUNTOS MÁS ALTO
+QUE LOS DEFENSORES.
+
+VENTAJA DEL NIVEL MORAL
+----------------------
+ESTE NÚMERO ES EL BONO OTORGADO A LA UNIDAD QUE TIENE UNA MORAL SUPERIOR
+NIVEL.ESTA BONIFICACIÓN SE MULTIPLICA POR CADA NIVEL DE MORAL QUE TENGA LA UNIDAD SUPERIOR
+ENCIMA DE LA UNIDAD INFERIOR.
+ESTA BONIFICACIÓN ESTÁ DEFINIDA POR EL USUARIO Y PUEDE ESTABLECERSE EN EL -MCP-. EN ESTE EJEMPLO, EL
+LA BONIFICACIÓN ES 2.
+
+MODIFICADOR DE LA ECUACIÓN DEL NIVEL DE MORAL
+------------------------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO) REPRESENTA LA PONDERACIÓN DE
+LA IMPORTANCIA DE LA DIFERENCIA EN EL NIVEL DE MORAL ENTRE UNIDADES.
+POR EJEMPLO, SI ESTE NÚMERO SE ESTABLECE EN 100(100% DEL RESULTADO DEL
+ECUACIÓN)ENTONCES EL 100%(TODO) DEL NÚMERO RESULTANTE SE SUMARÁ A LA EJECUCIÓN
+TOTAL DE LA FUERZA DE BATALLA DE LA UNIDAD.
+EN EL EJEMPLO ANTERIOR, EL MODIFICADOR DE LA ECUACIÓN DEL NIVEL DE MORAL SE ESTABLECE EN 12% Y EL
+RESULTADO AÑADIDO AL TOTAL EN EJECUCIÓN DE LAS UNIDADES ATACANTES QUE SE MUESTRA AL
+LADO DERECHO DEL SIGNO IGUAL DE LA ECUACIÓN
+
+NIVEL DE LIDERAZGO
+----------------
+TODAS LAS UNIDADES TIENEN UN NIVEL DE LIDERAZGO QUE VARIA DE 0(INCOMPETENTE) A 9(GENERAL)
+EL NÚMERO MOSTRADO ES LA DIFERENCIA ENTRE ATACANTES Y DEFENSORES
+MORAL.
+EN ESTE EJEMPLO, EL NIVEL DE LIDERAZGO DE LA 101.ª AEROBORNAS ES 1 PUNTO MÁS ALTO QUE EL
+DEFENSORES.
+
+MULTIPLICADOR DE NIVEL DE LIDERAZGO
+---------------------
+ESTE NÚMERO ES EL BONO QUE SE OTORGA A UNA UNIDAD QUE TIENE UN LIDERAZGO SUPERIOR
+NIVEL.
+EL NÚMERO MOSTRADO SE MULTIPLICA POR CADA NIVEL DE LIDERAZGO QUE EL SUPERIOR
+LA UNIDAD TIENE ENCIMA DE LA UNIDAD INFERIOR.
+ESTA BONIFICACIÓN ES DEFINIBLE POR EL USUARIO Y PUEDE ESTABLECERSE EN EL -MCP-. EN ESTE EJEMPLO, EL
+LA BONIFICACIÓN ES 50.
+
+MODIFICADOR DE LA ECUACIÓN DEL NIVEL DE LIDERAZGO
+----------------------------------
+ESTE NÚMERO, ESTABLECIDO EN LA ECUACIÓN DE BATALLA (VER ABAJO) REPRESENTA LA PONDERACIÓN DE
+LA IMPORTANCIA DE LA DIFERENCIA EN NIVELES DE LIDERAZGO ENTRE UNIDADES.
+POR EJEMPLO, SI ESTE NÚMERO SE ESTABLECE EN 100 (100% DEL RESULTADO DEL
+ECUACIÓN)ENTONCES EL 100%(TODO) DEL NÚMERO RESULTANTE SE SUMARÁ A LA EJECUCIÓN
+TOTAL DE LA FUERZA DE BATALLA DE LA UNIDAD EN EL EJEMPLO ANTERIOR. EL LIDERAZGO
+EL MODIFICADOR DE LA ECUACIÓN DE NIVEL SE ESTABLECE EN 10%, POR LO TANTO EL RESULTADO DEL LIDERAZGO
+LA ECUACIÓN DE NIVEL SE MULTIPLICARÁ POR 10% Y EL RESULTADO SE SUMARÁ AL ATAQUE
+UNIDADES EN FUNCIONAMIENTO TOTAL QUE SE MUESTRA AL LADO DERECHO DEL SIGNO IGUAL DE
+LA ECUACIÓN
+
+NIVEL DE EXPERIENCIA
+----------------
+TODAS LAS UNIDADES TIENEN UN NIVEL DE EXPERIENCIA QUE VA DE 0(NTENTRENADO) A 9(ELITE)
+[NOTA] EL NIVEL DE EXPERIENCIA DE AMBAS UNIDADES AUMENTA 1 PUNTO DESPUÉS
+BATALLA, INDEPENDIENTEMENTE DEL RESULTADO.
+EL NÚMERO MOSTRADO ES LA DIFERENCIA ENTRE ATACANTES Y DEFENSORES
+EXPERIENCIA.
+EN ESTE EJEMPLO, EL NIVEL DEL 101 ES 2 PUNTOS SUPERIOR AL DEL DEFENSOR.
+
+VENTAJA DEL NIVEL DE EXPERIENCIA
+--------------------------
+ESTE NÚMERO ES EL BONO QUE SE OTORGA A UNA UNIDAD QUE TIENE UNA EXPERIENCIA SUPERIOR
+NIVEL. ESTE BONO SE MULTIPICA POR CADA NIVEL DE EXPERIENCIA QUE EL SUPERIOR
+LA UNIDAD TIENE ENCIMA DEL INFERIOR.
+ESTA BONIFICACIÓN ESTÁ DEFINIDA POR EL USUARIO Y PUEDE ESTABLECERSE EN EL -MCP-. EN ESTE EJEMPLO, EL
+LA BONIFICACIÓN ES 2.
+
+MODIFICADOR DE ECUACIÓN DE NIVEL DE EXPERIENCIA
+----------------------------------
+COMO EN TODOS LOS DEMÁS MODIFICADORES DE ECUACIÓN (LEER ANTERIOR), EXCEPTO QUE EL % ES 10%
+
+ALEATORIO
+------
+ESTE NÚMERO, ESTABLECIDO POR EL USUARIO EN EL -MCP-, ESTÁ ENTRE 0-99. REPRESENTA EL
+OCURENCIAS ALEATORIAS QUE TIENEN LUGAR EN UNA BATALLA. EN ESTE EJEMPLO EL NÚMERO
+LAS DEVOLUCIONES SERÁN MENOS DE 50.
+
+MODIFICADOR DE ECUACIÓN ALEATORIA
+------------------------
+COMO EN TODOS LOS DEMÁS MODIFICADORES DE ECUACIÓN (LEER ANTERIOR), EXCEPTO QUE EL % ES 0%
+
+TIPO DE UNIDAD ATAQUE, MATRIZ CRUZADA
+--------------------------------
+CADA TIPO DE UNIDAD (PUEDE HABER HASTA 40 TIPOS DE UNIDADES INDIVIDUALES PARA CADA
+ESCENARIO) HA SIDO INDICE CRUZADO. ESTO SE CONFIGURA EN EL MOMENTO EN QUE SE REALIZA UN ESCENARIO.
+CREADO. ESTOS VALORES SE BASAN EN LA POTENCIA DE FUEGO DE LOS TIPOS DE UNIDAD.
+EN ESTE EJEMPLO, EL TIPO DE UNIDAD, PARACAIDISTAS AMERICANOS, ESTÁ INDEXADO CRUZADA CONTRA
+LA INFANTERÍA ESTÁTICA ALEMANA TIENE UN 150% DE EFICIENCIA O POTENCIA DE FUEGO.
+
+TIPO DE UNIDAD DEFENSA, MATRIZ CRUZADA
+--------------------------------
+ESTE NÚMERO SE MULTIPLICA POR EL TOTAL ACTUAR Y EL RESULTADO SE MUESTRA A
+EL DERECHO DEL SIGNO IGUAL.
+
+RELACIÓN DE COMBATE GENERAL
+--------------------
+ESTA UNIDAD COMPARA EL RESULTADO FINAL DEL TOTAL EN EJECUCIÓN DE LAS UNIDADES ATACANTES CON EL
+TOTAL ACTUAR DE LA UNIDAD DEFENSA. ESTE NÚMERO SE UTILIZA PARA CRUZAR LA VÍCTIMA
+GRÁFICOS QUE ESTÁN DEFINIDOS POR EL USUARIO EN EL -MCP-
+
+BAJAS
+----------
+ESTE ES EL NÚMERO DE PUNTOS DE FUERZA (SP) RESTADOS DEL ATAQUE
+UNIDAD. ESTE NÚMERO LO DEFINE EL USUARIO EN EL -MCP-.
+EN ESTE EJEMPLO, EL 101 PERDIÓ 1SP.
+
+FORTALEZA ACTUAL
+----------------
+ESTA ES LA FUERZA ACTUAL, DESPUÉS DE LA BATALLA, DE LA UNIDAD QUE EMITÍ EL INFORME A
+EL COMANDANTE GENERAL NACIONAL.
+EN ESTE EJEMPLO, LA FUERZA ACTUAL DEL 101 DESPUÉS DE LA BATALLA ES DE 9SP.
+
+------------Y ESO ES MUCHO-----ESPERO QUE TE AYUDE-------SCOOTER-------------

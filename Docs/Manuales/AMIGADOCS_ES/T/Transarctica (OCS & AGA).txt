@@ -1,0 +1,1445 @@
+TRANSARCTICA TIPADA POR SHARD - 23 DE NOVIEMBRE DE 1993
+                 ============ ===================================
+
+
+
+AUTOR: ANDRÉ ROCQUES
+
+PROGRAMACIÓN: ANDRÉ ROCQUES
+              LOUIS MARÍA ROCQUES
+              MICHEL PERNOT
+
+GRÁFICOS: CARTA DE JEAN-CHRISTOPHE
+              ERIC GALAND
+              PASCAL EINSWEILER
+
+MÚSICA: TELA HAUTECLOQUE
+
+
+RESUMEN
+-------
+
+Detalles técnicos
+Resumen Introducción
+tu mundo
+Controles
+Página de recepción
+Panel de control
+El motor
+El vagón privado
+El Cuartel General
+Mapas
+Lanzadores de misiles
+Eventos
+Ubicaciones
+Tren de combate
+
+
+DETALLES TÉCNICOS
++++++++++++++++++
+
+CARGANDO EL JUEGO:
+
+ATARI / AMIGA: inserte el disquete del juego en la unidad de disco y luego encienda
+la computadora.
+
+PC: habiendo cargado MS.DOS, inserte el disquete en la unidad A (o B) y luego
+escriba INICIO.
+
+MAClNTOSH: haga clic dos veces en el ícono INICIO, luego seleccione la opción JUGAR en el
+menú COMANDOS,
+
+
+INSTALACIÓN EN DISCO DURO:
+
+
+ATARI: vuelva a copiar todos los archivos del disquete en un directorio de su disco duro
+disco.  Deje el programa START.PRG del archivo AUTO y cópielo como en la
+otros archivos.
+
+Cancele el archivo AUTO en su disco duro.  Para comenzar el juego, sal
+el disquete en la UNIDAD (para prueba de protección), luego seleccione START.PRG
+programa en tu disco duro
+
+AMIGA: copia todos los archivos en un subdirectorio de tu disco duro.  Empezar
+el juego por T.X, habiendo colocado primero el disquete en la unidad A.
+
+PC: inserte el disquete en la unidad A (o B), luego escriba: INSTALL <fuente
+lector> <lector de destino> (INSTALAR A:C: o INSTALAR B:C: o INSTALAR
+A:D: o INSTALAR B:D:).  Luego siga las instrucciones que aparecen en la pantalla.
+Para iniciar el juego, todo lo que tienes que hacer es ir a la
+subdirectorio en cuestión y escriba INICIO.
+
+MACINTOSH: copia todos los archivos de un directorio de tu disco duro.  lo harás
+Inicie el juego desde este directorio haciendo clic dos veces en INICIO.
+
+
+
+PROBLEMAS TÉCNICOS:
+
+Problema específico del PC: el programa se detiene al cargar: comprobar que
+su MS.DOS no está instalando unidades residentes al iniciar la máquina,
+lo que movilizaría demasiada memoria central.
+
+
+RESUMEN
++++++++
+
+24 de diciembre de 2022, "Operación Ciegos", un experimento científico de notable
+atrevimiento tiene lugar
+
+LA DEFINICIÓN
+--------------
+
+El equipo "Ciego", dirigido por el renombrado profesor John Merrick, tiene como objetivo salvar un
+El mundo asolado por el efecto invernadero por la explosión de dispositivos termonucleares
+simultáneamente en cada polo. Esto enfriará los salvajes rayos del sol al
+arrojando grandes cantidades de polvo y vapor a la atmósfera.
+
+Los científicos calculan mal.   El experimento funciona muy bien y el
+El mundo está sumido en un intenso invierno nuclear.  La civilización perece
+bajo un manto de nieve y hielo.
+
+Siglos más tarde, los supervivientes se las arreglan a duras penas para vivir una existencia miserable viviendo la mayor parte del tiempo.
+sus vidas en enormes trenes, la única fuente de transporte, viajando
+constantemente entre esos pueblos que aún existen: sombras patéticas de sus
+Yoes anteriores, utilizados ahora sólo como puntos de encuentro y comercio para el gigante.
+trenes.
+
+Controlar los trenes y la red ferroviaria es el siniestro y poderoso
+Unión Vikinga.  No tolerarán amenazas a su rentable monopolio.
+Un mundo encerrado en hielo les sienta muy bien.  Juegas como un idealista, Capitán de
+la Transártica.   Inspirado en escritos antiguos que te propusiste descubrir
+Más sobre el ahora mítico sol.   En tus viajes aprendes sobre
+"Operación Ciegos", y también de "Operación Sol".  ¡Por fin!  una oportunidad para
+cumple tu sueño!
+
+Transarctica combina aventura y estrategia: para restaurar el sol debes
+Gestiona y desarrolla con éxito tu tren: para ello debes convertirte en
+experto en el uso de mapas, evitando obstáculos, controlando máquinas de vapor, minería,
+espiar, comerciar y luchar contra los trenes de batalla de la Unión Vikinga.
+
+Un bolígrafo y papel para tomar notas te resultarán muy útiles.
+
+Por la mañana y por la noche les leería en voz alta este pasaje:
+"Sol un sustantivo común 1. El Sol: un cuerpo celeste que produce la luz
+del día.   Ejemplo: La distancia del Sol a la Tierra Por extensión:
+Un sol: un cuerpo celeste que irradia su propia luz en el centro de un
+sistema.   2. El disco luminoso del Sol, la apariencia de este celestial.
+cuerpo para un observador terrestre.  Ejemplo: El sol sale por el este y
+ambienta en Occidente.  3 Radiación, luz y calor del sol.  Ejemplo, es
+soleado, soleado.  Protégete del sol.  Exponerse al sol.
+Quemaduras solares: quemaduras provocadas por los rayos del sol.
+
+Cerré la vieja enciclopedia, me levanté, abrí la ventana del
+compartimento y me quedé allí durante mucho tiempo, acostada con los ojos
+cerrado, mi rostro azotado por las ráfagas heladas.  Recordé la primera vez que
+Lea este texto en la biblioteca abandonada de Alejandría.  ¡Qué revelación!
+Desde entonces, busqué otros escritos sobre este mito.  Esto me había causado
+muchos problemas con los administradores y los agentes ferroviarios
+supervisándome constantemente.
+
+Todo se estremeció cuando descubrí un artículo del siglo XXI.
+siglo en el proyecto "Blind", que se refería a la "solución definitiva"
+para salvar al planeta de la muerte.  Luego me convertí en "Ambivalente", y el
+Los administradores de la Unión Vikinga habían puesto precio a mi cabeza.
+
+TU MUNDO
++++++++++
+
+EL PLANETA TIERRA:
+
+Este es un planeta constantemente congelado, rodeado por una capa opaca de
+nubes.   El sol ya no se ve, se ha convertido en un cielo místico.
+cuerpo, al que se pueden encontrar ciertas alusiones en escritos antiguos.
+
+Además del mamut, el único medio de transporte es el tren de vapor.
+El carbón es la principal fuente de energía y permite calentarse y
+trenes de combustible.
+
+Hay dos tipos de carbón: lignito y antracita.
+
+El lignito se utiliza como moneda: rige todas las transacciones.  lo mas
+La unidad utilizada actualmente es el "Bak" (100 kg de lignito).  El lignito también puede ser
+utilizado como combustible.  El lignito se conoce como "lignito-dinero".
+
+La antracita es más rica que el lignito y se utiliza exclusivamente como combustible.
+trenes de vapor.
+
+
+LA UNIÓN VIKINGA:
+
+Esta es la única compañía ferroviaria que gestiona la inmensa red ferroviaria,
+uniendo las distintas ciudades.   Está dirigido por los "Administradores" y
+Emplea un ejército colosal.
+
+No es un poder totalitario, no se ocupa de la administración de
+ciudades, pero su monopolio de todos los medios de transporte le confiere indiscutible
+autoridad.  Además, para preservar su monopolio bloqueado en el hielo, está haciendo esfuerzos
+buscar y destruir todo lo que tenga que ver con el Sol.
+Te considera un "ambivalente", un enemigo que debe ser destruido.
+
+
+EL JUGADOR
+
+Eres el jefe de los "Ambivalentes", esos seres curiosos que buscan
+Los viejos mitos sobre el sol.  Has hecho numerosos conversos, pero sólo unos
+pocos te han seguido en tu lucha armada.  Tu mayor victoria para
+La fecha es el robo de uno de los mejores trenes de la Unión Vikinga: el
+Transártica
+
+
+LA BÚSQUEDA:
+
+Este es el primer día del nuevo año 2714 (calendario vikingo) A la cabeza de
+la Transártica y un pequeño grupo de hombres, estás viajando por el mundo para
+encuentra información sobre el misterioso Proyecto Ciego, tienes un sueño que
+restaurar el sol al mundo.
+
+
+EL JUEGO: 
+
+Para progresar con éxito en el juego debes aumentar el tamaño y
+fuerza de la Transártica.   Se pueden comprar vagones adicionales, etc.
+Lignito: dinero de varias ciudades industriales.  El dinero extra de lignito puede ser
+se gana comerciando en ciudades comerciales, con nómadas errantes o mediante la minería.
+También debes evitar los trenes de batalla de la Unión Vikinga y otros
+peligros como los lobos: la recopilación de inteligencia por parte de tus espías es vital.
+ 
+
+LOS RIESGOS: 
+
+La Unión Vikinga hará cualquier cosa para destruir la Transártica.  tren
+Los combates siempre terminan con la muerte de uno u otro tren.
+Otros peligros te amenazan: los hombres topo, las "Hordas" y otros enemigos
+animales.   Además, un tren detenido sobre el hielo condena a sus viajeros a
+muerte segura.   Las explosiones de calderas, la falta de carbón y los campos minados son
+por lo tanto, debe evitarse... Al final, el suicidio puede ser una solución bastante dulce.
+
+
+CONTROLES
++++++++
+
+El juego funciona íntegramente con el RATÓN.
+
+En el teclado, el teclado numérico (cifras del 1 al 9) emula el
+movimientos del ratón.  Puedes moverte bloque por bloque usando el
+Tecla CONTROL con estas cifras.  La tecla RETURN o la tecla SHIFT (para hacer
+mayúsculas) reemplazan el botón izquierdo del mouse: la tecla ALT es la
+botón derecho).   En el joystick los movimientos se realizan de forma natural en los ocho
+direcciones.   El botón de disparo corresponde al botón izquierdo del ratón.
+y la tecla ALT en el teclado, el botón derecho
+
+TECLA PAUSA: Presione la tecla <P>.
+PARA SALIR DEL JUEGO: Teclea <CONTROL> X
+
+
+PÁGINA DE RECEPCIÓN
++++++++++++++
+
+Esta es la página que aparece después de la presentación.
+
+Presenta las siguientes opciones:
+
+Para comenzar un nuevo juego puedes seleccionar el nivel de dificultad.
+
+Para jugar una partida guardada, Mensajes le indicará los cambios de disco que se realizarán.
+hecho.
+
+Para cancelar la fase de combates de trenes del juego (ver el capítulo "Entrenar
+Combate").   El resultado de la batalla será entonces calculado por el
+computadora.
+
+Para activar o desactivar la música del juego, según las capacidades de tu máquina
+permitir.
+
+PANEL DE CONTROL
++++++++++++++
+
+Durante casi todo el juego, el panel de control estará presente en la parte inferior.
+de la pantalla.
+
+DESCRIPCIÓN
+
+
+        -------------------------------------------------
+       |  2 1 2 |
+       |          A B 6 |
+       |  3 4 5 7 |
+       |          CD 8 |
+        -------------------------------------------------
+
+1. Esta barra representa el TREN con todos sus vagones en orden.  Para
+Completa la información de un vagón, haz clic en él y mantén pulsado el botón.  el
+El texto desaparecerá tan pronto como sueltes el botón.  las cruces
+inscritos en un vagón indican su tasa de destrucción.  Al final de tres
+cruza, el vagón se destruye y sólo quedan los ejes.
+
+2. Estas FLECHAS permiten desplazar la barra del tren hacia
+a la derecha o a la izquierda, si se sale del marco.  De hecho, la Transártica puede
+¡Tiene hasta 100 vagones!
+
+3. Dado que el juego se desarrolla en tiempo pseudo-real, este reloj indica la
+TIEMPO EFECTIVO.   El número de días transcurridos aparece en un pequeño cuadro.  Por
+Al hacer clic en el reloj, pasamos a la fase de "aceleración del tiempo": la
+Las agujas giran más rápidamente, los eventos ocurren más rápidamente, los movimientos del tren y
+Otros personajes del juego son más rápidos.  Haga clic en el reloj nuevamente para
+restaurar el tiempo efectivo.
+
+4. Al seleccionar estos iconos se obtiene acceso directo al vagón mostrado.
+
+El icono "A" representa el motor; "B" el vagón privado, "C" el general
+cuartos y "D" el lanzador de misiles.
+
+Los íconos "A", "B" y "C" siempre están accesibles, el ícono "D" es solo tuyo
+Posee el vagón de lanzamiento de misiles, que debes comprar durante el juego.
+
+5. Estos íconos de acción cambian según la fase del juego.  Una vez que tu
+están en el motor, el cuarto general o el vagón privado, el ícono del mapa
+es el único que se puede seleccionar y le llevará directamente a
+el mapa ampliado centrado en el tren.  Para otras fases del juego, el
+Los iconos se explican más adelante, en cada uno de los capítulos correspondientes.
+
+6. Este número representa la cantidad de carbón "LIGNITO" que posees.  el
+La unidad utilizada es el "Bak", que corresponde a unos 100 kg.  Este término es
+derivado de "baquet" ("tina"), un receptáculo utilizado actualmente, que contiene
+10 kg de carbón.  El "Bak" que apareció más tarde equivale a 10 baquets.
+
+El número disminuye a medida que se carga carbón en la caldera.  También como este combustible
+se utiliza como moneda, el número se modifica con cada transacción.
+
+7. Este número indica la cantidad de ANTRACITA que se posee (en baks).
+La antracita, que es menos volátil que el lignito y mucho más combustible,
+No se puede utilizar como moneda.
+
+8. Indica la VELOCIDAD del tren en km/hr.
+
+
+EL MOTOR
++++++++++++
+ 
+Su función es fiel a la de las máquinas de vapor tradicionales.
+
+EXPLICACIONES PRELIMINARES;
+
+El hogar, alimentado con carbón, calienta el agua de la caldera.  encendido
+Al llegar a los 100°C, el agua hierve y la presión comienza a aumentar.  para hacer
+El tren avanza, se requiere una presión mínima.
+
+La velocidad del tren la fija el jugador, según la posición del
+el regulador
+
+El consumo de energía será según la velocidad y masa del tren.
+(fórmula de energía cinética).   Cuanto más rápido y pesado sea, más energía,
+es decir, el carbón, se consumirá.
+
+Avanzando más lentamente (ajuste bastante bajo del regulador), se
+podemos lograr ahorros apreciables... Pero todo esto es una cuestión de estrategia
+y elección.
+
+DESCRIPCIÓN:
+
+      ----------------------------------------
+     |            7 8 |
+     |   1 6 9 |
+     |            5 |
+     |                                        |
+     |          3 2 4 |
+      ----------------------------------------
+
+
+1. El RECEPTÁCULO o "STOUP" recoge los mensajes del operador de radio
+en el cuartel general, que se comunica con los distintos espías repartidos por todo
+sobre el mundo.   Si hay un mensaje en este receptáculo, haga clic sobre:
+la información aparecerá en un marco en la parte inferior de la pantalla.  Haga clic
+nuevamente para hacer desaparecer el marco.  Sonará una campana cada vez que se envíe un nuevo mensaje.
+recibido.
+
+2. El hogar sólo se enciende si en su interior arde carbón.
+
+3. Al hacer clic una vez en este personaje, comienza a cargar el LIGNITO en
+el hogar un segundo clic acelera la carga y un tercero detiene la
+operación.
+
+ADVERTENCIA: No es necesario colocar carbón permanentemente en la cámara de combustión.  encendido
+por el contrario, unos pocos perdigones pueden ser suficientes para hacer que el tren avance durante
+bastante tiempo.  Además, corre el riesgo de hacer explotar la caldera.
+
+4. Mismo principio que el anterior, excepto que la ANTRACITA se carga en el
+máquina.
+
+5. Al seleccionar esta rueda, el conductor invierte la dirección de la
+tren.  El tren se detendrá brevemente.
+
+6. Al hacer clic en FRENO, detendrás el tren.  Esto de ninguna manera
+cambia la posición del regulador, o cualquier operación de carga de carbón bajo
+manera.  Para volver a arrancar, vuelva a seleccionar el freno.
+
+7. La palanca tradicional del SILBATO.
+ 
+8. La ALARMA se activa si el vehículo de observación (ver Capítulo "El detalle
+Mapa") ha visto algo
+
+9. Acceso a los controles del motor.
+
+
+CONTROLES DEL MOTOR
++++++++++++++++
+
+           -----------------------
+          |              mi |
+          |                       D |
+          |          B |
+          |    Un |
+          |          C |
+          |                       F |
+           -----------------------
+
+A. Este manómetro mide la presión intrínseca a la CALDERA.
+Más allá del guión, corre el riesgo de provocar una explosión.
+ 
+B. Indica la VELOCIDAD del tren en km/hr.
+
+C. Estas cifras indican la presión en PISTONES (transmisión efectiva).
+energía).  Esta presión tiene un techo de alrededor de 300.
+
+D. Termómetro indica la TEMPERATURA dentro de la caldera.
+
+E. Este REGULADOR es el único elemento ajustable en el panel.  Por
+Al hacer clic en algún lugar del medidor, se establece la posición de la perilla reguladora.
+que controla eficazmente la velocidad del tren.  Mínimo, totalmente a la izquierda,
+máximo pleno derecho.  (Máximo 300 km/h).
+
+F. Salir de regreso al motor
+
+
+EL VAGÓN PRIVADO O "BOUDOIR"
++++++++++++++++++++++++++++++
+Al igual que en el motor y cuarto general, esta camioneta cuenta con un "Stoup" y un
+señal de alarma luminosa.
+
+Se ofrecen otras tres posibilidades:
+
+EL INVENTARIO:
+ 
+Si haces clic en el personaje sentado en el escritorio, su nombre es Kolotov,
+su secretario especial: le enviaremos un inventario completo de la Transártica.
+presentado a usted.
+
+EL RESPALDO:
+
+Al seleccionar el libro sobre la mesa, puedes guardar el juego cuando quieras.
+y tantas veces como quieras el programa te pedirá que insertes un
+disco previamente formateado.
+
+En Amiga, hay que esperar unos segundos después de insertar un disquete,
+para que la unidad lo lea.
+
+En el disco duro, realiza una copia de seguridad directamente en el subdirectorio del juego.
+
+SUICIDIO
+
+Al seleccionar el revólver en la mesa, puede, presionando el gatillo
+(botón del ratón) "suicidarse" y así volver a la página de opciones.
+
+LOS CUARTOS GENERALES
++++++++++++++++++++
+
+Se le proponen cuatro opciones en la página que se muestra en la pantalla.
+
+LA PILA (Abajo a la izquierda):
+
+En cuanto al motor, puedes obtener diferente información seleccionando el
+mensaje actual
+
+EL MAPA:
++++++++
+
+Al hacer clic en la maqueta, aparece un mapa general de toda el área del juego.
+en la imagen.  A continuación podrá seleccionar cualquier lugar del mundo (consulte el capítulo "El
+Mapa").
+
+ESPIAJE Y SABOTAJE:
+
+Encontrará más información sobre los espías en el capítulo "Ubicaciones" ("Los
+cuartel").   Se puede acceder a este menú seleccionando el operador de radio en
+la izquierda.  Incluye dos opciones:
+
+ARRIBA: ENVIAR UN ESPÍA (disponible solo si tienes uno).  El mapa general
+luego se mostrará.   Selecciona el área donde quieres enviar un espía.  una vez
+Cuando se muestra esta área, el ratón se convertirá en un pequeño símbolo.  colócalo
+en el lugar exacto que el espía debe observar, es decir en la pista (no
+¡Olvídate de que las distancias son muy importantes!), luego haz clic en el botón.  el
+Luego, el espía dejará Transarctica para viajar a su punto de destino.  como
+Se mueve como un cohete, su tiempo de viaje será bastante corto.
+
+Al llegar se pondrá a observar y os informará de todo.
+él ve.   Para poder recuperarlo, tienes que ir a buscarlo por
+tren.   También puedes enviar espías a las ciudades, quienes te informarán de
+su "nivel comercial". Salvo casos excepcionales, es inútil enviar
+espía en cualquier lugar que no sea las vías.  También tienen disponible un cargo.
+de dinamita para volar vías o puentes.
+
+MEDIO: DINAMITA (disponible sólo si al menos un espía está operativo).  el
+El mapa, centrado en el espía, se mostrará con un icono de selección en orden.
+para llevar a cabo el sabotaje.  Haga clic arriba y el espía comenzará a utilizar el
+dinamita en la pista o puente en el que se encuentra actualmente apostado.
+
+Una vía destruida detiene los trenes enemigos durante el tiempo necesario para repararla.
+Si se derriba un puente, el enemigo se ve obligado a retirarse.
+
+Estos actos de sabotaje pueden ser muy útiles cuando eres perseguido por un grupo más
+poderoso tren enemigo.   Intenta entonces pasar cerca de uno de tus espías y
+Haz que la pista detrás de ti explote.  Entonces tendrás tiempo de escapar.
+
+ADVERTENCIAS
+
+A veces esto puede ir en tu contra si quieres utilizar puentes que ya tienes.
+ya destruido!
+ 
+Los espías pueden realizar una sola operación con dinamita, pero si un tren
+pasa cerca de ellos, puedes reabastecerles de dinamita.
+
+Sólo se pueden volar vías y puentes.  De nada sirve intentarlo en las ciudades.
+o en escondites enemigos.  Además, los extremos de las vías no se pueden demoler.
+
+COCHES DE INSPECCIÓN DE LÍNEA:
+
+Son pequeñas máquinas de vapor que son muy rápidas y se pueden enviar al
+delante o detrás del tren, se puede acceder a este menú haciendo clic en el
+personaje a la derecha de la pantalla de alojamiento general.
+
+Este menú le propone dos opciones: el envío de una línea simple
+coche de inspección y el envío de un coche de inspección de línea con un misil.
+(Estos son los mismos misiles que utiliza el vagón lanzamisiles).
+Obviamente, debes poseer un vehículo de inspección de línea y un misil para el
+segunda opción, que se puede comprar en determinadas ciudades comerciales.
+
+Una vez hecha tu elección, debes decidir la dirección de la línea.
+Coche de inspección: ya sea delante del tren o en la parte trasera del mismo.  el
+El coche de inspección de línea abandonará la pantalla y podrá seguir su trayectoria.
+hasta que explota.
+
+Si se detiene gradualmente antes de explotar, significa que no ha encontrado nada en el camino.
+la pista, a menos que haya pasado por un campo minado o haya chocado contra un obstáculo,
+eso es un tren enemigo, o un bombardeo sostenido por gente bárbara subterránea
+(Ver capítulo "Los Eventos").  El envío del vehículo de inspección de línea así
+permite "probar" las orugas, para ver si hay un enemigo allí,
+causarle un daño importante y retrasar su progreso.  Cuídate una "bomba
+coche de inspección de línea" "regresando" a la Transártica haría que fuera
+literalmente explotar.
+
+
+MAPAS
+++++
+
+Hay dos mapas: el mapa general y el mapa detallado.
+
+EL MAPA GENERAL:
+
+Se puede acceder a este en el cuartel general, haciendo clic en la maqueta.
+
+Este mapa es un plano oficial tomado de la Unión Vikinga.  Sin embargo, es
+Es posible que la red ferroviaria no esté transcrita en su totalidad.
+
+Si mueves el mouse sobre el panel de control, se convierte en una lente.  tu
+Luego puede seleccionar cualquier parte del terreno del juego.  Las coordenadas X e Y
+del centro de la lente se indican respectivamente debajo y a la derecha
+de ello.
+
+En el panel de control, hay cuatro iconos de acción disponibles:
+
+* Icono de mapa detallado.
+
+* Un ícono de "SALIDA" que lo llevará de regreso al vagón que dejó anteriormente.
+
+* La rueda que permite cambiar la dirección del tren,
+sin tener que pasar por el motor.
+
+* El freno.
+
+DESCRIPCIÓN:
+
+Los pequeños marcos azules representan ciudades.
+
+Las calaveras simbolizan los almacenes enemigos de donde proviene el V.U.  salen los trenes.
+
+Los pequeños circuitos con dos flechas representan talleres (Ver capítulo
+"Ubicaciones").
+
+Las huellas punteadas son vías subterráneas.  Estas huellas han sido rastreadas
+en línea recta y son muy pocos.  Hacen posible que el
+los trenes van mucho más rápido, a veces duplicando su velocidad.  pero lo son
+habitada por los "Hombres Topo" que a menudo atacan los trenes (Ver el capítulo
+"Eventos")
+
+Los puntos rojos indican minas.  Si parpadean, las minas están abiertas: en caso contrario
+están agotados.
+
+La Transártica está simbolizada en el mapa como un pequeño tren.  Si se mueve, un
+La flecha parpadeante indica su dirección; en caso contrario, se muestra como una cruz.
+
+
+EL MAPA DETALLADO
+
+Accesible directamente desde el icono "mapa" de cualquier vagón, muestra una visión más
+Sección detallada de tierra, centrada en la Transártica.  Aparte de la
+segundo icono, que permite volver al mapa general, los cuatro
+Los iconos de acción son idénticos a los del mapa general (mapa centrado,
+inversor de dirección y freno).
+
+Para desplazarse por el mapa, coloque el ratón completamente hacia arriba,
+parte inferior, izquierda o derecha de la pantalla.
+
+También puedes decidir la ruta de tu tren.  Aquí: simplemente haga clic en
+Punto donde se unen dos líneas de tren diferentes para abrir o cerrar cruces.
+Recuerde que los trenes no pueden realizar giros cerrados, por lo que la mayoría de los cruces son sólo
+accesible desde una dirección.  Un cruce cerrado se indica mediante un bloque.
+de color justo encima de ese cruce.  Mediante referencias cruzadas con el conjunto
+mapa es fácil planificar una ruta para su tren, abriendo y cerrando
+cruces mucho antes de su llegada.  Si utiliza este método junto
+con tiempo acelerado (haga clic en el reloj, vea el panel de control), puede moverse
+alrededor del mundo con bastante rapidez.
+
+La información sobre ciudades y minas está disponible en el mapa detallado.  Haga clic en
+los distintos elementos, mantenga pulsado el botón y se mostrará un texto
+en la parte inferior de la imagen y desaparece cuando sueltas el botón.
+
+Haz lo mismo si quieres conocer una coordenada en cualquier lugar
+en el mapa (1 unidad = 70 Km).
+
+Si se ven elementos móviles (trenes enemigos, lobos, mamuts, nómadas)
+desde el coche de observación, se indican en el mapa y se emite la alerta
+dado en la Transártica.   Hay varios tipos de "cuadro de observación
+vagón".   que permiten ver más o menos lejos.  Al comienzo de
+el juego, no tienes ninguno de estos en tu poder: tu campo de
+Por tanto, la visión es bastante limitada.  Si los elementos salen del campo de visión,
+Desaparecen del mapa.
+
+Finalmente, una pista destruida está simbolizada por un gran agujero negro.
+
+LANZADORES DE MISILES
++++++++++++++++++
+
+Este vagón no está disponible al comienzo del juego.  tienes que poseer
+al menos un misil para usarlo.  El tren se detendrá si se va a lanzar un misil.
+despedido.   Su funcionamiento es bastante sencillo: todas las selecciones se realizan en
+el pequeño panel de control
+
+AJUSTES DE DISPARO
+
+Se deben realizar dos ajustes de disparo: orientación y distancia.
+La orientación se indica en la barra izquierda ("N" corresponde a 90o, "NE" a
+45€, etc.).   Lo posicionas mediante los pequeños botones al lado de este
+barra.  Selecciona la distancia en el medidor haciendo clic directamente en las cifras.
+
+Gracias a su potente captación de infrarrojos, el misil es atraído por
+fuentes de calor.   Por lo tanto, no es necesario ser preciso hasta el último
+Kilómetro, pero se impone una distancia mínima.
+
+
+DISPARO:
+
+El disparo se realiza en dos fases: se arma seleccionando la válvula izquierda,
+luego disparas con el de la derecha.
+
+En cualquier momento podrás abandonar esta fase del juego haciendo clic en el
+Icono "SALIR" del panel de control.
+
+Una vez lanzado el misil, se sigue su curso en el mapa.
+
+ADVERTENCIA: Los misiles deben dispararse sólo para destruir trenes enemigos.  es
+Inútil enviarlo a cualquier otro lugar.  Por supuesto, su objetivo debe ser decidido.
+de antemano.   Aquí es donde los espías son útiles.   Al conocer el tuyo
+coordenadas y las del tren objetivo, y sabiendo que una unidad
+corresponde a 70 Km, se pueden calcular con precisión los valores óptimos para un
+lanzamiento exitoso del misil.
+
+Como el número de trenes enemigos en el juego es limitado, un misil que
+alcanza su objetivo te liberará de posibles agresores.
+
+
+EVENTOS
+++++++
+
+Durante el viaje se producen varios encuentros.  Ciertas cosas se pueden ver desde
+la caja de observación;  Entonces se da la alerta y los "intrusos" son
+mostrado en el mapa detallado.
+
+NÓMADAS: Son mercaderes ambulantes que transportan objetos muy raros y buscados.
+productos posteriores; los muebles de hace mucho tiempo
+
+MANADAS DE MAMUT: Es bastante común encontrarlos.  El resultado de la caza.
+Se decidirá por la cantidad de batidores que tengas disponibles, es decir, esclavos.
+y soldados.   Por supuesto, es necesario disponer de vagones de ganado para transportar
+ellos.
+
+LAS "HORDAS": Son manadas gigantescas de lobos hambrientos.  ellos atacan
+trenes y causar grandes daños a los vagones de ganado, esclavos y
+soldados.
+ 
+Necesitas un ejército fuerte para derrotarlos.
+
+EL PUEBLO SUBTERRÁNEO U “HOMBRES TOPO”: Sus antepasados construyeron el
+ferrocarriles subterráneos.  Con el tiempo, empezaron a preferir la relativa calidez y
+refugio de los túneles hacia el mundo de arriba.  Son caníbales.  ellos
+atacar trenes en busca de comida y llevarse mujeres para reproducirse.  estan mal
+organizado pero muy fuerte y numeroso y sin miedo a morir.
+
+Un "coche de inspección de líneas de bombas" desalentará sus ataques.
+
+VÍAS DESTRUIDAS: Pararán el tren.  Para repararlos, usted
+Necesitará rieles.   El tiempo de reparación dependerá de su capacidad de construcción,
+ese es el número de esclavos;  mamuts y grullas que tienes en tu
+posesión.
+
+PUENTES: La construcción de un puente requiere más medios que la reparación
+de una pista, pero el principio es el mismo.
+
+PUNTOS DEL ESCENARIO: Estos pueden llevarte a descubrir un lugar concreto, conocer
+tal o cual "chatracter", etc.
+
+
+UBICACIONES
++++++++++
+
+La Transarctica puede visitar muchos destinos.   Cada uno de ellos tiene un
+propósito particular.
+
+PUEBLOS COMERCIALES:
+Hay localidades donde se realiza comercio masivo entre trenes.
+
+Primero seleccione el tipo de transacción: compra o venta de mercancías, todas
+A continuación, los productos se mostrarán en pantalla con sus precios (de
+compra o venta según el icono previamente seleccionado) y su
+cantidades.   Para obtener más información sobre un producto, haga clic y mantenga el
+botón presionado.  Luego use los íconos "MÁS" o "MENOS" para fijar la cantidad de
+la transacción;  La cantidad y el precio se muestran al mismo tiempo mediante dos
+metros.   Para completar la operación, haga clic en "Aceptar".  La moneda utilizada es, por ejemplo,
+Por supuesto, el Bak.
+
+ADVERTENCIAS:
+
+Para adquirir un producto, debes tener suficiente espacio para almacenarlo (es decir
+un vagón de mercancías o cisterna, según el producto, y deberá estar vacío,
+o poseer el mismo tipo de bienes).
+
+Hay 15 productos diferentes para comercializar.  Varían según las condiciones locales.
+y oferta y demanda.  Por estas razones se pueden obtener muchas cantidades de lignito.
+mediante el comercio inteligente: observe siempre lo que vende una ciudad, a qué precio y
+lo que no tiene; de hecho, una libreta y un bolígrafo le serán útiles durante todo el proceso.
+el juego.
+
+Una vez que haya comprado un determinado producto en una ciudad, la ciudad tomará
+bastante tiempo para reabastecerse con el mismo producto.
+
+
+PUEBLOS INDUSTRIALES
+
+Estos pueblos se especializan en la fabricación de vagones.  El funcionamiento de
+El menú es idéntico al de las ciudades comerciales excepto que
+No puedo revender un vagón.
+
+Hay una veintena de vagones diferentes (vagones de observación, grúas, mercancías,
+ganado, tenderos, etc.) cada uno con una función específica.  Si haces clic en uno
+de ellos es un plano general y se muestra un texto descriptivo.
+
+FERIAS DE MAMUT:
+
+Los mamuts son muy apreciados: pueden transportar cargas pesadas y cubrir
+cientos de kilómetros a gran velocidad.  Se utilizan para la construcción de puentes,
+colocación de minas y guerra (Ver capítulo "Combates de trenes").
+
+Las ferias gigantescas son pocas y espaciadas.   Puedes comprar o vender numerosos
+mamíferos hacia ellos.  Utilice "COMPRA", "VENTA", "MÁS", "MENOS" y "OK" para esto.
+
+¡Cuídate!  Debes tener vagones de ganado para transportarlos.
+
+
+MERCADOS DE ESCLAVOS:
+
+Los esclavos suelen ser topos capturados.  Físicamente muy fuerte; ellos toman
+Participa en todos los trabajos pesados: reparación de vías, construcción de puentes, extracción de carbón.
+
+Se aplica el mismo procedimiento que para las ferias gigantes.  Los "vagones de prisión" son
+esencial para el transporte de esclavos.
+
+PUEBLOS GUARNICIÓN:
+
+Aquí es donde se alistan los soldados: se necesitan "vagones de cuartel" para
+alojamiento
+
+Los soldados se utilizan para la guerra y la caza.  Normalmente son contratados por
+comerciantes de esclavos o por las autoridades locales para guerras vecinales.
+
+A veces, el menú propone elegir entre soldado y espía.  los espías
+no cuesta nada;  son mercenarios que, por filosofía, se contentan
+con vivir en vagones de lujo: entonces tienes que tener estos vagones para poder
+poder enrolar espías.
+
+Por otro lado, están preparados para llevar a cabo misiones peligrosas.  el
+Los vagones de lujo están equipados con vagones a reacción.  Estos son utilizados por los espías para
+moverse rápidamente a sus puntos de observación, la cabina de los aviones está
+Equipado con asientos eyectores.   Una vez en su lugar, los espías pueden establecer
+dinamita en puentes o camiones.  (Ver el capítulo "Cuartel General").
+
+TALLERES:
+
+Se trata de una especie de garaje para trenes.  Son posibles tres acciones.
+
+- Al seleccionar el cobertizo del motor a la izquierda, puede cambiar el orden de
+tus vagones.   El orden de los vagones es un factor determinante en el tren.
+combate (ver capítulo; "Entrenar combate").
+
+- La escena central te permite reparar vagones según sea necesario.  Esto cuesta unos cuantos
+trozos de carbón.
+
+- Al hacer clic en el "cementerio" de vagones a la derecha, puedes enviar vagones a
+el depósito de chatarra.  Esto puede resultar útil si desea aligerar la carga del
+Transártica
+
+MINAS:
+
+Las minas son de lignito o antracita.  Las minas se agotan después de un
+período de tiempo, ya que atraen a numerosos buscadores.  Cuanto antes llegues
+Una mina, más carbón podrás recuperar.
+El resultado de su prospección también depende de los medios con los que pueda
+comisión: esclavos, mamuts, grullas.
+
+
+COMBATE DE ENTRENAMIENTO
++++++++++++
+
+Los trenes de batalla de la Unión Vikinga te buscan constantemente, con
+El objetivo de terminar tu búsqueda destruyendo tu tren.  Cuando conoces a un
+enemigo el juego pasa automáticamente a la secuencia de combate del tren.
+
+Si ha deseleccionado esta secuencia en el menú de opciones, el resultado de
+La batalla será calculada por la computadora.
+
+El combate de trenes es un verdadero "juego de guerra" entre tú y el tren enemigo.
+por la computadora.  El ganador es el que destruye el potencial militar.
+del otro tren (soldados, cañones, ametralladoras).
+
+MEDIO AMBIENTE:
+
+El tren enemigo está en la parte superior de la pantalla: el tuyo está en la parte inferior.
+
+El combate se desarrolla en tiempo real.  Puedes desplazar la imagen colocando
+el ratón a la derecha o izquierda de la pantalla (como para desplazarse por el mapa).
+
+La misma barra en el panel de control, que representa todos los vagones del
+tren, está disponible.  Desplácese haciendo clic en las flechas derecha e izquierda.
+Las cruces inscritas en los vagones muestran su tasa de destrucción.  (Después de tres
+cruza, el carro se destruye).   Si el carro es atacado por el enemigo
+soldados, se mostrará un triángulo, el símbolo de la Unión Vikinga, en
+el carro.  Si selecciona un vagón, la imagen se centrará arriba.
+
+Debajo de la barra del tren hay tres iconos:
+
+El freno, que permite detener o reiniciar el tren.  el
+Los movimientos de avance y retroceso del tren son limitados.
+
+El inversor de dirección.
+
+Volver a la última posición activa
+
+DESPLIEGUE DE SOLDADOS
+
+Un soldado en la pantalla representa un grupo de varios soldados.  el
+Los soldados, al partir, se encuentran en "carros-cuarteles".  Entonces un panel de control
+aparece.   Incluye iconos de FLECHA, "MÁS" y "MENOS" y un NÚMERO
+correspondiente al número de soldados presentes en el vagón.  si tu
+Selecciona la FLECHA, todos los soldados saldrán del carro.
+
+Si desea dejar soldados en el carro, utilice los botones "MÁS" y "MENOS".
+terminales para establecer el número de soldados que quedarán.  Los demás quedarán
+en su lugar, y el grupo se dividirá en dos.
+
+Tu soldado ahora camina en la pantalla.  Si lo seleccionas, un control
+Aparecerá un panel más completo que el anterior.  Incluye lo mismo
+Iconos "MÁS" y "MENOS", el NÚMERO de soldados e DIRECCIONES, y una PARADA
+posición.  Si haces clic en este último (cuadro central) el grupo se detendrá.  si
+usted elige una dirección en la que irá el grupo.  La dirección del
+El grupo se ilumina en el panel de control.  Como se vio antes, puedes separar el
+grupo utilizando "MÁS" y "MENOS", luego seleccionando la dirección.  el
+El nuevo grupo aparecerá en la pantalla, otros soldados del grupo aparecerán
+permanecer en su lugar.
+
+Para cancelar un panel de control, haga clic en cualquier parte de la pantalla.
+
+BLOQUEO, COMBATE, REAGRUPACIÓN, ASALTOS:
+
+Un grupo de soldados avanzará hasta encontrar un obstáculo.  Si es un
+grupo enemigo, el combate se producirá automáticamente: el resultado se decidirá
+por las fortalezas relativas del grupo.
+
+Si se trata de otro grupo de soldados aliados, los dos grupos pueden unir fuerzas.
+Para esto, haga clic en uno de los grupos y establezca la dirección que lo llevará a un
+reunión.  Luego los dos grupos se unen.
+
+Un soldado se detiene frente al tren enemigo.  Selecciónalo y muévelo.
+en el carro: el soldado luego subirá a los techos del carro, incluso
+si el tren está en movimiento.  Luego puede moverse hacia los tejados y volar los
+carro colocando dinamita para esto, haga clic en el soldado y su control
+El panel propondrá, en lugar de un movimiento ascendente, la colocación de dinamita.
+hacia la derecha o izquierda del soldado.
+
+La dinamita sólo explotará después de un cierto tiempo y la cuenta regresiva comenzará.
+se mostrará parpadeando.  Durante este período, los "defensores del tren"
+puede ser acercado a la dinamita para apagarla: por otra parte,
+los "atacantes" no pueden cruzarlo, ya que la dinamita bloqueará su paso.
+Se pueden prever varias estrategias para "proteger" la bomba que ha sido
+colocado.  La dinamita, cuando explota, destruye completamente el vagón en el que viajaba.
+ha sido colocado y causa la muerte de todos los personajes presentes en o
+en el carro.  Permaneciendo al final de un carro, uno puede colocar dinamita
+el vagón al lado y evitar explotar con él.  No es útil
+destruir todos los carros; al contrario, corres el riesgo de perder parte de tu guerra.
+botín.
+
+El enemigo actuará de la misma manera que tú para defenderte de él.
+A tu vez, tendrás que enviar soldados a los techos de tu propio tren.
+
+MAMUTS:
+
+Los mamuts no se mueven en grupos durante la batalla.  Se mueven independientemente y
+Se utilizan para transportar soldados.  Están retenidos en los vagones de ganado y
+Hay que sacarlos uno por uno.  Funciones de separación y reagrupación como para
+soldados.   Los mamuts se mueven más rápido que los soldados y pueden absorber mucha máquina.
+fuego de arma.
+
+VAGONES DE COMBATE: CAÑON Y AMETRALLADORA:
+
+Para utilizar: simplemente haga clic en los vagones correspondientes.
+
+El cañón dispara contra el carro que está frente a él.  Entre cada disparo, un cierto
+Se necesita una cantidad de tiempo para recargar y prepararse para disparar nuevamente.  el despido
+El icono indicará si el cañón está operativo o no.
+
+Pueden ser necesarios varios proyectiles para destruir un vagón.  El tocador, el
+El alojamiento general y el motor están fuertemente blindados.  Si pierdes uno de
+ellos, has perdido la batalla... ¡y el juego!  Si destruyes el
+motor adversario, el tren enemigo ya no puede moverse.
+
+La ametralladora dispara de frente.   Si el tren está en movimiento, puede
+"barrer" el campo de batalla.  Ten cuidado de no disparar contra tus propios soldados.
+
+Los otros carros no tienen ningún papel ofensivo en la batalla.
+
+BOTÍN:
+
+El botín capturado depende del valor de mercado original del tren y del
+número de vagones que quedaron intactos.  Cuanto más rápida y "limpiamente" ganes, más
+más ganas.
+
+La mayoría de las veces recuperas carbón y esclavos.
+
+ 
+              ¡DIVIÉRTETE CHICOS Y RECUERDA QUE TODO ES POR DIVERSIÓN! 
+                      DOC REALIZADOS POR THE SHARD/N&B
+================================================================================
+DOC DE TRANSARTICA SUR ST/AMIGA
+
+LANZAMIENTO DEL JUEGO:
+INSEREZ LA DISQUETTE DU JEU DANS LECTEUR PUIS ALLUMEZ LE MICRO.
+
+INSTALACIÓN SOBRE DD:
+RECOPIEZ TOUS FICHIER DE LA DISQUETTE DANS UN REPERTOIRE SUR VOTRE
+DD.SORTEZ LE PROGRAM START.PRG DU DOSSIER AUTO ET COPIEZ LE AU MEME
+NIVEAU QUE LES AUTRES FICHIERS.
+SUPPRIMEZ LE DOSSIER AUTO SUR VOTRE DD.POUR LANCEZ LE JEU,LAISSEZ
+LA DISQUETTE DANS LE LECTEUR(POUR TEST DE PROTECTION(NDT:ET OUI,
+L'ARNAQUE,CE JEU N'EST PAS VRAIMENT INSTALLABLE,BRAVO LES
+PROGRAMADORES,CAR LA PROTECTION PAR CODE ETAIT SUFFISANTE!!!!),
+PUIS SELECTIONNEZ LE PROGRAM STAR.PRG SUR LE DD.
+
+LA DEFINICIÓN:
+COMME CHAQUE MATIN ET CHAQUE SOIR JE RELISAIS A VOIX HAUTE LE PASSAGE:
+SOLEIL,NOM COMMUN MASCULIN,LE SOLEIL:ASTRE QUI PRODUIT LA LUMIERE DU JOUR.
+EJEMPLO:LA DISTANCE DU SOLEIL A LA TERRE.PAR EXTENSIÓN:UN SOLEIL:UN ASTRE
+RAYONNANT D'UNE LUMIERE PROPRE AU CENTRE D'UN SYSTEME.
+LE DISQUE LUMINEUX DU SOLEIL,L'ASPECT DE CET ASTRE POUR UN OBSERVATEUR 
+TERRESTRE.EJEMPLO:LE SOLEIL SE LEVE A L'EST ET SE COUCHE A L'OUEST.
+RAYONNEMENTS,CHALEUR LUMIERE DU SOLEIL;EJEMPLO:IL FAIT SOLEIL,DU SOLEIL.
+SE PROTEGER DU SOLEIL.S'EXPOSER AU SOLEIL.COUP DE SOLEIL:BRULURE CAUSEE PAR
+LES RAYONES DEL SOLEIL.
+
+JE REFERMAIS LA VIELLE ENCYCLOPEDIE ME LEVAIS OUVRAIS LA FENETRE
+DU COMPARTIMENT ET RESTAIS LA UN LONG MOMENT,PROSTRE,LES YEUX CLOS,LE
+VISAGE FOUETTE PAR LES BOURRASQUES GLACEES.JE ME REMEMORAIS L'INSTANT
+OU J'AVAIS LU POUR LA PREMIERE FOIS CE TEXTE A LA BIBLIOTHEQUE
+ABANDONNEE D'ALEXANDRIE.QUELLE REVELACIÓN !
+DEPUIS,JE N'AVAIS EU CESSE DE CHERCHER D'AUTRES ECRITS SUR CE MYTHE.CELA 
+M'AVAIT PROCURE DE NOMBREUX PROBLEMES AVEC LES ADMINISTRATEURS,ET LES
+AGENTES FERROVIARIOS ME CONSTANCIA DE VIGILANCIA.
+TOUT BASCULA LORSQUE JE DECOUVRIS UN ARTICLE,DU XXI SIECLE,SUR LE
+PROYECTO CIEGO, QUE SE REFERÍA A UNA SOLUCIÓN DEFINITIVA PARA AHORRAR
+EL PLANETA DEL PLAZO. ENTONCES ME CONVERTÍ EN UN AMBIVALENTE, EN UN CABEZA
+PRECIO POR LOS ADMINISTRADORES DE LA UNIÓN VIKINGA.
+
+PLANETA TIERRA:
+ES UN PLANETA CONSTANTEMENTE HIELO, RODEADO DE UNA CAPA OPICA DE
+NUBES. POR LO TANTO, EL SOL YA NO ES VISIBLE, SE HA CONVERTIDO EN UNA ESTRELLA MÍTICA, QUE
+ENCONTRAMOS CIERTAS ALUSIONES EN OBRAS MUY ANTIGUAS.
+Aparte del Mamut, el ÚNICO MEDIO DE VIAJE ES EL TREN DE VAPOR.
+EL CARBÓN ES LA PRINCIPAL FUENTE DE ENERGÍA, PROPORCIONA CALEFACCIÓN
+Y PARA ALIMENTAR LOS TRENES. DISTINGUIMOS DOS TIPOS DE CARBÓN: LIGNITO
+Y ANTRACITO.
+EL LIGNITO SE UTILIZA COMO MONEDA, FIJA TODAS LAS TRANSACCIONES.
+LA UNIDAD MÁS UTILIZADA ES EL BAK (100KG). EL LIGNITO
+TAMBIÉN SE PUEDE UTILIZAR COMO COMBUSTIBLE.
+EL ANTRACITO ES MAS RICO QUE EL LIGNITO, SE UTILIZA EXCLUSIVAMENTE PARA
+EL FUNCIONAMIENTO DE LAS MOTORES DE VAPOR
+
+LA UNIÓN VIKINGA:
+ES LA ÚNICA EMPRESA DE TRENES QUE GESTIONA LA INMENSA RED FERROVIARIA
+CONECTANDO LAS DIFERENTES CIUDADES. ESTÁ DIRIGIDO POR LOS ADMINISTRADORES
+Y TIENE UN EJÉRCITO COLOSAL. NO ES UNA POTENCIA TOTALITARIA
+ELLA NO SE ENCARGA DE LA ADMINISTRACIÓN MUNICIPAL PERO LO HACE
+SER PROPIETARIO DE TRENES LE DA UNA AUTORIDAD DIFÍCIL DE SER IMPETIDA.
+ADEMÁS, POR UNA RAZÓN QUE AÚN SE TE ESCAPA, ELLA SE ESTÁ ESFORZANDO
+A BUSCAR Y DESTRUIR TODO LO ATRACTIVO AL SOL.SES
+LOS ENEMIGOS SON LOS AMIBIVALENTES A LOS QUE LOS AGENTES CAZAN DESCARADAMENTE
+FERROCARRILES.
+
+EL JUGADOR:
+ERES EL LIDERAZGO DE LOS AMBIVALENTES, ESOS SERES ESCÉPTICOS QUE BUSCAN
+EXPLICACIONES SOBRE EL SOL, SOBRE LO QUE PUDO PASAR. HAS HECHO
+MUCHOS CONVERSOS, PERO POCOS TE SIGUIERON EN TU LUCHA ARMADA.
+TU MAYOR VICTORIA ES PODER ROBAR UNO DE LOS MÁS
+FABULOSA DE LA UNIÓN VIKINGA: LA TRANSARTICA.
+
+LA BÚSQUEDA:
+ES EL 1 DÍA DEL AÑO NUEVO 2714.
+AL CABEZA DE TRANSARTICA Y UN GRUPO DE HOMBRES, VIAJAS POR EL MUNDO
+BUSCANDO INFORMACIÓN SOBRE EL PROYECTO BLING. ESTO TE LLEVARÁ
+QUIZÁS EN EL RENACIMIENTO DEL SOL.
+
+EL JUEGO:
+MIENTRAS INTENTAS EVOLUCIONAR EN EL ESCENARIO TENDRÁS QUE LUCHAR
+LOS EJÉRCITOS DE LA UNIÓN VIKINGA, TENIENDO PREOCUPACIONES CONSTANTES POR LA OBTENCIÓN DE CARBÓN,
+Y ENRIQUECE TU TREN. COMO ELEMENTOS EN MOVIMIENTO (TRENES ENEMIGOS,
+MAMMOUTH,WOLVES) NO SON VISIBLES EN EL MAPA,ESPYMENT JUGARÁ
+UN PAPEL IMPORTANTE.
+
+LOS RIESGOS:
+LA UNIÓN VIKINGA HARÁ TODO PARA DESTRUIRTE. LAS LUCHAS
+DE LOS TRENES SIEMPRE TERMINAN CON LA MUERTE DE UNO U OTRO TREN.
+OTROS PELIGROS PUEDEN AMENAZARTE: HOMBRES TOPO, HORDAS Y
+OTROS ANIMALES HOSTILES.
+ADEMÁS, UN TREN PARADO EN EL HIELO MANDA A SUS VIAJEROS
+UNA MUERTE RÁPIDA. EVITE EXPLOSIONES DE CALDERAS, AVERÍAS
+CARBÓN, TERRENOS MINEROS,...
+FINALMENTE EL SUICIDIO PUEDE SER UNA SOLUCIÓN BASTANTE SUAVE.
+
+ERGONOMÍA;
+EL JUEGO FUNCIONA CON RATÓN.
+EN EL TECLADO, EL TECLADO NUMÉRICO (1-9) EMULA LOS MOVIMIENTOS DEL RATÓN.
+PUEDES MOVER BLOQUE A BLOQUE USANDO ESTAS CIFRAS
+LA TECLA CONTROL, LA TECLA RETORNO O LA TECLA SHIFT REEMPLAZA
+LOS BOTONES IZQUIERDOS DEL RATÓN, LA TECLA ALT A LA DERECHA.AU JOY,
+LOS MOVIMIENTOS SE REALIZAN EN 8 DIRECCIONES.EL BOTÓN
+DISPARAR SIRVE COMO EL BOTÓN IZQUIERDO DEL RATÓN, LA TECLA ALT
+EN EL TECLADO EL BOTÓN DERECHO.
+P=PAUSA
+CONTROL+X=SALIR DEL JUEGO
+
+PÁGINA DE INICIO
+ESTA ES LA PÁGINA QUE APARECE DESPUÉS DE LA PRESENTACIÓN.
+ELLA TE OFRECE
+PARA COMENZAR UN NUEVO JUEGO. PUEDES SELECCIONAR EL NIVEL DE
+DIFICULTAD.
+PARA REANUDAR UNA COPIA DE SEGURIDAD ANTERIOR. MENSAJES LE NOTIFICARÁN DE LA
+CAMBIOS DE DISCO A REALIZAR.
+PARA ELIMINAR LA FASE DE COMBATE DE DSE TRAINS DEL JUEGO. EL RESULTADO SERÁ ENTONCES
+CALCULAR.
+ACTIVAR O NO LA MÚSICA, QUE SE REPRODUCRÁ PERMANENTEMENTE DURANTE EL JUEGO.
+DISPONIBLE SÓLO EN ALGUNAS MÁQUINAS
+
+EL PANEL DE CONTROL:
+DESCRIPCIONES:
+1-ESTA BARRA REPRESENTA LOS TRENES CON TODOS ESTOS VAGONES EN ORDEN. TENER
+INFORMACIÓN COMPLETA SOBRE UN VAGÓN, HAGA CLIC EN ESTE Y MANTENGA
+PRESIONE EL BOTÓN. EL TEXTO DESAPARECERÁ TAN PRONTO COMO SUELTE EL BOTÓN.
+LAS CRUCES INSCRITAS EN UN VAGÓN INDICA SU TASA DE DESTRUCCIÓN. AL FINAL
+DE TRES EL VAGÓN ESTÁ DESTRUIDO, SÓLO QUEDAN LOS EJES.
+
+2-ESTAS FLECHAS TE PERMITE DESPLAZAR LA BARRA DEL TREN HACIA LA DERECHA
+O HACIA LA IZQUIERDA, SI SUPERA DEL MARCO. LA TRANSARTICA PUEDE
+¡POSE EFECTIVAMENTE HASTA 100 VAGONES!
+
+3-EL JUEGO SE REALIZA EN TIEMPO REAL, ESTE RELOJ MUESTRA LA HORA
+EN VIGOR. EL NÚMERO DE DÍAS TRANSCURRIDOS APARECE EN UN PEQUEÑO CUADRO.
+AL HACER CLIC EN EL PÉNDULO, ENTRAMOS EN LA FASE DE ACELERACIÓN DEL TIEMPO, LA
+LAS MANOS GIRAR MÁS RÁPIDO, LOS EVENTOS LLEGAN MÁS RÁPIDO,
+LOS MOVIMIENTOS DE LOS TRENES Y OTROS PERSONAJES DEL JUEGO SON MÁS RÁPIDOS.
+DURANTE ESTA FASE LAS ANIMACIONES SE PRESENTAN EN CÁMARA LENTA SOBRE LA IMAGEN.
+PARA ENCONTRAR EL ESTADO DE HORA INICIAL, SIMPLEMENTE VUELVA A HACER CLIC
+EN EL RELOJ.
+
+4-SELECCIONANDO ESTOS ICONOS, VAMOS DIRECTAMENTE AL VAGÓN SIMBOLIZADO.
+EL ICONO DE LA LOCOMOTORA, EL ICONO DEL VAGÓN PRIVADO, EL ICONO DEL CUARTO GENERAL,
+EL LANZADOR DE MISIL.
+EL ICONO DEL LANZADOR DE MISILES SÓLO ES ACCESIBLE SI TIENES ESTE VAGÓN,
+EL CUAL DEBE SER COMPRADO DURANTE EL JUEGO.
+
+5-ESTOS ICONOS DE ACCIÓN CAMBIAN DEPENDIENDO DE LA FASE DEL JUEGO EN LA QUE
+NOS ENCONTRAMOS CUANDO NOS ENCONTRAMOS EN LA LOCOMOTORA, EL HQ O EL VAGÓN
+PRIVADO, SOLO SE PUEDE SELECCIONAR EL ICONO DEL MAPA, QUE TE LLEVARÁ
+DIRECTAMENTE EN EL MAPA AMPLIAR CENTRADO EN EL TREN.FOR
+EN OTRAS FASES DEL JUEGO, ESTOS ICONOS SE ESPECIFICAN MÁS.
+
+6-ESTE NÚMERO REPRESENTA LA CANTIDAD DE CARBÓN DE LIGNITO QUE TENEMOS
+EL NÚMERO DISMINUYE A MEDIDA QUE SE CARGA EL CARBÓN,
+EN LA CALDERA, ASÍ COMO EN CADA TRANSACCIÓN.
+
+7-ESTE NÚMERO INDICA LA CANTIDAD DE ANTRACITO QUE SE POSEE. SOLO SE UTILIZA
+LA CALDERA CARGA Y ES MEJOR COMBUSTIBLE.
+
+8-INDICA LA VELOCIDAD EN KM/H
+
+LA LOCOMOTORA
+EXPLICACIONES PRELIMINARES:
+LA CHIMENEA DE CARBÓN CALENTA EL AGUA DISTRIBUIDA A LA CALDERA.
+A PARTIR DE 100C, EL AGUA hierve y la presión comienza a subir. A FALLAR
+AVANCE EL TREN, SE REQUIERE PRESIÓN MÍNIMA. LA VELOCIDAD DEL TREN ES FIJA 
+POR EL JUGADOR, DEPENDIENDO DE LA POSICIÓN DEL REGULADOR. CONSUMO 
+DE ENERGÍA SERÁ FUNCIÓN DE LA VELOCIDAD Y MASA DEL TREN.
+CUANTO MÁS RÁPIDO Y PESADO SEA MÁS ENERGÍA Y POR TANTO CARBÓN CONSUMIRA.
+
+DESCRIPCIÓN:
+1-EL RECEPTÁCULO (LADO IZQUIERDO):
+MENSAJE RECOPILADO DEL OPERADOR DE RADIO HQ, QUE SE COMUNICA CON EL
+DIFERENTES ESPÍAS DISPERSADOS POR EL MUNDO. SI HAY UN MENSAJE PRESENTE
+EN ESTE RECEPTÁCULO, HAGA CLIC EN ÉL, ELLOS
+LA INFORMACIÓN APARECERÁ EN UN CUADRO EN LA PARTE INFERIOR DE LA PANTALLA.
+HAGA CLIC OTRA VEZ PARA DESAPARECER EL MARCO. UN ANILLO
+SOÑARÁ CON CADA NUEVO MENSAJE RECIBIDO
+
+2-LA CHIMENEA SÓLO SE ANIMA SI EL CARBÓN SE ARDE EN EL INTERIOR.
+
+3- AL HACER CLIC POR PRIMERA VEZ EN EL CARÁCTER IZQUIERDO EMPIEZA
+PARA CARGAR LIGNITO EN LA CHIMENEA. UN SEGUNDO CLIC ACELÉRATE
+CARGANDO
+Y UN TERCERO LO DETIENE.
+NO ES NECESARIO PONER CARBÓN PERMANENTEMENTE EN EL
+AL CONTRARIO, UNAS PALADAS PUEDEN SER BASTANTES PARA AVANZAR
+EL TREN POR MUCHO TIEMPO. ADEMÁS, PUEDES EXPLOTAR
+LA CALDERA.
+4-(PERSONAJE DERECHO) MISMO PRINCIPIO, EXCEPTO QUE ES ANTRACIDAD
+QUIÉN SE COBRA EN EL HOGAR.
+
+5-(VOLANTE DEL CONDUCTOR DEL TREN), AL HACER CLIC EN ÉL, UN CAMBIO
+EL TREN ARRANCARÁ. EL TREN SE PARARÁ POR UN MOMENTO.
+
+6-(PALANCA A LA DERECHA DEL CONDUCTOR), ESTE ES EL FRENO.
+
+7-(EL CONTROLADOR ARRIBA DEL CONDUCTOR), ES EL SILBATO.
+
+8-(LA LÁMPARA ROJA), ES LA ALARMA QUE SE ENCIENDE SI EL VIGILANTE
+VER ALGO.
+
+9-(EL PANEL CON LUZ)=ACCESO AL PANEL DE CONTROL.
+
+PANEL DE CONTROL
+
+A LA DERECHA: ESTE MANÓMETRO MIDE LA PRESIÓN EN LA CALDERA. MÁS ALLÁ
+EL GUIÓN ROJO PODRÍAS HACERLO EXPLOTAR.
+
+EN EL MEDIO: LA VELOCIDAD DEL TREN EN KM/H
+JUSTO ABAJO: INDIQUE LA PRESIÓN EN LOS PISTONES. ESTA PRESIÓN
+LÍMITE A 300.
+DERECHA: ESTE TERMÓMETRO MUESTRA LA TEMPERATURA DENTRO DEL
+CALDERA.
+
+EN LA PARTE SUPERIOR, EL REGULADOR ES EL ÚNICO ELEMENTO AJUSTABLE. AL HACER CLIC EN
+LUGAR DE LA VARILLA, SE COLOCA LA PEQUEÑA PALANCA QUE INDICARÁ
+ENTRENA LA VELOCIDAD QUE DEBE ALCANZAR. SI EL CONTROLADOR ESTÁ A LA IZQUIERDA, EL
+LA VELOCIDAD TENDRÁ A 0, SI ES A LA DERECHA LA VELOCIDAD TENDRÁ A
+SONIDO MÁXIMO: 300
+
+HAGA CLIC EN SALIR PARA SALIR.
+
+EL VAGÓN PRIVADO
+
+TENEMOS
+EL INVENTARIO
+SI HAZ CLIC EN EL PERSONAJE, UN INVENTARIO COMPLETO DE LA TRANSARTICA
+ESTARÁS PRESENTE.
+
+RESPALDO
+AL HACER CLIC EN EL LIBRO DE LA TABLA, PUEDES GUARDAR CUANDO
+LO QUIERES, Y TANTAS VECES COMO QUIERAS.
+
+SUICIDIO
+AL SELECCIONAR EL REVOLVER SITUADO SOBRE LA MESA, PUEDES, PRESIONANDO
+AL GATILLO TE SUICIDAS Y REGRESAS A LA PÁGINA DE
+OPCIONES.
+
+LA SEDE
+
+LAS PARADAS, ABAJO IZQUIERDA
+EN CUANTO A LA LOCOMOTORA, PUEDES OBTENER INFORMACIÓN SELECCIONANDO
+EL MENSAJE ACTUAL.
+
+LA TARJETA
+ENB AL HACER CLIC EN EL MODELO, UN MAPA GENERAL DE TODO EL PLAYFIELD DE LA APP
+SE MIRARÁ EN LA IMAGEN. PUEDES SELECCIONAR CUALQUIER LUGAR DEL MUNDO.
+
+ESPIAR
+ENCONTRARÁS MÁS INFORMACIÓN SOBRE LOS ESPÍAS MÁS ADELANTE.
+A ESTE MENÚ SE ACCEDE HACIENDO CLIC EN EL RADIOPERADOR DE LA IZQUIERDA.
+DOS OPCIONES:
+EN LA PARTE SUPERIOR, ENVIANDO UN ESPÍA. SE MUESTRA EL MAPA. SELECCIONE EL ÁREA
+DONDE QUIERES ENVIAR UN ESPÍA. UNA VEZ QUE ESTA ÁREA ESTÁ EN LA IMAGEN, LA SONRISA
+SE CONVIERTE EN UN PEQUEÑO SÍMBOLO. COLOCARLO EN LA UBICACIÓN EXACTA COMO ESPÍA
+TENDRÁS QUE OBSERVAR, EN LA PISTA, LUEGO HACER CLIC EN EL BOTÓN.EL ESPÍA
+LUEGO SALDRÁ PARA LLEGAR A ESTE PUNTO DE DESTINO. A MEDIDA QUE SE MUEVE 
+COHETE SU VIAJE SERÁ BASTANTE CORTO.
+UNA VEZ LLEGADO, ESTARÁ EN OBSERVACIÓN, Y LES INFORMARÁ DE TODO.
+LO QUE VE. PARA RECUPERARLO TENDRÁS QUE IR A BUSCARLO EN TREN.
+TAMBIÉN PODEMOS ENVIAR ESPÍAS AL PUEBLO, QUIENES LES INFORMARÁN
+SOBRE SU NIVEL DE COMERCIO.
+SALVO EN CASOS ESPECÍFICOS, ES INÚTIL ENVIAR ESPÍAS A OTRA PARTE QUE NO SEA AL
+MANERAS.
+TIENEN CARGA DE DINAMITA PARA EXPLOTAR
+PISTAS O PUENTES.
+ABAJO: DINAMIZACIÓN. EL MAPA SE CENTRA EN EL ESPÍA, QUE SE MUESTRA EN LA IMAGEN
+CON UN ICONO DE SELECCIÓN PARA REALIZAR EL SABOTAJE.
+HAZ CLIC EN ÉL Y EL ESPÍA PROCEDERÁ A DINAMITAR LA PISTA O PUENTE
+EN EL QUE SE ENCUENTRA.
+UNA VÍA DESTRUIDA DETIENE LOS TRENES ENEMIGOS MIENTRAS LLEGAN
+REPARACIÓN. SIN EMBARGO, SI SE DEMULE UN PUENTE, SE HACE INVERSA.
+ESTOS SABOTAJES PUEDEN SER MUY ÚTILES CUANDO ESTÁS SIENDO PERSEGUIDO
+EN TREN
+ENEMIGO MÁS PODEROSO. ENTONCES INTENTA PASAR CERCA DE UNO DE TUS ESPÍAS
+Y EXPLOTA LA PISTA DETRÁS DE TI.
+
+ESTO A VECES PUEDE VOLVER CONTRA USTED SI DESEA TOMAR PRESTADO EL 
+PUENTES QUE HAN DESTRUIDO.
+LOS ESPÍAS PUEDEN REALIZAR UNA Y ÚNICA OPERACIÓN DINAMITADORA, PERO
+SI TU TREN PASA CERCA DE ELLOS, LES DA DINAMITA.
+
+LAS DRAISINAS:
+ESTAS SON PEQUEÑAS MÁQUINAS MUY RÁPIDAS QUE PODEMOS ENVIAR ADELANTE O
+EN LA PARTE TRASERA DEL TREN. ESTE MENÚ ES ACCESIBLE AL HACER CLIC EN
+EL GENERAL EN PRIMER PLANO A LA DERECHA. ESTE MENÚ OFRECE DOS OPCIONES;
+ENVIAR UNA DESAGÜE SIMPLE Y ENVIAR UN DESAGÜE A MISSILE.IL
+DEBES TENER AMBOS POR SUPUESTO (MISILES Y DRENAJE), QUE SON
+COMPRADO EN ALGUNAS CIUDADES COMERCIALES.
+ENTONCES HABRÁ QUE ACORDAR LA DIRECCIÓN DEL DESAGÜE (DELANTERO, TRASERO DEL 
+TREN). LUEGO PUEDES SEGUIR SU CAMINO HASTA SU EXPLOSIÓN.
+SI SE DETIENE PROGRESIVAMENTE ANTES DE EXPLOTAR, ENTONCES NO TIENE NADA
+ENCUENTRO EN SU RUTA, DE LO CONTRARIO ES QUE EL KKE HA PASADO POR UNA RUTA MINADA
+O QUE SE HA TOCADO CON UN OBSTÁCULO (TREN ENEMIGO, BARRAJE DEL PUEBLO
+BÁRBAROS...).
+ENVIAR DRAISINE TE PERMITE PROBAR LAS PISTAS, PARA VER SI EL ENEMIGO
+NO TE ENCUENTRAS ALLÍ Y A VECES INCLUSO TRAZAS UN CAMINO DESCONOCIDO.
+SI VA ACOMPAÑADO DE UN MISILES, ESTE PODRÍA DEspejar un camino
+SUBTERRÁNEO PROHIBIDO POR BÁRBAROS O CAUSANDO DAÑOS SIGNIFICATIVOS 
+A UN ENEMIGO.
+
+EL LANZADOR DE MISIL
+PARA COMPRAR EN UNA CIUDAD.
+AJUSTE DE FUEGO
+SE DEBEN REALIZAR DOS AJUSTES DE DISPARO, ORIENTACIÓN Y DISTANCIA.
+LA ORIENTACIÓN SE INDICA EN LA BARRA IZQUIERDA (N =90 GRADOS, NE=45..)
+LO POSICIONAS GRACIAS A LOS DOS PEQUEÑOS BOTONES AJUSTABLES A ESTE
+BAR. SELECCIONAS LA DISTANCIA EN EL MEDIDOR HACIENDO CLIC SOBRE ÉL EN
+LAS CIFRAS. AL TENER UN SENSOR DE INFRARROJOS MUY POTENTE, EL MISIL
+ES ATRAÍDO POR FUENTES DE CALOR. POR LO TANTO NO ES NECESARIO SER PRECISO
+A LA PRESCRIPCIÓN DE LOS KM SE IMPONE UNA DISTANCIA MÍNIMA.
+
+FALSO
+EL DISPARO SE REALIZA EN DOS PASOS, ARMAMOS SELECCIONANDO EL
+HONGO IZQUIERDO LUEGO DISPARAMOS CON EL DERECHO.
+ENVIAR UN MISIL SÓLO EXPLOTARÁ LOS TRENES ENEMIGOS.
+EL NÚMERO DE TRENES ENEMIGOS ES LIMITADO EN EL JUEGO, UN MISIL QUE
+ALCANZAR SU OBJETIVO TE LIBERA DE POTENCIALES AGRESORES.
+
+EVENTOS.
+LOS NÓMADAS
+SON COMERCIANTES ITINERANTES, QUE TRANSPORTAN MUY MUY PRODUCTOS
+RAROS Y MUY BUSCADOS: MUEBLES DE LOS ANTIGUOS TIEMPOS.
+QUIERES COMPRARLO CON ELLOS, EL MENÚ ES IDÉNTICO AL DE LAS ESTACIONES
+DE TRIAJE.
+
+LAS TROPAS DE MAMUT
+ES MUY COMÚN ENCONTRARLOS. EL RESULTADO DE LA CAZA
+SERÁ FUNCIÓN DEL NÚMERO DE RABBADORES QUE TENGA (ESCLAVOS, SOLDADOS)
+Y ESPACIO DISPONIBLE EN LOS VAGONES DE GANADO.
+
+LAS HORDAS:
+ESTAS SON MANADAS GIGANTES DE LOBOS HAMBRIENTOS. ELLOS ATACAN
+A LOS TRENES Y CAUSAR MUCHOS DAÑOS A LOS COCHES DE GANADO,
+EN LAS FILAS DE ESCLAVOS Y SOLDADOS.
+
+HOMBRES TOPO:
+SUS ANCESTROS FUERON TRABAJADORES QUE TRABAJABAN
+A LAS CONSTRUCCIONES DE VÍAS SUBTERRÁNEAS. CON EL TIEMPO SE ACOSTUMBRARON
+AL CALOR DE LA TIERRA Y PREFIRIÓ PERMANECER EN LA OSCURIDAD.
+SON CANÍBALES. ATACAN TRENES PARA ALIMENTAR Y LLEVAR
+MUJERES PARA ASEGURAR A SUS DESCENDIENTES..MAL ORGANIZADAS
+A VECES ESTÁN MALDITOS PORQUE SON NUMEROSOS Y NO TIENEN MIEDO
+MORIR. UNA BOMBA DE DRENAJE ES SUFICIENTE PARA VOLAR SUS PRESAS.
+
+LAS PISTAS DESTRUIDAS
+PARARÁN EL TREN. PARA REPARARLOS DEBES TENER
+VIGAS. EL TIEMPO DE REPARACIÓN DEPENDERÁ DE SU CAPACIDAD
+DE CONSTRUCCIÓN (NÚMERO DE ESCLAVOS, MAMUTOS Y GRÚAS).
+
+CORTAR PISTAS
+CONSTRUIR UN PUENTE REQUIERE MÁS MEDIOS QUE DISTRIBUIR UN PUENTE
+MANERA, EL PRINCIPIO ES EL MISMO.
+
+PUNTOS DEL ESCENARIO
+PODRÍAN LLEVARTE A DESCUBRIR ESTE O AQUEL LUGAR, A CONOCER
+VARIOS PERSONAJES...
+
+LA TARJETA
+
+DOS MAPAS GLOBALES Y DETALLADOS.
+MAPA MUNDIAL
+ACCEDEMOS A TRAVÉS DE LA SEDE, HACIENDO CLIC SOBRE EL MODELO.
+SI MUEVE EL RATÓN ENCIMA DEL PANEL DE CONTROL, SE
+TRANSFORMADO EN LUPA. LUEGO PUEDES SELECCIONAR CUALQUIER
+PARTE DEL TREN DE JUEGO. LAS COORDENADAS X E Y DEL CENTRO DE LA LUPA
+SE INDICAN ABAJO Y A LA DERECHA DE ESTE.
+EN EL PANEL DE CONTROL, HAY 4 ICONOS DE ACCIÓN DISPONIBLES.
+EL MAPA CENTRADO EN EL CAMPO
+SALIR
+LA RUEDA QUE PERMITE CAMBIAR EL DIRECCIÓN DEL TREN
+EL FRENO
+
+LOS PEQUEÑOS MARCOS AZULES REPRESENTAN LAS CIUDADES
+LAS CALAVERAS SIMBOLIZAN LOS ALMACENES ENEMIGOS DE DONDE
+SALEN LOS TRENES DE VIKING UNION
+LOS PEQUEÑOS CIRCUITOS CON DOS FLECHAS REPRESENTAN LOS TALLERES
+LAS VÍAS PUNTEADAS SON LAS VÍAS SUBTERRÁNEAS, ESTOS SENDEROS PERMITEN
+A DOBLAR LA VELOCIDAD, PERO ESTÁN HABITADOS POR HOMBRES TOPO.
+LOS PUNTOS ROJOS INDICAN MINAS. SI PARPADEAN, SON MINAS
+ESTÁN ABIERTOS, DE LO CONTRARIO ESTÁN AGOTADOS.
+LA TRANSARTICA ESTÁ SIMBOLIZADA EN EL MAPA POR UNA PEQUEÑA LOCOMOTORA.
+LA FLECHA MUESTRA SU DIRECCIÓN.
+
+MAPA DETALLADO
+LOS ICONOS SON CASI IDÉNTICOS AL MAPA GENERAL.
+PARA DESPLAZAR LA TARJETA, SOLO COLOQUE EL RATÓN COMPLETAMENTE
+ARRIBA, ABAJO...
+PUEDES CAMBIAR LOS DESVÍOS, SOLO HAZ CLIC SOBRE ELLOS.
+CAMBIAN DE POSICIÓN CON CADA CLIC. LOS DRAISINES TOMARÁN PRESTADO EL#
+PUNTOS VISIBLES EN LA PANTALLA. SIN EMBARGO, LOS TRENES ENEMIGOS SEGUIRÁN
+CUALQUIERA DE LAS SUCURSALES.
+LA INFORMACIÓN ESTÁ DISPONIBLE SOBRE LAS CIUDADES, SOLO HAGA CLIC
+EN ÉL Y SIGUE PRESIONANDO.
+NOTA: 1 UNIDAD = 70 KM
+SI LAS UNIDADES MÓVILES (TRENES, LOBOS, etc.) SON VISIBLES
+POR EL VIGIE SE INDICA EN EL MAPA Y SE DA LA ALERTA EN EL
+TRANSARTICA. EXISTEN VARIOS TIPOS DE VAGONES VIGIE QUE PERMITEN
+PARA VER MÁS ALLÁ. AL PRINCIPIO NO TIENES NINGUNO, POR LO QUE TU VISIÓN ES
+MUY REDUCIDO. UNA PISTA DESTRUIDA ESTÁ REPRESENTADA POR UN AGUJERO NEGRO.
+
+LUCHAS DE TREN:
+LOS TRENES DE VIKING UNION SE QUIEREN DE SU CAMINO CON EL TIEMPO.
+CUANDO LA TRANSARTICA CRUZA UNO DE ESTOS TRENES, EL JUEGO ENTRA EN
+FASE DE LUCHA DE TREN, DONDE LOS DOS TRENES SE ENFRENTAN CARA A CARA EN DOS 
+MANERAS.
+
+EL TREN ENEMIGO ESTÁ ARRIBA, EL TUYO ESTÁ ABAJO.
+LA LUCHA SE REALIZA EN TIEMPO REAL, PUEDES DESPLAZAR LA IMAGEN EN
+COLOCAR EL RATÓN A LA DERECHA O IZQUIERDA DE LA PANTALLA.
+LA MISMA BARRA QUE EN EL PANEL DE CONTROL REPRESENTA TODOS
+LOS VAGONES DEL TREN ESTÁN DISPONIBLES. EN CUANTO AL PANEL DE CONTROL
+PUEDES HACER QUE SE DESPLACE HACIENDO CLIC EN LAS FLECHAS DERECHAS 
+Y LOS CRUCES DE IZQUIERDA SE INSTRUYEN EN LOS VAGONES INDICANDO SUS TARIFAS
+DE DESTRUCCIONES (3 CRUCES = VAGONES DESTRUIDOS). MÁS SI EL VAGÓN
+ES ATACADO POR SOLDADOS, UN PEQUEÑO TRIÁNGULO SÍMBOLO DE LA UNIÓN
+VIKIN SERÁ EXHIBIDO EN EL VAGÓN.
+SI SELECCIONAS UN VAGÓN, LA IMAGEN SE CENTRÁ EN ÉL.
+DEBAJO DE LA BARRA DEL TREN TIENES TRES ICONOS:
+EL FRENO
+LA PISTA SE DETIENE AL MOMENTO A LA DERECHA Y A LA IZQUIERDA 
+EL INVERSOR DE DIRECCIÓN
+REGRESAR A LA ÚLTIMA POSICIÓN ACTIVA.
+
+UN SOLDADO EN LA IMAGEN REPRESENTA UN GRUPO DE VARIOS SOLDADOS.
+LOS SOLDADOS QUE PARTEN ESTÁN EN VAGONES DE CUARTEL. PARA EL
+SALIR, HACER CLIC EN EL VAGÓN DEL CUARTEL. ENTONCES APARECE UN PANEL
+INCLUYE UNA FLECHA DE ICONOS MÁS Y MENOS Y UN NÚMERO 
+CORRESPONDIENTE AL NÚMERO DE SOLDADOS PRESENTES EN ESTE VAGÓN. SI SELECCIONAS
+DE LA FLECHA SALDRÁN TODOS LOS SOLDADOS.
+SI DESEA DEJAR SOLDADOS EN EL VAGÓN, AJUSTE EL NÚMERO
+DE SOLDADOS CON LOS TERMINALES + O -.
+TU SOLDADO CAMINA EN LA PANTALLA. SI LO SELECCIONAS
+APARECERÁ UN PANEL DE CONTROL MÁS COMPLETO.
+INCLUYE LOS MISMOS ICONOS + O -, EL NÚMERO DE SOLDADOS, 8 DIRECCIONES
+Y UNA POSICIÓN DE PARADA. SI ELIGES UNA DIRECCIÓN, EL GRUPO
+IRÁ EN ESTE. LA DIRECCIÓN DEL GRUPO ESTÁ ENCENDIDA EN EL PANEL DE CONTROL.
+TAMBIÉN SE PUEDE SEPARAR EL GRUPO UTILIZANDO LOS TERMINALES + O -.
+UN GRUPO DE SOLDADOS AVANZARÁ EN LA DIRECCIÓN DADA HASTA QUE
+ENCUENTRA UN OBSTÁCULO. SI ES UN GRUPO ENEMIGO, EMPIEZA LA LUCHA,
+RESULTADO BASADO EN LAS FORTALEZAS DE CADA UNO.
+AL SER UN GRUPO ALIADO, PODRÍAMOS UNIRNOS LOS DOS GRUPOS.
+UN SOLDADO TAMBIÉN SE DETIENE CUANDO SE ENCUENTRA CON EL TREN ENEMIGO.
+SELECCIONALO Y MUÉVELO EN EL VAGÓN, ENTONCES EL SOLDADO SE SUBIRÁ 
+EL TECHO DEL VAGÓN, AÚN EN MOVIMIENTO.
+LUEGO PUEDE MOVERSE POR LOS TEJADOS Y EXPLOTAR LOS VAGONES
+COLOCANDO DINAMITAS. PARA HACER ESTO, HAGA CLIC EN EL SOLDADO Y SU
+EL PANEL DE CONTROL APARECERÁ EN LUGAR DE SUBIR
+LOS ICONOS DE COLOCACIÓN DE DINAMITA ESTARÁN A LA DERECHA O A LA IZQUIERDA.
+LA DINAMITA SOLO EXPLOTA DESPUÉS DE UN TIEMPO. DURANTE ESTE PERIODO EL
+SIN EMBARGO, LOS PROPIETARIOS DE LOS TRENES INTENTARÁN APAGAR LA DINAMITA
+LOS ATACANTES NO PODRÁN CRUZAR LA DINAMITA.
+LA DINAMITA DESTRUYÓ TANTO EL VAGÓN COMO TODOS LOS SOLDADOS QUE DENTRO DE ALLÍ
+ARRIBA...ES PREFERIBLE DESTRUIR SÓLO OBJETIVOS DE VAGONES MILITARES.
+EL MAMUT NO SE MUEVE EN GRUPO. LO CONSIDERAMOS
+SOLO. PARTEN EN LOS VAGONES DE GANADO. EL MAMUT NO
+PARA PODER SUBIR AL TREN, LOS SOLDADOS DEBEN ATERRIZAR EN ESTE.
+EL MAMUT ES MÁS RÁPIDO QUE LOS SOLDADOS Y ES MUY FUERTE.
+PARA UTILIZAR CONONES Y AMETRALLADORAS DEBES HACER CLIC SOBRE ELLOS.
+EL CAÑÓN DISPARA AL VAGÓN DE ENFRENTE. TOMA UN TIEMPO ENTRE CADA DISPARO
+PARA RECARGAR. PUEDEN SER NECESARIOS MÚLTIPLES PROYECTOS PARA DESTRUIR UN VAGÓN
+EL BOUDOIR, EL HQ Y LA LOCOMOTORA ESTÁN PESADAMENTE BLINDADOS. SI PIERDES UNO
+DOS, HAS PERDIDO. DESTRUIR LA LOCOMOTORA OPONENTE BLOQUEA EL TREN.
+LA AMETRALLADORA DISPARA DIRECTAMENTE FRENTE A ELLA. SU OBJETIVO ES ANILITAR
+TROPAS EN TIERRA. TENGA CUIDADO DE NO DISPARAR A SUS SOLDADOS.
+
+EL BOTÍN DEPENDE DEL VALOR DE MERCADO DEL ENEMIGO ENTRENATE
+HAN VICTED Y SU TASA DE DESTRUCCIÓN.
+
+LAS UBICACIONES:
+LA CIUDAD
+LE PERMITE COMERCIAR Y TENER INFORMACIÓN.
+PARA COMPRAR PRODUCTOS DEBES TENER COCHES DISPONIBLES.
+
+LAS FÁBRICAS:
+ESTAS CIUDADES SE UTILIZAN PARA COMPRAR NUEVOS TIPOS DE VAGONES (20 TIPOS
+DIFERENTE).
+
+FERIAS DE MAMUT:
+UTILIZADO PARA COMPRAR O VENDER MAMUTES.
+NECESITAMOS TENER VAGONES DE GANADO.
+
+MERCADOS DE ESCLAVOS:
+MISMOS TIPOS QUE MAMMOUTH, LOS VAGONES PRISIONEROS SE UTILIZAN PARA TRANSPORTAR
+LOS ESCLAVOS...
+
+LOS CUARTELES
+UTILIZADO PARA COMPRAR ESPÍAS O SOLDADOS.
+LOS ESPÍAS NO CUESTAN NADA PERO NECESITAS TENER UN VAGÓN ESPÍA
+
+LOS TALLERES
+TU PUEDES
+DESTRUIR UN VAGÓN QUE YA NO ES ÚTIL
+REPARAR UN VAGÓN
+MODIFICAR EL ORDEN DE DISPOSICIÓN DE VAGONES
+
+MINAS
+DOS TIPOS DE MINAS
+LIGNITO Y ANTRACITA
+EL RESULTADO DE LA PROSPECCIÓN DEPENDE DE LOS MEDIOS IMPLEMENTADOS
+MAMOT, ESCLAVOS, GRÚAS, ETC....
+
+
+DOC CASI COMPLETO TIPIFICADO POR SPA 160 GRACIAS A LAURENZO...
+CON AYUDA DEL CIGARRILLOS Y LA COCA...

@@ -1,0 +1,1921 @@
+                            Omnitrend's
+                         -=*> PALADIN <*=-         
+                              """""""
+                          Owner's  Manual
+============================================================================
+
+                         TABLE OF CONTENTS
+                         """""""""""""""""
+    BEFORE YOU PLAY...                     Delete...
+  1 Back-up Those Disks!                   Save
+    Problems Running Paladin               Close
+    Limited Media Warranty              15 Quit
+    Limited Software Warranty              Preface
+  2 Playing Notes                          Victory Conditions
+                                           Quest Status
+    PLAYING PALADIN
+  3 Notes                                  YOUR PARTY MEMBERS
+    Starting Paladin                    16 Basic Characteristics
+    Security Check                      17 Movement
+    Starting a New Game                 18 Combat
+  4 Order of Play                       19 Magic
+    Movement Points                     20 Types of Members
+  5 Deploying Your Party
+    Encumbrance                            THE OPPONENTS
+  6 Preface                             21 Basic Characteristics
+    Victory Conditions                     Fighters
+    Making New Paladins                    Dragons
+    Chaining Between Quests                Trolls
+  7 Quest Status                        22 Zombies
+    Fighting the Enemy                     Sorcerers
+    Improving Your Paladin                 Spirits
+  8 Saving a Game in Progress
+    Closing Without Saving                 OBJECTS AND THEIR USES
+    Quitting Paladin                    23 Encumbrance Points
+                                           What They Are and Their Use
+    THE BATTLE DISPLAYS
+  9 The Combat Window                      TERRAIN
+    The Statistics Window               26 Interior Terrain
+    Countdown Timer                        Exterior Terrain
+    Wideview Display                       Special Terrain
+                                        27 Terrain Table
+    THE ICONS
+ 10 Drop Object                            QUEST BUILDER
+    Use Stairway                        28 File Menu
+    Take Object                            Map Menu
+ 11 Use Object                             Level Menu
+    Open Door                           29 Palette Menu
+ 12 Swing Sword                            Info Menu
+ 13 Cast Spell                             Chaining Between Quests
+    Next Button                         30 Thread Menu
+    Change Scale Button                    Party Menu
+                                           Importing Breach Squad Leaders
+    THE MENUS                              Other Functions/Design Notes
+ 14 About Paladin...
+    New                                 32 IBM KEY GUIDE
+    Resume...                           34 THE QUESTS
+
+=============================================================================
+
+Back-up Those Disks!
+
+Omnitrend's Paladin is not copy protected and we encourage you to back-up
+ your disks prior to 
+play. In fact, if you haven't done so already, now would probably be a good 
+ time!
+
+Problems Running Omnitrend's Paladin
+
+Should you experience a problem in running this software on your computer,
+ Omnitrend Software, Inc. provides 
+telephone assistance several times per week. Call (203) 658-6917 for the 
+ current assistance schedule. We regret
+that we cannot answer any questions regarding the play of the game or
+ provide hints.
+
+Should you run across a bug in the program, please drop us a note. Be sure
+ to include the version number of the 
+game (this can be found on the "About Paladin..." dialog box) as well as a 
+ description of the computer you are 
+using. All correspondence regarding the game should be mailed to:
+
+               Omnitrend Software, Inc.
+               MailStop 201
+               PO Box 733
+               West Simsbury, CT 06092
+
+Limited Media Warranty
+
+Omnitrend Software, Inc. warrants all media for a period of ninety (90)
+ days from the date of purchase. Should 
+you experience a problem within that period, return the defective disk along 
+ with dated proof-of-purchase.
+Should you have a problem out of warranty, Omnitrend Software, Inc. will
+ replace a defective disk for $6.00. We 
+regret that we will be unable to return any packing materials you use to 
+ ship your disk.
+
+Defective disks should be returned to:
+               Omnitrend Software, Inc.
+               MailStop 200
+               PO Box 733
+               West Simsbury, CT 06092
+
+Omnitrend Software, Inc. will not be responsible for replacing free of charge
+ media within warranty that has been 
+subjected to misuse, damage, or excessive wear.
+
+Limited Software Warranty
+
+This software and the enclosed manual are sold "As is" without warranty to
+ their performance. The entire risk as 
+to the results and performance of the program is assumed by you.
+
+The Limited Software Warranty is the only warranty of any kind, either
+ expressed or implied, including but not 
+limited to the implied warranties of merchantability and fitness for a 
+ particular purpose that is made by
+Omnitrend Software, Inc.
+
+Neither Omnitrend Software, Inc. nor anyone else who has been involved in
+ the creation, production, or delivery 
+of this program shall be liable for any direct, indirect, consequential, or 
+ incidental damages arising out of the 
+use, the results of use, or inability to use such product even if Omnitrend 
+ Software, Inc. has been advised of the 
+possibility of such damages or claim. Some states do not allow the exclusion
+ or limitation of liability for 
+consequential or incidental damages, so the above limitation may not apply 
+ to you.
+
+                                  - 1 -
+=============================================================================
+
+Atari ST Notes
+
+Yuor computer must be in the low resolution mode in order to play.
+
+Due to bugs in some versions of the ST's operating system, use of the
+ underscore character when 
+entering file names will cause the computer to crash.
+
+To play Omnitrend's Paladin with only one disk drive, copy a quest (.QST)
+ file and a paladin 
+(.PAL) file from the Quest Disk to the Program Disk before playing. You 
+ cannot swap the 
+Program and Quest disks when playing Paladin on one disk drive.
+
+To copy files from the GEM desktop with only one disk drive, do the
+ following:
+
+1) Insert the source disk in the disk drive. Double-click on the Floppy
+ Disk A icon and select the 
+file you want to copy by clicking on it and keeping the mouse button held 
+ down.
+
+2) With the button still held down, drag this file icon onto the Floppy
+ Disk B icon and release the 
+button. GEM will begin reading the file from the source disk.
+
+3) When GEM asks you for Disk B, insert the destination disk. GEM may ask
+ for either disk 
+several times before the copy is complete.
+
+Macintosh Notes
+
+The Paladin program will run automatically when you boot the disk.
+
+Use the "Quit to Quest" option in the Paladin program to run the Quest
+ Builder.
+
+Amiga Notes
+
+When you are using the file selector box to enter the name of a file to
+ save a paladin, quest, or 
+saved game, click the mouse pointer on the file field (the rectangular box 
+ to the right of the word 
+"file") and type the name you wish to give the file. (Ex.: GAME16)
+
+When running Omnitrend's Paladin with only 512K, some sound effects will
+ not be heard.
+
+IBM Notes
+
+The IBM version of Omnitrend's Paladin requires DOS 3.0 or higher.
+
+                                  - 2 -
+=============================================================================
+
+Notes
+
+Whenever the manual refers to "the mouse button", and your mouse has more
+ than one button, use 
+the left-hand button. Omnitrend's Paladin only uses the left-hand button.
+
+"Clicking" means "press the mouse button". "Shift-click" means "hold down
+ one of the shift keys 
+and press the mouse button at the same time".
+
+The "current member" referred to thoughout the manual is the member who
+ appears in the center 
+of the Combat Window and whose statistics appear in the Member Statistics 
+ Window.
+
+Starting Omnitrend's Paladin
+
+To play Omnitrend's Paladin, boot up the Paladin Program Disk and
+ double-click the "PALADIN" 
+icon (Paladin will come up automatically on the Macintosh). When the program
+ finishes loading, 
+the Paladin title screen will appear. To continue, click the mouse or press
+ any key on the keyboard.
+
+To start the IBM version of Omnitrend's Paladin, boot up the computer under
+ DOS 3.0 or higher. 
+Insert the Paladin disk and type "PALADIN" at the prompt.
+
+Security Check
+
+In order to play Omnitrend's Paladin, you must correctly complete a
+ security check. To complete 
+the security check, enter the word from this manual whose location is given
+ by the dialog box. 
+"Words" are any string of characters with a space or punctuation at either
+ end. Once you have 
+entered the correct word, the program will continue.
+
+Starting a New Game
+
+Select "New..." from the Quest menu. An item selector box will appear. All
+ of the names that 
+appear are 'quest files'. These quest files contain all the data for your
+ party, the opponents, and 
+maps of the combat area. What you are going to create is a 'game file'. This
+ is a combination of a 
+quest file and a 'paladin file'. More on the paladin file later.
+
+Once you have selected a quest file, the quest item selector box will be
+ replaced by a paladin 
+selector box. This is where you select the paladin for your game. A sample
+ paladin 
+"BRANDON" is included with your game. Later on, you'll probably want to
+ create a paladin of your own.
+
+                                  - 3 -
+=============================================================================
+Now you have to name the game file in which your current game is going to
+ be stored.
+
+Once you have done this, the program will save the new game to the disk and
+ your game will
+start.
+
+Important -  When a game file is created, it erases the paladin file you have
+ selected and 
+incorporates it into the game file.  This ensures that the paladin file
+ can be used only by one quest 
+at a time. The only ways to recover the paladin file are to win the game in
+ progress or delete the quest with the "Delete..." menu entry. Deleting a
+ game file outside of the game will also erase 
+the paladin file which has  been incorporated into it.
+
+Order of Play
+
+Game play in Omnitrend's Paladin alternates between moving your own party
+ members and the
+computer moving its opponents.
+
+The enemy combat phase will not begin until you shift click the Next icon
+ or all of your party
+members use up their movement points.
+
+Player Phase - Each round begins with the player having the option to move
+ all, some , or none of his members.  You can move a member until he runs
+ out of movement points or you click the 
+Next icon.
+
+To Start the Enemy Combat Phase - shift click the Next icon.  If all of your
+ members have used 
+up their movement points for the round, the computer will automatically
+ enter the Enemy Phase.
+
+Each Player Phase takes 30 seconds of game time.
+
+Enemy Phase - When the enemy attack phase begins, the member statistics 
+ window will
+change its title to "Attacks" and the legend "Enemy Movement..." will appear.
+
+Enemy troops appear in the combat window only when they are attacking your
+ men.
+
+At the end of the enemy phase, the player phase begins again.
+
+Movement Points
+
+Each member is given a certain quantity of movement points (mp).  All of the
+ member activities 
+except for changing the view scale (more on that later) take up a certain
+ number of points.  For 
+example, moving onto a clear terrain square costs 2 mp, while swinging a
+ sword takes 3 mp.  The 
+combat activiites such as taking an object, swinging, moving, and using an
+ object can all be 
+mixed at your discretion during the same turn.
+
+                                  - 4 -
+=============================================================================
+
+If you do not have sufficient mp for the activity you want to perform, the
+ computer will inform 
+you with an alert box.
+
+If all of the mvement points for the current member have been exhausted, the
+ program will
+automatically advance to the next member in the party.
+
+Movement points for each member are based on:  the member's character class,
+ the vitality of the 
+member, and the member's current encumbrance.
+
+Deploying Your party
+
+The members in your party always enter the quest through the entry
+ pentagram. The entry
+pentagram must be clear in order for your members to enter.  If a member is
+ unable to enter, the
+program will jump to the enemy combat phase.
+
+You can continue moving a member until he runs out of movement points, gets
+ stunned, or you 
+click the Next icon.  Each time you click Next, the program will advance to
+ the next member in 
+the party who is in the combat zone, is not stunned, and has at least one
+ movement point.
+
+In addition, you can make any member who is visible in the combat window the
+ current member 
+by holding down the Alternate key and clicking on the desired member.
+ (Macintosh players should 
+use the Option key instead of the Alternate key.)
+
+If wands of detection and rings of farsight are available, use them
+ whenever possible. By saving
+time searching for your objects, you raise the odds of successfully
+ completing your quest.
+
+Encumbrance
+
+There are thirteen different types of objects which 
+may be found in a quest. Each of those objects has 
+an encumbrance value.  Encumbrance is a measure 
+of the object's bulk.  Obviously, the bulkier the 
+type of object, the fewer of them the member may 
+carry.
+
+Carrying a large number of encumbrance points has 
+two disadvantages. One ,the weight reduces the 
+number of available mp's per turn. Two, members 
+carrying a large quantity of encumbrance points are 
+more likely to be selected as a target by enemy 
+forces.
+
+                                  - 5 -
+=============================================================================
+
+Preface
+
+The preface is a short description of your quest.
+
+Prefaces usually include information as to the type and strength of enemy 
+ you will be fighting and 
+hints as to the location of any quest objectives.
+
+Victory Conditions
+
+The victory conditions are:
+
+Rescue prisoners - You must rescue all of the prisoners in the quest if
+ this is one of the victory 
+conditions.
+
+Obtain Scrolls - This works the same way as rescue prisoners.
+
+Exit cobat zone - All of the members in your party must find and use the exit
+ pentagram if this 
+is one of the victory conditions.
+
+Kill n% opponents - At least n% of the opponents in the quest must be
+ killed if this is one of the 
+victory conditions.
+
+Quest time limit - All of the other victory conditions in the game must be
+ satisfied before the 
+time limit expires.  All quests have a time limit.
+
+All of the victory conditions are non-exclusive, that is, more than one may 
+ be in effect for a given 
+quest.  Thus, in order to complete a quest you may have to rescue prisoners
+ and move all of the 
+party's members through the exit pentagram before the time limit expires.
+
+Making New Paladins
+
+If your party meets a strong foe and your Paladin is killed, you will need
+ to create a new one. To
+create a new paladin, run the Quest Builder program and select "New
+ Paladin..."
+
+Chaining Between Quests
+
+Some quests lead directly into others. That is, when all of the surviving
+ members of your party
+have departed through the exit pentagram and you have successfully
+ completed the quest, Paladin
+automatically brings you to the next quest and creates a game file for you
+ under the same name as
+your previous quest.
+                                  - 6 -
+=============================================================================
+
+There are two different ways Paladin may chain between quests. If the next
+ quest has members for
+your party already created, your current party will be replaced by the new
+ one. If the next quest
+does not have any members for your party, then all of the surviving party
+ members from your last
+quest are carried over into the new quest. Their health and vitality remain
+ the same. None of the
+objects they are carrying will be transferred to the new quest.
+
+Quest Status
+
+By using the Quest Status function, you can tell which victory conditions
+have been satisfied and 
+which need more work.
+
+The possible status displays are:
+
+  Victory Condition          Complete                  Incomplete
+----------------------------------------------------------------------------
+Rescue Prisoners      All prisoners recovered   Not all prisoners recovered.
+Obtain Scrolls        All scrolls recovered     Not all scrolls recovered.
+Kill n%  Opponents    Kill objective completed  More casualties needed.
+
+Fighting the Enemy
+
+If the enemy is using orbs of fire or fireballs, avoid clustering your
+ members. Try to keep at least 
+one square between each one.  This way, you avoid having three or four 
+ casualties from a single blast.
+
+Conversely, orbs of fire and fireballs are most effective against clusters
+ of the enemy. Unless you 
+have a large quantity of orbs of fire or fireballs, it is wisest not to
+ "waste" these weapons against 
+single targets.
+
+Improving Your Paladin
+
+Your overall objective is to improve your paladin.  You do this by
+ successfully completing 
+quests.
+
+The more active a paladin is, the more likely he will see some kind of
+ improvement at the end of a 
+successful quest.  Accuracy is very important but seeing and detecting
+ skills should be honed as 
+well.
+
+Paladins who have a fine hand with the sword and possess a superior
+ knowledge of seeing and
+detecting will achieve knighthood. With knighthood, your paladin will
+ receive a superior sword
+and armor.
+                                  - 7 -
+===============================================================================
+
+Saving a Game in Progress
+
+In order to save a game in progress, you must be at the beginning of the
+ Player Movement phase.  
+
+You may select menu entires, but clicking any of the icons or the combat
+ window will prevent 
+you from saving your game.  This is the only point at which you can save
+ the game before 
+quitting.
+
+Closing a Game Without Saving
+
+Select "Close" from the Quest menu.  When the program asks you if you want
+ to save the game, click No.
+
+Quitting Paladin
+
+Use "Quit" from the Quest menu to exit the program.  If you select this at
+ the beginning of the 
+Player Movement phase, you will be given the option of saving your progress
+ before closing.  At 
+any other point, the program will quit without saving.
+
+                                  - 8 -
+=============================================================================
+
+The Combat Window
+
+The combat window is the largest window on the screen.  During the player
+ combat phase, the 
+current player member will always appear in the center of the combat window.
+ During the enemy 
+combat phase, the current enemy member will appear in the center of the
+ combat window.
+
+The Statistics Window
+
+The member statistics window has several functions.  During the Enemy Combat
+ phase,
+information on enemy attacks are shown in the Statistics Window.  During the
+ Player Combat 
+phase, this window displays the battle statistics for the
+ current party member.  These statistics are:
+
+Moves - the number of moves left in the current member's turn.
+
+Vital - the vitality of the current member.  If the vitality drops below 30%, 
+ it will be displayed in 
+red as a warning (Macintosh version excluded).
+
+Health - the health of the current member. If this goes to 0%, the member is
+ dead. When the 
+current member's health falls below 50%, it will be displayed in red as
+ a warning (Macintosh 
+version excluded).
+
+Enc - the current encumbrance of the member (NOT the maximum encumbrance).
+  This figure will 
+be displayed in green if it is greater than 0.  (Macintosh version excluded).
+
+Accur - the accuracy of the current member's swordmanship.  If the member is
+ ranger or a mage, 
+this is a measure of his spell casting ability as well.
+
+Detec - the percentage chance the current member has of successfully using a
+ wand of detection.
+
+Seeing - the percentage chance the current member has of successfully using 
+ a ring of farsight. 
+
+Countdown Timer
+
+The countdown timer displays the amount of time remaining in the quest.
+
+Wideview Display
+
+The wideview display is a 21 by 21 composite map of the terrain surrounding 
+ the current member. 
+It can be displayed by clicking on the Change Scale icon. Information for
+ this wideview is 
+provided by other members moving through the area and rangers using wands
+ of detection or rings 
+of farsight.  When rangers use the wideview, opponents appear as flashing
+ green squares on the Atari ST and 
+Amiga, nested boxes on the IBM, and as grey squares on the Macintosh.
+
+                                  - 9 -
+=============================================================================
+
+DROP OBJECT
+
+Click this icon to drop an object
+
+A dialog box will appear with a list of all the objects the current member is
+ carrying.  Note that
+the member's sword and armor will not appear on this list as they may not be
+ removed.   Click on 
+the name of the object you want to drop and then click "OK".
+
+There are several reasons you might want to drop something.  A very good
+ reason is that you no 
+longer want to carry something because of its encumbrance penalty. You
+might want to transfer 
+an object from one member to another. In addition, the sphere of deflection
+ works only if you 
+drop it.
+
+A dropped object always lands directly underneath the current member.  Only
+ one object may be in 
+a square at a time.
+
+It takes 1 movement point to drop an object.
+
+USE STAIRS    
+
+Click this icon to ascend/descend a staircase.
+
+If the corresponding square above or below the staircase is blocked by
+ another member, the mouse 
+pointer will change into a stop sign.  If the corresponding square is
+ blocked by an opponent, the 
+opponent will be killed and your level will be changed.
+
+It takes 5 movement points to use the stairs.
+
+TAKE OBJECT
+
+Click this icon to take an object.
+
+You can take any object directly adjacent to or in the same square as the
+ current member. The 
+object must be visible; you cannot take an object directly from another
+ member.
+
+The mouse pointer will turn into a pointing hand.  Click this on the object
+ you wish to take.
+
+Some objects have special messages written on them.  These messages appear 
+ whenever the 
+object is taken.
+
+                                  - 10 -
+=============================================================================
+
+Whenever an object is taken, it increases the member's total encumbrance. 
+ Encumbrance affects 
+the number of movement points your member will receive at the beginning of a
+ turn. Therefore, 
+heavily laden members will not move at their highest speed.
+
+It takes 1 movement point to take an object.
+
+USE OBJECT
+
+Click this icon to use an object.
+
+A dialog box will appear with a list of all the objects the current member is
+ carrying.  Click on 
+the name of the object you want to use and then click "OK".
+
+All of the objects and their uses are detailed in the section "Objects and
+ Their Uses."
+
+The objects require varying amounts of movement points to use.  They are:
+
+     Object     	 Movement Points
+-------------------------------------------------- 
+     Orb of Fire     		5        
+     Explosive Crystals         10        
+     Potion of Vitality         3        
+     Bag of Holding             N/A        
+     Potion of Healing          9        
+     Bolt 	                5        
+     Crossbow		        N/A        
+     Ring of Farsight	        9        
+     Wand of Detection	        15        
+     Sphere of Deflection       N/A 1         
+     Amulet of Levitation       10        
+     Prisoner       		N/A     
+     Scroll        		N/A             
+
+1 Sphere is activated by dropping it.
+
+OPEN DOOR
+
+Click this icon to open a door adjacent to the current member.
+
+The mouse pointer will turn into a small key.  Place this key over the door 
+ you want to open and 
+click the mouse.  If you have enough movement points, the door will open.
+
+                                  - 11 -
+=============================================================================
+
+The doors require varying amounts of movement points to open.  Pine doors
+ require 3, Oak doors 
+require 5, and Metal doors require 10.
+
+SWING SWORD
+
+Click this icon to swing the current member's sword.
+
+The sword will be wielded in the direction that the member is facing.  If
+ the swing does connect, a 
+tiny skull wll appear on the target. This holds true for opponent-initiated
+ attacks as well.
+
+If the swing hits an opponent, the amount of damage that the sword
+ generates is subtracted from 
+the opponent's health, minus the amount of protection his armor provides.
+
+           Armor   Non-Magical Attack        Armor     Non-Magical Attack
+        Protection     Damage              Protection      Damage
+        ------------------------          -------------------------------
+Paladin      40%       80%	  Fighter	30%	   65%		
+Mage         15%       35%        Dragon        15%        35%
+Ranger       15%       65%        Troll         30%        45%
+Swordsman    30%       65%        Zombie        40%        80%
+Thief        15%       45%        Sorcerer      40%        N/A 1
+                                  Spirit        65%        80%
+
+1 Sorcerers only attack magically.
+
+For example, an enemy fighter (armor protection = 30%) is hit by a swing
+ from your paladin
+(sword damage = 80%). The result is that the enemy fighter would lose 50%
+ health (80% - 30% =
+50% loss).
+                                  - 12 -
+=============================================================================
+
+The same holds true for your own members.  Note that it is possible to shoot
+ your own troops by mistake, so look before you swing.
+
+Swinging a sword requires 3 movement points.
+
+CAST A SPELL
+
+To case a spell, shift click the Swing Sword icon. This will cause a dialog
+ box with radio-type
+buttons to appear.
+
+Within your party, both Rangers and Mages can cast spells. Mages have the
+ full complement of
+spells, while reangers can cast only Detect Secret Doors, Confuse,
+ Invisibility, and Speed spells.
+
+NEXT BUTTON
+
+Click this button to switch current members.  This will advance you to the
+ next member in your 
+party or, if you have just moved the last member in the party, loop back to
+ the paladin.  
+
+Shift click the Next button to enter the Enemy Combat phase.
+
+CHANGE SCALE BUTTON
+
+Click this button to get a "wide angel" view of the surrounding terrain. 
+ Information for this 
+wideview is provided by other members moving through the area and party
+ members using rings 
+of farsight or wands of detection.  When rangers use the wideview, opponents
+ will appear as 
+flashing squares on the Atari ST and Amiga, as nested boxes on the IBM,
+ and as grey squares on the Macintosh.
+
+                                  - 13 -
+=============================================================================
+
+ABOUT PALADIN...
+
+The "About Paladin..." entry displays a dialog box with information about
+ the program version 
+and release date.
+
+NEW...
+
+"New..." is used to start a new game. This is a three stage process.
+
+First, select the quest you wish to play. Next, select a paladin. If 
+ there aren't any paladin files on 
+the disk, you will have to create a new one with the Quest Builder program.
+ Finally, enter the 
+name under which this current game is to be saved.
+
+When all this has been done, Paladin will create a game file, which means
+ that you now have a 
+game in progress on the disk.
+
+RESUME...
+
+Use "Resume..." to continue a game already in progress.
+
+DELETE..
+
+Use "Delete..." to delete game files. An item selector will appear with the 
+ names of all the games 
+in progress. Select any one of these.
+
+Note that using this function to delete a game file will restore the
+ incorporated paladin file.
+
+SAVE
+
+"Save" will save your current progress to the disk and continue play. You may 
+ only save at the 
+beginning of your Movement and Combat Phase.
+
+CLOSE
+
+Use "Close" to stop a game in progress. If you select this at the beginning 
+ of the Combat Phase, 
+you will be given the option to save your progress before closing. At any
+ other character's point, 
+the program will stop the current game without saving.
+
+                                  - 14 -
+=============================================================================
+
+QUIT
+
+Use "Quit" to exit the program. If you select this at the beginning of the 
+ Combat Phase, you will 
+be given the option to save your progress before closing. At any other point,
+ the program will quit without saving.
+
+PREFACE
+
+The preface display contains background information for the quest and
+ possibly clues as to the 
+locations and strengths of your objectives.
+
+VICTORY CONDITIONS
+
+The victory conditions dialog box displays the objectives which must be 
+ completed in order to win 
+the game.
+
+QUEST STATUS
+
+The quest status dialog box displays whether or not each of the quest's 
+ objectives have been met.
+
+                                 - 15 -
+=============================================================================
+
+BASIC CHARACTERISTICS
+
+MOVEMENT POINTS - Each member is given a certain amount of movement points at the
+ beginning 
+of his turn. Almost all of the activities a party member can perform use
+ movement points (mp). 
+For example, moving onto a clear terrain square costs 2 mp, while swinging
+ a sword takes 3 mp.
+
+Combat activities such as taking an object, swinging a sword, moving,
+ casting magic, and using 
+an object can all be mixed at your discretion.
+
+If you do not have sufficient mp for the activity you want to perform, the
+ computer will inform 
+you with an alert box.
+
+If all of the movement points for the current member have been exhausted,
+ the program will 
+automatcally advance to the next or loop back to the paladin if you were on
+ the last party member.
+
+Movement points allocated to each member are based on the member's class, the
+vitality of the member, and the his current encumbrance.
+
+VITALITY - Vitality is a measure of how well-rested a party member is. The
+ higher the vitality, the 
+more moves a party member has available in subsequent turns. If a member were
+ at the 50% 
+vitality level, he would have 50% of his maximum number of moves available.
+
+As a party member moves about, his vitality is reduced at the same rate as
+ his movement points. 
+So if aparty member with 100% vitality fired a sword (3 mp) his new vitality
+ would be 97%. 
+Vitality is replenished at the rate of heath% divided by 4, which means the
+ maximum rate of replenishment is 25% per turn (100% health/4=25%).
+
+If a member's vitality is 0%, then the member is considered stunned, and he
+ may not 
+move until the next round.
+
+HEALTH - Health is a measurement of the amount of damage a party member can
+ absorb before
+dying. When a member's health drops to 0%, he has died.
+
+Above 50% health, a party member cannot be killed while taking hits. Below
+ 50%,however, a
+party member can die while being hit, even if the hit does not drop his
+ health to 0%. As the party 
+member's health falls closer to 0%, the likelihood of this occurring is
+ much greater.
+
+ENCUMBRANCE-This is a measure of how many objects a member can carry
+
+                                  - 16 -
+=============================================================================
+
+Carrying a large number of 
+encumbrance points has two 
+disadvantages. One, the weight
+reduces the number of available 
+mp's per turn. Two, the party 
+member is more likely to be
+selected as a target by enemy 
+forces.
+
+ACCURACY -  is the measurement of 
+a party member's accuracy with a 
+sword.  For party members with
+spell casting talent, this is also a 
+measure of their success rate with
+spells.
+
+DETECTING - is the measurement of how well a party member uses a
+ wand of detection.
+
+SEEING - is the measurement of how well a party member uses a ring of
+ farsight.
+
+MOVEMENT
+
+As with any other function, moving your party member will consume some
+ movement points.
+Each terrain type (grass, rocks, grating) consumes a different amount of mp
+ when it is entered. In 
+order to move your current party member into a new square, he must have at
+ least as many mp as 
+are required to enter the square.
+
+Terrain Type		MP Required	Terrain Type		MP Required
+-----------------------------------     -----------------------------------
+
+Clear			2		Bed			5
+Dirt			2		Dresser			6
+Grass			2		Table			5
+Light Vegetation	4		Chair			4
+Heavy Vegetation	6		Wench			4
+Rocky Dirt		4		Entry Pentagram		3
+Rubble			4		Exit Pentagram		3
+Stun Field		8		Chest			4
+Stepping Stones		4		Strong Man		6
+Grating			3		Water/Dirt		4
+Stairs			5		Water/Blank		4
+Open Door		4		Boy			3
+Shepherd                4               Spilled Oil             8
+Farmer 			4		Hangman			6
+Bard			4
+
+
+		                  - 17 -
+=============================================================================
+
+The current member will always occupy the center of the combat window.
+
+Party members can move in the four compass directions. To move the party
+ member to a
+particular square on his current row or column, simply click the mouse on
+ the square. The party
+member will march into the square or as far as is possible before running
+ into a wall or running 
+out of movement points.
+
+If the party member does not have enough mp to move into the square, the 
+ square is not of a type 
+that the party member may occupy, the square is occupied by another player 
+ party member, or the 
+square is already occupied by an opponent, the mouse pointer will turn into
+ a stop sign, indicating 
+movement is not allowed.
+
+To change a party member's facing without having to move the party member 
+ from his current 
+square, hold either shift key down and click on the adjacent square you wish
+ the party member to face. This takes 1 movement point (mp).
+
+In addition, you can make any party member who is visible in the combat
+ window the current
+party member by holding down the Alternate key and clicking the desired
+ party member.
+(Macintosh players should use the Option key instead of the Alternate key.)
+
+COMBAT
+
+SWORDS - All party members carry swords. These swords may not be transferred
+ or exchanged. 
+Swords cannot be destroyed by combat.
+
+Specialty		Damage Sword Generates
+---------------------------------------------
+Paladin			80%
+Ranger			65%
+Swordsman		65%
+Thief			45%
+Mage			35%
+
+
+It takes 3 mp to swing a sword.
+
+ORBS OF FIRE - Orbs of fire will explode around friendly troops and it is
+ possible to detonate one in
+the same square as the current party member. Orbs of fire will also
+ detonate oil casks, so caution
+must be exercised when using them!
+
+Orbs of fire explode in a 3 by 3 pattern, with the target in the center.
+ Each square receives the 
+equivalent of a hit from a90% sword.
+
+EXPLOSIVE CRYSTALS - When explosive crystals are activated, they drop into
+ the current party 
+member's square. The explosive crystals ignore any objects which may already
+ be in the square.
+
+				  - 18 -
+=============================================================================
+
+Explosive crystals will explode around friendly troops, and it is possible
+ to detonate one in the 
+same square as the current party member. Explosive crystals will also
+ detonate fuel tanks in the 
+same fashion as orbs of firs. Caution must be exercised when using explosive
+ crystals!
+
+Explosive crystals explode in a 5 by 5 pattern, with the crystals in the
+ center. Each square 
+receives the equivalent of a hit from a 100% sword.
+
+Caution: Once an explosive crystal has been activated, it cannot be aborted, but
+ will explode at 
+the end of the current party member's turn.
+
+CROSSBOWS - A party member must have at least one bolt and one crossbow in
+ order to fire.
+
+When a bolt is fired, it travels in a straight line until it hits a valid
+ target (i.e., a wall, a party 
+member, etc.) or leaves the edge of the combat zone.
+
+A target hit by a bolt from a crossbow receives a hit equivalent to a 90%
+ sword.
+	
+Caution: Shooting bolts at targets not readily visible may result in damage
+ to other party 
+members or destruction of necessary quest objectives.
+
+MAGIC
+
+DETECT DOOR - will reveal any secret doors on previously explored terrain
+ until the next Enemy
+Combat Phase. All of your part members will be able to see the hidden
+ doors.
+
+Casting a detect door spell takes 10 movement points.
+
+CONFUSE - makes approaching opponents think that they cannot cross
+ particular patches of terrain. 
+In some cases, this makes the enemy thnk that it cannot reach you at all.
+
+Casting a confuse spell takes 8 movement points.
+
+INVISIBILITY - renders the caster invisible for the next 2 rounds. The
+ caster cannot be followed or
+attacked when invisible.
+
+The invisibility spell cannot be cast on other party members.
+
+Casting an invisibility spell takes 20 movement points.
+
+MIND STUN - brings the affected enemy's vitality down to 0%, leaving it
+ without movement points
+for the next round. Vitality is returned to the affected at the normal rate
+ (health/4% per round).
+
+Mind stuns will not travel through closed doors or walls. 
+
+			          - 19 -
+=============================================================================
+
+Casting a mind stun spell takes 10 movement points.
+
+FIREBALL - is a ball of fire (surprise!) that travels along until it hits
+ something solid, like an
+enemy.
+
+Fireballs explode just like orbs of fire, doing 90% damage to the 3 x 3
+ area surrounding the target.
+
+Casting a fireball spell takes 10 movement points.
+
+SPEED - is a spell which allows the user to store up some extra movement
+ points for the next
+round. The user casts the spell and in the next Player Phase, the user will
+ have an extra 15
+movement points added to his total.
+
+This cannot be cast on other party memebers.
+
+Casting a speed spell takes 20 movement point.
+
+TYPES OF PARTY MEMBERS
+
+PALADIN - The paladin is your main character. This is the only type of party
+ member who is 
+created independently of any quests.
+
+The long-range goal of Paladin is to improve this character, so it is very
+ important that he (or she) 
+does not get killed in combat. If this happens, the paladin's file will be
+ erased. On the other hand, as the quest difficulty level rises, you will find it more and more
+necessary to use the paladin in dangerous situations.
+
+Paladins have a very sharp sword (80% damage) and heavy protective armor. 
+
+SWORDSMEN - The swordsman is the basic parth member. They carry a heavy
+ sword and they have a
+fairly high level of mobility.
+
+Swordsmen usually comprise the majority of any party.
+
+RANGER - Rangers have very light, fast armor, and carry the same swords as
+ swordsmen.
+
+Rangers have spell casting ability, but they are limited to the Detect
+ Secret Doors, Confuse, 
+Invisibility, and Speed spells.
+
+THIEF - Thieves have the same armor as rangers but a slightly lighter
+ sword.
+
+MAGE - Mages wear the same armor as rangers and thieves but they carry a
+ very weak sword.
+
+Mages are the primary magic using character class.
+
+				  - 20 -
+=============================================================================
+
+BASIC CHARACTERISTICS
+
+All of the enemies will guard quest objectives that are in their area. For
+ example: if an enemy fighter is 
+in the same area as a scroll, there aren't any player party members around,
+ and capturing scrolls is 
+an objective, then the enemy will guard the scroll until a party member
+ enters the area.
+
+FIGHTERS
+
+Fighters are equivalent to your swordsmen.
+
+Fighters can use crossbows and orbs of fire against your party. In
+ addition, certain special fighters
+can also cast mind stuns against your part.
+
+DRAGONS
+
+The dragons you will encounter on your quest are of the smaller, more
+ common variety (Dracos
+Vulgaris). These stunted versions of the true beast have lost the power of
+ flight and have a
+relatively weak fire-breathing ability. Dragons attack only adjacent
+ squares.
+
+TROLLS
+
+Trolls are the dark rulers of the underground, although they often come to
+ the surface to spread
+their evil ways.
+		                  - 21 -
+=============================================================================
+
+Trolls are adept fighters and can use orbs of fire and crossbows.
+
+ZOMBIES
+
+Zombies are the shambling undead created by demented mages to carry out
+ their evil deeds.
+
+Zombies are some of the most powerful and durable fighters due to their
+ non-living status.
+
+SORCERERS
+
+Sorcerers are mages who have fallen upon evil times. They are dangerous
+because they do not
+need to be adjacent to a party member in order to attack him.
+
+Sorcerers attack solely by magic, using fireballs and mind stuns.
+
+SPIRITS
+
+Spirits are all that remain of malevolent creatures that died long ago.
+ Because they are not totally
+attachec to the material plane, they have the unique ability to pass
+ through any object or terrain
+with no resistance whatsoever.
+
+The spirit attacks by scaring. A scare from a spirit is the equivalent of a
+ blow from an 80% damage sword.
+
+				  - 22 -
+=============================================================================
+
+ENCUMBRANCE POINTS
+
+There are thirteen different types of objects which may be found in a
+ quest. Each of those 
+objects has an encumbrance value. Encumbrance is a measure of the object's
+ bulk. Obviously, the 
+bulkier the type of object, the fewer of them the party member may carry.
+
+Object		Encumbrance Points     Object		Encumbrance Points
+----------------------------------    ------------------------------------
+Orb of fire		1		Ring of Farsight	1
+Explosive Crystals	5		Wand of Detection	3
+Potion of Vitality	2		Sphere of Deflection	4
+Bag of Holding		0		Amulet of Levitation	2
+Potion of Healing	2		Prisoner		1
+Bolt			3		Scroll			1
+Crossbow		7
+
+Members carrying a large number of encumbrance points are subject to movement
+ point loss.
+
+WHAT THEY ARE AND HOW TO USE THEM
+
+ORB OF FIRE - A short-range magical grenade.
+
+When a orb of fire is selected, the mouse pointer turns into a crosshair.
+ Place this crosshair 
+over any pont on the same row or column as the current member and click. The
+ member does not need 
+to be facing the target.
+
+EXPLOSIVE CRYSTALS - are a very powerful "time delay" explosive device.
+
+When explosive crystals are used, they are dropped into the same square as
+ the current party 
+member, ignoring any other objects which may be in the square. When the
+ current party 
+member's turn is over (running out of mp's, selecting another member, or
+ clicking the "Next" 
+button) the explosive crystals will detonate.
+
+Explosive crystals explode in a 5 by 5 pattern, with the crystals in the
+ center. Each square
+receives the equivalent of a hit from a 100% sword.
+
+POTION OF VITALITY - an elixir that restores vim and vigor to the character
+ that uses it.
+
+Each time a potion is used it will add 50% to the character's vitality for
+ a maximum of 100%.
+
+BAG OF HOLDING - is a magical bag that increases your maximum encumbrance
+ by 10.
+
+The effects are cumulative; i.e., 5 bags will provide 50 extra encumbrance
+ points.
+
+				  - 23 -
+=============================================================================
+
+Each bag will automatically increase your maximum encumbrance if you are
+ carrying it. You do
+not need to use this object.
+
+POTION OF HEALING - is a special blend of herbs and spices that restores a
+ character's health.
+
+Each time a potion of healing is used it will add 50% to the character's
+ health for a maximum of
+100% health.
+
+BOLT - is an arrow that fits into a crossbow.
+
+In order to use a bolt, the character must also be carrying a crossbow.
+
+When a bolt is fired from a crossbow, it travel in a straight line on the
+ current facing until it hits
+a valid target (i.e., an enemy, a wall, a party member, etc.) or leaves the
+ edge of the combat zone.
+
+A target hit by a bolt from a crossbow receives a hit equivalent to a 90%
+ damage sword.
+
+CROSSBOW - is a crank-powered rifle-type bow for firing bolts.
+
+A crossbow by itself may not be used but must be held in order to use a
+ bolt.
+
+RING OF FARSIGHT - is a small ring which reveals all man-made structures on
+ the same level as the user.
+
+In essence, this will give you the floor plans to any level the user is on.
+ You 
+must be standing adjacent to a source of water for this object to work.
+
+WAND OF DETECTION - is a magic device that reveals a large area of land
+around
+the user and any enemies that might be lurking about it.
+
+When a wand of detection is successfully used, it reveals a 17 x 17 area of
+ the
+current level, centered around the user. If the user is not successful, it
+ will
+show only the terrain which has already been covered.
+
+Successful detection will only show nearby enemies as flashing squares on
+ the 
+Amiga and Atari ST, nested boxes on the IBM, and as grey squares on the
+ Macintosh.
+
+SPHERE OF DEFLECTION - will absorb any incoming non-magical attacks.
+
+A shield will also cause fireballs and orbs of fire to explode on contact,
+ although the blast radius
+of these items will remain the same.
+
+When a sphere of deflection is hit, there is a 10% chance it will shatter
+ and be destroyed.
+
+				  - 24 -
+=============================================================================
+
+This device does not need to be selected from Use Object because it
+ activates when dropped.
+
+AMULET OF LEVITATION - allows the user to float above the ground, ignoring
+ terrain costs and
+movement restrictions. The only terrain types an amulet of levitation will
+ not allow you to fly
+through are closed doors, solid rock, and walls.
+
+When the amulet is used, it remains active until; the member runs out
+ of movement points, you 
+click the Use Object icon again, select a different party member, or click
+ the Next button. Each 
+time a member uses the amulet, there is a 10% chance that he will crash at
+ the end of his turn.
+
+Once an amulet has been activated, the user cannot take or drop objects,
+ swing a sword, use shafts, 
+open doors, use objects, or cast magic. If the party member ends his turn
+ over either a blank 
+(black) or full water square, he will be killed and removed from the quest.
+
+PRISONER - Prisoners are unlucky people being held hostage by the nasty
+ powers-that-be.
+
+A prisoner is not a usable item.
+
+SCROLL - You know what a scroll is!
+
+A scroll is not a useable item.
+
+				  - 25 -
+=============================================================================
+
+INTERIOR TERRAIN
+
+WALLS - The walls come in two types: wood and stone.
+Explosive crystalss
+will destroy any type of wall; orbs of fire will destroy wooden walls.
+Swords will not penetrate walls.
+
+Party members canot pass through or fly above walls squares using an amulet
+ of levitation.
+
+DOORS - Party members cannot move through closed doors.
+
+Pine doors require 3 mp to open, Heavy Oak doors require 5 mp, and Metal
+ doors require 10 mp.
+
+Party members cannot fly above doors squares using a amulet of levitation.
+
+EXTERIOR TERRAIN
+
+WATER - Party members cannot pass through water squares, although they can
+ fly over them if they 
+are using a amulet of levitation.
+
+If a party member using a amulet of levitation ends his turn over a water
+ square, he is killed and 
+removed from the quest.
+
+SOLID ROCK - Party members cannot fly over or through solid rock squares.
+
+SPECIAL TERRAIN
+
+STAIRCASES - Staircases require 5 mp to enter, and another 5 mp to use.
+
+THE ENTRY PENTAGRAM - In order for your party members to enter the quest,
+ this square must be clear.
+
+THE EXIT PENTAGRAM - If the current party member is on this square at the
+ end of his turn, he is 
+removed from the quest and will no longer be allowed to fight.
+
+STUN FIELDS - When a party member passes through a stun field, there is a
+ chance that he will be 
+stunned and unable to move. This chance is inversely proportional to the
+ party member's vitality. 
+For example, if a party member with a vitality of 78% passes through a stun
+ field, there is a 22% 
+chance that he will be stunned.
+
+TELEPORT PENTAGRAMS - When a party member enters a teleport square, he is
+ teleported to a new
+location. This can be anywhere, on any level.
+
+EMPTY (BLACK) SQUARES - Party members cannot pass through these squares,
+ although they can
+fly over them is they are using a amulet of levitation.
+
+				  - 26 -
+=============================================================================
+
+If a party member using a amulet of levitation ends his turn over a black
+ square, he is killed.
+
+TERRAIN TABLE
+
+Type			MP's to Enter	Special Comments...
+-------------------------------------------------------------------------
+Walls (All Types)	No Move		Cannot be flown over.
+Half Dirt/Half Empty	No Move		Can be flown over with amulet.
+Half Blank/Half Empty	No Move		Cannot be flown over.
+Blank			No Move		Can be flown over with amulet.
+Solid Rock		No Move		Cannot be flown over.
+Empty Interior		2
+Dirt			2
+Grass			2
+Light Vegetation	4
+Heavy Vegetation	6
+Rocky Dirt		4
+Interior Rubble		4
+Stun Field		8
+Water			No Move		Can be flown over with amulet.
+Stepping Stones		4
+Grating			3
+Staircases		5
+Teleport Square		5
+Fence			6
+Gallows			No Move		Cannot be flown over.
+Closed Doors		No Move		Cannot be flown over.
+Open Doors		4		Can be flown over with amulet.
+Shepherd		4
+Bard			4
+Bed			5
+Dresser			6
+Table			5
+Chair			4
+Wench			4
+Entry Pentagram		3
+Exit Pentagram		3
+Chest			4
+Strong Man		6
+Water/Dirt		4
+Water/Blank		4
+Boy			3
+Spilled Oil		8
+Hangman			6
+
+				  - 27 -
+=============================================================================
+
+FILE MENU
+
+NEW - opens the mapping window and creates a new quest file.
+
+OPEN - opens an existing quest file and displays it in the mapping
+ window. The Open function 
+will automatically display all available quest files.
+
+CLOSE - closes the current mapping window and disposes of the quest
+ file. If the quest file has 
+been modified, the computer will ask you if you wish to save the quest
+ file before closing it. 
+
+SAVE - saves the current quest file currently in progress. If the current
+ file is untitled, it acts in the same
+fashion as Save As. 
+
+SAVE AS - saves the current quest file.
+
+QUIT - exits Quest Builder. If a file has been modified, the program will
+ ask if you wish to save
+the changes.
+
+MAP MENU
+
+WHOLE VIEW - generates a compressed view of the entire current map level.
+Click the mouse to 
+return to the normal mapping mode. If the click occurs on the whole view map,
+ the window will 
+jump to the equivalent position in the normal mapping mode. This serves as a
+ shortcut for 
+moving about the map.
+
+FILL SCREEN - fills the screen with the currently selected terrain type.
+ Fill Screen will not
+overwrite objects or opponents.
+
+FILL LEVEL - fills the current level with the currently selected terrain
+ type. Fill Level will not
+overwrite objects or opponents.
+
+COPY LEVEL - copies the contents of the current level to another level,
+ excluding objectsand 
+opponents.
+
+TOTALS - lists the total number of objects and opponents used in the quest.
+
+LEVEL MENU
+
+Use the Level menu to select the level of the quest map being shown in
+the mapping
+window. There are 5 levels in all.
+
+				  - 28 -
+=============================================================================
+
+PALETTE MENU
+
+The Palette menu controls the parts and terrain palette.
+
+The blank squares found on the objects and opponents palettes will only
+ erase objects and 
+opponents, not the underlying terrain. If a part will not appear where you
+ have clicked, then it 
+cannot be placed on that type of terrain. 
+
+A quest can have up to 40 objects and 50 opponents.
+
+
+INFO MENU
+
+PREFACE - is the area where you
+enter information for the player
+about the quest you have created.
+This might be part of a story, or
+just some hints.
+
+SET VICTORY - sets the victory 
+conditions for the quest. RESCUE
+PRISONERS means the player must
+take all of the prisoners in the
+quest to win. OBTAIN SCROLLS
+works the same way. EXIT
+COMBAT ZONE means all of the
+members who are still living
+must go through the exit
+pentagram. KILL % OPPONENTS
+requires the player to kill at least
+the percentage of opponents
+entered in the box to win.
+
+The quest time limit must be set
+for every quest. The other
+victory conditions must be met
+before the amount of time
+entered in the box expires. Time
+is in an hours/minutes/seconds
+format.
+
+The victory conditions can be used in combination. This means that if you
+ select kill 20% and
+rescue prisoners, you must kill at least 20% of the opponents and rescue
+ all of the prisoners to
+win.
+
+	                          - 29 -
+=============================================================================
+
+CHAIN TO - displays a dialog box which allows you to enter the name of a
+ quest that the current
+quest will chain to if the player wins.
+
+THREAD MENU
+
+THREAD OBJECT - jumps sequentially through the list of objects which have
+ been placed on the map.
+When it jumps to the next object on the list, it moves the map so that the
+ object is in the cneter
+of the screen.
+
+THREAD OPPONENT - jumps sequentially through the list of opponents which
+ have been placed on
+the map.
+
+THREAD TEXT - jumps sequentially to the next terrain square that has text
+ on it.
+
+PARTY MENU
+
+MODIFY PARTY MEMBER - is used to change the basic characteristics of the
+ quest members. A list
+box will appear with the names of all the members currently in the party.
+ Select a party member
+by clicking on his name. Delete will delete a member and Change button will
+ jump to another
+screen, where the member's attributes can be modified.
+
+NEW MEMBER - generates a member for the player's party. Name the character
+ and select the
+character's specialty using the radio-type buttons. The different
+ specialties generate different basic
+characteristice. A party can have up to 9 members.
+
+NEW LEADER - is used to generata a Paladin. This character is independent
+ of any quest. (You can generate a Paladin without opening the map window).
+After you have named the Paladin, Create
+ Leader saves the Paladin file, after asking for a file name. This name can
+be the same as the 
+ character's name; i.e., "PIERRE". The attributes of the Paladin may not be
+modified directly: 
+ they only increase through actual combat experience.
+
+EXAMINE LEADER - shows a Paladin's statistice. After you select a file, the
+ statistics are displayed.
+
+IMPORT PALADIN - allows you to convert a Squad Leader character into a
+ paladin.
+
+First, a file selector box appears. This will list any Squad Leader files
+ on the current parth. Select
+a file and click Import.
+
+Next, another file selector box will appear. This is to name and save your
+ new paladin file. Enter
+a new file name. Click Save.
+
+You now have a new paladin. If your old Squad Leader character was STAR
+ level, your new
+paladin will be a Knight.
+
+                                  - 30 -
+=============================================================================
+
+Note: You cannot convert paladins into squad leaders.
+
+OTHER FUNCTIONS
+
+SELECTING A TERRAIN SQUARE - Click any terrain square on the palette to
+ select it. Clicking on the 
+map window will place that square on the map.
+
+MODIFYING AN OPPONENT - Holding a Shift key and clicking on an enemy
+ character will 
+display the Modify Opponent dialog window. Use this to change opponent
+ attributes.
+
+WRITING A MESSAGE ON AN OBJECT - Holding the Shift Key and clicking on an
+ object allows 
+you to write a short message which will appear whenever the player picks up
+ that particular 
+object. This can be used to hide clues within the game.
+
+WRITING A MESSAGE ON A TERRAIN SQUARE - Holding down the Alt (Alternate)
+ key and clicking on a 
+terrain square allows you to write a short message which appears the first
+ time a character passes
+through the square. This can be used to name rooms or make terrain-type
+ characters (such as the
+bard) "talk".
+
+SETTING A TELEPORT DESTINATION - Holding down a Shift key and clicking on a
+teleporter square will 
+cause a Teleporter Destination dialog box to appear. Enter the destination
+coordinates and click OK
+when finished.
+
+The program does not check as whether the destination is a valid movement
+ square or not. Check
+twice or you might end up sending somebody into solid rock or the black
+ void!
+
+QUEST DESIGN NOTES
+
+AVOID FEUTURISM
+
+A quest could have 5 levels, 10 party members in the party, 50 opponents, and
+ 40 objects. Resist 
+the temptation! quests are generally more successful if they are quick to
+ start and play. Having 
+to move 10 party members through a maze for 40 Player phases is NOT fun.
+
+SUPERMEN NOT WANTED HERE
+
+Imagine a party of 10 party members, each with the maximum of everything
+ against a band of
+normal enemies. Boring! Winning all the time is not the point of the game.
+ Try and create
+quests in which the player must logically deploy his forces. Good quests
+ should be a test of the 
+player's decision-making ability, not the random number generator.
+
+				  - 31 -
+=============================================================================
+
+				(IBM KEY GUIDE)
+=============================================================================
+
+PALADIN
+
+THE FUNCTION KEYS
+
+Key	Normal		Shift		Alt	
+--------------------------------------------------     
+F1	New		Sound Toggle		
+F2	Click1		Shift-Click2	Alt-Click3
+F3	Resume		
+F4		
+F5	Delete
+F6	Quest Status
+F7	Save
+F8 	Victory Conditions
+F9	Close
+F10	Preface				About Paladin
+
+1 This is the equivalent of pressing a mouse button. If you are playing
+ without a mouse, use this key
+whenever the manual refers to clicking the mouse button.
+2 This is the equivalent of holding down the Shift key and pressing the
+ mouse button.
+3 This is the equivalent of holding down the Alt key and pressing the mouse
+ button.
+
+USING THE ICONS
+
+If you do not have a mouse, the icons are selected using the keyboard, Keys
+ 1 though 6 operate
+the rows of icons at the bottom of the screen. The "1" key operates the
+ leftmost icon, Drop
+Object; "2" operates the next icon, Use Stairway; etc.
+
+The Next button is activated using the "N" key. To shift click the Next
+ button, hold down the
+shift key while pressing the "N" key. Note: Be sure the caps lock is not
+ set or else whenever you
+press "N", the program will assum shift "N".
+
+The Change Scale button is operated by pressing the "S" key.
+
+SELECTING MAP SQUARES
+
+If you do not have a mouse, use the keyboard to select squares. The map has
+ a cursor that yo
+move using the keyboard. It appears as a crosshair. Use the arrow keys to
+ move it. Remember,
+without the mouse you must use the F2 key in place of the mouse button.
+
+NOTES
+
+The Omnitrend's Paladin disk is not bootable. You must boot your computer
+from a DOS disk 
+prior to running Paladin. To run Paladin, type "Paladin" at the DOS prompt.
+ To run the
+Quest Builder, type "QUEST" at the DOS prompt.
+
+You must use DOS version 3.0 or highre to play Omnitrend's Paladin.
+  
+                                  - 32 -
+=============================================================================
+
+QUEST BUILDER
+
+THE FUNCTION KEYS
+
+Key	Normal		Shift		Alt
+--------------------------------------------------------------
+F1	New		Totals		New Member
+F2	Click1		Shift-Click2	Alt-Click3
+F3	Resume		Copy Level	Modify Member
+F4	Thread Oponent			Fill Screen
+F5	Delete		Import Paladin	New Paladin
+F6	Thread Object			Fill Level
+F7	Save				Examine Paladin
+F8	Set Victory			Whole View
+F9	Close				Quit
+F10	Preface				About Quest
+
+1 This is the equivalent of pressing a mouse button. If you are playing
+ without a mouse, use this key
+whenever the manual refers to clicking the mouse button.
+2 This is the equivalent of holding down the Shift key and pressing the
+ mouse button.
+3 This is the equivalent of holding down the alt key and pressing the mouse
+ button.
+
+CHANGING THE PALETTE
+
+To change the palette (the upper right-hand window that contains the map
+ pieces), use the "[" and "]" keys.
+
+MOVING ABOUT THE MAP
+
+To change levels, use the "+" and "-" keys. The "+" key will move to a
+ higher level, the "-" to a
+lower level. The map is moved by using the arrow keys. Each tme you hold
+ down the shift key
+and press an arrow key, it will move the map one square in the direction of
+ the arrow. Move the
+map horizontally 8 squares at a time by holding down the control key and
+ pressing an arrow in the
+appropriate direction. To move the map vertically 8 squares at a time, hold
+ down the control key
+and press the page up or the page down keys.
+
+SELECTING MAP OR PALETTE SQUARES
+
+If you do not have a mouse, the keyboard is used to select squares. Bot the
+ map and the Palette
+windows have cursors that you move using the keyboard. These cursors appear
+ as crosshairs. Use
+the arrow keys to move the map cursor. Use the keys listed below to move
+ the palette cursor.
+Remember: the F2 key is used in place of the mouse button if you do not
+ have a mouse.
+
+		Direction	Key
+               ---------------------
+		Up		I
+		Left		J
+		Right		K
+		Down		M
+
+                                  - 33 -
+============================================================================
+
+				THE QUESTS
+
+============================================================================
+
+The following is a list of the quests included with Omnitrend's Paladin
+ that you can play and
+modify. Each entry includes the author's name, a difficulty rating, a brief
+ description of the quest,
+and a strategy tip.
+
+HOUSE by Thomas Carbone
+
+Difficulty Rating: Easy
+Synopsis: Recover a deed and a land grant from a haunted house and it's
+ yours!
+Strategy: Explore every corner. Some of your men be overburdened.
+
+TROJAN HOAX by Bill Leslie
+
+Difficulty Rating: Easy/Medium
+Synopsis: Rescue the disguised Princess Anne from King Agoraphobius's
+Castle Recluse.
+Strategy:There are two routes into the tower, if you look carefully enough.
+
+FRIEND by Haywood Nichols
+
+Difficulty Rating: Easy/Medium
+Synopsis: Use supplies of medicine to heal your party and then rescue a
+friend from a midnight troll sacrifice.
+Strategy: Amulets of Levitation in combination with your rangers can prove
+to be very effective for scouting-out areas. Remember that mages possess an
+effective ranged weapon. Also, try not to overburdern your members
+unnecessarily.
+
+HANGING by Haywood Nichols
+
+Difficulty Rating: Medium
+Synopsis: Two ofyour village elders have been captured and sentenced to die
+by handing in a short while. You must fo in and save them from the hanging.
+Strategy: Your mages are mportant for long-distance firing. Exploding oil
+casks will save you a lot of time.
+
+RESCUE by Haywood Nichols
+
+Difficulty Rating: Medium
+Synopsis: Two of your men are being held by the evil trolls and a gang of
+assorted riff-raff. You only have ten minutes to go in and save them from a
+horrible death.
+Strategy: At first glance it appears to be an impossible assault, but if
+you look closely you will notice that the prisoners make the situation
+winnable. Remember to use the mage's ranged firepower wisely.
+
+				  - 34 -
+=============================================================================
+
+ARCHERS1 by Haywood Nichols
+
+Difficulty Rating: Medium
+Synopsis: Damaga 80% of the great troll army on the opposite bank of a
+river.
+Strategy: Use some of your men as advanced scouts so that the mage and
+archers can attack from a distance without fear of being damaged. This is
+the first of two parts and only the members that survive this battle will
+be able to participate in the second half. At all costs, you should be
+preserving men for later on.
+
+ARCHERS2 by Haywood Nichols
+
+Difficulty Rating: Medium/Hard
+Synopsis: Steal a formula for a brightly burning oil mixture from a small
+village.
+Strategy: Much of the action takes place in tight quarters where the
+indiscriminate use of orbs or fire will destroy the mission objective. In
+the wider areas, many of the opponents are hiding just outside your view.
+Avoid the temptation to use every last movement point when exploring.
+
+PORTALS by Haywood Nichols
+
+Difficulty Rating: Very Hard - Knighthood Quest
+Synopsis: Travel through the four Kingdoms of the Portals and recover
+prisoners and scrolls.
+Strategy: There is an objective to be found in each of the four kingdoms.
+Conserve some of the more important tools, such as amulets or levitation
+and fireballs. Do not fire ranged weapons blindly.
+
+INLET by Haywood Nichols
+
+Difficulty Rating: Very Hard - Knighthood Quest
+Synopsis: Once again you are out to obtain someone else's documents, this
+time, the navigation charts to the prosperous port of HangSee.
+Strategy: Almost all of the opponents are hiding outside of your view. Move
+your men in such a fashion that they have adequate protection from all
+sides. Use your rangers in conjunction with amulets of levitation to cover
+extensive areas quickly. It is also very important that you locate the exit
+area quickly.
+
+				  - 35 -
+=============================================================================
+
+Paladin docs brought to you by The Southern Star.
+
+Note: Since this manual is necessary to look up the copy protection codes
+(if you do not have a broken copy of Paladin), I have started each line on
+every page against the left margin. Those lines indented belong on the line
+above when counting lines and words.

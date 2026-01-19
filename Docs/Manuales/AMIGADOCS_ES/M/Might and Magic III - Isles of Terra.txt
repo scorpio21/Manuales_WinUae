@@ -1,0 +1,1304 @@
+PODER Y MAGIA III: ISLAS DE TERRA
+                       Tarjeta de referencia: Comodoro Amiga
+
+Instrucciones de instalación
+
+   Importante.  Antes de instalar Might and Magic III es altamente
+Se recomienda realizar copias de seguridad de los discos del programa, especialmente
+si vas a jugar en un sistema basado en disquete.  ¡Haz las copias AHORA!
+
+   Requisitos del disco duro.  Para jugar a Might and Magic III en un disco duro
+sistema, necesitará al menos un megabyte de RAM y unos cinco megabytes
+de espacio libre en disco.
+
+   Instalación de disco duro.  Inserte el disco MM3-MAIN en DF0:, abra su disco
+icono, luego haga doble clic en INSTALAR DISCO DURO para ejecutar la instalación
+programa.  Se le pedirá que ingrese un nombre de partición para instalar (DH0:,
+DH1:, etc...) Inserte los discos según lo indique el sistema.  Después de todo
+Los archivos se han copiado y el programa se completa, una serie de Asignar
+Las declaraciones deben ejecutarse antes de jugar.  Las asignaciones necesarias
+estar en un archivo llamado MM3-Assigns en el cajón MM3.  Puedes copiar esto
+script en su secuencia de inicio, o simplemente ejecútelo cada vez que
+jugar el juego.
+
+   Reproducción desde un disco duro.  Desde Workbench, abra el cajón MM3.  a
+mire la secuencia de introducción, haga doble clic en el icono MM3-INTRO.  a
+Para jugar a Might and Magic III, haz doble clic en el icono de Might&MagicIII.  
+(Nota: Los programas intentarán cerrar la pantalla Workbench para garantizar
+tendrá suficiente memoria para ejecutarse.  Es importante en un megabyte. 
+sistemas, especialmente que el banco de trabajo sea "cerrable".  Asegúrate de que no
+otros programas se ejecutan desde Workbench y que no hay shell ni CLI
+las ventanas están abiertas.)
+
+   Requisitos de la unidad de disquete.  Para jugar Might and Magic III en un disquete.
+sistema basado en, necesitará al menos un megabyte de RAM, un externo
+unidad de disquete y dos disquetes vírgenes.  Si tienes más de un megabyte
+de RAM, puede conectar más de una unidad externa, si lo desea.  
+De lo contrario, un sistema de un megabyte sólo debería tener un disco externo
+conectado para ejecutar MM3.
+
+   Instalación de disquetera.  Primero, inicie su sistema normalmente con
+su disco Workbench en DF0:.  Formatee los dos discos en blanco y cambie el nombre.
+ellos MM3-GAMES y MM3-PLAY, respectivamente, usando el cambio de nombre desde el
+Workbench o Relabel desde la CLI.  Inserte el disco MM3-MAIN en el externo
+conduzca y abra su ícono y haga doble clic en el ícono INSTALL-FLOPPY.
+El programa INSTALL-FLOPPY copiará las fuentes requeridas a sus FUENTES:
+directorio en el disco Workbench y configure MM3-PLAY y MM3-GAMES
+discos (Nota: necesitará aproximadamente 4K de espacio libre en disco en su Workbench
+disco).  El sistema le pedirá que inserte los discos según sea necesario; tu
+Debe mantener MM3-MAIN en el disco externo durante la duración del
+proceso de instalación, intercambiando el Workbench, MM3_GAMES y MM3-PLAY
+discos en la unidad interna (es más rápido).
+
+   Reproducción desde disquetes.  Ahora tendrás dos discos: MM3-PLAY contiene
+el programa ejecutable y los archivos de soporte, MM3-GAMES son los juegos guardados 
+disco.  Cada disco MM3-GAMES sólo contendrá tres juegos guardados.  Adicional
+Los discos de juegos guardados se pueden crear formateando un disco en blanco y cambiándole el nombre.
+MM3-GAMES y ejecutando el programa MAKE-GAMES en el disco MM3-MAIN.  (Nota:
+Tenga cuidado de no intentar guardar más de tres juegos por disco MM3-GAMES).
+
+   Para ver la secuencia de introducción, reemplace el disco Workbench en DF0:
+y coloque el disco MM3-04 en la unidad externa.  Abra el icono del disco de MM3-04
+y haga doble clic en el icono MM3-INTRO.
+
+   Para ejecutar Might and Magic III, reemplace el disco Workbench en DF0: y coloque
+disco MM3-PLAY en el disco externo, donde deberá permanecer durante el 
+duración del juego.  Abra el icono del disco de MM3-PLAY y haga doble clic en el
+Icono de Might&MagicIII.  El programa le pedirá que intercambie discos en DF0:
+según sea necesario durante el juego.
+
+Empezando 
+
+Después de la pantalla principal tendrás la opción de iniciar un nuevo juego o 
+cargando una partida guardada.  Presione S o haga clic en "Iniciar un juego nuevo" para iniciar un
+nuevo juego.  Comenzarás tu aventura en el centro del primer pueblo. 
+con un grupo de seis personajes completamente equipados.  Puedes empezar inmediatamente
+jugando o ve a la posada para crear tu propio grupo de personajes.
+
+Presiona L o haz clic en "Cargar un juego guardado" para cargar un juego guardado.  una ventana 
+Aparecerá una lista con los nombres de todos tus juegos guardados y los más altos. 
+Nivel de personaje en el grupo.  Selecciona el juego que deseas cargar.
+
+Panel de control
+
+Para abrir la ventana del Panel de control, presione la tecla Tab o haga clic o haga clic
+en la gema grande en la parte inferior central de la ventana de visualización.  el nombre de 
+El juego actual se muestra en la parte inferior de la ventana del Panel de control. 
+Las opciones disponibles se enumeran a continuación.
+
+E - Efectos ON.  Activa y desactiva los efectos de sonido.
+M - Música apagada.  Enciende y apaga la música.
+D - 5 Retraso.  Le permite configurar el retraso de visualización de texto de 0 a 9.
+L - CARGA Carga.  Te permite cargar una partida previamente guardada.
+S - GUARDAR Guardar.  Te permite guardar el juego actual en su estado actual. 
+           ubicación.  El juego se guarda automáticamente cuando entra el grupo. 
+           una posada.
+P: Salir de DOS.  Sale de Might and Magic III y sale a DOS.
+W - AYUDA Ayuda.  Devuelve el grupo a Fountain Head y elimina 1 
+           nivel de experiencia de cada personaje.  (Sin penalización por el 1er nivel 
+           personajes.)
+
+Navegando por las ventanas
+
+Hay cuatro formas de seleccionar opciones en las distintas ventanas de Might. 
+y Magia III.
+
+* Haga clic con el puntero del mouse sobre el ícono de la opción que desee.
+* Si hay una letra en el nombre de la opción que es de un color diferente
+      que el resto de la palabra (generalmente la primera letra), escríbala 
+      letra del teclado.
+* Si hay un resaltado que rodea el ícono de la opción, presione
+      Ingrese para seleccionar esa opción.  Utilice las teclas de flecha para mover el
+      resaltar otras opciones.
+* Si hay un número a la izquierda de una opción o elemento, presione ese 
+      número en el teclado, o haga clic con el puntero del mouse en el elemento 
+      nombre.
+
+Para las opciones que requieren una respuesta Sí/No, presione Y para sí, N para no, o haga clic en 
+en el icono.
+
+              Y = Icono de pulgar hacia arriba N = Icono de pulgar hacia abajo
+
+Se puede salir de la mayoría de las ventanas presionando la tecla Escape.
+
+Los valores estadísticos cambian de color dependiendo de su valor actual en relación con 
+su valor máximo.  Las gemas de los personajes y los nombres de los monstruos cambian de color. 
+en relación con su número actual de puntos de vida en comparación con su nivel normal 
+número máximo.  Los cinco colores y sus significados son: Gris - Arriba 
+máximo, Verde - Máximo (normal), Amarillo - Por debajo del máximo, Rojo - Por debajo del 25% 
+del máximo, Azul - 0 o menos.
+
+Modo Aventura 
+
+Para moverte por el mundo de Might and Magic III, utiliza las teclas de flecha o el 
+puntero del ratón en la ventana de visualización.  Las teclas de flecha arriba y abajo mueven el 
+grupo hacia adelante y hacia atrás, y las teclas de flecha izquierda y derecha giran el 
+partido de izquierdas y derechas.  Manteniendo presionada la tecla Control mientras presiona la tecla Izquierda 
+o La tecla derecha esquiva al grupo sin girarse.  Espere (pase) presionando 
+la barra espaciadora.  Esto permite que pase el tiempo y que los monstruos avancen.  tiempo 
+no pasa al girar a la izquierda o a la derecha.
+
+Aparecen nueve opciones en la ventana de opciones de la pantalla del juego:
+
+S Dispara.             Los miembros del partido con armas de misiles equipadas los disparan. 
+                      recto, siempre que no haya obstáculos.  
+                      Presionando el botón derecho del mouse mientras estás de aventuras 
+                      También seleccionará "Disparar".  
+Reparto C.              Muestra la ventana Lanzar hechizo.  Todos los lanzadores de hechizos 
+                      ten un hechizo listo.  Para lanzar el hechizo preparado, seleccione 
+                      Lanzar de nuevo.  Para cambiar el hechizo preparado, seleccione Nuevo.  
+                      Una lista de todos los hechizos conocidos por el personaje seleccionado. 
+                      aparecerá.  A la derecha de cada hechizo está su coste. 
+                      en puntos de hechizo y gemas (es decir, 12/2 significa 12 hechizos
+puntos y 2 gemas).  Seleccione el hechizo deseado y 
+                      presione Entrar.  El hechizo ya está listo para ser lanzado.
+R Descanso.              Restaura los puntos de vida y los puntos de hechizo del grupo. 
+                      siempre que haya al menos un alimento para cada miembro 
+                      del partido.  De izquierda a derecha, sólo el número de 
+                      miembros del grupo igual a la cantidad de comida del grupo 
+                      ser restaurado.  Algunas condiciones empeoran con el reposo y 
+                      puede hacer que un personaje muera.  Tenga cuidado cuando 
+                      descansando.  A la mayoría de los monstruos les encanta devorar a los dormidos. 
+                      aventureros.
+B-golpe.              Usando el poder combinado de los dos primeros conscientes 
+                      miembros del partido, intentos de derribar puertas cerradas, 
+                      rejas y paredes delgadas que esconden pasadizos secretos.
+D Descartar.           Devuelve a cualquier miembro del grupo a la posada donde 
+                      El personaje aparece en la lista.  Al menos uno 
+                      El personaje siempre debe permanecer en el grupo.
+V - Ver misiones.      Muestra la ventana de Misión actual y las notas de Corak. 
+                      en el área circundante.
+M - Automapa.          Muestra el mapa del área actual.  Sólo activo si 
+                      al menos un personaje tiene la habilidad Cartografía.
+I - Información.      Muestra la ventana de información del juego, que enumera el día. 
+                      del año, hora del día, año y día de la semana.  esto 
+                      La ventana también enumera los hechizos que están actualmente 
+                      activo, como Light.
+Q - Referencia rápida.  Muestra el cuadro de referencia rápida, que enumera los 
+                      estadísticas vitales del partido, oro, gemas y comida.
+
+Lugares Importantes
+
+Esparcidos por las islas, hay lugares importantes para visitar que pueden ser 
+muy útil en el desarrollo del personaje:
+
+* Posadas Crea, almacena, agrega y elimina personajes, adquiere 
+                    asalariados.
+* Los templos curan y desenredan a los personajes.
+* Herreros Compra, vende, identifica y repara artículos.
+* Campos de entrenamiento Entrena para aumentar el nivel de un personaje.
+* Tabernas Compra comida, escucha rumores, escucha consejos.
+* Gremios Aprende hechizos (con membresía).
+* El banco almacena de forma segura el exceso de oro y gemas (y gana intereses).
+
+combate 
+
+Cuando un oponente ocupa la misma casilla que el grupo, el combate cuerpo a cuerpo 
+se inicia.  Mientras está en combate, el movimiento se limita a girar a la izquierda o 
+correcto.  Puedes enfrentarte a hasta tres oponentes en combate cuerpo a cuerpo con 
+otros esperan en fila para tener una oportunidad contigo.  Selecciona qué oponente 
+desea apuntar presionando 1, 2 y 3, o haciendo clic con el puntero del mouse en 
+el nombre o la imagen del oponente.  El nombre del oponente objetivo será
+rodeado por una caja.  Los golpes exitosos a un oponente están representados por 
+salpicaduras rojas en la imagen del oponente.  Cuanto mayor sea el daño causado, más 
+más grande el splat.  Las armas y hechizos mágicos pueden causar daño adicional. 
+representado por diferentes salpicaduras.
+
+Aparecen nueve opciones en la ventana de opciones de la pantalla del juego:
+
+F - Pelea rápida.  Lucha contra los oponentes usando el Quick Fight actual. 
+    configuración de opciones.  Seleccione este icono con el botón izquierdo del ratón para
+    superar rápidamente los ataques del partido.  Pulsando el botón derecho del ratón 
+    El botón mientras estás en Combate también seleccionará Lucha rápida.
+
+C - Reparto.  Igual que en el modo aventura.
+
+A - Ataque.  Ataca al oponente objetivo con cualquier arma que tenga.
+             personaje ha equipado.
+
+U - Uso.  Abre la ventana de Objetos, donde un personaje puede equiparse o
+          eliminar elementos o utilizar la habilidad especial de un elemento.
+
+R - Corre.  Si tiene éxito, el miembro del grupo resaltado correrá a una caja fuerte.
+          ubicación cercana y volver a unirte al grupo después de la batalla.
+
+B - Bloque.  El miembro del grupo resaltado intentará bloquear el
+            próximo ataque del oponente.
+O - Opciones de vuelo rápido.  Un miembro del grupo puede ser configurado para atacar, lanzar un
+                           Hechizo, bloqueo o ejecución preparados cuando el Rápido 
+                           La opción de pelea está seleccionada.
+
+I - Información.  Igual que el modo aventura.
+
+Q - Referencia rápida.  Igual que el modo aventura.
+
+Creación de personajes 
+
+* Ingrese a una Posada, firme el registro y seleccione Crear.
+* Seleccione el retrato de un personaje usando las teclas de flecha arriba y abajo para desplazarse 
+  a través de las caras disponibles.  Debes eliminar los personajes pre-rollados en 
+  para poder usar sus caras.
+* Obtenga nuevos valores estadísticos presionando la tecla R o haciendo clic con el mouse en 
+  el icono.
+* Las estadísticas se pueden intercambiar tantas veces como desees.  Seleccione un 
+  estadística (como Might).  A continuación seleccione la estadística que desea 
+  intercambiar con (como la Suerte).  El valor que era Poder ahora es Suerte y 
+  viceversa.
+* Cuando estés satisfecho con las estadísticas, selecciona una clase de personaje por 
+  usando las teclas de flecha izquierda y derecha para mover el puntero hacia arriba y hacia abajo 
+  lista y presionando Enter.
+* Seleccione una alineación usando las teclas de flecha izquierda y derecha para mover la 
+  puntero hacia arriba y hacia abajo en la lista y presionando Enter.
+* Selecciona Crear y dale un nombre a tu personaje.
+* El personaje ha sido agregado a la lista de la Posada y se puede ver. 
+  saliendo de la pantalla de creación de personajes.
+
+Ver personaje 
+
+Para ver las estadísticas de un personaje, presione F1 - F8 o haga clic en el personaje. 
+retrato.  Mientras estás en las ventanas Ver personaje, Lanzar hechizo y Elemento, presiona F1 - 
+F8 o haz clic en el retrato de un personaje para ver la información de otro 
+miembro del partido.
+
+Cada uno de los elementos en la ventana Ver personaje tiene un ícono y un número. 
+que representa el valor actual de esa estadística.  Seleccionando un 
+La estadística proporciona información más detallada.  Generalmente, cuanto mayor sea el 
+Cuanto mayor sea el número, más poderoso será el personaje.
+
+Yo - Artículo. Muestra el contenido del paquete de un personaje.  Cuando están equipados, todos
+          Los elementos tienen un pequeño icono a su izquierda que muestra qué parte de 
+          el cuerpo que ocupan y si son de una o dos manos 
+          armas.  Se debe utilizar el sentido común al equipar objetos.  uso 
+          las teclas de flecha arriba y abajo para desplazarse por la lista de elementos.  
+          Las armas y armaduras deben estar equipadas con la opción Equipar antes 
+          se reciben sus beneficios.  La opción Usar permite que un personaje 
+          para hacer uso de las habilidades especiales o mágicas de ciertos elementos.  
+          La opción Descartar elimina permanentemente un elemento de la lista. 
+          paquete del personaje.  Para darle un objeto a otro personaje, selecciona 
+          el elemento, luego selecciona el personaje al que deseas dárselo.
+
+E - Intercambio. Permite que dos personajes intercambien posiciones en el grupo.  un
+              Aparecerá una ventana que preguntará: "¿Intercambiar con quién?"  Seleccione el
+              personaje con el que deseas intercambiar lugares.  Personajes
+              en el extremo derecho de la ventana Retrato del personaje están
+              menos vulnerable.
+
+Estadísticas de personajes 
+
+Poder Afecta el daño infligido en combate.
+Intelecto Afecta los puntos de hechizo ganados por nivel. (Hechiceros, Arqueros, 
+              Guardabosques y Druidas)
+La personalidad afecta los puntos de hechizo ganados por nivel. (Clérigos, Paladines,
+              Guardabosques y Druidas)
+La resistencia afecta los puntos de vida ganados por nivel.
+Velocidad Afecta la clase de armadura y el orden de batalla en combate.
+Precisión Afecta las posibilidades de acertar en combate.
+La suerte siempre ayuda de formas misteriosas.
+Las estadísticas del personaje Edad A se ven afectadas según su edad. 
+              aumenta.
+Nivel Poder relativo de un personaje.
+Habilidad defensiva de clase de armadura.
+Puntos de vida Cantidad de daño que un personaje puede soportar antes de morir.
+Puntos de hechizo Capacidad diaria total para lanzar hechizos.
+Habilidades Habilidades especiales adquiridas durante la aventura.
+Premios Registro de logros y misiones completadas.
+Experiencia Un total acumulado de la elegibilidad de un personaje para entrenamiento.
+              y avance.
+Condición Descripción de la salud de un personaje.
+
+Fin ............
+==============================================================================
+
+Documentos para Might And Magic III
+
+                ---- Modo Aventura ----
+
+
+Para moverte por el mundo de Might and Magic III, utiliza la flecha
+teclas o el puntero del mouse en la ventana de visualización. El arriba y el abajo
+Las teclas de flecha mueven al grupo hacia adelante y hacia atrás, y las teclas Izquierda y
+Las teclas de flecha derecha giran el grupo hacia la izquierda y hacia la derecha. Manteniendo presionado el
+tecla Control mientras presiona la tecla Izquierda o Derecha se desplaza hacia un lado
+fiesta sin voltear. Espere (pase) presionando la barra espaciadora.
+Esto permite que pase el tiempo y que los monstruos avancen. el tiempo no
+adelantar al girar a la izquierda o a la derecha.
+
+Aparecen nueve opciones en la ventana de opciones de la pantalla del juego:
+
+S - Disparar: los miembros del grupo con armas de misiles equipadas los disparan.
+	   De frente, siempre que no haya obstáculos.
+
+C - Lanzar: muestra la ventana Lanzar hechizo. Todos los lanzadores de hechizos
+	   ten un hechizo listo. Para lanzar el hechizo preparado, seleccione Lanzar nuevamente.
+           Para cambiar el hechizo preparado, seleccione Lanzar nuevamente. para cambiar el
+           Hechizo preparado, seleccione Nuevo. Una lista de todos los hechizos conocidos por
+           Aparecerá el personaje seleccionado. A la derecha de cada hechizo
+           es su costo en puntos de hechizo y gemas (es decir, 12/2 significa 12 hechizos
+           puntos y 2 gemas). Seleccione el hechizo deseado y presione ENTER.
+           El hechizo ya está listo para ser lanzado.
+
+R - Descanso: Restaura los puntos de vida y los puntos de hechizo del grupo, siempre que existan.
+           Hay al menos un alimento para cada miembro del grupo.
+           De izquierda a derecha, sólo el número de miembros del partido igual a
+           Se restaurará la comida de la fiesta numérica. Algunas condiciones empeoran
+           con descanso y puede provocar la muerte de un personaje. Tenga cuidado al descansar.
+           A la mayoría de los monstruos les encanta devorar a los aventureros dormidos.
+
+B - Bash: Usando el poder combinado de los dos primeros miembros conscientes del grupo,
+           intenta derribar puertas cerradas, rejas y paredes delgadas que
+           ocultar pasadizos secretos
+
+D - Descartar: Devuelve a cualquier miembro del grupo a la posada donde aparece ese personaje.
+             en la lista. Al menos un personaje debe permanecer siempre en
+             la fiesta.
+
+V - ViewQuests: muestra la ventana de Quest actual y las notas de Coraks en el
+                zona circundante.
+
+M - Automap: Muestra el mapa del área actual. Sólo activo si al menos
+             un personaje tiene la habilidad Cartografía.
+
+I - Información: Muestra la ventana de información del juego, que enumera el día del
+                 año, hora del día, año y día de la semana. Esta ventana también
+                 enumera los hechizos que están actualmente activos, como la luz.
+
+Q - Quickrefernece: muestra el cuadro de referencia rápida, que enumera las partes
+                    estadísticas vitales, oro, gemas y alimentos.
+
+
+                ----- Lugares importantes ------
+
+Repartidos por las islas, hay lugares importantes para visitar.
+que puede ser muy útil en el desarrollo del personaje:
+
+*Posadas Crea, almacena, agrega y elimina personajes, adquiere asalariados.
+*Los templos curan y desenredan a los personajes.
+*Herreros Compra, vende, identifica y repara artículos.
+*Campos de entrenamiento Entrena para aumentar el nivel de un personaje.
+*Tabernas Compra comida, escucha rumores, escucha consejos.
+*Gremios Aprende hechizos (con membresía).
+*El banco almacena de forma segura el exceso de oro y gemas (y gana intereses).
+
+-Computación del Nuevo Mundo-
+Felicitaciones de The Necromancer: miembro de RUSH USA/FLT
+
+------------------------------------------------------------------------------
+
+CORREGIDO POR [RYGAR] ------ Combate ------
+
+	Cuando un oponente ocupa la misma casilla que el partido,
+El combate cuerpo a cuerpo es irritante. Durante el combate, el movimiento es
+limitado a girar a la izquierda o a la derecha. Puedes enfrentar hasta tres
+oponentes en combate cuerpo a cuerpo con otros esperando en fila para
+su oportunidad para ti. Selecciona a qué oponente deseas apuntar
+presionando 1, 2 y 3, o haciendo clic con el puntero del mouse en el
+el nombre o la imagen del oponente. El nombre del oponente objetivo será
+rodeado por una caja. Los golpes exitosos a un oponente son
+representado por salpicaduras rojas en la imagen del oponente. el
+Cuanto mayor sea el daño causado, mayor será el splat. Armas magicas
+y los hechizos pueden causar daño adicional representado por diferentes
+salpicaduras.
+
+Aparecen nueve opciones en la ventana de opciones de la pantalla del juego:
+
+F - Quick Fight: lucha contra los oponentes usando el Quick Fight actual.
+                 Configuración de opciones de lucha. Manteniendo presionado el botón del mouse mientras
+                 el puntero está en el ícono Quick Fight y se ejecutará rápidamente
+                 a través de los ataques del partido.
+
+C- Elenco: Igual que en el modo aventuras.
+
+A- Ataque: Ataca al oponente objetivo con cualquier arma que tenga.
+           personaje ha equipado.
+
+U- Uso: Abre la ventana de Objetos, donde un personaje puede equiparse con un bastón o
+        eliminar elementos o utilizar la habilidad especial de un elemento.
+
+R- Ejecutar: si tiene éxito, el miembro del grupo resaltado correrá hacia una caja fuerte.
+        Me ubico cerca y me uno al grupo después de la batalla.
+
+B- Bloquear: el miembro del grupo resaltado intentará bloquear el
+           próximo ataque del oponente.
+
+O- Opciones de vuelo rápido: un miembro del grupo puede configurarse para atacar, lanzar un
+                         Hechizo, bloqueo o carrera preparados cuando el Quick Fight
+                         La opción está seleccionada.
+
+I- Información: Igual que el modo aventuras.
+
+Q- Re@ere@ce rápido. Igual que el modo aventura.
+
+                   --- Creación de personajes ---
+
+* Ingrese a una Posada, firme el registro y seleccione Crear.
+
+* Seleccione el retrato de un personaje usando las teclas Arriba y Abajo.
+  teclas de flecha para desplazarse por las caras disponibles. debes
+  eliminar personajes pre-rollados para poder usar sus caras.
+
+* Roll nuevos valores estadísticos presionando la tecla R o haciendo clic en el
+  ratón sobre el icono.
+
+* Las estadísticas se pueden intercambiar tantas veces como desees.
+  Seleccione una estadística (como Podría). A continuación seleccione la estadística
+  con el que te gustaría intercambiar (como Luck). El valor que
+  Lo que antes era poder ahora es suerte y viceversa.
+
+* Cuando esté satisfecho con las estadísticas, seleccione una
+  Clase de personaje usando las teclas de flecha izquierda y derecha para moverse
+  el puntero hacia arriba y hacia abajo en la lista y presionando Enter.
+
+* Seleccione una alineación usando las flechas izquierda y derecha
+  teclas para mover el puntero hacia arriba y hacia abajo en la lista y presionando
+  Entra.
+
+* Selecciona Crear y dale un nombre a tu personaje.
+
+* El personaje ha sido agregado a la lista de la Posada.
+  y se puede ver saliendo de la pantalla de creación de personajes.
+
+                 ----- Poder y Magia III -----
+
+Felicitaciones del Nigromante
+
+------------------------------------------------------------------------------
+
+CORREGIDO POR [RYGAR] ------ Primeros pasos -------
+
+Después de la secuencia de introducción (que puede omitirse
+presionando Escape) tendrás la opción de iniciar un nuevo juego
+o cargar una partida guardada. Presiona S para comenzar un nuevo juego. lo harás
+Comienza tu aventura en el centro del primer pueblo con un
+Grupo de seis personajes totalmente equipados. Puedes empezar inmediatamente
+jugando o ve a la posada para crear tu propio grupo de personajes.
+
+Pulsa L para cargar una partida guardada. Aparecerá una ventana enumerando los
+nombres de todos tus juegos guardados y el nivel más alto de personaje en
+la fiesta. Selecciona el juego que deseas cargar.
+
+
+                ------ Panel de control -------
+
+Para abrir la ventana del Panel de control, presione la tecla Tab o haga clic en
+en la gema grande en la parte inferior central de la ventana de visualización. el
+El nombre del juego actual se muestra en la parte inferior de la
+Ventana del Panel de control. Las opciones disponibles se enumeran a continuación.
+
+E - Efectos: Activa y desactiva los efectos de sonido.
+M - Música: enciende y apaga la música.
+D - Retraso: Le permite configurar el retraso en la visualización del texto de 0 a 9
+L - Cargar: Te permite cargar una partida guardada.
+S - Guardar: te permite guardar el juego actual en su ubicación actual.
+           El juego se guarda automáticamente cuando el grupo ingresa a una posada.
+Q - Salir: Sale de Might and Magic III y sale a DOS.
+W - Ayuda: Devuelve el grupo a Fountain Head y elimina 1 nivel de experiencia.
+           de cada personaje. (Sin penalización para personajes de 1er nivel).
+
+
+                      --- Navegando por Windows ---
+
+Hay cuatro formas de seleccionar opciones en las distintas ventanas.
+en Poder y Magia III.
+
+*:* Haga clic con el puntero del mouse en el ícono de la opción que desee.
+
+*:* Si hay una letra en el nombre de la opción que es de un color diferente
+        que el resto de la palabra (generalmente la primera letra), escriba
+        esa letra del teclado.
+
+*:* Si hay un resaltado que rodea el ícono de la opción, presione
+        Ingrese para seleccionar esa opción. Utilice las teclas de flecha para mover el
+        resaltar otras opciones.
+
+*:* Si hay un número a la izquierda de una opción o elemento, presione
+        ese número en el teclado, o haga clic con el puntero del mouse en el
+        nombre del artículo.
+
+Para opciones que requieren una respuesta Sí/No, presione Y para sí, N para no,
+o haga clic en el icono.
+
+Se puede salir de la mayoría de las ventanas presionando la tecla Escape.
+
+Los valores estadísticos cambian de color dependiendo de su valor actual
+respecto a su valor máximo. Gemas de personajes y monstruos.
+los nombres cambian de color en relación con su número actual de visitas
+puntos en comparación con su número máximo normal. los cinco colores
+y sus significados son: Gris - Por encima del máximo, Verde - Máximo
+(normal), Amarillo: por debajo del máximo, Rojo: por debajo del 25 % del máximo,
+Azul: 0 o menos.
+
+                ------ Poder y Magia III --------
+Felicitaciones de The Necromancer: miembro de RUSH USA/FLT
+
+------------------------------------------------------------------------------
+
+CORREGIDO POR [RYGAR] --- Pistas de M & M III ----
+
+QB: ¿Qué es un partido eficaz?
+
+van Caneghem: Hacer que el grupo sea lo más diversificado posible, con una
+
+miembro de cada raza y tantas clases diferentes como sea posible.
+Las habilidades secundarias son fundamentales, así que consigue tantas como sea posible. tu
+querer
+
+alguien con Danger Sense y alguien con Detect Secret
+Pasajes de inmediato. Lo siguiente que necesitas es alguien con Pathfinding y
+Montañismo, para adventt@ring al aire libre. Lea el manual y
+experimenta con diferentes personajes, porque algunas carreras comienzan
+con habilidades secundarias.
+
+QB: ¿Qué tal algunas pistas de "impulso" para el juego inaugural?
+
+vanCaneghem: Los personajes de primer nivel pueden usar la opción Mr. Wizard
+para salir del apuro, ya que no sufren la penalización habitual
+que baja un nivel a cada personaje. Así que hasta que tus personajes golpeen
+En el nivel dos, puedes experimentar más libremente.
+
+	Termina las mini-misiones en Fountain Head de inmediato y luego
+ve a la cueva debajo de ella. Para pistas y objetos útiles, tome como
+tantas calaveras como sea posible al avaro. Para el oro, b19h el 92c72t
+Estará a la vuelta de la esquina de la posada (prepárate para una batalla).
+Hay una mazmorra fuera de la primera ciudad, sólo un poquito
+al sur, que es el siguiente lugar a visitar. El hechizo de la bola de fuego
+Está en el Templo de Moo allí, en un lugar escondido en el
+tramo centro-norte.
+
+	El hechizo Dragonbreath es otro buen hechizo: te permite
+Elige qué elemento quieres respirarle al enemigo. si tu
+Sabes que un monstruo es inmune al frío, lanza Dragonbreath y configúralo.
+para electricidad. La ubicación de ese hechizo aún no ha sido decidida.
+Así que vamos a arreglarlo ahora mismo. Bien, pongámoslo en w1714ck h3ll.
+
+	Para puntos de vida temporales que duran un día o hasta un
+batalla, aprende a nadar (debajo de Fountain Head), luego ve a la isla
+en la laguna al sur de la ciudad. .
+
+Sugerencias: Felicitaciones del Necromacner
+
+------------------------------------------------------------------------------
+
+CORREGIDO POR [RYGAR] ---- Ver personaje -----
+
+Para ver las estadísticas de un personaje, presiona F1 - F8 o haz clic en el
+retrato del personaje. mientras
+
+en las ventanas Ver personaje, Lanzar hechizo y Elemento, presione F1 - F8 o
+haz clic en el retrato de un personaje para ver la información de
+otro miembro del partido.
+
+Cada uno de los elementos en la ventana Ver personaje tiene un ícono y un
+número que representa el valor actual de esa estadística.
+Seleccionar una estadística proporciona información más detallada.
+Generalmente, cuanto más altos sean los números, más poderoso será el
+personaje.
+
+I- Elemento: Muestra el contenido de un paquete de personajes. Cuando están equipados, todos
+         Los elementos tienen un pequeño icono a su izquierda que muestra qué parte del
+         cuerpo que ocupan y si son armas de una o dos manos
+         Se debe utilizar el sentido común al equipar objetos. Utilice el arriba y
+         Teclas de flecha hacia abajo para desplazarse por la lista de elementos. armas y
+         La armadura debe estar equipada con la opción Equipar antes de sus beneficios.
+         son recibidos. La opción Usar permite que un personaje haga uso
+         de las habilidades especiales o mágicas de ciertos elementos. el
+         La opción Descartar elimina permanentemente un elemento de la lista del personaje.
+         paquete. Para darle un objeto a otro personaje, selecciona el objeto y luego
+         Selecciona el personaje al que deseas dárselo.
+
+E - Intercambio: permite que dos personajes intercambien posiciones en el grupo. un
+              Aparecerá una ventana que preguntará: "¿Intercambiar con quién?" Seleccione el
+              personaje con el que deseas intercambiar lugares.Personajes
+              en el extremo derecho de la ventana Retrato del personaje están
+              menos vulnerable.
+
+                    ----- Estadísticas de personajes -----
+
+Poder: Afecta el daño infligido en combate.
+Intelecto: Afecta los puntos de hechizo ganados por nivel. (Hechiceros,
+             Arqueros, guardabosques y druidas)
+Personalidad: Afecta los puntos de hechizo ganados por nivel. (Clérigos, Paladines,
+             Guardabosques y Druidas)
+Resistencia: Afecta los puntos de vida ganados por nivel.
+Velocidad: Afecta la clase de armadura y el orden de batalla en combate.
+Precisión: Afecta las posibilidades de acertar en combate.
+Suerte: Siempre ayuda de formas misteriosas.
+Edad: las estadísticas de un personaje se ven afectadas a medida que aumenta su edad.
+Nivel: Poder relativo de un personaje.
+Clase de armadura: habilidad defensiva.
+Puntos de vida: cantidad de daño que un personaje puede soportar antes de morir.
+Puntos de hechizo: capacidad diaria total para lanzar hechizos.
+Habilidades: Habilidades especiales adquiridas durante la aventura.
+Premios: Registro de logros y misiones completadas.
+Experiencia: un total acumulado de la elegibilidad de un personaje para el entrenamiento.
+             y avance.
+Condición: Descripción de la salud de un personaje.
+
+Fin..........
+=====================================================================================
+                           Poder y Magia ]I[ Diario
+
+                          Un paso por las islas
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   El diario de Corak el Misterioso
+
+   Soy Corak, llamado el Misterioso, y estos son mis garabatos mientras
+   Viajó a través de las Islas de Terra en busca de tradiciones olvidadas. tomar
+   ellos como ayuda en la aventura que tienes por delante, porque estas islas no son todas
+   así parece serlo, y detrás del manto de la leyenda, a menudo se ve la verdad.
+
+       Desde los rincones del brumoso vacío
+       Sonó fuerte el grito de batalla
+       Los señores elementales de cuatro
+       Había jurado luchar y morir
+
+       Fuego, Agua, Aire y Tierra
+       Se encontró con su poder y fuerza
+       Y en sus batallas lodo sangriento
+       Encontré nuestra tierra su fuente
+
+
+   Segundo día de luna nueva, 491 en la ciudad de Wildabar
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Han pasado cuatro años desde la última vez que me propuse explorar una nueva
+   aterriza y descubre la tradición y las fábulas ocultas que rodean su
+   pueblos y castillos. La hinchazón de espíritu provocada por el
+   contar estas historias de heroísmo y valentía más allá de toda esperanza es
+   el hilo de la magia tejido en las mentes y los corazones de todos los que
+   mucho tiempo para responder al llamado de la aventura, y es por esto
+   propósito, preservar esa chispa mágica, a la que he dedicado mi
+   esfuerzos para registrar estos cuentos.
+
+   De los rumores y murmuraciones que he oído pasar
+   Wildabar, estas islas son ricas en historias de este tipo. mientras habla
+   A un anciano de la ciudad me habló de una antigua rima leída una vez antes.
+   fiestas que contenían la leyenda de la misteriosa concepción
+de las islas, una leyenda que hoy circula por la tierra,
+   pero alterado a través de los años desde la publicación del pergamino original.
+   desaparición. Me leyó una parte que grabó antes del
+   El original desapareció y me dijo lo que recordaba del resto.
+   del cuento. Otras partes, dijo, pueden grabarse a través del
+   islas.
+
+   La epopeya fue escrita en tres partes y el fragmento que me dio
+   fue desde el primero, en el que se contiene un relato de la
+   nacimiento de las islas a partir de una gran batalla entre poderosos señores
+   de los cuatro elementos que utilizaron tormentas feroces para luchar por el poder supremo.
+   control del Vacío, un lugar donde no había tierra ni cielo ni
+   océano. Agua, Fuego, Aire y Tierra se encontraron en este Vacío vacío.
+   luchar por el derecho a llenarlo con su presencia, pero así
+   Si estuvieran igualados en esta batalla, nadie podría derrotar al
+   otros, ni ninguno podría dejar de luchar para que no se rompiera el equilibrio y
+   ser invadido por los demás. Se habían quedado encerrados en un eterno
+   guerra de la que nadie podía dar la espalda. Y mientras la guerra continuaba a lo largo del
+   décadas, en medio del Vacío donde las consecuencias del
+   poderosas tormentas se reunieron y se asentaron, una tierra rica comenzó a
+   desarrollarse. De dónde, nadie lo sabe, pero aparecieron bestias pastando
+   los campos de la nueva tierra y refugiarnos en sus bosques y
+   cavernas. Los señores elementales no prestaron mucha atención a estos tontos.
+   bestias porque había poca amenaza en sus vagabundeos. ellos eran
+   visto como nada más que las moscas que se reúnen alrededor de un caído
+   animales. Así que la guerra continuó con tormentas cada vez más intensas que añadieron
+   a la riqueza de la tierra en ciernes.
+
+   Pero entonces apareció misteriosamente una nueva criatura en el Vacío, no
+   tontos como las bestias, pero inteligentes en la manera de cultivar la materia prima
+   marga del campo de batalla en un rico proveedor de alimentos y
+   refugio. Aunque fue difícil y costoso en medio de la
+   furiosas tormentas de batalla, un continente se forjó en la niebla
+   Vacío.
+
+           En los bosques y valles se asentaron vivaces criaturas de gran
+   influencia. delgados y fuertes, los Elfos se sentían como en casa entre
+   los árboles y los campos de verde.
+
+           Aunque eran más débiles en resistencia que algunos, eran
+   Poseído de una gran aptitud para las artes mágicas y la resistencia.
+   a su poder y energía.
+
+           Y en las zonas nevadas de frío glacial se encontraron los Gnomos
+   su hogar. Al igual que los elfos, eran fuertes de mente, no de cuerpo.
+   y un poco más proclive a los caminos de la magia. Pero a diferencia del
+   Elfo inquietante, el Gnomo era muy alegre y rápido para hacer amigos.
+
+           Debido a la dureza del terreno nevado sus
+   El rostro se endureció a los elementos, y más aún a
+   magia.
+
+           Así viajó entonces el Enano bajo el sol del desierto. Pequeño pero
+   poderosos sobrevivieron en la agitación de la tormentosa guerra por poco
+   del reino elemental no podría hacerles ningún daño. Después de todo, sería
+   Toma una criatura fuerte para encontrar una vida próspera en las tierras de arena.
+   Con poco poder sobre la magia, los enanos encontraron su fuerza en
+   soledad entre las dunas.
+
+   Y en los pantanos y ciénagas se instaló un pueblo tribal de gran
+   fuerza y resistencia. Tan fuertes eran que el fuego, eléctrico
+   y el frío difícilmente podría dañarlos. Porque les faltaba la grandeza
+   mente para la magia, tenían que confiar en su capacidad para luchar para
+   sobrevivir, y esa habilidad se desarrolló a grandes alturas, porque
+   Los semiorcos vivían para la batalla y veían al oponente de los hombres como el
+   el mayor de los esfuerzos.
+
+   Pero dispersos en las muchas diversidades de la nueva tierra encontrada
+   Los humanos vagaron y se hicieron lugares entre todos los demás.
+   Capaz de resistir a todo, los elementos y las magias, y aprendido en el
+   caminos de las artes místicas, estaban bien equipados para establecerse donde
+   deseaban. Pronto prosperaron en toda la tierra y con los demás.
+   Comenzó a domesticar a las bestias y a cultivar los campos.
+
+   Con la llegada de estos conquistadores de tierras, los señores Elementales
+se dio cuenta de que mientras luchaban entre ellos el premio mismo
+   por el cual fueron asesinados les fue arrebatado por
+   pequeños seres mortales que a sus ojos no eran mejores que los
+   bestias tontas. Cada uno intentaría vencer a los mortales con gran
+   tormenta, sino porque no pudieron eliminar demasiada fuerza
+   de la guerra los mortales pudieron resistirlos. De hecho,
+   las tormentas de los Elementales fueron menos severas que los efectos
+   de la guerra misma, por lo que los Elementales tuvieron que encontrar otra manera de
+   Purga el Vacío de estos intrusos. Entonces se llegó a un acuerdo para
+   detener la lucha por un día y dedicar todos sus poderes a
+   crear una gran tempestad de tal poder destructivo que nadie
+   Podría soportarlo incluso durante una hora.
+
+   El aire reunió el más fuerte de sus vientos para soplar el
+   arenas de la Tierra con tal fuerza como para arrancar la carne de
+   hueso mortal. Y el agua preparó un diluvio para lavar a los caídos.
+   mortales al centro del Vacío donde el Fuego luego hornearía el
+   fango en piedra sólida. Incluso combinados en total unidad los mortales
+   No podría sobrevivir a un día de tal torrente. Había tan pocas esperanzas
+   allí que en las horas más oscuras antes de la gran destrucción todos
+   simplemente se quedaron en sus hogares condenados y la impotencia en
+   sus corazones lanzaron el mayor clamor de misericordia que jamás haya existido en el mundo.
+   conocido.
+
+
+   Cuarto Día de la Luna Nueva 491 - Comienza la Búsqueda
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Después de buscar la oportunidad adecuada, finalmente encontré
+   un grupo con el que recorrer las islas en busca de las piezas perdidas
+   de la leyenda. Una banda de cuatro luchadores y un sanador han
+   me alistaron como su imagen, sin conocer la plenitud de mi
+   poder. Debemos viajar a Swamp Town y recibir un pergamino que
+   Luego lo entregaremos en Fountain Head. El líder del partido,
+   Asa Milchima, ha aceptado tomar un curso circular para permitirme una
+   búsqueda más amplia de las piezas perdidas. Estaremos viajando a través
+   la mayoría de las islas, omitiendo sólo las más pequeñas. yo seré
+   recibir una parte menor de la recompensa por entregar el
+   desplazarse, pero es la búsqueda y descubrimiento esperanzador de olvidados
+   saber que me llama a esta aventura, no las promesas de
+   riqueza.
+
+   Suponiendo que todo esté en orden, mañana partiremos hacia el
+   Islas de la Ilusión donde buscaré los dos castillos que se dice que están
+   tendido en ruinas sobre la arena. Desde allí viajaremos a
+   Buzzard Bluff donde acamparemos para pasar la noche. Al día siguiente nosotros
+   viajará a través de Evermoors y hacia el norte hasta Swamp Town, encontrará
+   el pergamino y muy probablemente pasar una noche agradable en un local
+   posada.
+
+   Desde allí lideraré la expedición al Bosque de la Serpiente, el
+   lugar de asentamiento original de los Enanos, y a través del
+   Islas Heladas donde acamparemos una segunda noche. Luego vamos a
+   Leper Canyon y directo a Fountain Head. Cuatro días planean,
+   pero es probable que se duplique.
+
+
+   Quinto día de luna nueva, 491 - Partida
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Hoy, después de mucha preparación iniciamos nuestro viaje a través del
+   Islas de Terra. Este grupo al que me he unido es mucho más poderoso que
+   Antes lo había creído. En lugar de alquilar un barco como lo había hecho
+   Pensé que lo haríamos, el sanador, Rapha, se paró en la orilla del agua.
+   donde la tierra se encuentra con el océano y estiró sus brazos. todo fue
+   Se quedó quieta por un momento, luego un viento extraño sopló en las esquinas de su
+   bata y parecía haber una perturbación en las aguas. niebla
+   rodó hacia adentro, espeso y asfixiante, y en medio de él apareció un
+   galeón fantasmal cabalgando sobre las crecientes olas. Fue realmente un
+   La vista más impresionante y un poco desconcertante también. el fantasma
+   El barco nos llevó a través de las aguas hasta la más cercana de las Islas de
+   Ilusión donde ahora estamos descansando antes de entrar al castillo
+   ruinas, pero todavía no sé de dónde vino ni hacia dónde
+   regresó, porque tan pronto como llegamos a la orilla se alejó
+en el silencio de la niebla.
+
+   Es de mal augurio que la primera batalla de una aventura termine en
+   muerte. Mientras buscábamos las ruinas del Castillo Greywind nos encontramos
+   un poderoso usuario de magia fantasma que había hecho su hogar en el
+   escombros. Atacó de inmediato sin previo aviso y envolvió a Rapha.
+   en un brillo rosado de energía, drenando toda la vida de ella. asa
+   Milchima respondió rápidamente lanzando un rayo desde el
+   ballesta a su lado, pero sólo atravesó la aparición.
+   Mientras los demás avanzaban, la figura fantasmal convocó a una enorme
+   y oso bestial y desapareció en un destello de luz. Asa Milchima
+   y Supha, el Ninja, sólo resultaron ligeramente heridos en la batalla con
+   la bestia, pero Rapha había sido nuestro sanador. Hice lo que pude por
+   los demás sin revelar todo el alcance de mis poderes, pero
+   La pérdida de Rapha es muy lamentable. La lealtad de este grupo.
+   es fuerte porque planean gastar su parte de la recompensa para
+   haz que la sanen en el templo de Swamp Town.
+
+
+   Sexto día de luna nueva, 491 - Camping en Buzzard Bluff
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Luego descendieron sobre la tierra Las Fuerzas de la Cúpula
+   Para prestar en la mano mortal poder antes desconocido
+
+   Cinco Fuerzas, ellas de poder y magia Dos campeones forjados por cada uno
+   Diez héroes hicieron la historia más trágica Para las bestias elementales
+
+   Esta noche reina un ambiente sombrío en el campamento, más sombrío que
+   las nubes que cubren la luna, más oscuras que las gruesas extremidades de
+   Árboles que esconden innumerables criaturas que miran desde fuera del círculo.
+   de luz de fuego. Ha estado lloviendo desde el mediodía y
+   Las gotas que caen han derribado los espíritus incluso de nuestros
+   corceles que patean nerviosamente. La pelea de ayer
+   todavía pesa en la mente de todos, incluido yo mismo, hecho
+   más pesado por la leyenda de la Muerte Alada que se dice que se alimenta de
+   viajeros de las Arenas Abandonadas. Debo admitir que incluso yo sentiré
+   alivio cuando esta noche no es más que un recuerdo. parece un
+   escenario lo suficientemente adecuado para reflexionar sobre la pieza de la leyenda que
+   encontrado en las ruinas del Castillo Greywind. Habla de la
+   intercesión de las Fuerzas de la Cúpula, las cinco Fuerzas que
+   dio a los hombres el poder de superar el ataque de los Elementales.
+
+       El cosmonio era esa fuerza que guiaba a los elementos y
+       otras formas de energía de un lugar a otro. aire, agua,
+       el fuego, la tierra y las energías eléctricas fueron comandados
+       y controlado.
+
+   Esoterica era el poder del yo interior, la energía de la vida.
+   y las formas de vida, con dominio de la mente y la capacidad
+   para curar e infligir.
+
+   Gaiam comandaba el orden de la vida en el bosque y en los cielos.
+   de los árboles y las nubes.  La manera y el temperamento de
+   la naturaleza y la voluntad de las bestias se inclinaron ante su influencia.
+
+   Bellum, que era la esencia de la guerra y la violencia que
+   se manifestó en los estados de ánimo más oscuros de las bestias y
+   cambios violentos del tiempo, como esta tormenta de esta noche.
+
+   Y Lurkane, esa hoja invisible y silenciosa de
+   poder clandestino que coló sus obras en el
+   mundo invisible.
+
+   Estas fueron las Fuerzas que observaron silenciosamente desde su posición
+   sobre las nubes mientras los Elementales luchaban. Según el
+   leyenda nunca se unieron a la lucha, pero cuando descubrieron el
+   El plan de Elemental para destruir a todos los hombres y bestias de los que tenían compasión.
+   los mortales indefensos y les dio los secretos de sus poderes
+   para defender sus vidas. Otros relatos del cuento dicen que las Fuerzas
+   de la Cúpula temía que los Elementales quedaran tan asombrados ante la
+   fuerza que poseían cuando unidos se unificarían
+   y atacarlos en su elevada morada, arrastrándolos hacia el
+   batalla sin fin. Por alguna razón, las Fuerzas
+   Nos enseñó a los mortales su poder, dos para cada Fuerza, y nos hizo
+   diez campeones para hacer retroceder a los Elementales antes de que pudieran
+   unir sus filas.
+
+   A un Elfo, Cosmonium le abrió los secretos de cómo se mueven los elementos
+a través del Vacío, dando control total sobre el fuego, el frío, la energía,
+   y electricidad. Con armadura acolchada y armado con un bastón, el
+   primer gran héroe se propuso dominar su control sobre el
+   elementos y creó muchos encantamientos poderosos para el
+   próxima batalla. Lo llamaron Hechicero. Recuerdo el
+   emoción de descubrir el poder y la belleza del rayo, mi
+   favorito personal. En mi juventud, acampar en una noche lluviosa con
+   un grupo de aventureros como esta noche oscura, a veces
+   Disparo un rayo a un árbol cercano solo para asustar a mis compañeros. un
+   acto que estoy seguro que nuestro camarada caído desaprobaría firmemente.
+
+   Y a otro de los kin Elfin Cosmonium le mostró el camino a
+   Haga que un eje de madera viaje recto y fiel a su marca.
+   Esta fue nombrada Arquera y ceñida con una armadura de cadenas fue
+   el segundo de los héroes en emerger. Debido a su común
+   origen ella pudo usar los hechizos creados por el Hechicero,
+   pero sólo en un grado limitado. La mayor parte de su energía se gastó
+   en el estudio del arco.
+
+           Luego, Esocerica tomó un Gnomo y la entrenó en
+   los caminos curativos, revelando los secretos de la mente
+   y cuerpo, desbloqueando el poder para hacer el bien o rendir
+   mala constitución. Un héroe más poderoso fue este,
+   —llamó la clérigo, ataviada con su cota de malla, su yelmo y su escudo.
+   Para curar al camarada caído y destruir al enemigo debilitado.
+   fue su promesa.
+
+   Otro Gnomo fue tomado así y le enseñó los métodos de curación, pero
+   También se dio mucho énfasis al uso de armas y armaduras. un
+   El más noble campeón llamado Paladín era él, y un enemigo temible.
+   para enfrentar. Vestido con la armadura más fuerte y empuñando el
+   armas de la verdad y el derecho, se convertiría en uno de los
+   la más grande de las figuras legendarias que inspira mucha tradición y muchos
+   seguidores.
+
+   Entonces Gaiam eligió al Enano para defender su causa.
+
+   Se revelaron muchos lenguajes, empatía con Plantas y bestias.
+   y los patrones de las estaciones y las estrellas. Secretos de la tierra viva.
+   dotado de una figura más bien pequeña para ordenar a las fuerzas de la naturaleza que
+   cumplir sus órdenes, al mando de grandes tormentas y ráfagas y
+   enjambres para luchar, pero también invocando lo natural
+   curación de la naturaleza para ayudar a los caídos. Tan devoto de la tierra como el
+   Clérigo al cuerpo, este nuevo llamado Druida
+   sacrificar su ser para mantener los órdenes de la naturaleza. En cuero
+   el druida viajó sin apenas una espada para blandir. una tormenta tal
+   ya que el de esta noche difícilmente sería digno del talento de tal
+   campeón.
+
+   Cuando la fuerza Gaiam dio empatía con el bosque a los Enanos
+   campeón al que llamaba Ranger, uno oscuro y misterioso era de hecho
+   creado. En casa, en la espesura de los árboles, contento con
+   entre la espesura de enredaderas y el desorden de arbustos, el Ranger estaba tan
+   diverso en humor como el bosque era diverso en criaturas. como el
+   primer héroe Ranger, nuestro propio Asa es propenso a cambios repentinos en
+   temperamento desde jovial y travieso hasta condenatorio y severo.
+
+   Bellum luego eligió al SemiOrco para ser el campeón de la espada.
+   Cíñete con la mejor armadura, yelmo y escudo, y con
+   las armas más poderosas entrenó en las artes de la guerra,
+   cuerpo a cuerpo y valor. Llamado el Caballero, se convirtió en el más fuerte.
+   de los campeones con mayores ganas de marchar
+   el campo de batalla.  Mientras que el Paladín buscaría la paz a través
+   luchar y encontrar la victoria en el rápido final de una guerra, el Caballero
+   anhelaba la hermandad de batalla y sentía un parentesco con todos
+   combatientes.
+
+   Y el segundo campeón hizo que Bellum se llamara Bárbaro, por
+   No era la hermandad lo que buscaba en la batalla sino la lujuria de
+   sangre. Con mayor resistencia de los héroes el Bárbaro.
+   Buscaba la emoción de lanzarse a la batalla.  Revestido sólo en escala
+   armadura, empuñó su escudo y su gran martillo contra el
+   ejércitos de sus enemigos. En todas las estatuas y tapices que tengo
+   visto dedicado a la imagen de este campeón ella se encuentra
+en lo alto de una montaña de guerreros caídos, un yelmo de cuernos sobre
+   su cabeza.
+
+   Entonces Lurkane, la última y más misteriosa de las fuerzas, tomó dos
+   humanos a su causa.  Primero le enseñaron a moverse en lo invisible.
+   Se pliega entre los lugares de aquí y de allá y viaja sin ser visto y
+   inaudito.  Conocido como el Ladrón, pudo accionar los mecanismos.
+   de cerraduras y trampas, esconderse en las sombras más débiles y avanzar
+   a sus enemigos para asestarles un puñal fatal en la espalda.
+   En cota de malla con escudo y daga, una ballesta colgando de
+   A su lado, se movía entre las hojas como una pluma.
+
+   Y el décimo campeón, hecho para la batalla, era fuerte en
+   todos los atributos de la aptitud y la mente. Llamado el Ninja,
+   Una guerrera más poderosa era ella con armas especiales.
+   creada especialmente para su dominio de las armas, un dominio
+   Ni siquiera igualado por el poderoso caballero.  Atado a un
+   vida de soledad, solo incluso entre los otros campeones,
+   su disciplina de cuerpo y mente consumía cada momento.
+   La llamaban la guerrera silenciosa porque poseía
+   el sigilo del ladrón, incluso en su cota de malla,
+   y nunca se supo que hablara.
+
+   Estos diez fueron los campeones de la guerra contra los Elementales,
+   donde al hombre mortal se le enseñaron las artes de la magia y los métodos de guerra.
+   las cinco Fuerzas de la Cúpula, Cosmonium, Esoterica, Gaiam, Bellum
+   y Lurkane, las Fuerzas que están por encima de las nubes, por encima del
+   estrellas, que de hecho guían a las estrellas en su viaje a través
+   la noche. Ahora mi tiempo de guardia ha terminado y Supha viene a relevar.
+   yo. Esta noche debo descansar bien porque mañana viajaremos a través del
+   Evermoors, y ese no es un lugar para estar cuando estamos cansados.
+
+
+   Séptimo día de luna nueva, 491 – En Swamp Town
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Hoy llegamos a Swamp Town después de un viaje sorprendentemente fácil.
+   a través de los Evermoors. Sólo hubo unas pocas batallas pequeñas a lo largo
+   el camino al encontrarnos con animales e insectos errantes.
+   Aunque el peligro era pequeño, fue un buen ejercicio, para cualquier
+   Un pequeño error podría costar caro.
+
+   Después de entrar por la puerta oeste de Swamp Town y encontrar al donante.
+   del pergamino que debemos llevar a Fountain Head, Rapha fue llevado
+   al Templo Sombra de Luna. Fue sólo por suerte que los demás habían
+   apenas alcanza para pagar los servicios de los monjes, ya que el barco
+   alquilamos para llevarnos desde Forsaken Sands a Evermoors
+   cavado profundamente en la bolsa de nuestras fiestas. La recompensa por entregar el
+   scroll difícilmente hará más que recuperar la tarifa de Rapha's
+   resurrección.
+
+   Con el regreso de Rapha, me alquilaron una habitación en la posada donde
+   Ahora siéntate y escribe estas notas. Los demás están relajados, ya que
+   estaban, en la taberna donde le están contando a Rapha todo lo que ha pasado
+   sucedió en los últimos dos días.
+
+   Mis esperanzas de encontrar más de la leyenda están fallando después de hablar.
+   a otros que he conocido en la ciudad. Mientras visitaba el gremio allí
+   Era uno que acababa de regresar de las Islas Congeladas donde había
+   estado buscando la rima él mismo. Me dijo que no habia
+   parte de ella se encontraba en las regiones del norte y era muy
+   Feliz de ver el fragmento que regresé de las ruinas del Castillo.
+   Viento gris. Le conté la historia que me contó el anciano de Wildabar.
+
+   Después de que la batalla terminó y los campeones usaron los poderes
+   las Fuerzas de la Cúpula les dieron para conducir a los señores Elementales a
+   los rincones del Vacío, las cinco Fuerzas recogieron la tierra que
+   había sido el campo de batalla y lo movió a través de los cielos, desde
+   las puertas de los Antiguos hasta las puertas de Terra, donde la tierra
+   estaba situada en medio del agua y dividida en islas. Mientras que el
+   Las fuerzas llevaban las islas a través de las estrellas los diez héroes
+   Construyó ciudades para proteger a la gente de los monstruos y bestias.
+   que vagaban por la tierra, y entrenaban a otros en las disciplinas
+   fueron otorgados por las Fuerzas iniciando una larga tradición de
+   habilidades que se han trasladado hasta nuestros días.
+Se construyeron grandes ciudades amuralladas para proporcionar refugio y protección.
+   del desierto exterior y ser un lugar de refugio para aquellos
+   aventureros que viajaron a través de la nueva tierra y trataron de domesticar
+   y conquistar su vida creciente. Fueron tiempos emocionantes de
+   aventura y valentía, pero se necesitaban lugares de
+   curación, comercio y entrenamiento, por eso en las ciudades se criaron
+   Viviendas donde se pueden disponer de todos los servicios que un aventurero necesita.
+   recibido. Había lugares de armamento, casas de cerveza y
+   fiestas, cinco casas de curación donde los misteriosos monjes que
+   los atendió rindió homenaje a las Fuerzas por salvarlos del
+   Elementales, terreno para entrenar habilidades de batalla, místico.
+   escuelas para aumentar las habilidades mágicas y lugares donde
+   los cansados podían descansar con seguridad y almacenar sus bienes y encontrar
+   otros para reemplazar a un compañero caído. Es en estos cimientos
+   que nuestras viviendas urbanas de hoy encuentren su origen.
+
+   En la herrería, los trabajadores del acero y el hierro forjaban nuevos
+   armas de destrucción y reparó los instrumentos rotos de
+   guerreros. Había un lucrativo comercio de mercancías de muchos lugares.
+   en el extranjero y todas las necesidades de las mazmorras al acecho, como cuerdas y
+   antorcha, se pudo encontrar. También era un lugar para encontrar los mejores
+   en armaduras y artículos de protección, y mecanismos desconocidos
+   o armas podrían ser identificadas y sus usos y valor
+   revelado. Por supuesto, el exceso en la mochila de un viajero
+   traer un precio lo suficientemente decente para pagar un buen rato en el
+   casas de cerveza.
+
+   La posada era un lugar donde los cansados podían descansar detrás de una puerta cerrada.
+   puerta y bajo un techo para protegerse de la lluvia que cae. Pero el
+   La posada fue creada como algo más que un lugar para tomar un muy necesario
+   parada en el viaje, para jóvenes aventureros que buscan la emoción de
+   La batalla y el descubrimiento de una riqueza incalculable podrían inscribirse en el registro.
+   y esperar a que una parte que necesita ayuda contrate sus servicios.
+   Muchas veces, cuando solicitas la ayuda de aquellos que te encuentras deambulando
+   los bosques, las cuevas y las ruinas, te pedirá que te encuentres con él en el
+   posada donde se había registrado por última vez antes de unirse a usted en su
+   búsqueda.
+
+   Se construyeron tabernas donde la cerveza fluía tan profusamente como los rumores.
+   de los labios sueltos de exploradores y guerreros que vinieron a
+   estos barrotes ruidosos por una curación que no se podía encontrar en el
+   templo. Era un lugar donde el oro se ponía en manos del tabernero.
+   podría revelar la pista para encontrar tesoros y fortunas indescriptibles.
+   Y cuando la manada del aventurero se quedó sin comida, podría ser
+   lleno de la especialidad de la casa. Después de todo, cuando uno
+   la fuerza se agota, descansar es de poco provecho cuando no hay
+   comida para reponer la carne.
+
+   Y para los guerreros caídos y heridos, templos de curación.
+   Fueron erigidos a las Fuerzas de la Cúpula. Cinco Fuerzas dieron a los mortales.
+   el poder de subvertir el diluvio y se construyeron cinco templos
+   para honrar sus poderes y ayudar a quienes cayeron en su servicio.
+   Los guerreros con cualquier aflicción podrían encontrar cura en el misterioso
+   monjes que cuidaban estos santuarios sagrados. La carne sería restaurada y
+   se levantaron las maldiciones. Y se creía que las bendiciones especiales
+   esperaba a quienes donaran una parte de su botín a estos
+   santuarios.
+
+   Pero aquellas porciones de oro y tesoros que no fueron donados
+   a los monjes sagrados estaban bajo constante amenaza de convertirse
+   botín ajeno, por lo que los constructores de las ciudades hicieron un fuerte y
+   Aseguró la jaula y encargó a fuertes golems que la protegieran. el banco
+   era necesario para mantener la riqueza de uno a salvo porque había,
+   incluso en aquellos emocionantes días posteriores a la victoria sobre el
+   Elementales, aquellos que se alimentarían de los más débiles pero más
+   suerte de sus semejantes. Aunque faliblemente seguro de
+   robo, el banco era más seguro que las tiendas de piel del
+   campamento de aventureros.
+
+   Para comerciar con otros en las formas que les muestran las Fuerzas del
+   Dome, los diez campeones también hicieron un gran campo de entrenamiento con
+pistas y arenas y todo tipo de dispositivos para mejorar
+   fuerza y resistencia. Por un precio, cualquier aventurero que hubiera venido
+   de una larga búsqueda o viaje podría buscar la ayuda de especialistas
+   en todas las artes de la batalla para avanzar en las habilidades del manejo de la espada,
+   tiro con arco y todos los demás métodos de combate cuerpo a cuerpo. La resistencia de una persona y
+   La resistencia en la batalla también podría mejorarse mediante las técnicas de
+   los dueños del terreno.
+
+   Y para aquellos que estudiaron las artes mágicas, misteriosos gremios
+   fueron construidos para entrenar al usuario de la magia para controlar las fuerzas.
+   A través de un estudio intenso se podría lograr un control más profundo del camino elegido.
+   Se pueden obtener y comprar nuevos encantamientos para expandir el poder del mago.
+   Habilidades y arsenal de hechizos. Estos eran lugares de gran
+   secretos y nadie más que los miembros de cada gremio podían entrar. Leyendas
+   de los alrededores quedaron escritos en la historia de cada
+   gremio para proporcionar consejos y advertencias útiles a los sabios.
+
+
+   Octavo Día de Luna Nueva, 491 - Las Islas Heladas
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Esta noche acamparemos en los fríos alrededores de Frozen.
+   Islas. Como sospeché después de hablar con mi compañero de búsqueda en
+   Swamp Town, no hay señales de ninguna parte de la leyenda alrededor.
+   estos bosques helados. Buscamos en la naturaleza nevada durante muchas horas.
+   pero había poco más que hielo que brillaba en el
+   sol.
+
+   Después de que se le negara la entrada al Castillo Dragontooth debido a
+   Tratos previos con nuestro sanador Rapha, decidimos acampar en el
+   bosques helados de estas islas y vigilar los incendios, que es lo que
+   haz lo que escribo esto. He tenido noches más cómodas pero hay
+   No hay resentimientos hacia Rapha. Después de todo, es mucho más fácil.
+   cruzando el océano con el uso de su barco fantasmal.
+
+   Extrañaré a este grupo cuando nos separemos en Fountain Head, pero
+   hay otras cosas que me llaman. Esto no ha sido más que una gira.
+   Para mí, la verdadera búsqueda no es la de leyendas y tradiciones, sino mi
+   némesis Sheltem. Desde el principio ha visto estas islas.
+   y todo lo que vive sobre ellos como su enemigo, y dos veces ha
+   planeó su extinción. Ahora que estas islas han descansado en
+   las puertas de Terra, estoy seguro de que no ha abandonado su cruzada para
+   destruirlos. No sé qué plan ha puesto en marcha, pero
+   Ver su trabajo en todo lo que es caótico.
+
+   He estado tomando estas notas como un registro para dejarlas para siempre.
+   cualquiera que se una a mí en mi búsqueda de Sheltem y su malvado plan.
+   Creo que las antiguas pirámides influyen en sus planes y eso es
+   donde comenzaré mi búsqueda cuando parta nuevamente.  esta vez yo
+   Iré solo, pero a cualquiera que siga le dejaré pistas para dar.
+   el beneficio de la nueva información que descubro.
+
+   No le he contado esto a los demás, pero en las ruinas del Castillo
+   Blackwind, de vuelta en las Islas de la Ilusión, encontré un mensaje
+   entre los escombros que pueden arrojar luz sobre el misterio de Sheltem
+   esquema. Parecía darle mucha importancia a las tres costumbres.
+   de los hombres hemos llegado a llamar alineación; Bien, Neutral y Mal.
+   Durante muchos años ha habido paz entre estos diferentes
+   actitudes, pero no siempre ha sido así. Una vez hubo muchos
+   guerras libradas por las diferencias de estos tres alineamientos y
+   tal vez sea el plan de Sheltem reavivar esta antigua rivalidad.
+   Todavía estoy trabajando en cuál puede ser el significado de este mensaje en
+   los escombros. Hoy en día, en el país la cuestión del bien y del mal es
+   se resuelven en la respuesta a determinadas situaciones, y existen
+   ciertas áreas encantadas donde uno u otro puede no ser
+   Bienvenidos, pero hay pocas posibilidades de que se produzca una guerra alimentada por estos
+   diferencias que se están iniciando en estos tiempos de iluminación.
+   Sin embargo, estoy seguro de las sutiles diferencias de estos tres,
+   El Bien, el Neutral y el Mal entran en juego en los esquemas de Sheltem.
+
+   Dejaré de escribir por esta noche, Asa pronto vendrá a relevar.
+   yo de mi reloj. Ha sido un viaje agradable a través de las islas.
+con este grupo, agradable salvo por la muerte de Rapha. Gracias a
+   Fuerza a los monjes de los templos a levantar las condiciones de enfermedad.
+   que inevitablemente le suceden al aventurero. Sea usted maldito, paralizado,
+   o incluso erradicar, siempre hay un remedio y un precio que pagar.
+   encontrados en los templos.
+
+   Con la llegada de la luz de la mañana comenzaremos nuestro recorrido final.
+   viaje a Fountain Head, y desde allí una vez más estableceré
+   afuera solo. Mis sentimientos se hacen eco en los gritos de
+                                                     ^
+            <Esta página en realidad se detuvo aquí --|
+            <El autor del dox debe haber estado realmente drogado ese día>
+
+
+   Noveno día de luna nueva, 491 Fountain Head llegó
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Después de pasar por Leper Canyon llegamos a Fountain Head.
+   tarde en el día. Me separé de mi grupo en la posada.
+   donde inmediatamente encontraron a otro joven aventurero ansioso por
+   únete a ellos en su próxima excursión, por supuesto... después de que pasen
+   algún tiempo en la taberna para recuperarme.
+
+   Antes de comenzar mi búsqueda de Sheltem, hay algunas últimas
+   Consejos que me gustaría ofrecer a quienes me siguen.
+   en este misterio. Hay habilidades que serán muy útiles si
+   No es del todo necesario en tus viajes por las islas. tu
+   Debes encontrar a sus maestros para enseñártelos y estar preparado para
+   pagar el precio. Estos son algunos de los más útiles.
+   habilidades...
+
+   Cartografía: para ayudarle a mantener mejores mapas de las áreas.
+                   tu visitas.
+
+   Sentido de peligro: te avisará de los monstruos que encuentres.
+                   Quizás no lo vea hasta que sea demasiado tarde.
+
+   Detectar secreto: para no perder oportunidades ocultas.
+   Pasajes
+
+   Montañismo- para acceder a las regiones más altas.
+
+   Pathfinding: para abrirte camino a través de densos bosques.
+
+   Natación - Para cruzar aguas poco profundas.
+
+   Y mantén siempre un libro de hechizos completo. Cuando hayas dominado el
+   Hechizos que conoces hasta tal punto que estás preparado para aprender.
+   otros, gana membresía en un gremio y aprende lo que puedas. buscar
+   los magos errantes que venden estas membresías, el precio es
+   Es poco lo que hay que pagar para tener el encantamiento adecuado cuando sea necesario. y si
+   obtienes un hechizo de un grupo encantado o lo compras en un
+   profesor viajero y no tienes explicación de su uso, acude a uno
+   de los gremios para su descripción.
+
+   Recuerda mantener un buen suministro de gemas ya que algunos hechizos lo requieren.
+   el poder encerrado dentro de sus cristales. Estos son los hechizos
+   disponible para el principiante en los caminos de la magia...
+
+   Despertar: saca a todos los aventureros dormidos de su letargo.
+
+   Detectar Magia: si hay un objeto mágico en el paquete del
+                  lanzador esto lo hará saber, y revelará el
+                  número de su uso limitado. Usa esto para descubrir
+                  la naturaleza de un cofre del tesoro.
+
+   Elemental: desata el poder de los elementos en un solo
+   Enemigo de flecha. Expulsa un rayo de llamas, electricidad, ácido,
+                  o hielo sobre tu enemigo para robarle un poco de bienestar.
+                  ser.
+
+   Primeros auxilios: las heridas menores de batalla de un aventurero pueden curarse rápidamente.
+                  sanado con este encantamiento de unción.
+
+   Puño volador: invoca un guante encantado para provocar un ardor.
+                  puñetazo a un solo enemigo.
+
+   Luz: proporciona una luz mágica para iluminar la oscuridad.
+                  áreas.
+
+   Todos los hechizos fueron forjados a través de los misterios del Cosmonium,
+   Esoterica y Gaiam, y sólo aquellas clases dedicadas a sus
+   el estudio puede emitirlos. Hechizos más poderosos te esperan a medida que avanzas.
+   en tus capacidades.
+
+   También será necesario obtener protección contra las seis formas.
+   de daños que se producen mediante el uso de armas y
+   hechizos. Estas formas son fuego, electricidad, frío, veneno, energía,
+   y magia. Cada raza tiene una fuerza natural contra algunos de
+Estos y más protección se pueden obtener a través de hechizos y
+   objetos encantados.
+
+   Mientras viajas de ciudad en ciudad habrá muchas ocasiones para
+   Reclute sus servicios para otras personas que necesiten ayuda. Sería sabio
+   aceptar sus desafíos porque puede haber grandes recompensas en
+   su finalización que ayudará en futuras negociaciones.
+
+   Y cuando toda esperanza se haya ido, ya sea frente a un gran dragón
+   o rodeado de demasiados orcos para despachar, puedes invocar
+   la mano benévola del Señor Mago para llevarte de regreso a
+   seguridad. Siempre responderá a la llamada de ayuda, pero ten cuidado.
+   que también cobrará un peaje de experiencia a aquellos a quienes
+   rescates. Un guerrero poderoso pronto puede debilitarse si llama
+   por la ayuda del Mago con demasiada frecuencia. Lo mejor es resolver un
+   situación sin su ayuda si existe alguna solución. pero nuevo
+   Los aventureros encuentran favor en el corazón de Mister Wizard, y aquellos
+   Él ayudará sin costo alguno.
+
+   Ahora debo prepararme para mi búsqueda de Sheltem. Toma estas notas
+   y úsalos como puedas para descubrir sus planes, y juntos
+   tal vez pueda frustrar su plan. Busca las pistas que haré
+   Déjalo atrás y buena suerte en tu viaje. Que el
+   Los poderes de Might and Magic estarán siempre a tu lado.
+
+Fin........

@@ -1,0 +1,2027 @@
+BOTINES DE GUERRA --- MANUAL
+                       ============================
+
+ÍNDICE
+=====
+                                                      PÁGINA
+1.0 CARGANDO ................................................
+ 
+2.0 INTRODUCCIÓN ....................................
+
+2.1 En general ........................................
+2.2 Introducir la fecha ................................
+2.3 Usando el teclado .................................
+2.4 Guardar el juego .................................
+2.5 Instalación del disco duro ................................
+2.6 Uso del ratón .................................
+
+3.0 INICIO DEL JUEGO .................................
+
+3.1 Iniciar el juego desde un disquete .................
+3.2 Examinando el Salón de la Fama .........................
+3.3 Borrar el Salón de la Fama .................................
+3.4 Cargando una partida guardada .................................
+3.5 Mostrar directorio ...................................
+3.6 Cargando un escenario ................................
+
+4.0 CONDICIONES DE JUEGO .................................
+
+5.0 TÉRMINOS E INTERFAZ ................................
+
+5.1 La pantalla y los mensajes de texto....................
+5.2 Los Exploradores .................................
+5.3 Las unidades ........................................
+5.4 Los tipos de terreno ................................
+5.5 Secuencia de juego .................................
+
+6.0 LA FASE DE ESTRATEGIA .................................
+
+6.1 Finalizar el juego ................................
+6.2 Eventos aleatorios .................................
+6.3 Regalos .................................................
+6.4 Contratar exploradores ................................
+6.5 Contratar colonos ................................
+6.6 Subvenciones para los jugadores ........................
+6.7 Determinación de la victoria y finalización del juego ........
+6.8 Investigación .........................................
+
+7.0 LA FASE DE ACCIÓN .................................
+
+7.1 Información general ................................
+
+7.2 El menú de acciones ................................
+
+7.2.1 Submenú - Movimiento ................................
+7.2.2 Submenú - Ataque ................................
+7.2.3 Submenú - Transporte ........................
+
+7.2.3.1 Explorador de embarque................................
+7.2.3.2 Desembarcar explorador ..................
+7.2.3.3 Cargar unidades de oro ................................
+7.2.3.4 Descargar unidades de oro .........................
+
+7.2.4 Saqueo ........................................
+
+7.3 El menú de la colonia .................................
+
+7.3.1 Submenú - Colonización ........................
+7.3.2 Submenú - Inversión ........................
+
+7.3.2.1 Construir puerto ................................
+7.3.2.2 Liquidación de construcción .........................
+7.3.2.3 Ampliar liquidación ........................
+7.3.2.4 Construir la mía .................................
+
+7.3.3 Comercio ........................................
+7.3.4 Beneficio .........................................
+
+7.4 El menú militar ................................
+
+7.4.1 Submenú - Reclutamiento .........................
+7.4.2 Submenú - Reorganización ...................
+7.4.3 Submenú - Regalos ................................
+7.4.4 Submenú - Entrenamiento ................................
+
+7.5 El menú Informe .................................
+
+7.5.1 Submenú - Puntuación del juego ........................
+7.5.2 Submenú - Líderes ................................
+7.5.3 Submenú - Mapas ................................
+
+7.6 Menú Finalizar ........................................
+
+7.7 El enemigo informático ................................
+
+8.0 LA BATALLA TERRESTRE .................................
+
+8.1 Descripción general................................
+8.2 La visualización de la pantalla ................................
+8.3 Batallas estratégicas ................................
+
+8.3.1 Descripción general ................................
+8.3.2 Procedimiento .................................
+8.3.3 Cálculo de pérdidas .........................
+8.4 Resolución táctica ................................
+
+8.4.1 Descripción general ................................
+8.4.2 Procedimiento .................................
+8.4.3 La fase de suministro ................................
+
+8.4.3.1 Determinación del estado del suministro .................
+8.4.3.2 Distribución de unidades de suministro....................
+8.4.3.3 Falta de suministro ................................
+
+8.4.4 La fase de movimiento ................................
+8.4.5 La fase de sustitución ........................
+8.4.6 La fase de batalla ................................
+
+8.4.6.1 Descripción general ........................
+8.4.6.2 Cálculo de la fuerza de batalla .................
+8.4.6.3 Cálculo de las pérdidas .........................
+
+8.4.7 Determinación de la victoria ........................
+
+9.0 BATALLAS MARÍTIMAS .........................................
+
+9.1 La pantalla ..................................
+9.2 Orden de juego .................................
+9.3 Datos del barco ........................................
+9.4 Movimiento del barco .................................
+
+9.4.1 Descripción general ................................
+9.4.2 Órdenes ........................................
+
+9.4.2.1 Municiones ...................................
+9.4.2.2 Vela .........................................
+9.4.2.3 Fuego .........................................
+9.4.2.4 Curso .........................................
+9.4.2.5 Autodestrucción ................................
+9.4.2.6 Embarque ........................................
+9.4.2.7 Mover pistolas ................................
+
+9.5 Victoria en el mar ................................
+
+10.0 CONSEJOS PARA JUGAR ................................
+
+11.0 APÉNDICE ........................................
+
+11.1 Tabla de terreno (fase de acción) .................
+11.2 Tabla de terreno (fase de batalla) .................
+11.3 Órdenes ................................................
+11.4 Costos ................................................
+11.5 Descripción de la unidad ................................
+11.6 Eficiencia de batalla y secuencia de pérdidas ........
+11.7 Cambios estacionales en las fuerzas de batalla y
+     distancia máxima de suministro de una unidad .................
+11.8 Tabla de ataque y defensa ........................
+11.9 Ejemplo de batalla (resolución táctica) ..........
+11.10 Ejemplo de batalla (resolución estratégica) ........
+
+
+1.0 CARGANDO
+============
+     Consulte las secciones 2.5 o 3.1 que se refieren a jugar desde un disquete.
+discos o instalación de disco duro. Los usuarios de PC deben consultar la tarjeta de referencia para
+cualquier anomalía en este manual.
+
+2.0 INTRODUCCIÓN
+=================
+
+2.1 EN GENERAL
+==============
+
+     Antes de comenzar el juego, haga copias de seguridad de todos los discos originales.
+Juega desde copias de seguridad sólo con la escritura en disco habilitada, ya que el juego
+guardará periódicamente información en los discos. Asegúrese también de tener
+Ya has creado un disco para guardar el juego. Cuando utilice un disco duro, tenga en cuenta la
+Instrucciones para discos duros.
+
+     SPOILS OF WAR es un juego de descubrimiento, conquista y colonización de
+tierras extranjeras en continentes lejanos. El jugador funciona como comandante de
+varios exploradores que actúan en nombre de los jugadores para llevar a cabo determinadas órdenes.
+El objetivo de la simulación es convertirse en el primer jugador en controlar un
+gran parte del continente recién descubierto y convertirse así en vicerrey.
+
+2.2 INTRODUCCIÓN DE LA FECHA
+======================
+
+     Antes de comenzar el juego, debes ingresar la fecha de "hoy". el
+La fecha actual se tomará del sistema automáticamente. Si esta fecha no es
+correcto, modifique la fecha manualmente.
+     El propósito de este procedimiento es brindar una mejor visión general durante el disco.
+operaciones. Al guardar una partida, también se guarda la fecha. Esto le permite
+determine fácilmente el último guardado.
+Introduzca primero el día, seguido del mes y el año. Un total de 8 dígitos.
+debe escribirse. No escriba " 92 " en lugar de 1992 como indica el programa.
+no aceptará tal entrada.
+     Al presionar (Retorno) se omite la entrada de fecha y se muestra la última fecha
+lo escrito se mantiene.
+Esta fecha se guarda en sus discos. Asegúrese de que los discos "reproduzcan"
+no están protegidos contra escritura.
+
+2.3 USO DEL TECLADO
+=======================
+
+     Puedes jugar usando el "teclado" únicamente. Generalmente cada opción puede
+ser elegido utilizando las teclas de función correspondientes o teclas de letras (teclas de acceso rápido).
+A continuación se proporciona una lista completa.
+
+     F1 - Acción
+     F2 - Colonia
+     F3 - Militar
+     F4 - Informe
+     F5 - Beneficio
+     F6 - Maniobra
+     F7 - Comprar
+     F8 - Fin
+
+     Todo lo anterior se muestra en pantalla cuando corresponde.
+ 
+     ( Esc. ) siempre se interpreta como escape y puede usarse
+para cancelar entradas incorrectas.
+     El cursor se puede mover usando las teclas alrededor de ( S ) o usando
+el bloque numérico. Para funciones especiales utilice las siguientes teclas:
+     + : más 1 o el siguiente Explorador.
+     - : menos 1 o Explorador anterior.
+     (flecha izquierda): más 1 o el siguiente Explorador.
+     (flecha derecha): menos 1 o Explorador anterior.
+     (flecha hacia arriba): más 10 o más 50.
+     (flecha hacia abajo): menos 10 o menos 50.
+     (cambio) (flecha hacia arriba): máximo.
+     (cambio) (flecha hacia abajo): mínimo.
+     (espacio): par.
+     (Volver): confirma la entrada.
+     ( Esc. ): abandonar fase o cancelar pedido.
+
+     Tenga en cuenta que estas claves están activas sólo en ciertos puntos del
+juego.
+     En general, las teclas alrededor de ( S ) o ( 5 ) se utilizan para
+desplazarse por el mapa. Para realizar una acción en cualquier cuadrado resaltado, entonces
+presione ( S ) o ( 5 ).
+     En ciertos casos tendrás que elegir un explorador en la capital o
+Habrá que elegir cantidades. Puede desplazarse por los exploradores utilizando
+las teclas (+) o (-). Para seleccionar un explorador presione ( Regresar
+). Si desea asignar tropas, suministros u oro, utilice las teclas (+) o (-)
+y confirme el importe con la tecla (Retorno).
+     Durante la "fase de batallas terrestres", las tropas reciben suministros durante la "fase de batallas terrestres".
+fase de "suministro". La cantidad de suministros se puede elegir según el
+siguiente tabla:
+
+     Entrada: 0 1 2 3 4 5 6 7 8 9
+     % : 10 11 13 14 17 20 25 33 50 100
+
+     Por lo tanto, si una unidad requiere 120 unidades de suministro y presionas ( 8 ), entonces eso
+La unidad recibirá el 50% = 60 unidades de suministro. Esto se describe con más detalle en
+el capítulo relativo a la Fase de Combate Terrestre.
+
+2.4 GUARDAR EL JUEGO
+====================
+
+     Al iniciar el juego desde el disco duro, las partidas guardadas se guardarán automáticamente.
+guardarse en el directorio "Spoils".
+     Cuando utilice unidades de disco para guardar juegos, proceda de la siguiente manera: Inserte su
+disco del banco de trabajo en DF0: y enciende tu Amiga. Cuando la pantalla del banco de trabajo
+Aparece, inserte el disco "principal" en cualquier unidad y haga doble clic en "
+icono de disco "principal". Aparecerá un icono llamado "hacer-guardar-disco". Doble clic
+en este icono y siga las instrucciones en pantalla para crear una " partida guardada "
+disco.
+
+2.5 INSTALACIÓN DEL DISCO DURO
+============================
+
+     Apague su computadora. Inserte su disco "workbench" en DF0: y
+Enciende tu Amiga. Cuando aparezca la pantalla del banco de trabajo, inserte el "principal"
+disco en cualquier unidad. Haga doble clic en el icono del disco del disco principal.
+     Aparece una ventana con un icono llamado "HD - instalar". Haga doble clic en
+este icono con el botón izquierdo del ratón. Comenzará la instalación del disco duro.
+     Por favor, introduce el nombre del disco duro en el que se instalará el juego.
+instalado. Al hacer clic en el símbolo del círculo, se mostrarán todas las unidades.
+secuencialmente. Después de seleccionar una unidad, haga clic en el icono "inicio". el
+El programa ahora se instalará en el directorio principal del disco duro en
+el directorio " se estropea ".
+     Si prefiere instalar "Spoils of War" en el modo CLI de su
+disco duro, proceda de la siguiente manera: Active el modo shell. Crear un
+directorio del juego, con cualquier nombre. Copie todos los archivos y subdirectorios de
+ambos discos en este directorio. Comenzar el juego es posible desde este
+directorio usando "activar inicio".
+
+2.6 USO DEL RATÓN
+==================
+Por supuesto, es posible que desee utilizar un mouse para todas las entradas, excepto para ingresar
+nombres. Las opciones se eligen haciendo clic con el botón izquierdo del ratón. El ratón derecho
+el botón sirve como función de escape; excepción: haciendo clic con el botón derecho del ratón
+en el menú principal durante la fase de gobernador, almirante o general en la que estás
+llevado directamente al menú de movimiento.
+     Se puede hacer clic en todos los cuadrados y símbolos alrededor de un Explorador, al igual que en todos
+pedidos. Para las batallas se aplican reglas especiales. Los pedidos son visibles en el menú.
+ventana. Además, la barra de selección (borde inferior derecho de la pantalla) puede
+se puede acceder para ingresar números y elegir Exploradores dentro de algunos menús.
+Los iconos representan:
+     Esc. : finalizar fase o cancelar pedido.
+     flecha hacia abajo: mínimo
+     doble flecha izquierda: -10 o -50
+     flecha izquierda: -1
+     flecha izquierda derecha: incluso
+     flecha derecha: +1 
+     doble flecha derecha: +10 o +50
+     flecha arriba: máximo
+     OK: entrada correcta
+
+     Importante: Sólo aquellos iconos a los que se puede acceder se muestran en la
+pantalla.
+     Si desea acceder a un Explorador en el mapa, coloque el mouse
+puntero sobre el símbolo correspondiente. Por lo general, sólo aquellos Exploradores que son
+Se puede acceder directamente al lado o debajo del Explorador actual.
+
+3.0 COMENZANDO EL JUEGO
+=======================
+
+3.1 INICIO DEL JUEGO DESDE DISQUETE.
+===========================================
+
+     Inserte el disco "principal" en DF0: y - si tiene otra unidad
+Inserta el disco "juego" en él. El juego ahora se cargará automáticamente. si
+Si solo está utilizando una unidad, se le pedirá que cambie los discos.
+
+     La introducción y la página de título se pueden cerrar haciendo clic con el ratón.
+Después de esto se carga el programa principal. Una vez que el juego ha cargado el
+La computadora tardará aproximadamente 1 minuto en descomprimir los datos y configurarlos.
+el juego. Durante el juego, la computadora necesitará algo de tiempo para "pensar" cuando
+decidir cuál es el siguiente paso. Por favor tenga paciencia.
+
+     Después de haber elegido la fecha aparece un menú en pantalla dando la
+siguientes opciones:
+
+              1 ---- Ver Salón de la Fama.  
+              2 ---- Cargar juego guardado.  
+              3 ---- Escenario de carga.
+              4 ---- Comienza un nuevo juego.
+              
+ 
+     Seleccionando la tecla de función adecuada puede seleccionar el menú
+opciones que se describen con más detalle a continuación.
+
+3.2 EXAMEN DEL SALÓN DE LA FAMA
+===============================
+     Los exploradores más exitosos, que han sido nombrados virreyes del
+El nuevo mundo se salvará aquí. La lista se muestra en orden de clasificación y
+puntos de victoria obtenidos. La calificación se calcula de la siguiente manera: número de
+puntos de victoria / número de turnos de juego. Si un jugador alcanza 3000 victorias
+puntos y necesita 60 turnos para lograrlo, su calificación será 50.
+
+3.3 BORRAR SALÓN DE LA FAMA
+=======================
+
+     Para borrar un Salón de la fama, seleccione esta opción e inserte su
+guardar el disco del juego. La computadora ahora borrará tu antiguo Salón de la Fama y
+instalar uno nuevo.
+
+3.4 CARGAR UNA PARTIDA GUARDADA
+=========================
+
+     Cuando se selecciona el juego "cargar guardar", se mostrará una lista de juegos guardados.
+mostrado. Haz tu elección y el juego se cargará automáticamente.
+
+3.5 MOSTRAR DIRECTORIO
+===================
+
+     Para examinar el contenido de un disco, inserte el disco en la unidad
+y presione F4. El programa ahora enumerará el contenido del disco en la pantalla.
+
+3.6 CARGAR UN ESCENARIO
+=======================
+     Estará disponible un disco de escenario junto con un editor de terreno.
+Siga las instrucciones en pantalla para cargar esta opción.
+
+4.0 CONDICIONES DE JUEGO
+=======================
+
+     Cuando se inicia un nuevo juego, aparece un menú de creación. Este menú permite
+jugador para configurar el juego y consta de seis partes. El jugador puede seleccionar
+número de jugadores, niveles de dificultad, si las Cajas están activas o no, etc.
+     Se pueden activar de dos a cuatro jugadores. Se pueden configurar como ( H ) -humano,
+( C ) - controlado por computadora o ( N ) - no activado.
+     Cada jugador humano puede nombrar a su comandante (longitud máxima 10 letras),
+mientras que los jugadores del ordenador seleccionarán sus propios nombres.
+     Hay 10 niveles de dificultad disponibles, siendo 0 el más fácil y
+Siendo el 9 el más difícil. Aquí hay una diferencia entre jugadores humanos.
+y reproductores de ordenador. Dependiendo del nivel, cada jugador recibirá un
+cierta cantidad de capital para empezar, así como subsidios al final del
+la fase estratégica directamente del Rey.
+     En el nivel 0, los jugadores humanos reciben 2000 unidades de oro como capital inicial.
+y 100 unidades de oro al final de cada fase de estrategia. Con cada nivel superior
+la cantidad de oro disminuye en 100/10 respectivamente. En el nivel 9, para
+Por ejemplo, el jugador recibirá 1100 unidades de oro para empezar y 10 unidades de oro
+unidades por turno.
+     Para los oponentes informáticos, la cosa funciona justo al revés. Nivel 0
+tiene los mismos efectos que con los jugadores humanos, pero cada aumento en el
+El nivel de dificultad aumenta el oro inicial y el subsidio en 100/10.
+respectivamente. En el nivel 9, por ejemplo, el oponente de la computadora recibe 2900
+unidades de oro para empezar y 190 unidades de oro adicionales por turno.
+Además, el coste de contratar un nuevo Explorer disminuye un 5% por nivel.
+     Debido a estas diferentes opciones de niveles, un total de 19 niveles de dificultad
+niveles es posible.
+     Una vez que haya realizado sus selecciones, seleccione "O.K" para comenzar el juego.
+
+5.0 TÉRMINOS E INTERFAZ
+========================
+
+5.1 LA PANTALLA y MENSAJES DE TEXTO
+==================================   
+
+
+     La pantalla consta de 8 partes.
+     
+     A - Número de jugador y nombre.
+     B - Información del terreno.
+     C - Año y temporada.
+     D - Ventana de mapa y ventana de imagen.
+     E - Ventana de información.
+     F - Menú.
+     G - Visualización de fase.
+     H - Iconos.
+
+     En la ventana (A) aparece el jugador actual y su nombre.
+     En la ventana ( B ) se ve la información relativa al terreno del
+casilla actual en la que se encuentra actualmente el cursor. derecho de la
+coordenadas de posición se muestra el símbolo del terreno. La línea de ganancias te informa
+si y cuántos ingresos se pueden obtener de esta colonia como impuestos. Posible
+Los números van del 3 al 98. Este es el número de unidades de oro disponibles por
+cuarto de año. Normalmente, este valor es blanco. Los números rojos indican que
+durante el presente trimestre del año ya se ha recaudado el impuesto de
+esta colonia.
+     La ventana ( C ) muestra el año y la temporada actuales. Cada temporada se refiere
+como un turno de juego. Como 4 estaciones (primavera, verano, otoño e invierno)
+existen, un año consta de 4 turnos de juego. Cada temporada tiene un impacto específico
+sobre el movimiento, la batalla, la fuerza y el suministro de las unidades militares. Más lejos
+Los detalles sobre este aspecto se pueden encontrar en capítulos posteriores.
+     La ventana (D) muestra una parte del mapa de 9 X 9 cuadrados de área. el conjunto
+mapa consta de un área de 64 X 64. El cursor siempre ocupa el centro de
+la ventana del mapa. Para los movimientos, el mapa se puede desplazar debajo del cursor.
+     La ventana (E) contiene diversa información.
+     La ventana ( F ) contiene el menú. Aquí se enumeran todas las opciones disponibles.
+     La ventana ( G ) detalla la fase actual que se está jugando.
+     Ventana ( H ) Contiene todos los iconos para el control del juego.
+
+     Todos los mensajes de texto a lo largo del juego se refieren al jugador activo. si un
+El oponente de la computadora debería comenzar una batalla naval, por ejemplo (te ataca).
+y ganas, el mensaje de victoria aparecerá a pesar de que tú, como
+Jugador humano: perdió la batalla.
+
+5.2 LOS EXPLORADORES
+==================
+
+Los Exploradores son las personas que actúan en nombre de los jugadores. Son contratados durante
+La fase de estrategia. Cada jugador da órdenes a sus Exploradores que luego son
+llevada a cabo por ellos. Los exploradores descubren, conquistan y colonizan en nombre de
+el jugador. Sin Exploradores, el jugador no puede realizar ninguna acción. Por lo tanto
+Los Exploradores son los personajes más importantes del juego. Como comandante en
+Cheif el jugador puede tener varios exploradores bajo su mando. Hasta 600
+Los exploradores (de los 4 jugadores) pueden estar en el juego al mismo tiempo. Hay
+4 tipos diferentes de Exploradores: Gobernadores, Almirantes, Generales y Comandantes.
+Los comandantes deben tener su base en una ciudad o puerto, protegen importantes
+posiciones y tener la mitad de los puntos de movimiento (15) y la mitad del comando
+puntos (16) de otros Exploradores. No pueden atacar ni moverse.
+     Por lo general, sólo se puede colocar un Explorador en una casilla explorada. Sin embargo
+Si un Comandante está en un asentamiento o puerto, esta ubicación aún puede ser
+ingresados por Generales o Gobernadores. Los comandantes son tratados como generales, es decir
+consumen la misma cantidad de puntos de orden o movimiento para una determinada orden.
+Si un Comandante está presente en un asentamiento o puerto, el asentamiento o
+El puerto estará marcado con el color del jugador propietario. esto es visible
+sólo al propietario del Commander. El color desaparece cuando otro
+El jugador está activo.
+
+     Al visualizar los datos de los Exploradores en pantalla, se proporciona el tipo de Explorador
+primero. En nuestro ejemplo es un Gobernador. Cada Explorador está numerado; aqui esta
+Explorador 1. A la derecha de este número se muestra una letra "T". "T" significa que
+el Explorador transporta a otro Explorador (solo es posible para Almirantes)
+) o es transportado por otro Explorador (solo es posible para Gobernadores
+o Generales). " N " significa normal, es decir, el Explorer no se transporta
+y no transporta a ningún otro Explorer.
+     Debajo de esta línea verás la edad, así como el número de unidades de oro y
+suministros que posee el Explorer. A partir de los 60 años, los Exploradores intentan
+retirarse. Eso significa que la probabilidad de que el Explorer se retire aumenta cada vez.
+año.
+     En la siguiente línea verá los valores de este explorador para:
+
+     - Puntos de comando (C)
+     - Administración (A) y
+     - Lealtad ( L )
+
+     Los puntos de mando (máx. 32) se utilizan para ejecutar órdenes. para cada
+orden que ejecuta el Explorer, consume un cierto número de comandos
+puntos. Estos puntos de comando representan el tiempo que el Explorer necesita para
+para planificar y ejecutar el pedido. Por ejemplo, un Explorer consume más
+puntos de mando para llevar a cabo un ataque que para realizar una operación normal.
+movimiento.
+     La administración (valor máximo 200) refleja la experiencia de los Exploradores. esto
+Es posible que el valor nunca disminuya. Cuanto mayor sea este número, más puntos de comando tendrá el
+Explorer recibe cada turno. 
+     La lealtad (valor máximo 100%) se refiere a la actitud del Explorador hacia el
+jugador. Si este valor cae por debajo del 50%, el Explorer puede abandonar. 
+     Directamente debajo de esta línea encontrará los valores para:
+
+     - Puntos de movimiento (M)
+     - Experiencia (E)
+     - Moral (M)
+
+     Cada Explorador suele liderar algunas unidades militares, como infantería o
+depósitos. Estos valores se refieren a estas unidades.
+     La moral (máximo 100%) cumple la misma función que la lealtad en el caso de
+un explorador. Si la moral cae por debajo del 50%, será posible un motín.
+que ocurriera y que el Explorer fuera asesinado por sus propias tropas.
+     La experiencia (máx. 200) es la experiencia de batalla promedio de todas las unidades.
+bajo el mando de este Explorador. Un alto factor de experiencia ofrece ventajas.
+durante el combate. La experiencia disminuye si se contratan nuevas tropas, pero se pueden aumentar.
+nuevamente mediante el entrenamiento.
+     Los puntos de movimiento (máximo 30) se agotan cuando el Explorer realiza
+ciertas acciones. Cada turno, cada Explorador recibe 30 puntos de movimiento.
+Dependiendo del pedido, se utiliza una cierta cantidad cuando se realiza cada pedido.
+llevado a cabo.
+     Finalmente se muestra el número de tropas bajo el mando del Explorer.
+
+
+     INF = infantería FLOTA = barcos 
+     CAV = DEPÓSITOS de caballería
+     ART = artillería TRANS = transportes
+     ENG = ingenieros COLON = colonos
+     MAR = infantes de marina
+     
+Se dan más detalles sobre esto en el siguiente capítulo.
+     Los diferentes tipos de Explorer son especialistas en determinadas áreas. Para
+Por ejemplo, los gobernadores no son aptos para batallas terrestres. Esta es una tarea para un
+general experimentado, mientras que los almirantes se utilizan mejor para batallas navales y para
+transportando oro y exploradores. Los gobernadores deberían concentrarse en las colonias.
+política. La colonización, la recaudación de impuestos, la construcción de asentamientos y puertos son
+Tareas típicas de un Gobernador. Por el contrario, los generales descubren nuevas tierras,
+Proteger colonias y conquistar zonas enemigas.
+     Por lo tanto, es importante elegir los exploradores correctos para cada caso concreto.
+actividades. Los gobernadores y generales generalmente pueden desempeñar las mismas funciones,
+pero consumen diferentes cantidades de puntos de mando y movimiento. Un explorador que
+No le quedan puntos de comando o movimiento y no puede realizar más acciones durante
+el turno de juego actual. Al comienzo de cada fase de estrategia, nuevo comando.
+y se reciben puntos de movimiento. Durante la fase de acción un jugador debe
+Tome nota especial de cuánto usa sus Exploradores.
+
+5.3 LAS UNIDADES
+==============
+
+     INFANTERÍA: tanto la infantería ligera como la pesada están disponibles en el juego.
+Baratos de reclutar con buena fuerza defensiva, son necesarios para
+batallas tácticas. Además, la infantería ligera puede usarse para abordar enemigos.
+barcos durante las batallas navales.
+     CABALLERÍA: Rápida y, por lo tanto, muy adecuada para ataques. si un enemigo
+Cuando una unidad es destruida, la caballería es el único tipo de unidad que puede avanzar 2 casillas.
+Relativamente caro.
+     ARTILLERÍA: Excelente al atacar, con su fuego de apoyo brindando
+caos al enemigo. Esta ventaja se ve algo contrarrestada por su baja
+asignación de movimiento y alto costo de compra.
+     INGENIEROS - Necesarios para la colonización, construcción de asentamientos y
+puertos, abordajes de barcos y puentes durante batallas terrestres tácticas. un general
+Quien comienza una campaña sin ingenieros no tiene posibilidades de éxito.
+     FLOTAS: cada barco puede transportar cualquier unidad. Para el transporte desde el
+capital a las colonias siempre hay muy pocos barcos disponibles. Poseer un
+armada bien equipada toma el control de los océanos, lo que lleva a una eventual
+victoria.
+     DEPÓSITOS: aquí se almacenan los suministros del Explorer. Cada Depósito podrá
+Contiene 3000 unidades de suministro. Los depósitos son vitales. Cada Explorador necesitará al menos
+50 unidades de suministro por turno, simplemente para satisfacer la demanda básica. Sin suministros
+las tropas pronto desertarán.
+     TRANSPORTES - Estos contienen las reservas de oro del Explorer. no lo es
+posible transportar oro sin ellos. Cada transporte se puede cargar con hasta
+a 3000 unidades de oro. Hay una excepción a esta regla: siempre que un
+Explorer no posee transporte, puede recoger 5 unidades de oro en la capital en
+Para comprar un transporte. Mientras posea hasta 5 unidades de oro pero no
+transporte, un Explorer no puede salir de la capital. Un almirante, si no tiene
+transporte puede contratar en lugar de comprar uno en la capital, siempre que tenga
+suficiente oro.
+     COLONOS - Son necesarios para construir nuevas colonias, construir
+nuevos asentamientos y puertos o ampliar las instalaciones existentes. ellos pagan
+impuestos que serán necesarios para financiar sus planes.
+     MARINES: solo pueden ser contratados por almirantes y son muy adecuados para
+abordar barcos enemigos.
+
+5.4 TIPOS DE TERRENO
+==================
+     En el mapa estratégico se pueden encontrar 22 tipos de terreno.
+
+     Tipo de terreno Puntos de movimiento Unidades de suministro
+     ------------ --------------- ------------
+     Desconocido 2 2
+     Mar 2 2
+     Pantano 16 8
+     Montaña 12 6
+     Colina 8 4
+     Bosque 6 2
+     Llanuras 4 2
+     Costa 4 2
+     Montaña colonizada 4 2
+     Cerro colonizado 4 2
+     Bosque colonizado 2 2
+     Llanuras colonizadas 2 2
+     Puerto 2 2
+     Liquidación 2 2
+     Capital 2 2
+Frontera - -
+     Desierto 6 12
+     Lago - -
+     Alta montaña 14 8
+     Mía 4 4
+     Mina agotada 4 4
+     Pueblo Cajas 2 2             
+     Como se puede ver en la tabla anterior, dependiendo del tipo de terreno,
+cierta cantidad de puntos de movimiento y unidades de suministro se consumen al ingresar
+un cuadrado. Los puertos y asentamientos se interpretan como colonias. 
+     Durante la fase de batalla terrestre, son posibles 19 tipos de terreno en el
+mapa táctico. 
+
+     Tipo de terreno Puntos de movimiento Unidades de suministro
+     ------------ --------------- ------------
+     Lago - -
+     Río ( 4 ) 12
+     Puente 2 2
+     Camino 2 2
+     Liquidación 2 2
+     Fortaleza 2 2
+     Llanuras colonizadas 2 2
+     Llanuras 4 2
+     Bosque colonizado 4 4
+     Bosque 6 4
+     Cerro colonizado 6 6
+     Colina 8 6
+     Montaña colonizada 8 8
+     Montaña 10 8
+     Pantano 12 16
+     Alta montaña - -
+     Desierto 10 20
+     Mía 8 8
+     Pueblo Cajas 2 2
+
+     En el apéndice encontrará descripciones de las especialidades de estos
+tipos de terreno. Sólo los ingenieros pueden entrar a las plazas fluviales. Ninguna unidad puede ingresar al lago.
+o terreno de alta montaña.
+
+5.5 SECUENCIA DE JUEGO
+=====================
+     
+     Cada turno de juego consta de 2 fases: fase de estrategia y fase de acción.
+La fase de Acción se divide en otras 4 subfases: Gobernador, Almirante,
+General y Comandante.
+     Durante la fase de estrategia, los jugadores trazan sus estrategias, es decir
+Se toman decisiones sobre cuántos colonos y exploradores serán contratados o
+si el oro será prestado a otro jugador.
+     Durante la fase de Acción, los jugadores envían órdenes relativas a su estrategia táctica.
+decisiones a sus Exploradores. Para cada explorador existe una subfase especial,
+Jugaba en el orden Gobernadores, Almirantes, Generales y finalmente Comandantes.
+Cada una de estas subfases se divide a su vez en pulsos.
+     Las órdenes se dan empezando por el explorador que tenga el número más bajo.
+Este Explorer ahora puede ejecutar una orden. Cada Explorador en orden tomará su
+eventualmente regresará al Explorador original, quien luego hará su
+próximo pedido y así sucesivamente. A medida que los puntos de movimiento y los puntos de mando se gastan para
+cada orden realizada algunos Exploradores se irán volviendo gradualmente inactivos y
+tienen que terminar su turno. Una vez que el número de puntos de movimiento o comando alcance
+0 entonces el Explorador estará inactivo.
+
+6.0 LA FASE DE ESTRATEGIA
+========================
+     
+6.1 TERMINAR EL JUEGO
+=========================
+
+     A partir del 5º año (= 20 turnos) puedes terminar el juego y tener
+la computadora determina el ganador. El mejor jugador podrá entonces figurar en la lista
+Salón de la Fama. Esta opción está diseñada para usarse cuando tus compañeros jugadores tienen
+tiempo insuficiente para jugar todos los turnos del juego. si los dos
+Los mejores jugadores tienen el mismo número de puntos de victoria, esta opción no puede ser
+activado. Esto también es válido para otras condiciones de victoria.
+
+6.2 EVENTOS ALEATORIOS
+==================
+     Al comienzo de la fase de estrategia, pueden ocurrir eventos aleatorios,
+resultando en ventajas o desventajas para los jugadores. Estos eventos
+No se explicarán aquí ya que son bastante extensos y deseamos conservar el
+elemento sorpresa.
+
+6.3 REGALOS
+=========
+
+     Con esta opción podrás ayudar a otro jugador transfiriendo oro.
+Elija la cantidad usando las teclas ( + ) y ( - ) en cantidades de 10 y use (
+Return ) para finalizar su entrada.
+
+6.4 CONTRATAR EXPLORADORES
+===================
+     Primero elige el tipo de Explorer que te gustaría contratar. Después de esto el
+Se debe ingresar el costo de contratación. Los costos oscilan entre 25 y 100 unidades de oro. Nota
+Los gobernadores y comandantes cuestan al menos 25, los generales al menos 50 y los almirantes
+al menos 75 unidades de oro. Cuanto más pagues, mejores serán las capacidades de tu nuevo
+Explorador. La edad también influye mucho, los exploradores experimentados suelen tener
+Ha estado sirviendo en el ejército del Rey durante al menos 10 años. Se contratan nuevos exploradores
+en la capital y ya posee 1 depósito y 1 transporte. Almirantes además
+Recibir dos barcos.
+
+6.5 CONTRATAR COLONOS
+===================
+
+     Todos los exploradores, excepto los comandantes, pueden contratar colonos durante la estrategia.
+fase. La colonización no puede tener lugar sin colonos. Seleccione un explorador
+quien está en la capital. El coste de los colonos aumentará durante el juego.
+Al comienzo del juego, los colonos cuestan 1 unidad de oro. Desde el año 1802
+en adelante los precios comienzan a subir. Tenga en cuenta que los ingresos sólo pueden ser
+generado a través de impuestos y que los colonos son los únicos contribuyentes.
+
+6.6 SUBVENCIONES PARA LOS JUGADORES
+==============================
+
+     Al final de cada fase de estrategia, los jugadores reciben subsidios. el
+La cantidad depende del nivel de dificultad de cada jugador, elegido al principio.
+del juego. Un jugador no recibirá ninguna subvención si almacena más de
+5000 unidades de oro en su capital.
+
+6.7 DETERMINACIÓN DE LA VICTORIA Y FINALIZACIÓN DEL JUEGO
+================================================
+
+     La computadora finalizará el juego si se cumple una de las siguientes condiciones.
+conoció:
+     - Se alcanza el año de juego 2000.
+     - Un jugador logra 50000 puntos de victoria.
+     - Un jugador logra el doble de puntos de victoria que todos los demás jugadores.
+juntos.
+     El mejor jugador es entonces nombrado virrey y, con suerte, entra en el grupo.
+Salón de la Fama.
+
+6.8 INVESTIGACIÓN
+=============
+
+
+     Los jugadores pueden investigar en 4 categorías:
+
+     A) Construcción naval
+     B) Tácticas
+     C) Técnicas de armas
+     D) Economía
+
+     La investigación solo se puede realizar una vez por turno por categoría. Introduzca el
+categoría y el número de unidades de oro que desea gastar. La computadora
+decidir el resultado de sus gastos. Categorías en las que se ha investigado
+ya realizados están marcados. Cuanto más gastes, más rápidos serán los resultados.
+puede lograrse. Se podrá obtener un máximo de 100 unidades de oro por turno y categoría.
+gastado. El nivel de desarrollo se expresa como un valor entre 0 y 99. Con
+un aumento en los impuestos a la economía aumentará. Buenos valores en técnicas de armas.
+y las tácticas darán como resultado un mejor rendimiento en la batalla, mientras que el barco
+La construcción mejora la movilidad de los barcos durante las batallas navales.
+
+7.0 LA FASE DE ACCIÓN
+=====================
+  
+7.1 INFORMACIÓN GENERAL
+========================
+
+     Durante la fase de Acción los Exploradores pueden recibir muchas órdenes. estos
+Las opciones están integradas en una serie de menús para facilitar la entrada. Todos
+Los pedidos se pueden elegir con las teclas de función / ratón y se explicarán en
+más detalles en los siguientes capítulos.
+      La fase de acción está compuesta por el Gobernador, Almirante, General y
+Subfases del comandante. Todos los pedidos son generalmente los mismos para todos los Exploradores,
+con algunas excepciones. Si determinadas órdenes no se pueden ejecutar, el ordenador
+solo dará un mensaje de error cuando no haya suficientes unidades de oro, unidades de suministro,
+Hay puntos de comando o puntos de movimiento disponibles.  En todos los demás casos el
+La computadora ignorará su entrada incorrecta sin comentarios.
+     Al inicio de cada explicación verás los costos involucrados para
+realizando el pedido. Para obtener un resumen, consulte el apéndice que proporciona información más detallada.
+descripción detallada. Un "?" indica que los costos dependen del terreno.
+tipo. Asegúrate de que todos los Exploradores lleven siempre suficientes unidades de suministros.
+con ellos.
+     Al presionar la tecla "Ayuda" en el menú principal, aparecerá un resumen de todas las pantallas.
+Aparecerán símbolos. Al hacer clic con el mouse o cualquier tecla, regresará a
+el menú principal.
+
+7.2 EL MENÚ DE ACCIONES
+====================
+
+7.2.1 SUBMENÚ - MOVIMIENTO
+===========================
+
+Puntos de mando Gobernador/Almirante/General: 1/1/1
+Puntos de movimiento: ?
+Unidades de oro: -
+Unidades de suministro: ?
+
+     Con esta orden puedes mover un Explorer en cualquiera de las 8 direcciones sobre el
+mapa. Mientras que los generales y gobernadores sólo pueden moverse una casilla a la vez,
+Los almirantes pueden mover un número de casillas durante cada turno dependiendo del
+temporada. Durante el otoño suele haber vientos favorables. Durante el verano,
+Suele estar tranquilo mientras que durante otras estaciones el tiempo puede ser moderado. si
+un Explorador se mueve en diagonal consumirá un 50% más de movimiento/suministro
+puntos. Las casillas que ya están ocupadas por otros Exploradores no pueden ser
+entrar excepto si es una capital amiga.
+     Los cuadrados inexplorados se exploran moviendo un Explorador sobre ellos. el
+Entonces el verdadero tipo de terreno se vuelve visible. Sólo al descubrir nuevas plazas.
+Se consumen puntos de movimiento. El mapa solo muestra áreas que fueron exploradas.
+por el jugador actual. El terreno enemigo sólo se muestra si un Explorador amigo tiene
+pasado antes. El Explorer en realidad no se mueve en este punto, por lo que
+es posible explorar varias plazas antes de decidir cuál adyacente
+cuadrado para avanzar. Por cada casilla explorada se obtiene 1 punto de victoria. el
+El terreno de una plaza recién descubierta lo determina la computadora. La costa puede
+Sólo se puede descubrir desde las casillas marinas adyacentes. Los pantanos sólo ocurren en raras ocasiones,
+mientras que el bosque es el terreno que se encuentra con mayor frecuencia.
+     Los almirantes sólo pueden entrar en las casillas de agua y en la capital amiga. si un
+El almirante transporta otro explorador. Puedes examinar los datos de este último mediante
+presionando ( S ) o ( 5 ) en este menú. Pulsa cualquier tecla para volver al movimiento.
+menú. Durante la subfase Gobernador y General puedes examinar el beneficio
+valores de la parte visible del mapa. presione ( S ) o ( 5 ) para hacerlo. esto
+La información también se puede ver seleccionando el explorador activo con el botón
+ratón. 
+     Si un Explorador no tiene suficientes unidades de suministro, puntos de movimiento o
+puntos de mando para realizar un determinado movimiento, entra en vigor una regla especial.
+efecto. Un movimiento sin unidades de suministro disminuye la lealtad y la moral en un 5%.
+Si no hay suficientes puntos de mando o puntos de movimiento disponibles, el
+La diferencia con el valor 0 se deducirá de la lealtad y la moral. lo mismo
+es cierto para una orden de atacar. Esta regla especial no está en vigor para todos
+otros pedidos.
+
+Ejemplo: Un General todavía tiene 6 puntos de mando y 4 puntos de movimiento. el
+Ataca a un general enemigo que está ocupando una plaza de montaña. Como es el ataque
+Realizado en diagonal, normalmente costaría 18 puntos de movimiento. como el
+Al general solo le quedan 4 puntos de movimiento, la moral de sus tropas disminuirá.
+reducirse en un 14%. Un ataque requiere 8 puntos de mando. Le faltan 2 puntos, entonces
+Se descontarán 2 puntos de su índice de fidelidad.
+
+7.2.2 SUBMENÚ - ATAQUE
+========================
+Puntos de mando Gobernador / Almirante / General: 16 / 8 / 8
+Puntos de movimiento: ?  
+Unidades de oro: -
+Unidades de suministro: ?
+
+     Los exploradores enemigos adyacentes pueden ser atacados con esta orden.   el
+El programa luego cargará las rutinas de batalla. Por supuesto, los almirantes sólo pueden
+atacar a otros almirantes, pero no al gobernador o general, y viceversa. por favor
+Tenga en cuenta que las batallas marítimas y terrestres consumen muchas unidades de suministro. Las batallas son
+se describe con mayor detalle en capítulos posteriores.
+
+7.2.3 SUBMENÚ - TRANSPORTE
+============================
+
+Este menú consta de 4 submenús más:
+
+7.2.3.1 EMBARQUE DEL EXPLORADOR
+========================
+
+Puntos de mando Gobernador / Almirante / General : - / 1 / -
+Puntos de movimiento : - / 1 / -
+Unidades de oro: -
+Unidades de suministro : -
+Sólo un Almirante puede ejecutar esta orden. El jugador tiene que elegir el
+dirección desde la cual el Almirante recogerá a un Gobernador o General. un
+El Explorer sólo puede ser recogido si se encuentra en un puerto o en la capital.
+Los almirantes no pueden transportar a otros almirantes y sólo se puede transportar un explorador.
+transportados a la vez.
+
+7.2.3.2 EXPLORADOR DE DESEMBARQUE
+============================
+
+Puntos de mando Gobernador / Almirante / General : - / 1 / -
+Puntos de movimiento : - / 1 / -
+Unidades de oro: -
+Unidades de suministro : -
+     Sólo un Almirante puede ejecutar esta orden. El jugador tiene que elegir el
+dirección, en la que el Almirante desembarcará el Gobernador o General. un
+El Explorer sólo puede desembarcar en un puerto o en la capital.
+
+7.2.3.3 CARGAR UNIDADES DE ORO
+========================
+
+Puntos de mando Gobernador / Almirante / General : 1 / 1 / 1
+Puntos de movimiento: 1 / 1 / 1
+Unidad de oro : -
+Unidades de suministro : -
+     Las unidades de oro sólo se pueden cargar en una capital. Esta orden tiene el propósito
+de proporcionar financiación a los Explorers para que puedan comprar nuevas unidades de suministro
+o contratar más tropas. Sin embargo, por cada 10 unidades de oro cargadas en la capital, 1
+Se deduce el punto de victoria.
+
+7.2.3.4 DESCARGAR UNIDADES DE ORO
+===========================
+
+Puntos de mando Gobernador / Almirante / General : 1 / 1 / 1
+Puntos de movimiento: 1 / 1 / 1
+Unidades de oro: -
+Unidades de suministro : -
+     Las unidades de oro sólo podrán descargarse en la capital. Por cada 10 unidades de oro
+descargado en la capital, se gana 1 punto de victoria. Por lo tanto esta acción es
+importante para ganar el juego. Cada jugador puede tener hasta 10.000 unidades de oro.
+en su capital. Cada unidad de oro que supere esta cantidad se entrega al Rey y
+gana puntos de victoria.
+
+
+7.2.4 SUBMENÚ - SAQUEO
+=========================
+
+Puntos de mando Gobernador / Almirante / General : 4 / - / 2
+Puntos de movimiento: ?
+Unidades de oro: -
+Unidades de suministro: ?
+     Saqueando una colonia se puede obtener el doble de ingresos fiscales normales.
+Sin embargo, el valor de las ganancias de la colonia disminuye después de esta acción.
+Las ciudades saqueadas son arrasadas y vuelven a convertirse en llanuras normales. El que
+saquea sus propias colonias y renuncia a los ingresos fiscales que se habrían obtenido
+durante los siguientes turnos. Saquear una colonia consume el doble
+puntos de movimiento y suministro como entrar en una colonia normalmente. El saqueo no es
+posible por los almirantes.
+
+7.3 EL MENÚ DE LA COLONIA
+====================
+
+7.3.1 SUBMENÚ - COLONIZACIÓN
+==============================
+
+Puntos de mando Gobernador / Almirante / general : 1 / - / 2
+Puntos de movimiento: ?
+Unidades de oro: 10 por colono involucrado.
+Unidades de suministro: 100 por colono involucrado.
+     Sólo se pueden colonizar llanuras, bosques, colinas y montañas. colonizado
+las llanuras se muestran como un campo, el símbolo del bosque se reemplaza por un árbol más pequeño
+Las cimas, colinas y montañas se distinguen por el color. Para la colonización el
+Los jugadores deben determinar el número de colonos involucrados. Un cierto %
+no sobrevivir a la prueba de colonización. Cuantos más colonos sobrevivan, más
+mayor será el ingreso fiscal por temporada. Es posible que todos los colonos
+perecer. Los ingenieros ayudan en la colonización al igual que la alta administración
+valor para el Explorer. La plaza que actualmente ocupa el Explorer pasa a ser
+la colonia. Una casilla nunca puede ser colonizada dos veces.
+     Los ingresos derivados de cualquier colonia están determinados por dos factores: base
+valor y valor de beneficio. El valor base para llanuras es 3, para bosques 6, para
+colina 9 y para la montaña 12. Este valor base puede aumentar como resultado de un alto
+valor de administración. El número de colonos supervivientes determina las ganancias.
+valor. El valor de beneficio más alto posible es 7. 
+     Ejemplo: un Gobernador con un alto valor administrativo intenta
+Colonizar una zona montañosa con 8 colonos. El valor base es parcialmente por
+al azar como 14. Un colono muere a causa de una enfermedad desconocida. Por lo tanto, impuestos sobre la renta.
+asciende a: 14 X 7 = 98 unidades de oro. Esto ya es lo máximo posible.
+valor. El factor de beneficio es también el valor por el cual la victoria de los jugadores
+los puntos aumentan.
+
+7.3.2 SUBMENÚ - INVERSIÓN
+============================
+Este menú consta de cuatro submenús más.
+
+7.3.2.1 CONSTRUIR PUERTO
+======================
+
+Puntos de mando Gobernador / Almirante / General : 1 / - / 2
+Puntos de movimiento: 6 / - / 9
+Unidades de oro: 30
+Unidades de suministro: 1.000
+     Los puertos sólo se pueden construir en zonas costeras. Ganan impuestos de 10
+unidades de oro por temporada. Se requieren al menos 1 ingeniero y 1 colono para
+construir un puerto. Los almirantes no pueden entrar en las plazas del puerto, pero pueden utilizarlas para
+Plazos cortos para cargar y descargar personas/mercancías. El resto de su tiempo
+se gasta en patrullas en el mar. En los puertos, los generales y gobernadores pueden suministrar
+ellos mismos con unidades de suministro. La construcción de un puerto otorga 10 puntos de victoria.
+
+7.3.2.2 CONSTRUIR LIQUIDACIÓN
+=========================
+
+Puntos de mando Gobernador / Almirante / General : 2 / - / 4
+Puntos de movimiento : 8 / - / 12
+Unidades de oro: 60
+Unidades de suministro: 2.000
+     Los asentamientos sólo pueden construirse en llanuras no colonizadas. Ellos ganan impuestos en
+la tasa de 15 unidades de oro por temporada. 1 ingeniero y al menos 2 colonos son
+necesario para construir un asentamiento. En los asentamientos, los generales y gobernadores pueden contratar
+nuevas tropas (sin colonos) y comprar unidades de suministro. Construir un asentamiento gana
+20 puntos de victoria.
+
+7.3.2.3 AMPLIAR ACUERDO
+===========================
+
+Puntos de mando Gobernador / Almirante / General : 1 / - / 2
+Puntos de movimiento : 4 / - / 6
+Unidades de oro: 40
+Unidades de suministro: 1.500
+     Los asentamientos son las únicas colonias que se pueden expandir. Cada ampliación
+aumenta los ingresos fiscales en 15 unidades de oro por temporada. Ampliar un asentamiento
+Requiere al menos 1 ingeniero y 1 colono. Los asentamientos se pueden ampliar
+a 5 veces. Ampliar un asentamiento otorga 15 puntos de victoria.
+
+7.3.2.4 CONSTRUIR MINA
+===================
+
+Puntos de mando Gobernador / Almirante / General : 4 / - / 8
+Puntos de movimiento: 12 / - / 18
+Unidades de oro: 100
+Unidades de suministro: 4.000
+     Las minas se pueden construir en terrenos de alta montaña. Al menos 2 ingenieros y 3
+Se necesitan colonos. Si la minería tiene éxito, el símbolo del terreno de alta
+La montaña será reemplazada por un símbolo de mina (2 carros cargados de oro).
+Las ganancias se muestran debajo de la información del terreno como dos signos de interrogación (??).
+El impuesto recaudado se determina al azar. En cualquier caso serán al menos 100
+unidades de oro. Después de algún tiempo, la mina puede agotarse. El símbolo del terreno.
+Luego será reemplazado por dos carros vacíos. Este símbolo también se utiliza para mostrar
+que las operaciones mineras no tuvieron éxito.
+
+
+7.3.3 COMERCIO
+============
+Puntos de mando Gobernador / Almirante / General : 1 / 1 / 1
+Puntos de movimiento: 1 / 1 / 1
+Unidades de oro: -
+Unidades de suministro : -
+     Con esta orden, los Exploradores pueden comprar o vender unidades de suministro en puertos,
+asentamientos o en la capital. Por 1 unidad de oro se pueden obtener 100 puntos de suministro.
+comprado. Al vender unidades de suministro, se recibe 1 unidad de oro por 200 suministros.
+unidades. El número de unidades de suministro se introduce mediante las teclas numéricas o el ratón.
+Cada depósito sólo puede transportar 3.000 unidades de suministros.
+
+7.3.4 BENEFICIO
+=============
+
+Puntos de mando Gobernador / Almirante / General : 1 / - / 2
+Puntos de movimiento : 1 / - / 2
+Unidades de oro: -
+Unidades de suministro: ?
+     Con esta orden se recaudan impuestos. El valor de beneficio en la pantalla es
+resaltado en rojo cuando se han recaudado impuestos. Durante el siguiente turno, el
+la misma cantidad queda disponible. Los impuestos generalmente se pagan en forma de
+bienes comercializables producidos por los colonos. Estos bienes tienen un valor en oro.
+que se suma a las reservas de oro de los Explorers.
+
+7.4 EL MENÚ MILITAR
+======================
+
+7.4.1 SUBMENÚ - RECLUTAMIENTO
+=============================
+
+Puntos de mando Gobernador / Almirante / General: 6 / 4 / 4
+Puntos de movimiento: 1 / 1 / 1
+Unidades de oro: ?
+Unidades de suministro : -
+     Con esta orden un Explorador puede aumentar sus tropas hasta un máximo
+Valor de 15 unidades de terreno. Cada Explorador sólo puede contratar aquellas tropas que pueda
+también liderar en la batalla. Las excepciones son los colonos. Por lo tanto un almirante
+No puede contratar infantería pesada, caballería o artillería mientras otros exploradores
+No se pueden reclutar barcos ni infantes de marina. Un Almirante sólo puede comprar hasta 8 barcos y
+cargarlos con tropas terrestres, pero abordando y capturando barcos enemigos un
+El almirante puede aumentar el tamaño de su flota a 15 barcos. Al contratar,
+tropas sin experiencia, el valor de experiencia del Explorador disminuye en consecuencia.
+Por ejemplo, duplicar el número de tropas podría reducir la experiencia a la mitad.
+El reclutamiento sólo es posible en los asentamientos o en la capital.
+
+7.4.2 SUBMENÚ - REORGANIZACIÓN
+=================================
+
+Puntos de mando Gobernador / Almirante / General : 1 / 1 / 1
+Puntos de movimiento: 1 / 1 / 1
+Unidades de oro: -
+Unidades de suministro : -
+     Esta opción es útil si dos exploradores desean intercambiar oro, suministros o
+unidades militares. Los almirantes sólo pueden intercambiar con otros exploradores si son
+en un puerto o en la capital o si están cargados o son ellos mismos Almirantes.
+Estas transferencias también cambian los valores de experiencia de los Exploradores involucrados,
+al igual que con el reclutamiento. Sin embargo, los colonos están exentos de esta regla.
+Al reorganizar los datos para ambos Explorers se muestra en la parte superior
+ventana de información. La ventana de texto inferior muestra el número de mercancías o
+tropas a intercambiar. El Explorer actual se muestra con su número de identificación. el
+La siguiente línea muestra el número de unidades presentes, seguido de la cantidad que
+Explorer actual va a recibir. El número que queda para el segundo
+Explorer a recibir se muestra en la siguiente línea. Si los transportes o depósitos
+se intercambian, el oro y las unidades de suministro se transfieren automáticamente, si uno de
+Los Explorer no deberían tener suficiente capacidad de transporte. Si sólo el oro o
+Se intercambian unidades de suministro, no se intercambian transportes ni depósitos.
+
+7.4.3 SUBMENÚ - REGALOS
+=======================
+
+Puntos de mando Gobernador / Almirante / General : 1 / 1 / 1
+Puntos de movimiento: 1 / 1 / 1
+Unidades de oro: 5 para Explorer, 1 por unidad militar.
+Unidades de suministro : - 
+     Si la lealtad o la moral de un Explorador cae por debajo de 50, existe peligro de
+La deserción del explorador o un motín de sus tropas se vuelve inminente. para
+Para evitar esto, puedes darle oro al Explorador o a sus unidades. Por esto, el
+dos valores se aumentan nuevamente. Se requieren 5 unidades de oro para levantar un
+Lealtad de los exploradores en 1 punto. Las tropas requerirán 1 unidad de oro por cada
+unidad militar presente. El oro se toma de las acciones de Explorers.
+
+7.4.4 SUBMENÚ - ENTRENAMIENTO
+===========================
+
+Puntos de mando Gobernador / Almirante / General: 6 / 4 / 4
+Puntos de movimiento: 10 / 5 / 5
+Unidades de oro: -
+Unidades de suministro: 50 por unidad (excepto colonos)
+     A través del entrenamiento, el nivel de experiencia aumenta en 4 puntos, la moral en
+2 puntos y administración por 1 punto.
+
+7.5 EL MENÚ INFORME
+====================
+
+     Las opciones aquí no requieren ningún gasto de mando o puntos de movimiento.
+Se pueden elegir en cualquier momento.
+
+7.5.1 SUBMENÚ - PUNTUACIÓN DEL JUEGO
+============================
+
+     En la ventana de información, el nombre de los jugadores, sus puntos de victoria y
+Se muestran las reservas de oro almacenadas en la capital, junto con el tipo de
+jugador: computadora, humana o ninguna.
+     Las unidades de suministro que aún poseen los Exploradores no están incluidas. el oro
+Las unidades pueden ser utilizadas libremente por los Exploers para sus planes. La capital actúa como
+un depósito, desde el cual el jugador puede contratar nuevos exploradores y equiparlos con
+capital inicial.
+
+7.5.2 SUBMENÚ - LÍDERES
+============================
+     Con esta opción podrás examinar cualquiera de tus Exploradores.
+
+7.5.3 SUBMENÚ - MAPAS
+======================
+
+     Con esta opción se pueden visualizar varios mapas:
+a) Mapa político: muestra los territorios de los jugadores en su
+   colores.
+b) Mapa económico: muestra las ganancias de cada colonia; cuanto más brillante es
+color, más impuestos se recaudan.
+c) Mapa de terreno: muestra los tipos de terreno en sus colores.
+     Los tres mapas caben en 1 pantalla cada uno. Cada cuadrado se muestra como 2 X
+2 píxeles. La posición actual de los Exploradores se muestra como un cuadrado parpadeante. Sólo
+Se muestran las casillas de terreno en las que entran exploradores amigos.
+
+7.6 EL MENÚ FINAL
+=================
+La entrada de órdenes para un Explorador se puede terminar antes que todas sus órdenes.
+/Los puntos de movimiento se utilizan presionando "Esc". Luego se le preguntará si
+desea "esperar" o "finalizar" el turno. Si el turno termina, los Exploradores
+La lealtad y la moral mejorarán en un 20% del comando restante /
+puntos de movimiento. Esta opción es útil para aumentar los valores de un
+Explorador exhausto.
+
+7.7 EL ENEMIGO INFORMÁTICO
+=======================
+
+     La presencia de nativos conocidos como los "Cajas" hace que el juego sea mucho más
+difícil. Serán controlados por la computadora, expandirán sus territorios.
+y acumula puntos de victoria. Incluso pueden ganar el juego ........
+     Los asentamientos de cajas pueden desaparecer mediante el saqueo. Cualquier oro encontrado será
+capturado. La cantidad de oro depende de las ganancias del acuerdo de Caja.
+
+8.0 BATALLA TERRESTRE
+================
+
+8.1 DESCRIPCIÓN GENERAL
+========================
+     En el caso de una batalla, los jugadores humanos pueden decidir si pelear o no.
+batalla táctica detallada o una batalla estratégica. Al comienzo de una tierra
+batalla, los jugadores deben colocar sus unidades en la pantalla. Al hacer clic en
+botón izquierdo del mouse, se colocará un cursor rojo debajo del puntero del mouse.
+Coloque la unidad con las teclas de flecha, el teclado numérico o las teclas alrededor de ( S ).
+Al presionar (Regresar) se colocará la unidad. Si los jugadores seleccionan una estrategia
+batalla, el ordenador realizará esta tarea. Si dos computadoras operaran
+Los exploradores participan en la batalla, siempre se resuelve a nivel estratégico.
+     La batalla terrestre táctica se divide en dos grandes partes (ver 8.4.2).
+La primera parte consta de a) a k), la segunda de l) a v). El jugador A es
+el explorador que inició el ataque durante la fase de acción. en el primero
+El jugador A se conoce como el atacante (Att), el jugador B como el
+defensor (Def). Durante la segunda parte el jugador B se convierte en el atacante y
+jugador A el defensor. La información en pantalla cambia en consecuencia.
+
+8.2 LA PANTALLA
+=======================
+
+     La parte izquierda de la pantalla muestra el campo de batalla y la derecha
+muestra información sobre tus tropas, etc. Aquí para, como en la fase de Acción
+hay una barra de iconos que funciona como se describe en los capítulos 2.3 y 2.4. si
+se hace clic en la unidad activa con el ratón o si se pulsan las teclas ( S ) o ( 5 )
+Se pulsa, se muestra el resumen general de ambos combatientes. dependiendo
+en el tipo de terreno de la casilla en el mapa estratégico donde se desarrolla la batalla
+lugar, el programa puede proporcionar más de 120 mapas tácticos diferentes. cada unidad
+tiene los siguientes valores:
+
+Fuerza (ST): El número de bajas que puede sufrir antes.             
+      siendo destruido.
+Puntos de movimiento (MP): Los puntos de movimiento se utilizan cuando una unidad               
+     pasa de un cuadrado a otro. Al comienzo de cada movimiento ronda nueva 
+    Se reciben puntos de movimiento. La moral, sin embargo, es importante aquí.   
+Puntos de suministro (SU): una unidad consume puntos de suministro durante casi             
+      cada acción que emprende. Un ataque, especialmente requiere una gran    
+      número de puntos de suministro. Si el número de unidades de suministro cae a 0, el 
+      unidad dejará de existir al comienzo de la primera fase de suministro de 
+      una nueva ronda de batalla.
+Estado de suministro (Estado S): este valor indica el número máximo de suministros 
+      unidades que se pueden recibir por fase de suministro. Este número depende de la 
+      distancia al depósito más cercano y según la temporada. Durante las mejores condiciones 
+     en verano, el valor máximo es 200 si la unidad está directamente adyacente a 
+      un depósito. Cada casilla más alejada del depósito disminuye la     
+      tasa de oferta en 40 unidades de oferta. Si una unidad está directamente adyacente a una  
+      unidad enemiga, el estado de suministro se reduce aún más en 40 unidades de suministro.
+Moral: El espíritu de lucha de la unidad. La baja moral disminuirá la      
+      capacidad de movimiento de una unidad e influye en su fuerza.
+Resistencia: Este valor indica el nivel de agotamiento de la unidad. si esto
+el valor cae a 0 la unidad tiene que descansar. En este punto se puede realizar 
+      sin orden. La resistencia se puede aumentar al no utilizar el movimiento completo.   
+      asignación de una unidad.
+
+8.3 BATALLAS ESTRATÉGICAS
+======================
+
+8.3.1 DESCRIPCIÓN GENERAL
+===========================
+
+     Esta variante es más fácil y rápida de jugar que la ejecución táctica.
+Su propósito es resolver rápidamente batallas en las que la victoria de un lado es
+cierto.
+
+8.3.2 PROCEDIMIENTO
+================
+
+     La fase de batalla estratégica se lleva a cabo en varios pulsos cortos. el
+La computadora calcula las fuerzas de batalla actuales de ambos lados y muestra
+ellos en la pantalla. Se abrevia "BS". Las derrotas de la ronda anterior son
+se muestra "LO". El jugador atacante está marcado (A) y el defensor (D).
+      En el apéndice se da una explicación completa sobre cómo funcionan las fuerzas de batalla.
+se calculan con tablas y ejemplos.
+Ambos jugadores tendrán que elegir su respectivo ataque/defensa.
+estrategias. Al hacerlo es preferible que el otro jugador no mire
+la entrada!
+     Cada bando tiene 4 estrategias diferentes para elegir;
+
+Ataque: estrategia móvil de flanqueo frontal
+Defensa: Ataque Ataque
+------------------------------------------------------
+Contraataque 15 / 15 15 / 10 5 / 20* 20*/ 5
+Excavar 5 / 20* 20*/ 5 10 / 15 5 / 10
+Retraso 10 / 10 5 / 20* 20*/ 5 10 / 15
+Retirada 20*/ 5 10 / 15 15 / 10 15 / 20*
+
+(*) : El bando enemigo pierde 1 unidad (batalla estratégica) o tiene que retirarse.
+
+Ejemplo 10 / 20 
+Fuerza de los atacantes = 100, defensores = 20
+     El atacante hace que el defensor pierda el 10% de la fuerza del atacante.
+puntos (10). El defensor causa el 20% de los puntos de fuerza de los defensores (4
+). Sin embargo, estas pérdidas son valores máximos.
+
+8.3.3 CÁLCULO DE PÉRDIDAS
+=========================
+
+     Las pérdidas se calculan según la tabla del punto 8.3.2, aunque el
+Los números dados son los máximos alcanzables. Si una unidad es destruida, el
+El programa lo selecciona de acuerdo con una rutina particular. Más detalles pueden ser
+que se encuentra en el apéndice. Si se captura un depósito, el jugador activo también
+recibir algunos de sus suministros. Si el enemigo posee 2 depósitos y uno está
+capturado, la mitad de sus unidades de suministro cambiarán de manos. Esto también es cierto para
+transportes y unidades de oro.
+     Para cada ronda de batalla, se necesitan 200 unidades de suministro + 10 unidades de suministro por unidad.
+requerido. La batalla continúa hasta que un lado tiene puntos de fuerza insuficientes o
+unidades de suministro restantes para prolongar la batalla. Al final de la batalla el vencedor
+recibe las unidades restantes de suministro/oro sólo si puede transportarlas. eso
+Es posible que ambas partes se destruyan entre sí de modo que no haya un ganador.
+Esto también puede ocurrir durante una batalla táctica. Se explica cómo terminar una batalla.
+en el capítulo 8.4.7.
+
+8.4 RESOLUCIÓN TÁCTICA
+========================
+
+8.4.1 DESCRIPCIÓN GENERAL
+===========================
+
+     En una batalla resuelta tácticamente ambos jugadores (computadora o humano) tienen
+la oportunidad de mover sus unidades individualmente. Esto puede hacer que las campañas
+mucho más interesante y desafiante. Al seleccionar (Ayuda), se mostrará un resumen de
+Se mostrarán los símbolos en la pantalla. Un clic del mouse o una pulsación de tecla regresará
+al menú principal.
+
+8.4.2 PROCEDIMIENTO
+================
+
+     Durante las batallas tácticas, un turno de juego consta de las siguientes fases
+:
+
+a) fase de suministro jugador A
+b) fase de movimiento jugador A
+c) fase de suministro jugador A
+d) fase de movimiento jugador B
+e) fase de suministro jugador B
+f) fase de movimiento jugador A
+g) fase de suministro jugador A
+h) fase de reemplazo jugador A
+i) jugador de la fase de batalla A
+j) fase de reemplazo jugador A
+k) fase de suministro jugador A
+l) fase de suministro jugador B
+m) fase de movimiento jugador B
+n) fase de suministro jugador B
+o) fase de movimiento jugador A
+p) fase de suministro jugador A
+q) fase de movimiento jugador B
+r) fase de suministro jugador B
+s) fase de reemplazo jugador B
+t) jugador de la fase de batalla B
+u) fase de reemplazo jugador B
+v) fase de suministro jugador B
+Las fases se llevan a cabo de forma secuencial. Al final de cada turno, cada
+La unidad recibe 2 puntos de experiencia.
+
+8.4.3 LA FASE DE SUMINISTRO
+=======================
+
+8.4.3.1 DETERMINACIÓN DEL ESTADO DEL SUMINISTRO
+=======================================
+      Para llevar a cabo sus tareas con eficacia, una unidad debe estar vinculada a
+una red de suministro. Cada depósito bajo el control de un Explorador actúa como un suministro.
+fuente. Un depósito puede distribuir unidades de suministro hasta a 5 casillas de distancia. Por lo tanto
+una unidad a 6 casillas de distancia quedará desabastecida. La capacidad de suministro de un depósito.
+sin embargo, varía según las estaciones. Dependiendo del clima el máximo
+La distancia de suministro disminuye, como se puede ver en la siguiente tabla. bajo
+En cada distancia se enumera el número de unidades de suministro que la unidad puede recibir:
+                     Número de cuadrados
+Temporada 1 2 3 4 5
+-----------------------------------------------------------------
+Resorte 160 120 80 40 0
+Verano 200 160 120 80 40
+Otoño 160 120 80 40 0
+Invierno 120 80 40 0 0
+
+     Cuanto más corta sea la distancia hasta el depósito, más unidades de suministro podrá tener una unidad.
+recibir por fase de suministro. Para garantizar líneas de suministro cortas, incluso en
+En invierno se deben utilizar al menos 3 depósitos.
+     El estado del suministro se puede ver en el resumen de la unidad. Si una unidad amiga es
+directamente adyacente a una unidad enemiga, su estado de suministro desaparecerá a los 40
+unidades de suministro.
+
+8.4.3.2 DISTRIBUCIÓN DE UNIDADES DE SUMINISTRO
+===================================
+
+     Dependiendo de su estado de suministro, una unidad puede recibir una cantidad variable de
+unidades de suministro. Los jugadores tendrán que distribuir suministros a sus unidades.
+Esto implica el uso de una tabla logarítmica (ver 2.3). La computadora
+enumerar secuencialmente todas las unidades capaces de recibir suministros. El disponible
+Se muestran las unidades de suministro, junto con las demandas de suministro. El jugador puede
+asignar unidades de suministro como él elija.
+
+8.4.3.3 FALTA DE SUMINISTRO
+=======================
+
+     Al comienzo de la fase de suministro de cada jugador, cada unidad consumirá 10
+unidades de suministro para garantizar un suministro mínimo (agua, alimentos, etc.). si
+el número de unidades de suministro que posee la unidad cae a 0 después de haber recibido
+nuevas unidades de suministro, la unidad deja de existir y se pierde. es mas facil
+por lo tanto, mantener las unidades dentro del alcance de los depósitos.
+
+8.4.4 LA FASE DE MOVIMIENTO
+=========================
+     La computadora seleccionará cada unidad por turno para que el jugador pueda emitir
+órdenes para ello. Pulsando F1 es posible cambiar entre diferentes
+unidades. Al usar las teclas de dirección, la unidad actual se puede mover en esa dirección.
+dirección. Cada movimiento cuesta puntos de movimiento y unidades de suministro. Los detalles son
+figura en el apéndice. Si una unidad no tiene suficientes puntos de movimiento o
+unidades de suministro, no podrá avanzar más. Además, el movimiento
+Los puntos utilizados para entrar en la plaza se descontarán de la resistencia.
+valor. Los ingenieros son las únicas tropas que pueden entrar en una casilla fluvial. si un
+El ingeniero ingresa a un río en el siguiente turno, la computadora preguntará si el
+El ingeniero construirá un puente allí. Si la respuesta es "sí", el ingeniero
+perderá todos los puntos de movimiento y se construirá un puente a través del
+río. Un puente cuesta 20 puntos de suministro y 5 puntos de resistencia.
+     Las unidades enemigas tienen una zona de control, compuesta por 8 casillas que rodean
+la unidad. A estas plazas no se puede acceder libremente. Si una unidad avanza hacia una
+zona de control enemiga, pierde todos los puntos de movimiento para este turno. Sin embargo,
+Las unidades enemigas sólo pueden ser atacadas si están dentro de una zona de control ejercida.
+por unidades amigas, es decir, adyacentes a las unidades atacantes.
+     Al comienzo de cada fase de movimiento, todas las unidades reciben nuevo movimiento.
+puntos, dependiendo de su moral actual. Si una unidad sólo tiene una moral de 75,
+recibe un 25% menos de puntos de movimiento. El número máximo de puntos de movimiento.
+posible se muestra entre paréntesis en el resumen de unidades al lado de la actual
+valor.    
+     Si una unidad está adyacente a uno o más depósitos, la unidad puede ser reabastecida.
+Presione F1, la computadora revisará todos los depósitos disponibles y podrá
+transferir unidades de suministro usando ( + ) / ( - ). presione (Regresar) para finalizar la entrada.
+     Las unidades también se pueden mover con el mouse. Haga clic en un cuadrado adyacente y el
+la unidad se moverá. Haciendo clic en el icono ( Esc ) o presionando la tecla ( Esc )
+Serás llevado al menú cancelar. Al seleccionar la opción "esperar", el
+La unidad actual será ignorada y la siguiente unidad se activará. Cuando termines tu
+turno, los puntos de movimiento restantes se utilizarán para aumentar la resistencia
+calificación.
+
+8.4.5 LA FASE DE REEMPLAZO
+============================
+     Durante la fase de batalla algunas unidades perderán puntos de fuerza. No todos
+las pérdidas, sin embargo, representan muertos. A %, dependiendo de la administración y
+nivel de experiencia del Explorer, regresarán como reemplazos. fuerza
+Los puntos solo se pueden agregar como reemplazos de unidades si están abastecidas. Para
+Para cada tipo de tropa existe un grupo especial: infantería, artillería, caballería y
+ingenieros. Utilice ( + ) / ( - ) para agregar reemplazos. Esto resultará en una
+Pérdida de puntos de experiencia. La computadora enumerará los reemplazos disponibles.
+
+8.4.6 LA FASE DE BATALLA
+=======================
+
+8.4.6.1 DESCRIPCIÓN GENERAL
+============================
+     Cada unidad enemiga ubicada en una zona de control amiga puede ser atacada.
+durante esta fase. Selecciona la unidad enemiga que deseas atacar, presiona F1. el
+La computadora ahora mostrará todas las unidades disponibles que pueden atacar este objetivo.
+Luego, el jugador puede decidir qué unidades atacar usando el botón " sí " / "
+sin "cajas". Al mover el cursor por la pantalla, se muestran los datos generales.
+enumerados en la ventana de información. Si el cursor está colocado sobre una unidad, sus valores
+se muestran.
+     Sólo los gobernadores, generales, infantería, caballería, artillería e ingenieros pueden
+ser enviado a la batalla. Estas unidades necesitarán tener suficiente resistencia y
+unidades de suministro restantes. Cada unidad requiere 5 puntos de suministro por punto de fuerza.
+para poder participar en la batalla.
+     Al igual que en una batalla estratégica cada jugador debe elegir un ataque/
+estrategia de defensa. Las pérdidas se calculan de manera similar, pero en una batalla táctica.
+la fuerza de cada combatiente se determina de forma diferente. Más detalles en el
+siguientes capítulos.
+
+8.4.6.2 CÁLCULO DE LA FUERZA DE BATALLA
+==========================================
+     Primero se determina el multiplicador de fuerza de batalla. La base para esto
+es la fuerza de la unidad. Cada tipo de terreno tiene un valor de defensa específico.
+La fuerza del defensor se multiplica por este valor. El apéndice contiene
+algunas tablas para mayor explicación. Cada unidad requiere 2 unidades de suministro por
+punto de fuerza para la defensa. Si una unidad defensora no tiene suficiente suministro
+puntos su fuerza se reducirá a la mitad.
+     A continuación se determina un multiplicador de estado. Cada tipo de unidad tiene un cierto
+valor base:
+- depósito: 0
+- colono: 1
+- transporte : 1
+- infantería ligera: 2
+- infantería pesada: 3
+- ingenieros: 3
+- artillería: 4
+- caballería: 5
+- Explorador: 6
+     Un defensor suma a este valor el 10 % de sus puntos de experiencia, el
+atacante 8%. Además, ambos bandos suman el 4% de sus valores morales. cada uno
+La unidad amiga adyacente a la unidad defensora luego suma 2 puntos al estado.
+multiplicador del defensor.
+     Cada unidad que no participa en el ataque pero está adyacente a la
+defensor, suma 3 puntos al valor de los atacantes. Por cada unidad de artillería
+Al participar en el ataque se añade otro 10 %. 
+     Ahora, para cada lado, el multiplicador de fuerza se multiplica por el estado.
+multiplicador. Luego, el resultado se divide por 20. Este resultado es el número de
+puntos de batalla. Estos puntos pueden disminuir dependiendo del clima.
+8.4.6.3 CÁLCULO DE LAS PÉRDIDAS
+===============================
+
+     Dependiendo de la respectiva estrategia de ataque/defensa, las pérdidas
+se calculan de acuerdo con el éxito de cada lado. Si el bando enemigo sufre una
+10% de pérdida, esto siempre representa un valor máximo que se puede cambiar dentro de
+las rutinas hasta en un 66%. En el apéndice se explica una batalla típica.
+     Las pérdidas calculadas se distribuyen equitativamente entre las unidades.
+participar en la batalla, empezando por las unidades menos experimentadas.
+Dependiendo de la administración y experiencia del Explorer, algunas tropas
+Volverán como reemplazos más tarde.
+     Si el resultado en la tabla de resultados de combate va seguido de un *, el
+La unidad defensora tiene que retirarse, a menos que sea destruida. Seleccione el cuadrado que
+retrocede con las teclas de dirección / ratón. Si una unidad no puede retirarse
+está destruido. También es posible que una unidad atacante tenga que
+retirada. Aquí se aplican las mismas reglas que para un defensor.
+     Si la unidad defensora es destruida, el atacante puede tener 1 o más
+Las unidades atacantes avanzan hacia el cuadrado. Primero la computadora revisa todos
+las unidades de caballería. Elija "sí" o "no". La caballería puede avanzar hasta 2
+cuadrados. En este caso hay que introducir la dirección del segundo cuadrado.
+De esta manera puedes, dependiendo de la situación, tener varias unidades de caballería y
+otra unidad avanza.
+     Por cada punto de fuerza enemigo destruido se añaden 2 puntos de experiencia.
+las unidades que participan en el ataque. Por cada punto de fuerza amigo perdido,
+Se deduce 1 punto de experiencia. Esto es cierto para ambas partes. Las unidades que
+poseen la experiencia más baja tienen ventaja. Por cada unidad enemiga
+Totalmente destruido, se obtienen puntos de victoria.
+     El número de puntos de victoria se determina de la siguiente manera: Costos de compra
+dividido por 5. Por lo tanto, una unidad de artillería eliminada obtendría 5 puntos de victoria.
+puntos. Por cada unidad perdida y por cada unidad que tenga que retirarse, el propietario
+El jugador perderá 5 puntos de moral, mientras que las unidades victoriosas recibirán 5 puntos de moral.
+puntos.
+
+8.4.7 DETERMINACIÓN DE LA VICTORIA
+============================
+
+     Una batalla concluye cuando el Explorer muere. El jugador victorioso
+recibe 20 puntos de victoria y su Explorador 1 punto de administración y, si
+en su caso, el suministro capturado y las unidades de oro. Esto también es cierto para el
+Variante de batalla estratégica. Después de esto, el juego continúa normalmente.
+
+9.0 BATALLAS MARÍTIMAS
+================
+
+9.1 LA PANTALLA
+===============
+
+     La izquierda de la pantalla muestra la pantalla de batalla y la derecha la
+pantallas de datos para cada Almirante. La primera línea muestra el jugador actual y
+la velocidad del viento. Las abreviaturas son:
+
+Administración : ( A )
+Número de barcos : ( FLT )
+Experiencia : ( E )
+Moral: (M)
+Número de unidades de oro: (Oro)
+Número de unidades de suministro : ( S )
+     
+     Como al comienzo de las batallas terrestres, las unidades de los jugadores primero deben colocarse
+en el mapa (ver 8.1) Si dos jugadores de la computadora pelean una batalla, la ejecución
+La velocidad se puede aumentar presionando cualquier tecla.
+
+9.2 ORDEN DE JUEGO
+==================
+
+     Una vez que los jugadores hayan colocado sus barcos en el mapa, los jugadores pueden emitir
+órdenes para ellos. Cada barco puede realizar 1 orden por turno. Después de que el pedido haya
+ingresado el buque intentará realizarlo inmediatamente. tan pronto como
+cada barco de un lado ha recibido una orden, el pulso termina y el juego
+cambia al otro jugador. 
+     Cada barco requiere 5 unidades de suministro por pulso. Cada andanada disparada cuesta
+5 unidades de suministro. La batalla continúa hasta que se cumpla una de las siguientes condiciones.
+cumplimentado:
+
+a) A un jugador no le quedan unidades de suministro.
+b) Un jugador ha perdido todos sus barcos.
+c) Sólo los barcos de un jugador están en el área de batalla.
+
+     Entonces el otro bando ganará la batalla. Sin embargo, es posible que
+Ambos bandos se destruirán mutuamente por completo.
+
+9.3 DATOS DEL BUQUE
+==============
+
+     Cada barco tiene una serie de características. Antes de que un jugador emita una
+pedido a un barco, se muestra la siguiente información:
+Casco : 90 % ( Estado del casco del barco. En este caso              
+dañado en un 10 % )
+Jarcia : 80 % ( Estado de las velas del barco. En este caso             
+dañado en un 20 % )
+16 cañones 17: (Número de cañones disponibles; babor y estribor             
+listado; hasta 18 por lado)
+Munición: Tiro de uva. ( Tipo de munición. Hay dos tipos             
+disponible: redondo y uva)
+Tripulación: 170 (tripulación máxima 200)
+Vela: Completa (Esto tiene un impacto en la velocidad del barco. Hay           
+  Hay cinco posibilidades.)
+Carga: Depósito (Cada barco puede transportar una unidad militar             
+que acompaña al Almirante)
+
+9.4 MOVIMIENTO DEL BUQUE
+==================
+
+9.4.1 DESCRIPCIÓN GENERAL
+===========================
+     La computadora selecciona cada barco individualmente. Si desea omitir el
+barco actual, haga clic con el botón izquierdo del mouse en el icono ( Esc ) o presione ( Esc ).
+Los barcos que ya se han movido se mostrarán en gris. El barco actual es
+delineado en rojo. Los barcos enemigos a los que se puede disparar están delineados en blanco.
+Una vez seleccionado como objetivo, un barco enemigo aparece delineado en amarillo. 
+     Al presionar (F2), el pulso actual finalizará antes de que todos los barcos hayan
+pedidos recibidos. Como resultado, todos los barcos seguirán navegando en línea recta.
+y no ejecutará más pedidos. Precaución: es posible que los barcos
+embestir unos a otros.
+     Pulsando ( F5 ) aparecerá el menú de pedidos. Se pueden realizar hasta 7 pedidos.
+emitido. Los pedidos que no se puedan emitir no se mostrarán. puedes irte
+cada menú de selección usando (Espacio).
+
+9.4.2 PEDIDOS
+=============
+
+9.4.2.1 MUNICIONES
+===================
+
+     Con esta orden podrás cambiar el tipo de munición o el modo de disparo.
+dirección de las armas. Se debe utilizar artillería normal (redonda) contra el
+casco ya que causa más daño que la metralla, que debe usarse contra
+el aparejo.
+
+9.4.2.2 VELA
+=============
+
+     Al elegir el tipo de vela, los jugadores establecen la velocidad del barco. hay 5
+configuraciones posibles:
+
+000 % : Sin vela
+025 % : 1/4 vela
+050 % : media vela
+075 % : 3/4 vela
+100 % : toda vela
+     Mientras la vela esté izada el barco seguirá moviéndose. dependiendo de
+la velocidad del viento, la distancia variará. Esta distancia se calcula mediante:
+(velocidad del viento + 1) x vela x aparejo.
+Ejemplo: Velocidad del viento - 3; Vela - la mitad; Aparejo - 50 %.
+Resultado : ( 3 + 1 ) x 0,5 x 50 % = 1 cuadrado
+     Este barco se moverá 1 casilla. Si el valor es menor que 1, es
+determina aleatoriamente si el barco continúa moviéndose. Esta probabilidad disminuye
+en función de los daños en el aparejo.
+     Para cambiar de vela, un barco necesita una tripulación de al menos 40 personas.
+valor del aparejo es inferior al 30%, la vela se considera destruida y el
+el barco no podrá moverse.
+     Si el camino es bloqueado por otro barco, será embestido. Ambos barcos
+se dañará. El barco embestido sufrirá más daños si es
+embestido desde un lado. Un valor de experiencia alto limitará el daño.
+      Si un barco abandona el área de batalla, reaparecerá unos instantes más tarde.
+Nuevamente el jugador propietario tiene que elegir una posición inicial. Durante el "
+pausa de batalla "la tripulación reparará algunos daños. Una alta experiencia y
+El valor de administración es una ventaja.
+
+9.4.2.3 FUEGO
+=============
+
+     Se resaltarán todos los barcos enemigos dentro del alcance. Tus artilleros pueden disparar.
+en un barco a cada lado. Si hay más de un objetivo disponible, tendrás
+para seleccionar su preferencia.
+La eficacia de una andanada depende del número de cañones, la
+distancia involucrada y un factor aleatorio. Cada arma requiere 4 tripulantes para operar.
+eso. Si no hay suficientes tripulantes a bordo, algunas armas no se utilizarán. Así como
+Al embestir, aparecerá un mensaje de daño. Los valores mostrados deben hablar por
+ellos mismos. Si el valor del casco cae por debajo del 50 %, el barco puede hundirse. Para
+Cada barco enemigo hundido recibe 10 puntos de victoria y la moral aumenta en 2.
+puntos y experiencia por 5 puntos. La moral del enemigo cae 2 puntos.
+
+9.4.2.4 CURSO
+===============
+
+     Con esta orden podrás alterar la dirección del movimiento de un barco. si el
+Las velas están arriadas, en su lugar aparece la orden "rezar" en la pantalla. el curso
+Sólo se puede izar si las velas están izadas. Si no deseas dar un pedido
+a un barco, puede finalizar la entrada del pedido seleccionando "mantener rumbo" o "
+orar ". En cada cambio de dirección el barco gira a estribor (derecha) o babor
+(izquierda) en 45 grados. El barco se moverá entonces en esta dirección según
+a su velocidad. Es necesario tener cuidado durante los procedimientos de giro, ya que es posible
+barcos amigos de embestida.
+
+9.4.2.5 AUTODESTRUCCIÓN
+=========================
+
+     A veces, es una ventaja destruir barcos amigos para poder
+evitar que caigan en manos enemigas. Utilice esta orden con precaución, sin embargo,
+ya que las batallas no están predeterminadas. ¡Nunca pierdas la esperanza!
+
+9.4.2.6 EMBARQUE
+=================
+
+     Abordar barcos enemigos es una de las características más interesantes del
+juego.
+     Para abordar un barco, el barco enemigo debe estar al costado, ya sea en
+babor o estribor. La dirección actual del movimiento de cualquiera de los barcos no tiene importancia.
+importancia. El barco amigo sólo puede realizar un intento de abordaje si tiene una
+unidad de infantería o ingenieros a bordo. Si dos barcos enemigos están en condiciones de
+ser abordado, debes seleccionar un objetivo. Siga las indicaciones en pantalla.
+     El éxito o el fracaso depende de las estadísticas de tu almirante, el enemigo
+Estadísticas del almirante, tripulación de abordaje y tripulación a bordo del barco enemigo.
+También son ventajosos un alto valor administrativo y un alto valor moral.
+También es más fácil abordar un barco enemigo si no transporta ningún otro
+tropas que su tripulación. Un grupo de abordaje que tiene que luchar contra una tripulación enemiga y
+una unidad de infantería bien entrenada tendrá dificultades. Los ingenieros son mejores
+más adecuado para el abordaje que la infantería normal.
+     Si un barco enemigo es abordado con éxito, el vencedor lo captura.
+Un pequeño equipo de presa tomará el mando. Para abordar con éxito un barco, 20
+Se obtienen puntos de victoria, 5 puntos de moral y 10 puntos de experiencia. El enemigo pierde
+5 puntos de moral.
+     Si la acción de abordaje falla, el grupo de abordaje será eliminado. si
+intentas abordar un barco enemigo que transporta infantería o un
+unidad de ingenieros, es posible que el enemigo intente abordar su barco
+para poder apoderarse de él. Si esta acción tiene éxito entonces el enemigo será
+otorgó 20 victorias, 6 de moral y 3 puntos de experiencia. El atacante perderá
+6 puntos de moral.
+     Si un barco que lleva un depósito o una unidad de transporte es capturado, el vencedor
+recibe el suministro correspondiente y/o unidades de oro así como el
+tropas acompañantes.
+  
+Ejemplo: El enemigo tiene 2 unidades de transporte a bordo de sus barcos. uno de ellos
+es capturado como resultado de una acción de abordaje. El vencedor recibe la mitad del
+oro así como la unidad de transporte. Normalmente un almirante sólo puede comandar
+a 8 barcos. Sin embargo, al abordar y capturar este número se podrá incrementar.
+a 15, teniendo que abandonarse todos los buques sobrantes. es por lo tanto
+Es posible que el jugador construya enormes galeones o flotas de piratería si
+Concéntrate en el embarque. Los grandes barcos de transporte de oro sólo se pueden obtener mediante
+embarque y los almirantes con 8 o más barcos son adecuados para escoltar oro
+transporta de regreso a la capital o actúa como cazador de piratas o para el caso
+pirata.
+
+9.4.2.7 ARMAS EN MOVIMIENTO
+====================
+
+     Con esta orden es posible mover armas a diferentes posiciones en
+tablero. Por lo tanto, si los cañones de un barco han sido dañados en un lado, es posible
+Mueve algunas armas desde un área no dañada para mejorar la posición. el maximo
+Sin embargo, el número de cañones por bando sigue siendo 18.
+
+9.5 VICTORIA EN EL MAR
+===================
+
+     Una batalla naval termina si a un bando no le quedan unidades de suministro o no le quedan barcos.
+dejado en el área de batalla. El vencedor recibe 20 puntos de victoria. Moral
+aumenta en 5 puntos y la experiencia en 10. El almirante victorioso recibe
+1 punto de administración.
+     Si el enemigo perdía la batalla porque se quedaba sin unidades de suministro, el
+El almirante victorioso captura todos los barcos restantes. Si todos los barcos en la batalla
+área son destruidas o capturadas, todos los barcos enemigos que se encuentran actualmente fuera
+El área de batalla también es capturada. Si el Almirante derrotado todavía posee
+unidades de oro o unidades de suministro, también se las lleva el vencedor. También es
+Es posible que el almirante derrotado tuviera un explorador a bordo. las unidades de oro
+y también se capturan unidades de suministro del Explorer. Viajes de Exploradores Embarcados
+en la flota de apoyo del Almirante. Estas flotas se componen de varias pequeñas
+buques que sólo pueden utilizarse para tareas menores. Como no pueden participar en el mar.
+batallas, no se muestran en la pantalla.
+
+10.0 CONSEJOS DE JUEGO
+==================
+
+     Al comienzo del juego debes contratar al menos 2 almirantes y
+Gobernadores. Los gobernadores deberían recibir algunos colonos y al menos 1
+ingeniero y un depósito adicional. También asegúrese de que reciban suficiente oro.
+y unidades de suministro. Una vez hecho esto, haga que sus almirantes carguen el
+Gobernadores y zarpar en cualquier dirección elegida. Intenta descubrir una costa
+área con sus almirantes lo antes posible. Una vez encontrada una zona costera,
+Desembarca a los Gobernadores y úsalos para una mayor exploración.
+     En el nuevo mundo deberían construirse tantos puertos como sea posible para
+para garantizar el movimiento fluido del oro y las unidades de suministro. Después de asegurar los puertos
+los gobernadores deberían ser trasladados tierra adentro para colonizar el territorio recién ganado.
+Una vez que la primera colonia alcance un tamaño razonable, debes comenzar a recolectar
+impuestos y transportarlos a la capital. Los oponentes de la computadora comenzarán.
+varias misiones al comienzo del juego y descubrirás vastas tierras
+y comenzar a colonizarlos. Después de 2 o 3 años, tus oponentes informáticos
+Toma conciencia de ti y de la competencia por las mejores colonias y rutas marítimas.
+comenzará en serio. En esta etapa deberías tener almirantes bien equipados.
+y Generales. Las batallas navales serán especialmente importantes, ya que quien controle
+las rutas marítimas, controla el juego.
+     Para lograr la victoria se debe tener en cuenta lo siguiente:
+a) Protege tus colonias de una posible invasión, con varios Generales.
+b) Debes equipar a tus Exploradores con oro de las colonias tan pronto como
+posible evitar el drenaje de las reservas de oro de la capital.
+c) Formar una reserva de Exploradores a tiempo. Si pierdes 2 o 3 batallas navales dentro
+En poco tiempo te convertirás en una simple marioneta, garantizando puntos de victoria.
+a tus oponentes.     Las pérdidas deben reponerse inmediatamente.
+
+
+11.0 APÉNDICE
+==============
+
+11.1 TABLA DE TERRENO (Fase de acción)
+=====================================
+
+Tipo de terreno Puntos de movimiento Puntos de suministro
+------------------------------------------------------
+Desconocido 2 2
+Mar 2 2
+Pantano 16 8
+Montaña 12 6
+Colina 8 4
+Bosque 6 2
+Llanuras 4 2
+Desierto 6 12
+Costa 4 2
+Montaña - colonizada 4 2
+Colina - colonizada 4 2
+Llanuras - colonizadas 2 2
+Puerto 2 2
+Mía 4 4
+Liquidación 2 2
+Liquidación de cajas 2 2    
+Capital 2 2
+
+11.2 TABLA DE TERRENO (Fase de batalla)
+=====================================
+
+Tipo de terreno Puntos de movimiento Puntos de suministro Factor de defensa
+--------------------------------------------------------------
+Lago - - -    
+Río ( 4 ) ( 12 ) 1 / 2
+Puente 2 2 1 / 2
+Camino 2 2 1
+Liquidación 2 2 2
+Liquidación de cajas 2 2 2
+Fortaleza 2 2 5
+Llanuras - colonizadas 2 2 1
+Llanuras 4 2 1
+Bosque - colonizado 4 4 2
+Bosque 6 4 2
+Cerro - colonizado 6 6 3
+Colina 8 6 3
+Montaña - colonizada 8 8 4
+Montaña 10 8 4
+Pantano 12 16 4
+Desierto 10 20 1
+Mía 8 8 4
+Alta montaña - - -
+
+      Para movimiento diagonal durante la fase de acción o batalla, añade un 50 % al
+número requerido de puntos de movimiento y suministro. Sólo los ingenieros pueden entrar
+plazas del río. Las altas montañas y los lagos son intransitables. Los puentes sólo pueden ser
+construido por ingenieros. El factor de defensa muestra el aumento de la batalla.
+Fuerza de la unidad defensora.
+
+11.3 LOS PEDIDOS
+================
+
+Puntos de mando Puntos de movimiento de órdenes
+-------------------------------------------------------------------
+Gobernador/Admir./Gen/Comm.                         Gobernador /Adm /Gen /Com
+-------------------------------------------------------------------
+  1 1 1 - ¿Mover?    ?    ?    - 
+ 16 8 8 - ¿Ataque?    ?    ?    -
+  - 1 - - Embarque Explorador - 1 - -
+  - 1 - - Desembarcar Explorer - 1 - -
+  1 1 1 - Cargar oro 1 1 1 -
+  1 1 1 - Descargar oro 1 1 1 -
+  4 - 2 - ¿Saqueo?    - ?    -
+  1 - 2 - ¿Colonizar?    - ?    -
+  1 - 2 - Construir puerto 6 - 9 -
+  2 - 4 - Construir asentamiento 8 - 12 -
+  1 - 2 2 Ampliar liquidación 4 - 6 6
+  1 1 1 1 Comprar unidades de suministro 1 1 1 1
+  1 1 1 1 Vender unidades de suministro 1 1 1 1
+  1 - 2 2 Obtener ganancias 1 - 2 2
+  6 4 4 4 Reclutar 1 1 1 2
+  1 1 1 1 Reorganizar 1 1 1 1
+  1 1 1 1 Subvenciones 1 1 1 1
+  6 4 4 4 Formación 10 5 5 5
+
+No se puede emitir el pedido: -
+Puntos de movimiento: ? (ver tabla de terreno)
+
+11.4 COSTOS
+==========
+
+Se requieren unidades de oro de acción
+-------------------------------------------------------
+Contrata al Gobernador 25 - 100 unidades de oro
+Contrata al general 50 - 100 unidades de oro
+Contrata a Commander 25 - 100 unidades de oro
+Contrata al Almirante 75 - 100 unidades de oro
+Infantería ligera 10 unidades de oro
+Infantería Pesada 15 unidades de oro        
+Caballería 20 unidades de oro.
+Marines 20 unidades de oro
+Artillería 25 unidades de oro.
+Ingeniero 15 unidades de oro
+Flota 50 unidades de oro.
+Depósito 5 unidades de oro
+Transporta 5 unidades de oro.
+Extrae 100 unidades de oro + 4000 unidades de suministro.
+Colonización 10 unidades de oro + 100 unidades de suministro por              
+                                colono
+Construye puerto 30 unidades de oro + 1000 unidades de suministro
+Construir asentamiento 60 unidades de oro + 2000 unidades de suministro
+Ampliar liquidación 40 unidades de oro + 1500 unidades de suministro
+Entrenando 50 unidades de suministro por unidad de batalla.
+Regalo (+1) 50 unidades de oro para Explorer
+                           1 unidad de oro cada una por unidad de batalla
+Unidades de suministro 100 unidades de suministro por 1 unidad de oro (comprar)
+1 unidad de oro por cada 200 unidades de suministro (venta)           
+  
+11.5 DESCRIPCIÓN DE LA UNIDAD
+======================
+
+Tipo de unidad Puntos de movimiento Fuerza de batalla Valor base
+--------------------------------------------------------------
+Flota - 100 % -
+Almirante - - -
+Gobernador 12 10 6
+Generales 16 20 6
+Comandante 14 15 6
+Infantería ligera 16 12 2
+Infantería pesada 12 16 3
+Infantes de marina - - -
+Caballería 24 12 5
+Artillería 12 12 4
+Ingeniero 16 8 3
+Depósito 12 ( 2 ) ( 0 )
+Transporte 16 ( 2 ) ( 1 )
+Colono 12 ( 2 ) ( 1 )
+
+11.6 EFICIENCIA DE LA BATALLA Y SECUENCIA DE PÉRDIDAS (ESTRATÉGICA)
+=============================================================
+
+Tipo de unidad Atacante Defensor Secuencia de pérdidas
+--------------------------------------------------------
+Explorador 100 % 250 % -
+Infantes de marina - - -
+Infantería ligera 100 % 200 % 3
+Infantería pesada 150 % 150 % 4
+Caballería 200 % 100 % 2
+Artillería 250 % 100 % 5
+Ingeniero 100 % 150 % 1
+Depósito 0 % 50 % 6
+Transporte 0 % 50 % 7
+Colono 0 % 50 % 8
+
+     Las fuerzas de batalla de todas las unidades se verán modificadas por los valores mostrados.
+Las unidades se eliminan en la secuencia dada. Unidad de ingenieros primero, seguida de
+unidad de caballería, etc.
+
+11.7 CAMBIOS ESTACIONALES EN LAS FUERZAS DE BATALLA Y EL SUMINISTRO MÁXIMO
+     ========================================================
+     DISTANCIA DE UN DEPÓSITO
+     ====================
+
+Temporada Atacante Defensor Longitud de la línea de suministro
+---------------------------------------------------
+Primavera 75 % 100 % 4 cuadrados
+Verano 100 % 100 % 5 cuadritos
+Otoño 75 % 75 % 4 cuadrados
+Invierno 50 % 100 % 3 plazas
+
+     Por ejemplo, al 75 %, la fuerza de batalla se reduciría en un 25 %.
+
+11.8 TABLA DE ATAQUE Y DEFENSA
+==============================
+     La siguiente tabla está expresada en valores porcentuales y no en puntos de fuerza.
+
+Ataque Frontal Flanqueo Estrategia Móvil
+----------------------------------------------------------------
+Contador 15 / 15 15 / 10 5 / 20* 20*/ 5
+Excavar 5 / 20* 20*/ 5 10 / 15 5 / 10
+Retraso 10 / 10 5 / 20* 20*/ 5 10 / 15
+Retirada 20*/ 5 10 / 15 15 / 10 15 / 20*
+
+* = El oponente pierde 1 unidad (batalla estratégica) o tiene que retirarse (
+batalla táctica).
+
+11.9 EJEMPLO DE BATALLA (RESOLUCIÓN TÁCTICA)
+=============================================
+
+     Un general está bajo ataque de 1 infantería, 1 caballería, 1 artillería y 1
+unidad de ingenieros. El general está en un acuerdo. Su zona trasera está custodiada por
+2 unidades. Es primavera. Los valores del defensor son:
+Generales:
+Moral: 100
+Experiencia: 150
+Unidades de suministro: 30
+Terreno : Asentamiento
+
+Multiplicador de fuerza de batalla del defensor:
+
+16 (fuerza de batalla) x 2 (asentamiento) = 32/2 (debido a la falta de
+oferta ) = 16
+
+Multiplicador de estado del defensor:
+
+6 ( valor base ) + 4 ( 2 unidades adyacentes x 2 ) + 15 ( experiencia x 10 % ) + 4
+(moral x 4%) = 29
+
+Puntos de batalla del Defensor:
+
+16 x 29 x 100 % ( temporada ) = 464 / 20 = 23,2
+
+Valores del atacante:
+
+Infantería: Fuerza de batalla: 16
+           Moral: 100
+           Experiencia: 100
+Unidades de suministro: 100
+
+Caballería: Fuerza de batalla: 12
+           Moral: 100
+           Experiencia: 100
+           Unidades de suministro: 100
+
+Artillería: Fuerza de batalla: 16
+           Moral: 100
+           Experiencia: 100
+           Unidades de suministro: 100
+
+Ingeniero: Fuerza de batalla: 8
+           Moral: 100
+           Experiencia: 100
+           Unidades de suministro: 100
+
+Multiplicador de fuerza de batalla del atacante:
+
+16 (infantería con fuerza de batalla) + 12 (caballería con fuerza de batalla) + 12 (
+artillería de fuerza de batalla) + 8 (ingeniero de fuerza de batalla) = 48
+
+Multiplicador de estado del atacante:
+
+2 (infantería de valor base) + 5 (caballería de valor base) + 4 (valor base
+artillería) + 3 (valor base ingeniero) + 32 (suma de experiencias = 400 x 8
+% ) + 16 ( suma de morales = 400 x 4 % ) = 62 x 110 % ( apoyo de artillería ) =
+68.2
+
+Puntos de batalla del atacante:
+
+48 x 68,2 x 75 % ( temporada ) = 2455,2 / 20 = 122,76
+
+     El atacante elige un ataque "frontal", mientras que el defensor decide
+"retrasar". El resultado es 10/10. El atacante eliminará de 4 a 12 enemigos.
+puntos de fuerza, el defensor 0 - 2.
+
+11.10 EJEMPLO DE BATALLA (RESOLUCIÓN ESTRATÉGICA)
+=================================================
+
+     En una batalla estratégica, la fuerza de batalla de una sola unidad será
+multiplicado por la eficiencia de la batalla (ver 11.6). Además, este valor
+se multiplicará por el 1% de la moral y el 1% de la experiencia. Entonces todos
+los valores de todas las unidades se suman y multiplican por el factor de temporada.
+     Finalmente, cada unidad de batalla de un tipo de unidad de combate (infantería,
+caballería, artillería, ingeniero) aumenta el valor actual del resultado
+dado en un 10%. Este resultado luego se divide por 4.
+Ejemplo:
+Un general ataca con 3 unidades de infantería, caballería, artillería e ingenieros como
+así como con 2 depósitos y 1 transporte. Es otoño. La moral y la lealtad son
+90% cada uno, administración y experiencia son 160 cada uno.
+
+General: 20 (fuerza de batalla) x 100% (experiencia) x             
+    0,9 (fidelización) x 1,6 (administración)
++ 3 infantería 48 ( fuerza de batalla ) x 100 % ( experiencia ) x             
+   0,9 (moral) x 1,6 (experiencia)
++ 3 caballería 36 ( fuerza de batalla ) x 200 % ( experiencia ) x             
+   0,9 (moral) x 1,6 (experiencia)
++ 3 artillería 36 ( fuerza de batalla ) x 250 % ( experiencia ) x             
+   0,9 (moral) x 1,6 (experiencia)
++ 3 ingenieros 36 (fuerza de batalla) x 100% (experiencia) x             
+   0,9 (moral) x 1,6 (experiencia)
+
+= 365,76 x 75 % (temporada) = 274,32
+
+274,32 + 30 % = 356,62 ( 3 x 10 % para infantería )
+356,62 + 30 % = 463,61 ( 3 x 10 % para caballería )
+463,61 + 30 % = 602,69 ( 3 x 10 % para artillería )
+602,69 + 30 % = 783,50 ( 3 x 10 % para ingenieros )
+783,5 / 4 = aprox. 196 (suma de fuerza de batalla efectiva)
+
+     La fuerza de batalla de los defensores se calcula de la misma manera.
+     Se añaden las fuerzas de batalla para depósitos, transportes y colonos.
+porque su eficiencia de batalla es superior a 0. En contraste con el método táctico
+batalla el factor de defensa del terreno no tiene ningún efecto. Pérdidas en ambos lados
+se calculan de manera similar a la batalla táctica (ver 11.8 para
+tácticas de batalla). Sin embargo, aquí cada 2 tropas de batalla causan 1 adicional.
+pérdida de puntos de fuerza para el enemigo).

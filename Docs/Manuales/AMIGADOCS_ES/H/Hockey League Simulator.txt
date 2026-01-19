@@ -1,0 +1,1387 @@
+Simulador de liga de hockey 
+Presentado por Belgarath
+
+Introducción  
+Bethesda Softworks Simulador de liga de hockey (HLS) 
+le permite diseñar y gestionar su propio personalizado 
+liga o crear ligas actuales o clásicas del pasado. su
+Amplias funciones que le permiten: 
+
+- Crea ligas y equipos según tus criterios. 
+- Desarrollar horarios de juegos de la liga. 
+- Seguimiento de datos estadísticos extensos. 
+- Calcula instantáneamente los resultados de un juego programado. 
+- Juega partidos programados en Wayne Gretzky Hockey*. 
+- Realizar intercambios. 
+- Administrar el dinero. 
+- Seleccionar jugadores y ponerlos en waivers. 
+
+Hockey League Simulator viene precargado con jugadores 
+y equipos de la temporada de hockey de la NHL 1987-1988 y un 
+Calendario de 80 juegos. Se incluyen discos adicionales del equipo de la temporada de hockey. 
+disponible en Bethesda Softworks. Cualquiera de los datos anuales 
+se puede cargar directamente en el Simulador de la liga de hockey para 
+proporcionar datos actualizados del equipo y de los jugadores. (Ver Cargando 
+Equipos de DataDisks, página 12.) 
+
+Si lo prefieres, puedes crear tus propios equipos y horarios. 
+HLS te permite incluir hasta 48 equipos en una liga, 
+cualquier número de los cuales puede estar controlado por computadora.
+
+El Simulador de Liga de Hockey genera un calendario de liga 
+y proporciona los datos necesarios del jugador y del equipo para jugar
+cada juego en Wayne Gretzky Hockey (WGH), permitiéndote 
+para simular una temporada completa de hockey. Si no tienes
+Es hora de jugar manualmente todos los juegos en un horario, puedes 
+Calcule los resultados de cada juego usando HLS. Sólo se necesita un 
+unos segundos para cada juego y en ese tiempo, todas las estaciones del juego 
+Las estadísticas son generadas por la computadora.
+
+Porque el propósito de HLS es realizar un seguimiento de todos los juegos. 
+y estadísticas para una liga durante una temporada basadas en un específico 
+calendario, no está diseñado para jugar aleatoriamente con un equipo 
+contra otro. Tenga en cuenta que las estadísticas de cualquier juego 
+jugado fuera del calendario de la liga no debe guardarse en 
+HLS, ya que estas estadísticas no tienen significado real en relación con 
+ción al juego de liga. 
+
+* La galardonada simulación de hockey de Bethesda Softworks.
+
+Ratón, teclado, joystick: 
+Presionando el retorno del teclado
+tecla, haciendo clic con el botón izquierdo del ratón y presionando el mando
+El botón de disparo tiene el mismo efecto. A lo largo de este 
+manual, se utilizarán las palabras presione la tecla de retorno. si
+tienes un mouse, debes presionar el botón izquierdo del mouse,
+en cambio. Si tienes un joystick, presiona el botón de disparo.
+
+Seleccionar/resaltar: se realiza la selección y el resaltado.
+ya sea con el teclado, un mouse o un joystick. Seleccionando
+un elemento hace que se "revierta", es decir, el tipo se cambiará.
+invertir a la luz contra un fondo oscuro. Cuando un artículo es
+resaltado, cambiará de color o quedará encuadrado por
+líneas. Además de simplemente resaltar la selección, seleccionar
+y resaltar ciertas opciones del menú da como resultado un menú específico.
+acción que tiene lugar. Por ejemplo, seleccionar y resaltar
+'Salir' en la parte inferior de un cuadro de menú lo sacará de ese
+menú y regresará al menú anterior.
+
+Seleccionar y resaltar secuencias para un teclado, mouse,
+y el joystick se describen a continuación:
+
+. Teclado: utilice las teclas de flecha para mover el cursor a
+el elemento a seleccionar. Luego presione la tecla Intro o Intro.
+para resaltar la selección.
+
+. Ratón: el cursor sigue el movimiento del ratón.
+Mueva el cursor sobre el elemento a seleccionar y presione el botón
+botón izquierdo del ratón; la selección será entonces
+resaltado.
+
+. Joystick: el cursor sigue al controlador del joystick.
+Cuando el cursor está sobre el elemento y está seleccionado,
+presione el botón de disparo del joystick para resaltar el
+selección.
+
+En este manual, la palabra seleccionar se utiliza para describir el proceso
+de seleccionar y resaltar, es decir, mover el
+cursor sobre la opción de menú y presionando regresar (o
+presionando el botón izquierdo del mouse, o presionando el fuego
+.) Por ejemplo: seleccione Guardar lista significa que
+debe seleccionar y resaltar esta opción de menú.
+
+Operación del menú: En general, hay tres tipos de menú.
+operaciones-operaciones que:
+. Ir a nuevos menús (p. ej., Entrenador principal, Cargar/Guardar
+  Liga)
+
+. Establecer opciones que luego requieren la selección de otro
+  opción (por ejemplo, seleccionar un juego o un equipo).
+
+En el caso de configurar opciones, simplemente seleccionando esa opción
+hace que esté activo. Por ejemplo, seleccionando conjuntos Manual
+Activa la reproducción automática para operación manual.
+
+Para el segundo tipo de menú, seleccionar una opción causa
+que aparezca otra pantalla. Por ejemplo, seleccionando Head
+Entrenador en el Menú principal aparece el Menú Entrenador principal.
+
+En el último tipo de menú, se debe seleccionar una primera opción de menú.
+antes de elegir un segundo (y a veces un tercer) menú
+opción. Por ejemplo, en el menú del entrenador en jefe, para poder
+Para mostrar la lista de juego de los canadienses, primero debes seleccionar
+Pantalla. Luego seleccione Canadienses (en la ventana
+ventana).
+Un ejemplo de una tercera opción de menú es Intercambiar jugadores.
+opción en el Menú del Gerente General. Esto requiere 3 selecciones:
+primero Intercambiar jugadores, y luego cada uno de los dos equipos
+(en cualquier orden).
+
+Importante: En cualquier situación en la que esté seleccionando
+más de una opción de menú, presionando la tecla escape
+(Esc) abortará la operación.
+
+
+Diagrama de flujo del menú
+
+A medida que utilices Hockey League Simulator, te moverás en
+y fuera de numerosos menús.
+
+En algunos casos, no podrá salir directamente al
+menú del que vienes. Si tiene problemas para salir de un menú,
+Generalmente es causado por una configuración ilegal. En esta situación,
+Aparece un cuadro de diálogo con una descripción del problema.
+El problema deberá corregirse antes de poder
+continúe con el siguiente menú. El diagrama de flujo del menú también se puede
+que se muestra en su pantalla presionando la tecla F1.
+
+Nota: Para obtener información adicional asegúrese de leer más
+preguntas frecuentes enumeradas al final de este manual.
+
+Instalación y uso de HLS
+
+1. LEA las Instrucciones de instalación de su computadora  
+   (Incluido en el paquete HLS).  
+2. Una vez iniciado HLS, aparece una pantalla de exención de responsabilidad; 
+   Siga las instrucciones en pantalla para continuar. Si aplica 
+   cable a su computadora particular, consulte la Instalación 
+   Instrucciones para obtener información sobre las pantallas del código de acceso. 
+
+3. Aparece el menú principal. El título del menú principal es 
+   el nombre de la Liga que está actualmente activa. si esto es
+   la primera vez que se utiliza HLS, el valor predeterminado es el Nacional 
+   Liga de hockey. 
+
+Ahora estás listo para comenzar a usar tu liga de hockey. 
+Simulador. 
+
+
+Importante: antes de usar los datos del equipo para jugar un juego en 
+Wayne Gretzky Hockey, primero debes salvar al equipo ros- 
+(consulte la página 7). 
+
+Jugar un juego en HLS
+Como se mencionó anteriormente, HLS viene precargado con el 
+clasificaciones de jugadores y datos de equipos para el Campeonato Nacional 1987-1988 
+Liga de hockey. Si lo deseas, puedes comenzar inmediatamente.
+jugando un juego del calendario de la NHL. Para crear
+datos estadísticos realistas, los partidos de liga deben jugarse en
+secuencia. Un partido programado a mitad de temporada. 
+no se puede jugar antes de un partido programado al principio 
+de una temporada.
+
+Tienes tres opciones para jugar un juego: puedes dejar que el 
+HLS calcula los resultados (Reproducción automática), puede importar el 
+datos en WGH y jugar el juego usted mismo, o puede 
+ingrese las ESTADÍSTICAS manualmente. 
+
+Nota: Si deja que HLS calcule los resultados (Reproducción automática), 
+Las estadísticas del juego se generan al mismo tiempo.  desde el 
+las estadísticas del juego pasan a formar parte del récord de la liga, 
+Repetir el juego ya no tiene sentido. si tu decides 
+quieres volver a jugar el juego en WGH. no lo serás 
+capaz de introducir las nuevas estadísticas del juego repetido en 
+el Simulador de la Liga de Hockey. 
+
+Reproducción automática
+
+Asegúrese de que se muestre el menú principal. Si tu liga es 
+correctamente configurado, se incluirá un complemento de juegos en 
+el cuadro de la derecha del menú principal (la ventana del juego). 
+Si es la primera vez que utilizas HLS, los juegos enumerados 
+en el primer complemento son los primeros partidos que se jugarán en 
+el calendario de juegos 1987-1988 de la NHL 80. 
+
+Advertencia: no juegues automáticamente un juego que quieras jugar 
+en WGH. Una vez que el juego se juega automáticamente, las estadísticas
+se actualizan automáticamente en HLS. Si repites el 
+juego en WGH, no podrás cargar el nuevo 
+estadísticas del juego nuevamente en HLS: las estadísticas para eso 
+El juego ya estará grabado. 
+
+Para jugar automáticamente un juego programado, seleccione una de las opciones 
+Modos de reproducción en Opciones de reproducción automática (Menú principal). el 
+Dos modos son Manual y Automático. Manual permite
+selección de un solo juego para ser generado por computadora, mientras 
+Automático comienza a reproducir todos los juegos entre la computadora y
+equipos controlados, empezando por el primero de la 
+horario. 
+
+Reproducción automática manual 
+
+Nota: En la reproducción automática manual, tanto los controlados por computadora como los 
+Se pueden jugar juegos controlados por humanos. 
+
+Primero seleccione Manual de las opciones de reproducción automática en el 
+Menú principal. Luego selecciona Juego automático del juego. 
+Columna de opciones en el menú principal. Finalmente, seleccione el 
+juego que desea que HLS calcule desde la ventana de juego 
+del Menú Principal. Casi al instante, los resultados de la
+El juego aparece en la pantalla. Al mismo tiempo-todas las estaciones-
+Tísticas, incluida la colocación de jugadores lesionados en la zona de lesión.
+lista-se generan y registran.
+
+Nota: La ventana del juego muestra un complemento completo de 
+juegos programados para tener lugar en un momento determinado, como todos 
+los juegos que están programados para el 23 de enero. tu puedes 
+juega los juegos en la ventana de juego en cualquier orden (en el 
+de la misma manera que podrías jugar todos los juegos en un día en
+cualquier orden); sin embargo, no se le permitirá mudarse a
+juegos en el próximo complemento (es decir, el horario del día siguiente)
+hasta que hayas jugado los juegos previamente programados. si 
+Esto suena confuso, simplemente intenta jugar los juegos y
+ver que pasa. 
+
+Luego puedes repetir estos pasos para cada juego que quieras 
+Reproducción automática. A medida que agotes el complemento de juegos en
+la ventana del juego, HLS mostrará automáticamente el 
+juegos que están programados a continuación. 
+
+Reproducción automática 
+
+Nota: La reproducción automática solo funciona con equipos que 
+se les ha asignado el control por computadora; estos equipos tienen un 
+asterisco después de su nombre. 
+
+Primero seleccione Automático de las opciones de reproducción automática en el 
+Menú principal. Luego selecciona Juego automático del juego. 
+Columna de opciones en el menú principal.  SU pasará por 
+cada partido, calcular los resultados, registrar las estadísticas,
+y mostrar los resultados. Si un juego que no es de computadora 
+controlado, la reproducción automática se detiene. si 
+Si desea reproducir automáticamente todo el programa, debe realizar
+Asegúrese de que cada equipo tenga asignado el control por computadora. 
+
+Sugerencia: si estás en la reproducción automática y quieres detenerla 
+Para terminar la reproducción, presione la tecla escape Esc. 
+
+Sugerencia: Si no sucede nada al iniciar Automático Auto- 
+Juegue, verifique que ambos equipos en el primer juego estén computarizados. 
+controlado. Recuerde, el control por computadora es necesario para 
+Reproducción automática. 
+
+Jugar un juego en WGH  
+
+Guardar listas de equipos 
+
+Expulse el disco HLS e inserte un disco en blanco (o uno que usted 
+desea reutilizar) en la unidad de disquete. 
+
+1. (Solo Amiga) En Opciones de juego en el menú principal, 
+seleccione Formatear disco de datos. Esto crea un formato 
+disco mate para guardar información y datos creados en 
+HLS. 
+
+Nota: Si es propietario de IBM o compatible, deberá 
+formatee el disco antes de ejecutar HLS. 
+
+2. En Opciones de juego en el menú principal, seleccione Guardar 
+Listas.  
+
+3. Desde la ventana del juego, selecciona el juego que deseas 
+jugar. 
+
+4. Sólo IBM: se muestra un menú de DOS; seleccione Guardar 
+Archivo y salir al Menú Principal. 
+
+Las listas del juego que deseas jugar ahora se guardan en
+disco. Si crees que quizás quieras jugar juegos adicionales,
+guarde las listas para esos juegos también repitiendo los pasos 2 
+hasta 4 para cada juego.
+
+Una vez que haya guardado las listas, debe salir de HLS seleccionando- 
+haciendo clic en Salir en la parte inferior del Menú principal. Si es necesario, 
+guardar la liga (ver Cargar y guardar una liga, página 
+16). Cargue WGH en su computadora. Una vez que hayas cargado 
+WGH, necesitarás importar las calificaciones de los jugadores y el equipo. 
+datos de los dos equipos con los que quieres jugar. Un equipo es el 
+equipo local y uno es el equipo visitante. 
+
+Importar el equipo local a WGH
+Cargue el equipo local en WGH yendo a Inicio 
+Team Editor y seleccionando Team DOS. Los equipos cuyos 
+Las listas que guardó aparecerán en la ventana. Cada equipo
+El nombre irá seguido de una extensión (ya sea .home o 
+.vis). para indicar si el equipo es el equipo local o 
+el equipo visitante. Seleccione el equipo local. Luego, seleccione 
+Cargar Equipo. La información se importa a WGH. 
+
+Importar el equipo visitante a WGH 
+
+Para importar los datos del equipo visitante, vaya a Visiting
+Team Editor y seleccione Team DOS. Seleccione el menú Visitante 
+Equipo, (el que tiene la extensión .vis) y seleccione 'Cargar 
+Equipo. La información se importa a WGH. 
+
+Una vez cargados los datos del equipo local y visitante, puede
+jugar el juego. 
+
+Importante: La designación de Hogar o Visitante es importante. 
+importante en el seguimiento de las estadísticas. Asegúrate de que cuando estés en 
+el Editor del equipo local que seleccione el equipo local y 
+cuando estás en el Editor del equipo visitante, seleccionas el 
+equipo con la extensión .vis. 
+
+Guardar las estadísticas en WGH 
+
+Una vez finalizado el juego, debes guardar las estadísticas. Para hacer esto, 
+seleccione "Guardar resultados del juego" en el menú de fin del juego (esto 
+La opción se encuentra en Para uso de League Simulator). tu
+se colocará en un menú de DOS. Seleccione Guardar archivo para
+guardar las estadísticas;  WGH le dará automáticamente al archivo un 
+nombre. 
+
+Cargando las estadísticas en HLS 
+
+La carga de estadísticas es muy similar al proceso utilizado para 
+Guardar listas, solo selecciona la opción Cargar estadísticas del juego 
+desde el Menú principal en lugar de la opción Guardar listas. 
+
+Ingresar manualmente las estadísticas del juego 
+
+Primero seleccione Editar juego en el menú principal. Luego seleccione 
+el juego cuyas estadísticas deseas ingresar desde el Juego
+Ventana del Menú Principal. La ventana Editar estadísticas 
+aparece. La ventana Editar estadísticas muestra solo un equipo a la vez. 
+vez, empezando por el equipo local. El equipo local
+Los jugadores se enumeran en una columna en el lado izquierdo de la 
+ventana y las categorías estadísticas se enumeran a lo largo de la 
+arriba. Las categorías mostradas cambiarán según el
+posición del jugador. Por ejemplo, el porcentaje de ahorro sería 
+listado para un portero, pero no para un delantero o defensa.
+Algunas categorías son un cálculo de categorías anteriores.
+Los puntos son la suma de goles y asistencias, por ejemplo. 
+Las categorías basadas en el cálculo se actualizan automáticamente cuando
+se actualizan las categorías en las que se basan. 
+Para cambiar una estadística, mueva el cursor sobre la estadística para seleccionarla.
+Luego, presione la tecla de retorno y manténgala presionada mientras presiona 
+las teclas de flecha arriba y abajo para aumentar o disminuir el
+valor de la estadística. Cuando haya terminado de editar las estadísticas,
+seleccione Salir. Vuelve a aparecer la ventana Editar estadísticas; esta vez 
+Se muestra el equipo visitante. Repita el procedimiento de edición. 
+discutido anteriormente. Luego seleccione 'Salir' nuevamente. un aviso 
+Aparece preguntando si desea conservar las estadísticas. Presione y para decir sí; 
+esto guardará los cambios que acaba de realizar.
+
+Puedes crear tu propia liga según tus propios criterios. 
+Sin embargo, existen ciertas reglas que rigen el funcionamiento de una liga. 
+estructura. 
+
+Creando tu propia liga
+
+Estructura de la liga 
+
+Las siguientes reglas se aplican a la estructura de una liga: 
+
+. Todas las ligas deben tener dos conferencias. 
+. Cada conferencia debe tener entre 1 y 4 divisiones. 
+. Cada división debe tener entre 2 y 6 equipos. 
+. La división mayor y la menor no deben diferir en 
+más de un equipo 
+
+Pasos para crear una liga 
+
+Hay tres pasos para crear una liga. Estos son: 
+
+. Configuración y liga de nombres 
+. hacer un horario 
+. Draft de jugadores (opcional) 
+
+Configurar y nombrar una liga 
+
+Al crear y nombrar una nueva liga, modificas el 
+liga que actualmente está activa. Es decir, nunca se empieza desde
+rasguño.
+
+La opción de menú para crear una nueva liga se encuentra en la 
+Menú principal. Para configurar y nombrar la nueva liga, seleccione 
+Crear liga en Cosas que hacer. Esto hará aparecer el 
+Menú de configuración de la liga.
+
+Nota: Si la liga actual no se ha guardado, puedes 
+se le pedirá que lo guarde. Si quieres reutilizar esta liga, 
+debería guardarlo.
+Nota: Cada vez que aparece el menú de configuración de la liga, todos 
+Las estadísticas y los horarios se borran: sin embargo, el jugador califica. 
+Los ajustes y datos del equipo no se modifican. Esto significa que cualquier 
+Cuando ingresas al menú de configuración de la liga. debes crear 
+un nuevo horario antes de poder salir. 
+
+Una vez que estés en el menú de configuración de la liga, selecciona Cambiar nombre 
+Liga. Aparece un cuadro de diálogo; escriba el nuevo nombre. 
+
+El siguiente paso es cambiar el nombre de las conferencias. Conferencias 
+se muestran, uno a la vez, en la mitad derecha de la Liga 
+Menú de configuración en la ventana de la conferencia. Ambas conferencias 
+Los nombres aparecen como opciones de menú en Seleccionar conferencia, 
+y el nombre de la conferencia que se muestra actualmente es alto. 
+iluminado. Debe seleccionar y mostrar una conferencia antes 
+puedes cambiarle el nombre. 
+
+Cuando aparezca la conferencia cuyo nombre desea cambiar, 
+seleccione Cambiar nombre de conferencia. Aparece un cuadro de diálogo; tipo 
+en el nuevo nombre. Repita este procedimiento para el otro 
+conferencia. 
+
+Al establecer divisiones, debes decidir cuántas divisiones
+siones que desea y cuáles serán sus nombres. en el 
+Menú de configuración de liga en No. de divisiones, seleccione 1.2, 3, 
+o 4 Divisiones. Ten presente que la división te cambia 
+están realizando son para la conferencia que se muestra actualmente y 
+debe repetirse para la otra conferencia. 
+
+Nota: Las conferencias pueden tener un número desigual de 
+Divisiones. 
+
+Los nombres de las divisiones se muestran en la mitad derecha de la 
+pantalla. El número de divisiones que aparecen corresponde a 
+el número de divisiones que eligió para la conferencia activa. 
+enencia. Para cambiar el nombre de una división, primero seleccione Cambiar nombre de división. 
+Luego seleccione el nombre de la división que desea cambiar. Un dia- 
+aparece el cuadro de diálogo; escriba el nuevo nombre. Repita esto para 
+cada división de la conferencia. 
+
+Esto completa la denominación de las divisiones en el activo. 
+conferencia. Ahora debe seleccionar la otra conferencia y
+repita los pasos para cambiar el nombre de las divisiones. 
+
+
+Nota: Las divisiones pueden tener un número desigual de equipos con 
+dos requisitos: el número total de equipos en cada división. 
+La versión no debe diferir en más de uno de cualquiera de los demás. 
+divisiones en la liga.   El número mínimo de equipos en un 
+la división es dos. 
+
+Ahora que la liga, las conferencias y las divisiones han sido 
+configuración, es necesario configurar los equipos. recuerda, tu
+están alterando la conferencia activa y no funcionan desde 
+rasguño. Esto significa que debes agregar o eliminar equipos de un 
+división para obtener el número correcto de equipos. esto es 
+Esto se puede hacer seleccionando Agregar equipo o Eliminar equipo en el menú 
+Menú de configuración de liga y luego seleccionando el espacio en blanco o 
+nombre del equipo en la división donde desea agregar o eliminar. 
+Generalmente, desea llevar cada división al punto donde 
+tiene la cantidad de equipos que quieras. ¿El?, lo harás 
+cambiar el nombre de los equipos. Sin embargo, si estás agregando un equipo 
+donde hay un espacio en blanco, aparecerá un cuadro de diálogo 
+pidiéndole que escriba el nombre del nuevo equipo. 
+
+Una vez que haya configurado todas las divisiones con el formato correcto 
+número de equipos, luego puedes cambiarles el nombre. para cada 
+equipo cuyo nombre está cambiando, seleccione Cambiar nombre de equipo y luego 
+seleccione el equipo. Aparece un cuadro de diálogo; escribe el nuevo 
+nombre. 
+
+Cuando todos los equipos de la conferencia activa hayan sido 
+renombrado, seleccione la otra conferencia y repita el proceso. 
+Procedimiento para cambiar el nombre de los equipos. 
+
+Nota: Cuando se crea una liga, todos los equipos se auto- 
+automáticamente se vuelven controlados por computadora. Usted puede advertir a 
+cambiar algunos de los equipos al control humano. Sin embargo, si 
+quieres (automáticamente) jugar automáticamente los juegos. tu 
+Debería dejar a todos los equipos bajo control informático. 
+
+Cambiando entre control por computadora y humano
+controlar 
+
+Para cambiar un equipo del control por computadora al control humano, 
+seleccione Control humano en el menú de configuración de la liga. Todos 
+los equipos enumerados en la ventana de conferencia que están pre- 
+Se resaltará el control remoto por humanos. Seleccione el maíz
+equipo controlado por computadora que desea cambiar. Repita este pro-
+procedimiento para cada equipo que esté cambiando.
+
+Para cambiar un equipo del control humano al control por computadora, 
+seleccione Control por computadora' en el menú de configuración de la liga. 
+Todos los equipos enumerados en la ventana de conferencia que están presentes
+actualmente controlado por computadora se resaltará. Seleccione el
+equipo controlado por humanos que deseas cambiar. repite esto 
+procedimiento para cada equipo que esté cambiando. 
+
+Reiniciar liga 
+
+Si en algún momento estás creando una liga y quieres 
+descarta los cambios que has realizado, selecciona Reset League 
+desde el menú de configuración de la liga. Esto restaurará el
+Configuración de la Liga Nacional de Hockey de la temporada 1987-1988 
+equipos. 
+
+Salir del menú de configuración de la liga 
+
+Seleccione Continuar en la parte inferior del menú de configuración de la liga. 
+y accederá al menú de configuración del equipo. 
+
+Configurar equipos
+
+Cargando equipos desde DataDisks 
+
+Primero, seleccione Cargar/Guardar equipo en el menú de configuración del equipo. 
+y luego seleccione un equipo desde la ventana de la conferencia: el 
+Los datos se colocarán en este equipo. El equipo de cargar/guardar 
+Aparece la ventana. Inserte el DataDisk en una unidad de disco. 
+Desde la ventana Cargar/Guardar equipo, seleccione la opción adecuada. 
+conducir; Los nombres de los equipos aparecen en la ventana. Vuelva a seleccionar un
+equipo y seleccione Cargar archivo'; los datos se tomarán de 
+este equipo y cargado en el equipo que seleccionó en una configuración previa.
+paso anterior. Finalmente, seleccione Salir para regresar al Equipo 
+Menú de configuración. Este procedimiento se puede repetir tantas veces 
+veces ya que hay datos del equipo para cargar. 
+
+Cargando equipos creados en Wayne Gretzky
+hockey 
+
+Seleccione Cargar equipo WGH en el menú de configuración del equipo. 
+Seleccione un equipo y aparecerá la ventana Cargar equipo WGH. 
+aparecer. Siga el mismo procedimiento descrito anteriormente para
+cargando desde DataDisks. 
+
+Hacer un horario 
+
+La programación de juegos se realiza desde el menú de configuración del equipo. 
+Seleccione Hacer un Horario y aparecerá el Menú de Horarios 
+arriba. Hay dos partes en el menú Horario: Divisional 
+Juegos y otros juegos. Otros juegos representan juegos. 
+entre equipos de diferentes divisiones. 
+
+
+Establecer el número de juegos 
+
+Mueva el cursor sobre Juegos divisionales. Luego, mantenga presionado el 
+tecla de retorno hacia abajo y use las teclas de flecha para cambiar el 
+Valor de los Juegos Divisionales. A continuación, mueva el cursor sobre 
+Otros juegos. Mantenga presionada la tecla de retorno y use la flecha 
+Teclas para cambiar el valor de Otros Juegos. La pantalla
+mostrando el número total de juegos se actualizará 
+automáticamente. 
+
+Requisitos de playoffs 
+
+En Playoffs, selecciona la cantidad de equipos por división. 
+que llegan a los playoffs al final de la temporada. tienes 
+la elección de los 2 mejores equipos, los 3 mejores equipos o los 4 mejores 
+equipos. En Longitud de serie, debe seleccionar el número de 
+juegos de playoffs en cada serie de playoffs. Tienes la opción de
+mejor de 3, mejor de 5 y mejor de 7. Los requisitos de los playoffs
+se resaltan cuando han sido elegidos. 
+
+Generar automáticamente un horario 
+
+Para generar automáticamente un horario, seleccione Automático 
+bajo el encabezado Crear programación. Un cronograma se auto-
+se creará automáticamente y se mostrará un cuadro de diálogo 
+durante el proceso. El número total de juegos en el 
+El calendario se basa en el tamaño de la liga y la selección. 
+ciones que haya realizado en el menú Programación. el maximo
+número de juegos es 100. Si el tamaño de su liga y sus selecciones
+requieren un calendario de más de 100 juegos, un cuadro de diálogo 
+le avisará que ha superado esta cantidad y 
+Tendrá que hacer los cambios apropiados en la liga.
+tamaño o las selecciones del menú Programar. 
+
+Generación manual de programación 
+
+Para generar manualmente un cronograma, seleccione Manual en
+el encabezado Generar programación. El creador de horarios 
+Aparece la ventana. El horario está en la mitad izquierda de la 
+ventana (ventana de programación) y los equipos se enumeran en la 
+mitad derecha (ventana de conferencia). El procedimiento general es
+seleccionar primero el nombre del equipo en la ventana de la conferencia y 
+luego seleccione la ubicación en la ventana de programación. esto
+coloca a ese equipo en el calendario. Para lograr esto, primero 
+resalte y seleccione un equipo en la ventana de la conferencia.
+Luego, inmediatamente coloque el cursor en la ubicación en el 
+ventana de programación donde desea colocar el equipo. esto
+resaltará la ubicación.  Luego presione la tecla de retorno para seleccionar
+la ubicación y coloque el nombre del equipo. Si cometes un error 
+tomar mientras coloca el equipo, puede hacer clic en el calendario 
+ubicación que desea cambiar y se mostrará el nombre del equipo. 
+aparecen, o simplemente puedes reemplazar un equipo por otro. 
+
+Por ejemplo, supongamos que programaste el juego 6 como canadienses.
+en Capitals, pero luego decidió que quería canadienses en 
+Bruins en su lugar. Para reemplazar las capitales con los cerebros, 
+seleccione Bruins' en la ventana de la conferencia, mueva el 
+cursor sobre el Juego 6 en la ventana de programación hasta Capitales
+está resaltado. Ahora presione Entrar. El juego 6 ahora debería leer 
+Canadienses en Bruins. 
+
+La ventana de programación solo permite programar 10 juegos. 
+uled al mismo tiempo. Una opción al final del calendario. 
+ventana, Próximos Juegos, le permite programar los próximos 10 
+juegos. Al generar un cronograma manualmente, las fechas pueden
+ser asignado a los juegos. La fecha debe seleccionarse justo 
+antes de asignar los equipos al cronograma. Por ejemplo, 
+si quieres especificar la fecha para el tercer juego, asigna 
+juegos uno y dos y luego seleccione la fecha. Esta fecha será
+será seleccionado automáticamente para el tercer juego. 
+
+Para configurar la fecha, mueva el cursor sobre Establecer fecha en el 
+esquina superior izquierda de la ventana de programación y mantenga presionado 
+presione la tecla de retorno. Mientras continúa manteniendo presionado el 
+Tecla de retorno, use las teclas de flecha para cambiar el día. A continuación, 
+suelte la tecla de retorno y presiónela nuevamente. usa la flecha 
+Teclas para cambiar el mes. Finalmente, suelte la tecla de retorno. 
+y presiónelo por tercera vez. Presionando las teclas de flecha
+cambiará el año.
+
+Seleccione Salir para salir del Programador. 
+
+Imprimir un horario 
+
+Para imprimir el horario de un equipo, seleccione Equipo debajo del
+Imprimir encabezado de programación en el menú Programación y luego 
+seleccione el equipo cuyo horario desea imprimir. si tu
+La impresora está correctamente conectada a su computadora y sintonizada. 
+A continuación, se imprimirá el calendario del equipo. Si hay problemas 
+problemas en la impresión, aparecerá un mensaje de error. 
+
+Para imprimir todos los juegos de todos los equipos (aproximadamente 
+8 páginas para un calendario estándar de la NHL), seleccione League 
+bajo el encabezado Imprimir programación en el menú Programación. 
+
+Salir del menú Programación 
+
+Seleccione Salir en la parte inferior del menú Programación y 
+volverá al menú de configuración del equipo. 
+
+Salir del menú de configuración del equipo 
+
+Seleccione Continuar en la parte inferior del menú de configuración del equipo. 
+y regresará al Menú Principal, donde podrá salir 
+el programa o empieza a jugar tu liga. 
+
+Consejos para gestionar una liga
+
+Listas 
+
+Las listas se dividen en dos categorías: Equipo y Juego.
+La lista del equipo consta de todos los jugadores del equipo ( 
+20 a 25 jugadores). La lista de juego consta de los 20 
+jugadores del equipo que realmente jugarán un partido. esta arriba 
+a usted como entrenador decidir si un jugador debe ser enviado a la banca,
+enviados a los menores o incluso comercializados. 
+
+dinero 
+
+Si lo desea, puede hacer que la administración del dinero sea parte de 
+tu juego de liga. Para hacer esto, seleccione Establecer opciones desde 
+ya sea el menú principal o el menú de configuración del equipo. Ahora haz 
+asegúrese de que Dinero esté resaltado. la gestion del dinero 
+funciona de la siguiente manera: cada equipo comienza con una
+presupuesto (suficiente para pagar el salario de cada jugador, más un extra 
+entre 200.000 y 300.000 dólares).  Este dinero se utiliza en el curso de 
+una temporada para pagar los salarios de los jugadores. También se puede utilizar para
+recoger jugadores de waivers o en intercambios. es importante 
+realice un seguimiento de su estado financiero: si se queda sin dinero 
+(lo que resulta en que los jugadores no reciban el pago) los jugadores 
+caer en una mala racha, lo que dificulta ganar partidos. 
+
+Borrador de exención 
+
+El borrador de exención es un borrador de una sola vez que tiene lugar después 
+el draft inicial (Entry), pero antes de la temporada regular 
+comienza. El draft de waiver está compuesto por todas las ligas menores. 
+jugadores y todos los jugadores profesionales desprotegidos. Si más de uno
+El equipo quiere un jugador en el draft de waiver, él va al equipo. 
+con mayor prioridad. (La prioridad la determinan los equipos 
+Orden de redacción: el equipo 1 tiene mayor prioridad que el equipo 2 
+que tiene mayor prioridad que el equipo 3, y así sucesivamente.) Si un equipo
+selecciona a un jugador, la formación original del jugador recibe $40,000
+del nuevo equipo, y el jugador es transferido a su nuevo 
+equipo. Permanecerá en este equipo sólo mientras el equipo 
+con mayor prioridad no lo recluta.   Si es reclutado por 
+otro equipo, su equipo actual recibe S40,000 del 
+nuevo equipo. Los jugadores mostrados pueden variar de un equipo a otro. 
+equipo. Los jugadores mostrados para un equipo determinado son todos 
+jugadores no reclutados y todos los jugadores desprotegidos que hayan 
+sido seleccionado por equipos con una prioridad más baja. Esto significa 
+ese equipo 1 siempre podrá ver a todos los jugadores (excepto 
+propio) en el borrador de la exención. 
+
+Nota: Una vez que salga de la pantalla de exenciones, tendrá 
+borró sus opciones en todos los jugadores, y será 
+incapaz de reclutar más jugadores. Una vez que salgas del 
+Menú Draft de exención, todos los jugadores no reclutados permanecen con 
+sus equipos originales. El funcionamiento del menú es idéntico al 
+el Menú del Gerente General. 
+
+Ligas de carga y ahorro
+
+Salvando una liga
+
+Al utilizar el Simulador de la Liga de Hockey, toda la información
+que se genera (estadísticas, resultados de juegos e información del equipo). 
+información) se almacena temporalmente en la memoria de la computadora. si 
+apagas la computadora sin guardar la nueva información 
+ción al disco, se perderá. El Menú Principal tiene un Cargar/
+Opción Guardar Liga. Seleccione siempre esta opción antes 
+salir de HLS, si desea guardar la información que tiene 
+generado. Si se ha generado información y usted 
+olvide seleccionar la opción Loud/Save League, aparecerá un diálogo 
+El cuadro le indicará un mensaje preguntándole si 
+Quiero salvar tu liga. Escriba y para guardar los cambios. 
+
+Nota: Nunca guarde en el disco HLS, guarde siempre 
+a un disco separado. 
+
+Para cargar o guardar una liga, primero seleccione Cargar/Guardar liga. 
+Esto te lleva al menú Cargar/Guardar Liga. Insertar un
+disco en una unidad de disco y seleccione esa unidad en el menú Cargar/ 
+Guardar menú de liga. 
+
+Primera vez que salva una liga: 
+
+Si es la primera vez que salvas la liga, entonces 
+seleccione Guardar archivo. Aparecerá un cuadro de diálogo que le pedirá 
+el nombre del mosaico. Escriba el nombre y presione regresar. la liga
+se guardará en el disco con el nombre de archivo que le haya asignado. 
+
+Actualizar un archivo que ya está en el disco: 
+
+Si ha cargado un archivo de liga desde un disco para jugar y 
+ahora está guardando los nuevos datos, primero seleccione el nombre del archivo que
+aparece en el menú Cargar/Guardar liga. Luego, seleccione Guardar 
+Archivo. Aparece un cuadro de diálogo que le indica que el archivo 
+ya existe y le pregunta si desea sobrescribir el 
+archivo. Seleccione sí escribiendo y. si quieres los datos antiguos en el 
+El mosaico de liga será reemplazado por los nuevos datos que hayas generado. 
+tado. Si desea guardar los datos antiguos, escriba n, para no, y 
+luego elija Guardar archivo en el menú Cargar/Guardar liga 
+sin seleccionar un nombre de liga. Se le pedirá que 
+nombre el archivo. Asegúrate de darle un nombre diferente. 
+que el nombre que ya figura en la liga Load/Save 
+Menú. Si el disco está lleno, un mensaje le avisará que de
+esta condición e informarle que el archivo no fue guardado.
+Simplemente coloque un disco nuevo y repita los pasos para guardar 
+la liga. 
+
+Nota: Si estás guardando ligas durante los playoffs, HLS 
+agregará automáticamente una extensión .plf al archivo de la liga 
+nombre. Esto te permite guardar las estadísticas de los playoffs por separado. 
+de las estadísticas de la temporada regular. 
+
+Cargando una liga
+
+Al iniciar HLS, la liga NHL que viene en el 
+El disco HLS se cargará automáticamente. Para reanudar el juego con un 
+liga previamente guardada, es necesario cargar esa liga
+en HLS.   Para hacer esto, ingresa al menú Cargar/Guardar Liga haciendo 
+seleccionando Cargar/Guardar Liga en el Menú Principal. Insertar 
+un disco en una unidad de disco y seleccione esa unidad desde el menú Cargar/
+Guardar menú de liga. Luego, elija un archivo de liga de la lista de 
+archivos disponibles en el menú Cargar/Guardar Liga y seleccione 
+Cargar archivo: los datos de esta liga se cargarán en 
+HLS.  Seleccione Salir para regresar al Menú principal. 
+
+Consejos para usuarios de discos duros (solo IBM): al cargar 
+o guardar archivos, es importante saber qué directorio 
+están dentro. Si pierdes la pista de esta información, tendrás
+Problemas para encontrar el archivo. El directorio aparece en la ruta. 
+información en la parte superior de los menús. Recuerda, lo harás 
+tendrá que volver a ingresar a este directorio para tener acceso al archivo. a 
+cambiar directorios, simplemente seleccione el directorio deseado 
+nombre desde la ventana.   Si tienes problemas para encontrar archivos 
+en su disco duro, puede resolver este problema guardando en 
+disquetes.
+
+Listados de menú
+
+Menú del entrenador en jefe 
+
+El menú del entrenador en jefe se utiliza para configurar una lista para un 
+juego. El League Simulator utiliza dos tipos diferentes de 
+listas: la lista del equipo y la lista del juego. El equipo
+La plantilla consta de hasta 2,5 jugadores profesionales. La lista de juegos 
+Está formado por 20 jugadores (18 patinadores y 2 porteros). el 
+La lista de juegos se utiliza para jugar un juego con Wayne Gretzky. 
+Hockey o jugar un juego simulado por computadora. cada 
+La plantilla de juego debe tener al menos 3 centrales, 3 laterales izquierdos, 3 
+derecha, 6 defensas y exactamente 2 porteros. Cuando- 
+Cada vez que se selecciona una nueva lista de juegos, se deben establecer nuevas líneas. 
+arriba, debiendo elegirse el portero titular. 
+
+Nota: Se debe configurar una nueva lista de juegos cada vez que 
+jugador en la lista de juego actual está lesionado o es intercambiado. 
+
+Lista de juegos 
+
+Selecciones de computadora: haga que la computadora configure un juego 
+Lista. 
+
+Elige una nueva lista: elige tu propia lista de juegos. Jugadores 
+actualmente en la Lista de Juego tendrá un asterisco dis- 
+jugó en lugar de sus números de camiseta. el numero de
+Los jugadores en cada posición se mostrarán en la parte superior de la
+pantalla. Si lo deseas, puedes cambiar las posiciones de los jugadores. 
+(La nueva posición sólo afectará a la lista del juego: el 
+La posición original aún se mostrará en el Equipo.
+Lista). Cambio de posiciones entre delanteros y 
+Los defensores están permitidos, pero las calificaciones de los jugadores se verán afectadas.
+Los porteros no podrán cambiar de posición.
+
+Mostrar: muestra la lista de juego actual de un equipo. si un jugador 
+está lesionado, se mostrará la letra I en lugar de su 
+número, y sus calificaciones serán todas 0 excepto su Lesión 
+rating, que indicará el número de juegos que jugará 
+señorita.
+
+Imprimir: imprime la lista de juego actual de un equipo. 
+
+Lista del equipo 
+
+Mostrar: muestra una lista de equipo (25 hombres). (Los jugadores cur- 
+actualmente en la lista de juegos tendrán un ('*') al lado de su 
+nombre. 
+
+Imprimir: imprime una lista de equipo (25 hombres). 
+
+Ordenar por nombre: ordena los jugadores en una lista de equipo 
+alfabéticamente.
+
+Ordenar por posición: ordena los jugadores en una lista de equipo por 
+sus posiciones. 
+
+Ordenar por número: ordena los jugadores en una lista de equipo por 
+sus números de camiseta.
+
+Elija nuevas líneas: seleccione nuevas líneas para una lista de juegos. 
+
+Líneas de la computadora: haga que la computadora seleccione nuevas líneas para 
+una lista de juegos.
+
+Imprimir líneas: imprime las líneas actuales de las listas de juegos. 
+
+Portero inicial: elige el portero inicial para un juego 
+Lista. 
+
+Nota: Los equipos controlados por computadora siempre elegirán sus 
+propios porteros. 
+
+Menú del Gerente General 
+
+El Menú del Gerente General se utiliza para despedir entrenadores, intercambiar 
+jugadores, mover jugadores entre los equipos profesionales y agrícolas, 
+recoger jugadores con exenciones y verificar las finanzas. 
+
+Un jugador recibe waivers cada vez que es expulsado de 
+el equipo profesional de una franquicia a su club agrícola. Queda un jugador
+en exenciones hasta que todos los equipos hayan "aclarado sus opciones" en
+ese jugador. Un equipo puede aclarar explícitamente sus opciones al
+comprobar los waivers y no recoger a ningún jugador. su
+Las opciones se borrarán automáticamente tan pronto como se reproduzca un 
+juego. Si un equipo elige a un jugador en waivers, el jugador 
+El antiguo equipo recibe 40.000 dólares. El jugador todavía es elegible para ser 
+recogido por cualquier otro equipo con mayor prioridad (principal del equipo).
+La prioridad se determina mediante orden de borrador). Esto significa que el 
+mismo jugador podría pasar de equipo en equipo, y terminaría
+en el equipo con mayor prioridad. 
+
+Fire Head Coach: deshazte de tu entrenador actual. si tu 
+Hemos configurado las Opciones de Liga para que los entrenadores puedan afectar
+jugadores, luego se te presentará una lista de entrenadores
+puede contratar. De lo contrario, simplemente se le indicará 
+por un nuevo nombre.
+
+Verificar exenciones: ver todos los jugadores actualmente en exenciones. 
+¡Tener cuidado! Una vez que salga de la pantalla de exenciones, estará 
+borrando tus opciones en todos los jugadores listados. 
+
+Intercambiar jugadores: selecciona los dos equipos involucrados en el intercambio. 
+Se mostrará un nuevo menú que le permitirá 
+intercambiar jugadores o dinero. Un jugador traspasado es enviado a su nuevo 
+CLUB GRANJA del equipo. (Puede quedarse allí o ser 
+criado en el equipo profesional.) 
+
+Nota: Los intercambios con equipos controlados por computadora están 
+permitido; consulte el menú Intercambiar jugadores a continuación.
+
+Enviar a la granja: elige un equipo. Su lista profesional será revelada. 
+jugado. Haz clic en los jugadores que deseas enviar a la granja. 
+club. Es posible que quieras hacer esto si un jugador está en una mala racha,
+o si te estás quedando sin dinero. Sin embargo, cualquier jugador 
+enviado a un equipo de granja se coloca automáticamente en exenciones,
+y puede ser recogido por otro equipo. 
+
+Nota: Los jugadores lesionados pueden ser expulsados. 
+
+Enviar a profesional: convierte a un jugador de un club agrícola en un profesional 
+equipo. Esto funciona de la misma manera que enviar a un jugador hacia abajo. 
+a un club agrícola, excepto que el jugador NO sea puesto en renuncia. 
+ers. Además, debes tener un lugar vacío en tu lista profesional.
+Ésta es una forma de sustituir a un jugador lesionado. 
+
+Verificar finanzas: muestra un informe financiero de un equipo. 
+Eres responsable de pagar los salarios de los jugadores. 
+en tu equipo de pm. A los jugadores se les paga por juego, por lo que 
+Es posible quedarse sin dinero en medio del 
+temporada. El informe muestra los ingresos totales de un equipo (desde su 
+presupuesto original y dinero recibido de oficios o renuncias.
+ers), y sus gastos hasta la fecha. También muestra el equipo 
+Gastos proyectados. ¡Cuidado! Si vas en rojo (corre 
+sin dinero) tus jugadores no jugarán al máximo 
+habilidades. Si te estás quedando sin dinero, puedes enviar
+un jugador con un salario alto hasta su club agrícola, que 
+lo sacaría de la nómina. Si ya lo has hecho 
+quedarse sin dinero, la única alternativa es intentar intercambiar un 
+jugador a otro equipo por dinero en efectivo. 
+
+Nota: Esta selección de menú sólo se muestra si tiene 
+seleccionado Dinero en el menú Configurar opciones. 
+
+Mostrar salarios: muestra los salarios anuales de un equipo. 
+
+Control de cambios: control de cambios de un equipo (control manual 
+/ control por ordenador). 
+
+Si la opción Editar jugadores está configurada, la pantalla mostrará: 
+
+ Editar Pro Roster: editar nombres de jugadores, posiciones, números, 
+ y calificaciones. 
+
+ Editar lista de granja: editar nombres de jugadores, posiciones, números 
+ Números y calificaciones. 
+
+Si la opción Editar jugadores no está configurada, la pantalla mostrará: 
+
+ Ver lista profesional _ muestra todos los jugadores de un equipo profesional 
+
+ Ver lista de granja: muestra todos los jugadores de un equipo de granja. 
+
+Menú de estadísticas 
+
+Mostrar estadísticas: las estadísticas se mostrarán en la pantalla. 
+
+Imprimir estadísticas: las estadísticas se enviarán a una impresora. 
+
+Clasificación de la liga: récords generales de victorias y derrotas del equipo. 
+
+Récords divisionales: récords ganados y perdidos contra divisionales 
+y equipos no divisionales. 
+
+Récords en casa y fuera: récords ganados y perdidos en casa y fuera de casa 
+el camino. 
+
+Power Play: porcentajes de puntuación del juego de poder del equipo. 
+
+Penalización: porcentajes de penalización del equipo. 
+
+Minutos de penalización: minutos de penalización del equipo (totales y porcentuales). 
+promedio del juego). 
+
+Puntuación: número total de puntos (goles y asistencias). 
+
+Portero - mejores porteros: promedio, victorias, ahorro porcentual 
+porcentaje, blanqueadas. 
+
+Defensas: defensores con mayor puntuación. 
+
+Goles líderes en goles, asistencias, goles de poder, cortas
+goles entregados, goles para ganar el partido, goles para empatar el partido, 
+tiros y primeros goles.
+
+Listados de equipos: muestra las estadísticas de un solo equipo. Seleccionar 
+ya sea Puntuación o Portería, y luego seleccione un equipo.
+Nota: Jugadores que no hayan jugado al menos un juego 
+no aparecerá en la lista. 
+
+Menú de configuración del equipo
+
+Aquí es donde terminas de configurar la liga. De esto 
+En el menú puedes personalizar equipos, cargar o guardar equipos, redactar 
+jugadores y hacer un cronograma. 
+
+Cargar/Guardar equipo: haga clic en un equipo para cargarlo o guardarlo. 
+Luego ingresará a un menú DOS muy similar al 
+Menú TeamDOS en Gretzky Hockey. Si cargas un equipo, 
+Reemplazará al equipo que seleccionaste. Si salvas un equipo,
+la liga no se verá afectada y tendrás un doblete. 
+cate equipo para uso futuro. 
+
+Cargar equipo WGH: carga un equipo creado en Gretzky Hockey 
+en HLS. 
+
+Establecer presupuesto: establece el presupuesto anual de un equipo. la cantidad 
+que estableces aquí se utiliza durante toda la temporada para pagar tu 
+salarios de los jugadores.
+
+Nota: Establecer presupuesto solo se mostrará si la opción Dinero 
+está seleccionado. 
+
+Fire Head Coach: deshazte de tu entrenador actual. si tu 
+Hemos configurado las Opciones de Liga para que los entrenadores puedan afectar
+jugadores, luego se te presentará una lista de entrenadores 
+puede contratar. De lo contrario, simplemente se le indicará 
+por un nuevo nombre. 
+
+Editar equipo profesional: es idéntico al editor de lista en 
+Gretzky Hockey, excepto que ahora tienes hasta 25 
+jugadores con los que lidiar. El número de jugadores en la NHL. 
+Los equipos variarán, por lo que es posible que encuentres espacios vacíos en algunos. 
+equipos.
+
+Editar equipo de granja: agregar, cambiar o eliminar jugadores en una granja 
+equipo. 
+
+Print Pro Team: imprime la lista de 25 hombres de un equipo. 
+
+Configurar opciones: elige la forma en que deseas que se ejecute tu liga (consulta 
+el menú Configurar opciones para obtener más información). 
+
+
+Proteger jugadores: esta opción solo se mostrará si 
+han seleccionado jugadores. En este caso, podrá proteger 20 
+jugadores del Waiver Draft (todos los jugadores desprotegidos 
+incluirse en el Borrador de Exención, que se lleva a cabo antes 
+el inicio de la temporada regular). Después de seleccionar el equipo 
+cuyos jugadores deseas proteger, estarás en una lista 
+pantalla similar a Editar lista. El número de jugadores 
+protegido aparecerá en la parte superior de la pantalla. para proteger un 
+reproductor, mueva la barra del cursor sobre el reproductor y haga clic en el 
+botón izquierdo del ratón. Se mostrará un asterisco (*) junto a 
+su nombre. Si decides que no quieres protegerlo después 
+Todo, haga clic en él nuevamente. El asterisco desaparecerá. 
+Recuerde: no hay garantía de que los jugadores desprotegidos
+seguirás en tu equipo después del Draft de exención. 
+
+Continuar: regresar al menú principal de la liga (o ir al 
+Draft de exención si has seleccionado jugadores). Cuando esta opción es 
+seleccionado, se le preguntará si está seguro de que desea continuar
+continuar. Si no se ha creado un horario o se ha creado un horario nuevo 
+debe hacerse (si cambiaste de liga), no podrás 
+poder salir del menú. Además, cada equipo está 
+Se comprueba si hay números de camiseta únicos. Si dos jugadores en el
+El mismo equipo tiene el mismo número, tendrás que arreglarlos. 
+antes de continuar. Los equipos controlados por computadora auto- 
+fijarse automáticamente. Recuerde, si ha seleccionado jugadores, 
+puedes proteger hasta 20 jugadores del Waiver Draft. 
+
+Menú borrador 
+
+El draft permite a cada equipo empezar desde cero y elegir 
+los jugadores que quieren en su equipo. Cada equipo puede seleccionar 
+hasta 35 jugadores (25 para el equipo de la liga mayor y 10 para 
+el equipo de liga menor). Los equipos eligen en el orden indicado en
+la pantalla. Si se selecciona la opción Orden inverso, entonces 
+el orden se invertirá después de cada ronda (por ejemplo: 
+vuelta 1: 1,2,3,... 21; vuelta 2: 21, 20, 19,..., 1; ronda 3: 
+1,2,3,...21). Hay suficientes jugadores incluidos en el draft para 
+que haya al menos 35 jugadores disponibles para cada equipo. 
+Todos los jugadores de cada equipo de la NHL siempre están incluidos en
+el draft, sin importar cuántos equipos haya realmente en el
+liga (por lo que incluso si la liga solo tiene 4 equipos, podrás 
+todavía tengo jugadores de los 21 equipos para elegir). Otro 
+Los jugadores en el draft provienen de equipos que no pertenecen a la NHL y el 
+equipos de granja. Los equipos agrícolas están formados por jugadores ficticios.
+con calificaciones por debajo del promedio (aunque puede haber algunas 
+durmientes ahí dentro).
+
+Establecer orden de draft: elija el orden en el que los equipos aparecerán. 
+borrador. Haga clic en un equipo y luego haga clic en otro. el
+Dos equipos intercambiarán posiciones. Cuando haya terminado, haga clic en 
+en Guardar pedido en la parte inferior de la columna 3. 
+
+
+Imprimir orden de borrador: imprima una lista del orden de redacción. 
+
+Orden normal: los equipos siempre elegirán en el mismo orden 
+cada ronda. 
+
+Orden inverso: el orden se invertirá en cada ronda. 
+
+Ordenar por nombre, posición o salario: ordena todos los jugadores en el 
+calado por el valor indicado. Dado que puede haber más de 1600 
+jugadores en el grupo de draft, la clasificación puede tardar tanto como un
+minuto y medio. Clasificar a los jugadores por salario es una buena 
+forma de enumerar a los jugadores por habilidad, ya que la capacidad de cada jugador
+El salario se basa en sus calificaciones (aunque diferentes calificaciones 
+tienen mayor peso para diferentes posiciones). 
+
+Mostrar jugadores: muestra todos los jugadores en el grupo de draft en 
+la pantalla. En este punto, los jugadores simplemente han sido copiados. 
+de todos los equipos; si los miras y luego sales sin- 
+Durante la redacción, los equipos no se verán afectados. 
+
+Prim Players: imprime una lista de todos los jugadores del draft. 
+Nuevamente, dado que puede haber más de 1600 jugadores en la lista
+(dependiendo del tamaño de la liga), prepárate para tener mucho
+de papel a mano. Si está en medio de la impresión y 
+decide que desea salir, presione la tecla de escape Esc. El 
+Se imprimirán los reproductores actualmente en la memoria de la impresora, 
+y luego la impresión se detendrá. 
+
+Draft Players: realiza el draft. Una vez que selecciones esto 
+opción, todos los equipos serán eliminados. La computadora automáticamente 
+elegir automáticamente jugadores para equipos controlados por computadora. 
+
+Dado que hay tantos jugadores en el draft, los arriba y 
+Las flechas hacia abajo han sido reemplazadas por Re Pág y Página 
+Opciones hacia abajo. Estos se moverán por la lista 15 
+jugadores a la vez. El nombre del equipo que está actualmente. 
+La selección se muestra en la parte superior, junto con el resto. 
+dinero. El salario del jugador actualmente bajo el cursor.
+La barra se muestra en la parte superior derecha de la pantalla. para redactar un 
+jugador, mueva la barra del cursor sobre él y haga clic en el botón izquierdo 
+botón del ratón. Puedes reclutarlo para tu equipo profesional, granja 
+equipo, o puedes optar por no seleccionarlo. Ingrese el cor- 
+respuesta correcta (p = draft al equipo profesional, f ' = draft a la granja 
+equipo, 'c' = cancelar). Si lo reclutas para tu equipo profesional pero 
+tu equipo profesional ya está lleno, automáticamente será 
+colocado en su equipo de granja. Puedes optar por elegir no 
+más jugadores en absoluto. Si elige la opción Salir antes 
+Cuando se completa el borrador, la computadora terminará el borrador para
+todos los equipos. En general, la computadora decide qué posición
+draft y luego busca al mejor jugador que queda en esa posición.
+ción (mejor jugador = salario más alto). 
+
+Nota: Los jugadores de los equipos agrícolas NO estarán protegidos. 
+del borrador de la exención.  Además, un equipo puede exceder el presupuesto. 
+durante el draft, pero esto podría tener consecuencias nefastas 
+durante la temporada regular. 
+
+Establecer menú de opciones 
+
+Las opciones de liga te permiten seleccionar la forma en que deseas 
+liga para correr.  A este menú se puede ingresar desde el 
+Menú principal o Menú de configuración del equipo, y las opciones pueden
+cambiarse tantas veces como desee. 
+
+El entrenador afecta el juego: si esta opción está resaltada, entonces se diferencia. 
+diferentes entrenadores pueden afectar el rendimiento de los jugadores (es decir, las calificaciones)
+de manera diferente. Así, a lo largo de una temporada, algunos jugadores
+Las calificaciones pueden aumentar o disminuir uno o dos puntos. 
+
+Nota: Para que un entrenador afecte a los jugadores, primero debes 
+Despide a tu entrenador. El nuevo entrenador afectará ahora al 
+jugadores de manera positiva, negativa o en absoluto. Depende de ti 
+para decidir si el entrenador es bueno. 
+
+Dinero - Sin dinero - al seleccionar la opción Dinero se agrega 
+otra dimensión a la gestión de un equipo. Cada equipo 
+Comience con un presupuesto. De esta cantidad los salarios de los jugadores
+debe ser pagado. Si el equipo se queda sin dinero, sus jugadores
+se irán a la huelga (sus índices de audiencia caerán drásticamente). 
+Si se selecciona la opción Sin dinero, entonces el dinero tendrá
+No tiene relación con la liga. 
+
+Tú administras: estarás a cargo de seleccionar listas para 
+todos los equipos, incluso aquellos controlados por computadora. esto 
+te da la última palabra sobre quién jugará cada juego. esto 
+Probablemente será de mayor utilidad para las personas interesadas.
+en reproducir exactamente los juegos jugados en la vida real.
+
+La computadora administra: la computadora elegirá su propia rosa. 
+jugadores, gestionar sus propios equipos y decidir si desea o no 
+aceptar intercambios propuestos por equipos controlados por humanos.
+
+Rachas/depresiones: si se selecciona esta opción, los jugadores irán 
+a través de rachas calientes y frías. Es decir, por cierto
+número de juegos, las calificaciones de un jugador pueden subir o bajar 
+hasta dos puntos.  Estos cambios son sólo temporales, 
+y puede cambiar según el juego.   el ajustado 
+Las calificaciones se muestran en el menú del entrenador principal. para ver 
+calificaciones de jugadores originales, use el menú del administrador general. 
+
+Menú de jugadores comerciales 
+
+A este menú se ingresa a través del Menú del Gerente General.  si 
+la opción Dinero está activada (ver Menú Configurar Opciones) 
+Tanto los jugadores como el dinero pueden estar involucrados en un intercambio.  Otro- 
+De lo contrario, sólo se podrán mover jugadores. Los jugadores pueden ser 
+seleccionado eligiendo el equipo apropiado en Seleccionar 
+Jugadores. Después de haber seleccionado jugadores y/o dinero,
+Aparecerán en la ventana de comercio debajo de su automóvil. 
+alquilar equipos. Una vez realizadas todas las selecciones,
+Cada equipo debe aceptar el intercambio para poder realizarlo.
+a través. Para hacer esto, seleccione Aceptar en el lado derecho de 
+el menú debajo del nombre del equipo. Si no te gusta el 
+operar, seleccione Cancelar. 
+
+Nota: Si uno de los equipos está controlado por computadora y el 
+La opción Computer Manages está activada (consulte Establecer opciones 
+Menú ), entonces la computadora decidirá si desea o no 
+acepte la operación después de seleccionar Aceptar para la otra 
+equipo. Si la computadora te rechaza, puedes probar sweet- 
+aumentar el bote añadiendo dinero y/o jugadores adicionales. 
+
+Por ejemplo, supongamos que los Capitals quisieran intercambiar a Mike
+Gartner y Larry Murphy a NorthStrs para Dino Cic- 
+Carelli y Bob Rouse. Para hacer esto, primero debe seleccionar 
+En Mayúsculas del menú. Esto te pondría en 
+la pantalla de lista. Encuentra a Mike Gartner en la lista de jugadores. 
+y mueva la barra del cursor sobre él para que quede resaltado. 
+Ahora presione regresar.  Aparecerá un asterisco (*) junto a su 
+nombre. Haga lo mismo con Larry Murphy. Ahora seleccione 
+Salir. Seleccione Desde NorthStrs y seleccione Dino Ciccarelli 
+y Bob Rouse de manera similar. Después de seleccionar Salir, 
+volverá al menú Comercio y verá el 
+jugadores mostrados en sus equipos actuales (Gartner y 
+Murphy bajo las capitales; Ciccarelli y Rouse bajo el 
+Cadenas Norte). Para finalizar el comercio tanto las Capitales como las
+NorthStrs más seleccione Aceptar.
+
+Nota: Después de un intercambio, los jugadores son enviados a sus nuevas resmas.
+club de granja.
+
+Seleccione Salir para regresar al Menú del Administrador General.
+
+
+Menú de revisión de programación 
+
+Este menú le permite visualizar o imprimir el horario. 
+durante el transcurso de una temporada. Juegos que ya han
+jugados se mostrarán sus puntuaciones. 
+
+Horario de impresión 
+
+Todos los juegos: imprime todos los juegos del calendario, comenzando en el 
+comienzo de la temporada. 
+
+Juegos restantes: imprime solo los juegos que aún no 
+jugado. 
+
+Liga: seleccionar esta opción hace que cada juego sea 
+impreso. 
+
+Equipo: esta opción hace que solo se jueguen los juegos de un solo equipo. 
+impreso.
+
+Revisar puntuaciones 
+
+Pantalla: muestra las puntuaciones en la pantalla. 
+
+Imprimir: envía partituras a la impresora. 
+
+One Team: muestra puntuaciones y próximos juegos para un 
+solo equipo.
+
+Dos equipos: muestra puntuaciones y próximos juegos entre 
+dos equipos. Esto es útil si está interesado en ver cómo 
+a su equipo le ha ido contra un equipo en particular durante un 
+temporada.
+
+Salir- volver al Menú Principal.
+
+Preguntas más frecuentes
+
+Información general
+1. ¿Puedo usar equipos que hice en Wayne Gretzky Hockey? 
+con el Simulador de la Liga de Hockey? 
+
+ Sí, con ciertas calificaciones. Consulte Cargando
+ Equipos creados en Gretzky Hockey en la página 12. Desde 
+ Los equipos WGH tienen sólo 20 jugadores y los equipos HLS tienen 
+ 25, se borrarán los 5 lugares adicionales. 
+
+2. ¿Qué pasa con Bethesda Softworks NHL DataDisk? 
+
+ Los discos de datos que produce Bethesda tienen ambos tipos de 
+ equipos en ellos, para que puedan usarse tanto con el 
+ Simulador de liga de hockey y hockey Wayne Gretzky. 
+
+3. A veces cambio los datos de la liga y la siguiente vez 
+ejecuta el simulador de la liga de hockey. todos mis cambios tienen 
+desapareció. ¿Por qué? 
+
+ Probablemente no guardó los cambios cuando salió 
+ HLS.  Cada vez que realice cambios en el HLS, aparecerá un 
+ Aparecerá un cuadro de diálogo cuando salgas, preguntándote si deseas
+ para guardar los cambios. Asegúrese de presionar y para decir sí. 
+
+4. ¿Qué es la reproducción automática? 
+ 
+ Auto-Play significa que la computadora “jugará” un juego 
+ entre dos equipos. La reproducción automática proporciona una forma rápida de
+ Juega muchos juegos y generalmente se usa para jugar. 
+ entre dos equipos controlados por computadora (aunque cualquier
+ El juego se puede jugar de esta manera). Hay dos maneras de 
+ Auto-Play un juego. En modo Manual, eliges uno 
+ juego para que la computadora lo genere. En modo automático, 
+ la computadora continuará generando juegos mientras
+ Ambos equipos están controlados por computadora. 
+
+5. ¿Cómo uso League Simulator con Wayne? 
+¿Gretzky Hockey?" 
+
+ Para jugar un partido de liga usando Wayne Gretzky Hockey, 
+ debes guardar las listas del juego que deseas jugar. 
+ Luego, cuando juegues Gretzky Hockey, carga los equipos 
+ (en los Menús TeamDOS). Juega el juego y cuando 
+ Ya has terminado, guarda las estadísticas. Entonces podrás 
+ carga las estadísticas nuevamente en el Simulador de Liga. 
+
+6. "¿Cómo funciona el dinero? 
+
+ Cada equipo comienza con un presupuesto. Después de cada juego, 
+ Los jugadores reciben sus salarios con cargo a este presupuesto. si un equipo 
+ se queda sin dinero, los jugadores no recibirán su pago y, por lo tanto, 
+ Fore no jugará tan bien como puede. 
+
+7. ¿Todos los equipos tienen que empezar con la misma cantidad? 
+de dinero? 
+
+ No. De hecho, en la liga prefabricada, cada equipo tiene una 
+ presupuesto diferente (generalmente suficiente para pagar salarios más
+ $100,000 - $200,000 adicionales).  Sin embargo, si redacta 
+ jugadores, el presupuesto de cada equipo se restablecerá a $5,000,000. 
+ Siempre puedes cambiar los presupuestos después del borrador, 
+ aunque. 
+
+8. "¿Puedo dirigir una liga sin preocuparme por el dinero? 
+
+ Sí. Si no está interesado en los aspectos financieros de
+ el Simulador de Liga, luego selecciona Sin Dinero en el Conjunto
+ Menú de opciones. 
+
+9. ¿Por qué las calificaciones de los jugadores a veces cambian entre los 
+¿Menú del entrenador en jefe y menú del gerente general?" 
+
+ El menú del entrenador en jefe muestra las calificaciones de los jugadores después
+ han sido ajustados para sus rachas y depresiones,
+ mientras que el Menú del Gerente General siempre muestra el
+ calificaciones reales, sin ajustes. 
+
+amigos 
+COMODOR AMIGA (Todos los modelos) 
+
+1. ¿Puedo usar discos Amiga-DOS normales con League? 
+¿Simulador? 
+
+ No. Porque utilizamos un sistema patentado (es decir, no estándar) 
+ DOS, debe utilizar discos formateados especialmente. usted puede 
+ formatear un disco en el menú principal de League Simulator 
+ seleccionando la opción Formatear disco de datos. despues del disco 
+ Si ha sido formateado correctamente, podrá utilizarlo con el 
+ Simulador de liga de hockey y hockey Wayne Gretzky. 
+
+2. ¿Puedo ejecutar League Simulator desde un disco duro? 
+
+ No. Porque WGH utiliza un sistema operativo especial que es 
+ no compatible con AmigaDOS estándar, un disco duro 
+ no se puede utilizar. Este es el único efecto secundario desafortunado de
+ utilizando nuestro DOS más eficiente, pero diferente. 
+
+IBM  
+
+IBM y compatibles 
+
+1. ¿Puedo formatear un disco dentro de League Simulator? 
+
+ No. Aunque League Simulator se ejecuta en MS-DOS, 
+ Debe formatear los discos por separado antes de utilizar el
+ Simulador de liga.
+
+2. ¿Puedo ejecutar League Simulator desde un disco duro?
+Sí. De hecho, recomendamos utilizar un disco duro si 
+ tener uno. 
+
+3. A veces, cuando intento cargar estadísticas de Wayne 
+Gretzky Hockey en el Simulador de la Liga de Hockey, el archivo 
+el nombre no aparece. ¿Qué debo hacer? 
+ 
+ Si su archivo de estadísticas no aparece automáticamente en el 
+ Cargue el menú de estadísticas del juego, seleccione Forzar carga. Esto 
+ forzar la visualización de todos los archivos de estadísticas existentes. Una vez que ellos 
+ Aparece, seleccione el que desee. 
+
+Presentado por Belgarath

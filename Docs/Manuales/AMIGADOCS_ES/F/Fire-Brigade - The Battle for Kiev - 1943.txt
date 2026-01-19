@@ -1,0 +1,210 @@
+Bomberos
+
+REQUISITOS DEL SISTEMA
+
+  * Amiga 500, 1000 o 2000 con 1 Mb de RAM
+  * AMIGADOS v.1.2 o superior.  Desarrollado usando AMIGADOS v.1.2
+  * Se admiten los estándares de vídeo NTSC y PAL
+  * Se requieren tanto el puerto como el cable de conexión o el módem para jugar en red
+     entre dos máquinas: no es necesario para jugar en una máquina.
+
+Fire-Brigade requiere 1 Mb de RAM completo para funcionar.  Consume la mayor parte del
+La memoria de Amiga y tiene un entorno de memoria de trabajo de más de 800K.  puede
+no se comporta bien si aplicaciones anteriores han fragmentado demasiado la memoria
+mucho.  Entonces, te recomendamos:
+
+  * desconecte todas las unidades de disco externas
+  * elimine todo el software residente en la memoria del sistema si utiliza un disco duro
+     disco
+  * ejecutar el juego desde un inicio en frío (es decir, apagar la máquina, apagarla
+     vuelva a encenderlo y reinicie
+
+RESPALDO
+
+Antes de hacer nada, haga una copia del disco 'Maestro'.  Usa esto para ejecutar
+el juego, conservando el disco 'Master' como respaldo.  El disco 'maestro'
+no está protegido contra copia y se puede copiar usando el estándar AMIGADOS
+rutina DISKCOPY a otro disquete o disco duro.  Al copiar a un disco duro
+disco, asegúrese de que todos los archivos del juego y escenarios estándar estén ubicados
+juntos en un directorio.
+
+BOMBEROS EN EJECUCIÓN
+
+Desde una unidad de disquete
+
+1. Encienda la máquina e inserte su juego de arranque automático 'Fire-Brigade'
+   disco (es decir, su copia de seguridad del disco maestro original) en la unidad 0.
+2. Cuando aparezca el banco de trabajo, haga doble clic en el icono del disco Fire-Brigade. 
+   y luego en el ícono de la aplicación Bomberos (es decir, los 'dos tanques').
+3. Después de 2 o 3 minutos, aparecerá la pantalla de inicio, seguida de un espacio en blanco.
+   pantalla con una barra de menú en la parte superior y una barra de paleta en la parte inferior.
+4. Selecciona Nuevo Juego en el menú Juego (o Reiniciar si deseas jugar un
+   partida previamente guardada).
+5. Cuando aparezca el solicitante del archivo de escenario seleccionado, seleccione FIRE_BRIGADE 
+   de la lista de volúmenes.  Cuando la lista de escenarios (y cajones del sistema)
+   aparece en el área de visualización de archivos, haga doble clic en el escenario deseado
+   o haga clic una vez en el escenario y seleccione ABRIR.
+6. Después de 2 a 3 minutos se cargará el escenario.  Consulte al jugador
+   Manual con instrucciones sobre cómo jugar.
+
+Desde una unidad de disco duro
+
+1. Si trabaja desde la mesa de trabajo, siga los mismos procedimientos que para el disquete.
+   unidades (puntos 1 a 6 anteriores), excepto cuando el solicitante del archivo
+   aparece, primero ubique el subdirectorio de su juego seleccionando el volumen
+   nombre de su disco duro de la lista de volúmenes y luego su subdirectorio
+   de la lista de archivos.  Entonces aparecerá la lista de escenarios.
+2. Si trabaja desde la CLI, haga que el subdirectorio con el juego sea el 
+   directorio actual, usando el comando estándar CD de AMIGADOS.  Ejecute el
+   juego ingresando: FBMAIN > NIL:<Enter> y siga los procedimientos anteriores.
+
+				2
+
+Cargar, guardar y eliminar un juego
+
+Utilice el Solicitante de E/S de archivos de Inovatronics para guardar o cargar desde cualquier
+dispositivo o directorio.  Para guardar un juego, seleccione Guardar en el menú Juego.  cuando
+Aparece el Solicitante de archivos, utilice la lista de volúmenes y directorios para localizar
+el guardado que desees en el menú Juego.  Cuando aparezca el solicitante de archivos, utilice
+la lista de volúmenes y directorios para localizar el destino de almacenamiento deseado. 
+Escribe un nombre para tu juego guardado y haz clic en el cuadro GUARDAR.
+
+Selecciona Reiniciar en el menú Juego para cargar un juego previamente guardado.  cuando
+Aparece el solicitante de archivos, localiza el juego guardado usando el volumen y
+listas de cajones.  Haga doble clic en él o haga clic una vez y haga clic en el cuadro ABRIR.
+
+Seleccione Eliminar en el menú Juego para eliminar un juego de un directorio o
+disco.  Cuando aparezca el solicitante de archivos, utilice los procedimientos anteriores para seleccionar
+el juego deseado y presione BORRAR.  Selecciona CANCELAR para regresar al juego.
+
+Tenga en cuenta que guardar y cargar un juego de Fire-Brigade lleva algún tiempo.
+alrededor de 2 a 3 minutos desde un disquete, menos desde un disco duro.
+
+MENÚS
+
+Haga clic con el botón derecho del mouse para mostrar la barra de menú, o use el
+Teclas Comando/Amiga (ver más abajo) para seleccionar directamente un elemento del menú.  Nota sobre
+el Amiga hay un menú 'Especial' adicional, que contiene el Sonido
+y funciones de paleta.
+
+sonido
+
+El \/ al lado de la función Sonido activado indica que el sonido está activado.  girar
+sonido apagado, seleccione Sonido apagado en el menú Especial.
+
+Paleta (cortesía de R J Mical)
+
+Para ajustar los colores del mapa y de las unidades, seleccione Paleta en el menú Especial.
+
+Cuando aparezca el cuadro de paleta, haga clic en el indicador de técnica de color para
+cambiar de 'Rojo Verde Azul (RGB) a 'Luminancia de saturación de tono' (HSL) o
+viceversa.  Seleccione un mapa o color de unidad, haciendo clic en el correspondiente
+cuadrado de colores.  Mueva las diapositivas de control de color para ajustar la configuración RGB/HSL. 
+Para copiar un color a otro, haga clic en el primer color, haga clic en COPIAR y
+luego haga clic en el segundo color.  Utilice el mismo procedimiento con RANGE para
+Distribuya los colores entre dos colores.  Haga clic en 'Aceptar' para confirmar o
+'CANCELAR' para revertir.  Cuando guardas o sales del juego, tu color
+Las preferencias también se guardarán.
+
+Si lo arruinas por completo, restablece la paleta de usuario seleccionando
+ya sea la Paleta de Dave o la Paleta de Ben del Menú Especial.
+
+				3
+
+Teclas de función y comando
+
+Las teclas de función son un método abreviado para seleccionar funciones de paleta. 
+Cada tecla de función corresponde a una función de paleta como se muestra a continuación.  F10, con
+tecla AMIGA derecha, devolverá el cursor de flecha y actualizará la táctica y
+Mapas estratégicos.
+
+(F1-F7 puede acceder a otros comandos con la tecla AMIGA presionada).
+
+Tecla de comando.  Siempre que el Manual del jugador le indique utilizar el comando
+Clave, use la clave AMIGA derecha en su lugar.  P.ej. seleccionando 'N', mientras mantiene presionado
+Al presionar la tecla AMIGA derecha, seleccionará Nuevo juego en el menú del juego.
+
+En la versión Amiga no hay función de pánico: aparece AMIGA P a la derecha.
+el solicitante de paleta; no hay función de Enemigo no ubicado - a la derecha AMIGA U no tiene
+efecto; y no hay función de configuración: a la derecha, AMIGA C abre el juego
+créditos.  Para reconfigurar un juego, guárdalo, vuelve a abrirlo y hazlo luego.
+
+Cuadros de diálogo
+
+Debido a que los parámetros de pantalla de Amiga difieren de los de Macintosh, el
+Se han reposicionado componentes de ciertos cuadros de diálogo.  P.ej. en el
+Cuadro de soporte de combate, la función de soporte terrestre se encuentra en la parte superior derecha
+en lugar de en la parte inferior izquierda, como aparece en el manual del reproductor. 
+Independientemente de su ubicación, estas funciones se realizan de la misma manera que
+indicado en el manual.
+
+Arrastrar/Apuntar y disparar
+
+En la versión Amiga, en lugar de arrastrar (es decir, hacer clic, mantener presionado, mover y
+soltar) puede apuntar y disparar (es decir, hacer clic, moverse y hacer clic nuevamente) para seleccionar
+Objetivos HQ, etc. Cualquiera sea el método, asegúrese de no soltar el mouse.
+(arrastrar) o haga clic por segunda vez (apuntar y disparar) hasta que la pantalla
+actualizado con los detalles del cuartel general/unidad seleccionado.
+
+Para cancelar una selección usando apuntar y disparar, haga clic en un punto no objetivo.
+porción del mapa.  Si mueve el cursor fuera del mapa antes de hacer clic
+desactivado, la pantalla continuará actualizándose; mueva el cursor nuevamente al
+mapa y haga clic nuevamente.
+
+Listado de directorio
+
+El disco 'Maestro' contiene los siguientes archivos:
+
+	Descripción del listado
+        ------- -----------
+	Aplicación del juego FBMAIN Fire-Brigade
+	FBTACTIC.MAP Mapa táctico
+	FBSTRAT.MAP Mapa estratégico
+	FBSYSMOL.IMG Iconos de unidad
+	FBSYMBOL.SYM Símbolos militares de la unidad
+	FBSCREEN Pantalla de inicio
+	FBCOLORS.PREF Preferencias de color del usuario
+	FBCOLORS.DAVE Las preferencias de color predeterminadas
+	FBCOLORS.BEN Preferencias de color alternativas
+	CANNON Datos de sonido
+	Base de datos de los bomberos del FB
+	3 NOV.FBSEN Escenario de campaña del 3 de noviembre
+	15 NOV.FBSEN Escenario de campaña del 15 de noviembre
+	5 DIC.FBSEN Escenario de campaña del 5 de diciembre
+	TUTORIAL.FBSEN Escenario del tutorial
+	README.DOC Aviso de enmienda
+
+Consulte README.DOC en el disco maestro para ver si hay modificaciones de última hora.  Este es un
+Archivo de texto ASCII estándar, que puede ser leído por cualquier editor de texto razonable.
+
+				4
+
+		          BOMBEROS
+                   La Batalla de Kiev * 1943
+
+Ubicaciones del sector de la ciudad
+
+Bélaya Zerkov 4/5 Ivankov 4/1 Oster 6/1
+Belgordka 5/3 Ivankovo 2/4 Pavoloch 3/5
+Belilokva 2/5 Kagarlyk 6/5 Pereslav 7/4
+Berdichev 1/5 Kanev 7/5 Pleseskoye 4/3
+Beresan 7/3 Katyushanka 4/1 Radomyschl 2/2
+Bobrowiza 7/2 Kazatin 1/5 Rzichev 6/4
+Borispol 6/3 Kiev (Norte) 5/3 Skvira 3/5
+Browary 6/2 Kiev (Sur) 5/3 Stavich 3/3
+Brusilov 3/3 Kobisky 7/1 Stepanzy 7/5
+Bukrin 7/4 Kopilovo 4/3 Teterev 3/2
+Chepovichi 2/1 Kornin 3/4 Trilissy 4/4
+Chernorudka 2/5 Korosten 1/1 Trípolie 6/4
+Cherniakov 1/3 Korostychev 2/3 Troyanov 1/4
+Druzhnya 4/2 Letki 6/2 Turchinka 1/2
+Dymer 5/2 Lyutesh 5/2 Vasilkov 5/4
+Fastov 4/4 Malin 2/1 Vinzentovka 5/5
+Gorbulev 2/2 Mironovka 6/5 Voronkov 6/4
+Gornastaipol 5/1 Nasovka 7/1 Yalzovka 3/1
+Gostomel 5/2 Nedasky 3/1 Yankovka 5/5
+Grebenki 4/4 Novo Barsan 7/2 Zhytomyr 1/3
+
+====================================================================================
+         DOCUMENTOS PROPORCIONADOS POR -+*+-THE SOUTHERN STAR-+*+- para M.A.A.D.                                                               
+====================================================================================

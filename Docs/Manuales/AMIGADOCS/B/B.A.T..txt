@@ -1,0 +1,843 @@
+                                   B.A.T.
+
+Typed by REPO MAN & GENESIS.  All IBM info removed by RYGAR.
+Edited by PARASITE.
+
+
+First, here is a quick summary of what this games about.
+   You're a secret agent that has been assigned to go to Terrapolis  and elim-
+  inate a character named Vrangor who planted 16 nucturobiogenic bombs...  He
+  said  that he  would blow  up Terrapolis unless an act of property is drawn
+  up in his  name,  so there you go.... You have 10 days to find this guy and
+  blow his brains out, hope the following  technical manual helps you in your
+  attempt to play this game.
+
+
+1) The World of B.A.T.
+
+* THE UNIVERSE:
+  The B.A.T. is an ultrasecret organization, originally earth-based, of which
+  you are an agent.  The action  takes place  at the  beginning of the XXIInd
+  century.  Earth,  disrupted by various events, reformed a world government,
+  the C.F.G (Confederation of the Galaxies), directed  by  nine  savants. The
+  known Universe  is  scattered  with  worlds  having  no,  or virtually  no,
+  topoligical concentration.  This phenomenon, essentially due to the type of
+  propulsion  used  for  very long distance voyages (artificial black holes),
+  resulted in the  extreme  political  development of the independent worlds,
+  despite themselves.  Spatial  colonization  currently  extends to the solar
+  system and its suburbs (less than twenty  light years  away, like  Alpha of
+  Centaur) belonging to the Terrian district and the hundreds of other worlds
+  colonized  by  the  millionaires (or aliens!) scattered in space and linked
+  uniquely by temporal bridges.
+
+  To coordinate  the  actions  of the hundreds of different worlds, an organ-
+  ization  has  been  created,  the  U.M.R. (Union  of  Worlds for Assembly).
+  However, significant problems remain and the measures  taken  by the U.M.R.
+  are   often   stifled  by  the  veto  of  one   government  or   another...
+
+  That's why the C.F.G. prefers to use its personal  action organization, the
+  B.A.T., to resolve problems in utter secrecy...
+
+  As  a  B.A.T.  agent, you will  travel around various worlds, all different
+  from  each other, meeting strange or frightening characters.  You will have
+  to achieve perilous missions but you will have the fabulous chance to visit
+  an integral world and to  discover mysteries throughout the adventures that
+  we offer you.
+
+  At the beginning of the game, you create your own character.  Don't neglect
+  this task, as your  character will evolve  during your adventures.  Whether
+  this  is  for   better  or   for  worse,  it  is  a  reflection  of  you...
+
+  Your adventure will  take place  on Selenia,  a very cosmopolitan planet, a
+  crossroads of civilization...
+
+2) THE WORLD OF SELENIA:
+  The climatic  conditions of this planet are very severe.  No flora or fauna
+  exist (you may get the chance  to  fly over the  plateaus  and dunes of the
+  desert in a DRAG!).  A terrian colony has been set  up in a  town protected
+  by an enormous dome: TERRAPOLIS.
+
+  The very industrial nature of this city has  made  it  extremely lively.  A
+  large number of different beings meet night and  day  (Appendix I describes
+  the main creatures).  You will notice the  heavy atmosphere, resulting from
+  this world which influences  its  inhabitants and where violence is common.
+  We'd  advise  you to  blend in with the surroundings and not to disturb the
+  equilibrium  that makes the city tick, as aggressiveness  is not always the
+  best solution...
+
+  Don't forget  that  this  is a  real  world in  which you'll evolve.  Don't
+  hesitate to  go for  a  drink or have some fun; adventure  isn't  the  only
+  attraction of the game, and you'll rarely be  at a  dead end.  Once  you've
+  reached your goal, you can still carry on playing.
+
+3) THE DYNORAMA:
+  So that the players feels free, so that  he  can totally immerse himself in
+  the adventure  w/o  any  restrictions,  we have  conceived  a  system where
+  appearance interaction and even the very framework of  the game  have  been
+  rethought.
+
+  The  structure  of  the game is based on what we call a "distributed adven-
+  ture".  The player can reach a solution in various ways, enabling him to be
+  blocked only rarely in the adventure.  The  adventure  is therefore resumed
+  by a "main backbone" composed of branches and knots.  The branches  can  be
+  parallel or concurrent, they converge towards the knots which lead  to  the
+  next step in the adventure by logical relations.
+
+  Moreover, we need an interactive system of high quality to communicate with
+  the player. As far as the graphics were concerned, we opted for a complete-
+  ly free screen  where  images  take shape and follow each other freely.  In
+  consequence, some  screens  are  entirely  graphical, in a "cartoon" style,
+  designed to make the game come alive.
+
+  Interaction also occurs through the "dynamic icons," by using the mouse  to
+  move around on the image and change depending on the possible action.  Thus
+  the information circulates in a  direct,  immediate manner, w/o interfering
+  with the player's concentration.
+
+  So there you are, you now know the essentials about B.A.T.'s world.
+
+==============================================================================
+APPENDIX I: THE CHARACTERS IN B.A.T.
+
+* SKUNKS: Totally  antisocial, aggressive, rebellious.  They  like to  attack
+          people and steal from  them.  They  gather  together  very  easily.
+
+* TERRANEAN GUARDS: These are the police  of  Terrapolis.  They walk numerous
+                    beats in the town and will  seek you out if you break the
+                    law.  You will then be imprisoned and judged.  These over
+                    trained, heavily armed guards will attack you w/o warning
+                    if you have been condemned to death.
+
+* GLOKMUPS: Travelers native to MIGA, not  very  intelligent  but very proud.
+            They are often destined to carry  out  dirty jobs and are reduced
+            to being robbers or assassins.  They measure around 9 ft. and are
+            generally extremely skilled robbers.  Don't place too  much  con-
+            fidence in them.
+
+* KRADOKIDS: One of the races populating the planet Sabellius.  They resemble
+             lizards and their distinctive feature is that they are Cyclops'.
+             Dressed like monks, these are very intelligent  creatures, some-
+             times  even wise  men.  They  never let anyone take advantage of
+             them and are linked by a powerful sense of fraternity.  They are
+             very numerous  and never  mix with  other races. Another race of
+             kradokids  exist who are much less intelligent, but they are not
+             present on Selenia.
+
+* STICKROBS: These are ultra-perfected robots, slightly less intelligent than
+             the human race.  Theoretically used to perform various services,
+             they sometimes wander around, when out of order, in the streets.
+             They can be dangerous and are very well-armed.
+
+* KILLERS: Giant mercenaries, they have no feelings. You will never meet them
+           in Terrapolis  because they are used by Vrangor as his bodyguards.
+           They think they are invisible and are kamikazes. They count on the
+           element of surprise when they fight.
+
+* VRANGOR'S GUARDS: They  are  extra-terrestials  grouped together in a para-
+                    military organization.  Of human size, they are very well
+                    trained and only serve to kill.
+
+* MERIGO: A petty crook arrested while trying to  traffic  magnetic cards, he
+          escaped with Vrangor during their transfer to Zorg.  Since then, it
+          seems  that Vrangor  has been  exerting a strange sort of influence
+          over him.
+
+* VRANGOR: A veritable evil genius, he has been arrested 14 times for various
+           crimes.  Escaped  or  freed  due  to  lack of evidence, he doesn't
+           hesitate to  kill if  his position is threatened.  His cruelty and
+           total lack of pity  make  him a fearsome man.  It's because of him
+           that the B.A.T. has sent you to Selenia.
+
+==============================================================================
+II) CREATING A CHARACTER:
+  To play B.A.T., you can choose a predefined character by  clicking  on  the
+  left mouse  button,  or you can define the characteristics of you personage
+  yourself by pressing the right one.
+
+A) GENERAL OPTIONS:
+  * Information, Main Menu, Save, Agent's Name all self explanatory.
+
+B) COMPETENCES:
+
+1) Basic Competences:
+
+  Basic  Competences CANNOT BE MODIFIED.  They don't appear  on the creation
+  screen,  but nevertheless form part  of your character.  These competences
+  are:
+
+- Life potential: (99-0%) General state,  from  99%  at  beginning, it should
+                  never reach 0% or you'll be dead.
+
+- Level: (1-99) This level is your degree of knowledge, your experience.  The
+         higher it is, the easier it will be to resolve certain  problems  or
+         even avoid them.
+
+- Experience: (0-99pts) helps  change  level  at 100 goes back to 0 but level
+              goes up by 1.
+
+- Calorie Level: (kcal) It is calculated  in function of the competences sel-
+                 ected.  Your  consumption  is  also  controlled  during your
+                 adventure.  Eat or you will die.
+
+- Hydration level: (%) same idea as calorie level, except DRINK!!
+
+- Credits: (Cdts.) Start w/1000 credits.  In Terrapolis, you  can change this
+           virtual  money  (you only have one card)  into  small  change, the
+           Krell.  The  rate of exchange differs.  In general, one  credit is
+           around 2 Krells.
+
+2) Modifiable Competences:
+
+  You have 78 pts to spread out.  Here is the detailed list of the modifiable
+  competences:
+
+- Force: (0-20) physical potential. Number here is max level during the game.
+         minimum of 15 is advised.
+
+- Intelligence: (0-20) Reflects your  mental  capacities.  Enables to resolve
+                complex problems, or eg.  to  take the lead in a conversation
+                with a less intelligent  individual.  Attaining 20 is classed
+                as   genius,  while   minimum  is   fatal  (clinically dead).
+
+- Charisma: (0-20) Constitutes  main  attractive  power, whether  physical or
+            mental.  Useful in bargaining, etc....
+
+- Perception: (0-20) Principle senses (smell, taste, etc.) high level enables
+              avoidance of surprise, help anticipate attack.... and so on....
+
+- Energy: (0-20) Vitality  also  includes your  willpower.  Energy  potential
+          reflecting  your vivacity and speed of your intervention when faced
+          with an action.
+
+- Reflexes: (0-20) Capacity to react to an  event without letting your deduc-
+            tive competences intervene... Self explanatory.
+
+3) Aptitudes:
+
+  Calculated depending  on your competences and other parameters too numerous
+  to describe.  Reflect  capacity  to carry  out certain  actions.  Resulting
+  from personal talents but also from training  you've received, help to make
+  actions easier.  Determines your  disposition (scientific, manual, calcula-
+  tive, instinctive, etc..)  Expressed in percentage (0-100%).
+
+
+* Here are the necessary characteristics for this adventure
+
+- Chatter: Useful for confusing or convincing a seller or obtaining info from
+           an   indicator.  Found  in  resourceful,  vicious  individuals....
+
+- Pick locks, Steal: Self explanatory...
+
+- Detection: Detect traps, find invisible clue that uncovers  the workings of
+             a Machiavellian plan.  An essential  aptitude of all detectives.
+
+- Electronics: 70% considered very good electrician.  Could help  you  out in
+               tricky situations.
+
+- Climbing: To cross all  heights without equipment.  If low %, don't attempt
+            the impossible, find the nearest elevator.
+
+- Evaluate:  Enable to avoid buying a  replica of a Kar-had  vase at the same
+             price  as  an  original.  Do  you  have  a  realistic  attitude?
+
+- Mechanics: Avoid having to take public transport.  Below 10%, advise not to
+             touch any machine.
+
+- Track: Davey Crockett mentality.  Helps  follow prey and even react in same
+         way he does.
+
+- Locate: Enables you to discover hidden objects.
+
+- Vigilance: Be on guard.  High % will keep you from finding yourself without
+             a credit card, whereas low %, you  will be  ideal  prey  for all
+             bandits and robbers.
+
+- Firing: In case of attack.  With a high % you can  send  a band  of vicious
+          skunks packing  without  even aiming.  If below 20%, you should ask
+          all those around you to go several miles away before firing (if you
+          have  a  Nova,  we're  not  responsible  for holes in the disk...).
+
+- Psychology: To carefully apprehend a fragile  creature (and not rush at him
+              wildly, we advise you not  to  neglect this aptitude.  It could
+              be useful to know about  certain  civilizations and not to pro-
+              voke them.  Below 10% you're a brute...
+
+4) Choosing Weapons:
+
+ Before setting out on the adventure, it  would be advisable to  stock up on
+  one or two weapons.  In fact, the number of  weapons is a  function of your
+  constitution.  You can take two small or one large weapon.
+
+==============================================================================
+APPENDIX II: THE DIFFERENT WEAPONS:
+
+* The choice of a weapon is crucial for the rest of the game.
+
+WEAPONS LIST AS FOLLOWS:
+
+- Voktrasof: Light weapon, like a pen which you keep in you pocket.  Not very
+             powerful but easy to hide.
+
+- Beckman: Classic photonic beam of medium power.  weighing around 2 kg, it's
+           the preferred weapon of the Skunks.
+
+- Hacker 30: The butcher's  weapon, projects  several thousand needles simul-
+             taneously.  You can regulate the dispersion level of the needles
+             as well as the pressure of the propulsion gas.  Beautiful weapon
+             for you acupuncture experts!!!
+
+- Haas 10: It  consists  of a  type of  pistol launch-missile.  Two  types of
+           missiles can be used:
+
+         1) - N 29: Missile w/o non-controllable trajectory
+         2) - T 02: Missile tele-guided by body wave
+
+- MOZ: Powerful and devastating infrasonic cannon, extremely  useful for com-
+       pletely destroying  any type of conventional engine.  Terranean police
+       possess a weapon of this kind.
+
+- NOVA: Most powerful, it's cannon is in fact  a genuine  photon accelerator.
+        It is carried on the  shoulder and is equipped  with  multiple  shock
+        absorption  systems.  In short, it's not  to  be  used in a very busy
+        public place..
+
+ Weapons have several characteristics as follows:
+
+- Perforation Coefficient (CP): (0-9). In  contrast with the  equipment coef-
+                                ficient  (built-in resistance factory of your
+    \.    ./                    clothing,  also   from  0-9).  Ammo   pierces
+ {     /\     }                 through any clothing  with an equipment coef-
+    ________                    ficient lower  than  it's  CP  (the NOVA cuts
+   / V    V \                   straight   through   virtually   everything).
+
+- Amunition: Remember to buy the right one that corresponds with your weapon.
+
+- Price: Contained in the Feature Table below:
+
+TABLE OF FEATURES FOR EACH WEAPON
+     +==================================================================+
+     | NAME OF WEAPON    PRICE     PERF. COEF.     AMMUNITION           |
+     |==================================================================|
+     | VOKTRASOF          150           4            LP-12              |
+     | BECKMANN           390           5            LP-57              |
+     | HACKER 30          440           6            AG-10-80           |
+     | HAAS 10            560           5            N 29               |
+     |                                  7            T 02               |
+     | MOZ                812           7            E-10               |
+     |                                  8            E300               |
+     | NOVA               995           9            NOVA BATTERY       |
+     +==================================================================+
+
+III)  THE GAME
+
+A) THE DYNAMIC ICONS:
+
+  * The left button usually invokes the action presented by the icon:
+
+     1) B.A.T.'s logo (the eye of the falcon): This icon tells you that there
+        is nothing in this part of the picture.  However, if you click on the
+        right button of the mouse, a main menu will appear.  If  you click on
+        the left mouse button, you will access B.O.B.
+
+     2) Directions: Indicates in which direction you can go.
+
+     3) Bubble: (Looks like comic strip conversation bubble) tells  you  that
+        you  can engage in conversation with a stationary character or simply
+        ask for information.
+
+     4) Bottle: (Icon of a bottle)  This  icon  tells  you  that you  can buy
+        something to drink.
+
+          WATCH OUT!  The fact that you take a drink doesn't mean that you
+          have consumed it! If you want to drink it, use the health option
+          in the main menu.
+
+     5) Interpellation: (Icon of face profile  speaking) Gives  you  the  op-
+        portunity of  conversing  with one  or two  active  characters.  When
+        this icon  appears, click  on  the left  button and you can then con-
+        verse with the selected character.
+
+     6) Question mark: (Looks like one of these: ?) This icon  tells you that
+        tells  you  that you're lacking in something or someone to accomplish
+        the required action.
+
+     7) Target: (Icon of  cross-hairs)  appears  during  combat  phases  once
+        you have chosen your weapon.
+
+     8) Purchase: (Icon of triangle on bottom and arrow on top of it) Appears
+        when  you  can buy  something, or for any action obliging you top pay
+        another person.
+
+     9) Heart: (Heart-shaped Icon)  You'll come across this icon  in the red-
+        light area  of Terrapolis, when  a charming  young lady will offer to
+        show you some smooth moves on the dance floor.
+
+    10) Usage Icon: (Big arrow pointing up) Appears when you  have  to  use a
+        a  machine  or  accomplish  a  specific  action (simulator, etc....).
+
+B) THE MENUS:
+
+1. MAIN MENU:
+  Access: you can gain access to the main menu each  time you  click  on  the
+  right button of you mouse while the BAT logo icon is present on the screen.
+
+    MENU       SUB-MENU    SUB/SUB MENU       FUNCTION DESCRIPTION
+==============================================================================
+  INVENTORY................EXAMINE: Look  at  the  appearance and contents of
+                                    your possessions.
+                           VALUE  : Give a value to this object (approximate)
+                           NEXT   : Pass to next object in inventory.
+                           FINISH : Return to main menu.
+
+  LOOK: Look at area where you are.  If there's an object it  will  appear in
+        the inventory window.
+
+  SEARCH: Same action as looking except more precise.
+
+  DROP.....................NEXT   : See next item in inventory.
+                           DROP   : Drop item in question.
+                           HIDE   : Hide item in question.
+                           CONCEAL: Conceal item in question.
+                           FINISH : Return to main menu.
+
+  HEALTH......EAT   :......NEXT   : See next food item.
+                           EAT    : Eat the food.
+                           EXAMINE: Look at food.
+                           FINISH : Return to main menu.
+
+              DRINK :......NEXT   : See next beverage item.
+                           DRINK  : Drink the beverage.
+                           EXAMINE: Look at the beverage.
+                           FINISH : Return to main menu.
+
+              SLEEP : You immediately fall  asleep, to  wake  up  click  left
+                      mouse button.
+
+              FINISH: Return to main menu.
+
+     CAREFUL!  Don't let other characters steal from you or kill you while
+     you're asleep.  Also a risk of indigestion if there is no need to eat
+     or drink.
+
+  HELP.....................PAUSE        : Pauses game.
+                           MUSIC ON/OFF : Turns music on or off.
+                           SAVE         : Save Game 1 and so on up to 8.
+                           LOAD         : Load Game 1 and so on up to 8.
+                           ABORT GAME   : Abort game currently in progress.
+                           FINISH       : Return to main menu.
+
+      NOTE: When you save a game, the programs of B.O.B. are not saved.
+            You must use the option SAVE B.O.B. (Program 4 function).
+
+2. CONVERSATION MENU (static characters):
+  The static characters are represented by the bubble icon.  Click left mouse
+  button when bubble icon appears on character.
+
+* Works the same as the Main Menu system.
+
+3) INTERPELLATION MENU (mobile characters):
+  The characters moving around in the game are located  by the interpellation
+  icon.  Click  left  mouse  button  when interpellation  icon appears on the
+  character.
+
+* Works the same as Main Menu and Conversation Menu.
+
+4) PURCHASE MENU
+
+* Same concept as previous menus...
+
+5) FIGHTING
+  There are two ways in  which  you  might find yourself in the combat phase:
+
+  * If you are  the ASSAILANT, you  have provoked  the  fight, you  know your
+    adversary, you must know what you're getting yourself into.
+
+  * If you are ATTACKED for some reason by one or two enemies:
+
+  You will find yourself on a full-screen image.
+
+  You must then  arm yourself by clicking the left button of the mouse in the
+  square where the weapon is displayed.
+
+  If you have a force  field,  you  can  connect  it  using the  same method.
+  Position the target  icon on your adversary  and click several times on the
+  left button  of the mouse to kill him.  If you have  no ammunition, you can
+  only flee  (so click on the escape icon at the top of  the  screen)  and be
+  better prepared next time..
+
+  NOTE: Your opponent could also take flight.  The  more  aggressive you  are
+  towards the characters in the game, the more  violent they'll be in return.
+  Moreover, the death of on e character automatically results in the birth of
+  another.
+
+IV) USING B.O.B (BIO-DIRECTIONAL ORGANIC BIOPUTER)
+
+A) GAINING ACCESS TO B.O.B.:
+  Like any self-respecting member of B.A.T., you have a computer, the B.O.B.,
+  implanted  in  your  arm.  Based  on  electro-organic  technology, it is an
+  entirely  separate  organ of  your body. Powered by 4 fibro-veins, it elec-
+  tronically analyses  and  controls  your blood flow in  order to supply you
+  with all kinds of info about your body. It's particular method of operating
+  enables you to modify some of your physical and psychological characterist-
+  ics.
+
+  B.O.B. is therefore not a gadget but a work tool that will help you in your
+  mission  and could  even save your life.  It's up to you to put the 4 func-
+  tions to their best possible use to profit from B.O.B.'s extraordinary cap-
+  acities.
+
+B) B.O.B.'S DIFFERENT FUNCTIONS:
+  -The main screen of B.O.B. gives you access to 4 functions: Programs 1 - 4.
+
+* PROGRAM 1: Reminder of your characteristics.
+
+  - LEVEL: increases each time your experience reaches 99.
+
+  - EXPERIENCE: Some of your  actions  during  your  mission will increase or
+                reduce your  experience.  It varies from 0 to 99 between each
+                level.
+
+  --The others were defined earlier in the documents...
+
+* PROGRAM 2:  This function indicates state of your health.
+
+  - LIFE POTENTIAL: Informs you of  your health.  99% great shape, but as you
+    roam around, you most likely weaken  due to illness, wounds, hunger, etc.
+    at 0% your a corpse...
+
+  - B.O.B. continuously analyzes your  blood  in order to detect any weakness
+    likely to endanger your mission.
+
+  - HYDRATION: B.O.B. keeps an eye on you dehydration level  and indicates in
+    its diagnosis if you need to drink.
+
+  - CALORIES: Your  body  consumes  energy in  calories.  You start with 2000
+    calories.  Of course this  diminishes as  you play  the game so a regular
+    nutritious  intake  can  conserve the balance between the energy consumed
+    and  the  energy intake.  B.O.B. will  indicate in  it's diagnosis if you
+    need to eat, but watch out for indigestion....
+
+  - SILHOUETTE OF YOUR CHARACTER:  Thanks to the diagram  of  a  body, B.O.B.
+    indicates  the  injured  parts  of your body after fighting.  The injured
+    part of the body is in red.
+
+* PROGRAM 3: Translate language and electrocardiogram:
+
+  - LANGUAGE TRANSLATED:
+  - B.O.B. controls  your  mental  capacities, notably your ability to under-
+    stand and speak a foreign language.
+
+  - On Selenia, there are 3 main ethnic groups: robots,  aliens, and  humans.
+
+  - To understand the aliens, click on Alien, the arrows ">.......<" position
+    themselves and thus indicate the language being spoken.
+
+  - CARDIOGRAM: This option enables you to control your heart beat.
+
+  - NORMAL: Is in use unless  you change  it (the arrows ">.......<" are pos-
+    itioned on either side of "NORMAL"). Your heart  beats  at a normal rate.
+
+  - HIBERNATION: This option enables  you to slow down your heart beat.  Your
+    reaction  to  an  enemy will be slower, but if your injured, for example,
+    you  will  become  less  tired  and  above  all  will  lose  less  blood.
+
+  - ACCELERATION: This option  enables you to accelerate your heart beat.  It
+    is useful  during  fighting, for  example, your  vitality, foresight  and
+    speed are increased (all important physical efforts are increased by this
+    function).
+
+  - QUIT: Enable you to return to the main menu.
+
+* PROGRAM 4: Programming B.O.B.:
+  In order to automate the preceding functions and to avoid repetitive manip-
+  ulations, B.O.B.  possesses  original  and revolutionary programming in the
+  computer games field.
+
+- COMMANDS -
+
+  - DIR  : Displays the files available for B.O.B. to load.
+
+  - LOAD : Loads the selected file in the memory.  To select a file, click on
+           it with the mouse. It will turn red.
+
+  - SAVE : Saves the current program.  Check that your disk is not write
+           protected.
+
+  - ERASE: Erases the selected file on the disk.
+
+  - EDIT : Edits the programs.
+
+  - RUN  : Executes the program present in the memory.
+
+  - QUIT : Quits the Program 4 function.
+
+  - At the top of the screen is the zone where the names of files on the disk
+    will be displayed.
+
+  - At the bottom of  the  dialogue zone: for example, to enter the name of a
+    file to save.
+
+C) PROGRAMMING B.O.B.:
+  To program, a powerful editor has been specially conceived. You gain access
+  to this editor by clicking on  the  left button of  your mouse on  the edit
+  option.
+
+  At the top left of the screen is the editing area. The cursor ">" indicates
+  the line on which you are working.  The two vertical  arrows  on  the right
+  enable   you  to  move  the  cursor  ">"  up  and  down  in  your  listing.
+
+  At the bottom to the left, 4 functions can be found:
+
+  - INSERT : A line is inserted where the cursor is positioned ">".
+  - DELETE : Erases the line where the cursor ">" is positioned.
+  - QUIT   : Enables you to quit the edit mode.
+  - NEW    : Erases the program in the memory and clears the editing area.
+
+  At the bottom to the right, you'll find the instructions  and the necessary
+  parameters for the programming.  Two  vertical arrows surround the zone for
+  these commands and enable you  to  make them  scroll before selecting them.
+
+  To  write  a  line  of a program, click on one of the three types of infor-
+  mation  found  below  which  should  then  appear  in  the  listing   zone.
+
+  You gain access to 3 types of information:
+
+  1) COMMANDS:                  IF
+                                END IF
+                                DISPLAY
+                                TRANSLATE
+                                RHYTHM
+                                WARN
+                                RESTART
+                                END
+
+  2) PARAMETERS:                PURSUED
+                                ROBOT
+                                ALIEN
+                                MERIGO
+                                VRANGOR
+                                HUNGRY
+                                TIRED
+                                INJURED
+                                ILLNESS
+                                HIBERNATION
+                                NORMAL
+                                ACCELERATION
+
+  3) MESSAGES:                  MESSAGE 1
+                                MESSAGE 2
+                                MESSAGE 3
+                                MESSAGE 4
+                                MESSAGE 5
+
+  Certain commands need  a parameter  in order to complete a line of program,
+  such as IF, DISPLAY, TRANSLATE, RHYTHM.
+
+  * Example of IF parameters:
+
+  ex. IF INJURED
+
+  The command DISPLAY only accepts the MESSAGE parameter.  In this  case, the
+  editor asks you to type this message on the keyboard. Type up to 10 letters
+  then press RETURN. Watch out! The messages will appear on the B.O.B. screen
+  once the program is launched by choosing Program 4.
+
+  The command WARN  does  not  need  a parameter.  This command emits a sonar
+  signal during the game.
+
+  If a parameter is  not  suitable for an instruction, B.O.B. will refuse it.
+
+  IMPORTANT: Any program must finish with the RESTART command followed by END
+  so that the program can re-loop. Therefore, if you link two or more program
+  together from the examples below, use only one RESTART command and only one
+  END command.  RESTART and END will always  be  the  last  two commands of a
+  program.
+
+EXAMPLE OF A PROGRAM:
+  During the game, you can use B.O.B.  for  help.  Below  you  will find some
+  examples of B.O.B.
+
+  Translate Program:  This  program  will  help you to discuss with everybody
+  during the game  (alien,  robot, human - your  first  language  is  human).
+
+  IF ROBOT
+        TRANSLATE ROBOT
+        END IF
+        IF ALIEN
+        TRANSLATE ALIEN
+        END IF
+        RESTART
+        END
+
+  To launch this program, click on "RUN". When "PROGRAM RUNNING" appears, the
+  program is activated.
+
+  To stop it, click on "STOP".
+
+  To return to the game, click on "QUIT".
+
+  Alarm Program:  This  program will ring an alarm if  there is Stickrob near
+  you.
+
+  IF PURSUED
+  WARN
+  END IF
+  RESTART
+  END
+
+  Health Program:  This program will monitor your health.
+
+  IF HUNGRY
+  DISPLAY "STARVING"
+  END IF
+  IF THIRSTY
+  DISPLAY "THIRSTY"
+  END IF
+  IF TIRED
+  DISPLAY "TIRED"
+  END IF
+  RESTART
+  END
+
+  Pulse program: if there is a robot near you,  B.O.B.  will  accelerate your
+  pulse.  If the robot tries to kill you  during the combat mode you can kill
+  him more easily.
+
+  IF ROBOT
+        RHYTHM ACCELERATION
+  END IF
+  IF ALIEN
+        RHYTHM HIBERNATION
+  END IF
+  RESTART
+  END
+
+V) THE MACHINES AND THEIR USE:
+  During your  adventure  in  Terrapolis, you'll come across and have  to use
+  various machines.
+
+  They will enable you to: - Change any existing credits to Krells.
+                           - Use telephone.
+                           - Sleep.
+                           - Eat.
+                           - Play games (see Bizzy Game).
+
+  a) Use of the machines:
+
+  When  the  Up arrow icon appears on the screen, click on the left button on
+  the mouse.  The  machine  will then appear in the center of the screen (for
+  the explanations that follow, consult the diagram below).
+
+  Insert your credit card into the machine and use it by clicking on the keys
+  shown on the screen using the left button on the mouse.  Once you have fin-
+  ished, click  on  your card to quit.  Don't forget to take your credit card
+  with you after using a machine.
+
+  * Change machine or telephone:
+
+            - Enter the amount or telephone #.
+            - Hit C to cancel or RETURN to enter.
+
+  * Food Machine:
+
+            - Enter choice by selecting the number; you can't cancel choice.
+
+  * Sleep Machine:
+
+            - NOTE: you must have the appropriate amount of credits.
+            - Use plus or minus keys to adjust amount of sleep.
+            - Press "V" key to start sleep.
+
+  b) The Bizzy game:
+
+  The most popular game on Terrapolis.  Invented  by  Segmour BIZZY, it gives
+  every player the chance to win money or lose it.
+
+  This game  has  caused  rivalry between the best players of the BIZZY game,
+  who meet in the game rooms to compete against each other.
+
+  The principle of the game is simple:  After having made your bet, the BIZZY
+  game shows you a series of geometric figures. To win your stake twice over,
+  reproduce the sequence of figures in the r ight  order, using the keys sit-
+  uated to the right of the BIZZY screen game.
+
+  To start the Bizzy Game:  After inserting your credit card, start  the game
+  by pressing the square shape on the top row of keys.
+
+  c) The Love Meter:
+
+  The love meter is a  machine that will  test your romantic performance.  It
+  will calculate your capacities while you're on cloud nine.
+
+  The success of your mission  might depend on its verdict.  How can you suc-
+  ceed during this test?
+
+  When  you  find  yourself  on  the  dance floor with the person destined to
+  boogie down with you, look for the  love  meter  on  the  right side of the
+  screen.  To dance, alternate between left and right buttons  as  quickly as
+  possible.  Attempt to reach the top of the meter.
+
+  A graph will show your results..
+
+VI) THE DRAG:
+
+  1) Presentation
+
+  Extracted from an article published in "Life of the Planets" (literal tran-
+  slation)
+
+  The DRAG  is  a vehicle specially designed for the difficult climatic cond-
+  itions on Selenia.  Moreover, it  has never  been exported and is only used
+  on this planet.  The first model (Monopropulsor T1) was constructed in 2171
+  and in spite of the first catastrophic tests, was rapidly adopted by mining
+  companies.  Since then, five  other models followed it.  The last of these,
+  the T4-B8 (biopropulsor), is the most frequently used at present.
+
+  The DRAG does not have a very good  reputation  among Selenian  pilots.  In
+  fact, piloting it is extremely difficult because  of  the  imposing lateral
+  stabilizers.  Fitted  to  combat the immense atmospheric instability.  Some
+  would even go so far as to say that controlling them is like piloting those
+  ancient contraptions, chariots.
+
+  "A flying chariot, is perhaps the best  definition that can be given of the
+  DRAG."
+
+  In  this part of the game, you'll find  yourself  behind  the controls of a
+  flying  machine  named DRAG. In fact, you'll be using a genuine flight sim-
+  ulator.  It  is  shown  in 3D, and  you'll be able to get wherever you like
+  and to see objects in all possible positions.  You  can  thus  fly over the
+  entire planet surveying Terrapolis.
+
+  2) Piloting:
+
+  a) Direction: By  moving  the  mouse  left or right you can change the dir-
+                ection of the DRAG.  The  lateral movements of the mouse con-
+                trol the left and right directions.
+
+  b) Speed: Speed is controlled by pressing left and right buttons separately
+            The left  button  is  to speed up and the right button is to slow
+            down.
+
+  c) Radar: The radar helps  you to find Vrangor's station.  Your drag is the
+            one  always  in the  center  of the radar screen.  The other dots
+            represent:
+
+                           Vrangor's Station : Red Dot
+                           Selenia           : Green Dot
+
+  If you want to go to Vragor's station, move your drag left  or  right, then
+  move forward when the red dot is on top of the radar screen.  When  you see
+  Vragor's  station,  fly  into  it.  You  will  automatically  land  safely.
+
+                You are now inside Vrangor's station!!!!!!!!!!!
+
+VII) THE MOBYTRACK
+  The Mobytrack  is  one of the  numerous  transport methods  to be found  on
+  Terrapolis.  You will  come  across  it when you visit the underground city
+  (it will be your only way of getting around).  It is very simple to use and
+  easy to understand.
+
+  To  get around in the underground, use the mouse and select one of the four
+  directions by pressing the left button of the mouse.
+
+End.

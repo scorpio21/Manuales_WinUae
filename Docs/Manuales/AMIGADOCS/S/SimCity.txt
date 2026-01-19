@@ -1,0 +1,2228 @@
+			     A LADS Production
+			    -------------------
+		            
+			     SimCity Documents
+
+SimCity Amiga Version 1.0
+Hardware required:
+	Amiga 500,1000,2000,or 2500
+	1 meg RAM
+	1 Disk drive
+	Color monitor
+	Halfbright chip recommended, but not required
+	Printer optional
+
+System Software:
+	Workbench 1.3
+	*Simcity will run on Workbench 1.2, but print options will not be
+	available.
+
+Starting Simcity:
+	Boot your Amiga from the SimCity disk (cor! really?)
+	Double click on the Simcity disk icon
+	Double click on the Simcity program icon
+
+	OR
+
+	Boot your Amiga from another Workbench disk
+	Place Simcity Program Disk in a disk drive
+	Double click on the Simcity Disk Icon
+	Double click on the Simcity Program Icon
+
+Hard Disk Installation:
+	Copy the contents of the Simcity Disk to a subdirectory on your
+hard disk. Be sure the Scenario file is in the same subdirectory as the
+Simcity Program.
+	When you start the program from the hard disk, you will be asked
+to insert the original Simcity disk. It will be checked, and the program
+will finish loading. Once the program has been loaded, you may remove the
+floppy.
+
+Credits:
+	Concept & Design: Will Wright
+	Contributions to Design: Jeff Braun, Robert Strobel
+	Amiga Programming: Brian Conrad, Brian Witt
+	Graphic Artwork: Will Wright, Scott Martindale, Don Bayless
+	Sounds:	Will Wright, Steve Hales
+	Documentation: Michael Bremer, Cliff Ellis (& Stryper/LADS)
+	Package & Documentation design: R.Bagel DESIGN, Santa Rosa
+	Package Illustration: Kurt West for R.Bagel DESIGN, Santa Rosa
+
+Replacement of media:
+Simcity is copy-protected(?) Defective media returned ninety days from date
+of purchase will be replaced free of charge. Defective media can be returned
+and replaced at any time after the 90 day period for an extortionate price
+of $7.50 handling charge, $20 for overnight express.
+================================================================================
+			SIM CITY AMIGA COMPLETE DOX
+                  Typed by the DOXTOR August 17-21, 1989 
+			     TABLE OF CONTENTS
+
+I. 	INTRODUCTION						     PAGE
+		Foreword................................................4
+		About System Simulations................................4
+		The Goals of SimCity....................................5
+II. 	GETTING STARTED
+		Simulator Reaction Time.................................7
+		Tutorial - A Walk Through Your City.....................7
+III.	USER REFERENCE.................................................14
+		Menus..................................................14
+		The Editor Window......................................17
+		The Budget Window......................................22
+		The Maps/Graphs Window.................................24
+		The Evaluation Window..................................29
+		Disasters..............................................30
+		Scenarios..............................................31
+		Game Play Level........................................31
+		Growing a City.........................................31
+		User Reference Card....................................33
+		Keyboard Reference Chart...............................34
+IV. 	INSIDE SIMCITY; HOW THE SIMULATOR WORKS........................35
+		Zones..................................................35
+		Population - Residential...............................35
+		External Market - Industrial...........................36
+		Internal Market - Commercial...........................36
+		Tax Rate...............................................36
+		Budgeting..............................................37
+		Power..................................................37
+		Transportation - Traffic...............................38
+		Pollution..............................................38
+		Crime..................................................39
+		Land Value.............................................39
+V. 	THE HISTORY OF CITIES AND CITY PLANNING........................40
+VI.	BIBLIOGRAPHY...................................................50
+								Page 3^
+			I N T R O D U C T I O N
+				FOREWORD
+
+Enter SimCity and take control. Become the undisputed ruler of a 
+sophisticated real-time City Simulation.
+
+Take control of San Francisco 1906, just before the great quake or 
+Tokyo 1957, just before a monster attack.
+
+Show your pioneering spirit.  Start with virgin territory and create 
+a living, growing city.
+
+The quality of life in your city depends on you. Zone land, balance budgets,
+install utilities, manipulate economic markets, control crime, traffic and 
+pollution, and overcome natural disasters.
+
+Your city is populated by Sims--simulated citizens.  
+Like their human counterparts, They build houses, condos, churches, 
+stores and factories. And, also like humans, they complain about things 
+like taxes, mayors, taxes, city planners, and taxes. They let you know 
+if they need more housing, better transportation, an airport or a sports 
+stadium. If they get too unhappy, they move out; if you collect excess taxes, 
+the city deteriorates.
+
+ABOUT SYSTEM SIMULATIONS
+SimCity is the first of a new type of entertainment/education software,
+called SYSTEM SIMULATIONS. We provide you with a set of RULES and TOOLS
+that describe, create and control a system. In the case of SimCity the
+system is a city.
+
+The challenge of playing a SYSTEM SIMULATION game is to figure out how the
+system works and how to take control of it. As master of the system you are
+free to use the TOOLS to create and control an unlimited number of systems
+(in this case cities) within the framework and limits provided by the
+RULES.
+
+In SimCity, the RULES to learn are based on city planning and management,
+including:
+
+Human factors - residential space and amenities, availability of jobs, and
+quality of life;
+
+Economic factors - land value, industrial and commercial space,
+unemployment, internal and external markets, electric power, taxation, and
+funding for city services;
+
+Survival factors - strategies for dealing with disasters, crime, and
+pollution;
+
+Political factors - public opinion, zoning, and keeping residents and
+businesses satisfied with your city and your performance;
+
+The TOOLS provide you with the ability to plan, layout, zone, build,
+bulldoze, rezone, and manage a city.
+								Page 4^
+
+PLAN - Mapping systems give physical and demographic overviews of the
+entire city. 
+LAYOUT - Design living and working areas, road and transit systems, and
+recreational areas.
+ZONE - Set zoning boundaries for parks, residential, commercial and
+industrial areas.
+BULLDOZE - Clear forests for city growth, build landfill along waterways,
+clear and rezone developed areas.
+MANAGE - Usingf the mapping and graphing systems, gather up-to-date
+information on traffic density, population trends, power grid status,
+pollution, crime, land value, police and fire department efficiency, and
+cash flow. Set the tax rate and funding levels for city services.    
+
+But the most important TOOL of all is the Simulator itself. Test your plans
+and ideas as you watch the city grow or shrink through the immigration and
+emigration of industrious Simulated Citizens. Sims will move in and build
+homes, hospitals, churches, stores and factories in the zones you provide,
+or move out in search of jobs or a better life elsewhere. The success of
+the city is based on the quality of the city you design and manage.
+
+				THE GOALS OF SimCity
+There are many goals to be pursued and reached in SimCity.
+
+SCENARIOS
+Each of the eight included Scenarios is actually a game in itself, with an
+unlimited number of ways to win - or lose.
+
+Each Scenario is a city which is either the victim of horrible planning or
+about to become the victim of a natural disaster. After you load in a
+Scenario, you will have a limited amount of time to correct or repair the
+problem. If you are successful you will be given the key to the city. If
+not, you may be ridden out of town on a rail.
+
+If one strategy doesn't work, try another. And another. There are a million
+stories in each city, and you write them.
+
+YOUR DREAM CITY
+Perhaps the main goal of SimCity is for you to design, manage, and maintain
+the city of your dreams.
+
+Your ideal place to live may be a bustling metropolis, lots of people, lots
+of cars, tall buildings; high-energy, high-density living. Or it may be a
+small rural community, or a linked group of small communities providing
+slow paced country living.
+
+As long as your city can provide places for people to live, work, shop and
+play, it will attract residents. And as long as traffic, pollution,
+overcrowding crime or taxes don't drive them away, your city will live.
+								Page 5^
+
+		(A picture of the opening screens is Page 6)
+
+				GETTING STARTED
+
+			    SIMULATION REACTION TIME
+
+The simulator is a very complex multi-tasking piece of software. It is
+continually performing many checks, calculations, and updates, as well as
+keeping a watch on the mouse and keyboard to respond to youe demands. When
+you load in a City, give the simulator a few minutes to compile its data
+and update the maps, graphics, population levels, etc. Some of the other
+times when the simulator lags behind you are: powering zones and updating
+the city services map after installing police and fire stations. 
+
+
+			TUTORIAL - A WALK THROUGH YOUR CITY
+
+Boot your AMIGA, then insert your SimCity disk and double-click the 
+SimCity icon.  
+NOTE: In SimCity, use the LEFT mouse button, unless otherwise noted. The
+RIGHT button is used primarily to activate and select menu items from the
+title bar. The RIGHT button activates the BULLDOZER function while in the
+Editor Window, so don't press it unless you mean it.
+
+After a few seconds, the "Welcome to SimCity" roadsign will appear. It
+displays the following options:START A NEW CITY, LOAD A CITY, and SELECT A
+SCENARIO.
+
+Click START NEW CITY. The Workbench will reappear, and the program will
+continue to load. You will soon see a small notice window that informs you
+that the program is terraforming a new city. A map of undeveloped land will 
+be generated and displayed. You will be given a choice: GENERATE A NEW 
+TERRAIN or USE THIS MAP. Click USE THIS MAP. Click the OK box when you are
+done. You are now given a choice of GAME PLAY LEVEL. Click EASY.You will now 
+be asked to name your city. Go ahead and name it, or accept the default name 
+SOMEWHERE. You are given a choice: GENERATE A NEW TERRAIN or USE THIS MAP.
+Click USE THIS MAP. Click the OK box when you are done.
+								Page 7^
+
+(A picure of the MAPS/GRAPHS WINDOW and the BUDGET WINDOW is Page 8)
+
+You will be shown the MAPS/GRAPHS WINDOW.
+
+On the left side of the window is the map; an overall view of your 
+entire terrain, approximately 10 miles by 10 miles in area. 
+
+The icons below the map are buttons to activate and display views of your 
+city. We'll play with them later.
+
+On the right side of the screen you can view time-based graphs of various
+city data. We'll come back to these later, too.
+
+The rectangle located somewhere on the map indicates the portion 
+of your terrain that will be visible in your EDITOR WINDOW - your main work 
+area. Click and drag the box around the map, choosing the area you wish 
+to work on, then click the "RETURN TO EDITOR" button in the lower
+right-hand corner of the screen to leave the MAPS/GRAPHS WINDOW and go to
+the EDITOR WINDOW to begin building your city.
+
+NOTE:The BUDGET WlNDOW will pop up once a year in city time. When it does,
+just click the GO WITH THESE FIGURES box at the bottom.
+								Page 9^
+								
+		(Page 10 is a picture of the EDITOR WINDOW)
+
+You are now in the EDIT WINDOW, looking at a close-up view of the area 
+box in the MAPS WINDOW. Note the icons on the right. They work just like
+icons in various draw and paint programs. 
+									
+At the top of the EDITOR WINDOW is the Title Bar. This displays the Name of
+the city, the date and your available city funds. There are also the usual
+Amiga gadgets to move the window to the top or bottom of the stack.
+
+Note: You can click and drag the Title Bar to move the Editor Window, but
+the window must be all the way to the top of the screen for terrain
+scrolling to function properly.
+
+Move the mouse pointer to the title bar, and press and hold the RIGHT
+button. This will show you the various menus available in SimCity. Without
+choosing any menu items, slide the mouse pointer across the screen and take
+a look at the available menus.
+
+To scroll the terrain under the EDITOR WINDOW, move the pointer to the top,
+bottom, sides, or corners of the screen. Cursor keys can also be used to
+scroll.
+										
+Your available land is made of three types of territory. The brown areas
+are clear land, the green areas are forests and shrubs, and the blue areas 
+are water. You can build only on clear land. You can clear forest and extend 
+coastlines with your bulldozer. You can run roads, rails and power across 
+water.
+									
+To clear the terrain, click the bulldozer icon. The "pointer" is a small 
+square, outlining the area that will be bulldozed every time you click the 
+mouse.  Move your bulldozer pointer over some forest land and click. The 
+forest section under your pointer is now clear land. Now, hold the button 
+down and move slowly across the forest. Mass destruction. Clear a large area 
+of land to prepare for building.
+
+To begin a city we need three things: places for Sims to live, places for
+Sims to work, and power.
+									
+Click the Residential icon (the house), then move back to your terrain. 
+Your pointer is now a larger square outline. This outline indicates how much 
+clear space you will need to create a residential zone - a place for Sims
+to live. Clicking the left mouse button in clear terrain "zones" the land. 
+The "R" in the center of the zone indicates that it is a residential zone. 
+The flashing lightning symbol indicates that the zone has no power. Place a 
+few more residential zones adjacent to the first one.
+				
+If you have trouble placing a zone, make sure it is on open land. You
+cannot zone on water, trees or over other zones.
+						
+Now decide where to position a power plant in your city. Point to the 
+power plant icon and click the mouse button. 
+								Page 11^
+
+A small menu will appear, giving you the option of choosing a coal or nuclear 
+plant. For now, choose the coal power plant. The outline for the power plant 
+is even larger than for the residential zone. Place the Power Plant in some 
+open space near your residential zones. If your power plant is not directly 
+adjacent to a zone, you will have to run a power line from your power
+plant to the residential zone. 
+
+To do this, click the power line icon. Using your mouse pointer and button, 
+lay power lines from your power plant to your residential zones. Adjacent 
+power line sections will automatically connect themselves to one another. 
+Roadways and transit lines connect in the same manner. In a moment, the 
+flashing symbols will disappear, indicating that your zones have been powered.
+Any zones that are adjacent to a powered zone do not need separate power 
+lines run to them. Soon you will see small houses start to appear. The Sims 
+have started to move in.
+								
+When you zone land, you designate where building is allowed. It is the 
+Sims who actually build.
+										
+Now that you have a few residential zones, you're ready for Commercial 
+and Industrial areas; places for the Sims to work, shop and transact
+business. Select the Commercial Icon (several buildings)and place a few 
+Commercial Zones near your residential ones. Then select the Industrial Icon 
+(the factory) and map out some Industrial Zones. Connect all necessary power 
+lines.
+	
+NOTE: There is a delay between the time you connect power to a zone and the
+time the flashing lightning symbol disappears. This delay gets longer as
+your city gets larger.
+								     
+Notice that as you select different icons, the Icon's description and its 
+associated cost will be displayed in the box just above the Icons. The 
+message bar across the top of the EDIT WINDOW displays your total funds 
+available. If you do not have enough money in your treasury to pay for a 
+certain function, that icon will be "ghosted" on your screen and is 
+unavailable for use.
+
+Now, click the Road icon and add roads from your residential housing to the
+commercial and industrial areas to allow the Sims to commute to work. Roiad
+sections connect themselves like power line sections. Once you have roads, 
+traffic will be generated.
+									
+Now move the mouse pointer to the title bar, press and hold the RIGHT mouse
+button, slide the pointer to the WINDOW MENU, and select the BUDGET WlNDOW. 
+This is where you set the level of funding for your fire, police and trans-
+portation departments. Click the up or down arrows to change the funding 
+level. You can also adjust the current property tax rate. If you have no 
+police or fire departments, you can't fund them. You cannot fund more than
+100%. Click the GO WITH THESE FIGURES box when you are done.
+								Page 12^		
+							
+Now select MAP&GRAPH from the WINDOWS MENU to return to the MAPS/GRAPHS
+WINDOW. By clicking on the icons along the lower left, you can see different 
+demographic views of your city. You will need this information to build and 
+adjust conditions in your city. For example, you can pinpoint the areas with 
+the highest crime to determine locations for new police stations.
+									
+Additional information can be gained by cycling through the available
+Graphs. Unlike the maps, which only show the current state of 
+your city, the graphs give you a record of the past so you can gauge 
+trends and cycles.
+									
+This is all the basic information you need to run SimCity, but we suggest
+reading on. The User Reference explains in detail how to use each program
+function. Inside SimCity explains the inner workings of the simulator and
+gives some hints and tips for using it.  There is also an essay on The 
+History of Cities and City Planning and a Bibliography for serious City 
+Planners.
+								Page 13^
+
+				USER REFERENCE
+				~~~~~~~~~~~~~~
+				    MENUS
+
+SimCity Menus follow the standard Amiga interface. Use the RIGHT mouse
+button to activate and select menu items.
+
+FILE MENU
+								
+ABOUT brings up a screen giving fascinating and vital information about
+SimCity and Maxis.
+
+START NEW CITY generates a new, empty terrain. Clears existing city (if
+any) from memory. You will first be asked if you wish to "GENERATE A NEW
+GROUND MAP AND LOSE THE CURRENT ONE?" and gives the option to go ahead or
+cancel. You will next be given a chance to set the GAME PLAY LEVEL, and
+then name your city.
+
+PICK SCENARIO brings up a menu of available SCENARIOS to load and run.
+
+LOAD CITY brings up the standard Amiga "File Loading Screen", allowing you
+to load a previously saved city.
+									
+SAVE CITY brings up the standard Amiga "File Saving Screen" allowing you to
+save the scenario or city-in-progress for later use. Once you have loaded a 
+secnario, it can be saved and reloaded, like any city, without the impending 
+disaster.
+
+								
+PRlNT ClTY brings up a window giving you the choice of printing out your
+city on a single page, or on a multi-page poster. You may also cancel the
+print function. 
+
+QUIT OUT! ends SimCity.
+												
+EDIT MENU
+UNDO cancels the last operation you performed.
+
+OPTIONS MENU
+The options in this window stay with the simulation, not with the city.  
+
+AUTO BUDGET keeps your budget at the same percentage setings without 
+asking for approval every year.
+
+AUTO BULLDOZER allows you to place zones, roadways, etc., directly 
+on top of trees and shoreline without manually bulldozing first.  
+You will be charged the same as for manual bulldozing.
+									
+AUTO GOTO EVENT automatically transports you to the scene of a disaster or 
+major event.
+								Page 14^									
+
+SOUNDS ON toggles the city sounds on and off. Defaults to the
+"on" position. The simulation runs slightly faster with the sound off.
+
+GAME SPEED brings up a sub-menu allowing you to set the simulation
+speed. FAST sets city time to maximum speed. MEDIUM is the default setting, 
+about three times slower than FAST. SLOW sets the speed about seven times 
+slower than FAST. PAUSED stops time. Zoning and building are possible in 
+paused time.
+
+POWER BOLTS toggle on and off the presence of the flashing power sign in
+unpowered zones.
+
+DISASTERS MENU
+The DISASTERS MENU allows you to set natural disasters loose in your city.
+Use these disasters to test your ability to deal with emergencies in your
+city or just to release some aggression. More information on disasters,
+their causes, and dealing with them is presented later.
+
+	**WARNING** It is a good idea to save your city to disk before you
+	set a disaster loose - just in case.
+
+FIRE starts a fire somewhere within the city limits.
+
+FLOOD causes a flood to occur near the water.
+									
+AlRDISASTER causes a plane to crash. If there are no planes in the air, 
+one will be generated.
+
+TORNADO causes a tornado to appear within the city limits.
+
+EARTHQUAKE causes a MAJOR earthquake.
+
+MONSTER sets a monster loose in your city.
+
+WINDOWS MENU
+
+BUDGET brings up the BUDGET WINDOW.
+
+EVAL brings up the EVALUATION WINDOW.
+
+MAP&GRAPH brings the MAPS/GRAPH WlNDOW.
+
+WORKBENCH allows you to bring up the WORKBENCH WINDOW, or close it to free
+up another 30K of memory for SimCity.
+								Page 15^
+	(Page 16 is a picture of the Editor Window again (same as 10))
+
+			THE EDITOR WINDOW 
+This is where all actual zoning and building takes place.
+
+TERRAIN
+There are three types of terrain in the EDITOR WINDOW.
+
+The brown area is open land, where you can zone and build.
+
+The green areas are trees and forests. You cannot zone or build on green
+areas. You may BULLDOZE trees and forests to turn it into clear land. While
+some bulldozing is necessary, clearing away too much green area will
+result in lower property values.
+
+The blue area is water. You cannot zone or build on water. You must
+bulldoze coastlines to create landfills before you can build or zone there.
+
+Roads and power lines can be laid across water, with no turns or
+intersections.
+
+			EDITOR WINDOW GADGETS									
+
+TITLE BAR displays city name. Clicking and dragging the Title Bar allows 
+you to relocate the EDIT WINDOW.
+
+	NOTE: The EDITOR WINDOW must be all the way to the top of the
+	screen for the scrolling to work properly.									
+
+At the right of the Title Bar are the standard Amiga gadgets for moving
+the window to the top and bottom of the stack. 
+
+Behind the Title Bar is the Menu Bar.
+
+The MESSAGE BAR, located directly below the Title Bar displays status
+messages to you from the simulator and demand messages from the Sims
+themselves.
+
+GOTO BUTTON (the eye) takes you to the scene of a disaster or major event
+mentioned in the Message Bar.
+
+ICONS along the right are for the editing functions.
+
+The ICON TITLE BOX, located just above the Iocns gives the name and cost of
+the selected icon.
+
+EDITOR WINDOW CONTROLS
+
+The MOUSE is used to activate Icons. Moving the Mouse pointer to the sides
+or corners of the screen causes the terrain to scroll below the EDITOR
+WINDOW.
+
+The LEFT mouse button is used to select icons, and place items.
+
+The RIGHT mouse button performs the Bulldozer function, regardless of the
+active icon.  
+								Page 17^
+
+The CURSOR KEYS will also cause scrolling.
+
+Z and X cycle active icons in opposite directions.
+									
+Q - (Query) - Hold down the "Q" key while clicking on parts of your city 
+to bring up a status box identifying the spot (zone, road, terrain, etc.), 
+and giving information on Population Density, Land Value, Crime Rate, 
+Pollution and Growth.
+
+B, R, T and P are shortcut keys. No matter which icon is selected, if you
+Push and hold down the "B" key, you will be in active Bulldozer mode. 
+Release the "B" key to return control to the selected icon. The "R" key 
+activtes Roadbuilding mode in the same way. The "T" key activates Transit 
+line building, and the "P" key puts you in Power line mode.
+
+
+EDITOR WINDOW ICONS
+								
+Active Icons arc highlighted. Ghosted Icons are unavailable due to lack 
+of funds. When an Icon is selected a rectangle will accompany the pointer
+to indicate the size and area of land that will be affected.
+									
+BULLDOZER clears trees and forests, creates landfill along the water, 
+levels developed, existing zones and clears rubble caused by disasters. 
+The Auto-Bulldozer option only works on natural terrain, not developed land.  
+
+	NOTE:Bulldozing the center of a zone will destroy the entire zone.
+
+Bulldozing one section of land costs $1.
+								
+ROADS connect developed ares. lntersections and turns are automatically 
+created. Lay continuous roads by clicking and dragging your pointer.
+Be careful - if you accidentally lay a road in the wrong place you will 
+have to pay for bulldozing and rebuilding. 
+
+Roads may not be placed over zoned areas. They may be placed over trees,
+shrubbery, and shoreline only after bulldozing or activating the
+Auto-Bulldozer. Roads can cross over power lines and transit lines only at 
+right angles. 
+
+Laying roads across water creates a bridge. Bridges can only be built in a 
+straight line - no curves, turns or intersections. Shorelines must be 
+bulldozed prior to building a bridge.
+									
+Roadways are maintained by the transit budget, and wear out if there is 
+a lack of funding. The amount of yearly funding requested by the
+trnsportation department is $1 for each section of road, $4 for each
+section of bridge. 
+
+It costs $10 to lay one section of road and $50 to lay one section of bridge.
+								Page 18^	
+	
+TRANSIT LINES create a railway system for intra-city mass transit.  
+Place tracks in heavily trafficked areas to help alleviate congestion.  
+
+Intersections and turns are created automatically. Lay continuous transit 
+lines by clicking and dragging your pointer. Tracks laid under rivers will 
+appear as dashed lines. These underwater tunnels must be vertical or horizon-
+tal - no turns, curves or intersections.  
+
+Transit lines are maintained by the transit budget. The level of funding 
+affects the efficiency of the system. The amount of yearly funding
+requested by the transportation department is $4 for each section of rail,
+and $10 for each section of tunnel.
+
+It costs $20 per section of track on land, $100 per section under water.
+
+POWER LINES carry power from power planlts to zoned land and between zones. 
+All developed land needs power to function.  
+
+Power lines cannot cross zoned land. They can be built over trees,
+shrubbery, and shoreline only after bulldozing, or activating the
+Auto-Bulldoze function from the Options Window.
+
+Power is conducted through adjacent zones. Unpowered zones display the 
+flashing power symbol. There is a delay between the time you power up a zone 
+and when the flashing symbol disappears. The delay grows longer as the city 
+grows larger.  
+
+Junctions and corners are automatically created. Lay continuous power lines 
+by clicking and dragging your pointer. Power lines across a river must be 
+horizontal or vertical - no turns, curves or intersections. Shorelines must
+be bulldozed before placing power lines. Power lines consume some power due to 
+transmission inefficiencies.  
+
+It costs $5 to lay one piece of power line on land, $25 on water.
+									
+PARKS can be placed on clear land. Parks, like forests and water, raise the 
+land value of surrounding zones. Parks can be bulldozed as fire breaks or 
+reserve space for later mass transit expansion. 
+
+It costs $10 to zone one park.
+									
+RESIDENTIAL ZONES are where the Sims build houses, apartments and community 
+facilities such as schools and churches. 
+
+Residential zones develop into one of four values: slums, lower middle class, 
+upper middle class, and upper class. They can range in population density 
+from single-family homes to high-rise apartments and condominiums. 
+
+Factors influencing residential value and growth are pollution, traffic density, 
+population density, surrounding terrain, roadway access, parks and utilities.  
+								Page 19^
+
+It costs $100 to zone one plot of land as Residential.
+	
+Residential zones are bordered in green to aid in distinguishing them from
+other zones.
+ 								
+COMMERClAL ZONES are used for many things, including retail stores, office 
+buildings, parking garages, and gas stations. 
+There are four values for commercial property and five levels of growth from 
+the small general store to tall skyscrapers. Factors influencing the value 
+and growth of commercial areas include internal markets, pollution, traffic 
+density, residential access, labor supply, airports, crime rates, transit 
+access, and utilities.  
+
+It costs $100 to zone one plot of land as Commercial.
+
+Commercial zones are bordered in blue to aid in distinguishing them from
+other zones.
+										
+INDUSTRIAL ZONES are for heavy manufacturing and industrial services. 
+There are four levels of industrial growth from small pumping stations 
+and warehouses to large factories. 
+
+Factors influencing the growth of industrial areas are external markets, 
+seaports, transit access, residential access, labor supply, and utilities.  
+
+It costs $100 to zone one plot of land as Industrial.
+
+FIRE DEPARTMENTS make surrounding areas less susceptible to fires. 
+When fires do occur, they are put out sooner and do less damage if a 
+station is near. The effectiveness of fire containment depends on the 
+Ievel of fire department funding. 
+
+It costs $500 to build a fire station. Full yearly maintenance of each Fire
+Station is $100.
+									
+POLICE DEPARTMENTS lower the crime rate in the surrounding area. This in 
+turn raises property values. Place these in high-density crime areas as 
+defined by your Crime Rate map. The efficiency of a station depends on 
+the level of police department funding. 
+
+It costs $500 to build a police station. Full yearly maintenance of each
+Police Station is $100. 
+								Page 20^
+
+POWER PLANTS can be coal or nuclear, chosen from a sub-menu provided when 
+you click and hold on the icon. The nuclear plant is more powerful but 
+carries a slight risk of meltdown. The coal plant is less expensive, but 
+less powerful and it pollutes.  
+
+All zoned land needs power to develop and grow. When developed land loses
+power, it will degenerate to barren ground unless power is restored. 
+
+Connecting too many zones to a Power Plant causes brownouts. 
+
+Coal power plants cost $3000 to build, and supply enough electricity for 
+about 50 zones. Nuclear power plants cost $5000 and supply electricity for 
+about 150 zones.
+
+STADIUMS encourage residential growth. The message window will indicate
+when the city wants a stadium. You may build a stadium in your city prior 
+to this request without negative effect. Stadiums indirectly generate a 
+lot of revenue, but create a lot of traffic. Properly maintaining a stad-
+ium requires a good road and transit network. 
+
+It costs $3000 to build a stadium.
+
+AlRPORTS increase the growth potential of your commercial markets. Once a 
+city starts geting large, commercial growth will level off without an airport.
+
+Airports are large and expensive and should not be built unless your city 
+can afford one. Position airports to keep flight paths over water whenever 
+possible lessening the impact of air disasters.  
+
+Once you build an airport you will see airplanes flying above your city to 
+and from the airport. There is also a traffic helicopter which alerts you to 
+heavy traffic areas.
+
+It costs $10,000 to zone land for use as an airport.
+
+SEA PORTS incrcease the potential for industrial growth. They have little 
+effect in a small city, but contribute a lot to industrialization in a 
+large city.								
+
+Sea Ports should be placed on a shoreline. The shoreline must be bulldozed 
+prior to zoning a seaport.  Once the port is operational, you may see ships 
+in the water.  
+
+It costs $5000 to zone land for use as a Sea Port.
+								Page 21^
+
+				THE BUDGET WINDOW
+									
+When your first taxes are collected in a new city, and each year after, 
+the BUDGET WINDOW will appear (unless you select the Auto-Budget function). 
+You will be asked to set the funding levels for the fire, police, and trans-
+portation departments, and to set the property tax rate.
+								
+You can raise and lower budget levels by clicking on the little arrows 
+that correspond to each category. A percentage indicator will display 
+the level of funding that will be maintained if you turn on the Auto-Budget 
+function. You may adjust your tax rate by clicking on the arrows next to the 
+tax rate indicator. Click on "GO WITH THESE FIGURES" to exit the BUDGET WINDOW.
+								Page 22^					
+
+TAX RATE
+The maximum tax rate you can set is 20%.
+
+The miniumu tax rate you can set is 0%.
+
+The optimum tax rate for fast growth is between 5% and 7%.
+
+To slow city growth without actually shrinking set the tax rate to 9%.
+
+The taxes collected from each zone is based on the following formula: Tax =
+Population * Land Value * Tax Rate * a Scaling Constant. The scaling
+constant changes with the difficulty level of the game.
+					  
+The level of yearly funding requested for the fire and police departments is
+$100 per station that you have placed. Until you actually build fire or
+police stations, you cannot fund them. You cannot allocate more than 100%
+of the requested funding for fire and police departments - SimCity police
+officers and fire inspectors are honest and will not accept your bribes.
+
+Allocating less than the requested amount will decrease the effective
+coverage of the police or fire station.
+
+The amount of yearly funding requested for the transportation department is
+$1 for each section of road, $4 for each section of bridge (roads over
+water), $4 for each section of rail, and $10 for each section of tunnel
+(underwater rails). You cannot allocate more than 100% of the requested
+funds.
+
+Transportation maintenance funding slightly below 100% will cause slow,
+minor deterioration of the transit system - an occasional pothole or bad
+track section. Funding between 90 and 75% will cause noticeable damage -
+and rail will be unsafe. Funding below 75% will cause rapid deterioration
+of your transit system.
+
+CASH FLOW
+Cash Flow = Taxes Collected - Total Allocated Funds. It will be a negative
+number if your yearly maintenance costs are greater than your yearly tax
+intake.
+
+A major difference between SimCity and a real city is that SimCity does not
+allow budget deficits. If you don't have the money, you can't spend it. Try
+not to let your city run with a negative cash flow.
+ 									
+An hourglass icon is displayed at the top left of the budget 
+window. It indicates the time remaining to enter the budget information.  
+When the hourglass empties, the budget that is set is accepted. If you 
+need more time, click in the BUDGET WINDOW to reset the hourglass.
+								Page 23^
+			
+			MAPS/GRAPHS WINDOW
+									
+The MAPS/GRAPHS WINDOW supplies the city planner with vital information on
+his city. Click on the "RETURN TO EDITOR" button when you wish to leave the
+MAPS/GRAPHS WINDOW and return to the EDITOR WINDOW.
+
+MAPS
+The left side of the MAP/GRAPH window supplies you with maps showing
+various overviews of your city.
+
+On the map is a red box, indicating the area of the map that will be
+visible in the edit window. The box can be moved around the map by placing
+the pointer where you want the center of the box to be and clicking the
+left mouse button. You can also hold down the buttonb and drag the box
+around the map.
+
+For demographic maps that show density, rate or comparative levels, a Color
+Key will be shown to the left of the map.
+
+You may also notice yellow letters on the map. These are markers to let you
+know where moveable objects are. An "S" marks the location of a ship. An
+"R" marks the location of a railroad train. An "H" marks the location of a
+helicopter. An "A" marks the location of an airplane. An "M" marks the
+location of a Monster, and a "T" marks the location of a Tornado.
+								Page 24^
+
+The ClTY FORM MAP shows the physical shape of your city, demarking
+developed and non-developed areas. Zones are shown in dark grey, roads in
+black, and rails in light grey. Use this map to plan city expansion.
+								
+The POWER GRID MAP shows you the power network of your city. Powered zones
+are shown with a yellow dot in their middle. Unpowered zones have a black
+dot. Power lines on land are shown in black. Power lines over water are
+shown in yellow. Use this map to locate unpowered zones and breaks in the
+power lines. 
+
+The TRANSIT MAP is a road and rail map of the city. Roads are shown in
+grey. Rails are shown in black. Use this view to examine your city's access 
+to specific areas and to plan future expansion of the network.
+
+The ZONES MAP shows and distinguishes all zones and developed areas in the
+city. Residential zones are shown in green. Commercial zones are blue.
+Industrial zones are yellow. Other developed areas, such as Power Plants,
+Airports, and Sea Ports are shown in black.
+ 
+The POPULATION DENSITY MAP displays the average number of people occupying 
+an area each day. Use this map to locate under-utilized areas and
+overpopulated areas.
+								
+The TRAFFIC DENSITY MAP shows the amount of traffic on the roads. Spot traffic 
+problems and determine where new roadways are needed.
+
+The CRIME RATE MAP shows the level and location of crime in your city.
+Crime is calculated from population density land value and proximity of
+police stations.
+									
+The POLLUTION INDEX MAP shows levels of pollution throughout your city. 
+Pollution is generated primarily by industry, traffic, and coal Power
+Plants.
+									
+The LAND VALUE map shows the relative value of land within the city limits.
+Land values are used to establish the amount of revenue generated in taxes.
+										
+The GROWTH RATE MAP shows the most recent growth (positive or negative) of
+your city, and where it is occurring.
+
+The FIRE PROTECTION MAP displays the effective radius of Fire Stations
+based on their location, power, and funding levels.
+
+The POLICE INFLUENCE MAP displays the effective radius of Police Stations
+based on their location, power, and funding level.
+								Page 25^
+
+USING THE MAPS
+The MAP WINDOW should be constantly referred to in all stages of city
+planning, building and managing. 
+
+BEFORE YOU BUILD
+Use the map before beginning a new city to plan:
+	where you want your city center,
+	where you want the high class waterfront residential areas,
+	where you will cross water with bridges, power lines, and tunnels,
+	where to place power plants,
+	where to place large industrial sections away from the residential
+		sections,
+	the general layout of the city.
+
+Printing the map and sketching in your plan with pencil or pen will save a
+lot of bulldozing and re-zoning and rebuilding.
+
+DURING CITY GROWTH
+Use the map to guide your city's growth around forest areas, to preserve
+the trees and improve property values.
+
+Use the transportation map along with the traffic density map to plan
+traffic control and expansion.
+
+Use the city maps to make sure you have the proper ratio of residential to
+commercial to industrial zones.
+
+Use the pollution map to detect problem areas, and disperse the industrial
+zones and/or replace roads with rails.
+
+Printing out the map in various stages of development and doing some
+preliminary expansion planning with pencil can be useful. Printouts can
+also be used for historical records.
+
+DURING CITY MAINTENANCE
+Coal power plants will only supply approximately 50 zones with power and
+nuclear plants will supply about 150. Overloading power plants can cause
+brownouts and blackouts. Use the power grid map to locate zones that have
+lost power.
+
+Use the city services maps to evaluate the effective coverage of your
+police and fire departments.
+
+Use the crime rate map to locate problem areas that need more police
+protection.
+
+Use the pollution map to locate problem areas.
+
+Use the transportation and traffic density maps to determine where to
+replace roads with rails.
+								Page 26^
+
+Use the land value map to locate depressed areas for improvement or
+replacement.
+
+Use the city maps to maintain the proper ratio of residential to commercial
+to industrial zones.
+
+GRAPHS 	
+The right side of the MAPS/GRAPHS WINDOW gives you time-based graphs of 
+various city data. You may view graphs for time periods of either the last
+ten years or the last 120 years by clicking on the "10 YEAR/120 YEAR"
+button.
+									
+The RESIDENTIAL POPULATION graph shows the total population in residential 
+zones.
+									
+The COMMERClAL POPULATlON graph shows the total population in commercial 
+zones.
+										
+The INDUSTRIAL POPULATION graph shows the total population in industrial 
+zones.
+			
+The CRIME RATE chart shows the overall crime rate of the entire city.
+									
+The CASH FLOW graph shows your city's cash flow: money collected in taxes 
+last year minus money it took to maintain your city.
+
+Note: Cash flow has little to do with your current funds, or how much you 
+spend in building (except that city expansion will increase both taxes 
+collected and maintenance costs).
+									
+The line in the center of the Cash Flow graph represents a cash flow of 
+zero. Do not build more infrastructure (roads, rail, police departments, 
+fire stations) than you can support with tax revenues.
+ 
+									
+The POLLUTlON graph shows the overall pollution reading of the entire city.
+
+USING THE GRAPHS
+The Graphs give information on many of the same factors as the Maps, but
+show the information over time. Graphs are for locating trends in city life
+that won't be noticeable in a map. If you look at a map, for example the
+crime rate map, every year, a very slight rise in the crime rate will not
+be noticeable. But on a graph, you would easily locate the upward trend in
+crime because you will be viewing the levels for a number of years at the
+same time.
+
+Residential, commercial and industrial population growth and/or declines
+can be tracked and displayed. If you notice a downward trend in any of
+these, refer to the User Reference Card to locate potential problems and
+solutions.
+
+Crime rate can be displayed, revealing slight but consistent upward or
+downward trends.
+
+Use the cash flow graph to track your city's efficiency as it grows. If
+your maintenance costs are higher than your tax revenues, you will have a
+negative cash flow.
+
+Use the pollution graph to catch rising levels of pollution before they
+reach a problem level.
+								Page 27^
+		
+		(Page 28 is a picture of the Evaluation Window.)
+
+			THE EVALUATION WINDOW
+									
+The EVALUATION WINDOW gives you a performance rating. You can access it 
+through the WINDOWS MENU.
+										
+PUBLIC OPINION is presentcd in poll form, rating your overall job 
+as mayor and listing what the public regards as the city's most pressing 
+problems. You are advised to keep your residents happy or they might 
+migrate away, and you will be left with a "ghost town."
+
+In general, if more than 55% of the populace thinks you are doing a good
+job, then you can feel secure about keeping your job.
+
+If 10% or less of the people think something is a problem, then it's not
+too bad.
+
+These are the problems that citizens complain about, and how to correct
+them:
+
+	TRAFFIC--replace dense sections of roads with rails.
+	CRIME--Build more police departments, or try to raise land values. 
+	POLLUTION--Replace roads with rails, disperse industrial zones.
+	HOUSING--Zone more residences. 	
+	HOUSING COSTS--Zone more residences in low property value areas.
+	FIRES--Build more fire departments.
+	TAXES--Lower taxes (if you can).	
+	UNEMPLOYMENT--Build more industrial and commercial zones. 
+									
+STATISTICS on POPULATION, NET MIGRATION, and ASSESSED VALUE are displayed, 
+along with the city's GAME LEVEL and the OVERALL CITY SCORE. This data is 
+calculated once a year at budget time.
+										
+POPULATION is the number of residents in your city.
+
+The NET MIGRATION statistic provides a rating of the desirability of your
+city. If people are leaving in droves, you know something is rotten in
+SimCity. 
+
+The ASSESSED VALUE is the combined value of all city-owned property:
+roads, rails, power plants, police and fire stations, airports, sea ports,
+parks, etc. Does not include residential, commercial and industrial zones.
+
+The CATEGORIES  are defined by population as follows:
+	VILLAGE			0 to 1,999
+	TOWN			2,000 to 9,999
+	CITY			10,000 to 49,999
+	CAPITAL			50,000 to 99,999
+	METROPOLIS		100,000 to 499,999
+	MEGALOPOLIS		500,000 and above.
+								Page 29^
+
+The OVERALL CITY SCORE is a composite score based on the following factors
+(some positive, some negative):
+
+MAJOR FACTORS--Crime, pollution, housing costs, taxes, traffic,
+unemployment, fire protection, unpowered zones, city growth rate.
+
+MINOR FACTORS--Stadium needed (but not built), sea port needed (but not
+built), airport needed (but not built), road funding, police funding, fire
+department funding, and fires.
+ 										
+A large population is not necessarily a sign of a successful city.
+Population size does not affect the overall city score, since low
+population could indicate a new or growing city.
+
+Since city growth rate does affect the overall city score, a city in which
+growth has been intentionally stopped for environmental or aesthetic
+reasons will have a slightly lower score.
+
+				DISASTERS								
+Disasters will randomly occur as you play SimCity. At higher game levels 
+the disasters will happen more often. Most disasters can be activated from 
+the DlSASTERS MENU.
+									
+FIRES can start anywhere in the city. Fire spreads fairly rapidly through 
+forests and buildings, somewhat slower over roadways. Fire will not cross 
+water or clear land.
+									
+The effectiveness of the fire department (which can be viewed in the
+MAPS/GRAPHS WINDOW) is based on how close it is to the fire, and its funding 
+levels. Fires inside this effective radius will be extinguished automatically.
+If you have no operational fire departments in the area you can try to 
+control the fire yourself. Since fire will not spread across clear 
+terrain, you can build firebreaks with the bulldozer. Just surround the 
+fire with clear areas and it will stop spreading and eventually burn 
+itself out.  
+	Note: You cannot directly bulldoze a fire.
+									
+FLOODING occurs near the water. Floods gradually spread and destroy buildings 
+and utilities. After a while the flood waters recede, leaving behind cleared 
+terrain.
+									
+AIR CRASHES can happen anywhere in the city if an airport is operational.
+This happens whenever aircraft collide with things, such as a tornadoes or 
+another aircraft. When a crash occurs, a fire will start, unless the 
+crash is on water. A good strategy is to locate the airport away from 
+the central city to minimize the fire damage.
+								
+TORNADOES can occur anywhere on the map at any time. Very fast and 
+unpredictable, they can appear and disappear at a moment's notice. 
+Tornadoes destroy everything in their path, and can cause planes, 
+helicopters, trains, and ships to crash.
+									
+EARTHQUAKES are the most devastating disaster. This is a MAJOR earthquake- 
+between 8.0 and 9.0 on the Richter Scale.  It will destroy buildings and 
+start fires. The 
+								Page 30^
+
+initial damage will vary with the severity of the earthquake, and the 
+eventual fire damage depends on your fire control efforts. 
+
+When an Earthquake occurs, you will see the EDITOR window shake 
+for a while. When it stops, you will have to take charge and control the 
+scattered fires. Use the bulldozer to contain the largest fires first and 
+work your way down to the smaller ones.
+									
+MONSTER ATTACKS are provoked by high levels of pollution. A monster 
+destroys everything in its path, starts fires, and causes planes, 
+helicopters, trains, and ships to crash.
+									
+MELTDOWNS are only possible if you are using a nuclear power plant. 
+If a meltdown occurs your nuclear plant will explode into flames.  
+The surrounding area will be unusable for the remainder of the simulation 
+due to radioactive contamination. Meltdowns are not available on the 
+DISASTERS MENU.
+									
+SHIPWRECKS can occur once you have an operating seaport. They can cause 
+fires where the ship crashes into a shore or bridge. Shipwrecks are not 
+available on the DISASTERS MENU.
+
+				SCENARIOS			
+								
+The scenarios provide both real and hypothetical problems for you to deal 
+with in seven famous cities (and one not-so-famous). They present various 
+levels of difficully. Some problems are in the form of disasters which will 
+occur some time after you start. Other problems are more long-term such as 
+crime. 
+
+Your task is to deal with the problem at hand as well as possible 
+under the circumstances. After a certain amount of time the city residents 
+will rate your performance in a special election. If you do very well you 
+may be given the key to the city. However if you do poorly they might just 
+run you out of town. 
+
+	NOTE:To avoid the disaster which is tied to a scenario save 
+	it to disk and reload the city from the saved file.
+
+
+			GAME PLAY LEVEL							
+When you first start a new city you must pick a difficulty level. 
+Once a city is started you cannot change the game level; it remains 
+at your initial setting for the life of the city. The game level setting 
+is displayed in the evaluation window.  
+
+This level - Easy, Medium, or Hard - adjusts the simulation to your current 
+abilities by altering several factors. A harder setting will increase the 
+chance of disasters, make residents more intolerant of taxation, cause 
+maintenance costs to grow, etc.
+
+			GROWING A CITY
+While growing a city, refer often to the USER REFERENCE CARD. It provides
+a chart of city dynamics; how all factors of city life and growth are
+related.
+								Page 31
+
+The main points to keep in mind while growing a city are:
+
+Grow slow. Watch your money.
+
+All zones must be powered to develop.
+
+Roads or rails must provide access to and from each zone for it to fully
+develop.
+
+There is a yearly maintenance cost for each section of road, rail, bridge
+and tunnel. This can add up. Don't build too many roads and rails and
+generate high maintenance costs before your city can generate enough tax
+revenues to support them.
+
+Extra powrer plants and redundant power lines are expensive, but can keep
+zones from losing power during a disaster or emergency or deteriorating.
+
+Rails can carry much more traffic than roads. While building and zoning an
+area that you predict will generate heavy traffic, install rails instead
+of roads in the early stages of development.
+
+If you get a lot of heavy traffic warnings, replace roads with rails. You
+can even build an entirely roadless city.
+
+Grouping zones together, 4 or 5 in a row touching each other, can
+eliminate a lot of power line segments.
+
+Airports, sea ports and stadiums won't help a small city grow--so save
+your money until the city gets larger. The Sims will tell you when they
+need these things.
+
+Place zones, roads, etc. carefully--they cannot be moved, and you will
+have to pay to bulldoze them and rebuild.
+
+As a rule of thumb, the number of residential zones should be
+approximately equal to the sum of commercial and industrial zones. When
+your city is small, you will need more industrial zones than commercial,
+and when your city gets larger, you will need more commercial zones than
+industrial.
+
+Separate the residential areas from the industrial areas.
+
+Proximity to forest, parks, and water increases land value, which
+increases the taxes collected. Don't bulldoze any more forest than you
+must. Also natural shoreline increases property values more than landfill
+shoreline.
+
+Keep in mind that proximity to downtown raises property values. The
+simulator defines the downtown area as the "center of mass of the
+population density." It calculates the average geographical center of the
+population.
+								Page 32^
+
+A bigger, more populous city is not necessarily better. Having a
+self-supporting, profitable city with pleasant surroundings is better than
+a huge city that is always broke and has no forest or shoreline.
+
+Use the various maps and graphics to plan city growth, locate problems,
+and track your progress. Look for areas that need police and fire coverage
+as you go, so you don't have to go back and bulldoze developed zones to
+make room for police and fire stations.
+
+Save your city to disk before trying any major new policy so you can go
+back if your plan doesn't work.
+
+Print out your city in different stages of evolution to track and plan
+growth.
+
+Check the EVALUATION WINDOW often. The Sims will let you know how you are
+doing. Also the statistics can be useful; if your population is shrinking, 
+don't go zoning new areas that may never develop, look for problems in the
+existing zoned areas, and spend your time and money solving them.
+
+			SAVE YOUR CITY TO DISK OFTEN!!!
+
+			THE USER REFERENCE CARD
+Included in the SimCity box is the User Reference Card. (At the end of
+this doc file...)
+
+ZONE EVOLUTION CHART
+On one side of the User Reference Card is the Zone Evolution Chart. It
+shows the various levels of development and decline of residential,
+commercial and industrial zones. The level of development depends on the
+land value and population density.
+
+Use this chart along with the Query function to identify, and gather
+information on, individual zones.
+
+CITY DYNAMICS CHART
+The other side of the card is the City Dynamics Chart. This chart lists
+the factors of city life and growth and shows how they inter-relate. Use
+this chart to guide you in designing your city. It will help you ifnd
+soluitons to the Sims' complaints, and to problems you discover from the
+maps and graphs.   
+								Page 33^
+
+			KEYBOARD REFERENCE CHART
+
+GENERAL KEYBOARD COMMANDS
+
+RIGHT-AMIGA/ B -	Brings up the BUDGET WINDOW
+RIGHT-AMIGA/ E -        Brings up the EVALUATION WINDOW
+RIGHT-AMIGA/ G -	Brings up the MAPS/GRAPHS WINDOW
+RIGHT-AMIGA/ L -	Loads a City
+RIGHT-AMIGA/ P - 	Brings up the PICK SCENARIO MENU.
+RIGHT-AMIGA/ N -	Starts a New City
+RIGHT-AMIGA/ Q -	Activates the UNDO command.
+RIGHT-AMIGA/ S -	Saves a City
+
+SPECIAL EDITOR WINDOW KEYBOARD COMMANDS
+
+X and Z - Cycle through and activate icon functions
+									
+Q - ( Query) - Point to a zone or object in the EDIT WINDOW, hold down "Q" 
+while clicking the left mouse button to bring up information about the zone 
+or object.
+
+B activates the Bulldozer while depressed, overriding active icon. 
+
+R activates Road laying while depressed, overriding active icon.
+
+T activates Transit line laying while depressed, overriding active icon.
+
+P activates Power line laying while depressed, overriding active icon.
+
+CURSOR KEYS scroll the terrain under the EDlT WINDOW.
+
+								Page 34^
+
+
+				INSIDE SimCity
+
+			HOW THE SIMULATOR WORKS AND 
+			  STRATEGIES FOR USING IT
+						
+Many factors influence the chance of your city's prospering or floundering: 
+both internal factors (the structure and efficiency of your city) and 
+external factors (the regional economy, disasters, etc.).
+
+ZONES									
+Your city is divided into three primary zones: residential, commcercial 
+and industrial. These zones symbolize the three basic pillars upon which 
+a city is based: population, industry, and commerce. All three are necessary 
+for your city to grow and thrive.
+										
+RESIDENTIAL ZONES are where the Sims live. Here they build houses, apartments 
+and community facilities such as churches and schools. Sims are the work force 
+for your city's commercial and industrial zones.
+									
+INDUSTRIAL ZONES are used to site warehouses, factories, and other unsightly 
+and polluting structures which have a negative impact on surrounding zones. 
+One of the major goals of planning is to separate these nuisances from the 
+areas where people live. In this simulation, industrial zones represent the 
+"basic" production of your city. Things produced here are sold outside the 
+city to an "external market," bringing money into the city for future growth.
+									
+COMMERClAL ZONES represent the retail stores and services in your city,
+including gas stations, grocery stores, banks, and offices. Commercial 
+areas are mainly dedicated to producing goods and services needed within 
+your city. This is callcd "non-basic" production or production for the 
+"internal market".
+				
+POPULATION-RESIDENTIAL 							
+The major factors controlling residential population are birthrate,
+availability of jobs and housing, unemployment,and quality of life within 
+the city.
+									
+Birthrate as used here is actually a combination of the birthrate (+) 
+and the deathrate (-). Within SimCity there is always a positive birthrate.
+
+Availabilily of jobs (the employment rate) is a ratio of the current 
+commercial and industrial populations to the total residential population. 
+As a rule of thumb, the number of commercial and industrial zones together 
+should roughly equal the number of residential zones.  
+																			
+If there are more jobs in your city than residents, new settlers will 
+be attracted. If the job market declines during a local recession, your 
+people will migrate away in search of jobs.
+								Page 35^							
+																
+Housing for your residents is built in the residential zones. These zones 
+must be powered and connected to the places of employment with a road 
+and/or rail network. The structures built in residential zones are 
+influenced by land value and population density.
+									
+Quality of life is a measure of relative "attractiveness" assigned to 
+different zone locations. It is affected by negative factors such as 
+pollution and crime, and positive factors such as parks and accessibility.
+
+EXTERNAL MARKET - INDUSTRIAL						
+There are thousands of variables that influence your city. All these 
+variables can be influenced by your actions with the exception of one.
+									
+The external market (the economic conditions that exist outside of your 
+cily) is controlled by the simulation-there is nothing you can do to change it.
+ln many ways, this external market is the original source of all city growth. 
+Towns frequently begin as production centers (steel towns, refineries, etc.) 
+that service a demand in the surrounding region. As time passes, the external 
+market grows to reflect the regional growth going on around your city.
+										
+The industry in your city will attempt to grow as the external market grows. 
+For this to happen there must be room for expansion (more industrial zones) 
+and an adequate labor supply (more residential zones).
+
+INTERNAL MARKET-COMMERCIAL						
+The internal market is completely influenced by the conditions within your 
+city. Internal production, created in the commercial zones, represents all 
+the things which are purchased and consumed within the city. Food stores, 
+gas stations, retail slores, financial serviccs, medical care, etc. - all 
+depend on a nearby population to service. Within SimCity, the size of the 
+internal market determines the rate at which commercial zones will prosper. 
+Commercial zones need enough zoned land to build on and an existent, 
+sufficient workforce to employ. The structures built in commercial zones 
+are mainly influenced by land value and population density.
+									
+Commercial zones grow and develop to serve the expanding internal market. 
+Commercial growth will usually be slow at first, when the population is 
+small and needs very little. As your city grows, commercial growth will 
+accelerate and the internal market will become a much larger consumer of 
+your total city production.  This accelerating effect, when the external/
+industrial production is overtaken by the accelerating internal/commercial 
+sector, can turn a sleepy little town of 50,000 into a thriving capital of 
+200,000 in a few short years.
+
+TAX RATE									
+The tax rate you set controls the amounl of income generated by your city. 
+As taxes are collected each year (simulation time), Ihe BUDGET WINDOW will 
+appear, giving you the fiscal details of your city and a chance to adjust 
+rates. The simulation determines the amount of revenue collected by assessing 
+each zone an amount based on its land value, current level of development 
+and the current tax rate.
+								Page 36^									
+
+The tax rate has a global effect on your city's growth rate. If you set it 
+low (O - 4%), growth will be brisk but the city income will be low. If you 
+set it high (10 - 20%), you will collect a lot in the short run but in the 
+long run tax income will decrease along with the population. You must keep 
+tax income high enough to meet city maintenance costs and invest in new 
+development, but low enough not to scare off residents and businesses. A 
+high tax rate is one way to control city growth, should you want to 
+experiment with "growth control" measures.
+
+BUDGETING								
+City budgeting effects the way your city grows. City infrastructure cost 
+is represented by three departments: police, fire, and transportation. You 
+may set the funding levels separately for each.  All three departments will 
+request a certain level of funding each year. You may supply all or part of 
+the requested funds, in the attempt to balance safety needs and budgetary 
+concerns.
+
+POLICE DEPARTMENTS						
+Police stations lower the crime rate within a territory. The effective 
+radius of your police station is related to the amount of funding allocated 
+to the police department. There is a positive correlation between the value 
+of land and proximity to a police station. Police Stations cost $100 per year 
+to fund.
+
+FIRE DEPARTMENTS							
+Fire departments prevent and extinguish fires. The level of funding deter-
+mines the effective radius of a fire department. Fire departments put out 
+fires witnin this radius much sooner than outside it, and decrease the 
+chance that they will start in the first place. Fire Departments cost $100 
+per year to fund.
+
+TRANSPORTATION DEPARTMENT							
+When you build roads and rail systems you are charged for construction and 
+yearly maintenance. The larger your transportation network, the more it will 
+cost for upkeep. If you decide not to or are unable to pay this maintenance 
+cost, roads will slowly deteriorate and become unusable. The maintenance 
+cost for each piece is: Road - $1, Bridge - $4, Rail - $4, Rail tunnel -$10.
+
+POWER									
+Electrical power makes modern cities possible. Efficient and reliable powcr 
+transmission to all zones is the goal of good "power management."
+
+Periodically in the simulation the entire power grid of your city is 
+checked for links to power. If a zone is connected (by other zones or 
+power lines) to a power plant, the zone is considered powered.
+									
+Zones must be powered for development to occur. Many things (such as fires, 
+floods monsters and bulldozers) can knock down power lines and cause 
+blackouts in parts of your city. Development will stop in unpowered 
+zones, and if power is not quickly restored, the zone will decline back 
+to its original state of emptiness. Redundant Power Plants and power 
+connections can make your power grid more reliable, but running more line 
+adds construction costs.
+								Page 37^
+
+TRANSPORTATION - TRAFFIC					
+One of the most most important elements of city structure is the 
+transportation network. It moves Sims and goods throughout your cily. 
+Roads typically occupy as much as 25% - 40% of the land in urban areas. 
+Traffic along these roads indicates which sections of your road system 
+are used the most.
+										
+Traffic levels are simulated by a process known as "Trip Generation." 
+Over time, each populated zone in the city will generate a number of 
+trips, depending on the population. Each generated trip starts at the 
+origin zone, travels down the road/rail network, and if a "proper dest-
+ination" is reached, ends at the destination zone - otherwise, the trip 
+fails. Trip failure indicates inaccessibility of a zone and limits its 
+growth .
+										
+The majority of generated trips represent people commuting to and from 
+work. Additional traffic is generated by residents traveling to shopping,
+recreation, etc. When analyzing traffic, the simulator tests the followinf
+traffic routes:
+
+From: ORIGIN				To: DESTINATION
+Residential zones			Commercial zones and Industrial zones.
+Commercial zones			Residential zones and Industrial zones.
+Industrial zones			Residential zones.
+
+When Sims drive away from an origin zone, they have a limited "trip range"
+in which to find a destination zone. Heavy traffic decreases the trip
+range. If the destination zone is too far away, the trip is unsucessful.
+Repeated unsucessful trips will cause the Sims to move out of the origin
+zone.
+  									
+Each road has a limited capacity for traffic.  When this capacity is 
+exceeded traffic jams will form. Traffic jams drastically lower the 
+capacity of a road, compounding the problem and frustrating drivers.
+Traffic conditions fluctuate quickly, responding to things such as open 
+bridges, sporting events and port activity.  Avoid traffic problems by 	
+providing several routes for the traffic to take, and building rail 
+systems when you can afford to. The traffic helicopter will spot traffic 
+bottlenecks and report them.
+
+A road must be adjacent to a zone for the zone to be connected to the
+traffic pattern. Zones do not conduct traffic the way they conduct power.
+Roads and rails may be used together, as Sims are able to get out of their
+cars and into transit lines, or from transit lines to roads without delay.
+ 
+POLLUTION								
+Pollution levels are tracked in all areas of your city.  This is a 
+general "nuisance level" which includes air and water pollution, noise 
+pollution, toxic wastes, etc. Pollution has a negative impact on the 
+growth of residential areas. 
+
+The primary cause of pollution is industrialized zones. The level of 
+pollution created by an industrial zone increases with its level of growth.
+ 
+Traffic is another cause of pollution.There are limited means of combating 
+the pollution level. Lowering traffic density, limiting industrial development,
+and separating the pollution from the residential areas will help.
+								Page 38^
+
+CRIME									
+Crime rates are influenced by population density, local law enforcement 
+and land values. As population density increases in an area, the number 
+of crimes committed increases. 
+
+Crime will also increase in areas of low land value. The most effective way 
+to deal with high crime rates is to introduce a police station into the area. 
+Based on its level of funding, the police station will reduce the rate of 
+crime in its sphere of influence.  A long-lerm approach to lowering crime 
+is to raise the land value of the area. One way to do this is to demolish 
+and rezone (urban renewal) .
+
+LAND VALUE								
+Land value is one of the most fundamental aspects of urban structure. 
+The land value of an area affects how that area is used. In this simulation 
+the land value of an area is based on terrain, accessibility, crime, 
+pollution, and distance to downtown.
+								
+The farther the residents have to go to work, the lower the land value 
+where they live, due in part to transportation costs. The value of 
+commercial zones depends greatly on accessibility by the populace.
+									
+Land value is also affected by surrounding terrain. If land is closer 
+to water, trees or parks, its value will rise.  Creative placement of 
+zones within the terrain, with little bulldozing, can make good use of 
+this natural advantage.
+								
+Land value and crime rate have a feedback effect on each other. 
+Lower land values cause crime rates to rise.  Higher crime rates 
+cause land values to drop, and can cause "transition areas" near 
+your central city to rapidly decline in value.
+								Page 39^
+
+		HISTORY OF CITIES AND CITY PLANNING
+			by Cliff Ellis
+
+INTRODUCTION
+The building of cities has a long and complex history. Although city planning 
+as an organized profession has existed for less than a century, all cities
+display various degrees of foresight and conscious design in their layout
+and functioning.
+
+Early humans led a nomadic existence, relying on hunting and gathering for
+sustenance. Between 8,000 and 10,000 years ago, systematic cultivation of
+plants and the domestication of animals allowed for more permanent
+settlements. During the fourth millenium B.C., the requirements for the
+"urban revolution" were finally met: the production of a surplus of
+storable food, a system of writing, a more complex social organization, and
+technological advances such as the plough, potter's wheel, loom, and
+metallurgy.
+
+Cities exist for many reasons, and the diversity of urban forms can be
+traced to the complex functions that cities perform. Cities serve as
+centers of storage, trade, and manufacture. The agricultural surplus from
+the surrounding countryside is processed and distributed in cities. Cities
+also grew up around marketplaces, where goods from distant places could be
+exchanged for local products. Throughout history, cities have been founded
+at the intersections of transportation routes, or at points where goods
+must shift from one mode of transportation to another, as at river and
+ocean ports.
+
+Religious elements have been crucial throughout urban history. Ancient
+peoples had sacred places, often associated with cemeteries or shrines,
+around which cities grew. Ancient cities usually had large temple precincts
+with monumental religious buildings. Many medieval cities were built near
+monasteries or cathedrals.
+
+Cities often provided protection in a precarious world. During attacks, the
+rural populace could flee behind city walls, where defense forces assembled
+to repel the enemy. The wall served this purpose for millennia, until the
+invention of heavy artillery rendered walls useless in warfare. With the
+advent of modern aerial warfare, cities have become prime targets for
+destruction rather than safe havens.
+
+Cities serve as centers of government. In particular, the emergence of the
+great nation-states of Europe between 1400 and 1800 led to the creation of
+new capital cities or the investing of existing cities with expanded
+governmental functions.
+
+Washington, D.C., for example, displays the monumental buildings, radial
+street pattern, and large public spaces typical of capital cities.
+
+Cities, with their concentration of talent, mixture of peoples, and
+economic surplus, have provided a fertile ground for the evolution of human
+culture: the arts, scientific research, and technical innovation. They
+serve as centers of communication, where new ideas and information are
+spread to the surrounding territory and to foreign lands.
+								Page 40^
+
+CONSTRAINTS ON CITY FORM
+Cities are physical artifacts inserted into a preexisting natural world,
+and natural constraints must be respected if a settlement is to survive and
+prosper. Cities must conform to the landscape in which they are located,
+although technologies have gradually been developed to reorganize the land
+to suit human purposes. Moderately sloping land provides the best urban
+site, but spectacular effects have been achieved on such hilly sites as San
+Francisco, Rio de Janiero, and Athens.
+
+Climate influences city form. For example, streets have been aligned to
+take advantage of cooling breezes, and arcades designed to shield
+pedestrians from sun and rain. The architecture of individual buildings
+often respects adaptations to temperature, rainfall, snow, wind and other
+climactic characteristics.
+
+Cities must have a healthy water supply, and locations along rivers or
+streams, or near underground watercourses, have always been favored. Many
+large modern cities have outgrown their local water supplies and rely upon
+distant water sources diverted by elaborate systems of pipes and canals.
+
+City location and internal structure have been profoundly influenced by
+natural transportation routes. Cities have often been sited near natural
+harbors, on nagivable rivers, or along land routes determined by regional
+topography.
+
+Finally, cities have had to survive periodic natural disasters such as
+earthquakes, hurricanes, tornados, and floods. The San Francisco earthquake
+of 1906 demonstrated how natural forces can undo decades of human labor in
+a very short time.
+
+ELEMENTS OF URBAN STRUCTURE
+City planners must weave a complex, ever-changing array of elements into a
+working whole: that is the perennial challenge of city planning. The
+physical elements of the city can be divided into three categories:
+networks, buildings, and open spaces. Many alternative arrangements of
+these components have been tried throughout history, but no ideal city form
+has even been agreed upon. Lively debates about the best way to arrange
+urban anatomies continue to rage, and to show no signs of abating.        
+
+
+NETWORKS
+Every modern city contains an amazing array of pathways to carry flows or
+people, goods, water, energy, and information. Transportation networks are
+the largest and most visible of these. Ancient cities relied on streets,
+most of them quite narrow by modern standards, to carry foot traffic and
+carts. The modern city contains a complex hierarchy of transportation
+channels, ranging from ten-lane freeways to sidewalks. In the United
+States, the bulk of trips are carried by the private automobilem with mass
+transit a distant second. American cities display the low-density sprawl
+characteristic of auto-centered urban development. In contrast, many
+European cities have the high densities necessary to support rail transit
+systems.
+								Page 41^
+
+Modern cities rely on complex networks of utilities. When cities were
+small, obtaining pure water and disposing of wastes was not a major
+problem, but cities with large populations and high densities require
+expensive public infrastructure. During the nineteenth century, rapid urban
+growth and industrialization caused overcrowding, pollution, and disease in
+urban areas. After the connection between impure water and disease was
+established, American and European cities began to install adequate sewer
+and water systems. Since the late nineteenth century, cities have also been
+laced with wires and conduits carrying electricity, gas, and communications
+signals.
+
+BUILDINGS
+Buildings are the most visible elements of the city, the features that give
+each city its unique character. Residential structures occupy almost half
+od all urban land, with the building types ranging from scattered
+single-family homes to dense high-rise apartments. Commercial buildings are
+clustered downtown and at various subcenters, with skyscrapers packed into
+the central business district and low-rise structures prevailing elsewhere,
+although tall buildings are becoming more common in the suburbs. Industrial
+buildings come in many forms ranging from large factory complexes in
+industrial districts to small workshops.
+
+City planners engage in a constant search for the proper arrangement of
+these different types of land use, paying particular attention to the
+compatibility of different activities, population densities, traffic
+generation, economic efficiency, social relationships, and the height and
+bulk of buildings.
+
+OPEN SPACES
+Open space is sometimes treated as a leftover, but it contributes greatly
+to the quality of urban life. "Hard" spaces such as plazas, malls, and
+courtyards provide settings for public activities of all kinds. "Soft"
+spaces such as parks, gardens, lawns, and nature preserves provide
+essential relief from harsh urban conditions and serve as space for
+recreational activities. These "amenities" increasingly influence which
+cities will be preceived as desirable places to live.
+
+
+EVOLUTION OF URBAN FORM
+The first true urban settlements appeared around 3,000 B.C. in ancient
+Mesopotamia, Egypt, and the Indus Valley. Ancient cities displayed both
+"organic" and "planned" types of urban form. These societies had elaborate
+religious, political, and military hierarchies. Precincts devoted to the
+activities of the elite were often highly planned and regular in form. In
+contrast, residential areas often grew by a slow process of accretion,
+producing the complex, irregular patterns that we term "organic." Two
+typical features of the ancient city are the wall and the citadel: the wall
+for defense in regions preiodically swept by conquering armies, and the
+citadel - a large, elevated precinct within the city - devoted to religious
+and state functions.
+								Page 42^
+
+The Romans engaged in extensive city-building activities as they consolidated 
+their empire. Rome itself displayed the informal complexity created by
+centuries of organic growth, although particluar temple and public districts
+were highly planned. In contrast, the Roman military and colonial towns
+were laid out in a variation of the grid. Many European cities, including
+London and Paris, sprang from these Roman origins.
+
+We usually associate medieval cities with narrow winding streets converging
+on a market square with a cathedral and a city hall. Many cities of this
+period display this pattern, the product of thousands of incremental
+additions to the urban fabric. However, new towns seeded throughout
+undeveloped regions of Europe were based upon the familiar grid. In either
+case, large encircling walls were built for defense against marauding
+armies; new walls enclosing more land were built as the city expanded and
+outgrew its former container.
+
+During the Renaissance, architects began to systematically study the
+shaping of urban space, as though the city itself were a piece of
+architecture which could be given an aesthetically pleasing and functional
+order. Many of the great public spaces of Rome and other Italian cities
+date from this era. Parts of old cities were rebuilt to create elegant
+squares, long street vistas, and symmetrical building arrangements.
+Responding to advances in firearms during the fifteenth century, new city
+walls were designed with large earthworks to deflect artillery, and star-shaped 
+points to provide defenders with sweeping lines of fire. Spanish colonial
+cities in the New World were built according to rules codified in the Laws
+of the Indies of 1573, specifying an orderly grid of streets with a central
+plaza, defensive wall, and uniform building style.
+
+We associate the baroque city with the emergence of great nation-states
+between 1600 and 1750. Ambitious monarchs constructed new palaces, courts,
+and bureaucratic offices. The grand scale was sought in urban public
+spaces: long avenues, radial street networks, monumental squares, geometric
+parks and gardens. Versailles is a clear expression of this city-building
+model; Washington, D.C. is an example from the United States. Baroque
+principles of urban design were used by Baron Haussmann in his celebrated
+restructuring of Paris between 1853 and 1870. Haussmann carved broad new
+thoroughfares through the tangled web of old Parisian streets, linking
+major subcenters of the city with one another in a pattern which has served
+as a model for many other modernization plans.
+
+Toward the latter half of the eighteenth century, particularly in America,
+the city as a setting for commerce assumed primacy. The buildings of the
+bourgeoisie expanded along with their owners' prosperity: banks, office
+buildings, warehouses, hotels, and small factories. New towns founded
+during this period were conceived as commercial enterprises, and the
+neutral grid was the most effective means to divide land up into parcels
+for sale. The city became a checkerboard on which players speculated on
+shifting land values. No longer would religious, political, and cultural
+imperatives shape urban development; rather, the market would be allowed to
+determine the pattern of urban growth. New York, Philadelphia, and Boston
+around 1820 exemplify the commercial city of this era, with their bustling,
+mixed-use waterfront districts.             
+								Page 43^
+
+TRANSITION TO THE INDUSTRIAL CITY
+Cities have changed more since the Industrial Revolution than in all the
+previous centuries of their existence. New York had a population of about
+313,000 in 1840 but had reached 4,767,000 in 1910. Chicago exploded from
+4,000 to 2,185,000 in the same period. Millions of rural dwellers ni longer
+needed on farms flocked to the cities, where new factories churned out
+products for new markets made accessible by railroads and steamships. In
+the United States, millions of immigrants from Europe swelled the urban
+populations. Increasingly, urban economies were being woven tightly into
+the national and international economies.
+
+Technological innovations poured fortrh, many with profound impacts on
+urban form. Railroad tracks were driven into the heart of the city.
+Internal rail transportation systems greatly expanded the radius of urban
+settlement: horsecars beginning in the 1830s, cable cars in the 1870s, and
+electric trolleys in the 1880s. In the 1880s, the first central power
+plants began providing electrical power to urban areas. The rapid
+communication provided by the telegraph and telephone allowed formerly
+concentrated urban activities to disperse across a wider field.
+
+The industrial city still focused on the city center, which contained both
+the central business district, defined by large office buildings, and
+substantial numbers of factory and warehouse structures. Both trolleys and
+railroad systems converged on the center of the city, which boasted the
+premier entertainment and shopping establishments. The working class lived
+in crowded districts close to the city center, near their places of
+employment.
+
+Early American factories were located outside of major cities along rivers
+which provided water power for machinery. After steam power became widely
+available in the 1830s, factories could be located within the city in
+proximity to port facilities, rail lines, and the urban labor force. Large
+manufacturing zones emerged within the major northeastern and midwestern
+cities such as Pittsburgh, Detroit, and Cleveland. But by the late
+nineteenth century, factory decentralization had already begun, as
+manufacturers sought larger parcels of land away from the congestion of the
+city. Gary, Indiana, for example, was founded in 1906 on the southern shore
+of Lake Michigan by the United States Steel Company.
+
+The increeasing crowding, pollution, and disease in the central city
+produced a growing desire to escape to a healthier environment in the
+suburbs. The upper classes had always been able to retreat to homes in the
+countryside. Beginning in the 1830s, commuter railroadsenabled the middle
+class to commmute in to the city center. Horsecar lines were built in many
+cities between the 1830s and 1880s, allowing the middle class to move out
+from the central cities into more spacious suburbs. Finally, during the
+1890s electric trollrys and elevated rapid transit lines proliferated,
+providing cheap urban transportation for the majority of the population.
+
+The central business district o fthe city underwent a radical transformation
+with the development of the skyscraper between 1870 and 1900. These tall
+buildings were not technically feasible until the invention of the elevator
+and steel-frame construction methods. Skyscrapers reflect the dynamics of
+the real estate market; the tall building
+								Page 44^
+
+extracts the maximum economic value from a parcel of land. These office
+buildings housed the growing numbers of white-collar employees in banking,
+finance, management, and business services, all manifestations of the shift
+from an economy of small firms to one of large corporations.
+
+
+THE FORM OF THE MODERN CITY OIN THE AGE OF THE AUTOMOBILE
+The city of today may be divided into two parts:(1) an inner zone,
+coextensive with the boundaries of the old industrial city, and (2)suburban
+areas, dating from the 1920s, which have been designed for the sutomobile
+from the beginning.
+
+The central business districts of American cities have become centers of
+information processing, finance, and administration rather than manufacturing.
+White-collar amployees in these economic sectors commute in from the
+suburbs on a network of urban freeways built during the 1950s and 60s; this
+"hub-and-wheel" freeway pattern can be observed on many city maps. New
+bridges have spanned rivers and bays, as in New York and San Fransisco,
+linking together formerly separate cities into vast urbanized regions.
+
+Waves of demolition and rebuilding have produced "Manhattanized" downtowns
+across the land. During the 1950s and 60s, urban renewal programs cleared
+away large areas of the old city, releasing the land for new office
+buildings, convention centers, hotels, and sports complexes. Building
+surges have converted the downtowns of American cities into forests of tall
+office buildings. More recently, office functions not requiring a downtown
+location have been moved to huge office parks in the suburbs.
+
+Surrounding the central business area lies a large band of old mixed-use
+and residential buildings which house the urban poor. High crime, low
+income, deteriorating services, inadequate housing, and intractable social
+problems plague these neglected areas of urban America. The manufacturing
+jobs formerly available to inner city residents are no longer there, and
+resources have not been committed to replace them.
+
+These inner city areas have been left behind by a massive migration to the
+suburbs, which began in the late nineteenth century but accelerated in the
+1920s with the spread of the automobile. Freeway building after World War
+II opened up even larger areas of suburban land, which were quickly filled
+by people fleeing central city decline. Today, more people live in suburbs
+than in cities proper. Manufacturers have also moved their production
+facilities to suburban locations which have freeway and rail accessibility.
+
+INdeed, we have reached a new stage of urbanizatin beyond the metropolis.
+Most major cities are no longer focused exclusively on the traditional
+downtown. New subcenters have arisen round the periphery, and these
+subcenters supply most of the daily needs of their adjacent populations.
+The old metropolis has become a multi-centered urban region. In turn, many
+of these urban regiosn have expanded to the point where they have coalesced
+into vast belts of urbanization - what the geographer Jean Gottman termed
+"megalopolis." The prime example is the eastern
+								Page 45^
+
+seaboard of the United States from Boston to Washington. The planner C.A.
+Doxiadis has speculated that similar vast corridors of urbanization will
+appear throughout the world during the next century. Thus far, American
+planners have not had much success in imposing a rational form on this
+process. However, New Town and greenbelt programs in Britain and the
+Scandinavian countries have, to some extent, prevented formless sprawl from
+engulfing the countryside.
+
+
+THE ECONOMICS OF URBAMN AREAS
+Since the 1950s, city planners have increasingly paid attention to the
+economics of urban areas. When many American cities experienced fiscal
+crises during the 1970s, urban financial management assumed even greater
+importance. Today, planners routinely assess the economic consequences of
+all major changes in the form of the city.
+
+Several basic concepts underlie urban and regional economic analysis.
+First, cities cannot grow if their residents simply provide services for
+one another. The city must create products which can be sold to an external
+purchaser, bringing in money which can be reinvested in new production
+facilities and raw materials. This "economic base" of production for
+external markets is crucial. Without it, the economic engine of the city
+grinds to a halt.
+
+Once the economic base is established, an elaborate internal market can
+evolve. This market includes the production of goods and sevrices for
+businesses and residents within the city. Obviously, a large part of the
+city's physical plant is devoted to facilities for these internal
+transactions: retail stores of all kinds, restaurants, local professional
+services, and so on.
+
+Modern cities are increasingly engaged in a competition for economic
+resources such as industrial plants, corporate headquarters, high-technology
+firms, and government facilities. Cities try to lure investment with an
+array of features: low tax rates, improved transportation and utility
+infrastructure, cheap land, and a skilled labor force. Amenities such as
+climate, proximity to recreation, parks, elegant architecture, and cultural
+sctivities influence the location decisions of businesses and individuals.
+Many older cities have had difficulty surviving in this new economic game.
+Abandoned by traditional industries, they are now trying to create a new
+economic base involving growth sectors such as high technology.
+
+Today, cities no longer compete in mere regional or national markets: the
+market is an international one. Multinational firms close plants in Chicago
+or Detroit and build replacements in Asia or Latin America. Foreign
+products dominate whole sectors of the American consumer goods market. Huge
+sums of money shift around the globe in instantaneous electronic
+transactions. Cities must struggle for survival in a volatile environment
+in which the rules are always changing. This makes city planning even more
+challenging than before.
+								Page 46^
+
+
+
+MODERN CITY PLANNING
+Modern city planning can be divided into two distinct but related types of
+planning. Visionary city planning proposes radical changes in the form of
+the city, often in conjunction with sweeping changes in the social and
+economic order. Institutionalized city planning is lodged withing the
+existing structures of government, and modifies urban growth processes in
+moderate, pragmatic ways. It is constrained by the prevailing alignment of
+political and economic forces within the city.
+
+VISIONARY OR UTOPIAN CITY PLANNING
+People have imagined ideal cities for millenia. Plato's Republic was an
+ideal city, although lacking in the spatial detail of later schemes.
+Renaissance architects designed numerous geometric cities, and ever since
+architects have been the chief source of imaginative urban proposals. In
+the twentieth century, Le Corbusier, Frank Lloyd Wright, Paolo Soleri, and
+dozens of other architects have designed cities on paper. Although few have
+been realized in pure form, they have influenced the layout of many new
+towns and urban redevelopment projects.
+
+In his "Contemporary City for Three Million People" of 1922 and "Radiant
+City" of 1935, Le Corbusier advocated a high-density urban alternative,
+with skyscraper office buildings and midrise apartments placed within
+park-like open spaces. Different land uses were located in separate
+districts, forming a rigid geometrical pattern with a sophisticated system
+of superhighways and rail transit.
+
+Frank Lloyd Wright envisioned a decentralized low-density city in keeping
+with his distaste for large cities and belief in frontier individualism.
+The Broadacre City plan of 1935 is a large grid of arterials spread across
+the counrtyside, with most of the internal space devoted to single-family
+homes on large lots. Areas are also carefully set aside for small farms,
+light industry, orchards, recreation areas, and other urbanfacilities. A
+network of superhighways knits the region together, so spatially dispersed
+facilities are actually very close in terms of travel time. In many ways,
+Wright's Broadacre City resembles American suburban and exurban
+developments of the post-WWII period.
+
+Many other utopian plans could be catalogued, but the point is that
+planners and architects have generated a complex array of urban patterns
+from which to draw ideas and inspiration. Most city planners, however, do
+not work on a blank canvas; they can only make incremental changes to an
+urban scene already shaped by a complicated historical process.
+								Page 47^
+
+
+INSTITUTIONALIZED CITY PLANNING
+The form of the city is determined primarily by thousands of private
+decisions to construct buildings, within a framework of public
+infrastructure and regulations administered by city, state, and federal
+governments. City planning actions can have enormous impact on land values.
+From the point of view of land economics, the city is an enormous playing
+field on which thousands of competitors struggle to capture value by
+constructing or trading land or buildings. The goal of city planning is to
+intervene in this game in oeder to protect widely shared public values such
+as health, safety, environmental quality, social equity, and aesthetics.
+
+The roots of American city planning lie in an array of reform efforts of
+the late nineteenth century: the Parks movement, the City Beautiful
+movement, campaigns for housing regulations, the Progressive movement for
+government reform, and efforts to improve public health through the
+provision of sanitary sewers and clean water supplies. The First National
+Conference on City Planning occurred in 1909, the same year as Daniel
+Burnham's famous Plan of Chicago. That date may be used to mark the
+inauguration of the new profession. The early city planners actually came
+from diverse backgrounds such as landscape architecture, architecture,
+engineering, and law, but they shared a common desire to produce a more
+orderly urban pattern.
+
+The zoning of land bacame, and still is, the most potent instrument
+available to American city planners for controlling urban development.
+Zoning is basically the dividing of the city into discrete areas within
+which only certain land uses and types of buildings can be constructed. The
+rationale is that certain activities or building types don't work well;
+factories and homes, for example. Illogical mixtures create nuisances for
+the parties involved and lower land values. After several decades of
+gradual development, land-use zoning received legal approval from the
+Supreme Court in 1926.
+
+Zoning isn't the same as planning: it is a legal tool for the implementation 
+of plans. Zoning should be closely inntegrated with a Master Plan or
+Comprehensive Plan which spells out a logical path for the city's future in
+areas such as land use, transportation, parks and recreation, environmental
+quality, and public works construction. In the early days of zoning this
+was often neglected, but this lack of coordination between zoning and
+planning is less common now.
+
+Two other important elements of existing city planning are subdivision
+regulations and environmental regulations. Subdivision regulations require
+that land being subdivided for development be provided with adequate
+streets, sewers, water, schools, utilities, and various design features.
+The goal is to prevent shabby, deficient developments which produce
+headaches for both their residents and the city. Since the late 1960s,
+environmental regulations have exerted a stronger influence on patterns of
+urban growth by restricting development in floodplains, on unstable slopes,
+on earthquake faults, or near sensitive natural areas. Businesses have been
+forced to reduce smoke emissions and the disposal of wastes have been more
+closely monitored. Overall, the pace of environmental degradation has been
+slowed, but certainly not stopped, and a dismaying backlog of environmental
+hazards remains to be cleaned up. City planners have plenty of work to do
+as we move into the twenty-
+								Page 48^
+
+
+first century.
+
+
+CONCLUSION: GOOD CITY FORM
+What is the good city? We are unlikely to arrive at an unequivocal answer;
+the diversity of human needs and tastes frustrates all attempts to provide
+recipes or instruction manuals for the building of cities. However, we can
+identify the crucial dimensions of city performance, and specify the many
+ways in which cities can achieve success along with these dimensions.
+
+A most useful guide is Kevin Lynch's A THEORY OF GOOD CITY FORM (Cambridge,
+Mass. MIT Press, 1981). Lynch offers five basic dimensions of city
+performance: vitality, sense, fit, access, and control. To these he adds
+two "meta-criteria," efficiency and justice.
+
+For Lynch, a vital city successfully fills the biological needs of its
+inhabitants, and provides a safe environment for their activities. A
+sensible city is organized so that its residents can perceive and
+understand the city's form and function. A city with good fit provides the
+buildings, spaces, and networks required for its residents to pursue their
+projects successfully. An accessible city allows people of all ages and
+backgrounds to gain the activities, resources, services, and information
+that they need. A city with good control is arranged so that its citizens
+can have a say in the management of the spaces in which they work and
+trade.
+
+Finally, an efficient city achieves the goals listed above at the least
+cost, and balances the achievement of the goals with one another. They
+cannot all be maximized at the same time. And a just city distributes
+benefits among its citizens according to some fair standard. Clearly, these
+two meta-criteria raise difficult issues which will continue to spark
+debates for the forseeable future.
+
+These criteria tell aspiring city builders where to aim, while
+acknowledging the diverse ways of achieving good city form. Cities are
+endlessly fascinating because each is unique, the product of decades,
+centuries, or even millennia or historical evolution. As we walk through
+city streets, we walk through time, encountering the city-building legacy
+of past generations. Paris, Venice, Rome, New York, Chicago, San
+Francisco--each has its glories and its failures. In theory, we should be
+able to learn the lessons of history and build cities that our descendants
+will admire and wish to preserve. That remains a constant challenge for all
+who undertake the task of city planning.
+								Page 49^
+
+
+			B I B L I O G R A P H Y
+Boyer, R. and D. Savageau. Places Rated Almanac. Chicago: Rand McNally &
+Co., 1986.
+
+Choay, Francoise. The Modern City: planning in the 19th century. New York:
+George Braziller, 1969.
+
+Clark, David. Urban Geography. Baltimore: The Johns Hopkins University
+Press, 1982.
+
+Clay, Grady. Close-Up, how to read the american city. Chicago: The
+UNiversity of Chicago Press, 1986.
+
+Gallion, A. and S. Eisner. The Urban Pattern. New York: Van Nostrand
+Reinhold Company, 1986.
+
+Greenburg, M., D. Kueckeberg, and C. Michaelson. Local Population and
+Employment Projection Techniques. New Brunswick: Center for Urban Policy
+Researcxh, 1987.
+
+Jacobs, Jane. The Death and Life of Great American Cities. New York:
+Vintage Books, 1961.
+
+Kueckeberg, Donald. Urban Planning Analysis; methods and models. New York:
+John Wiley & Sons, 1974.
+
+Callenbach, Ernest. Ecotopia. Berkeley:Banyan Tree Books, 1975.
+
+Hoskin, Frank P. The Language of Cities. Cambridge: Schenkman Publishing
+Company, Inc., 1972.
+
+Le Corbusier. The City of Tomorrow and Its Planning. New York: Dover
+Publications, Inc, 1987.
+
+Planning (The magazine of the American Planning Association)
+1313 60th St., Chicago IL 60637
+								Page 50^
+
+
+			RELATED READING FOR CHILDREN
+
+FICTION
+Burton, Virginia Lee. The Little House. Boston: Houghton Mifflin, 1942
+(reissued 1969).
+
+Murphy, Shirley, and Murphy, Pat. Mrs. Torrino's Return to the Sun. Shepard
+Books, 1980.
+
+Dr. Seuss. The Lorax. New York: Random House, 1971.
+
+NONFICTION
+Macaulay, David. City: A Story of Roman Planning and Construction. Boston:
+Houghton Mifflin, 1974.
+
+Macaulay, David. Underground. Boston: Houghton Mifflin, 1976.
+
+Barker, Albert. From Settlement to City. New York: Julian Messner, 1978.
+
+Eichner, James A. The First Book of Lacal Government. New York: Franklin
+Watts, 1976.
+
+Rhodes, Dorothy. How to Read a City Map. Chicago: Elk Grove Press, 1967.
+
+Monroe, Roxie. Architects Make Zigzags: Looking at Architecture from A to Z. 
+Washington D.C.: National Trust for Historic Preservation, 1986.
+
+For more information on city planning and related subjects, contact:
+
+American Planning Association
+Planners Bookstore 1313 E. 60th St.
+Chicago IL 60637
+(312)955-9100
+								Page 51^
+
+
+
+
+				SIMCITY USER REFERENCE
+
+
+
+These levels>
+are affected by
+these factors
+(below)
+			A   B   C   D   E   F   G   H   I   J   K
+ 
+Residential Population      +                   +       +       +
+Commercial Population       +                   +       +       +
+Industrial Population       +           +       +       +       +
+Population Density                  +
+Traffic                                 +   +                   -
+Pollution                       -                           -   -
+Crime                           -                               -
+Land Value                  +       -                       +   +
+Trees-Parks                     +
+Water                           +
+Proximity to City Center        +
+Radioactivity                           +
+Tax Rate                    +                       -   -   -   -
+Unemployment                                                +   -
+Stadium                                                     +
+Sea Port                                            +
+Airport                                                 +
+Police Departments      +           -  
+Fire Departments        +
+Roads                   +
+Mass Transit            +
+
+
+A: Maintenance Funding
+B: Taxes Collected
+C: Land Value
+D: Crime
+E: Pollution
+F: Traffic Density
+G: Industrial Population
+H: Commercial Population
+I: Residential Population
+J: Overall City Score
+
++ Positive effect
+- Negative effect
+
+SIMCIY ZONE EVOLUTION
+Zones in SimCtiy evolve and devolve according to many factors, as charted
+above. 
+
+RESIDENTIAL ZONES grow from empty to single family housing, and then on to
+four levels of density and four levels of land value. Residential zones
+can also become churches and hospitals.
+
+COMMERCIAL ZONES gorw from empty "free zones" to five levels of density
+and four levels of land value.
+
+INDUSTRIAL ZONES grow from empty "free zones" to four levels of density
+and two levels of land value.
+
+Included on your SimCity disk is a program called ZONE EVOLUTION. This
+program displays a window containing a chart of the zone evolution in
+SimCity. 
+
+Double Click on the ZONE EVOLUTION Icon before you begin SimCity, and the
+chart will be available in a window during the game.   
+
+          
+
+                    **********************************
+                    THATS ALL FOR THE DOCS -- HAVE FUN 
+                    **********************************
+
+Some Personal Greetings Go To: Puppet Master, The Freelancer, Bigfoot, Warehead
+			      Rokman, Nomad, Blackhawk, The Agnostic, and of
+			      course all Spreadpoint/Defjam/CCS Members!
+Observation by the Doxtor: So this is what the vaunted text scanner of the
+                           Mac is able to do; I spent 35 minutes editing this
+                           file in order to remove the "thc"s that were
+                           supposed to be "the"s, and more. It IS faster than
+                           typing, of course...
+Fixed 6/15/89 by the Doxtor, a persnickety bastard who hates misspelled
+doc files!
+
+Completely re-edited and MUCH new material typed (about 60K!) to make these 
+dox as complete as possible by the Doxtor, 8/17-21/89.
+
+Whew!

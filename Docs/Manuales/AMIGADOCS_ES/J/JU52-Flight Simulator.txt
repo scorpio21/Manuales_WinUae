@@ -1,0 +1,126 @@
+Aquí están todas las teclas y sus funciones en el JU-52 Flight Simulator. Lamentablemente no hay
+Documentos reales para la simulación JU-52 ya que el juego nunca se publicó oficialmente. Puedes encontrar un alemán.
+Texto sobre el juego en la página web de Rainer Bopf: http://www.flightmedia.de.
+
+	
+KeyVectors para JU52 (NoF = la tecla no tiene función)
+;---------
+NoF ;$00 [`]
+UNO ;$01 [1]
+DOS ;$02 [2]
+TRES ;$03 [3]
+CUATRO ;$04 [4]
+CINCO ;$05 [5]
+SEIS ;$06 [6]
+SIETE ;$07 [7]
+OCHO ;$08 [8]
+NUEVE ;$09 [9]
+CERO ;$0a [0]
+up_le ;$0b [ß] = Incr. POTENCIA del motor 1 (A600)
+up_ce ;$0c [ ] = Incr. POTENCIA del motor 2 (A600)
+up_ri;$0d [\] = Incr. POTENCIA del motor 3 (A600)
+NoF ;$0e ficticio
+NoF ;$0f [núm.0]
+RESPUESTA ;$10 [Q] = responder y restablecer una advertencia
+NoF ;$11 [W]
+NoF ;$12 [E]
+TOGGLE_SOUND ;$13 [R]
+JOYCAL ;$14 [T] = CALIBRACIÓN DE VARILLA ANALÓGICA
+NoF ;$15 [A]
+NoF ;$16 [U]
+ENTRADA_ON ;$17 [Yo]
+NoF ;$18 [O]
+start_stop_le ;$19 [P] = (A600)
+start_stop_ce ;$1a [ü] = (A600)
+start_stop_ri ;$1b [+] = (A600)
+NoF; muñeco ficticio de 1 dólar
+down_le ;$1d [num.1] = Disminuir POTENCIA del Ing.1
+down_ce ;$1e [num.2] = Disminuir POTENCIA del Ing.2
+down_ri ;$1f [num.3] = Disminuir POTENCIA del Ing.3  
+NoF ;$20 [A]
+ZOOM_DOWN ;$21 [S] = ALEJAR
+ZOOM_UP ;$22 [D] = ACELERAR
+INCR_FAST ;$23 [F] = Establecer movimiento RÁPIDO (A600)
+NoF ;$24 [G]
+retención_sim ;$25 [H]
+SELECT_CONTR ;$26 [J] = Alternar uso de JOYSTICK
+NoF ;$27 [K]
+NoF ;$28 [L]
+down_le ;$29 [ö] = Decr. POTENCIA del motor 1 (A600)
+down_ce ;$2a [ä] = Decr. POTENCIA del motor 2 (A600)
+down_ri ;$2b [#] = Decr. POTENCIA del motor 3 (A600) 
+NoF ;$2c tonto
+ 
+start/stop_le ;$2d [num.4] = Motor IZQUIERDO	
+start/stop_ce ;$2e [num.5] = Motor CENTRAL		
+start/stop_ri ;$2f [num.6] = Motor DERECHO
+ 
+		!!! PARA ARRANCAR UN MOTOR, PRESIONE LA TECLA HASTA QUE EL MOTOR FUNCIONE SUAVEMENTE.
+ 
+NoF ;$30 [<] ¡NO UTILIZAR, ya que NO está en el Reino Unido!
+NoF ;$31 [A]
+Almohada IOP;$32 [X]
+Techo IOC;$33 [C]
+EstablecerVisibilidad;$34 [V] = ColorState 0-7
+PARQUE_FRENO ;$35 [G]
+day_nite ;$36 [N] = Cambiar DÍA/NOCHE (Entrenamiento)
+Número de dólares;$37 [millones]
+NoF ;$38 [,]
+NoF ;$39 [.]
+NoF ;$3a [-]
+NoF; ficticio de 3.000 millones de dólares
+NoF ;$3c [núm..]
+up_le ;$3d [num.7] = Aumentar POTENCIA del Ing.1
+up_ce ;$3e [num.8] = Aumentar POTENCIA del Ing.2
+up_ri ;$3f [num.9] = Aumentar POTENCIA del Ing.3  
+Frenos ;$40 [ESPACIO] = FRENOS DE AIRE/TIERRA
+AUTO_ILS_FINAL ;$41 [RETROCESO] = AUTOM. finalización de la final de ILS
+NoF ;$42 [TAB] 
+Down_all ;$43 [num.ENTER] = Apagar todos los motores/ver [riALT]
+FULL_ILS_AUTO ;$44 [ENTER] = TOTALMENTE AUTOMÁTICO. ENFOQUE ILS
+Detener;$45 [ESC]
+Reset_AUTO ;$46 [BORRAR] = RESTABLECER todo AUTOM. funciones
+NoF ;$47 ficticio
+NoF ;$48 ficticio
+NoF; chupete de $49
+Flaps_Down ;$4a [núm.-] = Alternativo a F2
+NoF; muñeco ficticio de 4.000 millones de dólares
+Recortar_Abajo ;$4c [ARRIBA]
+Trim_Up ;$4d [ABAJO]
+AddHead ;$4e [DERECHA] = Aumentar el ENCABEZADO deseado
+Subtítulo ;$4f [LEFYT] = Disminuir el TÍTULO deseado
+Flaps_Up ;$50 [F1] = FLAPS ARRIBA 
+Flaps_Down ;$51 [F2] = FLAPS ABAJO
+FR1 ;$52 [F3] = Rango de frecuencia 500-1700 KHz (ADF)
+FR2 ;$53 [F4] = Rango de frecuencia 30-30,3 Mhz 
+FR3 ;$54 [F5] = Rango de frecuencia 108-118 Mhz (VOR/ILS)
+view_le ;$55 [F6] = Mirar hacia la izquierda
+view_fw ;$56 [F7] = Mirar hacia adelante
+view_ri ;$57 [F8] = Mirar a la derecha
+NoF ;$58 [F9]
+NoF ;$59 [F10]
+RESET_FAST ;$5a (núm.[)
+SET_FAST2x ;$5 mil millones (núm.])
+SET_FAST4x ;$5c (núm./)
+Flaps_Up ;$5d (num.*) = Alternativo a F1
+Up_all ;$5e [núm.+]
+Set_Auto_DIR ;$5f [AYUDA] = Establecer CURSO AUTOMÁTICO en
+Toggle_SCENE ;$60 [SHIFT izquierdo] = Mostrar CIUDADES/RÍOS/MARES
+Up_all ;$61 [SHIFT derecha] = SUBIR todos los motores
+NoF ;$62 [TAPÚS]
+Toggle_RWY ;$63 [CTRL] = Cambiar complejidad de RWY
+OBS_Minus ;$64 [ALT izquierda] = Disminuir NAV OBS
+Down_all ;$65 [ri ALT] = Apagar todos los motores
+OBS_Plus ;$66 [AMIGA izquierda] = Incrementar NAV OBS
+HOLD_SPEED ;$67 [Ri AMIGA]
+
+------------------------------------------------------------------------
+
+Ejemplo de una entrada de frecuencia:
+
+[F5] selecciona el rango VHF para VOR/ADF
+[I] Inicializa la entrada de números
+[1][1][0][9][0] Inserta frecuencia, aquí EDDK ILS RWY 14L
+[ENTER] Cierra la entrada de números
+
+-------------------------------------------------------------------------

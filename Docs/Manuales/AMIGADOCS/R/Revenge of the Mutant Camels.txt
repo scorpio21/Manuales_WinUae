@@ -1,0 +1,717 @@
+Greetings, chipheads!
+
+Welcome to the latest Llamasoft shareware release: Revenge of
+the Mutant Camels.  I hope you enjoy it as much as Llamatron.
+It's a different kind of game but I hope you'll like it just
+as much.
+
+Good news for Amiga owners: your version of Revenge is bigger
+and more choclatey than the ST versions! When I did Llamatron,
+the Amiga version came out slower and not quite as polished
+as the ST version.  Amiga Revenge is much better than its ST
+counterpart, partly because the speed gain from using the Blitter
+is much greater where large objects are being moved, and partly
+because, as I promised in the readme on Llamatron, I took extra
+time out to use the Amiga hardware.  For the techie freaks
+amongst you, the main things I did were as follows:
+
+Firstly, both the main character sprites were implemented using
+the Amiga's hardware sprites, which has the double benefit
+of ensuring that your camel and goat always move at 50Hz and
+also taking a big load off the CPU at draw time. Next, the logical
+screen has been made wider than the visible screen, obviating
+the need for horizontal clipping of sprites - more CPU time
+saved.  Collision-detection has been improved which helps
+overall playability, as does the improved frame update rate
+you get as a result of all that CPU time saved.  For the same
+reason you get better firepower - extra bullets onscreen. You
+also get pretty raster horizons and a scroller with bigger
+and more detailed objects.  512K Ami owners don't lose out
+on any smoothness or graphic details on their version - the
+only difference between the 512K and 1M versions is in the
+quality and number of sound samples.
+
+So all you Amites can look down and sneer at those poor ST
+owners and know that your camels are better than their
+camels.  But don't get too cocky - you might meet a TT owner.
+Their version is awesome.
+
+
+Next some information about the release.  We're trying some
+fine tuning of the Shareware procedure, and I'd like to tell
+you how it works this time, and exactly why.
+
+Amiga Revenge exists in 4 versions. One of the pleasures of shareware
+is that as you're not releasing a single disk in large quantities,
+you can do lots of different versions of your game.  Revenge
+comes in the 512K, 1Meg, 512K/NTSC and 1Meg/NTSC flavours. We
+ask that libraries, networks and whoever distribute only the
+512K version.  That way, we can offer (as an incentive to register)
+special versions for specific machines.  You see, we can't always
+provide two different games for the registration fee - I'm the
+only programmer and I'm already working flat out - but we like to
+offer some benefit to those who register.  So, if the 512K version
+is widely distributed, people will be inclined to register to
+get a version for their machine.  We're not going to any lengths to
+enforce this; in the shareware tradition we'll leave that up to
+the honesty of libraries and networks.  We thank you for your
+co-operation.
+
+The deal this time is as follows:  If you register Revenge you
+can ask for any of the following titles:
+
+ Revenge (512 version)
+ Revenge (1Meg version)
+ Revenge (512/NTSC version)
+ Revenge (1Meg/NTSC version)
+ Llamatron
+ Gridrunner
+
+or, you can get a special deal and have the Amiga version of
+Trip-A-Tron for ten pounds (five pounds off the usual price).
+
+Please state clearly that you want an Amiga version.  We will also
+provide you with one of our classic Llamasoft posters from the
+pre-Software Empire days, featuring artwork by Steinar Lund,
+an awesome dude with an airbrush who vanished out of our price
+range awhile back.
+
+You can register via conventional means or by credit card (Visa,
+Master Card/Access) which is handy for those registering from
+overseas.  We can be reached by phone on (UK) 0734-81-4478, our
+address is 49, Mount Pleasant, Tadley, Hants RG26 6BN (UK).
+
+Please help us by spreading the 512K version along with this
+README file, and forbear from distributing the other versions.
+
+
+Now.
+
+I'm going to include a bit from the Llamatron doc file here.
+It's the bit where the whole Shareware idea is explained. A lot
+of you will have read it before and you can skip on to the
+Revenge-specific bit after.  Those who haven't, take the time
+to read the explanation. You may think that we're crazy to give
+away complete games for no money.  Read the explanation and find
+out exactly why we've adopted the Shareware procedure.
+
+
+SHAREWARE:  WHAT, HOW, WHY....
+
+All commercial games are designed for a theoretical entity known as Darren.
+Darren is a spotty 14-year-old male who doesn't get on that well with
+people, so he spends all his time in his bedroom playing games on his
+computer. Darren is easily impressed by graphics and music, and he
+doesn't really want to learn anything really tricky - as long as it
+has Ninja Hampsters in and works with a Kempston, that's OK. Somehow
+he can persuade his Dad to fork out 25 quid once every few weeks for
+the latest version of R-Type with different graphics on his Amiga,
+don't ask me how. Either that or he waits and hits up his mate Wayne for
+a pirate version in a couple of weeks' time.
+
+Consequently, it has become much harder for programmers to retain 
+their creative integrity and earn a living too.  It is virtually impossible
+for a small independant developer to get games out to the people
+without first hooking in to one of the larger companies for distribution
+and advertising, and those larger companies tend to want stuff that's
+very normal, spaceship-and-alien stuff, no llamas please and not too
+weird.
+
+However, with popular disk-based machines, the idea of Public Domain
+programs has really come into its own. PD libraries give access to
+a large amount of free software.  PD is usually sub-commercial stuff,
+often good utilities but without the 'polish' of commercial
+versions.
+
+It would be nice to use the existing PD libraries to distribute software
+to anyone who is interested, and make a bit of money too - and that
+is where Shareware comes in.
+
+The principle of Shareware is simple. The game is distributed by the
+PD libraries, by uploading onto BBSes and giving copies away. Users can
+get a complete version of the game just for the price of the media,
+and then take it home and play it. If the user likes the game, he
+sends the author a Shareware fee.  Usually, the author will send
+back a few goodies (as an incentive to register) and, if enough people
+send in the dosh to make it worthwhile, he may do more Shareware stuff.
+
+Naturally you don't have to pay anything if you don't like the game.
+Of course a lot of people might like the game and decide not to pay,
+but if too many people do that then nobody will ever bother doing any
+decent Shareware at all, and it's back to Darren's 25 quid games.
+So, it's down to the users - if they're honest, then programmers will
+be more inclined to work hard on Shareware releases.
+
+The idea of Shareware is very idealistic, perhaps impracticably so,
+but the advantages over the conventional videogame market are so
+enormous that I thought it had to be tried, at least once.  The response
+from this experiment will determine whether or not Llamasoft release
+any more shareware.
+
+Advantages of Shareware:
+
+1- It is a totally honest way of selling. All users can try the game
+and only those who get hooked are morally obliged to pay the fee.
+Nobody is disappointed or feels ripped-off.
+
+2- There are no constraints on creativity. No-one says 'we cannot
+publish this because it ain't mainstream'. Programmers do what the
+hell they like and the users vote with their Shareware fees.
+
+3- Anyone can play. The mechanism of distribution is already in
+place in the form of PD libraries. All the originator has to provide
+is a disk to each of the PD libraries with game and documentation.
+So if you have good stuff it doesn't matter if you aren't signed to
+a major label - if it's good, it'll get passed around the PD scene;
+if it's bad nobody will bother with it.  The author could be working
+for a company or coding in his bedroom; the potential for distribution
+is the same. Forget spending thousands on adverts trying to convince
+people to spend lots of money on a game they haven't even played
+yet...
+
+4- The concept of piracy becomes null. All that business of hacking
+and cracking doesn't apply to software which is both free and
+unprotected.  Shareware authors WANT their software to be spread
+and copied. If it gets onto a BB in America and spreads all over
+the US, well and groovy! Good Shareware exports itself!
+
+5- Prices can be way low. Since the authors have no overheads in
+terms of production and advertising, they don't need to ask as
+much in payment.  And the users pay the programmers directly - 
+nobody else takes a cut. 100% of five pounds is better than 5% of
+twenty pounds.
+
+
+The advantages of Shareware as a democratic, honest way of
+publishing software are pretty obvious, but it does have to go
+both ways. If a programmer puts a lot of time and effort into his
+code and releases it as Shareware, he's trusting you, the users, to
+be honest and pay him if you like his program.  If you all just
+skive off and take the stuff for free, he won't bother to do any
+more stuff.  If you support the author, he'll be inclined to do
+much better next time - and you'll be the ones to benefit!
+
+
+
+
+
+REVENGE!
+
+OK, enough serious stuff.  Now I'm gonna tell you all about the
+game, all the different versions, and then just get mellow and
+chat about all the stuff that's happening with this ol' beast.
+
+First, here are the incarnations of Revenge with detailed
+descriptions.
+
+REVENGE (512K):  This is the basic release version. It
+provides a complete game of Revenge, 42 levels of weirdness.
+
+REVENGE (1Meg): Better sound effects; more samples and lots
+of weird beastie noises.  
+
+REVENGE (NTSC versions):  These are as above, but use the smaller
+200-line display, so that users on the other side of a very
+large stretch of ocean indeed don't lose the bottom 56 lines of
+their display and become able to see only the camel's head and
+the tip of its hump.  In all other respects the versions are the
+same as their PAL equivalents.
+
+
+ABOUT THE GAME:
+
+Revenge isn't quite as flat-out manic as Llamatron. You may or
+may not be relieved to hear that.  Revenge has the same gameplay
+modes as Llamatron: Solo, Droid (called CPU ASSIST in Revenge)
+and Two-Player.
+
+The gameplay is as follows:  You are a rather threadbare-looking
+camel.  If you are playing CPU Assist or Two-Player, you are
+accompanied by a large shaggy goatcreature called an Ancipital,
+which stalked C64 screens long before Psygnosis ever did Shadow
+of the Beast.  You are the Good Guys.  Your mission is simple:
+stay alive through 42 zones of 7km each.  These zones are populated
+by rampant telephone kiosks, skiing kangaroos, butch Greenham
+Common Peace Women, manic Minters, flying sheep and all the
+usual nonsense.  These are the Bad Guys.  They try to kill you
+off and you, naturally and in keeping with the traditionally
+calm, rational and thoughtful nature of videogames, get to waste
+them with lots of spectacularly destructive weaponry.
+
+SPECIFIC DETAILS:
+
+To run Revenge, type REVENGE at the CLI prompt and press return.
+The game will load and display the title screen appropriate to the
+version, along with some information about registering to prod
+the consciences of anyone who keeps playing the game and hasn't
+paid yet.  Pressing FIRE gets past this screen and you'll find
+the game in auto-demo.
+
+(512K, twin drive users:  You may get a load failure if you try
+and run Revenge with the second drive attached [the OS takes more
+memory for the second drive, which can knacker the loader].  This
+doesn't happen on my Ami but it does on me dad's, so if you get
+hassle unplug that second drive, reboot and load)
+
+You might like to eyeball the demo a while; it will demonstrate
+the first twenty levels, but to see the rest you have to play!
+You can interrupt the demo at any time by pressing the fire
+button of the joystick you no doubt have already connected to
+your other (non-mouse) port (provided you didn't break it playing
+Llamatron).
+
+Pressing FIRE to interrupt the demo brings up a menu screen.
+Menu screens are all the same in operation, there are always
+three options.  You select which option you want with the stick
+and bop the FIRE button on your selection.
+
+The first three options are:
+
+MORE OPTIONS (leads you to the system options menu)
+PLAY REVENGE (leads you to Game Start)
+RESUME ATTRACT MODE (resumes the demo)
+
+The default is Play Revenge.  Pressing this yields the Game Start
+menu:
+
+RESTART: Allows you to start the game at a Restart Point
+PLAY: Start game
+QUIT: Not play after all
+
+Selecting Restart brings up a text-entry screen where you must
+enter a valid Restart Code (more on these later).  Selecting
+PLAY brings up a final menu from which you select Solo, CPU Assisi
+or Team play to begin the game.
+
+Under the More Options menu are selections allowing you to change
+the sound FX phasing, set the intensity of stroboscopic effects in the
+game, and view the high score table.
+  
+
+We recommend that you play your first few games with CPU Assist
+controlling the goat.  As you get more skilful, I recommend Solo.
+
+CONTROLS:
+
+Your camel is controlled with a joystick thusly: Left and Right
+do pretty much what you'd expect, Up causes the camel to leap into
+the air and Down causes the beast to lie down on the ground. Being
+a camel, the animal spits continuously, and being a Mutant Camel,
+what it spits is a variety of lethal bullets.  The camel fires in
+the direction the joystick is pointing.  If you hold down the
+FIRE button, the camel will not jump or sit down, enabling you to
+aim shots directly overhead whilst remaining on the ground.
+
+If you are playing with the CPU Assist goat, you can use it in
+conjunction with your camel. Normally the goat runs around aiming
+and firing at enemies independantly.  If you get alongside the
+goat (or ahead of it; it will run to you) and sit down, the goat
+will mount your hump.  Once there you can carry it around and it
+acts as a 'smart' gun turret, aiming at enemy targets, and as a
+shield, protecting your hump from being hit.  The goat will stay
+on your hump until you die or until you sit down again, which causes
+the creature to leap off.  (It is possible for the camel to pick up
+Player Two on the team game, but Player Two can leap off).
+
+At the beginning of each wave there is a period of time during which the
+goat will come to your side, enabling you to get the beast securely
+mounted before the level begins.
+
+Each level takes place over a set distance. That distance is
+denoted onscreen by a Start Post, six 'Kilometre Posts' and
+an End Post which scroll by on the ground.  The attack begins only
+once the camel passes the Start Post, and ceases immediately
+it passes the End Post.  Between levels you receive a Shield
+Bonus for remaining shield left, and an Energy Boost which
+increases your shield strength, but never by as much as you'd like.
+The Shield Energy indicator is the camel's face on the right-hand
+side of the status bar.  As your shields get damaged a big red 'X'
+gets drawn through the face.  When the 'X' is complete it's
+MacMutant Camelburgers all round at Cairo Macdonald's.
+
+Every five levels, you get to a Restart Oasis, where you get to
+see a silly animation of the camel getting refuelled, and you
+are given a Restart Code.  Make a note of the Code, as you can use
+it to restart a game from that point whenever you play Revenge.
+Use the 'From a Restart Point' option on the game start menu.
+
+[UPDATE: One criticism we've had from ST users is that in the font
+used D's and O's look too similar, and that the restart code disappears
+from the screen too quickly.  Yakly advice: keep a biro by the
+machine, remember that if you don;t press FIRE during the oasis
+scene you've got about fifteen seconds, and D's are bevelled at
+the top whereas O's are square]
+
+Now, on to the goodies: Powerups and Weapons.  As you play the 
+game, you'll notice that some of the enemies, when shot in a
+particular way, will yield clouds of tiny bonuses which float
+up the screen.  This is an excellent thing, because you score
+the bonuses AND you get an increased chance of getting a powerup.
+Powerup icons are square and drift down from the top of the
+screen.  You claim a powerup by touching it with your beast.
+
+The powerups are as follows:
+
+'P' - Power-up current weapon by one level.  (Weapons have four
+levels each of powerup - current level shown next to shield
+gauge - power runs down with time).
+
+APPLE: Add small amount to shield (12 apples=full shield)
+
+WEAPONS: Four powerups, each with a small blue icon inside
+representing the weapon type.  When power runs out, weapon
+reverts to the default small blue bullets.
+
+NIKE TRAINER: Doubles the scroll speed and therefore halves
+the time taken to reach the end of a level.  Useful on tricky
+levels.
+
+CAMEL: Gives an extra life.
+
+SMART BOMB: Kills or damages everything on screen.
+
+HALO: Makes you invincible for about 20 seconds.
+
+CUP OF TEA: Like a smart bomb, only more so.
+
+'W': Warp directly to next restart point.
+
+
+The goat can also collect all these powerups; so you can both have
+different weapons going at the same time, which can be most
+useful!
+
+
+That's the good news.  The bad news is this: every time you or the
+goat get hit, there is a chance of an Anti-Powerup being released.
+They look like your usual powerups (coz they're handled by the
+same routine) BUT they always have some RED in the border of
+the icons.  Do not collect these icons. They do you bad.
+
+POWER DOWN (looks like a backwards 'P'): Power down current
+weapon by one level.
+
+CIGARETTE: Makes your animal have a ciggie. Control becomes slow,
+erratic and jerky until the ciggie is smoked.
+
+CONFUZER: (two arrows <- -> with a warning triangle underneath)
+Nasty one this. In solo and CPU assist, it causes the left/right
+joystick commands to become inverted for about ten seconds. In
+two player mode, the players find themselves controlling each
+other's beasts!  Confuzed beasties have a green question mark
+over their heads until it wears off.
+
+SKULL: No mistaking this icon; it's red and baleful.  Instant
+dead camel unless you've got a halo.  CPU-Goat can eat this with
+impunity, but Player 2 in Team Mode is mortal.
+
+
+
+KEYBOARD CONTROLS: During a level you can press 'x' to quit back
+to the menu at any time; 'p' pauses the game and 'o' resumes play.
+
+Should you complete all 42 levels, you will get to the Red-Hot
+Zone where it all happens again but harder.  If you get through
+THAT you get to the White-Hot Zone, and Ghodhelpyou if you get
+there!
+
+
+
+Okay, I've told you what everything does in the game. Now some
+hints on how to play.
+
+
+HOW NOT TO GET THE HUMP PLAYING REVENGE OF THE MUTANT CAMELS:
+
+1: MILK THE BONUSES.  You can play Revenge just to survive
+but you won't get a huge amount of points or powerups that
+way.  The game is set up to reward the skilful player with
+riches and bonuses once that player knows what to shoot and
+when.  For example, on level 1 you can just shoot the birds
+once and they fall down dead.  But if you keep shooting them
+as they fall, they yield lots of bonuses.  So you get your
+beastie on your hump, go directly underneath and fire straight
+up at them, keeping firing as they fall down onto you, and you'll
+get loads of points and loads of powerups.
+
+2: LOOK FOR SWEET SPOTS.  Some levels have a particular place
+a prudent camel can stand and not get hit (much).  Maybe you
+have to send the goatie on ahead of you. Maybe it's better on
+your hump. Study each wave and formulate a strategy.
+
+3: HAVE A CIGGIE!  Because of the way ciggies slow down your
+camel, if you get one just as you start to jump you will stay
+in the air a lot longer than you usually would.  This can be a
+Good Thing if there's a lot of nasty stuff at ground level.
+
+4: ADVANTAGES OF DIFFERENT WEAPONS.
+
+ROUND BLUE BULLETS (default): Good all-round weapon; can be
+aimed in any direction.
+
+LASER: Can only be aimed left and right, but inflict more
+damage than RBBs, especially when powered-up.  Excellent for
+some enemies, but a bitch to be stuck with when you really
+need to be able to fire up.
+
+COMB BULLETS: Can be aimed in any direction except straight
+up or straight down.  Feeble in their lowest-power state, but
+with successive powerups they expand into lovely screen-filling
+swathes.
+
+OVAL SINEWAVE BULLETS: Can be aimed any direction except straight
+left and right.  Very slow on low power, these bullets are still
+devastating because they are not stopped by the enemies.  They do
+a huge amount of damage and release a lot of powerups.  Get them
+powered-up for best ease of use, and despite their strength they're
+not appropriate to every situation.
+
+5: CHOOSE YOUR GRAVESITE.  If you know you're gonna die and you're
+on a heinous wave, make sure you die as close to the right-hand
+side of the screen as possible.  Your new camel won't be released
+into the fray until your tombstone has exited on the left, and
+by the time it does appear you'll be that much closer to the end
+of the wave.
+
+6: SNIPPETS.  You can herd kiosks but eventually you have to jump
+them. Exploding sheep are best viewed from high above. Coke cans
+and Atari logos are absolutely lethal.  10p bits do more damage
+than falling receivers. Chips only disgorge bitstreams if you
+hassle them.  Beware the pink laserbase in Space Invaders. When
+the vicar invites you to tea, herd the mugs vertically.
+
+
+
+
+REVENGE: HISTORICAL NOTES.
+
+The original Revenge was written in autumn 1983 on the C-64, just
+before I had my first ever skiing holiday. It was part of a
+sequence of games comprising Attack of the Mutant Camels (implemented
+on the C64 and 8-bit Atari), Revenge (C-64) and Return of the
+Mutant Camels (C-64).  This latter game was Yak's last C64 game,
+and some of you may have been unfortunate enough to encounter
+Mastertronic's Amiga and ST versions of that last game released as
+Revenge II.  Those versions were a travesty of the original
+Commodore game. Mastertronic used five programmers and took as
+many months to produce an absolute dog of a conversion. They'd
+changed a lot of the levels and relentlessly eradicated every
+ounce of playability Yak built into the Commodore original. If
+you ever see the Mastertronic version anywhere, don't buy it
+because it is dreadful.  They never even showed me a copy before
+they released it - I had to buy it from a shop in Basingstoke -
+and it's awful.  There is only one true 16-bit Revenge, and this
+is it.
+
+The names of the 42 levels, and the overall themes, are the same
+as those in the original Commodore game.  Those of you who played
+the old game will be better prepared to handle the enemies as they
+behave in a manner similar to their Commodore counterparts (sometimes).
+Of course the original game had no goat, no powerups, no restart
+points, no team mode and only one bullet on the screen at once, so
+don't expect it to be exactly the same as you remember!
+
+
+
+
+WHAT'S HAPPENIN'...
+
+It's definitely long afghan weather down here in the nether
+regions of Wales; damp sheep and mud everywhere. Good time of
+year for sitting around all day in front of the assembler with
+some loud music on and getting down to it.  I've been working
+on two things at once just recently, which is bearable but a
+bit frustrating sometimes.  I work maybe a week on each project
+and then change over, which is OK but what happens is that just
+as you get well into flow on one thing, you have to stop and change
+over to the other.  It's a bit like having to stop in the middle of
+having a pee. Takes you a day or two to get momentum back when you
+change over.
+
+The two things have been: this game and the fifth-generation
+lightsynth system I'm working on. Not prepared to release a lot of
+details just yet, suffice to say we're already a million miles
+beyond Trip-A-Tron and no sign of slowing down yet.  Back to some
+seriously obsessive coding and a head full of lightsynth all day...
+...well, who needs a social life anyway?
+
+
+(Addendum - looks like I'm just about to score a nice hefty Amiga
+(9Megabytes, 40M hard drive) off a guy who has moved on to bigger
+and better things (80486 40MHz type things) - I can live with the
+Amiga OS running off a hard drive.  Maybe it won't be such a pain
+working on the Amiga this time around!)
+
+[Addendum to addendum: Unfortunately this deal never happened.
+Turned out the guy who offered me this deal was full of the
+excrement of male bovines and was not exactly being honest
+with me.  Visions of the Amiga OS on hard disk, hassle-free
+CLI-usage, no disk-swapping, and huge ray-trace anims to use
+with our lightsynth sadly fade and die.  Back to th' A500...]
+
+
+We're still having a good response from the two versions of Llamatron
+out there, which by now appears to have gone totally global. We
+have had registrations from all over the planet - including our
+first from Moscow the other day!  The Amiga version of 'Tron
+generated less of a response than the ST version despite an initial
+release of more copies.  Draw your own conclusion about the respective
+proportion of Darrens in the Amiga/ST user bases...
+
+[Yeah! C'mon you Amiga dudes!!]
+
+We just snuck onto the last coverdisk of NCE before it folded, with
+our Shareware release of Colourspace.  This is doing quite nicely,
+generating both registrations and orders for Trip-A-Tron from those
+who really take to the lightsynth idea.  This is what we had hoped;
+the lightsynth has always been hard to describe in adverts, so what
+better way to stimulate Trip-awareness than by using 'Space to
+advertise the concept? 
+
+So what's next?  Well, the lightsynth work has a ways to go yet;
+the hardware's being built around me and as more comes online
+there's more to do. We got enough together that we've been doing
+a few gigs already. I've the Amiga version as mentioned above,
+should take me a month at the outside. Then, skiing!!!!!! and just
+MAYBE when I get back I'll get my hands on Jaguar, the new Atari
+beastie.  I'm looking forward to getting into some serious 50Hz
+grooviness on this new machine.  Atari reckon it's piles better
+than the Panther, which wasn't exactly bad in the first place. 
+I don't know any intimate tech details just yet but what I
+do know is enough to know that technically at least it'll nuke
+Famicom.  As I've said before they need the software to match.
+Good software sells systems.  A couple of weekends ago I had five
+guys staying here the weekend. We all played a lot of F-Zero (the
+awesome driving game on the Famicom) and two of those guys went away
+intending to order their own Famicom systems ASAP just so they could
+play F-Zero. Atari get five, 10 games like that on the Jag and they
+could have Nintendo.  Here's hoping...
+
+A warning: next time anyone sees me you're gonna see a bit of the
+Yakly anatomy never before exposed in public. You have been
+warned.
+
+As for my next Shareware piece, I haven't decided.  I've had
+requests for updated versions of everything from Hover Bovver to
+Iridis Alpha, and it would fur sure be fun to resurrect and
+bring to the future one of those old games, but part of me is
+also thinking of maybe some new original work.  I'll think about it.
+I have a few ideas which have even got as far as a little bit of
+code, so wait and see!
+
+[I'm still thinking about it. I'm inclining towards something
+so totally and utterly thrash fast that it'll make Llamatron
+look geriatric. Adrenaline junkies stand by...  Use the rush!!]
+
+
+You know, sometimes I wonder whether I ought to stop all this
+for a few months and have a go at being human?  Then again,
+the habits of ten years die hard, the relentless advance of
+technology constantly brings new challenges and possibilities,
+and Yak can communicate with infinitely more people in infinitely
+more places via this medium, in which I'm quite good, rather
+than via conventional social means, where one has to operate
+sequentially, and what the hell someone gotta code the transputers.
+Used to worry about that stuff a lot more when it looked like
+the lightsynth was on indefinite hold and trying to get a game
+into the commercial system was like trying to poke butter up a
+porcupine's ..er.. ..nostril with a red-hot pin regardless of
+how good the games actually might be.  Now the lightsynth is back
+an' better than ever and I can actually get stuff out there thanks
+to Shareware; there aren't enough hours in the day for coding
+and I'm back in there full force.  I don't even stop to watch
+Neighbours any more. 5am is not uncommon.  Yak's happy.
+
+[Hell, I've been without any TV at all for the last few weeks,
+aerial's knacked, and I haven't really missed it.  Done a pile
+of work these last few days.  Get it fixed one of these days
+I suppose, but you be surprised how you don't miss it.
+
+I'm pleased right now 'coz on 31 Jan I'm outta here, I'm off
+to the mountains for a few weeks to do the downhill-sliding
+thing.  Excellent.  Big rush all day doing what must surely
+be one of the most excellent physical activities ever devised,
+then booze it up in the Vieux Tyrol at night, then get up
+an' do it all again!  Can't wait, me....]
+
+Well, that's about it for this ASCII file.  Big thanxx to everyone
+who supported us with Llamatron and Colourspace.  Let's hope we
+can do it again this time, only more so. We'll be letting you know
+how it goes, and as usual comments and feedback on the game are
+always welcome (and get heard too - you'll notice no text
+hanging around onscreen and the ability to set strobe intensity
+in Revenge).
+
+
+See'ya next time...
+
+-- Y a K  20/11/91
+
+
+ps You can't sit down right next to the left edge of the screen.
+If you try it you'll make the camel twitch in a convulsive manner which 
+had at least one game tester helpless with laughter.
+
+
+
+YAK GREETS:
+
+(I put these at the end. I wouldn't dream of making you read them
+if they bore you. No demo-writer, me).
+
+YAK sez HI to: Wulf (one workstation per student! and those Cerebus
+books were AMAAAAAAZING!), Marco and the London guys who are trying to
+help VL right now; the Landscape Design guys (how's the beastie?
+fixed yer other channels yet? and remember that night we watched
+Koyyanisqatsi and did the Proto thing hehe...), Keith and Sophie
+(get yer little bro and sis on this one Soph); 'Lope (who finally
+did communicate) yer married bastard; Anna (different Kronschnabl
+(is that right?) this time, same result:addiction), Mr. Todd,
+'Rubber Chicken' Capon, M.C.Urtis and Hendy the Mad Mathemagician,
+TT (gonna be a tt pretty soon yeah?), TC, Lisa and family (got that
+white Porsche yet?), and anyone else who considers it good to be
+greeted by a long hairy programming animal with a camel fixation.
+
+Repeat after me: "I CAN MOVE MOVE MOVE ANY MOUNTAIN"
+
+
+
+[YAK's sonixx recommendations:
+
+-- Shamen (En:Tact in particular, but check out some of their
+earlier stuff which may surprise you if you like early Floyd!)
+-- Bassomatic 'Set The Controls'
+-- Primal Scream 'Screamadelica'
+-- Inspirals 'The Beast Inside'
+-- Jesus Jones 'Doubt'
+-- The KLF 'The White Room'
+-- The Orb 'Adventures Beyond the Ultraworld'
+-- Faith No More 'The Real Thing'
+-- that Jane's Addiction one with 'Been Caught Stealing' on it
+
+
+Kickass console recommendations:
+
+F-Zero (S-Famicom)  TOP driving game
+
+Super Mario Land (Mario 4) Definitive platform game, not as pretty
+as Sonic on the Sega but lots harder and more levels so you ain't
+gonna complete it in two days.  Plus you get to ride a cute
+dinosaur-beastie called Yoshi which can be persuaded to excrete
+special mushrooms. Oh yeah, it's on S-Famicom.
+
+Thunder Force III (Megadrive): horizontal scrollie blast like
+you seen 1000 times before, but it's pretty good and has some
+absolutely crazy psychedelic graphics (check out the Fire
+Planet).
+
+S.T.U.N Runner (Lynx): Ultra fast 3D driving game where you
+shoot down tubes, like a hi-tech bobsleigh. The Lynx version
+is amazing and beats piss out of those awful ST and Amiga
+versions which updated the screen at one frame per Sunday.
+
+Well, must go - I got disks to make. Amigoids - enjoy your
+Revenge...
+
+
+-- YaK  10/1/92

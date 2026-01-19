@@ -1,0 +1,337 @@
+DOCUMENTACIÓN ISLA DE LA ESPERANZA PERDIDA
+
+             Presentado por Angel Eyes of Vision Factory
+
+
+                       
+                               AVENTURAS
+  En un juego de aventuras desempeñas el papel de un personaje de una historia. debes
+  manipula la historia de tal manera que puedas continuar tu búsqueda. esto
+  se hace encontrando ciertos objetos y usándolos de una manera particular para
+  resolviendo acertijos. Las acciones cuidadosamente elegidas deberían permitirle alcanzar sus objetivos.
+  objetivo o eventualmente la conclusión de la historia. Comunicación con el
+  La historia se realiza escribiendo comandos que determinan lo que sucede a continuación.
+  Estos comandos normalmente implican una palabra o verbo de acción como "Examinar",
+  "Obtener", "Soltar", "Lanzar" o "Atacar" y el objeto o sustantivo que desea que actúe
+  como "Habitación", "Libro", "Llave", "Piedra" o "Hombre". Los comandos pueden ser más
+  preciso que la simple entrada de dos palabras y puede incluir adjetivos y palabras
+  como "el". Esto permite a los jugadores escribir comandos que son más
+  natural y descriptivo. Es posible que los comandos simples no siempre sean suficientes para
+  dígale al programa qué es exactamente lo que quiere hacer. Es posible que tengas que especificar el
+  "objeto" que utilizará para realizar esta acción, como en "Abrir la puerta
+  con la llave de hierro". Es posible que también necesite especificar qué hacer con el
+  objeto, como en "Tira el coco al océano". Palabras como "el", "a"
+  y se pueden omitir adjetivos, por lo que "Abre la puerta de madera con la llave de hierro".
+  llave" se convierte en "Desbloquear puerta con llave". En este caso si poseyeras más
+  más de una tecla, el programa le pedirá que elija qué tipo de llave "Hierro
+  o Plata". Algunas acciones sólo requieren una palabra como "Mirar" y
+  "Inventario". Si usa "Mirar" por sí solo, imprimirá la descripción de la habitación.
+  mientras que "Inventario" le dará una lista de los objetos que está actualmente
+  llevando. No todas las acciones tienen buenos efectos. Algunos pueden hacer que te maten,
+  impedirle resolver un rompecabezas o puede no hacer nada en absoluto. No todos los
+  Los comandos que escribas serán entendidos por el programa: recuerda el programa.
+  No es una persona y no es posible que tenga tanto vocabulario y comprensión.
+  de pie. Si encuentra una frase que no entiende, actúe de acuerdo
+  al mensaje de error que recibe. Si el programa no entiende un verbo
+  luego pruebe con otros que tengan significados similares, si fallan, entonces es razonable.
+  capaz de pensar que el verbo no se usa en la historia. El programa bajo-
+  destaca los verbos más utilizados. Para examinar algo puedes usar palabras.
+  como "mirar", "buscar" o "examinar", pero no "examinar detenidamente". El programa entiende
+  bastantes palabras, pero recuerde las palabras más utilizadas en cualquier
+  El juego de aventuras normalmente será "ir", "mirar", "soltar", "obtener" y "abrir". si un
+  El sustantivo no se entiende, entonces ese objeto no está en el juego o lo escribiste.
+  mal. Si no se entiende la oración, intente reformularla de una manera más
+  orden lógico y simplificarlo en el formato que se muestra arriba. si lo eres
+  aparecerá un mensaje de error como "con qué" o "No puedes desbloquear el
+  cuadro sin nada" y luego vuelva a escribir el comando, pero recuerde incluir el
+  objeto con el que desea realizar esta acción. Recuerda siempre mirar
+  Mire todo en busca de pistas y utilice su comprensión de cómo puede ser un objeto.
+  utilizado, por extraño que sea, para resolver un rompecabezas. A continuación se muestra un típico
+  secuencia de un juego de aventuras:
+
+  "Bajas a una habitación en el sótano. Un mostrador rodea tres paredes.
+  y sobre el mostrador hay varios objetos. Una computadora Amiga y un monitor sentados.
+  en el mostrador del medio. Una salida conduce al sur y unas escaleras conducen hacia arriba".
+
+  examinar la computadora
+
+  "En la computadora hay un interruptor".
+
+  Enciende la computadora
+
+  "La pantalla se ilumina y le solicita que inserte un disco".
+
+  Obtener disco
+
+  "El disco no está aquí".
+
+  Ir al sur
+
+  "Vas hacia el sur. Estás dentro de un pequeño armario desordenado. Hay basura por todas partes.
+  lugar."
+ 
+  buscar en la basura
+ 
+  "Encontraste un pequeño objeto cuadrado azul particularmente interesante".
+
+  consigue el disco
+
+  "Obtienes el disco".
+Examina el disco
+
+  "La etiqueta dice 'Isla de la esperanza perdida'."
+
+  norte
+
+  "Ve hacia el norte. Una computadora rodea tres paredes en el mostrador, hay varias
+  objetos. Una computadora Amiga y un monitor se encuentran en el mostrador del medio. una salida
+  conduce al sur y las escaleras conducen hacia arriba."
+
+  Pon el disco en la computadora.
+
+  "La pantalla se enciende y te sientas a jugar."
+
+  Este es un ejemplo bastante simple, pero es un buen punto de partida para jugar.
+  una aventura. Experimentar con varias palabras generalmente debe hacerse en
+  para resolver un rompecabezas.
+  
+ 
+                          CARGANDO EL PROGRAMA
+  1) Siga el procedimiento de inicio normal como se describe en el manual de su computadora.
+  2) Inserte "disco uno" en el indicador del banco de trabajo.
+  3) Después de que se haya reproducido la introducción y se haya cargado el juego, se le solicitará
+  para insertar el disco dos*. Retire el disco uno de la unidad interna y reemplácelo
+  con el disco dos.
+
+  NOTA: No tendrás que volver a insertar el disco uno hasta que termines el juego.
+  La animación final debe cargarse.
+
+  *El disco uno está protegido contra copia (¡ya no, jaja!) pero el disco dos no está protegido.
+  Dado que guarda juegos en el disco dos, le recomendamos que haga una copia y
+  Utilice siempre la copia para jugar.
+
+
+                               PARA EMPEZAR
+  Para aquellos con un megabyte (1024k) de memoria o más, tenga en cuenta que cuando el
+  El segundo disco comienza a cargarse, el archivo de gráficos se cargará en la memoria.
+  Esto aumentará el tiempo de carga inicial en unos 50 segundos, pero
+  mejorar en gran medida la jugabilidad y la velocidad del juego. Aunque recomendamos
+  Si se recomienda memoria adicional, aquellos con 512k seguirán teniendo estas funciones. el ultimo
+  Pocos gráficos se almacenan en un búfer de RAM, por lo que no será necesario volver a generarlos.
+  cargado cada vez que te mueves entre áreas contiguas. Si tienes al menos uno
+  megas y medio de memoria, luego a medida que se vayan cargando los sonidos se irán
+  almacenado en un carnero. Los animadores seguirán cargando desde el disco incluso con extra
+  memoria, pero sólo se juegan una vez en momentos específicos del juego. por favor
+  Deje el segundo disco insertado en la unidad en todo momento a menos que se indique lo contrario.
+  preguntó. Aquellas personas con los primeros sistemas informáticos Amiga 1000 deberían tener en cuenta
+  que el programa utiliza halfbrite extra. Aunque el programa funciona bien en
+  En estas máquinas los gráficos pierden algo de profundidad. Puedes contactar con tu
+  distribuidor local si desea actualizar su máquina.
+
+
+                             LA HISTORIA HASTA AHORA...
+  Eres un joven capitán que busca el tesoro perdido de las almas olvidadas.
+  Desafortunadamente, en tu búsqueda te topaste con una banda de piratas despiadados liderados por
+  el infame Capitán Black. Hunden tu barco, matando a toda tu tripulación.
+  y robar tu carga. Fuiste arrojado por la borda en la batalla y flotaste
+  hasta que el agua llegó a una pequeña isla cercana. Ahora te quedas ahí mirando el
+  barco pirata, anclado a la vista, mientras se regodean de su victoria. Todos
+  Los recursos que tenías a mano ahora están perdidos y sólo tu ingenio te ayudará.
+  salir vivo de esto. El tesoro parece tan lejano ahora y tus únicos pensamientos
+  están en la supervivencia y la venganza.
+
+
+                             TECLAS NUMÉRICAS
+  Para pasar de un área a otra puedes escribir en la dirección, hacer clic en
+  el dispositivo de movimiento como se describe arriba o presione las teclas numéricas. "8" es
+  norte, "4" es oeste, "6" es este, "2" es sur, "5 está abajo y "0" está arriba.
+
+
+                         BORRAR Y RETROCESO
+  Retroceso mueve el cursor hacia atrás un espacio y borra el carácter en ese
+  ubicación. Eliminar elimina el carácter actual en el que se encuentra el cursor. Como atrás-
+  espacio, todos los caracteres después del cursor retroceden un espacio. si
+  después de eliminar, dos espacios o puntos están uno detrás del otro y uno se auto-
+  borrado automáticamente.
+
+
+                       RESTAURAR/GUARDAR UN JUEGO
+  El segundo disco siempre debe estar habilitado para escritura para que puedas guardar tu
+  juegos en ese disco (use una copia de seguridad). Puedes llegar a la tienda/restaurar.
+  menú utilizando diferentes métodos. Utilice la tecla F10 como se describe en el especial
+sección de teclas, escriba "guardar" o "restaurar" en la ventana de texto o presione "R"
+  después de finalizar o abandonar un juego.
+
+  Se pueden guardar diez juegos a la vez. etiquetado 0-9. Para restaurar un juego
+  simplemente haz clic en el juego guardado o presiona el número correspondiente del
+  juego que deseas restaurar.
+
+  Para guardar un juego, elige el número que deseas almacenar (el juego anterior en
+  esa ubicación se borrará). Aparecerá un cursor en la posición de guardar,
+  y se te pedirá que escribas el nombre del juego que deseas guardar.
+  La mayoría de las teclas especiales se desactivan al ingresar el nombre del juego.
+  pero puedes editar el texto como de costumbre. Presionando mayús con la derecha de la izquierda
+  cursor ahora moverá el cursor al final o al principio de la línea
+  respectivamente. La flecha hacia arriba imprimirá el nombre del juego previamente guardado para
+  esa posición. Presiona regresar para guardar el juego o ESC te llevará de regreso a
+  el menú de guardar juego.
+
+                       
+                         CUANDO EL JUEGO TERMINA
+  Cuando te maten o salgas del juego actual, se te pedirá que "Juegas".
+  ¿Otra vez? (Y/R)". Utilice las teclas de cursor derecha e izquierda para resaltar su elección
+  y presione regresar, o presione la tecla correspondiente. Presione "Y" para reproducir nuevamente o
+  "R" para restaurar una partida guardada.
+
+
+                         EL DISEÑO DE LA PANTALLA
+  
+                    LA MITAD SUPERIOR DE LA PANTALLA
+  La mitad superior de la pantalla contiene lo siguiente:
+ 
+  En el lado izquierdo hay un ojo de buey por el que se puede ver una representación gráfica de
+  Se mostrará el área en la que se encuentra actualmente. En el lado derecho del
+  La pantalla es un mapa que muestra su ubicación actual representada por un azul
+  esfera. También te muestra todas las áreas que has visitado en este nivel y
+  las posibles salidas. En el medio de la pantalla hay un gráfico de una calavera.
+  rodeado por las letras "N E W S U D" (cada una representa una dirección).
+  Haga clic en la letra específica con el botón izquierdo del ratón, utilizando el
+  ratón para mover el puntero (espada) a esa letra en particular. el fondo
+  La mitad de la pantalla te informará si el movimiento es posible o no. si
+  Tuviste éxito, el gráfico cambiará y aparecerá una nueva descripción de la habitación.
+  aparecer. También puedes moverte presionando varias teclas, lee el
+  siguientes secciones para obtener más información.
+
+                     LA MITAD INFERIOR DE LA PANTALLA
+  La mitad inferior de la pantalla es el área de texto. En esta área el texto que
+  que escriba se mostrará junto con las descripciones, respuestas y
+  indicaciones del juego. En la mitad derecha de la pantalla verás un cuadro.
+  etiquetado como "Inventario". Todos los objetos que llevas actualmente se mostrarán.
+  jugado aquí. Se pueden mostrar un máximo de seis objetos a la vez, pero al
+  Al hacer clic en las flechas hacia arriba y hacia abajo, puede desplazarse por todo el
+  inventario. Al mover el puntero sobre el nombre del objeto se resaltará
+  el texto y luego al hacer clic en ese nombre realizará lo siguiente. si
+  su entrada actual está vacía, entonces se imprimirá una descripción del artículo
+  en la ventana de texto. De lo contrario, si hay suficientes caracteres en la línea
+  para acomodar la palabra, el nombre del objeto se insertará en la ubicación actual
+  posición del cursor. Por ejemplo, si hubiera escrito "Lanzar" y hecho clic en el
+  palabra "Coco", entonces su entrada ahora diría "Tirar coco". un espacio es
+  agregado si aún no hay uno allí. Para una mejor comprensión de cómo
+  ingrese sus comandos lea la siguiente sección. También puede enumerar los elementos que
+  mantenga presionado escribiendo "Inventario". En lugar de utilizar el dispositivo de inventario, puedes
+  escriba el nombre del objeto. Antes de recoger un objeto no tendrás
+  opción más que escribir su nombre, si se muestra una lista de todos los objetos
+  En la habitación, sería demasiado fácil encontrar los artículos.
+ 
+                   CÓMO INGRESAR EN LA VENTANA DE TEXTO
+  Cuando el cursor aparece en una línea vacía, el programa está esperando entrada.
+  Escriba los comandos que desee ingresar en el programa y se ejecutarán.
+aparecer en la ventana. Puede escribir en mayúsculas o minúsculas, no hay dis-
+  tinción entre ellos. El máximo que puede ingresar para cualquier comando es 52
+  letras. Cuando el cursor llegue al final de la línea, el programa
+  no acepte más entradas para ese comando. Aparte de las cartas, lo único
+  Los caracteres que se aceptan para la entrada son "&" o "'" o ".". Puedes en-
+  Incluya números en los nombres de sus partidas guardadas; de lo contrario, las teclas numéricas servirán como
+  propósito diferente como se describe en la siguiente sección sobre claves especiales. el
+  El cursor siempre se puede reposicionar en cualquier parte del comando escrito usando
+  las teclas del cursor.
+  
+  Si nota un error ortográfico en un comando que acaba de escribir, use la flecha izquierda
+  para mover el cursor al error. Utilice la tecla de retroceso o eliminar para eliminar
+  el error ortográfico y todo lo que escriba se insertarán en ese punto. el
+  El programa formatea automáticamente el texto a medida que escribe. Sólo un espacio o punto
+  está permitido entre palabras. Se utiliza un punto para separar diferentes comandos.
+  tal como se usa "y". Puede escribir "obtener libro e ir hacia el este" o "obtener libro.go-
+  Este", ambos funcionan de la misma manera. El analizador del programa permite múltiples
+  comandos, y con algunos verbos se pueden usar varios sustantivos. Con "obtener" o
+  "soltar" puede especificar "obtener llave y bolígrafo" o incluso "obtener todo menos un cuchillo". el
+  La ventana de texto muestra un máximo de ocho líneas a la vez; cuando está llena, aparece un mensaje.
+  Aparecerá por más. Presione cualquier tecla o el botón del mouse para desplazar el texto.
+  a la siguiente sección.
+
+
+                             LLAVES ESPECIALES
+  AYUDA: La tecla de ayuda muestra una breve explicación de lo que significa cada tecla especial.
+         hace, muy parecido a esta sección.
+
+
+                             TECLAS DE FUNCIÓN
+  Las primeras cinco teclas de función (F1-F5) son macros. Presiona shift con eso
+  tecla de función para definir la clave. Estas claves están predefinidas pero se pueden utilizar
+  para almacenar los comandos utilizados con frecuencia. Cuando estás definiendo la función
+  teclas, la mayoría de las otras teclas especiales están inactivas, pero las teclas del cursor
+  todavía te permite editar el texto. La función previamente asignada para ese
+  La clave se mostrará encima del mensaje de entrada. Para mantener la misma macro presione
+  regresar sin escribir nada; de lo contrario, presione la tecla de retorno después de
+  ha entrado en la nueva función.
+
+  Al presionar las teclas de función F1-F5 se insertará la macro de esa función en el
+  comando actual, comenzando en el cursor. Si la longitud de la macro más
+  la longitud del comando excede el tamaño máximo de entrada, entonces no se hace nada.
+  añadido a ese comando.
+
+  Las otras teclas de función se definen a continuación:
+
+        F6: te lleva al menú de restauración del juego.
+  Shift F6: te lleva al menú para guardar el juego.
+  (LEA LA SECCIÓN RESTAURAR/GUARDAR JUEGO PARA MÁS INFORMACIÓN)
+
+        F7: borra la pantalla y mueve el cursor a la línea superior.
+  Shift F7: borra la línea y mueve el cursor al principio de la línea.
+             línea.
+ 
+        F8: borra el texto después del cursor.
+  Shift F8: borra el texto delante del cursor y desplaza el texto restante
+             al principio de la línea.
+
+        F9: mueve el cursor al final de la línea.
+  Shift F9: mueve el cursor al inicio de la línea.
+
+        F10: activa los gráficos.
+  Shift F10: desactiva los gráficos.
+
+
+                            TECLAS DEL CURSOR
+  El cursor izquierdo hace retroceder el cursor un carácter. Usando el turno con
+  la flecha izquierda moverá el cursor al principio de la palabra actual o
+  el comienzo de la última palabra.
+
+  El cursor derecho mueve el cursor un carácter hacia adelante. Si estas en el
+  final de la entrada actual, entonces el cursor no se moverá hasta que aparezca otro carácter.
+  está escrito. Al presionar Mayús con esta tecla, el cursor saltará a la
+  final de la palabra actual o el comienzo de la siguiente palabra.
+
+  Las teclas de cursor derecha e izquierda también se utilizan para seleccionar entre diferentes
+  objetos. Si el programa no está seguro de qué objeto desea utilizar, por ejemplo
+  "llave de hierro o llave de plata", te permitirá elegir entre los dos objetos.
+Utilice las teclas del cursor para cambiar entre los objetos y presione regresar cuando
+  hecho. Seleccione cancelar si no desea utilizar ese comando.
+
+  La tecla de cursor hacia arriba actúa de manera muy similar a presionar las primeras cinco teclas de función. pero
+  en lugar de insertar una macro definida, inserta el último comando que se
+  seguido de una devolución. Entonces, si comete un error al escribir un comando,
+  simplemente presione la flecha hacia arriba y edite el comando.
+
+  La tecla de cursor hacia abajo es similar a la tecla de cursor hacia arriba. Sin embargo, no
+  inserta el último comando pero borra la línea e imprime los últimos comandos
+  entró. El penúltimo comando se imprime primero y continuamente
+  Al presionar la flecha hacia abajo se desplazan los cinco comandos anteriores.
+  Tenga en cuenta que su entrada actual se borrará al utilizar esta tecla.
+
+
+                         LLAVES VARIAS
+  ESC: te permite salir del juego actual y reiniciarlo. Aparece un mensaje
+  preguntándole si realmente quiere dejar de fumar. Simplemente presione la tecla "N" si accidentalmente
+  escape presionado.
+
+  TAB: atenúa los colores de la pantalla a la mitad de la intensidad normal
+  paleta o la devuelve a la normalidad si ya estaba atenuada. esto es
+  Útil para reducir la fatiga visual cuando se juega en una habitación con poca luz.
+
+  (.) Activa o desactiva el sonido.
+  (=) Enciende/apaga las toallitas.
+  (') Cambia entre dos fuentes disponibles.
+
+      Importado por Midnight Maniac y Mayday el 15/1-90    
+
+                   ¡DIVIÉRTETE! ! !

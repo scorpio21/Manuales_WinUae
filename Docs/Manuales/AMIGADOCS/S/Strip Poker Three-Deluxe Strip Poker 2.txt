@@ -1,0 +1,328 @@
+                                 SKID ROW
+
+                                 presents           
+
+                             Strip Poker Three
+
+                               For the Amiga
+
+Strip Poker Three is provided on two AmigaDOS formatted diskettes.  Disk
+1 contains the program, one opponent and yourself, the libraries, and
+the installation scripts.  Disk 2 contains two additional opponents.
+
+REQUIREMENTS: Strip Poker Three requires AmigaDOS 1.2, 1.3, or 2.0, and
+at least one megabyte of memory.  Two floppy drives or a hard drive, and
+a display enhancer are optional, but recommended.  We suggest that you
+make backup copies of your original disks.  There is no copy protection
+on the program - if you like the program, please spread the word, not
+the disks, we trust you.
+
+HARD DISK INSTALLATION: Strip Poker Three is hard disk installable, and
+the easiest way to install the program and its' support files is to use
+the Workbench and HD_Install program found on Disk 1.  But if you are
+comfortable with the CLI or the Shell, you can also do it that way.
+It's not complicated at all.
+
+From the Workbench: You should first create a drawer and call it
+something, such as Poker.  With Workbench 1.2 or 1.3, click on the
+"Empty" drawer icon and select "Duplicate" under the "Workbench" menu.
+Next, select the "copy of Empty" and select "Rename" under the 
+"Workbench" menu, then rename it.  If you are using Workbench 2.0, click
+into the window that you want to store the program into and select 
+"New Drawer" under the "Window" menu.  You will be prompted to
+give your new drawer a name, type in the name that you want to put 
+Strip Poker Three into.  Now you can just press and hold the shift
+key down while you click once on the HD_Install icon on the Strip3 
+disk, and then click twice on the icon of the drawer that you have 
+just created.  If you just click twice on the HD_Install icon, the
+usage of how to use the HD_Install program will be displayed.
+
+From the CLI or Shell: CD to the drive that you want to install the
+program on, then Execute HD_Install <destination-directory>.  Your
+command should look something like this:
+
+     CD Games:
+     Execute Strip3:HD_Install Poker
+
+     or
+
+     CD DH1:Games
+     Execute Strip3:HD_Install Poker
+
+Where "Poker" in the above example is the directory that you want
+created and have the files stored.
+
+For Both: It will take a couple of minutes to copy all the files 
+necessary.  Please be patient!  After the installation is complete,
+eject the disks from the drives and put them in a safe place.  After
+the program has been installed on your hard disk, you need to add an
+assign to either your Startup-Sequence or User-Startup file.  The
+HD_Install script will tell you the best one to put it in.  If you
+are a workbench user, you can double click on the "Strip3 Assign" Icon
+that is located in the drawer in which you installed the program.
+This will make the assignment for you until you turn the power off.
+This needs to be done before you can run the program.  The assign will 
+look similar to:
+
+      Assign Strip3: Games:Poker
+
+               for the first example above or
+ 
+      Assign Strip3: DH1:Games/Poker
+
+The installation program will tell you what you need to make the
+assignment to.  If you miss it or didn't write it down, you can do
+a "More" on the Strip3 Assign" file in your installation directory.
+
+IMPORTANT FILES: If you are intending to run this program from the CLI 
+or Workbench, you may need to copy a couple of files onto the disk you
+boot from.  The following commands are required, and they are also
+in a script file, INSTALL_SYS, on the Strip Poker Three boot disk in the
+s: directory.
+
+        copy strip3:libs sys:libs all
+
+You can CD to Strip3:s and type INSTALL_SYS.
+
+STARTING THE PROGRAM: There are three ways of starting Strip Poker Three
+and are in order of increasing complexity:
+
+1. At the "Insert Workbench" screen, put Strip Poker Three Disk 1 in
+   DF0: and Disk 2 in DF1:; or press CTRL-RIGHT AMIGA-LEFT AMIGA keys to
+   reboot.  Strip Poker Three will automatically load and run.
+
+2. From the Workbench, place either disk in DF0: and the other in DF1:,
+   double click on the "Strip3" disk icon, and double click on the 
+   "StripPokerThree" icon.
+
+3. From the CLI, place the Strip Poker Three boot disk in any drive,
+   CD to that drive, and place the other disk in the other drive.
+   Type "StripPokerThree"; quotes are NOT required, press return.
+
+SELECTING YOUR OPPONENTS: After the title screen, you will see pictures
+of your opponents.  The program will look at all your devices for any
+optional Strip Poker Three Data Disks, and will display them also.
+
+You can select from one to three opponents by placing the mouse pointer
+over the picture and pressing the left button.  Your opponent's will be
+displayed in the box on the lower right hand corner.  If you change
+your mind, place the mouse pointer over the players name in the lower 
+right hand corner and press the left mouse button, all selections in the 
+game can be made in this manner.
+
+After you have selected all the opponents you want to play against,
+press the "Done" button in the middle of the screen to begin the
+game.  If you have purchased additional Data Disks, you can put these
+into one of your floppy drives and press the "Find Players" button,
+this will re-scan all of your devices and display any additional
+players.
+
+If you have purchased all available Data Disks and have the program
+installed on your hard drive, you will have two additional buttons to
+flip between the screens that display the opponents.
+
+THE GAME SCREEN: This screen is set up into four sections, the top two-
+thirds of the display are your opponents and possibly yourself,
+depending on how many opponents you've chosen.  This what to expect
+based upon the number of players:
+
+One opponent - The big picture is your opponent and there is a view of
+yourself in the upper right hand corner.  You cannot swap the picture
+of yourself and your opponent in this game.  More about swapping 
+opponents is in the next paragraph.
+
+Two opponents - Your opponents are in the big picture and in the upper
+right hand corner, with yourself pictured in the middle right hand
+corner.  You can swap the pictures of your opponents.
+
+Three opponents - All your opponents are in the upper part of the screen,
+with yourself in the status box in the lower right of the screen.
+All opponents can be swapped with each other.  Swapping refers to being
+able to put an opponent that is in a smaller display, into the larger
+display on the left side of the screen.  This is done by simply clicking
+on the opponent on the right hand side that you want in the big
+picture.  Remember that you cannot put yourself in the big picture.
+
+The status box is located in the lower right hand corner.  This is
+where you can keep track of what the other players have done so far
+in the game, and how much money you have to put in the pot if you call
+or raise.  In the three-player mode, the picture of "You" is displayed
+here.  It also acts as a button in this mode to get the additional
+status information on the game.  You can either select it with the
+mouse, use the RIGHT-AMIGA-T combination or select the "Toggle Status
+Box" menu under the "Options" menu.
+
+The status line is located above the cards and will display messages
+about what an opponent is doing, and present you with additional
+buttons to get your responses through out the game.  This is where you
+will select whether you want to bet or raise, drop, stay or call,
+and the amount of your bet or raise.
+
+Your cards are located in the lower left of the display.  You are dealt
+five cards.  You will be prompted to select your discards after the
+first round of betting.  To select your discards, place the mouse
+pointer over the card that you want to discard and press the left mouse
+button, this will display the back of the card.  If you change your
+mind, just select the card again to flip the card back.  When you
+are finished selecting the cards, press the "Discard Done" button
+in the Status Line.  If you have the sound off, the word "Discard Done"
+in the Status Line is the indication that you are to discard.
+
+                        THE STRIP POKER THREE MENUS
+
+GAME MENU:
+
+   SAVE GAME: The save game function will save the current game in
+progress.  You can save a game any time during play with the exception
+of while you are selecting your opponents.  You are allowed to only save
+one game, and it will be saved in STRIP3:saved_games directory.
+
+   LOAD GAME: You are allowed to load a saved game and continue playing
+where you had left off.  This option is only active during the selection
+of the opponents of the game.  If you saved the game in the middle
+of a hand, the game will continue as if that hand had not been played.
+
+   SET PASSWORD: This option will allow you to add personal password
+protection to Strip Poker Three to keep unauthorized persons from playing
+the game.  You can select this option from either the keyboard with the
+LEFT-AMIGA-P, or from the menu.  If you don't have a password saved
+already, a requester will be presented to enter your password.  After
+you type in your password, just press return or click on the "Okay"
+button.  Your password has now been saved.
+
+The next time you run the program, you will be required to type in the
+password in order to run the game.  You will have three opportunities
+to get it right.  If you fail in typing it in after three attempts,
+the program will quit.
+
+If you want to change your password, select the "Set Password" menu
+option and type in your old password when prompted, and another
+requester will pop up asking for your new password.  If you want to
+remove the password totally, select the "Set Password" menu option and
+type in your old password when prompted, and another requester will pop
+up asking for your new password, instead of typing the new one in,
+either press return or "Okay".  If you forget your password,
+you can use the CLI or with Workbench 2.0, delete the s:spsetup file.
+
+   ABOUT: This will give you some information on the Strip Poker Three
+Program.  If you have to call Artworx with a problem, you need to know
+the version of the program which can be found here.
+
+   EXIT GAME: Like it says... it will exit the game.  But first it will
+ask if you really want to quit.
+
+PLAY OPTIONS MENU:
+
+   SOUND: This will toggle the sounds on and off.  You can either use
+the LEFT-AMIGA-S keyboard combination or the menu to toggle this option.
+Not having the sound on will make the game run faster.  This will be
+saved if you save the game.
+
+   SET GAME SPEED: This will bring up a sliding gadget requester to
+allow you to set the game speed from SLOW to FAST.  This will be saved
+if you save the game.
+
+   TOGGLE STATUS BOX: This option will only be enabled in the three
+player mode, to allow you to switch between the view of you and the
+game status.  There are three ways to activate the status box, with
+the menu selection, clicking on the status box with the mouse pointer,
+and the LEFT-AMIGA-T key combination.
+
+   VIEW LAST HAND: This will allow you to review the players hands who
+stayed in the last hand.  This can only be done when the "Click to
+continue" box is displayed in the Status Line.  We promise, the game
+does not cheat in any way!  The opponents may bluff though.
+
+QUICK THE KIDS ARE COMING!!!  WHAT DO I DO???  That's an easy one...
+press the space bar.  This will put the game into "Modesty" mode and
+will blank the screen.  A big button will appear in the center of the
+screen, just click on it to continue the game.  Whew!  That was close.
+
+MULTI-TASKING: The program is designed to multi-task.  To bring another
+program to the front, use the RIGHT-AMIGA-M / RIGHT-AMIGA-N keys to
+switch screens as mentioned in your Workbench manual.
+
+THE GAME: You and your opponents will be playing draw poker.  There are
+no jokers or wild cards.  You can open the betting with any kind of 
+hand.  The value of the hands (in order) are as follows:
+
+Royal flush, straight flush, four of a kind, full house, flush,
+straight, three of a kind, two pair, one pair, and high card.
+
+Note that an ace can only be used as the high card in filling a 
+straight.  If all players have similar hands, then the highest 
+numerical value wins.
+
+Each opponent employes a particular playing strategy and a unique set of
+comments; you will get to learn each player's "personality" the more you
+play.  Additional Data Disks are available for Strip Poker Three.  These
+disks provide you with different female and male opponents to play 
+against.  Note that because of the graphics mode employed in Strip Poker
+Three, earlier disks for Strip Poker and Strip Poker II will not be
+compatible with this program.  You must obtain Data Disks which were
+created specifically for Strip Poker Three.
+
+GAME PLAY: You and your opponents start with $100 each.  Your opponents'
+current holdings are displayed below their pictures; your holdings
+are shown in the Status Box in the lower right (and below your picture
+if there are less than three opponents).  During play you will be 
+selecting betting choices (Stay/Call, Bet/Raise, or Drop), the amount
+of the bet/raise ($1 to $25 depending on the number of opponents) and
+which cards to discard.  Use the mouse to point to a selection and press
+and release the left mouse button to register the selection.
+
+ANTE: At the beginning of each hand, all players must ante ($1, $2,
+or $5, depending on the number of opponents).  This is done 
+automatically for you.
+
+BETTING: When it is your turn to bet, select from the following options:
+
+Stay: If you stay, it means that you are electing to do nothing for now
+and are waiting to see what your opponents are going to do.  If all
+players stay during the first round, the hand is re-dealt and another
+ante is added to the pot.  You cannot stay if an opponent has bet or 
+raised.
+
+Drop: This means that you concede the hand and the money in the pot.
+
+Bet: This means that you want to put some money into the pot in the hopes
+that your opponents will do the same so that you can win it all.
+
+Raise: If you and your opponents have bet and you believe that you have
+the better hand (or you wish to scare an opponent into dropping), you
+can raise the amount of money in the pot.  Select the amount to bet.
+There is a maximum of two bets or raises per player per round of betting.
+
+Call: You can only call if an opponent has bet or raised.  Call means 
+that you are willing to equal the amount that your opponents have 
+to put into the pot, but you do not want to raise any higher for now.
+During betting, the program will inform you of the total bet to you 
+by displaying this amount by the pot information.
+
+DRAWING CARDS: If a player completes the betting by calling, you may
+then draw new cards.  You can draw up to five cards.  Use the mouse to
+point to a card to discard; click the left button to register the
+selection (click the button again if you change your mind).  When you 
+are done discarding, point and click to the word "Done" in the Status
+Line.  You will be informed about the number of cards that your 
+opponents are taking when it's their turn to discard.
+
+A new round of betting occurs after the draw.  You are then shown your
+opponents' hand, and are informed as to who won the hand and what they
+won with.
+
+WINNING THE GAME: Any time that a player uses up all the available
+money, $100 must be borrowed against an article of clothing.  This will
+be noted by the computer.  If the player betting clothing wins, the
+article of clothing is not lost and the debt is cancelled.  But if a 
+player loses, that article of clothing must be given up!  Clothing is won
+back at any time winnings go over $100.  When this happens, the clothing
+is returned and $100 is subtracted from the winnings.
+
+The game ends when you are the last remaining player in the game or when 
+you have lost all your clothes and dignity!  You can end the game early
+by selecting "Quit Game" from the "Game" menu.  At the end of the game,
+you will be asked if you want to play again or quit.  Make your
+selection with the mouse as usual.
+
+SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW  SKID ROW

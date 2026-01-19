@@ -1,0 +1,3387 @@
+Halcones de batalla 1942.
+
+Las siguientes teclas proporcionan funciones durante todo el juego:
+
+		P - Pausa el juego. Luego presione cualquier tecla para continuar.
+		Q-Salir del juego; Obtener evaluación.
+		E - Activa o desactiva sólo el sonido del motor.
+		S - Activa o desactiva TODOS los sonidos.
+		V - Versión de visualización del juego.
+		L - Tren de aterrizaje de descenso/elevación (excepto VAL)
+		F - Solapas para bajar/levantar.
+		B - Frenos de velocidad de apertura/cierre (solo Dauntless)
+		+ - Aumentar el acelerador.
+		- - Disminuir el acelerador.
+		G - Gira la mira del arma hacia arriba/abajo.
+		C - Activa o desactiva la cámara de reproducción.
+		R - Ingrese al modo REPETICIÓN.
+		J - Salta desde tu avión, lánzate en paracaídas.
+		
+	Controles del teclado numérico
+		
+		8 - Mirar hacia adelante.
+		6 - Mira a la derecha.
+		4 - Mira a la izquierda.
+		2 - Mirar atrás (en torpedo/bombardero en picado, también es una vista trasera) 
+			      pistola)
+		3 - Mira hacia abajo
+		9 - Mirar a su alrededor - ESCANEAR.
+
+	Controles de reproducción.
+
+		+ - Aumentar la altitud de la cámara
+		- - Disminuir la altitud de la cámara
+		R: reposiciona la cámara en la ubicación de tu avión.
+		F - Reanudar el vuelo normal.
+
+Para terminar una misión debes A: matar todos los aviones/barcos enemigos, luego presionar Q.
+		O B: presione Q para salir.
+
+
+
+			@ 20/05/89 El Señor Fantasma
+================================================================================
+			BATTLEHAWKS 1942
+
+			TABLA DE CONTENIDO
+
+INTRODUCCIÓN................................................................5
+
+RESEÑA HISTÓRICA...................................................11
+LA BATALLA DEL MAR DEL CORAL................................................13
+LA BATALLA DE MIDWAY.................................................17
+LA BATALLA DE LAS SALOMONES DEL ORIENTAL................................24
+LA BATALLA DE LAS ISLAS SANTA CRUZ................................29
+
+JUEGO ................................................................35
+INSTRUCCIONES DE CARGA................................................36
+MENÚ PRINCIPAL................................................................38
+MISIONES DE ENTRENAMIENTO...................................................39
+MISIONES DE SERVICIO ACTIVO................................................41
+REVISAR PLANOS................................................................47
+REVISAR LOS REGISTROS DE SERVICIO...................................48
+HABITACIONES PREPARADAS................................................50
+PRUEBA DE RECONOCIMIENTO................................................53
+VISTA DE CABINA................................................................54
+REFERENCIA DEL TECLADO................................................57
+REVISIÓN DEL VUELO................................................60
+MEDALLAS DE LA MARINA DE LOS ESTADOS UNIDOS................................62
+MEDALLAS DE LA MARINA JAPONESA.................................................64
+PROMOCIONES................................................................65
+
+INFORMACIÓN DE REFERENCIA................................................67
+
+FUNDAMENTOS DE VUELO................................................69
+
+TÁCTICAS AÉREAS Y CONSEJOS................................................75
+
+AVIONES JAPONÉS Y AMERICANOS: 1942.................................87
+
+BUQUES DE GUERRA JAPONÉS Y AMERICANOS: 1942.................................107
+
+NOTAS DEL DISEÑADOR................................................121
+
+BIBLIOGRAFÍA................................................................125
+
+MAPAS DE BATALLA DE COLORES.................................................129
+LA BATALLA DEL MAR DEL CORAL
+LA BATALLA DE MIDWAY
+LA BATALLA DE LAS SALOMONES DEL ORIENTAL
+LA BATALLA DE LAS ISLAS SANTA CRUZ
+
+				3
+
+			INTRODUCCIÓN
+
+				5
+
+PREFACIO  
+
+En 1940, me ordenaron que saliera de Pensacola, Florida, para formar parte de un escuadrón de bombardeos en picado.
+a bordo del U.S.S. Empresa. Aunque había sido instructor de vuelo en
+Pensacola, todavía estaba crudo y no había sido probado en la batalla, como la mayoría de la gente.
+Volé por primera vez con. Quizás eso fue una ventaja, ya que estaba muy entusiasmado
+que no tenía miedo en el combate, ¡es más bien estar eufórico! solo puedo
+hablar por mí mismo, pero sospecho que la mayoría de los otros viajeros de ambos lados sintieron la
+de la misma manera, y aquellos que estaban asustados pero volaron en misiones de combate de todos modos
+Eran los más valientes entre los valientes. 
+
+"Los seis meses que volé en misiones de combate desde el Enterprise probablemente fueron
+Los mejores seis meses de mi vida. Mi mayor emoción llegó la mañana de
+4 de junio de 1942, en la batalla de Midway. Cuando comencé mi bombardeo en el
+El portaaviones japonés Akagi, vi su gran cubierta de color canela con una
+tremendo sol naciente de color naranja pintado en la cubierta, justo delante del
+puente, y no podía creer que estaba allí. Tuve este tremendo sentimiento
+de llevar la delantera; ¡Era el cielo! 
+
+"Debo admitir que estaba un poco escéptico cuando Lucas-film Games me dijo por primera vez
+Tenían un programa informático que simulaba la emoción del combate aéreo.
+Misiones como las que volé en el 42. Pero después de ver el programa,
+quedó impresionado. Creo que estarás de acuerdo en que han hecho un gran trabajo capturando
+los detalles de las cabinas, la sensación de vuelo y la sensación de
+ataque. Y cuando estás en el fragor de la batalla, las reacciones del enemigo
+Los aviones y barcos son auténticos, sin importar de qué lado elijas luchar.
+encendido. 
+
+"¿Mi consejo para ti? Vuela con calma. Haz que cada bomba, torpedo o ronda de
+recuento de municiones. Y sobre todo, ¡diviértete!"
+
+				teniente comandante
+				Richard H. Best, U.S.N. (Retirado)
+
+				6
+
+			  INTRODUCCIÓN
+
+Battlehawks 1942 es un simulador de combate aéreo naval de la Segunda Guerra Mundial que te permite
+entrenar y luchar en las cuatro batallas aéreas navales fundamentales del
+Guerra del Pacífico en 1942. En Battlehawks puedes elegir la misión, el avión,
+e incluso el país al que quieres volar. Pero ya sea que luches en el
+El lado japonés o americano, Battlehawks, te permite revivir la historia, o
+¡Incluso reescríbelo, si eres lo suficientemente bueno! 
+
+A través de una serie de opciones de menú, puedes decidir si mejorar tu
+habilidades con misiones de entrenamiento o volar las misiones que cuentan: servicio activo
+misiones. Luego eliges la batalla en la que quieres pelear, el país en el que
+quieres luchar, y si quieres luchar, y si quieres
+volar escolta de cazas, defensa de cazas, bombardeo en picado o bombardeo con torpedos
+misiones. 
+
+También puedes inspeccionar todos los aviones para conocer sus puntos fuertes y
+debilidades. Luego, te diriges a la sala de preparación para elegir tu avión y
+realizar modificaciones de último momento en su misión. Luego viene lo real
+misión misma. Te encontrarás en la cabina del avión que
+eligió, volando muy por encima del agua. Tu avión responderá a los controles.
+muy parecido a lo que hace un avión real. Pero será mejor que domines los conceptos básicos de
+Vuele rápidamente, porque hay aviones y barcos enemigos cerca. 
+
+¡Pronto estarás volando frente al peligro! Cuando hayas completado tu
+misión, serás evaluado por tu desempeño. Las salidas exitosas
+ser recompensado con medallas y ascensos de rango, de los cuales se realizará un seguimiento
+en su Registro de Servicio.
+
+				7
+
+		    CÓMO UTILIZAR ESTE MANUAL
+
+Aunque este manual es extenso, una gran parte se ha dedicado a la
+antecedentes históricos de la guerra en el Pacífico en 1942. También hay un
+gran cantidad de información detallada sobre los barcos y aviones de ese
+tiempo. No te preocupes, no necesitarás leer cada palabra del manual antes
+juegas el juego.
+
+El manual está dividido en cuatro partes, Introducción, Reseña Histórica,
+Juego e información de referencia. También hay una referencia separada.
+Tarjeta, que tiene instrucciones de carga específicas para su computadora en particular.
+Si estás ansioso por volar rápidamente, consulta la sección Inicio rápido
+en su Tarjeta de Referencia. Con este conjunto de instrucciones, puedes despegar
+una misión de entrenamiento de muestra y aprende a volar.
+
+Una vez que esté de regreso en el terreno, lea la sección Antecedentes históricos de
+el manual para familiarizarte con las cuatro batallas principales en las que te enfrentarás
+participando. Game Play cubre los detalles de elegir misiones,
+volar, atacar y ganar ascensos y medallas. Finalmente, el
+La sección de información de referencia le brinda consejos sobre maniobras de aviones de combate.
+tácticas de bombardeo en picado y bombardeo con torpedos, además de más información sobre las
+aviones que volarás y los barcos que atacarás.
+
+				8
+
+			REFERENCIA DE INICIO RÁPIDO
+
+Si eres como la mayoría de los jugadores, probablemente quieras probar
+volar sin leer mucho primero. El inicio rápido
+Las instrucciones le permiten hacer precisamente eso. En cuestión de minutos, puedes estar
+pilotando un caza Wildcat de la Marina de los EE. UU. contra ocho cazas Zero japoneses.
+Tus suministros de combustible y municiones son ilimitados y tu modo es
+Invencible, lo que significa que no puedes estrellarte ni ser derribado. Encontrarás el
+Instrucciones de inicio rápido en la tarjeta de referencia. Para más detalles
+información sobre cómo iniciar el juego, consulte las Instrucciones de carga, también en
+su tarjeta de referencia.
+
+				9
+
+			(ESTA PÁGINA ESTÁ EN BLANCO)
+
+				10
+
+
+			RESUMEN HISTÓRICO
+
+				11
+
+En los albores del año 1942, la guerra hacía estragos en el Pacífico, una guerra
+completamente dominado por los japoneses. Su ejército y fuerzas navales disfrutaron de una
+serie de impresionantes victorias, incluido el hundimiento de cinco acorazados de
+la Flota del Pacífico de los Estados Unidos en Pearl Harbor el 7 de diciembre de 1941. Singapur, el
+Filipinas, las Indias Orientales Neerlandesas, Guam y la isla Wake cayeron en
+rápida sucesión a la invasión japonesa, que también atacó el norte
+Australia con numerosos ataques aéreos. A medida que los japoneses ampliaron su territorio en el Pacífico
+territorio, las fuerzas estadounidenses, impulsadas a la acción por el ataque a Pearl Harbor,
+poco podía hacer para detenerlos.
+
+Deber al final de ese año lleno de acontecimientos, Japón y Estados Unidos
+participar en una serie de cuatro enfrentamientos navales épicos que decidirían el destino de
+todo el Pacífico. Estas batallas, la Batalla del Mar de Coral, la Batalla
+de Midway, la Batalla de las Salomón Orientales y la Batalla de Santa
+Islas Cruz, todas tenían un factor en común: fueron combatidas principalmente por
+aviones que vuelan desde portaaviones. Este tipo de barco relativamente nuevo
+alteraría la guerra marítima para siempre. Por primera vez en la historia,
+Los cazas basados en portaaviones, los bombarderos en picado y los torpederos serían los
+Principales armas de ataque en el combate naval.
+
+				12
+
+		LA BATALLA DEL MAR DEL CORAL (4-10 DE MAYO DE 1942)
+
+Después de la captura de Filipinas, Singapur, el | "Tus muchachos no
+Indias Orientales Neerlandesas, Guam y la Isla Wake, las |  va a ser enviado
+Los japoneses decidieron ampliar sus participaciones en el Pacífico |  en guerras extranjeras."
+aún más lejos. Con las tropas japonesas ya ocupando |  franklin d.
+noroeste de Nueva Guinea, su plan requería invasión- |  Roosevelt, octubre
+sión y captura de Port Moresby, el principal |  30, 1940, mientras
+Puesto de avanzada australiano en el sureste de Nueva Guinea. La pérdida |  haciendo campaña en
+de esta base cortaría la ruta de suministro entre |  Bostón.
+Australia y Estados Unidos, y abandonar la costa |---------------------
+del noreste de Australia abierta a la invasión. Al mismo tiempo, Tulagi
+La isla, al este de Port Moresby, iba a ser capturada y utilizada como hidroavión.
+base para aislar aún más a Australia.
+
+Los japoneses reunieron dos grupos de trabajo. La Fuerza de Ataque de Portaaviones, liderada por
+El vicealmirante Takeo Takagi abandonó la base de Truk y se dirigió al sur. esto
+El grupo de trabajo incluía a los portaaviones pesados Shokaku y Zuikaky, veteranos de la
+ataque a Pearl Harbor. El grupo de trabajo de invasión, bajo el mando de Rear
+El almirante Aritomo Goto debía abandonar la base japonesa de Rabaul el 4 de mayo.
+y diríjase al suroeste hacia Port Moresby. El portaaviones ligero Shoho, junto con
+cuatro cruceros pesados,
+
+escoltar a la tropa |--------------------------------------------------
+transportes mientras se dirigían |Los anticuados aviones de combate Brewster Buffalo |
+hacia Nueva Guinea.          |que custodiaban Midway eran tan obsoletos que |
+Desconocido para Japón, |fueron apodados extraoficialmente "Ataúdes Voladores" por |
+Estos, sin embargo, son estadounidenses en- |aquellos que los volaron. Después de que la mayoría de ellos fueran |
+la inteligencia había sido aniquilada en el ataque japonés a Midway, uno |
+El código secreto de Japón y los comandantes escribieron en su registro de acciones que |
+Las fuerzas estadounidenses se habían enterado de que "Creo que cualquier comandante que ordene |
+la inminente invasión de |pilotos en combate en un F2A3(Brewster |
+Puerto Moresby. También |Buffalo)deberían considerar al piloto como perdido antes|
+Sabía que tres japoneses abandonaban el suelo. La inmersión SBU2-3 de la Marina de los EE. UU. |
+Los portaaviones que llegarían a los bombarderos eran igualmente despreciados. Su oficial |
+Mar de Coral, al noreste de |nombre eran los Vindicators; sus propias tripulaciones |
+Australia y el sureste de |se refieren a ellos como "indicadores de viento" y |
+Nueva Guinea, antes del 3 de mayo. |"vibradores."                                    |
+Tarea de dos portaaviones estadounidenses |--------------------------------------------------
+Se reunieron las fuerzas, con el contralmirante Frank J. Fletcher al mando del
+El grupo de trabajo de Yorktown y el contraalmirante Aubrey Fitch encabezando el Lexington.
+grupo. Los portaaviones Hornet y Enterprise, bajo el mando de Vice
+El almirante William F. Halsey, se dirigió al sur desde Pearl Harbor, con la esperanza de llegar
+los otros transportistas a tiempo para ayudar.
+
+				13
+
+"La vista de aquellos | El 3 de mayo, una fuerza de asalto japonesa capturó
+bomba pesada en picado- |Tulagi, que había sido abandonada por los
+ers destrozando eso |Australianos. Al día siguiente, inmersión SBD-3 Dauntless
+portaaviones era tan |bombarderos y torpederos TBD Devastator de
+horrible que fui |el Yorktown atacó el puerto de Tulagi, hundiendo uno
+físicamente enfermo."      |Destructor japonés y tres dragaminas.
+Teniente comandante | Después de este ataque, el Yorktown se encontró con el
+Jimmy Flatley, de- |Lexington y los dos grupos de trabajo se dirigieron al oeste
+describiendo el ataque a través del Mar de Coral para comprometerse con la tarea japonesa
+el Shoho en las Bat- |fuerzas.
+tle del Mar de Coral | Se mantiene el mal tiempo, la mala visibilidad y la mala exploración
+		      |las flotas enemigas se descubran bien
+		      |lejos. En un momento sólo estaban a setenta millas
+		      |separados, pero cada uno no podía encontrar al otro. pero al amanecer
+----------------------|El 7 de mayo, finalmente llegaron aviones de búsqueda de ambos lados.
+Se lanzaron avistamientos y ataques. La Batalla del Mar del Coral había comenzado.
+Cazas F4F-3 Wildcat, bombarderos en picado Dauntless y torpedos Devastator
+aviones de Lexington y Yorktown buscaron a "dos
+portaaviones y cuatro cruceros." 
+
+A pesar de que el reconocimiento informó más tarde que no había ningún portaaviones en el
+área, el grupo siguió adelante y a las 11 a.m. encontraron la tarea más pequeña
+fuerza, que debía cubrir la invasión de Port Moresby. Allí, en las aguas
+Abajo, había un objetivo atractivo: el Shoho. Aunque estaba protegido por un
+pequeña cobertura del caza Zero, esto no fue suficiente para luchar contra noventa y tres
+Aviones americanos. Alcanzado por trece bombas y siete torpedos, el Shoho se hundió
+en media hora. 
+
+Mientras tanto, Shokaku y Zuikaku, fuera de la vista de los atacantes estadounidenses.
+aviones, lanzaron un ataque propio contra lo que era un avión de reconocimiento
+Se había presentado como portaaviones y crucero pesado. El "crucero" resultó ser
+será el destructor Sims, que fue alcanzado por varias bombas y se hundió. el
+El "portaaviones" era el petrolero Neosho, que resultó gravemente dañado y tuvo que ser
+hundido varios días después. 
+
+Al día siguiente, 8 de mayo, tras un inútil ataque nocturno a la misión estadounidense
+fuerza, una fuerza de ataque japonesa de treinta y tres bombarderos en picado Val, dieciocho
+Los aviones torpederos Kate y dieciocho Zeroes que escoltaban despegaron del
+Shokaku y Zuikaku a las 9 a.m. Los aviones exploradores habían partido antes, la estrategia
+siendo que si estos exploradores detectaran a los portaaviones estadounidenses, una fuerza de ataque
+estaría en lo cierto
+
+				14
+
+detrás. Al mismo tiempo, Lexington y Yorktown lanzaron la mayor parte de sus
+aviones disponibles para atacar a los dos grandes portaaviones japoneses.
+
+Tal como lo habían hecho el día anterior, las dos flotas opuestas de cazas,
+bombarderos en picado y aviones torpederos se cruzaron sin avistar el
+aviones de la oposición. A las 10:30 a. m., los aviones estadounidenses divisaron el Shokaku y
+atacó, logrando tres impactos de bombas y dañando gravemente el portaaviones pesado.
+El Zuikaku, escondido bajo una tormenta, no fue detectado por los atacantes
+y pudo lanzar aviones de combate para ayudar al Shokaku.
+
+Mientras los aviones estadounidenses atacaban, los aviones de exploración japoneses encontraron el
+Los grupos de trabajo estadounidenses y la fuerza de ataque japonesa pronto atacaron. Con luchador
+cobertura proporcionada por sólo diecisiete Wildcats y veintitrés inadecuados
+Dauntless, los portaaviones y sus buques de escolta prácticamente tuvieron que
+defenderse. Ese día, sin embargo, la puntería japonesa fue pobre. Torciendo
+y girando, el Yorktown pudo esquivar todos los torpedos y tomar solo
+una bomba impactó. El Lexington, menos maniobrable, fue alcanzado por dos torpedos y
+dos bombas.
+
+Los dos transportistas dañados pronto pudieron recuperar su regreso.
+aviones. Pero cuando los vapores de gasolina en el interior del Lexington fueron
+encendido accidentalmente
+
+				15
+
+por una chispa de un generador que se había dejado funcionando, el portaaviones fue
+sacudido por una tremenda explosión interna. Los incendios se salieron de control y
+el Lexington fue abandonado. Más tarde esa noche, fue hundido por
+torpedos del destructor Phelps.
+
+El grupo de trabajo de invasión japonés, que había revertido su curso cuando el
+Shoho fue atacado y se le ordenó regresar a Rabaul hasta que los portaaviones estadounidenses
+podría ser expulsado. Así, se pospuso la invasión de Port Moresby. con
+tanto los grupos de trabajo japoneses como estadounidenses se retiran para reparaciones y
+Después de repostar combustible, la Batalla del Mar del Coral había terminado. Dos "primicias" históricas habían
+ocurrió: una batalla naval entre portaaviones y una batalla naval en
+en el que los barcos opuestos ni siquiera se vieron.
+
+¿Quién ganó este compromiso frente a Nueva Guinea? Juzgado estrictamente sobre la base de
+barcos hundidos, fue una victoria japonesa. Los japoneses perdieron un portaaviones ligero.
+además de los servicios de un portaaviones pesado, un destructor y un petrolero. pero
+porque las pérdidas sufridas por los transportistas japoneses obligaron al aplazamiento, y
+eventual cancelación de la invasión de Port Moresby, la flota estadounidense podría
+reclamar una victoria estratégica en el Mar del Coral.
+
+				16
+
+		LA BATALLA DE MIDWAY (4-7 DE JUNIO DE 1942)
+
+Con una armada muy superior a la estadounidense, el almirante Isoroku Yamamote,
+Comandante en Jefe de la Flota Combinada de Japón, desarrolló un plan para destruir
+la Flota del Pacífico de Estados Unidos de una vez por todas. Después de una sorpresa al aire el 18 de abril.
+ataque a Tokio por parte de bombarderos estadounidenses B-25 de los portaaviones Hornet y
+Enterprise, decidió adelantar el calendario de esta batalla decisiva.
+
+El plan de Yamamoto era capturar la isla Midway, controlada por Estados Unidos, y utilizarla como
+un trampolín para apoderarse de las islas hawaianas. Para lograr esto, un
+Se enviaría una armada a Midway para bombardear la base estadounidense allí con portaaviones.
+aviones, y luego capturarlo con cinco mil tropas terrestres de doce
+transportes de tropas. Como medida de distracción, un grupo de trabajo japonés encabezaría
+al norte hasta las islas Aleutianas. El día antes del ataque de Midway, EE.UU.
+La base de Dutch Harbour en las Aleutianas sería bombardeada y las islas
+de Kiska y Attu serían invadidas.
+
+La estrategia japonesa sostenía que la flota estadounidense más pequeña zarparía inmediatamente
+fuera de Pearl Harbor cuando las Aleutianas fueron atacadas. rápidamente sería
+Visto por una cortina de submarino japonés en las afueras de Pearl Harbor. cuando el
+Comenzado el ataque a mitad de camino, la flota estadounidense cambiaría de rumbo para ayudar al
+isla, donde cambiarían de rumbo para ayudar a la isla, donde
+sería aplastado por la superior flota japonesa. Si algún barco estadounidense todavía
+Dirigidos a las Aleutianas, se encontrarían a mitad de camino con un grupo de trabajo de cuatro
+Acorazados japoneses.
+
+Pero a medida que la armada japonesa avanzaba hacia el este, la inteligencia estadounidense
+operaciones, después de haber descifrado el código secreto de Japón, se enteró del plan para
+invadir Midway. Almirante Chester W. Nimitz, comandante del Pacífico de EE. UU.
+Flota, ordenó reforzar Midway y bombarderos B-17 con base en tierra.
+voló desde Hawaii para repeler el ataque de las fuerzas de tarea invasoras. el
+Yorktown dañado, que los japoneses creen que se hundió en el Mar del Coral,
+En él trabajaron mil cuatrocientos técnicos del astillero de Pearl Harbor y
+reparado en tres días, en lugar de los tres meses originalmente estimados.
+Reparaciones completadas, el grupo de trabajo del portaaviones Yorktown, comandado por Rear
+Almirante Frank J. Fletcher, izquierda Pearl
+
+				17
+
+Puerto. El grupo de trabajo de portaaviones Enterprise y Hornet, comandado por Rear
+El almirante Raymond A. Spruance en lugar del enfermo vicealmirante William F.
+Halsey, también salió de Pearl Harbor. Cuando la barrera submarina japonesa
+Cuando llegó, la Flota del Pacífico de Estados Unidos ya estaba en el mar.
+
+Incluso con tres portaaviones, las fuerzas estadounidenses fueron superadas por las japonesas.
+La Primera Fuerza de Ataque de Portaaviones, bajo el mando del Vicealmirante Chuichi
+Nagumo, incluía a los portaaviones Akagi, Kaga, Hiryu y Soryu, todos veteranos.
+del ataque a Pearl Harbor, además de dos acorazados, tres cruceros y
+once destructores. Estaban sin el Shokaku dañado y el
+Zuikaku con aviones agotados, pero Yamamoto sintió que su flota podría aplastar el
+oposición sin los dos portaaviones marcados por la batalla.
+
+El 3 de junio, los aviones de reconocimiento estadounidenses, en alerta ante la tarea japonesa.
+fuerzas, finalmente vio al grupo del Vicealmirante Nobutake Kondo, que incluía
+dos acorazados, ocho cruceros pesados y los transportes de tropas. B-17
+Se enviaron bombarderos de Midway para atacar la flota, pero la gran altitud
+Los ataques no causaron daños a los barcos. Posteriormente, aviones japoneses del
+Los portaaviones Ryujo y Junyo atacaron el puerto holandés en las Aleutianas.
+
+Pero Nimitz, junto con los comandantes del grupo de trabajo estadounidense, Fletcher y
+Spruance, se negó a caer en la diversión japonesa de las Aleutianas. Su
+tres portaaviones se dirigieron al noroeste de Midway, donde pensaban que Nagumo
+serían los transportistas.
+
+En la mañana del 4 de junio, los cuatro portaaviones japoneses botaron el 108 Val
+bombarderos en picado, torpederos Kate y cazas Zero para atacar Midway. pero
+Mientras estos aviones se dirigían a la isla, dos de los portaaviones japoneses fueron
+visto por un
+
+				18
+
+Avión de reconocimiento estadounidense de Midway. Su posición estaba apenas dentro
+alcance del portaaviones estadounidense. Spruance ahora tenía que tomar una decisión.
+En caso de que el Hornet y el Enterprise pierdan un tiempo valioso para acercarse al
+¿Portadores japoneses? ¿O deberían atacar ahora y esperar atrapar al enemigo?
+transportistas cuando eran los más vulnerables: con el regreso de Midway
+¿Aviones de ataque repostando y recargando combustible en sus cubiertas? Spruance dio la
+orden: atacar ahora.
+
+De vuelta en Midway, se lanzó un contraataque contra la flota japonesa. un
+Variedad variada de bombarderos B-17 y B-26, SBD-3 Dauntless y Vindicator.
+bombarderos en picado y aviones torpederos TBF-1 Avenger, todos se dirigieron a Nagumo.
+transportistas. La portada del luchador de Midway con seis Wildcats y veinte anticuados.
+Brewster Buffalos también salió al aire para proteger la isla.
+
+Cuando la ola de ataque japonesa llegó a Midway, la mayoría de los estadounidenses
+Los cazas Zero derribaron aviones de combate en veinticinco minutos.
+Las instalaciones de Midway fueron bombardeadas, excepto la pista, que el
+Los japoneses planeaban utilizarlo después de la captura de Midway. Los B-17 que contraatacan,
+volando muy por encima de los barcos japoneses y su cubierta de caza Zero, cayó
+sus bombas sin ningún impacto, y regresaron a Midway después de que los japoneses
+ataque. Los seis Vengadores, volando sin la cobertura de los cazas, eran blancos fáciles.
+para los Zeros y solo uno regresó a Midway. Una vez más, no hay barcos japoneses.
+fueron golpeados.
+
+Pero entonces el almirante Nagumo cometió un grave error. Decidió que el
+acoso de los Midway B-17 y otros bombarderos, que mantenía su
+Los combatientes de defensa del grupo de trabajo en el aire constantemente, tuvieron que terminar de una vez por todas.
+todos. Se habían reservado varios bombarderos cargados con torpedos en caso de que
+Se avistó la flota americana. Nagumo ordenó que estos aviones fueran
+inmediatamente rearmado con bombas terrestres para destruir a los estadounidenses restantes.
+aviones mientras estaban en tierra en Midway. Cuando esta conversión fue
+parcialmente terminado, un avión de exploración japonés informó por radio que habían avistado
+la flota de portaaviones estadounidense. Nagumo temporalmente
+
+				19
+detuvo el cambio de armamento, luego ordenó que se retiraran las bombas terrestres,
+y reemplazado por torpedos.
+
+Su indecisión resultó costosa. Porque si bien esto lleva mucho tiempo
+se estaba llevando a cabo el rearme, el Enterprise y el Hornet habían lanzado todos los
+Bombardero en picado, bombardero torpedero y caza disponibles para atacar al portaaviones.
+fuerza. Una hora y media después, el Yorktown lanzó sus aviones. el
+Los bombarderos en picado y los cazas del Hornet no lograron localizar a los portaaviones y fueron
+obligados a regresar, y todos los Wildcats eventualmente se quedaron sin
+combustible y amerizaje. Pero el resto siguió volando, y a las 9:25, el torpedo
+El escuadrón del Hornet, Torpedo 8, vio la flota japonesa.
+
+Volando en los lentos y obsoletos TBD Devastators, sin escolta de cazas, todos
+tres escuadrones de torpederos no fueron rival para el enjambre de cazas Zero
+protegiendo a los transportistas. De los cuarenta y un aviones torpederos que atacaron,
+treinta y siete fueron derribados y ningún torpedo alcanzó ningún barco japonés. cada
+El avión del Hornet's Torpedo 8 fue derribado y sólo un hombre, el alférez
+George Gay, sobrevivió al ataque.
+
+Hasta ahora, a Estados Unidos le estaba yendo terriblemente bien en la Batalla de Midway. un total de
+Noventa y tres bombarderos y aviones torpederos habían atacado a la flota japonesa.
+sin anotar un solo golpe. Y los aviones de Nagumo, incluidos los del
+anterior ataque de Midway, fueron recuperados, reabastecidos de combustible, rearmados y listos para ser
+lanzado contra los portaaviones estadounidenses. Los cuatro portaaviones comenzaron a girar
+el viento para lanzar sus aviones.
+
+De repente, desde la cubierta del Kaga, el vigía gritó: "¡Bombarderos en picado!"
+mientras 
+
+				20
+
+La cobertura del caza japonés estaba ocupada destruyendo el torpedo que volaba bajo.
+aviones, dos escuadrones de Dauntlesses de alto vuelo del Enterprise fueron
+bucear en los portaaviones. Con el teniente comandante Wade McCluskey al frente
+En el camino, cuatro bombas destrozaron el Kaga, provocando una cadena de explosiones mientras
+Los aviones en cubierta se incendiaron. Escuadrón del teniente Richard Best
+atacó al Akagi, y la bomba del líder Best fue la primera en golpear el
+portaaviones, aterrizando cerca del puente. Siguieron otros éxitos, y pronto el Akagi
+estaba envuelto en llamas. Luego, los bombarderos en picada del comandante Max Leslie desde el
+Yorktown, que había alcanzado a los escuadrones del Enterprise, atacó el
+cubierta de Soryu, y veinte minutos más tarde, su capitán ordenó a la tripulación
+abandonar el barco.
+
+Seis minutos después de que atacara el primer bombardero en picado estadounidense, el asalto había terminado.
+y tres portaaviones japoneses resultaron heridos de muerte. Irónicamente, el
+Los bombarderos en picada del Enterprise estaban regresando a su portaaviones cuando
+Vieron un destructor japonés y siguieron su curso hacia el puerto de Nagumo.
+transportistas. Anteriormente, habían buscado en vano en otra zona. otro
+ironía: las cubiertas del Akagi, Kaga y Soryu estaban repletas de combustible y
+aviones armados a punto de ser lanzados. Muchas bombas estaban esparcidas por la cubierta.
+zona mientras las tripulaciones rearmaban apresuradamente los aviones. 
+
+Cuando llegó el ataque, no fue de extrañar que los impactos directos en su vuelo
+Las cubiertas rápidamente convirtieron a los tres portaaviones en infiernos ardientes y explosivos.
+Si el ataque se hubiera producido unos minutos más tarde, los tres portaaviones habrían
+ya lanzaron sus aviones, y tal vez los portaaviones estadounidenses hubieran
+enviado al fondo en lugar de los japoneses.
+
+Mientras los bombarderos en picado estadounidenses despegaban, un portaaviones japonés permaneció intacto.
+A lo lejos, el Hiryu rápidamente comenzó a lanzar un ataque contra el
+transportistas americanos. Le siguieron los bombarderos en picado japoneses Val y los cazas Zero.
+algunos de los
+
+				21
+
+Los aviones de Yorktown regresaron al portaaviones, y mientras los Zeros atacaban al
+En la portada del caza Wildcat de Yorktown, los Vals se abalanzaron sobre él.
+que sólo siete bombarderos arrojaron sus cargas de bombas, tres bombas
+Golpeó al Yorktown y lo dejó muerto en el agua. Tan pronto como hubo el daño
+bajo control cuando una oleada de torpederos Kate atacó el
+Yorktown, anotando dos hits. El transportista impotente pronto fue incluido en la lista.
+abandonado por su tripulación.
+Más tarde, los aviones de reconocimiento estadounidenses localizaron el Hiryu,
+y se lanzaron treinta y ocho aviones del Hornet y Enterprise. como
+Los aviones del Hiryu se estaban preparando para un ataque crepuscular contra el territorio estadounidense.
+portaaviones, los aviones estadounidenses se lanzaron en picada desde el sol poniente. Cuatro golpes directos
+Más tarde, el Hiryu era un desastre en llamas.
+
+Al finalizar el día, cuatro portaaviones japoneses y un portaaviones estadounidense estaban muertos.
+en el agua. El Soryu y el Kaga se hundieron más tarde esa noche, mientras que el siguiente
+Por la mañana el Akagi y el Hiryu fueron hundidos por destructores japoneses para evitar
+evitar que caigan en manos estadounidenses. Del lado americano, un salvamento
+El grupo abordó el Yorktown y, con un cable de remolque asegurado a un dragaminas,
+el portaaviones fue remolcado hacia Hawaii.
+
+Esa noche, Yamamoto, todavía con la esperanza de alcanzar a la flota estadounidense con su gran
+acorazados, continuaron navegando hacia Midway. Pero el intuitivo Spruance
+decidió que los grupos de trabajo estadounidenses no tentarían su suerte y ordenó
+navegar hacia el este, donde estarían en una mejor posición para proteger
+A medio camino de cualquier
+
+				22
+
+nuevos ataques.
+
+Temprano a la mañana siguiente, hubo otro enfrentamiento entre las dos partes.
+El submarino estadounidense Tambor avistó varios barcos japoneses y fue
+visto a cambio. Sin embargo, en la lucha por evadir el Tambor, dos
+Los cruceros pesados japoneses Mogami y Mikuma chocaron. dejando un aceite
+mancha que fue fácilmente detectada por los aviones estadounidenses, los dos barcos fueron posteriormente
+atacado por aviones terrestres, con pocos daños. Pero al día siguiente,
+Aviones del Hornet y Enterprise atacaron los cruceros, hundiendo el
+Mikuma y dañando gravemente a los Mogami.
+
+En la tarde del 5 de junio, el almirante Yamamoto, con sus cuatro portaaviones ahora
+acostado en el fondo del océano, se dio cuenta de que permanecer en el área sin aire
+La cobertura pondría al resto de su flota en grave riesgo. Él canceló el
+Invasión a mitad de camino y ordenó a sus barcos que se dirigieran al oeste.
+
+Mientras tanto, el Yorktown y sus barcos de escolta habían sido avistados por el
+Submarino japonés I168. Tras atravesar una barrera de destructores, el
+El I168 disparó cuatro torpedos contra el Yorktown. Dos chocaron contra el portaaviones mientras que uno
+impactó al destructor Hammann, que estaba junto al Yorktown. el torpedo
+rompió el casco del Hammann en dos y el destructor se hundió a tres
+minutos. El Yorktown, ahora dañado sin posibilidad de salvación, finalmente se hundió.
+la mañana del 7 de junio.
+
+Con el hundimiento del Yorktown, la batalla de Midway terminó. fue un
+punto de inflexión en la guerra en el Pacífico: una victoria para una flota estadounidense que
+uno muy necesario seis meses después de Pearl Harbor, y un revés del que
+Japón nunca se recuperaría. La pérdida de 4 portaaviones, 322 aviones y 3.500
+Los hombres asestaron un duro golpe a las esperanzas de Japón de una dominación total en el
+Pacífico. Después de Midway, Japón y Estados Unidos estarían prácticamente en
+incluso términos.
+
+				23
+
+		  LA BATALLA DE LAS SALOMONES DEL ORIENTAL
+			(24 DE AGOSTO DE 1942)
+
+Con la victoria en Midway, la estrategia estadounidense para la guerra en el
+El Pacífico cambió. En lugar de librar batallas defensivas, el American Joint
+Los jefes de Estado Mayor decidieron que una política de apoderarse de las islas controladas por los japoneses para
+su uso como bases avanzadas era la mejor manera de hacer retroceder al Pacífico japonés.
+perímetro.
+
+Acordaron que la primera base japonesa que se tomaría sería la recién
+estableció uno en Tulagi, en el sur de las Islas Salomón. mientras exploraba
+En julio en Tulagi, un avión de reconocimiento estadounidense informó que una pista de aterrizaje
+Se estaba construyendo en la isla de Guadalcanal, al sureste de Tulagi. Los pedidos fueron
+dado para invadir esta isla, apoderarse del aeródromo y evitar que los japoneses
+de establecer la superioridad aérea en la región.
+
+El 7 de agosto, los marines estadounidenses invadieron Guadalcanal y Tulagi. Sorprendente el
+fuerza ligera japonesa en la pista de aterrizaje de Guadalcanal, la capturaron y
+lo renombró Henderson Field, en honor a un mayor de la Infantería de Marina que murió en el
+Ataque japonés a la isla Midway. Los marines estadounidenses se encontraron con armas mucho más pesadas.
+resistencia en Tulagi, pero logró asegurarla el 8 de agosto.
+Desde su base en Rabaul, al noroeste de Guadalcanal, los japoneses enviaron
+aviones para bombardear las nuevas posiciones americanas. También se formó un grupo de trabajo naval
+enviado para enfrentarse a los barcos de superficie estadounidenses frente a Guadalcanal. en
+medianoche del 8 de agosto, un ataque sorpresa japonés, conocido como la Batalla de
+Isla Savo, hundió tres cruceros estadounidenses y un crucero australiano,
+eliminando efectivamente la flota de apoyo.
+
+Durante las siguientes dos semanas, los marines estadounidenses en Henderson Field estuvieron en gran parte
+aislados excepto por el alivio ocasional de aviones y barcos cuando podían
+pasar. Las tropas japonesas, que controlaban el resto de la isla,
+montaron ataque tras ataque, pero fueron repelidos por los estadounidenses, superados en número.
+Cada noche, 
+
+				24
+
+Los barcos japoneses navegaron sin oposición por el estrecho al norte de
+Guadalcanal, conocida como "La Ranura", desembarcó tropas y suministros, y
+bombardeó las posiciones de los marines estadounidenses. Estas redadas se llevaron a cabo con tal
+regularidad que fueron apodados el "Expreso de Tokio".
+
+En un intento de eliminar completamente a los estadounidenses, un grupo de trabajo japonés
+se reunió en Rabaul. El plan japonés, conocido como Operación KA, denominado
+para el desembarco de mil quinientos soldados japoneses en Guadalcanal,
+apoyado por bombardeos aéreos y marítimos. Este grupo de trabajo se dirigió hacia
+Guadalcanal cubierto por el grupo del Vicealmirante Nobutake Kondo, que incluía
+los portaaviones pesados Shokaku y Zuikaku, veteranos de la Batalla del Coral
+Mar. El grupo de trabajo de distracción del contralmirante Tadaichi Hara, que incluía
+el portaaviones ligero Ryujo, navegó hacia el sur, por delante del grupo de trabajo principal. 
+
+La estrategia japonesa era que si los estadounidenses mordían el anzuelo y atacaban a los
+grupo Ryujo, los aviones de contraataque de Shokaku y Zuikaku
+hundir los portaaviones estadounidenses mientras sus aviones estaban fuera.
+
+Esta oleada de actividad japonesa en Rabaul fue detectada por exploradores estadounidenses.
+aviones y submarinos, y el comando estadounidense supuso que se estaba produciendo un ataque.
+próximamente. El grupo de trabajo estadounidense, que incluía a los portaaviones
+Enterprise, Saratoga y Wasp recibieron la orden de permanecer al sur, lejos de
+Aviones de búsqueda japoneses, para proteger las rutas marítimas al este de Guadalcanal.
+
+El 23 de agosto, aviones de patrulla estadounidenses detectaron transportes de tropas japonesas.
+rumbo a Guadalcanal. Bombarderos en picado SBD-3 Dauntless y TBF-1 Avenger
+Los torpederos del Saratoga se dirigieron al noroeste para interceptarlos.
+Sin embargo, el grupo de trabajo de invasión japonés, que había descubierto al explorador
+El avión cambió bruscamente de rumbo y los bombarderos estadounidenses no pudieron localizarlo.
+Se vieron obligados a aterrizar en 
+
+				25
+
+Henderson Field esa noche y se reincorporó al Saratoga al día siguiente.
+
+Sin un conocimiento definido de la posición del grupo de trabajo japonés y sin
+esperando una batalla todavía, el almirante Frank J. Fletcher, comandante del
+fuerza de portaaviones, envió al Wasp y sus destructores escoltas al sur en busca de combustible.
+aceite. Esto dejó sólo dos portaaviones para enfrentarse a los japoneses.
+
+Al día siguiente, 24 de agosto, el radar del grupo de trabajo estadounidense captó a los japoneses.
+aviones se dirigieron a Guadalcanal desde el Ryujo. Treinta bombarderos exploradores y
+Se lanzaron ocho aviones torpederos del Saratoga para buscar y
+atacar al transportista. Mientras estaban en el aire, aviones de exploración estadounidenses localizaron
+Shokaku y Zuikaku, pero la mala recepción de radio impidió que el Saratoga
+aviones escuchen la orden de atacarlos. En cambio, los Intrépidos
+Encontró el Ryujo y lo atacó con treinta bombas de 1.000 libras. cuatro a
+diez de ellos dieron en el blanco y, tras un ataque con torpedos de los Vengadores,
+El Ryujo rápidamente se hundió.
+
+Pero fue una pérdida con la que los japoneses podían vivir, porque los estadounidenses habían
+Se tragó el cebo de distracción de Ryujo, mientras que Shokaku y Zuikaku permanecieron
+intacto. Mientras el Ryujo estaba siendo atacado, un avión de exploración japonés localizó
+los transportistas estadounidenses. Antes de ser derribado, transmitió por radio la posición del
+Barcos estadounidenses, y pronto se lanzó un ataque de los Shokaku y Zuikaku.
+
+Desde que los cazas estadounidenses F4F-4 Wildcat derribaron el avión de exploración cerca del
+portaaviones, el almirante Fletcher asumió que los japoneses conocían su posición
+y lanzaría un ataque. El grupo de trabajo fue alertado sobre esta posibilidad.
+y se lanzaron cincuenta y tres cazas como pantalla defensiva.
+
+El ataque pronto se materializó. El Enterprise y Saratoga estaban a diez millas
+aparte, 
+
+				26
+
+entonces los japoneses se concentraron en la "Gran E". Volando a través de una pantalla pesada
+de cazas y fuego antiaéreo, la mayoría de los bombarderos en picado japoneses fueron
+derribado. Sin embargo, a pesar de la potencia de fuego asesina, varios Vals consiguieron
+Atravesó el Enterprise y lo atacó con tres impactos directos. incluso
+aunque las explosiones abrieron agujeros en la cubierta de vuelo del barco y bloquearon el
+timón, los equipos de control de daños pronto tuvieron el Enterprise en pleno funcionamiento
+otra vez.
+
+Una segunda oleada de aviones japoneses atacantes no pudo localizar el
+Flota americana y tuvo que regresar a los portaaviones. Mientras tanto, americano
+Los aviones del Saratoga no pudieron localizar a los portaaviones pesados japoneses, y
+en cambio, atacó y dañó un portaaviones, el Chitose.
+
+Al acercarse la noche, el grupo de trabajo estadounidense decidió romper el
+ataca y dirígete hacia el sur. El grupo de trabajo japonés también navegó hacia el sur, pero en
+medianoche, el almirante Kondo, no queriendo arriesgar sus barcos en la oscuridad,
+les ordenó girar hacia el norte.
+
+Al día siguiente, los aviones de exploración japoneses buscan sin éxito señales del
+grupo de trabajo estadounidense, que estaba fuera de su alcance. Sus barcos ahora estaban bajos
+se quedaron sin combustible, por lo que Kondo les ordenó regresar a la base de Truk.
+
+Mientras tanto, el grupo de transporte japonés todavía se dirigía hacia Guadalcanal.
+
+				27
+
+Pero los Dauntlesses del Henderson Field, que no habían podido localizar el
+transportistas, tropezaron con los transportes. Cargado de tropas, el Kinryu
+Maru fue alcanzado por una bomba, al igual que el crucero Jintsu. Bombarderos B-17 del ejército
+siguió este ataque y, por primera vez en la guerra, golpeó y hundió un
+barco, un destructor de escolta. Como era obvio que Estados Unidos controlaba
+los cielos sobre Guadalcanal, el grupo de trabajo de invasión japonesa también fue
+—gritó de nuevo a Truk.
+
+La Batalla de las Salomón Orientales había terminado y el resultado fue algo
+de un sorteo. Los japoneses perdieron un pequeño portaaviones que Yamamoto había
+pérdidas previstas, además de numerosos aviones de transporte y tripulaciones. Estados Unidos perdió
+la Empresa durante dos meses para reparaciones. pero Estados Unidos había impedido
+japoneses establecieran una superioridad aérea sobre Guadalcanal y habían girado
+retroceder un importante desembarco de tropas. Y los marines estadounidenses todavía mantuvieron su posición.
+en el campo Henderson.
+
+				28
+
+		LA BATALLA DE LAS ISLAS SANTA CRUZ
+			(26-27 DE OCTUBRE DE 1942)
+
+Mientras la batalla por Guadalcanal se prolongaba durante septiembre y octubre, 
+En 1942, el almirante Isoroku Yamamoto elaboró un plan para poner fin a la
+conflicto. Su estrategia requería un bombardeo naval del campo Henderson,
+después de lo cual las tropas terrestres tomarían la pista de aterrizaje. Una vez que esto fue
+Una vez logrado, los aviones con base en portaaviones se movilizarían para ayudar en la ofensiva.
+e impedir que los estadounidenses desembarquen refuerzos. Tropas adicionales
+Luego aterrizaría en Guadalcanal para expulsar a los estadounidenses restantes.
+Infantes de marina.
+
+El grupo de trabajo japonés sobre portaaviones, incluidos los portaaviones Shokaku, Zuikaku,
+Junyo y Zuiho navegaron hacia el sur, hacia Guadalcanal. El 23 de octubre, EE.UU.
+Los aviones de reconocimiento detectaron los barcos japoneses. Dos reunidos apresuradamente
+grupos de portaaviones, liderados por el Hornet y el recientemente reparado Enterprise,
+Se les ordenó que se dirigieran a una posición al norte de las islas Santa Cruz, al este de
+Guadalcanal, para interceptar a los japoneses.
+
+Mientras tanto, los japoneses lanzaron un feroz ataque por tierra y mar contra la
+Posiciones estadounidenses cerca de Henderson Field. Aunque la devastadora guerra naval
+El bombardeo destruyó la mayoría de los aviones estadounidenses en la pista de aterrizaje, los japoneses
+Las tropas terrestres no pudieron invadir a los marines estadounidenses.
+
+El 25 y 26 de octubre, avistamientos adicionales de los cuatro japoneses
+Los portaaviones se convirtieron en aviones de exploración. En la madrugada del 26 de octubre, el Vicealmirante
+William F. Halsey, comandante de la Fuerza del Pacífico Sur, dio la orden de
+ataque. Dos SBD-3
+
+				29
+Los intrépidos exploradores y bombarderos del Enterprise localizaron al grupo de trabajo japonés.
+y atacó al Zuiho. Dos impactos de bomba dañaron el portaaviones y fue
+incapaz de lanzar o recuperar más aviones. El Hornet lanzó entonces dos
+oleadas de aviones de ataque mientras el Enterprise lanzaba otro.
+
+Desafortunadamente para los estadounidenses, el Zuiho ya había lanzado sus aviones.
+contra los transportistas estadounidenses. Un avión de búsqueda había detectado antes al Hornet,
+y veintisiete Zeros, veintidós Vals y dieciocho Kates de los cuatro
+Los portaaviones japoneses se dirigían hacia los barcos estadounidenses. el primero
+El grupo de ataque japonés superó una ola de cazas estadounidenses F4F-4 Wildcat,
+Los torpederos TBF-1 Avenger y los bombarderos en picado SBD-3 Dauntless del
+Empresa. En la escaramuza que siguió, los Zeros derribaron a tres Wildcats y
+cuatro Vengadores y perdió a tres de los suyos. Los dos grupos opuestos entonces
+continuaron hacia sus objetivos.
+
+A las 9:10 horas, los escuadrones japoneses encontraron los grupos de portaaviones estadounidenses.
+Con el Enterprise oculto por una tormenta, los atacantes se abalanzaron sobre el
+Avispón. Aunque muchos Vals fueron destruidos por el fuego antiaéreo del
+Hornet, un buen número logró pasar y el portaaviones fue destrozado por cuatro bombas.
+golpes y un accidente suicida deliberado por parte de un Val dañado. Dos torpedos de
+el atacante 
+
+				30
+
+Kates y otro accidente suicida completaron el daño, y el Hornet fue
+abandonado listado y en llamas.
+
+Mientras el Hornet estaba bajo ataque, sus aviones, junto con los del
+Enterprise, estaban desatando un ataque similar contra los portaaviones japoneses. el
+American Dauntlesses, señalando que el Zuiho ya había sido dañado por el
+ataque anterior, concentrado en el Shokaku. Tres a seis 1.000 libras
+Las bombas sacudieron el portaaviones y destruyeron su cubierta de vuelo, poniendo fin a más
+operaciones de vuelo. Otros aviones atacaron objetivos secundarios en la tarea.
+fuerza y ​​dañó gravemente el crucero Chikuma.
+
+De vuelta en el grupo de trabajo estadounidense, un submarino japonés atacante fue torpedeado.
+el destructor Porter, que posteriormente tuvo que ser hundido por los americanos. Entonces un
+Golpeó la segunda oleada japonesa de Shokaku y Zuikaku. primer baston el
+Bombarderos en picado Val, volando directamente hacia el asesino fuego antiaéreo
+del Enterprise y del acorazado South Dakota, que más tarde fue
+se le atribuyen veintiséis muertes. Pero los Val aún lograron dañar el
+Enterprise con tres impactos de bomba. Luego vinieron los torpederos Kate,
+lanzando cuatro torpedos que el Enterprise pudo evitar. otro
+La ola del Junyo dañó al South Dakota y al crucero San Juan.
+
+				31
+
+A raíz de estos ataques, el Enterprise todavía estaba operativo y
+procedió a recuperar sus aviones. Sin embargo, en el Hornet, que está muerto en el agua,
+Los equipos de salvamento intentaban remolcar el portaaviones cuando una ola de japoneses
+torpederos y bombarderos en picado de los ilesos Zuikaku y Junyo
+golpeado. El Hornet fue alcanzado por un torpedo y dos bombas, y se dio la orden.
+dado para abandonar el barco.
+
+Con la flota japonesa acercándose, los destructores Mustin y Anderson
+se les asignó la tarea de hundir el Hornet. Pero incluso después de tomar nueve
+Con los impactos de los torpedos estadounidenses, el Hornet no se hundiría. los destructores
+Luego disparó cuatrocientas treinta balas al portaaviones y pronto estuvo
+un infierno flotante. Cuando los aviones de reconocimiento japoneses comenzaron a caer
+Las bengalas aparecieron en el lugar y los destructores estadounidenses huyeron. Más tarde un japonés
+Llegó la división de destructores y disparó cuatro torpedos más al Hornet.
+enviándolo al fondo.
+
+En términos de tonelaje de combate perdido, la Batalla de las Islas Santa Cruz fue una
+Victoria japonesa. La pérdida del Hornet dejó al Enterprise dañado como el
+Único portaaviones en funcionamiento en el Pacífico. Tácticamente, sin embargo, EE.UU.
+obtuvo la ventaja en la batalla. Con dos portaaviones dañados y muchos aviones y
+tripulaciones perdidas, el grupo de trabajo japonés tuvo que regresar y dirigirse a su
+base en Truk. Cualquier otro intento más de expulsar a los marines estadounidenses de
+Guadalcanal había fracasado. cuatro
+
+				32
+Meses más tarde, los japoneses admitirían la derrota y retirarían lo que les quedaba.
+tropas de Guadalcanal, la "Isla de la Muerte". Durante los próximos dos y medio
+años, continuarían luchando en una larga y sangrienta serie de ataques
+batallas hasta el 2 de septiembre de 1945, cuando Japón se rendiría oficialmente a
+Estados Unidos.
+
+				33
+
+			     JUEGO
+
+				35
+
+			INSTRUCCIONES DE CARGA
+
+Retire el disquete Battlehawks de la funda en la parte posterior del libro.
+luego mire la Tarjeta de referencia. Allí encontrará instrucciones sobre cómo
+cargue Battlehawks desde un disquete, instálelo en un disco duro y comience
+subir el programa. Cuando haya terminado, consulte nuevamente las Opciones del menú.
+sección del manual siguiente.
+
+			OPCIONES DE MENÚ
+
+Una vez que hayas cargado el disco Battlehawks, estarás en el primero de varios
+menús. Aquí le mostramos cómo desplazarse por todas las opciones del menú, incluidas
+revisar aviones, seleccionar misiones y realizar un seguimiento de su piloto
+registros.
+
+				36
+
+	    CÓMO SELECCIONAR ENTRE LAS OPCIONES EN LA PANTALLA
+
+De ahora en adelante, nos referiremos a las teclas de cursor, mouse o joystick como "el
+controlador."
+
+En muchos puntos del juego, verás una pantalla con tus opciones actuales.
+con una opción resaltada en color brillante. Puedes mover este resaltado en
+un color brillante. Puede mover este resaltado de una opción a otra haciendo
+moviendo el controlador en la dirección adecuada o presionando el botón
+teclas correctas (consulte la referencia del teclado). Entonces, para elegir realmente el
+selección resaltada y pasar a la siguiente pantalla, presione RETORNO (o
+presione y suelte el botón del controlador).
+
+INICIO DEL JUEGO
+
+Presione cualquier tecla o parte inferior para moverse por la pantalla de título y el título.
+pantalla y los créditos al Menú Principal.
+
+								YAMAMOTO
+								(IMAGEN)
+
+				37
+
+			   MENÚ PRINCIPAL
+
+Sabrá que ha llegado al Menú principal cuando vea una pantalla con un
+Primer plano de un plano de caza American Wildcat en la cubierta de un portaaviones.
+Habrá cinco opciones de menú:
+
+SELECCIONAR ENTRENAMIENTO Te permite elegir una misión de entrenamiento, que no
+reflejar en su Registro de Servicio. 
+
+SELECCIONAR SERVICIO ACTIVO Le permite elegir una misión de Servicio Activo que
+Cuente con su Hoja de Servicio. 
+
+REVISAR AVIONES Le permite inspeccionar los diferentes aviones japoneses y americanos.
+Aviones que puedes volar en Battlehawks. 
+
+REVISAR REGISTROS DE SERVICIO Le permite inspeccionar y administrar los registros de todos
+pilotos. Automáticamente iniciarás el juego con un piloto americano predeterminado.
+llamado APRENDIZ. Si desea utilizar un piloto diferente o comenzar con uno nuevo
+uno, debes elegir esta opción antes de tu primera misión de servicio activo.
+
+SALIR DEL PROGRAMA Te permite salir del juego.
+
+				38
+
+			MISIONES DE ENTRENAMIENTO
+
+Aquí es donde usted puede desarrollar, practicar y mejorar las habilidades que pueden
+ayudarle a desempeñarse bien en sus misiones de servicio activo. Dado que ninguno de los
+Los resultados de estas misiones de entrenamiento aparecerán en su registro de servicio.
+Le animamos a correr riesgos y cometer errores al volarlos. es el
+La mejor manera de convertirse en un mejor piloto en situaciones de combate reales.
+
+Una vez que hayas elegido una misión de entrenamiento, pasarás a la sala de preparación.
+pantalla, donde podrás realizar modificaciones en tu misión. Experimente con
+tantas modificaciones diferentes como puedas.
+
+								TRANSPORTADOR
+								(IMAGEN)
+
+				39
+
+Tendrás cuatro tipos de misiones de entrenamiento para elegir:
+
+INTERCEPCIÓN DE CAZA Atacarás a los aviones enemigos entrantes con tu caza.
+Debes defender tu nave derribando bombarderos enemigos o sus cazas.
+escoltas antes de que puedan atacar. 
+
+ESCORTA DE CAZA Pilotarás un caza y defenderás aviones amigos mientras
+atacar barcos enemigos. Con cazas enemigos por todas partes, tus compañeros pilotos
+Necesita toda la protección que pueda darles. 
+
+BOMBARDEO EN BUCEO Lanzarás tu carga de bombas sobre un barco enemigo. Bombarderos en picado
+volaron a gran altura, luego se lanzaron casi hacia abajo, liberando sus
+bomba y acercándose a sus objetivos. Dependiendo de tu misión,
+Es posible que te enfrentes a la oposición de los cazas enemigos. Para obtener más información, consulte la
+sección sobre tácticas y consejos aéreos.
+BOMBARDEO CON TORPEDOS Realizarás una peligrosa carrera con torpedos. El torpedo que vuela bajo
+Los bombarderos tenían que prácticamente rozar las olas para lanzar su torpedo, y para
+evitar ser detectado por el enemigo. Vuela bajo y lento hacia el barco enemigo,
+y suelta tu torpedo cuando estés cerca. Es posible que haya combatientes enemigos en la zona.
+Las técnicas de bombardeo con torpedos se analizan en Tácticas y consejos aéreos.
+
+SALIR Esto lo regresa al Menú Principal.
+
+Para seleccionar una de estas misiones de entrenamiento, mueve tu controlador hacia arriba y hacia abajo
+hasta que se resalte el tipo de misión que deseas realizar. A continuación, mueva su
+derecho del controlador a ver los diferentes escenarios para ese tipo de misión,
+Luego se fue para verlos nuevamente. Los primeros escenarios son los más fáciles y usted
+puede enfrentar poca o ninguna oposición. A medida que continúa moviendo el controlador a
+la derecha, los escenarios serán cada vez más difíciles.
+
+				40
+
+			  MISIONES DE SERVICIO ACTIVO
+
+¡Estos son los que cuentan! El éxito en tus misiones de servicio activo será
+recompensado con promociones y medallas, que quedarán registradas en su Servicio
+Grabar. Pero no ejecutar tu misión correctamente también será
+grabado.
+
+Y recuerde: en 1942, muchos pilotos no lograron regresar a sus barcos.
+¡Estas misiones pueden ser peligrosas!
+
+Cuando pasas a la pantalla de misiones de servicio activo, el nombre y la nacionalidad
+de su piloto actual se muestra en la parte superior. Con el piloto original,
+APRENDIZAJE, no podrá guardar su Registro de servicio. Si quieres
+cambiar el piloto, seleccione SALIR, luego seleccione REVISAR REGISTROS DE SERVICIO en la
+Menú principal. (Para obtener más información, consulte la sección Revisar registros de servicio de
+este manual.)
+
+Para comenzar tu misión de Servicio Activo, elige una de las batallas que se muestran en tu
+pantalla. Luego, mueve tu controlador hacia la derecha para ver las diversas misiones que
+puede volar, luego se fue para mirarlos nuevamente. Estas misiones variarán,
+dependiendo de la batalla que hayas elegido y de la nacionalidad de tu piloto.
+Puedes seleccionar las misiones en cualquier orden, pero debes completar todas las
+misiones en una batalla determinada para calificar para los máximos honores.
+
+En la pantalla del menú, verás las siguientes cuatro opciones de batalla:
+
+LA BATALLA DEL MAR DEL CORAL Un duelo de flattops, donde por primera
+época una batalla naval se libraba enteramente con poder aéreo. Los americanos perdieron
+más barcos, pero obtuvo la victoria más importante al evitar que un japonés
+invasión. Esta vez, el resultado depende de ti.
+
+LA BATALLA DE MIDWAY La batalla fundamental de 1942, quizás de toda
+Guerra del Pacífico. Cuando terminó, cuatro portaaviones japoneses estaban en el fondo del
+el mar. ¿Puedes recrear la historia o cambiarla?
+
+LA BATALLA DE LAS SALOMONES DEL ORIENTAL Los japoneses quieren desembarcar tropas en el
+Isla de Guadalcanal. Los estadounidenses quieren detenerlos. Históricamente,
+fue una compensación en barcos, pero una victoria estratégica para los estadounidenses porque
+la flota de invasión japonesa retrocedió. Ahora está en tus manos.
+
+								INFAMIA
+								(IMAGEN)
+
+				41
+
+LA BATALLA DE LAS ISLAS SANTA CRUZ La última gran batalla de portaaviones de
+1942. Una victoria aquí y los japoneses aún podrían dominar el Pacífico.
+teatro. ¿Le darás al Imperio del Sol Naciente nuevas esperanzas o lo detendrás?
+¿frío? SALIR Esto lo regresa al Menú Principal.
+
+En cada una de estas batallas, podrás experimentar la misma situación desde ambos.
+lados de la batalla. La composición de las fuerzas puede no ser precisamente la
+Lo mismo para cada lado, ya que se eligieron situaciones emocionantes para maximizar cada lado.
+el desafío del bando.
+
+Después de haber elegido una de estas batallas, mueve tu controlador hacia la derecha para
+Vea sus opciones de misión y luego salga para verlas por segunda vez. Recuerda,
+Para distinguirte en el combate, te animamos a volar todas las misiones.
+en una batalla determinada.
+
+              BATALLA DEL MAR DEL CORAL: OPCIONES DE MISIÓN
+
+U.S. Fly uno de varios SBD Dauntless lanzados desde el portaaviones
+Lexington en un bombardeo en picado contra el portaaviones ligero dañado y en llamas
+Shoho. Se espera cobertura de cazas enemigos. (En la batalla real, el Shoho
+estaba hundido.)
+JAPÓN Vuela un caza Zero en una misión de intercepción para proteger al Shoho de
+acercándose a los bombarderos en picado estadounidenses.
+
+EE.UU. Estás en un caza F4F Wildcat, escoltando a un grupo de bombarderos en picado en
+su ataque al Shokaku, un portaaviones pesado. Una CAP (Combat Air) agresiva
+Patrol) de Zeros intentará proteger al transportista. (En esta acción, el
+Shokaku resultó dañado y tuvo que no participar en la Batalla de Midway).
+
+JAPÓN Tú y tu caza Zero debéis interceptar al estadounidense que se aproxima.
+ataque aéreo y salvar al Shokaku, un honorable veterano de Pearl Harbor
+ataque.
+
+EE.UU. Estás a la defensiva en tu Wildcat como un grupo de torpedos Kate.
+Los bombarderos, escoltados por cazas Zero, se acercan para atacar. Concéntrate en
+los Kate y
+
+				42
+
+No dejes que lleguen al Lexington.  (Históricamente, este ataque
+tuvo éxito y el Lexington se hundió poco después.)
+
+JAPÓN Recrea la historia en tu torpedero Kate atacando y
+hundiendo el portaaviones Lexington.
+
+Estados Unidos defiende Yorktown del ataque de los bombarderos en picado japoneses Val. usted
+Tendrás que mover tu Wildcat rápidamente para salvar el transportador. (El Yorktown era
+dañado en la batalla real, pero fue reparado en un tiempo récord en Pearl
+Harbour, y pasó a desempeñar un papel importante en la batalla de Midway).
+
+JAPÓN Intenta cambiar la historia bombardeando el Yorktown hasta dejarlo en el olvido
+con tu Val. La cobertura del caza enemigo está presente.
+
+		BATALLA DE MIDWAY: OPCIONES DE MISIÓN
+
+Estados Unidos. Pilotas un bombardero en picado Dauntless como ayudante del teniente Dick.
+Lo mejor es que corre hacia el portaaviones Akagi. Los combatientes enemigos (CAP) están en
+bajo nivel, después de haber devastado los aviones torpederos estadounidenses. Siga al teniente.
+Mejor entra y arroja tu bomba sobre el portaaviones. (Históricamente, ambas bombas impactaron,
+y el teniente Best se convirtió en uno de los primeros héroes de la guerra, y
+más tarde, el asesor técnico de Battlehawks).
+
+JAPÓN Quizás los minutos más críticos de toda la guerra para el
+¡Japonés! Tú y tu Zero debéis interceptar los numerosos bombarderos americanos.
+atacando a sus transportistas. Honra al Emperador y reescribe la historia.
+
+EE.UU. Los portaaviones Akagi, Kaga y Soryu están dañados. Tu escuadrón de
+Los bombarderos en picado Dauntless pueden ayudarles a enviarlos al fondo, o buscarlos y
+destruir el portaaviones Hiryu. (En la batalla real, el Hiryu no estaba
+atacó en el primer ataque con bomba en picado y lanzó un ataque de su
+contra el Yorktown.)
+
+JAPÓN Protege al Hiryu de los atacantes estadounidenses. Sólo tu Zero puede
+salva el portaaviones para que pueda lanzar un contraataque.
+
+								RABAUL
+								(IMAGEN)
+
+				43
+
+EE. UU. Las tornas cambian mientras pilotas un Wildcat en defensa de la
+Yorktown. Detén a los Vals que están atacando en gran número. (En este
+acción en Midway, el Yorktown sufrió graves daños).
+
+JAPÓN Tú y tu Val representan una oportunidad de vengar a sus camaradas caídos.
+¡Bombardea en picado el Yorktown y húndelo!
+
+Estados Unidos. Una última oportunidad para salvar el Yorktown. El ataque de Val ha dañado el
+portaaviones, y el ataque de seguimiento es un escuadrón de torpederos Kate.
+Pilota tu Wildcat con habilidad y podrás evitar el histórico Yorktown.
+destino.
+
+JAPÓN Usa tu poderoso torpedo "Long Lance" para enviar el Yorktown al
+abajo. Debes pilotar tu Kate a través del pesado CAP enemigo que protege
+tu objetivo.
+
+	    BATALLA DE LAS SALOMONES DEL ORIENTAL: OPCIONES DE MISIÓN
+
+EE.UU. Tu TBF Avenger tiene un gran impacto. Si puedes entregarlo
+torpedear al portaaviones Ryujo, puedes repetir la historia y hundirlo.
+
+JAPÓN Vuela tu Zero con distinción y el Ryujo podrá vivir para luchar
+otra vez.
+
+Los aviones japoneses que atacan a Estados Unidos amenazan al Enterprise. Vuelas un gato montés
+en CAP para proteger al transportista. El ataque es feroz y se necesitarán todos los medios posibles.
+un poco de habilidad y audacia que puedas reunir. (Históricamente, la Enterprise fue
+dañado pero sobrevivió.)
+
+JAPÓN Intenta darle la vuelta a las fuerzas estadounidenses hundiendo el Enterprise.
+tu
+
+				44
+
+vuela un Zero, escoltando a algunos bombarderos en picado Val.
+
+EE.UU. Has lanzado tu torpedo sobre el Ryujo y tu portaaviones de origen está en
+vista. Pero la batalla no ha terminado. Tendrás que volar tu Avenger como un
+caza cuando te encuentras con un vuelo de bombarderos japoneses que regresan de
+su ataque al Enterprise.
+
+JAPÓN Es un partido inusual. ¿La maniobrabilidad superior de su Val
+¿Te permitirá vencer al lento pero duro y bien armado Avenger? recuerda, tu
+¡Ambos tienen pistolas traseras!
+
+EE. UU. Vuela con tu Dauntless sin escolta en un ataque contra los bien protegidos
+Barcos del grupo de apoyo japonés. No hay transportistas, así que elige un crucero.
+y sumergirse.
+
+JAPÓN Tienes la suerte de volar CAP en tu Zero durante varios
+cruceros y un portaaviones del Grupo de Apoyo cuando el enemigo se lanza en picado
+Los bombarderos hacen su aparición. ¡Salven los barcos!
+
+	    BATALLA DE LAS ISLAS SANTA CRUZ: OPCIONES DE MISIÓN
+
+EE.UU. Su explorador Dauntless ha detectado la principal fuerza japonesa.
+transportistas. Ataca a pesar de la fuerte resistencia de CAP y podrás mejorar la situación.
+resultados históricos no concluyentes.
+
+JAPÓN Derriba a los bombarderos en picado enemigos con tu Zero antes de que puedan
+llegar a sus transportistas. Asegúrate de tener cuidado con sus artilleros de cola.
+
+Vuela CAP en tu Wildcat y protege al Hornet de un ataque combinado
+Ataque de Vals y Kates. (En la batalla real, esto resultó ser demasiado
+Fue un gran desafío y el Hornet resultó gravemente dañado y luego se hundió.)
+
+JAPÓN Su torpedero Kate atacará al Hornet junto con un
+Ataque con bombardeo en picado de Val. Tu torpedo tiene un golpe mortal, pero el
+La cobertura de los cazas estadounidenses y el fuego antiaéreo ofrecen una fuerte defensa.
+
+								gato infernal
+								(IMAGEN)
+
+				45
+
+EE.UU. Vuela tu torpedero Avenger en un ataque contra tu viejo
+némesis, el Shokaku. El transportista está bien protegido, pero con valentía y
+suerte, podrías hundirlo. (En 1942, el Shokaku sufrió graves daños en el
+ataque y quedó fuera de combate durante nueve meses.)
+
+JAPÓN Salva al Shokaku con tu Zero y superioridad aérea en el Pacífico
+puede volver a pertenecer al Imperio del Sol Naciente.
+
+EE.UU. Se desarrolla una difícil misión de caza Wildcat mientras escoltas a los dañados
+torpederos a casa. Debes pasar a través de un desafío de ceros ansiosos por una
+oportunidad de igualar el marcador.
+
+JAPÓN ¡Tu última oportunidad para una victoria honorable! Vuela tu Zero como un
+samuráis, y eliminar a los torpederos enemigos y su escolta de cazas.
+
+				46
+
+			   REVISAR AVIONES
+
+Cuando seleccionas REVISAR PLANOS en el menú principal, serás enviado a un nuevo
+pantalla de menú. Aquí puedes inspeccionar aviones americanos y japoneses desde arriba.
+y laterales, y leer sobre sus características, tanto en el aire como en
+en batalla. Las opciones de su menú son:
+
+AMERICANO/JAPONÉS (BANDERA) Seleccione cualquiera de las banderas para ver a los luchadores, bucear
+bombarderos y torpederos de ese país.
+
+SIGUIENTE PLANO Después de seleccionar esta opción, el perfil superior y lateral de un
+Aparecerá el avión, junto con una descripción de sus características, fortalezas y
+debilidades. Mueva su controlador hacia la derecha para mirar el siguiente avión, o
+Se fue para mirar el avión anterior nuevamente.
+
+GIRAR PLANO Esto le permite rotar la vista lateral del avión. Mueve tu
+controlador hacia la izquierda y hacia la derecha para ver cómo se ve el avión en diferentes
+ángulos.
+
+SALIR Esto lo regresará al Menú Principal.
+
+								ABETO
+								(IMAGEN)
+
+				47
+
+			REVISAR LOS REGISTROS DE SERVICIO
+
+La opción de menú REVISAR REGISTROS DE SERVICIO le permite revisar y modificar los
+registros de pilotos actuales y anteriores que han volado misiones Battlehawks.
+El nombre y la nacionalidad de su piloto actual se muestran en la parte superior de la
+pantalla.
+
+Si estás jugando desde un disquete, se te pedirá que insertes un Servicio
+Disco de grabación para guardar sus registros. Si aún no tienes uno, inserta un
+disco formateado y utilice el comando PREPARE DISK que se describe a continuación. como tu
+mueva el resaltado hacia arriba y hacia abajo a través de las opciones del menú, específicas
+Las instrucciones sobre cómo usarlos se mostrarán en la pantalla. Estos son
+las selecciones que verás en la pantalla:
+
+SELECCIONAR PILOTO Esto le permite elegir un piloto de la lista de pilotos actuales.
+para convertirte en tu piloto activo. Debes hacer esto antes de comenzar con cualquier
+Misiones de servicio activo que deseas grabar.
+Cuando inicies el programa, un estadounidense preseleccionado será tu actual
+piloto.
+
+				48
+
+Este piloto se llamará TRAINEE y también aparecerá cada vez que elimines
+su piloto actual. Si vuelas cualquier misión con TRAINEE como piloto, eso
+El registro de servicio no se puede guardar. Ingrese su propio nombre de piloto y nacionalidad.
+cuando quieras guardar los resultados de una misión. La nacionalidad del
+El piloto determinará en qué lado lucharás.
+
+Puedes seleccionar un piloto que haya estado en tierra, retirado o muerto en acción.
+(KIA) si desea revisar su historial. Este piloto ya no puede volar.
+misiones.
+
+NUEVO PILOTO Esto le permite ingresar un nuevo nombre en la lista de pilotos, y
+seleccione su nacionalidad.
+
+VER REGISTRO Esto muestra el historial de batalla del piloto seleccionado. Medallas
+se muestran en los casos en la parte inferior de la pantalla. Ver las Medallas y
+Sección de promociones para más información sobre estas.
+
+El historial de batalla realiza un seguimiento de las misiones victoriosas, así como un recuento de
+Derrotó aviones y barcos enemigos. Cada pequeño símbolo de barco y avión se encuentra
+por un barco o avión destruido; cada símbolo grande representa cinco. el
+También se muestra el número de aviones que ha perdido su piloto. Si un piloto pierde diez
+aviones, quedará en tierra y no podrá volver a volar. Después de dieciséis misiones
+Estará retirado y podrá vivir su vida como un auténtico héroe de la Segunda Guerra Mundial.
+
+RENAME Esto le permite cambiar el nombre de un piloto existente.
+
+BORRAR Utilice esto para eliminar un piloto de la lista.
+
+PREPARAR DISCO Utilice esto en un disquete formateado para configurarlo como un Servicio
+Disco de grabación.
+
+MEJOR CARRERA Elija esto para mostrar una lista de los pilotos con los mejores resultados de todos los tiempos.
+mejores carreras de combate.
+
+MEJOR MISIÓN Elija esto para mostrar una lista de los mejores sencillos de todos los tiempos.
+misiones que los pilotos han volado, independientemente de su trayectoria profesional total.
+
+SALIR Esto lo envía de regreso al Menú principal.
+
+								CRUCERO
+								(IMAGEN)
+
+				49
+
+			   HABITACIÓN LISTA
+
+Una vez que hayas elegido una misión, serás enviado a la Sala de preparación. Allí,
+Recibirás el informe de tu misión. Puedes modificar tus misiones en el Listo
+Espacio, pero si modificas las misiones de Servicio Activo allí, NO contarán con
+su registro. La pizarra en el centro de la pantalla describe su nuevo
+misión. Los cuadros indicadores en la parte superior muestran las características de
+tu misión que puedes modificar. De izquierda a derecha son: MODELO DE AVIÓN,
+NIVELES DE MUNICIÓN/COMBUSTIBLE/DAÑO, ALTITUD INICIAL y NIVEL DE HABILIDAD DEL ENEMIGO.
+
+Puedes cambiar la configuración de esta misión seleccionando MODIFICAR AVIÓN. cuando tu
+hacer, la sesión informativa será reemplazada por una lista de opciones. Mover el resaltado
+a través de las opciones y haga sus selecciones. Al presionar RETURN (o su
+botón del controlador), cambiará la configuración. Estos cambios serán
+se muestra en el cuadro correspondiente en la parte superior de la pizarra.
+
+				50
+
+Aquí están tus opciones:
+
+MODELO DE AVIÓN Utilice esto para cambiar a un modelo diferente de avión. usted
+conservar el tipo actual de avión (CAZA/BOMBARDERO EN BUCEO/BOMBARDEO TORPEDO), pero
+Puedes probar modelos más nuevos o más antiguos de ese avión que podrían haber estado en un
+Portaaviones japonés o estadounidense en 1942. En misiones de servicio activo, si quieres
+Para volar aviones de diferente nacionalidad, debes registrarte como piloto de
+esa nacionalidad. (Consulte la sección sobre Revisión de registros de servicio).
+
+MUNICIÓN Utilice esto para cambiar entre cantidades ESTÁNDAR o ILIMITADAS de
+municiones. En el modo ESTÁNDAR, llevarás la misma cantidad de
+municiones como lo hicieron los aviones en 1942 (consulte la Información de referencia para obtener datos sobre
+cargas de munición). En el modo ILIMITADO, nunca te quedarás sin
+municiones.
+
+COMBUSTIBLE Utilice esto para elegir entre ESTÁNDAR (imagen del indicador de combustible) o
+Cantidades ILIMITADAS de combustible. ESTÁNDAR es la cantidad de combustible que los aviones en
+1942 llevado. Dado que Battlehawks se concentra en la parte de combate de un vuelo
+misión, a menudo hay pocas posibilidades de quedarse sin gasolina, incluso en el
+Ajuste de combustible ESTÁNDAR. Si tienes poco combustible, puedes disminuirlo.
+consumo reduciendo el acelerador (ver Referencia del teclado).
+NIVELES DE DAÑO DEL AVIÓN Con esto, puedes cambiar entre ESTÁNDAR y
+Modos INVENCIBLES. ESTÁNDAR es la cantidad normal de daño que puede ser
+sostenido por ese avión, e INVINCIBLE permite que tu avión tome un sinfín de
+cantidad de daño, por lo que no puedes estrellarte o ser derribado. En lo INVENCIBLE
+modo, nunca llegarás al agua.
+
+ALTITUD INICIAL Esto le ofrece una selección de altitudes desde las cuales puede
+comienza tu misión.  (En general, comenzando unos miles de pies más alto que
+tus enemigos te dan una ventaja.)
+
+NIVEL DE HABILIDAD DEL ENEMIGO Con esta configuración, puedes seleccionar el nivel de habilidad del
+tus enemigos. En orden creciente, estos niveles son CADET, VETERANO y
+AS. (Dado que los japoneses no reconocieron los ases por el número de aviones derribados
+abajo, el nivel de habilidad ACE se utiliza aquí para indicar pilotos de alta calidad).
+
+RESTABLECER TODOS LOS VALORES Esto restaura los valores de esta misión a los valores predeterminados.
+configuración, o la configuración que aparece inicialmente en la Sala de lectura.
+IMPORTANTE: Si
+
+								FLETCHER
+								(IMAGEN)
+
+				51
+
+puedes cambiar CUALQUIER valor para una misión de Servicio Activo, no será
+registrado en su Registro de Servicio. Sólo misiones válidas e históricamente precisas.
+se cuentan. Por este motivo, si decide que no desea cambiar ninguna
+valores después de todo, utilice esta opción.
+
+SALIR Esto lo lleva de regreso a las selecciones en la parte inferior de la pantalla.
+Úselo cuando haya terminado con sus modificaciones.
+
+Otros comandos de Ready Room son:
+
+COMENZAR VUELO Seleccione esto solo cuando esté listo para comenzar su misión.
+Cuando lo haga, se le realizará una prueba de reconocimiento/contraseña y luego se le enviará a
+los cielos.
+
+NUEVA MISIÓN Si decides que no te gusta tu misión actual después de ver
+Después de la sesión informativa, utilice este comando para volver a la pantalla de selección de misión.
+
+SALIR A PRINCIPAL Esto le permite salir de la Sala Preparada y regresar a la Sala Principal.
+Menú.
+
+				52
+
+			   PRUEBA DE RECONOCIMIENTO
+
+Este es su último paso antes de despegar. El oficial de cabina de vuelo mostrará
+Eres una silueta de un luchador Zero. Consulte las instrucciones de carga y
+siguientes secciones de su manual de Battlehawks y busque las correspondientes
+ilustración en la esquina inferior derecha de una de las páginas. cuando tu
+encuéntrelo, ingrese la contraseña correspondiente con su teclado y presione
+RETORNO (o el botón de su controlador). Por ejemplo si la silueta es:
+
+		(IMAGEN)
+
+Debería encontrarlo en la segunda página de Instrucciones de carga con el
+contraseña correspondiente YAMAMOTO. Escriba:
+
+	YAMAMOTO
+
+y presione RETORNO (o el botón de su controlador).
+
+Esta prueba es una parte importante de la preparación previa al vuelo. Tómate tu tiempo,
+y tenga cuidado al comparar la imagen en la pantalla con la del
+manuales. Si comete un error en el reconocimiento, se le considerará que no está preparado para
+servicio de combate avanzado y enviado a una misión de entrenamiento básico.
+
+								PLANO
+								(IMAGEN)
+
+				53
+
+			    VISTA DE CABINA
+
+Siempre comienzas tu misión dentro de la cabina de tu avión. Aquí están
+Los instrumentos que verás frente a ti:
+
+1. FRENOS DE VELOCIDAD (solo SBD Dauntless) Esto indica la posición de su
+frenos de velocidad. Abajo está abierto, arriba está cerrado. Utilice sus frenos de velocidad para reducir la velocidad
+su bombardero en picado mientras se lanza hacia un objetivo. 
+
+2. SOLAPAS Esto le da la posición de sus solapas. Arriba significa aletas arriba,
+abajo significa solapas hacia abajo. Baje los flaps para reducir la velocidad de pérdida, de modo que
+puedes volar más lento sin entrar en pérdida (útil en carreras de torpedos). De lo contrario,
+vuela con los flaps levantados para mayor velocidad. 
+
+3. TREN DE ATERRIZAJE Esto le muestra la posición de su tren de aterrizaje. en el
+Bombardero en picado Val, el tren de aterrizaje siempre está bajado. Bajando tu aterrizaje
+El equipo puede reducir la velocidad ligeramente al aumentar la resistencia. 
+
+4. NOMBRE Indica el nombre y modelo de su avión.  
+
+5. INDICADOR DE VELOCIDAD DEL AIRE Indica cientos de millas por hora, por lo que 2 es
+200 millas por hora. La velocidad de pérdida es de aproximadamente 70 MPH con los flaps levantados.
+
+6. INDICADOR DE ASCENSACIÓN/INMERSIÓN Este dial muestra qué tan rápido estás ganando o perdiendo
+altitud. Las lecturas positivas en la cima muestran un ascenso, las negativas
+en la parte inferior muestra una inmersión. Todas las lecturas están en miles de pies por
+minuto. 
+
+7. INDICADOR DE RPM Esto muestra la configuración del acelerador en revoluciones por
+minuto. Cuanto mayor sea el valor, más a la derecha estará este indicador.
+va. El área roja te avisa cuando estás usando combustible a un ritmo elevado.
+
+8. INDICADOR DE CÁMARA Esta luz roja se enciende cuando su cámara de reproducción está
+grabación (consulte Referencia del teclado para obtener detalles sobre cómo controlar el
+cámara). Utilice esta función para grabar y reproducir los eventos que suceden a su alrededor.
+usted. Mientras miras la repetición, puedes usar el control para moverte.
+tu punto de vista alrededor del cielo. La cámara de repetición es excelente.
+herramienta para aprender tácticas de vuelo, así como una forma de disfrutar el juego desde un
+Perspectiva cinematográfica. 
+
+9. INDICADOR DE BANQUEO Este dial muestra el balanceo de su avión. (Ver el
+sección Fundamentos de Vuelo para una explicación del rollo.) Cuando estés
+volando con las alas niveladas, el indicador mostrará una línea recta
+Línea horizontal con una pequeña barra vertical para mostrar en qué dirección se encuentra la cola.
+puntos. A medida que se inclina hacia la izquierda o hacia la derecha, el indicador cambiará para mostrar
+su orientación. 
+
+10. INDICADOR DE PASO Muestra a qué distancia por encima o por debajo del horizonte se encuentra el morro.
+de su avión está apuntando. La dirección + es hacia arriba, o es nivelada y - es
+abajo. 
+
+11. VER INFORMACIÓN Este pequeño panel cumple varias funciones. cuando estás dentro
+vuelo normal hacia adelante, está en blanco. En algunas computadoras, DERECHA, IZQUIERDA, ABAJO,
+o TRASERO se mostrará cuando mire por la ventana de su cabina en esos
+direcciones. Su pantalla también mostrará la vista correspondiente desde el
+cabina. (Consulte la Referencia del teclado para obtener información sobre cómo cuidar su
+cabina.) Otras computadoras le mostrarán estas vistas a través del correspondiente
+ventana lateral o trasera.
+
+VER INFORMACIÓN también se puede utilizar en el modo ESCANEAR para permitirle mirar a su alrededor en cualquier
+dirección, usando su controlador para mover su punto de vista. En este modo,
+el panel VER INFORMACIÓN muestra dos números. El primero indica cuantos grados
+hacia arriba o hacia abajo estás mirando. Va desde -90 grados (hacia abajo),
+a través de 0 (nivel del horizonte), hasta +90 grados (hacia arriba). el segundo
+El número muestra la dirección en la que estás mirando, en relación con tu línea de viaje.
+Si miras hacia la derecha, va desde 0 grados (hacia delante),
+pasando por +90 grados (directamente a la derecha), hasta +180 grados (detrás de usted).
+Si miras a la izquierda, va desde 0 grados (en línea recta) hasta -90
+grados (recto a la izquierda), a -179 grados (casi directamente detrás de usted).
+
+								CACTUS
+								(IMAGEN)
+
+				55
+
+En el modo de cámara de reproducción, aquí se mostrará REPLAY (consulte la sección Teclado
+Sección de referencia para obtener instrucciones sobre el uso de la cámara de reproducción).
+
+12. ALTÍMETRO Este dial muestra su altitud en pies. La pantalla digital
+en el dial muestra miles de pies, la manecilla cientos de pies y
+la mano grande decenas de pies. Por ejemplo, si las pantallas digitales indican 02,
+la mano pequeña está en el 6 y la mano grande está a medio camino entre el 1 y el 2,
+su altitud en 2, 615 pies. 
+
+13. BRÚJULA Indica en qué dirección te diriges: norte, sur,
+este u oeste. 
+
+14. CONTADORES DE DAÑOS EN EL MOTOR/FUENTE DEL AÉREO Estos diales gemelos muestran el daño total
+al motor (dial superior) y al fuselaje (dial inferior). Daños severos a
+ya sea el motor o el fuselaje empujarán los indicadores hacia la posición
+rojo. Si eso sucede, es probable que pierda completamente la potencia del motor o pierda
+control de su avión. Su única opción será salir del apuro. 
+
+15. RONDAS DE ARMAS Este indicador muestra cuántas rondas de munición quedan.
+en tu arma que apunta hacia adelante. El caza japonés Zero tiene dos indicadores.
+aquí. El de arriba muestra el número de disparos de tus ametralladoras de 7,7 mm,
+y el de abajo indica el número de rondas en tus 20 más poderosos.
+Cañón de mm. Cuando vuelas bombarderos en picado o torpederos, un indicador
+En la vista trasera se muestra cuántas balas quedan en la ametralladora trasera.
+
+16. INDICADOR DE COMBUSTIBLE Este indicador muestra cuánto combustible tiene: E significa vacío, F
+significa lleno. 17. LIBERACIÓN DE OCA Esto muestra si tienes una ojiva (torpedo).
+o bomba) para liberar. Los aviones de combate nunca llevan ojivas en los Battlehawks.
+
+				56
+
+			REFERENCIA DEL TECLADO
+
+DEJAR EL JUEGO
+Para salir del programa Battlehawks directamente al sistema operativo de su computadora
+sistema, puede presionar la tecla ESCAPE en cualquier momento que no esté en la cabina.
+Desde la vista de cabina en vuelo, debes presionar:
+	  q
+primero para salir, luego ESCAPE para salir.
+
+TECLADO/RATÓN/JOYSTICK
+Para saber cuál de estos controladores es compatible con su máquina, por favor
+consulte su tarjeta de referencia.
+
+Para los jugadores sin mouse o joystick, el teclado controlará todos
+las características del juego. Sin embargo, le recomendamos encarecidamente que utilice un
+joystick o ratón como controlador de vuelo principal. Ellos palanca de mando
+Proporciona el control más "real" y es más fácil de usar para el bucle.
+maniobras. El mouse brinda el control fino más suave. En cualquier caso, el
+Las teclas de cursor (teclas de flecha) pueden funcionar como controlador.
+
+En esta sección, se hará referencia al mouse, al joystick y a las teclas del cursor.
+colectivamente como responsable del tratamiento. Los botones del mouse o joystick serán
+denominados botones del controlador. En las pantallas de menú (todas las pantallas excepto
+las vistas de cabina, que son las que verás en vuelo), el controlador
+le permite moverse hacia arriba, abajo, derecha e izquierda a través de las opciones del menú.
+
+Si tiene un mouse o un joystick no estándar, es posible que se sienta confundido acerca de
+cuales de sus botones son los que en el manual se refieren como botón izquierdo
+o botón derecho. Aquí tienes una forma sencilla de descubrirlo. Vuela una intercepción de caza
+misión de entrenamiento y seleccione un caza japonés Zero y un ESTÁNDAR
+municiones (no ILIMITADAS). 
+
+Una vez que estés en la cabina, mira la pantalla GUN ROUNDS (elemento 15 en la
+ilustración de la cabina en la página 56). Cuando presionas un botón en tu
+controlador, el número superior disminuirá. Este botón es el referido.
+como botón izquierdo. Un botón diferente hará el número inferior.
+disminuir.  En una misión de bombardeo en picado o de torpedo, al presionar ambos
+Estos botones lanzarán a la vez tu bomba o torpedo.
+
+								A MEDIO CAMINO
+								(IMAGEN)
+
+				57
+
+USO DEL CONTROLADOR PARA LLAVES ADICIONALES EN VUELO
+PILOTA TU AERONAVE Función clave
+Tu avión responderá a las instrucciones P Pausa el juego; presiona cualquier tecla
+ción mueves mucho el controlador Q Salir del juego; obtener evaluación
+de la misma manera que lo haría un avión real. Para más E Alternar solo el motor
+información, consulte Flight Fundamen-S Activar/desactivar TODOS los sonidos
+sección de cuentos.				V Mostrar versión del juego.
+
+CONTROLADOR	
+FUNCIÓN DE DIRECCIÓN
+Controlador Mueva la punta del
+adelante el avión hacia abajo
+(lejos de ti)
+
+Controlador Mueva la punta del tren de aterrizaje L. Bajar/levantar
+hacia atrás el avión hacia arriba (todos los aviones excepto Val)
+(hacia usted) F Bajar/levantar flaps
+
+Controlador Inclinar el avión B Abrir/cerrar frenos de velocidad
+de derecha a derecha (solo en Dauntless)
+
+Controlador Inclinar el avión + Aumentar el acelerador (no
+De izquierda a izquierda es necesario usar la tecla Mayús)
+
+CARACTERÍSTICAS DEL BOTÓN DEL CONTROLADOR - Disminuir el acelerador
+Estos le permiten disparar la mira delantera de su pistola G Flip hacia arriba/abajo.
+Disparar armas y soltar la ojiva.
+carga.
+
+CONTROLADOR
+BOTÓN FUNCIÓN C Activar/desactivar la cámara de reproducción
+Controlador izquierdo Fuego principal R Enger Modo REPLAY
+ametralladora de botón (ver más abajo)
+(o barra espaciadora)
+
+Controlador derecho Fuego 20 mm J Saltar desde avión, lanzarse en paracaídas
+cañón de botón (en japonés a la seguridad
+(o REGRESAR) Solo luchador cero)	
+(puede ser el botón CONTROLES DEL TECLADO NUMÉRICO
+en la punta del joystick) El siguiente teclado numérico y
+					Las teclas controlan las diferentes vistas que
+La ojiva de caída izquierda y derecha puede cambiar hacia y desde tu cock-
+controlador (torpedo o bomba, pozo. Su computadora puede requerir el  
+botones si tiene uno) BLOQ NUM activado para uso del teclado.
+(o REGRESO)				
+					FUNCIÓN CLAVE
+					8 Mira hacia adelante (tu
+						La misión comienza en esta vista)
+					6 Mira bien
+					4 Mira a la izquierda
+
+				58
+
+2 Mirar hacia atrás (en torpedo o en picado) CONTROLES DEL ARMA TRASERA
+	bombardero, esto también activa todos los bombarderos en picado y torpederos.
+	arma trasera; ver más abajo) los bombarderos tienen cañones traseros. después de haber
+3 Mire hacia abajo (hacia abajo, cambiado de la vista frontal a la
+	independientemente del ángulo de vuelo) vista trasera para controlar el arma trasera, su
+9 Mire a su alrededor (vista SCAN, el avión volará con "piloto automático", 
+	ver más abajo) con los controles configurados donde los dejó
+					ellos. Si se detiene o está a punto de hacerlo 
+LOS CONTROLES DEL MODO DE REPETICIÓN chocan contra el agua, regresan al
+Cuando enciendes tu cámara, se ve hacia adelante para recuperar el control de tu
+comienza a registrar tus acciones. Detiene los aviones.
+Cuando lo apagas o te quedas sin película. FUNCIÓN DE CONTROL
+Al iniciar la cámara nuevamente se borra la pistola trasera Controller Move y
+película antigua, haciendo una grabación nueva.			vista; solo funciona detrás
+Cuando estás viendo una repetición del actual y superior 
+una de tus batallas aéreas, usa la con- posición
+troller para cambiar su ángulo de visión.	 Botón izquierdo/Disparar pistola trasera
+Esto te permite ver la repetición desde la barra espaciadora.
+en cualquier parte del cielo.			 8 Volver a la vista frontal y
+En el modo de repetición, tu instrumento controlaba el vuelo.
+panel reflejará lo que estaba sucediendo
+a su avión durante el vuelo original.
+Cuando termine la repetición, aparecerá SCAN VIEW
+de regreso a su avión en el momento en que FUNCIÓN DE CONTROL
+Comenzó la repetición. No puedes usar el controlador Mover el ángulo de visión todo
+modo de repetición después de que te hayas estrellado o alrededor; el grado del ángulo es
+Se muestra rescatado de su avión.
+					Cualquier cambio válido a otro 
+CONTROLES ADICIONALES DEL MODO DE REPRODUCCIÓN Vista de teclas numéricas. La tecla 8 regresa
+FUNCIÓN CLAVE para ver hacia adelante.
+Botón izquierdo/Avanzar
+barra espaciadora (a una velocidad constante)
+		altitud)
+
++ Aumentar la altitud de la cámara
+- Disminuir la altitud de la cámara.
+R Reposicionar la cámara a la ubicación de su avión
+F Reanudar el vuelo normal
+
+								CATALINA
+								(IMAGEN)
+
+				59
+
+			REVISIÓN DE VUELO
+
+TERMINAR TU MISIÓN
+Hay varias formas de terminar tu misión. Puede presionar: q para finalizar en
+en cualquier momento. Es posible que el juego te indique que presiones esta tecla una vez que tu misión haya terminado.
+completado (esto es para darle tiempo de ver una repetición antes de terminar)
+tu misión).
+
+Esta misión también terminará si chocas o te derriban. puedes deshacerte
+su avión (llegue a un aterrizaje nivelado en el agua) o láncese en paracaídas de manera segura
+al agua. En raras ocasiones, es posible que incluso te quedes sin combustible. En cualquier caso,
+Una vez finalizada su misión, se le dará una revisión del vuelo.  NOTA: Si
+Si tu piloto actual muere en acción durante una misión, no podrás
+capaz de repetir esa misión. Tendrás que iniciar un nuevo piloto o volar.
+con el piloto asignado, APRENDIZAJE.
+
+SU REVISIÓN DE VUELO
+Esto tiene lugar en la sala de preparación. En la pantalla frente a ti, verás
+su comandante y una descripción escrita de qué tan bien se desempeñó en su
+misión. El factor más crítico en su revisión es si tiene o no
+completó con éxito la misión. 
+
+En misiones de intercepción de cazas en las que defiendes tu portaaviones,
+Renunciar antes de que los aviones enemigos hayan atacado NO es un éxito.
+finalización. Debes derribar o ahuyentar a todos los atacantes. si lo eres
+En una misión de escolta de cazas, tu prioridad es mantener el avión enemigo.
+lejos de los aviones que está escoltando. 
+
+Finalmente, si estás en una misión de bombardeo, debes acertar
+un barco enemigo con tu ojiva (torpedo o bomba) para completar tu misión.
+La pizarra de revisión de vuelo también muestra el número de aliados y enemigos.
+aviones y barcos que hayan sido dañados o destruidos durante la misión. 
+
+				60
+
+Los símbolos de avión y barco que verás son para TODO tipo de aviones y
+barcos, no sólo los portaaviones y aviones de combate que aparecen en la
+pizarra. Los números bajo la columna Tot son los totales de enemigos.
+pérdidas; Los números debajo de la columna Tú son las pérdidas enemigas específicas que
+causado. Si otros aviones amigos cooperan contigo para derribar un
+avión enemigo, obtendrás crédito por el hundimiento incluso si es golpeado por otros
+bombas tras la tuya. Si es piloto estadounidense, las pérdidas que se le acreditan
+Tendrás más probabilidades de obtener una medalla o un ascenso que si eres un
+Piloto japonés. Si vuelas para los japoneses, es más probable que te
+recompensado por un servicio distinguido. 
+
+Una vez que hayas visto la reseña de tu vuelo, presiona cualquier tecla o tu controlador
+para ir a la siguiente pantalla. Si acaba de terminar un servicio activo
+misión y no cambió ningún parámetro de la misión en la pantalla Ready Room,
+Verá su registro de servicio actual en la pantalla (consulte la sección Revisar
+sección Registros de servicio para obtener más información). Incluso puedes ser elegible para
+una medalla o un ascenso. 
+
+Para salir de estas pantallas, presione cualquier tecla o el botón de su controlador. esto
+le enviará a una pantalla de texto. Allí tendrás dos opciones. Presionando s
+repetirá la misma misión, mientras que al presionar RETORNO te enviará al
+Menú principal.
+
+MEDALLAS Y PROMOCIONES
+Para ganar una medalla, sube de rango y entra en la lista de Mejores Misiones, la más
+El factor crítico es cumplir con los requisitos básicos de su misión. si tienes
+protegió con éxito su barco, escoltó a esos torpederos o lo que sea
+su misión lo requería, es más probable que sea recompensado. Causando otros
+El daño al enemigo es secundario. En misiones de ataque, cada bomba o torpedo
+que golpee un barco enemigo aumenta significativamente tus posibilidades de ascenso. de
+Por supuesto, dañar aviones y barcos amigos contará en tu contra. Finalmente,
+Proteger otros aviones amigos aumentará tu rango final.
+
+								CORSARIO
+								(IMAGEN)
+
+				61
+
+	MEDALLAS DE LA MARINA DE LOS ESTADOS UNIDOS (LISTAS EN ORDEN O RANGO)
+
+Después de haber completado con éxito una misión de servicio activo en
+Battlehawks, es posible que recibas una de las siguientes medallas:
+
+MEDALLA DE HONOR DEL CONGRESO
+El premio más alto del ejército de los EE. UU., la Medalla de Honor, fue el primero
+medalla establecida por el gobierno de los Estados Unidos, y fue aprobada por
+Congreso y promulgada como ley por el presidente Abraham Lincoln el 21 de diciembre de
+1861. Puede concederse tanto en tiempo de guerra como en tiempo de paz por un importe extraordinario.
+Acto de heroísmo o autosacrificio en una situación de combate o no combate. el
+La Medalla de Honor es otorgada por el Congreso a una persona que "distingue(s)
+se destacó por su valentía e intrepidez a riesgo de su vida.
+más allá del llamado del deber y sin detrimento de la misión de
+su mando o al mando al que está adscrito." Es la única medalla
+presentado por el presidente en nombre del Congreso. La Medalla de Honor puede
+ser otorgado sólo una vez; se concede una Estrella de Oro en lugar de una segunda medalla, y
+Se lleva en la cinta de la Medalla de Honor.
+
+CRUZ MARINA
+Otorgado por heroísmo sobresaliente al enfrentarse a un enemigo armado, la Armada
+Cross es la medalla más alta de la Marina de los EE. UU. otorgada estrictamente por acciones de combate y
+se ubica justo debajo de la Medalla de Honor. Se otorga una Estrella de Oro si un segundo
+La Cruz Naval está garantizada.
+
+MEDALLA POR SERVICIO DISTINGUIDO
+Este premio se otorga por "servicio excepcionalmente meritorio a la
+gobierno en un deber de gran responsabilidad" en un entorno de combate o no
+situación. Sólo se podrá otorgar una Medalla por Servicio Distinguido a un
+individual, con una Estrella de Oro en lugar de medallas adicionales.
+
+MEDALLA ESTRELLA DE PLATA
+Esta medalla se otorga por un acto de "valentía e intrepidez en acción".
+eso no garantiza la concesión de la Medalla de Honor o la Cruz Naval.
+Es el segundo premio más alto otorgado estrictamente por clasificación de acciones de combate.
+justo detrás de la Cruz Naval.
+
+CRUZ VOLADORA DISTINGUIDA
+Una persona puede recibir esta medalla si realiza un acto extraordinario de
+heroísmo en vuelo, ya sea en una situación de combate o no. puede
+sólo se otorgará una vez; Se otorga una Estrella de Oro por actos heroicos posteriores.
+
+				62
+
+MEDALLA DEL AIRE
+La Medalla del Aire se otorga a una persona que se distingue
+con "logro meritorio en un vuelo aéreo", ya sea en combate o
+acciones no combativas. Se ubica justo debajo de la Cruz Voladora Distinguida.
+
+CORAZÓN PÚRPURA
+Establecida originalmente por George Washington en 1782, esta medalla se otorga a
+cualquier individuo que sea herido por la acción enemiga de tal manera que requiera
+tratamiento médico. Se otorga una Estrella de Oro si se vuelve a herir en combate.
+SENDAI
+								(IMAGEN)
+
+				63
+
+			MEDALLAS DE LA MARINA JAPONESA
+
+A diferencia de sus homólogos de la Armada de los Estados Unidos, los japoneses no honraron
+a sus héroes militares con medallas u otras menciones por actos de valentía.
+Seleccionar a una persona para tal premio habría sido inconsistente
+con el énfasis japonés en el grupo sobre el individuo. Actos de
+Se esperaba valentía y sacrificio de los aviadores japoneses, e incluso los
+El concepto del "as", tan ampliamente idolatrado por los estadounidenses, fue ignorado por
+los japoneses. Un ascenso póstumo de rango fue el único funcionario
+reconocimiento de la valentía en el combate.
+
+ORDEN DEL SOL NACIENTE
+Si bien los japoneses no reconocían el heroísmo con una medalla, en raras ocasiones
+ocasiones honraron servicios meritorios con la Orden del Levantamiento
+Sol. Esta medalla tenía ocho clases diferentes, cada una de las cuales representaba cómo
+distinguido fue el acto de servicio. Fundada originalmente en 1875, la Orden
+del Sol Naciente fue otorgado tanto en tiempos de guerra como de paz. Oficiales,
+Los suboficiales e incluso civiles podían optar a esta medalla.
+
+MEDALLAS DE CAMPAÑA
+Estos fueron emitidos al personal que participó en diversas campañas durante
+la guerra del pacifico. En Battlehawks, se otorga una medalla de campaña por completar con éxito
+completando una misión de Servicio Activo en la Batalla del Mar del Coral, el
+Batalla de Midway, la Batalla de las Salomón Orientales o la Batalla del
+Islas Santa Cruz.
+
+				64
+
+PROMOCIONES
+Tanto en la Armada estadounidense como en la japonesa, los ascensos se otorgaban en función de
+experimentar más que el valor individual. Simplemente sacando bien, no perdiendo
+demasiados aviones y, al sobrevivir, los pilotos ascenderían de rango. En los EE.UU.
+Armada, la excepción a esta regla era cuando un piloto volaba un
+misión exitosa. Esto a menudo resultaría en un ascenso. De manera similar, el
+Los japoneses a veces honraban a sus muertos en la guerra con un ascenso póstumo. un
+El más alto honor del piloto japonés (o más apropiadamente, el más alto honor de su familia).
+honor) fue una doble promoción póstuma.
+
+								HALSEY
+								(IMAGEN)
+
+				65
+
+			(ESTA PÁGINA ESTÁ EN BLANCO)
+
+				66
+
+			 INFORMACIÓN DE REFERENCIA
+
+				67
+
+			(ESTA PÁGINA ESTÁ EN BLANCO)
+				
+				68
+
+			 FUNDAMENTOS DE VUELO
+
+				69
+
+Este capítulo analiza la dinámica del vuelo, tanto en un entorno de trabajo real
+aviones y en Battlehawks 1942. Los párrafos que aplican estas dinámicas
+a la situación del juego tienen un * delante y detrás de ellos. aunque
+Los aviones militares actuales son sorprendentemente diferentes de los de la Segunda Guerra Mundial.
+predecesores, ambos comparten muchos de los mismos diseños de aviones
+fundamentos. Y ambos se basan en los mismos principios aerodinámicos para conseguir
+del suelo y maniobrar en el aire, partiendo del principio conocido
+como ascensor. Si alguna vez has sacado la mano por la ventanilla de un coche en movimiento y
+sentiste el viento soplar sobre él, ya has experimentado con la sustentación. cuando tu
+mantenga la palma hacia abajo, luego gírela hacia arriba, su brazo está levantado. esto es
+causado por la elevación, o el "empuje" vertical del aire que fluye alrededor de su mano,
+lo que crea una alta presión de aire debajo de la mano y una baja presión de aire arriba
+eso. Sustituye tu mano por el ala de un avión y tendrás una idea de cómo
+un avión vuela. 
+
+Por supuesto, el ala de un avión tiene una forma aerodinámica mucho más estilizada.
+forma que tu mano. Esta forma es necesaria para crear alta y baja presión.
+zonas alrededor del ala, así como para asegurar un flujo suave de aire alrededor de ella.
+Además, sin una forma aerodinámica, demasiada resistencia o viento
+Se produce resistencia, lo que reducirá la cantidad de sustentación. Un ala necesita
+un flujo continuo y suave de aire por encima y por debajo para producir sustentación. a
+Para crear esto, un motor impulsa una hélice para proporcionar empuje hacia adelante. ascensor
+aumenta con la velocidad del aire; cuanto más rápido
+
+				70
+
+Cuanto más empuje hacia adelante, más sustentación se crea. 
+
+*Para aumentar el empuje, aumente la configuración del acelerador. Ver el teclado
+Sección de referencia para saber cómo ajustar el acelerador.* 
+
+Cuando se interrumpe este suave flujo de aire alrededor del ala, se produce una peligrosa
+Puede ocurrir una situación conocida como pérdida. Esto sucede cuando el ala está inclinada.
+hacia arriba en un ángulo pronunciado o cuando el avión se mueve demasiado lento. cuando un
+Si el avión se cala, puede perder el control y estrellarse. 
+
+*En Battlehawks, las pérdidas pueden ocurrir cuando la velocidad del avión cae por debajo de 70
+MPH. Si esto sucede, empuje hacia adelante la palanca de control (ver más abajo) hasta
+Aparece el mensaje STALL RECOVERED, que muestra que ahora vas rápido.
+suficiente para un vuelo normal. Luego, tire rápidamente de la palanca hasta que esté
+nivel. Es fácil detenerse cuando intentas luchar contra un avión que está
+pasando a mayor altura. Esto puede ser mortal. Los puestos también son
+peligroso al volar bajo y lento, que desafortunadamente son los mismos
+condiciones necesarias para un ataque exitoso con torpedos. Aprende a juzgar cuando
+está a punto de detenerse por el sonido que hace el motor, así como por
+observando el indicador de velocidad del aire.* 
+
+En vuelo, el avión puede maniobrar de tres maneras diferentes. Puede lanzar,
+o moverse hacia arriba o hacia abajo; puede girar o girar hacia la izquierda o hacia la derecha; y puede rodar,
+o banco hacia la izquierda o hacia la derecha. Para ejecutar estas maniobras, el piloto dispone de un mando
+Palo o columna que controla el cabeceo y el balanceo.
+
+				71
+
+La guiñada se controla mediante una combinación de cabeceo y balanceo.
+
+*El joystick se controla en Battlehawks mediante las teclas del cursor, una
+joystick o un ratón. El stick no se muestra en la pantalla, pero puede ayudar
+Te imaginas el palo en las siguientes explicaciones de maniobras. Tono
+se controla bajando la nariz hacia adelante; Al tirar del palo hacia atrás, se eleva.
+Si empuja hacia adelante o retrocede lo suficiente, el avión puede girar y voltearse.
+completamente terminado.* 
+
+La mejor manera de ejecutar un giro es combinar la guiñada que hace rodar y ladear el
+plano ya sea hacia la izquierda o hacia la derecha. El rollo se controla moviendo la palanca de control.
+hacia la izquierda o hacia la derecha, lo que hace que el avión gire en esa dirección. cuando el
+avión tiene las alas inclinadas hacia un lado o hacia el otro, está en un banco. cuando
+Si se inclina hacia la derecha, el avión girará hacia la derecha. Cuanto más empinado sea
+inclinación, más rápido será el giro, hasta una inclinación completa de 90 grados con las alas
+apuntando hacia arriba y hacia abajo.
+
+*Un peralte pronunciado hará que pierda sustentación y el morro de su avión
+bajar el tono. Para contrarrestar esto, es posible que desees tirar hacia atrás del bastón.
+ligeramente o aumente el acelerador cuando gire. Entonces, para salir del
+girar, empuje la palanca en la dirección opuesta (por ejemplo, al girar
+derecha, empuje hacia la izquierda), lo que debería nivelar su avión.*
+
+Los flaps son las secciones del borde de salida (o trasera) del ala que están articuladas
+hacia abajo para aumentar la elevación. Cuando están completamente extendidos hacia abajo, las aletas
+También puede desacelerar el avión al aumentar la cantidad de resistencia en el ala.
+
+*Dado que las misiones de bombardeo con torpedos requieren un vuelo lento y bajo, se pueden utilizar flaps.
+útil.*
+
+				72
+
+Los frenos rápidos son flaps especiales que sólo se encuentran en los bombarderos en picado. abren ambos
+arriba y abajo desde la parte posterior del ala y están perforados para evitar golpes
+cuando están abiertos.
+
+* Utilice los frenos de velocidad para reducir la velocidad de su inmersión cuando se acerque para lanzar una bomba en un
+barco.* 
+
+El tren de aterrizaje son las ruedas de tu avión junto con sus soportes.
+
+*Todos los aviones en Battlehawks pueden extender o retraer el tren de aterrizaje excepto
+para los bombarderos en picado japoneses Val, cuyos equipos están permanentemente fijados en un
+posición extendida. Al extender el tren de aterrizaje, puedes reducir la velocidad de tu avión
+hacia abajo rápidamente aumentando la resistencia.*
+
+Para obtener más información sobre técnicas de vuelo avanzadas, consulte Tácticas aéreas.
+y sección de consejos.
+
+				73
+
+			(ESTA PÁGINA ESTÁ EN BLANCO)
+
+				74
+
+			TÁCTICAS AÉREAS Y CONSEJOS
+
+				75
+
+Esta sección describe muchas de las tácticas utilizadas en combate durante la Segunda Guerra Mundial.
+pilotos, así como aquellos que son aplicables a situaciones de juego en
+Halcones de batalla 1942.
+
+Una herramienta valiosa para analizar tus tácticas para cualquier enfrentamiento es la repetición.
+característica de Battlehawks. Esto le permite grabar su acción y luego verla.
+desde cualquier ángulo. Consulte la sección Referencia del teclado para obtener más información.
+
+TÁCTICAS DE COMBATE: 1942
+Ya sea escoltando bombarderos en picado y aviones torpederos, o proporcionando servicios aéreos
+cobertura defensiva para un portaaviones, el piloto de combate sólo tenía una
+tarea principal: derribar aviones enemigos lo más rápido posible. cuando el
+Cuando se avistaba al enemigo, el piloto tenía que maniobrar rápidamente su caza hasta
+posición para atacar a los aviones enemigos, a menudo veloces y maniobrables. allí
+Había varios enfoques que un piloto de combate podía adoptar para realizar un ataque,
+dependiendo de su posición relativa al enemigo y la velocidad y dirección
+Los aviones enemigos estaban llegando.
+
+El ATAQUE DE STERN fue un enfoque que se remonta a los primeros ataques aéreos.
+duelos, y era el más fácil para los tiradores pobres. Un luchador atacante
+simplemente colócate detrás del enemigo y dispara una ráfaga corta. este ataque
+podría comenzar desde una posición más alta o más baja, o desde la misma altitud que
+el enemigo. La aproximación por popa podría ser peligrosa si el avión enemigo hubiera
+un artillero de cola o trasero que podría devolver el fuego, o si el enemigo era más
+maniobrable.
+
+El ATAQUE OPUESTO a veces daba tiros igualmente buenos tanto al enemigo
+¡Aviones y aviones atacantes! En este enfoque, el atacante
+El caza volaría de frente al avión enemigo y dispararía continuamente. Estados Unidos
+Los pilotos de la Armada que utilizan este enfoque intentarían alejarse ligeramente
+debajo del enemigo en un ángulo de 15 grados, donde el avión enemigo estaba
+especialmente vulnerable. De esta manera, si el enemigo intentara bajar el morro hacia abajo
+y fuego, corría el riesgo de sufrir una colisión frontal. Después de que este ataque fue ejecutado,
+A menudo era difícil para cualquiera de los aviones establecer otra aproximación a menos que
+Ambos se volvieron el uno hacia el otro nuevamente.
+
+				76
+
+En estos dos tipos de ataques, los pilotos podían disparar directamente al objetivo.
+Sin embargo, dado que los aviones atacantes a menudo tenían que perseguir al enemigo en ángulo,
+A veces los pilotos necesitaban disparar antes del objetivo. De esa manera, el
+Las balas llegarían a un área determinada al mismo tiempo que el enemigo.
+avión. Esto se conocía como DISPARO POR DESVIACIÓN. Esta habilidad de tiro fue
+necesario para enfoques más complicados, como el ENFOQUE AÉREO
+DEL MISMO CURSO. 
+
+Esto requería que el avión atacante volara en la misma dirección que el
+enemigo y en una posición de 2.000 pies por encima. Cuando el piloto atacante alcanzó
+una posición delante del enemigo y en el mismo plano vertical, rodaría
+arriba y sobre su espalda. Continuando con la tirada, se sumergía en el
+enemigo en un ángulo de 60 grados y ataca en un ángulo de 45 grados. Esto le dio al
+aviones atacantes muchas oportunidades para un tiro claro, y lo hizo
+Al enemigo le resulta difícil responder. 
+
+El APROXIMACIÓN AÉREA DESDE EL CAMPO OPUESTO, que fue un poco más fácil
+para ejecutar que el mismo enfoque de curso, se utilizó cuando el atacante
+Los aviones y los aviones enemigos volaban uno hacia el otro. De nuevo, el
+El caza atacante tenía que estar al menos 2.000 pies más alto que el enemigo. como
+Si el enemigo se acercaba, el caza atacante inclinaría sus alas a 90°.
+Ángulo de grados para mantener al enemigo a la vista. Cuando el avión atacante
+alcanzó el mismo plano vertical que el enemigo y los dos aviones habían pasado
+entre sí, el atacante ejecutaría un medio giro y dejaría caer la punta de su
+aviones hacia el enemigo. Me gusta
+
+				77
+
+En el mismo rumbo, el atacante se lanzaría en un ángulo de 60 grados y
+ataque en un ángulo de 45 grados.
+
+Ambos ataques aéreos fueron difíciles de ejecutar. Requirieron un
+una gran cantidad de espacio aéreo tanto por encima como por debajo del avión enemigo, por lo que
+No se puede utilizar en altitudes bajas. Sin embargo, cuando se ejecutan correctamente, podrían
+ser extremadamente eficaz.
+
+Finalmente, el ATAQUE LATERAL fue una verdadera prueba de puntería debido a la
+cantidad de disparo de desviación requerida. Podría ejecutarse por encima del
+trayectoria de vuelo del enemigo, al mismo nivel o por debajo de la trayectoria de vuelo. Volando
+paralelo al enemigo, el caza atacante ejecutaría un giro en s,
+dirigirse brevemente en la dirección opuesta al enemigo antes de girar
+y comenzando su ataque en un ángulo de 90 grados. Como piloto atacante
+terminado su giro en S, el bucle final lo acercaría realmente a
+siguiendo detrás del enemigo.
+Al igual que los ataques aéreos, los ataques laterales ofrecían al enemigo un objetivo pobre para atacar.
+disparar de nuevo a. También eran ideales en altitudes bajas, cuando los ataques aéreos
+no se pudo ejecutar.
+
+TÁCTICAS DE COMBATE: BATTLEHAWKS 1942
+
+EL TIRO POR DESVIACIÓN era una especialidad de los pilotos de combate estadounidenses, que
+Lo practicaba frecuentemente con aproximaciones laterales difíciles. En Battlehawks, usa
+la mira para ayudarte a determinar dónde apuntar. necesitarás
+compensar la velocidad de su objetivo, el ángulo en el que cruza su
+línea de visión y su distancia de usted. Cuando es más rápido, más cerca de
+perpendicular a tu camino, o más lejos, tendrás que guiar tu
+tiros más. Intente juzgar la dirección en la que vuela y apunte a lo largo de un
+línea imaginaria delante de él. Puedes juzgar la distancia viendo qué tan grande
+El avión se compara con los anillos de la mira. Con la práctica, lograrás
+ser capaz de anotar golpes cada vez.
+
+Los japoneses se destacaron en tácticas que utilizaban la agilidad superior de sus aviones.
+Las TIJERAS eran una maniobra utilizada a menudo por los ágiles Ceros contra los más
+lentos aviones americanos. Si un enemigo está detrás de ti, simplemente alterna
+bancos, girando primero hacia la izquierda, luego hacia la derecha, luego nuevamente hacia la izquierda, mientras recorta
+pisa el acelerador para reducir la velocidad. El avión detrás de ti no podrá
+gire tan rápido y gradualmente se adelantará a usted. Esto debería ponerte
+en su cola.
+
+Si un avión enemigo se dirige hacia ti y luego te pasa, tu forma más rápida de
+El turno no es inclinarse hacia un lado sino ejecutar una maniobra elegante. dos buenos
+unos son los
+
+				78
+
+GIRO IMMELMAN y el SPLIT-S. El Immelman es útil cuando tu objetivo es
+a la misma o mayor altitud y no estás cerca de la velocidad de pérdida. a
+ejecútelo, tire hacia atrás de su palo y déle la vuelta completamente, de modo que esté
+boca abajo apuntando directamente hacia atrás a lo largo de su camino. Si realizas esto
+maniobra correctamente, deberías ver el avión enemigo frente a ti. empujar
+Mueve la palanca hacia un lado o hacia el otro para enderezar tu avión. 
+
+El split-s es una especie de imagen especular vertical del Immelman. Úselo para
+dar la vuelta si está cerca de la velocidad de pérdida, si necesita sacudir un
+oponente, o si el enemigo ha pasado por debajo de ti. 
+
+Primero, empuja la palanca completamente hacia un lado (preferiblemente hacia el enemigo que
+acaba de pasar debajo de ti) hasta que estés boca abajo. Luego, tire hacia atrás
+el palo hasta que haya vuelto a la posición vertical. No intentes esto
+¡si estás a mil pies del agua! 
+
+Si ejecutas esta maniobra correctamente, volarás de regreso en la dirección en la que
+Llegó pero a menor altura. Inclinándose un poco como estás señalando
+Hacia abajo, puedes cambiar rápidamente tu dirección final a cualquier ángulo que desees.
+quiero.
+
+TÁCTICAS DE BOMBARDEO EN BUCEO: 1942
+En la guerra del Pacífico, el bombardeo en picado era un arte mortífero que requería la mayor
+tanto nervio en bruto como pura habilidad para volar. Para atacar en movimiento
+objetivos, como barcos, era mucho más preciso que el bombardeo de alto nivel,
+pero también era mucho más arriesgado.
+
+Volando a una altitud de hasta 12.000 pies para evitar la detección del enemigo, un
+El piloto del bombardero en picado elegiría un objetivo. Luego, abriría su inmersión.
+flaps para que su velocidad de inmersión sea de aproximadamente 250 mph, y empuje la palanca
+hacia adelante para que su avión se lanzara hacia el objetivo en un ángulo de 70 a 75
+ángulo de grado. La dirección de la inmersión determinó la trayectoria del
+bomba, por lo que el piloto mantuvo el morro del bombardero en picada justo en el objetivo,
+preferentemente la popa del barco.
+
+Durante unos angustiosos 35 a 40 segundos, el avión se sumergía mientras
+El fuego antiaéreo estalló a su alrededor. El piloto mantendría su ojo en su
+telescopio de mira de bomba y mueva los alerones para ajustarlos al viento o cualquier
+movimiento del objetivo. Con frecuencia, los pilotos hacían zigzag durante la primera
+Parte de la inmersión para hacer del avión un objetivo más difícil para el enemigo.
+cazas y fuego antiaéreo. Alrededor de 2.000 a 1.500 pies, el piloto
+soltaría la bomba. desde una bomba 
+
+				79
+
+tarda menos de tres segundos en alcanzar un objetivo desde 1.000 pies, el
+El avión estaría en peligro de ser volado por su propia bomba si se sumergiera.
+cualquier inferior. Luego, el piloto levantaría rápidamente el morro, sometiendo
+a una gran cantidad de fuerza centrífuga, generalmente de 5 a 6 Gs. si
+tuvo suerte y el fuego antiaéreo o la cobertura de un caza no lo alcanzaron,
+Entonces escucharía el sonido inconfundible de su bomba explotando en el objetivo.
+
+TÁCTICAS DE BOMBARDEO EN BUCEO: BATTLEHAWKS 1942
+Debes comenzar tu inmersión desde al menos 5000 pies de altura, preferiblemente desde 7,
+000 pies. Por debajo de los 5000 pies, es posible que no pueda bucear, apuntar, dejarse caer ni
+retirar a tiempo. Comenzar la inmersión a una altitud aún mayor está bien.
+Utilice sus frenos de velocidad para limitar la velocidad de su inmersión; el tiempo extra
+te dará muchas oportunidades para corregir tu puntería.
+
+Para ayudarte en tu aproximación al objetivo, Battlehawks te proporciona
+Dos vistas especiales. La vista de escaneo le permite volar en una dirección mientras
+miras en otro. Úselo para mirar hacia abajo mientras continúa volando nivelado,
+y así ajustar su rumbo para que se dirija directamente hacia el objetivo
+barco. Luego cambie a la vista recta hacia abajo. Ver la referencia del teclado
+sección para descubrir qué teclas controlan estas vistas en su máquina.
+
+Si te has alineado correctamente con tu barco objetivo, eventualmente
+aparece a la vista debajo de ti. Este es el momento de sumergirte. usted puede
+desea encender la cámara para grabar su bombardeo. Luego, extiende el
+frena, selecciona la vista hacia adelante y empuja la palanca de control hacia adelante
+en una inmersión pronunciada. Al observar el indicador de tono, puedes juzgar cómo
+empinada es tu bajada. Una inmersión de 70 grados (aproximadamente 3/4 del camino hacia abajo)
+indicador) es ideal para su aproximación final.
+
+Una aproximación de ataque longitudinal, a lo largo de la línea de la nave objetivo.
+Por supuesto, es mejor ya que tendrás un área más larga para que tu bomba impacte.
+Atacar al barco objetivo desde la proa es mejor que desde la popa, ya que
+el barco zarpará directamente lejos de usted en un ataque por popa. esto será
+te obligará a aplanar tu inmersión para atraparlo, y también te sacará de
+la región relativamente segura directamente sobre el barco. 
+
+Recuerda que es más importante sorprender al enemigo con tu ataque.
+que tomarse el tiempo para prepararse para el enfoque de ataque perfecto. siempre ve
+directamente para el barco. Con práctica, podrás chocar contra un barco incluso
+con un ángulo de ataque perpendicular a su rumbo.
+
+				80
+
+En tu inmersión, es posible que veas que tu objetivo no está directamente frente a ti,
+sino más bien hacia un lado o hacia el otro. Corregir tu puntería simplemente haciendo banca es
+peligroso ya que esto podría obligarlo a resbalar o patinar (moviéndose hacia los lados en
+relación con la dirección hacia la que apunta su avión). Para evitar esto, presione
+hacia adelante hasta que estés en una inmersión casi vertical, completamente hacia abajo en el
+indicador de tono. Luego puedes rotar tu avión moviendo tu control.
+Manténgase hacia la izquierda o hacia la derecha hasta que el objetivo esté directamente frente a usted. tirar hacia atrás
+suavemente para reanudar su inmersión de 70 grados.
+
+A medida que te acerques al portaaviones enemigo, ignora las ráfagas antiaéreas. tu
+la misión es
+
+				81
+
+crítico, y no necesitas los problemas adicionales de esquivar el fuego antiaéreo mientras
+apuntando. Si hay otros aviones amigos que se unen a ti en el ataque, es
+Es muy importante mantenerse unidos y utilizar fuego defensivo para protegerse mutuamente.
+otro. Pero una vez que hayas lanzado tu bomba, por supuesto, sepárate del
+grupo, y teje y doge para convertirte en un objetivo más difícil.
+
+La defensa de los cazas es otro problema crítico. Piloto de bombardero en picado Richard Best
+A menudo sacudía un avión de combate dejándolo acercarse por detrás, luego
+haciendo una curva cerrada justo cuando estaba dentro del alcance. Esto desvió el
+objetivo del luchador, provocando que falle. Mientras tanto, el artillero trasero de su
+El bombardero en picado tenía un disparo de desviación mínima contra el enemigo que se acercaba.
+
+A medida que te acerques a 2000 pies, deberías estar listo para lanzar tu bomba. si lo eres
+En una inmersión de 70 grados, la mira debe apuntar ligeramente por delante de
+donde quieres que caiga la bomba para compensar la gravedad que tira de la bomba
+fuera de la línea de su inmersión. Si sueltas demasiado alto, la bomba caerá.
+más largo y perdido
+
+				82
+
+más lejos de su punto de mira.
+
+TÁCTICAS DE BOMBARDEO CON TORPEDOS: 1942
+Lanzar un torpedo desde un avión en movimiento contra un barco en movimiento era una
+Arte extremadamente difícil en el que los japoneses sobresalieron. Esto se debió a
+su completo dominio de las técnicas de torpedeo, un excelente torpedo y,
+durante un tiempo, un avión torpedero mejor (el TBD Devastator estadounidense estaba lejos
+menos efectivo que el Kate japonés, aunque el TBF-1 Avenger demostró ser
+ser un reemplazo exitoso). 
+
+Para lanzar un ataque con torpedos contra un barco, un escuadrón de torpedos navegaría
+a gran altitud y sumergirse cuando se detecta un objetivo. ellos estallarían
+de su inmersión a una altitud de 100 pies o menos sobre el océano. A veces
+un escuadrón de torpederos se dividiría para atacar un objetivo desde diferentes
+direcciones. Si volaban juntos en formación, los aviones torpederos eran más fáciles.
+objetivos para cazas y fuego antiaéreo, al igual que el torpedo estadounidense
+escuadrones en la Batalla de Midway.
+
+Volando a baja altitud, un avión torpedero se acercaría al objetivo. el
+La posición de ataque preferida era mirar hacia la proa o la popa del barco.
+barco, ya que cualquier forma en que el barco girara lo dejaría vulnerable a un impacto.
+Cuando el avión torpedero estaba a 1.000 yardas o menos del objetivo, el
+Se lanzó el torpedo.
+
+Muchas cosas pueden salir mal con un torpedo una vez lanzado. tuvo que aterrizar
+Perfectamente plano sobre el agua para correr fiel al objetivo. Si aterrizara en un
+ángulo agudo, se lanzaría hacia abajo; si aterrizó en un ángulo poco profundo,
+rebotaría arriba y abajo en la superficie. De vez en cuando el torpedo
+simplemente se rompe cuando golpea el agua. Si el torpedo aterrizó perfectamente,
+fue diseñado para sumergirse y luego elevarse a una profundidad preestablecida justo debajo del
+superficie. Si el mecanismo de profundidad estuviera defectuoso, podría causar que el torpedo
+corre demasiado profundo y termina pasando por debajo del objetivo. A veces, un
+Un torpedo de movimiento lento podría explotar con fuego de ametralladora dirigido a su
+ojiva.
+
+				83
+
+E incluso si todo iba bien y el torpedo daba en el blanco, había
+Siempre existe la posibilidad de que sea un fracaso y no explote. americano
+Los torpedos eran famosos por esto, hasta el punto que fue una ocasión para
+celebrar cuando uno realmente detonó. Pero cuando un torpedo impactó y
+explotó, asestó un golpe muy dañino a un barco en una zona vulnerable -
+debajo de la línea de flotación. La capacidad de infligir tales daños a un barco de superficie,
+por grandes que fueran las probabilidades de fracaso, hizo que el bombardeo con torpedos fuera una tarea importante.
+arma en la guerra del Pacífico.
+
+TÁCTICAS DE BOMBARDEO CON TORPEDOS: BATTLEHAWKS 1942
+El mejor enfoque de ataque que puedes realizar cuando tu objetivo es avistado es permanecer
+bajo, llegando a sólo unos pocos pies por encima del agua. Volando a baja altura
+altitud, corres el riesgo de sufrir un desastre en una pérdida, pero también se lo pones difícil al enemigo.
+combatientes para atacarte de forma segura. Mientras se lanzan hacia ti, necesitarán
+atacar en un ángulo muy poco profundo o correr el riesgo de estrellarse en el agua,
+ya que se limitan a disparar en la dirección en la que vuelan. Además,
+tu artillero trasero no tiene tal limitación y puede eliminarlos mientras vuelas
+un rumbo constante hacia su objetivo.
+
+Para aprovechar al máximo tu artillero trasero, asegúrate de volar nivelado o en
+al menos en una subida gradual sin pérdida de velocidad, antes de cambiar a la
+vista trasera. Como eres una persona haciendo el trabajo de dos, tendrás que
+asegúrese de que el avión esté en un rumbo relativamente seguro antes de mirar hacia atrás.
+
+Al igual que con el bombardeo en picado, trate de ignorar el fuego antiaéreo en su camino. Mantenerse agachado es
+tu mejor defensa. Una aproximación más alta puede darle más espacio para maniobrar,
+pero te expondrá a más disparos. También te obligará a desperdiciar
+Preciosos segundos sumergiéndose en posición y disminuyendo la velocidad hasta la velocidad de lanzamiento de torpedos.
+antes de dejar caer tu "pez".
+
+Para soltar tu torpedo tendrás que volar bajo, lento y nivelado. si eres
+volando un TBF Avenger estadounidense, con torpedos inferiores, tendrás que
+manténgase por debajo de 100 pies y 100 MPH. Si vuelas más rápido o más alto, tu
+el torpedo funcionará mal
+
+				84
+
+cuando toca el agua. Si estás pilotando un Kate japonés, con su
+Potentes torpedos "Long Lance", puedes volar hasta 150 MPH en altitud.
+de hasta 500 pies, pero debes permanecer agachado de todos modos para evitar ataques antiaéreos.
+fuego.
+
+Debido a que las armas están dispuestas a lo largo de un barco, la opción más segura
+La aproximación es directamente hacia la proa o la popa. Para maximizar la posibilidad de una
+En caso de impacto de torpedo, se recomienda encarecidamente la aproximación frontal (hacia la proa).
+Luego, gira hacia un lado o hacia el otro para lanzar tu torpedo a un pequeño
+ángulo fuera de la proa. Recuerda girar y esquivar una vez que hayas soltado el
+torpedo.
+
+				85
+
+			(LA PÁGINA ESTÁ EN BLANCO)
+
+				86
+
+		AVIONES JAPONÉS Y AMERICANOS: 1942
+
+				87
+
+Había tres tipos diferentes de aviones a bordo, tanto japoneses como
+Portaaviones americanos. Los primeros, llamados luchadores, eran los más pequeños.
+y más maniobrable. Sus dos misiones principales eran proteger a los barcos de
+bombarderos enemigos entrantes (misión de intercepción de cazas) y para proteger los suyos
+bombarderos en camino hacia objetivos enemigos (misión de escolta de cazas). el primario
+El caza de portaaviones japonés en 1942 era el Zero, mientras que el principal estadounidense
+El caza portaaviones era el F4F Wildcat.
+
+El segundo grupo de aviones de transporte se llamó bombarderos en picado. Más grande y
+Menos ágiles que los cazas, los bombarderos en picado fueron diseñados para lanzar bombas en el mar.
+o objetivos terrestres. Esta misión de bombardeo en picado se llevó a cabo sumergiéndose
+sobre el objetivo en un ángulo pronunciado y luego lanzando la bomba a una altitud baja
+suficiente para obtener la máxima precisión, pero lo suficientemente alto como para escapar de la bomba resultante
+explosión. A veces se utilizaban bombarderos en picado para exploración y reconocimiento.
+misiones, aunque llevaban bombas en caso de que encontraran un objetivo. En 1942,
+Los japoneses utilizaron el bombardero Val para misiones de bombardeo en picado, mientras que los japoneses
+Los estadounidenses confiaron en el bombardero en picado SBD Dauntless.
+
+Finalmente, los torpederos formaban el tercer grupo. En un bombardeo con torpedos
+misión, estos bombarderos atacarían a los barcos enemigos volando hacia ellos en una
+muy baja altitud, y luego lanzando torpedos autopropulsados, que
+velocidad hacia los objetivos. Era necesaria una altitud de vuelo baja porque el
+Los giroscopios de los torpedos funcionarían mal si se cayeran desde demasiado alto. el
+Los japoneses utilizaron el torpedero Kate, mientras que el Avenger de la Armada estadounidense
+El torpedero vio su primera acción en el Pacífico a mediados de 1942.
+
+				88
+
+	           DESIGNACIONES DE ESCUADRONES DE AERONAVES
+
+El personal de los aviones de transporte se dividió en cuatro tipos diferentes de
+grupos o escuadrones. En la Marina de los EE.UU., los escuadrones de cazas fueron designados
+por las letras VF, siendo V el símbolo de "nave más pesada que el aire",
+y F de luchador. VB significaba escuadrón de bombardeo en picado, VT significaba torpedo.
+escuadrón, y VS para escuadrón de exploración o reconocimiento, que era
+esencialmente otro escuadrón de bombardeo en picado. Estas cartas de identificación
+fueron seguidos por el número de identificación del portaaviones en el que se encontraba el escuadrón.
+basado en. El número 2 era para el Lexington, el 3 para el Saratoga, el 5 para el
+Yorktown, 6 para el Enterprise y 8 para el Hornet.
+
+Por lo tanto, si tu escuadrón se llamaba VB-6, estabas en una zona de bombardeo en picado.
+escuadrón basado en el Enterprise. Si eras miembro de VT-3, eras
+parte del escuadrón de torpedos del Saratoga, etc.
+
+La Armada japonesa tenía agrupaciones similares para sus aviones de transporte.
+personal. Todos los aviones a bordo de un portaaviones determinado formaban el portaaviones
+unidad aérea, o hikokitai, y estaba dividida en tres unidades voladoras. estos
+Las unidades eran el equivalente a los escuadrones de la Armada de los EE. UU. Los combatientes formaron el
+la unidad de cazas de portaaviones y los bombarderos en picado eran la unidad de bombarderos de portaaviones. el
+La tercera unidad se llamaba unidad de ataque de portaaviones y estaba formada por aviones.
+que podrían usarse como torpederos o bombarderos en picado.
+
+				89
+
+			AVIONES NAVALES JAPONÉS
+
+	MITSUBISHI A6M2 TIPO 0 MODELO 21 ZEKE COMBATE BASADO EN TRANSPORTADOR
+
+El avión que aterrorizó los cielos del Pacífico, el A6M2 Zeke, o Zero, fue clave
+participante en casi todas las acciones navales japonesas de la Segunda Guerra Mundial.
+Este veloz caza de largo alcance podría superar en vuelo y maniobra a todo tipo de
+Combatiente estadounidense durante los dos primeros años de la guerra. La primera versión de
+El A6M2 tuvo un gran éxito en la campaña de China, en un momento
+destruyendo noventa y nueve aviones chinos, con sólo dos ceros perdidos
+fuego terrestre. En ataques posteriores a Pearl Harbor, la isla Wake, Darwin, Ceilán,
+Filipinas y las Indias Orientales Neerlandesas, el Cero era prácticamente
+imparable.
+
+El A6M2 Modelo 21 fue desarrollado específicamente para operaciones de portaaviones. un 1
+pie Sección de 8 pulgadas de cada punta de ala doblada hacia arriba, lo que permite que el Modelo 21
+para encajar dentro de los ascensores de la plataforma de transporte. En combate, fueron utilizados como bombarderos.
+protección, defensa de portaaviones y para ametrallar terrenos militares
+instalaciones.
+
+	MITSUBISHI A6M3 TIPO 0 MODELO 32 ZEKE COMBATE BASADO EN TRANSPORTADOR
+
+Justo antes de la última gran batalla de portaaviones de 1942, la Batalla de Santa
+Islas Cruz, el A6M2 Modelo 21 fue reemplazado por el A6M3 Modelo 32. Este
+La versión actualizada fue más rápida que su predecesora debido a su tamaño más grande y más
+motor potente. Sin embargo, para dejar espacio a este motor, se ha instalado un depósito de combustible más pequeño.
+tuvo que ser utilizado, lo que redujo el alcance del Modelo 32. En lugar de plegar
+puntas de las alas, el Modelo 32 tenía una envergadura más pequeña, por lo que aún podía usarse en
+operaciones de transporte.
+
+EVALUACIÓN DEL A6M2: Velocidad máxima de ascenso: 2.625 Carga de potencia: 5,5
+Velocidad: excelente pies por minuto libras/caballo de fuerza
+Escalada: excelente Techo: 32, 810 pies Armamento:
+Maniobrabilidad: excelente Alcance: 1, 162 millas Cañones: dos Tipo 97 de 7,7 mm
+Potencia de fuego del arma: buena Tripulación: una ametralladora, montada en
+Durabilidad:mala Dimensiones: el capó del motor, más
+Alcance: excelente Envergadura: 39 pies y 4 pulgadas, dos latas tipo 99 de 20 mm
+Rendimiento: Área de ala: 242 pies cuadrados sin montar, montada en alas
+Motor: un Nakajima Longitud: 29 pies 9 pulgadas Ojiva: dos de 132 libras, 
+NKIC Sakae 12 14 Altura: 10 pies de bombas montadas en alas
+Cilindro, radial refrigerado por aire Pesos: (ataque al suelo)
+Caballos de fuerza: 940 en la toma Vacío: 3, 704 libras
+apagado; 980 a 9, 350 pies Cargado: 5, 313 libras
+Velocidad máxima: 331 millas Carga alar: 22 libras/
+por hora pie cuadrado
+
+				90
+
+Tanto el A6M2 Modelo 21 como el A6M3 Modelo 32 eran más rápidos y ágiles
+que sus homólogos estadounidenses. Pero esta velocidad y maniobrabilidad llegaron a
+el precio de la protección del piloto. Para ahorrar peso, los Zero eran menos pesados.
+blindados que los cazas estadounidenses y también carecían de tanques de combustible autosellantes. como un
+Como resultado, los golpes que podrían no causar mucho daño a un caza estadounidense convertirían un
+Cero en una bola de fuego. Cuando los pilotos estadounidenses conocieron estos hechos,
+comenzaron a aprovechar esta habilidad para superar en armas, si no en huir, a los
+Cero menos duradero.
+
+Evaluación A6M3: Velocidad máxima de ascenso: 2, 689 Carga de energía: 5 libras/
+Velocidad: Excelentes pies por minuto caballos de fuerza
+Escalada: excelente Techo: 36, 250 pies Armamento:
+Maniobrabilidad: Alcance: 1, 477 millas Cañones: dos 7,7 mm Tipo 97
+excelentes ametralladoras, montadas en
+Potencia de fuego del arma: buena Tripulación: uno en la capota del motor, más
+Durabilidad:mala Dimensiones: dos cañones Tipo 99 de 22m,
+Alcance: bueno Envergadura: 36 pies 1 pulgada montado en alas
+Rendimiento: Área del ala: 232 pies cuadrados Ojivas: 2 132 libras
+Motor: un Nakajima Longitud: bombas de 29 pies y 9 pulgadas, montadas en el
+NKIC Sakae 21 14 Altura: 11 pies 6 pulgadas alas (ataque al suelo)
+cilindro, Pesos:			
+radial enfriado por aire
+Caballos de fuerza: 1, 130 Vacío: 3, 984 libras
+en el despegue; 1, 100
+a 9, 350 pies Cargado: 5, 609 libras
+Velocidad máxima: 338 millas Carga alar: 24,2
+por hora libras/pie cuadrado
+
+				91
+
+	AICHI D3A1 TIPO 99 MODELO 11 BOMBARDERO BASADO EN TRANSPORTADOR
+
+Entregado por primera vez en 1940, este bombardero en picado de aspecto distintivo ayudó al
+Los japoneses logran muchas de sus victorias durante los primeros meses del
+guerra. El Val hundió más barcos aliados que cualquier otro tipo de avión, y
+figuró de manera destacada en los éxitos japoneses en China, Indochina, la India
+Ocean y en Pearl Harbor, donde 126 D3A1 lanzaron los primeros aviones japoneses.
+bombas en barcos estadounidenses. El D3A1 era tan maniobrable que a veces se utilizaba como
+un caza, aunque con su tren de aterrizaje fijo, tenía un vuelo relativamente lento
+velocidad del aire. A pesar de que sólo podía llevar una carga útil ligera, era
+considerado uno de los mejores bombarderos en picado de su época.
+
+Evaluación D3A1: Velocidad máxima de ascenso: 1, 515 Armamento:
+Velocidad: pies justos por minuto Armas: 2 disparos hacia adelante
+Escalada: justa Techo: 30, 500 pies Motor tipo 97 de 7,7 mm
+Maniobrabilidad: excelente Alcance: 915 millas máquina montada en el capó
+Potencia de fuego del arma: regular Tripulación: dos cañones y 2 de disparo trasero, 
+Durabilidad: regular Dimensiones: montaje flexible 7,7 mm
+Alcance: regular Envergadura: 47 pies 2 pulgadas Ametralladoras tipo 92
+Rendimiento: Área del ala: 376 pies cuadrados. Ojiva: una de 551 libras.
+Motor: 1 Mitsubishi Longitud: 33 pies y 5 pulgadas bomba montada en el fuselaje;
+Kinsei 42 14 cilindros Altura: 12 pies y 7 pulgadas también podría transportar 2 132-
+Pesos radiales: libra montados en ala
+Caballos de fuerza: 1000 en el momento de la toma Vacío: 4 bombas de 309 libras (ataque a tierra)
+apagado; 990 a 6, 650 pies Cargado: 8, 047 libras		
+(modelo anterior) Carga alar: 21,4
+Velocidad máxima: 240 millas libras/pie cuadrado
+por hora Carga de energía: 8 libras/caballo de fuerza
+
+				92
+
+	AICHI D3A2 TIPO 99 MODELO 12 VAL BOMBARDERO BASADO EN
+
+Con las asombrosas pérdidas sufridas en portaaviones, aviones y tripulaciones
+por los japoneses en las batallas navales de 1942, muchos D3A1 Val fueron asignados
+a los bombardeos desde tierra en las Islas Salomón. Dado su bajo nivel de combustible
+su capacidad y alcance los hacían insuficientes para esta tarea, fueron reemplazados
+por el D3A2 Modelo 12. Esta versión mejorada tenía un tanque de combustible más grande, un
+motor potente y una sección de capó trasero más larga que su predecesor.
+
+El D3A2 vio su primera acción de combate en el otoño de 1942. Posteriormente fue utilizado
+en la defensa de Filipinas en 1944, e incluso vio el servicio como una
+Avión kamikaze durante el último año de la guerra.
+
+Evaluación D3A2: Velocidad máxima de ascenso: 1, 697 Carga de energía: 6,4
+Velocidad: pies justos por minuto libras/caballo de fuerza
+Escalada: buena Velocidad de crucero: 184 millas Armamento:
+Maniobrabilidad: excelente por hora Armas: 2 disparos hacia adelante
+Potencia de fuego del arma: regular Techo: 34, 500 pies Motor tipo 97 de 7,7 mm
+Durabilidad: regular Alcance: 915 millas máquina montada en capó
+Alcance: bueno Tripulación: dos cañones y 2 de disparo trasero
+Rendimiento: Dimensiones: montaje flexible de 7,7 mm
+Motor: 1 Mitsubishi Envergadura: 47 pies 2 pulgadas Ametralladoras tipo 92
+Kinsei 54 14 cilindros Área del ala: 376 pies cuadrados Ojiva: 1 551 libras
+Longitud radial: bomba montada en el fuselaje de 33 pies y 5 pulgadas;
+Caballos de fuerza: 1, 300 a altura: 12 pies 7 pulgadas también podría transportar 2 132-
+despegue; 1, 200 a 9, 845 Pesos: libra montado en el ala
+pies; y 1, 100 a 20, 340 Vacío: 5, 666 libras de bombas (ataque a tierra)
+pies Cargado: 8, 378 libras
+Velocidad máxima: 267 millas por carga alar: 22,3
+libras hora/pie cuadrado
+
+				93
+
+	NAKAJIMA B5N1 TIPO 97 MODELO 11 BOMBARDERO TORPEDO BASADO EN KATE CARRIER
+
+Una versión anterior de los Kates, que fueron tan eficaces en los portaaviones del Pacífico.
+batallas, el B5N1 Modelo 11 permitió a los japoneses convertirse en los maestros de
+el arte del bombardeo con torpedos. El Modelo 11 entró en producción en 1937 y
+Se utilizó por primera vez en combate como bombardero terrestre para apoyar a las tropas terrestres en
+China. A pesar de que estaba ligeramente blindado y solo tenía un
+ametralladoras traseras para protegerse de los atacantes, el Modelo 11 era altamente
+éxito en la campaña de China. Versiones basadas en portaaviones del Modelo 11
+Tenía puntas de alas plegables que se superponían sobre la cabina para facilitar el almacenamiento.
+a bordo del barco.
+
+Evaluación B5N1: Velocidad máxima de ascenso: 1, 257 Pesos:
+Velocidad: buenos pies por minuto Vacío: 4, 643 libras
+Escalada: buena Techo: 24, 280 pies Cargado: 8, 157 libras
+Maniobrabilidad: buena Alcance: 1.404 millas Carga con alas: 20,1
+Potencia de fuego del arma: pobre Tripulación: dos libras/pie cuadrado
+Durabilidad: justa Dimensiones: Carga de energía: 11,5
+Alcance: bueno Envergadura: 50 pies libras/caballo de fuerza
+Rendimiento: 11 pulgadas Armamento:
+Motor: 1 Nakajima Área del ala: 406 pies cuadrados Cañones: 1 flexible de 7,7 mm
+Hikari 3, 9 cilindros Longitud: 33 pies 9 pulgadas Máquina de disparo trasero tipo 92
+Altura radial refrigerada por aire: pistola de lomo de 12 pies y 2 pulgadas
+Caballos de fuerza: 700 en la toma Ojiva: 1 1, 764 libras
+apagado; 800 a 11, 485 pies de torpedo; también podría
+Velocidad máxima: 229 millas de recorrido
+por hora 1, 764 libras de bombas
+
+				94
+
+	NAKAJIMA B5N2 TIPO 97 MODELO 12 BOMBARDERO TORPEDO BASADO EN KATE CARRIER
+
+En el momento del estallido de la guerra entre Japón y Estados Unidos, el
+El B5N2 Modelo 12 fue el bombardero torpedero basado en portaaviones más avanzado del
+mundo. Había reemplazado al anterior B5N1 Modelo 11 en el momento del Pearl.
+Ataque al puerto, donde 144 Kates causaron graves daños al acorazado estadounidense
+flota. Durante las cuatro batallas críticas de portaaviones de 1942, los B5N2 fatalmente
+hirió a los portaaviones estadounidenses Lexington, Yorktown y Hornet. ellos también vieron
+servicio en campañas en las Islas Salomón y Filipinas, pero avanza en
+los avances en el diseño aeronáutico de otros aviones relegaron a los Kates
+al reconocimiento aéreo y al servicio antisubmarino al final de la guerra.
+
+En apariencia, el B5N2 Modelo 12 era casi idéntico al B5N1 Modelo 11.
+El B5N2, sin embargo, tenía un motor más grande y más fiable que el B5N1, un
+factor que era crítico durante vuelos largos sobre el agua. Un rediseñado
+El capó también proporcionó una mejor vista para el piloto, al tiempo que redujo la resistencia al
+el avión.
+
+Evaluación B5N2: Velocidad máxima de ascenso: 1, 285 Pesos:
+Velocidad: buenos pies por minuto Vacío: 5, 024 libras
+Escalada: buena Techo: 27, 100 pies Cargado: 8, 378 libras
+Maniobrabilidad: buena Alcance: 1, 237 millas Carga alar: 20,6
+Potencia de fuego del arma: pobre Tripulación: dos libras/pie cuadrado
+Durabilidad: justa Dimensiones: Carga de energía: 8,4
+Alcance: bueno Envergadura: 50 pies libras/caballo de fuerza
+Rendimiento: 11 pulgadas Armamento:
+Motor: 1 Nakajima Área del ala: 406 pies cuadrados Cañones: 1 flexible de 7,7 mm
+NK1B Sakae 11 14- Longitud: 33 pies 9 pulgadas Tipo 92 de disparo trasero
+Cilindro, radial refrigerado por aire Altura: 12 pies 2 pulgadas pistola de lingotes
+Caballos de fuerza: 1.000 en la toma Ojiva: 1 1. 764 libras
+apagado; 970 a 9, 845 pies torpedo; también podría
+Velocidad máxima: 235 millas de transporte
+por hora 1, 764 libras de bombas
+
+				95
+
+		   AVIONES NAVALES DE ESTADOS UNIDOS
+
+				96
+
+		CAZA GRUMMAN F4F-3 WILDCAT BASADO EN TRANSPORTADOR
+
+El caza que sería el pilar de la fuerza de portaaviones estadounidense hasta 1943.
+tuvo su primera encarnación como el F4F-3. Después de que la primera versión tuviera
+le fue miserable en las pruebas de rendimiento, la adición de un más potente y
+Un motor confiable convenció a la Marina de los EE. UU. para realizar un pedido inicial de
+cincuenta y cuatro. El primer F4F-3 salió de la línea de montaje a principios de 1940.
+
+El F4F-3 fue utilizado por primera vez por los británicos a finales de 1940. Al año siguiente,
+Tanto la Armada como el Cuerpo de Marines de los EE. UU. volaban Wildcats, de los cuales 187 eran
+utilizado únicamente por la marina en el momento del ataque japonés a Pearl Harbor.
+
+Evaluación F4F-3: Caballos de fuerza: 1, 200 Altura: 11 pies 4 pulgadas
+Velocidad: buena Velocidad máxima: 331 millas Pesos:
+Escalada: buena por hora Vacío: 5, 238 libras
+Maniobrabilidad: regular Velocidad de ascenso: 2, 300 pies Cargado: 7, 056 libras
+Potencia de fuego del arma: buena por minuto Carga alar: 33,6
+Durabilidad: excelente Techo: 37, 000 pies libras/pie cuadrado
+Alcance: regular Alcance: 860 millas Carga de energía: 7,3
+Rendimiento: Tripulación: una libra/caballo de fuerza
+Motor: 1 Pratt y Dimensiones: Armamento:
+Whitney R-1830-76 (temprano);  Envergadura: 38 pies Cañones: calibre 4 .50
+1 área de Pratt & Whitney Wing: ametralladoras de 260 pies cuadrados, 2 en cada una
+$-1830-86 (tarde) Longitud: ala de 28 pies y 9 pulgadas
+
+				97
+
+		CAZA GRUMMAN F4F-3A WILDCAT BASADO EN TRANSPORTADOR
+
+A finales de 1940, la Marina de los EE. UU., preocupada por los retrasos en la producción del
+El motor Pratt & Whitney R-1830-36 del F4F-3 realizó un pedido a Grumman por
+una versión que usaría un motor diferente. Conocido como F4F-3A, este
+El modelo era idéntico al F4F-3 en todos los aspectos, excepto que presentaba
+un motor Pratt & Whitney R-1830-90 sobrealimentado. Este nuevo motor fue
+ligeramente menos potente que el R-1830-36, y los pilotos informaron que el
+El F4F-3A era más lento y no se manejaba tan bien como el F4F-3.
+
+El F4F-3A fue el primer Wildcat en entrar en acción contra Japón. en la batalla
+En la isla Wake, cuatro F4F-3A atacaron la flota de invasión japonesa y se hundieron.
+un destructor y obligando a la flota a dar la vuelta. Once días después el
+La flota regresó, pero esta vez los pocos Wildcats que quedaban no fueron rival para
+cuando la isla Wake cayó el 23 de diciembre de 1941. Los F4F-3 y F4F-3A también
+Participó en numerosos enfrentamientos a principios de 1942, incluida la Batalla de
+el Mar del Coral.
+
+Evaluación F4F-3A: Velocidad máxima: 312 millas Pesos:
+Velocidad: regular por hora Vacío: 5, 216 libras
+Escalada: regular Velocidad de subida: 2, 430 pies Cargado: 6, 876 libras
+Maniobrabilidad: regular por minuto Carga alar: 27,1
+Potencia de fuego del arma: buena Techo: 34, 300 pies libras/pie cuadrado
+Durabilidad: excelente Alcance: 825 millas Carga de energía: 5,8
+Rango: regular Tripulación: una libra/caballo de fuerza
+Rendimiento: Dimensiones: Armamento:
+Motor: un Pratt & Wingspan: 38 pies Cañones 4 calibre .50
+Whitney R-1830-90 Área del ala: ametralladoras de 260 pies cuadrados, 2 en cada una
+Caballos de fuerza: 1, 200 Longitud: 28 pies 9 pulgadas de ala
+			Altura: 11 pies 4 pulgadas
+
+				98
+
+	   CAZA GRUMMAN F4F-4 WILDCAT BASADO EN TRANSPORTADOR
+
+Reconociendo que las alas fijas del F4F-3 y F4F-3A afectarían gravemente
+limitar el número de aviones que podrían almacenarse a bordo de un avión
+portaaviones, la Marina de los EE. UU. encargó un prototipo F4F-3 con alas plegables y dos
+Ametralladoras calibre .50 adicionales. Esta versión del Wildcat, el F4F-4 y
+F4F-3A a bordo de portaaviones estadounidenses. Vio una extensa acción en la Batalla de
+A mitad de camino, la Batalla de las Salomón Orientales, la Batalla de Santa Cruz
+Islas, y en muchos otros compromisos. Incluso después de que el Wildcat hubiera sido
+reemplazado por el F5F hellcat, continuó desempeñando un papel importante en el
+Campaña del Pacífico hasta el final de la guerra.
+
+En una situación de combate aéreo uno contra uno, el F4F-4 no fue rival para los japoneses.
+Caza Zero, que era más rápido, más maniobrable y tenía un techo más alto.
+y un mayor alcance. Sin embargo, al evitar las peleas aéreas y formar parejas de dos
+contra un Zero, los pilotos del Wildcat podrían aprovechar su superioridad
+potencia de fuego y su capacidad para resistir el daño de la batalla.
+
+Evaluación F4F-4: Velocidad máxima: 320 millas Pesos:
+Velocidad:buena por hora Vacío:5, 895 libras
+Escalada: buena Velocidad de ascenso: 2, 190 pies Cargado: 8, 765 libras
+Maniobrabilidad: buena por minuto Carga alar: 26,4
+Potencia de fuego del arma: excelente Techo: 34, 000 pies libras/pie cuadrado
+Durabilidad: excelente Alcance: 1, 275 millas Carga de energía: 5,7
+Rango: justo Tripulación: una libra/caballo de fuerza
+Rendimiento: Dimensiones: Armamento:
+Motor: un Pratt & Envergadura: 38 pies Cañones: calibre 6 .50
+Whitney R-1830-86 Área del ala: ametralladoras de 260 pies cuadrados, 3 pulgadas
+Motor radial Longitud: 29 pies cada ala
+Caballos de fuerza: 1, 200 Altura: 11 pies 4 pulgadas
+
+				99
+
+	BOMBARDERO EN BUCEO DOUGLAS SBD-2 DAUNTLESS
+
+Quizás el avión de transporte más popular de la Segunda Guerra Mundial entre
+Para los pilotos de la Marina de los EE. UU., el Dauntless era fácil de volar y mortalmente efectivo en
+entregando bombas. También conocido como la "Barcaza", el "Clunk" y el
+"Lento pero mortal", jugó un papel importante en las batallas de portaaviones de
+1942, especialmente en la Batalla de Midway.
+
+La primera versión del Dauntless aceptada por la Marina de los EE. UU. fue
+el SBD-2. Este modelo tenía una mayor capacidad de combustible que el anterior SBD-1,
+pero carecía de blindaje y de parabrisas a prueba de balas. aunque
+no se consideraba digno de combate, estaba en uso a bordo de portaaviones estadounidenses en el
+época de Pearl Harbor. Siete SBD-2 del Enterprise fueron derribados en
+el ataque, mientras derribaba dos aviones japoneses.
+
+Evaluación SBD-2: Techo: 27, 400 pies libras/caballo de fuerza
+Velocidad: regular Alcance: 1, 225 millas (bomba- Armamento:
+Escalada: regular (ing); 1, 370 millas (exploración) Cañones: 1 fijo .50 
+Maniobrabilidad: regular Tripulación: ametralladora de dos calibres, 
+Potencia de fuego del arma: justa Dimensiones: montado delante del
+Durabilidad: excelente Envergadura: cabina de 41 pies y 6 pulgadas y 1 flexible
+Alcance: bueno Área del ala: 325 pies cuadrados Ametralladora calibre .30
+Rendimiento: Longitud: 32 pies 2 pulgadas montado en la parte trasera de
+Motor: Wright R-1820-32 Altura: 13 pies 7 pulgadas de la cabina.
+Caballos de fuerza: 1.000 at Pesos: Ojiva: 1 1.000 libras
+despegue Vacío: 6, bomba de 293 libras. También podría llevar
+Velocidad máxima: 252 millas Cargado: 10, 360 libras 1 de estas combinaciones
+por hora Carga alar: 31,8 2 bombas de 100 libras o 
+Velocidad de ascenso: 1.080 libras/pies cuadrados de cargas de profundidad más 1
+por minuto Carga de energía: 10,3 bomba de 500 libras, o 1
+							Bomba de 1600 libras.
+
+				100
+
+	BOMBARDERO EN BUCEO DOUGLAS SBD-3 DAUNTLESS
+
+En marzo de 1942, la Marina de los EE. UU. comenzó a reemplazar sus SBD-2 por SBD-3.
+Esta nueva versión era mucho más digna de combate, con un motor más potente,
+ametralladoras adicionales, blindaje alrededor de las tripulaciones y los tanques de combustible, y un
+parabrisas a prueba de balas.
+
+El SBD-3 fue el primer modelo Dauntless que se produjo ampliamente y, después
+1942, pasaría a la historia. Bombas lanzadas desde SBD-3 Dauntlesses
+hundió barcos japoneses en la Batalla del Mar del Coral y la Batalla del
+Islas Salomón Orientales, además de cuatro portaaviones en la Batalla de
+A mitad de camino. Continuaría siendo el caballo de batalla de la flota estadounidense durante todo
+toda la campaña de las Salomón. El SBD-5 Dauntless y el SB2-C Helldiver
+reemplazó al SBD-3 en 1943.
+
+Evaluación SBD-3: Techo: 27, 400 pies libras/caballo de fuerza
+Velocidad: regular Alcance: 1, 345 millas (bomba- Armamento:
+Escalada: carenado);1, 580 millas (contando) Armas: 2 calibre .50 para-
+Maniobrabilidad: regular Tripulación: 2 máquinas de disparo
+Potencia de fuego del arma: buena Dimensiones: armas montadas en el frente
+Durabilidad:excelente Envergadura:41 pies 6 pulgadas de la cabina, + 2 .30
+Alcance: bueno Área del ala: 325 pies cuadrados calibre flexible
+Rendimiento: Longitud: ametralladora de 32 pies y 8 pulgadas en la parte trasera
+Motor: Wright R-1820-52 Altura: 13 pies 7 pulgadas de la cabina.
+Caballos de fuerza: 1000 at Pesos: Ojiva: 1 1000 libras
+Despegue vacío: bomba de 6, 345 libras. También podría llevar
+Velocidad máxima: 250 millas Cargado: 10, 400 libras 1 de estas combinaciones
+por hora Carga alar: 32 libras/ 2 bombas de 100 libras o
+Velocidad de ascenso: 1, 190 pies cuadrados de cargas de profundidad + 1 500
+por minuto Carga de energía: bomba de 10,4 libras, o 1 1.600
+							bomba de libra.
+
+				101
+
+	GRUMMAN TBF-1 AVENGER BOMBARDERO TORPEDO BASADO EN
+
+A veces conocida como "Turquía" o "Bestia Preñada", la robusta y confiable
+Avenger demostró ser un reemplazo muy superior para el lento y obsoleto
+TBD-1 Devastator, que falló tan desastrosamente en Midway. El TBF-1 vio su
+primera acción como bombardero terrestre en esa batalla, y reemplazó al
+Devastator en portaaviones poco después. Los Vengadores participaron más tarde en el
+Batalla de las Salomón Orientales y Batalla de las Islas Santa Cruz,
+y desempeñó papeles valiosos en otros compromisos navales importantes a lo largo del
+guerra. En 1944, los Vengadores lograron cuatro impactos de torpedos contra los japoneses.
+El acorazado Yamato, el buque más fuertemente armado del mundo. Vengadores
+También se utilizaron amplia y eficazmente contra el transporte marítimo japonés y en
+servicio antisubmarino.
+
+El TBF-1 demostró ser una plataforma muy robusta desde la cual lanzar un
+torpedo. Estaba fuertemente blindado, por lo que podía sufrir una gran cantidad de daño.
+de luchadores
+
+				102
+
+mientras está en el aire. Con ametralladoras ubicadas en la parte delantera de la marquesina, en
+la torreta de potencia en la parte trasera y en la parte inferior del avión,
+También podría provocar una gran cantidad de daño.
+
+Evaluación TBF-1: Dimensiones: la torreta de potencia en la parte trasera
+Velocidad: buena Envergadura: 54 pies 2 pulgadas de dosel
+Escalada: buena Área del ala: 490 pies cuadrados Ojiva: 1 500 libras
+Maniobrabilidad: regular Longitud: 40 pies Torpedo MK13. también
+Potencia de fuego del arma: excelente Altura: 16 pies y 5 pulgadas podrían transportar 1 de estos
+Durabilidad:excelente Pesos: combinaciones:1 2000 lb
+Alcance: bueno Vacío: bomba de uso general de 10.080 libras, 
+Rendimiento: Cargado: 13, 667 libras 2 1000 libras en general
+Motor: 1 Wright Wing Carga: 27,8 bombas de propósito, 4 500 lb
+Bombas de uso general R-2600 libras/pie cuadrado, 
+Caballos de fuerza: 1.700 Carga de energía: 8 libras/1 armadura de 1600 libras.
+Velocidad máxima: bomba perforadora de 257 millas de caballos de fuerza, o 4.350
+por hora Armamento: bombas de profundidad de libra.
+Velocidad de ascenso: 1, 430 Cañones: 1 disparo hacia adelante .30
+Ametralladora calibre pies por minuto, 1 .30
+Techo: Ametralladora calibre 21, 400 pies en el vientre, 
+Alcance: 1, 215 millas y 1 ametralladora calibre .50
+Tripulación: tres en
+
+				103
+
+			ARMAS AÉREAS JAPONESAS
+
+AMETRALLADORA DE 7,7 MM
+En japonés se utilizaron dos variaciones principales de esta ametralladora ligera.
+aviones de transporte. El Tipo 97 que disparaba hacia adelante se fijó en la capota del motor.
+del Cero y Val. El Tipo 92 de montaje flexible se utilizó en la parte trasera.
+artilleros del Val y Kate. Se necesitaron muchas balas de estas armas para causar daño.
+los robustos aviones americanos. Los pilotos cero los usaron para medir distancias una vez que
+Si daban en el blanco con precisión, se utilizaban cañones más potentes.
+
+CAÑÓN DE 20 MM
+Esta arma montada en el ala del Zero era poderosa a corta distancia. Pero, con
+Con un cargador limitado de sesenta proyectiles, se quedó sin munición rápidamente. eso
+También tenía una velocidad de salida baja, lo que significa que las balas viajarían
+lentamente una vez que abandonaron el cañón. Esto hacía difícil alcanzar un movimiento
+apuntar de manera efectiva.
+
+BOMBAS DE 250 KILOGRAMOS
+Estas "bombas de hierro" estaban repletas de explosivos potentes y fueron utilizadas por
+Val para bombardear barcos en picado y objetivos terrestres. A menudo, un casi accidente en un barco
+con una de estas bombas fue tan efectivo como un impacto porque la explosión en
+el agua podría atravesar el casco por debajo de la línea de flotación, como un torpedo.
+
+TORPEDO TIPO 95
+También conocido como "Long Lance", este fue el mejor torpedo del mundo.
+mundo en ese momento, superando con creces a cualquier torpedo estadounidense. Podría caerse
+desde un bombardero a una altura de 500 pies sobre el océano, y aceleraría hasta
+su objetivo a unos increíbles 45 nudos. Su ojiva pesaba 900 libras y
+Casi siempre explotaría cuando alcanzara el objetivo, a diferencia de los torpedos estadounidenses.
+ojivas.
+
+				104
+
+			ARMAS AÉREAS DE ESTADOS UNIDOS
+
+AMETRALLADORA CALIBRE .30
+Al igual que los cañones japoneses de 7,7 mm, este cañón de 7,6 mm se utilizaba en la retaguardia.
+artilleros en el SBD Dauntless y TBF Avenger, donde podría evitar un Zero
+al piloto ejecutar su táctica favorita: un ataque de cola. Llegó
+Variedades de barril simple y doble.
+
+AMETRALLADORA CALIBRE .50
+Este cañón medía 12,7 mm y podía causar graves daños a los aviones japoneses.
+ que carecía de tanques de combustible autosellantes y blindaje. el incendiario
+Las balas trazadoras en algún momento harían que un Zero explotara si alcanzaran su gas.
+tanque. Era el arma delantera principal del F4F Wildcat, el SBD Dauntless,
+y el TBF Avenger.
+
+BOMBAS DE 500/1.000 LIBRAS
+Al igual que sus homólogos japoneses, se trataba de "bombas de hierro" altamente explosivas.
+que podría usarse contra objetivos terrestres y marítimos. El SBD llevaba ya sea
+tipo, generalmente el más grande de 1.000 libras. Cuando no había suficiente cubierta
+espacio en el portaaviones para un despegue largo, la bomba de 500 libras se usó para
+aligerar la carga y acortar la distancia de despegue.
+
+MARCA 13 TORPEDO
+Quizás una de las armas menos fiables jamás ideadas, la Mark 13 fue
+lento, inexacto y, a menudo, defectuoso. Su frágil sistema de guía
+volverse loco si golpea el agua a gran velocidad o en un ángulo que no era
+perfectamente plano. Con su lenta velocidad de 33,5 nudos, a veces podía
+ser detonado deliberadamente con balas de ametralladora. Si dio en el blanco,
+su ojiva de 500 libras a menudo no lograba explotar.
+
+				105
+
+			(ESTA PÁGINA ESTÁ EN BLANCO)
+
+				106
+
+		BUQUES DE GUERRA JAPONÉS Y AMERICANOS: 1942
+
+				107
+
+			BUQUES DE GUERRA JAPONÉS
+
+CLASE AKAGI
+Convertido a partir del casco de un crucero de batalla parcialmente construido, el Akagi fue
+completado como portaaviones en marzo de 1927. En 1938, el Akagi fue
+modernizado, con la adición de una cubierta de vuelo completa y una isla en su
+lado de babor.
+
+El Akagi, fuertemente blindado, era una parte importante del ejército imperial japonés.
+fuerzas de ataque de portaaviones de la Armada y participó en las campañas en China,
+Pearl Harbor, Rabaul, Darwin, Java y Ceilán. El 4 de junio de 1942, el Akagi
+fue gravemente dañado por aviones del Enterprise frente a Midway Island, y
+Fue hundido por destructores al día siguiente.
+
+Número de barcos en clase: 1 Eslora: 855 pies
+Manga: 102 pies 9 pulgadas Calado: 28 pies 7 pulgadas
+Desplazamiento: 36. 500 toneladas Potencia del eje: 133. 000
+Velocidad máxima: 31 nudos Tripulación: 2.000
+
+Armamento: seis cañones calibre .50 de 8 pulgadas, doce cañones calibre .45 de 4,7 pulgadas,
+veintiocho cañones antiaéreos de 25 mm Número de aviones: 91
+
+CLASE DE SHOKAKU
+Terminado el 8 de agosto de 1941, el Shokaku y su barco gemelo, el Zuikaku,
+formaban parte de una nueva clase de "superportaaviones" de la Armada japonesa. los dos rapidos
+Los portaaviones jugaron un papel importante en muchas de las batallas en el Pacífico,
+incluidos los ataques a Pearl Harbor, Rabaul, Darwin, Java y Ceilán. en mayo
+El 7 de enero de 1942, el Shokaku fue gravemente dañado por aviones estadounidenses de los portaaviones.
+Lexington y Yorktown en la Batalla del Mar del Coral. Como resultado, fue
+quedó para reparaciones y se perdió la crítica Batalla de Midway.
+
+El Shokaku volvió a la acción en la Batalla de las Salomón Orientales. eso
+era
+
+				108
+
+dañado en la Batalla de las Islas Santa Cruz y fuera de combate
+durante los próximos nueve meses. El 19 de junio de 1944, el Shokaku fue hundido por el
+Submarino estadounidense Cavalla frente a la isla Yap.
+
+Número de barcos en clase: 2 Eslora: 844 pies
+Manga: 85 pies 4 pulgadas Calado: 29 pies 1 pulgada
+Desplazamiento: 25. 675 toneladas Potencia del eje: 160. 000
+Velocidad máxima: 34 nudos Tripulación: 1.660
+
+Armamento: dieciséis cañones de doble propósito calibre .40 de 5 pulgadas, cuarenta y dos de 25 mm
+cañones antiaéreos. Número de aviones: 84
+
+Clase Soryu
+Aunque no es tan grande como el Akagi o el Kaga, el Soruy y su barco gemelo, el
+Hiryu, eran más rápidos, más maniobrables y más poderosos que los más grandes.
+transportistas. Tanto el Soryu como el Hiryu se construyeron aproximadamente en la misma línea,
+con el Hiryu pesando un poco más y teniendo algo más grande
+dimensiones. Curiosamente, la isla del Soryu estaba a babor, mientras que
+el del Hiryu estaba a estribor.
+
+El soryu se completó en 1937 y el Hiryu en 1939. Ambos portaaviones tomaron
+participar en los compromisos en China, Pearl Harbor, Isla Wake, Rabaul, Ambon
+Island, Timor, Darwin, Java y Ceilán. El 4 de junio de 1942, el Soryu fue
+atacado y hundido por bombarderos en picado del Yorktown en la Batalla de
+A mitad de camino. Ese mismo día, el Hiryu fue gravemente dañado por aviones del
+Yorktown y Enterprise, y fue hundido al día siguiente.
+
+Número de barcos en clase: 2 Eslora: 746 pies
+Manga: 69 pies 11 pulgadas Calado: 25 pies
+Desplazamiento: 18. 800 toneladas Potencia del eje: 152. 000
+Velocidad máxima: 34 nudos Tripulación: 1, 100
+
+Armamento: doce cañones calibre .40 de 5 pulgadas, veintiocho antiaéreos de 25 mm
+armas. Número de aviones: 71
+
+				109
+
+CLASE KAGA
+Al igual que el Akagi, el Kaga fue construido sobre el casco de un barco sin terminar.
+crucero de batalla. Ambos enormes transportadores tenían embudos horizontales y
+El humo se filtraba constantemente en las habitaciones de la tripulación. Sin embargo, el
+Kaga y Akagi eran los favoritos de la Armada japonesa.
+
+El Kaga se completó en 1928 y se modernizó para albergar más aviones en
+1935. Después de prestar servicio en China, Pearl Harbor, Rabaul, Darwin y
+Java, el Kaga fue hundido el 4 de junio de 1942 por bombarderos en picado del
+Enterprise en la batalla de Midway.
+
+Número de barcos en clase: 1 Eslora: 812 pies
+Frijol: 106 pies 8 pulgadas Calado: 31 pies 1 pulgada
+Desplazamiento: 38, 200 toneladas Potencia del eje: 127, 000
+Velocidad máxima: 28 nudos Tripulación: 1.340
+
+Armamento: dieciséis cañones calibre .40 de 5 pulgadas, diez cañones calibre .50 de 8 pulgadas,
+veintidós cañones antiaéreos de 25 mm. Número de aviones: 90
+
+CLASE DE RYUJO
+Con su distintiva proa alta y popa baja, el Ryujo fue uno de los
+barcos más pequeños de la Armada japonesa. Fue terminado en 1933 y
+reconstruido en 1936. Después de ver servicio en China, Filipinas, el
+Indias Orientales y el Océano Índico, el Ryujo formó parte del grupo de trabajo
+que realizó una incursión de distracción en las Aleutianas el 3 de junio de 1942, el día
+antes de la Batalla de Midway.
+
+Más tarde ese año, el Ryujo fue hundido en la Batalla de las Salomón Orientales.
+por aviones desde Saratoga.
+
+Número de barcos en clase: 1 Eslora: 590 pies
+Manga: 68 pies 2 pulgadas Calado: 23 pies 3 pulgadas
+Desplazamiento: 10, 600 toneladas Potencia del eje: 66, 269
+Velocidad máxima: 29 nudos Tripulación: 924
+
+Armamento: ocho cañones calibre .40 de 5 pulgadas, veinticuatro antiaéreos de 13,2 mm
+cañones, cuatro cañones antiaéreos de 25 mm. Número de aviones: 48
+
+CLASE SHOHO
+El Shoho y su barco gemelo, el Zuiho, fueron construidos originalmente como
+barcos de apoyo submarinos, y luego se convirtieron en portaaviones. el
+Zuiho, un poco más grande, fue reconstruido en 1940, y el Shoho en 1942. En
+En su única batalla, el Shoho fue hundido por aviones del Yorktown en el
+Batalla del Mar del Coral el 7 de mayo de 1942. El Zuiho disfrutó de una carrera más larga,
+ver acción en Filipinas y las Aleutianas antes de sufrir daños en
+la Batalla de las Islas Santa Cruz. Después de las reparaciones, el Zuiho participó en
+la Batalla del Mar de Filipinas antes de ser hundido frente al Cabo Engano en el
+Batalla del golfo de Leyte.
+
+Número de barcos en clase:2 Eslora:674 pies
+Manga: 59 pies 8 pulgadas Calado: 21 pies 7 pulgadas
+Desplazamiento: 11, 262 toneladas Potencia del eje: 52, 000
+Velocidad máxima: 28 nudos Tripulación: 989
+
+Armamento: ocho cañones calibre .40 de 5 pulgadas, ocho cañones antiaéreos de 25 mm
+Número de aviones: 30
+
+				111
+
+			   CRUCEROS PESADOS
+
+CLASE FURUTAKA
+El primer crucero japonés diseñado y construido para cumplir con el acuerdo de 1925.
+Tratado de Washington, que limitaba el tamaño de los buques de guerra, se completó el Furutaka.
+en 1926 y modernizado en 1939. Entró en acción en la Batalla del Coral
+Mar y en la Batalla de la Isla Savo, cerca de Guadalcanal. El Furutaka fue
+hundido en octubre de 1942 por los cruceros Salt Lake City y Boise en el
+Batalla del Cabo Esperanza.
+
+Número de barcos en clase: 2 Eslora: 607 pies
+Manga: 51 pies 9 pulgadas Calado: 18 pies 3 pulgadas
+Desplazamiento: 7, 100 toneladas Potencia del eje: 102, 000
+Velocidad máxima: 34,5 nudos Tripulación: 625
+
+Armamento: seis cañones calibre .50 de 8 pulgadas, cuatro cañones calibre .40 de 3 pulgadas, diez
+Ametralladoras, doce tubos lanzatorpedos de 24 pulgadas Número de aviones: 1
+
+CLASE MOGAMI
+Originalmente diseñado como cruceros ligeros, el Mogami, junto con su hermana
+Los barcos Mikuma, Suzuya y Kumano fueron rearmados como cruceros pesados antes de la
+estallido de la guerra con los EE.UU. El Mogami fue construido en 1935 y
+reconstruido en 1938. En la Batalla de Midway, el Mogami sufrió graves daños,
+tanto por aviones del Enterprise como en una colisión con el Mikuma.
+Después de extensas reparaciones y modificaciones para el transporte de hidroaviones, el
+Mogami volvió a sufrir graves daños, esta vez frente a Rabaul en 1943. En 1944,
+El Mogami fue finalmente hundido por cruceros estadounidenses en la batalla del golfo de Leyte.
+
+Número de barcos en clase: 4 Eslora: 649 pies 10 pulgadas
+Manga: 63 pies Calado: 19 pies 4 pulgadas
+Desplazamiento: 11. 200 toneladas Potencia del eje: 152. 000
+Velocidad máxima: 35 nudos Tripulación: 850
+
+Armamento: quince cañones calibre .60 de 155 mm, ocho cañones calibre .40 de 127 mm,
+ocho cañones antiaéreos de 25 mm, cuatro cañones antiaéreos de 13,2 mm, cuatro puntales
+de tres tubos lanzatorpedos de 610 mm Número de aviones:3
+
+				112
+
+CLASE DE TONO
+Terminado en 1938, el Tone, junto con su barco gemelo el Chikuma, tomó
+Participa en la Batalla de Midway. Allí, la catapulta defectuosa del hidroavión del Tone.
+retrasó el lanzamiento de un avión de reconocimiento e impidió que la flota estadounidense
+desde ser descubierto hasta que fue demasiado tarde. El Tone fue hundido más tarde por
+Aviones estadounidenses frente a las costas de Japón cerca de Kure en 1945. 
+
+Número de barcos en clase: 2 Eslora: 649 pies 7 pulgadas
+Manga: 60 pies 8 pulgadas Calado: 21 pies 3 pulgadas
+Desplazamiento: 11, 215 toneladas Potencia del eje: 152, 000
+Velocidad máxima: 35 nudos Tripulación: 850
+
+Armamento: ocho cañones calibre .50 de 8 pulgadas, ocho cañones calibre .40 de 5 pulgadas,
+doce cañones antiaéreos de 25 mm, cuatro bastidores de tres tubos lanzatorpedos de 610 mm
+Número de aviones: 5
+
+				113
+
+			    DESTRUCTORES
+
+CLASE FUBUKI
+La clase más antigua de destructores japoneses que sirvió en la guerra del Pacífico, Fubuki.
+Los destructores de clase fueron los primeros en el mundo en tener armas en espacios cerrados.
+montajes.
+
+Fecha de construcción:1925-1928
+Número de barcos en clase: 20 Eslora: 378 pies 3 pulgadas
+Manga: 34 pies Calado: 10 pies 6 pulgadas
+Desplazamiento: 1. 750 toneladas Potencia del eje: 50. 000
+Velocidad máxima: 38 nudos Tripulación: 197
+
+Armamento: seis cañones calibre .50 de 5 pulgadas, dos cañones antiaéreos de 13 mm, nueve
+Tubos de torpedos de 24 pulgadas, dieciocho torpedos, dieciocho minas, dieciocho de profundidad.
+cargos.
+
+CLASE HATSUHARU
+Esta clase de destructores fue diseñada como una mejora del Fubuki.
+clase y tenía armamento más ligero.
+
+Fecha de construcción:1931-1935
+Número de barcos en clase: 6 Eslora: 359 pies 3 pulgadas
+Manga: 32 pies 9 pulgadas Calado: 9 pies 11 pulgadas
+Desplazamiento: 1. 490 toneladas Potencia del eje: 42. 000
+Velocidad máxima: 36 nudos Tripulación: 200
+
+Armamento: cinco cañones calibre .50 de 5 pulgadas, dos cañones antiaéreos de 13 mm, nueve
+Tubos lanzatorpedos de 24 pulgadas, catorce cargas de profundidad.
+
+CLASE KAGERO
+Ligeramente más grande y más poderoso que las clases fubuki o Hatsuharu,
+La clase Kagero era conocida como un destructor de tipo crucero.
+
+Fecha de construcción:1937-1941
+Número de barcos en clase: 18 Eslora: 388 pies 9 pulgadas
+Manga: 35 pies 5 pulgadas Calado: 12 pies 4 pulgadas
+Desplazamiento: 2. 033 toneladas Potencia del eje: 52. 000
+Velocidad máxima: 35 nudos Tripulación: 240
+
+Armamento: seis cañones calibre .50 de 5 pulgadas, cuatro cañones antiaéreos de 25 mm, ocho
+Tubos lanzatorpedos de 24 pulgadas, dieciséis cargas de profundidad.
+
+CLASE YUGUMO
+Esta clase de destructor fue desarrollada como una mejora del Kagero.
+tipo crucero.
+
+Fecha de construcción:1940-1945
+Número de barcos en clase: 20 Eslora: 390 pies 11 pulgadas
+Manga: 35 pies 5 pulgadas Calado: 12 pies 4 pulgadas
+Desplazamiento: 2. 077 toneladas Potencia del eje: 52. 000
+Velocidad máxima: 35 nudos Tripulación: 228
+
+Armamento: seis cañones calibre .50 de 5 pulgadas, cuatro cañones antiaéreos de 25 mm, ocho
+Tubos lanzatorpedos de 25 pulgadas, treinta y seis cargas de profundidad.
+
+				114
+
+		    BUQUES DE GUERRA DE LA MARINA DE LOS ESTADOS UNIDOS
+
+CLASE DE LEXINGTON
+El Lexington y su barco gemelo, el Saratoga, fueron los transportistas más antiguos.
+en la flota estadounidense en el momento de la guerra del Pacífico. Ellos también fueron los
+más largo. Originalmente diseñados y parcialmente construidos como cruceros de batalla,
+Fueron completados como portaaviones en 1927.
+
+El Lexington fue el primer portaaviones estadounidense que perdió en acción.
+tras los ataques de aviones de Shokaku y Zuikaku en la Batalla de
+el Mar de Coral en 1942. El Saratoga sufrió daños tantas veces durante el
+Durante la guerra del Pacífico, los japoneses lo catalogaron como hundido en varios
+ocasiones. El gran transportista participó en numerosos compromisos, entre ellos
+la Batalla de las Salomón Orientales y las invasiones de Bougainville, la
+Islas Gilbert, Kwajalein, Eniwetok e Iwo Jima.
+
+Número de barcos en clase: 2 Eslora: 888 pies
+Manga: 105 pies 6 pulgadas Calado: 24 pies 2 pulgadas
+Desplazamiento: 33. 000 toneladas Potencia del eje: 180. 000
+Velocidad máxima: 34 nudos Tripulación: 1.900
+
+Armamento: ocho cañones calibre .55 de 8 pulgadas, doce calibre .25 de 4 pulgadas
+cañones antiaéreos. Número de aviones: 81
+
+				115
+
+CLASE DE YORKTOWN
+El Yorktown y su barco gemelo, el Enterprise, estuvieron entre los primeros
+barcos diseñados y construidos exclusivamente como portaaviones. El Yorktown
+se puso en servicio en 1937 y el Enterprise en 1938. Ambos
+Los portaaviones eran famosos por su velocidad y su capacidad para soportar cargas pesadas.
+castigo, y su diseño inspiró el posterior portaaviones de clase Essex.
+
+Con sólo siete portaaviones en servicio cuando estalló la guerra, el
+Yorktown y Enterprise vieron mucha acción desde el principio. El Yorktown
+resultó dañado en la Batalla del Mar del Coral y fue hundido por un japonés
+submarino en la batalla
+
+				116
+
+de A mitad de camino. La Empresa participó en casi todas las acciones importantes en el
+Guerra del Pacífico, incluido el ataque de Doolittle a Tokio y la batalla de
+A mitad de camino. Tanto en la Batalla de las Salomón Orientales como en la Batalla del
+Islas Santa Cruz, el Enterprise sufrió graves daños. Después de las reparaciones, el
+Enterprise apoyó numerosas invasiones de islas y participó en la
+Batalla del Mar de Filipinas y Batalla del Golfo de Leyte.
+
+Número de barcos en clase: 2 Eslora: 809 pies 6 pulgadas
+Manga: 83 pies 3 pulgadas Calado: 21 pies 8 pulgadas
+Desplazamiento: 19. 900 toneladas Potencia del eje: 120. 000
+Velocidad máxima: 34 nudos Tripulación: 2.072
+
+Armamento: ocho cañones calibre .38 de 5 pulgadas, dieciséis antiaéreos de 1,1 pulgadas
+armas. Número de aviones: 81
+
+CLASE AVISPÓN
+El único portaaviones de su clase, el Hornet, era una clase Yorktown modificada.
+diseño. Encargado justo antes de Pearl Harbor, el Hornet disfrutó de una
+carrera distinguida, aunque breve. Lanzó los B-25 que bombardearon
+Tokio en la incursión de Doolittle y participó en la Batalla de Midway. el
+El Hornet fue finalmente hundido por aviones y destructores japoneses en la Batalla de
+las Islas Santa Cruz.
+
+Número de barcos en clase: 1 Eslora: 809 pies 6 pulgadas
+Manga: 83 pies 3 pulgadas Calado: 21 pies 8 pulgadas
+Desplazamiento: 20. 000 toneladas Potencia del eje: 120. 000
+Velocidad máxima: 34 nudos Tripulación: 2.072
+
+Armamento: ocho cañones calibre .38 de 5 pulgadas, dieciséis antiaéreos de 1,1 pulgadas
+armas. Número de aviones: 81
+
+				117
+
+			   CRUCEROS PESADOS
+
+CLASE ASTORIA
+Encargados entre 1934 y 1936, los siete cruceros pesados del Astoria
+La clase estaba más protegida que las versiones anteriores. Entre 1940 y
+En 1941, fueron modificados, con blindaje adicional añadido y
+Se reforzaron las baterías antiaéreas.
+
+Los cruceros clase Astoria entraron en acción en la Batalla del Mar del Coral, la
+Batalla de Midway y Batalla de las Salomón Orientales. tres
+Los cruceros clase Astoria, incluido el propio Astoria, fueron hundidos en el
+Batalla de la isla de Savo el 9 de agosto de 1942.
+
+Número de barcos en clase: 7 Eslora: 588 pies
+Manga: 61 pies 9 pulgadas Calado: 19 pies 5 pulgadas
+Desplazamiento: 9. 950 toneladas Potencia del eje: 107. 000
+Velocidad máxima: 32 nudos Tripulación: 700
+
+Armamento: nueve cañones calibre .55 de 8 pulgadas, ocho calibre .25 de 5 pulgadas
+cañones antiaéreos.
+
+CLASE ATLANTA
+Más pequeños que los cruceros clase Astoria, los elegantes cruceros clase Atlanta
+estaban entre los cruceros más rápidos del mundo en ese momento. encargado
+Entre 1941 y 1943, se utilizaron principalmente para proporcionar armas antiaéreas.
+defensa para portaaviones. El propio Atlanta, junto con una hermana.
+El barco Juneau se perdió frente a Guadalcanal en noviembre de 1942.
+
+Número de barcos en clase: 11 Eslora: 541 pies
+Manga: 52 pies 10 pulgadas Calado: 20 pies
+Desplazamiento: 6. 000 toneladas Potencia del eje: 75. 000
+Velocidad máxima: 33 nudos Tripulación: 700
+
+Armamento: dieciséis cañones calibre .38 de 5 pulgadas, cañones antiaéreos de 20 y 40 mm,
+ocho tubos lanzatorpedos de 21 pulgadas.
+
+				118
+
+		TARJETA DE REFERENCIA BATTLEHAWKS 1942 PARA AMIGA
+
+Esta tarjeta contiene un conjunto de instrucciones de puesta en marcha específicas para su
+Computadora Amiga 500, 1000 o 2000. Estas instrucciones incluyen Inicio rápido,
+que te permite volar una misión de Battlehawks 1942 de inmediato. También hay
+instrucciones para cargar e iniciar el juego, y para instalar
+Battlehawks en un disco duro. Una vez que el programa se esté ejecutando, consulte
+la sección Juego del manual que comienza con las opciones del Menú.
+
+Para tu comodidad, Battlehawks no está protegido contra copia. Antes de jugar, nosotros
+Te recomendamos que hagas una copia de los dos discos del juego siguiendo las instrucciones
+instrucciones en el manual de usuario de tu Amiga.
+
+CONTROLADORES DE JUEGO
+Puedes usar un mouse o los controles del teclado para jugar.
+Halcones de batalla. El programa no admite un joystick.
+
+REFERENCIA DE INICIO RÁPIDO
+Llevar Battlehawks 1942 para un vuelo de prueba.
+
+Enciende tu máquina. Cuando su computadora solicite el disco Workbench,
+inserte el disco n.° 1 de Battlehawks en la unidad df0:. Inserte el disco #2 de Battlehawks en
+cualquier unidad cuando se le solicite.
+
+Aparecerá una pantalla de título y créditos del juego, seguidos por el menú principal.
+que tiene una ilustración en primer plano de un avión despegando de un portaaviones. encendido
+Se resaltará este menú principal SELECCIONAR ENTRENAMIENTO. Para continuar, presione
+VOLVER (o el botón del ratón). Consulte la sección Menú principal del manual si
+necesitas más ayuda.
+
+				1
+
+Lea la descripción de la misión de la MISIÓN DE INTERCEPCIÓN DE CAZA seleccionada,
+luego presione RETORNO (o el botón del mouse) para continuar. Se dan más detalles
+en la sección Misiones de entrenamiento del manual.
+
+Ahora serás enviado a la sala de preparación, donde verás COMENZAR VUELO.
+resaltado en la pantalla. Presione RETORNO (o el botón del mouse) para continuar.
+Se encuentra una explicación de esta pantalla en la sección Sala lista de la
+manuales. A continuación, deberás responder la Prueba de Reconocimiento. El perfil de un
+El avión aparecerá en la pantalla. Vaya a las instrucciones de carga y
+siguientes secciones del manual. En la parte inferior de cada dos páginas, encontrará
+Verá el perfil de un avión, con una palabra encima. Uno de los perfiles del
+El manual coincide con el que aparece en la pantalla. Cuando lo encuentres, usa tu teclado.
+para escribir la palabra que aparece encima.
+
+Una vez que hayas ingresado la palabra correcta, te encontrarás volando sobre
+agua en un caza American Wildcat. Ocho cazas japoneses Zero son
+maniobras de vuelo pero no te disparan. Tu Wildcat tiene un número ilimitado
+suministro de combustible y municiones, y no puede estrellarse. Tu misión es
+Derriba a todos los cazas japoneses. ¡Buena suerte! Tenga en cuenta que cuando escribe: p
+el juego se detiene. Consulte las secciones Vista de cabina y Referencia del teclado.
+
+				2
+
+del manual para obtener más información sobre los controles de la cabina y cómo volar su
+avión.
+
+Para finalizar tu misión, escribe:
+q
+en cualquier momento. Esto lo regresará al Menú principal. También puedes presionar:
+esc
+para abandonar el juego, excepto cuando estés volando en una misión.
+
+Para obtener una explicación más completa de cómo jugar, primero lee el
+sección siguiente, Instrucciones de carga e inicio, luego vaya al Juego
+Sección de reproducción del manual.
+
+INSTRUCCIONES DE CARGA Y ARRANQUE
+El juego de Battlehawks 1942 se mejora al tener tanta memoria libre
+lo más posible. Tenga esto en cuenta si tiene muchos otros programas cargados.
+en su computadora.
+
+NOTA IMPORTANTE SÓLO PARA USUARIOS DE AMIGA 512K: Sólo el arranque en frío y el arranque en caliente
+Las instrucciones de inicio se pueden utilizar para cargar el programa.
+
+CÓMO CARGAR DESDE UN DISQUETE
+Arranque en frío
+Si tu Amiga aún no se ha iniciado:
+Enciende tu máquina.
+Cuando solicite el disco Workbench, inserte el disco Battlehawks n.° 1 en la unidad
+Df0:. Inserte el disco n.º 2 de Battlehawks en cualquier unidad cuando se le solicite.
+
+Inicio en caliente
+Si tu Amiga ya está funcionando:
+
+				3
+
+Saque el disco del banco de trabajo. Inserte el disco n.º 1 de Battlehawks en la unidad df0:.
+Pulsa CTRL y las dos teclas de Amiga simultáneamente. Insertar disco de Battlehawks
+#2 en cualquier unidad cuando se le solicite.
+
+Comenzando desde el banco de trabajo
+Inserte el disco n.º 1 de Battlehawks en cualquier unidad. Abre el disco Battlehawks 1942.
+icono (etiquetado BHawk1). Haga doble clic en el icono etiquetado bh. Insertar
+Battlehawks Disk #2 en cualquier unidad cuando se le solicite.
+
+A partir de la CLI
+Inserte el disco n.º 1 de Battlehawks en cualquier unidad. Desde el símbolo del sistema CLI,
+tipo:
+
+discos compactos
+
+seguido de un espacio, el nombre de su unidad y luego dos puntos. Presione VOLVER
+cuando haya terminado de escribir. Por ejemplo, si estás empezando desde un
+unidad externa llamada df1:, escribirías:
+
+CD DF1:
+
+y presione RETORNO.
+A continuación escriba:
+
+bh
+
+y presione RETORNO. Esto lo enviará al Menú principal.
+
+Sugerencia para un sistema de dos unidades de disco
+Para cargar el juego más rápido y eliminar el cambio de disco, inserte ambos discos del juego
+al mismo tiempo, en lugar de simplemente insertar el Disco #1 de Battlehawks. Entonces,
+Cuando llegue al menú principal, retire el disco n.° 1 y reemplácelo con un
+Disco de registro de servicio (consulte la página siguiente).
+
+				4
+
+GUARDAR SU REGISTRO DE SERVICIO
+Mientras vuelas las diversas misiones en Battlehawks, usarás una variedad
+de nombres de pilotos. Para realizar un seguimiento de los éxitos, fracasos, medallas y
+promociones de cada "piloto", deberá crear un disco de Registro de servicio.
+Este es un proceso de dos pasos. Primero, debe formatear un disco en blanco ANTES de
+empieza a jugar el juego. Luego, ingresa al juego para preparar el disco para su uso.
+
+PARA FORMATEAR UN DISCO: Puede hacerlo desde la CLI o desde Workbench.
+Desde la CLI, si está formateando un disco desde una unidad llamada df1:, deberá
+tipo: 
+
+formatear unidad df1: nombre "BHPilots"
+
+y presione RETORNO. Asegúrese de incluir los espacios cuando escriba. a
+formatee un disco desde Workbench:
+
+Inserte un disco en blanco en cualquier unidad. Seleccione el icono del disco. elegir
+"Inicializar" desde el menú del disco. Una vez inicializado el disco,
+elija "Cambiar nombre" en el menú Workbench. Utilice la tecla Eliminar para borrar el
+palabra "vacío". Escriba la palabra:
+
+BHPilotos
+
+y presione RETORNO.
+
+PARA PREPARAR UN DISCO: Una vez que haya formateado su disco, vaya al menú principal de
+el programa y seleccione Revisar registros de servicio. Luego, use el PREPARAR
+comando para configurar el disco como disco de registro de servicio.
+
+				5
+
+INSTALACIÓN DEL DISCO DURO
+Si tienes un disco duro, te recomendamos que juegues Battlehawks desde
+eso. Aquí tienes un ejemplo de cómo copiar el programa de los dos discos del juego.
+en su disco duro.
+
+Si su disco duro se llama "dh0:", comience desde la CLI y escriba: 
+
+disco dh0:
+
+y presione RETORNO.
+
+Luego escribe:
+
+makedir bh1942
+
+y presione RETORNO.
+
+A continuación, inserte el disco n.º 1 de Battlehawks en una unidad y escriba:
+
+copiar BHawk1:bh1942 TODO SILENCIOSO 
+
+y presione RETORNO.
+
+Ahora, inserte el Disco #2 de Battlehawks en cualquier unidad y escriba:
+
+copiar BHawk2:bh1942 TODO SILENCIOSO
+
+y presione RETORNO. El juego ahora se instalará en tu disco duro. a
+Inicie el juego una vez que se haya instalado, escriba:
+
+cd bh1942
+
+y presione RETORNO.
+
+Luego escribe:
+
+bh
+
+y presione RETORNO.
+
+Cuando hayas terminado, ¡estarás listo para despegar!
+
+Para obtener instrucciones adicionales sobre Battlehawks, consulta la sección Juego de
+el manual, comenzando con el Menú principal.
+
+==============================================================================
+    DOCUMENTOS PROPORCIONADOS POR RAP Y -+*+-THE SOUTHERN STAR-+*+- para M.A.A.D.                                                               
+==============================================================================

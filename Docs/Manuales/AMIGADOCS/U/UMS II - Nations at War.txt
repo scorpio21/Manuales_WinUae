@@ -1,0 +1,1303 @@
+                            [- U M S II -]
+                
+                        DOX TYPED IN BY SCOOTER
+                             [1304 LINES]
+
+FIRST HIGH REGARDS GOTO -RYGAR-FOXY-UNDERTAKER-FOR THEIR COOL DOX...
+
+NEXT I HAVE TYPED IN ALL (WHAT I THINK) ARE THE DOX NEEDED TO PLAY THIS
+GAME..SO HOPE THEY ARE OF USE TO YOU GUYS..AND REMEMBER IF YOU THINK THIS GAME
+IS COOL ENOUGH TO PLAY -BUY THE ORIGINAL-
+
+
+THE MASTER CONTROL PANEL.
+-------------------------
+
+THE MASTER CONTROLS PANEL IS NOT THE BRAINS,NOR IS IT THE HEART OF UMS
+II,RATHER, AS THE NAME IMPLIES, IT IS THE PLACE WHERE A MYRIAD OF VARIATIONS
+MAY BE ADJUSTED,MODIFIED AND TWEAKED SO THAT THE SIMULATION MAY BE TAILORED TO
+BE AS ACCURATE AS POSSIBLE, FOR EXAMPLE, IF THE USER WOULD LIKE TO SIMULATE AN
+ESPICIALLY RAINY MONSOON SEASON,OR ACCELERATE THE RATE OF SCURVY(ATTRITION)
+AMONG SAILORS,THEN THIS WOULD BE THE PLACE TO DO IT.
+
+.MCP FILES
+----------
+
+ALL OF THE SETTINGS OF THE MASTER CONTROL PANEL CAN BE SAVED AND RE-LOADED AT A
+LATER TIME,THESE FILES,WHICH END WITH THE .MCP FILE EXTENSION,CAN BE SAVED OR
+LOADED FROM THE `MODIFY` MENU(SEE CHAPTER 2 DETAILS) WHEN A SCENARIO IS FIRST
+LOADED,THE PROGRAM WILL AUTOMATICALLY LOOK FOR ,MCP FILE OF THE SAME NAME.-FOR
+EXAMPLE- IF THE SCENARIO ABCDEF.DAT IS LOADED,THE PROGRAM WILL ATTEMPT TO LOAD
+THE CORRESPONDING .MCP FILE -ABCDEF.MCP-ALSO SAVED IN THE .MCP FILES ARE
+VARIOUS USER PREFERENCES,SUCH AS DISPLAYING THE TEMPERATURE IN CENTIGRADE OR
+FAHRENHEIT,DISTANCES IN MILES OR KILOMETRES AND THE USERS NAME FOR THE 4
+VIEWING LEVELS.
+
+THE MASTER CONTROL PANEL INTERFACE.
+-----------------------------------
+
+TO ACCESS THE MASTER CONTROL PANEL SELECT -MASTER CONTROL PANEL- FROM THE
+-MODIFY MENU-(SEE CHAPTER 2). THE MASTER CONTROL PANEL CONSISTS OF 4 GROUPS OF
+BUTTONS. CLICKING THE MOUSE ON ANY OF THE TOP ROW OF BUTTONS (EXCEPT EXIT) WILL
+CHANGE THE LABELS OF THE 3 OTHER GROUPS OF BUTTONS. CLICKING THE MOUSE ON THE
+2ND ROW OF BUTTONS WILL CHANGE THE LABELS OF THE 2 REMAINING GROUPS OF
+BUTTONS.CLICKING THE MOUSE ON THE LEFT SET OF BUTTONS WILL CHANGE THE LABELS ON
+THE RIGHT GROUP OF BUTTONS,AND ONLY THE RIGHT GROUP,CONTAINS VALUES THAT THE
+USER MAY CHANGE. THIS METHOD OFMENU SELECTION REPLACES HUNDREDS OF DIALOG
+BOXES.
+
+CHANGING BUTTON VALES (ATARI ST/AMIGA) -(DIDNT PUT IN MAC OR IBM VAL)
+---------------------------------------------------------------------
+
+TO CHANGE A VALUE DISPLAYED ON A BUTTON FROM THE RIGHT HAND GROUP ON THE
+ST/AMIGA -CLICK ON THE BUTTON UNTIL IT IS HIGHLIGHTED- THEN PRESS THE LEFT HAND
+MOUSE BUTTON..(FROM NOW ON SHOWN AS -LMB- OR -RMB-) TO DECREASE THE VALUE OR
+THE RMB TO INCREASE THE VALUE.EVERY VALUE IN THE MASTER CONTROL PANEL HAS A
+MAXIMUM AND MINIMUM VALUE. THE VALUE STOPS WHEN IT HAS BEEN REACHED.
+
+THE MASTER CONTROL BUTTONS.
+---------------------------
+
+THE MASTER CONTROL PANEL (NOW SHOWN AS MCP) IS SET UP IN A TREE STRUCTURE.THIS
+IS TO SAY THAT CHANGING THE SELECTED TOP BUTTON WILL CAUSE DIFFERENT OPTIONS TO
+APPEAR IN THE SUBORDINATE GROUPS OF BUTTONS.
+
+THE CHART BEGINNING DESCRIBES THE LOCATION OF ALL BUTTONS ON THE -MCP- AND
+INCLUDES A BRIEF DESCRIPTION OF THE VARIABLE STORED....
+
+TOP BUTTON -    -2ND BUTTON-    -LEFT BUTTON-    -RIGHT BUTTON-
+
+ATTRITION        GROUND          EXPERIENCE       EXPERIENCE LEVELS 0-9
+                                                  THESE VARIABLES SPECIFY
+                                                  THE PERCENTAGE OF ATTRITION
+                                                  FOR GROUND UNITS BASED ON
+                                                  EXPERIENCE. THE GREATER
+                                                  THE NUMBER-THE HIGHER THE
+                                                  LOSSES.
+
+                                 LEADERSHIP       LEADERSHIP LEVELS 0-9
+                                                  EXACTLY AS WITH EXPERIENCE
+                                                  ABOVE...BUT BASED ON
+                                                  LEADERSHIP..
+                                                  THE GREATER THE NUMBER -
+                                                  -THE HIGHER THE LOSSES
+
+                                 MORALE           MORALE LEVELS 0-9
+                                                  EXACTLY AS WITH LEADERSHIP
+                                                  BUT BASED ON MORALE..
+                                                  THE GREATER THE NUMBER-
+                                                  -THE HIGHER THE LOSSES
+
+                                 SUPPLY           SUPPLY LEVELS 0-9
+                                                  EXACTLY AS WITH LEADERSHIP
+                                                  BUT BASED ON SUPPLY..
+                                                  THE GREATER THE NUMBER -
+                                                  -THE HIGHER THE LOSSES.
+
+                 SEA             SUPPLY           SUPPLY LEVELS 0-9
+                                                  THE % OF ATTRITION FOR NAVAL
+                                                  UNITS BASED ON SUPPLY.
+                                                  THE GREATER THE NUMBER -
+                                                  -THE HIGHER THE LOSSES.
+
+                                 LEADERSHIP       LEADERSHIP LEVELS 0-9
+                                                  EXACTLY THE SAME AS -SEA
+                                                  -SUPPLY.
+
+                                 EXPERIENCE       EXPERIENCE LEVELS 0-9
+                                                  EXACTLY SAME AS THAT OF
+                                                  SEA/SUPPLY -SEA/LEADERSHIP
+
+                                 MORALE           MORALE LEVELS 0-9
+                                                  EXACTLY THE SAME AS
+                                                  SEA/SUPPLY ..ect
+
+                                 WEATHER          RAIN...
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ATTRITION FOR NAVAL
+                                                  UNITS IN RAIN...
+                                           
+                                                  SNOW...
+                                                  EXACTLY THE SAME AS..
+                                                  WEATHER/RAIN
+
+MOVEMENT         GROUND          WEATHER          RAIN...
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR GROUND
+                                                  UNITS TRAVELLING IN RAIN.
+
+                                                  SNOW...
+                                                  EXACTLY THE SAME AS THE ABOVE
+                                                  -RAIN- BASED ON SNOW.
+
+                                 EXPERIENCE       EXPERIENCE LEVEL 0-9
+                                                  EXACTLY THE SAME AS SNOW/RAIN
+                                                  BUT BASED ON EXPERIENCE.
+
+                                 MORALE           MORALE LEVEL 0-9
+                                                  EXACTLY THE SAME AS SNOW/RAIN
+                                                  BUT BASED ON MORALE.
+
+                                 FORCED MARCH
+                                 MOVEMENT BONUS - THIS VARIABLE SPECIFIES THE
+                                                  % OF BONUS IN MOVEMENT POINTS
+                                                  FOR GROUND UNITS WHO HAVE
+                                                  BEEN ORDERED TO PERFORM A
+                                                  FORCED MARCH.
+
+                 SEA             LEADERSHIP       LEADERSHIP LEVEL 0-9
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN 
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS BASED ON LEADERSHIP.
+
+                                 EXPERIENCE       EXPERIENCE LEVEL 0-9
+                                                  EXACTLY THE SAME AS
+                                                  LEADERSHIP..BUT BASED ON
+                                                  EXPERIENCE.
+
+                                 MORALE           MORALE LEVEL 0-9
+                                                  EXACTLY THE SAME AS
+                                                  LEADERSHIP..BUT BASED ON
+                                                  MORALE.
+
+                                 WINDS            DIRECTLY INTO THE WIND..
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS TRAVELING INTO THE WIND
+
+                                                  RUNNING WITH THE WIND..
+                                                  EXACTLY THE SAME AS...
+                                                  -DIRECTLY INTO THE WIND-
+
+                                                  CLOSE HAULING..
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS TRAVELING AT A DEGREE
+                                                  ANGLE -INTO- THE WIND.
+
+                                                  REACHING..
+                                                  THIS VARIABLE SPECIFIES THE 
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS TRAVELING AT A 90
+                                                  DEGREE ANGLE -WITH- THE WIND
+
+                                                  BROACH REACH..
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS TRAVELING AT A 45
+                                                  DEGREE ANGLE -WITH- THE WIND
+
+                                                  BECALMED..
+                                                  THIS VARIABLE SPECIFIES THE
+                                                  % OF ADDITIONAL COST IN
+                                                  MOVEMENT POINTS FOR NAVAL
+                                                  UNITS TRAVELING A MAP SQUARE
+                                                  WITH CALM WINDS.
+
+MOVEMENT BONUS                   PATHS            TRACK..
+                                                  % OF BONUS IN MOVEMENT POINTS
+                                                  FOR UNITS TRAVELING ALONG A
+                                                  TRACK (PATH TYPE 1)
+
+                                                  ROAD..
+                                                  SAME AS PATH TYPE 1
+                                                  ONLY ROAD IS (PATH TYPE 2)
+
+                                                  HIGHWAY..
+                                                  SAME AS PATH TYPES 1/2  
+                                                  ONLY HIGHWAY IS (PATH TYPE 3)
+
+                                                  RAILROAD..
+                                                  AS PATH TYPES1/2/3..
+                                                  ONLY RAILWAY IS (PATH TYPE 4)
+
+                                                  RIVER..
+                                                  SAME AS PATH TYPES 1/2/3/4
+                                                  ONLY RIVER IS (PATH TYPE 5)
+
+                                                  CANAL..
+                                                  SAME AS PATH TYPES 1/2/3/4/5
+                                                  ONLY CANAL IS (PATH TYPE 6)
+
+COMBAT           BATTLE EQU       MULTIPLIERS     MORALE LEVEL MULTIPLIER
+                                                  A UNITS MORALE FACTOR IS
+                                                  MULTIPLIED BY THIS NUMBER
+                                                  IN THE BATTLE EQUATION.
+
+                                                  LEADERSHIP LEVEL MULTIPLIER
+                                                  A UNITS LEADERSHIP FACTOR IS
+                                                  MULTIPLIED BY THIS NUMBER
+                                                  IN THE BATTLE EQUATION.
+
+                                                  EXPERIENCE LEVEL MULTIPLIER.
+                                                  SAME AS ABOVE ONLY ITS
+                                                  -EXPERIENCE-.
+
+                                                  MAXIMUM RANDOM MULTIPLIER..
+                                                  THIS IS THE LARGEST RANDOM
+                                                  NUMBER PERMITTED IN BATTLE.
+
+                                                  TECH LEVEL DIFFERENCE..
+                                                  IN COMBAT THE TECH LEVEL
+                                                  BETWEEN COMBATANTS IS AND THE
+                                                  UNIT THAT HAS THE HIGHEST
+                                                  TECH LEVEL WILL RECEIVE A
+                                                  BONUS EQUIVALENT TO THIS
+                                                  NUMBER TIMES THE DIFFERENCE.
+
+                                 FORTIFICATION
+                                 LEVEL -          TIMES SPs:
+                                                  A DEFENDING UNIT IN A SPECIAL
+                                                  SQUARE WILL HAVE ITS STRENGTH
+                                                  POINTS MULTIPLIED BY THE
+                                                  FORTIFICATION LEVEL OF THE
+                                                  SPECIAL SQUARE TIMES THIS
+                                                  NUMBER.
+
+                                 NUCLEAR WEAPONS  PRIMARY BLAST RANGE IN KMS..
+                                                  ALL UNITS REGARDLESS OF
+                                                  NATIONALITY -WITHIN- THIS
+                                                  DISTANCE(IN KILOMETERS) OF A
+                                                  DETONATION WILL BE 
+                                                  IMMEDIATELY DESTROYED.AND
+                                                  REMOVED FROM THE MAP.
+
+                                                  RANGE OF SECONDARY EFFECTS
+                                                  IN KMS..
+                                                  ALL UNITS REGARDLESS OF
+                                                  NATIONALITY,-LESS- THAN THIS
+                                                  DISTANCE(IN KILOMETERS)OF A
+                                                  DETONATION OF A NUCLEAR
+                                                  DEVICE,WILL LOSE A % OF POINT
+                                                  STRENGTH AS DETERMINED IN THE
+                                                  VARIABLE IMMEDIATELY BELOW.
+                         
+                                                  SECONDARY BLAST EFFECT...
+                                                  THE COST IN % OF TOTAL
+                                                  STRENGTH POINTS,OF ALL UNITS
+                                                  WITHIN THE SECONDARY RANGE
+                                                  OF EFFECT OF A DETONATION
+                                                  OF A NUCLEAR DEVIVE..
+                                                  (SEE ABOVE)
+
+GROUND           A/D 80%+
+CASUALTIES-      THE LOSSES SUFFERED BY A GROUND UNIT(AS A % OF THE TOTAL
+                 STRENGTH POINTS) OF A UNIT THAT HAS AN 80% OR GREATER
+                 ADVANTAGE OVER ITS OPPONENT AS DETERMINED BY THE BATTLE
+                 EQUATION.THE PRECISE NUMBER OF CASUALTIES ARE DETERMINED BY
+                 THE FORMATION OF THE UNIT.THE 7 POSSIBLE MILITARY FORMATIONS
+                 FOR GROUND UNITS ARE... SCREEN- DEFEND-HOLD-MARCH-FORCED
+                 MARCH-ATTACK-ASSAULT.
+
+                 A/D 60%-79%
+                 OF A UNIT THAT HAS 60-79% ADVANTAGE OVER ITS OPPONENT AS
+                 DETERMINED BY THE BY THE BATTLE EQUATION. THE PRECISE NUMBER
+                 IS DETERMINED BY THE FORMATION OF THE UNIT. WHICH CAN BE ANY
+                 OF THE 7 LISTED AS ABOVE (A/D80+)
+
+                 A/D 40%-59% (WHEN UNIT HAS THE STRENGTH OF ITS OPPONENT)
+                 THE REST IS AS ABOVE A/D 80% ECT...
+
+                 A/D 20%-39% (WHEN UNIT HAS A 20-39% -DISADVANTAGE-)
+                 THE REST IS AS ABOVE...
+
+                 A/D <20% (WHEN A UNIT HAS A <20% -DISADVANTAGE-)
+                 THE REST IS AS ABOVE
+
+SEA CASUALTIES   A/D 80%+
+                 THE LOSSES SUFFERED BY A GROUND UNIT(AS A PERCENTAGE OF TOTAL
+                 STRENGTH POINTS) OF A UNIT THAT HAS AN 80% OR -GREATER-
+                 ADVANTAGE OVER ITS OPPONENT AS DETERMINED BY BATTLE EQUATION
+                 THE PRECISE NUMBER OF CASUALTIES ARE DETERMINED BY THE
+                 FORMATION OF THE UNIT. THE 4 POSSIBLE MILITARY FORMATIONS FOR
+                 SEA UNITS ARE...AVOID-EVADE-ATTACK-OFFSHORE BOMBARDMENT.
+
+                 A/D 60%-79% (WHEN A UNIT HAS 60-79% -ADVANTAGE-)
+                 THE REST IS AS ABOVE
+
+                 A/D 40%-59% (WHEN A UNIT 40-59% THE STRENGTH OF ITS OPPONENT)
+                 THE REST IS AS ABOVE
+
+                 A/D 20%-39% (WHEN A UNIT HAS 20-39% -DISADVANTAGE- WITH ITS
+                 OPPONENT)
+                 THE REST IS AS ABOVE
+
+                 A/D <20% (WHEN A UNIT HAS <20% -LESS THAN ITS OPPONENT)
+                 THE REST IS AS ABOVE
+
+AIR MISSILE 
+CASUALTIES..     A/D 80%+
+                 THE LOSSES SUFFERED BY AN AIR OR MISSILE UNIT(AS A % OF TOTAL
+                 STRENGTH POINTS) OF A UNIT THAT HAS AN 80% OR -GREATER-
+                 ADVANTAGE OVER ITS OPPONENT AS DETERMINED BY THE BATTLE
+                 EQUATION. THE 7 POSSIBLE MILITARY FORMATIONS FOR AIR AND
+                 MISSILE ARE...MOVE-PATROL-ESCORT-TRANSPORT-ATTACK-INTERCEPT
+
+                 A/D 60%-79% (WHEN A UNIT HAS 60-79% -ADVANTAGE- OVER ITS
+                 OPPONENT)
+                 THE REST IS AS ABOVE
+
+                 A/D 40%-59% (WHEN A UNIT HAS 40-59% -THE STRENGTH- OF ITS
+                 OPPONENT)
+                 THE REST IS AS ABOVE
+
+                 A/D 20%-39% (WHEN A UNIT HAS 20-39% -DISADVANTAGE- OF ITS
+                 OPPONENT)
+                 THE REST IS AS ABOVE
+
+                 A/D <20% (WHEN A UNIT HAS <20% -LESS- THAN ITS OPPONENT)
+                 THE REST IS AS ABOVE
+------------------------------------------------------------------------------
+TOP BUTTON       -2ND BUTTON-    -LEFT BUTTON-   -RIGHT BUTTON-
+  
+SET ITU          INTERNAL TIME
+                 UNITS-                          IN DAYS
+                                                 THE MINMUM TIME UNIT IN UMS II
+                                                 IS ONE DAY TO CALCULATE THE
+                                                 TIME IT TAKES TO CREATE UNITS
+                                                 AND RE-INFORCEMENTS.THIS
+                                                 VARIABLE SETS ITUS TO X NUMBER
+                                                 OF DAYS FOR EXAMPLE,IF THIS
+                                                 NUMBER IS SET TO 7 THEN ITU
+                                                 WILL EQUAL ONE-WEEK 
+
+                 TIME BETWEEN
+                 COMMANDS-                       CALANDER INCREMENTED IN DAYS
+                                                 AFTER THESE MANY DAYS HAVE
+                                                 ELAPSED THE SIMULATION WILL
+                                                 AUTOMATICALLY STOP AND ALLOW
+                                                 HUMAN CONTROLLED NATIONS TO
+                                                 ISSUE NEW ORDERS TO UNITS AS
+                                                 WELL AS AN OPPORTUNITY TO SET
+                                                 NATIONAL POLICIES,MAKE HARD
+                                                 COPY PRINT-OUT MAPS,FORM
+                                                 DIPLOMATIC ALLIANCES,SET
+                                                 BUDGETS AND GOALS ECT..
+
+RESOURCES        PROVINCIAL      PRODUCTION
+                                 POINTS-         COST IN PRODUCTION POINTS
+                                                 THIS NUMBER REPRESENTS THE
+                                                 NUMBER OF PRODUCTION POINTS
+                                                 THAT MUST BE SPENT TO INCREASE
+                                                 THE LEVEL OF PRODUCTION
+                                                 POINTS PRODUCED BY AN
+                                                 EXISTING PROVINCE
+
+                                 RECRUITMENT
+                                 POINTS-         COST IN PRODUCTION POINTS
+                                                 THIS NUMBER REPRESENTS
+                                                 THE NUMBER OF PRODUCTION
+                                                 POINTS THAT MUST BE SPENT
+                                                 TO INCREASE THE LEVEL OF
+                                                 RECRUITMENT POINTS
+                                                 PRODUCED BY AN EXISTING
+                                                 PROVINCE
+
+                 TAX RATE        LOSS OF WILL    PER 10% OF TAX RATE
+                                                 THIS NUMBER REPRESENTS THE
+                                                 NUMBER OF NATIONAL WILL 
+                                                 POINTS THAT ARE SUBTRACTED
+                                                 PER 10% OF THE TAX RATE
+                                                 (AS SET IN BUDGETS AND
+                                                 PRODUCTION DIALOG BOX)FOR
+                                                 EXAMPLE,IF THIS NUMBER IS
+                                                 SET TO `2` AND THE NATIONS
+                                                 TAX RATE IS 80% THEN 16
+                                                 NATIONAL POINTS WILL BE
+                                                 SUBTRACTED EVERY TURN.
+
+                 PORTS           PORT CABABILITY-COST IN PRODUCTION POINTS
+                                                 THIS NUMBER REPRESENTS
+                                                 THE NUMBER OF PRODUCTION
+                                                 POINTS THAT MUST BE SPENT
+                                                 TO INCREASE THE PORT
+                                                 CAPACITY OF A GIVEN SPECIAL
+                                                 SQUARE
+
+                 NATIONAL WILL   CAPITALS        LOSS OF NATIONAL CAPITAL
+                                                 THIS NUMBER WILL BE DEDUCTED
+                                                 FROM THE NATIONAL WILL OF
+                                                 A COUNTRY THAT LOSES ITS
+                                                 NATIONAL CAPITAL
+
+                                                 CAPTURE OF NATIONAL CAPITAL
+                                                 THIS NUMBER WILL BE ADDED TO
+                                                 THE NATIONAL WILL OF A COUNTRY
+                                                 THAT CAPTURES AN ENEMYS 
+                                                 CAPITAL.
+
+                                                 LOSS OF PROVICINAL CAPITAL
+                                                 THIS NUMBER WILL BE
+                                                 DEDUCTED FROM THE NATIONAL
+                                                 WILL OF A COUNTRY THAT
+                                                 LOSES A PROVINCIAL CAPITAL
+
+                                                 CAPTURE OF A PROVICINAL-
+                                                 -CAPITAL.
+                                                 THIS NUMBER WILL BE ADDED
+                                                 TO THE NATIONAL WILL OF A
+                                                 COUNTRY THAT CAPTURES AN
+                                                 ENEMYS PROVICINAL CAPITAL
+
+                                 MILITARY UNITS- LOSS OF UNIT
+                                                 THIS NUMBER WILL BE
+                                                 DEDUCTED FROM THE NATIONAL
+                                                 WILL OF A COUNTRY FOR
+                                                 EVERY MILITARY UNIT LOST
+                                                 FOR ANY REASON.
+
+                                                 CAPTURE OF A UNIT
+                                                 THIS NUMBER WILL BE ADDED
+                                                 TO THE NATIONAL WILL OF A 
+                                                 COUNTRY FOR EVERY ENEMY
+                                                 DESTROYED THROUGH DIRECT
+                                                 MILITARY ACTION
+
+                                 SPECIAL SQUARES-LOSS OF SPECIAL SQUARES
+                                                 THIS NUMBER WILL BE DEDUCTED
+                                                 FROM THE NATIONAL WILL OF A
+                                                 COUNTRY FOR THE LOSS OF A
+                                                 SPECIAL SQUARE FOR WHATEVER
+                                                 REASON
+
+                                                 CAPTURE OF A SPECIAL SQUARE
+                                                 THIS NUMBER WILL BE ADDED 
+                                                 TO THE NATIONAL WILL OF A
+                                                 COUNTRY FOR EVERY SPECIAL
+                                                 SQUARE THAT IS CAPTURED
+                                                 THROUGH MILITARY ACTION
+
+PROXIMITY        UNIT VISIBILITY                 ENEMY UNITS VISIBLE WITHIN-
+                                                 -KILOMETERS-
+                                                 ONLY ENEMY UNITS WITHIN
+                                                 THIS DISTANCE WILL BE
+                                                 DISPLAYED ON THE MAP
+
+                 HOSTILE CONTACT
+                 DISTANCE BETWEEN
+                 UNITS-                          KILOMETERS
+                                                 HOSTILE CONTACT(BATTLE)
+                                                 WILL ENSUE WHEN 2 ENEMY UNITS
+                                                 COME WITHIN THIS DISTANCE
+                                                 OF EACH OTHER
+
+WEATHER          PREVAILING WINDS
+                 BY LATITUDE-                    LATITUDE(-90 TO +90)
+                                                 THIS BUTTON SWITCHES BETWEEN
+                                                 `EAST TO WEST` AND `WEST TO
+                                                 EAST` THIS SETS THE PREVAILING
+                                                 WIND DIRECTION IN LONGTITUDE
+
+                 PRESSURE ZONE
+                 MATRIX FREE-                    SIZE IF SQUARES IN KILOMETERS
+                                                 THIS VARIABLE SETS THE
+                                                 SIZE OF THE SQUARES OF
+                                                 PRESSURE ZONE MATRICES
+                 
+                 TEMPERATURE     AVERAGES BY
+                                 LATITUDE-       LATITUDE (-90 TO +90)
+                                                 THESE VARIABLES SET
+                                                 THE AVERAGE TEMPERTURE
+                                                 FOR THE SELECTED
+                                                 LONGTITUDE BAND
+
+                                 SEASON          SPRING
+                                                 SUMMER
+                                                 FALL
+                                                 WINTER
+                                                 THESE VARIABLES SET
+                                                 THE SEASONAL TEMERATURE
+                                                 MODIFIER FOR EACH OF THE
+                                                 4 SEASONS
+
+                                 CLIMATE         TROPICAL
+                                 GROUP 1-        MONSOON
+                                                 SEMI-ARID
+                                                 ARID
+                                                 MEDITERRANEAN
+                                                 SUB-TROPICAL
+                                                 MARINE
+
+                                                 CONTINENTAL COOL
+                                                 COOL
+                                                 SUB-ARTIC
+                                                 THESE VARIABLES SET THE
+                                                 CLIMATE TEMERATURE
+                                                 MODIFIER FOR EACH OF THESE
+                                                 CLIMATE TYPES
+
+                                 CLIMATE         HIGH ALTITUDE
+                                 GROUP 2         POLAR
+                                                 THESE VARIABLES SET THE
+                                                 CLIMATE TEMERATURE
+                                                 MODIFIER FOR EACH OF
+                                                 THESE CLIMATE TYPES
+
+                                 LAND + SEA      LAND
+                                                 THIS VARIABLE SETS THE
+                                                 TEMPERATURE MODIFIER
+                                                 FOR EACH OF THESE CLIMATE
+                                                 TYPES
+
+                                                 SEA
+                                                 SAME AS ABOVE -LAND-
+
+                 PRECIPITATION   CLIMATE         TROPICAL
+                                 GROUP 1         MONSOON
+                                                 SEMI ARID
+                                                 ARID
+                                                 MEDITERRANAEN
+                                                 SUB-TROPICAL
+                                                 MARINE
+                                                 CONTINENTAL
+                                                 COOL
+                                                 SUB-ARTIC
+                                                 THESE VARIABLES SET THE
+                                                 %(LIKELIHOOD) OF
+                                                 PRECIPITATION AT A GIVEN
+                                                 SQUARE OF THIS CLIMATE
+                                                 TYPE ONCE A WEATHER FRONT
+                                                 HAS BEEN OCATED AT THESE
+                                                 CORDINATES
+
+                                 CLIMATE         HIGH ALTITUDE
+                                 GROUP 2         POLAR
+                                                 REST IS SAME AS ABOVE GROUP 1
+
+EXIT--SELECTING EXIT WILL EXIT MASTER CONTROL PANEL AND RETURN USER TO THE MAP
+
+------------------------------------------------------------------------------
+GROUND
+MOVEMENT AND ORDERS.
+--------------------
+ACTIVATING A UNIT.....BY DOUBLE CLICKING ON THE UPPER LEFT OF THE UNIT INFO BOX
+THE INFO ON THAT UNIT WILL APPEAR (HAS A FLAG OF THE UNITS COUNTRY ON IT) IBM
+KEYBOARD COMMANDS ---I/ISSUE DIRECT ORDERS...D/DONE...N/NEXT UNIT.
+
+A GROUND UNIT MAY BE ACTIVTED BY DOUBLE CLICKING ON UPPER CORNER OF A UNIT.IF
+MORE THAN ONE UNIT SHARES THIS MAP SQUARESELECT NEXT UNIT(BOTTOM RIGHT
+CORNER)TO ACTIVATE THE DESIRED UNIT. SELECTING ISSUE UNIT DIRECT ORDERS(2ND BOX
+FROM BOTTOM)WILL CAUSE THE GROUND UNIT ORDERS BOX TO APPEAR.
+
+GROUND MOVEMENT.
+----------------
+GROUND UNITS MAY BE ASSIGNED A MOVEMENT ORDER AND A DEFENSIVE ORDER AS WELL AS
+UP TO 7 WAYPOINTS. THE MOVEMENT ORDER ORDER,EITHER MARCH-FORCED MARCH-ATTACK-OR
+ASSAULT INDICATES THE FORMATION THAT THE GROUND UNIT WILL ASSUME WHEN MOVING
+FROM ONE POINT ON THE MAP TO ANOTHER. WHEN THE UNIT HAS REACHED ITS
+OBJECTIVE(THE LAST ASSIGNED WAYPOINT) OR THE UNIT HAS BEEN ASSIGNED TO IT BY
+THE DEFENSIVE ORDER.
+
+ONLY THE ORDERS THAT A UNIT HAS SUFFICIENT SUPPLIES TO CARRY OUT WILL BE
+ACTIVE.EACH ORDER COSTS A SET NUMBER OF SUPPLY POINTS PER STRENGTH POINT.THE
+COST,IN SUPPLY POINTS,FOR EACH ORDER CAN BE SET BY THE USER IN THE ORDERS COST
+AND EFFECT. FOR EXAMPLE, IF THE COST OF A GROUND UNIT ASSUMING -ASSAULT-
+FORMATION IS 3 SUPPLY POINTS, AND THE UNIT HAS 4 STRENGTH POINTS, IT IS
+NECESSARY FOR THE UNIT TO HAVE AT LEAST 12 SUPPLY POINTS TO BE ISSUED THIS
+COMMAND. THESE CALCULATIONS ARE CARRIED OUT BY THE COMPUTER BEFORE THIS DIALOG
+BOX IS PRESENTED AND ILLEGAL ORDERS WILL NOT BE SELECTABLE.
+
+THE GROUND MOVEMENT CONTROL BOX.
+--------------------------------
+ONE OF THE 5 MOVEMENT ORDERS MAY BE ASSIGNED TO EACH UNIT AS WELL AS ONE OF
+THREE DEFENSIVE ORDERS.
+THE RE-SUPPLY BUTTON WILL BE ENABLED ONLY IF ANOTHER UNIT SHARES THE SAME MAP
+SQUARE.
+THE TRANSPORT BUTTON WILL BE SELECTABLE ONLY IF THE ACTIVE UNIT HAS TRANSPORT
+CAPABILITIES -AND- ANOTHER UNIT SHARES THE SAME MAP SQUARE.
+CANCEL EXITS THE ROUND MOVEMENT COMMAND BOX WITHOUT SAVING ORDERS FOR LATER
+EXECUTION.
+
+SETTING WAYPOINTS
+-----------------
+AFTER A UNIT HAS BEEN ASSIGNED A MOVEMENT ORDER(IT IS NOT NECCESSARY FOR A UNIT
+TO BE ASSIGNED A DEFENSIVE ORDER;A UNIT NOT ASSIGNED A DEFENSIVE ORDER WILL
+DEFAULT TO SCREEN) AND CONTINUE HAS BEEN SELECTED THE CURSOR WILL TURN FROM AN
+ARROW TO A SOLID BLACK CROSS HAIR. A LINE WILL EXTEND FROM THE UPPER LEFT HAND
+CORNER OF THE UNIT TO THE CURSOR. POSITION THE CURSOR ON THE DESIRED WAYPOINT
+AND PRESS THE LMB TO SET A WAYPOINT. PRESS THE RMB TO END SETTING WAY-POINTS
+. THE USER IS NOT ALLOWED TO SELECT AN ILLEGAL WAYPOINT. TO DETERMINE THE
+ACTUAL ROUTE THAT A UNIT WILL TRAVEL FROM WAYPOINT TO THE NEXT,DEPRESS -ALT-
+KEY. THE ROUTE WILL APPEAR AS A SERIES OF DARKENED AND FLASHING BOXES.THIS IS
+HANDY METHOD FOR DETERMING LEGAL MOVES ACROSS RIVERS.
+
+(ILLEGAL WAYPOINTS)- GROUND UNITS MAY NOT TRAVEL ACROSS COASTAL SEA,SHALLOW SEA
+O DEEP SEA MAP SQUARES(EXCEPT WHEN BEING TRANSPORTED BY NAVAL UNITS) GROUND
+UNITS MAY NOT CROSS RIVERS OR CANALS EXCEPT IN MAP SQUARES THAT ALSO CONTAIN
+EITHER A -TRACK-PATH-RAILROAD-OR HIGHWAY.
+
+------------------------------------------------------------------------------
+WEATHER.
+--------
+WEARE CONCERNED ABOUT WEATHER PRIMARILY FOR 2 REASONS; 1- HOW WEATHER EFFECTS
+MOVEMENT OF UNITS; 2- HOW WEATHER CONTRIBUTES TO ATTRITION OR THE LOSS OF A
+UNITS STRENGTH.
+RAIN-SNOW-WINDS-STORM FRONTS AND TEMPERTURES DO NOT JUST HAPPEN, RATHER THEY
+ARE GENERATED DYNAMICALLY FOLLOWING A DETAILED SET OF RULES.AND, LIKE ALL
+IMPORTANT FACTORS IN A SIMULATION, THE USER MAY ADJUST THE VARIABLES AND CHANGE
+THE OUTCOME.
+
+PRESSURE ZONES.
+---------------
+NOTE A LETTER `L` CIRCLED MEANS A -LOW  PRESSURE ZONE-
+............. `H` ............... -HIGH PRESSURE ZONE-
+
+THE FIRST FACTOR IN ALL WEATHER CALCULATIONS IS THE LOCATION OF THE HIGH
+PRESSURE AND LOW PRESSURE ZONES. WHEN A SCENARIO IS FIRST CREATED HIGH PRESSURE
+AND LOW PRESSURE ZONES ARE PLACED ON THE MAP IN A MANNER SIMILAR TO PLACING
+UNITS. AS SIMULATED TIME ELAPSES THESE PRESSURE ZONES MOVE ABOUT THE GLOBE. AS
+THESE PRESSURE ZONES MOVE THEY CREATE AND MODIFY STORM FRONTS AND WIND
+PATTERNS.
+PRESSURE ZONES MOVE IN THE GENERAL DIRECTION F THE PREVAILING WINDS OF THE
+LOGTITUDE OF WHICH THEY ARE CURRENTLY LOCATED. THE PREVAILING WINDS MAY BE SET
+IN 20 DEGREES LONGTITUDIAL BANDS USING THE MASTER CONTROL PANEL(MCP) FOR
+EXAMPLE, IF THE PREVAILING WINDS FOR 30 DEGREES NORTH TO 50 DEGREES NORTH HAVE
+BEEN SET TO `EAST TO WEST`, THEN A PRESSURE ZONE LOCATED 37 DEGREES NORTH NORTH
+WILL MOVE IN WESTERLY DIRECTION. USING THE MCP THE USER MAY REVERSE THE
+PREVAILING WINDS AT THESE LONGTITUDES AND THE SAME PRESSURE ZONE WOULD NOW MOVE
+IN THE OPPOSITE,OR EASTERLY DIRECTION. IN ADDITION,WIND PATTERNS MAY BE SENT
+AUTOMATICALLY REVERSE WITH THE CHANGE OF SEASONS.
+FURTHERMORE,THE DIRECTION OF THE MOVEMENT OF PRESSURE ZONES IS AFFECTED BY THE
+LOCATION OF OTHER NEARBY PRESSURE ZONES.HIGH PRESSURE ZONES MOVE TOWARDS LOW
+PRESSURE ZONES.
+
+WIND DIRECTION OBVIOUSLY AFFECTS THE MOVEMENT OF SAIL POWERED NAVAL UNITS(HOW
+THE WIND EFFECTS THESE UNITS IS ADJUSTABLE VIA THE MCP)THE 2 FORCES THAT,IN
+TURN,EFFECT WIND DIRECTION ARE; 1-THE LOCATION AND PROXIMITY OF PRESSURE
+ZONES...AND 2- THE PREVAILING WIND PATTERNS AT A SPECIFIC LONGTITUDE.
+IF THERE ARE NO PRESSURE ZONES, WIND WOULD MOVE IN STRAIGHT EAST TO WEST,OR
+WEST TO EAST LINES. IT IS THE LOCATION AND TYPE, OF PRESSURE ZONES THAT CHANGE
+WIND PATTERNS.
+
+PRESSURE CAUSE WIND PATTERNS TO BE SHAPED INTO A SPIRAL,,OR CORIOLIS EFFECT
+SHAPES,ABOVE THE EQUATOR,HIGH PRESSURE ZONES CAUSE A CLOCKWISE EFFECT AND LOW
+PRESSURE ZONES CAUSE A COUNTER-CLOCKWISE EFFECT. THESE PATTERNS ARE REVERSED
+BELOW THE EQUATOR.
+
+THE RANGE OR DISTANCE WHICH PRESSURE ZONES EFFECT PREVAILING WIND PATTERNS(AS
+WELL AS STORM FRONTS)MAY E ADJUSTED VIA THE MCP. THIS IS DONE BY CHANGING THE
+VALUE FOR THE VARIABLE `SIZE OF PRESSURE ZONE MATRIX SQUARES` THIS NUMBER
+ADJUSTS THE SIZE,IN KILOMETERS,OF THE SQUARES THAT COMPRIMISE THE PRESSURE ZONE
+MATRIX. APRESSURE ZONE MATRIX IS SET TO 5 SQUARE 2 DIMENSIONAL ARRAY.FOR
+EXAMPLE, IF THE VARIABLE IS SET TO 100 KILOMETERS THEN A PRESSURE ZONES RADIUS
+OF EFFECT WOULD BE 250 KILOMETERS(A DIAMETER OF 500 KILOMETERS CENTRED ON THE
+LOCATION OF THE PRESSURE ZONE).
+
+4 FACTORS EFFECT THE TEMPERATURE OF A SPECIFIC LOCATION; 1- THE LONGTITUDE OF
+THE LOCATION..2- THE GENERAL CLIMATE GROUP OF THE LOCATION..3-THE CURRENT
+SEASON..AND 4- IF THE LOCATION IS OVER SEA OR LAND.
+
+THE GLOBE IS DIVIDED IN LATITUDINAL TEMPERATURE ZONES OF 20 DEGREES EACH,THE
+AVERAGE OR THE BASE TEMPERATURE FOR EACH OF THE ZONES MAY BE SET VIA THE MCP.
+THIS BASE TEMPERATURE IS THEN CHANGED BY THE USER VIA THE MCP AS WELL.THESE
+MODIFYING CLIMATE TEMPERATURE MAY BE EITHER POSITIVE OR NEGATIVE NUMBERS,FOR
+EXAMPLE, IF THE AVERAGE TEMPERATURE AT A CERTAIN LOCATION IS 60 DEGREES
+FAHRENHEIT,THE LOCAL CLIMATE IS MEDITERRANAEN, AND THE CLIMATE MODIFIER FOR
+MEDITERRANEAN IS +7 THEN THE RESULT WOULD BE 67 DEGREES FAHRENHEIT.
+
+THIS NUMBER IS FURTHER MODIFIED BY THE SEASONAL DIFFERENCE. LIKE THE CLIMATE
+MODIFIERS,THIS MAY BE EITHER A POSITIVE OR NEGATIVE NUMBER THAT IS ADDED TO THE
+RESULTS OF THE PREVIOUS CALCULATIONS. IT IS ASSUMED THAT SPRING ENCOMPASSES THE
+MONTHS OF MARCH-APRIL-MAY:SUMMER JUNE-JULY-AUGUST; FALL SEPTEMBER- OCTOBER-
+-NOVEMBER;WINTER DECEMBER-JANUARY-FEBUARY. THE SEASONAL MODIFIERS MAY BE
+CHANGED VIA THE MCP...FOR EXAMPLE, IF THE CURRENT SCENARIO DATE IS JULY 15, AND
+THE SUMMER SEASONAL MODIFIER IS +12 THE TEMPERATURE AT OUR PREVIOUS
+HYPOTHETICAL LOCATION WOULD NOW BECOME 79 DEGREES FAHRENHEIT.
+
+THE LAST VARIABLE USED TO DETERMINE TEMPERATURE IS A MODIFIER FOR LAND OR
+SEA.THIS LAST NUMBER REFLECTS THE TENDENCY OF WATER TO RETAIN HEAT IN WITER AS
+EARTH DOES IN THE SUMMER.THE 2 NUMBERS,ONE FOR LAND AND ONE FOR SE,MAY BE
+EITHER A POSITIVE OR NEGATIVE NUMBER. THEY MAY BE CHANGED BY THE USER VIA THE
+MCP. THIS NUMBER IS THEN ADDED TO THE PREVIOUS CALCULATIONS AND THE RESULTANT
+NUMBER IS THE TEMPERATURE AT THIS LOCATION.
+
+TEMPERATURES FOR LOCATIONS ON THE MAP MAY BE VIEWED BY CHECKING THE
+`TEMPERATURE` OPTION IN THE WEATHER DISPLAY BOX. TEMPERATURE AT ONE LOCATION
+MAY BE VIEWED BY POSITIONING THE CURSOR OVER THE DESIRED LOCATION AND CLICKING
+THE MOUSE BUTTON WHILE PRESSING THE -SHIFT- KEY. TEMPERATURES MAY BE DISPLAYED
+IN EITHER CENTIGRADE OR FAHRENHEIT BY CHECKING THE DESIRED OPTION IN THE
+WEATHER DISPLAY BOX.
+
+STORMS AND STORM FRONTS.
+------------------------
+
+STORM FRONTS ARE CAUSED WHEN THE RADIUS OF EFFECT OF A HIGH PRESSURE ZONE
+OVERLAPS THE RADIUS OF EFFECT OF A OW PRESSURE ZONE. IF THE TEMPERATURE AT THE
+LOCATION IS ABOVE FREEZING(32 DEGREES FAHRENHEIT. 0 DEGREES CENTIGRADE) THE
+THUNDER STORM SYMBOL WILL BE DISPLAYED AT THE LOCATION. IF THE TEMPERATURE AT
+THE LOCATION IS BELOW FREEZING, THE METEOROLOGICAL SYMBOL FOR SNOW WILL BE
+DISPLAYED. IT IS QUITE POSSIBLE FOR ONE STORM FRONT TO PRODUCE BOTH,RAIN AND
+SNOW.
+ 
+AFTER THE FRONTS HAVE BEEN DETERMINED,THE CHANCE OF PRECIPITATION FOR EACH MAP
+SQUARE AFFECTED BY THE FRONTS IS CALCULATED. THIS IS DONE BY COMPARING THE
+CLI-MATE PREIPITATION % FOR THE PERTINENT LOCATIONS TO A RANDOMLY GENERATED
+NUMBER, THE CLIMATE PRECIPITATION %(OR THE CHANCE THAT IT WILL RAIN OR SNOW FOR
+A GIVEN CLIMATE TYPE) MAY BE ODIFIED USING THE -MCP-
+
+CLIMATES.
+---------
+
+THERE ARE 12 DIFFERENT TYPES OF CLIMATES;TROPICAL-MONSOON-SEMI/ARID-ARID-
+-MEDITERRANEAN-SUB-TROPICAL-MARINE-CONTINENTAL-COOL-SUB/ARTIC-HIGH ALTITUDE-AND
+POLAR. EVERY LOCATION ON THE GLOBE BELONGS TO ONE OF THESE GROUPS.THESE
+CLIMATES EFFECT PRECIPITATION AND TEMPERATURE(SEE ABOVE).USING THE -MCP- IT IS
+POSSIBLE TO REDEFINE THE ATTRIBUTES OF THE CLIMATE GROUPS. FOR EXAMPLE,IT IS
+POSSIBLE TO SET THE CLIMATE PRECIPITATION % TO 99% FOR ARID,THIS WOULD OF
+COURSE,RESULT IN RAINFALL IN WHAT WOULD NORMALLY BE A DESERT AREA.
+------------------------------------------------------------------------------
+
+SPECIAL SQUARES-PORTS AND FORTS.
+--------------------------------
+A SPECIAL SQAURE IS A MAP SQUARE THAT CONTAINS EITHER A NATIONAL CAPITAL,A
+PROVINCIAL CAPITAL,A PORT,A TOWN OR FORTIFICATIONS. SPECIAL SQUARES HAVE
+NAMES-THOUGH IT IS NOT NECESSARY FOR A SQUARE TO HAVE A UNIQUE NAME-AND ARE
+CONTROLLED EITHER ONE OF THE PROVINCES THAT MAKE UP NATIONS(AND THEREFORE
+CONSIDERED AS PART OF THE RESOURCES OF THAT NATION)OR ARE DECLARED
+`UNCONTROLLED` AND WILL BE OCCUPIED BY THE FIRST MILITARY UNIT THAT ENTERS THE
+SPECIAL SQUARE.
+
+FROM THE -MAIN MENU- IT IS POSSIBLE TO -GOTO- ANY SPECIAL SQUARE FROM ANY POINT
+ON THE MAP,SELECTING THIS OPTION FROM THE MENU WILL PRODUCE THE -GOTO-DIALOG
+BOX. CLICK ON THE DESIRED SPECIAL SQUARE TO SEE ITS CO-ORDINATES. DOUBLE CLICK
+ON THE SPECIAL SQUARE TO GO TO THOSE CO-ORDINATES IMMEDIATELY. TO THE LEFT OF
+THE SPECIAL SQUARE LIST IS A LIST OF ALL PATHS IN THE WORLD. THIS FUNCTIONS
+IDENTICALLY TO THE SPECIAL SQUARE LIST.
+
+SPECIAL SQUARE INFO
+-------------------
+
+TO RECEIVE DETAILED INFO ABOUT A SPECIAL SQUARE (NOW SHOWN AS -SS-).POSITION
+THE CURSOR OVER THE DESIRED SPOT ON THE MAP AND PRESS THE -LMB-AND LEFT SHIFT
+KEY TOGETHER. A DETAILED DIALOG BOX WILL NOW APPEAR DISPLAYING INFO ABOUT THE
+LOCAL TEMPERATURE,CLIMATE,WIND DIRECTION AND CO-ORDINATES. CLICK ON THE `MORE
+INFO` BOX TO RECEIVE DETAILED INFO ABOUT THE SPECIAL SQUARE.CLICK ON `CONTINUE`
+TO EXIT THE BOX..IBM USERS MAY ALSO USE KEYS `M` AND `C` RESPECTIVELY FOR THE
+SAME EFFECT.
+
+FORTIFICATION LEVEL.
+--------------------
+THE FORTIFICATION LEVEL OF A -SS- IS USED TO INCREASE THE DEFENSIVE STRENGTH OF
+UNITS LOCATED ON THE -SS-. THE FORTIFICATION BONUS IS A VARIABLE THAT MAY BE
+CHANGED USING THE -MCP- THE HIGHER THE FORTIFICATION LEVEL, THE GREATER THE
+BONUS.
+
+CURRENT PORT CAPACTY.
+---------------------
+THIS NUMBER INDICATES THE MAXIMUM COMBINED STRENGTH POINTS OF SHIPS THAT MAY BE
+DOCKED AT THIS SPECIFIC -SS- AT ONE TIME.FOR EXAMPLE,IF THE CURRENT PORT
+CAPACITY OF A -SS- IS 10,ONE NAVAL UNIT WITH 6 STRENGTH POINTS AND ANOTHER WITH
+4 MAY SIMULTANEOUSLY BE IN THE SAME SQUARE.HOWEVER,A THIRD SHIP,GIVEN ORDERS TO
+MOVE INTO THIS -SS- WOULD NOT BE ALLOWED TO ENTER. IF THE NAVAL UNIT IN
+QUESTION IS UNDER HUMAN CONTROL. A REPORT WOULD BE ISSUED ASKING THE USER TO
+MAKE NEW ORDERS FOR THE THIRD UNIT.
+
+POTENTIAL PORT CAPACITY.
+------------------------
+PORT CAPACITY CAN BE EXPANDED BY USING A PROVINCES PRODUCTION POINTS,THE
+COST,IN PRODUCTION POINTS,FOR INCREASING A -SS- PORT CAPACITY IS SET IN THE
+-MCP-. THE POTENTIAL PORT CAPACITY INDICATES THE MAXIMUM PORT CAPACITY THAT
+THIS -SS- CAN BE RAISED TO.
+
+CURRENT PORT CAPACITY.
+----------------------
+THIS NUMBER REPRESENTS THE DEPTH OF THE DRAFT OF THE SHIPS THAT CAN HAROUR AT
+THIS -SS-.THERE ARE 4 DRAFTS REPRESENTED BY THE NUMBERS 1-4; 1- VERY SHALLOW
+DRAFT; 2- SHALLOW DRAFT; 3-DEEP-WATER; 4- VERY DEEP WATER. IN TURN, EVERY NAVAL
+UNIT TYPE, WHEN CREATED, IS ASSIGNED A CLASS CORRESPONDING TO THE DRAFT OF THE
+SHIP. FOR EXAMPLE, A SHIP WITH A UNIT TYPE CLASS 3(DEEP WATER) WOULD NOT BE
+ALLOWED TO ENTER A -SS- THAT HAS A CURRENT PORT CLASS OF 2(SHALLOW DRAFT).
+
+POTENTIAL PORT CAPACITY.
+------------------------
+PORT CAPABILITY CAN BE EXPANDED BY USING A PROVINCES PRODUCTION POINTS.THE
+COST,IN PRODUCTION POINTS,FOR INCREASING A -SS- CAPABILITY IS SET IN THE -MCP-.
+THE POTENTIAL PORT CAPABILITY INDICATES THE MAXIMUM PORT CAPABILITY THAT THIS
+-SS- CAN BE RAISED TO. NO SPECIAL CAN HAVE A PORT CAPABILITY GRETARE THAN 4.
+
+CAPTURE AND LOSS OF SPECIAL SQUARES.
+------------------------------------
+THE LOSS OF A -SS- ADVERSELY EFFECTS A COUNTRYS NATIONAL WILL.WHEN A COUNTRYS
+NATIONAL WILL IS REDUCED TO ZERO THAT NATION SURRENDERS,INVERSLY,THE CAPTURE OF
+AN ENEMYS -SS- INCREASES THE VICTORS NATIONAL WILL. THE AMOUNT OF INCREMENT,
+AND DECREMENT CAN BE SET IN THE -MCP-.
+------------------------------------------------------------------------------
+
+SEA POWER AND AMPHIBIOUS OPERATIONS.
+------------------------------------
+
+A SCENARIO MAY CONTAIN UP TO 40 DIFFERENT TYPES OF NAVAL UNITS. THE TOTAL
+NUMBER OF INDIVIDUAL UNITS,HOWEVE, IS LIMITED PRIMARILY BY THE AVAILABLE
+RAM.NAVAL UNITS,LIKE ALL UNITS IN UMS II ARE CONTROLLED BY A COMMAND HIERARCHY,
+OR ORDER OF BATTLE.
+FOR EXAMPLE ANY ORDERS GIVEN TO HARDY WILL AUTOMATICALLY BE PASSED ON TO THE
+`VICTORY`-`EURYALUS` AND `NEPTUNE` (AS THESE SHIPS HAVE LESS SP THAN HARDY) ANY
+ORDERS THAT ARE GIVEN TO NELSON WILL AUTOMATICALLY BE PASSED ON TO HARDY (SAME
+APPLIES-HE`S GOT A HIGHER SP THAN HARDY) AND THROUGH HIM TO THE SHIPS UNDER HIS
+CONTROL. THIS WILL BE ESPECIALLY USEFUL WHEN MAKING LARGE SCALE MOVEMENTS.
+
+ACTIVATING A UNIT.
+------------------
+A SEA UNIT MAY BE ACTIVATED BY POSITIONING THE CURSOR ON THE LEFT HAND CORNER
+OF A UNIT AND DOUBLE CLIKCING. IF MORE THAN ONE UNIT SHARES THIS MAP SQUARE
+SELECT -NXT UNIT- TO ACTIVATE THE DESIRED UNIT. SELECTING -ISSUE ORDERS- WILL
+CAUSE THE NAVAL UNIT ORDERS BOX TO APPEAR.
+
+NAVAL ORDERS.
+-------------
+AT ALL TIMES A NAVAL UNIT IS CURRENTLY UNDER ONE OF 4 ORDERS. IN ADDITION TO
+THESE STANDING ORDERS,THE UNIT MAY BE ASSIGNED UP TO 7 WAYPOINTS. THE NAVAL
+UNIT WILL PROCEED FROM ONE WAYPOINT TO THE NEXT IN CONSECTUTIVE ORDER UNTIL THE
+LAST WAYPOINT IS REACHED OR NEW ORDERS ARE ISSUED TO THE UNIT. IT IS NOT
+NECESSARY TO ASSIGN A NAVAL UNIT ANY WAYPOINTS. A UNIT WITHOUT CURRENTLY
+ASSIGNED WAY-POINTS WILL REMAIN IN ITS CURRENT LOCATION.
+
+[NOTE] A SCENARIO MAY CONTAIN UP TO 40 DIFFERENT TYPES IN TOTAL, THESE 40 UNIT
+TYPES MAY BE ANY COMBINATION OF NAVAL,AIR,MISSILE OR GROUND TROOPS. WHILE IT IS
+QUITE POSSIBLE FOR A SCENARIO TO CONTAIN ONLY NAVAL UNITS, MOST SCENARIOS
+CONTAIN ABOUT 10 DIFFERENT NAVAL UNITS.
+
+WIND AND NAVAL MOVEMENT.
+------------------------
+THE DIRECTION OF THE WIND IN RELATION TO THE DIRECTION OF TRAVEL OF SAIL
+POWERED NAVAL UNITS EFFECTS THE SPEED OF THE NAVAL UNIT. THE AMOUNT OF THE
+EFFECT IS DETERMINED BY THE SETTINGS IN THE -MCP-(UNDER MOVEMENT,SEA WINDS
+MENU)
+
+THE DEFAULT SETTINGS ARE; RUNNING 100%-BROAD REACHING 120%-REACHING 60%-CLOSE
+HAULING 40%-AND DIRECTLY INTO THE WIND 20%. FOR EXAMPLE,A NAVAL UNIT TRAVELLING
+FROM SOUTH TO NORTH,WITH THE WIND FROM THE SOUTH-WEST WOULD BE `BROAD-REACHIN`
+AND WOULD RECEIVE ONLY A 20% MOVEMENT BONUS.
+
+[NOTE] ONLY SAIL POWERED NAVAL UNITS ARE AFFECTED WIND DIRECTION.
+
+AMPHIBIUS OPERATIONS.
+---------------------
+AMPHIBIUS OPERATIONS-CAMPAIGNS INVOLVING THE TRANSPORT OF GROUND UNITS ACROSS
+BODIES OF WATER BY NAVAL UNITS-ARE FULLY SUPPORTED BY UMS II. TRANSPORTING A
+GROUND UNIT VIA A NAVAL UNIT IS ACCOMPLISHED IN 2 STEPS.
+
+FIRST.
+------
+A NAVAL UNIT(WITH SUFFICIENT TRANSPORT CAPACITY) IS MOVED INTO A SPECIAL
+SQUARE(-SS-)ARE THE ONLY PLACES ON A MAP THAT GROUND AND NAVAL UNITS MAY SHARE
+A LOCATION. ALL GROUND UNITS HAVE A `LOAD VALUE` OR THE COST TO TRANSPORT THIS
+UNIT THIS NUMBER IS SET FOR A PARTICULAR UNIT TYPE AT THE TIME THAT THE
+SCENARIO IS CREATED. WHEN A NAVAL UNIT WITH `TRANSPORT CAPACITY`(ALSO SET FOR
+EACH UNIT TYPE AT THE TIME THAT THE SCENARIO IS CREATED) ENTER A -SS- A `LOAD
+UNIT BOX` APPEARS AND DISPLAYS A LIST OF ALL GROUND UNITS THAT THE NAVAL UNIT
+HAS SUFFICIENT TRANSPORT CAPACITY TO CARRY. IF THERE ARE MORE THAN 5 GROUND
+UNITS LOCATED IN THE -SS- THE `MORE` BUTTON IS ENABLED,SELECTING THIS BUTTON
+WILL DISPLAY THE NEXT SET OF 5 GROUND UNITS. SELECTING THIS BUTTON AGAIN WILL
+CONTINUE TO DISPLAY GROUND UNITS IN GROUPS OF 5. TO LOAD A GROUND UNIT CLICK
+THE BUTTON THAT CONTAINS THE UNITS NAME,THE SYMBOLS <> WILL APPEAR ON EITHER
+SIDE OF THE UNIT NAME TO INDICATE THAT IT HAS RECEIVED ORDERS TO BOARD
+TRANSPORT.
+
+SECOND.
+-------
+TO UNLOAD A GROUND UNIT THAT IS BEING TRANSPORTED BY A NAVAL UNIT,WHILE GIVING
+MOVEMENT ORDERS TO THE TRANSPORTING NAVAL UNIT,POSITION THE CURSOR OVER A LAND
+SQUARE THAT IS ADJACENT TO A WATER SQUARE AND PRESS THE -RIGHT SHIFT- KEY AND
+LMB TOGETHER. THE UNLOAD UNITS BOX WILL APPEAR. CLICK THE MOUSE ON THE BUTTON
+THAT CONTAINS THE NAME OF THE UNIT,OR UNITS THAT YOU WISH TO UNLOAD AT THIS
+PLACE. UNIT/S SO SELECTED WILL APPEAR WITH A DASH(--) ON EITHER SIDE OF THE
+UNIT NAME.
+------------------------------------------------------------------------------
+
+SUPPLIES AND TRANSPORTATION.
+----------------------------
+
+SUPPLIES.
+
+SUPPLIES ARE THE CURRENCY THAT MILITARY UNITS EXPEND AS THEY ASSUME DIFFERENT
+FORMATIONS AND MOVE ABOUT THE MAP. THE COST TO ASUME EACH MILITARY FORMATION IS
+SET BY THE USER IN THE FORMATION COST AND EFFECT BOX. NOTE IN THE DIALOG BOX.
+THE LEFT AND RIGHT HALF OF THE BOX HAS BEEN DIVIDED FOR DISPLAY PURPOSES.
+
+IF THE COST IN SUPPLY POINTS FOR EVERY MILITARY FORMATION IS SET TO ZERO THEN
+SUPPLY WILL HAVE NO IMPORTANCE OR EFFECT ON A SIMULATION. IT IS THROUGH THIS
+DIALOG BOX THAT THE IMPORTANCE OF SUPPLY IN A SIMULATION IS ET.
+
+REDISTRIBUTE SUPPLIES.
+---------------------
+WHEN 2 OR MORE UNITS OCCUPY THE SAME MAP SQUARE, SUPPLIES CAN BE EXCHANGED
+BETWEEN THEM. THIS IS NECESSARY TO RE-SUPPLY UNITS AND TO LOAD SUPPLIES ON TO
+TRANSPORT UNITS FOR MOVEMENT.
+
+THE `RE-SUPPLY` OPTION IS SELECTABLE FROM THE UNIT MOVEMENT COMMAND BOX(SEE
+GROUND MOVEMENT-SEA MOVEMENT..ECT) IF THIS BUTTON IS SELECTED THE RE-DISTRIBUTE
+SUPPLIES BOX WILL APPEAR WITH A LIST OF ALL UNITS THAT SHARE THE SAME MAP
+SQUARE,SELECTING `MORE` WILL CAUSE THE NEXT GROUP OF 5 UNITS TO BE DISPLAYED IN
+THE BOX.
+
+TO TRANSFER SUPPLIES BETWEEN UNITS,DECREMENT THE STORE OF SUPPLIES OF THE FIRST
+UNIT BY CLICKING THE DOWN ARROW. THE SUPPLIES WILL BE ADDED TO THE TOTAL OF
+`UNCLAIMED SUPPLIES` AT THE TOP OF THE DIALOG BOX. TO ADD THESE SUPPLIES TO THE
+SECOND UNIT,CLICK ON THE UP ARROW FOR THAT UNIT. THE SUPPLIES WILL BE DEDUCTED
+FROM THE UNCLAIMED TOTAL AND ADDED TO THE 2ND UNIT. SELECT `DONE` WHEN
+FINISHED.
+
+ALL UNCLAIMED SUPPLIES ARE DESTROYED.
+THE MAXIMUM QUANTITY OF SUPPLIES THAT ANY UNIT CAN CARRY IS 99 SUPPLY POINTS.
+
+SPOILS.
+-------
+TO THE VICTOR THE SPOILS. WHENEVER A UNIT HAS BEEN ELIMINATED IN BATTLE THE
+VICTORIOUS UNIT WILL RECEIVE ALL THE ELIMINATED UNITS SUPPLIES THAT IT CAN
+CARRY.
+
+------------------------------------------------------------------------------
+COMBAT.
+-------
+
+COMBAT OCCURS WHENEVER THE DISTANCE BETWEEN  2 HOSTILE UNITS IS LESS THAN THE
+CURRENT VALUE OF `CONTACT BETWEEN HOSTILE UNITS` AS SET IN THE -MCP-. THIS
+DISTANCE IS USUALLY 20 KILOMETERS, HOWEVER, THE USER MAY CHANGE IT FOR EACH
+SCENARIO.
+
+THE METHODS FOR DETERMINING THE VICTORIOUS AND DEFEATED UNITS, AS WELL AS THE
+NUMBER OF CASUALTIES SUSTAINED ARE DEFINED BY THE USER.
+
+FOLLOWING COMBAT,THE MORALE LEVEL FOR THE VICTORIOUS UNIT IS RAISED BY 1 POINT.
+FOR EXAMPLE, A UNIT DETERMINED TO BE VICTOR WHO PREVIOUS TO COMBAT HAD A MORALE
+LEVEL OF 5;-STALWART- WOULD BE RAISED TO A MORALE LEVEL OF 6;-DETERMINED-. A
+DEFEATED UNITS MORALE LEVEL IS REDUCED BY 1 POINT. FOR EXAMPLE; A UNIT
+DETERMINED TO BE THE DEFEATED UNIT WHO PREVIOUSLY HAD A MORALE LEVEL OF
+-WAVERING- WOULD BE REDUCED TO A MORALE LEVEL OF 3;-SHAKEN-.
+
+FOLLOWING COMBAT,THE EXPERIENCE LEVEL FOR `BOTH` UNITS ARE RAISED BY 1
+POINT,FOR EXAMPLE;A UNIT WHO PREVIOUS TO COMBAT HAD AN EXPERIENCE LEVEL OF
+5;-IRREGULAR- WOULD BE RAISED TO AN EXPERIENCE LEVEL OF 6;-REGULAR-.
+
+THE UNIT SUFFERING THE GREATEST NUMBER OF CASUALTIES-AS MEASURED IN STRENGTH
+POINTS- WILL BE FORCED TO RETREAT. THE COMPUTER WILL MOVE THE UNIT IN THE
+OPPOSITE DIRECTION FROM WHICH ATTACKED. IF THE ATTACKER IS VICTORIOUS IT WILL
+CONTINUE WITH ITS PREVIOUS ORDERS. IF EITHER UNIT IS IS UNABLE TO CONTINUE WITH
+ITS PREVIOUS ORDERS AND IS UNDER `HUMAN` CONTROL THE USER WILL BE ASKED TO
+ISSUE NEW ORDERS TO THE UNIT.
+
+REPORTING HOSTILE CONTACT.
+--------------------------
+
+IF EITHER OF THE CONTROLLING NATIONS OF THE ATTACKING OR DEFENDING UNIT HAS HAD
+THE `SHOW REPORT` OPTION SET ON. A REPORT ON THE APPROPRIATE NATIONAL
+STATIONARY WILL BE DISPLAYED ON SCREEN.
+
+ON AMIGA THE REPORTWILL ALSO APPEARIN THE SPECIFIED TYPEFACE FOR THAT NATIONS
+REPORT,AS BELOW.
+
+IF THE OPTION `PRINT REPORTS` HAS BEEN SELECTED THE REPORT WILL ALSO BE SENT TO
+PRINTER. IF THE OPTION USE STATIONARY HAS PREVIOUSLY BEEN SELECTED THE REPORT
+WILL BE PRNTED IN GRAPHICS MODE ON THE STATIONERY SHEET. IF THE OPTION FORM
+FFED(OR SEPERATE PAGES ON SOME COMPUTERS) HAD PREVIOUSLY BEEN SELECTED, THE
+PRINTER WILL AUTOMATICALLY ADVANCE THE PAPER TO THE NEXT SHEET BETWEEN REPORTS.
+ 
+-------------------
+1. HOSTILE UNITS ARE DEFINED AS UNITS BELONGING TO THE ARMED FORCES
+ORGANISATION OF 2 DIFFERENT NATIONS THAT ARE CURRENTLY AT WAR.
+
+2. THIS VARIABLE IS ACCESSED UNDER THE -PROXIMITY- MENU OF THE -MCP-.THE
+DISTANCE TO INITIATE COMBAT IS DEFINED IN KILOMETERS.
+
+3.THE MORALE LEVEL FOR A UNIT IS EXPRESSED AS A NUMBER BETWEEN 0-9 WITH 0 BEING
+THE LOWEST POSSIBLE VALUE.THE INITIAL MORALE LEVEL FOR A UNIT IS SET AT THE
+TIME THAT THE UNIT IS CREATED.
+
+4.THE EXPERIENCE LEVEL -IS SET EXACTLY AS THAT ABOVE- (MORALE)
+______________________________________________________________________________
+
+THE BATTLE EQUATION.
+--------------------
+
+unit name        current strength of unit
+----\----        ------------\-----------
+101ST AIRBORNE       UNIT STRENGTH (10)
+
+
+there is no difference in   any advance would have        modifier 
+tech levels of attacker     been multiplied by 20         for this equation    
+and defender.
+------\------------------   ---------\-----------        /---------------------
++ TECH LEVEL OF (0)         *TECH LEVEL ADVANTAGE(20)*4%} = 10.00  
+
+
+running total carried       the 101st has orders to       modifier 
+over from last equation     assault which has been set    for this equation
+                            to a value of 150%
+------\------------------   ---------\------------       ----/-----------------
++ {RUNNING TOTAL(10.00)  *  {EFFECT OF ORDERS(150%)-100% *  16% = 10.80
+
+
+running total carried       us paras attacking in          modifier
+over from last equation     in rough terrain               for this equation
+------\------------------   ---------\------------       ----/-----------------
++ {RUNNING TOTAL(10.80)  *  {TERRAIN MODIFIER (90%)-100% *  16% = 10.63
+
+
+attackers morale 4 points   the difference in leadership   modifier
+higher than defenders       is multiplied by 50            for this equation
+-----\-------------------   ---------\------------        ----/----------------
++ MORALE(4)* MORALE LEVEL MULTIPLIER (2) *                  12%}= 11.59
+
+
+attackers leadership is 1   the difference in leadership   modifier 
+point higher than defender  is multiplied by 50            for this equation
+-----\------------------    -------------------\-         ----/---------------
++ {LEADERSHIP (1) * LEADERSHIP LEVEL MULTIPLIER(50) *        10%= 16.59 
+
+
+attackers experience is 2   the difference in experience   modifier
+point higher than defender  is multiplied by 2             for this equation
+-----\------------------    -------------------\-          ----/--------------
++ {EXPERIENCE(2) * EXPERIENCE LEVEL MULTIPLIER (2)  *         10%}=16.99
+
+
+randomly generated number less     modifier for
+than maximum random                this equation
+--------------\---------------     ----/--------
++ {RANDOM (50) *                      0% } = 17.84
+
+ 
+us paratroopers attacking german static division
+-------------------------------------/----------
+* UNIT TYPE ATTACKING CROSS INDEX (105%) = 17.84
+
+
+attack to defense ratio
+-----------------------\
+OVER ALL COMBAT RATIO  4:1
+
+
+number subtracted from original strength         result
+--------------/-------------------------         /-----
+CASUALTIES = 1 SPs.           CURRENT STRENGTH = 9
+______________________________________________________________________________
+
+[NOTE] IDENTICAL CALCULATIONS ARE MADE FOR THE DEFENDING UNIT,OLY THOSE FOR THE
+ATTACKING UNIT (IE 101ST AIRBORNE) ARE DISPLAYED.
+
+
+HERES A BREAKDOWN OF THE BATTLE EQUATION.
+-----------------------------------------
+
+UNIT NAME.
+----------
+THIS IS THE UNIT NAME AS IT APPEARS IN THE NATIONAL ORDER OF BATTLE,OR ARMED
+FORCES ORGANISATIONAL CHART.[NOTE] THIS NAME DOES NOT HAVE TO BE UNIQUE.
+
+CURRENT STRENGTH OF UNIT
+------------------------
+THIS NUMBER IS THE CURRENT STRENGTH,BEFORE HOSTILE CONTACT,OR BATTLE AS
+MEASURED IN STRENGTH POINTS(SPs). THIS IS AN ARBITARY NUMBER,DECIDED BY THE
+SCENARIO DESIGNER,BASED ON THE FIELD STRENGTH OF THE UNIT AND RANGES FROM 1-99.
+WHEN THIS NUMBER IS REDUCED TO ZERO,FOR WHATEVER REASONS,THE UNIT IS ELIMINATED
+FROM THE NATIONAL ORDER OF BATTLE AND IS NO LONGER DISPLAYED ON THE MAP.
+FURTHERMORE,THE UNITS CONTROLLING NATION IS SUBJECT TO A CORRESPONDING LOSS OF
+NATIONAL WILL. SEE -MCP- FOR SETTING THE EFFECT OF THE NATIONAL WILL CAUSED BY
+THE LOSS OF THE UNIT. IN THIS EXAMPLE THE 101ST AIRBORNES STRENGTH IS 10 SPs.
+
+TECH LEVEL EFFECT
+-----------------
+
+EVERY UNIT IS CREATED WITH A TECHNOLOGICAL LEVEL THAT RANGES FROM (0) STONE AGE
+TO WORLD WAR III FUTURE (18). THE ATTACKERS TECH LEVEL IS COMPARED TO THE
+DEFENDERS TECH LEVEL AND THE SUPERIOR UNIT IS AWARDED A BONUS BASED ON THIS
+NUMBER.
+
+TECH LEVEL ADVANTAGE
+--------------------
+THIS NUMBER IS THE BONUS AWARDED TO EACH UNIT THAT HAS A SUPERIOR TECH
+LEVEL.THIS BONUS IS MULTIPLIED FOR EVERY TECH LEVEL THAT THE SUPERIOR UNIT HAS
+ABOVE THE INFERIOR UNIT. THIS BONUS IS USER DEFINED AND MAY BE SET IN THE -MCP-
+
+TECH LEVEL EQUATION MODIFIER
+----------------------------
+THIS NUMBER,SET IN THE BATTLE EQUATION(SEE BELOW) REPRESENTS THE WEIGHING OF
+THE IMPORTANCE OF THE DIFFERENCE IN TECH LEVEL BETWEEN UNITS. FOR EXAMPLE,IF
+THIS THIS NUMBER IS SET TO 100 (100% OF THE RESULT OF THE EQUATION) THEN
+100%(ALL) OF THE RESULTING NUMBER WILL BE ADDED TO THE RUNNING TOTAL OF THE
+BATTLE STRENGTH OF THE UNIT. IN THE ABOVE EXAMPLE, THE TECH LEVEL MODIFIER IS
+SET TO 20%,THEREFORE,THE RESULT  OF THE TECH LEVEL EQUATION WILL BE MULTIPLIED
+BY 20% AND THE RESULT ADDED TO THE ORIGINAL ATTACKING UNITS STRENGTH POINTS.
+
+EFFECT OF ORDERS
+----------------
+THIS NUMBER,SET IN THE BATTLE EQUATION(SEE BELOW),REPRESENTS THE BONUS AWARDED
+FOR A UNIT ASSUMING ONE OF A NUMBER OF FORMATIONS. FOR EXAMPLE, AN ATTACKING
+GROUND UNIT WILL BE EITHER -MARCHING-ATTACKING- OR ASSAULTING. A DEFENDING UNIT
+WILL BE IN EITHER SCREEN,-DEFEND-HOLD AT ALL COSTS FORMATIONS. EVERY UNIT
+TYPE(GROUND,SEA,AIR,MISSILE OR ORBITAL) HAS A PREDEFINED NUMBER OF FORMATIONS,
+AND EACH FORMATION HAS A PRE-DEFINED COMBAT BONUS. THE VALUES OF THESE BONUSES
+ARE SET FOR THE USER(SEE BELOW). IN THIS EXAMPLE THE 101ST AIRBORNE IS IN
+ASSAULT FORMATION AND THE BONUS FOR THIS INFORMATION IS 150%. THE EFFECT OF
+ORDERS BONUS,MINUS 100% IN ORDER TO GET THE NET CHANGE,IS MULTIPLIED BY THE
+RUNNING TOTAL.
+[NOTE] THIS NUMBER MAY BE LESS THAN 100% AND THEREFORE IS NOT A BONUS AT
+ALL,BUT RATHER A LIABILITY.
+
+EFFECT OF ORDERS EQUATION MODIFIER
+----------------------------------
+THIS NUMBER,SET IN THE BATTLE EQUATION(SEE BELOW),REPRESENTS THE WEIGHTING OF
+THE IMPORTANCE OF THE EFFECT OF ORDERS BONUS.FOR EXAMPLE,IF THIS NUMBER IS SET
+TO 100(100% OF THE RESULT OF THE EQUATION)THEN 100%(ALL)OF THE RSULTING NUMBER
+WILL BE ADDED TO THE RUNNING TOTAL OF THE BATTLE STRENGTH OF THE UNIT. IN THE
+ABOVE EXAMPLE,THE EFFECT OF ORDERS  MODIFIER IS SET TO 16%,THEREFORE THE RESULT
+OF THE EFFECT OF ORDERS EQUATION IS MULTIPLIED BY 16% AND THE RESULT ADDED TO
+THE ORIGINAL ATTACKING UNITS RUNNING TOTAL WHICH IS DISPLAYED TO THE RIGHT SIDE
+OF THE EQUAL SIDES OF THE EQUATION.
+
+[NOTE] THE BATTLE EQUATION IS NOT DISPLAYED IN THE NATIONAL TYPEFACE.THIS IN
+THE INTEREST OF CLARITY.
+
+TERRAIN MODIFIER
+----------------
+EVERY UNIT TYPE(THERE MAY BE UP TO 40 DIFFERENT UNIT TYPES FOR EVERY
+SCENARIO)HAS BEEN CROSS-INDEXED WITH ITS ABILITY TO ATTACK(OR DEFEND) IN THE 16
+TERRAIN TYPES.
+THIS IS SET UP AT THE TIME THE SCENARIO IS CREATED. IN THIS EXAMPLE. THE UNIT
+TYPE,AMERICAN PARATROOPERS,IS CROSSED-INDEXED WITH ATTACKING ACROSS ROUGH
+TERRAIN AND THE RESULT(90)MINUS 100% IN ORDER TO GET NET CHANGE, IS MULTIPLIED
+BY THE RUNNING TOTAL.
+[NOTE] THE TERRAIN TYPE OF THE DEFENDING SQUARE DETERMINES THE TERRAIN TYPE.
+THE SAME CALCULATION IS MADE FOR THE DEFENDING UNIT, THOUGH A DIFFERENT TABLE
+IS USED FOR CALCULATING THE EFFECT OF TERRAIN ON DEFENSE.
+
+TERRAIN EFFECT EQUATION MODIFIER
+--------------------------------
+THIS NUMBER,SET IN THE BATTLE EQUATION(SEE BELOW)REPRESENTS THE WEIGHTING OF
+THE IMPORTANCE OF THE TERRAIN EFFECT BONUS.
+FOR EXAMPLE, IF THIS NUMBER IS SET TO 100(100% OF THE RESULT OF THE
+EQUATION)THEN 100%(ALL)OF THE RESULTING NUMBER WILL BE ADDED TO THE RUNNING
+TOTAL OF THE BATTLE STRENGTH OF THE UNIT.IN THE ABOVE EXAMPLE,THE TERRAIN
+EFFECT MODIFIER IS SET TO 16%,THEREFOE, THE RESULT OF THE TERRAIN EFFECT
+EQUATION WILL BE MULTIPLIED BY 16% AND THE RESULT ADDED TO THE ATTACKING UNITS
+RUNNING TOTAL WHICH IS DISPLAYED TO THE RIGHT SIDE OF THE EQUAL SIGN OF THE
+EQUATION.
+
+MORALE LEVEL
+------------
+ALL UNITS HAVE A MORALE LEVEL THAT RANGES FROM 0(BROKEN) TO 9(FANATICAL)
+[NOTE] THE MORALE LEVEL OF A  VICTORIOUS UNIT IS RAISED BY 1 POINT AFTER A
+BATTLE,WHILE THE MORALE OF A DEFEATED UNIT IS DEDUCTED 1. 
+THE NUMBER DISPLAYED IS THE DIFFERENCE BETWEEN THE ATTACKERS AND DEFENDERS
+MORALE. IN THIS EXAMPLE THE 101ST AIRBORNES MORALE LEVEL IS 4 POINTS HIGHER
+THAN THE DEFENDERS.
+
+MORALE LEVEL ADVANTAGE
+----------------------
+THIS NUMBER IS THE BONUS AWARDED TO THE UNIT THAT HAS A SUPERIOR MORALE
+LEVEL.THIS BONUS IS MULTIPLIED FOR EVERY MORALE LEVEL HAT THE SUPERIOR UNIT HAS
+ABOVE THE INFERIOR UNIT.
+THIS BONUS IS USER DEFINED AND MAY BE SET IN THE -MCP-.IN THIS EXAMPLE,THE
+BONUS IS 2.
+
+MORALE LEVEL EQUATION MODIFIER
+------------------------------
+THIS NUMBER,SET IN THE BATTLE EQUATION (SEE BELOW)REPRESENTS THE WEIGHTING OF
+THE IMPORTANCE OF THE DIFFERENCE IN MORALE LEVEL BETWEEN UNITS.
+FOR EXAMPLE, IF THIS NUMBER IS SET TO 100(100% OF THE RESULT OF THE
+EQUATION)THEN 100%(ALL)OF THE RESULTING NUMBER WILL BE ADDED TO THE RUNNING
+TOTAL OF THE BATTLE STRENGTH OF THE UNIT.
+IN THE ABOVE EXAMPLE,THE MORALE LEVEL EQUATION MODIFIER IS SET TO 12% AND THE
+RESULT ADDED TO THE ATTACKING UNITS RUNNING TOTAL WHICH IS DISPLAYED TO THE
+RIGHT SIDE OF THE EQUAL SIGN OF THE EQUATION
+
+LEADERSHIP LEVEL
+----------------
+ALL UNITS HAVE A LEADERSHIP LEVEL THAT RANGES FROM 0(INCOMPETENT) TO 9(GENERAL)
+THE NUMBER DISPLAYED IS THE DIFFERENCE BETWEEN THE ATTACKERS AND DEFENDERS
+MORALE.
+IN THIS EXAMPLE,THE 101ST AIRBORNES LEADERSHIP LEVEL IS 1 POINT HIGHER THAN THE
+DEFENDERS.
+
+LEADERSHIP LEVEL MULTIPLIER
+---------------------------
+THIS NUMBER IS THE BONUS AWARDED TO A UNIT THAT HAS A SUPERIOR LEADERSHIP
+LEVEL.
+THE NUMBER DISPLAYED IS MULTIPLIED FOR EVERY LEADERSHIP LEVEL THAT THE SUPERIOR
+UNIT HAS ABOVE THE INFERIOR UNIT.
+THIS BONUS IS USER DEFINEABLE AND MAY BE SET IN THE -MCP-.IN THIS EXAMPLE,THE
+BONUS IS 50.
+
+LEADERSHIP LEVEL EQUATION MODIFIER
+----------------------------------
+THIS NUMBER,SET IN THE BATTLE EQUATION(SEE BELOW)REPRESENTS THE WEIGHTING OF
+THE IMPORTANCE OF THE DIFFERENCE IN LEADERSHIP LEVELS BETWEEN UNITS.
+FOR EXAMPLE,IF THIS NUMBER IS SET TO 100(100% OF THE RESULT OF THE
+EQUATION)THEN 100%(ALL)OF THE RESULTING NUMBER WILL BE ADDED TO THE RUNNING
+TOTAL OF THE BATTLE STRENGTH OF THE UNIT.IN THE ABOVE EXAMPLE. THE LEADERSHIP
+LEVEL EQUATION MODIFIER IS SET TO 10%,THEREFORE THE RESULT OF THE LEADERSHIP
+LEVEL EQUATION WILL BE MULTIPLIED BY 10% AND THE RESULT ADDEED TO THE ATTACKING
+UNITS RUNNING TOTAL WHICH IS DISPLAYED TO THE RIGHT SIDE OF THE EQUAL SIGN OF
+THE EQUATION
+
+EXPERIENCE LEVEL
+----------------
+ALL UNITS HAVE AN EXPERIENCE LEVEL THAT RANGES FROM 0(NTRAINED) TO 9(ELITE)
+[NOTE] THE EXPERIENCE LEVEL OF BOTH UNITS IS RAISED BY 1 POINT AFTER
+BATTLE,REGARDLESS OF THE OUTCOME.
+THE NUMBER DISPLAYED IS THE DIFFERENCE BETWEEN THE ATTACKERS AND DEFENDERS
+EXPERIENCE.
+IN THIS EXAMPLE,THE 101ST`S LEVEL IS 2 POINTS HIGHER THAN THE DEFENDER`S.
+
+EXPERIENCE LEVEL ADVANTAGE
+--------------------------
+THIS NUMBER IS THE BONUS AWARDED TO A UNIT THAT HAS A SUPERIOR EXPERIENCE
+LEVEL. THIS BONUS IS MULTIPIED FOR EVERY EXPERIENCE LEVEL THAT THE SUPERIOR
+UNIT HAS ABOVE THE INFERIOR.
+THIS BONUS IS USER DEFINED AND MAY BE SET IN THE -MCP-.IN THIS EXAMPLE,THE
+BONUS IS 2.
+
+EXPERIENCE LEVEL EQUATION MODIFIER
+----------------------------------
+AS IN ALL THE OTHER EQUATION MODIFIERS(READ ANY ABOVE) - EXCEPT THE % IS 10%
+
+RANDOM
+------
+THIS NUMBER,SET BY THE USER IN THE -MCP-,IS BETWEEN 0-99.IT REPRESENTS THE
+RANDOM OCCURENCES THAT TAKE PLACE IN A BATTLE.IN THIS EXAMPLE THE NUMBER
+RETURNED WILL BE LESS THAN 50.
+
+RANDOM EQUATION MODIFIER
+------------------------
+AS IN ALL THE OTHER EQUATION MODIFIERS(READ ANY ABOVE) - EXCEPT THE % IS 0%
+
+UNIT TYPE ATTACKING,CROSS MATRIX
+--------------------------------
+EVERY UNIT TYPE(THERE MAY BE UP TO 40 INDIVIDUAL UNIT TYPES FOR EVERY
+SCENARIO)HAS BEEN CROSS-INDEXED.THIS IS SET UP AT THE TIME THAT A SCENARIO IS
+CREATED. THESE VALUES ARE BASED ON FIREPOWER OF THE UNIT TYPES.
+IN THIS EXAMPLE,THE UNIT TYPE,AMERICAN PARATROOPERS,IS CROSS INDEXED AGAINST
+GERMAN STATIC INFANTRY AS HAVING 150% EFFECIENCY OR FIREPOWER RATING.
+
+UNIT TYPE DEFENDING,CROSS MATRIX
+--------------------------------
+THIS NUMBER IS MULTIPLIED BY THE RUNNING TOTAL AND THE RESULT IS DISPLAYED TO
+THE RIGHT OF THE EQUAL SIGN.
+
+OVERALL COMBAT RATIO
+--------------------
+THIS UNIT COMPARES THE END RESULT F THE ATTACKING UNITS RUNNING TOTAL WITH THE
+DEFENDING UNIT`S RUNNING TOTAL. THIS NUMBER IS USED TO CROSS-INDEX THE CASUALTY
+CHARTS THAT ARE USER DEFINED IN THE -MCP-
+
+CASUALTIES
+----------
+THIS IS THE NUMBER OF STRENGTH POINTS(SPs) SUBTRACTED FROM THE ATTACKING
+UNIT.THIS NUMBER IS USER DEFINED IN THE -MCP-.
+IN THIS EXAMPLE THE 101ST LOST 1SP.
+
+CURRENT STRENGTH
+----------------
+THIS IS THE CURRENT STRENGTH,AFTER BATTLE,OF THE UNIT THAT ISSUED THE REPORT TO
+THE NATIONAL COMMANDING GENERAL.
+IN THIS EXAMPLE,THE CURRENT STRENGTH OF THE 101ST AFTER THE BATTLE IS 9SPs.
+
+------------AND THATS YER LOT-----HOPE IT HELPS YOU-------SCOOTER-------------

@@ -1,0 +1,2777 @@
+MANUAL DEL HACEDOR DE REYES
+   
+
+                 Escrito por:-( TinTin Suministrado por:-) PyTh0N
+
+
+------------------------------------------------------------------------------
+
+
+Hacedor de reyes
+---------
+
+El juego de intriga y guerra en la Guerra de las Rosas
+Juego de mesa original de: Andrew McNeil
+Programación: Graham Lilley
+Desarrollo: Paul Cockburn
+Pruebas de juego: Paul Bonner, Martin Smith
+Productor: Steve Fitton
+DoC: TinTin
+
+
+INTRODUCCIÓN
+------------
+
+El acto 2, escena 4 de la primera parte de Enrique VI de William Shakespeare es una escena de gran
+teatro. Seis poderosos señores de Inglaterra se encuentran en los jardines del Templo. Ricardo, duque
+de York, ha desafiado a su gran rival, John Beaufort, duque de Somerset, por
+grandes asuntos de Estado. Somerset, el más destacado de los que rodean al Rey en
+Court, apenas puede contener su ira. Han discutido ruidosamente en el Salón, cada uno
+tratando de persuadir a otros de la justicia de su caso. pero los otros
+Los presentes no pueden encontrar un ganador claro en la discusión.
+
+Decidido a resolver el problema, York arranca una rosa blanca de un arbusto cercano.
+y significa que quienes lo apoyan deben hacer lo mismo.
+
+Haciéndose eco de esto, Somerset toma una rosa roja. En vano, un noble llamado Vernon suplica
+con ambas partes a aceptar que "aquel de cuyo lado hay menos rosas
+cortado del árbol producirá el otro en la opinión correcta". los nobles
+se ven arrastrados a sus facciones: el conde de Warick, Vernon y un anónimo
+El abogado toma la rosa blanca, mientras que el conde de Suffolk es el único que se pone del lado de
+Voltereta. Al darse cuenta de cómo han resultado las cosas, Somerset casi saca su
+daga allí y entonces. La escena termina con Richard pronunciando estas siniestras palabras.
+a sus seguidores
+
+  " Ven, vamos a cenar los cuatro. Me atrevo a decir que esta pelea beberá sangre.
+                               otro día "
+
+En cuatro tumultuosas obras, Shakespeare retrata la Guerra de las Rosas como una
+Conflicto de traición, asesinato, venganza temible y batalla sangrienta. para aquellos
+que vivieron en la era de Shakespeare, un siglo después, las guerras fueron una época de
+violencia, devastación y anarquía. Sólo cuando Enrique Tudor mató a Ricardo III en
+Bosworth, estos malos tiempos llegaron a su fin.
+
+Los Tudor -cuyo fiel propagandista fue Shakespeare- tenían interés en
+retratando así la Guerra de las Rosas. Le recordó a cualquiera que esté considerando
+rebelión de que la lealtad a la corona podría ser el mal menor. Enrique Tudor había
+Le quitaron la corona a Ricardo III y la nueva dinastía quedó precariamente
+sentado en el trono. Enrique VII enfrentó revueltas abiertas en el campo; Enrique VIII
+sintió los desmoronamientos de la rebelión; Incluso la buena Reina Besa, Isabel I, se enfrentó
+la oposición de los señores del norte.
+
+Para legitimar su gobierno, los Tudor afirmaron que eran los herederos legítimos de
+los Plantagenet; Enrique Tudor estaba relacionado con Enrique VI. Ciertamente, fueron los
+últimos campeones de la causa de Lancaster, habiendo caído todos los demás. Además, Enrique
+se había casado con Isabel de York, uniendo simbólicamente a las dos facciones en guerra. en
+De esta manera, la culminación de las guerras podría retratarse como el momento legítimo.
+victoria de Lancaster sobre los usurpadores de York, junto con la reconciliación de
+los perdedores mediante un acto de unión dinástica.
+
+Es típico de la Guerra de las Rosas que esta simple explicación haya pasado
+en la creencia popular. Gran parte de lo que sabemos ha quedado oscurecido tras simples
+símbolos, sin mucha base de hecho.
+
+Los propios emblemas, por ejemplo. La Guerra de las Rosas Blancas y Rojas no fue una
+alegoría entendida en la época. De hecho, los símbolos mismos rara vez eran
+usado: Eduardo IV es mejor conocido por su símbolo del Sol en Esplendor, mientras que
+Ricardo II luchó bajo el mando del Jabalí Blanco.
+
+Es igualmente confuso para el lector moderno -o jugador de juegos- descubrir
+Los habitantes de Lancaster poseían grandes propiedades en Yorkshire, mientras que los Yorkistas eran
+¡Más fuerte en las Midlands! De hecho, la historia es una mezcla confusa de nombres.
+(¡hay demasiados Príncipe Eduardo!), títulos, lugares y fechas,
+en un contexto siempre cambiante de traición y argucias políticas. y
+apenas la mitad de lo que lees es factual...
+
+Desde los tiempos de Shakespeare, las Guerras de las Rosas han estado confundidas por la
+propaganda de partidarios partidistas del Blanco o del Rojo, o por aquellos que ven
+todo el asunto como una disputa dinástica menor. Las guerras no fueron el baño de sangre.
+Shakespeare lo describió, pero la casa real de Plantagenet fue aniquilada y
+otras dinastías nobles al lado. Sin embargo, la investigación moderna ha demostrado que la era
+No fue mejor ni peor que los que vinieron antes y después para el final de
+las líneas dinásticas.
+
+Pero es demasiado fácil trivializar las guerras. Como todos los conflictos civiles, fueron
+ferozmente contestado. Aunque las batallas eran a menudo pequeñas y muchas victorias
+debido más a la traición o al accidente que a la fuerza de las armas, se derramó sangre
+libremente, aunque un comentarista extranjero comentó que los ingleses lucharon muy
+guerras curiosas:
+
+  "...una vez que han ganado una batalla, no matan más, especialmente a
+gente común..."
+
+Varias victorias estuvieron marcadas por la decapitación de líderes capturados. esto es
+porque las guerras fueron principalmente una lucha entre facciones opuestas, sin
+grandes ideales en juego. Aunque los yorkistas reclamaron una causa constitucional para
+Tras su revuelta, ambos bandos quedaron separados del mismo patrón político.
+
+La lucha también se caracterizó por la forma en que se libraron muchas luchas locales.
+bajo la bandera de la Guerra Civil. En el extremo norte, los Neville y los
+Los Percies habían sido acérrimos rivales durante siglos. En el suroeste de Inglaterra, una disputa entre los
+Courtenay Earls of Devon y la advenediza familia Bonville atrajeron a los principales
+jugadores en las Guerras, que se pusieron del lado de sus seguidores en una disputa local sobre
+terreno y título.
+
+Para aquellos lo suficientemente audaces, la Guerra de las Rosas brindó oportunidades para
+avance y poder a medida que las familias nobles establecidas caían en el camino y
+Los rivales locales fueron asesinados. La historia se resume en la historia de Richard.
+Neville, el conde de Warwick, el hombre inmortalizado como el Hacedor de Reyes. Warwick
+usó su poder, el patrocinio al mando de su rica familia y el
+tiempos desesperados para promover los intereses de Neville, incluso mientras él se esforzaba por poner
+Eduardo IV en el trono. Luego, habiendo logrado todo esto -en el punto culminante de
+su carrera: él y Edward se separaron, y Kingmaker fue a la guerra
+contra su rey, para morir en el campo de batalla de Barnet.
+
+Barones poderosos ya habían actuado contra la corona antes, cuando conspiraron
+contra el rey Juan fueron llamados héroes. Pero las conspiacies de Warwick,
+Somerset, de la Pole y Stanley marcan el principio del fin del feudalismo.
+baronías, que habían tratado a los reyes como marionetas.
+
+En Kingmaker, el espíritu caótico de la época se captura perfectamente en un juego de
+intriga, política entre facciones y guerras sangrientas. ¿Puedes colocar a tu candidato?
+sobre el trono? ¿O terminarás, como muchos, doblegado bajo el mando del jefe?
+hacha...
+
+*******************************************************************************
+
+CÓMO JUGAR
+-----------
+
+Este manual proporciona toda la información que necesitas para jugar a Kingmaker. es
+escrito asumiendo que estás jugando con un mouse, en VGA, en una PC compatible con IBM,
+con el juego almacenado en tu disco duro. Para diferentes formatos consultar el
+Tarjeta de referencia.
+
+ANTES DE COMENZAR
+----------------
+
+Comprueba que la caja de tu juego contenga los siguientes elementos:
+   
+   3 discos
+   manuales
+   Tarjeta de referencia
+
+Puede instalar Kingmaker en su disco duro. [Por favor siga las instrucciones
+en la Tarjeta de Referencia].
+
+SONIDO
+-----
+
+Seleccione las opciones de sonido apropiadas para su máquina. La música seguirá
+AdLib/SoundBlaster o Roland; los efectos se ejecutan en SoundBlaster o Roland; digitalizado
+la voz sólo está disponible en SoundBlaster.
+
+PARA EMPEZAR
+---------------
+
+Este manual contiene todas las instrucciones que necesitas para jugar a Kingmaker. [El
+Los conceptos básicos también se resumen en la tarjeta de referencia.] Todos los aspectos más importantes del juego.
+Se puede acceder a las funciones con el ratón, aunque es necesario utilizar el
+teclado también.
+También hay una función de ayuda en línea para usar durante el juego.
+
+Desde Start-Up, se le guiará a través de una breve introducción, dirigida por William
+Shakespeare. Puedes presionar cualquier tecla para escapar.
+
+MENÚ DE JUEGO NUEVO/GUARDADO
+---------------------
+
+Ahora se le presenta este menú.
+    
+    Nuevo juego
+    Juego guardado
+    Seleccione Juego guardado para restaurar un juego previamente guardado en el disco.
+    Selecciona Nuevo juego para empezar de nuevo.
+
+NÚMERO DE FACCIONES
+------------------
+
+Al seleccionar Nuevo juego aparece un segundo menú, que le pide que seleccione el número
+de facciones a las que te enfrentarás en el juego.
+    
+    1 facción (fácil)
+    2 facciones
+    3 facciones
+    4 facciones
+    5 facciones (difícil)
+
+Cuantas más facciones controle la computadora, más difícil se vuelve el juego, aunque
+Las facciones controladas por computadora competirán entre sí tal como
+ferozmente mientras compiten contra ti. El Cuadro de Honor premia la victoria
+contra un gran número de facciones con mayor gloria.
+
+NIVEL DE DIFICULTAD
+----------------
+
+Un tercer menú le pide que establezca uno de dos niveles de dificultad.
+    
+    Asignar ciego (difícil: te mueves primero)
+    Después de Computadora (fácil: ves dónde ha colocado sus fuerzas ante ti).
+    coloca el tuyo)
+
+Allocate Blind te obliga a colocar a tus Nobles en el mapa ignorando el
+acciones de las Facciones controladas por computadora.
+
+Si seleccionas Después de la computadora, verás aparecer las facciones controladas por la computadora.
+en el mapa antes de tomar su propia decisión. Esto le permite ver cuál
+Los herederos reales corren mayor riesgo de ser capturados por tus oponentes, y donde el enemigo
+es más fuerte.
+
+OPCIONES AVANZADAS
+----------------
+
+A continuación se le pedirá que establezca o rechace dos opciones de Juego avanzado: Avanzado
+Clima y plaga avanzada, y el nivel de Autoayuda. El juego avanzado
+Las opciones afectan la forma en que se juega el juego, aunque ninguna aumenta la dificultad.
+Utilice los botones para activar o desactivar estas opciones.
+
+El clima avanzado se verifica al comienzo del turno del jugador. la computadora
+determina si se trata de un turno de buen tiempo o de mal tiempo. en feria
+Clima, el juego se desarrolla con normalidad. En caso de mal tiempo, las siguientes restricciones
+aplicar:
+    
+    1) Los ejércitos mueven sólo 3 áreas por turno.
+    2) No son posibles combates ni asedios.
+    3) Las tormentas en el mar ocurren con mayor frecuencia y pueden hundir barcos.
+
+Con Adavanced Plague, la infección puede estallar en cualquier lugar, no solo en las ciudades.
+La peste se propaga a lo largo de carreteras, puertos y pueblos y ciudades. La muerte es
+Ya no es automático, pero cualquier persona atrapada en un área plagada tiene un 25% de probabilidad de
+siendo asesinado.
+    Seleccione Activado / Desactivado para cada opción
+
+AYUDA AUTOMÁTICA 
+--------
+
+Kingmaker cuenta con un servicio de ayuda en línea. Antes de que comience el juego, debes
+seleccione entre los siguientes:
+
+    Autoayuda completa
+    Autoayuda de primer uso
+    Deshabilitar la ayuda automática
+
+Full Autohelp proporciona consejos y ayuda automáticos repetidos en todas las facetas del
+juego mientras lo juegas.
+
+Autohelp de primer uso proporciona el mismo nivel de ayuda, pero cada unidad del
+El tutorial se muestra sólo una vez.
+
+Desactivar Autoayuda elimina esta función. Todavía sale del sistema Chronicle.
+disponible, en caso de que necesites un poco de información específica más adelante.
+
+Al hacer clic en el botón se pasa por estas tres opciones. El menú de Autoayuda
+Se puede acceder durante el juego a través del ícono de Utilidades del juego.
+
+Una vez completada la configuración de tus juegos, haz clic en el botón Salir. Hacedor de reyes ahora
+completa la carga.
+
+SEGURIDAD DE COPIA
+-------------
+
+En intervalos seleccionados durante el juego, es posible que se te solicite que pases una prueba de seguridad de copia.
+Compruébalo. Su computadora muestra una imagen de una ciudad, pueblo o castillo que aparece en
+el juego, junto con una variedad de números de página. Todos los Pueblos y Castillos
+destacados de esta manera se enumeran, con sus imágenes, en este manual. Encuentra el
+corrija Ciudad/Castillo e ingrese su nombre cuando se le solicite.
+
+OBJETO DEL JUEGO
+------------------
+
+En Kingmaker, controlas una facción de nobles hambrientos de poder y sus
+partidarios. Tu objetivo es controlar al último heredero real del juego y
+para coronarlo Rey de Inglaterra (o Reina, en el caso de Margarita de Anjou). En
+En otras palabras, no estás tratando de convertirte en Rey, sino de ser el poder
+detrás del trono, el máximo titiritero.
+
+Para lograr esto, debes:
+ 
+   (i) capturar y controlar a un Heredero Real;
+   (ii) eliminar a todos sus rivales; y 
+   (iii) hacer que su Heredero sea coronado Rey en un Pueblo o Ciudad Catedral por un
+         Arzobispo o dos Obispos.
+
+Además de los miembros Nobles de tu Facción, puedes controlar Activos, tales como
+como Despachos de la Corona, Mercenarios y Buques. Otros nobles y activos son
+obtenidos durante el juego y que puedes poner en juego de inmediato o mantener
+escondido, listo para ser producido en un momento vital.
+
+Por supuesto, mientras tanto las facciones opuestas (controladas por computadora) están
+intentando hacer lo mismo...
+
+CUADRO DE HONOR
+--------------
+
+Kingmaker incluye un Cuadro de Honor, que lleva los nombres y rangos de aquellos
+jugadores que mejor han cumplido su destino. Puede ingresar su nombre en el
+Cuadro de Honor si completas con éxito el juego.
+
+LOS HEREDEROS REALES
+---------------
+
+Debido a que los Herederos Reales son la clave del éxito o del fracaso en el juego, es
+Es importante que comprenda cómo funcionan antes de implementar sus activos en el
+comienzo del juego. La rápida captura de un heredero real puede generar grandes dividendos
+a medida que se desarrolla el juego.
+
+LAS CASAS REALES
+----------------
+
+Hay nueve herederos potenciales al trono de Inglaterra. Estos son:
+
+    CASA DE LANCASTER CASA DE YORK
+
+    Enrique VI Ricardo, duque de York
+    Margarita de Anjou Eduardo, conde de marzo
+    Eduardo, Príncipe de Gales Edmund, Conde de Rutland
+    Beaufort, duque de Somerset Jorge, duque de Clarence
+                                             Ricardo, duque de Gloucester
+
+CAPTURAR HEREDEROS REALES
+---------------------
+
+Los Herederos Reales son capturados cuando los Nobles de una Facción ocupan la misma área en el
+mapa. Si el Heredero está acompañado por los Nobles de otra Facción, el enemigo debe ser
+derrotado en Batalla antes de que el Heredero pueda ser capturado. Ver el capítulo sobre Combate
+para descubrir cómo funciona esto.
+
+Si el Heredero Real ocupa una Ciudad, Pueblo o Castillo, ese lugar puede tener que ser
+capturado por asedio. Esto se trata con más detalle en el capítulo sobre Asedios.
+Sin embargo, dado que es posible que tengas que superar un castillo al principio del juego (para
+para capturar a un heredero real), aquí se presenta la idea básica.
+
+La fuerza total de las tropas de los nobles que intentan capturar al Heredero Real debe
+ser igual o mayor que la guarnición de la Ciudad/Castillo. El ejemplo sobre el
+La siguiente página debería dejar esto claro:
+
+   ( Eduardo, conde de March, está en Harlech, que, como todos los castillos reales, tiene un
+guarnición de 200 hombres. La facción de Percy desea capturarlo. El propio Percy,
+Conde de Northumberland y Condestable del Castillo de Dover, está acompañado por
+Stanley. Percy tiene 100 tropas de su propia casa y 50 hombres en virtud de
+siendo agente de Dover, mientras que la contribución de Stanley son otras 50 tropas.
+Eso le da a Percy una fuerza total de tropas de 200. Puede asediar Harlech y, cuando
+cae - capturará a Edward)
+
+Cada Castillo, Ciudad y Villa Fortificada tiene una guarnición.
+
+LOS HEREDEROS REALES AL INICIO DEL JUEGO
+--------------------------------------
+
+En cada juego, los Royal Heirs comienzan en los mismos lugares. Estas ubicaciones son
+enumerados aquí, junto con su guarnición, cualquier otra tropa que pueda estar allí,
+y el nombre de cualquier Oficina que otorgue la propiedad de ese lugar al Noble
+quien posee la Oficina.
+
+Enrique VI - Londres - La capital está controlada por el Condestable de la Torre,
+¿Quién puede apoderarse de Henry directamente? De lo contrario, Londres deberá ser asediada por una fuerza de
+al menos 300 tropas - más si otra facción tiene tropas en la ciudad (y
+quien controle al Condestable de la Torre tiene al menos 250).
+
+Margarita de Anjou - Coventry - esta ciudad fortificada debe ser asediada por una fuerza
+de al menos 200 soldados, más si otra facción introduce tropas.
+
+Eduardo, Príncipe de Gales - Kenilworth - este Castillo Real debe ser asediado por un
+fuerza de al menos 200 soldados - más si otra Facción tiene tropas en el Castillo.
+
+Beaufort, duque de Somerset: como se mencionó anteriormente, Beaufort es un caso especial,
+y entra al juego como un Noble ordinario.
+
+Richard, Duque de York - York - Esta ciudad está controlada por el Arzobispo de
+York, que puede apoderarse de Richard directamente. De lo contrario, York debe ser asediada por una
+fuerza de al menos 300 soldados - más si otra facción tiene tropas allí (y
+cualquiera que controle al Arzobispo tiene al menos 30).
+
+Edward, Conde de March - Harlech - Este Castillo Real está controlado por el
+Mariscal de Inglaterra, que puede apoderarse de Eduardo directamente. De lo contrario, Harlech debe ser
+asediado por una fuerza de al menos 200 soldados - más si otra facción tiene tropas
+en la ciudad (y quien controle el Marshall tiene al menos 100).
+
+Edmund, Conde de Rutland - Irlanda - la Isla Esmeralda está controlada por el
+Teniente de Irlanda, que puede apoderarse de Edmund directamente. Si ninguna facción controla
+El teniente Edmund puede ser capturado con una fuerza mínima (siempre que tengas una
+barco), ya que no hay ninguna guarnición que proteja al Conde. Sin embargo, si otro
+La facción controla al teniente de Irlanda y lo envía a proteger a Edmund.
+que Noble tiene al menos 250 tropas a su disposición en Irlanda, que deben ser
+derrotado en la batalla antes de que Edmund pueda ser capturado.
+
+George, duque de Clarence - Cardigan - Esta es una ciudad abierta, sin guarnición.
+Quien llegue primero a la ciudad podrá apoderarse de Clarence fácilmente.
+
+Ricardo, Duque de Gloucester - Calais - Esta ciudad está controlada por el Capitán
+de Calais, que puede apoderarse de Edmundo directamente. De lo contrario, Calais deberá verse asediada por
+una fuerza de al menos 200 soldados - más si otra facción tiene tropas en la ciudad
+(y cualquiera que controle al Capitán de Calais tiene al menos 350). Además
+la fuerza sitiadora debe ser transportada en barco. Debido a estos factores,
+Richard a menudo no es capturado durante el juego, pero muere cuando la plaga
+llega a Calais.
+
+ESTRATEGIA INICIAL
+----------------
+
+Planificar la captura sin riesgos de un heredero real es una de las tareas más importantes
+partes de los turnos iniciales del juego. Las disposiciones iniciales de tu facción y
+Los movimientos deben estar orientados principalmente a la captura de al menos un miembro real.
+Heredero. Elegir el adecuado es una cuestión de equilibrar una serie de variables:
+¿Qué tan cerca están los miembros de tu facción del Heredero? ¿Qué tan cerca están las fuerzas?
+de facciones opuestas? ¿Qué tan bien protegido está el Heredero? ¿Hay un Noble en juego?
+¿Quién puede capturar fácilmente al Heredero en virtud de un cargo que desempeña?
+
+Durante tus primeros juegos, la estrategia correcta puede parecer desconcertantemente oscura.
+Hasta que te acostumbres al juego, fíjate un objetivo sencillo y hazlo.
+Pronto te acostumbrarás a las ventajas de determinadas combinaciones. Por ejemplo,
+Neville, conde de Warwick, puede comenzar el juego cerca de Kenilworth, Cardigan o
+York. Tiene 50 tropas automáticamente. Por su cuenta, puede capturar a Clarence en
+Cardigan, a menos que Herbert pueda ganarle allí. Con otras 150 tropas asignadas
+para él, puede capturar a Kenilworth y al Príncipe de Gales. Con 250 adicionales
+Tropas que puede capturar York en el primer Turno, o puede entrar a la Ciudad libremente
+si la Facción controla al Arzobispo. Esta flexibilidad convierte a Warwick en un
+Noble poderoso.  
+
+CONTROLAR A LOS HEREDEROS REALES
+-----------------------
+
+Habiendo capturado a un Heredero Real, una Facción puede comenzar el proceso de eliminación
+sus rivales y tener a su Heredero Coronado Rey. Cada facción puede controlar más
+más de un heredero real, pero no puede controlar a los herederos de ambas casas reales 
+(Lancaster y York) durante más de dos Turnos consecutivos. Después de eso, uno o
+el otro Heredero debe ser ejecutado.
+
+Una Facción puede ejecutar a cualquier Heredero Real que controle en cualquier momento. Te preguntan si
+desea ejecutar a un heredero en el momento en que es capturado.
+A continuación, haga clic en el nombre del heredero en la pantalla del Árbol genealógico y estará
+le preguntará si desea ejecutarlo.
+
+Cuando capturas Herederos Reales, se asignan a uno de los Nobles en el
+Ejército. El títere real cautivo ahora sigue a tu ejército y está bajo tu control.
+hasta que lo capturen o lo maten. La presencia de un heredero real junto a tu ejército.
+aporta un pequeño beneficio a sus habilidades de combate, pero por lo demás es sólo un
+objetivo a seguir por las otras facciones. Asegúrate de proteger a tu Royal
+Heredero(s) con amplias fuerzas, permitiendo incluso los contratiempos más improbables.
+
+CORONACIÓN DE HEREDEROS REALES
+--------------------
+
+Para ganar el juego, debes controlar al último heredero real coronado. Esto implica
+dos facciones. Primero, el último heredero superviviente debe ser coronado rey y,
+En segundo lugar, necesitas ver cómo matan a los otros herederos.
+
+Algunos pueden morir a manos de tus enemigos. Otros pueden caer en tus manos
+a través de la victoria en Batalla o Asedio. Mientras capturas a los herederos reales, debes juzgar
+cuando sea el momento adecuado para ejecutarlas. Ya que te vuelves parcial hacia uno
+de las Casas Reales, algunas decisiones son fáciles. Por otro lado, saber cuándo
+"perder" a un segundo miembro de la misma Casa Real es más complicado.
+
+La segunda tarea que tienes por delante es organizar la coronación de uno de tus miembros reales.
+Aquí. Los herederos reales sólo pueden ser coronados según el orden de sucesión de sus
+Casas. Margarita de Anjou, por ejemplo, sólo podrá ser coronada una vez que Enrique VI sea coronado.
+muerto, y Eduardo, Príncipe de Gales, puede convertirse en rey sólo después de que ella se una a su
+marido en la tumba.
+
+   NOTA: QUE ES MUY POSIBLE QUE SER DOS REYES, UN YORKISTA Y UN
+          LANCASTRIANO
+
+Además de esta regla sobre la antigüedad dentro de cada Cámara, existen otras
+condiciones que deben cumplirse para que se lleve a cabo una Coronación.
+
+(i) El Heredero debe ocupar una Catedral. Varios Pueblos y Ciudades tienen
+Catedrales, desde los poderosos Londres y York, pasando por ciudades menores como Lincoln y
+Exeter, hasta pequeños centros como Salisbury o St Davids.
+
+(ii) El Heredero debe estar acompañado por al menos un Noble de tu Facción.
+
+(iii) El Heredero debe estar acompañado por al menos un Arzobispo o dos Obispos.     
+
+Una vez que controlas a un Rey Coronado, tienes el poder de convocar al Parlamento. esto puede
+te permite dar activos adicionales a los nobles de tu facción. Este poder sólo
+reside en una facción del rey cuando hay un solo rey, si es un rival
+monarca, el canciller tiene el poder.
+
+En el lado negativo, un único Rey Coronado puede ser arrastrado a diferentes partes del
+país para reunirse con embajadas de tierras extranjeras. Esto puede resultar muy incómodo, ya que
+puede alterar tus planes y dividir un ejército seguro en dos más pequeños,
+fuerzas derrotables. El hecho de que Enrique VI empiece la partida como único coronado
+King puede llevar a una situación en la que lo llamen fuera de Londres para ir a un
+ciudad no fortificada, lo que lo hacía fácil de capturar.
+
+FACCIONES
+--------
+
+Antes de que pueda comenzar la sangrienta lucha por la Corona, es necesario saber quién
+quiénes son sus seguidores y qué recursos tiene. Al comienzo del juego
+se le presenta una pantalla que contiene:
+
+1 mapa de toda Gran Bretaña que muestra los lugares asociados con tu facción.
+
+2 El cuadro de construcción de facción, que muestra los nobles de tu facción.
+
+3 controles de construcción de facciones.
+
+El mapa de toda Gran Bretaña muestra toda Inglaterra y Gales, las fronteras escocesas, además
+las costas irlandesa y francesa. Aquí es donde tiene lugar la acción. varios
+Las ciudades, pueblos y castillos se pueden resaltar en diferentes colores. oro
+Las ubicaciones son Castillos que pertenecen a los Nobles de tu Facción. Marca de puntos rojos
+varias ubicaciones conectadas con Activos bajo su control. El blanco y el rosa
+los puntos muestran las ubicaciones de los herederos reales.
+
+En el cuadro Construir facción en la parte superior derecha de la pantalla hay una lista de
+Nobles, algunos con Títulos y otros no. Estos son los miembros iniciales de tu
+Facción. La pantalla muestra su nombre, su título (si corresponde) y el número de
+tropas bajo su mando inmediato en ese momento.
+
+También debe haber un cursor, que puede colocar con el puntero del mouse. a
+desplácese hacia arriba o hacia abajo, haga clic con el botón izquierdo del mouse en uno de los botones en el
+primera fila debajo del cuadro Construir facción. En orden, estos son:
+
+Desplazarse hacia arriba un Noble
+Desplazarse hacia arriba una línea
+Desplazarse hacia abajo una línea
+Desplácese hacia abajo un Noble
+
+También puede colocar el cursor haciendo clic en una de las ubicaciones marcadas en
+rojo u dorado en el mapa. Si Londres, por ejemplo, está marcado en rojo, haz clic en él y
+el cursor se mueve para mostrar la Oficina del Condestable de la Torre, un Activo
+que otorga posesión de la Ciudad a cualquier Noble que reciba el Cargo.
+
+Durante el juego puedes volver a la pantalla Build Faction Box haciendo clic en
+el icono de facción.
+
+LA CONSTRUCCIÓN INICIAL DE LA FACCIÓN
+-------------------------
+
+Tu primera tarea como Kingmaker enloquecido por el poder es asignar los activos que tienes
+dado a estos Nobles. Haga clic en el botón Noble Up varias veces y podrá
+desplácese hacia arriba en la lista de sus Activos.
+
+Cada Facción comienza con una variedad aleatoria de fuerzas. Dependiendo del número
+de facciones controladas por computadora que elijas durante la secuencia de inicio,
+tenga entre 6 y 18 nobles y otros activos disponibles. Algunos, como el independiente
+ciudades, no aparecen en la lista, pero están en su poder en la página principal
+mapa.
+
+Número de facciones
+(inc. jugadores) Activos
+
+      2 18
+      3 12
+      4 9
+      5 7
+      6 6
+
+Hay 9 elementos diferentes a partir de los cuales se construirá tu Facción. estos
+son:
+
+Nobles titulados
+Nobles sin título
+Títulos (que puedes otorgar a los Nobles sin título; convirtiéndolos efectivamente en Titulados
+Nobles.)
+Cargos (que puedes otorgar a un noble titulado).
+Arzobispos y obispos
+Mercenarios
+Barcos
+Ciudades y Pueblos Independientes
+
+Cada activo se enumera por su nombre y varios tienen un valor numérico. 
+adjunto: estas son las Tropas que ese Activo de forma automática y permanente
+otorga a la facción. Otros beneficios también pueden provenir de poseer ese
+Activo.
+
+Los Pueblos Independientes no se muestran en el Cuadro de Facción. En cambio, tus facciones marcan
+se coloca encima de esa ciudad en el mapa principal.
+
+Puedes obtener más información sobre cualquier Noble o Activo colocando el puntero del mouse
+sobre su icono (el puntero cambia de forma a un signo de interrogación a medida que lo hace).
+Haga clic en el botón izquierdo del mouse. Ya puedes leer la información de la Crónica sobre
+ese artículo.
+
+Una vez que esté satisfecho de comprender la fortaleza de los Activos en su
+Facción, debes asignarlos a tus Nobles. Un Noble sólo puede tener uno
+Título, y sólo los Nobles Titulados pueden tener Cargos. Aparte de eso, puedes
+combina estas fuerzas como desees.
+
+Seleccione un Noble haciendo clic en su nombre con el puntero del mouse; él se convierte
+resaltado, y los castillos que posee parpadean.
+
+Ahora puedes asignar tus recursos para capturar a los herederos reales y frustrar el
+enemigo. Ninguna estrategia en Kingmaker funciona mejor que todas las demás, por lo que
+debería agrupar sus recursos en pos de una serie de objetivos clave: la rápida
+captura de herederos reales, supremacía regional y seguridad.
+
+LOCALIZACIÓN DE HEREDEROS REALES
+--------------------
+
+El mapa principal muestra las ubicaciones iniciales de los herederos reales: puntos blancos para
+los yorkistas, puntos rosas para los lancasterianos. Verás al Yorkist Rutland
+en Irlanda y dos habitantes de Lancaster en las Midlands: el príncipe Eduardo y Margarita.
+de Anjou.
+
+Como se discutió anteriormente, si uno de tus Nobles comienza el juego cerca de un Royal
+Heredero, es posible que desees asegurarte de que tenga la fuerza suficiente para capturar al Heredero en
+el comienzo del juego. Para Clarence, sólo 10 hombres pueden hacerlo; para el principe
+Edward, necesitas 200 para superar la guarnición de Kenilworth. Puedes `recorrer`
+estas ubicaciones usando el botón Revisar.
+
+ASIGNACIÓN DE ACTIVOS
+-----------------
+
+Habiendo seleccionado un Noble, desplázate por la lista de Activos de tu Facción (o
+seleccione ubicaciones rojas en el mapa que estén cerca de los castillos de su Noble). Haga clic
+sobre un Activo; está resaltado y cualquier lugar en el mapa asociado con ese
+El activo comienza a parpadear. Puede seleccionar más Activos de la misma manera. cuando
+Si ha seleccionado los Activos que desea asignar a ese Noble, haga clic en el
+Botón combinar.
+
+La lista se reconfigura automáticamente para que los Activos que haya asignado a un
+Los nobles aparecen directamente bajo su nombre.
+
+Haz lo mismo con otros Nobles de tu Facción. Si cometes un error o estás
+Si no estás satisfecho con la forma en que están asignadas tus fuerzas, puedes hacer clic en un Noble y el
+Botón Dispersar para romper esa agrupación.
+
+El objetivo es asignar todos tus activos a los nobles de tu facción.
+Sin embargo, es posible que no puedas asignar todas las fuerzas a tu disposición. Para
+Por ejemplo, es posible que te quede un cargo y no tengas nobles titulados a quienes dárselo.
+Esto es lamentable y no hay nada que puedas hacer al respecto. Tu activo es
+colocado en la Cancillería cuando termines de construir tu facción. En todos los demás casos,
+escucharás una advertencia si intentas abandonar la fase de construcción de facción sin haber
+Asignaste todas tus fuerzas.
+
+LAS FACCIONES ENEMIGAS
+------------------
+
+Si seleccionaste Asignar ciegas como opción previa al juego, debes colocar tus fuerzas
+ignorando el paradero del enemigo. Tu primera oportunidad de ver lo que
+La oposición a la que te enfrentes vendrá durante el primer Turno. 
+
+Si seleccionó Después de la computadora, habrá visto el lugar de las otras facciones.
+sus fuerzas antes de comenzar. Esto debería afectar sus elecciones. Si parece como
+Aunque una facción enemiga tiene los medios para capturar a un heredero real antes que tú, entonces
+deberías cambiar tus planes. También es posible que desees evitar iniciar un Noble en
+una parte del país plagada de tropas enemigas. 
+
+REVISAR LAS FACCIONES DEL ENEMIGO
+------------------------
+
+Puedes revisar las disposiciones de las Facciones controladas por computadora presionando
+el ícono Revisar. Esta función solo está disponible si elige implementarla después
+la computadora.
+
+Selecciona para ver una de las facciones enemigas o los Herederos Reales. te dan un
+`Visita guiada` de cada facción que selecciones, trabajando a través de los Nobles
+uno por uno.
+
+Utilice Revisión para tomar nota de dónde están los nobles enemigos y cuáles son sus puntos fuertes.
+son. ¿Después de qué herederos reales es probable que se muden? ¿Existe una opción para
+¿Tu facción se abalanza sobre un Noble aislado?
+
+Haz clic en el botón derecho del ratón para volver a la vista Construir facción.
+
+LUGARES DE INICIO
+------------------
+
+Cuando hayas terminado de asignar tus fuerzas, haz clic en el botón Continuar.
+Seleccione una ubicación inicial para cada Noble por turno: sus Castillos Natales son los
+"puntos" [dorados] intermitentes (otras ubicaciones asociadas con ellos a través de Oficinas,
+etc. se muestran en [blanco]). Haga clic con el puntero del mouse para seleccionar un castillo.
+
+ELEVANDO LOS ESTÁNDARES
+---------------------
+
+Después de hacer clic en el ícono Continuar, tu facción eleva sus estándares,
+proclamando su candidatura al poder. Es 1453 y Margarita de Anjou acaba de
+produjo un heredero para Enrique VI. Los yorkistas ven su oportunidad de hacerse con el trono
+deslizándose. Los tiempos están fuera de lugar; dejar escapar a los perros de la guerra...
+
+Las otras facciones, tus oponentes en la carrera por el poder, elevan sus estándares.
+igualmente. Dependiendo de la opción seleccionada al inicio, muestran sus
+mano antes o después de haber desplegado sus fuerzas.
+
+OBSERVANDO AL ENEMIGO
+-------------------
+
+Puedes vigilar a las otras facciones usando el mapa completo y la Revisión
+opción.
+
+Haga clic en la flecha en la esquina inferior izquierda del pequeño mapa en el
+Cuadro de información (haga clic en el RMB para hacerlo visible). Esto trae a colación el principal
+mapa que muestra la ubicación de las fuerzas enemigas y los herederos reales no reclamados.
+
+También puede hacer clic en el icono Revisar en el panel principal. Esto funciona exactamente como
+de la misma manera que Revisar en la pantalla Construir facción.
+
+EL ÁRBOL GENEALÓGICO
+---------------
+
+También puedes obtener información sobre los herederos reales a través del árbol genealógico.
+icono.
+
+Aquí se enumeran los herederos reales, por casa, en su orden de precedencia. donde un
+El heredero real ha sido asesinado, sus nombres están "tachados". donde un heredero real
+ha sido capturado por una Facción, esto se indica con una barra del color de
+esa Facción bajo el nombre del Heredero. Si un Heredero Real ha sido coronado Rey, este
+está indicado por una corona al lado de su nombre.
+
+CONOCE A TU ENEMIGO
+---------------
+
+Dependiendo de la opción que seleccionaste al comienzo del juego, tu Facción
+se oponen entre 1 y 5 facciones más, igualmente decididas a apoderarse de territorios indiscutidos.
+poder.
+
+IDENTIFICAR FACCIONES
+--------------------
+
+ A lo largo del juego, los recursos de cada Facción están marcados con un solo color.
+La facción del jugador siempre es verde. Cada color de Facciones se utiliza para significar:
+
+i) La Facción a la que pertenece un Noble; el color de fondo detrás de su
+escudos es el mismo que el de su facción.
+ii) Ciudades, Pueblos y Castillos controlados por esa Facción, que están marcados por un
+bandera del color apropiado en el mapa.
+iii) Herederos Reales capturados por esa Facción (en el Árbol Genealógico).
+
+Además, el Noble de mayor rango de la Facción da su nombre a la Facción.
+en su conjunto, los mensajes hablarán de "La facción de Percy" o "La facción de Mowbray".
+
+FACCIONES CONTROLADAS POR COMPUTADORA
+----------------------------
+
+Las facciones controladas por computadora tienen el mismo objetivo que tú. Intentan controlar uno
+Heredero Real, y eliminar a los demás. Para ello necesitan derrotar al enemigo.
+Facciones.
+
+Cada Noble en una Facción controlada por computadora está clasificado por su Agresividad,
+Misericordia y Ambición. Mientras juegas, apreciarás cómo los Nobles se muestran diferentes.
+grados de cada atributo. Si lees la información histórica en
+En la segunda mitad de este manual, podrás descubrir por ti mismo quiénes son los
+Sedientos de sangre, ego-maníacos...
+
+La agresión mide hasta qué punto el Noble está dispuesto a correr riesgos en
+buscando batalla. Los nobles agresivos libran más batallas cuando las probabilidades son menores.
+fuertemente a su favor. También asumen mayores riesgos personales en
+combate.
+
+La misericordia mide hasta qué punto el Noble está dispuesto a moderar su Ambición.
+y Agresión con una actitud mesurada y menos sanguinaria hacia sus
+oponentes. Esto afecta particularmente a cómo el Noble trata a los prisioneros.
+
+La ambición dicta la facilidad con la que el Noble de mayor rango en una Facción busca y utiliza el
+instrumentos de Estado - Corinations y Parliment - en la consecución de su objetivo.
+
+La computadora verifica los atributos de los líderes de facción o comandantes locales.
+siempre que esté decidiendo cómo se comportarán los controles de las facciones.
+
+¿QUÉ ESTÁN HACIENDO?
+---------------------
+
+Como se indicó anteriormente, podrá Revisar el paradero de todos o algunos de los
+Nobles en diferentes facciones enemigas haciendo clic en el ícono Revisar de la Construcción
+Visualización de facciones.
+
+RIVALIDAD DE FACCIÓN
+---------------
+
+Las facciones controladas por computadora tienen sus prioridades programadas (que no son
+tan diferente al del jugador). Sin embargo, durante el juego, estos se vuelven
+desequilibrado por la rivalidad específica entre facciones.
+
+Cada Facción controlada por computadora registra las heridas que le causan otras
+Facciones (incluida la del jugador). Cada batalla librada aumenta la rivalidad.
+entre sus participantes. La ejecución de un Noble puede aumentarlo aún más.
+
+Estas rivalidades se vuelven más agudas e intensas a medida que avanza el juego. el
+Las facciones controladas por computadora buscan facciones enemigas con las que tienen la
+rivalidad más intensa, buscando venganza...
+
+LA SECUENCIA DE JUEGO
+--------------------
+
+El juego continúa por turnos, hasta que una facción logre las condiciones de victoria.
+es decir, el control del único heredero real restante, coronado Rey de Inglaterra.
+
+En cada turno, cada facción pasa por hasta seis fases, a saber:
+
+Fase de Eventos: los caprichos del azar.
+
+Fase de movimiento: tu oportunidad de mover todas o algunas de tus fuerzas.
+
+Fase de combate: todas las batallas y asedios se resuelven.
+
+Fase de Parlamento: el Rey (si solo hay uno) o el Canciller pueden convocar
+                  Parlamento.
+
+Fase de coronación: el primer heredero real en orden de sucesión de cualquiera de los dos
+                   la casa real puede ser coronada.
+
+Fase de refuerzo: cada facción recibe fuerzas adicionales, que pueden ser
+                      asignados inmediatamente o mantenidos ocultos.
+
+ORDEN DE JUEGO
+-------------
+
+La facción que controla la Oficina del Canciller de Inglaterra mueve primero,
+seguido por los demás en rotación. Si la Cancillería no estuviera en
+En el juego, el clérigo de mayor rango de la siguiente lista determina qué facción
+comienza primero.
+
+Arzobispo de Canterbury
+arzobispo de york
+Obispo de Durham
+Obispo de Carlisle
+obispo de lincoln
+obispo de norwich
+
+Si esto no decide el asunto, la facción con el mayor número de
+las tropas permanentes se mueven primero.
+
+EVENTOS
+------
+
+Plagas, emisarios de tierras extranjeras, tempestades en el mar, incursiones, revueltas...
+El mundo turbulento gira mientras tú y tus rivales pelean por el trono.
+
+Durante esta fase del turno de cada facción, se te mantiene informado de los acontecimientos en
+el Reino a través de la ventana de información en la parte superior derecha de la pantalla.
+
+Los acontecimientos pueden crear oportunidades o privar a una estrategia bien planificada de un elemento vital.
+componente. Míralos con atención. Es posible que no haya ningún evento durante
+un giro de facciones. Algunos eventos que afectan a una facción enemiga se mantienen en secreto.
+usted.
+
+Los diferentes tipos de eventos se enumeran aquí, junto con sus efectos.
+
+PLAGAS
+-------
+
+La peste ataca a una o más ciudades y pueblos. Cualquier noble en ese pueblo es
+asesinado inmediatamente. La plaga no afecta a los alrededores,
+aunque afectará a cualquier puerto adscrito a la localidad.
+
+Antes del juego, puedes activar las Reglas de plaga opcionales. Bajo estos
+Según las reglas, la peste puede estallar en un puerto en cualquier momento. Una vez que lo hace, se propaga
+ampliamente, zona por zona. Se mueve más rápido a lo largo de la costa, de puerto a puerto, y hacia
+áreas que contienen ejércitos.
+
+Cualquier noble, heredero real, Arzobispo u Obispo que pase cualquier parte de un turno en un
+área afectada por la peste bajo Reglas Opcionales puede contraer la enfermedad y ser
+asesinado. Además, los mercenarios pueden desertar si sus líderes insisten en aprobar
+a través de regiones infestadas de peste.
+
+TORMENTAS EN EL MAR
+-------------
+
+Las tormentas empujan a todos los barcos en el mar hacia el puerto más cercano a la vez (obviamente, si un
+barco ya está en puerto, no hay ningún efecto), uno amistoso si es posible, un
+uno neutral como segunda opción. Un buque obligado a entrar en un puerto neutral u hostil puede
+tener dificultades para volver a salir...
+
+Redadas, revueltas y piratería
+-------------------------
+
+Debido a los disturbios en diferentes partes del reino, los nobles pueden verse obligados a
+abandonar los ejércitos con los que marchan para hacer frente a la amenaza. Los nobles pueden ser
+convocados por razón de su título, o por cargo u obispo que ocupen.
+Todas las fuerzas asociadas con el noble convocado se mueven con él. Otros nobles en
+el mismo ejército no se mueve. [La única opción que tiene una facción se refiere a la realeza.
+herederos: si un heredero está presente en un ejército dividido mediante convocatoria de este tipo,
+la facción elige con quién permanece el heredero real.]
+
+El noble se traslada al lugar indicado en la convocatoria. Si la ubicación no es
+Ya no es amigable, el noble permanece afuera.
+
+Si un noble es convocado a dos lugares separados en virtud (por ejemplo) de su
+título y su oficina, se dirige al primer lugar nombrado por el evento.
+
+Los nobles en castillos asediados, en el mar, en una isla o en Calais no pueden responder.
+incluso si tienen un barco cerca.
+
+EMBAJADA
+-------
+
+La noticia de la llegada de una embajada hace que el Rey se desplace inmediatamente al lugar
+donde se realizará la reunión. Las embajadas no llegan cuando no hay
+Rey, o cuando sean dos. Cualquier noble que acompañe al Rey cuando la embajada
+se anuncia deberá trasladarse al lugar de encuentro con él.
+
+Si el Rey está asediado en una villa o castillo, o si está en el mar, en una isla
+o en Calais, no puede responder aunque tenga un barco cerca.
+
+CABALLOS FRESCOS
+------------
+
+Las facciones pueden recibir caballos frescos. Estos están registrados en el icono de la página principal.
+panel de control.
+
+Los caballos frescos permiten que un solo noble, heredero real u obispo se mueva dos veces en un
+una sola vuelta. Para mover más de un noble en una pila, se necesita un par de caballos frescos.
+requerido para cada noble. Para utilizar caballos frescos, inspecciona un ejército. Si tu facción
+tiene suficientes caballos frescos, se le ofrecerá la opción de usarlos y moverse
+4 áreas adicionales.
+
+CONVOCATORIA PARLAMENTARIA
+--------------------
+
+Una facción que incluya al Canciller puede recibir una orden judicial parlamentaria.
+Citación. La facción conserva esta convocatoria y puede jugarla en un momento apropiado.
+Es hora de convocar una sesión del Parlamento. Ver "Parlamentos"
+
+Si una facción pierde el control del Canciller, todas las convocatorias que tenga son
+descartado.
+
+Las facciones también pueden recibir órdenes de asistencia. Su uso también se describe en
+el capítulo sobre "Parlamentos".
+
+LOS MERCENARIOS SE VUELVEN A CASA
+-------------------
+
+Finalmente, los mercenarios extranjeros de una facción pueden ser llamados hogar. Esto afecta a todos
+mercenarios, excepto los escoceses e irlandeses.
+
+CONTROLAR LA ACCIÓN
+----------------------
+
+Durante la fase de movimiento del turno del jugador, tienes la opción de inspeccionar
+áreas en detalle y mover algunas o todas tus fuerzas. durante la computadora
+Las facciones giran, verás cómo sus fuerzas se mueven.
+
+EL MAPA DEL ÁREA
+------------
+
+Jugar ahora cambia a la visualización del mapa del área.
+
+CONTROLES DEL JUEGO
+-------------
+
+A la derecha de la pantalla, hay un cuadro de información y lo siguiente
+iconos.
+
+1 clave de construcción de facción
+
+Esto te regresa al Cuadro de Facción, donde puedes hacer cambios en tu
+alineación de facciones. También puede utilizar la función Revisar para observar dónde están otros
+las facciones tienen sus ejércitos y dónde están los herederos reales.
+
+2 árbol genealógico
+
+Puede obtener información sobre los herederos reales a través del ícono del Árbol genealógico.
+
+Aquí se enumeran los herederos reales, por casa, en su orden de precedencia. donde un
+Si el heredero real ha sido asesinado, el nombre de ese personaje será "tachado". donde
+un heredero real ha sido capturado por una facción, esto se indica mediante una barra en el 
+color de esa facción. Si un heredero real ha sido coronado Rey, esto es
+indicado por la corona al lado de su nombre.
+
+3 apoyo secreto
+
+Durante la Fase de Refuerzo del juego, a las facciones se les puede unir
+nobles adicionales. Estos pueden ponerse en juego a través del Soporte Secreto.
+botón. Ver el Capítulo sobre Refuerzo.
+
+4 Clave de crónica
+
+Utilice los menús para descubrir información detallada sobre varias partes del juego.
+Haga clic en el artículo que desea leer.
+
+5 revisión
+
+Esto te permite descubrir el paradero de los herederos reales y los nobles enemigos.
+
+6 ¿Dónde está...?
+
+Utilízalo para localizar nobles, herederos reales, obispos, ciudades o cualquier otro elemento.
+
+7 opciones para guardar el juego
+
+Puede almacenar hasta ocho juegos guardados en su disco duro. Haga clic en una línea para
+resáltelo, escriba un nombre único y presione regresar. Haz clic en Guardar el juego para
+volver a jugar.
+
+También puedes restaurar una partida guardada desde aquí.
+
+8 opciones de juego
+
+Desde aquí podrás reiniciar el juego (volver a la opción Nuevo Juego). dejar de fumar,
+activar o desactivar el sonido y modificar la configuración de ayuda automática (haga clic en el botón para
+recorrer las opciones).
+
+9 caballos frescos
+
+Esto registra cuántos caballos frescos tiene tu facción. Ver Movimiento por el camino
+utilizar caballos frescos en el juego.
+
+LA FASE DE MOVIMIENTO
+------------------
+
+Al comienzo de tu turno, el mapa del área centra a uno de tus nobles. Su
+El escudo parpadea para mostrar que está esperando órdenes.
+
+Los nobles están representados en el mapa de la zona por sus escudos heráldicos. Si dos o
+Más nobles se agrupan en un ejército, solo se muestra el de mayor rango.
+
+INSPECCIONAR
+-------
+
+Se puede obtener información básica sobre la mayoría de los elementos haciendo clic en ellos con
+el RMB. Los detalles aparecen en el cuadro de información.
+
+Puedes ver diferentes partes de Gran Bretaña usando el mapa a gran escala en la parte superior.
+ventana derecha. Haga clic en el puntero en cualquier parte de este mapa y en el mapa del área principal.
+se centra en el área seleccionada. Haga clic en el botón en la esquina inferior izquierda para
+muestra el mapa completo de Gran Bretaña. Si hace clic en ese mapa, la pantalla vuelve
+a la vista detallada.
+
+NOBLES / EJÉRCITOS
+---------------
+
+Haga clic en el RMB en el escudo de un noble y el cuadro de información mostrará los nombres.
+del noble que dirige el ejército, cualquier noble menor o heredero real con él y
+este resumen:
+
+Fuerza de la tropa
+B = Arzobispos / Obispos
+R = herederos reales
+S = Barcos (controlados por un miembro de ese ejército)
+
+Si el Noble ocupa una Ciudad, Pueblo Fortificado o Castillo, la fuerza de sus tropas es
+fortalecido por su guarnición. Esto se muestra con un signo "+" después de la tropa.
+número de fuerza. Las guarniciones se analizan en la sección Asedios.
+
+CASTILLOS CIUDADES Y PUEBLOS
+------------------------
+
+Cuando inspeccionas un castillo, pueblo o ciudad, se te muestra una ilustración, la
+nombre del lugar y tres datos:
+
+C = Capacidad: el número máximo de tropas que la ubicación puede albergar (excluyendo
+su propia guarnición);
+
+G = Guarnición: la cantidad de tropas que la ubicación agrega a un ejército defensor;
+
+S = el total actual de tropas presentes.
+
+BARCOS
+-----
+
+Cuando inspeccionas un barco, se te muestra su nombre, los pasajeros a bordo y
+ya sea en el mar o en el puerto.
+
+MOVIMIENTO
+--------
+
+Durante la fase de movimiento de tu turno podrás mover cada uno de tus nobles y barcos.
+junto con todas las fuerzas apiladas con ellos.
+
+Cada noble puede comandar un ejército formado por los activos que controla directamente,
+más cualquier noble menor puesto bajo su mando (ver Combinar/Dividir
+Ejércitos) junto con los herederos reales capturados.
+
+Cuando mueves un ejército o un barco, su marcador se mueve por el mapa, área por área.
+El mapa se vuelve a centrar automáticamente si una unidad se acerca al borde del
+mapa visible.
+
+Cada uno de tus ejércitos y barcos se presenta por turno, requiriendo tus órdenes. tu
+tener las siguientes opciones:
+
+Sin movimiento: presiona la BARRA ESPACIADORA si no deseas mover ese ejército en este momento.
+turno, o detener un ejército antes de que haya utilizado su capacidad de movimiento total.
+
+Retrasar movimiento: presiona TAB si deseas mover esta fuerza más adelante en tu turno.
+
+Mover: detalles del cual sigue.
+
+NOBLES / EJÉRCITOS
+---------------
+
+Para mover a un noble individual o un ejército, mueve el puntero por el mapa en el
+dirección en la que deseas ir. A medida que el puntero se mueve sobre áreas adyacentes al ejército,
+cambia de forma.
+
+Haga clic en el área y el ejército se moverá allí. Cada ejército puede mover cinco áreas. el
+El número de movimientos que le quedan a un ejército se muestra en su escudo.
+
+CABALLOS FRESCOS
+------------
+
+Durante las fases de eventos anteriores, es posible que hayas recibido caballos frescos. Estos son
+registrado en su Panel de Comando.
+
+Caballos frescos te permite mover a un heredero noble o real 4 áreas adicionales (2 en
+mal tiempo). Se requiere un juego de caballos frescos por cada heredero noble o real.
+en un ejército. Inspecciona un ejército y, si tienes suficientes caballos frescos, podrás
+Se le preguntará si desea utilizarlos para completar este movimiento.
+
+EFECTOS DEL TERRENO
+---------------
+
+Cierto terreno afecta el movimiento.
+
+Bosque: cualquier movimiento hacia un área forestal termina allí. Puedes salir el próximo turno.
+
+Estuarios: las fuerzas terrestres no pueden cruzar estuarios.
+
+Mar: sólo los barcos pueden ingresar a las áreas marítimas. Los nobles necesitan barcos para hacer mar
+cruces.
+
+Los ríos no tienen ningún efecto en el juego, excepto cuando actúan como límites de área.
+
+Si intenta realizar un movimiento ilegal, suena una advertencia.
+
+MOVIMIENTO EN CARRETERA
+-------------
+
+Además, un ejército puede moverse por carretera, siempre que comience la fase de movimiento en
+un área atravesada por una carretera.
+
+A medida que mueves el puntero sobre el mapa, más allá del rango normal de movimiento terrestre, el
+El puntero cambia de forma.
+
+Siempre que pase por una zona a la que haya camino directo y libre de obstáculos.
+conexión. Haga clic en el área y el ejército se moverá directamente allí.
+
+No todas las zonas de la carretera serán accesibles. El movimiento en la carretera está bloqueado por neutral o
+Pueblos fortificados hostiles, ciudades o castillos. No está bloqueado por la presencia.
+de las fuerzas enemigas.
+
+No se puede combinar la carretera con el movimiento ordinario.
+
+CASTILLOS, PUEBLOS Y CIUDADES
+-------------------------
+
+Pueblos y castillos forman parte del área que ocupan. Al seleccionar un área para
+entrar, haga clic en el área abierta, o directamente en la ciudad castillo o
+ciudad a la que deseas ingresar. Si una fuerza entra en un área que contiene una ciudad o un castillo,
+podrá pasar o permanecer en el exterior libremente.
+
+Sin embargo, si deseas que el ejército ocupe la ciudad o el castillo, haz clic directamente en
+su símbolo.
+
+ESTADO DE PUEBLOS Y CIUDADES
+--------------------------
+
+Tu capacidad para ingresar a una ciudad o castillo depende de su estado. Los pueblos pueden ser
+abierto, fortificado o no fortificado. Todas las ciudades están fortificadas. Naturalmente, también lo son todos.
+castillos.
+
+Las ciudades abiertas (Cardigan, Hereford y Kinston) son amigables con todas las facciones. Ellos
+puede ser ocupado y asediado, pero nunca controlado. Tan pronto como una ocupación
+El ejército sale, una ciudad abierta vuelve a su estado original. A menos que sea defendido por
+Como ejército fraccional, no suponen ningún obstáculo para el movimiento. Cardigan, donde George,
+El duque de Clarence comienza el juego, es una ciudad abierta particularmente importante.
+
+Las ciudades no fortificadas no tienen ningún efecto importante en el juego, aunque también pueden ser
+puertos y/o catedrales. Se pueden defender, pero sin ventaja para el
+defensor. Nunca podrán ser controlados. A menos que defienda la pose sin escondite
+al movimiento.
+
+CONTROL DE PUEBLOS Y CIUDADES CASTILLOS
+----------------------------------
+
+A medida que avanza el juego, el control de ubicaciones clave se vuelve vital. De cualquier
+perspectiva de las facciones, todas las ciudades castillos y ciudades fortificadas son
+amigable, neutral u hostil.
+
+Los lugares amigos son aquellos controlados por la facción en movimiento. Pueden ser libremente
+ingresado y no impone restricciones en la carretera ni en otros movimientos.
+
+Los lugares neutrales no están controlados por ninguna facción. Ningún noble ni ejército podrá entrar en ellos;
+primero deben ser capturados mediante asedio. Bloquean el movimiento de la carretera.
+
+Los lugares hostiles son aquellos que pertenecen a otras facciones. Bloquean circulación vial
+y sólo puede ser capturado mediante asedio.
+
+Los asedios se tratan en el Capítulo de Combate. Obviamente, una vez que se captura un lugar
+mediante asedio, se vuelve amigable con la facción que lo captura.
+
+CAPACIDAD
+--------
+
+La única otra restricción para ingresar a castillos, pueblos o ciudades es que el
+La capacidad del lugar no debe ser excedida por la fuerza de tropas del
+visitantes. Diferentes lugares tienen diferentes capacidades:
+
+Pueblo no fortificado = n/a
+Ciudades (incluidas ciudades abiertas) = 400
+Ciudades = ilimitado
+Castillos Nobles = 300
+Castillos reales = 300
+
+Si la fuerza de tropas de un ejército es demasiado grande para entrar en la ciudad o el castillo, el ejército
+debe dividirse para permitir que una porción entre. El resto se queda afuera.
+
+COMBINAR / DIVIDIR EJÉRCITOS
+---------------------
+
+Los nobles y ejércitos de la misma facción se pueden combinar moviendo uno a la
+otros durante la fase de movimiento. Los ejércitos se combinan automáticamente.
+
+Para dividir un ejército, haz doble clic en el LMB de su escudo. Se le muestra una lista de
+los nobles y herederos reales de ese ejército. Seleccione aquellos con los que desea permanecer juntos
+haciendo clic en su nombre con el LMB, luego haga clic en el botón combinar. Entonces
+presione el botón Continuar y el juego continúa. Esta es, en efecto, una forma más sencilla
+versión de la rutina Build Faction que te permite "asignar" nobles a
+diferentes ejércitos.
+
+EJÉRCITOS ENEMIGOS
+------------
+
+Las fuerzas enemigas no suponen ningún obstáculo para el movimiento. Si un ejército termina su movimiento en
+en la misma zona que un ejército enemigo, [un mensaje explica que estás en una escaramuza
+con la fuerza contraria.] Tienes la opción de atacar en el combate.
+fase.
+
+MOVIMIENTO DEL MAR
+------------
+
+Los ejércitos también pueden moverse por barco. Cualquier noble que se mudara a una zona amiga o no fortificada
+Puerto en el que la facción también tiene un barco puede embarcar. Haz clic en el barco mientras
+haría clic en cualquier otro destino y el noble/ejército se movería al barco y
+lo aborda. Todos los barcos se mueven más tarde en un turno de facciones, después de los ejércitos, y son
+Movido de forma independiente, sin pasajeros.
+
+Cualquier número de nobles puede viajar juntos en un barco, pero deben estar combinados.
+en un ejército antes de abordar el barco. En un barco sólo puede viajar un ejército.
+
+Los barcos se pueden inspeccionar (haciendo clic en el marcador del barco con el RMB).
+
+El movimiento marítimo se realiza de la misma manera que el movimiento terrestre. Cuando un barco es
+parpadeando, está esperando órdenes. Mueve el puntero sobre una zona marítima adyacente.
+y cambia de forma. Haga clic en el área para que el barco se mueva allí.
+
+Los barcos pueden moverse hasta 5 áreas. Los puertos cuentan como áreas separadas. un barco puede partir
+puerto y pasar a la zona marítima adyacente, o de una zona marítima a un puerto en su
+periferia, incluso a lo largo de los estuarios.
+
+VIENTOS JUSTOS
+----------
+
+Los vientos favorables te permiten mover un barco y todos sus pasajeros 5 áreas adicionales
+(3 durante el mal tiempo). Sólo lo descubres si hace buen tiempo una vez que
+empieza a moverte.
+
+ENTRADA A PUERTO
+-------------
+
+Tan pronto como un barco entra en un puerto cesa el movimiento y todos los pasajeros
+desembarcar automáticamente. No pueden moverse hasta el siguiente turno.
+
+Los barcos no pueden entrar en puertos fortificados, neutrales o hostiles a menos que se les obligue a hacerlo.
+por un evento (refugiarse de una tormenta, por ejemplo). Un barco que ocupa un
+El puerto neutral queda libre de salir en el siguiente turno. Un barco que ocupa un
+El puerto controlado por otra facción no puede salir.
+
+Si una facción pierde el control de un barco mientras está en el mar (por la pérdida, por ejemplo)
+ejemplo, de la oficina a la que está adscrito el buque o del embargo de sus
+puerto base), el buque podrá completar su viaje antes de perderse.
+
+Los barcos no pueden bloquear el movimiento de otros barcos ni entrar en combate.
+
+REFUERZOS
+--------------
+
+Los refuerzos se pueden activar en cualquier momento durante la fase de movimiento. Nobles
+entran en juego a través del ícono de soporte secreto. Otros activos pueden ser
+asignado a un noble a través de la pantalla Construir facción.
+
+LA FASE DE COMBATE
+----------------
+
+Cualquier ejército que finalice su movimiento en la misma zona que un ejército de facciones opuestas.
+Puede atacar al enemigo durante la fase de combate. Si mueves un ejército hacia el
+escudo heráldico que representa las fuerzas de otras facciones, aparece un mensaje
+decirte que estás peleando con el enemigo. Si era tu intención
+ataca y no recibes este mensaje cuando te mueves, intenta mover el ejército
+dentro del área.
+
+Un noble o ejército individual sólo puede atacar una vez por turno. si el defensor
+fuerza ocupa una ciudad, ciudad fortificada o castillo, sólo pueden ser atacados por
+asedio. Esto se trata en el próximo capítulo.
+
+ELEGIR ATACAR
+------------------
+
+Cuando un ejército de la facción del jugador finaliza su movimiento en la misma zona que un
+fuerza enemiga, aparece un cuadro que detalla las fuerzas presentes en el área y
+preguntándote si deseas atacarlo o evadirlo.
+
+El control se trata en Batalla Avanzada.
+
+Si evades y hay más de un ejército presente en el área, serás
+ofreció la posibilidad de atacar el segundo. Si no, tu ejército ha completado su
+girar. Evadir no significa que todavía no pueda haber una batalla aquí; el enemigo
+La facción puede atacarte durante su turno.
+
+Los nobles controlados por computadora son evaluados por su agresión. Algunos, como
+Warwick, busca la batalla casi en cualquier situación. Otros, como Fitzalan, sólo atacan
+cuando saben que pueden ganar. La experiencia expondrá a los nobles más agresivos.
+
+Todos los nobles de un ejército contribuyen con la fuerza de sus tropas a un total general. como lo ha hecho
+mostrado, puedes inspeccionar una fuerza enemiga haciendo clic en el RMB en su heráldico
+escudo durante la fase de movimiento.
+
+RESOLUCIÓN DE BATALLA
+-----------------
+
+Si eliges atacar, si eres atacado por una facción enemiga o si hay
+En una batalla entre dos facciones controladas por computadora, los heraldos traen noticias del
+resultado.
+
+Las batallas pueden retrasarse debido a tormentas o mal tiempo. En el juego básico, hay un
+Hay pocas posibilidades de que una tormenta impida una batalla. Usando la opción meteorológica avanzada,
+El combate es imposible durante un turno de mal tiempo.
+
+El resultado de una batalla se decide mediante un simple cálculo. La fuerza de las tropas
+del atacante se compara con la fuerza de tropas del defensor, y
+expresado como una proporción. Puede ser una mayoría simple, 5:4, 3:2, 2:1, 3:1 o 4:1.
+La relación siempre se redondea hacia abajo a favor de la fuerza menor.
+
+Por ejemplo, si una fuerza de 410 soldados atacara a un ejército de sólo 280, la proporción
+sería 1,95:1, que se sitúa entre 3:2 y 2:1. La proporción de batalla es
+por lo tanto 3:2 a favor del atacante
+
+Cada batalla puede ser una victoria para el ejército más grande o una indecisión. el
+Las probabilidades de cualquier resultado dependen de la relación entre las fuerzas.
+
+ATACAR CON UN EJÉRCITO MÁS PEQUEÑO
+-----------------------
+
+Las fuerzas pequeñas pueden atacar a las más grandes con la esperanza de matar a uno o más nobles.
+en el ejército contrario. Las probabilidades se calculan de la misma manera que para un
+ataque de un ejército más grande, pero revertido.
+
+EL RESULTADO
+-----------
+
+Las siguientes son las probabilidades aproximadas en contra de una victoria decisiva para el
+ejército más grande.
+RESULTADO DE LA BATALLA
+RATIO VICTORIA INDECISIVA
+
+1:1 15% 85%
+5:4 25% 75%
+3:2 40% 60%
+2:1 55% 45%
+3:1 70% 30%
+4:1+ 85% 15%
+
+Una vez calculado el resultado, la computadora muestra el resultado en la pantalla.
+En una batalla decisiva, el ejército más pequeño es destruido. Un resultado indeciso significa
+tiene escapatorias para luchar otro día.
+
+VÍCTIMAS
+-----------
+
+Incluso en una batalla indecisa, puede haber pérdidas críticas en ambos bandos. el
+El resultado de la batalla nombra a los nobles muertos en la refriega. Cada noble tiene una variable.
+riesgo de convertirse en una fatalidad, los nobles más agresivos tienen el mayor
+oportunidad. En promedio, las probabilidades son de aproximadamente 1 entre 12 (8%).
+
+En una batalla indecisa, donde ninguno de los bandos obtiene una gran victoria, aquellos
+Los nobles que engañaron a la muerte abandonan el campo de batalla con sus vidas y otros. 
+activos intactos.
+
+En una batalla decisiva, por otro lado, todos los nobles supervivientes del perdedor son
+capturados, y muchas de las fuerzas que controlaban pueden perderse debido al rescate.
+
+El resultado de todas las batallas, incluso aquellas entre facciones controladas por computadora,
+se muestran. El heraldo trae noticias de la muerte de los herederos reales o de su mortal
+rivales, ya sea en el campo de batalla o mediante ejecuciones salvajes.
+
+EMBOSCADA
+------
+
+Si un ejército pequeño ataca a uno más grande con una proporción peor que 1:4, ciertamente
+ser derrotado decisivamente. El único punto de tal ataque suicida es que
+podría conducir a la muerte de un noble más importante en el ejército más grande. solo uno
+Los nobles del ejército más grande pueden morir de esta manera.
+
+Una emboscada es una táctica desesperada, pero podría significar simplemente matar a un
+Noble controlando a 300 hombres por la pérdida de un peón menor como Audley...
+
+EJECUTAR A NOBLES CAPTURADOS
+-------------------------
+
+Al vencedor, el botín. La facción victoriosa decide cómo lidiar con
+nobles capturados y sus posesiones. Si eres la parte victoriosa en un
+batalla decisiva, aparece un cuadro que enumera los nobles que has capturado uno por uno.
+uno. El cuadro de información muestra los activos disponibles para rescate. para cada
+noble, se le pregunta si debe ser ejecutado, rescatado o puesto en libertad. 
+
+Si es ejecutado, el noble es eliminado de su facción, junto con cualquier activo ne
+celebrado. Los títulos y cargos se colocan en la cancillería; se eliminan otros activos. Todos
+pueblos, ciudades o castillos controlados por ese noble, ya sea directamente o a través de
+sus bienes, se vuelven neutrales y todos los ocupantes son expulsados.
+
+Si es liberado, el noble vuelve a jugar con todos sus bienes intactos. ¿Por qué
+¿lo haces? Recuerde la rivalidad entre facciones. Matar a un noble puede sacarlo del
+juego, pero es posible que su facción nunca perdone ni olvide su acción.
+
+RESCATE A UN NOBLE CAPTURADO
+--------------------------
+
+Alternativamente, una facción puede intentar rescatar a todos o algunos de sus cautivos. si
+exitosa, la facción toma el control de todos o algunos de los activos de la
+Capturó la facción del noble a cambio de su libertad.
+
+No se pueden tomar títulos y cargos nobiliarios. Tampoco ningún activo obtenido como parte de
+otro activo (por ejemplo, la ciudad de Lincoln, que forma parte del holding
+del obispo de Lincoln).
+
+Herederos reales, Arzobispos y Obispos, barcos y ciertas ciudades que no son
+adjuntos a oficinas u otros bienes pueden tomarse como rescate, junto con todos
+tropas y otros bienes relacionados con ellos.
+
+Seleccione uno o más de los elementos que se muestran en el cuadro de información y luego
+Haga clic en el botón de rescate. Se le informará que se ha acordado el rescate,
+en cuyo caso tu ejército obtiene el control de los bienes y el noble queda libre,
+o que se rechace la demanda. En este último caso, se le ofrece
+liberar al noble o ejecutarlo.
+
+Naturalmente, cuanto más exijas, menos probable será que la otra facción
+Estará de acuerdo con sus demandas.
+Si un heredero real es capturado, se da la opción de ejecutarlo de inmediato, usted
+no puede rescatar a la realeza.
+
+Todos los mercenarios del ejército derrotado son destruidos y retirados del
+fuerza de las facciones inmediatamente.
+
+¿MISERICORDIA O VENGANZA?
+--------------------
+
+Si la facción del jugador es la perdedora, la computadora muestra el alcance de su
+malicia o piedad. Puede que te permita rescatar a tus nobles. debes decidir
+si vale la pena pagar el rescate. A veces, un noble es liberado incluso sin
+se paga un rescate.
+
+Si se exige un rescate, se le informará a qué noble se está considerando,
+y cuál de tus bienes demanda. Puede aceptar o rechazar las demandas.
+
+Las facciones informáticas tienen sus propias razones para decidir cuándo establecer un noble.
+gratis, cuándo ejecutar y cuándo exigir rescate. Como parte de esto, a través de
+rivalidad entre facciones, mantienen una nota de cómo tratas a los prisioneros que capturas.
+Cuanto más generoso sea usted, más probabilidades habrá de que ellos sean generosos con usted. encendido
+Por otro lado, si ejecutas prisioneros regularmente, puedes estar seguro de que lo harás.
+estar en el centro de los planes vengativos de todas las demás facciones.
+
+HEREDEROS
+-----
+
+Los nobles muertos en batalla o ejecutados posteriormente son eliminados del juego. Su
+Los herederos pueden aparecer más tarde a través de la fase de refuerzo.
+
+CANCILLERÍA
+--------
+
+Los títulos (cuando no estén permanentemente adscritos a un noble titulado) y
+Los cargos de los nobles que mueren como consecuencia de una batalla están en la cancillería (ver el
+capítulo del Parlamento). Sólo vuelven a entrar en juego mediante la convocatoria del Parlamento.
+
+EJECUTAR HEREDEROS REALES
+---------------------
+
+Como se mencionó anteriormente, cuando se captura a los herederos reales, se le entrega
+la opción de ejecutarlos inmediatamente o mantenerlos prisioneros. tu
+debes decidir si el heredero real tiene algún lugar potencial en tus planes; si no,
+entonces debes actuar con la brutalidad apropiada...
+
+Se enfrenta a la misma decisión si captura herederos de ambos lados opuestos.
+casas reales. Sólo puedes permanecer indeciso en la disputa entre York y
+Lancaster por un tiempo. Después de dos turnos, se te pide que elijas qué
+heredero real al que seguirás apoyando y que afrontará su inevitable
+destino.
+
+Durante el juego, si decides que has mantenido prisionero a un heredero real
+se vuelve superfluo, luego haga clic en el botón del árbol genealógico. Desde esta pantalla,
+Selecciona el nombre del noble que has decidido que ya no necesitas. te dan
+la oportunidad de ejecutar al pobre desgraciado. Si selecciona SÍ, el verdugo
+será convocado de inmediato.
+
+Las facciones controladas por computadora están tomando el mismo tipo de decisiones.
+A los nobles ambiciosos les resulta más fácil matar a los herederos reales que a los más reservados.
+personajes. Sin embargo, tarde o temprano, los herederos reales deben declinar y morir.
+hasta que solo quede uno...
+
+REGLAS DE BATALLA AVANZADAS
+---------------------
+
+En cualquier momento del juego, puedes librar una batalla usando el modo de batalla avanzado.
+reglas. Simplemente seleccione Control cuando se le ofrezca la opción de atacar o defender.
+usted. En lugar de la resolución normal del conflicto, te llevan al
+campo de batalla para tomar el mando de tu ejército.
+
+Con un mando superior y buena suerte, es posible que consigas una
+mayor nivel de éxito que el cálculo normal
+inspira.
+
+EL PLAN DE BATALLA
+------------------
+
+Antes de la batalla, debes asignar tus fuerzas, bajo el mando del
+nobles que tienes en ese ejército, a sus lugares en el campo de batalla.
+
+Tu ejército constará de dos líneas, una primera fila y una reserva, y cada línea
+dividido en ala derecha, centro e izquierda, según la teoría aceptada.
+práctica militar de la época.
+
+Se enumeran los nobles de tu ejército (junto con los herederos reales y los mercenarios)
+en el cuadro de información. Selecciónalos uno por uno y colócalos en uno de los seis
+"ranuras" disponibles. Podrías, por ejemplo (y esto sería una práctica normal)
+Coloca a tu noble de mayor rango en el centro de la primera fila. continuar haciendo
+esto hasta que a todas tus fuerzas se les haya asignado un lugar en el campo de batalla.
+A medida que asignas a tus nobles, su escudo aparece en esa posición y el cuadro
+debajo registra la fuerza de sus tropas. Los mercenarios, igualmente, añaden su
+fuerza a ese batallón. Un heredero real simplemente se suma a sí mismo, pero da eso
+batallón una ventaja en la lucha que se avecina.
+
+ESCALA
+-------
+
+Para facilitar el manejo de las cosas en la pantalla, la computadora escala automáticamente
+fuerzas más grandes hacia abajo (¡por igual en ambos lados!), de modo que cada hombre en la pantalla
+equivale a 2,5 o incluso 10 tropas reales. A medida que tus nobles son colocados en posición, el
+La fuerza de las tropas que figura en el cuadro muestra su tamaño real.
+
+COMANDO
+-------
+
+El primer noble colocado en cada posición comanda ese "batallón" una vez que lucha.
+comienza. Vale la pena tener un noble al mando de cada batallón, ya que ellos
+transmitir sus pedidos con mayor éxito. Se puede colocar más de un noble en un
+batallón, añadiendo su fuerza de tropas, pero no tiene ningún papel de mando.
+
+"DERRAME"
+----------
+
+A veces, incluso habiendo tenido en cuenta la escala, un noble trae una
+número desproporcionado de tropas en el campo, por ejemplo, si un noble
+controla 200 tropas de un ejército de 220.
+
+Cada uno de los "batallones" puede contener un máximo de 30 hombres (después de haber escalado
+tomado en cuenta). Si un noble es puesto al mando de un batallón y tiene
+más de 30 hombres, el exceso se "derramará" hacia un batallón vecino. A menos que
+Luego se pone a otro noble al mando de este batallón vecino, estos
+Las tropas permanecen bajo el mando directo de su señor.
+
+Naturalmente, tiene sentido asegurarse de que tantos batallones como sea posible
+posible tener un noble para comandarlos. Tus tropas son un grupo difícil de manejar y
+Una vez que comienza la lucha, es muy difícil maniobrarlos alrededor del
+campo de batalla.
+
+Por supuesto, si tienes menos de seis nobles, no puedes poner a un noble al mando.
+de cada batallón, por lo que puede haber batallones que reciban sus órdenes de un
+noble lejano. Sufrirán retrasos y errores en consecuencia. un ejército de
+200 hombres con 6 nobles involucrados serán más fáciles de comandar que un ejército de 200
+todos bajo uno noble.
+
+EL CAMPO DE BATALLA
+---------------
+
+Una vez desplegadas tus fuerzas, la acción ahora pasa al campo de batalla.
+Tu ejército, vestido de rojo y con sus estandartes verdes prominentes, estará
+dispuesto frente a la hueste de tu oponente.
+
+Tus hombres están dispuestos en sus "batallones", tal como los desplegaste. el frente
+El rango es el más cercano al enemigo, con el centro separado de la izquierda y el
+correcto.
+
+En cada batallón hay una mezcla de lanceros, arqueros y hombres de armas,
+normalmente en tres filas. Los números de cada tipo los decide la fuente de
+la fuerza de tropas que colocaste en el batallón. Por ejemplo, el propio noble.
+Las tropas domésticas contribuyen con 1/3 de soldados, 1/3 de arqueros y 1/3 de hombres de armas.
+(lo que significa que los 30 comandos de Talbot suministran 10 de cada uno).
+La mayoría de las tropas suministradas en virtud de oficios o por obispos son 1/3 de lanceros y 2/3
+arqueros. Algunas unidades mercenarias son todas arqueras.
+
+Tus nobles aparecen montados en caballos oscuros bajo un estandarte. Cualquier heredero real que usted
+están montados sobre caballos blancos.
+
+Para moverte por el campo de batalla, mueve el puntero del mouse y presiona el LMB. el
+La vista se centra en el puntero.
+
+Hay una barra de menú en la parte superior de la pantalla. Utilice esto para ordenar el
+acción. Lo primero que querrás hacer es emitir órdenes.
+
+PEDIDOS
+------
+
+Seleccione el cuadro de pedidos en la barra de menú.
+
+Cada batallón se divide en dos "compañías" de 15 hombres. puedes dar ordenes
+a cada compañía individualmente o, dando órdenes a los nobles, a todo el
+batallón. También puedes dar órdenes a los herederos reales, que no tienen ningún papel de mando.
+
+Seleccione una empresa haciendo clic en uno de sus soldados usando el RMB. si te mueves
+el puntero alrededor del mapa, ahora verá aparecer una línea ylloe. Seleccione un
+objetivo: puede ser un lugar o un soldado enemigo. Si selecciona un abierto
+área en el mapa, la empresa seleccionada marcha en esa dirección. Si seleccionas
+un noble o soldado enemigo como objetivo, cuando sueltas el botón estás
+presentado con un par de iconos.
+
+Si selecciona el ícono "hombre", la empresa elegida intentará involucrar a ese
+objetivo en combate, siguiéndolo a través del campo de batalla. Si selecciona el "área"
+icono, tus hombres elegidos se mueven al área objetivo.
+
+Cuando das órdenes a todo el batallón a través de su comandante noble,
+reciben un par de íconos adicionales para seleccionar. Seleccione el icono de flecha si
+Deseas que tus tropas avancen al ataque. Selecciona el escudo si quieres.
+que se detengan inmediatamente en el lugar.
+
+Tan pronto como estén dentro del alcance, tus arqueros abrirán fuego contra el enemigo. ellos tienen
+un suministro limitado de flechas; una vez que se agotan, se convierten en lanceros. tu
+Los hombres también lucharán cuerpo a cuerpo automáticamente si entran en contacto con tropas enemigas.
+Normalmente, una vez que esto ocurra, será prácticamente imposible volver a controlarlos,
+e ignorará cualquier nueva orden que intente darles.
+
+REVISIÓN
+------
+
+Puedes revisar qué pedidos tiene cada unidad haciendo clic en el cuadro de revisión en el
+barra de menú. Seleccione una unidad. Verás hacia dónde se le ha ordenado marchar.
+
+ESTADO
+------
+
+Una vez que comience la batalla, es posible que desees ver qué tan saludables están tus fuerzas. Seleccionar
+el cuadro de estado en la barra de menú.
+
+Seleccione una unidad con el RMB. Verás el nombre de su comandante, su tipo.
+(lanceros, arqueros, hombres de armas o nobles) y su estatus.
+
+El estatus es una medida de la cohesión de la unidad, de qué tan bien es capaz de
+desempeñando sus funciones. Los nobles y los hombres de armas comienzan como fuerzas de élite; todos los demás
+empezar como firme. La presencia de un heredero real en un batallón hace que todas las unidades de
+ese batallón comienza como tropas de élite.
+
+Cuando una unidad recibe disparos de misiles o es golpeada en un combate cuerpo a cuerpo, reduce su estado,
+cayendo a sacudido y luego derrotado.
+
+Una unidad sacudida intenta retirarse fuera del alcance cuerpo a cuerpo y de misiles.
+
+Una unidad derrotada intenta huir del campo de batalla.
+
+CONTINUAR
+--------
+
+Habiendo inspeccionado tu ejército y dado tus órdenes, selecciona la casilla continuar en
+la barra de menú.
+
+Comienza la batalla. Tus hombres intentan obedecer sus órdenes, haz clic en el RMB para
+recuperar la barra de menú.
+
+Una vez que un batallón está profundamente involucrado en la batalla, se vuelve incapaz de obedecer.
+pedidos nuevos. Comandar un ejército medieval era una ciencia impresionante en su
+mejor.
+
+También es posible que los comandantes de su batallón ejerzan un poco de
+"discreción", si sienten que deberían asumir un papel más activo o pasivo.
+Bajo fuego, o frente a un oponente contra el cual la facción tiene una fuerte
+rivalidad entre facciones, un noble agresivo podría ignorar tu orden de mantenerse firme y
+cargar en la refriega. Por otro lado, un noble menos agresivo podría ser lento
+al obedecer una orden de atacar.
+
+BAJAS NOBLES
+----------------
+
+Durante una batalla, los nobles y los herederos reales pueden morir. Cada golpe de flecha o
+El golpe cuerpo a cuerpo tiene una pequeña posibilidad de matar a una de estas figuras prominentes. el
+La batalla continúa, pero todas las unidades de un batallón comandado por un noble que es
+asesinados, o que estaban acompañados por un heredero real que cayó, sufren una inmediata
+caída de estatus.
+
+¡VICTORIA!
+--------
+
+La batalla continúa hasta que ocurra una de las siguientes cosas:
+
+(i) Uno de los ejércitos huye completamente del campo de batalla. Esto cuenta como un
+victoria decisiva para el otro lado.
+
+(ii) 50% o más de cada ejército huye, en cuyo caso la batalla es indecisiva.
+
+Una vez terminada la batalla, el juego vuelve a su visualización normal. si la victoria
+fue decisivo, todos los nobles del ejército derrotado serán prisioneros y podrán
+ser rescatado, ejecutado o puesto en libertad de la forma habitual.
+
+Puedes acelerar la conclusión de una batalla usando cualquiera de los otros
+botones en la barra de menú. Fight coloca la batalla en un modo más rápido. no lo harás
+Podrás acceder a la barra de menú por más tiempo y todo el daño de combate se duplicará.
+Haga clic en rendirse cuando su posición sea demasiado desesperada para continuar. esto en
+Al menos significa que los nobles restantes sobrevivan hasta la rutina del rescate...
+
+ASEDIOS
+------
+
+Si un ejército perteneciente a una facción ataca a las fuerzas de otra facción que ocupan
+una ciudad, pueblo o castillo, debe producirse un asedio. Para declarar un asedio,
+El ejército atacante debe tener una fuerza de tropas de al menos el mismo tamaño que el
+ejército contrario, incluida la guarnición.
+
+GUARNICIONES
+---------
+
+Las guarniciones resisten los asedios, incluso cuando no hay otras tropas de su facción
+presente. Esto es particularmente importante cuando se consideran ciudades neutrales.
+
+El número de tropas de la guarnición depende de la ubicación.
+
+TIPO GUARNICIÓN
+
+PUEBLO DESFORTIFICADO NINGUNO
+
+PUEBLOS 200
+(inc. ciudades abiertas)  
+
+CIUDADES 300
+
+CASTILLOS NOBLES 200
+
+CASTILLOS REALES 100
+
+Las ciudades abiertas sólo proporcionan una guarnición mientras están ocupadas por las fuerzas de una facción. en
+otras veces tienen una fuerza de guarnición de 0 y se puede entrar libremente.
+
+Cuando inspeccionas un ejército, la presencia de tropas de guarnición adicionales es
+indicado por un signo "+". Si inspeccionas un lugar, el tamaño de su guarnición es
+dado después de la "G", y la fuerza total de las tropas (incluidos los nobles)
+fuerzas) después de la "S".
+
+Si la fuerza de tropas del ejército atacante cae por debajo del tamaño de las tropas del defensor
+ejército (incluida la guarnición), se levanta el asedio. Esto puede suceder si el
+El ataque se retrasa y el atacante se debilita por los acontecimientos. EDurante el movimiento
+fase, el sitiador levanta voluntariamente el asedio alejándose.
+
+RESOLUCIÓN DE ASEDIO
+----------------
+
+Cada turno después de que se declara un asedio, hay un 85% de posibilidades de que los defensores
+capitulará. Mientras tanto, como en la batalla, los nobles pueden morir en el
+peleando. Una exhibición muestra a todos los nobles que perecen de esta manera.
+
+El asedio puede tener éxito inmediatamente o puede llevar varios turnos completarse.
+exitoso. Esto depende en gran medida del buen tiempo; un asedio no puede continuar durante
+tormentas (juego básico) o un turno de mal tiempo (opción meteorológica avanzada(.
+
+Durante su turno, los defensores (excluyendo la guarnición) pueden salir hacia
+dar batalla (especialmente si las probabilidades no están demasiado en su contra). ellos pueden
+unen fuerzas con un ejército de relevo pero no pueden alejarse del castillo.
+
+Una vez que los defensores asediados se rinden, el resultado se muestra en la pantalla. Todos
+los que están dentro son capturados y pueden ser tratados de la misma manera que los nobles.
+capturado después de una batalla decisiva.
+
+Una ciudad, pueblo o castillo capturado de esta manera se vuelve diabólico para el vencedor, incluso
+si está asociado a una oficina o bien. Sólo se vuelve neutral si el
+la facción es destruida.
+
+Nadie podrá entrar ni salir de una ciudad o castillo sitiado.
+
+LA FASE DEL PARLAMENTO
+-------------------
+
+Durante el transcurso del juego, los títulos y cargos pueden quedar "vacantes", ya que los nobles son
+asesinado. Estos bienes se colocan en la cancillería y sólo pueden devolverse a
+juego por parlamento.
+
+CANCILLERÍA
+--------
+
+Los títulos y cargos aparecen en la cancillería a través de uno de dos métodos.
+
+(i) Es posible que algunas facciones no puedan asignar todos los activos con los que comienzan la
+juego con (porque no tenían suficientes nobles). El exceso se coloca en
+cancillería.
+
+(ii) Cualquier cargo o título separado que ostentara un noble muerto a causa de la peste,
+la batalla o la ejecución se colocan en la cancillería.
+
+No todos los títulos pueden separarse de sus nobles, ni siquiera por la muerte. Algunos nobles
+tener un título asociado permanentemente a ellos. Si los matan y sus
+Si el heredero aparece más adelante en el juego, el heredero automáticamente tiene el título.
+
+PARLAMENTO CONVOCATORIO
+-------------------
+
+El parlamento puede ser convocado durante la fase de parlamento del turno de cualquier facción. eso
+es convocado de una de dos maneras.
+
+(i) Si hay un Rey (o Reina) coronado, la facción que controla ese rey
+el heredero puede llamar al parlamento.
+
+(ii) Si no hay Rey/Reina coronado, o si hay dos, el canciller
+también debe expedir auto de citación parlamentaria (éstos se obtienen a través de la
+fase de eventos y almacenados entre los activos secretos de las facciones).
+
+En cualquier caso, el Rey o canciller debe ocupar un pueblo o ciudad (excluyendo
+Calais o cualquier lugar bajo asedio), y también debe poseer al menos una orden de expulsión
+asistencia (también obtenida a través de la fase de eventos).
+Si se cumplen todas estas condiciones, la facción que controla al Rey o Canciller
+se le dice cuántos bienes hay en la cancillería y se le ofrece la oportunidad de llamar
+parlamento.
+
+ESCRITO DE ASISTENCIA
+------------------
+
+Habiendo decidido convocar un parlamento, la facción primero debe presentar una orden de
+asistencia a un noble en una de las otras facciones. Se le pide que seleccione
+¿Qué noble recibe una orden judicial de una lista en el cuadro de información de todos los
+nobles en juego. Utilice los botones de desplazamiento para desplazarse por la lista y haga clic en
+el noble seleccionado. Naturalmente, la computadora maneja esta elección automáticamente.
+para sus facciones. Se le informará si uno de sus nobles es seleccionado.
+
+A cada facción que posee órdenes de asistencia se le pregunta si también desea
+servirlos a los nobles de otras facciones. Si tu facción tiene algún adicional
+escritos, se le preguntará si desea reproducirlos. O seleccionar nobles de
+la lista o seleccione cancelar.
+
+Deben asistir todos los nobles convocados al parlamento por escrito.
+
+ASISTENCIA VOLUNTARIA
+--------------------
+
+Finalmente, se pregunta a cada facción si alguno de sus nobles asiste al parlamento.
+voluntariamente. 
+Los nobles no pueden ser convocados ni voluntarios para asistir si se encuentran en una ciudad asediada.
+o pueblo. Tampoco podrán asistir si se encuentran en Calais o algún otro lugar.
+separados de Gran Bretaña continental por el mar, a menos que la facción de la que forman parte
+controla un barco con capacidad suficiente para transportar al noble y sus
+seguidores.
+
+Los nobles que honran el parlamento con su presencia se dirigen allí.
+independientemente de las reglas de movimiento normales.
+
+ASISTIR AL PARLAMENTO
+-------------------
+
+Una vez reunido el parlamento, la facción que lo convocó tiene derecho a
+reasignar títulos u cargos que hayan sido colocados en la cancillería.
+
+Se puede reasignar un título u cargo para cada noble asistente al parlamento.
+(suponiendo que haya suficientes en la cancillería).
+
+Se pueden otorgar títulos y cargos a cualquier noble y no sólo a aquellos que realmente
+presente, sujeto a las reglas habituales relativas a combinaciones de nobles, títulos
+y oficinas. Si el jugador controla el parlamento, se te pedirá que combines un noble
+con cada título u oficio por turno.
+
+Cualquier título u cargo que no pueda asignarse se devuelve a la cancillería.
+
+Puedes dar un nuevo título u oficio a uno de tus nobles que ya
+controla dicho activo. Su antiguo activo tendrá que ser entregado a otra persona.
+Este es el único momento en el que se podrán transferir oficinas.
+
+Una vez que el parlamento se disuelve, las facciones se alejan durante la fase de movimiento del
+su turno con normalidad. Tampoco podrá tener lugar batalla en el pueblo o ciudad.
+durante el parlamento o durante un turno completo a partir de entonces. La paz del Rey prohíbe cualquier
+transición de esta ley.
+
+LA FASE DE CORONACIÓN
+--------------------
+
+Parte de las condiciones para la victoria de Kingmaker es que una facción no sólo debe
+controlar al último heredero real superviviente, pero también debe hacer que ese heredero sea coronado como
+Rey (o reina) de Inglaterra. Las coronaciones, por tanto, desempeñan un papel central en la
+juego. Además, un heredero coronado puede convocar al parlamento.
+
+ORGANIZANDO UNA CORONACIÓN
+----------------------
+
+Se deben cumplir las siguientes condiciones antes de que una facción pueda coronar a un heredero real.
+
+(i) Deben controlar a los herederos reales de York o Lancaster de mayor rango,
+según el orden de sucesión de esa casa.
+
+(ii) El Rey potencial debe ocupar un pueblo o ciudad que también sea catedral.
+y debe estar acompañado por un arzobispo o dos obispos.
+
+Si se aplican estas condiciones, la facción corona automáticamente a su heredero real.
+
+LA FASE DE REFUERZO
+-----------------------
+
+En la fase final del turno de cada facción, recibe un activo como
+refuerzo, siempre que haya activos disponibles. Todos los nobles, títulos.
+oficios, obispos, barcos, etc. que no estaban distribuidos al inicio del
+juego están disponibles, al igual que todos los nobles asesinados durante el juego, y cualquier otro
+activos eliminados durante el juego. Los títulos y oficios, como hemos visto, se colocan en
+cancillería cuando sean removidos, y vuelvan a jugar a través del parlamento.
+Aparece un mensaje que indica qué activo está disponible. Los nobles que se unen a un
+facción se agregan automáticamente al apoyo secreto de la facción. Otros activos
+se colocan en el cuadro de construcción de facción.
+
+APOYO SECRETO
+--------------
+
+El apoyo secreto puede considerarse como aquellos partidarios de tu facción que tienen
+todavía no han salido a la luz y han declarado su lealtad. Facciones informáticas
+determinar cuándo poner en juego a sus seguidores automáticamente. debes
+activa tus refuerzos secretos como mejor te parezca.
+
+Seleccione el ícono de soporte secreto. Aparece la lista de tus seguidores secretos.
+Seleccione un noble haciendo clic en su nombre y seleccione proceder para traerlo a
+Castillo de origen. Los nobles comienzan en su castillo nome a menos que haya sido capturado por
+otra facción, en cuyo caso el noble comienza desde la más cercana
+castillo, pueblo o ciudad amigable.
+
+Como de costumbre, puedes aprender más sobre el noble colocando el puntero del mouse.
+sobre su icono. Haga clic en LMB. Ya puedes leer la información de la crónica
+sobre él.
+
+ACTIVAR OTROS ACTIVOS
+-----------------------
+
+Todos los demás activos entran en juego a través del cuadro de facción de construcción.
+Asignar un activo a un noble activa ese activo. Esto se hace en el mismo
+manera como en las fases originales de construcción de facciones; selecciona un noble y el activo que
+desea darle, haga clic en combinar y el activo entrará en juego. Cualquiera
+Se devuelven los activos que no haya asignado en el momento en que haga clic en Continuar.
+permanecer en reserva.
+
+Hasta que un noble declare su lealtad a tu facción o se asigne un activo
+para uno de tus nobles, son completamente secretos; las otras facciones no
+saber de su existencia. Las facciones controladas por computadora también desarrollan
+sus "reservas secretas".
+
+RECONSTRUYENDO TU FACCIÓN
+-----------------------
+
+Durante el juego, los nobles de tu facción pueden morir. Cualquier título u oficio
+que controlan son devueltos a la cancillería (ver parlamento), pueblos, ciudades o castillos
+que controlaban se vuelven neutrales.
+
+A medida que tu facción sufra pérdidas o se amplíe gracias a los refuerzos, puedes
+desea redistribuir sus bienes. Regrese a la pantalla del cuadro de construcción de facción haciendo
+haciendo clic en el icono de facción.
+
+No puede reasignar títulos u cargos de esta manera; esto debe hacerse en
+parlamento. Otros activos como merecenarios u obispos solo se pueden intercambiar
+entre dos o más nobles de un mismo ejército. Las reglas para esto están cubiertas en
+El capítulo del movimiento.
+
+CITACIONES PARLAMENTARIAS Y ESCRITOS DE ASISTENCIA
+----------------------------------------------
+
+Durante la fase de hechos podrá recibir citaciones parlamentarias y autos de
+asistencia. Estos se almacenan automáticamente y se pueden reproducir en el parlamento.
+fase, como se describió anteriormente.
+
+*****************************************************************************
+
+GLOSARIO
+--------
+
+Arzobispos. Los miembros de mayor rango de la iglesia en Inglaterra. Control de un
+el arzobispo te permite coronar a un heredero real. Hay dos arzobispos.
+Canterbury es el de mayor rango. York proporciona a la facción tropas adicionales.
+
+Ejércitos. Se pueden combinar dos o más nobles de la misma facción, junto con
+con todos sus bienes, para formar un ejército, comandado por el mayor de los
+nobles. Están representados en el mapa por el escudo del noble de mayor rango.
+
+Obispos. Clérigos menores de la iglesia en Inglaterra. Hay cuatro obispos en el
+juego, y cualquier noble puede controlar cualquier número de ellos. Necesitas dos obispos para
+organizar una coronación. La mayoría de los obispos traen consigo otros bienes.
+
+Catedrales. Las catedrales, que se encuentran en pueblos y ciudades, son lugares donde se celebran las coronaciones.
+tener lugar.
+
+Ciudades. Versiones más grandes de pueblos, las ciudades de Londres, York, Bristol y
+Norwich tiene guarniciones de 300 soldados.
+
+Facción. Uno de entre dos y seis grupos de nobles, cada grupo compitiendo contra
+los demás por el premio final: el Gobierno de Inglaterra. el jugador
+controla una facción, la computadora controla las demás. Cada uno se identifica por
+el nombre de su líder y un color. La facción del jugador es verde.
+Mercenarios. Hay ocho bandas de mercenarios en el juego, y cualquier número puede ser
+controlado por cualquier noble.
+
+Nobles. Los nobles son la pieza básica del juego que controla tu
+ejército de factón. Pueden estar titulados o sin título. Cada noble se muestra en el mapa por
+su escudo heráldico. Se pueden combinar para formar ejércitos.
+
+Oficinas. Estos proporcionan energía adicional. Cada noble con título (o nobles sin título)
+se le concede un título) se le puede conceder un cargo. Confieren fuerzas de tropas adicionales
+(a veces ligado a una parte del país), ciudades o castillos. Un noble titulado
+con una oficina es una combinación potente.
+
+Castillos Reales. Fortificaciones bien guarnecidas en partes clave del país. Sólo
+uno de ellos, Carisbrooke, puede controlarse de esta manera. Se puede dar a cualquier
+noble.
+
+Barcos. Estos proporcionan transporte vital, especialmente si tu facción tiene una base.
+en Calais, Irlanda o la Isla de Man. Hay doce en el juego, y cualquiera
+El noble puede controlar cualquier número de ellos.
+
+Nobles titulados. Estos son los miembros principales de una facción. Hay 9 en total,
+e incluso el menos poderoso tiene un número respetable de tropas.
+puntos.
+
+Títulos. Estos son altos honores que se pueden otorgar a sus nobles sin título.
+Obviamente, sólo se puede asignar uno a cada noble sin título. Esto efectivamente
+los hace iguales a los nobles con título, aunque no tan permanentes. hay ocho 
+títulos disponibles.
+
+Pueblos. Estos son los lugares clave en Inglaterra. Las ciudades fortificadas proporcionan una
+guarnición defensiva de 200 hombres para la facción que los controla. no fortificado
+las ciudades no lo hacen y no pueden ser controladas. Ciudades abiertas (a saber, Cardigan,
+Hereford y Kingston) no pueden ser controlados, pero proporcionan guarniciones si
+ocupado. El control de ciertas ciudades independientes se obtiene al comienzo de
+el juego o mediante refuerzo. Otros pueden obtenerse mediante el control de oficinas,
+obispos o títulos. Las ciudades también pueden ser capturadas mediante asedio. En cuanto a cualquier facción
+En lo que respecta a una ciudad, una ciudad es amiga (ocupada y/o controlada por el
+facción). Neutral (no controlado por ninguna facción) o hostil (controlado por una
+facción enemiga). Una ciudad fortificada puede albergar hasta 400 soldados.
+
+Nobles sin título. Estos son nobles menos poderosos, pero se les puede formar para ser
+tan poderosos como sus primos titulados.
+
+*****************************************************************************
+
+LAS SIGUIENTES SON REFERENCIAS A TODAS LAS FUERZAS DEL JUEGO:
+
+NOBLES TITULADOS
+-------------
+
+Percy, conde de Northumberland. Fuerza de tropas 100; Alnwick y Cockermouth
+castillos.
+
+Mowbray, duque de Norfolk. Fuerza de tropas 50; Castillo en ascenso, Denbigh,
+Castillos de Framlingham, Usk y Wressle.
+
+Neville, conde de Warwick. Fuerza de tropas 50; Ogmore, Richmond, Warwick y Raby
+castillos.
+
+Beaufort, duque de Somerset. Fuerza de tropas 30; Castillo de Corfe.
+
+Stafford, duque de Buckingham. Fuerza de tropas 30; Castillos de Leeds y Newcastle.
+
+Polaco, duque de Suffolk. Fuerza de tropas 30; Castillo de Ludlow.
+
+Courtenay, conde de Devon. Fuerza de tropas 30; Castillo de Okehampton.
+
+NOBLES SIN TITULO
+---------------
+
+Stanley. Fuerza de tropas 50; Castillo de Douglas.
+
+Roos. Fuerza de tropas 20; Castillos de Belvoir y Helmsley.
+
+Gris. Fuerza de tropas 20; Castillos de Chillingham y Rockingham.
+
+Holanda. Fuerza de tropas 20; Castillos de Kimbolton y Compton.
+
+Cromwell. Fuerza de tropas 10; Castillo de Tattershall.
+
+Howard. Fuerza de tropas 10; Castillo de Farnham.
+
+Bourchier. Fuerza de tropas 10; Castillo pleshy.
+
+Golpe gris. Fuerza de tropas 10; Castillo de Appleby.
+
+Scrope. Fuerza de tropas 10; Castillo de Masham.
+
+Clifford. Fuerza de tropas 10; Castillo de Conisborough.
+
+Audley. Fuerza de tropas 10; Castillo de Tick Hill.
+
+Berkeley. Fuerza de tropas 10; Castillo de Berkeley.
+
+Hastings. Fuerza de tropas 10; Castillo de Tutbury.
+
+Herberto. Fuerza de tropas 10; Castillo de Llanstephan.
+
+TÍTULOS
+------
+
+Conde de Richmond. Fuerza de tropas 40.
+
+Conde de Westmoreland. Fuerza de tropas 40.
+
+Conde de Kent. Fuerza de tropas 30.
+
+Conde de Salisbury. Fuerza de tropas 30.
+
+Conde de Worcester. Fuerza de tropas 30.
+
+Conde de Wiltshire. Fuerza de tropas 30.
+
+Duque de Exeter. Fuerza de tropas 20; Éxeter.
+Conde de Essex. Fuerza de tropas 20.
+
+OFICINAS
+-------
+
+Mariscal de Inglaterra. Fuerza de tropas 100; Castillo de Harlech.
+
+Canciller de Inglaterra. Fuerza de tropas 50; Castillo de Caernarvon.
+
+Capitán de Calais. Fuerza de tropas 50; 300 tropas adicionales en Calais; Calais.
+
+Chambelán del condado palatino de Chester. Fuerza de tropas 50; 200 adicionales
+tropas en Gales; Rhuddlan, Chester.
+
+Teniente de Irlanda. Fuerza de tropas 50; 200 tropas extra en Irlanda.
+
+Canciller del Ducado de Cornualles. Fuerza de tropas 50; 100 tropas adicionales en
+Devon y Cornualles; Oxford, Plymouth.
+
+Canciller del Ducado de Lancaster. Fuerza de tropas 50; !00 tropas adicionales
+dentro de tres áreas de Conway; Castillo de Conway.
+
+Guardián de las Marcas del Norte. Fuerza de tropas 50; 100 tropas extra al norte de las
+Camisetas de río; Bamburgh, Berwick.
+
+Condestable del castillo de Dover. Fuerza de tropas 50; Dover.
+
+Mayordomo de la Casa Real. Fuerza de tropas 50; Nueva York
+
+Tesorero de Inglaterra. Fuerza de tropas 50; Wallingford y Beaumaris.
+
+Almirante de Inglaterra. Fuerza de tropas 50; Lynn, Southampton; Le Margarita de Centeno,
+Le Cristóbal de Southampton.
+
+Guardián de los Cinque Ports. Fuerza de tropas 50; Pevensey; Le Trinidad de Centeno, Le
+Jorge de Centeno.
+
+OBISPOS
+-------
+
+Arzobispo de Canterbury. 
+Canterbury.
+
+Arzobispo de York.
+Fuerza de tropas 30 al norte del río Trent; York.
+
+Obispo de Norwich.
+Fuerza de tropas 50; Norwich.
+
+Obispo de Carlisle.
+Fuerza de tropas 30 al norte del río Trent; Carlisle.
+
+Obispo de Durham.
+Fuerza de tropas 30 al norte del río Trent; Durham.
+
+Obispo de Lincoln.
+Lincoln.
+
+PUEBLOS INDEPENDIENTES
+-----------------
+
+Bristol, Coventry, Ipswich, Lancaster, Leicester, Newcastle, Northampton,
+Nottingham, Shrewsbury, Swansea.
+
+BARCOS INDEPENDIENTES
+-----------------
+
+Le Swan de Berwick, Le Rose de Plymouth, Le Lucas de Whitby, Le Michael de
+Brístol.
+
+MERCENARIOS
+-----------
+
+100 soldados de infantería franceses.
+2 x 30 ballesteros borgoñones.
+2 x 20 ballesteros flamencos.
+2 x 20 arqueros escoceses.
+2 x 10 sajones.
+
+CASTILLO REAL
+------------
+
+Carisbrooke.
+
+-------------------------------------------------------------------------
+
+
+ ¡¡Ese eres!! ¿Cuántos van a jugar tan inmensamente? interesante juego y pelea!!!!!
+=====================================================================================
+YEAHHH LAURENZO DE CONTRASEÑAS TE PRESENTA 
+EL DOCTOR DE KINGMAKER (ORO DE EE. UU.)
+
+MENÚ DEL JUEGO NOUVEAU/SAUVEGARDE
+Presentación del menú:
+Nuevo juego
+JUEGO SAUVEGARDE
+Seleccione JEU SAUVEGARDE para restaurar una parte registrada
+auparavant sur votre disque.
+Seleccione NOUVEAU JEU para reiniciar el juego.
+
+NOMBRE DE FACCIONES
+En el menú seleccionado Nouveau Jeu, aparecerá un segundo menú que le exigirá
+de selecciónner le nombre de facciones que vous allez affronter.
+Plus l'ordinateur comando de facciones, plus le jeu devient difficile,
+bien que les factions dirigées par l'ordinateur s'affrontent entre elles
+aussi violemment que lorsqu'elles se mesurent aux votres. La clasificación
+des honneurs Accorde una victoire plus méritante aux combats victorieux
+qui ont su vaincre contre un gran nombre de facciones.
+
+NIVEAU DE DIFÍCIL
+Un troisième menu vous demande de choisir entre deux niveaux de
+difícil:
+AVANT L'ORDINATEUR (difficile: vous vous déplacez le premier).
+APRES L'ORDINATEUR (fácil: vous vous déplacez le premier).
+AVANT L'ORDINATEUR vous oblige à place vos Nobles sur la carte
+sans connaitre les action des factions commandées par l'ordinateur.
+Si vous selectnez APRES L'ORDINATEUR , vous voyez la (les)
+facción(s) comandada(s) por el ordinateur avant de procéder à vos 
+disposiciones propias. Cela vous permet de ver lesquels de vos
+Héritiers royaux sont plus susceptibles d'etre capturés par vos
+adversaires, et où vos ennemis sont les plus forts.
+
+OPCIONES AVANCEADAS
+On vous demande ensuite de selectionner ou non dos options supérieures
+de jeu - Temps orageux ou Menace de peste - ainsi que le niveau
+d'Aide automatique. Les options de jeu avancées influencers votre
+façon de jouer, bien qu'aucune n'ajoute à la dificultadé. Utilise estos
+botones para habilitar o deshabilitar estas opciones.
+Seleccionas Stormy Weather al comienzo de un juego.
+La computadora determina si se trata de un juego con Beau Temps o
+Mal tiempo. Si hace buen tiempo, el juego se desarrolla con normalidad.
+Si hace mal tiempo, experimentará las siguientes restricciones:
+(1) Los ejércitos sólo pueden moverse en 3 regiones por turno.
+(2) El combate o el asedio son imposibles.
+(3) Las tormentas marinas ocurren con más frecuencia y pueden hundirse
+barcos.
+En el modo Plague Threat, la infección puede aparecer en cualquier lugar y no 
+sólo en las ciudades. Se propaga a lo largo de las carreteras, en
+puertos y dentro de pueblos y ciudades. La muerte no es
+Es más automático, pero cualquier persona atrapada por la plaga tiene un 25%.
+riesgo de ser asesinado.
+Seleccione Activado/Desactivado para cada opción.
+
+AYUDA AUTOMATICA
+Con Kingmaker, tienes ayuda On-Line. Antes de que comience-
+Durante el juego, selecciona de la siguiente lista:
+Ayuda automática continua
+Ayuda automática parcial
+Sin ayuda automática
+
+La Ayuda automática continua le proporciona consejos automáticamente
+regular y te ayuda con los diferentes momentos del juego a medida que avanzas.
+gradualmente.
+La ayuda automática parcial le proporciona la misma cantidad de consejos, excepto
+que cada unidad del tutorial solo se muestra una vez.
+Sin ayuda automática usted se priva de esta facilidad. ella lo deja
+Sistema CRÓNICA disponible, en caso de que lo necesites
+alguna información específica más adelante.
+Para recorrer estas tres opciones, haga clic en el botón. tu
+Puedes acceder al menú de ayuda automática durante el juego haciendo clic en
+en el ícono Accesorios.
+Una vez completada la instalación del juego, haz clic en el botón
+SALIR. KINGMAKER se está cargando.
+
+MEDIDA DE SEGURIDAD
+A intervalos regulares durante el juego, se te pedirá que pases un
+control de seguridad. Su computadora muestra una foto de una ciudad,
+ciudad o castillo que aparece en el juego con una serie de
+números de página. Todos los pueblos y castillos que aparecen bajo 
+Este formulario se puede encontrar en el manual con sus fotos. encontrar
+la ciudad/castillo correcto e ingrese su nombre cuando se le solicite.
+(NOTA DE LAURENZO/CONTRASEÑAS: LO SIENTO PERO NO PUEDES 
+¡UTILIZA ESTA OPCIÓN INTERESANTE PORQUE LA HEMOS ELIMINADO!)
+
+OBJETIVO DEL JUEGO
+
+En KINGMAKER, diriges una facción de nobles hambrientos de 
+poder y sus partidarios. Tu objetivo es 
+Lidera al último heredero real del juego y corónalo Rey.
+de Inglaterra (o Reina, si es Margarita de Anjou). en
+En otras palabras, no estás tratando de convertirte en Rey tú mismo, sino
+ser la sombra poderosa del poder, la que tira definitivamente
+las cuerdas.
+Para hacer esto, debes:
+(1) capturar y comandar a un heredero real;
+(2) eliminar a todos los rivales, y
+(3) hacer que su heredero sea coronado en una ciudad catedralicia o
+en una ciudad donde hay un arzobispo o dos obispos.
+Además de los miembros nobles de tu facción, debes controlar
+bienes como asientos de la corona, mercenarios y
+barcos. Obtienes el resto de los nobles y bienes durante el
+juego, que puedes incorporar directamente al juego o mantener
+ocultos para sacarlos mejor a la luz en un momento vital. Mientras tanto, el
+facciones opuestas (controladas por la computadora) intentan hacer
+lo mismo...
+
+RANGO DE HONOR
+KINGMAKER incluye un ranking de honores, que incluye nombres 
+y las filas de los jugadores que mejor cumplieron su misión. 
+Puedes ingresar tu nombre en el ranking de honores si
+Has completado con éxito el juego.
+
+LOS HEREDEROS REALES
+Dado que los herederos reales representan la piedra angular
+éxito o fracaso del juego, es importante que entiendas
+cómo usarlos antes de implementar sus activos al comienzo del
+juego. Una captura rápida de un heredero real puede generar mucho
+a medida que avanza el juego.
+
+LAS CASAS REALES
+Es probable que se coloquen nueve herederos en el trono
+de Inglaterra:
+CASA LANCASTRA:
+ENRIQUE VI
+MARGERITA DE ANJOU
+EDUARDO, PRÍNCIPE DE GALES
+BEAUFORT, DUQUE DE SOMERSET *
+CASA DE YORK:
+RICARDO, DUQUE DE YORK
+EDWARD, CONDE DE MARZO
+EDMOND, CONDADO DE RUTLAND
+JORGE, DUQUE DE CLARENCIA
+RICARDO, DUQUE DE GLOUCESTER
+
+* EL DUQUE DE SOMERSET, BEAUFORT es un noble que puede formar parte
+de una facción (controlada por un jugador o por la computadora)
+Si todos los herederos al trono del lado de Lancaster están muertos,
+Beaufort puede ser coronado rey. De hecho, Beaufort llega a
+cuarto lugar en la sucesión de Lancaster. Sin embargo, si
+el único otro heredero vivo es un heredero coronado de York,
+La facción de clasificación de York gana el juego, independientemente del estatus.
+de Beaufort. En todos los demás contextos, Beaufort es equivalente
+a cualquier otro Noble.
+
+CAPTURAR HEREDEROS REALES
+La captura de los herederos reales se produce cuando los nobles 
+de una facción ocupan la misma región del mapa. si el heredero
+está acompañado por nobles de otras facciones, debes 
+Primero gana la batalla contra el enemigo antes de capturar.
+el heredero. Si el heredero real ocupa una ciudad, pueblo o
+un castillo, sólo puedes capturarlo mediante asedio: Fuerza
+tropas totales de los nobles que intentan capturar
+el heredero real debe ser igual o mayor que la guarnición
+de la ciudad/castillo. Cada castillo, ciudad y villa fortificada
+tiene una guarnición.
+
+LOS HEREDEROS REALES AL INICIO DEL JUEGO
+En cada parte, los herederos reales parten del mismo
+lugares. Aquí está la lista de estos puestos así como sus
+guarnición, de todas las demás tropas que allí se encuentren.
+y el nombre de la sede que otorga la posesión de este lugar
+al noble que lo posee.
+ENRIQUE VI: Londres. La capital está dirigida por el regente de
+la Torre, que puede apoderarse directamente de Henry. De lo contrario, el
+requiere al menos 300 tropas para asediar Londres, e incluso
+más si otra facción tiene tropas en el
+citado. (Quien comanda al regente de la Torre tiene al menos
+menos 250).
+MARGUERITA DE ANJOU: Coventry. Se necesitan al menos 200 soldados
+asediar esta ciudad fortificada y más aún si una
+otra facción lleva sus tropas allí.
+EDUARDO, PRÍNCIPE DE GALES: Kenilworth. lo mismo para el numero 
+de tropas.
+BEAUFORT: Como ya hemos mencionado, Beaufort es
+un caso especial pero entra al juego con un estado de
+noble ordinario.
+RICARDO, DUQUE DE YORK: York. Esta ciudad está dirigida por
+el arzobispo de York que puede capturar directamente a Richard.
+De lo contrario, York requiere una fuerza mínima de 300 soldados o más.
+si otra facción tiene tropas allí (y cualquiera
+quien manda el Arzobispo tiene al menos 30).
+EDWARD, CONDADO DE MARCHE: Harlech. Este castillo real es 
+encabezado por el Mariscal de Inglaterra, quien puede directamente
+capturar a Eduardo. Se necesita una fuerza de al menos 200 soldados
+para asediar Harlech. El que manda al Mariscal en
+tiene al menos 100.
+EDMOND, CONDADO DE RUTLAND: Irlanda. La isla de Irlanda está gobernada.
+por el teniente de Irlanda que puede capturar a Edmond directamente.
+mento. Si ninguna facción comanda al teniente, Edmond puede
+ser capturado con fuerza mínima (aún necesitas
+un barco), porque ninguna guarnición protege al Conde. Sin embargo,
+si otra facción manda al teniente y lo envía a vigilar 
+Edmond, este noble debe tener al menos 250 tropas y ganar.
+las batallas en Irlanda antes de que pudiera capturar a Edmund.
+JORGE, DUQUE DE CLARENCIA: Cárdigan. es una ciudad
+abierto, sin guarnición. El primero en alcanzarlo puede fácilmente
+agarrarlo.
+RICARDO, DUQUE DE GLOUCESTER: Calais. Esta ciudad está comandada
+por el Capitán de Calais, que puede apoderarse directamente
+de Edmundo. De lo contrario, se necesitan al menos 200 tropas para asediar
+Calais. Quien manda al Capitán tiene al menos un
+350. Además, la fuerza sitiadora debe ser transportada por
+barco. Por estas razones, Richard no suele ser capturado
+durante el juego pero muere cuando la plaga llega a Calais.
+
+ESTRATEGIA DE SALIDA
+Una de las partes más importantes del juego es
+Planea la captura de un heredero real sin correr ningún riesgo.
+La táctica inicial de tu facción debe estar orientada a 
+primer lugar hacia la captura de al menos un heredero real.
+Saber elegir al heredero adecuado se convierte entonces en una cuestión
+equilibrio entre las diferentes variables. que tan lejos
+¿Están ubicados los miembros de tu facción Heredera?
+¿Cómo se conserva al heredero? ¿Hay algún noble en el
+parte que pueda capturar fácilmente al heredero en vista de la
+asiento que ocupa?
+Tomemos un ejemplo: Neville, conde de Warwick, inicia la
+parte cerca de Kenilworth, Cardigan o York. Tiene auto-
+automáticamente 50 tropas. Sólo él puede capturar a Clarence.
+en Cardigan, si Herbert no lo derrota allí. Si recibe ayuda de
+150 tropas adicionales, puede capturar York desde
+primera ronda; tiene la posibilidad de entrar a la ciudad si
+la facción tiene al arzobispo bajo su poder. es esto 
+flexibilidad que convierte a Warwick en un noble poderoso.
+ 
+ORDENAR LOS HEREDEROS REALES
+Una vez que la facción ha capturado a un heredero real, puede
+comenzar a eliminar a sus rivales y hacer coronar Rey a este heredero.
+Cada facción puede comandar a más de un heredero real, pero no puede
+no puede pertenecer a las dos familias reales (los Lancaster y
+York) durante más de dos rondas consecutivas. Después de cual
+de los dos herederos debe ser ejecutado.
+Una facción puede ejecutar a un heredero real bajo su control en cualquier momento.
+momento. Se le pregunta si desea ejecutar a un heredero del
+momento en que es capturado. A continuación, haga clic en el nombre del heredero.
+en el árbol de genios y elige si quieres ejecutarlo
+o no.
+Cuando capturas herederos reales, se les asigna uno
+nobles del ejército. La marioneta real en cautiverio ahora sigue
+tu ejército y permanece bajo tu control hasta que sea
+nuevamente capturado o asesinado. (La presencia de un heredero real junto
+del ejército te da una ligera ventaja en la efectividad de
+luchando) pero por lo demás sólo constituye un objetivo para otros
+facciones. Asegúrese de proteger a sus herederos
+desplegando grandes fuerzas que te cubrirán incluso durante
+malas sorpresas. 
+
+CORONACIÓN DE HEREDEROS REALES
+Para ganar el juego debes comandar al último heredero real.
+coronado. Para ello son necesarias dos condiciones: primera,
+el último heredero superviviente debe haber sido coronado y 
+en segundo lugar, los demás herederos deben haber muerto. algunos
+Es posible que tus enemigos lo hayan matado. Otros pueden ser
+caído en tus manos gracias a la victoria de una batalla o
+de un asiento. Cuando capturas herederos reales, depende de ti 
+elegir el momento más favorable para realizarlas. dado
+que te pongas del lado de una de las dos casas reales,
+Algunas decisiones son evidentes. Por otro lado, saber cuándo
+"perder" exactamente a un segundo miembro de la misma casa real es más 
+complicado. La segunda misión que se te asigna es organizar
+la coronación de uno de tus herederos reales. Estos últimos no
+sólo pueden ser coronados según el orden de sucesión de sus
+casas. Margarita de Anjou, por ejemplo, puede ser coronada
+sólo después de la muerte de Enrique VI y Eduardo, Príncipe de Gales,
+puede convertirse en rey una vez que Margarita de Anjou se una a ella
+marido en la tumba.
+Nota: Puede haber dos reyes: un partidario de York
+y un partidario de Lancaster. Además de esta norma sobre antigüedad
+válido dentro de cada casa, otras condiciones deben ser 
+lleno para permitir una coronación:
+(1) El heredero debe ocupar una catedral. Varios pueblos o ciudades
+tener catedrales; ciudades poderosas como Londres o
+York hasta otros más pequeños como Lincoln o Exeter, y hasta pequeños
+centros como Salisbury o St David's.
+(2) El heredero debe estar acompañado por al menos un noble de su
+facción.
+(3) El heredero debe estar acompañado por al menos un arzobispo o 
+dos obispos. 
+Si se cumplen estas condiciones, su heredero real es automáticamente
+finalmente coronado Rey.
+Una vez que mandas a un rey coronado, tienes el poder 
+convocar al Parlamento. Esto le permitirá traer mercancías.
+bonificaciones a los nobles de tu facción. Este poder en las manos
+de la facción del rey sólo es posible cuando hay más
+de un rey: si tiene un rival, es el canciller quien ostenta el
+poder. La desventaja es que se puede enviar un rey aislado.
+en diferentes regiones del país para reunirse con embajadas
+de países extranjeros. Esta acción puede ser muy torpe porque
+Puede frustrar tus planes y dividir un ejército seguro.
+en dos fuerzas pequeñas y vulnerables. El hecho de que Enrique VI fuera
+aislado cuando comienza el juego puede hacer que sea fácil de
+captura, si se le llama fuera de Londres a una ciudad sin
+fortificación.
+ 
+FACCIONES
+Antes de que comience la sangrienta lucha por la corona, tú
+Necesitas saber quién te apoya y cuáles son tus recursos.
+Al inicio del juego, aparece una imagen con la tarjeta del juego a la izquierda. 
+toda Inglaterra, arriba a la derecha el cuadro TREN
+Una FACCIÓN y la parte inferior derecha controla la CONSTRUCCIÓN DE FACCIÓN
+El número de facción aparece en la parte superior derecha del formulario.
+lleva el nombre de un jugador por facción. Para el mapa, varias ciudades,
+pueblos y castillos tienen diferentes colores: lugares
+El oro pertenece a los nobles de tu facción. los puntos rojos
+representan las diferentes ubicaciones donde se encuentran sus pertenencias. 
+Los puntos blancos y rosados corresponden a la ubicación de los herederos.
+miembros de la realeza.
+
+LA CAJA FORMA UNA FACCIÓN
+En el cuadro Formar una facción en la parte superior derecha de la pantalla, vaya
+encuentra una lista de nobles; algunos tienen títulos, otros no.
+Estos son los primeros miembros de tu facción. La pantalla le muestra su
+nombre, su título (si lo tiene) y el número de tropas que están
+están bajo su mando directo en ese momento.
+También hay un cursor que posicionas con el puntero.
+el ratón. Para desplazarse hacia arriba o hacia abajo, haga clic en
+con el botón izquierdo del ratón sobre uno de los botones del primero
+fila debajo del cuadro Formar una facción. Estos botones están en orden:
+DOS FLECHAS ARRIBA: desplaza un noble hacia arriba
+FLECHA ARRIBA: desplazarse una línea hacia arriba
+UNA FLECHA ABAJO: Desplácese hacia abajo una línea
+DOS FLECHAS ABAJO: desplaza un noble hacia abajo.
+También puedes posicionar el cursor haciendo clic en uno
+Lugares marcados en rojo u dorado en el mapa. Si Londres,
+por ejemplo, está indicado en rojo, haga clic en él; el cursor
+se mueve para mostrar la sede del Regente de la Torre, una propiedad que
+Garantiza la posesión de la ciudad al noble que ostenta la sede.
+Durante el juego, puedes regresar a la CAJA DE FACCIÓN DE FORMATO.
+haciendo clic en el icono de FACCIÓN.
+
+LA PRIMERA FORMACIÓN DE FACCIÓN
+Tu primera misión como Kingmaker hambriento de poder
+Consiste en asignar a los nobles los bienes que has recibido. Haga clic
+Botón Noble hacia arriba varias veces para desplazarse
+la lista de tus pertenencias. Cada facción comienza con una variedad de
+fuerzas elegidas al azar. Dependiendo del número de facciones comandadas por 
+la computadora que eligió durante la secuencia de inicio,
+posees de 6 a 18 nobles, así como otros bienes disponibles.
+Algunas, como las ciudades independientes, no están incluidas en
+esta lista pero están en su poder en el mapa principal.
+NÚMERO DE FACCIONES (incluida la del jugador)
+2 = 18 bienes
+3 = 12"
+4=9"
+5=7"
+6=6"
+
+Ahora puedes leer la información en la Crónica sobre
+estos elementos.
+Todo lo que queda es asignar estos bienes a tus nobles seleccionando uno; el
+Aparece resaltado y sus castillos comienzan a parpadear.
+
+LOCALIZA A LOS HEREDEROS REALES 
+El mapa principal te muestra los puntos de partida de tus herederos.
+royal: puntos blancos para York y puntos rosas para Lancaster. 
+
+ASIGNAR PROPIEDAD
+Después de seleccionar un noble, desplácese por la lista de bienes.
+de tus facciones (o selecciona ubicaciones rojas en el mapa)
+que se encuentran cerca de los castillos de tus nobles). Si haces clic en 
+un activo, se resalta y cualquier lugar vinculado a este activo se
+comienza a parpadear. Puedes seleccionar varios productos del mismo
+manera de asignarlos a tus nobles. Luego haga clic en el noble
+elige.
+
+IDENTIFICAR FACCIONES
+Tu facción siempre se muestra en verde.
+
+OBSERVAR AL ENEMIGO
+Puedes vigilar a otras facciones usando el
+mapa completo y la opción RECAPITULAR: UNA PEQUEÑA BANDERA CON
+Un signo de interrogación después de hacer clic en la flecha derecha 
+en la parte inferior izquierda del cuadro de información.
+
+PUNTOS DE PARTIDA
+Cuando hayas terminado de asignar tus fuerzas, haz clic en el botón
+continuar - FLECHA HACIA LA DERECHA -, seleccione un punto de inicio para 
+cada uno de tus nobles: sus castillos personales están representados por 
+Se indican puntos dorados parpadeantes y otras ubicaciones (asientos, etc.)
+en rojo. Tu facción iza su bandera, proclamando su candi
+fecha en el poder.
+
+BOTÓN COMBINAR: CUATRO FLECHAS DIRIGIDA HACIA EL CENTRO 
+La lista se reconfigura automáticamente y los bienes asignados a un noble
+se colocan directamente debajo de su nombre. Haz lo mismo con los demás
+nobles. Si cometiste un error, haz clic en un noble y en el
+Botón SCATTER: 4 FLECHAS EN DIFERENTES DIRECCIONES.
+
+SECUENCIA DE JUEGO
+El juego continúa en diferentes rondas, hasta que una facción se llena.
+las condiciones de la victoria, es decir gobernar al único heredero
+real que queda y coronarlo Rey de Inglaterra.
+Durante cada turno, cada facción pasa por 6 fases:
+FASE DE LOS ACONTECIMIENTOS: los caprichos del azar.
+FASE DE VIAJE: la oportunidad de trasladarse en parte o en su totalidad
+tus puntos fuertes.
+FASE DE COMBATE: Se resuelven todas las batallas y asedios.
+FASE DEL PARLAMENTO: El Rey (si hay uno solo) o el Canciller
+puede convocar al Parlamento.
+FASE DE CORONACIÓN: el primer heredero real en el orden de
+puede coronarse la sucesión de una de las dos Cámaras.
+FASE DE REFUERZO: Cada facción recibe fuerzas adicionales,
+que se puede asignar inmediatamente o mantener oculto.
+
+ORDEN DE JUEGO
+La facción que ocupa el puesto de Canciller se mueve primero,
+seguido por todos los demás por turno. Si el asiento del Canciller
+no está en juego, el clérigo de mayor rango en la siguiente lista 
+determina qué facción comienza primero:
+Arzobispo de Canterbury, Arzobispo de York, Obispo de Durham, Obispo
+de Carlisle, obispo de Lincoln y obispo de Norwich. Si esto no se soluciona
+No es la cuestión de qué facción tiene el mayor número de tropas.
+movimientos permanentes primero.
+
+EL MAPA DE LAS REGIONES
+El juego ahora pasa a la pantalla del mapa de regiones.
+
+CONTROL DEL JUEGO
+A la derecha de la pantalla hay un cuadro de información, así como el
+siguientes iconos:
+ESCUDO SUPERIOR IZQUIERDO: CLAVE DE CONSTRUCCIÓN DE FACCIÓN
+SUPERIOR MEDIO: ÁRBOL GENEAOLÓGICO
+ARRIBA DERECHA: APOYO SECRETO durante la fase de refuerzo del juego,
+A las facciones se les pueden unir nobles adicionales.
+MEDIO IZQUIERDA: LLAVE CRÓNICA
+EN EL MEDIO: REVISIÓN
+MEDIO DERECHA: ¿DÓNDE ESTÁ...?
+ABAJO IZQUIERDA: OPCIONES PARA GUARDAR JUEGO
+ABAJO MEDIO:OPCIONES DE JUEGO
+ABAJO DERECHA: CABALLOS NUEVOS
+
+CLAVE DE FORMACIÓN DE FACCIÓN
+esta clave te devuelve al cuadro de facción que te permite traer
+cambios en la formación de tu facción.
+También puede utilizar el botón de resumen para observar
+las posiciones de los ejércitos de otras facciones y las de los herederos
+miembros de la realeza.
+ÁRBOL GENEALÓGICO
+puedes obtener informacion sobre los herederos reales gracias
+con el icono del árbol genealógico
+este árbol enumera los herederos reales por casa y en orden de 
+precedencia. Cuando un heredero real ha sido asesinado, su nombre se "tacha".
+Cuando es capturado por una facción, una barra del color de
+Se muestra la facción. Si fue coronado Rey, aparece una corona
+junto a su nombre.
+LLAVE CRÓNICA
+Utilice los menús para obtener información detallada sobre el
+diferentes partes del juego. Haga clic en el artículo que desee
+leer.
+RECAPITULAR
+Este botón le permite descubrir la ubicación de los herederos. 
+enemigos reales y nobles.
+OESTE... ?
+Utilice esta opción para buscar nobles, herederos.
+reyes, obispos, ciudades o cualquier otro elemento.
+
+OPCIONES DE GUARDADO DEL JUEGO
+Puedes guardar hasta 8 juegos en tu disco duro. Haga clic
+en un curso para resaltarlo, escriba un nombre
+sencillo y presione regresar. Haga clic en Mantener juego y 
+volver al juego.
+
+CABALLOS FRESCOS
+Esta opción registra cuántos caballos frescos tiene tu facción.
+posee. 
+
+LA FASE DE MOVIMIENTO
+Al comienzo de tu turno, el mapa de la región se centra en
+uno de tus nobles. Los nobles están representados en el mapa de
+regiones por sus escudos heráldicos. Si el mismo ejército
+Incluye dos o más nobles, sólo aparece el más alto.
+Pulsa la barra espaciadora si no quieres
+mueve un ejército, presiona TAB si quieres mover
+esta fuerza más adelante en tu turno. Para mover a un noble o
+un ejército individualmente, mueve el puntero en el mapa 
+donde quieres ir. Haga clic en la región para
+que el ejército se mueve allí. Cada ejército puede moverse a través de 5 regiones.
+se indica el número de movimientos que quedan por hacer
+en su escudo.
+CABALLOS FRESCOS
+Quedan registrados en su Tablero de pedidos. caballos frescos
+te permite mover un heredero noble o real por 4
+cajas adicionales (2 en caso de mal tiempo).
+
+Si quieres que el ejército ocupe directamente una ciudad o una
+castillo, haga clic en su símbolo. Para poder ingresar al
+castillos o ciudades, la fuerza de las tropas de los visitantes no debe
+no exceder la capacidad del lugar: 
+ciudades sin fortificación: sin límite
+pueblos normales: 400
+citado: ilimitado
+castillos nobles: 300
+castillos reales: 300
+Si la fuerza de las tropas es demasiado alta, deben dividirse.
+dejar entrar sólo una parte. Los demás se quedan afuera.
+Para dividir un ejército haz doble clic con el botón izquierdo del
+ratón en su escudo. Verás una lista de nobles mostrada.
+y los herederos de este ejército. Selecciona los que quieras
+ver permanecer juntos haciendo clic en su nombre con el botón izquierdo.
+Luego haga clic en el botón Combinar y luego en el botón Continuar.
+Los ejércitos también pueden moverse en barco. Cada noble comienzo
+el recorrido en un puerto amigo en el que también posee un barco
+puede embarcarse y viajar en el mar. Presta atención a la capacidad del barco,
+Lo mismo que para entrar a las ciudades.
+
+FASE DE COMBATE
+Cualquier ejército que finalice su movimiento en la misma región que un
+El ejército enemigo puede atacar al enemigo durante la fase de combate. si
+mueves un ejército hacia el escudo enemigo aparece un mensaje
+para decirte que estás luchando contra el enemigo. Aparece un cuadro en
+detallando las fortalezas presentes en esta región y dentro de usted
+preguntando si quieres realizar un ataque o evitarlo. 
+El resultado de una batalla se decide mediante un simple cálculo: las fuerzas
+presentes se comparan y expresan como proporción.
+Puede ser mayoría simple: 5-4,3-2,2-1,3-1 o 4-1. el
+La tasa siempre se redondea a favor de la fuerza más pequeña. Por
+Por ejemplo, si una fuerza de 410 soldados atacara a un ejército de 250
+solamente, la proporción es 1,95-1, que cae entre 3-2 y
+3-1. El resultado de la batalla muestra los nombres de los nobles asesinados.
+en combate. Todos los nobles supervivientes del campo derrotado son 
+capturados y pueden perder muchas de sus fuerzas
+por rescate. Es posible una emboscada por parte de un pequeño ejército,
+El objetivo es matar a un noble importante. Por cada noble capturado,
+se le preguntará si desea ejecutarlo, envíelo a un
+rescatarlo o liberarlo. Si es ejecutado, un noble es despojado de su
+facción con los bienes que le pertenecen. Sus títulos y asientos
+se ubican en Cancillería, sus ciudades y castillos se convierten
+neutral y todos sus ocupantes son expulsados. Si es liberado, el
+El noble regresa a la fiesta con todas sus posesiones. ¿Cuál es el punto?
+Recuerda qué es la rivalidad entre facciones: mata a un
+El noble ciertamente lo elimina del juego, pero su facción no lo olvidará ni lo olvidará.
+tal vez nunca perdone... 
+
+REGLAS DE BATALLA DIFÍCILES
+Seleccione Comando cuando se le ofrezca atacar o
+defender. A diferencia de la resolución normal de conflictos,
+Vas al campo de batalla para tomar el mando.
+de tu ejército. Antes de la batalla, distribuye tus fuerzas entre sus 
+ubicaciones en el campo de batalla, bajo el mando de
+nobles presentes. Tu ejército se compone de dos formaciones: una
+primera fila y una reserva. Cada uno se divide en un ala derecha,
+un centro y un ala izquierda, según el orden militar del día.
+Selecciona uno a uno a los nobles, herederos o mercenarios.
+preséntelos y colóquelos en una de las seis "ranuras" disponibles.
+Por ejemplo, puedes colocar al noble más alto en el centro.
+del primer rango. El primer noble colocado en cada puesto manda. 
+este batallón una vez que comience la lucha. Una vez que tu fuerza
+arreglado, la acción luego cambia al campo de batalla. tu
+El ejército, VESTIDO DE ROJO, con sus banderas verdes izadas, se despliega
+en dirección opuesta a la de los oponentes. Tus nobles
+Aparecen montados en caballos negros bajo una bandera. el
+Los herederos que tienes aparecen en caballos blancos.
+PARA MOVERSE POR EL CAMPO DE BATALLA, mueva el cursor y
+presione el botón izquierdo del mouse. En la parte superior de la pantalla está
+encuentra una barra de menú que se utiliza para controlar la acción.
+PEDIDOS
+Puedes dar órdenes a cada compañía (15 hombres) 
+individualmente o, dando órdenes al noble, al conjunto 
+del batallón, seleccionando haciendo clic en el botón derecho
+del ratón, moviendo el cursor al lugar donde
+quieren que se vaya el seleccionado. Si seleccionó un
+noble o un soldado enemigo, aparecen dos iconos:
+UN HOMBRE CON UNA BARRA DERECHA: su empresa está intentando acercar
+este objetivo en combate, siguiéndolo sin parar. 
+DIEZ PUNTOS EN UN CÍRCULO: el ícono de “región”, tus hombres se están moviendo
+en la región objetivo. Si un noble está a cargo, será necesario
+También elige entre el icono de FLECHA si quieres que tu
+las tropas avanzan hacia el ataque, o el icono de ESCUDO si
+Quiero que se detengan inmediatamente. Tan pronto como lleguen a
+rango del enemigo, tus arqueros comienzan a disparar y tu
+los hombres con lanza luchan automáticamente con las tropas
+enemigos. La batalla continúa hasta que uno de los eventos
+ocurre lo siguiente: 
+(1) uno de los ejércitos huye completamente del campo de batalla.
+es una victoria decisiva.
+(2) la mitad o más de la mitad de cada ejército huye,
+en cuyo caso la batalla es indecisa.
+
+PREPARAR UNA CORONACIÓN
+Para que una facción corone a un heredero real, las condiciones 
+se debe completar lo siguiente:
+(1) deben ordenar al heredero de mayor edad en la línea
+York o Lancaster, según el orden de sucesión de los
+casa.
+(2) el futuro rey debe ocupar un pueblo o ciudad que también sea
+una catedral y debe estar acompañado por uno o dos arzobispos
+obispos.
+
+Instrucciones finales:
+ALT-X PARA SALIR DEL JUEGO
+BARRA ESPACIADORA PARA FINALIZAR EL TURNO DE ESTE NOBLE
+
+PESTAÑA PARA IR AL SIGUIENTE NOBLE

@@ -1,0 +1,1398 @@
+FILA DE DESLIZAMIENTO
+
+                               presenta
+
+              EDICIÓN DE LUJO DE FÚTBOL ESTRATEGICO DE TOM LANDRY
+
+Guía de referencia técnica
+
+Requisitos de amigos
+
+Tom Landry Strategy Football Deluxe Edition ofrece más funciones que cualquier otra
+otro juego de fútbol en Amiga y requiere mucha memoria.  Para esto
+Por este motivo, recomendamos encarecidamente un disco duro y 1,5 megabytes de RAM.  
+Aunque TLSF Deluxe se ejecutará en sistemas con 1 MB de RAM, es posible que encuentre
+dificultades, especialmente si carga Workbench y tiene ventanas abiertas.
+Si su máquina tiene sólo 1 MB de memoria, es posible que deba iniciar desde una copia
+del Disco 1 de TLSF Deluxe.  (¡Juega siempre con copias de los discos originales!)
+El TLSF Deluxe Editor se ejecuta fácilmente en 1 MB.
+
+Instalación de TLSF Deluxe en su disco duro
+
+(1) Arranque desde su disco duro, no desde el disco del juego.
+(2) Abra el disco con la etiqueta DTLSF1.
+(3) Haga doble clic en el icono Instalar DTLSF.  Se le pedirá que
+seleccione una partición o cajón donde desee TLSF Deluxe.  si lo deseas
+Para omitir este paso o no utilizar el archivo de inicio del usuario, necesitará
+para hacer las asignaciones usted mismo.  Las tres asignaciones son DTLSF1:, DTLSF2:,
+DTLSF3:, y los tres deben hacer referencia al directorio creado por el
+programa de instalación.
+           
+NOTA: El programa de instalación modifica su archivo de inicio de usuario para hacer
+las asignaciones necesarias para ejecutar TLSF Deluxe.  Si desea evitar esto 
+paso, o no utilice el archivo de inicio del usuario, deberá realizar el
+se asigna a sí mismo.  Las tres asignaciones son DTLSF1:, DTLSF2:, DTLSF3: y
+los tres deben hacer referencia al directorio creado por la instalación
+programa.
+
+Comenzando el juego
+
+(A) Desde Workbench: abre el disco DTLSF1 y haz doble clic en el juego.
+icono, etiquetado FÚTBOL.
+(B) Usuarios de CLI: Vaya al cajón DTLSF y escriba Fútbol y el
+El juego se cargará y ejecutará por ti.
+
+Nunca juegues con tus originales
+
+Los discos no están protegidos contra copia porque creemos que debería tener la
+confianza al realizar copias de seguridad de sus discos, así como copiar el programa a
+su disco duro.  Muchos otros editores no le ofrecen esta opción.
+Por favor, demuéstreles que están equivocados no abusando de nuestra confianza.  Pasa la palabra, no la
+disco!  Si estás jugando desde tus copias de seguridad del original
+discos, debe asegurarse de que los discos se llamen DTLSF1, DTLSF2 y
+DTLSF3, ya que el programa tendrá que buscar determinados archivos.
+
+Validación de usuario
+
+Siguiendo la secuencia de créditos iniciales se encuentra la pantalla de validación del usuario.
+Esta pantalla muestra un diagrama de juego ofensivo y le solicita que ingrese un 3-
+contraseña de caracteres impresa en la Guía del usuario de TLSF Deluxe.  Dirígete a la
+página de la Guía del usuario que muestra exactamente el mismo diagrama de juego ofensivo.
+Localice la contraseña correcta impresa debajo del diagrama e introdúzcala
+contraseña desde su teclado.  Si ha introducido la contraseña correcta,
+Aparecerá la pantalla principal de TLSF Deluxe.
+
+(¡A la mierda, SKID ROW rompió a esta perra!)
+
+Cargando el editor TLSF Deluxe
+
+El editor TLSF Deluxe es una aplicación independiente.
+(A) Desde Workbench: abre el disco DTLSF1 y haz doble clic en el juego.
+icono, denominado EDITOR.
+(B) Usuarios de CLI: vaya al cajón DTLSF y escriba Editor.
+
+No hay suficiente memoria
+
+Banco de trabajo, unidades de disco, particiones de disco duro y aplicaciones en segundo plano
+todos ocupan memoria.  Si sólo tienes 1 Megabyte de RAM, puede que lo encuentres
+necesario para arrancar desde su copia del disco DTLSF1.  Este método de
+ejecutar el programa pasa por alto Workbench e inicia el partido de fútbol
+directamente.
+
+Reproducción por módem
+
+Reproducción de AMiga a PC compatibles.  Porque la arquitectura de Amiga es diferente
+de PC compatibles, las ligas TLSF Deluxe deben convertirse si son
+para ser compartido entre las dos plataformas.  Para evitar confusiones, la conversión
+El programa sólo existe en Amiga.  Por lo tanto, si envías una liga desde tu
+Amiga a una PC, primero debes convertirlo.  Asimismo, cuando reciba un
+liga desde una PC a tu Amiga, conviértela al recibirla.
+
+Ejecución del programa de conversión de liga.  Desde la CLI, escriba convert_lg
+en el indicador CLI.  Desde Workbench, haga doble clic en el icono Convert_lg.
+Luego se le pedirá el nombre de la liga de entrada para convertir,
+luego el nombre de la liga convertida que se está creando.  La corriente y
+Las nuevas ligas deben tener nombres diferentes.
+
+NOTA: Si está ejecutando el programa de conversión desde Workbench,
+tendrás que cerrar la ventana cuando hayas terminado.
+
+Solución de problemas.  Los usuarios con módems de alta velocidad a veces pueden encontrar
+dificultades porque su módem está forzando el control de flujo.  si tu 
+Si tiene algún problema al conectarse usando su módem de alta velocidad,
+debe desactivar el control de flujo XON/XOFF y RTS/CTS.  sugerimos el
+siguientes pasos:
+
+   (1) Desde la pantalla principal, seleccione CONECTAR para ir a la pantalla de telecomunicaciones.
+   (2) En la pantalla de telecomunicaciones, ingrese la siguiente cadena en la respuesta
+   cuadro de cadena: AT&K (esto desactiva todo el control de flujo).
+   (3) Si eres el contestador automático, ahora ingresa tu cadena de respuesta
+   (ATS0=1, ATA, etc.).  Si lo deseas, puedes guardar tu cadena de respuestas.
+   como: AT&K S0=1 o AT&K ATA, etc.
+   (4) La máquina de marcado funciona normalmente.  De nuevo, si lo deseas,
+   puedes incluir AT&K en tu cadena de marcado.  Usuarios con llamadas
+   la espera puede ser interrumpida durante el juego.  Le sugerimos incluir el
+   comando para desactivar la llamada en espera en su comando de marcación.  Consulta tu
+   compañía telefónica local para determinar el comando; *70 es un ejemplo.
+
+ 
+                             GUÍA DEL USUARIO
+
+Empezando
+
+Unas palabras del entrenador Landry
+
+Me han preguntado muchas veces qué se necesita para tener éxito
+entrenador en jefe de fútbol.  ¿Es preparación?  ¿Conocimiento?  Personal
+y habilidades de gestión del tiempo?  ¿Dedicación?  ¿Determinación?
+
+La respuesta no es ningún secreto: se necesitan todos estos factores y mucho
+es más, ¡incluso un poquito de suerte!
+
+Tom Landry Strategy Football (TLSF) es el primer fútbol estratégico
+Juego que pone a prueba tu capacidad de entrenamiento en todas estas áreas.  en
+De hecho, TLSF es más que un simple juego, es una simulación de fútbol que
+te ofrece todo lo que los verdaderos entrenadores tienen a su disposición, ¡y más!
+
+Aunque el coaching profesional es un negocio complicado, hemos diseñado 
+TLSF para que puedan disfrutarlo tanto principiantes como expertos.  extenso
+ayuda en línea (que incluye conceptos básicos, reglas y terminología del fútbol)
+Está disponible si lo deseas.  Además, en la opción Preguntar a Landry, comparto mi
+consejos y filosofía en numerosas situaciones de juego, basadas en abajo y
+distancia, posición en el campo, puntuación y tiempo restante.  Y jugar-llamar
+es fácil: simplemente apunte y haga clic y su equipo estará listo y funcionando.
+
+El fútbol ha sido una parte muy importante de mi vida y estoy feliz de poder
+Comparto algo de mi experiencia como entrenador contigo en TLSF.  Incluso si tu
+No aspires a convertirte en entrenador de fútbol profesional, espero que TLSF mejore.
+mejorar su comprensión y aumentar su disfrute del fútbol, ya sea como
+un jugador o un aficionado.
+
+                                           Tom Landry
+Notas del diseñador:
+
+Nuestro objetivo al diseñar TLSF Deluxe Edition era crear la versión más
+entretenido juego de fútbol del mercado.  Una razón por la que tenemos confianza
+hemos conseguido este objetivo es que hemos dedicado mucho tiempo
+evaluar solicitudes y sugerencias de los propietarios de la versión original
+de TLSF.  De hecho, casi todas las mejoras de este Deluxe
+La edición de TLSF surgió como resultado del valioso aporte de nuestro
+usuarios.
+
+Queríamos hacer de TLSF Deluxe algo más que un juego entretenido.
+sin embargo.  La amplia implicación del entrenador Landry en el proyecto en el
+forma de consejos, sugerencias y críticas ha ayudado a que TLSF
+Deluxe la simulación de fútbol más completa y realista
+encontrarás, con énfasis en la estrategia de fútbol real.
+
+Con el Editor de Ligas puedes crear ligas Universitarias o Profesionales
+equipos y crear temporadas profesionales de 16 juegos (usando reglas profesionales para
+crear parejas).  Tienes acceso para modificar todo el equipo y
+atributos individuales, incluidos los colores del equipo y entrenamiento detallado
+estrategias.
+
+En la Liga, puedes intentar llevar a tu equipo a los playoffs y
+el Juego de Campeonato.  A lo largo de la temporada, puedes ver el
+clasificaciones de división, líderes de liga y estadísticas de temporada de los equipos.  hay
+incluso un "Resumen del domingo por la noche" en el que puedes recapitular todos los juegos
+de la semana actual (las películas capturan automáticamente todas las jugadas de puntuación
+para que puedas verlo en repetición instantánea).
+
+Por supuesto, tendrás que enfrentarte a penalizaciones reales (algunos equipos reciben
+marcado más que otros), lesiones (perder a su mariscal de campo por la
+la temporada hace que tu tarea sea bastante difícil) y el clima.
+
+En los juegos de exhibición, hemos incluido un editor de escenarios.  un completo
+clínica de entrenamiento, el Editor de escenarios le permite crear cualquier
+escenario que quieras y juégalo.  Quizás quieras ver cómo
+¡lo harías en un ejercicio de dos minutos, menos de 4, en una tormenta de nieve!
+
+¡Y con un módem, puedes jugar contra tus rivales de entrenadores en otras ciudades!
+
+Nuestro enfoque modular para playcalling es el más flexible y potente
+interfaz en cualquier juego de fútbol.  Tienes literalmente miles de jugadas.
+disponible para usted: un "libro de estrategias sobre la marcha", como en la vida real.
+Sin embargo, ¡también encontrarás que jugar con llamadas es simple e intuitivo!
+
+Con todas estas características y más, esperamos que encuentres TLSF Deluxe
+ser el juego de fútbol de estrategia definitivo, que te proporciona la
+experiencia de entrenamiento completa, simulando todas las "herramientas del oficio"
+que tienen los entrenadores en el campo.
+
+Kerry Batts
+
+Antes de jugar
+
+A continuación se detallan algunos puntos importantes que debes conocer antes de jugar.
+TLSF Deluxe:
+
+1. Los juegos son Programados o de Exhibición.  En los juegos programados,
+Las selecciones de equipos se limitan a los emparejamientos de una semana determinada en
+lo programado.  En los juegos de exhibición, puedes seleccionar dos equipos cualesquiera.
+para jugar y podrá modificar las condiciones del juego.
+
+2. Al utilizar la opción Telecom, usted es responsable de garantizar
+que ambos jugadores estén usando la misma liga.  Si juegas un programa programado
+juego, ambos jugadores también deben usar el mismo horario y estar en el mismo 
+misma semana.
+
+3. En los botones "ciclo" (que recorren una lista de opciones), haciendo clic
+en el lado derecho del botón avanza por la lista; haciendo clic
+en el lado izquierdo retrocede en la lista.
+
+4. No pase por alto la gran cantidad de información disponible para usted en el
+Ayuda en línea.  Hemos incluido un glosario de términos de fútbol, descripciones
+de formaciones ofensivas y defensivas, jugadas de carrera y pase,
+y mucho más.  Si desea saber más sobre qué patrones de pase
+lanzar contra la cobertura de zona, o cómo defenderse mejor contra la carrera,
+¡Está todo aquí!
+
+5. Incluso en juegos programados, ve al Editor de escenarios para obtener información previa al juego.
+información sobre las condiciones del juego.
+
+6. Ubique el GO! botón en la esquina inferior derecha.  Este botón es
+Se utiliza para salir de la mayoría de las pantallas.  Otros botones en el panel inferior permiten
+guardar y cargar juegos y salir del juego.
+
+7. En la pantalla de defensa, aparece el área de juego en miniatura al hacer clic.
+abre un cuadro de diálogo que describe la formación ofensiva de tu oponente y
+lado fuerte.
+
+8. El editor TLSF es un programa de utilidad ejecutable independiente.
+desde la aplicación principal de TLSF Deluxe.  Por favor consulte con su TLSF Deluxe
+Guía de referencia técnica para obtener instrucciones sobre cómo cargar el TLSF
+Editora.
+
+9. Las ligas (y los horarios personalizados que están vinculados a esas
+ligas) que cree y guarde en el Editor TLSF aparecerán en
+el menú Cargar una liga en la aplicación principal de TLSF Deluxe.
+
+Juego de liga
+
+Jugar juegos programados
+
+Los calendarios de la temporada de TLSF Deluxe incluyen 16 juegos y tres rondas de playoffs,
+con el Juego de Campeonato Landry Bowl (consulte el Apéndice C para saber cómo se realizan los playoffs).
+los equipos están determinados).  Desde la pantalla principal, alterna el tipo de juego.
+botón de Exposición a Programado.  Si los dos equipos actualmente seleccionados
+no están programados para jugar esta semana, deberás hacer clic en Seleccionar equipos
+para seleccionar un enfrentamiento.  El entrenador de cualquiera de los equipos puede ser humano o informático.
+
+Figura 1. Alternar el botón de tipo de juego
+
+Al final del juego, las estadísticas de la temporada se actualizan automáticamente.  a
+ver las estadísticas de la temporada, líderes, récords, etc., ir a Actual
+Pantalla de temporada, desde la pantalla principal.
+Nota: consulte la sección titulada El editor TLSF para obtener información.
+sobre la creación de horarios personalizados utilizando el Editor de horarios.
+
+Simulación informática de juegos
+
+En la pantalla Seleccionar equipos, puede optar por que la computadora simule
+esta semana, o incluso toda la temporada.  También puedes tener el ordenador.
+Simule juegos individuales seleccionando un enfrentamiento y luego configurando ambos.
+entrenadores a la Computadora.  (Para jugar rápidamente juegos individuales, apague
+animación en la pantalla Preferencias.)
+
+Figura 2. La pantalla Seleccionar equipos
+
+Al simular una semana, la computadora reproduce rápidamente cada semana restante.
+Juego en el que ninguno de los equipos tiene un entrenador humano por defecto.  Esto permite
+jugar partidos programados con tus equipos favoritos cada semana y
+Deje que la computadora juegue automáticamente todos los demás juegos de la semana.
+
+Ejemplo: si tu equipo favorito es Dallas, puedes crear un equipo personalizado.
+liga en el Editor TLSF que designa a Dallas como tener un Humano
+entrenador predeterminado.  Cuando cargas esta liga en la aplicación principal de TLSF
+y selecciona Juegos programados, podrás jugar todos los demás
+los juegos de los equipos automáticamente.
+
+Nota: consulte la sección titulada El editor TLSF para obtener información.
+sobre la designación de un entrenador humano predeterminado para un equipo determinado.
+
+Al simular una temporada completa, el ordenador simula todos los partidos.
+cada semana, hasta que interrumpas la simulación.  Al final del
+temporada, se le da la opción de continuar la simulación o 
+jugar los playoffs tú mismo.
+
+Una nota sobre las simulaciones por computadora.  La computadora juega
+completar juegos, en lugar de simplemente "estimar" el resultado.  Temporada
+Las estadísticas, registros y lesiones se actualizan automáticamente.  Computadora-
+Los equipos entrenados utilizan las tendencias de decisión de los equipos (estas
+se puede modificar con el editor TLSF).
+
+Clasificación del equipo
+
+Desde la pantalla Temporada actual puedes acceder a una gran cantidad de información.
+con respecto al juego de liga, incluida la clasificación del equipo.
+
+Figura 3. El menú de la temporada actual
+
+En las ligas profesionales TLSF Deluxe, se utilizan las mismas reglas que en las profesionales.
+se utilizan para determinar los líderes de división:
+
+   1. Récord general de victorias y derrotas
+   2. Récords cara a cara
+   3. Mejor porcentaje ganados, perdidos y empatados en juegos divisionales
+   4. Mejor porcentaje ganados, perdidos y empatados en juegos de conferencia
+   5. Mejor porcentaje ganado-perdido-empatado en juegos comunes
+   6. Mejores puntos netos en juegos divisionales.
+   7. Mejores puntos netos en todos los juegos.
+   8. Lanzamiento de moneda
+
+En las ligas universitarias, los equipos se clasifican según sus registros de victorias y derrotas.
+
+Líderes de la liga
+
+Los líderes de la liga en 18 categorías diferentes están disponibles en cualquier momento.
+Realice un seguimiento de los líderes que corren y pasan, quién tiene la recepción más larga,
+líderes de puntuación, etc.
+
+Figura 4. Líderes de la liga
+
+Estadísticas del equipo
+
+Puedes ver las estadísticas de temporada compiladas de cada equipo, así como cómo 
+lo que han hecho los oponentes frente a cada equipo.  Ver estadísticas totales o promedio
+estadísticas "por juego".  Se dan estadísticas individuales y de equipo.
+
+Repaso de los juegos de la semana
+
+Todos los juegos completados de la semana actual están disponibles para recapitular.
+Simplemente seleccione un enfrentamiento de la lista de juegos y podrá ver el
+Estadísticas finales del juego para equipos e individuos.  Captura de películas de juegos.
+todas las jugadas de puntuación para los juegos de la semana.  Para sus registros,
+Puedes imprimir las estadísticas del juego y todas las unidades de puntuación.
+
+Ver el horario
+
+Puede ver (e imprimir) el calendario de la temporada por equipo o por semana.
+
+Figura 5. Ver el cronograma por equipo
+
+Limpiando la temporada
+
+Borrar la temporada borra todas las lesiones, récords y estadísticas.
+permitiéndote repetir la temporada desde el principio.
+
+El juego de hoy
+
+El marcador
+
+La mayor parte de la información que necesitas durante el juego está disponible con un vistazo.
+en el marcador.  Se muestran los equipos, siendo el equipo local
+en la parte inferior.  Una luz a la izquierda de los equipos indica qué equipo
+Actualmente tiene el balón.  Directamente a la derecha de los nombres de los equipos están
+tres pequeñas luces que indican el número de tiempos de espera restantes
+para cada equipo.  Más a la derecha, los seis cuadros más grandes muestran cada uno
+puntuación del equipo por cuarto, incluido el tiempo extra, y los totales de puntuación.
+El lado derecho del marcador muestra el tiempo y el cuarto del juego,
+abajo y la distancia que queda por recorrer, y la línea de golpeo.
+
+Figura 6. El marcador
+
+Seleccionar una liga
+
+Con el editor TLSF, puedes crear ligas personalizadas con
+horarios, incluidas las ligas universitarias.  Haga clic en Cargar una liga para
+Selecciona la liga para el partido de hoy.  (Consulte la sección titulada,
+El editor TLSF para más detalles.)
+
+Explorando los equipos
+
+Una vez que hayas cargado una liga, puedes explorar los equipos individuales.
+Haga clic en Scout Teams para seleccionar un equipo para ver.  Puedes ver el
+ofensiva, defensiva o jugada del equipo e imprimir la lista del equipo
+de titulares y suplentes.
+
+Seleccionar los equipos y entrenadores
+
+Haga clic en Seleccionar equipos para configurar los oponentes de hoy.  Si juegas un programa programado
+juego, elige entre cualquier juego programado restante para esta semana.  en
+En los juegos de exhibición, puedes seleccionar dos equipos cualesquiera.  Hay 3 maneras
+para jugar, además del juego de telecomunicaciones:
+
+   o Humano contra humano
+   o Humano versus computadora
+   o Computadora versus computadora
+
+La Figura 7 ilustra cómo puede seleccionar cualquiera de estas opciones del menú
+Sección de Juegos de hoy de la pantalla principal.  Cada botón se puede activar
+dos posiciones (humano o computadora) a través de la interfaz de apuntar y hacer clic.
+Si, por ejemplo, tú (Dallas) quieres jugar contra la computadora (Buffalo),
+haría clic en el botón al lado de Buffalo hasta que aparezca Computadora.
+De la misma manera, harías clic en el botón al lado de Dallas hasta
+Se muestra humano.  Una vez que el juego ha comenzado, es posible que estas opciones no estén disponibles.
+cambiado a menos que abandones el juego.
+
+Figura 7. Tres formas de jugar
+
+Humano contra humano.  Esta opción proporciona la mayor variedad de juego mientras 
+requiriendo, quizás, la mayor cantidad de habilidad.  puedes jugar con 
+otra persona en tu ubicación, o puedes jugar con alguien en un control remoto
+ubicación a través de un módem.  Consulte la sección de Telecomunicaciones en este 
+manual para obtener instrucciones detalladas sobre cómo jugar TLSF Deluxe usando un módem.
+
+Humano versus computadora.  Esta opción todavía requiere la misma cantidad de habilidad.
+como antes, pero ahora estás poniendo a prueba tus habilidades para llamar jugadas contra aquellas 
+de la computadora.  Al jugar contra la computadora, TLSF Deluxe se activa aleatoriamente. 
+selecciona jugadas basándose en datos estadísticos pertinentes a la forma en que cada equipo profesional 
+juega.  Por ejemplo, a Houston le gusta ejecutar la ofensiva Correr y Disparar, por lo que el 
+la computadora llama jugadas al azar basándose en las estadísticas del equipo de Houston.
+
+Computadora contra computadora.  Si solo quieres sentarte, relajarte y disfrutar 
+viendo jugar a tus dos equipos favoritos, luego elige este modo de juego.  
+Aún podrás ver lo que suena en la computadora mientras animas. 
+tu equipo a la victoria.  Puedes detener el juego y regresar a la pantalla principal.
+en cualquier momento presionando cualquier tecla del teclado.
+
+La opción Computadora contra Computadora también es para cuando quieres jugar un
+Juego rápido de fútbol.  Para acelerar el juego, haz clic en Preferencias
+y desactive la opción de animación.  Para jugar un juego aún más rápido, 
+Haga clic en el botón Preferencias y desactive tanto la animación como el 
+llamadas de la computadora.
+
+Condiciones del juego y editor de escenarios
+
+En los juegos programados, las condiciones del juego dependen de la época del año y del
+el sitio y el estadio del equipo local.  Sin embargo, en los juegos de exhibición tienes
+Control total sobre las condiciones del juego y el escenario inicial.  tu
+Puede acceder a las condiciones del juego actual haciendo clic en el
+Botón Editor de escenarios en la pantalla principal.
+
+La Figura 8 muestra la pantalla del Editor de escenarios.  El editor de escenarios puede
+utilizarse cuando:
+
+   o no tienes tiempo para jugar un juego completo
+   o quieres practicar determinadas situaciones de juego (infracción de dos minutos,
+     etc.
+   Si quieres revivir algunas de las mejores jugadas del fútbol.
+   o quieres ver las condiciones climáticas para el juego de hoy.
+
+Figura 8. El editor de escenarios
+
+Para cambiar los datos en cualquier campo dentro del Editor de escenarios, simplemente
+haga clic en ese campo y escriba los nuevos datos usando el teclado.
+Usar el Editor de escenarios es simple y rápido.  Por ejemplo,
+Si quieres practicar tu ofensiva de dos minutos del último cuarto,
+simplemente haga clic en el reloj del juego HORA 2:00 con el puntero del mouse cambiando 
+el reloj (usando el teclado) a las 2:00 restantes del juego.  Siguiente
+cambie el QTR (cuarto) a CUARTO. y establecer el marcador, el clima, la pelota
+posesión y marcador de línea de yarda a lo que desee dependiendo de
+las condiciones del juego que deseas configurar.  Al hacer clic en ¡IR! guarda tu 
+selecciones y lo llevará de regreso a la pantalla principal.  Al hacer clic en ¡IR! de 
+La pantalla principal inicia tu ejercicio ofensivo de dos minutos.  Haciendo clic en NUEVO 
+GAME restablece los campos de datos del Editor de escenarios a los valores predeterminados.
+
+Conceptos básicos del entrenamiento
+
+Considere el clima
+
+Antes de comenzar el juego, ve al Editor de escenarios para ver el día de hoy.
+clima.  Durante el juego, simplemente haz clic en Weather para obtener una actualización.
+
+Explora a tu oponente
+
+¡Tanto antes como durante el juego, explora a tu oponente!  un entrenador que
+ignora las fortalezas y debilidades de su oponente está buscando problemas.
+También es una buena idea explorar tu propio equipo, si no te encuentras bien.
+familiarizado con ello.
+
+Para explorar a tu oponente durante el juego, selecciona Explorar - selecciona Subs
+para ver tu propio equipo.
+
+Hacer sustituciones 
+
+Desde la pantalla Subs, puedes seleccionar jugadores de reserva.  A veces un 
+La reserva puede ser más débil en general, pero puede ser más fuerte en un caso particular.
+área.  Por ejemplo, algunos corredores de reserva son mejores receptores.
+que los entrantes.
+
+Mira las estadísticas del juego
+
+Para obtener una instantánea objetiva de cómo les va a usted y a su oponente,
+seleccione Estadísticas.  Puede ver cómo les está yendo a las personas, así como también cómo
+A ambos equipos les está yendo en general.  Presta atención al momento de la posesión,
+ya que las defensas pueden cansarse al final de un juego si se las deja demasiado en el campo.
+
+Acceder a la ayuda en línea
+
+La ayuda en línea proporciona información crucial sobre muchas facetas diferentes.
+del fútbol.  Si no has estado en una clínica de fútbol, no ignores esto
+opción.  Además de un glosario de términos futbolísticos, hay información detallada
+discusión sobre los diferentes aspectos del fútbol.  También hay mucho 
+información específica de TLSF Deluxe.  La ayuda en línea es contexto
+sensible.
+
+Pregúntale a Landry
+
+Los consejos del entrenador Landry están disponibles para ayudarlo a comprender el
+situación particular y qué opciones son mejores en esta situación.
+En la pantalla de consejos, seleccione ¡VAYA! para salir, o haga clic en Sugerir para permitir
+El entrenador te recomienda una jugada.
+
+Administrar el reloj
+
+Gestionar el reloj es un aspecto fundamental a la hora de jugar un buen partido de fútbol.
+Incluso algunos de los mejores entrenadores fallan en esta área, y eso puede costarle al
+juego.  Para que puedas gestionar el reloj de forma eficaz, el menú del reloj
+Se proporciona lo que permite varias opciones (ver Figura 9)>
+
+Se recomienda seleccionar la opción para tener el reloj
+menú que se muestra cada vez que el reloj está funcionando si está intentando
+conservar tiempo; en cuyo caso también debes informarle a tu portador de la pelota
+o receptor salirse de los límites para detener el cronómetro.
+
+Lidiar con las sanciones y las lesiones
+
+Los penaltis y las lesiones son una parte desafortunada de cada partido.  a diferencia
+En la mayoría de los juegos de fútbol, TLSF Deluxe incluye todas las penalizaciones que se producen.
+en el fútbol real.  Puedes establecer la tasa de penalización de cada equipo en el TLSF
+Editora.
+
+Algunas sanciones son opcionales, mientras que otras no lo son.  Durante el juego cuando un 
+la pena ocurre; El árbitro aparecerá en pantalla para explicar el 
+infracción.  Si, por ejemplo, el penalti es contra tu oponente, 
+se le dará la opción de aceptar o rechazar la sanción.  si el 
+penalización es contra ti, tu oponente (humano o computadora) por supuesto 
+optar por aceptar o rechazar la sanción.  Al jugar contra el 
+computadora, la computadora tomará la mejor decisión por sí misma con respecto a
+sanciones.
+
+Evaluar películas de juegos (repetición instantánea)
+
+La repetición instantánea es una herramienta muy poderosa utilizada por entrenadores, jugadores, árbitros, 
+y fanáticos.  Seleccionar Repetir en la barra de comandos le permite controlar 
+tanto la velocidad como la dirección de la repetición.
+
+Nota: El panel de control de Instant Replay VCR se puede reubicar haciendo clic en
+en la flecha arriba/abajo en el extremo izquierdo del panel.
+
+
+Ofensa
+Llamar jugadas
+
+TLSF emplea un enfoque modular para convocar jugadas ofensivas.  Este enfoque
+Es más simple y mucho más poderoso que las jugadas en otros juegos.
+Si bien la mayoría de los juegos tienen un libro de jugadas separado, sabemos que los entrenadores en la vida real
+La vida crea jugadas sobre la marcha durante los juegos, cambiando componentes individuales.
+de obras de teatro.  Podrían intentar la misma carrera desde una formación diferente, por ejemplo.
+Por ejemplo, o enviar a un hombre diferente en movimiento, o agregar acción.
+
+Figura 10. La pantalla de ofensiva
+
+Con este enfoque, tienes literalmente miles de jugadas disponibles en tu
+yemas de los dedos.  Sin embargo, cambiar una jugada es tan simple como hacer clic en un botón.
+¡Tus jugadas ofensivas solo están limitadas por tu imaginación!
+
+Seleccionar una jugada ofensiva consiste en seleccionar una formación, el fuerte
+lado (derecho o izquierdo), la jugada específica y el portador de la pelota asignado
+o receptor.  También puedes enviar a cualquier ala en movimiento y agregar acción de juego.
+fintas a cualquier pase.  ¡Por supuesto, se incluyen jugadas de "truco"!  la obra es
+mostrado en el campo de juego en miniatura.
+
+formaciones
+
+Hay 12 formaciones ofensivas disponibles:
+
+Formaciones de carrera:
+   o Pro I (fuerte para carreras internas: trampas, inclinaciones, contraataques)
+   o Power I Right (Pro I que hace trampa hacia la derecha)
+   o Power I Left (Pro I que hace trampa a la izquierda)
+   o Brown (fuertes carreras internas hacia el lado débil y Fullback)  
+   o Azul (el interior fuerte corre hacia el lado fuerte) 
+   o Yardas cortas (fuertes carreras interiores por el medio/fuera del tackle)
+
+Pasando formaciones:
+   o Corre y dispara (cuatro receptores abiertos estiran la defensa)
+   o Trips (cuatro receptores abiertos, tres en un lado)
+   o Escopeta (le da al QB más tiempo para leer la defensa)
+   o Shotgun/4WR (potente, pero no tanto bloqueo de pases)
+
+Formaciones equilibradas:
+   o Pro Set (bueno para carreras exteriores y pases)
+   o One Back (bueno para ambos lados, pases, contraataques)
+
+Nota: Para cada formación, también puedes decidir qué lado es el "fuerte".
+lado: el lado que tiene más receptores.
+
+El juego de la carrera
+
+Si bien el pase es más emocionante, el juego terrestre es importante en 
+estableciendo el control del juego y consumiendo el reloj.  Todas las carreras funcionan
+mejor contra defensas de "pase", pero las trampas y las trampas funcionan particularmente bien.
+Utilice trampas para atacar cargas intermedias y las líneas 3-4 o 4-3 desplazadas.
+Utilice sorteos para atacar zonas y defensas de níquel.
+
+Carreras medias.  Las carreras medias están diseñadas para poner a prueba la fuerza de la línea defensiva.
+ejecutando la parte posterior directamente sobre el centro.  El medio corre que
+están disponibles son:
+
+   o Línea de inmersión
+   o Trampa media 
+   o Empate
+   o Caída hasta la rodilla
+
+Carreras interiores.  Las carreras internas también están diseñadas para desgastar la defensa.
+línea.  Si tu ofensiva puede establecer un buen juego terrestre, entonces
+limitará el tiempo que tu oponente tiene el balón.  El interior corre que 
+están disponibles son: 
+
+   o Inclinada hacia la izquierda
+   o Inclinación hacia la derecha
+   o Contador izquierdo
+   o Contraderecha
+
+Carreras exteriores.  Las jugadas de carrera exterior están diseñadas para un corredor rápido que
+puede doblar la esquina sin ser atrapado.  Si es lo suficientemente rápido, el
+La espalda no será tackleada hasta que llegue a la secundaria defensiva.  el
+Las carreras exteriores que están disponibles son:
+
+   o Barrido hacia la izquierda
+   o Barrido a la derecha
+   o revertir
+
+Nota: Las carreras exteriores también son buenas para atacar las defensas de Nickel, que
+tener un apoyador menos.
+
+El juego de pases
+
+Pases cortos.  Los pases cortos son más fáciles de completar e incluso pueden reemplazar
+el juego terrestre para algunos equipos.  Funcionan mejor contra coberturas de zona.
+y son mucho menos efectivos contra el hombre.  Si tienes paciencia,
+y la defensa sigue quedándose en zonas, úsalas para ganar cinco centavos
+tu camino campo abajo.
+
+Rutas Cortas:                           
+   RB: Círculo, Plano, Destello, Retraso, Mezclado        
+   WR: zoom, enganche, salida rápida, inclinación     
+   TE: Inclinado hacia adentro, Inclinado hacia afuera, Retraso        
+
+Pases Medios.  Los pases medios en realidad constan de dos conjuntos de pases cercanos.
+rutas idénticas, una más profunda que la otra.  Por ejemplo, la línea lateral
+La ruta es más profunda que el cuadrado.  Las rutas más profundas toman más tiempo para
+desarrollarse, pero puede obtener más yardas, por supuesto.
+
+Rutas Medias:
+RB: gancho, regreso, cuadratura, línea lateral
+   WR: Cruzar, Cuadrar, Línea lateral, Gancho, Regresar, Cuadrar, Fundir
+   TE: Centro, Cuadrado, Línea lateral, Gancho, Regreso
+
+Pases largos.  Los pases largos estiran la defensa y son excelentes para atacar.
+Cobertura hombre a hombre.  También son importantes cuando necesitas elegir
+muchas yardas a la vez.  Si los corredores están cubiertos por 
+apoyadores, a menudo es un desajuste.  Contra los bombardeos, debes mantener
+una espalda cerca, como un receptor "caliente".
+
+Rutas largas:
+   RB: esquina, fuera y arriba, vuelo, poste
+   WR: poste, esquina, vuelo, gancho y listo
+   TE: poste, esquina, vuelo, gancho y listo
+
+Pases de Fineses.  Los pases delicados intentan aprovechar algunas inclinaciones.
+en la defensa.  Las pantallas se utilizan, por ejemplo, para frenar la presión sobre los mariscales.
+Si la defensa sigue centrándose en el pase, especialmente con cobertura de zona,
+Usa pantallas contra él.  El pase del "Ave María" es un último desesperado
+pase.  El Halfback Pass y el Flea Flicker son jugadas con truco diseñadas
+para usar contra una defensa de carrera.  Deberían establecerse estableciendo
+un buen juego terrestre y no debería ser llamado con demasiada frecuencia.  (Es más difícil
+engañar a la secundaria por segunda vez).
+
+Defensa
+
+Llamar jugadas
+
+En la pantalla de defensa, TLSF Deluxe ofrece el mismo enfoque modular para
+llamada de jugada que se utiliza en la pantalla ofensiva.  Tienes cientos de
+Combinaciones defensivas a tu alcance, brindándote total flexibilidad.
+para ajustar su defensa para enfrentar la ofensiva en sus puntos fuertes y
+tendencias.
+
+Figura 11. La pantalla de defensa
+
+Nota: Para obtener ayuda para reconocer la formación ofensiva de tu oponente,
+Haz clic en el área de juego en miniatura.  Un cuadro de diálogo mostrará el
+Formación ofensiva y fuerza.
+
+Los conjuntos defensivos consisten en el enfoque (carrera o pase), formación básica,
+cambio de línea y cobertura secundaria.  Además, de hombre a hombre.
+cobertura, puede bombardear al Safety Débil y a cualquier apoyador, y
+hacer doble equipo con un receptor en particular.  Contra la carrera, puedes dirigir
+sus linieros y apoyadores cómo clave.
+
+Enfoque
+
+Aunque tus hombres deben poder responder a cada jugada, inicialmente
+Busque un tipo particular de juego: correr o pasar.  Al defender el pase,
+Los linieros corren más fuerte, directamente hacia el mariscal de campo, y el
+Los apoyadores inmediatamente comienzan a alejarse de la línea.  cuando
+centrándose en la carrera, los linieros se mantienen firmes y los apoyadores
+dudar.  Evidentemente, tener razón ayuda considerablemente a la defensa,
+mientras que equivocarse los pone en desventaja!
+
+formaciones
+
+Hay siete formaciones básicas:
+
+Ejecutar defensa:
+   o Flex (el más seguro, básicamente un 4-3 escalonado)
+   o Yardas cortas (arriesgadas, pero muy buenas cuando solo se necesitan unos pocos metros)
+   o Línea de gol (abierta a grandes ganancias, este 5-2 tiene muchos tipos grandes y lentos)
+
+Defensa de pase:
+   o Níquel (genera buena presión sobre el pasador, decente frente a la mayoría de las carreras, reemplaza
+     un apoyador con un quinto back defensivo)
+   o Prevenir (3-2-6, mala presión sobre el pasador, acepta pequeñas ganancias para evitar
+     los grandes)
+
+Formaciones equilibradas:
+   o 4-3 (bueno contra carreras y pases, buena presión sobre el pasador)
+   o 3-4 (menos presión sobre el pasador, mejor frente a barridos y pases cortos)
+
+Cambiando
+
+Las formaciones con líneas de 4 hombres pueden cambiar a los linieros en anticipación del
+punto de ataque.  Hay cinco turnos disponibles:
+   o Over (cambiar al lado fuerte de la ofensiva) 
+   o Under (cambiar al lado débil de la ofensiva)
+   o Apretado (apretar las carreras interiores)  
+   o Ancho (alinearse fuera de los bloqueadores)
+   o Truco (genera una presión de pase mucho más fuerte)
+
+Cobertura
+
+Las defensas normalmente utilizan tres coberturas de pase para detener una ofensiva: Hombre a Hombre, 
+Zona de 2 Profundidad ("Mitades") y Zona de 3 Profundidad ("Tercios").  Generalmente, de hombre a hombre 
+la cobertura es mejor contra pases cortos y permite a los apoyadores atacar, 
+mientras que la Zona 2-Deep es mejor contra pases medios.  La zona de las 3 profundidades es 
+mejor contra pases largos.  Para seleccionar la cobertura que desea utilizar, simplemente 
+apunte y haga clic en el botón COBERTURA.
+
+bombardeo
+
+Los linebackers y backs defensivos pueden provocar ofensivas importantes.
+dolores de cabeza, aunque también crean agujeros peligrosos en la defensa que
+Los buenos delitos pueden explotar.  El blitzing puede aumentar los errores ofensivos y
+provocar balones sueltos pero también puede permitir grandes yardas.  Al seleccionar diferentes
+hombres para bombardear, observen la exhibición en miniatura.  Blitzing la seguridad pone mucho
+de presión sobre el mariscal de campo, y las esquinas tienen que tratar de mantener su
+receptores en su interior.  Los patrones exteriores son un poco más fáciles, mientras que los interiores 
+Las rutas son más difíciles (aunque, si se atrapan, pueden generar grandes ganancias).
+
+llaves 
+
+Cuando se muestre el botón RUN, tendrá la opción de conservar
+claves normales, o claves en el flujo o en un hombre en particular.  cuando el pase
+aparece el botón y estás en cobertura hombre a hombre, puedes
+Elige formar un equipo doble con un receptor principal.
+
+Equipos especiales
+
+El rendimiento de los equipos especiales juega a menudo un papel decisivo en la
+resultado de un partido de fútbol.  Un apostador que constantemente puede enterrar el
+El equipo contrario dentro de sus propios 20 ayuda considerablemente a su defensa.
+El que regresa el despeje o la patada y se libera para realizar una devolución larga puede disparar.
+formar su equipo y presionar a la defensa contraria (aún mejor,
+puede anotar, lo que realmente anima a su equipo).  Y un campo competente
+El pateador vale su peso en oro, especialmente en partidos cerrados.
+
+En las patadas de salida, el equipo que patea tiene la opción de hacer un squib o profundo.
+patadas, y el equipo receptor decide cómo alinear su equipo.  En despejes
+e intentos de gol de campo, la defensa puede realizar una carrera más intensa, lo que
+aumenta la posibilidad de un bloqueo pero también aumenta la posibilidad de 
+maltratando al pateador.  O tal vez quieran esperar y observar si hay una falsificación.
+patada.
+
+Después del juego
+
+Después de completar un juego, las ESTADÍSTICAS FINALES DEL JUEGO se mostrarán automáticamente.
+mostrarse en la pantalla.  Para ver las estadísticas del equipo visitante,
+apunte y haga clic en VISITANTE.  Una vez que se muestran las estadísticas del visitante, usted
+puede optar por revisar las carreras, las recepciones, los pases y el total
+yardas.  Para ver las estadísticas del equipo local, apunte y haga clic en INICIO.
+Una vez que se muestran tus estadísticas, puedes optar por revisar las carreras,
+recepción, pase y yardas totales.
+
+Nota: También tienes la opción de imprimir las estadísticas finales del juego.
+haciendo clic en el botón Imprimir.
+
+Al hacer clic en ¡IR! te lleva a la pantalla de Fin del juego donde puedes
+ver las unidades de puntuación y actualizar las estadísticas de la temporada.
+
+Ver unidades de puntuación
+
+Al hacer clic en el botón VER CONDUCCIONES DE PUNTUACIÓN, accederá a cada puntuación.
+impulso del juego.  El tipo de puntuación (touchdown, gol de campo o safety)
+se indica en la parte superior de la pantalla junto con la siguiente información:
+
+   o quien anotó
+   o en qué trimestre ocurrió el puntaje
+   o la hora del reloj del juego
+   o el número de yardas cubiertas en cuántas jugadas
+   o La cantidad de tiempo que consumió el disco.
+
+Para ver cada unidad de puntuación adicional, haga clic en el botón Siguiente; a
+haga una copia de seguridad y mire la unidad anterior, haga clic en el botón Anterior.  durante
+Después de revisar las unidades de puntuación, puedes optar por revisar la película del juego.
+Para hacer esto, haga clic en el botón Reproducir en la barra de comandos para revisar 
+cualquier unidad de puntuación que desees.  El mensaje, Espere mientras
+Cargar la película se mostrará hasta que la película del juego esté lista para mostrarse.
+En este punto, las acciones que necesitas para revisar la película son exactamente
+Lo mismo que para la repetición instantánea.
+
+Nota: También tienes la opción de imprimir las estadísticas de todos
+sus unidades de puntuación haciendo clic en el botón Imprimir todas las unidades.  
+
+Cuando haya terminado de ver la película del juego de una puntuación en particular
+unidad, puede hacer clic en GO! para regresar a la pantalla de Fin del juego.
+
+Si desea guardar el juego que acaba de terminar, haga clic en el
+Botón Guardar ubicado en la barra de comandos.  Luego haga clic en el primero
+línea numerada disponible en la pantalla Guardar, ingrese una línea
+nombre de archivo y presione la tecla Enter.  Guardar un juego completo permitirá 
+usted para revisar y reproducir unidades de puntuación.  Cuando regreses al final
+de la pantalla del Juego, puedes hacer clic en IR! en la barra de comandos para volver a la
+Pantalla principal de TLSF Deluxe.
+
+Actualizar estadísticas de temporada
+Las estadísticas de temporada no se compilan automáticamente con ligas universitarias o mixtas.
+Sin embargo, aún puedes compilar las estadísticas y registros si lo deseas 
+haciendo clic en el botón Actualizar estadísticas de temporada.
+
+Juego de telecomunicaciones
+
+Al hacer clic en Conectar en el cuadro Telecomunicaciones de la pantalla principal
+te permite jugar TLSF Deluxe con un amigo en una ubicación remota, 
+siempre que ambos tengan un módem.  La Figura 12 muestra la pantalla de Telecomunicaciones
+en el que se pueden introducir datos mediante el ratón y el teclado.
+
+Figura 12. La pantalla de telecomunicaciones
+
+Estableciendo una conexión
+
+En la pantalla Telecomm debe seleccionar:
+
+   o Comando de marcación para su módem (a menudo ATDT o ATDP)*
+      Para desactivar tu llamada en espera, consulta con tu teléfono local
+      empresa.  Un comando común es *70 (por ejemplo, el comando
+      sería "ATDT *70").
+   o Comando de respuesta para su módem * ATS0=1 le indica que responda en el
+      El primer timbre ATA indica "respuesta automática".
+   o Velocidad en baudios (por supuesto, ambas máquinas tienen que ser iguales).
+   o PUERTO COM (para compatibles con PC), ya sea: COM1, COM2, COM3 o COM4.
+   o Seleccione Marcar o Responder para una conexión remota, Módem nulo para una 
+      conexión directa.
+
+Si se conecta directamente a través de un módem nulo, ambas máquinas simplemente seleccionan el 
+Botón Módem nulo.
+
+Si se conecta a través de un módem, deberá decidir de antemano qué reproductor
+va a llamar y quién va a contestar, y seleccione el teléfono adecuado
+botones.  El software TLSF marcará y establecerá la conexión.  si
+Si tiene éxito, regresará a la pantalla principal.  Si no puedes
+conectarse, un mensaje le notificará del problema, como por ejemplo La línea
+ocupado.
+
+Comenzando el juego
+
+Una vez que haya establecido una conexión, el jugador que inició la llamada
+(la persona que llama) comenzará el juego haciendo clic en GO! botón en la página principal
+pantalla.  (El jugador que respondió la llamada debe esperar a que la persona que llama
+comenzar el juego.)
+
+Un jugador a la vez tiene el control y el otro jugador verá un mensaje.
+como si tu oponente estuviera decidiendo.  La persona que tiene el control puede configurar todos los
+opciones de juego que normalmente están disponibles (repetición instantánea, consulte a Landry,
+hacer sustituciones de jugadores, etc.), incluido el chat con el oponente.
+Las pantallas ofensivas y defensivas actuales reflejan la capacidad de cada jugador. 
+llamada anterior sin patadas, para que puedan controlar a los demás 
+tendencias.
+
+Charlando con tu oponente
+
+Al hacer clic en el botón Chat se abren dos ventanas para escribir mensajes a cada una. 
+otro.  El chat no está disponible si alguno de los jugadores está viendo una animación o
+consultando a Landry.  Una vez que las ventanas de chat estén abiertas, cada uno puede escribir 
+mensajes entre sí.  Su texto aparece en la ventana superior, y su 
+Los mensajes del oponente aparecen en el inferior.  Cualquier jugador puede salir del 
+modo de chat haciendo clic en el botón Salir.
+
+Nota: "Forzar" un chat mientras es el turno de tu oponente podría
+interrumpir las telecomunicaciones.  Por lo tanto, se recomienda que sólo
+inicia un Chat cuando sea tu turno de convocar la siguiente jugada.
+
+colgar
+
+Cuando hayas terminado de jugar un juego y hayas terminado de ver la publicación
+aspectos destacados del juego, regresa a la pantalla principal y haz clic en Desconectar en
+la caja de Telecomunicaciones.
+
+Nota: Si decides detener el juego y reanudarlo más tarde,
+Es imprescindible que ambos jugadores guarden la partida antes de desconectarse.
+Simplemente haga clic en el botón Guardar en la barra de comandos en la parte inferior del
+pantalla.  En la pantalla de guardar, haga clic en una línea vacía, ingrese un nombre de archivo,
+y presione la tecla Enter para guardar el archivo.
+
+Solución de problemas:
+
+   o Verifique que ambos estén a la misma velocidad en baudios.
+   o Al jugar juegos de exhibición, asegúrese de que ambos estén usando el
+     misma liga.  
+   o Cuando jueguen partidos de liga programados, asegúrese de que ambos estén usando 
+     la misma liga y horario.
+
+Preferencias de juego
+
+Esta pantalla te permite configurar las condiciones del juego.  Una marca de verificación en la casilla
+junto a la condición significa que la condición está habilitada.  Para anular la selección de un
+condición del juego, haga clic en la casilla que desea deseleccionar y la marca roja
+La marca desaparecerá.
+Nota: Las preferencias se pueden cambiar durante un juego haciendo clic en Prefs en el 
+barra de comandos en la parte inferior de la pantalla.  En los juegos programados, algunos 
+Las preferencias se activan automáticamente.  La ventaja de jugar en casa está presente en todos los casos.
+juego (que no sea el Landry Bowl), incluidos los playoffs.  lesiones,
+la fatiga y el ritmo moderno también se mantienen.
+
+Se pueden establecer las siguientes condiciones para su juego:
+
+o Utilice tiempos modernos
+     Hasta hace unos años, el cronómetro se paraba si un jugador se salía del campo
+     o si hubo penalti en la jugada, y no se reanudó hasta
+     el balón fue partido.  Las reglas modernas, sin embargo, intentan acelerar la
+     juego.  Según las reglas modernas, los árbitros reinician el cronómetro después del puntapié
+     devoluciones, jugadores que salen del campo y penalizaciones rechazadas,
+     después de mover las cadenas.  Hay excepciones a estos
+     reglas; sin embargo; en los últimos 5 minutos del cuarto cuarto o final
+     2 minutos del 2do (y cuartos de prórroga), el reloj no
+     reiniciar hasta que se rompa la pelota.
+
+o Lesiones
+     Esta opción hace que los jugadores sean susceptibles a lesionarse.
+
+o fatiga
+     Los jugadores se cansan a un ritmo normal; se pueden hacer sustituciones por cansancio
+     y/o jugadores lesionados.
+
+o Ventaja de local
+     Jugar frente a los aficionados locales ofrece una clara ventaja;
+     Además, muchos estadios con cúpula ofrecen la ventaja de que el ruido de la multitud
+     puede ser un factor en si el equipo visitante puede escuchar señales audibles en
+     la línea de golpeo.
+
+o Reproducir efectos de sonido
+     Los efectos de sonido están integrados en el programa y mejorarán tu
+     disfrute al jugar TLSF Deluxe.
+
+
+o Color de la bola
+     Tienes la opción de elegir un fútbol Normal o Destacado  
+     para las secuencias de animación.
+
+o Música
+     La música se reproduce en todos los menús y submenús, pero no durante la animación.
+     secuencias.
+
+o Mostrar FOTOS digitalizadas
+     Cada vez que anotas un touchdown, un gol de campo, un safety o incurres en una 
+     penalti, un árbitro digitalizado aparece en la pantalla para señalar el
+     puntos anotados o la infracción.  Puedes desactivar esta función.
+     para acelerar el juego.
+
+o Mostrar animación
+     Cuando se selecciona esta opción, verás a los jugadores en el
+     campo de juego durante todo el juego.  Puedes desactivar esta función
+     para acelerar el juego.
+
+o Mostrar las llamadas de la computadora
+     Cuando juegues computadora contra computadora, o humano contra computadora,
+     ver qué jugada ofensiva o defensiva llama la computadora.  usted puede 
+     Desactiva esta función para acelerar el juego.
+
+El editor TLSF
+
+Con el editor TLSF, puedes crear tus propias ligas de equipos desde
+cualquier año y crear cronogramas realistas.  O puedes optar por diseñar
+una liga de equipos de diferentes años (por ejemplo, algunos grandes equipos
+del pasado).  Incluso puedes crear ligas universitarias, completas con las últimas novedades.
+reglas de la universidad.  Además de editar la liga y los horarios, puedes
+editar los equipos y jugadores individuales.
+
+Notas: El editor TLSF es un programa de utilidad ejecutable independiente
+desde la aplicación principal de TLSF Deluxe.  Por favor consulte con su TLSF Deluxe
+Guía de referencia técnica para obtener instrucciones sobre cómo cargar el TLSF
+Editora.
+
+Las ligas (y los horarios personalizados asociados) que creas y guardas
+en el editor TLSF aparecerá en el menú Cargar una liga en la página principal
+Aplicación TLSF Deluxe.
+
+Figura 13. El menú del editor TLSF
+
+Después de cargar el Editor TLSF, la primera pantalla que verá es la
+Seleccione la pantalla Liga, donde hace clic en la liga que desea cargar
+y editar.  Si está utilizando el Editor TLSF por primera vez,
+seleccionarás la liga predeterminada que aparece en Seleccionar Liga
+pantalla.  Utilizarás esta liga predeterminada como punto de partida para
+Creando tu propia liga personalizada.
+
+Una palabra de precaución: los cambios en la liga no se guardan hasta que usted
+¡salva la liga!  Haga clic en Guardar en la parte inferior de la pantalla.  cuando
+estás listo para guardar tu liga recién creada por primera vez,
+Asegúrate de darle a esta nueva liga un nombre diferente al predeterminado.
+liga que vino con TLSF Deluxe; de lo contrario, sobrescribirás los datos
+contenida en la liga predeterminada.
+
+Ligas
+
+Primero decide qué tipo de liga será: universitaria, una mezcla.
+de equipos profesionales de diferentes años, o una liga normal de una sola temporada
+de equipos profesionales.  Cambie el nombre de la liga, las conferencias y las divisiones a 
+lo que quieras.
+
+Figura 14. La pantalla de edición de liga
+
+equipos
+
+Haga clic en un equipo para editarlo y verá la pantalla principal de edición del equipo.
+Aquí puedes cambiar el nombre de tu equipo (y su abreviatura) y configurar su
+entrenador predeterminado.  Establece el entrenador predeterminado en Humano para cualquier equipo que
+desea jugar manualmente cuando utiliza la opción Juego programado en el
+Aplicación TLSF Deluxe.  Establezca el entrenador predeterminado en Computadora para el
+equipos que desea que la computadora entrene automáticamente en simulaciones
+Juegos programados.  Cuando la computadora entrena a un equipo, utilizará
+ciertas tendencias, y tendrá un enfoque particular del juego,
+dependiendo del "estilo" que le establezcas.  Por ejemplo, un juego
+Es más probable que el entrenador lo intente en la 4ª y la 1.
+
+Además de establecer la tasa de penalización del equipo, también puedes establecer el 
+condiciones climáticas en el estadio del equipo.  Sitios fríos, para 
+Por ejemplo, es cada vez más probable que nieve al final de la temporada.
+Los cuatro botones en la parte inferior de la pantalla permiten editar el
+cuatro subcomponentes principales de cada equipo: ofensiva, defensiva y especial.
+Equipos y colores de equipo.
+
+Figura 15. La pantalla de edición del equipo
+
+Ofensa.  
+
+Hay tres aspectos del delito: las habilidades del individuo.
+jugadores, cómo se desempeña la unidad ofensiva en su conjunto y la decisión del entrenador.
+tendencias de llamadas de juego.  En la pantalla de la unidad ofensiva, puede configurar el
+Habilidades de la línea ofensiva (como unidad) tanto en bloqueo de pase como de carrera.
+Además, puede configurar las formaciones preferidas para cada vez que la computadora
+entrena al equipo. 
+
+Figura 16. Edición de jugadores ofensivos
+
+Jugadores ofensivos.
+   Puedes configurar los titulares y los jugadores de reserva en todas las ofensivas clave.
+   posiciones.  El editor te permite cambiar rápidamente los nombres de los jugadores. 
+   y atributos.  Para cambiar rápidamente todos los atributos de un jugador a un
+   valor, haga clic en el cuadro junto a Inicializar todos los valores e ingrese el
+   valor (1-9) que deseas para ese jugador.  Tenga en cuenta que los corredores tienen
+   atributos de pase porque lanzan tanto con pases de medio como
+   patadas falsas.
+
+Llamadas ofensivas.
+   Los entrenadores suelen adoptar diferentes enfoques dependiendo de dónde está su
+   El equipo está en el campo, dividiendo el campo aproximadamente en tres áreas:  
+   dentro de sus propios 20, entre los 20 y en la "Zona Roja" (anotando
+   rango).  Para cada área, se dan porcentajes para cada abajo y
+   distancia (segunda y larga, por ejemplo).  Utilice esta pantalla para definir
+   cómo el entrenador informático guía a este equipo.
+
+Defensa.  Al igual que en la ofensiva, la defensa debe ser vista tanto como individuos
+y como unidad.  En la pantalla defensiva principal, la unidad defensiva general
+está definido.  Los jugadores individuales se pueden modificar en una pantalla separada.
+
+Equipos especiales.  En esta pantalla están el pateador, el apostador y el devolvedor.
+El pateador actúa en patadas de salida, goles de campo y punto tras touchdown.
+patadas.  Como en la vida real, los apostadores difieren en fuerza, tiempo de suspensión y
+precisión.  Algunos apostadores son mejores para clavar a sus oponentes dentro
+los 20, por ejemplo.  Finalmente, define las habilidades para la patada y 
+hombres de devolución de batea, incluido cuánto se utiliza el individuo.
+
+Colores del equipo.  Los colores del equipo se pueden configurar recorriendo las opciones disponibles.
+colores con los botones Anterior y Siguiente.  Algunos equipos prefieren vestir de blanco en
+en casa, mientras que otros prefieren vestir sus camisetas de colores.  Puedes configurar el
+preferencia de local del equipo.
+
+Horarios
+
+Además de modificar la liga y los equipos, puedes crear completas 
+Calendario profesional de 16 juegos, incluida una semana de descanso para cada equipo.  Usando real
+reglas de la liga profesional, los horarios generados para cada equipo dependen
+en varios factores: la situación del equipo al final de la anterior
+temporada y el año del programa que se genera.
+
+Figura 17. El editor de programación de TLSF
+Creando un horario personalizado.  Para crear un horario personalizado, siga estos
+pasos:
+
+o Ingrese el año del cronograma.  Simplemente haga clic en el cuadro de texto e ingrese
+  el año deseado.
+
+o A continuación, decide cómo quieres clasificar la clasificación del equipo en la edición anterior.
+  año: ¿Quieres clasificarlos tú mismo o quieres que la computadora
+  clasificarlos al azar?
+
+o Si desea clasificarlos manualmente, haga clic en Ajustar clasificaciones manualmente
+  y reorganizar las clasificaciones dentro de cada división.  si quieres
+  la computadora para clasificar los equipos, haga clic en el botón Usar clasificaciones aleatorias.
+
+o Nota: Después de que la computadora haya clasificado aleatoriamente a los equipos, puede hacer clic en
+  en el botón Ajustar clasificaciones manualmente para ver las clasificaciones.
+
+o Haga clic en el botón Nuevo para generar una nueva temporada basada en los parámetros
+  acabas de elegir.
+
+o Haga clic en Por semana o Por equipo para ver el cronograma recién creado.  (tú
+  También puede imprimir el nuevo horario.)
+
+o Haga clic en el botón Guardar en el cuadro Programaciones, ingrese un nombre de archivo para 
+  su nuevo horario y presione Entrar para guardar.
+
+Nota: No confunda el botón Guardar en el cuadro Horarios con el
+Botón Guardar en la barra de comandos en la parte inferior de la pantalla.  el primero
+es para cronogramas de ahorro; este último es para ligas de ahorro.
+
+Creación de una liga personalizada y un calendario personalizado.  Para vincular una costumbre
+liga y un calendario personalizado juntos, sigue estos pasos:
+
+   o Cargue la liga de su elección haciendo clic en Cargar una liga
+     en la pantalla principal del Editor TLSF.
+   o Cargue el horario de su elección haciendo clic en el botón Cargar
+     en el cuadro Programaciones en la pantalla del Editor de programaciones de TLSF.
+   o Guarde el archivo combinado de liga y calendario haciendo clic en el 
+     Botón Guardar en la barra de comandos en la parte inferior de la pantalla
+     (Ver Figura 18).  Se recomienda utilizar un único
+     nombre de archivo para este nuevo archivo.
+
+Figura 18. Vinculación de archivos de liga y programación juntos
+
+Nota: Aunque sólo hay un calendario vinculado a una liga a la vez, 
+puede guardar diferentes permutaciones de liga/horario para cargar y reproducir
+más tarde.
+
+Apéndice A: Novedades de TLSF Deluxe
+
+o Ahora se incluye un editor completo para permitir la edición de ligas, equipos,
+  hombres y horarios.  De acuerdo con el diseño del TLSF original,
+  Encontrarás que nuestro editor es uno de los más amigables y flexibles.
+  has usado en cualquier juego.
+
+o El juego de liga ahora lleva a TLSF a un nuevo nivel de juego.  multijuego
+  Las lesiones pueden arruinar tu temporada.  Las estadísticas y récords de la temporada son 
+  se mantiene automáticamente y los líderes de liga y de división
+  son rastreados.  Los playoffs reales incluyen una ronda de comodines y el 
+  campeonato Landry Bowl.
+
+o Las ofensivas ahora tienen cinco nuevas formaciones (Azul, Poder I Dejado, Poder I
+  Derecha, Shotgun 4 WR, Trips) y puede cambiar el Tight End al otro
+  lado ajustando el "lado fuerte" a la izquierda o a la derecha.
+
+o En la versión original de TLSF, el único jugador ofensivo enviado en movimiento
+  Fue el primer ala.  Ahora puedes seleccionar cualquiera de los flancos para entrar.
+  movimiento.
+
+o Se han agregado nuevos patrones de pase, como Shuffle y Hook.
+  y ve.
+
+o Además de moverse hacia arriba y hacia abajo, la línea defensiva ahora puede
+  cambiar por dentro y por fuera, e incluso hacer acrobacias (dios en la transmisión).
+
+o Si bien el bombardeo en el TLSF original era simple, estaba incompleto.
+  Ahora puedes personalizar tu blitzing, dando órdenes específicas
+  a cada apoyador individual.  Además, ahora puedes enviar a los débiles.
+  seguridad en un bombardeo de seguridad!
+
+o El control Instant Replay VCR ahora puede ubicarse en la parte superior o superior
+  parte inferior de la pantalla para revelar diferentes partes del campo.
+
+o Finalmente, hemos agregado rutinas de impresión para permitirle imprimir estadísticas,
+  unidades, listas, etc., ya sea en un archivo o directamente en su impresora.
+
+Apéndice B: Reglas y sanciones de la liga
+
+A diferencia de la mayoría de juegos de fútbol, TLSF Deluxe incluye todas las penalizaciones
+que puede ocurrir en un juego real.  Las sanciones pueden ocurrir antes y
+después de las pérdidas de balón, puede compensarse, puede aplicarse en los siguientes casos
+inicio... bueno, ya entiendes la idea.  Con TLSF Deluxe te vuelves real
+penalizaciones y verdaderos dolores de cabeza, como los entrenadores en la vida real.
+
+Hemos utilizado reglas de liga reales tanto en la liga universitaria como en la profesional.
+(Por supuesto, las reglas en la vida real parecen cambiar cada año).  Para
+Por ejemplo, al determinar los horarios y los equipos de los playoffs, emulamos el
+Algoritmos utilizados por profesionales.
+
+Apéndice C: Eliminatorias
+
+Doce equipos llegan a los playoffs.  En cada conferencia hay tres
+ganadores divisionales y tres equipos comodines.  La primera semana de
+el juego de postemporada es la ronda de comodines: cuatro equipos de cada conferencia
+jugar.  La próxima semana se conoce como la "Primera Ronda" e involucra
+los ocho equipos restantes.  Los cuatro ganadores de esa ronda juegan en 
+los juegos del Campeonato de Conferencia.  Finalmente, para el gran premio,
+Los dos campeones de la conferencia se enfrentan en el Landry Bowl en un lugar neutral.
+sitio.  Las reglas para determinar los líderes divisionales se describen en la
+sección League Play del manual y las reglas para determinar el
+Los equipos comodín son similares.
+
+Apéndice D: Juego por computadora
+
+Cuando juegas contra un oponente de la computadora, la computadora usa las tendencias para
+ese equipo.  En situaciones especiales, como una infracción de dos minutos, 
+cambia a otra lógica más apropiada.  Además, la computadora rastrea
+tus jugadas por posición en el campo, abajo y distancia.  Por ejemplo,
+si nota que tiendes a correr hacia adentro en segunda y 5,
+modifica su defensa, tal como lo hacen los entrenadores humanos.  Sin embargo, si su
+El juego terrestre falla, es posible que simplemente ignore tu carrera.
+
+Por el contrario, si la computadora detecta que juegas mucho hombre a hombre
+cobertura en primera y 10, espere algunos pases más largos.  Sólo una nota aquí.
+bajo ninguna circunstancia la computadora "engaña" o "conoce" su llamada,
+Entonces lo que llames es importante.
+
+Apéndice E: Estrategia para ganar juegos
+
+TLSF Deluxe tiene una gran cantidad de estrategias de fútbol disponibles en tu
+yemas de los dedos.  Al seleccionar la Ayuda en línea aparecen más de 20 diferentes
+temas que te ayudarán a desarrollar una estrategia ganadora durante el juego cuando
+lo necesito.  La siguiente información está destinada a complementar la información en línea.
+Ayuda.
+
+Estrategia de fútbol
+
+En los primeros tiempos del fútbol, los equipos dependían casi exclusivamente de sus agallas.  
+Sin embargo, a medida que avanzaba el partido, entrenadores innovadores como Lombardi,
+Shula, Landry, Walsh y Gibbs han encontrado continuamente formas de dar al
+dolores de cabeza a otros equipos.  Con una comprensión y uso adecuados de las formaciones:
+ofensivo y defensivo: incluso los equipos más débiles a menudo pueden encontrar una ventaja sobre
+oponentes más fuertes.
+
+Lo mismo ocurre con los demás componentes del juego.  Ganar
+Las ofensas utilizan el movimiento y la dirección errónea, mientras que las defensas exitosas confunden.
+sus oponentes con líneas cambiantes, cargas y pases diferentes 
+coberturas. 
+
+TLSF Deluxe le ofrece todas las herramientas del oficio que los entrenadores "reales" 
+uso.  Tus entrenadores asistentes han explorado a tu oponente y puedes comprobarlo.
+sus informes en cualquier momento para reconocer las fortalezas y debilidades de los jugadores.
+A medida que avanza el juego, debes verificar las estadísticas del juego.  Estos pueden
+a menudo revelan si su oponente se está concentrando en una espalda en particular o
+receptor, o apoyarse demasiado en la carrera o el pase.  También pueden mostrar
+que estás jugando demasiado tu propia mano y necesitas mezclar tu
+juega un poquito más.
+
+Si juegas contra un entrenador informático, el informe de exploración incluso
+te cuenta sus tendencias ofensivas para diferentes partes del campo.
+Por supuesto, esas tendencias no son de mucha utilidad en juegos desiguales, o
+contra entrenadores humanos.
+
+Posición de campo
+
+El campo de fútbol está a 100 yardas desde tu línea de gol hasta la de tu oponente. 
+objetivo, y el lugar en el que te encuentres en el campo debe jugar un papel importante en tu
+llamada de juego.  La mayoría de los entrenadores dividen el campo en cinco áreas.
+
+Dentro de los 20 de la ofensiva está la parte peligrosa del campo.  si tu
+comete un error aquí, tu oponente probablemente tenga al menos 3 puntos.
+Los buenos mariscales de campo tirarán el balón lejos en lugar de ser capturados o
+forzar la pelota hacia una multitud.  Rara vez ves lanzamientos, inversiones o
+pantallas dentro de la yarda 20.
+Desde la yarda 20 hasta la yarda 35, la ofensiva puede abrirse, pero aún así
+Tiene que evitar pérdidas de balón y capturas.  Segundo y 9 no está tan mal, pero 
+segundo y 15 es realmente difícil entre las yardas 20 y 35.
+
+Las ofensas pueden provocar casi cualquier cosa (acción de juego, mala dirección, truco).
+jugadas, bombas) entre las 35 yardas.  Las defensas suelen ir con zonas,
+especialmente al final de un juego, pero a veces usan cargas para sacudir el
+ofensa y tal vez forzar un error o al menos un desperdicio.
+
+Dentro de la yarda 35, la ofensiva suele estar en el rango de gol de campo,
+y casi nunca despeja.  La clave aquí es evitar perder yardas, por lo que el
+La ofensiva ordenará jugadas cortas y medias.
+
+Dentro de la yarda 20 está la parte más difícil del campo desde
+que anotar.  Las rutas de pase deben ser más cortas y el mariscal de campo
+Debe deshacerse de la pelota más rápido.  Es importante intentar puntuar.
+ya sea un touchdown o al menos un gol de campo cada vez que estés dentro
+la yarda 20 de tu oponente.
+
+pasando
+
+Para tener una ofensiva de pase exitosa, los receptores deben conocer sus rutas.
+y el mariscal de campo debe poder golpear a sus receptores.  nada es mas
+frustrante que completar un pase de diez yardas en 3 y 14. El 
+El mariscal de campo también debe poder leer las formaciones defensivas y llamar 
+audibles en la línea de golpeo cuando sea necesario.
+
+Los pases muy cortos (Flare, Flat y Zoom) están diseñados para burlar
+defensas relámpago.  Los pases cortos se utilizan para avanzar de 5 a 7 yardas.
+Las rutas medias son buenas para 10 a 12 yardas, mientras que las rutas medias y profundas
+Por lo general, puede producir entre 13 y 16 yardas.  Los pases largos son buenos para al menos
+menos 20 yardas.
+
+Generalmente, la cobertura de hombre a hombre es mejor contra pases cortos; 2-profundo
+zonas, contra pases medios; y 3-Zonas profundas, contra pases largos.
+Sin embargo, cada formación defensiva tiene sus fortalezas y debilidades.
+Por ejemplo, la zona 2-Deep es excelente contra patrones de moscas y esquinas,
+pero débil contra los postes.  En la cobertura de hombre a hombre, la presencia de un 
+Free Safety puede marcar la diferencia entre una finalización larga y una 
+intercepción profunda (el Safety Débil es "gratis" si no tiene que hacerlo)
+cubrir un receptor).  Las defensas de zona suelen ser conocidas por causar
+intercepciones.  La cobertura hombre a hombre permite a los apoyadores atacar,
+lo que puede causar pérdida de yardas y balones sueltos.
+
+Las ofensivas pueden atacar coberturas de hombre a hombre con pases largos, especialmente
+patrones de vuelo y pases a los backs (que generalmente son más rápidos que el
+apoyadores que intentan cubrirlos).  Además, las coberturas de hombre a hombre son
+Por lo general, no es tan bueno contra carreras, a menos que hagas blitz con enfoque en Carrera.
+Defensas de la zona de ataque con pases cortos, empates, pantallas y jugadas.
+pasa.  
+
+corriendo
+
+Los tres tipos de carreras son las carreras de energía, las carreras de pan y mantequilla y las carreras de pan y mantequilla.
+jugadas de delicadeza.  Las carreras de poder se utilizan para desgastar una defensa, o cuando
+sólo necesitas uno o dos metros.  El Line Plunge es la carrera de energía principal.
+
+Las carreras fuera del tackle (slants) y los barridos son tus carreras básicas.  inclinaciones
+son un poco más seguros que las barridas, especialmente contra la defensa 3-4,
+mientras que los barridos tienen más potencial para obtener ganancias a más largo plazo.
+
+Si la defensa persigue demasiado ("controlando el flujo"), la ofensiva tiene que
+Llamar jugadas de desvío: contraataques y trampas.  Las trampas son particularmente
+Fuerte contra zonas y formaciones de níquel.
+
+Formaciones ofensivas
+
+Hay tres grupos básicos de formaciones ofensivas: carrera fuerte
+conjuntos, fuertes formaciones de pases y formaciones equilibradas.  Usando 
+diferentes conjuntos pueden mantener a tu oponente desequilibrado.  Usa las fortalezas
+de cada formación, pero también mezcle algunas carreras desde conjuntos de pases.
+
+Si quieres un juego terrestre fuerte, especialmente en el interior, utiliza principalmente
+las formaciones Pro I y Brown.  El Marrón es particularmente fuerte para
+el fullback corriendo desde el tackle izquierdo, mientras que el I es muy bueno
+para carreras interiores.
+
+Para un ataque más equilibrado, a costa de algo de fuerza interior, utilice
+las ofensivas Pro Set y One-back.  Ambos conjuntos abren el
+El conjunto de una espalda es excelente para ejecutar contraataques.
+
+Si quieres un juego muy abierto, utiliza la formación Correr y Disparar.  Este
+La ofensiva extiende la defensa por todo el campo y le da al mariscal de campo
+muchas opciones para los receptores.  Si su mariscal de campo tiene un lanzamiento lento,
+o no puede encontrar receptores abiertos, planee muchas capturas de quarterback.
+
+Las formaciones Short Yardage y Shotgun son formaciones especializadas;
+Úsalos cuando los necesites.  Son particularmente buenos para correr y
+jugadas de pase.
+
+Formaciones defensivas
+
+Mientras que la ofensiva utiliza formaciones para maximizar la fuerza, la defensa
+Utiliza diferentes conjuntos para intentar anticipar el punto de ataque de la ofensiva.
+Las diferentes formaciones son más fuertes contra las jugadas y más débiles contra
+otros.
+
+Una de las posiciones defensivas más interesantes es la de Free Safety.
+En realidad, no existe una posición de Seguridad Libre.  Más bien, hay dos
+safetys defensivos en el campo: el safety fuerte y el safety débil
+(los nombres no tienen nada que ver con su fuerza).  La fuerte seguridad
+es responsable de cubrir al Tight End en la cobertura de pases de hombre a hombre.
+o una zona profunda en zonas.  La Seguridad Débil también puede tener una misión.
+En cobertura de zona, cubre una zona profunda.  Sin embargo, en la cobertura de hombre a hombre,
+si todos los receptores ya están cubiertos, se convierte en un safety "libre".
+A partir de ahí, puede reaccionar al balón y, a menudo, asiste en ambas carreras.
+y pasa.  También se puede utilizar para cubrir dos veces a un receptor.
+
+La cobertura de zona corta le da a la defensa cinco zonas aproximadamente diez
+yardas más allá de la línea de golpeo, y dos zonas profundas que se extienden hasta el
+resto del campo.  Las zonas cortas son muy duras en medias y largas
+pases, excepto postes.  El conjunto de zonas profundas tiene 4 zonas cortas y 3 zonas profundas,
+que no es tan bueno contra pases medios, pero es mejor contra
+los pases profundos.
+
+FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA FILA PEQUEÑA

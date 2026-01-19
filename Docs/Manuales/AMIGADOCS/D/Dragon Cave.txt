@@ -1,0 +1,130 @@
+  DragonCave
+-----------------
+                                                              September 1990
+                                                               Hartmut Stein
+                                                  BERNSTEIN ZIRKEL softworks
+
+
+
+A  short documentation of the game DragonCave V1.00 for the Commodore Amiga.
+A detailed instruction manual is included in the program itself.
+
+
+1.  Introduction
+----------------
+
+This  disk  contains  the  program  DragonCave,  a Sokoban-like game for the
+Amiga.  The following features are offered:
+
+- You  can  choose between a two-dimensional and a three-dimensional version
+  of  the game.  While the 2D-mode corresponds to the conventional game, the
+  3D-mode  is  even  more  difficult  to play, since it demands a lot of the
+  player's ability to think in a three-dimensional way.
+
+- The game contains 100 levels; 50 of them can be altered by you by means of
+  the built-in editor.
+
+- Each  level  can  be  entered  directly;  each one has got its own list of
+  hiscores.
+
+- You can undo up to 1000 of the preceding steps.
+
+- When the game starts, it copies  as  many data-files as possible to the
+  RAM-disk to reduce the loading-times while you're playing.
+
+- The  possible  options  may  be  entered  when starting the game; it's also
+  possible  to  start  the  game directly, skipping the intro and the
+  menu.
+
+
+2.  Error-Messages
+------------------
+
+In  case  an  error appears DragonCave will show you an alert (like a
+Guru Meditation) and give you a number and a short description of the error.
+These error-messages are explained below in a more detailed way.
+
+ ท 1     - can't access data-file
+ ท 14/15 - can't read level
+   ญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญ
+
+DragonCave  can't  read  one  of its data-files.  There may be different
+reasons. First,  one  of  the  files  may  be  deleted  or
+manipulated.   Second,  there may be a read-write-error on the disk.  Third,
+this  error  may  result  from  two strange ways of starting the program.
+That's why you SHOULDN'T do the following:
+   'Path DFx: Add'
+   'Run DragonCave'
+or
+   'Assign XYZ: DFx:DragonCave'
+   'Run XYZ:'
+In  this case DragonCave cannot find its data-files and will produce this
+error-message.
+
+ ท  2   - no screen
+ ท  3/7 - no window
+ ท  8   - no audio_port
+ ท 10   - no game_port
+   ญญญญญญญญญญญญญญญญญญญญ
+
+DragonCave  is  unable  to  open a Screen, a Window or a MsgPort.  This may
+result from a lack of free memory.  Look at error-codes 15-26.
+
+ ท  4 - no intuition-library
+ ท  5 - no graphics-library
+ ท  6 - no icon-library
+ ท 11 - no gameport-device
+ ท 13 - no console-device
+   ญญญญญญญญญญญญญญญญญญญญญญญญญ
+
+DragonCave  fails to open a Library or a Device.  Please assure that your
+Amiga  is  running  under kickstart-version 1.2 or a higher one and boot it with a
+standard-workbench-disk.
+
+ ท 15-26 - not enough memory
+   ญญญญญญญญญญญญญญญญญญญญญญญญญ
+
+DragonCave  can't  find enough free memory.  Please finish all other running
+programs,  close  all  unneeded  windows and try again.  If DragonCave fails
+again, you should reboot your Amiga.
+
+ ท  9 - no audio-channel available
+   ญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญ
+
+All audio-channels are occupied by a different program.  Finish this one and
+try again.
+
+ ท 12 - gameport still in use
+   ญญญญญญญญญญญญญญญญญญญญญญญญญญ
+
+The  second controller port is used by a different program.  Finish this one
+and try again.
+
+
+3.  Thanks
+----------
+
+We'd like to thank the following persons:
+
+Andy Taros         - for  the  fine graphics in the game DungeonMaster which
+                     is  the best game we have ever bought for Amiga (if you like
+                     fantasy-roleplaying-games, you MUST play this one!)
+Dirk Strobel       - for lots of hints and advice
+
+
+4.  Contact
+-----------
+
+BERNSTEIN ZIRKEL softworks
+c/o Michael Berling
+Imbacher Weg 89
+D-5090 Leverkusen 3
+West-Germany
+
+or
+
+BERNSTEIN ZIRKEL softworks
+c/o Hartmut Stein
+K๖lner Stra฿e 7
+D-5090 Leverkusen 3
+West-Germany

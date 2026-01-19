@@ -1,0 +1,261 @@
+		Jimmy Willburne : Grand, Beau et Taciturne ©
+		--------------------------------------------
+				 1991-1994
+
+
+
+
+
+ Bienqu'à l'origine nous ayons fait ce jeu pour le plaisir, sans intention
+lucrative, nous avons decidé, vu l'importance du travail, de le mettre
+dans le shareware.
+
+ Vous pouvez donc nous commander les 3 disques contre la somme de 100 FF
+ou plus :
+    - frais d'envoi compris
+    - disques fournis avec de superbes étiquettes
+    - chèque ou mandat a l'ordre de M. HISBERGUE Jacques ou
+				    M. JACQUEMONT Frédéric
+
+ Jimmy fonctionne aussi bien sur A500, A2000 que A1200 (déconnecter les
+nouvelles chip ou utiliser le programme 'SetChipRev' sur le disque 3).
+Mais sur les versions ne disposant que du minimum (1 Mo), certaines
+animations, fx ou musiques seront absentes ou remplacées par d'autres plus
+économiques en memoire. Par contre l'excédent de mémoire servira pour les
+sauvegardes de données pour reduire les accés aux lecteurs.
+
+ Une seule sauvegarde est possible (dans le DF0 ou HD).
+ 1 Mo minimum et un second lecteur conseillé.
+
+NB: Avec 1 Mo, La totalité de la memoire est sollicitée, par conséquent 
+    Fermer les fenêtres, gardiens...
+
+
+
+
+
+
+
+1.Historique :
+------------
+
+ Un peu plus de 2 ans, c'est le temps nécessaire pour créer et surtout 
+finir ce Jeu.
+ Cela représente énormement de travail en GFX, et ZIKS mais surtout en code.
+
+   - Code : 377 Ko
+   - GFx  : 721 Ko Compactés
+   - Zik  : 608 Ko    "
+   - Fx   : 173 Ko    "
+
+ Jack & Fafy	: Code
+ Jeff 		: Décors & anims
+ Fred		: Musiques & anims
+
+ Nous espérons que vous aprecierez ce jeu, même si quelques bugs peuvent
+encore subsister.
+
+
+
+
+
+
+2.Commandes JIMMY : 
+-----------------
+
+ - Pendant le Jeu :
+
+	   Q : Commande Utiliser
+	   S :	   "    Ouvrir
+	   D :     "    Regarder
+	   W :     "    Parler
+	   X :     "    Donner
+	   C :     "    Ramasser
+      ESPACE :     "    Marcher
+	HELP : Pause
+	 1-6 : Regler la vitesse d'animation
+	 ESC : Couper la parole (ou bouton droit de la souris)
+	 DEL : Page d'information (ci-dessous)
+
+
+ - Panneau DEL :
+
+	 1-8 : Régler le temps de parole de Jimmy
+  	  F1 : Charger la partie
+	  F5 : A propos de ...
+	 F10 : Sauvegarder la partie
+	HELP : Retour au Jeu
+	 ESC : Quitter Jimmy
+
+
+
+
+
+
+
+3.Commandes TETRABRIK : 
+---------------------
+
+	HELP : Pause
+	 DEL : Musique / Fx
+	 RMB : Commence la partie / Utilise option
+	 LMB : Lache la boulette
+	 ESC : Detruit la boulette
+	 NB  : L'option utilisée en premier est toujours celle du haut
+
+
+
+
+
+4.Composition des disques :
+-------------------------
+
+ Jimmy_Disk_1 :	.info                         33 Octets
+		Disk.info             	     683 Octets
+		Info_Jimmy           	    6537 Octets
+		Info_Jimmy.info       	    7239 Octets
+		Jimmy                     386708 Octets
+		Jimmy.info            	    7231 Octets
+		Data1                 	  375341 Octets
+
+		C/
+		  PPmore                    7328 Octets
+		  EndCLI                     696 Octets
+		  LoadWB                    2328 Octets
+		
+		Devs/
+		  system-configuration       232 Octets
+		
+		S/
+		  startup-sequence            14 Octets
+		
+		Libs/
+		 icon.library               5688 Octets
+		 diskfont.library           4964 Octets
+		
+		Fonts/
+		  GENERIK.font               264 Octets
+		  GENERIK2.font              524 Octets
+		  NovaC.font                 264 Octets
+		  NovaL.font                 784 Octets
+		  Fred.font                  264 Octets
+		  GENERIK/
+		    7                       1452 Octets
+		  GENERIK2/
+		    8                       1620 Octets
+		  NovaC/
+		    17                      2368 Octets
+		  NovaL/
+		    8                       2732 Octets
+		  Fred/
+		    6                       1120 Octets
+
+
+ Jimmy_Disk_2 : .info                         16 Octets
+		Disk.info                    683 Octets
+		Data2                     833710 Octets
+
+
+ Jimmy_Disk_3 : .info                         43 Octets
+		Disk.info                    683 Octets
+		Intro_Jimmy                22268 Octets
+		Intro_Jimmy.info            7226 Octets
+		SetChipRev                  8344 Octets
+		SetChipRev.info             2934 Octets
+		Data3                     329262 Octets
+
+
+
+
+
+
+5.Installation sur disque Dur :
+-----------------------------
+ L'installation est extrèmement simple. Il suffit de suivre l'une des
+démarches suivantes:
+
+Première Solution:
+
+ 1..... Insérez "Un Autre Monde" de "TELEPHONE" dans le lecteur de CD et
+	mettez le en lecture, montez les basses et le son.
+
+ 1..... Effacer totalement le disque dur en le formattant en bas niveau.
+
+ 2..... Faire mariner les trois disques dans du Rhum Charette et faire
+	revenir à feu doux pendant 10 minutes.
+
+ 3..... Pendant ce temps, appelez au téléphone (sans baisser le son) 
+	votre petit(e) ami(e) et dites lui à quel point elle (ou il)
+	vous manquera lorsque vous vous fendrez la tronche avec Jimmy. 
+
+ 4..... Après avoir ecouté ses supplications et ses insultes raccrochez
+	le combiné et séchez les disks.
+
+ 6..... Prenez un Zlika - à piston variable ou non - et sortez le avec
+	beaucoup de précautions de son étuis. Utilisez le Zlika comme
+        il se doit.
+
+ 7..... Appelez votre notaire et léguez toute votre fortune - si petite
+	soit elle - à la fondation "Jimmy et ses Amies".
+
+ 8..... Appelez votre psy et racontez-lui ce que vous venez de faire.
+
+
+
+Deuxiême Solution:
+
+ 1..... Créer un tiroir, par exemple
+	DH0:Jeu/JimmyWillburne
+
+ 2.....	Ensuite copier les 3 disques dans ce tiroir, y compris le tiroir Font
+
+ 3..... Puis dans la Startup, avant le lancememt de l'intro ou du jeu ecrire
+	"Assign JimmyWillburne: dh0:Jeu/JimmyWillburne"
+
+ 4..... Copier le fichier "PPmore" se trouvant dans le tiroir "c" du disk 0
+	dans le tiroir "C:" du disk dur
+
+
+
+
+
+6.COPYRIGHT:
+------------
+  Bobbin....... (C)COPYRIGHT LUCAS ART
+  Buybrush..... (C)COPYRIGHT LUCAS ART
+
+  Toutes les  autres compositions en musiques, graphiques et programmation
+  sont la propriéte exclusive de CHICKEN-POX ©
+
+
+
+
+
+7.Remerciements :
+---------------
+ Nous remercions Stephane et Hakim, mais aussi ceux qui suivent que nous
+n'avons pas pu mettre dans l'intro, puisque le disque dur s'est gauffré
+avec toutes les sources le l'intro :
+	- TANGO/AKM
+	- SILVERE/PS3 (PC)
+	- MELKOR
+	- GORGEVIC
+
+
+
+
+
+
+8.Contact :
+---------
+
+ M. HISBERGUE Jacques
+ 192 rue Pierre DUPONT
+ 69400 VILLEFRANCHE sur SAONE
+ FRANCE
+
+
+
+
+						CHICKEN-POX
+						-----------

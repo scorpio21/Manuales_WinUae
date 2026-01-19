@@ -1,0 +1,1912 @@
+omnitendencia
+                         -=*> PALADÍN <*=-         
+                              """""""
+                          Manual del propietario
+==============================================================================
+
+                         TABLA DE CONTENIDO
+                         """""""""""""""""
+    ANTES DE JUGAR... Eliminar...
+  1 ¡Haga una copia de seguridad de esos discos!                   Guardar
+    Problemas al ejecutar Paladin Cerrar
+    Garantía limitada de medios 15 Salir
+    Prefacio de la garantía limitada de software
+  2 Condiciones de victoria de Playing Notes
+                                           Estado de la misión
+    JUGANDO AL PALADÍN
+  3 notas MIEMBROS DE TU PARTIDO
+    Paladín inicial 16 características básicas
+    Control de seguridad 17 Movimiento
+    Comenzando un nuevo juego 18 Combate
+  4 Orden de juego 19 Magia
+    Puntos de movimiento 20 tipos de miembros
+  5 Desplegando tu grupo
+    Gravamen LOS OPONENTES
+  6 Prefacio 21 Características básicas
+    Condiciones de victoria Luchadores
+    Creando nuevos dragones paladines
+    Encadenamiento entre misiones Trolls
+  7 Estado de la misión 22 zombis
+    Luchando contra los hechiceros enemigos
+    Mejorando tus espíritus de paladín
+  8 Guardar un juego en progreso
+    Cerrar sin guardar OBJETOS Y SUS USOS
+    Salir de Paladin 23 puntos de carga
+                                           Qué son y su uso
+    LAS PANTALLAS DE BATALLA
+  9 La ventana de combate TERRENO
+    La ventana de estadísticas 26 Terreno interior
+    Temporizador de cuenta regresiva Terreno exterior
+    Terreno especial con pantalla panorámica
+                                        27 Tabla de terreno
+    LOS ICONOS
+ 10 CONSTRUCCIÓN DE MISIONES de soltar objetos
+    Usar el menú Archivo de Stairway 28
+    Menú Tomar mapa de objetos
+ 11 Usar el menú de nivel de objeto
+    Menú de paleta de puerta abierta 29
+ 12 Menú de información de espada oscilante
+ 13 Encadenamiento de hechizos entre misiones
+    Botón Siguiente 30 Menú de hilo
+    Cambiar menú de fiesta del botón de escala
+                                           Importación de líderes de escuadrón de infracciones
+    LOS MENÚS Otras funciones/Notas de diseño
+ 14 Acerca de Paladín...
+    Nueva GUÍA DE 32 LLAVES DE IBM
+    Reanudar... 34 LAS MISIONES
+
+================================================================================
+
+¡Haga una copia de seguridad de esos discos!
+
+Paladin de Omnitrend no está protegido contra copia y le recomendamos que haga una copia de seguridad
+ sus discos antes de 
+jugar. De hecho, si aún no lo ha hecho, probablemente ahora sería un buen 
+ tiempo!
+
+Problemas al ejecutar Paladin de Omnitrend
+
+Si experimenta algún problema al ejecutar este software en su computadora,
+ Omnitrend Software, Inc. proporciona 
+Asistencia telefónica varias veces por semana. Llame al (203) 658-6917 para 
+ calendario de asistencia actual. Nos arrepentimos
+que no podemos responder ninguna pregunta sobre el desarrollo del juego o
+ proporcionar pistas.
+
+Si encuentra un error en el programa, envíenos una nota. estar seguro
+ para incluir el número de versión del 
+juego (esto se puede encontrar en el cuadro de diálogo "Acerca de Paladin..."), así como un 
+ descripción de la computadora que eres 
+usando. Toda la correspondencia relacionada con el juego debe enviarse por correo a:
+
+               Omnitrend Software, Inc.
+               Parada de correo 201
+               Apartado postal 733
+               West Simsbury, CT 06092
+
+Garantía limitada de medios
+Omnitrend Software, Inc. garantiza todos los medios por un período de noventa (90)
+ días a partir de la fecha de compra. debería 
+Si experimenta un problema dentro de ese período, devuelva el disco defectuoso junto con 
+ con comprobante de compra fechado.
+Si tiene un problema fuera de la garantía, Omnitrend Software, Inc. le
+ reemplace un disco defectuoso por $6.00. nosotros 
+Lamentamos no poder devolver ningún material de embalaje que utilice para 
+ envíe su disco.
+
+Los discos defectuosos deben devolverse a:
+               Omnitrend Software, Inc.
+               Parada de correo 200
+               Apartado postal 733
+               West Simsbury, CT 06092
+
+Omnitrend Software, Inc. no será responsable de reemplazar sin costo
+ soporte dentro de la garantía que haya sido 
+sometido a mal uso, daño o desgaste excesivo.
+
+Garantía limitada de software
+
+Este software y el manual adjunto se venden "tal cual" sin garantía para
+ su desempeño. Todo el riesgo como 
+de los resultados y rendimiento del programa es asumido por usted.
+
+La Garantía limitada de software es la única garantía de cualquier tipo, ya sea
+ expresa o implícita, incluyendo pero no 
+limitado a las garantías implícitas de comerciabilidad e idoneidad para un 
+ propósito particular que es hecho por
+Omnitrend Software, Inc.
+
+Ni Omnitrend Software, Inc. ni nadie que haya estado involucrado en
+ la creación, producción o entrega 
+de este programa será responsable de cualquier daño directo, indirecto, consecuente o 
+ daños incidentales que surjan de la 
+uso, los resultados del uso o la imposibilidad de usar dicho producto incluso si Omnitrend 
+ Software, Inc. ha sido informado de la 
+posibilidad de tales daños o reclamos. Algunos estados no permiten la exclusión
+ o limitación de responsabilidad por 
+daños consecuentes o incidentales, por lo que la limitación anterior puede no aplicarse 
+ a ti.
+
+                                  - 1 -
+================================================================================
+
+Notas de Atari ST
+
+Tu computadora debe estar en modo de baja resolución para poder jugar.
+
+Debido a errores en algunas versiones del sistema operativo del ST, el uso del
+ carácter de subrayado cuando 
+ingresar nombres de archivos hará que la computadora falle.
+
+Para jugar a Omnitrend's Paladin con una sola unidad de disco, copia una misión (.QST)
+ archivo y un paladín 
+(.PAL) del disco Quest al disco del programa antes de reproducirlo. tu 
+ no se puede cambiar el 
+Discos de programa y de misiones al jugar Paladin en una unidad de disco.
+
+Para copiar archivos desde el escritorio GEM con una sola unidad de disco, haga lo siguiente
+ siguiente:
+
+1) Inserte el disco de origen en la unidad de disco. Haga doble clic en el disquete
+ Icono del disco A y seleccione el 
+archivo que desea copiar haciendo clic en él y manteniendo presionado el botón del mouse 
+ abajo.
+
+2) Con el botón aún presionado, arrastre este ícono de archivo al disquete
+ icono del disco B y suelte el 
+botón. GEM comenzará a leer el archivo desde el disco de origen.
+
+3) Cuando GEM le solicite el Disco B, inserte el disco de destino. GEM puede preguntar
+ para cualquier disco 
+varias veces antes de completar la copia.
+
+Notas de Macintosh
+
+El programa Paladin se ejecutará automáticamente cuando inicie el disco.
+
+Utilice la opción "Salir de Quest" en el programa Paladin para ejecutar Quest
+ Constructor.
+
+Notas amigas
+
+Cuando utiliza el cuadro de selección de archivos para ingresar el nombre de un archivo a
+ salvar un paladín, misión o 
+juego guardado, haga clic con el puntero del mouse en el campo del archivo (el cuadro rectangular 
+ a la derecha de la palabra 
+"archivo") y escriba el nombre que desea darle al archivo. (Ej.: JUEGO16)
+
+Al ejecutar Paladin de Omnitrend con sólo 512K, algunos efectos de sonido aparecerán
+ no ser escuchado.
+
+Notas de IBM
+
+La versión IBM de Paladin de Omnitrend requiere DOS 3.0 o superior.
+
+                                  - 2 -
+================================================================================
+
+Notas
+
+Siempre que el manual haga referencia a "el botón del mouse", y su mouse tenga más
+ más de un botón, utilice 
+el botón de la izquierda. El Paladín de Omnitrend solo usa el botón izquierdo.
+
+"Hacer clic" significa "presionar el botón del mouse". "Mayús-clic" significa "mantener presionado
+ una de las teclas de mayúsculas 
+y presionar el botón del mouse al mismo tiempo".
+El "miembro actual" al que se hace referencia en todo el manual es el miembro que
+ aparece en el centro 
+de la Ventana de Combate y cuyas estadísticas aparecen en las Estadísticas de Miembros 
+ Ventana.
+
+Iniciando el Paladín de Omnitrend
+
+Para jugar a Paladin de Omnitrend, inicie el disco de programa Paladin y
+ haga doble clic en "PALADÍN" 
+(Paladin aparecerá automáticamente en Macintosh). cuando el programa
+ termina de cargar, 
+Aparecerá la pantalla de título de Paladin. Para continuar, haga clic con el mouse o presione
+ cualquier tecla del teclado.
+
+Para iniciar la versión IBM de Paladin de Omnitrend, inicie la computadora en
+ DOS 3.0 o superior. 
+Inserte el disco Paladin y escriba "PALADIN" cuando se le solicite.
+
+Control de seguridad
+
+Para poder jugar a Omnitrend's Paladin, debes completar correctamente un
+ control de seguridad. Para completar 
+el control de seguridad, ingrese la palabra de este manual cuya ubicación se proporciona
+ por el cuadro de diálogo. 
+"Palabras" son cualquier cadena de caracteres con un espacio o puntuación en cualquiera
+ fin. Una vez que tengas 
+Ingresó la palabra correcta, el programa continuará.
+
+Comenzar un nuevo juego
+
+Selecciona "Nuevo..." en el menú Misión. Aparecerá un cuadro de selección de elementos. Todos
+ de los nombres que 
+Lo que aparece son 'archivos de misiones'. Estos archivos de misiones contienen todos los datos para tu
+ partido, los opositores y 
+mapas de la zona de combate. Lo que vas a crear es un 'archivo de juego'. esto
+ es una combinación de un 
+archivo de misiones y un 'archivo paladín'. Más sobre el archivo paladín más adelante.
+
+Una vez que haya seleccionado un archivo de misión, se abrirá el cuadro de selección de elementos de misión.
+ reemplazado por un paladín 
+cuadro selector. Aquí es donde seleccionas el paladín para tu juego. una muestra
+ paladín 
+"BRANDON" está incluido en tu juego. Más adelante probablemente querrás
+ Crea tu propio paladín.
+
+                                  - 3 -
+================================================================================
+Ahora tienes que nombrar el archivo del juego en el que se ubicará tu juego actual.
+ ser almacenado.
+
+Una vez que hayas hecho esto, el programa guardará el nuevo juego en el disco y
+ tu juego lo hará
+empezar.
+
+Importante: cuando se crea un archivo de juego, se borra el archivo de paladín que tienes.
+ seleccionado y 
+lo incorpora al archivo del juego.  Esto asegura que el archivo paladín
+ Sólo puede ser utilizado por una misión. 
+a la vez. Las únicas formas de recuperar el archivo paladín son ganar el juego en
+ progresa o elimina la misión con la entrada del menú "Eliminar...". Eliminar un
+ El archivo del juego fuera del juego también se borrará. 
+la lima de paladín que se le ha incorporado.
+
+Orden de juego
+
+El juego en Paladin de Omnitrend alterna entre mover tu propio grupo
+ miembros y el
+computadora moviendo a sus oponentes.
+
+La fase de combate enemigo no comenzará hasta que hagas clic en el icono Siguiente.
+ o todo tu grupo
+Los miembros agotan sus puntos de movimiento.
+
+Fase del jugador: cada ronda comienza cuando el jugador tiene la opción de moverse.
+ todos, algunos o ninguno de sus miembros.  Puedes mover a un miembro hasta que corra.
+ fuera de los puntos de movimiento o haga clic en el 
+Siguiente icono.
+
+Para iniciar la fase de combate enemigo, haz clic en el icono Siguiente.  Si todo tu
+ los miembros han usado 
+sus puntos de movimiento para la ronda, la computadora automáticamente
+ entrar en la fase enemiga.
+
+Cada fase de jugador dura 30 segundos de tiempo de juego.
+
+Fase enemiga: cuando comienza la fase de ataque enemigo, las estadísticas del miembro 
+ ventana
+cambia su título a "Ataques" y aparecerá la leyenda "Movimiento enemigo...".
+
+Las tropas enemigas aparecen en la ventana de combate sólo cuando están atacando a tu
+ hombres.
+
+Al final de la fase enemiga, la fase de jugador comienza de nuevo.
+
+Puntos de movimiento
+
+Cada miembro recibe una cierta cantidad de puntos de movimiento (mp).  todos los
+ actividades de los miembros 
+excepto por cambiar la escala de vista (más sobre esto más adelante) ocupan un cierto
+ número de puntos.  Para 
+Por ejemplo, moverse a una casilla de terreno despejado cuesta 2 mp, mientras que balancear un
+ La espada requiere 3 mp.  el 
+actividades de combate como tomar un objeto, balancearse, moverse y usar un
+ objeto puede ser todo 
+mezclado a tu discreción durante el mismo turno.
+
+                                  - 4 -
+================================================================================
+
+Si no tienes suficientes mp para la actividad que deseas realizar, el
+ la computadora informará 
+usted con un cuadro de alerta.
+
+Si se han agotado todos los puntos de movimiento del miembro actual, el
+ el programa lo hará
+avanzará automáticamente al siguiente miembro del grupo.
+
+Los puntos de movimiento para cada miembro se basan en: la clase de personaje del miembro,
+ la vitalidad del 
+miembro y el gravamen actual del miembro.
+
+Implementando tu grupo
+
+Los miembros de tu grupo siempre ingresan a la misión a través de la entrada
+ pentagrama. la entrada
+El pentagrama debe estar claro para que sus miembros puedan ingresar.  Si un miembro es
+ sin poder entrar, el
+El programa saltará a la fase de combate enemigo.
+
+Puedes continuar moviendo a un miembro hasta que se quede sin puntos de movimiento, obtenga
+ aturdido, o usted 
+haga clic en el icono Siguiente.  Cada vez que haga clic en Siguiente, el programa avanzará a
+ el siguiente miembro en 
+el grupo que está en la zona de combate, no está aturdido y tiene al menos una
+ punto de movimiento.
+
+Además, puedes hacer que cualquier miembro que esté visible en la ventana de combate sea el
+ miembro actual 
+manteniendo presionada la tecla Alternativa y haciendo clic en el miembro deseado.
+ (Los reproductores Macintosh deben 
+use la tecla Opción en lugar de la tecla Alternativa).
+
+Si dispone de varitas de detección y anillos de visión lejana, utilícelos.
+ siempre que sea posible. Al guardar
+tiempo buscando tus objetos, aumentas las probabilidades de tener éxito
+ completando tu búsqueda.
+
+gravamen
+
+Hay trece tipos diferentes de objetos que 
+se puede encontrar en una misión. Cada uno de esos objetos tiene 
+un valor de gravamen.  El gravamen es una medida 
+del volumen del objeto.  Obviamente, cuanto más voluminoso sea el 
+tipo de objeto, cuantos menos de ellos pueda el miembro 
+llevar.
+
+Llevar una gran cantidad de puntos de gravamen tiene 
+dos desventajas. Uno, el peso reduce el 
+Número de MP disponibles por turno. dos, miembros 
+llevar una gran cantidad de puntos de gravamen son 
+Es más probable que el enemigo lo seleccione como objetivo. 
+fuerzas.
+
+                                  - 5 -
+================================================================================
+
+Prefacio
+
+El prefacio es una breve descripción de tu búsqueda.
+
+Los prefacios suelen incluir información sobre el tipo y la fuerza del enemigo. 
+ Estarás peleando y 
+pistas sobre la ubicación de los objetivos de la misión.
+
+Condiciones de victoria
+
+Las condiciones de victoria son:
+
+Rescatar prisioneros: debes rescatar a todos los prisioneros en la misión si
+ esta es una de las victorias 
+condiciones.
+
+Obtener pergaminos: esto funciona de la misma manera que rescatar prisioneros.
+
+Salir de la zona de cobat: todos los miembros de tu grupo deben encontrar y utilizar la salida.
+ pentagrama si esto 
+es una de las condiciones de la victoria.
+
+Mata al n% de oponentes: al menos el n% de los oponentes en la misión deben ser
+ asesinado si este es uno de los 
+condiciones de victoria.
+
+Límite de tiempo de la misión: todas las demás condiciones de victoria del juego deben cumplirse.
+ satisfecho antes del 
+expira el plazo.  Todas las misiones tienen un límite de tiempo.
+
+Todas las condiciones de victoria son no excluyentes, es decir, más de una puede 
+ estar en vigor para un determinado 
+búsqueda.  Por lo tanto, para completar una misión es posible que tengas que rescatar prisioneros.
+ y mover todos los 
+miembros del grupo a través del pentagrama de salida antes de que expire el límite de tiempo.
+
+Creando nuevos paladines
+
+Si tu grupo se encuentra con un enemigo fuerte y tu Paladín muere, necesitarás
+ para crear uno nuevo. a
+cree un nuevo paladín, ejecute el programa Quest Builder y seleccione "Nuevo
+ Paladín..."
+
+Encadenamiento entre misiones
+
+Algunas misiones conducen directamente a otras. Es decir, cuando todos los supervivientes
+ miembros de tu partido
+has salido a través del pentagrama de salida y has logrado
+ completó la misión, Paladín
+te lleva automáticamente a la siguiente misión y crea un archivo de juego para ti
+ bajo el mismo nombre que
+tu búsqueda anterior.
+                                  - 6 -
+================================================================================
+
+Hay dos formas diferentes en que Paladin puede encadenar misiones. si el proximo
+ La misión tiene miembros para
+su grupo ya creado, su grupo actual será reemplazado por el nuevo
+ uno. Si la próxima misión
+no tiene ningún miembro para su grupo, entonces todos los supervivientes del grupo
+ miembros de tu último
+misión se transfieren a la nueva misión. Su salud y vitalidad permanecen
+ lo mismo. Ninguno de los
+Los objetos que llevan se transferirán a la nueva misión.
+
+Estado de la misión
+
+Al utilizar la función Estado de la misión, puedes saber qué condiciones de victoria
+han quedado satisfechos y 
+que necesitan más trabajo.
+
+Las posibles visualizaciones de estado son:
+
+  Condición de victoria Completa Incompleta
+----------------------------------------------------------------------
+Rescate de prisioneros Todos los prisioneros se recuperaron No todos los prisioneros se recuperaron.
+Obtener pergaminos Todos los pergaminos recuperados No todos los pergaminos recuperados.
+Matar n% oponentes Matar objetivo completado Se necesitan más bajas.
+
+Luchando contra el enemigo
+
+Si el enemigo está usando orbes de fuego o bolas de fuego, evita agrupar tus
+ miembros. Intenta mantener al menos 
+un cuadrado entre cada uno.  De esta forma evitas tener tres o cuatro 
+ bajas por una sola explosión.
+
+Por el contrario, los orbes de fuego y las bolas de fuego son más efectivos contra los cúmulos.
+ del enemigo. A menos que tu 
+Si tienes una gran cantidad de orbes de fuego o bolas de fuego, es mejor no hacerlo.
+ "desperdiciar" estas armas contra 
+objetivos únicos.
+
+Mejorando tu paladín
+
+Tu objetivo general es mejorar tu paladín.  haces esto por
+ completando exitosamente 
+misiones.
+
+Cuanto más activo sea un paladín, más probabilidades tendrá de ver algún tipo de
+ mejora al final de un 
+búsqueda exitosa.  La precisión es muy importante, pero ver y detectar
+ Las habilidades deben perfeccionarse como 
+bueno.
+
+Paladines que tienen buena mano con la espada y poseen una habilidad superior.
+ conocimiento de ver y
+detectar alcanzará el título de caballero. Con el título de caballero, tu paladín
+ recibir una espada superior
+y armadura.
+                                  - 7 -
+===================================================================================
+
+Guardar un juego en progreso
+
+Para guardar una partida en curso, debes estar al principio de la
+ Fase de movimiento del jugador.  
+
+Puedes seleccionar menús completos, pero haciendo clic en cualquiera de los íconos o en el combate
+ La ventana evitará 
+que guardes tu juego.  Este es el único punto en el que puedes guardar
+ el juego antes 
+dejar de fumar.
+
+Cerrar un juego sin guardar
+
+Seleccione "Cerrar" en el menú Misión.  Cuando el programa te pregunta si quieres
+ Para guardar el juego, haz clic en No.
+
+Salir de Paladín
+
+Utilice "Salir" en el menú Quest para salir del programa.  Si selecciona esto en
+ el comienzo de la 
+Fase de movimiento del jugador, se te dará la opción de guardar tu progreso.
+ antes de cerrar.  en 
+En cualquier otro punto, el programa se cerrará sin guardar.
+
+                                  - 8 -
+================================================================================
+
+La ventana de combate
+
+La ventana de combate es la ventana más grande de la pantalla.  durante el jugador
+ fase de combate, la 
+El miembro del jugador actual siempre aparecerá en el centro de la ventana de combate.
+ durante el enemigo 
+fase de combate, el miembro enemigo actual aparecerá en el centro del
+ ventana de combate.
+
+La ventana de estadísticas
+
+La ventana de estadísticas de miembros tiene varias funciones.  Durante el combate enemigo
+ fase,
+La información sobre los ataques enemigos se muestra en la ventana de estadísticas.  durante el
+ Combate de jugador 
+fase, esta ventana muestra las estadísticas de batalla para el
+ Miembro actual del partido.  Estas estadísticas son:
+
+Movimientos: el número de movimientos restantes en el turno del miembro actual.
+
+Vital: la vitalidad del miembro actual.  Si la vitalidad cae por debajo del 30%, 
+ se mostrará en 
+rojo como advertencia (excluida la versión Macintosh).
+
+Salud: la salud del miembro actual. Si esto llega a 0%, el miembro es
+ muerto. cuando el 
+La salud del miembro actual cae por debajo del 50%, se mostrará en rojo como
+ una advertencia (Macintosh 
+versión excluida).
+
+Enc: el gravamen actual del miembro (NO el gravamen máximo).
+  Esta cifra
+se mostrará en verde si es mayor que 0. (Excluida la versión de Macintosh).
+
+Accur: la precisión del manejo de la espada del miembro actual.  Si el miembro es
+ guardabosques o un mago, 
+Esta es también una medida de su capacidad para lanzar hechizos.
+
+Detec: el porcentaje de posibilidades que tiene el miembro actual de utilizar con éxito un
+ varita de detección.
+
+Ver: el porcentaje de posibilidades que tiene el miembro actual de utilizar con éxito 
+ un anillo de visión lejana. 
+
+Temporizador de cuenta regresiva
+
+El cronómetro de cuenta regresiva muestra la cantidad de tiempo que queda en la misión.
+
+Pantalla panorámica
+
+La pantalla panorámica es un mapa compuesto de 21 por 21 del terreno que rodea 
+ el miembro actual. 
+Se puede visualizar haciendo clic en el icono Cambiar escala. Información para
+ esta vista panorámica es 
+proporcionado por otros miembros que se mueven por el área y guardabosques que usan varitas
+ de detección o anillos 
+de visión lejana.  Cuando los guardabosques usan la vista panorámica, los oponentes aparecen parpadeando.
+ cuadrados verdes en el Atari ST y 
+Amiga, cajas anidadas en IBM y como cuadrados grises en Macintosh.
+
+                                  - 9 -
+================================================================================
+
+OBJETO DE SOLTAR
+
+Haga clic en este icono para soltar un objeto
+
+Aparecerá un cuadro de diálogo con una lista de todos los objetos que pertenece al miembro actual.
+ llevando.  Tenga en cuenta que
+La espada y la armadura del miembro no aparecerán en esta lista ya que es posible que no sean
+ eliminado.   Haga clic en 
+el nombre del objeto que desea soltar y luego haga clic en "Aceptar".
+
+Hay varias razones por las que es posible que desees dejar algo.  un muy bueno
+ La razón es que tú no 
+Ya no quiero llevar algo debido a su pena de gravamen. tu
+tal vez quiera transferir 
+un objeto de un miembro a otro. Además, la esfera de desviación.
+ funciona solo si tu 
+déjalo caer.
+
+Un objeto caído siempre cae directamente debajo del miembro actual.  Sólo
+ un objeto puede estar en 
+un cuadrado a la vez.
+
+Se necesita 1 punto de movimiento para soltar un objeto.
+
+USAR ESCALERAS    
+
+Haga clic en este icono para subir/bajar una escalera.
+
+Si el cuadrado correspondiente encima o debajo de la escalera está bloqueado por
+ otro miembro, el raton 
+El puntero se convertirá en una señal de alto.  Si el cuadrado correspondiente es
+ bloqueado por un oponente, el 
+El oponente morirá y tu nivel cambiará.
+
+Se necesitan 5 puntos de movimiento para usar las escaleras.
+
+TOMAR OBJETO
+
+Haga clic en este icono para tomar un objeto.
+
+Puedes tomar cualquier objeto directamente adyacente o en el mismo cuadrado que el
+ miembro actual. el 
+el objeto debe ser visible; No se puede tomar un objeto directamente de otro.
+ miembro.
+
+El puntero del mouse se convertirá en una mano que señala.  Haga clic aquí en el objeto
+ deseas tomar.
+
+Algunos objetos tienen mensajes especiales escritos en ellos.  Estos mensajes aparecen 
+ siempre que el 
+Se toma el objeto.
+
+                                  - 10 -
+================================================================================
+
+Cada vez que se toma un objeto, aumenta el gravamen total del miembro. 
+ El gravamen afecta 
+el número de puntos de movimiento que tu miembro recibirá al comienzo de un
+ girar. Por lo tanto, 
+los miembros muy cargados no se moverán a su máxima velocidad.
+
+Se necesita 1 punto de movimiento para tomar un objeto.
+
+OBJETO DE USO
+
+Haga clic en este icono para utilizar un objeto.
+
+Aparecerá un cuadro de diálogo con una lista de todos los objetos que pertenece al miembro actual.
+ llevando.  Haga clic en 
+el nombre del objeto que desea utilizar y luego haga clic en "Aceptar".
+
+Todos los objetos y sus usos se detallan en el apartado "Objetos y
+ Sus usos."
+
+Los objetos requieren diferentes cantidades de puntos de movimiento para su uso.  Ellos son:
+
+     Puntos de movimiento de objetos
+-------------------------------------------------- 
+     Orbe de fuego 5        
+     Cristales explosivos 10        
+     Poción de vitalidad 3        
+     Bolsa de tenencia N/A        
+     Poción de curación 9        
+     Perno 5        
+     Ballesta N/A        
+     Anillo de visión lejana 9        
+     Varita de detección 15        
+     Esfera de Deflexión N/A 1
+Amuleto de Levitación 10        
+     Prisionero N/A     
+     Desplazarse N/A             
+
+1 esfera se activa al dejarla caer.
+
+PUERTA ABIERTA
+
+Haga clic en este icono para abrir una puerta adyacente al miembro actual.
+
+El puntero del mouse se convertirá en una pequeña tecla.  Coloca esta llave sobre la puerta. 
+ quieres abrir y 
+haga clic con el mouse.  Si tienes suficientes puntos de movimiento, la puerta se abrirá.
+
+                                  - 11 -
+================================================================================
+
+Las puertas requieren diferentes cantidades de puntos de movimiento para abrirse.  puertas de pino
+ Requiere 3 puertas de roble. 
+requieren 5 y las puertas de metal requieren 10.
+
+ESPADA OSCILANTE
+
+Haga clic en este icono para blandir la espada del miembro actual.
+
+La espada se empuñará en la dirección hacia la que mira el miembro.  si
+ el columpio se conecta, un 
+Aparecerá una pequeña calavera en el objetivo. Esto es válido para las iniciativas iniciadas por el oponente.
+ ataques también.
+
+Si el golpe golpea a un oponente, la cantidad de daño que la espada
+ genera se resta de 
+la salud del oponente, menos la cantidad de protección que proporciona su armadura.
+
+           Armadura Ataque no mágico Armadura Ataque no mágico
+        Daño de protección Daño de protección
+        ------------------------ -------------------------------
+Paladín 40% 80% Luchador 30% 65%		
+Mago 15% 35% Dragón 15% 35%
+Guardabosques 15% 65% Trol 30% 45%
+Espadachín 30% 65% Zombi 40% 80%
+Ladrón 15% 45% Hechicero 40% N/A 1
+                                  Espíritu 65% 80%
+
+1 Los hechiceros sólo atacan mágicamente.
+
+Por ejemplo, un caza enemigo (protección de armadura = 30%) es alcanzado por un golpe.
+ de tu paladín
+(daño de espada = 80%). El resultado es que el caza enemigo perdería el 50%
+ salud (80% - 30% =
+50% de pérdida).
+                                  - 12 -
+================================================================================
+
+Lo mismo se aplica a sus propios miembros.  Tenga en cuenta que es posible disparar
+ tus propias tropas por error, así que mira antes de atacar.
+
+Blandir una espada requiere 3 puntos de movimiento.
+
+LANZAR UN HECHIZO
+
+Para ejecutar un hechizo, presiona Mayús y haz clic en el ícono Swing Sword. Esto provocará un diálogo.
+ caja con radio tipo
+que aparezcan los botones.
+
+Dentro de tu grupo, tanto los Rangers como los Magos pueden lanzar hechizos. Los magos tienen la
+ complemento completo de
+hechizos, mientras que los reangers sólo pueden lanzar Detectar puertas secretas, Confundir,
+ Hechizos de invisibilidad y velocidad.
+
+BOTÓN SIGUIENTE
+
+Haga clic en este botón para cambiar de miembro actual.  Esto le llevará al
+ próximo miembro en tu 
+grupo o, si acaba de mover al último miembro del grupo, regrese al
+ el paladín.  
+
+Mayús y haz clic en el botón Siguiente para ingresar a la fase de combate enemigo.
+
+BOTÓN CAMBIAR ESCALA
+
+Haga clic en este botón para obtener una vista panorámica del terreno circundante. 
+ Información para esto 
+La vista panorámica es proporcionada por otros miembros que se mueven por el área y la fiesta.
+ miembros usando anillos 
+de visión lejana o varitas de detección.  Cuando los guardabosques usan la vista panorámica, los oponentes
+ aparecerá como 
+cuadrados parpadeantes en Atari ST y Amiga, como cajas anidadas en IBM,
+ y como cuadrados grises en Macintosh.
+
+                                  - 13 -
+================================================================================
+
+ACERCA DE PALADÍN...
+
+La entrada "Acerca de Paladin..." muestra un cuadro de diálogo con información sobre
+ la versión del programa 
+y fecha de lanzamiento.
+
+NUEVO...
+
+"Nuevo..." se utiliza para iniciar un nuevo juego. Este es un proceso de tres etapas.
+
+Primero, selecciona la misión que deseas jugar. A continuación, selecciona un paladín. si 
+ no hay ningún archivo de paladín en 
+el disco, tendrás que crear uno nuevo con el programa Quest Builder.
+ Finalmente, ingresa al 
+nombre con el que se guardará el juego actual.
+
+Cuando se haya hecho todo esto, Paladin creará un archivo de juego, lo que significa
+ que ahora tienes un 
+juego en curso en el disco.
+
+REANUDAR...
+
+Utilice "Reanudar..." para continuar un juego que ya está en progreso.
+BORRAR..
+
+Utilice "Eliminar..." para eliminar archivos del juego. Aparecerá un selector de elementos con el 
+ nombres de todos los juegos 
+en progreso. Seleccione cualquiera de estos.
+
+Tenga en cuenta que usar esta función para eliminar un archivo de juego restaurará el
+ Archivo de paladín incorporado.
+
+GUARDAR
+
+"Guardar" guardará su progreso actual en el disco y continuará jugando. usted puede 
+ sólo guardar en el 
+comienzo de tu Fase de Movimiento y Combate.
+
+CERRAR
+
+Utilice "Cerrar" para detener un juego en curso. Si seleccionas esto al principio 
+ de la Fase de Combate, 
+Se le dará la opción de guardar su progreso antes de cerrar. en cualquier
+ el punto de vista de otro personaje, 
+el programa detendrá el juego actual sin guardarlo.
+
+                                  - 14 -
+================================================================================
+
+SALIR
+
+Utilice "Salir" para salir del programa. Si selecciona esto al principio del 
+ Fase de combate, podrás 
+tendrá la opción de guardar su progreso antes de cerrar. En cualquier otro punto,
+ el programa se cerrará sin guardar.
+
+PREFACIO
+
+El prefacio contiene información general sobre la misión y
+ posiblemente pistas sobre el 
+ubicaciones y puntos fuertes de sus objetivos.
+
+CONDICIONES DE VICTORIA
+
+El cuadro de diálogo de condiciones de victoria muestra los objetivos que deben ser 
+ completado para ganar 
+el juego.
+
+ESTADO DE LA MISIÓN
+
+El cuadro de diálogo de estado de la misión muestra si cada uno de los objetivos de la misión 
+ se han cumplido los objetivos.
+
+                                 - 15 -
+================================================================================
+
+CARACTERÍSTICAS BÁSICAS
+
+PUNTOS DE MOVIMIENTO: cada miembro recibe una cierta cantidad de puntos de movimiento en el
+ comienzo 
+de su turno. Casi todas las actividades que un miembro del grupo puede realizar utilizan
+ puntos de movimiento (mp). 
+Por ejemplo, moverse a una casilla de terreno despejado cuesta 2 mp, mientras que balancearse
+ una espada requiere 3 mp.
+
+Actividades de combate como tomar un objeto, blandir una espada, moverse,
+ lanzar magia y usar 
+Un objeto se puede mezclar todo a su discreción.
+
+Si no tienes suficientes mp para la actividad que deseas realizar, el
+ la computadora informará 
+usted con un cuadro de alerta.
+
+Si todos los puntos de movimiento para el miembro actual se han agotado,
+ el programa 
+avanzar automáticamente al siguiente o regresar al paladín si estaba en
+ el último miembro del partido.
+
+Los puntos de movimiento asignados a cada miembro se basan en la clase del miembro, el
+vitalidad del miembro y su carga actual.
+
+VITALIDAD: La vitalidad es una medida de qué tan bien descansado está un miembro del grupo. el
+ mayor es la vitalidad, la 
+más movimientos que un miembro del grupo tiene disponibles en turnos posteriores. Si un miembro fuera
+ al 50% 
+nivel de vitalidad, tendría el 50% de su número máximo de movimientos disponibles.
+
+A medida que un miembro del grupo se mueve, su vitalidad se reduce al mismo ritmo que
+ sus puntos de movimiento. 
+Entonces, si un miembro del grupo con 100% de vitalidad dispara una espada (3 mp), su nueva vitalidad
+ sería el 97%. 
+La vitalidad se repone a razón del % de salud dividido por 4, lo que significa que
+ La tasa máxima de reposición es del 25% por turno (100% de salud/4=25%).
+
+Si la vitalidad de un miembro es 0%, entonces el miembro se considera aturdido y
+ puede que no 
+avanzar hasta la siguiente ronda.
+
+SALUD: La salud es una medida de la cantidad de daño que un miembro del grupo puede causar.
+ absorber antes
+muriendo. Cuando la salud de un miembro cae al 0%, ha muerto.
+
+Por encima del 50% de salud, un miembro del grupo no puede morir mientras recibe golpes. Abajo
+ 50%, sin embargo, un
+miembro del grupo puede morir mientras es golpeado, incluso si el golpe no deja caer su
+ salud al 0%. como el partido 
+la salud del miembro cae más cerca del 0%, la probabilidad de que esto ocurra es
+ mucho mayor.
+
+GRAVAMEN: es una medida de cuántos objetos puede transportar un miembro.
+
+                                  - 16 -
+================================================================================
+
+Llevando una gran cantidad de 
+puntos de gravamen tiene dos 
+desventajas. uno, el peso
+reduce el número de disponibles 
+mp por turno. dos, la fiesta 
+Es más probable que el miembro sea
+seleccionado como objetivo por el enemigo 
+fuerzas.
+PRECISIÓN - es la medida de 
+la precisión de un miembro del partido con un 
+espada.  Para los miembros del partido con
+talento para lanzar hechizos, esto también es un 
+medida de su tasa de éxito con
+hechizos.
+
+DETECCIÓN - es la medida de qué tan bien un miembro del grupo usa un
+ varita de detección.
+
+VER - es la medida de qué tan bien un miembro del grupo usa un anillo de
+ visión de futuro.
+
+MOVIMIENTO
+
+Al igual que con cualquier otra función, mover a un miembro de tu grupo consumirá algo de
+ puntos de movimiento.
+Cada tipo de terreno (hierba, rocas, rejillas) consume una cantidad diferente de mp
+ cuando se ingresa. en 
+Para mover al miembro actual de tu grupo a una nueva casilla, debe tener al menos
+ menos tantos mp como 
+están obligados a entrar en la plaza.
+
+Tipo de terreno MP requerido Tipo de terreno MP requerido
+----------------------------------- -----------------------------------
+
+Claro 2 Hab 5
+Suciedad 2 Cómoda 6
+Hierba 2 Tabla 5
+Vegetación Ligera 4 Silla 4
+Vegetación pesada 6 moza 4
+Rocky Dirt 4 Pentagrama de entrada 3
+Escombros 4 Salida Pentagrama 3
+Campo de aturdimiento 8 Cofre 4
+Pasos a seguir 4 Hombre fuerte 6
+Rejilla 3 Agua/Suciedad 4
+Escaleras 5 Agua/En blanco 4
+Puerta Abierta 4 Chico 3
+Pastor 4 Aceite derramado 8
+Granjero 4 Ahorcado 6
+bardo 4
+
+
+		                  - 17 -
+================================================================================
+
+El miembro actual siempre ocupará el centro de la ventana de combate.
+
+Los miembros del grupo pueden moverse en las cuatro direcciones de la brújula. para mover el partido
+ miembro a un
+cuadrado particular en su fila o columna actual, simplemente haga clic con el mouse en
+ la plaza. la fiesta
+El miembro marchará hacia la plaza o tan lejos como sea posible antes de correr.
+ contra una pared o corriendo 
+fuera de los puntos de movimiento.
+
+Si el miembro del grupo no tiene suficientes mp para moverse a la casilla, el 
+ el cuadrado no es de un tipo 
+que el miembro del grupo puede ocupar, la casilla está ocupada por otro jugador 
+ miembro del partido, o el 
+La casilla ya está ocupada por un oponente, el puntero del ratón se convertirá en
+ una señal de alto, que indica 
+No se permite el movimiento.
+
+Para cambiar la cara de un miembro del grupo sin tener que moverlo 
+ de su actual 
+cuadrado, mantenga presionada la tecla Mayús y haga clic en el cuadrado adyacente que desee
+ el miembro del partido a enfrentar. Esto requiere 1 punto de movimiento (mp).
+
+Además, puedes hacer que cualquier miembro del grupo que esté visible en el combate
+ ventana la actual
+miembro del grupo manteniendo presionada la tecla Alternativa y haciendo clic en el
+ miembro del partido.
+(Los reproductores de Macintosh deben usar la tecla Opción en lugar de la tecla Alternativa).
+
+COMBATE
+
+ESPADAS: todos los miembros del grupo llevan espadas. Estas espadas no pueden ser transferidas.
+ o intercambiado. 
+Las espadas no pueden ser destruidas por el combate.
+
+La espada de daño especial genera
+---------------------------------------
+Paladín 80%
+Guardabosques 65%
+Espadachín 65%
+Ladrón 45%
+Mago 35%
+
+
+Se necesitan 3 mp para blandir una espada.
+
+ORBES DE FUEGO: Los orbes de fuego explotarán alrededor de las tropas amigas y es
+ posible detonar uno en
+la misma casilla que el miembro actual del partido. Los orbes de fuego también
+ detonar barriles de petróleo, así que tenga cuidado
+¡Debe ejercitarse al usarlos!
+
+Los orbes de fuego explotan en un patrón de 3 por 3, con el objetivo en el centro.
+ Cada cuadrado recibe el 
+equivalente a un golpe de una espada del 90%.
+
+CRISTALES EXPLOSIVOS: cuando se activan cristales explosivos, caen en
+ el partido actual 
+cuadrado del miembro. Los cristales explosivos ignoran cualquier objeto que ya pueda
+ estar en la plaza.
+
+				  - 18 -
+================================================================================
+
+Los cristales explosivos explotarán alrededor de tropas amigas, y es posible
+ detonar uno en el 
+misma casilla que el miembro actual del partido. Los cristales explosivos también
+ detonar tanques de combustible en el 
+de la misma manera que los orbes de abetos. Se debe tener precaución al utilizar explosivos.
+ cristales!
+
+Los cristales explosivos explotan en un patrón de 5 por 5, con los cristales en el
+ centro. cada cuadrado 
+recibe el equivalente a un golpe de una espada 100%.
+Precaución: Una vez que se ha activado un cristal explosivo, no se puede cancelar, pero
+ explotará en 
+al final del turno del miembro actual del grupo.
+
+BALLESTAS: un miembro del grupo debe tener al menos una virote y una ballesta en
+ orden de disparar.
+
+Cuando se dispara un rayo, viaja en línea recta hasta que alcanza un punto válido.
+ objetivo (es decir, un muro, una fiesta 
+miembro, etc.) o abandona el borde de la zona de combate.
+
+Un objetivo alcanzado por un rayo de ballesta recibe un impacto equivalente al 90%.
+ espada.
+	
+Precaución: Disparar pernos a objetivos que no son fácilmente visibles puede provocar daños.
+ a otra parte 
+miembros o destrucción de los objetivos de misión necesarios.
+
+MAGIA
+
+DETECTAR PUERTA: revelará cualquier puerta secreta en terreno previamente explorado.
+ hasta el próximo enemigo
+Fase de combate. Todos los miembros de tu parte podrán ver lo oculto.
+ puertas.
+
+Lanzar un hechizo de detección de puerta requiere 10 puntos de movimiento.
+
+CONFUSIÓN: hace que los oponentes que se acercan piensen que no pueden cruzar.
+ parcelas particulares de terreno. 
+En algunos casos, esto hace que el enemigo piense que no puede alcanzarte en absoluto.
+
+Lanzar un hechizo de confusión requiere 8 puntos de movimiento.
+
+INVISIBILIDAD: hace que el lanzador sea invisible durante las siguientes 2 rondas. el
+ El lanzador no puede ser seguido o
+atacado cuando es invisible.
+
+El hechizo de invisibilidad no se puede lanzar sobre otros miembros del grupo.
+
+Lanzar un hechizo de invisibilidad requiere 20 puntos de movimiento.
+
+MIND STUN: reduce la vitalidad del enemigo afectado al 0%, dejándolo
+ sin puntos de movimiento
+para la siguiente ronda. La vitalidad se devuelve al afectado al ritmo normal
+ (salud/4% por ronda).
+
+Los aturdimientos mentales no atravesarán puertas o paredes cerradas. 
+
+			          - 19 -
+================================================================================
+
+Lanzar un hechizo de aturdimiento mental requiere 10 puntos de movimiento.
+
+BOLA DE FUEGO: es una bola de fuego (¡sorpresa!) que viaja hasta golpear
+ algo sólido, como un
+enemigo.
+
+Las bolas de fuego explotan como orbes de fuego, causando un 90 % de daño al 3 x 3.
+ área que rodea al objetivo.
+
+Lanzar un hechizo de bola de fuego requiere 10 puntos de movimiento.
+
+VELOCIDAD: es un hechizo que permite al usuario almacenar algo de movimiento adicional.
+ puntos para el proximo
+redondo. El usuario lanza el hechizo y en la siguiente Fase de Jugador, el usuario
+ tienes 15 extra
+puntos de movimiento agregados a su total.
+
+Esto no se puede aplicar a otros miembros del partido.
+
+Lanzar un hechizo de velocidad requiere 20 puntos de movimiento.
+
+TIPOS DE MIEMBROS DEL PARTIDO
+
+PALADÍN: El paladín es tu personaje principal. Este es el único tipo de fiesta.
+ miembro que es 
+creado independientemente de cualquier misión.
+
+El objetivo a largo plazo de Paladin es mejorar este personaje, por lo que es muy
+ importante que él (o ella) 
+no muere en combate. Si esto sucede, el archivo del paladín será
+ borrado. Por otro lado, a medida que aumenta el nivel de dificultad de la misión, la encontrarás cada vez más.
+Es necesario utilizar el paladín en situaciones peligrosas.
+
+Los paladines tienen una espada muy afilada (80% de daño) y una armadura protectora pesada. 
+
+ESPADADORES - El espadachín es el miembro básico del parth. Llevan un pesado
+ espada y tienen una
+nivel de movilidad bastante alto.
+
+Los espadachines suelen constituir la mayoría de cualquier grupo.
+
+RANGER: Los Rangers tienen armaduras muy ligeras y rápidas y llevan las mismas espadas que
+ espadachines.
+
+Los Rangers tienen la capacidad de lanzar hechizos, pero están limitados a Detectar.
+ Puertas secretas, confusas, 
+Hechizos de invisibilidad y velocidad.
+
+LADRÓN: Los ladrones tienen la misma armadura que los guardabosques pero un poco más ligera.
+ espada.
+
+MAGO: Los magos usan la misma armadura que los guardabosques y los ladrones, pero llevan una
+ espada muy débil.
+
+Los magos son la magia principal que usa la clase de personaje.
+
+				  - 20 -
+================================================================================
+
+CARACTERÍSTICAS BÁSICAS
+
+Todos los enemigos protegerán los objetivos de la misión que se encuentren en su área. Para
+ Ejemplo: si un caza enemigo es 
+en la misma área que un pergamino, no hay ningún miembro del grupo de jugadores alrededor,
+ y capturar pergaminos es 
+un objetivo, entonces el enemigo guardará el pergamino hasta que un miembro del grupo
+ entra en la zona.
+
+LUCHADORES
+
+Los luchadores son equivalentes a tus espadachines.
+Los luchadores pueden usar ballestas y orbes de fuego contra tu grupo. en
+ Además, ciertos luchadores especiales
+También puede provocar aturdimientos mentales en tu contra.
+
+DRAGONES
+
+Los dragones que encontrarás en tu búsqueda son más pequeños y más
+ variedad común (Dracos
+vulgaris). Estas versiones atrofiadas de la verdadera bestia han perdido el poder de
+ volar y tener un
+capacidad relativamente débil para escupir fuego. Los dragones atacan solo a los adyacentes.
+ cuadrados.
+
+TROLLS
+
+Los trolls son los gobernantes oscuros del subsuelo, aunque a menudo vienen a
+ la superficie para extenderse
+sus malos caminos.
+		                  - 21 -
+================================================================================
+
+Los trolls son luchadores expertos y pueden usar orbes de fuego y ballestas.
+
+ZOMBIS
+
+Los zombis son muertos vivientes creados por magos dementes para llevar a cabo
+ sus malas acciones.
+
+Los zombis son algunos de los luchadores más poderosos y duraderos debido a su
+ estado de no vida.
+
+HECHICERO
+
+Los hechiceros son magos que han atravesado tiempos malos. son peligrosos
+porque ellos no
+Necesitas estar adyacente a un miembro del grupo para poder atacarlo.
+
+Los hechiceros atacan únicamente con magia, usando bolas de fuego y aturdimientos mentales.
+
+ESPÍRITUS
+
+Los espíritus son todo lo que queda de criaturas malévolas que murieron hace mucho tiempo.
+ Porque no son totalmente
+Adjuntos al plano material, tienen la capacidad única de pasar.
+ a través de cualquier objeto o terreno
+sin resistencia alguna.
+
+El espíritu ataca asustando. Un susto de un espíritu es el equivalente a un
+ golpe de una espada con un daño del 80%.
+
+				  - 22 -
+================================================================================
+
+PUNTOS DE GRAVAMEN
+
+Hay trece tipos diferentes de objetos que se pueden encontrar en un
+ búsqueda. cada uno de esos 
+Los objetos tienen un valor de gravamen. El gravamen es una medida de la capacidad del objeto.
+ a granel. Obviamente, el 
+Cuanto más voluminoso sea el tipo de objeto, menos podrá llevar el miembro del grupo.
+
+Puntos de carga de objetos Puntos de carga de objetos
+---------------------------------- ------------------------------------
+Orbe de fuego 1 Anillo de visión lejana 1
+Cristales explosivos 5 Varita de detección 3
+Poción de vitalidad 2 Esfera de desviación 4
+Bolsa de tenencia 0 Amuleto de levitación 2
+Poción de curación 2 Prisionero 1
+Perno 3 Desplazamiento 1
+Ballesta 7
+
+Los miembros que llevan una gran cantidad de puntos de gravamen están sujetos a movimiento.
+ pérdida de puntos.
+
+QUÉ SON Y CÓMO USARLOS
+
+ORBE DE FUEGO: una granada mágica de corto alcance.
+
+Cuando se selecciona un orbe de fuego, el puntero del mouse se convierte en una cruz.
+ Coloca esta mira 
+sobre cualquier punto en la misma fila o columna que el miembro actual y haga clic. el
+ miembro no necesita 
+estar de cara al objetivo.
+
+CRISTALES EXPLOSIVOS: son un dispositivo explosivo de "retraso de tiempo" muy poderoso.
+
+Cuando se utilizan cristales explosivos, se dejan caer en el mismo cuadrado que
+ el partido actual 
+miembro, ignorando cualquier otro objeto que pueda estar en el cuadrado. cuando el
+ partido actual 
+El turno del miembro ha terminado (quedarse sin mp, seleccionar otro miembro o
+ haciendo clic en "Siguiente" 
+botón) los cristales explosivos detonarán.
+
+Los cristales explosivos explotan en un patrón de 5 por 5, con los cristales en el
+ centro. cada cuadrado
+recibe el equivalente a un golpe de una espada 100%.
+
+POCIÓN DE VITALIDAD: un elixir que devuelve vitalidad y vigor al carácter.
+ que lo usa.
+
+Cada vez que se use una poción, agregará un 50% a la vitalidad del personaje durante
+ un máximo del 100%.
+
+BOLSA DE HOLDING - es una bolsa mágica que aumenta tu carga máxima
+ por 10.
+
+Los efectos son acumulativos; es decir, 5 bolsas proporcionarán 50 cargas adicionales
+ puntos.
+
+				  - 23 -
+================================================================================
+
+Cada bolsa aumentará automáticamente su carga máxima si está
+ llevándolo. tu lo haces
+No es necesario utilizar este objeto.
+
+POCIÓN DE CURACIÓN: es una mezcla especial de hierbas y especias que restaura la
+ la salud del personaje.
+
+Cada vez que se use una poción de curación, agregará un 50% a la capacidad del personaje.
+ salud por un máximo de
+100% salud.
+BOLT: es una flecha que cabe en una ballesta.
+
+Para poder utilizar un virote, el personaje también debe llevar una ballesta.
+
+Cuando se dispara una flecha con una ballesta, ésta viaja en línea recta a lo largo de la
+ frente a la corriente hasta que llegue
+un objetivo válido (es decir, un enemigo, un muro, un miembro del grupo, etc.) o abandona el
+ borde de la zona de combate.
+
+Un objetivo alcanzado por un rayo de ballesta recibe un impacto equivalente al 90%.
+ espada de daño.
+
+CROSSBOW: es un arco tipo rifle accionado por manivela para disparar cerrojos.
+
+No se puede usar una ballesta por sí sola, pero debe sostenerse para poder usar una
+ perno.
+
+ANILLO DE LEJOS: es un pequeño anillo que revela todas las estructuras hechas por el hombre en
+ el mismo nivel que el usuario.
+
+En esencia, esto le dará los planos de cualquier nivel en el que se encuentre el usuario.
+ tu 
+debe estar junto a una fuente de agua para que este objeto funcione.
+
+VARITA DE DETECCIÓN: es un dispositivo mágico que revela una gran superficie de tierra.
+alrededor
+el usuario y cualquier enemigo que pueda estar acechando a su alrededor.
+
+Cuando se utiliza con éxito una varita de detección, revela un área de 17 x 17 de
+ el
+nivel actual, centrado alrededor del usuario. Si el usuario no tiene éxito,
+ voluntad
+mostrar sólo el terreno que ya ha sido cubierto.
+
+La detección exitosa solo mostrará a los enemigos cercanos como cuadrados parpadeantes en
+ el 
+Amiga y Atari ST, cajas anidadas en IBM y como cuadrados grises en
+ Macintosh.
+
+ESFERA DE DESVIACIÓN: absorberá cualquier ataque no mágico entrante.
+
+Un escudo también hará que bolas de fuego y orbes de fuego exploten al contacto.
+ aunque el radio de explosión
+de estos elementos seguirán siendo los mismos.
+
+Cuando se golpea una esfera de desviación, hay un 10% de posibilidades de que se rompa.
+ y ser destruido.
+
+				  - 24 -
+================================================================================
+
+No es necesario seleccionar este dispositivo en Usar objeto porque
+ se activa cuando se cae.
+
+AMULETO DE LEVITACIÓN: permite al usuario flotar sobre el suelo, ignorando
+ costos del terreno y
+restricciones de movimiento. Los únicos tipos de terreno que tendrá un amuleto de levitación
+ no dejarte volar
+A través de ellos hay puertas cerradas, roca sólida y paredes.
+
+Cuando se usa el amuleto, permanece activo hasta; el miembro se acaba
+ de puntos de movimiento, usted 
+Haga clic en el icono Usar objeto nuevamente, seleccione un miembro del grupo diferente o haga clic en
+ el botón Siguiente. cada uno 
+Cada vez que un miembro usa el amuleto, hay un 10% de posibilidades de que se estrelle en
+ el final de su turno.
+
+Una vez que se ha activado un amuleto, el usuario no puede tomar ni soltar objetos,
+ blandir una espada, usar flechas, 
+abrir puertas, usar objetos o lanzar magia. Si el miembro del grupo termina su turno
+ sobre un espacio en blanco 
+(negro) o lleno de agua, será asesinado y eliminado de la misión.
+
+PRISIONERO - Los prisioneros son personas desafortunadas que son rehenes de los desagradables.
+ poderes fácticos.
+
+Un prisionero no es un objeto utilizable.
+
+DESPLAZAMIENTO - ¡Sabes lo que es un pergamino!
+
+Un pergamino no es un elemento utilizable.
+
+				  - 25 -
+================================================================================
+
+TERRENO INTERIOR
+
+PAREDES - Las paredes son de dos tipos: de madera y de piedra.
+cristales explosivos
+destruirá cualquier tipo de muro; Los orbes de fuego destruirán las paredes de madera.
+Las espadas no atravesarán las paredes.
+
+Los miembros del grupo no pueden atravesar ni volar por encima de las paredes usando un amuleto.
+ de levitación.
+
+PUERTAS: los miembros del partido no pueden atravesar puertas cerradas.
+
+Las puertas de pino requieren 3 mp para abrirse, las puertas de roble pesado requieren 5 mp y las de metal
+ las puertas requieren 10 mp.
+
+Los miembros del grupo no pueden volar por encima de las puertas usando un amuleto de levitación.
+
+TERRENO EXTERIOR
+
+AGUA - Los miembros del partido no pueden pasar por casillas de agua, aunque sí pueden
+ vuela sobre ellos si 
+Están usando un amuleto de levitación.
+
+Si un miembro del grupo que usa un amuleto de levitación termina su turno sobre un recipiente de agua.
+ cuadrado, lo matan y 
+eliminado de la misión.
+
+ROCA SÓLIDA: los miembros del grupo no pueden volar sobre ni a través de cuadrados de roca sólida.
+
+TERRENO ESPECIAL
+
+ESCALERAS - Las escaleras requieren 5 mp para entrar y otros 5 mp para usar.
+
+EL PENTAGRAMA DE ENTRADA: para que los miembros de tu grupo puedan ingresar a la misión,
+ Este cuadrado debe estar claro.
+EL PENTAGRAMA DE SALIDA: si el miembro actual del grupo está en esta casilla en el
+ final de su turno, él es 
+eliminado de la misión y ya no se le permitirá luchar.
+
+CAMPOS DE ATURDIMIENTO: cuando un miembro del grupo pasa a través de un campo de aturdimiento, hay un
+ posibilidad de que él sea 
+aturdido e incapaz de moverse. Esta probabilidad es inversamente proporcional a la
+ vitalidad de los miembros del partido. 
+Por ejemplo, si un miembro del grupo con una vitalidad del 78% pasa por un aturdimiento
+ campo, hay un 22% 
+posibilidad de que quede aturdido.
+
+PENTAGRAMAS DE TELEPORTE: Cuando un miembro del grupo ingresa a una casilla de teletransporte, es
+ teletransportado a un nuevo
+ubicación. Esto puede ser en cualquier lugar y en cualquier nivel.
+
+CUADRADOS VACÍOS (NEGROS): los miembros del grupo no pueden pasar por estos cuadrados,
+ aunque pueden
+Vuela sobre ellos si están usando un amuleto de levitación.
+
+				  - 26 -
+================================================================================
+
+Si un miembro del grupo que usa un amuleto de levitación termina su turno sobre un
+ cuadrado, lo matan.
+
+MESA DE TERRENO
+
+Escriba MP para ingresar comentarios especiales...
+-------------------------------------------------------------------------
+Muros (todos los tipos) Sin movimiento No se puede sobrevolar.
+Medio sucio/medio vacío Sin movimiento Se puede sobrevolar con un amuleto.
+Medio vacío/medio vacío Sin movimiento No se puede sobrevolar.
+Blank No Move Se puede sobrevolar con un amuleto.
+Solid Rock No Move No se puede sobrevolar.
+Interior vacío 2
+suciedad 2
+Hierba 2
+Vegetación ligera 4
+Vegetación pesada 6
+Tierra rocosa 4
+Escombros interiores 4
+Campo de aturdimiento 8
+Water No Move Se puede sobrevolar con un amuleto.
+Pasos de piedra 4
+Rejilla 3
+escaleras 5
+Teletransporte Plaza 5
+valla 6
+Horca Sin movimiento No se puede sobrevolar.
+Puertas cerradas Sin movimiento No se puede sobrevolar.
+Open Doors 4 Se puede sobrevolar con amuleto.
+pastor 4
+bardo 4
+Cama 5
+Cómoda 6
+Tabla 5
+Silla 4
+moza 4
+Pentagrama de entrada 3
+Salir del Pentagrama 3
+Cofre 4
+hombre fuerte 6
+Agua/Suciedad 4
+Agua/En blanco 4
+niño 3
+Aceite derramado 8
+Ahorcado 6
+
+				  - 27 -
+================================================================================
+
+MENÚ ARCHIVO
+
+NUEVO: abre la ventana de mapeo y crea un nuevo archivo de misión.
+
+ABRIR: abre un archivo de misión existente y lo muestra en el mapeo.
+ ventana. La función Abrir 
+mostrará automáticamente todos los archivos de misiones disponibles.
+
+CERRAR: cierra la ventana de mapeo actual y elimina la misión.
+ archivo. Si el archivo de búsqueda tiene 
+modificado, el ordenador te preguntará si deseas guardar la misión
+ archivo antes de cerrarlo. 
+
+GUARDAR: guarda el archivo de misión actual actualmente en progreso. si el actual
+ El archivo no tiene título, actúa del mismo modo.
+moda como Guardar como. 
+
+GUARDAR COMO: guarda el archivo de misión actual.
+
+SALIR: sale de Quest Builder. Si un archivo ha sido modificado, el programa
+ pregunta si deseas guardar
+los cambios.
+
+MENÚ DEL MAPA
+
+VISTA COMPLETA: genera una vista comprimida de todo el nivel del mapa actual.
+Haga clic con el mouse para 
+volver al modo de mapeo normal. Si el clic se produce en todo el mapa de vista,
+ la ventana 
+saltar a la posición equivalente en el modo de mapeo normal. Esto sirve como
+ atajo para 
+moviéndose por el mapa.
+
+LLENAR PANTALLA: llena la pantalla con el tipo de terreno seleccionado actualmente.
+ La pantalla de relleno no
+sobrescribir objetos u oponentes.
+
+NIVEL DE LLENADO: llena el nivel actual con el terreno seleccionado actualmente
+ tipo. El nivel de llenado no
+sobrescribir objetos u oponentes.
+
+COPIAR NIVEL: copia el contenido del nivel actual a otro nivel,
+ excluyendo objetos y 
+oponentes.
+
+TOTALES: enumera el número total de objetos y oponentes utilizados en la misión.
+
+MENÚ DE NIVEL
+
+Utilice el menú Nivel para seleccionar el nivel del mapa de misiones que se muestra en
+el mapeo
+ventana. Hay 5 niveles en total.
+
+				  - 28 -
+================================================================================
+
+MENÚ DE PALETA
+
+El menú Paleta controla la paleta de piezas y terreno.
+
+Los cuadrados en blanco que se encuentran en las paletas de objetos y oponentes solo
+ borrar objetos y 
+oponentes, no el terreno subyacente. Si una parte no aparece donde usted
+ ha hecho clic, entonces
+No se puede colocar en ese tipo de terreno. 
+
+Una misión puede tener hasta 40 objetos y 50 oponentes.
+
+
+MENÚ INFORMACIÓN
+
+PREFACIO - es el área donde usted
+introducir información para el jugador
+sobre la misión que has creado.
+Esto podría ser parte de una historia, o
+sólo algunas pistas.
+
+ESTABLECER VICTORIA: establece la victoria 
+condiciones para la búsqueda. RESCATE
+PRISONERS significa que el jugador debe
+tomar a todos los prisioneros en el
+búsqueda para ganar. OBTENER PERgaminos
+funciona de la misma manera. SALIR
+ZONA DE COMBATE significa todas las
+miembros que aún viven
+debe pasar por la salida
+pentagrama. MATAR % OPONENTES
+requiere que el jugador mate al menos
+el porcentaje de oponentes
+entró en la casilla para ganar.
+
+Se debe establecer el límite de tiempo de la misión.
+para cada búsqueda. el otro
+Se deben cumplir las condiciones de victoria.
+antes de la cantidad de tiempo
+ingresado en la casilla caduca. tiempo
+está en horas/minutos/segundos
+formato.
+
+Las condiciones de victoria se pueden utilizar en combinación. Esto significa que si usted
+ seleccione matar al 20% y
+rescatar a los prisioneros, debes matar al menos al 20% de los oponentes y rescatar
+ todos los prisioneros a
+ganar.
+
+	                          - 29 -
+================================================================================
+
+CADENA A: muestra un cuadro de diálogo que le permite ingresar el nombre de un
+ búsqueda de que el actual
+La misión se encadenará si el jugador gana.
+
+MENÚ DEL HILO
+
+OBJETO DE HILO: salta secuencialmente a través de la lista de objetos que tienen
+ sido colocado en el mapa.
+Cuando salta al siguiente objeto de la lista, mueve el mapa para que el
+ El objeto está en el centro.
+de la pantalla.
+
+THREAD OPPONENT: salta secuencialmente a través de la lista de oponentes que
+ han sido colocados en
+el mapa.
+
+TEXTO DEL HILO: salta secuencialmente al siguiente cuadro de terreno que tiene texto
+ en ello.
+
+MENÚ DE FIESTA
+
+MODIFICAR MIEMBRO DEL PARTIDO - se utiliza para cambiar las características básicas del
+ miembros de la misión. una lista
+Aparecerá un cuadro con los nombres de todos los miembros actualmente en el grupo.
+ Selecciona un miembro del grupo
+haciendo clic en su nombre. Eliminar eliminará a un miembro y el botón Cambiar lo
+ saltar a otro
+pantalla, donde se pueden modificar los atributos del miembro.
+
+NUEVO MIEMBRO: genera un miembro para el grupo del jugador. Nombra el personaje
+ y seleccione el
+especialidad del personaje usando los botones tipo radio. los diferentes
+ especialidades generan diferentes básicos
+característica. Un partido puede tener hasta 9 miembros.
+
+NUEVO LÍDER: se utiliza para generar un paladín. Este personaje es independiente.
+ de cualquier búsqueda. (Puedes generar un Paladín sin abrir la ventana del mapa).
+Después de haber nombrado al Paladín, crea
+ Leader guarda el archivo Paladin, después de solicitar un nombre de archivo. Este nombre puede
+ser el mismo que el 
+ nombre del personaje; es decir, "PIERRE". Los atributos del Paladín pueden no ser
+modificado directamente: 
+ sólo aumentan a través de la experiencia de combate real.
+
+EXAMINAR LÍDER: muestra la estadística de un paladín. Después de seleccionar un archivo, el
+ Se muestran las estadísticas.
+
+IMPORTAR PALADÍN: te permite convertir un personaje de líder de escuadrón en un
+ paladín.
+
+Primero, aparece un cuadro de selección de archivos. Esto enumerará los archivos del líder de escuadrón.
+ en la parte actual. Seleccionar
+un archivo y haga clic en Importar.
+
+A continuación, aparecerá otro cuadro de selección de archivos. Esto es para nombrar y guardar tu
+ Nuevo archivo de paladín. Entrar
+un nuevo nombre de archivo. Haga clic en Guardar.
+
+Ahora tienes un nuevo paladín. Si tu antiguo personaje de líder de escuadrón era ESTRELLA
+ nivel, tu nuevo
+El paladín será un Caballero.
+
+                                  - 30 -
+================================================================================
+
+Nota: No puedes convertir paladines en líderes de escuadrón.
+
+OTRAS FUNCIONES
+
+SELECCIÓN DE UN CUADRADO DE TERRENO: haga clic en cualquier cuadrado de terreno en la paleta para
+ selecciónelo. Al hacer clic en el 
+La ventana del mapa colocará ese cuadrado en el mapa.
+
+MODIFICAR UN OPONENTE: mantener presionada la tecla Mayús y hacer clic en un enemigo
+ el personaje lo hará 
+mostrar la ventana de diálogo Modificar oponente. Usa esto para cambiar de oponente
+ atributos.
+
+ESCRIBIR UN MENSAJE EN UN OBJETO: Mantenga presionada la tecla Mayús y haga clic en un
+ objeto permite 
+que escribas un mensaje corto que aparecerá cada vez que el jugador conteste
+ ese particular
+objeto. Esto se puede utilizar para ocultar pistas dentro del juego.
+
+ESCRIBIR UN MENSAJE EN UN CUADRADO DEL TERRENO - Manteniendo presionada la tecla Alt (Alternativa)
+ tecla y haciendo clic en un 
+El cuadrado del terreno te permite escribir un mensaje corto que aparece la primera vez.
+ tiempo que pasa un personaje
+por la plaza. Esto se puede usar para nombrar habitaciones o hacer tipos de terreno.
+ personajes (como el
+bardo) "hablar".
+
+CONFIGURACIÓN DE UN DESTINO DE TELEPORTE: Mantenga presionada la tecla Shift y haga clic en un
+la plaza del teletransportador 
+aparecerá un cuadro de diálogo Destino del teletransportador. Introduce el destino
+coordenadas y haga clic en Aceptar
+cuando termine.
+
+El programa no comprueba si el destino es un movimiento válido
+ cuadrado o no. comprobar
+dos veces o podrías terminar enviando a alguien a la roca sólida o al negro
+ vacío!
+
+NOTAS DE DISEÑO DE MISIÓN
+
+EVITE EL FEUTURISMO
+
+Una misión podría tener 5 niveles, 10 miembros del grupo en el grupo, 50 oponentes y
+ 40 objetos. Resistir 
+la tentación! Las misiones generalmente tienen más éxito si se completan rápidamente.
+ empezar y jugar. tener 
+Mover a 10 miembros del grupo a través de un laberinto durante 40 fases de jugadores NO es divertido.
+
+AQUÍ NO SE QUIEREN SUPERHOMBRES
+
+Imagina un grupo de 10 miembros, cada uno con el máximo de todo.
+ contra una banda de
+enemigos normales. ¡Aburrido! Ganar todo el tiempo no es el objetivo del juego.
+ Prueba y crea
+Misiones en las que el jugador debe desplegar lógicamente sus fuerzas. Buenas misiones
+ debería ser una prueba de 
+la capacidad de toma de decisiones del jugador, no el generador de números aleatorios.
+
+				  - 31 -
+================================================================================
+
+				(GUÍA CLAVE DE IBM)
+================================================================================
+
+PALADÍN
+
+LAS TECLAS DE FUNCIÓN
+
+Tecla Mayús normal Alt	
+--------------------------------------------------     
+F1 Nuevo sonido alternar		
+F2 Clic1 Mayús-Clic2 Alt-Clic3
+F3 reanudar		
+F4		
+F5 Eliminar
+Estado de la misión F6
+F7 Guardar
+Condiciones de victoria F8
+F9 Cerrar
+Prefacio F10 Sobre Paladín
+
+1 Esto equivale a presionar un botón del mouse. si estas jugando
+ sin mouse, use esta tecla
+siempre que el manual se refiera a hacer clic con el botón del mouse.
+2 Esto equivale a mantener presionada la tecla Shift y presionar la tecla
+ botón del ratón.
+3 Esto es el equivalente a mantener presionada la tecla Alt y presionar el mouse
+ botón.
+
+USANDO LOS ICONOS
+
+Si no tiene mouse, los íconos se seleccionan usando el teclado, Teclas
+ 1 a 6 funcionan
+las filas de iconos en la parte inferior de la pantalla. La tecla "1" opera el
+ icono más a la izquierda, Soltar
+Objeto; "2" activa el siguiente icono, Usar escalera; etc.
+
+El botón Siguiente se activa mediante la tecla "N". Para cambiar, haga clic en Siguiente
+ botón, mantenga presionado el
+tecla Mayús mientras presiona la tecla "N". Nota: Asegúrese de que el bloqueo de mayúsculas no esté
+ establecer o de lo contrario siempre que usted
+presione "N", el programa asumirá el cambio "N".
+
+El botón Cambiar escala se opera presionando la tecla "S".
+
+SELECCIÓN DE CUADRADOS DEL MAPA
+
+Si no tiene un mouse, use el teclado para seleccionar cuadrados. El mapa tiene
+ un cursor que yo
+moverse usando el teclado. Aparece como una mira. Utilice las teclas de flecha para
+ muévelo. Recuerda,
+sin el mouse debes usar la tecla F2 en lugar del botón del mouse.
+
+NOTAS
+
+El disco Paladin de Omnitrend no se puede iniciar. Debes iniciar tu computadora.
+desde un disco DOS 
+antes de ejecutar Paladin. Para ejecutar Paladin, escriba "Paladin" en el indicador de DOS.
+ para ejecutar el
+Quest Builder, escriba "QUEST" en el indicador de DOS.
+
+Debes usar DOS versión 3.0 o superior para jugar a Omnitrend's Paladin.
+  
+                                  - 32 -
+================================================================================
+
+CONSTRUCTOR DE MISIONES
+
+LAS TECLAS DE FUNCIÓN
+
+Tecla Mayús normal Alt
+--------------------------------------------------------------
+F1 Nuevos totales Nuevo miembro
+F2 Clic1 Mayús-Clic2 Alt-Clic3
+F3 Reanudar Copiar Nivel Modificar Miembro
+Pantalla de llenado del oponente del hilo F4
+F5 Eliminar Importar Paladín Nuevo Paladín
+Nivel de llenado del objeto de hilo F6
+F7 Guardar Examinar Paladín
+F8 Establecer victoria Vista completa
+F9 Cerrar Salir
+Prefacio F10 Acerca de Quest
+1 Esto equivale a presionar un botón del mouse. si estas jugando
+ sin mouse, use esta tecla
+siempre que el manual se refiera a hacer clic con el botón del mouse.
+2 Esto equivale a mantener presionada la tecla Shift y presionar la tecla
+ botón del ratón.
+3 Esto es el equivalente a mantener presionada la tecla alt y presionar el mouse
+ botón.
+
+CAMBIAR LA PALETA
+
+Para cambiar la paleta (la ventana superior derecha que contiene el mapa
+ piezas), utilice las teclas "[" y "]".
+
+MOVIENDO POR EL MAPA
+
+Para cambiar de nivel, utilice las teclas "+" y "-". La tecla "+" se moverá a un
+ nivel superior, el "-" a un
+nivel inferior. El mapa se mueve usando las teclas de flecha. Cada vez que sostienes
+ abajo la tecla mayúsculas
+y presiona una tecla de flecha, moverá el mapa un cuadrado en la dirección de
+ la flecha. Mueva el
+mapee horizontalmente 8 cuadrados a la vez manteniendo presionada la tecla control y
+ presionando una flecha en el
+dirección apropiada. Para mover el mapa verticalmente 8 casillas a la vez, mantén presionado
+ abajo la tecla de control
+y presione las teclas de avance o retroceso de página.
+
+SELECCIÓN DE CUADRADOS DE MAPA O PALETA
+
+Si no tienes ratón, el teclado se utiliza para seleccionar cuadrados. Bot el
+ mapa y la paleta
+Las ventanas tienen cursores que se mueven usando el teclado. Estos cursores aparecen
+ como punto de mira. uso
+las teclas de flecha para mover el cursor del mapa. Utilice las teclas que se enumeran a continuación para moverse
+ el cursor de la paleta.
+Recuerde: la tecla F2 se usa en lugar del botón del mouse si no lo hace
+ tener un ratón.
+
+		Tecla de dirección
+               ---------------------
+		arriba yo
+		Izquierda J
+		derecha k
+		Abajo M
+
+                                  - 33 -
+==============================================================================
+
+				LAS MISIONES
+
+==============================================================================
+
+La siguiente es una lista de las misiones incluidas con Paladin de Omnitrend.
+ que puedes jugar y
+modificar. Cada entrada incluye el nombre del autor, una calificación de dificultad, una breve
+ descripción de la misión,
+y un consejo de estrategia.
+
+CASA de Thomas Carbone
+
+Clasificación de dificultad: fácil
+Sinopsis: Recupera una escritura y una concesión de tierras de una casa embrujada y es
+ tuyo!
+Estrategia: Explora cada rincón. Algunos de tus hombres estarán sobrecargados.
+
+El engaño troyano de Bill Leslie
+
+Clasificación de dificultad: fácil/media
+Sinopsis: Rescata a la princesa Ana disfrazada de la casa del rey Agoraphobius.
+Recluso del castillo.
+Estrategia: Hay dos rutas hacia la torre, si miras con atención.
+
+AMIGO de Haywood Nichols
+
+Clasificación de dificultad: fácil/media
+Sinopsis: Utilice suministros de medicina para curar a su grupo y luego rescatar a un
+amigo de un sacrificio de troll de medianoche.
+Estrategia: Los amuletos de levitación en combinación con tus guardabosques pueden resultar
+ser muy efectivo para explorar áreas. Recuerda que los magos poseen una
+arma a distancia eficaz. Además, trate de no sobrecargar a sus miembros
+innecesariamente.
+
+COLGANDO de Haywood Nichols
+
+Clasificación de dificultad: media
+Sinopsis: Dos de los ancianos de tu aldea han sido capturados y sentenciados a muerte.
+entregándolo en poco tiempo. Debes entrar y salvarlos del ahorcamiento.
+Estrategia: Tus magos son importantes para disparar a larga distancia. petróleo explotando
+Las barricas te ahorrarán mucho tiempo.
+
+RESCATE de Haywood Nichols
+
+Clasificación de dificultad: media
+Sinopsis: Dos de tus hombres están retenidos por los malvados trolls y una banda de
+chusma variada. Sólo tienes diez minutos para entrar y salvarlos de un
+muerte horrible.
+Estrategia: A primera vista parece un asalto imposible, pero si
+Si miras de cerca notarás que los prisioneros hacen la situación.
+ganable. Recuerda usar sabiamente la potencia de fuego a distancia del mago.
+
+				  - 34 -
+================================================================================
+
+ARQUEROS1 por Haywood Nichols
+
+Clasificación de dificultad: media
+Sinopsis: Damaga el 80% del gran ejército de trolls en la orilla opuesta de un
+río.
+Estrategia: Utiliza a algunos de tus hombres como exploradores avanzados para que el mago y
+Los arqueros pueden atacar desde la distancia sin temor a sufrir daños. esto es
+la primera de dos partes y sólo los miembros que sobrevivan a esta batalla serán
+poder participar en la segunda mitad. A toda costa, deberías estar
+preservando a los hombres para más adelante.
+
+ARQUEROS2 por Haywood Nichols
+
+Clasificación de dificultad: Media/Difícil
+Sinopsis: Roba la fórmula para una mezcla de aceite que arde brillantemente de un pequeño
+pueblo.
+Estrategia: Gran parte de la acción se desarrolla en espacios reducidos donde el
+El uso indiscriminado de orbes o fuego destruirá el objetivo de la misión. en
+En las áreas más amplias, muchos de los oponentes se esconden fuera de tu vista.
+Evite la tentación de utilizar hasta el último punto de movimiento al explorar.
+
+PORTALES de Haywood Nichols
+
+Clasificación de dificultad: Muy difícil - Knighthood Quest
+Sinopsis: Viaja por los cuatro Reinos de los Portales y recupérate
+prisioneros y pergaminos.
+Estrategia: Hay un objetivo que encontrar en cada uno de los cuatro reinos.
+Conserva algunas de las herramientas más importantes, como los amuletos o la levitación.
+y bolas de fuego. No dispares armas a distancia a ciegas.
+
+ENTRADA de Haywood Nichols
+
+Clasificación de dificultad: Muy difícil - Knighthood Quest
+Sinopsis: Una vez más sales a obtener los documentos de otra persona, esto
+tiempo, las cartas de navegación hacia el próspero puerto de HangSee.
+Estrategia: casi todos los oponentes se esconden fuera de tu vista. Mover
+tus hombres de tal manera que tengan la protección adecuada contra todos
+lados. Utilice sus guardabosques junto con amuletos de levitación para cubrir
+áreas extensas rápidamente. También es muy importante que ubiques la salida.
+área rápidamente.
+
+				  - 35 -
+================================================================================
+
+Documentos de Paladin presentados por The Southern Star.
+
+Nota: Dado que este manual es necesario para buscar los códigos de protección de copia
+(si no tienes una copia rota de Paladin), comencé cada línea en
+cada página contra el margen izquierdo. Esas líneas sangradas pertenecen a la línea
+arriba al contar líneas y palabras.

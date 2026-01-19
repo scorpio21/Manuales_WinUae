@@ -1,0 +1,1306 @@
+                     MIGHT AND MAGIC III: ISLES OF TERRA
+                       Reference Card: Commodore Amiga
+
+Installation Instructions
+
+   Important.  Before installing Might and Magic III it is highly
+recommended that you make backup copies of the program disks, especially
+if you will be playing on a floppy-based system.  Make the copies NOW!
+
+   Hard Drive Requirements.  To play Might and Magic III on a hard drive
+system, you will need at least one megabyte of RAM and about five megabytes
+of free disk space.
+
+   Hard Drive Installation.  Insert disk MM3-MAIN in DF0:, open its disk
+icon, then double-click on INSTALL-HARDDRIVE to run the installation
+program.  You will be asked to enter a partition name to install to (DH0:,
+DH1:, etc...)  Insert the disks as prompted by the system.  After all of
+the files have been copied and the program completes, a number of Assign
+statements must be executed before you play.  The necessary assigns will
+be in a file called MM3-Assigns in the MM3 drawer.  You can copy this
+script into your Startup-Sequence, or simply execute it each time you
+play the game.
+
+   Playing from a Hard Drive.  From Workbench, open the MM3 drawer.  To
+watch the introduction sequence, double-click on the MM3-INTRO icon.  To
+play Might and Magic III, double-click on the Might&MagicIII icon.  
+(Note: The programs will attempt to close the Workbench screen to ensure
+it will have enough memory to run.  It is important on one megabyte 
+systems especially that the Workbench be 'closeable`.  Make sure that no
+other programs are running from Workbench, and that no shell or CLI
+windows are open.)
+
+   Floppy Drive Requirements.  To play Might and Magic III on a floppy-
+based system, you will need at least one megabyte of RAM, an external
+floppy drive and two blank diskettes.  If you have more than one megabyte
+of RAM, you may connect more than one external drive, if desired.  
+Otherwise, a one megabyte system should only have one external drive
+connected to run MM3.
+
+   Floppy Drive Installation.  First, boot your system as normal with
+your Workbench disk in DF0:.  Format the two blank disks and rename
+them MM3-GAMES and MM3-PLAY, respectively, using rename from the
+Workbench or Relabel from the CLI.  Insert disk MM3-MAIN in the external
+drive and open its icon and double-click on the INSTALL-FLOPPY icon.
+The INSTALL-FLOPPY program will copy the required fonts to your FONTS:
+directory on the Workbench disk and set up the MM3-PLAY and MM3-GAMES
+disks (Note: You will need about 4K of free disk space on your Workbench
+disk).  The system will prompt you to insert the disks as needed; you
+should keep MM3-MAIN in the external drive for the duration of the
+installation process, swapping the Workbench, MM3_GAMES and MM3-PLAY
+disks in the internal drive (it's faster).
+
+   Playing from Floppies.  Now you will have two disks:  MM3-PLAY contains
+the executable program and support files, MM3-GAMES is the saved games 
+disk.  Each MM3-GAMES disk will only hold three saved games.  Additional
+saved games disks can be created by formatting a blank disk, renaming it
+MM3-GAMES and running the MAKE-GAMES program on the MM3-MAIN disk.  (Note:
+Be careful not to attempt saving more than three games per MM3-GAMES disk).
+
+   To watch the introduction sequence, replace the Workbench disk in DF0:
+and place disk MM3-04 in the external drive.  Open MM3-04's disk icon
+and double-click on the MM3-INTRO icon.
+
+   To run Might and Magic III, replace the Workbench disk in DF0: and place
+disk MM3-PLAY in the external drive, where it should remain for the 
+duration of game play.  Open MM3-PLAY's disk icon ad double-click on the
+Might&MagicIII icon.  The program will prompt you to swap disks in DF0:
+as necessary during game play.
+
+Getting Started 
+
+After the main screen you will have the option of starting a new game or 
+loading a saved game.  Press S or click on "Start a New Game" to start a
+new game.  You will begin your adventure in the center of the first town 
+with a party of six fully-equipped characters.  You can immediately start
+playing or go to the Inn to create your own party of characters.
+
+Press L or click on "Load a Saved Game" to load a saved game.  A window 
+will appear listing the names of all your saved games and the highest 
+character level in the party.  Select the game you wish to load.
+
+Control Panel
+
+To bring up the Control Panel window, press the Tab key or click or click
+on the large gem at the bottom center of the Display Window.  The name of 
+the current game is displayed at the bottom of the Control Panel window. 
+The available options are listed below.
+
+E - ON     Effects.  Turns the sound effects on and off.
+M - OFF    Music.  Turns the music on and off.
+D - 5      Delay.  Allows you to set the text display delay from 0 to 9.
+L - LOAD   Load.  Allows you to load a previously saved game.
+S - SAVE   Save.  Allows you to save the current game in its present 
+           location.  The game is automatically saved when the party enters 
+           an Inn.
+Q - DOS    Quit.  Quits Might and Magic III and exits to DOS.
+W - HELP   Help.  Returns the party to Fountain Head and removes 1 
+           experience level from each character.  (No penalty for 1st level 
+           characters.)
+
+Navigating the Windows
+
+There are four ways of selecting options in the various windows in Might 
+and Magic III.
+
+*     Click the mouse pointer on the icon of the option you desire.
+*     If there is a letter in the option name that is a different color
+      than the rest of the word (usually the first letter), type that 
+      letter from the keyboard.
+*     If there is a highlight that surrounds the option's icon, press
+      Enter to select that option.  Use the arrow keys to move the
+      highlight to other options.
+*     If there is a number to the left of an option or item, press that 
+      number on the keyboard, or click the mouse pointer on the item's 
+      name.
+
+For options requiring a Yes/No answer, press Y for yes, N for no, or click 
+on the icon.
+
+              Y = Thumbs Up Icon      N = Thumbs Down Icon
+
+Most windows can be exited by pressing the Escape key.
+
+Statistic values change color depending on their current value relative to 
+their maximum value.  Character gems and monster names change color 
+relative to their current number of hit points compared to their normal 
+maximum number.  The five colors and their meanings are: Gray - Above 
+maximum, Green - Maximum (normal), Yellow - Below maximum, Red - Below 25% 
+of maximum, Blue - 0 or less.
+
+Adventuring Mode 
+
+To move through the world of Might and Magic III, use the arrow keys or the 
+mouse pointer in the Display Window.  The Up and Down arrow keys move the 
+party forward and backward, and the Left and Right arrow keys turn the 
+party left and right.  Holding down the Control key while pressing the Left 
+or Right key side-steps the party without turning.  Wait (pass) by pressing 
+the Space Bar.  This allows time to pass and monsters to advance.  Time 
+does not pass when turning left or right.
+
+Nine options appear in the Options Window of the Game Screen:
+
+S  Shoot.             Party members with equipped missile weapons fire them 
+                      straight ahead, provided there are no obstacles.  
+                      Pressing the right mouse button while adventuring 
+                      will also select "Shoot".  
+C  Cast.              Displays the Cast Spell window.  All spell casters 
+                      have a spell ready.  To cast the readied spell select 
+                      Cast again.  To change the readied spell select New.  
+                      A list of all spells known by the selected character 
+                      will appear.  To the right of each spell is its cost 
+                      in spell points and gems (i.e. 12/2 means 12 spell
+                      points and 2 gems).  Select the desired spell and 
+                      press Enter.  The spell is now ready to be cast.
+R  Rest.              Restores the party's hit points and spell points, 
+                      provided there is at least one food for every member 
+                      of the party.  From left to right, only the number of 
+                      party members equal to the number of party food will 
+                      be restored.  Some conditions worsen with rest and 
+                      can cause a character to die.  Use caution when 
+                      resting.  Most monsters love to devour sleeping 
+                      adventurers.
+B  Bash.              Using the combined might of the first two conscious 
+                      party members, attempts to knock down locked doors, 
+                      grates, and thin walls that hide secret passages.
+D  Dismiss.           Returns any party member to the Inn where that 
+                      character appears on the roster.  At least one 
+                      character must always remain in the party.
+V - View Quests.      Displays the Current Quest window and Corak's notes 
+                      on the surrounding area.
+M - Automap.          Displays the map of the current area.  Only active if 
+                      at least one character has the skill Cartography.
+I - Information.      Displays the Game Information Window, listing the day 
+                      of year, time of day, year and day of week.  This 
+                      window also lists any spells that are currently 
+                      active, such as Light.
+Q - Quick Reference.  Displays the Quick Reference Chart, listing the 
+                      party's vital statistics, gold, gems and food.
+
+Important Places
+
+Scattered across the isles, there are important places to visit that can be 
+very helpful in character development:
+
+* Inns              Create, store, add and delete characters, acquire 
+                    hirelings.
+* Temples           Heal and uncurse characters.
+* Blacksmiths       Buy, sell, identify and fix items.
+* Training Grounds  Train to increase a character's level.
+* Taverns           Buy food, listen for rumors, hear tips.
+* Guilds            Learn spells (with membership).
+* The Bank          Safely store excess gold and gems (and earn interest).
+
+Combat 
+
+When an opponent occupies the same square as the party, hand to hand combat 
+is initiated.  While in combat, movement is limited to turning left or 
+right.  You can face up to three opponents in hand to hand combat with 
+others waiting in line for their chance at you.  Select which opponent you 
+wish to target by pressing 1 , 2, and 3, or clicking the mouse pointer on 
+the opponent's name or picture.  The targeted opponent's name will be
+surrounded by a box.  Successful hits on an opponent are represented by 
+red splatters on the opponent's picture.  The greater the damage done, the 
+larger the splat.  Magical weapons and spells may do additional damage 
+represented by different splatters.
+
+Nine options appear in the Options Window of the Game Screen:
+
+F - Quick Fight.  Battles the opponent(s) using the current Quick Fight 
+    option settings.  Select this icon with the left mouse button to
+    rapidly run through the party's attacks.  Pressing the right mouse 
+    button while in Combat will also select Quick Fight.
+
+C - Cast.  Same as in adventuring mode.
+
+A - Attack.  Attacks the targeted opponent with whatever weapon the
+             character has equipped.
+
+U - Use.  Brings up the Item window, where a character can equip or
+          remove items, or use an item's special ability.
+
+R - Run.  If successful, the highlighted party member will run to a safe
+          location nearby and rejoin the party after the battle.
+
+B - Block.  The highlighted party member will attempt to block the
+            opponent's next attack.
+
+O - Quick Flight Options.  A party member may be set to attack, cast a
+                           readied spell, block, or run when the Quick 
+                           Fight option is selected.
+
+I - Information.  Same as adventuring mode.
+
+Q - Quick Reference.  Same as adventuring mode.
+
+Character Creation 
+
+* Enter an Inn, sign the register and select Create.
+* Select a character portrait by using the Up and Down arrow keys to scroll 
+  through the available faces.  You must delete pre-rolled characters in 
+  order to use their faces.
+* Roll new statistic values by pressing the R key or clicking the mouse on 
+  the icon.
+* Statistics can be exchanged as many times as you wish.  Select a 
+  statistic (such as Might).  Next select the statistic you would like to 
+  exchange with (such as Luck).  The value that was Might is now Luck and 
+  vice versa.
+* When you are satisfied with the statistics, select a Character Class by 
+  using the Left and Right arrow keys to move the pointer up and down the 
+  list and pressing Enter.
+* Select an Alignment by using the Left and Right arrow keys to move the 
+  pointer up and down the list and pressing Enter.
+* Select Create and give your character a name.
+* The character has been added to the roster of the Inn and can be viewed 
+  by exiting the Character Creation screen.
+
+View Character 
+
+To view a character's statistics, press F1 - F8 or click on the character's 
+portrait.  While in View Character, Cast Spell and Item windows, press F1 - 
+F8 or click on a character's portrait to view the information of another 
+party member.
+
+Each of the items in the View Character window has an icon and a number 
+which represents the current value of that statistic.  Selecting a 
+statistic provides more detailed information.  Generally, the higher the 
+numbers, the more powerful the character.
+
+I - Item. Displays the contents of a character's pack.  When equipped, all
+          items have a small icon to their left which shows what part of 
+          the body they occupy and whether they are one or two handed 
+          weapons.  Common sense must be used when equipping items.  Use 
+          the Up and Down arrow keys to scroll through the items list.  
+          Weapons and armor must be equipped with the Equip option before 
+          their benefits are received.  The Use option allows a character 
+          to make use of the special or magical abilities of certain items.  
+          The Discard option permanently removes an item from the 
+          character's pack.  To give an item to another character select 
+          the item, then select the character you wish to give it to.
+
+E - Exchange. Allows two characters to trade positions in the party.  A
+              window will appear asking, "Exchange with whom?"  Select the
+              character you wish to exchange places with.  Characters
+              to the far right of the Character Portrait window are
+              less vulnerable.
+
+Character Statistics 
+
+Might         Affects damage inflicted in combat.
+Intellect     Affects spell points gained per level. (Sorcerers, Archers, 
+              Rangers & Druids)
+Personality   Affects spell points gained per level. (Clerics, Paladins,
+              Rangers & Druids)
+Endurance     Affects hit points gained per level.
+Speed         Affects armor class and order of battle in combat.
+Accuracy      Affects chances to hit in combat.
+Luck          Always helps in mysterious ways.
+Age           A characters statistics are affected as his or her age 
+              increases.
+Level         Relative power of a character.
+Armor Class   Defensive ability.
+Hit Points    Amount of damage a character can withstand before death.
+Spell Points  Total daily capability for casting spells.
+Skills        Special abilities acquired while adventuring.
+Awards        Record of accomplishments and completed quests.
+Experience    A running total of a character's eligibility for training
+              and advancement.
+Condition     Description of a character's health.
+
+End............
+============================================================================
+
+Docs for Might And Magic III
+
+                ---- Adventuring Mode ----
+
+
+To move through the world of Might and Magic III, use the arrow
+keys or the mouse pointer in the Display Window. The Up and Down
+arrow keys move the party forward and backward, and the Left and
+Right arrow keys turn the party left and right. Holding down the
+Control key while pressing the Left or Right key side-steps the
+party without turning. Wait (pass) by pressing the Space Bar.
+This allows time to pass and monsters to advance. Time does not
+pass when turning left or right.
+
+Nine options appear in the Options Window of the Game Screen:
+
+S - Shoot: Party members with equipped missile weapons fire them
+	   straight ahead, provided there are no obstacles
+
+C - Cast:  Displays the Cast Spell window. All spell casters
+	   have a spell ready. To cast the readied spell select Cast again.
+           To change the readied spell select Cast again. To change the
+           readied spell select New. A list of all spells known by
+           the selected character will appear. To the right of each spell
+           is its cost in spell points and gems (i.e. 12/2 means 12 spell
+           points and 2 gems). Select the desired spell and press ENTER.
+           The spell is now ready to be cast.
+
+R - Rest:  Restores the party's hit points and spell points, provided there
+           is as least one food for every member of the party.
+           From left to right, only the number of party members equal to
+           the number party food will be restored. Some conditions worsen
+           with rest and can cause a character to die. Use caution whenresting.
+           Most monsters love to devour sleeping adventurers.
+
+B - Bash:  Using the combined might of the first two conscious party members,
+           attempts to knock down locked doors, grates, and thin walls that
+           hide secret passages
+
+D - Dismiss: Returns any party member to the Inn where that character appears
+             on the roster. At least one character must always remain in
+             the party.
+
+V - ViewQuests: Displays current Quest window and Coraks notes on the
+                surrounding area.
+
+M - Automap: Displays the map of the current area. Only active if at least
+             one character has the skill Cartography.
+
+I - Information: Displays the Game Information Window, listing the day of
+                 year, time of day, year and day of week. This window also
+                 lists any spells that are currently active, such as light.
+
+Q - Quickrefernece: Displays the Quick Reference Chart,listing the party's
+                    vital statistics, gold, gems and food.
+
+
+                -----  lmportant Places  ------
+
+Scattered across the isles, there are important places to visit
+that can be very helpful in character development:
+
+*Inns             Create, store, add and delete characters, acquire hirelings.
+*Temples          Heal and uncurse characters.
+*Blacksmiths      Buy, sell, identify and fix items.
+*TrainingGrounds  Train to increase a character's level.
+*Taverns          Buy food, listen for rumors, hear tips.
+*Guilds           Learn spells (with membership).
+*The Bank         Safely store excess gold and gems (and earn interest).
+
+-New World Computing-
+Compliments of The Necromancer: The RUSH USA/FLT Member
+
+------------------------------------------------------------------------------
+
+FIXED BY [RYGAR]           ------ Combat ------
+
+	When an opponent occupies the same square as the party,
+hand to hand combat is irritirted. While in combat, movement is
+limited to turning left or right. You can face up to three
+opponents in hand to hand combat with others waiting in line for
+their chance at you. Select which opponent you wish to target by
+pressing 1 , 2, and 3, or clicking the mouse pointer on the
+opponent's name or picture. The targeted opponent's name will be
+surrounded by a box. Successful hits on an opponent are
+represented by red splatters on the opponent's picture. The
+greater the damage done, the larger the splat. Magical weapons
+and spells may do additional damage represented by different
+splatters.
+
+Nine options appear in the Options Window of the Game Screen:
+
+F - Quick Fight: Battles the opponent(s) using the current Quick
+                 Fight option settings. Holding down the mouse button while
+                 the pointer is on the Quick Fight icon will rapidly run
+                 through the party's attacks.
+
+C- Cast: Same as in adventuring mode.
+
+A- Attack: Attacks the targeted opponent with whatever weapon the
+           character has equipped.
+
+U- Use: Brings up the Item window, where a character cane equip or
+        remove items, or use an item's special ability.
+
+R- Run: If successful, the highlighted party member will run to a safe
+        i location nearby and rejoin the party after the battle.
+
+B- Block:  The highlighted party member will attempt to block the
+           opponent's next attack.
+
+O- Quick Flight Options: A party member may be set to attack, cast a
+                         readied spell, block, or run when the Quick Fight
+                         option is selected.
+
+I- Information: Same as adventuring mode.
+
+Q- Quick Re@ere@ce. Same as adventuring mode.
+
+                   --- Character Creation ---
+
+* Enter an Inn, sign the register and select Create.
+
+* Select a character portrait by using the Up and Down
+  arrow keys to scroll through the available faces. You must
+  delete pre-rolled characters in order to use their faces.
+
+* Roll new statistic values by pressing the R key or clicking the
+  mouse on the icon.
+
+* Statistics can be exchanged as many times as you wish.
+  Select a statistic (such as Might). Next select the statistic
+  you would like to exchange with (such as Luck). The value that
+  was Might is now Luck and vice versa.
+
+* When you are satisfied with the statistics, select a
+  Character Class by using the Left and Right arrow keys to move
+  the pointer up and down the list and pressing Enter.
+
+* Select an Alignment by using the Left and Right arrow
+  keys to move the pointer up and down the list and pressing
+  Enter.
+
+* Select Create and give your character a name.
+
+* The character has been added to the roster of the Inn
+  and can be viewed by exiting the Character Creation screen.
+
+                 ----- Might and Magic III -----
+
+Compliments OF The Necromancer
+
+------------------------------------------------------------------------------
+
+FIXED BY [RYGAR]   ------ Getting Started -------
+
+After the introduction sequence (which can be skipped by
+pressing Escape) you will have the option of starting a new game
+or loading a saved game. Press S to start a new game. You will
+begin your adventure in the center of the first town with a
+party of six fullyequipped characters. You can immediately start
+playing or go to the Inn to create your own party of characters.
+
+Press L to load a saved game. A window will appear listing the
+names of all your saved games and the highest character level in
+the party. Select the game you wish to load.
+
+
+                ------  Control Panel  -------
+
+To bring up the Control Panel window, press the Tab key or click
+on the large gem at the bottom center of the Display Window. The
+name of the current game is displayed at the bottom of the
+Control Panel window. The available options are listed below.
+
+E - Effects:  Turns the sound effects on and off.
+M - Music: Turns the music on and off.
+D - Delay: Allows you to set the text display delay from 0 to 9
+L - Load:  Allows you to load a saved game.
+S - Save:  Allows you to save the current game in its present location.
+           The game is automatically saved whenthe party enters an Inn.
+Q - Quit:  Quits Might and Magic III and exits to DOS.
+W - Help:  Returns the party to Fountain Head andremoves 1 experience level
+           from each character.(No penalty for 1st level characters.)
+
+
+                      --- Navigating the Windows ---
+
+There are four ways of selecting options in the various windows
+in Might and Magic III.
+
+*:*     Click the mouse pointer on the icon of the option you desire.
+
+*:*     If there is a letter in the option name that is a different color
+        than the rest of the word (usually the first letter), type
+        that letter from the keyboard.
+
+*:*     If there is a highlight that surrounds the option's icon, press
+        Enter to select that option. Use the arrow keys to move the
+        highlight to other options.
+
+*:*     If there is a number to the left of an option or item, press
+        that number on the keyboard, or click the mouse pointer on the
+        item's name.
+
+For options requiring a Yes/No answer, press Y for yes, N for no,
+or click on the icon.
+
+Most windows can be exited by pressing the Escape key.
+
+Statistic values change color depending on their current value
+relative to their maximum value. Character gems and monster
+names change color relative to their current number of hit
+points compared to their normal maximum number. The five colors
+and their meanings are: Gray - Above maximum, Green - Maximum
+(normal), Yellow - Below maximum, Red - Below 25% of maximum,
+Blue - 0 or less.
+
+                ------ Might and Magic III --------
+Compliments of The Necromancer : The RUSH USA/FLT Member
+
+------------------------------------------------------------------------------
+
+FIXED BY [RYGAR]   ---  M & M III Clues  ----
+
+QB: What's an effective party?
+
+van Caneghem : Make the group as diversified as possible, with a
+
+member of every race and as many different classes as possible.
+Secondary skills are critical, so get as many as possible. You
+want
+
+someone with Danger Sense and someone with Detect Secret
+Passages right away. Next you need someone with Pathfinding and
+Mountaineering, for outdoor adventt@ring. Read the manual and
+experiment with different characters, because some races start
+out with secondary skills.
+
+QB: How about some "jump start" clues for the opening game?
+
+vanCaneghem:First-levelcharacters can use the Mr. Wizard option
+to get out of trouble, since they don't suffer the usual penalty
+that lowers each character a level. So until your characters hit
+level two, you can experiment more freely.
+
+	Finish the mini-quests in Fountain Head right away, then
+go to the cave below it. For useful clues and objects, take as
+many skulls as possible to the Miser. For gold, b19h the 92c72t
+w1ll around the comer from the Inn (be prepared for a battle).
+There's a dungeon outside the f"rst town, just a little bit
+south, which is the next place to check out. The Fireball spell
+is in the Temple of Moo there, in a hidden spot in the
+north-central section.
+
+	The Dragonbreath spell is another good one: it lets you
+choose which element you want to breathe at the enemy. lf you
+know a monster is immune to cold, cast Dragonbreath and set it
+for electricity. That spell's location hasn't been decided yet,
+so Iet's just make it up right now. Ok, let's put it at w1714ck h3ll.
+
+	For temporary Hit Points that last a day or till a
+battle, learn S wim (below Fountain Head), then go to the island
+in the lagoon south of town. .
+
+Hints: Compliments of The Necromacner
+
+------------------------------------------------------------------------------
+
+FIXED BY [RYGAR]    ---- View Character -----
+
+To view a character's statistics, press F1 - F8 or click on the
+character's portrait. While
+
+in View Character, Cast Spell and Item windows, press F1 - F8 or
+click on a character's portrait to view the information of
+another party member.
+
+Each of the items in the View Character window has an icon and a
+number which represents the current value of that statistic.
+Selecting a statistic provides more detailed information.
+Generally, the higher the numbers, the more powerful the
+character.
+
+I- Item: Displays the contents of a charachters pack. When equiped, all
+         items have a small icon to their left which shows what part of the
+         body they occupy and whether they are one or two handed weapons
+         Common sense must be used when equipping items. Use the Up and
+         Down arrow keys to scroll through the items list. weapons and
+         armor must be equipped with the Equip option before their benefits
+         are received. The Use option allows a character to make use
+         of the special or magical abilities of certain items. The
+         Discard option permanently removes an item from the character's
+         pack. To give an item to another character select the item, then
+         select the character you wish to give it to.
+
+E - Exchange: Allows two characters to trade positions in the party. A
+              window will appear asking, "Exchange with whom?" Select the
+              character you wish to exchange places with.Characters
+              to the far right of the Character Portrait window are
+              less vulnerable.
+
+                    ----- Character Statistics -----
+
+Might:       Affects damage inflicted in combat.
+Intellect:   Affects spell points gained per level. ( Sorcerers ,
+             Archers , Rangers & Druids )
+Personality: Affects spell points gained per level. (Clerics, Paladins,
+             Rangers & Druids)
+Endurance:   Affects hit points gained per level.
+Speed:       Affects armor class and order of battle in combat.
+Accuracy:    Affects chances to hit in combat.
+Luck:        Always helps in mysterious ways.
+Age:         A characters statistics are affected as his or her age increases.
+Level:       Relative power of a character.
+Armor Class: Defensive ability.
+Hit Points:  Amount of damage a character can withstand before death.
+Spell Points:Total daily capability for casting spells.
+Skills:      Special abilities acquired while adventuring.
+Awards:      Record of accomplishments and completed quests.
+Experience:  A running total of a character's eligibility for training
+             and advancement.
+Condition:   Description of a character's health.
+
+End.........
+=================================================================================
+                           Might & Magic ]I[ Journal
+
+                          A Passage Through the Isles
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   The Journal of Corak the Mysterious
+
+   I am Corak, called the Mysterious, and these are my scribblings as I
+   journeyed across the Isles of Terra in search of forgotten lore. Take
+   them as aid in the adventure before you, for these isles are not all
+   they seem to be, and behind the shroud of legend, truth is often seen.
+
+       From the corners of the misty Void
+       Rang loud the battle cry
+       The Elemental lords of four
+       Had sworn to fight and die
+
+       Fire, Water, Air and Earth
+       Did meet their might and force
+       And in their battles bloody mire
+       Found our land its source
+
+
+   Second Day of the New Moon, 491 In the Town of Wildabar
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   It has been four years since last I set out to explore a new
+   land and discover the hidden lore and fables surrounding its
+   towns and castles. The swelling of spirit brought about by the
+   telling of these stories of heroism and bravery beyond hope is
+   the thread of magic woven in the minds and hearts of all who
+   long to answer the call of adventure, and it is for this
+   purpose, to preserve that magical spark, that I have devoted my
+   efforts to recording these tales.
+
+   From the rumors and murmuring I have heard passing through
+   Wildabar these isles are rich with such histories. While talking
+   to a town elder he told me of an ancient rhyme once read before
+   festivals that contained the legend of the mysterious conception
+   of the isles, a legend that today circulates across the land,
+   but altered through the years since the original scroll's
+   disappearance. He read to me a portion he recorded before the
+   original vanished and told me what he could remember of the rest
+   of the tale. Other parts, he said, may be recorded across the
+   islands.
+
+   The epic was written in three parts and the fragment he gave me
+   was from the first, in which is contained an account of the
+   birth of the isles out of a great battle between powerful lords
+   of the four elements who used fierce storms to fight for supreme
+   control of the Void, a place where there was no land or sky or
+   ocean. Water and Fire and Air and Earth met in this empty Void
+   to fight for the right to fill it with their presence, but so
+   matched were they in this battle that none could defeat the
+   others, nor could any stop fighting lest the balance be upset and
+   he be overrun by the others. They had become locked in an eternal
+   war none could turn away from. And as the war raged on through the
+   decades, in the midst of the Void where the fallout of the
+   mighty storms gathered and settled, a rich land began to
+   develop. From where, no one knows, but beasts appeared to graze
+   the fields of the new land and take refuge in its forests and
+   caverns. Little notice did the Elemental lords pay to these dumb
+   beasts for there was little threat in their roamings. They were
+   seen as nothing more than the flies that gather around a fallen
+   animal. So the war raged on with intensifying storms that added
+   to the richness of the budding land.
+
+   But then a new creature mysteriously appeared in the Void, not
+   dumb like the beasts, but clever in ways of cultivating the raw
+   loam of the battlefield further into a rich provider of food and
+   shelter. Difficult and costly though it was in the midst of the
+   furious storms of battle, a continent was forged in the misty
+   Void.
+
+           The forests and valleys settled spry creatures of great
+   influence. thin and strong, the Elves were quite at home among
+   the trees and fields of green.
+
+           Though weaker in endurance than some, they were
+   possessed of a high aptitude for the magical arts and resistance
+   to its power and energy.
+
+           And in the snowy areas of bitter cold found the Gnomes
+   their home. Like the Elves, they were strong of mind, not body,
+   and a little more prone to the ways of magic. But unlike the
+   brooding Elf, the Gnome was very jolly and quick to make friends.
+
+           Because of the harshness of the snowy land their
+   countenance was toughened to the elements, and even more so to
+   magic.
+
+           So journeyed then in the desert sun the Dwarf. Small but
+   mighty they survived in the turmoil of the stormy war for little
+   of the elemental realm could do them no harm. After all, it would
+   take a strong creature to find a thriving life in the lands of sand.
+   With little power over magic, Dwarves found their strength in
+   solitude among the dunes.
+
+   And in the swamps and bogs settled a tribal people of great
+   strength and endurance. So strong were they that fire, electric
+   and cold could hardly harm them. Because they lacked the greatness
+   of mind for magic they had to rely on their ability to fight to
+   survive, and that ability was developed to great heights, for the
+   Half - Orc lived for battle and saw the opposing of men as the
+   greatest of endeavors.
+
+   But scattered across the many diversities of the new found land
+   Humans wandered and made places for themselves among all others.
+   Able to resist all, the elements and magics, and learned in the
+   ways of the mystical arts, they were well equipped to settle where
+   they wished. Soon they thrived across the land and with the others
+   began to tame the beasts and cultivate the fields.
+
+   With the arrival of these conquerors of land the Elemental lords
+   realized that while they fought among themselves the very prize
+   for which they were slain was being taken away from them by
+   little mortal beings who in their eyes were no better than the
+   dumb beasts. Each would try to vanquish the mortals with a great
+   storm, but because they could not remove too much of their force
+   from the war the mortals were able to withstand them. In fact,
+   the storms of the Elementals were less severe than the effects
+   of the war itself, so the Elementals had to find another way to
+   purge the Void of these intruders. So an agreement was made to
+   halt the fighting for one day and devote all their powers to
+   create one great tempest of such destructive power that none
+   could withstand it for even an hour.
+
+   Air gathered together the strongest of its winds to blow the
+   sands of Earth with such force as to tear away the flesh from
+   mortal bone. And Water prepared a flood to wash the fallen
+   mortals to the center of the Void where Fire would then bake the
+   mire into solid stone. Even combined in total unity the mortals
+   could not survive a day of such torrent. So little hope was
+   there that in the darkest hours before the great destruction all
+   merely stayed in their doomed homes and the helplessness in
+   their hearts made the greatest cry for mercy any world has ever
+   known.
+
+
+   Fourth Day of The New Moon 491 - The Quest Begins
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   After searching for the right opportunity I have finally found
+   a group to set across the isles with in search of the lost parts
+   of the legend. A band of four fighters and a healer have
+   enlisted me as their image, not knowing the fullness of my
+   power. We are to travel to Swamp Town and receive a scroll which
+   we will then deliver to Fountain Head. The leader of the party,
+   Asa Milchima, has agreed to take a circular course to allow me a
+   wider search for the lost pieces. We will be travelling across
+   most of the islands, skipping only the smaller ones. I will be
+   receiving a smaller share of the reward for delivering the
+   scroll, but it is the search and hopeful discovery of forgotten
+   lore that calls me to this adventure, not the promises of
+   wealth.
+
+   Assuming all to be in order we will set out tomorrow for the
+   Isles of Illusion where I will search the two castles said to be
+   laid out in ruins upon the sand. From there we will travel to
+   Buzzard Bluff where we will camp for the night. The next day we
+   will journey through the Evermoors and north to Swamp Town, find
+   the scroll and most likely spend a pleasant night in a local
+   inn.
+
+   From there I will lead the expedition to Serpent's Wood, the
+   original settling place of the Dwarves, and on through the
+   Frozen Isles where we will camp a second night. Then we go to
+   Leper Canyon and straight to Fountain Head. Four days they plan,
+   but it will likely extend to double.
+
+
+   Fifth Day of the new moon, 491 - Setting Off
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Today, after much preparation we started our journey across the
+   Isles of Terra. This group I've joined is far more powerful than
+   I had earlier believed. Rather than renting a boat as I had
+   thought we would, the healer, Rapha, stood at the water's edge
+   where earth meets ocean and stretched her arms wide. All was
+   still for a moment, then a strange wind blew the corners of her
+   robe and there seemed to be a disturbance in the waters. Fog
+   rolled in, thick and choking, and in the midst of it appeared a
+   ghostly galleon riding on the swelling waves. It was truly a
+   most impressive sight, and a little unnerving too. The ghost
+   ship took us across the waters to the closest of the Isles of
+   Illusion where we are now resting before entering the castle
+   ruins, but I still don't know from where it came or to where it
+   returned, for as soon as we stood upon the shore it drifted away
+   in the silence of the fog.
+
+   It is a poor omen when the first battle of an adventure ends in
+   death. While searching the ruins of Castle Greywind we came upon
+   a powerful phantom magic user that had made his home in the
+   rubble. He attacked at once without warning and engulfed Rapha
+   in a pink glow of energy, draining all life out of her. Asa
+   Milchima responded quickly by letting fly a bolt from the
+   crossbow at his side, but it only passed through the apparition.
+   While the others advanced, the ghostly figure summoned a huge
+   and beastly bear and vanished in a flash of light. Asa Milchima
+   and Supha, the Ninja, were only hurt a little in the battle with
+   the beast, but Rapha had been our healer. I did what I could for
+   the others without revealing the full extent of my powers, but
+   the loss of Rapha is most unfortunate. The loyalty of this group
+   is strong for they plan to spend their part of the reward to
+   have her healed at the temple in Swamp Town.
+
+
+   Sixth day of the new moon, 491 - Camping at Buzzard Bluff
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Then descended on the land The Forces of the Dome
+   To lend into the mortal hand Power before unknown
+
+   Five Forces, they of might and magic Two champions forged by each
+   Ten heroes made the tale most tragic For the Elemental beasts
+
+   There is a dark mood hanging over the camp tonight, darker than
+   the clouds that cloak the moon, darker than the thick limbs of
+   trees that hide untold creatures peering from outside the circle
+   of fire light. It has been raining since the middle of day and
+   the falling drops have beaten down the spirits of even our
+   steeds who stand nervously stamping. The fight of yesterday
+   still weighs upon the minds of all, myself included, made
+   heavier by the legend of the Winged Death said to prey on
+   travelers of the Forsaken Sands. I must admit even I will feel
+   relief when this night is nothing more than a memory. It seems a
+   fitting enough setting to muse upon the piece of the legend I
+   found in the ruins of Castle Greywind. It tells of the
+   intercession of the Forces of the Dome, the five Forces that
+   gave men the power to overcome the attack of the Elementals.
+
+       Cosmonium was that force which guided the elements and
+       other forms of energy from place to place. Air, water,
+       fire, earth, and the electrical energies were commanded
+       and controlled.
+
+   Esoterica was the power of the inner self, the energy of life
+   and the forms of life, with command of the mind and the ability
+   for healing and inflicting.
+
+   Gaiam commanded the order of life in the forest and in the skies
+   of the trees and the clouds.  The manner and temperament of
+   nature and the wills of the beasts bowed to its influence.
+
+   Bellum, which was the essence of war and violence which
+   manifested itself in the darker moods of beasts and
+   violent turns of weather, like this storm tonight.
+
+   And Lurkane, that invisible, silent sheet of
+   clandestine power that slipped its works into the
+   world unseen.
+
+   These were the Forces that silently watched from their perch
+   above the clouds as the Elementals did battle. According to the
+   legend they never joined the fight, but when they discovered the
+   Elemental's plan to destroy all men and beasts they had pity on
+   the helpless mortals and gave them the secrets of their powers
+   to defend their lives. Other tellings of the tale say the Forces
+   of the Dome feared the Elementals would be so amazed at the
+   strength they possessed when joined together they would unify
+   and attack them in their lofty home, pulling them into the
+   never ending battle. For whatever reason, the Forces
+   taught we mortals of their power, two to each Force, and made
+   ten champions to drive back the Elementals before they could
+   pull their ranks together.
+
+   To an Elf, Cosmonium opened the secrets of how the elements move
+   through the Void, giving total control over fire, cold, energy,
+   and electricity. In Padded armor and armed with a staff, the
+   first great hero set about mastering his control over the
+   elements and created many powerful incantations for the
+   coming battle. He was called a Sorcerer. I remember the
+   thrill of discovering the power and beauty of lightning, my
+   personal favorite. In my youth, camping on a rainy night with
+   a band of adventurers like this dark evening, I would sometimes
+   fire a bolt at a nearby tree just to startle my companions. An
+   act I'm sure our fallen comrade would strongly disapprove of.
+
+   And to another of the Elfin kin Cosmonium showed the way to
+   make a shaft of wood travel straight and true to its mark.
+   This was named the Archer and gird in armor of chain she was
+   the second of the heroes to emerge. Due to their common
+   origin she was able to use the spells created by the Sorcerer,
+   but only to a limited degree. Most of her energy was spent
+   in the study of the bow.
+
+           Next, Esocerica took a Gnome and trained her in
+   the healing ways, revealing the secrets of the mind
+   and body, unlocking the Power to make good or render
+   bad one's constitution. A most powerful hero was this,
+   called the Cleric, in her splint mail, helm and shield.
+   To heal the fallen comrade and destroy the weakened foe
+   was her pledge.
+
+   Another Gnome was taken thus, and taught the healing ways, but
+   much emphasis was also given to the use of weapon and armor. A
+   most noble champion called Paladin was he, and a frightful foe
+   to face. Clad in the strongest of armor and wielding the
+   weapons of truth and right, he was to become one of the
+   greatest of the legendary figures inspiring much lore and many
+   followers.
+
+   Then Gaiam made its choice in the Dwarf to champion its cause.
+
+   Many languages were revealed, empathy with Plants and beasts
+   and the patterns of seasons and stars. Secrets of the living land
+   endowed in a smallish figure to command the forces of nature to
+   do her bidding, commanding great storms and flurries and
+   swarms to do battle, but also calling upon the natural
+   healing of nature to help the fallen. As devoted to the land as the
+   Cleric to the body, this new one called the Druid would
+   sacrifice her being to maintain the orders of nature. In leather
+   the Druid travelled with barely a sword to swing. A storm such
+   as tonight's would hardly be worthy the talents of such a
+   champion.
+
+   When the force Gaiam gave empathy with the forest to the Dwarven
+   champion it called Ranger, a dark and mysterious one was indeed
+   created. At home in the denseness of the trees, contented with
+   the thicket of vines and cluttering of bushes, the Ranger was as
+   diverse in mood as the forest was diverse in creatures. Like the
+   first hero Ranger, our own Asa is prone to sudden changes in
+   temper from jovial and impish to condemning and stern.
+
+   Bellum then chose the Half-Orc to be a champion of the sword.
+   Gird in the finest of armor, helm and shield, and with
+   the mightiest weapons trained he in the arts of war,
+   melee, and valor. Called the Knight he became the strongest
+   of the champions with the greatest desire to march across
+   the battlefield.  While the Paladin would seek peace through
+   battle and find victory in the quick end of a war, the Knight
+   longed for the brotherhood of battle and felt a kinship to all
+   combatants.
+
+   And the second champion made Bellum to be called Barbarian, for
+   it was not brotherhood she seeked in battle but the lust of
+   blood. With the greatest endurance of the heroes the Barbarian
+   seeked the thrill of rushing into battle.  Clad only in scale
+   armor she wielded her shield and great hammer against the
+   armies of her foes. In all the statues and tapestries I have
+   seen dedicated to the likeness of this champion she stands
+   high upon a mountain of fallen warriors, a helm of horns upon
+   her head.
+
+   Lurkane then, the last and most mysterious of the forces, took two
+   humans to its cause.  He first was taught to move in the invisible
+   folds between the places of here and there and travel unseen and
+   unheard.  Known as the Robber, he was able to work the mechanisms
+   of locks and traps, hide in the faintest of shadows, and advance
+   upon his foes to deliver a fatal thrust of dagger in the back.
+   In mail of chain with shield and dagger, a crossbow hanging at
+   his side, he moved in the leaves like a feather.
+
+   And the tenth champion, made for battle, was strong in
+   all attributes of fitness and mind. Called the Ninja,
+   a most powerful warrior was she with special weapons
+   created especially for her mastery at arms, a mastery
+   not even equalled by the might knight.  Bound to a
+   life of solitude, alone even among the other champions,
+   her discipline of body and mind consumed every moment.
+   She was called the silent warrior for she possessed
+   the stealth of the robber, even in her chain mail,
+   and was never known to speak.
+
+   These ten were the champions of the war against the Elementals,
+   where mortal man was taught the arts of magic and ways of war by
+   the five Forces of the Dome, Cosmonium, Esoterica, Gaiam, Bellum
+   and Lurkane, the Forces that are above the clouds, above the
+   stars, that indeed guide the stars through their journey across
+   the night. Now my time at watch is done and Supha comes to relieve
+   me. Tonight I must rest well for tomorrow we journey across the
+   Evermoors, and that is no place to be when weary.
+
+
+   Seventh Day of the New Moon, 491 - In Swamp Town
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Today we arrived in Swamp Town after a surprisingly easy journey
+   through the Evermoors. There were only a few small battles along
+   the way as we came across wandering animals and insects.
+   Although the danger was small it was a good workout, for any
+   small mistake could cost dearly.
+
+   After entering the west gate of Swamp Town and finding the giver
+   of the scroll we are to take to Fountain Head, Rapha was taken
+   to Temple Moonshadow. It was by luck alone that the others had
+   barely enough to pay for the services of the monks, as the boat
+   we rented to carry us from the Forsaken Sands to the Evermoors
+   dug deep into our parties pouch. The reward for delivering the
+   scroll will hardly do more than recoup the fee of Rapha's
+   resurrection.
+
+   With Rapha's return, a room was then taken at the inn where I
+   now sit writing these notes. The others are relaxing, as it
+   were, in the tavern where they are telling Rapha of all that has
+   happened in the past two days.
+
+   My hopes of finding more of the legend are failing after talking
+   to others I have met around town. While visiting the guild there
+   was one who had just returned from the Frozen Isles where he had
+   been searching for the rhyme himself. He told me there was no
+   part of it to be found in the northern regions and was very
+   happy to see the fragment I returned from the ruins of Castle
+   Greywind. I told him the tale the elder of Wildabar spoke to me.
+
+   After the battle was over and the champions had used the powers
+   the Forces of the Dome gave them to drive the Elemental lords to
+   the corners of the Void, the five Forces picked up the land that
+   had been the battlefield and moved it through the heavens, from
+   the gates of the Ancients to the gates of Terra, where the land
+   was set in the midst of water and broken into isles. While the
+   Forces were carrying the isles through the stars the ten heroes
+   built towns to protect the people from the monsters and beasts
+   that roamed the land, and they trained others in the disciplines
+   they were given by the Forces starting a long tradition of
+   skills that has carried over to present times.
+
+   Great walled towns were built to provide shelter and protection
+   from the outside wilderness and be a place of haven for those
+   adventurers who travelled across the new land and tried to tame
+   and conquer its growing life. They were exciting times of
+   adventure and bravery, but there was a need for places of
+   healing and trading and training, so in the towns were raised
+   dwellings where all the services an adventurer needed could be
+   received. There were places of weaponry, houses of ale and
+   feasts, five houses of healing where the mysterious monks who
+   tended them payed homage to the Forces for saving them from the
+   Elementals, grounds for training in battle skills, mystical
+   schools for heightening one's magical prowess, and places where
+   the weary could rest in safety and store their goods and find
+   others to replace a fallen companion. It is in these foundations
+   that our town dwellings of today find their source.
+
+   In the blacksmith's shoppe workers of steel and iron forged new
+   weapons of destruction and repaired the broken implements of
+   warriors. There was a lucrative trade of wares from many places
+   abroad and all the needs of dungeon lurking, such as rope and
+   torch, could be found. It was also a place to find the finest
+   in armor and protective wares, and unknown mechanisms
+   or weapons could be identified and their uses and value
+   revealed. Of course the excess in a traveller's pack would
+   bring a decent enough price to pay for a good time in the
+   houses of ale.
+
+   The inn was a place where the weary could rest behind a locked
+   door and under a roof to protect from the falling rain. But the
+   inn was created as more than just a place to take a much needed
+   halt in travelling, for young adventurers seeking the thrill of
+   battle and discovery of untold wealth could sign in the registry
+   and wait for a party in need of help to enlist his services.
+   Often times, when enlisting the aid of those you meet roaming
+   the forests and caves and ruins, he will bid you meet him at the
+   inn where he had registered last before joining you on your
+   quest.
+
+   Taverns were built where the ale flowed as profusely as the rumors
+   off the loosened lips of explorers and warriors who came to
+   these rowdy bars for a healing that could not be found in the
+   temple. It was a place where gold put in the hand of the barkeep
+   might reveal the clue to find unspeakable treasure and fortune.
+   And when the adventurer's pack ran low of food it could be
+   filled with the specialty of the house. After all, when one's
+   strength runs low resting is to little avail when there is no
+   meal to replenish the flesh.
+
+   And for the fallen and injured warriors temples of healing
+   were erected to the Forces of the Dome. Five Forces gave mortals
+   the power to subvert the deluge and five temples were constructed
+   to honor their powers and help those who fell in their service.
+   Warriors with any affliction could find cure from the mysterious
+   monks that tended these sacred shrines. Flesh would be restored and
+   curses lifted. And it was believed that special blessings
+   awaited those who donated a portion of their booty to these
+   shrines.
+
+   But those portions of gold and treasure that were not donated
+   to the sacred monks were under constant threat of becoming
+   another's booty, so the builders of the towns made a sturdy and
+   secure cage and commissioned strong golems to guard it. The bank
+   was needed to keep one's wealth in safety because there were,
+   even in those exciting days following the victory over the
+   Elementals, those who would feed on the weaker but more
+   fortunate of their fellow man. Though fallibly secure from
+   theft, the bank was safer than the skin tents of the
+   adventurer's camp.
+
+   To trade others in the ways shown to them by the Forces of the
+   Dome, the ten champions also made great training grounds with
+   tracks and arenas and all manner of devices for improving
+   strength and stamina. For a price, any adventurer who had come
+   from a long quest or journey could seek the help of specialists
+   in all the arts of battle to advance in the skills of swordplay,
+   archery, and all other methods of melee. A person's stamina and
+   endurance in battle could also be enhanced by the techniques of
+   the masters of the grounds.
+
+   And for those who studied the magical arts, mysterious guilds
+   were built to train the magic user to control the forces.
+   Through intense study deeper control of one's chosen way could
+   be gained and new incantations purchased to expand the mage's
+   abilities and arsenal of spells. These were places of great
+   secrets and none but members of each guild could enter. Legends
+   of the surrounding area were written in the history of each
+   guild to provide helpful hints and warnings to the wise.
+
+
+   Eighth Day of the New Moon, 491 - The Frozen Isles
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Tonight we are camping in the chilly environs of the Frozen
+   Isles. As I suspected after talking to my fellow searcher in
+   Swamp Town, there is no sign of any part of the legend around
+   these frozen woods. We searched the snowy wild for many hours
+   but there was little more than ice to be found gleaming in the
+   sun.
+
+   After being denied entrance to Castle Dragontooth on account of
+   prior dealings with our healer Rapha, we decided to camp in the
+   frozen woods of these isles and keep fire watch, which is what I
+   do as I write this. I've had more comfortable nights but there
+   are no hard feelings toward Rapha. It is, after all, much easier
+   crossing the ocean with the use of her ghostly ship.
+
+   I will miss this group when we part ways in Fountain Head, but
+   there are other things that call me. This has been but a tour
+   for me, the real search is not for legends and lore but my
+   nemesis Sheltem. From the very beginning he has seen these isles
+   and all that lives upon them as his enemy, and twice he has
+   planned their extinction. Now that these isles have rested in
+   the gates of Terra I'm sure he has not given up his crusade to
+   destroy them. I know not what plan he has set in motion but I
+   see his work in all that is chaotic.
+
+   I have been making these notes as a record to leave behind for
+   any who will join me in my search for Sheltem and his evil plot.
+   I believe the ancient pyramids play into his schemes and that is
+   where I will begin my search when I set out again.  This time I
+   will go alone, but to any who follow I will leave clues to give
+   the benefit of new information I uncover.
+
+   I have not told the others of this but in the ruins of Castle
+   Blackwind, back on the Isles of Illusion, I found a message
+   among the rubble that may shed light on the mystery of Sheltem's
+   scheme. It seemed to place much importance on the three manners
+   of men we have come to call alignment; Good, Neutral, and Evil.
+   For many years there has been peace among these different
+   attitudes, but it has not always been so. There once were many
+   wars fought over the differences of these three alignments and
+   perhaps it is Sheltem's plan to rekindle this ancient rivalry.
+   I'm still working on what may be the meaning of this message in
+   the rubble. In the land today the question of Good and Evil is
+   resolved in the response to certain situations, and there are
+   certain enchanted areas where one or the other may not be
+   welcome, but there is little chance of a war fueled by these
+   differences being started in these times of enlightenment.
+   Nevertheless, I am sure the subtle differences of these three,
+   Good, Neutral, and Evil, play into the schemes of Sheltem.
+
+   I will stop writing for tonight, Asa will soon come to relieve
+   me of my watch. It has been a pleasant trek across the isles
+   with this group, pleasant save for the death of Rapha. Thank the
+   Forces the monks of the temples can lift the conditions of ill
+   that inevitably befall the adventurer. Be you cursed, paralyzed,
+   or even eradicated, there is always a remedy, and a price, to be
+   found in the temples.
+
+   With the coming of the morning light we will start our final
+   journey to Fountain Head, and from there I will once again set
+   out alone. My feelings are echoed in the cries of
+                                                     ^
+            <This page actually stopped right here --|
+            <The author of the dox must have been really stoned that day>
+
+
+   Ninth day of the new moon, 491 Fountain Head reached
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   After passing through Leper Canyon we reached Fountain Head
+   late into the day. I parted company with my group at the inn
+   where they immediately found another young adventurer anxious to
+   join them on their next excursion, of course... after they spend
+   some time in the tavern to recuperate.
+
+   Before I start my search for Sheltem there are a few final
+   pieces of advice I would like to offer to those who follow me
+   into this mystery. There are skills that will be very helpful if
+   not completely necessary in your travels across the isles. You
+   must find their masters to teach them to you, and be prepared to
+   pay the price. Here are some of the more helpful of these
+   skills...
+
+   Cartography   - To help you keep better maps of the areas
+                   you visit.
+
+   Danger Sense  - Which will give you warning of monsters you
+                   may not see until it is too late.
+
+   Detect Secret - So not to miss out on hidden opportunities.
+   Passages
+
+   Mountaineering- to gain access to the higher regions.
+
+   Pathfinding   - For cutting your way through dense forests.
+
+   Swimming      - For crossing shallow waters.
+
+   And always keep a full spellbook. When you have mastered the
+   spells you know to such degree that you are prepared to learn
+   others, gain membership to a guild and learn what you can. Seek
+   the wandering mages who sell these memberships, the price is
+   small to pay to have the right incantation when needed. And if
+   you gain a spell from an enchanted pool or buy it from a
+   traveling teacher and have no explanation of its use, go to one
+   of the guilds for its description.
+
+   Remember to keep a good supply of gems as some spells require
+   the power locked inside their crystals. These are the spells
+   available to the novice in the ways of magic...
+
+   Awaken       - Pulls all sleeping adventurers from their slumber.
+
+   Detect Magic - If there is a magical item in the pack of the
+                  caster this will make it known, and reveal the
+                  number of its limited use. Use this to discover
+                  the nature of a chest of treasure.
+
+   Elemental    - Unleashes the power of the elements upon a single
+   Arrow          enemy. Expel a bolt of flame, electricity, acid,
+                  or ice upon your foe to rob him of a little well-
+                  being.
+
+   First Aid    - An adventurer's minor wounds of battle can quickly be
+                  healed with this anointing incantation.
+
+   Flying Fist  - Summons an enchanted gauntlet to deliver a stinging
+                  punch to a single foe.
+
+   Light        - Provides a magical light to illuminate the darker
+                  areas.
+
+   All spells were forged through the mysteries of Cosmonium,
+   Esoterica and Gaiam, and only those classes devoted to their
+   study can cast them. More powerful spells await as you advance
+   in your abilities.
+
+   It will also be necessary to gain protection from the six forms
+   of damage that are delivered through the use of weapons and
+   spells. These forms are fire, electricity, cold, poison, energy,
+   and magic. Each race has a natural strength against some of
+   these and further protection can be gained through spells and
+   enchanted items.
+
+   As you travel from town to town there will be many occasions to
+   enlist your services to others in need of help. It would be wise
+   to accept their challenges for there may be great rewards in
+   their completion that will help in future dealings.
+
+   And when all hope is gone, be it in the face of a great dragon
+   or surrounded by too many orcs to dispatch, you may call upon
+   the benevolent hand of Mister Wizard to carry you back to
+   safety. He will always answer the call for help, but be warned
+   that he will also extract a toll of experience from those he
+   rescues. A mighty warrior can soon be rendered weak if he calls
+   for the help of the Wizard too often. It is best to resolve a
+   situation without his help if any solution exists. But new
+   adventurers find favor in the heart of Mister Wizard, and those
+   he will help without fee.
+
+   Now I must prepare for my search for Sheltem. Take these notes
+   and use them as you can to discover his schemes, and together we
+   may be able to thwart his plot. Search for the clues I will
+   leave behind, and good luck to you on your journey. May the
+   powers of Might and Magic be always at your side.
+
+End........

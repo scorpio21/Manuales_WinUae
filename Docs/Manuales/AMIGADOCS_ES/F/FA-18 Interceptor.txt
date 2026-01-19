@@ -1,0 +1,905 @@
+Interceptor F/A-18
+
+ESTA ACTUALIZACIÓN CONTIENE CÓDIGOS PARA NÚMEROS CUYO DOS PRIMEROS DÍGITOS DIFIEREN POR
+	0, 1, O 2.
+
+
+
+	Estos son los códigos de Interceptor. A esos idiotas se les ocurrió una 
+rueda bastante complicada que he intentado escribir aquí. El truco es que todo 
+series de números tienen el mismo código. Intentaré explicarlo: es un disco de tres.
+rueda con todos los números hexadecimales en las llantas de cada una, un disco dentro del otro. 
+Alineas los primeros tres dígitos en los bordes de los discos y lees el 
+dígito final en algunas ranuras en el medio. Si 000 está alineado entonces 111 está alineado
+arriba y así sucesivamente. Si gira el borde exterior una unidad, 001 también quedará alineado
+como 112 223 y así sucesivamente hasta FF0 (observe la superposición). Seguirá siendo complicado
+encontrar el código porque el espacio entre los dígitos es más importante que
+los propios dígitos. Para ahorrar espacio utilicé la notación de series... para indicar
+los números que faltan. Si tiene tiempo, puede resultarle útil completarlo.
+si esto es demasiado confuso. Uno de los miembros de MAAD lo resolverá en breve.
+así que espera....
+
+El '*' indica el último dígito y '"' significa el mismo número que el anterior.
+
+
+TAMBIÉN LA DIFERENCIA ENTRE F A 1 ES 2 POR EJEMPLO
+
+   0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 ...
+				 |___|                       
+
+
+Diviértete...
+    El manipulador
+
+NOTA: La tabla va más allá del borde, así que desplácese para ver el resto.
+
+
+DIFERENCIA DE 0 ENTRE LOS 2 PRIMEROS DÍGITOS
+
+			0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+000* - FFF* 000 62513 1722 010150 57370 132 3716 004225 04643 3512 160757 622 1531 01007 750 022721
+
+001* 112*...EEF* FF0* " " " " " " 2473 " 32720 6070 " 777 " " " "
+
+002* 113* 224*...
+ DDF* EE0* FF1* " " " " " " 1050 " 61575 5245 " 354 " " " "
+
+003* 115*...CCF* DD0*	
+ EE1* FF2* " " " " " " 7225 " 10452 3622 " 131 " " " "	
+
+004* 005*...BBF* CC0*
+ DD1* EE2* FF3* " " " " " " 5602 " 37128 2377 " 506 " " " "
+
+005* 116*...BB0* CC1*
+ DD2* EE3* FF4* " " " " " " 2760 " 01605 0754 " 264 " " " "
+
+¿Ya entiendes la imagen?
+
+006*...FF5* " " " " " " 1341 " 30062 6531 " 641 " " " "
+
+007*...FF6* " " " " " " 0116 " 55737 5106 " 016 " " " "	
+
+008*...FF7* " " " " " " 6473 " 04414 4263 " 373 " " " "	
+
+009*...FF8* " " " " " " 2250 " 33471 6641 " 226 " " " "
+
+00A*...FF9* " " " " " " 0625 " 61346 4474 " 603 " " " "
+
+00B*...FFA* " " " " " " 2002 " 07701 3051 " 360 " " " "
+
+00C*...FFB* " " " " " " 0357 " 36356 1626 " 735 " " " "	
+
+00D*...FFC* " " " " " " 0207 " 01034 0203 " 513 " " " "
+
+00E*...FFC* " " " " " " 6564 " 27311 6760 " 070 " " " "
+
+00F*...FFE* " " " " " " 5341 " 56166 5335 " 245 " " " "
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+DIFERENCIA DE 1 ENTRE LOS 2 PRIMEROS DÍGITOS
+
+010* 121*...F0F* 11170 0377 136625 05645 007 1244 132702 132702 05532 5141 007634 551 0206 27464 422 011362
+
+011* 122*...F00*
+012* 123*...F01*
+013* 124*...F02*
+014* 125*...F03*
+015* 126*...F04* TODOS IGUAL
+016* ... F05*
+017* ... F06*
+018* ... F07*
+019* ... F08*
+01A* ... F09*
+01B* ... F0A*
+01C* ... F0B*
+01D* ... F0C*
+01E* ... F0D*
+01F* ... F0E*
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DIFERENCIA DE 2 ENTRE LOS DOS PRIMEROS DÍGITOS
+
+
+			0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+020* 131* 242* ...F1F 132 37645 2655 001103 34522 464 3722 160757 34407 4016 002206 226 6667 66175 677 004034
+
+021* 132* 243* ...
+ DFE* E0F* F10* " " " " " " " " " " " 070563 " " 14646 " 132611
+
+022* 133* 244* ...
+ DFF* E00* F11* " " " " " " " " " " " 057740 " " 43323 " 161166
+
+023* 134* 245* ...
+ DF0* E01* F12* " " " " " " " " " " " 1464315 " " 05601 " 014743
+
+024* 135* 246* ...
+ DF1* E02* F13* " " " " " " " " " " " 135072 " " 35456 " 143320
+
+025* 136* 247* ...
+ DF2* E03* F14* " " " " " " " " " " 023447 " " 64133 " 000476
+
+026* 137* 248* ...
+ DF3* E04* F15* " " " " " " " " " " 011224 " " 11210 " 027053
+
+027* 138* 248* ...
+DF4* E05* F16* " " " " " " " " " " 013602 " " 41065 " 062662
+
+028* 138* 24A* ... 
+ DF5* E06* F17* " " " " " " " " " " " 002757 " " 67424 " 011337
+
+029* 13A* 24B* ...
+ DF6* E07* F18* " " " " " " " " " " 071334 " " 16101 " 140014
+
+02A* 13B* 24C* ...
+ DF7* E08* F19* " " " " " " " " " " " 057167 " " 44556 " 166271
+
+02B* 13C* 24D* ...
+ DF8* E09* F1A* " " " " " " " " " " 145544 " " 07034 " 015146
+
+02C* 13D* 24E* ...
+ DF9* E0A* F1B* " " " " " " " " " " " 134321 " " 35711 " 143623
+
+02D* 13E* 24F* ...
+ DFA* E0B* F1C* " " " " " " " " " " " 022676 " " 64366 " 005701
+
+02E* 13F* 240* ...
+ DFB* E0C* F1D* " " " " " " " " " " " 011453 " " 12443 " 034556
+
+02F* 130* 241* ...
+ DFC* E0D* F1E* " " " " " " " " " " " 014031 " " 41320 " 055433
+
+============================================================================= =============================================================================
+                             INTERCEPTOR F/A-18
+                  
+                     (Página Dox según libro original)
+
+                Contenidos
+
+
+Descripción general................................1
+
+Primeros pasos................................1
+   Cómo utilizar la computadora de vuelo F/A-18
+   (también conocida como "hoja de códigos, ¡si la tuya no está descifrada!...2
+
+Referencia de aeronave................................3
+    Control de palanca de mando...................3
+    Controles de la aeronave...................3
+    Controles de simulación...................5
+    Ver controles................................5
+    ECM (contramedidas electrónicas)..........6
+    Armas disponibles................................6
+
+Vuelo................................................6
+    Vuelo de demostración...................7
+    Vuelo libre, sin enemigos...................11
+    Entrenamiento, demostración de maniobras................11
+    Entrenamiento, práctica de maniobras....12
+    Calificación................................13
+    Próxima misión avanzada activa....13
+    Misiones seleccionables...................15
+    Su registro de vuelo actual...................15
+
+Consejos de un veterano de combate................16
+
+Apéndice A - Especificaciones de la aeronave....18
+
+=============================================================================
+
+-Descripción general-
+
+El F/A-18 Interceptor pone a prueba tu capacidad de combate aéreo mientras vuelas un supermoderno
+caza a reacción contra intrusos que buscan destrucción. La acción se desarrolla en un 
+entorno de vuelo realista; pasas rozando la bahía, te elevas sobre el San 
+Península de Francisco, y realizar maniobras sobre el Océano Pacífico. tu 
+mirar desde la cabina de un Navy F/A-18 Hornet o un Air Force F-16
+Halcón Volador.
+
+Lea la sección Primeros pasos para comenzar a jugar y estudiar el avión. 
+Sección de referencia para familiarizarse con los controles del joystick y del teclado
+para el interceptor F/A-18. La cabina y los controles son los mismos tanto para el 
+F-16 y F/A-18. Después de haber visto el vuelo de demostración y haber volado gratis 
+En vuelo, practicas las maniobras de entrenamiento vitales para un combate exitoso.
+Calificarás para el servicio activo, practicarás misiones de combate seleccionadas y luego volarás.
+en combate real contra los intrusos.
+
+-Empezando-
+
+Puedes jugar a Interceptor en un Amiga 500, 1000 o 2000. Antes de comenzar, 
+proteja su disco contra escritura y luego haga una copia de reproducción del disquete. tu puedes 
+juega a Interceptor usando el teclado o el joystick.
+
+Nota sobre la memoria: el F/A-18 Interceptor requiere al menos 512 KB de memoria
+(si su computadora tiene 512K, debe desconectar su disco externo para 
+recibir un sonido mejorado. Sheeyut...). Se recomienda que tengas un color.
+Monitor RGB y un megabyte de memoria para maximizar las capacidades de sonido, como 
+así como para ver el vuelo de demostración completo. 
+
+Para empezar:
+1. Encienda su computadora y monitor.
+2. Conecte su mouse al puerto uno y su joystick al puerto dos.
+3. Inserta tu copia de reproducción. Haga doble clic en los iconos...
+4. Aparecen la pantalla de título y los créditos; cuando se le solicite, ingrese un indicativo de llamada para 
+   alístate en un Tour of Duty completo. Luego presione RETORNO (ver nota a continuación).
+5. Cuando aparezca la pantalla de selección de misión, presiona el número de la opción 
+quieres empezar a jugar.
+                                   -1-
+
+=============================================================================
+
+Nota: Cuando habilitas la escritura en tu disco, "R" para Rookie aparece como el actual
+indicativo de llamada. El Novato es un piloto que ha completado con éxito la primera 
+tres misiones de interceptor F/A-18; usar el indicativo "R" le permite 
+seleccione entre una variedad más amplia de misiones de inmediato. Si desea utilizar su 
+propio indicativo (borrando así permanentemente al Rookie) debes seleccionar "8" 
+("su registro de vuelo actual"), luego restablezca el registro presionando SHIFT-2. Ahora 
+presione 1 para actualizar el registro en el disco. Aparece un mensaje solicitándote que entres. 
+tu propio indicativo. Puede optar por NO inscribirse en un Tour of Duty. Sin embargo
+aún debes pasar la Calificación para poder volar en misiones de combate.
+
+Cómo utilizar la computadora de vuelo F/A-18
+  ---¡obtén la versión CRACKED de Interceptor!-----
+
+
+
+                                    -2-
+
+=============================================================================
+
+                    = REFERENCIA DE AERONAVE =
+
+Cuando despegas, vuelas uno de los dos aviones de intercepción: el 
+General Dynamics F-16 Fighting Falcon o F/A-18 Hornet. en tu 
+En manos capaces, el Halcón y el Avispón son a la vez arma y escudo. por favor 
+consulte el Apéndice A - Especificaciones de la aeronave, para obtener más información sobre ambos. 
+avión.
+
+Control de palanca de mando
+
+Controlas tu avión en vuelo usando el teclado o un joystick. tomar
+control del joystick cuando su avión está despegando por la pista en
+despegue. Una vez que haya logrado despegar a unos 200 nudos, retroceda 
+el joystick y tomar el aire. En vuelo, mueve el joystick en la dirección 
+dirección en la que desea que vuele su avión. El botón de disparo del joystick se dispara. 
+el arma seleccionada contra el objetivo seleccionado., y activa el 
+Próxima maniobra del instructor en Misiones de entrenamiento.
+
+Controles de aeronaves
+
+Familiaridad con los controles de cabina tanto del F-16 Falcon como del F/A-18. 
+Hornet es importante para el piloto del Interceptor F/A-18. Características destacadas de 
+la cabina son el sistema HUD (heads up display), el radar y las armas
+ y los indicadores de combustible, altitud y velocidad del aire. El HUD, que 
+aparece en el dosel sobre el panel de control, incluye un designador de objetivo,
+retícula de apuntamiento de misiles, línea de puntería del arma, indicador de selección de arma, objetivo-
+dentro del alcance, bloqueo del objetivo y un medidor G (medición de carga). Consulte el 
+Ilustraciones del HUD en la página 10 para familiarizarse con estas funciones. 
+
+Nota: Consulte las ilustraciones del panel de control de la cabina y el 
+teclado al revisar esta lista de controles:
+
+  F1 - F10 ---------- Empuje. Controle el acelerador en incrementos del 10%.
+                      Nota: Al presionar F1 dos veces se apaga el motor si 
+                      están en ajustes superiores al 10%. Al presionar F10 dos veces se enciende
+                      el postquemador si está al 100% del acelerador.
+
+   = clave ----------- Empuje. Aumenta el acelerador en un paso. 
+   - tecla ------------ Empuje. Disminuye el acelerador en un paso.
+
+
+                                -3-
+
+==============================================================================
+
+ RETROCESO ---------- Frenos. Coloca frenos de velocidad o frenos de tierra. 
+                      (dependiendo de su ubicación). El indicador "Frenos"
+                      en el lado izquierdo del panel de control se ilumina cuando colocas
+                      los frenos puestos.
+
+      , ------------ Control de timón. Timón izquierdo, gira a la izquierda ("piña").
+      .  ------------ Control de timón. Timón a la derecha, gira a la derecha ("piña").
+ Teclas de cursor -------- Movimiento de aeronaves. La flecha ARRIBA inclina el ose hacia abajo, 
+                      la flecha hacia abajo inclina la nariz hacia ARRIBA, la flecha hacia la IZQUIERDA 
+                      lo hace girar hacia la izquierda y la flecha DERECHA lo hace hacia la derecha.
+      G ------------ Engranaje. Sube o baja el tren de aterrizaje.
+Un ------------ Gancho de detención. Extiende el gancho de detención en el F/A-18 para
+                      aterrizajes de portaaviones.
+      H ------------ HUD. Enciende/apaga la pantalla HUD. Todas las pantallas excepto esa 
+                      para un arma seleccionada desaparecen cuando desactivas el
+                      HUD, y regresará cuando lo vuelva a seleccionar.
+      J ------------ Bloqueador del ECM. Activa el ECM (contramedidas electrónicas)
+                      encendido/apagado. "ECM" en el panel lateral derecho se ilumina cuando
+                      lo seleccionas.
+      C ------------ Paja. Dispensa paja que florece rápidamente para bloquear a un enemigo.
+                      sistema de vigilancia de la aeronave, así como radares
+                      misiles guiados.
+      F ------------ Llamarada. Dispensa una llamarada infrarroja para extraer imágenes guiadas por IR.
+                      misil lejos de su avión.
+      M ------------ Mapa. Muestra el mapa del espacio aéreo y su ubicación en el 
+                      HSI (indicador de situación horizontal).
+      R ------------ Rango. Controla la resolución del radar (2, 10 o 40 millas).
+      T ------------ Selección de objetivo. Selecciona el contacto del radar como objetivo.
+                      Alternar entre los objetivos disponibles presionando T 
+                      repetidamente.
+   VOLVER ---------- Selección de arma. Presione repetidamente para alternar entre 
+                      armas disponibles. El arma seleccionada está resaltada. 
+                      por una barra roja en la ventana de armas en el panel de control.
+ BARRA ESPACIADORA --------- Dispara un arma. Dispara un arma activa al objetivo seleccionado.
+  Shift-F ---------- Dispensa cápsulas de rescate. Libera cápsulas de rescate en algunos
+                      misiones.
+  Mayús-E ---------- Expulsar. Pulsa para expulsar de un avión condenado.
+
+
+                                   -4-
+
+==============================================================================
+
+-Controles de simulación-
+       P ----------- Activar/desactivar pausa.
+    ESCAPAR ---------- Reiniciar misión. Le devuelve al inicio de la corriente. 
+                      misión.
+  Shift-Escape ----- Salir de la misión actual. Te regresa a Mission Select
+                      pantalla.
+
+-Ver controles-
+  Keypad Enter ------ Cambia el modo de visualización desde la perspectiva de primera persona
+                      desde el interior de la cabina hasta la perspectiva exterior en tercera persona
+                      cabina; presione ENTER nuevamente para volver a ingresar a la cabina. prensa
+                      ENTER para saltar a través del "zoom down" que sigue
+                      su selección de cualquiera de los escenarios; tu irás
+                      Directo a la cabina. 
+   Shift-Enter ----- Te lleva a la torre de control más cercana a tu inicio. 
+                      ubicación.
+     [ ]  ----------- Zoom. El corchete izquierdo se aleja y el derecho se acerca.
+
+-Las siguientes teclas del teclado numérico funcionan cuando su vista es desde 
+DENTRO del avión:-
+      4 ------------ Mueve la cabeza hacia la izquierda.
+      6 ------------ Mueve la cabeza hacia la derecha. 
+      5 ------------ Bloquea tu cabeza en la posición actual.
+      2 ------------ Gira la cabeza para ver hacia atrás (comprueba 
+                      su "6").
+      1 ------------ Vista recta.
+      7 ------------ Vista directa.
+      8 ------------ Lo regresa a la vista hacia adelante (atajo).
+
+  Nota: El programa lo regresa automáticamente a la vista frontal después de 4 
+segundos. Para evitar esto, presione 5 (ver arriba) para permanecer en el modo piloto. 
+modo de visualización que haya seleccionado.
+
+Cuando presiona ENTER, el teclado numérico del modo de visualización permanece inoperativo. ¿Cómo?
+Sin embargo, la visión que ofrece cada número es la posición del espectador fuera del 
+avión. Desplácese por los números en el teclado para ver su avión en
+vuelo desde los diferentes ángulos posibles, luego presione ENTER nuevamente para regresar 
+a la vista de la cabina.  Nota: Además de las 7 claves mencionadas anteriormente, el
+Las teclas 3 y 9 están operativas cuando ves el avión desde el exterior. 
+vistas (la tecla 5 ahora le muestra una vista del avión directamente desde arriba).
+Además, el punto decimal le ofrece una vista debajo del plano.
+-5-
+
+==============================================================================
+
+-ECM (Contramedidas Electrónicas)-
+
+Puedes usar ECM para ensuciar el radar de un enemigo, evitar la detección y desviar un 
+ataque entrante. ECM tiene una forma activa, como interferir con el radar del enemigo.
+electrónicamente, y una forma pasiva, como dejar caer paja, compuesta de pequeños 
+longitudes de alambre o lámina. Chaff actúa como un señuelo de señal, confundiendo al rastreador. 
+radares. --- incluso provocando que el misil guíe el objetivo equivocado. cuando un piloto 
+enfrenta un ataque inminente, a menudo empleará ECM y realizará una maniobra evasiva.
+maniobrar simultáneamente.
+
+Tanto el F-16 como el F/A-18 Hornet están equipados con módulos ECM estándar. hay 
+un indicador del ECM en el lado derecho del panel de la cabina. esta resaltado
+en amarillo cuando su módulo ECM está activo. El uso del ECM reduce el alcance y
+efectividad de los misiles enemigos, pero también proporciona un faro para tu actual
+posición.
+
+
+-Armas disponibles-
+
+Cada avión cuenta con misiles de mediano y corto alcance, además de un misil de corto alcance.
+cañón. El AIM-120A AMRAAM es el misil de alcance medio de cada avión; eso
+Es un arma de alta precisión para "disparar y olvidar". El AMRAAM tiene una eficaz
+alcance de más de 30 millas; Su sistema de guía lo mantiene en una posición inercial y con correa.
+rumbo hasta que se acerque al objetivo. Entonces el AMRAAM activa una pequeña
+buscador activo en su nariz mientras se dirige al objetivo.
+
+El misil de corto alcance disponible para el piloto del Interceptor F/A-18 es el 
+Misil antiaéreo AIM-9L Sidewinder. El Sidewinder tiene un alcance de 11 
+millas y alcanza una velocidad de Mach 3. Un piloto que maniobra a 6 g todavía puede 
+lanza un Sidewinder hacia su objetivo; El Sidewinder se puede soltar cuando
+la nave de ataque está tan cerca como 1000 pies. El AIM-9 funciona mejor cuando está 
+lanzado desde atrás con un postquemador brillante, pero su "todo ángulo"
+La capacidad también permite el lanzamiento a objetivos frontales.
+
+El cañón de corto alcance es el GE-M61, un cañón de 20 mm que dispara 570 balas a
+6000 disparos por minuto. En la era moderna, un arma de corto alcance es lo más valioso.
+en medio de una pelea de perros a corta distancia.
+
+
+-Vuelo-
+
+Ahora que ha completado su breve revisión de cada avión, está listo
+a solo. Su punto de partida es siempre la pantalla de selección de misión, donde
+usted elige la opción de vuelo adecuada para usted. Seleccionar demostración 
+Vuelo y familiarízate con la mecánica básica del vuelo desde un 
+punto de vista del pasajero, y algunos de los hitos clave de San Francisco.
+área de la bahía de cisco.
+
+                                     -6-
+
+==============================================================================
+
+Seleccione Vuelo libre varias veces si es principiante para tener una idea del 
+aviones, luego seleccione Entrenamiento: Demostración de maniobras, para familiarizarse con
+las maniobras básicas de combate. Practicar las maniobras detrás de un experto
+instructor que vuela un F-16, seleccione Entrenamiento: Practicar maniobras y vaya 
+a través de las maniobras (las descripciones de cada una se encuentran a continuación). Seleccionar
+Calificación para calificar para el combate; ahora pase al Siguiente Activo Avanzado
+Misión, donde te envían en estado activo para enfrentarte a uno de los seis 
+misiones. A medida que los completes, podrás revivir glorias pasadas seleccionando un
+misión previamente completada en Misiones Seleccionables.
+
+
+-Vuelo de demostración-
+
+Después de seleccionar el vuelo de demostración (ingrese 1 en Selección de misión 
+pantalla), se acerca el operador Enterprise (CVN 65). Miras como el 
+El caballo de batalla de la Marina despega desde la cubierta del portaaviones, con sus postquemadores
+encendido. Cuando seleccionas la demostración, no puedes tomar el control del avión. el
+La demostración le ofrece una breve muestra del vuelo y luego aterriza en Alameda Naval Air.
+Estación. La demostración se repite; para salir a Selección de misión, presione Shift-Escape.
+Cuando estés listo para tomar el control del avión, pasa a Vuelo Libre.
+
+                                      -7-
+
+=============================================================================
+
+>>> las páginas 8, 9 y 10 son fotografías de los jets y las pantallas HUD. Para el HUD
+muestra, o al menos, facsímiles toscos, consulte el final de este archivo doc. <<<
+
+=============================================================================
+-Vuelo libre, sin confrontación enemiga-
+
+Vuelo libre, sin confrontación enemiga es la oportunidad perfecta para convertirse
+familiarizado con las habilidades de vuelo que construyen la base de un piloto de combate
+experiencia. Una vez que seleccione Free Fligt, seleccione su ubicación de inicio 
+eligiendo entre San Francisco Internacional (1), Alameda Naval Air
+Estación (2), Estación aérea naval de Moffett Field (3) y un portaaviones 
+frente a la costa de San Francisco (4). Eliges volar el F/A-18
+Hornet o el F-16 Falcon (si seleccionas el portaaviones como ubicación de inicio)
+se le asigna un F/A-18 automáticamente). Observe cómo la vista se acerca a su 
+avión en posición de despegue, luego verifique su panel de control y verifique que
+todos los sistemas están "en funcionamiento". Para despegar, simplemente presione F10 para aumentar el acelerador.
+al "poder militar". Una vez que su velocidad alcance los 200 nudos, tire hacia atrás del
+palanca de mando para despegar.
+
+En Free Flight, no te enfrentas a enemigos y no tienes objetivos aéreos a los que apuntar;
+sin embargo, puedes explorar las posibilidades de vuelo, practicar despegues,
+y familiarizarse con los sistemas de control y las características de vuelo.
+de su avión. Free Flight también te permite escuchar los sonidos del vuelo.
+el rugido del despegue al acelerar, el chirrido del tren de aterrizaje al acelerar
+Se levanta, la patada del vuelo supersónico al encender los postquemadores.
+
+Nota: Si te estrellaras en cualquiera de las misiones del Interceptor F/A-18, estás 
+Regresó a su posición inicial, en posición de despegar nuevamente. Sin embargo,
+Si estás inscrito en un Tour of Duty, fallar significa que no obtendrás la misión
+crédito de finalización en su registro de vuelo (consulte Su registro de vuelo actual, a continuación).
+
+
+-Entrenamiento: Demostración de Maniobras-
+
+En Entrenamiento: Demostración de Maniobras, viajas como pasajero, como vuelo 
+El instructor realiza una secuencia de maniobras de vuelo básicas. Después de seleccionar
+la demostración de entrenamiento desde la pantalla de selección de misión, estarás en el aire, 
+Listo para presenciar la primera de siete maniobras. El piloto vuela al 80% de empuje.
+durante toda la demostración; puede ascender a altitudes superiores a los 14.000 pies y volar como
+rápido como 650 nudos.
+
+Como pasajero, no tienes control del avión. Sin embargo, para omitir cualquier 
+maniobra, o para interrumpir una maniobra en curso y seleccionar la siguiente en
+secuencia, presione RETORNO. Una vez completada la secuencia de maniobras (ver 
+Entrenamiento: Maniobras de práctica para obtener una lista completa de las maniobras), le 
+repita automáticamente hasta que salga de la demostración. Aprovecha la formación
+demostración; te da una ventaja cuando realizas las maniobras tú mismo en el entrenamiento:
+Practica maniobras. Para salir y regresar a la pantalla de selección de misión, 
+presione Mayús-Escape.
+
+                                 -11-
+
+=============================================================================
+
+-Entrenamiento: Práctica de Maniobras-
+
+En este escenario, las maniobras son las mismas que en Entrenamiento: Demostración de 
+Maniobras y las realizas en el mismo orden. Una vez que selecciones esto
+En este escenario, comienzas alineado en la pista, detrás del avión del instructor. 
+Te esperará para comenzar su despegue. Acelere al 80% de empuje; cuando 
+Llegas a 200 nudos y despegas. Intenta permanecer a la vista del instructor.
+mientras se coloca en posición para la primera maniobra. Sigue al instructor, 
+y realice cada maniobra en secuencia como él lo hace. Si pierdes al instructor
+Una vez que comience a realizar sus maniobras, podrás reposicionarte.
+detrás de su avión presionando RETURN (una vez que esté reposicionado, asegúrese de 
+te mantienes dentro del alcance del instructor sin adelantarlo).
+
+Utiliza tu experiencia en Entrenamiento: Demostración de Maniobras, y sigue al instructor
+mientras gira o rueda, se rompe o vuela invertido. Si una maniobra particular es 
+demasiado difícil, siempre puedes activar la siguiente maniobra automáticamente. hacer
+Asegúrese de estar alineado a la vista del avión principal, luego presione el joystick
+Botón cuando la instrucción para disparar aparece en la parte inferior de la cabina.
+panel. El instructor ejecuta la maniobra y tú intentas seguir el ritmo. saltar
+una maniobra, presione RETORNO; dejar un rastro de humo detrás del instructor 
+avión, presione S. Al igual que en Entrenamiento: Demostración de maniobras, las maniobras se repiten
+automáticamente hasta que salga. Presione Shift-Escape para regresar a la Misión 
+Selección.
+
+Lo que sigue son descripciones detalladas de las 7 maniobras que practicas en
+Formación:
+
+-El giro de alerón: Para realizar un giro de alerón, empuja la palanca hacia un lado.
+El avión gira y su morro describe un círculo en el horizonte. en
+combate, use rollos para posicionarse para "levantarse" a través de ascensos, inmersiones y 
+vueltas.
+
+-El turno de ruptura: use el turno de ruptura cuando vea al atacante acercarse por primera vez.
+ing cuando estás en el "cono de vulnerabilidad" del enemigo. Para ejecutar, romper
+fuerte EN LA DIRECCIÓN DEL ATAQUE, vuela con el ala apuntando al suelo
+, luego enderezate. Quiere generar un "ángulo de salida" y arruinar el 
+ángulo del agresor, haciéndolo sobrepasarse.
+
+-El bucle interior: en un bucle interior, te levantas rápidamente y llegas hasta el final. 
+terminado. Tu cabeza mira hacia el centro del bucle, mientras tiras de g positivas.
+
+Es un poco como un salto mortal aéreo hacia atrás. Realice un bucle interior para 
+Intercambia posiciones con un oponente que esté cerca.
+
+-Split-S: En la maniobra Split-S, el defensor rueda invertido y luego se lanza
+hacia afuera verticalmente, tirando hacia afuera en la dirección opuesta. de su oponente. 
+La idea es obligar al atacante a sobrepasarse, posicionándose para una 
+reversión, mientras destruye el ángulo de ataque del oponente.
+
+                                  -12-
+
+==============================================================================
+
+-Medio bucle vertical: en esta maniobra, tiras hacia atrás de la palanca, llegas al
+parte superior del bucle, luego vuela horizontalmente en vuelo invertido. Ahora rueda tu 
+avión en posición vertical. También conocido como Immelman, el medio bucle le permite ganar 
+altitud y direcciones inversas.
+
+-Barrel Roll: En el Barrel Roll, el defensor primero se rompe y luego rueda hacia adentro.
+la dirección opuesta a la ruptura. El torbellino implica la pérdida de mucho 
+velocidad; Funciona mejor cuando el atacante está en un ángulo alto y adelantando alto.
+situación. Si ejecutas esta maniobra correctamente, el oponente debería sobrevolar
+usted.
+
+-Vuelo Invertido: El Vuelo Invertido es una parte básica de varios vuelos 
+maniobras; para lograrlo, tira del palo hacia atrás hasta que estés boca abajo,
+Mantén tu dirección y luego vuela invertido. Trate de mantener el vuelo nivelado.
+
+
+
+-Calificación-
+
+Cuando hayas completado tu formación y orientación, elige Cualificación
+en la pantalla de selección de misión. Rápidamente escuchas el rugido de los F/A-18.
+potentes motores y observe desde la cabina del Hornet el Enterprise.
+cubierta y el océano más allá. Lea las instrucciones en pantalla para calificar.
+
+En Calificación, deberás despegar con éxito desde la cubierta del portaaviones, 
+vuele y luego regrese para aterrizar de manera segura en la cubierta del portaaviones. deberías ser
+preparado para oponentes potenciales en los cielos del Pacífico; tus enemigos son 
+indiferente a vuestra misión y os acosarán impunemente. Tratar con 
+fantasmas si aparecen, luego encuentra el camino de regreso al portaaviones. Orientarse 
+en el barco, reduzca su velocidad a 175 nudos, baje su altitud y mantenga 
+abajo en la cabina de vuelo. Dirígete hacia el lado donde los ganchos están más cerca.
+a su avión. Pise los frenos, baje el tren de aterrizaje y luego presione el 
+cables se detengan por completo. 
+
+Una vez que pase la Calificación, será elegible para el servicio activo (un mensaje 
+aparece en pantalla confirmando tu avance al estado de combate activo).
+
+Escape te reposiciona en la cubierta del portaaviones; Shift-Escape te envía de regreso a 
+Selección de misión.
+
+
+
+-Próxima Misión Avanzada Activa-
+
+Cuando seleccionas Próxima misión avanzada activa, asumes el desafío de 
+varias misiones de combate contra los invasores. Cada misión tiene un específico 
+tarea para que usted la ejecute (consulte las descripciones de las 4 misiones a continuación). A
+tener éxito en la próxima misión avanzada activa, debes estar versado en todas las fases de 
+Combate: volar el avión, detectar al enemigo y evitar la detección. 
+través de medidas electrónicas y visuales, acercándose al ataque, seleccionando
+y preparar sus sistemas de armas, intentar matar y luego maniobrar
+para retirarse del combate.
+
+                                    -13-
+
+=============================================================================
+
+Nota: Las luces de advertencia en la esquina superior derecha del panel de la cabina parpadean
+estos diferentes colores cuando se presentan las siguientes situaciones:
+
+  1. Un avión amigo en el área es VERDE.
+  2. Un enemigo en el área es ROJO.
+  3. Una advertencia de pérdida es ROJA.
+  4. Un misil RH que te disparan es BLANCO.
+  5. Un misil IR que te disparan es BLANCO.
+
+Además, aparece un mensaje explicativo en la parte inferior del control. 
+panel para cada "evento".
+
+
+-Confirmación visual-
+En esta primera misión de combate, despegas desde el aeropuerto internacional de San Francisco.
+en un F-16 Falcon o un F/A-18 Hornet. Su tarea es encontrar y 
+Identifique una aeronave (¡está en algún lugar por ahí!), luego regrese a SFO 
+ileso. El avión que debes identificar puede ser un amigo o un 
+enemigo. En la confirmación visual, te enfrentas a algún peligro de ataque. Todo tu 
+Los sistemas de armas están operativos, así que arma tus armas si ves un fantasma. 
+Dispara sólo si te disparan. Si puedes evitar un combate cuerpo a cuerpo, estarás mejor. un 
+Un mensaje en pantalla le permite saber cuándo ha completado su tarea. cabeza
+a casa y deja tu avión en una sola pieza.
+
+-Operación de Defensa de Emergencia-
+Cuando completes la confirmación visual, estarás listo para volar en defensa de emergencia.
+Operación. Vuelas un F/A-18 Hornet desde la cubierta del portaaviones anclado
+frente a la costa de San Francisco. Su misión es clara y convincente: "Nosotros
+tener aviones hostiles en su sector. El Air Force One está actualmente en curso 
+a la OFS." Eso significa que el Comandante en Jefe desconoce el intento de 
+asesinarlo y comprometer fatalmente la seguridad de Estados Unidos. En este protector 
+situación, debes interceptar y ocupar los aviones agresores, permitiendo
+Tiempo del piloto del Air Force One para aterrizar de forma segura en SFO (un mensaje en pantalla informa
+usted cuando el avión del Presidente está caído). Corre hasta el lugar del ataque, 
+desviar o destruir al enemigo y regresar al portaaviones para aterrizar. Emergencia
+La Operación de Defensa es el desafío de la más alta magnitud para un piloto de combate:
+incluyendo la capacidad de ganar posición de ataque, superar a tu oponente,
+y superarlo en armas si es necesario.
+
+-Interceptar aviones robados-
+Dos F-16 Falcon de la Fuerza Aérea de los EE. UU. han desertado al lado enemigo, 
+ayudados en su fuga por un par de escoltas no identificados. Tu tarea es
+para despegar del portaaviones, encontrar a los posibles desertores y sus compañeros.
+conspiradores y lidiar con los aviones enemigos de la manera más convincente.
+posible. Vuela delante de los aspirantes a Benedict Arnold para informarles que
+el juego ha terminado. Si acceden a regresar a casa, acompáñelos hasta allí; si ellos 
+desobedecer tu señal de rendición, impedir a toda costa su huida.
+
+                                   -14-
+
+==============================================================================
+
+-Operación de Búsqueda y Rescate-
+En la Operación de búsqueda y rescate intentas encontrar y rescatar a un amigo caído.
+piloto. Despegue del portaaviones Enterprise y encuentre al piloto perdido, usando
+radar y los agudos ojos de su piloto. Una vez más, los aviones enemigos intentan impedir el
+ejecución de su misión. Después de localizar el volante derribado, debes
+desplegar la cápsula de rescate dentro de su alcance. Un mensaje le informa si la caída
+tuvo éxito. Una vez que el piloto derribado esté a salvo, su trabajo estará hecho: regrese a
+el transportista y la seguridad.
+
+
+-Misiones seleccionables-
+Elija misiones seleccionables después de volar la próxima misión avanzada. podrás
+para seleccionar cualquiera de las misiones que completaste en Next Active Advanced
+Misión, y una más. Cada vez que completas una misión en Seleccionable
+Misiones, se te ofrece un nuevo escenario para seleccionar entre las Misiones seleccionables. 
+pantalla. A medida que despegas en cada misión, toda tu instrumentación
+y las armas están operativas; Su avión está en espera, así que abróchese el cinturón.
+Ponte el traje G y sube a bordo. Vuela misiones seleccionables para practicar el combate.
+escenarios antes de regresar al combate en estado activo.
+
+Nota: Hay otras misiones seleccionables, que no describiremos aquí.
+Una vez que hayas completado con éxito una misión activa, podrás repetirla.
+Sin embargo, la segunda vez, es posible que tengas que enfrentarte a una situación más difícil. 
+variedad de pilotos opuestos.
+
+
+
+-Su registro de vuelo actual-
+Su registro de vuelo actual le permite ver su progreso cuando se inscribe en un 
+Tour of Duty (no debes habilitar escritura en tu disco antes de inscribirte). Seleccionar
+Su registro de vuelo actual desde la pantalla de selección de misión; ves un 
+resumen que incluye lo siguiente:
+
+  1. Comenzó la misión total.
+  2. Misiones completadas con éxito.
+  3. Cantidad de armas disparadas y de impactos logrados.
+  4. Tiempo de vuelo acumulado.
+  5. Número total de accidentes: no incluye expulsiones.
+  6. Impactos sufridos por misiles enemigos.
+
+Después de cada misión que completes, tu registro de vuelo se actualiza. para guardar el 
+actualizar en su disco, presione "1". Cualquier misión que hayas completado cuenta para 
+su crédito; por ejemplo, si ha completado los dos primeros seleccionables
+Misiones, puedes comenzar la tercera cuando quieras. A medida que vuelas más misiones, 
+Continuará actualizando el registro de vuelo y realizando un seguimiento de su progreso.
+durante todo el juego.
+
+                                    -15-
+
+==============================================================================
+
+Si desea restablecer el Registro de vuelo y mantener las estadísticas desde cero, presione
+Mayús-2. Esto borra el registro actual y establece las estadísticas en 0. Cuando reinicia 
+En el Registro de vuelo, borras el crédito por cualquier misión completada. Recuerda
+introduzca un nuevo indicativo.
+
+Nota: deberás volver a calificar para volar misiones.
+
+Para salir del registro de vuelo y regresar a la selección de misión, presione Escape.
+
+
+
+--Consejos de un veterano de combate--
+
+Aprender el funcionamiento de los cazas modernos de hoy es un elemento clave del
+arte del piloto. Necesita saber dónde están todos los controles al tacto, pero más
+que eso, necesita abordar su avión como la maravilla del sector aeroespacial.
+tecnología que es. Sus aviones F/A-18 Interceptor y F-16 Falcon están
+lo mejor que la Armada y la Fuerza Aérea pueden poner en el aire. ellos son los
+resultados de miles de horas de diseño e ingeniería, y se mantienen en
+en óptimas condiciones gracias al cuidadoso mantenimiento del personal de tierra. En tus manos, el F-16
+y el F/A-18 se convierten en instrumentos precisos, y el piloto entrenado emerge
+como cirujano del cielo.
+
+El arte del vuelo de combate es una combinación de habilidades. La experiencia es cualquier piloto.
+mejor maestro: no hay sustituto para las largas horas dedicadas a perfeccionar los conceptos básicos
+maniobras de vuelo, los principios del ataque y la retirada exitosa.
+Las cualidades que debe tener un top gun son coraje, determinación, aceptación.
+peligro y una fe mesurada en su capacidad para realizar el trabajo sin
+fanfarria. Un alarde llamativo tiene garantizado uno de dos resultados: un rápido
+viaje al más allá, o mucha práctica separándose de las líneas de
+su rampa de vuelo después de una vertiginosa caída a la tierra.
+
+Un piloto sólido desarrolla habilidades de vuelo por etapas, asumiendo los desafíos correctos. 
+en el momento adecuado: hacerlo de manera inteligente, no fácil. Eso significa formación graduada, 
+pasar de Vuelo libre a Entrenamiento, luego a Calificación y luego Seleccionable
+Misiones y, finalmente, Próxima misión avanzada activa. Él aplica lo básico
+principios como lograr sorpresa, detección, obtener un ataque superior
+posición, cierre y uso de armas en un ataque. Un piloto inteligente construye un 
+buena variedad de maniobras en su repertorio, practicando cada una hasta que sea
+segunda naturaleza. Una preparación cuidadosa ayuda a inculcar una actitud tranquila y ganadora en
+el más acalorado de los encuentros aéreos.
+
+¡Bienvenidos a la fraternidad de pilotos de combate!
+
+                                    -16-
+=============================================================================
+
+                 Apéndice A - Especificaciones de la aeronave
+
+El General Dynamics F-16 Fighting Falcon es un vehículo ligero y de última generación.
+Caza de combate multifunción con capacidad avanzada de ataque terrestre. el
+El F-16 es un avión monoplaza con una sola cola vertical, montado en el medio.
+tailerons y alas, flaps de borde de ataque y flaperones de borde de salida.
+
+Motor: El F-16 tiene un único motor Pratt and Whitney F100-PW-100 con
+        23,830 libras. de empuje.
+
+Dimensiones: El avión tiene una envergadura de 31 pies y una longitud de 47 pies.
+
+Peso: 16,794 libras. cuando está vacío, y 37,500 lbs. con el peso máximo de despegue.
+
+Navegación: El sistema de navegación principal del F-16 es un Singer-Kearfott SKN-
+            2400 INS con un módulo ECM ALQ-131 estándar
+
+Radar: Su capacidad de radar incluye un conjunto de pulso-doppler de banda I/J, con 
+       escalas de alcance de 2, 10 o 40 millas. La capacidad de observación hacia abajo del Falcon 
+       permite la detección de objetivos de combate a más de 30 millas, incluido el árbol
+       objetivos principales.
+
+Artillería: El F-16 puede transportar una carga de arma de hasta 20,450 libras. con 2 cortos
+          alcance Misiles buscadores de calor Sidewinder con un alcance de 11 millas, 
+          4 misiles AMRAAM de medio alcance con un alcance de 30 millas y un 
+          Cañón GE M61 A-1 montado internamente capaz de disparar 500 rondas de
+          proyectiles perforantes a un alcance máximo de 500 metros, el
+          El F-16 es un arma de defensa elegante y mortal.
+
+Velocidad: El Falcon puede alcanzar una velocidad máxima de aproximadamente 1350 mph (Mach 2,05)
+       a 40.000 pies; al nivel del mar, el F-16 alcanza una velocidad de alrededor de 915 
+       mph (Mach 1,2).
+
+Radio de combate: el radio de combate táctico del Falcon con máximo combustible interno.  
+               son 340 millas.
+
+Alcance del ferry: el alcance del ferry del caza es de 2415 millas.
+
+El piloto de combate tiene asegurado un viaje silencioso y un comportamiento excepcional en todos los sentidos.
+vista de la cabina cuando saca el Falcon a dar un paseo. Los puntos de control son
+Pedal y controlador de palanca lateral con sensor de fuerza, ambos posicionados para máxima
+efectividad. El tamaño y el alcance del F-16 Falcon garantizan la máxima
+desempeño en varias áreas de combate.
+
+                                -18-
+
+===========================================================================
+
+
+El McDonell Douglas/Northrop F/A-18 Hornet, con base en portaaviones, es un arma de la Marina de los EE.UU.
+caballo de batalla, que realiza funciones tanto de combate como de ataque. Diseñado como un 
+reemplazo del atemporal F-4 Phantom II y el versátil A7 Corsair,
+El F/A-18 ha satisfecho una necesidad estratégica crítica en el arsenal de combate de la Armada.
+
+Motor: El Hornet está propulsado por dos motores GE F404-6E 400, cada uno de los cuales
+        Genera 16000 libras de empuje.
+
+Dimensiones: Se extiende por 37 1/2 pies, sin misiles, y más de 40 pies con
+            misiles.
+
+Peso: El F/A-18 pesa 23050 lbs vacío y 36710 lbs cuando está cargado durante un
+        misión de combate.
+
+Radar: capacidades de búsqueda y definición, bloqueo y pases múltiples.
+
+Artillería: Hay 9 estaciones de armas externas en el avión, más 4 medianas.
+          misiles AMRAAM de alcance, 2 misiles Sidewinder de corto alcance y un 
+          Cañón GE M61 (20 mm) que dispara hasta 570 balas.
+
+Velocidad: El F/A-18 puede alcanzar una velocidad máxima (limpia) de 1190 mph, o Mach 1.8,
+       y mantendrá un techo de maniobra de combate de más de 40.000 pies.
+
+Radio de combate: el radio de combate aire-aire del Hornet (sin combustible externo)
+               se extiende a 461 millas.
+
+                                      -19-
+
+=============================================================================
+
+
+=============================================================================
+
+                           Pantalla HUD F/A-18
+
+
+                     marcador de alcance con retícula de puntería         
+                               \
+                                \ brújula
+                      -----------\---|---------------
+                      |           \ / \ |
+objetivo |  ___ \ / \ <------ buscador de misiles bloqueado
+  designador ----------> | |         Q \ / |
+                      |  --- \ / /\ <------- buscador de misiles |          -- -- \/ |
+                      |            _ _ \/ |       buscando
+                      |            alas |
+     velocidad aérea --------->340 145 <------altitud
+                      |  kt pies |
+      Fuerza "G" ------->6.0G |
+                      | AM 4 0812 <------ cierre de objetivo
+                      -/------------------------------ velocidad
+                      /
+    arma seleccionada y
+      número restante
+
+
+
+=============================================================================
+
+                              Pantalla HUD F-16
+
+                    (igual que F/A-18 excepto como se muestra a continuación)
+
+
+
+                                  brújula
+                      ---------------|------------------
+ Fuerza "G" ----------> 2.4 |
+                      |                             - |
+                      | - - |
+                      | - - <-----altitud
+    velocidad del aire ---------> - - |
+                      | - - |
+                      | - - |
+                      |                                |
+                      |                                |
+                      |                                |
+                      |                                |
+                      |                                |
+                      ----------------------------------
+
+
+=============================================================================

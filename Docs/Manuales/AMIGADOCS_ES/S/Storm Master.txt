@@ -1,0 +1,806 @@
+_________________________________________________________________________
+/##########################################################################\
+|#####...####..######..######......####...####..#####..##......##......###|
+|####.....###..######..########..#####.....###...####..##..######..#######|
+|###..###..##..######..########..####..###..##....###..##..######..#######|
+|###..###..##..######..########..####..###..##..#...#..##..######......###|
+|###....##..######..########..####.......##..##.....##..######..#######|
+|###..###..##..######..########..####..###..##..###....##..######..#######|
+|###..###..##...#####...#######..####..###..##..####...##..######..#######|
+|###..###..##......##......##......##..###..##..#####..##......##......###|
+|##########################################################################|
+|######################################################################{RB}#|
+|===========================================================================|
+|									  |
+|		           ----> PRESENTA <---- |
+|									  |
+|  			  MAESTRO DE TORMENTA - 100% DOCUMENTOS |
+|									  |
+|		      TIPO Y EDITADO POR: RAZOR BLADE |
+|  									  |
+|________________________________________________________________________|
+
+
+
+
+
+			  MAESTRO DE LA TORMENTA
+
+			  MANUAL DEL USUARIO
+
+		       TABLA DE CONTENIDO
+
+DATOS TÉCNICOS 4
+ESCENARIO/OPCIONES 5
+MENÚ PRINCIPAL 6
+EL MAESTRO MOLINERO 7
+EL ECLESIASTA 8
+EL ALTO CONSTABLE, EL COMODÍN, EL INQUISIDOR 9 
+EL LEONARDO 10-11
+EL COMANDANTE 12-14
+
+Diseño del juego: André ROCOUES
+	       Luis María ROCQUES
+
+Arte y diseño gráfico: Jean-Christophe CHARTER
+			Pascal EINSWEILER
+
+Música: Fabrice HAUTECLOQUE
+
+
+
+			DATOS TÉCNICOS
+			===============
+
+INICIO DEL JUEGO:
+
+- ATARI, AMIGA: Inserta el disco del juego en la unidad y gira
+		en tu computadora.
+
+- PC: en el indicador de MS-DOS, inserte el disco A en la unidad A y escriba
+      TORMENTA.
+
+USUARIOS DE PC:
+
+- INSTALACIÓN DEL DISCO DURO:
+Cree un subdirectorio y copie todos los archivos de los discos del juego que se encuentran dentro. 
+este subdirectorio. Al iniciar el juego desde tu disco duro, deja el disco A 
+en la unidad A. El programa debe verificar la protección en su disco original.
+
+- SOLUCIÓN DE PROBLEMAS ESPECÍFICOS DE PC:
+
+* El programa se detiene mientras se carga: Su MS-DOS instala algo de memoria residente
+  utilidades. Estos programas TSR pueden ocupar demasiado espacio en la memoria.
+
+* El programa se detiene mientras se reproducen sonidos PCM digitalizados: Tipo STORM S
+  en lugar de TORMENTA para iniciar el juego. Esto cancela los sonidos PCM.
+  reproducción.
+
+* Problemas con el joystick: escribe STORM J en lugar de STORM para iniciar el juego.
+
+* Problemas con el mouse: escribe STORM M en lugar de STORM para iniciar el juego.
+
+SI TU ATARI TIENE UNA UNIDAD DE UNA SOLA CARA:
+---------------------------------------
+Envíe el disco de doble cara por correo; le devolveremos dos de una sola cara. 
+discos.
+
+PARA SALIR DEL JUEGO: Presiona Control X.
+
+PARA PAUSAR EL JUEGO: Pulsa ESC.
+
+
+COMANDOS:
+=========
+Controlas el juego con el ratón. Normalmente, el botón izquierdo se utiliza para 
+seleccione y confirme una opción. El botón derecho tiene dos funciones: se utiliza 
+cancelar una opción seleccionada o leer información sobre un lugar (punto 
+seleccionado en el mapa).
+
+Si usas el TECLADO, te mueves con el teclado numérico (números del 1 al 9).
+Para moverse por bloques, presione Control + (número). Las teclas RETORNO y MAYÚS 
+reemplaza el botón izquierdo del mouse (seleccionar y confirmar) y la BARRA ESPACIADORA actúa 
+como el botón derecho (Cancelar o Infos).
+
+Si utilizas el JOYSTICK, muévete con naturalidad en las ocho direcciones posibles. 
+Selecciona y confirma opciones con el botón de disparo. Para obtener información o cancelar una 
+opción, presione la barra espaciadora.
+
+
+			INTRODUCCIÓN
+ 			=============
+
+Eolia y Sharkaania son islas gemelas, ubicadas en Urgaa, un extraño planeta. 
+donde los vientos son los dueños de la armonía natural.
+
+Las dinastías de ambas islas han estado luchando sin piedad desde las nieblas. 
+de tiempos. El motivo de esta interminable batalla ha sido olvidado hace mucho tiempo. 
+hace...
+
+Una vez más, el Gran Magister de Eolia ha sido asesinado por los Sharkaanianos 
+mercenarios.
+Has sido designado por el Consejo de los Siete, formado por los siete principales 
+gobernadores del país, para llevar a cabo su tarea. El destino y el 
+El tesoro de un reino desperdiciado se encuentra en la palma de tus manos... TU META es 
+para saquear y destruir las siete ciudades enemigas, provocando la caída de 
+Sharkaania. ¡¡Cuidado, ellos también están tratando de destruirte!!
+
+
+			NOCIONES GENERALES
+			================
+
+Eolia y Sharkaania tienen un tamaño de unos 5.000 km2 y cada isla es la 
+hogar de 50.000 ciudadanos. Ambas islas están atravesadas por corrientes ventosas, y 
+su fuerza depende de la temporada actual. siempre son diferentes 
+por cada nuevo juego que juegues.
+
+Comienzas el juego con una cantidad limitada de dinero, expresada en Kaa (el 
+moneda local).
+
+Usa tu tesoro sabiamente.
+
+El tiempo es fundamental a lo largo del juego: cada acción confirmada dura un tiempo determinado. 
+cantidad de tiempo, mientras que tu oponente tiene el mismo tiempo para progresar. tu 
+Tendrás que ser más rápido que él para ganar el juego y destruirlo.
+
+Gasta tu tesoro con cuidado. Puedes perder ciudades con anarquías locales, 
+y tus hombres pueden morir de hambre.
+
+Cruzar el canal entre ambas islas sería fácil, pero imposible. 
+Es el hogar de Goorza, un monstruo marino peligroso y hambriento.
+
+
+			PANTALLA DE INICIO
+			================
+
+Esta pantalla se muestra justo después de la presentación del juego. De esto 
+pantalla puedes:
+
+  - Elige un escenario.
+  - Comienza un nuevo juego y elige el nivel de dificultad.
+  - Cargar una partida guardada. Aparecerá un mensaje cuando deberás insertar tu 
+    disco del juego guardado en la unidad.
+  - Desactiva la opción de acción de combate 3D. Los resultados de las batallas 
+    luego ser procesado por la computadora.
+
+
+			GUARDAR UN JUEGO
+			==============
+
+Para guardar un juego en progreso desde la pantalla principal, haga clic en Scribe (consulte 
+ilustración de la página siguiente). El programa le pedirá que inserte un espacio en blanco. 
+disco formateado. Puedes guardar tantas veces como quieras. Guardar un juego cuesta 
+algo de dinero.
+
+
+			EL MENÚ PRINCIPAL
+			==============
+
+Esta pantalla muestra el Consejo de los Siete. Puedes seguir cada paso del 
+juego haciendo clic en el personaje apropiado.
+
+
+  ____________________________________________________________________
+ |								     |
+ | En esta zona se encuentran los siete personajes.                            |
+ |								     |
+ | Numerados del 1 al 9 de derecha a izquierda en la siguiente lista.		     |
+ |								     |
+ |___________________________________________________________________|
+ |      Un |                                         |      D |
+ |____________|			    C |____________|
+ |      B |                                         |      mi |
+ |____________|_________________________________________|____________|  
+
+
+1) El Asesor
+2) El Eclesiasta
+3) El maestro molinero
+4) El Alto Condestable
+5) El comodín
+6) El Leonardo
+7) El. escriba
+8) El Inquisidor
+9) El comandante
+
+R: mes actual. Haga clic en este icono para avanzar al siguiente mes.
+   Los datos del juego, incluida la evolución de tu oponente, serán procesados por 
+   la computadora.
+
+B: Año en curso. Cada año dura seis meses: Duun, Yool, Hiig, Kaax, Noor 
+   y Taaz. La fuerza de los vientos es diferente para cada mes.
+
+C: Los mensajes se muestran en el pergamino durante el juego.
+
+D: Tu Tesoro, expresado en Kaa.
+
+E: CAJA DE SALIDA. Haz clic en este icono en la pantalla principal para salir del juego o para
+   ir al menú anterior desde las otras pantallas.
+
+
+			ANIMACIONES
+			==========
+
+Las agresiones enemigas se indican mediante animaciones que se muestran en la pantalla principal.
+Pantalla. Hay cuatro tipos de animaciones:
+
+- El asesinato de uno de sus ministros. Él deja de estar disponible por un 
+  cierto periodo de tiempo.
+- La invocación de un tornado mortal.
+- El bombardeo de uno o más de tus sitios estratégicos. La mayor parte del tiempo, 
+  el oponente atacará los sitios estratégicos ubicados en tus costas.
+- El saqueo de una ciudad.
+
+
+			EL ASESOR
+			============
+(Declaración general)
+
+Por una pequeña tarifa, el Consejero le dará toda la información que necesite. 
+necesidad sobre tu reino.
+
+
+			EL MAESTRO MOLINERO
+			==================
+(Control de producción)
+
+Esta pantalla muestra el mapa del reino y la gestión.
+iconos.
+
+USO DEL MAPA (iconos arriba a la izquierda)
+------------------------------
+Puedes desplazarte por el mapa hacia arriba o hacia abajo presionando la flecha
+llaves. Los dos rectángulos muestran la parte superior o inferior de
+el mapa. Se muestran los vientos descubiertos por el Eclesiastés
+en el círculo al lado de las flechas (consulte la página siguiente). para conseguir
+información sobre un lugar, haga clic
+en cualquier parte del mapa con el botón derecho del ratón.
+
+ICONOS DE GESTIÓN (de izquierda a derecha)
+-------------------------------
+Cada icono representa un determinado tipo de producción. Haga clic en cualquier lugar del 
+mapa (botón derecho para cancelar) para iniciar esta producción. El costo es 
+aparece en la parte inferior de cada icono.
+
+ICONO 1: Cultivo del Trigo.
+----------------------
+Este tipo de cultivo requiere una tierra muy fértil y protegida de los vientos. 
+El trigo crece mejor en las llanuras.
+
+ADVERTENCIA: A medida que pasa el tiempo, la tierra cultivada se empobrece y su rendimiento 
+         se reduce a casi nada. Tienes que mudarte a otra área, o 
+         Pídale al Eclesiasta que vuelva a fertilizar mágicamente la tierra (ver siguiente 
+	 página). Necesitará más alimentos a medida que crezca su población. ser muy 
+         ¡cuidado! Una hambruna puede llevarte a tu caída.
+
+ICONO 2: Cría de escobas.
+-------------------------
+A estas criaturas les gustan los paisajes montañosos nítidos y las grandes altitudes. 
+Su lana se utiliza para tejer velas, pero su mejor parte es la carne que da 
+fuerza y vitalidad a los trabajadores, al tiempo que aumenta su productividad.
+
+ICONO 3: Crianza Sqiiz.
+-----------------------
+Estas abejas gigantes crean una miel especial que eleva la inteligencia
+nivel de la población. Sus hombres diseñarán productos con mayor rendimiento. el 
+Sqiiz elabora miel a partir de flores muy frágiles. Debes evitar las zonas ventosas.
+
+ICONO 4: Los Molinos. 
+------------------
+Los molinos son activados por los vientos. Producen todos los elementos utilizados para
+diseñar nuevos barcos voladores. El tipo de producción depende del local. 
+ambiente:
+
+   - Bosque: La madera se utiliza para construir las estructuras de las embarcaciones.
+   - Montañas: Las minas de hierro producen hélices, escudos y motores.
+   - Llanuras: Las velas y los globos se diseñan en las fábricas.
+
+Estos productos tienen diferentes valores. El nivel de inteligencia de los trabajadores. 
+afecta el rango de producción.
+
+ICONO 5: Presupuesto. 
+---------------
+Puede asignar cualquier cantidad de dinero a cualquier sitio de producción para mejorar
+su productividad. Más allá de cierta cantidad de dinero, esta opción no es 
+muy útil.
+
+ADVERTENCIA: Tu reino no es muy grande, con algunas zonas ventosas y mucho 
+de diversos paisajes. Despacha con cuidado tus sitios de producción industrial 
+en el mapa.
+
+
+			EL ECLESIASTA
+			===============
+
+Esta pantalla es similar a la pantalla del maestro molinero y muestra el mapa.
+de Eoila. El Eclesiasta también se muestra como un personaje pequeño. tu puedes
+dale órdenes con los iconos en la parte inferior del mapa.
+
+
+ICONOS ECLESIASTICOS (de izquierda a derecha):
+--------------------------------------
+
+ICONO 1: Construcción del Templo. Esta acción cuesta mucho dinero. templos 
+        Se utilizan para ceremonias religiosas.
+
+ICONO 2: Movimiento. Para mover el Eclesiastés, haga clic en este icono, luego en el 
+        punto de destino.
+
+ICONO 3: Predicción del viento. El Eclesiastés tiene el poder de predecir los vientos. 
+        Si hay viento a su alrededor, se convierte en tornado.
+
+ICONO 4: Refertilización. Para refertilizar la tierra, primero debe mover el 
+        Eclesiastés de la zona seleccionada.
+
+ICONO 5: Menú Masa y Vientos
+
+
+MENÚ VIENTO:
+----------
+Los vientos se obtienen tras una ceremonia religiosa. Para usar un viento, haga clic en 
+un ícono, luego en el mapa para señalar el área donde desea que sople el viento. 
+operar. Su potencia depende del icono seleccionado.
+
+Íconos de viento (de izquierda a derecha):
+--------------------------------
+
+ICONO 1: Viento local muy flojo.
+ICONO 2: Viento medio. Se extiende sobre un área bastante grande.
+ICONO 3: Fuertes vientos en todo el país.
+ICONO 4: Tornado muy potente.
+ICONO 5: Ciclón furioso y mortal. Para ser enviado al oponente. Una vez que tengas
+desplazado por el mapa, debe volver a seleccionar el icono y luego hacer clic en el 
+        objetivo a destruir. Haga clic en Salir o en el botón derecho del ratón para
+        cancelar.
+
+LA CEREMONIA RELIGIOSA:
+-----------------------
+Para realizar una ceremonia religiosa, el Eclesiasta debe estar al lado de un templo. 
+Haga clic en el dibujo a la derecha de los botones.
+
+Este es un encantamiento dedicado al dios Eolu. Dependiendo del 
+nivel de espiritualidad alcanzado al final de la ceremonia, obtendrás un 
+viento que puedes utilizar como se describió anteriormente. Este valor es gráficamente
+medido por un fuego fatuo que sale de un pozo y se mueve hacia arriba o
+abajo.
+
+En el centro de la pantalla se puede ver el Baarma, el Libro Sagrado de 
+Eolia. El Baarma indica en qué parte de la ceremonia estás actualmente. 
+son. Dependiendo de cada parte específica de la ceremonia, deberás hacer clic en 
+ciertos caracteres en la pantalla para confirmar o cancelar una acción específica.
+
+Se pueden realizar varias acciones simultáneamente.
+
+
+LOS CAPÍTULOS DE BAARMA: LA CEREMONIA
+----------------------------------
+
+I. Obertura (OTOO): 
+-------------------
+La ceremonia sólo podrá comenzar con el sonido de un trueno, provocando que
+Que aparezca un fuego fatuo.
+
+II La Adoración (SAAVI): 
+-------------------------
+El eclesiasta habla, los fieles se arrastran ante él.
+
+III. La Llamada (EHOOL): 
+----------------------
+Las distintas comunidades cantan oraciones implorando la llegada de Eolil.
+
+IV. La Lectura (BLAAB): 
+------------------------
+El lector declama letanías en memoria de todos los Eclesiastas fallecidos.
+
+V. La Danza (TOOSE): 
+---------------------
+Símbolo del ciclón, la Danza la realiza un derviche que gira mientras
+las campanas suenan.
+
+VI. La Armonía (KWAAX): 
+------------------------
+Todas las diferentes músicas se funden en una única armonía mística.
+
+VII. El Sacrificio (GOORZ): 
+---------------------
+Un macho joven de Broomf se ofrece como sacrificio al sonido del rodar.
+tambores.
+
+VIII.La Bendición (NIIBA): 
+--------------------------
+Por orden del eclesiástico, la multitud, el guardián de Baarma y el
+Balance-Monk ejecuta pases cabalísticos.
+
+IX. La canción del viento (FUUL): 
+------------------------
+Los Elegidos (masculino y femenino) cantan la misteriosa canción ancestral.
+
+X. La Aclamación (OROO): 
+--------------------------
+Todos los miembros de la ceremonia saludan a Eolli por su infinita misericordia.
+
+
+
+			EL ALTO CONSTABLE
+			===================
+(Comercio)
+
+Esta pantalla le permite utilizar tres opciones diferentes:
+
+BOLSA DE VALORES:
+---------------
+Haga clic en la escena de la subasta en la pantalla. Luego puedes comprar y vender. 
+cualquier tipo de producto. Seleccione el producto en la mesa. Los precios actuales 
+se mostrará en el desplazamiento.
+
+Para vender productos, haga clic en los caracteres de la izquierda. Para comprar productos, 
+Haga clic en los personajes de la derecha. A continuación deberás confirmar haciendo clic en 
+el subastador (el personaje que sostiene un martillo). Mira la parte inferior del 
+Desplácese para saber si está comprando o vendiendo productos. Si el precio incluye 
+un punto decimal, el valor siempre se redondea en tu contra.
+
+IMPUESTOS:
+------
+Haz clic en el personaje sentado en la mesa, en la parte inferior derecha del 
+pantalla. En la pantalla se muestra un ábaco especial, el Cranool.
+
+Los impuestos se determinan con esta preciosa herramienta. Los iconos pequeños le permiten 
+confirmar o cancelar impuestos para cada ciudad. Se muestran los ingresos 
+simultáneamente. Los ingresos fiscales dependen del nivel de comodidad de la ciudad.
+
+Para cancelar o confirmar utilice los dos botones inferiores. Su ingreso fiscal será 
+agregado automáticamente a su tesoro actual.
+
+ADVERTENCIA:
+
+No hagas mal uso de los impuestos. Algunas ciudades, especialmente aquellas con un bajo nivel de confort. 
+nivel, puede volverse contra usted si los impuestos son demasiado altos.
+
+
+CONTRATOS COMERCIALES:
+----------------------
+Cuando haces clic en los dos personajes centrales que se dan la mano, aparece un 
+La propuesta de tratado se muestra en la pantalla. Hay muchos varios 
+tratados. Cambian a menudo. Si estás de acuerdo con la propuesta, haz clic en
+Aceptar, o cancelar con NO.
+
+
+			EL COMODÍN
+			=========
+
+(Ocio y Entretenimiento)
+El ocio y el entretenimiento son importantes para el juego. Entreteniendo a tu 
+La población es un factor decisivo. Después de todo, como nosotros, quieren tener 
+divertirse y olvidarse de todos sus problemas. Puedes asignar dinero a cada tipo de 
+entretenimiento haciendo clic en MÁS, MENOS y Aceptar.
+
+
+			EL INOUISITOR
+			===============
+	
+(Policía secreta)
+
+Esta pantalla le permite elegir entre cuatro opciones:
+
+EL ÁGUILA (izquierda): 
+-----------------
+El águila se utiliza para entregar contratos políticos y militares durante mucho tiempo.
+distancias.
+
+EL PALOMARO 
+-----------
+(Centro de fondo): 
+
+Por un precio económico, te darán diversa información. los dos primeros 
+jaulas están relacionadas con Sharkaania mientras que las otras seis corresponden a 
+diferentes partes de tu reino. Los escudos te darán información
+sobre la situación actual en vuestras ciudades. Para SALIR, haga clic en la jaula Salir.
+
+EL MAPA DEL MUNDO 
+---------------------
+(Centro, en el suelo): 
+
+Puedes ver el mapa de tu oponente, incluidos todos sus edificios y el tipo de 
+culturas. Es muy útil para preparar operaciones militares.
+
+EL VERDUGO 
+---------------
+(Personaje en el lado derecho de la pantalla): 
+
+Asesinará a uno o más ministros enemigos. Sus tarifas son bastante altas, pero 
+Durante un largo período de tiempo, tendrá la seguridad de que no se producirá ningún ataque. 
+realizado por los ministros que asesinó.
+
+ADVERTENCIA: Los precios siempre son más altos después de cada asesinato. Los verdugos son 
+	 personas sin hogar y no siempre confiables.
+
+
+
+			EL LEONARDO
+			==============
+(Ciencias)
+
+Puede elegir entre cinco opciones en esta pantalla.
+
+LAS ACADEMIAS CIENTÍFICAS 
+------------------------
+(Tesoro. abajo a la izquierda): 
+
+Puedes asignar dinero a las diferentes academias en tus ciudades al 
+haciendo clic en los botones MÁS y MENOS. Elevarás el nivel de comodidad de 
+las ciudades cuando asignas dinero a su academia.
+
+DISEÑO DE BARCOS VOLADORES 
+-------------------
+(Tablero de dibujo a la izquierda): 
+
+Para seleccionar el tipo de barco que quieres diseñar, pulsando sobre uno de los cuatro 
+dibujos de barcos.
+
+El proceso de diseño se logra en tres pasos:
+
+FASE 1: EQUIPO DEL BUQUE
+-------------------------
+Elija los componentes que desee con los iconos y luego colóquelos en el plano. 
+usando las pequeñas cruces en la pantalla. Puede mover y eliminar elementos, o 
+añade varios del mismo tipo. Los números que se muestran en los iconos. 
+indica el stock de componentes disponible actualmente. Si un elemento no es 
+disponible (como la estructura del barco), no puedes construir un barco volador.
+
+AVISO IMPORTANTE:
+
+- Las hélices y los motores son pesados, pero la velocidad del barco aumenta.
+- Las velas y los globos aligeran los barcos, pero reducen la velocidad.
+- Los escudos ofrecen una buena protección durante las batallas.
+
+FASE 2: ASIGNACIÓN DE LA TRIPULACIÓN
+-------------------------
+Haz clic en el personaje seleccionado. Luego puedes agregar soldados con la izquierda. 
+botón del ratón y elimínelos con el botón derecho del ratón.
+
+AVISO IMPORTANTE:
+
+- Tu nave voladora no funcionará correctamente sin un piloto.
+- Los capitanes y cocineros son importantes, ya que afectan la moral de la tripulación y 
+  comportamiento y el rendimiento general del barco (velocidad y combate). 
+  efectividad).
+- Los fusileros y artilleros de catapulta están asignados a las diferentes armas en 
+  tablero del barco volador.
+- La infantería se usa exclusivamente para saquear las ciudades de tu oponente.
+- Las tripulaciones grandes cuestan mucho dinero durante las campañas y aumentan la 
+  peso del barco.
+
+
+ÚLTIMA FASE: VUELOS DE PRUEBA.
+--------------------------
+Esta parada a veces resulta dolorosa. Se muestra una lista de verificación completa en la 
+pantalla, incluidos los planos del barco, la asignación de la tripulación y el valor de 
+diversos factores de rendimiento. La velocidad es esencial para la parte del juego de guerra. 
+Storm Master (gestionado por el Comandante). Puedes modificar planos, tripulación. 
+tareas, o probar el barco en vuelo con los iconos a la derecha del
+pantalla. Los vuelos de prueba se realizan en las llanuras. para conocer sus 
+resultados, verás el vuelo en la pantalla. No puedes usar un barco. 
+sin realizar un vuelo de prueba preliminar.
+Tampoco se encuentran disponibles los barcos que se estrellaron durante uno de ellos. La lista de verificación es 
+se muestra una vez más después del vuelo de prueba. Para confirmar toda la operación, 
+haga clic en Aceptar. Los planos se guardan automáticamente, pudiendo modificarlos posteriormente. 
+enviar en cualquier momento. Aún tendrás que probar en vuelo cualquier barco modificado.
+
+
+PRODUCCIÓN EN MASIVA
+---------------
+Una vez que hayas diseñado un barco volador operativo, puedes solicitar pedidos en masa. 
+producción para formar tu ejército. Para hacer esto, haga clic en la construcción del barco. 
+escena (arriba a la izquierda de la pantalla), luego seleccione el barco. Una hoja de comando con 
+toda la información sobre la producción en masa de este tipo de
+El barco se muestra en la pantalla. La cantidad de barcos que puedes construir. 
+(según el número de elementos y soldados disponibles) 
+en la parte inferior del pergamino. Para determinar el número de barcos que desea 
+pedido, haga clic en los botones MÁS y MENOS, y confirme con OK. el vuelo 
+Los buques están disponibles de inmediato.
+
+DESTRUCCIÓN DEL BARCO
+-----------------
+Haga clic en la parte superior derecha de la pantalla para seleccionar esta opción. es 
+a veces muy útil.
+Por ejemplo, si has formado un ejército con bajo rendimiento (baja velocidad) 
+y tienes suficientes componentes de barco en stock para construir uno mucho más rápido, 
+Agregar el nuevo ejército al antiguo daría un ejército de desempeño promedio como 
+un resultado. Es mucho más interesante destruir primero a tu antiguo ejército y luego 
+levantar uno nuevo. Tendrás menos barcos, pero tu armada será mucho 
+más eficiente. Examina atentamente tu producción, tu tesoro y tu
+objetivos estratégicos antes de proceder.
+
+Para destruir un barco, haz clic en el tipo de barco, luego en el desplazamiento y usa 
+los botones MÁS, MENOS o OK.
+
+ADVERTENCIA: Todos los componentes del barco también quedan destruidos, pero sus tripulaciones son 
+         Todavía disponible.
+
+RESUMEN DE BUQUES
+--------------
+Se muestra un resumen de los cuatro tipos diferentes de barcos al hacer clic en 
+el tablero encima del personaje. Esta opción es muy útil cuando estás 
+a punto de formar un ejército para tu campaña.
+
+AVISO IMPORTANTE:
+
+- Las naves IKAAR son ligeras y rápidas. Llevan un número limitado de hombres, pero 
+  Son muy efectivos durante incursiones rápidas.
+- Los barcos SKRUUZ son excelentes acorazados. Al igual que los barcos IKAAR, llevan un 
+  número limitado de tropas y son ineficaces para saquear ciudades enemigas.
+- Los barcos OGLEE están equipados con una catapulta para protegerlos del enemigo. 
+  ataques. Pueden transportar una gran cantidad de hombres.
+- Los barcos NOOWE son extremadamente pesados y lentos, pero puedes cargar un ejército enorme en 
+  ellos.
+
+
+			EL COMANDANTE
+			===============
+
+Las operaciones militares se deciden en el mapa. Para seleccionar la operación que desea 
+Para realizarlo, haga clic en uno de los cinco iconos.
+
+ICONO 1: CONSTRUCCIÓN DEL AEROPUERTO. 
+------------------------------
+El costo total se muestra debajo del diseño.
+Seleccione el icono y arrastre el símbolo en el mapa. Los aeródromos son 
+punto de partida de tu ejército durante la guerra.
+
+ICONO 2: CONSTRUCCIÓN KOOLPER.
+-----------------------
+Lo mismo que los aeródromos. Estas baterías antiaéreas causan graves daños a la 
+barcos del oponente durante los ataques.
+
+ICONO 3: ALISTA. 
+-------------------
+Hay seis clases de soldados: capitanes de barco, pilotos, fusileros,
+artilleros de catapulta, soldados de infantería y cocineros. Haga clic en una clase para ver la 
+pantalla de resumen de personajes. Utilice los botones MÁS, MENOS y OK para alistar hombres. 
+Los soldados alistados se agregan a tus tropas actuales y puedes asignar 
+a diferentes tripulaciones. Haga clic en SALIR en el panel de comando para salir de esto. 
+menú.
+
+ICONO 4: ASIGNACIÓN DE BUQUES (AEROPUERTOS)
+------------------------------------
+Seleccione el tipo de barco y luego arrastre el símbolo a un aeródromo en el mapa. 
+Los barcos no asignados no están disponibles para uso militar.
+
+ICONO 5: CAMPAÑA.
+-----------------
+Tu objetivo es destruir las siete ciudades enemigas. La única manera de lograr 
+esto es para elaborar campañas militares. Una campaña está compuesta por 
+diferentes operaciones.
+
+Primero, debes reagrupar tu armada. Haga clic en el aeródromo seleccionado en el 
+mapa. El ejército seleccionado ubicado en el aeródromo estará listo para iniciar la
+campaña.
+
+Para determinar el tipo y número de barcos voladores asignados a la campaña, 
+haga clic en los números que se muestran a la derecha de los nombres de los barcos (en el 
+desplazamiento de comando). El número de hombres que quedan en el aeródromo se muestra para 
+la izquierda. También hace clic en esto para determinar el número de hombres. Haga clic en 
+Está bien para confirmar.
+
+La velocidad promedio de tu armada, la cantidad total de soldados, el 
+La resistencia y la fuerza de tu ejército se muestran en la pantalla.
+
+Estos valores se calculan según los factores de rendimiento de cada 
+enviar, y son esenciales para el siguiente paso de la campaña.
+
+Ahora tienes que financiar la campaña. Utilice las dos flechas del pergamino. el 
+El costo se expresa en días de viaje, dependiendo del número de soldados. 
+asignados a la campaña.
+
+Haga clic en Aceptar para confirmar, NO para cancelar.
+
+No podrás recuperar el dinero gastado aquí. Si todavía viajas 
+Una vez transcurrido el número de días, tus barcos comenzarán a naufragar.
+
+El panel de control del buque insignia se muestra en la parte inferior de la pantalla. 
+Su barco se muestra en el mapa.
+
+
+PANEL DE CONTROL
+
+  _______________________________________________________________________
+ |            |       |       |       |       5 |                 |
+ |      1 |   2 |   3 |   4 |----------------|         7 |
+ |            |       |       |       |       6 |                 |
+ |____________|_______|_______|_______|________________|_________________|
+
+
+1. Movimientos en todas direcciones: El barco se detiene en el centro.
+
+2. Aterrizar o saquear: usa esta opción sobre una ciudad enemiga para saquearla, o 
+   sobre un aeródromo para finalizar la campaña.
+
+3. Bombardeo: Al hacer clic en el botón del ratón, se lanza una bomba desde el barco. el 
+   El número de bombas necesarias para destruir un objetivo enemigo depende de la 
+   nivel de resistencia de tu oponente. El Inquisidor tiene este tipo de 
+   información. No desperdicies bombas en las ciudades.
+
+4. Calendario: La duración de los días de viaje depende de la velocidad media de 
+   tu armada. Cuando el número de días expire, los barcos en su 
+   La armada naufragará uno por uno.
+
+5. Velocidad: La velocidad de la armada depende de los vientos. La pantalla 
+   moverse de acuerdo a este factor.
+
+6. Botín. Después de saquear una ciudad enemiga, serás recompensado. El botín depende 
+   sobre el número de hombres enviados a saquear la ciudad. Para ser destruido, una ciudad 
+   debe ser totalmente saqueado. Ganarás el juego cuando todas las ciudades enemigas hayan 
+   sido saqueado. El Inquisidor puede darte información sobre el enemigo. 
+   ciudades. El botín no se agregará a tu tesoro mientras
+   Tu ejército no ha regresado sano y salvo a casa.
+
+7. Condición. El estado actual de la armada y los diferentes tipos de barcos. 
+   se muestran aquí.
+
+ADVERTENCIA:
+
+Tu oponente te disparará si vuelas cerca de sus KOOLPERS (antiaéreos), y él 
+Enviará tropas para atacar tu reino. Si dos armadas se encuentran, el 3D 
+La parte de acción y combate del juego está activada.
+
+COMBATE DE ACCIÓN 3D
+----------------
+Los instrumentos piloto del buque insignia se muestran en el panel de control en el 
+parte inferior de la pantalla. No importa de qué tipo de barcos esté hecha tu armada, 
+Siempre estás equipado con ballestas y una catapulta. La fuerza de la 
+La batalla depende del número de hombres que participan en ella, de tus propias fuerzas. 
+y en tu nivel de resistencia. Toda esta información se muestra en The 
+Lista de verificación de cada barco.
+
+
+PANEL DE CONTROL:
+
+  ______________________________________________________________________
+ |  _________ _________ _________ ________ _________ _________ |
+ | |         | |         | |         | |        | |         | |         | |
+ | |    1 | |    2 | |  3 4 | |    5 | |    6 | |    7 | |
+ | |_________| |_________| |_________| |________| |_________| |_________| |
+ |________________________________________________________________________|
+
+1. Estado actual de Armada.
+2. Control y disparo (ballesta izquierda).
+3. Disparo de catapulta.
+4. Control del ángulo de catapulta.
+5. Movimiento en 4 direcciones.
+6. Control y disparo (ballesta derecha).
+7. Número de barcos enemigos que quedan.
+
+La batalla termina cuando una de las armadas ha sido totalmente destruida.
+
+CONTROLES DEL RATÓN Y JOYSTICK
+---------------------
+
+Si usa el teclado, puede moverse usando el teclado numérico. cada clave 
+le permite moverse en la misma dirección. Pulsa Shift para disparar armas.
+
+Movimientos normales: el barco se mueve en todas direcciones.
+
+Otros controles: presiona el botón de disparo o la tecla Shift.
+
+                     Control y fuego
+                     Ballesta izquierda
+
+                  \ |      /
+                   \ |     /             
+                    \ |    /     
+                     \ |   /  
+                      \ |  /
+Catapulta \ | / Catapulta
+control de ángulo \|/ Disparar
+               ----------------------
+                        /|\
+                       / | \
+                      / |  \
+                     / |   \
+                    / |    \
+
+                    Control y fuego 
+                     Ballesta derecha.
+
+
+fin.

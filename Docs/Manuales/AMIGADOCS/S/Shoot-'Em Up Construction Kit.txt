@@ -1,0 +1,638 @@
+                     SHOOT EM UP CONSTRUCTION KIT
+                  ------------------------------------
+
+     A) GETTING STARTED..(THE QUICK AND DIRTY GUIDE).
+
+     Here`s our ~quick and dirty ~ guide to help you get a feel for
+     the way SEUCK works, we`re going to walk you through each
+     function to give  you an idea of what you need to produce a
+     game.
+     The process is quite simple to follow, and all you need is the 
+     SEUCK Data disk. Okay, here we go;
+
+     1) To start with the best idea is to load one of the three sample
+     games to tinker with-you can examine all the component parts                   and see how they bolt together. Also it means you can try out a 
+     game or two so you can see what`s really possible. To load a
+     sample game select-LOAD EVERTHING from the LOAD DATA option on                the STORAGE menu. When the list of the games comes up click on the
+     file called slap`n`tickle.all, and it will load at once. For
+     the purposes of this quick little demo we wont actually draw
+     anything, merely tinker a little with the examples just to show
+     what`s possible.
+
+     2) Select edit sprite from the EDIT SPRITE menu. A sprite is a
+     frame of animation to be used in an object. Each one has a number
+     and the first one you see is number 0. Click the + and - buttons
+     on the Sprite Number indicator to step through the sprites and
+     see how they are drawn. You can make sprites by choosing colours
+     from the palette and painting them into the grid. Press the exit
+     button to go back to the Main Menu.
+
+     3) Select Edit Object from the EDIT OBJECT menu. Sprites are
+     combined to make animated `objects`. The objects are the things 
+     that you actually move around the screen. The current object is
+     displayed on screen, as a series of frames of animation or sprites.
+     under the animating picture window at the bottom right of the 
+     screen is a button marked DIRECT or ANIMATE, depending on the mode.
+     DIRECTional animation is related to the motion of the joystick
+     which you should have in PORT 2. if you have a joystick connected
+     then kmove it to test the animation in the small preview window
+     in the bottom right of the screen.(try different objects by click-
+     ing on the + and - buttons to change the object number.) this
+     changes the animation display to show you 18 possible frames of
+     animation. Test the effect by clicking the last frame indicator up
+     to a higher figure. When you`ve seen enough, click it back to DIRECT
+     and click on EXIT.
+
+     4) Click on Edit Enemy Bits on the EDIT OBJECT menu. this shows you
+     the strenght and ammo ect. available to each different enemy object
+     Dont alter any of the setting`s. just click on EXIT to get back.
+
+     5) The map over which you can play is actually a long strip of
+     square graphics called BLOCKS. Click on Edit Block in the EDIT
+     BACKGROUND menu. click through the variuos graphic blocks using the
+     Block Number indicator + and - buttons. When you`ve seen all of them,
+     click the EXIT button to escape back to the main menu.
+
+     6) Select Edit Map. This shows you the map for the level you`re
+     currently working on, and an unusual cursor. This is the block cursor
+     and to stamp the current block (the number in green)onto the map,
+     you position it and click your mouse pointer on the number.Pressing
+     + and - signs changes the block number so you get a different graphic.
+     the arrows fast forward you to another part of the map. To escape
+     press the right mouse button.
+
+     7) Next select the EDIT IFF Sound effects option. Click the + and -
+     buttons, and look at the sound numbers at the top of the screen and
+     you can see all the sound names assigned to each number. IFF samples 
+     can be loaded from any source, even one`s you`ve made yourself, but
+     to save you the hassle there are 72 high quality samples in the games 
+     disk included in this package.
+
+     8) Click on the PLAYER LIMITATIONS menu and select Player 1. Now
+     you can see all the attributes for your player, including the area of
+     the screen it can occupy. Notice the players can be switched in or out
+     for choosing to design two or one player games. You have to be careful
+     not to select a NO player game, however.
+
+     9) Okay enough noodling around. Test the game! try it in cheat mode
+     first, just so you can see the whole game without getting waxed 
+     yourself.(by all means take a few potshots yourself) See if you can
+     spot all the sprites and blocks you saw in the editing windows,
+     and how they`re put together.
+
+     10) Now go back and change a few things willy nilly, Go ahead, enjoy
+     yourself. you can`t break anything by changing any of the setting`s
+     and who know`s you might be able to work out how some of the
+     functions work. But set the write protect tabs! in case you try to
+     save it by mistake!.
+
+     right then here we go on the SEUCK!!!!!
+
+     THE MENUS...(a. EDIT SPRITE)
+
+     This is where you create the basic graphics which you will later
+     animate into `games~ objects. The options on this menu selection are
+     EDIT SPRITE,EDIT COLORS and ERASE SPRITE.
+     
+     EDIT SPRITES; Presents you with the sprite editor window. The 24 X
+     24 grid on the left represents a blank piece of screen on which you
+     can draw your sprite characters.The small square to the top left
+     contains an actual size representation of the sprite you are drawing
+     The current sprite on the screen will have a number,shown in the 
+     sprite number indicator. clicking the + or - buttons changes the
+     sprite. You can select any sprite in memory by just clicking until
+     its number appears in this window. Simply click the colour you want
+     on the palette down the centre of the screen,and then click the square
+     on the grid you want to colour.(the current colour is shown in the
+     PEN window) You can hold the button down and move the mouse or 
+     joystick to fill more than one square with the selected colour.
+
+     The MIRROR buttons flip the sprite in the direction of the arrow. its
+     probaly easier for you to try this rather than attempt to explain
+     it.
+
+     The SLIDE buttons are for moving the image around in the grid.
+     clicking on any of the buttons moves the image one pixel in that
+     direction.
+
+     The UNDO button does just that. undoes the last click. if you make        
+     a mistake, then hold everything until you click the undo to go
+     back to how it was before you goofed. if you`ve done more than one
+     click since the mistake then you`ll have to correct it by hand.
+
+     The FLOOD buttons flood-fills the grid with the selected colour,
+     erasing all that was there, There is no FILL option, so if you want
+     a large block of colour,its best to flood the screen with the colour
+     you want and chip away at it to get the shape you want.
+
+     The COPY button lets you copy one sprite`s graphics into another 
+     sprite. Just set the destination number to another number and click
+     the copy button. Now that sprite will contain the same graphics as 
+     the current one. Handy if two sprites are to be similar but with small
+     differences.
+
+     Edit Colours; This is very similar to the edit Sprite window, but
+     includes + and - gadgets for RED.GREEN.BLUE(RGB)going from 0-15.
+     although you can only have eight(8) colours from the amiga`s palette
+     of 4096. Simply click on a colour to select it,then use the + and -
+     to adjust the selected colour to your taste. Basically your mixing
+     the colours, adding or subtracting amounts of RED,GREEN,BLUE,to the
+     colour, and 15 is a of it.
+
+     ERASE SPRITES; Does just that, flushes the current sprite graphic
+     from memory,leaving you with a clean slate.
+
+     EXIT; Takes you back to the main menu.
+
+     (b. EDIT SPRITES)
+     Once you have drawn all your sprites you must combine them as 
+     `objects` for continous or directional animation during the game. The
+     options open to you here are EDIT OBJECT, COPY OBJECT, and EDIT ENEMY
+     ATTRIBUTES.
+
+     EDIT OBJECT; Displays the object editing window. Now you can`t 
+     actually alter any graphics here,but you can combine them to make an  
+     animated object for use as a player,enemy,bullet or explosion.
+     Clicking on the + and - buttons marked object number will let you
+     examine the currently stored objects(if any have been loaded or drawn)
+     Notice the names of the objects, like player 1, player 2, enemy 
+     explosion ect...are typed at the top of the screen as each object is
+     selected. These objects always perform the same function in every
+     game. But the shape and animation is up to you. Make sure that you
+     place the right graphics in the right objects. You would`nt want to
+     end up firing enemy ships at little bullets, now would you?
+     To place sprites in the object,just select a sprite graphic with the
+     + and - buttons on sprite number, then click the mouse pointer on
+     one of the object frames and the sprite will appear there with its
+     number underneath, In ANIMATE mode, the frames will be in rows, and in 
+     DIRECT mode the frames will be grouped in two`s at all eight (8)
+     joystick directions.
+
+     The DIRECT button with the little picture over it is a window for
+     testing animation. In DIRECT mode the object in the window reacts to
+     movement from the joystick. Notice that the graphics are arranged with
+     down,centre,up-left,up-right,down-left,down-right. The reason there
+     are two graphics at this point is that they animate between the two
+     when the joystic is in that position. In the preset example the 
+     two graphics at each point are the same, so they stay still. try moving
+     the joystick(in port 2) and check out the directional movement in the
+     little window.
+   
+     Clicking on the DIRECT button alters it to ANIMATE.(and vice versa)
+     and in ANIMATE mode you can do up to an 18 frame animation within the
+     object squares. Step up the LAST FRAME + and - buttons to set the     
+     amount of frames you want to animate,bearing in mind the first the 
+     first frame is 0. Once again, in ANIMATE mode, you can preview the
+     animation in the little window. The DELAY button sets the pause between
+     sprites, less pause means the animation moves faster.
+
+     The NO HOLD button is another toggle button like ANIMATE/DIRECT. This
+     control sets, when you push an object in a direction, wether it stays
+     pointing in that direction or resets to pointing forwards when you 
+     release the joystick.
+
+     COPY OBJECT; You can paste one object`s graphics from the current
+     number to any of the other numbers from 0-55. BUT...only if the object
+     is of the same type, ie Bullet,Enemy,ect...This can save a lot of
+     redrawing if some of the objects are going to be fairly similar. The
+     NO HOLD and ANIMATE buttons wont work in this mode, by the way.
+
+     EDIT ENEMY BITS; This is the same as `PLAYER ATTRIBUTES` menu, with 
+     special switches to set amount of hits the enemy can take, and 
+     various other personality traits like how many bullets it can have on'
+     screen at one time,rate of fire,direction of fire,and so forth.
+
+     The speed option sets the speed of the enemy object along its path,
+     on a range from 0-10. Setting the speed to 0 means the object is
+     stationery.
+
+     Points sets the amount of points scored by the player when he blows
+     this enemy up. the range is 0-10000.
+
+     Hits to Kill is obviously the amount of times the player has to shoot
+     and hit the enemy to blow it up. in a range from 1-10
+
+     Fire Direction describes the directions that the enemy fires in,and
+     clicking on the box (no firing)it goes to four way(up,down,left,right)
+     firing, four way diagonal firing,firing up only,down only, left only,
+     right only,up-left,up-right,down-left,down right only,plus R for
+     random firing and D for directional. In RANDOM the fire direction
+     is randomly generated from all ofthe above. The enemy only fires in
+     the direction of movement.
+
+     Fire Rate; is the period between shots; 100 is equal to not much firing
+     and 0 is very rapid firing, almost too fast.
+
+     Bullet Speed; is the rate at which the bullets travel once released
+     from the enemy. 0 is stationery, and 15 is fast.
+
+     Use both these options to select a rate and speed suitable for your
+     enemies.
+
+     In the same way you can assign graphics to each bullet and explosion,
+     you can also assign sound FX. The Explosion FX and Bullet FX do this
+     for you. All you have to do is select from the sound effects 0-49
+     which you`d like to represent the sounds of the enemy blowing up or
+     the enemy firing, and these will be stored ready for the game.
+     
+     The EXPLOSION OBJECT and BULLET OBJECT buttons let you select which
+     bullet graphics and explosion graphics you want to assign to the
+     current object. The eight (8) bullet objects lie between object 6 and
+     object 13 and the eight(8) enemy explosions lie between 14 and 21.
+
+     Collision detection for this enemy is handled on the remaining Enemy
+     to Ship and Enemy to Bullet Buttons. ENEMY TO SHIP tells the computer
+     if you hit an enemy with your ship, wether the enemy will blow up, you
+     blow up or you both blow up, If you want the enemy to blow up, Click
+     the ENEMY DIE box to yes, If you want your ship to blow up, Click the
+     SHIP to DIE box to yes, If you want both to be blown up, Click them
+     both to yes. Obviously if you want them both to be intact after 
+     collision, Click them both to no.
+
+     Similarly, If you want the enemy to die on collision with a bullet,
+     click the ENEMY DIE box in ENEMY to Bullet to yes, If you want the 
+     bullet to blow up too, Then click Bullet to die too. If you`d like the
+     enemy to be invulnerable, However(and why not?), then click the Enemy
+     to Die box to no. If the same goes for your bullet, then click Bullet
+     die to no too.
+
+     EXIT; Yep the same again,sending you back to the main menu.
+    (c.EDIT BACKGROUND)
+     This menu deals with the background map of your game. You can create
+     the graphic `Blocks` which make up your `MAP` and place them in a long
+     strip ready for your game graphics to dance over.
+     The options here are SELECT BLOCK,EDIT COLOURS,and EDIT MAP.
+
+     SELECT BLOCK : In this mode you have access to all the blocks you`ve
+     drawn so far.    This is a handy function when you know what graphic
+     you want and you know and you know what it looks like,but you cant
+     recall what number it is.
+     Finding it is easy. Just plonk the big cursor over the block you want
+     and click on the green number.  The block is then stored in memory
+     and the number appears in the green numbers.  You can then go to
+     EDIT BLOCK and alter it ,or you can place it on your map with EDIT
+     MAP.  The + and - signs on the cursor scan you back and forth sideways
+     through four or five lines made up of all your currently designed 
+     blocks laid in a line from left to right.    
+     
+     EDIT BLOCK :  This window is very similar to the EDIT SPRITE window
+     , except the grid is bigger at 32 x 32 dots.   You are still limited
+     to eight colours in the construction of your block,but fortunately
+     it`s another eight colours rather than the same palette as your 
+     sprites. Phew!
+
+     EDIT COLOURS :  The Edit Colours setup is the same as the Edit Block
+     screen,  except you have the colour palette on screen, and the RGB
+     buttons for you to mix the colours with.  As before 15 is a lot of
+     colour and 0 is none of it.
+
+     EDIT MAP :  This is where you plonk your blocks to make up the map.
+     (what a plonker)   
+     The position on the map is always displayed on the centre of the
+     Screen.
+     To stamp the currently selected block (the number in green) onto
+     the map, you position the large square cursor where you want to place
+     a graphic and click your mouse pointer on the green number itself.
+     Pressing the button on the + and - signs changes the block number
+     up and down so you can select a different graphic.  The arrows fast
+     forward you up and down to another part of the map.  To escape from
+     map area just press the right mouse button.
+     EXIT :  Takes you back to the main menu.
+
+                           d. EDIT IFF SOUND.
+     This menu allows you to load in and use IFF sound sample files to
+     produce sound effects in your game.  There are a total of three
+     directories full of samples supplied with SEUCK.   If this isn`t
+     enough you can load your own disk of samples that you have created
+     and work on effects with these.  The options in this menu are EDIT
+     IFF SOUND, New IFF Sound Directory,Load IFF Sound Files and Clear IFF 
+     Sound Files.
+     
+     EDIT IFF SOUND EFFECTS :  This is the screen where you can take IFF
+     sound samples,loaded into the SEUCK from data disk or other disks
+     of your own samples, and manipulate them into effects (FX) for the 
+     sounds in your game.
+
+     First you select the Sound Effect number at the top of the screen
+     These can range from 0-49. Thats 50 different sounds for your game.
+
+     The twin Replay Rate counters always show the same number, but
+     increment in different amounts - notice the x100 and x1 lables for
+     coarse or fine adjustment.  Using these counters you can play any
+     sound back at a different speed, totally altering the effect. Once
+     selected the effect stays assigned to the sound effect number untill
+     changed.  This is the tricky bit (I knew it!) You can assingn as
+     many different replay rates (speeds) to your sound as you like,
+     so you get a lot of different effects from the same sample!
+     Fiendishly clever,eh ?
+
+     Effect Volume changes the loudness of the effect in relation to
+     the other sounds.  The range is from 0 - 64, and clearly 0 means
+     the sound cannot be heard,and 64 means it blows your hat off.
+
+     Clicking on the EFFECT button plays the current sound being edited
+     .  Different sounds can be called up from memory by clicking on the
+     box next to the Sample Name.  The names come up in the box,and to
+     them as an effect you must assign the one in the box to the current
+     sound number, simply by clicking the USE button.   Now you can
+     twiddle its replay rate around and hear the effect by pressing
+     the EFFECT button.
+
+     The displays next to the SAMPLE button can`t be altered, but are
+     the original settings for the sound, should you get lost and want
+     to hear the original settings.
+     The Free Sound RAM refers to how much memory is left for samples.
+     Of coarse,Exit takes you back to the main menu.
+
+     NEW IFF SOUND DIRECTORY :  This option is purely to allow you to
+     change directory to have access to other samples, but it doesn`t
+     actually load it in: select the next option to do that. The
+     default directory is always`sound 1`, but`sound 2` and `sound 3`
+     are also supplied with SEUCK. If you have your own disk of samples
+     put it in the drive and type in the name of the relevent directory
+     , eg. DF0:seasounds.
+
+     LOAD IFF SOUND FILES :  This assumes the directory is `sound 1`
+     unless changed (as above). All the files in the directory are
+     listed on screen.  Select the one you require with the cursor and
+     load by clicking the left button. NB: You may only display up to 24
+     filenames in any directory. Adding another file to a full directory
+     will result in your new file or an old file in the directory being
+     lost.
+
+     CLEAR IFF SOUND :  Flushes the sound data from memory,leaving you
+     with a clean slate. It asks you to confirm Yes or No, just in case
+     you selected this option by mistake.
+     EXIT :  Takes you back to the main menu.
+
+                           e. PLAYER LIMITATIONS.
+
+     In this menu you can edit the abilities and limitations of your
+     player(s).  Within the Player 1 and Player 2 menus are indicators
+     to allow you to edit everything to do with the players. The option
+     on the first menu are Player 1,Player 2 and Exit. On both Player 1
+     and 2 there are identical sub-menus of Edit Parameters. Edit Play
+     Area and Edit Start Position.
+
+     EDIT PARAMETERS :  This is where you edit the attributes of your 
+     player as you did in the Edit Enemy Attributes screen. The settings
+     are essentially the same as that menu, except that you can select
+     Player Enable,Lives and Ship Speed.
+     Player Enable allows you to switch the player in or out. This only
+     really applies to player 2, because if both players are disabled
+     you won`t have much of a game! If your ship doesn`t appear on screen
+     , then you may have switched both players out! (silly plonker!    
+     Lives is how many times you can get killed before the game ends,
+     and this goes from 1 to 10.
+     Ship Speed refers to the speed of your ship, that is to say how
+     fast you can move back and forth and side to side. (The speed of
+     the scrolling of the background under your ship is controlled in
+     the LEVEL EDIT menu.)
+
+     EDIT PLAY AREA :  Like the level selections, the player areas are
+     selected and edited using the joystick. Edit Play Area lets you 
+     select the area your player can inhabit on screen. To move the top
+     or bottom markers, push them up or down. To move the side markers
+     in or out, push the joystick left or right, press and hold the
+     button, and move them left and right.
+
+     EDIT START POSITION :  Lets you position a cross where you want
+     your player to appear after each level or after a crash. Contrary
+     to popular belief it`s much better to appear on the side of the
+     screen and about a third of the way up. If you appear at the
+     bottom and dead centre you`re a sitting duck! (you tit!)
+     There is a built-in 3 second period of invunerability to help the 
+     player (or wally!).
+     Make sure your start position is inside the play area.
+
+    EXIT :  Takes you back (yes you`ve guessed it,a quick learner eh!)
+    to the main menu.
+    PLAYER 2 :  These are almost exactly the same menu options as
+    Player 1`s menu,except that it`s labelled Player 2. Mind you don`t
+    get confused by this (yes your only human ?) and check which one
+    you`re on. By the way,Player 2 does`nt appear on screen until he
+    presses the fire button.(you have a joystick,dont you?)
+
+                         f. EDIT ATTACK WAVES.
+
+    The Attack Waves menu lets you place enemies on the map,and create
+    their attack paths using the joystick. (oh,you bought one!good.)
+    The options are insert Enemy,Join Enemies,Delete Enemies,and
+    Flush Enemy List.
+    INSERT ENEMY :  In this option you place the current enemy object
+    on the map. You will see the graphic of the object, like the Edit
+    Object screen.  You select the object you want to place with the
+    Object Number buttons,then click the PLACE button.
+
+    First you coarsely adjust its position with the joystick,making
+    sure you stop just before the part of the map you want.
+    Then you click the joystick button,and you are asked to `fine
+    place`the map position on the screen. ( WARNING: you can only
+    push the map up at this stage, hence the bit about stopping before
+    the section you want the enemy to be on. Dont worry about this too
+    much. You`ll suss (twig)the situation as soon as you use it.)
+    Then you click the joystick (hope its a good one!)button again.
+    You now see the object you want to place on the screen.
+    Place it on it`s starting position,and click the joystick button
+    again.  Now you can input the path the ST. oops Enemy will take,
+    using the old joystick to move it along that path.
+    If you press fire on the joystick the enemy will pause at that spot
+    in the game. Easy,huh?...(bloody brilliant!)
+    Then click (no not the camera) the right mouse button to finish.
+    Then you`ll be asked (who said that?) to store the path you just
+    created by pushing the stick left,or rejecting it by pushing the
+    stick right. The screen will confirm your selection.
+    NOTE : If you place an atari,oops I mean an enemy and make him walk
+    up the screen he might not appear,(good) as he will be walking at the 
+    same speed as the scrolling screen. You could walk him in from the
+    side of the screen,but avoid ipward movement unless you`ve gone 
+    down first.
+    JOIN ENEMIES :  This is a very interesting feature in the SEUCK,
+    and thet is being able to join two or more enemy objects together
+    to make either formations of enemies or big enemies. The only
+    drawback (naughty) with making big enemies is that when you shoot
+    one bit of them,only that bit will explode,so each bit of the big
+    enemy must be independent or it will look a bit funny.
+
+    To join enemies,select the option,select your object using the
+    object number button,then click on the PLACE button.
+    You`ll be asked to place the enemy coarsely by using the joystick,
+    just like the last option. Press fire. Then you`ll be promted to
+    select a fine position using the joystick,again as before.
+    Press fire. Now a big cross with arrows on the points will appear,
+    and the prompt to `Join to which enemy?`. Use the joystick to
+    place the cross on the one (good mag)you want the new object to
+    follow. Click the joystick button.  The object will now appear
+    on the screen and follow the selected other object.
+
+    WARNING : If you have joined set of aliens and you delete the
+    lead object,all the objects joined to it will become stationary.
+
+    DELETE ENEMY :  This will delete the currently selected enemy`s
+    position and movements from the game. You can now replace it
+    if you wish.
+
+    FLUSH ENEMY LIST :  This clears all the enemy movement and
+    positions out of the game,allowing you to place them all afresh.
+    The computer prompts you to confirm yes or no,in case you select
+    this position accidentally!(or cocked it up!)
+
+    The Enemy units and Path Units free give you a running total of how
+    much memory you have left to play with.
+    EXIT; oh dear do we really have to tell you again?
+     
+                          g. EDIT LEVELS
+    Here is where you edit the areas of the map that your levels occupy
+    and how each section behaves in play. There is also a small section
+    devoted to your players starting position and the amount of the screen
+    it can move around in. The options here are Edit Level Parameters,
+    Edit Current Level Map and Player Limitations. oh yes, and exit again.
+
+    EDIT LEVEL PARAMETERS; The level editor is surprisingly small and
+    efficient ,considering what it must do. its here that you adjust the
+    level number, scrolling speed (if any) the duration of the level,level
+    type and what happens at the end of the level.
+
+    Level;is the level number, and pushing the buttons selects the current
+    level to work on, from 1-22.
+
+    Speed; refers to the speed the background scrolls, if any scrolling is
+    being done. This is short range from 1-4, but sticking to 1 or 2 is best
+    for most things, unless you really want to be mean.
+    Duration: selects the duration of the level, if you want it to be time
+    limited, that is, if you want no limit on the time, and want to give to
+    give the level time to play out to the end, select the duration to 255.
+    (NB; clicking the - sign from 1 gets you 255,in case you were about to
+    click it 255 times!)
+
+    Level Type: toggles between scrolling,push scroll and still. still means
+    its a one screen level, and doesn`t scroll. Scrolling means it does 
+    scroll, and at the speed set by speed before. Push scroll means the
+    screen only scrolls when the player pushes against the top edge of his
+    movement area on screen.(see PLAYER LIMITATIONS).
+
+    End of level: refers to what happens when your player reaches the end of
+    the level. Again this box toggles through various options, continue,
+    loop and redraw. Redraw means that when the level is finished the first
+    screen of the next level will automatically appear. Continue means that
+    the next level will scroll down, Continue means that the next level will
+    scroll down Loop will return the player to the beginning of level one.
+
+    EDIT CURRENT LEVEL MAP; Having selected the level type and speed, you
+    can then select the area of the map that makes up the level, Pushing the
+    joystick up takes you to the finish of level marker, pushing down takes
+    you to the start of level marker. Pushing and holding the joystick
+    button allows you to move the level markers up or down the map, so they
+    cover the areas of the map you want. As soon as you`ve placed the
+    markers , you can exit from this option by pressing the right mouse
+    button.
+    EXIT; oh yes you know what I mean!
+               
+                         h. TEST GAME
+   You can now test the game. The options are for a proper game or a cheat
+   mode.
+
+   PROPER TEST; This gives you your first glimpse of your game as it will
+   look to someone who plays it. all the movements, sounds and graphics
+   you designed will be combined. After you`ve basked in your wonderfulness
+   enough, you can press both mouse buttons to return.
+
+   CHEAT MODE; The same as a proper test, except you have infinite lives
+   try the cheat mode first, so you can see how the game is put together
+   without getting waxed before you reach the end, If the game does`nt work
+   for some reason, then you can go back and fix it, then test the game
+   again, before you save it as a finished game. When you select the
+   cheat mode, The game will begin at the currently selected level in EDIT
+   LEVEL PARAMETERS.
+ 
+   The FREE MEMORY COUNTER on this menu will tell you how much chip memory
+   you have got left in your computer. Obviously this will be a larger
+   amount on a 1 meg amiga.
+   EXIT; Aw come on!
+  
+                             i. DISK STORAGE
+
+   To save your work (effort) or load bits you`ve worked on before,you
+   must use one of these options,Load Data,Save Data,Erase Data,and of
+   course eveyones favourite option,Exit.
+
+   LOAD DATA :  This brings up a sub menu asking if you want to Load
+   BACKGROUND,SPRITES,OBJECTS,ATTACK WAVES,LEVELS,SOUND EFFECTS,or 
+   EVERYTHING. SAVE EVERYTHING is the option that will allow you to
+   make a stand-alone game (see chapter 5)The EVERYTHING file is an
+   entire game,and will wipe any data you already have in memory
+   The EVERYTHING file is what you operate on to make a bootable
+   finished game.
+
+   SAVE DATA :  Selecting this option brings up an identical menu to
+   Load, but with Save Background,Sprites,Objects etc.
+
+   ERASE DATA :  This option allows you to free up space by junking
+   files from your data disk. The computer prompts you with `Confirm
+   Erase` yes or no,so you can get out of it if you select it
+   by mistake.
+
+   NEW DRIVE :  This option allows you to change the default disk
+   drive eg, DF0,DF1,DH0 etc.
+   EXIT : you must know what this is by now?
+
+                         j.EXIT SEUCK.
+   And whoever said there was no way out?.....Yes this is the way out
+   of SEUCK,and you are given the option to Go Ahead And Quit,or Cancel
+   . This is just in case you selected this option by accident.
+
+                    MAKING A FINISHED GAME FROM SEUCK
+
+   In order to make a finished game from one of your pathetic efforts
+   you must make a data disk or SEUCK Game Disk. This will be the disk
+   you use for storing the crap you just done,oh well practice makes
+   perfection,pitty Jeff Minter didn`t practice enough,sheep shagger.
+   plus it will contain everything you need to boot your game from
+   scratch,or allow it to be started from an icon on workbench.
+
+   MAKING a GAME DISK.
+   Load your workbech disk,(cant find it?) and format a new disk,
+   After the disk is formatted select Rename from wokbench menu bar
+   and rename it SEUCK Games Disk at the promt.
+
+   Now insert the master games disk into your drive and open it up.
+   Double click the Make Games disk icon with the left mouse button
+   .Follow the on screen prompts until all relevant files for making
+   the stand alone game are in the computers ram.
+
+   You will then be prompted to insert the blank formatted disk you have
+   named SEUCK Games Disk and all the files will be transferred to this 
+   disk.This is a good time to make several spare copies of the SEUCK
+   games disk.It can be copied with workbench and will save you going
+   through the preparation stages each time you need a new disk but be
+   sure to rename each copy SEUCK games disk.
+
+                                DEFAULT GAME   
+   To make a stand alone game you will have by now created players and 
+   objects with sound effects,on screen start position and movement paths
+   etc. As you create each part, save out the file to your SEUCK games 
+   disk using the same name for all the different types of data.
+   When you are happy with your design work,ensure all separate parts are 
+   in memory (check that it works by selecting test game).Now you can save
+   out all this separate data as one file; so that with your SEUCK Games 
+   disk inserted, select Save Everything and use the name you have chosen 
+   to give your game.
+
+   Boot up your workbench and then insert your SEUCK games disk.You can
+   prepare your loading screen by using any utility that saves to IFF
+   format.Make sure you save to the EDIT_FILES directory.This will 
+   automatically be included as part of the game when you click the icon
+   .If you have not included a loading screen there will be a message
+   indicating that this file has not been loaded and the name of the game
+   will be displayed instead
+
+                                   Autobooting
+   In order to autoboot your game when you insert the disk at an inssert 
+   workbench prompt,you must use the notepad facility in your utilities 
+   drawer on workbench to alter a file called startup-sequence in the S
+   directory on your master games disk.
+   (Startup sequence is a text file which the Amigas operating system
+   looks at when it starts up. It then executes any commands which are 
+   that file.See your Amiga manual for details of startup sequence).
+   You can replace LOADWB command with the name of your game.
+                                      

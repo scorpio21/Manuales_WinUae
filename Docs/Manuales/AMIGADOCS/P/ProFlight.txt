@@ -1,0 +1,3417 @@
+ported from the ST and edited by -- scooter--
+
+
+THE PROFLIGHT FLIGHT DECK
+-----------------------------------------------------------------------------
+
+	The Mouse			 Press Alternate and 3
+
+		Pitching and Rolling
+		Yawing
+		The Keyboard
+		Keypad Controls
+		Other Keypad Controls
+
+	  Menus                          Press Alternate and 4
+		The Main Menu
+		Simulator
+		Visual
+		Auto-pilot/Nav
+		Training
+		Combat
+		Way point
+	        Mission plannin
+		Weather
+
+		HUD
+			F1: HUD
+			F3: Compass
+			F4: G spot
+			F5: Flight path
+			F6: VSI
+			F7: Incidence
+			F8: AP error
+			F9: ILS bars
+
+
+	Instruments                    Press Alternate and 5
+			The Instrument Panel
+			Artificial Horizon
+			Airspeed Indicator
+			Machmeter
+			Altimeter (ALT)
+			Vertical speed indicator
+			Angle of attack indicator
+			Auto throttle indicator
+			Control surface indicators
+			Engine Thrust (RPM)
+			Fuel gauge
+			Gear
+			Air and Wheel brake indicators
+			Wing sweep angle
+			Flap angle
+			G force indicator
+    		        Ammunition gauge
+			Arm/Safe Weapon System
+			Radar display
+			Distance measurement equipment
+			World Position Indicator
+
+
+		Head Up Display	               Press Alternate and 6
+
+			Menu F2: Horizon
+			Menu F3: Compass
+			Menu F4: G spot
+  		        Menu F5: Flight path
+			Menu F6: VSI
+			Menu F7: Incidence
+			Menu F8: AP error
+			Menu F9: ILS bars
+
+
+	Navigation and weapon-aiming sub-system	  Press Alternate and 7
+
+		Navigation Programming
+
+		Auto-pilot Flight Options
+
+			Menu F1: Auto Rudder
+			Menu F2: HDG Rudder/Stick
+			Menu F3: Rudder
+			Menu F4: Auto Wing and Flaps
+			Menu F5: Auto Stall Limit
+			Menu F6: Auto Bank Stabilizer
+			Menu F7: Auto Pitch Stabilizer
+
+		Auto-pilot Navigation Modes
+
+			Altitude/Heading Mode
+			Nav Target Mode
+ 		        Way Point Mode
+			Coupled Approach Mode
+			Navigation Director
+
+FLIGHT THEORY					  Press Alternate and 8
+---------------------------------------------------------------------------
+           Ground Instruction
+
+	   Planes of movement
+
+		Wing lift
+		Drag
+		Parasitic drag
+		Wing drag
+		Flight envelope
+		Flaps and slats
+		Turning
+		Turn rates
+		Stalling
+		Stall recovery
+		Angle of Incidence
+		Black out
+	Pre-Flight Checklist
+	Controlling the Tornado in flight.
+		Straight and level flight
+		Turning
+		Taking Off
+	Climbing/Descending
+		Climbing/Descending Turns
+		The Zoom Climb
+		High Altitude High Speed Flight
+		Flying Without Position Hold
+	Landing
+	 		Approach path
+ 			Final approach
+			Round-out
+			Hold-off
+			Ground effect
+			Instrument landing system
+		Demonstration Landings
+		Landing practice
+			Maintaining the Glide Slope
+			Maintaining the Extended Runway Centre Line
+			Flying the Approach Path
+			Approach Speed
+			Rounding Out
+			Holding Off
+			Touchdown
+			Landing with Wind
+
+		General pilot notes on landing
+
+	Common Problems and Cures
+
+ADVANCED FLYING TECHNIQUES		Press Alternate and 9
+
+	Aerobatics
+
+		Basic loop
+		Aileron roll
+		Barrel roll
+		Stall turn
+		Aileron turn
+		Vertical roll
+		Four point hesitation roll
+		Half roll off the top of a loop
+		Half roll
+		Derry turn
+		Inverted flight
+
+COMBAT		                        Press Alternate and 0
+
+	         Combat Mission Planning
+
+		Target Designation
+		Stores
+			Available Stores
+
+		Weapons Operation
+			Bomb Delivery System
+			Air to Air Gunnery
+			Air to Air Missiles
+			Missile Deception Jamming
+
+		Combat Training
+
+			Target Acquisition
+		        Combat Objectives
+	                Dogfighting
+			High speed Yo-Yo
+			Low speed Yo-Yo
+			Flip Yo-Yo
+			Lag pursuit roll
+			Break turn
+			High-'g' barrel roll
+			Scissors
+
+APPENDIX
+-------------------------------------------------------------------------------
+
+GLOSSARY OF TERMS
+-------------------------------------------------------------------------------
+
+			  .________________________.
+			  |  The ProFlight Manual  |
+			  ``------------------------'
+
+In order to help you enjoy ProFlight, the manual is laid out in an order that
+will help you decide how much of the documentation to study. Please take the
+time to read this section, as it provides some important information.
+
+SECTION			CONTENTS
+-------------------------------------------------------------------------------
+Welcome to ProFlight		This chapter covers backing up your program
+				disk, loading the program and system
+				compatibility. Everybody should read this
+				section.
+
+Quick Tour			To get the best out of the ProFlight
+				simulator, there is an extensive manual
+				provided with the program. But if you would
+				like to take an immediate look at the way the
+				program works, follow the instructions in the
+				Quick Tour and experience a few short flights
+				for yourself.
+
+The Panavia Tornado		A short history of the development and test of
+				the Tornado fighter. Plus many technical
+				details - the operational parameters,
+				performance and physical specifications of the
+				Tornado - and the simulation specs of the
+				ProFlight program.
+
+ProFlight Flight Deck		The ProFlight controls - the Mouse, Keyboard,
+				instrument panel and Head Up Display.
+
+				The ProFlight menu system is covered in detail
+				together with information on using and
+				programming the auto-pilot, different
+				navigation modes and targets as well as
+				setting way points. Essential reading.
+
+Flight Theory			A detailed introduction for every new pilot,
+				this section describes why an aircraft flys,
+				including lift, drag, turns, stalls and the
+				ways a pilot can render himself unconscious
+				while flying.
+
+				It also contains a step by step tutorial guide
+				that teaches you to fly correctly. Straight
+				and level flight, turns, taking off and
+				landing (including Instrument Landings), plus
+				climbing and descending turns, high-altitude
+				flight and other manoeuvres. Essential.
+
+Advanced Flying			The aerobatic course - loops, rolls, stall
+				turns and inverted flight.
+
+Combat				Mission Planning, Tornado stores, weapons
+				operation and combat training mode. Essential.
+
+				Plus dogfighting; the section you will wish
+				you had paid more attention to when you get
+				shot down repeatedly by more skilled pilots -
+				including Yo Yo's, lag pursuits rolls and the
+				scissors.
+
+Keyguide			An appendix in the form of a table of keyboard
+				controls.
+
+Glossary			The Technical terms and acronyms used in this
+				manual.
+
+
+			  .________________________.
+			  |  Welcome to ProFlight  |
+			  ``------------------------'
+
+H
+ProFlight Program Specifications ==============================================
+
+
+ProFlight uses the complex flight equations which mathematically model the
+flight of all the aircraft and missiles to provide maximum realism. Some of
+the features provided by ProFlight are:
+
+*	Standard atmosphere table for all flight equations.
+
+*	6 degrees of freedom of motion.
+
+*	Wing lift for sweep and flaps.
+
+*	Induced and profile drag for wing sweepback and flaps.
+
+*	Drag due to gear, air brakes, elevators and rudder at all angles of
+	pitch, roll and yaw.
+
+*	Fully Aerobatic simulation including:
+	-	Stalling
+	-	Spinning
+	-	90 degree aileron turns
+	-	Knife edges
+
+*	Auto rudder, auto wing sweep and flaps, bank and pitc limits for use
+	in training.
+
+*	Ground effect.
+
+*	Gravitational forces.
+
+*	Wheel braking.
+
+*	Ground steering.
+
+*	Yawing moments for rudder demand and slip etc.
+
+*	Calculation of all up weight of aircraft.
+
+*	'g' indication and variable limits.
+
+*	Head-up-Display artificial horizon, 'g' indicator and navigation
+	director.
+
+*	Ejection seat.
+
+*	Comprehensive instrument panel.
+
+*	Four function auto-pilot.
+
+
+*	Navigation aids including:
+	-	Way points
+	-	Distance measuring equipment
+	-	Heading and bearing
+	-	World position display
+
+*	Two-function auto throttle.
+
+*	Full sound effects including:
+	-	Engine sound
+	-	Missile sound and explosions
+	-	Cannon fire
+	-	Audible early warning system
+
+*	Correct relationship between indicated and true air speeds.
+
+*	Relationship between 'g' and rate of turning and pitching for true
+	airspeed.
+
+*	Cannon shells for use against aircraft or ground targets.
+
+*	Deflection and radar elevated gun sights.
+
+*	Currently computed impact point with fly to line bomb sight.
+
+*	Missile sight.
+
+*	Heat seeking and radar guided missiles.
+
+*	Early warning deception jammer.
+
+*	Collision detection with all objects.
+
+*	Radar with range from 3nm to 46nm.
+
+*	200 nm^2 of permanently loaded terrain database, with capability for
+	up to 819000 nm^2 of terrain.
+
+*	Accurate start map for January 1st at latitude 51.5 degrees north.
+
+*	World position accuracy better than 0.00001 ft.
+
+*	Angular accuracy better than 0.01 deg.
+
+*	Velocity accuracy better than 0.00006 knots.
+
+*	Angle of attack accuracy better than 0.0001 degrees.
+
+
+
+			._____________________________.
+			|  The ProFlight Flight Deck  |
+			``-----------------------------'
+
+The Mouse =====================================================================
+
+In a traditional aircraft, the main control is the 'stick' or 'wheel'. In
+ProFlight this control is replaced by the mouse.
+
+
+
+                                 Pitch Down
+                                    /|\
+                      Yaw Left       |       Yaw Right
+                              \      |      /
+                              .\-----+-----/.
+                              | \    |    / |
+                              |      |      |
+                              |------+------|
+                              |             |
+             Roll Left <----- |             | -----> Roll Right
+                              |             |
+                              |    Mouse    |
+                              |             |
+                              |_____________|
+                                     |
+                                     |
+                                    \|/
+                                  Pitch Up
+
+Pitching and Rolling ==========================================================
+
+A conventional aileron system consists of two hinged control surfaces on the
+outboard trailing edge of the wing which move differentially. Deflecting these
+surfaces causes the airflow around them to change increasing the lift on one
+wing and reducing it on the other, causing a roll.
+
+Similarly, a conventional elevator system consists of two hinged control
+surfaces on the tailplane of the aircraft which move in unison. Deflecting
+these surfaces causes the airflow around them to change altering the lift
+generated.
+
+In the Tornado the conventional aileron / elevator system is replaced by a
+'taileron', a single control surface which acts as both elevator and aileron.
+The fly-by-wire computer moves the tailerons together for a pitching motion,
+and differentially for a rolling motion.
+
+Moving the mouse forward and backwards controls the pitching of the aircraft,
+i.e. motion in the lateral plane. Moving left and right controls the rolling
+of the aircraft, i.e. motion in the longitudinal plane. The motion of the
+mouse causes the fly-by-wire computer to alter the settings of the 'taileron'
+(ailerons/elevators).
+
+Yawing ========================================================================
+
+The rudder is a hinged control surface on the rear fin of the aircraft.
+Movement of the rudder changes the sideways forces on the aircraft, causing a
+yaw to the left or right, i.e. rotation of the aircraft round a vertical axis
+that runs through its centre.
+
+Pressing the left or right mouse button controls the yawing of the aircraft by
+altering the setting of the rudder.
+
+The Keyboard ==================================================================
+
+Supplementing the mouse, the keyboard provides additional controls for various
+ProFlight options. Some keys have a secondary function (indicated in italics,
+underneath the main entry) when using the mission area display map.
+
+@4Key:@5 A                                                        Engage Air Brakes
+-------------------------------------------------------------------------------
+The Tornado is equipped with air brakes at the rear of the aircraft, on either
+side of the fin. Used primarily to reduce speed quickly and in certain
+aerobatic manoeuvres, they are also useful in combat when a sudden change in
+airspeed is required to outwit enemy planes or missiles. Air brakes radically
+affect the performance of the aircraft and should be used with caution.
+Current status of the airbrakes is shown on the instrument panel.
+
+@4Key:@5 B                                                       Engage Wheel Brake
+-------------------------------------------------------------------------------
+To achieve the shortest possible take-off, the Tornado is brought to full
+engine power while held stationary on the runway by the wheel brakes. Only when
+full power is indicated are the brakes released.
+
+Wheel brakes are also used on landing to help reduce the ground speed of the
+aircraft. Current status of the wheel brakes is shown on the instrument panel.
+
+@4Key:@5 C                                                  Auto-pilot Heading Mode
+-------------------------------------------------------------------------------
+When the auto-pilot is operating, the current altitude and heading set in the
+auto-pilot's memory can be displayed on the screen, and may be adjusted to a
+new setting by moving the mouse. Default mode is in both axes of movement, i.e.
+moving the mouse from side to side alters the set heading; moving forwards or
+backwards changes the set altitude.
+
+Use KEY C to switch the heading adjustment to the mouse buttons, so that
+movement of the mouse only affects the altitude. Holding down the left button
+then rotates the heading anticlockwise (numbers decrease), right button rotates
+the heading clockwise (numbers increase).
+
+Altitude adjustments are sensitive to mouse movement. Observe the + or - sign
+by the number, indicating whether the value is increasing or decreasing. Large
+mouse movements increase or decrease the value more rapidly. To stabilise the
+value, use small mouse movements and watch for + and - signs changing rapidly.
+Find the null point between them and release the mouse, which will allow the
+new value indicated to be set.
+
+@4Key:@5 D                                                         Deception Jammer
+-------------------------------------------------------------------------------
+When under ground-to-air or air-to-air attack, holding down KEY D will
+continuously jam any incoming missile while you perform the high-g evasive
+actions required to lose it. Ideal jamming period is about 10 seconds before
+impact.
+
+@4Key:@5 E                                              Select Engine Auto Throttle
+-------------------------------------------------------------------------------
+Airspeed of the aircraft is determined by measuring air pressure. At sea level,
+this measurement is accurate but at high altitude, where the air is
+considerably thinner, such measurements are unreliable. The automatic throttle
+settings account for these variables.
+
+Select from three modes by repeatedly pressing KEY E, which rotates the
+options; AOFF (Auto-throttle Off), where throttle adjustments are made manually
+by the pilot; Automatic Indicated Airspeed (AIAS), where the engine management
+system will maintain the indicated airspeed; and Automatic True Airspeed,
+where a true airspeed will be maintained irrespective of the indicated
+airspeed. Current status of the throttle is shown on the instrument panel.
+
+@4Key:@5 F                                                             Deploy Flaps
+-------------------------------------------------------------------------------
+(Complementary to KEY R command Retract Flaps)
+
+Increments value of flap extensions setting. Single keypresses increment in
+single units; holding down KEY F will cause the value to increment faster.
+Current position of the flaps is shown on the instrument panel.
+Flap settings can be adjusted automatically using Auto Wing and Flaps (Flight
+Options menu) but in combat situations the pilot will need to make manual
+settings to obtain maximum performance.
+
+4 Key:5 G                                                     Landing Gear
+                                                          4 Go to Way Point
+-----------------------------------------------------------------------------
+In normal flight, KEY G toggles landing gear between retracted and extended
+positions. Current status of the gear is shown on the instrument panel.
+In Mission Planning mode, this key is used to centre the map display directly
+over a selected way point (from a choice of 8). After KEY H is pressed, enter
+the number of the required way point using the keys at the top of the keyboard
+and press return. Use the delete key to remove incorrect entries.
+
+4Key:5 H                                                          HUD Horizon                                                    4 Change Way Point Height
+-----------------------------------------------------------------------------
+Toggles the Head Up Display horizon bars, which indicate the pitch and roll of
+the aircraft relative to the ground.
+
+In mission planning mode, press this key to enter a new way point height for
+the selected way point. After pressing KEY H, enter the new altitude value
+using the keys at the top of the keyboard and press return. Use the delete key
+to remove incorrect entries.
+4 Key:5 I                                                    Interrupt Simulator
+----------------------------------------------------------------------------
+Puts the simulator in pause mode. ProFlight records continuously updated
+positional information of the Tornado at 5 second intervals for the last 175
+seconds of flight. In Interrupt mode, it is possible to step back in five
+second increments through the recorded positions and recommence flight from a
+chosen point (up to the maximum of 175 seconds elapsed time).
+
+Recorded position options are displayed when any key is pressed while ProFlight
+is interrupted. You will be asked to enter one of three options, selected by
+the indicated function key. F1 will move the aircraft to the last recorded
+position, F2 moves it to the next position. The recorded position is indicated
+by a negative value in elapsed seconds. F10 restarts from the point at which
+you interrupted the simulator, or from the recorded position you have selected.
+@4Key:@5 J                                                            Increase Trim
+-------------------------------------------------------------------------------
+(Complementary to KEY U command Decrease Trim)
+
+Adjusts the elevator element of the 'Taileron' by small amounts. Used in flight
+to trim the altitude of the aircraft for straight and level flight, accounting
+for variations in weight, payload and atmospheric conditions. Trim settings
+are indicated on the instrument panel.
+
+@4Key:@5 K                                                     Dynamic/Fixed Rudder
+-------------------------------------------------------------------------------
+Toggles between dynamic rudder, in which the rudder returns to a central point
+after being offset, and fixed rudder, which maintains any offset until new
+input is received.
+
+4 Key                                                   Cockpit/Observer View
+-----------------------------------------------------------------------------
+Toggles between the pilot's view from the cockpit and a ground observer within
+visual range of the plane. When viewing from the ground, you may need to alter
+the direction of view using the cursor keys in order to see the aircraft.
+
+4 Key                                             HUD Navigation Display (ND)
+---------------------------------------------------------------------------
+Shows a 3D model of the aircraft in the Head Up Display, which indicates the
+direction and orientation required for the aircraft to fly to the selected way
+point or target.
+
+4 Key                                            Opportunity Ground Target Lock
+--------------------------------------------------------------------------
+Programmed ground targets are divided into Primary and Opportunity targets.
+When they appear on the radar, KEY O will select one and lock the weapons
+system to it. If multiple Opportunity targets are programmed, repeatedly
+pressing this key will step through them. The selected target is highlighted
+on the radar display.
+
+4 Key                                               Primary Ground Target Lock
+                                                    4Select Primary Target
+---------------------------------------------------------------------------
+Primary Target lock functions identically to Opportunity Lock, except that it
+selects the programmed Primary Target when it comes into radar range. The
+Primary target is highlighted on the radar display when selected.
+
+In Mission Planning mode, press KEY P to nominate a target under the cursor as
+Primary.
+
+4 Key                                                            Retract Flaps
+---------------------------------------------------------------------------
+(Complementary to KEY F command Deploy Flaps)
+
+Decrements value of flap extensions setting. Single keypresses decrement in
+single units; holding down KEY R will cause the value to decrement faster.
+Current position of the flaps is shown on the instrument panel.
+
+Flap settings can be adjusted automatically using Auto Wing and Flaps (Flight
+Options menu) but in combat situations the pilot will need to make manual
+settings to obtain maximum performance.
+
+4 Key                                                         Sweep Wings Back
+---------------------------------------------------------------------------
+(Complementary to KEY W command Speed Wings Forward)
+
+Wings can be swept in single degrees, of in larger steps if the key is held
+down. Wing geometry range is between 25 and 68 degrees.
+
+4 Key                                                    HDG to Reciprocal
+-------------------------------------------------------------------------
+Toggles display between current compass heading and 180 degree reciprocal of
+that course.
+
+4 Key                                                        Decrease Trim
+--------------------------------------------------------------------------
+(Complementary to KEY J command Increase Trim)
+
+Adjusts the elevator element of the 'Taileron' by small amounts. Used in flight
+to trim the attitude of the aircraft for straight and level flight, accounting
+for variations in weight, payload and atmospheric conditions. Trim settings are
+indicated on the instrument panel.
+
+4 Key                                                  Set Static Viewpoint
+----------------------------------------------------------------------------
+When in observer view (outside the aircraft) press KEY V to reset the
+observation position to a point close behind the Tornado.
+
+4 Key                                                  Sweep Wings Forward
+---------------------------------------------------------------------------
+(Complementary to KEY S command Speed Wings Back)
+
+Wings can be swept in single degrees, of in larger steps if the key is held
+down. Wing geometry range is between 25 and 68 degrees
+
+4 Key                                                   Increase 'g' Limit
+----------------------------------------------------------------------------
+Increases the 'g' limit for the aircraft set by the pilot. The fly-by-wire
+computer will limit control input to range that will prevent the aircraft from
+exceeding the set limit.
+
+4 Key                                              HUD 'g' Indicator/Ring
+------------------------------------------------------------------------------
+Turns on the HUD 'g' indicator, a point on the display that is displaced from a
+central ring by the force of gravity on the aircraft as the inertia is
+displaced in a turn, dive or climb. The ring indicates a 2'g' boundary if the
+indicator is kept inside the circle of dots.
+
+4 Key                                                   Decrease 'g' Limit
+---------------------------------------------------------------------------
+Decreases the 'g' limit for the aircraft set by the pilot. The fly-by-wire
+computer will limit control input to range that will prevent the aircraft from
+exceeding the set limit.
+
+4 Key                                           Increase Thrust, ATAS, AIAS
+----------------------------------------------------------------------------
+In AOFF mode (automatic throttle), this key will increment the throttle
+setting. In either ATAS or AIAS programmable throttle modes (auto true and
+indicated airspeeds) use KEY > to set the programmed value which the engine
+management system will maintain during flight. Select auto throttle using
+G KEY E
+
+4 Key5 <                                        Decrease Thrust, ATAS, AIAS
+---------------------------------------------------------------------------
+Identical in operation to Increase thrust (above) but reduces power settings.
+
+4Key:@5 (                                              Step Target Aircraft Lock +
+-------------------------------------------------------------------------------
+Opportunity aircraft targets that come into radar range may be selected for the
+weapons system by rotation. The currently selected target is highlighted by the
+target designator. Use this key to step forward through the computer's target
+list.
+
+@4Key:@5 )                                              Step Target Aircraft Lock -
+-------------------------------------------------------------------------------
+Identical in function to Step Target Aircraft Lock +, except that this key will
+step back through the target list.
+
+@4Key:@5 ;                                             Decrease Control Sensitivity
+-------------------------------------------------------------------------------
+Decrease mouse input sensitivity, requiring more hand movement to change
+control surfaces.
+
+@4Key:@5 @@                                             Increase Control Sensitivity
+-------------------------------------------------------------------------------
+Increases mouse input sensitivity, requiring less hand movement to change
+control surfaces.
+
+@4Key:@5 TAB                                                      Toggle HUD On/Off
+-------------------------------------------------------------------------------
+Turns Head Up Display on or off.
+
+@4Key:@5 Insert                                                   Auto-pilot On/Off
+-------------------------------------------------------------------------------
+Toggles auto-pilot on or off. If no AP modes are selected, turning auto-pilot
+on will cause it to maintain the current heading and altitude of the aircraft.
+
+@4Key:@5 Backspace                                               Auto-pilot AH Mode
+-------------------------------------------------------------------------------
+Toggles Altitude/Heading Mode on or off. If auto-pilot AH Mode is set, the
+pilot can modify the flight path using the elevator component of the 'taileron'
+to change the altitude, and the rudder to change heading.
+
+@4Key:@5 Delete                                                  Auto-pilot TG Mode
+-------------------------------------------------------------------------------
+Toggles TarGet Select Mode on or off. Auto-pilot TG Mode should be selected
+when Primary or Opportunity Targets are within radar range, prior to locking on
+the weapons system.
+
+@4Key:@5 Help                                                          Pause Flight
+-------------------------------------------------------------------------------
+Press the Help key to pause the simulator at any point. Unlike KEY I, which
+interrupts the simulator and gives options to step back through the last
+recorded positions, the Help key pause control simply freezes the computer
+until you press it again. * Actually, this key definitely did nothing on the
+two originals we received of this game! *
+
+@4Key:@5 #                                                       Auto-pilot WP Mode
+-------------------------------------------------------------------------------
+Toggles Way Point Mode on or off. In Way Point mode, the auto-pilot will fly
+the aircraft to the selected Way Point.
+
+@4Key:@5 Right Cursor Key                                                Look Right
+-------------------------------------------------------------------------------
+Rotates the pilot's view to the right, either from the cockpit or an observer
+position.
+
+@4Key:@5 Left Cursor Key                                                  Look Left
+-------------------------------------------------------------------------------
+Rotates the pilot's view to the left, either from the cockpit or an observer
+position.
+
+@4Key:@5 Up Cursor Key                                                      Look Up
+-------------------------------------------------------------------------------
+Rotates the pilot's view upwards, either from the cockpit or an observer
+position.
+
+@4Key:@5 Down Cursor Key                                                  Look Down
+-------------------------------------------------------------------------------
+Rotates the pilot's view downwards, either from the cockpit or an observer
+position.
+
+@4Key:@5 Clr Home                                              Reset to normal View
+-------------------------------------------------------------------------------
+Returns the viewpoint to direct ahead and level.
+
+@4Key:@5 1                                                  Select Day, Dusk, Night
+-------------------------------------------------------------------------------
+Rotates selection of view effects, simulating day, dusk or night-time flying.
+
+@4Key:@5 2                                                     Solid Ground Objects
+-------------------------------------------------------------------------------
+Ground detail may be selected as filled or unfilled. Turning Solid Ground
+Objects off enables the computer to update the screen faster, providing
+smoother flying.
+
+@4Key:@5 3                                                   Solid Elevated Objects
+-------------------------------------------------------------------------------
+Elevated objects such as building and topographic features may be toggled
+between being displayed as filled or wire-frame using this key. Turning Solid
+Elevated Objects off enables the computer to update the screen faster,
+providing smoother flying.
+
+@4Key:@5 4                                                      Solid Enemy Objects
+-------------------------------------------------------------------------------
+Toggles between solid and wire-frame enemy objects, including target
+installations and aircraft. Turning Solid Enemy Objects off enables the
+computer to update the screen faster, providing smoother flying.
+
+@4Key:@5 5                                                       Artificial Horizon
+-------------------------------------------------------------------------------
+Flying straight and level at 30,000ft, the nearest ground in view is some 43
+miles away. At 500ft it is only 25 miles away. The difference in distance
+renders the Horizon line of the HUD inaccurate. For this reason the world
+horizon may be changed to an artificial one on which the Horizon bar may be
+aligned to cancel any variation in pitch.
+
+@4Key:@5 6                                                                     Grid
+-------------------------------------------------------------------------------
+Use this key to turn on a grid line overlay on the ground, which assists in
+orientation problems but requires less screen re-drawing than filled ground
+detail.
+
+@4Key:@5 7                                                                    Stars
+-------------------------------------------------------------------------------
+Turns the star display on and off. Like the real thing, they are only visible
+at night.
+
+@4Key:@5 8                                                              Fly to Line
+-------------------------------------------------------------------------------
+The fly to line option is part of the Head Up Display system. When selected, a
+line will appear in the display indicating where the inclined lift force
+generated by the wings is acting. The lift strength is shown by the length of
+the line.
+
+@4Key:@5 9                                                    Decrease Visual Range
+-------------------------------------------------------------------------------
+Reduces range of the pilot's view, so that less ground detail can be seen. This
+option can be used to increase frame rate and smoothness if visual contact is
+needed only over short distances, when landing or during an attack run, for
+example.
+
+@4Key:@5 0                                                    Increase Visual Range
+-------------------------------------------------------------------------------
+Complementary function to KEY 9.
+
+@4Key:@5 -                                                     Decrease Radar Range
+-------------------------------------------------------------------------------
+Radar range can be set from five options, from 3, 5, 11, 22 or 46 miles. Use
+this key to step down through the range.
+
+@4Key:@5 +                                                     Increase Radar Range
+-------------------------------------------------------------------------------
+Complementary function to KEY -.
+
+
+Keypad Controls ===============================================================
+
+The following six keypad control have similar functions in both Flight and
+Mission Planning modes and this explanation applies to all the keys in this
+group.
+
+Use keys in this group in flight mode to move the aircraft when Position Skew
+is activated, which allows static repositioning of the aircraft in all three
+axis. Once the aircraft begins to skew in the chosen direction it will continue
+to move until you input keypresses in the opposite direction, or press KEYPAD /
+to stop any motion and reset the aircraft's position at that setting.
+
+In Mission Planning mode, use this group of keys to move around the terrain
+map, although if you release a key the map will stop scrolling. The Move Up
+and Move Down keys (KEYPAD +/-) alter the zoom level of map magnification.
+
+
+@4Keypad:@5 )                                                            Move North
+-------------------------------------------------------------------------------
+
+@4Keypad:@5 8                                                            Move South
+-------------------------------------------------------------------------------
+
+@4Keypad:@5 7                                                             Move West
+-------------------------------------------------------------------------------
+
+@4Keypad:@5 9                                                             Move East
+-------------------------------------------------------------------------------
+
+@4Keypad:@5 -                                                             Move Down
+                                                                        @4Zoom In@5
+-------------------------------------------------------------------------------
+
+@4Keypad:@5 +                                                               Move Up
+                                                                       @4Zoom Out@5
+-------------------------------------------------------------------------------
+
+
+Other Keypad Controls =========================================================
+
+@4Keypad:@5 /                                        Reset N/S, W/E and Height Slew
+                                                       @4Move back to home runway@5
+-------------------------------------------------------------------------------
+When using position slew, the aircraft will continue to move in the chosen
+direction (or directions) until this key is pressed, at which point the
+aircraft's new position will be set. Flight can then continue from this
+position.
+
+In Mission Planning mode, press KEYPAD / from any position on the map to return
+to the home runway.
+
+@4Keypad:@5 1                                               Select C.CP. Bomb Sight
+-------------------------------------------------------------------------------
+Select the C.CP Bomb Sight only if a programmed ground target has valid
+identification on the radar, the weapons computer is locked on and the bomb is
+armed. Bomb release is automatic.
+
+@4Keypad:@5 2                                   Select Gun Deflection / Radar Sight
+-------------------------------------------------------------------------------
+Select Gun Deflection Sight only if a target has been acquired, since the
+cannon system can only track targets for range and deflection once the radar
+has locked on. Some enemy aircraft may be capable of jamming the Gun Deflection
+guidance system.
+
+@4Keypad:@5 3                                                  Select Missile Sight
+-------------------------------------------------------------------------------
+Select the Missile Sight only if a target has been acquired and the weapons
+computer locked on. Missiles should only be launched when 'g' forces are
+minimal, or as close to 1'g' as is possible under combat conditions.
+
+@4Keypad:@5 Enter                                                 Arm / Safe Weapon
+-------------------------------------------------------------------------------
+Before any weapons can be fired, the master arm switch must be set. Use the
+KEYPAD Enter key to arm a weapon only after it has been selected.
+
+@4Keypad:@5 0                                                 Select AIM-9L Missile
+-------------------------------------------------------------------------------
+Selects AIM-9L missile ready. A target must first be acquired before weapon
+selection and the master arm switch must be enabled before the missile can be
+launched.
+
+@4Keypad:@5 .                                              Select Sky Flash Missile
+-------------------------------------------------------------------------------
+Selects Sky Flash missile ready. A target must first be acquired before weapon
+selection and the master arm switch must be enabled before the missile can be
+launched.
+
+@4Key:@5 Space Bar                                               Fire Gun / Missile
+-------------------------------------------------------------------------------
+If a valid target has been acquired and selected, the correct choice of missile
+or cannon made and the selected weapon armed, press the SPACE BAR to launch the
+missile or fire the cannon. Bombs do not require manual release since the
+payload will be dropped automatically at the correct time by the weapons
+system computer.
+
+@4Keys:@5 Escape + both Shift Keys                                    EJECTION SEAT
+-------------------------------------------------------------------------------
+For use only in the most dire of circumstances. The Tornado is fitted with
+Martin-Baker Mk10A rocket-assisted ejection seats rated effective from zero
+speed to Mach 2, and from ground level to 50,000ft. Canopy ejection is
+automatic.
+
+Ejection seats are by no means reliable. Although in most circumstances they
+will indeed eject the occupant, there is some probability of injury or death as
+a result. The pilot may experience temporary unconsciousness due to the violent
+'g' forces incurred by the rocket system, although parachute deployment is
+automatic.
+
+After ejection, and if the pilot survives, he will be returned to the airfield.
+
+
+Menus =========================================================================
+
+ProFlight can be configured using the menus provided. The function keys F1-F10
+may be preceded by a tick (selected) or a '-' which indicates that the
+selection is not permitted by the simulator at the moment. i.e. if your current
+mode is combat then crash inhibit is not allowed. Function key driven menus
+were chosen because mouse pointing interferes with flying.
+
+Menus are nested; some menu entries call other menus. All menu options are
+called from a main menu (F1), under which nine other subject menus for various
+ProFlight functions can be found. These menus in turn may call additional sub-
+menu options. Function key F10 always exits from any menu level. Repeatedly
+pressing F10 (once for each menu level opened) will return you to the
+simulator.
+
+In this text, a sub-menu entry is indicated by an F number prefix in brackets,
+which indicates the subject menu from which the sub-menu is chosen.
+
+The Main Menu ============================================== From Simulator: F1
+
+Pressing F1 from the simulator will bring up the main, or 'root' menu:
+
+F1	SIMULATOR		Pressing the function keys shown
+F2	VISUAL			bring up subsequent menus. The F10
+F3	AUTO PILOT/NAV		key always exits the current level
+F4	TRAINING		of menus.
+F5	COMBAT
+F6	WAY POINT
+F7	MISSION PLANNING
+F8	WEATHER
+F9	HUD
+F10	EXIT
+
+In the menus displayed, press the appropriate function key will either bring up
+a further menu, or turn the option on and mark it with a tick. If an option is
+marked with a minus sign (-) it is unavailable (due to some other options
+currently being selected).
+
+Simulator ======================================================= Main Menu: F1
+
+F1	CRASH INHIBIT
+F2	COMBAT MODE
+F3	EMPTY NO STORES/TRUE A/C WEIGHT
+F4	BANK LIMITER
+F5	PITCH LIMITER
+F6	DEMO OPTIONS
+F10	EXIT
+
+F1: Crash Inhibit
+
+When enabled, ProFlight will prevent the aircraft from being destroyed upon
+crashing into other objects. In combat mode this option is not available.
+
+If you hit the ground with crash inhibit on, you vertical motion is halted,
+however any horizontal motion continues. If your IAS is subsequently too low,
+you will not be able to take off and you should stop before attemping to
+continue, so that ProFlight can automatically lower the landing gear.
+
+F2: Combat mode
+
+The ProFlight simulator operates in two modes: Training and Combat. Combat may
+only be selected while on the ground and stationary. Attacking aircraft and
+ground installations are introduced into the simulator when combat mode is
+selected. Whilst in combat mode several flight simplification options, such as
+crash inhibit are disabled (marked with a -).
+
+F3: Empty no stores/True aircraft weight
+
+When this option is selected the weight of the aircraft is increased to reflect
+the true weight. Flying without this option produces a more manoeuvrable
+aircraft and consequently more 'exciting' flight.
+
+F4: Bank limiter
+
+Enabling bank limiter prevents bank angles in excess of 60 degrees. This is
+usually enabled during initial training.
+
+F5: Pitch limiter
+
+Enabling pitch limiter prevents pitch angles in excess of 20 degrees. This is
+usually enabled during initial training.
+
+F6: Demo options
+
+F1	DEMO FLIGHT		The Demo options allow you to view various
+F2	DEMO LANDING		manoeuvres being performed by ProFlight.
+F3	DEMO TAKE-OFF		Pressing the appropriate function keys F1 to F3
+F4	DEMO TRAINING		starts the relevant demonstration sequence.
+F5	AUTO DEMO OFF
+F10	EXIT
+
+(F6) F4: Demo training
+
+On selecting Demo training a take-off is performed and the aircraft is
+positioned in the air ready for you to take control.
+
+Pitch and back limiter are automatically selected, together with position skew
+from the training menu.
+
+(F6) F5: Auto demo off
+
+When this option is selected ProFlight automatically enters demonstration mode
+after a period of inactivity. Deselecting this option turns off the automatic
+demonstration mode.
+
+Visual ========================================================== Main menu: F2
+
+F1	DAY DUSK NIGHT			The visual menu has options to let
+F2	SOLID GROUND	OBJECTS		you alter the on screen display
+F3	SOLID ELEVATED	OBJECTS		characteristics.
+F4	SOLID ENEMY	OBJECTS
+F5	ARTIFICIAL	HORIZON
+F6	GRID		OVERLAY
+F7	NIGHT STAR	DISPLAY
+F8	GROUND SPOT	DISPLAY
+F9	OBSERVER VIEW	OPTIONS
+F10	EXIT
+
+F1: Day Dusk Night
+
+Selecting day/dusk/night alters the view for day, dusk or night time flying.
+
+F2, F3 and F4: Solid ground/elevated/enemy objects
+
+Enables solid ground/elevated/enemy objects, causing the relevant features to
+be shaded. Shaded graphics require more processor time from the computer, so
+the frame update rate will slow down. The fastest simulator mode is with all
+shading turned off, and night flying selected.
+
+F5: Artificial horizon
+
+On enabling artificial horizon a horizon, as seen on the head up display, is
+superimposed on the world view to compensate for the displacement of the
+horizon at high altitudes in relation to the HUD horizon.
+
+F6: Grid overlay
+
+With grid overlay enabled, a grid is superimposed on the ground. Having the
+grid enabled can be particularly useful during spin recovery since it allows
+the direction of the spin to be easily observed.
+
+F7: Night star display
+
+If this option is selected during night flight, the stars are shown for January
+1st at latitude 51.5 degrees north.
+
+F8: Ground spot display
+
+Enabling ground spots, shows an 'abbreviated' form of the grid on the ground.
+This has the advantage of taking less time to draw than the full grid option.
+
+F9: Observer view options
+
+F1	OBSERVER    VIEWING	The observer view options control the view
+F2	INSTRUMENT    PANEL	seen when observer viewing is enabled.
+F3	STATIC/ CHASE PLANE
+F4	STATIC		PAN
+F5	STATIC         ZOOM
+F6	STATIC    WAY POINT
+F7	NEW STATIC POSITION
+F8	SET ZOOM DIST 0-9 5
+F9	DETAILED  A/C SHAPE
+F10	EXIT
+
+Observer view mode means that rather than seeing the view through the front of
+the aircraft, the view seen is that which an observer standing (or flying)
+outside the aircraft would see.
+
+(F9) F1: Observer viewing
+
+This option is the main switch on/off point for the observer view options. None
+of the options have any effect unless observer viewing is on.
+
+(F9) F2: Instrument panel
+
+This option causes an instrument panel to be displayed whilst in observer mode.
+
+(F9) F3: Static/chase plane
+
+When selected, this mode changes the observer view from a static standpoint, to
+that of a 'chase plane', i.e. a closely following plane.
+
+(F9) F4: Static pan
+
+Static pan mode causes the observer to rotate about the viewpoint so that the
+plane is always central in the field of view.
+
+(F9) F5: Static zoom
+
+Static zoom mode causes the observer to maintain a fixed distance from the
+aircraft.
+
+(F9) F6: Static way point
+
+Static way point sets the observer to the way point which is currently selected
+from the way point menu.
+
+(F9) F7: New static position
+
+This option sets the new static position at the current position of the
+aircraft. The viewing direction is set in the altitude of the aircraft.
+
+(F9) F8: Set zoom distance
+
+This allows the zoom distance used by the static zoom and chase plane modes to
+be altered. A value between 0 (max zoom) and 9 (min zoom) should be entered
+followed by return.
+
+(F9) F9: Detailed aircraft shape
+
+When detailed aircraft shape is selected, the aircraft seen in the simulator
+will have a more detailed and realistic shape but will take longer to draw.
+
+
+Auto-Pilot/Nav ================================================== Main Menu: F3
+
+F1	AUTO PILOT		The auto-pilot menu selects and changes the
+F2	ALT+HDG			modes of the navigation computer and
+F3	SELECTED TARGET		automatic pilot.
+F4	SELECTED WAY POINT
+F5	COUPLED APPROACH
+F6	NAV DIRECTOR
+F7	FLIGHT OPTIONS
+F10	EXIT
+
+F1: Auto-pilot
+
+This option is the main switch point for the auto-pilot. None of the options
+have effect unless the auto-pilot is on.
+
+F2: Alt+hdg
+
+With altitude and heading mode on, the auto-pilot will attempt to fly the
+aircraft to the altitude and heading indicated. The altitude is altered by
+moving the mouse back and forth, whilst the heading is altered using the left
+and right mouse keys.
+
+The control for adjusting the heading may be changed onto the left and right
+movement of the mouse by using the heading rudder/stick option from the flight
+options menu.
+
+F3: Selected target
+
+Selected target mode causes the auto-pilot to fly towards the target which is
+currently locked into the navigation computer.
+
+F4: Selected way point
+
+Selected target mode causes the auto-pilot to fly towards the way point which
+is selected on the way point menu.
+
+F5: Coupled Approach
+
+In coupled approach mode the auto-pilot will try to land the aircraft. This is
+not a full auto land sequence so the pilot must select an appropriate approach
+speed, lower the gear and position the aircraft on the instrument landing
+system within 20 n.m. of the runway.
+
+If at any time the auto-pilot loses the necessary radio signals, it will
+automatically deselect itself. Control is always handed back to the pilot 5
+feet from the ground.
+
+F6: Nav director
+
+To try to compensate for the restricted field of view, ProFlight can display a
+navigator icon (in the shape of an aircraft) which points towards the place the
+auto-pilot is heading.
+
+F7: Flight Options
+
+F1	AUTO RUDDER
+F2	HDG RUDDER/STICK
+F3	RUDDER DYNAMIC/FIXED
+F4	AUTO WING+FLAPS
+F5	AUTO STALL LIMIT
+F6	AUTO BANK STABILIZER
+F7	AUTO PITCH STABILIZER
+F10	EXIT
+
+(F7) F1: Auto rudder
+
+Selecting auto rudder will apply rudder automatically, in coordination with
+stick input. This option should be avoided in combat manoeuvring because the
+pilot should constantly be using the rudder bar to assist in weapon aiming.
+
+(F7) F2: HDG rudder/stick
+
+Selecting heading rudder/stick toggles the adjustment of the automatic heading
+mode (Alt + Hdg) between the mouse buttons and the left/right mouse movement.
+
+(F7) F3: Rudder dynamic/fixed
+
+When the rudder is in dynamic mode, it acts as though 'spring-loaded', slowly
+returning to the central position after an offset. In fixed mode this self-
+centring behaviour does not occur.
+
+(F7) F4: Auto wing+flaps
+
+Auto wing sweep and flaps continuously selects the optimum settings for these
+controls surfaces to achieve low induced and profile drag at the true airspeed.
+
+The wing sweep angle is determined by the speed ranging from 25 degrees at Mach
+0.73 to 67 degrees at Mach 0.95
+
+(F7) F5: Auto stall limit
+
+With auto stall limit enabled the wings are unloaded at the onset of a stall.
+Because it is easy to exceed the angle of attack limits in the Tornado, even at
+high indicated air speeds, this mode is normally engaged.
+
+(F7) F6 and F7: Auto bank/pitch stabiliser
+
+Selecting the auto bank/pitch will increase the tendency of the aircraft to fly
+straight and level i.e. the stability is increased.
+
+
+Training ======================================================== Main menu: F4
+
+F1	HOLD NORTH  MOVEMENT
+F2	HOLD EAST   MOVEMENT
+F3	HOLD HEIGHT MOVEMENT
+F4	POSITION SLEW
+F5	TARGET AIR
+F6	TARGET GROUND
+F10	EXIT
+
+F1, F2 and F3: Hold north/east/height movement
+
+Selecting the hold north/east/height movement restricts the movement of the
+aircraft in that particular direction.
+
+These options are unavailable whilst the aircraft is still on the ground and
+must be selected whilst in flight.
+
+F4: Position slew
+
+Selecting position slew is equivalent to selecting the hold north/east/height
+movement options. However, the position of the aircraft may be adjusted using
+the 7, 8, 9, ), +, - keys on the keypad.
+
+F5 and F6: Target air/ground
+
+The target air/ground creates a target for you to practise your combat skills
+against. These targets always appear between the runway and bridge.
+
+
+Combat ========================================================== Main menu: F5
+
+F1	SAVE ENEMY DATA BASE
+F2	LOAD ENEMY DATA BASE
+F3	DAMAGE REPORT
+F4	SET SKILL 0-4 0
+F10	EXIT
+
+F1: Save enemy database
+
+Selecting save enemy database saves the current enemy status in a file named
+ENEMY.DB in the current directory, i.e. from the same folder or disk from
+which you loaded the program. You are not required to name the file; only one
+enemy database may be saved on a single disk; additional saves will overwrite
+the old file although different positions could be recorded on separate disks.
+
+If loading from a floppy disk, you can save the file on the backup program disk
+you loaded from, or insert a blank, formatted floppy in the drive from which
+you loaded ProFlight, on which the ENEMY.DB file will be created.
+
+If you loaded ProFlight from a hard disk, the file will be saved to the same
+directory as the program file. Only one file may be saved; additional saves
+will overwrite the old file.
+
+F2: Load enemy database
+
+This loads the enemy status from a file named ENEMY.DB. If loading from a
+floppy drive and you saved the database on a different disk from the the backup
+program, you should insert the disk on which you previously saved the enemy
+status. If you loaded from a hard disk, the file will be loaded automatically.
+
+F3: Damage report
+
+The damage report option displays a summary of any damage currently incurred.
+
+F4: Set skill
+
+Set skill allows you to set the difficulty of combat mode. After selecting set
+skill, a number between 0 (easiest) and 4 (hardest) should be entered using
+only the top row of numeric keys (not the numeric keypad) followed by Return.
+
+
+Way point ======================================================= Main menu: F6
+
+F1	N0000 E0000 H000	The way point menu allows you to select which
+F2	N0000 E0000 H000	way point the auto-pilot will consider as the
+F3	N0000 E0000 H000	current way point.
+F4	N0000 E0000 H000
+F5	N0000 E0000 H000
+F6	N0000 E0000 H000
+F7	N0000 E0000 H000
+F8 	N0000 E0000 H000
+F10	EXIT
+
+Simply press F1 to F8 to select the way point you require. The way points can
+only be set in mission planning mode.
+
+
+Mission planning ================================================ Main menu: F7
+
+The mission planning menu calls up the mission planning screen where function
+keys F1 to F8 are used to select from the eight programmable way points. It is
+identical in appearance to the way point selection menu above.
+
+
+Weather ========================================================= Main menu: F8
+
+F1	WIND  138/00
+F2	TURBULANCE 0
+F3	CLOUD
+F4	SET WIND DIRECTION 0-359
+F5	SET WIND VELOCITY  0-32
+F6	SET TURBULANCE     0-9
+F10	EXIT
+
+F1: Wind
+
+When the wind option is selected, wind factor is introduced into the ProFlight
+simulation. The current wind direction and velocity are also shown; the three
+digit figure indicates direction, the two digit figure speed.
+
+F2: Turbulence
+
+When the turbulence option is selected, turbulence is introduced into
+ProFlight. The value shown is the amount of turbulence currently selected.
+
+F3: Cloud
+
+Selecting the cloud option enables the display of clouds.
+
+F4: Set wind direction
+
+Set wind direction allows you to set the direction from which any wind comes.
+A number between 0 and 359 (degrees) should be entered using only the top row
+of numeric keys (not the numeric keypad) followed by Return.
+
+F5: Set wind velocity
+
+Set wind velocity allows you to set the velocity of the wind. A number between
+0 and 32 should be entered using only the top row of numeric keys (not the
+numeric keypad) followed by Return.
+
+F6: Set turbulence
+
+Set turbulence allows you to set the degree of turbulence encountered. A number
+between 0 (min) and 9 (max) should be entered using only the top row of numeric
+keys (not the numeric keypad) followed by Return.
+
+
+HUD ============================================================= Main Menu: F9
+
+F1	HUD		The head up display menu allows the elements of the
+F2	HORIZON		head up display to be turned on and off. In fast jets
+F3	COMPASS		a head up display is provided to allow the pilot to
+F4	G SPOT		assimilate the information from instruments without
+F5	FLIGHT PATH	averting his view from the outside.
+F6	VSI
+F7	INCIDENCE
+F8	AP ERROR
+F9	ILS BARS
+F10	EXIT
+
+F1: HUD
+
+The HUD option is the main switch on/off point for the head up display. When
+this is selected HUD elements are shown on the head up display.
+
+F2: Horizon
+
+The horizon bars indicates the pitch and roll of the aircraft relative to the
+ground. Horizon bars above the 0 degree line are shown solid, whilst those
+below broken. The 0 degree line is shown as a broken line with no end bar.
+
+The pointers on the end of the horizon bars indicate normal or inverted flight,
+with bars on the right for normal flight and on the left in inverted flight.
+These pointers also always point in the direction of the 0 degree line.
+
+F3: Compass
+
+The compass bars allow the pilot to assess his rate of heading change.
+
+During certain manoeuvres this information is more important than the actual
+heading which is displayed on the instrument panel.
+
+F4: G spot (Look, no rude jokes, this is a serious simulation!)
+
+The boresight ring is always displayed with the 'g' indicator to reference the
+1 'g' datum.
+
+The 'g' spot deflects up and down as 'g' is pushed and pulled. It moves left
+and right as the aircraft is yawed to the right and left of it's flight path.
+In other words it indicates where you body weight is being thrown.
+
+F5: Flight path
+
+The fly to line indicates to the pilot where the inclined lift force generated
+by the wings of the aircraft is acting. The magnitude of this force is depicted
+by the length of the line.
+
+F6: VSI
+
+The vertical speed indicator consists of two markers. The small scale marker
+registers rates up to 2000 feet per minute, the large scale mark indicate up to
+32000 feet per minute.
+
+F7: Incidence
+
+The angle of incidence indicator gives a direct indication of the combination
+of angle of attack and wing sweep back. As such it gives a good indication of
+an approaching stall.
+
+F8: AP error
+
+When the auto-pilot is flying the aircraft the pilot may, if he wishes, display
+the auto-pilot error.
+
+This error is the difference between where the aircraft is, and where the auto
+pilot is aiming to fly the aircraft. The auto-pilot always flies the aircraft
+towards the error mark.
+
+F9: ILS bars
+
+The ILS indicators will only be present when a valid signal is being received
+from the instrument landing system. They allow the pilot to watch the runway
+and ILS at the same time.
+
+
+
+The Instrument Panel
+-------------------------------------------------------------------------------
+
+`A0080
+`B0080
+`C0080
+`D0080
+`E0080
+`F0080
+`G0080
+`H0080
+`I0080
+
+Artificial Horizon
+-------------------------------------------------------------------------------
+
+   `J0017			The Artificial Horizon is always central to the pilot's
+   `K0017			view and is one of the most important instruments on
+   `L0017			his panel.
+   `M0017
+   `N0017			It's function is to indicate the roll and pitch of the
+   `O0017			aircraft relative to the artificial horizon.
+   `P0017
+   `Q0017			When an aircraft is flying at altitude the world
+			horizon falls away beneath the field of view of the
+			pilot, however the artificial horizon reference remains
+			constant.
+
+The instrument comprises an aircraft symbol fixed to the 'glass' and an
+artificial horizon line which is kept parallel with the world horizon by a
+gyroscope. A sky orientation marker indicates the position of the sky relative
+to the aircraft (above, below or to the side), resolving any ambiguity which
+might exist during inverted flight.
+
+In flight, the artificial horizon indicator will show the current attitude of
+the aircraft relative to the ground. If the Tornado is climbing the horizon
+line will drop below the aircraft symbol. In a dive, the horizon line moves
+above it. The amount by which the horizon line is displaced gives an indication
+of the angle of climb or descent.
+
+In a turn, the horizon line will rotate in the opposite direction. So, for
+example, in a level right turn, the horizon line will rotate left and the
+aircraft symbol will be just above it, with it's right wing closer to the
+line.
+
+Remember that when an aircraft is almost vertical with respect to the horizon,
+roll will not be initiated because the horizon surrounds the aircraft.
+
+AirSpeed Indicator (ASI)
+-------------------------------------------------------------------------------
+
+This instrument is of particular importance to the pilot as the lift generated
+by the wings depends upon the indicated airspeed.
+
+    `J1709		The airspeed indicator shows the airspeed in knots. At sea
+    `K1709		level the Indicate AIRSPEED (IAS) is equal to the True
+    `L1709		AIRSPEED (TAS). However, at altitude the instrument under-
+    `M1709		reads.
+    `N1709
+
+The measurement of airspeed is performed by obtaining the air pressure
+surrounding the aircraft (static air pressure) and the air pressure on the
+forward facing parts of the aircraft (the dynamic air pressure). The difference
+in pressure may then be interpreted as an airspeed in knots.
+
+As the altitude increases the air becomes more rarefied and the flow of air
+onto the aircraft is reduced, reducing the dynamic air pressure and hence the
+indicated airspeed.
+
+Machmeter (MACH)
+-------------------------------------------------------------------------------
+
+     `J2607		The machmeter express the speed of the aircraft as a fraction
+     `K2607		of the local speed of sound, which varies with altitude. This
+     `L2607		instrument is the cornerstone of high speed flight and provides
+     `M2607		the pilot with the best indication of the true airspeed.
+
+The speed of sound is about 662 knots at sea level, under typical conditions,
+falling to about 574 knots in the colder air at higher altitudes. Thus Mach 2
+at 30,000 feet is about 1200 knots.
+
+Altimeter (ALT)
+-------------------------------------------------------------------------------
+
+    `J3309		The altimeter gives an indication of the current height of the
+    `K3309		aircraft. The analogue scale reads in units of one hundred feet
+    `L3309		whilst the digital display shows the height in hundred foot
+    `M3309		increments. When the analogue scale shows 500ft and the
+    `N3309		aircraft is at 500ft altitude, the digital scale will read 005.
+		If the aircraft was at 25,500 ft, the digital scale would show
+		255 and the analogue scale 500. The maximum permitted altitude
+		for this aircraft is 65000ft.
+
+The rate at which the altimeter 'winds' can often provide a useful indication
+of vertical speed.
+
+For accurate low-level flight, there is an additional altimeter display that
+appears at the top of the screen when the aircraft is below 250ft.
+
+Vertical Speed Indicator (VSI)
+-------------------------------------------------------------------------------
+
+   `J4303	The vertical speed indicator shows the rate of climb or descent of the
+   `K4303	aircraft, although it is possible to maintain rates that exceed the
+   `L4303	scale of the VSI.
+   `M4303
+   `N4303	The full scale position corresponds to climb or descent at about 2000
+   `O4303	feet per minute.
+
+The purpose of the instrument is to allow the pilot to control
+his climb rate, establish level flight and to judge the correct
+rate of descent, especially when landing.
+
+Angle of attack indicator (AOA)
+-------------------------------------------------------------------------------
+
+    `J4609		This meter displays the current angle of attack (Alpha). Alpha
+    `K4609		is the angle at which the air flow meets the wing. Increasing
+    `L4609		Alpha will increase wing lift, too high and the wing will
+    `M4609		stall. An aircraft flying straight and level at low IAS will
+    `N4604		therefore require to be pitched up above its direction of
+		travel. Higher Alpha's will be recorded when pulling 'g' with
+		swept back wings.
+
+High Alpha produces more induced drag which can be used to an advantage by
+rapidly slowing the aircraft. If acceleration is required the wings will have
+to be unloaded by reducing Alpha.
+
+Auto Throttle Indicator (AOFF/AIAS/ATAS)                                  Key E
+-------------------------------------------------------------------------------
+The automatic throttle indicator shows the throttle mode currently selected
+using KEY E. There are three different modes:
+
+   `J5510		This mode indicates that the engine management computer has
+passed full control for the throttles to the pilot.
+
+   `K5510		In this mode the engine management computer will adjust engine
+thrust to maintain the indicated airspeed set by the pilot. The maximum
+permitted IAS is 900 Kts.
+
+   `L5510		In this mode the engine management computer will adjust engine
+thrust to maintain the true airspeed set by the pilot. Remember that this may
+result in too low an airspeed for the aircraft to fly at altitude.
+
+Control surface indicators
+-------------------------------------------------------------------------------
+
+   `R0017			In a simulator such as ProFlight there is no control
+   `S0018			loading, so feedback from the controls must be conveyed
+   `T0018			in a different manner. The control surface indicators
+   `U0018			provide this function.The position of the ailerons,
+   `V0018			elevators and rudder bar are displayed on this
+			instrument, and these should be centralised prior to
+			take off.
+
+The Tornado uses a differentially moving tail which acts as both the elevator
+and aileron. On the "I" shaped instrument they are, from top to bottom,
+aileron, elevator and rudder input. Associated with this display are the trim
+and sensitivity settings and they are to the left and right of the elevator
+respectively. The Tornado seldom requires any trim change but at low IAS some
+increase in sensitivity may be required due to loss of responsiveness.
+
+Engine Thrust (RPM)                                                   KEYS: < >
+-------------------------------------------------------------------------------
+
+     `J6504			Although the thrust generated by a jet engine is not
+     `K6515			directly related to engine R.P.M. it is usually
+     `L6515			depicted in this manner and this convention has been
+     `M6515			adopted for lack of a better one.
+     `N6505
+
+The instrument is divided into two regions; cold, the lower region in which the
+engines are running without reheat; and the upper hot region where reheat is
+used.
+
+The rising bar in the centre of the gauge shows the amount of thrust currently
+being output by the engine. In auto throttle modes (AIAS, ATAS) this reading
+will reflect the power applied by the engine management system according to the
+attitude of the aircraft. With a level flight setting of 300 knots at 20,000,
+only one quarter power will be indicated on the RPM gauge, yet if the aircraft
+is pitch up the engine management system will automatically increase power to
+maintain airspeed.
+
+With this type of engine, reheat does not produce a sudden surge of power (as
+is often depicted) but is a controllable increase in engine thrust. Thus, there
+is no sudden increase in speed when reheat is applied, only a steady
+acceleration.
+
+There are a number of different types of fuel for use in jet engines, and
+whilst some can boost the power by a considerable margin the engines life is
+reduced accordingly. Typically aircraft flown in combat make use of these
+special fuels to improve their performance.
+
+Furthermore, by increasing the fuel flow past the normal limits set for peace
+time flying, greater power may be extracted in reheat (due to increase in
+exhaust gases). However, engine life is again compromised.
+
+In ProFlight the engines are configured for war time missions and no
+restrictions are set for jet pipe temperature.
+
+Fuel gauge
+-------------------------------------------------------------------------------
+
+  `O1704	The fuel gauge shows the amount of fuel remaining, which is
+  `P1704	automatically replenished when the aircraft is stationary on the
+  `Q1704	ground.
+  `R1704	
+
+Remember that reheat considerably increases fuel consumption, whilst flying at
+altitude will use less fuel and increase your operational range. Sufficient
+fuel is provided for missions, however combat greatly reduces flight endurance
+so careful observation of the remaining fuel is required.
+
+Gear                                                                      Key G
+-------------------------------------------------------------------------------
+
+ `W0006	As the landing gear is raised and lowered the status is displayed on
+ `X0006	the instrument panel.
+
+ `W0606	If an attempt to lower the gear is made when the aircraft's velocity
+ `X0606	is too high, a configuration error message 'Config' is displayed on the
+	head-up-display.
+
+Air and Wheel brake indicators                                    KEYS: A and B
+-------------------------------------------------------------------------------
+
+ `S1806	The air brake indicator 'A' indicates the current air brake setting
+ `T1806	(KEY A). Remember that air brakes provide more drag, and hence more
+deceleration, the higher the airspeed.
+
+ `U1806	The wheel brake indicator 'W' shows the current wheel brake setting
+ `V1806	(KEY B). The wheel brakes can hold the aircraft stationary with full
+full thrust applied but are not powerful enough to slow the aircraft against
+this force of thrust if moving at speed down the runway. They also become less
+effective as the lift generated by the wings increases.
+
+Wing sweep angle                                                  KEYS: S and W
+-------------------------------------------------------------------------------
+
+ `W1206	The wings sweep angle may be varied between 25 degrees (fully
+ `X1206	forward) and 68 degrees (fully back) and the current setting is
+displayed on the instrument panel. An attempt to select an incorrect sweep
+angle will result in a configuration error message being displayed on the head-
+up-display. Configuration errors will occur if the wings are too far back with
+flaps deployed or too far forward for the aircraft's velocity.
+
+With the wings swept forwards higher lift at lower IAS may be achieved, however
+drag increases enormously at speeds approaching Mach 1 due to shock waves
+forming along the wing (wave drag). Sweeping the wings back delays the onset of
+wave drag at the expense of lift.
+
+Flap angle Keys: F and R
+-------------------------------------------------------------------------------
+
+ `W1806	The flap angle may be varied between 0 degrees (fully retracted) and
+ `X1806	30 degrees (fully out) and the current setting is displayed on the
+instrument panel. An attempt to select an incorrect flap angle will result in a
+configuration error message being displayed on the head-up-display.
+Configuration errors will occur if the flaps are deployed with the wings too
+far back or if the aircraft's velocity is too high.
+
+Even with the wings swept forwards additional lift is required for low IAS's.
+This is achieved by deploying leading edge slats and trailing edge flaps. For
+the purposes of this simulation they are collectively referred to as flaps.
+When an aircraft turns it banks over and uses its wings to pull it round the
+turn. As mentioned before, flaps increase positive lift but diminish negative
+lift, so don't expect to push 'g' with them deployed. Establishing the optimum
+sweep/flap setting may best be learnt during training.
+
+'G' force indicator                                               KEYS: X and Z
+-------------------------------------------------------------------------------
+
+   `O2411		The 'g' force meter measures the acceleration of the aircraft
+   `P2411		as a ratio of standard gravity (one 'g').
+   `Q2411
+   `R2411		The analogue scale shows the number of 'g' the aircraft is
+   `S2404		currently pulling or pushing, and the digit gives the current
+		limit entered by the pilot.
+
+Ammunition gauge
+-------------------------------------------------------------------------------
+
+  `O3504	The number of cannon shells remaining are indicate by this gauge.
+  `P3504	About 30 seconds of ammunition is loaded into your aircraft when
+  `Q3504	you are stationary on the ground (at least three times that
+  `R3504	available on a real Tornado).
+
+Ammunition should be used sparingly, since only short bursts should be required
+if your aim is good. During training unlimited ammunition is provided. Remember
+that a target must be acquired and the cannon selected and armed before you can
+fire. Use the Space Bar to fire the cannon.
+
+Arm/Safe Weapon System                                             Keypad Enter
+-------------------------------------------------------------------------------
+
+ `N7006	When a weapon has been selected, it must be armed before use. This key
+toggles between safe and armed status. Fire cannon or missiles with the
+Spacebar: bombs are delivered by the weapons system.
+
+Radar display
+-------------------------------------------------------------------------------
+
+    `N5015			The Plan Position Indicator Radar display is used to
+    `O5016			establish the position of enemy targets which are
+    `P5016			currently within range of the radar. The current range
+    `Q5016			of the radar sweep is displayed at the bottom of the
+    `R5016			instrument in nautical miles. The radar range may be
+    `S5016			altered between 3 and 46nm (keys - and =+). When the
+    `T5016			radar range is altered there is a slight delay whilst
+			the scanner reorganises the returns.
+
+During flight the information on the radar rotates about the display as the
+heading of your aircraft changes. This means that if you are on a heading of 0
+degrees and the target is on a bearing of 90 degrees (shown on the radar screen
+to the right of the aircraft) then you must alter your heading to 90 degrees in
+order to face the target. At the time the radar 'blip' will move to the top of
+the display, and the bearing will be equal to the heading. The target which is
+currently being tracked is represented on the radar display by flashing the
+radar return 'blip'. When multiple air targets are available, only the target
+selected by the Step Target Aircraft Lock (KEYS [ and ]) will flash.
+
+In ProFlight no radar black spots exist. Whilst this is not strictly accurate,
+during combat the pilot would normally expect information to be relayed to him
+by ground controllers and other friendly fighters, hence the high performance
+of this radar display compensates for the lack of intercom chatter and presents
+the information in a clear manner.
+
+Distance Measurement Equipment
+-------------------------------------------------------------------------------
+
+   `S2810		The DME displays the plan distance in nautical miles to a
+selected target, way point or the runway. Whenever the DME is engaged, the
+bearing to the target, way point or runway is also displayed.
+
+   `T2810		If no valid target has been selected by the navigation system
+   `U2811		the DME and bearing displays will be OFF.
+
+World Position Indicator
+-------------------------------------------------------------------------------
+
+     `V2407		The position of the aircraft relative to the runway is
+     `W2407		displayed on this instrument.
+
+The home base is at position N0000 E0000. Note that the update rate of this
+instrument is once every 5s.
+
+
+Head Up Display ===============================================================
+
+The Head Up Display (HUD) is a standard feature of all high-performance combat
+aircraft. Allowing the pilot to read many of the most important instruments
+from a projected image at head height, the HUD system reduces the need for the
+pilot to look down at the panel.
+
+There are nine instrument display options for the ProFlight HUD, which can be
+accessed through the HUD menu (F1:Main Menu/F9:HUD). Some HUD components can
+also be selected using the keyboard, and where applicable the keys are
+indicated in the text.
+
+F1	HUD		The Head Up Display menu allows various instrument
+F2	HORIZON		displays to be selected or removed from the screen.
+F3	COMPASS		In addition to the menu, certain options also have
+F4	G SPOT		keyboard commands which work independently of the menu,
+F5	FLIGHT PATH	but duplicate entries in it. Optional key commands are
+F6	VSI		given in the text where available.
+F7	INCIDENCE
+F8	AP ERROR
+F9	ILS BARS
+F10	EXIT
+
+
+Menu F1: HUD                                                            Key Tab
+
+The HUD menu option is the main enable/disable switch for the head up display.
+When this is the selected HUD elements are shown on the head up display.
+
+Menu F2: Horizon                                                          Key H
+-------------------------------------------------------------------------------
+
+  _________.			The horizon bars indicate the pitch and roll of
+           |			the aircraft relative to the ground. Horizon
+  _________.			bars above the 0 degree line are shown solid,
+           |			whilst those below broken. The 0 degree line is
+  ___   ___			shown as a broken line with no end bar.
+ ----------- True Horizon
+  ___   ___|
+
+The pointers on the end of the horizon bars indicate normal or inverted flight,
+with the bars on the right for normal flight and on the left in inverted
+flight. These pointer also always point in the direction of the 0 degree
+line.
+
+Menu F3: Compass
+-------------------------------------------------------------------------------
+
+   `J6911		The compass bars indicate to the pilot the rate of heading
+ 		change of the aircraft.
+ 
+During certain manoeuvres this information is more important than the actual
+heading which is displayed on the instrument panel.
+
+Menu F4: G spot
+-------------------------------------------------------------------------------
+
+  `O3904	The Boresight ring and G spot are always displayed together. Use
+  `P3904	the Boresight ring to reference the 1 'g' datum.
+  `Q3904
+
+The 'g' spot deflects up and down as 'g' is pushed and pulled. It moves left
+and right as the aircraft is yawed to the right and left of it's flight path.
+In other words it indicates where your body weight is being thrown. As the 'g'
+spot moves further away from the Boresight ring the aircraft and pilot will be
+subject to greater effects from gravitational forces and the pilot may, under
+certain circumstances, lose consciousness for a brief period of time. If you
+are in any doubt about your ability to withstand high 'g', set the 'g' limiter
+for the aircraft to a level you can tolerate.
+
+Menu F5: Flight path
+-------------------------------------------------------------------------------
+
+  `R3904	The Flight Path fly to line indicates to the pilot where the
+  `S3904	inclined lift force generated by the wings of the aircraft is
+  `T3904	acting. The magnitude of this force is depicted by the length of
+	the line.
+
+Menu F6: VSI
+-------------------------------------------------------------------------------
+
+    `P4301	The Vertical Speed Indicator consists of two markers. The small
+    `Q4301	scale marker registers rates up to 2000 feet per minute, the
+    `R4301	large scale mark indicate rates up to 32,000 feet per minute.
+
+The VSI will appear above the horizon line when the aircraft is climbing, and
+below when diving. Note that the range of the dual scale VSI in the HUD covers
+a wider range of vertical speeds than does the panel mounted VSI.
+
+Menu F7: Incidence
+-------------------------------------------------------------------------------
+
+    `S4301	The angle of incidence indicator gives a direct indication of the
+    `T4301	combination of angle of attack and wing sweep back. As such it
+	gives a good indication of an approaching stall.
+
+Menu F8: AP Error
+-------------------------------------------------------------------------------
+
+   `M5502	When the auto-pilot is flying the aircraft the pilot may, if he
+	wishes, display the AUTO-PILOT Error indicator.
+
+This error is the difference between the actual path of the aircraft and where
+the auto-pilot is aiming to fly the aircraft. The auto-pilot always attempts to
+fly the aircraft towards the error mark. As the heading of the plane changes,
+the AP Error indicator will gradually centre itself in relation to the HUD.
+
+Menu F9: ILS bars
+-------------------------------------------------------------------------------
+
+   `O6711		In addition to the ILS error display on the instrument panel by
+   `P6711		the Artificial Horizon indicator, the pilot may also display
+   `Q6711		the ILS indicators on the HUD. These indicators will only be
+   `R6711		when a valid signal is being received from the instrument
+   `S6711		landing system. They allow the pilot to watch the runway and
+   `T6711		ILS at the same time.
+   `U6711		
+   `V6711		
+
+The HUD ILS display has two components. The Glide Slope Error indicator, which
+duplicates the G/S scale at the left of the Artificial Horizon, consists of a
+horizontal bar and small cross hair centre marker whose vertical position
+indicates the altitude of the aircraft relative to the glide scope. If you are
+above the glide scope, the indicator will appear below the vertical centre of
+the HUD; with the aircraft below the glide slope, the bar will be above the
+centre. To correct the vertical approach, fly the aircraft towards the
+indicator bar.
+
+The second component of the HUD ILS display is the Localiser, depicted by a
+vertical bar with a cross hair centre marker. Duplicating the Localiser scale
+at the top of the Artificial Horizon, the Localiser shows deviation from the
+correct runway approach heading. If the ILS beam is off to the right of the
+aircraft, then the Localiser bar will appear displaced to the right of centre
+on the HUD. To correct the heading, fly towards the Localiser bar.
+
+To make a perfect ILS landing, the Glide Slope bar and Localiser bar must be
+kept in the centre of the HUD with the cross hairs aligned.
+
+
+		      .________________________________.
+		      |  Navigation and weapon-aiming  |
+		      |  sub-system                    |
+		      ``--------------------------------'
+Instrument Panel AP Status Display
+
+			.__.
+Auto Pilot on/off ----->|AP| \ Auto pilot mode select
+Altitude/heading ------>|AH| /
+Selected target ------->|TG| \
+Selected way point ---->|WP|  } Navigation data input select
+Coupled approach ------>|CA| /
+Navigation director --->|ND| } 3-D HUD navigation display
+			``--'
+
+
+When the auto-pilot (AP) is engaged, it captures the current altitude and
+heading of the aircraft, then flies along that course. The HUD can also display
+the current 'fly to' information i.e. altitude and heading above the compass,
+using the Altitude/Heading mode. The HUD can also display a cross indicating to
+the pilot where the auto-pilot is currently flying to. The AP is capable of
+stall recovery and can pull up to 4'g'. If a negative 'g' manoeuvre is
+indicated the AP will invert the aircraft and pull 'g'.
+
+Except in Coupled Approach mode (semi-automatic landing at home base runway)
+the auto-pilot has a ground clearance height of 150 feet. During all manoeuvres
+the projected flight path is monitored to maintain this clearance. It does not,
+however, avoid elevated objects. The auto-pilot does not by-pass any of the
+flight equations within the simulator; it flies the aircraft by adjusting the
+control surface positions. It is, therefore, instructional and trainee pilots
+should learn, by observation, how to fly.
+
+  WARNING NOTICE : WHENEVER THE AUTO-PILOT IS DISENGAGED, THE AIRCRAFT CONTROL
+     SURFACES ARE LEFT IN THEIR LAST POSITION. BE READY TO TAKE OVER IF THE
+             AUTO-PILOT IS INTERRUPTED DURING A VIOLENT MANOEUVRE.
+
+
+Auto-pilot Flight Options =====================================================
+
+F1	AUTO PILOT		Some auto-pilot modes may be selected from both
+F2	ALT+HDG			the menu and keyboard. Where applicable, key
+F3	SELECTED TARGET		commands are given in the text.
+F4	SELECTED WAY POINT
+F5	COUPLED APPROACH
+F6	NAV DIRECTOR
+F7	FLIGHT OPTIONS
+F10	EXIT
+
+F1	AUTO RUDDER		Similarly, some auto-pilot flight options also
+F2	HDG RUDDER/STICK	have key command alternatives and these are
+F3	RUDDER DYNAMIC/FIXED	listed in the text where appropriate.
+F4	AUTO WING+FLAPS
+F5	AUTO STALL LIMIT
+F6	AUTO BANK  STABILIZER
+F7	AUTO PITCH STABILIZER
+F10	EXIT
+
+
+Menu: F1   Auto Rudder
+-------------------------------------------------------------------------------
+With Auto Rudder selected, the flight management computer will apply the
+necessary rudder input when high roll rate turns are initiated. In Auto Rudder
+mode, the pilot's own rudder input is cancelled.
+
+Menu: F2   HDG Rudder/Stick                                               Key C
+-------------------------------------------------------------------------------
+This option allows the pilot to modify the AP Auto Heading mode heading with
+either rudder or aileron input.
+
+If HDG Rudder/Stick is unselected (no tick) then only rudder input is accepted
+as heading change data. Aileron input (side to side mouse movement) will not
+affect the heading of the aircraft.
+
+If HDG Rudder/Stick is selected (ticked) then heading data is accepted only
+from aileron movement and the rudder (mouse buttons) have no effect.
+
+Menu: F3   Rudder Dynamic/Fixed                                           Key K
+-------------------------------------------------------------------------------
+Because there is no way of providing proportional rudder input two rudder modes
+are allowed.
+
+Dynamic Rudder (unselected menu option: no tick) allows the pilot to move the
+rudder bar with the mouse buttons but when they are released the rudder returns
+to its centre position.
+
+Static Rudder (selected menu option: ticked) leaves the rudder set at its last
+position. When using this mode for manual flight the pilot should guard against
+flying with his controls crossed i.e. leaving a permanent rudder input. The
+rudder can be centred quickly by momentarily reverting to the dynamic mode.
+
+Menu: F4   Auto Wing and Flaps
+-------------------------------------------------------------------------------
+When engaged the auto-pilot will automatically sweep the wings back for high
+speed flight and deploy flaps for low speed flight. Manual control of wings and
+flaps is strongly recommended when engaging the enemy, as your war time footing
+allows you to stress your aircraft more highly and hence extract maximum
+performance.
+
+Menu: F5   Auto Stall Limit
+-------------------------------------------------------------------------------
+If the pilot should exceed the angle of attack limits for the current
+configuration of wing sweep and flap angle the auto-pilot will try to unload
+the wings of the aircraft. This mode does not guarantee stall free flight but
+is a great aid to the pilot considering the absence of control loading. The
+pilot should also routinely check his HUD incidence meter.
+
+Menu: F6   Auto Bank Stabilizer
+-------------------------------------------------------------------------------
+When the aircraft is close to 0 degrees of bank the auto-pilot will provide a
+small aileron input to level the wings.
+
+Menu: F7   Auto Pitch Stabilizer
+-------------------------------------------------------------------------------
+When the vertical speed of the aircraft is close to 0 the auto-pilot will
+provide a small elevator input in order to maintain this situation.
+
+
+Auto-pilot Navigation Modes ===================================================
+
+   .__.  .__.  .__.	There are three choices of navigation data available
+   |--|  |--|  |--|	(Selected Target [TG], Way Point [WP], Couple Approach
+   |--|  |--|  |--|	[CA] to home base runway) which operate on a top down
+   |TG|  |--|  |--|	priority basis, with the highest selected being the
+   |XX|  |WP|  |--|	current mode.
+   |XX|  |XX|  |CA|
+   |--|  |--|  |--|	This allows the pilot to fly to a way point and then to
+   ``--'  ``--'  ``--'	target without a period of invalid data whilst the
+			change is made.
+   .__.  .__.  .__.
+   |--|  |--|  |--|	During flight, whenever a valid navigation selection is
+   |--|  |--|  |--|	made, the bearing to the way point, target or runway
+   |TG|  |--|  |--|	will be displayed below the radar. If CA mode is
+   |XX|  |WP|  |--|	engaged, the DME will become active.
+   |XX|  |XX|  |CA|
+   |ND|  |ND|  |ND|	All navigation programming must be completed before
+   ``--'  ``--'  ``--'	take-off. It is not possible to reprogram the system
+			while in flight.
+
+Altitude/Heading Mode (AH)                                        Key Backspace
+-------------------------------------------------------------------------------
+
+   .__.  .__.  .__.	If Altitude Heading (AH) mode is selected in addition
+   |AP|  |AP|  |AP|	to the auto-pilot, the pilot can modify the flight path
+   |AH|  |AH|  |AH|	of the aircraft by using the elevators to change the
+   |TG|  |--|  |--|	altitude and the rudder bar to change the heading. An
+   |XX|  |WP|  |--|	option to allow aileron control of heading is also
+   |XX|  |XX|  |CA|	provided in the auto-pilot menu (see HDG Rudder/Stick).
+   |--|  |--|  |--|
+   ``--'  ``--'  ``--'	The auto-pilot may be engaged in AH mode with
+			navigation data present. The pilot can therefore
+   .__.  .__.  .__.	supervise the flight but use the navigation data (BRG
+   |AP|  |AP|  |AP|	and DME) to establish his position.
+   |AH|  |AH|  |AH|
+   |TG|  |--|  |--|
+   |XX|  |WP|  |--|
+   |XX|  |XX|  |CA|
+   |ND|  |ND|  |ND|
+   ``--'  ``--'  ``--'
+
+   .__.  .__.  .__.	If AH mode is turned off the aircraft will fly towards
+   |AP|  |AP|  |AP|	the next navigation point. Top-down priority always
+   |--|  |--|  |--|	exists, so the nav computer will automatically pick the
+   |TG|  |--|  |--|	next available target, way point or home runway, in
+   |XX|  |WP|  |--|	that order.
+   |XX|  |XX|  |CA|
+   |--|  |--|  |--|	When the auto-pilot is engaged, the Navigation Director
+   ``--'  ``--'  ``--'	aircraft symbol can be displayed on the HUD, allowing
+			the pilot to confirm the programmed flight path when AP
+   .__.  .__.  .__.	AH mode is active.
+   |AP|  |AP|  |AP|	
+   |--|  |--|  |--|	
+   |TG|  |--|  |--|	
+   |XX|  |WP|  |--|	
+   |XX|  |XX|  |CA|	
+   |ND|  |ND|  |ND|	
+   ``--'  ``--'  ``--'	
+
+Nav Target Mode (TG)                                                 Key Delete
+-------------------------------------------------------------------------------
+Nav Target, or selected target mode, serves two purposes. Firstly, under
+control of the auto-pilot and with TG selected, the aircraft will fly towards
+the ground or air target (flashing) currently tracked by the weapons computer.
+Bearing to target will be displayed under the radar screen, and the DME will
+register distance.
+
+With the aircraft under pilot control, TG must be selected in order to activate
+the radar, as the first step in preparing for combat. Bearing and DME values to
+the selected target will be given.
+
+TG mode takes priority over any WP or CA navigation mode data. The use of TG
+mode in combat is dealt with more fully in that chapter.
+
+Way Point Mode (WP)                                                       Key #
+-------------------------------------------------------------------------------
+
+Way Points are any location chosen by the pilot on route to a destination. They
+consist of North East and Height data input during the mission planning phase
+(see Mission Planning). The ProFlight simulator stores eight pre-programmed way
+points, which are selected through their own menu (F1: F6). Press any function
+key from F1 to F8 to select a way point. When WP mode is activated (Key #) the
+auto-pilot will fly the aircraft to this position.
+
+When the auto-pilot is flying to way points the pilot is expected to select the
+next way point just before he passes over the current way point. Unless a new
+selection is made the aircraft will circle the current way point.
+
+Way points are created through the Mission Planning menu (F1: F7).
+
+MISSION AREA MAP DISPLAY
+F1	N0077 E0091 H005
+F2	S0256 E0027 H005		`U3916
+F3	S0543 E0726 H005		`V3916
+F4	N0000 E0000 H000		`W3916
+F5	N0000 E0000 H000		`X3916
+F6	N0000 E0000 H000		`Y3916
+F7	N0000 E0000 H000
+F8	N0000 E0000 H000
+F10	EXIT
+
+	Map coordinates
+	S0576 E0770 H005
+H	WAY POINT HEIGHT
+	Target information
+	Communications H.Q.
+	Primary target
+	...................
+P	PRIMARY TARGET SET
+G	GOTO WAY POINT F0
+	TARGETS DESTROYED
+	000% OF PRIMARY
+	000% OF AIRCRAFT
+
+You are in effect looking at a map of the terrain. Way points are depicted as
+cross hairs and have a North, East and Height. You can move around the map with
+keys ),7,8,9,/,-,+ and the mouse will move the cross-hair for fine position
+control of the Northings and Eastings. Your current position is displayed on
+the left of the screen.
+
+To change the way point, press height key H, then input the new height which
+will be used for subsequent way points using the keys at the top of the
+keyboard. When you have entered the correct number press return. If you make a
+mistake, press Delete to erase the number.
+
+Use key G to go to a way point. Enter a value from 1 to 8 and press return. The
+map will display the position of the chosen way point. The map update rate can
+be increased by reducing the scan range (keys 9 and 0). Turning off the
+elevated object fill mode (key 3) will often show small detail more clearly.
+
+When programming way points the pilot must take into account the 3 dimensional
+distance between them and the performance limitations of his aircraft for speed
+and altitude. In other words he should ask himself whether there is reasonable
+time for the auto-pilot to adjust to the course.
+
+Coupled Approach Mode
+-------------------------------------------------------------------------------
+As previously mentioned, if AH mode is turned off while the auto-pilot is
+engaged, then the aircraft will fly towards the selected navigation point.
+There is, however, one exception to this which involves the Coupled Approach
+(CA) mode.
+
+In CA mode the auto-pilot will fly the aircraft using the ILS radio beam and
+land it. The pilot MUST position his aircraft reasonably close to the beam. If
+the ILS error is too large the auto-pilot will automatically disengage. The CA
+mode is not a full auto-land feature as the pilot must control the approach
+speed, lower his gear and take control of the aircraft prior to landing. In
+common with most auto-pilots it does not cope with large amounts of wind shear.
+
+The pilot should become familiar with all aspects of the auto-pilot/navigation
+system. While it can perform most of the pilots tasks in an undamaged state it
+does not replace him or have the ability to pull high 'g' or make tactical
+decisions.
+
+Navigation Director                                                       Key N
+-------------------------------------------------------------------------------
+ProFlight also has a unique 3-D head-up-display mode which can be used to
+direct the pilot to the navigation reference point. Note that this part of the
+instrument is somewhat more powerful than the real thing, however with the
+restricted field of view in ProFlight this helps to balance any 'unfairness'.
+
+Selecting the 3-D HUD mode will show the pilot where to fly by using an
+aircraft symbol which points along the shortest flight path. This path does not
+take ground clearance into account so the pilot must decide whether to follow
+it's pitch and heading direction together, or it's heading followed by pitch
+direction.
+
+
+			      ._________________.
+			      |  Flight Theory  |
+			      ``-----------------'
+
+The first part of this chapter in the original manual is full of diagrams and
+graphs, and I simply could not be bothered drawing them all, plus this chapter
+is not necessary to enable you to fly the aircraft... so this is just a summary
+of the points relevant to the simulation. If you want to learn about flight
+theory in all it's wonderful intricacies, you better buy the original... or
+a good book on the subject!
+
+The Angle Of Attack (AOA) of the wing of the aircraft has a large effect on
+the lift created. The higher the AOA (more the nose is pitched up), the more
+lift is created. But, if the AOA gets too high and the thrust too low, the wing
+will stall, causing disruption of airflow over the wing and a drastic loss of
+lift.
+
+The sweep angle of the wings also has an effect on lift; the more pronounced
+the sweep, the less lift.
+
+Flaps help to increase lift at low speeds and high AOAs.
+
+Drag is a major force acting against your aircraft; there is @4wing drag@5 and
+@4parasitic drag@5. Parasitic drag is generated by non lifting surfaces and
+makes itself known more at high speeds. It is created by friction of the
+aircraft against the surrounding airflow; the more 'rough' the surfaces, the
+more drag.
+
+Wing drag (or induced drag) is a by-product of lift production. The high
+pressure air under the wing swirls around the wing tips to produce vortices
+of disturbed air which exerts a retarding force on the wing. Wing drag
+increases at high speeds, especially with non-swept back wings.
+
+*	For flight endurance the wings must be operated efficiently.
+*	Speed can be rapidly lost at high angles of attack.
+*	An aircraft will only accelerate rapidly if the wings are unloaded
+	(low angle of attack)
+
+Turning the aircraft is best accomplished by banking it over on it's side
+and pulling back on the stick to change heading, then rolling back to level
+flight. The further you roll over before beginning the turn, the tighter
+the turn will be, but speed will be lost, and more thrust will be required
+to maintain the angle of the bank. Use of the rudder in a banking turn will
+lower or raise the nose in respect to the ground.
+
+Recovering from a stall produced by high AOA/low speed (or both) is
+accomplished as follows:
+
+Push the stick forwards if the AOA is positive, pull the stick back if the
+AOA is negative. Full engine thrust is always a good idea, but be careful
+if the stall is occurring at low altitudes! If a stall continues to develop
+the aircraft may enter a spin and it will begin to yaw and roll towards the
+stalled wing. Unload the wings with the stick procedure above and centre
+the ailerons. Use the rudder to stap the yawing.
+
+High 'g' flight can cause a pilot to 'black out', or lose consciousness.
+If you begin to black out, release the controls or move them in the opposite
+direction to what you were doing before the black out began.
+
+Pre-Flight Checklist ==========================================================
+
+     ALL CHECKS ON THIS LIST MUST BE COMPLETED BEFORE ENGINES ARE IGNITED.
+
+		      FAILURE TO COMPLETE PRE-FLIGHT CHECKS
+		              CORRECTLY CAN KILL!
+
+1.	Examine exterior structure and mechanics for visible defects,
+	interference or obstruction. Pay particular attention to leading and
+	trailing edges of wings, fin and elevator/aileron surfaces and flaps.
+	Check undercarriage for obstructions such as the topmost branches from
+	high-growing trees.
+
+2.	Check strap and gear security. Ensure all loose items are stowed
+	correctly.
+
+3.	Enter nav data into flight computer. Check all way points and target
+	designations against flight orders. Set and check AP program
+	selections. Switch on HUD selections if required.
+
+4.	Check fuel and weapons store.
+
+5.	Check wheelbrakes on, airbrakes off.
+
+6.	Check flap and wing angle settings correct for takeoff.
+
+7.	Make visual check of all control surface movement.
+
+8.	Set ailerons, elevator and rudder to centre positions.
+
+9.	Set AIAS airspeed for 1st leg to WP.
+
+10.	Release wheelbrakes when full thrust is indicated.
+
+
+Controlling the Tornado in flight =============================================
+
+FOR SOME EXERCISES, MENU SELECTIONS ARE REQUIRED. WHERE SEVERAL SELECTIONS ARE
+  MADE AS A GROUP, THEY ARE LISTED IN THE TEXT AS FOLLOWS - Fa: Fx: Fy: Fz -
+ WHERE x, y AND z ARE THE FUNCTION KEY NUMBERS. FUNCTION KEY F10 ALWAYS EXIT
+FROM THE CURRENT OPEN MENU: ONLY COMMAND SEQUENCES ARE GIVEN IN THE EXAMPLES.
+  USE THE F10 KEY TO CLOSE EACH MENU. AFTER A FUNCTION HAS BEEN REFERRED TO
+  SEVERAL TIMES, NO FURTHER KEY REFERENCES WILL BE MADE. ALL MENUS DISPLAY
+ DESCRIPTIVE NOMENCLATURE AND F NUMBERS ON SCREEN. FOR A FULL DESCRIPTION OF
+                  THE MENU SYSTEM, REFER TO THE MENU SECTION.
+
+The flying exercises take immediate advantage of the fact that this is a
+simulator. Unlike the tentative, erratic first flight with an instructor to
+take over when you lose control, ProFlight can place you repeatedly at precise
+positions in the air until you have mastered a specific aspect of flying and
+are ready to progress to the next task.
+
+The tasks are ordered in a logical manner; learning some control over the
+aircraft in flight is necessary before take-offs and landings can be attempted.
+Straight and level flight is a mandatory skill that must be acquired before
+progressing to turns, climbing, diving, climbing and descending turns, high
+speed flight, take-offs and the most critical task of all, landing the aircraft
+safely.
+
+Select the training demo from the demonstration menu list (F1: main menu/
+F1: simulator/ F6: demo options/ F4: demo training). You do not not need to
+press F10 to close the menu; the training demo loads automatically from disk
+and starts immediately.
+
+Your aircraft will be positioned in the air for you with your flight controls
+and instruments set appropriately. The aircraft is on position hold at this
+time to maintain constant points of reference. From the simulator menu (F1) a
+bank limit of 60 degrees (F4) and pitch limit of 20 degrees (F5) is set to
+start you off. Your movement through the air is inhibited from the training
+menu to allow easier familiarisation with the response of the aircraft to the
+controls.
+
+Ideally, your monitor should be positioned at head height and directly in front
+of you. The mouse should be held so that your wrist remains in contact with the
+running surface, thereby creating a datum for it's centre position. It is worth
+while considering for a moment that flying an aircraft without the normal stick
+forces per 'g' is more difficult. However with practice it will not present a
+problem as long as you are aware that over control is a common early mistake.
+Maintaining the centre datum and only using small movements to begin with will
+help prevent over control.
+
+Straight and level flight =====================================================
+
+Pitch and roll the aircraft (move the mouse forwards and backwards for pitch
+movement; side to side for roll). Note the way the Artificial Horizon reflects
+the changes in aircraft attitude. Also pay attention to the rate of climb or
+descent indicated on the VSI and by the HUD VSI marker.
+
+Turn on the HUD horizon (Key H) which will assist you in telling which way the
+aircraft is moving. Now try to fly straight and level, a task more tricky than
+it sounds. Straight means wings parallel with the ground, level means no
+indicated vertical speed. Check your instruments repeatedly to maintain
+attitude but also pay attention to the outside world; a pilot never relies on
+instruments when his eyes will tell him what he wants to know. Always aim for a
+point just above the horizon, not at it.
+
+If the aircraft is too difficult for you to control, adjust the stick
+sensitivity (KEYS: ; and '@@) but remember that although it takes longer for the
+aircraft to adopt an extreme attitude it also takes longer returning to
+straight and level flight.
+
+Remember to scan the instruments regularly, developing a scanning pattern that
+will become second nature to the good pilot. Pay particular attention to your
+altitude; during training it is easy to lose a great deal of height without
+realizing the extent of the dive, since your thoughts may be diverted to more
+pragmatic tasks such as recovering some modicum of control.
+
+If the Auto-pilot (AP) is turned on during flight (Key Insert) but no
+navigation data has been programmed (TG, WP or CA showing on the panel) the AP
+will attempt to fly the aircraft straight and level at the current heading and
+altitude. If you begin to lose control during flight, turn on the AP and watch
+it recover the aircraft (usually). Watch the AP fly the aircraft; study the
+instruments and note especially how little input is made to keep the aircraft
+under control.
+
+After a short while you should be able to intercept the instruments and take
+immediate recovery action according to the information they display. Select the
+weather menu (F1: F8) and set up some air turbulence by pressing F6. The
+turbulence value next to the F2 entry will change to a question mark. Type in a
+new value using the keys at the top of the keyboard, and press return. Turn
+turbulence on by pressing F2.
+
+Now make sure that you can still maintain straight and level flight. Low
+control sensitivity will prevent you from accomplishing this when there is much
+turbulence.
+
+Turn turbulence off. Set the AIAS to 160 knots and note the rate of reduction
+of airspeed whilst maintaining level flight. Note how the angle of attack,
+shown on the AOA meter, increases while maintaining level flight as the
+airspeed falls. You will also discover that at slow speeds the sensitivity of
+the aircraft controls is reduced.
+
+Turning the aircraft ==========================================================
+
+Turning the aircraft combines several component techniques. First, the correct
+amount of control input must be made to bank the aircraft and a small amount of
+upward pitch is input to keep the aircraft level, otherwise it will lose
+altitude. The correct sequence of input is bank first, then pitch. At the same
+time, some rudder input is required to keep the turn coordinated i.e. the tail
+is flying round the curvature of the turn rather than being dragged round,
+merely following the nose. (Uncoordinated turns are far less efficient in terms
+of lift and drag).
+
+Once the correct turn rate has been established by the amount of bank, the
+control can be returned to a central position, with only small additional input
+required to keep the plane in the turn. Once banked, an aircraft will maintain
+the altitude with only slight tendencies to right itself or bank further. Do
+not hold the stick over to the side when in the turn, or the aircraft will
+continue to bank until all lift is lost, or the aircraft inverts.
+
+Coming out of a turn at the correct heading is the final component of the
+turn. Depending on the turn rate, the pilot will have to correct the banking
+angle before the aircraft actually reaches the desired heading.
+
+If you are continuing form the previous exercise, set the AIAS to 300 knots.
+Select the HUD menu (F1: main menu/ F9: HUD menu) and turn on the Flight Path
+(F5) and Auto-Pilot Error modes (F8).
+
+Engage the AP (Key Insert) and alter the aircraft heading with the rudder bar
+(mouse buttons). Note the Flight Director fly to line pointing towards the
+centre of the turn and the position of the Auto-Pilot error cross. This cross
+tells you where the AP is aiming. If you should inadvertently alter the AP
+height setting by moving the stick backwards or forwards, just turn the AP off
+and then on again.
+
+Remember that the correct way to enter a level turn is bank followed by pitch.
+Exiting the turn requires the reverse order. Turn the AP off (Key Insert) and
+execute level turns with up to 30 degrees of bank. Almost no pitch adjustment
+is required.
+
+Increase your 'g' limit to 3 (KEYS: X and Z) and turn off the bank limiter in
+the simulator menu (F1:F1:F4). Now pull higher 'g' turns keeping the fly to
+line parallel to the horizon and the vertical speed to zero. Note how more
+elevator is required when pulling higher 'g'.
+
+Increase you speed to 550 knots and notice the reduction in turn rate. Increase
+the 'g' limits but remember that sustained high 'g' turns will cause your
+vision field to reduce as you black out. Release 'g' before you lose
+consciousness.
+
+Lastly, perform a level rudder turn by pressing either mouse button to yaw the
+aircraft to a new heading without altering the pitch or angle of attack. There
+is also a secondary effect of rudder in that the aircraft rolls towards the
+turn. By using opposite aileron this may be cancelled.
+
+
+Taking Off ====================================================================
+
+Before take-off, you must ensure that all pre-flight checks have been completed
+
+From the main menu, select the simulator menu, then demo options and select
+Demo Take-Off (F1: F1: F6: F3). Press any key to interrupt the demo as soon as
+the aircraft appears on the runway. You will be prompted to confirm you wish to
+interrupt the demo. Press Y to confirm, any other key to continue.
+
+Centre the controls, then set the AIAS throttle to the required airspeed for
+flight. The engine management computer will apply full power for take-off,
+irrespective of the programmed flight speed.
+
+When the engines have developed full thrust, release the brakes. If the
+aircraft is lined up with the runway centre line, no steering will be required.
+Keep the controls centred. When the aircraft reaches rotation speed, the nose
+will lift. Pull the stick back, but only by a small amount or the aircraft will
+leap into the air, exceed the maximum angle of attack and stall, probably
+ending in a crash onto the runway.
+
+As the aircraft leaves the ground, the HUD altimeter display will show the
+height above ground up to 200ft. Raise your undercarriage (Key G) at 40 feet
+and concentrate on keeping the rate of climb modest and steady. Do not let the
+aircraft bank. When you are confident of taking off in zero wind condition,
+select the weather menu and enter some mid-range values for wind velocity and
+direction (try 120 degrees for a tricky crosswind), plus a turbulence value if
+you feel confident enough. Typically, sudden crosswinds may catch one wing and
+bank the aircraft suddenly when only a few feet off the ground.
+
+
+Climbing/Descending ===========================================================
+
+Turn the bank and pitch limits off (F1: F1: F4 and F5 if selected) and set a
+'g' limit of 3. Establish straight and level flight at 500 knots, then pull
+the aircraft into a 30 degree climb. Use the instrument panel Artificial
+Horizon to establish this angle; the first marker line above and below the
+aircraft symbol indicates 10 degrees pitch, the second line 30 degrees, third
+line 50 degrees and forth line, 70 degrees. In order to maintain a constant
+climb angle, watch the HUD horizon bars; make sure the rate they scroll doesn't
+speed up or slow down.
+
+Note the position of the small V.S. mark, which indicates higher ascent/descent
+values: this should be constant. Now, keeping the wings level, push the
+aircraft down into a 30 degree dive. When you are confident of performing
+these manoeuvres without overshooting pull the aircraft into a 45 degree
+climb and note your exact heading. Then pull up instead of puching the aircraft
+into a 45 degree dive continue the roll in the same direction until the
+aircraft is flying in a normal attitude.
+
+Is you heading still the same? No? Well, try the manoeuvre again but as you
+roll into inverted flight and then roll out unload the wings to reduce the
+heading change. Don't be discouraged if you experience difficulties during a
+pulled, inverted dive. It is much harder to control and the change in
+orientation takes some getting use to.
+
+Practise these manoeuvres pulling higher 'g' until you can change from a high
+rate of climb to a high of descent without undue heading changes. It is
+important to grasp the fact that you can alter your flight path more rapidly by
+pulling instead of pushing 'g'. The trick is to remember where the inclined
+lift is acting and make the correct stick movements. The Flight Path fly to
+line should be of great assistance in telling you where the resultant wing
+force is trying to move the aircraft.
+
+Climbing/Descending Turns =====================================================
+
+These turns are accomplished in the same manner as level turns except that a
+constant vertical speed should be maintained. Try a few, particularly the
+descending turns and note that high 'g' climbing turns result in speed loss.
+
+By now you should be developing a fair degree of control over your aircraft.
+Select night time on the visual and enable the stars (F1: F2: toggle F1: F7).
+Practise flying the nose of the aircraft towards objects in the sky and on the
+ground. Using high 'g' you should be able to point your aircraft very rapidly
+at any object. You must practise this until you are proficient because if you
+can't point the nose of the aircraft where you want you certainly won't be able
+to make it fly where you want.
+
+The Zoom Climb ================================================================
+
+The Tornado is capable of reaching an altitude of 30,000 feet 1.7 minutes after
+releasing the brakes on the runway. A zoom climb is used to attain the high
+rate of ascent required. A zoom climb converts high speed level flight into a
+high climb rate in excess of 50,000 feet per minute.
+
+After takeoff, the aircraft is held low (500ft) while it accelerates to about
+470 knots with the gear up. During this time the low angle of attack allows
+maximum acceleration. The aircraft then pulls about 5 'g' into a 55 degree
+climb, unloads the wings and maintains its pitch angle for part of the climb,
+then further unloads the wings to level off at 30,000 feet without pushing 'g'.
+
+The aircraft initially uses its inertia to achieve a high climb rate and then
+maintains it with engine thrust and low drag. During the high 'g' pull up,
+induced drag will slow the aircraft if the manoeuvre is too abrupt, the trick
+is to reach the 55 degree climb angle before too much speed is lost.
+
+High Altitude High Speed Flight ===============================================
+
+Slew the aircraft to different heights and practise climbing, descending and
+turning at different speeds. In the thinner atmosphere of high altitudes the
+aircraft will respond differently to the controls and will not be capable of
+sustained high 'g' manoeuvres. It is as well to understand now what happens if
+you try to fly a fast jet at speed into the stratosphere.
+
+If an aircraft is flying at Mach 2.2 at 40,000 feet and is pulled into a steep
+climb without loosing too much speed, inertia will carry it well beyond its
+operational flight ceiling. The aircraft will eventually be pulled back towards
+the ground by gravity. During this time the airspeed may well have fallen to
+zero with a resultant loss of control surface reaction. Drag and thrust are
+also almost non-existent so speed is rapidly gained as the aircraft plummets
+back towards the ground. It is important to maintain a low angle of attack as
+the controls begin to bite on the air when trying to regain control of the
+aircraft.
+
+Flying Without Position Hold ==================================================
+
+Only when you have mastered the controls of your aircraft sufficiently well to
+be able to point it in any direction should you release the training menu
+position hold options and fly. There are a number of reasons which contribute
+to the inability of trainee pilots to effectively fly their aircraft. Check the
+list below and if you are having consistent problems with any particular point,
+go back to the training exercises and practise.
+
+
+Landing =======================================================================
+
+This section describes how to land the aircraft. Initially this process is
+performed without wind. Landing in windy conditions is described separately at
+the end of this chapter.
+
+A successful landing requires that a pilot has learnt all of the basic skills
+of aircraft control. Remember that humans are normally used to reacting to a
+3-D world in 2-D planes (we are not creatures that fly unaided, more's the
+pity). Landing an aircraft is more difficult in that it is a test of 3-D
+thought and control.
+
+Before the process of landing is explained some definitions are given which
+will be referred to throughout the text.
+
+Approach path
+-------------------------------------------------------------------------------
+The classic form of approach towards the airfield during which height, speed
+and power are progressively reduced until the aircraft arrives at the touchdown
+point with the engines throttled back. The aim is to maintain a constant rate
+of descent down an ideal path of descent called the glide slope, and to fly
+above a projected ground path called the extended runway centre line.
+
+Final approach
+-----------------------------------------------------------------------------
+This is the descent to the runway which starts from a position some distance
+from the airfield. The aircraft must be on the same heading as the runway,
+following the approach path.
+
+Round-out
+-----------------------------------------------------------------------------
+This is the change of attitude made from the glide slope to a path level with,
+and slightly above, the runway.
+
+Hold-off
+---------------------------------------------------------------------------
+The "hold-off" or "float" describes the period when the aircraft is flown
+almost parallel to the ground with increasing angle of attack and falling
+airspeed until it touches the ground.
+
+Ground effect
+---------------------------------------------------------------------------
+When an aircraft is flown close to the ground a cushion of air forms between
+the wings and ground thus further supporting it in the air. A small correction
+to the elevators will be necessary.
+
+
+Instrument Landing System =================================================
+The Tornado is equipped with an Instrument Landing System (ILS) which reads a
+guiding beam originating at the airfield. The ILS tracks this narrow beam of
+radio waves, transmitted up from the runway along the approach path.
+
+`O6711		Fly up, fly right
+`P6711
+`Q6711
+`R6711		Correct course
+`S6711
+`T6711
+`U6711		Fly left, fly down
+`V6711
+
+In the Tornado the information from these beams is depicted in three ways, one
+on the HUD shown using the ILS bars, and also using two instruments. (See the
+section on HUD ILS options).
+
+The Glide Slope Indicator (G/S) shows the vertical displacement of the aircraft
+relative to the ILS beam. Negative displacements indicate that the ILS beam is
+below the aircraft and hence height must be lost to attain the correct glide
+slope. The G/S is located to the left of the artificial horizon.
+
+The Localiser (LOC) indicates the horizontal displacement of the ILS beam.
+Displacements to the right signify that the ILS beam is to the right of the
+aircraft and so the aircraft should be slewed to the right. The LOC is located
+above the artificial horizon.
+
+The ILS receiver only functions when the runway is being navigated to and is
+within range of about 20 n.m. Obviously the closer the aircraft is to touchdown
+point the more sensitive the receiver is to positional errors.
+
+Demonstration Landings ====================================================
+Before attempting to land manually the pilot should become familiar with the
+process using the simulator demo landing. Start by selecting the demo landing
+from the simulator menu (F1: F1: F6: F2).
+
+Watch the way in which the localiser and glide slope errors are reduced. Note
+that as the localiser error becomes less, the heading of the aircraft is being
+altered to align with the runway. Particularly notice the small bank angles
+required when the localiser error is small. The most common mistake when
+flying, let alone landing, is for the pilot to over-control his aircraft. This
+is know as pilot induced oscillation and must be guarded against at all times.
+(When the auto-pilot is approaching the airfield it deliberately flies below
+the glide slope in order to round out with the Instrument Landing System
+signals (ILS) still present. Do not copy this aspect of the approach; you
+should always fly the correct approach path).
+
+You may either choose to allow the demonstration to finish or end it by
+pressing a key and confirming demo abort to take control of the aircraft. It is
+best to watch at least one demonstration.
+
+Landing practice ==========================================================
+This section describes how the pilot can practise each aspect of landing his
+aircraft. All landing exercises utilise the ILS display: instruction for its
+operation will be given in the text.
+
+The following is a list of the main objectives:
+
+1	Flying down the glide slope.
+2	Flying accurately over the extended runway centre line.
+3	Flying along the approach path.
+4	The correct approach speed.
+5	The round out.
+6	The hold off.
+7	The touchdown.
+8	Bringing the aircraft to a halt on the runway.
+
+Maintaining the Glide Slope
+
+The ideal path transmitted by the ILS, which the pilot should follow, is called
+the glide slope, and begins at 600 feet, 2 miles from the touchdown point. It
+intersects a point at 300 feet, 1 mile from touchdown and has a 3 degree
+slope.
+
+As it is easier to fly down the glide slope than over the extended runway
+centre line, this aspect of landing is practised first. Do not attempt to
+actually land on the runway; the exercises in maintaining a correct approach
+must be mastered first.
+
+Using the demo landing, abort it at the beginning of the final approach. Select
+Hold North Movement from the Training Menu (F1: F4: F1) and wait until the AP
+has cancelled any ILS errors (it will position the aircraft low on the glide
+slope because the AP is unaware of the North hold and is expecting to fly
+forward onto the glide slope).
+
+If you wish to make the approach longer slew the plane back away from the
+airfield before allowing the AP to position the aircraft. (Select Position Slew
+from the training menu (F1: F4: F4) then use Keypad 8 and to move the
+aircraft further or nearer the runway. Turn off Position Slew.)
+
+When the aircraft is suitably positioned set East position hold and release
+North position hold (F2: F1). You are now flying towards the airfield but
+because the East West movement is inhibited you will be free to concentrate on
+glide slope with a steady rate of descent. In the first approach, your engine
+thrust will be set by the AP before handing over control. In subsequent
+approaches ensure that your AIAS is set to 160 knots before you reach 200ft
+
+altitude.
+
+If you are too low reduce your rate of descent until the glide slope error is
+zero. If you are too high increase you rate of descent. You will notice that
+only small corrections are required. If, during the approach, you feel you need
+assistance select the auto-pilot again. When you are about 200 feet off the
+ground slew the aircraft back from the airfield and practise until you are
+completely happy with your performance.
+
+Before you go on to the next aspect of landing make sure that you can acquire
+the glide slope when positioned some distance away and that you have learnt not
+to overshoot it. If you are having particular difficulty acquiring the glide
+slope hold the North movement until your vertical position is correct,
+establish the correct rate of descent and then release the North movement.
+
+Maintaining the Extended Runway Centre Line
+----------------------------------------------------------------------------
+The same technique as for glide slope maintenance will be used but instead of
+holding East movements, Height movements are held. Start by selecting the demo
+landing, positioning the aircraft on the approach path with the auto-pilot.
+Set Hold North Movement from the training selection in the main menu
+(F1: F4: F1). So as to keep the runway in view when close to it, you may find
+it helpful to slew the aircraft closer to the ground.
+
+Slew to the right or left of the extended runway centre line and start with a
+localiser error. To begin with it is probably a good idea to hold North and
+Height movement and just practise reducing the localiser error to zero.
+Practise deliberately flying off to one side and then back. Unless you are
+confident of higher 'g' turns maintain a bank angle of less the 20 deg. When
+you have learnt to position yourself over the approach path release the North
+movement and fly towards the runway.
+
+It is generally the case that novice pilots find this aspect of landing
+difficult at first. There are a number of reasons for this and a brief
+discussion about them should help you identify your own problems and how to
+deal with them.
+
+1.	Looking at the runway instead of following the ILS directions.
+	Imagine that someone is pointing a gun at your head and that the only
+	thing stopping them from firing is that the ILS cross hairs are exactly
+	centred. You may find it easier by reducing the visual range, and
+	thereby simulating a fog or low cloud approach, to concentrate on the
+	ILS.
+
+2.	Failure to adjust the aircraft heading to that of the runway by the
+	time the localiser error is zero. The aircraft continues along it's
+	corrective course for too long resulting in an error in the opposite
+	direction. You must be watching the rate that the localiser error is
+	reducing and noting the aircraft heading at the same time. You must
+	also be aware that progressively smaller corrections are required the
+	closer you are to the runway.
+
+3.	Failure to take sufficient corrective action in time to reduce the
+	error. If an aircraft, positioned over the extended runway centre line,
+	is flown for 1 mile with the following heading errors it will move off
+	by these distances:
+
+			      OFF HDG | ERROR 
+                              0.5 Deg.|  53 ft
+			      1.0 Deg.| 106 ft
+			      2.0 Deg.| 212 ft
+			      4.0 Deg.| 424 ft
+			      8.0 Deg.| 846 ft
+			      16.0 Deg.|1675 ft
+			      32.0 Deg.|3222 ft
+			      
+	0	181	363	545	626	909	1091
+	|	|	|	|	|	|	|    Max G/S error (ft)
+	0	439	878	1317	1756	2196	2635
+	|	|	|	|	|	|	|    Max LOC error (ft)
+
+					    Extended runway centre line
+Runway______________________________________________________________________
+
+	|	|	|	|	|	|	|  Distance from t/down
+	0	1	2	3	4	5	6     in nautical miles
+
+		    Full deflection of I.L.S. indicators
+
+	The illustration above shows how far off the extended runway centre
+	line an aircraft is when the ILS indicators are at maximum. Consider,
+	therefore, the course to fly over a 2 mile distance to reduce these
+	errors to zero and end up on the correct heading. Bear in mind that you
+	have 45 seconds in which to do it when flying at 160 knots.
+
+4.	Having reduced the errors to zero, failing to maintain them at zero.
+	This is achieved by making a continuous series of minute adjustments to
+	the attitude of the aircraft in order to maintain the correct flight
+	path. You will notice the auto-pilot doing exactly the same when close
+	to the runway.
+As before, repeat the exercise and only go on to the next stage when you have
+mastered this one.
+
+Flying the Approach Path
+----------------------------------------------------------------------------
+Now combine both your glide slope and localiser skills to fly along the
+approach path. As before use the auto-pilot if you go too far wrong. A better
+alternative to relying on AP help is to interrupt the simulator (Key I) and
+move back in time (KEYS: F1 back, F2 forward) to a point where you were in the
+correct position and try to avoid making the same mistake again.
+
+Approach Speed
+----------------------------------------------------------------------------
+Whilst you are learning to land and are building up confidence, 160 knots is a
+good starting point. When making a final approach of greater distance you may
+prefer to set a higher speed. If you make a high speed approach remember that
+your rate of descent will need to be higher and your angle of attack lower. For
+both these reasons it will be more difficult to reduce your speed if left too
+late.
+
+So far you have only practised flying down the ILS beam to a height of 200
+feet. You will have noticed how the ILS receiver output is more sensitive to
+errors the closer you are to the runway. When you are about 200 feet above the
+runway check your landing gear and set a speed of 140 knots on the auto
+throttles. This will allows the speed of the aircraft to bleed off during the
+final moments of touchdown. During this time the pilot should be placing less
+reliance on his ILS and flying the remaining distance visually.
+
+Rounding Out
+----------------------------------------------------------------------------
+During the final moments of landing the pilot should refer to his height above
+the runway (displayed by the HUD) and his vertical speed. He should be
+levelling the wings of the aircraft, reducing his rate of descent to almost
+zero just a few feet off the runway. Only very small rudder inputs are
+allowable to correct heading errors. During this time ground effects will
+become apparent.
+
+Holding Off
+----------------------------------------------------------------------------
+Whilst a few feet clear of the ground the pilot should be reducing his speed to
+130 knots and allow the aircraft to sink onto the runway.
+
+Touchdown
+---------------------------------------------------------------------------
+When the aircraft is on the ground close the throttles, allow the nose of the
+aircraft to settle onto the ground by pushing the stick forwards and apply the
+air wheel brakes. Steer the aircraft down the runway using the rudder bar.
+
+Landing with Wind
+---------------------------------------------------------------------------
+Only when you have total confidence in your ability to land the aircraft
+without wind should you attempt to land with wind. The basic procedure is the
+same as landing without wind. If there is a head wind then it is easier because
+your speed over the ground is slower thus allowing more time to make any
+correction along the approach path. If there is a small tail wind the converse
+is true and because of higher landing speed it will take longer to bring the
+aircraft to a halt on the runway. Remember that your airspeed is the same but
+your speed over the ground is altered by the wind velocity. If there is a cross
+wind life becomes interesting!
+
+The correct way to land into a cross wind is to point the nose of the aircraft
+towards the direction the wind is coming from, so the forward movement of the
+aircraft cancels out the wind drift. Because the nose of the aircraft is not
+pointing towards the runway it is important to use the instruments and not rely
+on a visual approach. The auto-pilot will not be able to help you when making
+cross wind landings. If will help to fly some 15 knots faster during
+the approach and to keep slightly up wind of the normal track. This will reduce
+wind drift and allow the heading of the aircraft to be more easily aligned with
+the runway.
+
+The principal difference concerning cross wind landings occur during the hold
+off and touchdown phase. When the aircraft touches the ground it is travelling
+forwards along the runway with it's nose pointing to one side. Before the nose
+is lowered the rudder should be used to yaw it in the direction of the runway.
+The nose should then be lowered and he aircraft steered in the normal manner.
+There will be greater tendency for the aircraft to yaw off the runway until the
+full weight of the aircraft is being supported by the undercarriage. You will
+need to master this technique before you fly combat missions so practise it
+now!
+
+Use the same method to practise cross wind landings as for previous landing
+exercises, but select from the weather menu a wind direction of 90 or 270
+degrees. Set the wind velocity to 5 knots to begin with and gradually increase
+it to 30 knots as your confidence grows.
+
+	        Advanced Flying Techniques  
+
+Aerobatics ================================================================
+Both offensive and defensive air combat manoeuvres are basically aerobatic
+manoeuvres. These are therefore explained before studying the classical air-
+combat-specific manoeuvres.
+
+Basic loop=================================================================
+In this manoeuvre the aircraft is flown through 360 degrees in the vertical
+plane, starting from level flight. Positive 'g' is pulled throughout but the
+amount depends upon the amount of speed lost during the first half of the
+loop.
+
+To perform a loop note the aircraft's entry heading so that during the loop a
+constant compass bar position can be maintained - except when vertical.
+Airspeed determines how much 'g' can be pulled during the loop.
+
+Gently pull the stick back and maintain a constant rate of pitch change
+throughout the whole loop. The aircraft may attain speeds below the one 'g'
+stalling speed so care must be taken not to stall the aircraft be referring to
+the angle of incidence.
+
+The stick forces required to maintain a constant pitch change decrease to a
+minimum at the top of the loop where the speed is low and increase to a maximum
+at the bottom where the speed is high. A correctly performed loop results in
+the aircraft exiting the manoeuvre on the same heading and height as the entry.
+
+Aileron roll ==============================================================
+During an aileron roll the aircraft is rotated through 360 degrees about it's
+longitudinal axis. The speed an aircraft is rolled at is not important provided
+the pilot is aware of his height and speed at the start of the manoeuvre. A
+higher entry speed will result in less height being lost and greater control of
+the aircraft.
+
+Performing a slow roll is more demanding, hence this manoeuvre is explained.
+Chose an object on the ground to act as a reference point. Enter the manoeuvre
+from level flight by raising the nose of the aircraft, then apply aileron in
+the direction of the roll together with a small amount of rudder. As the
+aircraft approached 90 degrees of bank progressively apply top rudder to
+maintain height and use forward stick to maintain the heading. From 90 to 180
+degrees the stick is moved progressively forward to maintain height and the
+rudder to maintain heading.
+
+Roll out of the manoeuvre using the same technique. Use the ailerons to
+maintain a constant rate of roll. Use the elevators and rudder to keep the nose
+of the aircraft pointing at your reference point. With practise a slow roll can
+be done at a constant height and heading.
+
+Barrel roll================================================================
+In this manoeuvre the nose of the aircraft is made to travel around a spiral
+path some distance from the axis of roll. Positive 'g' is applied throughout
+the manoeuvre. To do a barrel roll, chose a point of reference and draw an
+imaginary circle round it. Dive the aircraft in the opposite direction to that
+which you intend to roll and join the circle at the 8 o'clock position if
+rolling right or the 4 o'clock position if rolling left.
+
+The aircraft is then pitched and rolled to follow the circle around the
+reference point. A constant rate of roll should be maintained throughout the
+manoeuvre.
+
+Stall turn ===============================================================
+
+During a stall turn the direction of the aircraft is changed through 180
+degrees. Contrary to what the name suggests the wings of the aircraft are not
+stalled in this type of turn, but speeds lower than the 1 'g' stalling limit
+may be achieved during the manoeuvre.
+
+The manoeuvre is entered from level flight by climbing towards the vertical
+with the wings level. As the aircraft reaches the vertical ease the stick
+forward and maintain the vertical attitude. Reduce the speed of the aircraft by
+closing the throttles. As the speed reduces, apply rudder to cart-wheel the
+aircraft around it's wing tip and prevent any roll with the ailerons. As the
+aircraft begins to dive centralise the rudder and keep the wings level. Allow
+sufficient speed to build before pulling out of the dive.
+
+Aileron turn ==============================================================
+The aileron turn is a roll done vertically downwards, and is achieved by
+putting the aircraft into a vertical dive with the air brakes out, and
+attaining an acceleration such that 'g' is reduced to zero when the vertical
+is reached.
+Pick a point on the ground and roll the aircraft so that when you pull 'g' out
+of the dive the aircraft will be heading towards it. Note that the horizon
+surrounds you when in vertical manoeuvre and that speed is rapidly gained in
+the zero 'g' state.
+
+Vertical roll =============================================================
+This is essentially the same as an aileron turn but the aircraft is in a
+vertical climb. Put the aircraft into a vertical climb and roll onto the new
+heading when flying vertically. This manoeuvre is best performed at night using
+the stars as a reference point.
+
+Four point hesitation roll ================================================
+This manoeuvre requires sufficient entry speed to support the aircraft in level
+flight when vertically banked and inverted. The aircraft is rolled through 360
+degrees but hesitated every 90 degrees. Roll the aircraft 90 degrees, apply top
+rudder and push the stick forward to prevent any heading change. Then roll to
+the 180 degree position while maintaining level flight by pushing the stick
+further forwards. The 270 degree position is the same as the 90 degree
+position.
+
+An 8 point hesitation roll may also be made by modifying the manoeuvre. If
+correctly performed height and heading will remain constant.
+
+Half roll off the top of a loop============================================
+This manoeuvre consists of the first half of a loop followed by the second half
+of a roll. In this manoeuvre the aircraft heading changes by 180 degrees,
+whilst height is gained and speed is lost.
+
+Half roll==================================================================
+The half roll is the opposite of the half roll of the top of a loop, consisting
+of the first half of a roll followed by the second half of a loop. In this
+manoeuvre the aircraft's heading changes by 180 degrees, whilst losing height
+and gaining speed.
+
+Derry turn=================================================================
+A derry turn results in an aircraft performing a high 'g' turn in one direction
+and then reversing the turn to the other direction by rolling through the
+inverted attitude. The control movements are similar to a roll but the wings
+are unloaded first to stop the aircraft turning before rolling and pulling 'g'
+in the other direction.
+
+Inverted flight ===========================================================
+During inverted flight an aircraft responds normally to control movements but
+the movement of the aircraft relative to the horizon is reversed. The main
+features of inverted flight are:
+
+*	The lift coefficient of the wings is less, therefore greater airspeed
+	is required to make up for the loss.
+*       Deploying flaps will further reduce the negative lift coefficient.
+*	The stalling speed is higher.
+*	There is more drag because the wings are less efficient.
+*	Aircraft and pilots are not able to withstand high negative 'g'
+	loading.
+
+				
+			     Combat  				
+
+A pilot must achieve complete mastery of the air if he is to survive the deadly
+'kill or be killed' game of aerial combat. He must also develop great tactical
+awareness and keep a constant look out for his enemy using his radar. Contrary
+to what people might think, there are no definitive tactics or manoeuvres to be
+learnt. Although classical dogfighting techniques are studied and practised by
+novice fighter pilots, a good pilot will develop his own repertoire of
+manoeuvres which will exploit the best characteristics of his aircraft and the
+worst of his opponents.
+
+So far, you have used the simulator in training mode. This may be changed to
+Combat Ready mode when on the ground and stationary, by selecting 2 in the
+simulator menu.
+
+Combat Mission Planning ====================================================
+
+The Mission Planning menu selection (F1:F7) allows a primary target to be
+programmed into the nav computer together with relevant way points. Targets are
+depicted as boxes and show where your intelligence officers believe they exist
+together with their type. As we all know, intelligence information may be
+wrong so be prepared! You can move around the map with keys  7 8 9 / - + and
+the mouse for fine position control of the Northings and Eastings.
+Key P will select the current target you are positioned over as the primary
+target. Primary target information is lost each time you land so remember to
+
+select one before you take off.
+
+Way points should be entered during Combat Mission Planning, thus allowing the
+pilot to program his navigation computer with the best route towards the
+primary target. This may involve a route which avoids ground obstacles, enemy
+installations or awkward wind shear problems when he is making his final attack
+run. The coupled approach mode is selected from the auto-pilot menu and allows
+the pilot to navigate back to his home base or land. Provided the selection is
+valid the BRG and DME will also work at this time.
+If the auto-pilot is in AP TG mode during an attack run the pilot should
+disengage it before the target is destroyed or before he over flies it. Note
+that the auto-pilot may not be able to control a damaged aircraft.
+Your score, as a percentage of the number of targets destroyed, is displayed
+during the mission planning phase.
+
+Target Designation ========================================================
+
+Targets are divided into air and ground, with ground targets sub-divided into
+primary and opportunity. The primary mission target must be selected from the
+area map during mission planning.
+Targets of opportunity present themselves as the aircraft flies over enemy
+territory. Multiple air targets may exist, all of which are tracked by the
+radar. The current air target list pointer may be incremented or decremented
+by pressing keys [ ], which will rotate the selection. When a valid target
+is found its radar return will flash on the radar display and a target
+designator will highlight will highlight it on the HUD. Keys O and P select
+ground opportunity and primary targets.
+
+Stores ==================================================================
+
+The number of missiles and bombs being carried can be displayed on the HUD
+(KEY 0 and ). The type of missile selected is also changed by these keys 0
+for Heat-Seeking and . for SKYFLASH), the current selection being confirmed by
+a tick. The number of cannon shells remaining is displayed on the instrument
+panel by the strip gauge (AMUN). When the aircraft is on the ground and
+stationary the stores and fuel are replenished. In training mode there is an
+unlimited supply of stores.
+
+Available Stores ==========================================================
+27mm Mauser cannon, with ammunition for 35 seconds.
+
+4 AIM-9L Sidewinder air-to-air missiles, max range 8nm. This is a fire-and-
+forget type of missile and may be used to engage the enemy from any angle.
+However less success is achieved with 'beam on' crossing targets.
+4 BAe Sky Flash Air-to-air missiles, max range 30nm. This missile is guided to
+the target by your illumination radar. You must therefore maintain lock on for
+the duration of its flight.
+2 500lb high explosive bombs.
+
+Weapons Operation=========================================================
+
+Bomb Delivery System                                     Keypad 1
+----------------------------------------------------------------------------
+The CCIP bomb sight has a fly to line and cross hair. The fly to line indicates
+to the pilot where the aircraft will be if the instantaneous course is
+maintained. This should be directed towards the ground target. The cross hair
+will indicate the point where the bomb would fall if it were to be released
+now. The aircraft speed, height and attitude will dictate where the bomb will
+fall. The cross hair will not be in view if any limit is exceeded.
+
+A typical bombing run would commence at 300 ft and 400kts. Bomb release is
+automatic and will turn off the bomb sight. Check that nav is valid and that
+the bomb is armed before the run is started. Aim to place you cross hair over
+his target centre cross hair.
+
+Air to Air Gunnery                                       Keypad 2
+----------------------------------------------------------------------------
+The gun sight has a cross hair and ring. The cross hair indicates where the
+cannon shells will converge should the gun be fired. This point will be
+directly in front of you flying straight and level. When manoeuvring, the
+cross hair will move about. The convergence range will be adjusted by an output
+from the nav computer. For this reason the target must be acquired first.
+
+If the target is out of range the ring will show as a large cross hair, its
+size will diminish as the range closes. When within range the ring will be an
+I shape. The pilot can choose at this time to use the deflection cross hair
+and position it over the target cross hair and fire the gun. Alternatively he
+may move the I shape over the target and radar elevate the cannon. This will
+result in the cannon being directed to lead the target by whatever amount is
+necessary to score a kill. The I shape will become a box when the radar has
+locked on to the target. At this time the gun should be fired. Short accurate
+bursts using the deflection sight will generally prove most economical with
+ammunition.
+Some enemy aircraft can jam your radar signal and prevent the elevated mode
+from working.
+
+Air to Air Missiles                                      Keypad 3
+----------------------------------------------------------------------------
+The missiles sight is similar to the gun sight but without the deflection cross
+hair. In other words you lay the sight over the aircraft target and release the
+missile. The size of the sight is larger than the gun sight but even though a
+lock may be indicated the missiles cannot be released if your aircraft is
+pulling too many 'g'. It is therefore useful to use the g ring together with
+the missile sight and lock your enemy as close to 1g as possible before
+releasing the missile. A missile is not guaranteed to score a kill - remember
+that it has to fly there by leading the target. The AIM-9L can pull up to 30g
+but not until it is moving fast enough. Remember that your opponent can jam
+incoming missiles almost as well as you can but he can't jam a well placed
+cannon shell!
+
+MIssile Deception Jamming                                Key: D
+----------------------------------------------------------------------------
+It is important to scan you radar regulary and spot incoming enemy missiles.
+During their last moments of flight a warning signal will sound in your head
+set. A closing missile produces an ascending tone which changes to a descending
+tone as the missile's range begins to increase again. It is sometimes too
+late to jam the missile at this stage. The job of the 'jockey' or pilot is to
+fly the aircraft whilst the navigator or 'back seat ballast' looks after
+navigation and missile deception.
+
+The pilot's 'head up attitude' together with his awareness of the tactical
+situation will dictate when he wishes the navigator to jam incoming missiles
+before pulling into a high 'g' defensive manoeuvre. This request for deception
+jamming is relayed to the navigator by pressing Key D, and holding it down
+during the defensive manoeuvre. Ideally missiles should be jammed during their
+final 10 seconds of flight.
+
+Air to air missiles can be recognised by the appearance of a high speed blip
+leaving an enemy aircraft. Surface to air missiles can be recognised by the
+sudden appearance of a high speed blip. Maintaining the correct radar range
+setting is therefore vital to the early recognition of incoming missiles.
+
+Combat Training Mode ========================================================
+
+The combat training mode allows you to practise your combat skills against soft
+targets. The air targets will use their weapons and you will be able to destroy
+them, but unlike combat mode you can set crash inhibit and practise without
+being killed.
+
+Set crash inhibit (F1: F1) and take-off towards the bridge North of your
+runway. When you are ready, select an air target from the training menu
+(F1: F4: F5) and wait until it appears on the radar display. The air and ground
+targets always appear from the same place, between the runway and bridge, to
+allow you to choose your initial starting point for an attack.
+
+When you have a target displayed on radar, set TG navigation mode (Key Delete)
+and select the target. Ground targets are selected with KEY P, air targets with
+keys [ and ]. Practise all of your aerobatic and air combat skills, using all
+of your weapons, until you feel confident enough to engage in real combat.
+
+Target Acquisition and Weapons Firing====================================
+
+At first it is easy to forget the procedure, particularly in the heat of
+battle. The target must be selected if the weapons system is to lock on 
+O = opportunity ground target, P = primary ground target, [ ] = air targets).
+The NAVWASS system must be suitably engaged i.e. TG mode (Key Delete). At this
+time the radar display will highlight the target, BRG, DME become valid and if
+the ND is selected (Key N) it will direct the pilot to the target.
+The correct weapon must be selected, BOMB/GUN/MISSILE (Keypad 1,2,3). If a
+missile is to used, the correct type must be selected. Finally the master arm
+switch must be pressed. Bombs are automatically released because pilot reaction
+time is too slow. Guns and missiles are fired with the Space Bar. There are
+times when the enemy can effectively jam a missile during the critical release
+phase.
+
+Combat Objectives=========================================================
+
+The object of your missions is to eliminate the enemy's air and ground
+installations. At the end of each successful mission you will be able to save
+the current state of the enemy's installations onto your work disk using the
+Save Enemy Data Base option found in the Combat menu (F1: F5: F1). You can also
+load this data base when restarting ProFlight on another occasion, taking up
+the battle where you left off.
+If there are any enemy aircraft still in your airspace after you have landed,
+your mission will not have finished. You will have to deal with them by taking
+off, destroying them, and landing again.
+When planning you mission you are provided with intelligence information which
+will help you in deciding how best to eliminate the enemy. This information may
+not be wholly accurate, so be prepared for secret installations which are not
+indicated on your map. Consider the purpose of these installations and how
+their destruction will hamper the enemy's job of defending his airspace. Keep
+cool at all times and try not to become hopelessly outnumbered. It is generally
+better to nibble at the enemy rather than trying to bite off more than you can
+chew.
+The mission planning mode indicates your percentage kills; when this is low the
+enemy will take less notice of you and will be establishing its best defensive
+tactics, If you manage to dent his defences severely you can expect the enemy
+to engage you with his best pilots and aircraft.
+If your aircraft sustains battle damage this will be reported on the screen,
+expect to compensate for changes in flight characteristics of the aircraft. A
+crash will return you to your home base and reload the current enemy data base
+if flying in combat mode.
+
+Dogfighting ==============================================================
+
+These manoeuvres are divided into two catagories, offensive and defensive.
+Offensive manoeuvres are used by a pursuing aircraft to maintain the initiative
+and to position himself for the kill. Defensive manoeuvres are used by the
+quarry to turn the tables and become the pursuer. Both require the pilot to
+make a rapid and continual assessment of his position relative to the enemy,
+and to select his best course of action. For this reason a pilot is constantly
+revising his strategy and is therefore unlikely to complete a text book
+manoeuvre. To be predictable is to be dead. Both types of manoeuvre require the
+pilot to make rapid changes of direction and speed to gain an advantage.
+The following manoeuvres serve only to illustrate some of the possibilities and
+may be used in a variety of situations. Remember that you are trying to prevent
+your opponent from 'bracketing' you in their sights whilst manoeuvring into a
+position where you can. It is more important to understand how you achieve an
+advantage through using these manoeuvres, rather than when to use them, because
+this will in turn lead to a better understanding of when to apply them.
+(The illustrations have not been included for space reasons... maybe some
+other time.)
+High speed Yo-Yo
+---------------------------------------------------------------------------
+In this manoeuvre you pull up into a stalled turn to lose speed and then roll
+out into a dive behind your opponent. It results in a turn of small horizontal
+area requiring a high 'g' pull up to the vertical and therefore a high entry
+speed. It is sometimes referred to as a 'high-g yo-yo'. It could be used to
+an advantage when an aircraft crosses in front of you and turns towards you to
+prevent you from getting onto his tail.
+Low speed Yo-Yo
+---------------------------------------------------------------------------
+The low-speed or low-g yo-yo again results in a tight turn, however because of
+the low entry speed the aircraft is pointed towards the ground with the wings
+unloaded to accelerate rapidly. The pilot is then in a position to roll towards
+his quarry and pull out of the dive using higher 'g'. This manoeuvre could be
+used to break the stalemate of a turning dogfight where both aircraft are close
+to stalling and are unable to pull high 'g' without first gaining speed.
+Flip Yo-Yo
+-----------------------------------------------------------------------------
+This manoeuvre is a variant of the low-speed yo-yo. The diving aircraft first
+inverts his aircraft and pulls rather than pushes 'g' into the dive.
+Lag pursuit roll
+-----------------------------------------------------------------------------
+The pursuing aircraft transfers across the track of a turning aircraft by
+executing a barrel roll. It may be used when the pursuing aircraft is
+travelling too fast on the inside of a turn and wishes to transfer to the
+lethal 6 o'clock position.
+Break turn
+------------------------------------------------------------------------------
+This is a classic defensive manoeuvre performed by the quarry attempting to
+frustrate the pursuers line of attack and make him overshoot. The quarry pulls
+a high 'g' turn at the limit of his endurance.
+High-'g' barrel roll
+------------------------------------------------------------------------------
+In this manoeuvre the quarry attempts to make the pursuing aircraft, which is
+overtaking fast, overshoot. The air brakes are used and throttles closed in
+order to decelerate rapidly while pulling 'g'.
+Scissors
+------------------------------------------------------------------------------
+If an aircraft has a low stalling speed it can be used to an advantage by
+flying slow tight turns in order to get behind his opponent. If both aircraft
+try this manoeuvre it results in the scissors. Both aircraft fly slowly round
+each other trying to position themselves for a shot. The first aircraft to
+stall or break away will be the loser. The scissors may be performed
+horizontally or vertically downward in which case it is the ultimate game of
+Chicken. When flying vertically downward a high AOA is maintained to prevent
+the aircraft accelerating.
+
+			
+				  Appendix
+				  Key Guide  
+				
+KEY		Primary Function Mission Planning Mode
+-----------------------------------------------------------------------------
+A		Engage air brakes
+B		Engage wheel brake
+C		Change auto-pilot attitude
+		and heading mode
+		between rudder and stick
+D		Deception jammer for
+		incoming missiles
+E		Select engine auto throttle
+		from AOFF, ATAS, AIAS
+F		Deploy flaps
+G		Raise/Lower landing gear Go to waypoint
+H     	        Toggle HUD horizon Change waypoint height
+I		Interrupt simulator
+J		Increase trim
+K		Toggle rudder bar between
+		dynamic and fixed
+M		Toggle view between cockpit
+		and observer
+N		Toggle HUD navigation
+		display
+O		Opportunity ground
+		target lock
+P		Primary ground target lock Select Primary Target
+R		Retract flaps
+S		Sweep wings back
+T		HDG to reciprocal
+U		Decrease trim
+V		Set static view point
+W		Sweep wings forward
+X		Increase 'g' limit
+Y		HUD 'g' indicator and ring
+Z		Decrease 'g' limit
+<    	        Increase thrust, ATAS, AIAS
+>		Decrease thrust, ATAS, AIAS
+[		Step target aircraft lock +
+]		Step target aircraft lock -
+;		Decrease sensitivity 
+		controls
+H		Increase sensitivity of
+		controls
+TAB		Toggle HUD on/off
+Insert		Auto-pilot on/off
+Backspace	Auto-pilot/nav altitude and
+		heading mode
+Delete		Auto-pilot/nav target mode Help
+Help		Pause Simulator
+#		Auto-pilot/nav Way point mode
+Cursor Right	Look Right
+Cursor Left	Look Left
+Cursor Up	Look Up
+Cursor Down	Look Down
+Clr/Home	Reset to normal view
+1		Select day, dusk, night
+2		Solid ground objects
+3		Solid elevated object
+4		Solid Enemy objects
+5		Artificial outside horizon
+6		Grid
+7		Stars
+8		Fly to line
+9		Decrease visual range
+0		Increase visual range
+-     	        Decrease radar range
++		Increase radar range
+Keypad )	Move north in slew mode
+Keypad 8	Move south in slew mode
+Keypad 7	Move west in slew mode
+Keypad 9	Move east in slew mode
+Keypad -	Move down in slew mode
+Keypad +	Move up in slew mode
+Keypad /	Reset N/S, W/E and Height slew Move to home runway
+Keypad 1	Select C.CP. bomb sight
+Keypad 2	Select gun deflection/radar sight
+Keypad 3	Select missile sight
+Keypad Enter	Arm/Safe Weapons
+Keypad 0	Select AIM-9L missile
+Keypad .	Select Skyflash missile
+Space		Fire Gun/Missile
+Both shift	Ejection seat
+keys (first)
+and Escape
+F9		Yaw left
+F10		Yaw right
