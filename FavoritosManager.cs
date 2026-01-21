@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Windows.Forms;
 
 namespace WinFormsManual
 {
     public class FavoritosManager
     {
         private static readonly string FavoritosFilePath = Path.Combine(
-            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
-            "Manuales_WinUAE",
+            Application.StartupPath ?? Environment.CurrentDirectory,
+            "json",
             "favoritos.json"
         );
 
@@ -42,8 +43,9 @@ namespace WinFormsManual
                     _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                System.Diagnostics.Debug.WriteLine($"Error cargando favoritos: {ex.Message}");
                 _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             }
@@ -69,10 +71,16 @@ namespace WinFormsManual
 
                 var json = JsonSerializer.Serialize(datos, opciones);
                 File.WriteAllText(FavoritosFilePath, json);
+                
+                // Debug: Verificar que se guardó
+                System.Diagnostics.Debug.WriteLine($"Guardados favoritos en: {FavoritosFilePath}");
+                System.Diagnostics.Debug.WriteLine($"JSON: {json}");
             }
-            catch
+            catch (Exception ex)
             {
-                // Silenciar errores de guardado para no interrumpir la experiencia del usuario
+                // Mostrar error en lugar de silenciarlo para depuración
+                System.Diagnostics.Debug.WriteLine($"Error guardando favoritos: {ex.Message}");
+                MessageBox.Show($"Error al guardar favoritos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -147,40 +155,7 @@ namespace WinFormsManual
 
     internal class FavoritosData
     {
-        [JsonConverter(typeof(StringCaseInsensitiveHashSetConverter))]
         public HashSet<string> CheatCodes { get; set; } = new();
-
-        [JsonConverter(typeof(StringCaseInsensitiveHashSetConverter))]
         public HashSet<string> Manuales { get; set; } = new();
-    }
-
-    // Convertidor personalizado para HashSet<string> con case insensitive
-    public class StringCaseInsensitiveHashSetConverter : JsonConverter<HashSet<string>>
-    {
-        public override HashSet<string> Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
-        {
-            if (reader.TokenType != JsonTokenType.StartArray)
-                return new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-
-            var set = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-            while (reader.Read() && reader.TokenType != JsonTokenType.EndArray)
-            {
-                if (reader.TokenType == JsonTokenType.String)
-                {
-                    set.Add(reader.GetString() ?? string.Empty);
-                }
-            }
-            return set;
-        }
-
-        public override void Write(Utf8JsonWriter writer, HashSet<string> value, JsonSerializerOptions options)
-        {
-            writer.WriteStartArray();
-            foreach (var item in value)
-            {
-                writer.WriteStringValue(item);
-            }
-            writer.WriteEndArray();
-        }
     }
 }
