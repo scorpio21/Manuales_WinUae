@@ -4,16 +4,48 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace WinFormsManual
 {
     public class FavoritosManager
     {
         private static readonly string FavoritosFilePath = Path.Combine(
-            Application.StartupPath ?? Environment.CurrentDirectory,
+            GetApplicationPath(),
             "json",
             "favoritos.json"
         );
+
+        private static string GetApplicationPath()
+        {
+            // En single-file apps, Assembly.Location no funciona
+            // Usar AppContext.BaseDirectory que es más fiable
+            var basePath = AppContext.BaseDirectory;
+            
+            if (!string.IsNullOrEmpty(basePath) && Directory.Exists(basePath))
+            {
+                return basePath;
+            }
+            
+            // Fallback a otras opciones
+            var paths = new[]
+            {
+                AppDomain.CurrentDomain.BaseDirectory,
+                Environment.CurrentDirectory,
+                Application.StartupPath
+            };
+
+            foreach (var path in paths)
+            {
+                if (!string.IsNullOrEmpty(path) && Directory.Exists(path))
+                {
+                    return path;
+                }
+            }
+
+            // Último recurso
+            return ".";
+        }
 
         private static HashSet<string>? _favoritosCheatCodes;
         private static HashSet<string>? _favoritosManuales;
@@ -27,18 +59,26 @@ namespace WinFormsManual
         {
             try
             {
+                System.Diagnostics.Debug.WriteLine($"Intentando cargar favoritos desde: {FavoritosFilePath}");
+                
                 Directory.CreateDirectory(Path.GetDirectoryName(FavoritosFilePath)!);
 
                 if (File.Exists(FavoritosFilePath))
                 {
                     var json = File.ReadAllText(FavoritosFilePath);
+                    System.Diagnostics.Debug.WriteLine($"JSON leído: {json}");
+                    
                     var datos = JsonSerializer.Deserialize<FavoritosData>(json);
+                    System.Diagnostics.Debug.WriteLine($"Datos deserializados - CheatCodes: {datos?.CheatCodes?.Count ?? 0}, Manuales: {datos?.Manuales?.Count ?? 0}");
                     
                     _favoritosCheatCodes = datos?.CheatCodes ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                     _favoritosManuales = datos?.Manuales ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                    
+                    System.Diagnostics.Debug.WriteLine($"Favoritos cargados - CheatCodes: {_favoritosCheatCodes.Count}, Manuales: {_favoritosManuales.Count}");
                 }
                 else
                 {
+                    System.Diagnostics.Debug.WriteLine("Archivo de favoritos no existe, creando nuevos");
                     _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                     _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 }
@@ -46,6 +86,7 @@ namespace WinFormsManual
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"Error cargando favoritos: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"StackTrace: {ex.StackTrace}");
                 _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             }
