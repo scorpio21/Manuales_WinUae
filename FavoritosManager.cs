@@ -5,12 +5,13 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Windows.Forms;
 using System.Reflection;
+using System.Linq;
 
 namespace WinFormsManual
 {
     public class FavoritosManager
     {
-        private static readonly string FavoritosFilePath = Path.Combine(
+        private static string FavoritosFilePath => Path.Combine(
             GetApplicationPath(),
             "json",
             "favoritos.json"
@@ -18,75 +19,71 @@ namespace WinFormsManual
 
         private static string GetApplicationPath()
         {
-            // En single-file apps, Assembly.Location no funciona
-            // Usar AppContext.BaseDirectory que es más fiable
-            var basePath = AppContext.BaseDirectory;
+            // Detectar si estamos en modo desarrollo (bin/Debug) o en modo instalado
+            var currentDir = AppContext.BaseDirectory;
             
-            if (!string.IsNullOrEmpty(basePath) && Directory.Exists(basePath))
+            // Si estamos en bin/Debug, devolver la carpeta del proyecto
+            if (currentDir.Contains("\\bin\\") || currentDir.Contains("/bin/"))
             {
-                return basePath;
+                // Subir desde bin/Debug/net8.0-windows/win-x64 hasta la raíz del proyecto
+                var projectDir = Path.GetFullPath(Path.Combine(currentDir, "..", "..", "..", ".."));
+                return projectDir;
             }
             
-            // Fallback a otras opciones
-            var paths = new[]
-            {
-                AppDomain.CurrentDomain.BaseDirectory,
-                Environment.CurrentDirectory,
-                Application.StartupPath
-            };
-
-            foreach (var path in paths)
-            {
-                if (!string.IsNullOrEmpty(path) && Directory.Exists(path))
-                {
-                    return path;
-                }
-            }
-
-            // Último recurso
-            return ".";
+            // Si no, estamos en modo instalado, usar la carpeta actual
+            return currentDir;
         }
+
+        // Método para inicializar después de que la aplicación esté completamente cargada
+        public static void Inicializar()
+        {
+            try
+            {
+                CargarFavoritos();
+                // Notificar que los favoritos han sido cargados
+                FavoritosCargados?.Invoke(null, EventArgs.Empty);
+            }
+            catch (Exception ex)
+            {
+                // En caso de error, inicializar con colecciones vacías
+                _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            }
+        }
+
+        // Evento para notificar cuando los favoritos se han cargado
+        public static event EventHandler? FavoritosCargados;
 
         private static HashSet<string>? _favoritosCheatCodes;
         private static HashSet<string>? _favoritosManuales;
-
-        static FavoritosManager()
-        {
-            CargarFavoritos();
-        }
+        private static bool _inicializado = false;
 
         private static void CargarFavoritos()
         {
             try
             {
-                System.Diagnostics.Debug.WriteLine($"Intentando cargar favoritos desde: {FavoritosFilePath}");
+                var appPath = GetApplicationPath();
+                var favoritosPath = Path.Combine(appPath, "json", "favoritos.json");
                 
-                Directory.CreateDirectory(Path.GetDirectoryName(FavoritosFilePath)!);
+                Directory.CreateDirectory(Path.GetDirectoryName(favoritosPath)!);
 
-                if (File.Exists(FavoritosFilePath))
+                if (File.Exists(favoritosPath))
                 {
-                    var json = File.ReadAllText(FavoritosFilePath);
-                    System.Diagnostics.Debug.WriteLine($"JSON leído: {json}");
+                    var json = File.ReadAllText(favoritosPath);
                     
                     var datos = JsonSerializer.Deserialize<FavoritosData>(json);
-                    System.Diagnostics.Debug.WriteLine($"Datos deserializados - CheatCodes: {datos?.CheatCodes?.Count ?? 0}, Manuales: {datos?.Manuales?.Count ?? 0}");
                     
-                    _favoritosCheatCodes = datos?.CheatCodes ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-                    _favoritosManuales = datos?.Manuales ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-                    
-                    System.Diagnostics.Debug.WriteLine($"Favoritos cargados - CheatCodes: {_favoritosCheatCodes.Count}, Manuales: {_favoritosManuales.Count}");
+                    _favoritosCheatCodes = datos?.CheatCodes != null ? new HashSet<string>(datos.CheatCodes, StringComparer.OrdinalIgnoreCase) : new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                    _favoritosManuales = datos?.Manuales != null ? new HashSet<string>(datos.Manuales, StringComparer.OrdinalIgnoreCase) : new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 }
                 else
                 {
-                    System.Diagnostics.Debug.WriteLine("Archivo de favoritos no existe, creando nuevos");
                     _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                     _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 }
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Error cargando favoritos: {ex.Message}");
-                System.Diagnostics.Debug.WriteLine($"StackTrace: {ex.StackTrace}");
                 _favoritosCheatCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
                 _favoritosManuales = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             }
@@ -100,8 +97,8 @@ namespace WinFormsManual
 
                 var datos = new FavoritosData
                 {
-                    CheatCodes = _favoritosCheatCodes ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase),
-                    Manuales = _favoritosManuales ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+                    CheatCodes = _favoritosCheatCodes?.ToList() ?? new List<string>(),
+                    Manuales = _favoritosManuales?.ToList() ?? new List<string>()
                 };
 
                 var opciones = new JsonSerializerOptions
@@ -179,6 +176,13 @@ namespace WinFormsManual
             return _favoritosManuales ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         }
 
+        // Método para forzar recarga (para depuración)
+        public static void ForzarRecarga()
+        {
+            System.Diagnostics.Debug.WriteLine("=== FORZANDO RECARGA MANUAL ===");
+            CargarFavoritos();
+        }
+
         // Método para obtener el texto con estrella
         public static string GetTextoConEstrella(string nombre, bool esFavorito)
         {
@@ -196,7 +200,10 @@ namespace WinFormsManual
 
     internal class FavoritosData
     {
-        public HashSet<string> CheatCodes { get; set; } = new();
-        public HashSet<string> Manuales { get; set; } = new();
+        [JsonPropertyName("cheatCodes")]
+        public List<string> CheatCodes { get; set; } = new();
+        
+        [JsonPropertyName("manuales")]
+        public List<string> Manuales { get; set; } = new();
     }
 }

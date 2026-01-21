@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using System.Drawing;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsManual
@@ -26,6 +27,16 @@ namespace WinFormsManual
             ConfigurarPlaceholder();
             MostrarMensajeBienvenida();
             CargarDocumentosDisponibles();
+            
+            // Forzar actualización de favoritos después de una pequeña demora
+            this.Load += (s, e) => {
+                Task.Delay(100).ContinueWith(_ => {
+                    if (documentosDisponibles != null)
+                    {
+                        this.Invoke(new Action(ActualizarListaDocumentos));
+                    }
+                });
+            };
         }
 
         private void EstablecerIconoFormulario()

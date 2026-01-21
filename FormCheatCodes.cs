@@ -32,6 +32,16 @@ namespace WinFormsManual
             CargarJuegosDisponibles();
             ConfigurarPlaceholder();
             MostrarMensajeBienvenida();
+            
+            // Forzar actualización de favoritos después de una pequeña demora
+            this.Load += (s, e) => {
+                Task.Delay(100).ContinueWith(_ => {
+                    if (juegosDisponibles != null)
+                    {
+                        this.Invoke(new Action(ActualizarListaJuegos));
+                    }
+                });
+            };
         }
 
         private void EstablecerIconoFormulario()
