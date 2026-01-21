@@ -12,6 +12,8 @@ namespace WinFormsManual
         private WebBrowser webContenido;
         private Button btnTraducir;
         private Button btnCerrar;
+        private Button btnFavorito;
+        private ComboBox comboFiltro;
         private Label lblContenido;
         private Label lblJuegos;
 
@@ -25,6 +27,8 @@ namespace WinFormsManual
             lblContenido = new Label();
             btnCerrar = new Button();
             btnTraducir = new Button();
+            btnFavorito = new Button();
+            comboFiltro = new ComboBox();
             panelContenido = new Panel();
             webContenido = new WebBrowser();
             
@@ -68,6 +72,18 @@ namespace WinFormsManual
             lblBusqueda.TabIndex = 1;
             lblBusqueda.Text = "Buscar (puedes escribir parcial):";
             lblBusqueda.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            
+            // comboFiltro - Dropdown para filtrar favoritos
+            comboFiltro.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboFiltro.FormattingEnabled = true;
+            comboFiltro.Items.AddRange(new object[] { "Todos", "Favoritos ★", "No favoritos" });
+            comboFiltro.Location = new System.Drawing.Point(218, 9);
+            comboFiltro.Name = "comboFiltro";
+            comboFiltro.Size = new System.Drawing.Size(120, 23);
+            comboFiltro.TabIndex = 1;
+            comboFiltro.SelectedIndexChanged += comboFiltro_SelectedIndexChanged;
+            comboFiltro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            comboFiltro.SelectedIndex = 0;
             
             // comboIdioma
             comboIdioma.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -131,6 +147,21 @@ namespace WinFormsManual
             lblContenido.Text = "Códigos de trampa:";
             lblContenido.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             
+            // btnFavorito - Botón para agregar/quitar favoritos
+            btnFavorito.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnFavorito.Location = new System.Drawing.Point(12, 398);
+            btnFavorito.Name = "btnFavorito";
+            btnFavorito.Size = new System.Drawing.Size(120, 23);
+            btnFavorito.TabIndex = 7;
+            btnFavorito.Text = "Agregar a favoritos";
+            btnFavorito.UseVisualStyleBackColor = true;
+            btnFavorito.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnFavorito.BackColor = System.Drawing.Color.FromArgb(255, 193, 7);
+            btnFavorito.ForeColor = System.Drawing.Color.Black;
+            btnFavorito.FlatStyle = FlatStyle.Flat;
+            btnFavorito.FlatAppearance.BorderSize = 0;
+            btnFavorito.Click += btnFavorito_Click;
+            
             // btnTraducir - Botón de traducción
             btnTraducir.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnTraducir.Location = new System.Drawing.Point(623, 398);
@@ -168,6 +199,8 @@ namespace WinFormsManual
             Controls.Add(panelContenido);
             Controls.Add(btnTraducir);
             Controls.Add(btnCerrar);
+            Controls.Add(btnFavorito);
+            Controls.Add(comboFiltro);
             Controls.Add(lblContenido);
             Controls.Add(lblJuegos);
             Controls.Add(lstJuegos);

@@ -259,12 +259,7 @@ namespace WinFormsManual
                     }
                 }
 
-                lstJuegos.Items.Clear();
-                foreach (var juego in juegosDisponibles.Keys.OrderBy(x => x))
-                {
-                    lstJuegos.Items.Add(juego);
-                    System.Diagnostics.Debug.WriteLine($"Añadido a lista: '{juego}'");
-                }
+                ActualizarListaJuegos();
                 
                 System.Diagnostics.Debug.WriteLine($"Total juegos en lista: {lstJuegos.Items.Count}");
                 System.Diagnostics.Debug.WriteLine($"=== FIN CARGA ===");
@@ -352,6 +347,77 @@ namespace WinFormsManual
             
             // Mostrar mensaje de bienvenida apropiado
             MostrarMensajeBienvenida();
+        }
+
+        private void comboFiltro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ActualizarListaJuegos();
+        }
+
+        private void ActualizarListaJuegos()
+        {
+            lstJuegos.Items.Clear();
+            if (juegosDisponibles == null) return;
+
+            var filtro = comboFiltro.SelectedIndex;
+            IEnumerable<string> juegosFiltrados;
+
+            switch (filtro)
+            {
+                case 1: // Favoritos
+                    juegosFiltrados = juegosDisponibles.Keys
+                        .Where(juego => FavoritosManager.EsFavoritoCheatCode(juego));
+                    break;
+                case 2: // No favoritos
+                    juegosFiltrados = juegosDisponibles.Keys
+                        .Where(juego => !FavoritosManager.EsFavoritoCheatCode(juego));
+                    break;
+                default: // Todos
+                    juegosFiltrados = juegosDisponibles.Keys;
+                    break;
+            }
+
+            foreach (var juego in juegosFiltrados.OrderBy(x => x))
+            {
+                var esFavorito = FavoritosManager.EsFavoritoCheatCode(juego);
+                var textoConEstrella = FavoritosManager.GetTextoConEstrella(juego, esFavorito);
+                lstJuegos.Items.Add(textoConEstrella);
+            }
+        }
+
+        private void btnFavorito_Click(object sender, EventArgs e)
+        {
+            if (lstJuegos.SelectedItem == null) return;
+
+            var textoSeleccionado = lstJuegos.SelectedItem.ToString();
+            var nombreJuego = FavoritosManager.GetNombreSinEstrella(textoSeleccionado);
+
+            FavoritosManager.ToggleFavoritoCheatCode(nombreJuego);
+            
+            // Actualizar la lista para reflejar el cambio
+            ActualizarListaJuegos();
+            
+            // Intentar mantener la selección
+            for (int i = 0; i < lstJuegos.Items.Count; i++)
+            {
+                if (FavoritosManager.GetNombreSinEstrella(lstJuegos.Items[i].ToString()) == nombreJuego)
+                {
+                    lstJuegos.SelectedIndex = i;
+                    break;
+                }
+            }
+
+            // Actualizar el texto del botón
+            ActualizarBotonFavorito(nombreJuego);
+        }
+
+        private void ActualizarBotonFavorito(string nombreJuego)
+        {
+            var esFavorito = FavoritosManager.EsFavoritoCheatCode(nombreJuego);
+            btnFavorito.Text = esFavorito ? "Quitar de favoritos" : "Agregar a favoritos";
+            btnFavorito.BackColor = esFavorito ? 
+                System.Drawing.Color.FromArgb(220, 53, 69) : 
+                System.Drawing.Color.FromArgb(255, 193, 7);
         }
 
         private void MostrarMensajeDepuracion(string mensaje)
@@ -516,8 +582,13 @@ namespace WinFormsManual
 
                 if (lstJuegos.SelectedItem == null || juegosDisponibles == null) return;
 
-                var nombreJuego = lstJuegos.SelectedItem.ToString();
+                var textoSeleccionado = lstJuegos.SelectedItem.ToString();
+                var nombreJuego = FavoritosManager.GetNombreSinEstrella(textoSeleccionado);
+                
                 if (nombreJuego == null) return;
+                
+                // Actualizar el botón de favoritos
+                ActualizarBotonFavorito(nombreJuego);
                 
                 var rutaArchivo = BuscarArchivoCheatCode(nombreJuego);
 

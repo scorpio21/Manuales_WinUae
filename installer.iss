@@ -3,7 +3,7 @@
 
 #define MyAppName "Manuales WinUAE"
 #ifndef MyAppVersion
- #define MyAppVersion "0.1.8"
+ #define MyAppVersion "0.1.9"
 #endif
 #define MyAppPublisher "scorpio21"
 #define MyAppExeName "Manuales_WinUAE.exe"

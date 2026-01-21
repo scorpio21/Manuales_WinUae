@@ -200,11 +200,7 @@ namespace WinFormsManual
                     }
                 }
 
-                lstDocumentos.Items.Clear();
-                foreach (var nombre in documentosDisponibles.Keys.OrderBy(x => x, StringComparer.OrdinalIgnoreCase))
-                {
-                    lstDocumentos.Items.Add(nombre);
-                }
+                ActualizarListaDocumentos();
 
                 if (documentosDisponibles.Count == 0)
                 {
@@ -224,6 +220,77 @@ namespace WinFormsManual
             MostrarMensajeBienvenida();
             CargarDocumentosDisponibles();
             lstDocumentos.SelectedIndex = -1;
+        }
+
+        private void comboFiltro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ActualizarListaDocumentos();
+        }
+
+        private void ActualizarListaDocumentos()
+        {
+            lstDocumentos.Items.Clear();
+            if (documentosDisponibles == null) return;
+
+            var filtro = comboFiltro.SelectedIndex;
+            IEnumerable<string> documentosFiltrados;
+
+            switch (filtro)
+            {
+                case 1: // Favoritos
+                    documentosFiltrados = documentosDisponibles.Keys
+                        .Where(doc => FavoritosManager.EsFavoritoManual(doc));
+                    break;
+                case 2: // No favoritos
+                    documentosFiltrados = documentosDisponibles.Keys
+                        .Where(doc => !FavoritosManager.EsFavoritoManual(doc));
+                    break;
+                default: // Todos
+                    documentosFiltrados = documentosDisponibles.Keys;
+                    break;
+            }
+
+            foreach (var documento in documentosFiltrados.OrderBy(x => x, StringComparer.OrdinalIgnoreCase))
+            {
+                var esFavorito = FavoritosManager.EsFavoritoManual(documento);
+                var textoConEstrella = FavoritosManager.GetTextoConEstrella(documento, esFavorito);
+                lstDocumentos.Items.Add(textoConEstrella);
+            }
+        }
+
+        private void btnFavorito_Click(object sender, EventArgs e)
+        {
+            if (lstDocumentos.SelectedItem == null) return;
+
+            var textoSeleccionado = lstDocumentos.SelectedItem.ToString();
+            var nombreDocumento = FavoritosManager.GetNombreSinEstrella(textoSeleccionado);
+
+            FavoritosManager.ToggleFavoritoManual(nombreDocumento);
+            
+            // Actualizar la lista para reflejar el cambio
+            ActualizarListaDocumentos();
+            
+            // Intentar mantener la selección
+            for (int i = 0; i < lstDocumentos.Items.Count; i++)
+            {
+                if (FavoritosManager.GetNombreSinEstrella(lstDocumentos.Items[i].ToString()) == nombreDocumento)
+                {
+                    lstDocumentos.SelectedIndex = i;
+                    break;
+                }
+            }
+
+            // Actualizar el texto del botón
+            ActualizarBotonFavorito(nombreDocumento);
+        }
+
+        private void ActualizarBotonFavorito(string nombreDocumento)
+        {
+            var esFavorito = FavoritosManager.EsFavoritoManual(nombreDocumento);
+            btnFavorito.Text = esFavorito ? "Quitar de favoritos" : "Agregar a favoritos";
+            btnFavorito.BackColor = esFavorito ? 
+                System.Drawing.Color.FromArgb(220, 53, 69) : 
+                System.Drawing.Color.FromArgb(255, 193, 7);
         }
 
         private static string? BuscarDirectorioAscendiendo(string directorioInicio, string rutaRelativa)
@@ -364,11 +431,16 @@ namespace WinFormsManual
                 return;
             }
 
-            var nombre = lstDocumentos.SelectedItem.ToString();
+            var textoSeleccionado = lstDocumentos.SelectedItem.ToString();
+            var nombre = FavoritosManager.GetNombreSinEstrella(textoSeleccionado);
+            
             if (string.IsNullOrWhiteSpace(nombre))
             {
                 return;
             }
+
+            // Actualizar el botón de favoritos
+            ActualizarBotonFavorito(nombre);
 
             if (!documentosDisponibles.TryGetValue(nombre, out var rutaArchivo))
             {

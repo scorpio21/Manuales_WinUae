@@ -27,6 +27,8 @@ Manuales WinUAE es una aplicación de escritorio diseñada para:
 3. **Selecciona un juego** para ver sus códigos de trampa formateados profesionalmente.
 4. **Haz clic en "Traducir al español"** para traducir el contenido al español.
 5. **Usa "Ver original"** para volver al texto en inglés.
+6. **Agrega a favoritos** usando el botón "Agregar a favoritos" para marcar tus juegos preferidos.
+7. **Filtra por favoritos** usando el dropdown "Favoritos ★" para ver solo tus juegos marcados.
 
 ### Documentación
 
@@ -34,6 +36,8 @@ Manuales WinUAE es una aplicación de escritorio diseñada para:
 2. **Busca documentos** escribiendo parcialmente el nombre en el campo de búsqueda.
 3. **Selecciona un documento** para visualizar su contenido.
 4. Puedes alternar entre **Inglés** y **Español** desde el selector de idioma.
+5. **Agrega a favoritos** usando el botón "Agregar a favoritos" para marcar tus documentos preferidos.
+6. **Filtra por favoritos** usando el dropdown "Favoritos ★" para ver solo tus documentos marcados.
 
 ### Añadir o editar manuales
 

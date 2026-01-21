@@ -11,6 +11,8 @@ namespace WinFormsManual
         private Panel panelContenido;
         private WebBrowser webContenido;
         private Button btnCerrar;
+        private Button btnFavorito;
+        private ComboBox comboFiltro;
         private Label lblDocumentos;
         private Label lblContenido;
 
@@ -23,6 +25,8 @@ namespace WinFormsManual
             lblDocumentos = new Label();
             lblContenido = new Label();
             btnCerrar = new Button();
+            btnFavorito = new Button();
+            comboFiltro = new ComboBox();
             panelContenido = new Panel();
             webContenido = new WebBrowser();
 
@@ -46,6 +50,18 @@ namespace WinFormsManual
 
             // Agregar WebBrowser al panel
             panelContenido.Controls.Add(webContenido);
+
+            // comboFiltro - Dropdown para filtrar favoritos
+            comboFiltro.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboFiltro.FormattingEnabled = true;
+            comboFiltro.Items.AddRange(new object[] { "Todos", "Favoritos ★", "No favoritos" });
+            comboFiltro.Location = new System.Drawing.Point(218, 9);
+            comboFiltro.Name = "comboFiltro";
+            comboFiltro.Size = new System.Drawing.Size(120, 23);
+            comboFiltro.TabIndex = 1;
+            comboFiltro.SelectedIndexChanged += comboFiltro_SelectedIndexChanged;
+            comboFiltro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            comboFiltro.SelectedIndex = 0;
 
             // comboIdioma
             comboIdioma.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -109,6 +125,21 @@ namespace WinFormsManual
             lblContenido.Text = "Documentación:";
             lblContenido.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 
+            // btnFavorito - Botón para agregar/quitar favoritos
+            btnFavorito.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnFavorito.Location = new System.Drawing.Point(12, 398);
+            btnFavorito.Name = "btnFavorito";
+            btnFavorito.Size = new System.Drawing.Size(120, 23);
+            btnFavorito.TabIndex = 7;
+            btnFavorito.Text = "Agregar a favoritos";
+            btnFavorito.UseVisualStyleBackColor = true;
+            btnFavorito.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnFavorito.BackColor = System.Drawing.Color.FromArgb(255, 193, 7);
+            btnFavorito.ForeColor = System.Drawing.Color.Black;
+            btnFavorito.FlatStyle = FlatStyle.Flat;
+            btnFavorito.FlatAppearance.BorderSize = 0;
+            btnFavorito.Click += btnFavorito_Click;
+
             // btnCerrar
             btnCerrar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnCerrar.Location = new System.Drawing.Point(719, 398);
@@ -130,6 +161,8 @@ namespace WinFormsManual
             ClientSize = new System.Drawing.Size(800, 433);
             Controls.Add(panelContenido);
             Controls.Add(btnCerrar);
+            Controls.Add(btnFavorito);
+            Controls.Add(comboFiltro);
             Controls.Add(lblContenido);
             Controls.Add(lblDocumentos);
             Controls.Add(lstDocumentos);

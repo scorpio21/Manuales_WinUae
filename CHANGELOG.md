@@ -1,6 +1,25 @@
 # Changelog
 
-## v0.1.8 - Documentación (Docs\\Manuales) + Menú actualizado
+## v0.1.9 - Sistema de Favoritos
+
+- **Nuevo sistema de favoritos**:
+  - Agregar/quitar juegos y manuales de favoritos con botón dedicado
+  - Estrella (★) visible en la lista para identificar favoritos
+  - Dropdown para filtrar: "Todos", "Favoritos ★", "No favoritos"
+  - Persistencia de favoritos en archivo JSON en AppData
+- **Mejoras en Cheat Codes**:
+  - Botón "Agregar a favoritos" / "Quitar de favoritos" con cambio de color
+  - Filtrado por favoritos manteniendo búsqueda
+  - Mantenimiento de selección al cambiar estado de favorito
+- **Mejoras en Documentación**:
+  - Misma funcionalidad de favoritos que en Cheat Codes
+  - Experiencia consistente entre ambas secciones
+- **Actualizaciones técnicas**:
+  - Nueva clase `FavoritosManager` para gestión centralizada
+  - Soporte para case-insensitive en favoritos
+  - Mejoras en la interfaz con colores dinámicos
+
+## v0.1.8 - Documentación (Docs\Manuales) + Menú actualizado
 
 - **Nuevo menú**:
   - `Cheat Codes` ahora incluye:
